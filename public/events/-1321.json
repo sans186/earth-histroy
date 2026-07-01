@@ -1,0 +1,110 @@
+{
+  "year": -1321,
+  "year_label": "公元前1322年",
+  "era_context": "青铜时代晚期，埃及在拉美西斯二世统治下，赫梯帝国在穆瓦塔里二世统治下。迈锡尼希腊处于晚期希腊底IIIB期。中国商朝。这一时期以伟大帝国、国际外交和军事竞争为特征。时代正接近青铜时代晚期崩溃，尽管同时代人尚未意识到这一点。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "中亚和南亚"
+  ],
+  "events": [
+    {
+      "id": "-1321-001",
+      "title": "埃及-赫梯在叙利亚和黎凡特的紧张局势升级",
+      "region": "埃及、赫梯帝国、叙利亚、黎凡特",
+      "coordinates_approx": "33.5,32.0",
+      "category": "military",
+      "description": "拉美西斯二世和穆瓦塔里二世之间的紧张关系达到临界点，双方都争取对叙利亚和黎凡特的控制。埃及军队向北推进，而赫梯军队向南移动。双方动员军队，准备进行重大军事对抗。这种紧张升级在埃及和赫梯资料中均有记载，是卡迭石战役（传统上约公元前1274年，但一些学者将其定得更早）的前奏。",
+      "key_figures": [
+        "拉美西斯二世（埃及法老）",
+        "穆瓦塔里二世（赫梯国王）"
+      ],
+      "sources": [
+        {
+          "name": "埃及神庙浮雕和行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "赫梯王室铭文和泥板",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "埃及-赫梯紧张升级有详细记载，但逐年精确年代不确定（±3—5年）。",
+      "cross_references": [
+        "-1322-001",
+        "-1320-002"
+      ]
+    },
+    {
+      "id": "-1321-002",
+      "title": "迈锡尼与黎凡特的贸易和文化交流",
+      "region": "希腊、爱琴海、黎凡特、埃及",
+      "coordinates_approx": "35.0,25.0",
+      "category": "economic",
+      "description": "迈锡尼希腊人与黎凡特和埃及维持着广泛的贸易网络。迈锡尼陶器、武器和奢侈品与黎凡特雪松、埃及黄金及其他商品进行交换。这一时期代表了迈锡尼国际贸易和文化影响力的顶峰。迈锡尼商人和工匠出现在黎凡特港口和埃及城市。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "黎凡特和埃及发现迈锡尼陶器的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "提及外国商人的埃及行政记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "迈锡尼贸易网络已得到考古证实。具体年份分配在晚期希腊底IIIB期内是近似的。",
+      "cross_references": []
+    },
+    {
+      "id": "-1321-003",
+      "title": "商代宗教和行政巩固",
+      "region": "中国（黄河流域）",
+      "coordinates_approx": "34.5,114.0",
+      "category": "religious",
+      "description": "商朝继续通过甲骨卜筮和祖先崇拜来巩固其宗教和行政权威。商朝宫廷控制着属国，并定期举行宗教仪式以确保宇宙秩序和农业丰产。这一时期代表了商代宗教和政治组织的成熟阶段。",
+      "key_figures": [
+        "商朝统治者（具体国王不确定）"
+      ],
+      "sources": [
+        {
+          "name": "记录宗教实践的甲骨",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "带有宗教铭文的青铜器",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "商代宗教实践已得到考古证实。具体年份精确定年仍不确定。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "埃及-赫梯紧张升级的日期存在争议。一些学者将主要军事对抗（卡迭石战役）定得早于传统日期，这将影响对该年事件的解释。此外，近期学术研究质疑了将迈锡尼贸易描述为统一繁荣的观点，指出这一时期部分地区存在破坏和动荡的证据。",
+  "historiographic_note": "这一年的记录以有文字帝国强权的资料为主。埃及和赫梯资料呈现的官方叙事可能夸大军事准备并淡化外交失败。迈锡尼资料仅限于考古证据和行政泥板。中国资料丰富但编纂较晚。这一年绝大多数人类社会在历史记录中是隐形的。",
+  "graph_edges": [
+    {
+      "from": "-1321-001",
+      "to": "-1320-002",
+      "relation": "led_to",
+      "note": "埃及与赫梯之间的紧张升级导致重大军事对抗"
+    },
+    {
+      "from": "-1321-002",
+      "to": "-1320-001",
+      "relation": "part_of",
+      "note": "迈锡尼贸易网络持续运作，直至被青铜时代晚期崩溃所中断"
+    }
+  ]
+}

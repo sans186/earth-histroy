@@ -1,0 +1,77 @@
+{
+  "year": -2451,
+  "year_label": "公元前2451年",
+  "era_context": "公元前三千纪中期的延续。纳拉姆辛的阿卡德帝国正在美索不达米亚和黎凡特巩固权力。埃及古王国（第六王朝）处于其衰落的最后阶段。印度河流域文明保持了其成熟的城市文化。安纳托利亚与爱琴海地区的青铜时代社会正发展出以宫殿为中心的经济。",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚（印度河谷以东）",
+    "中美洲和南美洲"
+  ],
+  "events": [
+    {
+      "id": "-2451-001",
+      "title": "纳拉姆辛治下的阿卡德行政整合",
+      "region": "美索不达米亚",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "纳拉姆辛继续推行行政改革，以巩固阿卡德对被征服领土的控制。他任命军事总督管理关键城市，推行标准化税收，并提倡在行政中使用阿卡德语。这些改革旨在建立更加中央集权的帝国，但也引发了地方精英的不满，为帝国最终的脆弱性埋下了伏笔。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德国王）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德行政文书与铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "对阿卡德治理的史学分析",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "纳拉姆辛的行政改革有良好证实，但根据现有资料无法进行逐年排序。此事件被暂置于公元前2451年，作为其统治期内的一个代表性节点。",
+      "cross_references": []
+    },
+    {
+      "id": "-2451-002",
+      "title": "埃及诺姆长权力的巩固",
+      "region": "埃及，上埃及",
+      "coordinates_approx": "25.5, 32.5",
+      "category": "political",
+      "description": "上埃及的地方总督（诺姆长）持续积聚财富与权力，他们修建私人陵墓，并建立起独立于法老中央的地方行政层级。如安赫提菲等诺姆长的铭文记载了他们的军事行动和资源管理，表明真正的权力正从都城转移到各行省。这种去中央化是晚期古王国的一个典型特征。",
+      "key_figures": [
+        "安赫提菲（埃德富与希拉康波利斯的诺姆长）",
+        "锡仑普特（阿斯旺的诺姆长）"
+      ],
+      "sources": [
+        {
+          "name": "诺姆长的自传体铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "墓中铭文与浮雕",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "诺姆长权力的崛起通过铭文得到充分记录。但各诺姆长的精确年代尚不确定；他们一般被归于第六王朝晚期或第一中间期。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "纳拉姆辛对被征服领土的实际控制程度存在争论。一些学者认为其铭文夸大了军事成功，认为他的帝国比传统叙述更脆弱、更不中央集权。同样，古王国的“衰落”有时被重新定义为一种转型而非崩塌，在文化和行政方面存在延续性。",
+  "historiographic_note": "公元前2451年处于美索不达米亚和埃及均发生重大政治变迁的时期，但这一特定年份的具体事件无法从存世资料中识别。历史记录主要由行政文书、铭文及后世史学综合构成，而非同时代的叙事。",
+  "graph_edges": [
+    {
+      "from": "-2451-001",
+      "to": "-2450-001",
+      "relation": "contemporary_with",
+      "note": "阿卡德的巩固与军事战役是并行发生的过程。"
+    }
+  ]
+}

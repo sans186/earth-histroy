@@ -1,0 +1,112 @@
+{
+  "year": -2306,
+  "year_label": "公元前2306年",
+  "era_context": "阿卡德帝国在纳拉姆辛治下处于最后几年。埃及古王国（第六王朝）正在崩溃，第一中间期即将到来。印度河流域文明保持稳定和繁荣。在中国，商朝正在巩固其控制。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中美洲",
+    "北欧",
+    "大洋洲",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-2306-001",
+      "title": "纳拉姆辛统治的最后几年",
+      "region": "美索不达米亚",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "纳拉姆辛的统治接近尾声（他于约公元前2218年去世）。他的铭文继续记载军事战役和行政整合，但后世文书记录的证据表明帝国正面临越来越多的内部和外部压力。维持庞大的阿卡德国家的成本正变得不可持续。纳拉姆辛的继任者将继承一个危机中的帝国。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德王，公元前2254-2218年在位）"
+      ],
+      "sources": [
+        {
+          "name": "纳拉姆辛的王室铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "《阿卡德的诅咒》（后世文学作品）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治有充分证据，但具体的公元前2306年未经独立确认。",
+      "cross_references": []
+    },
+    {
+      "id": "-2306-002",
+      "title": "埃及第六王朝终结",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "佩皮二世的统治结束（传统纪年为公元前2184年，尽管一些学者提出更早的日期）。古王国崩溃，埃及进入第一中间期，其特征是政治分裂和独立地方政权的崛起。过渡时期以大型建筑工程和行政集中的急剧减少为标志。这代表了古埃及历史上最重要的政治转变之一。",
+      "key_figures": [
+        "佩皮二世（埃及法老，第六王朝）"
+      ],
+      "sources": [
+        {
+          "name": "曼涅托的《埃及史》（后世编纂）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "诺马尔赫的自传铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "大型建筑工程衰落的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "第六王朝的终结有充分证据，但确切日期存在争议。传统年表将其定在公元前2184年，但一些学者提出的日期早至公元前2278年或晚至公元前2160年。",
+      "cross_references": []
+    },
+    {
+      "id": "-2306-003",
+      "title": "哈拉帕文明处于最大范围",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "demographic",
+      "description": "印度河流域文明继续处于成熟阶段，没有衰落或中断的迹象。摩亨佐达罗、哈拉帕和多拉维拉等主要城市充分发展且繁荣。贸易网络覆盖广阔区域，从波斯湾延伸到中亚和德干高原。标准化度量衡和城市规划表明一个复杂且稳定的社会。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "哈拉帕遗址的考古发掘",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "地层分析和放射性碳测年",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "成熟哈拉帕阶段通过考古学得到充分证实。具体的公元前2306年落在这一阶段内。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "第六王朝终结的传统年代（公元前2184年）基于苏美尔王表和后世埃及年代学，这些仍在持续的学术辩论中。一些学者提出佩皮二世的统治比传统认为的短得多，这将把第六王朝的终结移到更早的日期。古王国崩溃的原因存在争议；气候变化（尼罗河洪水减少）是一个假说，但内部政治分裂可能同样重要或更重要。",
+  "historiographic_note": "这一年的资料限于王室铭文、行政文书记录和考古证据。从古王国向第一中间期的过渡是古代历史上记录最充分的政治转变之一，但具体原因和时间线仍有争议。非精英人群的视角在历史记录中大部分缺失。",
+  "graph_edges": [
+    {
+      "from": "-2306-001",
+      "to": "-2305-001",
+      "relation": "led_to",
+      "note": "纳拉姆辛统治结束；阿卡德帝国不久后崩溃"
+    },
+    {
+      "from": "-2306-002",
+      "to": "-2305-002",
+      "relation": "led_to",
+      "note": "第六王朝终结导致第一中间期"
+    }
+  ]
+}

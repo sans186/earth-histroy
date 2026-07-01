@@ -1,0 +1,406 @@
+{
+  "year": 1809,
+  "year_label": "1809年",
+  "era_context": "拿破仑战争主导欧洲政治；拿破仑在瓦格拉姆战役中击败第五次反法同盟。在美洲，独立运动开始兴起。工业革命在英国继续加速。清朝面临白莲教起义的内部挑战。奥斯曼帝国因与俄罗斯的战争和内部不稳定而削弱。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1809-001",
+      "title": "拿破仑战争：瓦格拉姆战役",
+      "region": "中欧（奥地利）",
+      "coordinates_approx": "48.17, 16.53",
+      "category": "military",
+      "description": "1809年7月5日至6日，拿破仑在维也纳附近的瓦格拉姆击败了卡尔大公率领的奥地利军队。这场战役是拿破仑战争中规模最大的战役之一，涉及超过30万部队。法国的胜利迫使奥地利求和，并导致了申布伦条约（1809年10月），该条约大幅削减了奥地利的领土和实力。瓦格拉姆显示了拿破仑持续的军事优势，但也揭示了他战争日益高昂的代价。",
+      "key_figures": [
+        "拿破仑·波拿巴（法国皇帝）",
+        "奥地利卡尔大公（奥地利指挥官）",
+        "元帅路易-尼古拉·达武（法国元帅）"
+      ],
+      "sources": [
+        {
+          "name": "法国军事报告和拿破仑的信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "奥地利军事记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（钱德勒、埃斯代尔、德怀尔）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "战役的日期、地点和结果有广泛记载。这是拿破仑战争中记录最详尽的战役之一。",
+      "cross_references": [
+        "1805-001（奥斯特里茨战役）",
+        "1815-001（拿破仑战争结束）"
+      ]
+    },
+    {
+      "id": "1809-002",
+      "title": "申布伦条约",
+      "region": "中欧（奥地利）",
+      "coordinates_approx": "48.18, 16.35",
+      "category": "political",
+      "description": "1809年10月14日，奥地利和法国签署了申布伦条约，结束了第五次反法同盟战争。条约迫使奥地利将包括萨尔茨堡、贝希特斯加登和加利西亚部分地区在内的重要领土割让给法国及其盟友。奥地利还须支付巨额赔款并削减军队。该条约对奥地利来说是屈辱性的失败，进一步巩固了法国在欧洲的统治。它也为1810年拿破仑与奥地利玛丽·路易丝公主的婚姻铺平了道路。",
+      "key_figures": [
+        "拿破仑·波拿巴（法国皇帝）",
+        "弗朗茨一世（奥地利皇帝）",
+        "梅特涅（奥地利外交官）"
+      ],
+      "sources": [
+        {
+          "name": "申布伦条约（原始文件）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "法国和奥地利的外交信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（埃斯代尔、德怀尔、扎莫伊斯基）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "条约的日期、条款和意义在外交记录中有明确记载。",
+      "cross_references": [
+        "1809-001（瓦格拉姆战役）",
+        "1810-001（拿破仑迎娶玛丽·路易丝）"
+      ]
+    },
+    {
+      "id": "1809-003",
+      "title": "英国半岛战争：威灵顿接管指挥",
+      "region": "伊比利亚半岛（西班牙和葡萄牙）",
+      "coordinates_approx": "40.00, -5.00",
+      "category": "military",
+      "description": "1809年4月，阿瑟·韦尔斯利将军（后来的威灵顿公爵）被任命为伊比利亚半岛英军指挥官。威灵顿的任命标志着半岛战争的转折点。他实施了新的战略，包括构建防线（托雷斯韦德拉斯防线）以及协调英、西、葡军队。威灵顿的领导最终将导致法军在西班牙和葡萄牙的失败。",
+      "key_figures": [
+        "威灵顿公爵阿瑟·韦尔斯利（英军指挥官）",
+        "让-巴蒂斯特·儒尔当元帅（西班牙法军总司令）",
+        "威廉·卡尔·贝雷斯福德将军（英国将军）"
+      ],
+      "sources": [
+        {
+          "name": "英国陆军部记录和威灵顿的信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "法国军事报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（奥曼、钱德勒、缪尔）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "威灵顿的任命及其重要性有明确记载。日期和结果无争议。",
+      "cross_references": [
+        "1810-001（罗德里戈城围城战）",
+        "1814-001（半岛战争结束）"
+      ]
+    },
+    {
+      "id": "1809-004",
+      "title": "美国：《禁止交往法案》取代禁运",
+      "region": "北美（美国）",
+      "coordinates_approx": "38.89, -77.04",
+      "category": "political",
+      "description": "1809年3月1日，《禁止交往法案》取代了严重损害美国经济的1807年《禁运法案》。《禁止交往法案》禁止与英国和法国的贸易，但允许与其他国家贸易。该法案在经济上的损害小于禁运，但仍未能实现其外交目标。该法案反映了美国对英国强征水手和法国扣押船只的挫败感，但并未解决这些问题。",
+      "key_figures": [
+        "詹姆斯·麦迪逊（美国总统）",
+        "国会（美国立法机构）"
+      ],
+      "sources": [
+        {
+          "name": "国会记录和辩论",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "总统信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（希基、斯塔格、布兰特）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "《禁止交往法案》的日期和条款在国会记录中有明确记载。",
+      "cross_references": [
+        "1807-001（禁运法案）",
+        "1812-003（1812年战争爆发）"
+      ]
+    },
+    {
+      "id": "1809-005",
+      "title": "清朝：白莲教起义持续",
+      "region": "中国（清朝）",
+      "coordinates_approx": "35.00, 105.00",
+      "category": "military",
+      "description": "始于1796年的白莲教起义在1809年仍在继续，清军继续进行军事行动。这场根源于弥勒信仰和民间不满的起义已蔓延至多省，且难以镇压。到1809年，清军虽取得进展，但尚未取得完全胜利。这场代价高昂的十五年代战最终于1811年被镇压。",
+      "key_figures": [
+        "嘉庆帝（清朝统治者）",
+        "福康安（清朝将军，1799年去世）",
+        "白莲教起义领袖（姓名多未记录）"
+      ],
+      "sources": [
+        {
+          "name": "清代宫廷记录和军事报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《实录》及后世编纂",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "史学共识（史景迁、罗威廉、孔飞力）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "起义在1809年的持续在清朝记录中有记载。该年份代表持续的冲突，而非一个独立事件。",
+      "cross_references": [
+        "1796-001（白莲教起义爆发）",
+        "1811-007（起义被镇压）"
+      ]
+    },
+    {
+      "id": "1809-006",
+      "title": "俄土战争：持续冲突",
+      "region": "奥斯曼帝国和俄罗斯帝国（巴尔干、高加索）",
+      "coordinates_approx": "42.00, 35.00",
+      "category": "military",
+      "description": "俄土战争（1806–1812）在1809年仍在继续，俄军逐步取得对奥斯曼军队的优势。米哈伊尔·库图佐夫将军领导了在摩尔达维亚和瓦拉几亚的俄罗斯战役，迫使奥斯曼军队后撤。战争对两个帝国都代价高昂，并因拿破仑在欧洲的活动而复杂化。冲突最终通过1812年的布加勒斯特条约解决。",
+      "key_figures": [
+        "米哈伊尔·库图佐夫（俄罗斯将军）",
+        "塞利姆三世（奥斯曼苏丹）",
+        "穆斯塔法四世（1807年起为奥斯曼苏丹）"
+      ],
+      "sources": [
+        {
+          "name": "俄罗斯军事档案",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "奥斯曼记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（耶拉维奇、肖、阿克桑）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "军事战役及其结果在俄罗斯和奥斯曼记录中有记载。",
+      "cross_references": [
+        "1806-001（俄土战争爆发）",
+        "1812-005（布加勒斯特条约）"
+      ]
+    },
+    {
+      "id": "1809-007",
+      "title": "英国工业革命：蒸汽动力扩张",
+      "region": "英格兰",
+      "coordinates_approx": "52.50, -1.50",
+      "category": "technological",
+      "description": "到1809年，蒸汽动力在英国工业中变得越来越普遍，特别是在纺织制造业和采矿业中。詹姆斯·瓦特对蒸汽机的改进（1769年专利）使蒸汽动力对工厂在经济上可行。蒸汽动力的扩张是工业革命的关键驱动力，实现了更大规模的生产和制造业集中于工厂。该技术将在整个19世纪继续传播。",
+      "key_figures": [
+        "詹姆斯·瓦特（发明家，1819年去世）",
+        "马修·博尔顿（制造商）",
+        "工厂主和工程师"
+      ],
+      "sources": [
+        {
+          "name": "专利记录和技术规格",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "工厂记录和商业信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（兰德斯、莫基尔、克拉夫茨）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "蒸汽动力在1809年的扩张在专利记录和工厂记录中有记载。该年份标志着工业革命的重要阶段。",
+      "cross_references": [
+        "1769-001（瓦特的蒸汽机专利）",
+        "1830-001（铁路扩张开始）"
+      ]
+    },
+    {
+      "id": "1809-008",
+      "title": "德川幕府：持续锁国与内部稳定",
+      "region": "日本",
+      "coordinates_approx": "36.00, 138.00",
+      "category": "political",
+      "description": "德川家齐统治下的德川幕府在1809年维持了锁国政策（闭关锁国）和内部稳定。幕府继续对对外接触和贸易实施严格控制。尽管有外部压力和偶尔的外国船只试图贸易或寻求补给，幕府仍维持其孤立主义立场。内部稳定通过封建制度和幕府的行政机构得以维持。",
+      "key_figures": [
+        "德川家齐（将军）",
+        "松平定信（前摄政，1829年去世）"
+      ],
+      "sources": [
+        {
+          "name": "德川幕府行政记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "日本编年史",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（托特曼、樱井、弗拉斯托斯）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "锁国政策在1809年的延续有明确记载。该年份代表延续而非变化。",
+      "cross_references": [
+        "1853-001（佩里远征打开日本）",
+        "1868-001（明治维新）"
+      ]
+    },
+    {
+      "id": "1809-009",
+      "title": "英国皇家海军：持续主导地位",
+      "region": "大西洋和地中海",
+      "coordinates_approx": "null",
+      "category": "military",
+      "description": "到1809年，英国皇家海军已取得对法国及其盟国海军的压倒性优势。海军的优势在特拉法加海战（1805年）后确立，使英国能够维持对法占港口的封锁、支持伊比利亚半岛的军事行动并保护殖民贸易航线。海军优势对于英国维持对拿破仑战争的能力至关重要。",
+      "key_figures": [
+        "圣文森特伯爵约翰·杰维斯上将",
+        "约翰·博拉斯·沃伦爵士上将"
+      ],
+      "sources": [
+        {
+          "name": "海军部记录和海军急件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "海军编年史和航海日志",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（罗杰、加德纳、莫里斯）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "英国在1809年的海军优势有充分记载且无争议。",
+      "cross_references": [
+        "1805-001（特拉法加海战）",
+        "1815-001（拿破仑战争结束）"
+      ]
+    },
+    {
+      "id": "1809-010",
+      "title": "拉丁美洲：独立运动加速",
+      "region": "南美洲",
+      "coordinates_approx": "null",
+      "category": "political",
+      "description": "1809年，拉丁美洲的独立运动正在加速，由启蒙思想、拿破仑入侵后西班牙的虚弱以及当地对西班牙殖民统治的不满所驱动。多个地区成立了军政府，包括基多（1809年8月）和拉巴斯（1809年7月），宣布脱离西班牙自治。这些早期运动通常被西班牙军队镇压，但它们建立了一种模式，将在1810年代和1820年代导致广泛的独立。",
+      "key_figures": [
+        "胡安·皮奥·蒙图法尔（基多军政府领袖）",
+        "佩德罗·多明戈·穆里略（拉巴斯军政府领袖）",
+        "西班牙殖民官员"
+      ],
+      "sources": [
+        {
+          "name": "西班牙殖民记录和信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "军政府宣言和记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（林奇、布什内尔、瓜尔迪诺）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1809年基多和拉巴斯军政府的建立在西班牙殖民记录和后来的拉丁美洲史学中有明确记载。",
+      "cross_references": [
+        "1810-002（阿根廷五月革命）",
+        "1821-001（西班牙美洲独立实现）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "瓦格拉姆战役有时被描述为法国的决定性胜利，但现代学术强调它代价高昂，且奥地利军队有序撤退；该战役的意义更多是战略上的而非战术上的。1809年威灵顿的任命有时被描绘成立即具有变革性，但半岛战争在数年内仍然艰难且不确定；威灵顿的声誉是逐步建立的。《禁止交往法案》有时被认为是成功的外交工具，但它未能实现目标，并加剧了导致1812年战争的美国挫败感。1809年拉丁美洲的独立运动有时被描述为统一和成功的，但许多被西班牙军队镇压，独立进程漫长且有争议。",
+  "historiographic_note": "1809年在欧洲资料中记载丰富，特别是关于拿破仑战争。英国军事和议会记录丰富。美国外交和国会记录保存完好。拉丁美洲独立运动在西班牙殖民档案和后来的拉丁美洲史学中有记载，尽管存在精英偏见。亚洲资料在西方史学中较为有限；中国和日本的记录存在但常被低估。该年份反映了现有资料中的欧洲中心偏见；非洲、大洋洲和中亚的事件基本缺失。资料本身受其来源影响：法国记录强调拿破仑的军事天才；英国记录颂扬威灵顿的战役；西班牙殖民记录强调西班牙权威和镇压叛乱。",
+  "graph_edges": [
+    {
+      "from": "1809-001",
+      "to": "1809-002",
+      "relation": "led_to",
+      "note": "瓦格拉姆战役导致了申布伦条约"
+    },
+    {
+      "from": "1809-002",
+      "to": "1810-001",
+      "relation": "led_to",
+      "note": "申布伦条约导致了1810年拿破仑迎娶玛丽·路易丝"
+    },
+    {
+      "from": "1809-003",
+      "to": "1810-001",
+      "relation": "led_to",
+      "note": "威灵顿的任命导致了1810年的罗德里戈城围城战"
+    },
+    {
+      "from": "1809-004",
+      "to": "1812-003",
+      "relation": "led_to",
+      "note": "《禁止交往法案》加剧了导致1812年战争的紧张局势"
+    },
+    {
+      "from": "1809-005",
+      "to": "1811-007",
+      "relation": "led_to",
+      "note": "白莲教起义持续至1811年被镇压"
+    },
+    {
+      "from": "1809-010",
+      "to": "1810-002",
+      "relation": "led_to",
+      "note": "1809年的早期独立运动导致了1810年的阿根廷五月革命"
+    }
+  ]
+}

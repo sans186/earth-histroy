@@ -1,0 +1,121 @@
+{
+  "year": -111,
+  "year_label": "公元前111年",
+  "era_context": "希腊化晚期持续。汉朝在汉武帝治下仍处于鼎盛，进行军事和外交扩张。塞琉古帝国在内战和帕提亚压力下分裂。罗马处于共和国晚期，朱古达战争刚于公元前105年结束，社会矛盾积累。在印度，孔雀王朝崩溃后地区王国争夺霸权。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚（有限文字记录）"
+  ],
+  "events": [
+    {
+      "id": "-111-001",
+      "title": "汉朝征服南越",
+      "region": "南越（今中国南部和越南北部）",
+      "coordinates_approx": "21.0, 110.0",
+      "category": "military",
+      "description": "汉武帝发动军事战役征服南越王国，该王国自秦朝以来一直保持半独立状态。征服于公元前111年完成，将该地区置于汉朝直接控制之下。这使汉朝领土向南扩展，并保障了通往东南亚的贸易路线。征服涉及重大军事努力，导致南越被纳入汉朝行政体系。",
+      "key_figures": [
+        "汉武帝（公元前141年至公元前87年在位）",
+        "路博德（汉朝将军）",
+        "赵佗（南越末代国王，卒于公元前137年）"
+      ],
+      "sources": [
+        {
+          "name": "司马迁《史记》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "班固《汉书》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "来自南越遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "汉朝编年（《史记》《汉书》）明确记载了公元前111年征服南越。这是该年份少数具有具体可靠日期的事件之一。",
+      "cross_references": []
+    },
+    {
+      "id": "-111-002",
+      "title": "塞琉古内战和领土分裂",
+      "region": "塞琉古帝国，叙利亚，美索不达米亚",
+      "coordinates_approx": "34.0, 40.0",
+      "category": "political",
+      "description": "塞琉古帝国陷入王位竞争者之间的内战。安条克九世（基齐库斯人）与其他竞争者争夺控制权，削弱了中央政权。这一时期的内战加速了帝国衰落，使帕提亚得以向西扩张，罗马也增加了在该地区的影响力。",
+      "key_figures": [
+        "安条克九世（基齐库斯人）（公元前114年至公元前95年在位）",
+        "塞琉古六世（显灵者）（公元前96年至公元前95年在位）"
+      ],
+      "sources": [
+        {
+          "name": "阿庇安，《叙利亚战争》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "斯特拉波，《地理学》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "钱币学证据（竞争统治者的铸币）",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "内战有充分记载，但公元前111年的具体事件并无明确纪年。冲突跨越多年；公元前111年是惯例性定年。",
+      "cross_references": []
+    },
+    {
+      "id": "-111-003",
+      "title": "罗马在北非和地中海地区的扩张",
+      "region": "罗马共和国，北非，地中海",
+      "coordinates_approx": "36.0, 10.0",
+      "category": "military",
+      "description": "朱古达战争于公元前105年结束后，罗马巩固了对北非的控制，并扩大了在地中海的海军和商业存在。罗马的军事远征和外交使团正使罗马成为该地区的主导力量，为未来几十年的进一步扩张奠定基础。",
+      "key_figures": [
+        "罗马元老院和官员"
+      ],
+      "sources": [
+        {
+          "name": "李维，《罗马史》（现存摘要）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "阿庇安，《利比亚战争》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "罗马扩张的总体模式有充分记载，但公元前111年的具体事件并无清晰纪年。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "汉朝史料可靠地将征服南越定年为公元前111年，使该年份成为这一时期少数拥有明确重大事件的年份之一。然而，该征服的意义主要是区域性的，并未立即产生全球影响。塞琉古内战和罗马扩张在公元前111年这一具体年份的定年则不那么精确，更宜理解为跨越多年的过程。",
+  "historiographic_note": "公元前111年主要因汉朝征服南越而闻名，在中国史料中有详细记载。其他事件的纪年则不那么清晰。历史记录以中国和罗马史料为主；帕提亚、印度和东南亚的视角基本缺失或来自外部来源重建。征服南越代表了汉朝向南扩张，但在以西方为中心、聚焦地中海和欧洲事件的历史叙述中常常被低估。",
+  "graph_edges": [
+    {
+      "from": "-111-001",
+      "to": "-100-001",
+      "relation": "part_of",
+      "note": "汉朝领土扩张一直持续到公元前2世纪初"
+    },
+    {
+      "from": "-111-002",
+      "to": "-95-001",
+      "relation": "part_of",
+      "note": "塞琉古内战持续至该王朝在公元前1世纪实际终结"
+    }
+  ]
+}

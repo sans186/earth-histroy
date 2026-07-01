@@ -1,0 +1,91 @@
+{
+  "year": -1316,
+  "year_label": "公元前1317年",
+  "era_context": "青铜时代晚期，相对稳定时期。埃及拉美西斯二世的统治在继续。赫梯帝国在穆瓦塔里二世统治下仍为大国。迈锡尼宫殿中心处于晚期希腊底IIIB期。中国商朝在继续。此年属于东地中海和近东大国之间以国家间外交、贸易和军事竞争为特征的时期。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "大洋洲和太平洋岛屿",
+    "北欧",
+    "中美洲",
+    "中亚和草原"
+  ],
+  "events": [
+    {
+      "id": "-1316-001",
+      "title": "埃及在黎凡特的军事和行政行动",
+      "region": "黎凡特和埃及",
+      "coordinates_approx": "33.0, 31.0",
+      "category": "military",
+      "description": "拉美西斯二世维持埃及在黎凡特的军事和行政存在，管理属国并征收贡品。埃及驻军驻扎在加沙、美吉多和其他战略要地。这些行动确保了埃及对贸易路线的控制和对黎凡特资源的获取。",
+      "key_figures": [
+        "拉美西斯二世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "神庙浮雕和铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "行政纸莎草纸",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "拉美西斯二世统治期内埃及在黎凡特的军事行动有充分记载，但具体逐年事件少有精确记载。",
+      "cross_references": []
+    },
+    {
+      "id": "-1316-002",
+      "title": "赫梯外交通信和国家间关系",
+      "region": "赫梯帝国和东地中海",
+      "coordinates_approx": "35.5, 33.0",
+      "category": "political",
+      "description": "穆瓦塔里二世与埃及、亚述及其他大国进行外交通信。来自博阿兹柯伊的楔形文字泥板记载了这些外交往来，这对维持青铜时代晚期的权力平衡至关重要。赫梯帝国力求在管理与其他强国关系的同时维护其领土完整和影响力。",
+      "key_figures": [
+        "穆瓦塔里二世（赫梯大王）"
+      ],
+      "sources": [
+        {
+          "name": "来自博阿兹柯伊的楔形文字泥板",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "赫梯外交活动在楔形文字记录中有详细记载，但具体逐年事件难以确定。",
+      "cross_references": []
+    },
+    {
+      "id": "-1316-003",
+      "title": "迈锡尼宗教和仪式活动",
+      "region": "迈锡尼希腊",
+      "coordinates_approx": "37.7, 23.4",
+      "category": "religious",
+      "description": "来自皮洛斯的线形文字B泥板记载了宗教活动，包括向诸神供奉、宗教节日和宗教人员的组织。这些记录提供了对迈锡尼社会宗教信仰和实践的见解，这些信仰与实践与宫殿行政和政治权威紧密相连。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自皮洛斯的线形文字B泥板",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "线形文字B泥板是记载宗教活动的当代第一手资料。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "未发现针对所列事件的具体反证。然而，一些学者对这一时期埃及对黎凡特的控制程度进行了辩论，认为埃及的影响力比传统叙述中暗示的更有限且更具争议。",
+  "historiographic_note": "公元前1317年的历史记录与该时期前几年类似：以埃及和赫梯资料为主，迈锡尼证据来自线形文字B和考古学。逐年叙事稀疏；大多数事件是从更宽泛的模式而非具体年度记录重建的。年代学仍依赖埃及王在位年数和王表。",
+  "graph_edges": [
+    {
+      "from": "-1316-001",
+      "to": "-1319-001",
+      "relation": "part_of",
+      "note": "黎凡特行动是拉美西斯二世更广泛帝国战略的一部分。"
+    }
+  ]
+}

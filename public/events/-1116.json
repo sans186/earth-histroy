@@ -1,0 +1,84 @@
+{
+  "year": -1116,
+  "year_label": "公元前1117年",
+  "era_context": "青铜时代晚期崩溃处于最后阶段或刚刚结束。拉美西斯三世统治下的埃及处于其统治后期。地中海世界正在从青铜时代向铁器时代的政治和文化体系过渡。黎凡特正在经历新的铁器时代文化的出现。中国商朝接近其最后几年；周朝征服将在未来几十年内发生。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中美洲",
+    "北欧",
+    "中亚",
+    "东南亚",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-1116-001",
+      "title": "拉美西斯三世——统治后期，持续行政",
+      "region": "埃及（新王国，第二十王朝）",
+      "coordinates_approx": "26.0, 32.5",
+      "category": "political",
+      "description": "拉美西斯三世的统治进入后期。行政记录显示维持埃及权威和管理经济资源持续面临挑战。法老的军事行动继续，但埃及控制的范围正在收缩。这一时期标志着向第三中间期过渡的开始，届时中央法老权威将显著削弱。",
+      "key_figures": [
+        "拉美西斯三世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "行政纸莎草纸和神庙记录",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "神庙浮雕与铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "拉美西斯三世的统治有充分文献记载；特定年份-1116在其统治期内，但个别年度事件无法精确到年。",
+      "cross_references": []
+    },
+    {
+      "id": "-1116-002",
+      "title": "近东和地中海铁器时代的出现",
+      "region": "近东、地中海、黎凡特",
+      "coordinates_approx": null,
+      "category": "technological",
+      "description": "从青铜时代到铁器时代的过渡正在地中海和近东进行。铁器加工技术虽已为人所知但未广泛使用，现已变得更加普遍。这一技术转变与青铜时代晚期崩溃期间锡贸易网络的中断有关，使铁成为青铜的更易获取替代品。铁器时代最终将特征化古典地中海和近东世界。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "多个遗址显示铁器制品和加工场的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "关于青铜时代到铁器时代过渡的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "向铁器加工的过渡已获考古证实；具体年份的确定是近似的，因为该过程是渐进的且具有区域差异。",
+      "cross_references": [
+        "与青铜时代晚期崩溃和贸易网络中断相关"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "青铜时代晚期崩溃与铁器加工技术采用之间的关系存在争议。虽然铁器加工在崩溃后确实变得更加普遍，但一些学者认为因果关系并不直接。铁器加工在崩溃前已为人所知并且有限量使用；锡贸易的中断可能加速了采用，但其他因素（包括铁本身的优势）也起了作用。",
+  "historiographic_note": "公元前-1116年的文献稀少。埃及行政记录仍然是最详细的来源，但偏向于王室和神庙叙事。近东和地中海的考古证据零碎。年份-1116在现存记录中没有单独记载；它根据更广泛年代的惯例分配。",
+  "graph_edges": [
+    {
+      "from": "-1116-001",
+      "to": "-1119-001",
+      "relation": "contemporary_with",
+      "note": "拉美西斯三世统治的延续。"
+    },
+    {
+      "from": "-1116-002",
+      "to": "-1119-002",
+      "relation": "part_of",
+      "note": "铁器时代的出现是更广泛青铜时代晚期崩溃和过渡过程的一部分。"
+    }
+  ]
+}

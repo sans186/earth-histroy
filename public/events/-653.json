@@ -1,0 +1,113 @@
+{
+  "year": -653,
+  "year_label": "公元前653年",
+  "era_context": "公元前7世纪中叶：新亚述帝国在埃萨尔哈东统治下达到鼎盛，希腊古风时期殖民活动持续，中国周朝早期，埃及第26王朝兴起。此时期以帝国巩固、字母读写传播和重步兵战术发展为特征。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "大洋洲",
+    "中美洲"
+  ],
+  "events": [
+    {
+      "id": "-653-001",
+      "title": "亚述军事行动与附属国管理",
+      "region": "新亚述帝国、黎凡特",
+      "coordinates_approx": "35.0, 40.0",
+      "category": "military",
+      "description": "埃萨尔哈东继续亚述领土的行政和军事巩固。至公元前653年，帝国通过军事驻军、驱逐政策和贡赋征收管理着一个广泛的附属国网络。亚述行政体系是古代世界最精密的体系之一，拥有详细的贡赋、军事组织和省级治理记录。",
+      "key_figures": [
+        "埃萨尔哈东（亚述国王）"
+      ],
+      "sources": [
+        {
+          "name": "埃萨尔哈东的王室铭文",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "来自尼尼微的楔形文字行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "埃萨尔哈东的统治有充分记载；具体年度事件的绝对纪年存在±2–3年的不确定性。",
+      "cross_references": [
+        "-654-001"
+      ]
+    },
+    {
+      "id": "-653-002",
+      "title": "希腊陶器与贸易发展",
+      "region": "希腊、地中海",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "economic",
+      "description": "公元前7世纪中叶，特色希腊陶器风格（特别是科林斯式和阿提卡式）发展起来，成为主要贸易商品。至公元前653年，希腊商人已在地中海建立贸易网络。陶器证据显示标准化和大规模生产日益增加，表明商业日趋复杂。这些贸易网络促进了文化交流和字母文字的传播。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自陶器沉积物和沉船的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "陶器分析与类型学",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "陶器断年基于地层背景和类型序列；该时期具体年份断年不确定，通常有±10–20年的误差。",
+      "cross_references": [
+        "-654-002"
+      ]
+    },
+    {
+      "id": "-653-003",
+      "title": "努比亚抵抗亚述扩张",
+      "region": "埃及、努比亚",
+      "coordinates_approx": "20.0, 32.0",
+      "category": "military",
+      "description": "努比亚王国在塔哈卡等统治者领导下抵抗亚述向埃及的扩张。至公元前653年，努比亚与亚述在埃及的利益冲突仍在持续。努比亚第25王朝因亚述施压而被取代，第26王朝（赛特时期）在亚述的某种支持下开始巩固权力。这一时期地中海东部和北非经历了重大的政治重组。",
+      "key_figures": [
+        "塔哈卡（努比亚法老）",
+        "普萨美提克一世（埃及第26王朝，约公元前664年开始统治）"
+      ],
+      "sources": [
+        {
+          "name": "埃及神庙铭文和王室石碑",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "努比亚考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "该时期埃及和努比亚的年代学通过王表和天文数据相对确定，存在±1–2年的不确定性。",
+      "cross_references": [
+        "-654-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "努比亚政治权力和亚述在埃及军事成功的程度存在争议。一些学者认为亚述对埃及的控制比传统记载更有限、更短暂。第25王朝到第26王朝过渡的纪年被一些学者修订，可能影响该年份事件的年代顺序。",
+  "historiographic_note": "公元前653年的记录以亚述楔形文字文献和埃及神庙铭文为主。希腊文献为后世编纂。资料严重偏向帝国和精英视角；普通民众、被奴役人口和非国家社会的经历在现存记录中基本缺失。",
+  "graph_edges": [
+    {
+      "from": "-653-001",
+      "to": "-654-001",
+      "relation": "contemporary_with",
+      "note": "埃萨尔哈东军事和行政巩固的延续"
+    },
+    {
+      "from": "-653-003",
+      "to": "-664-001",
+      "relation": "part_of",
+      "note": "努比亚与亚述势力争夺埃及的广泛冲突的一部分"
+    }
+  ]
+}

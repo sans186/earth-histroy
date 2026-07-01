@@ -1,0 +1,50 @@
+{
+  "year": -1028,
+  "year_label": "公元前1029年",
+  "era_context": "与公元前1029年相同：青铜时代晚期崩溃余波，铁器时代早期巩固。埃及处于拉美西斯十一世统治下；腓尼基城邦崛起；爱琴海几何时期；美索不达米亚弱势；南亚吠陀时期。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东亚",
+    "中美洲",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-1028-001",
+      "title": "埃及底比斯祭司权力持续巩固",
+      "region": "埃及（上埃及，底比斯）",
+      "coordinates_approx": "25.7, 32.6",
+      "category": "political",
+      "description": "在拉美西斯十一世统治期间，底比斯的阿蒙大祭司继续积累财富和上埃及的行政权力。到公元前11世纪末（包含公元前1028年），祭司阶层控制着庞大的神庙地产，拥有重要的军事资源，并实际上独立于法老统治上埃及。这一过程记录在行政纸莎草和神庙铭文中，代表了埃及政治结构的根本性转变，并预示着第三中间期埃及的分裂。",
+      "key_figures": [
+        "阿蒙大祭司（姓名各异；公元前1028年的具体人物未确定）"
+      ],
+      "sources": [
+        {
+          "name": "哈里斯纸莎草卷和拉美西斯王朝晚期的其他行政纸莎草",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "来自卡纳克和卢克索的神庙铭文",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "总体过程有充分记载；公元前1028年的具体事件未见记载。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "对于所列事件未发现否定证据。",
+  "historiographic_note": "公元前1028年的文献在年别层次上几乎不存在。我们依赖长期的行政和考古记录。记录严重以埃及为中心，并偏向精英（法老和祭司）视角。",
+  "graph_edges": [
+    {
+      "from": "-1028-001",
+      "to": "-1029-001",
+      "relation": "contemporary_with",
+      "note": "公元前1029年所述过程的延续"
+    }
+  ]
+}

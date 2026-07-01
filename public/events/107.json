@@ -1,0 +1,106 @@
+{
+  "year": 107,
+  "year_label": "公元107年",
+  "era_context": "罗马帝国在图拉真统治下正在巩固对达契亚的控制（106年征服后）。中国东汉王朝在邓太后摄政下保持稳定。帕提亚帝国仍是近东主要强国。这是各大帝国相对和平和行政巩固的时期。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "罗马边疆以北的北欧地区",
+    "东南亚",
+    "中美洲和南美洲"
+  ],
+  "events": [
+    {
+      "id": "107-001",
+      "title": "图拉真在罗马举行达契亚胜利的竞技和表演",
+      "region": "罗马，罗马帝国",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "cultural",
+      "description": "皇帝图拉真通过精心设计的竞技、角斗士比赛和公共表演庆祝达契亚的征服。这些庆祝活动持续了数月，纪念军事胜利。竞技吸引了成千上万的观众，特色包括奇异动物、角斗士和模拟海战。这些表演旨在巩固图拉真的声望和合法性。",
+      "key_figures": [
+        "图拉真（罗马皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "卡西乌斯·狄奥，《罗马史》（第68卷）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "小普林尼，《颂词》",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "狄奥描述了庆祝达契亚胜利的详尽竞技，但确切定年到107年并不总是精确。竞技可能发生在106–107年。",
+      "cross_references": [
+        "与106-001相关"
+      ]
+    },
+    {
+      "id": "107-002",
+      "title": "东汉宫廷：邓太后的影响力达到顶峰",
+      "region": "中国（东汉），都城洛阳",
+      "coordinates_approx": "34.6, 112.4",
+      "category": "political",
+      "description": "邓太后的摄政在影响力和效力上达到顶峰。她以行政能力、支持儒家学术和管理宫廷派系的能力而闻名。她的影响力扩展到军事任命和财政政策。她在汉朝可能分裂的时期维持了王朝的稳定。",
+      "key_figures": [
+        "邓太后（摄政）",
+        "安帝（汉朝皇帝，年幼）"
+      ],
+      "sources": [
+        {
+          "name": "《后汉书》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "邓太后摄政的大致轮廓已确立；107年的具体事件并不总是有精确记载。",
+      "cross_references": []
+    },
+    {
+      "id": "107-003",
+      "title": "帕提亚向罗马和中国的外交使团",
+      "region": "帕提亚帝国，罗马帝国，中国",
+      "coordinates_approx": "37.0, 44.0",
+      "category": "political",
+      "description": "帕提亚帝国为维持其主要强国地位并管理与罗马和中国的关系，向两大帝国派遣了外交使团。这些使团旨在建立贸易协定、交换情报和管理领土争端。帕提亚尤其担忧罗马在达契亚征服后的近东扩张。",
+      "key_figures": [
+        "奥斯罗埃斯一世（帕提亚国王）"
+      ],
+      "sources": [
+        {
+          "name": "卡西乌斯·狄奥，《罗马史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "中国历史记载",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "帕提亚外交活动的总体模式有充分记载；107年的具体使团是从更广泛的关系轨迹推断而来的。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "传统上将图拉真的竞技视为军事胜利的凯旋庆祝已被现代学术复杂化，后者强调竞技的巨大成本及其对帝国造成的经济压力。邓太后的摄政虽然总体称职，但也并非没有内部反对和派系冲突。",
+  "historiographic_note": "公元107年的文献记录对罗马和中华帝国来说是中等丰富，依赖于后来的编年史和一些同时代记载。帕提亚视角在现存资料中代表性不足。竞技和表演主要通过后来的历史记载了解。",
+  "graph_edges": [
+    {
+      "from": "107-001",
+      "to": "106-001",
+      "relation": "part_of",
+      "note": "达契亚征服的庆祝活动"
+    },
+    {
+      "from": "107-002",
+      "to": "121-001",
+      "relation": "led_to",
+      "note": "邓太后的摄政随着她于121年去世而结束"
+    }
+  ]
+}

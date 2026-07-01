@@ -1,0 +1,902 @@
+{
+  "year": 1889,
+  "year_label": "公元1889年",
+  "era_context": "19世纪80年代末标志着欧洲帝国扩张、工业资本主义巩固和大众政治兴起的顶峰。1884-85年柏林会议后，瓜分非洲正在全面展开，列强在太平洋和东亚争夺影响力。立宪和共和运动挑战了拉丁美洲和南欧的君主制，有组织的劳工正在成为跨国政治力量。在东亚，明治日本正在完成其宪政转型；在美洲，美国正在完成其大陆扩张并开始确立半球领导地位。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [
+    "殖民地行政记录之外的撒哈拉以南非洲内陆",
+    "俄罗斯统治下的中亚",
+    "定居者-殖民地国家的原住民视角（澳大利亚、加拿大、美国）",
+    "主要殖民口岸以外的太平洋岛屿",
+    "荷兰、法国和英国殖民文献之外的东南亚农村地区",
+    "萨赫勒和阿拉伯半岛游牧和半游牧民族的口述历史"
+  ],
+  "events": [
+    {
+      "id": "1889-001",
+      "title": "埃菲尔铁塔竣工，巴黎世界博览会开幕",
+      "region": "法国（巴黎）",
+      "coordinates_approx": "48.86°N, 2.29°E",
+      "category": "cultural",
+      "description": "世界博览会于1889年5月6日开幕，纪念法国大革命一百周年。其核心是经过两年建设于3月31日竣工的300米埃菲尔铁塔，成为当时世界上最高的人造结构。由古斯塔夫·埃菲尔的工程公司设计的铁质格子塔最初遭到著名艺术家和知识分子的谴责，认为其有碍观瞻，但最终成为巴黎和工业现代性的永久象征。博览会吸引了超过3200万游客，展示了法兰西共和国的成就、殖民地和科技进步。它还展出了数十个国家的展品，并成为早期电力技术演示的场所，包括爱迪生的留声机。",
+      "key_figures": [
+        "古斯塔夫·埃菲尔（工程师）",
+        "萨迪·卡诺（法国总统）",
+        "托马斯·爱迪生（在博览会展出留声机）"
+      ],
+      "sources": [
+        {
+          "name": "1889年世界博览会官方记录和目录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "1887年2月14日发表于《时代报》的'艺术家抗议书'",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "吉尔·琼斯，《埃菲尔铁塔：以及布法罗·比尔迷倒巴黎的世界博览会》（2009年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "法国及国际新闻界、官方记录和摄影证据均有详尽记载。",
+      "cross_references": [
+        "1893-CHICAGO_WORLDS_FAIR"
+      ]
+    },
+    {
+      "id": "1889-002",
+      "title": "日本颁布明治宪法",
+      "region": "日本（东京）",
+      "coordinates_approx": "35.68°N, 139.75°E",
+      "category": "political",
+      "description": "1889年2月11日——日本建国的神话纪念日——明治天皇颁布了大日本帝国宪法，这是亚洲第一部现代宪法。主要由伊藤博文在深入研究欧洲君主立宪制（特别是普鲁士）后起草，文件建立了由两院组成的帝国议会、对天皇负责的内阁以及有限的权利法案。主权属于天皇而非人民，军队保留直接向天皇汇报的权利，绕过了文官控制。宪法将日本从专制政体转变为君主立宪制，为日本的快速现代化提供了法律框架，但其结构性模糊性——特别是关于军事自主权的问题——将在二十世纪产生深远后果。",
+      "key_figures": [
+        "明治天皇（君主）",
+        "伊藤博文（主要起草人，前首相）",
+        "赫尔曼·罗斯勒（德国法律顾问）",
+        "井上毅（起草人）"
+      ],
+      "sources": [
+        {
+          "name": "1889年2月11日大日本帝国宪法文本（正式颁布）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "伊藤博文，《大日本帝国宪法释义》（1889年，伊东巳代治翻译）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "乔治·阿基塔，《现代日本宪政政府的基础，1868-1900》（1967年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "宪法本身保存至今；起草过程在日本和欧洲档案中有详细记载。",
+      "cross_references": [
+        "1868-MEIJI_RESTORATION",
+        "1890-FIRST_JAPANESE_DIET"
+      ]
+    },
+    {
+      "id": "1889-003",
+      "title": "巴西帝国被推翻；共和国宣告成立",
+      "region": "巴西（里约热内卢）",
+      "coordinates_approx": "22.91°S, 43.17°W",
+      "category": "political",
+      "description": "1889年11月15日，由德奥多罗·达·丰塞卡元帅领导的军事政变推翻了佩德罗二世皇帝，宣告巴西共和国成立。君主制已被1888年废除奴隶制（疏远了种植园主精英）、与天主教会的紧张关系以及受实证主义哲学影响的军官阶层中日益增长的共和情绪所削弱。统治近50年的佩德罗二世没有抵抗，流亡欧洲，于1891年去世。共和国采用了以美国为蓝本的联邦宪法，但权力仍然集中在圣保罗和米纳斯吉拉斯的地方寡头手中，实行'牛奶咖啡'体制，主导巴西政治直至1930年。",
+      "key_figures": [
+        "德奥多罗·达·丰塞卡元帅（政变领袖，首任总统）",
+        "佩德罗二世皇帝（被废黜的君主）",
+        "本雅明·康斯坦特·博特略·德·马加良斯（实证主义军事领袖）",
+        "鲁伊·巴尔博萨（共和派知识分子和政治家）"
+      ],
+      "sources": [
+        {
+          "name": "1889年11月巴西当代报纸报道（《新闻报》、《每日新闻》）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "罗德里克·J·巴曼，《公民皇帝：佩德罗二世与巴西的形成，1825-1891》（1999年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "若泽·穆里洛·德·卡瓦略，《被兽化的：里约热内卢与未能实现的共和国》（1987年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "巴西及国际新闻界和外交信函中有广泛记载。",
+      "cross_references": [
+        "1888-ABOLITION_BRAZIL",
+        "1891-BRAZIL_CONSTITUTION"
+      ]
+    },
+    {
+      "id": "1889-004",
+      "title": "意大利与埃塞俄比亚之间的乌查莱条约",
+      "region": "埃塞俄比亚/意大利（乌查莱，绍阿）",
+      "coordinates_approx": "9.5°N, 39.5°E",
+      "category": "political",
+      "description": "1889年5月2日，埃塞俄比亚皇帝孟尼利克二世与皮埃特罗·安东内利伯爵在孟尼利克登基后不久签署了乌查莱条约。阿姆哈拉语和意大利语文本的第17条存在关键差异：意大利语版本规定埃塞俄比亚'必须'通过意大利进行外交事务（使埃塞俄比亚成为意大利保护国），而阿姆哈拉语版本仅称埃塞俄比亚'可以'这样做。意大利利用意大利文本在柏林会议列强面前声称对埃塞俄比亚拥有保护权。当孟尼利克发现差异后，他否认了该条约，为第一次意大利-埃塞俄比亚战争和1896年埃塞俄比亚在阿杜瓦的决定性胜利奠定了基础。该条约成为殖民外交和非洲抵抗史上的里程碑案例。",
+      "key_figures": [
+        "孟尼利克二世（埃塞俄比亚皇帝）",
+        "皮埃特罗·安东内利伯爵（意大利特使）",
+        "泰图·贝图尔皇后（孟尼利克的妻子和政治顾问）"
+      ],
+      "sources": [
+        {
+          "name": "1889年5月2日乌查莱条约阿姆哈拉语和意大利语版本文本",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "斯文·鲁本森，《乌查莱条约的保护国条款》，《非洲史杂志》，5:2（1964年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "雷蒙德·乔纳斯，《阿杜瓦战役：帝国时代的非洲胜利》（2011年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "两个条约文本均保存至今，差异在外交和学术资料中得到充分确认。",
+      "cross_references": [
+        "1896-BATTLE_OF_ADWA",
+        "1885-BERLIN_CONFERENCE_AFTERMATH"
+      ]
+    },
+    {
+      "id": "1889-005",
+      "title": "梅耶林事件：奥匈帝国皇太子鲁道夫身亡",
+      "region": "奥匈帝国（梅耶林，下奥地利）",
+      "coordinates_approx": "48.04°N, 16.09°E",
+      "category": "political",
+      "description": "1889年1月30日，弗朗茨·约瑟夫一世皇帝唯一的儿子鲁道夫皇太子被发现与玛丽·维茨拉女男爵一起死于梅耶林狩猎行宫。官方认定是谋杀后自杀：鲁道夫先枪杀了维茨拉，然后自杀。宫廷最初隐瞒了情况，阴谋论在此后数十年间层出不穷。鲁道夫之死消除了最同情自由改革和联邦化二元帝国的人选，使得继承权落到弗朗茨·约瑟夫的侄子弗朗茨·斐迪南大公身上，他于1914年被刺杀，引发了第一次世界大战。因此，梅耶林事件对哈布斯堡继承结构和欧洲地缘政治产生了深远（尽管是间接的）影响。",
+      "key_figures": [
+        "鲁道夫皇太子（奥匈帝国继承人）",
+        "玛丽·维茨拉女男爵",
+        "弗朗茨·约瑟夫一世皇帝（父亲）",
+        "伊丽莎白皇后（母亲）"
+      ],
+      "sources": [
+        {
+          "name": "1889年1月维也纳宫廷官方公报和尸检记录（部分被压制）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "布丽吉特·哈曼，《鲁道夫：皇太子与叛逆者》（1978年；英文译本1995年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "弗雷德里克·莫顿，《神经质的辉煌：维也纳1888/1889》（1979年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "死亡已确认；确切情况被宫廷保密所掩盖，但现代法医和档案分析支持谋杀后自杀的结论。",
+      "cross_references": [
+        "1914-ASSASSINATION_FRANZ_FERDINAND",
+        "1867-AUSGLEICH"
+      ]
+    },
+    {
+      "id": "1889-006",
+      "title": "俄克拉荷马土地热（1889年土地热）",
+      "region": "美国（俄克拉荷马领地）",
+      "coordinates_approx": "35.47°N, 97.52°W",
+      "category": "demographic",
+      "description": "1889年4月22日，约5万名定居者涌向近200万英亩的原印第安领地，该领地已根据总统公告开放定居。中午的一声枪响后，参与者骑马、乘马车、骑自行车和徒步竞相抢占土地。数小时内，俄克拉荷马城和格思里市便拔地而起。这些土地在克里克族和塞米诺尔族被迫割让后被划为'未分配地'，这次土地热体现了美国剥夺原住民土地以推动西进扩张的政策。那些提前非法进入以抢占土地的人被称为'抢先者'，俄克拉荷马州由此得名。",
+      "key_figures": [
+        "本杰明·哈里森总统（授权开放）",
+        "大卫·L·佩恩（早期'开拓者'运动领袖，1884年去世）",
+        "威廉·库奇上尉（开拓者领袖）"
+      ],
+      "sources": [
+        {
+          "name": "1889年3月23日总统公告（开放未分配地）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "1889年4月至5月《哈珀周刊》及其他当代报刊报道",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "斯坦·霍伊格，《1889年俄克拉荷马土地热》（1984年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "政府记录、报刊报道和摄影证据均有广泛记载。",
+      "cross_references": [
+        "1887-DAWES_ACT",
+        "1893-CHEROKEE_STRIP_LAND_RUN"
+      ]
+    },
+    {
+      "id": "1889-007",
+      "title": "约翰斯敦洪灾肆虐宾夕法尼亚州",
+      "region": "美国（宾夕法尼亚州约翰斯敦）",
+      "coordinates_approx": "40.33°N, 78.92°W",
+      "category": "environmental",
+      "description": "1889年5月31日，南福克大坝在连日暴雨后垮塌，2000万吨水冲入工业城市约翰斯敦及周边社区。超过2200人丧生，使其成为美国历史上最致命的灾难之一。大坝由南福克钓鱼和狩猎俱乐部维护不善，该俱乐部是一个私人度假村，成员包括安德鲁·卡内基、亨利·克莱·弗里克和安德鲁·梅隆。尽管公众义愤填膺，俱乐部成员没有承担任何法律责任，加剧了工人阶级对工业精英的怨恨。这场灾难推动了克拉拉·巴顿领导的美国红十字会的发展，并促进了关于基础设施问责制的公共讨论。",
+      "key_figures": [
+        "克拉拉·巴顿（领导美国红十字会救援）",
+        "安德鲁·卡内基（南福克俱乐部成员）",
+        "亨利·克莱·弗里克（南福克俱乐部成员）"
+      ],
+      "sources": [
+        {
+          "name": "1889年5月至6月当代报纸报道（《纽约时报》、匹兹堡媒体）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "大卫·麦卡洛，《约翰斯敦洪灾》（1968年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "1889-1890年宾夕法尼亚州调查记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "新闻界、政府调查和幸存者证词均有详尽记载。死亡人数估计略有差异（2,200-2,209人）。",
+      "cross_references": []
+    },
+    {
+      "id": "1889-008",
+      "title": "第二国际在巴黎成立",
+      "region": "法国（巴黎）",
+      "coordinates_approx": "48.86°N, 2.35°E",
+      "category": "political",
+      "description": "1889年7月14日——攻占巴士底狱一百周年——来自欧洲和美洲的社会主义和劳工政党在巴黎集会，成立第二国际（亦称社会主义国际）。大会汇集了马克思主义者、社会民主党和工会成员，其最持久的决定是宣布5月1日为国际劳动节，纪念1886年干草市场事件。第二国际成为全球社会主义政党的主要协调机构，直到1914年因战争问题而崩溃。它使有组织的劳工运动制度化，成为跨国政治力量。",
+      "key_figures": [
+        "弗里德里希·恩格斯（主持影响，但年事已高）",
+        "威廉·李卜克内西（德国社会民主党）",
+        "爱德华·瓦扬（法国布朗基派）",
+        "保罗·拉法格（法国社会主义者）"
+      ],
+      "sources": [
+        {
+          "name": "第二国际成立大会记录，巴黎，1889年7月14-21日",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "詹姆斯·乔尔，《第二国际1889-1914》（1955年；修订版1974年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "大会记录、新闻界报道和各国政党档案均有详细记载。",
+      "cross_references": [
+        "1886-HAYMARKET_AFFAIR",
+        "1914-SECOND_INTERNATIONAL_COLLAPSE"
+      ]
+    },
+    {
+      "id": "1889-009",
+      "title": "英国南非公司获得皇家特许状",
+      "region": "大英帝国/南部非洲",
+      "coordinates_approx": "17.83°S, 31.05°E",
+      "category": "political",
+      "description": "1889年10月29日，维多利亚女王授予塞西尔·罗兹创立的英国南非公司皇家特许状。该特许状赋予公司在林波波河以北广阔、界定模糊的领土上——涵盖今津巴布韦、赞比亚和马拉维——进行统治、缔结条约和开发资源的广泛权力。英国南非公司作为罗兹个人野心和大英帝国扩张的工具，于1890年殖民了马绍纳兰，并通过武力镇压了恩德贝莱人和绍纳人。该公司管理该领土（命名为罗得西亚）直至1923年，其特许状成为私有化殖民化的典范和警示。",
+      "key_figures": [
+        "塞西尔·罗兹（创始人和推动力）",
+        "维多利亚女王（授予特许状）",
+        "吉福德勋爵和乔治·考斯顿（共同申请人）"
+      ],
+      "sources": [
+        {
+          "name": "1889年10月29日英国南非公司皇家特许状（《伦敦公报》）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "约翰·S·加尔布雷思，《王冠与特许状：英国南非公司早期岁月》（1974年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "罗伯特·I·罗特伯格，《创立者：塞西尔·罗兹与权力追求》（1988年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "特许状及相关的议会辩论在英国政府记录中有详细记载。",
+      "cross_references": [
+        "1884-BERLIN_CONFERENCE",
+        "1890-PIONEER_COLUMN_MASHONALAND",
+        "1896-FIRST_CHIMURENGA"
+      ]
+    },
+    {
+      "id": "1889-010",
+      "title": "伦敦大码头罢工",
+      "region": "英国（伦敦）",
+      "coordinates_approx": "51.51°N, 0.05°W",
+      "category": "economic",
+      "description": "1889年8月14日至9月16日，伦敦东区数万名临时码头工人为争取每小时六便士的最低工资、最少四小时的工作时间和废除分包制度而罢工。由本·蒂利特、约翰·伯恩斯和汤姆·曼领导的罢工以其纪律性、公众同情心以及澳大利亚工会提供的超过3万英镑的财政支持而著称。罢工者几乎赢得了全部要求。码头罢工激发了'新工会主义'——将非熟练和半熟练工人组织成总工会——从根本上重塑了英国劳工运动，为工党的成立铺平了道路。",
+      "key_figures": [
+        "本·蒂利特（码头工人工会领袖）",
+        "约翰·伯恩斯（罢工领袖和演说家）",
+        "汤姆·曼（组织者）",
+        "亨利·曼宁枢机（调解人）"
+      ],
+      "sources": [
+        {
+          "name": "1889年8月至9月《泰晤士报》（伦敦）和《星报》的报道",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "约翰·洛弗尔，《装卸工与码头工人：伦敦港工会主义研究，1870-1914》（1969年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "本·蒂利特，《码头工人工会简史》（1910年）",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "当代新闻界、工会记录和议会文件均有大量记载。",
+      "cross_references": [
+        "1888-MATCHGIRLS_STRIKE",
+        "1889-008",
+        "1900-LABOUR_PARTY_FORMATION"
+      ]
+    },
+    {
+      "id": "1889-011",
+      "title": "首届泛美会议在华盛顿特区召开",
+      "region": "美国（华盛顿特区）/拉丁美洲",
+      "coordinates_approx": "38.90°N, 77.04°W",
+      "category": "political",
+      "description": "1889年10月2日，来自西半球18个国家的代表在华盛顿召开首届美洲国家国际会议，由美国国务卿詹姆斯·G·布莱恩组织。会议旨在促进贸易、仲裁争端和半球合作，体现了美国根据门罗主义在拉丁美洲确立经济领导地位的雄心。尽管会议关于关税同盟和强制仲裁的提议因大多数拉丁美洲代表团担心美国主导而被拒绝，但它建立了美洲国家国际局——美洲国家组织的前身。这次会议标志着制度化泛美主义的开端。",
+      "key_figures": [
+        "詹姆斯·G·布莱恩（美国国务卿）",
+        "罗克·萨恩斯·佩尼亚（阿根廷代表，反对美国关税同盟）",
+        "本杰明·哈里森总统"
+      ],
+      "sources": [
+        {
+          "name": "1889-1890年美洲国家会议的会议记录和报告（美国政府印刷局）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "大卫·谢宁编，《超越理想：美洲事务中的泛美主义》（2000年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "会议记录和外交信函在美国和拉丁美洲政府记录中有完整记载。",
+      "cross_references": [
+        "1823-MONROE_DOCTRINE",
+        "1948-OAS_FOUNDED"
+      ]
+    },
+    {
+      "id": "1889-012",
+      "title": "萨摩亚危机与阿皮亚飓风",
+      "region": "萨摩亚（阿皮亚港）",
+      "coordinates_approx": "13.83°S, 171.76°W",
+      "category": "military",
+      "description": "1889年初，德国、美国和英国军舰在阿皮亚港的三方对峙威胁要就萨摩亚影响力争夺而公开冲突。三国共七艘军舰在对峙中支持相互竞争的萨摩亚派系。3月15日至16日，一场灾难性的飓风袭击了港口，摧毁或搁浅了七艘军舰中的六艘，造成约200名水手死亡。这场灾难化解了军事危机，推动三国走向1889年6月14日的《柏林法案》，建立了对萨摩亚的三方保护国——这一不稳定的安排持续到1899年，岛屿最终被德国和美国瓜分。",
+      "key_figures": [
+        "马塔阿法·伊奥塞福国王（德国支持的萨摩亚领袖）",
+        "马列托阿·劳佩帕国王（竞争对手萨摩亚领袖）",
+        "刘易斯·金伯利少将（美国海军）"
+      ],
+      "sources": [
+        {
+          "name": "1889年美国海军关于萨摩亚事务的报告和国会证词",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "罗伯特·路易斯·史蒂文森，《历史的注脚：萨摩亚的八年动荡》（1892年）",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "保罗·M·肯尼迪，《萨摩亚纠纷：英德美关系研究，1878-1900》（1974年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "三国的海军记录、外交信函和报刊报道均有详细记载。",
+      "cross_references": [
+        "1899-PARTITION_OF_SAMOA"
+      ]
+    },
+    {
+      "id": "1889-013",
+      "title": "北达科他、南达科他、蒙大拿和华盛顿加入美国",
+      "region": "美国",
+      "coordinates_approx": "46.81°N, 100.78°W",
+      "category": "political",
+      "description": "1889年11月2日，本杰明·哈里森总统签署公告，批准北达科他、南达科他、蒙大拿和华盛顿加入联邦——单日加入州数超过美国历史上任何其他时期（哈里森同时签署了达科他的加入令，以避免显示偏袒）。这些州的加入反映了横贯大陆铁路、宅地法和对原住民土地的征用后美国西部的快速定居和经济发展。新州向国会增加了八名参议员，加强了共和党的西部基础，并在数十年中塑造了参议院的政治平衡。",
+      "key_figures": [
+        "本杰明·哈里森总统",
+        "约翰·米勒（北达科他首任州长）",
+        "亚瑟·C·梅莱特（南达科他首任州长）"
+      ],
+      "sources": [
+        {
+          "name": "1889年11月2日总统建州公告（《联邦公报》/《国会记录》）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "1889年2月22日授权法案（25 Stat. 676）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "理查德·怀特，《被铁路绑架：横贯大陆铁路与现代美国的形成》（2011年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "日期和情况在联邦记录中有完全精确的记载。",
+      "cross_references": [
+        "1862-HOMESTEAD_ACT",
+        "1890-IDAHO_WYOMING_STATEHOOD"
+      ]
+    },
+    {
+      "id": "1889-014",
+      "title": "简·亚当斯在芝加哥创立赫尔宫",
+      "region": "美国（伊利诺伊州芝加哥）",
+      "coordinates_approx": "41.87°N, 87.65°W",
+      "category": "cultural",
+      "description": "1889年9月18日，简·亚当斯和艾伦·盖茨·斯塔尔在芝加哥近西区开设了赫尔宫作为服务移民社区的'安置所'。受伦敦汤因比馆的启发，赫尔宫提供教育、儿童保育、健康服务和文化活动，成为进步主义社会改革的实验室。它开创了对住房条件、劳工剥削和青少年司法的调查，推动了市、州和联邦层面的立法。赫尔宫成为美国安置运动的旗舰，以及一代改革家、社会工作者和公共知识分子的训练场。",
+      "key_figures": [
+        "简·亚当斯（联合创始人）",
+        "艾伦·盖茨·斯塔尔（联合创始人）",
+        "弗洛伦斯·凯利（后来的住户和改革家）"
+      ],
+      "sources": [
+        {
+          "name": "简·亚当斯，《赫尔宫二十年》（1910年）",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "1889年9月芝加哥当代报刊报道",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "路易丝·W·奈特，《公民：简·亚当斯与民主调查》（2005年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "开放日期和早期运营在亚当斯本人的著作、新闻界和赫尔宫档案中均有详细记载。",
+      "cross_references": [
+        "1884-TOYNBEE_HALL_FOUNDED"
+      ]
+    },
+    {
+      "id": "1889-015",
+      "title": "孟尼利克二世成为埃塞俄比亚皇帝",
+      "region": "埃塞俄比亚（亚的斯亚贝巴/绍阿）",
+      "coordinates_approx": "9.02°N, 38.75°E",
+      "category": "political",
+      "description": "1889年3月10日约翰尼斯四世皇帝在梅特马战役中阵亡后，绍阿王孟尼利克二世声称继承皇位，并于1889年11月3日加冕为万王之王。孟尼利克多年来一直在南方巩固权力基础，扩张绍阿的势力范围并用欧洲武器实现军队现代化。他的登基统一了埃塞俄比亚对外来侵蚀的抵抗，并为军事集结创造了条件，最终在1896年阿杜瓦战役中取得对意大利的决定性胜利。孟尼利克在此期间还建立了亚的斯亚贝巴作为永久首都，该城至今仍是埃塞俄比亚的首都。",
+      "key_figures": [
+        "孟尼利克二世（埃塞俄比亚皇帝）",
+        "约翰尼斯四世（前任，在梅特马阵亡）",
+        "泰图·贝图尔皇后（妻子和政治伙伴）"
+      ],
+      "sources": [
+        {
+          "name": "埃塞俄比亚皇家编年史和宫廷记录",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "哈罗德·G·马库斯，《孟尼利克二世生平与时代：埃塞俄比亚1844-1913》（1975年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "1889年来自亚的斯亚贝巴的欧洲外交急件",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在埃塞俄比亚、意大利、英国和法国的资料中均有充分证实。确切加冕日期有时记为11月3日。",
+      "cross_references": [
+        "1889-004",
+        "1896-BATTLE_OF_ADWA"
+      ]
+    },
+    {
+      "id": "1889-016",
+      "title": "梵高创作《星月夜》",
+      "region": "法国（圣雷米普罗旺斯）",
+      "coordinates_approx": "43.79°N, 4.83°E",
+      "category": "cultural",
+      "description": "1889年6月，文森特·梵高在圣雷米普罗旺斯圣保罗-德-莫索勒精神病院做自愿患者期间创作了《星月夜》，描绘了从他东向窗户看到的景色，配以戏剧性的旋转夜空。梵高本人认为这幅画与他同时期其他作品相比相对失败。他在世期间及1890年去世后，这幅画基本被忽视，但在二十世纪成为西方艺术中最被认可的图像之一。这幅画体现了表现主义和现代艺术广泛影响的富有表现力、充满情感的色彩和形式手法。",
+      "key_figures": [
+        "文森特·梵高（画家）",
+        "西奥·梵高（弟弟，画商和支持者）"
+      ],
+      "sources": [
+        {
+          "name": "文森特·梵高致西奥·梵高的信件，1889年6月（第782封信及相关通信）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "现代艺术博物馆（纽约）来源和展览记录",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "马丁·贝利，《星月夜：梵高在精神病院》（2018年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "通过梵高与弟弟的详细信件确定日期，这些信件提供了关于他画作的精确信息。",
+      "cross_references": [
+        "1890-DEATH_OF_VAN_GOGH"
+      ]
+    },
+    {
+      "id": "1889-017",
+      "title": "艾哈迈杜·塔尔的图库勒帝国被法军攻陷",
+      "region": "西非（塞古，今马里境内）",
+      "coordinates_approx": "13.44°N, 5.67°W",
+      "category": "military",
+      "description": "1889年4月6日，路易·阿希纳尔中校率领的法国殖民军攻占了图库勒帝国首都塞古城，击败了苏丹艾哈迈杜·塔尔。图库勒帝国由艾哈迈杜之父哈吉·奥马尔·塔尔于1850年代通过伊斯兰圣战建立，曾控制沿尼日尔河和塞内加尔河上游的广阔领土。艾哈迈杜试图在保持独立的同时与法国谈判，但法国军事指挥官无视巴黎的外交表态，推行征服战略。塞古的陷落标志着法国殖民西苏丹的决定性一步，以及最后一个主要的独立西非国家的毁灭。",
+      "key_figures": [
+        "艾哈迈杜·塔尔（图库勒帝国苏丹）",
+        "路易·阿希纳尔中校（法国指挥官）",
+        "哈吉·奥马尔·塔尔（帝国创始人，1864年去世）"
+      ],
+      "sources": [
+        {
+          "name": "法国军事战役报告和海外档案记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "A·S·卡尼亚-福斯特纳，《西苏丹的征服：法国军事帝国主义研究》（1969年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "大卫·罗宾逊，《奥马尔·塔尔的圣战》（1985年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "法国军事档案和殖民记录中有详细记载。非洲口述传统和阿拉伯语手稿提供了额外的视角。",
+      "cross_references": [
+        "1884-BERLIN_CONFERENCE",
+        "1893-FRENCH_CONQUEST_TIMBUKTU"
+      ]
+    },
+    {
+      "id": "1889-018",
+      "title": "苏伊士运河公司向所有国家开放正式化",
+      "region": "埃及/奥斯曼帝国/国际",
+      "coordinates_approx": "30.58°N, 32.27°E",
+      "category": "legal",
+      "description": "1888年10月29日签署但于1889年批准并实际生效的君士坦丁堡公约正式保障了苏伊士运河在和平和战争时期向所有国家的船只自由开放。自1882年起占领埃及并有效控制运河的英国接受了公约，同时附加了保留其军事行动自由的保留条款。该公约确立了影响后来巴拿马运河和其他海峡条约的国际水道中立原则。实际上，英国对埃及的主导意味着运河的中立条款被选择性执行。",
+      "key_figures": [
+        "索尔兹伯里勋爵（英国首相）",
+        "赫迪夫·陶菲克帕夏（英国占领下的埃及统治者）"
+      ],
+      "sources": [
+        {
+          "name": "1888年10月29日君士坦丁堡关于苏伊士运河自由航行的公约（1889年批准文件）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "扎卡里·卡拉贝尔，《分隔沙漠：苏伊士运河的创建》（2003年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "条约文本和批准日期是国际公共法记录。公约于1888年签署，但于1889年批准后生效。",
+      "cross_references": [
+        "1869-SUEZ_CANAL_OPENED",
+        "1882-BRITISH_OCCUPATION_EGYPT"
+      ]
+    },
+    {
+      "id": "1889-019",
+      "title": "流感大流行（'俄罗斯流感'）开始全球传播",
+      "region": "全球（源自中亚/俄罗斯帝国）",
+      "coordinates_approx": "55.75°N, 37.62°E",
+      "category": "demographic",
+      "description": "1889年末，一场严重的流感大流行——通常称为'俄罗斯流感'——从布哈拉或圣彼得堡的明显起源地开始全球传播。到12月，它已到达西欧和北美，最终在1890年前在全球造成约100万人死亡。这是首次通过电报和国际新闻界近乎实时追踪的疫情，并促进了国家间的早期流行病学合作。一些现代病毒学家推测病原体可能是一种冠状病毒（OC43）而非流感病毒，尽管这仍存在争议。疫情沿着铁路和轮船航线快速传播，表明现代交通基础设施已经创造了新的脆弱性。",
+      "key_figures": [
+        "亨利·富兰克林·帕森斯博士（英国公共卫生调查员）"
+      ],
+      "sources": [
+        {
+          "name": "1889-1890年伦敦地方政府委员会关于流感传播的报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "马克·霍尼格斯鲍姆，《大流感大流行史》（2013年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "K·维让等人，《人类冠状病毒OC43完整基因组序列》，《病毒学杂志》（2005年）——认为1889年大流行可能是冠状病毒的假说",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "大流行本身有充分记录。其地理来源和确切病原体存在争议；OC43冠状病毒假说言之有理但尚未证实。",
+      "cross_references": [
+        "1918-SPANISH_FLU"
+      ]
+    },
+    {
+      "id": "1889-020",
+      "title": "班吉建立；法国在中非的扩张",
+      "region": "中非（今中非共和国）",
+      "coordinates_approx": "4.37°N, 18.56°E",
+      "category": "exploration",
+      "description": "1889年，法国殖民代理人在乌班吉河畔的班吉建立了一个据点，该据点后来成为法国乌班吉-沙里领地的首府，其后是中非共和国。该据点属于法国将其西非领土与刚果盆地主张连接起来的更广泛推进的一部分，由与利奥波德二世国王的刚果自由邦和英国在尼罗河谷的野心竞争所驱动。班吉的建立代表着殖民控制延伸到非洲内陆最偏远地区之一，通过强迫劳动和橡胶开采对当地人口造成了毁灭性的长期后果。",
+      "key_figures": [
+        "米歇尔·多利西（法国殖民官员）",
+        "阿尔伯特·多利西（探险家和行政官）"
+      ],
+      "sources": [
+        {
+          "name": "法国殖民行政记录，海外档案",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "凯瑟琳·科克里-维德罗维奇，《特许公司时期的刚果1898-1930》（1972年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "班吉的建立日期通常记为1889年，但据点的确切建立日期在年内是近似的。",
+      "cross_references": [
+        "1884-BERLIN_CONFERENCE",
+        "1885-CONGO_FREE_STATE"
+      ]
+    },
+    {
+      "id": "1889-021",
+      "title": "布朗热危机解决；布朗热主义在法国崩溃",
+      "region": "法国（巴黎）",
+      "coordinates_approx": "48.86°N, 2.35°E",
+      "category": "political",
+      "description": "1889年初，魅力型将军乔治·布朗热通过民粹主义煽动威胁要推翻第三共和国的布朗热危机达到高潮并得到解决。在1月27日巴黎一场戏剧性的补选中获胜后，布朗热的支持者期待他进军爱丽舍宫，但他犹豫了。政府以阴谋罪起诉他，4月1日布朗热逃往布鲁塞尔以避逮捕。他被参议院缺席审判、定罪，其运动迅速瓦解。布朗热主义的崩溃是第三共和国的关键时刻，使威权民粹主义名誉扫地，并在整整一代人中巩固了法国的议会民主制。",
+      "key_figures": [
+        "乔治·布朗热将军（民粹主义领袖）",
+        "欧内斯特·康斯坦斯（击破布朗热主义的内政部长）",
+        "萨迪·卡诺总统"
+      ],
+      "sources": [
+        {
+          "name": "1889年1月至4月法国当代新闻界报道（《费加罗报》、《时代报》、《不妥协报》）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "威廉·D·欧文，《布朗热事件再思考》（1989年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "1889年8月参议院审判记录和诉讼程序",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在法国议会记录、新闻界和警方档案中有全面记载。",
+      "cross_references": [
+        "1894-DREYFUS_AFFAIR"
+      ]
+    },
+    {
+      "id": "1889-022",
+      "title": "任天堂作为纸牌公司在京都创立",
+      "region": "日本（京都）",
+      "coordinates_approx": "35.01°N, 135.77°E",
+      "category": "economic",
+      "description": "1889年9月23日，山内房治郎在京都创立了任天堂骨牌，生产手工制作的花札纸牌。花札取代了德川时代被日本政府作为赌博工具禁止的西式纸牌。山内用桑树皮制作的纸牌广受欢迎，公司最终成为日本主导性的纸牌制造商。虽然与其后来的电子游戏公司身份完全无关，但这一创立日期确立了一家世界上最具影响力的娱乐公司，该公司直到1970年代才转向电子游戏。",
+      "key_figures": [
+        "山内房治郎（创始人）"
+      ],
+      "sources": [
+        {
+          "name": "任天堂公司记录和官方公司历史",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "杰夫·瑞安，《超级马里奥：任天堂如何征服美国》（2011年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "创立日期在公司记录中有一致记载，尽管一些来源引用1889年末而未指明具体日期。",
+      "cross_references": []
+    },
+    {
+      "id": "1889-023",
+      "title": "西伯利亚大铁路开始建设",
+      "region": "俄罗斯帝国（西伯利亚）",
+      "coordinates_approx": "55.03°N, 82.93°E",
+      "category": "technological",
+      "description": "1889年，在沙皇亚历山大三世批准该项目后，西伯利亚大铁路的初步建设和勘测工作开始。这条铁路最终将从莫斯科延伸至符拉迪沃斯托克，全长超过9000公里，旨在巩固俄罗斯对西伯利亚的控制、促进定居、开发自然资源并向东亚投射军事力量。正式建设从1891年起加速，当时皇太子尼古拉（未来的尼古拉二世）在符拉迪沃斯托克铺设了象征性的第一块基石。这条铁路改变了西伯利亚的人口结构和经济，使俄罗斯在满洲和朝鲜的帝国主义成为可能，至今仍是世界上最长的铁路线。",
+      "key_figures": [
+        "沙皇亚历山大三世（批准项目）",
+        "谢尔盖·维特（后来的财政部长，铁路倡导者）",
+        "康斯坦丁·波西耶特（交通部长）"
+      ],
+      "sources": [
+        {
+          "name": "史蒂文·G·马克斯，《权力之路：西伯利亚大铁路与亚洲俄罗斯的殖民化，1850-1917》（1991年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "1887-1891年俄罗斯帝国政府规划文件和部委记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "授权和早期规划有记录，但'开始建设'有些模糊——初步勘测和土方工程始于1889年，而正式仪式在1891年。",
+      "cross_references": [
+        "1891-TRANS_SIBERIAN_FORMAL_START",
+        "1904-RUSSO_JAPANESE_WAR"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "关于1889年的几个常见说法值得审视。（1）乌查莱条约的差异：传统意大利史学长期认为该条约直接建立了保护国且孟尼利克反悔；现代学术研究（鲁本森、乔纳斯）已确凿证明阿姆哈拉语文本与意大利语文本存在实质性差异，使得意大利对保护国的主张充其量是创造性翻译，最坏是蓄意欺骗。（2）1889年流感大流行：认为这是流感病毒的假设受到维让等人（2005年）的质疑，他们基于分子钟研究提出可能是牛冠状病毒跨越到人类（OC43）。这尚未证实且仍是少数假说，但它使标准叙事复杂化。（3）约翰斯敦洪灾：南福克钓鱼和狩猎俱乐部承担法律责任的说法在法庭上被驳回；当时的法律体系不支持现代历史学家认为令人信服的过失索赔，引发了关于回顾性道德判断与当代法律标准的疑问。（4）布朗热主义：一些历史学家（欧文）认为布朗热从未如戏剧性叙事所暗示的那样接近政变，共和国比危机叙事所暗示的更稳定。（5）任天堂的创立日期在公司历史中有时记为1889年，但对确切日期的独立验证在很大程度上依赖于公司提供的信息。",
+  "historiographic_note": "1889年的历史记录异常丰富，涵盖了政府档案、外交信函、不断扩大的全球媒体的新闻界报道以及早期摄影记录。需注意的偏见：非洲事件绝大多数通过欧洲殖民资料记录，非洲视角主要通过口述传统和阿拉伯手稿保存，这些资料的收集和翻译不均衡。拉丁美洲记录由精英和城市资料主导。萨摩亚危机中太平洋岛民的能动性主要经过欧洲和美国海军记述的过滤。明治宪法的日本资料非常丰富，但标准英语史学长期以来偏向宪法文本本身，而非塑造它的政治谈判和妥协。'俄罗斯流感'大流行主要通过欧洲公共卫生记录记载，全球死亡率为粗略估计。",
+  "graph_edges": [
+    {
+      "from": "1889-001",
+      "to": "1893-CHICAGO_WORLDS_FAIR",
+      "relation": "led_to",
+      "note": "1889年巴黎世博会为国际博览会作为国家成就展示平台树立了模板，直接影响了1893年芝加哥世界哥伦布博览会"
+    },
+    {
+      "from": "1889-002",
+      "to": "1890-FIRST_JAPANESE_DIET",
+      "relation": "led_to",
+      "note": "明治宪法为帝国议会创造了法律基础，议会于1890年11月开幕"
+    },
+    {
+      "from": "1889-003",
+      "to": "1888-ABOLITION_BRAZIL",
+      "relation": "caused_by",
+      "note": "1888年废除奴隶制疏远了种植园主阶级与君主制，移除了其最强大的支持基础"
+    },
+    {
+      "from": "1889-004",
+      "to": "1896-BATTLE_OF_ADWA",
+      "relation": "led_to",
+      "note": "乌查莱条约争端是第一次意大利-埃塞俄比亚战争和阿杜瓦战役的直接外交原因"
+    },
+    {
+      "from": "1889-005",
+      "to": "1914-ASSASSINATION_FRANZ_FERDINAND",
+      "relation": "led_to",
+      "note": "鲁道夫之死改变了哈布斯堡继承顺序，最终使弗朗茨·斐迪南成为继承人，其刺杀引发了第一次世界大战"
+    },
+    {
+      "from": "1889-006",
+      "to": "1887-DAWES_ACT",
+      "relation": "caused_by",
+      "note": "道斯法案的分配和剩余土地政策为开放原印第安领地创造了法律框架"
+    },
+    {
+      "from": "1889-008",
+      "to": "1886-HAYMARKET_AFFAIR",
+      "relation": "caused_by",
+      "note": "第二国际宣布五一劳动节直接纪念干草市场事件"
+    },
+    {
+      "from": "1889-009",
+      "to": "1890-PIONEER_COLUMN_MASHONALAND",
+      "relation": "led_to",
+      "note": "英国南非公司特许状使1890年先锋纵队入侵马绍纳兰成为可能"
+    },
+    {
+      "from": "1889-010",
+      "to": "1888-MATCHGIRLS_STRIKE",
+      "relation": "caused_by",
+      "note": "1888年火柴女工罢工证明非熟练工人能够成功组织，激励了码头工人"
+    },
+    {
+      "from": "1889-010",
+      "to": "1900-LABOUR_PARTY_FORMATION",
+      "relation": "led_to",
+      "note": "码头罢工激励的新工会主义是1900年劳工代表委员会成立的关键前提"
+    },
+    {
+      "from": "1889-015",
+      "to": "1889-004",
+      "relation": "contemporary_with",
+      "note": "孟尼利克的登基与乌查莱条约直接相关——两者发生在埃塞俄比亚继承的同一政治时刻"
+    },
+    {
+      "from": "1889-017",
+      "to": "1884-BERLIN_CONFERENCE",
+      "relation": "caused_by",
+      "note": "法国向中非的扩张是由柏林会议正式确立的瓜分非洲所驱动"
+    },
+    {
+      "from": "1889-019",
+      "to": "1918-SPANISH_FLU",
+      "relation": "part_of",
+      "note": "1889年大流行是一系列全球疫情之一，展示了互联现代社会的脆弱性，预示了1918年大流行"
+    },
+    {
+      "from": "1889-021",
+      "to": "1894-DREYFUS_AFFAIR",
+      "relation": "led_to",
+      "note": "布朗热主义的崩溃使民族主义右翼寻找新的集结事业，在德雷福斯事件中找到了它"
+    },
+    {
+      "from": "1889-023",
+      "to": "1904-RUSSO_JAPANESE_WAR",
+      "relation": "led_to",
+      "note": "西伯利亚大铁路使俄罗斯能够向东亚投射军事力量，促进了与日本的冲突"
+    }
+  ],
+  "_meta": {
+    "processed_at": "2026-04-11T02:46:48.058012",
+    "model": "claude-sonnet-4-6",
+    "method": "claude-code-cli",
+    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
+  }
+}

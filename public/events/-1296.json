@@ -1,0 +1,116 @@
+{
+  "year": -1296,
+  "year_label": "公元前1297年",
+  "era_context": "晚期青铜时代，地中海和近东主要文明相对稳定和繁荣的时期。拉美西斯二世治下的埃及处于权力顶峰。赫梯帝国仍是安纳托利亚的主要力量。迈锡尼希腊繁荣发展。中国商朝处于最后几个世纪。此时代将在约公元前1200年开始的晚期青铜时代崩溃中被破坏。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中美洲",
+    "太平洋岛屿",
+    "中亚和草原",
+    "南亚"
+  ],
+  "events": [
+    {
+      "id": "-1296-001",
+      "title": "埃及-赫梯外交关系",
+      "region": "埃及和安纳托利亚",
+      "coordinates_approx": "35.0°N, 33.0°E",
+      "category": "political",
+      "description": "埃及法老拉美西斯二世和赫梯统治者维持着外交关系，包括通信和可能的贸易协定。著名的埃及-赫梯和平条约（常定于公元前1259年，但一些学者将相关外交活动置于更早）之前是几十年的军事竞争和谈判。到公元前1297年，双方都认识到和平共处和贸易的互利。后来的记录证实的外交通信表明两宫廷之间积极沟通。",
+      "key_figures": [
+        "拉美西斯二世（埃及法老）",
+        "赫梯统治者（可能是穆瓦塔里二世或其继任者）"
+      ],
+      "sources": [
+        {
+          "name": "埃及神庙铭文和行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "来自博阿兹柯伊的赫梯楔形文字文本",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "埃及和赫梯帝国之间的外交关系证据充分。特定年份公元前1297年是根据惯例在拉美西斯二世统治更广泛时期内分配。",
+      "cross_references": [
+        "先于正式的埃及-赫梯和平条约（传统上定于公元前1259年）"
+      ]
+    },
+    {
+      "id": "-1296-002",
+      "title": "商朝青铜铸造与仪式实践",
+      "region": "中国（中原地区）",
+      "coordinates_approx": "34.5°N, 114.5°E",
+      "category": "cultural",
+      "description": "商朝维持着其先进的青铜铸造技术和仪式实践。青铜器、武器和礼仪用具大量生产，既用于实用也用于仪式目的。商朝宫廷举行精心设计的仪式，包括祖先崇拜和占卜，这些对统治者的合法性至关重要。此时期代表了商朝文化和技术成就的顶峰。",
+      "key_figures": [
+        "商朝晚期国王和宫廷"
+      ],
+      "sources": [
+        {
+          "name": "殷墟和其他商代遗址的青铜器物",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "甲骨文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "商朝青铜铸造和仪式实践在考古遗存中有广泛记载。公元前1297年根据惯例在商朝晚期内分配。",
+      "cross_references": [
+        "更广泛的商朝文化和技术体系的一部分"
+      ]
+    },
+    {
+      "id": "-1296-003",
+      "title": "迈锡尼陶器生产与分布",
+      "region": "希腊和地中海",
+      "coordinates_approx": "37.7°N, 23.0°E",
+      "category": "economic",
+      "description": "迈锡尼陶器大量生产并分布到地中海和近东各地。在埃及、黎凡特、安纳托利亚和塞浦路斯发现了迈锡尼陶器，表明贸易网络广泛。陶器生产是一项主要经济活动，雇佣陶工并支持贸易。此时期代表了迈锡尼经济融入更广泛地中海贸易体系的顶峰。",
+      "key_figures": [
+        "迈锡尼陶工和商人（名字未知）"
+      ],
+      "sources": [
+        {
+          "name": "希腊和地中海发掘中迈锡尼陶器的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "记录陶器生产的线形文字B泥板",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "迈锡尼陶器在考古遗存中有广泛记载。公元前1297年根据惯例在晚期希拉迪克IIIB阶段内分配。",
+      "cross_references": [
+        "更广泛的迈锡尼经济体系的一部分"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现具体否定证据。年代框架仍有学术争议。",
+  "historiographic_note": "公元前1297年的历史记录类似于本批次前几年：埃及、赫梯帝国和迈锡尼希腊记载充分；其他大多数地区稀疏或缺失。幸存资料严重偏向来自文字文明的纪念性和行政记录。",
+  "graph_edges": [
+    {
+      "from": "-1296-001",
+      "to": "-1259-001",
+      "relation": "led_to",
+      "note": "埃及与赫梯帝国外交关系最终导致了正式和平条约。"
+    },
+    {
+      "from": "-1296-002",
+      "to": "-1296-003",
+      "relation": "contemporary_with",
+      "note": "商朝青铜铸造和迈锡尼陶器生产是不同地区的当代发展。"
+    }
+  ]
+}

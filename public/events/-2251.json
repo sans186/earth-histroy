@@ -1,0 +1,100 @@
+{
+  "year": -2251,
+  "year_label": "公元前2251年",
+  "era_context": "与 -2250 年相同：古王国埃及分裂；阿卡德帝国在纳拉姆辛治下达到领土巅峰但面临压力；印度河流域文明处于成熟的哈拉帕阶段；青铜时代早期II期文化主导爱琴海。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲：书面记录极少",
+    "北欧：无书面记录",
+    "中美洲：无书面记录"
+  ],
+  "events": [
+    {
+      "id": "-2251-001",
+      "title": "纳拉姆辛继续阿卡德的巩固",
+      "region": "美索不达米亚（阿卡德帝国）",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "纳拉姆辛继续军事行动和行政巩固。这一年属于他的统治（公元前2254–2218年），代表了阿卡德帝国持续扩张的时期。这一时期的行政文书展示了军事战役组织、贡赋征收以及将征服领土纳入阿卡德国家机器的情况。帝国的势力范围从波斯湾延伸到地中海沿岸，并进入扎格罗斯山脉。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德国王）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德行政文书与铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "关于阿卡德年代学的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治有充分证据，但统治期内具体年份的事件鲜有记载。本条代表他统治的总体背景，而非一个具体日期的事件。",
+      "cross_references": [
+        "属于 -2250-001（更广泛的阿卡德扩张）"
+      ]
+    },
+    {
+      "id": "-2251-002",
+      "title": "哈拉帕的城市生活与贸易网络",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "印度河流域文明延续其成熟阶段，长途贸易活跃。考古证据显示与美索不达米亚、波斯湾和中亚的持续交流。标准化的度量衡促进商业。城市中心保持典型的网格状布局和复杂排水系统。手工业生产，包括陶器、金属加工和珠饰制作，高度发达并显示出专业化和标准化的迹象。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "在美索不达米亚背景中发现的贸易商品和印章",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈拉帕成熟期有充分考古证据。具体年份的事件没有记载。",
+      "cross_references": [
+        "属于 -2250-002（更广泛的哈拉帕文明）"
+      ]
+    },
+    {
+      "id": "-2251-003",
+      "title": "埃及第六王朝的分裂继续",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "第六王朝继续其逐渐衰落。地方总督积聚权力和资源。中央国家组织大型工程的能力减弱。地方墓葬的铭文证据显示地方精英日益自主和富裕。",
+      "key_figures": [
+        "佩皮二世（传统归属，但年代有争议）"
+      ],
+      "sources": [
+        {
+          "name": "地方墓葬铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "第六王朝衰落的总体趋势是明确的；具体年份的事件没有记载。",
+      "cross_references": [
+        "属于 -2250-003（更广泛的古王国衰落）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未识别出针对所列事件的具体推翻性证据。公元前2251年在现存记录中没有已知的具体历史事件；以上条目代表该时代的更广泛背景。",
+  "historiographic_note": "公元前2251年没有任何已知历史资料单独记载。以上条目基于更广阔的时代框架代表该时代的总体背景。这一时期的逐年具体事件鲜有记录；大多数历史知识是从考古和铭文证据中可视的长期趋势重建的。",
+  "graph_edges": [
+    {
+      "from": "-2251-001",
+      "to": "-2250-001",
+      "relation": "contemporary_with",
+      "note": "纳拉姆辛的统治跨越这两年。"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "year": -1581,
+  "year_label": "公元前1581年",
+  "era_context": "青铜时代晚期，埃及第十八王朝中期，成熟的迈锡尼文明，赫梯帝国巩固期。国际贸易网络强劲；战车战争主导军事战略。这是公元前13世纪动荡之前的相对稳定时期。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "美洲内陆",
+    "北欧",
+    "中亚",
+    "东南亚"
+  ],
+  "events": [
+    {
+      "id": "-1581-001",
+      "title": "埃及在叙利亚-巴勒斯坦地区军事行动持续",
+      "region": "埃及，黎凡特",
+      "coordinates_approx": "33.0°N, 35.0°E",
+      "category": "military",
+      "description": "法老（可能是阿蒙霍特普二世或其前任）领导下的埃及军队进行军事行动，以维持对叙利亚-巴勒斯坦附庸国的控制。这些行动记录在神庙铭文中，旨在确保贸易路线和贡品收入。军事组织反映了新王国时期先进的战车部队和职业军队。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "埃及神庙铭文（卡纳克、卢克索）",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "具体战役可追溯到阿蒙霍特普二世统治时期，但确切的逐年年表不确定；±5–10年误差。",
+      "cross_references": [
+        "-1580-001"
+      ]
+    },
+    {
+      "id": "-1581-002",
+      "title": "中国商朝处于成熟阶段",
+      "region": "中国，黄河流域",
+      "coordinates_approx": "34.5°N, 114.0°E",
+      "category": "political",
+      "description": "中国的商朝处于成熟阶段，拥有稳固的都城和先进的青铜铸造技术。甲骨文记录了占卜实践、王室谱系和行政活动。商朝维持着东亚广泛的贸易网络，并控制着黄河流域的广大领土。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "甲骨文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "商朝遗址的考古证据（安阳）",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "商朝年表有争议；传统日期将此时期置于某位具体国王的统治时期，但与西历的精确同步不确定（±10–20年）。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "商朝年表仍然是中国历史研究中最具争议的领域之一。中国传统文献中商朝的时间远早于考古证据所支持的。现代学术研究已大幅修订了这些日期，但“短年表”和“长年表”之间仍存在分歧，造成此期间任何特定年份的±10–20年不确定性。",
+  "historiographic_note": "公元前1581年在大多数地区文献记载稀少。埃及和赫梯文献是我们了解这一时期的主要窗口，但它们侧重于精英政治和军事活动。商朝甲骨文为了解中国文明提供了独特的视角，但范围有限。世界上大多数人口和地区在这一年没有留下文字记录。",
+  "graph_edges": [
+    {
+      "from": "-1581-001",
+      "to": "-1580-001",
+      "relation": "contemporary_with",
+      "note": "属于同一位法老统治时期和军事战役周期的一部分"
+    }
+  ]
+}

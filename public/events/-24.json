@@ -1,0 +1,106 @@
+{
+  "year": -24,
+  "year_label": "公元前24年",
+  "era_context": "奥古斯都元首制早期，内战结束后权力巩固。帕提亚帝国统治近东。中国在西汉宣帝统治下处于最后几十年。埃及是罗马行省。希腊化世界逐渐被纳入罗马霸权。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（有限文字资料）",
+    "罗马边境以北的北欧（稀疏考古记录）",
+    "美洲内陆（无文字记录）"
+  ],
+  "events": [
+    {
+      "id": "-24-001",
+      "title": "西班牙的坎塔布里亚战争",
+      "region": "西班牙（西班牙和葡萄牙），特别是坎塔布里亚和卢西塔尼亚",
+      "coordinates_approx": "43.0, -4.0",
+      "category": "military",
+      "description": "坎塔布里亚战争（公元前29-19年）在奥古斯都的指挥下继续进行。罗马军队致力于征服西班牙西北部最后的独立部落。战役艰难而持久，涉及山地作战，抵抗激烈。到公元前24年，罗马人正在取得进展，接近最终胜利。",
+      "key_figures": [
+        "奥古斯都（罗马皇帝）",
+        "坎塔布里亚和卢西塔尼亚部落（抵抗力量）"
+      ],
+      "sources": [
+        {
+          "name": "《奥古斯都功德碑》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "狄奥·卡西乌斯《罗马史》第54卷",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "坎塔布里亚战争有详细记载，但逐年进展的具体情况不确定。",
+      "cross_references": [
+        "延续自-25-001",
+        "导致-23-001"
+      ]
+    },
+    {
+      "id": "-24-002",
+      "title": "奥古斯都的权力巩固与元首制",
+      "region": "罗马，意大利",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "到公元前24年，奥古斯都已巩固了对罗马国家的权力，建立了稳定的元首制政府形式。内战结束，奥古斯都在保持共和制机构幌子的同时确立了最高权威。元老院和官职继续存在，但实权掌握在奥古斯都手中。这一时期设立了近卫军等机构，这些机构将定义帝国制度。",
+      "key_figures": [
+        "奥古斯都（罗马皇帝）",
+        "罗马元老院"
+      ],
+      "sources": [
+        {
+          "name": "《奥古斯都功德碑》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "狄奥·卡西乌斯《罗马史》第54卷",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "奥古斯都的权力巩固有充分证据，但确切时间线有争议。到公元前24年，元首制已牢固确立。",
+      "cross_references": [
+        "属于更广泛的奥古斯都政治计划的一部分"
+      ]
+    },
+    {
+      "id": "-24-003",
+      "title": "汉宣帝统治下的西汉宫廷政治",
+      "region": "中国，汉帝国",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "汉宣帝（公元前74-49年在位）在其统治中期继续巩固权力。围绕潜在继承人形成了宫廷派系，外戚和宦官的影响力日益增长。王朝的稳定日益依赖于皇帝的个人权威。",
+      "key_figures": [
+        "汉宣帝",
+        "外戚和朝廷官员"
+      ],
+      "sources": [
+        {
+          "name": "班固《汉书》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "汉廷政治在中国编年史中有记载，但公元前24年的具体事件日期不详。",
+      "cross_references": [
+        "相关于-20-004"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "坎塔布里亚战争的逐年进展不确定。奥古斯都的权力巩固是一个渐进过程，而非公元前24年的单一事件；该日期是近似的。",
+  "historiographic_note": "公元前24年通过后世历史学家的记载在罗马世界有中等程度的文献记录。中文资料丰富，但往往是在事件发生数世纪后编纂的。西方中心偏见显著：地中海和中国的发展有充分记载，而撒哈拉以南非洲、北欧和美洲则不可见。资料来源通常是回顾性的。",
+  "graph_edges": [
+    {
+      "from": "-24-002",
+      "to": "-23-003",
+      "relation": "led_to",
+      "note": "奥古斯都的权力巩固导致了公元前23年的继承危机"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "year": -2086,
+  "year_label": "公元前2086年",
+  "era_context": "埃及古王国（第六王朝）最后阶段延续。阿卡德帝国在纳拉姆辛治下接近或处于领土顶峰。印度河文明延续成熟期。在中国，传说性夏朝在传统年代学中持续，但考古证据仍存争议。这是帝国巩固与初期分裂并存的时期。",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "大洋洲",
+    "中亚（该年具体记录有限）"
+  ],
+  "events": [
+    {
+      "id": "-2086-001",
+      "title": "培比二世统治继续——行政碎片化加速",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "在培比二世统治下的这一年，地方总督（诺姆长）继续巩固权力与财富。如哈尔胡夫等官员的铭文记载了前往努比亚和第一瀑布的远征，但这些活动越来越在地方总督而非直接王家命令下进行。中央行政的控制力减弱，为一代人之内随之而来的政治崩溃奠定基础。",
+      "key_figures": [
+        "培比二世（奈菲尔卡拉）——法老",
+        "哈尔胡夫——总督和远征领袖"
+      ],
+      "sources": [
+        {
+          "name": "阿斯旺的哈尔胡夫自传铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "其他古王国官员铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "培比二世统治传统上定在前2278-2184年；-2086在此范围内，但绝对年代有±50-100年不确定性。",
+      "cross_references": [
+        "-2085-001"
+      ]
+    },
+    {
+      "id": "-2086-002",
+      "title": "纳拉姆辛在黎凡特和安纳托利亚的征战",
+      "region": "美索不达米亚、黎凡特、安纳托利亚",
+      "coordinates_approx": "35.0, 40.0",
+      "category": "military",
+      "description": "纳拉姆辛的军事征战继续推进阿卡德势力。铭文记载了对阿摩利人、埃卜拉人及高地民族的胜利。阿卡德在安纳托利亚和黎凡特的控制程度仍存争议；一些学者主张直接领土控制，另一些认为这是朝贡关系或贸易主导。这些征战要求持续的军事动员和资源榨取，加重内部压力。",
+      "key_figures": [
+        "纳拉姆辛——阿卡德王"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德王家铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "楔形文字行政记录",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的征伐在同时代铭文中有充分证实。具体到-2086年的年代是近似的；征伐贯穿其整个统治期。",
+      "cross_references": [
+        "-2085-002"
+      ]
+    },
+    {
+      "id": "-2086-003",
+      "title": "印度河贸易网络——高峰活动",
+      "region": "印度河流域、美索不达米亚、波斯湾",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "economic",
+      "description": "印度河文明与美索不达米亚和波斯湾保持广泛的贸易网络。印度河印章和砝码在美索不达米亚遗址发现，美索不达米亚物品也出现在印度河背景中。这一贸易可能由波斯湾和阿曼的中介居中促成。标准化的印度河度量衡便利了长距离商业。贸易的性质——是国营、商人之手还是神庙组织——仍未知。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "美索不达米亚遗址中印度河印章和文物的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "美索不达米亚楔形文字提及‘麦鲁哈’",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河-美索不达米亚贸易的存在被考古证实。具体年份无法确定；贸易网络跨数世纪运作。",
+      "cross_references": [
+        "-2085-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现针对所列事件的具体反证。不过，阿卡德在安纳托利亚和黎凡特的领土控制程度仍存争议；一些学者认为势力范围比传统叙述更有限。",
+  "historiographic_note": "-2086年的文献与-2085年一样稀少。绝对年代仍有±50-100年不确定性。历史记录严重偏向精英和王家叙事。印度河文明的内部组织和贸易性质大多仍是推测。",
+  "graph_edges": [
+    {
+      "from": "-2086-001",
+      "to": "-2085-001",
+      "relation": "contemporary_with",
+      "note": "培比二世统治与行政碎片化的延续。"
+    },
+    {
+      "from": "-2086-002",
+      "to": "-2085-002",
+      "relation": "contemporary_with",
+      "note": "纳拉姆辛军事征战的延续。"
+    }
+  ]
+}

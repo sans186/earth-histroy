@@ -1,0 +1,115 @@
+{
+  "year": -1308,
+  "year_label": "公元前1308年",
+  "era_context": "青铜时代晚期继续，帝国格局相同。埃及拉美西斯二世统治处于中期，以广泛的军事行动和建筑计划为特征。赫梯帝国在穆尔西里三世领导下维持其在安纳托利亚和北叙利亚的地位。爱琴海的迈锡尼文明处于鼎盛时期。巴比伦由加喜特王朝统治。这是大国体系相对稳定的时期，但地区冲突持续存在。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚（除甲骨文记录外）",
+    "大洋洲与太平洋",
+    "中亚",
+    "南亚"
+  ],
+  "events": [
+    {
+      "id": "-1308-001",
+      "title": "拉美西斯二世在叙利亚-巴勒斯坦的军事行动",
+      "region": "叙利亚-巴勒斯坦",
+      "coordinates_approx": "34.0,35.0",
+      "category": "military",
+      "description": "拉美西斯二世在叙利亚-巴勒斯坦开展军事行动，以维持埃及控制并从当地统治者那里征收贡赋。这些战役记录在神庙浮雕和行政记录中。战役旨在巩固埃及在该地区的霸权并展示法老的军事才能。战役还确保了贸易路线和重要资源的获取。",
+      "key_figures": [
+        "拉美西斯二世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "卡纳克及其他遗址的神庙浮雕与铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "记载军事组织的行政记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "拉美西斯二世的军事行动有充分证据，但其统治期内个别战役的精确年代不确定。在其66年的统治期间发生了多次战役。",
+      "cross_references": []
+    },
+    {
+      "id": "-1308-002",
+      "title": "赫梯对埃及的外交使团",
+      "region": "安纳托利亚，埃及",
+      "coordinates_approx": "35.0,32.0",
+      "category": "political",
+      "description": "赫梯帝国与埃及保持外交使团和通信。这些使团旨在维护卡迭石战役后建立的和平，并谈判贸易协定和领土边界。保存在博阿兹柯伊档案馆的外交通信提供了关于两个大国关切和优先事项的详细信息。",
+      "key_figures": [
+        "穆尔西里三世（赫梯国王）",
+        "拉美西斯二世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "来自博阿兹柯伊档案馆的赫梯外交通信",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "埃及行政记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "外交关系有充分证据，但公元前1308年的具体使团是从更广泛的模式推断而来，而非精确定年。",
+      "cross_references": []
+    },
+    {
+      "id": "-1308-003",
+      "title": "迈锡尼陶器生产与贸易",
+      "region": "希腊，爱琴海，东地中海",
+      "coordinates_approx": "38.0,24.0",
+      "category": "economic",
+      "description": "迈锡尼陶器产量达到高水平，广泛的贸易网络将货物分销至整个东地中海。考古证据表明迈锡尼陶器在埃及、黎凡特、塞浦路斯和安纳托利亚广泛分布。这种贸易既反映了商业活动，也反映了文化影响。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "陶器分布考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "沉船证据（例如乌鲁布伦沉船）",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "贸易模式通过考古学得到广泛证实。该时期的陶器分布已充分确立。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "将具体军事行动归因于拉美西斯二世统治期间个别年份通常不确定。埃及记录通常不提供现代意义上的精确年代。埃及对叙利亚-巴勒斯坦的控制程度有时被夸大；当地统治者保持相当大的自治权。此外，迈锡尼陶器的年代基于类型学和地层学，误差可达数十年。",
+  "historiographic_note": "公元前1308年的历史记录以埃及和赫梯史源为主，反映了帝国宫廷的视角。迈锡尼证据主要来自考古学。记录严重偏向精英政治和军事事件。经济和社会史必须从物质文化中重建。世界大部分地区在文字史源中无记载。",
+  "graph_edges": [
+    {
+      "from": "-1308-001",
+      "to": "-1305-001",
+      "relation": "contemporary_with",
+      "note": "军事行动是拉美西斯二世统治的持续方面"
+    },
+    {
+      "from": "-1308-002",
+      "to": "-1305-002",
+      "relation": "contemporary_with",
+      "note": "外交关系在该时期得以维持"
+    },
+    {
+      "from": "-1308-003",
+      "to": "-1305-003",
+      "relation": "contemporary_with",
+      "note": "贸易网络在该时期活跃"
+    }
+  ]
+}

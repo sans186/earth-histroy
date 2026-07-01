@@ -1,0 +1,75 @@
+{
+  "year": -96,
+  "year_label": "公元前96年",
+  "era_context": "罗马共和国的政治衰落继续。米特拉达梯六世仍然主导东地中海。在中国，汉宣帝处于巩固阶段。帕提亚帝国控制中亚贸易路线。这一时期是第一次米特拉达梯战争和第一次罗马内战爆发前的最后十年。",
+  "documentation_level": "贫乏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中部美洲",
+    "东南亚",
+    "大部分印度次大陆"
+  ],
+  "events": [
+    {
+      "id": "-96-001",
+      "title": "安条克一世·菲洛梅托尔在叙利亚去世；塞琉古帝国继承危机",
+      "region": "塞琉古帝国，叙利亚，小亚细亚",
+      "coordinates_approx": "35.0, 38.0",
+      "category": "political",
+      "description": "塞琉古帝国国王安条克一世·菲洛梅托尔大约在这一时期去世（确切日期不确定）。他的去世引发了一场继承危机，削弱了塞琉古的力量，并为包括米特拉达梯六世和罗马在内的邻近强国扩大影响力创造了机会。塞琉古帝国的衰落在此期间加速。",
+      "key_figures": [
+        "安条克一世·菲洛梅托尔（塞琉古国王，约公元前96年去世）"
+      ],
+      "sources": [
+        {
+          "name": "阿庇安，《叙利亚战争》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "斯特拉博，《地理学》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "安条克一世·菲洛梅托尔的去世时间约为公元前96年，但确切年份不确定。不同史料给出的日期略有不同。年代是近似的。",
+      "cross_references": [
+        "属于塞琉古衰落的一部分（-200至-63 BCE）",
+        "导致塞琉古权力的进一步分裂"
+      ]
+    },
+    {
+      "id": "-96-002",
+      "title": "罗马政治不稳定；无重大有记载事件",
+      "region": "罗马共和国，意大利",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "罗马共和国继续其政治不稳定的轨迹。存世史料中未具体记载公元前96年的重大事件。这一年代表了共和国衰落的更广泛背景。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "未记载公元前96年的具体事件。",
+      "cross_references": [
+        "属于更广泛的共和国衰落的一部分"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "安条克一世·菲洛梅托尔去世的日期存在争议。有些史料将其定为公元前95年或公元前97年而非公元前96年。他去世的确切年份不确定，不同古代史料给出的日期互相矛盾。现代学术尚未就确切年份达成共识。",
+  "historiographic_note": "公元前96年的历史记录稀少。唯一潜在的重大事件（安条克一世去世）本身的年代也不确定。关于这一年的多数信息来自后世编纂而非同时代史料。这一年主要通过其在更广泛历史趋势中的位置而为人所知。文献的贫乏在这一时期是典型的。",
+  "graph_edges": [
+    {
+      "from": "-96-001",
+      "to": "-88-001",
+      "relation": "led_to",
+      "note": "塞琉古的软弱加剧了地区不稳定，影响了罗马的东方利益"
+    }
+  ]
+}

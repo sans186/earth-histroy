@@ -1,0 +1,102 @@
+{
+  "year": -2211,
+  "year_label": "公元前2211年",
+  "era_context": "乌尔第三王朝在美索不达米亚达到鼎盛；埃及第一中间期继续地区分裂；印度河流域文明处于成熟城市期；爱琴海和安纳托利亚处于青铜时代早期；中国传说中的早期夏朝（未经考古证实）。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东南亚和大洋洲",
+    "美洲",
+    "北欧和草原地带（书面记录有限）"
+  ],
+  "events": [
+    {
+      "id": "-2211-001",
+      "title": "阿马尔-辛继续统治与军事行动",
+      "region": "美索不达米亚（苏美尔及周边地区）",
+      "coordinates_approx": "31.0°N, 46.1°E",
+      "category": "military",
+      "description": "阿马尔-辛继续在扎格罗斯山脉开展军事行动，维持乌尔第三王朝对苏美尔城邦的霸权。楔形文字记录记载了军事远征、常备军组织以及将被征服领土纳入乌尔第三行政体系。国王的权威通过宗教仪式以及神庙和行政建筑的建设得到加强。",
+      "key_figures": [
+        "阿马尔-辛（乌尔国王）"
+      ],
+      "sources": [
+        {
+          "name": "乌尔第三王朝楔形文字行政与军事记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "阿马尔-辛的统治在楔形文字记录中有大量记载。绝对年代有±100年的不确定性。",
+      "cross_references": [
+        "-2210-001"
+      ]
+    },
+    {
+      "id": "-2211-002",
+      "title": "印度河流域贸易网络活跃",
+      "region": "印度河流域及周边地区",
+      "coordinates_approx": "27.0°N, 68.0°E",
+      "category": "economic",
+      "description": "印度河流域文明与美索不达米亚、波斯湾地区和中亚保持着广泛的贸易网络。考古证据（印章、砝码和贸易商品）显示出定期的商业往来。印度河印章在美索不达米亚遗址中发现，同时美索不达米亚商品出现在印度河文化层中。这种贸易通过阿拉伯海的海上航线和穿越兴都库什山脉的陆路通道进行。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河与美索不达米亚遗址出土的贸易商品和印章考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "贸易网络通过特色商品和印章的分布得到考古学上的充分证实。",
+      "cross_references": [
+        "-2210-002"
+      ]
+    },
+    {
+      "id": "-2211-003",
+      "title": "埃及第十一王朝在上埃及巩固",
+      "region": "上埃及（底比斯地区）",
+      "coordinates_approx": "25.7°N, 32.6°E",
+      "category": "political",
+      "description": "以底比斯为基地的第十一王朝在第一中间期期间继续在上埃及巩固权力。这些统治者正在逐步扩大其领土控制，并最终将在中王国时期重新统一埃及。同时代的墓葬铭文和行政文书记录了该王朝日益增长的影响力以及对敌对王朝的军事行动。",
+      "key_figures": [
+        "门图霍特普二世（第十一王朝，大致同时代或稍晚）"
+      ],
+      "sources": [
+        {
+          "name": "埃及墓葬铭文和行政文书",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "埃及王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "第十一王朝的兴起在埃及文献中有记载，但绝对年代不确定（±50年）。",
+      "cross_references": [
+        "-2210-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件无具体反证，但整体年代框架仍存争议。部分学者提出的替代年表可能使这些年代推移100年以上。",
+  "historiographic_note": "就重大历史发展而言，这一年与公元前2210年几乎无法区分。古代世界的逐年历史粒度失效，事件通常跨多个年份或几十年。书面记录集中在美索不达米亚和埃及；其他地区仅通过考古或后世传说得知。",
+  "graph_edges": [
+    {
+      "from": "-2211-001",
+      "to": "-2210-001",
+      "relation": "contemporary_with",
+      "note": "阿马尔-辛的统治从前一年延续"
+    },
+    {
+      "from": "-2211-002",
+      "to": "-2210-002",
+      "relation": "contemporary_with",
+      "note": "印度河流域贸易网络持续"
+    }
+  ]
+}

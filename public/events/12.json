@@ -1,0 +1,183 @@
+{
+  "year": 12,
+  "year_label": "公元12年",
+  "era_context": "奥古斯都时代后期，奥古斯都仍在世，时年75岁。罗马帝国处于和平状态，疆域达到鼎盛。在中国，西汉王朝刚刚覆灭（公元9年）；王莽的新朝进入第三年，开始面临严重问题。在印度，诸王国并存；萨塔瓦哈纳王朝正在崛起。这一年是地中海地区相对稳定、中国危机日益加剧的一年。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（有限的书面资料）",
+    "北欧罗马边境以外（稀疏的书面记录）",
+    "美洲内陆（无书面记录）"
+  ],
+  "events": [
+    {
+      "id": "12-001",
+      "title": "奥古斯都授予提比略治权和护民官权力",
+      "region": "罗马帝国，意大利",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "奥古斯都正式授予提比略治权（军事指挥权）和护民官权力，使其实际上成为共治者。这是准备继承的关键一步。提比略被赋予军队的指挥权和各省的权力，尽管奥古斯都保留最高权力。这一安排旨在确保军队和元老院对提比略的领导感到舒适，并检验他独掌大权的准备情况。",
+      "key_figures": [
+        "提比略（罗马将军和继承人）",
+        "奥古斯都（罗马皇帝）",
+        "罗马元老院"
+      ],
+      "sources": [
+        {
+          "name": "卡西乌斯·狄奥《罗马史》，第56卷",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "苏维托尼乌斯《提比略传》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "塔西佗《编年史》，第1卷",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "授予提比略治权和护民官权力有充分记载。确切日期有时置于公元12年或13年；史料略有差异。更广泛的背景是可靠的。",
+      "cross_references": [
+        "导致14-001（奥古斯都去世和提比略继位）"
+      ]
+    },
+    {
+      "id": "12-002",
+      "title": "中国黄河洪水与饥荒；王莽新朝陷入危机",
+      "region": "中国，黄河流域",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "environmental",
+      "description": "黄河发生大洪水，数十万人流离失所，引发广泛饥荒。王莽的新朝进入第三年，被归咎于这场灾难。皇帝激进的土地改革和货币操控被视为触怒上天并招致天谴。盗匪活动急剧增加，绝望的农民转而抢劫和反叛。王朝正在进入末期衰败。",
+      "key_figures": [
+        "王莽（新朝皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "班固编纂《汉书》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "范晔编纂《后汉书》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "中国历史文献详细记载了黄河洪水和饥荒。编年顺序有明确记载。",
+      "cross_references": [
+        "导致15-003（危机恶化）",
+        "导致23-001（新朝覆灭）"
+      ]
+    },
+    {
+      "id": "12-003",
+      "title": "日耳曼尼库斯出生；未来提比略的继承人",
+      "region": "罗马帝国",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "日耳曼尼库斯，提比略的养子和奥古斯都的孙子，出生（传统日期为公元15年5月24日，但一些资料将其出生时间提前；确切日期有争议）。日耳曼尼库斯将成为罗马帝国最受欢迎的人物之一，并在提比略之后的继承中发挥关键作用。他的出生对王朝的稳定具有重要意义。",
+      "key_figures": [
+        "日耳曼尼库斯（未来罗马将军和继承人）",
+        "提比略（未来皇帝）",
+        "奥古斯都（罗马皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "苏维托尼乌斯《卡利古拉传》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "卡西乌斯·狄奥《罗马史》，第57卷",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "塔西佗《编年史》，第1卷",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "日耳曼尼库斯的出生日期有争议。传统资料将其定为公元15年5月24日，但一些学者主张更早的日期（公元12–13年）。确切年份不确定。",
+      "cross_references": [
+        "导致15-001（日耳曼尼库斯的莱茵战役）",
+        "导致19-001（日耳曼尼库斯之死）"
+      ]
+    },
+    {
+      "id": "12-004",
+      "title": "帕提亚帝国维持对东部边境和丝绸之路的控制",
+      "region": "帕提亚帝国，美索不达米亚和波斯",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "帕提亚帝国继续控制东部边境和丝绸之路贸易路线。与罗马的关系紧张但未公开敌对。帕提亚人是近东的主要力量，是罗马与印度洋贸易网络之间的缓冲。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "卡西乌斯·狄奥《罗马史》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "斯特拉博《地理学》",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "帕提亚帝国对东部边境的控制有充分记载。个别统治者的编年不确定。",
+      "cross_references": []
+    },
+    {
+      "id": "12-005",
+      "title": "萨塔瓦哈纳王朝巩固在印度中部的权力",
+      "region": "印度中部，德干",
+      "coordinates_approx": "19.0, 75.0",
+      "category": "political",
+      "description": "萨塔瓦哈纳王朝继续在德干和印度中部巩固权力。王朝正在发行钱币和铭文，证明其权威和领土控制。穿过萨塔瓦哈纳领土的贸易路线对于商业变得越来越重要。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "钱币证据（萨塔瓦哈纳钱币）",
+          "type": "numismatic",
+          "contemporary": true
+        },
+        {
+          "name": "来自萨塔瓦哈纳遗址的铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "萨塔瓦哈纳王朝在钱币和铭文证据中得到充分证实，但精确的编年存在争议。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "日耳曼尼库斯的出生日期在学者中存在争议。传统资料将其定为公元15年5月24日，但一些现代学者根据其他编年证据主张更早的日期（公元12–13年）。他的确切出生年份不确定。公元12年的黄河洪水有充分记载，但一些学者质疑是否像后世史料所描述的那样灾难性，或者灾难是否因政治原因而被夸大。",
+  "historiographic_note": "公元12年的历史记录对于罗马帝国和中国而言是丰富的。罗马史料详细但撰写于事件发生后80–200年。中国史料同样详细且可靠。对于印度和更广泛的印度洋世界，资料稀少，主要是钱币学或考古学依据。美洲、撒哈拉以南非洲和北欧在书面记录中缺席。",
+  "graph_edges": [
+    {
+      "from": "12-001",
+      "to": "14-001",
+      "relation": "led_to",
+      "note": "授予提比略治权和护民官权力为他于公元14年继位做准备"
+    },
+    {
+      "from": "12-002",
+      "to": "15-003",
+      "relation": "led_to",
+      "note": "公元12年的黄河洪水和饥荒导致公元15年情况恶化"
+    },
+    {
+      "from": "12-003",
+      "to": "15-001",
+      "relation": "led_to",
+      "note": "日耳曼尼库斯的出生导致其军事生涯和公元15年的莱茵战役"
+    }
+  ]
+}

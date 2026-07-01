@@ -1,0 +1,110 @@
+{
+  "year": -1357,
+  "year_label": "公元前1358年",
+  "era_context": "青铜时代晚期国际体系继续运作，埃及、赫梯帝国和迈锡尼希腊为主要强国。这是一个相对稳定的时期，尽管存在潜在紧张。在中国，商朝处于成熟阶段。这一时期的特征是在东地中海和近东地区有广泛的贸易网络、外交书信和文化交流。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中亚",
+    "东亚（特定年份文献有限）"
+  ],
+  "events": [
+    {
+      "id": "-1357-001",
+      "title": "阿蒙霍特普二世统治延续和行政巩固",
+      "region": "埃及",
+      "coordinates_approx": "30.0,31.0",
+      "category": "political",
+      "description": "阿蒙霍特普二世继续巩固其权力和对埃及及其领土的行政控制。其统治以军事力量和有效行政为标志。神庙建设和宗教赞助继续。法老保持对祭司和军事机器的严格控制。",
+      "key_figures": [
+        "阿蒙霍特普二世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "埃及神庙铭文和行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿蒙霍特普二世统治的总体模式有充分记录；该年具体事件记录较少。",
+      "cross_references": [
+        "-1359-001",
+        "-1358-001"
+      ]
+    },
+    {
+      "id": "-1357-002",
+      "title": "苏皮卢利乌马一世在叙利亚巩固赫梯权力",
+      "region": "安纳托利亚、叙利亚",
+      "coordinates_approx": "35.0,34.0",
+      "category": "military",
+      "description": "苏皮卢利乌马一世继续巩固赫梯对叙利亚北部和美索不达米亚的控制。其军事行动和外交策略将赫梯帝国确立为近东主要强国。赫梯国家保持复杂的行政系统和军事组织。",
+      "key_figures": [
+        "苏皮卢利乌马一世（赫梯大王）"
+      ],
+      "sources": [
+        {
+          "name": "赫梯王室年代记",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "阿马尔那书信",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "总体模式有充分记录；该年具体事件记录较少。",
+      "cross_references": [
+        "-1359-002",
+        "-1358-002"
+      ]
+    },
+    {
+      "id": "-1357-003",
+      "title": "迈锡尼宫殿行政和线形文字B记录保存",
+      "region": "希腊",
+      "coordinates_approx": "37.5,23.0",
+      "category": "cultural",
+      "description": "迈锡尼宫殿中心继续其行政功能，线形文字B书吏记录经济交易、军事组织和宗教活动。皮洛斯宫殿保留了纺织生产、农业产出和军事人员的详细记录。这种行政复杂性表明一个组织良好的国家机器。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "皮洛斯和克诺索斯的线形文字B泥板",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "迈锡尼宫殿遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "线形文字B泥板提供了该时期行政实践的直接证据。",
+      "cross_references": [
+        "-1359-003",
+        "-1358-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "阿蒙霍特普二世统治期具体事件的年代仍不确定；一些学者将主要战役置于更早或更晚。赫梯在叙利亚的控制程度有争议，一些学者认为埃及影响力比赫梯来源所显示的更强。线形文字B泥板的解释是持续学术辩论的主题，单个泥板精确确定年份往往不可能。",
+  "historiographic_note": "公元前1358年的历史记录与公元前1359年类似，严重依赖埃及和赫梯精英来源。阿马尔那书信提供了宝贵的外交信息但难以精确确定年份。线形文字B泥板提供了对迈锡尼行政的洞察，但难以确定具体年份。记录严重偏向精英政治和军事史，关于非精英人群的信息有限。年代不确定性仍为±2-3年。",
+  "graph_edges": [
+    {
+      "from": "-1357-001",
+      "to": "-1357-002",
+      "relation": "contemporary_with",
+      "note": "埃及和赫梯的权力巩固同时发生，创造了双极国际体系。"
+    },
+    {
+      "from": "-1357-003",
+      "to": "-1357-001",
+      "relation": "contemporary_with",
+      "note": "迈锡尼行政实践与埃及和赫梯的国家巩固同时代。"
+    }
+  ]
+}

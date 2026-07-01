@@ -1,0 +1,103 @@
+{
+  "year": -6,
+  "year_label": "前6年",
+  "era_context": "早期罗马和平在奥古斯都治下延续。罗马帝国正在巩固其领土收益和行政结构。中国方面，西汉汉宣帝继续统治。犹地亚，希律大帝仍作为罗马附庸掌权。萨塔瓦哈纳王朝继续在印度扩张。这一时期代表了欧亚主要文明的相对稳定，贸易网络开始加强。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（书面文献极少）",
+    "罗马边疆以北的北欧地区",
+    "大洋洲与太平洋岛屿",
+    "中美洲（年代精确性有限）"
+  ],
+  "events": [
+    {
+      "id": "-6-001",
+      "title": "奥古斯都统治继续；边疆军事战役",
+      "region": "罗马帝国",
+      "coordinates_approx": "41.90, 12.50",
+      "category": "military",
+      "description": "奥古斯都继续罗马帝国边疆的军事巩固。这段时期见证了在各行省持续进行的战役，以镇压匪患、确保边境和维护秩序。帝国未进行大规模征服，而是着力于稳定和先前征服领土的行政整合。军事开支和组织经过改革以支持罗马和平。",
+      "key_figures": [
+        "奥古斯都·凯撒（罗马皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "《神圣奥古斯都功业录》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "苏维托尼乌斯，《奥古斯都传》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "奥古斯都的总体政策和军事组织有充分记载，尽管公元前6年的具体战役在现存文献中未单独注明日期。",
+      "cross_references": []
+    },
+    {
+      "id": "-6-002",
+      "title": "汉宣帝；持续稳定与繁荣",
+      "region": "中国（西汉）",
+      "coordinates_approx": "34.27, 108.95",
+      "category": "political",
+      "description": "汉宣帝继续统治西汉，维持其统治时期的稳定与繁荣。汉朝军队依然强大，对匈奴及其他北方民族进行战役。经济繁荣，得益于这一时期正在发展的丝绸之路贸易网络。文化和艺术成就继续标志着这一时代。",
+      "key_figures": [
+        "汉宣帝"
+      ],
+      "sources": [
+        {
+          "name": "《汉书》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "来自汉朝遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "汉宣帝的统治在中国历史记录中有详细记载。",
+      "cross_references": []
+    },
+    {
+      "id": "-6-003",
+      "title": "希律大帝在犹地亚的统治；持续建设与巩固",
+      "region": "犹地亚",
+      "coordinates_approx": "31.95, 35.20",
+      "category": "political",
+      "description": "希律一世继续作为犹地亚的附庸王统治。他的统治以雄心勃勃的建筑项目为特征，包括耶路撒冷第二圣殿的翻修、防御工事的建造以及新城市的建立。希律通过赞助与镇压相结合的手段维持秩序，平衡犹太人口的利益与罗马的战略需求。",
+      "key_figures": [
+        "希律一世（犹地亚国王）"
+      ],
+      "sources": [
+        {
+          "name": "约瑟夫斯，《犹太古史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "希律的统治总体上有充分证据，但个别年份内的具体事件缺乏同时代文献记载。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "未发现公元前6年总体政治局势的主要反驳证据。然而，该特定年份的重要性在现存文献中并未标记为任何重大历史断裂或转折点。它在更广泛的历史进程中大体上是任意的点。",
+  "historiographic_note": "公元前6年的历史记录以地中海和中国文献为主。罗马文献强调奥古斯都的成就和政策；中国文献反映宫廷视角。犹地亚的历史主要通过公元1世纪的约瑟夫斯了解，这引入了潜在的扭曲和时代错乱。更广阔的世界——非洲、北欧、美洲及大部分亚洲——在该年份大体上缺乏文献记载。现有文献偏向精英政治和军事史。",
+  "graph_edges": [
+    {
+      "from": "-6-001",
+      "to": "-5-002",
+      "relation": "part_of",
+      "note": "奥古斯都更广泛巩固战略的延续"
+    },
+    {
+      "from": "-6-002",
+      "to": "-5-003",
+      "relation": "part_of",
+      "note": "汉宣帝统治与汉朝繁荣的延续"
+    }
+  ]
+}

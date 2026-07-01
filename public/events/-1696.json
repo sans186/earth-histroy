@@ -1,0 +1,117 @@
+{
+  "year": -1696,
+  "year_label": "公元前1697年",
+  "era_context": "中青铜时代。美索不达米亚的古巴比伦时期处于最后几十年；埃及的中王国从阿蒙涅姆赫特三世过渡到阿蒙涅姆赫特四世；米诺斯文明持续繁荣；安纳托利亚赫梯古王国巩固权力。这是相对稳定的时期，尽管古巴比伦国家正逐渐衰弱。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-1696-001",
+      "title": "萨姆苏伊鲁纳权力衰微中继续统治",
+      "region": "美索不达米亚（巴比伦尼亚）",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "萨姆苏伊鲁纳继续统治巴比伦，但古巴比伦国家正在经历逐渐衰落。来自卡西特人及其他邻近势力的外部压力日益增大。巴比伦控制的领土范围正在缩小。行政记录显示经济活动持续，但国家的军事和政治权力正在减弱。这一时期标志着古巴比伦王朝终结的开始。",
+      "key_figures": [
+        "萨姆苏伊鲁纳（巴比伦国王）"
+      ],
+      "sources": [
+        {
+          "name": "巴比伦王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "楔形文字行政泥板",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "萨姆苏伊鲁纳的统治已得到充分证实；衰落的总体模式清晰，但逐年具体事件很少记载。",
+      "cross_references": [
+        "-1697-001"
+      ]
+    },
+    {
+      "id": "-1696-002",
+      "title": "阿蒙涅姆赫特四世成为埃及法老",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "阿蒙涅姆赫特三世去世，阿蒙涅姆赫特四世（约公元前1814–1805年在位）成为埃及法老。过渡平稳，反映了第十二王朝的制度稳定性。阿蒙涅姆赫特四世延续其前任的建筑和行政计划，但力度有所减弱。他的统治标志着中王国逐渐衰落的开始，这一衰落在他去世后加速。",
+      "key_figures": [
+        "阿蒙涅姆赫特四世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "埃及王表（阿拜多斯、都灵纸莎草）",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "神庙铭文与行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿蒙涅姆赫特四世的继位已得到充分证实；确切年份不确定（±5–10年），但按常规定在约公元前1814年。",
+      "cross_references": [
+        "-1697-002"
+      ]
+    },
+    {
+      "id": "-1696-003",
+      "title": "米诺斯贸易与文化影响力扩大",
+      "region": "克里特岛和东地中海",
+      "coordinates_approx": "35.3, 25.1",
+      "category": "economic",
+      "description": "米诺斯文明继续扩大其海上贸易和文化影响力，遍布东地中海。米诺斯陶器、艺术风格和宗教实践被邻近文化采纳或模仿。与埃及、黎凡特、安纳托利亚和希腊大陆的贸易联系活跃。这一时期代表了米诺斯文化和经济影响力的顶峰。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "邻近地区发现米诺斯商品和文化影响的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "提及与凯夫提乌（克里特）贸易的埃及记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "米诺斯贸易和文化影响的范围在考古学上已得到充分证实；逐年波动未有记载。",
+      "cross_references": [
+        "-1697-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未确定所列举事件的特定反证。然而，阿蒙涅姆赫特四世继位的定年仍不确定（±5–10年）。一些学者对米诺斯文化影响力主要来源于和平贸易的解释提出质疑，他们指出存在军事征服或强制交换的证据。",
+  "historiographic_note": "该年属于埃及和美索不达米亚文献记载良好的时期，但逐年特异性有限。从阿蒙涅姆赫特三世到阿蒙涅姆赫特四世的过渡已得到充分证实，但确切年份不确定。米诺斯文明主要通过考古学得知。该时期存在±50–100年的年代不确定性。",
+  "graph_edges": [
+    {
+      "from": "-1696-001",
+      "to": "-1697-001",
+      "relation": "contemporary_with",
+      "note": "萨姆苏伊鲁纳的统治持续。"
+    },
+    {
+      "from": "-1696-002",
+      "to": "-1697-002",
+      "relation": "led_to",
+      "note": "阿蒙涅姆赫特三世去世导致阿蒙涅姆赫特四世继位。"
+    },
+    {
+      "from": "-1696-003",
+      "to": "-1697-003",
+      "relation": "contemporary_with",
+      "note": "米诺斯贸易和文化影响力持续。"
+    }
+  ]
+}

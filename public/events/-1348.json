@@ -1,0 +1,112 @@
+{
+  "year": -1348,
+  "year_label": "公元前1349年",
+  "era_context": "晚期青铜时代，继续着埃及阿蒙霍特普三世的统治。赫梯帝国在苏皮卢利乌马一世领导下仍是一个主要大国。迈锡尼文明继续繁荣。这一时期代表了公元前14世纪中期稳定的国际秩序的最后几十年，随后是14世纪末的动荡。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中亚",
+    "中美洲"
+  ],
+  "events": [
+    {
+      "id": "-1348-001",
+      "title": "阿蒙霍特普三世统治继续；埃及与外国势力的外交活动",
+      "region": "埃及和东地中海",
+      "coordinates_approx": "25.7°N, 32.6°E",
+      "category": "political",
+      "description": "阿蒙霍特普三世维持埃及作为主要外交大国的地位。阿马尔那书信写于其统治期间及之后不久，记录了他与米坦尼、巴比伦、亚述和赫梯统治者的广泛通信。埃及的财富来源于努比亚黄金和农业盈余，使其能够进行大规模建筑项目并维持庞大的军事机构。",
+      "key_figures": [
+        "阿蒙霍特普三世（法老）"
+      ],
+      "sources": [
+        {
+          "name": "阿马尔那书信",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "埃及神庙铭文和行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "阿蒙霍特普三世的外交活动在当代通信和铭文中得到充分记载。",
+      "cross_references": [
+        "-1349-001"
+      ]
+    },
+    {
+      "id": "-1348-002",
+      "title": "苏皮卢利乌马一世在叙利亚和黎凡特的军事行动",
+      "region": "赫梯帝国、叙利亚、黎凡特",
+      "coordinates_approx": "35.0°N, 36.0°E",
+      "category": "military",
+      "description": "苏皮卢利乌马一世继续扩大赫梯在叙利亚和黎凡特的影响力，挑战埃及在该地区的霸权。他的军事行动和外交谋略使赫梯成为一个主要的帝国大国。赫梯与埃及在叙利亚的利益冲突将在随后几十年变得越来越尖锐。",
+      "key_figures": [
+        "苏皮卢利乌马一世（赫梯国王）"
+      ],
+      "sources": [
+        {
+          "name": "赫梯王室铭文",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "阿马尔那书信（关于赫梯活动的埃及记录）",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "苏皮卢利乌马一世的军事活动在赫梯和埃及文献中均有证实。",
+      "cross_references": [
+        "-1349-002"
+      ]
+    },
+    {
+      "id": "-1348-003",
+      "title": "迈锡尼贸易网络达到顶峰",
+      "region": "迈锡尼希腊和地中海",
+      "coordinates_approx": "37.7°N, 23.0°E",
+      "category": "economic",
+      "description": "迈锡尼商人和贸易商在地中海维持着广泛的网络，与埃及、黎凡特、安纳托利亚和塞浦路斯进行陶器、橄榄油、葡萄酒和其他商品的贸易。考古证据显示，在埃及和黎凡特发现了迈锡尼陶器，在迈锡尼环境中发现了外国商品。这种贸易是迈锡尼宫殿中心的主要财富来源。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "在埃及和黎凡特发现迈锡尼陶器的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "记录贸易商品和交易的线形文字B泥板",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "迈锡尼贸易网络通过陶器分布的考古证据和线形文字B记录得到充分证实。",
+      "cross_references": [
+        "-1349-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现主要否定证据。阿蒙霍特普三世统治的年代仍存在学术争论，如前一年所述。",
+  "historiographic_note": "公元前1349年的历史记录与公元前1350年相似：埃及、赫梯帝国和迈锡尼希腊的精英政治和军事史相对丰富，但其他地区和非精英人口记载稀少。阿马尔那书信为了解外交关系提供了极好的窗口，但反映了宫廷的视角。",
+  "graph_edges": [
+    {
+      "from": "-1348-001",
+      "to": "-1348-002",
+      "relation": "contemporary_with",
+      "note": "阿蒙霍特普三世和苏皮卢利乌马一世从事外交和军事竞争。"
+    },
+    {
+      "from": "-1348-003",
+      "to": "-1348-001",
+      "relation": "contemporary_with",
+      "note": "迈锡尼贸易网络在阿蒙霍特普三世统治期间与埃及和黎凡特市场相连。"
+    }
+  ]
+}

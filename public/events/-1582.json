@@ -1,0 +1,73 @@
+{
+  "year": -1582,
+  "year_label": "公元前1582年",
+  "era_context": "青铜时代晚期，埃及新王国，迈锡尼文明，赫梯帝国。这一时期的特点是稳定的国际关系、广泛的贸易网络以及基于战车的军事技术的主导地位。纪念性建筑和宫殿中心行政定义了该时代。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "美洲内陆",
+    "北欧",
+    "中亚",
+    "东南亚",
+    "太平洋岛屿"
+  ],
+  "events": [
+    {
+      "id": "-1582-001",
+      "title": "迈锡尼在地中海东部的贸易网络",
+      "region": "爱琴海，地中海",
+      "coordinates_approx": "37.0°N, 25.0°E",
+      "category": "economic",
+      "description": "迈锡尼商人和贸易商积极从事整个地中海东部的商业活动，与埃及、黎凡特和安纳托利亚交换陶器、锡和其他商品。考古证据显示，在埃及和黎凡特广泛存在迈锡尼陶器，表明存在活跃的贸易关系。这种贸易对迈锡尼经济至关重要，并支持着宫殿精英阶层。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "埃及和黎凡特出土迈锡尼陶器的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "记录贸易交易的线性B泥板",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "这一时期迈锡尼贸易的考古证据丰富，并通过陶器年代学得到了很好的定年。",
+      "cross_references": [
+        "-1580-002"
+      ]
+    },
+    {
+      "id": "-1582-002",
+      "title": "赫梯与埃及的外交信函",
+      "region": "安纳托利亚，埃及",
+      "coordinates_approx": "39.0°N, 34.5°E",
+      "category": "political",
+      "description": "赫梯帝国通过正式信函与埃及维持外交关系。这些保存在楔形文字档案中的信件讨论了贸易、军事联盟以及附庸国的地位。这些信函反映了青铜时代大国之间复杂的外交体系和相互承认。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自博阿兹柯伊的赫梯楔形文字档案",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "外交信函有充分证据，但具体信件很难确定到具体年份；±5–10年不确定性。",
+      "cross_references": [
+        "-1580-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现针对所列事件的具体否定证据。然而，迈锡尼-埃及贸易的程度和性质仍有争议；一些学者认为，埃及发现的许多迈锡尼陶器是通过中间人而非迈锡尼商人直接到达的。",
+  "historiographic_note": "公元前1582年在具体事件方面几乎没有文献记载。上面列出的事件代表已知存在于这一时期的一般模式和条件，而非该年的特定事件。这一年的历史记录基本上是空白的；我们知道一般背景，但不知道具体发生的事件。",
+  "graph_edges": [
+    {
+      "from": "-1582-001",
+      "to": "-1580-002",
+      "relation": "contemporary_with",
+      "note": "属于同一迈锡尼贸易网络系统的一部分"
+    }
+  ]
+}

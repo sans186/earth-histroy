@@ -1,0 +1,123 @@
+{
+  "year": -2416,
+  "year_label": "公元前2416年",
+  "era_context": "埃及古王国（第六王朝）、阿卡德帝国在美索不达米亚的主导地位以及印度河流域成熟哈拉帕文明的延续。这是一个在多个文明中建立起来的帝国结构、远距离贸易和纪念碑式建筑的时期。",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-2416-001",
+      "title": "佩皮二世的统治继续（埃及，第六王朝）",
+      "region": "埃及，古王国",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "佩皮二世继续作为埃及法老统治。在这一时期，有证据显示金字塔建造和神庙维护继续，但也存在中央权威衰落的迹象。地方长官（诺马尔赫）日益独立，国家动员劳动力进行大规模项目的能力在减弱。本年份处在佩皮二世有争议的年表之内。",
+      "key_figures": [
+        "佩皮二世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "金字塔铭文与神庙铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "地方官员的自传铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "佩皮二世的统治在历史上有记载，但绝对年代有±50–100年的不确定度。本年按惯例编列。",
+      "cross_references": [
+        "-2415-001（佩皮二世的统治）"
+      ]
+    },
+    {
+      "id": "-2416-002",
+      "title": "阿卡德在黎凡特和安纳托利亚的军事行动",
+      "region": "美索不达米亚、黎凡特、安纳托利亚",
+      "coordinates_approx": "35.0, 40.0",
+      "category": "military",
+      "description": "纳拉姆辛的阿卡德军队继续进行军事行动，以巩固对黎凡特可能还有安纳托利亚的控制。铭文记录了对各个城邦和山民的胜利。在这一时期，阿卡德帝国处于领土最大范围，但维持如此广阔领土的控制正变得日益困难。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德之王）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德铭文与石碑",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "楔形文字行政记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的军事行动在同时期铭文中有充分记载，但其征服的精确年表和范围在学者中存在争议。",
+      "cross_references": [
+        "-2415-002（纳拉姆辛治下的阿卡德帝国）"
+      ]
+    },
+    {
+      "id": "-2416-003",
+      "title": "哈拉帕贸易网络活跃（印度河流域至美索不达米亚）",
+      "region": "印度河流域、波斯湾、美索不达米亚",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "economic",
+      "description": "印度河流域文明维持着与美索不达米亚、波斯湾甚至可能埃及的广阔贸易网络。哈拉帕印玺和器物在美索不达米亚遗址中被发现，美索不达米亚记录中提及与'梅卢哈'的贸易。这一贸易对两大文明的经济繁荣至关重要。标准化的度量衡便利了商业。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "在美索不达米亚遗址（如乌尔、拉格什）发现的哈拉帕印玺",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "提及梅卢哈的美索不达米亚楔形文字记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "印度河流域遗址中贸易品的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域与美索不达米亚之间贸易的存在通过考古证据得到充分证实。在更广泛的哈拉帕时期内，年代是可靠的。",
+      "cross_references": [
+        "-2415-003（鼎盛的哈拉帕文明）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现特定的否定性证据。然而，由于埃及和美索不达米亚年代学的持续争论，本年度的更广泛年代框架仍不确定。",
+  "historiographic_note": "本年是埃及和美索不达米亚之外文献稀疏的时期的一部分。记录严重偏向精英和王室叙事。尽管印度河流域文明极具复杂性，但由于文字未解译，它仍然充满神秘。世界大多数人口和文明在本年的历史记录中未见。",
+  "graph_edges": [
+    {
+      "from": "-2416-001",
+      "to": "-2415-001",
+      "relation": "contemporary_with",
+      "note": "佩皮二世的统治从上一年继续。"
+    },
+    {
+      "from": "-2416-002",
+      "to": "-2415-002",
+      "relation": "contemporary_with",
+      "note": "阿卡德军事行动从上一年继续。"
+    },
+    {
+      "from": "-2416-003",
+      "to": "-2415-003",
+      "relation": "contemporary_with",
+      "note": "哈拉帕贸易网络从上一年继续。"
+    }
+  ]
+}

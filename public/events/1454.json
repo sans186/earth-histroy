@@ -1,0 +1,233 @@
+{
+  "year": 1454,
+  "year_label": "1454年",
+  "era_context": "15世纪中叶是重大转型的时期：百年战争刚刚结束（1453年），奥斯曼帝国征服了君士坦丁堡（1453年），欧洲正在进入早期文艺复兴。民族国家在西欧巩固权力。明朝在正统皇帝统治下治理中国。葡萄牙对非洲海岸的探索正在加速。印刷技术正在从美因茨传播。这是百年战争结束后欧洲相对稳定的一年，但潜在紧张（特别是在英格兰）正在积聚。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（有限的欧洲文献；土著记录稀少）",
+    "东南亚和太平洋（欧洲认知有限）",
+    "中亚（后帖木儿分裂时期记录稀少）",
+    "美洲（无欧洲接触；土著记录无法为西方来源获取）"
+  ],
+  "events": [
+    {
+      "id": "1454-001",
+      "title": "洛迪和约：米兰与威尼斯之间的和平",
+      "region": "意大利各邦，米兰和威尼斯",
+      "coordinates_approx": "45.46, 9.19",
+      "category": "political",
+      "description": "于1454年4月签署的洛迪和约确立了米兰公国与威尼斯共和国之间的和平，结束了数十年来对意大利北部控制权的冲突。和约由教宗尼古拉五世斡旋，并包括佛罗伦萨和其他意大利邦国。它建立了意大利各邦之间的均势，并创建了意大利联盟，这一外交框架将在未来40年主导意大利政治。该条约被视为早期现代外交和均势概念发展的里程碑。",
+      "key_figures": [
+        "Francesco Sforza",
+        "Doge Francesco Foscari",
+        "Pope Nicholas V",
+        "Cosimo de' Medici"
+      ],
+      "sources": [
+        {
+          "name": "洛迪和约（原始文本，1454年4月）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "威尼斯国家档案和外交记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "教宗信函和记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "意大利文艺复兴研究的学术共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该条约在意大利国家档案和教宗记录中有广泛记载。1454年4月的日期可靠。",
+      "cross_references": [
+        "1494-001（意大利战争，洛迪建立的均势崩溃）"
+      ]
+    },
+    {
+      "id": "1454-002",
+      "title": "古腾堡圣经：印刷进行中",
+      "region": "神圣罗马帝国，美因茨",
+      "coordinates_approx": "50.00, 8.27",
+      "category": "technological",
+      "description": "古腾堡圣经（42行圣经）于1454年处于积极生产阶段，印刷工作正朝着完成推进。该项目代表了活字印刷技术首次应用于重要著作。圣经的生产涉及活字设计、纸张采购和印刷技术的重大创新。到1454年，项目已进展良好，但完成要到1455年或1456年（日期仍有争议）。",
+      "key_figures": [
+        "Johannes Gutenberg",
+        "Johann Fust",
+        "Peter Schöffer"
+      ],
+      "sources": [
+        {
+          "name": "古腾堡圣经版权页和印刷记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "美因茨行会和城市记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "印刷史研究的学术共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "古腾堡圣经于1454年处于生产阶段，但完成的确切阶段不确定。不同来源将完成日期定为1455年或1456年。",
+      "cross_references": [
+        "1455-002（古腾堡圣经完成的可选日期）",
+        "1456-004（古腾堡圣经完成，常规日期）"
+      ]
+    },
+    {
+      "id": "1454-003",
+      "title": "葡萄牙探索：在西非建立贸易站",
+      "region": "西非，葡萄牙大西洋探索",
+      "coordinates_approx": "5.00, -5.00",
+      "category": "exploration",
+      "description": "在恩里克王子赞助下的葡萄牙航海家和商人沿西非海岸建立了贸易站和堡垒。到1454年，葡萄牙人的存在已扩展到多个设有防御工事的定居点，从事黄金、象牙和奴隶贸易。葡萄牙王室授予非洲贸易垄断权以鼓励探索和定居。这些据点成为葡萄牙在非洲殖民扩张的基础。",
+      "key_figures": [
+        "Prince Henry the Navigator",
+        "King Afonso V of Portugal",
+        "Portuguese merchants and navigators"
+      ],
+      "sources": [
+        {
+          "name": "Gomes Eanes de Zurara，《几内亚发现编年史》（约1453–1460年撰写）",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "葡萄牙王室特许状和贸易许可证",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "葡萄牙海事史的学术共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "葡萄牙沿非洲海岸的扩张在总体上有充分记载，但1454年个别贸易站的具体日期和地点有时不确定。",
+      "cross_references": [
+        "1444-001（早期葡萄牙探索）",
+        "1455-003（葡萄牙继续扩张）"
+      ]
+    },
+    {
+      "id": "1454-004",
+      "title": "明朝：针对蒙古部落的军事行动",
+      "region": "明朝中国，北部边境",
+      "coordinates_approx": "40.00, 110.00",
+      "category": "military",
+      "description": "明朝继续对北部边境的蒙古部落，特别是瓦剌蒙古，进行军事行动。这些行动是确保北部边界安全并防止入侵中国领土的持续努力的一部分。战役结果喜忧参半，有胜利也有挫折。边境的军事局势仍然紧张，需要持续警惕和资源分配。",
+      "key_figures": [
+        "Zhengtong Emperor",
+        "Ming military commanders",
+        "Oirat Mongol leaders"
+      ],
+      "sources": [
+        {
+          "name": "明实录（明朝官方编年史）",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "明朝官方军事记录和报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "明朝研究的学术共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1454年的明朝军事行动在官方记录中有记载，但个别交战的具体细节在不同来源中可能不同。",
+      "cross_references": [
+        "1449-001（土木堡之变，早期蒙古冲突）",
+        "1457-001（边境冲突继续）"
+      ]
+    },
+    {
+      "id": "1454-005",
+      "title": "奥斯曼帝国：海军扩张和地中海控制",
+      "region": "奥斯曼帝国，东地中海",
+      "coordinates_approx": "41.01, 28.98",
+      "category": "military",
+      "description": "奥斯曼帝国在1453年征服君士坦丁堡后，扩大了其在东地中海的海军力量。奥斯曼舰队对威尼斯和热那亚的领地发动行动，夺取了更多领土，并确立了奥斯曼的海上主导地位。奥斯曼海军力量的扩张是征服君士坦丁堡的直接后果，该城市提供了主要海军基地和造船设施。",
+      "key_figures": [
+        "Mehmed II",
+        "Ottoman naval commanders",
+        "Venetian and Genoese naval forces"
+      ],
+      "sources": [
+        {
+          "name": "奥斯曼编年史和宫廷记录",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "威尼斯和热那亚外交信函和海军记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "奥斯曼和地中海研究的学术共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1454年奥斯曼海军扩张在奥斯曼和威尼斯来源中有记载。",
+      "cross_references": [
+        "1453-001（君士坦丁堡陷落）",
+        "1456-001（贝尔格莱德围城）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "洛迪和约经常被描绘成均势概念和现代外交发展的分水岭时刻，但最近的学术表明该条约的创新性不如传统描绘的那样——均势思想存在于更早的意大利外交中，条约的实际执行比其象征意义要弱。条约并未阻止意大利各邦之间的后续冲突，其稳定只持续到1494年法国入侵。1454年的葡萄牙探索有时被描绘得比实际情况更有组织和系统；许多冒险是私人倡议，而非国家指导的远征。古腾堡圣经的生产日期仍存在真正的不确定性，该项目的意义在通俗叙述中有所夸大——它在当时并未立即被认可为革命性。",
+  "historiographic_note": "1454年的文献记录在欧洲和奥斯曼帝国为中等，对意大利外交（国家档案）有出色覆盖，对奥斯曼和威尼斯政治有良好覆盖。英国来源本年不如1455年（圣奥尔本斯）详细。中国来源（明实录）对朝廷政治和军事行动有全面记载。非洲来源在幸存西方记录中缺失；葡萄牙探索仅从欧洲视角记载。偏见包括：西方史学中以意大利为中心聚焦洛迪和约，奥斯曼和中国来源中的宫廷赞助叙事，以及完全缺乏非洲土著对葡萄牙接触的看法。",
+  "graph_edges": [
+    {
+      "from": "1454-001",
+      "to": "1494-001",
+      "relation": "led_to",
+      "note": "洛迪和约建立的均势在1494年法国入侵时崩溃"
+    },
+    {
+      "from": "1454-002",
+      "to": "1455-002",
+      "relation": "led_to",
+      "note": "1454年古腾堡圣经印刷进行中，于1455年或1456年完成"
+    },
+    {
+      "from": "1454-003",
+      "to": "1444-001",
+      "relation": "part_of",
+      "note": "葡萄牙大西洋探索计划的延续"
+    },
+    {
+      "from": "1454-004",
+      "to": "1449-001",
+      "relation": "part_of",
+      "note": "明朝与蒙古部落边境冲突的延续"
+    },
+    {
+      "from": "1454-005",
+      "to": "1453-001",
+      "relation": "led_to",
+      "note": "奥斯曼海军扩张紧随征服君士坦丁堡之后"
+    }
+  ]
+}

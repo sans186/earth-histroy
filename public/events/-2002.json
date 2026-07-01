@@ -1,0 +1,75 @@
+{
+  "year": -2002,
+  "year_label": "公元前2002年",
+  "era_context": "中青铜时代。埃及第12王朝已入末期；美索不达米亚正从乌尔第三王朝向古巴比伦时期过渡；印度河流域文明处于成熟阶段；米诺斯文明在克里特岛繁荣；中国传统年代学将此归于夏朝。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧和草原",
+    "中美洲",
+    "美洲大部分地区",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-2002-001",
+      "title": "阿蒙涅姆赫特三世在埃及持续统治",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "阿蒙涅姆赫特三世继续其埃及法老的统治。第12王朝保持行政和经济稳定。埃及的繁荣体现在持续的建筑工程、稳定的粮食收成以及维持的贸易关系上。这位法老的漫长统治（传统估计45年以上）是中王国时期最长、最稳定的统治之一。",
+      "key_figures": [
+        "阿蒙涅姆赫特三世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "纪念碑铭文与行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿蒙涅姆赫特三世的统治得到确认；具体年份公元前2002年系按惯例指定。",
+      "cross_references": [
+        "-2000-001",
+        "-2001-001"
+      ]
+    },
+    {
+      "id": "-2002-002",
+      "title": "印度河流域文明的城市中心处于鼎盛期",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "印度河流域文明的主要城市中心——摩亨佐-达罗、哈拉帕、朵拉维那等——在人口、建筑复杂性和经济活动方面均达到顶峰。该文明标准化的度量衡系统和城市规划已完全发展成熟。考古证据显示，该区域人口可能达数百万。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古发掘和地层学",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "成熟的印度河流域文明得到考古确认。定为公元前2002年属成熟哈拉帕阶段（约公元前2600–1900年）内的惯例断代。",
+      "cross_references": [
+        "-2000-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "现存史料中未记载公元前2002年的任何具体事件。所列事件均为更广泛模式的延续。将事件精确到某个具体年份的表述并未得到历史记录的支持。",
+  "historiographic_note": "公元前2002年并未因存在具体记录的事件而显得特殊。就特定年份事件而言，该年的历史记录基本空白。所列事件反映的是更广泛的模式和考古证据，而非同时代的记录。这一时期的古代编年史具有±50–150年的不确定性。",
+  "graph_edges": [
+    {
+      "from": "-2002-001",
+      "to": "-2001-001",
+      "relation": "contemporary_with",
+      "note": "阿蒙涅姆赫特三世统治期延续。"
+    }
+  ]
+}

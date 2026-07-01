@@ -1,0 +1,198 @@
+{
+  "year": 1445,
+  "year_label": "1445年",
+  "era_context": "15世纪中期的欧洲处于过渡期：文艺复兴在意大利蓬勃发展，英法百年战争接近尾声，奥斯曼帝国在东地中海巩固权力。在东亚，明朝在郑和航行结束后继续其内向关注。中美洲的阿兹特克帝国在蒙特苏马一世统治下达到鼎盛。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（欧洲来源中有限的书面记录）",
+    "东南亚（稀疏的欧洲文献）",
+    "太平洋岛屿和大洋洲（同代书面记录极少）",
+    "土著美洲（有限的书面记录；口述传统未被系统记录）"
+  ],
+  "events": [
+    {
+      "id": "1445-001",
+      "title": "百年战争：英国在诺曼底的损失",
+      "region": "诺曼底，法兰西王国",
+      "coordinates_approx": "49.2°N, 0.4°E",
+      "category": "military",
+      "description": "因内部冲突（玫瑰战争）和法国在查理七世领导下的军事复兴而削弱的英国军队继续在诺曼底丧失领土。到1445年，英国在法国的控制已减少到加莱和少数沿海飞地。1444年的图尔条约建立了休战，但英国在法国持续了一个多世纪的军事主导地位正在明确结束。这标志着英国力量和法国巩固的一个转折点。",
+      "key_figures": [
+        "查理七世（法兰西国王）",
+        "亨利六世（英格兰国王）",
+        "贞德（1431年去世，但其遗产影响了这一时期）"
+      ],
+      "sources": [
+        {
+          "name": "英国和法国王室编年史",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "图尔条约（1444年）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "百年战争的现代史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在此期间英国在诺曼底的损失在英国和法国来源中都有充分记载。",
+      "cross_references": [
+        "属于更广泛的百年战争（1337–1453）",
+        "与1453-002相关（加莱陷落）"
+      ]
+    },
+    {
+      "id": "1445-002",
+      "title": "古腾堡印刷机：持续发展",
+      "region": "美因茨，神圣罗马帝国",
+      "coordinates_approx": "50.0°N, 8.3°E",
+      "category": "technological",
+      "description": "古腾堡继续在美因茨精炼其活字印刷机技术。到1445年，印刷机的基本机械可能已功能正常，尽管确切时间线仍不确定。与金属活字兼容的油性墨水的开发以及印刷机机制本身的精炼在此期间持续进行。",
+      "key_figures": [
+        "约翰内斯·古腾堡（发明家/印刷商）"
+      ],
+      "sources": [
+        {
+          "name": "古腾堡自己的记录（零散的）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "后期传记记述",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "古腾堡印刷机发展的确切时间线不确定。1445年在可能范围内，但缺乏明确的同代文献。",
+      "cross_references": [
+        "与1446-002相关（古腾堡印刷机发展）"
+      ]
+    },
+    {
+      "id": "1445-003",
+      "title": "葡萄牙探索：非洲贸易扩张",
+      "region": "西非和大西洋沿岸",
+      "coordinates_approx": "null",
+      "category": "exploration",
+      "description": "在恩里克王子赞助下的葡萄牙探险家继续沿西非海岸扩展其存在。到1445年，葡萄牙贸易站和堡垒正在建立，以促进黄金、象牙和被奴役者的贸易。这一时期标志着葡萄牙海洋扩张的加剧，这种扩张将导致绕过好望角和建立通往亚洲的海上航线。",
+      "key_figures": [
+        "恩里克王子（葡萄牙王子）",
+        "葡萄牙探险家和商人"
+      ],
+      "sources": [
+        {
+          "name": "葡萄牙王室记录和编年史",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "葡萄牙探索的同代记述",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "大航海时代的现代史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在此期间葡萄牙对非洲海岸的探索在葡萄牙来源中有充分记载。",
+      "cross_references": [
+        "属于更广泛的大航海时代（15–17世纪）",
+        "导致了1488-001（巴托洛梅乌·迪亚士绕过好望角）"
+      ]
+    },
+    {
+      "id": "1445-004",
+      "title": "康斯坦茨会议改革：教会巩固",
+      "region": "神圣罗马帝国和天主教会",
+      "coordinates_approx": "null",
+      "category": "religious",
+      "description": "在康斯坦茨会议（1414–1418年）之后，天主教会正在巩固其权威并试图压制异端运动。到1445年，胡斯战争已经结束（1434年），教会正在重新控制中欧的宗教生活。这一时期见证了教皇权威的加强和对挑战教会教义的改革运动的压制。",
+      "key_figures": [
+        "教皇尤金四世（在位期1431–1447年）",
+        "中欧教会当局"
+      ],
+      "sources": [
+        {
+          "name": "教皇记录和教会编年史",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "康斯坦茨会议记录",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "这一时期的教会巩固在教会记录中有充分记载。",
+      "cross_references": [
+        "与1446-004相关（宗教改革运动）"
+      ]
+    },
+    {
+      "id": "1445-005",
+      "title": "明朝：内部巩固与儒家正统",
+      "region": "中国",
+      "coordinates_approx": "39.9°N, 116.4°E",
+      "category": "political",
+      "description": "正德皇帝（在位期1435–1449年）统治下的明朝正在巩固儒家正统并中央集权皇帝权威。到1445年，朝廷已明确结束海上远征，专注于陆上防御和内部行政。这一转变反映了儒家学者对宦官派系的胜利，标志着明朝政策的内向转变。",
+      "key_figures": [
+        "正德皇帝（明朝皇帝，在位期1435–1449年）"
+      ],
+      "sources": [
+        {
+          "name": "明朝官方记录（明史）",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "同代明朝宫廷记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在此期间明朝的政策在官方记录中有充分记载。",
+      "cross_references": [
+        "与1446-003相关（郑和航行结束）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "古腾堡印刷机发展的确切年代仍有争议；1445年在可能范围内，但缺乏明确的同代文献。一些学者认为印刷机是逐步发展的，而非在单一年份完成。葡萄牙探索被描述为纯粹商业性和探索性的说法掩盖了奴隶制和强制在早期葡萄牙-非洲接触中的作用，这在传统史学中常被低估。",
+  "historiographic_note": "1445年的文献记录为中等，欧洲政治和军事事件覆盖较强。中国关于明朝活动的资料丰富。然而，非洲、东南亚和美洲来源在欧洲史学中稀疏或缺失。幸存记录反映了宫廷赞助的编年史家和宗教机构的兴趣。非欧洲行为者在全球事件中的作用经常被边缘化或缺失。",
+  "graph_edges": [
+    {
+      "from": "1445-001",
+      "to": "1453-002",
+      "relation": "led_to",
+      "note": "英国在法国的损失最终导致了1453年加莱的陷落"
+    },
+    {
+      "from": "1445-002",
+      "to": "1455-001",
+      "relation": "led_to",
+      "note": "古腾堡印刷机的发展导致了《古腾堡圣经》的完成"
+    },
+    {
+      "from": "1445-003",
+      "to": "1488-001",
+      "relation": "led_to",
+      "note": "葡萄牙探索非洲海岸导致了绕过好望角"
+    },
+    {
+      "from": "1445-005",
+      "to": "1449-001",
+      "relation": "led_to",
+      "note": "明朝的巩固持续到1449年的土木堡之变"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "year": -3084,
+  "year_label": "公元前3084年",
+  "era_context": "黎凡特和埃及的青铜时代早期三期；埃及古王国（第六王朝）处于中期。美索不达米亚处于早王朝三期，城邦争夺地区主导权。印度河流域文明处于成熟期。这一年处于埃及和美索不达米亚相对稳定的时期，但区域性冲突持续。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "黄河流域之外东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-3084-001",
+      "title": "埃及佩皮二世统治——第六王朝（续）",
+      "region": "埃及（尼罗河谷）",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "佩皮二世统治继续。古王国行政体系运转，有神庙建筑、军事远征和贸易网络的证据。该统治以维持法老权威和延续古王国特征的中央官僚体制为特点。",
+      "key_figures": [
+        "佩皮二世（奈菲尔卡拉）——埃及法老"
+      ],
+      "sources": [
+        {
+          "name": "官员陵墓中的自传铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "金字塔文和神庙铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "佩皮二世统治在当代铭文中有记载，但绝对年代仍有±50–100年不确定性。公元前3084年是中年代学的习惯值。",
+      "cross_references": [
+        "佩皮二世统治的一部分（约-3098至-3080）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "现存在史料中未为公元前3084年记载具体事件。上条目描述的是佩皮二世统治的一般背景，而非逐年事件。",
+  "historiographic_note": "公元前3084年的史料极为稀少。该年度无具体事件记载。此时期无法达到逐年精确；年代为习惯值，存在±50–100年不确定性。",
+  "graph_edges": [
+    {
+      "from": "-3084-001",
+      "to": "-3083-001",
+      "relation": "contemporary_with",
+      "note": "佩皮二世统治跨两年持续。"
+    }
+  ]
+}

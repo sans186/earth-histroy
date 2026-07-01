@@ -1,0 +1,109 @@
+{
+  "year": -2407,
+  "year_label": "公元前2407年",
+  "era_context": "青铜时代早期III期。纳拉姆-辛的阿卡德帝国处于领土巅峰。埃及古王国（第六王朝）处于最后阶段。哈拉帕文明处于城市和经济高峰。中国的商朝正在巩固权力。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "太平洋岛屿",
+    "中亚（考古覆盖有限）"
+  ],
+  "events": [
+    {
+      "id": "-2407-001",
+      "title": "纳拉姆-辛的军事行动和领土巩固",
+      "region": "美索不达米亚、黎凡特、扎格罗斯",
+      "coordinates_approx": "32.5, 44.0",
+      "category": "military",
+      "description": "纳拉姆-辛继续进行军事行动以巩固和扩张阿卡德的控制。铭文记录了对各种敌人的胜利和对周边地区的征服。阿卡德帝国在这一时期达到其最大领土范围，从波斯湾延伸到地中海，从安纳托利亚延伸到阿拉伯半岛。",
+      "key_figures": [
+        "纳拉姆-辛（阿卡德国王）"
+      ],
+      "sources": [
+        {
+          "name": "纳拉姆-辛石碑和王室铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "阿卡德行政记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆-辛的统治有充分证实，但单一年份内的具体事件难以精确测定。±5年是合理的。",
+      "cross_references": [
+        "-2405-001",
+        "-2406-001"
+      ]
+    },
+    {
+      "id": "-2407-002",
+      "title": "哈拉帕城市中心处于人口和经济活动高峰",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "考古证据表明，摩亨佐达罗和哈拉帕等主要哈拉帕城市在人口、建筑复杂性和经济活动方面处于高峰。该文明标准化的度量衡和印章促进了远距离贸易。城市规划显示了先进的水管理和卫生系统。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "哈拉帕遗址的考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "放射性碳测年和地层分析",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈拉帕成熟阶段被可靠地定于约公元前2500–1900年。公元前2407年安全地处于这一时期之内。",
+      "cross_references": [
+        "-2405-003",
+        "-2406-002"
+      ]
+    },
+    {
+      "id": "-2407-003",
+      "title": "埃及古王国行政结构承受压力",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "墓室铭文和行政记录的证据表明，法老国家的中央权威开始削弱。地方总督积累财富和权力，国家动员资源进行大型工程（如金字塔建造）的能力在下降。这一时期标志着从古王国向第一中间期的过渡。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "埃及墓室铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "行政纸草和记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "中央集权衰落的趋势很清楚，但无法将具体事件精确到单一年份。从古王国到第一中间期的过渡定于约公元前2180年，但这一过程是渐进的。",
+      "cross_references": [
+        "-2405-002",
+        "-2406-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的特定反证。然而，在这一时期，单个年份的重要性难以评估。历史记录过于粗略，无法区分有意义的年度变化。哈拉帕文明的“高峰”有时被夸大；近期学术研究认为该文明已经经历了压力和环境挑战，这些将导致其衰落。",
+  "historiographic_note": "这一年与-2405和-2406在记载的事件方面基本上没有区别。这一时期的历史记录是粗略的，主要趋势仅在几十年或几个世纪内可见。偏向美索不达米亚和埃及资料的倾向依然明显。印度河流域文明仅通过考古学为人所知，限制了对政治和社会事件的理解。",
+  "graph_edges": [
+    {
+      "from": "-2407-001",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "纳拉姆-辛的帝国过度扩张为阿卡德崩溃创造了条件"
+    }
+  ]
+}

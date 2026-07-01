@@ -1,0 +1,119 @@
+{
+  "year": -2144,
+  "year_label": "前2144年",
+  "era_context": "阿卡德帝国晚期；埃及第六王朝衰落；印度河流域文明处于成熟阶段。更广泛的背景是环境压力（古气候证据表明公元前22世纪干旱加剧）以及美索不达米亚和埃及主要文明的同时衰落。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中美洲",
+    "北欧",
+    "东南亚",
+    "太平洋岛屿",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-2144-001",
+      "title": "阿卡德帝国：处于高度政治分裂状态",
+      "region": "美索不达米亚",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "阿卡德帝国正处于高度分裂状态。来自阿卡德的中央权威微乎其微。来自扎格罗斯山脉的古提人持续施压。苏美尔城邦日益独立。这一时期是古提人占领占据主导地位（传统上定于约公元前2154年）之前阿卡德霸权的最后几十年。",
+      "key_figures": [
+        "沙尔卡利沙瑞（阿卡德国王）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德行政文献",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "苏美尔王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿卡德权威的崩溃证据充分，但精确年代存在±10–20年的误差范围。",
+      "cross_references": [
+        "阿卡德帝国崩溃序列的一部分"
+      ]
+    },
+    {
+      "id": "-2144-002",
+      "title": "埃及第六王朝：州长自治与中央权威衰落",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "第六王朝的法老们日益无能。地方州长（诺马尔赫）独立统治自己的区域。从古王国向第一中间期的过渡正在进行。大型建筑项目已停止。地方精英文化占据主导地位。",
+      "key_figures": [
+        "佩皮二世（传统在位约公元前2278–2184年）"
+      ],
+      "sources": [
+        {
+          "name": "诺马尔赫自传铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "政治分裂证据充分。精确年代仍不确定（±50–100年）。",
+      "cross_references": [
+        "古王国衰亡的一部分"
+      ]
+    },
+    {
+      "id": "-2144-003",
+      "title": "印度河流域文明：成熟城市阶段；贸易网络活跃",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "印度河流域文明继续处于成熟阶段，没有受到干扰的证据。城市中心保持充分发展和整合。贸易网络继续运作。在其他主要文明经历崩溃的时期，该文明表现出稳定和连续性。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "印度河印章与铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明的连续性已通过考古学充分证实。",
+      "cross_references": [
+        "与阿卡德和埃及的崩溃同期，但未出现平行的衰落"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "没有针对所列事件的具体反证。更广泛的气候崩溃叙事仍存在争议。",
+  "historiographic_note": "这一年属于文献稀少的时期。美索不达米亚和埃及的记录是主要来源。印度河流域文明几乎完全通过考古学了解。大多数地区缺乏文字记录，意味着近东以外地区的主要发展完全未知。",
+  "graph_edges": [
+    {
+      "from": "-2144-001",
+      "to": "-2144-002",
+      "relation": "contemporary_with",
+      "note": "阿卡德和埃及的崩溃发生在同一时代"
+    },
+    {
+      "from": "-2144-003",
+      "to": "-2144-001",
+      "relation": "contemporary_with",
+      "note": "印度河流域文明在阿卡德崩溃时表现出稳定"
+    }
+  ]
+}

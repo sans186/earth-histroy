@@ -1,0 +1,82 @@
+{
+  "year": -2676,
+  "year_label": "公元前2676年",
+  "era_context": "第四王朝埃及在哈夫拉治下；成熟的印度河流域文明；美索不达米亚早王朝III期。这一时期代表了古王国埃及文明的顶峰，中央集权国家权力达到最大。印度河流域文明在城市发展和贸易网络方面也处于鼎盛。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2676-001",
+      "title": "哈夫拉的统治与古王国行政",
+      "region": "埃及（尼罗河谷）",
+      "coordinates_approx": "29.9°N, 31.1°E",
+      "category": "political",
+      "description": "哈夫拉的统治继续，中央集权的法老国家及其宏大的纪念性建筑计划得以维持。第四王朝代表了古王国权力的顶峰，法老控制着大量资源，并拥有高度组织化的官僚机构。大狮身人面像和哈夫拉金字塔的建设体现了国家进行纪念性建筑的能力。",
+      "key_figures": [
+        "哈夫拉（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "吉萨及其他古王国遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "铭文和行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "哈夫拉的统治在考古学上得到证实，但个别年份的具体事件没有文献记载。年代定位有±30–50年的不确定性。",
+      "cross_references": [
+        "-2679-001",
+        "-2678-001",
+        "-2677-001"
+      ]
+    },
+    {
+      "id": "-2676-002",
+      "title": "印度河流域文明处于成熟顶峰",
+      "region": "印度河谷（今巴基斯坦和印度西北部）",
+      "coordinates_approx": "27.0°N, 68.0°E",
+      "category": "cultural",
+      "description": "印度河流域文明达到鼎盛，主要城市中心作为行政和商业中心运作。标准化的度量衡和文字系统促进了长途贸易。考古证据表明，这是一个高度组织化的社会，拥有复杂的城市规划、公共基础设施和手工业生产。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "考古发掘在印度河遗址的发现",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "印度河印章和铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明的成熟期在考古学上得到充分证实。绝对定年将其置于约公元前2600–1900年。",
+      "cross_references": [
+        "-2679-002",
+        "-2678-002",
+        "-2677-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的反驳证据。年代不确定性如前。",
+  "historiographic_note": "公元前2676年的历史记录稀少，依赖考古证据。古王国埃及的年代学仍有争议。印度河流域文明的历史完全由考古重建。",
+  "graph_edges": [
+    {
+      "from": "-2676-001",
+      "to": "-2677-001",
+      "relation": "part_of",
+      "note": "哈夫拉统治的延续。"
+    }
+  ]
+}

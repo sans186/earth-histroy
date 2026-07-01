@@ -1,0 +1,113 @@
+{
+  "year": -2323,
+  "year_label": "公元前2323年",
+  "era_context": "纳拉姆-辛的阿卡德帝国继续统治美索不达米亚。埃及第六王朝在其虚弱状态下延续。印度河流域文明仍处于成熟城市阶段。这是一个既定国家体系、长途贸易以及某些地区中央权力逐渐侵蚀的时期。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "美洲",
+    "印度河流域以外的南亚次大陆大部分地区"
+  ],
+  "events": [
+    {
+      "id": "-2323-001",
+      "title": "纳拉姆-辛军事征战继续；阿卡德权力巩固",
+      "region": "美索不达米亚及周边地区",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "纳拉姆-辛继续进行军事征战以维持和扩大阿卡德控制。铭文记录了对卢卢比人（扎格罗斯山地民族）、马尔图人（阿摩利人）和其他群体的战役。这些战役既为获取资源，也为彰显帝国权力。纪念对卢卢比人胜利的纳拉姆-辛石碑属于这一总体时期，描绘了神化形态的国王，头戴神性角冠。",
+      "key_figures": [
+        "纳拉姆-辛（阿卡德皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "纳拉姆-辛石碑及相关铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "阿卡德行政和军事文本",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆-辛的军事战事在铭文中记载充分，但并未保存逐年纪年。此条目描述与其统治时期相一致的活动。",
+      "cross_references": [
+        "-2324-001（纳拉姆-辛统治背景）"
+      ]
+    },
+    {
+      "id": "-2323-002",
+      "title": "埃及第六王朝延续；行政分裂加速",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "第六王朝治下的埃及国家继续经历权力和资源向地方长官的逐渐转移。上埃及和下埃及的诺姆长积累世袭头衔和独立财富，削弱了法老的直接权威。此过程可见于陵墓铭文和行政记录，它们显示地方精英自主性增加。中央政府征税和动员劳力进行国家工程的能力衰退。",
+      "key_figures": [
+        "佩皮二世（埃及法老，第六王朝）"
+      ],
+      "sources": [
+        {
+          "name": "第六王朝的陵墓铭文和行政纸草",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "地方陵墓扩大的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "行政分权的过程有考古证据，但无具体年份事件记录。此条目描述更广泛的趋势。",
+      "cross_references": [
+        "-2324-002（古王国衰落）"
+      ]
+    },
+    {
+      "id": "-2323-003",
+      "title": "印度河流域贸易网络活跃；使用印章和标准化衡器",
+      "region": "印度河流域及通往美索不达米亚和波斯湾的贸易路线",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "印度河流域文明维持着与美索不达米亚、波斯湾和中亚的广泛贸易网络。在美索不达米亚遗址发现带未破译铭文的印度河印章和标准化衡器，表明有经常性商业接触。该文明经济以农业、手工业和贸易为基础。度量衡的标准化暗示了一种复杂的商业体系，可能由国家监管贸易。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "美索不达米亚遗址（乌尔、拉格什等）发现印度河印章的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "印度河流域聚落考古和人工制品分析",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "贸易网络的存在已通过考古证据充分证实。无确切年份事件得到证实。",
+      "cross_references": [
+        "-2324-003（印度河流域文明背景）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现具体否定性证据。然而，纳拉姆-辛实际领土控制范围与其铭文中声称的统治范围之间的差异受到学者争论；一些人认为其帝国比宣传所暗示的更加支离破碎。",
+  "historiographic_note": "公元前2323年的文献极少，严重依赖与公元前2324年相同的资料。没有任何传统记录有特定年份事件。历史记录由美索不达米亚和埃及精英资料主导。印度河流域文明仅能通过考古了解。年代不确定性仍为±50–100年。",
+  "graph_edges": [
+    {
+      "from": "-2323-001",
+      "to": "-2324-001",
+      "relation": "contemporary_with",
+      "note": "纳拉姆-辛统治和军事征战的延续"
+    },
+    {
+      "from": "-2323-002",
+      "to": "-2324-002",
+      "relation": "contemporary_with",
+      "note": "埃及行政分权的延续"
+    }
+  ]
+}

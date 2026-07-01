@@ -1,0 +1,115 @@
+{
+  "year": -1297,
+  "year_label": "公元前1298年",
+  "era_context": "晚期青铜时代，延续着相互联系的地中海和近东文明时期。拉美西斯二世治下的埃及、赫梯帝国、迈锡尼希腊和中国的商朝都处于或接近其权力和文化成就的顶峰。这是一个相对稳定和繁荣、在约公元前1200年开始的系统性瓦解之前的时期。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中美洲",
+    "太平洋岛屿",
+    "中亚和草原",
+    "南亚（此时期有限文字记录）"
+  ],
+  "events": [
+    {
+      "id": "-1297-001",
+      "title": "拉美西斯二世宏大的建造计划",
+      "region": "埃及",
+      "coordinates_approx": "26.2°N, 32.6°E",
+      "category": "cultural",
+      "description": "拉美西斯二世正在进行一项雄心勃勃的神庙建造和翻新计划。阿布辛贝、卡纳克、卢克索及其他主要宗教遗址的工程正在进行。这些项目既服务于宗教目的，也有宣传作用，彰显拉美西斯二世的虔诚和权力。这些纪念性建筑的建造需要大量资源、劳动组织和行政协调，反映了此时期埃及的财富和稳定。",
+      "key_figures": [
+        "拉美西斯二世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "神庙铭文和浮雕",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "神庙遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "拉美西斯二世的建造工程在神庙铭文和考古遗存中有广泛记载。公元前1298年在其统治期内。",
+      "cross_references": [
+        "拉美西斯文化和政治计划的一部分"
+      ]
+    },
+    {
+      "id": "-1297-002",
+      "title": "商朝甲骨占卜与行政实践",
+      "region": "中国（殷墟，安阳）",
+      "coordinates_approx": "36.1°N, 114.3°E",
+      "category": "cultural",
+      "description": "中国商朝维持着其复杂的甲骨占卜系统和行政记录保存。占卜是商朝治理的核心，国王就国家、战争、农业和仪式等事务咨询甲骨。此时期（或同时代）的甲骨文记载了商朝宫廷的关切和实践，包括关于收成、狩猎和军事行动的占卜。",
+      "key_figures": [
+        "商朝晚期国王（具体身份不确定）"
+      ],
+      "sources": [
+        {
+          "name": "殷墟的甲骨文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "殷墟的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "甲骨文是当代证据，但没有精确到个别年份。基于考古地层学和风格分析，它们被归入商朝晚期。",
+      "cross_references": [
+        "更广泛的商朝文化和行政体系的一部分"
+      ]
+    },
+    {
+      "id": "-1297-003",
+      "title": "迈锡尼宫殿行政与贸易",
+      "region": "希腊（伯罗奔尼撒和爱琴海）",
+      "coordinates_approx": "37.7°N, 23.0°E",
+      "category": "economic",
+      "description": "迈锡尼宫殿中心继续其行政和经济功能。宫殿作为再分配中心，收集周边领土的农业剩余和制成品，并将其重新分配以维持宫殿等级体系和支持外部贸易。此时期代表了迈锡尼宫殿经济组织的顶峰。",
+      "key_figures": [
+        "迈锡尼宫殿行政人员"
+      ],
+      "sources": [
+        {
+          "name": "来自皮洛斯、迈锡尼和克诺索斯的线形文字B泥板",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "宫殿遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "线形文字B泥板是迈锡尼行政实践的当代证据。泥板基于考古地层学归入晚期希拉迪克IIIB阶段。",
+      "cross_references": [
+        "更广泛的迈锡尼宫殿经济的一部分"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现具体否定证据。如先前年份所述，年代框架仍有学术争议。",
+  "historiographic_note": "公元前1298年的历史记录类似于公元前1299年和1298年：埃及、赫梯帝国和迈锡尼希腊记载充分；其他大多数地区稀疏或缺失。幸存资料严重偏向来自文字文明的纪念性和行政记录。世界大部分地区该年份没有文字记载。",
+  "graph_edges": [
+    {
+      "from": "-1297-001",
+      "to": "-1297-002",
+      "relation": "contemporary_with",
+      "note": "拉美西斯二世和商朝晚期国王是同时代人，尽管相距遥远且没有直接接触。"
+    },
+    {
+      "from": "-1297-001",
+      "to": "-1297-003",
+      "relation": "contemporary_with",
+      "note": "拉美西斯二世和迈锡尼宫殿行政人员是同时代人，通过贸易网络有一些间接接触。"
+    }
+  ]
+}

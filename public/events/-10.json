@@ -1,0 +1,145 @@
+{
+  "year": -10,
+  "year_label": "前10年",
+  "era_context": "罗马奥古斯都统治晚期；元首制在内战后巩固权力。中国西汉王朝在汉成帝统治下进入最后几十年。帕提亚帝国控制东地中海贸易路线。印度地区，萨塔瓦哈纳王朝在德干扩张。地中海世界处于相对和平时期，但多个地区政治不稳定。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（有限书面文献）",
+    "罗马边疆区以北的北欧地区",
+    "中亚（同时代文献稀少）"
+  ],
+  "events": [
+    {
+      "id": "-10-001",
+      "title": "盖乌斯·凯撒在吕西亚去世",
+      "region": "罗马帝国，吕西亚（今土耳其）",
+      "coordinates_approx": "36.2, 29.5",
+      "category": "political",
+      "description": "奥古斯都的养孙和指定继承人盖乌斯·凯撒在亚美尼亚军事战役中受伤后，在吕西亚去世。他的去世移除了一位重要的继承人选，迫使奥古斯都重新考虑皇位继承。这一事件对元首制的稳定产生了深远影响，并促成了提比略的最终继位。",
+      "key_figures": [
+        "盖乌斯·凯撒（奥古斯都养孙）",
+        "奥古斯都（罗马皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "苏维托尼乌斯，《奥古斯都传》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "卡西乌斯·狄奥，《罗马史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "塔西佗，《编年史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "盖乌斯·凯撒之死在多种罗马历史文献中有充分证据，尽管这些文献写于事件后一个世纪或更久。日期在奥古斯都年代学中可靠。",
+      "cross_references": [
+        "源于-4-001（盖乌斯·凯撒被收养）",
+        "导致-14-001（奥古斯都逝世与提比略继位）"
+      ]
+    },
+    {
+      "id": "-10-002",
+      "title": "卢基乌斯·凯撒的患病与康复",
+      "region": "罗马帝国，马西利亚（今马赛）",
+      "coordinates_approx": "43.3, 5.4",
+      "category": "political",
+      "description": "奥古斯都的另一位养孙和继承人卢基乌斯·凯撒在马西利亚病重。虽然他康复了，但这场病凸显了继承计划的脆弱性和皇室的脆弱性。这一事件与一年前盖乌斯之死相结合，加速了继承的政治危机。",
+      "key_figures": [
+        "卢基乌斯·凯撒（奥古斯都养孙）",
+        "奥古斯都（罗马皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "苏维托尼乌斯，《奥古斯都传》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "卡西乌斯·狄奥，《罗马史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "这场病在后世文献中有记载，但细节少于盖乌斯的死亡。日期为近似值，可能为前10年或前11年。",
+      "cross_references": [
+        "与-10-001（盖乌斯·凯撒之死）同时代",
+        "属于公元前1世纪初更广泛继承危机的一部分"
+      ]
+    },
+    {
+      "id": "-10-003",
+      "title": "汉成帝统治下的中国西汉宫廷政治",
+      "region": "中国，汉朝",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "汉成帝（公元前32年至前7年在位）统治时期，宫廷派系斗争与宦官势力日益增长。前10年正处于政治动荡时期，以史氏家族（皇帝母族）专权和宫廷宦官权力膨胀为特征。这段时期见证了中央集权削弱和地方军阀势力崛起。",
+      "key_figures": [
+        "汉成帝",
+        "石显（宦官，在朝中有影响力）"
+      ],
+      "sources": [
+        {
+          "name": "《史记》与《汉书》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "总体政治局势在汉朝编年史中有详细记载，但该年份的具体事件未被明确记录。描述基于汉成帝统治的更广泛背景。",
+      "cross_references": [
+        "属于更广泛的汉朝衰落叙事的一部分"
+      ]
+    },
+    {
+      "id": "-10-004",
+      "title": "帕提亚与罗马的外交关系",
+      "region": "帕提亚帝国与罗马帝国",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "在这段时期，帕提亚帝国在奥罗德斯二世统治下与罗马维持着紧张但稳定的关系。丝绸之路贸易开始发展，但直接外交接触有限。东地中海与近东地区的权力平衡是奥古斯都与帕提亚领导层共同关注的核心问题。",
+      "key_figures": [
+        "奥罗德斯二世（帕提亚国王）",
+        "奥古斯都（罗马皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "斯特拉波，《地理学》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "卡西乌斯·狄奥，《罗马史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "总体外交局势有充分证据，但前10年的具体事件未被明确记录。此条目反映更广泛的地缘政治背景。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "传统叙述强调盖乌斯·凯撒之死是继承危机的重大转折点，但一些现代学者认为奥古斯都在盖乌斯去世前已开始培养提比略作为继承人，使得该事件不如传统描述那样突然。卢基乌斯·凯撒患病的确切性质和严重程度存在争议；一些文献暗示其严重性低于其他文献所述。",
+  "historiographic_note": "公元前10年的历史记录严重偏向罗马文献，特别是苏维托尼乌斯、卡西乌斯·狄奥和塔西佗的后世编纂作品。这些文献常带有轶事性质，写于事件后一个世纪或更久。中国文献提供了关于汉廷政治的信息，但也属于回顾性资料。政治史和军事史偏向严重，经济史和社会史代表性不足。视角主要为精英阶层视角；普通民众的经历基本缺失。",
+  "graph_edges": [
+    {
+      "from": "-10-001",
+      "to": "-14-001",
+      "relation": "led_to",
+      "note": "盖乌斯·凯撒之死促成了奥古斯都逝世和提比略在公元14年继位所解决的继承危机"
+    },
+    {
+      "from": "-10-001",
+      "to": "-10-002",
+      "relation": "contemporary_with",
+      "note": "两起事件均发生在同一继承不稳定时期"
+    }
+  ]
+}

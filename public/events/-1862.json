@@ -1,0 +1,107 @@
+{
+  "year": -1862,
+  "year_label": "公元前1862年",
+  "era_context": "中青铜时代。萨姆苏-迪塔纳统治下的古巴比伦王朝处于最后阶段。埃及处于第二中间期，希克索斯人影响力增大。印度河流域文明仍处于成熟期。迈锡尼希腊处于早期青铜时代。这一时期以重大的政治转型和近东新兴强权的崛起为特征。",
+  "documentation_level": "匮乏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中亚",
+    "大洋洲",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-1862-001",
+      "title": "古巴比伦行政体系在压力下延续",
+      "region": "美索不达米亚（巴比伦尼亚）",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "萨姆苏-迪塔纳的行政体系继续运作，有存世的行政泥板和信件为证。然而，王国的领土范围正在缩小，偏远地区落入敌对势力控制。中央政府维持着对巴比伦核心领土的控制，但对昔日附庸国的影响力正在丧失。这一时期代表了古巴比伦政治霸权的余晖。",
+      "key_figures": [
+        "萨姆苏-迪塔纳（巴比伦国王）"
+      ],
+      "sources": [
+        {
+          "name": "来自巴比伦的楔形文字行政泥板",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "巴比伦王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "萨姆苏-迪塔纳在位年代的确定依赖于存在显著不确定性（±50–100年）的纪年体系。本年份按惯例确定。",
+      "cross_references": [
+        "-1860-001",
+        "-1861-001"
+      ]
+    },
+    {
+      "id": "-1862-002",
+      "title": "埃及第二中间期巩固",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "第二中间期期间，埃及分裂为多个相互竞争的权力中心。希克索斯人控制三角洲和下埃及，而本土埃及王朝统治上埃及。这一政治分裂时期持续了几个世纪。希克索斯人统治的确切性质及其与埃及当局的关系仍有争议，但其存在显著而持久。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "埃及新王国时期的回溯性记载（如阿赫摩斯铭文）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "三角洲遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "第二中间期在考古学上已充分确立，但当代文献记载稀少。大部分记载来自新王国时期的后世埃及文献，可能带有偏见或不准确。",
+      "cross_references": [
+        "-1860-002"
+      ]
+    },
+    {
+      "id": "-1862-003",
+      "title": "印度河流域文明的城市生活与标准化",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "这一时期的印度河流域文明以卓越的城市规划、标准化的度量衡和先进的排水系统为特征。哈拉帕和摩亨佐-达罗等城市拥有整齐的街道网格、公共浴池和粮仓。该文明保持着高水平的手工业专业化和贸易。这是古代世界最先进的城市文明之一。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "考古发掘与调查",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "印度河印章与铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明的物质文化和城市组织在考古学上已充分记载。本年份在成熟期内的具体断代基于碳-14和地层分析。",
+      "cross_references": [
+        "-1860-003",
+        "-1861-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "古巴比伦时期的编年仍有争议，低纪年法将这些事件推迟约100年。希克索斯人在埃及统治的性质存在争议；一些学者认为其是渐进、和平的融合而非征服。印度河流域文明最终衰落的原因存在争论，提出了气候变化、入侵和内部因素等。",
+  "historiographic_note": "本年份在当代文献中记载很少。我们的知识主要来自巴比伦的行政档案、埃及和印度河流域的考古证据以及后世历史汇编。记录严重偏向于有文字的城市文明。世界上大部分人口和地区在历史记录中不可见。",
+  "graph_edges": [
+    {
+      "from": "-1862-001",
+      "to": "-1850-001",
+      "relation": "led_to",
+      "note": "萨姆苏-迪塔纳统治下巴比伦权力的衰落导致了古巴比伦王朝的崩溃"
+    }
+  ]
+}

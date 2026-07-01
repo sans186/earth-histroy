@@ -1,0 +1,84 @@
+{
+  "year": -2498,
+  "year_label": "公元前2498年",
+  "era_context": "美索不达米亚早王朝时期晚期延续。埃及仍处古王国第四王朝。印度河流域文明延续成熟期。该时期代表了旧大陆青铜时代文明的顶峰，有着连接埃及、美索不达米亚、印度河流域及黎凡特的成熟贸易网络。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "印度河流域以外的东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2498-001",
+      "title": "埃及第四王朝的延续",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "第四王朝延续。若胡夫在公元前2499年仍在位，则可能于此时去世，由哈夫拉（或其他继任者）继位。具体年代学仍不确定。宏伟建筑工程持续，中央集权国家机器维持对尼罗河谷的控制。本年度无特定事件记录。",
+      "key_figures": [
+        "哈夫拉（法老，很可能）"
+      ],
+      "sources": [
+        {
+          "name": "《都灵王表》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "金字塔建筑群的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "年代学不确定性依然存在。基于传统年代学将本年度归于第四王朝，但具体在位年份与法老无法确证。",
+      "cross_references": [
+        "-2499-001"
+      ]
+    },
+    {
+      "id": "-2498-002",
+      "title": "印度河流域文明贸易网络的活跃",
+      "region": "印度河流域与波斯湾贸易路线",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "economic",
+      "description": "印度河流域与美索不达米亚之间的贸易通过在美索不达米亚遗址发现印度河印章与度量衡，及在印度河流域发现相应物品得到充分的考古证实。这一贸易可能在印度河文明整个成熟期内持续进行。交易商品包括青金石、红玉髓、木材及制成品。本年度无特定事件记录。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "在美索不达米亚遗址（乌尔、拉格什等）发现的印度河印章与度量衡考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "在海湾贸易中心发现的印度河流域器物",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "贸易网络的存在已获考古证实。任何特定年份贸易的具体时间与强度无法确定。",
+      "cross_references": [
+        "-2499-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现针对所列事件的反证。然而，如上所述，本年度更广泛的年代框架仍存争议。",
+  "historiographic_note": "公元前2498年的历史记录极为薄弱。无当代文字记录记载具体事件。记录由考古证据及后世编纂构成。对埃及而言，偏向纪念性与王室记录意味着政治、经济与社会变迁除非影响到精英阶层或留下考古痕迹，否则基本不可见。对印度河流域而言，未破译的文字意味着此时期无书面历史存在。",
+  "graph_edges": [
+    {
+      "from": "-2498-001",
+      "to": "-2497-001",
+      "relation": "led_to",
+      "note": "第四王朝统治的延续"
+    },
+    {
+      "from": "-2498-002",
+      "to": "-2497-002",
+      "relation": "contemporary_with",
+      "note": "印度河流域贸易网络的延续"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "year": -2016,
+  "year_label": "公元前2016年",
+  "era_context": "黎凡特和埃及的中青铜时代延续；美索不达米亚的古巴比伦时期；中国的商朝；希腊的青铜时代早期。该年处于已确立国家体系、长途贸易（从阿富汗输入锡至美索不达米亚，从黎凡特输入雪松至埃及）和黎凡特字母书写发展的时期。",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东南亚",
+    "美洲",
+    "中亚（文字记录有限）"
+  ],
+  "events": [
+    {
+      "id": "-2016-001",
+      "title": "巴比伦萨姆苏伊鲁纳统治延续",
+      "region": "美索不达米亚（巴比伦尼亚）",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "萨姆苏伊鲁纳继续统治，通过行政和军事手段管理古巴比伦国家。此时期可见与周边领土的持续紧张关系以及巴比伦权力的逐渐削弱。此特定年份无具体事件在存世文献中有详细记载。",
+      "key_figures": [
+        "萨姆苏伊鲁纳（巴比伦国王）"
+      ],
+      "sources": [
+        {
+          "name": "《巴比伦王表》（后期编纂）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "萨姆苏伊鲁纳统治确凿，但逐年事件未记录。此条目代表其统治的一般政治连续性。",
+      "cross_references": [
+        "-2015-001"
+      ]
+    },
+    {
+      "id": "-2016-002",
+      "title": "埃及第十三王朝行政",
+      "region": "埃及（上埃及，底比斯地区）",
+      "coordinates_approx": "25.7, 32.6",
+      "category": "political",
+      "description": "埃及第十三王朝在第二中间期继续统治上埃及，维持行政结构和宗教实践，尽管丧失了对下埃及（现受喜克索斯人影响）的中央控制。该王朝特征为统治者快速更迭和王权逐渐削弱。此年无具体事件记载。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "埃及王表（都灵纸草、阿拜多斯王表）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "底比斯考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "第十三王朝记录不佳。确切年代和统治者继承不确定；该年落在此王朝统治期内，但无具体事件证实。",
+      "cross_references": [
+        "-2015-002"
+      ]
+    },
+    {
+      "id": "-2016-003",
+      "title": "商朝军事行动",
+      "region": "中国（黄河流域）",
+      "coordinates_approx": "34.6, 114.3",
+      "category": "military",
+      "description": "商代甲骨卜辞记录了对周边民族的军事行动和内部权力巩固。商王定期进行军事远征以获取资源、贡品和领土控制。这些行动通过甲骨占卜记录记载，祈求神灵对军事行动的认可。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "安阳（殷墟）出土的甲骨",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "甲骨证实商代存在军事行动实践。该年的具体战役未单独纪年。",
+      "cross_references": [
+        "-2015-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现具体否定证据。关于埃及第十三王朝年代学和喜克索斯断代的普遍史学不确定性依然存在。",
+  "historiographic_note": "公元前2016年在具体事件方面记录不佳。大多数信息来自后期编纂（王表、编年史）或考古背景而非同期记录。该时期的逐年叙事主要从更广泛的模式而非特定日期事件重建。这反映了行政泥板和王表之外中青铜时代文献的普遍稀疏特征。",
+  "graph_edges": [
+    {
+      "from": "-2016-001",
+      "to": "-2015-001",
+      "relation": "contemporary_with",
+      "note": "萨姆苏伊鲁纳统治从上一年延续。"
+    }
+  ]
+}

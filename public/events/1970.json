@@ -1,0 +1,638 @@
+{
+  "year": 1970,
+  "year_label": "公元1970年",
+  "era_context": "冷战持续，缓和的迹象日益显现。越南战争因美国入侵柬埔寨而升级。环境运动随着第一个地球日的到来而获得动力。非殖民化在非洲和亚洲加速。苏联和东欧集团面临内部压力和经济停滞。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1970-001",
+      "title": "东巴基斯坦选举（人民联盟胜利）",
+      "region": "南亚（东巴基斯坦）",
+      "coordinates_approx": "23.6850, 90.3563",
+      "category": "political",
+      "description": "1970年12月，巴基斯坦自1947年以来的首次大选结果揭晓，由谢赫·穆吉布·拉赫曼领导的人民联盟在东巴基斯坦取得压倒性胜利。人民联盟赢得了国民议会中东巴基斯坦分配的162个席位中的160个。这次选举反映了东巴基斯坦对西巴基斯坦经济剥削和政治边缘化的深刻地区不满。军政府拒绝向人民联盟移交权力，引发了宪法危机，直接导致了1971年的孟加拉国解放战争。",
+      "key_figures": [
+        "谢赫·穆吉布·拉赫曼（人民联盟领导人）",
+        "阿迦·穆罕默德·叶海亚·汗（巴基斯坦军政府统治者）",
+        "佐勒菲卡尔·阿里·布托（西巴基斯坦政治家）"
+      ],
+      "sources": [
+        {
+          "name": "巴基斯坦选举委员会记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时新闻报道（路透社、美联社、英国广播公司）",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "选举结果和日期在官方记录中有记载。",
+      "cross_references": [
+        "1971-001（孟加拉国解放战争）"
+      ]
+    },
+    {
+      "id": "1970-002",
+      "title": "美国入侵柬埔寨",
+      "region": "东南亚（柬埔寨）",
+      "coordinates_approx": "12.5657, 104.9910",
+      "category": "military",
+      "description": "1970年4月30日，理查德·尼克松总统宣布美国和南越军队入侵柬埔寨，将越南战争扩大到中立国。此次行动旨在摧毁北越的避难所和补给线（胡志明小道）。入侵在美国引发了大规模抗议，包括肯特州立大学枪击事件（1970年5月4日）。行动破坏了柬埔寨的稳定，助长了红色高棉的崛起。入侵持续至1973年6月，被广泛视为战略失败，扩大了而非遏制了战争。",
+      "key_figures": [
+        "理查德·尼克松（美国总统）",
+        "亨利·基辛格（国家安全顾问）",
+        "朗诺（柬埔寨军事领导人）"
+      ],
+      "sources": [
+        {
+          "name": "尼克松1970年4月30日电视讲话",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "美国国防部记录及解密电报",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "本·基尔南，《波尔布特政权》（1996）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "入侵日期、关键人物和军事行动记录充分。",
+      "cross_references": [
+        "1970-003（肯特州立大学枪击事件）",
+        "1973-002（柬埔寨入侵结束）"
+      ]
+    },
+    {
+      "id": "1970-003",
+      "title": "肯特州立大学枪击事件",
+      "region": "北美洲（美国俄亥俄州）",
+      "coordinates_approx": "41.1447, -81.3560",
+      "category": "political",
+      "description": "1970年5月4日，俄亥俄州国民警卫队向肯特州立大学的学生抗议者开枪，造成四名学生死亡（艾莉森·克劳斯、杰弗里·米勒、桑德拉·舒尔、威廉·施罗瑟），九人受伤。学生们正在抗议美国入侵柬埔寨。枪击事件成为反战运动的一个决定性时刻，并引发了全国性的学生罢课。该事件暴露了政府与青年在越南战争问题上的深刻分歧，并成为国家暴力镇压异议的象征。",
+      "key_figures": [
+        "罗伯特·坎特伯雷将军（俄亥俄州国民警卫队指挥官）",
+        "学生抗议者（受害者姓名如上所列）"
+      ],
+      "sources": [
+        {
+          "name": "官方调查及法庭记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "目击者证词及照片",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "詹姆斯·米切纳，《肯特州立：发生了什么以及为什么》（1971）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "日期、死亡人数和受害者身份在官方记录中有记载。",
+      "cross_references": [
+        "1970-002（柬埔寨入侵）"
+      ]
+    },
+    {
+      "id": "1970-004",
+      "title": "第一个地球日",
+      "region": "全球",
+      "coordinates_approx": null,
+      "category": "cultural",
+      "description": "1970年4月22日，第一个地球日在全球庆祝，估计有2000万美国人参与示威、宣讲和环境活动。该活动由环保活动家盖洛德·尼尔森和丹尼斯·海耶斯组织。地球日标志着现代环境运动作为大众现象的出现，提高了公众对污染、人口过剩和资源枯竭的认识。该活动促成了美国环境保护局于1970年晚些时候成立，并催化了全球的环境立法。",
+      "key_figures": [
+        "盖洛德·尼尔森（美国参议员，地球日组织者）",
+        "丹尼斯·海耶斯（地球日协调员）"
+      ],
+      "sources": [
+        {
+          "name": "地球日网络记录及当时媒体报道",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "丹尼斯·海耶斯，《希望的曙光》（1977）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "日期和参与人数估计在当时的来源中有记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1970-005",
+      "title": "阿波罗13号氧气罐爆炸与安全返回",
+      "region": "太空（登月任务）",
+      "coordinates_approx": null,
+      "category": "exploration",
+      "description": "1970年4月13日，阿波罗13号在前往月球的途中，一个氧气罐破裂，导致航天器严重受损。宇航员詹姆斯·洛弗尔、杰克·斯威格特和弗雷德·海塞面临着距地球20万英里的生死攸关的处境。美国国家航空航天局工程师和宇航员共同努力，利用现有材料临时解决问题。航天器于1970年4月17日安全返回地球。这次任务成为危机中人类智慧和团队合作的象征，尽管它标志着阿波罗计划登月雄心的终结。",
+      "key_figures": [
+        "詹姆斯·洛弗尔（指令长）",
+        "杰克·斯威格特（指令舱驾驶员）",
+        "弗雷德·海塞（登月舱驾驶员）",
+        "吉恩·克兰兹（美国国家航空航天局飞行主管）"
+      ],
+      "sources": [
+        {
+          "name": "美国国家航空航天局任务记录及遥测数据",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "詹姆斯·洛弗尔与杰弗里·克卢格，《阿波罗13号》（1994）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "所有任务数据、日期和技术细节均有广泛记载。",
+      "cross_references": [
+        "1969-001（阿波罗11号登月）"
+      ]
+    },
+    {
+      "id": "1970-006",
+      "title": "安瓦尔·萨达特成为埃及总统",
+      "region": "中东（埃及）",
+      "coordinates_approx": "30.0444, 31.2357",
+      "category": "political",
+      "description": "1970年9月28日，自1954年以来担任埃及总统的贾迈勒·阿卜杜勒·纳赛尔因心脏病去世。副总统安瓦尔·萨达特继任。萨达特最初延续纳赛尔的政策，但逐渐转向经济自由化和与西方和解。他的总统任期标志着埃及和中东政治的转折点，导致了1973年赎罪日战争和1979年戴维营协议。萨达特的统治既有军事冲突，也有最终与以色列的和平。",
+      "key_figures": [
+        "安瓦尔·萨达特（新任总统）",
+        "贾迈勒·阿卜杜勒·纳赛尔（已故总统）"
+      ],
+      "sources": [
+        {
+          "name": "埃及政府记录及宪法文件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "安瓦尔·萨达特，《寻找身份》（1978）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "纳赛尔去世日期和萨达特的继任在埃及政府记录中有记载。",
+      "cross_references": [
+        "1973-003（赎罪日战争）",
+        "1979-002（戴维营协议）"
+      ]
+    },
+    {
+      "id": "1970-007",
+      "title": "阿连德当选智利总统",
+      "region": "南美洲（智利）",
+      "coordinates_approx": "-33.8688, -51.2093",
+      "category": "political",
+      "description": "1970年9月4日，马克思主义者萨尔瓦多·阿连德在三方竞选中以36.3%的得票率当选智利总统。阿连德成为西半球第一位民主选举产生的马克思主义总统。他的当选在美国和智利保守派中引发了警报。阿连德政府启动了土地改革、铜矿国有化和社会计划。选举及随后的政策导致了经济不稳定、社会极化，并最终引发了1973年奥古斯托·皮诺切特领导的军事政变。",
+      "key_figures": [
+        "萨尔瓦多·阿连德（当选总统）",
+        "拉多米罗·托米奇（基督教民主党候选人）",
+        "豪尔赫·亚历山德里（保守党候选人）"
+      ],
+      "sources": [
+        {
+          "name": "智利选举委员会记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时新闻报道及外交电报",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "阿图罗·巴伦苏埃拉，《民主政权的崩溃：智利》（1978）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "选举日期、票数和阿连德的胜利在官方记录中有记载。",
+      "cross_references": [
+        "1973-004（智利军事政变）"
+      ]
+    },
+    {
+      "id": "1970-008",
+      "title": "布托成为巴基斯坦外交部长",
+      "region": "南亚（巴基斯坦）",
+      "coordinates_approx": "33.6844, 73.0479",
+      "category": "political",
+      "description": "佐勒菲卡尔·阿里·布托，一位著名的政治家和外交家，在军政府统治者阿迦·穆罕默德·叶海亚·汗的领导下成为巴基斯坦外交部长。布托利用这一职位提升了巴基斯坦的国际形象，并推行民族主义政策。他担任外交部长的任期（1970-1971）以加强巴基斯坦与中国及穆斯林世界的关系为标志。在巴基斯坦于1971年战争失败后，布托转型为总统。",
+      "key_figures": [
+        "佐勒菲卡尔·阿里·布托（外交部长）",
+        "阿迦·穆罕默德·叶海亚·汗（军政府统治者）"
+      ],
+      "sources": [
+        {
+          "name": "巴基斯坦政府记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "布托被任命为外交部长有记载，但具体日期可能因来源而异。",
+      "cross_references": [
+        "1971-011（布托成为总统）"
+      ]
+    },
+    {
+      "id": "1970-009",
+      "title": "比夫拉战争结束",
+      "region": "西非（尼日利亚）",
+      "coordinates_approx": "5.5317, 7.4969",
+      "category": "military",
+      "description": "1970年1月15日，比夫拉战争以比夫拉军队向尼日利亚联邦政府投降而告终。这场持续1967年至1970年的战争估计造成1至300万人死亡，主要死于饥饿和疾病。冲突源于尼日利亚东南部伊博人与联邦政府之间的种族紧张关系。战争的结束标志着尼日利亚重申其领土完整，但留下了种族分裂的深刻伤痕。战争期间的人道主义危机催生了现代国际人道主义运动。",
+      "key_figures": [
+        "雅库布·戈翁（尼日利亚军事领导人）",
+        "奥杜梅格乌·奥朱库（比夫拉领导人）"
+      ],
+      "sources": [
+        {
+          "name": "尼日利亚军事记录及政府文件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "国际红十字与红新月运动记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "奇马曼达·恩戈齐·阿迪奇，《半轮黄日》（2006，基于战争的历史小说）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "战争结束日期和关键人物在军事和国际记录中有记载。",
+      "cross_references": [
+        "1967-001（比夫拉战争开始）"
+      ]
+    },
+    {
+      "id": "1970-010",
+      "title": "阿斯旺高坝竣工（埃及）",
+      "region": "中东（埃及）",
+      "coordinates_approx": "23.9691, 32.8872",
+      "category": "technological",
+      "description": "阿斯旺高坝是世界上最大的水电项目之一，于1970年7月15日在埃及竣工。该大坝在苏联援助下建成，形成了纳赛尔湖，为埃及提供水电、灌溉和防洪。项目由安瓦尔·萨达特总统主持启用。大坝改变了埃及的经济和农业，但也造成了环境后果，包括努比亚社区的迁移和尼罗河生态系统的变化。该项目象征着冷战时期对发展中国家影响力的竞争。",
+      "key_figures": [
+        "安瓦尔·萨达特（埃及总统）",
+        "贾迈勒·阿卜杜勒·纳赛尔（项目发起人，竣工前去世）"
+      ],
+      "sources": [
+        {
+          "name": "埃及政府记录及苏联技术文献",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "联合国教科文组织及世界银行报告",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "竣工日期和启用仪式在官方记录中有记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1970-011",
+      "title": "美国环境保护局成立",
+      "region": "北美洲（美国）",
+      "coordinates_approx": "38.8951, -77.0369",
+      "category": "political",
+      "description": "1970年12月2日，理查德·尼克松总统签署立法，创建美国环境保护局。该机构整合了来自各联邦部门的环境保护职能。环境保护局的成立反映了环境运动的日益增长和公众对污染的关切。该机构负责执行环境法律，包括《清洁空气法》和《清洁水法》。环境保护局的建立标志着美国环境政策的转折点，并成为全球环境机构的典范。",
+      "key_figures": [
+        "理查德·尼克松（美国总统）",
+        "威廉·拉克尔肖斯（首任环境保护局局长）"
+      ],
+      "sources": [
+        {
+          "name": "美国政府记录及立法（1970年第3号重组计划）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "环境保护局历史记录",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "环境保护局成立日期和首任局长在政府记录中有记载。",
+      "cross_references": [
+        "1970-004（地球日）"
+      ]
+    },
+    {
+      "id": "1970-012",
+      "title": "1970年大阪世博会（世界博览会）",
+      "region": "东亚（日本）",
+      "coordinates_approx": "34.8149, 135.5308",
+      "category": "cultural",
+      "description": "1970年3月15日至9月13日在大阪举办的1970年世博会吸引了6400万参观者，成为参观人数最多的世博会之一。博览会展示了日本的技术进步和二战后的经济复苏。主题“人类的进步与和谐”反映了战后的乐观情绪。博览会展示了创新建筑，包括丹下健三的标志性节日广场，并向全球观众介绍了新技术。1970年世博会象征着日本作为技术和经济超级大国的崛起。",
+      "key_figures": [
+        "丹下健三（建筑师）",
+        "裕仁天皇（日本君主，出席开幕式）"
+      ],
+      "sources": [
+        {
+          "name": "1970年世博会官方记录及日本政府文件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时媒体报道及建筑分析",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "日期、参观人数和关键人物在官方记录中有记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1970-013",
+      "title": "协和超音速客机首次超音速飞行",
+      "region": "欧洲（法国）",
+      "coordinates_approx": "43.6453, 1.3788",
+      "category": "technological",
+      "description": "1970年3月2日，协和超音速客机实现首次超音速飞行，达到2马赫（音速的两倍）。该飞机由英法工程师联合研制，代表了20世纪60-70年代航空技术的顶峰。协和飞机于1976年投入商业服务，执飞跨大西洋航线。该飞机成为技术成就的象征，但在经济上不可行，运营亏损。协和飞机的发展反映了冷战竞争以及那个时代对技术进步的乐观态度。",
+      "key_figures": [
+        "安德烈·特尔卡特（协和试飞员）"
+      ],
+      "sources": [
+        {
+          "name": "英法航空航天公司记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "飞行测试数据及当时媒体报道",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "首次超音速飞行日期在航空航天记录中有记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1970-014",
+      "title": "北爱尔兰冲突升级",
+      "region": "欧洲（北爱尔兰）",
+      "coordinates_approx": "54.5973, -5.9301",
+      "category": "military",
+      "description": "1970年，北爱尔兰的暴力事件急剧升级，天主教和新教社区之间以及爱尔兰共和军与英国安全部队之间发生了宗派冲突。这一年见证了临时爱尔兰共和军作为一个独立组织的出现，以及持续暴力运动的开始。1969年部署以维持秩序的英国军队逐渐被天主教社区视为占领军。1970年的升级标志着北爱尔兰冲突最暴力阶段的开始，一直持续到1998年《贝尔法斯特协议》。",
+      "key_figures": [
+        "格里·亚当斯（新芬党/爱尔兰共和军领导人）",
+        "约翰·弗里兰爵士将军（英国军事指挥官）"
+      ],
+      "sources": [
+        {
+          "name": "英国军事记录及皇家阿尔斯特警察局报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时新闻报道及目击者证词",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "理查德·英格利希，《武装斗争》（2003）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "1970年暴力升级有记载，但具体伤亡数字因来源而异。",
+      "cross_references": [
+        "1971-014（未经审判的拘留）"
+      ]
+    },
+    {
+      "id": "1970-015",
+      "title": "汤加脱离英国独立",
+      "region": "大洋洲（南太平洋）",
+      "coordinates_approx": "-21.1789, -175.1982",
+      "category": "political",
+      "description": "1970年6月4日，汤加脱离英国保护获得独立，成为一个主权王国。汤加在太平洋岛国中独一无二，因为它从未被完全殖民；在接受英国保护的同时保留了传统君主制。独立通过和平谈判实现，汤加加入了联合国。该王国保留了其传统政治制度和文化习俗，成为太平洋地区本土治理的典范。",
+      "key_figures": [
+        "陶法阿豪·图普四世国王（汤加君主）"
+      ],
+      "sources": [
+        {
+          "name": "英国外交部记录及汤加政府文件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "联合国加入记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "独立日期在官方记录中有记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1970-016",
+      "title": "斐济脱离英国独立",
+      "region": "大洋洲（南太平洋）",
+      "coordinates_approx": "-17.7134, 178.0650",
+      "category": "political",
+      "description": "1970年10月10日，斐济脱离英国殖民统治获得独立。过渡期和平协商，斐济加入联合国和英联邦。斐济的独立标志着后殖民历史的开始，以土著斐济人与印度-斐济人（英国带来的契约劳工后裔）之间的种族紧张为特征。这些紧张关系导致了1987年和2000年的军事政变。",
+      "key_figures": [
+        "拉图·卡米塞塞·马拉爵士（首任总理）"
+      ],
+      "sources": [
+        {
+          "name": "英国外交部记录及斐济政府文件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "联合国加入记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "独立日期在官方记录中有记载。",
+      "cross_references": [
+        "1987-001（斐济军事政变）"
+      ]
+    },
+    {
+      "id": "1970-017",
+      "title": "索尔仁尼琴获诺贝尔文学奖",
+      "region": "欧洲（苏联）",
+      "coordinates_approx": "55.7558, 37.6173",
+      "category": "cultural",
+      "description": "1970年10月8日，苏联持不同政见作家亚历山大·索尔仁尼琴被授予诺贝尔文学奖，“以表彰他在追求俄罗斯文学不可或缺的传统时所体现的道德力量”。该奖项表彰了索尔仁尼琴的作品，特别是《古拉格群岛》，这些作品揭露了苏联劳改营制度的残酷。苏联政府禁止索尔仁尼琴前往斯德哥尔摩领奖，将该奖项视为西方对苏联的攻击。诺贝尔奖提升了索尔仁尼琴的国际地位，使他成为抵抗苏联威权主义的象征。",
+      "key_figures": [
+        "亚历山大·索尔仁尼琴（作家和持不同政见者）"
+      ],
+      "sources": [
+        {
+          "name": "诺贝尔奖官方记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "苏联政府声明及西方媒体报道",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "诺贝尔奖颁奖日期和颁奖词在官方记录中有记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1970-018",
+      "title": "博拉气旋袭击孟加拉国（东巴基斯坦）",
+      "region": "南亚（东巴基斯坦/孟加拉国）",
+      "coordinates_approx": "23.6850, 90.3563",
+      "category": "environmental",
+      "description": "1970年11月，博拉气旋袭击东巴基斯坦（今孟加拉国），造成灾难性的洪水和风暴潮。气旋造成约30万至50万人死亡，成为有记录以来最致命的自然灾害之一。这场灾难揭示了人口稠密的恒河三角洲对热带气旋的脆弱性以及预警系统的不足。气旋的破坏加剧了东巴基斯坦的政治不稳定，并加剧了导致1971年孟加拉国解放战争的不满情绪。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "巴基斯坦气象记录及政府报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "国际红十字与红新月运动记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "苏吉特·西瓦桑达拉姆，《南十字星下的波涛》（2020）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "气旋的发生和大致死亡人数有记载，但确切数字因来源而异。",
+      "cross_references": [
+        "1971-001（孟加拉国解放战争）"
+      ]
+    },
+    {
+      "id": "1970-019",
+      "title": "吉米·亨德里克斯去世",
+      "region": "欧洲（英国伦敦）",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "cultural",
+      "description": "1970年9月18日，传奇吉他手吉米·亨德里克斯在伦敦去世，享年27岁，官方死因是药物使用相关的窒息。亨德里克斯的去世标志着摇滚乐创新时代的结束，并助长了“27俱乐部”（27岁去世的音乐家）的神话。他对摇滚音乐、吉他技术和流行文化的影响仍然深远。亨德里克斯之死象征着20世纪60年代反文化运动阴暗的一面以及药物成瘾的代价。",
+      "key_figures": [
+        "吉米·亨德里克斯（音乐家）"
+      ],
+      "sources": [
+        {
+          "name": "英国验尸官报告及死亡证明",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时媒体报道及传记",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "死亡日期和原因在官方记录中有记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1970-020",
+      "title": "珍妮丝·乔普林去世",
+      "region": "北美洲（美国加利福尼亚州）",
+      "coordinates_approx": "34.0522, -118.2437",
+      "category": "cultural",
+      "description": "1970年10月3日，布鲁斯摇滚歌手珍妮丝·乔普林在洛杉矶因服用海洛因过量去世，享年27岁。乔普林的去世，发生在吉米·亨德里克斯去世仅几周后，进一步凸显了摇滚乐界药物成瘾的危险。她对摇滚和布鲁斯音乐的影响，特别是她强大的嗓音风格，仍然重大。乔普林之死助长了“27俱乐部”的神话，象征着20世纪60年代反文化运动的悲剧性结局。",
+      "key_figures": [
+        "珍妮丝·乔普林（音乐家）"
+      ],
+      "sources": [
+        {
+          "name": "洛杉矶县验尸官报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时媒体报道及传记",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "死亡日期和原因在官方记录中有记载。",
+      "cross_references": [
+        "1970-019（吉米·亨德里克斯去世）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "博拉气旋的死亡人数通常被引为30万至50万，但一些来源因记录不全而认为数字可能更低（约20万）。比夫拉战争的确切死亡人数存在争议；估计从100万到300万不等，现代学术研究倾向于较低端。肯特州立大学枪击事件有时被描绘为无端屠杀，但调查显示一些学生在此之前投掷石块和辱骂，尽管这并不能证明致命回应的合理性。协和飞机首次超音速飞行的日期有时被引用为1969年4月1日（首次飞行）而非1970年3月2日（首次超音速飞行）；这种区别对历史准确性很重要。",
+  "historiographic_note": "1970年由于当代媒体、政府记录和目击者证词的丰富，记录异常详尽。西方事件（阿波罗13号、肯特州立、地球日、环境保护局成立）在现有来源中占很大比重。孟加拉国气旋和比夫拉战争有记载，但关于伤亡数字的精确度较低。中国和苏联来源仍然部分受限，限制了对内部政治发展的详细分析。环境运动的出现在西方来源中记载充分，但在发展中国家较少。北爱尔兰冲突的来源丰富但往往反映党派视角。",
+  "graph_edges": [
+    {
+      "from": "1970-001",
+      "to": "1971-001",
+      "relation": "led_to",
+      "note": "人民联盟的选举胜利和军政府拒绝移交权力直接引发了孟加拉国解放战争。"
+    },
+    {
+      "from": "1970-002",
+      "to": "1970-003",
+      "relation": "led_to",
+      "note": "柬埔寨入侵的宣布引发了肯特州立大学枪击事件和更广泛的反战抗议。"
+    },
+    {
+      "from": "1970-004",
+      "to": "1970-011",
+      "relation": "led_to",
+      "note": "地球日的成功和公众环保意识导致了环境保护局的成立。"
+    },
+    {
+      "from": "1970-006",
+      "to": "1973-003",
+      "relation": "led_to",
+      "note": "萨达特的继任及其政策转向为1973年赎罪日战争的条件做出了贡献。"
+    },
+    {
+      "from": "1970-007",
+      "to": "1973-004",
+      "relation": "led_to",
+      "note": "阿连德的当选及随后的政策为1973年军事政变创造了条件。"
+    },
+    {
+      "from": "1970-018",
+      "to": "1971-001",
+      "relation": "led_to",
+      "note": "博拉气旋的破坏加剧了东巴基斯坦的不满，促成了1971年的解放战争。"
+    }
+  ]
+}

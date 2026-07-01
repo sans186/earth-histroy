@@ -1,0 +1,49 @@
+{
+  "year": -812,
+  "year_label": "公元前812年",
+  "era_context": "铁器时代II继续。沙尔马那塞尔三世的统治处于中期（公元前858–824年）。黎凡特的政治格局由亚述的附属关系主导。希腊正从几何时期过渡到古风时期。字母表在希腊城邦中确立。埃及在政治上仍处于分裂状态。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "中美洲",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-812-001",
+      "title": "沙尔马那塞尔三世在黎凡特的军事行动",
+      "region": "黎凡特、叙利亚、美索不达米亚",
+      "coordinates_approx": "35.5, 34.5",
+      "category": "military",
+      "description": "沙尔马那塞尔三世继续其每年对叙利亚和巴勒斯坦的军事行动，通过军事压力和贡赋征收维持亚述对该地区的控制。这些行动有皇家铭文记载，但缺少公元前812年的具体细节。",
+      "key_figures": [
+        "沙尔马那塞尔三世（亚述王）"
+      ],
+      "sources": [
+        {
+          "name": "亚述皇家铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "沙尔马那塞尔三世的统治有充分记载，但公元前812年的具体事件未被单独认定。",
+      "cross_references": [
+        "-814-001",
+        "-813-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现与上述事件相矛盾的证据。",
+  "historiographic_note": "公元前812年的历史记录稀少，依赖亚述皇家铭文。这些文献是宣传性的，不提供逐年详细记述。非亚述人民的视角缺失。",
+  "graph_edges": [
+    {
+      "from": "-812-001",
+      "to": "-814-001",
+      "relation": "part_of",
+      "note": "沙尔马那塞尔三世更广泛行动周期的一部分"
+    }
+  ]
+}

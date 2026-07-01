@@ -1,0 +1,109 @@
+{
+  "year": -2262,
+  "year_label": "公元前2262年",
+  "era_context": "埃及古王国（第六王朝）继续其逐渐衰落。纳拉姆辛的阿卡德帝国仍处于鼎盛。哈拉帕文明处于成熟期。这一时期代表了旧世界青铜时代文明的巅峰，尽管内部紧张因素和气候变化开始积累。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "大洋洲",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2262-001",
+      "title": "佩皮二世统治：埃及的行政分裂",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "在佩皮二世统治期间，地方州长（诺姆长）的权力继续以牺牲中央法老权威为代价增长。这一时期的铭文显示诺姆长进行独立的军事行动，并积累财富和土地。这种分权是古王国晚期的标志，并将加速进入第一中间期。",
+      "key_figures": [
+        "佩皮二世（Neferkare），埃及法老"
+      ],
+      "sources": [
+        {
+          "name": "地方官员的自传体铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "墓葬铭文和行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "这一年没有特定事件记录。这一特征基于佩皮二世统治和古王国晚期的更广泛模式。",
+      "cross_references": [
+        "-2260-001",
+        "-2261-001"
+      ]
+    },
+    {
+      "id": "-2262-002",
+      "title": "纳拉姆辛统治：阿卡德帝国的巅峰",
+      "region": "美索不达米亚，阿卡德，黎凡特",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "纳拉姆辛的统治代表了阿卡德帝国权力的顶峰。他控制着从波斯湾到地中海、从托罗斯山脉到阿拉伯半岛的领土。他的行政机构复杂，有中央集权的官僚体系和标准化的行政实践。然而，内部抵抗和来自古提人的外部压力正在积聚。",
+      "key_figures": [
+        "纳拉姆辛，阿卡德国王"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德王室铭文和行政文本",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "纳拉姆辛石碑",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治有充分证据，但这一年没有特定事件记录。",
+      "cross_references": [
+        "-2260-002",
+        "-2261-002"
+      ]
+    },
+    {
+      "id": "-2262-003",
+      "title": "哈拉帕城市中心的发展巅峰",
+      "region": "印度河流域，南亚",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "主要的哈拉帕城市中心（摩亨佐达罗、哈拉帕、多拉维拉、卡利班甘）已经完全发展并处于巅峰运转状态。这些城市拥有复杂的城市规划，包括网格状街道、标准化的砖块尺寸、先进的排水系统和公共建筑。文明经济以农业、手工业和远距离贸易为基础。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古发掘和调查",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "放射性碳测年和地层分析",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈拉帕文明的存在和年代在考古上已有充分确立。成熟期年代约为公元前2600–1900年。",
+      "cross_references": [
+        "-2260-003",
+        "-2261-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "没有这一年特定事件的记录。这些条目是对更广泛模式的概括。",
+  "historiographic_note": "历史记录中没有这一年的记载。这些条目代表了对更广泛时期考古和铭文证据的推断。",
+  "graph_edges": [
+    {
+      "from": "-2262-001",
+      "to": "-2184-001",
+      "relation": "led_to",
+      "note": "佩皮二世统治期间的行政分裂促使了古王国的崩溃"
+    }
+  ]
+}

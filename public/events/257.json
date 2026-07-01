@@ -1,0 +1,126 @@
+{
+  "year": 257,
+  "year_label": "公元257年",
+  "era_context": "罗马帝国正处于三世纪危机之中。皇帝瓦勒良一世（公元253–260年在位）已统治大约四年，正在巩固帝国权威。沙普尔一世统治下的萨珊帝国正在近东积极扩张。在中国，三国时期仍在继续。日耳曼部落正在压迫莱茵河和多瑙河沿线的罗马边境。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（文字记载极少）",
+    "罗马边境记载以外的北欧地区",
+    "中亚和草原地区（文献匮乏）",
+    "罗马帝国除重大军事战役和行政中心以外的大部分地区"
+  ],
+  "events": [
+    {
+      "id": "257-001",
+      "title": "瓦勒良一世巩固帝国权威",
+      "region": "罗马帝国（多个地区）",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "皇帝瓦勒良一世于公元253年即位，继续巩固对整个罗马帝国的权威。到公元257年，他已基本稳定了西部边境，并准备应对东部的萨珊威胁。瓦勒良的统治标志着三世纪危机的暂时稳定，尽管帝国的结构性根本问题依然存在。他的权力巩固涉及军事改革、行政重组以及提升其子加列努斯为凯撒。",
+      "key_figures": [
+        "瓦勒良一世（罗马皇帝）",
+        "加列努斯（凯撒，瓦勒良之子）"
+      ],
+      "sources": [
+        {
+          "name": "《罗马帝王纪》（瓦勒良传记）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "佐西穆斯，《新历史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "钱币学证据（瓦勒良的硬币）",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "瓦勒良的权力巩固有充分证据。公元257年的具体事件和时间线与其他年份相比记载较少。",
+      "cross_references": [
+        "继公元253-001之后（瓦勒良即位）"
+      ]
+    },
+    {
+      "id": "257-002",
+      "title": "沙普尔一世治下的萨珊帝国扩张",
+      "region": "萨珊帝国和近东",
+      "coordinates_approx": "35.0°N, 50.0°E",
+      "category": "political",
+      "description": "萨珊国王沙普尔一世继续在近东扩大萨珊权力和影响力。到公元257年，沙普尔已巩固了对美索不达米亚的控制，并准备对罗马领土发动重大战役。他的扩张因罗马内部不稳定和军事过度扩张而得到便利。沙普尔的统治（公元240–270年在位）代表了萨珊权力的顶峰，也是自帕提亚战争以来罗马在近东主导地位面临的最严重挑战。",
+      "key_figures": [
+        "沙普尔一世（萨珊国王）"
+      ],
+      "sources": [
+        {
+          "name": "沙普尔一世的《圣王功业录》",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "佐西穆斯，《新历史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "沙普尔一世的扩张在萨珊文献中有充分记载。公元257年的具体事件记载较少。",
+      "cross_references": [
+        "导致了公元260-001（埃德萨战役）"
+      ]
+    },
+    {
+      "id": "257-003",
+      "title": "日耳曼人对罗马边境的压力",
+      "region": "罗马边境地区（莱茵河和多瑙河）",
+      "coordinates_approx": "50.0°N, 15.0°E",
+      "category": "military",
+      "description": "日耳曼部落继续压迫莱茵河和多瑙河沿线的罗马边境。由于罗马军事资源因内部不稳定和东方威胁而捉襟见肘，边境防御被削弱。日耳曼人对高卢和巴尔干的袭击在这一时期仍在继续。公元257年的具体规模和具体事件记载不详，但日耳曼人压力的总体模式有充分证据。",
+      "key_figures": [
+        "日耳曼部落首领（名字多未记录）",
+        "罗马边境指挥官（名字多未记录）"
+      ],
+      "sources": [
+        {
+          "name": "佐西穆斯，《新历史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "《罗马帝王纪》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "边境遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "这一时期日耳曼人的压力有充分证据，但公元257年的具体事件和日期记载不详。",
+      "cross_references": [
+        "属于更广泛的日耳曼迁徙时期（公元235–284年）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "公元257年的具体事件在现存文献中记载很少。这一年常常被公元260年的戏剧性事件（埃德萨）和三世纪危机的更广泛叙事所掩盖。有些归因于公元257年的事件可能实际上发生在相邻年份。",
+  "historiographic_note": "公元257年的历史记录稀疏，严重依赖于后来编撰的著作（《罗马帝王纪》、佐西穆斯），这些著作已知并不可靠。同时代文献仅限于钱币学证据和后来编年史中的零星引用。公元257年在历史叙事中常常被忽视，历史叙事倾向于关注更戏剧性的事件。行省居民、日耳曼部落和非精英阶层的视角几乎完全缺失。",
+  "graph_edges": [
+    {
+      "from": "257-001",
+      "to": "258-001",
+      "relation": "led_to",
+      "note": "权力巩固为东方战役的准备提供了条件"
+    },
+    {
+      "from": "257-002",
+      "to": "260-001",
+      "relation": "led_to",
+      "note": "萨珊扩张导致了埃德萨战役"
+    }
+  ]
+}

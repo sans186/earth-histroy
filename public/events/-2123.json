@@ -1,0 +1,138 @@
+{
+  "year": -2123,
+  "year_label": "公元前2123年",
+  "era_context": "埃及晚古王国持续，地方分权加速。纳拉姆辛的阿卡德帝国在美索不达米亚保持其领土范围。印度河流域文明继续其成熟的都市阶段。这一年处于整个旧大陆显著气候压力的时期，有干旱化影响埃及和美索不达米亚的证据。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "东亚（夏朝年表精度有限）"
+  ],
+  "events": [
+    {
+      "id": "-2123-001",
+      "title": "埃及中央权威的持续分裂；诺姆长自治深化",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "始于第六王朝晚期的地方分权过程继续。地方总督巩固权力和资源，削弱了法老为大型建筑或军事行动征调劳动力的能力。这一时期见证了地方精英墓葬的兴起和皇家金字塔建设的衰落。从古王国向第一中间期的过渡现已全面展开，尽管第六王朝的正式结束传统上定在约公元前2181年。",
+      "key_figures": [
+        "佩皮二世（第六王朝法老，如果仍在位的话）",
+        "地方诺姆长（姓名大多未记录）"
+      ],
+      "sources": [
+        {
+          "name": "诺姆长的自传体铭文（西乌特、莫阿拉、阿斯旺）",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "皇家行政纸草文献减少",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "曼涅托的《埃及史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "古王国衰落的渐进性质已充分确立，但逐年的精确事件没有记录。本条目描述的是一个过程而非离散事件。",
+      "cross_references": [
+        "是-2124-001的延续",
+        "是更广泛的第一中间期过渡的一部分"
+      ]
+    },
+    {
+      "id": "-2123-002",
+      "title": "纳拉姆辛的阿卡德帝国维持领土控制；行政整合",
+      "region": "美索不达米亚、黎凡特",
+      "coordinates_approx": "43.0, 34.0",
+      "category": "political",
+      "description": "纳拉姆辛继续在被征服领土上巩固阿卡德行政系统。阿卡德语成为行政通用语，在许多场合取代苏美尔语。然而，来自北方的古提人的压力和环境压力（降雨减少影响农业）开始消耗帝国资源，尽管崩溃仍在几十年后。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德行政泥板和铭文",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《苏美尔王表》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治有充分证据，但个别年份的具体事件很少记录。本条目根据更广泛的模式推断行政的连续性。",
+      "cross_references": [
+        "是-2124-002的延续",
+        "发生在阿卡德帝国崩溃（约公元前2200-2150年）之前"
+      ]
+    },
+    {
+      "id": "-2123-003",
+      "title": "影响旧大陆农业系统的气候压力（干旱化）证据",
+      "region": "埃及、美索不达米亚、黎凡特、印度河流域",
+      "coordinates_approx": null,
+      "category": "environmental",
+      "description": "古气候证据（冰芯、湖泊沉积物、树木年轮）表明，在公元前三千纪晚期，整个旧大陆出现降水减少和干旱加剧的时期。这一气候变化，常被称为'4.2千年事件'或'公元前三千纪晚期干旱事件'，与多个文明和帝国的崩溃相关，包括阿卡德帝国和埃及古王国。农业生产压力可能导致社会不稳定和政治分裂。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "冰芯记录（格陵兰、南极洲）",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "湖泊沉积物岩芯（死海、胡拉湖、美索不达米亚湖泊）",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "树木年轮年表（树木年代学）",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "学术综合（例如，Weiss等人，1993年；Cullen等人，2000年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "关于这一时期干旱化的古气候证据充分且年代清晰。与文明崩溃的因果关系是推断的，但被学者广泛接受。",
+      "cross_references": [
+        "与-2124-001和-2124-002同时期",
+        "有助于理解-2123-001和-2123-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "4.2千年事件在古气候上已充分确立，但它在导致文明崩溃中的作用存在争议。一些学者认为气候压力是次要因素而非主因，内部政治分裂和军事压力（如古提入侵）同样重要。阿卡德帝国的崩溃有时主要归因于入侵而非气候。埃及古王国的衰落可能更多由制度衰竭和精英竞争驱动，而非仅仅是环境压力。",
+  "historiographic_note": "本年在文字史料中记录很少。主要证据来自古气候重建和考古地层学，而非同期文本。埃及和美索不达米亚的史料对于这一特定年份很稀少。印度河流域文明未破译的文字限制了对其气候压力反应的理解。将气候数据解释为历史事件的因果因素本质上是推测性的，并受学术争论影响。",
+  "graph_edges": [
+    {
+      "from": "-2123-003",
+      "to": "-2124-001",
+      "relation": "part_of",
+      "note": "气候压力导致埃及古王国分裂"
+    },
+    {
+      "from": "-2123-003",
+      "to": "-2124-002",
+      "relation": "part_of",
+      "note": "气候压力导致阿卡德帝国最终崩溃"
+    },
+    {
+      "from": "-2123-001",
+      "to": "-2123-003",
+      "relation": "contemporary_with",
+      "note": "埃及政治分裂发生在气候压力时期"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "year": -2567,
+  "year_label": "公元前2567年",
+  "era_context": "埃及古王国，第四王朝。金字塔建造时代继续。胡夫统治（若延续至此）或其继任者在位。美索不达米亚仍处于早王朝III期，阿卡德支配尚未到来。印度河流域文明正在发展城市中心。这代表古王国埃及国家权力的顶峰。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "美索不达米亚",
+    "印度河流域",
+    "撒哈拉以南非洲",
+    "东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2567-001",
+      "title": "第四王朝法老统治；吉萨金字塔群使用或建造中",
+      "region": "埃及，吉萨高地和孟菲斯",
+      "coordinates_approx": "29.9788, 31.1345",
+      "category": "political",
+      "description": "本年度在埃及古王国第四王朝内。吉萨金字塔群或处于积极建造中，或作为王室丧葬建筑群被早期使用。法老国家维持着中央集权的行政机构，控制着庞大的劳动力、农业剩余和贸易网络。金字塔群的建造和维护是法老权力和宗教意识形态的主要表达。",
+      "key_figures": [
+        "胡夫或哈夫拉（法老，第四王朝）"
+      ],
+      "sources": [
+        {
+          "name": "吉萨金字塔群（考古证据）",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "确定属于第四王朝，但无具体年份事件记载。年代不确定性±50–100年。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现反驳证据。",
+  "historiographic_note": "历史记录完全为考古学资料。无书面记录留存。对纪念性建筑的偏向意味着绝大多数人口的生活不可见。年代不确定性为此时期固有。",
+  "graph_edges": [
+    {
+      "from": "-2567-001",
+      "to": "-2568-001",
+      "relation": "contemporary_with",
+      "note": "第四王朝延续"
+    }
+  ]
+}

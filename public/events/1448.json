@@ -1,0 +1,259 @@
+{
+  "year": 1448,
+  "year_label": "1448年",
+  "era_context": "15世纪中叶的特点是奥斯曼帝国在安纳托利亚和巴尔干地区的权力巩固、意大利文艺复兴的全盛、百年战争进入最后阶段、明朝在正统皇帝领导下面临瓦剌蒙古的军事挑战、葡萄牙沿非洲海岸的探索加速，以及欧洲印刷技术的出现。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（有限的欧洲文献；口头传统和后来的阿拉伯编年史为主要来源）",
+    "美洲原住民（无书面记录；仅有考古推断）",
+    "中亚和草原（除奥斯曼和明朝记录外，文献稀少）"
+  ],
+  "events": [
+    {
+      "id": "1448-001",
+      "title": "佛罗伦萨公会议结束；东西方教会联合失败",
+      "region": "意大利佛罗伦萨",
+      "coordinates_approx": "43.77, 11.26",
+      "category": "religious",
+      "description": "试图重新统一东正教会和罗马天主教会的佛罗伦萨公会议（1438–1445）于1448年正式结束，联合失败。会议曾达成临时协议（1439年联合法令），但由于神学分歧、政治紧张以及东正教神职人员和拜占庭帝国的抵制，联合迅速瓦解。会议的失败凸显了东西方基督教之间的深刻分歧，并预示着教会将继续分离。会议失败也反映了拜占庭帝国的虚弱，该帝国将于1453年落入奥斯曼之手。",
+      "key_figures": [
+        "Pope Eugenius IV",
+        "John VIII Palaiologus",
+        "Patriarch Joseph II of Constantinople"
+      ],
+      "sources": [
+        {
+          "name": "佛罗伦萨公会议记录和教宗文件（档案证据）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "拜占庭和东正教编年史（各种，15世纪）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "后世教会史（各种，16–18世纪）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "佛罗伦萨公会议于1448年正式结束以及联合失败在会议记录和教会资料中有充分记载。日期可靠。",
+      "cross_references": [
+        "承接1439-001（联合法令）",
+        "先于1453-001（君士坦丁堡陷落）"
+      ]
+    },
+    {
+      "id": "1448-002",
+      "title": "奥斯曼扩张：巴尔干领土的巩固",
+      "region": "巴尔干，奥斯曼帝国",
+      "coordinates_approx": "42.0, 21.0",
+      "category": "political",
+      "description": "1448年，穆拉德二世统治下的奥斯曼帝国继续巩固其对巴尔干的控制，之前发生了第二次科索沃战役（1448年），该战役在奥斯曼军队与塞尔维亚-匈牙利联军之间进行。战役虽在战术上未分胜负，但为奥斯曼带来战略收益，进一步征服了塞尔维亚和其他巴尔干领土。1448年奥斯曼对巴尔干的巩固为1453年最终攻克君士坦丁堡以及建立奥斯曼在东地中海的霸权奠定了基础。",
+      "key_figures": [
+        "Murad II",
+        "John Hunyadi",
+        "Đurađ Branković"
+      ],
+      "sources": [
+        {
+          "name": "奥斯曼编年史和记录（各种，15世纪）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "塞尔维亚和匈牙利编年史（各种，15世纪）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "后世奥斯曼和欧洲历史（各种，16–18世纪）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "1448年第二次科索沃战役在奥斯曼、塞尔维亚和匈牙利史料中均有记载，但确切日期和意义有时存在争议。战役传统上定于1448年，但部分史料记为1449年。",
+      "cross_references": [
+        "先于1453-001（君士坦丁堡陷落）",
+        "属于更广泛的奥斯曼扩张（14–16世纪）"
+      ]
+    },
+    {
+      "id": "1448-003",
+      "title": "百年战争：英国衰弱；法国持续进攻",
+      "region": "法国和英格兰",
+      "coordinates_approx": "48.0, 2.0",
+      "category": "military",
+      "description": "1448年，百年战争持续进行，法国军队在法国境内稳步推进，打击英国据点。英国因军事失败、政治不稳定和经济问题而衰弱，无法进行有效抵抗。这一时期见证了在查理七世领导下法国权力的巩固以及英国在欧洲大陆影响力的衰落。1448年的军事形势预示着1451–1453年英国最终战败和百年战争的结束。",
+      "key_figures": [
+        "Charles VII",
+        "Henry VI",
+        "Jean de Dunois"
+      ],
+      "sources": [
+        {
+          "name": "英国编年史和记录（各种，15世纪）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "法国编年史和记录（各种，15世纪）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "后世欧洲历史（各种，16–18世纪）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1448年法国进攻和英国衰弱的总体轨迹在同时期编年史和记录中有充分佐证。",
+      "cross_references": [
+        "先于1449-003（诺曼底陷落）",
+        "先于1451-005（波尔多陷落）",
+        "属于更广泛的百年战争（1337–1453）"
+      ]
+    },
+    {
+      "id": "1448-004",
+      "title": "明朝：正统皇帝统治；蒙古的军事挑战",
+      "region": "中国，北京",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "1448年，正统皇帝（朱祁镇）统治明朝，面临来自瓦剌蒙古和其他北方威胁的持续军事挑战。皇帝的统治以加强军事和防御北部边境为特点，但这些努力最终在1449年的土木堡之变中失败。这一时期见证了长城的持续修建和儒家官僚权威的巩固。1448年的军事挑战预示着1449年土木堡的灾难性失败。",
+      "key_figures": [
+        "Zhengtong Emperor",
+        "Wang Zhen",
+        "Oirat Mongols"
+      ],
+      "sources": [
+        {
+          "name": "明实录（明朝官方记录），正统朝部分",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "大明一统志（明朝地理和行政记录）",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "正统皇帝的统治和1448年的军事挑战在明朝官方记录中有详细记载。",
+      "cross_references": [
+        "先于1449-001（土木堡之变）",
+        "属于更广泛的明朝历史（1368–1644）"
+      ]
+    },
+    {
+      "id": "1448-005",
+      "title": "葡萄牙探索：继续沿非洲海岸扩张",
+      "region": "西非（几内亚海岸），葡萄牙",
+      "coordinates_approx": "9.0, -10.0",
+      "category": "exploration",
+      "description": "在恩里克王子的赞助下，葡萄牙航海家和商人于1448年继续沿西非海岸进行系统探索和贸易活动。这些探险活动收集了地理知识，与非洲王国建立了商业关系，并为未来的扩张奠定了基础。葡萄牙探索计划以军事、商业和宗教目标的结合为特征，代表了欧洲海外扩张的新模式。",
+      "key_figures": [
+        "Prince Henry the Navigator",
+        "Portuguese merchants and navigators"
+      ],
+      "sources": [
+        {
+          "name": "Gomes Eanes de Zurara，《几内亚编年史》（约1453年，记载恩里克王子探险的葡萄牙编年史）",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "葡萄牙王室特许状和贸易许可证（档案证据）",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "1448年的葡萄牙探索和贸易活动在编年史和档案记录中得到证实，但个别探险的具体日期通常不确定。",
+      "cross_references": [
+        "属于更广泛的葡萄牙大航海时代（1420年代–1500年代）",
+        "先于1488-001（巴尔托洛梅乌·迪亚斯绕过好望角）"
+      ]
+    },
+    {
+      "id": "1448-006",
+      "title": "意大利文艺复兴：佛罗伦萨的艺术和知识繁荣",
+      "region": "意大利佛罗伦萨",
+      "coordinates_approx": "43.77, 11.26",
+      "category": "cultural",
+      "description": "1448年，在科西莫·德·美第奇赞助下的佛罗伦萨正处于意大利文艺复兴早期的鼎盛时期，主要的艺术和知识成就蓬勃发展。这一时期见证了多纳泰罗、波提切利等大师的作品，以及人文主义学者和哲学家的赞助。美第奇家族对艺术、建筑和学术的支持使佛罗伦萨成为文艺复兴的知识和文化中心。这一文化繁荣时期将对欧洲知识和艺术发展产生深远影响。",
+      "key_figures": [
+        "Cosimo de' Medici",
+        "Donatello",
+        "Botticelli"
+      ],
+      "sources": [
+        {
+          "name": "Giorgio Vasari，《最杰出的画家、雕塑家和建筑师传》（约1550年，传记记载）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "佛罗伦萨记录和行会文件（档案证据）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "幸存的艺术品和建筑记录（物质证据）",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1448年佛罗伦萨意大利文艺复兴的繁荣在幸存的艺术品、建筑记录和后来的传记记载中得到充分佐证。",
+      "cross_references": [
+        "属于更广泛的意大利文艺复兴（14–17世纪）",
+        "先于1452-001（列奥纳多·达·芬奇出生）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "佛罗伦萨公会议的失败（1448-001）已被一些现代学者重新评估，认为其并非如传统叙述那样彻底；联合的某些元素在特定地区和社区中得以延续。第二次科索沃战役（1448-002）有时在现代史料中被定为1449年，其意义也存在争议；一些学者认为它不如传统叙述那样具有决定性。百年战争轨迹在1448年的意义（1448-003）已被重新评估；一些学者认为英国的衰落比简单的军事失败更加渐进和复杂。",
+  "historiographic_note": "1448年的历史记录在欧洲和中国较为丰富，反映了宫廷记录、编年史和后世编纂的幸存情况。然而，资料严重偏向政治和军事事件；经济和社会历史代表性不足。非洲和美洲的来源在这一时期的欧洲语史学中完全缺失。葡萄牙探索叙事反映了欧洲视角，可能夸大了葡萄牙活动相对于现有阿拉伯和非洲贸易网络的新颖性。中国来源丰富，但通常从宫廷角度编写，可能掩盖了地区和局部发展。奥斯曼来源在这一时期较少，但在1453年征服君士坦丁堡后变得更加详细。",
+  "graph_edges": [
+    {
+      "from": "1448-001",
+      "to": "1453-001",
+      "relation": "led_to",
+      "note": "1448年佛罗伦萨公会议的失败导致拜占庭帝国孤立无援，并于1453年落入奥斯曼之手。"
+    },
+    {
+      "from": "1448-002",
+      "to": "1453-001",
+      "relation": "led_to",
+      "note": "1448年奥斯曼对巴尔干的巩固为1453年征服君士坦丁堡奠定了基础。"
+    },
+    {
+      "from": "1448-003",
+      "to": "1449-003",
+      "relation": "led_to",
+      "note": "1448年英国的衰弱导致了1449年诺曼底的陷落。"
+    },
+    {
+      "from": "1448-004",
+      "to": "1449-001",
+      "relation": "led_to",
+      "note": "正统皇帝在1448年面临的军事挑战在1449年的土木堡之变中达到高潮。"
+    },
+    {
+      "from": "1448-005",
+      "to": "1488-001",
+      "relation": "part_of",
+      "note": "1448年的葡萄牙探索是导致1488年绕过好望角的系统计划的一部分。"
+    },
+    {
+      "from": "1448-006",
+      "to": "1450-002",
+      "relation": "contemporary_with",
+      "note": "1448年意大利文艺复兴的繁荣一直持续到1450年布鲁内莱斯基去世。"
+    }
+  ]
+}

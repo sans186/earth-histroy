@@ -1,0 +1,114 @@
+{
+  "year": -1356,
+  "year_label": "公元前1357年",
+  "era_context": "青铜时代晚期国际体系保持稳定，埃及、赫梯帝国和迈锡尼希腊为主导力量。这一时期的特征在于广泛的外交书信、贸易网络和文化交流。阿马尔那书信档案提供了该时期国际关系的宝贵文献。在中国，商朝继续其成熟阶段。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中亚",
+    "东亚（特定年份文献有限）"
+  ],
+  "events": [
+    {
+      "id": "-1356-001",
+      "title": "阿蒙霍特普二世时期埃及在黎凡特的军事存在",
+      "region": "埃及、黎凡特",
+      "coordinates_approx": "32.0,35.0",
+      "category": "military",
+      "description": "阿蒙霍特普二世在黎凡特维持埃及军事驻军和行政控制，包括今叙利亚、黎巴嫩和巴勒斯坦的领土。埃及官员监督附庸国并收集贡品。军事存在对于维护埃及在该地区的霸权和保护贸易路线至关重要。",
+      "key_figures": [
+        "阿蒙霍特普二世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "埃及神庙铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "阿马尔那书信",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "总体模式有充分记录；该年具体事件记录较少。",
+      "cross_references": [
+        "-1359-001",
+        "-1358-001",
+        "-1357-001"
+      ]
+    },
+    {
+      "id": "-1356-002",
+      "title": "赫梯-埃及外交谈判",
+      "region": "安纳托利亚、埃及",
+      "coordinates_approx": "35.0,30.0",
+      "category": "political",
+      "description": "赫梯宫廷与埃及之间的外交谈判继续，两大势力寻求建立势力范围并维持和平关系。阿马尔那书信记录了这些谈判，涉及领土边界、贸易协定和相互承认。两大强国在国际体系中互相承认对方为平等力量。",
+      "key_figures": [
+        "苏皮卢利乌马一世（赫梯大王）",
+        "阿蒙霍特普二世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "阿马尔那书信",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "赫梯王室往来信函",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "该时期的外交活动有充分证据，但具体谈判可能难以精确确定到该年。",
+      "cross_references": [
+        "-1359-002",
+        "-1358-002",
+        "-1357-002"
+      ]
+    },
+    {
+      "id": "-1356-003",
+      "title": "迈锡尼陶器生产和分销",
+      "region": "希腊、东地中海",
+      "coordinates_approx": "37.0,23.0",
+      "category": "economic",
+      "description": "迈锡尼陶器作坊继续生产高质量陶瓷用于国内使用和出口。考古证据显示迈锡尼陶器出现在东地中海各地的遗址，表明广泛的贸易网络。陶器工业是迈锡尼经济的重要组成部分。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "迈锡尼陶器的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该时期迈锡尼陶器生产和分销的广泛考古证据。",
+      "cross_references": [
+        "-1359-003",
+        "-1358-003",
+        "-1357-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "阿马尔那书信难以精确确定到个别年份，一些学者质疑所有归入阿蒙霍特普二世统治期的信件是否确实属于该时期。埃及在黎凡特的控制程度可能不如石碑铭文所示那样绝对；当地精英很可能保持了显著自治。迈锡尼陶器贸易的重要性在现代学术中可能被夸大。",
+  "historiographic_note": "公元前1357年的历史记录严重依赖埃及和赫梯精英来源，阿马尔那书信提供了宝贵的外交信息。但这些书信难以精确确定到个别年份。该时期的考古证据丰富，特别是迈锡尼陶器。记录严重偏向精英政治和军事史，关于非精英人群的信息有限。年代不确定性仍为±2-3年。",
+  "graph_edges": [
+    {
+      "from": "-1356-001",
+      "to": "-1356-002",
+      "relation": "contemporary_with",
+      "note": "埃及在黎凡特的军事存在与对赫梯的外交谈判是埃及帝国战略的平行方面。"
+    },
+    {
+      "from": "-1356-003",
+      "to": "-1356-001",
+      "relation": "contemporary_with",
+      "note": "迈锡尼贸易网络在埃及和赫梯帝国体系的更广泛背景下运作。"
+    }
+  ]
+}

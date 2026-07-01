@@ -1,0 +1,151 @@
+{
+  "year": 171,
+  "year_label": "171年",
+  "era_context": "马可·奥勒留返回多瑙河前线，应对日耳曼部落重新施加的军事压力。罗马帝国正从东方巩固期过渡到北方新一轮军事交战。在中国，东汉王朝严重衰落，宗教运动信徒增多。贵霜帝国仍然繁荣。本年标志着马可·奥勒留统治最后阶段的开始，由马可曼尼战争主导。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "罗马边境以北的北欧地区（考古证据有限）",
+    "前哥伦布时期美洲",
+    "东南亚",
+    "印度（该年文字记载有限）"
+  ],
+  "events": [
+    {
+      "id": "171-001",
+      "title": "马可·奥勒留返回多瑙河前线应对日耳曼威胁",
+      "region": "罗马帝国（多瑙河前线）",
+      "coordinates_approx": "45.0,25.0",
+      "category": "military",
+      "description": "马可·奥勒留抵达多瑙河前线，亲自监督对日耳曼部落的军事行动。他的出现标志着帝国致力于保卫北部前线。皇帝在地区设立总部，开始组织军事战役。这标志着马可曼尼战争的开始，该战争将主导其统治的最后十年。",
+      "key_figures": [
+        "马可·奥勒留（罗马皇帝）",
+        "日耳曼部落领袖（姓名未记载）"
+      ],
+      "sources": [
+        {
+          "name": "《奥古斯塔史·马可·奥勒留传》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "卡西乌斯·狄奥《罗马史》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "马可·奥勒留返回前线的大致时间线有充分记载。171年内的具体时机年代不够精确。",
+      "cross_references": [
+        "172-001",
+        "172-002"
+      ]
+    },
+    {
+      "id": "171-002",
+      "title": "马可曼尼人和夸迪人部落越过多瑙河进行侵袭",
+      "region": "罗马帝国（多瑙河前线）和日耳曼地区",
+      "coordinates_approx": "48.0,18.0",
+      "category": "military",
+      "description": "日耳曼部落，尤其是马可曼尼人和夸迪人，越过多瑙河进入罗马领土进行侵袭。这些侵袭造成了重大破坏和人员伤亡，促使罗马军事回应。这些侵袭反映了日耳曼人口面临的更广泛压力，可能与气候变化、人口增长或来自更东方的移民有关。",
+      "key_figures": [
+        "马可曼尼和夸迪部落领袖（姓名未记载）"
+      ],
+      "sources": [
+        {
+          "name": "卡西乌斯·狄奥《罗马史》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "《奥古斯塔史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "多瑙河地区的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "日耳曼侵袭的一般模式有充分记载。171年内的具体侵袭年代不够精确。",
+      "cross_references": [
+        "171-001"
+      ]
+    },
+    {
+      "id": "171-003",
+      "title": "东汉王朝面临严重行政危机",
+      "region": "中国（东汉）",
+      "coordinates_approx": "35.0,110.0",
+      "category": "political",
+      "description": "东汉朝廷达到严重功能失调的临界点。宦官派系和士大夫公开冲突。地方军事州牧几乎完全自治。国库空虚。中央权威正在瓦解。这场危机加速了王朝的崩溃，将在二十年内发生。",
+      "key_figures": [
+        "康帝（东汉皇帝）",
+        "宦官派系和士大夫"
+      ],
+      "sources": [
+        {
+          "name": "范晔《后汉书》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "陈寿《三国志》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "总体危机有充分记载。171年内的具体事件年代不够精确。",
+      "cross_references": [
+        "172-003",
+        "184-001"
+      ]
+    },
+    {
+      "id": "171-004",
+      "title": "贵霜帝国继续主导中亚贸易",
+      "region": "贵霜帝国（中亚、北印度）",
+      "coordinates_approx": "35.0,70.0",
+      "category": "economic",
+      "description": "迦腻色伽二世统治下的贵霜帝国继续控制丝绸之路关键贸易路线，产生巨大财富并促进文化交流。这一时期的贵霜钱币和铭文证明了帝国的持续繁荣和世界主义特征。",
+      "key_figures": [
+        "迦腻色伽二世（贵霜皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "贵霜钱币和铭文",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "迦腻色伽二世的统治时期已充分确立。公元171年在他的统治期内。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "马可曼尼战争开始的具体年代有争议。部分学者将首次重大冲突定在171年稍早或稍晚。任何一年中日耳曼侵袭的程度很难从现存史料中确定，这些史料往往只提供一般叙述而非逐年记载。《奥古斯塔史》关于此时期的记载包含一些传奇元素。",
+  "historiographic_note": "171年的文献记载量对罗马帝国来说为中等，古代编年史和后世编纂提供了良好证据。多瑙河前线的考古证据从物质上证实了军事活动。中国史料在这一衰落时期对具体年份的记载不够精确。记载严重偏向军事和政治事件。经济和社会发展情况不足。撒哈拉以南非洲、罗马边境以北的北欧和美洲仍处于历史记载之外。",
+  "graph_edges": [
+    {
+      "from": "171-001",
+      "to": "171-002",
+      "relation": "contemporary_with",
+      "note": "马可·奥勒留抵达前线与日耳曼侵袭同时发生"
+    },
+    {
+      "from": "171-001",
+      "to": "180-001",
+      "relation": "led_to",
+      "note": "马可·奥勒留的前线战役持续至其180年去世"
+    },
+    {
+      "from": "171-003",
+      "to": "189-001",
+      "relation": "led_to",
+      "note": "行政危机促成了黄巾起义和东汉崩溃"
+    }
+  ]
+}

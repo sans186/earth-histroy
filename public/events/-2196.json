@@ -1,0 +1,47 @@
+{
+  "year": -2196,
+  "year_label": "公元前2196年",
+  "era_context": "埃及第三王朝末期（胡尼统治的最后几年）；后阿卡德美索不达米亚。印度河流域文明成熟且广泛。地中海和近東的早期青铜时代文化通过贸易日益相互联系。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2196-001",
+      "title": "胡尼统治，埃及第三王朝（最后几年）",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "胡尼的统治接近尾声。该年份没有具体事件被记载。向斯尼夫鲁和第四王朝的过渡将在未来几年内发生，标志着向宏伟金字塔建造时代的转变。据估计，胡尼的统治持续了大约24年，但这一数字不确定。",
+      "key_figures": [
+        "胡尼（第三王朝法老）"
+      ],
+      "sources": [
+        {
+          "name": "王表（都灵、阿拜多斯）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "传统上胡尼统治长度为24年，但这源自后世的王表，具有显著的不确定性（±5-10年）。",
+      "cross_references": [
+        "先于 -2195-001（斯尼夫鲁，第四王朝）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现针对所列事件的反驳证据。",
+  "historiographic_note": "公元前2196年处于文献记载极少的时期。没有同时代文献记录该年的事件。历史记录完全依赖于后世的王表和考古推断。",
+  "graph_edges": [
+    {
+      "from": "-2196-001",
+      "to": "-2195-001",
+      "relation": "led_to",
+      "note": "胡尼统治结束；斯尼夫鲁开始第四王朝"
+    }
+  ]
+}

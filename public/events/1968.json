@@ -1,0 +1,623 @@
+{
+  "year": 1968,
+  "year_label": "公元1968年",
+  "era_context": "冷战因苏联入侵捷克斯洛伐克而加剧。越南战争因春节攻势而升级。美国民权运动因马丁·路德·金遇刺而达到关键转折点。全球范围内发生学生抗议和社会动荡。太空竞赛随着阿波罗8号绕月而继续。非洲和亚洲的非殖民化加速。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1968-001",
+      "title": "特拉特洛尔科广场大屠杀（墨西哥城）",
+      "region": "北美洲（墨西哥）",
+      "coordinates_approx": "19.4326, -99.1332",
+      "category": "political",
+      "description": "1968年10月2日，墨西哥安全部队向墨西哥城特拉特洛尔科区的学生抗议者开枪，造成估计200至300人死亡（确切数字有争议）。大屠杀发生在学生对政府镇压的抗议期间，并正值1968年奥运会在墨西哥城举办之际。政府最初掩盖了大屠杀，由于奥运会，国际关注甚少。特拉特洛尔科大屠杀成为墨西哥国家暴力和有罪不罚的象征，其全部细节在随后的调查和审判中才逐渐浮出水面。",
+      "key_figures": [
+        "古斯塔沃·迪亚斯·奥尔达斯（墨西哥总统）",
+        "路易斯·埃切维里亚（内政部长）"
+      ],
+      "sources": [
+        {
+          "name": "墨西哥政府文件及军事记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时新闻报道及目击者证词",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "埃琳娜·波尼亚托夫斯卡，《特拉特洛尔科之夜》（1971）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "日期和地点已确认，但死亡人数存在争议（200-300范围）。",
+      "cross_references": [
+        "1969-006（特拉特洛尔科审判开始）"
+      ]
+    },
+    {
+      "id": "1968-002",
+      "title": "春节攻势（越南战争）",
+      "region": "东南亚（越南）",
+      "coordinates_approx": "10.7769, 106.6955",
+      "category": "military",
+      "description": "1968年1月30日，北越和越南南方民族解放阵线军队发动春节攻势，对越南各地的南越和美国阵地发起一系列协调攻击。这次攻势以越南农历新年（Tet）命名，涉及对100多个城市和城镇的攻击。尽管在军事上被击败，但春节攻势成为北越心理和政治上的胜利，震惊了美国公众，使公众舆论转向反对战争。这次攻势成为越南战争的转折点，导致美国国内反战抗议增加，并最终导致美军撤出。",
+      "key_figures": [
+        "武元甲（北越将军）",
+        "威廉·威斯特摩兰（美军指挥官）",
+        "林登·约翰逊（美国总统）"
+      ],
+      "sources": [
+        {
+          "name": "美国国防部记录及军事报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "北越军事记录（已解密）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "唐·奥伯多弗，《春节！》（1971）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "春节攻势的日期、规模和意义记录充分。",
+      "cross_references": [
+        "1973-001（越南战争结束）"
+      ]
+    },
+    {
+      "id": "1968-003",
+      "title": "马丁·路德·金遇刺",
+      "region": "北美洲（美国田纳西州）",
+      "coordinates_approx": "35.1395, -90.1848",
+      "category": "political",
+      "description": "1968年4月4日，民权领袖马丁·路德·金在田纳西州孟菲斯被詹姆斯·厄尔·雷刺杀。金的遇刺在美国各地引发了大规模抗议和骚乱，加剧了种族紧张局势。这次暗杀成为民权运动的转折点，焦点从非暴力抗议转向更激进的方式。金的死亡成为美国历史上的一个分水岭，他的遗产继续塑造着关于种族、正义和平等的讨论。",
+      "key_figures": [
+        "马丁·路德·金（民权领袖）",
+        "詹姆斯·厄尔·雷（刺客）"
+      ],
+      "sources": [
+        {
+          "name": "联邦调查局记录及警方调查档案",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时新闻报道及目击者证词",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "詹姆斯·厄尔·雷，《田纳西华尔兹》（1987）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "金遇刺的日期和地点在官方记录中有记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1968-004",
+      "title": "罗伯特·F·肯尼迪遇刺",
+      "region": "北美洲（美国加利福尼亚州）",
+      "coordinates_approx": "34.0522, -118.2437",
+      "category": "political",
+      "description": "1968年6月5日，美国参议员和总统候选人罗伯特·F·肯尼迪在洛杉矶被瑟汉·瑟汉刺杀。肯尼迪遇刺发生在马丁·路德·金死后仅两个月，加深了国家的创伤。肯尼迪以反战纲领竞选民主党总统候选人提名。他的死亡使副总统休伯特·汉弗莱在1968年总统大选中少了一个潜在对手，影响了美国政治进程。",
+      "key_figures": [
+        "罗伯特·F·肯尼迪（参议员和总统候选人）",
+        "瑟汉·瑟汉（刺客）"
+      ],
+      "sources": [
+        {
+          "name": "洛杉矶警察局记录及调查档案",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时新闻报道及目击者证词",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "肯尼迪遇刺的日期和地点在官方记录中有记载。",
+      "cross_references": [
+        "1968-003（马丁·路德·金遇刺）"
+      ]
+    },
+    {
+      "id": "1968-005",
+      "title": "苏联入侵捷克斯洛伐克",
+      "region": "欧洲（捷克斯洛伐克）",
+      "coordinates_approx": "49.8175, 15.4730",
+      "category": "military",
+      "description": "1968年8月20日，苏联军队以及其他华约国家军队入侵捷克斯洛伐克，镇压“布拉格之春”——一场由亚历山大·杜布切克领导的政治自由化和改革运动。入侵粉碎了改革运动，重新确立了苏联对东欧的控制。入侵造成约137人死亡，并引发国际谴责。入侵显示了苏联对东欧集团内部改革的容忍限度，并强化了勃列日涅夫主义，即苏联有权干涉共产主义国家。",
+      "key_figures": [
+        "亚历山大·杜布切克（捷克斯洛伐克领导人）",
+        "列昂尼德·勃列日涅夫（苏联领导人）"
+      ],
+      "sources": [
+        {
+          "name": "苏联军事记录及华约文件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "捷克斯洛伐克政府记录及目击者证词",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "基兰·威廉姆斯，《布拉格之春及其后果》（1997）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "入侵日期和关键人物在军事和政府记录中有记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1968-006",
+      "title": "阿波罗8号绕月飞行",
+      "region": "太空（月球）",
+      "coordinates_approx": null,
+      "category": "exploration",
+      "description": "1968年12月21日至27日，阿波罗8号载着宇航员弗兰克·博尔曼、詹姆斯·洛弗尔和威廉·安德斯绕月飞行。这次任务是首次离开地球轨道并到达月球的载人航天器。宇航员传回了月球和地球的图像，包括标志性的“地出”照片，这张照片成为人类历史上最具影响力的图像之一。阿波罗8号证明了月球任务的可行性，为1969年的阿波罗11号登月铺平了道路。",
+      "key_figures": [
+        "弗兰克·博尔曼（指令长）",
+        "詹姆斯·洛弗尔（指令舱驾驶员）",
+        "威廉·安德斯（登月舱驾驶员）"
+      ],
+      "sources": [
+        {
+          "name": "美国国家航空航天局任务记录及遥测数据",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "宇航员回忆录及访谈",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "所有任务数据、日期和科学结果均有广泛记载。",
+      "cross_references": [
+        "1969-001（阿波罗11号登月）"
+      ]
+    },
+    {
+      "id": "1968-007",
+      "title": "1968年夏季奥运会（墨西哥城）",
+      "region": "北美洲（墨西哥）",
+      "coordinates_approx": "19.4326, -99.1332",
+      "category": "cultural",
+      "description": "1968年夏季奥运会于1968年10月12日至27日在墨西哥城举行。这届奥运会因几个原因而引人注目：它们是首次在拉丁美洲举办的奥运会；发生在特拉特洛尔科大屠杀之后仅几天（大屠杀在很大程度上被奥运会掩盖）；美国短跑运动员汤米·史密斯和约翰·卡洛斯在颁奖仪式上做出了著名的“黑人权”敬礼。奥运会展示了墨西哥的发展和现代化，但也突出了政府对异议的镇压。",
+      "key_figures": [
+        "汤米·史密斯（美国短跑运动员）",
+        "约翰·卡洛斯（美国短跑运动员）",
+        "古斯塔沃·迪亚斯·奥尔达斯（墨西哥总统）"
+      ],
+      "sources": [
+        {
+          "name": "国际奥委会记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时新闻报道及媒体报道",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "日期和关键事件在奥运会记录和媒体报道中有记载。",
+      "cross_references": [
+        "1968-001（特拉特洛尔科大屠杀）"
+      ]
+    },
+    {
+      "id": "1968-008",
+      "title": "美莱村大屠杀（越南战争）",
+      "region": "东南亚（越南）",
+      "coordinates_approx": "15.9167, 108.3333",
+      "category": "military",
+      "description": "1968年3月16日，美国陆军查理连士兵在威廉·凯利中尉的指挥下，在美莱村杀害了估计347至504名南越平民（多数为妇女、儿童和老人）。这起大屠杀是越南战争中最臭名昭著的战争罪行之一。该事件被掩盖了一年多，直到1969年11月才向公众披露。美莱村大屠杀的揭露震惊了美国公众，成为越南战争残酷和道德失败的象征。",
+      "key_figures": [
+        "威廉·凯利（排长）",
+        "罗纳德·里登豪尔（举报人）"
+      ],
+      "sources": [
+        {
+          "name": "美国陆军调查记录及军事法庭记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "西摩·赫什，《美莱村4号》（1970）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "日期和地点已确认，但死亡人数存在争议。",
+      "cross_references": [
+        "1969-010（美莱村大屠杀被揭露）"
+      ]
+    },
+    {
+      "id": "1968-009",
+      "title": "法国1968年五月抗议",
+      "region": "欧洲（法国）",
+      "coordinates_approx": "48.8566, 2.3522",
+      "category": "political",
+      "description": "1968年5月，法国爆发大规模学生和工人抗议活动，起初是巴黎大学的学生示威，随后升级为涉及数百万工人的总罢工。抗议活动由教育改革以及对社会不平等和威权主义的普遍不满引发。这场运动挑战了夏尔·戴高乐总统的权威，几乎推翻了他的政府。尽管抗议活动没有实现其直接政治目标，但它们代表了对既定权威的重大挑战，并影响了全球的社会运动。",
+      "key_figures": [
+        "夏尔·戴高乐（法国总统）",
+        "丹尼尔·科恩-本迪特（学生领袖）"
+      ],
+      "sources": [
+        {
+          "name": "法国政府记录及警方报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时新闻报道及目击者证词",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "克里斯汀·罗斯，《五月'68及其后世》（2002）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "抗议活动的日期和规模在政府记录和媒体报道中有记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1968-010",
+      "title": "民主党全国代表大会抗议（芝加哥）",
+      "region": "北美洲（美国伊利诺伊州）",
+      "coordinates_approx": "41.8781, -87.6298",
+      "category": "political",
+      "description": "1968年8月26日至29日，民主党全国代表大会在芝加哥举行，吸引了成千上万的反战抗议者。大会提名副总统休伯特·汉弗莱为民主党总统候选人，这令支持罗伯特·F·肯尼迪（6月遇刺）或尤金·麦卡锡的反战活动人士感到失望。警方与抗议者发生激烈冲突，导致数百人受伤和被捕。这次大会成为美国社会因越南战争和社会变革而深刻分裂的象征。",
+      "key_figures": [
+        "休伯特·汉弗莱（民主党候选人）",
+        "理查德·戴利（芝加哥市长）",
+        "阿比·霍夫曼（抗议组织者）"
+      ],
+      "sources": [
+        {
+          "name": "芝加哥警察局记录及逮捕报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时新闻报道及目击者证词",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "沃克报告（1968年，官方调查）",
+          "type": "historiographic_consensus",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "日期和事件顺序在警方记录和媒体报道中有记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1968-011",
+      "title": "理查德·尼克松当选美国总统",
+      "region": "北美洲（美国）",
+      "coordinates_approx": "40.7128, -74.0060",
+      "category": "political",
+      "description": "1968年11月5日，理查德·尼克松当选美国总统，击败民主党候选人休伯特·汉弗莱和独立候选人乔治·华莱士。尼克松获得43.4%的普选票和301张选举人票。尼克松的竞选强调“法律与秩序”，并承诺以“光荣的和平”结束越南战争。他的当选标志着美国政治的重大转变，他吸引了被社会动荡疏远的“沉默的大多数”和保守选民。尼克松的总统任期（1969-1974）以越南战争的持续和最终结束、与苏联的缓和以及水门事件为特征。",
+      "key_figures": [
+        "理查德·尼克松（当选总统）",
+        "休伯特·汉弗莱（民主党候选人）",
+        "乔治·华莱士（独立候选人）"
+      ],
+      "sources": [
+        {
+          "name": "美国选举委员会记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时新闻报道及民调数据",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "选举结果和日期在官方记录中有记载。",
+      "cross_references": [
+        "1974-001（尼克松辞职）"
+      ]
+    },
+    {
+      "id": "1968-012",
+      "title": "伊诺克·鲍威尔的“血河”演讲",
+      "region": "欧洲（英国）",
+      "coordinates_approx": "52.5200, -1.8883",
+      "category": "political",
+      "description": "1968年4月20日，英国保守党政客伊诺克·鲍威尔在伯明翰发表了一场有争议的演讲，反对移民并警告社会冲突。演讲中引用经典语句“血河”，后来被称为“血河”演讲。鲍威尔的演讲激化了种族紧张局势，受到政治领袖的广泛谴责，但也引起了一些关注移民问题的英国公众的共鸣。这次演讲标志着英国政治的转折点，将移民和种族问题推至政治辩论的前沿。",
+      "key_figures": [
+        "伊诺克·鲍威尔（保守党政客）"
+      ],
+      "sources": [
+        {
+          "name": "鲍威尔演讲文本（发表在报纸及后来的汇编中）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时新闻报道及政治分析",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "演讲的日期和内容在当时的来源中有记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1968-013",
+      "title": "毛里求斯计划独立（来自英国）",
+      "region": "非洲（印度洋）",
+      "coordinates_approx": "-20.3484, 57.5522",
+      "category": "political",
+      "description": "毛里求斯计划于1969年3月12日脱离英国殖民统治获得独立（独立实际发生在1969年，而非1968年，但准备工作和谈判在1968年进行）。过渡期和平协商，毛里求斯将加入联合国和英联邦。毛里求斯的独立标志着后殖民历史的开始，以种族和宗教多样性为特征。",
+      "key_figures": [
+        "西沃萨古尔·拉姆古兰爵士（未来的首任总理）"
+      ],
+      "sources": [
+        {
+          "name": "英国外交部记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "独立谈判发生在1968年，但实际独立日期是1969年3月12日。",
+      "cross_references": [
+        "1969-012（毛里求斯独立）"
+      ]
+    },
+    {
+      "id": "1968-014",
+      "title": "瑙鲁脱离澳大利亚独立",
+      "region": "大洋洲（太平洋）",
+      "coordinates_approx": "-0.5228, 166.9315",
+      "category": "political",
+      "description": "1968年1月31日，瑙鲁脱离澳大利亚托管获得独立。瑙鲁是一个太平洋小岛国，人口约1万。该国经济以磷酸盐开采为基础，带来了可观的财富。瑙鲁加入联合国，成为面积和人口最小的独立国家之一。该国的后殖民历史以对磷酸盐出口的经济依赖和采矿造成的环境退化为特征。",
+      "key_figures": [
+        "哈默·德罗伯特（首任总统）"
+      ],
+      "sources": [
+        {
+          "name": "澳大利亚政府记录及联合国文件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "联合国加入记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "独立日期在官方记录中有记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1968-015",
+      "title": "毛里塔尼亚成为伊斯兰共和国",
+      "region": "西非",
+      "coordinates_approx": "20.0000, -12.0000",
+      "category": "political",
+      "description": "1968年，毛里塔尼亚发生军事政变，成为伊斯兰共和国。政变推翻了文官政府，建立了军事统治。新政权强调伊斯兰身份和阿拉伯民族主义。毛里塔尼亚政变后的历史以军事统治、阿拉伯-柏柏尔人与黑人非洲人口之间的种族紧张以及经济欠发达为特征。",
+      "key_figures": [
+        "莫克塔·乌尔德·达达赫（被推翻的总统）",
+        "穆斯塔法·乌尔德·穆罕默德·萨莱克（新的军事领导人）"
+      ],
+      "sources": [
+        {
+          "name": "毛里塔尼亚政府记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时新闻报道",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "1968年政变和伊斯兰共和国的建立有记载，但具体日期可能因来源而异。",
+      "cross_references": []
+    },
+    {
+      "id": "1968-016",
+      "title": "水手7号发射（火星飞越任务）",
+      "region": "太空（火星任务）",
+      "coordinates_approx": null,
+      "category": "exploration",
+      "description": "1968年3月27日，美国国家航空航天局发射水手7号，开始其前往火星的旅程。该航天器将于1969年8月近距离飞越火星，传输详细图像和科学数据。水手7号是水手计划对内太阳系勘测的一部分，有助于理解火星的地质和大气。",
+      "key_figures": [
+        "美国国家航空航天局任务团队（喷气推进实验室）"
+      ],
+      "sources": [
+        {
+          "name": "美国国家航空航天局水手7号任务记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "发射日期在美国国家航空航天局记录中有记载。",
+      "cross_references": [
+        "1969-007（水手7号火星飞越）"
+      ]
+    },
+    {
+      "id": "1968-017",
+      "title": "斯威士兰计划独立",
+      "region": "南部非洲",
+      "coordinates_approx": "-26.5225, 31.4659",
+      "category": "political",
+      "description": "斯威士兰（现埃斯瓦蒂尼）计划于1969年9月6日脱离英国殖民统治获得独立（独立实际发生在1969年，但准备工作在1968年进行）。过渡期和平协商，斯威士兰将加入联合国和英联邦。斯威士兰的独立标志着后殖民历史的开始，以绝对君主制和有限的民主制度为特征。",
+      "key_figures": [
+        "索布扎二世国王（斯威士兰君主）"
+      ],
+      "sources": [
+        {
+          "name": "英国外交部记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "独立谈判发生在1968年，但实际独立日期是1969年9月6日。",
+      "cross_references": [
+        "1969-014（斯威士兰独立）"
+      ]
+    },
+    {
+      "id": "1968-018",
+      "title": "赤道几内亚计划独立",
+      "region": "西非",
+      "coordinates_approx": "1.6578, 10.2679",
+      "category": "political",
+      "description": "赤道几内亚计划于1969年10月12日脱离西班牙殖民统治获得独立（独立实际发生在1969年，但准备工作在1968年进行）。过渡期和平协商，赤道几内亚将加入联合国。赤道几内亚的独立标志着西班牙在非洲殖民主义的终结。",
+      "key_figures": [
+        "弗朗西斯科·马西亚斯·恩圭马（未来的首任总统）"
+      ],
+      "sources": [
+        {
+          "name": "西班牙外交部记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "独立谈判发生在1968年，但实际独立日期是1969年10月12日。",
+      "cross_references": [
+        "1969-013（赤道几内亚独立）"
+      ]
+    },
+    {
+      "id": "1968-019",
+      "title": "春节攻势对美国公众的心理影响",
+      "region": "北美洲（美国）",
+      "coordinates_approx": "40.7128, -74.0060",
+      "category": "political",
+      "description": "1968年1月春节攻势之后，美国公众舆论决定性地转向反对越南战争。备受信赖的新闻主播沃尔特·克朗凯特宣布战争无法取胜，影响了林登·约翰逊总统不寻求连任的决定。春节攻势尽管是北越的军事失败，却成为一场心理和政治胜利，表明战争远未结束，尽管官方持乐观态度。这场攻势催化了反战运动，导致抗议和社会动荡加剧。",
+      "key_figures": [
+        "沃尔特·克朗凯特（CBS新闻主播）",
+        "林登·约翰逊（美国总统）"
+      ],
+      "sources": [
+        {
+          "name": "当时新闻报道及民调数据",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "约翰逊的回忆录及历史分析",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "春节攻势后公众舆论的转变在民调数据和媒体报道中有记载。",
+      "cross_references": [
+        "1968-002（春节攻势）"
+      ]
+    },
+    {
+      "id": "1968-020",
+      "title": "林登·约翰逊宣布不寻求连任",
+      "region": "北美洲（美国）",
+      "coordinates_approx": "40.7128, -74.0060",
+      "category": "political",
+      "description": "1968年3月31日，林登·约翰逊总统在一次电视讲话中宣布他将不寻求连任。约翰逊的决定是在春节攻势之后，并面临反战活动人士和民主党成员日益增长的压力。这一宣布震惊了全国，为1968年总统大选打开了局面。约翰逊的退出标志着越南战争和美国政治的转折点，焦点转向寻找继任者和结束战争。",
+      "key_figures": [
+        "林登·约翰逊（美国总统）"
+      ],
+      "sources": [
+        {
+          "name": "约翰逊1968年3月31日电视讲话",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "约翰逊的回忆录及历史分析",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "约翰逊宣布的日期和内容在当时的来源中有记载。",
+      "cross_references": [
+        "1968-011（尼克松当选总统）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "特拉特洛尔科广场大屠杀的死亡人数存在争议；估计从200到300不等，一些来源引用更高数字。苏联入侵捷克斯洛伐克的确切死亡人数有争议；估计从137到400不等。美莱村大屠杀的死亡人数存在争议；估计从347到504不等。春节攻势有时被描绘为北越的完全军事失败，但一些学者认为尽管战术上有失误，但它实现了重要的战略目标。伊诺克·鲍威尔的“血河”演讲有时被错误引用或误解；实际演讲并未明确呼吁暴力，而是使用古典修辞警告社会冲突。",
+  "historiographic_note": "1968年由于当代媒体、政府记录和目击者证词的丰富，记录异常详尽。西方事件（马丁·路德·金遇刺、罗伯特·肯尼迪遇刺、芝加哥大会、尼克松当选）在现有来源中占很大比重。春节攻势在美国军事记录和越南来源中记载广泛。苏联入侵捷克斯洛伐克有记载，但对苏联军事记录的访问有限。特拉特洛尔科大屠杀有记载，但关于死亡人数和政府责任的精确度较低。法国1968年五月抗议在法国政府记录和媒体报道中记载充分。非洲和太平洋非殖民化的来源丰富但往往反映西方视角。",
+  "graph_edges": [
+    {
+      "from": "1968-002",
+      "to": "1968-020",
+      "relation": "led_to",
+      "note": "春节攻势的心理影响导致约翰逊决定不寻求连任。"
+    },
+    {
+      "from": "1968-003",
+      "to": "1968-004",
+      "relation": "contemporary_with",
+      "note": "马丁·路德·金和罗伯特·肯尼迪遇刺发生在两个月内，加深了国家创伤。"
+    },
+    {
+      "from": "1968-005",
+      "to": "1969-005",
+      "relation": "led_to",
+      "note": "苏联入侵捷克斯洛伐克加剧了中苏紧张局势，并导致1969年的边界冲突。"
+    },
+    {
+      "from": "1968-009",
+      "to": "1968-010",
+      "relation": "contemporary_with",
+      "note": "法国1968年五月抗议和芝加哥大会抗议都代表了全球青年的反叛。"
+    },
+    {
+      "from": "1968-011",
+      "to": "1970-002",
+      "relation": "led_to",
+      "note": "尼克松的当选导致他决定在1970年将越南战争扩大到柬埔寨。"
+    },
+    {
+      "from": "1968-001",
+      "to": "1968-007",
+      "relation": "contemporary_with",
+      "note": "特拉特洛尔科大屠杀和1968年奥运会在同一城市举行，大屠杀被奥运会掩盖。"
+    }
+  ]
+}

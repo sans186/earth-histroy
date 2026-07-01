@@ -1,0 +1,99 @@
+{
+  "year": -1396,
+  "year_label": "公元前1397年",
+  "era_context": "青铜时代晚期，图特摩斯三世统治下的埃及处于权力巅峰，赫梯帝国在安纳托利亚巩固其地位，迈锡尼希腊在宫殿时期繁荣发展，商朝维持对中国的控制。这是一个相对稳定的时期，夹杂军事战役和外交谈判。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "太平洋岛屿",
+    "中亚",
+    "南亚"
+  ],
+  "events": [
+    {
+      "id": "-1396-001",
+      "title": "图特摩斯三世的军事战役与领土巩固",
+      "region": "埃及、黎凡特、叙利亚、努比亚",
+      "coordinates_approx": "25.7°N, 32.6°E",
+      "category": "military",
+      "description": "图特摩斯三世继续其系统性战役，以维持和扩大埃及对黎凡特和努比亚领土的控制。他的军事创新和战略智慧使他成为埃及最伟大的法老之一。公元前1396年属于他积极军事行动和领土巩固的时期。",
+      "key_figures": [
+        "图特摩斯三世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "卡纳克神庙铭文和行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "图特摩斯三世的战役总体上记录良好，但公元前1396年的具体事件没有单独证实。",
+      "cross_references": [
+        "-1399-001",
+        "-1398-001",
+        "-1397-001"
+      ]
+    },
+    {
+      "id": "-1396-002",
+      "title": "迈锡尼-米诺斯文化交流与贸易",
+      "region": "希腊、克里特、爱琴海",
+      "coordinates_approx": "35.3°N, 25.1°E",
+      "category": "cultural",
+      "description": "迈锡尼希腊人积极参与与衰落中的米诺斯文明的文化和经济交流。这种交流影响了迈锡尼的艺术、宗教和行政实践。公元前1396年属于这种密集文化互动的时期。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "迈锡尼和米诺斯遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "迈锡尼-米诺斯交流在考古学上得到充分证实，但公元前1396年的具体事件没有记载。",
+      "cross_references": [
+        "-1397-003"
+      ]
+    },
+    {
+      "id": "-1396-003",
+      "title": "商代政治稳定与仪式实践",
+      "region": "中国，安阳",
+      "coordinates_approx": "34.3°N, 114.3°E",
+      "category": "political",
+      "description": "商朝保持政治稳定，继续其精密的仪式和占卜系统。安阳的王室朝廷是政治和宗教权威的中心，商朝维持着一个庞大的附属国和贸易伙伴网络。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "安阳的甲骨和考古证据",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "商代政治稳定通过考古证据推断，但公元前1396年的具体事件没有记载。",
+      "cross_references": [
+        "-1397-004"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现特定的否定证据。然而，该时期的年代学框架在学者之间仍存争议，特别是埃及法老的精确断年以及与其他文明的同步。",
+  "historiographic_note": "公元前1396年的历史记录稀少，主要依赖埃及行政记录和考古证据。大多数文明缺乏年份特定的文献。公元前1396年的“历史”主要是基于更广泛时期背景的重建，而非具体事件的当代文字记录。偏向埃及资料意味着这一年的历史严重倾向于埃及视角和活动。",
+  "graph_edges": [
+    {
+      "from": "-1396-001",
+      "to": "-1397-001",
+      "relation": "part_of",
+      "note": "图特摩斯三世统治和战役的延续"
+    },
+    {
+      "from": "-1396-002",
+      "to": "-1397-003",
+      "relation": "contemporary_with",
+      "note": "迈锡尼文化发展在此时期持续"
+    }
+  ]
+}

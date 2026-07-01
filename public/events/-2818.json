@@ -1,0 +1,72 @@
+{
+  "year": -2818,
+  "year_label": "公元前2818年",
+  "era_context": "青铜时代早期III期。埃及第五王朝延续统治。美索不达米亚城邦在早王朝III期仍相互竞争。印度河流域文明保持其成熟城市阶段。这是主要文明相对稳定的时期，尽管权力巩固和祭司影响力等内在动力正在转变。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚（印度河流域以外）",
+    "美洲",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-2818-001",
+      "title": "Neferirkare Kakai 统治延续或传位给 Neferefre（埃及第五王朝）",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "第五王朝在 Neferirkare Kakai 统治下延续，或者如果将他置于更早的年代学，则由其继任者 Neferefre 统治。第五王朝法老继续营建祭祀神庙和太阳神庙，尽管神庙建造的经济负担和拉神祭司日益增长的权力开始削弱中央权威。这一时期的行政纸草显示了一个复杂的官僚机构，管理税收、劳动力和资源分配。",
+      "key_figures": [
+        "Neferirkare Kakai 或 Neferefre（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "阿布西尔神庙铭文和行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "第五王朝年代学不确定，范围为±10—20年。公元前2818年在位的具体法老取决于所采用的年代学体系。",
+      "cross_references": [
+        "-2819-001"
+      ]
+    },
+    {
+      "id": "-2818-002",
+      "title": "美索不达米亚阿卡德的扩张与巩固",
+      "region": "美索不达米亚（现代伊拉克和叙利亚）",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "在早王朝III期，说阿卡德语的人群正在美索不达米亚北部巩固权力。虽然阿卡德的萨尔贡的征服直到约公元前2334年才发生，但阿卡德主导地位的基础正通过贸易、文化影响和渐近的政治扩张得以奠定。阿卡德城邦正与苏美尔城邦争夺贸易路线和农业资源的控制权。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "基于考古证据和后来编年史的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "没有同时代记录具体记载公元前2818年美索不达米亚的事件。该描述基于早王朝III期（约公元前2600—前2334年）阿卡德扩张的更广泛模式。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "第五王朝的年代学仍有争议。一些学者将 Neferirkare Kakai 的统治定在公元前2480年代—2460年代，另一些在公元前2450年代—2430年代。因此，公元前2818年在位法老的身份不确定。此外，该时期“阿卡德扩张”的叙事基于后来文献和考古推断；同时代文献稀少。",
+  "historiographic_note": "该年文献稀少。公元前2818年没有特定事件记录在同时代文献中。历史叙述基于考古记录中更广泛模式和后世的编年史构建。偏向有文字的文明十分明显；世界上广大地区在历史记录中基本不可见。",
+  "graph_edges": [
+    {
+      "from": "-2818-001",
+      "to": "-2817-001",
+      "relation": "led_to",
+      "note": "第五王朝的延续"
+    }
+  ]
+}

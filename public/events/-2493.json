@@ -1,0 +1,95 @@
+{
+  "year": -2493,
+  "year_label": "公元前2493年",
+  "era_context": "埃及古王国在第四王朝统治下处于成熟期，以中央集权和宏伟建造为特征。美索不达米亚仍由苏美尔城邦分割，没有统一的帝国。印度河流域文明达到鼎盛，拥有复杂的城市中心和广泛的贸易网络。此时期代表了东半球青铜时代文明的顶峰。",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "美洲",
+    "大洋洲",
+    "中亚",
+    "安纳托利亚",
+    "黎凡特"
+  ],
+  "events": [
+    {
+      "id": "-2493-001",
+      "title": "第四王朝埃及的宏伟建造与法老权威",
+      "region": "埃及（尼罗河谷）",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "cultural",
+      "description": "埃及第四王朝继续进行宏伟建造和巩固法老的神权。该时期以建造巨大的金字塔、神庙和行政中心为特征。法老被视为活神，国家为宗教和纪念性目的征用大量资源。行政系统高度集权，法老处于等级森严的官僚体系顶端。公元前2493年没有记载任何具体事件。",
+      "key_figures": [
+        "哈夫拉（很可能是埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "都灵王表（都灵纸莎草1874）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "吉萨等古王国遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "第四王朝的一般特征已有定论。公元前2493年的特定事件在现存资料中无记载。",
+      "cross_references": [
+        "-2490-001",
+        "-2491-001",
+        "-2492-001"
+      ]
+    },
+    {
+      "id": "-2493-002",
+      "title": "苏美尔城邦的竞争与文化发展",
+      "region": "美索不达米亚（今伊拉克）",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "该时期的美索不达米亚以拉格什、乌鲁克、乌尔和尼普尔等苏美尔城邦之间的竞争为特征。每个城邦以神庙为中心，由地方统治者或恩西管辖。贸易网络连接美索不达米亚与印度河流域、埃及和黎凡特。楔形文字已成熟，用于行政、宗教和文学目的。不存在统一的政治权威；权力分散于各地。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "苏美尔王表（后世汇编）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "拉格什铭文与行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "来自多个美索不达米亚遗址的楔形文字泥板",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "该时期美索不达米亚政治分裂的整体情况已有定论。公元前2493年的具体事件未载于史册。",
+      "cross_references": [
+        "-2491-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现证伪证据。古王国埃及和美索不达米亚城邦分裂的整体历史背景无异议。",
+  "historiographic_note": "公元前2493年的历史记录极为稀少。该年没有任何具体事件见诸现存文献。条目反映了该时代的宏观历史背景。埃及年代学仍存争议；不同年代体系可能使日期出现显著偏移。该时期的美索不达米亚记录零散，主要为行政文书。印度河流域、撒哈拉以南非洲和大多数其他地区缺乏文字记录，限制了对这一年的全球历史理解。",
+  "graph_edges": [
+    {
+      "from": "-2493-001",
+      "to": "-2492-001",
+      "relation": "contemporary_with",
+      "note": "第四王朝的稳定和宏伟建造延续。"
+    },
+    {
+      "from": "-2493-002",
+      "to": "-2491-002",
+      "relation": "contemporary_with",
+      "note": "美索不达米亚城邦政治分裂的延续。"
+    }
+  ]
+}

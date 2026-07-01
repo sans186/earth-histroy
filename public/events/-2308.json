@@ -1,0 +1,107 @@
+{
+  "year": -2308,
+  "year_label": "公元前2308年",
+  "era_context": "纳拉姆辛治下的阿卡德帝国继续其在美索不达米亚的统治，尽管紧张迹象正在出现。埃及古王国（第六王朝）正处于高度衰落中，行省自治增加。印度河流域文明仍处于成熟阶段。在中国，商朝正在巩固对黄河流域的控制。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中美洲",
+    "北欧",
+    "大洋洲",
+    "中亚（文字记录有限；考古背景不确定）"
+  ],
+  "events": [
+    {
+      "id": "-2308-001",
+      "title": "纳拉姆辛治下的阿卡德行政整合",
+      "region": "美索不达米亚",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "纳拉姆辛继续巩固阿卡德对美索不达米亚及周边地区的控制。他自立为神王，这是美索不达米亚王权观念的重大转变。这一时期的铭文记录了国王的神化以及国家官僚机构的扩张。然而，后世文书记录的证据表明，维持这个庞大帝国的成本日益增加，军事战役需要越来越庞大的兵力。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德王）"
+      ],
+      "sources": [
+        {
+          "name": "纳拉姆辛的王室铭文和石碑",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "阿卡德遗址的行政泥板",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治和政策有充分证据，但具体事件在现存资料中没有精确到特定年份。",
+      "cross_references": []
+    },
+    {
+      "id": "-2308-002",
+      "title": "埃及行省权威的持续分裂",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "埃及的去中心化进程加速。诺马尔赫（地方总督）继续积累权力和资源，将自己确立为半独立的统治者。中央政府征税和维持基础设施的能力下降。来自行省墓地的考古证据显示财富差距扩大，并且出现了独立于法老宫廷的地方精英阶层。",
+      "key_figures": [
+        "佩皮二世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "诺马尔赫的自传铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "来自行省遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "去中心化的广泛趋势有充分证据；个别年份的具体事件没有记录。",
+      "cross_references": []
+    },
+    {
+      "id": "-2308-003",
+      "title": "哈拉帕城市中心达到人口最大值",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "demographic",
+      "description": "考古证据表明，摩亨佐达罗和哈拉帕等主要哈拉帕城市在此期间达到最大人口和范围。标准化的城市规划，包括网格状街道、公共浴池和粮仓，已充分发展。贸易网络从波斯湾延伸到中亚和德干高原。此时没有考古证据显示重大中断或衰落。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "摩亨佐达罗和哈拉帕的考古发掘",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "哈拉帕遗址的地层分析",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "成熟哈拉帕阶段通过考古学得到充分证实。具体的公元前2308年落在这一阶段，但个别年份未经独立断代。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "未发现针对所列事件的具体反驳证据。然而，阿卡德帝国和埃及古王国的传统年代学仍处于学术辩论中，特别是关于绝对年代。",
+  "historiographic_note": "这一年的资料限于王室铭文、行政文书记录和考古证据。非精英人群的视角在历史记录中大部分缺失。由于印度河文明的文字系统未被破译，对其理解仍不充分。",
+  "graph_edges": [
+    {
+      "from": "-2308-001",
+      "to": "-2305-001",
+      "relation": "led_to",
+      "note": "纳拉姆辛的神化和行政扩张导致帝国最终崩溃"
+    },
+    {
+      "from": "-2308-002",
+      "to": "-2305-002",
+      "relation": "part_of",
+      "note": "埃及权威的持续分裂"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "year": -2597,
+  "year_label": "公元前2597年",
+  "era_context": "青铜时代早期三期。纳拉姆辛治下的阿卡德帝国处于或接近其顶峰。古王国埃及（第六王朝）处于最后一个世纪。印度河流域文明处于成熟阶段。中国传统年代学将夏朝置于这一时期，但考古证实存有争议。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "大洋洲",
+    "美洲",
+    "中亚",
+    "东亚（夏朝年代学高度不确定）"
+  ],
+  "events": [
+    {
+      "id": "-2597-001",
+      "title": "阿卡德帝国：纳拉姆辛治下领土控制的巅峰",
+      "region": "美索不达米亚、黎凡特及邻近地区",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "纳拉姆辛的统治代表了阿卡德帝国权力的顶峰。帝国从波斯湾延伸至地中海，从安纳托利亚到扎格罗斯山脉。贸易网络广阔，阿卡德语言和文化在整个地区占据主导地位。然而，来自古提人和其他高地民族的外部压力正在积聚，维持如此庞大帝国所付出的成本所带来的内部压力也日益明显。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德国王）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德皇家铭文、石碑和行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "苏美尔王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治有充分证实，基于中年表，公元前2597年落入他的统治期内。然而，绝对年代有±50–100年的不确定性。",
+      "cross_references": [
+        "-2599-001",
+        "-2598-001"
+      ]
+    },
+    {
+      "id": "-2597-002",
+      "title": "古王国埃及：佩皮二世统治继续；王室权威削弱",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "佩皮二世的统治继续，但古王国的中央集权明显削弱。各省总督（诺姆长）变得越来越独立，国库耗尽。皇家纪念碑的建造已经停止，王室活动的重心是努比亚和西奈的军事行动。支撑古王国的行政体系正在分裂。",
+      "key_figures": [
+        "佩皮二世（第六王朝法老）"
+      ],
+      "sources": [
+        {
+          "name": "埃及行政记录、陵墓铭文和王表",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "来自古王国遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "古王国的衰落有充分的考古证实，但佩皮二世统治期内的具体事件难以精确定年。按惯例，公元前2597年被分配到他统治期内。",
+      "cross_references": [
+        "-2599-002",
+        "-2598-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现针对所列事件的特定否定证据。年代学框架仍有争议，特别是纳拉姆辛统治和佩皮二世统治的绝对年代。",
+  "historiographic_note": "公元前2597年的历史记录稀少，依赖于与前些年相同的资料。纳拉姆辛和佩皮二世统治期内的具体事件难以孤立到单个年份。遗存下来的资料主要是行政和纪念性记录，这使我们的理解偏向精英活动。",
+  "graph_edges": [
+    {
+      "from": "-2597-001",
+      "to": "-2599-001",
+      "relation": "contemporary_with",
+      "note": "纳拉姆辛统治继续；阿卡德帝国处于顶峰。"
+    },
+    {
+      "from": "-2597-002",
+      "to": "-2599-002",
+      "relation": "contemporary_with",
+      "note": "佩皮二世统治继续；古王国权威持续削弱。"
+    }
+  ]
+}

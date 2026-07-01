@@ -1,0 +1,96 @@
+{
+  "year": -2333,
+  "year_label": "公元前2333年",
+  "era_context": "阿卡德帝国在纳拉姆辛（统治时期公元前2254年—前2218年）统治下巩固权力并进行军事扩张。在埃及，佩皮二世的统治延续于古王国后期，这是一个行政分裂的时期。印度河流域文明处于成熟阶段，城市中心繁荣。在中国，夏朝（如果具有历史真实性）将处于早期阶段，尽管考古证实仍有争议。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中美洲",
+    "北欧",
+    "大洋洲",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-2333-001",
+      "title": "纳拉姆辛统治：军事扩张与巩固",
+      "region": "美索不达米亚、黎凡特、安纳托利亚",
+      "coordinates_approx": "35.0, 40.0",
+      "category": "military",
+      "description": "纳拉姆辛继续进行积极的军事战役，以扩张和巩固阿卡德的控制。他的铭文记录了对各种敌人的胜利和对城邦的征服。这些战役是建立阿卡德统治下的中央集权帝国这一更广泛战略的一部分。军事胜利伴随着行政改革，将被征服领土整合入阿卡德国家。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德国王，统治时期公元前2254年—前2218年）"
+      ],
+      "sources": [
+        {
+          "name": "纳拉姆辛铭文与行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的军事战役在铭文中得到充分证实。公元前2333年被指定为其统治内的代表性年份；个别战役在现存资料中没有具体年份。",
+      "cross_references": []
+    },
+    {
+      "id": "-2333-002",
+      "title": "佩皮二世统治：古王国行政衰落",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "佩皮二世统治的特点是地方州长的持续崛起和中央法老权威的衰落。各诺姆长积累财富和权力，建立世袭王朝并建造精美陵墓。中央政府动员资源进行大型项目的能力下降。这一时期代表了古王国在第六王朝末崩溃前的最后阶段。",
+      "key_figures": [
+        "佩皮二世（埃及法老，第六王朝）"
+      ],
+      "sources": [
+        {
+          "name": "诺姆长的陵墓铭文和自传",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "行政纸草文书",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "行政分权的总体趋势有充分记录。公元前2333年的具体事件没有单独记载。",
+      "cross_references": []
+    },
+    {
+      "id": "-2333-003",
+      "title": "印度河流域文明：成熟阶段发展",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "印度河流域文明处于成熟阶段，主要城市中心繁荣。这些城市以规划的街道网格、复杂的排水系统、标准化的度量衡和印章上未解读的文字为特征。该文明的经济以农业、贸易和手工业生产为基础。贸易网络延伸至美索不达米亚、波斯湾和中亚，促进了商品和思想的交流。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "印度河印章与器物",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明的存在和一般特征通过考古学得到了充分证实。公元前2333年被指定为成熟阶段内的代表性年份。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "纳拉姆辛领土控制的范围存在争议；一些学者认为他的铭文夸大了其征服的持久性。由于文字未解读，印度河流域文明的政治组织和治理结构仍属推测。",
+  "historiographic_note": "公元前2333年的历史记录稀少，依赖美索不达米亚和埃及的铭文和行政文件。对于印度河流域，记录主要是考古学的。此时期年代精确度仅限于±5–10年。记录偏向有文字的中央集权国家；无文字的社会代表性不足。",
+  "graph_edges": [
+    {
+      "from": "-2333-001",
+      "to": "-2330-001",
+      "relation": "part_of",
+      "note": "军事战役是纳拉姆辛更广泛扩张战略的一部分"
+    }
+  ]
+}

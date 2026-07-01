@@ -1,0 +1,113 @@
+{
+  "year": -2321,
+  "year_label": "公元前2321年",
+  "era_context": "纳拉姆-辛治下的阿卡德帝国继续统治美索不达米亚，但内部压力正在积聚。埃及第六王朝在其虚弱状态下延续。印度河流域文明仍处于成熟城市阶段。这是一个既定国家体系、潜在结构性紧张将在一个世纪内导致重大转变的时期。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "美洲",
+    "美索不达米亚、埃及和印度河流域以外的大部分地区"
+  ],
+  "events": [
+    {
+      "id": "-2321-001",
+      "title": "纳拉姆-辛统治：军事征战和行政巩固",
+      "region": "美索不达米亚及周边领土",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "纳拉姆-辛继续军事征战以维持阿卡德对征服领土的控制。铭文记录与山地民族（卢卢比人、古提人）的持续冲突以及来自阿摩利人团体的抵抗。阿卡德国家维持其行政结构，向关键地区任命军事长官。然而，频繁的军事征战表明阿卡德的控制受到挑战且需不断强化。帝国资源日益捉襟见肘。",
+      "key_figures": [
+        "纳拉姆-辛（阿卡德皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "纳拉姆-辛铭文和军事记录",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "阿卡德行政文本",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆-辛的军事活动在铭文中有记载，但未保存逐年纪年。",
+      "cross_references": [
+        "-2324-001（纳拉姆-辛统治背景）"
+      ]
+    },
+    {
+      "id": "-2321-002",
+      "title": "埃及第六王朝：行政分裂加深",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "第六王朝治下的埃及国家经历加速的行政分裂。上埃及和下埃及的地方长官巩固世袭权力，减少对中央法老权威的依赖。陵墓铭文揭示诺姆长目前控制着可观的军事力量和经济资源。法老权威越来越局限于孟斐斯周边。此过程将在50–60年内以中央权威崩溃和第一中间期告终。",
+      "key_figures": [
+        "佩皮二世（埃及法老，第六王朝）"
+      ],
+      "sources": [
+        {
+          "name": "第六王朝的陵墓铭文和行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "地方自治的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "行政分权趋势已充分证实，但无具体年份事件记录。",
+      "cross_references": [
+        "-2181-001（古王国崩溃）"
+      ]
+    },
+    {
+      "id": "-2321-003",
+      "title": "印度河流域文明：成熟阶段继续；贸易网络活跃",
+      "region": "印度河流域及贸易路线",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "印度河流域文明在其成熟阶段继续，拥有繁荣的城市中心和活跃的贸易网络。在美索不达米亚遗址发现印度河印章，表明持续的商业接触。该文明经济高度组织化，标准化度量衡暗示国家监管商业。农业生产支持着大量城市人口。由于文字系统未破译，政治组织仍不清楚，但城市规划和人造物类型的统一性暗示一个中央集权或至少高度协调的体系。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "美索不达米亚遗址发现印度河印章的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "印度河流域聚落考古",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "印度河流域文明的年代和贸易网络已有充分考古记载。无确切年份事件得到证实。",
+      "cross_references": [
+        "-2324-003（印度河流域背景）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现具体否定性证据。然而，将纳拉姆-辛铭文解读为准确历史记录存在争议；一些学者主要视之为旨在合法化其统治的宣传。",
+  "historiographic_note": "公元前2321年的文献极少，依赖与之前年份相同的资料。没有任何传统记录有特定年份事件。历史记录严重偏重美索不达米亚和埃及精英资料。印度河流域文明仅通过考古了解。年代不确定性仍为±50–100年。",
+  "graph_edges": [
+    {
+      "from": "-2321-001",
+      "to": "-2218-001",
+      "relation": "led_to",
+      "note": "纳拉姆-辛军事征战最终未能阻止阿卡德衰落"
+    },
+    {
+      "from": "-2321-002",
+      "to": "-2181-001",
+      "relation": "led_to",
+      "note": "行政分裂导致古王国崩溃"
+    }
+  ]
+}

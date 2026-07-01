@@ -1,0 +1,114 @@
+{
+  "year": -2088,
+  "year_label": "公元前2088年",
+  "era_context": "埃及古王国（第六王朝）处于最后数十年。阿卡德帝国在纳拉姆辛治下接近其统治结束及帝国崩溃。印度河文明延续成熟期。在中国，传说性夏朝持续。这是帝国衰落与过渡的时期。",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "大洋洲",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-2088-001",
+      "title": "培比二世在位——古王国终衰",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "培比二世统治继续，但古王国的中央权威已严重削弱。地方总督已成事实上的独立统治者，控制自己的军队和资源。王室国库因丧葬祭祀体系与军事远征的开支而枯竭。在一代人之内，古王国将崩溃进入第一中间期，特征是政治碎片化和地方王朝崛起。",
+      "key_figures": [
+        "培比二世（奈菲尔卡拉）——法老"
+      ],
+      "sources": [
+        {
+          "name": "古王国官员的自传铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "曼涅托《埃及史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "培比二世统治传统上定在前2278-2184年；-2088在此范围内，有±50-100年不确定性。",
+      "cross_references": [
+        "-2085-001",
+        "-2086-001",
+        "-2087-001"
+      ]
+    },
+    {
+      "id": "-2088-002",
+      "title": "阿卡德帝国——纳拉姆辛统治接近尾声",
+      "region": "美索不达米亚、黎凡特",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "纳拉姆辛统治接近尾声（传统年代死于约前2218年）。阿卡德帝国面临来自古提人和其他高地民族的日益增大的压力。维持广大领土征服的内部行政压力明显。帝国崩溃将在一代人之内随之而来，古提人入侵并肢解阿卡德控制。",
+      "key_figures": [
+        "纳拉姆辛——阿卡德王"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德王家铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "《苏美尔王表》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛统治证据充分；具体到-2088年的年代是近似的。其死亡传统定在约前2218年，使-2088处于其最后几年。",
+      "cross_references": [
+        "-2085-002",
+        "-2086-002",
+        "-2087-002"
+      ]
+    },
+    {
+      "id": "-2088-003",
+      "title": "印度河文明——持续稳定",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "cultural",
+      "description": "印度河文明保持其特色的城市组织和贸易网络。考古记录中未见此时期重大中断。该文明最终将在约前1900年衰落，但原因——气候变化、环境退化、入侵或内部崩溃——仍有争议。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河遗址考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "成熟哈拉帕阶段在考古上得到证实；-2088年的具体年代是近似的。",
+      "cross_references": [
+        "-2085-003",
+        "-2086-003",
+        "-2087-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现针对所列事件的具体反证。",
+  "historiographic_note": "-2088年的文献依然稀少。历史记录由精英叙事主导。绝对年代存在±50-100年不确定性。印度河文明的衰落及阿卡德帝国崩溃的原因仍是学术争论话题。",
+  "graph_edges": [
+    {
+      "from": "-2088-001",
+      "to": "-2084-FIRST_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "培比二世统治标志古王国结束；第一中间期在一代人之内随之而来。"
+    },
+    {
+      "from": "-2088-002",
+      "to": "-2084-GUTIAN_INVASION",
+      "relation": "led_to",
+      "note": "纳拉姆辛之死及阿卡德帝国崩溃在约30年内随之而来。"
+    }
+  ]
+}

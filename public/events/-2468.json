@@ -1,0 +1,112 @@
+{
+  "year": -2468,
+  "year_label": "公元前2468年",
+  "era_context": "埃及古王国最后阶段（第六王朝）的延续。纳拉姆辛的阿卡德帝国仍在美索不达米亚占据主导，但内部压力日益增大。哈拉帕文明在印度河流域继续其成熟阶段。这一时期代表了旧大陆青铜时代城市文明的巅峰。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "大洋洲",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2468-001",
+      "title": "佩皮二世统治继续；埃及行政碎片化",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "佩皮二世的漫长统治继续。至此，地方总督（诺马尔赫）正在积累越来越多的权力和自治权，这一趋势最终将导致第六王朝末期中央权威的崩溃。考古证据表明，尽管法老维持名义上的控制，地方精英正在建立独立的权力基础。这一时期标志着向第一中间期的渐进过渡。",
+      "key_figures": [
+        "佩皮二世（奈弗尔卡雷）——埃及法老"
+      ],
+      "sources": [
+        {
+          "name": "地方官员的自传铭文（如尤尼、哈克胡夫）",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "地方行政中心的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "佩皮二世的统治已证实，但统治期内特定年份的事件无法精确确定。归入公元前2468年有±50年不确定性。",
+      "cross_references": [
+        "-2469-001"
+      ]
+    },
+    {
+      "id": "-2468-002",
+      "title": "纳拉姆辛巩固控制；古提人压力增加",
+      "region": "美索不达米亚，阿卡德",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "纳拉姆辛的统治仍在继续，但有证据表明来自扎格罗斯山脉的古提人部落和帝国内部的叛乱压力日益增大。尽管纳拉姆辛维持着军事活动和领土控制，帝国正开始面临将导致其在一代人内崩溃的压力。行政记录显示权力继续集中于纳拉姆辛，但也显现出紧张迹象。",
+      "key_figures": [
+        "纳拉姆辛——阿卡德国王"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德行政文件和铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "后世苏美尔编年史描述古提人入侵",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "纳拉姆辛的统治有充分记录，但特定年份的事件不能精确确定。压力增大的总趋势从历史记录中清晰可见。",
+      "cross_references": [
+        "-2469-002"
+      ]
+    },
+    {
+      "id": "-2468-003",
+      "title": "哈拉帕贸易网络处于鼎盛活动期",
+      "region": "印度河流域及以外",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "economic",
+      "description": "哈拉帕文明的贸易网络达到顶峰，有证据显示与美索不达米亚、波斯湾和中亚进行广泛商业往来。标准化的度量衡促进了长距离贸易。印章和器物显示了哈拉帕商业的广阔范围。这一时期代表了哈拉帕经济一体化和文化影响力的顶峰。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "在美索不达米亚和海湾地区发现的哈拉帕器物的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "美索不达米亚行政文本提及与梅卢哈的贸易",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈拉帕文明的贸易网络已通过考古证据充分证实。公元前2468年处于贸易鼎盛期内。",
+      "cross_references": [
+        "-2469-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "对列出的事件未发现重大反证。然而，从佩皮二世统治到第一中间期的确切过渡年代仍有争议，一些学者提出不同年表，可能将这些事件推移数十年。",
+  "historiographic_note": "公元前2468年的历史记录与公元前2469年同样稀少，地理范围有限。文献集中于埃及和美索不达米亚，印度河流域仅依赖考古。史料以精英为中心，未能反映广大人口经历。年代不确定性仍是一个主要局限。",
+  "graph_edges": [
+    {
+      "from": "-2468-001",
+      "to": "-2467-001",
+      "relation": "led_to",
+      "note": "佩皮二世统治继续；行政碎片化加速"
+    },
+    {
+      "from": "-2468-002",
+      "to": "-2467-002",
+      "relation": "led_to",
+      "note": "纳拉姆辛帝国面临日益增加的压力；崩溃将随之而来"
+    }
+  ]
+}

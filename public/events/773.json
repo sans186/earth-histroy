@@ -1,0 +1,177 @@
+{
+  "year": 773,
+  "year_label": "公元773年",
+  "era_context": "公元770年代初期以查理曼在西欧的积极扩张、阿拔斯王朝的巩固、唐朝从安禄山之乱中恢复以及拜占庭破坏圣像争议为特征。这是一个欧亚大陆重大军事战役、行政重组和宗教冲突的时代。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（无文字记录）",
+    "大洋洲（考古证据稀少）",
+    "前哥伦布时期美洲（无文字记录；考古定年不精确）"
+  ],
+  "events": [
+    {
+      "id": "773-001",
+      "title": "查理曼入侵伦巴第王国",
+      "region": "法兰克帝国 / 伦巴第王国",
+      "coordinates_approx": "45.5°N, 9.2°E",
+      "category": "military",
+      "description": "查理曼发动对伦巴第王国的重大军事入侵，响应教皇哈德良一世的请求，并寻求将法兰克权力扩展到意大利。入侵始于773年，最终于774年攻占帕维亚并击败德西德里乌斯国王。这场战役标志着西欧政治的转折点，确立了法兰克对意大利的主导地位，并在法兰克君主制和教皇国之间建立了紧密的联盟。征服从根本上重塑了西欧的政治格局。",
+      "key_figures": [
+        "查理曼（法兰克国王）",
+        "德西德里乌斯（伦巴第国王）",
+        "教皇哈德良一世"
+      ],
+      "sources": [
+        {
+          "name": "《法兰克王国年鉴》（Annales Regni Francorum）",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "艾因哈德《查理大帝传》（Vita Karoli Magni）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "《教皇之书》（Liber Pontificalis）",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "773年入侵伦巴第在当代法兰克和教皇史料中有充分记载。日期确定。",
+      "cross_references": [
+        "774-001（攻占帕维亚和伦巴第王国陷落）"
+      ]
+    },
+    {
+      "id": "773-002",
+      "title": "阿拔斯王朝：曼苏尔统治下的行政巩固",
+      "region": "阿拔斯王朝",
+      "coordinates_approx": "33.3°N, 44.4°E",
+      "category": "political",
+      "description": "哈里发曼苏尔（公元754–775年在位）继续进行阿拔斯王朝的行政重组，建立中央集权的官僚体系，并巩固对庞大伊斯兰帝国的控制。公元773年处于曼苏尔统治的成熟阶段，以阿拔斯国家的稳定和镇压内部叛乱为标志。曼苏尔的行政创新为阿拔斯黄金时代奠定了基础。",
+      "key_figures": [
+        "曼苏尔（阿拔斯王朝哈里发，公元754–775年在位）"
+      ],
+      "sources": [
+        {
+          "name": "《泰伯里历史：先知与国王史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "曼苏尔的统治和行政活动有充分证据，但773年的具体事件并不总是明确标注日期。",
+      "cross_references": [
+        "754-001（曼苏尔即位）"
+      ]
+    },
+    {
+      "id": "773-003",
+      "title": "唐朝：代宗皇帝统治（德宗之父）",
+      "region": "中国唐朝",
+      "coordinates_approx": "34.3°N, 108.9°E",
+      "category": "political",
+      "description": "唐代宗（公元762–779年在位）在安禄山之乱（公元755–763年）后的恢复阶段继续统治。公元773年处于代宗统治期间，这一时期以恢复中央权威、管理藩镇和从叛乱中经济复苏为特征。代宗的统治既有稳定的成就，也面临强大军事指挥官的挑战。",
+      "key_figures": [
+        "唐代宗（唐朝皇帝，公元762–779年在位）"
+      ],
+      "sources": [
+        {
+          "name": "《旧唐书》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "《新唐书》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "代宗的统治（公元762–779年）在中国帝国记录中有充分记载。公元773年确实处于其统治期间。",
+      "cross_references": [
+        "755-001（安禄山之乱开始）",
+        "775-004（德宗继承代宗）"
+      ]
+    },
+    {
+      "id": "773-004",
+      "title": "拜占庭帝国：君士坦丁五世的破坏圣像政策继续",
+      "region": "拜占庭帝国",
+      "coordinates_approx": "40.7°N, 29.9°E",
+      "category": "religious",
+      "description": "皇帝君士坦丁五世（公元741–775年在位）继续在拜占庭帝国推行破坏圣像（摧毁宗教图像）政策。公元773年处于君士坦丁五世破坏圣像运动的高峰期，该运动始于741年。这一政策仍然存在深刻争议，分裂了拜占庭教会和社会。君士坦丁五世于775年去世将标志着在其遗孀伊琳娜统治下该政策的逆转。",
+      "key_figures": [
+        "君士坦丁五世（拜占庭皇帝，公元741–775年在位）"
+      ],
+      "sources": [
+        {
+          "name": "忏悔者狄奥法内斯《编年史》（Chronographia）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "君士坦丁五世的统治和破坏圣像政策有充分记载。公元773年确实处于其统治期间。",
+      "cross_references": [
+        "741-001（君士坦丁五世开始破坏圣像）",
+        "775-005（伊琳娜逆转破坏圣像）"
+      ]
+    },
+    {
+      "id": "773-005",
+      "title": "回鹘汗国：中亚权力的巩固",
+      "region": "中亚 / 回鹘汗国",
+      "coordinates_approx": "43.0°N, 87.0°E",
+      "category": "political",
+      "description": "在突厥汗国崩溃后崛起为中亚主要力量的回鹘汗国，继续巩固其对丝绸之路贸易路线的控制，并与唐朝竞争地区主导地位。公元773年处于回鹘扩张及其在中亚政治中影响力日益增强的时期。回鹘人将在整个8世纪后期成为唐朝的主要盟友和对手。",
+      "key_figures": [
+        "回鹘可汗（姓名在当代史料中未一致保存）"
+      ],
+      "sources": [
+        {
+          "name": "《旧唐书》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "《新唐书》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "中国历史记录和铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "回鹘权力在770年代的总体巩固有记载，但773年的具体事件并不明确。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "773年具体事件的重要性有时难以评估。虽然查理曼入侵伦巴第有充分记载，但法兰克-教皇关系的更广泛背景和入侵背后的政治动机在流行史学中有时被过度简化。君士坦丁五世的破坏圣像政策有时被描绘得比实际更统一和系统化；地方差异和抵抗常常被低估。回鹘汗国在773年的活动仅在后来的中国史料中有记载，这可能反映的是唐朝视角而非回鹘视角。",
+  "historiographic_note": "公元773年的文献记载对于西欧（法兰克史料）很强，对于拜占庭帝国和唐朝中国中等，对于中亚和其他地区稀疏。法兰克入侵伦巴第是这一时期记载最充分的事件之一。然而，斯堪的纳维亚、撒哈拉以南非洲、美洲和大洋洲的史料缺失。现存的史料反映了识字精英（宫廷、神职人员、学者）的兴趣，可能低估了经济、社会和文化史。一些事件的定年在不同史料中显示出轻微的不确定性。",
+  "graph_edges": [
+    {
+      "from": "773-001",
+      "to": "774-001",
+      "relation": "led_to",
+      "note": "查理曼773年入侵伦巴第导致774年攻占帕维亚"
+    },
+    {
+      "from": "773-002",
+      "to": "754-001",
+      "relation": "part_of",
+      "note": "曼苏尔773年的行政活动是其更广泛巩固阿拔斯国家的一部分"
+    },
+    {
+      "from": "773-003",
+      "to": "755-001",
+      "relation": "part_of",
+      "note": "代宗773年的统治代表了安禄山之乱后的恢复阶段"
+    }
+  ]
+}

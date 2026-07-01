@@ -1,0 +1,357 @@
+{
+  "year": 1845,
+  "year_label": "公元1845年",
+  "era_context": "19世纪中期：工业革命全速推进；欧洲民族主义和自由主义挑战保守君主制；英国帝国扩张达到顶峰；美国向西扩张；中国面临内部不稳定和外国压力；爱尔兰经济依赖马铃薯；科学进步在欧洲和北美加速。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1845-001",
+      "title": "德克萨斯被美国吞并",
+      "region": "德克萨斯和美国",
+      "coordinates_approx": "31.9686, -99.9018",
+      "category": "political",
+      "description": "美国正式吞并德克萨斯共和国，该共和国自1836年以来一直独立。吞并于1845年3月获得国会批准并由约翰·泰勒总统签署，实现了“天定命运”论，并为美国增添了一大片领土。此举加剧了与墨西哥的紧张关系，墨西哥从未承认德克萨斯独立，并为1846年的美墨战争奠定了基础。吞并还加剧了美国内部关于奴隶制扩张的地区紧张局势。",
+      "key_figures": [
+        "约翰·泰勒总统（美国）",
+        "詹姆斯·K·波尔克总统（美国，1845年3月就职）",
+        "何塞·华金·德·埃雷拉总统（墨西哥）"
+      ],
+      "sources": [
+        {
+          "name": "美国国会记录和吞并联合决议",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "同时期的报纸（《华盛顿环球报》、德克萨斯报纸）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "墨西哥政府外交信件",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "吞并于1845年3月1日获得国会正式批准；日期有精确记载。",
+      "cross_references": [
+        "1846-003（美墨战争）"
+      ]
+    },
+    {
+      "id": "1845-002",
+      "title": "爱尔兰马铃薯晚疫病首次出现",
+      "region": "爱尔兰",
+      "coordinates_approx": "53.4129, -8.2439",
+      "category": "environmental",
+      "description": "马铃薯晚疫病（致病疫霉）于1845年9月在爱尔兰首次被报道，摧毁了约三分之一的马铃薯作物。这种真菌病害将在随后几年卷土重来，造成毁灭性的后果。1845年的首次歉收严重但并非立即灾难性；完整的饥荒将在1846–1847年发展，当时病害复发并摧毁了大部分作物。这一事件标志着爱尔兰大饥荒的开始。",
+      "key_figures": [
+        "罗伯特·皮尔爵士（英国首相）",
+        "爱尔兰农民和农村人口"
+      ],
+      "sources": [
+        {
+          "name": "同时期的爱尔兰和英国报纸记述（《泰晤士报》、爱尔兰报纸）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "英国政府信件和报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "农业报告和科学观察",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1845年9月病害首次出现在同时期来源中有记载；作物损失的程度有充分证据。",
+      "cross_references": [
+        "1846-001（饥荒的持续和加剧）"
+      ]
+    },
+    {
+      "id": "1845-003",
+      "title": "兰吉特·辛格大君继任者领导下的锡克王国面临不稳定",
+      "region": "印度旁遮普",
+      "coordinates_approx": "31.5204, 74.3587",
+      "category": "political",
+      "description": "兰吉特·辛格大君于1839年去世后，旁遮普锡克王国经历了日益加剧的内部不稳定和继承纠纷。到1845年，王国因卡尔萨（锡克军事和政治团体）内部的派系冲突以及拉尼·金丹的摄政而削弱。这种不稳定，加上英国东印度公司的扩张，为第一次英锡战争（1845年底开始）创造了条件。",
+      "key_figures": [
+        "达利普·辛格大君（未成年统治者）",
+        "拉尼·金丹（摄政）",
+        "锡克卡尔萨派系"
+      ],
+      "sources": [
+        {
+          "name": "英国东印度公司记录和情报报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "锡克历史编年史和后来的汇编",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "普里亚，萨蒂什。《锡克教徒及其主权斗争》（1993年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "1845年锡克王国的内部不稳定在英国记录和后来锡克史书中有记载，尽管派系纠纷的精确年代顺序有时不清楚。",
+      "cross_references": [
+        "1846-005（第一次英锡战争）"
+      ]
+    },
+    {
+      "id": "1845-004",
+      "title": "《弗雷德里克·道格拉斯生平自述》出版",
+      "region": "美国（马萨诸塞州）",
+      "coordinates_approx": "42.3601, -71.0589",
+      "category": "cultural",
+      "description": "逃亡奴隶弗雷德里克·道格拉斯在波士顿出版了他的自传《弗雷德里克·道格拉斯，一个美国奴隶的生平自述》。这部作品成为19世纪最有力、最广泛阅读的废奴文本之一。道格拉斯对奴隶制暴行及其对奴役的知识和道德抵抗的第一手记述深刻影响了美国公众舆论，并成为废奴运动和非裔美国文学的奠基性文本。",
+      "key_figures": [
+        "弗雷德里克·道格拉斯（作者）",
+        "威廉·劳埃德·加里森（废奴主义者，撰写序言）"
+      ],
+      "sources": [
+        {
+          "name": "道格拉斯，弗雷德里克。《弗雷德里克·道格拉斯，一个美国奴隶的生平自述》（1845年）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "同时期的报纸评论和废奴出版物",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1845年5月的出版日期有精确记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1845-005",
+      "title": "鸦片战争后续：英国巩固在中国的控制",
+      "region": "中国",
+      "coordinates_approx": "22.3193, 114.1694",
+      "category": "political",
+      "description": "在第一次鸦片战争（1840–1842年）和《南京条约》之后，英国商人和东印度公司巩固了对中国贸易（特别是鸦片）的控制。到1845年，英国人已在香港和通商口岸站稳脚跟，鸦片成瘾在中国社会迅速蔓延。中国政府因战争和内部不稳定而虚弱，无法有效抵制外国商业渗透。这一时期标志着中国“百年国耻”的开始和西方帝国主义统治的加速。",
+      "key_figures": [
+        "道光皇帝（中国统治者）",
+        "英国商人和东印度公司官员"
+      ],
+      "sources": [
+        {
+          "name": "英国东印度公司记录和信件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "中国政府记录和上谕",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "洛弗尔，朱莉娅。《鸦片战争：毒品、梦想与现代中国的形成》（2011年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "1845年英国控制的巩固在公司记录中有记载，尽管鸦片扩张的精确时间线有时存在争议。",
+      "cross_references": [
+        "1840-001（第一次鸦片战争）"
+      ]
+    },
+    {
+      "id": "1845-006",
+      "title": "詹姆斯·K·波尔克就任美国总统",
+      "region": "美国",
+      "coordinates_approx": "38.8951, -77.0369",
+      "category": "political",
+      "description": "詹姆斯·K·波尔克于1845年3月4日就任美国第11任总统。波尔克是民主党人和扩张主义者，其竞选纲领是“天定命运”以及吞并德克萨斯和俄勒冈。他的总统任期（1845–1849年）以积极的领土扩张为标志，包括吞并德克萨斯、获得俄勒冈和美墨战争。波尔克政府从根本上重塑了美国的领土范围。",
+      "key_figures": [
+        "詹姆斯·K·波尔克（总统）",
+        "乔治·M·达拉斯（副总统）"
+      ],
+      "sources": [
+        {
+          "name": "美国国会记录和就职演说",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "同时期的报纸和政治文件",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "波尔克于1845年3月4日就职有精确记载。",
+      "cross_references": [
+        "1845-001（波尔克领导下的德克萨斯吞并）",
+        "1846-003（波尔克领导下的美墨战争）"
+      ]
+    },
+    {
+      "id": "1845-007",
+      "title": "锡克王国动员军队",
+      "region": "印度旁遮普",
+      "coordinates_approx": "31.5204, 74.3587",
+      "category": "military",
+      "description": "锡克卡尔萨军队，南亚最强大的军事力量之一，因回应英国的军事集结和侵犯而动员起来，向英国控制领土移动。动员反映了锡克王国与英国东印度公司之间日益加剧的紧张关系。到1845年底，这些紧张关系将在第一次英锡战争中爆发为公开冲突。",
+      "key_figures": [
+        "锡克卡尔萨指挥官",
+        "亨利·哈丁将军（英国总督）"
+      ],
+      "sources": [
+        {
+          "name": "英国东印度公司军事报告和情报",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "英国军事信件和公文",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "动员在英国军事记录中有记载，尽管锡克军事行动的精确时间和规模有时不清楚。",
+      "cross_references": [
+        "1846-005（第一次英锡战争）"
+      ]
+    },
+    {
+      "id": "1845-008",
+      "title": "科学考察与探险：富兰克林探险队出发",
+      "region": "北极",
+      "coordinates_approx": "70.0000, -95.0000",
+      "category": "exploration",
+      "description": "富兰克林探险队由英国皇家海军军官约翰·富兰克林爵士率领，于1845年5月19日从英格兰出发，配备两艘船（HMS幽冥号和HMS恐怖号）和129名船员。该探险旨在航行西北航道并完成北极的测绘。此次探险将成为历史上最著名的灾难之一；所有船员将遇难，船只将被困冰中。探险队的命运直到几十年后才最终确定，但其1845年的出发标志着19世纪最伟大的海上悲剧之一的开始。",
+      "key_figures": [
+        "约翰·富兰克林爵士（探险队领袖）",
+        "詹姆斯·菲茨詹姆斯（HMS幽冥号船长）",
+        "弗朗西斯·克罗泽（HMS恐怖号船长）"
+      ],
+      "sources": [
+        {
+          "name": "英国海军部记录和探险文献",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "同时期的报纸和官方公告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "比蒂，欧文。《冰封时光：富兰克林探险队的命运》（1987年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "探险队于1845年5月19日出发在海军部记录中有精确记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1845-009",
+      "title": "橡胶硫化工艺获得专利",
+      "region": "美国（马萨诸塞州）",
+      "coordinates_approx": "42.3601, -71.0589",
+      "category": "technological",
+      "description": "查尔斯·古德伊尔于1845年6月15日获得橡胶硫化工艺专利（美国专利号3,633）。硫化，即用硫磺处理橡胶以增加其强度和弹性的过程，彻底改变了橡胶工业，并使得耐用橡胶制品的生产成为可能。该工艺成为橡胶轮胎、垫圈以及无数其他工业和消费品发展的基础，为工业革命的物质变革做出了重大贡献。",
+      "key_figures": [
+        "查尔斯·古德伊尔（发明者）"
+      ],
+      "sources": [
+        {
+          "name": "美国专利局记录和专利文件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "古德伊尔，查尔斯。《树胶弹性体及其应用》（1853年）",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "同时期的科学期刊和报纸",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1845年6月15日的专利日期在美国专利局记录中有精确记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1845-010",
+      "title": "迪斯雷利的《西比尔》出版",
+      "region": "英国",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "cultural",
+      "description": "本杰明·迪斯雷利出版了他的小说《西比尔，或两个民族》，这部作品探讨了工业英国的社会分裂和阶级冲突。这部小说是迪斯雷利“青年英格兰”三部曲的一部分，批判了工业资本主义和激进社会主义，倡导一种家长式的保守主义。《西比尔》成为19世纪政治和社会思想中有影响力的作品，塑造了关于阶级、工业化和国家角色的辩论。",
+      "key_figures": [
+        "本杰明·迪斯雷利（作者）"
+      ],
+      "sources": [
+        {
+          "name": "迪斯雷利，本杰明。《西比尔，或两个民族》（1845年）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "同时期的文学评论和报纸",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1845年5月的出版日期有精确记载。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "德克萨斯吞并有时被描绘成不可避免的，但它在政治上存在争议，美国国会和墨西哥许多人反对；吞并并非板上钉钉。爱尔兰马铃薯晚疫病的起源有时归因于爱尔兰的农业实践，但现代学术强调，晚疫病是一种真菌病原体（致病疫霉），起源于美洲并全球传播；爱尔兰的脆弱性是结构性的，而非固有的。富兰克林探险队有时被浪漫化为一项英勇的事业，但现代学术强调探险队计划不周、供应不足以及所有船员的悲惨损失。迪斯雷利的《西比尔》有时被解读为对工业资本主义的直接批判，但学者们辩论迪斯雷利提出的解决方案（家长式保守主义）是真正进步的还是仅仅是怀旧的。",
+  "historiographic_note": "1845年在西方来源中记录良好，特别是关于英国、美国和爱尔兰的事件。欧洲和北美的政治、军事和文化事件文献翔实。亚洲的事件主要通过殖民记录（英国东印度公司）记录，带有固有的偏见。爱尔兰马铃薯晚疫病在同时期报纸和政府记录中有广泛记载，尽管当时对病害性质的科学认识有限。富兰克林探险队在英国海军部记录中有充分记载。总体而言，1845年得益于广泛的同期文献，尽管非西方视角在现存的记录中代表性不足。",
+  "graph_edges": [
+    {
+      "from": "1845-001",
+      "to": "1846-003",
+      "relation": "led_to",
+      "note": "德克萨斯吞并直接导致1846年美墨战争"
+    },
+    {
+      "from": "1845-002",
+      "to": "1846-001",
+      "relation": "led_to",
+      "note": "1845年首次马铃薯晚疫病导致1846年灾难性饥荒"
+    },
+    {
+      "from": "1845-006",
+      "to": "1846-003",
+      "relation": "led_to",
+      "note": "波尔克的扩张主义总统任期直接导致美墨战争"
+    },
+    {
+      "from": "1845-007",
+      "to": "1846-005",
+      "relation": "led_to",
+      "note": "锡克军事动员导致1846年第一次英锡战争"
+    },
+    {
+      "from": "1845-008",
+      "to": "1850-001",
+      "relation": "led_to",
+      "note": "富兰克林探险队的失踪导致数十年的搜寻努力"
+    }
+  ]
+}

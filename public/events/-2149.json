@@ -1,0 +1,121 @@
+{
+  "year": -2149,
+  "year_label": "公元前2149年",
+  "era_context": "埃及古王国在第六王朝下处于最后阶段。美索不达米亚的阿卡德帝国正经历严重的内部紧张和来自古提人入侵的外部压力。印度河流域文明处于成熟阶段。此时期属于公元前三千纪晚期，以多个文明经历重大政治过渡为特征。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧和草原地带",
+    "中美洲",
+    "东南亚",
+    "太平洋岛屿"
+  ],
+  "events": [
+    {
+      "id": "-2149-001",
+      "title": "第六王朝埃及：省级自治增强；中央权威削弱",
+      "region": "埃及（尼罗河流域）",
+      "coordinates_approx": "26.5, 30.5",
+      "category": "political",
+      "description": "埃及第六王朝继续经历中央权威的侵蚀，各省总督巩固权力。省级墓葬的铭文日益强调地方自治。国家的经济资源因持续的纪念碑建造和军事征伐而紧张。此时期代表了从中央集权的古王国向去中央集权的第一中间期的持续过渡。",
+      "key_figures": [
+        "佩皮二世（法老，如接受传统年表）"
+      ],
+      "sources": [
+        {
+          "name": "省级墓葬铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "第六王朝衰落的年代是近似的。省级自治的考古证据清晰，但确切年份不确定。",
+      "cross_references": [
+        "属于更广泛的第六王朝衰落",
+        "与公元前2148-001同时代"
+      ]
+    },
+    {
+      "id": "-2149-002",
+      "title": "阿卡德帝国：内部崩溃和古提人入侵加剧",
+      "region": "美索不达米亚",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "随着古提掠夺者加强对美索不达米亚的入侵，阿卡德帝国经历加速的内部崩溃。城邦日益宣示独立。阿卡德国王的中央权威进一步削弱。多处遗址的破坏层考古证据表明存在广泛的冲突和不稳定。",
+      "key_figures": [
+        "古提人首领（未具名）"
+      ],
+      "sources": [
+        {
+          "name": "苏美尔王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "拉格什的楔形文字铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "考古破坏层",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿卡德崩溃在考古学和后文献中均有证据，但此时期内的精确年代不确定。",
+      "cross_references": [
+        "属于更广泛的阿卡德衰落",
+        "与公元前2149-001同时代"
+      ]
+    },
+    {
+      "id": "-2149-003",
+      "title": "印度河流域文明：成熟城市阶段；广泛贸易网络活跃",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "印度河流域文明仍处于成熟阶段，拥有大型城市中心、标准化的行政系统和广泛的贸易网络。考古证据表明持续繁荣和稳定。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河遗址考古发掘",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "印度河印章和标准化度量衡",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明成熟阶段的考古证据已充分确立。",
+      "cross_references": [
+        "与公元前2149-001和公元前2149-002同时代",
+        "属于更广泛的印度河流域文明时期"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "第六王朝的传统年表存在争议。一些学者认为佩皮二世的统治要短得多，这将使此年份落在他逝世之后。阿卡德崩溃有时被描绘为一场突然的灾难，但考古证据表明是一个更渐进的分裂和渗透过程。",
+  "historiographic_note": "公元前2149年的历史记录稀疏。埃及年表仍存争议。美索不达米亚文献仅限于铭文和考古证据。印度河流域文明仅通过考古学得知。这三个地区都缺乏此年份具体事件的详细同时代叙事。",
+  "graph_edges": [
+    {
+      "from": "-2149-001",
+      "to": "-2148-001",
+      "relation": "led_to",
+      "note": "第六王朝的分裂从公元前2149年持续到公元前2148年。"
+    },
+    {
+      "from": "-2149-002",
+      "to": "-2148-002",
+      "relation": "led_to",
+      "note": "阿卡德崩溃从公元前2149年持续到公元前2148年。"
+    }
+  ]
+}

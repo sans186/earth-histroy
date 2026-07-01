@@ -1,0 +1,82 @@
+{
+  "year": -3073,
+  "year_label": "公元前3073年",
+  "era_context": "早期青铜时代第三期；埃及古王国（第五至第六王朝过渡）延续，美索不达米亚早王朝第三期，印度河流域文明成熟期。本年与公元前3074年处在相同大历史时期，一年之内预计没有重大文明转变。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-3073-001",
+      "title": "古王国埃及延续（第五至第六王朝过渡）",
+      "region": "埃及，尼罗河流域",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "埃及古王国继续从第五王朝向第六王朝的渐进过渡。法老国家维持中央集权，但地方总督日益自治。金字塔建设和陵庙建设持续。与黎凡特、努比亚和红海地区的贸易在经济上依然重要。本年无重大政治动荡记录。",
+      "key_figures": [
+        "第五王朝或第六王朝初期的法老（本年度身份未确定）"
+      ],
+      "sources": [
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "墓葬铭文和行政纸草",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "公元前3073年未证有任何具体事件。本条代表时代大背景。",
+      "cross_references": [
+        "-3074-001"
+      ]
+    },
+    {
+      "id": "-3073-002",
+      "title": "拉格什—乌玛领土争端（美索不达米亚）",
+      "region": "美索不达米亚，拉格什与乌玛城邦",
+      "coordinates_approx": "31.9, 46.1",
+      "category": "military",
+      "description": "拉格什与乌玛之间围绕灌溉权和领土控制的反复冲突在此期间持续。这些争端是早王朝第三期美索不达米亚的特征，城邦为资源和威望竞争。军事战役、其他城市调解以及临时停战构成了当时的政治地貌。",
+      "key_figures": [
+        "拉格什的安纳吐姆（如果仍统治）",
+        "乌玛的统治者（名字未确定）"
+      ],
+      "sources": [
+        {
+          "name": "拉格什和乌玛的铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "拉格什—乌玛冲突有充分证明，但无法从资料中确定具体年份的精确年代。",
+      "cross_references": [
+        "-3074-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "公元前3073年无可靠具体事件。以上条目为时代背景，而非有记载的历史事件。年代安排为常规，带有与公元前3074年相同的不确定性。",
+  "historiographic_note": "公元前3073年的历史记录可忽略。没有资料提供该年份的具体信息。这些条目代表从邻近年份推断的更广泛趋势的延续。",
+  "graph_edges": [
+    {
+      "from": "-3073-001",
+      "to": "-3074-001",
+      "relation": "contemporary_with",
+      "note": "古王国埃及的延续"
+    },
+    {
+      "from": "-3073-002",
+      "to": "-3074-002",
+      "relation": "contemporary_with",
+      "note": "拉格什—乌玛冲突的延续"
+    }
+  ]
+}

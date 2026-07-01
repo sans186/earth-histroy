@@ -1,0 +1,163 @@
+{
+  "year": 1385,
+  "year_label": "公元1385年",
+  "era_context": "中世纪末期，奥斯曼帝国在巴尔干加速扩张，明朝在中国巩固权力，英格兰在理查二世统治下经历政治紧张。百年战争持续，双方胜负交替。伊比利亚半岛仍分裂于基督教王国和纳斯里德格拉纳达酋长国之间。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（有限的文字来源）",
+    "中亚和草原（稀疏的文献）",
+    "大洋洲和太平洋岛屿（最少文字记录）",
+    "美洲（欧洲传统中没有文字记录）"
+  ],
+  "events": [
+    {
+      "id": "1385-001",
+      "title": "普洛奇尼克战役（替代日期）",
+      "region": "塞尔维亚（奥斯曼-塞尔维亚边境）",
+      "coordinates_approx": "43.65, 21.65",
+      "category": "military",
+      "description": "一些来源将奥斯曼在普洛奇尼克的胜利定于1385年而非1386年。穆拉德一世领导下的奥斯曼军队击败塞尔维亚军队，推进了奥斯曼在巴尔干的控制。这场战役显示了奥斯曼的军事优势，是更广泛塞尔维亚领土征服的一部分。",
+      "key_figures": [
+        "穆拉德一世（奥斯曼苏丹）",
+        "塞尔维亚贵族"
+      ],
+      "sources": [
+        {
+          "name": "奥斯曼编年史（后期编纂）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "塞尔维亚历史传统",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "这场战役的日期在来源中存在争议。不同的奥斯曼和塞尔维亚编年史将其放在1385年、1386年或1387年。现代学术尚未明确解决这一差异。",
+      "cross_references": [
+        "1386-001（同一战役的替代日期）"
+      ]
+    },
+    {
+      "id": "1385-002",
+      "title": "葡萄牙远征摩洛哥（休达战役准备）",
+      "region": "葡萄牙和北非",
+      "coordinates_approx": "37.18, -5.36",
+      "category": "military",
+      "description": "国王若昂一世领导下的葡萄牙军队开始准备征服休达，一个由马林王朝控制的北非主要港口城市。尽管实际征服发生在1415年，但1385年时期看到了重要的军事和海军准备，包括建造船只和集结部队。这次战役代表了葡萄牙向北非和大西洋扩张的开始。",
+      "key_figures": [
+        "葡萄牙的若昂一世（阿维兹王朝）",
+        "亨利王子（航海家，年轻，尚未领导远征）"
+      ],
+      "sources": [
+        {
+          "name": "葡萄牙王室编年史和记录",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "祖拉拉《几内亚发现与征服编年史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "休达的准备在葡萄牙来源中有记载，但确切时间线有些不清楚。战役因其他冲突而推迟。",
+      "cross_references": [
+        "1415-001（征服休达）"
+      ]
+    },
+    {
+      "id": "1385-003",
+      "title": "洪武帝清洗官员",
+      "region": "中国（明朝）",
+      "coordinates_approx": "32.06, 118.80",
+      "category": "political",
+      "description": "洪武帝继续系统地清洗涉嫌不忠或腐败的官员。这些清洗持续整个1380年代，导致数千人被处决，是皇帝巩固绝对权力和消除潜在竞争对手努力的一部分。清洗在官僚机构中制造了恐惧氛围，并促进了明朝权威的集中。",
+      "key_figures": [
+        "洪武帝（朱元璋）",
+        "各种官员和将领（清洗的受害者）"
+      ],
+      "sources": [
+        {
+          "name": "《明实录》",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "明朝历史记录和族谱",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1380年代的清洗在明朝记录中有详细记载。规模和残酷性已由多个同时代来源确认。",
+      "cross_references": []
+    },
+    {
+      "id": "1385-004",
+      "title": "理查二世在英格兰巩固权力",
+      "region": "英格兰",
+      "coordinates_approx": "52.5, -1.5",
+      "category": "political",
+      "description": "国王理查二世于1377年10岁登基，在1380年代中期正在巩固他的个人权威。这一时期，年轻国王与曾担任摄政和顾问的大贵族之间的紧张关系日益加剧。理查主张王权特权的努力最终将导致1397-1399年的冲突。",
+      "key_figures": [
+        "理查二世（英格兰国王）",
+        "冈特的约翰（兰开斯特公爵，叔父）",
+        "伍德斯托克的托马斯（格洛斯特公爵，叔父）"
+      ],
+      "sources": [
+        {
+          "name": "傅华萨《编年史》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "英国王室记录和议会卷宗",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "沃尔辛厄姆《英国史》",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "理查二世在1385年的政治活动在英国编年史和议会记录中有详细记载。",
+      "cross_references": [
+        "1397-001（理查二世对贵族的报复）",
+        "1399-001（理查二世被废黜）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "普洛奇尼克战役定于1385年存在争议；一些来源将其放在1386年或1387年。1385年葡萄牙准备休达的重要性不确定；该战役可能没有后来的来源所暗示的那么有组织。理查二世在1385年巩固权力是渐进且存在争议的；年轻国王主张权威的叙述有些简化，因为他此后数年仍然依赖大贵族。",
+  "historiographic_note": "1385年的来源在质量和覆盖面上中等。英国和中国来源相对丰富。奥斯曼和塞尔维亚来源主要是后期编纂，存在年代不确定性。葡萄牙来源存在，但有时围绕后来征服休达进行回顾性组织。非洲、美洲和大洋洲的历史仍缺席于文字记录。现存的来源反映精英政治和军事视角。",
+  "graph_edges": [
+    {
+      "from": "1385-001",
+      "to": "1389-001",
+      "relation": "led_to",
+      "note": "奥斯曼在巴尔干的胜利继续指向科索沃战役"
+    },
+    {
+      "from": "1385-002",
+      "to": "1415-001",
+      "relation": "led_to",
+      "note": "葡萄牙为休达战役做准备"
+    },
+    {
+      "from": "1385-003",
+      "to": "1386-003",
+      "relation": "contemporary_with",
+      "note": "洪武帝通过清洗和法律改革巩固权力"
+    },
+    {
+      "from": "1385-004",
+      "to": "1397-001",
+      "relation": "led_to",
+      "note": "理查二世早期巩固权力导致后来与贵族的冲突"
+    }
+  ]
+}

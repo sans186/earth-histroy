@@ -1,0 +1,72 @@
+{
+  "year": -1093,
+  "year_label": "公元前1093年",
+  "era_context": "晚期青铜时代崩溃继续。埃及在拉美西斯三世统治下维持对外部威胁的军事压力。中国商朝处于最后阶段。东地中海正在经历重大人口流动和国家崩溃的后果。亚述仍然相对衰弱。黎凡特海岸因腓尼基城邦的出现和海上民族的定居而重塑。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中美洲",
+    "北欧",
+    "中亚",
+    "南亚（有限的当代记录）"
+  ],
+  "events": [
+    {
+      "id": "-1093-001",
+      "title": "拉美西斯三世统治；埃及持续军事行动",
+      "region": "埃及",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "military",
+      "description": "拉美西斯三世继续统治，神庙浮雕和行政纸莎草记载了持续的军事战役。埃及军队致力于维持对黎凡特领土的控制并防御利比亚人和海上民族的入侵。这些战役对埃及资源和人力造成了显著消耗。",
+      "key_figures": [
+        "Ramesses III (法老)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu神庙浮雕",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "拉美西斯三世统治有详细记载；该年份在其统治期内（约公元前1186–1155年）。",
+      "cross_references": []
+    },
+    {
+      "id": "-1093-002",
+      "title": "商朝衰败；甲骨文记录",
+      "region": "中国（商朝核心区）",
+      "coordinates_approx": "34.5, 114.0",
+      "category": "political",
+      "description": "商朝持续衰败。这一时期的甲骨文显示有关收成、军事战役和祭祀事务的关切。商朝宫廷对进贡国的控制正在减弱，并面临来自西方周人的压力。仅凭甲骨文很难重建任何特定年份的精确政治状况。",
+      "key_figures": [
+        "King Xin (帝辛, Shang)"
+      ],
+      "sources": [
+        {
+          "name": "甲骨文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "甲骨文提供了当代证据，但无法精确到具体年份。商周过渡的年代仍存在争议。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的特定反面证据，但一般性警告适用：公元前1093年未在任何资料中独立证实。该年份由现代编年惯例分配。埃及这一时期的编年可靠性已根据新的碳十四证据多次修正。",
+  "historiographic_note": "该年份实质上与历史记录中的周围年份没有区别。没有记载特定于公元前1093年的事件。所列事件是从拉美西斯三世统治和商朝衰败的更广泛背景推断的。这是历史记录的一个局限，而非历史不活跃的反映。",
+  "graph_edges": [
+    {
+      "from": "-1093-001",
+      "to": "-1094-001",
+      "relation": "contemporary_with",
+      "note": "拉美西斯三世的军事战役跨越多年。"
+    }
+  ]
+}

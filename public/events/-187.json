@@ -1,0 +1,130 @@
+{
+  "year": -187,
+  "year_label": "公元前187年",
+  "era_context": "塞琉古二世·卡利尼库斯统治下的塞琉古帝国正经历重大内部和外部压力。中国汉朝在汉文帝统治下，在七国之乱（公元前154–151年）后巩固权力。希腊化世界处于相对稳定时期，随后罗马将崛起为地中海主导力量。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "希腊/罗马接触区以外的北欧",
+    "中美洲",
+    "中亚（有限文字记录）"
+  ],
+  "events": [
+    {
+      "id": "-187-001",
+      "title": "汉朝七国之乱后续影响",
+      "region": "汉朝中国",
+      "coordinates_approx": "34.3,108.9",
+      "category": "political",
+      "description": "七国之乱（公元前154–151年）近期结束，汉文帝正在巩固中央集权。这场由担心失去权力的地方王国发起的叛乱已被镇压，文帝实施改革以防止未来对中央权威的挑战。这些改革包括削弱地方王国权力、加强中央官僚机构，以及实施促进稳定和复苏的经济政策。成功镇压这场叛乱标志着汉朝历史的转折点，确立了中央集权帝国权威的先例。",
+      "key_figures": [
+        "汉文帝",
+        "窦太后",
+        "地方王国（现已臣服）"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "七国之乱（公元前154–151年）在中国历史记录中有充分记载。公元前187年属于叛乱后的巩固时期，在历史记录中是可靠的。",
+      "cross_references": [
+        "源自 -154-001（七国之乱）",
+        "导致 -141-001（汉武帝即位与扩张）"
+      ]
+    },
+    {
+      "id": "-187-002",
+      "title": "塞琉古二世·卡利尼库斯面临内部分裂",
+      "region": "塞琉古帝国",
+      "coordinates_approx": "36.0,40.0",
+      "category": "political",
+      "description": "统治塞琉古帝国的塞琉古二世·卡利尼库斯面临来自地方总督和敌对王位觊觎者的重大权威挑战。帝国正分裂，东部行省落入帕提亚控制，西部领土受加拉太部落和其他地区势力威胁。塞琉古二世的统治以重新确立控制的军事征讨为特征，但这些努力仅部分成功。此时期塞琉古帝国的内部分裂为其最终衰落和罗马成为地中海主导力量奠定了基础。",
+      "key_figures": [
+        "Seleucus II Callinicus (塞琉古国王)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "塞琉古二世统治时期（公元前246–226年）塞琉古分裂的总体模式在后期史料中有充分记载。公元前187年的具体事件在现存文本中未单独注明日期。",
+      "cross_references": [
+        "更广泛塞琉古衰落的一部分",
+        "与 -187-001（汉朝巩固）同时期"
+      ]
+    },
+    {
+      "id": "-187-003",
+      "title": "托勒密三世·欧厄尔吉特斯一世维持托勒密权力",
+      "region": "托勒密埃及",
+      "coordinates_approx": "30.8,31.3",
+      "category": "political",
+      "description": "托勒密三世·欧厄尔吉特斯一世继续统治埃及，维持托勒密在东地中海的海洋和经济霸权。其统治以文化赞助为特征，包括支持亚历山大图书馆和希腊学术。托勒密埃及仍是希腊化世界最富裕和最稳定的强权之一，与分裂的塞琉古帝国形成对比。",
+      "key_figures": [
+        "Ptolemy III Euergetes I (托勒密国王)",
+        "Berenice II (王后)"
+      ],
+      "sources": [
+        {
+          "name": "托勒密埃及的纸莎草文献",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "托勒密三世的统治（公元前246–222年）通过埃及纸莎草和希腊史料有充分记载。其统治期间托勒密稳定的总体模式是可靠的。",
+      "cross_references": [
+        "与 -187-002（塞琉古分裂）同时期"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "塞琉古二世具体军事征讨的日期和意义在当代学者中存在争议。部分史料表明帝国分裂是渐进而非戏剧性的，帕提亚扩张是数十年间发生而非突然征服。塞琉古二世的征讨是成功还是仅为拖延行动，其程度存在争议。此外，一些学者质疑中国“七国之乱”是否如传统叙述所述那样统一或重要，尽管叛乱及其镇压的基本事实是可靠的。",
+  "historiographic_note": "公元前187年的文献记载中等，但地理和时间分布不均。中国史料（《史记》《汉书》）提供了汉朝事件的详细、近乎同时代的记录，七国之乱特别有充分记载。希腊化历史严重依赖后期希腊和罗马汇编（波利比乌斯、阿庇安、斯特拉波），写作于事件后数个世纪。对于此时期，波利比乌斯通常被认为比阿庇安更可靠。埃及纸莎草提供了行政细节，但缺乏重大事件的叙述。缺乏同时代的塞琉古史料是理解帝国内部动态的重大空白。西方史料偏向地中海事件，可能低估或歪曲亚洲事件。",
+  "graph_edges": [
+    {
+      "from": "-187-001",
+      "to": "-141-001",
+      "relation": "led_to",
+      "note": "文帝下的汉朝巩固使汉武帝的扩张政策成为可能"
+    },
+    {
+      "from": "-187-002",
+      "to": "-160-001",
+      "relation": "led_to",
+      "note": "塞琉古分裂加速，最终使帕提亚成为主要强权"
+    },
+    {
+      "from": "-187-001",
+      "to": "-187-002",
+      "relation": "contemporary_with",
+      "note": "汉朝巩固与塞琉古帝国分裂同时发生"
+    }
+  ]
+}

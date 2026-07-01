@@ -1,0 +1,123 @@
+{
+  "year": -2786,
+  "year_label": "公元前2786年",
+  "era_context": "纳拉姆-辛统治下的阿卡德帝国在美索不达米亚仍占主导地位，但面临日益增加的外部压力。埃及古王国继续其渐进的权力下放。印度河流域文明处于成熟阶段。这一时期代表了在接下来的几个世纪重大转型之前多个文明的相对稳定。",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "太平洋岛屿",
+    "东亚"
+  ],
+  "events": [
+    {
+      "id": "-2786-001",
+      "title": "阿卡德行政巩固和标准化",
+      "region": "美索不达米亚，阿卡德帝国",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "纳拉姆-辛统治期间见证了整个帝国阿卡德行政实践的标准化。泥板记录了贡品、兵役和贸易的组织。阿卡德语和楔形文字成为行政的通用语言，便利了不同地区的沟通。这种行政精细度在当时非常出色，但最终未能阻止帝国在下一代的内部分裂。",
+      "key_figures": [
+        "纳拉姆-辛（阿卡德国王）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德行政泥板",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "皇家铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿卡德行政实践在泥板中有充分记录，但纳拉姆-辛统治期间的确切年代不确定。",
+      "cross_references": [
+        "-2789-001",
+        "-2788-001"
+      ]
+    },
+    {
+      "id": "-2786-002",
+      "title": "印度河流域与美索不达米亚和波斯湾的贸易",
+      "region": "印度河流域、美索不达米亚、波斯湾",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "考古证据显示此时期印度河流域与美索不达米亚之间有活跃的贸易。印度河印章和贸易商品出现在美索不达米亚环境中，而美索不达米亚商品则见于印度河遗址。这种贸易通过波斯湾的海上路线和穿越黎凡特的陆上路线进行。贸易表明跨越大范围的经济一体化以及商人网络或国家支持的贸易使团的存在。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "这两个地区贸易商品的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "提及美卢哈的美索不达米亚记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域与美索不达米亚之间的贸易通过考古证据得到充分确立。",
+      "cross_references": [
+        "-2789-002",
+        "-2788-002",
+        "-2787-002"
+      ]
+    },
+    {
+      "id": "-2786-003",
+      "title": "第六王朝下的埃及古王国行政结构",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "第六王朝在佩皮一世（约公元前2323–2291年）统治下继续，他维持古王国的行政结构，同时应对日益增长的地方自治。佩皮一世的统治通过铭文和行政记录得到记载，显示继续的金字塔建造和宗教活动。然而，证据表明中央权威逐渐削弱，诺马尔赫积累权力和资源。",
+      "key_figures": [
+        "佩皮一世（第六王朝法老，约公元前2323–2291年）"
+      ],
+      "sources": [
+        {
+          "name": "埃及王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "金字塔文和墓葬铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "金字塔群和行政中心的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "佩皮一世的统治在王表、铭文和考古证据中有记载。然而，第六王朝的绝对年代不确定，可变动±50–100年。",
+      "cross_references": [
+        "-2787-003",
+        "-2181-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "将阿卡德帝国视为统一、中央集权国家的传统叙述，因持续的地区抵抗和行政挑战的证据而复杂化。古王国的衰落常被描绘为突然，但证据表明权力下放是一个更渐进的过程。",
+  "historiographic_note": "公元前2786年的文献仍然稀少，主要集中在埃及和美索不达米亚。绝对年代的精度限于±50–100年。历史记录主要由文字文明的纪念碑铭文和行政记录主导。",
+  "graph_edges": [
+    {
+      "from": "-2786-001",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "阿卡德行政体系在一代人之内崩溃"
+    },
+    {
+      "from": "-2786-002",
+      "to": "-1900-001",
+      "relation": "part_of",
+      "note": "印度河-美索不达米亚贸易持续到哈拉帕衰落"
+    }
+  ]
+}

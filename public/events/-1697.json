@@ -1,0 +1,118 @@
+{
+  "year": -1697,
+  "year_label": "公元前1698年",
+  "era_context": "中青铜时代。美索不达米亚的古巴比伦时期进入最后阶段；埃及的中王国在阿蒙涅姆赫特三世治下保持稳定；爱琴海米诺斯文明持续繁荣；安纳托利亚赫梯古王国巩固权力。这是相对国际稳定的时期，尽管地区冲突仍然存在。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-1697-001",
+      "title": "萨姆苏伊鲁纳对抗卡西特人的军事行动",
+      "region": "美索不达米亚（巴比伦尼亚和扎格罗斯地区）",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "military",
+      "description": "萨姆苏伊鲁纳在扎格罗斯山脉及周边地区对卡西特人及其他邻近势力发动军事行动。这些行动是构成古巴比伦晚期特征的更广泛冲突模式的一部分。卡西特人（一个印欧语民族）正逐步蚕食巴比伦领土。这些军事努力最终未能阻止古巴比伦权力的长期衰落。",
+      "key_figures": [
+        "萨姆苏伊鲁纳（巴比伦国王）"
+      ],
+      "sources": [
+        {
+          "name": "巴比伦王表与铭文",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "提及军事行动的楔形文字行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "萨姆苏伊鲁纳的军事行动在一般意义上已得到证实；逐年具体细节很少保存。该事件按年代学常规归入该年。",
+      "cross_references": []
+    },
+    {
+      "id": "-1697-002",
+      "title": "阿蒙涅姆赫特三世的统治接近尾声",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "阿蒙涅姆赫特三世处于其长期统治的最后几年（他于约公元前1814年去世）。中王国保持稳定和繁荣。其继任者阿蒙涅姆赫特四世可能已是共治者或正在准备继位。权力过渡平稳进行，反映了第十二王朝的制度稳定性。",
+      "key_figures": [
+        "阿蒙涅姆赫特三世（埃及法老）",
+        "阿蒙涅姆赫特四世（可能为共治者或继承人）"
+      ],
+      "sources": [
+        {
+          "name": "埃及王表",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "神庙铭文与行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿蒙涅姆赫特三世的统治已得到充分证实；其去世的确切年份不确定（±5–10年），但已知他在位约46年。",
+      "cross_references": [
+        "-1699-002",
+        "-1698-002"
+      ]
+    },
+    {
+      "id": "-1697-003",
+      "title": "米诺斯宫殿文化处于鼎盛",
+      "region": "克里特岛",
+      "coordinates_approx": "35.3, 25.1",
+      "category": "cultural",
+      "description": "克诺索斯、费斯托斯和马利亚的米诺斯宫殿是复杂的行政、宗教和经济活动中心。宫殿建筑设计先进，包括多层结构、先进的给排水系统以及描绘宗教仪式、自然场景和日常生活的精美壁画。这一时期代表了米诺斯文化成就的顶峰，之后进入晚米诺斯时期。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "考古发掘与建筑分析",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "米诺斯壁画与陶器（地层学）",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "米诺斯宫殿文化在考古学上已得到充分证实；逐年具体事件未有记载。",
+      "cross_references": [
+        "-1699-003",
+        "-1698-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未确定所列举事件的特定反证。然而，一些学者对米诺斯社会和平的解释提出质疑，他们指出考古记录中存在暴力和战争的证据。阿蒙涅姆赫特三世统治的定年仍因所用年代体系的不同而存在±50年不确定性。",
+  "historiographic_note": "该年属于埃及和美索不达米亚文献记载良好的时期，但逐年特异性有限。米诺斯文明主要通过考古学得知。年代不确定性仍然存在，特别是绝对定年。历史记录严重偏向精英活动以及有文字系统或密集考古调查的地区。",
+  "graph_edges": [
+    {
+      "from": "-1697-001",
+      "to": "-1698-001",
+      "relation": "contemporary_with",
+      "note": "萨姆苏伊鲁纳的统治持续。"
+    },
+    {
+      "from": "-1697-002",
+      "to": "-1698-002",
+      "relation": "contemporary_with",
+      "note": "阿蒙涅姆赫特三世的统治持续，接近尾声。"
+    },
+    {
+      "from": "-1697-003",
+      "to": "-1698-003",
+      "relation": "contemporary_with",
+      "note": "米诺斯宫殿文化持续。"
+    }
+  ]
+}

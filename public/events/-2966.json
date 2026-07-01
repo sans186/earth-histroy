@@ -1,0 +1,112 @@
+{
+  "year": -2966,
+  "year_label": "公元前2967年",
+  "era_context": "青铜时代早期三期。纳拉姆辛治下的阿卡德帝国继续主导美索不达米亚，尽管内部和外部压力在增加。埃及古王国处于其最后阶段。印度河流域文明仍处于成熟的、繁荣的阶段。这是已建立的城市文明与复杂行政系统的时期，但也潜在不稳定，将在未来几十年内导致重大转型。",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东亚",
+    "美洲",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-2966-001",
+      "title": "阿卡德帝国：军事行动与行政控制",
+      "region": "美索不达米亚及周边地区",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "纳拉姆辛继续进行军事行动以维持对阿卡德帝国广阔领土的控制。对卢卢比人和其他高地民族的战役记录在王室铭文中。帝国的行政系统高度集权，阿卡德官员在许多城市取代当地苏美尔统治者。然而，行政文本的证据表明，征税和维持偏远省份的军事驻军日益困难。帝国经济依然强劲，但资源日益紧张。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德王）"
+      ],
+      "sources": [
+        {
+          "name": "纳拉姆辛的王室铭文和行政泥板",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "后期的美索不达米亚编年史和国王名单",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿卡德军事活动和行政控制的总体模式有充分证据。单个年份内特定战役的确切断代不确定。",
+      "cross_references": [
+        "属于阿卡德帝国巩固和维持阶段"
+      ]
+    },
+    {
+      "id": "-2966-002",
+      "title": "埃及古王国：持续的权力分散和资源紧张",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "佩皮二世治下的埃及古王国继续经历权力和资源的分散。地方总督（诺姆长）积累财富和权威，建造精致的墓葬并建立地方权力基础。法老对国家机器的控制削弱。纪念性建筑工程在规模和频率上下降。与外国土地的贸易继续但水平降低。尼罗河洪水水位持续变动，影响农业生产力与国家收入。",
+      "key_figures": [
+        "佩皮二世（埃及法老，第六王朝）"
+      ],
+      "sources": [
+        {
+          "name": "来自地方遗址的墓葬铭文和行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "金字塔文和王室铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "古王国衰落的更广泛模式已确立。单个年份内特定行政变革的确切断代无法从现有史料中获得。",
+      "cross_references": [
+        "属于古王国衰落轨迹"
+      ]
+    },
+    {
+      "id": "-2966-003",
+      "title": "印度河流域文明：城市发展与贸易",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "印度河流域文明继续其成熟期，拥有发达的城市中心、复杂的基础设施和广泛的贸易网络。考古证据显示持续繁荣和稳定。文明标准化的度量衡和行政实践表明存在高度组织化的社会。与美索不达米亚、波斯湾和中亚的贸易保持活跃。在此时期，未出现重大中断或衰落的明显证据。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自印度河流域遗址的考古发掘和地层分析",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "美索不达米亚贸易记录提及梅鲁哈",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "成熟哈拉帕阶段的繁荣和特征通过考古得到充分证实。无法达到单一年份的年代精确度。",
+      "cross_references": [
+        "与阿卡德文明和埃及文明同时代"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现与所列事件相关的具体证伪证据。然而，埃及学家对佩皮二世统治时长的解读争议很大，影响将特定事件归于该年份的可靠性。一些学者主张比传统认为短得多的统治期，这将改变第六王朝的年代学。",
+  "historiographic_note": "公元前2967年的历史记录稀少，依赖片段性史料。美索不达米亚和埃及存在当代文字史料，但它们常为宣传性，不提供逐年叙事。对于印度河流域，我们完全依赖考古学。存留下的记录偏向于纪念碑式和行政活动，并偏向于主要文明。逐年叙事主要是基于更广泛模式的重建，而非具体有记载的事件。",
+  "graph_edges": [
+    {
+      "from": "-2966-001",
+      "to": "-2218-gutian_invasion",
+      "relation": "led_to",
+      "note": "阿卡德军事过度扩张和内部紧张促成了最终的崩溃"
+    },
+    {
+      "from": "-2966-002",
+      "to": "-2184-first_intermediate_period",
+      "relation": "led_to",
+      "note": "古王国权力下放导致第一中间期"
+    }
+  ]
+}

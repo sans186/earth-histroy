@@ -1,0 +1,116 @@
+{
+  "year": -1596,
+  "year_label": "公元前1597年",
+  "era_context": "中青铜时代。赫梯古王国在安纳托利亚巩固权力，由汉提里一世及其后继者领导。希克索斯第十五王朝控制尼罗河三角洲和下埃及，而本土第十三王朝继续在上埃及享有有限权威。加喜特王朝在赫梯劫掠（约公元前1595年）后统治巴比伦和美索不达米亚南部。迈锡尼希腊处于早期青铜时代III期。印度河流域文明处于后城市衰落阶段。这是一个区域力量和政治分裂的时期。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "大洋洲",
+    "中亚",
+    "东亚"
+  ],
+  "events": [
+    {
+      "id": "-1596-001",
+      "title": "赫梯古王国：安纳托利亚的军事巩固",
+      "region": "安纳托利亚",
+      "coordinates_approx": "39.5, 34.5",
+      "category": "military",
+      "description": "赫梯古王国继续军事征伐以巩固对安纳托利亚的控制，并确立赫梯对敌对王国和城邦的主导地位。赫梯人正在发展军事组织、防御工事体系以及行政结构，这些将成为后来新王国帝国的特征。这一时期见证了赫梯作为区域主要军事力量的崛起。",
+      "key_figures": [
+        "赫梯古王国统治者（汉提里一世及其后继者）"
+      ],
+      "sources": [
+        {
+          "name": "赫梯王室铭文和《泰利皮努敕令》（后世编纂）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "来自哈图沙及其他安纳托利亚遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "赫梯古王国的军事活动在总体上得到证实，但公元前1596年的具体征伐未有记载。",
+      "cross_references": [
+        "属于赫梯古王国扩张（约公元前1650–1620年）"
+      ]
+    },
+    {
+      "id": "-1596-002",
+      "title": "加喜特巴比伦：早期行政发展",
+      "region": "美索不达米亚（巴比伦）",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "加喜特王朝继续建立行政结构并巩固对巴比伦和美索不达米亚南部的控制。加喜特人采纳巴比伦的行政实践、法律规范和宗教传统，同时保持自身的军事和民族身份。这一时期发展了将作为加喜特时期特征的封建式治理体系。",
+      "key_figures": [
+        "早期加喜特国王"
+      ],
+      "sources": [
+        {
+          "name": "来自巴比伦及美索不达米亚遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "巴比伦王表（后世编纂）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "加喜特行政发展的一般模式得到证实，但公元前1596年的具体事件未有记载。",
+      "cross_references": [
+        "属于加喜特早期（约公元前1595–1400年）"
+      ]
+    },
+    {
+      "id": "-1596-003",
+      "title": "希克索斯第十五王朝：埃及的行政巩固",
+      "region": "埃及（尼罗河三角洲和下埃及）",
+      "coordinates_approx": "31.0, 30.5",
+      "category": "political",
+      "description": "希克索斯第十五王朝继续巩固对尼罗河三角洲和下埃及的行政控制。希克索斯人建立行政中心、军事驻军，并维持与黎凡特、努比亚和地中海的贸易网络。希克索斯统治者采纳埃及头衔和宗教习俗，同时通过使用马拉战车和复合弓保持自身的文化身份和军事优势。",
+      "key_figures": [
+        "第十五王朝希克索斯国王"
+      ],
+      "sources": [
+        {
+          "name": "来自泰勒达巴（阿瓦里斯）的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "埃及新王国文本描述希克索斯时期（后世编纂）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "希克索斯时期在考古上得到充分证实，但公元前1596年的具体事件未有记载。",
+      "cross_references": [
+        "属于埃及希克索斯统治（约公元前1650–1550年）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "已确定所列事件无反证。",
+  "historiographic_note": "公元前1596年处于同时代文献极为稀疏的时期。该具体年份的事件基本未知。上述条目描述了加喜特早期、赫梯古王国和希克索斯时期发生的更广泛政治和军事巩固模式。该时期常见的年代不确定性为±20–50年。",
+  "graph_edges": [
+    {
+      "from": "-1596-001",
+      "to": "-1596-002",
+      "relation": "contemporary_with",
+      "note": "赫梯军事巩固与加喜特行政发展同时发生"
+    },
+    {
+      "from": "-1596-003",
+      "to": "-1596-001",
+      "relation": "contemporary_with",
+      "note": "埃及希克索斯巩固与赫梯和加喜特巩固同时代"
+    }
+  ]
+}

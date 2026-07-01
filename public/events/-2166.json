@@ -1,0 +1,113 @@
+{
+  "year": -2166,
+  "year_label": "公元前2166年",
+  "era_context": "埃及古王国晚期处于最后分裂；阿卡德帝国在古提人压力下末期衰落；印度河流域文明处于高峰发展；黎凡特和安纳托利亚处于早期青铜时代III期。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2166-001",
+      "title": "埃及第六王朝：名义中央权威的最后几年",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "第六王朝处于最后几年。佩皮二世的统治（如果他在这个日期还活着）以最小的中央权威为特征。地方总督作为独立统治者行事。向第一中间期的过渡即将来临。王室建筑工程已经停止；国家机器正分裂为地方权力基地。",
+      "key_figures": [
+        "佩皮二世（法老，名义上的权威，可能于此日期已去世）"
+      ],
+      "sources": [
+        {
+          "name": "王表（阿拜多斯、都灵）",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "地方官员墓室铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "佩皮二世去世的确切日期不确定；一些学者将其置于约公元前2184年，另一些约公元前2150年。此年份按惯例分配。",
+      "cross_references": [
+        "-2167-001"
+      ]
+    },
+    {
+      "id": "-2166-002",
+      "title": "阿卡德帝国：古提人入侵加速；纳拉姆辛统治结束",
+      "region": "美索不达米亚、扎格罗斯",
+      "coordinates_approx": "34.0, 33.0",
+      "category": "military",
+      "description": "纳拉姆辛的统治结束（传统日期约公元前2218年，尽管一些学者将其定得更晚）。他的继承者面临来自扎格罗斯山脉古提人入侵的巨大压力。阿卡德对美索不达米亚的控制正在迅速崩溃。南部城邦重新主张独立。统治了该地区一个多世纪的阿卡德帝国正分裂为地方势力和古提人控制的领土。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德国王，统治结束）",
+        "沙尔卡利沙里（纳拉姆辛的继承者，传统日期公元前2217–2193年）"
+      ],
+      "sources": [
+        {
+          "name": "王室铭文与王表",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "显示中央权威崩溃的楔形文字行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛统治的结束和古提人入侵的开始有充分记录，但年代不确定性为±10-20年。",
+      "cross_references": [
+        "-2167-002"
+      ]
+    },
+    {
+      "id": "-2166-003",
+      "title": "印度河流域文明：持续繁荣和贸易一体化",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "印度河流域文明继续处于高峰发展。城市中心人口稠密；贸易网络广泛。该文明似乎未受美索不达米亚和埃及政治动荡的影响。与美索不达米亚的海上贸易继续，尽管阿卡德的崩溃可能最终破坏这些网络。该文明的内部组织仍不透明。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "哈拉帕、摩亨佐-达罗等遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "印度河印章与度量衡",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明的存在和繁盛已由考古证实；绝对年代为±50-100年。",
+      "cross_references": [
+        "-2167-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "纳拉姆辛去世和阿卡德崩溃的精确年表仍存在争议。一些学者主张更早的崩溃（约公元前2200年），而另一些则定于更晚（约公元前2150年）。将阿卡德崩溃与气候变化联系起来的‘阿卡德干旱’假说（Weiss等人，1993年）存在争议；一些学者则强调政治和军事因素。这一时期的埃及年表有±20-30年的不确定性。",
+  "historiographic_note": "这一年属于美索不达米亚和埃及发生重大历史转型的时期，但文字记录是零散的。历史记录通过王表、铭文和行政记录重建，所有这些都有年代不确定性。印度河流域在考古上已知，但在历史上不透明。阿卡德帝国的崩溃是最早有记录的帝国崩溃案例之一，但原因（气候、军事、内部叛乱）仍存在争议。",
+  "graph_edges": [
+    {
+      "from": "-2166-002",
+      "to": "-2150-GUTIAN_PERIOD",
+      "relation": "led_to",
+      "note": "阿卡德崩溃导致古提人在美索不达米亚的统治"
+    },
+    {
+      "from": "-2166-001",
+      "to": "-2150-FIRST_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "古王国崩溃导致第一中间期"
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "year": 1603,
+  "year_label": "1603年",
+  "era_context": "近代早期：詹姆斯一世在伊丽莎白一世去世后继承英格兰王位；德川幕府在日本建立；VOC在荷兰共和国获得特许状；萨法维帝国在沙阿阿拔斯一世治下扩张；明朝中国在万历皇帝统治下继续。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（欧洲文献有限）",
+    "北美内陆（欧洲接触记录稀少）",
+    "太平洋岛屿（欧洲知识极少）"
+  ],
+  "events": [
+    {
+      "id": "1603-001",
+      "title": "奥斯曼帝国与萨法维波斯之间的阿马西亚和约",
+      "region": "奥斯曼帝国 / 萨法维波斯边境",
+      "coordinates_approx": "40.6, 35.8",
+      "category": "political",
+      "description": "阿马西亚和约（1603年5月）结束了奥斯曼-萨法维战争（1578–1590），并在奥斯曼帝国与萨法维帝国之间建立了边界。条约承认奥斯曼对高加索和美索不达米亚的控制，而萨法维保留波斯本土的控制。条约建立了相对稳定的边界，将在17世纪大部分时间持续，尽管边界冲突仍在继续。",
+      "key_figures": [
+        "苏丹艾哈迈德一世（奥斯曼）",
+        "沙阿阿拔斯一世（萨法维）",
+        "易卜拉欣帕夏（奥斯曼谈判代表）"
+      ],
+      "sources": [
+        {
+          "name": "奥斯曼国家记录和外交信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "萨法维宫廷编年史",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "关于奥斯曼-萨法维关系的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "条约文本保存在多个档案中，并经过史学家广泛研究。",
+      "cross_references": [
+        "1606-004 (吉托洛克和约)"
+      ]
+    },
+    {
+      "id": "1603-002",
+      "title": "德川家康成为日本将军",
+      "region": "日本",
+      "coordinates_approx": "35.6762, 139.6503",
+      "category": "political",
+      "description": "德川家康由天皇任命为将军，建立了德川幕府。这标志着江户时代（1603–1868）的开始，将持续250多年，以政治稳定、文化繁荣和相对封闭于外部世界为特征。家康的任命是在关原之战（1600年）胜利之后，巩固了他对日本的权力。",
+      "key_figures": [
+        "德川家康（新任将军）",
+        "后阳成天皇（日本天皇）"
+      ],
+      "sources": [
+        {
+          "name": "《德川家光日记》和江户幕府记录",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "关于江户时代的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在日本行政记录和后来的汇编中有详细记载。",
+      "cross_references": [
+        "1600-001 (关原之战)",
+        "1605-002 (德川家康退休)"
+      ]
+    },
+    {
+      "id": "1603-003",
+      "title": "国王詹姆斯一世继承英格兰王位",
+      "region": "英格兰",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "political",
+      "description": "国王詹姆斯一世（苏格兰的詹姆斯六世）在女王伊丽莎白一世于1603年3月24日去世后继承英格兰王位。詹姆斯是英格兰第一位斯图亚特君主，也是第一位统一英格兰和苏格兰王冠的人。他的即位标志着都铎王朝的结束和斯图亚特时期的开始。詹姆斯带来了与伊丽莎白不同的治理方法，强调君权神授并寻求与西班牙和平。",
+      "key_figures": [
+        "国王詹姆斯一世（新任英格兰君主）",
+        "伊丽莎白一世女王（前任，已故）",
+        "罗伯特·塞西尔（首席大臣）"
+      ],
+      "sources": [
+        {
+          "name": "《国事文件汇编：国内，詹姆斯一世》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代编年史和记载",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "关于斯图亚特时期的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在当代政府文件和编年史中有广泛记载。即位日期有精确记录。",
+      "cross_references": [
+        "1604-001 (伦敦条约)"
+      ]
+    },
+    {
+      "id": "1603-004",
+      "title": "萨缪尔·德·尚普兰探索圣劳伦斯河",
+      "region": "北美（今加拿大）",
+      "coordinates_approx": "46.8139, -71.2080",
+      "category": "exploration",
+      "description": "法国探险家萨缪尔·德·尚普兰沿圣劳伦斯河航行，探索将成为魁北克的地区。尚普兰正在寻找通往太平洋的通道并建立法国贸易站。他的探索标志着法国在北美殖民扩张的开始以及新法兰西的建立。",
+      "key_figures": [
+        "萨缪尔·德·尚普兰（法国探险家）"
+      ],
+      "sources": [
+        {
+          "name": "尚普兰自己的记述和日记",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "关于早期法国探索的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "尚普兰的探索在他自己的日记和后来的记述中有记载，但确切日期和路线有时被历史学家争论。",
+      "cross_references": [
+        "1608-001 (尚普兰建立魁北克)"
+      ]
+    },
+    {
+      "id": "1603-005",
+      "title": "明朝万历皇帝继续统治",
+      "region": "明朝中国",
+      "coordinates_approx": "39.9042, 116.4074",
+      "category": "political",
+      "description": "万历皇帝继续统治明朝中国。到1603年，皇帝已在位超过30年，健康日益衰退。万历后期以行政衰落、派系斗争和宦官权力上升为特征。然而，明朝文化和经济仍然强大，中国继续是世界主要强国。",
+      "key_figures": [
+        "万历皇帝（明朝统治者）"
+      ],
+      "sources": [
+        {
+          "name": "明朝宫廷记录和行政文件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "关于明朝的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在明朝行政记录中有详细记载。",
+      "cross_references": [
+        "1572-001 (万历皇帝登基)",
+        "1620-001 (万历皇帝去世)"
+      ]
+    },
+    {
+      "id": "1603-006",
+      "title": "沙阿阿拔斯一世巩固萨法维权力",
+      "region": "萨法维波斯",
+      "coordinates_approx": "32.6546, 51.6680",
+      "category": "political",
+      "description": "萨法维统治者沙阿阿拔斯一世继续巩固权力并扩张波斯帝国。到1603年，阿拔斯击败了乌兹别克人，通过阿马西亚和约确保了高加索地区，并将波斯确立为地区主要强国。他促进贸易，建设基础设施，并将伊斯法罕确立为宏伟的首都。",
+      "key_figures": [
+        "沙阿阿拔斯一世（萨法维统治者）"
+      ],
+      "sources": [
+        {
+          "name": "萨法维宫廷编年史和行政记录",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "欧洲外交记录（例如威尼斯和英国大使）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "关于萨法维帝国的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在波斯和欧洲资料中均有详细记载。",
+      "cross_references": [
+        "1603-001 (阿马西亚和约)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "阿马西亚和约有时被描绘为奥斯曼-萨法维关系的决定性解决方案，但边界冲突在整个17世纪持续。条约建立了和平框架，但并未消除潜在紧张。詹姆斯一世的即位常被描绘为英国政策的戏剧性转变，但近期学术研究暗示在许多领域与伊丽莎白政策有连续性。尚普兰的探索在即时影响方面有时被夸大；法国在北美的殖民进程缓慢，面临重大障碍。",
+  "historiographic_note": "1603年的文献在欧洲历史上很丰富，有大量的政府文件和出版著作。亚洲资料（日本、波斯、中国）也保存完好。然而，记录严重偏向涉及精英的政治和军事事件。詹姆斯一世的即位主导了英国历史叙述，可能掩盖了该年其他重要事件。非欧洲地区的经济和社会史代表性不足。撒哈拉以南非洲和北美内陆几乎完全缺席当代欧洲记录，尽管尚普兰的探索标志着欧洲对北美更系统记录的開始。资料本身由记录机构（宫廷、贸易公司、宗教当局）的利益塑造。",
+  "graph_edges": [
+    {
+      "from": "1603-001",
+      "to": "1606-004",
+      "relation": "led_to",
+      "note": "阿马西亚和约框架导致吉托洛克和约"
+    },
+    {
+      "from": "1603-002",
+      "to": "1605-002",
+      "relation": "led_to",
+      "note": "德川家康成为将军，导致他1605年退休"
+    },
+    {
+      "from": "1603-003",
+      "to": "1604-001",
+      "relation": "led_to",
+      "note": "詹姆斯一世即位导致与西班牙的伦敦条约"
+    },
+    {
+      "from": "1603-004",
+      "to": "1608-001",
+      "relation": "led_to",
+      "note": "尚普兰的探索导致魁北克的建立"
+    },
+    {
+      "from": "1603-001",
+      "to": "1603-006",
+      "relation": "contemporary_with",
+      "note": "阿马西亚和约与沙阿阿拔斯一世的巩固是同时代事件"
+    }
+  ]
+}

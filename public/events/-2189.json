@@ -1,0 +1,114 @@
+{
+  "year": -2189,
+  "year_label": "公元前2189年",
+  "era_context": "埃及古王国处于最后几十年；第六王朝正在分裂。美索不达米亚的阿卡德帝国面临气候、叛乱和外部压力的严重威胁。4.2千年气候事件处于或接近顶峰。印度河流域文明处于城市顶峰。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "大洋洲",
+    "草原地区",
+    "东亚"
+  ],
+  "events": [
+    {
+      "id": "-2189-001",
+      "title": "埃及第六王朝：持续分裂；地方自治增强",
+      "region": "埃及（尼罗河谷）",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "第六王朝持续衰落。地方总督（州长）巩固权力和资源，日益作为独立统治者行事。墓室铭文和行政记录显示，这些官员指挥着自己的军队，维持独立财政，并自行处理对外关系。中央政府的权威日益有名无实。来自地方遗址的考古证据显示，即便在王室宫廷权力衰弱之际，地方层面仍保持繁荣和建筑活动。金字塔建造计划已实际终止。",
+      "key_figures": [
+        "佩皮二世（第六王朝法老，传统统治期公元前2278–2184年）"
+      ],
+      "sources": [
+        {
+          "name": "地方官员自传体铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "地方遗址的考古遗存",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "都灵王表",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "第六王朝的分裂在考古记录中有充分证据。精确年份不确定。",
+      "cross_references": [
+        "属于古王国衰落",
+        "导致第一中间期"
+      ]
+    },
+    {
+      "id": "-2189-002",
+      "title": "阿卡德帝国：4.2千年气候危机顶峰；饥荒与资源短缺",
+      "region": "美索不达米亚",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "environmental",
+      "description": "4.2千年气候事件处于或接近其强度顶峰。古气候记录显示近东地区严重干旱化。楔形文字记录记载了美索不达米亚的饥荒、农业减产和资源短缺。阿卡德帝国面临气候引发的饥荒、古提人的军事压力以及内部叛乱的严峻压力。行政记录显示贸易网络中断和对边缘地区控制丧失。帝国正分裂为地方权力中心。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "古气候记录（冰芯、树轮、湖泊沉积物）",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "楔形文字行政与经济记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "4.2千年气候事件在古气候记录中证据充分。对美索不达米亚的影响楔形文字中有记载。",
+      "cross_references": [
+        "与埃及古王国衰落同时",
+        "属于更广泛的4.2千年气候危机"
+      ]
+    },
+    {
+      "id": "-2189-003",
+      "title": "印度河流域文明：成熟城市阶段；广泛贸易网络",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "印度河流域文明延续其成熟阶段，未见明显中断。主要城市展现出精妙城市规划、标准化度量衡以及广泛贸易网络。考古地层显示持续居住和文化延续。该文明似乎对4.2千年气候事件具有韧性。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "考古发掘与地层分析",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "印度河文字印章和泥板",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明成熟阶段通过考古学得到牢固确立。",
+      "cross_references": [
+        "与埃及和美索不达米亚危机同时",
+        "显示气候影响的地域差异"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "印度河流域文明的明显韧性使4.2千年气候事件的全球统一性受到质疑。一些学者认为阿卡德崩溃主要由内部政治因素驱动而非单独由气候所致。",
+  "historiographic_note": "本年度处于文献稀疏时期。埃及和美索不达米亚有文字记录，但这些往往是后来编纂的。印度河流域有丰富考古学证据但无解译文字。4.2千年气候事件在古气候记录中证据充分。",
+  "graph_edges": [
+    {
+      "from": "-2189-002",
+      "to": "-2188-002",
+      "relation": "contemporary_with",
+      "note": "阿卡德压力延续"
+    }
+  ]
+}

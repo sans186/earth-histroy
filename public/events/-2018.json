@@ -1,0 +1,112 @@
+{
+  "year": -2018,
+  "year_label": "公元前2018年",
+  "era_context": "黎凡特和埃及的中青铜时代；萨姆苏伊鲁纳治下的古巴比伦时期；中国的商朝。这是一个已确立国家体系、复杂行政机构和连接埃及、美索不达米亚、黎凡特和中国的长途贸易网络的时代。",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东南亚",
+    "美洲",
+    "中亚",
+    "北欧",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-2018-001",
+      "title": "萨姆苏伊鲁纳继续统治巴比伦",
+      "region": "美索不达米亚（巴比伦尼亚）",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "萨姆苏伊鲁纳此年继续维持对巴比伦的统治。其统治以行政管理和为维护领土控制而进行的军事行动为特征。古巴比伦国家通过复杂官僚体系运作，留有税收、法律纠纷和军事组织记录。然而，巴比伦权力相比汉谟拉比鼎盛时逐渐衰落。",
+      "key_figures": [
+        "萨姆苏伊鲁纳（巴比伦国王）"
+      ],
+      "sources": [
+        {
+          "name": "楔形文字行政泥板和信件",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "《巴比伦王表》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "萨姆苏伊鲁纳统治确凿，但具体逐年事件未记录。",
+      "cross_references": [
+        "-2015-001",
+        "-2016-001",
+        "-2017-001"
+      ]
+    },
+    {
+      "id": "-2018-002",
+      "title": "埃及第十三王朝继续衰落",
+      "region": "埃及（上埃及）",
+      "coordinates_approx": "25.7, 32.6",
+      "category": "political",
+      "description": "埃及第十三王朝继续以日益减弱的权威统治上埃及。该王朝特点为统治者快速更迭和中央权力分裂。下埃及仍在喜克索斯人控制下。第十三王朝维持宗教和行政职能，但缺乏前代王朝的军事和经济资源。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "埃及王表（都灵纸草）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "上埃及的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "第十三王朝记录不佳。确切年代和统治者继承不确定。",
+      "cross_references": [
+        "-2015-002",
+        "-2016-002",
+        "-2017-002"
+      ]
+    },
+    {
+      "id": "-2018-003",
+      "title": "商朝宗教与行政实践",
+      "region": "中国（黄河流域，河南）",
+      "coordinates_approx": "34.6, 114.3",
+      "category": "religious",
+      "description": "商朝继续其甲骨占卜和祖先崇拜实践。王室仪式和宗教典礼旨在维护宇宙秩序并确保农业丰收和军事胜利。商王作为人神之间的中介。这些实践通过甲骨刻辞和祭祀遗址考古证据得以记录。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "安阳（殷墟）出土的甲骨",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "祭祀遗址和青铜器的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "商朝宗教实践得到甲骨和考古证据证实。这些实践在多个遗址和时间段一致。",
+      "cross_references": [
+        "-2015-003",
+        "-2016-003",
+        "-2017-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现否定证据。喜克索斯时期和埃及第十三王朝的年代学不确定性普遍存在。",
+  "historiographic_note": "公元前2018年在具体事件方面记录不佳。该年历史记录依赖考古背景、行政记录和几世纪后编纂的王表。无存世同期叙事记录。逐年历史主要从更广泛的模式而非具体日期事件重建。",
+  "graph_edges": [
+    {
+      "from": "-2018-001",
+      "to": "-2015-001",
+      "relation": "contemporary_with",
+      "note": "萨姆苏伊鲁纳统治延续。"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "year": -1086,
+  "year_label": "公元前1086年",
+  "era_context": "东地中海和近东铁器时代I；中国商朝晚期（最后几十年）；南亚吠陀时期。埃及在拉美西斯三世统治下，处于其统治后期。地中海政治格局被青铜时代崩溃后新兴力量（腓尼基、早期希腊城邦）的出现重塑。周朝在征服商朝前巩固权力。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中美洲",
+    "北欧",
+    "中亚",
+    "东南亚",
+    "太平洋岛屿"
+  ],
+  "events": [
+    {
+      "id": "-1086-001",
+      "title": "拉美西斯三世统治后期",
+      "region": "埃及",
+      "coordinates_approx": "25.7°N, 32.6°E",
+      "category": "political",
+      "description": "拉美西斯三世处于其统治后期（他将在约公元前1155年去世）。他的统治以军事战役、神庙建设和日益增加的经济压力为标志。法老的权威虽然仍然强大，但开始受到底比斯阿蒙祭司阶层日益增长权力的挑战。行政系统显示出压力迹象，有腐败和劳工骚乱的证据。拉美西斯三世的继任者将面临更薄弱的地位，导致法老权力在第三中间期最终分裂。",
+      "key_figures": [
+        "Ramesses III (埃及法老)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu神庙铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "拉美西斯三世统治有详细记载。公元前1086年在其统治期（约公元前1186–1155年）内近似。",
+      "cross_references": []
+    },
+    {
+      "id": "-1086-002",
+      "title": "商朝接近最终崩溃",
+      "region": "中国，黄河河谷",
+      "coordinates_approx": "34.5°N, 114.0°E",
+      "category": "political",
+      "description": "商朝处于最后几年，面临来自西方周人日益增长的压力。帝辛继续统治，但他的权威正在削弱。周人在文王及其子武王的领导下巩固权力，准备征服以结束商朝统治。考古证据显示商朝文化实践（青铜铸造、甲骨占卜）持续，但政治体系正在分裂。周征服的传统日期是公元前1046年，商朝最终崩溃仅40年后。",
+      "key_figures": [
+        "Di Xin (商王)",
+        "King Wen (周)",
+        "King Wu (周)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "甲骨文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "来自殷墟和周代遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "商朝最后几年在后来中国编年史和甲骨文中有记载。具体定年不确定；传统编年将这一时期置于约公元前1086–1046年，但一些学者主张更早的日期。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "周征服作为有德之周战胜堕落之商的道德和军事胜利的传统叙事受到现代学者的质疑，他们认为这是一个更复杂的政治巩固和军事征服过程。用于证明征服合理性的“天命”意识形态可能是在事后发展出来的。商朝的崩溃不是突然的，而是渐进的，周人经过几代人的时间逐渐扩张领土和影响力。",
+  "historiographic_note": "公元前1086年的文献限于埃及（行政记录和神庙铭文）和中国（后来编年史和甲骨文）。地中海和黎凡特主要通过考古学所知。世界大部分地区在特定年份无记载。历史记录反映了识字文明的分布以及现代学术对保存良好的遗址和书面记录的关注。",
+  "graph_edges": [
+    {
+      "from": "-1086-002",
+      "to": "-1046-001",
+      "relation": "led_to",
+      "note": "商朝衰弱导致约公元前1046年的周征服。"
+    }
+  ]
+}

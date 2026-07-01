@@ -1,0 +1,123 @@
+{
+  "year": -1068,
+  "year_label": "公元前1069年",
+  "era_context": "晚期青铜时代/早期铁器时代过渡。埃及第二十王朝在拉美西斯十世或十一世统治下继续；底比斯阿蒙神庙祭司权力增强。东地中海仍不稳定，海上民族活动减少。中国周朝处于早期巩固阶段。黎凡特城邦在青铜时代崩溃破坏后重建。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "大洋洲",
+    "中亚和草原（有限文字记录）"
+  ],
+  "events": [
+    {
+      "id": "-1068-001",
+      "title": "埃及拉美西斯十世或十一世继续统治",
+      "region": "埃及，新王国",
+      "coordinates_approx": "25.7°N, 32.6°E",
+      "category": "political",
+      "description": "第二十王朝的法老在日益加剧的内部分裂中继续统治埃及。底比斯的阿蒙大祭司积累财富和权威，实际上独立统治上埃及。王室铭文变得稀少且简略。来自代尔麦地那的经济纸莎草文献记录了劳工纠纷和工资延迟，反映了国家财政压力。",
+      "key_figures": [
+        "拉美西斯十世或十一世（法老）",
+        "底比斯的阿蒙大祭司"
+      ],
+      "sources": [
+        {
+          "name": "代尔麦地那的纸莎草文献；卡纳克神庙记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "阿比多斯王表；都灵王表",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "第二十王朝晚期法老的在位年份不确定且存在争议。本年按惯例归于拉美西斯十世或十一世的统治时期，但具体年份未经独立证实。",
+      "cross_references": [
+        "-1069-001"
+      ]
+    },
+    {
+      "id": "-1068-002",
+      "title": "黎凡特城邦后崩溃恢复阶段",
+      "region": "黎凡特（今叙利亚、黎巴嫩、巴勒斯坦）",
+      "coordinates_approx": "34.5°N, 36.0°E",
+      "category": "economic",
+      "description": "西顿、推罗、比布卢斯等黎凡特城市正从晚期青铜时代崩溃的破坏中恢复。贸易网络正在重建，特别是与埃及和爱琴海的海上贸易。考古证据显示人口逐渐恢复和城市中心的重建。这一时期标志着后来腓尼基文明的出现。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "西顿、推罗、比布卢斯及其他黎凡特遗址发掘的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "提及黎凡特贸易的埃及行政记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "黎凡特城市的恢复在考古学上有充分证据，但个别年份的精确年表难以确定。此事件按惯例归于这一时期。",
+      "cross_references": []
+    },
+    {
+      "id": "-1068-003",
+      "title": "西周王朝巩固持续",
+      "region": "中国，华北平原",
+      "coordinates_approx": "34.0°N, 109.0°E",
+      "category": "political",
+      "description": "周朝继续巩固对华北平原及周边地区的控制。青铜铭文记载了向周朝盟友分封土地和建立行政等级制度。天命意识形态正在发展，以合法化周朝对已被推翻的商朝的统治。",
+      "key_figures": [
+        "周成王（或其摄政者周公）"
+      ],
+      "sources": [
+        {
+          "name": "西周时期的青铜器铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "司马迁《史记》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "周原等西周遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "周朝年表仍存在争议。传统断代将周成王在位置于约公元前1042–1021年，但存在其他年表。本年归属于特定统治是近似的。",
+      "cross_references": [
+        "-1069-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "关于从黎凡特城邦中出现统一“腓尼基”文明的叙事是现代建构；这些城市是独立的且经常相互竞争。关于从青铜时代到铁器时代急剧过渡的概念越来越受到质疑；过渡是渐进的且区域各异。周朝年表仍存在争议，一些学者主张比此处使用的传统年表显著更晚的日期。",
+  "historiographic_note": "公元前1069年的文献记录稀疏。埃及记录最丰富，但在第二十王朝晚期细节和频率减少。中国来源主要是后期汇编，有一些同期青铜铭文。黎凡特历史主要从考古学重建，考古学对个别年份的精度有限。历史记录严重偏向于有文字的中央集权国家。游牧社会、海上贸易者和非国家政体在幸存来源中代表性不足或不可见。",
+  "graph_edges": [
+    {
+      "from": "-1068-001",
+      "to": "-1067-001",
+      "relation": "led_to",
+      "note": "拉美西斯衰落和祭司权力增长的持续"
+    },
+    {
+      "from": "-1068-002",
+      "to": "-1067-002",
+      "relation": "led_to",
+      "note": "黎凡特持续恢复和贸易扩张"
+    },
+    {
+      "from": "-1068-003",
+      "to": "-1067-003",
+      "relation": "led_to",
+      "note": "周朝巩固的持续"
+    }
+  ]
+}

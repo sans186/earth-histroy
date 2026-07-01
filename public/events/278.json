@@ -1,0 +1,135 @@
+{
+  "year": 278,
+  "year_label": "公元278年",
+  "era_context": "罗马帝国在普罗布斯（公元276–282年）统治下，正处于军事巩固和边境恢复之中。萨珊帝国在巴赫拉姆二世（公元274–293年）统治下巩固权力。中国西晋王朝（公元266–316年）即将通过征服东吴（公元280年）统一帝国。日耳曼和哥特部落仍在罗马边境活动。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "罗马边境外的北欧",
+    "东南亚",
+    "中美洲",
+    "太平洋岛屿"
+  ],
+  "events": [
+    {
+      "id": "278-001",
+      "title": "普罗布斯在莱茵河上对日耳曼部落作战",
+      "region": "罗马帝国（莱茵河边境）",
+      "coordinates_approx": "50.5, 8.0",
+      "category": "military",
+      "description": "皇帝普罗布斯沿莱茵河边境对日耳曼部落，特别是法兰克人和阿勒曼尼人进行军事战役。这些战役是他系统恢复北方边界控制的努力的一部分，数十年的不稳定之后。普罗布斯据称击败了多个部落联盟，并修复了莱茵河上的罗马防御工事。",
+      "key_figures": [
+        "普罗布斯（罗马皇帝，公元276–282年在位）"
+      ],
+      "sources": [
+        {
+          "name": "《罗马帝王纪·普罗布斯传》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "佐西莫斯《新史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "普罗布斯的莱茵河战役在多种史料中有记载，但具体日期不确定。《罗马帝王纪》在精确年表上不可靠。",
+      "cross_references": [
+        "276-001 (普罗布斯即位)",
+        "280-001 (普罗布斯的持续边境战役)"
+      ]
+    },
+    {
+      "id": "278-002",
+      "title": "普罗布斯恢复罗马对高卢的控制",
+      "region": "罗马帝国（高卢）",
+      "coordinates_approx": "46.0, 2.0",
+      "category": "political",
+      "description": "普罗布斯巩固了罗马在高卢的权力，该地区在三世纪危机期间因日耳曼入侵和内部篡位者而不稳定。他恢复了行政秩序，重建了防御工事，并重新建立了税收征收。来自高卢的考古证据显示此时期罗马行政活动重新活跃。",
+      "key_figures": [
+        "普罗布斯（罗马皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "《罗马帝王纪·普罗布斯传》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "来自高卢的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "考古证据确认了普罗布斯时代在高卢的活动，但具体日期常为近似值。",
+      "cross_references": []
+    },
+    {
+      "id": "278-003",
+      "title": "巴赫拉姆二世面临萨珊边境游牧部落的挑战",
+      "region": "萨珊帝国（东北边境）",
+      "coordinates_approx": "37.0, 70.0",
+      "category": "military",
+      "description": "巴赫拉姆二世面临萨珊帝国东北边境游牧部落的军事压力。这些部落很可能是贵霜人或中亚其他民族，对萨珊控制丝绸之路贸易路线构成威胁。巴赫拉姆二世以军事战役回应以保障边境。",
+      "key_figures": [
+        "巴赫拉姆二世（萨珊万王之王，公元274–293年在位）"
+      ],
+      "sources": [
+        {
+          "name": "萨珊岩刻与铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "塔巴里《先知与诸王史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "巴赫拉姆二世的军事活动在岩刻和铭文中有记载，但具体日期和细节常不确定。",
+      "cross_references": []
+    },
+    {
+      "id": "278-004",
+      "title": "西晋王朝巩固对中国南方的控制",
+      "region": "中国（西晋王朝）",
+      "coordinates_approx": "30.0, 110.0",
+      "category": "political",
+      "description": "西晋王朝巩固对中国南方的控制，为最终征服东吴做准备。实施行政改革以整合新征服的领土。帝国的军事和经济资源被调动，以进行统一的最后冲刺。",
+      "key_figures": [
+        "晋武帝（公元266–290年在位）"
+      ],
+      "sources": [
+        {
+          "name": "《晋书》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "西晋巩固的总体叙述有充分记载，但公元278年的具体事件并非总能与相邻年份明确区分。",
+      "cross_references": [
+        "280-005 (征服东吴)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "《罗马帝王纪》对普罗布斯的记载常常夸大或包含传奇元素。现代学术界对这些记载持怀疑态度。普罗布斯战役的确切年表不确定；一些史料将某些战役放在不同年份。普罗布斯军事成就的重要性在旧史学中有时被夸大。",
+  "historiographic_note": "公元278年的历史记载严重依赖《罗马帝王纪》，其可靠性不确定。同时代的钱币和铭文提供了一些佐证。中国史料更可靠且一致。萨珊史料主要是铭文。记载偏向精英军事和政治事件。地中海、波斯和中国之外的世界大部分地区在现存记载中缺失。",
+  "graph_edges": [
+    {
+      "from": "278-001",
+      "to": "280-001",
+      "relation": "part_of",
+      "note": "属于普罗布斯更广泛的边境巩固战役（公元276–282年）的一部分"
+    },
+    {
+      "from": "278-004",
+      "to": "280-005",
+      "relation": "led_to",
+      "note": "巩固控制导致公元280年征服东吴"
+    }
+  ]
+}

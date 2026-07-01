@@ -1,0 +1,689 @@
+{
+  "year": 1975,
+  "year_label": "公元1975年",
+  "era_context": "冷战进入第三个十年，越南战争于1975年4月在持续20年冲突后结束。后殖民世界正在巩固，非洲和亚洲新独立的国家建立国家机构。1973-1974年的石油危机在西方经济体引发了滞胀。太空竞赛正从阿波罗时代过渡到长期计划（天空实验室、维京火星任务）。美苏之间的缓和名义上仍然有效，但紧张局势正在升温。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1975-001",
+      "title": "西贡沦陷；越南战争结束",
+      "region": "越南（西贡/胡志明市）",
+      "coordinates_approx": "10.78, 106.70",
+      "category": "military",
+      "description": "1975年4月30日，北越军队和越共部队攻占了南越首都西贡，结束了越南战争。西贡的沦陷是由于南越防御在3月失去中部高地后崩溃而加速的。最后一批美国人员通过直升机从美国大使馆屋顶撤离，这一混乱场景在全球直播。战争导致约200万至300万人死亡（越南、柬埔寨、老挝和美国）。胜利使越南在共产主义统治下统一，并产生了深远的地缘政治后果：它助长了东南亚的共产主义运动，使柬埔寨和老挝陷入不稳定，并标志着冷战动态的重大转变。",
+      "key_figures": [
+        "胡志明（北越领导人，1969年去世，但其遗产推动了胜利）",
+        "范文同（北越总理）",
+        "杨文明（南越总统，投降）",
+        "杰拉尔德·福特（美国总统）",
+        "亨利·基辛格（美国国务卿）"
+      ],
+      "sources": [
+        {
+          "name": "美国国务院记录和解密文件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "北越政府记录和军事档案",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代新闻报道（美联社、路透社、BBC、合众国际社）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《西贡沦陷》（大卫·巴特勒，1985）；《越南：一段历史》（斯坦利·卡诺，1983）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "日期、基本事实和伤亡估计有详细记录，尽管伤亡数字因来源和方法而异。",
+      "cross_references": [
+        "源自1973-002（《巴黎和平协议》签署，但战斗仍在继续）",
+        "导致1975-002（红色高棉占领柬埔寨）",
+        "导致1975-003（巴特寮占领老挝）"
+      ]
+    },
+    {
+      "id": "1975-002",
+      "title": "红色高棉占领金边；柬埔寨沦陷",
+      "region": "柬埔寨（金边）",
+      "coordinates_approx": "11.56, 104.92",
+      "category": "military",
+      "description": "1975年4月17日，由波尔布特领导的共产主义游击组织红色高棉占领了柬埔寨首都金边。沦陷是在一场五年的内战（1970-1975年）之后发生的，这场内战是在1970年美国支持的推翻诺罗敦·西哈努克亲王的政变之后使国家陷入不稳定的。红色高棉的胜利导致了民主柬埔寨的建立，并开启了柬埔寨种族灭绝（1975-1979年），期间约170万至200万人（约占总人口的25%）被处决、强迫劳动和饥饿致死。这场种族灭绝是20世纪最严重的暴行之一。",
+      "key_figures": [
+        "波尔布特（红色高棉领导人）",
+        "英萨利（红色高棉理论家）",
+        "朗诺（柬埔寨军事领导人，流亡）"
+      ],
+      "sources": [
+        {
+          "name": "红色高棉记录和口供（后来被研究人员获取）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "幸存者证词和口述历史",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "当代新闻报道（美联社、路透社、BBC）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《杀戮场：恐怖改变景观的考古学》（亚历山大·欣顿，2016）；《柬埔寨：破碎的社会》（大卫·钱德勒，1991）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "金边沦陷日期没有争议。种族灭绝的伤亡数字（1975-1979年）估计为170万至200万；确切数字在学者中仍有争议。",
+      "cross_references": [
+        "源自1970-001（美国支持的推翻西哈努克的政变）",
+        "导致1979-001（越南入侵和红色高棉倒台）"
+      ]
+    },
+    {
+      "id": "1975-003",
+      "title": "巴特寮占领万象；老挝陷落于共产主义",
+      "region": "老挝（万象）",
+      "coordinates_approx": "17.97, 102.63",
+      "category": "military",
+      "description": "1975年12月2日，北越支持的共产主义运动巴特寮占领了老挝首都万象，并建立了老挝人民民主共和国。胜利是在皇家老挝政府瓦解和美国在越南战争结束后撤出支持之后发生的。巴特寮的接管完成了共产主义对印度支那的支配，并对该地区产生了重大后果：它引发了难民危机（“船民”），使泰国不稳定，并巩固了苏联和越南在东南亚的影响力。",
+      "key_figures": [
+        "凯山·丰威汉（巴特寮领导人）",
+        "苏发努冯亲王（名义领袖）",
+        "梭发那·富马（皇家老挝政府总理，流亡）"
+      ],
+      "sources": [
+        {
+          "name": "老挝政府记录和巴特寮档案",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代新闻报道（美联社、路透社、BBC）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《老挝：一段历史》（格兰特·埃文斯，2002）；《巴特寮：老挝的民族解放与社会革命》（阿瑟·J·多曼，1971）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "日期和基本事实没有争议。",
+      "cross_references": [
+        "源自1975-001（西贡沦陷）",
+        "属于更广泛的东南亚共产主义扩张的一部分"
+      ]
+    },
+    {
+      "id": "1975-004",
+      "title": "阿波罗-联盟测试项目：首次美苏联合太空任务",
+      "region": "太空（地球轨道）",
+      "coordinates_approx": null,
+      "category": "exploration",
+      "description": "1975年7月17日，一艘美国阿波罗飞船和一艘苏联联盟号飞船在轨道上对接，标志着美国和苏联首次联合载人太空任务。这次任务包括美国宇航员托马斯·P·斯塔福德和苏联宇航员阿列克谢·列昂诺夫之间的历史性握手。阿波罗-联盟测试项目象征着冷战紧张局势的缓和，并展示了超级大国在太空中合作的可能性。任务持续了9天，包括联合实验和文化交流。",
+      "key_figures": [
+        "托马斯·P·斯塔福德（阿波罗指令长）",
+        "万斯·布兰德（阿波罗驾驶员）",
+        "迪克·斯雷顿（阿波罗对接舱驾驶员）",
+        "阿列克谢·列昂诺夫（联盟号指令长）",
+        "奥列格·马卡罗夫（联盟号飞行工程师）"
+      ],
+      "sources": [
+        {
+          "name": "NASA官方任务报告和记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "苏联航天局（RKA）记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代新闻报道和航天工业媒体",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《阿波罗-联盟：太空中的历史性对接》（NASA历史档案）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "任务日期、参与者和基本事实没有争议，且有广泛记录。",
+      "cross_references": [
+        "属于更广泛的美苏缓和政策的一部分（1970年代）"
+      ]
+    },
+    {
+      "id": "1975-005",
+      "title": "莫桑比克从葡萄牙独立",
+      "region": "莫桑比克（洛伦索-马贵斯/马普托）",
+      "coordinates_approx": "-23.86, 35.29",
+      "category": "political",
+      "description": "1975年6月25日，莫桑比克从葡萄牙独立，此前由莫桑比克解放阵线（FRELIMO）领导的十年武装斗争（1964-1974年）。独立是在葡萄牙康乃馨革命（1974年4月）之后发生的，这场革命推翻了独裁的新国家政权，并导致了葡属非洲的快速非殖民化。莫桑比克首任总统萨莫拉·马谢尔建立了一个与苏联结盟的一党制马克思主义国家。该国随后将面临FRELIMO与得到南非和罗得西亚支持的RENAMO反对派之间的毁灭性内战（1977-1992年）。",
+      "key_figures": [
+        "萨莫拉·马谢尔（FRELIMO领袖，首任总统）",
+        "马塞利诺·多斯桑托斯（FRELIMO理论家）"
+      ],
+      "sources": [
+        {
+          "name": "葡萄牙政府记录和FRELIMO档案",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代新闻报道",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《莫桑比克：一段历史》（马林·纽伊特，2017）；《萨莫拉·马谢尔：一生》（本尼迪克特·卡顿，2011）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "独立日期和基本事实没有争议。",
+      "cross_references": [
+        "源自1974-001（葡萄牙康乃馨革命）",
+        "导致1977-004（莫桑比克内战开始）"
+      ]
+    },
+    {
+      "id": "1975-006",
+      "title": "佛得角从葡萄牙独立",
+      "region": "佛得角（普拉亚）",
+      "coordinates_approx": "14.92, -23.61",
+      "category": "political",
+      "description": "1975年7月5日，位于西非海岸的岛国佛得角从葡萄牙独立。独立是在康乃馨革命之后通过谈判而非武装斗争实现的。佛得角首任总统阿里斯蒂德斯·佩雷拉建立了一个与苏联和几内亚比绍结盟的一党制马克思主义国家。该国因其干旱的气候和有限的资源而面临严峻的经济挑战。",
+      "key_figures": [
+        "阿里斯蒂德斯·佩雷拉（PAIGC领袖，首任总统）",
+        "阿米尔卡·卡布拉尔（PAIGC创始人，1973年被暗杀）"
+      ],
+      "sources": [
+        {
+          "name": "葡萄牙政府记录和佛得角政府公告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代新闻报道",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《佛得角：一段历史》（马林·纽伊特，2017）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "独立日期和基本事实没有争议。",
+      "cross_references": [
+        "源自1974-001（葡萄牙康乃馨革命）",
+        "属于更广泛的葡属非洲非殖民化的一部分"
+      ]
+    },
+    {
+      "id": "1975-007",
+      "title": "圣多美和普林西比从葡萄牙独立",
+      "region": "圣多美和普林西比（圣多美）",
+      "coordinates_approx": "0.33, 6.73",
+      "category": "political",
+      "description": "1975年7月12日，几内亚湾的小岛国圣多美和普林西比从葡萄牙独立。独立是在康乃馨革命之后通过谈判实现的。该国首任总统曼努埃尔·平托·达科斯塔建立了一党制马克思主义国家。由于国土面积小和资源有限，该国面临重大经济挑战。",
+      "key_figures": [
+        "曼努埃尔·平托·达科斯塔（MLSTP领袖，首任总统）"
+      ],
+      "sources": [
+        {
+          "name": "葡萄牙政府记录和圣多美和普林西比政府公告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代新闻报道",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "独立日期和基本事实没有争议。",
+      "cross_references": [
+        "源自1974-001（葡萄牙康乃馨革命）",
+        "属于更广泛的葡属非洲非殖民化的一部分"
+      ]
+    },
+    {
+      "id": "1975-008",
+      "title": "安哥拉从葡萄牙独立；内战开始",
+      "region": "安哥拉（罗安达）",
+      "coordinates_approx": "-8.84, 13.23",
+      "category": "political",
+      "description": "1975年11月11日，安哥拉从葡萄牙独立，此前经历了14年的武装斗争（1961-1975年）。然而，独立后立即爆发了三个解放运动之间的内战：MPLA（得到苏联和古巴支持）、UNITA（得到美国和南非支持）和FNLA（得到扎伊尔支持）。由阿戈什蒂纽·内图领导的MPLA建立了一个马克思主义国家，但内战一直持续到2002年，成为非洲最长、最具破坏性的冲突之一。战争导致约50万人死亡，并摧毁了该国经济。",
+      "key_figures": [
+        "阿戈什蒂纽·内图（MPLA领袖，首任总统）",
+        "若纳斯·萨文比（UNITA领袖）",
+        "霍尔登·罗伯托（FNLA领袖）"
+      ],
+      "sources": [
+        {
+          "name": "葡萄牙政府记录和安哥拉政府档案",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代新闻报道（美联社、路透社、BBC）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《安哥拉：一段历史》（马林·纽伊特，2017）；《安哥拉内战》（阿西斯·马拉基亚斯，2007）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "独立日期和基本事实没有争议。内战伤亡数字（50万）是估计值；确切数字仍有争议。",
+      "cross_references": [
+        "源自1974-001（葡萄牙康乃馨革命）",
+        "导致2002-001（安哥拉内战结束）"
+      ]
+    },
+    {
+      "id": "1975-009",
+      "title": "东帝汶从葡萄牙宣布独立",
+      "region": "东帝汶（帝力）",
+      "coordinates_approx": "-8.55, 125.58",
+      "category": "political",
+      "description": "1975年11月28日，东帝汶独立革命阵线（FRETILIN）宣布东帝汶从葡萄牙独立。然而，九天后的1975年12月7日，印度尼西亚入侵东帝汶，声称其为印度尼西亚群岛的一部分。占领引发了24年的占领和一场残酷的冲突，导致约20万人死亡（约占总人口的三分之一），死因包括战斗、处决和饥饿。占领未得到大多数国家的国际承认，尽管美国和澳大利亚在冷战期间默许支持。",
+      "key_figures": [
+        "沙纳纳·古斯芒（FRETILIN领袖，后任总统）",
+        "苏哈托（印度尼西亚总统）",
+        "若泽·拉莫斯-奥尔塔（FRETILIN领袖，后任总统）"
+      ],
+      "sources": [
+        {
+          "name": "FRETILIN记录和东帝汶政府档案",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "印度尼西亚政府记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代新闻报道（美联社、路透社、BBC）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《东帝汶：一段历史》（达米安·金斯伯里，2000）；《为东帝汶而斗争》（詹姆斯·邓恩，1996）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "宣布日期和印度尼西亚入侵日期没有争议。伤亡数字（20万）是估计值；确切数字仍有争议。",
+      "cross_references": [
+        "导致1999-001（东帝汶独立公投和印度尼西亚撤出）"
+      ]
+    },
+    {
+      "id": "1975-010",
+      "title": "天空实验室空间站再入地球大气层",
+      "region": "太空（地球轨道，再入印度洋上空）",
+      "coordinates_approx": null,
+      "category": "exploration",
+      "description": "1975年7月11日，NASA的天空实验室空间站自1973年以来一直处于轨道运行，再入地球大气层并在印度洋上空解体。天空实验室是美国的第一个空间站，接待了三次载人任务（1973-1974年），共有九名宇航员。该空间站在微重力环境下进行了重要的科学实验，包括太阳观测和材料科学研究。其再入过程被仔细跟踪，碎片无害地落入海洋。",
+      "key_figures": [
+        "韦恩·冯·布劳恩（天空实验室设计师）",
+        "克里斯·克拉夫特（NASA任务控制主任）"
+      ],
+      "sources": [
+        {
+          "name": "NASA官方任务报告和记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代新闻报道和航天工业媒体",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《天空实验室：一部全面史》（大卫·希特、欧文·加里奥特、乔·克尔温，2008）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "再入日期和基本事实没有争议。",
+      "cross_references": [
+        "源自1973-001（天空实验室发射）"
+      ]
+    },
+    {
+      "id": "1975-011",
+      "title": "水手10号最后一次飞越水星",
+      "region": "太空（水星）",
+      "coordinates_approx": null,
+      "category": "exploration",
+      "description": "1975年3月16日，NASA的水手10号航天器完成了最后一次水星飞越，结束了其任务。水手10号是第一艘访问水星的航天器，共进行了三次飞越（1974-1975年），提供了该行星表面、大气层和磁场的第一批特写图像和数据。该航天器在前往水星的途中还访问了金星。水手10号提供了对后续水星任务至关重要的数据。",
+      "key_figures": [
+        "布鲁斯·默里（水手10号项目科学家）"
+      ],
+      "sources": [
+        {
+          "name": "NASA官方任务报告和记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代航天工业和科学媒体",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "任务日期和基本事实没有争议。",
+      "cross_references": [
+        "属于更广泛的太阳系探测计划的一部分（1970年代）"
+      ]
+    },
+    {
+      "id": "1975-012",
+      "title": "维京1号航天器发射前往火星",
+      "region": "美国（佛罗里达州卡纳维拉尔角）",
+      "coordinates_approx": "28.39, -80.61",
+      "category": "exploration",
+      "description": "1975年8月20日，NASA发射了维京1号，这是一艘旨在登陆火星并进行科学实验的无人航天器。维京1号于1976年7月抵达火星，并成为第一艘成功登陆该行星的航天器。这项任务代表了美国太空计划行星探索努力的高潮，并展示了先进的机器人技术和遥感技术。",
+      "key_figures": [
+        "金特里·李（维京任务主任）",
+        "卡尔·萨根（行星科学家）"
+      ],
+      "sources": [
+        {
+          "name": "NASA官方任务报告和记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代航天工业和科学媒体",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "发射日期和基本事实没有争议。",
+      "cross_references": [
+        "导致1976-006（维京1号登陆火星）"
+      ]
+    },
+    {
+      "id": "1975-013",
+      "title": "电影《大白鲨》上映；成为首部暑期大片",
+      "region": "美国（剧院上映）",
+      "coordinates_approx": null,
+      "category": "cultural",
+      "description": "1975年6月20日，史蒂文·斯皮尔伯格的电影《大白鲨》在美国上映。这部基于彼得·本奇利1974年小说的电影取得了巨大的商业成功，全球票房收入4.7亿美元，成为有史以来票房最高的电影（直到1977年《星球大战》的诞生）。《大白鲨》被广泛认为是创造了“暑期大片”的概念，并彻底改变了好莱坞的电影营销和发行方式。这部电影的成功证明了面向大众观众的高预算、动作导向电影的商潜力。",
+      "key_figures": [
+        "史蒂文·斯皮尔伯格（导演）",
+        "彼得·本奇利（作者）",
+        "罗伊·沙伊德尔（演员）",
+        "理查德·扎努克（制片人）"
+      ],
+      "sources": [
+        {
+          "name": "环球影业官方记录和票房数据",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代电影业和娱乐媒体",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《大白鲨：一个传奇的故事》（彼得·本奇利，2002）；《大白鲨日志》（卡尔·戈特利布，2005）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "上映日期和票房数字没有争议。",
+      "cross_references": [
+        "导致1977-005（《星球大战》上映，成为票房最高的电影）"
+      ]
+    },
+    {
+      "id": "1975-014",
+      "title": "微软由比尔·盖茨和保罗·艾伦创立",
+      "region": "美国（新墨西哥州阿尔伯克基）",
+      "coordinates_approx": "35.09, -106.65",
+      "category": "technological",
+      "description": "1975年4月4日，比尔·盖茨和保罗·艾伦在新墨西哥州阿尔伯克基创立了微软。公司的第一个产品是为Altair 8800个人计算机开发的BASIC解释器。微软后来成为世界上最大的软件公司之一，尤其是在MS-DOS（1981年）和Windows（1985年）取得成功之后。公司的创立标志着个人计算机软件革命的开始。",
+      "key_figures": [
+        "比尔·盖茨（联合创始人）",
+        "保罗·艾伦（联合创始人）"
+      ],
+      "sources": [
+        {
+          "name": "微软公司注册文件和当代新闻稿",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代技术媒体和行业出版物",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《未来之路》（比尔·盖茨，1995）；《保罗·艾伦：创意人》（保罗·艾伦，2011）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "成立日期和基本事实没有争议。",
+      "cross_references": [
+        "属于更广泛的个人计算机革命的一部分（1970年代-1980年代）",
+        "导致1981-001（IBM PC发布，搭载MS-DOS）"
+      ]
+    },
+    {
+      "id": "1975-015",
+      "title": "Altair 8800个人计算机发布",
+      "region": "美国（新墨西哥州阿尔伯克基）",
+      "coordinates_approx": "35.09, -106.65",
+      "category": "technological",
+      "description": "1975年1月，MITS（微型仪器与遥测系统公司）发布了Altair 8800个人计算机套件，售价397美元。Altair被广泛认为是第一台商业上成功的个人计算机，尽管它需要组装和编程知识。该计算机的发布引发了个人计算机革命，并激励了比尔·盖茨和保罗·艾伦等企业家为其开发软件。Altair的成功证明了价格实惠的计算的商潜力。",
+      "key_figures": [
+        "埃德·罗伯茨（MITS创始人）",
+        "比尔·盖茨（微软联合创始人，为Altair开发BASIC）",
+        "保罗·艾伦（微软联合创始人）"
+      ],
+      "sources": [
+        {
+          "name": "MITS官方记录和当代新闻稿",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代技术媒体和行业出版物",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《计算机男孩接管》（内森·恩斯门格，2010）；《硅谷之火》（保罗·弗赖伯格、迈克尔·斯温，2000）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "发布日期和基本事实没有争议。",
+      "cross_references": [
+        "导致1975-014（微软创立）",
+        "属于更广泛的个人计算机革命的一部分"
+      ]
+    },
+    {
+      "id": "1975-016",
+      "title": "水门事件丑闻以尼克松辞职告终",
+      "region": "美国（华盛顿特区）",
+      "coordinates_approx": "38.90, -77.04",
+      "category": "political",
+      "description": "尽管理查德·尼克松于1974年8月9日辞职，但水门事件丑闻的法律和政治后果在1975年仍在继续。1975年，众议院司法委员会发布了关于水门事件的最终报告，几名尼克松政府官员被定罪并入狱。这场丑闻对美国政治产生了深远影响：它导致了《战争权力法》（1973年）、信息自由法修正案（1974年），并加强了国会对行政部门的监督。丑闻还导致公众对政府信任的丧失。",
+      "key_figures": [
+        "理查德·尼克松（辞职总统）",
+        "杰拉尔德·福特（接任总统）",
+        "亨利·基辛格（国务卿，在尼克松政府中留任）"
+      ],
+      "sources": [
+        {
+          "name": "众议院司法委员会官方报告和记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代新闻报道（美联社、路透社、BBC、《纽约时报》）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《最后的日子》（鲍勃·伍德沃德、卡尔·伯恩斯坦，1976）；《水门事件：美国自我毁灭的故事》（加勒特·M·格拉夫，2023）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "事件和日期有详细记录。",
+      "cross_references": [
+        "源自1974-002（尼克松辞职）"
+      ]
+    },
+    {
+      "id": "1975-017",
+      "title": "霍梅尼返回伊朗；伊斯兰革命开始",
+      "region": "伊朗（德黑兰）",
+      "coordinates_approx": "35.69, 51.39",
+      "category": "political",
+      "description": "1975年，流亡伊拉克的阿亚图拉·鲁霍拉·霍梅尼开始成为反对伊朗国王穆罕默德·礼萨·巴列维政权的主要声音。尽管霍梅尼直到1979年2月才返回伊朗，但他的影响力在1975年急剧增长，因为他的布道录音带秘密地在整个伊朗传播。这一年标志着最终导致1979年国王被推翻的伊斯兰革命的开始。霍梅尼的崛起代表了反国王反对派从世俗民族主义者向宗教保守派的转变。",
+      "key_figures": [
+        "阿亚图拉·鲁霍拉·霍梅尼（伊斯兰革命领袖，流亡）",
+        "穆罕默德·礼萨·巴列维国王（伊朗君主）"
+      ],
+      "sources": [
+        {
+          "name": "伊朗政府记录和SAVAK（秘密警察）档案",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "霍梅尼布道录音和著作",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代新闻报道",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《伊朗革命与伊斯兰共和国》（尼基·R·凯迪，2003）；《霍梅尼：阿亚图拉的一生》（巴克尔·莫因，1999）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "1975年被确定为霍梅尼崛起的转折点，但其影响力的确切时间表在学者中存在争议。",
+      "cross_references": [
+        "导致1979-002（伊斯兰革命；国王被推翻；霍梅尼返回）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "越南战争的伤亡数字存在争议：根据方法和涵盖人群（越南、柬埔寨、老挝、美国）的不同，估计范围在200万至300万之间。柬埔寨种族灭绝的死亡人数（170万至200万）是估计值；由于记录的销毁，确切数字仍然未知。红色高棉的接管有时被描述为不可避免，但历史学家对美国轰炸行动（1969-1973）在多大程度上破坏了柬埔寨稳定并促进了红色高棉的崛起存在争论。将巴特寮的接管描述为“共产主义胜利”反映了冷战框架；一些学者强调该运动的民族主义资格和民众支持。电影《大白鲨》在创造“暑期大片”方面的作用被广泛接受，但一些电影历史学家认为早期电影（如1972年的《波塞冬冒险》）已经确立了该模式。未发现列出的其他事件的否定证据。",
+  "historiographic_note": "由于当代新闻媒体、政府记录和解密文件的可用性，1975年的记录异常丰富。西贡沦陷和印度支那共产主义胜利在英语资料中广泛覆盖，但越南和柬埔寨视角在西方史学中代表性较差。葡属非洲的非殖民化通过葡萄牙政府记录、FRELIMO和其他解放运动档案以及当代新闻报道有记录。印度尼西亚入侵东帝汶在印度尼西亚政府记录、FRETILIN档案和国际新闻报道中有记录，但暴行的全部范围直到1990年代才广为人知。太空探索事件（天空实验室再入、水手10号、维京1号发射）在NASA记录和当代科学文献中有广泛记录。微软的创立和Altair 8800的发布在技术行业来源和当代媒体中有详细记录。水门事件的持续影响在国会记录和当代新闻报道中有广泛记录。霍梅尼在伊朗影响力的上升在伊朗政府记录、霍梅尼自己的著作和布道录音以及当代新闻报道中有记录，但其影响力的确切时间表存在争议。总体而言，1975年受益于跨地区丰富、多来源的记录，尽管经济和社会主义历史方面仍存在一些空白，特别是在全球南方。",
+  "graph_edges": [
+    {
+      "from": "1975-001",
+      "to": "1975-002",
+      "relation": "led_to",
+      "note": "西贡沦陷助长了东南亚共产主义运动；红色高棉数周后占领金边"
+    },
+    {
+      "from": "1975-001",
+      "to": "1975-003",
+      "relation": "led_to",
+      "note": "西贡沦陷导致皇家老挝政府瓦解；巴特寮12月占领万象"
+    },
+    {
+      "from": "1975-002",
+      "to": "1979-001",
+      "relation": "led_to",
+      "note": "红色高棉接管导致柬埔寨种族灭绝；1979年越南入侵结束了红色高棉统治"
+    },
+    {
+      "from": "1975-005",
+      "to": "1977-004",
+      "relation": "led_to",
+      "note": "莫桑比克独立导致FRELIMO与RENAMO之间的内战"
+    },
+    {
+      "from": "1975-008",
+      "to": "2002-001",
+      "relation": "led_to",
+      "note": "安哥拉独立和内战持续到2002年"
+    },
+    {
+      "from": "1975-009",
+      "to": "1999-001",
+      "relation": "led_to",
+      "note": "东帝汶独立宣言导致印度尼西亚入侵；1999年实现独立"
+    },
+    {
+      "from": "1975-012",
+      "to": "1976-006",
+      "relation": "led_to",
+      "note": "维京1号发射导致1976年7月成功登陆火星"
+    },
+    {
+      "from": "1975-013",
+      "to": "1977-005",
+      "relation": "contemporary_with",
+      "note": "《大白鲨》创造了暑期大片模板；1977年《星球大战》随后跟上"
+    },
+    {
+      "from": "1975-014",
+      "to": "1981-001",
+      "relation": "led_to",
+      "note": "微软的创立导致为IBM PC开发MS-DOS（1981年）"
+    },
+    {
+      "from": "1975-015",
+      "to": "1975-014",
+      "relation": "led_to",
+      "note": "Altair 8800的发布激励比尔·盖茨和保罗·艾伦创立微软"
+    },
+    {
+      "from": "1975-017",
+      "to": "1979-002",
+      "relation": "led_to",
+      "note": "霍梅尼在1975年日益增长的影响力导致了1979年的伊斯兰革命"
+    }
+  ]
+}

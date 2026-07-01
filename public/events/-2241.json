@@ -1,0 +1,114 @@
+{
+  "year": -2241,
+  "year_label": "2241 BCE",
+  "era_context": "埃及古王国（第六王朝）处于最后几十年。纳拉姆辛的阿卡德帝国正接近崩溃，内外压力加剧。哈拉帕文明继续处于成熟阶段，但环境和资源压力可能正在积累。这是一个主要文明的稳定开始破裂的过渡时期。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "太平洋岛屿"
+  ],
+  "events": [
+    {
+      "id": "-2241-001",
+      "title": "佩皮二世统治；持续的行政分裂",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "佩皮二世的统治仍在继续，有证据表明权力继续下放到地方总督。法老的中央权威正在削弱，地方精英积累财富和权力。这一过程最终将导致中央权威的崩溃和第一中间期的到来。佩皮二世统治期间个别事件的准确年代位置仍然不确定。",
+      "key_figures": [
+        "佩皮二世——埃及法老"
+      ],
+      "sources": [
+        {
+          "name": "地方官员的自传铭文",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "墓葬铭文和浮雕",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "权力下放的趋势有充分记录，但-2241年是根据惯例在佩皮二世统治期间（约公元前2278-2184年）分配的。",
+      "cross_references": [
+        "更广泛的第一中间期过渡的一部分"
+      ]
+    },
+    {
+      "id": "-2241-002",
+      "title": "纳拉姆辛统治；阿卡德帝国压力日增",
+      "region": "美索不达米亚，阿卡德",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "纳拉姆辛的统治进入最后几年（他约死于公元前2218年）。阿卡德帝国正承受严重的内外压力。叛乱持续，外部敌人（可能是库提人）威胁着帝国边境。帝国的行政和军事资源捉襟见肘。这一时期标志着阿卡德在美索不达米亚霸权的终结开始。",
+      "key_figures": [
+        "纳拉姆辛——阿卡德王"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德王室铭文",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "苏美尔王表（后期编纂）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治定在约公元前2254-2218年。-2241年在此范围内，不确定性为±20-30年。",
+      "cross_references": [
+        "早于约-2200年的阿卡德崩溃"
+      ]
+    },
+    {
+      "id": "-2241-003",
+      "title": "哈拉帕文明；成熟阶段持续，伴有可能的压力指标",
+      "region": "印度河流域，南亚",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "cultural",
+      "description": "哈拉帕文明仍处于成熟阶段，城市中心运转，贸易网络活跃。然而，一些考古证据表明，环境和资源压力可能正在积累。该文明将在约公元前1900年开始衰落，但衰落的确切原因和时间表仍有争议。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈拉帕文明的存在和成熟阶段通过考古学已得到确认。-2241年处于这一时期（约公元前2600-1900年）。",
+      "cross_references": [
+        "早于约-1900年的哈拉帕衰落"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的具体反驳证据。然而，这一时期的整体年代学和解释仍有争议。",
+  "historiographic_note": "这一年文献贫乏。历史记录依赖于铭文、行政记录和考古证据。史料偏向精英活动。对哈拉帕文明压力的解释基于古气候和考古证据，这些证据可作多种解释。",
+  "graph_edges": [
+    {
+      "from": "-2241-001",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "持续的权力下放导致第一中间期"
+    },
+    {
+      "from": "-2241-002",
+      "to": "-2200-002",
+      "relation": "led_to",
+      "note": "阿卡德帝国的压力导致崩溃"
+    },
+    {
+      "from": "-2241-003",
+      "to": "-1900-001",
+      "relation": "led_to",
+      "note": "哈拉帕成熟阶段早于衰落"
+    }
+  ]
+}

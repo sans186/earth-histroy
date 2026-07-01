@@ -1,0 +1,48 @@
+{
+  "year": -1552,
+  "year_label": "公元前1552年",
+  "era_context": "公元前两千纪中期：新王国埃及巩固权力，赫梯帝国扩张，中国商朝，迈锡尼希腊处于早期宫殿时期。这是一个以宫殿为中心的国家、战车战争和新兴长途贸易网络的时代。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中美洲",
+    "太平洋岛屿和大洋洲",
+    "北欧和草原地带",
+    "东南亚"
+  ],
+  "events": [
+    {
+      "id": "-1552-001",
+      "title": "阿赫摩斯一世统治：埃及的巩固与军事行动",
+      "region": "埃及",
+      "coordinates_approx": "30.8°N, 31.3°E",
+      "category": "political",
+      "description": "阿赫摩斯一世继续他的统治，巩固埃及权力并进行军事行动以保障埃及边境安全，并在努比亚和黎凡特建立霸权。这一时期是驱逐喜克索斯人后新王国更广泛巩固的一部分。",
+      "key_figures": [
+        "阿赫摩斯一世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "卡纳克神庙铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "阿赫摩斯一世的统治有充分文献记载，但具体事件并未精确到某一特定年份。",
+      "cross_references": [
+        "属于-1550-001（新王国巩固）的一部分"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "公元前1552年未有特定事件被确切记载。该年份属于阿赫摩斯一世统治时期，但没有同时代文献明确提及该年事件。",
+  "historiographic_note": "公元前1552年文献记载匮乏。现存资料中无特定事件被确定地归于该年。该年的历史记录本质上是相邻年份更广泛趋势的延续。",
+  "graph_edges": [
+    {
+      "from": "-1552-001",
+      "to": "-1550-001",
+      "relation": "part_of",
+      "note": "新王国巩固的延续"
+    }
+  ]
+}

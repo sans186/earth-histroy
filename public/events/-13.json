@@ -1,0 +1,103 @@
+{
+  "year": -13,
+  "year_label": "前13年",
+  "era_context": "奥古斯都晚期；奥古斯都巩固权力并日益关注继承问题。中国西汉王朝在汉成帝统治下走向衰落。帕提亚帝国在奥罗德斯二世统治下稳定。印度地区，萨塔瓦哈纳王朝正在扩张。地中海世界处于相对和平时期。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "罗马边疆以北的北欧地区",
+    "中亚",
+    "东南亚"
+  ],
+  "events": [
+    {
+      "id": "-13-001",
+      "title": "小德鲁苏斯继续莱茵河战役",
+      "region": "罗马帝国，日耳曼尼亚",
+      "coordinates_approx": "51.0, 8.0",
+      "category": "military",
+      "description": "小德鲁苏斯继续在莱茵河边境对日耳曼部落进行军事战役。这些战役是奥古斯都扩大罗马在北欧控制和巩固边疆战略的一部分。德鲁苏斯的军事成功使他成为罗马的显赫人物。",
+      "key_figures": [
+        "小德鲁苏斯（罗马军事指挥官）",
+        "提比略（德鲁苏斯之父）",
+        "奥古斯都（罗马皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "卡西乌斯·狄奥，《罗马史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "塔西佗，《编年史》与《日耳曼尼亚志》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "德鲁苏斯在莱茵河的战役有充分证据，但确切年代略有不确定。",
+      "cross_references": [
+        "属于更广泛的莱茵河战役叙事（前12年至前9年）的一部分"
+      ]
+    },
+    {
+      "id": "-13-002",
+      "title": "奥古斯都巩固权力",
+      "region": "罗马帝国，罗马",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "奥古斯都继续巩固权力并应对继承危机。年迈的皇帝日益关注确保权力平稳过渡。这段时期见证了潜在继承者及其支持者之间激烈的政治博弈。",
+      "key_figures": [
+        "奥古斯都（罗马皇帝）",
+        "提比略（奥古斯都继子）",
+        "盖乌斯·凯撒（养孙）"
+      ],
+      "sources": [
+        {
+          "name": "苏维托尼乌斯，《奥古斯都传》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "卡西乌斯·狄奥，《罗马史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "奥古斯都的政治活动在后世文献中有详细记载，但前13年的具体事件未被明确记录。",
+      "cross_references": []
+    },
+    {
+      "id": "-13-003",
+      "title": "西汉王朝的政治动荡",
+      "region": "中国，汉朝",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "汉成帝统治下的西汉宫廷持续以派系斗争以及宦官和皇室母族势力膨胀为特征。这段时期见证了腐败加剧和中央权威的削弱。",
+      "key_figures": [
+        "汉成帝"
+      ],
+      "sources": [
+        {
+          "name": "《汉书》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "总体政治局势有详细记载，但前13年的具体事件未被明确记录。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "所列出的事件未发现重要的反驳证据。德鲁苏斯战役被视为成功的传统观点普遍被接受，尽管一些现代学者强调这些战役的局限性和代价。",
+  "historiographic_note": "公元前13年的历史记录主要来自罗马文献，特别是后世编纂的作品。中国文献提供了关于汉廷政治的信息，但也属于回顾性资料。政治史和军事史偏向严重，经济史和社会史代表性不足。视角主要为精英阶层视角。",
+  "graph_edges": [
+    {
+      "from": "-13-001",
+      "to": "-9-001",
+      "relation": "led_to",
+      "note": "德鲁苏斯的莱茵河战役持续至他在公元前9年去世"
+    }
+  ]
+}

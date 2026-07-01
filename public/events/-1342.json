@@ -1,0 +1,152 @@
+{
+  "year": -1342,
+  "year_label": "公元前1342年",
+  "era_context": "埃及第十八王朝晚期，阿蒙霍特普三世仍在位。赫梯帝国在苏庇路里乌玛一世统治下巩固帝国控制。迈锡尼希腊处于青铜时代晚期IIA，宫殿中心处于鼎盛。中国商朝继续其成熟阶段，行政结构已确立。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "中亚",
+    "东南亚"
+  ],
+  "events": [
+    {
+      "id": "-1342-001",
+      "title": "阿蒙霍特普三世统治：宗教与文化赞助",
+      "region": "埃及（底比斯、孟菲斯）",
+      "coordinates_approx": "25.73, 32.64",
+      "category": "cultural",
+      "description": "阿蒙霍特普三世是艺术和宗教的重要赞助人，委托建造了大量神庙、雕像和艺术作品。其统治期间发展出独特的艺术风格，特征为优雅的比例和理想化的表现。法老的赞助也惠及阿蒙祭司团，其权力和财富在其统治期间大幅增长。这种文化繁荣反映了埃及的经济繁荣和政治稳定。",
+      "key_figures": [
+        "阿蒙霍特普三世（法老）",
+        "哈普之子阿蒙霍特普（建筑师和官员）"
+      ],
+      "sources": [
+        {
+          "name": "神庙铭文与艺术遗存",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "哈普之子阿蒙霍特普的传记铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "神庙遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "阿蒙霍特普三世的文化赞助通过铭文和文物得到充分证实；其统治内的断代可靠。",
+      "cross_references": [
+        "-1340-001",
+        "-1341-001"
+      ]
+    },
+    {
+      "id": "-1342-002",
+      "title": "赫梯在叙利亚和黎凡特的军事战役",
+      "region": "赫梯帝国、叙利亚、黎凡特",
+      "coordinates_approx": "35.0, 36.0",
+      "category": "military",
+      "description": "苏庇路里乌玛一世继续其军事扩张，在叙利亚发动战役，挑战埃及对黎凡特附属国的控制。这些战役是建立赫梯在近东霸权更广泛战略的一部分。赫梯的军事成功得益于优越的战车技术和铁制武器，使其相对于传统青铜武装力量具有优势。",
+      "key_figures": [
+        "苏庇路里乌玛一世（赫梯国王）"
+      ],
+      "sources": [
+        {
+          "name": "赫梯皇家编年史（博阿兹柯伊档案）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "埃及关于黎凡特冲突的记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "苏庇路里乌玛一世的军事战役有充分记载，但各次战役精确断代至具体年份不确定。",
+      "cross_references": [
+        "-1341-002"
+      ]
+    },
+    {
+      "id": "-1342-003",
+      "title": "迈锡尼宫殿行政与线形文字B记录",
+      "region": "希腊（皮洛斯、迈锡尼、梯林斯）",
+      "coordinates_approx": "37.5, 23.0",
+      "category": "political",
+      "description": "迈锡尼宫殿中心维持着复杂的行政体系，由线形文字B泥板记载。这些记录显示了一个等级制官僚机构管理土地分配、劳动组织、军事资源和宗教供奉。皮洛斯宫殿尤其显示出对农业和手工业生产集中控制的证据。这种行政复杂性表明其国家组织水平可与同时期近东王国相媲美。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "皮洛斯和迈锡尼出土的线形文字B泥板",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "宫殿档案的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "迈锡尼行政体系直接由线形文字B泥板证实；基于陶器年代学的断代可靠。",
+      "cross_references": [
+        "-1341-003"
+      ]
+    },
+    {
+      "id": "-1342-004",
+      "title": "商朝王室狩猎与军事组织",
+      "region": "中国（安阳、黄河流域）",
+      "coordinates_approx": "36.1, 114.3",
+      "category": "military",
+      "description": "商朝甲骨刻辞记载了王室狩猎和军事远征，提供了国王既是猎人又是战士角色的证据。这些刻辞揭示了一种以战车战和步兵为基础的军事组织，对邻近民族和内部敌人发动战役。王室狩猎兼具实用和仪式功能，加强了国王的权威以及与宇宙力量的关联。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "安阳（殷墟）出土的甲骨",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "商代军事装备的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "商代王室狩猎和军事活动直接由甲骨刻辞证实；断代在商朝范围内可靠。",
+      "cross_references": [
+        "-1341-004"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "苏庇路里乌玛一世统治和具体军事战役的精确年表仍存争议。一些学者提出的替代日期会将特定战役的归属推移数年。此外，对线形文字B泥板的解读也在演变；一些早期释读已被修正，这些记录所暗示的集中控制程度在通俗叙述中有时被夸大。“宫殿经济”模式虽被广泛接受，但仍在不断完善和争论中。",
+  "historiographic_note": "公元前1342年的历史记录以精英和国家赞助的资料来源为主：皇家铭文、行政记录和神庙奉献。视角主要是统治者和官员。考古证据提供了物质背景，但未必能精确断代到具体年份。世界大部分地区缺乏书面记录，这反映了文字在少数文明中的集中，而非其他地区缺乏历史活动。现代学术越来越意识到这些偏见，并试图通过考古和人类学方法纳入非精英视角。",
+  "graph_edges": [
+    {
+      "from": "-1342-001",
+      "to": "-1341-001",
+      "relation": "contemporary_with",
+      "note": "阿蒙霍特普三世的文化赞助持续"
+    },
+    {
+      "from": "-1342-002",
+      "to": "-1341-002",
+      "relation": "contemporary_with",
+      "note": "赫梯军事扩张持续"
+    },
+    {
+      "from": "-1342-003",
+      "to": "-1341-003",
+      "relation": "contemporary_with",
+      "note": "迈锡尼宫殿行政"
+    }
+  ]
+}

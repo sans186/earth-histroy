@@ -1,0 +1,408 @@
+{
+  "year": 1808,
+  "year_label": "1808年",
+  "era_context": "拿破仑战争主导欧洲政治；拿破仑入侵西班牙和葡萄牙，开启半岛战争。在美洲，独立运动开始兴起。工业革命在英国继续。清朝面临白莲教起义。奥斯曼帝国因与俄罗斯的战争而削弱。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1808-001",
+      "title": "半岛战争开始：法国入侵西班牙",
+      "region": "伊比利亚半岛（西班牙）",
+      "coordinates_approx": "40.00, -3.00",
+      "category": "military",
+      "description": "1808年5月，拿破仑领导下的法军入侵西班牙，表面上支持西班牙一派，实际上是要将拿破仑的兄弟约瑟夫扶上西班牙王位。入侵引发了半岛战争（1808–1814），这是拿破仑战争中最漫长、代价最高的冲突之一。西班牙的抵抗激烈而广泛，游击战成为主要特征。战争最终涉及威灵顿公爵领导下的英军，并对拿破仑的垮台做出了重大贡献。",
+      "key_figures": [
+        "拿破仑·波拿巴（法国皇帝）",
+        "约瑟夫·波拿巴（西班牙国王）",
+        "费尔南多七世（西班牙国王）",
+        "西班牙抵抗运动领袖"
+      ],
+      "sources": [
+        {
+          "name": "法国军事报告和拿破仑的信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "西班牙编年史和抵抗记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（埃斯代尔、奥曼、缪尔）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "入侵的日期和初期事件有广泛记载。半岛战争是拿破仑时代记录最详尽的冲突之一。",
+      "cross_references": [
+        "1814-001（半岛战争结束）",
+        "1815-001（拿破仑战争结束）"
+      ]
+    },
+    {
+      "id": "1808-002",
+      "title": "半岛战争：五月二日起义",
+      "region": "伊比利亚半岛（西班牙，马德里）",
+      "coordinates_approx": "40.42, -3.70",
+      "category": "military",
+      "description": "1808年5月2日，马德里居民起义反抗法国占领，即“五月二日”（Dos de Mayo）起义。起义遭到法军的残酷镇压，数百名西班牙平民被杀。这次起义成为西班牙抵抗的象征，并被纪念为西班牙民族认同的奠基时刻。法军的残忍回应激化了西班牙的反对，并在半岛各地引发了广泛的游击战。",
+      "key_figures": [
+        "西班牙平民和抵抗战士",
+        "法国军事指挥官",
+        "戈雅（后来描绘该起义的艺术家）"
+      ],
+      "sources": [
+        {
+          "name": "法国军事报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "西班牙目击者叙述和编年史",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（埃斯代尔、托内、艾梅）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "起义的日期和事件在法国军事报告和西班牙记述中有明确记载。戈雅的画作（后来创作）提供了艺术见证。",
+      "cross_references": [
+        "1808-001（法国入侵西班牙）",
+        "1814-001（半岛战争结束）"
+      ]
+    },
+    {
+      "id": "1808-003",
+      "title": "半岛战争：拜伦战役",
+      "region": "伊比利亚半岛（西班牙）",
+      "coordinates_approx": "37.78, -3.77",
+      "category": "military",
+      "description": "1808年7月19日，弗朗西斯科·哈维尔·卡斯塔尼奥斯将军率领的西班牙军队在拜伦击败了皮埃尔·杜邦将军率领的法军。这是拿破仑军队在战场上的首次重大失败，震惊了欧洲。法军将军及其军队被迫投降，这场胜利提升了西班牙的士气，并表明法军可以被击败。然而，法军后来恢复元气，并最终镇压了西班牙的抵抗，尽管战争又持续了六年。",
+      "key_figures": [
+        "弗朗西斯科·哈维尔·卡斯塔尼奥斯（西班牙将军）",
+        "皮埃尔·杜邦（法国将军）",
+        "西班牙和法国士兵"
+      ],
+      "sources": [
+        {
+          "name": "法国军事报告和信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "西班牙军事记录和编年史",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（埃斯代尔、奥曼、钱德勒）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "战役的日期、地点和结果有广泛记载。这是半岛战争中最重要的战役之一。",
+      "cross_references": [
+        "1808-001（法国入侵西班牙）",
+        "1814-001（半岛战争结束）"
+      ]
+    },
+    {
+      "id": "1808-004",
+      "title": "半岛战争：维梅罗战役",
+      "region": "伊比利亚半岛（葡萄牙）",
+      "coordinates_approx": "38.97, -9.35",
+      "category": "military",
+      "description": "1808年8月21日，阿瑟·韦尔斯利将军率领的英军在葡萄牙维梅罗击败了让-安多什·朱诺将军率领的法军。胜利迫使法军根据《辛特拉协定》撤出葡萄牙。维梅罗标志着英国介入半岛战争的开始，并确立了韦尔斯利作为有能力指挥官的声誉。这场战役在证明英军能够在旷野战斗中击败法军方面具有重要意义。",
+      "key_figures": [
+        "威灵顿公爵阿瑟·韦尔斯利（英军指挥官）",
+        "让-安多什·朱诺（法国将军）",
+        "罗兰·希尔（英国将军）"
+      ],
+      "sources": [
+        {
+          "name": "英国军事报告和韦尔斯利的信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "法国军事报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（奥曼、钱德勒、缪尔）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "战役的日期、地点和结果有广泛记载。这是半岛战争中一次著名的交战。",
+      "cross_references": [
+        "1808-001（法国入侵西班牙）",
+        "1809-003（威灵顿接管指挥）"
+      ]
+    },
+    {
+      "id": "1808-005",
+      "title": "拿破仑战争：埃尔福特条约",
+      "region": "中欧（德国）",
+      "coordinates_approx": "50.98, 11.35",
+      "category": "political",
+      "description": "1808年9月，拿破仑在埃尔福特会见了俄罗斯沙皇亚历山大一世，讨论他们的同盟关系并协调对抗奥地利和英国。埃尔福特条约重申了在提尔西特（1807年）建立的法俄同盟，但揭示了两国之间日益增长的紧张关系。俄罗斯担心法国在东欧的扩张，而拿破仑寻求俄罗斯支持他的西班牙战役。该条约对拿破仑来说是外交上的成功，但掩盖了根本分歧。",
+      "key_figures": [
+        "拿破仑·波拿巴（法国皇帝）",
+        "亚历山大一世（俄罗斯沙皇）",
+        "塔列朗（法国外交官）"
+      ],
+      "sources": [
+        {
+          "name": "埃尔福特条约（原始文件）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "法国和俄罗斯的外交信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（埃斯代尔、德怀尔、扎莫伊斯基）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "条约的日期、条款和意义在外交记录中有明确记载。",
+      "cross_references": [
+        "1807-002（提尔西特条约）",
+        "1812-001（拿破仑入侵俄罗斯）"
+      ]
+    },
+    {
+      "id": "1808-006",
+      "title": "清朝：白莲教起义持续",
+      "region": "中国（清朝）",
+      "coordinates_approx": "35.00, 105.00",
+      "category": "military",
+      "description": "始于1796年的白莲教起义在1808年仍在继续，清军继续进行军事行动。这场根源于弥勒信仰和民间不满的起义已蔓延至多省。到1808年，清军虽取得进展，但尚未取得完全胜利。这场代价高昂的十五年代战最终于1811年被镇压。",
+      "key_figures": [
+        "嘉庆帝（清朝统治者）",
+        "福康安（清朝将军，1799年去世）",
+        "白莲教起义领袖"
+      ],
+      "sources": [
+        {
+          "name": "清代宫廷记录和军事报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《实录》及后世编纂",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "史学共识（史景迁、罗威廉、孔飞力）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "起义在1808年的持续在清朝记录中有记载。该年份代表持续的冲突，而非一个独立事件。",
+      "cross_references": [
+        "1796-001（白莲教起义爆发）",
+        "1811-007（起义被镇压）"
+      ]
+    },
+    {
+      "id": "1808-007",
+      "title": "俄土战争：持续冲突",
+      "region": "奥斯曼帝国和俄罗斯帝国（巴尔干、高加索）",
+      "coordinates_approx": "42.00, 35.00",
+      "category": "military",
+      "description": "俄土战争（1806–1812）在1808年仍在继续，俄军逐步取得对奥斯曼军队的优势。战争对两个帝国都代价高昂，并因拿破仑在欧洲的活动而复杂化。冲突最终通过1812年的布加勒斯特条约解决。",
+      "key_figures": [
+        "米哈伊尔·库图佐夫（俄罗斯将军）",
+        "塞利姆三世（奥斯曼苏丹）",
+        "穆斯塔法四世（1807年起为奥斯曼苏丹）"
+      ],
+      "sources": [
+        {
+          "name": "俄罗斯军事档案",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "奥斯曼记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（耶拉维奇、肖、阿克桑）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "军事战役及其结果在俄罗斯和奥斯曼记录中有记载。",
+      "cross_references": [
+        "1806-001（俄土战争爆发）",
+        "1812-005（布加勒斯特条约）"
+      ]
+    },
+    {
+      "id": "1808-008",
+      "title": "美国：禁运法案持续",
+      "region": "北美（美国）",
+      "coordinates_approx": "38.89, -77.04",
+      "category": "economic",
+      "description": "1807年的《禁运法案》禁止美国与英国和法国的贸易，该法案在1808年继续有效。禁运旨在向英国和法国施压，要求其尊重美国的中立权利，但严重损害了美国经济，特别是新英格兰地区。该禁运极不受欢迎，并于1809年被《禁止交往法案》取代。禁运的失败证明了经济胁迫作为外交工具的局限性。",
+      "key_figures": [
+        "詹姆斯·麦迪逊（美国总统）",
+        "托马斯·杰斐逊（前总统）",
+        "国会（美国立法机构）"
+      ],
+      "sources": [
+        {
+          "name": "国会记录和辩论",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "总统信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（希基、斯塔格、布兰特）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "《禁运法案》在1808年的持续及影响在国会记录和同时代记载中有明确记载。",
+      "cross_references": [
+        "1807-001（禁运法案）",
+        "1809-004（《禁止交往法案》）"
+      ]
+    },
+    {
+      "id": "1808-009",
+      "title": "英国工业革命：棉纺织生产",
+      "region": "英格兰（兰开夏郡）",
+      "coordinates_approx": "53.50, -2.30",
+      "category": "economic",
+      "description": "到1808年，英国棉纺织生产已达到高水平，由机械化和工厂生产驱动。棉花产业是工业革命的领先部门，创造了巨大财富并推动了城市化。英国棉花出口主导全球市场，尤其是在拿破仑封锁阻止法国竞争之后。该产业的增长建立在美洲的奴隶劳动和殖民地棉花生产之上。",
+      "key_figures": [
+        "工厂主和制造商",
+        "棉花商人"
+      ],
+      "sources": [
+        {
+          "name": "贸易统计和海关记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "工厂记录和商业信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（兰德斯、莫基尔、克拉夫茨）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1808年的棉花生产统计在贸易记录中有明确记载。",
+      "cross_references": [
+        "1810-005（棉花生产高峰）",
+        "1811-005（卢德派起义）"
+      ]
+    },
+    {
+      "id": "1808-010",
+      "title": "德川幕府：持续锁国",
+      "region": "日本",
+      "coordinates_approx": "36.00, 138.00",
+      "category": "political",
+      "description": "德川家齐统治下的德川幕府在1808年维持了锁国政策（闭关锁国）。幕府继续对对外接触和贸易实施严格控制。尽管有外部压力和偶尔的外国船只试图贸易或寻求补给，幕府仍维持其孤立主义立场。内部稳定通过封建制度和幕府的行政机构得以维持。",
+      "key_figures": [
+        "德川家齐（将军）",
+        "松平定信（前摄政，1829年去世）"
+      ],
+      "sources": [
+        {
+          "name": "德川幕府行政记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "日本编年史",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（托特曼、樱井、弗拉斯托斯）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "锁国政策在1808年的延续有明确记载。",
+      "cross_references": [
+        "1853-001（佩里远征打开日本）",
+        "1868-001（明治维新）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "半岛战争有时被描述为西班牙对法国占领的直接抵抗，但现实更为复杂：许多西班牙精英与法国合作，战争涉及严重的西班牙内部冲突。拜伦战役有时被描述为西班牙的决定性胜利，但法军恢复元气并最终控制了西班牙；该战役的意义更多是心理上的而非战略上的。埃尔福特条约有时被认为是拿破仑的外交胜利，但它掩盖了导致1812年战争的法俄紧张关系加剧。《禁运法案》有时被视为美国维护权利的正义之举，但它在经济上是毁灭性的，在政治上也不受欢迎；其失败证明了经济胁迫的局限性。",
+  "historiographic_note": "1808年在欧洲资料中记载丰富，特别是关于半岛战争和拿破仑战争。英国军事记录丰富。美国外交和国会记录保存完好。西班牙资料，包括抵抗和合作的观点，均可获取但在英语史学中有时被低估。亚洲资料在西方史学中较为有限；中国和日本的记录存在但常被低估。该年份反映了现有资料中的欧洲中心偏见；非洲、大洋洲和中亚的事件基本缺失。资料本身受其来源影响：法国记录强调拿破仑的军事战略；英国记录颂扬韦尔斯利的胜利；西班牙资料强调抵抗和民族认同。",
+  "graph_edges": [
+    {
+      "from": "1808-001",
+      "to": "1808-002",
+      "relation": "led_to",
+      "note": "法国入侵导致了五月二日起义"
+    },
+    {
+      "from": "1808-002",
+      "to": "1808-003",
+      "relation": "led_to",
+      "note": "五月二日起义促进了导致拜伦战役的西班牙抵抗"
+    },
+    {
+      "from": "1808-003",
+      "to": "1808-004",
+      "relation": "contemporary_with",
+      "note": "拜伦和维梅罗属于同一半岛战争战役"
+    },
+    {
+      "from": "1808-004",
+      "to": "1809-003",
+      "relation": "led_to",
+      "note": "维梅罗导致了1809年韦尔斯利被任命为指挥官"
+    },
+    {
+      "from": "1808-005",
+      "to": "1812-001",
+      "relation": "led_to",
+      "note": "埃尔福特条约掩盖了导致1812年拿破仑入侵俄罗斯的紧张局势"
+    },
+    {
+      "from": "1808-008",
+      "to": "1809-004",
+      "relation": "led_to",
+      "note": "《禁运法案》的失败导致了1809年的《禁止交往法案》"
+    }
+  ]
+}

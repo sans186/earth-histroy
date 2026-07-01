@@ -1,0 +1,113 @@
+{
+  "year": 129,
+  "year_label": "公元129年",
+  "era_context": "哈德良统治继续；皇帝正在罗马帝国东部行省进行巡视、视察和文化赞助。在中国，汉朝仍处于幼帝和摄政统治下。贵霜帝国在中亚和北印度达到鼎盛。在犹地亚，巴尔·科赫巴起义（公元132–135年）的后果尚未发生，但紧张局势仍然高涨。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东南亚",
+    "中美洲和南美洲"
+  ],
+  "events": [
+    {
+      "id": "129-001",
+      "title": "哈德良东部巡视：叙利亚和黎凡特",
+      "region": "罗马叙利亚，黎凡特",
+      "coordinates_approx": "34.7°N, 36.2°E",
+      "category": "political",
+      "description": "哈德良皇帝继续他对东部行省的广泛巡视，访问了叙利亚、犹地亚和阿拉伯。他视察军事设施，会见地方精英，并参加宗教仪式。在叙利亚，他访问了安条克和其他主要城市，加强罗马权威并收集关于东部边境稳定性的情报。这次巡视是哈德良通过个人皇帝在场来巩固控制和评估行省状况的更广泛战略的一部分。",
+      "key_figures": [
+        "哈德良（罗马皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "卡西乌斯·狄奥，《罗马史》卷69",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "《罗马皇帝传记集·哈德良传》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "哈德良的东部巡视有详细记载，但具体行程和特定访问的日期有时不确定。巡视一般定在公元129–132年。",
+      "cross_references": []
+    },
+    {
+      "id": "129-002",
+      "title": "迦腻色伽一世统治下的贵霜帝国：佛教赞助与钱币铸造",
+      "region": "贵霜帝国，中亚，北印度",
+      "coordinates_approx": "35.0°N, 70.0°E",
+      "category": "cultural",
+      "description": "在迦腻色伽一世（约公元127–150年在位，但年代存在争议）统治下，贵霜帝国继续繁荣，成为控制中国、印度和地中海之间贸易路线的主要力量。迦腻色伽是佛教的重要赞助者，委托修建寺院并支持大乘佛教的传播。他的钱币在多个城市铸造，带有希腊文、普拉克利特文和佉卢文铭文，反映了帝国的多元文化特征。帝国财富源于对丝绸之路贸易的控制。",
+      "key_figures": [
+        "迦腻色伽一世（贵霜皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "钱币学证据（贵霜钱币）",
+          "type": "numismatic",
+          "contemporary": true
+        },
+        {
+          "name": "佛教文本和铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "后来的印度和中国资料（《罗摩衍那》、中国编年史）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "迦腻色伽的统治通过钱币学和铭文证据得到充分证实，但其确切年代学术界有争议（一些学者将其置于约公元127–150年，另一些则置于约公元144–172年）。文化和宗教意义是得到确认的。",
+      "cross_references": []
+    },
+    {
+      "id": "129-003",
+      "title": "汉顺帝统治下的汉朝行政延续",
+      "region": "汉朝中国",
+      "coordinates_approx": "34.6°N, 112.4°E",
+      "category": "political",
+      "description": "汉顺帝（公元125–144年在位）继续统治，但有效权力仍掌握在后宫和宦官手中。汉朝官僚机构通过察举制和尚书台运转，尽管宫廷存在派系斗争，行政仍保持延续性。地方官员向中央报告，税收制度继续为军队和公共工程提供资金。然而，腐败和宦官影响力正在增长。",
+      "key_figures": [
+        "汉顺帝"
+      ],
+      "sources": [
+        {
+          "name": "《后汉书》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "行政记录和铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "广泛的行政结构有充分记载，但公元129年的具体事件并非总是精确记录。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "迦腻色伽一世的年代是印度和中亚历史上最有争议的问题之一。一些学者将其统治置于公元1世纪，另一些则置于公元2世纪。此处使用的传统年代（约公元127–150年）是几种相互竞争的年表之一。没有否定性证据削弱所列其他事件。",
+  "historiographic_note": "公元129年的文献记录水平为中等。罗马资料相对丰富，但往往在事件发生数十年或数世纪后写成。中国资料详细但编纂时间晚得多。印度和中亚资料稀少且常为残片。视角仍然严重偏向精英政治和军事史。",
+  "graph_edges": [
+    {
+      "from": "129-001",
+      "to": "130-001",
+      "relation": "led_to",
+      "note": "哈德良的东部巡视持续到公元130年，以访问埃及告终"
+    },
+    {
+      "from": "129-002",
+      "to": "concept: Silk Road trade",
+      "relation": "part_of",
+      "note": "贵霜的繁荣依赖于对中亚贸易路线的控制"
+    }
+  ]
+}

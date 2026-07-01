@@ -1,0 +1,70 @@
+{
+  "year": -1795,
+  "year_label": "公元前1796年",
+  "era_context": "汉谟拉比统治达到顶峰。埃及第13王朝处于最后阶段。赫梯人尚未建立帝国。商朝在中国制作甲骨文记录。青铜时代贸易网络活跃于东地中海和近东。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚详细记录",
+    "美洲",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-1795-001",
+      "title": "汉谟拉比统治达到顶峰",
+      "region": "美索不达米亚",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "汉谟拉比统治（公元前1792–前1750年）在约公元前1796年达到顶峰。他将美索不达米亚大部分地区统一在巴比伦统治下，并建立了中央集权的行政体系。约公元前1754年刻写的《汉谟拉比法典》编纂了这一帝国的法律和社会秩序。巴比伦文化成为美索不达米亚的主导文化力量。",
+      "key_figures": [
+        "汉谟拉比（巴比伦国王）"
+      ],
+      "sources": [
+        {
+          "name": "《汉谟拉比法典》",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "巴比伦王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "汉谟拉比的在位年份已确定，但个别年份的具体事件未记录。",
+      "cross_references": []
+    },
+    {
+      "id": "-1795-002",
+      "title": "青铜时代贸易网络活跃于东地中海",
+      "region": "东地中海和黎凡特",
+      "coordinates_approx": "34.0, 35.0",
+      "category": "economic",
+      "description": "连接美索不达米亚、埃及、黎凡特、安纳托利亚和爱琴海的青铜时代贸易网络活跃且繁荣。来自中亚的锡、塞浦路斯的铜、黎巴嫩的雪松等商品被交换。这种贸易支撑着主要强国的经济并促进文化交流。确切的路线和数量难以仅从考古证据量化。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自港口遗址、沉船和文物分布的考古证据（例如乌鲁布伦沉船，但年代较晚）",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "青铜时代贸易网络的存在在考古学上已充分证实，但个别年份的具体贸易模式和数量未记录。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现反证证据。",
+  "historiographic_note": "公元前1796年的历史记录极为有限。美索不达米亚的文字文献包括行政和法律文本，而非叙事史书。埃及记录同样稀少。青铜时代贸易网络是通过考古证据（文物分布、沉船、港口遗址）推断的，而非在同时代文本中记载。该年份缺少具体事件反映了该时期历史记录的性质。",
+  "graph_edges": [
+    {
+      "from": "-1795-001",
+      "to": "-1754-001",
+      "relation": "led_to",
+      "note": "汉谟拉比统治导致约公元前1754年《汉谟拉比法典》的颁布"
+    }
+  ]
+}

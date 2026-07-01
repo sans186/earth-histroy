@@ -1,0 +1,78 @@
+{
+  "year": -2226,
+  "year_label": "公元前2226年",
+  "era_context": "古王国埃及（第六王朝）在佩皮二世治下延续；阿卡德帝国崩溃后美索不达米亚保持分裂；印度河流域文明处于成熟期；青铜时代早期社会主导东地中海。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "商代区域以外的东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2226-001",
+      "title": "佩皮二世统治延续；来自埃及地方行政记录",
+      "region": "埃及（古王国，第六王朝）",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "佩皮二世继续统治。此年处于埃及地方自治增强的时期中，诺姆长（地方总督）日益增长的权力与独立性便是明证。该时期的墓室铭文显示诺姆长从事此前由法老保留的军事征伐与行政职能。这一权力非中心化最终将导致中央权威分裂和第一中间期的开始。",
+      "key_figures": [
+        "佩皮二世（内弗卡拉）——埃及法老"
+      ],
+      "sources": [
+        {
+          "name": "地方遗址墓室铭文（阿斯旺、阿拜多斯、萨卡拉）",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "《都灵王表》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "佩皮二世之统治证据充足，但绝对年代仍存 ±50–100年之不确定性。",
+      "cross_references": [
+        "-2225-001"
+      ]
+    },
+    {
+      "id": "-2226-002",
+      "title": "印度河流域文明贸易网络活跃",
+      "region": "印度河流域与波斯湾",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "印度河流域文明与美索不达米亚、波斯湾及中亚维持广泛贸易网络。印度河印章与器物发现于美索不达米亚遗址，美索不达米亚文本提及与“梅卢哈”的贸易。此贸易通过海上航路与陆上商队路线进行，表明成熟的商业组织与远程交换网络。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "发现于美索不达米亚遗址（乌尔、拉伽什、乌鲁克）的印度河印章",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "提及梅卢哈贸易的美索不达米亚楔形文字文本",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域与美索不达米亚之间的贸易已通过考古证据得到充分记载。",
+      "cross_references": [
+        "-2225-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "对所列事件未发现具体反证性证据。不过，对于佩皮二世统治时期地方自治的解释存在争议；部分学者认为法老当时维持了比墓室铭文所示更强的中央控制。",
+  "historiographic_note": "这一年具体事件记载贫乏。历史记录高度依赖埃及墓室铭文和行政文书，而这些资料提供的单一年份事件信息有限。美索不达米亚此时段的记录零散不全。印度河流域文明的记录主要为非文字性（印章、器物），使得逐年记载不可能。",
+  "graph_edges": [
+    {
+      "from": "-2226-001",
+      "to": "-2225-001",
+      "relation": "contemporary_with",
+      "note": "佩皮二世统治跨越两个年份继续"
+    }
+  ]
+}

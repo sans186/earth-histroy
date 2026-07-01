@@ -1,0 +1,128 @@
+{
+  "year": -1468,
+  "year_label": "公元前1469年",
+  "era_context": "青铜时代晚期，埃及第18王朝中期，图特摩斯三世统治时期。赫梯帝国在阿蒙霍特普二世的同时代人（图德哈里亚二世或三世）统治下巩固安纳托利亚的控制。中国商朝处于成熟阶段。这一时期代表了青铜时代国际外交和贸易网络的顶峰，埃及、赫梯、迈锡尼和米坦尼是主要大国。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（特定断代的考古记录稀少）",
+    "北欧和斯堪的纳维亚（前文字社会；无同时代记录）",
+    "中美洲（该具体年份的纪念性建筑很少）",
+    "中亚和草原（有限书面记录；主要是考古）"
+  ],
+  "events": [
+    {
+      "id": "-1468-001",
+      "title": "图特摩斯三世黎凡特行政管理的持续",
+      "region": "黎凡特",
+      "coordinates_approx": "34.5, 35.5",
+      "category": "political",
+      "description": "图特摩斯三世通过任命总督和定期军事视察来维持埃及对黎凡特附庸国的行政监督。雪松、白银和其他物品形式的贡品流入埃及。该体系通过条约和在战略地点驻扎埃及驻军而正式化。这一行政框架将持续数代。",
+      "key_figures": [
+        "图特摩斯三世（法老）"
+      ],
+      "sources": [
+        {
+          "name": "卡纳克神庙铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "行政体系有充分证据；具体年度事件的断代不太精确。",
+      "cross_references": [
+        "-1469-001"
+      ]
+    },
+    {
+      "id": "-1468-002",
+      "title": "赫梯在安纳托利亚的巩固",
+      "region": "安纳托利亚（今土耳其）",
+      "coordinates_approx": "39.0, 35.0",
+      "category": "political",
+      "description": "赫梯帝国在第18王朝中期统治者（可能是图德哈里亚二世或三世）领导下，正在巩固对安纳托利亚的控制，并将影响力扩展到北叙利亚。赫梯军事战役和外交婚姻用于确保附庸关系。赫梯行政体系强调成文法典和正式条约，变得更加复杂。",
+      "key_figures": [
+        "赫梯统治者（身份不确定；可能是图德哈里亚二世或三世）"
+      ],
+      "sources": [
+        {
+          "name": "赫梯楔形文字文本和皇家铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "哈图沙和其他赫梯遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "赫梯年代学存在争议；这一时期的断代基于王位序列，但绝对断代有±10–20年的不确定性。",
+      "cross_references": []
+    },
+    {
+      "id": "-1468-003",
+      "title": "迈锡尼陶器生产与爱琴海贸易",
+      "region": "爱琴海",
+      "coordinates_approx": "38.5, 23.5",
+      "category": "economic",
+      "description": "迈锡尼陶器作坊继续为国内消费和出口生产精美器皿。迈锡尼器皿到达埃及、塞浦路斯、黎凡特及其他地区。这一时期见证了标准化陶器形式和装饰风格的发展。迈锡尼、梯林斯和皮洛斯的宫殿经济处于高峰，控制着商品的生产和分配。",
+      "key_figures": [
+        "迈锡尼宫殿行政人员和工匠（姓名未知）"
+      ],
+      "sources": [
+        {
+          "name": "迈锡尼遗址的考古证据（陶器、窑、宫殿档案）",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "迈锡尼年代学与埃及同步年代和陶瓷类型学相关；断代到具体年份是近似的。",
+      "cross_references": [
+        "-1469-003"
+      ]
+    },
+    {
+      "id": "-1468-004",
+      "title": "商朝的青铜生产与礼仪活动",
+      "region": "中国（黄河流域）",
+      "coordinates_approx": "34.5, 108.0",
+      "category": "cultural",
+      "description": "商朝处于成熟阶段，拥有先进的青铜工艺技术，生产礼仪容器、武器和装饰品。甲骨文记载了占卜实践、军事战役和行政活动。商朝宫廷以安阳为中心，文明以等级社会、强大的祭司阶层和武士精英为特征。",
+      "key_figures": [
+        "商朝国王（身份不确定；可能是武丁或其继承者）"
+      ],
+      "sources": [
+        {
+          "name": "甲骨文（商朝占卜记录）",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "安阳和其他商朝遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "商朝年代学存在争议；这一时期的断代基于陶瓷和甲骨类型学，有±20–50年的不确定性。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "赫梯年代学仍是古代近东研究中最具争议的领域之一。一些学者提出“低年代学”，可能将赫梯事件前移50–100年。商朝年代学类似地存在争议，替代年代学提出重大偏移。迈锡尼在东地中海的影响程度在一些叙述中可能被夸大；考古证据表明贸易网络有时比描绘的更加分散。",
+  "historiographic_note": "埃及和赫梯史料相对丰富但具有宣传性。迈锡尼证据主要是考古学；线形文字B泥板晚于这一时期。商朝甲骨为了解精英关注提供了独特视角，但偏向占卜和军事事务。历史记录严重偏向精英、纪念性活动。该年份的断代精度有限；事件通常归入更广泛的阶段。",
+  "graph_edges": [
+    {
+      "from": "-1468-001",
+      "to": "-1468-002",
+      "relation": "contemporary_with",
+      "note": "埃及和赫梯帝国同时扩张，形成多极国际体系"
+    },
+    {
+      "from": "-1468-003",
+      "to": "-1468-001",
+      "relation": "contemporary_with",
+      "note": "迈锡尼贸易商品在这一时期到达埃及"
+    }
+  ]
+}

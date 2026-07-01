@@ -1,0 +1,107 @@
+{
+  "year": -2307,
+  "year_label": "公元前2307年",
+  "era_context": "纳拉姆辛治下的阿卡德帝国正接近其统治的末期。埃及古王国处于最后阶段，中央权威严重削弱。印度河流域文明继续处于成熟阶段。在中国，商朝正在巩固其权力基础。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中美洲",
+    "北欧",
+    "大洋洲",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-2307-001",
+      "title": "阿卡德对古提人的军事战役",
+      "region": "美索不达米亚，扎格罗斯山脉",
+      "coordinates_approx": "35.5, 43.0",
+      "category": "military",
+      "description": "纳拉姆辛的铭文记载了针对来自扎格罗斯山脉的高地民族古提人的持续军事战役。这些战役代价高昂，需要大量军事资源。后世的文书记录，特别是《阿卡德的诅咒》，暗示这些战役过度延伸了帝国的资源，并导致其最终崩溃。在阿卡德资料中，古提人被描绘成蛮族入侵者，但考古证据表明文化互动和冲突更为复杂。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德王）"
+      ],
+      "sources": [
+        {
+          "name": "纳拉姆辛的王室铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "《阿卡德的诅咒》（苏美尔语作品，后世编纂）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛针对古提人的战役在铭文中有充分证据，但具体年份没有记录。",
+      "cross_references": []
+    },
+    {
+      "id": "-2307-002",
+      "title": "埃及中央权威崩溃加速",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "第六王朝的最后几年中央权威的丧失急剧加速。诺马尔赫自立为独立统治者，法老的权力被削弱至孟菲斯附近地区。行政记录变得稀少，表明国家官僚机构崩溃。向第一中间期的过渡即将到来。",
+      "key_figures": [
+        "佩皮二世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "诺马尔赫的自传铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "行政纸草和陶片",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "崩溃的广泛趋势有充分证据；个别年份的具体事件没有记录。",
+      "cross_references": []
+    },
+    {
+      "id": "-2307-003",
+      "title": "哈拉帕与美索不达米亚的贸易继续",
+      "region": "印度河流域，美索不达米亚，波斯湾",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "考古证据表明印度河流域与美索不达米亚之间的贸易保持活跃。哈拉帕的印章和度量衡继续在美索不达米亚语境中出现。哈拉帕度量衡的标准化性质表明存在一个复杂的商业体系。此时没有证据表明这些贸易网络被中断。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "哈拉帕和美索不达米亚遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "在美索不达米亚语境中发现的哈拉帕印章",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "贸易网络通过考古学得到充分证实。具体的公元前2307年落在成熟哈拉帕阶段内。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "《阿卡德的诅咒》是后世文学作品（古巴比伦时期，约公元前1900-1600年），将阿卡德帝国的覆灭归因于纳拉姆辛傲慢行为招致的天罚。现代学术将其视为文学叙事而非历史记载，尽管它可能保留了帝国崩溃的一些记忆。阿卡德崩溃的实际原因存在争议；一些学者强调气候变化（干旱），而另一些学者则强调军事过度扩张和内部叛乱。",
+  "historiographic_note": "这一年的资料仍限于王室铭文、行政文书记录和考古证据。《阿卡德的诅咒》虽然在文化上重要，但它是后世文学作品，不应被视为当代历史记载。非精英人群的视角大部分缺失。",
+  "graph_edges": [
+    {
+      "from": "-2307-001",
+      "to": "-2305-001",
+      "relation": "led_to",
+      "note": "阿卡德的军事过度扩张导致帝国即将崩溃"
+    },
+    {
+      "from": "-2307-002",
+      "to": "-2305-002",
+      "relation": "led_to",
+      "note": "埃及中央权威的加速崩溃导致第一中间期"
+    }
+  ]
+}

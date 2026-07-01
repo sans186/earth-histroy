@@ -1,0 +1,112 @@
+{
+  "year": -2454,
+  "year_label": "公元前2454年",
+  "era_context": "公元前三千纪中期。阿卡德帝国纳拉姆辛正处于统治早中期，通过军事征伐与行政改革巩固权力。埃及古王国（第六王朝）走向衰落，中央权威日趋碎片化。印度河流域文明正处于成熟高峰。安纳托利亚与爱琴海地区的青铜时代社会正发展出日益复杂的宫廷经济。",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "中美洲和南美洲",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-2454-001",
+      "title": "纳拉姆辛的早期军事战役",
+      "region": "美索不达米亚，上美索不达米亚",
+      "coordinates_approx": "36.0, 41.0",
+      "category": "military",
+      "description": "纳拉姆辛在上美索不达米亚和托罗斯山脉展开军事征伐，巩固了阿卡德对北方地区的控制。这些战役针对的是抗拒阿卡德扩张的地方统治者和部落群体。这一系列行动是更广泛的战略之一部分：旨在夺取贸易路线、获取木材和金属资源，并确立阿卡德对整个美索不达米亚地区的霸权。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德国王）"
+      ],
+      "sources": [
+        {
+          "name": "记述军事战役的纳拉姆辛铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "破坏层及阿卡德聚落的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "纳拉姆辛的军事战役有良好证实，但无法逐年排序。此事件作为其统治期内一个代表性节点，暂归于公元前2454年。",
+      "cross_references": []
+    },
+    {
+      "id": "-2454-002",
+      "title": "印度河流域文明的持续城市发展",
+      "region": "印度河谷，南亚",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "cultural",
+      "description": "印度河流域文明继续其成熟阶段的城市发展，哈拉帕、摩亨佐达罗等主要城市仍保有复杂的基础设施、标准化的度量衡体系以及广泛的贸易网络。考古证据显示，公共建筑、街道和排水系统在此阶段仍在持续建造和维护。该文明独特的印章和陶器被大量生产。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "哈拉帕与摩亨佐达罗的考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "放射性碳定年与地层分析",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "印度河流域文明的成熟期在考古学上已得到很好证实，年代约公元前2600–前1900年。公元前2454年处于此阶段内，但无法识别出单一年份的具体事件。",
+      "cross_references": []
+    },
+    {
+      "id": "-2454-003",
+      "title": "埃及第六王朝的持续衰落",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "随着中央权威的弱化与地方总督权力的积聚，埃及第六王朝继续其衰败之势。法老调动资源营造大型工程的能力下降，皇家纪念碑的修建显著减缓。此时期代表了古王国向第一中间期过渡之前的最后阶段。",
+      "key_figures": [
+        "珀辟二世（可能仍在位）"
+      ],
+      "sources": [
+        {
+          "name": "行政纸草文书",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "诺姆长铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "皇室营建减少的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "古王国的衰落在文献上有较好记载，但各统治者的精确在位时间及逐年演变过程尚不确定。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "传统上关于古王国“崩溃”的叙事受到近期学术研究的挑战，后者强调在古王国向第一中间期过渡期间，文化、宗教和行政层面存在延续性。部分学者认为，这一“衰落”过程比早期描述更渐进，灾难性也更低。同样，纳拉姆辛军事征服的规模与性质亦有争议，有学者主张其铭文夸大了他的成就。",
+  "historiographic_note": "公元前2454年这一单个年份在存世史料中并无直接记录。该时期的历史记录由铭文、行政文书及考古证据构成，它们提供了此时代的总体图景，但无法精细到单一年份。记录严重偏重于美索不达米亚和埃及，而印度河流域主要仅通过考古学获知。",
+  "graph_edges": [
+    {
+      "from": "-2454-001",
+      "to": "-2450-001",
+      "relation": "part_of",
+      "note": "早期的战役是纳拉姆辛更广泛军事战略的一部分。"
+    },
+    {
+      "from": "-2454-003",
+      "to": "-2150-FIRST_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "第六王朝的持续衰落导致了第一中间期的到来。"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "year": -2858,
+  "year_label": "公元前2858年",
+  "era_context": "黎凡特和美索不达米亚的早期青铜时代III期继续。埃及古王国第五王朝存续。印度河流域文明仍处于成熟的城市阶段。在美索不达米亚，早王朝三期的城邦争夺地区主导权。近东各地文字系统已充分确立。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东亚（该时期的中国年代学仍存争议）",
+    "美洲",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-2858-001",
+      "title": "埃及第五王朝统治的延续",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "北纬29.9°，东经31.1°",
+      "category": "political",
+      "description": "埃及第五王朝在此期间继续其统治。该王朝以拉神祭司阶层的崛起和太阳神庙的建造为特征。金字塔建造仍在继续，但规模较第四王朝小。由于年代学争议，公元前2858年在位法老的确切身份不确定。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "曼涅托的《埃及史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "神庙和金字塔遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "第五王朝年代仍存在±50–100年的不确定性。没有具体事件可靠地确定为公元前2858年。",
+      "cross_references": [
+        "-2859-001"
+      ]
+    },
+    {
+      "id": "-2858-002",
+      "title": "印度河流域文明贸易网络活跃",
+      "region": "印度河流域及阿拉伯海贸易路线",
+      "coordinates_approx": "北纬27.0°，东经68.0°",
+      "category": "economic",
+      "description": "印度河流域文明与美索不达米亚、波斯湾和阿拉伯半岛保持着广泛的贸易网络。在美索不达米亚遗址（如乌尔和拉格什）发现的印章和砝码证明了这种贸易。该文明标准化的度量衡便利了商业活动。对贸易的政治控制性质仍不清楚。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "美索不达米亚遗址发现的印度河印章的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "印度河文字印章（未破译）",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "贸易网络通过印度河印章和器物的分布得到考古学充分证实。公元前2858年这一特定年份属于更广泛的成熟阶段（约公元前2500–1900年）。",
+      "cross_references": [
+        "-2859-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现可靠记录于公元前2858年的具体事件。年代学框架本身存在争议，替代性年代学可能将此年置于埃及和印度河流域发展的不同阶段。",
+  "historiographic_note": "该年属于同时代文献稀少的时期。埃及记录仅限于后期的王表和考古遗存。印度河流域文明未破译的文字阻碍了详细的历史重建。美索不达米亚对此时期的记录侧重于城邦政治而非更广泛的发展。公元前2858年在更广泛的年代框架内主要是一个占位符。",
+  "graph_edges": [
+    {
+      "from": "-2858-001",
+      "to": "-2859-001",
+      "relation": "led_to",
+      "note": "第五王朝统治从前一年延续。"
+    }
+  ]
+}

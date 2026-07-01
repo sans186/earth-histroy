@@ -1,0 +1,102 @@
+{
+  "year": -2073,
+  "year_label": "公元前2073年",
+  "era_context": "埃及古王国正在分裂。阿卡德帝国在古提人的压力下崩溃。印度河流域文明处于成熟的城市阶段。中国传统上认为夏朝始于公元前2070年左右，因此公元前2073年恰逢这一传说建立之前。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "太平洋和大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-2073-001",
+      "title": "阿卡德帝国：古提人入侵加剧",
+      "region": "美索不达米亚，阿卡德",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "阿卡德帝国面临着来自扎格罗斯山脉的古提人入侵日益增长的压力。帝国的军事能力因内部叛乱和资源枯竭而削弱。阿卡德对美索不达米亚的控制正在瓦解。城邦正在重新确立独立。崩溃的过程可能是渐进的，持续数十年，但到公元前2073年，帝国的领土完整已严重受损。向古提时期的过渡正在进行中。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "苏美尔王表",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "美索不达米亚遗址的楔形文字铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "破坏层的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿卡德的崩溃有考古学证据，但精确年代不确定。这一过程可能持续了50至100年；公元前2073年是根据惯例在这一更广泛时期内指定的。",
+      "cross_references": [
+        "更广泛的阿卡德崩溃的一部分"
+      ]
+    },
+    {
+      "id": "-2073-002",
+      "title": "埃及第六王朝：中央权威削弱",
+      "region": "埃及，尼罗河流域",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "埃及第六王朝持续衰落。法老的权威越来越局限于孟斐斯地区及紧邻的尼罗河流域。地方总督积累起独立的权力和资源。国家组织大型项目的能力已大大减弱。到公元前2073年，埃及实际上已成为一系列相互竞争的区域势力的集合。这一时期标志着从古王国的中央集权国家向分裂的第一中间期的过渡。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "来自地方墓葬和行政记录的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "第六王朝的衰落有考古学证据，但精确年代不确定。",
+      "cross_references": [
+        "更广泛的古王国衰落的一部分"
+      ]
+    },
+    {
+      "id": "-2073-003",
+      "title": "印度河流域文明：成熟阶段稳定",
+      "region": "印度河流域，南亚",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "印度河流域文明仍处于成熟阶段。城市中心继续以标准化规划和广泛的贸易网络运作。考古记录中未显示出这一特定年份有任何重大中断。该文明最终将在公元前1900年左右衰落。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古发掘",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明的存在和大体年代已通过考古学得到充分证实。考古记录无法辨别个别年份的具体事件。",
+      "cross_references": [
+        "印度河流域文明成熟阶段的一部分（约公元前2600–前1900年）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现针对所列事件的具体否定证据。然而，埃及和美索不达米亚的年代学在学者间仍有争议。",
+  "historiographic_note": "公元前2073年的历史记录极为稀少。我们几乎完全依赖后来的王表和考古学中关于衰落的证据。没有已知的来自埃及或美索不达米亚这一年的同期文字记录。印度河流域文明仅通过考古学为人所知；其未破译的文字使得无法获取书面历史。",
+  "graph_edges": [
+    {
+      "from": "-2073-001",
+      "to": "-2073-002",
+      "relation": "contemporary_with",
+      "note": "阿卡德的崩溃与埃及古王国的衰落同时发生"
+    }
+  ]
+}

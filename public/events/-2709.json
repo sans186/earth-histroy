@@ -1,0 +1,117 @@
+{
+  "year": -2709,
+  "year_label": "公元前2709年",
+  "era_context": "美索不达米亚早王朝三期；埃及古王国（第四王朝）。印度河流域文明处于成熟期。这是一个文明已确立的时期，拥有发达的都市系统、贸易网络和政治结构。这一年没有文献记载的重大转变或动荡。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中亚",
+    "大洋洲",
+    "美洲大部"
+  ],
+  "events": [
+    {
+      "id": "-2709-001",
+      "title": "美索不达米亚城邦：早王朝三期的苏美尔文明",
+      "region": "美索不达米亚，苏美尔",
+      "coordinates_approx": "31.5°N, 46.0°E",
+      "category": "political",
+      "description": "在早王朝三期，苏美尔城邦继续发展和竞争。考古证据显示出复杂的城市规划、神庙建筑群和行政系统。政治格局仍然碎片化，存在多个权力中心。贸易网络将美索不达米亚城市与印度河流域、黎凡特和波斯湾地区连接起来。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "苏美尔遗址考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "苏美尔王表（后期编纂）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "苏美尔城邦的存在及其特征有考古学证实。这一年没有具体事件记载。",
+      "cross_references": [
+        "-2705-003"
+      ]
+    },
+    {
+      "id": "-2709-002",
+      "title": "埃及第四王朝：门卡乌拉或其继任者的统治",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "29.9°N, 31.1°E",
+      "category": "political",
+      "description": "埃及法老继续统治尼罗河谷，维持古王国的行政和宗教体系。宏伟建筑工程仍在继续。国家保持着对资源和劳动组织的控制。",
+      "key_figures": [
+        "门卡乌拉或谢普塞斯卡夫（第四王朝法老）"
+      ],
+      "sources": [
+        {
+          "name": "王表和行政记录（后期抄本）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "神庙和行政遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "古王国制度的延续已有充分证据，但这一年没有具体事件记载。",
+      "cross_references": [
+        "-2705-001",
+        "-2706-001",
+        "-2707-001",
+        "-2708-002"
+      ]
+    },
+    {
+      "id": "-2709-003",
+      "title": "印度河流域文明：成熟期延续",
+      "region": "印度河流域，南亚",
+      "coordinates_approx": "27.0°N, 68.0°E",
+      "category": "cultural",
+      "description": "印度河流域文明继续处于成熟期，拥有已确立的城市中心、标准化系统和长途贸易网络。考古证据显示物质文化、城市规划和经经济体系的连续性。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址考古发掘",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明的物质文化在这一时期已有充分的考古学证据。",
+      "cross_references": [
+        "-2705-002",
+        "-2706-002",
+        "-2708-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的反证证据。然而，这三个文明（苏美尔、埃及和印度河）在这一时期的绝对年代仍需学术界持续探讨，特别是在放射性碳校准和年代模型方面。",
+  "historiographic_note": "公元前2709年是书面资料中没有记载具体历史事件的年份。历史记录完全由考古证据和后期编纂组成。美索不达米亚和印度河谷缺少同时代的书面记录，这意味着政治事件、军事战役和个人行为在很大程度上不可见。幸存证据严重偏向物质文化、宏伟建筑和精英活动。普通人的生活几乎完全缺失于历史记录中。",
+  "graph_edges": [
+    {
+      "from": "-2709-001",
+      "to": "-2705-003",
+      "relation": "part_of",
+      "note": "苏美尔城邦时期的延续"
+    },
+    {
+      "from": "-2709-002",
+      "to": "-2705-001",
+      "relation": "part_of",
+      "note": "埃及第四王朝的延续"
+    },
+    {
+      "from": "-2709-003",
+      "to": "-2705-002",
+      "relation": "part_of",
+      "note": "印度河流域文明的成熟期"
+    }
+  ]
+}

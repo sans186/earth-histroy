@@ -1,0 +1,119 @@
+{
+  "year": -1503,
+  "year_label": "公元前1503年",
+  "era_context": "公元前两千纪中叶继续延续着同样的主要文明和势力。埃及新王国在巩固帝国权力。迈锡尼文明处于成熟期。商朝控制中国。赫梯古王国在安纳托利亚扩张。印度河流域文明正在分裂。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧和斯堪的纳维亚",
+    "中亚和草原地带",
+    "中美洲和南美洲",
+    "东南亚"
+  ],
+  "events": [
+    {
+      "id": "-1503-001",
+      "title": "图特摩斯三世持续进行黎凡特战役",
+      "region": "埃及、黎凡特、叙利亚",
+      "coordinates_approx": "25.7°N, 32.6°E",
+      "category": "military",
+      "description": "图特摩斯三世继续在黎凡特进行军事战役，以维持埃及的霸权并镇压地区叛乱。这些战役是控制贸易路线和确立埃及帝国权威的持续努力的一部分。这些战役在神庙铭文中有所记载。",
+      "key_figures": [
+        "图特摩斯三世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "卡纳克神庙铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "图特摩斯三世的战役有充分记载，但具体年份的归属存在±5年的不确定性。",
+      "cross_references": []
+    },
+    {
+      "id": "-1503-002",
+      "title": "商代甲骨占卜与行政管理",
+      "region": "中国、黄河流域",
+      "coordinates_approx": "34.3°N, 114.5°E",
+      "category": "cultural",
+      "description": "商朝继续进行系统的甲骨占卜和行政记录保存。刻字甲骨记录了王室狩猎、军事战役和宗教仪式。",
+      "key_figures": [
+        "商朝统治者（具体名称不确定）"
+      ],
+      "sources": [
+        {
+          "name": "来自安阳的甲骨文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "甲骨通过考古地层学直接断代。具体年份的归属存在±50年的不确定性。",
+      "cross_references": []
+    },
+    {
+      "id": "-1503-003",
+      "title": "迈锡尼在地中海的贸易与文化交流",
+      "region": "希腊、爱琴海、东地中海",
+      "coordinates_approx": "37.7°N, 23.0°E",
+      "category": "economic",
+      "description": "迈锡尼商人继续积极参与东地中海的远距离贸易。迈锡尼陶器和商品广泛分布，表明广泛的商业网络和文化交流。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "迈锡尼陶器分布的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "迈锡尼贸易在考古学上有充分证据。具体年份的归属存在±50年的不确定性。",
+      "cross_references": []
+    },
+    {
+      "id": "-1503-004",
+      "title": "赫梯古王国在安纳托利亚的军事扩张",
+      "region": "安纳托利亚、土耳其中部",
+      "coordinates_approx": "39.9°N, 34.6°E",
+      "category": "military",
+      "description": "赫梯古王国继续通过军事战役扩大在安纳托利亚的领土控制。赫梯统治者与邻近王国交战，确立赫梯的统治地位。",
+      "key_figures": [
+        "赫梯古王国统治者（具体名称不确定）"
+      ],
+      "sources": [
+        {
+          "name": "来自博阿兹柯伊的赫梯王室铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "赫梯古王国的年表存在±50–100年的不确定性。",
+      "cross_references": []
+    },
+    {
+      "id": "-1503-005",
+      "title": "印度河流域文明分裂加速",
+      "region": "南亚、印度河流域",
+      "coordinates_approx": "27.0°N, 68.0°E",
+      "category": "demographic",
+      "description": "印度河流域文明继续衰落和分裂。城市中心正在失去人口，文明正在分裂为区域文化和较小的定居点。贸易网络严重萎缩。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "这一衰退在考古学上有文献记载。具体年份的归属存在±50–100年的不确定性。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "未发现与所列事件相矛盾的证据。",
+  "historiographic_note": "公元前1503年的文献记录与前几年模式相同：严重偏向于有书面文献存世的文明。埃及和赫梯的记录具有政治动机。迈锡尼的线形文字B泥板是行政性的。印度河流域文明的未破译文字限制了理解。撒哈拉以南非洲、北欧和美洲严重缺乏代表性。",
+  "graph_edges": []
+}

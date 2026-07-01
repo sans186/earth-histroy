@@ -1,0 +1,112 @@
+{
+  "year": -3012,
+  "year_label": "公元前3012年",
+  "era_context": "青铜时代早期III在黎凡特和埃及；古王国埃及（第四王朝）。美索不达米亚处于早王朝III期。印度河流域文明处于成熟阶段。这一年处于城市文明建立和远距离贸易网络时期。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "黄河河谷以外的东亚地区",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-3012-001",
+      "title": "哈夫拉统治——古王国埃及，第四王朝（继续）",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "29.9°N, 31.1°E",
+      "category": "political",
+      "description": "哈夫拉统治期在此期间继续，建筑工程和权力巩固仍在进行。狮身人面像和吉萨第二座金字塔的建造代表了古王国纪念性建筑和国家资源的顶峰。哈夫拉的统治以行政稳定和与黎凡特、努比亚、红海地区贸易网络的维持为特征。",
+      "key_figures": [
+        "哈夫拉（齐夫林）——埃及法老"
+      ],
+      "sources": [
+        {
+          "name": "来自哈夫拉金字塔和狮身人面像的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "哈夫拉统治期传统上定为约公元前2558–2532年。将其归于公元前3012年是近似的。",
+      "cross_references": [
+        "属于更广泛的第四王朝时期"
+      ]
+    },
+    {
+      "id": "-3012-002",
+      "title": "美索不达米亚早王朝III期——城邦巩固与神庙建设",
+      "region": "美索不达米亚（苏美尔）",
+      "coordinates_approx": "32.5°N, 44.5°E",
+      "category": "cultural",
+      "description": "在早王朝III期，苏美尔城邦大量投资于神庙建设和宗教基础设施。塔庙（阶梯式塔楼）成为主要的建筑形式，重要实例出现在乌鲁克、拉格什和乌尔。这些神庙作为行政、经济和宗教中心，由祭司和书吏管理土地、劳力和贸易。楔形文字的发展与神庙行政和记录保存密切相关。这一时期出现了正式王权，统治者声称其权威得到神的认可。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自乌鲁克、拉格什和乌尔的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "来自寺庙档案的楔形文字铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "神庙建筑和楔形文字在早王朝III期的发展在考古上得到充分证实。该时期内的精确年代不确定。",
+      "cross_references": [
+        "属于更广泛的早王朝III期时期",
+        "与-3012-001（埃及哈夫拉）同期"
+      ]
+    },
+    {
+      "id": "-3012-003",
+      "title": "印度河流域文明——贸易网络与标准化",
+      "region": "印度河流域（今巴基斯坦和印度西北部）",
+      "coordinates_approx": "27.0°N, 68.0°E",
+      "category": "economic",
+      "description": "印度河流域文明的贸易网络横跨阿拉伯海，延伸至美索不达米亚、波斯湾和中亚。印度河印章和砝码出现在美索不达米亚背景中，表明有规律的商业接触。该文明标准化的度量衡便利了远距离贸易，表明高度的经济组织水平。印度河商人可能在波斯湾和美索不达米亚经营贸易据点，但直接证据有限。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "美索不达米亚背景中发现的印度河印章的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "印度河的度量衡",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "印度河与美索不达米亚之间的贸易存在，考古证据充分。其在-3012年期间的确切时间和规模不确定。",
+      "cross_references": [
+        "与-3012-001（埃及哈夫拉）和-3012-002（美索不达米亚城邦）同期",
+        "属于更广泛的青铜时代世界体系"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "古王国埃及的传统年代学仍存在争议。印度河流域文明的文字尚未破译，限制了对其政治经济结构的解释。印度河与美索不达米亚贸易的程度和性质存在争议；一些学者主张直接接触，另一些认为存在中间人。",
+  "historiographic_note": "公元前3012年的历史记录稀少，依赖于后来的编纂和考古证据。埃及文献偏向王室意识形态。美索不达米亚文献具有宣传性质。印度河流域文明几乎完全通过考古了解。地中海、美索不达米亚和印度河流域以外的地区在历史记录中缺失。",
+  "graph_edges": [
+    {
+      "from": "-3012-001",
+      "to": "-3011-001",
+      "relation": "contemporary_with",
+      "note": "哈夫拉统治期在此期间继续。"
+    },
+    {
+      "from": "-3012-002",
+      "to": "-3012-003",
+      "relation": "contemporary_with",
+      "note": "美索不达米亚城邦和印度河流域文明是同时期的，可能有间接贸易接触。"
+    }
+  ]
+}

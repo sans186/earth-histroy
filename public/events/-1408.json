@@ -1,0 +1,79 @@
+{
+  "year": -1408,
+  "year_label": "公元前1408年",
+  "era_context": "青铜时代晚期，图特摩斯三世统治下的埃及第十八王朝中期。新王国处于领土扩张和文化成就的顶峰。米坦尼王国控制着北美索不达米亚和叙利亚。赫梯帝国在安纳托利亚巩固权力。迈锡尼希腊处于晚希腊底II时期。这一时期以密集的军事行动、行政巩固和国际贸易网络的发展为特征。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（文字记录有限）",
+    "东亚（商朝记录存在但稀少且年代不确定）",
+    "美洲（无文字记录）",
+    "大洋洲（无文字记录）"
+  ],
+  "events": [
+    {
+      "id": "-1408-001",
+      "title": "图特摩斯三世在黎凡特的埃及军事行动",
+      "region": "黎凡特、埃及",
+      "coordinates_approx": "33.5, 35.5",
+      "category": "military",
+      "description": "图特摩斯三世进行军事行动以巩固埃及对黎凡特领土的控制并镇压反抗埃及权威的叛乱。这些行动是维持埃及霸权并确保贡赋网络的持续努力的一部分。行动记录在神庙铭文和行政记录中。",
+      "key_figures": [
+        "图特摩斯三世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "卡纳克神庙铭文（图特摩斯三世编年史）",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "埃及行政记录和陶片",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "图特摩斯三世的统治有充分证据，但具体年份的事件难以确定。此条目反映了他统治中期战役的一般模式。",
+      "cross_references": [
+        "-1405-001",
+        "-1407-001"
+      ]
+    },
+    {
+      "id": "-1408-002",
+      "title": "稳定统治下的卡西特巴比伦",
+      "region": "美索不达米亚（巴比伦尼亚）",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "卡西特王朝在此期间维持对巴比伦尼亚的控制，管理着复杂的附庸关系和贸易网络。卡西特人采纳了巴比伦文化和楔形文字行政体系，同时保持了自己的军事和王朝认同。这一时代美索不达米亚相对稳定。",
+      "key_figures": [
+        "卡西特统治者（因年代争论身份不确定）"
+      ],
+      "sources": [
+        {
+          "name": "巴比伦王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "楔形文字行政记录",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "卡西特年代学仍存争议；公元前1408年的具体事件没有单独证实。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "与前几年一样，这一时期的年代学存在争议。'低年代学'会将这些事件推迟很多。在任何同时代来源中，没有具体事件被单独证实发生在公元前1408年。上述条目代表了一般历史背景，而非具体年份的文献记载。",
+  "historiographic_note": "公元前1408年的历史记录与前几年相似：依赖埃及神庙铭文和楔形文字记录，年代不确定性显著。幸存的来源偏向于精英政治和军事史。考古证据提供了一些限制，但无法确定具体年份。埃及、美索不达米亚和赫梯记录之间缺乏同时代的交叉定年，使精确同步化变得困难。",
+  "graph_edges": [
+    {
+      "from": "-1408-001",
+      "to": "-1405-001",
+      "relation": "contemporary_with",
+      "note": "属于同一战役序列的一部分"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "year": -2352,
+  "year_label": "公元前2352年",
+  "era_context": "与-2354和-2353年相同：埃及古王国处于末期衰落，阿卡德帝国在纳拉姆辛治下达到顶峰，印度河流域文明处于成熟阶段，黎凡特和安纳托利亚处于早期青铜时代III期。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "商代区域以外的东亚",
+    "大洋洲和太平洋地区"
+  ],
+  "events": [
+    {
+      "id": "-2352-001",
+      "title": "埃及古王国：行政管理崩溃加速；诺姆长巩固地区权力",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "第六王朝的权威持续削弱。上埃及的地方州长（诺姆长）越来越像独立统治者一样行事，控制地方资源，维持私人军队，并为自己建造宏大的墓穴。法老征税和征发劳役的能力减小。一些学者认为气候压力（尼罗河泛滥减少）加剧了行政危机。向第一中间期的过渡迫在眉睫，但王朝正式结束的确切年份尚不确定。",
+      "key_figures": [
+        "佩皮二世（法老，如果仍在位）或其直接继任者"
+      ],
+      "sources": [
+        {
+          "name": "诺姆长的自传铭文（安赫提菲、西塞、凯提）",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "王室纪念碑记录的缺失",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "古王国崩溃的确切年代存在争议。公元前2352年按惯例归于这一时期，但该年份的具体事件并无记载。",
+      "cross_references": [
+        "-2354-001"
+      ]
+    },
+    {
+      "id": "-2352-002",
+      "title": "阿卡德帝国：在扎格罗斯和黎凡特的军事征战；神圣王权意识形态巩固",
+      "region": "美索不达米亚、黎凡特、扎格罗斯山脉",
+      "coordinates_approx": "33.3, 44.2",
+      "category": "military",
+      "description": "纳拉姆辛继续军事征战，以镇压叛乱和维持对遥远行省的控制。他在扎格罗斯山脉与卢卢比人和其他高地族群作战。在黎凡特，他巩固对城邦和贸易路线的控制。他的铭文越来越多地强调其神圣地位和军事能力。帝国仍处于领土最大范围，但内部紧张和外部压力开始积累。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德国王）"
+      ],
+      "sources": [
+        {
+          "name": "纳拉姆辛胜利石碑及相关铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "阿卡德时期行政文献",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治有充分文献依据，但具体的逐年军事战役并不总是精确断代。",
+      "cross_references": [
+        "-2354-002"
+      ]
+    },
+    {
+      "id": "-2352-003",
+      "title": "印度河流域文明：持续稳定和标准化生产",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "成熟的哈拉帕文明继续平稳发展。城市中心维持着标准的规划布局和基础设施。手工业生产，包括陶器、印章和金属制品，继续遵循既定标准。贸易网络依然活跃。该文明表现出显著的连续性和稳定性，在此期间没有重大政治动荡、战争或环境危机的证据。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "考古发掘和地层分析",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "印度河印章和标准砝码",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "成熟的哈拉帕阶段在考古学上有充分证据。从考古记录中难以区分逐年变化。",
+      "cross_references": [
+        "-2354-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现与前2352年具体相关的反驳证据。描述的模式与此时期更广泛的历史轨迹一致。",
+  "historiographic_note": "公元前2352年具体记载依然空白。条目描述了一般历史背景和趋势。公元前第三千年的古代年代学误差在±5—10年，逐年记载非常罕见。该年份的历史记录与-2354、-2353年基本一致。",
+  "graph_edges": [
+    {
+      "from": "-2352-001",
+      "to": "-2353-001",
+      "relation": "contemporary_with",
+      "note": "埃及衰落的延续"
+    },
+    {
+      "from": "-2352-002",
+      "to": "-2353-002",
+      "relation": "contemporary_with",
+      "note": "阿卡德巩固的延续"
+    },
+    {
+      "from": "-2352-003",
+      "to": "-2353-003",
+      "relation": "contemporary_with",
+      "note": "哈拉帕稳定的延续"
+    }
+  ]
+}

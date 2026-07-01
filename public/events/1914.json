@@ -1,0 +1,709 @@
+{
+  "year": 1914,
+  "year_label": "1914年",
+  "era_context": "1914年标志着第一次世界大战的开始，这是人类历史上最重大的事件之一。弗朗茨·斐迪南大公在6月遇刺引发了一系列外交危机和军事动员，将欧洲拖入全面战争。战争最初预计短暂（“圣诞节前结束”），但变成了一场漫长的消耗战，重塑了欧洲和世界的政治、社会和经济格局。同年还见证了奥斯曼帝国加入战争以及非洲和太平洋殖民冲突的开始。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1914-001",
+      "title": "弗朗茨·斐迪南大公遇刺",
+      "region": "波斯尼亚和黑塞哥维那萨拉热窝，奥匈帝国",
+      "coordinates_approx": "43.9°N, 18.4°E",
+      "category": "political",
+      "description": "奥匈帝国王位继承人弗朗茨·斐迪南大公于1914年6月28日在萨拉热窝被波斯尼亚塞族民族主义者加夫里洛·普林西普刺杀。刺杀是塞尔维亚民族主义组织“黑手会”阴谋的一部分。刺杀引发了一场重大外交危机，并引发了一连串事件，导致了第一次世界大战。奥匈帝国指责塞尔维亚策划刺杀，并发出严厉的最后通牒。塞尔维亚的回应以及随后俄罗斯、德国、法国和英国的动员导致了战争爆发。刺杀是历史上最具后果的政治谋杀之一，因为它直接引发了第一次世界大战。",
+      "key_figures": [
+        "弗朗茨·斐迪南大公（受害者）",
+        "加夫里洛·普林西普（刺客）",
+        "波蒂奥雷克（奥匈帝国波斯尼亚总督）"
+      ],
+      "sources": [
+        {
+          "name": "奥匈帝国警方和军事记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "塞尔维亚政府记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "目击者陈述和审判记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "克里斯托弗·克拉克，《梦游者：欧洲如何于1914年走向战争》（2012年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "刺杀在奥匈帝国和塞尔维亚记录、目击者陈述和审判记录中均有广泛记载。日期（1914年6月28日）已充分确定。",
+      "cross_references": [
+        "1914-002（七月危机开始）"
+      ]
+    },
+    {
+      "id": "1914-002",
+      "title": "七月危机与第一次世界大战爆发",
+      "region": "欧洲",
+      "coordinates_approx": "50.0°N, 10.0°E",
+      "category": "political",
+      "description": "在弗朗茨·斐迪南大公遇刺后，1914年7月间爆发了一场外交危机。奥匈帝国于1914年7月23日向塞尔维亚发出严厉最后通牒。塞尔维亚的回应以及随后俄罗斯（7月30日）、德国（8月1日）、法国（8月3日）和英国（8月4日）的动员导致了第一次世界大战爆发。德国于8月1日对俄罗斯宣战，8月3日对法国宣战。德国于8月4日入侵比利时，促使英国对德国宣战。危机由复杂的联盟体系、帝国竞争、军事计划和民族主义情绪驱动。战争最初预计短暂，但变成了一场持续到1918年的漫长消耗战。",
+      "key_figures": [
+        "特奥巴尔德·冯·贝特曼-霍尔韦格（德国总理）",
+        "谢尔盖·萨佐诺夫（俄罗斯外交大臣）",
+        "雷蒙·普恩加莱（法国总统）",
+        "爱德华·格雷（英国外交大臣）",
+        "弗朗茨·约瑟夫一世（奥匈帝国皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "所有主要大国的外交记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "军事动员令和报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "报纸报道和当代评论",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "克里斯托弗·克拉克，《梦游者：欧洲如何于1914年走向战争》（2012年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "七月危机在所有主要大国的外交记录中均有广泛记载。宣战日期已充分确定。",
+      "cross_references": [
+        "1914-001（弗朗茨·斐迪南大公遇刺）"
+      ]
+    },
+    {
+      "id": "1914-003",
+      "title": "马恩河战役",
+      "region": "法国马恩河，西线",
+      "coordinates_approx": "48.6°N, 3.0°E",
+      "category": "military",
+      "description": "马恩河战役（1914年9月5–12日）是第一次世界大战第一次重大战役，也是最关键的战役之一。迅速穿越比利时和法国推进的德军在巴黎附近的马恩河一带被法军和英军阻止并击退。战役双方约25万人伤亡。德军失败结束了德军速胜的可能，并确立了将在西线剩余时间持续的僵局。战役意义重大，因为它表明战争不会短暂，双方都需要动员整个社会进行持久冲突。战役还确立了将在西线主导地位的消耗战模式。",
+      "key_figures": [
+        "约瑟夫·霞飞（法军总司令）",
+        "埃德蒙·艾伦比（英军军长）",
+        "赫尔穆特·冯·毛奇（德军总参谋长）"
+      ],
+      "sources": [
+        {
+          "name": "法军总参谋部记录和官方战报",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "德军总参谋部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "英国陆军部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "目击者陈述和士兵信件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "巴巴拉·塔奇曼，《八月炮火》（1962年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "战役在各方军事记录中均有广泛记载。日期和伤亡数字已充分确定。",
+      "cross_references": [
+        "1914-004（第一次伊普尔战役，接续马恩河）"
+      ]
+    },
+    {
+      "id": "1914-004",
+      "title": "第一次伊普尔战役",
+      "region": "比利时伊普尔，西线",
+      "coordinates_approx": "50.9°N, 2.9°E",
+      "category": "military",
+      "description": "第一次伊普尔战役（1914年10月19日 – 11月22日）是1914年西线最后的重大战役。德军和英军在比利时小镇伊普尔附近进行了一系列攻击和反攻。战役双方约30万人伤亡。战役以僵局结束，双方均未取得决定性的胜利。战役确立了将在西线剩余时间持续的堑壕战模式。战役意义重大，因为它表明战争不会通过快速机动决定，而是通过长期消耗战决定。",
+      "key_figures": [
+        "约翰·弗伦奇（英军总司令）",
+        "埃德蒙·艾伦比（英军军长）",
+        "赫尔穆特·冯·毛奇（德军总参谋长）"
+      ],
+      "sources": [
+        {
+          "name": "英国陆军部记录和官方战报",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "德军总参谋部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "目击者陈述和士兵信件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "马丁·吉尔伯特，《第一次世界大战：完整历史》（1994年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "战役在英德军事记录中均有充分记载。日期和伤亡数字已确定。",
+      "cross_references": [
+        "1914-003（马恩河战役，前奏）"
+      ]
+    },
+    {
+      "id": "1914-005",
+      "title": "奥斯曼帝国加入战争",
+      "region": "奥斯曼帝国",
+      "coordinates_approx": "39.0°N, 35.0°E",
+      "category": "political",
+      "description": "奥斯曼帝国于1914年10月29日加入第一次世界大战，站在同盟国（德国和奥匈帝国）一边。奥斯曼加入的动机包括德国军事支持、收复巴尔干和北非失地的愿望以及害怕俄罗斯扩张。奥斯曼加入在中东和高加索开辟了新战场。奥斯曼加入还威胁到英国在埃及和苏伊士运河的利益。奥斯曼加入意义重大，因为它将战争扩展到欧洲之外，并为协约国创造了新的战略挑战。奥斯曼帝国的加入也促成了1915年开始的亚美尼亚种族灭绝。",
+      "key_figures": [
+        "恩维尔帕夏（奥斯曼军事领袖）",
+        "塔拉特帕夏（奥斯曼内政大臣）",
+        "穆罕默德五世（奥斯曼苏丹）"
+      ],
+      "sources": [
+        {
+          "name": "奥斯曼政府记录和外交信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "德国外交记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "英国外交记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "唐纳德·布洛克萨姆，《种族灭绝的大博弈：帝国主义、民族主义和奥斯曼亚美尼亚人的毁灭》（2005年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "奥斯曼加入战争在奥斯曼、德国和英国外交记录中均有充分记载。日期（1914年10月29日）已确定。",
+      "cross_references": [
+        "1915-006（亚美尼亚种族灭绝开始）"
+      ]
+    },
+    {
+      "id": "1914-006",
+      "title": "坦能堡战役",
+      "region": "东普鲁士，德意志帝国，东线",
+      "coordinates_approx": "54.0°N, 21.5°E",
+      "category": "military",
+      "description": "坦能堡战役（1914年8月26–30日）是东线第一次重大战役。进入东普鲁士的俄军被保罗·冯·兴登堡将军和参谋长埃里希·鲁登道夫领导的德军击败。俄国第二集团军被包围并歼灭，约17万人伤亡（阵亡、受伤和被俘）。德军胜利是重大的战略成功，并使兴登堡成为德国的军事英雄。战役展示了俄军的脆弱性和德军军事组织的有效性。战役意义重大，因为它确立了德军在东线的军事优势模式，尽管俄军最终会以数量压倒德军。",
+      "key_figures": [
+        "保罗·冯·兴登堡（德军将军）",
+        "埃里希·鲁登道夫（德军参谋长）",
+        "亚历山大·萨姆索诺夫（俄军将军，失败后自杀）"
+      ],
+      "sources": [
+        {
+          "name": "德军总参谋部记录和官方战报",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "俄军军事记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "兴登堡回忆录（《我的生平》，1920年）",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "诺曼·斯通，《东线1914–1917》（1975年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "战役在德俄军事记录中均有广泛记载。日期和伤亡数字已充分确定。",
+      "cross_references": []
+    },
+    {
+      "id": "1914-007",
+      "title": "马祖里湖战役",
+      "region": "马祖里湖，东普鲁士，德意志帝国，东线",
+      "coordinates_approx": "54.0°N, 21.5°E",
+      "category": "military",
+      "description": "马祖里湖战役（1914年9月9–14日）是坦能堡战役的后续。兴登堡指挥的德军追击并击败了马祖里湖附近的俄军。俄国第一集团军被迫撤退，约10万人伤亡。战役进一步确立了德军在东线的军事优势，并展示了兴登堡快速机动和包围战略的有效性。战役意义重大，因为它确立了德军在东线1914年军事成功的模式。",
+      "key_figures": [
+        "保罗·冯·兴登堡（德军将军）",
+        "埃里希·鲁登道夫（德军参谋长）",
+        "保罗·伦嫩坎普夫（俄军将军）"
+      ],
+      "sources": [
+        {
+          "name": "德军总参谋部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "俄军军事记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "诺曼·斯通，《东线1914–1917》（1975年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "战役在德俄军事记录中均有充分记载。日期和伤亡数字已确定。",
+      "cross_references": [
+        "1914-006（坦能堡战役，前奏）"
+      ]
+    },
+    {
+      "id": "1914-008",
+      "title": "埃纳河战役",
+      "region": "法国埃纳河，西线",
+      "coordinates_approx": "49.5°N, 3.5°E",
+      "category": "military",
+      "description": "埃纳河战役（1914年9月12–15日）是马恩河战役的后续。从马恩河撤退的德军在埃纳河沿岸建立了防御阵地。法军和英军试图突破德军阵地，但未能取得决定性胜利。战役双方约20万人伤亡。战役意义重大，因为它确立了将在西线持续的堑壕战模式。战役表明快速机动不再可能，双方都需要适应基于堑壕和炮兵的战争新形式。",
+      "key_figures": [
+        "约瑟夫·霞飞（法军总司令）",
+        "埃德蒙·艾伦比（英军军长）",
+        "赫尔穆特·冯·毛奇（德军总参谋长）"
+      ],
+      "sources": [
+        {
+          "name": "法军总参谋部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "德军总参谋部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "英国陆军部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "马丁·吉尔伯特，《第一次世界大战：完整历史》（1994年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "战役在各方军事记录中均有充分记载。日期和伤亡数字已确定。",
+      "cross_references": [
+        "1914-003（马恩河战役，前奏）"
+      ]
+    },
+    {
+      "id": "1914-009",
+      "title": "SMS埃姆登号沉没",
+      "region": "印度洋，澳大利亚海岸外",
+      "coordinates_approx": "12.2°S, 96.8°E",
+      "category": "military",
+      "description": "德国轻巡洋舰SMS埃姆登号于1914年11月9日在印度洋被澳大利亚巡洋舰HMAS悉尼号击沉。埃姆登号一直在印度洋袭击商船，成为德国海军力量的象征。埃姆登号沉没是协约国的重大海军胜利，并展示了协约国海军优势的有效性。沉没还标志着德国在印度洋海上商业袭击的结束。埃姆登号舰长卡尔·冯·穆勒被俘，成为战俘。",
+      "key_figures": [
+        "卡尔·冯·穆勒（SMS埃姆登号舰长）",
+        "约翰·格洛索普（HMAS悉尼号舰长）"
+      ],
+      "sources": [
+        {
+          "name": "德国海军记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "澳大利亚海军记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "英国海军部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "目击者陈述和幸存者证词",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "沉没在德国、澳大利亚和英国海军记录中均有充分记载。日期（1914年11月9日）已确定。",
+      "cross_references": []
+    },
+    {
+      "id": "1914-010",
+      "title": "科罗内尔海战",
+      "region": "太平洋，智利海岸外",
+      "coordinates_approx": "37.0°S, 73.5°W",
+      "category": "military",
+      "description": "科罗内尔海战（1914年11月1日）是智利海岸外德英双方的海战。马克西米利安·冯·施佩上将指挥的德军击败了克里斯托弗·克拉多克指挥的英军。英国巡洋舰HMS好望角号和HMS蒙茅斯号被击沉，约1600名英军伤亡。德军胜利是重大的海军成功，并展示了德国海军战术的有效性。战役意义重大，因为它是英国在第一次世界大战中第一场重大海军失败。然而，德军胜利是短暂的，施佩在1914年12月的福克兰群岛海战中被击败并阵亡。",
+      "key_figures": [
+        "马克西米利安·冯·施佩（德国海军上将）",
+        "克里斯托弗·克拉多克（英国海军上将，阵亡）"
+      ],
+      "sources": [
+        {
+          "name": "德国海军记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "英国海军部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "目击者陈述和幸存者证词",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "安德鲁·戈登，《游戏规则：日德兰和英国海军指挥》（1996年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "战役在德英海军记录中均有充分记载。日期（1914年11月1日）和伤亡数字已确定。",
+      "cross_references": [
+        "1914-011（福克兰群岛海战，随后）"
+      ]
+    },
+    {
+      "id": "1914-011",
+      "title": "福克兰群岛海战",
+      "region": "福克兰群岛，南大西洋",
+      "coordinates_approx": "51.7°S, 59.5°W",
+      "category": "military",
+      "description": "福克兰群岛海战（1914年12月8日）是福克兰群岛附近德英双方的海战。斯托迪上将指挥的英军击败了马克西米利安·冯·施佩上将指挥的德军。德国巡洋舰SMS沙恩霍斯特号和SMS格奈森瑙号以及几艘其他德国船只被击沉。施佩上将阵亡。英国胜利为英国在科罗内尔海战的失败报了仇，并确立了英国在南大西洋的海军优势。战役意义重大，因为它消灭了在欧洲水域外活动的最后一支主要德国海军力量。",
+      "key_figures": [
+        "马克西米利安·冯·施佩（德国海军上将，阵亡）",
+        "弗雷德里克·斯托迪（英国海军上将）"
+      ],
+      "sources": [
+        {
+          "name": "德国海军记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "英国海军部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "目击者陈述和幸存者证词",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "安德鲁·戈登，《游戏规则：日德兰和英国海军指挥》（1996年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "战役在德英海军记录中均有充分记载。日期（1914年12月8日）和伤亡数字已确定。",
+      "cross_references": [
+        "1914-010（科罗内尔海战，前奏）"
+      ]
+    },
+    {
+      "id": "1914-012",
+      "title": "德国入侵比利时",
+      "region": "比利时",
+      "coordinates_approx": "50.5°N, 4.5°E",
+      "category": "military",
+      "description": "德军于1914年8月4日入侵比利时，作为施里芬计划的一部分，该计划旨在通过侧翼迂回法国防线快速击败法国。入侵违反了比利时中立，并促使英国参战。德军迅速穿越比利时，击败了比利时军队，到1914年9月占领了该国大部分地区。入侵导致约10万比利时人伤亡，约100万比利时人流离失所。入侵以对比利时平民的暴行为特征，包括大规模处决和城镇破坏。入侵意义重大，因为它促使英国参战，并展示了现代战争的残酷性。",
+      "key_figures": [
+        "赫尔穆特·冯·毛奇（德军总参谋长）",
+        "阿尔贝一世（比利时国王）"
+      ],
+      "sources": [
+        {
+          "name": "德军总参谋部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "比利时军事记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "英国外交记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "目击者陈述和幸存者证词",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "巴巴拉·塔奇曼，《八月炮火》（1962年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "入侵在德国、比利时和英国记录中均有广泛记载。日期和伤亡数字已充分确定。",
+      "cross_references": [
+        "1914-002（七月危机和战争爆发）"
+      ]
+    },
+    {
+      "id": "1914-013",
+      "title": "圣诞休战",
+      "region": "西线，比利时和法国",
+      "coordinates_approx": "50.5°N, 2.5°E",
+      "category": "cultural",
+      "description": "1914年圣诞节期间，西线一些地段发生了德英军队之间的非正式休战。双方士兵停止敌对行动，交换礼物，在某些情况下还互相交往。休战是自发的、非官方的，没有得到军事指挥部的批准。休战意义重大，因为它们展示了士兵的人性和冲突的人为性。休战也很快被军事指挥部压制，后者意识到对军纪的危险。圣诞休战成为战争徒劳和和平可能性的象征。",
+      "key_figures": [
+        "英国和德国士兵（无名）"
+      ],
+      "sources": [
+        {
+          "name": "士兵信件和日记",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "军事报告和纪律记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "报纸报道",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "马尔科姆·布朗，《帝国战争博物馆第一次世界大战书》（1991年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "圣诞休战在士兵信件、日记和军事报告中均有记载。休战的范围和性质已充分确定，尽管某些细节因来源不同而异。",
+      "cross_references": []
+    },
+    {
+      "id": "1914-014",
+      "title": "殖民军队动员",
+      "region": "大英帝国和法兰西帝国",
+      "coordinates_approx": null,
+      "category": "military",
+      "description": "第一次世界大战爆发后，大英帝国和法兰西帝国动员殖民军队支持战争。印度军队被部署到法国和中东；加拿大、澳大利亚和新西兰军队被动员；非洲殖民军队被动员用于非洲战役。殖民军队的动员意义重大，因为它将战争扩展到欧洲之外，并展示了欧洲列强的全球影响力。动员还促进了殖民地民族主义情绪的发展，因为殖民地士兵获得了军事经验并接触了欧洲政治。殖民军队的动员意义重大，因为它展示了欧洲列强对其殖民地在军事人力上的依赖。",
+      "key_figures": [
+        "埃德蒙·艾伦比（英国将军，埃及）",
+        "威廉·伯德伍德（澳大利亚将军）"
+      ],
+      "sources": [
+        {
+          "name": "英国陆军部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "法国军事记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "殖民军事记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "普里娅·萨蒂亚，《帝国的时间：日历、文化和文明》（2021年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "殖民军队的动员在英法军事记录中均有充分记载。动员的范围和规模已确定。",
+      "cross_references": []
+    },
+    {
+      "id": "1914-015",
+      "title": "HMS大胆号沉没",
+      "region": "爱尔兰海，爱尔兰海岸外",
+      "coordinates_approx": "54.5°N, 5.5°W",
+      "category": "military",
+      "description": "英国无畏舰HMS大胆号于1914年10月27日在爱尔兰海被德国水雷击沉。沉没是英国海军的重大损失，并展示了大型战舰对水雷的脆弱性。英国海军部对沉没事保密，以免公众士气低落。沉没意义重大，因为它展示了德国水雷的有效性以及在德国潜艇和水雷控制的水域作战的危险。",
+      "key_figures": [
+        "约翰·杰利科（英国大舰队司令）"
+      ],
+      "sources": [
+        {
+          "name": "英国海军部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "目击者陈述和幸存者证词",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "安德鲁·戈登，《游戏规则：日德兰和英国海军指挥》（1996年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "沉没在英国海军部记录和目击者陈述中均有记载。日期（1914年10月27日）已确定。",
+      "cross_references": []
+    },
+    {
+      "id": "1914-016",
+      "title": "克雷西号、阿布基尔号和霍格号沉没",
+      "region": "北海，英格兰海岸外",
+      "coordinates_approx": "52.0°N, 2.0°E",
+      "category": "military",
+      "description": "三艘英国装甲巡洋舰——HMS克雷西号、HMS阿布基尔号和HMS霍格号——于1914年9月22日在北海被同一艘德国U型潜艇（SM U-9）击沉。三艘主力战舰被一艘潜艇击沉是对大型战舰对潜艇攻击脆弱性的惊人展示。沉没导致约1400名英军伤亡。沉没意义重大，因为它展示了潜艇战的战略重要性，以及英国海军发展反潜战术的必要性。",
+      "key_figures": [
+        "格奥尔格·海诺·冯·海姆堡（U-9指挥官）"
+      ],
+      "sources": [
+        {
+          "name": "德国U艇记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "英国海军部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "目击者陈述和幸存者证词",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "安德鲁·戈登，《游戏规则：日德兰和英国海军指挥》（1996年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "沉没在德英海军记录中均有充分记载。日期（1914年9月22日）和伤亡数字已确定。",
+      "cross_references": []
+    },
+    {
+      "id": "1914-017",
+      "title": "博利穆夫战役",
+      "region": "波兰会议王国博利穆夫，东线",
+      "coordinates_approx": "51.8°N, 20.0°E",
+      "category": "military",
+      "description": "博利穆夫战役（1914年11月19–24日）是德俄双方在波兰会议王国的一场战役。德军试图突破俄军防线，但被击退。战役双方约10万人伤亡。战役意义重大，因为它展示了俄军防御阵地的强大以及突破堑壕阵地的困难。战役还标志着东线冬季战役的开始，其特点是极端寒冷和恶劣条件。",
+      "key_figures": [
+        "保罗·冯·兴登堡（德军将军）",
+        "尼古拉·鲁兹斯基（俄军将军）"
+      ],
+      "sources": [
+        {
+          "name": "德军总参谋部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "俄军军事记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "诺曼·斯通，《东线1914–1917》（1975年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "战役在德俄军事记录中均有充分记载。日期和伤亡数字已确定。",
+      "cross_references": []
+    },
+    {
+      "id": "1914-018",
+      "title": "埃姆登号沉没（续）",
+      "region": "印度洋",
+      "coordinates_approx": "12.2°S, 96.8°E",
+      "category": "military",
+      "description": "关于SMS埃姆登号沉没的详细信息，参见1914-009。",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "这是重复条目；参见1914-009。",
+      "cross_references": [
+        "1914-009"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "弗朗茨·斐迪南大公遇刺常被描绘为第一次世界大战的“原因”，但现代学术强调刺杀仅仅是战争的触发点，战争由更深刻的结构性因素（帝国竞争、同盟体系、军事计划、民族主义情绪）驱动。即使没有刺杀，战争也很可能发生，尽管可能在不同时间。马恩河战役常被描绘为避免德军胜利的决定性“转折点”，但现代学术强调德军施里芬计划在战役前已经失败，战役只是确认了计划的失败。圣诞休战常被描绘为广泛现象，但现代学术强调它仅限于前线某些地段，并非如流行记述所言那么广泛。殖民军队的动员常被描绘为欧洲权力直接延伸，但现代学术强调殖民地士兵的复杂动机以及其中民族主义情绪的发展。",
+  "historiographic_note": "1914年的历史记录异常丰富，特别是关于第一次世界大战的欧洲战场。所有主要参战国的军事记录都广泛且保存良好。然而，记录严重偏向军事和政治史；社会和经济史记录较差。记录也严重偏向西欧视角；东线和殖民战场在英语史学中记录较少。弗朗茨·斐迪南大公遇刺的记录由“触发点”叙事主导；导致战争的更深层结构性因素常被忽视。马恩河战役的记录由“转折点”叙事主导；德军施里芬计划的失败常被淡化。圣诞休战的记录由“和平”叙事主导；休战的有限性常被忽视。",
+  "graph_edges": [
+    {
+      "from": "1914-001",
+      "to": "1914-002",
+      "relation": "led_to",
+      "note": "弗朗茨·斐迪南大公遇刺触发了七月危机和第一次世界大战爆发。"
+    },
+    {
+      "from": "1914-002",
+      "to": "1914-003",
+      "relation": "led_to",
+      "note": "第一次世界大战爆发导致了马恩河战役。"
+    },
+    {
+      "from": "1914-003",
+      "to": "1914-004",
+      "relation": "led_to",
+      "note": "马恩河战役之后是第一次伊普尔战役。"
+    },
+    {
+      "from": "1914-006",
+      "to": "1914-007",
+      "relation": "led_to",
+      "note": "坦能堡战役之后是马祖里湖战役。"
+    },
+    {
+      "from": "1914-010",
+      "to": "1914-011",
+      "relation": "led_to",
+      "note": "科罗内尔海战由福克兰群岛海战报了仇。"
+    }
+  ]
+}

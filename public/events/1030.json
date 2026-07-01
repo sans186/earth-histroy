@@ -1,0 +1,222 @@
+{
+  "year": 1030,
+  "year_label": "1030年",
+  "era_context": "1030年属于法国罗贝尔二世、英格兰和丹麦的克努特二世、北宋真宗皇帝以及阿拔斯哈里发国扎希尔统治晚期时期。这是一个西欧封建分裂、宗教改革运动（尤其是克吕尼改革）以及在波斯和黎凡特地区区域伊斯兰王朝巩固的时代。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（最少的文字资料）",
+    "丹麦以外的斯堪的纳维亚（稀少的文献）",
+    "中亚和草原（有限的非伊斯兰资料）",
+    "美洲（无文字资料）",
+    "大洋洲（无文字资料）"
+  ],
+  "events": [
+    {
+      "id": "1030-001",
+      "title": "马苏德一世在穆罕默德去世后成为伽色尼苏丹",
+      "region": "伽色尼帝国（阿富汗、中亚、北印度）",
+      "coordinates_approx": "34.5553, 69.2075",
+      "category": "political",
+      "description": "伽色尼的穆罕默德于1030年去世，其子马苏德一世继位成为伽色尼苏丹。马苏德一世的上台标志着伽色尼扩张和巩固新阶段的开始。他将统治11年（1030–1041），并成为最成功的伽色尼统治者之一，在中亚和北印度进行军事战役，并赞助波斯文化和学术。",
+      "key_figures": [
+        "马苏德一世（新任伽色尼苏丹）",
+        "伽色尼的穆罕默德（已故苏丹）"
+      ],
+      "sources": [
+        {
+          "name": "比鲁尼，《印度志》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "加尔迪齐，《历史之饰》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "马苏德一世的登基日期在伊斯兰史料中记载充分。他的统治年份已牢固确立。",
+      "cross_references": [
+        "1031-002"
+      ]
+    },
+    {
+      "id": "1030-002",
+      "title": "英格兰和丹麦的克努特二世巩固北海霸权",
+      "region": "英格兰王国、丹麦王国、挪威王国",
+      "coordinates_approx": "52.5200, 13.4050",
+      "category": "political",
+      "description": "1030年，克努特二世处于权力顶峰，统治着一个包括英格兰、丹麦和挪威部分的北海帝国。他建立了精密的行政体系，并通过军事力量、王朝联盟和宗教赞助维持控制。克努特二世以法律改革和对教会的支持而闻名。然而，他的健康状况正在恶化，他将于1033年去世。",
+      "key_figures": [
+        "克努特二世（英格兰和丹麦国王）",
+        "诺曼底的埃玛（王后）",
+        "飞毛腿哈罗德（儿子）"
+      ],
+      "sources": [
+        {
+          "name": "《盎格鲁-撒克逊编年史》",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "《埃玛王后赞词》",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "克努特二世在1030年的统治在英格兰和斯堪的纳维亚史料中记载充分。",
+      "cross_references": [
+        "1033-001"
+      ]
+    },
+    {
+      "id": "1030-003",
+      "title": "北宋面临辽和西夏的军事压力",
+      "region": "北宋帝国及邻国（中国）",
+      "coordinates_approx": "34.2658, 108.9398",
+      "category": "military",
+      "description": "真宗皇帝统治下的北宋面临着北方辽朝和西北西夏的持续军事压力。1030年，宋朝保持防御态势，依靠要塞、外交和军事技术来应对这些威胁。宋朝建立了向辽朝进贡以维持和平的体系，这一战略将持续数十年。",
+      "key_figures": [
+        "宋真宗（北宋皇帝）",
+        "辽朝统治者（北方邻居）",
+        "西夏统治者（西北邻居）"
+      ],
+      "sources": [
+        {
+          "name": "司马光，《资治通鉴》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "《宋史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "北宋军事史在中国史料中记载充分，尽管编纂于数世纪后。1030年的具体军事交战年代不太精确。",
+      "cross_references": []
+    },
+    {
+      "id": "1030-004",
+      "title": "法国罗贝尔二世继续统治；封建分裂持续",
+      "region": "法兰西王国",
+      "coordinates_approx": "48.8566, 2.3522",
+      "category": "political",
+      "description": "罗贝尔二世（虔诚者罗贝尔）在1030年继续其漫长的统治，当时他已年过六旬。他的统治以对抗封建分裂和试图通过宗教赞助和联盟来加强王权为特征。罗贝尔二世已为国王超过40年，将于1034年去世，结束中世纪早期最长的统治之一。",
+      "key_figures": [
+        "罗贝尔二世（法国国王）",
+        "亨利（儿子，未来的亨利一世）",
+        "阿尔勒的康斯坦丝（王后）"
+      ],
+      "sources": [
+        {
+          "name": "拉乌尔·格拉贝尔，《历史五书》",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "沙巴奈的阿德马尔，《编年史》",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "罗贝尔二世在1030年的统治在同时代编年史中有记载。该年的具体事件年代不太精确。",
+      "cross_references": [
+        "1034-001"
+      ]
+    },
+    {
+      "id": "1030-005",
+      "title": "扎希尔在阿拔斯哈里发国统治的最后一年",
+      "region": "阿拔斯哈里发国（伊拉克/美索不达米亚）",
+      "coordinates_approx": "33.3128, 44.3615",
+      "category": "political",
+      "description": "扎希尔（在位1021–1031）于1030年统治阿拔斯哈里发国，处于他在位的最后一年。哈里发国仍然分裂和虚弱，实权掌握在军事埃米尔和地区王朝手中。扎希尔的统治以试图维持阿拔斯在伊拉克和巴格达的权威为特征，但成效有限。他将于1031年去世，由卡伊姆继位。",
+      "key_figures": [
+        "扎希尔（阿拔斯哈里发）"
+      ],
+      "sources": [
+        {
+          "name": "伊本·艾西尔，《全史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "米斯卡韦，《民族经验》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "扎希尔的统治年份已牢固确立。1030年的具体事件在现存史料中记载不太精确。",
+      "cross_references": [
+        "1031-001"
+      ]
+    },
+    {
+      "id": "1030-006",
+      "title": "克吕尼改革运动继续在西欧扩张",
+      "region": "西欧（法国、意大利、德国）",
+      "coordinates_approx": "46.4, 4.8",
+      "category": "religious",
+      "description": "源于勃艮第克吕尼修道院的克吕尼改革在1030年继续传遍西欧。这场修道院改革运动强调严格遵守圣本笃会规、神职人员独身制以及独立于世俗权威。到1030年，克吕尼的修道院在法国、意大利和德国大量增加，影响了教会改革和教皇权威。该运动将成为11世纪末格里高利改革的主要力量。",
+      "key_figures": [
+        "克吕尼的奥迪洛（院长，在位994–1048）"
+      ],
+      "sources": [
+        {
+          "name": "拉乌尔·格拉贝尔，《历史五书》",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "克吕尼特许状和修道院记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "克吕尼改革的扩张在修道院记录和编年史中记载充分。1030年的具体影响年代不太精确，但与更广泛的趋势一致。",
+      "cross_references": [
+        "1033-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "克努特二世对挪威的实际控制程度在1030年存在争议。一些资料表明他对挪威的掌控有限或存在争议。将克吕尼改革描述为普遍成功可能被夸大了；世俗权威和当地主教 often 抵制克吕尼的影响。所列其他事件未发现重大反证。",
+  "historiographic_note": "1030年的文献不均衡。伊斯兰资料对于马苏德一世和扎希尔相对丰富，尽管 often 编纂于数世纪后。英国和法国资料是同时代且详细的。中国资料详细且为同时代。斯堪的纳维亚资料稀少。留存记录严重偏向于政治和军事事件；经济、社会和文化发展代表性不足。地区偏见偏向西欧、地中海和东亚，而非中亚、草原、撒哈拉以南非洲和美洲。修道院资料可能夸大了克吕尼改革的影响。",
+  "graph_edges": [
+    {
+      "from": "1030-001",
+      "to": "1041-MASUD_DEATH",
+      "relation": "led_to",
+      "note": "马苏德一世于1030年登基开启了为期11年的军事扩张和巩固时期"
+    },
+    {
+      "from": "1030-005",
+      "to": "1031-001",
+      "relation": "led_to",
+      "note": "扎希尔在1030年的统治之后是1031年他的去世和卡伊姆的登基"
+    },
+    {
+      "from": "1030-002",
+      "to": "1033-001",
+      "relation": "led_to",
+      "note": "克努特二世在1030年的持续主导地位之后是1033年他的去世和继承危机"
+    },
+    {
+      "from": "1030-006",
+      "to": "1073-GREGORIAN_REFORM",
+      "relation": "part_of",
+      "note": "1030年的克吕尼改革是11世纪末更广泛的格里高利改革的前奏"
+    }
+  ],
+  "_meta": {
+    "processed_at": "2026-04-11T17:34:37.318138",
+    "model": "claude-sonnet-4-6",
+    "method": "claude-code-cli",
+    "note": "由 Claude Code CLI（Max 订阅）在 API 迁移前生成"
+  }
+}

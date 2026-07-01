@@ -1,0 +1,54 @@
+{
+  "year": -3078,
+  "year_label": "公元前3078年",
+  "era_context": "早期青铜时代第三期。埃及古王国（第四至第五王朝）处于成熟阶段。美索不达米亚为早王朝第三期。印度河流域文明繁荣。书写系统在埃及和美索不达米亚已确立。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-3078-001",
+      "title": "古王国埃及：第四至第五王朝延续",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.1",
+      "category": "political",
+      "description": "埃及古王国保持稳定和中央集权。法老国家通过复杂的行政机构继续控制尼罗河流域。宗教权威与王权相结合。纪念性建筑继续，但规模较先前有所缩小。",
+      "key_figures": [
+        "第四王朝或第五王朝初期的法老（身份未确定）"
+      ],
+      "sources": [
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "金字塔铭文和行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "公元前3078年未证有任何具体事件。年代为常规安排，不确定幅度为±50–100年。",
+      "cross_references": [
+        "-3075-001",
+        "-3076-001",
+        "-3077-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "古王国的绝对年表仍存争议。同时期的资料没有明确提及公元前3078年。",
+  "historiographic_note": "公元前3078年的历史记录极少，依赖王表和纪念碑铭文。这些资料严重偏向精英和宗教活动。",
+  "graph_edges": [
+    {
+      "from": "-3078-001",
+      "to": "-3077-001",
+      "relation": "contemporary_with",
+      "note": "古王国埃及的延续"
+    }
+  ]
+}

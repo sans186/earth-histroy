@@ -1,0 +1,134 @@
+{
+  "year": 782,
+  "year_label": "公元782年",
+  "era_context": "阿拔斯王朝处于哈伦·拉希德统治前的最后几年。查理曼继续扩张法兰克权力并征服萨克森。唐德宗统治下的唐朝面临持续的内部不稳定。这是欧亚主要文明军事巩固和政治过渡的时期。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东南亚",
+    "大洋洲",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "782-001",
+      "title": "叙恩特尔大屠杀（萨克森大屠杀）",
+      "region": "法兰克帝国（萨克森，今德国）",
+      "coordinates_approx": "52.2, 9.5",
+      "category": "military",
+      "description": "查理曼下令在叙恩特尔处决约4500名萨克森囚犯（亦称萨克森大屠杀）。这一暴行发生在萨克森叛乱之后，旨在通过恐怖手段粉碎萨克森抵抗。这是萨克森战争中最臭名昭著的插曲之一，标志着查理曼使用暴力加强法兰克控制和基督教化的升级。该事件即使在当代史料中也存在争议，代表了冲突的一个转折点。",
+      "key_figures": [
+        "查理曼（法兰克国王）",
+        "维杜金德（萨克森领袖，逃脱了大屠杀）"
+      ],
+      "sources": [
+        {
+          "name": "《法兰克王国年鉴》",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "艾因哈德《查理大帝传》",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "叙恩特尔大屠杀在近乎同时代的《法兰克王国年鉴》中有记载。782年日期在史学中为标准。受害者人数（4500）据史料报告，但可能被夸大。",
+      "cross_references": []
+    },
+    {
+      "id": "782-002",
+      "title": "查理曼颁布《萨克森法令》",
+      "region": "法兰克帝国（萨克森）",
+      "coordinates_approx": "51.5, 10.0",
+      "category": "legal",
+      "description": "叙恩特尔大屠杀之后，查理曼颁布了《萨克森法令》，这是一部旨在将被征服萨克森领土强行纳入法兰克和基督教法律的法典。该法典对违反基督教法律和法兰克权威的行为规定了严厉惩罚，包括对异教行为的死刑。该法令代表了查理曼将军事征服与法律和宗教改革相结合的策略。",
+      "key_figures": [
+        "查理曼（法兰克国王）"
+      ],
+      "sources": [
+        {
+          "name": "《萨克森法令》（主要法律文本）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《法兰克王国年鉴》",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "《萨克森法令》作为主要法律文本保存至今。其日期传统上定为782年左右，尽管一些学者认为它可能是在几年内分阶段颁布的。",
+      "cross_references": [
+        "782-MASSACRE_SUNTEL"
+      ]
+    },
+    {
+      "id": "782-003",
+      "title": "拜占庭-阿拉伯边境冲突",
+      "region": "拜占庭帝国/伊斯兰哈里发国（安纳托利亚/叙利亚边境）",
+      "coordinates_approx": "37.0, 35.0",
+      "category": "military",
+      "description": "拜占庭与阿拉伯军队之间的军事冲突沿安纳托利亚-叙利亚边境持续进行。这些袭击和反袭击是8世纪边境的特征，双方均未取得决定性优势。冲突破坏了贸易，并在边境人口中造成伤亡。",
+      "key_figures": [
+        "伊琳娜女皇（拜占庭摄政）",
+        "君士坦丁六世（幼年拜占庭皇帝）",
+        "马赫迪（阿拔斯哈里发）"
+      ],
+      "sources": [
+        {
+          "name": "忏悔者塞奥法尼斯《编年史》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "拜占庭-阿拉伯冲突作为一般现象有充分记载，但782年的具体交战日期精确度较低。",
+      "cross_references": []
+    },
+    {
+      "id": "782-004",
+      "title": "唐朝继续中亚战役",
+      "region": "唐朝/中亚",
+      "coordinates_approx": "40.0, 85.0",
+      "category": "military",
+      "description": "唐德宗统治下的唐朝继续在中亚进行军事行动。唐朝军队与吐蕃和阿拉伯军队争夺丝绸之路控制权和地区霸权。这些战役日益昂贵，加剧了王朝的财政压力。",
+      "key_figures": [
+        "唐德宗（在位779–805）"
+      ],
+      "sources": [
+        {
+          "name": "《旧唐书》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "《新唐书》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "唐朝在中亚的军事活动在中国历史记录中有记载，尽管782年的具体战役日期精确度较低。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "叙恩特尔大屠杀在《法兰克王国年鉴》中有记载，但受害者确切人数（4500）在学者中存在争议。一些资料认为该数字可能出于宣传目的被夸大。此外，《萨克森法令》的确切日期也存在争议；一些学者认为它是分阶段颁布的，而非782年的一份单一文件。",
+  "historiographic_note": "公元782年的文献记载为中等，反映了宫廷赞助史学的偏见。法兰克史料（《法兰克王国年鉴》）提供了叙恩特尔大屠杀的近乎同时代文献，尽管记述可能受到查理曼宫廷视角的影响。伊斯兰和拜占庭史料对该年记载较简略。中国史料丰富但侧重于宫廷政治。历史记录强调精英政治和军事事件；经济、社会和文化发展代表性不足。",
+  "graph_edges": [
+    {
+      "from": "782-001",
+      "to": "782-002",
+      "relation": "led_to",
+      "note": "叙恩特尔大屠杀促使了《萨克森法令》的颁布"
+    },
+    {
+      "from": "782-001",
+      "to": "804-SAXON_WARS_END",
+      "relation": "part_of",
+      "note": "叙恩特尔大屠杀是萨克森战争（772–804）中的一次重大升级"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "year": -2707,
+  "year_label": "公元前2707年",
+  "era_context": "美索不达米亚早王朝三期；埃及古王国（第四王朝）。印度河流域文明处于成熟期。这一年处在主要文明相对稳定和延续的时期，拥有已确立的政治结构和贸易网络。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中亚",
+    "大洋洲",
+    "美洲大部"
+  ],
+  "events": [
+    {
+      "id": "-2707-001",
+      "title": "埃及古王国行政与宗教的延续",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "29.9°N, 31.1°E",
+      "category": "political",
+      "description": "埃及国家继续运行已确立的行政结构、宗教实践和宏伟工程计划。法老保持对尼罗河谷的控制，并组织劳动力从事国家项目。这一时期的特点是相对稳定和古王国制度的巩固。",
+      "key_figures": [
+        "门卡乌拉或谢普塞斯卡夫（第四王朝法老）"
+      ],
+      "sources": [
+        {
+          "name": "行政记录和铭文（后期抄本）",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "神庙和行政遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "古王国制度的延续已有充分证据，但这一年没有具体事件记载。",
+      "cross_references": [
+        "-2705-001",
+        "-2706-001"
+      ]
+    },
+    {
+      "id": "-2707-002",
+      "title": "苏美尔城邦保持区域竞争与贸易",
+      "region": "美索不达米亚，苏美尔",
+      "coordinates_approx": "31.5°N, 46.0°E",
+      "category": "economic",
+      "description": "苏美尔城邦继续争夺资源并保持贸易网络。考古证据显示，货物、思想甚至人口在城邦间流动。政治格局碎片化，没有单一的支配力量，尽管某些城市（如乌鲁克或拉格什）在不同时期可能拥有更大影响力。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "苏美尔遗址考古证据（陶器、印章、铭文）",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "苏美尔王表（后期编纂）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "存在竞争性城邦和贸易网络已有考古学证实，但这一年没有具体事件记载。",
+      "cross_references": [
+        "-2705-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的反证证据。然而，苏美尔王表对这一时期的年代学争议很大，一些学者将重大政治变迁（如阿卡德的崛起）定在比传统年代早或晚得多的时间。",
+  "historiographic_note": "公元前2707年几乎没有任何具体历史事件被记载。历史记录完全由考古证据和后期编纂组成。同时代书面记录的缺失意味着政治事件、军事战役和个人行为在很大程度上不可见。幸存证据偏向物质文化和宏伟建筑。",
+  "graph_edges": [
+    {
+      "from": "-2707-001",
+      "to": "-2705-001",
+      "relation": "part_of",
+      "note": "第四王朝的延续"
+    },
+    {
+      "from": "-2707-002",
+      "to": "-2705-003",
+      "relation": "contemporary_with",
+      "note": "苏美尔城邦竞争延续"
+    }
+  ]
+}

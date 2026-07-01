@@ -1,0 +1,83 @@
+{
+  "year": -2708,
+  "year_label": "公元前2708年",
+  "era_context": "美索不达米亚早王朝三期；埃及古王国（第四王朝）。印度河流域文明处于成熟期。这是一个文明已确立的时期，拥有发达的都市系统、贸易网络和政治结构。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中亚",
+    "大洋洲",
+    "美洲大部"
+  ],
+  "events": [
+    {
+      "id": "-2708-001",
+      "title": "印度河流域文明：城市中心和标准化体系",
+      "region": "印度河流域，南亚",
+      "coordinates_approx": "27.0°N, 68.0°E",
+      "category": "cultural",
+      "description": "印度河流域文明保持着其特征：规划有序的城市中心、标准化的砖块尺寸、先进的排水系统以及标准化的度量衡。带有未解译文字的印章持续被制作。该文明在广阔地理区域显示出显著的一致性，暗示着中央权威或共享的文化体系。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址考古发掘",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "印度河印章及标准化器物",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明的物质文化已有考古学充分证实。绝对年代依赖于放射性碳和地层学对比。",
+      "cross_references": [
+        "-2705-002",
+        "-2706-002"
+      ]
+    },
+    {
+      "id": "-2708-002",
+      "title": "埃及古王国：宏伟建筑的延续",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "29.9°N, 31.1°E",
+      "category": "cultural",
+      "description": "宏伟建筑工程继续作为古王国的一个鲜明特征。神庙、墓葬和行政建筑遍布尼罗河谷。劳动力组织、采石和交通运输系统展示出先进的行政能力。",
+      "key_figures": [
+        "门卡乌拉或谢普塞斯卡夫（第四王朝法老）"
+      ],
+      "sources": [
+        {
+          "name": "宏伟遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "古王国的宏伟建筑有考古学证实。第四王朝内部的精确年代仍不确定。",
+      "cross_references": [
+        "-2705-001",
+        "-2706-001",
+        "-2707-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的反证证据。印度河流域文明的统一性及其政治组织的性质仍存在争议；一些学者主张中央集权国家，而另一些则认为是一个更分散的城邦体系。",
+  "historiographic_note": "公元前2708年是书面资料中没有记载具体历史事件的年份。历史记录完全由考古证据构成。对物质文化和宏伟建筑的偏向很突出。普通人的生活、政治事件和军事战役在很大程度上不可见。",
+  "graph_edges": [
+    {
+      "from": "-2708-001",
+      "to": "-2705-002",
+      "relation": "part_of",
+      "note": "印度河流域文明的成熟期"
+    },
+    {
+      "from": "-2708-002",
+      "to": "-2705-001",
+      "relation": "part_of",
+      "note": "埃及古王国第四王朝"
+    }
+  ]
+}

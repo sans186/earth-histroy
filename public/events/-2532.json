@@ -1,0 +1,53 @@
+{
+  "year": -2532,
+  "year_label": "公元前2532年",
+  "era_context": "埃及第四王朝，哈夫拉统治时期。古王国正处于中央集权和大型纪念性建筑建造的鼎盛期。美索不达米亚处于早王朝第三期晚期或阿卡德时期早期（年代学存在争议）。印度河流域文明正在扩张。中国传统年代学将此置于夏朝。",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "美索不达米亚",
+    "印度河流域",
+    "撒哈拉以南非洲",
+    "北欧",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2532-001",
+      "title": "哈夫拉统治时期；埃及第四王朝",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "29.9°N, 31.1°E",
+      "category": "political",
+      "description": "哈夫拉继续其作为埃及法老的统治。现存资料中没有记录到这一年的具体事件。该统治时期通过古迹遗存和国王名单得到记载，但个别年份在历史记录中没有区分。",
+      "key_figures": [
+        "哈夫拉——埃及法老"
+      ],
+      "sources": [
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "吉萨考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "哈夫拉的统治已得到确认，但公元前2532年没有具体事件得到证实。年代学定位存在±50年的不确定性。",
+      "cross_references": [
+        "-2530-001（哈夫拉统治时期）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现与所列事件相关的否定性证据。任何已知资料中均未记录这一年的具体历史事件。",
+  "historiographic_note": "公元前2532年的历史记录完全缺失。只能从更广泛的年代学框架中推断哈夫拉统治的延续。这一年体现了古代年代学的严重局限：我们可以识别统治时期和时段，但古王国时期没有保存下具体的逐年历史事件记录。",
+  "graph_edges": [
+    {
+      "from": "-2532-001",
+      "to": "-2530-001",
+      "relation": "part_of",
+      "note": "属于哈夫拉统治时期"
+    }
+  ]
+}

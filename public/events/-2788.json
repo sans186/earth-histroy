@@ -1,0 +1,118 @@
+{
+  "year": -2788,
+  "year_label": "公元前2788年",
+  "era_context": "埃及古王国晚期的延续，阿卡德帝国在美索不达米亚的主导地位，以及印度河流域成熟的哈拉帕文明。这是一个多个文明中国定国家结构、长距离贸易和纪念碑式建筑的时期。在中国，传统的夏朝可能处于早期几个世纪，但考古证据仍有争议。",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "太平洋岛屿"
+  ],
+  "events": [
+    {
+      "id": "-2788-001",
+      "title": "纳拉姆-辛统治下阿卡德帝国行政的延续",
+      "region": "美索不达米亚，阿卡德帝国",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "纳拉姆-辛的统治继续，巩固阿卡德对美索不达米亚领土的控制。行政记录显示了贡品收集、军队招募和贸易监管的组织。阿卡德语和楔形文字在整个帝国日益标准化，便利了官僚沟通。然而，证据表明外部团体，特别是来自扎格罗斯山脉的古提人，压力日益增加。",
+      "key_figures": [
+        "纳拉姆-辛（阿卡德国王）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德行政泥板和通信",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "皇家铭文和石碑",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆-辛的统治有充分记录，但其统治期间行政发展的确切年代不确定。",
+      "cross_references": [
+        "-2789-001"
+      ]
+    },
+    {
+      "id": "-2788-002",
+      "title": "哈拉帕贸易网络和标准化重量体系",
+      "region": "印度河流域，南亚",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "考古证据显示印度河流域文明维持了延伸到美索不达米亚、波斯湾和中亚的精密贸易网络。在多处遗址发现的标准化重量和度量衡暗示中央经济调控或至少广泛的商业惯例。刻有未破译铭文的印章可能用于贸易交易和行政目的。这种经济一体化因其明显缺乏强制性军事基础设施而引人注目。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "揭示标准化重量和度量衡的考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "在美索不达米亚背景中发现的印度河印章和贸易商品",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "提及与美卢哈贸易的美索不达米亚记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "标准化重量和长距离贸易的存在通过考古证据得到充分确立。",
+      "cross_references": [
+        "-2789-002"
+      ]
+    },
+    {
+      "id": "-2788-003",
+      "title": "埃及地方自治和诺马尔赫权力巩固",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "在第五王朝晚期和第六王朝早期，埃及地方总督（诺马尔赫）积累越来越多的财富和权威，其精心建造的墓葬和铭文证明了这一点。权力从法老中央下放削弱了中央权威，并导致了古王国的最终崩溃。诺马尔赫开始以半独立统治者的姿态出现，控制地方资源和军队。",
+      "key_figures": [
+        "多位诺马尔赫（地方总督）"
+      ],
+      "sources": [
+        {
+          "name": "诺马尔赫墓葬铭文和传记文本",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "地方行政中心的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "诺马尔赫权力巩固的趋势在墓葬铭文和考古证据中有充分证明，但这一过程的确切年代不确定。",
+      "cross_references": [
+        "-2789-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "古王国埃及简单线性衰落的叙述受到证据的挑战，这些证据表明地方自治不一定是不稳定的——一些地区可能在诺马尔赫统治下保持了繁荣和稳定。同样，阿卡德帝国表面的实力掩盖了内部紧张和外部压力，这些很快会导致其分裂。",
+  "historiographic_note": "此年与-2789年类似，在具体事件方面记录稀少。历史记录主要以埃及和美索不达米亚为主；其他地区仅通过考古获知或完全不见于文字来源。绝对年代的精度限于±50–100年。",
+  "graph_edges": [
+    {
+      "from": "-2788-001",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "阿卡德行政巩固之后是迅速崩溃"
+    },
+    {
+      "from": "-2788-003",
+      "to": "-2181-001",
+      "relation": "led_to",
+      "note": "诺马尔赫自治导致了古王国崩溃"
+    }
+  ]
+}

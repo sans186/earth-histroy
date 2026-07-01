@@ -1,0 +1,85 @@
+{
+  "year": -3081,
+  "year_label": "公元前3081年",
+  "era_context": "黎凡特和埃及的青铜时代早期三期；埃及古王国（第六王朝）在中央法老统治下继续。美索不达米亚早王朝三期城邦竞争。印度河流域文明处于成熟期。这一年处于埃及和美索不达米亚相对稳定的时期，但区域性冲突持续。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "黄河流域之外东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-3081-001",
+      "title": "埃及佩皮二世持续统治——第六王朝",
+      "region": "埃及（尼罗河谷）",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "佩皮二世在本年度继续统治。其统治时期的行政记录和官方铭文记载了古王国官僚体制的运行，包括税收、神庙管理和军事远征。该统治以维持法老权威为特点，但有些证据表明，在第六王朝末期权力逐渐向地方州长（诺马尔赫）分散。努比亚远征和红海贸易得到证实。",
+      "key_figures": [
+        "佩皮二世（奈菲尔卡拉）——埃及法老"
+      ],
+      "sources": [
+        {
+          "name": "官员陵墓中的自传铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "金字塔文和神庙铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "佩皮二世统治在当代铭文中有记载，但绝对年代仍有±50–100年不确定性。公元前3081年是中年代学的习惯值。",
+      "cross_references": [
+        "佩皮二世统治的一部分（约-3098至-3080）"
+      ]
+    },
+    {
+      "id": "-3081-002",
+      "title": "早王朝三期城邦竞争——美索不达米亚",
+      "region": "美索不达米亚（苏美尔）",
+      "coordinates_approx": "31.5, 46.0",
+      "category": "political",
+      "description": "本年度，包括拉格什、乌玛、乌鲁克等在内的美索不达米亚城邦继续争夺地区主导权。这一时期以日益复杂的行政体系发展、灌溉农业扩大以及神庙经济巩固为特征。城邦间围绕水权和领土边界的战争屡见不鲜。该时期见证了职业军事力量的出现和军事技术（战车、青铜武器）的发展。",
+      "key_figures": [
+        "各类恩西（城邦统治者）——该特定年份姓名不明"
+      ],
+      "sources": [
+        {
+          "name": "拉格什、乌鲁克等城邦铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "美索不达米亚遗址的考古证据（防御工事、行政泥板）",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "早王朝三期城邦竞争的总体模式得到充分证实。公元前3081年的具体事件未单独记载；此条目描述的是更广泛的背景。",
+      "cross_references": [
+        "早王朝三期的一部分（约-3100至-2334）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "现存在史料中未为公元前3081年记载具体事件。以上条目描述的是该时期的总体背景，而非逐年事件。这反映了古代史料的稀疏性，个别年份在历史记录中很少被区分。",
+  "historiographic_note": "公元前3081年的史料极为单薄。本年度无任何具体事件记载。以上条目代表了青铜时代早期三期的更广泛背景。此时期无法达到逐年精确；年代为习惯值，存在±50–100年不确定性。",
+  "graph_edges": [
+    {
+      "from": "-3081-001",
+      "to": "-3080-001",
+      "relation": "contemporary_with",
+      "note": "佩皮二世统治跨两年持续。"
+    }
+  ]
+}

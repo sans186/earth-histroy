@@ -1,0 +1,120 @@
+{
+  "year": -2208,
+  "year_label": "公元前2208年",
+  "era_context": "埃及古王国晚期，孟卡拉在位；阿卡德帝国在纳拉姆-辛治下继续面临外部和内部日益增长的压力。印度河流域文明仍处于成熟期。这一时期代表埃及古王国的最后几十年和阿卡德帝国终结的开端。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "太平洋群岛",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-2208-001",
+      "title": "孟卡拉统治下的古王国晚期；出现分权迹象",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "29.9°N, 31.1°E",
+      "category": "political",
+      "description": "孟卡拉的统治继续，但墓葬铭文和行政文书证据显示地方精英正在获得越来越多的自治权和权力。法老的中央权威虽然依然强大，但开始受到地方长官和地方精英的挑战。这种分权趋势将在孟卡拉去世后加速，并在几十年内导致古王国崩溃。",
+      "key_figures": [
+        "孟卡拉（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "地方精英的墓葬铭文和行政文书",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "分权的总体模式有充分证据；此年具体事件未有记载。",
+      "cross_references": [
+        "-2205-001",
+        "-2206-001",
+        "-2207-001"
+      ]
+    },
+    {
+      "id": "-2208-002",
+      "title": "阿卡德帝国分裂加速；库提人入侵加剧",
+      "region": "美索不达米亚，扎格罗斯山脉",
+      "coordinates_approx": "33.3°N, 44.4°E",
+      "category": "military",
+      "description": "阿卡德帝国随着库提人入侵增加和附庸国叛乱开始分裂。纳拉姆-辛的军事行动虽然在王室铭文中仍有记载，但在维持领土控制方面日益不成功。帝国正在进入最后阶段，中央权威削弱，地方势力重新独立。这一时期标志着从阿卡德帝国向库提时期过渡的开始。",
+      "key_figures": [
+        "纳拉姆-辛（阿卡德王）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德王室铭文",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "后世美索不达米亚编年纪述阿卡德衰亡",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿卡德分裂的总体模式有充分证据；此年具体事件未有记载。",
+      "cross_references": [
+        "-2205-002",
+        "-2206-002",
+        "-2207-002"
+      ]
+    },
+    {
+      "id": "-2208-003",
+      "title": "印度河流域文明发展至巅峰；贸易网络繁荣",
+      "region": "印度河流域，南亚，波斯湾",
+      "coordinates_approx": "27.0°N, 68.0°E",
+      "category": "economic",
+      "description": "印度河流域文明继续繁荣，主要城市中心作为手工业和贸易中心运作。与美索不达米亚、波斯湾和中亚的贸易网络活跃且广泛。该文明的明显稳定与繁荣与同期美索不达米亚和埃及的动荡形成鲜明对比。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "哈拉帕遗址考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "在美索不达米亚和海湾遗址发现的哈拉帕印章和文物",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "哈拉帕文明的物质文化在考古学上有充分证据。此年内具体事件未有记载。",
+      "cross_references": [
+        "-2205-003",
+        "-2206-003",
+        "-2207-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件无具体反证。然而，一些学者认为阿卡德帝国的崩溃比传统叙事更为突然，可能在一代人内而非几十年内衰亡。",
+  "historiographic_note": "今年具有与往年相同的局限：文献稀疏，依赖王表和纪念碑铭文，严重偏向精英活动。埃及和美索不达米亚有详细记录的动荡与印度河流域文明的明显稳定之间的对比，既反映了实际历史状况，也反映了幸存资料的偏见。",
+  "graph_edges": [
+    {
+      "from": "-2208-001",
+      "to": "-2207-001",
+      "relation": "part_of",
+      "note": "孟卡拉的统治持续；分权加速。"
+    },
+    {
+      "from": "-2208-002",
+      "to": "-2207-002",
+      "relation": "part_of",
+      "note": "阿卡德帝国的分裂持续并加速。"
+    }
+  ]
+}

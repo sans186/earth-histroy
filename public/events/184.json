@@ -1,0 +1,81 @@
+{
+  "year": 184,
+  "year_label": "公元184年",
+  "era_context": "汉朝处于严重危机中。黄巾起义于今年（或可能公元183年末）爆发，标志着帝国稳定终结的开始。同时，康茂德治下的罗马帝国面临内部阴谋和军事压力。在印度，萨塔瓦哈纳王朝继续控制德干。这是一个关键年份，新兴宗教和政治力量将在未来一个世纪重塑欧亚大陆。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东南亚",
+    "中亚（有限的中国记录）"
+  ],
+  "events": [
+    {
+      "id": "184-001",
+      "title": "黄巾起义爆发（替代年代）",
+      "region": "东汉中国，冀州及周边诸州",
+      "coordinates_approx": "36.5, 115.0",
+      "category": "religious | military | political",
+      "description": "张角及其受道教启发的运动发起反抗汉朝权威的起义。该运动将宗教弥赛亚主义与农民不满相结合，通过秘密组织组织追随者，并承诺一个新宇宙时代。运动迅速蔓延到华北。一些资料将起义爆发年代定为公元184年而非185年；确切年代在学者中仍有争议。",
+      "key_figures": [
+        "张角（叛军领袖）",
+        "张宝（兄弟）",
+        "张梁（兄弟）"
+      ],
+      "sources": [
+        {
+          "name": "陈寿《三国志》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "《后汉书》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "多个资料既给出公元184年也给出185年作为爆发年代。现代学术（德克雷斯皮尼）认为起义始于公元184年末，于公元185年升级。确切年代不确定，误差±1年。",
+      "cross_references": [
+        "见185-001更全面讨论"
+      ]
+    },
+    {
+      "id": "184-002",
+      "title": "康茂德在阴谋后巩固权力",
+      "region": "罗马帝国，以罗马为中心",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political | military",
+      "description": "皇帝康茂德在前几年面临多次阴谋和暗杀企图后，继续巩固专制权力。他日益依赖禁卫军和宠臣，边缘化元老院。这一年标志着其统治特征的政治不稳定的延续，包括清洗可疑敌人和提升军事强人。",
+      "key_figures": [
+        "康茂德（罗马皇帝）",
+        "禁卫军长官佩伦尼斯（军事强人）"
+      ],
+      "sources": [
+        {
+          "name": "《罗马帝王纪·康茂德传》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "卡西乌斯·狄奥《罗马史》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "康茂德的政治不稳定有充分证据，但公元184年的具体事件在现存文献中没有明确区分。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "黄巾起义爆发的年代是主要争议点。一些现代学者认为它始于公元184年末，另一些认为是公元185年。传统叙事将其视为纯粹的宗教起义，但最近学术强调经济和行政崩溃是根本原因。起义的宗教性质本身也有争议——它是道教的、融合的，还是原佛教的？",
+  "historiographic_note": "关于这一时期的汉朝文献丰富但事后编写。关于康茂德的罗马文献对他严重偏见，由被他敌视的元老编写。公元184年事件的确切年代因古代文献按统治年份而非绝对日期记录事件而不确定。",
+  "graph_edges": [
+    {
+      "from": "184-001",
+      "to": "189-001",
+      "relation": "led_to",
+      "note": "黄巾起义 destabilized 汉朝，导致其崩溃"
+    }
+  ]
+}

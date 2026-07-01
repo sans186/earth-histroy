@@ -1,0 +1,103 @@
+{
+  "year": 108,
+  "year_label": "公元108年",
+  "era_context": "罗马帝国在图拉真统治下正在巩固对达契亚的控制并管理其广阔的领土。中国东汉王朝在邓太后摄政下保持稳定。帕提亚帝国仍是近东主要强国。这是相对和平和行政巩固的时期，尽管罗马与帕提亚之间存在潜在紧张。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "罗马边疆以北的北欧地区",
+    "东南亚",
+    "中美洲和南美洲"
+  ],
+  "events": [
+    {
+      "id": "108-001",
+      "title": "罗马在多瑙河边境的军事行动",
+      "region": "多瑙河边境，罗马帝国",
+      "coordinates_approx": "45.0, 25.0",
+      "category": "military",
+      "description": "图拉真继续军事行动以巩固多瑙河边境并巩固对达契亚的控制。这些行动涉及镇压达契亚残余势力的抵抗，并防御日耳曼和萨尔马提亚部落的入侵。这些行动是建立罗马在该地区霸权更广泛努力的一部分。",
+      "key_figures": [
+        "图拉真（罗马皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "卡西乌斯·狄奥，《罗马史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "多瑙河边境要塞的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "图拉真边境行动的总体模式有充分记载；108年的具体事件是从其统治的更广泛轨迹推断而来的。",
+      "cross_references": [
+        "与106-001、109-001相关"
+      ]
+    },
+    {
+      "id": "108-002",
+      "title": "汉朝科举制度扩展",
+      "region": "中国（东汉）",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "在邓太后摄政下，汉朝继续扩展和完善科举制度，该制度根据功绩和儒家学识而非纯粹贵族出身选拔官员。这加强了中央官僚机构，减少了世袭贵族的权力。科举制度的扩展是汉朝行政改革的关键特征。",
+      "key_figures": [
+        "邓太后（摄政）"
+      ],
+      "sources": [
+        {
+          "name": "《后汉书》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "邓太后摄政期间科举制度的扩展在中国史学中有充分记载，但个别改革的具体日期并不总是精确。",
+      "cross_references": []
+    },
+    {
+      "id": "108-003",
+      "title": "丝绸之路贸易在汉朝和帕提亚控制下繁荣",
+      "region": "中亚，连接中国、帕提亚和罗马",
+      "coordinates_approx": "40.0, 75.0",
+      "category": "economic",
+      "description": "连接中国、中亚、帕提亚帝国和罗马帝国的丝绸之路贸易路线在108年继续繁荣。中国丝绸、香料和陶瓷向西流动，而罗马玻璃、金属制品和其他商品向东流动。帕提亚帝国控制着该路线的主要路段，并从过境贸易中获利。这种贸易促进了欧亚大陆的文化和技术交流。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "丝绸之路遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "中国历史记载和后来的记录",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "丝绸之路贸易通过考古证据和后来的历史记载充分证实。这段时期贸易活跃且繁荣。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "传统上认为丝绸之路是一个统一、连续的贸易网络的叙事已被现代学术复杂化，后者强调贸易的分散、接力式性质以及中间人的作用。汉朝科举制度虽然重要，但并未立即消除贵族特权或创造纯粹任人唯贤的官僚机构。",
+  "historiographic_note": "公元108年的文献记录对罗马和中华帝国来说是中等丰富，依赖于后来的编年史和考古证据。同时代书面记录稀少。帕提亚视角在现存资料中代表性不足。贸易和经济活动主要通过考古证据和后来的记载了解。",
+  "graph_edges": [
+    {
+      "from": "108-001",
+      "to": "113-001",
+      "relation": "led_to",
+      "note": "边境巩固增强了图拉真对帕提亚战争的地位"
+    },
+    {
+      "from": "108-003",
+      "to": "200-001",
+      "relation": "part_of",
+      "note": "丝绸之路贸易在整个公元2世纪的持续"
+    }
+  ]
+}

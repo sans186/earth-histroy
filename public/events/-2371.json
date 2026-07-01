@@ -1,0 +1,101 @@
+{
+  "year": -2371,
+  "year_label": "公元前2371年",
+  "era_context": "早期青铜时代III期，阿卡德帝国在纳拉姆辛治下处于或接近领土最大范围。埃及处于第六王朝。印度河流域文明在成熟期。该年份处于公元前23世纪末期气候与政治危机前的相对稳定期。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "大洋洲",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2371-001",
+      "title": "阿卡德对卢卢比及山地民族的军事征伐",
+      "region": "阿卡德帝国与扎格罗斯山脉",
+      "coordinates_approx": "35.0, 46.0",
+      "category": "military",
+      "description": "纳拉姆辛继续对扎格罗斯地区的卢卢比人及其他山地民族进行军事征伐。这些战役在岩雕（例如达尔班迪汗的）中有记录，显示纳拉姆辛以神性形象领军。战役旨在确保贸易路线、获取山地资源及领土控制。这些军事胜利增强了纳拉姆辛的威望和帝国内部的权力。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德王）"
+      ],
+      "sources": [
+        {
+          "name": "纳拉姆辛征战岩雕（达尔班迪汗、萨尔安兰达）",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "记述军事胜利的阿卡德铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛对山地民族的征伐在岩雕和铭文中得到充分证实。其统治期内的确切年代不确定。",
+      "cross_references": [
+        "-2374-001"
+      ]
+    },
+    {
+      "id": "-2371-002",
+      "title": "印度河流域文明城市规划与公共工程",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "technological",
+      "description": "印度河流域文明展示出精密的城市规划与公共工程。摩亨佐达罗等城市拥有规整的街道网格、标准尺寸砖块、先进的排水系统及公共浴池。这些特征表明存在中央规划与协调。多个城市间建筑材料和技术的标准化意味着要么共享文化传统，要么中央集权。这代表了早期大规模城市规划的范例之一。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "摩亨佐达罗、哈拉帕及其他印度河遗址的考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河城市规划有充分的考古学记录。成熟期定年可靠。",
+      "cross_references": [
+        "-2373-002"
+      ]
+    },
+    {
+      "id": "-2371-003",
+      "title": "埃及第六王朝行政记录与税收",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "economic",
+      "description": "第六王朝的行政纸草文书记录了一套复杂的税收、资源管理与官僚组织系统。记录涉及从地方征集粮食、牲畜和其他物资。古王国行政在理论上高度中央化，但地方州长日益控制地方资源。这些记录提供了关于埃及经济与行政结构的详细信息。",
+      "key_figures": [
+        "佩皮二世（埃及法老，传统定年）"
+      ],
+      "sources": [
+        {
+          "name": "第六王朝行政纸草（如阿布西尔纸草）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "记述行政职责的墓志铭",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "埃及行政记录保存完好，但年代学存在±50–100年的不确定性。",
+      "cross_references": [
+        "-2372-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现针对所列事件的反证。然而，阿卡德军事优势的叙事因有证据显示军事征伐可能日益昂贵且难以持续而复杂化，预示帝国崩溃。",
+  "historiographic_note": "该年资料与前些年份类似。历史记录以美索不达米亚和埃及的精英视角为主。绝对年代仍不确定。印度河流域文明的内部结构仍大体未知。",
+  "graph_edges": [
+    {
+      "from": "-2371-001",
+      "to": "-2370-001",
+      "relation": "led_to",
+      "note": "阿卡德军事征伐持续扩张了帝国，但也可能过度消耗了资源。"
+    }
+  ]
+}

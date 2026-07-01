@@ -1,0 +1,78 @@
+{
+  "year": -2491,
+  "year_label": "公元前2491年",
+  "era_context": "埃及古王国在第四王朝统治下继续。阿卡德帝国尚未在美索不达米亚兴起；苏美尔城邦仍居主导地位。印度河流域文明处于成熟期。此时期代表了埃及金字塔建造的巅峰和中央集权法老权威的巩固。",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "美洲",
+    "大洋洲",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-2491-001",
+      "title": "埃及第四王朝哈夫拉在位继续",
+      "region": "埃及（尼罗河谷）",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "哈夫拉在位期间，第四王朝延续。与他统治相关的建筑和行政活动正在进行。其统治的逐年事件未见于现存文献；此条目反映的是其统治的延续以及古王国稳定与宏伟建造的宏观背景。",
+      "key_figures": [
+        "哈夫拉（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "都灵王表（都灵纸莎草1874）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "吉萨金字塔群的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "哈夫拉的统治时长有据可查，但逐年事件无记载。此条目反映的是宏观历史背景，而非特定事件。",
+      "cross_references": [
+        "-2490-001"
+      ]
+    },
+    {
+      "id": "-2491-002",
+      "title": "美索不达米亚苏美尔城邦的政治分裂",
+      "region": "美索不达米亚（今伊拉克）",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "该时期的美索不达米亚仍由拉格什、乌鲁克、乌尔和尼普尔等相互竞争的苏美尔城邦所分割。不存在统一的帝国；权力分散在地方统治者和神庙管理机构之间。贸易网络连接美索不达米亚与印度河流域及埃及。阿卡德帝国之前的时期以地区竞争和文化发展为特征。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "苏美尔王表（后世汇编，见于多种手稿）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "拉格什铭文与行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "该时期美索不达米亚政治分裂的整体情况已有定论。公元前2491年的具体事件未载于史册；此条目反映的是宏观时代背景。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现证伪证据。该时期埃及稳定和美索不达米亚分裂的整体历史背景无异议。",
+  "historiographic_note": "公元前2491年的历史记录极为稀少。该年没有任何具体事件见于任何现存文献。以上条目反映的是该时代的宏观历史背景，而非特定年份的事件。埃及年代学仍存争议；该时期的美索不达米亚记录零散。印度河流域和其他地区缺乏文字记录，限制了对这一年的全球历史理解。",
+  "graph_edges": [
+    {
+      "from": "-2491-001",
+      "to": "-2490-001",
+      "relation": "contemporary_with",
+      "note": "哈夫拉在位跨越多個年份；公元前2491年和公元前2490年同属其统治时期。"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "year": -1412,
+  "year_label": "公元前1412年",
+  "era_context": "青铜时代晚期，阿蒙霍特普三世（第十八王朝）统治下的埃及，赫梯帝国状态取决于年代体系，迈锡尼希腊处于LHIII A时期。中国的商朝。这是一个国际贸易、外交交流相对稳定的时期，但随着时间回溯，历史记录变得越来越稀少。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中美洲",
+    "北欧",
+    "东南亚",
+    "太平洋岛屿",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-1412-001",
+      "title": "阿蒙霍特普三世统治：外交与军事巩固",
+      "region": "埃及（第十八王朝）",
+      "coordinates_approx": "25.7°N, 32.6°E",
+      "category": "political",
+      "description": "阿蒙霍特普三世继续其统治，在努比亚进行军事行动并与邻国进行外交接触。埃及对努比亚的控制得到巩固，确保了黄金和其他资源。法老的权力和威望达到顶峰。他的统治代表了第十八王朝在阿肯那顿宗教剧变之前的权力顶点。",
+      "key_figures": [
+        "阿蒙霍特普三世（法老）"
+      ],
+      "sources": [
+        {
+          "name": "神庙铭文和行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "关于第十八王朝年代的历史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿蒙霍特普三世的统治有充分证据；根据传统年代学（约公元前1390–1352年），公元前1412年处在其统治期内，不确定度±20–30年。",
+      "cross_references": [
+        "-1410-001",
+        "-1411-001"
+      ]
+    },
+    {
+      "id": "-1412-002",
+      "title": "中国的商朝：甲骨占卜与青铜铸造",
+      "region": "中国（商朝）",
+      "coordinates_approx": "34.5°N, 114.5°E",
+      "category": "cultural",
+      "description": "商朝（约公元前1600–1046年）处于成熟阶段。甲骨占卜被广泛用于国家决策。青铜铸造技术高度发达，生产仪式用器和武器。商王室拥有复杂的官僚结构。文字在甲骨和青铜器上已经得到应用。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "甲骨刻辞",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "来自商代遗址（安阳等）的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "关于商朝年代的历史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "商朝年代存在争议；传统上认为该王朝存在于约公元前1600–1046年，但部分学者主张更晚的起始年代（约公元前1250年）。公元前1412年属于传统接受的商朝时期，但不确定度显著（±50–100年）。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "商朝年代高度争议。一些学者认为传统接受的年代过早，商朝应定年在约公元前1250–1046年甚至更晚。如果这个“修订年代”正确，公元前1412年可能完全早于商朝。这是中国考古学和年代学中一个重大的未决争论。",
+  "historiographic_note": "公元前1412年的记录稀少，主要依赖埃及和中国资料。埃及记录更丰富且年代更确定。中国的甲骨提供了同时代的文字证据，但范围有限（主要是占卜记录）。赫梯记录在这一具体年份不够清晰。记录偏向于精英和国家主导的视角。绝对年代仍是主要限制，根据地区和年代体系不同，不确定度为±20–100年。",
+  "graph_edges": [
+    {
+      "from": "-1412-002",
+      "to": "-1046-SHANG_DYNASTY_FALL",
+      "relation": "led_to",
+      "note": "商朝持续到约公元前1046年，被周朝推翻。"
+    }
+  ]
+}

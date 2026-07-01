@@ -1,0 +1,107 @@
+{
+  "year": -2322,
+  "year_label": "公元前2322年",
+  "era_context": "纳拉姆-辛治下的阿卡德帝国仍处于鼎盛。埃及古王国（第六王朝）继续逐渐衰落。印度河流域文明处于成熟阶段。这一时期代表了若干早期国家体系在随后几个世纪发生重大转变之前的顶峰。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "美洲",
+    "中亚（该特定时期的考古证据有限）"
+  ],
+  "events": [
+    {
+      "id": "-2322-001",
+      "title": "纳拉姆-辛统治：阿卡德帝国权力的顶峰",
+      "region": "美索不达米亚",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "纳拉姆-辛的统治代表了阿卡德帝国扩张和中央集权的巅峰。他控制从波斯湾到地中海及安纳托利亚的领土。他的行政改革，包括任命军事长官和推广阿卡德语与文化，加强中央权威。然而，铭文也记载了被征服民族的抵抗和反复军事征战的必要性，表明帝国统一是脆弱的。",
+      "key_figures": [
+        "纳拉姆-辛（阿卡德皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "纳拉姆-辛铭文和行政文本",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "关于阿卡德年代学和政治结构的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆-辛统治在当代铭文中得到充分记载，但绝对年代和他控制的确切范围仍是学术争论的主题。",
+      "cross_references": [
+        "-2324-001（纳拉姆-辛统治开始）"
+      ]
+    },
+    {
+      "id": "-2322-002",
+      "title": "埃及古王国：行政分权和资源紧张持续",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "第六王朝治下的埃及国家经历中央权威的持续侵蚀。地方长官积累权力和资源，降低了法老调集劳力和财富的能力。金字塔建造继续但规模小于早期王朝。国家维持大型公共工程和军事远征的能力衰退。这一时期标志着向第一中间期（约公元前2181–前2055年）的过渡，届时中央权威将彻底崩溃。",
+      "key_figures": [
+        "佩皮二世（埃及法老，第六王朝）"
+      ],
+      "sources": [
+        {
+          "name": "第六王朝的陵墓铭文和行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "金字塔规模缩小的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "行政分权趋势已通过考古充分证实，但无具体年份事件记录。",
+      "cross_references": [
+        "-2181-001（古王国崩溃）"
+      ]
+    },
+    {
+      "id": "-2322-003",
+      "title": "印度河流域文明：城市中心发展至巅峰",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "印度河流域文明在城市发展和人口方面达到巅峰。哈拉帕和摩亨佐达罗等主要城市已充分发展，拥有复杂的排水系统、标准化的砖块尺寸和规划整齐的街道布局。文明经济基于农业（小麦、大麦、棉花）、畜牧业和手工业生产。与美索不达米亚和波斯湾的贸易已牢固建立。由于文字系统尚未破译，对其政治和社会组织的理解受限。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "印度河印章和铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "印度河流域文明的年代通过放射性碳测年和地层学确定。成熟阶段在考古上已有充分记载。",
+      "cross_references": [
+        "-2324-003（印度河流域背景）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现具体否定性证据。然而，一些学者质疑阿卡德帝国在铭文中的领土宣称是否准确反映了实际政治控制，认为现实可能比宣传所暗示的更加支离破碎。",
+  "historiographic_note": "公元前2322年的文献仍极少，依赖与之前年份相同的资料。无特定年份事件记录。历史记录由美索不达米亚和埃及精英资料主导。印度河流域文明仅通过考古了解。年代不确定性仍为±50–100年。",
+  "graph_edges": [
+    {
+      "from": "-2322-001",
+      "to": "-2218-001",
+      "relation": "led_to",
+      "note": "纳拉姆-辛统治结束；阿卡德帝国开始衰落"
+    }
+  ]
+}

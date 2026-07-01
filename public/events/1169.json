@@ -1,0 +1,159 @@
+{
+  "year": 1169,
+  "year_label": "公元1169年",
+  "era_context": "12世纪末是地中海和近东地区重大政治重组时期。阿尤布苏丹国在萨拉丁领导下崛起；拜占庭帝国在衰落；黎凡特的十字军国家面临日益增大的压力；中国宋朝处于成熟繁荣阶段；西欧由安茹帝国和各种封建王国主导。这也是多个文明中重要的文化和学术活动时期。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（有限的文字资料）",
+    "东南亚（稀疏的当代文献）",
+    "大洋洲和太平洋岛屿（可忽略的文字记录）"
+  ],
+  "events": [
+    {
+      "id": "1169-001",
+      "title": "萨拉丁抵达埃及就任维齐尔",
+      "region": "埃及，法蒂玛哈里发国",
+      "coordinates_approx": "30.0444, 31.2357",
+      "category": "political",
+      "description": "萨拉丁（Ṣalāḥ ad-Dīn Yūsuf ibn Ayyūb）于1169年作为法蒂玛哈里发阿迪德·利丁·阿拉的维齐尔抵达埃及。他被叔父希尔库赫派去巩固阿尤布在埃及的权力。希尔库赫于1169年7月去世后，萨拉丁继任维齐尔，开始将埃及从衰落的法蒂玛国家转变为阿尤布苏丹国的军事和经济强国。这标志着萨拉丁崛起的开始，并为他后来征服黎凡特和1187年哈廷战役的著名胜利奠定了基础。",
+      "key_figures": [
+        "萨拉丁（阿尤布维齐尔）",
+        "希尔库赫（阿尤布将领，萨拉丁之叔，卒于1169年）",
+        "阿迪德·利丁·阿拉（法蒂玛哈里发）"
+      ],
+      "sources": [
+        {
+          "name": "伊本·阿西尔，《全史》（al-Kāmil fī al-Tārīkh）",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "伊马德·丁·伊斯法罕尼，《征服埃及》（Fatḥ al-Qusṣ）",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "关于萨拉丁早期生涯的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "萨拉丁于1169年抵达埃及并在希尔库赫1169年7月去世后继任维齐尔，得到多个伊斯兰编年史的确凿证实。",
+      "cross_references": [
+        "Led to 1171-001 (Overthrow of the Fatimid Caliphate)",
+        "Led to 1187-001 (Conquest of Jerusalem)"
+      ]
+    },
+    {
+      "id": "1169-002",
+      "title": "努尔·丁之死与叙利亚的继承危机",
+      "region": "叙利亚，赞吉王朝",
+      "coordinates_approx": "33.5138, 36.2765",
+      "category": "political",
+      "description": "努尔·丁·马哈茂德（Nūr ad-Dīn Maḥmūd），强大的赞吉统治者、十字军国家的主要对手，于1174年5月15日去世（一些资料称1169年是其最后疾病的开始）。他的去世在叙利亚造成了继承危机，因其子马利克·萨利赫·伊斯玛仪尚年幼。这一权力真空使萨拉丁得以将阿尤布影响扩展到叙利亚，并最终巩固对埃及和叙利亚的控制，创建一个统治该地区数十年的统一穆斯林国家。",
+      "key_figures": [
+        "努尔·丁·马哈茂德（赞吉统治者，卒于1174年）",
+        "马利克·萨利赫·伊斯玛仪（努尔·丁之子，年幼）"
+      ],
+      "sources": [
+        {
+          "name": "伊本·阿西尔，《全史》（al-Kāmil fī al-Tārīkh）",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "关于努尔·丁之死的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "努尔·丁的死亡传统上定于1174年5月15日，而非1169年。1169年可能指其最后疾病的开始或资料混淆。现代学术普遍接受1174年为正确日期。",
+      "cross_references": [
+        "Led to Saladin's expansion into Syria in the 1170s",
+        "Related to 1171-001 (Saladin's consolidation of power)"
+      ]
+    },
+    {
+      "id": "1169-003",
+      "title": "亨利二世与托马斯·贝克特的冲突升级",
+      "region": "英格兰、法国",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "political",
+      "description": "国王亨利二世与坎特伯雷大主教托马斯·贝克特之间的冲突在1169年持续升级。贝克特仍流亡法国，关于教会特权和王权的争端仍未解决。世俗权力与教会权力之间的紧张关系是这一时期的一个特征，亨利与贝克特的冲突成为整个基督教世界国王与教会之间更广泛斗争的象征。局势将在1170年12月贝克特被谋杀时达到悲剧性高潮。",
+      "key_figures": [
+        "亨利二世（英格兰国王）",
+        "托马斯·贝克特（坎特伯雷大主教，流亡中）"
+      ],
+      "sources": [
+        {
+          "name": "霍维登的罗杰，《编年史》",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "纽堡的威廉，《英国事务史》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "亨利二世与贝克特之间持续的冲突有充分记载，尽管1169年具体事件在现存记述中有时与相邻年份合并。",
+      "cross_references": [
+        "Led to 1170-002 (Murder of Thomas Becket)"
+      ]
+    },
+    {
+      "id": "1169-004",
+      "title": "宋朝的科举制度与学术繁荣",
+      "region": "宋朝，中国",
+      "coordinates_approx": "30.2741, 120.1551",
+      "category": "cultural",
+      "description": "宋朝正处于一段非凡的学术文化繁荣时期。以儒家经典为基础的科举制度培养了一个高度教育化的官僚精英阶层。像朱熹这样的学者正在发展新儒家哲学，综合了儒家、道家和佛教思想。这一时期在印刷、数学、天文和医学方面取得了进步。宋朝对教育和学术的支持促进了其经济繁荣和文化影响。",
+      "key_figures": [
+        "宋孝宗（在位1163–1189）",
+        "朱熹（新儒家哲学家）"
+      ],
+      "sources": [
+        {
+          "name": "《宋史》，元朝编纂",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "关于宋朝学术生活的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "宋朝的学术繁荣在中方资料中有充分记载，尽管1169年具体事件常作为更广泛趋势的一部分而非离散事件呈现。",
+      "cross_references": [
+        "Part of Song Dynasty's cultural and intellectual golden age (960–1279)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "关于努尔·丁死于1169年的传统叙述不正确；现代学术坚定地确定其死于1174年。亨利二世与贝克特之间的冲突有时被呈现为简单的权力斗争，但现代学术强调其中关于教会独立性的真正神学和法律问题。宋朝的学术成就有时归因于单一时期，但它们是数百年发展的结果，并持续到宋朝后期。",
+  "historiographic_note": "1169年在西欧和伊斯兰资料中有中等程度的记载，当代或近当代编年史提供了主要政治事件的记录。然而，视角严重偏向精英政治和军事史；经济、社会和文化发展记录较少。中方资料丰富但 heavily 集中于宫廷政治和行政事务。现存资料反映了文字精英——宫廷编年史家、宗教机构和后世编纂者——的偏见，可能低估了普通人、女性和非精英群体的经历。撒哈拉以南非洲、东南亚和大洋洲的历史在很大程度上缺席于当代文字记录。",
+  "graph_edges": [
+    {
+      "from": "1169-001",
+      "to": "1171-001",
+      "relation": "led_to",
+      "note": "萨拉丁于1169年抵达埃及导致了1171年法蒂玛哈里发国的覆灭"
+    },
+    {
+      "from": "1169-002",
+      "to": "1174-001",
+      "relation": "led_to",
+      "note": "努尔·丁去世后的继承危机使萨拉丁得以扩展到叙利亚"
+    },
+    {
+      "from": "1169-003",
+      "to": "1170-002",
+      "relation": "led_to",
+      "note": "亨利二世与贝克特在1169年的冲突升级导致贝克特于1170年被谋杀"
+    }
+  ]
+}

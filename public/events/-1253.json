@@ -1,0 +1,159 @@
+{
+  "year": -1253,
+  "year_label": "公元前1253年",
+  "era_context": "青铜时代晚期，是一个地中海与近东文明相互联系并达到鼎盛的时期。埃及新王国在拉美西斯二世统治下主宰东地中海；赫梯帝国控制安纳托利亚和北叙利亚；迈锡尼希腊处于宫殿时期；商朝统治中国；印度次大陆各地繁荣着复杂社会。这是一个国际外交、贸易网络和军事竞争的时代，尽管整个体系将在一个世纪内崩溃。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（该时期考古记录有限）",
+    "东南亚和大洋洲（文字记录稀少）",
+    "北欧（前文字社会，仅有考古证据）"
+  ],
+  "events": [
+    {
+      "id": "-1253-001",
+      "title": "拉美西斯二世在黎凡特的军事行动——巩固埃及控制",
+      "region": "黎凡特（叙利亚、巴勒斯坦、腓尼基）",
+      "coordinates_approx": "34.0, 35.5",
+      "category": "military",
+      "description": "公元前1250年代，拉美西斯二世继续在黎凡特进行军事行动，以维持和扩大埃及对附属领土的控制。这些行动是更广泛的与赫梯帝国争夺区域霸权的一部分。埃及军队在迦南、阿穆鲁等地作战，镇压叛乱并征收贡品。这些行动在神庙浮雕和行政记录中有所记载。这些军事活动是最终与赫梯缔结和约的外交谈判的前奏。",
+      "key_figures": [
+        "拉美西斯二世（法老）",
+        "埃及军事指挥官"
+      ],
+      "sources": [
+        {
+          "name": "卡纳克、卢克索和阿布辛贝的神庙浮雕和铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "记录军队调动和补给的行政纸莎草",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "拉美西斯二世的军事行动在神庙铭文中有详细记载，但其统治期内个别战役的确切年代有时不确定。",
+      "cross_references": []
+    },
+    {
+      "id": "-1253-002",
+      "title": "赫梯帝国——哈图西里三世时期的巩固",
+      "region": "安纳托利亚和北叙利亚",
+      "coordinates_approx": "40.5, 34.5",
+      "category": "political",
+      "description": "公元前1250年代，哈图西里三世正在巩固赫梯的权力。他通过政变登上王位，并通过军事成功和外交联盟建立合法性。其统治时期包括针对对手的军事行动以及与埃及缔结和约的谈判。哈图西里三世的统治代表了赫梯实力和外交成熟度的时期，尽管帝国在几十年内将面临日益增长的外部威胁。",
+      "key_figures": [
+        "哈图西里三世（赫梯大王）"
+      ],
+      "sources": [
+        {
+          "name": "来自博阿兹科伊（哈图沙）的赫梯泥板",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "赫梯王室铭文与条约",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈图西里三世的统治在赫梯档案中有充分记载。其年代通过埃及记录的同步关系得以确立。",
+      "cross_references": []
+    },
+    {
+      "id": "-1253-003",
+      "title": "迈锡尼希腊——晚期宫殿时期达到复杂性的顶峰",
+      "region": "希腊（伯罗奔尼撒和爱琴海）",
+      "coordinates_approx": "37.5, 23.0",
+      "category": "cultural",
+      "description": "公元前1250年代，迈锡尼宫殿在行政和经济复杂性上达到顶峰。线性文字B泥板记录了农业生产、纺织品制造、金属加工和贸易的管理。宫殿控制着广阔领土，并参与地中海贸易网络。宫殿体系在权力和成熟度上达到顶峰，但将在50–75年内崩溃，其原因仍有争议（入侵、气候变化、内部冲突或多种因素组合）。",
+      "key_figures": [
+        "未留名的迈锡尼宫殿行政官员"
+      ],
+      "sources": [
+        {
+          "name": "来自皮洛斯、迈锡尼、底比斯和干尼亚的线性文字B泥板",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "宫殿作坊和储藏设施的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "线性文字B泥板是同时代的行政记录。考古地层学将其定位于晚期希腊底IIIB阶段（约公元前1300–1200年）。",
+      "cross_references": []
+    },
+    {
+      "id": "-1253-004",
+      "title": "商朝——甲骨占卜与国家行政",
+      "region": "中国（黄河流域，河南省）",
+      "coordinates_approx": "34.5, 114.5",
+      "category": "religious",
+      "description": "甲骨占卜是商朝国家行政的核心实践。占卜者加热牛肩胛骨或龟壳直至开裂，然后解读裂纹图案以回答国王提出的问题。甲骨上记录的问题涉及收成、狩猎、军事行动和祖先的意愿。这一实践揭示了商代的世界观：一个由祖先、神灵和至高神帝居住的宇宙。甲骨文是中国已知最早的文字，为商代宗教信仰和行政关注提供了直接证据。",
+      "key_figures": [
+        "商代占卜者（姓名未记载）",
+        "商王（姓名不确定）"
+      ],
+      "sources": [
+        {
+          "name": "甲骨（刻有文字的牛肩胛骨和龟壳）",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "安阳及其他商代遗址的考古发掘",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "甲骨是同时代的刻写文物。商代时期有数千片存世，为宗教和行政实践提供了直接证据。",
+      "cross_references": []
+    },
+    {
+      "id": "-1253-005",
+      "title": "印度河文明后南亚——文化转型与聚落模式",
+      "region": "印度河流域及周边地区（今巴基斯坦和印度西北部）",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "demographic",
+      "description": "公元前1250年代，南亚继续经历文化转型。印度河文明在数个世纪前已衰落，但较小的聚落得以延续，新的文化模式正在出现。考古证据表明，操印欧语系印度-雅利安语支的人群影响日益增强。物质文化显示出印度河传统与新兴元素的混合。这一时期文字记载匮乏，对其了解主要依赖考古学和语言重构。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "考古调查与发掘",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "印度-雅利安语言的语言学重构",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "印度河文明后时期由于考古证据稀少且缺乏文字记录，了解甚少。年代测定基于地层学和类型学分析。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "未发现针对公元前1253年所列事件的特定否定证据。青铜时代晚期的一般年代学仍在学术讨论中，但这些事件本身并无争议。",
+  "historiographic_note": "公元前1253年的历史记录与公元前1250–1252年类似：近东和地中海地区丰富，其他地区稀少。埃及和赫梯史料是官方宫廷文件。线性文字B泥板是行政记录。甲骨文揭示了商代的宗教和行政关注点。印度河文明后时期主要通过考古学了解，理解上存在显著空白。",
+  "graph_edges": [
+    {
+      "from": "-1253-001",
+      "to": "-1252-001",
+      "relation": "contemporary_with",
+      "note": "拉美西斯二世的军事行动在整个公元前1250年代持续进行。"
+    },
+    {
+      "from": "-1253-002",
+      "to": "-1252-002",
+      "relation": "contemporary_with",
+      "note": "哈图西里三世的权力巩固持续进行。"
+    }
+  ]
+}

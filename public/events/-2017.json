@@ -1,0 +1,103 @@
+{
+  "year": -2017,
+  "year_label": "公元前2017年",
+  "era_context": "黎凡特和埃及的中青铜时代；美索不达米亚的古巴比伦时期；中国的商朝。这一时期特征为领土国家的巩固、复杂行政体系的发展以及长途贸易网络的扩张。书写系统在埃及、美索不达米亚和中国均已完善。",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东南亚",
+    "美洲",
+    "中亚",
+    "北欧"
+  ],
+  "events": [
+    {
+      "id": "-2017-001",
+      "title": "巴比伦的萨姆苏伊鲁纳统治",
+      "region": "美索不达米亚（巴比伦尼亚）",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "萨姆苏伊鲁纳在此年继续统治巴比伦。其统治以试图维持巴比伦在美索不达米亚的霸权为特征，但其权力正逐渐削弱。该时期行政记录显示古巴比伦官僚系统的运作，包括基于《汉谟拉比法典》的税收、军事组织和法律行政。",
+      "key_figures": [
+        "萨姆苏伊鲁纳（巴比伦国王）"
+      ],
+      "sources": [
+        {
+          "name": "楔形文字行政泥板",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "《巴比伦王表》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "萨姆苏伊鲁纳统治确凿，但具体逐年事件未见存世文献。",
+      "cross_references": [
+        "-2015-001",
+        "-2016-001"
+      ]
+    },
+    {
+      "id": "-2017-002",
+      "title": "喜克索斯人在尼罗河三角洲的巩固",
+      "region": "埃及（尼罗河三角洲）",
+      "coordinates_approx": "30.8, 31.3",
+      "category": "political",
+      "description": "喜克索斯统治者继续巩固对下埃及及三角洲地区的控制。泰勒达巴（阿瓦里斯）的考古证据显示一个具有亚洲文化元素的重要城市中心正在形成。喜克索斯人保持与黎凡特和美索不达米亚的贸易联系，而上埃及名义上仍由第十三王朝控制。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "泰勒达巴（阿瓦里斯）的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "埃及王表及后来马涅托的记载",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "喜克索斯人定居和巩固有考古证据，但确切年代仍有争议。该年落在其巩固时期。",
+      "cross_references": [
+        "-2015-002",
+        "-2016-002"
+      ]
+    },
+    {
+      "id": "-2017-003",
+      "title": "商朝甲骨记录",
+      "region": "中国（黄河流域，河南）",
+      "coordinates_approx": "34.6, 114.3",
+      "category": "cultural",
+      "description": "甲骨占卜作为商朝王室行政的核心实践持续进行。甲骨上刻有关于收成、军事行动、天气和神佑的问题。这些刻辞提供商朝文字、行政关切和宗教信仰的证据。这些甲骨属于最早的中国文字记录。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "安阳（殷墟）出土的甲骨",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "甲骨通过考古地层和放射性碳分析直接断代。该实践在多个商代遗址得到证实。",
+      "cross_references": [
+        "-2015-003",
+        "-2016-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现否定证据。喜克索斯时期和埃及第十三王朝的年代学不确定性普遍存在。",
+  "historiographic_note": "公元前2017年在具体事件方面记录不佳。该年的历史记录依赖考古背景、行政记录和几世纪后编纂的王表。无存世同期叙事记录。该时期的逐年历史主要从更广泛的模式而非具体日期事件重建。",
+  "graph_edges": [
+    {
+      "from": "-2017-001",
+      "to": "-2015-001",
+      "relation": "contemporary_with",
+      "note": "萨姆苏伊鲁纳统治延续。"
+    }
+  ]
+}

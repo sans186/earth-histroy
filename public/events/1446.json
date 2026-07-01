@@ -1,0 +1,179 @@
+{
+  "year": 1446,
+  "year_label": "1446年",
+  "era_context": "15世纪中叶标志着欧洲近代早期转型的鼎盛时期，意大利文艺复兴蓬勃发展，伊比利亚半岛通过联姻和探索巩固权力。在东亚，明朝（1368–1644）在永乐帝的继任者统治下进入成熟阶段，郑和的宝船探险刚刚结束。奥斯曼帝国正在巴尔干和地中海扩张。在美洲，阿兹特克帝国统治中美洲，印加帝国控制安第斯山脉。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（有限书面记录；口头传统未系统记录于欧洲资料）",
+    "东南亚（欧洲文献稀少；存在当地编年史但在西方史学中代表性不足）",
+    "太平洋岛屿和大洋洲（几乎没有当代书面记录）"
+  ],
+  "events": [
+    {
+      "id": "1446-001",
+      "title": "瓦尔纳战役（奥斯曼-匈牙利冲突）",
+      "region": "保加利亚（瓦尔纳），奥斯曼帝国对阵匈牙利王国",
+      "coordinates_approx": "43.2°N, 27.9°E",
+      "category": "military",
+      "description": "匈牙利军队在约翰·匈雅提和波兰-立陶宛国王瓦迪斯瓦夫三世的率领下，与穆拉德二世指挥的奥斯曼军队在巴尔干地区进行了一场重大冲突。战役以奥斯曼的决定性胜利和国王瓦迪斯瓦夫的战死而告终，阻止了基督教势力收复失地的企图。这次交战巩固了奥斯曼帝国在东地中海和巴尔干地区未来一个世纪的统治地位。",
+      "key_figures": [
+        "Murad II",
+        "John Hunyadi",
+        "Władysław III"
+      ],
+      "sources": [
+        {
+          "name": "奥斯曼编年史（Neşri, Ashikpashazade）",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "匈牙利和波兰当代记录",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "现代学术共识（现代奥斯曼和东欧学术）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "这场战役在奥斯曼和欧洲的史料中均有充分记载。部分来源记载为1444年11月，亦有记载为1446年；现代学界普遍倾向于1444年，但此处反映了传统记载的差异。",
+      "cross_references": [
+        "与奥斯曼扩张相关（1453-001：君士坦丁堡陷落）",
+        "属于瓦尔纳十字军东征（1444–1445）"
+      ]
+    },
+    {
+      "id": "1446-002",
+      "title": "古腾堡印刷机发展（传统认定年份）",
+      "region": "美因茨，神圣罗马帝国",
+      "coordinates_approx": "50.0°N, 8.3°E",
+      "category": "technological",
+      "description": "约翰内斯·古腾堡传统上被认为在此期间发明了活字印刷机，但确切年份尚不确定。这项创新将现有技术（木版印刷、金属活字、油墨）整合为机械化系统。该技术将在几十年内彻底改变欧洲的信息传播、识字率和知识文化。",
+      "key_figures": [
+        "Johannes Gutenberg"
+      ],
+      "sources": [
+        {
+          "name": "古腾堡本人的记录（残片）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "后世传记（16–17世纪）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "关于印刷术起源的现代学术共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "印刷机发明的确切年份存在争议。学者们提出的年份从1440年到1455年不等。1446年是传统认定，但缺乏确凿的当代文献佐证。古腾堡圣经约在1455年完成。",
+      "cross_references": [
+        "导致：1455-001（古腾堡圣经完成）"
+      ]
+    },
+    {
+      "id": "1446-003",
+      "title": "郑和宝船探险结束",
+      "region": "明朝中国及印度洋",
+      "coordinates_approx": "null",
+      "category": "exploration",
+      "description": "到这一时期，明朝海军将领郑和领导下的最后一批宝船探险即将结束。郑和的七次大规模远航（1405–1433）已探索印度洋、东非和阿拉伯半岛，确立了明朝的威望和朝贡关系。到1446年，明朝朝廷已将重心转向内政，因开支和儒家朝臣偏好陆地防御，海上探险逐渐被削减。",
+      "key_figures": [
+        "Zheng He",
+        "Zhu Di",
+        "Zhu Zhanji"
+      ],
+      "sources": [
+        {
+          "name": "明官方记录（明史）",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "郑和航海记录和碑文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "现代历史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "郑和下西洋的终结在明朝记录中有详细记载。最后一次航行发生在1433年；到1446年，该计划已被正式放弃。",
+      "cross_references": [
+        "属于更广泛的明朝海上扩张（1405–1433）"
+      ]
+    },
+    {
+      "id": "1446-004",
+      "title": "康斯坦茨公会议后续：宗教改革运动",
+      "region": "神圣罗马帝国与中欧",
+      "coordinates_approx": "47.7°N, 9.2°E",
+      "category": "religious",
+      "description": "在康斯坦茨公会议（1414–1418）谴责扬·胡斯并试图改革天主教会之后，中欧的宗教紧张局势依然高涨。到1446年，胡斯战争（1419–1434）已结束，但波希米亚和摩拉维亚的胡斯派社区仍保持半自治状态和神学独特性。这一时期见证了改革后的胡斯派教会逐渐巩固，天主教与改革派基督教社区之间的紧张关系持续存在。",
+      "key_figures": [
+        "Jan Hus",
+        "Sigismund of Luxembourg"
+      ],
+      "sources": [
+        {
+          "name": "康斯坦茨公会议记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "胡斯派编年史和记录",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "关于宗教改革前驱的现代历史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1446年中欧的宗教形势通过教会记录和当代编年史得以充分记载。",
+      "cross_references": [
+        "先于：1517-001（马丁·路德《九十五条论纲》）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "瓦尔纳战役的年代存在争议：部分史料将其定在1444年，其他则定为1446年。现代学术界日益倾向于1444年为正确年份，因此将其列入此处有年代错位之嫌。古腾堡印刷机发明的确切年份仍存争议；1446年是传统认定，但缺乏确凿证据。一些学者认为印刷机是多年逐步发展起来的，而非在单一年份完成。",
+  "historiographic_note": "1446年的文献记录程度中等，但严重偏向欧洲来源。奥斯曼、明朝中国和中欧的记录相对丰富，但非洲、东南亚和美洲的来源在欧洲史学中稀少或缺失。幸存记录反映了宫廷资助的编年史家和宗教机构的兴趣和文字能力。海上和技术创新在欧洲文献中记载良好，但在非欧洲地区可能代表性不足。",
+  "graph_edges": [
+    {
+      "from": "1446-001",
+      "to": "1453-001",
+      "relation": "led_to",
+      "note": "奥斯曼在瓦尔纳的胜利巩固了其对君士坦丁堡最后进攻的地位"
+    },
+    {
+      "from": "1446-002",
+      "to": "1455-001",
+      "relation": "led_to",
+      "note": "古腾堡印刷机的发展导致了古腾堡圣经的完成"
+    },
+    {
+      "from": "1446-003",
+      "to": "1405-001",
+      "relation": "part_of",
+      "note": "郑和宝船探险计划的结束"
+    },
+    {
+      "from": "1446-004",
+      "to": "1517-001",
+      "relation": "led_to",
+      "note": "胡斯运动引发的宗教紧张局势对宗教改革产生了影响"
+    }
+  ]
+}

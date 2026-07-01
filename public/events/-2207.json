@@ -1,0 +1,117 @@
+{
+  "year": -2207,
+  "year_label": "公元前2207年",
+  "era_context": "埃及古王国在孟卡拉治下继续；阿卡德帝国在纳拉姆-辛统治下依然强大，但面临日益增加的外部与内部压力。印度河流域文明处于成熟期。这一时期是公元前三千纪中期的一部分，以第一批大型领土帝国的崛起与巩固为特征。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "太平洋群岛",
+    "中亚（书面记录有限）"
+  ],
+  "events": [
+    {
+      "id": "-2207-001",
+      "title": "孟卡拉统治继续；古王国行政巩固",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "29.9°N, 31.1°E",
+      "category": "political",
+      "description": "孟卡拉的统治继续，法老国家保持对埃及的中央集权控制。古王国行政体系基于官员和地方长官等级结构，继续运作。然而，有迹象显示分权趋势加剧，地方精英获得更多权力和资源。国家继续关注纪念性建筑，但规模较早期法老有所缩减。",
+      "key_figures": [
+        "孟卡拉（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "王表与行政文书",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "此时期的墓葬铭文与行政文书",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "孟卡拉的统治得到证实，但年内具体事件未有记载。此条目描述其统治的一般背景。",
+      "cross_references": [
+        "-2205-001",
+        "-2206-001"
+      ]
+    },
+    {
+      "id": "-2207-002",
+      "title": "阿卡德帝国面临北方日益增长的库提人压力",
+      "region": "美索不达米亚，扎格罗斯山脉",
+      "coordinates_approx": "33.3°N, 44.4°E",
+      "category": "military",
+      "description": "阿卡德帝国继续面临来自库提袭击者及扎格罗斯山脉其他群体的压力。这些入侵日益频繁且更难击退，表明阿卡德军队尽管此前成功，但已过度紧张。来自外部群体的压力，加上内部分裂，开始削弱阿卡德对其领土的控制。",
+      "key_figures": [
+        "纳拉姆-辛（阿卡德王）"
+      ],
+      "sources": [
+        {
+          "name": "描述军事战役的阿卡德王室铭文",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "后世美索不达米亚编年纪述阿卡德衰亡",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "库提压力的总体模式有充分证据；此年具体事件未有记载。",
+      "cross_references": [
+        "-2205-002",
+        "-2206-002"
+      ]
+    },
+    {
+      "id": "-2207-003",
+      "title": "印度河流域文明维持城市中心与手工业生产",
+      "region": "印度河流域，南亚",
+      "coordinates_approx": "27.0°N, 68.0°E",
+      "category": "cultural",
+      "description": "印度河流域文明的主要城市中心（哈拉帕、摩亨佐-达罗、多拉维拉）继续作为手工业生产、贸易和行政中心运作。标准化的度量衡、陶器和其他器物在该文明范围内生产与流通。明显的稳定性和缺乏大规模军事建筑暗示社会围绕商业和手工业而非军事征服组织。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "哈拉帕遗址考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "哈拉帕印章、砝码和陶器",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "哈拉帕文明的物质文化在考古学上有充分证据。此年内具体事件未有记载。",
+      "cross_references": [
+        "-2205-003",
+        "-2206-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件无具体反证。然而，将印度河流域文明解释为和平非军事化的观点日益受到部分学者质疑，他们指出一些遗址存在防御工事和可能暴力证据。",
+  "historiographic_note": "今年具有与往年相同的局限：文献稀疏，依赖王表和纪念碑铭文，严重偏向精英活动。历史记录实质上局限于埃及、美索不达米亚和印度河流域，世界其余地区不见于书面历史。",
+  "graph_edges": [
+    {
+      "from": "-2207-001",
+      "to": "-2206-001",
+      "relation": "part_of",
+      "note": "孟卡拉的统治跨多个年份。"
+    },
+    {
+      "from": "-2207-002",
+      "to": "-2206-002",
+      "relation": "part_of",
+      "note": "阿卡德帝国的军事压力跨多个年份。"
+    }
+  ]
+}

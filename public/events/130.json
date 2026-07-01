@@ -1,0 +1,120 @@
+{
+  "year": 130,
+  "year_label": "公元130年",
+  "era_context": "罗马皇帝哈德良（公元117–138年在位）的统治时期，帝国巩固、建筑赞助和文化繁荣。犹地亚的巴尔·科赫巴起义刚刚结束（公元132–135年）。在中国，汉朝在汉安帝（公元106–125年）及其后继者统治下延续，但实际权力掌握在后宫和宦官手中。贵霜帝国在迦腻色伽一世或其继任者统治下统治中亚和北印度。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（有限的文字资料）",
+    "罗马边境以北的北欧（考古记录稀少）",
+    "东南亚（有限的当代文献）"
+  ],
+  "events": [
+    {
+      "id": "130-001",
+      "title": "哈德良访问埃及并建立安提诺波利斯",
+      "region": "罗马埃及，尼罗河谷",
+      "coordinates_approx": "27.1°N, 30.7°E",
+      "category": "cultural",
+      "description": "哈德良皇帝游历埃及，参观主要神庙和纪念碑。在此次旅行中，他深爱的伴侣安提努斯在尼罗河贝萨附近溺亡。哈德良在尼罗河东岸建立了一座名为安提诺波利斯（Antinoupolis）的城市以纪念安提努斯，并将其设为拥有完整公民特权的希腊城邦。此举既反映了哈德良的个人悲痛，也体现了他通过建立城市和文化赞助来希腊化帝国的更广泛政策。",
+      "key_figures": [
+        "哈德良（罗马皇帝）",
+        "安提努斯（哈德良的伴侣）"
+      ],
+      "sources": [
+        {
+          "name": "卡西乌斯·狄奥，《罗马史》卷69",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "《罗马皇帝传记集·哈德良传》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "安提诺波利斯发掘的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "安提诺波利斯的建立得到了文献资料的充分证实，并得到考古遗存的确认。安提努斯之死根据史学共识定于公元130年。",
+      "cross_references": []
+    },
+    {
+      "id": "130-002",
+      "title": "不列颠哈德良长城建设继续进行",
+      "region": "罗马不列颠，北部边境",
+      "coordinates_approx": "54.9°N, 2.5°W",
+      "category": "military",
+      "description": "约公元122年动工的哈德良长城建设在皇帝或其副将的直接监督下继续进行。长城横跨不列颠北部，从索尔威湾到泰恩河口，全长约80罗马里（117公里），作为边境防御工事和海关屏障。到公元130年，主要段落已完工或接近完工，堡垒、一里堡和瞭望塔被整合进防御体系。",
+      "key_figures": [
+        "哈德良（罗马皇帝）",
+        "奥卢斯·普拉托里乌斯·尼波斯（不列颠总督，约公元122–126年）"
+      ],
+      "sources": [
+        {
+          "name": "哈德良长城发掘和铭文的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "卡西乌斯·狄奥，《罗马史》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "建筑用石上的铭文（RIB文集）",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "考古证据和铭文石为建造阶段提供了强有力的确认。长城完工日期有争议（有些段落可能延续到130年代），但公元130年主要工程正在进行。",
+      "cross_references": []
+    },
+    {
+      "id": "130-003",
+      "title": "中国汉朝的继承与宦官影响",
+      "region": "汉朝中国，首都洛阳",
+      "coordinates_approx": "34.6°N, 112.4°E",
+      "category": "political",
+      "description": "公元125年汉安帝去世后，汉朝皇位经历了一系列幼帝和摄政。到公元130年，汉顺帝（公元125–144年在位）在位，但实际权力由后宫（尤其是皇太后）以及日益崛起的控制皇帝接触途径的宦官行使。这一时期标志着宦官专权的开始，将动摇汉朝后期。宦官与士大夫之间的宫廷派系斗争加剧。",
+      "key_figures": [
+        "汉顺帝（公元125–144年在位）",
+        "邓太后（摄政，公元121年去世，但其派系仍有影响力）"
+      ],
+      "sources": [
+        {
+          "name": "司马迁和班固编纂的《史记》和《汉书》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "后来的朝代史（《后汉书》）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "广泛的政治动态在中国历史资料中得到充分证实，尽管公元130年的具体事件并非总是精确记载。宦官专权是这一时期的明显趋势。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "安提努斯之死和安提诺波利斯建立的确切日期存在争议；一些资料将其置于公元130年，另一些则置于公元131年。哈德良长城的年代顺序存在争议——一些学者认为主要段落于120年代末完工，而另一些则将工程延续到130年代。没有否定性证据削弱这些事件的重要性，但年代精确性有限。",
+  "historiographic_note": "公元130年，罗马帝国通过文献资料（卡西乌斯·狄奥、《罗马皇帝传记集》）和考古证据得到了很好的记录。中国资料丰富但往往在事件发生数世纪后编纂。埃及资料稀少；关于哈德良访问的大部分知识来自后来的希腊罗马作家。视角严重偏向精英、城市和地中海中心史；农村和非文字人口基本不可见。",
+  "graph_edges": [
+    {
+      "from": "130-001",
+      "to": "concept: Hadrian's cultural patronage",
+      "relation": "part_of",
+      "note": "安提诺波利斯是哈德良在位期间建立或重建的众多城市之一"
+    },
+    {
+      "from": "130-002",
+      "to": "concept: Roman frontier consolidation",
+      "relation": "part_of",
+      "note": "哈德良长城体现了哈德良巩固而非扩张帝国的战略"
+    }
+  ]
+}

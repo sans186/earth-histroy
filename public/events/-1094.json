@@ -1,0 +1,90 @@
+{
+  "year": -1094,
+  "year_label": "公元前1094年",
+  "era_context": "晚期青铜时代崩溃时期（约公元前1200–900年）。东地中海和近东正在经历严重动荡：迈锡尼宫殿系统已经崩溃，赫梯帝国已经灭亡，埃及处于第三中间期，由薄弱的拉美西斯王朝后继者统治，黎凡特海岸因人口流动和铁器时代政体的出现而重塑。亚述处于相对衰弱期。在中国，商朝处于最后阶段，周征服即将来临。这是一个技术转型（青铜到铁器）、国家分裂和迁徙的时代。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（该特定年份的考古记录有限）",
+    "中美洲（没有文字记录；考古年代不确定）",
+    "北欧（稀疏的物质证据）",
+    "中亚（有限的当代资料）"
+  ],
+  "events": [
+    {
+      "id": "-1094-001",
+      "title": "拉美西斯三世统治继续；埃及与海上民族的海上冲突",
+      "region": "埃及（尼罗河三角洲和东地中海）",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "military",
+      "description": "拉美西斯三世（约公元前1186–1155年在位）处于统治中期，面临海上民族袭击者和利比亚人入侵三角洲的持续威胁。神庙浮雕和行政记录记载了陆战和海战。这些冲突代表了埃及在进入分裂和丧失帝国影响时期之前的最后一次重大军事展示。这些战役的成本使埃及资源紧张。",
+      "key_figures": [
+        "Ramesses III (埃及法老)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu神庙浮雕（Ramesses III葬祭殿）",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I（行政记录）",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "拉美西斯三世统治在埃及记录中得到充分证实。具体年份公元前1094年落于其有记载的统治时期（约公元前1186–1155年）内，尽管逐年的具体事件并非总是精确可定年。",
+      "cross_references": []
+    },
+    {
+      "id": "-1094-002",
+      "title": "中国商朝晚期；周征服准备",
+      "region": "中国（黄河河谷，商朝核心区）",
+      "coordinates_approx": "34.5, 114.0",
+      "category": "political",
+      "description": "商朝在帝辛（亦称为纣辛）统治下处于最后几十年。位于西方渭河谷地的周人正在巩固权力并准备征服。商朝权威因内部斗争、军事过度扩张和进贡支持丧失而减弱。商朝宫廷在甲骨文和后来的周代编年史中有记载，尽管这一时期的精确年代在学者中仍有争议。",
+      "key_figures": [
+        "King Xin (帝辛, Shang)",
+        "King Wu (武王, Zhou, preparing for conquest)"
+      ],
+      "sources": [
+        {
+          "name": "甲骨文（商）",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bamboo Annals (Zhu Shu Ji Nian)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "商周过渡传统上定年为约公元前1046年，但一些学者将其提前（约公元前1050–1020年）。公元前1094年按常规分配给这一时期，但精确的逐年事件无法从现存资料中可靠确定。",
+      "cross_references": [
+        "-1046-001 (周征服商)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "商周过渡的年代严重争议。传统中国编年将征服定于公元前1046年，但碳十四测年和天文计算显示日期范围从公元前1050年到1020年。一些学者主张更早的日期（约公元前1100年）。因此，公元前1094年对商周事件的分配有些随意。此外，归因于拉美西斯三世的“海上民族”冲突也存在争议：一些学者质疑是否所有归因于他的冲突都是同时代的，或者有些是从更早或更晚时期混入的。",
+  "historiographic_note": "晚期青铜时代崩溃（约公元前1200–900年）是古代史上最不为人知的时期之一。埃及记录相对丰富，但偏向于王室和军事叙事。中国甲骨文提供了当代证据，但范围有限。东地中海和黎凡特地区缺乏这一时期的详细文字记录；大部分知识来自考古学，其地理分布不均。公元前1094年处于过渡区，文献稀疏，编年不确定。碳十四测年修正了许多传统日期，但校准仍不完美。",
+  "graph_edges": [
+    {
+      "from": "-1094-001",
+      "to": "-1070-001",
+      "relation": "part_of",
+      "note": "拉美西斯三世统治跨度约公元前1186–1155年；与海上民族的冲突持续整个时期。"
+    },
+    {
+      "from": "-1094-002",
+      "to": "-1046-001",
+      "relation": "led_to",
+      "note": "这一时期商朝的衰落直接导致了约公元前1046年的周征服。"
+    }
+  ]
+}

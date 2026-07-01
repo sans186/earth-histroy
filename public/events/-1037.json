@@ -1,0 +1,73 @@
+{
+  "year": -1037,
+  "year_label": "公元前1038年",
+  "era_context": "青铜时代晚期到早期铁器时代过渡持续。埃及在拉美西斯十一世（第二十王朝）统治下正在衰落。亚述在阿淑尔丹一世统治下处于扩张阶段。黎凡特经历政治分裂和新兴政体的崛起。希腊处于早期铁器时代（原始几何陶时期）。安纳托利亚分裂为新赫梯王国和其他区域势力。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中亚与草原地带",
+    "东亚",
+    "中美洲与美洲",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-1037-001",
+      "title": "拉美西斯十一世的统治——埃及行政碎片化",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "拉美西斯十一世（约公元前1099–1069年在位）的统治以日益增长的行政碎片化为特征。底比斯的阿蒙大祭司对上埃及行使准独立权威，而法老的直接控制局限于下埃及和三角洲地区。这种权力的二分预示了第三中间期，代表了埃及治理结构的根本转变。",
+      "key_figures": [
+        "拉美西斯十一世（法老）",
+        "赫里霍尔（阿蒙大祭司）"
+      ],
+      "sources": [
+        {
+          "name": "底比斯神庙记录与行政纸莎草",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "卡纳克铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "拉美西斯十一世统治期间埃及的行政分割在神庙记录和纸莎草中有充分记录。",
+      "cross_references": []
+    },
+    {
+      "id": "-1037-002",
+      "title": "阿淑尔丹一世在美索不达米亚北部的军事巩固",
+      "region": "美索不达米亚",
+      "coordinates_approx": "36.1, 43.3",
+      "category": "military",
+      "description": "阿淑尔丹一世继续巩固亚述对美索不达米亚北部和幼发拉底河上游地区的控制。他的军事行动确立了亚述作为该地区主导力量的地位，逆转了青铜时代晚期崩溃后的分裂。",
+      "key_figures": [
+        "阿淑尔丹一世（亚述国王）"
+      ],
+      "sources": [
+        {
+          "name": "亚述王表与编年史",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿淑尔丹一世的统治和一般军事活动记载充分；具体逐年年表不太确定。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "将拉美西斯十一世的统治定性为“衰落”或“碎片化”已受到一些学者的质疑，他们认为法老与阿蒙大祭司之间的行政分割是一种功能性适应，而非中央权威的失败。该制度可能比先前假设的更稳定和高效。",
+  "historiographic_note": "该年文献记载稀疏且地域有限。埃及和美索不达米亚资料主导；更广阔的地中海和近东世界主要通过零碎考古证据了解。非精英群体、女性和奴隶的视角在存世记录中基本缺失。",
+  "graph_edges": [
+    {
+      "from": "-1037-001",
+      "to": "-1030-THIRD_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "拉美西斯十一世统治期间的行政碎片化直接导致了第三中间期"
+    }
+  ]
+}

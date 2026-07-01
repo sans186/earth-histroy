@@ -1,0 +1,107 @@
+{
+  "year": -2820,
+  "year_label": "公元前2820年",
+  "era_context": "青铜时代早期III期。埃及第五王朝由 Djedkare Isesi（或取决于年代学，可能为其继任者）统治。美索不达米亚处于早王朝III期。印度河流域文明处于成熟阶段。该年标志着一个五年期（公元前2824—前2820年）的结束，该时期有记载的地区相对稳定，但埃及内部政治碎片化十分明显。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东亚",
+    "美洲",
+    "北欧",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-2820-001",
+      "title": "Djedkare Isesi——埃及第五王朝，统治延续或王位更迭",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "Djedkare Isesi 的统治延续，或者他可能已被继任者（可能是乌纳斯或其他第五王朝法老，取决于年代学）取代。第五王朝的特点是巩固古王国行政结构并逐渐分散权力。铭文记载了神庙营建、远征组织和国家机器的维护。金字塔铭文提供了宗教信仰和丧葬习俗的证据。",
+      "key_figures": [
+        "Djedkare Isesi 或其继任者（法老）"
+      ],
+      "sources": [
+        {
+          "name": "第五王朝陵墓和神庙的铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "第五王朝年代学不确定，范围为±50—100年。Djedkare Isesi 在公元前2820年是否仍在位或已被继任，取决于所采用的年代学体系。该条目反映了这种不确定性。",
+      "cross_references": []
+    },
+    {
+      "id": "-2820-002",
+      "title": "美索不达米亚城邦——早王朝III期，竞争持续",
+      "region": "美索不达米亚",
+      "coordinates_approx": "31.5, 46.0",
+      "category": "military",
+      "description": "苏美尔城邦继续争夺资源和贸易路线的控制权。楔形文字文献记载了军事战役、防御墙的修建和军队组织。乌鲁克城声名渐起，后来将统一美索不达米亚大部地区的 Lugalzagesi 可能正开始崛起，但其统治的确切年代不确定。因水资源和领土边界引发的冲突依然频繁。",
+      "key_figures": [
+        "乌鲁克的 Lugalzagesi（可能；年代不确定）"
+      ],
+      "sources": [
+        {
+          "name": "美索不达米亚城邦的楔形文字铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "防御工事和破坏层的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "早王朝III期城邦竞争有充分证据。Lugalzagesi的统治年代不确定（约公元前2340—前2316年，或根据年代学有更早/更晚可能）。公元前2820年的具体事件无记载。",
+      "cross_references": []
+    },
+    {
+      "id": "-2820-003",
+      "title": "印度河流域文明——成熟阶段，标准化生产与贸易",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "印度河流域文明延续其成熟阶段，城市中心繁荣，手工业生产标准化，贸易网络庞大。带有未破译印度河文字的印章被生产并用于贸易。与美索不达米亚和波斯湾的海上贸易得到证实。该文明复杂的城市规划，包括排水系统和公共粮仓，暗示存在一个组织良好的国家或城邦联盟。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "印度河印章、度量衡器物和标准化器物",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明在该时期的存在和特征已由考古学确认。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "第五王朝和早王朝III期的年代学在学者中仍存争论，可能变动幅度为±50—100年。Lugalzagesi的统治年代尤其不确定；一些学者定在约公元前2340—前2316年，而另一些提出更早或更晚的年代。对苏美尔城邦冲突主要源于资源驱动的解读受到一些学者的质疑，他们强调意识形态或王朝因素。",
+  "historiographic_note": "公元前2820年的历史记录稀少，依赖考古证据、铭文和王表。没有留存下同时代的叙事记载。记录严重偏向精英、纪念性文献以及拥有书写系统的地区（埃及、美索不达米亚、印度河流域）。这一年世界大部分地区没有文献记录。该时期的年代学不确定性显著，根据所用方法（王表、放射性碳定年、天文学计算）可能变动±50—100年。",
+  "graph_edges": [
+    {
+      "from": "-2820-001",
+      "to": "-2821-001",
+      "relation": "contemporary_with",
+      "note": "第五王朝统治的延续或王位更迭。"
+    },
+    {
+      "from": "-2820-002",
+      "to": "-2340-LUGALZAGESI",
+      "relation": "part_of",
+      "note": "这一时期的城邦竞争属于一个更长模式的一部分，该模式最终将导致 Lugalzagesi 统一美索不达米亚（年代不确定）。"
+    }
+  ]
+}

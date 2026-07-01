@@ -1,0 +1,69 @@
+{
+  "year": -2917,
+  "year_label": "公元前2917年",
+  "era_context": "青铜时代早期III期。埃及第五王朝处于其最后几十年。美索不达米亚处于早王朝III期，阿卡德的影响力日益增强。印度河流域文明仍处于成熟期。这一年处于主要文明相对稳定的时期，尽管潜在的结构性变化（埃及的分权化、美索不达米亚的城邦竞争）正在发生。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东亚",
+    "美洲",
+    "北欧和草原地区"
+  ],
+  "events": [
+    {
+      "id": "-2917-001",
+      "title": "埃及第五王朝——持续的行政运作",
+      "region": "埃及（尼罗河谷）",
+      "coordinates_approx": "26.5, 30.5",
+      "category": "political",
+      "description": "第五王朝继续其统治，很可能由乌纳斯（约公元前2375–2345年）或同时代的法老在位。行政当局维持对尼罗河谷的控制，尽管地方长官日益自治。金字塔建造和宗教活动继续进行。这一年没有具体事件记录，但这一时期代表了古王国中央集权力量的暮年。",
+      "key_figures": [
+        "乌纳斯或同时代的第五王朝法老"
+      ],
+      "sources": [
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "金字塔铭文和行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "第五王朝法老的年代不确定，误差±20–30年。公元前2917年的具体事件未见记载。",
+      "cross_references": []
+    },
+    {
+      "id": "-2917-002",
+      "title": "印度河流域文明——持续的城市发展",
+      "region": "印度河流域（今巴基斯坦和印度西北部）",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "印度河流域文明继续其成熟期，这一年没有具体事件记录。城市保持着标准化的规划，贸易网络活跃，未解读的文字仍用于印章和陶器。该文明的稳定性和先进性从考古遗存中可见一斑。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "主要印度河遗址的考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明的存在和年代已充分证实，但由于缺乏已解读的文字记录，无法记载具体年份的事件。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "未发现对所列举事件的反驳证据。然而，将第五王朝描述为“衰落”时期，部分是现代史学的建构；同时代的证据并未明确描述一场危机。",
+  "historiographic_note": "公元前2917年的文献资料极少，且与公元前2918年和公元前2919年依赖相同的资料。历史记录严重偏重于埃及和美索不达米亚，其他地区基本没有文献记载。这一年缺乏具体事件，反映了古代资料的局限性，它们很少详细记载单个年份的事件。",
+  "graph_edges": [
+    {
+      "from": "-2917-001",
+      "to": "-2181-001",
+      "relation": "led_to",
+      "note": "第五王朝逐渐丧失中央集权，导致了古王国的崩溃。"
+    }
+  ]
+}

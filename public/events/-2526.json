@@ -1,0 +1,113 @@
+{
+  "year": -2526,
+  "year_label": "公元前2526年",
+  "era_context": "与公元前2525年相同：埃及古王国晚期（第六王朝），处于鼎盛期的纳拉姆辛治下的阿卡德帝国，印度河流域的成熟哈拉帕文明，以及中国半传说中的夏朝时期。这是三大文明在公元前22世纪环境和政治危机之前的稳定时刻。",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "太平洋岛屿"
+  ],
+  "events": [
+    {
+      "id": "-2526-001",
+      "title": "佩皮二世统治继续（传统年代学）",
+      "region": "埃及，古王国",
+      "coordinates_approx": "26.5, 30.5",
+      "category": "political",
+      "description": "根据传统国王名单年代学，佩皮二世在这一年仍在埃及王位上。他的统治以中央权威衰落、地方行省总督权力增长以及经济紧张为特征。他统治时期的铭文记录了对努比亚和红海的远征，但总体趋势是走向分裂。这一特定年份没有记录到具体事件。",
+      "key_figures": [
+        "佩皮二世（尼斐卡拉），埃及法老"
+      ],
+      "sources": [
+        {
+          "name": "都灵纸莎草纸和阿拜多斯王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "佩皮二世统治时期官员传记铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "与-2525-001相同。佩皮二世的统治传统上被定年为约公元前2278–2184年，将这一年置于其中，但绝对年代存在±50–100年的不确定性。",
+      "cross_references": [
+        "-2525-001的延续"
+      ]
+    },
+    {
+      "id": "-2526-002",
+      "title": "阿卡德帝国在纳拉姆辛治下的巩固",
+      "region": "美索不达米亚，阿卡德帝国",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "纳拉姆辛继续巩固阿卡德对美索不达米亚和黎凡特地区的控制。他的统治代表了阿卡德帝国权力的顶峰。行政改革和军事行动维持着帝国的领土范围。帝国经济得到远距离贸易和从被征服领土征收贡品的支持。这一年没有记录到具体事件，但更广泛的背景是在帝国于公元前2200年左右迅速崩溃之前的帝国稳定。",
+      "key_figures": [
+        "纳拉姆辛，阿卡德国王"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德王室铭文和行政泥板",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "阿卡德遗址考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治被定年为约公元前2254–2218年。该年份在此范围内。没有保存下具体逐年事件。",
+      "cross_references": [
+        "-2525-002的延续"
+      ]
+    },
+    {
+      "id": "-2526-003",
+      "title": "哈拉帕贸易网络处于顶峰活跃期",
+      "region": "印度河流域及以外，南亚",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "印度河流域文明维持着与美索不达米亚、波斯湾、中亚以及可能还有埃及的广泛贸易网络。在美索不达米亚遗址（乌尔、拉格什）和波斯湾贸易据点（迪尔穆恩）发现的印章和砝码证实了这种商业往来。标准化的哈拉帕度量衡促进了远距离交换。这一年没有记录到具体事件，但贸易的物质证据是丰富的。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "在美索不达米亚背景中发现的哈拉帕印章和砝码",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "迪尔穆恩（巴林）和海湾贸易据点的发掘",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈拉帕贸易网络的存在已通过在异国背景中发现的印章和器物等考古证据得到确认。成熟哈拉帕期（约公元前2600–1900年）的年代是准确的。",
+      "cross_references": [
+        "-2525-003的延续"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "没有针对这一年的新否定性证据。与公元前2525年相同的年代学不确定性依然适用。",
+  "historiographic_note": "这一年基本上没有留下关于具体事件的记录。这种粒度级别（单一年份）的历史在公元前2526年活跃的三大文明中均未保存下来。这里呈现的'历史'是从更广泛的年代学框架和物质文化中推断出来的。缺乏年度具体记录反映了古代史学的局限。",
+  "graph_edges": [
+    {
+      "from": "-2526-001",
+      "to": "-2525-001",
+      "relation": "contemporary_with",
+      "note": "佩皮二世的统治从前一年延续下来。"
+    },
+    {
+      "from": "-2526-002",
+      "to": "-2525-002",
+      "relation": "contemporary_with",
+      "note": "纳拉姆辛的统治从前一年延续下来。"
+    }
+  ]
+}

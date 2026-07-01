@@ -1,0 +1,67 @@
+{
+  "year": -2766,
+  "year_label": "公元前2766年",
+  "era_context": "早期青铜时代III期。埃及第五王朝继续统治。美索不达米亚城邦在早王朝III期仍处于竞争状态。印度河流域文明保持着成熟阶段，拥有广泛的城市中心与贸易网络。这一时期代表了旧大陆早期文字文明的高峰。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "印度河区域以外的东亚",
+    "美洲",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-2766-001",
+      "title": "第五王朝埃及在奈费里尔卡拉·卡凯或其继承者统治下延续",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "第五王朝继续统治埃及。这一时期的特点是古王国行政结构的维持以及宗教建筑的建造。由于古埃及年代学的不精确，该年具体是哪位法老在位尚不确定，但王朝对尼罗河谷及三角洲的控制依然稳固。拉神的祭司阶层继续积累财富与土地。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "王表与行政记录",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "该年具体事件无记载。年代为约定俗成，与-2765年存在同样的年代学不确定性。",
+      "cross_references": [
+        "-2765-001"
+      ]
+    },
+    {
+      "id": "-2766-002",
+      "title": "印度河流域文明的贸易与城市发展",
+      "region": "印度河流域",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "economic",
+      "description": "印度河流域文明延续着其广泛的贸易网络。考古证据显示货物从印度河流域运往美索不达米亚、波斯湾及中亚。标准化的度量衡促进了商业。城市中心保持着方格网街道、公共浴池及粮仓等特色。该文明的经济体系似乎以贸易和农业剩余为基础，而非军事征服。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "贸易货物与印章的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域此时期存在贸易网络与城市发展，已由考古学充分证实。",
+      "cross_references": [
+        "-2765-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "该年无具体事件记载。埃及与印度河流域的宏观年代框架在学者间仍存争议。",
+  "historiographic_note": "该年处于一个具体历史事件极少被记录的时期。历史记录几乎完全由考古证据与后世编纂文献构成。目前未知该特定年份有任何当时的文字记录。",
+  "graph_edges": [
+    {
+      "from": "-2766-001",
+      "to": "-2765-001",
+      "relation": "contemporary_with",
+      "note": "第五王朝统治的延续"
+    }
+  ]
+}

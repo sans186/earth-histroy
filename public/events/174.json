@@ -1,0 +1,120 @@
+{
+  "year": 174,
+  "year_label": "174年",
+  "era_context": "马可·奥勒留在阿维狄乌斯·卡西乌斯叛乱后继续统治，期间进行军事和政治巩固。罗马帝国正在稳定其东方行省。在中国，东汉王朝在派系斗争中继续衰落。贵霜帝国仍是中亚的主要力量。本年属于更广泛的安东尼时期，即相对（尽管脆弱）帝国稳定的时期。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "罗马边境以北的北欧地区",
+    "前哥伦布时期美洲",
+    "东南亚（文字记载有限）"
+  ],
+  "events": [
+    {
+      "id": "174-001",
+      "title": "马可·奥勒留在卡西乌斯叛乱后巩固东方行省控制",
+      "region": "罗马帝国（埃及、叙利亚、美索不达米亚）",
+      "coordinates_approx": "30.0,-25.0",
+      "category": "political",
+      "description": "在阿维狄乌斯·卡西乌斯失败的叛乱之后，马可·奥勒留重组了东方的行省管理。他罢免或更换了被怀疑不忠的官员，重新分配军事指挥权，并直接重申帝国权威。皇帝在东方行省的出现既显示了力量，也提供了解决不满和巩固行省精英支持的机会。",
+      "key_figures": [
+        "马可·奥勒留（罗马皇帝）",
+        "行省总督和军事指挥官"
+      ],
+      "sources": [
+        {
+          "name": "《奥古斯塔史·马可·奥勒留传》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "卡西乌斯·狄奥《罗马史》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "埃及的铭文和纸莎草文献",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "巩固的总体过程有充分记载；174年内的具体行政变化年代不够精确。",
+      "cross_references": [
+        "175-001",
+        "175-002"
+      ]
+    },
+    {
+      "id": "174-002",
+      "title": "沃洛吉斯四世统治下帕提亚帝国保持稳定",
+      "region": "帕提亚帝国（美索不达米亚、波斯、中亚）",
+      "coordinates_approx": "35.0,50.0",
+      "category": "political",
+      "description": "沃洛吉斯四世（147–191年在位）继续担任帕提亚国王，维持帝国对美索不达米亚和丝绸之路贸易路线的控制。帕提亚帝国仍是罗马在东方的主要竞争对手，尽管此时期直接军事冲突有限。帝国的稳定支持了丝绸之路沿线贸易和文化交流的持续。",
+      "key_figures": [
+        "沃洛吉斯四世（帕提亚国王）"
+      ],
+      "sources": [
+        {
+          "name": "卡西乌斯·狄奥《罗马史》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "帕提亚钱币和铭文",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "沃洛吉斯四世的统治年代已充分确立。公元174年在他的统治期内。",
+      "cross_references": []
+    },
+    {
+      "id": "174-003",
+      "title": "东汉朝廷继续派系斗争；地方军阀获得权力",
+      "region": "中国（东汉）",
+      "coordinates_approx": "35.0,110.0",
+      "category": "political",
+      "description": "东汉朝廷在宦官派系和士大夫之间仍然分裂。地方军事州牧（节度使）日益行使自主权力，削弱了中央帝国权威。这种权力下放加速了王朝的衰落，并为黄巾起义之后的军阀时期埋下伏笔。",
+      "key_figures": [
+        "康帝（东汉皇帝）",
+        "地方军事州牧"
+      ],
+      "sources": [
+        {
+          "name": "陈寿《三国志》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "范晔《后汉书》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "总体趋势有充分记载；174年内的具体事件在现存史料中年代不够精确。",
+      "cross_references": [
+        "175-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "《奥古斯塔史》关于马可·奥勒留东方巩固的记载包含一些传奇元素，可能将175–176年的事件合并。现代研究表明重组比某些古代史料所暗示的更渐进、更不戏剧化。卡西乌斯在东方行省的支持程度可能被后世史料夸大，以强调皇帝的权威。",
+  "historiographic_note": "174年的文献记载量对罗马帝国来说为中等，有来自铭文和钱币的良好证据。中国史料在这一衰落时期对具体年份的记载不够精确。记载仍然严重偏向精英政治事件。经济和社会发展情况不足。非地中海和非东亚地区基本处于历史记载之外。",
+  "graph_edges": [
+    {
+      "from": "174-001",
+      "to": "175-001",
+      "relation": "caused_by",
+      "note": "巩固是175年卡西乌斯叛乱的结果"
+    },
+    {
+      "from": "174-003",
+      "to": "184-001",
+      "relation": "led_to",
+      "note": "地方军阀自治促成了黄巾起义和东汉崩溃"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "year": -3076,
+  "year_label": "公元前3076年",
+  "era_context": "早期青铜时代第三期。埃及古王国继续处于第四王朝或第五王朝初期。美索不达米亚仍为早王朝第三期，城邦相互竞争。印度河流域文明处于早期成熟期。文字在埃及和美索不达米亚已确立；纪念性建筑在这些地区的考古记录中占主导地位。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-3076-001",
+      "title": "古王国埃及第四至第五王朝延续",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.1",
+      "category": "political",
+      "description": "埃及古王国保持稳定和中央集权。金字塔建设虽较胡夫时期规模缩小，但仍在继续。行政国家充分发展，拥有复杂的官员层级管理尼罗河泛滥、税收和劳动力动员。宗教权威与王权相结合；法老被理解为活神，是神界与人间的中介。",
+      "key_figures": [
+        "第四王朝或第五王朝初期的法老（身份未确定）"
+      ],
+      "sources": [
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "金字塔铭文和行政纸草",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "本年度未证有任何具体事件。年代为常规安排，不确定幅度为±50–100年。",
+      "cross_references": [
+        "-3075-001"
+      ]
+    },
+    {
+      "id": "-3076-002",
+      "title": "早王朝第三期美索不达米亚：城邦竞争",
+      "region": "美索不达米亚",
+      "coordinates_approx": "31.9, 46.1",
+      "category": "political",
+      "description": "美索不达米亚城邦继续争夺地区主导权。拉格什、乌玛、乌鲁克等政治实体维持复杂的外交和军事关系。楔形文字用于行政、宗教和纪念目的。经济基于灌溉农业、贸易和手工业。",
+      "key_figures": [
+        "拉格什、乌玛、乌鲁克等城邦的统治者（名字未具体说明）"
+      ],
+      "sources": [
+        {
+          "name": "各城邦的楔形文字铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "关于早王朝第三期的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "一般背景有充分证据；但公元前3076年的具体事件未证。",
+      "cross_references": [
+        "-3075-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "与公元前3075年相同，绝对年表仍存争议。“低年表”和“高年表”的争论影响这一时期所有年代认定。同时期的资料没有明确提及公元前3076年的事件。",
+  "historiographic_note": "公元前3076年的历史记录稀少，严重依赖王表和纪念碑铭文。这些资料偏向精英活动，无法提供社会的全貌。同时期的印度河流域文明虽然存在，但由于文字未解读，很大程度上仍不透明。",
+  "graph_edges": [
+    {
+      "from": "-3076-001",
+      "to": "-3075-001",
+      "relation": "contemporary_with",
+      "note": "古王国埃及的延续"
+    }
+  ]
+}

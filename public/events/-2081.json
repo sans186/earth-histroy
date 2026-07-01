@@ -1,0 +1,78 @@
+{
+  "year": -2081,
+  "year_label": "公元前2081年",
+  "era_context": "与公元前2080年相同：古王国埃及分裂，阿卡德帝国在古提人压力下崩溃，印度河流域文明处于成熟的城市阶段，中国的夏朝（若属实）处于早期阶段。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中美洲",
+    "北欧",
+    "东南亚",
+    "太平洋岛屿"
+  ],
+  "events": [
+    {
+      "id": "-2081-001",
+      "title": "阿卡德持续分裂；古提人在美索不达米亚的巩固",
+      "region": "美索不达米亚",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "military",
+      "description": "阿卡德国家继续瓦解。古提人的武装团伙现已更加有组织，巩固了对美索不达米亚中部和南部的控制。南方的苏美尔城邦（拉格什、乌鲁克、尼普尔）重新确立了地方自治，但仍易受古提人袭击。本年属于阿卡德崩溃的广泛时期（约公元前2200-2100年），历史记录中未存留任何具体日期的事件。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "苏美尔王表（后世编纂）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "美索不达米亚遗址的考古地层学",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "现存资料中无具体事件可定年于此年。本条目描述了阿卡德崩溃的更广泛背景，这一过程历时数十年。此年是根据惯例在崩溃时期内指定的。",
+      "cross_references": [
+        "阿卡德崩溃的一部分（约公元前2200至2100年）",
+        "先于约公元前2112年乌尔第三王朝的巩固"
+      ]
+    },
+    {
+      "id": "-2081-002",
+      "title": "埃及古王国：州长区域自治的持续",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "埃及中央权威的分裂持续。地方州长们维持并扩大其自治权力基础。本年无具体事件记录，但更广泛的分权趋势仍在继续，未有减弱。孟斐斯的法老中心进一步失去对行省资源和军事力量的控制。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "州长自传及墓葬铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "来自省级行政中心的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "无具体事件可定年于此年。本条目描述了古王国分裂的正在进行过程。",
+      "cross_references": [
+        "古王国衰落的一部分（约公元前2200至2055年）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现对所列事件的否定性证据。然而，应该指出，在现存任何资料中，本年度没有任何具体历史事件被证实。上述条目描述的是更广泛的进程而非离散事件。",
+  "historiographic_note": "本年实际上没有具体的文献记载。上述条目是根据更广泛的考古和文本模式推断而来。本年度的历史记录实质上是空白的；呈现的内容是背景而非历史。这说明了公元前二千年代早期除少数主要文明外，历史记载的严重空白。",
+  "graph_edges": [
+    {
+      "from": "-2081-001",
+      "to": "-2080-001",
+      "relation": "contemporary_with",
+      "note": "是公元前2080年所述进程的继续"
+    }
+  ]
+}

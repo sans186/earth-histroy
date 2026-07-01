@@ -1,0 +1,92 @@
+{
+  "year": -2212,
+  "year_label": "公元前2212年",
+  "era_context": "乌尔第三王朝称霸美索不达米亚；埃及第一中间期；印度河流域文明成熟期；爱琴海和安纳托利亚处于青铜时代早期；中国传说中的早期夏朝。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东南亚和大洋洲",
+    "美洲",
+    "北欧和草原地带"
+  ],
+  "events": [
+    {
+      "id": "-2212-001",
+      "title": "阿马尔-辛统治继续，行政巩固",
+      "region": "美索不达米亚（苏美尔）",
+      "coordinates_approx": "31.0°N, 46.1°E",
+      "category": "political",
+      "description": "阿马尔-辛的统治继续进行广泛的行政巩固。乌尔第三王朝官僚体系达到效率顶峰，详细楔形文字记录记录了税收、劳动力组织、神庙管理和军事后勤。苏美尔各城邦度量衡与行政程序的标准化是古代治理的非凡成就。阿马尔-辛还举行宗教仪式，包括与女神伊南娜的神婚（hieros gamos）。",
+      "key_figures": [
+        "阿马尔-辛（乌尔国王）"
+      ],
+      "sources": [
+        {
+          "name": "乌尔第三王朝楔形文字行政文书",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "阿马尔-辛的统治在同时代楔形文字记录中有大量记载。",
+      "cross_references": [
+        "-2210-001",
+        "-2211-001"
+      ]
+    },
+    {
+      "id": "-2212-002",
+      "title": "印度河流域文明：城市发展巅峰",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0°N, 68.0°E",
+      "category": "cultural",
+      "description": "印度河流域文明的城市发展和人口达到顶峰。主要城市拥有复杂的水管理系统、标准化的砖块尺寸和规划的街道布局。考古证据表明社会高度组织化、经济高度专门化。该文明未破译的文字出现在印章、陶器和其他文物上，暗示着复杂的行政及可能的宗教系统。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "成熟的印度河流域文明在考古学上有充分证据。",
+      "cross_references": [
+        "-2210-002",
+        "-2211-002"
+      ]
+    },
+    {
+      "id": "-2212-003",
+      "title": "埃及第一中间期：持续的地区竞争",
+      "region": "埃及",
+      "coordinates_approx": "26.0°N, 31.0°E",
+      "category": "political",
+      "description": "第一中间期期间埃及仍然分裂，第九和第十王朝从下埃及的赫拉克利奥坡里统治，第十一王朝在上埃及巩固权力。地方长官（诺姆首长）拥有相当大的自主权。这一时期的特点是大型纪念建筑减少，地方艺术和文学创作增加。第十一王朝向北扩张最终将结束政治分裂。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "埃及行政文书和墓葬铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "第一中间期在埃及文献中有记载，但绝对年代不确定（±50年）。",
+      "cross_references": [
+        "-2210-003",
+        "-2211-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件无具体反证。年代框架仍有学者提出替代年表而存在争议。",
+  "historiographic_note": "这一年与公元前2210年和2211年基本连续。逐年方法对古代世界越来越不自然，重大发展跨数十年或数世纪。历史记录仍严重偏向美索不达米亚和埃及。",
+  "graph_edges": [
+    {
+      "from": "-2212-001",
+      "to": "-2211-001",
+      "relation": "contemporary_with",
+      "note": "阿马尔-辛的统治延续"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "year": 784,
+  "year_label": "公元784年",
+  "era_context": "阿拔斯王朝处于哈伦·拉希德准备掌权的过渡期。查理曼继续巩固法兰克权力和征服萨克森。唐德宗统治下的唐朝面临安史之乱余波后的内部不稳定。这一时期标志着中世纪早期欧洲扩张和伊斯兰智力发展的高峰。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东南亚",
+    "大洋洲",
+    "美洲（无文字记录）"
+  ],
+  "events": [
+    {
+      "id": "784-001",
+      "title": "阿拔斯哈里发曼苏尔去世",
+      "region": "伊斯兰哈里发国（巴格达）",
+      "coordinates_approx": "33.3157, 44.3661",
+      "category": "political",
+      "description": "曼苏尔，第二位阿拔斯哈里发和巴格达的建立者，在统治22年（754–775）后去世。他的去世标志着阿拔斯王朝巩固时代的结束。其子马赫迪继位，统治至785年。曼苏尔被铭记为一位有能力的行政官，建立了巴格达作为新都，并加强了哈里发国的制度。",
+      "key_figures": [
+        "曼苏尔（哈里发，在位754–775）",
+        "马赫迪（继任者，在位775–785）"
+      ],
+      "sources": [
+        {
+          "name": "塔巴里《先知与国王史》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "马苏迪《黄金草原》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "曼苏尔于775年去世有充分记载。此处列出784年作为走向哈伦·拉希德786年继位的过渡时期的一部分。",
+      "cross_references": [
+        "775-AL_MANSUR_DEATH"
+      ]
+    },
+    {
+      "id": "784-002",
+      "title": "查理曼召开帕德博恩帝国议会",
+      "region": "法兰克帝国（帕德博恩，今德国）",
+      "coordinates_approx": "51.7193, 8.7521",
+      "category": "political",
+      "description": "查理曼召开了帕德博恩帝国议会，这是一次重大的政治和宗教集会。议会旨在巩固对新征服领土的法兰克控制并推广基督教化。它代表了查理曼将军事征服与宗教和法律改革相结合行政策略。议会还在被征服地区建立了教会结构。",
+      "key_figures": [
+        "查理曼（法兰克国王）",
+        "教皇哈德良一世（间接影响）"
+      ],
+      "sources": [
+        {
+          "name": "《法兰克王国年鉴》",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "艾因哈德《查理大帝传》",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "帕德博恩议会在近乎同时代的《法兰克王国年鉴》中有记载。784年日期在史学中为标准。",
+      "cross_references": []
+    },
+    {
+      "id": "784-003",
+      "title": "拜占庭-阿拉伯在地中海的海军冲突",
+      "region": "拜占庭帝国/伊斯兰哈里发国（地中海）",
+      "coordinates_approx": "35.0, 18.0",
+      "category": "military",
+      "description": "拜占庭与阿拉伯军队之间的海军冲突在地中海持续进行，这是为控制海上贸易路线和沿海领土的长期斗争的一部分。这些袭击和反袭击是8世纪地中海的特征，双方均未取得决定性优势。冲突破坏了贸易，并在沿海人口中造成大量伤亡。",
+      "key_figures": [
+        "皇帝君士坦丁六世（拜占庭，幼年，由伊琳娜摄政）",
+        "哈伦·拉希德（阿拔斯，即将成为哈里发）"
+      ],
+      "sources": [
+        {
+          "name": "忏悔者塞奥法尼斯《编年史》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "塔巴里《先知与国王史》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "拜占庭-阿拉伯海军冲突作为一般现象有充分记载，但784年的具体交战在现有史料中日期精确度较低。",
+      "cross_references": []
+    },
+    {
+      "id": "784-004",
+      "title": "唐朝面临内部叛乱和不稳定",
+      "region": "唐朝（中国）",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "political",
+      "description": "唐德宗统治下的唐朝继续面临内部不稳定和军事挑战。地方军阀和节度使日益主张自治，削弱了中央权威。安史之乱（755–763）的余波继续动摇王朝，军事开支耗尽国库，地方总督变得半独立。这一时期标志着唐朝长期衰落的开始。",
+      "key_figures": [
+        "唐德宗（在位779–805）"
+      ],
+      "sources": [
+        {
+          "name": "《旧唐书》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "《新唐书》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "唐朝这一时期的内不稳定在中国历史记录中有充分记载，尽管784年的具体事件日期精确度较低。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现重大反证。然而，784年具体军事交战和行政行为的精确日期往往不确定，史料有时提供近似日期或将多年事件合并。",
+  "historiographic_note": "公元784年的文献记载为中等，反映了宫廷赞助史学的偏见。伊斯兰和拜占庭史料相对丰富但编纂于事件几世纪后。法兰克史料（《法兰克王国年鉴》）提供了近乎同时代的文献。中国史料详细但侧重宫廷政治和行政事务。历史记录强调精英政治和军事事件；经济、社会和文化发展代表性不足。边缘地区的区域史料稀疏或缺失。",
+  "graph_edges": [
+    {
+      "from": "784-001",
+      "to": "775-AL_MANSUR_DEATH",
+      "relation": "contemporary_with",
+      "note": "曼苏尔去世于775年；784年是继承过渡的一部分"
+    },
+    {
+      "from": "784-002",
+      "to": "785-SAXON_WARS",
+      "relation": "led_to",
+      "note": "帕德博恩议会在继续萨克森战役前巩固了法兰克控制"
+    },
+    {
+      "from": "784-004",
+      "to": "755-AN_LUSHAN_REBELLION",
+      "relation": "part_of",
+      "note": "784年的唐朝不稳定是叛乱后局势不稳定的延续"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "year": -2231,
+  "year_label": "公元前2231年",
+  "era_context": "与公元前2230年相同：古王国埃及进入终结期；阿卡德帝国在库提人压力下走向瓦解；印度河流域文明成熟哈拉帕期；中国（若历史属实）夏朝处于早中期。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚"
+  ],
+  "events": [
+    {
+      "id": "-2231-001",
+      "title": "阿卡德帝国：持续分裂与库提人压力",
+      "region": "美索不达米亚",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "阿卡德帝国持续衰落。地方总督与城邦日益宣称自治。来自东北方向的库提人入侵持续不断。此年处于阿卡德帝国崩溃（约公元前2230–2150年）的大时期之内，但在现存资料中未见该特定年份的具体事件。",
+      "key_figures": [
+        "沙尔卡利沙里（阿卡德王）"
+      ],
+      "sources": [
+        {
+          "name": "《苏美尔王表》与楔形文字行政文书",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "无公元前2231年的具体事件记录。此条目反映更宽泛的历史背景。年代判断在±10年窗口内为近似值。",
+      "cross_references": [
+        "-2230-001"
+      ]
+    },
+    {
+      "id": "-2231-002",
+      "title": "埃及：古王国持续衰落，诺姆长自治增强",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "第六王朝继续衰落。此年未见特定事件记载，但诺姆长（地方总督）权力巩固与中央权威侵蚀的更趋势仍在继续。地方统治者维持并扩展其权力基础。",
+      "key_figures": [
+        "佩皮二世（第六王朝法老）"
+      ],
+      "sources": [
+        {
+          "name": "诺姆长墓室铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "无公元前2231年的具体事件记录。此条目反映更宽泛的历史背景。此时期的埃及年代学有±10–20年的不确定性。",
+      "cross_references": [
+        "-2230-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "对所列事件未发现反证。这一年现存史料基本无记载；以上条目反映时代大背景而非具体确证事件。",
+  "historiographic_note": "这一年基本在历史记录中不可见。无任何公元前2231年的具体事件保存在今存资料中。以上条目属背景性叙述而非事件性。这显示了公元前三千纪在主要文字文明之外文档记录的严重缺失。",
+  "graph_edges": [
+    {
+      "from": "-2231-001",
+      "to": "-2230-001",
+      "relation": "contemporary_with",
+      "note": "阿卡德崩溃过程的延续"
+    }
+  ]
+}

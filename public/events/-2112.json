@@ -1,0 +1,87 @@
+{
+  "year": -2112,
+  "year_label": "2112 BCE",
+  "era_context": "阿卡德晚期；古提人入侵持续。埃及古王国处于末期阶段；第一中间期迫近。印度河流域文明处于成熟阶段。传统的夏朝处于早期阶段（年代学存在争议）。青铜时代在欧亚大陆确立。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "太平洋岛屿",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-2112-001",
+      "title": "阿卡德帝国处于崩溃晚期",
+      "region": "美索不达米亚",
+      "coordinates_approx": "32.5, 44.0",
+      "category": "political",
+      "description": "阿卡德帝国正在分裂为城邦和区域势力。楔形文字记录显示中央权威所剩无几。古提人入侵继续；一些学者认为阿卡德最终崩溃发生在这段时间前后，尽管过程是渐进的。从阿卡德到古提人统治的过渡不是单一事件，而是一个跨越数十年（约公元前2150-2130年）的过程。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "阿卡德行政文书",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《苏美尔王表》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "总体过程证据充分；具体的逐年断代不确定。",
+      "cross_references": [
+        "是阿卡德崩溃（约公元前2200-2130年）的一部分"
+      ]
+    },
+    {
+      "id": "-2112-002",
+      "title": "埃及古王国最后年份；第六王朝接近尾声",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "第六王朝正处于其最后几年。中央权威已基本瓦解；诺姆长独立统治。向第一中间期（约公元前2184-2055年）的过渡迫在眉睫。第六王朝结束的准确日期存在争议，但落在约公元前2184-2170年之间。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "《都灵王表》",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "诺姆长铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "总体衰落有充分记录；精确断代不确定（±20-30年）。",
+      "cross_references": [
+        "是古王国崩溃的一部分"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现针对所列事件的特定否定证据。",
+  "historiographic_note": "这一年的文献记录基本上不存在。没有特定事件的记录。条目代表了更广泛趋势的延续。年代学不确定性很大（±30-50年）。",
+  "graph_edges": [
+    {
+      "from": "-2112-001",
+      "to": "-2154-gutian_conquest",
+      "relation": "led_to",
+      "note": "阿卡德崩溃导致古提人统治"
+    }
+  ]
+}

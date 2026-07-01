@@ -1,0 +1,52 @@
+{
+  "year": -3034,
+  "year_label": "公元前3034年",
+  "era_context": "青铜时代早期III期；古王国埃及（第四王朝）。美索不达米亚处于早王朝IIIb期。印度河流域文明处于成熟期。这一时期的特点是复杂城市社会的发展以及文字用于行政目的。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-3034-001",
+      "title": "古王国埃及，第四王朝",
+      "region": "埃及（尼罗河谷）",
+      "coordinates_approx": "29.9°N, 31.1°E",
+      "category": "political",
+      "description": "埃及第四王朝继续统治。法老控制着尼罗河谷，并监督宏伟建筑的建造。埃及国家的行政机构管理税收、劳工组织和宗教制度。",
+      "key_figures": [
+        "哈夫拉或门卡乌拉（法老，第四王朝）"
+      ],
+      "sources": [
+        {
+          "name": "埃及王表",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "来自金字塔建筑群的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "古王国埃及的年代学不确定，学术界的估计可能相差长达150年。",
+      "cross_references": [
+        "-3033-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现针对所列事件的特定反证。",
+  "historiographic_note": "公元前3034年的历史记录稀少，依赖于后世的编纂和考古证据。埃及的资料来源相对丰富，但往往带有宣传色彩。美索不达米亚的资料来源是零散的。印度河流域文明没有留下可解读的文字记录。",
+  "graph_edges": [
+    {
+      "from": "-3034-001",
+      "to": "-3033-001",
+      "relation": "contemporary_with",
+      "note": "古王国埃及的延续"
+    }
+  ]
+}

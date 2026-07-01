@@ -1,0 +1,80 @@
+{
+  "year": -156,
+  "year_label": "公元前156年",
+  "era_context": "公元前2世纪中期：汉景帝（公元前157–141年在位）在位第二年，巩固权力并管理汉朝国家。罗马继续其在地中海地区的霸权扩张。塞琉古帝国在德米特里一世·索特尔统治下分裂。在印度，地区王国争夺主导地位。这是汉朝核心区域相对稳定的时期，持续的边境管理和内部巩固。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中亚",
+    "中美洲"
+  ],
+  "events": [
+    {
+      "id": "-156-001",
+      "title": "汉朝：汉景帝统治早期；行政巩固",
+      "region": "汉朝中国",
+      "coordinates_approx": "34.3°N, 108.9°E",
+      "category": "political",
+      "description": "汉景帝在其统治第二年继续巩固帝国权威。汉朝朝廷专注于加强中央官僚机构、削弱地方王国势力，并通过“和亲”政策管理与匈奴的边境关系。公元前156年没有具体记录重大军事行动或政治动荡，但本年代表了将定义景帝统治的稳定行政秩序的延续。",
+      "key_figures": [
+        "汉景帝（公元前157–141年在位）"
+      ],
+      "sources": [
+        {
+          "name": "司马迁《史记》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "班固《汉书》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "一般政治背景是确定的；公元前156年无具体事件记载。本年归属于景帝统治的更广泛模式。",
+      "cross_references": [
+        "属于 -157-001 至 -141-001（汉景帝统治时期）"
+      ]
+    },
+    {
+      "id": "-156-002",
+      "title": "塞琉古帝国：德米特里一世·索特尔的持续统治与分裂",
+      "region": "塞琉古帝国",
+      "coordinates_approx": "33.5°N, 36.3°E",
+      "category": "political",
+      "description": "德米特里一世·索特尔（公元前162–150年在位）继续统治日益分裂的塞琉古帝国。到公元前156年，帝国正在失去对周边领土的控制并面临内部反对。公元前156年没有具体记录军事或政治事件，但本年代表了塞琉古衰落和分裂的延续。",
+      "key_figures": [
+        "Demetrius I Soter（公元前162–150年在位）"
+      ],
+      "sources": [
+        {
+          "name": "波利比乌斯，《历史》",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "阿庇安，《叙利亚战争》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "德米特里一世统治有充分记载；公元前156年的具体意义是从塞琉古衰落的更广泛轨迹推断而来。",
+      "cross_references": [
+        "属于更广泛的塞琉古分裂一部分"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的否定证据。公元前156年在现存文献中没有重大事件记录。",
+  "historiographic_note": "公元前156年的历史记录稀疏。中国文献提供了关于汉朝事务的信息，尽管本年无具体事件记载。地中海文献提供了关于塞琉古帝国和罗马霸权的信息，但同样，公元前156年无具体事件记载。该年在历史记录中基本不可见。",
+  "graph_edges": [
+    {
+      "from": "-156-001",
+      "to": "-141-001",
+      "relation": "led_to",
+      "note": "景帝治下的持续巩固使汉武帝的扩张政策成为可能"
+    }
+  ]
+}

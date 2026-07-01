@@ -1,0 +1,88 @@
+{
+  "year": -2492,
+  "year_label": "公元前2492年",
+  "era_context": "埃及古王国在第四王朝统治下处于成熟期。美索不达米亚仍由苏美尔城邦分割。印度河流域文明达到鼎盛。此时期代表了古王国埃及中央集权与宏伟建筑的顶峰。",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "美洲",
+    "大洋洲",
+    "中亚",
+    "安纳托利亚"
+  ],
+  "events": [
+    {
+      "id": "-2492-001",
+      "title": "古王国埃及第四王朝的稳定与行政",
+      "region": "埃及（尼罗河谷）",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "埃及第四王朝维持中央集权的法老权威和行政的复杂性。该时期以稳定的治理、宏伟的建造工程以及神王观念的巩固为特征。法老为金字塔建造征用大量资源，并控制着尼罗河谷。公元前2492年没有记载任何具体事件，但古王国稳定与行政发展的宏观背景已有充分论证。",
+      "key_figures": [
+        "哈夫拉（很可能是埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "都灵王表（都灵纸莎草1874）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "古王国遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "第四王朝的一般特征在考古学上有据可查。公元前2492年的特定事件未载于史册。",
+      "cross_references": [
+        "-2490-001",
+        "-2491-001"
+      ]
+    },
+    {
+      "id": "-2492-002",
+      "title": "印度河流域文明的贸易与城市发展",
+      "region": "印度河流域（今巴基斯坦和印度西北部）",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "economic",
+      "description": "印度河流域文明延续其成熟期，与美索不达米亚、埃及和中亚保持着广泛的贸易网络。考古证据表明其使用标准化的砝码、度量和印章进行商贸活动。城市中心展现出复杂的排水系统、粮仓和住宅规划。由于文字系统未破译，该文明的经济组织仍知之甚少。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古发掘（摩亨佐-达罗、哈拉帕、朵拉维拉）",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "印度河印章与砝码",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈拉帕成熟期的经济特征在考古学上有充分证据。公元前2492年处于此有记录的时期之内。",
+      "cross_references": [
+        "-2490-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现证伪证据。古王国埃及和印度河流域文明成熟期的整体历史背景无异议。",
+  "historiographic_note": "公元前2492年的历史记录极为稀少。该年没有任何具体事件被载入史册。条目反映了该时代的宏观历史背景。埃及年代学仍存争议；不同年代体系可能使日期前后移动50-100年。该时期的美索不达米亚记录零散。印度河文字未破译，限制了对该文明政治和社会结构的理解。",
+  "graph_edges": [
+    {
+      "from": "-2492-001",
+      "to": "-2491-001",
+      "relation": "contemporary_with",
+      "note": "古王国稳定状态持续多年。"
+    },
+    {
+      "from": "-2492-002",
+      "to": "-2490-002",
+      "relation": "part_of",
+      "note": "印度河流域文明的成熟期跨越数百年；公元前2492年是这一连续时期的一部分。"
+    }
+  ]
+}

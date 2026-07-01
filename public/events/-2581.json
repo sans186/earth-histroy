@@ -1,0 +1,50 @@
+{
+  "year": -2581,
+  "year_label": "公元前2581年",
+  "era_context": "埃及第四王朝在哈夫拉统治下；吉萨的金字塔建造。阿卡德帝国在萨尔贡领导下正在巩固美索不达米亚的权力。这一时期代表了埃及古王国的鼎盛。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中美洲",
+    "北欧",
+    "大洋洲",
+    "中国夏朝",
+    "印度河流域",
+    "美索不达米亚（此年份的具体记录有限）"
+  ],
+  "events": [
+    {
+      "id": "-2581-001",
+      "title": "哈夫拉金字塔继续建造",
+      "region": "埃及，吉萨",
+      "coordinates_approx": "29.9758, 31.1344",
+      "category": "cultural",
+      "description": "哈夫拉的丧葬建筑群继续建造。金字塔此时接近完工或处于最后阶段，代表了古王国建筑和工程成就的顶峰。相关的神庙、堤道和河谷神庙都在这一时期建造中。这些建筑成为法老丧葬崇拜的焦点，并强化了埃及国家的中央集权权威。",
+      "key_figures": [
+        "哈夫拉（法老）"
+      ],
+      "sources": [
+        {
+          "name": "来自哈夫拉金字塔建筑群的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "金字塔已由考古学证实；具体的年份是按惯例指定的。",
+      "cross_references": [
+        "-2582-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "对所列事件未发现反证证据。",
+  "historiographic_note": "这一年除了埃及的纪念性考古遗址外基本没有记录。现存记录严重偏向精英和王室活动。",
+  "graph_edges": [
+    {
+      "from": "-2581-001",
+      "to": "-2582-001",
+      "relation": "part_of",
+      "note": "哈夫拉金字塔建造的延续"
+    }
+  ]
+}

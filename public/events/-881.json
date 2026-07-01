@@ -1,0 +1,113 @@
+{
+  "year": -881,
+  "year_label": "公元前881年",
+  "era_context": "亚述纳西尔帕二世在其统治（公元前883-859年）早期巩固亚述权力。近东正经历帝国扩张和军事竞争时期。在希腊，古风时期开始从希腊黑暗时代浮现。埃及在第三中间期仍然分裂。中国的西周王朝处于中央集权的最后一百年。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "太平洋岛屿",
+    "中亚（有限书面资料）"
+  ],
+  "events": [
+    {
+      "id": "-881-001",
+      "title": "亚述纳西尔帕二世早期军事行动与巩固",
+      "region": "亚述及周边地区",
+      "coordinates_approx": "36.2, 43.2",
+      "category": "military",
+      "description": "在其统治早期，亚述纳西尔帕二世进行军事行动以巩固亚述对邻近领土的控制并镇压叛乱。到公元前881年，他正在建立将定义新亚述帝国的军事和行政基础设施。他的行动以系统性地摧毁叛乱城市和驱逐人口为特征——这些战术将成为亚述帝国政策的标志。",
+      "key_figures": [
+        "亚述纳西尔帕二世（亚述国王）"
+      ],
+      "sources": [
+        {
+          "name": "亚述纳西尔帕二世的皇家年鉴（刻于尼姆鲁德）",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "来自尼姆鲁德及其他亚述遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "亚述纳西尔帕二世的统治通过同时期铭文有详细记载。公元前881年在其有记载的统治时期之内。",
+      "cross_references": [
+        "-880-001"
+      ]
+    },
+    {
+      "id": "-881-002",
+      "title": "尼姆鲁德宫殿建筑群的建造与装饰",
+      "region": "亚述（现代伊拉克）",
+      "coordinates_approx": "36.2, 43.2",
+      "category": "cultural",
+      "description": "亚述纳西尔帕二世正在监督尼姆鲁德（卡尔胡）宏伟宫殿建筑群的建造，包括著名的西北宫殿。宫殿用精美的石浮雕装饰，描绘皇家狩猎、军事行动和宗教仪式。这些浮雕既作为艺术表达，又作为宣传工具，向访客和臣民传达国王的权力和神恩。该宫殿建筑群代表了新亚述艺术成就的顶峰。",
+      "key_figures": [
+        "亚述纳西尔帕二世（亚述国王）"
+      ],
+      "sources": [
+        {
+          "name": "尼姆鲁德（尤其是西北宫殿）的考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "描述建筑项目的铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "宫殿建筑群在考古学上已充分证实，并定于亚述纳西尔帕二世统治时期（公元前883-859年）。",
+      "cross_references": [
+        "-880-002"
+      ]
+    },
+    {
+      "id": "-881-003",
+      "title": "西周政治分裂持续",
+      "region": "中国",
+      "coordinates_approx": "34.3, 109.0",
+      "category": "political",
+      "description": "随着诸侯积累权力，西周王朝继续逐渐分裂。到公元前881年，封建制度日益根深蒂固，诸侯国发展出独立的军事和经济能力。周天子的权威变得更加仪式性，对领地的控制效果减弱。这一进程将在接下来一个世纪加速，最终在约公元前771年导致西周权威崩溃。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "《史记》（司马迁著）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "该时期的青铜器铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "总体轨迹已得到充分证实，但公元前881年的具体事件并未精确记载。",
+      "cross_references": [
+        "-880-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现与所列事件相关的重大否定性证据。亚述纳西尔帕二世统治的年代学已确立，尽管一些学者对其统治内具体行动的精确年代存在争议。",
+  "historiographic_note": "公元前881年的文献记载类似于公元前880年：亚述丰富，大多数其他地区稀少。历史记录以近东文献为主，尤其是亚述铭文。中国文献为后世编纂。希腊文献极少。记录反映了现存书面文献偏向于有文字的中央集权国家。",
+  "graph_edges": [
+    {
+      "from": "-881-001",
+      "to": "-880-001",
+      "relation": "contemporary_with",
+      "note": "亚述纳西尔帕二世的行动持续多个年份"
+    },
+    {
+      "from": "-881-002",
+      "to": "-880-002",
+      "relation": "contemporary_with",
+      "note": "宫殿建造在此期间进行中"
+    }
+  ]
+}

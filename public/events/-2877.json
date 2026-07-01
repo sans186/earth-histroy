@@ -1,0 +1,106 @@
+{
+  "year": -2877,
+  "year_label": "公元前2877年",
+  "era_context": "早期青铜时代III。纳拉姆辛治下的阿卡德帝国处于或接近其领土极盛。埃及古王国（第六王朝）处于最后阶段，中央权威持续碎片化。印度河流域文明处于成熟城市阶段。在中国，夏朝或仍属传说，或处于早期阶段；考古证据有争议。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "大洋洲和太平洋",
+    "美洲",
+    "中亚和草原地带"
+  ],
+  "events": [
+    {
+      "id": "-2877-001",
+      "title": "阿卡德军事战役与领土巩固",
+      "region": "美索不达米亚、黎凡特、安纳托利亚、扎格罗斯山脉",
+      "coordinates_approx": "北纬34.5°，东经43.0°",
+      "category": "military",
+      "description": "纳拉姆辛继续进行军事战役，以巩固和扩展阿卡德的控制。铭文记载了针对卢卢比人（扎格罗斯山区民族）、古提人及其他邻近族群的战役。这些战役被描绘在著名的纳拉姆辛石碑上，该碑展示国王作为神化领袖统帅军队。军事扩张是确保贸易路线、索取贡赋并在新月沃地建立阿卡德霸权的更广泛战略的一部分。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德王）"
+      ],
+      "sources": [
+        {
+          "name": "纳拉姆辛石碑及其他王室铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "阿卡德行政和军事文献（楔形文字泥板）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "关于阿卡德军事战役的史学共识（利维拉尼《古代近东》；布莱斯《青铜时代的终结》）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的军事战役在当代铭文中有充分记载。然而，各次战役的准确年代和先后顺序仍不确定。约定俗成地将公元前2877年归于这一时期。",
+      "cross_references": []
+    },
+    {
+      "id": "-2877-002",
+      "title": "印度河流域文明手工业专门化与标准化",
+      "region": "印度河流域，南亚",
+      "coordinates_approx": "北纬27.0°，东经71.0°",
+      "category": "technological",
+      "description": "印度河流域文明展现出复杂的手工业专门化，有证据表明存在标准化的陶器、度量衡和工具。考古证据显示存在手工业行会或作坊，生产用于贸易和当地消费的标准化商品。该文明标准化的度量衡（基于十进制）表明高度有组织的经济，并可能有一个中央机构监管贸易和生产。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自印度河流域遗址的标准化度量衡和手工艺品的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "关于印度河流域经济与手工业专门化的史学共识（波瑟尔《印度文明》；麦金托什《印度文明》）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明的手工业专门化和标准化通过考古证据得到充分确立，但无法确定具体发展的时间。",
+      "cross_references": []
+    },
+    {
+      "id": "-2877-003",
+      "title": "埃及古王国第六王朝行政碎片化",
+      "region": "埃及",
+      "coordinates_approx": "北纬26.0°，东经31.0°",
+      "category": "political",
+      "description": "第六王朝继续其逐渐衰落。此时期地方总督（诺姆首领）的自传式铭文显示出区域层面日益增长的自主权和财富积累。中央再分配体系正在弱化，地方精英开始掌握资源和劳动力的控制权。这一过程为第一中间期奠定了基础，届时中央法老权威将彻底崩溃。",
+      "key_figures": [
+        "佩皮二世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "诺姆首领的墓壁自传铭文（如安赫提菲、锡伦普特）",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "关于古王国衰落的史学共识（霍农、克劳斯、沃伯顿）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "古王国衰落的总体趋势在考古上显而易见，但精确断代仍有不确定性。±100-150年的不确定性是现实的。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "对所列事件没有发现具体的反面证据。古王国衰落和阿卡德扩张的大叙事仍是学界共识，尽管绝对年代有争议。",
+  "historiographic_note": "此年份的文献记载稀疏且地理偏向明显。阿卡德和埃及的书面记录以精英为中心。印度河流域文明未被破译的文字限制了历史重建。地中海和近东以外的区域基本没有历史记录。",
+  "graph_edges": [
+    {
+      "from": "-2877-001",
+      "to": "-2875-001",
+      "relation": "led_to",
+      "note": "阿卡德在纳拉姆辛治下的军事扩张最终导致帝国过度扩张和崩溃。"
+    }
+  ]
+}

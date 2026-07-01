@@ -1,0 +1,85 @@
+{
+  "year": -2706,
+  "year_label": "公元前2706年",
+  "era_context": "美索不达米亚早王朝三期延续；埃及古王国（第四王朝）。印度河流域文明仍处于成熟期。这是主要文明相对稳定的时期，拥有已确立的贸易网络和城市体系。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中亚",
+    "大洋洲",
+    "美洲大部"
+  ],
+  "events": [
+    {
+      "id": "-2706-001",
+      "title": "埃及古王国金字塔建造的延续",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "29.9°N, 31.1°E",
+      "category": "cultural",
+      "description": "金字塔建造和宏伟建筑继续作为埃及王室意识形态和劳动组织的主要特征。门卡乌拉或其继任者的统治延续了大规模石构工程的传统。这些工程需要复杂的劳动力组织、采石和运输系统。",
+      "key_figures": [
+        "门卡乌拉或谢普塞斯卡夫（第四王朝法老）"
+      ],
+      "sources": [
+        {
+          "name": "金字塔群及神庙遗址考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "王表和行政记录（后期抄本）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "这一时期金字塔建造已有考古证实，但第四王朝内的具体事件和精确年代仍不确定。",
+      "cross_references": [
+        "-2705-001"
+      ]
+    },
+    {
+      "id": "-2706-002",
+      "title": "印度河流域贸易网络活跃；长途交换",
+      "region": "印度河流域及更远，南亚和近东",
+      "coordinates_approx": "27.0°N, 68.0°E",
+      "category": "economic",
+      "description": "考古证据显示印度河流域的物品（印章、陶器、珠子）在美索不达米亚遗址被发现，而美索不达米亚的物品出现在印度河背景中。这表明存在已建立的贸易路线和商业关系。这种贸易的性质——是直接贸易还是通过中间人——仍有争议。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "在美索不达米亚遗址（乌尔、乌鲁克、拉格什）发现的印度河印章考古实物",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "在印度河流域背景中发现的美索不达米亚物品",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域与美索不达米亚之间的长途贸易，在成熟的印度河阶段已有考古学充分证实。",
+      "cross_references": [
+        "-2705-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的具体反证证据。然而，印度河-美索不达米亚贸易的性质和范围仍有争议；一些学者主张通过中间人（可能是波斯湾地区或阿曼）的间接贸易，而不是直接接触。",
+  "historiographic_note": "公元前2706年处于书面记录在埃及和美索不达米亚以外极其稀少的时期。历史记录主要由物质文化和宏伟建筑的考古证据主导。政治事件、军事战役和个别统治者，除了在后来的王表和铭文中有所提及外，大都无记载。对精英和宏伟活动的偏向很突出。",
+  "graph_edges": [
+    {
+      "from": "-2706-001",
+      "to": "-2705-001",
+      "relation": "contemporary_with",
+      "note": "第四王朝金字塔建造传统的延续"
+    },
+    {
+      "from": "-2706-002",
+      "to": "-2705-002",
+      "relation": "part_of",
+      "note": "印度河流域贸易网络是文明成熟期的一部分"
+    }
+  ]
+}

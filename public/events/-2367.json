@@ -1,0 +1,81 @@
+{
+  "year": -2367,
+  "year_label": "公元前2367年",
+  "era_context": "纳拉姆辛治下的阿卡德帝国正在巩固权力和军事扩张。埃及古王国（第六王朝）延续其行政传统。印度河流域文明处于成熟城市阶段。这是旧大陆主要文明高度中央集权与宏大成就的时期，但潜在的动荡因素存在。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "商朝以外的东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2367-001",
+      "title": "纳拉姆辛在扎格罗斯与安纳托利亚的征战",
+      "region": "阿卡德帝国、扎格罗斯山脉、安纳托利亚",
+      "coordinates_approx": "35.0, 44.0",
+      "category": "military",
+      "description": "纳拉姆辛继续军事征伐以巩固阿卡德对扎格罗斯山脉和安纳托利亚部分地区的控制。这些战役针对卢卢比人、库提人及其他抵抗阿卡德统治的高地民族。战役被记入王室铭文及纳拉姆辛胜利碑。这些军事行动消耗大量资源，加剧了阿卡德经济的压力。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德王）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德王室铭文与胜利碑",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "行政记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的军事征伐在同代铭文中充分证实。公元前2367年按惯例归入其统治期。",
+      "cross_references": [
+        "-2365-001",
+        "-2366-001"
+      ]
+    },
+    {
+      "id": "-2367-002",
+      "title": "埃及第六王朝行政活动",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "第六王朝时期的埃及继续其行政与宗教制度。法老维持对祭司、军队和官僚机构的控制，但地方州长自主权日增。金字塔建造继续，但规模缩小。与努比亚和黎凡特的贸易保持活跃。该时期以稳定为特征，但也呈现出将导致第一中间期的逐渐分权过程。",
+      "key_figures": [
+        "第六王朝法老（具体统治者不确定）"
+      ],
+      "sources": [
+        {
+          "name": "埃及行政铭文与墓葬记录",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "金字塔文",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "第六王朝定于约公元前2278–2184年；公元前2367年的具体事件未有单独记录。",
+      "cross_references": [
+        "-2365-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现针对公元前2367年的特定反证。然而，阿卡德领土控制范围在学者中仍有争议；有人认为纳拉姆辛的铭文代表意识形态宣称而非实际行政控制。",
+  "historiographic_note": "公元前2367年未在任何存世文献中被单独证实。所描述事件是根据纳拉姆辛统治和第六王朝埃及的宏观背景推断。历史记录稀疏，严重偏向精英政治和军事活动。",
+  "graph_edges": [
+    {
+      "from": "-2367-001",
+      "to": "-2365-001",
+      "relation": "contemporary_with",
+      "note": "属于纳拉姆辛更广泛军事巩固的一部分。"
+    }
+  ]
+}

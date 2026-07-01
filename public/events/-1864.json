@@ -1,0 +1,142 @@
+{
+  "year": -1864,
+  "year_label": "公元前1864年",
+  "era_context": "中青铜时代。古巴比伦时期接近尾声。埃及处于第二中间期，三角洲地区有希克索斯人存在。印度河流域文明处于成熟期。迈锡尼希腊处于早期青铜时代。这是一个过渡时期，以既有强权的衰落和新兴区域霸权的崛起为标志。",
+  "documentation_level": "匮乏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中亚",
+    "大洋洲",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-1864-001",
+      "title": "古巴比伦王朝末期衰亡",
+      "region": "美索不达米亚（巴比伦尼亚）",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "萨姆苏-迪塔纳的统治进入最后几年，古巴比伦王朝面临迫在眉睫的崩溃。该王国已丧失大部分领土控制权和影响力。来自赫梯人和其他势力的外部压力，加上内部不稳定，使中央政府不堪重负。该王朝将在几年内灭亡，结束近三百年的巴比伦统治，标志着美索不达米亚政治的剧变。",
+      "key_figures": [
+        "萨姆苏-迪塔纳（巴比伦国王）"
+      ],
+      "sources": [
+        {
+          "name": "巴比伦王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "行政泥板",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "萨姆苏-迪塔纳在位年代不确定，不同纪年体系相差可达100年。本年份按中纪年法惯例确定。",
+      "cross_references": [
+        "-1860-001",
+        "-1861-001",
+        "-1862-001",
+        "-1863-001"
+      ]
+    },
+    {
+      "id": "-1864-002",
+      "title": "赫梯人巩固安纳托利亚霸权",
+      "region": "安纳托利亚（赫梯帝国）",
+      "coordinates_approx": "35.5, 34.0",
+      "category": "political",
+      "description": "汉提里一世领导下的赫梯人正在巩固对安纳托利亚的控制，并确立自己为主要区域强权。这一巩固过程涉及军事行动、外交谈判和行政体系的建立。赫梯人开始挑战美索不达米亚和埃及的传统强权，争夺区域主导地位。",
+      "key_figures": [
+        "汉提里一世（赫梯国王）"
+      ],
+      "sources": [
+        {
+          "name": "赫梯王室铭文及后世编年史",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "该年赫梯巩固的具体细节在当代文献中未见记载。叙述是根据后世赫梯文献和埃及记录重构的。",
+      "cross_references": [
+        "-1861-002",
+        "-1863-002"
+      ]
+    },
+    {
+      "id": "-1864-003",
+      "title": "印度河流域文明成熟期延续",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "印度河流域文明在这一时期继续繁荣，保持着高超的城市文化、广泛的贸易网络和先进的技术。该文明处于发展顶峰，主要城市是手工业、贸易和行政的中心。社会保持着独特特征，包括尚未破译的文字和标准化的度量衡。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "印度河印章与铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明的物质文化在考古学上已有充分记载。本年份的具体断代基于碳-14和地层分析。",
+      "cross_references": [
+        "-1860-003",
+        "-1861-003",
+        "-1862-003",
+        "-1863-003"
+      ]
+    },
+    {
+      "id": "-1864-004",
+      "title": "埃及第二中间期政治分裂",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "第二中间期的埃及政治分裂，希克索斯人控制三角洲和下埃及，而本土埃及王朝统治上埃及。这一分裂时期以相互竞争的权力中心和缺乏统一中央权威为特点。希克索斯人的存在显著而持久，但其统治的确切性质以及与埃及当局的关系仍在争论中。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "埃及新王国时期的回溯性记载",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "三角洲遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "第二中间期在考古学上已充分确立，但当代文献记载稀少。大部分记载来自新王国时期的后世埃及文献。",
+      "cross_references": [
+        "-1860-002",
+        "-1862-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "该时期的编年争议很大，低纪年法将这些事件推迟约100年。赫梯在本年强化权力的程度和性质在当代文献中未见记载。印度河流域文明最终衰落的原因仍有争议，提出了多种因素。",
+  "historiographic_note": "本年份在当代文献中记载很少。我们的知识基于巴比伦的行政档案、印度河流域和埃及的考古证据以及后世的历史汇编。历史记录零散，严重依赖内在具有不确定性的考古断代方法。记录偏向于有文字的城市文明，世界上大部分人口和地区在视野之外。",
+  "graph_edges": [
+    {
+      "from": "-1864-001",
+      "to": "-1850-001",
+      "relation": "led_to",
+      "note": "萨姆苏-迪塔纳统治下古巴比伦王朝的末期衰亡导致了其崩溃"
+    },
+    {
+      "from": "-1864-002",
+      "to": "-1850-002",
+      "relation": "led_to",
+      "note": "赫梯巩固权力导致了其成为主要区域强权"
+    }
+  ]
+}

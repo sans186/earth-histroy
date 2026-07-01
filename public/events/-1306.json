@@ -1,0 +1,107 @@
+{
+  "year": -1306,
+  "year_label": "公元前1306年",
+  "era_context": "青铜时代晚期在相同帝国权力格局下继续：埃及拉美西斯二世、赫梯帝国穆尔西里三世、爱琴海迈锡尼文明、巴比伦加喜特王朝。这是大国体系相对稳定的时期，但地区冲突和内部王朝紧张持续存在。贸易网络从爱琴海延伸至美索不达米亚。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚（除甲骨文记录外）",
+    "大洋洲与太平洋",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-1306-001",
+      "title": "拉美西斯二世建筑计划的延续",
+      "region": "埃及",
+      "coordinates_approx": "25.0,32.0",
+      "category": "cultural",
+      "description": "拉美西斯二世继续其大规模建筑计划，在埃及各地建造神庙、纪念碑和行政建筑。阿布辛贝神庙及其他大型神庙的建设既代表宗教虔诚，也代表政治宣传。这些建筑项目雇用了数千名工人，展示了埃及的财富和组织能力。这些纪念碑旨在将法老的名字和权力传承至后代。",
+      "key_figures": [
+        "拉美西斯二世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "神庙与纪念碑的考古遗存",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "来自代尔麦地那记载工人组织的行政记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "建筑计划通过现存的建筑结构和行政记录得到广泛记载。然而，拉美西斯二世统治期内个别项目的精确年代通常不确定。",
+      "cross_references": []
+    },
+    {
+      "id": "-1306-002",
+      "title": "赫梯内部继承紧张",
+      "region": "安纳托利亚",
+      "coordinates_approx": "35.0,35.0",
+      "category": "political",
+      "description": "赫梯帝国在穆尔西里三世领导下经历与继承和王室合法性相关的内部紧张。这些紧张关系记录在后来的赫梯记录和铭文中，反映了中央集权面临的更广泛挑战。穆尔西里三世的统治以巩固权力和管理王位争夺为特征。",
+      "key_figures": [
+        "穆尔西里三世（赫梯国王）"
+      ],
+      "sources": [
+        {
+          "name": "来自博阿兹柯伊的赫梯王室铭文与行政文本",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "描述该时期的后来赫梯编年史",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "继承紧张在赫梯史源中有所记载，但公元前1306年的具体事件是从更广泛模式推断而来，而非精确定年。",
+      "cross_references": []
+    },
+    {
+      "id": "-1306-003",
+      "title": "迈锡尼在爱琴海的定居扩张",
+      "region": "希腊，爱琴海群岛",
+      "coordinates_approx": "38.0,24.0",
+      "category": "demographic",
+      "description": "迈锡尼定居点在整个爱琴海地区继续扩张和巩固。考古证据显示人口密度增加和定居点等级体系形成。这一时期代表了迈锡尼文明在青铜时代晚期崩溃扰乱前的巅峰。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "考古调查数据与定居模式",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "记载行政组织的线形文字B泥板",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "定居模式通过考古学得到充分记载。线形文字B泥板提供了有组织社会的行政证据。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "穆尔西里三世统治的精确年代以及继承紧张的性质仍存在争议。一些学者质疑后来史源中描述的内部冲突是否准确反映了公元前1306年的状况，或是后来的重新解释。迈锡尼定居扩张的年代基于陶器年代学，误差可达数十年。",
+  "historiographic_note": "公元前1306年的历史记录仍以埃及和赫梯精英史源为主。迈锡尼证据主要来自考古学。记录反映了帝国宫廷和行政中心的视角。经济和社会史必须从物质文化中重建。世界大部分地区在文字史源中无记载。",
+  "graph_edges": [
+    {
+      "from": "-1306-001",
+      "to": "-1305-001",
+      "relation": "contemporary_with",
+      "note": "建筑计划与军事行动是拉美西斯二世统治的并行方面"
+    },
+    {
+      "from": "-1306-003",
+      "to": "-1200-late_bronze_age_collapse",
+      "relation": "led_to",
+      "note": "该时期的迈锡尼扩张先于青铜时代晚期崩溃的扰乱"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "year": -3031,
+  "year_label": "公元前3031年",
+  "era_context": "黎凡特和埃及的青铜时代早期III期；古王国埃及（第四王朝）继续进行宏伟建筑计划。美索不达米亚处于早王朝IIIb期，城邦争夺主导权。印度河流域文明处于成熟期。这是埃及和印度河谷相对稳定的时期，美索不达米亚则冲突持续。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-3031-001",
+      "title": "古王国埃及，第四王朝延续",
+      "region": "埃及（尼罗河谷）",
+      "coordinates_approx": "29.9°N, 31.1°E",
+      "category": "political",
+      "description": "埃及第四王朝继续统治。法老（根据确切的年表，可能是哈夫拉或门卡乌拉）控制着尼罗河谷，并监督宏伟建筑的建造和维护。埃及国家的行政机构继续运作，管理税收、劳工组织和宗教制度。埃及的繁荣依赖于每年的尼罗河洪水，它提供了灌溉和肥沃的农业土壤。",
+      "key_figures": [
+        "哈夫拉或门卡乌拉（法老，第四王朝）"
+      ],
+      "sources": [
+        {
+          "name": "埃及王表",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "来自金字塔建筑群的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "古王国埃及的年代学不确定，学术界的估计可能相差长达150年。公元前3031年落在第四王朝的可能范围内，但无法具体归属。",
+      "cross_references": [
+        "-3030-001"
+      ]
+    },
+    {
+      "id": "-3031-002",
+      "title": "美索不达米亚城邦冲突与行政发展",
+      "region": "美索不达米亚（苏美尔）",
+      "coordinates_approx": "32.0°N, 46.0°E",
+      "category": "political",
+      "description": "苏美尔城邦继续争夺资源和领土。楔形文字越来越多地用于行政目的，包括记录经济交易、法律判决和宗教祭祀。文字和记录保存的发展反映了城市社会日益增加的复杂性以及中央集权行政的需求。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自美索不达米亚档案的楔形文字泥板",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "来自聚落形态和神庙建筑群的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "美索不达米亚早王朝时期的年代学高度不确定。考古证据证实了城邦和行政系统的存在，但无法精确到具体年份。",
+      "cross_references": [
+        "-3030-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现针对所列事件的特定反证。然而，这一时期年代学的普遍不确定性意味着，任何关于公元前3031年事件的具体声明都应谨慎对待。",
+  "historiographic_note": "公元前3031年的历史记录稀少，依赖于后世的编纂和考古证据。埃及的资料来源相对丰富，但往往带有宣传色彩。美索不达米亚的资料来源零散且难以精确断代。印度河流域文明没有留下可解读的文字记录。所有的年表都存在持续的学术争论。",
+  "graph_edges": [
+    {
+      "from": "-3031-001",
+      "to": "-3030-001",
+      "relation": "contemporary_with",
+      "note": "古王国埃及的延续"
+    }
+  ]
+}

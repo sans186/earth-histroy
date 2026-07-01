@@ -1,0 +1,179 @@
+{
+  "year": -4,
+  "year_label": "5年 公元前（格里高利历前推）",
+  "era_context": "奥古斯都巩固罗马帝国权力。汉朝处于成熟阶段。帕提亚帝国控制中亚。希律大帝在犹地亚统治的最后几年。早期玛雅文明在美索美洲发展。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "罗马边境以北的北欧",
+    "中亚（有限文献记载）",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-4-001",
+      "title": "希律大帝晚年；内部纷争与继承不确定性",
+      "region": "犹地亚",
+      "coordinates_approx": "31.9, 35.2",
+      "category": "political",
+      "description": "希律大帝处于统治的最后几年（他将于公元前4年去世）。他的健康每况愈下，宫廷中充满阴谋与猜忌。由于对继承问题的偏执，他已处决数位家庭成员。他剩下的儿子们正在争夺位置。犹太人在其统治下动荡不安，出现反抗和叛乱的迹象。他的死亡迫在眉睫，继承问题悬而未决。",
+      "key_figures": [
+        "希律大帝（统治期：公元前37–4年）",
+        "他的儿子们（希律·安提帕斯、希律·腓力、亚基老）",
+        "犹太宗教领袖与抵抗运动"
+      ],
+      "sources": [
+        {
+          "name": "约瑟夫斯，《犹太古史》与《犹太战争》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "希律统治时期的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "希律的晚年与继承问题在约瑟夫斯的著作中有详细记载。",
+      "cross_references": [
+        "-3-001",
+        "-2-003"
+      ]
+    },
+    {
+      "id": "-4-002",
+      "title": "奥古斯都继续统治；年迈皇帝及继承巩固",
+      "region": "罗马帝国",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "奥古斯都继续担任第一位罗马皇帝。帝国稳定而繁荣。奥古斯都现年58岁，已确立提比略为养子作为继承人。罗马和平持续，整个帝国相对和平稳定。奥古斯都正致力于确保他死后权力的平稳过渡。",
+      "key_figures": [
+        "奥古斯都（统治期：公元前27年–公元14年）",
+        "提比略（养子继承人）"
+      ],
+      "sources": [
+        {
+          "name": "《奥古斯都功业录》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "苏埃托尼乌斯，《奥古斯都传》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "奥古斯都的统治有充分文献记载。",
+      "cross_references": [
+        "0-001",
+        "-1-001",
+        "-2-001",
+        "-3-002"
+      ]
+    },
+    {
+      "id": "-4-003",
+      "title": "汉元帝时期；繁荣与文化成就",
+      "region": "汉朝中国",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "cultural",
+      "description": "汉元帝时期，汉朝继续取得文化与技术进展。帝国经济繁荣，农业和贸易蓬勃发展。丝绸之路贸易不断扩大，从中亚及更远地区带来珍奇商品与思想。汉廷精致而国际化，学者和艺术家受皇室赞助。",
+      "key_figures": [
+        "汉元帝"
+      ],
+      "sources": [
+        {
+          "name": "《汉书》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "汉代遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "汉朝的繁荣与文化成就在历史记载中有文献记录，考古证据也予以证实。",
+      "cross_references": [
+        "0-002",
+        "-1-002",
+        "-2-002",
+        "-3-003"
+      ]
+    },
+    {
+      "id": "-4-004",
+      "title": "帕提亚帝国维持对丝绸之路和中亚的控制",
+      "region": "帕提亚帝国",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "帕提亚帝国继续维持对丝绸之路和中亚的控制。帕提亚人正在巩固权力，保持其作为主要世界强国的地位。与罗马在亚美尼亚和美索不达米亚控制权上存在持续紧张关系，但该年没有记载重大军事战役。",
+      "key_figures": [
+        "帕提亚国王与贵族"
+      ],
+      "sources": [
+        {
+          "name": "斯特拉波，《地理志》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "帕提亚钱币与铭文",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "帕提亚年代学记载较不精确；年代为近似值。",
+      "cross_references": [
+        "0-003",
+        "-1-004",
+        "-2-004",
+        "-3-004"
+      ]
+    },
+    {
+      "id": "-4-005",
+      "title": "玛雅文明形成期；礼仪中心与农业发展",
+      "region": "美索美洲",
+      "coordinates_approx": "17.5, -91.0",
+      "category": "cultural",
+      "description": "玛雅文明在形成期继续发展。礼仪中心规模与复杂程度不断增长。农业实践日益精细，发展了灌溉系统和梯田。早期文字系统开始出现。古典期玛雅文明的基础正在奠定。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "玛雅遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "这一时期玛雅年代学基于考古证据，不确定性为±50–100年。",
+      "cross_references": [
+        "0-006",
+        "-1-005",
+        "-2-005",
+        "-3-005"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现针对所列事件的具体反证。不过，希律偏执的程度及其处决家族成员的数量有时在后世文献中被夸大；约瑟夫斯可能为了戏剧效果而润色了这些记述。",
+  "historiographic_note": "公元前5年对于罗马和汉朝世界而言文献丰富。历史记录严重偏向精英、有文字的文明。撒哈拉以南非洲、北欧以及美洲大部分地区在文字记录中几乎缺席。对于非西方地区，考古证据零散且受年代测定不确定性影响。现存的文献反映了有文字精英和后世编纂者的偏见。",
+  "graph_edges": [
+    {
+      "from": "-4-001",
+      "to": "-3-001",
+      "relation": "led_to",
+      "note": "希律于公元前4年去世导致其王国分裂。"
+    },
+    {
+      "from": "-4-002",
+      "to": "-3-002",
+      "relation": "contemporary_with",
+      "note": "奥古斯都的统治持续。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "year": -2373,
+  "year_label": "公元前2373年",
+  "era_context": "早期青铜时代III期，阿卡德帝国在美索不达米亚和黎凡特的霸权延续。埃及仍处于古王国第六王朝。印度河流域文明处于鼎盛期。该年份处于公元前23世纪末期气候与政治危机前的相对稳定时期。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "大洋洲",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2373-001",
+      "title": "阿卡德行政巩固与贸易扩张",
+      "region": "阿卡德帝国及周边区域",
+      "coordinates_approx": "34.5, 44.0",
+      "category": "economic",
+      "description": "纳拉姆辛治下的阿卡德帝国继续扩展贸易网络并巩固行政控制。阿卡德商人和官员活跃于美索不达米亚、黎凡特乃至安纳托利亚。标准化的度量衡与行政惯例被施加于被征服领土。阿卡德语成为帝国行政与商业的通用语。这一时期代表了阿卡德经济一体化的高峰。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德王）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德行政泥板与商人记录",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "纳拉姆辛统治时期的铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿卡德经济扩张有行政记录和贸易品考古证据的充分文献支持。纳拉姆辛统治内的确切年代不确定。",
+      "cross_references": [
+        "-2374-001"
+      ]
+    },
+    {
+      "id": "-2373-002",
+      "title": "印度河流域文明印章生产与标准化",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "印度河流域文明生产成千上万枚印章，其图像和未释读文字具有标准化特征。这些印章用于贸易、行政及可能的宗教目的。整个文明区域内印章设计、度量衡的标准化表明存在高度的中央协调或共享的文化规范。印章被出口至美索不达米亚和波斯湾，表明活跃的贸易网络。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "摩亨佐达罗、哈拉帕及其他遗址出土的印度河印章",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河印章数量丰富且考古文献充分。成熟期定年可靠；该年份位于公认时段内。",
+      "cross_references": [
+        "-2374-002"
+      ]
+    },
+    {
+      "id": "-2373-003",
+      "title": "埃及古王国金字塔与神庙建造",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "cultural",
+      "description": "第六王朝时期埃及金字塔与神庙建造继续，但规模减小，宏伟程度较早期王朝降低。地方州长墓穴显示其财富与自主权渐增，反映了权力由中央法老权威逐渐转移的过程。宗教文本与行政记录继续被刻写在墓穴与神庙中。",
+      "key_figures": [
+        "佩皮二世（埃及法老，传统定年）"
+      ],
+      "sources": [
+        {
+          "name": "第六王朝的金字塔铭文与陵墓浮雕",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "古王国遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "此时期埃及年代学因所用年代体系不同而存在±50–100年的不确定性。",
+      "cross_references": [
+        "-2374-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现针对所列事件的反证。然而，该时期阿卡德稳定的宏观叙事被公元前23世纪末期开始的气候压力（干旱化）证据复杂化，此时农业生产力可能已开始受影响。",
+  "historiographic_note": "该年资料与-2374年类似：铭文、行政记录和考古学。绝对年代仍不确定。历史记录主要来自美索不达米亚和埃及的精英视角；印度河流域文明的内部政治社会结构因文字未释读仍大体未知。",
+  "graph_edges": [
+    {
+      "from": "-2373-001",
+      "to": "-2370-001",
+      "relation": "led_to",
+      "note": "阿卡德经济扩张与中央集权加剧了帝国对外部冲击的脆弱性。"
+    }
+  ]
+}

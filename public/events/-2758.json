@@ -1,0 +1,76 @@
+{
+  "year": -2758,
+  "year_label": "公元前2758年",
+  "era_context": "早期青铜时代III。纳拉姆辛统治下的阿卡德帝国继续在美索不达米亚占据主导地位。埃及古王国（第六王朝）佩皮二世统治后期，地方权力巩固。印度河流域文明仍处于成熟的城市阶段。在中国，夏朝传统上被定位于这一时期，尽管考古证据有争议。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "太平洋岛屿"
+  ],
+  "events": [
+    {
+      "id": "-2758-001",
+      "title": "阿卡德军事战役——纳拉姆辛的持续扩张",
+      "region": "美索不达米亚和黎凡特",
+      "coordinates_approx": "34.5, 43.0",
+      "category": "military",
+      "description": "纳拉姆辛继续对邻近地区进行军事战役。铭文记录了对扎格罗斯的卢鲁比人的胜利和在黎凡特的战役。阿卡德国家维持其行政机构和贡赋体系，尽管有证据表明来自外部压力和内乱的压力日益增加。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德国王）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德皇家铭文和行政泥板",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的战役证据充分，但根据幸存资料无法确定精确的逐年年代。这一年是按照惯例指定于其在位期内。",
+      "cross_references": [
+        "-2759-001"
+      ]
+    },
+    {
+      "id": "-2758-002",
+      "title": "埃及古王国——诺姆长权力巩固",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "佩皮二世的统治延续。上下埃及的地方总督（诺姆长）积累财富和自治权，这从他们日益精美的陵墓和自传铭文中可以看出。中央权威在名义上仍然强大，但实际上受到限制。这一时期代表了古王国中央集权的黄昏。",
+      "key_figures": [
+        "佩皮二世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "诺姆长陵墓铭文和自传",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "金字塔文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "诺姆长权力巩固的总体趋势记载充分，但单一年份的具体事件未有证明。",
+      "cross_references": [
+        "-2759-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "对于所列事件未发现具体反驳证据。然而，纳拉姆辛统治下阿卡德无敌的总体叙述，因有证据表明内部不稳定及其死后帝国迅速崩溃而变得复杂，这表明同时代资料可能夸大了他的控制。",
+  "historiographic_note": "这一年落在记载充分的统治期内（纳拉姆辛、佩皮二世），但缺乏这一特定年份的具体事件记录。这一时期的历史记录主要由美索不达米亚和埃及的皇家铭文和行政记录主导；其他地区在幸存资料中基本上不可见。",
+  "graph_edges": [
+    {
+      "from": "-2758-001",
+      "to": "-2759-001",
+      "relation": "contemporary_with",
+      "note": "纳拉姆辛军事战役的延续。"
+    }
+  ]
+}

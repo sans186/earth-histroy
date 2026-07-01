@@ -1,0 +1,99 @@
+{
+  "year": -1989,
+  "year_label": "公元前1990年",
+  "era_context": "东地中海和黎凡特的青铜时代中期II期。埃及处于第二中间期，政治分裂。美索不达米亚的古巴比伦时期正处繁荣。安纳托利亚的赫梯古王国正在巩固权力。印度河流域文明处于其最后阶段。商朝统治中国的黄河河谷。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中美洲",
+    "北欧",
+    "太平洋和大洋洲地区",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-1989-001",
+      "title": "巴比伦古巴比伦时期的行政和法律发展",
+      "region": "美索不达米亚（巴比伦尼亚）",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "legal",
+      "description": "巴比伦在古巴比伦时期继续发展复杂的行政和法律体系。楔形文字记录证实了复杂的官僚结构、法律法器和经济管理。《汉谟拉比法典》，传统上归因于汉谟拉比统治期，代表了巴比伦法律思想的巅峰，尽管其确切颁布日期存在争议。今年处于法律和行政创新时期。",
+      "key_figures": [
+        "汉谟拉比（如果其统治期延伸至今年）或其继任者"
+      ],
+      "sources": [
+        {
+          "name": "楔形文字行政文本和法律文件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《汉谟拉比法典》（石碑及泥板副本）",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "汉谟拉比的统治期传统上断代为约公元前1792-1750年（中年表）或约公元前1696-1654年（低年表）。定位于公元前1990年取决于采用何种年表以及汉谟拉比的统治期是否延伸至今年。",
+      "cross_references": []
+    },
+    {
+      "id": "-1989-002",
+      "title": "黎凡特海上贸易网络",
+      "region": "黎凡特和东地中海",
+      "coordinates_approx": "34.0, 36.0",
+      "category": "economic",
+      "description": "诸如毕布勒、西顿和提尔等黎凡特城邦参与了连接埃及、美索不达米亚、安纳托利亚和爱琴海的广泛海上贸易网络。考古证据显示整个地中海地区商品、思想和文化实践的交流。今年代表繁荣的海上贸易时期中的一个时点。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自黎凡特和地中海遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "埃及记录提及黎凡特贸易（例如《辛努海的故事》）",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "青铜时代中期II期的黎凡特海上贸易在考古上被充分证实。断代到具体年份不精确，但该时期大致年代为约公元前1750-1550年。",
+      "cross_references": []
+    },
+    {
+      "id": "-1989-003",
+      "title": "商代青铜冶金",
+      "region": "中国（黄河河谷）",
+      "coordinates_approx": "34.5, 108.0",
+      "category": "technological",
+      "description": "商朝以其先进的青铜铸造技术而闻名。青铜容器、武器和礼器被大量生产，用于实用和仪式目的。今年处于商代青铜冶金技术高度成熟的时期，拥有复杂的铸造技术和复杂的纹饰。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自商代遗址的考古证据（青铜器、范模、作坊）",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "提及青铜生产的甲骨文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "商代青铜冶金在考古上被充分证实。然而，将个别发展断代到具体年份不精确。该实践大致年代为商代（传统上前1600-1046年）。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "对于列出事件未发现反证。然而，今年在青铜时代年代学更广泛争论的背景下，其历史事件的具体年代指派仍不确定。",
+  "historiographic_note": "关于公元前1990年的文献稀少，依赖后世编纂、国王列表和考古证据。没有已知来自该具体年份的同时代文字记录。历史记录严重偏向美索不达米亚、埃及和中国；其他地区代表性不足。该时期的年代学不确定性是一个主要限制，竞争的年表相差可达300年。该年的事件指派主要是约定俗成的，反映了青铜时代绝对年代学的普遍不确定性。",
+  "graph_edges": [
+    {
+      "from": "-1989-001",
+      "to": "-1750-001",
+      "relation": "led_to",
+      "note": "巴比伦的法律和行政发展持续贯穿古巴比伦时期"
+    }
+  ]
+}

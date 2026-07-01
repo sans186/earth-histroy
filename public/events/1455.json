@@ -1,0 +1,227 @@
+{
+  "year": 1455,
+  "year_label": "1455年",
+  "era_context": "15世纪中叶是欧洲的转型时期：百年战争刚刚结束（1453年），民族国家正在巩固权力，奥斯曼帝国在征服君士坦丁堡后积极扩张。在东亚，明朝在正统皇帝统治下处于中间统治期。在非洲，葡萄牙探索加速。早期文艺复兴在意大利开始，印刷技术正在从美因茨传播。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（有限的欧洲文献；土著记录稀少）",
+    "东南亚和太平洋（欧洲认知有限）",
+    "中亚（后帖木儿分裂时期记录稀少）",
+    "美洲（无欧洲接触；土著记录无法为西方来源获取）"
+  ],
+  "events": [
+    {
+      "id": "1455-001",
+      "title": "圣奥尔本斯战役：玫瑰战争第一战",
+      "region": "英格兰王国，圣奥尔本斯",
+      "coordinates_approx": "51.75, -0.34",
+      "category": "military",
+      "description": "玫瑰战争是约克家族和兰开斯特家族之间为争夺英格兰王位控制的王朝冲突，其第一次主要交战发生在圣奥尔本斯。萨默塞特公爵被杀，约克公爵成为强大的派系领袖。这场战役标志着三十年内战的开始，这场内战将重塑英格兰政治，并最终导致都铎王朝。冲突源于亨利六世的软弱和相互冲突的王位主张。",
+      "key_figures": [
+        "Richard, Duke of York",
+        "Edmund Beaufort, Duke of Somerset",
+        "Henry VI"
+      ],
+      "sources": [
+        {
+          "name": "Edward Hall，《约克和兰开斯特两个高贵家族的联合》（16世纪初撰写）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "帕斯顿信札（同时期信件）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "英国皇家编年史和议会记录",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "战役在英国当代来源中有充分记载。1455年5月22日的日期可靠。",
+      "cross_references": [
+        "1485-001（博斯沃思战役，玫瑰战争结束）",
+        "1453-001（百年战争结束，英国内部冲突的背景）"
+      ]
+    },
+    {
+      "id": "1455-002",
+      "title": "古腾堡圣经完成（可选日期）",
+      "region": "神圣罗马帝国，美因茨",
+      "coordinates_approx": "50.00, 8.27",
+      "category": "technological",
+      "description": "一些来源将古腾堡圣经（42行圣经）的完成日期定为1455年而非1456年，基于版权页和装订记录的不确定性。作为第一部使用活字印刷的主要书籍，它代表了信息技术史上的一个分水岭时刻。确切的完成日期在学者中仍有争议，证据支持1455年和1456年。",
+      "key_figures": [
+        "Johannes Gutenberg",
+        "Johann Fust",
+        "Peter Schöffer"
+      ],
+      "sources": [
+        {
+          "name": "古腾堡圣经版权页（日期不确定）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "美因茨行会和城市记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "印刷史学术中的历史学争论",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "完成日期在1455年和1456年之间存在争议。现代学术存在分歧；1456年更常被引用，但1455年也有学术支持。",
+      "cross_references": [
+        "1456-004（古腾堡圣经的可选日期）",
+        "1440-001（活字印刷的发明）"
+      ]
+    },
+    {
+      "id": "1455-003",
+      "title": "葡萄牙探索：沿非洲海岸扩张",
+      "region": "西非，葡萄牙大西洋探索",
+      "coordinates_approx": "5.00, -5.00",
+      "category": "exploration",
+      "description": "在恩里克王子赞助下的葡萄牙航海家继续系统探索西非海岸，建立贸易站和堡垒。到1455年，葡萄牙船只已抵达今塞拉利昂和几内亚地区。这些探险由商业利益（黄金、象牙、奴隶）和宗教热情（使非洲人民皈依）驱动。这些航行为葡萄牙在非洲的殖民扩张奠定了基础。",
+      "key_figures": [
+        "Prince Henry the Navigator",
+        "King Afonso V of Portugal",
+        "Various Portuguese navigators and merchants"
+      ],
+      "sources": [
+        {
+          "name": "Gomes Eanes de Zurara，《几内亚发现编年史》（约1453–1460年撰写）",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "葡萄牙王室特许状和贸易许可证",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "葡萄牙海事史的学术共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "葡萄牙探索的总体轨迹有充分记载，但1450年代的具体航行和日期有时被混淆或不确定。1455年是持续扩张的常规日期。",
+      "cross_references": [
+        "1444-001（早期葡萄牙探索）",
+        "1456-003（迪尼斯·迪亚斯抵达佛得角）"
+      ]
+    },
+    {
+      "id": "1455-004",
+      "title": "明朝：正统皇帝统治下的持续巩固",
+      "region": "明朝中国",
+      "coordinates_approx": "39.90, 116.41",
+      "category": "political",
+      "description": "正统皇帝（英宗）在1449年土木堡之变后复位，继续巩固权力。由王振继任者领导的宦官集团等朝廷派系拥有重大影响力。针对北部边境蒙古部落的军事行动继续进行，结果喜忧参半。这一时期见证了文官集团和宦官权力之间的持续紧张。",
+      "key_figures": [
+        "Zhengtong Emperor",
+        "Eunuch faction leaders",
+        "Ming military commanders"
+      ],
+      "sources": [
+        {
+          "name": "明实录（明朝官方编年史）",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "明朝官方宫廷记录和皇帝诏令",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "明朝研究的学术共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "明朝官方记录提供了1455年朝廷政治和军事行动的详细文献。",
+      "cross_references": [
+        "1449-001（土木堡之变和初被废）",
+        "1456-005（正统复位）"
+      ]
+    },
+    {
+      "id": "1455-005",
+      "title": "奥斯曼帝国：君士坦丁堡后的巩固",
+      "region": "奥斯曼帝国，东地中海",
+      "coordinates_approx": "41.01, 28.98",
+      "category": "political",
+      "description": "在1453年征服君士坦丁堡后，穆罕默德二世巩固了奥斯曼对东地中海和巴尔干的控制。奥斯曼海军扩大了对威尼斯和热那亚领地的行动继续。帝国正在重组其行政结构以纳入新征服的领土。这一时期见证了奥斯曼帝国作为地中海主要强国的崛起。",
+      "key_figures": [
+        "Mehmed II",
+        "Ottoman military and administrative officials"
+      ],
+      "sources": [
+        {
+          "name": "奥斯曼编年史和宫廷记录",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "威尼斯和热那亚外交信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "奥斯曼研究的学术共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1455年奥斯曼的巩固在奥斯曼和威尼斯来源中有充分记载。",
+      "cross_references": [
+        "1453-001（君士坦丁堡陷落）",
+        "1456-001（贝尔格莱德围城）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "圣奥尔本斯战役虽然作为玫瑰战争的“第一场”战役具有象征意义，但规模相对较小，并未立即引发持续冲突——1455年至1459年有一段和解尝试时期。战役的意义在后来的都铎史家那里被夸大，他们试图确立一个清晰的王朝斗争叙事。古腾堡圣经的日期仍存在真正的不确定性；版权页未提供明确日期，学术共识已在1455年和1456年之间多次转变。1455年的葡萄牙探索有时被描绘得比实际情况更有组织和系统；许多航行是私人倡议，而非国家指导的远征。",
+  "historiographic_note": "1455年的文献记录在欧洲和奥斯曼帝国为中等，政治和军事事件有良好覆盖。英国来源（帕斯顿信札、编年史）提供了圣奥尔本斯的详细当代记载。奥斯曼和威尼斯来源记载了地中海政治。中国来源（明实录）对朝廷政治有全面记载。非洲来源在幸存西方记录中缺失；葡萄牙探索仅从欧洲视角记载。偏见包括：西方史学中以英国为中心聚焦玫瑰战争，奥斯曼和中国来源中的宫廷赞助叙事，以及完全缺乏非洲土著对葡萄牙接触的看法。",
+  "graph_edges": [
+    {
+      "from": "1455-001",
+      "to": "1485-001",
+      "relation": "led_to",
+      "note": "玫瑰战争的第一场战役导致了在博斯沃思结束的三十年冲突"
+    },
+    {
+      "from": "1455-002",
+      "to": "1456-004",
+      "relation": "contemporary_with",
+      "note": "古腾堡圣经完成日期定为1455年或1456年；两个日期均有可能"
+    },
+    {
+      "from": "1455-003",
+      "to": "1444-001",
+      "relation": "part_of",
+      "note": "葡萄牙大西洋探索计划的延续"
+    },
+    {
+      "from": "1455-004",
+      "to": "1449-001",
+      "relation": "part_of",
+      "note": "土木堡之变后明朝朝廷巩固的延续"
+    },
+    {
+      "from": "1455-005",
+      "to": "1453-001",
+      "relation": "led_to",
+      "note": "奥斯曼巩固紧随征服君士坦丁堡之后"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "year": -1312,
+  "year_label": "公元前1312年",
+  "era_context": "青铜时代晚期，埃及第十八王朝中期，阿蒙霍特普三世统治时期。赫梯帝国在穆尔西里二世领导下继续军事巩固。迈锡尼希腊处于LHIIIB时期。在黎凡特，埃及附庸城邦维持其地位。在中国，商朝继续统治。这一时期代表了青铜时代晚期国际贸易与外交网络的高峰。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "大洋洲",
+    "中亚",
+    "南亚（可同步记录有限）"
+  ],
+  "events": [
+    {
+      "id": "-1312-001",
+      "title": "阿蒙霍特普三世统治持续；神庙建设仍在进行",
+      "region": "埃及（底比斯）",
+      "coordinates_approx": "25.73, 32.64",
+      "category": "cultural",
+      "description": "阿蒙霍特普三世的统治继续以大规模建筑项目和文化成就为标志。神庙、宫殿和纪念性建筑的建造反映了埃及的经济繁荣与中央集权。他的统治被认为是新王国艺术和建筑意义最为重大的时期之一。",
+      "key_figures": [
+        "阿蒙霍特普三世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "卡纳克与卢克索神庙铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "神庙遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "阿蒙霍特普三世的统治通过多项来源得到充分证实。",
+      "cross_references": [
+        "-1314-001",
+        "-1313-001"
+      ]
+    },
+    {
+      "id": "-1312-002",
+      "title": "穆尔西里二世在安纳托利亚和叙利亚的持续军事行动",
+      "region": "赫梯帝国与黎凡特",
+      "coordinates_approx": "40.5, 34.5",
+      "category": "military",
+      "description": "穆尔西里二世继续军事行动，以巩固赫梯对安纳托利亚和叙利亚叛乱领土的控制。他的《编年史》记录了针对各个城邦和地区的系统战役。这些战役旨在维持赫梯霸权并从附庸国征收贡赋。",
+      "key_figures": [
+        "穆尔西里二世（赫梯国王）"
+      ],
+      "sources": [
+        {
+          "name": "穆尔西里二世编年史（楔形文字）",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "穆尔西里二世的统治有充分记载，但特定战役无法始终精确对应具体年份。",
+      "cross_references": [
+        "-1314-002"
+      ]
+    },
+    {
+      "id": "-1312-003",
+      "title": "青铜时代晚期地中海贸易网络达到顶峰",
+      "region": "东地中海（埃及、黎凡特、安纳托利亚、迈锡尼希腊、塞浦路斯）",
+      "coordinates_approx": "35.0, 30.0",
+      "category": "economic",
+      "description": "青铜时代晚期地中海贸易网络达到顶峰，埃及、赫梯帝国、迈锡尼希腊、腓尼基城邦和塞浦路斯之间进行广泛的货物、思想和外交信件交流。商船将锡、铜、雪松、谷物和奢侈品运往地中海各地。这个相互关联的体系将在一个世纪后因青铜时代崩溃而瓦解。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "阿玛尔纳信件（年代稍晚，但描述了这一贸易体系）",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "沉船考古证据（例如乌鲁布伦沉船）",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "描绘外国进贡的埃及神庙浮雕",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "青铜时代晚期贸易网络的存在和范围已通过考古和文字证据得到充分证实。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "将青铜时代晚期描述为一个统一的“国际体系”已受到一些学者的质疑，他们认为贸易网络更为分散，政治一体化程度低于传统假设。此外，青铜时代崩溃（发生在一个世纪后）的原因和机制仍存在争议，一些学者强调气候变化，另一些强调战争，还有一些强调系统性的经济因素。",
+  "historiographic_note": "对于公元前1312年，历史记录以埃及和赫梯史源为主，这些史源通常带有宣传性质。迈锡尼线形文字B泥板提供了行政数据，但不提供叙事历史。绝大多数人类社会在这一年未留下文字记录。考古证据提供了物质文化，但单个年份的精度有限。",
+  "graph_edges": [
+    {
+      "from": "-1312-001",
+      "to": "-1312-003",
+      "relation": "part_of",
+      "note": "埃及的繁荣使其能够参与地中海贸易网络。"
+    },
+    {
+      "from": "-1312-002",
+      "to": "-1312-003",
+      "relation": "contemporary_with",
+      "note": "赫梯军事巩固发生在青铜时代晚期贸易网络的背景下。"
+    }
+  ]
+}

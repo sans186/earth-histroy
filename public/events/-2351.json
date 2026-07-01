@@ -1,0 +1,118 @@
+{
+  "year": -2351,
+  "year_label": "公元前2351年",
+  "era_context": "与-2354、-2353和-2352年相同：埃及古王国处于末期衰落，阿卡德帝国在纳拉姆辛治下达到顶峰，印度河流域文明处于成熟阶段，黎凡特和安纳托利亚处于早期青铜时代III期。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "商代区域以外的东亚",
+    "大洋洲和太平洋地区"
+  ],
+  "events": [
+    {
+      "id": "-2351-001",
+      "title": "埃及古王国：第六王朝最后阶段；地区分裂",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "第六王朝接近结束。中央权威严重削弱。上埃及的诺姆长作为准独立统治者行事。下埃及可能被竞争派别控制。法老征调资源和劳役的能力微乎其微。纪念碑建设停止。向第一中间期的过渡已不可避免。一些学者将第六王朝的正式终结置于此时或随后几年。",
+      "key_figures": [
+        "佩皮二世（如果仍在位）或其继任者"
+      ],
+      "sources": [
+        {
+          "name": "诺姆长的自传铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "第六王朝结束的确切年份不确定，估计范围从前2181年到前2160年不等。公元前2351年按惯例归于这一时期。",
+      "cross_references": [
+        "-2354-001"
+      ]
+    },
+    {
+      "id": "-2351-002",
+      "title": "阿卡德帝国：领土控制达到顶峰；内部紧张加剧",
+      "region": "美索不达米亚、黎凡特、上美索不达米亚、扎格罗斯",
+      "coordinates_approx": "33.3, 44.2",
+      "category": "military",
+      "description": "纳拉姆辛的帝国达到最大领土范围。然而，被征服地区的叛乱频率和强度增加。来自扎格罗斯的高地族群库提人开始对阿卡德控制构成严重威胁。维持如此庞大帝国的行政成本消耗了资源。军事行动变得更加频繁和代价高昂。帝国依然强大，但崩溃的种子正在播下。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德国王）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德王室铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "行政文献和配给单",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治有充分文献依据，但具体的逐年事件并不总是精确断代。",
+      "cross_references": [
+        "-2354-002"
+      ]
+    },
+    {
+      "id": "-2351-003",
+      "title": "印度河流域文明：成熟阶段继续；无扰乱迹象",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "成熟的哈拉帕文明继续繁荣，没有明显扰乱的迹象。城市中心维持着标准的规划布局和基础设施。贸易网络依然活跃。手工业生产继续遵循既定标准。该文明表现出显著的稳定性和连续性。在此期间没有重大政治动荡、战争或环境危机的明显证据。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "考古发掘和地层分析",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "印度河印章和标准砝码",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "成熟的哈拉帕阶段在考古学上有充分证据。从考古记录中难以区分逐年变化。",
+      "cross_references": [
+        "-2354-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现与前2351年具体相关的反驳证据。描述的模式与此时期更广泛的历史轨迹一致。",
+  "historiographic_note": "公元前2351年具体记载依然空白。条目描述了一般历史背景和趋势。公元前第三千年的古代年代学误差在±5—10年，逐年记载非常罕见。该年份的历史记录与-2354、-2353、-2352年基本一致。",
+  "graph_edges": [
+    {
+      "from": "-2351-001",
+      "to": "-2352-001",
+      "relation": "contemporary_with",
+      "note": "埃及衰落的延续"
+    },
+    {
+      "from": "-2351-002",
+      "to": "-2352-002",
+      "relation": "contemporary_with",
+      "note": "阿卡德巩固的延续"
+    },
+    {
+      "from": "-2351-003",
+      "to": "-2352-003",
+      "relation": "contemporary_with",
+      "note": "哈拉帕稳定的延续"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "year": 636,
+  "year_label": "公元636年",
+  "era_context": "哈里发欧麦尔·伊本·哈塔卜领导下的正统哈里发国正快速扩张领土，横跨黎凡特和美索不达米亚。赫拉克略一世治下的拜占庭帝国在与波斯数十年战争后，正失去对原有领土的控制。中国的唐朝在唐太宗（在位626–649年）统治下巩固权力。印度的卡瑙季国王戒日王统治着北方大部。萨珊帝国处于末期衰落。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东南亚",
+    "大洋洲",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "636-001",
+      "title": "雅尔穆克战役",
+      "region": "黎凡特，叙利亚-巴勒斯坦边境",
+      "coordinates_approx": "32.5°N, 35.8°E",
+      "category": "military",
+      "description": "哈里德·伊本·瓦利德率领的正统军与拜占庭-加萨尼联军之间的一场决定性战役。正统军的胜利是征服黎凡特的转折点，有效结束了拜占庭对叙利亚和巴勒斯坦的控制。此战在伊斯兰传统中被誉为最伟大的军事胜利之一。确切地点和日期（636年7月）有充分证据，但部分细节在不同史料中有所不同。",
+      "key_figures": [
+        "哈里德·伊本·瓦利德（正统军将领）",
+        "欧麦尔·伊本·哈塔卜（哈里发）",
+        "瓦汉（拜占庭将领）",
+        "赫拉克略一世（拜占庭皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "塔巴里《历代先知与帝王史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "伊本·阿西尔《全史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "忏悔者塞奥法尼斯《编年史》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "拜占庭行政记录",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "公元636年的雅尔穆克战役在多个独立史料中有充分记载。日期和大致结果已确认。",
+      "cross_references": [
+        "637-001（征服耶路撒冷）",
+        "638-001（欧麦尔访问耶路撒冷）"
+      ]
+    },
+    {
+      "id": "636-002",
+      "title": "卡迪西亚战役（替代日期）",
+      "region": "美索不达米亚，伊拉克",
+      "coordinates_approx": "32.5°N, 44.5°E",
+      "category": "military",
+      "description": "部分现代学者将卡迪西亚战役的日期定为636年而非637年。此战是萨德·伊本·阿比·瓦卡斯率领的正统军与鲁斯塔姆·法罗赫扎德率领的萨珊军之间的一场重大交战，标志着萨珊帝国对美索不达米亚控制终结的开端。此战在伊斯兰传统中被誉为征服伊拉克的转折点。",
+      "key_figures": [
+        "萨德·伊本·阿比·瓦卡斯（正统军将领）",
+        "鲁斯塔姆·法罗赫扎德（萨珊将领）",
+        "欧麦尔·伊本·哈塔卜（哈里发）"
+      ],
+      "sources": [
+        {
+          "name": "塔巴里《历代先知与帝王史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "伊本·阿西尔《全史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "卡迪西亚战役有充分记载，但确切日期有争议。现代学者争论其发生于636年还是637年。",
+      "cross_references": [
+        "637-002（卡迪西亚的替代日期）"
+      ]
+    },
+    {
+      "id": "636-003",
+      "title": "唐太宗巩固唐朝权力",
+      "region": "中国，唐朝",
+      "coordinates_approx": "34.3°N, 109.3°E",
+      "category": "political",
+      "description": "唐太宗（在位626–649年）继续巩固权力并实施行政改革。到636年，唐朝已牢固建立，拥有有效的官僚控制和军事力量。太宗的统治被视为唐朝的黄金时代，以文化繁荣、军事成功和行政创新为标志。",
+      "key_figures": [
+        "唐太宗",
+        "房玄龄（宰相）",
+        "杜如晦（宰相）"
+      ],
+      "sources": [
+        {
+          "name": "《旧唐书》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "行政记录和诏令",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "太宗巩固权力在官方史书中有详细记载。",
+      "cross_references": [
+        "626-001（太宗即位）",
+        "649-001（太宗驾崩）"
+      ]
+    },
+    {
+      "id": "636-004",
+      "title": "戒日王在印度的持续统治与文化赞助",
+      "region": "北印度，卡瑙季",
+      "coordinates_approx": "27.2°N, 78.1°E",
+      "category": "cultural",
+      "description": "卡瑙季国王戒日王继续统治北印度大部，赞助佛教、印度教和梵语文学。他处于统治的最后十年（约647年去世）。戒日王的宫廷是学问和文化的中心，吸引了来自亚洲各地的学者，包括佛教僧侣玄奘。",
+      "key_figures": [
+        "戒日王（戒日伐弹那，卡瑙季国王）",
+        "玄奘（佛教僧侣，访问戒日王宫廷）"
+      ],
+      "sources": [
+        {
+          "name": "玄奘《大唐西域记》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "波那跋陀《戒日王传》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "梵文铭文和铜版赐赠",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "戒日王的统治和赞助在同时代史料中有充分记载。",
+      "cross_references": [
+        "606-001（戒日王即位）",
+        "647-001（戒日王去世）"
+      ]
+    },
+    {
+      "id": "636-005",
+      "title": "萨珊帝国处于末期衰落",
+      "region": "波斯，美索不达米亚",
+      "coordinates_approx": "33.3°N, 44.4°E",
+      "category": "political",
+      "description": "卡迪西亚战役（636或637年）后，萨珊帝国处于末期衰落。这个曾与罗马/拜占庭争雄数个世纪的帝国正被伊斯兰哈里发国取代。皇帝伊嗣俟三世在逃亡中，萨珊对美索不达米亚和黎凡特的控制正在崩溃。",
+      "key_figures": [
+        "伊嗣俟三世（末代萨珊皇帝）",
+        "欧麦尔·伊本·哈塔卜（哈里发）"
+      ],
+      "sources": [
+        {
+          "name": "塔巴里《历代先知与帝王史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "巴列维史料及后期波斯编年史",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "萨珊的衰落有充分记载，尽管各次战役的具体年表有所不同。",
+      "cross_references": [
+        "651-001（伊嗣俟三世之死）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "卡迪西亚战役有时被定为公元637年而非636年；现代学者对确切年份存在争议。部分史料将美索不达米亚战役中的多场战斗混为一谈或混淆。雅尔穆克战役的确切位置在一些学者中存在争议，但大致结果和日期已确认。",
+  "historiographic_note": "公元636年的文献记载中等，但地区差异显著。伊斯兰史料丰富但编纂于数百年后（塔巴里写于9世纪）。拜占庭史料稀少且多为后期编纂。中国史料详细且相对同时代。印度史料主要是文学和铭文。伊斯兰征服叙事可能强调宗教动机和天眷而非政治、经济和军事因素。萨珊视角基本失传，仅存于后期波斯编纂和片段中。拜占庭视角限于后期编纂。撒哈拉以南非洲、北欧、东南亚和美洲在现存记录中缺失。",
+  "graph_edges": [
+    {
+      "from": "636-001",
+      "to": "637-001",
+      "relation": "led_to",
+      "note": "雅尔穆克战役导致征服耶路撒冷"
+    },
+    {
+      "from": "636-002",
+      "to": "639-003",
+      "relation": "led_to",
+      "note": "卡迪西亚战役导致萨珊崩溃"
+    },
+    {
+      "from": "636-003",
+      "to": "649-001",
+      "relation": "led_to",
+      "note": "太宗巩固权力持续到他去世"
+    },
+    {
+      "from": "636-004",
+      "to": "647-001",
+      "relation": "led_to",
+      "note": "戒日王的持续统治以其去世而结束"
+    },
+    {
+      "from": "636-005",
+      "to": "651-001",
+      "relation": "led_to",
+      "note": "萨珊衰落以伊嗣俟三世之死告终"
+    }
+  ]
+}

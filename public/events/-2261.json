@@ -1,0 +1,112 @@
+{
+  "year": -2261,
+  "year_label": "公元前2261年",
+  "era_context": "埃及古王国最后阶段（第六王朝）延续。纳拉姆辛的阿卡德帝国继续统治美索不达米亚。哈拉帕文明继续处于成熟期高峰。这一年处于旧世界相对稳定的时期，尽管潜在紧张因素（气候、资源竞争、行政分裂）正在积累。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "大洋洲",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2261-001",
+      "title": "佩皮二世在埃及统治的延续",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "佩皮二世的统治在这一年继续。这一时期的行政记录显示地方州长的自治权日益增强，精英阶层私人墓葬建造增多，表明权力从法老中心转移。古王国特有的中央集权正在削弱，尽管国家机器仍运转。",
+      "key_figures": [
+        "佩皮二世（Neferkare），埃及法老"
+      ],
+      "sources": [
+        {
+          "name": "地方官员的自传体铭文（例如阿斯旺的哈尔胡夫铭文）",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "行政纸草和记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "没有这一特定年份的事件记录。年代是约定俗成的，与佩皮二世统治的一般情况一样，有±50–100年不确定性。",
+      "cross_references": [
+        "-2260-001"
+      ]
+    },
+    {
+      "id": "-2261-002",
+      "title": "纳拉姆辛治下的阿卡德帝国：行政巩固",
+      "region": "美索不达米亚，阿卡德",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "纳拉姆辛的行政机构正在巩固对被征服领土的控制。阿卡德的行政实践和语言被推行到美索不达米亚和黎凡特。这一时期见证了更加中央集权的官僚体系的发展，尽管地区抵抗和古提人的最终崛起将在几十年内破坏这一体系。",
+      "key_figures": [
+        "纳拉姆辛，阿卡德国王"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德行政文本和铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "苏美尔王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治有充分证据，但没有这一特定年份的事件记录。特征基于其统治的更广泛模式。",
+      "cross_references": [
+        "-2260-002"
+      ]
+    },
+    {
+      "id": "-2261-003",
+      "title": "哈拉帕贸易网络活跃",
+      "region": "印度河流域，波斯湾，美索不达米亚",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "哈拉帕文明与美索不达米亚、波斯湾和中亚保持着广泛的贸易网络。在美索不达米亚遗址中发现了印度河流域的印章和器物，反之亦然。这种贸易对哈拉帕经济至关重要，也为美索不达米亚精英提供了原材料（青金石、红玉髓、木材）。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "在美索不达米亚遗址（如乌尔、拉格什）发现的印度河流域印章和器物的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "提到“梅卢哈”商人的美索不达米亚文本",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域与美索不达米亚之间的贸易在考古上已充分确立。具体年份无记载，但贸易在哈拉帕成熟期是持续的。",
+      "cross_references": [
+        "-2260-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "任何传统中都没有这一年特定事件的记录。以上条目是对更广泛时期的概括。这凸显了公元前3千纪逐年记录的稀少。",
+  "historiographic_note": "历史记录中实际上没有这一年的记载。这些条目代表了对考古和铭文记录中更广泛模式的推断。这一年缺乏特定事件是公元前3千纪的典型情况；逐年精确在后来有更详细行政记录的时期之外很少可能。",
+  "graph_edges": [
+    {
+      "from": "-2261-001",
+      "to": "-2260-001",
+      "relation": "contemporary_with",
+      "note": "佩皮二世统治的延续"
+    },
+    {
+      "from": "-2261-002",
+      "to": "-2260-002",
+      "relation": "contemporary_with",
+      "note": "纳拉姆辛统治的延续"
+    }
+  ]
+}

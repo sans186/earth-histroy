@@ -1,0 +1,117 @@
+{
+  "year": -1698,
+  "year_label": "公元前1699年",
+  "era_context": "中青铜时代持续。美索不达米亚的古巴比伦时期；埃及的中王国（第十二王朝）；爱琴海的米诺斯文明；安纳托利亚的赫梯古王国正在兴起。这是东地中海和近东相对稳定的时期，主要势力之间建立了贸易网络和外交联系。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东亚（中国商朝；详细记录缺失）",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-1698-001",
+      "title": "萨姆苏伊鲁纳在巴比伦的统治持续",
+      "region": "美索不达米亚（巴比伦尼亚）",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "萨姆苏伊鲁纳继续担任巴比伦国王。在此期间，古巴比伦国家面临来自东部卡西特人及其他邻近势力的日益增大的压力。该时期的行政记录显示经济活动持续，包括农业管理、贸易和神庙管理。其统治特征是军事行动以及维护汉谟拉比建立的司法和行政体系。",
+      "key_figures": [
+        "萨姆苏伊鲁纳（巴比伦国王）"
+      ],
+      "sources": [
+        {
+          "name": "楔形文字行政泥板",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "巴比伦王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "萨姆苏伊鲁纳的统治已得到充分证实，但各年份的具体事件在存世文献中很少记载。",
+      "cross_references": [
+        "-1699-001"
+      ]
+    },
+    {
+      "id": "-1698-002",
+      "title": "阿蒙涅姆赫特三世的建筑计划持续进行",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "cultural",
+      "description": "阿蒙涅姆赫特三世继续进行其大规模建筑和艺术赞助。神庙、哈瓦拉迷宫及其他纪念性工程的建筑继续进行。这一时期代表了中王国艺术和建筑成就的高峰。埃及与努比亚、黎凡特和爱琴海的贸易仍然强劲，国家经济资源雄厚。",
+      "key_figures": [
+        "阿蒙涅姆赫特三世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "神庙铭文与建筑遗存",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "埃及行政纸莎草",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿蒙涅姆赫特三世的统治和建筑计划已得到充分证实；逐年事件定年不太精确。",
+      "cross_references": [
+        "-1699-002"
+      ]
+    },
+    {
+      "id": "-1698-003",
+      "title": "米诺斯海上贸易网络活跃",
+      "region": "克里特岛和东地中海",
+      "coordinates_approx": "35.3, 25.1",
+      "category": "economic",
+      "description": "米诺斯文明维持并扩大其在东地中海的海上贸易网络。米诺斯陶器、纺织品和其他商品用于交换原材料（锡、铜、雪松）和奢侈品。贸易联系延伸至埃及、黎凡特、安纳托利亚和希腊大陆。这种贸易是米诺斯繁荣和文化影响力的主要驱动力。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "埃及、黎凡特和爱琴海发现米诺斯陶器和商品的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "提及与“凯夫提乌”（克里特）贸易的埃及记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "米诺斯贸易网络的存在和范围在考古学上已得到充分证实；逐年波动未有记载。",
+      "cross_references": [
+        "-1699-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未确定所列举事件的特定反证。然而，一些学者对米诺斯社会和平、平等的解释提出质疑，他们指出较晚时期存在战争、社会等级和男性主导宗教实践的证据。米诺斯政治集权的程度仍存争议。",
+  "historiographic_note": "该年属于近东和东地中海文献记载较好的时期，但逐年特异性有限。埃及的记载比美索不达米亚的记载更丰富。米诺斯文明主要通过考古学而非文字记录得知。±50–100年的年代不确定性持续存在。",
+  "graph_edges": [
+    {
+      "from": "-1698-001",
+      "to": "-1699-001",
+      "relation": "contemporary_with",
+      "note": "萨姆苏伊鲁纳的统治持续。"
+    },
+    {
+      "from": "-1698-002",
+      "to": "-1699-002",
+      "relation": "contemporary_with",
+      "note": "阿蒙涅姆赫特三世的统治持续。"
+    },
+    {
+      "from": "-1698-003",
+      "to": "-1699-003",
+      "relation": "contemporary_with",
+      "note": "米诺斯贸易网络持续。"
+    }
+  ]
+}

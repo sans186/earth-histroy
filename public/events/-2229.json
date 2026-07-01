@@ -1,0 +1,84 @@
+{
+  "year": -2229,
+  "year_label": "公元前2229年",
+  "era_context": "古王国埃及（第六王朝）在佩皮二世治下处于最后阶段；阿卡德帝国崩溃后美索不达米亚持续分裂；印度河流域文明进入成熟阶段；青铜时代早期社会主导东地中海。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "商代区域以外的东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2229-001",
+      "title": "佩皮二世统治；埃及地方行政管理",
+      "region": "埃及（古王国，第六王朝）",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "佩皮二世继续统治。这一时期以地方权力向诺姆长手中巩固为特征，他们日益控制地方军队、税收与司法。墓室铭文显示诺姆长在努比亚与西奈进行军事征伐。这一权力分配的转移是古王国中央集权最终崩溃的关键因素。",
+      "key_figures": [
+        "佩皮二世（内弗卡拉）——埃及法老"
+      ],
+      "sources": [
+        {
+          "name": "地方总督墓室铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "《都灵王表》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "佩皮二世之统治得到证实，但绝对年代有±50–100年的不确定性。",
+      "cross_references": [
+        "-2225-001",
+        "-2226-001",
+        "-2227-001",
+        "-2228-001"
+      ]
+    },
+    {
+      "id": "-2229-002",
+      "title": "印度河流域文明成熟期",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "印度河流域文明处于成熟阶段。主要城市中心（哈拉帕、摩亨佐达罗、多拉维拉、卡利班甘）展现出先进城市规划、标准度量衡与复杂经济体系。考古证据显示与美索不达米亚、波斯湾及中亚存在广泛贸易网络。该文明惊人的统一性暗示着高度文化与经济整合。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "印度河印章与铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明的存在与年代已通过广泛考古证据充分确立。",
+      "cross_references": [
+        "-2225-002",
+        "-2226-002",
+        "-2227-002",
+        "-2228-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "对所列事件未发现具体反证性证据。",
+  "historiographic_note": "这一年记载贫乏。历史记录依赖墓室铭文以及埃及与印度河流域的考古证据。美索不达米亚记录残缺不全。这一时期世界大部分地区无书面记录留存。",
+  "graph_edges": [
+    {
+      "from": "-2229-001",
+      "to": "-2225-001",
+      "relation": "contemporary_with",
+      "note": "佩皮二世统治延续"
+    }
+  ]
+}

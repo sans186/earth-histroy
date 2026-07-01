@@ -1,0 +1,52 @@
+{
+  "year": -3166,
+  "year_label": "公元前3166年",
+  "era_context": "青铜时代早期。埃及第一王朝继续巩固中央集权统治。美索不达米亚城邦，尤其是乌鲁克，正处于文化和经济影响力的顶峰。印度河流域处于定居点扩张的早期阶段。整个近东地区的文字系统正在积极发展中。",
+  "documentation_level": "极少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "黄河以外的东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-3166-001",
+      "title": "埃及第一王朝行政扩张",
+      "region": "埃及（尼罗河谷）",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "第一王朝下埃及中央集权行政体制的持续发展。来自陵墓铭文和行政记录的证据表明国家对资源、劳动力和贸易的控制在扩大。法老国家正在巩固其对纪念性建筑和长途贸易的垄断，特别是与黎凡特和努比亚的贸易。",
+      "key_figures": [
+        "法老（身份不确定）"
+      ],
+      "sources": [
+        {
+          "name": "来自第一王朝墓葬和定居点的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "帕勒莫石碑（后期铭文记录）",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "年代学不确定性为±50-100年；个人的统治归属是推测性的。",
+      "cross_references": [
+        "-3165-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "今年没有特定事件记录；上述条目代表了更广泛趋势的普遍延续。公元前3166年与公元前3165年相比缺少特定记录，反映出早王朝时期埃及文献的粗时间分辨率，而非任何历史断裂。",
+  "historiographic_note": "今年处于文献极度稀疏的时期。没有任何同时代文字记录明确指出公元前3166年的事件。所有推断都基于考古地层学和后期的编纂材料。这一年的历史记录与相邻年份基本无法区分。",
+  "graph_edges": [
+    {
+      "from": "-3166-001",
+      "to": "-3165-001",
+      "relation": "contemporary_with",
+      "note": "并行的行政巩固"
+    }
+  ]
+}

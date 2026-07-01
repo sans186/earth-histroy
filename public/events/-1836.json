@@ -1,0 +1,68 @@
+{
+  "year": -1836,
+  "year_label": "公元前1837年",
+  "era_context": "埃及第二中间期持续；美索不达米亚古巴比伦时期，萨姆苏伊鲁纳统治；印度河流域文明成熟期；安纳托利亚赫梯古王国；中国商代早期（传统年代，但有争议）。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中美洲",
+    "北欧",
+    "太平洋和大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-1836-001",
+      "title": "巴比伦的萨姆苏伊鲁纳统治持续",
+      "region": "美索不达米亚（巴比伦）",
+      "coordinates_approx": "32.5352, 44.4218",
+      "category": "political",
+      "description": "萨姆苏伊鲁纳继续统治巴比伦，维持行政和军事控制。这一时期的楔形文字文档记录了法律诉讼、土地交易和庙宇活动。统治时期代表了古巴比伦王朝的巩固阶段，尽管来自加喜特人和其他群体的外部压力正在加剧。",
+      "key_figures": [
+        "萨姆苏伊鲁纳（巴比伦国王）"
+      ],
+      "sources": [
+        {
+          "name": "楔形文字行政文档",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "萨姆苏伊鲁纳的统治有记载，但绝对年代因古巴比伦研究的年代学争论而不确定。",
+      "cross_references": [
+        "-1835-001"
+      ]
+    },
+    {
+      "id": "-1836-002",
+      "title": "印度河流域文明的贸易和城市活动",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "印度河流域文明维持着广泛的贸易网络。考古证据显示与美索不达米亚、波斯湾和中亚的联系。标准化砝码衡量促进了商业。带有未解读文字的印章可能用于交易。文明的经济系统似乎高度组织化，但政治结构仍不清楚。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自印度河遗址的贸易品和印章的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "贸易网络通过外国货物和标准化砝码的考古证据得到充分确立。",
+      "cross_references": [
+        "-1835-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现特定的反驳证据。但如上所述，这一年的总体年代框架仍有争议。",
+  "historiographic_note": "在重大记载事件方面，这一年与公元前1835年基本没有区别。这一时期的史料很薄，主要依赖行政文档和考古地层学。现有资料中未具体记载这一年的重大政治动荡、军事战役或文化转变。",
+  "graph_edges": [
+    {
+      "from": "-1836-001",
+      "to": "-1835-001",
+      "relation": "contemporary_with",
+      "note": "萨姆苏伊鲁纳统治持续。"
+    }
+  ]
+}

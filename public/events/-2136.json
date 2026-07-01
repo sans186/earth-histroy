@@ -1,0 +1,108 @@
+{
+  "year": -2136,
+  "year_label": "前2136年",
+  "era_context": "埃及古王国处于最后几年。阿卡德依然强大，但面临日益增长的内部和外部压力。哈拉帕文明稳定和繁荣。这是一个表面上连续但掩盖着即将到来的转变的时期。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "大洋洲",
+    "东亚"
+  ],
+  "events": [
+    {
+      "id": "-2136-001",
+      "title": "佩皮二世统治：古王国集权的最后阶段",
+      "region": "埃及（古王国，第六王朝）",
+      "coordinates_approx": "30.8°N, 31.1°E",
+      "category": "political",
+      "description": "佩皮二世的统治继续，尽管他现在已非常年迈（如果传统的94年统治期准确的话）。中央政府的权威明显削弱；地方州长行使越来越大的独立性。从古王国向第一中间期的过渡迫在眉睫。佩皮二世的去世将引发中央权威的迅速崩溃，以及埃及分裂为相互竞争的区域势力。",
+      "key_figures": [
+        "佩皮二世，埃及法老"
+      ],
+      "sources": [
+        {
+          "name": "王表和后来编年史",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "地方官员的墓葬铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "佩皮二世的统治在王表中得到证实，但确切长度和结束日期存在争议。-2136是根据传统年表分配的。",
+      "cross_references": [
+        "紧随第一中间期之前（约-2184到-2055）"
+      ]
+    },
+    {
+      "id": "-2136-002",
+      "title": "阿卡德的纳拉姆辛：帝国达到最大范围",
+      "region": "美索不达米亚、黎凡特、安纳托利亚、波斯湾（阿卡德帝国）",
+      "coordinates_approx": "33.3°N, 44.4°E",
+      "category": "political",
+      "description": "纳拉姆辛的帝国达到最大领土范围，控制美索不达米亚、黎凡特、安纳托利亚部分地区和波斯湾地区。他的铭文宣称他的神性和军事才能。然而，帝国正面临来自叛乱和外部威胁的日益增长的压力。古提人从东北施加压力；被征服民族不安。帝国的行政和军事资源被拉伸以维持对如此广阔领土的控制。",
+      "key_figures": [
+        "纳拉姆辛，阿卡德国王"
+      ],
+      "sources": [
+        {
+          "name": "王室铭文和行政文献",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "纳拉姆辛胜利石碑",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治和帝国范围得到充分证实。具体年份-2136是根据传统年表分配的。",
+      "cross_references": [
+        "先于阿卡德的迅速崩溃约-2154到-2150"
+      ]
+    },
+    {
+      "id": "-2136-003",
+      "title": "哈拉帕文明：成熟阶段的稳定性",
+      "region": "印度河流域（现代巴基斯坦和印度西北部）",
+      "coordinates_approx": "27.0°N, 68.0°E",
+      "category": "cultural",
+      "description": "哈拉帕文明继续其成熟阶段，没有明显干扰。城市中心充分发展，贸易网络广泛，物质文化显示连续性。考古证据未显示出任何环境压力、战争或社会动荡的迹象。文明将再保持稳定200多年，然后开始逐渐衰落。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "哈拉帕、摩亨佐达罗等遗址发掘的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "成熟阶段哈拉帕文明的稳定性已通过考古学充分证实。",
+      "cross_references": [
+        "成熟哈拉帕阶段的一部分（约公元前2600–1900年）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "没有针对所列事件的反证。然而，佩皮二世去世和古王国结束的定年存在争议；一些学者将其置于传统年表所暗示的日期之前或之后。",
+  "historiographic_note": "-2136的文献与前几年相似：王表、王室铭文和考古证据。古代文献缺乏逐年的精确定年，意味着事件经常被分配到时期或统治期。埃及文献以精英为中心，强调王室权威；普通人的经历基本不可见。美索不达米亚文献同样有偏见。由于文字未破译，印度河流域文明基本保持沉默。",
+  "graph_edges": [
+    {
+      "from": "-2136-001",
+      "to": "-2135-PEPI_II_DEATH",
+      "relation": "precedes",
+      "note": "佩皮二世的去世即将发生；古王国将随之迅速崩溃"
+    },
+    {
+      "from": "-2136-002",
+      "to": "-2154-AKKAD_COLLAPSE",
+      "relation": "precedes",
+      "note": "纳拉姆辛的帝国将在约18年内崩溃"
+    }
+  ]
+}

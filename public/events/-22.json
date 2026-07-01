@@ -1,0 +1,107 @@
+{
+  "year": -22,
+  "year_label": "公元前22年",
+  "era_context": "奥古斯都元首制早期，内战结束后权力巩固。帕提亚帝国统治近东。中国在西汉宣帝统治下处于最后几十年。埃及是罗马行省。希腊化世界逐渐被纳入罗马霸权。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（有限文字资料）",
+    "罗马边境以北的北欧（稀疏考古记录）",
+    "美洲内陆（无文字记录）"
+  ],
+  "events": [
+    {
+      "id": "-22-001",
+      "title": "西班牙的坎塔布里亚战争",
+      "region": "西班牙（西班牙和葡萄牙），特别是坎塔布里亚和卢西塔尼亚",
+      "coordinates_approx": "43.0, -4.0",
+      "category": "military",
+      "description": "坎塔布里亚战争（公元前29-19年）在奥古斯都的指挥下继续进行。罗马军队致力于征服西班牙西北部最后的独立部落。战役艰难而持久，涉及山地作战，抵抗激烈。到公元前22年，罗马人正在取得进展，接近最终胜利。",
+      "key_figures": [
+        "奥古斯都（罗马皇帝）",
+        "坎塔布里亚和卢西塔尼亚部落（抵抗力量）"
+      ],
+      "sources": [
+        {
+          "name": "《奥古斯都功德碑》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "狄奥·卡西乌斯《罗马史》第54卷",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "坎塔布里亚战争有详细记载，但逐年进展的具体情况不确定。",
+      "cross_references": [
+        "延续自-23-001",
+        "导致-21-001"
+      ]
+    },
+    {
+      "id": "-22-002",
+      "title": "奥古斯都的健康危机与继承担忧",
+      "region": "罗马，意大利",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "公元前23年（有些来源认为是公元前22年）奥古斯都身患重病，引发了关于继承的紧迫问题。皇帝四十出头，但没有成年的儿子。他考虑收养侄子马塞卢斯（他女儿茱莉亚的丈夫）为继承人。这场继承危机揭示了元首制的脆弱性以及缺乏明确的权力移交宪法程序。危机随着奥古斯都的康复而解决，但这凸显了制定明确继承计划的必要性。",
+      "key_figures": [
+        "奥古斯都（罗马皇帝）",
+        "马塞卢斯（侄子和潜在继承人）",
+        "茱莉亚（奥古斯都之女）"
+      ],
+      "sources": [
+        {
+          "name": "狄奥·卡西乌斯《罗马史》第54卷",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "苏埃托尼乌斯《奥古斯都传》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "奥古斯都患病有充分证据，但确切日期有争议（公元前23年或22年）。继承危机有清晰记载。",
+      "cross_references": [
+        "导致-23-002（马塞卢斯之死）"
+      ]
+    },
+    {
+      "id": "-22-003",
+      "title": "汉宣帝统治下的西汉宫廷政治",
+      "region": "中国，汉帝国",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "汉宣帝（公元前74-49年在位）在其统治中期继续巩固权力。围绕潜在继承人形成了宫廷派系，外戚和宦官的影响力日益增长。王朝的稳定日益依赖于皇帝的个人权威。",
+      "key_figures": [
+        "汉宣帝",
+        "外戚和朝廷官员"
+      ],
+      "sources": [
+        {
+          "name": "班固《汉书》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "汉廷政治在中国编年史中有记载，但公元前22年的具体事件日期不详。",
+      "cross_references": [
+        "相关于-20-004"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "奥古斯都患病日期有争议：有些来源认为是公元前23年，另一些认为是公元前22年。坎塔布里亚战争的逐年进展不确定。",
+  "historiographic_note": "公元前22年通过后世历史学家的记载在罗马世界有中等程度的文献记录。中文资料丰富，但往往是在事件发生数世纪后编纂的。西方中心偏见显著：地中海和中国的发展有充分记载，而撒哈拉以南非洲、北欧和美洲则不可见。资料来源通常是回顾性的。",
+  "graph_edges": [
+    {
+      "from": "-22-002",
+      "to": "-23-002",
+      "relation": "led_to",
+      "note": "奥古斯都的继承危机导致了公元前23年马塞卢斯之死"
+    }
+  ]
+}

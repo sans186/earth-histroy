@@ -1,0 +1,80 @@
+{
+  "year": -1311,
+  "year_label": "公元前1311年",
+  "era_context": "青铜时代晚期，埃及第十八王朝中期，阿蒙霍特普三世统治时期。赫梯帝国在穆尔西里二世领导下巩固权力。迈锡尼希腊处于LHIIIB时期。黎凡特处于埃及宗主权之下。这一时期代表了青铜时代晚期国际关系与贸易的顶峰。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "大洋洲",
+    "中亚",
+    "南亚"
+  ],
+  "events": [
+    {
+      "id": "-1311-001",
+      "title": "阿蒙霍特普三世统治达到鼎盛",
+      "region": "埃及",
+      "coordinates_approx": "25.73, 32.64",
+      "category": "political",
+      "description": "阿蒙霍特普三世的统治继续代表埃及权力与繁荣的顶峰。他的长期统治（约公元前1390–1352年）见证了埃及领土范围和经济实力的巅峰。他与外国统治者的外交通信（保存在阿玛尔纳信件中，尽管年代定位于其继任者时期）展示了埃及在青铜时代晚期国际关系中的核心作用。",
+      "key_figures": [
+        "阿蒙霍特普三世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "埃及神庙铭文与浮雕",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "曼涅托的王表（后世编纂）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "阿蒙霍特普三世的统治通过多项来源得到充分证实。",
+      "cross_references": [
+        "-1314-001",
+        "-1313-001",
+        "-1312-001"
+      ]
+    },
+    {
+      "id": "-1311-002",
+      "title": "商朝甲骨占卜与行政管理",
+      "region": "中国（黄河流域）",
+      "coordinates_approx": "34.5, 114.5",
+      "category": "cultural",
+      "description": "中国的商朝继续统治黄河流域。这一时期的甲骨文记录了占卜实践、王室狩猎和行政事务。商朝（约公元前1600–1046年）代表了第一个有历史记载的中国文明，但具体年份的精确年代仍不确定。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "甲骨文（jiaguwen）",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "安阳考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "商朝的存在已得到证实，但具体年份的精确年代不确定。甲骨文提供了当代记录，但其年代归属存在争议。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "阿蒙霍特普三世统治的日期仍存在学术争议，一些埃及学家根据天文计算和碳十四测年将其略微提前或推迟。青铜时代晚期的“高编年”和“低编年”相差可达50–100年。此外，埃及对黎凡特的控制程度在埃及史源中有时被夸大；一些学者认为埃及霸权更多是名义上的而非直接的。",
+  "historiographic_note": "对于公元前1311年，文字记录仅限于埃及、赫梯帝国以及来自中国的零星证据。埃及史源占主导地位且通常带有宣传性质。商朝甲骨文提供了当代记录，但难以精确断代。绝大多数人类社会未留下可同步的文字记录。",
+  "graph_edges": [
+    {
+      "from": "-1311-001",
+      "to": "-1310-001",
+      "relation": "part_of",
+      "note": "阿蒙霍特普三世的统治延续至下一年。"
+    }
+  ]
+}

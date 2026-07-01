@@ -1,0 +1,74 @@
+{
+  "year": -761,
+  "year_label": "公元前761年",
+  "era_context": "沙尔马那塞尔五世统治下的新亚述帝国继续其霸权。希腊古风时期继续进行文化和政治发展。在中国，春秋时期继续，地区诸侯国相互竞争。埃及在利比亚和努比亚王朝下仍然分裂。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-761-001",
+      "title": "沙尔马那塞尔五世统治与亚述帝国整合",
+      "region": "美索不达米亚、黎凡特",
+      "coordinates_approx": "35.5, 34.5",
+      "category": "political",
+      "description": "沙尔马那塞尔五世统治（公元前727–722年）继续定义新亚述帝国的政治和军事结构。基于行省组织和大规模驱逐被征服人口的亚述行政体系全面运作。这一体系确保亚述对广阔领土和多样人口的控制，创建了一种将影响后世帝国的帝国管理模式。",
+      "key_figures": [
+        "沙尔马那塞尔五世（亚述国王）"
+      ],
+      "sources": [
+        {
+          "name": "亚述王室年鉴（楔形文字铭文）",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "沙尔马那塞尔五世的统治在亚述记录中得到充分证实。其统治的总体结构有明确记载。",
+      "cross_references": [
+        "-764-001",
+        "-763-001",
+        "-762-001"
+      ]
+    },
+    {
+      "id": "-761-002",
+      "title": "希腊文化发展与字母的出现",
+      "region": "希腊、地中海",
+      "coordinates_approx": "38.5, 23.0",
+      "category": "cultural",
+      "description": "在古风时期，希腊字母（改编自腓尼基文字）变得越来越标准化和广泛使用。这一发展发生在公元前8世纪和7世纪，对希腊文学、行政和文化的发展至关重要。读写能力的传播促进了法律、诗歌和历史叙述的记录，改变了希腊社会。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自陶器和石器上铭文的考古证据",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "希罗多德，《历史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "希腊字母的采用发生在公元前8–7世纪逐渐进行。标准化的确切时间不确定。考古证据表明这一时期字母的使用在增加。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的重大否定性证据。然而，希腊字母采用和标准化的确切年代学存在争议；一些学者主张更早或更晚的日期。",
+  "historiographic_note": "公元前761年的文献记载与此批次前几年类似：总体中等，丰富的亚述资料、稀疏的希腊资料和中等的中国资料。记录仍然严重偏向近东和地中海。",
+  "graph_edges": [
+    {
+      "from": "-761-001",
+      "to": "-764-001",
+      "relation": "part_of",
+      "note": "沙尔马那塞尔五世统治和亚述霸权的延续"
+    }
+  ]
+}

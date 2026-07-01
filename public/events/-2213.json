@@ -1,0 +1,95 @@
+{
+  "year": -2213,
+  "year_label": "公元前2213年",
+  "era_context": "乌尔第三王朝在美索不达米亚达到鼎盛；埃及第一中间期地区分裂；印度河流域文明处于成熟期；爱琴海和安纳托利亚处于青铜时代早期。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东南亚和大洋洲",
+    "美洲",
+    "北欧和草原地带"
+  ],
+  "events": [
+    {
+      "id": "-2213-001",
+      "title": "阿马尔-辛统治：军事与行政活动",
+      "region": "美索不达米亚（苏美尔）",
+      "coordinates_approx": "31.0°N, 46.1°E",
+      "category": "political",
+      "description": "阿马尔-辛继续他的统治，进行军事行动和行政巩固。楔形文字记录记载了乌尔第三王朝国家的组织，包括神庙管理、劳动力组织和军队维持。国王的权威通过宗教仪式以及神庙和行政建筑的建设得到加强。乌尔第三王朝时期代表了苏美尔文明行政精细化的顶峰。",
+      "key_figures": [
+        "阿马尔-辛（乌尔国王）"
+      ],
+      "sources": [
+        {
+          "name": "乌尔第三王朝楔形文字行政文书",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "阿马尔-辛的统治在同时代楔形文字记录中有大量记载。",
+      "cross_references": [
+        "-2210-001",
+        "-2211-001",
+        "-2212-001"
+      ]
+    },
+    {
+      "id": "-2213-002",
+      "title": "印度河流域文明：标准化度量衡",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0°N, 68.0°E",
+      "category": "technological",
+      "description": "印度河流域文明在其广阔领土内展现出惊人的重量、度量和砖块尺寸标准化。考古证据表明使用了十进制重量系统和对几何与测量的深刻理解。这种标准化促进了贸易，并暗示了高度的中央协调或共享的文化规范。该文明的技术成就包括先进的冶金、制陶和城市规划。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址出土的标准化砝码、尺度和砖块考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "标准化通过对文物的分析在考古学上得到了充分证明。",
+      "cross_references": [
+        "-2210-002",
+        "-2211-002",
+        "-2212-002"
+      ]
+    },
+    {
+      "id": "-2213-003",
+      "title": "埃及第一中间期：第十一王朝扩张",
+      "region": "上埃及",
+      "coordinates_approx": "25.7°N, 32.6°E",
+      "category": "political",
+      "description": "第十一王朝继续在上埃及巩固和扩张势力。考古和文字证据表明有军事行动，底比斯控制范围逐渐向北扩展。这一时期最终将导致中王国时期埃及的重新统一。该王朝日益增长的实力反映在墓葬铭文和行政文书中。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "埃及墓葬铭文与行政文书",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "第十一王朝的扩张在埃及文献中有记载，但绝对年代不确定（±50年）。",
+      "cross_references": [
+        "-2210-003",
+        "-2211-003",
+        "-2212-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件无具体反证。年代框架仍有学者争议。",
+  "historiographic_note": "这一年与前三年基本连续。逐年历史对于古代世界没有意义，重大发展往往跨数十年或数世纪。历史记录仍严重集中在美索不达米亚和埃及。",
+  "graph_edges": [
+    {
+      "from": "-2213-001",
+      "to": "-2212-001",
+      "relation": "contemporary_with",
+      "note": "阿马尔-辛的统治延续"
+    }
+  ]
+}

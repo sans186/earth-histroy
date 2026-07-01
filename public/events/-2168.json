@@ -1,0 +1,112 @@
+{
+  "year": -2168,
+  "year_label": "公元前2168年",
+  "era_context": "埃及古王国晚期分裂和阿卡德在美索不达米亚的帝国统治继续。印度河流域文明保持在城市发展高峰。黎凡特和安纳托利亚的早期青铜时代III期继续。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚仅有甲骨文记录",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2168-001",
+      "title": "埃及古王国分裂继续；地方精英巩固",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "第六王朝的权威继续减弱。上埃及（阿斯旺、阿拜多斯、底比斯）和下埃及（孟菲斯地区）的行省总督（州长）日益作为自主统治者行事，维持自己的军队和贸易网络。王室建筑项目减少；精英墓室建造从王室赞助转向地方赞助。中央行政机构征税和征发劳役的能力严重受损。",
+      "key_figures": [
+        "佩皮二世（法老，第六王朝，传统统治）"
+      ],
+      "sources": [
+        {
+          "name": "地方官员墓室传记（阿斯旺、阿拜多斯）",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "王室纪念建筑减少（考古证据）",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "佩皮二世统治期内的年代不确定；此年份按惯例在更广泛的分裂时期内分配。",
+      "cross_references": [
+        "-2169-001"
+      ]
+    },
+    {
+      "id": "-2168-002",
+      "title": "纳拉姆辛统治下的阿卡德在扎格罗斯和黎凡特的军事行动继续",
+      "region": "美索不达米亚、扎格罗斯山脉、黎凡特",
+      "coordinates_approx": "34.0, 33.0",
+      "category": "military",
+      "description": "纳拉姆辛的铭文记录了对卢卢比人（扎格罗斯）和其他高地民族的持续战役。纳拉姆辛胜利碑以神化形式描绘国王，暗示着统治者的神化——这是一次重大的意识形态转变。阿卡德对贸易路线和资源开采（木材、石料、金属）的控制仍然很强，但被征服领土的抵抗正在增加。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德国王）"
+      ],
+      "sources": [
+        {
+          "name": "纳拉姆辛胜利碑与王室铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "楔形文字行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的战役有充分记录；统治期内的定年可靠。",
+      "cross_references": [
+        "-2169-002"
+      ]
+    },
+    {
+      "id": "-2168-003",
+      "title": "印度河流域文明：与美索不达米亚的海上贸易继续",
+      "region": "印度河流域、波斯湾、美索不达米亚",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "印度河流域与美索不达米亚（阿卡德）之间的贸易继续繁荣。在美索不达米亚遗址发现的印度河印章和度量衡表明标准化的商业交换。印度河文明的港口（可能是洛塔尔和其他沿海遗址）促进了木材、象牙、天青石和其他奢侈品的贸易。由于文字未破译，该文明的内部组织仍不透明。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "美索不达米亚遗址中印度河印章的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "提到‘美卢哈’的美索不达米亚文献",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "贸易网络已由考古证实；绝对年代为±50-100年。",
+      "cross_references": [
+        "-2169-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现具体反证。然而，后期第六王朝的更广泛年表仍存在争议，一些学者提出显著不同的统治长度和日期。",
+  "historiographic_note": "这一年属于埃及文字记录稀少的时期。历史记录通过墓室铭文、行政碎片和后来的王表重建。美索不达米亚的记录更丰富，但集中在南部城邦。印度河流域在考古上已知，但在历史上不透明。",
+  "graph_edges": [
+    {
+      "from": "-2168-001",
+      "to": "-2169-001",
+      "relation": "part_of",
+      "note": "古王国分裂的延续"
+    },
+    {
+      "from": "-2168-002",
+      "to": "-2169-002",
+      "relation": "part_of",
+      "note": "阿卡德帝国战役的延续"
+    }
+  ]
+}

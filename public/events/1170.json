@@ -1,0 +1,202 @@
+{
+  "year": 1170,
+  "year_label": "公元1170年",
+  "era_context": "12世纪末，阿尤布苏丹国在萨拉丁领导下巩固黎凡特和埃及的权力；拜占庭帝国日益衰弱；中国宋朝处于成熟阶段；西欧由安茹帝国、神圣罗马帝国和各种封建王国主导。黎凡特的十字军国家面临穆斯林势力的日益压力。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（有限的文字资料）",
+    "东南亚（稀疏的当代文献）",
+    "大洋洲和太平洋岛屿（可忽略的文字记录）"
+  ],
+  "events": [
+    {
+      "id": "1170-001",
+      "title": "诺曼入侵爱尔兰：理查·德·克莱尔（Strongbow）登陆爱尔兰",
+      "region": "爱尔兰、威尔士",
+      "coordinates_approx": "52.2655, -6.1537",
+      "category": "military",
+      "description": "彭布罗克伯爵二世理查·德·克莱尔，绰号 Strongbow，率领诺曼军队登陆爱尔兰，支持被废黜的伦斯特国王迪亚尔梅特·麦克·默查达。这次入侵标志着诺曼征服爱尔兰的开始，以及持续数个世纪的英国殖民统治的确立。Strongbow 的军队迅速取得军事成功，占领了沃特福德和都柏林，Strongbow 娶了迪亚尔梅特的女儿埃娃，确保了对伦斯特的继承权。入侵将封建结构和诺曼军事技术引入爱尔兰，从根本上改变了该岛的政治和社会面貌。",
+      "key_figures": [
+        "彭布罗克伯爵二世理查·德·克莱尔（Strongbow）",
+        "迪亚尔梅特·麦克·默查达（伦斯特国王）",
+        "埃娃·麦克·默查达（迪亚尔梅特之女）"
+      ],
+      "sources": [
+        {
+          "name": "吉拉尔杜斯·坎布伦西斯（威尔士的杰拉尔德），《征服爱尔兰》（Expugnatio Hibernica）",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "《四大师年鉴》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "霍维登的罗杰，《编年史》",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Strongbow 于1170年的入侵在多个来源中确凿可证。日期在当代和近当代编年史中牢固确立。",
+      "cross_references": [
+        "Led to 1171-003 (Henry II's arrival in Ireland)",
+        "Part of broader Norman expansion in the 12th century"
+      ]
+    },
+    {
+      "id": "1170-002",
+      "title": "坎特伯雷大主教托马斯·贝克特被谋杀",
+      "region": "英格兰，坎特伯雷",
+      "coordinates_approx": "51.2798, 1.0830",
+      "category": "religious",
+      "description": "1170年12月29日，坎特伯雷大主教托马斯·贝克特在坎特伯雷大教堂被四名骑士——雷金纳德·菲茨厄斯、休·德·莫维尔、威廉·德·特雷西和理查·勒·布雷顿——杀害，他们相信这是在执行国王亨利二世的意愿。贝克特曾与亨利二世就教会权利和特权发生冲突，国王所谓的抱怨“就没有人能为我摆脱这个动荡的教士吗？”（或类似话语）被解释为命令。贝克特之死震惊了基督教世界，导致他于1173年迅速封圣，并成为世俗与教会权威冲突的象征。这一事件损害了亨利二世的声誉，并导致他于1174年公开忏悔。",
+      "key_figures": [
+        "托马斯·贝克特（坎特伯雷大主教）",
+        "亨利二世（英格兰国王）",
+        "雷金纳德·菲茨厄斯、休·德·莫维尔、威廉·德·特雷西、理查·勒·布雷顿（凶手）"
+      ],
+      "sources": [
+        {
+          "name": "威廉·菲茨斯蒂芬，《托马斯·贝克特传》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "霍维登的罗杰，《编年史》",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "坎特伯雷的威廉，《圣托马斯奇迹》",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "贝克特于1170年12月29日被谋杀是12世纪记载最详尽的事件之一，有多个当代目击者记述。",
+      "cross_references": [
+        "Led to 1173-002 (Becket's canonization)",
+        "Related to 1171-002 (Henry II's conflicts with his sons)"
+      ]
+    },
+    {
+      "id": "1170-003",
+      "title": "萨拉丁巩固在埃及和叙利亚的权力",
+      "region": "埃及、叙利亚，阿尤布苏丹国",
+      "coordinates_approx": "33.3128, 44.3615",
+      "category": "political",
+      "description": "萨拉丁继续巩固他在埃及的权力，并开始将阿尤布控制扩展到叙利亚。到1170年，他已稳固了埃及维齐尔的地位，并着手消除包括赞吉王朝在内的竞争势力。他的战役被框定为一项团结穆斯林世界对抗十字军国家的宗教使命。这一时期见证了阿尤布苏丹国转变为统治东地中海数十年的主要地区力量。",
+      "key_figures": [
+        "萨拉丁（阿尤布苏丹）",
+        "努尔·丁（赞吉统治者，卒于1174年）"
+      ],
+      "sources": [
+        {
+          "name": "伊本·阿西尔，《全史》（al-Kāmil fī al-Tārīkh）",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "伊马德·丁·伊斯法罕尼，《征服埃及》（Fatḥ al-Qusṣ）",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "萨拉丁崛起的大致轨迹有充分记载，尽管1170年具体事件在现存资料中有时与相邻年份混淆。",
+      "cross_references": [
+        "Led to 1171-001 (Overthrow of the Fatimid Caliphate)",
+        "Led to 1187-001 (Conquest of Jerusalem)"
+      ]
+    },
+    {
+      "id": "1170-004",
+      "title": "小亨利加冕为英格兰共治国王",
+      "region": "英格兰",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "political",
+      "description": "亨利二世的长子小亨利于1170年6月14日在温彻斯特大教堂加冕为英格兰共治国王。这次加冕旨在确保继承并满足小亨利的野心，但却造成了父子之间权力分配的混乱。小亨利获得了头衔和一些收入，但缺乏实际权威，导致沮丧并促成了1173–1174年大叛乱爆发的紧张局势。",
+      "key_figures": [
+        "亨利二世（英格兰国王）",
+        "小亨利（共治国王）",
+        "约克大主教（主持加冕）"
+      ],
+      "sources": [
+        {
+          "name": "霍维登的罗杰，《编年史》",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "纽堡的威廉，《英国事务史》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "小亨利于1170年的加冕在当代编年史中有充分记载。1170年6月14日的日期牢固确立。",
+      "cross_references": [
+        "Led to 1171-002 (Tensions between Henry II and his sons)",
+        "Led to 1173-001 (Great Rebellion of 1173–1174)"
+      ]
+    },
+    {
+      "id": "1170-005",
+      "title": "宋朝的海军扩张与海上贸易",
+      "region": "宋朝，中国，南海",
+      "coordinates_approx": "30.2741, 120.1551",
+      "category": "economic",
+      "description": "在1170年代，宋朝正处于其海上力量和商业扩张的顶峰。中国商人和宋朝海军主导了南海和印度洋的贸易路线。宋朝政府通过建立贸易港口和规范海上贸易积极促进海上商业。这一时期见证了中国造船技术的繁荣，包括指南针的发展和先进的航海技术。宋朝的海上霸权对其经济繁荣和文化影响做出了重要贡献。",
+      "key_figures": [
+        "宋孝宗（在位1163–1189）"
+      ],
+      "sources": [
+        {
+          "name": "《宋史》，元朝编纂",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "关于宋朝海上贸易的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "宋朝的海上扩张在中方资料中有充分记载，尽管1170年具体事件常作为更广泛趋势的一部分而非离散事件呈现。",
+      "cross_references": [
+        "Part of Song Dynasty's economic and cultural flourishing (960–1279)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "托马斯·贝克特被谋杀有时被呈现为一次自发的暴力行为，但现代学术强调复杂的政治背景以及贝克特与亨利二世之间关于教会特权的长期冲突。Strongbow 入侵的传统叙述是迅速的军事征服，忽略了诺曼扩张的渐进性和爱尔兰抵抗的持续性。小亨利的加冕有时被描绘为直接的继承安排，但它实际上造成了权力共享的模糊性，导致了家庭冲突。宋朝的海上霸权在流行叙述中有时被夸大；虽然宋朝确实是主要海上力量，但他们面临着其他地区力量的竞争，其海军范围也有限制。",
+  "historiographic_note": "1170年在西欧资料中例外地有详尽记载，特别是关于贝克特被谋杀，产生了众多当代记述和后来的圣徒传记。伊斯兰资料很好地覆盖了萨拉丁的崛起，尽管它们常强调宗教和军事方面而非经济和社会维度。中方资料丰富但 heavily 集中于宫廷政治和行政事务。视角严重偏向精英政治和军事史；普通人、女性和非精英群体的经历被低估。撒哈拉以南非洲、东南亚和大洋洲的历史在很大程度上缺席于当代文字记录。",
+  "graph_edges": [
+    {
+      "from": "1170-001",
+      "to": "1171-003",
+      "relation": "led_to",
+      "note": "Strongbow 在1170年的入侵促使亨利二世于1171年抵达爱尔兰以维护王权"
+    },
+    {
+      "from": "1170-002",
+      "to": "1173-002",
+      "relation": "led_to",
+      "note": "贝克特于1170年被谋杀导致他于1173年封圣"
+    },
+    {
+      "from": "1170-003",
+      "to": "1171-001",
+      "relation": "led_to",
+      "note": "萨拉丁在1170年的巩固使1171年法蒂玛哈里发国的覆灭成为可能"
+    },
+    {
+      "from": "1170-004",
+      "to": "1173-001",
+      "relation": "led_to",
+      "note": "小亨利在1170年的加冕促成了1173–1174年大叛乱爆发的紧张局势"
+    }
+  ]
+}

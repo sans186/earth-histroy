@@ -1,0 +1,48 @@
+{
+  "year": -1982,
+  "year_label": "公元前1983年",
+  "era_context": "青铜时代晚期II。各大强国（埃及、赫梯、迈锡尼、商朝）局势稳定繁荣。国际贸易网络活跃。此时距青铜时代晚期崩溃约200年，该崩溃将彻底重塑地中海和近东世界。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚与大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-1982-001",
+      "title": "拉美西斯二世——统治延续",
+      "region": "埃及（新王国，第19王朝）",
+      "coordinates_approx": "北纬25.7°，东经32.6°",
+      "category": "political",
+      "description": "拉美西斯二世统治延续，行政、军事和建设活动持续进行。埃及在黎凡特和努比亚的霸权得以维持。尽管与赫梯、迈锡尼等地中海强权偶有军事紧张，贸易仍在继续。",
+      "key_figures": [
+        "拉美西斯二世（法老）"
+      ],
+      "sources": [
+        {
+          "name": "埃及神庙铭文与行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "拉美西斯二世的统治有充分确证；该年份在其统治期内，置信度很高，尽管具体事件并非总能区分。",
+      "cross_references": [
+        "-1981-001",
+        "-1980-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的否定性证据。",
+  "historiographic_note": "该年度现存文献记载匮乏。历史记录以埃及和赫梯铭文为主；其他地区几乎无迹可寻。该时期表面上的“稳定”是精英阶层文字记录得以保存的结果；绝大多数人类活动未留下痕迹。",
+  "graph_edges": [
+    {
+      "from": "-1982-001",
+      "to": "-1981-001",
+      "relation": "led_to",
+      "note": "拉美西斯二世统治的延续"
+    }
+  ]
+}

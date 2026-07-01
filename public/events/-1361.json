@@ -1,0 +1,73 @@
+{
+  "year": -1361,
+  "year_label": "公元前1362年",
+  "era_context": "青铜时代晚期，埃及阿蒙霍特普三世统治时期。苏皮卢利乌马一世领导下的赫梯帝国在叙利亚和美索不达米亚巩固权力。迈锡尼希腊处于晚期希腊底期II。商朝在中国继续。这是古代近东国际外交、贸易和文化繁荣的时代。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "太平洋岛屿",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-1361-001",
+      "title": "阿蒙霍特普三世统治：持续的文化和外交活动",
+      "region": "埃及",
+      "coordinates_approx": "25.74, 32.64",
+      "category": "cultural",
+      "description": "阿蒙霍特普三世的统治继续作为埃及繁荣和文化成就的时期。神庙建设、与外国势力的外交书信以及艺术创新是这一时期的特征。法老通过军事力量与外交技巧相结合，维持了埃及作为古代近东超级大国的地位。",
+      "key_figures": [
+        "阿蒙霍特普三世（法老）",
+        "提耶（大王后）"
+      ],
+      "sources": [
+        {
+          "name": "神庙铭文和浮雕",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿蒙霍特普三世的统治有充分证据，但个别年份的具体事件很少精确确定。",
+      "cross_references": []
+    },
+    {
+      "id": "-1361-002",
+      "title": "赫梯在叙利亚和美索不达米亚的军事行动",
+      "region": "赫梯帝国、叙利亚、美索不达米亚",
+      "coordinates_approx": "35.5, 36.0",
+      "category": "military",
+      "description": "苏皮卢利乌马一世继续其军事行动以扩大赫梯在叙利亚和美索不达米亚的控制。这些行动是建立赫梯在该地区霸权并挑战埃及和米坦尼影响力战略的一部分。军事行动记录在赫梯王室铭文中，并反映在阿马尔那书信中。",
+      "key_figures": [
+        "苏皮卢利乌马一世（赫梯国王）"
+      ],
+      "sources": [
+        {
+          "name": "赫梯王室铭文",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "阿马尔那书信",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "苏皮卢利乌马一世的军事行动有充分证据，但具体年份难以确定。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "未发现与所列事件相矛盾的否定性证据。但该时期的年代学仍有争议。",
+  "historiographic_note": "该时期的历史记录中等。埃及和赫梯来源相对丰富，但具体年份的确定仍不确定。阿马尔那书信提供了关键背景但未标注日期。",
+  "graph_edges": [
+    {
+      "from": "-1361-002",
+      "to": "-1360-002",
+      "relation": "led_to",
+      "note": "赫梯扩张持续，最终导致与埃及的冲突"
+    }
+  ]
+}

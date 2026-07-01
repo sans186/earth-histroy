@@ -1,0 +1,85 @@
+{
+  "year": -2776,
+  "year_label": "公元前2776年",
+  "era_context": "埃及古王国（约公元前2686–前2181年）第五王朝继续。美索不达米亚早王朝三期持续，城邦争霸。印度河流域文明仍处于成熟城市期。在中国，传统的夏朝时期延续，但缺乏考古证据。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "中亚（文字记录有限）"
+  ],
+  "events": [
+    {
+      "id": "-2776-001",
+      "title": "第五王朝埃及行政巩固",
+      "region": "埃及（尼罗河谷）",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "第五王朝继续其统治，以中央法老权力逐渐向地方长官和拉神祭司转移为特征。这一时期建造了较小的金字塔和太阳神庙，反映了经济制约与意识形态转变。古王国的行政机器仍在运转，有税收、军事组织和贸易记录。",
+      "key_figures": [
+        "第五王朝法老（身份不确定）"
+      ],
+      "sources": [
+        {
+          "name": "金字塔文和墓室铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "埃及该时期年代不确定，误差约±50–100年。第五王朝有充分证据，但具体年份系依惯例而定。",
+      "cross_references": [
+        "-2775-001"
+      ]
+    },
+    {
+      "id": "-2776-002",
+      "title": "印度河流域贸易网络活跃",
+      "region": "印度河流域及其广阔贸易网络",
+      "coordinates_approx": "27.5, 68.0",
+      "category": "economic",
+      "description": "印度河流域文明保持与美索不达米亚、波斯湾和中亚的广泛贸易网络。在美索不达米亚遗址（如乌尔和拉格什）发现的印度河印章和器物，证明了活跃的商业往来。这种贸易是直接的还是经由中间人，仍有争议，但商品、思想甚至人员的交流是显然的。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "美索不达米亚遗址中印度河印章的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "印度河流域器物和砝码",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "印度河成熟期（约公元前2600–前1900年）的贸易网络在考古学上有充分证据，但具体年度事件无记载。",
+      "cross_references": [
+        "-2775-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "对于该年，任何传统中均无具体事件记载。将该年归入埃及第五王朝和印度河成熟期是基于有争议的常规年表。夏朝仍无考古确认。",
+  "historiographic_note": "该年与公元前2775年一样，属于埃及和美索不达米亚以外文字记录稀少的时期。历史记录严重依赖王表（后世编纂，准确性存疑）、纪念物上的铭文（偏向王室和宗教内容）和考古证据（提供物质文化但叙事细节有限）。该特定年份缺乏记录并不证明历史上的不活跃，而反映了幸存史料的局限性。",
+  "graph_edges": [
+    {
+      "from": "-2776-001",
+      "to": "-2775-001",
+      "relation": "contemporary_with",
+      "note": "第五王朝统治的延续"
+    },
+    {
+      "from": "-2776-002",
+      "to": "-2775-002",
+      "relation": "contemporary_with",
+      "note": "印度河流域贸易持续进行"
+    }
+  ]
+}

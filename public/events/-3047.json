@@ -1,0 +1,90 @@
+{
+  "year": -3047,
+  "year_label": "公元前3047年",
+  "era_context": "青铜时代早期III期；古王国埃及（第四王朝）；美索不达米亚早王朝III期。这是一个既有的国家体系、巨型建筑和不断发展的贸易网络的时代。埃及正处于古王国权力的顶峰。美索不达米亚各城邦正在争夺地区主导权。书写系统已经成熟并广泛使用。印度河流域文明处于早期城市阶段。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "美洲",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-3047-001",
+      "title": "哈夫拉在位；古王国埃及达到权力巅峰",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "哈夫拉的统治代表了古王国中央集权和宏伟抱负的延续。法老的权威是绝对的，国家动员劳动力和资源建造金字塔的能力达到顶峰。由早期法老（胡夫、佐塞尔）发展起来的行政体系有效运转。与努比亚、黎凡特和爱琴海的贸易活跃，为埃及带来奢侈品和原材料。",
+      "key_figures": [
+        "哈夫拉（第四王朝法老）"
+      ],
+      "sources": [
+        {
+          "name": "来自吉萨及其他古王国遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "哈夫拉的统治在考古上证据充分，但绝对年代由于埃及学年代学争议仍不确定。",
+      "cross_references": [
+        "更广泛的古王国时期（公元前3100年至公元前2181年）的一部分"
+      ]
+    },
+    {
+      "id": "-3047-002",
+      "title": "美索不达米亚城邦冲突与贸易",
+      "region": "美索不达米亚（今伊拉克）",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "economic",
+      "description": "在早王朝III期，美索不达米亚各城邦同时进行冲突和贸易。拉格什、乌玛、乌鲁克和乌尔等城市为控制农业土地、水资源和贸易路线而竞争。远距离贸易网络延伸至印度河流域、波斯湾和黎凡特。楔形文字越来越多地用于行政和经济目的，包括记录神庙库存和贸易交易。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "苏美尔王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "拉格什和乌鲁克的楔形文字泥板",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "美索不达米亚遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "早王朝III期的年代学不确定，对于个别统治年限和统治者顺序存在争论。归于公元前3047年是传统的做法。",
+      "cross_references": [
+        "早王朝III期（传统定年为约公元前2900-2334年）的一部分"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "古王国和早王朝美索不达米亚的绝对年代学仍有争议。一些学者主张与此处所用差异很大的年代。这一时期特定年份的重要性难以评估，因为现存资料没有精确记载事件。",
+  "historiographic_note": "公元前3047年没有任何具体的同期记录。所有信息均从更广泛的考古和年代框架推断而来。埃及资料比美索不达米亚资料丰富。历史记录严重偏向埃及和美索不达米亚；其他地区基本上没有文字记录。",
+  "graph_edges": [
+    {
+      "from": "-3047-001",
+      "to": "-3045-001",
+      "relation": "contemporary_with",
+      "note": "哈夫拉的统治跨越多年"
+    },
+    {
+      "from": "-3047-002",
+      "to": "-3045-002",
+      "relation": "contemporary_with",
+      "note": "美索不达米亚冲突和贸易在此期间持续进行"
+    }
+  ]
+}

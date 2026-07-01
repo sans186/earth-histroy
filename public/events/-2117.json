@@ -1,0 +1,100 @@
+{
+  "year": -2117,
+  "year_label": "公元前2117年",
+  "era_context": "埃及古王国处于最后几年；第六王朝正在分裂。美索不达米亚的古提时期已稳固确立，阿卡德政治权威彻底瓦解。印度河流域文明仍处于顶峰。在中国，夏朝（如果历史存在的话）继续进行其早期发展。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧和草原",
+    "中美洲",
+    "东南亚",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-2117-001",
+      "title": "埃及第六王朝的最后几年；政治分裂加速",
+      "region": "埃及",
+      "coordinates_approx": "26.5, 30.5",
+      "category": "political",
+      "description": "第六王朝接近尾声，王权严重削弱。地方总督几乎完全自治，中央国家工程的证据几乎消失。向第一中间期的过渡现已迫在眉睫。一些学者将第六王朝的正式结束定在这一时期前后，尽管根据所用的年表系统，日期有±10-20年的差异。",
+      "key_figures": [
+        "佩皮二世或其直接继任者（年代和继承不确定）"
+      ],
+      "sources": [
+        {
+          "name": "《都灵王表》和其他埃及王表",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "诺姆长墓葬铭文和行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "古王国崩溃的大趋势已充分确立；第六王朝结束的精确定年根据年表系统不同有±10-20年的差异。",
+      "cross_references": [
+        "发生在第一中间期（约公元前2100年）之前"
+      ]
+    },
+    {
+      "id": "-2117-002",
+      "title": "美索不达米亚的古提时期；政治分裂和跨区域贸易减少",
+      "region": "美索不达米亚",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "古提时期继续，美索不达米亚城邦独立运作或结成松散联盟。与阿卡德时期相比，大规模贸易网络和大型建筑的证据减少。《苏美尔王表》记录了古提统治者，尽管同期文献稀少。这一时期将以约公元前2112年乌尔纳姆和乌尔第三王朝的兴起而结束。",
+      "key_figures": [
+        "古提族统治者（名字保存在后来的《苏美尔王表》中，但同期文献极少）"
+      ],
+      "sources": [
+        {
+          "name": "《苏美尔王表》（后世编纂）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "美索不达米亚遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "古提时期在后世史料中有记载；同期文献稀少，年表仍有争议。",
+      "cross_references": [
+        "更广泛的古提时期（约公元前2154-2112年）的一部分"
+      ]
+    },
+    {
+      "id": "-2117-003",
+      "title": "哈拉帕文明继续处于顶峰；贸易网络保持活跃",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "哈拉帕文明在这一年没有显示衰落的迹象。城市中心仍被充分占用，与美索不达米亚和波斯湾的贸易证据继续存在。该文明的标准体系和城市规划仍然存在。考古证据表明定居模式稳定，经济活动持续。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "考古发掘和定居点调查",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈拉帕文明的连续性已通过考古学充分证实。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "第六王朝结束的年代有争议。一些学者将其定在早在公元前2180年，而另一些学者则主张接近公元前2150年的日期。古提年表同样不确定，另类年表将古提时期定在不同日期。埃及或美索不达米亚没有这一特定年份的同期书面记录。",
+  "historiographic_note": "本年度的历史记录稀少，严重依赖后世编纂和考古推断。埃及史料偏向精英和王室视角。美索不达米亚史料同样有限，《苏美尔王表》是古提年表的主要来源，尽管它是后世编纂且已知有不准确之处。哈拉帕文明几乎完全通过考古学为人所知。",
+  "graph_edges": [
+    {
+      "from": "-2117-001",
+      "to": "-2100-FIRST_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "第六王朝的最终崩溃导致了第一中间期"
+    }
+  ]
+}

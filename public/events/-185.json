@@ -1,0 +1,123 @@
+{
+  "year": -185,
+  "year_label": "公元前185年",
+  "era_context": "塞琉古二世·卡利尼库斯统治下的塞琉古帝国面临内部分裂和外部压力：东方有帕提亚扩张，西方有埃及托勒密竞争。中国汉朝在汉文帝统治下，在七国之乱（公元前154–151年）后巩固权力。地中海世界正进入罗马霸权前的希腊化政治竞争最后阶段。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（有限文字记录）",
+    "希腊/罗马接触区以外的北欧",
+    "中美洲（西方传统中无同期文字记录）"
+  ],
+  "events": [
+    {
+      "id": "-185-001",
+      "title": "塞琉古二世·卡利尼库斯面临东方帕提亚扩张",
+      "region": "塞琉古帝国，帕提亚",
+      "coordinates_approx": "36.0,50.0",
+      "category": "military",
+      "description": "统治塞琉古帝国的塞琉古二世·卡利尼库斯对抗在阿尔萨息二世领导下开始从里海地区向西扩张的崛起的帕提亚王国。帕提亚人夺取了塞琉古东部行省的控制权，包括巴克特里亚和丝绸之路沿线地区。这标志着西亚权力动态的关键转变，塞琉古人失去了对其最富裕东部领土的直接控制。冲突确立了帕提亚作为最终将与罗马抗衡的主要地区强权。",
+      "key_figures": [
+        "Seleucus II Callinicus (塞琉古国王)",
+        "Arsaces II (帕提亚国王)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "关于帕提亚扩张的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "帕提亚扩张的日期是近似的；史料为后期汇编。塞琉古二世统治（公元前246–226年）的总体时间范围是可靠的，但其中具体事件在现存文本中通常未注明日期。",
+      "cross_references": [
+        "源自 -187-001（七国之乱后续）",
+        "导致 -160-001（帕提亚巩固）"
+      ]
+    },
+    {
+      "id": "-185-002",
+      "title": "汉文帝统治下的汉朝巩固",
+      "region": "汉朝中国",
+      "coordinates_approx": "34.3,108.9",
+      "category": "political",
+      "description": "成功镇压七国之乱（公元前154–151年）后，汉文帝巩固中央集权，实施相对和平和经济复苏的政策。他减税、鼓励农业，并建立将定义汉朝治理的行政机构。这一时期标志着从动荡的汉朝早期向稳定繁荣时代的过渡，最终在汉武帝统治时期达到顶峰。",
+      "key_figures": [
+        "汉文帝",
+        "窦太后"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "汉文帝的统治日期（公元前180–157年）在中国史学中已确证。其统治时期内的事件在事件后数世纪内编纂的官方编年史中有记载。",
+      "cross_references": [
+        "更广泛汉朝巩固时期的一部分",
+        "导致 -141-001（汉武帝即位）"
+      ]
+    },
+    {
+      "id": "-185-003",
+      "title": "托勒密三世·欧厄尔吉特斯一世统治下的托勒密埃及",
+      "region": "托勒密埃及",
+      "coordinates_approx": "30.8,31.3",
+      "category": "political",
+      "description": "托勒密三世·欧厄尔吉特斯一世继续统治埃及，维持托勒密在东地中海的海军优势，并管理与塞琉古帝国的复杂关系。其统治以文化赞助、亚历山大图书馆的扩展和确保托勒密利益的军事征讨为特征。埃及仍是希腊化世界最富裕和最稳定的强权之一。",
+      "key_figures": [
+        "Ptolemy III Euergetes I (托勒密国王)",
+        "Berenice II (王后)"
+      ],
+      "sources": [
+        {
+          "name": "托勒密埃及的纸莎草文献",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "托勒密三世的统治（公元前246–222年）通过埃及纸莎草和希腊史料有充分记载。公元前185年内的具体事件日期不太精确，但属于其已确认的统治时期。",
+      "cross_references": [
+        "与 -185-001（塞琉古-帕提亚冲突）同时期"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "公元前185年帕提亚扩张的重要性在通俗历史中有时被夸大。现代学术表明这一过程是渐进的而非突然征服，帕提亚对东部行省的控制仅在此后数十年才牢固确立。帕提亚夺取特定领土的确切日期仍不确定，一些学者将主要领土收益置于塞琉古二世统治后期甚至其继任者时期。",
+  "historiographic_note": "公元前185年的文献记载中等但分布不均。中国史料（《史记》《汉书》）提供了汉朝事件的详细、近乎同时代的记录。希腊化历史严重依赖后期希腊和罗马汇编（阿庇安、斯特拉波），写作于事件后数个世纪。帕提亚历史在现存文本中尤其稀少；我们所知的大部分来自塞琉古和后期罗马史料，造成了对塞琉古视角的潜在偏见。埃及纸莎草提供了行政细节，但缺乏重大事件的叙述。",
+  "graph_edges": [
+    {
+      "from": "-185-001",
+      "to": "-160-001",
+      "relation": "led_to",
+      "note": "公元前185年的帕提亚扩张加速，最终使帕提亚成为主要强权"
+    },
+    {
+      "from": "-185-002",
+      "to": "-141-001",
+      "relation": "led_to",
+      "note": "文帝下的汉朝巩固使汉武帝的扩张政策成为可能"
+    }
+  ]
+}

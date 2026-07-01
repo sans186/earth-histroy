@@ -1,0 +1,76 @@
+{
+  "year": -2856,
+  "year_label": "公元前2856年",
+  "era_context": "近东和南亚的早期青铜时代III期。埃及古王国第五王朝存续。印度河流域文明仍处于成熟阶段。美索不达米亚早王朝三期城邦继续其竞争。近东各地文字系统已充分确立。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东亚",
+    "美洲",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-2856-001",
+      "title": "第五王朝埃及：宗教和行政的连续性",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "北纬29.9°，东经31.1°",
+      "category": "religious",
+      "description": "埃及第五王朝继续其统治，以拉神崇拜的突出地位和太阳神庙的建造为特征。拉神祭司阶层对国家事务的影响力日益增强。金字塔建造仍在继续，但规模小于早期王朝。由于年代学争议，公元前2856年在位法老的确切身份不确定。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "曼涅托的《埃及史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "金字塔文和神庙铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "第五王朝年代存在±50–100年的不确定性。没有具体事件可靠地确定为公元前2856年。",
+      "cross_references": [
+        "-2857-001"
+      ]
+    },
+    {
+      "id": "-2856-002",
+      "title": "印度河流域文明城市中心和手工艺生产",
+      "region": "印度河流域，南亚",
+      "coordinates_approx": "北纬27.0°，东经68.0°",
+      "category": "cultural",
+      "description": "印度河流域文明的主要城市中心（哈拉帕、摩亨佐-达罗、多拉维拉等）继续作为规划城市运作，拥有复杂的基础设施。手工艺生产，包括陶器、金属加工和串珠制造，十分发达。该文明未破译的文字出现在印章和泥板上，暗示存在复杂的行政系统。政治组织仍不清楚。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "印度河文字印章和泥板（未破译）",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明的成熟阶段在考古学上得到充分证实。公元前2856年属于广泛定年的成熟阶段（约公元前2500–1900年）。",
+      "cross_references": [
+        "-2858-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现可靠记录于公元前2856年的具体事件。该时期的年代框架存在争议，替代性年代学可能显著推移事件。",
+  "historiographic_note": "该年属于同时代文献稀少的时期。埃及记录依赖后期的王表和考古遗存。印度河流域文明未破译的文字限制了历史重建。美索不达米亚对此时期的记录更为丰富，但侧重于城邦政治而非具体的年份事件。公元前2856年在更广泛的年代框架内主要是一个占位符。",
+  "graph_edges": [
+    {
+      "from": "-2856-001",
+      "to": "-2857-001",
+      "relation": "led_to",
+      "note": "第五王朝统治的延续。"
+    }
+  ]
+}

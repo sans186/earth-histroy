@@ -1,0 +1,85 @@
+{
+  "year": -2452,
+  "year_label": "公元前2452年",
+  "era_context": "公元前三千纪中期。纳拉姆辛的阿卡德帝国处于扩张阶段。埃及古王国已进入终结式衰落。印度河流域文明处于成熟高峰。安纳托利亚、黎凡特及爱琴海地区的早期青铜时代社会正发展出日益复杂的宫廷经济和贸易网络。",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "中美洲和南美洲",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-2452-001",
+      "title": "纳拉姆辛对埃卜拉及叙利亚北部的征战",
+      "region": "黎凡特，叙利亚",
+      "coordinates_approx": "35.2, 36.2",
+      "category": "military",
+      "description": "纳拉姆辛对埃卜拉及叙利亚北部其他城邦发动军事战役，试图扩展阿卡德控制并确保贸易路线。埃卜拉的考古证据显示该时期存在破坏层，但其确切能否归因于纳拉姆辛仍存争议。这些战役是控制黎凡特贸易网络、获取木材等资源这一更广泛战略的组成部分。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德国王）"
+      ],
+      "sources": [
+        {
+          "name": "埃卜拉的破坏层（考古证据）",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "纳拉姆辛铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "埃卜拉档案（破坏前记录）",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "埃卜拉的毁灭在考古上得到确认，但将其归于纳拉姆辛以及精确断代仍存争议。传统年表将其置于其统治期内（约公元前2254–前2218年），但确切年份不明。",
+      "cross_references": []
+    },
+    {
+      "id": "-2452-002",
+      "title": "印度河流域贸易网络活动",
+      "region": "印度河谷，南亚，美索不达米亚",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "economic",
+      "description": "印度河流域文明与美索不达米亚、波斯湾及中亚保持着广泛的贸易网络。考古证据显示商品交换，包括来自阿富汗的青金石、来自古吉拉特的玛瑙，以及在美索不达米亚遗址发现的印度河印章。这一贸易通过海路和陆路商队进行，表明存在复杂的商业组织。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "在美索不达米亚发现的印度河印章的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "海湾与美索不达米亚遗址中的印度河谷器物",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "提及“麦鲁哈”（印度河谷）的阿卡德文献",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "印度河谷与美索不达米亚之间的贸易在考古上已得到很好证实。然而，特定年份的贸易量波动无法确定。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "将埃卜拉毁灭归于纳拉姆辛存在争议。一些学者认为该破坏层可能属于其他时期，或由内部冲突而非阿卡德入侵造成。此外，阿卡德对黎凡特的控制程度亦有争议；有些学者认为阿卡德的存在仅限于军事战役和贸易据点，而非领土征服。",
+  "historiographic_note": "公元前2452年这一单个年份在存世史料中并无直接记录。此时期的历史记录由行政文书、铭文及考古证据构成，它们提供了该时代的总体画面，但无法精确到具体年份。",
+  "graph_edges": [
+    {
+      "from": "-2452-001",
+      "to": "-2450-001",
+      "relation": "part_of",
+      "note": "纳拉姆辛在黎凡特更广泛战役战略的一部分。"
+    }
+  ]
+}

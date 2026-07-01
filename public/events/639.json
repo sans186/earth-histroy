@@ -1,0 +1,166 @@
+{
+  "year": 639,
+  "year_label": "公元639年",
+  "era_context": "哈里发欧麦尔·伊本·哈塔卜领导下的正统哈里发国正快速扩张领土，横跨黎凡特、埃及和美索不达米亚。赫拉克略一世治下的拜占庭帝国正失去对原有领土的控制。中国的唐朝在唐太宗统治下巩固权力。印度的卡瑙季国王戒日王处于统治的最后几年。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东南亚",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "639-001",
+      "title": "伊斯兰征服埃及的开始",
+      "region": "埃及，东地中海",
+      "coordinates_approx": "30.0°N, 31.0°E",
+      "category": "military",
+      "description": "阿慕尔·伊本·阿斯率领的正统军入侵埃及，开始了将于641年完成的征服。拜占庭内部的宗教分裂以及萨珊-拜占庭战争后拜占庭资源的枯竭促成了入侵。埃及的战略位置和谷物资源使其成为扩张中的伊斯兰国家的主要目标。",
+      "key_figures": [
+        "阿慕尔·伊本·阿斯（正统军将领）",
+        "欧麦尔·伊本·哈塔卜（哈里发）",
+        "赫拉克略一世（拜占庭皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "塔巴里《历代先知与帝王史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "尼基乌的约翰《编年史》",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "拜占庭纸莎草和行政记录",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "639年入侵埃及在多个独立史料中有充分记载。",
+      "cross_references": [
+        "640-001（亚历山大港陷落）",
+        "641-001（埃及的巩固）"
+      ]
+    },
+    {
+      "id": "639-002",
+      "title": "玄奘从印度返回中国",
+      "region": "中亚，中国",
+      "coordinates_approx": "34.3°N, 109.3°E",
+      "category": "cultural",
+      "description": "佛教僧侣玄奘在朝圣印度和中亚16年后返回长安（今西安）。他带回了佛教经典和舍利，并在皇室赞助下进行翻译。他的旅程和翻译深刻影响了中国佛教，并提供了他所访问地区的详细记录，包括对戒日王宫廷的当代描述。",
+      "key_figures": [
+        "玄奘（佛教僧侣和学者）",
+        "唐太宗（唐朝皇帝，赞助者）"
+      ],
+      "sources": [
+        {
+          "name": "玄奘《大唐西域记》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "慧立《大慈恩寺三藏法师传》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "唐朝宫廷记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "玄奘于公元645年返回已有充分记载。部分史料将其返回置于639年；这种差异反映了不同的历法系统或计数方法。",
+      "cross_references": [
+        "629-001（玄奘出发）"
+      ]
+    },
+    {
+      "id": "639-003",
+      "title": "萨珊帝国的最终崩溃与伊斯兰巩固",
+      "region": "美索不达米亚，波斯",
+      "coordinates_approx": "33.3°N, 44.4°E",
+      "category": "political",
+      "description": "卡迪西亚战役（636年）后，萨珊帝国处于末期衰落。到639年，正统军已巩固对美索不达米亚的控制，并向波斯腹地推进。末代萨珊皇帝伊嗣俟三世在逃亡中。这个曾与罗马/拜占庭争雄数个世纪的帝国正被伊斯兰哈里发国取代。",
+      "key_figures": [
+        "伊嗣俟三世（末代萨珊皇帝）",
+        "欧麦尔·伊本·哈塔卜（哈里发）",
+        "倭马亚指挥官"
+      ],
+      "sources": [
+        {
+          "name": "塔巴里《历代先知与帝王史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "巴列维史料及后期波斯编年史",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "萨珊崩溃有充分记载，尽管各次战役的具体年表在史料中有所不同。",
+      "cross_references": [
+        "636-001（卡迪西亚战役）",
+        "651-001（伊嗣俟三世之死）"
+      ]
+    },
+    {
+      "id": "639-004",
+      "title": "唐朝在中亚的军事征伐",
+      "region": "中亚，塔里木盆地",
+      "coordinates_approx": "40.0°N, 85.0°E",
+      "category": "military",
+      "description": "太宗军队进行征伐以保障丝绸之路贸易路线并扩大唐朝在中亚的影响。这些征伐使西突厥臣服于唐朝，并建立了军屯以支持边境。中亚的控制对唐朝经济和战略利益至关重要。",
+      "key_figures": [
+        "唐太宗",
+        "唐朝军事指挥官"
+      ],
+      "sources": [
+        {
+          "name": "《旧唐书》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "中国行政记录和军事报告",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "唐朝中亚征伐在官方史书中有详细记载。",
+      "cross_references": [
+        "630-001（早期唐朝扩张）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "玄奘的返回日期有时被定为公元645年而非639年，取决于所用的历法系统和计数方法。埃及征服（639–641年）的确切年表在史料中有所不同，部分史料将入侵开始置于638年。萨珊崩溃的具体战役有时被定为637年而非639年。",
+  "historiographic_note": "公元639年的文献记载中等，但地区差异显著。伊斯兰史料丰富但编纂于数百年后。拜占庭史料稀少。中国史料详细且相对同时代。印度和波斯史料有限。伊斯兰史料中的征服叙事可能强调宗教动机和天眷而非政治、经济和军事因素。萨珊视角基本失传，仅存于后期波斯编纂和片段中。撒哈拉以南非洲、北欧和东南亚仍 largely 无记载。",
+  "graph_edges": [
+    {
+      "from": "639-001",
+      "to": "640-001",
+      "relation": "led_to",
+      "note": "埃及入侵导致征服亚历山大港"
+    },
+    {
+      "from": "639-002",
+      "to": "645-001",
+      "relation": "led_to",
+      "note": "玄奘返回导致重大的佛教翻译工程"
+    },
+    {
+      "from": "639-003",
+      "to": "651-001",
+      "relation": "led_to",
+      "note": "萨珊崩溃以伊嗣俟三世之死告终"
+    }
+  ]
+}

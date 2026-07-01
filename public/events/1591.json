@@ -1,0 +1,174 @@
+{
+  "year": 1591,
+  "year_label": "1591年",
+  "era_context": "16世纪末：腓力二世治下的西班牙哈布斯堡帝国仍是欧洲主导力量，尽管受到英格兰和荷兰起义的挑战。奥斯曼帝国控制东地中海和巴尔干。在东亚，万历皇帝统治明朝；日本处于丰臣秀吉领导下的最后巩固阶段。宗教改革和反宗教改革塑造了欧洲的宗教和政治冲突。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（欧洲文献有限；土著史料在幸存记录中稀少）",
+    "南美洲内陆（关于非殖民地区的西班牙/葡萄牙文献有限）"
+  ],
+  "events": [
+    {
+      "id": "1591-001",
+      "title": "金塞尔战役开始；埃塞克斯伯爵率领英军在爱尔兰登陆",
+      "region": "爱尔兰",
+      "coordinates_approx": "52.0,-8.5",
+      "category": "military",
+      "description": "第二代埃塞克斯伯爵罗伯特·德弗罗率领英国远征军在爱尔兰登陆，以镇压九年战争和蒂龙伯爵休·奥尼尔的叛乱。这次战役持续到1592年，代表了英国为压制爱尔兰对都铎王朝统治的抵抗而做出的重大军事承诺。战役代价高昂且最终没有结果，导致了埃塞克斯后来的政治衰落。",
+      "key_figures": [
+        "第二代埃塞克斯伯爵罗伯特·德弗罗（英国指挥官）",
+        "蒂龙伯爵休·奥尼尔（爱尔兰叛乱领袖）"
+      ],
+      "sources": [
+        {
+          "name": "《爱尔兰国家文件日历，1588–1592》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "法因斯·莫里森，《游记》（写于17世纪初，描述了事件）",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在英国国务文件和当代通信中有充分记载。",
+      "cross_references": [
+        "1592-001（战役的持续）",
+        "1588-002（西班牙无敌舰队背景）"
+      ]
+    },
+    {
+      "id": "1591-002",
+      "title": "丰臣秀吉完成日本军事统一；开始计划朝鲜战役",
+      "region": "日本",
+      "coordinates_approx": "35.0,138.0",
+      "category": "military",
+      "description": "丰臣秀吉巩固了对日本所有主要大名（封建领主）的控制，实际上结束了战国时代的内战。随着国内统一完成，秀吉开始计划雄心勃勃的入侵朝鲜和中国的行动，将其视为扩张的下一阶段。这标志着秀吉权力和野心的巅峰。",
+      "key_figures": [
+        "丰臣秀吉（日本关白）"
+      ],
+      "sources": [
+        {
+          "name": "《太阁记》（秀吉传记，由弟子编纂）",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "日本行政记录及大名通信",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "秀吉的巩固在日本记录中有充分记载；1591年是这一过程完成的年份。",
+      "cross_references": [
+        "1592-002（朝鲜入侵开始）"
+      ]
+    },
+    {
+      "id": "1591-003",
+      "title": "万历皇帝继续在位；明朝经历经济压力和派系冲突",
+      "region": "中国",
+      "coordinates_approx": "39.9,116.4",
+      "category": "political",
+      "description": "万历皇帝（在位1572–1620年）继续在位，这一时期明朝内部不稳定加剧。宦官与士大夫之间的朝堂派系斗争加剧；万历皇帝越来越退出积极治理。由于北部边境针对女真和蒙古威胁的军费开支，经济压力增大。这一时期标志着明朝制度性衰落的开始。",
+      "key_figures": [
+        "万历皇帝（明朝统治者）",
+        "张居正（1582年去世，但他的改革仍影响治理）"
+      ],
+      "sources": [
+        {
+          "name": "《明实录》（官方明朝记录）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "神宗（万历）在位时期官方史书记录",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "明朝行政记录提供了该时期的详细文献记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1591-004",
+      "title": "齐格蒙特三世·瓦萨当选波兰-立陶宛国王",
+      "region": "波兰-立陶宛",
+      "coordinates_approx": "52.0,21.0",
+      "category": "political",
+      "description": "瑞典古斯塔夫一世的孙子齐格蒙特三世·瓦萨在斯特凡·巴托里去世后当选波兰-立陶宛国王。他的当选将波兰-立陶宛联邦与瑞典（通过他的王位主张）联合起来，标志着一个复杂的共主邦联的开始。齐格蒙特的统治将以宗教冲突（天主教 vs. 新教）以及与瑞典和俄罗斯的军事斗争为标志。",
+      "key_figures": [
+        "齐格蒙特三世·瓦萨（新当选的国王）",
+        "斯特凡·巴托里（已故前任）"
+      ],
+      "sources": [
+        {
+          "name": "波兰瑟姆记录及选举文件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代波兰和瑞典编年史",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "选举在波兰国家记录中有充分记载。",
+      "cross_references": [
+        "1592-003（齐格蒙特早期统治冲突）"
+      ]
+    },
+    {
+      "id": "1591-005",
+      "title": "葡萄牙将果阿建立为主要殖民行政中心；在印度洋扩张",
+      "region": "印度（果阿）",
+      "coordinates_approx": "15.3,73.8",
+      "category": "political",
+      "description": "以果阿为中心的葡萄牙印度帝国（Estado da Índia）巩固了对印度洋关键贸易路线和沿海定居点的控制。在葡萄牙总督的治理下，果阿作为葡萄牙在亚洲殖民扩张的行政枢纽。这一时期标志着葡萄牙在印度洋海上主导地位的巅峰，随后荷兰和英国的竞争加剧。",
+      "key_figures": [
+        "葡萄牙驻印度总督（行政权威）"
+      ],
+      "sources": [
+        {
+          "name": "葡萄牙殖民行政记录（Arquivo Histórico Ultramarino）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代葡萄牙关于印度的编年史",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "葡萄牙殖民行政在葡萄牙档案中有充分记载。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "埃塞克斯爱尔兰战役的重要性在英格兰史学中有时被夸大成一个转折点；现代学者强调它基本上是一次代价高昂的失败，并未压制爱尔兰抵抗，抵抗持续了多年。日本1591年“完成”统一有些传统；一些大名仍保留相当大的自治权，秀吉的权威是个人化的而非制度化的，这一点在他死后变得明显。",
+  "historiographic_note": "1591年的文献对于欧洲和东亚事件非常丰富，反映了行政记录和编年史的幸存。欧洲史料严重偏向英格兰、西班牙和波兰的视角。葡萄牙殖民活动的文献良好，但反映了殖民时代的偏见（土著视角基本缺失）。由于该时期这些地区的幸存文字记录有限，撒哈拉以南非洲和美洲内陆事件严重缺乏代表性。",
+  "graph_edges": [
+    {
+      "from": "1591-001",
+      "to": "1592-001",
+      "relation": "led_to",
+      "note": "埃塞克斯的爱尔兰战役持续到1592年"
+    },
+    {
+      "from": "1591-002",
+      "to": "1592-002",
+      "relation": "led_to",
+      "note": "秀吉的计划导致1592年入侵朝鲜"
+    },
+    {
+      "from": "1591-004",
+      "to": "1600-001",
+      "relation": "led_to",
+      "note": "齐格蒙特的当选引发了数十年的波瑞冲突"
+    }
+  ]
+}

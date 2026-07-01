@@ -1,0 +1,96 @@
+{
+  "year": -1318,
+  "year_label": "公元前1319年",
+  "era_context": "青铜时代晚期稳定延续。埃及拉美西斯二世的统治处于早期到中期阶段。赫梯帝国在穆瓦塔里二世统治下维持对安纳托利亚和北叙利亚的控制。迈锡尼宫殿中心继续其行政和经济运作。中国商朝处于商代晚期国王统治下（可能为小乙或武乙，但年代不确定）。此年属于公元前12世纪系统性动荡之前的相对国家间均衡时期。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "大洋洲和太平洋岛屿",
+    "北欧",
+    "中美洲",
+    "中亚和草原（有限文字记录）"
+  ],
+  "events": [
+    {
+      "id": "-1318-001",
+      "title": "拉美西斯二世统治下的埃及行政巩固",
+      "region": "埃及（尼罗河谷和三角洲）",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "拉美西斯二世继续对埃及领土进行行政巩固，管理新王国的复杂官僚机构。代尔麦地那的纸莎草纸记录了劳动组织、资源分配和国家项目。法老通过复杂的行政机构维持对努比亚、黎凡特和埃及本土的控制。这一时期见证了大型建筑项目的持续进行，包括神庙和纪念碑的工程。",
+      "key_figures": [
+        "拉美西斯二世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "来自代尔麦地那的行政纸莎草纸",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "神庙铭文和浮雕",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "拉美西斯二世统治期内的一般行政活动有充分记载，但个别年份的具体事件少有精确记载。",
+      "cross_references": []
+    },
+    {
+      "id": "-1318-002",
+      "title": "赫梯外交和军事巩固",
+      "region": "赫梯帝国",
+      "coordinates_approx": "35.5, 33.0",
+      "category": "political",
+      "description": "穆瓦塔里二世继续巩固赫梯在安纳托利亚和黎凡特的权力。来自博阿兹柯伊的楔形文字信件和行政泥板记录了与埃及、亚述及属国持续的外交谈判。赫梯帝国维持其作为青铜时代晚期大国之一的地位。",
+      "key_figures": [
+        "穆瓦塔里二世（赫梯大王）"
+      ],
+      "sources": [
+        {
+          "name": "来自博阿兹柯伊的楔形文字泥板",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "穆瓦塔里二世的统治有充分记载，但具体逐年事件难以确定。",
+      "cross_references": []
+    },
+    {
+      "id": "-1318-003",
+      "title": "迈锡尼陶器生产和爱琴海贸易网络",
+      "region": "迈锡尼希腊和东地中海",
+      "coordinates_approx": "37.7, 23.4",
+      "category": "economic",
+      "description": "迈锡尼陶器作坊继续生产用于国内使用和出口的精美陶器。考古证据显示了连接爱琴海与埃及、黎凡特、安纳托利亚和中地中海的广泛贸易网络。这种贸易对迈锡尼宫殿中心的财富和威望至关重要。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "考古陶器组合和分布研究",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "记录贸易商品的线形文字B泥板",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "迈锡尼贸易网络通过陶器分布和线形文字B记录得到了广泛记载。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "未发现针对所列事件的具体反证。然而，一些学者质疑这一时期“青铜时代晚期稳定”的宏观叙事，指出公元前14—13世纪存在环境压力、资源稀缺和社会动荡的证据，表明大国的表面稳定掩盖了潜在的脆弱性。",
+  "historiographic_note": "公元前1319年的历史记录与公元前1320年类似：以埃及和赫梯资料为主，迈锡尼证据来自线形文字B和考古学。逐年叙事稀疏；大多数事件是从更宽泛的模式而非具体年度记录重建的。年代学仍依赖埃及王在位年数和王表，这些本身存在争议。",
+  "graph_edges": [
+    {
+      "from": "-1318-001",
+      "to": "-1319-001",
+      "relation": "contemporary_with",
+      "note": "行政巩固从上一年延续而来。"
+    }
+  ]
+}

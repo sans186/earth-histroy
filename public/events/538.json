@@ -1,0 +1,103 @@
+{
+  "year": 538,
+  "year_label": "538年",
+  "era_context": "查士丁尼一世对西罗马帝国的再征服正在推进中，自535年开始的意大利哥特战争仍在继续。东罗马帝国处于领土的巅峰。科斯洛埃斯一世统治下的萨珊帝国正在巩固权力。在中国，东魏王朝已进入末期。这是瘟疫前时期，在查士丁尼大瘟疫产生重大影响之前。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "罗马边界以北的北欧地区",
+    "东南亚和大洋洲"
+  ],
+  "events": [
+    {
+      "id": "538-001",
+      "title": "贝利撒留继续征服意大利；哥特战争持续进行",
+      "region": "意大利，东罗马帝国",
+      "coordinates_approx": "42.50, 12.50",
+      "category": "military",
+      "description": "拜占庭将军贝利撒留继续从东哥特人手中收复意大利的战役。到538年，半岛大部分地区已被拜占庭控制，尽管东哥特国王托提拉仍在抵抗。始于535年的哥特战争处于中期阶段，拜占庭军队逐渐将哥特人逼入日益狭小的领土。",
+      "key_figures": [
+        "Belisarius (拜占庭将军)",
+        "Totila (东哥特国王)"
+      ],
+      "sources": [
+        {
+          "name": "普罗柯比，《战争史》",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "普罗柯比详细记载了哥特战争的进展。538年属于战争记录详尽的中期阶段。",
+      "cross_references": [
+        "535-001 (哥特战争开始)",
+        "540-001 (拉文纳围城)"
+      ]
+    },
+    {
+      "id": "538-002",
+      "title": "查士丁尼引水渠（瓦伦斯引水渠）在君士坦丁堡完工",
+      "region": "君士坦丁堡，东罗马帝国",
+      "coordinates_approx": "41.01, 28.98",
+      "category": "technological",
+      "description": "瓦伦斯引水渠是一项由查士丁尼一世下令修建的大型工程，旨在改善君士坦丁堡的供水。该引水渠代表了拜占庭工程的顶峰，是那个时代最令人印象深刻的建筑之一。它将在数个世纪内持续使用，是帝国在这个扩张时期技术能力和资源的证明。",
+      "key_figures": [
+        "Justinian I (东罗马皇帝)"
+      ],
+      "sources": [
+        {
+          "name": "普罗柯比，《建筑》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "来自引水渠结构的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "瓦伦斯引水渠的完工日期传统上认为是538年，但有些来源建议是528年或其他日期。普罗柯比在其关于查士丁尼建筑项目的记载中提到了它，但确切完工日期并不完全确定。",
+      "cross_references": []
+    },
+    {
+      "id": "538-003",
+      "title": "东魏王朝持续衰落；北齐王朝准备中",
+      "region": "中国北方",
+      "coordinates_approx": "36.00, 114.00",
+      "category": "political",
+      "description": "东魏王朝继续衰落，高氏家族巩固权力。该王朝将于550年正式终结，北齐王朝建立。这一时期反映了南北朝时期中国持续的政治分裂。",
+      "key_figures": [
+        "Gao Huan (军事强人)"
+      ],
+      "sources": [
+        {
+          "name": "《资治通鉴》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "东魏的衰落在中国历史记载中有据可查，但538年的具体事件不详。",
+      "cross_references": [
+        "550-001 (北齐建立)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "瓦伦斯引水渠的完工日期存在争议。有些来源将其定为528年，另一些定为538年或更晚。普罗柯比的记载没有提供确切日期。引水渠可能是分阶段完工的，这使得单一完工日期存在问题。538年哥特战争进展的描述基于普罗柯比的叙述，该叙述虽总体可靠，但含有某些修辞成分，可能没有完全反映冲突的复杂性。",
+  "historiographic_note": "538年关于拜占庭帝国的记录主要通过普罗柯比的记载而有一定程度的详细记录。中国文献虽可获取，但汇编于数世纪之后。西欧文献仍然稀少。历史记录集中于地中海和近东。",
+  "graph_edges": [
+    {
+      "from": "538-001",
+      "to": "540-001",
+      "relation": "led_to",
+      "note": "538年持续的哥特战争继续走向539–540年的拉文纳围城。"
+    },
+    {
+      "from": "538-002",
+      "to": "541-002",
+      "relation": "contemporary_with",
+      "note": "瓦伦斯引水渠的完工代表了拜占庭工程能力的顶峰，这一能力将在541年瘟疫到来时受到考验。"
+    }
+  ]
+}

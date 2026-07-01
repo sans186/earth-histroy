@@ -1,0 +1,99 @@
+{
+  "year": -3020,
+  "year_label": "前3020年",
+  "era_context": "埃及第五王朝早期，萨胡拉统治时期；美索不达米亚早王朝III期。第五王朝的特征是建造太阳神庙和较小型的金字塔，宗教重点转向太阳神学，以及埃及海上贸易的扩张。美索不达米亚城邦继续竞争动态。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-3020-001",
+      "title": "埃及第五王朝法老萨胡拉统治时期",
+      "region": "埃及（尼罗河流域）",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "萨胡拉传统上被定年为第五王朝第二任法老，在乌瑟卡夫之后执政。其统治传统上定于约前2491–前2477年。萨胡拉以在阿布西尔建造太阳神庙和金字塔群，以及明显扩张埃及海上贸易（特别是与黎凡特海岸的贸易，在描绘船只和外贸的浮雕中证实）而著称。其统治代表了第五王朝宗教和政治优先事项的巩固。",
+      "key_figures": [
+        "萨胡拉（埃及法老）",
+        "内费尔伊尔卡拉（可能的继任者）"
+      ],
+      "sources": [
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "阿拜多斯王表",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "阿布西尔的考古证据（萨胡拉金字塔和太阳神庙）",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "萨胡拉祭庙中描绘海上贸易的浮雕",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "曼涅托的《埃及史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "传统定年将其统治置于约前2491–前2477年。±50年的年代不确定性适用。海上贸易的证据在神庙浮雕中有考古证实，但其规模和性质存在争议。",
+      "cross_references": [
+        "继前3021年（乌瑟卡夫统治）之后",
+        "早于前3019年（内费尔伊尔卡拉统治，如果按顺序）"
+      ]
+    },
+    {
+      "id": "-3020-002",
+      "title": "印度河流域文明成熟阶段",
+      "region": "印度河流域（今巴基斯坦和印度西北部）",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "印度河流域文明在此时期处于成熟阶段，以大型城市中心（哈拉帕、摩亨佐达罗）、标准化的度量衡、独特的未解读文字和广泛的贸易网络为特征。该文明以明显缺乏宏伟宗教建筑和强调城市规划及手工业生产而著称。前3020年无具体事件记载，但该文明的物质文化在考古学上有充分证实。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "哈拉帕、摩亨佐达罗及其他印度河流域遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "印度河文字（未解读）",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明在这一时期的存在及特征有考古证实。但由于缺乏解读的文字记录，具体历史事件无法记载。该文明的年代基于放射性碳测年和地层分析。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "萨胡拉统治的传统定年与较早的第五王朝法老一样，存在同样的年代不确定性。这一时期埃及海上贸易的规模存在争议；一些学者认为描绘贸易的浮雕可能是意识形态表现而非实际贸易的准确记录。印度河流域文明的文字仍未被解读，因此关于其政治结构、宗教信仰或具体历史事件的说法均为推测。",
+  "historiographic_note": "前3020年的文献稀少。埃及史料间接（王表、考古证据、神庙浮雕）。印度河流域文明在考古学上有充分证实，但由于未解读文字，历史不透明。本年没有美索不达米亚史料。记录严重偏向精英活动和物质文化。",
+  "graph_edges": [
+    {
+      "from": "-3020-001",
+      "to": "-3021-001",
+      "relation": "caused_by",
+      "note": "萨胡拉统治在乌瑟卡夫之后"
+    },
+    {
+      "from": "-3020-001",
+      "to": "-3020-002",
+      "relation": "contemporary_with",
+      "note": "埃及萨胡拉的统治与印度河流域文明成熟阶段同时"
+    }
+  ]
+}

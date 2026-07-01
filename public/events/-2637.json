@@ -1,0 +1,76 @@
+{
+  "year": -2637,
+  "year_label": "公元前2637年",
+  "era_context": "美索不达米亚早王朝三期；埃及古王国（第四王朝）。阿卡德城邦巩固。印度河流域文明成熟阶段。青铜时代全面发展。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2637-001",
+      "title": "古王国埃及第四王朝持续主导",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "第四王朝维持了对埃及的中央集权法老权威。国家继续其纪念性建筑计划和宗教行政基础设施。尼罗河每年的泛滥周期提供了维持国家机器、祭司和建筑项目所必需的农业剩余。",
+      "key_figures": [
+        "胡夫或哈夫拉（法老，第四王朝）"
+      ],
+      "sources": [
+        {
+          "name": "来自古王国遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "存在±20-30年的年代学不确定性。",
+      "cross_references": [
+        "-2635-001",
+        "-2636-001"
+      ]
+    },
+    {
+      "id": "-2637-002",
+      "title": "印度河流域文明城市中心处于鼎盛",
+      "region": "印度河流域，南亚",
+      "coordinates_approx": "27.5, 72.0",
+      "category": "cultural",
+      "description": "哈拉帕和摩亨佐达罗等主要城市中心完全发达并运转。证据表明存在复杂的城市规划、标准化的度量衡和复杂的社会组织。未解译的印度河文字用于印章和陶器。文明的非军事化特征（武器极少）表明要么内部组织和平，要么外部安全。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河遗址的考古发掘",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "放射性碳测年将印度河成熟阶段定在约公元前2600-1900年。",
+      "cross_references": [
+        "-2635-002",
+        "-2636-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "没有针对公元前2637年的具体反证。该年在考古学上与周边年份无法区分。",
+  "historiographic_note": "该年代表了文献文明中的一个稳定时期。历史记录稀疏，完全依赖考古证据和后来的编纂。没有同期书面记录具体记载公元前2637年。",
+  "graph_edges": [
+    {
+      "from": "-2637-001",
+      "to": "-2635-001",
+      "relation": "contemporary_with",
+      "note": "第四王朝统治的延续"
+    },
+    {
+      "from": "-2637-002",
+      "to": "-2635-002",
+      "relation": "contemporary_with",
+      "note": "印度河文明处于稳定的成熟阶段"
+    }
+  ]
+}

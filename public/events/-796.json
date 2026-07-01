@@ -1,0 +1,95 @@
+{
+  "year": -796,
+  "year_label": "公元前796年",
+  "era_context": "早期铁器时代的地中海与近东。新亚述帝国正在巩固区域权力。希腊古风时期处于早期阶段。腓尼基海上网络主导地中海贸易。在中国，西周王朝接近其传统崩溃日期（公元前771年）。埃及仍处于分裂状态。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "美洲",
+    "北欧",
+    "中亚",
+    "南亚"
+  ],
+  "events": [
+    {
+      "id": "-796-001",
+      "title": "西周政治分裂",
+      "region": "中国",
+      "coordinates_approx": "34.0,109.0",
+      "category": "political",
+      "description": "西周王朝处于衰落的最后几十年。到公元前796年，诸侯以牺牲周中央权威为代价巩固权力。传统记载将此归因于周幽王（在位前781–前771年）的失政，但现代学者对这一衰落的程度和性质存在争议。该时期的考古证据显示青铜器制作和农业持续发展，但青铜器及铭文的分布表明地方自治日益增强。",
+      "key_figures": [
+        "周幽王（在位前781–前771年）"
+      ],
+      "sources": [
+        {
+          "name": "司马迁《史记》（约公元前109年编纂）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "青铜器铭文和甲骨文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "来自周代遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "西周的衰落有后世编年史的充分记载，并有考古证据支持。该时期内具体事件的年代不确定，常见±5年的误差。",
+      "cross_references": [
+        "与-798-001相关（西周衰落）"
+      ]
+    },
+    {
+      "id": "-796-002",
+      "title": "腓尼基地中海贸易网络",
+      "region": "腓尼基、地中海",
+      "coordinates_approx": "33.5,35.5",
+      "category": "economic",
+      "description": "腓尼基城邦在公元前8世纪处于海上和商业霸权顶峰。到公元前796年，腓尼基商人进行广泛的地中海贸易，交换雪松木、紫色染料、金属制品等货物以换取谷物、葡萄酒和原材料。腓尼基地的殖民地和贸易站在北非、西西里和西地中海建立。这一商业网络对地中海世界的经济发展至关重要。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自腓尼基定居点和沉船的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "关于腓尼基贸易的希腊史书（希罗多德、斯特拉波）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "腓尼基铭文与碑铭证据",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "腓尼基在公元前8世纪的海上霸权和贸易网络有充分的考古证据。公元前796年的具体事件未被记载；此条目描述更广泛的经济背景。",
+      "cross_references": [
+        "与-798-002相关（腓尼基海上扩张）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "西周在周幽王治下衰落的传统叙事受到一些现代学者质疑，他们认为这是一个渐进的分权过程而非突然崩溃。周朝崩解的确切原因和时间线仍存在争议。腓尼基贸易的年代学也存在争议，一些学者对某些殖民地和贸易站的建立时间提出更早或更晚的日期。",
+  "historiographic_note": "公元前796年的文献记载极少。无当代文字记录专门记载该年事件。历史记录依赖后世编纂和考古证据。年代不确定性显著，常见±5–10年的误差。存世文献严重偏向地中海和中国；广大地区无考古记录。",
+  "graph_edges": [
+    {
+      "from": "-796-001",
+      "to": "-771-001",
+      "relation": "led_to",
+      "note": "西周政治分裂最终导致传统崩溃日期公元前771年"
+    },
+    {
+      "from": "-796-002",
+      "to": "-814-001",
+      "relation": "contemporary_with",
+      "note": "该时期腓尼基贸易网络包括迦太基的传统建立（公元前814年）"
+    }
+  ]
+}

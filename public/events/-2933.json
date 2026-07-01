@@ -1,0 +1,80 @@
+{
+  "year": -2933,
+  "year_label": "公元前2933年",
+  "era_context": "青铜时代早期III期。纳拉姆辛治下的阿卡德帝国继续主宰美索不达米亚。埃及古王国（第六王朝）处于末期。印度河流域文明仍处于成熟城市阶段。这是近东高度中央集权的时期，尽管潜在的不稳定因素（气候压力、游牧民族压力、行政过度扩张）正在积聚。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "太平洋和大洋洲",
+    "中亚（书面记录有限）"
+  ],
+  "events": [
+    {
+      "id": "-2933-001",
+      "title": "阿卡德军事行动和行政巩固",
+      "region": "美索不达米亚和黎凡特",
+      "coordinates_approx": "34.5, 44.0",
+      "category": "military",
+      "description": "纳拉姆辛继续进行军事行动以巩固和扩大阿卡德控制。铭文记录了对卢卢比人（扎格罗斯山区的山地民族）、马图人（阿摩利游牧民）和其他群体的征伐。这些行动部分出于确保贸易路线和资源的需要，部分出于神授王权的意识形态宣示。帝国的军事基础设施和行政机构达到顶峰。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "纳拉姆辛铭文和胜利石碑",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "阿卡德档案中的行政文书",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的军事行动在当代铭文中有充分记载。其统治期内各次行动的具体定年不确定。",
+      "cross_references": []
+    },
+    {
+      "id": "-2933-002",
+      "title": "埃及可能的气候压力和尼罗河泛滥减少",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "environmental",
+      "description": "古气候证据表明，古王国晚期（约公元前2350–2180年）尼罗河泛滥减少，可能与东地中海和近东更广泛的干旱化有关。这种环境压力可能加剧了行政记录中可见的经济紧张和中央权威的削弱。气候与这一时期政治崩溃之间的关系仍存在争议。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "尼罗河洪水记录和尼罗计量器数据（后世汇编）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "古气候分析（冰芯、湖泊沉积物、树木年轮）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "提及谷物短缺的行政纸草",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "古气候证据表明这一时期泛滥减少，但精确时间和严重程度不确定。气候与政治崩溃之间的因果关系是推断而非直接文献证明。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "气候变化直接导致古王国崩溃的程度存在争议。一些学者认为行政过度扩张、贸易收入损失和内部政治分裂是主要驱动因素，气候是次要因素。阿卡德帝国在这一年的表观稳定与其在一代人之内迅速分裂形成对比，表明内部矛盾而非外部压力是崩溃的主要原因。",
+  "historiographic_note": "对于这一年，文献甚至比公元前2934年更稀疏。我们没有关于这一特定年份的具体事件记录；以上叙述是根据当代铭文和行政记录中更广泛的模式推断的。美索不达米亚和埃及的历史记录由王室和精英视角主导；普通民众、农民和劳工的经历基本不可见。",
+  "graph_edges": [
+    {
+      "from": "-2933-002",
+      "to": "-2934-002",
+      "relation": "contemporary_with",
+      "note": "这一时期埃及的环境压力与第六王朝的政治衰落同期。"
+    }
+  ]
+}

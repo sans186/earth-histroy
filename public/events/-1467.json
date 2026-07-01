@@ -1,0 +1,140 @@
+{
+  "year": -1467,
+  "year_label": "公元前1468年",
+  "era_context": "青铜时代晚期，埃及第18王朝中期，图特摩斯三世统治时期（约公元前1479–1425年）。赫梯帝国正在安纳托利亚和北叙利亚巩固权力。迈锡尼文明处于宫殿时期的高峰。商朝控制中国大部分地区。这一时期代表了青铜时代国际关系的成熟阶段，建立了贸易网络和外交协议。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（有限书面记录；考古证据稀少）",
+    "北欧（前文字社会；无同时代文献）",
+    "中美洲（该具体年份的纪念性建筑很少）",
+    "中亚（有限书面记录；主要是考古）"
+  ],
+  "events": [
+    {
+      "id": "-1467-001",
+      "title": "埃及的神庙建造与宗教活动",
+      "region": "埃及（底比斯/卢克索地区）",
+      "coordinates_approx": "25.7, 32.6",
+      "category": "religious",
+      "description": "图特摩斯三世继续进行雄心勃勃的神庙建造和翻新计划，特别是在卡纳克和其他底比斯神庙。这些神庙作为宗教仪式、行政活动和经济再分配的中心。神庙积累了广阔的土地所有权，雇用了数千名工人。宗教节日，特别是奥佩特节，强化了法老合法性和社会凝聚力。",
+      "key_figures": [
+        "图特摩斯三世（法老）",
+        "阿蒙大祭司"
+      ],
+      "sources": [
+        {
+          "name": "卡纳克的神庙铭文和浮雕",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "神庙遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "神庙建造有充分证据；具体年度活动的断代不太精确。",
+      "cross_references": []
+    },
+    {
+      "id": "-1467-002",
+      "title": "米坦尼与埃及的外交关系",
+      "region": "黎凡特和美索不达米亚",
+      "coordinates_approx": "36.0, 36.0",
+      "category": "political",
+      "description": "米坦尼王国位于美索不达米亚北部，在这一时期与埃及保持着复杂关系。虽然图特摩斯三世的战役削弱了米坦尼在黎凡特的影响力，但两大势力在权力平衡中共存。外交通信、礼物交换和偶尔的军事冲突是其特征。米坦尼以战车技术和印欧精英而闻名。",
+      "key_figures": [
+        "图特摩斯三世（埃及法老）",
+        "米坦尼国王（身份不确定）"
+      ],
+      "sources": [
+        {
+          "name": "提及米坦尼的埃及神庙铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "后来的阿玛纳信件（公元前14世纪）提供背景",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "米坦尼与埃及的关系有充分证据；该年份的具体事件断代不太精确。",
+      "cross_references": []
+    },
+    {
+      "id": "-1467-003",
+      "title": "迈锡尼宫殿经济与手工艺品生产",
+      "region": "爱琴海（希腊）",
+      "coordinates_approx": "37.7, 23.3",
+      "category": "economic",
+      "description": "迈锡尼、梯林斯和皮洛斯的迈锡尼宫殿是密集经济活动的中心。线形文字B泥板（尽管来自较晚时期）记录了农业剩余再分配、纺织品生产和手工艺专业化。宫殿经济基于对农业土地、手工艺品生产和长途贸易的控制。迈锡尼商人和手工艺人维持延伸到埃及、黎凡特及其他地区的网络。",
+      "key_figures": [
+        "迈锡尼宫殿统治者（同时代史料无名）"
+      ],
+      "sources": [
+        {
+          "name": "迈锡尼宫殿遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "线形文字B泥板（来自较晚时期，约公元前1450–1200年）",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "迈锡尼经济结构从考古证据和后来线形文字B泥板推断而来；断代到该具体年份是近似的。",
+      "cross_references": [
+        "-1468-003"
+      ]
+    },
+    {
+      "id": "-1467-004",
+      "title": "商朝的军事战役与甲骨占卜",
+      "region": "中国（黄河流域）",
+      "coordinates_approx": "34.5, 108.0",
+      "category": "military",
+      "description": "商朝对邻近民族和内部对手进行军事战役。甲骨文记载了与战争、狩猎和农业关切相关的占卜实践。商王既是军事指挥官也是大祭司，负责通过仪式和占卜维持宇宙秩序。青铜武器和战车在战争中使用日益增多。",
+      "key_figures": [
+        "商朝国王（身份不确定）"
+      ],
+      "sources": [
+        {
+          "name": "甲骨文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "安阳的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "商朝年代学存在争议；这一时期的断代基于甲骨类型学，有±20–50年的不确定性。",
+      "cross_references": [
+        "-1468-004"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "图特摩斯三世军事战役的重要性在埃及史料中有时被夸大；黎凡特遗址的考古证据表明控制比纪念性文本所暗示的更加分散，并存在定期叛乱。米坦尼在这一时期的权力可能大于埃及史料所承认的。迈锡尼年代学仍存争议，一些学者提出替代日期。商朝年代学同样存在争议。",
+  "historiographic_note": "埃及史料丰富但具有宣传性。黎凡特和米坦尼的观点基本缺失。迈锡尼证据主要是考古学；书面记录晚于这一时期。商朝甲骨提供了独特视角，但偏向精英关注。历史记录严重偏向精英、纪念性活动，远离日常生活或异议。该年份的断代精度有限。",
+  "graph_edges": [
+    {
+      "from": "-1467-001",
+      "to": "-1467-002",
+      "relation": "contemporary_with",
+      "note": "埃及神庙建造和外交活动同时进行"
+    },
+    {
+      "from": "-1467-003",
+      "to": "-1467-001",
+      "relation": "contemporary_with",
+      "note": "迈锡尼贸易商品在这一时期到达埃及"
+    }
+  ]
+}

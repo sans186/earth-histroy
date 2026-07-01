@@ -1,0 +1,106 @@
+{
+  "year": -1096,
+  "year_label": "公元前1097年",
+  "era_context": "青铜时代晚期崩溃处于最后阶段。拉美西斯三世统治下的埃及仍然是东地中海的主导力量。迈锡尼世界已完全过渡到铁器时代早期。赫梯帝国仍然分裂为新赫梯城邦。在中国，商朝处于最后几十年。这是重大政治和文化重组的时期。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中美洲",
+    "北欧",
+    "中亚",
+    "南亚"
+  ],
+  "events": [
+    {
+      "id": "-1096-001",
+      "title": "拉美西斯三世统治：行政和军事巩固",
+      "region": "埃及（新王国）",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "拉美西斯三世继续巩固埃及的权力和权威。他的统治以广泛的建筑项目、军事行动和行政改革为标志。法老维持着新王国的官僚机构，并确保宗教仪式和寺庙维护的延续。然而，长期趋势是法老权力相对于阿蒙祭司的衰落。",
+      "key_figures": [
+        "拉美西斯三世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "梅迪内特哈布的神庙浮雕和铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "行政纸莎草纸和记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "拉美西斯三世的统治通过埃及年代学得到良好断代。",
+      "cross_references": []
+    },
+    {
+      "id": "-1096-002",
+      "title": "腓尼基地中海海上扩张",
+      "region": "黎凡特和地中海",
+      "coordinates_approx": "33.5, 35.5",
+      "category": "economic",
+      "description": "腓尼基城邦继续在整个地中海扩展其海上贸易网络。主要青铜时代强国的衰落为腓尼基商人主导长途贸易创造了机会。腓尼基船只将雪松、紫染料和制造品等货物运往地中海及更远地区。这一时期标志着腓尼基地中海商业霸权的开始。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自腓尼基遗址和地中海水下考古的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "提及腓尼基贸易的埃及和赫梯记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "腓尼基海上扩张在考古学上得到证实，但精确断年到特定年份不确定。",
+      "cross_references": [
+        "-1098-002"
+      ]
+    },
+    {
+      "id": "-1096-003",
+      "title": "商朝甲骨文；晚期行政活动",
+      "region": "中国（黄河流域）",
+      "coordinates_approx": "34.5, 108.0",
+      "category": "cultural",
+      "description": "商朝晚期的甲骨文继续记录占卜、祭祀和行政活动。这些铭文提供了运转中的官僚系统的证据，尽管王朝整体衰落。内容反映了商朝晚期统治典型的对收成、军事行动和祭祀仪式的关注。",
+      "key_figures": [
+        "帝辛（末代商王）"
+      ],
+      "sources": [
+        {
+          "name": "甲骨文（商朝）",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "甲骨文与商朝同时代，但将个别甲骨精确断年到特定年份不可行。",
+      "cross_references": [
+        "-1097-004"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "腓尼基在青铜时代晚期崩溃后'兴起'的叙述可能过度简化了实际历史过程。最近学术研究表明腓尼基城市与青铜时代保持了比先前认为更大的连续性，并非简单地'兴起'进入真空。一些城市显示破坏层，但其他城市显示定居和贸易的连续性。主要青铜时代强国崩溃与腓尼基扩张之间的关系比简单的因果关系叙事更为复杂。",
+  "historiographic_note": "公元前1097年的文献记载稀少且区域分布不均。埃及资料丰富且与当代相关；希腊和安纳托利亚历史严重依赖考古学；中国资料限于甲骨文和后来的编纂。'青铜时代晚期崩溃'框架可能对不同区域过程强加人为的一致性。非洲、南亚和美洲存在显著空白。",
+  "graph_edges": [
+    {
+      "from": "-1096-001",
+      "to": "-1096-002",
+      "relation": "contemporary_with",
+      "note": "拉美西斯三世统治与腓尼基海上扩张同时"
+    },
+    {
+      "from": "-1096-002",
+      "to": "-1098-002",
+      "relation": "part_of",
+      "note": "腓尼基海上扩张是青铜时代晚期崩溃后腓尼基权力更广泛巩固的一部分"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "year": -2094,
+  "year_label": "公元前2094年",
+  "era_context": "埃及古王国晚期，地方分权深入；后阿卡德时期的美索不达米亚，城邦正在整合；成熟的印度河文明持续。该年份属于公元前三千纪晚期的过渡期，特征是中央集权的青铜时代帝国崩溃，区域势力兴起。",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "东亚"
+  ],
+  "events": [
+    {
+      "id": "-2094-001",
+      "title": "埃及古王国中央集权进入最后阶段",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "古王国的中央权威处于最后阶段。地方总督已巩固权力，法老中央调动资源的能力已降至名义水平。这一时期是古王国向第一中间期过渡的阶段。未见大型纪念性建筑和中央军事行动，与分权模式相符。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "反映行政碎片化的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "诺姆长铭文",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "总体模式证据确凿；但公元前2094年的具体事件无文献记载。",
+      "cross_references": [
+        "-2090-001",
+        "-2091-001",
+        "-2092-001",
+        "-2093-001"
+      ]
+    },
+    {
+      "id": "-2094-002",
+      "title": "美索不达米亚城邦巩固区域权威",
+      "region": "美索不达米亚",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "美索不达米亚城邦继续巩固区域权威。后阿卡德时期特征是无单一霸权势力，出现多极政治体系。城邦致力于神庙建设与贸易网络。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "反映城邦发展的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "总体模式在考古学上清晰；公元前2094年的具体事件未记载。",
+      "cross_references": [
+        "-2090-002",
+        "-2091-002",
+        "-2092-002",
+        "-2093-002"
+      ]
+    },
+    {
+      "id": "-2094-003",
+      "title": "印度河文明保持成熟期稳定",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "印度河文明在成熟期中继续无中断。城市中心正常运转，贸易网络活跃，文化习俗与成熟期整体一致。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "聚落连续性的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "考古证据证实这一时期稳定。",
+      "cross_references": [
+        "-2090-003",
+        "-2091-003",
+        "-2092-003",
+        "-2093-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "无针对公元前2094年的特定反证。",
+  "historiographic_note": "公元前2094年未在现存记录中被特别区分。该年份属于埃及和美索不达米亚政治碎片化的大背景，但无具体事件记录。这一时期的历史记录实质是一系列长期趋势而非年度事件。公元前2090-2094年这个五年跨度，凸显了为古代时段逐年重建历史的挑战：绝大多数年份在现存史料中未留下鲜明痕迹，历史叙事必然是对大格局和过渡期的描述，而非具体年度事件。",
+  "graph_edges": [
+    {
+      "from": "-2094-001",
+      "to": "-2093-001",
+      "relation": "part_of",
+      "note": "埃及古王国衰落过程的延续。"
+    },
+    {
+      "from": "-2094-002",
+      "to": "-2093-002",
+      "relation": "part_of",
+      "note": "美索不达米亚城邦整合过程的延续。"
+    },
+    {
+      "from": "-2094-001",
+      "to": "-2094-002",
+      "relation": "contemporary_with",
+      "note": "此时期埃及和美索不达米亚均经历政治碎片化和中央帝国崩溃。"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "year": -2513,
+  "year_label": "公元前2513年",
+  "era_context": "埃及古王国（第六王朝）延续，美索不达米亚的阿卡德帝国在纳拉姆辛统治下，印度河流域的成熟哈拉帕文明继续。这是一个高度国家集权、宏伟建筑和长途贸易的时期，尽管环境压力（特别是近东的干旱）正在开始积累。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "太平洋岛屿"
+  ],
+  "events": [
+    {
+      "id": "-2513-001",
+      "title": "古王国行政延续——埃及",
+      "region": "埃及",
+      "coordinates_approx": "26.5, 30.5",
+      "category": "political",
+      "description": "第六王朝法老继续行政和军事行动。这一时期墓志铭记载了前往努比亚（库什）获取黄金、象牙和香料，以及前往黎凡特获取雪松和其他资源的远征。向地方总督（诺姆长）的权力下放继续进行，这一趋势最终将削弱中央权威。金字塔建造继续，但与早期王朝相比规模缩小。",
+      "key_figures": [
+        "佩皮二世或佩皮一世（法老）"
+      ],
+      "sources": [
+        {
+          "name": "来自萨卡拉地区的墓志铭和行政纸莎草文献",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "逐年的具体事件没有单独记录；这代表了更广泛的统治背景。",
+      "cross_references": [
+        "延续自-2514-001"
+      ]
+    },
+    {
+      "id": "-2513-002",
+      "title": "阿卡德军事征战——纳拉姆辛的巩固",
+      "region": "美索不达米亚、黎凡特、扎格罗斯",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "military",
+      "description": "纳拉姆辛的军事征战继续扩大和巩固阿卡德的控制。铭文记载了针对卢卢比人（扎格罗斯山脉）、马尔图人（阿摩利人）及其他群体的战役。帝国的行政机构得到完善，阿卡德语和楔形文字被强制推行至被征服领土。然而，古气候证据表明该地区气候日益干旱，最终将给帝国的农业基础带来压力。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德王室铭文和行政文本",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "古气候记录（冰芯、树木年轮）",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治有充分证据；具体的逐年事件没有单独定年。",
+      "cross_references": [
+        "延续自-2514-002"
+      ]
+    },
+    {
+      "id": "-2513-003",
+      "title": "哈拉帕贸易网络——印度河流域",
+      "region": "印度河流域、波斯湾、美索不达米亚",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "哈拉帕文明维持着广泛的贸易网络。在美索不达米亚遗址（乌尔、拉格什）和波斯湾（迪尔蒙）发现的印章和砝码证实了频繁的货物交换。印度河流域产品（红玉髓、青金石、棉纺织品）用于交换美索不达米亚的锡、雪松和其他资源。度量衡的标准化促进了这种贸易。没有军事征服或政治统治的证据；贸易似乎是通过商人网络进行的。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "在美索不达米亚环境中发现的哈拉帕印章（乌尔、拉格什、尼普尔）",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "哈拉帕遗址中标准化的度量衡",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "贸易网络通过考古证据得到充分证实；具体的逐年波动没有记录。",
+      "cross_references": [
+        "延续自-2514-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "本年没有具体的反证；针对-2514指出的更广泛的年代学和解释性问题同样适用于此。",
+  "historiographic_note": "该年度在现存文献中无单独记载。列出的事件代表了-2514更广泛趋势的延续。这一时期无法还原逐年历史；只能识别统治层级或时代层级的模式。",
+  "graph_edges": [
+    {
+      "from": "-2514-001",
+      "to": "-2513-001",
+      "relation": "led_to",
+      "note": "第六王朝统治的延续"
+    },
+    {
+      "from": "-2514-002",
+      "to": "-2513-002",
+      "relation": "led_to",
+      "note": "阿卡德扩张的延续"
+    },
+    {
+      "from": "-2514-003",
+      "to": "-2513-003",
+      "relation": "led_to",
+      "note": "哈拉帕贸易网络的延续"
+    }
+  ]
+}

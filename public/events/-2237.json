@@ -1,0 +1,77 @@
+{
+  "year": -2237,
+  "year_label": "2237 BCE",
+  "era_context": "埃及古王国（第六王朝）处于最后一百年，权力日益下放。纳拉姆辛统治下的阿卡德帝国处于领土最大范围。印度河流域文明处于成熟阶段。在美索不达米亚，未受阿卡德控制的城邦保持着独立的政治结构。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "太平洋岛屿",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-2237-001",
+      "title": "佩皮二世统治下的埃及地方行政",
+      "region": "埃及，古王国",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "在佩皮二世统治期间，地方总督（州长）继续积累权力和资源，逐渐侵蚀法老国家的中央权威。来自地方官员的墓葬铭文记载了他们日益增强的独立性和财富。这一权力下放过程最终将导致第六王朝末古王国的崩溃。",
+      "key_figures": [
+        "佩皮二世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "阿斯旺、阿比多斯等地地方官员的墓葬铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "埃及行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "第六王朝期间权力下放的总体趋势有充分证据，但个别年份的具体事件没有记载。此条目代表佩皮二世统治期间持续的过程。",
+      "cross_references": [
+        "-2235-003"
+      ]
+    },
+    {
+      "id": "-2237-002",
+      "title": "印度河流域与美索不达米亚和波斯湾的贸易",
+      "region": "印度河流域与美索不达米亚，南亚和近东",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "考古证据表明印度河流域文明与美索不达米亚城邦之间存在活跃的贸易，在美索不达米亚背景中发现了印度河印章和文物，反之亦然。这一贸易网络延伸至波斯湾，包括中间的贸易站点。贸易反映了印度河流域文明融入更广泛的区域经济网络。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址和美索不达米亚考古发掘的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "在美索不达米亚背景中发现的印度河印章",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域和美索不达米亚之间的贸易在印度河成熟阶段（约公元前2600-1900年）得到考古证实，但无法确定到具体年份。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的反驳证据。",
+  "historiographic_note": "在现存的史料中，-2237年没有特定的记载事件。这一时期的历史记录由总体趋势和行政过程构成，而非离散事件。第六王朝期间埃及权威的下放是一个公认的历史过程，但其精确年表及个别官员的具体角色仍是学术争论的主题。",
+  "graph_edges": [
+    {
+      "from": "-2237-001",
+      "to": "-2184-FIRST_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "佩皮二世统治期间的权力下放促成了古王国的崩溃以及约公元前2184年第一中间期的开始。"
+    }
+  ]
+}

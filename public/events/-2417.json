@@ -1,0 +1,118 @@
+{
+  "year": -2417,
+  "year_label": "公元前2417年",
+  "era_context": "埃及古王国（第六王朝）处于末期。纳拉姆辛治下的阿卡德帝国正值鼎盛。印度河流域文明（哈拉帕）处于成熟阶段。这是一个已建立的帝国结构、纪念碑式建筑和远距离贸易网络的时代。",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-2417-001",
+      "title": "佩皮二世的统治（埃及，第六王朝）",
+      "region": "埃及，古王国",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "佩皮二世继续作为埃及法老统治。古王国正显现紧张迹象，地方长官权力增长，法老的中央权威削弱。然而，纪念碑式建筑继续进行，国家机器仍运作。本年份处在佩皮二世有争议的年表之内。",
+      "key_figures": [
+        "佩皮二世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "金字塔铭文与神庙铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "地方官员的自传铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "佩皮二世的统治在历史上有记载，但绝对年代有±50–100年的不确定度。",
+      "cross_references": [
+        "-2415-001（佩皮二世的统治）"
+      ]
+    },
+    {
+      "id": "-2417-002",
+      "title": "阿卡德帝国达到最大领土范围",
+      "region": "美索不达米亚、黎凡特、安纳托利亚、扎格罗斯山脉",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "纳拉姆辛治下的阿卡德帝国达到最大领土范围，控制美索不达米亚、黎凡特、安纳托利亚部分地区及扎格罗斯山脉。然而，维持如此广阔的领土控制正变得日益困难。存在内部不稳定和来自库提人及其他山民的外部压力迹象。帝国的行政体系正被拉伸至极限。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德之王）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德铭文与石碑",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "楔形文字行政记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿卡德帝国的领土范围在同时期铭文中有充分记载，但精确年表仍有争议。",
+      "cross_references": [
+        "-2415-002（纳拉姆辛治下的阿卡德帝国）"
+      ]
+    },
+    {
+      "id": "-2417-003",
+      "title": "繁荣的哈拉帕城市中心（印度河流域）",
+      "region": "印度河流域，南亚",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "cultural",
+      "description": "摩亨佐达罗、哈拉帕、多拉维拉等主要哈拉帕城市处于鼎盛。这些城市以规划过的街道网格、先进的排水系统、标准化的度量衡和广泛的工艺品生产为特征。文明维持着延伸到美索不达米亚和波斯湾的贸易网络。未被破译的印度河文字仍是一个谜。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "印度河印玺与铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈拉帕文明的存在和年表通过广泛的考古证据得到充分确认。",
+      "cross_references": [
+        "-2415-003（鼎盛的哈拉帕文明）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现特定的否定性证据。不过，本年的年代框架仍不确定。",
+  "historiographic_note": "本年是埃及和美索不达米亚之外文献稀疏的时期的一部分。记录严重偏向精英和王室叙事。世界大多数人口和文明在历史记录中未见。",
+  "graph_edges": [
+    {
+      "from": "-2417-001",
+      "to": "-2415-001",
+      "relation": "contemporary_with",
+      "note": "佩皮二世的统治继续。"
+    },
+    {
+      "from": "-2417-002",
+      "to": "-2415-002",
+      "relation": "contemporary_with",
+      "note": "阿卡德帝国处于最大范围。"
+    },
+    {
+      "from": "-2417-003",
+      "to": "-2415-003",
+      "relation": "contemporary_with",
+      "note": "哈拉帕文明处于鼎盛。"
+    }
+  ]
+}

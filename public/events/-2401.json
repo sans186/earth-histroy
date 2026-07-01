@@ -1,0 +1,73 @@
+{
+  "year": -2401,
+  "year_label": "公元前2401年",
+  "era_context": "黎凡特和美索不达米亚的青铜时代早期III期；纳拉姆-辛统治下的阿卡德帝国；埃及古王国日趋衰落；印度河流域文明处于成熟期；爱琴海和安纳托利亚各地的早期青铜时代文化。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "印度河文明及早期中国文化以外的东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2401-001",
+      "title": "纳拉姆-辛在位继续；阿卡德统治的巩固",
+      "region": "美索不达米亚",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "纳拉姆-辛的统治在本年继续进行，阿卡德帝国对美索不达米亚及周边地区的控制得到持续巩固。这一时期的行政文书和铭文记录了阿卡德国家机器的运转，包括税收、军事组织和贸易网络。该帝国当时正处于领土和行政管辖的巅峰，但内部紧张和外部压力也在积聚。",
+      "key_figures": [
+        "纳拉姆-辛（阿卡德皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德行政文书和铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "阿卡德行政中心的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆-辛的统治为史料充分证实，但其在位期间各年份的具体事件在历史记录中鲜少可辨。公元前2401年确在其统治期内，但该确切年份的特定事件并无明确记载。",
+      "cross_references": [
+        "与-2400-001同期"
+      ]
+    },
+    {
+      "id": "-2401-002",
+      "title": "印度河流域文明持续其成熟期发展",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 69.0",
+      "category": "economic",
+      "description": "印度河流域文明继续其成熟期的发展，各城市中心充当贸易、手工业生产及行政管理的枢纽。贸易网络横跨印度洋并深入中亚。该文明标准化的度量衡与行政体系持续运作，支撑着复杂的城市经济。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明的存在及其大致年代序列已获充分证实，但个别年份的具体事件并无文献记录。",
+      "cross_references": [
+        "与-2400-002同期"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "针对所列事件未发现特定否定性证据。不过，该时期的总体年代序列在绝对年代学上仍存学术争议。",
+  "historiographic_note": "公元前2401年在历史记录中与其前后年份并无区别。该特定年份无确切事件记载。这一时期的历史记录十分稀少，主要依赖考古证据和不提供逐年记录的铭文。所述事件多为对广阔时期的一般性概括。",
+  "graph_edges": [
+    {
+      "from": "-2401-001",
+      "to": "-2400-001",
+      "relation": "contemporary_with",
+      "note": "同属阿卡德帝国巩固时期。"
+    }
+  ]
+}

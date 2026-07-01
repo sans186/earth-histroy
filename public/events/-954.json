@@ -1,0 +1,50 @@
+{
+  "year": -954,
+  "year_label": "公元前954年",
+  "era_context": "黎凡特和东地中海早期的铁器时代II。新亚述帝国在Ashur-dan II（前934-912年在位）统治下巩固权力。希腊，几何时期已完全确立；字母文字尚未被采用。埃及处于第21王朝晚期，政治分裂。中国的周朝处于中期（西周，约前1046-771年），封建行政稳定。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（此时期无文字记录）",
+    "北欧（前文字社会；考古记录薄弱）",
+    "中美洲（此时期无与公历同步的文字年表）",
+    "大洋洲（无文字记录）"
+  ],
+  "events": [
+    {
+      "id": "-954-001",
+      "title": "Ashur-dan II巩固亚述权力并扩大军事行动",
+      "region": "美索不达米亚（亚述帝国）",
+      "coordinates_approx": "43.0, 35.5",
+      "category": "military",
+      "description": "亚述国王Ashur-dan II（前934-912年在位）继续军事行动，以恢复亚述在衰退期后的主导地位。到公元前954年，他已巩固核心地区并开始向北和向西扩张。他的战役针对阿拉米人国家，并重申亚述对幼发拉底河上游的霸权。这些战役为后来新亚述帝国的领土扩张奠定了基础。",
+      "key_figures": [
+        "Ashur-dan II (亚述国王)"
+      ],
+      "sources": [
+        {
+          "name": "亚述王表和王室铭文（Ashur-dan II的编年史）",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "关于新亚述年代学的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ashur-dan II的统治在亚述资料中有充分证明。具体年份公元前954年由基于王表计算的现代年代学共识确定，不确定性为±2-3年。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "已列事件未发现反驳证据。但Ashur-dan II统治的绝对年代依赖于美索不达米亚研究中\"中\"年代学与\"低\"年代学的争论；一些学者将其统治定位为早或晚50-100年。这并不影响事件的相对顺序，但给公历年份分配引入了不确定性。",
+  "historiographic_note": "公元前954年的历史记录严重依赖美索不达米亚资料，特别是亚述王室铭文。埃及资料此时期（第21王朝晚期）零碎。希腊资料缺失；几何时期仅通过考古学得知。中国资料（甲骨文、早期周代记录）存在，但现代学术中未与这一年同步。记录严重偏向近东和地中海；非洲、北欧和美洲在这一年考古学上不可见。",
+  "graph_edges": [
+    {
+      "from": "-954-001",
+      "to": "-912-ASHUR_DAN_II_DEATH",
+      "relation": "part_of",
+      "note": "Ashur-dan II的统治范围为公元前934-912年；此战役是他更广泛整合战略的一部分"
+    }
+  ]
+}

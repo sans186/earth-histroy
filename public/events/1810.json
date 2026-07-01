@@ -1,0 +1,408 @@
+{
+  "year": 1810,
+  "year_label": "1810年",
+  "era_context": "拿破仑战争继续主导欧洲政治；拿破仑帝国达到其最大领土范围。在美洲，独立运动正在积聚势头：阿根廷和智利迈向独立。工业革命在英国加速。清朝面临内部挑战；德川幕府在日本维持锁国。奥斯曼帝国因与俄罗斯的持续战争而削弱。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1810-001",
+      "title": "半岛战争：罗德里戈城围城战",
+      "region": "伊比利亚半岛（西班牙）",
+      "coordinates_approx": "40.53, -6.54",
+      "category": "military",
+      "description": "阿瑟·韦尔斯利将军（后来的威灵顿公爵）率领的英军于1810年8月19日围攻并占领了法军据守的罗德里戈城要塞。围城从5月持续到8月，是半岛战争中英国的一次重大胜利。攻占罗德里戈城为英军进一步深入西班牙开辟了道路，并展示了威灵顿日益增长的军事能力。该要塞防御坚固，其攻占需要复杂的围城技术。",
+      "key_figures": [
+        "威灵顿公爵阿瑟·韦尔斯利（英军指挥官）",
+        "奥古斯特-弗雷德里克-路易·维耶斯·德·马尔蒙将军（法军指挥官）",
+        "让-巴蒂斯特·儒尔当将军（西班牙法军总司令）"
+      ],
+      "sources": [
+        {
+          "name": "威灵顿给英国陆军部的急件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "法国军事报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（奥曼、钱德勒、缪尔）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "围城及其日期在军事记录中有广泛记载。结果和战略意义无争议。",
+      "cross_references": [
+        "1811-001（阿尔布埃拉战役）",
+        "1812-001（巴达霍斯围城战）"
+      ]
+    },
+    {
+      "id": "1810-002",
+      "title": "阿根廷：五月革命",
+      "region": "南美洲（阿根廷/拉普拉塔总督辖区）",
+      "coordinates_approx": "-34.60, -58.38",
+      "category": "political",
+      "description": "1810年5月25日，布宜诺斯艾利斯宣布脱离西班牙统治，成立了拉普拉塔总督辖区的首届军政府（Primera Junta）。革命的导火索是拿破仑入侵西班牙后西班牙政府的虚弱以及费尔南多七世的退位。五月革命被认为是阿根廷独立的开端，尽管完全独立直到1816年才正式宣布。这场革命激发了整个南美洲的类似运动。",
+      "key_figures": [
+        "科内利奥·萨维德拉（军政府主席）",
+        "马里亚诺·莫雷诺（秘书）",
+        "胡安·何塞·卡斯特利（革命领袖）"
+      ],
+      "sources": [
+        {
+          "name": "《五月革命法案》（原始文件）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "西班牙殖民信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（林奇、斯科比、阿尔佩林·东希）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "日期和事件在原始资料中有明确记载。五月革命是阿根廷历史的奠基时刻。",
+      "cross_references": [
+        "1811-003（墨西哥独立开始）",
+        "1816-001（阿根廷正式宣布独立）"
+      ]
+    },
+    {
+      "id": "1810-003",
+      "title": "智利：独立运动开始",
+      "region": "南美洲（智利）",
+      "coordinates_approx": "-33.45, -70.67",
+      "category": "political",
+      "description": "1810年9月，智利效仿布宜诺斯艾利斯，在圣地亚哥成立了军政府。智利军政府宣布脱离西班牙自治，尽管名义上仍承认费尔南多七世。这标志着智利独立的开端，尽管完全独立直到1818年才实现。智利独立运动受到启蒙思想、美国革命榜样的影响，以及拿破仑入侵后西班牙的虚弱。",
+      "key_figures": [
+        "马特奥·德·托罗·桑布拉诺（军政府主席）",
+        "胡安·马丁内斯·德·罗萨斯（革命领袖）",
+        "贝尔纳多·奥希金斯（军事领袖，未来的独立英雄）"
+      ],
+      "sources": [
+        {
+          "name": "智利军政府记录和宣言",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "西班牙殖民信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（科利尔、萨特、巴罗斯·阿拉纳）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1810年9月军政府的建立在明确记载中。该日期标志着智利独立运动的开始。",
+      "cross_references": [
+        "1818-001（智利实现独立）",
+        "1810-002（阿根廷五月革命）"
+      ]
+    },
+    {
+      "id": "1810-004",
+      "title": "拿破仑战争：塔拉韦拉战役",
+      "region": "伊比利亚半岛（西班牙）",
+      "coordinates_approx": "39.95, -4.85",
+      "category": "military",
+      "description": "1810年7月27日至28日，威灵顿率领的英西联军在塔拉韦拉德拉雷纳与克洛德·维克托-佩兰元帅率领的法军交战。战役在战术上未分胜负，但具有战略意义：它表明英军能够在旷野战斗中对抗法国军队。然而，由于缺乏西班牙支援和补给困难，英军被迫撤退。塔拉韦拉提升了英国士气，并确立了威灵顿作为能干指挥官的声誉。",
+      "key_figures": [
+        "威灵顿公爵阿瑟·韦尔斯利（英军指挥官）",
+        "克洛德·维克托-佩兰（法国元帅）",
+        "格雷戈里奥·加西亚·德·拉·奎斯塔将军（西班牙指挥官）"
+      ],
+      "sources": [
+        {
+          "name": "威灵顿的急件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "法国军事报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（奥曼、钱德勒、缪尔）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "战役的日期、地点和结果有明确记载。现代学术强调其战术上的无结果性，尽管具有战略意义。",
+      "cross_references": [
+        "1810-001（罗德里戈城围城战）",
+        "1811-001（阿尔布埃拉战役）"
+      ]
+    },
+    {
+      "id": "1810-005",
+      "title": "英国纺织业：棉花生产高峰",
+      "region": "英格兰（兰开夏郡）",
+      "coordinates_approx": "53.50, -2.30",
+      "category": "economic",
+      "description": "到1810年，英国棉纺织生产已达到前所未有的水平，由机械化和工厂生产的扩张驱动。棉花产业是工业革命的领先部门，创造了巨大财富并推动了城市化。英国棉花出口主导全球市场，尤其是在拿破仑封锁阻止法国竞争之后。该产业的增长建立在美洲的奴隶劳动和殖民地棉花生产之上，形成了三角贸易体系。",
+      "key_figures": [
+        "理查德·阿克莱特（发明家，1792年去世）",
+        "塞缪尔·克朗普顿（发明家，1827年去世）",
+        "工厂主和商人"
+      ],
+      "sources": [
+        {
+          "name": "贸易统计和海关记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "工厂记录和商业信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（兰德斯、莫基尔、克拉夫茨）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1810年的棉花生产统计在贸易记录中有明确记载。该年份标志着在1812年战争干扰前的生产高峰。",
+      "cross_references": [
+        "1811-008（动力织布机扩张）",
+        "1815-002（战后经济调整）"
+      ]
+    },
+    {
+      "id": "1810-006",
+      "title": "俄土战争：持续战役",
+      "region": "奥斯曼帝国和俄罗斯帝国（巴尔干、高加索）",
+      "coordinates_approx": "42.00, 35.00",
+      "category": "military",
+      "description": "俄土战争（1806–1812）在1810年仍在继续，俄军在摩尔达维亚和瓦拉几亚取得进展。米哈伊尔·库图佐夫将军领导了对抗奥斯曼军队的俄罗斯战役，逐步迫使其后撤。战争对两个帝国都代价高昂，最终将通过1812年的布加勒斯特条约解决。冲突因拿破仑在欧洲的活动和奥斯曼帝国的内部不稳定而复杂化。",
+      "key_figures": [
+        "米哈伊尔·库图佐夫（俄罗斯将军）",
+        "塞利姆三世（奥斯曼苏丹）",
+        "穆斯塔法四世（1807年起为奥斯曼苏丹）"
+      ],
+      "sources": [
+        {
+          "name": "俄罗斯军事档案",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "奥斯曼记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（耶拉维奇、肖、阿克桑）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "军事战役及其结果在俄罗斯和奥斯曼记录中有明确记载。",
+      "cross_references": [
+        "1806-001（俄土战争爆发）",
+        "1812-005（布加勒斯特条约）"
+      ]
+    },
+    {
+      "id": "1810-007",
+      "title": "清朝：嘉庆时期的行政改革",
+      "region": "中国（清朝）",
+      "coordinates_approx": "35.00, 105.00",
+      "category": "political",
+      "description": "嘉庆帝继续进行行政改革，旨在加强清朝治理和打击腐败。1810年，清廷正在处理白莲教起义（1796–1811）的余波，试图恢复秩序和财政稳定。嘉庆的改革包括改进科举制度和减少官员腐败，但其有效性受到既得利益者和帝国结构性挑战的限制。",
+      "key_figures": [
+        "嘉庆帝（清朝统治者）",
+        "和珅（清朝官员，1807年被处决）",
+        "福康安（清朝将军，1799年去世）"
+      ],
+      "sources": [
+        {
+          "name": "清代诏令和记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《实录》及后世编纂",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "史学共识（史景迁、罗威廉、孔飞力）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "嘉庆的行政活动在清朝记录中有记载，但1810年的具体重要性不如其他年份明确。",
+      "cross_references": [
+        "1811-007（白莲教起义被镇压）",
+        "1840-001（第一次鸦片战争）"
+      ]
+    },
+    {
+      "id": "1810-008",
+      "title": "德川幕府：持续锁国政策",
+      "region": "日本",
+      "coordinates_approx": "36.00, 138.00",
+      "category": "political",
+      "description": "德川家齐统治下的德川幕府维持了锁国政策（闭关锁国），限制对外接触和贸易。1810年，幕府继续对外国船只和商人实施严格控制。锁国政策旨在维持内部稳定和防止外国影响，但也限制了日本接触新技术和思想。该政策将持续到1850年代。",
+      "key_figures": [
+        "德川家齐（将军）",
+        "松平定信（前摄政，1829年去世）"
+      ],
+      "sources": [
+        {
+          "name": "德川幕府行政记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "日本编年史",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（托特曼、樱井、弗拉斯托斯）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "锁国政策在1810年的延续有明确记载。该年份代表延续而非变化。",
+      "cross_references": [
+        "1853-001（佩里远征打开日本）",
+        "1868-001（明治维新）"
+      ]
+    },
+    {
+      "id": "1810-009",
+      "title": "拿破仑战争：大陆体系执行",
+      "region": "欧洲",
+      "coordinates_approx": "null",
+      "category": "economic",
+      "description": "1810年，拿破仑的大陆体系——旨在孤立英国的经济封锁——达到顶峰。该体系禁止欧洲与英国贸易，旨在削弱英国经济。然而，走私活动猖獗，封锁的有效性有限。大陆体系在整个欧洲造成了经济困难，并加剧了对法国统治的不满，特别是在西班牙和俄罗斯。该体系在拿破仑战败后崩溃。",
+      "key_figures": [
+        "拿破仑·波拿巴（法国皇帝）",
+        "英国商人和走私者"
+      ],
+      "sources": [
+        {
+          "name": "法国帝国敕令和信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "英国贸易记录和外交信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（埃利斯、埃斯代尔、德怀尔）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "大陆体系在1810年的执行有明确记载。其经济影响和局限性在学术中得到广泛分析。",
+      "cross_references": [
+        "1806-002（大陆体系开始）",
+        "1815-001（拿破仑战争结束）"
+      ]
+    },
+    {
+      "id": "1810-010",
+      "title": "英国议会：摄政危机解决",
+      "region": "联合王国",
+      "coordinates_approx": "51.50, -0.13",
+      "category": "political",
+      "description": "1810年，国王乔治三世的精神疾病（可能是卟啉症）达到危急关头，议会就由威尔士亲王（后来的乔治四世）摄政展开辩论。1810–1811年的摄政危机通过《摄政法案》解决，该法案确立了权力有限的威尔士亲王为摄政王。危机暴露了君主制与议会之间以及不同政治派别之间的紧张关系。威尔士亲王的摄政将持续至1820年乔治三世去世。",
+      "key_figures": [
+        "乔治三世（大不列颠国王）",
+        "乔治·威尔士亲王（未来的乔治四世）",
+        "格伦维尔勋爵（首相）",
+        "斯宾塞·珀西瓦尔（1809年起为首相）"
+      ],
+      "sources": [
+        {
+          "name": "议会记录和辩论",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "王室信函和医疗记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识（希伯特、坎农、沃森）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "摄政危机及其解决在议会记录和同时代记述中有广泛记载。",
+      "cross_references": [
+        "1811-001（《摄政法案》正式颁布）",
+        "1820-001（乔治三世去世，乔治四世继位）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "塔拉韦拉战役常被描述为英国胜利，但现代学术强调它在战术上未分胜负，且英军被迫撤退；该战役的意义更多是心理上的而非军事上的。阿根廷五月革命有时被描绘为统一的独立运动，但实际上是由布宜诺斯艾利斯的上层精英推动，并面临其他地区的强烈反对；革命的“民族”特征有些是构建的。大陆体系常被描绘为非常有效，但近期研究（埃利斯、埃斯代尔）表明走私猖獗，该体系对英国经济的影响有限。摄政危机有时被视为宪法危机，但主要通过议会程序解决，未发生根本性宪法变革。",
+  "historiographic_note": "1810年在欧洲资料中记载丰富，特别是关于拿破仑战争和英国政治。西班牙美洲独立运动在西班牙殖民档案和后来的拉丁美洲史学中有明确记载。英国议会和贸易记录丰富。亚洲资料在西方史学中较为有限；日本和中国的记录存在但常被低估。该年份反映了现有资料中的欧洲中心偏见；非洲、大洋洲和中亚的事件基本缺失。资料本身受其来源影响：西班牙殖民记录强调西班牙视角；英国军事记录颂扬威灵顿的战役；拉丁美洲资料强调独立和反抗殖民主义。",
+  "graph_edges": [
+    {
+      "from": "1810-001",
+      "to": "1811-001",
+      "relation": "led_to",
+      "note": "攻占罗德里戈城使英军得以进一步推进，导致了阿尔布埃拉战役"
+    },
+    {
+      "from": "1810-002",
+      "to": "1816-001",
+      "relation": "led_to",
+      "note": "五月革命开启了独立进程，于1816年完成"
+    },
+    {
+      "from": "1810-003",
+      "to": "1818-001",
+      "relation": "led_to",
+      "note": "智利军政府导致了1818年的独立"
+    },
+    {
+      "from": "1810-004",
+      "to": "1810-001",
+      "relation": "contemporary_with",
+      "note": "塔拉韦拉和罗德里戈城属于同一半岛战争战役"
+    },
+    {
+      "from": "1810-005",
+      "to": "1811-005",
+      "relation": "led_to",
+      "note": "棉花产业扩张加剧了劳动力替代并导致卢德派起义"
+    },
+    {
+      "from": "1810-009",
+      "to": "1812-003",
+      "relation": "led_to",
+      "note": "大陆体系加剧了导致1812年战争的紧张局势"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "year": 1167,
+  "year_label": "公元1167年",
+  "era_context": "12世纪末是地中海和近东地区重大政治重组时期。阿尤布苏丹国在萨拉丁领导下崛起；拜占庭帝国在衰落；黎凡特的十字军国家面临日益增大的压力；中国宋朝处于成熟繁荣阶段；西欧由安茹帝国和各种封建王国主导。这是多个文明中军事战役、政治巩固和文化发展的重要时期。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（有限的文字资料）",
+    "东南亚（稀疏的当代文献）",
+    "大洋洲和太平洋岛屿（可忽略的文字记录）"
+  ],
+  "events": [
+    {
+      "id": "1167-001",
+      "title": "阿尤布-十字军冲突：希尔库赫在埃及的战役",
+      "region": "埃及、十字军国家",
+      "coordinates_approx": "30.0444, 31.2357",
+      "category": "military",
+      "description": "阿尤布将领、萨拉丁的叔父希尔库赫于1167年在埃及领导了军事战役，这是争夺东地中海控制权更广泛斗争的一部分。这些战役是阿尤布巩固在埃及权力和对抗十字军影响战略的一部分。战役涉及复杂的外交和军事 maneuvering，埃及内部各派系争夺权力。希尔库赫在这些战役中的成功为他于1169年被任命为维齐尔以及萨拉丁随后崛起奠定了基础。",
+      "key_figures": [
+        "希尔库赫（阿尤布将领）",
+        "萨拉丁（阿尤布军官，希尔库赫之侄）",
+        "阿马尔里克一世（耶路撒冷国王）"
+      ],
+      "sources": [
+        {
+          "name": "伊本·阿西尔，《全史》（al-Kāmil fī al-Tārīkh）",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "提尔的威廉，《十字军历史》",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿尤布在埃及的战役在1160年代的大致轨迹有充分记载，尽管1167年具体事件在现存资料中有时与相邻年份混淆。",
+      "cross_references": [
+        "Led to 1168-001 (Ayyubid consolidation in Egypt)",
+        "Led to 1169-001 (Saladin's appointment as vizier)"
+      ]
+    },
+    {
+      "id": "1167-002",
+      "title": "拜占庭-诺曼冲突：曼努埃尔一世在巴尔干的战役",
+      "region": "拜占庭帝国、巴尔干",
+      "coordinates_approx": "42.6977, 23.3219",
+      "category": "military",
+      "description": "拜占庭皇帝曼努埃尔一世·科穆宁（在位1143–1180）于1167年在巴尔干进行军事战役，以维持拜占庭对该地区的控制，并应对来自巴尔干各势力和西西里诺曼王国的威胁。这些战役反映了拜占庭帝国为维持领土完整和地区影响而进行的持续斗争。这一时期，拜占庭领土受到多方压力，促成了帝国的最终衰落。",
+      "key_figures": [
+        "曼努埃尔一世·科穆宁（拜占庭皇帝，在位1143–1180）"
+      ],
+      "sources": [
+        {
+          "name": "霍尼亚特斯，《拜占庭史》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "关于拜占庭军事战役的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "拜占庭在巴尔干的军事战役在1160年代和1170年代持续进行。1167年的具体事件在后来的拜占庭编年史中有记载，但细节不如当代西方资料丰富。",
+      "cross_references": [
+        "Part of broader Byzantine decline in the 12th century",
+        "Related to 1204-001 (Fourth Crusade's sack of Constantinople)"
+      ]
+    },
+    {
+      "id": "1167-003",
+      "title": "亨利二世与托马斯·贝克特的冲突持续",
+      "region": "英格兰、法国",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "political",
+      "description": "国王亨利二世与坎特伯雷大主教托马斯·贝克特之间的冲突在1167年持续。贝克特仍流亡法国，关于教会特权和王权的争端仍未解决。世俗权力与教会权力之间的紧张关系是这一时期的一个特征，亨利与贝克特的冲突成为整个基督教世界国王与教会之间更广泛斗争的象征。和解尝试最终失败，导致贝克特于1170年12月被谋杀。",
+      "key_figures": [
+        "亨利二世（英格兰国王）",
+        "托马斯·贝克特（坎特伯雷大主教，流亡中）",
+        "教皇亚历山大三世"
+      ],
+      "sources": [
+        {
+          "name": "霍维登的罗杰，《编年史》",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "纽堡的威廉，《英国事务史》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "亨利二世与贝克特之间持续的冲突有充分记载，尽管1167年具体事件在现存记述中有时与相邻年份合并。",
+      "cross_references": [
+        "Led to 1170-002 (Murder of Thomas Becket)"
+      ]
+    },
+    {
+      "id": "1167-004",
+      "title": "宋朝的学术文化繁荣",
+      "region": "宋朝，中国",
+      "coordinates_approx": "30.2741, 120.1551",
+      "category": "cultural",
+      "description": "1167年的宋朝正处于一段非凡的学术文化繁荣时期。学者们发展新的哲学体系，诗人创作精致的文学作品，艺术家创作绘画和书法的杰作。以儒家经典为基础的科举制度培养了一个高度教育化的官僚精英阶层。这一时期在印刷、数学、天文和医学方面取得了进步。宋朝对教育和学术的支持促进了其经济繁荣和文化影响。",
+      "key_figures": [
+        "宋孝宗（在位1163–1189）",
+        "朱熹（新儒家哲学家）"
+      ],
+      "sources": [
+        {
+          "name": "《宋史》，元朝编纂",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "关于宋朝学术生活的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "宋朝的学术繁荣在中方资料中有充分记载，尽管1167年具体事件常作为更广泛趋势的一部分而非离散事件呈现。",
+      "cross_references": [
+        "Part of Song Dynasty's cultural and intellectual golden age (960–1279)"
+      ]
+    },
+    {
+      "id": "1167-005",
+      "title": "十字军国家的内部冲突与继承问题",
+      "region": "十字军国家，黎凡特",
+      "coordinates_approx": "31.9454, 35.2272",
+      "category": "political",
+      "description": "1167年的十字军国家正经历内部冲突和继承问题，削弱了它们抵抗穆斯林扩张的能力。耶路撒冷国王阿马尔里克一世（在位1163–1174）面临各贵族派系的挑战，并处理继承问题。十字军国家日益分裂，无法形成统一阵线对抗萨拉丁领导下的阿尤布势力。这些内部分歧将导致1187年哈廷战役的灾难性失败。",
+      "key_figures": [
+        "阿马尔里克一世（耶路撒冷国王，在位1163–1174）",
+        "鲍德温四世（麻风王，在位1174–1185）"
+      ],
+      "sources": [
+        {
+          "name": "提尔的威廉，《十字军历史》",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "关于十字军国家政治的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "十字军国家的内部冲突在当代编年史中有记载，尽管1167年具体事件常作为更广泛趋势的一部分呈现。",
+      "cross_references": [
+        "Led to 1187-001 (Saladin's victory at Hattin)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "传统上将阿尤布-十字军冲突描绘为简单的二元斗争，忽略了该时期复杂的 diplomatic 关系和变幻的联盟。亨利二世与贝克特之间的冲突有时被呈现为 straightforward 的权力斗争，但现代学术强调其中关于教会独立性的真正神学和法律问题。十字军国家有时被描绘为统一实体，但它们实际上是竞争利益的分裂政治单位。宋朝的学术成就有时归因于单一时期，但它们是数百年发展的结果。",
+  "historiographic_note": "1167年在西欧和伊斯兰资料中有中等程度的记载，当代或近当代编年史提供了主要政治和军事事件的记录。然而，视角严重偏向精英政治和军事史；经济、社会和文化发展记录较少。中方资料丰富但 heavily 集中于宫廷政治和行政事务。现存资料反映了文字精英——宫廷编年史家、宗教机构和后世编纂者——的偏见，可能低估了普通人、女性和非精英群体的经历。撒哈拉以南非洲、东南亚和大洋洲的历史在很大程度上缺席于当代文字记录。",
+  "graph_edges": [
+    {
+      "from": "1167-001",
+      "to": "1168-001",
+      "relation": "led_to",
+      "note": "希尔库赫在1167年的战役持续到1168年并导致他巩固权力"
+    },
+    {
+      "from": "1167-002",
+      "to": "1176-001",
+      "relation": "led_to",
+      "note": "拜占庭在1167年的军事战役持续并在1176年米尔奥凯法隆战役中达到高潮"
+    },
+    {
+      "from": "1167-003",
+      "to": "1170-002",
+      "relation": "led_to",
+      "note": "亨利二世与贝克特在1167年的持续冲突导致贝克特于1170年被谋杀"
+    },
+    {
+      "from": "1167-005",
+      "to": "1187-001",
+      "relation": "led_to",
+      "note": "十字军国家在1167年的内部冲突促成了萨拉丁在1187年哈廷战役的胜利"
+    }
+  ]
+}

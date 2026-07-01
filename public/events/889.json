@@ -1,0 +1,118 @@
+{
+  "year": 889,
+  "year_label": "889 年",
+  "era_context": "9世纪末期以加洛林帝国的分裂和西欧地区王国的巩固为标志。维京时代持续，袭击和定居不断。阿拔斯哈里发国正在衰落，地区王朝宣称独立。在东亚，唐朝处于最后几年，陷入军阀割据。日本的平安时代已稳固建立，贵族宫廷文化繁荣。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东南亚",
+    "前哥伦布时期美洲",
+    "斯堪的纳维亚（有限的当代文字记录）"
+  ],
+  "events": [
+    {
+      "id": "889-001",
+      "title": "藤原基经去世",
+      "region": "日本（平安时代）",
+      "coordinates_approx": "35.0, 135.5",
+      "category": "political",
+      "description": "藤原基经，强大的摄政和日本朝廷首席顾问，于891年去世（一些来源称889年）。他的去世标志着藤原摄关制度的过渡。基经曾是朝廷中主导的政治人物，他的去世在藤原家族内部引发了继承斗争。确切日期在来源中存在争议。",
+      "key_figures": [
+        "藤原基经（首席摄政）"
+      ],
+      "sources": [
+        {
+          "name": "《日本三代实录》",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "后期日本历史编纂物",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "基经的去世在大多数来源中记载为891年，而非889年。889年可能反映替代日期或传承中的混淆。现代学术界普遍接受891年为正确日期。",
+      "cross_references": [
+        "与890年代初藤原权力的继承相关"
+      ]
+    },
+    {
+      "id": "889-002",
+      "title": "维京人继续袭击西欧",
+      "region": "西欧（法兰克、不列颠群岛）",
+      "coordinates_approx": "50.0, 5.0",
+      "category": "military",
+      "description": "维京人持续袭击整个西欧，目标为修道院、沿海定居点和河谷。这些袭击是9世纪末期北欧扩张持续的特征。889年具体袭击在各种编年史中有记载，尽管个别事件往往记载不足。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "《富尔达编年史》及其他法兰克编年史",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "《盎格鲁-撒克逊编年史》",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "维京袭击在编年史中有充分记载，但889年具体事件并不总是与相邻年份的袭击明确区分。",
+      "cross_references": [
+        "是更广泛维京时代（793–1066年）的一部分"
+      ]
+    },
+    {
+      "id": "889-003",
+      "title": "阿拔斯哈里发国内部纷争",
+      "region": "阿拔斯哈里发国（以巴格达为中心）",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "阿拔斯哈里发国继续经历内部分裂和中央权威丧失。地区王朝（埃及的图伦王朝、中亚的萨曼王朝、叙利亚的伊赫什德王朝）宣称独立。哈里发的权威日益流于形式，局限于巴格达及其周边地区。这一时期标志着阿拔斯中央集权权力的实际终结。",
+      "key_figures": [
+        "穆克塔菲（阿拔斯哈里发，在位期888–892年）"
+      ],
+      "sources": [
+        {
+          "name": "后期伊斯兰编年史（如塔巴里《历代先知与帝王史》）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "钱币学和铭文证据",
+          "type": "historiographic_consensus",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿拔斯哈里发国的分裂有充分证据，但889年具体事件未明确记载。更广泛的趋势是清晰的；个别事件则不那么清晰。",
+      "cross_references": [
+        "是9–10世纪阿拔斯哈里发国更广泛衰落的一部分"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "藤原基经的去世日期存在争议；大多数来源记录为891年，而非889年。将其列入889年可能反映混淆或替代年代传统。889年具体维京袭击的重要性难以评估；编年史常记录袭击，但未明确说明其规模或影响。阿拔斯分裂有时被呈现为突然崩溃，但实际上是一个持续数十年的渐进过程。",
+  "historiographic_note": "889年的文件资料稀少且分散。西欧来源集中于法兰克和不列颠事件，对其他地区覆盖有限。日本来源详细且为当代文献。伊斯兰来源主要是后期编纂物。视角严重偏向精英政治和军事历史。经济、社会和文化发展记录不足。889年记录尤其不佳；许多事件是从更广泛趋势而非具体当代记录中推断出来的。",
+  "graph_edges": [
+    {
+      "from": "889-001",
+      "to": "890-003",
+      "relation": "contemporary_with",
+      "note": "889–891年藤原继承问题发生在宇多天皇统治期间"
+    },
+    {
+      "from": "889-002",
+      "to": "891-001",
+      "relation": "part_of",
+      "note": "889年维京袭击的持续是包括891年迪尔战役在内的更广泛北欧扩张的一部分"
+    },
+    {
+      "from": "889-003",
+      "to": "10th-century-Islamic-fragmentation",
+      "relation": "led_to",
+      "note": "889年的阿拔斯分裂促进了10世纪独立地区王朝的出现"
+    }
+  ]
+}

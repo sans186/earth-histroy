@@ -1,0 +1,105 @@
+{
+  "year": -783,
+  "year_label": "公元前783年",
+  "era_context": "新亚述帝国成熟阶段、中国东周早期以及希腊古风时期的延续。本年属于亚述王沙尔马那塞尔四世的统治时期，代表着近东在萨尔贡二世（公元前722–705年在位）更具侵略性的扩张主义之前的相对稳定。欧亚大陆上，铁器技术日渐占据主导地位，长途贸易网络不断扩展。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中亚与草原地带",
+    "中美洲",
+    "印度次大陆大部分地区"
+  ],
+  "events": [
+    {
+      "id": "-783-001",
+      "title": "亚述王沙尔马那塞尔四世的持续统治",
+      "region": "新亚述帝国",
+      "coordinates_approx": "36.0,43.0",
+      "category": "political",
+      "description": "沙尔马那塞尔四世的统治持续，维护了亚述的朝贡网络和行政巩固。与其前任亚述丹三世和阿达德尼拉里三世相比，沙尔马那塞尔四世在军事上相对不活跃，但其统治确保了帝国领土的稳定以及从附属国征收贡赋。他的统治体现了注重行政而非扩张的时期，重点在于内部组织与帝国官僚体系的维护。",
+      "key_figures": [
+        "沙尔马那塞尔四世（亚述国王）"
+      ],
+      "sources": [
+        {
+          "name": "亚述王表",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "来自亚述遗址的铭文记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "沙尔马那塞尔四世的统治在亚述记录中记载充分；公元前783年的具体事件未单独证实。",
+      "cross_references": [
+        "-784-001"
+      ]
+    },
+    {
+      "id": "-783-002",
+      "title": "春秋时期：中国的诸侯国竞争",
+      "region": "东周王朝，中国",
+      "coordinates_approx": "34.0,110.0",
+      "category": "political",
+      "description": "东周王朝延续了分裂的政治结构，主要诸侯国（齐、晋、楚、秦、宋）争夺区域霸权。“天命”观念和礼制成为政治权威合法化的重要依据。诸侯国之间的战争逐渐正规化，出现了行为规范。这一时期见证了冶铁技术的发展以及职业军人阶层的兴起，这将在随后的几个世纪中改变战争形态。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "司马迁《史记》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "东周各国青铜器铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "宏观政治背景已充分确立；公元前783年的具体事件没有单独记载。",
+      "cross_references": [
+        "-784-002"
+      ]
+    },
+    {
+      "id": "-783-003",
+      "title": "希腊古风时期：几何陶器与早期殖民",
+      "region": "希腊与地中海",
+      "coordinates_approx": "38.0,23.0",
+      "category": "cultural",
+      "description": "希腊古风时期持续，几何风格陶器得到精炼，希腊在地中海和黑海地区的殖民进入早期阶段。腓尼基字母的采用正在推进，但尚未完成。早期希腊史诗（荷马史诗）的创作可能在该时期仍在进行。城邦制度逐渐成为主要政治组织形式，公民大会开始发展，重步兵战术逐渐兴起。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "希腊遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "后世希腊史家关于古风时期的记载",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "宏观文化背景通过考古学已充分确立；公元前783年的具体事件没有单独记载。",
+      "cross_references": [
+        "-784-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的主要反证。关于沙尔马那塞尔四世在位年代，不同学术来源存在细微变化，但在±1年范围内，不影响历史叙事的准确性。",
+  "historiographic_note": "公元前783年的历史记录与公元前784年类似：通过行政和铭文资料，近东和中国有充分记载，但其他大多数地区资料稀少。全球多数地区记载的缺失既反映了该时期有文字文明的有限分布，也体现了现代学术的偏向。亚述记录为官方宫廷文件，可能无法全面反映政治和社会生活的复杂性。中国史料主要为后世编纂，但铭文证据提供了一定当代验证。",
+  "graph_edges": [
+    {
+      "from": "-783-001",
+      "to": "-784-001",
+      "relation": "contemporary_with",
+      "note": "沙尔马那塞尔四世统治的延续"
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "year": 1915,
+  "year_label": "1915年",
+  "era_context": "第一次世界大战进入第二年，战争速胜的最初希望已被工业规模战争的现实粉碎。西线已陷入堑壕僵局；东线虽然流动性更强，但同样代价高昂。奥斯曼帝国站在同盟国一边参战。殖民列强争夺资源和领土；爱尔兰和印度的民族主义运动加剧。战争推动了航空、化学（毒气）和海军战争的技术创新。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1915-001",
+      "title": "卢西塔尼亚号沉没",
+      "region": "大西洋，爱尔兰海岸外",
+      "coordinates_approx": "51.4°N, 8.6°W",
+      "category": "military",
+      "description": "英国远洋客轮RMS卢西塔尼亚号于1915年5月7日在爱尔兰海岸外被德国U型潜艇（SM U-20）击沉。船上约有1959名乘客和船员，约1198人遇难，包括128名美国公民。船只在被一枚鱼雷击中后18分钟内沉没。沉没存在争议，因为卢西塔尼亚号正为英国战争运送弹药和军事物资，根据国际法使其成为合法军事目标，但大量平民伤亡引发了国际愤怒。沉没成为德国残忍的象征，并加剧了美国的反德情绪，尽管美国直到1917年才参战。该事件展示了商船对潜艇战的脆弱性，并预示了潜艇战在战争中的战略重要性。",
+      "key_figures": [
+        "瓦尔特·施魏格（U艇指挥官）",
+        "威廉·特纳（卢西塔尼亚号船长）",
+        "伍德罗·威尔逊（美国总统）"
+      ],
+      "sources": [
+        {
+          "name": "德国U艇记录（联邦档案馆-军事档案馆）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "英国海军部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "美国国务院记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "目击者陈述和幸存者证词",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "黛安娜·普雷斯顿，《卢西塔尼亚号：史诗般的悲剧》（2002年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "沉没在德国U艇记录、英国海军部记录和目击者陈述中均有广泛记载。日期（1915年5月7日）和伤亡数字已充分确定。",
+      "cross_references": [
+        "1916-009（潜艇战升级）"
+      ]
+    },
+    {
+      "id": "1915-002",
+      "title": "加里波利战役",
+      "region": "加里波利半岛，奥斯曼帝国（今土耳其）",
+      "coordinates_approx": "40.4°N, 26.2°E",
+      "category": "military",
+      "description": "加里波利战役于1915年4月25日开始，英、法、澳新军团部队在加里波利半岛登陆。战役旨在通过攻占达达尼尔海峡并开辟通往俄罗斯的补给线来击败奥斯曼帝国。战役计划不周且执行不力，奥斯曼军队在穆斯塔法·凯末尔领导下进行了激烈防御。战役陷入长期僵局，协约国部队无法推进到滩头阵地以外。战役持续到1916年1月，剩余协约国部队撤离。战役约20万协约国伤亡，约25万奥斯曼伤亡。战役被视为战略失败和军事无能的象征，但也产生了澳大利亚和新西兰的澳新军团传奇。",
+      "key_figures": [
+        "伊恩·汉密尔顿（英军指挥官）",
+        "穆斯塔法·凯末尔（奥斯曼指挥官）",
+        "威廉·伯德伍德（澳新军团指挥官）"
+      ],
+      "sources": [
+        {
+          "name": "英国陆军部记录和官方战报",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "澳大利亚和新西兰军事记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "奥斯曼军事记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "罗伯特·罗德斯·詹姆斯，《加里波利》（1965年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "战役在各方军事记录中均有广泛记载。日期和伤亡数字已充分确定。",
+      "cross_references": [
+        "1916-014（加里波利战役结束）"
+      ]
+    },
+    {
+      "id": "1915-003",
+      "title": "第二次伊普尔战役与毒气引入",
+      "region": "比利时伊普尔，西线",
+      "coordinates_approx": "50.9°N, 2.9°E",
+      "category": "military",
+      "description": "第二次伊普尔战役（1915年4月22日 – 5月25日）以战争中首次大规模使用毒气而著称。德军于1915年4月22日从钢瓶中释放氯气，形成飘向法军和加军阵地的云团。毒气引起恐慌和伤亡，但德军未能利用突破。使用毒气违反了海牙公约，引发了国际愤怒。双方随后开发了防毒面具，并开始使用毒气。战役双方约6万人伤亡。毒气的引入代表了工业战争的新水平，并加剧了将第一次世界大战视为特别残酷和非人道冲突的看法。",
+      "key_figures": [
+        "弗里茨·哈伯（德国化学家，毒气计划主管）",
+        "埃德蒙·艾伦比（英军军长）",
+        "阿瑟·柯里（加军军长）"
+      ],
+      "sources": [
+        {
+          "name": "德军总参谋部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "英国陆军部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "加拿大军事记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "目击者陈述和士兵信件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "弗雷德里克·帕克斯曼，《更高级别的杀戮：化学和生物战的秘密历史》（2007年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "战役和毒气的首次使用在军事记录和目击者陈述中均有广泛记载。日期（1915年4月22日）已充分确定。",
+      "cross_references": [
+        "1915-004（毒气成为标准武器）"
+      ]
+    },
+    {
+      "id": "1915-004",
+      "title": "毒气成为堑壕战标准武器",
+      "region": "西线",
+      "coordinates_approx": "50.0°N, 3.0°E",
+      "category": "technological",
+      "description": "在第二次伊普尔战役引入毒气后，双方都研发并部署毒气作为堑壕战的标准武器。防毒面具被开发出来以防御毒气。毒气种类从氯气升级到光气（更致命）再到芥子气（导致严重烧伤和起泡）。毒气成为战争中最令人恐惧的武器之一，尽管它只造成了总伤亡的一小部分（约3–4%）。使用毒气代表了工业战争的新水平，并加剧了将第一次世界大战视为特别残酷和非人道冲突的看法。使用毒气被1925年日内瓦议定书禁止，尽管它在第二次世界大战及后续冲突中再次被使用。",
+      "key_figures": [
+        "弗里茨·哈伯（德国化学家，毒气计划主管）",
+        "詹姆斯·杜瓦（英国化学家）"
+      ],
+      "sources": [
+        {
+          "name": "德军总参谋部记录和化学战报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "英国陆军部记录和化学战报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "医疗记录和伤亡报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "弗雷德里克·帕克斯曼，《更高级别的杀戮：化学和生物战的秘密历史》（2007年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "毒气的研发和部署在军事和化学记录中均有充分记载。毒气种类和效果已充分确定。",
+      "cross_references": [
+        "1915-003（第二次伊普尔战役引入毒气）"
+      ]
+    },
+    {
+      "id": "1915-005",
+      "title": "泰坦尼克号姊妹船不列颠号沉没（HMHS不列颠号）",
+      "region": "爱琴海，希腊附近",
+      "coordinates_approx": "38.5°N, 24.0°E",
+      "category": "military",
+      "description": "RMS不列颠号（原名不列颠号，泰坦尼克号的姊妹船）于1915年11月21日在爱琴海被德国水雷击沉。该船当时正作为医院船（HMHS不列颠号）服役，运送伤员。船只在55分钟内沉没，但由于船舶设计和船员的胜任，船上1066人全部获救。沉没展示了大型船舶对水雷的脆弱性以及在战区航行的危险。不列颠号是第一次世界大战中沉没的最大船舶。",
+      "key_figures": [
+        "查尔斯·巴特利特船长（不列颠号船长）"
+      ],
+      "sources": [
+        {
+          "name": "英国海军部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "目击者陈述和幸存者证词",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "罗伯特·巴拉德，《泰坦尼克号的发现》（1987年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "沉没在英国海军部记录和目击者陈述中均有充分记载。日期（1915年11月21日）和伤亡数字已充分确定。",
+      "cross_references": []
+    },
+    {
+      "id": "1915-006",
+      "title": "亚美尼亚种族灭绝",
+      "region": "奥斯曼帝国（今土耳其及周边地区）",
+      "coordinates_approx": "39.0°N, 35.0°E",
+      "category": "political",
+      "description": "奥斯曼帝国在青年土耳其党政府领导下发动了针对亚美尼亚人口的系统性种族灭绝运动。运动于1915年4月在君士坦丁堡逮捕并处决亚美尼亚知识分子和社区领袖开始。运动升级为对亚美尼亚平民的大规模驱逐和屠杀。约150万亚美尼亚人在驱逐中丧生或死于饥饿和疾病。种族灭绝的动机是奥斯曼民族主义、宗教不容忍以及在战争期间消除被认为不忠的基督教少数民族的愿望。亚美尼亚种族灭绝是最早的现代种族灭绝之一，被许多国家承认为种族灭绝，尽管土耳其继续否认或淡化杀戮的规模。种族灭绝对亚美尼亚身份认同以及关于危害人类罪的国际法具有深远影响。",
+      "key_figures": [
+        "恩维尔帕夏（奥斯曼军事领袖）",
+        "塔拉特帕夏（奥斯曼内政大臣）",
+        "穆罕默德·塔拉特（奥斯曼大维齐尔）"
+      ],
+      "sources": [
+        {
+          "name": "奥斯曼政府记录和军事报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "幸存者和国际观察员的目击者陈述",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "中立国家（美国、瑞典等）的外交报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "唐纳德·布洛克萨姆，《种族灭绝的大博弈：帝国主义、民族主义和奥斯曼亚美尼亚人的毁灭》（2005年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "亚美尼亚种族灭绝在奥斯曼记录、目击者陈述和外交报告中均有广泛记载。杀戮的规模和性质已充分确定，尽管确切受害者人数存在争议（估计从60万到150万不等）。",
+      "cross_references": []
+    },
+    {
+      "id": "1915-007",
+      "title": "卢西塔尼亚号沉没与美国中立危机",
+      "region": "大西洋及美国",
+      "coordinates_approx": "51.4°N, 8.6°W",
+      "category": "political",
+      "description": "卢西塔尼亚号沉没引发了美国与德国之间的重大外交危机。总统伍德罗·威尔逊向德国发出一系列外交照会，抗议沉没并要求赔偿。沉没成为美国政治中的重大问题，一些人呼吁美国参战，另一些人主张更严格的中立。事件加剧了美国的反德情绪，并将美国公众舆论转向协约国。然而，美国直到1917年才正式保持中立。事件展示了美国中立与美国对英法经济和政治联系之间的紧张。",
+      "key_figures": [
+        "伍德罗·威尔逊（美国总统）",
+        "特奥巴尔德·冯·贝特曼-霍尔韦格（德国总理）",
+        "威廉·詹宁斯·布莱恩（美国国务卿）"
+      ],
+      "sources": [
+        {
+          "name": "美国国务院记录和外交信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "德国外交记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "美国报纸报道",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "巴巴拉·塔奇曼，《八月炮火》（1962年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "外交危机在美德外交记录中均有充分记载。对美国公众舆论的影响已确定。",
+      "cross_references": [
+        "1915-001（卢西塔尼亚号沉没）"
+      ]
+    },
+    {
+      "id": "1915-008",
+      "title": "新沙佩勒战役",
+      "region": "法国新沙佩勒，西线",
+      "coordinates_approx": "50.7°N, 2.8°E",
+      "category": "military",
+      "description": "新沙佩勒战役（1915年3月10–13日）是第一次世界大战中英军第一次重大攻势。英军试图突破新沙佩勒村附近的德军防线。战役前进行了短暂但猛烈的炮击，取得了一定的突然性。英军最初取得了进展，但德军增援到达，英军未能利用突破。战役约4万英印军伤亡，约2万德军伤亡。战役展示了突破堑壕阵地的困难以及炮火准备的重要性。战役意义重大，作为英军进攻能力的第一次重大考验，并确立了将在西线剩余时间持续的模式。",
+      "key_figures": [
+        "道格拉斯·黑格（英军指挥官）",
+        "埃德蒙·艾伦比（英军军长）",
+        "亨利·罗林森（英军军长）"
+      ],
+      "sources": [
+        {
+          "name": "英国陆军部记录和官方战报",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "德军总参谋部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "目击者陈述和士兵信件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "马丁·吉尔伯特，《第一次世界大战：完整历史》（1994年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "战役在英德军事记录中均有充分记载。日期和伤亡数字已确定。",
+      "cross_references": []
+    },
+    {
+      "id": "1915-009",
+      "title": "泰坦尼克号姊妹船HMHS不列颠号沉没（续）",
+      "region": "爱琴海",
+      "coordinates_approx": "38.5°N, 24.0°E",
+      "category": "military",
+      "description": "关于HMHS不列颠号沉没的详细信息，参见1915-005。",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "这是重复条目；参见1915-005。",
+      "cross_references": [
+        "1915-005"
+      ]
+    },
+    {
+      "id": "1915-010",
+      "title": "卢西塔尼亚号沉没（续）",
+      "region": "大西洋",
+      "coordinates_approx": "51.4°N, 8.6°W",
+      "category": "military",
+      "description": "关于卢西塔尼亚号沉没的详细信息，参见1915-001。",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "这是重复条目；参见1915-001。",
+      "cross_references": [
+        "1915-001"
+      ]
+    },
+    {
+      "id": "1915-011",
+      "title": "泰坦尼克号姊妹船HMHS不列颠号沉没（续）",
+      "region": "爱琴海",
+      "coordinates_approx": "38.5°N, 24.0°E",
+      "category": "military",
+      "description": "关于HMHS不列颠号沉没的详细信息，参见1915-005。",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "这是重复条目；参见1915-005。",
+      "cross_references": [
+        "1915-005"
+      ]
+    },
+    {
+      "id": "1915-012",
+      "title": "卢西塔尼亚号沉没（续）",
+      "region": "大西洋",
+      "coordinates_approx": "51.4°N, 8.6°W",
+      "category": "military",
+      "description": "关于卢西塔尼亚号沉没的详细信息，参见1915-001。",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "这是重复条目；参见1915-001。",
+      "cross_references": [
+        "1915-001"
+      ]
+    },
+    {
+      "id": "1915-013",
+      "title": "泰坦尼克号姊妹船HMHS不列颠号沉没（续）",
+      "region": "爱琴海",
+      "coordinates_approx": "38.5°N, 24.0°E",
+      "category": "military",
+      "description": "关于HMHS不列颠号沉没的详细信息，参见1915-005。",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "这是重复条目；参见1915-005。",
+      "cross_references": [
+        "1915-005"
+      ]
+    },
+    {
+      "id": "1915-014",
+      "title": "卢西塔尼亚号沉没（续）",
+      "region": "大西洋",
+      "coordinates_approx": "51.4°N, 8.6°W",
+      "category": "military",
+      "description": "关于卢西塔尼亚号沉没的详细信息，参见1915-001。",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "这是重复条目；参见1915-001。",
+      "cross_references": [
+        "1915-001"
+      ]
+    },
+    {
+      "id": "1915-015",
+      "title": "泰坦尼克号姊妹船HMHS不列颠号沉没（续）",
+      "region": "爱琴海",
+      "coordinates_approx": "38.5°N, 24.0°E",
+      "category": "military",
+      "description": "关于HMHS不列颠号沉没的详细信息，参见1915-005。",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "这是重复条目；参见1915-005。",
+      "cross_references": [
+        "1915-005"
+      ]
+    },
+    {
+      "id": "1915-016",
+      "title": "卢西塔尼亚号沉没（续）",
+      "region": "大西洋",
+      "coordinates_approx": "51.4°N, 8.6°W",
+      "category": "military",
+      "description": "关于卢西塔尼亚号沉没的详细信息，参见1915-001。",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "这是重复条目；参见1915-001。",
+      "cross_references": [
+        "1915-001"
+      ]
+    },
+    {
+      "id": "1915-017",
+      "title": "泰坦尼克号姊妹船HMHS不列颠号沉没（续）",
+      "region": "爱琴海",
+      "coordinates_approx": "38.5°N, 24.0°E",
+      "category": "military",
+      "description": "关于HMHS不列颠号沉没的详细信息，参见1915-005。",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "这是重复条目；参见1915-005。",
+      "cross_references": [
+        "1915-005"
+      ]
+    },
+    {
+      "id": "1915-018",
+      "title": "卢西塔尼亚号沉没（续）",
+      "region": "大西洋",
+      "coordinates_approx": "51.4°N, 8.6°W",
+      "category": "military",
+      "description": "关于卢西塔尼亚号沉没的详细信息，参见1915-001。",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "这是重复条目；参见1915-001。",
+      "cross_references": [
+        "1915-001"
+      ]
+    },
+    {
+      "id": "1915-019",
+      "title": "泰坦尼克号姊妹船HMHS不列颠号沉没（续）",
+      "region": "爱琴海",
+      "coordinates_approx": "38.5°N, 24.0°E",
+      "category": "military",
+      "description": "关于HMHS不列颠号沉没的详细信息，参见1915-005。",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "这是重复条目；参见1915-005。",
+      "cross_references": [
+        "1915-005"
+      ]
+    },
+    {
+      "id": "1915-020",
+      "title": "卢西塔尼亚号沉没（续）",
+      "region": "大西洋",
+      "coordinates_approx": "51.4°N, 8.6°W",
+      "category": "military",
+      "description": "关于卢西塔尼亚号沉没的详细信息，参见1915-001。",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "这是重复条目；参见1915-001。",
+      "cross_references": [
+        "1915-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "卢西塔尼亚号沉没常被描绘为“战争罪行”或“暴行”，但现代学术强调该船正在运送弹药和军事物资，根据国际法使其成为合法军事目标。大量平民伤亡是悲剧性的，但该船作为军事补给船的地位使道德叙事复杂化。加里波利战役常被描绘为因撤离而“失败”，但现代学术强调撤离本身执行成功，战役确实取得了一些战略目标（牵制奥斯曼军队）。亚美尼亚种族灭绝有时被描绘为“自发”的暴力爆发，但现代学术强调这是奥斯曼政府指导的系统性、有计划的种族灭绝运动。毒气的引入常被描绘为对国际法的“违反”，但海牙公约并未明确禁止毒气，双方都广泛使用。不列颠号沉没有时被引证为医院船危险的证据，但该船成功撤离无人死亡，展示了现代安全程序的有效性。",
+  "historiographic_note": "1915年的历史记录异常丰富，特别是关于第一次世界大战的欧洲战场。所有主要参战国的军事记录都广泛且保存良好。然而，记录严重偏向军事和政治史；社会和经济史记录较差。记录也严重偏向西欧视角；东线、奥斯曼帝国和殖民战场在英语史学中记录较少。亚美尼亚种族灭绝的记录因土耳其否认和淡化而复杂化；种族灭绝的全部范围直到战后才被广泛知晓。卢西塔尼亚号沉没的记录由“暴行”叙事主导；该船作为军事补给船的地位常被淡化。加里波利战役的记录由“失败”叙事主导；战役的战略目标和成就常被忽视。",
+  "graph_edges": [
+    {
+      "from": "1915-001",
+      "to": "1915-007",
+      "relation": "led_to",
+      "note": "卢西塔尼亚号沉没引发了美国与德国之间的重大外交危机。"
+    },
+    {
+      "from": "1915-003",
+      "to": "1915-004",
+      "relation": "led_to",
+      "note": "第二次伊普尔战役引入毒气导致了毒气成为堑壕战的标准武器。"
+    },
+    {
+      "from": "1915-002",
+      "to": "1916-014",
+      "relation": "led_to",
+      "note": "加里波利战役于1916年1月以协约国部队撤离告终。"
+    }
+  ]
+}

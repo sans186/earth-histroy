@@ -1,0 +1,526 @@
+{
+  "year": 1868,
+  "year_label": "1868年",
+  "era_context": "世界正处于快速工业化和帝国扩张之中。美国刚结束内战（1861-65年），进入重建时期。大英帝国处于权力顶峰，主导着全球贸易和殖民扩张。日本正在经历一场革命性变革，即明治维新，这标志着德川幕府的终结和快速现代化的开始。欧洲列强正在巩固对非洲、亚洲和太平洋殖民领土的控制。这是一个技术创新和政治动荡的时期。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1868-001",
+      "title": "日本明治维新开始；德川幕府终结",
+      "region": "日本、亚洲",
+      "coordinates_approx": "35.7, 139.7",
+      "category": "political",
+      "description": "1868年，日本明治维新开始，标志着德川幕府（1603-1868年）的终结和明治天皇皇权的恢复。维新的直接原因是1850年代西方列强（特别是美国）的到来以及幕府无力有效应对西方威胁。戊辰战争（1868-69年）在支持复辟的势力与幕府支持者之间进行，最终复辟势力获胜。明治政府立即开始了全面的现代化计划，包括废除封建制度、采用西方技术和制度以及建立现代军队。明治维新在一代人的时间内将日本从封建社会转变为现代民族国家。",
+      "key_figures": [
+        "明治天皇（睦仁）",
+        "大久保利通（明治政治家）",
+        "木户孝允（明治政治家）",
+        "西乡隆盛（军事领袖）",
+        "德川庆喜（末代将军）"
+      ],
+      "sources": [
+        {
+          "name": "明治政府记录及官方法令",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "日本政府档案",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "同时代日本编年史及记录",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "西方外交信函及报告",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "明治维新定于1868年，尽管该过程始于1867年，戊辰战争持续到1869年。皇权复辟在日本政府记录中有明确记载。",
+      "cross_references": [
+        "1869-003 (明治维新巩固)",
+        "1871-007 (废藩置县诏书)"
+      ]
+    },
+    {
+      "id": "1868-002",
+      "title": "美国宪法第十四条修正案批准；公民身份与平等保护",
+      "region": "美国、北美洲",
+      "coordinates_approx": "39.8, -98.6",
+      "category": "legal",
+      "description": "1868年7月9日，美国宪法第十四条修正案获得批准，确立了所有在美国出生或归化的人的公民身份，并保证法律的平等保护。该修正案是激进共和党重建计划的关键成就，旨在确保前奴隶拥有法律权利和保护。然而，该修正案的保护很快被南方各州通过各种机制削弱。第十四条修正案仍然是最重要的宪法修正案之一，在整个美国历史中一直被用于保护公民权利。",
+      "key_figures": [
+        "安德鲁·约翰逊总统",
+        "撒迪厄斯·史蒂文斯（激进共和党人）",
+        "查尔斯·萨姆纳（激进共和党人）"
+      ],
+      "sources": [
+        {
+          "name": "美国国会记录及辩论",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "第十四条修正案文本及批准记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "同时代美国报纸及期刊",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1868年7月9日的批准日期在美国官方记录中有明确记载。",
+      "cross_references": [
+        "1870-002 (第十五条修正案批准)"
+      ]
+    },
+    {
+      "id": "1868-003",
+      "title": "日本戊辰战争；复辟势力击败幕府",
+      "region": "日本、亚洲",
+      "coordinates_approx": "35.7, 139.7",
+      "category": "military",
+      "description": "戊辰战争（1868-69年）在日本支持复辟的势力与幕府支持者之间进行。战争由明治维新和幕府拒绝接受皇权复辟而引发。以西乡隆盛和大久保利通等人为首的复辟势力击败了幕府军队并巩固了维新成果。战争导致了幕府的最终失败和明治政府权威的建立。战争相对短暂，与同时代世界其他地区的冲突相比伤亡较少。",
+      "key_figures": [
+        "西乡隆盛（复辟派军事领袖）",
+        "大久保利通（复辟派政治家）",
+        "德川庆喜（末代将军）",
+        "明治天皇"
+      ],
+      "sources": [
+        {
+          "name": "明治政府记录及军事档案",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "日本政府编年史及官方历史",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "西方外交信函及报告",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "戊辰战争定于1868-69年，主要战役发生在1868年。战争在日本政府记录和同时代资料中有明确记载。",
+      "cross_references": [
+        "1868-001 (明治维新开始)"
+      ]
+    },
+    {
+      "id": "1868-004",
+      "title": "大英帝国巩固对印度的控制；行政改革",
+      "region": "印度、大英帝国、亚洲",
+      "coordinates_approx": "20.0, 78.0",
+      "category": "political",
+      "description": "1868年，大英帝国在1857-58年印度起义后继续巩固对印度的行政控制，并正式建立了英属印度。基础设施发展——铁路、电报、公路——作为殖民现代化项目的一部分继续进行。印度公务员制度得到扩展和专业化。这些改革既反映了英国合理化殖民管理的愿望，也反映了从印度榨取资源以支持英国工业资本主义的需求。",
+      "key_figures": [
+        "劳伦斯勋爵（印度总督，1864-1869年）",
+        "维多利亚女王"
+      ],
+      "sources": [
+        {
+          "name": "英国印度事务部记录及信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "同时代英国和印度报纸及期刊",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "1868年英国在印度的行政改革在印度事务部记录中有记载；具体事件细节较少。",
+      "cross_references": []
+    },
+    {
+      "id": "1868-005",
+      "title": "俄罗斯帝国巩固对中亚的控制；征服撒马尔罕和布哈拉",
+      "region": "俄罗斯帝国、中亚、亚洲",
+      "coordinates_approx": "60.0, 100.0",
+      "category": "military",
+      "description": "1868年，俄罗斯帝国征服了中亚主要城市撒马尔罕和布哈拉，巩固了对中亚的控制。这些征服是俄罗斯在中亚更广泛的帝国扩张以及与大英帝国争夺亚洲影响力的“大博弈”的一部分。这些城市的征服将大量领土和人口置于俄罗斯控制之下，代表了俄罗斯帝国扩张的重要一步。",
+      "key_figures": [
+        "沙皇亚历山大二世",
+        "俄罗斯军事指挥官"
+      ],
+      "sources": [
+        {
+          "name": "俄罗斯政府记录及军事档案",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "同时代俄罗斯和欧洲报纸及期刊",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1868年征服撒马尔罕和布哈拉在俄罗斯军事记录和同时代资料中有记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1868-006",
+      "title": "大英帝国在非洲扩张；殖民竞争加剧",
+      "region": "非洲、大英帝国",
+      "coordinates_approx": "0.0, 20.0",
+      "category": "political",
+      "description": "1868年，大英帝国正在扩大对非洲的控制，特别是在西非和南部非洲。南非钻石的发现（1867年）推动了英国对该地区的兴趣。英国正在与其他欧洲列强（法国、德国、葡萄牙、比利时）争夺非洲领土和资源的控制权。这一时期标志着“瓜分非洲”的开始，该进程将在1880年代和1890年代加速。",
+      "key_figures": [
+        "维多利亚女王",
+        "英国殖民官员"
+      ],
+      "sources": [
+        {
+          "name": "英国殖民部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "同时代英国报纸及期刊",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "1868年英国在非洲的殖民扩张在殖民部记录中有记载；具体事件因地区而异。",
+      "cross_references": []
+    },
+    {
+      "id": "1868-007",
+      "title": "美国重建时期；安德鲁·约翰逊被弹劾",
+      "region": "美国、北美洲",
+      "coordinates_approx": "39.8, -98.6",
+      "category": "political",
+      "description": "1868年，安德鲁·约翰逊总统因违反《任职期限法》于1868年2月24日被众议院弹劾。约翰逊试图在未经参议院批准的情况下解除战争部长埃德温·斯坦顿的职务，违反了该法案。参议院于1868年5月16日就约翰逊的定罪进行投票，距离所需的三分之二多数票还差一票。约翰逊被无罪释放并留任。这一弹劾是一场重大政治危机，反映了行政部门和立法部门在重建政策上的冲突。约翰逊的无罪释放颇具争议，通常被视为错失罢免一位反对重建的总统的机会。",
+      "key_figures": [
+        "安德鲁·约翰逊总统",
+        "撒迪厄斯·史蒂文斯（激进共和党人）",
+        "查尔斯·萨姆纳（激进共和党人）",
+        "埃德温·斯坦顿（战争部长）"
+      ],
+      "sources": [
+        {
+          "name": "美国国会记录及辩论",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "弹劾审判记录及文件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "同时代美国报纸及期刊",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "弹劾日期（1868年2月24日）和参议院投票日期（1868年5月16日）在国会记录中有明确记载。",
+      "cross_references": [
+        "1868-002 (第十四条修正案批准)"
+      ]
+    },
+    {
+      "id": "1868-008",
+      "title": "中国苦力贸易持续；劳工向美洲迁移",
+      "region": "中国、美国、加拿大、秘鲁、拉丁美洲、亚太地区",
+      "coordinates_approx": "35.0, 105.0",
+      "category": "economic",
+      "description": "1868年，中国劳工向美洲的迁移仍在继续，中国劳工对于北美横贯大陆铁路的修建、采矿作业以及秘鲁和其他拉丁美洲国家的种植园劳动至关重要。1868年中美签署的《蒲安臣条约》正式承认中国人向美国移民的权利。然而，美国和加拿大国内的反华情绪日益高涨，导致歧视性立法的出台。",
+      "key_figures": [
+        "中国劳工及商人",
+        "美国和加拿大铁路公司",
+        "安森·蒲安臣（美国外交官）"
+      ],
+      "sources": [
+        {
+          "name": "美国和加拿大移民记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《蒲安臣条约》（官方文本）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "中国政府记录及信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "同时代报纸报道及期刊",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "《蒲安臣条约》有明确记载；1868年中国劳工迁移在移民记录中有记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1868-009",
+      "title": "奥斯曼帝国持续衰落；俄土紧张局势加剧",
+      "region": "奥斯曼帝国、巴尔干、欧洲、中东",
+      "coordinates_approx": "41.0, 28.9",
+      "category": "political",
+      "description": "1868年，奥斯曼帝国持续经历领土损失和内部不稳定。帝国已在巴尔干和北非失去了大量领土。巴尔干的民族主义运动日益壮大，帝国无法有效现代化或镇压这些运动的情况愈发明显。俄罗斯的帝国扩张和泛斯拉夫民族主义的兴起正在制造与奥斯曼帝国的紧张局势。",
+      "key_figures": [
+        "苏丹阿卜杜勒阿齐兹",
+        "穆罕默德·埃明·阿里帕夏（大维齐尔）"
+      ],
+      "sources": [
+        {
+          "name": "奥斯曼政府记录及官方法令",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "关于奥斯曼帝国的欧洲外交信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "同时代奥斯曼和欧洲报纸及期刊",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "奥斯曼衰落的总体轨迹有充分记载；1868年的具体事件细节较少。",
+      "cross_references": []
+    },
+    {
+      "id": "1868-010",
+      "title": "不列颠哥伦比亚金矿开采持续；与加拿大的经济一体化",
+      "region": "不列颠哥伦比亚、加拿大、北美洲",
+      "coordinates_approx": "53.7, -127.6",
+      "category": "economic",
+      "description": "1868年，不列颠哥伦比亚是英国的一个直辖殖民地，主要经济活动包括金矿开采、毛皮贸易和木材采掘。该殖民地正在为加入加拿大联邦做准备（该联邦于1871年成立）。一条横贯大陆的铁路（加拿大太平洋铁路）的承诺是加入联邦的主要诱因。该殖民地的经济一体化将促进资源开采和贸易。",
+      "key_figures": [
+        "维多利亚女王",
+        "英国殖民官员",
+        "阿莫尔·德·科斯莫斯（不列颠哥伦比亚政治家）"
+      ],
+      "sources": [
+        {
+          "name": "英国殖民部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "不列颠哥伦比亚殖民地记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "同时代英国和加拿大报纸",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "不列颠哥伦比亚1868年的经济地位在殖民地记录中有记载；具体事件细节较少。",
+      "cross_references": [
+        "1871-004 (不列颠哥伦比亚加入加拿大联邦)"
+      ]
+    },
+    {
+      "id": "1868-011",
+      "title": "明治日本颁布《五条御誓文》；现代化计划概述",
+      "region": "日本、亚洲",
+      "coordinates_approx": "35.7, 139.7",
+      "category": "political",
+      "description": "1868年，明治政府颁布了《五条御誓文》，概述了政府对现代化、废除封建制度以及采用西方知识和技术的承诺。《五条御誓文》是明治维新的奠基性文件，并为政府的政策定下了基调。该誓文包括建立议会、促进人民福祉以及向世界寻求知识的承诺。",
+      "key_figures": [
+        "明治天皇",
+        "大久保利通",
+        "木户孝允"
+      ],
+      "sources": [
+        {
+          "name": "明治政府记录及官方法令",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "日本政府档案",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "同时代日本编年史及记录",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "《五条御誓文》在日本政府记录和同时代资料中有明确记载。",
+      "cross_references": [
+        "1868-001 (明治维新开始)"
+      ]
+    },
+    {
+      "id": "1868-012",
+      "title": "明治日本继续军事现代化；废除武士阶级",
+      "region": "日本、亚洲",
+      "coordinates_approx": "35.7, 139.7",
+      "category": "military",
+      "description": "1868年，明治政府开始了其军事现代化计划，包括废除武士阶级和引入普遍男性义务兵役制。统治日本社会数个世纪的武士正被基于西方模式的现代征兵制军队所取代。这一转变对于日本抵御西方帝国主义并最终成为地区强国至关重要。",
+      "key_figures": [
+        "明治天皇",
+        "山县有朋（军事改革家）",
+        "大久保利通"
+      ],
+      "sources": [
+        {
+          "name": "明治政府记录及军事档案",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "日本政府诏书及官方历史",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "1868年的军事改革在日本政府记录中有记载，但具体事件可能有所不同。",
+      "cross_references": [
+        "1868-001 (明治维新开始)"
+      ]
+    },
+    {
+      "id": "1868-013",
+      "title": "德国各邦为统一做准备；北德意志邦联成立",
+      "region": "德意志各邦、普鲁士、欧洲",
+      "coordinates_approx": "51.5, 10.0",
+      "category": "political",
+      "description": "1868年，德国各邦正在为普鲁士领导下的正式统一做准备。在普奥战争后于1867年建立的北德意志邦联正在巩固普鲁士对北德意志的霸权。南德各邦仍保持独立，但日益与普鲁士结盟。普法战争（1870-71年）将是俾斯麦通过军事胜利实现统一战略的最后一步。",
+      "key_figures": [
+        "奥托·冯·俾斯麦（普鲁士首相）",
+        "威廉一世国王（普鲁士）",
+        "德意志各邦领袖"
+      ],
+      "sources": [
+        {
+          "name": "普鲁士政府记录及信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "同时代德国和欧洲报纸",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "1868年德国为统一所做的准备在普鲁士记录中有记载；具体事件属于更广泛进程的一部分。",
+      "cross_references": [
+        "1870-001 (普法战争开始)",
+        "1871-001 (德国统一宣布)"
+      ]
+    },
+    {
+      "id": "1868-014",
+      "title": "尤利西斯·S·格兰特当选美国总统；共和党优势持续",
+      "region": "美国、北美洲",
+      "coordinates_approx": "39.8, -98.6",
+      "category": "political",
+      "description": "1868年11月3日，尤利西斯·S·格兰特击败民主党候选人霍雷肖·西摩，当选美国总统。格兰特的当选是激进共和党人的胜利，确保了重建政策的延续。格兰特于1869年3月4日就职。格兰特总统任期的特点是努力执行重建并保护自由民的权利，尽管其政府也以腐败和丑闻为特征。",
+      "key_figures": [
+        "尤利西斯·S·格兰特（共和党候选人）",
+        "霍雷肖·西摩（民主党候选人）",
+        "撒迪厄斯·史蒂文斯（激进共和党人）"
+      ],
+      "sources": [
+        {
+          "name": "美国选举记录及结果",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "同时代美国报纸及期刊",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "格兰特于1868年11月3日的当选在美国官方选举记录中有明确记载。",
+      "cross_references": [
+        "1869-010 (格兰特就职)"
+      ]
+    },
+    {
+      "id": "1868-015",
+      "title": "大英帝国在非洲扩张；殖民竞争加剧",
+      "region": "非洲、大英帝国",
+      "coordinates_approx": "0.0, 20.0",
+      "category": "political",
+      "description": "1868年，大英帝国正在扩大对非洲的控制，特别是在西非和南部非洲。南非钻石的发现（1867年）推动了英国对该地区的兴趣。英国正在与其他欧洲列强（法国、德国、葡萄牙、比利时）争夺非洲领土和资源的控制权。这一时期标志着“瓜分非洲”的开始，该进程将在1880年代和1890年代加速。",
+      "key_figures": [
+        "维多利亚女王",
+        "英国殖民官员"
+      ],
+      "sources": [
+        {
+          "name": "英国殖民部记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "同时代英国报纸及期刊",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "1868年英国在非洲的殖民扩张在殖民部记录中有记载；具体事件因地区而异。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "明治维新常被描绘为一场平稳、必然的现代化过程，但它涉及重大的社会动荡、武士阶级的流离失所以及对并非总是适合日本国情的西方模式的强加。戊辰战争在历史记述中有时被轻描淡写，但它是一场重大冲突，导致数千人死亡，并代表了日本社会的根本性变革。第十四条修正案常被赞颂为民权上的胜利，但其保护措施很快被南方各州通过各种机制削弱，该修正案的承诺几乎花了一个世纪才得以实现。安德鲁·约翰逊在弹劾审判中的无罪释放有时被呈现为宪法制衡的胜利，但许多历史学家也认为这是一个失去罢免一位反对重建并导致重建政策失败的总统的机会。",
+  "historiographic_note": "1868年由于报纸、政府记录和同时代记述的普遍存在而文献丰富。文献严重偏向欧洲和北美，对亚洲、非洲和中东的记载较少。明治维新在日本资料中有广泛记载，但这些资料通常是事后为证明政府政策的正当性而撰写。资料反映了列强的观点，常常省略或淡化被殖民者和边缘群体的观点。戊辰战争在日本军事记录和同时代资料中有记载，但普通士兵和平民的观点常常通过官方叙述呈现。英国在印度和非洲殖民扩张的文献反映了殖民视角，常常省略被殖民者的观点。",
+  "graph_edges": [
+    {
+      "from": "1868-001",
+      "to": "1868-003",
+      "relation": "led_to",
+      "note": "明治维新导致了戊辰战争，复辟势力击败了幕府。"
+    },
+    {
+      "from": "1868-002",
+      "to": "1870-002",
+      "relation": "led_to",
+      "note": "1868年批准的第十四条修正案之后是1870年扩展投票权的第十五条修正案。"
+    },
+    {
+      "from": "1868-007",
+      "to": "1869-010",
+      "relation": "led_to",
+      "note": "1868年约翰逊在弹劾审判中的无罪释放为1869年格兰特的当选和就职奠定了基础。"
+    },
+    {
+      "from": "1868-014",
+      "to": "1869-010",
+      "relation": "led_to",
+      "note": "1868年格兰特的当选导致了他的就职和总统任期的开始。"
+    }
+  ]
+}

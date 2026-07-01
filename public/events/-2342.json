@@ -1,0 +1,122 @@
+{
+  "year": -2342,
+  "year_label": "2342 BCE",
+  "era_context": "纳拉姆·辛治下的阿卡德帝国仍处于顶峰，埃及古王国继续衰落，哈拉帕文明保持成熟阶段。这一年代表了美索不达米亚与印度河流域的相对稳定，与埃及的政治分裂形成对比。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东亚",
+    "中美洲",
+    "大洋洲",
+    "北欧与草原地带"
+  ],
+  "events": [
+    {
+      "id": "-2342-001",
+      "title": "阿卡德行政体系达到最高效率；阿卡德语成为通用语",
+      "region": "阿卡德帝国（美索不达米亚、黎凡特、安纳托利亚、伊朗高原）",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "cultural",
+      "description": "至此时，阿卡德行政体系已达到最高效率。阿卡德语作为通用语在整个帝国使用，在许多行政语境中取代了苏美尔语。阿卡德书吏和官员分布在被征服领土上，便于沟通和控制。这种语言和行政统一代表了帝国组织的重大创新，影响了后来的帝国（波斯、希腊化、罗马）。",
+      "key_figures": [
+        "纳拉姆·辛（阿卡德皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德行政文书和信函（楔形文字泥板）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "阿卡德研究史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿卡德语作为行政语言在同期文书中得到充分证实。但纳拉姆·辛统治内行政改革的确切年代不确定。",
+      "cross_references": [
+        "属于阿卡德帝国顶峰（前2354—前2218年）",
+        "与前2344-001、前2343-001相关"
+      ]
+    },
+    {
+      "id": "-2342-002",
+      "title": "埃及古王国：持续的地方自治与中央权威减弱",
+      "region": "埃及（尼罗河谷）",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "此时期埃及古王国中央权威继续削弱。地方总督在地方行政、军事和资源管理方面拥有越来越大的自主权。法老调动大规模劳动项目（如金字塔修建）的能力下降。这种权力下放将在随后几十年加速，最终导致第一中间期。",
+      "key_figures": [
+        "佩皮二世（可能统治，年代有争议）"
+      ],
+      "sources": [
+        {
+          "name": "地方总督自传铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "行政与丧葬文献",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "古王国衰落趋势已得到确认，但确切年代仍有争议（±30—50年）。",
+      "cross_references": [
+        "属于古王国衰落的一部分（前2345—前2181年）",
+        "与前2344-002、前2343-002相关"
+      ]
+    },
+    {
+      "id": "-2342-003",
+      "title": "哈拉帕城市中心作为行政和贸易枢纽运转",
+      "region": "印度河流域（摩亨佐达罗、哈拉帕、多拉维拉等遗址）",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "此时期，摩亨佐达罗、哈拉帕等主要哈拉帕城市中心作为行政和贸易枢纽运转。这些城市拥有规划整齐的街道布局、标准化的砖块尺寸、先进的排水系统和公共建筑。没有发现神庙或宫殿建筑，表明其社会组织与同时代的美索不达米亚或埃及国家不同，可能基于商人行会或集体治理。文明文字系统仍用于印章和陶器，但含义未破译。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "摩亨佐达罗、哈拉帕等遗址的考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "印度河印章和铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈拉帕城市中心的存在和特征有充分考古证据。前2342年明确处于成熟的哈拉帕阶段。",
+      "cross_references": [
+        "属于哈拉帕成熟阶段（前2600—前1900年）",
+        "与前2344-003、前2343-003相关"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现针对所列事件的具体反证。但前述各年的年代不确定性和解释性争议同样适用于前2342年。",
+  "historiographic_note": "前2342年的历史记录仍稀疏，严重依赖美索不达米亚和埃及文献。阿卡德文献具有宣传性。埃及文献提供政治变化的间接证据。印度河流域文明几乎完全通过考古学认知。±30—50年的年代不确定性持续存在。",
+  "graph_edges": [
+    {
+      "from": "-2342-001",
+      "to": "-2343-001",
+      "relation": "contemporary_with",
+      "note": "阿卡德行政整合的延续"
+    },
+    {
+      "from": "-2342-002",
+      "to": "-2343-002",
+      "relation": "contemporary_with",
+      "note": "古王国衰落的延续"
+    },
+    {
+      "from": "-2342-003",
+      "to": "-2343-003",
+      "relation": "contemporary_with",
+      "note": "哈拉帕成熟阶段的延续"
+    }
+  ]
+}

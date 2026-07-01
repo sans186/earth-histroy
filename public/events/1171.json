@@ -1,0 +1,171 @@
+{
+  "year": 1171,
+  "year_label": "公元1171年",
+  "era_context": "12世纪末的欧亚大陆以主要大国的巩固为标志：萨拉丁领导下的阿尤布苏丹国在征服耶路撒冷后达到顶峰；拜占庭帝国在第四次十字军洗劫君士坦丁堡（1204年即将到来）后衰落；金朝统治中国北方，南宋控制南方；西欧的安茹帝国在亨利二世与儿子们的冲突中分裂。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（有限的文字资料）",
+    "东南亚（稀疏的当代文献）",
+    "大洋洲和太平洋岛屿（可忽略的文字记录）"
+  ],
+  "events": [
+    {
+      "id": "1171-001",
+      "title": "萨拉丁征服开罗并推翻法蒂玛哈里发国",
+      "region": "埃及，法蒂玛哈里发国",
+      "coordinates_approx": "30.0444, 31.2357",
+      "category": "political",
+      "description": "萨拉丁（Ṣalāḥ ad-Dīn Yūsuf ibn Ayyūb）正式废除法蒂玛哈里发国，在埃及建立阿尤布统治。最后一位法蒂玛哈里发阿迪德·利丁·阿拉于1171年9月去世，萨拉丁巩固权力，将埃及的宗教效忠从什叶派伊斯玛仪派转向逊尼派伊斯兰教和阿拔斯哈里发国。这标志着法蒂玛近300年统治的结束，将埃及转变为阿尤布苏丹国的军事和经济强国，使萨拉丁后来能够对十字军国家发动战役。",
+      "key_figures": [
+        "萨拉丁（阿尤布苏丹）",
+        "阿迪德·利丁·阿拉（最后一位法蒂玛哈里发，卒于1171年）"
+      ],
+      "sources": [
+        {
+          "name": "伊本·阿西尔，《全史》（al-Kāmil fī al-Tārīkh）",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "伊马德·丁·伊斯法罕尼，《征服埃及》（Fatḥ al-Qusṣ）",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "现代阿尤布研究的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "法蒂玛哈里发国于1171年结束的日期和事实在多个伊斯兰编年史中确凿可证。阿迪德之死在大多数资料中定于1171年9月。",
+      "cross_references": [
+        "Relates to 1187-001 (Saladin's conquest of Jerusalem)",
+        "Follows from 1169-001 (Saladin's arrival in Egypt)"
+      ]
+    },
+    {
+      "id": "1171-002",
+      "title": "亨利二世与儿子们的冲突及安茹继承危机",
+      "region": "英格兰、诺曼底、安茹、阿基坦",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "political",
+      "description": "英格兰国王亨利二世与儿子们（特别是已加冕为共治国王的小亨利和理查）之间关于继承和权力共享的紧张局势不断升级。这些紧张局势，因亨利二世与罗莎蒙德·克利福德的私情以及他对幼子约翰的偏爱而加剧，最终导致1173–1174年大叛乱。冲突反映了安茹帝国更广泛的不稳定，并预示了将削弱该王朝的内战。",
+      "key_figures": [
+        "亨利二世（英格兰国王，诺曼底公爵）",
+        "小亨利（共治国王）",
+        "理查（后来的狮心王理查）",
+        "阿基坦的埃莉诺（王后，因支持叛乱被囚禁）"
+      ],
+      "sources": [
+        {
+          "name": "霍维登的罗杰，《编年史》",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "纽堡的威廉，《英国事务史》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "紧张局势在当代编年史中有充分记载，尽管1171年升级的具体 chronology 在现存记述中有所压缩。叛乱本身定于1173年。",
+      "cross_references": [
+        "Led to 1173-001 (Great Rebellion of 1173–1174)"
+      ]
+    },
+    {
+      "id": "1171-003",
+      "title": "诺曼入侵爱尔兰：理查·德·克莱尔（Strongbow）与英国统治的确立",
+      "region": "爱尔兰",
+      "coordinates_approx": "53.3498, -6.2603",
+      "category": "military",
+      "description": "彭布罗克伯爵二世理查·德·克莱尔（绰号 Strongbow）继续1170年开始的诺曼征服爱尔兰。1171年，亨利二世本人率领大军抵达爱尔兰，以维护王权对诺曼冒险家的权威并巩固英格兰的领土主张。亨利二世接受了爱尔兰国王们的臣服，确立了爱尔兰领主地位，该地位将在英格兰控制下持续数世纪。这标志着英格兰对爱尔兰殖民统治的开始，并引入了深刻改变爱尔兰社会的封建结构。",
+      "key_figures": [
+        "亨利二世（英格兰国王）",
+        "彭布罗克伯爵二世理查·德·克莱尔（Strongbow）",
+        "迪亚尔梅特·麦克·默查达（伦斯特国王，卒于1171年）"
+      ],
+      "sources": [
+        {
+          "name": "吉拉尔杜斯·坎布伦西斯（威尔士的杰拉尔德），《征服爱尔兰》（Expugnatio Hibernica）",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "霍维登的罗杰，《编年史》",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "《四大师年鉴》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "亨利二世于1171年抵达爱尔兰以及领主地位的确立在多个当代和近当代来源中有充分记载。",
+      "cross_references": [
+        "Follows from 1170-001 (Strongbow's initial invasion)",
+        "Part of broader Norman expansion in the 12th century"
+      ]
+    },
+    {
+      "id": "1171-004",
+      "title": "朱熹出生（新儒家哲学家）",
+      "region": "宋朝，中国",
+      "coordinates_approx": "26.0745, 119.2965",
+      "category": "cultural",
+      "description": "朱熹（朱熹），中国历史上最有影响力的哲学家之一，出生于1130年（一些资料称1131年）。到1171年，他已是宋朝一位成熟的学者和官员。朱熹综合儒、道、佛思想，形成了新儒家思想，该思想成为东亚数百年主导的哲学框架。他对经典的注释和形而上学体系深刻影响了中国的学术生活和政治治理。",
+      "key_figures": [
+        "朱熹（新儒家哲学家）"
+      ],
+      "sources": [
+        {
+          "name": "朱熹本人的著作及宋史中的传记记载",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "关于朱熹生平与影响的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "朱熹的出生年传统上定为1130年，到1171年为41岁。他当时作为学者的地位已有充分记载。",
+      "cross_references": [
+        "Part of Song Dynasty intellectual flourishing (960–1279)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "关于亨利二世与儿子们在1171年冲突的传统叙述有时被过度简化为 straightforward 的权力斗争；现代学术强调复杂的封建关系以及小亨利关于加冕后缺乏真正权威的合理 grievances。诺曼征服爱尔兰常被呈现为迅速、决定性的军事胜利，但最近的学术强调征服的渐进性以及许多地区爱尔兰抵抗和自治的持续性。法蒂玛哈里发国的覆灭有时被描绘为突然崩溃，但它是阿尤布数十年渗透和法蒂玛内部衰落的 culmination。",
+  "historiographic_note": "1171年在西欧和伊斯兰资料中有充分记载，当代或近当代编年史提供了主要政治事件的详细记录。然而，视角严重偏向精英政治和军事史；经济、社会和文化发展记录较少。中方资料丰富但常集中于宫廷政治和行政事务。撒哈拉以南非洲、东南亚和大洋洲的历史在很大程度上缺席于当代文字记录，代表了全球覆盖的重大空白。现存资料反映了文字精英——宫廷编年史家、宗教机构和后世编纂者——的偏见，可能低估了普通人、女性和非精英群体的经历。",
+  "graph_edges": [
+    {
+      "from": "1171-001",
+      "to": "1187-001",
+      "relation": "led_to",
+      "note": "萨拉丁于1171年巩固埃及为他1187年征服耶路撒冷提供了军事和经济基础"
+    },
+    {
+      "from": "1171-002",
+      "to": "1173-001",
+      "relation": "led_to",
+      "note": "亨利二世与儿子们1171年的紧张局势升级为1173–1174年的大叛乱"
+    },
+    {
+      "from": "1171-003",
+      "to": "1171-002",
+      "relation": "contemporary_with",
+      "note": "亨利二世的爱尔兰战役与其在英格兰与儿子们的冲突发生在同一时期"
+    },
+    {
+      "from": "1171-004",
+      "to": "1200-001",
+      "relation": "组成部分",
+      "note": "朱熹的学术发展是主导宋朝及后世中国思想的新儒家运动的一部分"
+    }
+  ]
+}

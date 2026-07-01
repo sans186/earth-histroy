@@ -1,0 +1,160 @@
+{
+  "year": 256,
+  "year_label": "公元256年",
+  "era_context": "罗马帝国正处于三世纪危机之中。皇帝瓦勒良一世（公元253–260年在位）已统治大约三年。沙普尔一世统治下的萨珊帝国正在积极扩张。在中国，三国时期的魏、蜀、吴仍处于僵持状态。日耳曼部落正在压迫罗马边境。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（文字记载极少）",
+    "罗马边境记载以外的北欧地区",
+    "中亚和草原地区（文献匮乏）",
+    "罗马帝国除重大军事战役和行政中心以外的大部分地区"
+  ],
+  "events": [
+    {
+      "id": "256-001",
+      "title": "瓦勒良一世早期统治与军事巩固",
+      "region": "罗马帝国（多个地区）",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "皇帝瓦勒良一世于公元253年即位，在他的统治初期（大约三年）。在此期间，瓦勒良正在巩固帝国权威并应对帝国面临的多种危机。他正在实施军事改革并重组帝国行政体系。到公元256年，瓦勒良已基本稳定了西部边境，并开始关注萨珊波斯在东方的威胁。他的统治标志着三世纪危机的暂时稳定。",
+      "key_figures": [
+        "瓦勒良一世（罗马皇帝）",
+        "加列努斯（凯撒，瓦勒良之子）"
+      ],
+      "sources": [
+        {
+          "name": "《罗马帝王纪》（瓦勒良传记）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "佐西穆斯，《新历史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "钱币学证据（瓦勒良的硬币）",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "瓦勒良的统治和权力巩固有充分证据。公元256年的具体事件和时间线记载较少。",
+      "cross_references": [
+        "继公元253-001之后（瓦勒良即位）"
+      ]
+    },
+    {
+      "id": "256-002",
+      "title": "萨珊帝国在美索不达米亚的军事行动",
+      "region": "美索不达米亚和近东",
+      "coordinates_approx": "35.0°N, 42.0°E",
+      "category": "military",
+      "description": "萨珊国王沙普尔一世在美索不达米亚和近东进行了军事行动，巩固了萨珊帝国对这些地区的控制。这些行动是沙普尔一世以牺牲罗马为代价扩大萨珊权力的更广泛战略的一部分。罗马的内部不稳定和军事过度扩张为这些行动提供了便利。沙普尔在这一时期的军事成功为后来在公元260年埃德萨战役中罗马领土的大规模入侵奠定了基础。",
+      "key_figures": [
+        "沙普尔一世（萨珊国王）"
+      ],
+      "sources": [
+        {
+          "name": "沙普尔一世的《圣王功业录》",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "佐西穆斯，《新历史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "沙普尔一世的军事行动在萨珊文献中有充分记载。公元256年的具体事件记载较少。",
+      "cross_references": [
+        "导致了公元260-001（埃德萨战役）"
+      ]
+    },
+    {
+      "id": "256-003",
+      "title": "日耳曼部落对罗马边境的袭击",
+      "region": "罗马边境地区（莱茵河和多瑙河）",
+      "coordinates_approx": "50.0°N, 15.0°E",
+      "category": "military",
+      "description": "日耳曼部落对莱茵河和多瑙河沿岸的罗马边境进行了袭击。这些袭击是三世纪危机期间日耳曼人压力的更广泛模式的一部分。由于罗马军事资源因内部不稳定和东方威胁而捉襟见肘，边境防御被削弱。袭击对边境省份造成了破坏，并加剧了经济压力。公元256年的具体规模和具体事件记载不详。",
+      "key_figures": [
+        "日耳曼部落首领（名字多未记录）",
+        "罗马边境指挥官（名字多未记录）"
+      ],
+      "sources": [
+        {
+          "name": "佐西穆斯，《新历史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "《罗马帝王纪》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "边境遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "这一时期日耳曼人的压力有充分证据，但公元256年的具体事件和日期记载不详。",
+      "cross_references": [
+        "属于更广泛的日耳曼迁徙时期（公元235–284年）"
+      ]
+    },
+    {
+      "id": "256-004",
+      "title": "罗马帝国的经济压力与货币贬值",
+      "region": "罗马帝国（多个地区）",
+      "coordinates_approx": null,
+      "category": "economic",
+      "description": "罗马帝国在三世纪危机期间继续遭受严重的经济压力。瓦勒良一世和他的前任一样，通过货币贬值来资助军事行动和行政开支。主要罗马硬币安东尼尼安的白银含量持续下降。这种贬值导致了帝国各地的通货膨胀和经济不稳定。经济危机因军事开支、贸易路线中断以及同时保卫多条边境的成本而加剧。",
+      "key_figures": [
+        "瓦勒良一世（罗马皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "钱币学证据（硬币分析）",
+          "type": "numismatic",
+          "contemporary": true
+        },
+        {
+          "name": "关于货币贬值的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "这一时期的货币贬值通过钱币学分析已得到充分证实。公元256年的具体程度和影响记载较少。",
+      "cross_references": [
+        "属于三世纪危机更广泛的经济危机（公元235–284年）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "公元256年的具体事件在现存文献中记载很少。这一年常常被公元260年的戏剧性事件（埃德萨）和三世纪危机的更广泛叙事所掩盖。有些归因于公元256年的事件可能实际上发生在相邻年份。瓦勒良到公元256年时的权力巩固程度与后来几年的情况存在争议。",
+  "historiographic_note": "公元256年的历史记录稀疏，严重依赖于后来编撰的著作（《罗马帝王纪》、佐西穆斯），这些著作已知并不可靠。同时代文献仅限于钱币学证据和后来编年史中的零星引用。公元256年在历史叙事中常常被忽视，历史叙事倾向于关注更戏剧性的事件。行省居民、日耳曼部落和非精英阶层的视角几乎完全缺失。这一时期的货币危机通过钱币学证据比通过文字记载得到了更好的记录。",
+  "graph_edges": [
+    {
+      "from": "256-001",
+      "to": "257-001",
+      "relation": "led_to",
+      "note": "早期巩固导致了持续稳定"
+    },
+    {
+      "from": "256-002",
+      "to": "260-001",
+      "relation": "led_to",
+      "note": "萨珊军事行动导致了埃德萨战役"
+    },
+    {
+      "from": "256-004",
+      "to": "260-001",
+      "relation": "part_of",
+      "note": "经济压力导致了军事脆弱性"
+    }
+  ]
+}

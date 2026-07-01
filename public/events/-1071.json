@@ -1,0 +1,54 @@
+{
+  "year": -1071,
+  "year_label": "公元前1071年",
+  "era_context": "晚期青铜时代崩溃的余波；早期铁器时代。与前三年相同。埃及处于拉美西斯晚期统治；黎凡特恢复；亚述衰弱；巴比伦分裂。铁器加工技术正在传播。国际贸易和文献记录减少。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东亚",
+    "中美洲",
+    "北欧",
+    "中亚和草原"
+  ],
+  "events": [
+    {
+      "id": "-1071-001",
+      "title": "拉美西斯六世统治；向第二十一王朝过渡",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 32.5",
+      "category": "political",
+      "description": "拉美西斯六世的统治继续。到其统治的这一点，埃及的行政和经济分裂已根深蒂固。底比斯阿蒙神庙祭司已成为主要的地主和权力掮客。从第二十王朝到第二十一王朝的过渡即将来临，标志着埃及政治结构的根本转变，祭司权威与法老权力相抗衡。",
+      "key_figures": [
+        "拉美西斯六世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "埃及行政记录和神庙铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "代尔麦地那陶片",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "拉美西斯六世的在位年份存在争议；-1071落在可能范围内但非精确固定。",
+      "cross_references": [
+        "-1074-001",
+        "-1070-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现针对所列事件的具体反驳证据。",
+  "historiographic_note": "这一年仍在留存记录中无区别。文献记录如此稀疏，以至于将不同事件分配到个别年份在很大程度上是惯例问题。历史记录几乎完全依赖埃及来源。",
+  "graph_edges": [
+    {
+      "from": "-1071-001",
+      "to": "-1070-001",
+      "relation": "led_to",
+      "note": "拉美西斯六世的统治及其造成的条件直接导致了向第二十一王朝的过渡。"
+    }
+  ]
+}

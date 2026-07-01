@@ -1,0 +1,78 @@
+{
+  "year": -2044,
+  "year_label": "公元前2044年",
+  "era_context": "与前四年相同：古埃及古王国（第六王朝）衰落，阿卡德帝国处于纳拉姆-辛统治下，印度河流域文明处于成熟期，中国夏朝（早期或传说时期）。青铜时代的欧亚大陆。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-2044-001",
+      "title": "哈拉帕文明处于人口和城市发展的顶峰",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "demographic",
+      "description": "印度河流域文明在成熟的哈拉帕阶段达到了人口和领土范围的最大值。摩亨佐-达罗、哈拉帕、多拉维拉和卡利班甘等主要城市已完全发展且人口稠密。该文明覆盖约130万平方公里的区域，比同时代的埃及或美索不达米亚更大。这代表了哈拉帕人口与经济力量的顶峰。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古调查和发掘",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "放射性碳测年与地层分析",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "成熟的哈拉帕阶段在考古上已得到充分证实。-2044年处于其最大范围期（约公元前2600–1900年）内。",
+      "cross_references": [
+        "-2040-002"
+      ]
+    },
+    {
+      "id": "-2044-002",
+      "title": "古埃及晚期古王国：行政分裂加速",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "在佩皮二世统治时期（传统年代学），埃及的行政分裂继续加速。各省总督（诺姆长）正在积累财富和权力，中央政府的权威正在削弱。这一时期标志着从中央集权的古王国向权力分散的第一中间期的过渡。经济资源日益集中在各省手中，而非王室国库。",
+      "key_figures": [
+        "佩皮二世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "这一时期各省总督的自传体铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "金字塔文和行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "第六王朝晚期行政分权化的总趋势已得到充分证实。-2044年在此过程中的具体年代不确定。",
+      "cross_references": [
+        "-2040-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "关于古王国在第六王朝末期突然“崩溃”的传统叙述日益受到现代学术界的质疑。近期的研究表明这是一个更为渐进的过渡过程，并质疑行政变革是否如曾经认为的那样具有灾难性。此外，佩皮二世实际统治的长度仍存争议。",
+  "historiographic_note": "年份-2044在考古上与其相邻年份无法区分。没有针对该具体年份记载的特殊事件。这一时期的历史记录极为稀疏，逐年的区分在很大程度上是人为的。信息来自广泛的考古模式、王表和行政记录，而非针对特定年份的文献。-2040至-2044这五年跨度代表了历史记录中一个基本无差别的单一时期。",
+  "graph_edges": [
+    {
+      "from": "-2044-002",
+      "to": "-2180-FIRST_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "第六王朝晚期的行政分裂直接导致了第一中间期的政治分裂。"
+    }
+  ]
+}

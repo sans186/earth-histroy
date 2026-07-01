@@ -1,0 +1,55 @@
+{
+  "year": -2003,
+  "year_label": "公元前2003年",
+  "era_context": "中青铜时代。埃及第12王朝已入末期；美索不达米亚正从乌尔第三王朝向古巴比伦时期过渡；印度河流域文明处于成熟阶段；米诺斯文明在克里特岛繁荣；中国传统年代学将此归于夏朝。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧和草原",
+    "中美洲",
+    "美洲大部分地区",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-2003-001",
+      "title": "阿蒙涅姆赫特三世在埃及持续统治",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "阿蒙涅姆赫特三世在埃及第12王朝继续其法老统治。该年份处于其漫长而繁荣的统治期内。埃及保持着行政体系、经济稳定和贸易关系。这位法老的统治以大量建筑工程和文化成就为特征。",
+      "key_figures": [
+        "阿蒙涅姆赫特三世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "纪念碑铭文与行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿蒙涅姆赫特三世的统治得到确认；具体年份公元前2003年系按传统方法在其统治期内指定。",
+      "cross_references": [
+        "-2000-001",
+        "-2001-001",
+        "-2002-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "现存史料中未记载公元前2003年的任何具体事件。这一年没有在历史记录中被区分。",
+  "historiographic_note": "公元前2003年在现存史料中没有记载特定年份的事件。该年的历史记录基本空白。这一时期的古代编年史具有±50–150年的不确定性，使得将事件精确到某一年份很大程度上是惯例性的。",
+  "graph_edges": [
+    {
+      "from": "-2003-001",
+      "to": "-2002-001",
+      "relation": "contemporary_with",
+      "note": "阿蒙涅姆赫特三世统治期延续。"
+    }
+  ]
+}

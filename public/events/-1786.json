@@ -1,0 +1,86 @@
+{
+  "year": -1786,
+  "year_label": "公元前1787年",
+  "era_context": "汉谟拉比的巴比伦处于权力和领土范围的巅峰。埃及第十三王朝处于分裂的最后几十年。赫梯古王国巩固对小亚细亚的控制。印度河流域文明开始从成熟期向晚期过渡。这是一个领土国家确立和邦际外交的时期。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东亚",
+    "美洲",
+    "大洋洲",
+    "中亚和草原"
+  ],
+  "events": [
+    {
+      "id": "-1786-001",
+      "title": "巴比伦对美索不达米亚的霸权巩固",
+      "region": "美索不达米亚",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "到其统治的这一点，汉谟拉比已成功征服并将美索不达米亚大部分地区纳入巴比伦统治之下。拉尔萨、埃什努纳和马里等前敌对城邦现在处于巴比伦控制或影响下。巴比伦成为该地区主导力量，汉谟拉比的行政体系扩展到广大领土。这一霸权在其死后将持续数十年。",
+      "key_figures": [
+        "汉谟拉比（巴比伦国王）"
+      ],
+      "sources": [
+        {
+          "name": "巴比伦王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "巴比伦及被征服城市的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "巴比伦行政文件",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "汉谟拉比巩固权力记录充分，但具体征服的时间线不确定。分配给公元前1787年是更广泛巩固时期内的惯例。",
+      "cross_references": []
+    },
+    {
+      "id": "-1786-002",
+      "title": "印度河流域文明进入晚期，城市衰落",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "印度河流域文明开始从成熟期向晚期过渡。一些主要城市如摩亨佐达罗显示出衰落迹象，有人口减少和某些区域被废弃的证据。成熟期特征的标准度量衡变得不那么统一。贸易网络开始收缩。衰落的原因存在争论——气候变化、环境退化或内部社会因素——但过程是渐进的，持续数个世纪。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "城市遗址的地层分析",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "从成熟期到晚期哈拉帕的过渡在考古学上有充分记载。晚期定年约公元前1900–1300年，将公元前1787年（-1786）置于这一过渡的开始时。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "印度河流域文明衰落的确切原因和时间线存在争议。一些学者认为由于气候变化或入侵突然崩溃；另一些则提出渐进、多原因衰落。将衰落开始归于该特定年份有些武断。考古证据表明过程是渐进的，持续数个世纪而非单一事件。",
+  "historiographic_note": "该年属于文字记载仅限于美索不达米亚和埃及的时期。印度河流域文明的未破解文字限制了对政治和社会事件的理解。美索不达米亚来源主要是行政文件和后来的王表。埃及来源零散。“低年代学”与“中年代学”之争继续影响该时期所有定年。",
+  "graph_edges": [
+    {
+      "from": "-1786-001",
+      "to": "-1700-001",
+      "relation": "led_to",
+      "note": "巴比伦霸权持续，直到公元前16世纪加喜特人崛起"
+    },
+    {
+      "from": "-1786-002",
+      "to": "-1300-001",
+      "relation": "part_of",
+      "note": "印度河流域城市衰落是持续数个世纪的渐进过渡的一部分"
+    }
+  ]
+}

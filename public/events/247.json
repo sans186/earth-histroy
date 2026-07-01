@@ -1,0 +1,143 @@
+{
+  "year": 247,
+  "year_label": "公元247年",
+  "era_context": "240年代中期，在阿拉伯人菲利普统治下，罗马帝国相对稳定，尽管潜在的经济和军事压力正在积累。沙普尔一世治下的萨珊帝国正在巩固权力。在中国，三国时期继续，曹魏占据主导地位。基督教正在发展，并开始引起帝国当局的注意。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "罗马边境之外的北欧",
+    "中亚",
+    "东南亚",
+    "中美洲和南美洲"
+  ],
+  "events": [
+    {
+      "id": "247-001",
+      "title": "阿拉伯人菲利普庆祝生日并向军队分发赏金",
+      "region": "罗马帝国（罗马，意大利，军营）",
+      "coordinates_approx": "41.9028, 12.4964",
+      "category": "political",
+      "description": "阿拉伯人菲利普在担任皇帝的第四年，在罗马举办了公共游戏和表演以庆祝生日，并向军队分发赏金（现金礼物）以维持忠诚。这些庆祝和分发是菲利普巩固权力、争取军队和民众支持的策略的一部分。然而，这些活动也耗尽了帝国国库，而国库已经因瘟疫、通货膨胀和军事开支而紧张。",
+      "key_figures": [
+        "菲利普·阿拉比斯（罗马皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "《罗马帝王纪·阿拉伯人菲利普传》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "钱币证据（纪念庆祝活动的硬币）",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "菲利普的庆祝活动和赏金分发在史料中有记载，但公元247年的具体事件并非总能与相邻年份的事件清晰区分。",
+      "cross_references": [
+        "244-001（菲利普即位）"
+      ]
+    },
+    {
+      "id": "247-002",
+      "title": "沙普尔一世巩固萨珊权力；加强军事和行政",
+      "region": "萨珊帝国（波斯，美索不达米亚）",
+      "coordinates_approx": "32.6546, 51.6680",
+      "category": "political",
+      "description": "沙普尔一世在其统治初期（约公元240-247年），继续巩固萨珊权力并加强帝国的军事和行政结构。沙普尔正在为公元250年代开始的针对罗马的侵略性战役奠定基础。他的统治标志着萨珊帝国文化和经济繁荣的时期。",
+      "key_figures": [
+        "沙普尔一世（萨珊王中之王）"
+      ],
+      "sources": [
+        {
+          "name": "沙普尔一世的《神圣沙普尔功业录》",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "阿米阿努斯·马尔切利努斯《历史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "沙普尔巩固权力的事实有充分记载，但公元247年的具体事件没有清晰记录。",
+      "cross_references": [
+        "250-003（沙普尔的战役）"
+      ]
+    },
+    {
+      "id": "247-003",
+      "title": "曹魏面临内部挑战；曹叡统治持续",
+      "region": "中国（曹魏政权，中国北方）",
+      "coordinates_approx": "34.8047, 113.6393",
+      "category": "political",
+      "description": "曹叡于公元247年继续担任曹魏皇帝。曹魏仍是中国北方的主导力量，尽管面临着日益严重的宫廷派系斗争和军事将领权力增长的内部挑战。曹叡的统治以文化成就为特征，但政治不稳定最终导致了司马家族的崛起。",
+      "key_figures": [
+        "曹叡（魏明帝）"
+      ],
+      "sources": [
+        {
+          "name": "《三国志·魏书》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "《资治通鉴》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "曹叡的统治在中国历史记载中有充分记载。",
+      "cross_references": [
+        "249-004（司马懿政变）"
+      ]
+    },
+    {
+      "id": "247-004",
+      "title": "基督教社群持续发展；神学辩论加剧",
+      "region": "罗马帝国（广泛分布，尤其是北非和小亚细亚）",
+      "coordinates_approx": null,
+      "category": "religious",
+      "description": "公元247年，尽管存在零星的局部迫害，罗马帝国各地的基督教社群仍在持续发展。基督教内部的神学辩论愈演愈烈，特别是关于基督论、教会论以及如何应对迫害的问题。基督教知识分子如奥利金和迦太基的居普良正在创作有影响力的神学著作，这些著作将塑造基督教思想数百年。",
+      "key_figures": [
+        "迦太基的居普良（基督教主教和神学家）",
+        "奥利金（基督教神学家）"
+      ],
+      "sources": [
+        {
+          "name": "迦太基的居普良《书信集》和《论著作》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "奥利金的神学著作",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "凯撒利亚的优西比乌《教会史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "基督教的发展和神学辩论在当代史料中有记载，但公元247年的具体事件并非总能与相邻年份的事件清晰区分。",
+      "cross_references": [
+        "250-001（德西乌斯的迫害）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "《罗马帝王纪》中关于阿拉伯人菲利普的记述被现代学者认为不可靠。公元247年的具体事件记载稀少，难以与相邻年份的事件区分。沙普尔一世统治和巩固权力的年代存在争议。",
+  "historiographic_note": "公元247年的文献记载量中等但零散。罗马史料相对丰富，但多撰写于数十年后，且包含传说成分。中国史料是当代或近当代的，通常可靠。其他地区的史料稀少。《罗马帝王纪》是这一时期的主要史料，但其可靠性众所周知不可信。对于这一年，许多历史记录是基于更广泛的模式而非具体记载的事件重建的。",
+  "graph_edges": [
+    {
+      "from": "247-001",
+      "to": "249-002",
+      "relation": "led_to",
+      "note": "菲利普在公元247年的开支和巩固努力最终未能阻止他于公元249年被推翻"
+    }
+  ]
+}

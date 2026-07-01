@@ -1,0 +1,61 @@
+{
+  "year": -2605,
+  "year_label": "公元前2605年",
+  "era_context": "早期青铜时代III期；埃及古王国处于最后几十年（根据年代学系统，为第五王朝晚期或第六王朝早期）；美索不达米亚处于早王朝III期；印度河流域文明处于成熟期。此时期大部分地区制度具有连续性，但历史记录极其稀少。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2605-001",
+      "title": "佩皮二世统治（传统断代持续）",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "根据传统年代学，佩皮二世的统治继续。本年没有具体事件记载。古王国行政体系持续存在，尽管地方权威在增长。本年考古学记录显示没有发生重大中断。",
+      "key_figures": [
+        "佩皮二世（法老）"
+      ],
+      "sources": [
+        {
+          "name": "王表和行政记录",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "传统年代学；本年无具体事件记录。",
+      "cross_references": [
+        "-2609-001"
+      ]
+    },
+    {
+      "id": "-2605-002",
+      "title": "印度河流域文明成熟期",
+      "region": "印度河流域，南亚",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "印度河流域文明在其成熟期持续，没有记载的中断。哈拉帕和摩亨佐-达罗等城市中心保持着其特有的规划布局、排水系统和手工业生产。贸易网络保持活跃。该文明显示出惊人的文化连续性和稳定性。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自印度河遗址的考古学证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明的成熟期在考古学上得到充分证实；本年没有具体事件可知。",
+      "cross_references": [
+        "-2609-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "对于所列事件未发现相反证据。",
+  "historiographic_note": "本年未有存世资料记载。历史记录微不足道。任何叙述都是推测性的，基于更广泛的年代学框架。将佩皮二世的统治归于本年遵循惯例，且带有重大不确定性（±50年或更多）。",
+  "graph_edges": []
+}

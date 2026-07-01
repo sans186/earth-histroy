@@ -1,0 +1,115 @@
+{
+  "year": -9,
+  "year_label": "前9年",
+  "era_context": "奥古斯都治下的罗马帝国继续稳定与巩固。中国西汉王朝在汉宣帝统治下，其统治接近尾声（他于公元前49年去世）。犹地亚仍处于希律大帝统治下。萨塔瓦哈纳王朝继续在印度扩张。这一时期代表了欧亚主要文明之稳定性的高峰。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "罗马边疆以北的北欧地区",
+    "大洋洲与太平洋岛屿",
+    "中美洲",
+    "中亚（有限书面文献）"
+  ],
+  "events": [
+    {
+      "id": "-9-001",
+      "title": "奥古斯都统治；持续行政巩固",
+      "region": "罗马帝国",
+      "coordinates_approx": "41.90, 12.50",
+      "category": "political",
+      "description": "奥古斯都继续统治罗马帝国，通过谨慎的军事组织和行政改革维持罗马和平。帝国处于和平状态，军事资源集中于边疆安全。奥古斯都的统治见证了职业军队的发展、税收制度的改善以及多元行省整合为统一行政结构。经济繁荣，得益于基础设施和贸易网络的改善。",
+      "key_figures": [
+        "奥古斯都·凯撒（罗马皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "《神圣奥古斯都功业录》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "奥维德，《变形记》",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "奥古斯都的统治和总体政策通过同时代文献得到充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "-9-002",
+      "title": "汉宣帝；持续军事战役与文化赞助",
+      "region": "中国（西汉）",
+      "coordinates_approx": "34.27, 108.95",
+      "category": "military",
+      "description": "汉宣帝继续统治西汉，对匈奴及其他北方民族进行军事战役。汉朝军队依然强大高效。宣帝也是艺术和文学的赞助人，支持学者和艺术家。经济繁荣，贸易网络沿着后来被称为丝绸之路的路线扩展。这一时期代表了汉朝权力和文化成就的高峰。",
+      "key_figures": [
+        "汉宣帝"
+      ],
+      "sources": [
+        {
+          "name": "《汉书》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "来自汉朝遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "汉宣帝的统治在中国历史记录中有详细记载。",
+      "cross_references": []
+    },
+    {
+      "id": "-9-003",
+      "title": "希律大帝在犹地亚的统治；持续建筑工程",
+      "region": "犹地亚",
+      "coordinates_approx": "31.95, 35.20",
+      "category": "cultural",
+      "description": "希律一世继续作为犹地亚的附庸王统治，维持稳定并进行雄心勃勃的建筑工程。他的统治以犹太宗教传统与希腊文化的平衡为特征。主要建设项目包括第二圣殿的翻修、马萨达要塞以及凯撒利亚·马里提马城的建设。这些工程旨在提升希律的威望，并将犹地亚融入更广泛的希腊化世界。",
+      "key_figures": [
+        "希律一世（犹地亚国王）"
+      ],
+      "sources": [
+        {
+          "name": "约瑟夫斯，《犹太古史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "来自希律时期遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "希律的统治总体上有充分证据，但个别年份内的具体事件缺乏同时代文献记载。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的主要反驳证据。然而，公元前9年作为一个独特历史年份的重要性在现存文献中并未标记为任何重大转折点。",
+  "historiographic_note": "公元前9年的历史记录以地中海和中国文献为主。罗马文献强调奥古斯都的成就；中国文献反映宫廷视角。犹地亚的历史主要通过约瑟夫斯了解，他写作于数个世纪后。更广阔的世界在该年份大体上缺乏文献记载。考古证据为文献来源提供了重要修正，特别是关于希律的建筑项目。",
+  "graph_edges": [
+    {
+      "from": "-9-001",
+      "to": "-8-001",
+      "relation": "part_of",
+      "note": "奥古斯都统治与罗马和平的延续"
+    },
+    {
+      "from": "-9-002",
+      "to": "-8-002",
+      "relation": "part_of",
+      "note": "汉宣帝统治与汉朝繁荣的延续"
+    },
+    {
+      "from": "-9-003",
+      "to": "-8-003",
+      "relation": "part_of",
+      "note": "希律建筑计划与统治的延续"
+    }
+  ]
+}

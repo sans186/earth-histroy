@@ -1,0 +1,129 @@
+{
+  "year": 277,
+  "year_label": "公元277年",
+  "era_context": "罗马帝国在普罗布斯（公元276–282年）统治下，正从三世纪危机中巩固权力。萨珊帝国在巴赫拉姆二世（公元274–293年）统治初期。中国西晋王朝（公元266–316年）即将统一。日耳曼和哥特部落仍在罗马边境活动。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "罗马边境外的北欧",
+    "东南亚",
+    "中美洲",
+    "太平洋岛屿"
+  ],
+  "events": [
+    {
+      "id": "277-001",
+      "title": "普罗布斯在巴尔干地区对哥特人作战",
+      "region": "罗马帝国（巴尔干地区，多瑙河边境）",
+      "coordinates_approx": "44.0, 22.0",
+      "category": "military",
+      "description": "皇帝普罗布斯在巴尔干地区和多瑙河沿线对哥特部落进行军事战役。此前数十年入侵帝国的哥特人被击退并击败。普罗布斯的战役是其系统恢复罗马对北方边界控制的一部分。一些被击败的哥特人被编入罗马军队作为辅助部队。",
+      "key_figures": [
+        "普罗布斯（罗马皇帝，公元276–282年在位）"
+      ],
+      "sources": [
+        {
+          "name": "《罗马帝王纪·普罗布斯传》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "佐西莫斯《新史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "普罗布斯的哥特战役在多种史料中有记载，但具体日期不确定。《罗马帝王纪》在精确年表上不可靠。",
+      "cross_references": [
+        "276-001 (普罗布斯即位)"
+      ]
+    },
+    {
+      "id": "277-002",
+      "title": "普罗布斯在伊利里库姆和巴尔干地区作战",
+      "region": "罗马帝国（伊利里库姆，巴尔干地区）",
+      "coordinates_approx": "43.0, 19.0",
+      "category": "military",
+      "description": "普罗布斯在伊利里库姆和巴尔干地区进行军事行动，以恢复罗马控制并镇压盗匪。该地区在三世纪危机期间变得不稳定。普罗布斯的战役恢复了行政秩序和税收征收。",
+      "key_figures": [
+        "普罗布斯（罗马皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "《罗马帝王纪·普罗布斯传》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "《罗马帝王纪》提到普罗布斯的伊利里亚战役，但提供的具体日期很少。确切年份不确定。",
+      "cross_references": []
+    },
+    {
+      "id": "277-003",
+      "title": "巴赫拉姆二世巩固萨珊权威并加强琐罗亚斯德教",
+      "region": "萨珊帝国（波斯）",
+      "coordinates_approx": "32.0, 54.0",
+      "category": "religious",
+      "description": "巴赫拉姆二世（公元274–293年在位）继续巩固其在萨珊帝国的权威。他加强琐罗亚斯德教祭司的地位，并推动琐罗亚斯德教正统作为国家合法性的工具。他的岩刻和铭文记录了他的统治和宗教政策。巴赫拉姆二世面临贵族的反对，但逐渐集中了王权。",
+      "key_figures": [
+        "巴赫拉姆二世（萨珊万王之王，公元274–293年在位）"
+      ],
+      "sources": [
+        {
+          "name": "萨珊岩刻与铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "塔巴里《先知与诸王史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "巴赫拉姆二世的统治和宗教政策通过同时代的岩刻和铭文有记载。",
+      "cross_references": []
+    },
+    {
+      "id": "277-004",
+      "title": "西晋王朝继续为征服东吴进行军事集结",
+      "region": "中国（西晋王朝）",
+      "coordinates_approx": "32.0, 110.0",
+      "category": "military",
+      "description": "西晋王朝继续建立军事力量，为最终征服东吴做准备。军事资源被调动，战略规划正在进行。征服将在公元280年完成。",
+      "key_figures": [
+        "晋武帝（公元266–290年在位）"
+      ],
+      "sources": [
+        {
+          "name": "《晋书》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "西晋军事准备的总体叙述有充分记载，但公元277年的具体事件并非总能与相邻年份明确区分。",
+      "cross_references": [
+        "280-005 (征服东吴)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "《罗马帝王纪》对普罗布斯的记载常常夸大或包含传奇元素。现代学术界对这些记载持怀疑态度。普罗布斯战役的确切年表不确定；一些史料将某些战役放在不同年份。",
+  "historiographic_note": "公元277年的历史记载严重依赖《罗马帝王纪》，其可靠性不确定。同时代的钱币和铭文提供了一些佐证。中国史料更可靠且一致。萨珊史料主要是铭文。记载偏向精英军事和政治事件。地中海、波斯和中国之外的世界大部分地区在现存记载中缺失。",
+  "graph_edges": [
+    {
+      "from": "277-001",
+      "to": "280-001",
+      "relation": "part_of",
+      "note": "属于普罗布斯更广泛的边境巩固战役（公元276–282年）的一部分"
+    },
+    {
+      "from": "277-004",
+      "to": "280-005",
+      "relation": "led_to",
+      "note": "军事准备导致公元280年征服东吴"
+    }
+  ]
+}

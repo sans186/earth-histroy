@@ -1,0 +1,102 @@
+{
+  "year": -1844,
+  "year_label": "公元前1845年",
+  "era_context": "黎凡特和埃及的中青铜时代；埃及第十二王朝阿蒙涅姆赫特三世统治时期。美索不达米亚继续为古巴比伦时期。印度河流域文明处于鼎盛期。中国为传统夏朝或商代早期（年代争议很大）。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "大洋洲",
+    "中亚",
+    "东亚"
+  ],
+  "events": [
+    {
+      "id": "-1844-001",
+      "title": "阿蒙涅姆赫特三世统治时期；埃及中王国繁荣与建设计划",
+      "region": "埃及",
+      "coordinates_approx": "26.0,31.0",
+      "category": "cultural",
+      "description": "阿蒙涅姆赫特三世的统治持续，伴随持续的建设计划和行政发展。这一时期代表了中王国埃及成就的顶峰，大规模建造庙宇、金字塔和行政基础设施。埃及对努比亚、黎凡特和西奈的贸易网络和资源的控制有充分证据。统治时期以繁荣和文化兴盛为标志。",
+      "key_figures": [
+        "阿蒙涅姆赫特三世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "埃及铭文和行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "庙宇和金字塔遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿蒙涅姆赫特三世的统治有良好文献记载，但无法分离出具体的逐年纪事。年代分配取决于埃及年代系统。",
+      "cross_references": []
+    },
+    {
+      "id": "-1844-002",
+      "title": "古巴比伦时期；经济与行政活动",
+      "region": "美索不达米亚",
+      "coordinates_approx": "32.5,44.4",
+      "category": "economic",
+      "description": "古巴比伦时期持续，有文献记载的经济活动，包括谷物、纺织品、金属和奢侈品的贸易。楔形文字记录显示汉谟拉比法典下法律和行政系统的运作。贸易网络延伸至印度河流域、波斯湾和黎凡特。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "楔形文字行政和经济文本",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "这一时期的巴比伦年代学有争议。将特定事件归于公元前1845年取决于采用哪种年代系统。",
+      "cross_references": []
+    },
+    {
+      "id": "-1844-003",
+      "title": "印度河流域文明；成熟的都市中心和标准化生产",
+      "region": "印度河流域",
+      "coordinates_approx": "27.5,68.5",
+      "category": "cultural",
+      "description": "印度河流域文明的主要都市中心显示了复杂的城市规划、标准化手工业生产和广泛的贸易网络的证据。考古证据表明一个高度组织的社会，具有专业化的经济角色。由于未解读的文字，文明的确切政治结构和治理方式仍然未知。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河遗址的考古发掘",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "印度河流域文明的年代学有争议。传统年代将成熟哈拉帕阶段定为约公元前2600-1900年。具体的逐年纪事没有文献记载。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现特定的反驳证据。然而，所有三个文明的年代框架均在学者中存在争议。印度河流域文明的衰落及其原因仍在争论中。",
+  "historiographic_note": "公元前1845年的文献仅限于埃及和美索不达米亚。印度河流域文明缺乏可解读的文字限制了对政治事件的理解。±50-100年的年代不确定性在这一时期是固有的。大多数存留记录具有行政或经济性质，可能省略了重要的文化或政治事件。这一时期的史料严重偏向有文字记录的文明。",
+  "graph_edges": [
+    {
+      "from": "-1844-001",
+      "to": "-1843-001",
+      "relation": "contemporary_with",
+      "note": "阿蒙涅姆赫特三世统治持续"
+    },
+    {
+      "from": "-1844-002",
+      "to": "-1843-002",
+      "relation": "contemporary_with",
+      "note": "古巴比伦时期持续"
+    },
+    {
+      "from": "-1844-001",
+      "to": "-1844-002",
+      "relation": "contemporary_with",
+      "note": "埃及和美索不达米亚文明共存并贸易"
+    }
+  ]
+}

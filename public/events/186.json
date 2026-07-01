@@ -1,0 +1,49 @@
+{
+  "year": 186,
+  "year_label": "186年",
+  "era_context": "汉朝在黄巾起义（184–205年）后已进入严重衰落期。地方军阀正在巩固权力。罗马帝国在康茂德统治下继续经历政治动荡。贵霜帝国控制着中亚和印度次大陆。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "罗马边境以北的北欧地区",
+    "中美洲",
+    "大洋洲",
+    "印度次大陆"
+  ],
+  "events": [
+    {
+      "id": "186-001",
+      "title": "黄巾起义：持续镇压与军阀整合",
+      "region": "汉朝中国，多个州郡",
+      "coordinates_approx": null,
+      "category": "military",
+      "description": "始于184年的黄巾起义在186年仍在继续，汉朝军队和地方军阀持续进行军事行动。到186年，起义在大部分地区已基本被镇压，但镇压过程却壮大了地方军事指挥官的力量，他们很快将挑战汉朝中央权威。军阀割据时期开始成型。",
+      "key_figures": [
+        "曹操（汉朝将领）",
+        "袁绍（军阀）"
+      ],
+      "sources": [
+        {
+          "name": "《三国志》（陈寿著）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "黄巾起义有充分记载，但186年的具体事件记载很少。该日期为惯例推定。",
+      "cross_references": [
+        "属于184-001（黄巾起义）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现对所列事件的否定性证据。",
+  "historiographic_note": "186年的历史记录稀少。中国史料聚焦于黄巾起义，但186年的具体事件很少被明确提及。该年份属于起义镇压与军阀权力巩固的更广泛时期，但现存史料中未明确记载186年的具体事件。",
+  "graph_edges": [
+    {
+      "from": "186-001",
+      "to": "184-001",
+      "relation": "part_of",
+      "note": "黄巾起义的延续"
+    }
+  ]
+}

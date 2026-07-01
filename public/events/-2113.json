@@ -1,0 +1,119 @@
+{
+  "year": -2113,
+  "year_label": "2113 BCE",
+  "era_context": "美索不达米亚处于阿卡德晚期和古提人入侵初期。埃及古王国正处在最后几年；第六王朝正在分裂。印度河流域文明仍处于成熟、稳定的阶段。在中国，传统的夏朝处于早期阶段，尽管这一时期的考古证据存在争议。青铜时代继续在欧亚大陆推进。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "太平洋岛屿",
+    "中亚（文字记录有限）"
+  ],
+  "events": [
+    {
+      "id": "-2113-001",
+      "title": "阿卡德行政体系持续崩溃与古提人压力",
+      "region": "美索不达米亚",
+      "coordinates_approx": "32.5, 44.0",
+      "category": "political",
+      "description": "阿卡德帝国继续瓦解。这一时期的楔形文字记录显示中央权威进一步丧失。地方总督和城邦越来越多地独立行动。来自东北方向的古提人压力继续破坏地区稳定。从阿卡德到古提人统治的过渡是一个持续数十年的渐进过程，而非一次单一的军事征服。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "阿卡德行政文书和信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《苏美尔王表》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "美索不达米亚遗址的考古地层",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿卡德衰落的总体过程证据充分，但逐年事件未被记录。该条目代表更广泛趋势的延续，而非特定事件。",
+      "cross_references": [
+        "是-2114-001的延续",
+        "是阿卡德更广泛崩溃（约公元前2200-2130年）的一部分"
+      ]
+    },
+    {
+      "id": "-2113-002",
+      "title": "埃及第六王朝处于末期衰落",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "第六王朝继续分裂。诺姆长积累权力；中央权威进一步削弱。佩皮二世的统治（如果他在这个年代依然在世，取决于年代学方案）的特点是失去对地方总督的控制。一些学者认为佩皮二世的统治异常漫长（约64年），这将使这一时期接近他统治的末尾；另一些学者将他定年较早，使这一时期成为其继任者统治的一部分。向第一中间期的过渡迫在眉睫。",
+      "key_figures": [
+        "佩皮二世或其继任者（年代学存在争议）"
+      ],
+      "sources": [
+        {
+          "name": "诺姆长自传和墓碑铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "《都灵王表》",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "地方遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "第六王朝的总体衰落有充分记录，但个人统治和事件的精确断代不确定。古王国的年代学存在±30-50年的争议。",
+      "cross_references": [
+        "是-2114-002的延续",
+        "是古王国崩溃的一部分"
+      ]
+    },
+    {
+      "id": "-2113-003",
+      "title": "印度河流域文明继续成熟阶段",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "印度河流域文明保持稳定和繁荣。城市中心继续运转，拥有标准化的规划和广泛的贸易网络。在这一年或前后几十年内，考古记录中没有明显的重大破坏。该文明显示出从公元前2600年到公元前1900年的非凡连续性。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明在这一时期的稳定性通过考古学得到充分确立。然而，缺乏文字记录（未破译的文字）限制了对具体事件的理解。",
+      "cross_references": [
+        "是-2114-003的延续",
+        "是印度河成熟阶段（约公元前2600-1900年）的一部分"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现针对所列事件的特定否定证据。然而，这一时期总体年代学仍有争议，所有年代存在±30-50年的不确定性。",
+  "historiographic_note": "这一年的文献记录很差。现存的资料中没有关于公元前2113年特定事件的记录。上述条目代表了更广泛趋势（阿卡德崩溃、埃及衰落、印度河稳定）的延续，而非离散事件。这一年的历史记录基本上是一片空白；我们了解大背景，但不了解具体事件。",
+  "graph_edges": [
+    {
+      "from": "-2113-001",
+      "to": "-2114-001",
+      "relation": "contemporary_with",
+      "note": "阿卡德崩溃的延续"
+    },
+    {
+      "from": "-2113-002",
+      "to": "-2114-002",
+      "relation": "contemporary_with",
+      "note": "埃及衰落的延续"
+    }
+  ]
+}

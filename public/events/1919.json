@@ -1,0 +1,608 @@
+{
+  "year": 1919,
+  "year_label": "公元1919年",
+  "era_context": "第一次世界大战后的直接时期。巴黎和会正在谈判《凡尔赛条约》；俄国内战仍在继续；欧洲、亚洲、中东和非洲的民族主义和独立运动正在兴起；奥斯曼帝国正在瓦解；西班牙流感大流行即将结束；国际联盟正在设计之中；欧洲经济体处于危机和重建之中。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1919-001",
+      "title": "《凡尔赛条约》签署，正式结束第一次世界大战",
+      "region": "法国 / 凡尔赛",
+      "coordinates_approx": "48.8,2.1",
+      "category": "political",
+      "description": "《凡尔赛条约》于1919年6月28日签署，正式结束了协约国与德国之间的第一次世界大战。条约对德国施加了严厉的赔款、领土损失和军事限制。它还建立了国际联盟，并重新绘制了欧洲地图，创建了新的民族国家和委任统治地。该条约具有争议性，许多历史学家认为其惩罚性条款促成了德国的怨恨和纳粹主义的兴起。该条约既代表了寻求持久和平的尝试，也埋下了未来冲突的种子。",
+      "key_figures": [
+        "伍德罗·威尔逊（美国总统）",
+        "乔治·克列孟梭（法国总理）",
+        "戴维·劳合·乔治（英国首相）",
+        "维托里奥·奥兰多（意大利总理）"
+      ],
+      "sources": [
+        {
+          "name": "《凡尔赛条约》，1919年6月28日（原始文本）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "巴黎和会记录和谈判文件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "关于该条约及其后果的历史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "条约日期（1919年6月28日）有确切记载。",
+      "cross_references": [
+        "1918-001（第一次世界大战停战协定）",
+        "1933-001（希特勒使德国退出国际联盟）"
+      ]
+    },
+    {
+      "id": "1919-002",
+      "title": "爱尔兰独立战争开始",
+      "region": "爱尔兰 / 英国",
+      "coordinates_approx": "53.4,-8.2",
+      "category": "military",
+      "description": "爱尔兰独立战争（1919–1921）于1919年1月开始，当时爱尔兰共和军（IRA）对英国军队和皇家爱尔兰警队发动游击袭击。冲突的导火索是爱尔兰民族主义者在1918年大选中的胜利以及英国拒绝给予独立。战争变得越来越暴力和残酷，英国的平叛努力包括部署准军事部队。冲突一直持续到1921年的《英爱条约》。",
+      "key_figures": [
+        "迈克尔·柯林斯（爱尔兰共和军领袖）",
+        "埃蒙·德·瓦莱拉（爱尔兰共和派领袖）",
+        "约翰·弗伦奇将军（英国军事指挥官）"
+      ],
+      "sources": [
+        {
+          "name": "英国军事和警察记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "爱尔兰共和军记录和爱尔兰民族主义资料",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代报纸报道和目击者报告",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1919年1月战争开始有良好记载。",
+      "cross_references": [
+        "1920-009（战争升级）",
+        "1921-003（《英爱条约》签署）"
+      ]
+    },
+    {
+      "id": "1919-003",
+      "title": "土耳其独立战争开始",
+      "region": "土耳其 / 安纳托利亚",
+      "coordinates_approx": "39.9,35.5",
+      "category": "military",
+      "description": "土耳其独立战争（1919–1923）于1919年开始，穆斯塔法·凯末尔的民族主义势力抵抗奥斯曼帝国的解体和协约国的占领。战争的导火索是第一次世界大战后协约国对土耳其领土的占领以及奥斯曼政府的软弱。凯末尔在安纳托利亚组织了民族主义抵抗，在安卡拉建立了临时政府。战争一直持续到1923年，并导致了土耳其共和国的建立。",
+      "key_figures": [
+        "穆斯塔法·凯末尔（土耳其民族主义领袖）",
+        "伊斯梅特帕夏（土耳其军事指挥官）",
+        "穆罕默德六世（奥斯曼苏丹）"
+      ],
+      "sources": [
+        {
+          "name": "土耳其民族主义军事记录和报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "奥斯曼政府记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "来自土耳其的英国和法国外交报告",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1919年战争开始有良好记载。",
+      "cross_references": [
+        "1920-004（安卡拉政府建立）",
+        "1923-001（《洛桑条约》；宣布成立土耳其共和国）"
+      ]
+    },
+    {
+      "id": "1919-004",
+      "title": "印度阿姆利则札连瓦拉园屠杀",
+      "region": "英属印度 / 旁遮普",
+      "coordinates_approx": "31.6,74.9",
+      "category": "military",
+      "description": "1919年4月13日，雷金纳德·戴尔将军指挥下的英军向聚集在旁遮普阿姆利则札连瓦拉园（花园）的手无寸铁的印度抗议人群开枪。屠杀造成估计379至1000人死亡，更多人受伤。这场屠杀是对反英抗议的回应，旨在恐吓印度民众。这一事件成为印度民族主义的转折点，激发了反殖民情绪并推动了独立运动。戴尔后来受到谴责，但未被刑事起诉。",
+      "key_figures": [
+        "雷金纳德·戴尔将军（英国军官）",
+        "莫罕达斯·甘地（印度民族主义领袖）",
+        "迈克尔·奥德怀尔（英国旁遮普行政官）"
+      ],
+      "sources": [
+        {
+          "name": "英国军事和殖民记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "印度民族主义记述和目击者报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《亨特委员会报告》，1921年（官方调查）",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "屠杀日期（1919年4月13日）有确切记载；伤亡估计数字存在差异（379–1000）。",
+      "cross_references": [
+        "1920-013（甘地执掌独立运动领导权）",
+        "1921-012（《亨特委员会报告》公布）"
+      ]
+    },
+    {
+      "id": "1919-005",
+      "title": "巴黎和会召开",
+      "region": "法国 / 巴黎",
+      "coordinates_approx": "48.9,2.4",
+      "category": "political",
+      "description": "巴黎和会于1919年1月18日召开，以谈判第一次世界大战后的和平解决方案。会议汇集了协约国和战败的同盟国的代表，以重新绘制欧洲地图并建立新的国际机构。会议导致了《凡尔赛条约》（与德国）、《圣日耳曼条约》（与奥地利）、《特里亚农条约》（与匈牙利）和《讷伊条约》（与保加利亚）。会议还建立了国际联盟。",
+      "key_figures": [
+        "伍德罗·威尔逊（美国总统）",
+        "乔治·克列孟梭（法国总理）",
+        "戴维·劳合·乔治（英国首相）",
+        "维托里奥·奥兰多（意大利总理）"
+      ],
+      "sources": [
+        {
+          "name": "巴黎和会官方记录和会议纪要",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "外交通信和谈判记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "关于和平解决方案的历史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "会议开始日期（1919年1月18日）有确切记载。",
+      "cross_references": [
+        "1919-001（《凡尔赛条约》签署）"
+      ]
+    },
+    {
+      "id": "1919-006",
+      "title": "柏林斯巴达克同盟起义",
+      "region": "德国 / 柏林",
+      "coordinates_approx": "52.5,13.4",
+      "category": "military",
+      "description": "斯巴达克同盟起义（1919年1月5日至12日）是由斯巴达克同盟（后来的德国共产党）领导的柏林共产主义起义。起义旨在建立共产主义政府，但被魏玛政府的部队（包括右翼准军事自由军团）镇压。起义领袖卡尔·李卜克内西和罗莎·卢森堡被自由军团成员杀害。起义暴露了德国深刻的政治分歧和魏玛共和国的软弱。",
+      "key_figures": [
+        "卡尔·李卜克内西（斯巴达克同盟领袖，被杀害）",
+        "罗莎·卢森堡（斯巴达克同盟领袖，被杀害）",
+        "弗里德里希·艾伯特（魏玛总统）",
+        "古斯塔夫·诺斯克（魏玛军事指挥官）"
+      ],
+      "sources": [
+        {
+          "name": "德国政府和军事记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "斯巴达克同盟记录和共产主义资料",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代报纸报道和目击者报告",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "起义日期（1919年1月5日至12日）和关键事实有良好记载。",
+      "cross_references": [
+        "1920-008（卡普政变）"
+      ]
+    },
+    {
+      "id": "1919-007",
+      "title": "德国宣布成立魏玛共和国",
+      "region": "德国 / 魏玛",
+      "coordinates_approx": "50.9,11.3",
+      "category": "political",
+      "description": "魏玛共和国于1918年11月9日（尽管正式成立于1919年）在德皇威廉二世退位和第一次世界大战结束后宣布成立。共和国被建立为一个民主联邦制国家，设有总统和总理。魏玛宪法于1919年7月31日通过。共和国面临着来自右翼和左翼极端分子的严峻挑战、经济危机以及战争赔款的负担。魏玛共和国一直存在到1933年，被纳粹政权推翻。",
+      "key_figures": [
+        "弗里德里希·艾伯特（魏玛总统）",
+        "菲利普·谢德曼（总理）",
+        "胡戈·普罗伊斯（宪法起草人）"
+      ],
+      "sources": [
+        {
+          "name": "魏玛宪法，1919年7月31日（原始文本）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "德国政府记录和公告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "关于魏玛共和国的历史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "共和国宣布成立（1918年11月9日）和宪法通过（1919年7月31日）有确切记载。",
+      "cross_references": [
+        "1933-001（纳粹政权建立，魏玛共和国结束）"
+      ]
+    },
+    {
+      "id": "1919-008",
+      "title": "中国五四运动",
+      "region": "中国 / 北京",
+      "coordinates_approx": "39.9,116.4",
+      "category": "political",
+      "description": "五四运动（1919年5月4日）是一场主要由学生领导、在北京爆发的抗议活动，反对巴黎和会决定将德国在山东的权益转让给日本而非归还中国。这场运动在中国引发了广泛的民族主义情绪和反日抗议。五四运动标志着中国民族主义的转折点，并促成了1921年中国共产党的成立。这场运动还促进了文化和思想改革，包括白话文的采用。",
+      "key_figures": [
+        "胡适（思想领袖）",
+        "陈独秀（思想家和未来的中共创始人之一）",
+        "蔡元培（北京大学校长）"
+      ],
+      "sources": [
+        {
+          "name": "当代报纸报道和学生宣言",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "中国政府记录和警方报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "关于五四运动的历史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "运动日期（1919年5月4日）有确切记载。",
+      "cross_references": [
+        "1921-004（中国共产党成立）",
+        "1937-001（第二次中日战争开始）"
+      ]
+    },
+    {
+      "id": "1919-009",
+      "title": "阿姆利则屠杀与亨特委员会调查",
+      "region": "英属印度 / 旁遮普",
+      "coordinates_approx": "31.6,74.9",
+      "category": "legal",
+      "description": "在札连瓦拉园屠杀（1919年4月13日）之后，英国政府成立了亨特委员会调查该事件。委员会由亨特勋爵领导，在1919年全年举行了听证会和访谈，并于1921年发布了报告。委员会得出结论，戴尔将军的行动是不合理的，但建议从宽处理。调查过程本身也引发了争议，印度民族主义者认为其不充分，是对英国责任的粉饰。",
+      "key_figures": [
+        "亨特勋爵（委员会主席）",
+        "雷金纳德·戴尔将军（被调查军官）",
+        "莫罕达斯·甘地（印度民族主义领袖）"
+      ],
+      "sources": [
+        {
+          "name": "亨特委员会程序和证词",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "英国政府记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "印度民族主义者的回应和叙述",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1919年委员会的建立和程序有良好记载。",
+      "cross_references": [
+        "1919-004（札连瓦拉园屠杀）",
+        "1921-012（《亨特委员会报告》公布）"
+      ]
+    },
+    {
+      "id": "1919-010",
+      "title": "第三国际（共产国际）在莫斯科成立",
+      "region": "苏维埃俄国 / 莫斯科",
+      "coordinates_approx": "55.8,37.6",
+      "category": "political",
+      "description": "第三国际（共产国际或Comintern）于1919年3月在莫斯科由布尔什维克领导层创立。共产国际旨在协调世界各地的共产党并推动世界革命。该组织成为20世纪苏联外交政策和共产主义组织活动的主要工具。共产国际的成立反映了布尔什维克对共产主义革命即将在俄罗斯以外蔓延的信心。",
+      "key_figures": [
+        "弗拉基米尔·列宁（苏联领袖）",
+        "格里高利·季诺维也夫（共产国际主席）",
+        "卡尔·拉狄克（共产国际组织者）"
+      ],
+      "sources": [
+        {
+          "name": "共产国际成立文件和代表大会记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "苏联政府记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "关于共产国际的历史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "共产国际成立日期（1919年3月）有良好记载。",
+      "cross_references": [
+        "1943-001（共产国际解散）"
+      ]
+    },
+    {
+      "id": "1919-011",
+      "title": "《凡尔赛条约》对德国施加苛刻条件",
+      "region": "德国",
+      "coordinates_approx": "52.5,13.4",
+      "category": "economic",
+      "description": "《凡尔赛条约》对德国施加了严厉的经济和领土惩罚，包括1320亿金马克的赔款、丧失13%的欧洲领土、失去所有海外殖民地以及严格的军事限制。条约要求德国接受战争责任并支付协约国的战争损失。苛刻的条件旨在防止德国重新武装和未来侵略，但造成了德国的深切怨恨和经济困难，导致了政治不稳定和极端主义运动的兴起。",
+      "key_figures": [
+        "乔治·克列孟梭（法国总理，苛刻条款的设计者）",
+        "伍德罗·威尔逊（美国总统，温和派的倡导者）",
+        "约翰·梅纳德·凯恩斯（经济学家和赔款批评者）"
+      ],
+      "sources": [
+        {
+          "name": "《凡尔赛条约》，1919年6月28日（原始文本）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "巴黎和会记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "关于该条约经济影响的历史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "条约条款和赔款计划有确切记载。",
+      "cross_references": [
+        "1919-001（《凡尔赛条约》签署）",
+        "1923-002（德国恶性通货膨胀危机）"
+      ]
+    },
+    {
+      "id": "1919-012",
+      "title": "俄国内战继续；布尔什维克巩固控制",
+      "region": "苏维埃俄国",
+      "coordinates_approx": "55.8,37.6",
+      "category": "military",
+      "description": "俄国内战（1918–1922）在整个1919年持续进行，布尔什维克部队（红军）与白军、无政府主义者和民族主义军队作战。到1919年，布尔什维克已经巩固了对核心俄罗斯领土的控制，并正在推进对抗剩余的白军据点。战争以极端残酷、大规模伤亡和普遍饥荒为特征。布尔什维克的胜利是通过优越的组织、中央控制以及列夫·托洛茨基指挥下红军的军事效率取得的。",
+      "key_figures": [
+        "弗拉基米尔·列宁（布尔什维克领袖）",
+        "列夫·托洛茨基（红军指挥官）",
+        "弗兰格尔（白军指挥官）"
+      ],
+      "sources": [
+        {
+          "name": "苏联军事记录和报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "白军记录和流亡者叙述",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "关于俄国内战的历史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1919年布尔什维克巩固控制有良好记载。",
+      "cross_references": [
+        "1918-002（俄国内战开始）",
+        "1920-011（布尔什维克击败最后的白军据点）"
+      ]
+    },
+    {
+      "id": "1919-013",
+      "title": "西班牙流感大流行在全球达到高峰",
+      "region": "全球",
+      "coordinates_approx": null,
+      "category": "environmental",
+      "description": "西班牙流感大流行（1918–1920）于1919年达到高峰，感染了全球数亿人，并估计造成5000万至1亿人死亡。这场大流行由H1N1流感病毒引起，并通过全球贸易和军队调动迅速传播。大流行产生了深远的社会、经济和政治影响，压垮了医疗保健系统并导致了大规模死亡。大流行的影响在人口密集的城市地区和没有先前接触史的原住民人群中尤为严重。",
+      "key_figures": [
+        "世界各地的公共卫生官员",
+        "医学研究人员和医生"
+      ],
+      "sources": [
+        {
+          "name": "当代医疗和公共卫生记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "报纸报道和目击者报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "现代流行病学和历史研究",
+          "type": "scientific",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1919年大流行高峰和全球规模有良好记载；死亡人数估计存在差异（5000万至1亿）。",
+      "cross_references": [
+        "1918-003（西班牙流感大流行开始）"
+      ]
+    },
+    {
+      "id": "1919-014",
+      "title": "《凡尔赛条约》在欧洲创造新民族国家",
+      "region": "欧洲",
+      "coordinates_approx": "50.0,15.0",
+      "category": "political",
+      "description": "《凡尔赛条约》及相关和平条约重新绘制了欧洲地图，从战败的同盟国和俄罗斯帝国的领土上创建了新的民族国家。新国家包括波兰、捷克斯洛伐克、南斯拉夫、罗马尼亚（扩大）、希腊（扩大）和波罗的海国家（立陶宛、拉脱维亚、爱沙尼亚）。条约还确立了民族自决原则，尽管这一原则的应用不一致且常常被忽视。创建民族混居的新国家造成了在整个两次世界大战期间持续存在的紧张局势。",
+      "key_figures": [
+        "伍德罗·威尔逊（美国总统，自决的倡导者）",
+        "乔治·克列孟梭（法国总理）",
+        "戴维·劳合·乔治（英国首相）"
+      ],
+      "sources": [
+        {
+          "name": "《凡尔赛条约》及相关和平条约（原始文本）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "巴黎和会记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "关于和平解决方案和新国家的历史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "新民族国家的创建和领土变更均有确切记载。",
+      "cross_references": [
+        "1919-001（《凡尔赛条约》签署）"
+      ]
+    },
+    {
+      "id": "1919-015",
+      "title": "布尔什维克在乌克兰、白俄罗斯和高加索建立苏维埃共和国",
+      "region": "苏维埃俄国 / 乌克兰 / 白俄罗斯 / 高加索",
+      "coordinates_approx": "50.0,30.0",
+      "category": "political",
+      "description": "1919年，布尔什维克在乌克兰、白俄罗斯和南高加索（格鲁吉亚、亚美尼亚、阿塞拜疆）建立了苏维埃共和国，作为巩固对前俄罗斯帝国控制的一部分。这些共和国名义上独立，但实际上受莫斯科控制。在这些地区建立苏维埃共和国遭到了民族主义运动的反对，并导致了持续到1920年代初的冲突。这些苏维埃共和国最终成为1922年建立的苏维埃社会主义共和国联盟（USSR）的加盟共和国。",
+      "key_figures": [
+        "弗拉基米尔·列宁（苏联领袖）",
+        "列夫·托洛茨基（红军指挥官）",
+        "格里高利·奥尔忠尼启则（高加索地区苏联指挥官）"
+      ],
+      "sources": [
+        {
+          "name": "苏联政府法令和公告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "苏联军事记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "关于苏联扩张的历史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "1919年建立苏维埃共和国有良好记载。",
+      "cross_references": [
+        "1922-001（苏联正式建立）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "将《凡尔赛条约》定性为纯粹惩罚性的做法受到现代历史学家的质疑；一些人认为条约的条件与其他和平解决方案相比并非特别苛刻，而德国的经济困难是由其他因素（战争债务、通货膨胀、全球经济状况）而非仅仅是赔款造成的。“背后捅刀”神话将德国的困境归咎于条约，是一种歪曲历史现实的纳粹宣传叙事。此外，五四运动的意义有时被夸大；虽然它对中国民族主义很重要，但其直接政治影响有限，其思想遗产比政治成果更为重要。西班牙流感大流行的死亡人数估计差异很大（5000万至1亿），一些现代流行病学研究提出了较低的数值。声称魏玛共和国天生不稳定的说法存在争议；一些历史学家认为，如果政治选择和经济环境不同，该共和国本可以生存下来。",
+  "historiographic_note": "1919年在多个地区和视角下都有异常完善的记载。西方资料（英国、美国、法国、德国）数量丰富，苏联、土耳其、印度、中国和东欧来源也是如此。主要偏向于政治和军事事件，对社会和经济历史的记载较少；劳工运动、农民起义和文化发展记录较少。殖民和帝国视角主导了某些叙事（例如，巴黎和会和札连瓦拉园屠杀），需要批判性阅读。西班牙流感大流行在医疗和公共卫生记录中有良好记载，尽管当代记述往往低估了其规模。总体而言，1919年是战后解决方案和地缘政治重组的关键一年，历史记录足够丰富以支持详细分析。",
+  "graph_edges": [
+    {
+      "from": "1919-001",
+      "to": "1920-001",
+      "relation": "led_to",
+      "note": "《凡尔赛条约》建立了国际联盟"
+    },
+    {
+      "from": "1919-002",
+      "to": "1921-003",
+      "relation": "led_to",
+      "note": "爱尔兰独立战争导致了《英爱条约》"
+    },
+    {
+      "from": "1919-003",
+      "to": "1923-001",
+      "relation": "led_to",
+      "note": "土耳其独立战争导致了《洛桑条约》和土耳其共和国"
+    },
+    {
+      "from": "1919-004",
+      "to": "1920-013",
+      "relation": "led_to",
+      "note": "札连瓦拉园屠杀促使甘地执掌独立运动领导权"
+    },
+    {
+      "from": "1919-006",
+      "to": "1920-008",
+      "relation": "part_of",
+      "note": "斯巴达克同盟起义体现了魏玛的政治不稳定"
+    },
+    {
+      "from": "1919-008",
+      "to": "1921-004",
+      "relation": "led_to",
+      "note": "五四运动促成了中国共产党成立"
+    },
+    {
+      "from": "1919-010",
+      "to": "1943-001",
+      "relation": "led_to",
+      "note": "共产国际成立于1919年，解散于1943年"
+    },
+    {
+      "from": "1919-011",
+      "to": "1923-002",
+      "relation": "led_to",
+      "note": "苛刻的《凡尔赛条约》条款导致了德国恶性通货膨胀危机"
+    },
+    {
+      "from": "1919-012",
+      "to": "1920-011",
+      "relation": "led_to",
+      "note": "俄国内战持续到1920年布尔什维克最终胜利"
+    },
+    {
+      "from": "1919-013",
+      "to": "1920-001",
+      "relation": "contemporary_with",
+      "note": "西班牙流感大流行达到高峰之际，国际联盟正在建立"
+    }
+  ]
+}

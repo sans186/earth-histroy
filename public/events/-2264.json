@@ -1,0 +1,106 @@
+{
+  "year": -2264,
+  "year_label": "公元前2264年",
+  "era_context": "埃及古王国（第六王朝）正处于最后阶段。纳拉姆辛的阿卡德帝国正处于鼎盛时期。哈拉帕文明处于成熟期。这一时期代表了旧世界青铜时代文明的巅峰，尽管潜在的紧张因素正在积累。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "大洋洲",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2264-001",
+      "title": "佩皮二世统治：古王国晚期的埃及",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "佩皮二世在这一年继续统治埃及。古王国的中央集权逐渐受到侵蚀，地方总督积累了权力和财富。法老国家仍然运转，但中央集权机制正在削弱。这一时期为第一中间期埋下了伏笔。",
+      "key_figures": [
+        "佩皮二世（Neferkare），埃及法老"
+      ],
+      "sources": [
+        {
+          "name": "自传体铭文和行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "这一年没有特定事件的记录。年代是约定俗成的，有±50–100年的不确定性。",
+      "cross_references": [
+        "-2260-001",
+        "-2261-001",
+        "-2262-001",
+        "-2263-001"
+      ]
+    },
+    {
+      "id": "-2264-002",
+      "title": "纳拉姆辛的阿卡德帝国：领土巅峰",
+      "region": "美索不达米亚，阿卡德，黎凡特",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "纳拉姆辛的统治在这一年继续。阿卡德帝国达到了其最大领土范围，控制着美索不达米亚、黎凡特和扎格罗斯山脉的部分地区。帝国的行政机构十分复杂，但内部抵抗和来自古提人的外部压力正在积聚。帝国将在几十年内崩溃。",
+      "key_figures": [
+        "纳拉姆辛，阿卡德国王"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德王室铭文和行政文本",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治有充分证据，但这一年没有特定事件记录。",
+      "cross_references": [
+        "-2260-002",
+        "-2261-002",
+        "-2262-002",
+        "-2263-002"
+      ]
+    },
+    {
+      "id": "-2264-003",
+      "title": "哈拉帕文明：成熟期高峰",
+      "region": "印度河流域，南亚",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "哈拉帕文明在这一年达到顶峰。主要城市中心完全发展并运转。文明经济以农业、手工业和广泛的贸易网络为基础。未破译的文字被用于行政和商业目的。这一时期代表哈拉帕文明在公元前19世纪逐渐衰落前的鼎盛。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈拉帕文明的存在和年代在考古上已有充分确立。",
+      "cross_references": [
+        "-2260-003",
+        "-2261-003",
+        "-2262-003",
+        "-2263-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "任何传统中都没有这一年特定事件的记录。这些条目是对更广泛模式的概括。",
+  "historiographic_note": "历史记录中没有这一年的记载。这些条目代表了对更广泛时期考古和铭文证据的推断。在公元前3千纪，除少数有充分记载的统治外，不可能做到逐年精确。",
+  "graph_edges": [
+    {
+      "from": "-2264-001",
+      "to": "-2184-001",
+      "relation": "led_to",
+      "note": "佩皮二世的统治和古王国权威的侵蚀导致了第一中间期"
+    },
+    {
+      "from": "-2264-002",
+      "to": "-2154-001",
+      "relation": "led_to",
+      "note": "纳拉姆辛的帝国过度扩张先于阿卡德帝国的崩溃"
+    }
+  ]
+}

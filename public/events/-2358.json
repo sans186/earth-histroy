@@ -1,0 +1,113 @@
+{
+  "year": -2358,
+  "year_label": "公元前2358年",
+  "era_context": "与-2359年相同：古埃及（第六王朝，佩皮二世），纳拉姆-辛治下处于顶峰的阿卡德帝国，成熟的哈拉帕文明，以及夏朝（如果存在的话）的传统时期。这是多个文明帝国巩固和城市稳定的时刻，但它们在一个世纪内都将经历重大转型。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "大洋洲",
+    "中亚（文字记录有限）"
+  ],
+  "events": [
+    {
+      "id": "-2358-001",
+      "title": "佩皮二世统治和古王国行政的延续",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "佩皮二世继续其统治，维持古王国行政结构。该年份属于其统治后期，地方省长（诺姆长）正获得越来越多的自主权。金字塔建造继续，但规模较早期王朝为小。中央集权国家机器仍在运转，但地方精英权力增长中可见分权的苗头。",
+      "key_figures": [
+        "佩皮二世·奈弗尔卡拉（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "官员墓葬中的自传体铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "该特定年份没有记录具体事件。描述基于佩皮二世统治在铭文和考古证据中体现的一般特征。",
+      "cross_references": [
+        "-2359-001"
+      ]
+    },
+    {
+      "id": "-2358-002",
+      "title": "纳拉姆-辛的军事战役和行政巩固",
+      "region": "美索不达米亚，黎凡特",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "纳拉姆-辛继续进行军事战役，以维持和扩展对征服领土的阿卡德控制。铭文记录了他对反叛地区的胜利以及巩固行政控制的努力。年份-2358属于其统治期，代表着帝国在公元前22世纪初迅速崩溃前的稳定时期。",
+      "key_figures": [
+        "纳拉姆-辛（阿卡德王）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德时期的王室铭文和石碑",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "苏美尔王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆-辛的统治得到充分证实，但个别年份的具体事件鲜有记录。本条目描述此时期其统治的一般特征。",
+      "cross_references": [
+        "-2359-002"
+      ]
+    },
+    {
+      "id": "-2358-003",
+      "title": "哈拉帕城市中心维持贸易网络",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "economic",
+      "description": "哈拉帕文明继续其广阔的贸易网络，与美索不达米亚、波斯湾和中亚交换货物。印章和标准化度量衡表明有组织的商业。哈拉帕和摩亨佐达罗等城市中心发挥着行政和商业枢纽的功能。此日期未显示重大扰动。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "哈拉帕遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "提及梅卢哈的美索不达米亚贸易记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈拉帕文明的存在和贸易网络通过考古学得到充分确立。个别年份的具体事件没有记录。",
+      "cross_references": [
+        "-2359-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现关于-2358年事件的具体反证。关于佩皮二世、纳拉姆-辛和哈拉帕文明的一般观察与学术研究一致，但绝对年代仍不确定（±50–100年）。",
+  "historiographic_note": "这一年在历史记录中实质上没有差别。没有留存资料对-2358年有具体事件记录。本条目根据更广泛的历史模式描述该时代的一般特征。个别年份记录的缺失在公元前三千纪较为典型，除非有重大铭文或王表。",
+  "graph_edges": [
+    {
+      "from": "-2358-001",
+      "to": "-2359-001",
+      "relation": "contemporary_with",
+      "note": "佩皮二世统治的延续"
+    },
+    {
+      "from": "-2358-002",
+      "to": "-2359-002",
+      "relation": "contemporary_with",
+      "note": "纳拉姆-辛统治的延续"
+    }
+  ]
+}

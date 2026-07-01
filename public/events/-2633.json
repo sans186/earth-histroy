@@ -1,0 +1,73 @@
+{
+  "year": -2633,
+  "year_label": "公元前2633年",
+  "era_context": "青铜时代早期第三期；古王国埃及（第六王朝）处于后期阶段；美索不达米亚早王朝第三期；印度河流域文明处于成熟期。这是旧世界主要中心已建立城市文明的时期，存在远途贸易和书写系统。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "印度河流域以外的东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2633-001",
+      "title": "佩皮二世持续统治——古王国埃及",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "佩皮二世的统治继续。此时期的行政记录显示埃及国家持续运作，有贸易远征、神庙建设和行省治理的证据。这一时期的特点是权力逐渐下放到地方总督，这一趋势将在古王国末期加速。",
+      "key_figures": [
+        "佩皮二世（内弗尔卡拉）——埃及法老"
+      ],
+      "sources": [
+        {
+          "name": "金字塔铭文及行政铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "神庙和行政遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "此特定年份没有记载具体事件。年代为传统且近似的。",
+      "cross_references": [
+        "-2634-001"
+      ]
+    },
+    {
+      "id": "-2633-002",
+      "title": "印度河流域文明——持续的城市发展",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "economic",
+      "description": "印度河流域文明继续其成熟阶段，没有记录到中断。城市中心保持其规划布局、手工艺生产和贸易网络。这一年代表了该文明在顶峰时期稳定、持久的特征。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "考古地层和器物组合",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "此时期文明的延续性已得到考古证实，尽管没有此年份的具体事件记录。",
+      "cross_references": [
+        "-2634-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现反驳所列事件的证据。然而，假设佩皮二世的统治延伸到此年份，取决于接受传统王表年代学，而这存在争议。",
+  "historiographic_note": "此年份处于特定历史事件在现存资料中极少有记载的时期。此年份的历史记录实质上是更广泛趋势的延续。缺少记载的事件并不表明没有历史活动，而是反映了现存记录的局限性。",
+  "graph_edges": [
+    {
+      "from": "-2633-001",
+      "to": "-2634-001",
+      "relation": "contemporary_with",
+      "note": "佩皮二世统治的延续"
+    }
+  ]
+}

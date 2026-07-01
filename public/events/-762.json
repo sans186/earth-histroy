@@ -1,0 +1,103 @@
+{
+  "year": -762,
+  "year_label": "公元前762年",
+  "era_context": "沙尔马那塞尔五世统治下的新亚述帝国仍处于权力巅峰。希腊古风时期持续，城邦制度逐渐兴起，殖民活动继续。在中国，春秋时期进行，地区诸侯国相互竞争。埃及在第22–23王朝（利比亚和努比亚统治）下分裂。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-762-001",
+      "title": "亚述在黎凡特的霸权与附庸国体系",
+      "region": "美索不达米亚、黎凡特、叙利亚",
+      "coordinates_approx": "35.5, 34.5",
+      "category": "political",
+      "description": "沙尔马那塞尔五世统治继续定义亚述在近东的霸权。附庸国体系牢固确立，地区强国（包括以色列、犹大、腓尼基城邦等）向亚述纳贡并承认其宗主权。这一体系将持续到公元前609年亚述帝国灭亡，使这一时期成为未来150年近东地缘政治的基础。",
+      "key_figures": [
+        "沙尔马那塞尔五世（亚述国王）"
+      ],
+      "sources": [
+        {
+          "name": "亚述王室年鉴（来自尼尼微的楔形文字铭文）",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "圣经记载（列王纪下、历代志下）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "这一时期亚述在黎凡特的霸权在亚述和圣经资料中都得到充分证实。附庸国体系有明确记载。",
+      "cross_references": []
+    },
+    {
+      "id": "-762-002",
+      "title": "希腊在西地中海持续殖民",
+      "region": "希腊、意大利、西西里、地中海",
+      "coordinates_approx": "38.0, 15.0",
+      "category": "exploration",
+      "description": "希腊对南意大利和西西里的殖民在公元前8世纪中期继续进行。科林斯和其他希腊城邦建立的定居点将成为大希腊的主要中心。这一殖民过程由人口压力、土地稀缺和商业机会驱动，促进了希腊文化和贸易网络在整个地中海的传播。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "修昔底德，《伯罗奔尼撒战争史》（第六卷）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "来自殖民遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "希腊殖民的时间不确定；来自后世资料的传统日期通常不准确。考古证据表明定居活动跨越数十年，而非精确的奠基日期。",
+      "cross_references": [
+        "-764-002"
+      ]
+    },
+    {
+      "id": "-762-003",
+      "title": "春秋时期：中国地区诸侯国竞争",
+      "region": "中国、黄河流域",
+      "coordinates_approx": "34.5, 110.0",
+      "category": "political",
+      "description": "春秋时期继续，地区诸侯国（齐、晋、楚、秦、宋、鲁）争霸。周朝权威仍然是名义上的。这一时期的特点是外交斡旋、军事联盟以及主要诸侯国权力的逐渐巩固。这一时期最终将导致战国时期（公元前475–221年）。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "《春秋》",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "司马迁《史记》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "春秋时期在中国资料中得到充分记载。总体政治局势清楚确立。",
+      "cross_references": [
+        "-764-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的重大否定性证据。然而，希腊殖民事件的确切定年仍然不确定，且亚述直接军事介入与行政整合在个别年份的程度难以从资料中确定。",
+  "historiographic_note": "公元前762年的文献记载仍然中等且地区不均衡。亚述资料丰富且为当代，但具有宣传性。希腊资料稀疏且年代较晚。中国资料对于总体政治趋势可靠，但缺乏逐年精确性。记录严重偏向近东和地中海；其他地区在当代文献中基本缺席。",
+  "graph_edges": [
+    {
+      "from": "-762-001",
+      "to": "-764-001",
+      "relation": "part_of",
+      "note": "亚述在黎凡特霸权的延续"
+    }
+  ]
+}

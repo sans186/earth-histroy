@@ -1,0 +1,152 @@
+{
+  "year": -177,
+  "year_label": "公元前177年",
+  "era_context": "公元前2世纪中期继续，希腊化世界处于变动之中。安条克四世正在巩固塞琉古权力。罗马日益干预东地中海事务。汉朝在汉文帝统治下保持稳定。在印度，巽伽帝国（后孔雀时期）正在建立。帕提亚在米特拉达梯一世领导下开始崛起。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东南亚",
+    "大洋洲",
+    "中亚（文献有限）"
+  ],
+  "events": [
+    {
+      "id": "-177-001",
+      "title": "塞琉古-帕提亚紧张关系：安条克四世的东方征战",
+      "region": "塞琉古帝国与帕提亚",
+      "coordinates_approx": "35.0, 45.0",
+      "category": "military",
+      "description": "安条克四世在塞琉古帝国东部地区开始了军事行动，部分是为了巩固控制，部分是为了反制帕提亚的扩张。这些征战将持续到公元前170年代后期和公元前160年代，代表了安条克维持塞琉古在美索不达米亚和波斯主导地位的尝试。与帕提亚的冲突将成为其统治中决定性的斗争之一。",
+      "key_figures": [
+        "安条克四世（塞琉古国王）",
+        "米特拉达梯一世（帕提亚国王）"
+      ],
+      "sources": [
+        {
+          "name": "波利比乌斯《历史》",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "斯特拉波《地理学》",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "安条克四世东方征战的总体轨迹有记载，但公元前177年的具体事件不总是精确断代。",
+      "cross_references": [
+        "与-176-003（帕提亚巩固）相关"
+      ]
+    },
+    {
+      "id": "-177-002",
+      "title": "塞琉古统治下的犹地亚：大祭司伊阿宋的任期",
+      "region": "犹地亚（塞琉古行省）",
+      "coordinates_approx": "31.9, 35.2",
+      "category": "religious",
+      "description": "耶路撒冷的大祭司伊阿宋在此期间继续其任期。伊阿宋以其希腊化政策闻名，这些政策将希腊文化和制度带到了犹地亚。他的行动得到安条克四世的支持，最终将在传统犹太社群中引发抵抗。到公元前177年，希腊化与犹太传统之间的紧张关系正在加剧。",
+      "key_figures": [
+        "伊阿宋（耶路撒冷大祭司）",
+        "安条克四世（塞琉古宗主）"
+      ],
+      "sources": [
+        {
+          "name": "《马加比一书》（犹太编年史）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "《马加比二书》（犹太编年史）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "约瑟夫斯《犹太古史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "伊阿宋担任大祭司的任期有记载，但确切日期在文献中各异。他任职约公元前175–172年，因此公元前177年可能早于其任命。此条目反映了精确年表的不确定性。",
+      "cross_references": [
+        "与-175-001（安条克四世即位）相关",
+        "导致-164-001（马加比起义）"
+      ]
+    },
+    {
+      "id": "-177-003",
+      "title": "汉朝：汉文帝的行政改革继续",
+      "region": "汉朝中国",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "political",
+      "description": "汉文帝继续其行政巩固和减少军费的统治。汉朝宫廷在治理中秉持‘无为而治’的政策，允许地方行政官员相当大的自主权。这一时期见证了帝国官僚机构的加强和儒家行政理想的发展。",
+      "key_figures": [
+        "汉文帝"
+      ],
+      "sources": [
+        {
+          "name": "司马迁《史记》",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "班固《汉书》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "汉文帝的统治和行政政策在中国历史文献中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "-177-004",
+      "title": "印度的巽伽帝国：权力巩固",
+      "region": "印度次大陆（巽伽帝国）",
+      "coordinates_approx": "23.0, 80.0",
+      "category": "political",
+      "description": "约公元前185年取代孔雀王朝的巽伽帝国，正在巩固其对中印度和北印度的控制。到公元前177年，巽伽统治者已建立稳定的行政体系，并推动印度教宗教实践和梵语文化。该帝国代表了从世界性的孔雀模式向更以地区为中心的印度教王国的转变。",
+      "key_figures": [
+        "普什亚密特拉·巽伽（创始人，约公元前185–151年在位）"
+      ],
+      "sources": [
+        {
+          "name": "《往世书》（印度教宗教文本，后期编纂）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "《譬喻经》（佛教文本，后期编纂）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "巽伽遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "巽伽帝国的年表存在争议。普什亚密特拉的统治日期不确定（公元前185–151年或公元前187–147年）。到公元前177年，帝国已建立，但具体事件记录不详。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "伊阿宋被任命为大祭司有时被定于公元前175年而非更早，这将使其在公元前177年不在任。巽伽统治者的确切年表在学者中存在争议，部分文献将普什亚密特拉的统治置于更早或更晚。所列举的其他事件无重大否定证据。",
+  "historiographic_note": "公元前177年的文献记录为中等水平，但地中海和近东以外地区日益稀疏。希腊和罗马文献仍然为主；中国文献可靠但详细程度较低。印度文献主要是后期编纂（《往世书》、佛教文本）且年表不确定。巽伽遗址的考古证据提供了物质确认但定年精度有限。历史记录继续偏向重大政治和军事事件；经济、社会和文化史代表性不足。",
+  "graph_edges": [
+    {
+      "from": "-177-001",
+      "to": "-170-001",
+      "relation": "led_to",
+      "note": "安条克四世的军事巩固使其后来的侵略性征战成为可能"
+    },
+    {
+      "from": "-177-002",
+      "to": "-164-001",
+      "relation": "led_to",
+      "note": "伊阿宋的希腊化政策引发了马加比起义"
+    }
+  ]
+}

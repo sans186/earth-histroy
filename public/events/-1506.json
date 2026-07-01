@@ -1,0 +1,53 @@
+{
+  "year": -1506,
+  "year_label": "公元前1507年",
+  "era_context": "青铜时代晚期，公元前第二千年中期。图特摩斯一世在埃及统治早期。赫梯旧王国继续巩固。迈锡尼希腊发展宫殿中心。中国商朝处于中期国王统治。这是一个区域间贸易和外交接触日益增加的时期，但主要帝国尚未完全形成。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东南亚",
+    "美洲",
+    "北欧和东欧",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-1506-001",
+      "title": "图特摩斯一世早期统治的巩固",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "图特摩斯一世最近登基（传统断代约公元前1504年），在埃及内部巩固权力，并开始准备军事战役。他确立了对阿蒙祭司阶层和军事机构的权威。这一时期见证了新王国行政机构的加强。",
+      "key_figures": [
+        "图特摩斯一世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "卡纳克神庙铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "埃及王表及史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "图特摩斯一世的统治记录充分，但其即位精确年份因年代体系不同有±2–3年的变动。",
+      "cross_references": [
+        "-1505-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "公元前1506年的具体事件在同时代资料中未充分证实。事件归属很大程度上基于惯例，基于本身具有显著不确定性的王表年代学。现代学术日益质疑该时期埃及年代学的精确性。",
+  "historiographic_note": "对于该年，记载极为稀疏。在幸存资料中，公元前1506年无具体事件记录。该年主要通过王表年代学和连续统治的假设重建。该时期的历史记录严重偏向埃及和赫梯核心区；世界广大地区在文字记录中完全缺失。",
+  "graph_edges": [
+    {
+      "from": "-1506-001",
+      "to": "-1505-001",
+      "relation": "contemporary_with",
+      "note": "图特摩斯一世的巩固与其早期军事战役发生在同一时期"
+    }
+  ]
+}

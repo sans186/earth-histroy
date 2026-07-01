@@ -1,0 +1,80 @@
+{
+  "year": -1090,
+  "year_label": "公元前1090年",
+  "era_context": "晚期青铜时代崩溃。埃及在拉美西斯三世统治下（约公元前1186–1155年在位）。商朝处于最后几年（周征服约公元前1046年）。东地中海经历重大人口流动和国家重组。亚述衰弱。黎凡特海岸被腓尼基城邦和海上民族定居点重塑。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中美洲",
+    "北欧",
+    "中亚",
+    "南亚"
+  ],
+  "events": [
+    {
+      "id": "-1090-001",
+      "title": "拉美西斯三世统治；埃及军事和行政活动",
+      "region": "埃及",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "political",
+      "description": "拉美西斯三世继续统治。埃及行政记录记载了国家组织，包括军事组织、神庙土地和税收。该统治的特点是努力维持埃及在黎凡特的权力和领土控制，尽管埃及影响力逐渐下降。Medinet Habu神庙浮雕提供了王室活动的视觉记录。",
+      "key_figures": [
+        "Ramesses III (法老)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Medinet Habu神庙浮雕",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "拉美西斯三世统治有详细记载；该年份在其统治期内（约公元前1186–1155年）。",
+      "cross_references": []
+    },
+    {
+      "id": "-1090-002",
+      "title": "商朝最后阶段；周巩固势力",
+      "region": "中国（商朝核心区和周领土）",
+      "coordinates_approx": "34.5, 114.0",
+      "category": "political",
+      "description": "商朝处于最后几十年。甲骨文显示一个处于压力之下的国家，关注收成、军事战役和祭祀事务。位于渭河谷地的周人正在巩固权力并准备征服。公元前1090年的精确政治状况没有在现存资料中记载，但从考古和文献记录可以清楚地看出商朝衰落和周朝崛起的更广泛趋势。",
+      "key_figures": [
+        "King Xin (帝辛, Shang)",
+        "King Wu (武王, Zhou)"
+      ],
+      "sources": [
+        {
+          "name": "甲骨文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "商周过渡传统上定年为约公元前1046年，但一些学者将其提前。公元前1090年按惯例分配，但精确的逐年事件无法可靠确定。",
+      "cross_references": [
+        "-1046-001 (周征服商)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "商周过渡的年代在学者中仍有争议。传统编年将征服定于公元前1046年，但碳十四测年和天文计算建议其他日期，范围从公元前1050年到1020年。一些学者主张更早的日期。因此，公元前1090年对这一时期事件的分配有些随意。此外，埃及这一时期的编年可靠性已根据新的碳十四证据和天文计算多次修正。",
+  "historiographic_note": "公元前1090年的历史记录稀疏，与周围年份基本没有区别。现存资料中没有记载特定于该年份的事件。该年份基于王表、碳十四测年和天文计算等现代编年惯例分配，这些仍可能修正。晚期青铜时代崩溃（约公元前1200–900年）是古代史上最不为人知的时期之一。埃及记录相对丰富，但偏向于王室和军事叙事。中国甲骨文提供了当代证据，但范围有限。东地中海和黎凡特地区缺乏这一时期的详细文字记录；大部分知识来自考古学，其地理分布不均。",
+  "graph_edges": [
+    {
+      "from": "-1090-002",
+      "to": "-1046-001",
+      "relation": "led_to",
+      "note": "这一时期商朝的衰落直接导致了约公元前1046年的周征服。"
+    }
+  ]
+}

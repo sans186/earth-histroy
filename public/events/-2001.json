@@ -1,0 +1,110 @@
+{
+  "year": -2001,
+  "year_label": "公元前2001年",
+  "era_context": "更广泛中青铜时代的过渡年份。埃及第12王朝中王国已入末期；美索不达米亚局势动荡，阿摩利人诸王国正在巩固权力；印度河流域文明仍处成熟阶段；米诺斯文明在克里特岛继续繁荣；中国的夏朝（按传统断代）进入晚期。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧和草原",
+    "中美洲",
+    "美洲大部分地区"
+  ],
+  "events": [
+    {
+      "id": "-2001-001",
+      "title": "阿蒙涅姆赫特三世继续在埃及统治",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "阿蒙涅姆赫特三世的统治在埃及继续。该年份处于其漫长统治期内（传统年代为约公元前1855–1808年，但绝对年代学不确定）。法老维持着使第12王朝繁荣的行政和经济体系。建筑工程持续进行，埃及与努比亚、黎凡特和爱琴海地区保持着贸易关系。",
+      "key_figures": [
+        "阿蒙涅姆赫特三世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "纪念碑铭文与神庙记录",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿蒙涅姆赫特三世的统治得到确认，但具体年份公元前2001年系按惯例在其统治期内指定。这一时期的埃及年代学有±50–100年的不确定性。",
+      "cross_references": [
+        "-2000-001"
+      ]
+    },
+    {
+      "id": "-2001-002",
+      "title": "印度河流域文明贸易网络活跃",
+      "region": "印度河流域和阿拉伯海贸易路线",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "印度河流域文明维持着与美索不达米亚、阿拉伯半岛以及可能还有波斯湾的广泛贸易网络。在美索不达米亚遗址中发现了印度河流域的印章和标准化度量衡，表明存在有组织的长途贸易。该文明的海上贸易是这一时期的显著特征，有证据表明存在商船和沿海贸易站。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "美索不达米亚遗址中发现的印度河流域印章和文物的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "美索不达米亚楔形文字对'Meluhha'贸易的记载",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "贸易网络得到考古确认。定为公元前2001年属成熟哈拉帕阶段的惯例断代。",
+      "cross_references": [
+        "-2000-002"
+      ]
+    },
+    {
+      "id": "-2001-003",
+      "title": "米诺斯人在爱琴海的海上扩张",
+      "region": "克里特、爱琴海岛屿及东地中海",
+      "coordinates_approx": "35.3, 25.1",
+      "category": "exploration",
+      "description": "米诺斯商人和殖民者正将他们的存在扩展到整个爱琴海和东地中海。证据显示在锡拉、米洛斯等岛屿以及可能还有黎凡特海岸存在米诺斯殖民地或贸易站。米诺斯陶器和艺术风格正在传播，显示出其文化影响力和在该地区的商业主导地位。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "爱琴海岛屿上米诺斯陶器和定居点的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "埃及关于与爱琴海民族贸易的记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "米诺斯的扩张得到考古证实，但具体定为公元前2001年属中米诺斯时期的惯例断代。",
+      "cross_references": [
+        "-2000-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "公元前2001年没有任何具体事件在史料中被广泛证载；在历史记录中，该年与前2000年几乎无法区分。所列事件是更广泛趋势的延续，而非特定年份的事件。将事件精确到某个具体年份所暗示的年代精度具有误导性；这一时期的古代年代学通常有±50–150年的不确定性。",
+  "historiographic_note": "公元前2001年并非一个在现存史料中有独特记录事件的年份。该年的历史记录是根据更广泛的模式和考古证据重建的，而非基于特定的同时代记录。将事件归于该年份很大程度上是惯例性的，反映了古代年代学的局限性。提及这一时代事件的大部分史料都没有给出精确年份。",
+  "graph_edges": [
+    {
+      "from": "-2001-001",
+      "to": "-2000-001",
+      "relation": "contemporary_with",
+      "note": "阿蒙涅姆赫特三世的统治跨越这两年。"
+    },
+    {
+      "from": "-2001-002",
+      "to": "-2000-002",
+      "relation": "contemporary_with",
+      "note": "印度河流域的贸易网络自前一年延续。"
+    }
+  ]
+}

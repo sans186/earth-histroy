@@ -1,0 +1,235 @@
+{
+  "year": 1602,
+  "year_label": "1602年",
+  "era_context": "近代早期：英国女王伊丽莎白一世处于统治的最后一年；荷兰共和国确立为主要强国；德川幕府在关原之战后巩固权力；萨法维帝国在沙阿阿拔斯一世治下扩张；明朝中国在万历皇帝统治下继续。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（欧洲文献有限）",
+    "北美内陆（欧洲接触记录稀少）",
+    "太平洋岛屿（欧洲知识极少）"
+  ],
+  "events": [
+    {
+      "id": "1602-001",
+      "title": "荷兰东印度公司（VOC）获得特许状",
+      "region": "荷兰共和国",
+      "coordinates_approx": "52.3676, 4.9041",
+      "category": "economic",
+      "description": "荷兰东印度公司（Vereenigde Oost-Indische Compagnie，简称VOC）于1602年3月20日由荷兰共和国授予特许状。VOC被授予荷兰在东印度群岛贸易的垄断权，并获授权建立贸易站、维持军事力量和进行外交。该特许状标志着荷兰在东南亚殖民扩张的开始，以及VOC成为历史上最强大的商业企业之一。",
+      "key_figures": [
+        "约翰·范·奥尔登巴内费尔特（荷兰政治家）",
+        "奥兰治亲王毛里茨（荷兰军事领袖）"
+      ],
+      "sources": [
+        {
+          "name": "VOC特许状（1602年），原始文本",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "荷兰国家记录和档案",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "关于VOC和荷兰殖民扩张的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "特许状文本保存在多个档案中，并经过史学家广泛研究。1602年3月20日的日期有精确记载。",
+      "cross_references": [
+        "1604-005 (VOC持续扩张)",
+        "1605-005 (VOC控制香料贸易)"
+      ]
+    },
+    {
+      "id": "1602-002",
+      "title": "德川家康在日本巩固权力",
+      "region": "日本",
+      "coordinates_approx": "35.6762, 139.6503",
+      "category": "political",
+      "description": "德川家康在关原之战（1600年）胜利后继续巩固权力。到1602年，家康已确立自己为日本主要的军事和政治人物。他正为1603年正式就任将军做准备。这一时期以江户城的建造和江户（今东京）作为行政中心的发展为标志。",
+      "key_figures": [
+        "德川家康（军事领袖）"
+      ],
+      "sources": [
+        {
+          "name": "《德川家光日记》和江户幕府记录",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "关于江户时代的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在日本行政记录和后来的汇编中有详细记载。",
+      "cross_references": [
+        "1600-001 (关原之战)",
+        "1603-002 (德川家康成为将军)"
+      ]
+    },
+    {
+      "id": "1602-003",
+      "title": "女王伊丽莎白一世继续统治英格兰",
+      "region": "英格兰",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "political",
+      "description": "女王伊丽莎白一世在其生命的最后一年继续统治英格兰。到1602年，伊丽莎白68岁，健康日益衰退。伊丽莎白晚期以与西班牙战争的财政压力、朝廷派系冲突以及继承问题的不确定性为特征。然而，英格兰仍是欧洲主要强国，伊丽莎白时代被视为文化繁荣时期。",
+      "key_figures": [
+        "伊丽莎白一世女王（英格兰君主）",
+        "罗伯特·塞西尔（首席大臣）"
+      ],
+      "sources": [
+        {
+          "name": "《国事文件汇编：国内，伊丽莎白一世》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代编年史和记载",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "关于伊丽莎白时代的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在当代政府文件和编年史中有详细记载。",
+      "cross_references": [
+        "1603-003 (詹姆斯一世继承英格兰王位)"
+      ]
+    },
+    {
+      "id": "1602-004",
+      "title": "沙阿阿拔斯一世巩固萨法维权力",
+      "region": "萨法维波斯",
+      "coordinates_approx": "32.6546, 51.6680",
+      "category": "political",
+      "description": "萨法维统治者沙阿阿拔斯一世继续巩固权力并扩张波斯帝国。到1602年，阿拔斯击败了乌兹别克人，并正在为阿马西亚和约（1603年）做准备，该和约将与奥斯曼帝国建立稳定的边界。他促进贸易，建设基础设施，并将伊斯法罕确立为宏伟的首都。",
+      "key_figures": [
+        "沙阿阿拔斯一世（萨法维统治者）"
+      ],
+      "sources": [
+        {
+          "name": "萨法维宫廷编年史和行政记录",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "欧洲外交记录（例如威尼斯和英国大使）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "关于萨法维帝国的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在波斯和欧洲资料中均有详细记载。",
+      "cross_references": [
+        "1603-001 (阿马西亚和约)"
+      ]
+    },
+    {
+      "id": "1602-005",
+      "title": "明朝万历皇帝继续统治",
+      "region": "明朝中国",
+      "coordinates_approx": "39.9042, 116.4074",
+      "category": "political",
+      "description": "万历皇帝继续统治明朝中国。到1602年，皇帝已在位超过30年，健康日益衰退。万历后期以行政衰落、派系斗争和宦官权力上升为特征。然而，明朝文化和经济仍然强大，中国继续是世界主要强国。",
+      "key_figures": [
+        "万历皇帝（明朝统治者）"
+      ],
+      "sources": [
+        {
+          "name": "明朝宫廷记录和行政文件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "关于明朝的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在明朝行政记录中有详细记载。",
+      "cross_references": [
+        "1572-001 (万历皇帝登基)",
+        "1620-001 (万历皇帝去世)"
+      ]
+    },
+    {
+      "id": "1602-006",
+      "title": "葡萄牙在澳门建立贸易站",
+      "region": "澳门（中国）",
+      "coordinates_approx": "22.1987, 113.5439",
+      "category": "economic",
+      "description": "自16世纪以来就在该地区贸易的葡萄牙人在澳门建立了更正式的贸易站。到1602年，澳门正成为葡萄牙与中国和日本贸易的重要中心。葡萄牙保持了对日本欧洲贸易的垄断，直到17世纪初荷兰开始挑战这一垄断。",
+      "key_figures": [
+        "葡萄牙商人和贸易者"
+      ],
+      "sources": [
+        {
+          "name": "葡萄牙殖民记录和贸易公司文件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "关于葡萄牙殖民扩张的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "葡萄牙在澳门的出现有详细记载，但正式贸易站的确切建立日期在历史学家中有争议。葡萄牙商人自1540年代以来就在该地区活跃，澳门逐渐成为更正式的定居点。",
+      "cross_references": [
+        "1602-001 (VOC获得特许状)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "VOC的特许状有时被描绘为荷兰殖民扩张的开始，但荷兰商人在1602年之前就已与东印度群岛进行贸易。特许状将现有的贸易活动正式化和垄断化，而非开创它们。伊丽莎白一世的统治常被描绘为纯粹的文化和政治成功时期，但近期学术研究强调了伊丽莎白晚期的经济压力、宗教冲突和政治不确定性。葡萄牙在澳门的贸易站有时被定位于更早的时期；正式建立的确切日期有争议。",
+  "historiographic_note": "1602年的文献在欧洲历史上很丰富，有大量的政府文件和出版著作。亚洲资料（日本、波斯、中国）也保存完好。然而，记录严重偏向涉及精英的政治和军事事件。VOC特许状主导了荷兰历史叙述，可能掩盖了该年其他重要事件。非欧洲地区的经济和社会史代表性不足。撒哈拉以南非洲和北美内陆几乎完全缺席当代欧洲记录。资料本身由记录机构（宫廷、贸易公司、宗教当局）的利益塑造。关于澳门的葡萄牙资料通常零散且为后期汇编。",
+  "graph_edges": [
+    {
+      "from": "1602-001",
+      "to": "1604-005",
+      "relation": "led_to",
+      "note": "VOC特许状导致在东南亚的扩张"
+    },
+    {
+      "from": "1602-002",
+      "to": "1603-002",
+      "relation": "led_to",
+      "note": "德川家康的巩固导致正式就任将军"
+    },
+    {
+      "from": "1602-003",
+      "to": "1603-003",
+      "relation": "led_to",
+      "note": "伊丽莎白一世的最后一年导致詹姆斯一世即位"
+    },
+    {
+      "from": "1602-004",
+      "to": "1603-001",
+      "relation": "led_to",
+      "note": "沙阿阿拔斯一世的巩固导致阿马西亚和约"
+    },
+    {
+      "from": "1602-001",
+      "to": "1602-006",
+      "relation": "contemporary_with",
+      "note": "VOC特许状和葡萄牙在澳门的贸易站代表了相互竞争的欧洲扩张战略"
+    }
+  ]
+}

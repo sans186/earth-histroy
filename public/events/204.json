@@ -1,0 +1,120 @@
+{
+  "year": 204,
+  "year_label": "公元204年",
+  "era_context": "塞维鲁继续统治，在罗马巩固军事独裁。中国军阀时期加剧；曹操在北方崛起为主导力量，其他地方势力相互竞争。帕提亚帝国在沃洛吉斯五世治下经历内部压力。这是欧亚大陆主要帝国转型和分裂的时期。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "罗马边境以北的北欧",
+    "大洋洲",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "204-001",
+      "title": "塞维鲁在罗马举办世纪庆典",
+      "region": "罗马帝国（罗马）",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "religious",
+      "description": "塞维鲁举办世纪庆典，这是一项重要的宗教和公共盛事，每110年举办一次以标志新纪元。庆典包括角斗士比赛、猛兽狩猎、戏剧表演和宗教仪式。这是塞维鲁重要的宣传工具，展示帝国权力和虔诚。庆典记载于铭文和后世史书。它们旨在使塞维鲁的统治合法化并颂扬塞维鲁王朝。",
+      "key_figures": [
+        "塞维鲁（罗马皇帝）",
+        "卡拉卡拉（凯撒）"
+      ],
+      "sources": [
+        {
+          "name": "卡西乌斯·狄奥，《罗马史》，第76卷",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "罗马铭文（CIL VI）",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "《罗马帝王纪》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "204年的世纪庆典在铭文和多个史料中有充分记载。卡西乌斯·狄奥在约50年内提供了详细记述。",
+      "cross_references": [
+        "更广泛的塞维鲁巩固的一部分（193–211年）"
+      ]
+    },
+    {
+      "id": "204-002",
+      "title": "曹操在南皮击败袁谭",
+      "region": "华北（河北省）",
+      "coordinates_approx": "37.5, 116.5",
+      "category": "military",
+      "description": "曹操在南皮之战中击败已故军阀袁绍之子袁谭。袁谭曾试图维持其家族在东北部的权力，但曹操优越的军事组织和战略证明决定性的。这场胜利巩固了曹操对北方领土的控制，并消灭了一个主要对手。袁谭在战役或其后被杀。这是曹操通往霸权之路的关键一步。",
+      "key_figures": [
+        "曹操（军阀）",
+        "袁谭（军阀，袁绍之子）"
+      ],
+      "sources": [
+        {
+          "name": "《三国志》，陈寿著，约280年编纂",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "《资治通鉴》，司马光编纂",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "南皮之战在中国史学中有记载，但确切年代略有差异（一些资料置于205年）。《三国志》在事件发生后约75年编纂。",
+      "cross_references": [
+        "继202-001（袁绍之死）之后",
+        "曹操巩固的一部分（205-002）"
+      ]
+    },
+    {
+      "id": "204-003",
+      "title": "罗马帝国爆发瘟疫",
+      "region": "罗马帝国（广泛）",
+      "coordinates_approx": null,
+      "category": "environmental",
+      "description": "一场瘟疫（可能为天花或麻疹）在罗马帝国蔓延，造成显著死亡率。瘟疫在文学资料中有记载，可能促成了人口压力。现存资料中确切程度和死亡率难以量化，但当代记述暗示对城市人口有重大影响。这是2–3世纪流行病更广泛模式的一部分。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "卡西乌斯·狄奥，《罗马史》，第76卷",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "后世医学和历史编纂",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "这一时期瘟疫爆发在资料中有记载，但确切的年代和疾病鉴定不确定。卡西乌斯·狄奥提及瘟疫但未提供详细年表。",
+      "cross_references": [
+        "罗马帝国流行病更广泛模式的一部分（2–3世纪）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "南皮之战的日期在学术中存在争议；一些资料将其置于205年而非204年。世纪庆典的重要性已被重新评估：虽然作为宣传重要，现代学者辩论其是否真实反映了民众情感或主要是精英表演。204年的瘟疫在资料中被提及，但可能与其他爆发混淆；其实际程度未知。",
+  "historiographic_note": "公元204年的罗马史料中等丰富，但撰写于事件发生数十年或数百年后。中国史料源于后世编纂，带有固有年代不确定性。帕提亚历史仍记载薄弱。历史记录严重偏向精英政治和军事事件；人口、经济和社会史代表不足。",
+  "graph_edges": [
+    {
+      "from": "204-002",
+      "to": "205-002",
+      "relation": "part_of",
+      "note": "南皮之战是曹操更广泛巩固华北的一部分"
+    },
+    {
+      "from": "204-001",
+      "to": "205-001",
+      "relation": "contemporary_with",
+      "note": "罗马和中国都在经历强势领袖下的重大政治巩固"
+    }
+  ]
+}

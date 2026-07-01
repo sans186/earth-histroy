@@ -1,0 +1,112 @@
+{
+  "year": -2473,
+  "year_label": "公元前2473年",
+  "era_context": "埃及第四王朝在哈夫拉或其继任者统治下延续。阿卡德帝国在萨尔贡领导下继续巩固与军事扩张。哈拉帕文明保持其成熟城市阶段。此年处于旧世界主要文明相对稳定与宏大成就的时期。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲：无文字记录",
+    "美洲：无文字记录",
+    "北欧：无文字记录",
+    "东南亚：文字记录有限"
+  ],
+  "events": [
+    {
+      "id": "-2473-001",
+      "title": "埃及第四王朝的延续，金字塔建造",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "北纬29.9°，东经31.1°",
+      "category": "cultural",
+      "description": "第四王朝继续进行宏大的建筑工程。无论是哈夫拉还是其继任者统治，埃及国家都维持着中央控制，为金字塔和神庙建造调集资源，以及行政组织。尼罗河洪水周期继续构建农业和行政历法。",
+      "key_figures": [
+        "哈夫拉或其继任者（法老，第四王朝）"
+      ],
+      "sources": [
+        {
+          "name": "吉萨及其他金字塔遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "此年无具体事件可证。第四王朝统治的大背景已确认，但无年份特定精度。",
+      "cross_references": [
+        "-2474-001"
+      ]
+    },
+    {
+      "id": "-2473-002",
+      "title": "阿卡德军事行动与行政巩固",
+      "region": "美索不达米亚，阿卡德及周边地区",
+      "coordinates_approx": "北纬33.3°，东经44.4°",
+      "category": "military",
+      "description": "阿卡德的萨尔贡继续进行军事行动以巩固对美索不达米亚领土的控制。行政改革推动阿卡德语在官方场合的使用。帝国疆域从波斯湾扩展到地中海沿岸。军事和行政基础设施支撑帝国的扩张。",
+      "key_figures": [
+        "阿卡德的萨尔贡（帝国君主）"
+      ],
+      "sources": [
+        {
+          "name": "萨尔贡铭文",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "阿卡德行政泥板",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "萨尔贡的统治已确认，但公元前2473年无具体事件可证。军事巩固的大模式有记载。",
+      "cross_references": [
+        "-2474-002"
+      ]
+    },
+    {
+      "id": "-2473-003",
+      "title": "哈拉帕贸易网络与城市管理",
+      "region": "南亚印度河流域",
+      "coordinates_approx": "北纬27.0°，东经68.0°",
+      "category": "economic",
+      "description": "哈拉帕文明维系着与美索不达米亚、波斯湾，可能还包括中亚的广泛贸易网络。城市中心继续运作，拥有标准化的度量衡体系和行政组织。考古证据表明存在复杂的规划和资源管理。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "美索不达米亚楔形文字记载与梅卢哈的贸易",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "哈拉帕文明的存在及贸易网络已确认。无年份特定事件可证。",
+      "cross_references": [
+        "-2474-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "公元前2473年没有任何文明留下特定事件记录。更广的历史背景已确认，但无年份特定精度。该时期的年代不确定性仍为±10–20年。",
+  "historiographic_note": "对于公元前2473年，历史记录比公元前2474年更为有限。无年份特定事件记录。记录由从更广泛的考古和文本证据推断的政治、军事和经济活动的一般模式组成。对于此年无法实现年代学精度。",
+  "graph_edges": [
+    {
+      "from": "-2473-001",
+      "to": "-2474-001",
+      "relation": "led_to",
+      "note": "第四王朝统治与宏大建筑工程的延续"
+    },
+    {
+      "from": "-2473-002",
+      "to": "-2474-002",
+      "relation": "led_to",
+      "note": "阿卡德巩固与扩张的延续"
+    }
+  ]
+}

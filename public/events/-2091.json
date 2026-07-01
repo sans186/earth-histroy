@@ -1,0 +1,108 @@
+{
+  "year": -2091,
+  "year_label": "公元前2091年",
+  "era_context": "埃及古王国衰落与美索不达米亚后阿卡德时期碎片化延续。印度河文明处于成熟期。该年份属于公元前三千纪晚期的过渡期，特征是中央集权的青铜时代国家崩溃，区域势力兴起。",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "东亚（除传说中夏朝外）"
+  ],
+  "events": [
+    {
+      "id": "-2091-001",
+      "title": "埃及中央集权持续碎片化",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "埃及的分权进程持续。地方总督巩固权力，法老中央的权威进一步削弱。这一时期是古王国向第一中间期过渡的一部分。本年无大型纪念性建筑或军事行动记录，符合中央权威减弱的模式。",
+      "key_figures": [
+        "培比二世（如果仍在位，但其在位时长有争议）"
+      ],
+      "sources": [
+        {
+          "name": "聚落模式与行政记录的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "该年无纪念性铭文或记录",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "埃及公元前2091年无具体事件记录。政治碎片化的总体背景有充分证据，但该特定年份在现存史料中无特别之处。",
+      "cross_references": [
+        "-2090-001"
+      ]
+    },
+    {
+      "id": "-2091-002",
+      "title": "美索不达米亚城邦巩固区域势力",
+      "region": "美索不达米亚",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "阿卡德帝国崩溃后，美索不达米亚城邦继续巩固区域权威。拉伽什在诸如古地亚等执政者治下（但其确切年代有争议，一些学者将其置于公元前22世纪）正成为重要区域势力。这些城邦正重建神庙并建立贸易网络，标志着从后阿卡德动荡中文化与经济的恢复。",
+      "key_figures": [
+        "拉伽什的古地亚（年代有争议；可能稍晚或同时代）"
+      ],
+      "sources": [
+        {
+          "name": "古地亚铭文",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "神庙重建与聚落增长的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "城邦整合的总体模式清晰，但公元前2091年的具体事件无记载。古地亚统治传统上定在前2144-2124年，但一些学者主张更晚的年代（约前2100年），这导致对其是否在公元前2091年活跃存在不确定性。",
+      "cross_references": [
+        "-2090-002"
+      ]
+    },
+    {
+      "id": "-2091-003",
+      "title": "印度河文明延续成熟期",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "印度河文明保持其城市与文化特征。贸易网络活跃，城市继续以标准化规划和行政管理运作。本年度无重大中断或变化迹象，符合成熟印度河阶段（约前2600-1900年）的长期稳定。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "聚落模式与物质文化的考古连续性",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "考古证据证实印度河文明此时期稳定。公元前2091年无具体事件记录，但总体背景确凿。",
+      "cross_references": [
+        "-2090-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "无针对公元前2091年的特定反证。然而，公元前2090年所指出的更广泛的史学问题仍适用：古地亚的年代及阿卡德崩溃的性质仍在争论中。",
+  "historiographic_note": "公元前2091年未在现存历史记录中被特别区分。该年份由现代年代学惯例划归此期，但无具体事件记载。该年的历史记录实质是公元前2090年所呈现更广泛趋势的延续。这凸显了为古代时段逐年重建历史的局限性：绝大多数年份未在现存史料中留下鲜明痕迹。",
+  "graph_edges": [
+    {
+      "from": "-2091-001",
+      "to": "-2090-001",
+      "relation": "part_of",
+      "note": "古王国衰落过程的延续。"
+    },
+    {
+      "from": "-2091-002",
+      "to": "-2090-002",
+      "relation": "part_of",
+      "note": "美索不达米亚城邦整合过程的延续。"
+    }
+  ]
+}

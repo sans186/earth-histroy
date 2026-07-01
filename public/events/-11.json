@@ -1,0 +1,103 @@
+{
+  "year": -11,
+  "year_label": "前11年",
+  "era_context": "奥古斯都晚期持续；奥古斯都年逾七旬，愈发关注继承问题。中国西汉王朝进入最后几十年。帕提亚帝国在奥罗德斯二世统治下稳定。印度地区，萨塔瓦哈纳王朝在德干巩固势力。地中海世界处于相对和平时期，但潜在政治紧张局势正在加剧。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "罗马边疆以北的北欧地区",
+    "中亚",
+    "东南亚"
+  ],
+  "events": [
+    {
+      "id": "-11-001",
+      "title": "盖乌斯·凯撒在亚美尼亚的战役",
+      "region": "罗马帝国，亚美尼亚",
+      "coordinates_approx": "40.0, 45.0",
+      "category": "military",
+      "description": "奥古斯都的养孙盖乌斯·凯撒正在亚美尼亚进行军事行动，作为罗马东方战略的一部分。此次战役旨在建立罗马在该地区的统治地位并巩固东方边疆。战役最终导致盖乌斯受伤并于公元前10年去世，使这一年成为继承危机的关键节点。",
+      "key_figures": [
+        "盖乌斯·凯撒（罗马军事指挥官）",
+        "奥古斯都（罗马皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "苏维托尼乌斯，《奥古斯都传》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "卡西乌斯·狄奥，《罗马史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "战役有充分证据，但亚美尼亚事件的确切年代略不确定。战役可能持续了公元前12年至前10年。",
+      "cross_references": [
+        "导致-10-001（盖乌斯·凯撒之死）"
+      ]
+    },
+    {
+      "id": "-11-002",
+      "title": "奥古斯都的健康问题与继承规划",
+      "region": "罗马帝国，罗马",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "年逾七旬的奥古斯都日益专注于确保稳定的继承。年迈的皇帝出现健康问题，深知需要为下一代巩固元首制。这段时期见证了潜在继承者及其支持者之间激烈的政治博弈。",
+      "key_figures": [
+        "奥古斯都（罗马皇帝）",
+        "提比略（奥古斯都继子）",
+        "盖乌斯·凯撒（养孙）"
+      ],
+      "sources": [
+        {
+          "name": "苏维托尼乌斯，《奥古斯都传》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "卡西乌斯·狄奥，《罗马史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "奥古斯都的健康问题在后世文献中有详细记载，但前11年的具体事件未被明确记录。",
+      "cross_references": []
+    },
+    {
+      "id": "-11-003",
+      "title": "西汉王朝的内讧",
+      "region": "中国，汉朝",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "汉成帝统治下的西汉宫廷持续以皇室、史氏家族（母族）与宫廷宦官之间的派系斗争为特征。这段时期见证了腐败加剧和中央权威的削弱，促成了西汉的最终崩溃。",
+      "key_figures": [
+        "汉成帝",
+        "石显（宦官）"
+      ],
+      "sources": [
+        {
+          "name": "《汉书》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "总体政治局势有详细记载，但前11年的具体事件未被明确记录。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "传统叙述将盖乌斯·凯撒在亚美尼亚的战役描绘为重大军事行动，但一些现代学者认为其规模比后世文献暗示的更有限。军事目标的确切性质和成功程度存在争议。",
+  "historiographic_note": "公元前11年的历史记录主要来自罗马文献，特别是后世编纂的作品。中国文献提供了关于汉廷政治的信息，但也属于回顾性资料。政治史和军事史偏向严重，经济史和社会史代表性不足。视角主要为精英阶层视角。",
+  "graph_edges": [
+    {
+      "from": "-11-001",
+      "to": "-10-001",
+      "relation": "led_to",
+      "note": "盖乌斯·凯撒在亚美尼亚的战役导致他在公元前10年受伤并死亡"
+    }
+  ]
+}

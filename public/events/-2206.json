@@ -1,0 +1,118 @@
+{
+  "year": -2206,
+  "year_label": "公元前2206年",
+  "era_context": "埃及古王国晚期继续；阿卡德帝国在纳拉姆-辛治下继续巩固和保卫其领土。印度河流域文明仍处于成熟期。在美索不达米亚，这一时期标志外部群体（库提人、埃兰人）压力增加及阿卡德内部权威分裂。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "太平洋群岛"
+  ],
+  "events": [
+    {
+      "id": "-2206-001",
+      "title": "孟卡拉金字塔群在吉萨的持续建设或完工",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "29.9°N, 31.1°E",
+      "category": "technological",
+      "description": "孟卡拉金字塔及其附属葬祭庙群继续建造或完善。这代表了古王国纪念建筑的延续，尽管规模较胡夫和哈夫拉金字塔明显缩小。建造显示了持续的组织能力和资源动员，但也可能反映国家资源减少或优先事项转向神庙建设和宗教捐赠。",
+      "key_figures": [
+        "孟卡拉（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "孟卡拉金字塔及葬祭庙群（考古证据）",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "金字塔有机物的放射性碳测年",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "金字塔建造可能跨多个年份；指定某一年是传统做法。放射性碳测年提供了一个范围而非精确日期。",
+      "cross_references": [
+        "-2205-001"
+      ]
+    },
+    {
+      "id": "-2206-002",
+      "title": "纳拉姆-辛对库提人和埃兰人的军事行动",
+      "region": "美索不达米亚，扎格罗斯山脉，埃兰",
+      "coordinates_approx": "33.3°N, 44.4°E",
+      "category": "military",
+      "description": "纳拉姆-辛继续进行军事行动，以维持阿卡德对被征服领土的控制，并击退来自库提人（扎格罗斯山脉）和埃兰人（西南部）的入侵。这些战役在王室铭文中有记载，短期内似乎大多成功，但消耗大量资源，并可能促成了帝国的最终分裂。",
+      "key_figures": [
+        "纳拉姆-辛（阿卡德王）"
+      ],
+      "sources": [
+        {
+          "name": "描述军事战役的阿卡德王室铭文",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "阿卡德档案中的行政文书与军事记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆-辛的军事活动在同时代铭文中有详细记载，但个别战役的确切年表不确定。铭文可能夸大军事胜利。",
+      "cross_references": [
+        "-2205-002"
+      ]
+    },
+    {
+      "id": "-2206-003",
+      "title": "哈拉帕贸易网络在南亚及以外地区活跃",
+      "region": "印度河流域，波斯湾，美索不达米亚",
+      "coordinates_approx": "27.0°N, 68.0°E",
+      "category": "economic",
+      "description": "印度河流域文明维持广泛的贸易网络，有证据显示与美索不达米亚（经由波斯湾）、阿曼半岛和中亚的接触。哈拉帕印章和器物出现在美索不达米亚环境中，美索不达米亚商品也在印度河流域遗址中发现。这种贸易通过海上航线与陆上商队路线进行，是该文明的重要经济活动。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "美索不达米亚遗址发现的哈拉帕印章和文物考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "美索不达米亚文书提及与“梅卢哈”（可能指印度河流域）的贸易",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "海湾遗址发现的哈拉帕器物与砝码",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "贸易网络有充分考古证据。“梅卢哈”认同为印度河流域被广泛接受但未确证。",
+      "cross_references": [
+        "-2205-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件无具体反证。然而，对纳拉姆-辛军事成功的解读存在争议；一些学者认为其战役的频率和强度表明帝国已在分裂，与传统统一强大国家的叙事相矛盾。",
+  "historiographic_note": "今年具有与公元前2205年相同的局限：依赖王表、纪念碑铭文和考古证据。历史记录严重偏向精英活动（王室建筑、军事战役）和贸易，极少关于普通人生活的信息。世界大部分地区没有书面记录，反映了识字文化集中和现代学术偏见。",
+  "graph_edges": [
+    {
+      "from": "-2206-001",
+      "to": "-2205-001",
+      "relation": "part_of",
+      "note": "孟卡拉金字塔建造是其广泛统治和纪念性工程的一部分。"
+    },
+    {
+      "from": "-2206-002",
+      "to": "-2205-002",
+      "relation": "part_of",
+      "note": "纳拉姆-辛的军事战役是其维持和扩张阿卡德控制的更广泛战略的一部分。"
+    }
+  ]
+}

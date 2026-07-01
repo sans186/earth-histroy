@@ -1,0 +1,115 @@
+{
+  "year": -193,
+  "year_label": "公元前193年",
+  "era_context": "公元前2世纪早期希腊化世界的延续。塞琉古帝国仍内部分裂；托勒密埃及维持相对稳定。罗马正在巩固其地中海霸权，并开始干预东方事务。汉朝在汉文帝统治下继续其经济和行政巩固时期。这是在重大冲突重塑东地中海之前的过渡时期。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中亚",
+    "中美洲",
+    "东南亚（有限中国文献）"
+  ],
+  "events": [
+    {
+      "id": "-193-001",
+      "title": "安条克三世大王开始军事征讨以恢复塞琉古权力",
+      "region": "塞琉古帝国（叙利亚、美索不达米亚、安纳托利亚、波斯）",
+      "coordinates_approx": "35.0,45.0",
+      "category": "military",
+      "description": "被称为“大王”的安条克三世（公元前223–187年在位）发起一系列军事征讨，以恢复对其弟安条克·希拉克斯内战期间失去的塞琉古领土，并重申在东地中海的霸权。这些征讨统称为“远征”或“伟大旅程”，将在未来十年内从叙利亚延伸至印度边境。公元前193年，他处于这些征讨的早期阶段，可能集中于安纳托利亚和北叙利亚。",
+      "key_figures": [
+        "Antiochus III the Great (塞琉古国王)",
+        "Antiochus Hierax (对手，现已削弱)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories (涵盖此时期的第5–8卷)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "安条克三世的征讨在概要中有充分记载，但公元前193年各次战役的具体时间不确定。波利比乌斯提供了最详细的叙述，但他写作于事件后一个多世纪。",
+      "cross_references": [
+        "导致 -192-001（征讨继续）"
+      ]
+    },
+    {
+      "id": "-193-002",
+      "title": "罗马元老院辩论东地中海政策",
+      "region": "罗马共和国",
+      "coordinates_approx": "41.9,12.5",
+      "category": "political",
+      "description": "随着安条克三世权力增长和塞琉古野心扩张，罗马元老院日益关注东地中海的稳定。公元前193年虽未发生重大军事行动，但罗马的外交和政治注意力正转向东方。这一时期标志着罗马开始积极参与希腊化事务，最终将导致叙利亚战争（公元前192–188年）。",
+      "key_figures": [
+        "罗马元老院",
+        "Scipio Africanus (有影响力的元老)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome (第35–36卷)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "罗马对安条克三世的担忧有充分记载，但公元前193年元老院辩论的具体时间未明确证实。此条目反映更广泛的政治背景。",
+      "cross_references": [
+        "导致 -192-002（叙利亚战争宣战）"
+      ]
+    },
+    {
+      "id": "-193-003",
+      "title": "汉朝：持续经济扩张与贸易",
+      "region": "汉朝中国",
+      "coordinates_approx": "34.0,108.0",
+      "category": "economic",
+      "description": "在汉文帝统治下，汉朝继续其经济增长时期。由于减税和灌溉改善，农业生产力提高。贸易网络扩展，包括与中亚和北方匈奴的早期联系。这一繁荣时期加强了汉朝国家，并促进了文化和技术的进步。",
+      "key_figures": [
+        "汉文帝"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "汉文帝统治下汉朝经济扩张的总体模式有充分记载。公元前193年的具体事件未单独证实。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "安条克三世早期征讨的日期和意义在学者中存在争议。部分史料表明他的主要征讨开始得稍晚（真正的远征约在公元前212年），而其他史料则将早期征讨置于公元前190年代。公元前193年罗马积极介入东方事务的程度（而非仅仅监视局势）也备受争议。一些学者认为罗马的干预是反应性的而非主动性的。",
+  "historiographic_note": "公元前193年的史料与公元前194年相似：主要来自希腊化和中国文献。波利比乌斯仍是塞琉古和罗马事务最详细的来源，但他写作于事件后一个多世纪。中国文献在精神上更接近当代，但编纂于事件后数个世纪。记录严重偏向政治和军事史；经济和社会发展除中国文献外记载不足。现存史料中明显存在西方中心偏见。",
+  "graph_edges": [
+    {
+      "from": "-193-001",
+      "to": "-192-001",
+      "relation": "led_to",
+      "note": "安条克三世的征讨加剧了紧张局势，导致叙利亚战争"
+    },
+    {
+      "from": "-193-002",
+      "to": "-192-002",
+      "relation": "led_to",
+      "note": "罗马的政治关切导致了军事干预"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "year": 808,
+  "year_label": "公元808年",
+  "era_context": "在皇帝虔诚者路易统治下，法兰克帝国在查理曼于814年去世后正在巩固权力。哈伦·拉希德统治下的阿拔斯哈里发国处于最后几年，继承紧张局势正在积聚。唐宪宗统治下的中国唐朝正经历中央集权的复兴。尼基弗鲁斯一世统治下的拜占庭帝国面临军事和财政压力。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东南亚",
+    "前哥伦布时期的美洲",
+    "中亚和草原地区"
+  ],
+  "events": [
+    {
+      "id": "808-001",
+      "title": "哈伦·拉希德的最后岁月与继承计划",
+      "region": "阿拔斯哈里发国",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "哈里发哈伦·拉希德（在位786–809年），最著名的阿拔斯统治者之一，在808年健康状况恶化。他正在为儿子们的继承做最后安排，指定阿明为哈里发，马蒙为东部省份的继承人。这些安排证明是不稳定的，并在他于809年去世后导致了内战。哈伦的统治以军事征讨、文化赞助和阿拔斯权力的扩张为标志。",
+      "key_figures": [
+        "哈伦·拉希德（哈里发）",
+        "阿明（指定继承人）",
+        "马蒙（东部省份指定继承人）"
+      ],
+      "sources": [
+        {
+          "name": "塔巴里《先知与诸王史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "马苏第《黄金草原》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "哈伦的健康状况恶化和继承计划在后来的伊斯兰史料中有记载，尽管808年的具体事件并不总是有精确日期。",
+      "cross_references": [
+        "809-ABBASID_CIVIL_WAR"
+      ]
+    },
+    {
+      "id": "808-002",
+      "title": "拜占庭-阿拔斯边境冲突",
+      "region": "拜占庭-阿拔斯边境（安纳托利亚、叙利亚）",
+      "coordinates_approx": "37.0, 35.0",
+      "category": "military",
+      "description": "拜占庭-阿拔斯边境沿线持续的军事紧张和袭击，发生在安纳托利亚和叙利亚北部。拜占庭皇帝尼基弗鲁斯一世试图加强边境防御并收复失地，而哈伦·拉希德指挥下的阿拔斯军队则进行袭击和反袭击。这些冲突是长达几个世纪的拜占庭-伊斯兰战争模式的一部分。",
+      "key_figures": [
+        "尼基弗鲁斯一世（拜占庭皇帝）",
+        "哈伦·拉希德（阿拔斯哈里发）"
+      ],
+      "sources": [
+        {
+          "name": "忏悔者塞奥法尼斯《编年史》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "伊斯兰史学（塔巴里、马苏第）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "冲突的大致模式有充分记载；808年的具体事件记载不太清楚。",
+      "cross_references": []
+    },
+    {
+      "id": "808-003",
+      "title": "唐朝行政改革继续进行",
+      "region": "中国唐朝",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "唐宪宗继续进行行政中央集权和削减地方节度使自治权的计划。808年，这些改革仍在进行中，皇帝致力于加强对地方行政和军事力量的中枢控制。这一时期经历了经济增长和文化发展，尽管地方紧张关系仍然存在。",
+      "key_figures": [
+        "唐宪宗",
+        "裴度（宰相）"
+      ],
+      "sources": [
+        {
+          "name": "《旧唐书》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "《新唐书》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "宪宗的一般政策有充分记载；808年的具体事件并不总是有精确日期。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的主要反证。然而，808年事件的明确性受到史料记载的限制。二手资料中归属于该年的许多事件实际上是在更广泛时期内的近似日期。",
+  "historiographic_note": "808年的史料记录程度中等，阿拔斯哈里发国和唐朝的史料最丰富。拜占庭史料存在但多为后人编纂。法兰克史料对该具体年份的记载不那么详细。撒哈拉以南非洲、美洲和东南亚大部分地区没有文字记载。现存的史料反映了精英和宫廷中心的视角。",
+  "graph_edges": [
+    {
+      "from": "808-001",
+      "to": "809-ABBASID_CIVIL_WAR",
+      "relation": "led_to",
+      "note": "哈伦的继承计划直接导致了他809年去世后的内战"
+    }
+  ]
+}

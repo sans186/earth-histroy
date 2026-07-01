@@ -1,0 +1,77 @@
+{
+  "year": -1411,
+  "year_label": "公元前1411年",
+  "era_context": "青铜时代晚期，阿蒙霍特普三世（第十八王朝）统治下的埃及，赫梯帝国处于转型或早期扩张阶段（取决于年代体系）。迈锡尼希腊处于晚希腊底III A时期。中国的商朝。这一年属于相对国际稳定、贸易网络广泛的时期，但地区冲突暗流涌动。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中美洲",
+    "北欧",
+    "东南亚",
+    "太平洋岛屿"
+  ],
+  "events": [
+    {
+      "id": "-1411-001",
+      "title": "阿蒙霍特普三世统治与建筑计划的延续",
+      "region": "埃及（第十八王朝）",
+      "coordinates_approx": "25.7°N, 32.6°E",
+      "category": "cultural",
+      "description": "阿蒙霍特普三世的统治持续进行，他提供了广泛的建筑和艺术赞助。卢克索神庙和其他纪念碑正在建造或完工。埃及艺术达到精湛的高点。法老与邻国保持外交通信，巩固了埃及作为古代世界超级大国的地位。",
+      "key_figures": [
+        "阿蒙霍特普三世（法老）"
+      ],
+      "sources": [
+        {
+          "name": "来自卢克索和底比斯的神庙铭文和考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "关于第十八王朝的历史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿蒙霍特普三世的统治有充分文献记载；公元前1411年这一具体年份由传统年代学确定，不确定度±20–30年。",
+      "cross_references": [
+        "-1410-001"
+      ]
+    },
+    {
+      "id": "-1411-002",
+      "title": "迈锡尼贸易网络与宫殿文化",
+      "region": "迈锡尼希腊（伯罗奔尼撒、爱琴海）",
+      "coordinates_approx": "37.5°N, 23.0°E",
+      "category": "economic",
+      "description": "迈锡尼文明处于晚希腊底III A时期，以广泛的贸易网络为特征，这些网络将希腊与埃及、黎凡特和安纳托利亚连接起来。迈锡尼、梯林斯和皮洛斯等宫殿中心处于鼎盛时期。线形文字B用于行政目的。陶器、金属和奢侈品的贸易活跃。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自迈锡尼宫殿遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "来自皮洛斯和克诺索斯的线形文字B泥板",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "迈锡尼年代学通过陶器类型学和地层序列已较好地建立；LHIII A时期约在公元前1425–1390年，因此公元前1411年可合理确定在该时期之内。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "没有针对所列事件的具体否定证据。然而，青铜时代晚期的绝对年代学仍存争议；一些学者主张将所有这些日期推迟50–100年的“低年代学”。迈锡尼定年由于更好的地层控制比埃及定年更可靠。",
+  "historiographic_note": "对于公元前1411年，记录主要由埃及和迈锡尼资料主导。赫梯记录在这一具体年份不够丰富。记录反映了精英和宫殿视角。考古证据（陶器、地层、建筑）提供了物质背景，但叙述细节有限。文字记录在埃及和爱琴海以外稀少。年代不确定性是主要限制。",
+  "graph_edges": [
+    {
+      "from": "-1411-002",
+      "to": "-1200-BRONZE_AGE_COLLAPSE",
+      "relation": "led_to",
+      "note": "迈锡尼贸易网络和宫殿文化在公元前1200年左右崩溃，结束了青铜时代。"
+    }
+  ]
+}

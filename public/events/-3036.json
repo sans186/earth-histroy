@@ -1,0 +1,77 @@
+{
+  "year": -3036,
+  "year_label": "公元前3036年",
+  "era_context": "黎凡特和埃及处于青铜时代早期III期；古王国埃及（第四王朝）。美索不达米亚处于早王朝III期。印度河流域文明处于成熟期。长途海上和陆路贸易网络已充分建立。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东亚",
+    "美洲",
+    "大洋洲",
+    "北欧"
+  ],
+  "events": [
+    {
+      "id": "-3036-001",
+      "title": "吉萨金字塔群的持续建造",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "technological",
+      "description": "在哈夫拉（或根据年代体系，可能是其前任胡夫）统治期间，吉萨金字塔群继续得到完善和扩建。大斯芬克斯（狮身人面像）可能在此时已完工或接近完工。这些纪念建筑代表了古王国工程的顶峰，需要几何、天文和后勤方面的精深知识。",
+      "key_figures": [
+        "哈夫拉或胡夫（法老）"
+      ],
+      "sources": [
+        {
+          "name": "吉萨考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "金字塔内的涂鸦和铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "金字塔建造的精确逐年进度并无记载。本条目反映的是吉萨发展的总体时期，不确定性为±10–20年。",
+      "cross_references": [
+        "-3035-001"
+      ]
+    },
+    {
+      "id": "-3036-002",
+      "title": "美索不达米亚早王朝III期城邦",
+      "region": "美索不达米亚（今伊拉克）",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "美索不达米亚城邦如拉格什、温马、乌鲁克和乌尔，正在为资源和霸权进行不断的竞争。这一时期的特点是围绕水权和领土边界的频繁战争。此时期的楔形文字记录记载了管理和经济活动，但叙事性的历史记载有限。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自拉格什、乌鲁克和乌尔的楔形文字泥板",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "王表传统（后来编纂）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "美索不达米亚早王朝III期存在相互竞争的城邦，已有充分实证。本年度的具体事件和统治者并无清晰记录；早王朝III期本身的年代也存在争议（传统年代约前2900–前2350年）。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "早王朝美索不达米亚的年代极不确定，处于持续修正之中。一些学者提出“中年表”或“低年表”，将日期显著后移。苏美尔王表与实际历史事件之间的关系仍存争议；许多条目现在被视为传说或神话。",
+  "historiographic_note": "关于-3036年，文献限于埃及和美索不达米亚。埃及记录主要为纪念性和行政性的；叙事史稀少。美索不达米亚楔形文字提供了经济和行政细节，但政治叙事有限。两个地区的年代框架都存在争议，并随着新证据的出现而被修正。",
+  "graph_edges": [
+    {
+      "from": "-3036-001",
+      "to": "-3035-001",
+      "relation": "part_of",
+      "note": "吉萨的建造是哈夫拉更广泛统治和纪念建筑计划的一部分。"
+    }
+  ]
+}

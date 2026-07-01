@@ -1,0 +1,202 @@
+{
+  "year": 1587,
+  "year_label": "1587年",
+  "era_context": "16世纪末：腓力二世治下的西班牙仍是欧洲主导力量。伊丽莎白一世治下的英格兰巩固海军实力和新教身份。法国处于宗教战争之中。奥斯曼帝国控制东地中海。在亚洲，明朝统治中国；日本正处于丰臣秀吉领导下的最后统一阶段。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（欧洲文献有限）",
+    "南美洲和北美洲内陆（欧洲接触文献极少）"
+  ],
+  "events": [
+    {
+      "id": "1587-001",
+      "title": "玛丽·斯图亚特被处决；对伊丽莎白一世的天主教反对势力遭受重大打击",
+      "region": "英格兰",
+      "coordinates_approx": "55.0,-3.0",
+      "category": "political",
+      "description": "苏格兰女王玛丽于1587年2月8日在英格兰被囚禁19年后被处决。玛丽一直是针对伊丽莎白一世的天主教阴谋的中心人物，她的死消除了对伊丽莎白统治的主要威胁。处决还激怒了天主教势力，特别是西班牙和法国，并促使腓力二世决定在1588年发动西班牙无敌舰队。玛丽的死标志着该时代宗教冲突的一个转折点。",
+      "key_figures": [
+        "苏格兰女王玛丽（被处决的女王）",
+        "英格兰的伊丽莎白一世（英格兰女王）",
+        "威廉·塞西尔，伯利勋爵（英格兰首席大臣）"
+      ],
+      "sources": [
+        {
+          "name": "英国国务文件及法庭记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代英格兰和苏格兰编年史",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "西班牙和教廷外交信函",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "玛丽的处决是16世纪记载最详尽的事件之一，有具体日期和详细记述。",
+      "cross_references": [
+        "1588-001（西班牙无敌舰队）",
+        "1603-001（伊丽莎白一世去世及继位）"
+      ]
+    },
+    {
+      "id": "1587-002",
+      "title": "英国私掠船及海军对西班牙殖民地的袭击；德雷克的活动",
+      "region": "加勒比海和大西洋",
+      "coordinates_approx": "15.0,-60.0",
+      "category": "military",
+      "description": "包括弗朗西斯·德雷克爵士在内的英国私掠船继续袭击西班牙在加勒比海和大西洋的殖民地。这些袭击得到伊丽莎白一世的授权，削弱了西班牙的殖民资源，展示了英国的海军能力。这些袭击也是对西班牙的一种经济战形式，并加剧了导致1588年西班牙无敌舰队的紧张局势。",
+      "key_figures": [
+        "弗朗西斯·德雷克爵士（英国私掠船长）",
+        "英格兰的伊丽莎白一世（英格兰女王）"
+      ],
+      "sources": [
+        {
+          "name": "英国国务文件及海军记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "西班牙殖民报告及通信",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "英国私掠活动在国务文件中有充分记载。",
+      "cross_references": [
+        "1588-001（西班牙无敌舰队）"
+      ]
+    },
+    {
+      "id": "1587-003",
+      "title": "万历皇帝在位；明朝面临军事和行政挑战",
+      "region": "中国",
+      "coordinates_approx": "39.9,116.4",
+      "category": "political",
+      "description": "万历皇帝继续在位，这一时期来自女真和蒙古势力的军事压力日益增加。明朝内部治理受到宦官与士大夫之间朝堂派系斗争的阻碍。军费开支使国库紧张。皇帝越来越不参与积极治理。",
+      "key_figures": [
+        "万历皇帝（明朝统治者）"
+      ],
+      "sources": [
+        {
+          "name": "《明实录》（官方明朝记录）",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "明朝行政记录提供了详细的文献记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1587-004",
+      "title": "丰臣秀吉巩固在日本权力；大名的归顺持续",
+      "region": "日本",
+      "coordinates_approx": "35.0,138.0",
+      "category": "political",
+      "description": "丰臣秀吉继续巩固对日本大名（封建领主）的权力。到1587年，大多数主要大名已归顺秀吉的权威，战国时代的内战实际上已经结束。秀吉的统一基于个人军事权力和声望。巩固使得秀吉能够开始计划对外扩张，特别是针对朝鲜和中国。",
+      "key_figures": [
+        "丰臣秀吉（日本关白）"
+      ],
+      "sources": [
+        {
+          "name": "日本大名记录及通信",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《太阁记》及其他日本编年史",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "秀吉的巩固在日本记录中有充分记载。",
+      "cross_references": [
+        "1588-004（巩固的持续）"
+      ]
+    },
+    {
+      "id": "1587-005",
+      "title": "穆拉德三世治下的奥斯曼帝国；继续控制东地中海",
+      "region": "奥斯曼帝国",
+      "coordinates_approx": "41.0,29.0",
+      "category": "political",
+      "description": "穆拉德三世治下的奥斯曼帝国继续控制东地中海、巴尔干半岛和中东大部分地区。奥斯曼海军力量仍然重要，尽管受到欧洲列强的挑战。帝国面临日益增长的内部挑战，包括行政腐败和军事压力。这一时期标志着奥斯曼制度性衰落的开始。",
+      "key_figures": [
+        "穆拉德三世（奥斯曼苏丹）"
+      ],
+      "sources": [
+        {
+          "name": "奥斯曼行政记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代奥斯曼编年史",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "奥斯曼行政记录提供了文献记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1587-006",
+      "title": "荷兰起义持续；拿骚的莫里斯巩固军事领导地位",
+      "region": "荷兰共和国（联省共和国）",
+      "coordinates_approx": "52.0,5.0",
+      "category": "military",
+      "description": "反对西班牙统治的荷兰起义持续，拿骚的莫里斯巩固了他在联省共和国中的军事领导地位。莫里斯的军事创新和改革在对西班牙军队的战役中开始显现成效。到1587年，荷兰人已在尼德兰北部大部分地区建立了事实上的独立。",
+      "key_figures": [
+        "拿骚的莫里斯（荷兰军事领袖）"
+      ],
+      "sources": [
+        {
+          "name": "荷兰军事记录及通信",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "西班牙军事报告",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "荷兰起义及莫里斯的角色有充分记载。",
+      "cross_references": [
+        "1648-001（威斯特伐利亚和约）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "玛丽·斯图亚特的处决有时被描绘成西班牙无敌舰队的直接原因；然而，腓力二世多年来一直在计划入侵英格兰，玛丽的死只是导致这一决定的几个因素之一。将玛丽描述为对伊丽莎白一世的主要威胁有些夸大；到1587年，玛丽已被囚禁19年，构成的直接威胁有限。一些历史学家认为，处决她更多的是消除天主教反对势力的象征性焦点，而不是解决直接的安全威胁。",
+  "historiographic_note": "1587年的文献对于欧洲事件非常丰富，特别是玛丽的处决，在英格兰、苏格兰、西班牙和教廷的史料中都有广泛记载。处决反映了该时代的宗教和政治紧张局势，并已被历史学家广泛分析。亚洲事件在官方记录和后来的编年史中有记载。由于幸存文字记录有限，撒哈拉以南非洲和美洲内陆事件严重缺乏代表性。",
+  "graph_edges": [
+    {
+      "from": "1587-001",
+      "to": "1588-001",
+      "relation": "led_to",
+      "note": "玛丽的处决促使腓力二世决定发动西班牙无敌舰队"
+    },
+    {
+      "from": "1587-002",
+      "to": "1588-001",
+      "relation": "led_to",
+      "note": "英国私掠活动加剧了导致无敌舰队的英西紧张关系"
+    },
+    {
+      "from": "1587-001",
+      "to": "1603-001",
+      "relation": "led_to",
+      "note": "玛丽的处决消除了伊丽莎白一世的一个潜在继任者"
+    }
+  ]
+}

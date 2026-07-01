@@ -1,0 +1,227 @@
+{
+  "year": 1605,
+  "year_label": "1605年",
+  "era_context": "近代早期：英格兰火药阴谋被发现；德川家康在日本辞去将军职务，将权力传给儿子；VOC处于积极扩张的初期；萨法维帝国在沙阿阿拔斯一世治下达到顶峰；明朝中国在万历皇帝统治下继续。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（欧洲文献有限）",
+    "北美内陆（欧洲接触记录稀少）",
+    "太平洋岛屿（欧洲知识极少）"
+  ],
+  "events": [
+    {
+      "id": "1605-001",
+      "title": "火药阴谋被发现",
+      "region": "英格兰",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "political",
+      "description": "火药阴谋，一个天主教极端分子刺杀国王詹姆斯一世并炸毁议会的阴谋，于1605年11月5日被发现。盖伊·福克斯和其他同谋者被捕。阴谋未能实现其目标，但成为英格兰新教身份和反天主教情绪的决定性时刻。这一发现导致对英格兰天主教徒的监视和限制加强。",
+      "key_figures": [
+        "盖伊·福克斯（同谋者）",
+        "罗伯特·凯茨比（同谋者，领袖）",
+        "国王詹姆斯一世（目标）",
+        "罗伯特·塞西尔（国务秘书，发现者）"
+      ],
+      "sources": [
+        {
+          "name": "《国事文件汇编：国内，詹姆斯一世》；当代宫廷记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代记载和后来的汇编",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在当代政府文件中有广泛记载。发现日期1605年11月5日有精确记录。",
+      "cross_references": [
+        "1606-001 (火药阴谋审判)"
+      ]
+    },
+    {
+      "id": "1605-002",
+      "title": "德川家康辞去将军职务",
+      "region": "日本",
+      "coordinates_approx": "35.6762, 139.6503",
+      "category": "political",
+      "description": "德川幕府创始人德川家康正式辞去将军职务，将权力传给其子德川秀忠。家康作为大御所（退休将军）继续行使重要影响力。这一过渡标志着德川权力的巩固和江户时代稳定封建秩序的开始，该秩序将持续至1868年。",
+      "key_figures": [
+        "德川家康（退休将军）",
+        "德川秀忠（新任将军）"
+      ],
+      "sources": [
+        {
+          "name": "《德川家光日记》和江户幕府记录",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "关于江户时代的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在日本行政记录和后来的汇编中有详细记载。",
+      "cross_references": [
+        "1603-002 (德川家康成为将军)",
+        "1606-002 (德川家康巩固持续)"
+      ]
+    },
+    {
+      "id": "1605-003",
+      "title": "塞万提斯出版《堂吉诃德》（第一部）",
+      "region": "西班牙",
+      "coordinates_approx": "40.4168, -3.7038",
+      "category": "cultural",
+      "description": "米格尔·德·塞万提斯出版了《堂吉诃德》的第一部，这是西方文学史上最具影响力的作品之一。该小说立即获得成功，并在一年内被翻译成英语和法语。它标志着现代小说发展的一个转折点，并成为西班牙文学的基石。",
+      "key_figures": [
+        "米格尔·德·塞万提斯（作者）"
+      ],
+      "sources": [
+        {
+          "name": "《堂吉诃德》，第一版（1605年）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "出版记录和当代记载",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "出版日期有精确记载。该作品保存在多份副本和版本中。",
+      "cross_references": [
+        "1615-001 (《堂吉诃德》第二部出版)"
+      ]
+    },
+    {
+      "id": "1605-004",
+      "title": "沙阿阿拔斯一世巩固萨法维权力",
+      "region": "萨法维波斯",
+      "coordinates_approx": "32.6546, 51.6680",
+      "category": "political",
+      "description": "萨法维统治者沙阿阿拔斯一世继续巩固权力并扩张波斯帝国。到1605年，阿拔斯击败了乌兹别克人，确保了高加索地区，并将波斯确立为地区主要强国。他促进贸易，建设基础设施，并将伊斯法罕确立为宏伟的首都。这一时期标志着萨法维文化和政治权力的顶峰。",
+      "key_figures": [
+        "沙阿阿拔斯一世（萨法维统治者）"
+      ],
+      "sources": [
+        {
+          "name": "萨法维宫廷编年史和行政记录",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "欧洲外交记录（例如威尼斯和英国大使）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "关于萨法维帝国的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在波斯和欧洲资料中均有详细记载。",
+      "cross_references": [
+        "1603-001 (阿马西亚和约)"
+      ]
+    },
+    {
+      "id": "1605-005",
+      "title": "VOC确立对摩鹿加香料贸易的控制",
+      "region": "摩鹿加群岛（荷属东印度群岛）",
+      "coordinates_approx": "-0.5, 127.0",
+      "category": "economic",
+      "description": "荷兰东印度公司（VOC）巩固了对世界上最有价值的贸易路线之一——摩鹿加群岛香料贸易的控制。到1605年，VOC已取代葡萄牙商人，并建立了对丁香和肉豆蔻出口的垄断。这标志着荷兰在东南亚经济主导地位的开始。",
+      "key_figures": [
+        "史蒂文·范·德·哈根（VOC海军上将）"
+      ],
+      "sources": [
+        {
+          "name": "VOC记录和信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "关于VOC扩张的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "VOC公司记录和荷兰殖民档案中有记载。",
+      "cross_references": [
+        "1602-001 (VOC特许状)",
+        "1606-003 (VOC继续扩张)"
+      ]
+    },
+    {
+      "id": "1605-006",
+      "title": "明朝万历皇帝继续统治",
+      "region": "明朝中国",
+      "coordinates_approx": "39.9042, 116.4074",
+      "category": "political",
+      "description": "万历皇帝继续统治明朝中国。到1605年，皇帝已在位超过40年，健康日益衰退。万历后期以行政衰落、派系斗争和宦官权力上升为特征。然而，明朝文化和经济仍然强大，中国继续是世界主要强国。",
+      "key_figures": [
+        "万历皇帝（明朝统治者）"
+      ],
+      "sources": [
+        {
+          "name": "明朝宫廷记录和行政文件",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "关于明朝的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在明朝行政记录中有详细记载。",
+      "cross_references": [
+        "1572-001 (万历皇帝登基)",
+        "1620-001 (万历皇帝去世)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "火药阴谋常被描绘为英格兰宗教史上的重大转折点，但近期学术研究暗示，反天主教情绪在1605年之前就已深深植根于英格兰新教身份。该阴谋强化而非开创了这一趋势。此外，一些历史学家认为该阴谋的重要性被后来的新教史学夸大了。沙阿阿拔斯一世作为萨法维权力“顶峰”的描述存在争议；一些学者认为该帝国的文化和经济高峰更早，或者衰落开始得比传统日期更早。塞万提斯的《堂吉诃德》虽然无疑具有影响力，但并未立即被认可为杰作；其经典地位是逐渐在几个世纪中确立的。",
+  "historiographic_note": "1605年的文献在欧洲历史上很丰富，有大量的政府文件和出版著作。亚洲资料（日本、波斯、中国）也保存完好。然而，记录严重偏向涉及精英的政治和军事事件。火药阴谋主导了英国历史叙述，可能掩盖了该年其他重要事件。非欧洲地区的经济和社会史代表性不足。撒哈拉以南非洲和北美内陆几乎完全缺席当代欧洲记录。资料本身由记录机构（宫廷、贸易公司、宗教当局）的利益塑造。",
+  "graph_edges": [
+    {
+      "from": "1605-001",
+      "to": "1606-001",
+      "relation": "led_to",
+      "note": "火药阴谋被发现导致1606年的审判和处决"
+    },
+    {
+      "from": "1605-002",
+      "to": "1606-002",
+      "relation": "led_to",
+      "note": "德川家康退休导致在秀忠治下继续巩固"
+    },
+    {
+      "from": "1605-003",
+      "to": "1615-001",
+      "relation": "led_to",
+      "note": "《堂吉诃德》第一部导致第二部出版"
+    },
+    {
+      "from": "1605-004",
+      "to": "1603-001",
+      "relation": "contemporary_with",
+      "note": "沙阿阿拔斯一世的巩固源于阿马西亚和约"
+    },
+    {
+      "from": "1605-005",
+      "to": "1606-003",
+      "relation": "led_to",
+      "note": "VOC的香料贸易控制导致在爪哇的更广泛扩张"
+    }
+  ]
+}

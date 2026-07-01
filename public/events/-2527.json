@@ -1,0 +1,98 @@
+{
+  "year": -2527,
+  "year_label": "公元前2527年",
+  "era_context": "埃及古王国晚期（第六王朝），纳拉姆辛治下的阿卡德帝国，成熟哈拉帕文明。这一时期的特点是三大文明共存，各自具有不同的政治结构：埃及实行中央集权的法老君主制，阿卡德实行帝国征服国家体制，印度河流域实行分散的城市文明。环境压力（气候变化、干旱）开始影响一些地区，尽管全面影响要到公元前22世纪才会显现。",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "太平洋岛屿",
+    "中亚（文字记录有限）"
+  ],
+  "events": [
+    {
+      "id": "-2527-001",
+      "title": "佩皮二世统治（传统年代学继续）",
+      "region": "埃及，古王国",
+      "coordinates_approx": "26.5, 30.5",
+      "category": "political",
+      "description": "佩皮二世在埃及继续他的统治。古王国处于其最后阶段，中央集权日益瓦解，地方行省总督势力上升。这一时期的铭文记录了对努比亚和西奈的远征，但中央权威正在削弱。向第一中间期的过渡已迫在眉睫，尽管确切的时间仍不确定。这一年没有记录到具体事件。",
+      "key_figures": [
+        "佩皮二世（尼斐卡拉），埃及法老"
+      ],
+      "sources": [
+        {
+          "name": "都灵纸莎草纸及国王名单",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "古王国官员传记铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "佩皮二世的统治传统上被定年为约公元前2278–2184年。该年份在此范围内，但绝对年代存在±50–100年的不确定性。",
+      "cross_references": [
+        "-2525-001和-2526-001的延续"
+      ]
+    },
+    {
+      "id": "-2527-002",
+      "title": "纳拉姆辛统治（继续）",
+      "region": "美索不达米亚，阿卡德帝国",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "纳拉姆辛继续统治处于鼎盛期的阿卡德帝国。他的统治以军事巩固和国王神化为标志——这是美索不达米亚政治意识形态中的一项重大创新。帝国控制着美索不达米亚、黎凡特和安纳托利亚的部分地区。这一年没有记录到具体事件，但更广泛的背景是帝国的稳定。",
+      "key_figures": [
+        "纳拉姆辛，阿卡德国王"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德王室铭文",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治被定年为约公元前2254–2218年。该年份在此范围内。",
+      "cross_references": [
+        "-2525-002和-2526-002的延续"
+      ]
+    },
+    {
+      "id": "-2527-003",
+      "title": "哈拉帕文明处于顶峰（继续）",
+      "region": "印度河流域，南亚",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "印度河流域文明在其鼎盛期继续发展。主要城市已充分发展并正常运转。贸易网络保持活跃。这一年没有记录到具体事件。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈拉帕文明的存在和年代学已通过考古学得到确认。该年份处于成熟期（约公元前2600–1900年）。",
+      "cross_references": [
+        "-2525-003和-2526-003的延续"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "没有针对这一年的新否定性证据。该时期的年代学不确定性依然存在。",
+  "historiographic_note": "这一年没有留下关于具体事件的记录。所呈现的'历史'是从更广泛的年代学框架中推断出来的。没有任何同时代的记录保存了公元前2527年的具体年度信息。",
+  "graph_edges": [
+    {
+      "from": "-2527-001",
+      "to": "-2526-001",
+      "relation": "contemporary_with",
+      "note": "佩皮二世统治的延续。"
+    }
+  ]
+}

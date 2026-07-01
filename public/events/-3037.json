@@ -1,0 +1,78 @@
+{
+  "year": -3037,
+  "year_label": "公元前3037年",
+  "era_context": "黎凡特和埃及处于青铜时代早期III期；古王国埃及（第四王朝）。美索不达米亚处于早王朝III期。印度河流域文明处于成熟期。这一时期标志着三个主要世界区域早期城市文明的高度。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东亚",
+    "美洲",
+    "大洋洲",
+    "北欧",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-3037-001",
+      "title": "古王国埃及行政整合",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "在古王国（第四王朝）时期，埃及的中央集权官僚体系达到高度成熟。法老的权力至高无上，国家机构高效地调动资源用于纪念建筑、水利管理和贸易。行政纸草和铭文记录了官员、书吏和劳工构成的复杂等级体系。",
+      "key_figures": [
+        "第四王朝法老（可能是哈夫拉或胡夫）"
+      ],
+      "sources": [
+        {
+          "name": "行政纸草及铭文",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "墓葬铭文与浮雕",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "古王国存在复杂的官僚体系是有充分实证的。-3037年的具体行政发展并无记载；本条目反映的是第四王朝时期埃及治理的一般状态。",
+      "cross_references": []
+    },
+    {
+      "id": "-3037-002",
+      "title": "印度河流域贸易网络",
+      "region": "印度河流域及以外，南亚与中东",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "economic",
+      "description": "印度河流域文明与美索不达米亚、波斯湾、可能还有埃及之间维持着广泛的贸易网络。印度河印章和度量衡器发现于美索不达米亚遗址，美索不达米亚货物也出现在印度河环境中。这种贸易通过海上航线和陆路商队进行，表明存在复杂的商业组织。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "美索不达米亚发现的印度河文物及反向证据的考古材料",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "印度河印章与标准度量衡",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河-美索不达米亚贸易的存在已有充足的考古实证。-3037年的贸易强度或组织具体情况并无记载。",
+      "cross_references": [
+        "-3035-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "印度河-美索不达米亚贸易的性质和范围仍存争议。一些学者主张存在直接的海上贸易；另一些则提出由波斯湾或阿曼的中间商转口。印度河流域文明的政治组织仍不清楚；部分学者质疑其是否是一个统一的“文明”，抑或只是独立的城邦集合体。",
+  "historiographic_note": "-3037年的文献稀少且集中于埃及和印度河流域。本年度没有具体事件记录；条目反映的是这些文明的一般状态。美索不达米亚此时期的记录支离破碎。所有三个地区的年代均有±50–100年的不确定性。",
+  "graph_edges": [
+    {
+      "from": "-3037-002",
+      "to": "-3035-002",
+      "relation": "part_of",
+      "note": "贸易网络是成熟印度河流域文明的一个持续性特征。"
+    }
+  ]
+}

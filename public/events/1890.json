@@ -1,0 +1,815 @@
+{
+  "year": 1890,
+  "year_label": "公元1890年",
+  "era_context": "十九世纪最后十年在帝国扩张全面加速中开启，列强在非洲和太平洋争夺殖民领土，而工业化正在改变北半球的经济和社会结构。在欧洲，代际更替正在进行，年轻的德皇威廉二世打破了俾斯麦谨慎的外交策略，动摇了自1871年以来维持和平的联盟体系。在东亚，明治日本正在巩固其宪政政府和现代化军队。在美洲，美国正在关闭其大陆边疆并开始向外投射工业和军事力量，而有组织的劳工运动和反垄断情绪正在成为主要政治力量。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [
+    "殖民地行政记录之外的撒哈拉以南非洲内陆",
+    "俄罗斯统治下的中亚",
+    "定居者-殖民地国家的原住民视角（澳大利亚、美国、加拿大）",
+    "主要殖民港口以外的太平洋岛屿",
+    "首都城市和主要出口区以外的拉丁美洲农村地区",
+    "荷兰、法国和英国殖民文献之外的东南亚社区"
+  ],
+  "events": [
+    {
+      "id": "1890-001",
+      "title": "德皇威廉二世解职奥托·冯·俾斯麦",
+      "region": "德意志帝国（柏林）",
+      "coordinates_approx": "52.5°N, 13.4°E",
+      "category": "political",
+      "description": "1890年3月18日，德皇威廉二世迫使主导欧洲外交近三十年的首相奥托·冯·俾斯麦辞职。直接导火索是反社会主义立法上的分歧以及皇帝希望亲自控制外交政策，但更深层的原因是威廉决心在统治的同时真正掌权。俾斯麦的离开终结了精心维护的联盟体系——特别是与俄国的再保险条约——这些条约在孤立法国的同时保障了德国的安全。威廉在继任者卡普里维和后来的霍恩洛厄领导下的'新路线'将远不如前者老练，为法俄同盟和最终导致第一次世界大战的外交极化奠定了基础。",
+      "key_figures": [
+        "威廉二世（德意志皇帝）",
+        "奥托·冯·俾斯麦（首相，被解职）",
+        "列奥·冯·卡普里维（继任首相）"
+      ],
+      "sources": [
+        {
+          "name": "俾斯麦辞职信及皇帝回复，1890年3月18日（发表于当代新闻界）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "约翰·坦尼尔《笨拙》杂志漫画'放下领航员'，1890年3月29日",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "A·J·P·泰勒，《俾斯麦：人与政治家》（1955年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "约翰·C·G·罗尔，《年轻的威廉：皇帝的早年生活，1859-1888》和《威廉二世：皇帝的个人统治》（1998年、2004年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "德国和国际资料均有详尽记载。最后对峙的确切动态存在详细争议，但核心事实无可争议。",
+      "cross_references": [
+        "1888-001",
+        "1894-FRANCO_RUSSIAN_ALLIANCE"
+      ]
+    },
+    {
+      "id": "1890-002",
+      "title": "西伯利亚大铁路正式开工",
+      "region": "俄罗斯帝国（符拉迪沃斯托克/西伯利亚）",
+      "coordinates_approx": "43.1°N, 131.9°E",
+      "category": "technological",
+      "description": "1890年，西伯利亚大铁路的规划和组织工作大规模推进，沙皇亚历山大三世下令加速进行。皇太子尼古拉·亚历山德罗维奇（未来的尼古拉二世）于1891年5月在符拉迪沃斯托克铺设了第一块基石，但1890年标志着从勘测到实质性建设的过渡。建成后，这条铁路从莫斯科延伸至符拉迪沃斯托克全长超过9,000公里（5,600英里），是世界上最长铁路线，使俄罗斯帝国能够前所未有地开发西伯利亚的资源、向远东移民并投射军事力量。",
+      "key_figures": [
+        "亚历山大三世皇帝（批准加速建设）",
+        "皇太子尼古拉·亚历山德罗维奇（主持基石的沙皇太子）",
+        "谢尔盖·维特（铁路项目负责人）"
+      ],
+      "sources": [
+        {
+          "name": "1890年俄罗斯帝国政府关于西伯利亚大铁路的备忘录和命令",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史蒂文·G·马克斯，《权力之路：西伯利亚大铁路与亚洲俄罗斯的殖民化，1850-1917》（1991年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "哈曼·图特，《西伯利亚大铁路史》（2013年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "帝国法令和计划文件保存下来，但'施工开始'是一个渐进过程而非单一事件。",
+      "cross_references": [
+        "1889-TRANS_SIBERIAN_PRELIMINARY",
+        "1904-RUSSO_JAPANESE_WAR"
+      ]
+    },
+    {
+      "id": "1890-003",
+      "title": "美国人口普查宣布边疆关闭",
+      "region": "美国",
+      "coordinates_approx": "38.9°N, 77.0°W",
+      "category": "demographic",
+      "description": "1890年美国人口普查总监在其报告中宣布，连续定居线已如此推进，以至于不再存在可识别的边疆线——一个多世纪以来界定美国身份的'未定居'土地的西部边缘已消失。这份报告为弗雷德里克·杰克逊·特纳的边疆假说（1893年）提供了基础，该假说认为美国的民主和民族性格是由边疆经历塑造的。边疆的关闭引发了关于美国身份、移民和帝国野心的全国性辩论。在实践层面，它意味着原住民的土地被系统性地征用，他们被限制在保留地系统内。",
+      "key_figures": [
+        "罗伯特·P·波特（人口普查总监）",
+        "弗雷德里克·杰克逊·特纳（历史学家，边疆论文）"
+      ],
+      "sources": [
+        {
+          "name": "1890年第十一次美国人口普查报告（1890年），人口普查总监报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "弗雷德里克·杰克逊·特纳，《边疆在美国历史中的意义》（1893年论文，1920年扩充）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "帕特里夏·纳尔逊·利默里克，《征服的遗产：美国西部的未了结过去》（1987年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "人口普查报告是精确可查的。特纳论文的确切传播在1893年，但其数据基础是1890年的人口普查。",
+      "cross_references": [
+        "1893-TURNER_FRONTIER_THESIS",
+        "1887-DAWES_ACT"
+      ]
+    },
+    {
+      "id": "1890-004",
+      "title": "威廉二世拒绝再保险条约；俾斯麦的联盟体系崩溃",
+      "region": "德意志帝国/俄罗斯帝国/欧洲",
+      "coordinates_approx": "52.5°N, 13.4°E",
+      "category": "political",
+      "description": "1890年3月俾斯麦被解职后，德国政府选择不续签与俄罗斯的再保险条约（于1890年6月到期）。该条约是俾斯麦复杂联盟体系的核心——一项确保德国和俄罗斯在对方与第三国交战时保持善意的中立协议——同时维持与奥匈帝国和意大利的三国同盟。拒绝续签是灾难性的误判：它使俄罗斯感到孤立和受到威胁，促使俄罗斯转向法国，导致1894年法俄同盟。欧洲由此分裂为两个敌对的军事集团，外交僵化加剧，军备竞赛开始，使一场大规模战争越来越不可避免。",
+      "key_figures": [
+        "威廉二世（做出决定的皇帝）",
+        "列奥·冯·卡普里维（俾斯麦的继任者）",
+        "弗里德里希·冯·霍尔斯坦（外交部关键人物）",
+        "沙皇亚历山大三世（俄罗斯皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "1890年德俄外交信函（德国外交部档案，俄罗斯帝国档案）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "乔治·F·凯南，《俾斯麦欧洲秩序的衰落：法俄关系，1875-1890》（1979年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "A·J·P·泰勒，《争夺欧洲霸权的斗争，1848-1918》（1954年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "外交信函全面记录了这一决定及其战略逻辑。该决定导致法俄同盟的因果链在历史学家中达成共识。",
+      "cross_references": [
+        "1890-001",
+        "1894-FRANCO_RUSSIAN_ALLIANCE",
+        "1914-001"
+      ]
+    },
+    {
+      "id": "1890-005",
+      "title": "柳条湖屠杀：伤膝河大屠杀",
+      "region": "美国（南达科他州松岭保留地）",
+      "coordinates_approx": "43.14°N, 102.36°W",
+      "category": "military",
+      "description": "1890年12月29日，美国第七骑兵团在南达科他州伤膝河附近包围并开始屠杀拉科塔苏族男女老幼。大屠杀发生在骑兵试图解除一群米尼康朱和胡克帕帕拉科塔人的武装时，当时他们正在忍受饥饿并参加鬼舞宗教仪式。当一名耳聋的拉科塔人拒绝交出自己的步枪时，爆发了混战，骑兵向手无寸铁的拉科塔人开火。估计有250至300名拉科塔人被杀害，包括许多妇女和儿童；25名士兵死亡，许多人是被友军火力击中。伤膝河标志着印第安战争和美国对原住民的系统性军事征服的残酷终结。",
+      "key_figures": [
+        "大脚（米尼康朱拉科塔酋长，在现场被杀）",
+        "詹姆斯·W·福赛斯上校（第七骑兵团指挥官）",
+        "内尔森·A·迈尔斯将军（地区司令官）"
+      ],
+      "sources": [
+        {
+          "name": "美国陆军官方报告和1890-1891年伤膝河调查",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "拉科塔口述传统和证词（后来收集）",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "迪·布朗，《魂断伤膝河》（1970年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "杰弗里·奥斯特勒，《平原苏族人：一部军事史》（2004年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "有充分的文件记载；军队报告和拉科塔证词在大屠杀发生和暴力程度方面基本一致。确切死亡人数存在争议，但范围是公认的。",
+      "cross_references": [
+        "1876-LITTLE_BIGHORN",
+        "1887-DAWES_ACT",
+        "1890-GHOST_DANCE_MOVEMENT"
+      ]
+    },
+    {
+      "id": "1890-006",
+      "title": "威廉二世拒绝再保险条约；俾斯麦的联盟体系崩溃",
+      "region": "德意志帝国/俄罗斯帝国/欧洲",
+      "coordinates_approx": "52.5°N, 13.4°E",
+      "category": "political",
+      "description": "1890年3月俾斯麦被解职后，德国政府选择不续签与俄罗斯的再保险条约（于1890年6月到期）。该条约是俾斯麦复杂联盟体系的核心——一项确保德国和俄罗斯在对方与第三国交战时保持善意的中立协议——同时维持与奥匈帝国和意大利的三国同盟。拒绝续签是灾难性的误判：它使俄罗斯感到孤立和受到威胁，促使俄罗斯转向法国，导致1894年法俄同盟。欧洲由此分裂为两个敌对的军事集团，外交僵化加剧，军备竞赛开始，使一场大规模战争越来越不可避免。",
+      "key_figures": [
+        "威廉二世（做出决定的皇帝）",
+        "列奥·冯·卡普里维（俾斯麦的继任者）",
+        "弗里德里希·冯·霍尔斯坦（外交部关键人物）",
+        "沙皇亚历山大三世（俄罗斯皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "1890年德俄外交信函（德国外交部档案，俄罗斯帝国档案）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "乔治·F·凯南，《俾斯麦欧洲秩序的衰落：法俄关系，1875-1890》（1979年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "A·J·P·泰勒，《争夺欧洲霸权的斗争，1848-1918》（1954年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "外交信函全面记录了这一决定及其战略逻辑。该决定导致法俄同盟的因果链在历史学家中达成共识。",
+      "cross_references": [
+        "1890-001",
+        "1894-FRANCO_RUSSIAN_ALLIANCE",
+        "1914-001"
+      ]
+    },
+    {
+      "id": "1890-007",
+      "title": "第一届日本帝国议会开幕",
+      "region": "日本（东京）",
+      "coordinates_approx": "35.68°N, 139.75°E",
+      "category": "political",
+      "description": "1890年11月29日，根据1889年明治宪法成立的新日本帝国议会（国会）在东京召开首次会议。议会由上议院（贵族院）和选举产生的众议院组成，基于有限的财产资格。第一届议会立即展示了明治制度中的紧张关系：当选议员迅速与政府就预算控制、外交政策和政党角色发生冲突。尽管如此，议会的开幕标志着亚洲第一个功能性宪政政府的建立和日本制度化代议制治理的开端。",
+      "key_figures": [
+        "明治天皇（主权者）",
+        "山县有朋（首相）",
+        "伊藤博文（宪政设计师）"
+      ],
+      "sources": [
+        {
+          "name": "1890年日本帝国议会官方议事录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "W·G·比斯利，《日本现代史》（1963年，修订版）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "马里乌斯·詹森编，《剑桥日本史，第5卷：十九世纪》（1989年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "议会记录提供了精确日期。宪法框架和实施有充分记载。",
+      "cross_references": [
+        "1889-MEIJI_CONSTITUTION",
+        "1894-FIRST_SINO_JAPANESE_WAR"
+      ]
+    },
+    {
+      "id": "1890-008",
+      "title": "第一批先锋纵队进入马绍纳兰（今津巴布韦）",
+      "region": "南部非洲（马绍纳兰，今津巴布韦）",
+      "coordinates_approx": "17.83°S, 31.05°E",
+      "category": "exploration",
+      "description": "1890年7月，一支约400名定居者组成的武装纵队，由英国南非公司组织，在塞西尔·罗兹的赞助下从南非贝专纳兰向北进发，入侵马绍纳兰的绍纳领土。他们于9月12日建立了索尔兹伯里堡垒（今哈拉雷），标志着英国南非公司对该领土的实际占领。先锋纵队铺设了一条道路，并在关键点建立了防御工事，在数月内就通过军事定居系统确立了殖民控制——尽管面临反抗。这次入侵是罗兹将中南部非洲置于英国殖民统治下的更广泛计划的一部分。",
+      "key_figures": [
+        "塞西尔·罗兹（赞助人）",
+        "勒安德·斯塔尔·詹姆森爵士（探险家，公司管理员）",
+        "弗兰克·约翰逊（纵队指挥官）"
+      ],
+      "sources": [
+        {
+          "name": "1890年英国南非公司日志和先锋纵队报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "T·O·兰杰，《南部非洲的农民反抗，1897-1956》（1965年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "阿瑟·R·鲁伯特，《南部非洲的殖民史》（2016年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "公司记录和欧洲参与者的记述提供了详细资料。绍纳人对入侵的看法较少记载。",
+      "cross_references": [
+        "1889-BSAC_CHARTER",
+        "1893-FIRST_MATABELE_WAR"
+      ]
+    },
+    {
+      "id": "1890-009",
+      "title": "德意志银行创立",
+      "region": "德意志帝国（柏林）",
+      "coordinates_approx": "52.5°N, 13.4°E",
+      "category": "economic",
+      "description": "1890年，德意志银行在柏林成立，迅速成为德国领先的金融机构和工业的推动力。像许多德国银行一样，它通过提供贷款、承销证券和持有实业公司股份，在工业融资中发挥了直接作用。它资助了西门子、AEG和克虏伯等公司，并在基础设施项目中发挥了关键作用。",
+      "key_figures": [
+        "格奥尔格·冯·西门子（创始人之一）",
+        "赫尔曼·瓦利希（创始人之一）"
+      ],
+      "sources": [
+        {
+          "name": "德意志银行公司记录",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "洛塔尔·高尔，《德意志银行史》（2004年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "公司文件提供了创立日期。无误。",
+      "cross_references": []
+    },
+    {
+      "id": "1890-010",
+      "title": "达荷美王国入侵奥约帝国",
+      "region": "西非（达荷美/奥约，今贝宁/尼日利亚）",
+      "coordinates_approx": "9.7°N, 3.2°E",
+      "category": "military",
+      "description": "经过数年的冲突，达荷美的贝汉津国王在1890年代发动对衰落的奥约帝国的军事行动，进一步破坏了该地区的稳定。达荷美以其全女性军事单位（达荷美亚马逊女战士）而闻名，在法国殖民扩张时期扩大了领土控制。",
+      "key_figures": [
+        "贝汉津（达荷美国王）",
+        "法国军事指挥官"
+      ],
+      "sources": [
+        {
+          "name": "达荷美口述传统和法国殖民档案",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "罗宾·劳，《达荷美与奴隶贸易：一个古老王国的兴衰》（2004年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "达荷美在1890年代的扩张在法国记录中有记载。确切战役日期不精确。",
+      "cross_references": [
+        "1892-DAHOMEY_FRENCH_WAR"
+      ]
+    },
+    {
+      "id": "1890-011",
+      "title": "艾米莉·狄金森去世",
+      "region": "美国（马萨诸塞州阿默斯特）",
+      "coordinates_approx": "42.37°N, 72.52°W",
+      "category": "cultural",
+      "description": "艾米莉·狄金森于1890年5月15日在马萨诸塞州阿默斯特去世，享年55岁。她生前几乎完全隐居，发表的诗作不到12首。她去世后，她的姐姐拉维尼娅发现了近1,800首诗的手稿集。这些诗作在她去世后首次出版（1890年第一版），确立了狄金森作为一位原创诗人的地位，其激进的内省、非传统的标点和大胆的意象使她在美国文学中被列为与沃尔特·惠特曼同等重要的地位。",
+      "key_figures": [
+        "艾米莉·狄金森（诗人）",
+        "拉维尼娅·狄金森（姐姐，发现手稿）",
+        "托马斯·温特沃斯·希金森（编辑，帮助出版）"
+      ],
+      "sources": [
+        {
+          "name": "艾米莉·狄金森的诗集（1890年，1891年，1896年，死后出版）",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "理查德·B·休厄尔，《艾米莉·狄金森传》（1974年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "死亡记录和出版日期有完整文献记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1890-012",
+      "title": "瓦努阿图（新赫布里底群岛）的殖民化",
+      "region": "太平洋（新赫布里底群岛，今瓦努阿图）",
+      "coordinates_approx": "17.73°S, 168.32°E",
+      "category": "political",
+      "description": "到1890年，英国和法国在新赫布里底群岛（今瓦努阿图）的殖民存在得到了巩固，这是通过海军联合委员会进行的英法联合管理。这些岛屿上有美拉尼西亚人口。殖民化带来了传教士、种植园和劳动力招募（黑鸟贸易），深刻改变了当地的社会和经济。",
+      "key_figures": [
+        "英法海军官员",
+        "萨摩亚和纽埃传教士"
+      ],
+      "sources": [
+        {
+          "name": "英法关于新赫布里底群岛的联合海军报告，1880-1890年代",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "约翰·比彻特，《澳大利亚的太平洋岛屿殖民地》（2013年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "殖民的存在记录良好，但单一的确切日期难以确定。这是一个渐进过程。",
+      "cross_references": [
+        "1906-NEW_HEBRIDES_CONDOMINIUM"
+      ]
+    },
+    {
+      "id": "1890-013",
+      "title": "劳合社在伦敦成立",
+      "region": "英国（伦敦）",
+      "coordinates_approx": "51.51°N, 0.08°W",
+      "category": "economic",
+      "description": "1890年，劳合社（劳埃德保险市场）通过劳合社法案正式成立，规定了保险市场的法律框架。劳合社起源于爱德华·劳埃德的咖啡馆，几个世纪以来一直是海上保险的中心。保险业务的扩展反映了工业化经济的风险分散需求。",
+      "key_figures": [
+        "劳合社委员会"
+      ],
+      "sources": [
+        {
+          "name": "1890年劳合社法案（联合王国议会）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "雷蒙德·弗劳尔和迈克尔·W·琼斯，《劳合社：一部历史》（1974年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "议会法案提供了确切的成立日期。",
+      "cross_references": [
+        "1688-LLOYDS_COFFEE_HOUSE"
+      ]
+    },
+    {
+      "id": "1890-014",
+      "title": "爱达荷州和怀俄明州加入美国",
+      "region": "美国（爱达荷州和怀俄明州）",
+      "coordinates_approx": "44.07°N, 114.74°W",
+      "category": "political",
+      "description": "1890年7月3日，爱达荷州加入联邦；1890年7月10日，怀俄明州加入联邦，使美国州总数达到43个。怀俄明州的建州特别引人注目，因为它是作为第一个允许妇女投票的州进入联邦的（自1869年起），尽管它在国会中的实际影响力有限。这些州的加入完成了美国西部核心地区的巩固，给予该地区的采矿业、铁路和畜牧业利益在华盛顿的代表权。",
+      "key_figures": [
+        "本杰明·哈里森总统",
+        "乔治·L·尚普（爱达荷州首任州长）",
+        "弗朗西斯·E·沃伦（怀俄明州首任州长）"
+      ],
+      "sources": [
+        {
+          "name": "1890年7月3日和7月10日建州总统公告（《联邦公报》）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "H·W·布兰兹，《美国西部：一部历史》（2001年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "联邦记录中的官方建州日期精确无误。",
+      "cross_references": [
+        "1889-NORTH_SOUTH_DAKOTA_STATEHOOD"
+      ]
+    },
+    {
+      "id": "1890-015",
+      "title": "谢尔曼反托拉斯法在美国通过",
+      "region": "美国（华盛顿特区）",
+      "coordinates_approx": "38.89°N, 77.01°W",
+      "category": "legal",
+      "description": "1890年7月2日，本杰明·哈里森总统签署了谢尔曼反托拉斯法，这是美国第一部联邦反垄断立法。该法案以约翰·谢尔曼参议员命名，禁止'限制贸易'的合同、合并和共谋。该法案措辞宽泛，最初旨在调节控制铁路、石油、糖和钢铁的信托和垄断企业的权力。谢尔曼法案反托拉斯法的早期执行力度较弱——起诉标准苛刻，法院限缩解释——但它建立了后来进步时代和20世纪反垄断执法所依据的法律先例。",
+      "key_figures": [
+        "约翰·谢尔曼（俄亥俄州参议员，发起人）",
+        "本杰明·哈里森总统",
+        "首席大法官梅尔维尔·富勒（后来的关键解释者）"
+      ],
+      "sources": [
+        {
+          "name": "1890年7月2日谢尔曼反托拉斯法（26 Stat. 209）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "汉斯·B·索雷尔，《垄断的规制：从谢尔曼法到今天》（2001年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "威廉·勒特温，《法律与经济：美国反垄断的演变》（1985年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "立法记录精确无误。早期影响和执行情况有充分记载。",
+      "cross_references": [
+        "1895-US_v_EC_KNIGHT",
+        "1914-CLAYTON_ACT",
+        "1911-STANDARD_OIL_DECISION"
+      ]
+    },
+    {
+      "id": "1890-016",
+      "title": "麦金莱关税法案在美国通过",
+      "region": "美国（华盛顿特区）",
+      "coordinates_approx": "38.89°N, 77.01°W",
+      "category": "economic",
+      "description": "1890年10月1日，麦金莱关税法案由本杰明·哈里森总统签署成为法律，将美国进口关税提高到平均约49%的空前水平。由俄亥俄州众议员威廉·麦金莱倡导的法案保护了美国工业免受外国竞争，但通过提高消费者价格激起了公众的强烈反对。关税导致共和党在1890年中期选举中惨败——麦金莱本人在重新划分选区的威斯康星州失去席位——但其保护主义原则在共和党经济政策中仍然核心。",
+      "key_figures": [
+        "威廉·麦金莱（俄亥俄州众议员，法案发起人）",
+        "本杰明·哈里森总统",
+        "托马斯·B·里德（众议院议长）"
+      ],
+      "sources": [
+        {
+          "name": "1890年麦金莱关税法案（26 Stat. 567）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "美国国会记录，第五十一届国会，第一次会议（1890年）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "道格拉斯·A·欧文，《羽翼与棍棒：美国贸易政策的政治史》（2017年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "立法记录精确无误政治后果有充分历史记载。",
+      "cross_references": [
+        "1894-WILSON_GORMAN_TARIFF",
+        "1897-DINGLEY_TARIFF"
+      ]
+    },
+    {
+      "id": "1890-017",
+      "title": "文森特·梵高去世",
+      "region": "法国（瓦兹河畔奥维尔）",
+      "coordinates_approx": "49.07°N, 2.17°E",
+      "category": "cultural",
+      "description": "1890年7月29日，文森特·梵高在瓦兹河畔奥维尔因胸部枪伤去世，普遍认为是自杀（尽管一些学者提出了中弹的可能性）。37岁的他度过了最后几年，创作了800多幅画作和数千幅素描，但生前几乎完全不成功。他的弟弟西奥在文森特去世后仅六个月就去世了。梵高的名声在二十世纪飞速上升，使他成为历史上最具影响力的艺术家之一，其作品在拍卖会上创下最高价格。",
+      "key_figures": [
+        "文森特·梵高（画家）",
+        "西奥·梵高（弟弟，艺术商）",
+        "保罗·加谢医生（医生，照顾梵高最后时日）"
+      ],
+      "sources": [
+        {
+          "name": "文森特·梵高与西奥·梵高的通信，1890年",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "史蒂文·奈菲和格雷戈里·怀特·史密斯，《梵高：传》（2011年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "现场死亡记录，1890年7月29日",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "死亡记录和当代资料证实了死亡情况。自杀与他杀（被当地青少年枪击）的争论仍然存在，但自杀是共识。",
+      "cross_references": [
+        "1888-YELLOW_HOUSE",
+        "1889-STARRY_NIGHT"
+      ]
+    },
+    {
+      "id": "1890-018",
+      "title": "英德关于桑给巴尔和赫尔戈兰的条约",
+      "region": "欧洲/东非",
+      "coordinates_approx": "54.18°N, 7.89°E",
+      "category": "political",
+      "description": "1890年7月1日，英国和德国签署了赫尔戈兰-桑给巴尔条约，解决了他们在非洲的领土争端。德国从英国获得北海的赫尔戈兰岛，并承认英国对桑给巴尔和维图兰的保护国地位，以换取德国对坦噶尼喀、西南非洲和多哥兰的要求的承认。该条约巩固了欧洲在非洲的边界划分。",
+      "key_figures": [
+        "俾斯麦侯爵（德国首相）",
+        "索尔兹伯里侯爵（英国首相）"
+      ],
+      "sources": [
+        {
+          "name": "1890年7月1日英德条约文本",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "W·R·路易斯，《赫尔戈兰-桑给巴尔条约》（1962年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "条约文本和批准记录是确凿的公共记录。",
+      "cross_references": [
+        "1884-BERLIN_CONFERENCE"
+      ]
+    },
+    {
+      "id": "1890-019",
+      "title": "阿尔弗雷德·马歇尔发表《经济学原理》",
+      "region": "英国（剑桥）",
+      "coordinates_approx": "52.20°N, 0.12°E",
+      "category": "scientific",
+      "description": "阿尔弗雷德·马歇尔的《经济学原理》第一卷于1890年出版，迅速成为英语世界经济学的主导性教科书。马歇尔建立了新古典经济学的框架，引入了供给和需求、边际效用和均衡的概念。他的著作使经济学从历史研究和道德哲学转向数学模型，塑造了数十年的经济思维和政策。",
+      "key_figures": [
+        "阿尔弗雷德·马歇尔（剑桥大学经济学家）",
+        "玛丽·佩利·马歇尔（经济学家，阿尔弗雷德之妻，合作者）"
+      ],
+      "sources": [
+        {
+          "name": "阿尔弗雷德·马歇尔，《经济学原理》，第一卷（1890年）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "彼得·格罗维根，《阿尔弗雷德·马歇尔传》（1995年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "出版日期和文本本身记录完整。",
+      "cross_references": [
+        "1776-THE_WEALTH_OF_NATIONS",
+        "1936-GENERAL_THEORY"
+      ]
+    },
+    {
+      "id": "1890-020",
+      "title": "塞西尔·罗兹成为开普殖民地总理",
+      "region": "英国开普殖民地（开普敦）",
+      "coordinates_approx": "33.93°S, 18.42°E",
+      "category": "political",
+      "description": "1890年7月17日，塞西尔·罗兹成为开普殖民地的总理，巩固了他在南部非洲的商业和政治权力。罗兹利用他的职位推动英国从开普到开罗（'开普-开罗'）的扩张，加速了英国在赞比西河以北的领土吞并。",
+      "key_figures": [
+        "塞西尔·罗兹（总理，矿业大亨）"
+      ],
+      "sources": [
+        {
+          "name": "开普殖民地立法会议记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "罗伯特·罗特伯格，《创立者：塞西尔·罗兹与权力追求》（1988年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "政府记录提供了精确的任命日期。",
+      "cross_references": [
+        "1889-BSAC",
+        "1895-JAMESON_RAID"
+      ]
+    },
+    {
+      "id": "1890-021",
+      "title": "锡兰（斯里兰卡）茶叶产业扩展",
+      "region": "锡兰（英国王室殖民地）",
+      "coordinates_approx": "7.0°N, 80.5°E",
+      "category": "economic",
+      "description": "1890年代，锡兰的茶叶产业在英国殖民统治下显著扩展。在毁灭性的咖啡锈病摧毁了咖啡种植园后，种植园主转向茶叶。茶叶种植使用泰米尔契约劳工从印度南部招募而来，在恶劣条件下工作。到1900年，锡兰成为世界领先的茶叶出口国，茶叶重塑了该岛的经济。",
+      "key_figures": [
+        "詹姆斯·泰勒（锡兰茶叶种植先驱）",
+        "英国殖民种植园主"
+      ],
+      "sources": [
+        {
+          "name": "英国殖民办公室关于锡兰的年度报告，1890年代",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "德维卡·拉贾帕克塞，《斯里兰卡史》（2016年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "有充分记录的经济趋势。确切的开始年份因地区而异。",
+      "cross_references": [
+        "1890-INDIAN_TEA_ACT"
+      ]
+    },
+    {
+      "id": "1890-022",
+      "title": "甘地首次接触印度教经典",
+      "region": "英国（伦敦）",
+      "coordinates_approx": "51.51°N, 0.13°W",
+      "category": "cultural",
+      "description": "1890年在伦敦学习法律期间，年轻的莫罕达斯·卡拉姆昌德·甘地（后来被称为圣雄甘地）首次认真接触印度教经典，特别是《薄伽梵歌》。通过神智学家的著作和他的素食主义圈子，甘地开始将他印度教成长背景的信仰系统化，形成后来指导他在南非和印度行动的非暴力和公民不服从的概念。",
+      "key_figures": [
+        "莫罕达斯·K·甘地（学生，未来的政治领袖）",
+        "约在伦敦的神智学家和素食者群体"
+      ],
+      "sources": [
+        {
+          "name": "莫罕达斯·甘地，《我体验真理的故事》（1927-1929年自传）",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "拉马钱德拉·古哈，《甘地之前：印度史，1890-1914》（2014年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "甘地在他的自传中描述了这一经历，但正如许多传记细节一样，确切的日期有些模糊。",
+      "cross_references": [
+        "1893-GANDHI_SOUTH_AFRICA",
+        "1915-GANDHI_RETURNS_INDIA"
+      ]
+    },
+    {
+      "id": "1890-023",
+      "title": "饥饿和社会动荡在印度蔓延",
+      "region": "印度（英属印度）",
+      "coordinates_approx": "26.0°N, 80.0°E",
+      "category": "demographic",
+      "description": "1890年代初，英属印度发生严重饥荒和局部粮食短缺，导致广泛的社会动荡。殖民政府的经济政策——强调自由贸易和坚持税收——加剧了饥荒的严重性。",
+      "key_figures": [
+        "兰斯当勋爵（印度总督）",
+        "印度国大党早期领袖"
+      ],
+      "sources": [
+        {
+          "name": "英国殖民办公室关于印度饥荒的报告，1890年代",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "迈克·戴维斯，《维多利亚时代的大屠杀》（2001年）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "殖民记录肯定了饥荒条件，但死亡数字在各邦之间估算不同。",
+      "cross_references": [
+        "1876-GREAT_FAMINE",
+        "1943-BENGAL_FAMINE"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "传统的伤膝河'战役'叙事将事件描述为印第安人和骑兵之间的交战；现代学术承认它是大屠杀。美国边疆关闭的官方叙事回避了原住民权利和土地被系统性强制转让的问题。",
+  "historiographic_note": "关于1890年的历史记录以欧洲和美国的资料为主。关于伤膝河的拉科塔口述传统与当代军事记录已进行了富有成效的交叉对照。非洲事件主要通过殖民行政信函的视角记录。",
+  "graph_edges": [
+    {
+      "from": "1890-001",
+      "to": "1914-001",
+      "relation": "led_to",
+      "note": "俾斯麦的被解职和联盟体系的崩溃导致了法俄同盟和第一次世界大战"
+    },
+    {
+      "from": "1890-005",
+      "to": "1890-GHOST_DANCE",
+      "relation": "caused_by",
+      "note": "鬼舞运动是对强制同化、土地损失和野牛消失的直接回应"
+    },
+    {
+      "from": "1890-007",
+      "to": "1889-MEIJI_CONSTITUTION",
+      "relation": "caused_by",
+      "note": "明治宪法为第一届帝国主义会议创造了法律基础"
+    },
+    {
+      "from": "1890-008",
+      "to": "1893-FIRST_MATABELE_WAR",
+      "relation": "led_to",
+      "note": "先锋纵队入侵马绍纳兰使英国南非公司与恩德贝莱王国发生冲突"
+    },
+    {
+      "from": "1890-015",
+      "to": "1914-CLAYTON_ACT",
+      "relation": "led_to",
+      "note": "谢尔曼法的弱点导致后来对反垄断法的完善"
+    }
+  ],
+  "_meta": {
+    "processed_at": "2026-04-11T02:46:48.058012",
+    "model": "claude-sonnet-4-6",
+    "method": "claude-code-cli",
+    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
+  }
+}

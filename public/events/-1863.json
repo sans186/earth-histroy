@@ -1,0 +1,106 @@
+{
+  "year": -1863,
+  "year_label": "公元前1863年",
+  "era_context": "中青铜时代。古巴比伦时期处于最后几十年。埃及处于第二中间期。印度河流域文明处于成熟期。迈锡尼希腊处于早期青铜时代。这是一个政治分裂加剧、新兴区域强权（尤其是安纳托利亚的赫梯人）崛起的时期。",
+  "documentation_level": "匮乏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中亚",
+    "大洋洲",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-1863-001",
+      "title": "萨姆苏-迪塔纳统治进入最后阶段",
+      "region": "美索不达米亚（巴比伦尼亚）",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "萨姆苏-迪塔纳，古巴比伦王朝末代国王，在该王朝存在的最后几年统治。王国面临外部敌人和内部不稳定的日益加剧的压力。赫梯人向南扩张，其他区域势力挑战巴比伦权威。几年之内，王朝将崩溃，结束近三百年的巴比伦统治。",
+      "key_figures": [
+        "萨姆苏-迪塔纳（巴比伦国王）"
+      ],
+      "sources": [
+        {
+          "name": "巴比伦王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "行政泥板",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "萨姆苏-迪塔纳在位年代不确定，不同纪年体系相差可达100年。本年份按中纪年法惯例确定。",
+      "cross_references": [
+        "-1860-001",
+        "-1861-001",
+        "-1862-001"
+      ]
+    },
+    {
+      "id": "-1863-002",
+      "title": "赫梯人在安纳托利亚的军事行动",
+      "region": "安纳托利亚（赫梯帝国）",
+      "coordinates_approx": "35.5, 34.0",
+      "category": "military",
+      "description": "汉提里一世领导下的赫梯人正在发动军事行动，以巩固对安纳托利亚的控制并扩展疆域。这些行动是赫梯崛起为区域强权这一更广泛进程的一部分。赫梯人开始挑战巴比伦和埃及等旧强权在近东的主导地位。",
+      "key_figures": [
+        "汉提里一世（赫梯国王）"
+      ],
+      "sources": [
+        {
+          "name": "赫梯王室铭文及后世编年史",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "这一时期赫梯军事行动的具体日期和细节在当代文献中记载不详。叙述是根据后世赫梯文献和埃及记录重构的。",
+      "cross_references": [
+        "-1861-002"
+      ]
+    },
+    {
+      "id": "-1863-003",
+      "title": "印度河流域文明处于发展顶峰",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "印度河流域文明在这一时期达到顶峰，拥有高超的城市文化、广泛的贸易网络和先进技术。该文明发展出了独特的文字、标准化的度量衡和令人印象深刻的建筑成就。社会似乎相对平等，没有明显的纪念性神庙或宫殿，表明其社会组织形式不同于同时代的其他文明。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "印度河印章与铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明的物质文化在考古学上已充分记载。本年份的具体断代基于碳-14和地层分析。",
+      "cross_references": [
+        "-1860-003",
+        "-1861-003",
+        "-1862-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "该时期的编年争议很大。低纪年法将这些事件推迟约100年。赫梯在本年军事行动的程度和性质在当代文献中未见记载。印度河流域文明的社会组织方式存在争论；一些学者认为其等级结构比考古证据显示的更为严格。",
+  "historiographic_note": "本年份在当代文献中记载很少。我们的知识基于巴比伦的行政档案、印度河流域和埃及的考古证据以及后世的历史汇编。历史记录零散，严重依赖内在具有不确定性的考古断代方法。记录偏向于有文字的城市文明。",
+  "graph_edges": [
+    {
+      "from": "-1863-001",
+      "to": "-1850-001",
+      "relation": "led_to",
+      "note": "萨姆苏-迪塔纳的统治以古巴比伦王朝的崩溃告终"
+    }
+  ]
+}

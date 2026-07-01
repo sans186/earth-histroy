@@ -1,0 +1,105 @@
+{
+  "year": -882,
+  "year_label": "公元前882年",
+  "era_context": "亚述纳西尔帕二世处于其统治（公元前883-859年）的中早期，通过军事行动和宏伟建筑积极巩固亚述权力。近东正经历帝国扩张期。希腊处于古风时期，正从黑暗时代浮现。埃及在第三中间期处于分裂状态。中国的西周王朝接近其最后一百年。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "太平洋岛屿",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-882-001",
+      "title": "亚述纳西尔帕二世在黎凡特的军事行动",
+      "region": "亚述、叙利亚、黎凡特",
+      "coordinates_approx": "36.0, 40.0",
+      "category": "military",
+      "description": "亚述纳西尔帕二世继续其系统性军事行动，以扩大亚述对黎凡特城邦的控制。这些行动旨在征收贡品、建立附庸关系并镇压任何对亚述权威的抵抗。行动以使用压倒性军事力量和有策略地摧毁叛乱城市为特征。到公元前882年，亚述纳西尔帕二世已确立亚述对叙利亚北部和美索不达米亚大部分地区的统治地位。",
+      "key_figures": [
+        "亚述纳西尔帕二世（亚述国王）"
+      ],
+      "sources": [
+        {
+          "name": "亚述纳西尔帕二世的皇家年鉴",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "来自亚述和黎凡特遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "亚述纳西尔帕二世的行动在同时期铭文中有详细记载。",
+      "cross_references": [
+        "-880-001",
+        "-881-001"
+      ]
+    },
+    {
+      "id": "-882-002",
+      "title": "尼姆鲁德宫殿建筑群正在建造中",
+      "region": "亚述",
+      "coordinates_approx": "36.2, 43.2",
+      "category": "cultural",
+      "description": "在亚述纳西尔帕二世的指导下，尼姆鲁德西北宫殿的建造继续进行。宫殿正用精美的石浮雕和铭文装饰，记录国王的军事成就和神恩。宫殿同时作为皇家住所和行政权力中心，象征亚述帝国的权威。",
+      "key_figures": [
+        "亚述纳西尔帕二世（亚述国王）"
+      ],
+      "sources": [
+        {
+          "name": "尼姆鲁德的考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "宫殿建筑群在考古学上已充分证实。",
+      "cross_references": [
+        "-880-002",
+        "-881-002"
+      ]
+    },
+    {
+      "id": "-882-003",
+      "title": "西周王朝衰落",
+      "region": "中国",
+      "coordinates_approx": "34.3, 109.0",
+      "category": "political",
+      "description": "随着诸侯积累权力、周天子中央权威削弱，西周王朝继续逐渐衰落。到公元前882年，封建制度已根深蒂固，诸侯国日益独立行事。导致春秋时期形成的分裂进程正在进行中。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "《史记》（司马迁著）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "青铜器铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "总体轨迹已得到充分证实，但公元前882年的具体事件并未精确记载。",
+      "cross_references": [
+        "-880-003",
+        "-881-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现与所列事件相关的重大否定性证据。",
+  "historiographic_note": "公元前882年的文献记载与前两年模式相同：亚述丰富，其他地区稀少。历史记录严重偏向近东。",
+  "graph_edges": [
+    {
+      "from": "-882-001",
+      "to": "-881-001",
+      "relation": "contemporary_with",
+      "note": "亚述纳西尔帕二世的行动持续多个年份"
+    }
+  ]
+}

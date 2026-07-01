@@ -1,0 +1,115 @@
+{
+  "year": -2167,
+  "year_label": "公元前2167年",
+  "era_context": "埃及古王国晚期分裂加剧；阿卡德帝国处于鼎盛但面临来自古提人入侵和内部抵抗的日益增长的压力。印度河流域文明处于发展高峰。黎凡特和安纳托利亚处于早期青铜时代III期。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2167-001",
+      "title": "埃及古王国：州长巩固独立权力；王权极小",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "在第六王朝后期此时，行省总督实际上已成为独立统治者。州长的墓室铭文（例如来自阿斯旺、阿拜多斯、西乌特）记录了自己的军事远征、贸易使命和建筑项目，而不提及王权。孟菲斯的中央政府保有名义上的声望，但几乎没有实际权力。这标志着向第一中间期（约公元前2181–2055年）的过渡。",
+      "key_figures": [
+        "佩皮二世（法老，名义上的权威）"
+      ],
+      "sources": [
+        {
+          "name": "地方官员的墓室铭文和自传",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "地方精英建筑项目的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "过渡的确切年份不确定；此日期按惯例在更广泛的分裂时期内分配。",
+      "cross_references": [
+        "-2169-001",
+        "-2168-001"
+      ]
+    },
+    {
+      "id": "-2167-002",
+      "title": "阿卡德帝国：古提人压力增加；内部不稳定加剧",
+      "region": "美索不达米亚、扎格罗斯",
+      "coordinates_approx": "34.0, 33.0",
+      "category": "military",
+      "description": "纳拉姆辛的统治处于最后几年。铭文记录了持续的军事行动，但有证据表明维持对被征服领土的控制越来越困难。古提人，一个来自扎格罗斯的高地民族，开始渗透美索不达米亚领土。南部城邦（拉格什、乌玛）的内部叛乱日益频繁。帝国过度扩张，同时面临外部和内部压力。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德国王，统治后期）"
+      ],
+      "sources": [
+        {
+          "name": "纳拉姆辛王室铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "显示内部不稳的楔形文字行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治有充分记录；统治期内的定年精确到±2-3年。",
+      "cross_references": [
+        "-2169-002",
+        "-2168-002"
+      ]
+    },
+    {
+      "id": "-2167-003",
+      "title": "印度河流域文明：城市人口高峰和标准化贸易网络",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "印度河流域文明达到城市发展的最大程度。哈拉帕和摩亨佐-达罗等主要城市人口稠密，具有标准化的度量衡和印章。贸易网络从波斯湾延伸到美索不达米亚，可能到达黎凡特。由于文字未破译，该文明的内部组织仍未知，但物质文化表明一个高度组织化的，可能是神权统治或商业社会。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "考古发掘与调查（波塞尔、克诺耶）",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "印度河印章与度量衡",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明的存在和繁盛已由考古证实；绝对年代为±50-100年。",
+      "cross_references": [
+        "-2169-003",
+        "-2168-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "纳拉姆辛去世和古提人入侵开始的确切年代存在争议。一些学者将古提人入侵置于更早（约公元前2200年），而另一些则定于更晚（约公元前2150年）。‘阿卡德干旱’假说仍有争议。这一时期的埃及年表有±20-30年的不确定性。",
+  "historiographic_note": "这一年属于埃及文字记录稀少和美索不达米亚日益不稳定的时期。历史记录通过零散的资料重建。印度河流域在考古上已知，但在历史上不透明。偏向美索不达米亚和埃及的史料意味着其他地区（安纳托利亚、黎凡特、草原）的发展记录不足。",
+  "graph_edges": [
+    {
+      "from": "-2167-001",
+      "to": "-2150-FIRST_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "古王国分裂最终导致第一中间期"
+    },
+    {
+      "from": "-2167-002",
+      "to": "-2150-GUTIAN_INVASION",
+      "relation": "led_to",
+      "note": "阿卡德的过度扩张和古提人压力导致帝国崩溃"
+    }
+  ]
+}

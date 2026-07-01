@@ -1,0 +1,90 @@
+{
+  "year": -1042,
+  "year_label": "公元前1042年",
+  "era_context": "与公元前1040年和公元前1041年相同：铁器时代巩固、埃及第二十一王朝、中期亚述早期、黎凡特国家形成、希腊几何陶时期。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧与草原地带",
+    "东亚",
+    "中美洲"
+  ],
+  "events": [
+    {
+      "id": "-1042-001",
+      "title": "塔尼斯作为埃及的行政首都",
+      "region": "埃及（塔尼斯/下埃及）",
+      "coordinates_approx": "31.0, 31.3",
+      "category": "political",
+      "description": "在第二十一王朝期间，尼罗河三角洲的塔尼斯是法老的正式驻地和行政首都，而南部的底比斯实际上由阿蒙大祭司统治。这种权力划分是第二十一王朝的一个标志性特征。塔尼斯是法老宫廷所在地和下埃及皇家行政的中心。该城也是一个重要的宗教中心，拥有供奉阿蒙和其他神祇的神庙。到公元前1042年，这一安排已稳固建立，并将贯穿整个第二十一王朝。",
+      "key_figures": [
+        "第二十一王朝的法老（该年具体统治者不确定）"
+      ],
+      "sources": [
+        {
+          "name": "塔尼斯考古发掘（法国考古队，20世纪）",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "塔尼斯神庙铭文与浮雕",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "关于第二十一王朝埃及的历史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "塔尼斯作为第二十一王朝首都的角色已得到考古和铭文充分证实。公元前1042年属于塔尼斯重要地位的有文献记录的时期。",
+      "cross_references": [
+        "-1040-002",
+        "-1041-001"
+      ]
+    },
+    {
+      "id": "-1042-002",
+      "title": "腓尼基海上扩张",
+      "region": "腓尼基（黎凡特）",
+      "coordinates_approx": "33.8, 35.2",
+      "category": "economic",
+      "description": "到公元前11世纪早期，腓尼基城邦（尤其是推罗和西顿）正在扩展其遍布地中海的贸易网络。腓尼基商人和水手正在建立贸易站和殖民地，为10–8世纪主导地中海贸易的广泛腓尼基商业网络奠定基础。这次扩张得益于铁器时代的相对稳定，以及曾在青铜时代晚期占据主导地位的主要海军力量（如迈锡尼希腊人和赫梯人）的衰落。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "腓尼基定居点（推罗、西顿、比布鲁斯）的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "后世希腊和罗马文献（希罗多德、斯特拉波、普林尼）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "早期铁器时代腓尼基海上扩张的总体模式有考古支持。但个别贸易站的具体年代和扩张的逐年年表无法从现有证据中确定。公元前1042年被指定为腓尼基扩张早期阶段的一个代表性时间点。",
+      "cross_references": [
+        "-1040-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现与所列事件相矛盾的证据。",
+  "historiographic_note": "公元前1042年的历史记录仍然稀疏零碎。埃及资料提供了最详细的文献，但即使是这些资料通常也不按具体年份记录事件。腓尼基资料几乎完全依赖考古学；该年腓尼基城市没有存世的当代文字记录。腓尼基扩张的年代测定基于考古地层学和类型学，提供了宽泛的年代框架，但无法实现年度精确性。",
+  "graph_edges": [
+    {
+      "from": "-1042-001",
+      "to": "-1040-002",
+      "relation": "contemporary_with",
+      "note": "塔尼斯和底比斯代表了第二十一王朝的双重权力结构。"
+    },
+    {
+      "from": "-1042-002",
+      "to": "-1040-003",
+      "relation": "contemporary_with",
+      "note": "腓尼基扩张是更广泛的地中海和近东铁器时代经济重组的一部分。"
+    }
+  ]
+}

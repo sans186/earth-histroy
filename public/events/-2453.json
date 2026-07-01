@@ -1,0 +1,87 @@
+{
+  "year": -2453,
+  "year_label": "公元前2453年",
+  "era_context": "公元前三千纪中期。阿卡德帝国的纳拉姆辛正通过军事征服和行政改革巩固其帝国。埃及古王国处于最后阶段，第六王朝中央权威丧失。印度河流域文明处于成熟高峰。安纳托利亚与爱琴海地区的青铜时代社会正发展出以宫殿为中心的经济。",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "中美洲和南美洲",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-2453-001",
+      "title": "纳拉姆辛的神化与意识形态整合",
+      "region": "美索不达米亚，阿卡德",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "religious",
+      "description": "纳拉姆辛宣布自己为神，这在美索不达米亚王权中前所未有。他将自己的名字刻写为带有神圣限定符的形式，并创立了对自身的崇拜。这一意识形态创新旨在合法化他的统治，并使其区别于之前的阿卡德诸王。神化行为伴随着在整个帝国范围内推行阿卡德文化与宗教实践。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德国王）"
+      ],
+      "sources": [
+        {
+          "name": "带有神圣限定符的纳拉姆辛铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "后世美索不达米亚文献中提及纳拉姆辛神化的内容",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "对阿卡德意识形态的史学分析",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的神化在铭文中有良好证实。但其统治内这一意识形态转变的确切年代尚不确定。它被暂定为公元前2453年，作为一个代表性节点。",
+      "cross_references": []
+    },
+    {
+      "id": "-2453-002",
+      "title": "埃及古王国行政分裂",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "埃及法老的中央权威持续减弱，地方总督积聚起越来越多的权力与资源。皇家纪念碑的建造减缓，资源日益转向地方行政和宗教项目。这一时期标志着自古王国向第一中间期的过渡，以政治分裂和地方势力的兴起为特征。",
+      "key_figures": [
+        "珀辟二世（可能仍在位，但其在位时长存在争议）"
+      ],
+      "sources": [
+        {
+          "name": "行政纸草与铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "诺姆长自传",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "皇室营建减少的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "古王国的衰落有良好记载。但各统治者的精确在位年代及行政分裂的逐年进程尚不确定。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "纳拉姆辛神化的重要性已受到一些学者的重新评估，他们认为其革命性程度不如传统描绘，且可能在此前阿卡德实践中已有先例。此外，古王国的“崩溃”正日益被看作一种渐进的转型而非突然坍塌，在文化和行政上存在显著的延续。",
+  "historiographic_note": "公元前2453年这一单个年份在存世史料中并无直接记录。该时期的历史记录基于铭文、行政文书和考古证据，它们提供了大时代的概貌，但无法精细到具体年份。",
+  "graph_edges": [
+    {
+      "from": "-2453-001",
+      "to": "-2450-001",
+      "relation": "part_of",
+      "note": "意识形态整合伴随军事扩张而行。"
+    }
+  ]
+}

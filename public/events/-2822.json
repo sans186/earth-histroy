@@ -1,0 +1,99 @@
+{
+  "year": -2822,
+  "year_label": "公元前2822年",
+  "era_context": "青铜时代早期III期继续。埃及第五王朝由 Djedkare Isesi 统治。美索不达米亚处于早王朝III期。印度河流域文明处于成熟阶段。该年在有文献记载的地区处于相对文化和经济稳定时期，但埃及政治碎片化已开始显现。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东亚",
+    "美洲",
+    "北欧",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-2822-001",
+      "title": "Djedkare Isesi 统治——埃及第五王朝，持续的行政发展",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "Djedkare Isesi 的统治延续，维持古王国的制度。这一时期见证了地方行政的进一步发展和地方总督权力的增长。神庙和陵墓的建造仍在进行，向资源丰富地区（努比亚、西奈、红海沿岸）的远征得以组织。刻写于皇家陵墓中的金字塔铭文提供了该时代宗教信仰和丧葬习俗的证据。",
+      "key_figures": [
+        "Djedkare Isesi（法老）"
+      ],
+      "sources": [
+        {
+          "name": "第五王朝陵墓和神庙的铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "金字塔群的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Djedkare Isesi 的统治有充分证据，但公元前2822年的具体事件无记载。该条目描述其统治的一般特征。",
+      "cross_references": []
+    },
+    {
+      "id": "-2822-002",
+      "title": "美索不达米亚城邦竞争与贸易——早王朝III期",
+      "region": "美索不达米亚",
+      "coordinates_approx": "31.5, 46.0",
+      "category": "economic",
+      "description": "苏美尔城邦继续争夺贸易路线和资源的控制权。该时期的楔形文字文献记载了神庙管理、劳动力组织以及农业剩余管理。与印度河流域、波斯湾和黎凡特的贸易得到证实。乌鲁克城在如 Lugalzagesi（其崛起将在早王朝III期后期）等统治者的领导下开始扩大影响力。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "美索不达米亚城邦的楔形文字行政文献",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "贸易物品和防御工事的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "早王朝III期城邦竞争与贸易的一般模式有充分证据。公元前2822年的具体事件无记载。",
+      "cross_references": []
+    },
+    {
+      "id": "-2822-003",
+      "title": "印度河流域文明——成熟城市阶段，标准化生产",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "technological",
+      "description": "印度河流域文明延续其成熟阶段，有证据显示标准化的度量衡和手工业生产。陶器、印章和工具按照一致的标准生产，暗示集中控制或对共同规范的广泛遵循。文明文字仍未破译，但印章的普遍存在表明其用于贸易和行政。考古证据表明其在城市规划、排水和公共工程方面具有复杂的理解。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域发掘的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "印度河印章、度量衡器物和标准化器物",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明在该时期的特征已由广泛考古证据确认。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "未发现公元前2822年的具体反证。然而，第五王朝和早王朝III期的年代学仍存争论，根据使用的方法（王表、放射性碳定年、天文学计算）可能有±50—100年的变动。",
+  "historiographic_note": "公元前2822年的历史记录稀少，依赖考古证据、铭文和王表。没有留存下同时代的叙事记载。记录严重偏向精英、纪念性文献以及拥有书写系统的地区。这一年的世界大部分地区没有文献记录。",
+  "graph_edges": [
+    {
+      "from": "-2822-001",
+      "to": "-2823-001",
+      "relation": "contemporary_with",
+      "note": "Djedkare Isesi 统治的延续。"
+    }
+  ]
+}

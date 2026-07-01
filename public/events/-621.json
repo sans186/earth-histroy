@@ -1,0 +1,46 @@
+{
+  "year": -621,
+  "year_label": "公元前621年",
+  "era_context": "公元前6世纪早期继续：新巴比伦帝国达到鼎盛，希腊城邦发展其政治和法律制度，周朝处于春秋时期。这一阶段以成文法典的出现、美索不达米亚帝国权力的巩固以及欧亚大陆重要文化发展为标志。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-621-001",
+      "title": "尼布甲尼撒二世统治继续",
+      "region": "美索不达米亚",
+      "coordinates_approx": "32.54, 44.42",
+      "category": "political",
+      "description": "尼布甲尼撒二世在其统治早期（前605–前562年）继续巩固新巴比伦帝国。这一年属于军事扩张、行政重组和重大建设项目开始时期。",
+      "key_figures": [
+        "Nebuchadnezzar II (巴比伦国王)"
+      ],
+      "sources": [
+        {
+          "name": "《巴比伦编年史》",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "现存文献中没有记载公元前621年的具体事件。此条目反映了尼布甲尼撒统治更广泛的背景。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的否定性证据。然而，公元前621年缺乏具体文献记载，因此关于该年的任何历史主张大多是从更广泛模式推断而来。",
+  "historiographic_note": "公元前621年在同时代文献中记载很少。《巴比伦编年史》提供了一些记录，但该时期许多年份缺乏详细条目。希腊资料在这一日期很少。中国资料（《春秋》）存在，但对这一年没有详细记载。该年的历史记录严重依赖于从更广泛模式和后期编纂中的推断。",
+  "graph_edges": [
+    {
+      "from": "-621-001",
+      "to": "-605-001",
+      "relation": "part_of",
+      "note": "尼布甲尼撒二世统治和权力巩固的延续。"
+    }
+  ]
+}

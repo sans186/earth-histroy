@@ -1,0 +1,119 @@
+{
+  "year": -1397,
+  "year_label": "公元前1398年",
+  "era_context": "青铜时代晚期，延续图特摩斯三世统治下的埃及霸权、赫梯在安纳托利亚的巩固、迈锡尼宫殿繁荣以及中国商朝的稳定。国际贸易网络已建立，主要大国之间的外交关系通过信件和条约正式化。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "太平洋岛屿",
+    "中亚",
+    "南亚（这一时期文字记录有限）"
+  ],
+  "events": [
+    {
+      "id": "-1397-001",
+      "title": "图特摩斯三世对埃及帝国的行政巩固",
+      "region": "埃及、努比亚、黎凡特",
+      "coordinates_approx": "25.7°N, 32.6°E",
+      "category": "political",
+      "description": "图特摩斯三世正在巩固其对庞大埃及帝国的行政控制，建立官僚体系以管理从努比亚到叙利亚的领土。他的统治见证了复杂行政结构的发展，为后来的埃及王朝树立了榜样。公元前1397年属于这一制度发展时期。",
+      "key_figures": [
+        "图特摩斯三世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "埃及行政记录和神庙铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "图特摩斯三世的行政改革总体上记录良好，但公元前1397年的具体事件没有单独证实。",
+      "cross_references": [
+        "-1399-001",
+        "-1398-001"
+      ]
+    },
+    {
+      "id": "-1397-002",
+      "title": "赫梯在安纳托利亚和叙利亚的外交与军事活动",
+      "region": "安纳托利亚、叙利亚、黎凡特",
+      "coordinates_approx": "39.9°N, 34.6°E",
+      "category": "political",
+      "description": "赫梯帝国正进行外交谈判和军事战役，以维持其在安纳托利亚的势力范围并争夺埃及在叙利亚的主导地位。赫梯人在此期间发展自己的行政和军事体系。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自博阿兹柯伊的赫梯王室档案",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "赫梯政治活动通过考古证据得知，但公元前1397年的具体事件没有记载。",
+      "cross_references": [
+        "-1399-002"
+      ]
+    },
+    {
+      "id": "-1397-003",
+      "title": "迈锡尼宫殿文化与艺术发展",
+      "region": "希腊、爱琴海",
+      "coordinates_approx": "37.7°N, 23.0°E",
+      "category": "cultural",
+      "description": "迈锡尼文明处于艺术和文化发展的顶峰，宫殿中心生产精致的陶器、壁画和金属制品。宫殿作为政治、经济和宗教权威的中心，其建筑 sophistication 反映了迈锡尼社会的财富和组织能力。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "迈锡尼宫殿遗址（迈锡尼、皮洛斯、梯林斯）的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "迈锡尼宫殿文化在考古学上得到充分证实，但公元前1397年的具体发展没有记载。",
+      "cross_references": [
+        "-1399-003"
+      ]
+    },
+    {
+      "id": "-1397-004",
+      "title": "商代青铜技术与战争",
+      "region": "中国，黄河流域",
+      "coordinates_approx": "34.3°N, 114.3°E",
+      "category": "technological",
+      "description": "商朝正在生产精密的青铜武器和礼器，展示了先进的冶金知识。青铜技术是商代军事力量和宗教实践的核心。公元前1397年属于商代青铜技艺精通的时期。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "安阳商代青铜器文物的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "商代青铜技术在考古学上得到充分证实，但公元前1397年的具体发展没有记载。",
+      "cross_references": [
+        "-1399-004"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现特定的否定证据。该时期的年代学框架仍受学术争论，特别是埃及和近东事件的精确断年。",
+  "historiographic_note": "公元前1397年的历史记录仍然稀少，依赖考古证据以及埃及和赫梯帝国的行政记录。大多数文明在这一时期缺乏年份特定的文献。公元前1397年的“历史”主要是基于更广泛时期背景和考古证据的重建，而非具体事件的当代文字记录。",
+  "graph_edges": [
+    {
+      "from": "-1397-001",
+      "to": "-1398-001",
+      "relation": "part_of",
+      "note": "图特摩斯三世统治的延续"
+    },
+    {
+      "from": "-1397-002",
+      "to": "-1397-001",
+      "relation": "contemporary_with",
+      "note": "赫梯和埃及的活动同时发生且相互竞争"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "year": -2942,
+  "year_label": "公元前2942年",
+  "era_context": "青铜时代早期III期；古王国埃及（第四至第五王朝过渡）；早王朝III期美索不达米亚；成熟的印度河流域文明。与前两年相同的宽泛历史背景。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "黄河流域以外的东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2942-001",
+      "title": "孟卡拉统治继续；古王国埃及稳定",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "孟卡拉在位继续，无记载的重大中断。古王国保持中央集权和强大。吉萨的金字塔建造持续，代表了古王国巨型建筑的巅峰和法老的神圣权威。古王国的行政体系，以其围绕法老的等级制官僚机构，仍保持完整。",
+      "key_figures": [
+        "孟卡拉（法老，第四王朝）"
+      ],
+      "sources": [
+        {
+          "name": "埃及王表传统",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "吉萨考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "孟卡拉在位有据可查，但具体年份-2942年依据年代学惯例确定，存在固有不确定性。",
+      "cross_references": [
+        "-2944-001",
+        "-2943-001"
+      ]
+    },
+    {
+      "id": "-2942-002",
+      "title": "印度河流域文明——成熟期继续",
+      "region": "印度河流域",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "economic",
+      "description": "印度河流域文明保持成熟期，城市发展、贸易和农业生产持续。无考古证据显示此具体年份有重大中断。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河遗址考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该时期成熟的印度河流域文明有充分考古证据。",
+      "cross_references": [
+        "-2944-002",
+        "-2943-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的否定证据。",
+  "historiographic_note": "此年与-2943年一样，是稳定状况的延续，无记载的重大事件。该时期的历史记录稀疏且以事件为中心；没有重大中断或显著事件的年份在存世资料中大多不可见。",
+  "graph_edges": [
+    {
+      "from": "-2942-001",
+      "to": "-2943-001",
+      "relation": "part_of",
+      "note": "孟卡拉统治的延续"
+    }
+  ]
+}

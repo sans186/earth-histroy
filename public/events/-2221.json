@@ -1,0 +1,111 @@
+{
+  "year": -2221,
+  "year_label": "公元前2221年",
+  "era_context": "埃及古王国在第六王朝统治下继续衰落。美索不达米亚的阿卡德帝国在古提人入侵和内部不稳定的压力下正在分裂。印度河流域文明仍处于成熟的城市阶段。安纳托利亚、黎凡特和爱琴海的早期青铜时代社会正在发展日益复杂的贸易网络和设防定居点。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "太平洋岛屿"
+  ],
+  "events": [
+    {
+      "id": "-2221-001",
+      "title": "阿卡德帝国分裂持续；古提人压力增加",
+      "region": "美索不达米亚",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "阿卡德帝国的崩溃加速。来自扎格罗斯的古提军队继续袭击并占领美索不达米亚领土。沙尔卡利沙瑞统治下的中央权威进一步削弱。苏美尔地区的城邦，尤其是拉格什和乌鲁克，开始重新确立独立并建立地方王朝。这一年属于阿卡德衰落这一更广泛时期（沙尔卡利沙瑞统治约前2217—前2193年）。",
+      "key_figures": [
+        "沙尔卡利沙瑞（阿卡德国王）"
+      ],
+      "sources": [
+        {
+          "name": "《苏美尔王表》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "阿卡德遗址的考古毁灭层",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿卡德衰落的总体模式得到充分证实，但精确的逐年事件没有记录。该条目描述的是持续过程而非具体事件。",
+      "cross_references": [
+        "属于更广泛的阿卡德崩溃的一部分（公元前2254年至前2193年）",
+        "与-2221-002同时期"
+      ]
+    },
+    {
+      "id": "-2221-002",
+      "title": "印度河流域文明：城市发展与贸易持续",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "印度河流域文明继续其成熟阶段。城市中心保持标准化的规划、手工艺生产和长途贸易。印章和砝码表明商业网络精密。来自印度河的贸易货物到达美索不达米亚遗址，包括阿卡德时期的背景，证实了在阿卡德衰落期间贸易仍然活跃。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自印度河遗址的考古证据；美索不达米亚背景中的贸易商品",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈拉帕文明的成熟阶段在考古学上得到充分确证。与美索不达米亚的贸易联系通过实物证据得到证实。",
+      "cross_references": [
+        "与-2221-001（阿卡德衰落）同时期",
+        "属于哈拉帕文明的一部分（约公元前2600—前1900年）"
+      ]
+    },
+    {
+      "id": "-2221-003",
+      "title": "埃及：第六王朝持续衰落；地方自治加强",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "埃及第六王朝仍处于最后阶段。地方官继续积累财富和权力。王室建筑工程减少。中央集权的古王国国家结构继续削弱，为第一中间期铺平道路。",
+      "key_figures": [
+        "佩皮二世（法老）"
+      ],
+      "sources": [
+        {
+          "name": "埃及行政记录和地方铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "王室建筑减少的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "总体趋势得到充分证实；具体年份的事件没有记录。",
+      "cross_references": [
+        "属于第六王朝衰落的一部分（约公元前2278—前2184年）",
+        "与-2221-001同时期"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "现存的史料中没有关于公元前2221年具体事件的记载。以上条目描述的是持续的过程而非独立事件。这反映了该年份具体文献的稀少，尽管更广泛时期的历史记录相对充分。",
+  "historiographic_note": "该年属于重大历史变革时期，但缺乏具体的当代文献记录。关于公元前2221年的历史记录是通过更广泛的模式和考古证据重建的，而非基于具体年份的史料。年代精确度为±5—10年。",
+  "graph_edges": [
+    {
+      "from": "-2221-001",
+      "to": "-2220-001",
+      "relation": "contemporary_with",
+      "note": "阿卡德分裂持续"
+    },
+    {
+      "from": "-2221-002",
+      "to": "-2220-002",
+      "relation": "contemporary_with",
+      "note": "印度河流域文明延续"
+    }
+  ]
+}

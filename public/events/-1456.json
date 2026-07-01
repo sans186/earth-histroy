@@ -1,0 +1,111 @@
+{
+  "year": -1456,
+  "year_label": "公元前1457年",
+  "era_context": "青铜时代晚期，埃及图特摩斯三世统治中期。新王国正在巩固其领土成果。希腊的迈锡尼文明繁荣。中国商朝继续。这是东地中海相对稳定的时期，主要大国之间建立了外交和贸易网络。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中亚",
+    "中美洲"
+  ],
+  "events": [
+    {
+      "id": "-1456-001",
+      "title": "图特摩斯三世在黎凡特的行政巩固",
+      "region": "埃及、黎凡特、叙利亚",
+      "coordinates_approx": "25.7°N, 32.6°E",
+      "category": "political",
+      "description": "图特摩斯三世通过行政重组和任命埃及官员继续巩固对黎凡特领土的控制。附庸国体系正式化，定期征收贡赋并进行军事监督。这一时期见证了埃及在黎凡特行政中心的建立。",
+      "key_figures": [
+        "Thutmose III（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "卡纳克神庙铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "埃及行政记录（纸莎草，残片）",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "巩固过程在埃及资料中得到充分证实，但确切时间线难以确定。该过程可能发生在几年内。",
+      "cross_references": [
+        "-1457-002"
+      ]
+    },
+    {
+      "id": "-1456-002",
+      "title": "迈锡尼宫殿文化处于顶峰",
+      "region": "希腊、伯罗奔尼撒",
+      "coordinates_approx": "37.7°N, 23.0°E",
+      "category": "cultural",
+      "description": "迈锡尼、梯林斯和皮洛斯等迈锡尼宫殿中心正处于建筑和艺术发展的顶峰。线形文字B用于行政目的。广泛的贸易网络将迈锡尼世界与埃及、黎凡特和安纳托利亚连接起来。这一时期代表了晚期希腊底II-IIIA文化的顶峰。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "迈锡尼宫殿遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "来自克诺索斯和大陆遗址的线形文字B泥板",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "迈锡尼年代学通过地层考古学和与埃及年代学的交叉定年得到很好确立，尽管绝对年代仍存在±20–30年的变化。",
+      "cross_references": []
+    },
+    {
+      "id": "-1456-003",
+      "title": "中国商朝的持续",
+      "region": "中国、黄河流域",
+      "coordinates_approx": "34.0°N, 108.0°E",
+      "category": "cultural",
+      "description": "在此期间，商朝继续在中国统治。甲骨文用于占卜和记录。青铜工艺高度发展。商朝维持着复杂的行政体系，并从事与邻近地区的贸易。这一时期代表了商朝文化和政治发展的顶峰。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "甲骨文铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "商代遗址的考古证据（安阳等）",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "司马迁《史记》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "商朝的存在和文化实践通过考古证据和甲骨文得到充分证实。然而，商代内个别年份的精确定年仍不确定，根据使用的年代体系存在±20–50年的不确定性。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "未发现对所列事件的主要否定证据。然而，由于埃及和中国年代学的持续争论，该年份更广泛的年代框架仍不确定。图特摩斯三世统治时期和商朝的年代都存在重大不确定性，影响对公元前1457年事件的精确定年。",
+  "historiographic_note": "公元前1457年的历史记录由埃及资料主导，特别是神庙铭文。中国资料主要是甲骨文和后来的编纂。迈锡尼的证据主要是考古学。历史记录严重偏向于精英活动和重大事件。年代不确定性仍是该年份所代表的三大主要文明的主要局限。",
+  "graph_edges": [
+    {
+      "from": "-1456-001",
+      "to": "-1457-002",
+      "relation": "part_of",
+      "note": "行政巩固过程的延续"
+    },
+    {
+      "from": "-1456-002",
+      "to": "-1456-003",
+      "relation": "contemporary_with",
+      "note": "迈锡尼文明和商朝同时发展"
+    }
+  ]
+}

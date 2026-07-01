@@ -1,0 +1,74 @@
+{
+  "year": -1592,
+  "year_label": "公元前1593年",
+  "era_context": "青铜时代晚期，埃及第18王朝中期，阿蒙霍特普二世统治下。新王国处于领土顶峰。在安纳托利亚，赫梯帝国在图德哈里亚三世领导下巩固。在爱琴海，迈锡尼宫殿文化在希腊晚期IIIA期繁荣。在美索不达米亚，卡西特巴比伦主导。在中国，商朝处于中期（殷墟阶段）。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚（此时期的中国史料存在问题；甲骨文存在但精确断代困难）",
+    "中美洲"
+  ],
+  "events": [
+    {
+      "id": "-1592-001",
+      "title": "商代甲骨占卜实践",
+      "region": "中国（河南安阳）",
+      "coordinates_approx": "36.1, 114.3",
+      "category": "cultural",
+      "description": "在商代殷墟阶段，甲骨占卜是王室治理的核心实践。商王利用甲骨（肩胛骨和龟甲）进行占卜，就战争、农业和仪式做出决策。这些刻有占卜记录的甲骨提供了商代行政和宗教实践的证据。这种做法反映了占卜融入国家决策。",
+      "key_figures": [
+        "商王（此具体时期名称不确定）"
+      ],
+      "sources": [
+        {
+          "name": "安阳甲骨文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "安阳发掘的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "甲骨按考古年代属于殷墟阶段（传统年代约公元前1250–1050年），但无法精确到具体年份。此条目按惯例分配到此时期。",
+      "cross_references": []
+    },
+    {
+      "id": "-1592-002",
+      "title": "希腊晚期IIIA期迈锡尼宫殿文化",
+      "region": "爱琴海（希腊）",
+      "coordinates_approx": "37.7, 23.7",
+      "category": "cultural",
+      "description": "迈锡尼、梯林斯和皮洛斯的迈锡尼宫殿中心在希腊晚期IIIA期（约公元前1425–1390年）达到鼎盛。这些宫殿中心控制了区域贸易网络，维持了军事力量，并生产出独特的陶器和奢侈品。宫殿是行政、宗教和经济中心，主导了爱琴海地区。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "迈锡尼、梯林斯和皮洛斯发掘的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "陶器类型学与地层学",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "希腊晚期IIIA期通过陶器类型学和地层序列在考古学上年代明确。该时期传统上定于约公元前1425–1390年。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "商代和甲骨文的年代争议很大。一些学者将殷墟阶段置于更早（约公元前1300–1050年），而另一些则主张较晚的年代。这里使用的传统年代（约公元前1250–1050年）并未被普遍接受。此外，甲骨作为'占卜'与'记录'证据的解读在学者中存在争议。",
+  "historiographic_note": "这一年的文献极其稀少且地理上支离破碎。埃及和赫梯史料主导了历史记录，而中国和爱琴海的证据是考古而非文本。中国和爱琴海事件的年代依赖于考古类型学和地层学，其精确性不如文本年表。此时期世界上大部分地区没有史料。",
+  "graph_edges": [
+    {
+      "from": "-1592-002",
+      "to": "-1580-001",
+      "relation": "led_to",
+      "note": "迈锡尼宫殿文化在希腊晚期IIIA期和IIIB期持续发展"
+    }
+  ]
+}

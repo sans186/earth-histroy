@@ -1,0 +1,105 @@
+{
+  "year": -1359,
+  "year_label": "公元前1360年",
+  "era_context": "青铜时代晚期，埃及第十八王朝中期，阿蒙霍特普二世统治时期。苏皮卢利乌马一世统治下的赫梯帝国在安纳托利亚达到顶峰。迈锡尼文明在希腊繁荣。在中国，商朝处于成熟阶段。这一时期标志着东地中海和近东地区国际外交与贸易网络的高度发展。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（该特定年份的考古记录有限）",
+    "北欧（稀疏的书面记录）",
+    "中亚（有限的同时代文献）"
+  ],
+  "events": [
+    {
+      "id": "-1359-001",
+      "title": "阿蒙霍特普二世在黎凡特的军事行动",
+      "region": "埃及、黎凡特、叙利亚",
+      "coordinates_approx": "30.0,31.0",
+      "category": "military",
+      "description": "阿蒙霍特普二世在黎凡特进行军事行动，巩固埃及对附庸领土的控制。这些行动记录在卡纳克和阿马达的神庙铭文中，记载了对努比亚和亚洲领土的征服。战役加强了埃及在该地区的霸权并保障了贸易路线。阿马达石碑详细记载了军事胜利和贡品收集。",
+      "key_figures": [
+        "阿蒙霍特普二世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "阿蒙霍特普二世的阿马达神庙石碑",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "卡纳克神庙铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "同时代神庙铭文提供了直接证据。根据国王年代学，可安全地归属于阿蒙霍特普二世统治期。",
+      "cross_references": []
+    },
+    {
+      "id": "-1359-002",
+      "title": "苏皮卢利乌马一世统治下的赫梯巩固",
+      "region": "安纳托利亚、叙利亚、美索不达米亚",
+      "coordinates_approx": "35.5,33.0",
+      "category": "political",
+      "description": "苏皮卢利乌马一世继续扩张赫梯权力，巩固对叙利亚北部的控制并挑战埃及在该地区的利益。其统治标志着赫梯帝国权力的顶峰。赫梯国家机器高度组织，拥有复杂的行政和军事结构。这一时期见证了与埃及及其他势力的密集外交书信往来。",
+      "key_figures": [
+        "苏皮卢利乌马一世（赫梯大王）"
+      ],
+      "sources": [
+        {
+          "name": "赫梯王室年代记和往来信函",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "阿马尔那书信（埃及外交信函）",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "来自赫梯档案和埃及外交记录的广泛同时代文献。",
+      "cross_references": []
+    },
+    {
+      "id": "-1359-003",
+      "title": "迈锡尼宫殿文化鼎盛时期",
+      "region": "希腊、爱琴海",
+      "coordinates_approx": "37.7,23.0",
+      "category": "cultural",
+      "description": "迈锡尼文明在希腊正处于繁荣时期，迈锡尼、梯林斯和皮洛斯的宫殿中心作为行政和宗教枢纽运作。线形文字B用于行政目的。广泛的贸易网络将迈锡尼世界与埃及、黎凡特和安纳托利亚连接起来。宫殿建筑、陶器和宗教实践显示出复杂的组织。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "迈锡尼宫殿遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "克诺索斯和皮洛斯的线形文字B泥板",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "来自主要迈锡尼遗址发掘的大量考古证据。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "阿蒙霍特普二世统治的精确年代仍存在学术争议，一些年代学将其置于稍早或稍晚。该时期埃及与赫梯在叙利亚的权力关系复杂；尽管两国都声称主导，但实际领土控制可能比传统叙述所暗示的更加流动和有争议。一些学者质疑苏皮卢利乌马一世的主要叙利亚战役是否发生在该特定年份或稍晚。",
+  "historiographic_note": "公元前1360年的文献记载相对有力，得益于埃及神庙铭文、赫梯档案和迈锡尼考古证据。但记录严重偏向精英政治和军事史。视角主要来自宫殿档案和纪念碑铭文，这些往往强调王室成就并可能扭曲实际历史意义。非精英人群的经济和社会史几乎看不见。大多数事件的年代精度限制在±2-3年。",
+  "graph_edges": [
+    {
+      "from": "-1359-001",
+      "to": "-1359-002",
+      "relation": "contemporary_with",
+      "note": "阿蒙霍特普二世在黎凡特的战役与苏皮卢利乌马一世的扩张同时发生，造成该地区大国竞争时期。"
+    },
+    {
+      "from": "-1359-003",
+      "to": "-1359-001",
+      "relation": "contemporary_with",
+      "note": "迈锡尼文明与埃及和赫梯的主导同时存在；贸易网络连接这些文明。"
+    }
+  ]
+}

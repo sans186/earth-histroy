@@ -1,0 +1,53 @@
+{
+  "year": -2778,
+  "year_label": "公元前2778年",
+  "era_context": "埃及古王国（约公元前2686–前2181年）处于第五王朝。美索不达米亚处于早王朝三期。印度河流域文明处于成熟城市期。在中国，传统的夏朝时期延续，但无考古证实。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-2778-001",
+      "title": "美索不达米亚城邦冲突与贸易",
+      "region": "美索不达米亚（今伊拉克南部）",
+      "coordinates_approx": "31.5, 46.0",
+      "category": "military",
+      "description": "美索不达米亚的城邦，包括拉格什、乌玛、乌鲁克等，继续展开领土冲突和贸易。这些冲突源于对灌溉权、农耕土地和贸易路线的控制。早王朝三期以个别城邦的兴起和更复杂的政治军事组织为特征。",
+      "key_figures": [
+        "拉格什、乌玛及其他城邦的统治者（身份不确定）"
+      ],
+      "sources": [
+        {
+          "name": "拉格什及其他城邦的铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "苏美尔王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "美索不达米亚的冲突在同期铭文中有充分证实，但个别事件的精确年代不确定。该年份依惯例归入这一时期。",
+      "cross_references": [
+        "-2775-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "对于该年，没有具体事件被记载。该时期的历史记录稀少，严重依赖后世的王表和铭文。未发现与所列事件相矛盾的证据。",
+  "historiographic_note": "该年属于文字记录稀少的时期。历史记录以埃及和美索不达米亚的史料为主。该时期的年代可靠性较低，学者间分歧可达±100年或更多。",
+  "graph_edges": [
+    {
+      "from": "-2778-001",
+      "to": "-2775-003",
+      "relation": "part_of",
+      "note": "美索不达米亚城邦冲突的延续"
+    }
+  ]
+}

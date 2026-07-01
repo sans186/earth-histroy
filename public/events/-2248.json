@@ -1,0 +1,85 @@
+{
+  "year": -2248,
+  "year_label": "公元前2248年",
+  "era_context": "古王国埃及（第六王朝）处于佩皮二世统治的后期。阿卡德帝国在纳拉姆辛治下达到鼎盛。印度河流域文明（哈拉帕）处于成熟期。这一时期属于青铜时代，以复杂的城市文明和广泛的贸易网络为特征。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（书面记录有限）",
+    "北欧和欧亚草原（无书面记录）",
+    "中美洲（无书面记录；考古学年代不精确）"
+  ],
+  "events": [
+    {
+      "id": "-2248-001",
+      "title": "埃及佩皮二世——统治延续与行政挑战",
+      "region": "埃及（尼罗河谷）",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "佩皮二世继续他在古王国后期的统治。法老中央集权继续削弱，地方总督获得自主权。国家仍控制着主要宗教和行政中心，但纪念性建筑的修建继续衰退。前往努比亚和黎凡特的贸易探险仍在继续。官僚机构仍在运作，但行政压力显而易见。",
+      "key_figures": [
+        "佩皮二世（内弗卡拉）——埃及法老"
+      ],
+      "sources": [
+        {
+          "name": "行政记录与传记铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "都灵王表与曼涅托的《埃及史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "佩皮二世的统治有充分证据，但精确年代仍存争议。公元前2248年的归属是惯例性的，有 ±10–15 年的不确定性。",
+      "cross_references": [
+        "与 -2248-002（阿卡德的纳拉姆辛）同期"
+      ]
+    },
+    {
+      "id": "-2248-002",
+      "title": "阿卡德的纳拉姆辛——帝国巩固与军事行动",
+      "region": "美索不达米亚、黎凡特及周边地区",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "纳拉姆辛继续他的军事行动和帝国巩固。阿卡德帝国维持对美索不达米亚、黎凡特和安纳托利亚部分地区的控制。他被神化为活神的做法现已完全确立。贸易网络延伸至印度河流域和波斯湾。来自外部敌人的抵抗正在加剧，但帝国仍处于其最大版图。",
+      "key_figures": [
+        "纳拉姆辛——阿卡德国王"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德王室铭文与行政文书",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "纳拉姆辛胜利石碑",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治和战役在同时代文献中有充分记载。绝对年代依赖美索不达米亚年代学，有 ±50–100 年的不确定性。",
+      "cross_references": [
+        "与 -2248-001（埃及佩皮二世）同期"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未识别出针对所列事件的具体推翻性证据。",
+  "historiographic_note": "公元前2248年的历史记录稀少，且依赖埃及和美索不达米亚的书面资料。这一时期世界其他大多数地区没有书面记录。",
+  "graph_edges": [
+    {
+      "from": "-2248-001",
+      "to": "-2247-001",
+      "relation": "contemporary_with",
+      "note": "佩皮二世的统治以相似的动态延续。"
+    },
+    {
+      "from": "-2248-002",
+      "to": "-2247-002",
+      "relation": "contemporary_with",
+      "note": "纳拉姆辛的军事行动继续。"
+    }
+  ]
+}

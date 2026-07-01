@@ -1,0 +1,87 @@
+{
+  "year": -2806,
+  "year_label": "公元前2806年",
+  "era_context": "早期青铜时代III阶段，纳拉姆辛统治中期。阿卡德帝国继续统治美索不达米亚，但潜在压力变得愈加明显。埃及古王国处于最后几十年。印度河流域文明处于成熟期。这一时期代表阿卡德帝国稳定在系统性崩溃前的最后年头。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "中美洲",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-2806-001",
+      "title": "阿卡德帝国面临内部与外部压力",
+      "region": "美索不达米亚",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "尽管纳拉姆辛军事成功和行政改革，阿卡德帝国面临日益增加的压力。附属国变得不安，维持帝国的资源需求正使经济紧张。考古证据表明，由于环境压力（可能是干旱），农业产出可能一直在下降。这些压力将在一代内导致帝国崩溃，但在此时点，阿卡德权力似乎仍占主导地位。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德国王）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德皇家铭文和行政文书",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "聚落模式和资源利用的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "阿卡德帝国面临的压力是从考古证据和帝国崩溃的历史记录推断出的。这些压力的精确时间不确定。",
+      "cross_references": [
+        "与-2800-AKKADIAN_COLLAPSE相关"
+      ]
+    },
+    {
+      "id": "-2806-002",
+      "title": "埃及古王国走向终结",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "埃及第六王朝处于最后几年。中央权威已基本崩溃，地方总督实际上已独立。向第一中间期的过渡即将发生。这标志着古王国的终结，古王国是埃及历史上最稳定、文化最多产的时期之一。",
+      "key_figures": [
+        "佩皮二世（可能统治此时期，但其年代有争议）"
+      ],
+      "sources": [
+        {
+          "name": "埃及行政记录和陵墓铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "减少的纪念性建筑工程和聚落模式的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "古王国后期的年表极不确定。向第一中间期的过渡有充分证据，但个别年份的精确定年不可靠。",
+      "cross_references": [
+        "与-2808-002（古王国分裂）相关"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "环境压力（干旱）在多大程度上促成了阿卡德帝国的崩溃是有争议的。一些学者认为气候变化是主要驱动因素，另一些则强调政治和军事因素。阿卡德崩溃的断代也不确定；一些学者将其置于约公元前2200年，另一些则主张迟至约公元前2150年。佩皮二世统治的断代仍分歧极大，一些学者认为其统治远短于传统假设。",
+  "historiographic_note": "此年的历史记录稀疏，严重依赖阿卡德皇家铭文和埃及行政文书。考古证据中的聚落模式、资源利用和环境条件提供了重要背景，但解释仍有争议。更广阔的世界在现存史料中基本不可见。阿卡德帝国的崩溃是系统国家崩溃的最早例子之一，其原因和机制仍是学术争论的主题。",
+  "graph_edges": [
+    {
+      "from": "-2806-001",
+      "to": "-2800-AKKADIAN_COLLAPSE",
+      "relation": "led_to",
+      "note": "阿卡德帝国在此期间日益增加的压力直接导致了几年内的崩溃。"
+    },
+    {
+      "from": "-2806-002",
+      "to": "-2800-EGYPTIAN_FIRST_INTERMEDIATE",
+      "relation": "led_to",
+      "note": "古王国的崩溃在第一中间期达到顶峰。"
+    }
+  ]
+}

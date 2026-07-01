@@ -1,0 +1,87 @@
+{
+  "year": -1211,
+  "year_label": "公元前1211年",
+  "era_context": "青铜时代晚期，系统性崩溃前的最后一代人。埃及在麦伦普塔赫统治下；赫梯帝国处于末期；迈锡尼希腊处于LHIIIC早期阶段；东地中海海上劫掠、人口迁移和经济混乱加剧。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中国以外的东亚地区",
+    "中美洲",
+    "太平洋岛屿"
+  ],
+  "events": [
+    {
+      "id": "-1211-001",
+      "title": "麦伦普塔赫继续统治与巩固",
+      "region": "埃及（新王国）",
+      "coordinates_approx": "26.2,32.6",
+      "category": "political",
+      "description": "麦伦普塔赫继续统治埃及，应对利比亚入侵和海上劫掠者的威胁。他的统治代表了埃及在公元前12世纪末系统危机之前最后一个强大的中央集权时期。到此时，他正处于统治中期（约公元前1213–1203年）。",
+      "key_figures": [
+        "麦伦普塔赫（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "埃及行政纸莎草文献与神庙铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "埃及学年代学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "麦伦普塔赫的统治年代已确立。公元前1211年在其统治期内，但具体年份的事件很少能精确到年。",
+      "cross_references": [
+        "-1212-001"
+      ]
+    },
+    {
+      "id": "-1211-002",
+      "title": "赫梯帝国的最后几年",
+      "region": "安纳托利亚（赫梯帝国）",
+      "coordinates_approx": "35.5,33.9",
+      "category": "political",
+      "description": "赫梯帝国在苏庇路里乌玛二世统治下正在走向终结。来自哈图沙的考古证据显示日益加剧的混乱和失控。几年之内，帝国将彻底崩溃。其原因在学者间仍有争议。",
+      "key_figures": [
+        "苏庇路里乌玛二世（赫梯大王）"
+      ],
+      "sources": [
+        {
+          "name": "博阿兹柯伊档案中的赫梯楔形文字文献",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "哈图沙的考古地层学",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "苏庇路里乌玛二世的统治定在约公元前1207–1178年。公元前1211年在其统治期内，但无具体年份的事件记载。",
+      "cross_references": [
+        "-1212-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "关于约公元前1200年突然“青铜时代崩溃”的叙事日益受到质疑。近期学术研究认为衰退是持续数十年的渐进过程。外部入侵（海上民族）与内部因素（气候变化、饥荒、经济混乱）所起的作用仍存在争议。一些学者认为崩溃是地区性的而非系统性的。",
+  "historiographic_note": "公元前1211年文献记载贫乏。现有资料中未记录该年份任何具体事件。知识来自统治年表和考古地层学。历史记录以埃及和赫梯资料为主；其他文明几乎不可见。现存文献主要是行政和纪念性文本。该时期更广泛的背景比任何具体年份都更清晰。",
+  "graph_edges": [
+    {
+      "from": "-1211-001",
+      "to": "-1210-001",
+      "relation": "led_to",
+      "note": "麦伦普塔赫的统治延续"
+    },
+    {
+      "from": "-1211-002",
+      "to": "-1200-001",
+      "relation": "led_to",
+      "note": "赫梯崩溃将在未来11年内发生"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "year": 1113,
+  "year_label": "1113年",
+  "era_context": "12世纪初：十字军国家在黎凡特巩固；宋朝处于文化和技术的黄金时代；塞尔柱帝国统治近东；女真人在满洲巩固权力（金朝将于1115年建立）；伊斯兰学术在整个伊斯兰世界繁荣发展。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（有限的书面资料）",
+    "斯堪的纳维亚以外的北欧（稀疏文献）",
+    "前哥伦布时期美洲（无文字记录）"
+  ],
+  "events": [
+    {
+      "id": "1113-001",
+      "title": "黎凡特的十字军军事行动",
+      "region": "耶路撒冷王国及周边十字军领土",
+      "coordinates_approx": "31.9, 35.2",
+      "category": "military",
+      "description": "耶路撒冷国王鲍德温二世（1100–1118年在位）继续进行军事行动以扩大和巩固十字军的领土控制。1113年，鲍德温从事对抗穆斯林势力的战役并建立十字军防御工事。十字军正在巩固他们在第一次十字军东征后对黎凡特的控制。",
+      "key_figures": [
+        "鲍德温二世（耶路撒冷国王）",
+        "库尔特奈的若瑟兰一世（埃德萨伯爵）"
+      ],
+      "sources": [
+        {
+          "name": "沙特尔的高尔歇，《耶路撒冷史》",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "提尔的威廉，《教会史》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "这一时期的十字军军事活动有记载，但1113年的具体战役并不总是精确记载日期。",
+      "cross_references": [
+        "1114-001（十字军扩张）"
+      ]
+    },
+    {
+      "id": "1113-002",
+      "title": "宋朝文化和技术繁荣",
+      "region": "宋朝中国",
+      "coordinates_approx": "30.0, 115.0",
+      "category": "cultural",
+      "description": "北宋王朝继续其非凡的文化、技术和艺术成就时期。1113年，陶瓷、印刷、数学和天文学方面的进步持续进行。宋徽宗（1100–1126年在位）是艺术的主要赞助人。",
+      "key_figures": [
+        "宋徽宗（宋朝）"
+      ],
+      "sources": [
+        {
+          "name": "《宋史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "来自宋朝遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "宋朝文化成就记录充分。",
+      "cross_references": []
+    },
+    {
+      "id": "1113-003",
+      "title": "穆罕默德一世·塔帕尔统治下的塞尔柱帝国",
+      "region": "塞尔柱帝国（波斯、安纳托利亚、叙利亚）",
+      "coordinates_approx": "35.0, 50.0",
+      "category": "political",
+      "description": "穆罕默德一世·塔帕尔（1105–1118年在位）在巩固和文化繁荣的时期统治着大塞尔柱帝国。塞尔柱国家处于其领土范围和政治权力的顶峰。",
+      "key_figures": [
+        "穆罕默德一世·塔帕尔（塞尔柱苏丹）"
+      ],
+      "sources": [
+        {
+          "name": "《塞尔柱纪》及波斯历史编年史",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "这一时期的塞尔柱历史在波斯和伊斯兰资料中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1113-004",
+      "title": "女真人在满洲的巩固",
+      "region": "满洲",
+      "coordinates_approx": "45.0, 125.0",
+      "category": "political",
+      "description": "在1115年建立金朝之前的几年里，完颜阿骨打领导下的女真人正在巩固其政治和军事组织。到1113年，完颜阿骨打已确立自己为女真各部落的最高领袖。",
+      "key_figures": [
+        "完颜阿骨打（未来的金太祖）"
+      ],
+      "sources": [
+        {
+          "name": "《金史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "1115年之前女真权力的巩固有记载，但1113年的具体事件并不总是精确记载日期。",
+      "cross_references": [
+        "1115-001（金朝建立）"
+      ]
+    },
+    {
+      "id": "1113-005",
+      "title": "伊斯兰学术和文化繁荣",
+      "region": "伊斯兰世界（安达卢斯、波斯、埃及、叙利亚）",
+      "coordinates_approx": "30.0, 40.0",
+      "category": "cultural",
+      "description": "1113年，伊斯兰学术在整个伊斯兰世界繁荣发展。安达卢斯、波斯、埃及和叙利亚的学者在数学、天文学、医学、哲学和神学方面创作了重要著作。",
+      "key_figures": [
+        "伊本·巴哲（哲学家，生于约1095年）"
+      ],
+      "sources": [
+        {
+          "name": "伊斯兰历史编年史及传记辞典",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "这一时期伊斯兰学术的繁荣有充分记载。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现重大否定性证据。",
+  "historiographic_note": "1113年的文献记录程度中等。十字军历史通过同时代编年史有充分记载。宋朝历史记录丰富。塞尔柱和伊斯兰历史记录中等。女真人在金朝建立前的历史不如1115年后的历史记录充分。埃塞俄比亚、撒哈拉以南非洲和前哥伦布时期美洲这一年的历史在幸存文字资料中基本没有记载。",
+  "graph_edges": [
+    {
+      "from": "1113-001",
+      "to": "1114-001",
+      "relation": "contemporary_with",
+      "note": "十字军战役从1113年持续到1114年"
+    },
+    {
+      "from": "1113-004",
+      "to": "1115-001",
+      "relation": "led_to",
+      "note": "1113年女真人的巩固导致1115年正式建立金朝"
+    }
+  ]
+}

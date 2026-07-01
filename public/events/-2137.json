@@ -1,0 +1,109 @@
+{
+  "year": -2137,
+  "year_label": "前2137年",
+  "era_context": "埃及古王国处于最后几十年。阿卡德在纳拉姆辛治下仍处于帝国权力顶峰，尽管内部压力正在积聚。哈拉帕文明继续其成熟阶段。这一时期代表了在随后几十年重大转变之前一个明显稳定的时刻。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "大洋洲",
+    "东亚"
+  ],
+  "events": [
+    {
+      "id": "-2137-001",
+      "title": "古王国埃及：持续的地方自治和精英墓葬建造",
+      "region": "埃及（古王国，第六王朝）",
+      "coordinates_approx": "30.8°N, 31.1°E",
+      "category": "cultural",
+      "description": "地方精英继续建造带有详细自传铭文的精美墓葬，表明其拥有独立于法老中心的财富和权力。这些铭文的风格和内容揭示了一个地方统治者行使重要权威的社会。中心的纪念建筑（金字塔、神庙）仍在继续，但规模不如古王国早期宏伟。中央和地方资源之间的对比在考古记录中日益明显。",
+      "key_figures": [
+        "佩皮二世，埃及法老",
+        "地方诺马尔赫"
+      ],
+      "sources": [
+        {
+          "name": "地方遗址（阿斯旺、阿比多斯、西乌特）的墓葬铭文和浮雕",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "墓葬建造和装饰的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "趋势得到充分证实；具体到-2137年的定年是习惯性的而非精确的。",
+      "cross_references": [
+        "古王国衰亡的一部分"
+      ]
+    },
+    {
+      "id": "-2137-002",
+      "title": "阿卡德帝国：纳拉姆辛统治继续；内部压力出现",
+      "region": "美索不达米亚（阿卡德帝国）",
+      "coordinates_approx": "33.3°N, 44.4°E",
+      "category": "political",
+      "description": "纳拉姆辛的统治继续，但后来编年史和铭文的证据表明，内部叛乱和外部压力正在上升。来自扎格罗斯山脉的古提人在阿卡德边境活动日益频繁。被征服领土的叛乱需要反复的军事行动。帝国的资源被拉紧，尽管其军事力量依然强大。这一时期代表了帝国达到最大领土范围，但内部不稳定加剧。",
+      "key_figures": [
+        "纳拉姆辛，阿卡德国王"
+      ],
+      "sources": [
+        {
+          "name": "王室铭文和行政文献",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "苏美尔王表及后来编年史",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治得到充分证实，但内部压力的具体时间在同时代文献中没有精确定年。",
+      "cross_references": [
+        "先于阿卡德的崩溃约-2154到-2150"
+      ]
+    },
+    {
+      "id": "-2137-003",
+      "title": "哈拉帕文明：持续的城市繁荣和标准化",
+      "region": "印度河流域（现代巴基斯坦和印度西北部）",
+      "coordinates_approx": "27.0°N, 68.0°E",
+      "category": "cultural",
+      "description": "哈拉帕文明保持其典型特征：规划的城市中心、标准化的度量衡、手工艺专业化和广泛的贸易网络。考古证据未显示出任何重大干扰或衰落的迹象。文明看起来稳定和繁荣，没有迹象表明将在未来几个世纪导致其衰落的环境或社会压力。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "考古发掘和物质文化分析",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "成熟阶段哈拉帕文明的稳定性已通过考古学充分证实。-2137安全地落在这一时期。",
+      "cross_references": [
+        "成熟哈拉帕阶段的一部分（约公元前2600–1900年）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "没有针对所列事件的反证。然而，对阿卡德“内部压力”的解释是从后来文献和最终崩溃推断出来的；同时代铭文强调纳拉姆辛的军事成功和神圣地位而非困难。",
+  "historiographic_note": "文献仍然稀少且以精英为中心。埃及文献强调王室和地方精英视角；普通人的生活基本不可见。美索不达米亚文献同样偏向王室和行政记录。印度河流域文明缺乏可破译的文字，意味着理解完全基于物质文化，而物质文化存在多种解释。除这三大文明外，世界大部分地区没有文献。",
+  "graph_edges": [
+    {
+      "from": "-2137-001",
+      "to": "-2100-FIRST_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "佩皮二世去世后地方自治将急剧增加"
+    },
+    {
+      "from": "-2137-002",
+      "to": "-2154-AKKAD_COLLAPSE",
+      "relation": "precedes",
+      "note": "内部压力将导致约17年内阿卡德崩溃"
+    }
+  ]
+}

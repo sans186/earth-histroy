@@ -1,0 +1,167 @@
+{
+  "year": -415,
+  "year_label": "公元前415年",
+  "era_context": "古典希腊在伯罗奔尼撒战争（前431–前404年）期间。雅典处于民主领导之下，但与斯巴达及其盟友的长期冲突日益紧张。战争已进入第二个十年；雅典的帝国野心仍然高涨，尽管成本不断增加。同时，波斯帝国在阿尔塔薛西斯一世统治下维持在小亚细亚和黎凡特的地区霸权。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（这一时期有限文字记录）",
+    "希腊和罗马认知以外的北欧",
+    "印度次大陆内陆（稀疏的希腊资料）"
+  ],
+  "events": [
+    {
+      "id": "-415-001",
+      "title": "雅典西西里远征出发",
+      "region": "雅典、西西里",
+      "coordinates_approx": "37.97, 23.73 (雅典)；37.5, 14.0 (西西里)",
+      "category": "military",
+      "description": "雅典舰队由约134艘三层桨战船和5,100名重步兵组成，在尼基阿斯、亚西比德和拉马科斯的指挥下出发。这次大规模远征旨在征服叙拉古并统治西西里，从而确保粮食供应并扩张雅典权力。该战役代表了雅典帝国野心的顶峰，但最终将导致灾难性的失败。远征是在尼基阿斯警告危险的情况下发起的。",
+      "key_figures": [
+        "Nicias (将军)",
+        "Alcibiades (将军)",
+        "Lamachus (将军)"
+      ],
+      "sources": [
+        {
+          "name": "修昔底德,《伯罗奔尼撒战争史》卷六",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "普鲁塔克,《尼基阿斯传》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "普鲁塔克,《亚西比德传》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "修昔底德是伯罗奔尼撒战争的当代观察者，提供了远征出发和构成的详细记载。",
+      "cross_references": [
+        "-413-001 (Sicilian Expedition disaster)"
+      ]
+    },
+    {
+      "id": "-415-002",
+      "title": "亚西比德因渎神罪被召回雅典",
+      "region": "雅典、西西里",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "西西里远征途中，亚西比德被召回雅典，接受因其涉嫌参与赫耳墨斯神像破坏事件以及与厄琉息斯秘仪相关的渎神罪的审判。亚西比德没有返回，而是叛逃到斯巴达，成为斯巴达监察官的顾问。这代表了雅典的重大政治危机，并在关键时刻移除了远征中最能干的指挥官之一。",
+      "key_figures": [
+        "Alcibiades (将军、被告)",
+        "雅典公民大会"
+      ],
+      "sources": [
+        {
+          "name": "修昔底德,《伯罗奔尼撒战争史》卷六",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "普鲁塔克,《亚西比德传》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "安多基德斯,《论秘仪》",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "多个当代资料证实了亚西比德的召回和叛逃。指控涉及前415年的事件（赫耳墨斯破坏事件）。",
+      "cross_references": [
+        "-415-001 (Sicilian Expedition)"
+      ]
+    },
+    {
+      "id": "-415-003",
+      "title": "雅典的赫耳墨斯神像破坏事件",
+      "region": "雅典",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "religious",
+      "description": "在西西里远征前夕，雅典全城众多赫耳墨斯神像（神圣的界碑）遭到蓄意破坏——面部和生殖器被凿掉。这一事件引发了广泛的宗教恐慌，并被解释为远征的凶兆。肇事者从未被最终确定，尽管嫌疑落在亚西比德及其圈子上。该事件在雅典引发了一场政治迫害氛围，并促成了亚西比德的召回。",
+      "key_figures": [
+        "未知肇事者",
+        "Alcibiades (嫌疑人)"
+      ],
+      "sources": [
+        {
+          "name": "修昔底德,《伯罗奔尼撒战争史》卷六",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "安多基德斯,《论秘仪》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "普鲁塔克,《亚西比德传》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "破坏事件在当代资料中得到证实。肇事者身份和亚西比德的参与在历史上仍有争议。",
+      "cross_references": [
+        "-415-002 (Alcibiades' recall)"
+      ]
+    },
+    {
+      "id": "-415-004",
+      "title": "斯巴达对亚西比德叛逃的反应",
+      "region": "斯巴达",
+      "coordinates_approx": "37.08, 22.43",
+      "category": "political",
+      "description": "亚西比德抵达斯巴达并受到监察官的接见。他向斯巴达人提供战略建议，包括建议派遣一位将军前往西西里协助叙拉古对抗雅典，以及在阿提卡的德凯莱亚设防以直接威胁雅典。他的建议显著加强了斯巴达在战争中的战略。",
+      "key_figures": [
+        "Alcibiades (顾问)",
+        "斯巴达监察官"
+      ],
+      "sources": [
+        {
+          "name": "修昔底德,《伯罗奔尼撒战争史》卷六",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "普鲁塔克,《亚西比德传》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "修昔底德提供了亚西比德向斯巴达提供建议的详细记载。",
+      "cross_references": [
+        "-415-002 (Alcibiades' defection)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "赫耳墨斯破坏事件的年代定在前415年是传统的，基于修昔底德的叙述位置，但一些现代学者质疑是否所有归因于该事件的事件都发生在一个晚上，还是分散在多个场合。肇事者的身份尽管有古代推测，但确实未知。亚西比德在破坏事件中的实际角色在历史上未被证实，尽管他缺席被判有罪。现代学术强调，该事件可能被后期资料夸大其重要性，这些资料试图通过宗教亵渎来解释远征的失败。",
+  "historiographic_note": "前415年的历史记录异常丰富，得益于修昔底德对伯罗奔尼撒战争的详细当代记载。然而，修昔底德的叙述受他作为雅典人的视角以及他接触雅典资料的影响；斯巴达和西西里的观点经过他的解读过滤。赫耳墨斯破坏事件在后期资料（普鲁塔克、安多基德斯）中有相当大的戏剧性渲染，这可能扭曲了原始事件。破坏事件本身的考古证据有限。资料严重偏向政治和军事历史；经济和社会影响没有得到充分体现。",
+  "graph_edges": [
+    {
+      "from": "-415-001",
+      "to": "-413-001",
+      "relation": "led_to",
+      "note": "前415年的西西里远征在前413年以灾难性失败告终"
+    },
+    {
+      "from": "-415-002",
+      "to": "-415-004",
+      "relation": "led_to",
+      "note": "亚西比德的召回和叛逃直接导致他在斯巴达的顾问角色"
+    },
+    {
+      "from": "-415-003",
+      "to": "-415-002",
+      "relation": "led_to",
+      "note": "赫耳墨斯破坏事件引发调查，导致亚西比德被召回"
+    }
+  ]
+}

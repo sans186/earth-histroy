@@ -1,0 +1,90 @@
+{
+  "year": 484,
+  "year_label": "公元484年",
+  "era_context": "芝诺统治下的东罗马帝国继续应对宗教分裂以及来自波斯和巴尔干的外部威胁。基督一性论争议在《合一谕》（482年）中正式化，在教会内部造成了深刻的分裂。在中国，北魏孝文帝推行汉化政策。西方日耳曼王国在原罗马领土上巩固统治。这一时期代表了古典晚期世界向中世纪早期的转变。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中亚",
+    "美洲",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "484-001",
+      "title": "伊苏里亚叛乱与东罗马帝国的宗教紧张局势",
+      "region": "东罗马帝国（伊苏里亚和君士坦丁堡）",
+      "coordinates_approx": "37.5, 33.5",
+      "category": "political",
+      "description": "支持芝诺的伊苏里亚军事派别与文官贵族之间的紧张关系加剧。芝诺的《合一谕》加剧的一性论争议在军队和教会内部制造了派系。到484年，这些紧张局势已十分尖锐，但尚未爆发公开冲突。构成芝诺军事支柱的伊苏里亚人日益受到君士坦丁堡精英的憎恶。",
+      "key_figures": [
+        "芝诺（皇帝）",
+        "伊苏里亚军事指挥官"
+      ],
+      "sources": [
+        {
+          "name": "普罗柯比《战争史》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "忏悔者狄奥法尼斯《编年史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "没有具体事件定于484年。更广泛的紧张关系有充分证据，但具体年份484年未在史料中被特别标记。",
+      "cross_references": [
+        "482-001（《合一谕》）",
+        "491-002（伊苏里亚叛乱爆发）"
+      ]
+    },
+    {
+      "id": "484-002",
+      "title": "北魏行政改革继续",
+      "region": "中国北方（北魏）",
+      "coordinates_approx": "39.9042, 116.4074",
+      "category": "political",
+      "description": "孝文帝继续推行汉化政策，包括采用汉族行政实践、语言标准化以及在拓跋精英中推广汉族文化。这些改革加强了国家，但引发了保守拓跋贵族的抵抗，他们担心丧失民族认同和特权。",
+      "key_figures": [
+        "孝文帝（北魏皇帝）",
+        "文明太后"
+      ],
+      "sources": [
+        {
+          "name": "《魏书》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "《资治通鉴》",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "改革有详细记载，但没有具体事件定于484年。",
+      "cross_references": [
+        "485-002（更广泛的汉化背景）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "在幸存史料中没有重大历史事件具体定于484年。这一年未在拜占庭、中国或西方史料中被标记为重要。所描述的伊苏里亚紧张关系是从480–490年代的更广泛背景中推断出来的，而非具体定于484年的事件。",
+  "historiographic_note": "公元484年记载甚少。大部分信息来自后世编纂，撰写于事件发生数世纪之后。拜占庭史料聚焦于君士坦丁堡和宗教事务；中国史料偏向宫廷。没有当代记录幸存下来特别标记484年为重要年份。这一年的历史记录本质上是一个由更广泛趋势推断填补的空白。",
+  "graph_edges": [
+    {
+      "from": "484-001",
+      "to": "482-001",
+      "relation": "part_of",
+      "note": "宗教危机的延续"
+    },
+    {
+      "from": "484-002",
+      "to": "485-002",
+      "relation": "contemporary_with",
+      "note": "并行的汉化努力"
+    }
+  ]
+}

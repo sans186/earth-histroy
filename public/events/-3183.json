@@ -1,0 +1,111 @@
+{
+  "year": -3183,
+  "year_label": "公元前3183年",
+  "era_context": "青铜时代早期三期。埃及第四王朝继续在法老统治下；金字塔建造和中央集权管理处于全盛。美索不达米亚在早期王朝三期中仍分裂为相互竞争的城邦。印度河流域文明保持其成熟城市阶段。远距离贸易通过黎凡特和波斯湾的中介连接这些文明。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东亚（该时期中国年代学争议极大）",
+    "美洲",
+    "大洋洲",
+    "北欧（考古记录有限）"
+  ],
+  "events": [
+    {
+      "id": "-3183-001",
+      "title": "埃及第四王朝在哈夫拉或其继任者统治下延续",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "第四王朝继续其统治。该年份究竟落在哈夫拉还是其继任者（门卡乌拉）的统治期内，取决于所用的年代体系。第四王朝以纪念性金字塔建造、高度中央集权的官僚机构和广泛的贸易网络为特征。金字塔的建造代表了对劳动力和资源的大规模动员，显示出一个稳定、组织良好的国家。",
+      "key_figures": [
+        "哈夫拉或门卡乌拉（法老，第四王朝）"
+      ],
+      "sources": [
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "吉萨及其他金字塔遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "第四王朝年代仍存在争议。将公元前3183年归于某位具体法老只是惯例性的，不确定性为±10–20年。",
+      "cross_references": [
+        "延续自-3184-001"
+      ]
+    },
+    {
+      "id": "-3183-002",
+      "title": "印度河流域贸易网络与城市管理",
+      "region": "印度河流域，南亚",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "economic",
+      "description": "印度河流域文明保持与美索不达米亚、波斯湾和黎凡特广泛的贸易网络。在美索不达米亚遗址发现了带有印度河文字的印章，表明有规律的商业接触。哈拉帕和摩亨佐达罗等城市中心管理着复杂的行政系统，标准化度量衡和建筑规划就是明证。文明的经济似乎基于农业、手工业和贸易，而非军事征服或纪念性宗教建筑。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址和美索不达米亚遗址（如乌尔、拉格什）的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "在美索不达米亚发现的印度河印章",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河-美索不达米亚贸易的存在有充分的考古证明。年代确定在±50–100年内。",
+      "cross_references": [
+        "与埃及和美索不达米亚文明同时代"
+      ]
+    },
+    {
+      "id": "-3183-003",
+      "title": "早期王朝三期美索不达米亚：城邦竞争与灌溉",
+      "region": "美索不达米亚",
+      "coordinates_approx": "31.5, 46.0",
+      "category": "economic",
+      "description": "美索不达米亚城邦争夺对灌溉系统和农业土地的控制。这一时期的楔形文字铭文记载了关于水权、领土边界和贡赋的争端。灌溉农业的发展支撑了不断增长的城市人口，但也引发了竞争和冲突。拉格什、乌玛、乌鲁克和乌尔等城邦是权力与文化的重要中心。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "拉格什、乌玛及其他城邦的楔形文字铭文",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "苏美尔王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "早期王朝三期城邦竞争的总体模式证据充分。公元前3183年的具体事件未见记载；该年份是惯例性赋值。",
+      "cross_references": [
+        "属于早期王朝三期时段"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未见公元前3183年的具体事件记载。将这一年归于特定法老或统治者只是惯例性的，且不确定。苏美尔王表的年代仍存争议。未破译的印度河文字阻碍了直接的历史叙事。",
+  "historiographic_note": "与公元前3184年一样，公元前3183年的史料稀少，严重依赖后世文献和考古。没有同时代文字记录专门记载该年的事件。历史记录偏向纪念性文化和有文字社会。无文字地区存在重大空白。",
+  "graph_edges": [
+    {
+      "from": "-3183-001",
+      "to": "-3184-001",
+      "relation": "contemporary_with",
+      "note": "第四王朝统治的延续"
+    },
+    {
+      "from": "-3183-002",
+      "to": "-3184-002",
+      "relation": "contemporary_with",
+      "note": "印度河流域成熟期的延续"
+    }
+  ]
+}

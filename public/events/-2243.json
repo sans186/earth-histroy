@@ -1,0 +1,120 @@
+{
+  "year": -2243,
+  "year_label": "2243 BCE",
+  "era_context": "埃及古王国最后阶段的延续（第六王朝）。纳拉姆辛的阿卡德帝国在美索不达米亚保持领土极盛。哈拉帕文明在印度河流域继续其成熟阶段。这一时期主要文明表面稳定，但潜在压力（资源枯竭、气候变化、行政紧张）开始积累。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "太平洋岛屿"
+  ],
+  "events": [
+    {
+      "id": "-2243-001",
+      "title": "佩皮二世统治的持续；埃及的行政记录",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "佩皮二世的统治仍在继续。这一时期的行政记录（如官员哈克胡夫的自传）记载了前往努比亚和南方的贸易远征，表明国家组织和资源开采活动活跃。然而，这些记录也暗示了地方总督日益增强的区域自治，这一趋势将加速进入第一中间期。佩皮二世统治期间个别远征的准确年代位置不确定。",
+      "key_figures": [
+        "佩皮二世——埃及法老",
+        "哈克胡夫——官员和探险家"
+      ],
+      "sources": [
+        {
+          "name": "哈克胡夫的自传铭文（阿斯旺）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "古王国遗址的行政记录和涂鸦",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "佩皮二世的统治传统上定在约公元前2278-2184年，但-2243年是根据惯例分配的。其统治期间的个别事件无法精确年代。",
+      "cross_references": [
+        "延续-2244-001"
+      ]
+    },
+    {
+      "id": "-2243-002",
+      "title": "纳拉姆辛的战役与行政巩固",
+      "region": "美索不达米亚，黎凡特",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "纳拉姆辛继续阿卡德帝国的军事和行政巩固。楔形文字记录记载了帝国划分为行省和任命总督的情况。与印度河流域、波斯湾和安纳托利亚的贸易网络得以维持。然而，后期的证据表明，资源需求和军事过度扩张开始给体制带来压力。",
+      "key_figures": [
+        "纳拉姆辛——阿卡德王"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德行政楔形文字泥板",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "王室铭文",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治定在约公元前2254-2218年。-2243年在此范围内，不确定性为±20-30年。",
+      "cross_references": [
+        "延续-2244-002"
+      ]
+    },
+    {
+      "id": "-2243-003",
+      "title": "哈拉帕贸易网络与城市生活",
+      "region": "印度河流域，南亚",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "economic",
+      "description": "哈拉帕文明维持着广泛的贸易网络。考古证据（印章、度量衡、陶器）表明与美索不达米亚、波斯湾和中亚有商业往来。城市中心继续运作，使用标准化的计量和交换系统。在考古记录中，文明在此阶段没有表现出压力或衰退的迹象。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "提及梅卢哈的美索不达米亚贸易记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈拉帕文明的存在和贸易网络通过考古学已得到确认。-2243年处于成熟阶段（约公元前2600-1900年）内。",
+      "cross_references": [
+        "延续-2244-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的具体反驳证据。然而，这一时期的整体年代学仍有争议，-2243年是根据惯例而非精确定年分配的。",
+  "historiographic_note": "具体事件的角度而言，这一年记录匮乏。这一时期的历史记录依赖于行政记录、铭文和考古地层，而非叙述性历史。史料严重偏向精英活动（王室铭文、行政记录），并未反映普通人的生活。哈拉帕文明缺乏破译的文字，限制了对政治和社会组织的理解。",
+  "graph_edges": [
+    {
+      "from": "-2243-001",
+      "to": "-2244-001",
+      "relation": "contemporary_with",
+      "note": "佩皮二世统治的延续"
+    },
+    {
+      "from": "-2243-002",
+      "to": "-2244-002",
+      "relation": "contemporary_with",
+      "note": "纳拉姆辛统治的延续"
+    },
+    {
+      "from": "-2243-003",
+      "to": "-2244-003",
+      "relation": "contemporary_with",
+      "note": "哈拉帕成熟阶段的延续"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "year": -63,
+  "year_label": "公元前63年",
+  "era_context": "罗马共和国晚期，庞培在东方巩固权力，同时罗马内部的紧张局势升级。前三头同盟虽仍是非正式的，但已是主导政治力量。在犹地亚，哈斯蒙尼王朝正分裂为内战。托勒密王朝统治下的埃及仍不稳定。中国处于汉宣帝统治下的西汉时期。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "-63-001",
+      "title": "庞培干预犹地亚并围攻耶路撒冷",
+      "region": "犹地亚、黎凡特",
+      "coordinates_approx": "31.8°N, 35.2°E",
+      "category": "military",
+      "description": "庞培干预了哈斯蒙尼兄弟阿里斯托布鲁斯二世与许尔坎努斯二世之间的内战，两人均声称拥有犹地亚王位。庞培围攻耶路撒冷三个月并攻占该城，建立了罗马对犹地亚的宗主权。他进入圣殿的至圣所，这一行为震惊了犹太观察者，并被记录为一种严重的亵渎。许尔坎努斯二世被确认为大祭司而非国王，犹地亚成为罗马的附属国。这标志着哈斯蒙尼独立地位的实质性终结，以及罗马直接介入犹太事务的开端。",
+      "key_figures": [
+        "庞培大帝",
+        "阿里斯托布鲁斯二世（哈斯蒙尼国王）",
+        "许尔坎努斯二世（哈斯蒙尼大祭司）",
+        "安提帕特（以土买顾问）"
+      ],
+      "sources": [
+        {
+          "name": "约瑟夫斯，《犹太古史》第十四卷",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "约瑟夫斯，《犹太战记》第一卷",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "阿庇安，《叙利亚战争》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "耶路撒冷围城及庞培的干预在多部古代史料中有充分记载。日期可靠。",
+      "cross_references": [
+        "承接自-64-001（庞培征服叙利亚）；导致-37-001（希律崛起）"
+      ]
+    },
+    {
+      "id": "-63-002",
+      "title": "喀提林阴谋被发现并镇压",
+      "region": "罗马",
+      "coordinates_approx": "41.9°N, 12.5°E",
+      "category": "political",
+      "description": "卢基乌斯·塞尔吉乌斯·喀提林纳（喀提林），一个破产的贵族和失败的政客，组织了一场推翻罗马共和国的阴谋。计划包括纵火、刺杀元老以及发动军事起义。西塞罗时任执政官，通过线人发现阴谋，并在元老院发表了著名的反喀提林演说。喀提林逃离罗马，后在伊特鲁里亚的皮斯托亚被击败并战死。阴谋被粉碎，西塞罗未经审判处决了几名同谋者——这一有争议的举动后来被用来攻击他。阴谋揭示了共和国深刻的社会紧张局势以及被剥夺财产的精英阶层的绝望。",
+      "key_figures": [
+        "西塞罗（执政官）",
+        "喀提林（阴谋者）",
+        "小加图（元老）",
+        "安东尼乌斯（同僚执政官）"
+      ],
+      "sources": [
+        {
+          "name": "西塞罗，《反喀提林演说》（原始演说）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "撒路斯提乌斯，《喀提林阴谋》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "普鲁塔克，《西塞罗传》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "喀提林阴谋是共和国晚期记载最充分的事件之一，在同时代演说和近当代历史记述中均有记载。",
+      "cross_references": []
+    },
+    {
+      "id": "-63-003",
+      "title": "庞培完成东方战役并返回意大利",
+      "region": "东地中海、罗马",
+      "coordinates_approx": "35°N, 35°E",
+      "category": "military",
+      "description": "庞培完成了对东方领土的重组，开始返回意大利。他征服或重组了从安纳托利亚到埃及的广大地区。其军事威望达到顶峰，并积累了巨额财富和忠诚的军团。他的回归将改变罗马的权力平衡，并加剧十年内导致内战的紧张局势。",
+      "key_figures": [
+        "庞培大帝"
+      ],
+      "sources": [
+        {
+          "name": "阿庇安，《米特拉达梯战争》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "普鲁塔克，《庞培传》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "庞培的回归在古代史料中有充分记载。",
+      "cross_references": [
+        "承接自-64-001和-64-002"
+      ]
+    },
+    {
+      "id": "-63-004",
+      "title": "西汉宣帝统治延续；汉朝权力巩固",
+      "region": "中国",
+      "coordinates_approx": "34°N, 109°E",
+      "category": "political",
+      "description": "汉宣帝（公元前74年-前49年在位）继续其统治，这一时期以强大的中央集权、对匈奴的军事征伐以及推崇儒家学术为特征。汉廷稳定繁荣，对中亚的军事远征取得成功。这一时期见证了汉朝在东亚的权力和影响力的鼎盛。",
+      "key_figures": [
+        "汉宣帝"
+      ],
+      "sources": [
+        {
+          "name": "司马迁《史记》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "班固《汉书》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "汉宣帝的在位年代在中国历史记录中明确记载。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "耶路撒冷围城的确切日期在某些史料中有时记为公元前64年，这反映了古代年表的不确定性以及庞培在叙利亚和犹地亚战役之间的重叠。现代学术普遍将围城定在公元前63年。西塞罗未经审判处决喀提林同谋者一事在当时就存在争议；后来受凯撒派影响的一些史料批评西塞罗的行为违宪，这一指控后来困扰着西塞罗的政治生涯。",
+  "historiographic_note": "公元前63年的历史记录对罗马和黎凡特事件而言是丰富的，但严重依赖于罗马史料。约瑟夫斯对犹地亚事件的记述是主要来源，但写于一个多世纪之后，并反映了犹太人对罗马行动的视角。喀提林阴谋因西塞罗自己的演说而记录得异常详尽，使其成为该时期记载最充分的事件之一，尽管西塞罗的记述显然带有党派色彩。这一时期的中国史料可靠，但侧重于汉朝内部事务而非外部联系。",
+  "graph_edges": [
+    {
+      "from": "-63-001",
+      "to": "-37-001",
+      "relation": "led_to",
+      "note": "庞培建立对犹地亚的罗马宗主权为希律崛起奠定了基础"
+    },
+    {
+      "from": "-63-002",
+      "to": "-49-001",
+      "relation": "led_to",
+      "note": "喀提林阴谋的镇压及西塞罗的作用加剧了导致内战的紧张局势"
+    },
+    {
+      "from": "-63-003",
+      "to": "-60-001",
+      "relation": "led_to",
+      "note": "庞培的回归及其威望促成了前三头同盟的形成"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "year": -2204,
+  "year_label": "公元前2204年",
+  "era_context": "阿卡德帝国纳拉姆辛统治时期；古埃及王国（第六王朝）衰落；哈拉帕文明处于成熟阶段；夏朝传统上定于此时期。4.2千年气候事件仍在持续，对欧亚大陆和非洲产生古气候影响。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "大洋洲",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-2204-001",
+      "title": "阿卡德帝国纳拉姆辛统治；军事行动与巩固",
+      "region": "美索不达米亚、黎凡特",
+      "coordinates_approx": "32.5, 44.0",
+      "category": "military",
+      "description": "纳拉姆辛的统治继续。阿卡德帝国保持对美索不达米亚的控制，并将影响力扩展到黎凡特及周边地区。军事行动持续进行，以镇压叛乱和抵御外部压力。帝国的行政机构继续运作，现存文献和铭文证明了这一点。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德国王）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德铭文和行政文献",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "阿卡德时期遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治有充分证据，但精确的逐年年代不确定。公元前2204年是根据惯例分配的。",
+      "cross_references": [
+        "阿卡德帝国时期的一部分"
+      ]
+    },
+    {
+      "id": "-2204-002",
+      "title": "埃及第六王朝；古王国权威的衰落",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "埃及第六王朝继续衰落。中央权威进一步削弱。地方总督积累权力和资源。尼罗河泛滥仍然不稳定。国家组织大型项目的能力实际上已经停止。埃及正向第一中间期过渡。",
+      "key_figures": [
+        "佩皮二世（第六王朝法老）"
+      ],
+      "sources": [
+        {
+          "name": "埃及王表和墓葬铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "指示尼罗河泛滥减少的古气候记录",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "第六王朝的衰落有充分文献记载，但精确的年代日期仍不确定。",
+      "cross_references": [
+        "与阿卡德衰落同期"
+      ]
+    },
+    {
+      "id": "-2204-003",
+      "title": "哈拉帕文明处于成熟阶段；城市持续繁荣",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "印度河流域文明仍处于成熟阶段。城市中心继续繁荣。贸易网络保持活跃。标准化的重量和度量衡表明有复杂的经济管理。此时没有明显的重大扰动。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈拉帕文明的持续繁荣有充分的考古证据。",
+      "cross_references": [
+        "更广泛的哈拉帕成熟阶段的一部分"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现针对所列事件的具体反驳证据。",
+  "historiographic_note": "公元前2204年在历史文献中并没有明确的记载。这一时期的大部分事件都被归属于更宽泛的年代范围。现存文献主要偏重于美索不达米亚和埃及。其他地区在书面记录中要么代表性不足，要么完全缺失。公元前2204年至公元前2201年这四年在历史记录中基本无法区分；它们代表的是一个逐渐衰落和受压的时期，而非彼此独立的、可确定日期的事件。",
+  "graph_edges": [
+    {
+      "from": "-2204-001",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "纳拉姆辛的统治持续，走向阿卡德崩溃"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "year": -2878,
+  "year_label": "公元前2878年",
+  "era_context": "早期青铜时代III。纳拉姆辛治下的阿卡德帝国继续统治美索不达米亚和黎凡特。埃及古王国（第六王朝）处于最后几十年，中央权威持续瓦解。印度河流域文明仍处于成熟城市阶段。在中国，夏朝或正在兴起，或仍属传说；考古证据有争议。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "大洋洲和太平洋",
+    "美洲",
+    "中亚和草原地带（有限的文字记录；稀疏的考古定年）"
+  ],
+  "events": [
+    {
+      "id": "-2878-001",
+      "title": "阿卡德行政整合与贸易网络",
+      "region": "美索不达米亚、黎凡特、安纳托利亚、波斯湾",
+      "coordinates_approx": "北纬34.5°，东经43.0°",
+      "category": "economic",
+      "description": "在纳拉姆辛统治期间，阿卡德帝国维持并扩展连接美索不达米亚与印度河流域、波斯湾和安纳托利亚的贸易网络。阿卡德商人和官员在帝国各地建立贸易站和行政中心。此时期的楔形文字行政文献记录了货物的移动、贡品的收集和劳动力的组织。帝国的经济体系以中央再分配资源为基础，国王控制着木材、金属和奢侈品等主要贸易商品。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德王）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德行政文献和经济记录（来自美索不达米亚的楔形文字泥板）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "来自美索不达米亚和印度河流域的贸易物品和商人印章的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "关于阿卡德贸易网络的史学共识（利维拉尼《古代近东》；波瑟尔《印度文明》）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿卡德贸易网络的存在有行政文献和考古证据充分证实。然而，无法重建具体交易的精确年代和贸易模式的逐年演变。约定俗成地将公元前2878年归于这一时期。",
+      "cross_references": []
+    },
+    {
+      "id": "-2878-002",
+      "title": "印度河流域文明持续城市发展",
+      "region": "印度河流域，南亚",
+      "coordinates_approx": "北纬27.0°，东经71.0°",
+      "category": "cultural",
+      "description": "印度河流域文明继续其成熟阶段，有证据表明城市中心持续建设、维护和扩展。考古证据显示这是一个稳定、长久的文明，具有一致的建筑标准、手工业专门化和远距离贸易。该文明缺乏大型宗教或军事建筑，加上标准化度量衡的证据，表明其社会组织是基于商业和行政原则，而非神权或军国主义原则。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古发掘与调查",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "关于印度河流域社会组织的史学共识（麦金托什《印度文明》；波瑟尔《印度文明》）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明的存在和大致年代学已充分确立。但由于未被破译的文字记录缺失，无法将具体事件和发展归于个别年份。",
+      "cross_references": []
+    },
+    {
+      "id": "-2878-003",
+      "title": "埃及古王国第六王朝持续碎片化",
+      "region": "埃及",
+      "coordinates_approx": "北纬26.0°，东经31.0°",
+      "category": "political",
+      "description": "第六王朝继续其逐渐衰落的进程。地方总督（诺姆首领）积累财富和权力，他们日渐精美的陵墓和自传式铭文即为明证。早期古王国特有的中央再分配体系正在弱化，地方精英获得了自主权。这一过程不是突然崩溃，而是从法老中心到地方省份的权力天平逐渐转移的过程。",
+      "key_figures": [
+        "佩皮二世（埃及法老，传统在位约公元前2278-2184年）"
+      ],
+      "sources": [
+        {
+          "name": "诺姆首领的墓壁自传铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "关于古王国衰落的史学共识（霍农、克劳斯、沃伯顿）",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "古王国衰落的总体趋势在考古上显而易见，但具体年份的精确断代仍有不确定性。±100-150年的不确定性是现实的。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "对所列事件没有发现具体的反面证据。但应理解，古王国衰落的大叙事是一个渐进过程，而非戏剧性崩溃，且绝对年代仍有争议。",
+  "historiographic_note": "此年份的文献记载稀疏，地理上偏向美索不达米亚和埃及。阿卡德和埃及的书面记录以精英为中心，不能提供全面的社会图景。印度河流域文明未被破译的文字限制了历史重建。地中海和近东以外的区域基本没有历史记录。",
+  "graph_edges": [
+    {
+      "from": "-2878-001",
+      "to": "-2879-001",
+      "relation": "contemporary_with",
+      "note": "阿卡德贸易网络在纳拉姆辛统治期间继续存在。"
+    }
+  ]
+}

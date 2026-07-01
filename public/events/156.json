@@ -1,0 +1,76 @@
+{
+  "year": 156,
+  "year_label": "156年",
+  "era_context": "罗马帝国在安东尼·庇护统治下处于其统治中期（138–161年）。东汉王朝在汉桓帝统治下持续衰败。贵霜帝国达到鼎盛。这一时期地中海世界相对稳定，尽管安东尼瘟疫将在十年内爆发。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "大洋洲"
+  ],
+  "events": [
+    {
+      "id": "156-001",
+      "title": "安东尼·庇护统治；无重大事件记载",
+      "region": "罗马帝国",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "公元156年处于安东尼·庇护统治时期（138–161年），罗马帝国相对和平稳定。该年份没有重大军事战役、自然灾害或政治危机的记载。皇帝维持现状，专注于行政巩固和边防防御。这是罗马帝国史上最和平的时期之一。",
+      "key_figures": [
+        "安东尼·庇护（罗马皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "《奥古斯都史》（安东尼·庇护传）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "卡西乌斯·狄奥，《罗马史》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "公元156年没有具体事件记载。该描述基于安东尼·庇护统治的总体模式。",
+      "cross_references": [
+        "161-001（安东尼·庇护之死）"
+      ]
+    },
+    {
+      "id": "156-002",
+      "title": "东汉：宦官专权与党派冲突",
+      "region": "东汉王朝，中国",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "汉桓帝在位期间（146–168年）持续以宦官专权和打压士大夫势力为特征。公元156年没有重大事件记载，但汉朝国家的结构性衰退仍在持续。权力平衡已决定性地转向宫廷内廷和宦官，削弱了儒家官僚体系和中央权威。",
+      "key_figures": [
+        "汉桓帝（东汉皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "《后汉书》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "公元156年没有具体事件记载。",
+      "cross_references": [
+        "160-003（汉朝行政危机）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现反证。事件缺失反映了现存史料偏向记载危机而非日常行政。",
+  "historiographic_note": "公元156年的文献记载稀疏。现存史料对安东尼·庇护统治期间各年份的细节记载极少。偏向记载危机和重大事件的倾向意味着相对稳定的年份在历史记录中代表性不足。对于东汉，该时期的各年份史料同样稀疏。",
+  "graph_edges": [
+    {
+      "from": "156-001",
+      "to": "161-001",
+      "relation": "led_to",
+      "note": "安东尼·庇护的统治于公元161年结束"
+    }
+  ]
+}

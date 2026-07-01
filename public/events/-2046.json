@@ -1,0 +1,112 @@
+{
+  "year": -2046,
+  "year_label": "公元前2046年",
+  "era_context": "与公元前2045年相同：古王国埃及衰落，阿卡德帝国在古提人压力下分裂，印度河流域文明处于成熟阶段，夏朝（如果历史存在）处于早期或建立前阶段。青铜时代近东和爱琴海地区继续发展。",
+  "documentation_level": "稀缺",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "大洋洲",
+    "中亚（书面记录有限）"
+  ],
+  "events": [
+    {
+      "id": "-2046-001",
+      "title": "阿卡德帝国：持续分裂和古提人压力",
+      "region": "美索不达米亚",
+      "coordinates_approx": "34.5, 42.5",
+      "category": "military",
+      "description": "阿卡德帝国继续衰落。古提人入侵持续，美索不达米亚城邦重申地方自治。末代阿卡德国王沙尔卡利沙里的统治特征是对古提人的军事行动和内部叛乱。此年份处于阿卡德极度薄弱的时期，但确切的年表事件从现存史料中看不清楚。",
+      "key_figures": [
+        "沙尔卡利沙里（统治期约公元前2217–2193年）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德王室铭文",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "苏美尔王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "美索不达米亚遗址的考古地层",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "阿卡德衰落的总体时期已得到充分证实，但逐年事件没有记载。此条目描述的是更广泛的背景，而非一个具体的可确定日期的事件。",
+      "cross_references": [
+        "-2045-001"
+      ]
+    },
+    {
+      "id": "-2046-002",
+      "title": "印度河流域文明：贸易网络和城市发展",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "印度河流域文明延续其广泛的贸易网络。考古证据显示与美索不达米亚城邦、波斯湾和中亚的持续交流。标准化的度量衡促进了商业。城市中心保持着其先进的基础设施。此年份没有记载的具体事件，但从物质遗存可以明显看出该文明的经济活力。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址和美索不达米亚遗址（例如乌尔、拉格什）的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "在美索不达米亚发现的印度河流域印章",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域与美索不达米亚贸易的存在和范围已通过考古学充分证实。将此时点归于成熟哈拉帕阶段是常规的。",
+      "cross_references": [
+        "-2045-002"
+      ]
+    },
+    {
+      "id": "-2046-003",
+      "title": "埃及：第六王朝衰落持续",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "第六王朝继续衰落。中央权威依然薄弱，地方总督巩固权力。金字塔建造继续，但反映了资源的减少。此年份的确切事件在现存史料中没有记载，但更广泛的分裂趋势是清晰的。",
+      "key_figures": [
+        "佩皮二世（如果仍在位）"
+      ],
+      "sources": [
+        {
+          "name": "王表和行政记录",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "地方遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "此年份没有记载的具体事件。本条目描述了已知趋势的延续。",
+      "cross_references": [
+        "-2045-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "对于公元前2046年的事件没有具体的反驳证据，因为没有记载具体事件。更广泛的背景（阿卡德衰落、印度河流域贸易、埃及分裂）如公元前2045年所述保持不变。",
+  "historiographic_note": "此年份几乎没有记载的事件。这一时期的历史记录很薄，逐年精确度无法实现。上述条目描述了跨越数十年的考古和文本证据中明显的宏观趋势的延续。年代不确定性仍然很高。",
+  "graph_edges": [
+    {
+      "from": "-2046-001",
+      "to": "-2045-001",
+      "relation": "contemporary_with",
+      "note": "阿卡德衰落的延续"
+    }
+  ]
+}

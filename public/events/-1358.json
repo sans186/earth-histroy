@@ -1,0 +1,113 @@
+{
+  "year": -1358,
+  "year_label": "公元前1359年",
+  "era_context": "青铜时代晚期国际体系持续。埃及在阿蒙霍特普二世统治下保持着帝国影响力。苏皮卢利乌马一世领导下的赫梯帝国正在巩固其作为近东主要强国的地位。迈锡尼希腊继续其以宫殿为中心的文明。这是东地中海相对稳定的时期，尽管埃及与赫梯势力范围之间存在潜在紧张。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中亚",
+    "东亚（该特定年份的同时代书面记录有限）"
+  ],
+  "events": [
+    {
+      "id": "-1358-001",
+      "title": "埃及在努比亚行政控制的持续",
+      "region": "埃及、努比亚",
+      "coordinates_approx": "20.0,32.0",
+      "category": "political",
+      "description": "阿蒙霍特普二世维持着对努比亚领土的严格控制，在纳帕塔和其他战略地点建立了行政中心。努比亚的黄金、象牙和其他资源流向埃及。库什总督代表法老管理这些领土。这一时期见证了埃及在努比亚殖民行政的巩固。",
+      "key_figures": [
+        "阿蒙霍特普二世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "埃及行政记录和神庙铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "努比亚遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "总体模式有充分记录；该年具体事件记录较少。",
+      "cross_references": [
+        "-1359-001"
+      ]
+    },
+    {
+      "id": "-1358-002",
+      "title": "赫梯与埃及的外交书信往来",
+      "region": "安纳托利亚、埃及",
+      "coordinates_approx": "35.0,30.0",
+      "category": "political",
+      "description": "赫梯宫廷与埃及之间的外交书信继续，反映这两个超级大国之间的复杂关系。统治者之间交换的信件涉及领土边界、贸易协定和相互承认势力范围。这一外交活动在阿马尔那书信档案和赫梯记录中均有记载。",
+      "key_figures": [
+        "苏皮卢利乌马一世（赫梯大王）",
+        "阿蒙霍特普二世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "阿马尔那书信",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "赫梯王室往来信函",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "该时期的外交活动有充分证据，但具体信函可能难以精确确定到该年。",
+      "cross_references": [
+        "-1359-002"
+      ]
+    },
+    {
+      "id": "-1358-003",
+      "title": "迈锡尼在东地中海的贸易扩展",
+      "region": "希腊、东地中海",
+      "coordinates_approx": "37.0,25.0",
+      "category": "economic",
+      "description": "迈锡尼商人将其贸易网络扩展到整个东地中海，交换陶器、橄榄油和葡萄酒以换取锡、铜和奢侈品。考古证据显示迈锡尼陶器出现在埃及、黎凡特和安纳托利亚的遗址中。这种贸易对迈锡尼经济至关重要并促进了文化交流。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "迈锡尼陶器分布的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "记录贸易商品的线形文字B泥板",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该时期迈锡尼贸易网络的广泛考古证据。",
+      "cross_references": [
+        "-1359-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "该时期埃及对努比亚的控制程度可能不如石碑铭文所示那样绝对；当地努比亚精英很可能保持了显著自治。阿马尔那书信虽然提供了宝贵的外交信息，但难以精确确定到个别年份，一些学者质疑所有归入阿蒙霍特普二世统治期的信件是否确实属于该时期。迈锡尼贸易的重要性在现代学术中可能相对于其他经济体系被夸大。",
+  "historiographic_note": "公元前1359年的历史记录严重依赖埃及和赫梯的精英来源，这些来源强调政治和军事事务。努比亚和迈锡尼的视角在书面记录中基本缺失。阿马尔那书信提供了宝贵的 diplomatic 信息但难以精确确定年份。该时期的考古证据比更早年份丰富，但仍对非精英生活提供有限洞察。年代不确定性仍为±2-3年。",
+  "graph_edges": [
+    {
+      "from": "-1358-001",
+      "to": "-1358-002",
+      "relation": "contemporary_with",
+      "note": "埃及对努比亚的控制与对赫梯的外交关系是埃及帝国战略的平行方面。"
+    },
+    {
+      "from": "-1358-003",
+      "to": "-1358-002",
+      "relation": "contemporary_with",
+      "note": "迈锡尼贸易网络在青铜时代晚期国际关系的更广泛背景下运作。"
+    }
+  ]
+}

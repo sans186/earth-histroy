@@ -1,0 +1,150 @@
+{
+  "year": 913,
+  "year_label": "913年",
+  "era_context": "10世纪早期继续以欧亚大陆的政治分裂和重组为特征。伊斯兰世界正在经历挑战阿拔斯权威的地区王朝的兴起。在欧洲，封建制度正在巩固，拜占庭帝国在君士坦丁七世统治下处于军事和文化复兴的时期。东亚仍由竞争的地区势力分裂。这是一个介于古典帝国和中世纪国家之间的过渡时代。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（书面资料非常有限）",
+    "主要王国以外的北欧",
+    "中亚草原（文献稀少）",
+    "美洲（没有书面记录）"
+  ],
+  "events": [
+    {
+      "id": "913-001",
+      "title": "君士坦丁七世出生紫室成为拜占庭帝国唯一皇帝",
+      "region": "拜占庭帝国",
+      "coordinates_approx": "41.0°N, 29.0°E",
+      "category": "political",
+      "description": "君士坦丁七世出生紫室，于913年正式成为拜占庭帝国的唯一皇帝，尽管他自912年起已是名义皇帝。他的统治（913–959年）以母亲佐伊·卡波诺普西纳的摄政和后来的亲自统治为标志。君士坦丁七世被视为学者和艺术赞助人，他的统治与拜占庭马其顿文艺复兴同时发生，这是一个文化和军事复兴的时期。他委托撰写了关于帝国行政和历史的重要著作。",
+      "key_figures": [
+        "君士坦丁七世出生紫室（拜占庭皇帝，在位912–959年）",
+        "佐伊·卡波诺普西纳（摄政，君士坦丁七世之母）"
+      ],
+      "sources": [
+        {
+          "name": "《狄奥法内斯续编》（拜占庭编年史）",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "君士坦丁七世，《帝国行政论》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "君士坦丁七世，《礼仪书》",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "君士坦丁七世于913年获得唯一帝权在拜占庭资料中有详细记载。该日期高度可信。",
+      "cross_references": [
+        "先于君士坦丁七世的文化和军事成就（913–959年）",
+        "属于拜占庭马其顿文艺复兴（9–11世纪）"
+      ]
+    },
+    {
+      "id": "913-002",
+      "title": "后梁太宗皇帝继续统治中国中原",
+      "region": "中国（中原）",
+      "coordinates_approx": "34.0°N, 115.0°E",
+      "category": "political | military",
+      "description": "后梁太宗皇帝（在位912–923年）继续统治中国中原。913年，后梁与邻国（特别是北汉和南唐）处于军事冲突中。后梁以军事力量为特征，但也存在内部不稳定。",
+      "key_figures": [
+        "朱友珪/后梁太宗（在位912–923年）"
+      ],
+      "sources": [
+        {
+          "name": "《资治通鉴》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "《五代史》官修史书",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "后梁在913年的统治在中国历史资料中有详细记载。",
+      "cross_references": [
+        "属于五代十国时期（907–960年）"
+      ]
+    },
+    {
+      "id": "913-003",
+      "title": "安达卢斯后倭马亚哈里发国在阿卜杜勒·拉赫曼三世统治下继续巩固",
+      "region": "安达卢斯（伊比利亚半岛）",
+      "coordinates_approx": "37.5°N, -3.5°W",
+      "category": "political | military",
+      "description": "阿卜杜勒·拉赫曼三世继续巩固和扩大后倭马亚在安达卢斯的权力。913年，他正处于加强后倭马亚国家并将其确立为地中海主要势力的过程中。他的统治（912–961年）代表了后倭马亚在伊比利亚统治的黄金时代。",
+      "key_figures": [
+        "阿卜杜勒·拉赫曼三世（后倭马亚埃米尔，在位912–961年）"
+      ],
+      "sources": [
+        {
+          "name": "伊本·阿西尔《历史大全》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "马苏迪《黄金草原》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿卜杜勒·拉赫曼三世统治和权力的总体巩固有详细记载，但913年的具体事件日期不太精确。",
+      "cross_references": [
+        "先于929年自封哈里发"
+      ]
+    },
+    {
+      "id": "913-004",
+      "title": "法蒂玛哈里发国巩固北非控制",
+      "region": "伊弗里基亚和马格里布（北非）",
+      "coordinates_approx": "35.0°N, 5.0°E",
+      "category": "political | military",
+      "description": "最近宣告成立（909/916年）的法蒂玛哈里发国继续巩固对北非的控制。法蒂玛人在这段时期正在扩大领土控制并建立行政机构。",
+      "key_figures": [
+        "乌拜德·阿拉·马赫迪（法蒂玛哈里发，在位909–934年）"
+      ],
+      "sources": [
+        {
+          "name": "马苏迪《黄金草原》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "伊本·阿西尔《历史大全》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "法蒂玛在北非的巩固总体上记载良好，但913年的具体事件日期不太精确。",
+      "cross_references": [
+        "继法蒂玛宣告（909/916年）之后",
+        "先于法蒂玛向埃及扩张（969年）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "一些资料将君士坦丁七世获得唯一帝权的时间置于912年而非913年，造成了轻微的年代模糊性。然而，913年是现代学术中更常引用的日期。没有重大反证削弱其他所列事件。",
+  "historiographic_note": "913年的历史记录质量中等。拜占庭资料相对当代且详细，特别是关于君士坦丁七世的统治。中国资料提供了五代时期的良好文献记载。伊斯兰资料可用但为后期编纂。现存的资料强调政治和军事事件；经济、社会和文化发展代表不足。撒哈拉以南非洲和大部分北欧仍缺乏文献。",
+  "graph_edges": [
+    {
+      "from": "913-001",
+      "to": "959-CONSTANTINE_VII_DEATH",
+      "relation": "led_to",
+      "note": "君士坦丁七世于913年即位导致了直到959年的漫长统治和文化成就"
+    },
+    {
+      "from": "913-002",
+      "to": "960-SONG_UNIFICATION",
+      "relation": "led_to",
+      "note": "五代时期后梁的统治最终以宋朝统一告终"
+    }
+  ]
+}

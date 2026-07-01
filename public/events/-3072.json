@@ -1,0 +1,46 @@
+{
+  "year": -3072,
+  "year_label": "公元前3072年",
+  "era_context": "早期青铜时代第三期；古王国埃及（第五至第六王朝过渡），美索不达米亚早王朝第三期，印度河流域文明成熟期。本年内预计没有重大文明转变。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-3072-001",
+      "title": "古王国埃及：中央集权统治和纪念性建设持续",
+      "region": "埃及，尼罗河流域",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "cultural",
+      "description": "此时期，埃及古王国维持其特有的文化和行政实践。金字塔建设、陵庙以及行政官僚体系继续。金字塔铭文，刻于皇家陵墓，是已知世界最古老的宗教文献。贸易网络延伸至黎凡特、努比亚和红海。本年度无具体事件记录。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "金字塔铭文与墓葬铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "本条代表时代背景，并非有记载的具体事件。",
+      "cross_references": [
+        "-3074-001",
+        "-3073-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "公元前3072年未证有任何具体事件。以上条目仅为时代背景。",
+  "historiographic_note": "公元前3072年的历史记录可忽略。没有资料提供该年份的具体信息。",
+  "graph_edges": [
+    {
+      "from": "-3072-001",
+      "to": "-3073-001",
+      "relation": "contemporary_with",
+      "note": "古王国实践的延续"
+    }
+  ]
+}

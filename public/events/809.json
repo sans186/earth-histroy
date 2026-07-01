@@ -1,0 +1,120 @@
+{
+  "year": 809,
+  "year_label": "公元809年",
+  "era_context": "虔诚者路易作为法兰克人和伦巴第人的皇帝，在他统治的早期几年，于814年从查理曼手中继承了帝国。阿拔斯哈里发国正在经历内部继承紧张，马蒙和阿明争夺权力。唐宪宗治下的中国唐朝继续进行行政改革。维京人袭击的频率在整个北欧和不列颠群岛正在增加。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东南亚",
+    "前哥伦布时期的美洲",
+    "中亚（史料有限）"
+  ],
+  "events": [
+    {
+      "id": "809-001",
+      "title": "阿拔斯内战开始：阿明 vs. 马蒙",
+      "region": "阿拔斯哈里发国（伊拉克、叙利亚、波斯）",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "哈里发哈伦·拉希德于809年去世后，他的儿子阿明和马蒙爆发继承纠纷，并升级为内战。长子阿明被指定为哈里发，但得到波斯将军和东部省份支持的马蒙对此提出质疑。该冲突将在随后几年主导阿拔斯政治，削弱中央权威，并允许地方总督巩固权力。这场内战标志着阿拔斯王朝稳定的一个转折点。",
+      "key_figures": [
+        "哈伦·拉希德（已故哈里发）",
+        "阿明（哈里发，在位809–813年）",
+        "马蒙（竞争王位者，后来任哈里发，在位813–833年）",
+        "法德尔·本·拉比（支持阿明的维齐尔）"
+      ],
+      "sources": [
+        {
+          "name": "塔巴里《先知与诸王史》（《诸先知与诸王史》）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "马苏第《黄金草原》（《黄金草原》）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈伦·拉希德的去世和继承纠纷的开始在伊斯兰史学中有详细记载。哈伦的去世日期在大多数资料中为809年3月24日。",
+      "cross_references": [
+        "813-ALAMIN_DEATH",
+        "833-ALMAMUN_DEATH"
+      ]
+    },
+    {
+      "id": "809-002",
+      "title": "维京人对林迪斯法恩和英格兰东北部的袭击",
+      "region": "诺森布里亚，不列颠群岛",
+      "coordinates_approx": "55.4, -2.0",
+      "category": "military",
+      "description": "北欧袭击者对诺森布里亚和英格兰东北部的沿海定居点进行了袭击。虽然著名的林迪斯法恩修道院袭击发生在793年，但在整个9世纪早期，袭击以越来越高的频率和强度继续。到了809年，维京人的入侵已成为对盎格鲁-撒克逊王国的经常性威胁，促使防御措施和沿海地区的设防。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "《盎格鲁-撒克逊编年史》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "比德及其后续编纂者",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "809年的具体袭击并不总是有精确记载。《盎格鲁-撒克逊编年史》记录了这一时期维京人的活动，但日期往往模糊。袭击的模式很清楚；809年的具体事件不太确定。",
+      "cross_references": [
+        "793-LINDISFARNE_RAID"
+      ]
+    },
+    {
+      "id": "809-003",
+      "title": "虔诚者路易巩固法兰克权威",
+      "region": "法兰克帝国",
+      "coordinates_approx": "48.5, 8.0",
+      "category": "political",
+      "description": "在他于814年即位后的几年里，虔诚者路易努力巩固他对法兰克帝国的权威。到809年，他已经确立了对主要地区的控制，并开始实施行政改革。他的统治特点是试图加强教会权威和道德治理，与他父亲某些更务实的政策形成对比。",
+      "key_figures": [
+        "虔诚者路易（皇帝）",
+        "阿尼亚内的本笃（修道院改革者）"
+      ],
+      "sources": [
+        {
+          "name": "艾因哈德《查理大帝传》",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "特甘《虔诚者路易传》（《皇帝路易传》）",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "《法兰克皇家年鉴》",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "路易的一般政策和巩固有充分记载，尽管809年的具体事件并不总是有精确日期。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "哈伦·拉希德去世的日期有时被定为809年，有时是809年3月24日，有些资料将其置于808年。因此，阿明/马蒙冲突开始的确切日期略有不确定。在《盎格鲁-撒克逊编年史》中，809年的维京人袭击并不总是与相邻年份的袭击明显区分开来。",
+  "historiographic_note": "809年的史料记录最丰富的是阿拔斯哈里发国（通过后来的伊斯兰史学）和法兰克帝国（通过法兰克年鉴和后来的传记）。拜占庭史料在该年份稀少。盎格鲁-撒克逊史料关于维京人活动的记载往往是回顾性的，日期不精确。唐朝中国以外的亚洲史料极少。这些史料反映了精英政治和军事关切；经济、社会和文化发展记载较少。",
+  "graph_edges": [
+    {
+      "from": "809-001",
+      "to": "813-ALAMIN_DEATH",
+      "relation": "led_to",
+      "note": "始于809年的内战一直持续到813年阿明去世"
+    },
+    {
+      "from": "809-002",
+      "to": "793-LINDISFARNE_RAID",
+      "relation": "part_of",
+      "note": "延续了始于793年的维京人袭击模式"
+    }
+  ]
+}

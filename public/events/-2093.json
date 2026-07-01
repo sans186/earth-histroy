@@ -1,0 +1,110 @@
+{
+  "year": -2093,
+  "year_label": "公元前2093年",
+  "era_context": "埃及古王国晚期，地方分权深入；后阿卡德时期美索不达米亚城邦整合；成熟印度河文明。该年份属于公元前三千纪晚期的过渡期。",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "东亚"
+  ],
+  "events": [
+    {
+      "id": "-2093-001",
+      "title": "埃及古王国步入终衰",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "古王国中央权威已实质上崩溃。上下埃及的地方总督（诺姆长）几乎完全自治。法老中央仅保有名义权威。这一时期是古王国在正式进入第一中间期（约前2181-2055年）前的最后阶段。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "反映行政碎片化的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "诺姆长自传铭文",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "总体模式有充分证据；公元前2093年的具体事件无记载。",
+      "cross_references": [
+        "-2090-001",
+        "-2091-001",
+        "-2092-001"
+      ]
+    },
+    {
+      "id": "-2093-002",
+      "title": "美索不达米亚城邦确立区域霸权",
+      "region": "美索不达米亚",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "美索不达米亚城邦已巩固区域权力基础。拉伽什、乌玛、乌鲁克和乌尔在各自区域争夺主导权。这一时期标志着美索不达米亚多极政治体系的确立，取代了中央集权的阿卡德帝国。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "反映城邦发展的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "后世《苏美尔王表》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "总体模式从考古中显现；公元前2093年的具体事件无记载。",
+      "cross_references": [
+        "-2090-002",
+        "-2091-002",
+        "-2092-002"
+      ]
+    },
+    {
+      "id": "-2093-003",
+      "title": "印度河文明处于成熟期",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "印度河文明继续其成熟期。城市中心稳定，贸易网络活跃，文化习俗与成熟期（约前2600-1900年）整体一致。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "聚落连续性的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "考古证据证实这一时期稳定。",
+      "cross_references": [
+        "-2090-003",
+        "-2091-003",
+        "-2092-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "无针对公元前2093年的特定反证。",
+  "historiographic_note": "公元前2093年未在现存记录中被特别区分。该年份属于埃及和美索不达米亚政治碎片化的大背景，但无具体事件记录。这一时期的历史记录实质是一系列长期趋势而非年度事件。",
+  "graph_edges": [
+    {
+      "from": "-2093-001",
+      "to": "-2092-001",
+      "relation": "part_of",
+      "note": "埃及古王国衰落过程的延续。"
+    },
+    {
+      "from": "-2093-002",
+      "to": "-2092-002",
+      "relation": "part_of",
+      "note": "美索不达米亚城邦整合过程的延续。"
+    }
+  ]
+}

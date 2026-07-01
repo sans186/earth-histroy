@@ -1,0 +1,106 @@
+{
+  "year": -2501,
+  "year_label": "公元前2501年",
+  "era_context": "黎凡特地区早期青铜时代III期延续；阿卡德帝国巩固期；印度河流域文明成熟期；古埃及王国晚期第五王朝。该年份处于多个文明城市化加深、远距离贸易扩展及复杂行政体系发展的时期。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东南亚",
+    "东亚（印度河流域之外）",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2501-001",
+      "title": "印度河流域文明城市管理的延续",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0°N, 71.0°E",
+      "category": "cultural",
+      "description": "印度河流域文明持续其成熟期，未见重大中断的记录。城市维持着标准化的城市规划，贸易网络保持活跃，行政体系正常运转。考古证据表明，聚落形态、手工业生产及区域间交换保持稳定与延续。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河遗址的考古地层学与放射性碳测年",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "该具体年份无特定事件记录。将其归属公元前2501年是基于印度河文明成熟期更广泛的年代框架（约公元前2600–1900年）的惯例。",
+      "cross_references": [
+        "-2500-001"
+      ]
+    },
+    {
+      "id": "-2501-002",
+      "title": "阿卡德帝国在美索不达米亚的军事行动",
+      "region": "美索不达米亚",
+      "coordinates_approx": "33.0°N, 44.0°E",
+      "category": "military",
+      "description": "阿卡德帝国继续其对美索不达米亚领土的军事整合。该时期的皇家铭文记录了针对反叛城邦及邻近地区的战役。帝国通过军事力量与行政一体化的结合维持控制。",
+      "key_figures": [
+        "阿卡德统治者（身份不确定，可能是瑞穆什或曼尼什图苏）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德皇家铭文",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "《苏美尔王表》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "公元前2501年无特定事件记录。其归属反映的是阿卡德军事活动的一般时期（传统年代学中约公元前2334–2154年）。",
+      "cross_references": [
+        "-2500-002"
+      ]
+    },
+    {
+      "id": "-2501-003",
+      "title": "古埃及王国行政的延续",
+      "region": "埃及",
+      "coordinates_approx": "26.0°N, 31.0°E",
+      "category": "political",
+      "description": "古埃及王国延续，未见重大中断的记录。第五王朝晚期或第六王朝早期的行政机构维持对尼罗河谷的控制。金字塔建造与行政记录持续进行，但存在权力逐渐分散至地方总督的趋势。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "《金字塔文》与行政记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "神庙与行政遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "该具体年份无特定事件记录。其归属反映的是古王国晚期埃及更广泛的年代框架。",
+      "cross_references": [
+        "-2500-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现针对所列事件的反证。然而，需注意公元前2501年并未在任何已知历史文献中被记载为具有特殊意义的年份。所列事件体现的是延续性而非有记载的变化。",
+  "historiographic_note": "公元前2501年处于文献记载清晰的文明时期，但此具体年份并无特定事件得到证实。这一时期的历史记录特征为总体趋势而非逐年记载。古代文献除王室年鉴外很少提供事件的年度精度，而即使是王室年鉴也常为后世编纂。",
+  "graph_edges": [
+    {
+      "from": "-2501-001",
+      "to": "-2500-001",
+      "relation": "led_to",
+      "note": "印度河流域文明稳定的延续"
+    },
+    {
+      "from": "-2501-002",
+      "to": "-2500-002",
+      "relation": "led_to",
+      "note": "阿卡德军事整合的延续"
+    }
+  ]
+}

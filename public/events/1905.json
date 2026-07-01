@@ -1,0 +1,406 @@
+{
+  "year": 1905,
+  "year_label": "公元1905年",
+  "era_context": "20世纪初，以帝国竞争、工业扩张和民族主义运动兴起为特征。日俄战争主导了这一年，重塑了亚洲地缘政治，并显示了欧洲列强的脆弱性。在欧洲，社会主义和革命运动力量增强。奥斯曼帝国继续衰落，内部不稳定。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1905-001",
+      "title": "《朴次茅斯和约》结束日俄战争",
+      "region": "美国新罕布什尔州朴次茅斯 / 俄国–日本",
+      "coordinates_approx": "43.08, -71.31",
+      "category": "political",
+      "description": "日俄战争（1904–1905）随着1905年9月5日签署的《朴次茅斯和约》而结束。日本获胜，获得了南萨哈林岛、旅顺口和南满铁路的控制权。战争标志着欧洲大国首次被亚洲国家军事击败，震惊了西方世界，并激励了整个亚洲的民族主义运动。俄国的失败导致了内部不稳定和1905年革命。",
+      "key_figures": [
+        "西奥多·罗斯福（美国总统；调停和平）",
+        "谢尔盖·维特（俄国谈判代表）",
+        "小村寿太郎（日本谈判代表）"
+      ],
+      "sources": [
+        {
+          "name": "官方条约文本和外交记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时报纸和外交史",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在官方记录和当代资料中有广泛记载。条约日期和条款已确凿。",
+      "cross_references": []
+    },
+    {
+      "id": "1905-002",
+      "title": "1905年俄国革命",
+      "region": "俄罗斯帝国",
+      "coordinates_approx": "55.75, 37.62",
+      "category": "political",
+      "description": "1905年，罢工、起义和政治动荡的浪潮席卷了俄罗斯帝国，由日俄战争的军事失败和对专制统治的长期不满引发。革命包括血色星期日屠杀（1月22日）、广泛罢工、农民起义和军队哗变（特别是波将金号哗变）。沙皇尼古拉二世以《十月宣言》回应，承诺公民自由和议会（杜马），尽管他保留了最终权力。革命未能推翻政权，但迫使做出了重大的宪法让步。",
+      "key_figures": [
+        "尼古拉二世（俄国沙皇）",
+        "谢尔盖·维特（首相；谈判《十月宣言》）",
+        "格奥尔基·加邦（神父；领导了血色星期日的游行）",
+        "弗拉基米尔·列宁（布尔什维克领袖；组织了革命活动）"
+      ],
+      "sources": [
+        {
+          "name": "俄罗斯帝国记录和警察报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时俄国和国际报纸",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "革命宣言和回忆录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在官方记录、当时报纸和革命资料中有广泛记载。关键日期和事件已确凿。",
+      "cross_references": []
+    },
+    {
+      "id": "1905-003",
+      "title": "俄国的血色星期日",
+      "region": "俄罗斯帝国圣彼得堡",
+      "coordinates_approx": "59.93, 30.36",
+      "category": "political",
+      "description": "1905年1月22日（儒略历1月9日），俄国军队在圣彼得堡向加邦神父领导的一次和平工人游行开枪，估计造成200至1,000人死亡。这场旨在镇压革命活动的大屠杀反而激起了对沙皇的反对，并引发了更广泛的1905年革命。血色星期日成为沙皇暴行的象征，也是俄国革命意识的一个转折点。",
+      "key_figures": [
+        "格奥尔基·加邦（神父；领导了游行）",
+        "尼古拉二世（沙皇；授权军事回应）",
+        "德米特里·特列波夫（军事指挥官）"
+      ],
+      "sources": [
+        {
+          "name": "俄国军事和警察报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时俄国和国际报纸",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "目击者叙述和回忆录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在官方记录、当代记述和后来的历史资料中有广泛记载。日期和总体事件已确凿，尽管伤亡数字有所不同。",
+      "cross_references": [
+        "1905-002"
+      ]
+    },
+    {
+      "id": "1905-004",
+      "title": "波将金号哗变",
+      "region": "俄罗斯帝国黑海",
+      "coordinates_approx": "44.60, 34.27",
+      "category": "military",
+      "description": "俄国战列舰波将金号的船员于1905年6月14日哗变，抗议恶劣条件并与更广泛的1905年革命团结一致。哗变者控制了该舰并航行至敖德萨，在那里他们支持罢工工人。哗变最终被镇压，但它成为革命抵抗和军队不满的象征。该事件后来在谢尔盖·爱森斯坦1925年的电影中被永久纪念。",
+      "key_figures": [
+        "阿法纳西·马秋申科（哗变领袖）",
+        "格里戈里·瓦库连丘克（水手；在哗变中丧生）"
+      ],
+      "sources": [
+        {
+          "name": "俄国海军记录和军事报告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时俄国和国际报纸",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "目击者叙述和回忆录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在俄国海军记录和当代资料中有广泛记载。日期和事件已确凿。",
+      "cross_references": [
+        "1905-002"
+      ]
+    },
+    {
+      "id": "1905-005",
+      "title": "爱因斯坦的奇迹年开始（狭义相对论）",
+      "region": "瑞士伯尔尼 / 理论物理学",
+      "coordinates_approx": "46.95, 7.45",
+      "category": "scientific",
+      "description": "阿尔伯特·爱因斯坦在伯尔尼瑞士专利局担任技术专家期间，于1905年开始发展狭义相对论。1905年6月，他发表了论文《论动体的电动力学》，引入了物理学定律在所有惯性参考系中相同以及光速恒定的概念。这项工作，连同他1905年关于光电效应和布朗运动的其他论文，彻底改变了物理学，并为现代理论物理学奠定了基础。",
+      "key_figures": [
+        "阿尔伯特·爱因斯坦（物理学家）",
+        "马克斯·普朗克（理论物理学家；影响了爱因斯坦的思想）"
+      ],
+      "sources": [
+        {
+          "name": "爱因斯坦在《物理学年鉴》上发表的论文，1905年",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "爱因斯坦的通信和后来的自传性著作",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "爱因斯坦1905年的论文有充分记载并注明日期。出版日期和内容已确凿。",
+      "cross_references": []
+    },
+    {
+      "id": "1905-006",
+      "title": "新芬党在爱尔兰成立",
+      "region": "爱尔兰都柏林",
+      "coordinates_approx": "53.35, -6.26",
+      "category": "political",
+      "description": "亚瑟·格里菲斯于1905年创立了新芬党（‘我们自己’），一个倡导爱尔兰独立和自力更生的政治运动。该运动拒绝暴力叛乱，转而支持政治组织和经济自给自足。新芬党后来成为爱尔兰民族主义的主要力量，特别是在1916年复活节起义之后，并最终形成了爱尔兰自由邦政府的基础。",
+      "key_figures": [
+        "亚瑟·格里菲斯（创始人）",
+        "巴尔默·霍布森（共同创始人）"
+      ],
+      "sources": [
+        {
+          "name": "新芬党建党文件和当时爱尔兰报纸",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "亚瑟·格里菲斯的著作和回忆录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在爱尔兰历史记录和当代资料中有广泛记载。建党日期和关键人物已确凿。",
+      "cross_references": []
+    },
+    {
+      "id": "1905-007",
+      "title": "摩洛哥危机（第一次）",
+      "region": "摩洛哥 / 欧洲外交",
+      "coordinates_approx": "31.79, -7.09",
+      "category": "political",
+      "description": "第一次摩洛哥危机于1905年爆发，当时德国皇帝威廉二世访问丹吉尔并声称摩洛哥应保持独立，挑战法国在摩洛哥的影响力。危机暴露了德国和法国在北非殖民扩张上的紧张关系，几乎引发战争。危机通过1906年阿尔赫西拉斯会议得到解决，但使法德关系严重紧张，助长了第一次世界大战前的两极分化。",
+      "key_figures": [
+        "威廉二世（德国皇帝）",
+        "泰奥菲勒·德尔卡塞（法国外交部长）",
+        "莫里斯·鲁维耶（法国总理）"
+      ],
+      "sources": [
+        {
+          "name": "德国和法国外交记录和通信",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时欧洲报纸",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在外交档案和当代资料中有广泛记载。危机及其关键事件已确凿。",
+      "cross_references": []
+    },
+    {
+      "id": "1905-008",
+      "title": "法国政教分离法颁布",
+      "region": "法国",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "legal",
+      "description": "法国政教分离法于1905年12月9日颁布，正式将宗教机构与国家权力分离。该法废除了1801年《政教协约》，并确立了世俗主义作为法兰西第三共和国的基础原则。该法剥夺了天主教会的国家补贴和对教育的控制权，标志着共和与世俗力量在教会与第三共和国持续冲突中的决定性胜利。",
+      "key_figures": [
+        "埃米尔·孔布（总理；倡导该法）",
+        "乔治·克列孟梭（世俗主义的支持者）"
+      ],
+      "sources": [
+        {
+          "name": "法国立法记录和官方文本",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时法国报纸和政治著作",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该法于1905年12月9日颁布。日期和内容在官方记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1905-009",
+      "title": "英属印度宣布孟加拉分割",
+      "region": "英属印度孟加拉",
+      "coordinates_approx": "24.00, 88.00",
+      "category": "political",
+      "description": "英国总督寇松勋爵于1905年7月20日宣布分割孟加拉，将该省分为印度教徒占多数的西孟加拉和穆斯林占多数的东孟加拉。分割表面上是出于行政效率，但被广泛视为削弱印度民族主义的‘分而治之’策略。分割引发了大规模抗议、斯瓦德希运动（提倡本土商品）以及印度激进民族主义的兴起。分割于1911年被撤销，但留下了深刻的族群伤痕。",
+      "key_figures": [
+        "乔治·寇松（英国总督）",
+        "苏伦德拉纳特·班纳吉（印度民族主义领袖）",
+        "巴尔·甘格达尔·提拉克（印度民族主义领袖）"
+      ],
+      "sources": [
+        {
+          "name": "英国殖民记录和官方公告",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时印度报纸和民族主义著作",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在英国殖民记录和当时的印度资料中有广泛记载。宣布日期和事件已确凿。",
+      "cross_references": []
+    },
+    {
+      "id": "1905-010",
+      "title": "印度斯瓦德希运动发起",
+      "region": "英属印度孟加拉",
+      "coordinates_approx": "24.00, 88.00",
+      "category": "cultural",
+      "description": "为回应孟加拉分割，印度民族主义者发起了斯瓦德希运动，提倡使用本土商品并抵制英国产品。该运动强调自力更生和印度文化自豪感，成为印度独立斗争的主要力量。斯瓦德希超越经济范畴，延伸到文化复兴、教育以及印度语言和传统的推广。",
+      "key_figures": [
+        "苏伦德拉纳特·班纳吉（民族主义领袖）",
+        "巴尔·甘格达尔·提拉克（民族主义领袖）",
+        "斯瓦米·维韦卡南达（精神领袖；影响了运动）"
+      ],
+      "sources": [
+        {
+          "name": "当时印度报纸和民族主义著作",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "英国关于该运动的殖民报告",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在当时的印度和英国资料中有广泛记载。运动在1905年的兴起已确凿。",
+      "cross_references": [
+        "1905-009"
+      ]
+    },
+    {
+      "id": "1905-011",
+      "title": "日俄战争结束",
+      "region": "满洲、朝鲜、俄国–日本",
+      "coordinates_approx": "45.00, 125.00",
+      "category": "military",
+      "description": "日俄战争始于1904年2月，于1905年9月随着《朴次茅斯和约》而实际结束。日本的胜利标志着欧洲大国首次被亚洲国家军事击败，震惊了西方世界，并激励了整个亚洲的民族主义运动。俄国的失败导致了内部不稳定和1905年革命。战争展示了现代军事技术和战术的有效性，并重塑了东亚地缘政治。",
+      "key_figures": [
+        "东乡平八郎（日本海军上将）",
+        "季诺维·罗热斯特文斯基（俄国海军上将）",
+        "大山岩（日本将军）"
+      ],
+      "sources": [
+        {
+          "name": "日本和俄国军事记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时报纸和军事史",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "在军事记录和当代资料中有广泛记载。战争结束日期和主要事件已确凿。",
+      "cross_references": [
+        "1905-001"
+      ]
+    },
+    {
+      "id": "1905-012",
+      "title": "俄国《十月宣言》发布",
+      "region": "俄罗斯帝国",
+      "coordinates_approx": "55.75, 37.62",
+      "category": "political",
+      "description": "沙皇尼古拉二世于1905年10月17日发布《十月宣言》，以回应持续的1905年革命。宣言承诺公民自由、言论和集会自由，以及建立民选议会（杜马）。虽然宣言看似做出了重大的宪法让步，但尼古拉二世保留了最终权力，杜马的权力受到严重限制。宣言暂时平息了革命，但并未解决根本的不满。",
+      "key_figures": [
+        "尼古拉二世（俄国沙皇）",
+        "谢尔盖·维特（首相；谈判了宣言）"
+      ],
+      "sources": [
+        {
+          "name": "《十月宣言》官方文本",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当时俄国和国际报纸",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "宣言在官方记录和当代资料中有广泛记载。日期和内容已确凿。",
+      "cross_references": [
+        "1905-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "爱因斯坦1905年工作的意义并未立即得到认可；狭义相对论直到1910年代才被广泛接受或理解。《十月宣言》常被描绘为重大的宪法胜利，但现代学术研究强调尼古拉二世保留了绝对权力，杜马从一开始就受到严重限制。孟加拉分割对印度民族主义的影响有时被夸大；虽然它引发了抗议，但斯瓦德希运动的长期政治影响与后来的独立运动相比有限。血色星期日的伤亡数字范围很广（200–1,000），一些来源对确切受害者人数存在争议。",
+  "historiographic_note": "1905年在欧洲和俄国资料中记录丰富，反映了西方档案和史学的支配地位。1905年俄国革命在俄国、苏联和西方资料中有广泛覆盖，尽管解释因意识形态视角而异。亚洲事件（日俄战争、孟加拉分割）在日本、俄国和英国资料中有充分记载，但在印度本土资料中覆盖不够全面。爱因斯坦的科学工作因其后来的意义而有异常充分的记载，但当代对其重要性的承认有限。这一年深受欧洲帝国竞争和革命变革叙事的影响；关于殖民事件的原住民观点通常通过殖民或后来的民族主义史学过滤。",
+  "graph_edges": [
+    {
+      "from": "1905-001",
+      "to": "1905-002",
+      "relation": "led_to",
+      "note": "俄国在日俄战争中的军事失败促成了1905年革命"
+    },
+    {
+      "from": "1905-003",
+      "to": "1905-002",
+      "relation": "part_of",
+      "note": "血色星期日是更广泛的1905年革命中的关键事件"
+    },
+    {
+      "from": "1905-004",
+      "to": "1905-002",
+      "relation": "part_of",
+      "note": "波将金号哗变是更广泛的1905年革命的一部分"
+    },
+    {
+      "from": "1905-009",
+      "to": "1905-010",
+      "relation": "led_to",
+      "note": "孟加拉分割直接引发了斯瓦德希运动"
+    },
+    {
+      "from": "1905-007",
+      "to": "1906-002",
+      "relation": "led_to",
+      "note": "第一次摩洛哥危机导致了1906年的阿尔赫西拉斯会议"
+    },
+    {
+      "from": "1905-008",
+      "to": "1906-011",
+      "relation": "contemporary_with",
+      "note": "两者均代表法国的世俗化和政教分离"
+    }
+  ]
+}

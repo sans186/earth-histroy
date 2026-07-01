@@ -1,0 +1,65 @@
+{
+  "year": -2238,
+  "year_label": "2238 BCE",
+  "era_context": "埃及古王国（第六王朝）持续逐渐衰落。纳拉姆辛统治下的阿卡德帝国保持着对美索不达米亚及周边地区的控制。印度河流域文明处于成熟的城市阶段。在中国，半传奇的夏朝传统上被定年于这一时期。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "太平洋岛屿",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-2238-001",
+      "title": "阿卡德的军事巩固与行政扩张",
+      "region": "美索不达米亚，阿卡德帝国",
+      "coordinates_approx": "34.5, 46.0",
+      "category": "military",
+      "description": "纳拉姆辛继续进行军事行动，以巩固阿卡德对美索不达米亚及周边地区的控制。铭文记载了对叛乱城邦的征服和阿卡德行政权力的扩张。这一时期帝国的军事力量达到顶峰。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德王）"
+      ],
+      "sources": [
+        {
+          "name": "纳拉姆辛铭文和胜利石碑",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "阿卡德行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的军事行动有充分证据，但具体到其统治期间个别年份的定年不确定。此条目代表其统治期间的典型军事活动。",
+      "cross_references": [
+        "-2235-001"
+      ]
+    },
+    {
+      "id": "-2238-002",
+      "title": "印度河流域文明的城市规划与公共工程",
+      "region": "印度河流域，南亚",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "technological",
+      "description": "印度河流域文明维持着其先进的城市基础设施，包括规划整齐的街道网格、排水系统和公共建筑。考古证据显示标准化建筑实践和城市组织的延续。该文明的工程能力反映在城市中心的设计和维护上。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "哈拉帕、摩亨佐达罗等城市遗址的考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明的城市基础设施已得到考古证实，但无法确定到具体年份。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的反驳证据。",
+  "historiographic_note": "-2238年没有特定的记载事件。这一时期的历史记录由一般的行政和军事过程构成。纳拉姆辛统治期间阿卡德帝国的军事力量被充分证实，但个别战役的精确年表仍不确定。",
+  "graph_edges": []
+}

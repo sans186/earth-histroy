@@ -1,0 +1,129 @@
+{
+  "year": -1634,
+  "year_label": "公元前1635年",
+  "era_context": "与-1630、-1631、-1632和-1633相同：晚期青铜时代，埃及第十八王朝，赫梯巩固，中国商朝。",
+  "documentation_level": "稀少的",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东南亚和大洋洲",
+    "美洲",
+    "北欧和斯堪的纳维亚"
+  ],
+  "events": [
+    {
+      "id": "-1634-001",
+      "title": "埃及第十八王朝帝国统治",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "第十八王朝继续其帝国行政管理。这一年属于图特摩斯三世或其继任者的统治时期。埃及国家维持着对东地中海和尼罗河谷地区的广泛控制。",
+      "key_figures": [
+        "图特摩斯三世或阿蒙霍特普二世（法老）"
+      ],
+      "sources": [
+        {
+          "name": "埃及神庙铭文和行政记录",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "来自神庙遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "年代不确定性±5–10年。",
+      "cross_references": [
+        "-1630-001",
+        "-1631-001",
+        "-1632-001",
+        "-1633-001"
+      ]
+    },
+    {
+      "id": "-1634-002",
+      "title": "赫梯国家发展",
+      "region": "安纳托利亚，赫梯帝国",
+      "coordinates_approx": "35.5, 34.0",
+      "category": "political",
+      "description": "赫梯帝国继续进行巩固和发展。该国家正在通过军事征伐、外交关系和行政管理发展，确立自己作为近东主要强权的地位。",
+      "key_figures": [
+        "赫梯大王（身份不确定）"
+      ],
+      "sources": [
+        {
+          "name": "赫梯王室铭文和行政文本",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "来自博阿兹科伊的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "年代不确定性±20–30年。",
+      "cross_references": [
+        "-1630-002",
+        "-1631-002",
+        "-1632-002",
+        "-1633-002"
+      ]
+    },
+    {
+      "id": "-1634-003",
+      "title": "商代甲骨占卜活动",
+      "region": "中国，黄河流域",
+      "coordinates_approx": "34.5, 114.5",
+      "category": "cultural",
+      "description": "商代继续进行甲骨占卜活动。这些甲骨记录了商代宫廷的关注点和活动，包括关于天气、收成、军事征伐和祖先意志的问题。",
+      "key_figures": [
+        "商代统治者（身份不确定）"
+      ],
+      "sources": [
+        {
+          "name": "来自安阳的甲骨文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "来自安阳的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "商代年表仍有争议；不确定性±50–100年。",
+      "cross_references": [
+        "-1630-003",
+        "-1631-003",
+        "-1632-003",
+        "-1633-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "没有与-1630、-1631、-1632和-1633不同的具体否定证据。",
+  "historiographic_note": "对于-1634年的历史记录本质上与-1630、-1631、-1632和-1633年相同。这一时期的各个年份在考古学和文献上无法区分。作为独立历史时刻的-1634年意义极小。这五年代表了埃及帝国统治、赫梯巩固和商代甲骨占卜活动的连续时期，但没有具体事件能将任何一年与其他年份区分开来。",
+  "graph_edges": [
+    {
+      "from": "-1634-001",
+      "to": "-1633-001",
+      "relation": "contemporary_with",
+      "note": "同一统治时期"
+    },
+    {
+      "from": "-1634-002",
+      "to": "-1633-002",
+      "relation": "contemporary_with",
+      "note": "同一赫梯时期"
+    },
+    {
+      "from": "-1634-003",
+      "to": "-1633-003",
+      "relation": "contemporary_with",
+      "note": "同一商代时期"
+    }
+  ]
+}

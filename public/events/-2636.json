@@ -1,0 +1,84 @@
+{
+  "year": -2636,
+  "year_label": "公元前2636年",
+  "era_context": "美索不达米亚早王朝三期；埃及古王国（第四王朝）。阿卡德城邦兴起。印度河流域文明处于成熟城市阶段。青铜时代在欧亚大陆扩展。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2636-001",
+      "title": "古王国埃及第四王朝统治延续",
+      "region": "埃及，尼罗河谷",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "第四王朝的法老统治继续，国家权力集中。纪念性建筑和宗教行政基础设施保持在最高水平。国家为金字塔建造和神庙维护动员劳动力和资源的能力显示了复杂的官僚组织和经济剩余榨取。",
+      "key_figures": [
+        "胡夫或哈夫拉（法老，第四王朝）"
+      ],
+      "sources": [
+        {
+          "name": "来自吉萨及其他古王国遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "古王国定年存在±20-30年的年代学不确定性。",
+      "cross_references": [
+        "-2635-001"
+      ]
+    },
+    {
+      "id": "-2636-002",
+      "title": "印度河流域文明贸易网络活跃",
+      "region": "印度河流域与波斯湾贸易路线",
+      "coordinates_approx": "27.5, 72.0",
+      "category": "economic",
+      "description": "考古证据表明印度河流域与美索不达米亚、波斯湾以及可能还有阿拉伯半岛之间存在活跃的海上和陆上贸易。在美索不达米亚语境中发现了印度河印章，在印度河遗址中也有美索不达米亚物品出现。这种贸易促进了货物（青金石、红玉髓、木材、纺织品）乃至思想的交流。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "在美索不达米亚语境（乌尔、拉加什等）发现的印度河印章",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "美索不达米亚文本中对'梅卢哈'（很可能指印度河流域）的楔形文字记载",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河成熟阶段（约公元前2600-1900年）的贸易网络有充足的考古证据。",
+      "cross_references": [
+        "-2635-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "没有针对公元前2636年事件的具体反证。年代学不确定性仍是主要问题。",
+  "historiographic_note": "就文献记录的事件而言，该年几乎无法与公元前2635年区分。这一时期的历史记录稀疏，依赖考古证据和后来的编纂。没有同期书面记录具体记载公元前2636年的事件。",
+  "graph_edges": [
+    {
+      "from": "-2636-001",
+      "to": "-2635-001",
+      "relation": "contemporary_with",
+      "note": "同一王朝和时期的延续"
+    },
+    {
+      "from": "-2636-002",
+      "to": "-2635-002",
+      "relation": "contemporary_with",
+      "note": "印度河贸易网络在整个成熟阶段活跃"
+    }
+  ]
+}

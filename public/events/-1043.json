@@ -1,0 +1,86 @@
+{
+  "year": -1043,
+  "year_label": "公元前1043年",
+  "era_context": "与前几年相同：铁器时代巩固、埃及第二十一王朝、中期亚述早期、黎凡特国家形成、希腊几何陶时期。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧与草原地带",
+    "东亚",
+    "中美洲"
+  ],
+  "events": [
+    {
+      "id": "-1043-001",
+      "title": "铁器时代黎凡特定居模式",
+      "region": "黎凡特",
+      "coordinates_approx": "33.5, 35.5",
+      "category": "cultural",
+      "description": "到公元前1043年，铁器时代黎凡特的定居模式已稳固建立。考古证据显示出一个由设防定居点、农业村庄和新兴城市中心构成的网络。从青铜时代到铁器时代定居组织的转变已经完成。定居点比青铜时代晚期更小、更分散，反映了青铜时代晚期崩溃的冲击以及随后黎凡特社会的重组。铁制工具和武器正成为标准，但青铜仍用于贵重物品和一些工具。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "考古调查与发掘（美吉多、但丘、撒玛利亚、夏琐、拉吉）",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "陶器类型学与地层学",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "铁器时代黎凡特定居的总体模式已得到考古证实。公元前1043年被指定为早期铁器时代的一个代表性时间点，但考古证据无法实现年度精确性。",
+      "cross_references": [
+        "-1040-003"
+      ]
+    },
+    {
+      "id": "-1043-002",
+      "title": "埃及第二十一王朝行政管理的延续",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "第二十一王朝继续其将权威分割给塔尼斯（法老首都）和底比斯（大祭司权威）的行政实践。这一年属于这一双重行政体制的有文献记录的时期。塔尼斯的法老名义上维持对整个埃及的主权，但上埃及的实际控制权掌握在阿蒙大祭司手中。这一安排是稳定的，并将贯穿整个第二十一王朝（约公元前1070–945年）。",
+      "key_figures": [
+        "第二十一王朝的法老和大祭司（该年具体人物未明确辨识）"
+      ],
+      "sources": [
+        {
+          "name": "埃及行政纸莎草文献",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "神庙与墓葬铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "第二十一王朝的行政结构有充分证据。公元前1043年属于这一结构的有文献记录的时期。",
+      "cross_references": [
+        "-1040-002",
+        "-1041-001",
+        "-1042-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现与所列事件相矛盾的证据。",
+  "historiographic_note": "公元前1043年的历史记录与本批次前几年一致：稀疏、零碎，依赖后世编纂和考古学。埃及资料仍是最详细的，但未提供该年的年度具体叙事事件。黎凡特资料完全依赖考古学。",
+  "graph_edges": [
+    {
+      "from": "-1043-001",
+      "to": "-1040-003",
+      "relation": "contemporary_with",
+      "note": "铁器时代黎凡特定居模式的延续。"
+    },
+    {
+      "from": "-1043-002",
+      "to": "-1042-001",
+      "relation": "contemporary_with",
+      "note": "第二十一王朝行政结构的延续。"
+    }
+  ]
+}

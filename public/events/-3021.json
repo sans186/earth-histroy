@@ -1,0 +1,94 @@
+{
+  "year": -3021,
+  "year_label": "前3021年",
+  "era_context": "埃及第四王朝向第五王朝过渡。这标志着埃及政治和宗教优先事项的重大转变，太阳神学的兴起和太阳神庙的建造。美索不达米亚仍处于早王朝III期。印度河流域文明继续其成熟阶段。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-3021-001",
+      "title": "埃及第五王朝开始；乌瑟卡夫统治",
+      "region": "埃及（尼罗河流域）",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "乌瑟卡夫传统上被定年为埃及第五王朝的创始人和首任法老，标志着埃及历史的重大转折。第五王朝的特征是宗教重点转向太阳神学，建造太阳神庙而非金字塔（尽管金字塔仍在修建）。乌瑟卡夫统治传统上定于约前2498–前2491年。王朝过渡的原因有争议；一些学者认为是政治分裂，另一些则指出宗教改革或新权力基础的崛起。",
+      "key_figures": [
+        "乌瑟卡夫（埃及法老，第五王朝创始人）",
+        "萨胡拉（可能的继任者）"
+      ],
+      "sources": [
+        {
+          "name": "都灵王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "阿拜多斯王表",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "阿布西尔的考古证据（乌瑟卡夫太阳神庙）",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "曼涅托的《埃及史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "传统定年将其统治置于约前2498–前2491年。王朝过渡有考古证据（宏伟建筑和宗教重点的转变），但过渡的具体年份不确定（±5年）。转变原因受到学者讨论。",
+      "cross_references": [
+        "继前3022年（谢普塞斯卡弗统治，第四王朝结束）之后",
+        "早于前3020年（萨胡拉统治，如果按顺序）"
+      ]
+    },
+    {
+      "id": "-3021-002",
+      "title": "美索不达米亚早王朝III期延续",
+      "region": "美索不达米亚",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "美索不达米亚城邦在早王朝III期继续其竞争动态。本年无具体事件记载，但这一时期以持续的城邦间冲突、书面行政系统的发展和城市中心的巩固为特征。苏美尔王表提供了统治者姓名，但其年代极不确定。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "苏美尔王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "美索不达米亚遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "本年无同时代记录。本条反映了对早王朝III期的史学共识，但具体事件无记载。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "第四王朝向第五王朝过渡的传统定年有争议。一些学者提出，过渡可能比王表所示更为渐进，或者王朝划分是史学建构而非急剧的政治断裂。宗教重点转变（从建造金字塔到太阳神庙）的原因不完全清楚，可能反映多种因素而非单一原因。",
+  "historiographic_note": "前3021年的文献稀少。该年由埃及王室继承的传统年表和考古证实的宏伟建筑与宗教重点转变来界定。第五王朝在某些方面比第四王朝有更好的文献（更多铭文证据），但前3021年的具体事件未见记录。没有美索不达米亚史料。",
+  "graph_edges": [
+    {
+      "from": "-3021-001",
+      "to": "-3022-001",
+      "relation": "caused_by",
+      "note": "乌瑟卡夫统治在谢普塞斯卡弗之后；标志王朝过渡"
+    },
+    {
+      "from": "-3021-001",
+      "to": "-3020-001",
+      "relation": "led_to",
+      "note": "乌瑟卡夫统治早于萨胡拉"
+    }
+  ]
+}

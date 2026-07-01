@@ -1,0 +1,78 @@
+{
+  "year": -620,
+  "year_label": "公元前620年",
+  "era_context": "公元前6世纪早期继续：新巴比伦帝国巩固权力，希腊城邦发展其政治制度，周朝处于春秋时期。这一阶段以希腊文字哲学和法典的出现、美索不达米亚帝国巩固以及欧亚大陆重要技术和文化发展为特征。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-620-001",
+      "title": "尼布甲尼撒二世统治继续",
+      "region": "美索不达米亚",
+      "coordinates_approx": "32.54, 44.42",
+      "category": "political",
+      "description": "尼布甲尼撒二世在其统治早期（前605–前562年）继续巩固新巴比伦帝国。这一年属于军事扩张、行政重组和定义其统治重大建设项目开始时期。",
+      "key_figures": [
+        "Nebuchadnezzar II (巴比伦国王)"
+      ],
+      "sources": [
+        {
+          "name": "《巴比伦编年史》",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "现存文献中没有记载公元前620年的具体事件。此条目反映了尼布甲尼撒统治更广泛的背景。",
+      "cross_references": []
+    },
+    {
+      "id": "-620-002",
+      "title": "希腊古风时期：城邦制度的发展",
+      "region": "希腊",
+      "coordinates_approx": "39.0, 21.8",
+      "category": "political",
+      "description": "公元前6世纪早期，希腊城邦正在发展其政治制度，包括寡头制的早期形式和民主思想的萌芽。这一时期见证了成文法典的出现（如雅典的德拉古法典）以及城邦作为基本政治单位的巩固。尽管没有记载公元前620年的具体事件，但这一年属于这一更广泛的制度发展时期。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Aristotle, 《雅典政制》",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, 《梭伦传》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "没有记载公元前620年的具体事件。此条目反映了公元前6世纪早期希腊政治发展更广泛的背景。",
+      "cross_references": [
+        "关联到 -622-001（德拉古法典）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的否定性证据。然而，公元前620年缺乏具体文献记载，因此关于该年的任何历史主张大多是从更广泛模式推断而来，而非基于同时代记录。",
+  "historiographic_note": "公元前620年在同时代文献中记载很少。《巴比伦编年史》提供了一些记录，但该时期许多年份缺乏详细条目。希腊资料在这一日期稀少且常具传奇色彩。中国资料（《春秋》）存在，但对这一年没有详细记载。该年的历史记录严重依赖于从更广泛模式和后期编纂中的推断。现存文献严重偏向美索不达米亚和东地中海。",
+  "graph_edges": [
+    {
+      "from": "-620-001",
+      "to": "-605-001",
+      "relation": "part_of",
+      "note": "尼布甲尼撒二世统治和权力巩固的延续。"
+    },
+    {
+      "from": "-620-002",
+      "to": "-622-001",
+      "relation": "contemporary_with",
+      "note": "希腊制度发展与德拉古法典的传统日期大体同时。"
+    }
+  ]
+}

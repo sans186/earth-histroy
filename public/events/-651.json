@@ -1,0 +1,137 @@
+{
+  "year": -651,
+  "year_label": "公元前651年",
+  "era_context": "公元前7世纪中叶：埃萨尔哈东在亚述的统治，希腊古风时期殖民活跃，中国周朝早期，埃及第26王朝巩固。此时期以帝国扩张、字母读写和古典希腊文化与制度发展为特征。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "大洋洲",
+    "中美洲"
+  ],
+  "events": [
+    {
+      "id": "-651-001",
+      "title": "埃萨尔哈东的持续军事战役与行政巩固",
+      "region": "新亚述帝国、黎凡特、埃及",
+      "coordinates_approx": "35.0, 40.0",
+      "category": "military",
+      "description": "公元前651年，埃萨尔哈东继续进行军事战役和亚述帝国的行政巩固。其统治以黎凡特、埃及和美索不达米亚的战役以及省级行政重组为标志。埃萨尔哈东的大规模驱逐和将被征服领土纳入亚述行政体系的政策旨在防止叛乱并巩固帝国权力。他的统治代表着亚述领土扩张的顶峰。",
+      "key_figures": [
+        "埃萨尔哈东（亚述国王）"
+      ],
+      "sources": [
+        {
+          "name": "埃萨尔哈东的王室铭文与编年史",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "来自尼尼微的楔形文字行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "埃萨尔哈东的统治有充分记载；具体年度事件的绝对纪年存在±2–3年的不确定性。",
+      "cross_references": [
+        "-652-001",
+        "-654-001"
+      ]
+    },
+    {
+      "id": "-651-002",
+      "title": "希腊殖民黑海地区",
+      "region": "黑海、希腊",
+      "coordinates_approx": "42.0, 35.0",
+      "category": "exploration",
+      "description": "公元前7世纪中叶，希腊人殖民黑海沿岸，在今土耳其、格鲁吉亚和高加索地区建立定居点。至公元前651年，希腊商人和殖民者沿黑海建立贸易据点和定居点，促进了谷物、金属和其他商品的贸易。这些殖民地将希腊文化影响扩展到此前由非希腊人统治的地区，并建立了长途贸易网络。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "斯特拉波《地理学》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "来自黑海殖民遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "黑海殖民活动持续数十年；将个别殖民地精确到具体年份是约定俗成的。考古证据表明大多数殖民地建于公元前7世纪，但精确的年度年代学不确定。",
+      "cross_references": [
+        "-654-002"
+      ]
+    },
+    {
+      "id": "-651-003",
+      "title": "普萨美提克一世在埃及的军事与经济改革",
+      "region": "埃及",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "公元前651年，普萨美提克一世继续进行埃及的军事和经济改革。其统治以埃及军队重组、希腊雇佣兵使用增加和新贸易路线开发为标志。普萨美提克的政策旨在恢复埃及在努比亚和亚述统治之后的权力和独立。他的统治标志着埃及文化复兴和经济复苏的时期。",
+      "key_figures": [
+        "普萨美提克一世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "埃及神庙铭文和王室石碑",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "希罗多德《历史》（第二卷）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "普萨美提克一世的统治通过埃及王表和天文数据已充分确定，存在±1–2年的不确定性。",
+      "cross_references": [
+        "-652-003"
+      ]
+    },
+    {
+      "id": "-651-004",
+      "title": "地中海地区字母文字的发展",
+      "region": "地中海、希腊、黎凡特",
+      "coordinates_approx": "35.0, 20.0",
+      "category": "cultural",
+      "description": "公元前7世纪中叶，字母文字在地中海地区继续发展和传播。至公元前651年，希腊字母正在标准化，字母文字正传播到其他地中海民族。字母文字的采用促进了读写能力、记录保存和文化交流。这一技术创新对希腊文化、哲学和政治制度的发展产生了深远影响。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自铭文和陶器的考古证据",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "关于字母文字发展的历史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "字母文字的发展经历了几个世纪；具体年份的精确断年不确定，通常有±20–50年的误差。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "希腊人在黑海殖民的范围和性质存在争议；一些学者认为希腊人在该地区的存在比传统记载更有限、更晚。具体殖民地和贸易据点的年代仍不确定。普萨美提克一世与亚述的关系存在争议；一些学者认为埃及的独立比传统记载更有限。",
+  "historiographic_note": "公元前651年的记录以亚述和埃及文献为主。希腊文献为后世编纂。资料严重偏向帝国和精英视角。普通民众、被奴役人口和非国家社会的经历在现存记录中基本缺失。",
+  "graph_edges": [
+    {
+      "from": "-651-001",
+      "to": "-669-001",
+      "relation": "led_to",
+      "note": "埃萨尔哈东巩固亚述权力为亚述巴尼拔统治奠定了基础"
+    },
+    {
+      "from": "-651-002",
+      "to": "-600-001",
+      "relation": "part_of",
+      "note": "希腊殖民是一个跨越公元前7–6世纪的多代际进程"
+    }
+  ]
+}

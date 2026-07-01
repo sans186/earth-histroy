@@ -1,0 +1,598 @@
+{
+  "year": 1964,
+  "year_label": "1964 CE",
+  "era_context": "The Cold War intensifies with the Gulf of Tonkin incident escalating U.S. involvement in Vietnam. Nikita Khrushchev is ousted from power in the Soviet Union, replaced by Leonid Brezhnev. The Civil Rights Movement in the U.S. reaches a peak with the Civil Rights Act of 1964. The Beatles dominate popular culture. China conducts its first nuclear weapons test. Decolonization continues across Africa and Asia.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1964-001",
+      "title": "Gulf of Tonkin incident; U.S. escalates military involvement in Vietnam",
+      "region": "Vietnam (Gulf of Tonkin)",
+      "coordinates_approx": "20.5, 106.5",
+      "category": "military",
+      "description": "On August 2 and allegedly August 4, 1964, U.S. destroyers USS Maddox and USS Turner Joy report being attacked by North Vietnamese torpedo boats in the Gulf of Tonkin. The first incident (August 2) is confirmed; the second incident (August 4) is disputed and likely did not occur. The incidents are used by President Lyndon B. Johnson to justify the Gulf of Tonkin Resolution, passed by Congress on August 7, 1964. The resolution grants the President broad authority to wage war in Vietnam without a formal declaration of war. The Gulf of Tonkin incident becomes a controversial turning point in the Vietnam War, with declassified documents later revealing the second incident was fabricated or misinterpreted.",
+      "key_figures": [
+        "Lyndon B. Johnson (U.S. President)",
+        "Robert McNamara (Secretary of Defense)",
+        "Ho Chi Minh (North Vietnamese leader)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Navy incident reports and communications",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Pentagon Papers (declassified 1971)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Declassified NSA documents (2005)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Stanley Karnow, Vietnam: A History (1983)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The August 2 incident is confirmed; the August 4 incident is disputed. Declassified NSA documents (2005) indicate the second incident likely did not occur.",
+      "cross_references": [
+        "1965-001 (Operation Rolling Thunder begins)",
+        "1973-001 (U.S. withdrawal from Vietnam)"
+      ]
+    },
+    {
+      "id": "1964-002",
+      "title": "Civil Rights Act of 1964 signed into law",
+      "region": "United States",
+      "coordinates_approx": "38.8951, -77.0369",
+      "category": "legal",
+      "description": "President Lyndon B. Johnson signs the Civil Rights Act of 1964 into law on July 2, 1964. The act prohibits discrimination based on race, color, religion, sex, or national origin in public accommodations, employment, and education. The act is landmark civil rights legislation that represents the culmination of years of activism by the Civil Rights Movement. The act is passed following the assassination of President John F. Kennedy (November 1963) and intense pressure from civil rights activists, including the March on Washington (August 1963). The Civil Rights Act of 1964 is one of the most significant pieces of legislation in U.S. history.",
+      "key_figures": [
+        "Lyndon B. Johnson (U.S. President)",
+        "Martin Luther King Jr. (Civil Rights leader)",
+        "Malcolm X (Black nationalist leader)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Congress, Civil Rights Act of 1964 (Public Law 88-352)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Johnson's signing statement and speeches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Taylor Branch, Pillar of Fire: America in the King Years 1963\u201365 (1998)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Civil Rights Act signing date is documented in U.S. government records.",
+      "cross_references": [
+        "1963-001 (March on Washington)",
+        "1965-005 (Voting Rights Act signed)"
+      ]
+    },
+    {
+      "id": "1964-003",
+      "title": "Nikita Khrushchev ousted from power in Soviet Union",
+      "region": "Soviet Union",
+      "coordinates_approx": "55.7558, 37.6173",
+      "category": "political",
+      "description": "Nikita Khrushchev is removed from power on October 14, 1964, by the Politburo of the Communist Party of the Soviet Union. Khrushchev is replaced by Leonid Brezhnev as General Secretary and Alexei Kosygin as Premier. Khrushchev's ouster is driven by his unpopularity within the party leadership, his foreign policy failures (Cuban Missile Crisis, Sino-Soviet split), and his domestic policy failures (agricultural problems, economic stagnation). Khrushchev's removal marks the end of the de-Stalinization period and the beginning of the Brezhnev era of ideological conservatism and military buildup.",
+      "key_figures": [
+        "Nikita Khrushchev (ousted General Secretary)",
+        "Leonid Brezhnev (new General Secretary)",
+        "Alexei Kosygin (new Premier)",
+        "Mikhail Suslov (Politburo member, key figure in ouster)"
+      ],
+      "sources": [
+        {
+          "name": "CPSU Central Committee resolutions and Politburo records (declassified)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Soviet state media (Pravda, TASS)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archie Brown, The Rise and Fall of Communism (2009)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Khrushchev's ouster date and the succession of Brezhnev and Kosygin are documented in Soviet government records.",
+      "cross_references": [
+        "1956-001 (Khrushchev's Secret Speech)",
+        "1968-003 (Prague Spring invasion, Brezhnev Doctrine)"
+      ]
+    },
+    {
+      "id": "1964-004",
+      "title": "China conducts first nuclear weapons test",
+      "region": "China (Lop Nur, Xinjiang)",
+      "coordinates_approx": "40.3, 88.8",
+      "category": "military",
+      "description": "China conducts its first nuclear weapons test on October 16, 1964, at the Lop Nur test site in Xinjiang. The test, codenamed 'Device 596,' is a 22-kiloton atomic bomb. China becomes the fifth nuclear power, joining the United States, Soviet Union, United Kingdom, and France. The test is a major achievement for China and demonstrates its technological and military capabilities. The test also marks China's emergence as a major power in the Cold War and increases tensions with the Soviet Union and the United States. The test is condemned by the international community but strengthens China's position in Asia.",
+      "key_figures": [
+        "Mao Zedong (Chairman, CCP)",
+        "Zhou Enlai (Premier)",
+        "Deng Xiaoping (Vice Premier)"
+      ],
+      "sources": [
+        {
+          "name": "Chinese government announcement and state media reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "U.S. intelligence reports and declassified documents",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "John Wilson Lewis and Xue Litai, China Builds the Bomb (1988)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "China's first nuclear test date and location are documented in Chinese government records and confirmed by U.S. intelligence.",
+      "cross_references": [
+        "1945-001 (U.S. atomic bombs on Japan)",
+        "1949-001 (Soviet Union conducts first nuclear test)"
+      ]
+    },
+    {
+      "id": "1964-005",
+      "title": "The Beatles perform on Ed Sullivan Show; British Invasion begins",
+      "region": "United States (New York City)",
+      "coordinates_approx": "40.7128, -74.0060",
+      "category": "cultural",
+      "description": "The Beatles perform on the Ed Sullivan Show on February 9, 1964, before an estimated 73 million viewers. The performance is a watershed moment in popular culture, launching the British Invasion of American music. The Beatles' appearance on Ed Sullivan marks the beginning of Beatlemania in the United States and transforms popular music. The performance includes songs such as 'I Want to Hold Your Hand' and 'She Loves You.' The Beatles' success opens the door for other British bands and marks a shift in popular music from American dominance to British influence.",
+      "key_figures": [
+        "John Lennon (The Beatles)",
+        "Paul McCartney (The Beatles)",
+        "George Harrison (The Beatles)",
+        "Ringo Starr (The Beatles)",
+        "Ed Sullivan (television host)"
+      ],
+      "sources": [
+        {
+          "name": "Ed Sullivan Show broadcast and recordings",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper coverage and photographs",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Mark Lewisohn, The Beatles: All These Years (2013)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Ed Sullivan Show performance date and viewership are documented in television records and contemporary sources.",
+      "cross_references": [
+        "1970-001 (The Beatles break up)",
+        "1980-001 (John Lennon assassinated)"
+      ]
+    },
+    {
+      "id": "1964-006",
+      "title": "Zambia gains independence from Britain",
+      "region": "Zambia",
+      "coordinates_approx": "-13.1339, 27.8493",
+      "category": "political",
+      "description": "Zambia (formerly Northern Rhodesia) gains independence from British rule on October 24, 1964. Kenneth Kaunda becomes the first President. Zambia is a mineral-rich nation with significant copper deposits, which become the foundation of its economy. Kaunda's government adopts a policy of African socialism and non-alignment in the Cold War. Zambia's independence is part of the broader wave of African decolonization in the 1960s and marks the end of British colonial rule in Central Africa.",
+      "key_figures": [
+        "Kenneth Kaunda (first President)",
+        "Harry Nkumbula (rival nationalist leader)"
+      ],
+      "sources": [
+        {
+          "name": "Zambian independence proclamation and constitutional documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British Colonial Office records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Andrew Roberts, Salisbury: African Statesman (1999)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Zambia's independence date and first President are documented in official government records.",
+      "cross_references": [
+        "1960-001 (Decolonization wave in Africa)",
+        "1991-001 (Kaunda loses election in Zambia)"
+      ]
+    },
+    {
+      "id": "1964-007",
+      "title": "Malawi gains independence from Britain",
+      "region": "Malawi",
+      "coordinates_approx": "-13.2543, 34.3015",
+      "category": "political",
+      "description": "Malawi (formerly Nyasaland) gains independence from British rule on July 6, 1964. Hastings Kamuzu Banda becomes the first Prime Minister and later President. Malawi is a landlocked nation with limited economic resources. Banda's government adopts a policy of pragmatic authoritarianism and maintains close ties with South Africa, despite international pressure to support anti-apartheid movements. Malawi's independence is part of the broader wave of African decolonization in the 1960s.",
+      "key_figures": [
+        "Hastings Kamuzu Banda (first Prime Minister, later President)",
+        "Henry Chipembere (rival nationalist leader)"
+      ],
+      "sources": [
+        {
+          "name": "Malawian independence proclamation and constitutional documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British Colonial Office records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Wiseman Chirwa, Democracy and Authoritarianism in Malawi (1998)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Malawi's independence date and first Prime Minister are documented in official government records.",
+      "cross_references": [
+        "1960-001 (Decolonization wave in Africa)",
+        "1994-001 (Banda loses election in Malawi)"
+      ]
+    },
+    {
+      "id": "1964-008",
+      "title": "Leonid Brezhnev consolidates power as General Secretary",
+      "region": "Soviet Union",
+      "coordinates_approx": "55.7558, 37.6173",
+      "category": "political",
+      "description": "Following Nikita Khrushchev's ouster on October 14, 1964, Leonid Brezhnev is elected General Secretary of the Communist Party of the Soviet Union. Brezhnev's rise to power marks the beginning of the Brezhnev era, characterized by ideological conservatism, military buildup, and the doctrine of limited sovereignty. Brezhnev consolidates his power throughout 1964 and 1965, eliminating rivals and establishing his authority. The Brezhnev era lasts until his death in 1982.",
+      "key_figures": [
+        "Leonid Brezhnev (new General Secretary)",
+        "Alexei Kosygin (new Premier)",
+        "Mikhail Suslov (Politburo member)"
+      ],
+      "sources": [
+        {
+          "name": "CPSU Central Committee resolutions and Politburo records (declassified)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Soviet state media (Pravda, TASS)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archie Brown, The Rise and Fall of Communism (2009)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Brezhnev's election as General Secretary is documented in Soviet government records.",
+      "cross_references": [
+        "1964-003 (Khrushchev ousted)",
+        "1968-003 (Prague Spring invasion, Brezhnev Doctrine)"
+      ]
+    },
+    {
+      "id": "1964-009",
+      "title": "Ranger 7 spacecraft transmits close-up images of the Moon",
+      "region": "Moon (Mare Nubium)",
+      "coordinates_approx": "-10.6, -20.6",
+      "category": "exploration",
+      "description": "NASA's Ranger 7 spacecraft crashes into the Moon on July 31, 1964, transmitting 4,316 high-resolution photographs of the lunar surface before impact. Ranger 7 is the first successful U.S. lunar impact mission and provides detailed information about the Moon's surface in preparation for the Apollo program. The mission demonstrates the feasibility of soft landing on the Moon and provides crucial data for selecting Apollo landing sites.",
+      "key_figures": [
+        "Wernher von Braun (U.S. rocket scientist)",
+        "JPL scientists and engineers"
+      ],
+      "sources": [
+        {
+          "name": "NASA Jet Propulsion Laboratory mission reports and press releases",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ranger 7 telemetry and image data",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David Harland, The Soviet Conquest of Space (2003)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ranger 7 impact date and image transmission are documented in NASA records.",
+      "cross_references": [
+        "1962-001 (Mariner 2 Venus mission)",
+        "1966-004 (Luna 9 Moon landing)"
+      ]
+    },
+    {
+      "id": "1964-010",
+      "title": "Leonid Brezhnev visits East Germany; Soviet-East German alliance strengthened",
+      "region": "East Germany (German Democratic Republic)",
+      "coordinates_approx": "52.5200, 13.4050",
+      "category": "political",
+      "description": "Leonid Brezhnev visits East Germany in December 1964, shortly after becoming General Secretary. The visit reinforces Soviet commitment to the German Democratic Republic and strengthens the Soviet-East German alliance. Brezhnev's visit signals Soviet determination to maintain control over Eastern Europe and prevent any liberalization or drift toward the West.",
+      "key_figures": [
+        "Leonid Brezhnev (Soviet General Secretary)",
+        "Walter Ulbricht (East German leader)",
+        "Erich Honecker (East German politician)"
+      ],
+      "sources": [
+        {
+          "name": "Soviet TASS and East German ADN news agency reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Soviet and East German government communiqu\u00e9s",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Wilfried Loth, The Division of the World, 1941\u20131990 (1998)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Brezhnev's visit to East Germany is documented in contemporary news reports and government records.",
+      "cross_references": [
+        "1968-003 (Prague Spring invasion)",
+        "1989-001 (Fall of the Berlin Wall)"
+      ]
+    },
+    {
+      "id": "1964-011",
+      "title": "Tanganyika and Zanzibar merge to form Tanzania",
+      "region": "Tanzania",
+      "coordinates_approx": "-6.3690, 34.8888",
+      "category": "political",
+      "description": "On April 26, 1964, Tanganyika and Zanzibar merge to form the United Republic of Tanganyika and Zanzibar, later renamed Tanzania. Julius Nyerere, President of Tanganyika, becomes President of the merged state. The merger is driven by political considerations and the desire to create a stronger African state. Tanzania becomes a major player in African politics and adopts a policy of African socialism under Nyerere's leadership. The merger marks a significant moment in African decolonization and nation-building.",
+      "key_figures": [
+        "Julius Nyerere (President of Tanganyika, later Tanzania)",
+        "Abeid Karume (President of Zanzibar)"
+      ],
+      "sources": [
+        {
+          "name": "Tanzanian government proclamation and constitutional documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper coverage",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Priya Lal, African Socialism in Tanzania: Between the Village and the World (2015)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The merger date and the names of the leaders are documented in official government records.",
+      "cross_references": [
+        "1961-002 (Tanganyika gains independence)",
+        "1964-012 (Zanzibar revolution)"
+      ]
+    },
+    {
+      "id": "1964-012",
+      "title": "Zanzibar revolution; overthrow of Sultan",
+      "region": "Zanzibar",
+      "coordinates_approx": "-6.1667, 39.2000",
+      "category": "political",
+      "description": "On January 12, 1964, a revolution in Zanzibar overthrows the Sultan and the Arab-dominated government. The revolution is led by John Okello and other nationalist leaders. The revolution results in the deaths of hundreds of people and the displacement of the Arab population. The new government, led by Abeid Karume, adopts a socialist orientation and aligns with Tanganyika. The revolution is followed by the merger of Zanzibar and Tanganyika to form Tanzania on April 26, 1964.",
+      "key_figures": [
+        "John Okello (revolutionary leader)",
+        "Abeid Karume (new leader of Zanzibar)",
+        "Sultan Jamshid bin Abdullah (ousted Sultan)"
+      ],
+      "sources": [
+        {
+          "name": "Zanzibar government announcements and revolutionary documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper coverage",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Priya Lal, African Socialism in Tanzania: Between the Village and the World (2015)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Zanzibar revolution date and key figures are documented in contemporary sources.",
+      "cross_references": [
+        "1964-011 (Tanganyika and Zanzibar merge to form Tanzania)"
+      ]
+    },
+    {
+      "id": "1964-013",
+      "title": "Mariner 4 spacecraft launched toward Mars",
+      "region": "Space (Mars mission)",
+      "coordinates_approx": null,
+      "category": "exploration",
+      "description": "NASA's Mariner 4 spacecraft is launched on November 28, 1964, on a mission to Mars. The spacecraft will reach Mars on July 14\u201315, 1965, transmitting the first close-up photographs of the Martian surface. Mariner 4 is a major achievement in planetary exploration and provides crucial data for future Mars missions.",
+      "key_figures": [
+        "Wernher von Braun (U.S. rocket scientist)",
+        "JPL scientists and engineers"
+      ],
+      "sources": [
+        {
+          "name": "NASA Jet Propulsion Laboratory mission reports and press releases",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David Harland, The Soviet Conquest of Space (2003)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mariner 4 launch date is documented in NASA records.",
+      "cross_references": [
+        "1965-003 (Mariner 4 reaches Mars)",
+        "1976-001 (Viking 1 Mars landing)"
+      ]
+    },
+    {
+      "id": "1964-014",
+      "title": "Leonid Brezhnev consolidates power; Khrushchev era definitively ended",
+      "region": "Soviet Union",
+      "coordinates_approx": "55.7558, 37.6173",
+      "category": "political",
+      "description": "By late 1964, Leonid Brezhnev has consolidated his position as General Secretary of the Communist Party and is firmly in control of the Soviet state. The period of collective leadership following Nikita Khrushchev's ouster has ended. Brezhnev's era, characterized by ideological conservatism, military buildup, and the doctrine of limited sovereignty, is now established. The Soviet Union pursues d\u00e9tente with the West while maintaining tight control over Eastern Europe. This marks the beginning of the long Brezhnev stagnation period.",
+      "key_figures": [
+        "Leonid Brezhnev (General Secretary, CPSU)",
+        "Alexei Kosygin (Premier)",
+        "Mikhail Suslov (Ideological chief)"
+      ],
+      "sources": [
+        {
+          "name": "CPSU Central Committee resolutions and Politburo records (declassified)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Soviet state media (Pravda, TASS)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archie Brown, The Rise and Fall of Communism (2009)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Brezhnev's consolidation was a gradual process; 1964 marks the point at which his control was clearly established, though some sources date full consolidation to 1965\u20131966.",
+      "cross_references": [
+        "1964-003 (Khrushchev ousted)",
+        "1968-003 (Prague Spring invasion, Brezhnev Doctrine)"
+      ]
+    },
+    {
+      "id": "1964-015",
+      "title": "Warren Commission Report released; investigation of Kennedy assassination",
+      "region": "United States",
+      "coordinates_approx": "38.8951, -77.0369",
+      "category": "political",
+      "description": "The Warren Commission Report is released on September 27, 1964, concluding that Lee Harvey Oswald acted alone in assassinating President John F. Kennedy on November 22, 1963. The report is based on an investigation led by Chief Justice Earl Warren. The report concludes that Oswald fired three shots from the Texas School Book Depository, with one shot striking Kennedy and another striking Governor John Connally. The report is controversial and disputed by many Americans, who believe there was a conspiracy. Declassified documents later reveal that the Warren Commission had incomplete information and that some evidence was withheld.",
+      "key_figures": [
+        "Earl Warren (Chief Justice, Warren Commission chairman)",
+        "Lee Harvey Oswald (alleged assassin, killed November 1963)",
+        "Jack Ruby (Oswald's killer)"
+      ],
+      "sources": [
+        {
+          "name": "Warren Commission Report (official government document)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Declassified FBI and CIA documents",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Edward Jay Epstein, Inquest: The Warren Commission and the Establishment of Truth (1966)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Warren Commission Report release date is documented in government records. The conclusions of the report remain disputed.",
+      "cross_references": [
+        "1963-002 (Kennedy assassination)",
+        "1979-001 (House Select Committee on Assassinations)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Gulf of Tonkin incident is often presented as a clear-cut attack on U.S. destroyers; declassified NSA documents (2005) indicate the second incident (August 4) likely did not occur, and the first incident (August 2) may have been misinterpreted. The Warren Commission Report's conclusion that Lee Harvey Oswald acted alone is disputed by many scholars and conspiracy theorists; declassified documents reveal the Commission had incomplete information. The characterization of Khrushchev's ouster as a 'coup' is sometimes used; in fact, it was a formal removal by the Politburo, though the process was secretive. The Beatles' Ed Sullivan Show performance is sometimes credited with 'launching' the British Invasion; in fact, British bands had been gaining popularity in the U.S. for months before the performance.",
+  "historiographic_note": "1964 is exceptionally well-documented due to proximity to the present and the richness of contemporary media, government records, and later oral histories. Western sources dominate the record, particularly for U.S. and European events. The Gulf of Tonkin incident is extensively documented in U.S. military records and declassified Pentagon materials, though the truth of the second incident remains disputed. The Warren Commission Report is a primary source, though it is now known to be incomplete and based on withheld evidence. Soviet sources are heavily mediated through state propaganda, making independent verification difficult for some claims. African decolonization events are less densely documented in English-language historiography, though primary sources exist in local archives. The Space Race is well-documented due to public interest and declassification of government records.",
+  "graph_edges": [
+    {
+      "from": "1964-001",
+      "to": "1965-001",
+      "relation": "led_to",
+      "note": "Gulf of Tonkin incident leads to Operation Rolling Thunder"
+    },
+    {
+      "from": "1964-002",
+      "to": "1965-005",
+      "relation": "led_to",
+      "note": "Civil Rights Act of 1964 leads to Voting Rights Act of 1965"
+    },
+    {
+      "from": "1964-003",
+      "to": "1964-008",
+      "relation": "contemporary_with",
+      "note": "Khrushchev's ouster and Brezhnev's rise occur simultaneously"
+    },
+    {
+      "from": "1964-004",
+      "to": "1968-001",
+      "relation": "led_to",
+      "note": "China's nuclear test increases Cold War tensions"
+    },
+    {
+      "from": "1964-005",
+      "to": "1970-001",
+      "relation": "led_to",
+      "note": "Beatles' Ed Sullivan performance leads to their dominance of popular music"
+    },
+    {
+      "from": "1964-011",
+      "to": "1964-012",
+      "relation": "contemporary_with",
+      "note": "Zanzibar revolution precedes merger with Tanganyika"
+    },
+    {
+      "from": "1964-012",
+      "to": "1964-011",
+      "relation": "led_to",
+      "note": "Zanzibar revolution leads to merger with Tanganyika"
+    },
+    {
+      "from": "1964-013",
+      "to": "1965-003",
+      "relation": "led_to",
+      "note": "Mariner 4 launch leads to Mars flyby in 1965"
+    }
+  ]
+}

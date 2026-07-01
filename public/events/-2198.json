@@ -1,0 +1,83 @@
+{
+  "year": -2198,
+  "year_label": "公元前2198年",
+  "era_context": "埃及第三王朝末期（胡尼统治）和美索不达米亚后阿卡德分裂的延续。印度河流域文明继续保持成熟阶段，拥有既定的贸易网络。黎凡特和安纳托利亚的早期青铜时代文化正在发展日益复杂的城市中心。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚（商朝地区以外书面记录有限）",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2198-001",
+      "title": "埃及第三王朝胡尼统治持续",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "胡尼在第三王朝末期的统治继续。关于这一具体年份，几乎没有同时代铭文证据留存。金字塔建造和行政巩固持续进行，但项目的规模和雄心将在其继任者斯尼夫鲁统治下急剧增加。这一时期的个别年份的具体事件在现存文献中未记载。",
+      "key_figures": [
+        "胡尼（第三王朝法老）"
+      ],
+      "sources": [
+        {
+          "name": "王表（都灵、阿拜多斯）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "美杜姆金字塔复合体考古记录",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "该年份没有具体事件被记载。该年份是根据传统年代学分配在胡尼统治期内的，但个别年份的记载并不存在。",
+      "cross_references": [
+        "胡尼统治（-2199-001）的一部分"
+      ]
+    },
+    {
+      "id": "-2198-002",
+      "title": "美索不达米亚城邦巩固和阿摩利人迁徙",
+      "region": "美索不达米亚",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "在阿卡德崩溃之后，阿摩利人和其他部落群体继续从叙利亚草原迁移到美索不达米亚。这些迁移在后世楔形文字文献和苏美尔王表中得到证实，逐渐改变了政治格局。美索不达米亚南部城市如拉格什和乌鲁克重新确立了地方权威，而北部地区经历了来自迁入人口日益增长的压力。这一过渡期持续了数十年。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "苏美尔王表",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "楔形文字行政文献",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "美索不达米亚北部的考古聚落模式",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿摩利人迁徙和城邦复兴的一般模式有充分证据。该年份的具体事件未被记录；该过程是从更广泛的年代和考古背景中得知的。",
+      "cross_references": [
+        "后阿卡德过渡（-2199-002）的一部分"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "公元前2198年的事件没有具体的反驳证据，因为该年份没有具体事件被记载。更广泛的年代框架仍有争议。",
+  "historiographic_note": "公元前2198年处于文献记载稀少的时期。现存文献中没有记载该年份的具体事件。该年的历史记录是根据更广泛的年代框架和考古地层推断的，而非依据同时代文献。这对于埃及古王国和美索不达米亚后阿卡德时期是典型的。",
+  "graph_edges": [
+    {
+      "from": "-2198-001",
+      "to": "-2199-001",
+      "relation": "contemporary_with",
+      "note": "胡尼统治的延续"
+    }
+  ]
+}

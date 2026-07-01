@@ -1,0 +1,67 @@
+{
+  "year": -778,
+  "year_label": "公元前778年",
+  "era_context": "铁器时代早期。亚述王沙尔马那塞尔三世统治。希腊处于几何时期。埃及分裂。中国西周衰落。地中海是腓尼基商业主导和新兴希腊贸易网络的区域。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "大洋洲",
+    "中亚",
+    "印度",
+    "东南亚"
+  ],
+  "events": [
+    {
+      "id": "-778-001",
+      "title": "沙尔马那塞尔三世在叙利亚和黎凡特的军事征伐",
+      "region": "美索不达米亚、叙利亚、腓尼基",
+      "coordinates_approx": "35.5, 34.5",
+      "category": "military",
+      "description": "沙尔马那塞尔三世继续在叙利亚和黎凡特进行系统的军事征伐，巩固亚述霸权。这些征伐既涉及直接军事征服，也包括与当地统治者建立朝贡关系。征伐记载于亚述王室铭文中，代表了新亚述行政和军事体系的扩张。",
+      "key_figures": [
+        "沙尔马那塞尔三世（亚述国王）"
+      ],
+      "sources": [
+        {
+          "name": "沙尔马那塞尔三世王室铭文",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "沙尔马那塞尔三世的征伐在王室铭文中记载充分，但其统治期间各征伐的精确年代存在一定不确定性。铭文按统治年组织，但绝对年代存在争议（±2–3年）。",
+      "cross_references": []
+    },
+    {
+      "id": "-778-002",
+      "title": "希腊的几何陶器传统",
+      "region": "希腊",
+      "coordinates_approx": "38.0, 23.5",
+      "category": "cultural",
+      "description": "希腊的几何时期持续，具有独特的陶器生产和贸易。该时期的特点是抽象几何图案和逐渐出现的具象表现。陶器表明希腊社群间区域间贸易和文化交流日益增长。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "陶器发掘的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "几何时期通过考古证据已充分确立。该时期内的年代测定为近似值（±10–15年）。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的反证。",
+  "historiographic_note": "公元前778年的文献稀少且在区域上不均衡。近东（亚述）通过王室铭文拥有最佳记载。希腊有考古证据但无同时代文字记录。世界大部分地区——非洲、北欧、近东以外的亚洲、美洲和大洋洲——在该年没有文字记载。幸存资料严重偏向帝国和精英叙事。",
+  "graph_edges": [
+    {
+      "from": "-778-001",
+      "to": "-775-001",
+      "relation": "part_of",
+      "note": "沙尔马那塞尔三世公元前778年的征伐是其更广泛军事计划的一部分"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "year": -2293,
+  "year_label": "公元前2293年",
+  "era_context": "与-2290、-2291和-2292年相同：古王国时期的埃及正在衰落，阿卡德帝国处于纳拉姆-辛统治之下，印度河流域文明处于成熟阶段，黎凡特和安纳托利亚处于早期青铜时代三期。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "东亚",
+    "美洲",
+    "北欧"
+  ],
+  "events": [
+    {
+      "id": "-2293-001",
+      "title": "阿卡德帝国：军事与行政巩固",
+      "region": "美索不达米亚，阿卡德帝国",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "military",
+      "description": "纳拉姆-辛继续进行军事行动和行政巩固。他的统治代表了阿卡德领土扩张的顶峰，尽管帝国面临扎格罗斯山区的古提部落和西部阿摩利人入侵的日益增长的压力。帝国的军事和行政机构被拉伸以维持对被征服领土的控制。",
+      "key_figures": [
+        "纳拉姆-辛（阿卡德国王）"
+      ],
+      "sources": [
+        {
+          "name": "纳拉姆-辛铭文与行政文书",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆-辛的统治有充分证据。具体归于-2293年的年代取决于纪年体系。",
+      "cross_references": [
+        "-2290-001",
+        "-2291-001",
+        "-2292-001"
+      ]
+    },
+    {
+      "id": "-2293-002",
+      "title": "印度河流域文明：成熟阶段稳定",
+      "region": "印度河流域，南亚",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "cultural",
+      "description": "印度河流域文明继续其稳定、等级化的城市文明。考古记录中没有明显变化。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古地层",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "成熟阶段在考古上有充分证据；无法进行逐年断代。",
+      "cross_references": [
+        "-2290-002",
+        "-2291-002",
+        "-2292-002"
+      ]
+    },
+    {
+      "id": "-2293-003",
+      "title": "埃及第六王朝：地方自治加强",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "第六王朝继续其中央权威的逐渐丧失。地方州长积累权力和资源。",
+      "key_figures": [
+        "佩皮二世（法老，第六王朝）"
+      ],
+      "sources": [
+        {
+          "name": "州长自传和墓室铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "这一趋势有充分证据；逐年断代是约定俗成的。",
+      "cross_references": [
+        "-2290-003",
+        "-2291-003",
+        "-2292-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现所列事件的具体反驳证据。",
+  "historiographic_note": "-2293年的历史记录与-2290、-2291和-2292年无法区分。为每一年分派不同事件是人为的，反映了古代纪年的局限性。对于这一时期，利用现有资料无法达到逐年精度。",
+  "graph_edges": [
+    {
+      "from": "-2293-001",
+      "to": "-2290-001",
+      "relation": "contemporary_with",
+      "note": "属于同一宏观阿卡德军事扩张模式的一部分"
+    }
+  ]
+}

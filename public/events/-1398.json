@@ -1,0 +1,99 @@
+{
+  "year": -1398,
+  "year_label": "公元前1399年",
+  "era_context": "青铜时代晚期的延续。图特摩斯三世统治下的埃及仍为地区主导力量；赫梯帝国正在安纳托利亚巩固其地位；迈锡尼希腊继续其宫殿时期的繁荣；商朝维持对中国控制。这是一个相对稳定的国际关系时期，夹杂军事战役和贸易。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "太平洋岛屿",
+    "中亚（文字记录有限）"
+  ],
+  "events": [
+    {
+      "id": "-1398-001",
+      "title": "图特摩斯三世在黎凡特的持续军事战役",
+      "region": "埃及、黎凡特、叙利亚",
+      "coordinates_approx": "33.3°N, 35.5°E",
+      "category": "military",
+      "description": "图特摩斯三世继续其系统性战役，以维持埃及对黎凡特领土的控制并压制米坦尼的影响。这些战役是他巩固埃及帝国和确保贸易路线的更广泛战略的一部分。公元前1398年属于他在该地区积极军事行动的时期。",
+      "key_figures": [
+        "图特摩斯三世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "记载图特摩斯三世战役的卡纳克神庙铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "图特摩斯三世的战役总体上记录良好，但公元前1398年的具体事件没有单独证实。",
+      "cross_references": [
+        "-1399-001"
+      ]
+    },
+    {
+      "id": "-1398-002",
+      "title": "迈锡尼在东地中海的贸易网络",
+      "region": "希腊、爱琴海、东地中海",
+      "coordinates_approx": "37.7°N, 23.0°E",
+      "category": "economic",
+      "description": "迈锡尼商人和贸易者积极参与整个东地中海的商业活动，用希腊陶器、橄榄油和葡萄酒交换锡、雪松和其他奢侈品。这一贸易网络将迈锡尼希腊与埃及、黎凡特和安纳托利亚联系起来，促进了文化交流和经济相互依存。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "东地中海遗址中迈锡尼陶器的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "记录贸易物品的线性文字B泥板",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "迈锡尼贸易网络在考古学上得到充分证实，但公元前1398年的具体交易没有记载。",
+      "cross_references": []
+    },
+    {
+      "id": "-1398-003",
+      "title": "商代甲骨占卜与仪式实践",
+      "region": "中国，安阳",
+      "coordinates_approx": "34.3°N, 114.3°E",
+      "category": "religious",
+      "description": "商朝继续其精密的甲骨占卜系统，该系统同时服务于宗教和行政功能。这些占卜涉及战争、农业、天气和王位继承等问题，反映了宗教实践与政治治理的融合。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "安阳出土的甲骨",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "商代占卜实践有充分证据，但公元前1398年的具体占卜没有单独记载。",
+      "cross_references": [
+        "-1399-004"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现特定的否定证据。然而，该时期更广泛的年代学框架仍存争议，特别是埃及和近东年代学的同步。",
+  "historiographic_note": "公元前1398年的历史记录与公元前1399年同样稀少，主要依赖埃及行政记录和考古证据。由于缺乏年份特定的文献，这一年主要通过青铜时代晚期的更广泛背景而非记录事件来理解。",
+  "graph_edges": [
+    {
+      "from": "-1398-001",
+      "to": "-1399-001",
+      "relation": "part_of",
+      "note": "图特摩斯三世统治和战役的延续"
+    },
+    {
+      "from": "-1398-002",
+      "to": "-1399-003",
+      "relation": "contemporary_with",
+      "note": "迈锡尼贸易网络与同时代希腊文明相连"
+    }
+  ]
+}

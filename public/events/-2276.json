@@ -1,0 +1,107 @@
+{
+  "year": -2276,
+  "year_label": "公元前2276年",
+  "era_context": "晚期古王国埃及（第六王朝）、纳拉姆-辛治下的阿卡德帝国和成熟的哈拉帕文明。这一时期的特征是埃及和阿卡德中央权力逐渐削弱，而哈拉帕文明保持稳定。该年份处于一个过渡阶段，将在随后的几个世纪引发重大政治动荡。",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "大洋洲",
+    "东欧和草原地带",
+    "东亚"
+  ],
+  "events": [
+    {
+      "id": "-2276-001",
+      "title": "埃及的佩皮二世——统治延续与行政分裂",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "佩皮二世统治继续，古王国集权行政体系持续分裂。地方州长日益独立，自行处理事务并积累财富。法老的权威虽名义上仍至高无上，但在偏远行省已变得更具仪式性而非实际性。这一时期代表古王国崩溃进入第一中间期前的最后阶段。",
+      "key_figures": [
+        "佩皮二世（奈弗尔卡雷），埃及法老"
+      ],
+      "sources": [
+        {
+          "name": "墓葬铭文与行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "分权过程有充分印证。公元前2276年这一具体年份是按惯例给定的。",
+      "cross_references": [
+        "属于古王国衰落背景",
+        "先于公元前2184-001（古王国结束）"
+      ]
+    },
+    {
+      "id": "-2276-002",
+      "title": "阿卡德的纳拉姆-辛——帝国达最大版图",
+      "region": "美索不达米亚、黎凡特、安纳托利亚",
+      "coordinates_approx": "44.0, 33.0",
+      "category": "political",
+      "description": "纳拉姆-辛的阿卡德帝国达到最大领土范围，控制着美索不达米亚、黎凡特、安纳托利亚部分地区和扎格罗斯山脉。然而，帝国正显示出紧张迹象：维持如此广阔的领土需要持续军事投入，来自古提人和其他群体的外部压力日益增长。帝国的行政体系已拉伸至极限。",
+      "key_figures": [
+        "纳拉姆-辛，阿卡德王"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德王室铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "楔形文字行政泥板",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆-辛的统治及帝国范围有充分记载。绝对年代存在±10—20年的不确定性。",
+      "cross_references": [
+        "承继公元前2277-002",
+        "先于公元前2218-001（纳拉姆-辛统治结束及阿卡德衰落的开始）"
+      ]
+    },
+    {
+      "id": "-2276-003",
+      "title": "哈拉帕文明——稳定的成熟阶段",
+      "region": "印度河谷",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "哈拉帕文明继续其稳定的成熟阶段。考古证据显示城市组织、贸易模式或物质文化无显著变化。该文明的经济依然基于农业和长途贸易。未解读的文字继续在印章和陶器上使用，表明一个持续的行政体系。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "考古发掘与物质文化分析",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈拉帕文明的存在与特征已由考古学确认。无法识别出特定年份的事件。",
+      "cross_references": [
+        "承继公元前2277-003",
+        "属于哈拉帕成熟阶段大背景（约公元前2600—1900年）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未识别出所列事件的具体反证证据。前几年所指出的史学问题仍适用。",
+  "historiographic_note": "公元前2276年的历史记录依然稀少，严重依赖埃及和阿卡德资料。印度河谷仅通过考古学获知。所有事件定年均存在±10—50年的不确定性。",
+  "graph_edges": [
+    {
+      "from": "-2276-001",
+      "to": "-2277-001",
+      "relation": "contemporary_with",
+      "note": "佩皮二世统治延续"
+    },
+    {
+      "from": "-2276-002",
+      "to": "-2277-002",
+      "relation": "contemporary_with",
+      "note": "纳拉姆-辛统治延续"
+    }
+  ]
+}

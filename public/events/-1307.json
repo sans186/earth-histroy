@@ -1,0 +1,108 @@
+{
+  "year": -1307,
+  "year_label": "公元前1307年",
+  "era_context": "青铜时代晚期，主要大国格局相同：埃及拉美西斯二世、赫梯帝国穆尔西里三世、爱琴海迈锡尼文明、巴比伦加喜特王朝。这一时期的特点是帝国巩固、广泛的贸易网络以及多极大国体系的维持。地区冲突持续存在，但主要大国避免直接对抗。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "东亚（除甲骨文记录外）",
+    "大洋洲与太平洋",
+    "中亚",
+    "南亚（有限文字记录）"
+  ],
+  "events": [
+    {
+      "id": "-1307-001",
+      "title": "拉美西斯二世治下的埃及行政重组",
+      "region": "埃及",
+      "coordinates_approx": "25.0,32.0",
+      "category": "political",
+      "description": "拉美西斯二世实施行政改革，以巩固对埃及广阔领土和资源的控制。这些改革记录在纸莎草和行政记录中，重组了省级治理和税收体系。改革反映了管理庞大帝国的挑战以及维持对遥远省份中央集权的必要性。",
+      "key_figures": [
+        "拉美西斯二世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "来自代尔麦地那及其他遗址的纸莎草行政记录",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "记载行政头衔和结构的铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "行政改革在记录中有所记载，但精确断代至公元前1307年不确定。改革可能持续了数年而非在单一年份完成。",
+      "cross_references": []
+    },
+    {
+      "id": "-1307-002",
+      "title": "阿达德-苏马-伊迪纳治下的加喜特巴比伦",
+      "region": "美索不达米亚",
+      "coordinates_approx": "32.5,44.4",
+      "category": "political",
+      "description": "加喜特王朝在阿达德-苏马-伊迪纳领导下继续统治巴比伦。其统治的特点是努力维持巴比伦的独立及其在美索不达米亚的影响力，同时管理与邻国的关系。巴比伦文化和学术在此时期繁荣发展，在数学、天文和文学方面取得进步。",
+      "key_figures": [
+        "阿达德-苏马-伊迪纳（巴比伦国王）"
+      ],
+      "sources": [
+        {
+          "name": "巴比伦王表与编年史",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "楔形文字铭文与行政文本",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "加喜特王朝的统治有充分证据，但个别国王的精确年代仍存在学术争议。不同的编年系统将阿达德-苏马-伊迪纳的统治置于不同时期。",
+      "cross_references": []
+    },
+    {
+      "id": "-1307-003",
+      "title": "埃及与赫梯影响下的黎凡特城邦",
+      "region": "叙利亚-巴勒斯坦",
+      "coordinates_approx": "34.0,35.0",
+      "category": "political",
+      "description": "黎凡特城邦在埃及和赫梯帝国的竞争利益中周旋。比布鲁斯、西顿和推罗等城市与两个大国保持商业网络和外交关系。考古证据显示持续的繁荣和贸易活动。这些城市在东地中海贸易网络中充当关键中介。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "黎凡特发掘的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "埃及与赫梯的外交通信",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "黎凡特城市的繁荣和贸易活动通过考古学得到充分证实。外交关系在埃及和赫梯记录中有记载。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "加喜特王朝的年代是古代近东研究中最具争议的问题之一。不同学者提出的编年系统相差数十年或更多。阿达德-苏马-伊迪纳统治的精确年代不确定，一些学者质疑他是否在公元前1307年统治，或处于不同时期。此外，埃及和赫梯对黎凡特城邦的控制程度在较旧学术中有时被夸大；这些城市保持相当大的自治权。",
+  "historiographic_note": "公元前1307年的历史记录以埃及、赫梯和巴比伦史源为主，反映了帝国宫廷的视角。黎凡特证据主要来自考古学和帝国记录中的偶发提及。记录严重偏向精英政治事件。世界大部分地区在文字史源中无记载。该时期的年代不确定性显著，尤其是美索不达米亚。",
+  "graph_edges": [
+    {
+      "from": "-1307-001",
+      "to": "-1305-001",
+      "relation": "contemporary_with",
+      "note": "行政重组与军事行动是拉美西斯二世统治的并行方面"
+    },
+    {
+      "from": "-1307-003",
+      "to": "-1305-002",
+      "relation": "contemporary_with",
+      "note": "黎凡特城邦存在于埃及-赫梯关系建立的外交框架内"
+    }
+  ]
+}

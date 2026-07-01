@@ -1,0 +1,117 @@
+{
+  "year": 172,
+  "year_label": "172年",
+  "era_context": "马可·奥勒留正处于东方巡视的最后阶段，在阿维狄乌斯·卡西乌斯叛乱后花了约两年时间巩固行省权威。罗马帝国正进入北部前线军事压力再度增大的时期。在中国，东汉王朝继续衰落。贵霜帝国仍然繁荣。本年标志着马可·奥勒留统治的一个转折点，他准备返回多瑙河前线。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "罗马边境以北的北欧地区",
+    "前哥伦布时期美洲",
+    "东南亚",
+    "印度（该年文字记载有限）"
+  ],
+  "events": [
+    {
+      "id": "172-001",
+      "title": "马可·奥勒留准备返回多瑙河前线",
+      "region": "罗马帝国",
+      "coordinates_approx": "45.0,25.0",
+      "category": "military",
+      "description": "在东方行省停留约两年后，马可·奥勒留开始准备返回多瑙河前线，那里日耳曼部落和其他北方民族的军事压力有所增加。皇帝的返回标志着帝国重心重新转向北部前线。他的东方巩固被视为成功，恢复了忠诚并重组了行省管理。",
+      "key_figures": [
+        "马可·奥勒留（罗马皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "《奥古斯塔史·马可·奥勒留传》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "卡西乌斯·狄奥《罗马史》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "马可·奥勒留返回的大致时间线有充分记载。172年内的具体时机年代不够精确。",
+      "cross_references": [
+        "173-001",
+        "174-001"
+      ]
+    },
+    {
+      "id": "172-002",
+      "title": "日耳曼部落加大对罗马多瑙河前线的压力",
+      "region": "罗马帝国（多瑙河前线）",
+      "coordinates_approx": "45.0,25.0",
+      "category": "military",
+      "description": "日耳曼部落，包括马可曼尼人和夸迪人，加大对罗马多瑙河前线的军事压力。这场冲突的升级促使马可·奥勒留从东方返回，并标志着北部前线新一轮军事战役的开始。这种压力反映了北欧更广泛的人口移动和资源竞争。",
+      "key_figures": [
+        "日耳曼部落领袖（姓名未在现存史料中记载）"
+      ],
+      "sources": [
+        {
+          "name": "卡西乌斯·狄奥《罗马史》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "《奥古斯塔史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "前线压力总体增大有充分记载。172年内的具体军事交战年代不够精确。",
+      "cross_references": [
+        "172-001"
+      ]
+    },
+    {
+      "id": "172-003",
+      "title": "东汉王朝继续衰落；黄巾运动兴起",
+      "region": "中国（东汉）",
+      "coordinates_approx": "35.0,110.0",
+      "category": "religious",
+      "description": "东汉朝廷的虚弱和腐败助长了道教和弥赛亚宗教运动的兴起，包括原始黄巾运动。这些运动在农民和下层阶级中吸引追随者，提供精神拯救和社会批判。这些运动将在十年内正式组织成黄巾起义，加速王朝的崩溃。",
+      "key_figures": [
+        "早期道教宗教领袖（姓名未清楚记载）"
+      ],
+      "sources": [
+        {
+          "name": "范晔《后汉书》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "陈寿《三国志》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "这些运动的兴起在后世史料中有记载。早期组织阶段的具体年代不确定。",
+      "cross_references": [
+        "173-003",
+        "184-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "马可·奥勒留从东方返回的具体时间在学者中存在争议。一些史料表明他在东方行省停留的时间比其他史料指示的要长。172年日耳曼对多瑙河前线压力的确切性质和强度没有明确记载；部分学者认为威胁可能被后世史料夸大了。",
+  "historiographic_note": "172年的文献记载量对罗马帝国来说为中等，但具体军事事件不如政治巩固那样有充分证据。中国史料在这一衰落时期对具体年份的记载不够精确。记载仍然严重偏向精英政治和军事事件。宗教运动的兴起仅在后世史料中有记载，使得精确断代困难。撒哈拉以南非洲、北欧和美洲仍处于历史记载之外。",
+  "graph_edges": [
+    {
+      "from": "172-001",
+      "to": "172-002",
+      "relation": "caused_by",
+      "note": "日耳曼压力促使马可·奥勒留返回多瑙河前线"
+    },
+    {
+      "from": "172-003",
+      "to": "184-001",
+      "relation": "led_to",
+      "note": "早期宗教运动助长了黄巾起义"
+    }
+  ]
+}

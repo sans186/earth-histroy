@@ -1,0 +1,52 @@
+{
+  "year": -948,
+  "year_label": "公元前948年",
+  "era_context": "早期铁器时代II的延续。Ashurnasirpal II巩固亚述军事力量。中国的周朝在周康王统治下保持稳定。埃及在第21王朝下分裂。黎凡特是小王国和城邦的拼凑，其中一些开始采用字母文字。希腊处于几何时期；城邦制度尚未完全形成。这是一个过渡时代：铁器技术传播、国家官僚机构成熟、长途贸易网络扩展。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "大洋洲",
+    "前哥伦布时期美洲"
+  ],
+  "events": [
+    {
+      "id": "-948-001",
+      "title": "Ashurnasirpal II在叙利亚北部和黎凡特的军事行动",
+      "region": "美索不达米亚和黎凡特（亚述、叙利亚、腓尼基）",
+      "coordinates_approx": "35.5, 37.0",
+      "category": "military",
+      "description": "Ashurnasirpal II继续其系统性的战役以扩大亚述影响力并向邻国索取贡赋。到公元前948年，他很可能已进行过进入叙利亚北部（阿拉米人国家地区）的战役，并开始建立将表征新亚述霸权的附庸关系网络。这些战役记载于他的编年史，其中记录了对城市的摧毁、人口流放和贡赋的征收。战役服务于战略目的（控制贸易路线）和意识形态目的（通过军事成功展示神宠）。",
+      "key_figures": [
+        "Ashurnasirpal II (亚述国王)"
+      ],
+      "sources": [
+        {
+          "name": "来自Kalhu（尼姆鲁德）的Ashurnasirpal II编年史",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "来自尼姆鲁德和其他亚述遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ashurnasirpal II的战役在其铭文中记录详细。然而，其统治期内个别战役的确切年代有时不确定（±2-3年）。公元前948年按惯例归于其军事活动记录期。",
+      "cross_references": [
+        "-949-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "已列事件未发现具体反驳证据。但Ashurnasirpal II战役以其自己铭文呈现的叙事本质上是宣传性的；破坏规模和他领土控制的范围可能被夸大。现代学术质疑他声称征服的所有城市是否真的被永久置于亚述控制下，或者其中许多是否仍然是半独立纳贡者。",
+  "historiographic_note": "公元前948年的历史记录甚至比前949年更稀疏。Ashurnasirpal II的铭文提供了最详细的当代来源，但仅限于亚述视角和军事成就。埃及、黎凡特和希腊此年的资料极少或缺失。中国资料（青铜铭文和后世编年）为周朝提供了一些背景，但缺乏可定年于此年的具体事件。整体画面零碎，严重偏重美索不达米亚历史。",
+  "graph_edges": [
+    {
+      "from": "-948-001",
+      "to": "-949-001",
+      "relation": "contemporary_with",
+      "note": "属于同一战役季度或多年军事行动的一部分"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "year": -1651,
+  "year_label": "公元前1651年",
+  "era_context": "中青铜时代延续。希克索斯人巩固在埃及的统治；加喜特人在美索不达米亚势力上升。米诺斯克里特岛繁荣。印度河流域文明仍处于成熟阶段但显示出压力迹象。在中国，夏朝（如果存在）或商早期持续。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "大洋洲",
+    "中亚（有限资料）"
+  ],
+  "events": [
+    {
+      "id": "-1651-001",
+      "title": "希克索斯人在尼罗河三角洲的持续管理",
+      "region": "埃及（下埃及和三角洲）",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "political",
+      "description": "希克索斯人保持对下埃及和三角洲地区的行政控制。来自泰勒达巴（古阿瓦里斯）的考古证据显示持续居住和建筑活动。希克索斯人采用埃及的行政实践，同时保持自己的军事和文化身份。贡品和贸易从努比亚和黎凡特流向希克索斯控制的北部。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自泰勒达巴的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "该特定年份没有记载具体事件。该陈述反映了希克索斯统治在这一时期的总体连续性，基于考古地层学。",
+      "cross_references": [
+        "属于更广泛的希克索斯时期（公元前1700年至公元前1550年）"
+      ]
+    },
+    {
+      "id": "-1651-002",
+      "title": "米诺斯海上贸易网络活跃",
+      "region": "东地中海和爱琴海",
+      "coordinates_approx": "35.3, 25.1",
+      "category": "economic",
+      "description": "米诺斯商人继续主导东地中海商业，与埃及、黎凡特和爱琴海岛屿交换陶器、纺织品和奢侈品。米诺斯陶器出现在埃及环境中，米诺斯商人出现在埃及墓画中。这一时期代表了米诺斯商业影响力的顶峰，在后来迈锡尼扩张之前。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "陶器分布和贸易品的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "埃及墓画（第十八王朝，后期描绘早期贸易）",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "米诺斯陶器的分布和贸易网络的证据在考古学上已牢固确立。年代基于地层分析和陶器类型学。",
+      "cross_references": [
+        "属于晚米诺斯I时期（公元前1700年至公元前1450年）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未发现与所列事件相矛盾的具体反证。然而，一些学者质疑希克索斯统治在三角洲内统一和稳定的假设，提出地区差异和与上埃及本土埃及统治者可能共存的可能性。",
+  "historiographic_note": "该年没有存世资料中记载的具体事件。上述条目基于考古证据和更广泛历史模式推断的连续性。该年的历史记录在已记录事件方面基本可以忽略。我们的知识完全来自物质文化和后来的历史综合。",
+  "graph_edges": [
+    {
+      "from": "-1651-001",
+      "to": "-1650-001",
+      "relation": "contemporary_with",
+      "note": "希克索斯巩固的延续"
+    },
+    {
+      "from": "-1651-002",
+      "to": "-1650-003",
+      "relation": "contemporary_with",
+      "note": "米诺斯贸易网络在晚米诺斯I时期繁荣"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "year": -2111,
+  "year_label": "2111 BCE",
+  "era_context": "阿卡德晚期；古提人入侵持续。埃及古王国处于末期阶段。印度河流域文明处于成熟阶段。传统的夏朝处于早期阶段。青铜时代已确立。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "太平洋岛屿",
+    "中亚"
+  ],
+  "events": [
+    {
+      "id": "-2111-001",
+      "title": "阿卡德政治分裂继续",
+      "region": "美索不达米亚",
+      "coordinates_approx": "32.5, 44.0",
+      "category": "political",
+      "description": "阿卡德帝国继续瓦解。城邦重新宣告独立；古提人压力持续。楔形文字记录显示中央权威所剩无几。这一时期代表了阿卡德统治在古提人统治确立之前的尾声。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "阿卡德行政文书",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "总体过程证据充分；具体逐年事件未被记录。",
+      "cross_references": [
+        "是阿卡德崩溃的一部分"
+      ]
+    },
+    {
+      "id": "-2111-002",
+      "title": "埃及第六王朝结束；第一中间期开始",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "埃及第六王朝结束，第一中间期（约公元前2184-2055年）开始。这标志着古王国的终结和政治分裂时代的开始。多个王朝（第七至第十）同时在埃及不同地区统治。这一转变的确切日期存在争议；一些学者将其定在约公元前2184年，另一些则定在约公元前2170年。转变的特点是中央权威的丧失和地方势力的崛起。",
+      "key_figures": [
+        "最后的第六王朝法老（名字和顺序存在争议）"
+      ],
+      "sources": [
+        {
+          "name": "《都灵王表》",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "诺姆长自传",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "考古地层",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "从古王国到第一中间期的过渡有充分记录，但精确日期存在争议（±20-30年）。《都灵王表》提供了一个框架，但其绝对年代学依赖于外部同步关系。",
+      "cross_references": [
+        "标志着古王国的结束",
+        "开启了第一中间期（约公元前2184-2055年）"
+      ]
+    },
+    {
+      "id": "-2111-003",
+      "title": "印度河流域文明处于成熟阶段",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "印度河流域文明继续处于成熟阶段。城市中心充分发展，繁荣昌盛。贸易网络延伸至美索不达米亚和波斯湾。该文明显示出非凡的稳定性和文化同一性。考古记录中没有发现重大破坏。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "印度河流域文明在这一时期的稳定性通过考古学得到充分确立。",
+      "cross_references": [
+        "是印度河成熟阶段（约公元前2600-1900年）的一部分"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "从古王国到第一中间期的过渡日期存在争议。一些学者将其定在约公元前2184年，另一些则定在约公元前2170年或更晚。第六王朝的年代学存在争议；一些学者提出“低年代学”，将这些事件置于50-100年后。《苏美尔王表》的可靠性受到质疑。",
+  "historiographic_note": "这一年的文献记录很差。条目代表了更广泛趋势的延续，而非特定事件。年代学不确定性很大（±30-50年）。这一年的历史记录基本上是一片空白。",
+  "graph_edges": [
+    {
+      "from": "-2111-002",
+      "to": "-2055-middle_kingdom",
+      "relation": "led_to",
+      "note": "第一中间期先于中王国时期"
+    }
+  ]
+}

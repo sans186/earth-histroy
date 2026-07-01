@@ -1,0 +1,82 @@
+{
+  "year": -1088,
+  "year_label": "公元前1088年",
+  "era_context": "东地中海和近东铁器时代I晚期。埃及在拉美西斯三世统治下继续应对外部威胁和内部经济压力。中国商朝在周征服（传统定年公元前1046年）前接近最后几年。希腊和黎凡特早期铁器时代定居点正在扩张。吠陀文化在南亚继续发展。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中美洲",
+    "北欧",
+    "中亚",
+    "东亚（中国以外有限的当代文字记录）"
+  ],
+  "events": [
+    {
+      "id": "-1088-001",
+      "title": "拉美西斯三世统治继续；针对海上民族的军事战役",
+      "region": "埃及，东地中海",
+      "coordinates_approx": "25.7°N, 32.6°E",
+      "category": "military",
+      "description": "拉美西斯三世继续其针对威胁埃及边境的海上民族和利比亚群体的军事战役。他在Medinet Habu的铭文记录了多次战役，包括一场针对海上民族的主要海战。这些冲突代表了新王国法老的最后重大军事努力，标志着埃及作为主导地区大国衰落的开始。这些战役的成本使王室国库紧张，并促成了法老权力最终的分裂。",
+      "key_figures": [
+        "Ramesses III (埃及法老)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu神庙浮雕和铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "拉美西斯三世的军事战役在当代神庙铭文中有详细记载。其统治内个别战役的具体定年近似（±3–5年）。",
+      "cross_references": []
+    },
+    {
+      "id": "-1088-002",
+      "title": "商朝最后几年（中国）",
+      "region": "中国，黄河河谷",
+      "coordinates_approx": "34.5°N, 114.0°E",
+      "category": "political",
+      "description": "统治中国超过500年的商朝处于最后几十年。末代商王帝辛（亦称为纣辛）在位。根据传统资料，他的统治以道德沦丧和治理不善为标志，但现代学术质疑这些记载的可靠性。商朝面临西方周人日益增长的压力，周人不久将发起结束商朝统治的征服（传统定年公元前1046年）。来自商代遗址的考古证据显示青铜铸造和甲骨占卜持续进行。",
+      "key_figures": [
+        "Di Xin (商王，亦称为纣辛)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian，编纂于约公元前109年",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "来自商代遗址的甲骨文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "来自殷墟（商都）的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "商朝编年在学者中存在争议。传统定年将帝辛在位置于约公元前1075–1046年，但一些学者主张早50–100年的日期。公元前1088年按传统编年惯例分配。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "帝辛作为堕落暴君、其道德缺陷导致商朝灭亡的传统叙事受到现代学者的质疑，他们指出这些记载由周朝胜利者撰写，可能反映宣传而非历史事实。商朝的崩溃可能是多种因素（气候压力、内部不稳、军事压力）共同作用的结果，而非单个君主的道德缺陷。此外，商周过渡的确切定年仍不确定；一些学者将其晚至公元前1000年。",
+  "historiographic_note": "对于公元前1088年，文献严重偏向埃及和中国，这两个地区有文字记载的官僚系统产生了书面记录。黎凡特和地中海主要通过考古学和后来的希腊传统所知。撒哈拉以南非洲、美洲和亚洲大部分地区在特定年份几乎无记载。历史记录反映了识字文明的分布以及现代考古学对宫殿和纪念性遗址的关注。",
+  "graph_edges": [
+    {
+      "from": "-1088-002",
+      "to": "-1046-001",
+      "relation": "led_to",
+      "note": "帝辛统治下商朝的末年导致了传统定年公元前1046年的周征服。"
+    }
+  ]
+}

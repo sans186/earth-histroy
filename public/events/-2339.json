@@ -1,0 +1,98 @@
+{
+  "year": -2339,
+  "year_label": "2339 BCE",
+  "era_context": "纳拉姆·辛的前任统治下的阿卡德帝国处于末期。埃及第一中间期正在进行，古王国中央权威已崩溃。印度河流域文明处于成熟哈拉帕阶段。近东和南亚的青铜时代社会通过贸易和外交网络相互联系。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "商代以外的东亚",
+    "美洲"
+  ],
+  "events": [
+    {
+      "id": "-2339-001",
+      "title": "纳拉姆·辛前任治下的阿卡德帝国：巩固与挑战",
+      "region": "美索不达米亚，阿卡德帝国",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "阿卡德帝国处于纳拉姆·辛的前任（可能是曼尼什图苏或阿卡德王朝的另一位统治者）统治时期。帝国强大但面临臣民和对手的挑战。纳拉姆·辛直接前任的确切身份和统治不确定，阿卡德王朝的年代顺序也是如此。帝国即将传给纳拉姆·辛，他将把帝国扩张到最大版图。",
+      "key_figures": [
+        "纳拉姆·辛的前任（身份不确定）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德王表",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "阿卡德王室铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "纳拉姆·辛前任的身份和年代不确定。王表提供名字和统治年限，但需要根据考古证据和年代分析进行修正。",
+      "cross_references": []
+    },
+    {
+      "id": "-2339-002",
+      "title": "埃及第一中间期：持续的分裂",
+      "region": "埃及",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "埃及第一中间期持续，地方王朝争夺权力和资源。古王国中央集权国家的崩溃导致了重大的社会和经济变化。地方统治者正在巩固其权力基础，这一时期出现了新的政治组织形式和文化表达。该时期的特点是纪念性建筑减少和宗教权威分散。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "埃及王表和行政文书",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "埃及遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "第一中间期在考古学上有充分证据，但具体事件的年代不确定。该时期通常定为约前2181—前2055年。",
+      "cross_references": []
+    },
+    {
+      "id": "-2339-003",
+      "title": "印度河流域文明：成熟的哈拉帕城市中心",
+      "region": "印度河流域，南亚",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "印度河流域文明在成熟哈拉帕阶段继续繁荣。哈拉帕、摩亨佐达罗、多拉维拉等主要城市是贸易、手工业生产和行政中心。该文明拥有先进的城市规划、标准化的度量衡和未破译的文字。远距离贸易将印度河流域与美索不达米亚、波斯湾和中亚连接起来。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河流域遗址的考古发掘",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "印度河流域印章和文物",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "成熟哈拉帕阶段通过丰富的考古证据已得到充分确立。绝对年代依靠放射性碳测年和地层分析。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "纳拉姆·辛前任的身份和年代不确定，是学术争议问题。不同王表提供不同名称和统治年限，阿卡德王朝的绝对年代存在争议。埃及第一中间期曾被视为完全衰落的时期，但现代学术认为它是有重要文化和政治变革的时期。印度河流域文明的政治组织和领导性质仍不清楚。",
+  "historiographic_note": "阿卡德帝国的年代依赖王表和王室铭文，可能包含错误或偏见。阿卡德王朝的绝对年代是古代近东史的主要年代问题之一，学者提出不同年代体系可推移日期数十年。埃及第一中间期主要通过考古证据和后世历史文献认知。印度河流域因缺乏破译文字，在理解政治结构和历史事件方面存在重大空白。",
+  "graph_edges": [
+    {
+      "from": "-2339-001",
+      "to": "-2338-001",
+      "relation": "led_to",
+      "note": "纳拉姆·辛前任的统治导致纳拉姆·辛继位"
+    }
+  ]
+}

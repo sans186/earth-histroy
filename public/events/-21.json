@@ -1,0 +1,136 @@
+{
+  "year": -21,
+  "year_label": "公元前21年",
+  "era_context": "奥古斯都元首制早期，内战结束后权力巩固。帕提亚帝国统治近东。中国在西汉宣帝统治下处于最后几十年。埃及是罗马行省。希腊化世界逐渐被纳入罗马霸权。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（有限文字资料）",
+    "罗马边境以北的北欧（稀疏考古记录）",
+    "美洲内陆（无文字记录）"
+  ],
+  "events": [
+    {
+      "id": "-21-001",
+      "title": "西班牙的坎塔布里亚战争持续进行",
+      "region": "西班牙（西班牙和葡萄牙），特别是坎塔布里亚和卢西塔尼亚",
+      "coordinates_approx": "43.0, -4.0",
+      "category": "military",
+      "description": "坎塔布里亚战争（公元前29-19年）在奥古斯都的指挥下继续进行，罗马军队致力于征服西班牙西北部最后的独立部落。战役艰难而持久，涉及山地作战，抵抗激烈。到公元前21年，罗马人正在取得进展，但尚未取得最终胜利。征服西班牙标志着罗马对西地中海控制的完成。",
+      "key_figures": [
+        "奥古斯都（罗马皇帝）",
+        "坎塔布里亚和卢西塔尼亚部落（抵抗力量）"
+      ],
+      "sources": [
+        {
+          "name": "《奥古斯都功德碑》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "狄奥·卡西乌斯《罗马史》第54卷",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "坎塔布里亚战争有详细记载，但逐年进展的具体情况不确定。公元前21年属于战役期间。",
+      "cross_references": [
+        "延续自-22-001",
+        "导致-19-001（最终胜利）"
+      ]
+    },
+    {
+      "id": "-21-002",
+      "title": "奥古斯都和平祭坛正在建造",
+      "region": "罗马，意大利",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "cultural",
+      "description": "和平祭坛（奥古斯都和平之坛）在此期间（公元前13-9年）正在建造。该纪念碑由元老院委托建造，以庆祝奥古斯都从西班牙和高卢归来以及他所建立的和平。祭坛上装饰着精美的浮雕，描绘了皇室家族和宗教游行，是奥古斯都艺术和宣传的最佳典范之一。",
+      "key_figures": [
+        "奥古斯都（罗马皇帝）",
+        "罗马元老院",
+        "雕塑家和工匠"
+      ],
+      "sources": [
+        {
+          "name": "《奥古斯都功德碑》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "考古证据：祭坛本身",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "祭坛的建造时期有充分证据（公元前13-9年）。公元前21年不在此时期，因此该条目是推测性的。",
+      "cross_references": [
+        "相关于-20-002"
+      ]
+    },
+    {
+      "id": "-21-003",
+      "title": "汉宣帝统治下的西汉宫廷继承政治",
+      "region": "中国，汉帝国",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "汉宣帝（公元前74-49年在位）在其统治中期继续巩固权力。围绕潜在继承人形成了宫廷派系，外戚和宦官的影响力日益增长。王朝的稳定日益依赖于皇帝的个人权威和继承政治的管理。",
+      "key_figures": [
+        "汉宣帝",
+        "外戚和朝廷官员"
+      ],
+      "sources": [
+        {
+          "name": "班固《汉书》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "汉廷政治在中国编年史中有记载，但公元前21年的具体事件日期不详。",
+      "cross_references": [
+        "相关于-20-004"
+      ]
+    },
+    {
+      "id": "-21-004",
+      "title": "纳巴泰王国处于商业权力鼎盛时期",
+      "region": "纳巴泰王国（阿拉伯、黎凡特）",
+      "coordinates_approx": "31.0, 35.5",
+      "category": "economic",
+      "description": "以佩特拉为中心的纳巴泰王国控制了连接阿拉伯、埃及、地中海和印度的主要贸易路线。该王国繁荣且文化发达，融合了阿拉伯、希腊化和近东影响。佩特拉是香料、调味品和奢侈品贸易的主要枢纽。",
+      "key_figures": [
+        "纳巴泰国王（可能是奥博达斯三世或阿雷塔斯四世）",
+        "纳巴泰商人阶级"
+      ],
+      "sources": [
+        {
+          "name": "斯特拉波《地理学》第16卷",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "来自佩特拉的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳巴泰在此期间繁荣的考古学证据以及后世文献均有充分记载。公元前21年的具体事件无记载。",
+      "cross_references": [
+        "相关于-20-005"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现否定性证据。坎塔布里亚战争年表不确定，有些来源将事件置于邻近年份。奥古斯都和平祭坛的建造日期（公元前13-9年）不包括公元前21年，因此上述条目是推测性的。",
+  "historiographic_note": "公元前21年通过奥古斯都的《功德碑》和后世历史学家的记载在罗马世界有中等程度的文献记录。中文资料丰富，但往往是在事件发生数世纪后编纂的。纳巴泰记录零散。西方中心偏见显著：地中海和中国的发展有充分记载，而撒哈拉以南非洲、北欧和美洲则不可见。资料来源通常是宣传性或回顾性的。",
+  "graph_edges": [
+    {
+      "from": "-21-001",
+      "to": "-20-003",
+      "relation": "contemporary_with",
+      "note": "坎塔布里亚战争与奥古斯都的其他军事行动同时进行"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "year": -856,
+  "year_label": "公元前856年",
+  "era_context": "沙尔马尼泽三世统治下的新亚述帝国继续其在黎凡特的军事战役。叙利亚-巴勒斯坦联盟仍然活跃但面临日益增加的压力。亚哈治下的以色列处于其统治的最后几年。黎凡特政治景观以较大帝国（亚述、埃及）与通过不断变化的联盟寻求自治或优势的较小地区国家之间的竞争为特征。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "中亚和草原",
+    "东亚（超出一般王朝记录）",
+    "中美洲",
+    "西欧"
+  ],
+  "events": [
+    {
+      "id": "-856-001",
+      "title": "Shalmaneser III的第九次黎凡特战役",
+      "region": "黎凡特和北叙利亚",
+      "coordinates_approx": "34.5, 36.5",
+      "category": "military",
+      "description": "沙尔马尼泽三世的第九次战役延续了每年军事远征的模式。战役针对黎凡特的城市和领土，沙尔马尼泽声称胜利并收集贡品。叙利亚-巴勒斯坦联盟虽然分裂，但仍继续抵抗完全亚述支配。这些战役建立了亚述在该地区的军事霸权，尽管政治控制仍然存在争议。",
+      "key_figures": [
+        "Shalmaneser III（亚述国王）"
+      ],
+      "sources": [
+        {
+          "name": "Shalmaneser III的编年史",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "沙尔马尼泽的编年史系统记载了他的战役。第九次战役在亚述年代学内安全断代。",
+      "cross_references": [
+        "-857-001（第八次战役）",
+        "-855-001（第十次战役）"
+      ]
+    },
+    {
+      "id": "-856-002",
+      "title": "亚哈统治接近尾声；以色列的王位继承问题",
+      "region": "以色列王国",
+      "coordinates_approx": "32.5, 35.5",
+      "category": "political",
+      "description": "亚哈的统治处于最后几年。王国面临来自亚述和亚兰-大马士革的外部压力，以及内部的王位继承问题。亚哈有多个儿子，继承问题将在未来几年变得关键。王国保持其军事实力和行政组织，但暗利王朝的扩张时代即将结束。",
+      "key_figures": [
+        "Ahab（以色列国王）",
+        "Ahaziah（儿子，假定继承人）"
+      ],
+      "sources": [
+        {
+          "name": "希伯来圣经（列王纪上22，列王纪下1）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "撒玛利亚的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "亚哈的统治得到亚述来源确认。其死亡传统上断代为公元前853年，使得公元前856年接近其统治末期。公元前856年的具体事件没有独立记录。",
+      "cross_references": [
+        "-859-002（亚哈统治的开始）",
+        "-853-001（亚哈去世和继承）"
+      ]
+    },
+    {
+      "id": "-856-003",
+      "title": "亚兰-大马士革在地区政治中的持续主导",
+      "region": "亚兰-大马士革王国",
+      "coordinates_approx": "33.51, 36.31",
+      "category": "political",
+      "description": "大马士革的哈大底谢继续是主要地区强国，与以色列争夺贸易路线和边境领土的控制权。大马士革保持其作为黎凡特最强大国家之一的地位，尽管面临来自亚述军事战役日益增加的压力。王国经济基于贸易和控制战略路线，使其成为亚述和邻国觊觎的目标。",
+      "key_figures": [
+        "Hadadezer（大马士革国王）"
+      ],
+      "sources": [
+        {
+          "name": "Shalmaneser III的编年史",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈大底谢在当代亚述铭文中被证实。其统治和活动有详细记载。",
+      "cross_references": [
+        "-857-003（哈大底谢的地区权力）",
+        "-842-001（哈大底谢最终被击败）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "沙尔马尼泽三世的铭文声称持续胜利，但联盟的持续存在和缺乏领土整合暗示夸大其词。圣经中关于亚哈在与亚兰-大马士革战斗中死亡的叙述未得到当代来源证实。亚哈死亡的确切日期在学者中仍不确定。",
+  "historiographic_note": "公元前856年的历史记录仍然主要由亚述王室铭文主导。黎凡特的视角在当代文献中几乎完全缺失。考古证据提供了物质背景，但通常难以精确断代到个别年份。圣经叙述虽然包含一些历史信息，但属于更晚的编纂，反映神学和政治关切。",
+  "graph_edges": [
+    {
+      "from": "-856-001",
+      "to": "-855-001",
+      "relation": "led_to",
+      "note": "沙尔马尼泽战役模式的延续"
+    },
+    {
+      "from": "-856-002",
+      "to": "-856-001",
+      "relation": "contemporary_with",
+      "note": "亚哈统治与沙尔马尼泽的军事压力同时发生"
+    }
+  ]
+}

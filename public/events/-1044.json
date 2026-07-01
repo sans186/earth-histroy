@@ -1,0 +1,78 @@
+{
+  "year": -1044,
+  "year_label": "公元前1044年",
+  "era_context": "与前几年相同：铁器时代巩固、埃及第二十一王朝、中期亚述早期、黎凡特国家形成、希腊几何陶时期。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧与草原地带",
+    "东亚",
+    "中美洲"
+  ],
+  "events": [
+    {
+      "id": "-1044-001",
+      "title": "地中海地区早期铁器时代技术转型",
+      "region": "地中海与近东（广阔区域）",
+      "coordinates_approx": null,
+      "category": "technological",
+      "description": "到公元前1044年，从青铜时代到铁器时代的技术转型在地中海和近东地区已全面展开。铁器越来越多地用于工具、武器和农具，但青铜仍用于贵重物品、装饰品和一些专用工具。铁器技术的采用在不同地区是渐进且不均衡的：一些地区（尤其是黎凡特和希腊）采用铁器更快，而其他地区（埃及、美索不达米亚）则更长时间地保留了青铜加工传统。这次技术转型是铁器时代时期的标志性特征之一。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "地中海和近东多个遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "器物冶金分析",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "铁器时代铁器采用的总体模式已得到考古证实。公元前1044年属于这一技术转型的有文献记录的时期。",
+      "cross_references": []
+    },
+    {
+      "id": "-1044-002",
+      "title": "早期铁器时代世界的稳定与巩固",
+      "region": "地中海、近东及更远地区",
+      "coordinates_approx": null,
+      "category": "cultural",
+      "description": "到公元前1044年，即青铜时代晚期崩溃大约200年后，世界已基本稳定为新的政治和经济格局。青铜时代晚期的伟大帝国（赫梯、迈锡尼希腊、埃及新王国）已经衰落或灭亡，但新的力量正在崛起（亚述、腓尼基城邦、黎凡特和希腊的早期铁器时代王国）。贸易网络正在重建，定居点变得更加稳定，文化传统正在以铁器时代的形式重塑。这一年代表了更广泛的铁器时代巩固过程中的一个相对稳定点。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "跨区域考古调查与发掘",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "关于铁器时代转型的历史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "铁器时代巩固的总体模式有考古证据充分支持。公元前1044年被指定为这一过程中的一个代表性时间点，但无法实现年度的精确性。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "未发现与所列事件相矛盾的证据。",
+  "historiographic_note": "公元前1044年的历史记录与本批次前几年一致。存世史料稀少且零碎，严重依赖考古学和后世编纂。该年世界上大部分地区没有同时代文字记录。埃及行政记录仍是最详细的可用资料，但未提供公元前1044年的年度具体叙事事件。",
+  "graph_edges": [
+    {
+      "from": "-1044-001",
+      "to": "-1040-003",
+      "relation": "contemporary_with",
+      "note": "技术转型是更广泛的铁器时代巩固的一部分。"
+    },
+    {
+      "from": "-1044-002",
+      "to": "-1044-001",
+      "relation": "part_of",
+      "note": "技术变革是更广泛的铁器时代巩固的一个方面。"
+    }
+  ]
+}

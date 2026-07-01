@@ -1,0 +1,219 @@
+{
+  "year": 930,
+  "year_label": "930年",
+  "era_context": "10世纪早期，阿拔斯哈里发国继续分裂，地区性伊斯兰王朝兴起。在欧洲，奥托一世正在德意志王国巩固权力。五代时期在中国延续，地区权力相互竞争。高棉帝国在东南亚保持其文化和政治 prominence。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（有限文字资料）",
+    "法兰克/日耳曼圈之外的北欧",
+    "前哥伦布时期美洲（无文字记录）"
+  ],
+  "events": [
+    {
+      "id": "930-001",
+      "title": "萨曼王朝在中亚和波斯的繁荣",
+      "region": "中亚/波斯",
+      "coordinates_approx": "37.0, 68.0",
+      "category": "cultural",
+      "description": "萨曼王朝（819–999年），一个统治布哈拉和撒马尔罕的波斯王朝，在930年处于权力和文化影响力的鼎盛期。在纳斯尔二世（914–943年在位）等统治者治下，萨曼人是波斯文学、科学和建筑的主要赞助者。该王朝控制丝绸之路贸易路线，是伊斯兰学术的主要中心。这一时期见证了波斯语言和文化的繁荣，布哈里（卒于870年，稍早）等人物以及后来的学者为伊斯兰法学和圣训研究做出了贡献。",
+      "key_figures": [
+        "纳斯尔二世·伊本·艾哈迈德（萨曼埃米尔，914–943年在位）"
+      ],
+      "sources": [
+        {
+          "name": "纳尔沙希，《布哈拉史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "马苏迪，《黄金草原》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "萨曼王朝的存在及其文化成就在伊斯兰史料中有充分记载。纳斯尔二世的统治时期已确定。",
+      "cross_references": [
+        "914-001（纳斯尔二世继位）",
+        "943-001（纳斯尔二世去世）"
+      ]
+    },
+    {
+      "id": "930-002",
+      "title": "法蒂玛哈里发国在北非建立；马赫迪自称哈里发",
+      "region": "北非（伊夫里基亚）",
+      "coordinates_approx": "35.0, 10.0",
+      "category": "political",
+      "description": "法蒂玛哈里发国，一个什叶派伊斯兰王朝，于909年由阿卜杜拉·马赫迪在伊夫里基亚（今突尼斯）建立。到930年，法蒂玛人已巩固其在北非的权力，并开始扩张其影响力。法蒂玛人声称是先知的女儿法蒂玛的后裔，代表着对阿拔斯逊尼派正统的重大挑战。他们建立竞争性哈里发国标志着伊斯兰政治地理和意识形态的重大转变。",
+      "key_figures": [
+        "阿卜杜拉·马赫迪（法蒂玛哈里发，909–934年在位）"
+      ],
+      "sources": [
+        {
+          "name": "马苏迪，《黄金草原》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "伊本·阿西尔，《全史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "法蒂玛哈里发国909年建立和马赫迪的统治在伊斯兰史料中有充分记载。",
+      "cross_references": [
+        "909-001（法蒂玛哈里发国建立）",
+        "934-001（马赫迪去世）"
+      ]
+    },
+    {
+      "id": "930-003",
+      "title": "奥托一世在德意志王国巩固权力；教会改革",
+      "region": "神圣罗马帝国（德意志地区）",
+      "coordinates_approx": "51.0, 10.0",
+      "category": "political",
+      "description": "奥托一世（936–973年在位）正巩固其对德意志王国的权威。到930年，他正在与德意志贵族和教会建立联盟，这将是他统治的标志。奥托利用教会任命来确保忠诚和行政控制的策略是其治理的定义性特征。这一时期为他后来在962年的帝国加冕奠定了基础。",
+      "key_figures": [
+        "奥托一世（德意志国王，936–973年在位，尚未正式加冕）",
+        "亨利一世（奥托之父，德意志国王，919–936年在位）"
+      ],
+      "sources": [
+        {
+          "name": "克雷莫纳的柳特普兰，《奥托传》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "科维的维杜金德，《萨克森史》",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "奥托一世的崛起已有充分记载，但930年的具体事件并非总能精确记年。其正式继位在936年。",
+      "cross_references": [
+        "936-001（奥托一世正式加冕）",
+        "962-001（奥托一世帝国加冕）"
+      ]
+    },
+    {
+      "id": "930-004",
+      "title": "石敬瑭治下的后晋王朝；契丹辽国扩张",
+      "region": "华北/满洲",
+      "coordinates_approx": "40.0, 120.0",
+      "category": "political",
+      "description": "石敬瑭（923–936年在位）在此期间统治后晋王朝。后晋是五代十国时期分裂中国领土上相互竞争的势力之一。北方，太祖后继者治下的契丹辽国正在巩固其权力，并最终将主导华北。后晋与契丹的关系复杂，既有联盟也有竞争。",
+      "key_figures": [
+        "石敬瑭（后晋皇帝，923–936年在位）",
+        "德光（契丹辽皇帝，926–947年在位）"
+      ],
+      "sources": [
+        {
+          "name": "《资治通鉴》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "五代正史",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "后晋王朝和契丹辽国在中国历史记载中有充分文献证明。",
+      "cross_references": [
+        "923-001（后晋王朝建立）",
+        "926-001（契丹辽继承）"
+      ]
+    },
+    {
+      "id": "930-005",
+      "title": "曷利沙跋摩一世治下的高棉帝国；寺庙建造与行政发展",
+      "region": "东南亚（柬埔寨）",
+      "coordinates_approx": "13.4, 103.8",
+      "category": "cultural",
+      "description": "曷利沙跋摩一世（910–944年在位）在此期间统治高棉帝国。10世纪早期以持续的建筑发展为特征，包括寺庙建造和维护支撑高棉农业与城市生活的先进水利系统（水库）。高棉帝国是一个主要的地区强国，拥有广泛的贸易网络和遍及东南亚的文化影响。",
+      "key_figures": [
+        "曷利沙跋摩一世（高棉国王，910–944年在位）"
+      ],
+      "sources": [
+        {
+          "name": "高棉铭文（铭文证据）",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "吴哥考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "此时期高棉年代学基于铭文和考古证据。930年的具体事件并非总能精确记年。",
+      "cross_references": [
+        "910-001（曷利沙跋摩一世继位）",
+        "944-001（曷利沙跋摩一世去世）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "所列事件未发现主要反证。然而，奥托一世早期巩固努力（930年）的重要性有些推测性；其正式继位在936年，主要军事胜利（如莱希菲尔德战役）则在后来。法蒂玛哈里发国909年建立有充分记载，但其在930年的直接政治影响主要是地区性的（北非），而非帝国范围。",
+  "historiographic_note": "930年在伊斯兰世界和欧洲有中等程度的记载，当代编年史和后世汇编提供了关于主要王朝和政治发展的信息。中国史料丰富但常编纂于数世纪后。东南亚史料主要为铭文和考古证据。现存史料严重偏向政治和军事事件；经济、社会和文化发展代表性不足。西欧史料偏向法兰克/日耳曼圈。撒哈拉以南非洲和前哥伦布时期美洲的历史在这一年没有留下文字记录。",
+  "graph_edges": [
+    {
+      "from": "930-001",
+      "to": "914-001",
+      "relation": "part_of",
+      "note": "930年萨曼王朝的繁荣是纳斯尔二世统治（914–943年）的一部分。"
+    },
+    {
+      "from": "930-002",
+      "to": "909-001",
+      "relation": "part_of",
+      "note": "930年法蒂玛哈里发国的巩固是其建立（909年）和早期扩张的一部分。"
+    },
+    {
+      "from": "930-003",
+      "to": "936-001",
+      "relation": "led_to",
+      "note": "奥托一世930年的巩固努力导致其在936年正式加冕。"
+    },
+    {
+      "from": "930-004",
+      "to": "923-001",
+      "relation": "part_of",
+      "note": "930年后晋王朝的存在是其寿命（923–936年）的一部分。"
+    },
+    {
+      "from": "930-005",
+      "to": "910-001",
+      "relation": "part_of",
+      "note": "930年高棉帝国的发展是曷利沙跋摩一世统治（910–944年）的一部分。"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "year": -2511,
+  "year_label": "公元前2511年",
+  "era_context": "埃及古王国（第六王朝）处于最后几十年。纳拉姆辛统治下的阿卡德帝国处于领土巅峰，但面临日益增长的环境和军事压力。哈拉帕文明保持稳定。这是一个过渡时期：既定秩序开始瓦解，尽管全面后果要再过50–100年才会显现。",
+  "documentation_level": "稀疏",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "东南亚",
+    "太平洋岛屿"
+  ],
+  "events": [
+    {
+      "id": "-2511-001",
+      "title": "古王国埃及——第六王朝后期的行政管理",
+      "region": "埃及",
+      "coordinates_approx": "26.5, 30.5",
+      "category": "political",
+      "description": "第六王朝法老（传统年代学通常认为是佩皮二世，虽然存在争议）继续统治，但中央权威明显削弱。这一时期墓志铭显示诺姆长独立进行军事和贸易远征。金字塔的修建继续进行但规模越来越小。行政纸莎草文献表明，中央政府对税收和劳力动员的控制正在下降。这为紧随第六王朝结束而来的第一中间期奠定了基础。",
+      "key_figures": [
+        "佩皮二世（法老，传统年代学）"
+      ],
+      "sources": [
+        {
+          "name": "来自萨卡拉及其他遗址的墓志铭和行政纸莎草文献",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "都灵王表（后期编纂）",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "第六王朝的年代学及其后期法老的身份存在争议。该年份在更广泛的统治背景下指定。",
+      "cross_references": [
+        "先于第一中间期（约公元前2184年）"
+      ]
+    },
+    {
+      "id": "-2511-002",
+      "title": "阿卡德帝国——纳拉姆辛统治的延续",
+      "region": "美索不达米亚、黎凡特、扎格罗斯",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "纳拉姆辛继续统治阿卡德帝国。他的铭文记载了军事征战和行政活动，但帝国正承受着日益增大的压力。古气候证据表明干旱仍在持续。帝国的领土范围达到最大，但维持对远方地区控制的成本正在上升。内部行政文本显示出资源匮乏和后勤挑战。帝国将在几十年内崩溃，很可能是环境压力、军事过度扩张和内部叛乱综合作用的结果。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德王室铭文和行政文本",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "古气候记录",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治有充分证据；具体的逐年事件没有单独定年。",
+      "cross_references": [
+        "先于阿卡德崩溃（约公元前2154年）"
+      ]
+    },
+    {
+      "id": "-2511-003",
+      "title": "哈拉帕文明——成熟阶段的稳定",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "哈拉帕文明继续其成熟阶段，无明显的干扰。城市中心仍然充分发展且繁荣。贸易网络继续运转。考古证据未显示衰落或重大社会动荡的迹象。该文明将保持稳定约400年，然后在约公元前1900年开始逐渐衰落。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "哈拉帕遗址的考古发掘",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈拉帕文明在此期间持续稳定，在考古上得到充分证明。",
+      "cross_references": [
+        "属于更广泛的成熟哈拉帕阶段"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "本年没有具体的反证。",
+  "historiographic_note": "该年度在现存文献中无单独记载。列出的事件代表更广泛的趋势。古王国后期和阿卡德帝国的年代学在学者间仍有争议。",
+  "graph_edges": [
+    {
+      "from": "-2512-001",
+      "to": "-2511-001",
+      "relation": "led_to",
+      "note": "第六王朝衰落的延续"
+    },
+    {
+      "from": "-2512-002",
+      "to": "-2511-002",
+      "relation": "led_to",
+      "note": "阿卡德紧张局势的延续"
+    }
+  ]
+}

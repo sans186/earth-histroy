@@ -1,0 +1,198 @@
+{
+  "year": 1590,
+  "year_label": "1590年",
+  "era_context": "16世纪末：腓力二世治下的西班牙仍然是主导力量，尽管因1588年无敌舰队的失败而削弱。荷兰起义持续反对西班牙统治。伊丽莎白一世治下的英格兰巩固海军实力。奥斯曼帝国仍是地中海和巴尔干的主要强国。在亚洲，明朝统治中国；日本处于丰臣秀吉领导下的最后统一阶段。",
+  "documentation_level": "丰富",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（欧洲文献有限）",
+    "南美洲和北美洲内陆（欧洲接触文献极少）"
+  ],
+  "events": [
+    {
+      "id": "1590-001",
+      "title": "巴黎围困结束；亨利四世进入巴黎成为法国国王",
+      "region": "法国",
+      "coordinates_approx": "48.8,2.3",
+      "category": "military",
+      "description": "经过1589–1590年的长期围困后，亨利四世（前纳瓦拉的亨利）进入巴黎并被承认为法国国王，实际上结束了宗教战争。围困十分残酷，城市遭受饥荒。亨利入城标志着王权巩固和法国逐步平和的开始。这是法国历史的转折点，建立了波旁王朝。",
+      "key_figures": [
+        "法国的亨利四世（新被承认的国王）",
+        "帕尔马公爵（解围巴黎的西班牙指挥官）"
+      ],
+      "sources": [
+        {
+          "name": "当代法国编年史及回忆录",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "西班牙和教廷外交信函",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "围困和亨利入城在多个当代史料中有充分记载。",
+      "cross_references": [
+        "1589-001（亨利三世被刺杀）",
+        "1598-001（南特敕令）"
+      ]
+    },
+    {
+      "id": "1590-002",
+      "title": "伊夫里战役；亨利四世击败天主教联盟军队",
+      "region": "法国",
+      "coordinates_approx": "48.7,1.6",
+      "category": "military",
+      "description": "亨利四世在伊夫里战役（1590年3月14日）中击败天主教联盟，这是一场决定性的胜利，加强了他对法国王位的主张，并展示了他的军事能力。这场胜利在当代记载中得到颂扬，并有助于巩固温和派天主教徒和新教徒对亨利的支持。这场战役是宗教战争的关键时刻。",
+      "key_figures": [
+        "法国的亨利四世（胜利的指挥官）",
+        "马耶讷公爵（天主教联盟指挥官）"
+      ],
+      "sources": [
+        {
+          "name": "当代法国军事记录及编年史",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "参与者和观察者的回忆录",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "战役有充分记载，包括具体日期和参与者记述。",
+      "cross_references": [
+        "1590-001（导致巴黎围困）"
+      ]
+    },
+    {
+      "id": "1590-003",
+      "title": "荷兰起义持续；拿骚的莫里斯巩固军事改革",
+      "region": "荷兰共和国（联省共和国）",
+      "coordinates_approx": "52.0,5.0",
+      "category": "military",
+      "description": "奥兰治亲王拿骚的莫里斯继续他的军事改革和对荷兰脱离西班牙独立的巩固。他在战术和组织上的创新（“军事革命”）在对西班牙军队的战役中开始显现成效。到1590年，荷兰起义已演变成一场持久冲突，荷兰人建立了事实上的独立，尽管西班牙直到1648年才正式承认。",
+      "key_figures": [
+        "拿骚的莫里斯（荷兰军事领袖）",
+        "沉默者威廉（1584年去世，但他的遗产塑造了起义）"
+      ],
+      "sources": [
+        {
+          "name": "荷兰军事记录及通信",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "西班牙军事报告及外交信函",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "荷兰起义及莫里斯的角色在荷兰和西班牙档案中有充分记载。",
+      "cross_references": [
+        "1588-002（西班牙无敌舰队背景）",
+        "1648-001（威斯特伐利亚和约）"
+      ]
+    },
+    {
+      "id": "1590-004",
+      "title": "万历皇帝在位；明朝面临女真威胁和内部不稳定",
+      "region": "中国",
+      "coordinates_approx": "39.9,116.4",
+      "category": "military",
+      "description": "万历皇帝继续在位，这一时期来自女真的军事压力和北部边境的蒙古势力日益增加。明朝内部治理受到朝堂派系斗争和皇帝退出积极治理的阻碍。军费开支使国库紧张，导致长期经济衰退。",
+      "key_figures": [
+        "万历皇帝（明朝统治者）"
+      ],
+      "sources": [
+        {
+          "name": "《明实录》（官方明朝记录）",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "明朝行政记录提供了详细的文献记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1590-005",
+      "title": "丰臣秀吉巩固日本权力；大名归顺中央权威",
+      "region": "日本",
+      "coordinates_approx": "35.0,138.0",
+      "category": "political",
+      "description": "丰臣秀吉继续巩固对日本大名（封建领主）的权力，实际上结束了战国时代的内战。到1590年，大多数主要大名已归顺秀吉的权威，尽管一些大名仍保留相当大的地区权力。秀吉的统一基于个人权威和军事权力，而非制度结构，这将在其死后造成继承问题。",
+      "key_figures": [
+        "丰臣秀吉（日本关白）"
+      ],
+      "sources": [
+        {
+          "name": "《太阁记》及其他日本编年史",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "大名记录及通信",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "秀吉的巩固在日本记录中有充分记载。",
+      "cross_references": [
+        "1591-002（巩固的持续）"
+      ]
+    },
+    {
+      "id": "1590-006",
+      "title": "葡萄牙在东南亚的殖民扩张；建立贸易站",
+      "region": "东南亚（马六甲、帝汶、菲律宾）",
+      "coordinates_approx": "2.2,102.2",
+      "category": "exploration",
+      "description": "葡萄牙在东南亚的殖民活动继续扩大，建立和巩固了贸易站和殖民地定居点。马六甲仍是该地区葡萄牙人的关键基地。葡萄牙商人和传教士在菲律宾和马来群岛扩展影响力，与当地苏丹国以及后来的荷兰商人竞争。",
+      "key_figures": [
+        "葡萄牙殖民官员和商人"
+      ],
+      "sources": [
+        {
+          "name": "葡萄牙殖民记录（Arquivo Histórico Ultramarino）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代葡萄牙编年史",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "葡萄牙殖民活动在葡萄牙档案中有充分记载。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "伊夫里战役的重要性有时被夸大成一个决定性转折点；虽然重要，但宗教战争在此役之后又持续了多年，亨利四世的权力巩固是渐进的而非即时的。将秀吉的巩固描述为1590年“完成”有些传统；一些大名仍保留相当大的自治权，稳定依赖于秀吉的个人权威。",
+  "historiographic_note": "1590年的文献对于欧洲和东亚事件非常丰富。欧洲史料反映了主要大国（西班牙、法国、英格兰、荷兰共和国）的视角，严重偏向政治和军事史。亚洲史料主要是行政记录和后来的编年史。由于幸存文字记录有限，撒哈拉以南非洲和美洲内陆事件严重缺乏代表性。",
+  "graph_edges": [
+    {
+      "from": "1590-001",
+      "to": "1590-002",
+      "relation": "contemporary_with",
+      "note": "伊夫里战役和巴黎围困是同一战役的一部分"
+    },
+    {
+      "from": "1590-001",
+      "to": "1598-001",
+      "relation": "led_to",
+      "note": "亨利四世的巩固导致了南特敕令"
+    },
+    {
+      "from": "1590-003",
+      "to": "1648-001",
+      "relation": "led_to",
+      "note": "荷兰起义持续到威斯特伐利亚和约"
+    }
+  ]
+}

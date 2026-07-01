@@ -1,0 +1,144 @@
+{
+  "year": 537,
+  "year_label": "537年",
+  "era_context": "查士丁尼一世对西罗马帝国的再征服正在全面进行中，自535年开始的意大利哥特战争仍在继续。东罗马帝国处于领土和文化的巅峰。科斯洛埃斯一世统治下的萨珊帝国正在巩固权力。在中国，东魏王朝已进入末期。这是瘟疫前时期。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "罗马边界以北的北欧地区",
+    "东南亚和大洋洲"
+  ],
+  "events": [
+    {
+      "id": "537-001",
+      "title": "圣索菲亚大教堂在君士坦丁堡完工",
+      "region": "君士坦丁堡，东罗马帝国",
+      "coordinates_approx": "41.01, 28.98",
+      "category": "cultural",
+      "description": "由查士丁尼一世下令修建的君士坦丁堡大教堂——圣索菲亚大教堂，经过约五年的施工（532–537）终于完工。该建筑由数学家特拉勒斯的安提米乌斯和米利都的伊西多尔设计，是古代世界最卓越的建筑成就之一，拥有一个仿佛悬浮于结构之上的巨大穹顶。该建筑代表了拜占庭工程与艺术成就的顶峰，并将在此后近千年里保持基督教世界最大教堂的地位。",
+      "key_figures": [
+        "Justinian I (东罗马皇帝)",
+        "Anthemius of Tralles (建筑师)",
+        "Isidore of Miletus (建筑师)"
+      ],
+      "sources": [
+        {
+          "name": "普罗柯比，《建筑》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "马拉拉斯，《编年史》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "来自建筑结构的考古与建筑证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "圣索菲亚大教堂于537年完工在同时代文献中记载确凿。普罗柯比提供了对该建筑及其建造的详细描述。日期得到多个来源证实。",
+      "cross_references": []
+    },
+    {
+      "id": "537-002",
+      "title": "哥特战争持续；贝利撒留挺进意大利",
+      "region": "意大利，东罗马帝国",
+      "coordinates_approx": "42.50, 12.50",
+      "category": "military",
+      "description": "始于535年的哥特战争仍在继续，贝利撒留率领的拜占庭军队稳步推进，对抗东哥特人。到537年，意大利大部分地区已被拜占庭控制，尽管东哥特国王托提拉仍在抵抗。战争处于中期阶段，结局尚不明朗。",
+      "key_figures": [
+        "Belisarius (拜占庭将军)",
+        "Totila (东哥特国王)"
+      ],
+      "sources": [
+        {
+          "name": "普罗柯比，《战争史》",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "普罗柯比详细记载了哥特战争的进展。537年属于战争记录详尽的中期阶段。",
+      "cross_references": [
+        "535-001 (哥特战争开始)",
+        "540-001 (拉文纳围城)"
+      ]
+    },
+    {
+      "id": "537-003",
+      "title": "尼卡暴动余波；君士坦丁堡恢复稳定",
+      "region": "君士坦丁堡，东罗马帝国",
+      "coordinates_approx": "41.01, 28.98",
+      "category": "political",
+      "description": "在532年毁灭性的尼卡暴动两年后，君士坦丁堡在查士丁尼一世统治下得到重建并恢复稳定。那场导致数万人死亡并几乎推翻皇帝的暴动已成为往事，城市正经历一段相对和平与繁荣的时期。537年圣索菲亚大教堂的完工象征着这种复苏以及查士丁尼对危机的胜利。",
+      "key_figures": [
+        "Justinian I (东罗马皇帝)"
+      ],
+      "sources": [
+        {
+          "name": "普罗柯比，《战争史》和《建筑》",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "马拉拉斯，《编年史》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "尼卡暴动后君士坦丁堡的稳定化有据可查。537年被视为恢复和重建时期。",
+      "cross_references": [
+        "532-001 (尼卡暴动)"
+      ]
+    },
+    {
+      "id": "537-004",
+      "title": "东魏王朝衰落；高氏家族巩固权力",
+      "region": "中国北方",
+      "coordinates_approx": "36.00, 114.00",
+      "category": "political",
+      "description": "东魏王朝继续衰落，高氏家族巩固权力。该王朝将于550年正式终结，北齐王朝建立。这一时期反映了南北朝时期中国持续的政治分裂。",
+      "key_figures": [
+        "Gao Huan (军事强人)"
+      ],
+      "sources": [
+        {
+          "name": "《资治通鉴》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "东魏的衰落在中国历史记载中有据可查，但537年的具体事件不详。",
+      "cross_references": [
+        "550-001 (北齐建立)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "圣索菲亚大教堂的完工日期传统上认为是537年，但有些来源表明该建筑可能直到后来才完全完工或举行奉献仪式。普罗柯比的记载总体可靠，但完工与奉献的具体日期可能不同。关于尼卡暴动后君士坦丁堡稳定的描述基于普罗柯比的叙述，该叙述强调查士丁尼的胜利，但可能没有完全反映持续存在的紧张局势。",
+  "historiographic_note": "537年关于拜占庭帝国的记录主要来自普罗柯比的详细记载。圣索菲亚大教堂的完工是那个时代最重要的事件之一，记录详尽。中国文献虽可获取，但汇编于数世纪之后。西欧文献仍然稀少。历史记录严重偏向地中海和近东。",
+  "graph_edges": [
+    {
+      "from": "537-001",
+      "to": "541-002",
+      "relation": "contemporary_with",
+      "note": "圣索菲亚大教堂的完工代表了拜占庭文化成就的顶峰，这一成就将在541年瘟疫到来时受到考验。"
+    },
+    {
+      "from": "537-002",
+      "to": "540-001",
+      "relation": "led_to",
+      "note": "537年持续的哥特战争继续走向539–540年的拉文纳围城。"
+    },
+    {
+      "from": "537-003",
+      "to": "537-001",
+      "relation": "contemporary_with",
+      "note": "圣索菲亚大教堂的完工象征着君士坦丁堡从尼卡暴动中恢复。"
+    }
+  ]
+}

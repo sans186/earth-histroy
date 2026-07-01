@@ -1,0 +1,67 @@
+{
+  "year": -2253,
+  "year_label": "公元前2253年",
+  "era_context": "与 -2250、-2251 和 -2252 年相同：阿卡德帝国在纳拉姆辛治下达到领土巅峰；古王国埃及分裂；印度河流域文明处于成熟的哈拉帕阶段；爱琴海为青铜时代早期II期。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲：书面记录极少",
+    "北欧：无书面记录",
+    "中美洲：无书面记录"
+  ],
+  "events": [
+    {
+      "id": "-2253-001",
+      "title": "纳拉姆辛的统治：阿卡德帝国的巩固",
+      "region": "美索不达米亚（阿卡德帝国）",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "纳拉姆辛继续其作为阿卡德国王的统治，维持并巩固对广阔领土的帝国控制。今年属于阿卡德帝国扩张和巩固时期。行政文书显示了国家机器组织、军事行动以及向被征服领土征收贡赋的情况。阿卡德语言和文化正在征服地区被强制推行，尽管地方传统仍然存在。",
+      "key_figures": [
+        "纳拉姆辛（阿卡德国王）"
+      ],
+      "sources": [
+        {
+          "name": "阿卡德铭文与行政文书",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的统治有充分证据；具体年份的事件鲜有记载。",
+      "cross_references": [
+        "属于 -2250-001（更广泛的阿卡德扩张）"
+      ]
+    },
+    {
+      "id": "-2253-002",
+      "title": "哈拉帕文明：城市发展的顶峰",
+      "region": "印度河流域",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "印度河流域文明正处于城市发展的顶峰。主要中心如摩亨佐达罗和哈拉帕已完全发展，拥有复杂的城市规划、标准化的度量衡以及长途贸易的证据。该文明在广阔区域内展现出惊人的一致性，表明可能存在中央集权国家或共享的文化经济体系。未破译的印度河文字出现在印章和陶器上。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "印度河遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "哈拉帕成熟期有充分考古证据。",
+      "cross_references": [
+        "属于 -2250-002（更广泛的哈拉帕文明）"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "未识别出针对所列事件的具体推翻性证据。公元前2253年在现存记录中没有已知的具体历史事件。",
+  "historiographic_note": "公元前2253年没有任何已知历史资料单独记载。上述条目仅代表该时代的总体背景。这一时期几乎不存在逐年具体记录。",
+  "graph_edges": [
+    {
+      "from": "-2253-001",
+      "to": "-2250-001",
+      "relation": "contemporary_with",
+      "note": "属于同一时期的阿卡德帝国扩张。"
+    }
+  ]
+}

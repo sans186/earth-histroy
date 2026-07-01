@@ -1,0 +1,72 @@
+{
+  "year": -1586,
+  "year_label": "公元前1587年",
+  "era_context": "青铜时代晚期，埃及第18王朝中期。图特摩斯三世军事力量达到顶峰。赫梯古王国正在巩固领土控制。迈锡尼希腊正发展以宫殿为中心的社会。中国的商朝正在扩大领土控制并精炼青铜铸造技术。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "太平洋岛屿",
+    "中亚（有限的赫梯和埃及史料）"
+  ],
+  "events": [
+    {
+      "id": "-1586-001",
+      "title": "图特摩斯三世军事战役的延续",
+      "region": "黎凡特和叙利亚",
+      "coordinates_approx": "34.5, 35.0",
+      "category": "military",
+      "description": "图特摩斯三世继续系统性地征服和巩固黎凡特领土。埃及军事远征维持对先前征服的城邦的控制并镇压叛乱。法老的军事天才体现在其快速部署和战略兵力配置上。",
+      "key_figures": [
+        "图特摩斯三世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "卡纳克神庙铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "图特摩斯三世的战役记载充分，但精确年度年代不确定。",
+      "cross_references": [
+        "-1585-001"
+      ]
+    },
+    {
+      "id": "-1586-002",
+      "title": "商代青铜生产的进步",
+      "region": "中国黄河流域",
+      "coordinates_approx": "34.5, 110.0",
+      "category": "technological",
+      "description": "商代继续发展成熟的青铜铸造技术，生产礼器（鼎、簋）和武器。来自安阳等遗址的考古证据显示青铜冶金日益标准化和复杂化。这些进步支持了仪式和军事功能。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "安阳及其他商代遗址的考古证据",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "甲骨文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "商代年代学存在争议；此年份分配在已证实的商代时期范围内，但精确年代不确定，误差±20–50年。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "商代年代学仍然是东亚考古学中争议最大的问题之一。存在多种竞争的年代体系，一些学者将商代置于比传统年代早或晚100多年。因此，此年份的年代非常暂时性。",
+  "historiographic_note": "这一年的文献几乎完全依赖埃及和赫梯精英史料，黎凡特和中国的考古证据提供补充信息。记录严重偏向政治和军事事件；经济、社会和文化发展代表性不足。世界大片地区完全无文献记录。",
+  "graph_edges": [
+    {
+      "from": "-1586-001",
+      "to": "-1585-001",
+      "relation": "contemporary_with",
+      "note": "与前一年属于同一战役序列的一部分"
+    }
+  ]
+}

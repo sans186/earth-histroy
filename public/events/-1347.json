@@ -1,0 +1,108 @@
+{
+  "year": -1347,
+  "year_label": "公元前1348年",
+  "era_context": "晚期青铜时代，埃及阿蒙霍特普三世统治的最后几年。赫梯帝国在苏皮卢利乌马一世领导下继续扩张。迈锡尼文明仍处于鼎盛。这一年属于晚期青铜时代崩溃前的相对稳定时期，尽管主要大国之间的紧张局势正在加剧。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中亚",
+    "中美洲"
+  ],
+  "events": [
+    {
+      "id": "-1347-001",
+      "title": "阿蒙霍特普三世统治接近尾声；继位准备",
+      "region": "埃及",
+      "coordinates_approx": "25.7°N, 32.6°E",
+      "category": "political",
+      "description": "阿蒙霍特普三世的统治即将结束（他将在约公元前1352年去世）。他的儿子，未来的阿蒙霍特普四世（阿肯那顿），正在为继位做准备。权力交接是埃及历史上的一个关键时刻，因为阿蒙霍特普四世将发起激进的宗教和政治改革，从而改变埃及社会。",
+      "key_figures": [
+        "阿蒙霍特普三世（法老）",
+        "阿蒙霍特普四世/阿肯那顿（王储）"
+      ],
+      "sources": [
+        {
+          "name": "埃及神庙铭文和行政记录",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "阿马尔那书信",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿蒙霍特普四世继位有充分记载，但阿蒙霍特普三世统治期间继位准备的具体时间不太确定。年代在±2年内。",
+      "cross_references": []
+    },
+    {
+      "id": "-1347-002",
+      "title": "赫梯-埃及在叙利亚的紧张局势升级",
+      "region": "叙利亚、黎凡特及周边地区",
+      "coordinates_approx": "35.0°N, 36.0°E",
+      "category": "military",
+      "description": "赫梯帝国与埃及之间关于叙利亚和黎凡特控制权的紧张局势持续升级。苏皮卢利乌马一世的侵略性扩张威胁到埃及在该地区的利益。这些紧张局势将在随后的几十年中导致直接的军事对抗，最终在拉美西斯二世统治下爆发卡迭石战役（约公元前1274年）。",
+      "key_figures": [
+        "苏皮卢利乌马一世（赫梯国王）",
+        "阿蒙霍特普三世（埃及法老）"
+      ],
+      "sources": [
+        {
+          "name": "阿马尔那书信（埃及外交信函）",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "赫梯王室铭文",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "紧张升级在外交信函中有记载，但个别事件的具体年表有时不确定。",
+      "cross_references": []
+    },
+    {
+      "id": "-1347-003",
+      "title": "迈锡尼宫殿中心继续繁荣",
+      "region": "迈锡尼希腊",
+      "coordinates_approx": "37.7°N, 23.0°E",
+      "category": "cultural",
+      "description": "迈锡尼、皮洛斯、梯林斯和底比斯等主要迈锡尼宫殿中心继续繁荣。线形文字B记录显示了管理农业、贸易和军事资源的复杂行政系统。宫殿经济处于顶峰，拥有用于储存谷物、油和葡萄酒的大型设施。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "来自宫殿档案的线形文字B泥板",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "宫殿发掘的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "迈锡尼宫殿考古和线形文字B记录提供了强有力的当代证据。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "未发现主要否定证据。阿蒙霍特普三世去世和阿蒙霍特普四世继位的年代仍存在学术争论，一些年表将这些事件定在比此处使用的传统年代早几年或晚几年。",
+  "historiographic_note": "公元前1348年的历史记录与这一时期前几年相似。阿马尔那书信提供了关于大国之间外交关系和紧张局势的详细信息，但非精英人口以及主要帝国中心以外地区的视角在幸存记录中基本缺失。",
+  "graph_edges": [
+    {
+      "from": "-1347-001",
+      "to": "-1347-002",
+      "relation": "contemporary_with",
+      "note": "阿蒙霍特普四世继位发生在与赫梯紧张局势升级的时期。"
+    },
+    {
+      "from": "-1347-002",
+      "to": "-1347-003",
+      "relation": "contemporary_with",
+      "note": "迈锡尼文明在赫梯-埃及紧张时期繁荣。"
+    }
+  ]
+}

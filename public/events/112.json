@@ -1,0 +1,135 @@
+{
+  "year": 112,
+  "year_label": "公元112年",
+  "era_context": "图拉真的帕提亚战役继续推进通过美索不达米亚。基托斯战争持续席卷东地中海和近东。中国东汉王朝在安帝统治下保持稳定。贵霜帝国控制丝绸之路。这是多个地区持续军事冲突和帝国扩张的时期。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "罗马边疆以北的北欧地区",
+    "中亚（有限的同时代资料）",
+    "印度（该特定年份有限的同时代资料）"
+  ],
+  "events": [
+    {
+      "id": "112-001",
+      "title": "图拉真在美索不达米亚的战役继续",
+      "region": "美索不达米亚，帕提亚帝国",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "图拉真的军队继续通过美索不达米亚推进，巩固对已征服领土的控制，并准备对泰西封的最后进攻。罗马军团在该地区建立补给线、防御工事和行政结构。战役在后勤上复杂，需要协调多个军团和沿途回地中海的后勤链。",
+      "key_figures": [
+        "图拉真（罗马皇帝）",
+        "奎图斯（罗马将军）",
+        "奥斯罗埃斯一世（帕提亚国王）"
+      ],
+      "sources": [
+        {
+          "name": "卡西乌斯·狄奥，《罗马史》（第68卷）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "尤特罗庇乌斯，《简史》",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "战役的总体进程有充分记载，但112年内的具体事件在现存资料中未精确定年。该年份是根据战役总体时间线（114–116年）分配的。",
+      "cross_references": [
+        "属于114-001（帕提亚战役）的一部分",
+        "导致116-001（占领泰西封）"
+      ]
+    },
+    {
+      "id": "112-002",
+      "title": "基托斯战争继续，罗马镇压努力",
+      "region": "昔兰尼加、埃及、塞浦路斯、美索不达米亚",
+      "coordinates_approx": "32.5, 24.0",
+      "category": "military",
+      "description": "犹太起义在多个地区继续，尽管罗马镇压努力开始见效。罗马将军奎图斯被派往美索不达米亚和其他受影响地区镇压起义。冲突仍然激烈，双方伤亡重大。起义以宗教热情和对罗马帝国权威的抵抗为特征。",
+      "key_figures": [
+        "卢库阿斯（昔兰尼加的犹太起义领袖）",
+        "奎图斯（罗马将军，被派去镇压起义）",
+        "图拉真（罗马皇帝）"
+      ],
+      "sources": [
+        {
+          "name": "卡西乌斯·狄奥，《罗马史》（第68卷）",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "该撒利亚的优西比乌，《教会史》",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "受影响地区的考古证据",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "基托斯战争持续到112年是从总体时间线（115–117年）推断的。该年份内的具体事件在现存书面资料中记载不详细。",
+      "cross_references": [
+        "继115-001（基托斯战争爆发）之后",
+        "导致117-001（最终镇压）"
+      ]
+    },
+    {
+      "id": "112-003",
+      "title": "东汉王朝行政连续性",
+      "region": "中国（东汉）",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "political",
+      "description": "东汉王朝在安帝统治下继续，保持行政稳定和对丝绸之路贸易路线的控制。帝国管理与北部边境游牧群体的关系，并维持内部秩序。这一时期代表了东汉繁荣的顶峰。",
+      "key_figures": [
+        "汉安帝（106–125年在位）"
+      ],
+      "sources": [
+        {
+          "name": "《史记》及后续正史",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "关于东汉年表的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "东汉年表通过中国历史记载确立。安帝在位日期可靠。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "奎图斯镇压基托斯战争的确切时间线存在争议。一些资料显示镇压开始得更早（115或116年），而其他资料则定得较晚。罗马镇压努力的有效性受到质疑——一些学者认为起义在116年基本被镇压，而另一些则认为持续到了117年。起义者的宗教和政治动机仍有争议。",
+  "historiographic_note": "公元112年的历史记录严重依赖卡西乌斯·狄奥和其他晚期资料。没有同时代的罗马或犹太视角的记载幸存。受影响地区的考古证据提供了物质上的破坏确认，但未提供精确到逐年的定年。叙事由罗马帝国史学塑造。帕提亚战役在现存资料中比基托斯战争受到更多关注。",
+  "graph_edges": [
+    {
+      "from": "112-001",
+      "to": "114-001",
+      "relation": "part_of",
+      "note": "战役的继续是帕提亚战役的一部分"
+    },
+    {
+      "from": "112-001",
+      "to": "116-001",
+      "relation": "led_to",
+      "note": "战役进展导致116年占领泰西封"
+    },
+    {
+      "from": "112-002",
+      "to": "115-001",
+      "relation": "caused_by",
+      "note": "基托斯战争的继续始于115年"
+    },
+    {
+      "from": "112-002",
+      "to": "117-001",
+      "relation": "led_to",
+      "note": "镇压努力导致117年最终镇压"
+    }
+  ]
+}

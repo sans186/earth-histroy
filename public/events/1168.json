@@ -1,0 +1,192 @@
+{
+  "year": 1168,
+  "year_label": "公元1168年",
+  "era_context": "12世纪末是地中海和近东地区重大政治重组时期。阿尤布苏丹国在萨拉丁领导下崛起；拜占庭帝国在衰落；黎凡特的十字军国家面临日益增大的压力；中国宋朝处于成熟繁荣阶段；西欧由安茹帝国和各种封建王国主导。这是军事战役、政治巩固和文化发展的重要时期。",
+  "documentation_level": "中等",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲（有限的文字资料）",
+    "东南亚（稀疏的当代文献）",
+    "大洋洲和太平洋岛屿（可忽略的文字记录）"
+  ],
+  "events": [
+    {
+      "id": "1168-001",
+      "title": "阿尤布在埃及的战役：希尔库赫的入侵与巩固",
+      "region": "埃及，法蒂玛哈里发国",
+      "coordinates_approx": "30.0444, 31.2357",
+      "category": "military",
+      "description": "阿尤布将领、萨拉丁的叔父希尔库赫于1168年在埃及领导了一场大规模军事战役，以巩固阿尤布权力并对抗十字军国家的影响。该战役涉及针对内部对手和外部威胁的军事行动。希尔库赫在埃及的成功为他于1169年被任命为维齐尔以及萨拉丁随后崛起奠定了基础。阿尤布对埃及的巩固对于后来统一穆斯林世界对抗十字军至关重要。",
+      "key_figures": [
+        "希尔库赫（阿尤布将领）",
+        "萨拉丁（阿尤布军官，希尔库赫之侄）"
+      ],
+      "sources": [
+        {
+          "name": "伊本·阿西尔，《全史》（al-Kāmil fī al-Tārīkh）",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "伊马德·丁·伊斯法罕尼，《征服埃及》（Fatḥ al-Qusṣ）",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿尤布在埃及的战役在1160年代后期的大致轨迹有充分记载，尽管1168年具体事件有时与相邻年份混淆。",
+      "cross_references": [
+        "Led to 1169-001 (Saladin's arrival in Egypt as vizier)",
+        "Led to 1171-001 (Overthrow of the Fatimid Caliphate)"
+      ]
+    },
+    {
+      "id": "1168-002",
+      "title": "拜占庭-十字军冲突：米尔奥凯法隆战役",
+      "region": "安纳托利亚，拜占庭帝国",
+      "coordinates_approx": "38.5, 31.5",
+      "category": "military",
+      "description": "在1176年（而非1168年），拜占庭皇帝曼努埃尔一世·科穆宁在米尔奥凯法隆战役中惨败于塞尔柱突厥人。然而在1168年，拜占庭军队在安纳托利亚与塞尔柱突厥人以及西西里诺曼王国持续交战。这些冲突反映了拜占庭帝国日益衰退的军事力量和领土控制。这一时期，拜占庭领土受到多方压力，促成了帝国的最终衰落和1204年第四次十字军洗劫君士坦丁堡。",
+      "key_figures": [
+        "曼努埃尔一世·科穆宁（拜占庭皇帝，在位1143–1180）"
+      ],
+      "sources": [
+        {
+          "name": "霍尼亚特斯，《拜占庭史》",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "关于拜占庭军事战役的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "拜占庭在安纳托利亚的军事战役在1160年代和1170年代持续进行。米尔奥凯法隆战役发生于1176年而非1168年，但拜占庭-塞尔柱冲突在这一时期是连续的。",
+      "cross_references": [
+        "Part of broader Byzantine decline in the 12th century",
+        "Related to 1204-001 (Fourth Crusade's sack of Constantinople)"
+      ]
+    },
+    {
+      "id": "1168-003",
+      "title": "亨利二世的安茹帝国达到顶峰",
+      "region": "英格兰、诺曼底、安茹、阿基坦",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "political",
+      "description": "1168年，英格兰国王亨利二世统治着从苏格兰到比利牛斯山脉的庞大安茹帝国。帝国包括英格兰、诺曼底、安茹、曼恩、图赖讷和阿基坦。亨利二世处于权力巅峰，巩固了领土并建立了强大的行政体系。然而，与儿子的紧张关系以及与教会（特别是托马斯·贝克特）的冲突开始破坏其王国的稳定。安茹帝国代表了中世纪欧洲最强大的政治实体之一，但在亨利二世1189年去世后开始分裂。",
+      "key_figures": [
+        "亨利二世（英格兰国王，诺曼底公爵）"
+      ],
+      "sources": [
+        {
+          "name": "霍维登的罗杰，《编年史》",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "纽堡的威廉，《英国事务史》",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "亨利二世在1168年对安茹帝国的统治在当代编年史中有充分记载。其领土的范围和组成明确确立。",
+      "cross_references": [
+        "Related to 1169-003 (Conflict with Thomas Becket)",
+        "Led to 1173-001 (Great Rebellion of 1173–1174)"
+      ]
+    },
+    {
+      "id": "1168-004",
+      "title": "宋朝的经济繁荣与城市发展",
+      "region": "宋朝，中国",
+      "coordinates_approx": "30.2741, 120.1551",
+      "category": "economic",
+      "description": "1168年的宋朝正经历着前所未有的经济繁荣。先进农业技术的发展、海上贸易的扩张以及城市中心的增长促进了宋朝的财富和权力。像杭州（临安）这样的城市是当时世界上最大、最繁荣的城市之一。宋朝政府对商业的支持、纸币的发展以及科举制度的扩展创造了一个充满活力的经济，支撑着庞大的人口和精致文化。",
+      "key_figures": [
+        "宋孝宗（在位1163–1189）"
+      ],
+      "sources": [
+        {
+          "name": "《宋史》，元朝编纂",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "马可·波罗，《游记》（后来对宋朝繁荣的记载）",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "关于宋朝经济发展的史学共识",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "宋朝的经济繁荣在中方资料中有充分记载，并得到考古证据支持。然而，1168年具体事件常作为更广泛趋势的一部分而非离散事件呈现。",
+      "cross_references": [
+        "Part of Song Dynasty's golden age (960–1279)"
+      ]
+    },
+    {
+      "id": "1168-005",
+      "title": "压力下的十字军国家：阿马尔里克一世在埃及的战役",
+      "region": "十字军国家，埃及",
+      "coordinates_approx": "31.9454, 35.2272",
+      "category": "military",
+      "description": "耶路撒冷国王阿马尔里克一世（在位1163–1174）领导了对埃及的军事战役，试图扩大十字军势力并对抗阿尤布日益增长的威胁。这些战役最初在夺取部分埃及领土上取得成功，但最终未能阻止萨拉丁领导下的阿尤布巩固权力。十字军国家日益处于守势，面对统一的穆斯林 opposition，最终在1187年萨拉丁于哈廷战役的胜利中达到高潮。",
+      "key_figures": [
+        "阿马尔里克一世（耶路撒冷国王，在位1163–1174）",
+        "希尔库赫（阿尤布将领）"
+      ],
+      "sources": [
+        {
+          "name": "提尔的威廉，《十字军历史》",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "伊本·阿西尔，《全史》（al-Kāmil fī al-Tārīkh）",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "阿马尔里克一世在埃及的战役在十字军和伊斯兰资料中均有记载，尽管1168年具体事件的 chronology 有时不明确。",
+      "cross_references": [
+        "Related to 1168-001 (Ayyubid campaigns in Egypt)",
+        "Led to 1187-001 (Saladin's victory at Hattin)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "关于拜占庭在1168年衰落的传统叙述有时过于简化；虽然拜占庭帝国确实在失去领土和权力，但它仍是一支重要的地区力量，并维持着复杂的行政和军事结构。安茹帝国有时被呈现为统一、稳定的政治实体，但实际上它是由对亨利二世的个人忠诚结合在一起的封建领土集合，国王与其儿子之间的紧张关系已经明显。十字军国家在埃及的战役有时被描绘为连贯的战略，但它们往往是对阿尤布扩张的反应性应对，而非长期计划的一部分。",
+  "historiographic_note": "1168年在西欧和伊斯兰资料中有中等程度的记载，当代或近当代编年史提供了主要政治和军事事件的记录。然而，视角严重偏向精英政治和军事史；经济、社会和文化发展记录较少。中方资料丰富但 heavily 集中于宫廷政治和行政事务。现存资料反映了文字精英——宫廷编年史家、宗教机构和后世编纂者——的偏见，可能低估了普通人、女性和非精英群体的经历。撒哈拉以南非洲、东南亚和大洋洲的历史在很大程度上缺席于当代文字记录。",
+  "graph_edges": [
+    {
+      "from": "1168-001",
+      "to": "1169-001",
+      "relation": "led_to",
+      "note": "希尔库赫在1168年的战役导致他于1169年被任命为维齐尔"
+    },
+    {
+      "from": "1168-002",
+      "to": "1176-001",
+      "relation": "led_to",
+      "note": "1168年的拜占庭-塞尔柱冲突持续并在1176年米尔奥凯法隆战役中达到高潮"
+    },
+    {
+      "from": "1168-003",
+      "to": "1173-001",
+      "relation": "led_to",
+      "note": "亨利二世在1168年的统治随后是1173–1174年的大叛乱"
+    },
+    {
+      "from": "1168-005",
+      "to": "1187-001",
+      "relation": "led_to",
+      "note": "十字军国家在1168年对埃及的战役未能阻止萨拉丁崛起及其在1187年哈廷战役的胜利"
+    }
+  ]
+}

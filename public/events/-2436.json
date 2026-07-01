@@ -1,0 +1,81 @@
+{
+  "year": -2436,
+  "year_label": "公元前2436年",
+  "era_context": "埃及古王国（第六王朝）在佩皮二世领导下继续。纳拉姆辛统治下的阿卡德帝国处于领土极盛期。印度河流域文明仍处于成熟期。这是黎凡特和安纳托利亚青铜时代早期III期的高峰。",
+  "documentation_level": "稀少",
+  "geographic_coverage_gaps": [
+    "撒哈拉以南非洲",
+    "北欧",
+    "中美洲",
+    "太平洋和大洋洲"
+  ],
+  "events": [
+    {
+      "id": "-2436-001",
+      "title": "佩皮二世统治持续；埃及行政巩固",
+      "region": "埃及，尼罗河谷地",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "佩皮二世漫长的统治（传统年表）继续，维持着古王国的行政结构。官员墓中的铭文（如哈克胡夫和韦尼的铭文）记录了持续对努比亚、西奈和红海沿岸的军事和贸易远征。地方总督（诺姆长）的权力逐渐增大，预示了将出现在第一中间期的地方分权化。",
+      "key_figures": [
+        "佩皮二世，埃及法老",
+        "哈克胡夫，总督和军事指挥官"
+      ],
+      "sources": [
+        {
+          "name": "官员墓中的自传体铭文",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "金字塔文",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "佩皮二世的统治传统上定为约公元前2278–前2184年。其统治内的具体事件无法精确到具体年份。",
+      "cross_references": [
+        "-2435-001"
+      ]
+    },
+    {
+      "id": "-2436-002",
+      "title": "纳拉姆辛在扎格罗斯和黎凡特的军事活动",
+      "region": "美索不达米亚、黎凡特、扎格罗斯山脉",
+      "coordinates_approx": "34.0, 43.0",
+      "category": "military",
+      "description": "纳拉姆辛继续军事活动以维持阿卡德的霸权。铭文记载了对卢卢比人和其他高地民族的胜利。阿卡德帝国的控制范围从波斯湾延伸到地中海并进入安纳托利亚，尽管这些征服的稳定性越来越受到现代学者的质疑。",
+      "key_figures": [
+        "纳拉姆辛，阿卡德国王"
+      ],
+      "sources": [
+        {
+          "name": "王室铭文和石碑",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "楔形文字行政记录",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "纳拉姆辛的战役在当时的铭文中有充分证据，但个别战役的精确年代不确定。",
+      "cross_references": [
+        "-2435-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "阿卡德对遥远地区的控制范围仍存在争议。一些学者认为阿卡德的“帝国”更多是一个贸易关系和纳贡安排的网络，而非直接的领土控制。声称阿卡德的影响到达印度河流域的说法是基于有限的考古证据，并未被普遍接受。",
+  "historiographic_note": "这一年的史料仅限于埃及和美索不达米亚的王室铭文和行政文本。这些史料天生偏向精英叙事和军事成就。世界上绝大多数人口和文明在存世史料中都没有记载。",
+  "graph_edges": [
+    {
+      "from": "-2436-001",
+      "to": "-2435-001",
+      "relation": "contemporary_with",
+      "note": "佩皮二世的统治跨越多年；此条目记载的是与前一年相同的统治。"
+    }
+  ]
+}
