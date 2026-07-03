@@ -250,6 +250,115 @@ Core 持有 Store（响应式状态）+ EventBus（瞬时事件）+ Cesium Viewe
 5. **UGC 内容提交** — 用户补充/修正历史事件数据
 6. **单元测试 / CI/CD** — 核心工具函数覆盖，自动构建部署
 
+## 服务器部署
+
+线上运行于阿里云轻量应用服务器（Ubuntu 22.04 + Nginx），子域名 `earth.tazume-sans.cn`，从 Gitee 仓库拉取代码并构建。
+
+### 服务器架构
+
+```
+用户浏览器
+  → https://earth.tazume-sans.cn (Nginx, 443 SSL)
+    → /var/www/earth/dist/ (静态文件)
+    或 SPA fallback → index.html
+
+所有数据在构建时打包为静态 JSON，无需后端运行时。
+```
+
+| 组件 | 配置 |
+|------|------|
+| 服务器 | 阿里云轻量，Ubuntu 22.04，47.101.196.26 |
+| Web 服务 | Nginx 1.18，SSL 证书由 Certbot (Let's Encrypt) 管理 |
+| 静态目录 | `/var/www/earth/dist/` |
+| Nginx 配置 | `/etc/nginx/sites-available/earth` → `sites-enabled/` |
+| 代码仓库 | Gitee: `https://gitee.com/xsy_uiu/history-earth.git` |
+| 运行时 | Node.js 20.x（仅构建时需要，运行时无依赖） |
+
+### 首次部署
+
+```bash
+# 1. 服务器上安装 Node.js
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt install -y nodejs
+
+# 2. 克隆项目
+sudo git clone https://gitee.com/xsy_uiu/history-earth.git /var/www/earth
+sudo chown -R $(whoami):$(whoami) /var/www/earth
+
+# 3. 安装依赖 + 构建
+cd /var/www/earth
+npm install
+npm run build
+
+# 4. 配置 Nginx
+sudo cp /var/www/earth/deploy/nginx-earth.conf /etc/nginx/sites-available/earth
+sudo ln -sf /etc/nginx/sites-available/earth /etc/nginx/sites-enabled/
+sudo nginx -t && sudo systemctl reload nginx
+
+# 5. SSL 证书（需 DNS 已指向服务器）
+sudo certbot --nginx -d earth.tazume-sans.cn
+
+# 6. 权限收尾
+sudo chown -R www-data:www-data /var/www/earth
+```
+
+### 日常更新
+
+本地修改代码并推送到 Gitee 后，SSH 登录服务器执行：
+
+```bash
+cd /var/www/earth
+sudo chown -R deploy:deploy /var/www/earth   # 解锁构建权限
+git pull
+npm run build                                 # 重新构建
+sudo nginx -t && sudo systemctl reload nginx
+```
+
+或一键更新脚本：
+
+```bash
+# 在 /var/www/earth/ 下创建 update.sh
+#!/bin/bash
+set -e
+cd /var/www/earth
+sudo chown -R deploy:deploy /var/www/earth
+git pull origin master
+npm run build
+sudo chown -R www-data:www-data /var/www/earth
+echo "✅ Update complete: https://earth.tazume-sans.cn/"
+```
+
+### Nginx 配置要点
+
+```nginx
+# deploy/nginx-earth.conf 的关键配置：
+
+# gzip_static: 直接返回构建时预压缩的 .gz 文件，零 CPU 开销
+gzip_static on;
+
+# COOP: 允许 Cesium Worker 使用 SharedArrayBuffer
+add_header Cross-Origin-Opener-Policy same-origin;
+
+# Cesium 静态资源长缓存（版本号文件名，永久不可变）
+location /cesium/ { expires 30d; }
+location /assets/ { expires 1y; }
+
+# SPA 回退：所有路径交给 index.html
+location / { try_files $uri $uri/ /index.html; }
+```
+
+> 注意：不要设置 `Cross-Origin-Embedder-Policy: require-corp`，这会阻止 Cesium 从外部 CDN 加载影像瓦片。
+
+### 常见问题
+
+| 问题 | 解决 |
+|------|------|
+| 地球不显示，只有文字标签 | Nginx 中检查是否误设了 `COEP: require-corp` |
+| `git pull` 报 dubious ownership | `git config --global --add safe.directory /var/www/earth` |
+| 构建后页面无变化 | 清除浏览器缓存，或检查 `dist/` 是否更新 |
+| SSL 证书过期 | Certbot 自动续期，检查 `sudo certbot renew --dry-run` |
+| 服务器上 `node` 命令不存在 | Node.js 未安装或版本不对，重新按上面步骤安装 |
+
 ## 参考文档
 
 - [Human History According to AI](https://github.com/Magnussmari/Human_history_Acording_to_AI) — 事件数据源
