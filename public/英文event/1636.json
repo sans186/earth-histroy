@@ -1,0 +1,235 @@
+{
+  "year": 1636,
+  "year_label": "1636 CE",
+  "era_context": "The early modern period in Europe, dominated by the Thirty Years' War (1618\u20131648), which devastated the German-speaking lands and reshaped European power balances. In East Asia, the Qing Dynasty was consolidating control over China following the fall of the Ming; the Manchus had declared the Later Jin state and were preparing their conquest. In the Americas, European colonial expansion continued with competing claims in North America and the Caribbean. The Scientific Revolution was accelerating in Europe with figures like Descartes and Galileo active.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited European documentation; internal African state histories underrepresented in Western archives)",
+    "Interior Southeast Asia and Oceania (sparse European contact records)"
+  ],
+  "events": [
+    {
+      "id": "1636-001",
+      "title": "Battle of Wittstock",
+      "region": "Brandenburg, Holy Roman Empire (modern Germany)",
+      "coordinates_approx": "53.18, 12.28",
+      "category": "military",
+      "description": "Swedish forces under Field Marshal Johan Ban\u00e9r defeated a combined Imperial-Saxon army, marking a major Swedish victory in the Thirty Years' War. The battle demonstrated Swedish military superiority and secured Swedish dominance in northern Germany for several years. This victory strengthened Sweden's negotiating position for the eventual Peace of Westphalia and consolidated Swedish territorial gains in the Baltic region.",
+      "key_figures": [
+        "Johan Ban\u00e9r (Swedish Field Marshal)",
+        "Melchior von Hatzfeldt (Imperial commander)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary Swedish military records and accounts by participants",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Imperial chronicles and reports to Vienna",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Well-documented contemporary military records from both sides; date and outcome uncontested.",
+      "cross_references": [
+        "1618-001 (Thirty Years' War begins)",
+        "1648-001 (Peace of Westphalia)"
+      ]
+    },
+    {
+      "id": "1636-002",
+      "title": "Founding of Harvard College",
+      "region": "Massachusetts Bay Colony, North America",
+      "coordinates_approx": "42.37, -71.12",
+      "category": "cultural",
+      "description": "Harvard College was established in Cambridge, Massachusetts, making it the first institution of higher education in the English colonies of North America. Founded to train clergy for the Congregational Church, it became a center of learning and intellectual development in colonial America. The college's establishment reflected the Puritan emphasis on education and literacy, and it would become one of the most influential universities in American history.",
+      "key_figures": [
+        "John Harvard (benefactor, though he died in 1638)",
+        "Nathaniel Eaton (first headmaster)"
+      ],
+      "sources": [
+        {
+          "name": "Records of the Massachusetts Bay Company and Harvard College archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cotton Mather, Magnalia Christi Americana (1702)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Founding date of 1636 is well-established in institutional records, though some sources cite 1638 as the formal opening.",
+      "cross_references": [
+        "1620-001 (Mayflower Compact and Puritan settlement)"
+      ]
+    },
+    {
+      "id": "1636-003",
+      "title": "Pequot War concludes; Treaty of Hartford",
+      "region": "Connecticut and Massachusetts Bay Colony, North America",
+      "coordinates_approx": "41.5, -72.5",
+      "category": "military",
+      "description": "The Pequot War, which began in 1636 with raids and escalated through the spring, culminated in the destruction of the Pequot nation by English colonists and their Narragansett and Mohegan allies. The war resulted in the near-total annihilation of the Pequot people through military campaigns and the enslavement of survivors. This conflict marked one of the first genocidal campaigns in North American colonial history and fundamentally altered the balance of power in southern New England.",
+      "key_figures": [
+        "John Endecott (Massachusetts Bay commander)",
+        "John Mason (Connecticut commander)",
+        "Uncas (Mohegan leader, allied with English)",
+        "Sassacus (Pequot sachem)"
+      ],
+      "sources": [
+        {
+          "name": "John Mason, A Brief History of the Pequot War (1736, but based on contemporary accounts)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "William Bradford, Of Plymouth Plantation (contemporary account)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Colonial records of Massachusetts Bay and Connecticut",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The war's occurrence and major events are well-documented in colonial records, though casualty figures and interpretations of the conflict's brutality vary.",
+      "cross_references": [
+        "1620-001 (Early English settlement)"
+      ]
+    },
+    {
+      "id": "1636-004",
+      "title": "Manchu declaration of Later Jin as Qing Dynasty",
+      "region": "Manchuria and northern China",
+      "coordinates_approx": "43.5, 125.0",
+      "category": "political",
+      "description": "The Jurchen Later Jin state, under the Manchus, formally declared itself the Qing Dynasty, with the Chongde Emperor (Hung Taiji) proclaiming the new dynasty name. This declaration represented a crucial step in the Manchu conquest of China, establishing the legitimacy of Manchu rule before the final military conquest of Ming China. The renaming from Later Jin to Qing signaled the Manchus' intention to rule all of China, not merely their homeland.",
+      "key_figures": [
+        "Hong Taiji (Chongde Emperor, Manchu leader)",
+        "Dorgon (regent and military leader)"
+      ],
+      "sources": [
+        {
+          "name": "Qing imperial records and the Veritable Records of the Qing (Qing Shilu)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ming court records documenting the Manchu threat",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The declaration is well-documented in both Qing and Ming sources; the date is established in official records.",
+      "cross_references": [
+        "1618-001 (Later Jin emergence under Nurhaci)",
+        "1644-001 (Qing conquest of China)"
+      ]
+    },
+    {
+      "id": "1636-005",
+      "title": "Dutch-Portuguese conflict in the Indian Ocean intensifies",
+      "region": "Indian Ocean, Ceylon (Sri Lanka), Malacca Strait",
+      "coordinates_approx": "6.9, 80.7",
+      "category": "military",
+      "description": "Dutch naval and commercial forces, operating through the Dutch East India Company (VOC), intensified their campaigns against Portuguese colonial holdings in South and Southeast Asia. The Dutch captured several Portuguese forts and trading posts, including actions around Ceylon and the Malacca Strait. This conflict reflected the broader European struggle for dominance in Asian trade and marked the decline of Portuguese maritime power in favor of Dutch ascendancy.",
+      "key_figures": [
+        "Antonio van Diemen (Dutch Governor-General of the East Indies)",
+        "Portuguese colonial administrators"
+      ],
+      "sources": [
+        {
+          "name": "Dutch East India Company (VOC) records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Portuguese colonial archives and reports to Lisbon",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general conflict is well-documented, though specific engagements in 1636 may be conflated with nearby years (1635\u20131637).",
+      "cross_references": [
+        "1602-001 (VOC founding)",
+        "1641-001 (Dutch capture of Malacca)"
+      ]
+    },
+    {
+      "id": "1636-006",
+      "title": "Descartes publishes Discourse on Method (French edition)",
+      "region": "France and Europe",
+      "coordinates_approx": "48.8, 2.3",
+      "category": "scientific",
+      "description": "Ren\u00e9 Descartes published the Discourse on Method in French (rather than Latin), making his philosophical and methodological ideas accessible to a broader educated audience. The work outlined his systematic doubt and the famous principle 'Cogito, ergo sum' (I think, therefore I am), laying groundwork for modern philosophy and the scientific method. This publication was a landmark in the Scientific Revolution, influencing subsequent European thought on epistemology and natural philosophy.",
+      "key_figures": [
+        "Ren\u00e9 Descartes (philosopher and mathematician)"
+      ],
+      "sources": [
+        {
+          "name": "Descartes, Discourse on Method (1636, original French edition)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Descartes' correspondence and biographical records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Publication date and content are well-established in bibliographic and archival records.",
+      "cross_references": [
+        "1633-001 (Galileo's trial and house arrest)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Pequot War's characterization as a 'genocide' is debated among historians; some scholars argue that while the destruction was severe, the Pequot were not entirely eliminated and survivors were absorbed into other groups. The casualty figures cited in colonial sources (often claiming 600+ deaths at Mystic Fort) are disputed by modern scholars who argue the numbers may be exaggerated. Additionally, the role of indigenous allies (Narragansett and Mohegan) in the conflict is sometimes minimized in narratives that emphasize English agency alone. The significance of the Qing Dynasty declaration in 1636 is sometimes overstated; the Manchus did not formally conquer China until 1644, and the declaration was partly a symbolic assertion of legitimacy rather than an immediate shift in power.",
+  "historiographic_note": "The year 1636 is well-documented in European sources, particularly regarding the Thirty Years' War and early colonial North America. However, the historical record is heavily weighted toward European and European-colonial perspectives. Chinese sources on the Qing declaration exist but are less frequently consulted in Western historiography. Indigenous American perspectives on the Pequot War are largely absent from contemporary written records, surviving only through later oral traditions and archaeological evidence. The Dutch-Portuguese conflict in Asia is documented in company records but often receives less attention than European-centered narratives. Overall, the year benefits from rich documentation in some regions while remaining opaque in others.",
+  "graph_edges": [
+    {
+      "from": "1636-001",
+      "to": "1648-001",
+      "relation": "led_to",
+      "note": "Swedish victory at Wittstock strengthened Sweden's position for the Peace of Westphalia negotiations"
+    },
+    {
+      "from": "1636-002",
+      "to": "1776-001",
+      "relation": "part_of",
+      "note": "Harvard College became a center of intellectual life in colonial America, influencing Revolutionary-era thought"
+    },
+    {
+      "from": "1636-003",
+      "to": "1675-001",
+      "relation": "led_to",
+      "note": "Pequot War's destruction of indigenous power structures contributed to later conflicts like King Philip's War"
+    },
+    {
+      "from": "1636-004",
+      "to": "1644-001",
+      "relation": "led_to",
+      "note": "Qing Dynasty declaration preceded the final Manchu conquest of China by eight years"
+    },
+    {
+      "from": "1636-005",
+      "to": "1641-001",
+      "relation": "led_to",
+      "note": "Dutch-Portuguese conflicts culminated in Dutch capture of Malacca in 1641"
+    },
+    {
+      "from": "1636-006",
+      "to": "1687-001",
+      "relation": "led_to",
+      "note": "Descartes' methodological innovations influenced Newton's approach to natural philosophy"
+    }
+  ]
+}

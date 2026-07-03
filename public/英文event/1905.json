@@ -1,0 +1,406 @@
+{
+  "year": 1905,
+  "year_label": "1905 CE",
+  "era_context": "The early 20th century, marked by imperial competition, industrial expansion, and rising nationalist movements. The Russo-Japanese War dominates the year, reshaping Asian geopolitics and demonstrating the vulnerability of European powers. In Europe, socialist and revolutionary movements gain strength. The Ottoman Empire continues its decline amid internal instability.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1905-001",
+      "title": "Treaty of Portsmouth Ends Russo-Japanese War",
+      "region": "Portsmouth, New Hampshire, United States / Russia\u2013Japan",
+      "coordinates_approx": "43.08, -71.31",
+      "category": "political",
+      "description": "The Russo-Japanese War (1904\u20131905) ended with the Treaty of Portsmouth, signed on September 5, 1905. Japan emerged victorious, gaining control of southern Sakhalin, Port Arthur, and the South Manchuria Railway. The war marked the first major military defeat of a European power by an Asian nation, shocking the Western world and inspiring nationalist movements across Asia. Russia's defeat contributed to internal instability and the 1905 Revolution.",
+      "key_figures": [
+        "Roosevelt, Theodore (U.S. President; mediated peace)",
+        "Witte, Sergei (Russian negotiator)",
+        "Komura, Jutaro (Japanese negotiator)"
+      ],
+      "sources": [
+        {
+          "name": "Official treaty text and diplomatic records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspapers and diplomatic histories",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in official records and contemporary sources. The treaty date and terms are well-established.",
+      "cross_references": []
+    },
+    {
+      "id": "1905-002",
+      "title": "Russian Revolution of 1905",
+      "region": "Russian Empire",
+      "coordinates_approx": "55.75, 37.62",
+      "category": "political",
+      "description": "A wave of strikes, uprisings, and political unrest swept the Russian Empire in 1905, triggered by military defeats in the Russo-Japanese War and long-standing grievances over autocratic rule. The revolution included the Bloody Sunday massacre (January 22), widespread strikes, peasant uprisings, and mutinies in the military (notably the Potemkin mutiny). Tsar Nicholas II responded with the October Manifesto, promising civil liberties and a parliament (Duma), though he retained ultimate power. The revolution failed to overthrow the regime but forced significant constitutional concessions.",
+      "key_figures": [
+        "Nicholas II (Tsar of Russia)",
+        "Witte, Sergei (Prime Minister; negotiated October Manifesto)",
+        "Gapon, Georgy (priest; led Bloody Sunday march)",
+        "Lenin, Vladimir (Bolshevik leader; organized revolutionary activities)"
+      ],
+      "sources": [
+        {
+          "name": "Russian imperial records and police reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Russian and international newspapers",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Revolutionary manifestos and memoirs",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in official records, contemporary newspapers, and revolutionary sources. Key dates and events are well-established.",
+      "cross_references": []
+    },
+    {
+      "id": "1905-003",
+      "title": "Bloody Sunday in Russia",
+      "region": "Saint Petersburg, Russian Empire",
+      "coordinates_approx": "59.93, 30.36",
+      "category": "political",
+      "description": "On January 22, 1905 (January 9 in the Julian calendar), Russian troops fired on a peaceful workers' march led by Father Georgy Gapon in Saint Petersburg, killing an estimated 200\u20131,000 people. The massacre, intended to suppress revolutionary activity, instead galvanized opposition to the Tsar and sparked the broader 1905 Revolution. Bloody Sunday became a symbol of tsarist brutality and a turning point in Russian revolutionary consciousness.",
+      "key_figures": [
+        "Gapon, Georgy (priest; led the march)",
+        "Nicholas II (Tsar; authorized military response)",
+        "Trepov, Dmitri (military commander)"
+      ],
+      "sources": [
+        {
+          "name": "Russian military and police reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Russian and international newspapers",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Eyewitness accounts and memoirs",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in official records, contemporary accounts, and later historical sources. The date and general events are well-established, though casualty figures vary.",
+      "cross_references": [
+        "1905-002"
+      ]
+    },
+    {
+      "id": "1905-004",
+      "title": "Potemkin Mutiny",
+      "region": "Black Sea, Russian Empire",
+      "coordinates_approx": "44.60, 34.27",
+      "category": "military",
+      "description": "The crew of the Russian battleship Potemkin mutinied on June 14, 1905, in protest against harsh conditions and in solidarity with the broader 1905 Revolution. The mutineers took control of the ship and sailed to Odessa, where they supported striking workers. The mutiny was eventually suppressed, but it became a symbol of revolutionary resistance and military discontent. The event was later immortalized in Sergei Eisenstein's 1925 film.",
+      "key_figures": [
+        "Matyushenko, Afanasy (mutiny leader)",
+        "Vakulenchuk, Grigory (sailor; killed during mutiny)"
+      ],
+      "sources": [
+        {
+          "name": "Russian naval records and military reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Russian and international newspapers",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Eyewitness accounts and memoirs",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in Russian naval records and contemporary sources. The date and events are well-established.",
+      "cross_references": [
+        "1905-002"
+      ]
+    },
+    {
+      "id": "1905-005",
+      "title": "Einstein's Annus Mirabilis Begins (Special Relativity)",
+      "region": "Bern, Switzerland / theoretical physics",
+      "coordinates_approx": "46.95, 7.45",
+      "category": "scientific",
+      "description": "Albert Einstein, working as a technical expert at the Swiss Patent Office in Bern, began developing the theory of special relativity in 1905. In June 1905, he published his paper 'On the Electrodynamics of Moving Bodies,' which introduced the concept that the laws of physics are the same in all inertial reference frames and that the speed of light is constant. This work, along with his other 1905 papers on the photoelectric effect and Brownian motion, revolutionized physics and laid the foundation for modern theoretical physics.",
+      "key_figures": [
+        "Einstein, Albert (physicist)",
+        "Planck, Max (theoretical physicist; influenced Einstein's thinking)"
+      ],
+      "sources": [
+        {
+          "name": "Einstein's published papers in Annalen der Physik, 1905",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Einstein's correspondence and later autobiographical writings",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Einstein's 1905 papers are extensively documented and dated. The publication dates and content are well-established.",
+      "cross_references": []
+    },
+    {
+      "id": "1905-006",
+      "title": "Sinn F\u00e9in Founded in Ireland",
+      "region": "Dublin, Ireland",
+      "coordinates_approx": "53.35, -6.26",
+      "category": "political",
+      "description": "Arthur Griffith founded Sinn F\u00e9in ('Ourselves Alone') in 1905 as a political movement advocating Irish independence and self-reliance. The movement rejected violent rebellion in favor of political organization and economic self-sufficiency. Sinn F\u00e9in would become a major force in Irish nationalism, particularly after the 1916 Easter Rising, and eventually form the basis of the Irish Free State government.",
+      "key_figures": [
+        "Griffith, Arthur (founder)",
+        "Hobson, Bulmer (co-founder)"
+      ],
+      "sources": [
+        {
+          "name": "Sinn F\u00e9in founding documents and contemporary Irish newspapers",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Arthur Griffith's writings and memoirs",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in Irish historical records and contemporary sources. The founding date and key figures are well-established.",
+      "cross_references": []
+    },
+    {
+      "id": "1905-007",
+      "title": "Moroccan Crisis (First)",
+      "region": "Morocco / European diplomacy",
+      "coordinates_approx": "31.79, -7.09",
+      "category": "political",
+      "description": "The First Moroccan Crisis erupted in 1905 when German Kaiser Wilhelm II challenged French influence in Morocco by visiting Tangier and demanding that Morocco remain independent. The crisis exposed tensions between Germany and France over colonial expansion in North Africa and nearly led to war. The crisis was resolved by the Algeciras Conference (1906) but left Franco-German relations severely strained, contributing to the polarization that preceded World War I.",
+      "key_figures": [
+        "Wilhelm II (German Kaiser)",
+        "Delcass\u00e9, Th\u00e9ophile (French Foreign Minister)",
+        "Rouvier, Maurice (French Prime Minister)"
+      ],
+      "sources": [
+        {
+          "name": "German and French diplomatic records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary European newspapers",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in diplomatic archives and contemporary sources. The crisis and its key events are well-established.",
+      "cross_references": []
+    },
+    {
+      "id": "1905-008",
+      "title": "Separation of Church and State Law Enacted in France",
+      "region": "France",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "legal",
+      "description": "The French Law of Separation of Church and State was enacted on December 9, 1905, formally separating religious institutions from state authority. The law ended the Concordat of 1801 and established secularism (la\u00efcit\u00e9) as a foundational principle of the French Republic. The law stripped the Catholic Church of state subsidies and control over education, marking a decisive victory for republican and secular forces in the ongoing conflict between the Church and the Third Republic.",
+      "key_figures": [
+        "Combes, \u00c9mile (Prime Minister; championed the law)",
+        "Clemenceau, Georges (supporter of secularism)"
+      ],
+      "sources": [
+        {
+          "name": "French legislative records and official texts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary French newspapers and political writings",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The law was enacted on December 9, 1905. The date and content are well-documented in official records.",
+      "cross_references": []
+    },
+    {
+      "id": "1905-009",
+      "title": "Bengal Partition Announced by British India",
+      "region": "Bengal, British India",
+      "coordinates_approx": "24.00, 88.00",
+      "category": "political",
+      "description": "British Viceroy Lord Curzon announced the partition of Bengal on July 20, 1905, dividing the province into Hindu-majority West Bengal and Muslim-majority East Bengal. The partition was ostensibly for administrative efficiency but was widely perceived as a 'divide and conquer' strategy to weaken Indian nationalism. The partition sparked massive protests, the Swadeshi movement (promoting indigenous goods), and the rise of militant nationalism in India. The partition was reversed in 1911 but left deep communal scars.",
+      "key_figures": [
+        "Curzon, George (British Viceroy)",
+        "Banerjee, Surendranath (Indian nationalist leader)",
+        "Tilak, Bal Gangadhar (Indian nationalist leader)"
+      ],
+      "sources": [
+        {
+          "name": "British colonial records and official announcements",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Indian newspapers and nationalist writings",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in British colonial records and contemporary Indian sources. The announcement date and events are well-established.",
+      "cross_references": []
+    },
+    {
+      "id": "1905-010",
+      "title": "Swadeshi Movement Launched in India",
+      "region": "Bengal, British India",
+      "coordinates_approx": "24.00, 88.00",
+      "category": "cultural",
+      "description": "In response to the Bengal Partition, Indian nationalists launched the Swadeshi movement, promoting the use of indigenous goods and boycotting British products. The movement emphasized self-reliance and Indian cultural pride, becoming a major force in the Indian independence struggle. Swadeshi extended beyond economics to include cultural revival, education, and the promotion of Indian languages and traditions.",
+      "key_figures": [
+        "Banerjee, Surendranath (nationalist leader)",
+        "Tilak, Bal Gangadhar (nationalist leader)",
+        "Vivekananda, Swami (spiritual leader; influenced movement)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary Indian newspapers and nationalist writings",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British colonial reports on the movement",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in contemporary Indian and British sources. The movement's emergence in 1905 is well-established.",
+      "cross_references": [
+        "1905-009"
+      ]
+    },
+    {
+      "id": "1905-011",
+      "title": "Russo-Japanese War Ends",
+      "region": "Manchuria, Korea, Russia\u2013Japan",
+      "coordinates_approx": "45.00, 125.00",
+      "category": "military",
+      "description": "The Russo-Japanese War, which began in February 1904, effectively ended with the Treaty of Portsmouth in September 1905. Japan's victory marked the first major military defeat of a European power by an Asian nation, shocking the Western world and inspiring nationalist movements across Asia. Russia's defeat contributed to internal instability and the 1905 Revolution. The war demonstrated the effectiveness of modern military technology and tactics and reshaped geopolitics in East Asia.",
+      "key_figures": [
+        "Togo, Heihachiro (Japanese admiral)",
+        "Rozhestvensky, Zinovy (Russian admiral)",
+        "Oyama, Iwao (Japanese general)"
+      ],
+      "sources": [
+        {
+          "name": "Japanese and Russian military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspapers and military histories",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in military records and contemporary sources. The war's end date and major events are well-established.",
+      "cross_references": [
+        "1905-001"
+      ]
+    },
+    {
+      "id": "1905-012",
+      "title": "October Manifesto Issued in Russia",
+      "region": "Russian Empire",
+      "coordinates_approx": "55.75, 37.62",
+      "category": "political",
+      "description": "Tsar Nicholas II issued the October Manifesto on October 17, 1905, in response to the ongoing 1905 Revolution. The manifesto promised civil liberties, freedom of speech and assembly, and the establishment of an elected parliament (Duma). While the manifesto appeared to grant significant constitutional concessions, Nicholas II retained ultimate power and the Duma's authority was severely limited. The manifesto temporarily calmed the revolution but did not address underlying grievances.",
+      "key_figures": [
+        "Nicholas II (Tsar of Russia)",
+        "Witte, Sergei (Prime Minister; negotiated the manifesto)"
+      ],
+      "sources": [
+        {
+          "name": "Official text of the October Manifesto",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Russian and international newspapers",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The manifesto is extensively documented in official records and contemporary sources. The date and content are well-established.",
+      "cross_references": [
+        "1905-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of Einstein's 1905 work was not immediately recognized; the theory of special relativity was not widely accepted or understood until the 1910s. The October Manifesto is often portrayed as a major constitutional victory, but modern scholarship emphasizes that Nicholas II retained absolute power and the Duma was severely limited from the outset. The Bengal Partition's impact on Indian nationalism is sometimes overstated; while it sparked protests, the Swadeshi movement's long-term political impact was limited compared to later independence movements. Casualty figures for Bloody Sunday vary widely (200\u20131,000), and some sources dispute the exact number of victims.",
+  "historiographic_note": "1905 is richly documented in European and Russian sources, reflecting the dominance of Western archives and historiography. The Russian Revolution of 1905 is extensively covered in Russian, Soviet, and Western sources, though interpretations vary based on ideological perspective. Events in Asia (Russo-Japanese War, Bengal Partition) are well-documented in Japanese, Russian, and British sources but less comprehensively covered in indigenous Indian sources. Einstein's scientific work is exceptionally well-documented due to its later significance, but contemporary recognition of its importance was limited. The year is heavily shaped by narratives of European imperial competition and revolutionary change; indigenous perspectives on colonial events are often filtered through colonial or later nationalist historiography.",
+  "graph_edges": [
+    {
+      "from": "1905-001",
+      "to": "1905-002",
+      "relation": "led_to",
+      "note": "Russia's military defeat in the Russo-Japanese War contributed to the 1905 Revolution"
+    },
+    {
+      "from": "1905-003",
+      "to": "1905-002",
+      "relation": "part_of",
+      "note": "Bloody Sunday was a key event within the broader 1905 Revolution"
+    },
+    {
+      "from": "1905-004",
+      "to": "1905-002",
+      "relation": "part_of",
+      "note": "The Potemkin Mutiny was part of the broader 1905 Revolution"
+    },
+    {
+      "from": "1905-009",
+      "to": "1905-010",
+      "relation": "led_to",
+      "note": "The Bengal Partition directly sparked the Swadeshi movement"
+    },
+    {
+      "from": "1905-007",
+      "to": "1906-002",
+      "relation": "led_to",
+      "note": "The First Moroccan Crisis led to the Algeciras Conference in 1906"
+    },
+    {
+      "from": "1905-008",
+      "to": "1906-011",
+      "relation": "contemporary_with",
+      "note": "Both represent secularization and separation of church and state in France"
+    }
+  ]
+}

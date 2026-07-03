@@ -1,0 +1,196 @@
+{
+  "year": 1063,
+  "year_label": "1063 CE",
+  "era_context": "The mid-11th century was a period of significant political and religious transformation across Eurasia. In Western Europe, feudalism was consolidating, the Papacy was asserting greater independence from secular rulers, and the Norman dynasty was expanding its power. In the Byzantine Empire, Constantine X Doukas ruled during a period of relative stability but faced increasing pressure from Seljuk Turks in Anatolia. The Song Dynasty in China continued its commercial and technological expansion. In the Islamic world, the Seljuk Turks were rising as a major power, and the Fatimid Caliphate was in decline.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Pre-Columbian Americas",
+    "Oceania",
+    "Central Asia (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "1063-001",
+      "title": "Norman Conquest of Palermo, Sicily",
+      "region": "Sicily",
+      "coordinates_approx": "38.1, 13.4",
+      "category": "military",
+      "description": "Norman forces under Roger I of Sicily captured the city of Palermo from the Muslim Kalbid dynasty in 1063. The capture of Palermo was a major Norman victory and marked a significant step in the Norman conquest of Sicily. The city had been under Muslim rule for over two centuries and was one of the most important cities in the Mediterranean. The Norman conquest of Palermo was facilitated by internal divisions among the Muslim rulers of Sicily and by Norman military superiority. The conquest of Palermo was part of a broader Norman expansion in the Mediterranean, which paralleled the rise of William, Duke of Normandy, in France.",
+      "key_figures": [
+        "Roger I of Sicily (Norman leader)",
+        "Count Roger of Hauteville (Roger I's father, deceased but legacy continued)"
+      ],
+      "sources": [
+        {
+          "name": "Geoffrey Malaterra, De rebus gestis Rogerii Comitis Normannorum",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Arab geographers and historians (al-Idrisi, Ibn al-Athir)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Palermo",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Norman capture of Palermo in 1063 is attested in multiple sources, including Norman chronicles and Arab historical accounts. The date is secure.",
+      "cross_references": [
+        "1066-001 (Norman Conquest of England, parallel Norman expansion)"
+      ]
+    },
+    {
+      "id": "1063-002",
+      "title": "Seljuk Turks Capture Caesarea in Cappadocia",
+      "region": "Anatolia (modern Turkey)",
+      "coordinates_approx": "38.7, 34.6",
+      "category": "military",
+      "description": "The Seljuk Turks, under Alp Arslan, captured the city of Caesarea (modern Kayseri) in Cappadocia in 1063. Caesarea was an important Byzantine city and a center of Christian pilgrimage. The capture of Caesarea marked another major Seljuk victory and demonstrated their military superiority over the Byzantine Empire. The fall of Caesarea was a significant blow to Byzantine control of central Anatolia and contributed to the eventual Seljuk domination of the region. The city's capture is attested in both Byzantine and Islamic sources.",
+      "key_figures": [
+        "Alp Arslan (Seljuk Sultan)",
+        "Constantine X Doukas (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Byzantine chronicles (Psellus, Attaleiates)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Islamic sources (al-Bundari, Zahir al-Din al-Naysaburi)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Caesarea",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The capture of Caesarea by the Seljuks in 1063 is attested in Byzantine and Islamic sources. The date is secure.",
+      "cross_references": [
+        "1064-003 (Capture of Ani)",
+        "1071-001 (Battle of Manzikert, further Seljuk expansion)"
+      ]
+    },
+    {
+      "id": "1063-003",
+      "title": "Death of Harold Godwinson's Father, Godwin, Earl of Wessex",
+      "region": "England",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "political",
+      "description": "Godwin, Earl of Wessex and the patriarch of the Godwinson family, died in 1063. Godwin had been one of the most powerful nobles in England and had dominated English politics for decades. His death marked a transition of power to his sons, particularly Harold Godwinson, who inherited the earldom of Wessex and became the most powerful noble in England. Godwin's death removed a potential rival to Harold's ambitions and consolidated Harold's position as the likely heir to King Edward the Confessor. The succession of Harold to his father's earldom was a crucial step in the events that would lead to the Norman Conquest in 1066.",
+      "key_figures": [
+        "Godwin, Earl of Wessex (deceased)",
+        "Harold Godwinson (inherits earldom of Wessex)"
+      ],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle (E-version)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Florence of Worcester, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Godwin's death in 1063 is attested in contemporary Anglo-Saxon Chronicle. The date and succession of Harold are well-documented.",
+      "cross_references": [
+        "1066-003 (Harold's coronation as king)"
+      ]
+    },
+    {
+      "id": "1063-004",
+      "title": "Pope Alexander II Supports Norman Expansion in Sicily",
+      "region": "Papal States, Sicily",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "religious",
+      "description": "Pope Alexander II gave papal blessing to the Norman conquest of Sicily, viewing the Normans as allies in the struggle against Muslim rule in the Mediterranean. The Papacy saw the Norman conquest of Sicily as part of a broader Christian reconquest of territories lost to Islam. This papal support was crucial to the legitimacy of the Norman conquest and helped to integrate the Normans into the Christian world. The papal blessing of the Norman conquest of Sicily paralleled the Papacy's later support for the Norman Conquest of England in 1066, though the circumstances were different.",
+      "key_figures": [
+        "Pope Alexander II",
+        "Roger I of Sicily (Norman leader)"
+      ],
+      "sources": [
+        {
+          "name": "Papal records and letters",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Geoffrey Malaterra, De rebus gestis Rogerii Comitis Normannorum",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Papal support for the Norman conquest of Sicily is attested in papal records and Norman chronicles. The exact date and extent of papal involvement in 1063 are less certain.",
+      "cross_references": [
+        "1063-001 (Norman capture of Palermo)"
+      ]
+    },
+    {
+      "id": "1063-005",
+      "title": "Song Dynasty Continues Commercial Expansion",
+      "region": "China",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "economic",
+      "description": "The Song Dynasty continued its commercial and technological expansion during the 1060s. Maritime trade networks were expanding, with Song merchants reaching Southeast Asia, India, and the Islamic world. The Song government was actively promoting commerce through the establishment of trading posts and the regulation of maritime trade. By 1063, Song China was the world's most economically advanced civilization, with sophisticated financial instruments, a large merchant class, and extensive international trade networks. This commercial expansion would continue throughout the Song period and would eventually influence European commerce and technology.",
+      "key_figures": [
+        "Emperor Shenzong of Song (reigned 1067\u20131085, but policies established under predecessors)"
+      ],
+      "sources": [
+        {
+          "name": "Song administrative records and trade documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Song ports and shipwrecks",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Arab and Persian merchant accounts",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Song commercial expansion in the 1060s is confirmed by administrative records, archaeological evidence, and contemporary merchant accounts.",
+      "cross_references": [
+        "1066-007 (Song technological advances)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Godwin's death as a simple succession event has been complicated by modern scholarship. Some historians argue that Godwin's death may have been hastened by political stress or illness, and that the exact date of his death (1063 vs. 1053) has been disputed in some sources. The Anglo-Saxon Chronicle provides the most reliable account, but some later chronicles give different dates. Additionally, the significance of Godwin's death in enabling Harold's rise to power may be overstated; Harold was already a powerful earl before his father's death, and the succession was likely predetermined.",
+  "historiographic_note": "The historical record for 1063 is moderate in richness. English sources are relatively abundant due to the significance of Godwin's death and Harold's succession. Norman sources are sparse for 1063 but become abundant after the Conquest. Byzantine and Islamic sources for the Seljuk conquests in Anatolia are available but less frequently consulted by Western historians. The year is significant primarily as a prelude to 1066; events in other regions are less well-documented in Western sources. The Anglo-Saxon Chronicle provides a detailed account of English events, but it reflects the perspective of the English court and clergy.",
+  "graph_edges": [
+    {
+      "from": "1063-003",
+      "to": "1066-003",
+      "relation": "led_to",
+      "note": "Godwin's death in 1063 consolidated Harold's power and made him the likely heir to Edward the Confessor"
+    },
+    {
+      "from": "1063-001",
+      "to": "1066-001",
+      "relation": "contemporary_with",
+      "note": "Norman expansion in Sicily and England were parallel developments of Norman military power"
+    },
+    {
+      "from": "1063-002",
+      "to": "1071-001",
+      "relation": "led_to",
+      "note": "The capture of Caesarea was part of the broader Seljuk expansion that culminated in the Battle of Manzikert"
+    }
+  ]
+}

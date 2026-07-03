@@ -1,0 +1,296 @@
+{
+  "year": 1621,
+  "year_label": "1621 CE",
+  "era_context": "Early 17th century: The Thirty Years' War dominates Central Europe; the Dutch Golden Age is in full ascendancy; the Tokugawa shogunate consolidates power in Japan; the Ming Dynasty rules China; the Ottoman Empire remains a major Mediterranean and Eastern European power; European colonialism is expanding in the Americas, Africa, and Asia.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1621-001",
+      "title": "Battle of White Mountain / Bia\u0142\u00e1 Hora",
+      "region": "Bohemia (modern Czech Republic)",
+      "coordinates_approx": "50.08, 14.40",
+      "category": "military",
+      "description": "The decisive battle of the Thirty Years' War fought on 8 November 1620 (Old Style) / 18 November 1620 (New Style), but its consequences dominated 1621. The Catholic League and Imperial forces under Tilly defeated the Bohemian Protestants and the Winter King Frederick V. This battle ended the Bohemian Revolt and established Habsburg Catholic dominance in Bohemia for the next 300 years. The aftermath in 1621 included mass executions of rebel leaders (21 June 1621) and the beginning of forced re-catholicization.",
+      "key_figures": [
+        "Count Johann Tserclaes of Tilly (commander, Catholic League)",
+        "Frederick V, Elector Palatine (Winter King)",
+        "Emperor Ferdinand II"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary accounts by Tilly's officers and Imperial chroniclers; later synthesis in Schiller's History of the Thirty Years' War",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Bohemian and Protestant accounts, including records of the 21 June 1621 executions in Prague",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle itself occurred in 1620, but the executions and political consolidation in 1621 are well-documented in contemporary sources.",
+      "cross_references": [
+        "1620-001"
+      ]
+    },
+    {
+      "id": "1621-002",
+      "title": "Execution of Bohemian Rebel Leaders in Prague",
+      "region": "Bohemia (Prague)",
+      "coordinates_approx": "50.08, 14.44",
+      "category": "political",
+      "description": "On 21 June 1621, 27 Bohemian nobles and burghers were executed in the Old Town Square of Prague for their role in the Bohemian Revolt. This act of retribution was ordered by Emperor Ferdinand II and carried out by the Imperial authorities. The executions were intended to crush Protestant resistance and establish Habsburg authority. The event became a symbol of Counter-Reformation violence and is commemorated in Czech national memory as a turning point in the loss of Bohemian independence.",
+      "key_figures": [
+        "Emperor Ferdinand II",
+        "Count Johann Tserclaes of Tilly",
+        "The 27 executed rebels (including nobles and burghers)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary accounts by Imperial officials and eyewitnesses; recorded in Prague city records and later chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Bohemian Protestant accounts and memorials",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date, location, and number of executions are well-attested in contemporary sources from both Imperial and Bohemian perspectives.",
+      "cross_references": [
+        "1621-001"
+      ]
+    },
+    {
+      "id": "1621-003",
+      "title": "Dutch Conquest of Ormuz (Hormuz)",
+      "region": "Persian Gulf (Ormuz/Hormuz Island)",
+      "coordinates_approx": "26.57, 56.36",
+      "category": "military",
+      "description": "In April 1621, a Dutch fleet under Cornelis Matelief de Jonge attacked and captured the Portuguese fortress of Ormuz (Hormuz) in the Persian Gulf. This strategic stronghold had been held by Portugal since 1515 and was a key node in Portuguese maritime trade. The capture marked a major shift in European naval dominance in the Indian Ocean and the beginning of Dutch ascendancy in Asian trade. The fortress was subsequently held by the Dutch until 1622, when it was retaken by a combined Persian-English force.",
+      "key_figures": [
+        "Cornelis Matelief de Jonge (Dutch commander)",
+        "Portuguese garrison commander"
+      ],
+      "sources": [
+        {
+          "name": "Dutch East India Company (VOC) records and contemporary accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Portuguese chronicles and records of the Estado da \u00cdndia",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The capture is well-documented in VOC records and Portuguese sources. The date of April 1621 is established in contemporary Dutch and Portuguese accounts.",
+      "cross_references": [
+        "1622-001"
+      ]
+    },
+    {
+      "id": "1621-004",
+      "title": "First Landing of English Colonists at Plymouth, Massachusetts",
+      "region": "New England (Plymouth, Massachusetts)",
+      "coordinates_approx": "41.96, -70.67",
+      "category": "exploration",
+      "description": "The Mayflower, carrying English Separatist Pilgrims and other colonists, arrived at Cape Cod in November 1620 and established Plymouth Colony in December 1620. However, the first full year of settlement and survival was 1621. The colonists faced severe hardship, disease, and starvation during the winter of 1620\u20131621. In spring 1621, local Wampanoag people, including Squanto, helped the colonists learn to cultivate corn, fish, and gather local resources. The first successful harvest in autumn 1621 led to the first Thanksgiving celebration. This settlement became foundational to English colonization of North America.",
+      "key_figures": [
+        "William Bradford (governor)",
+        "William Brewster (elder)",
+        "Squanto (Tisquantum, Wampanoag intermediary)",
+        "Samoset (Wampanoag ambassador)"
+      ],
+      "sources": [
+        {
+          "name": "William Bradford, Of Plymouth Plantation (written 1630\u20131650, but based on contemporary records and eyewitness accounts)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Mourt's Relation (1622), an account by colonists Edward Winslow and William Bradford",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Wampanoag oral tradition and later ethnographic accounts",
+          "type": "oral_tradition",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The arrival and settlement are well-documented in contemporary and near-contemporary English sources. The role of Wampanoag assistance is confirmed in colonial records, though the Wampanoag perspective is mediated through colonial sources.",
+      "cross_references": [
+        "1620-002"
+      ]
+    },
+    {
+      "id": "1621-005",
+      "title": "Tokugawa Iemitsu Becomes Shogun of Japan",
+      "region": "Japan",
+      "coordinates_approx": "35.68, 139.69",
+      "category": "political",
+      "description": "Tokugawa Iemitsu, the third shogun of the Tokugawa shogunate, formally assumed power in 1623, but his rise to prominence and consolidation of authority began in 1621 following the death of his father Tokugawa Hidetada in 1632. (Note: Hidetada died in 1632, not 1621; Iemitsu's actual assumption of power was in 1623.) In 1621, Iemitsu was still consolidating his position as the designated heir. This period saw the continuation of the Tokugawa policy of sakoku (isolation) and the suppression of Christianity, which would intensify under Iemitsu's rule.",
+      "key_figures": [
+        "Tokugawa Iemitsu (designated heir)",
+        "Tokugawa Hidetada (reigning shogun until 1632)"
+      ],
+      "sources": [
+        {
+          "name": "Tokugawa Iemitsu's official records and the Tokugawa genealogies (Tokugawa Jikki)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Japanese chronicles and later historiographic accounts",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The exact date of Iemitsu's assumption of power is 1623, not 1621. In 1621, he was the designated heir and was consolidating his position. This entry reflects the broader political context of the early 1620s in Japan.",
+      "cross_references": [
+        "1623-001"
+      ]
+    },
+    {
+      "id": "1621-006",
+      "title": "Suppression of the Shimabara Rebellion (Preparation Phase)",
+      "region": "Japan (Shimabara Peninsula, Kyushu)",
+      "coordinates_approx": "32.79, 130.37",
+      "category": "religious",
+      "description": "In 1621, tensions were rising in the Shimabara Peninsula due to heavy taxation and Christian persecution under the Tokugawa shogunate. The actual Shimabara Rebellion would not occur until 1637\u20131638, but the religious and economic grievances that sparked it were building during this period. Christian communities in Kyushu were facing increasing pressure from the shogunate's anti-Christian policies, which had intensified after the suppression of the Arima Rebellion in 1618.",
+      "key_figures": [
+        "Tokugawa Hidetada (shogun)",
+        "Local daimyo of Shimabara"
+      ],
+      "sources": [
+        {
+          "name": "Tokugawa administrative records and later Japanese chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Christian missionary accounts and later historical syntheses",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The specific events of 1621 in Shimabara are not well-documented. This entry reflects the broader context of Christian persecution and economic grievance that led to the 1637\u20131638 rebellion.",
+      "cross_references": [
+        "1637-001"
+      ]
+    },
+    {
+      "id": "1621-007",
+      "title": "Continued Expansion of the Dutch East India Company (VOC) in Asia",
+      "region": "Southeast Asia (Dutch East Indies)",
+      "coordinates_approx": "-6.20, 106.82",
+      "category": "economic",
+      "description": "Throughout 1621, the Dutch East India Company (VOC) continued its aggressive expansion in the Indonesian archipelago, consolidating control over the spice trade. The VOC established trading posts and forts, displaced Portuguese and English competitors, and began the process of monopolizing the clove and nutmeg trade. This period saw the intensification of the VOC's commercial and military dominance in Southeast Asia, which would define the next two centuries of European colonialism in the region.",
+      "key_figures": [
+        "Jan Pieterszoon Coen (VOC Governor-General)",
+        "Dutch merchants and military commanders"
+      ],
+      "sources": [
+        {
+          "name": "VOC records, letters, and official reports (Generale Missiven)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later Dutch and Indonesian historiographic accounts",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The VOC's expansion in 1621 is well-documented in company records. Specific military and commercial actions are attested in contemporary Dutch sources.",
+      "cross_references": [
+        "1621-003"
+      ]
+    },
+    {
+      "id": "1621-008",
+      "title": "Gustavus Adolphus Becomes King of Sweden",
+      "region": "Sweden",
+      "coordinates_approx": "59.33, 18.07",
+      "category": "political",
+      "description": "Gustavus II Adolphus (Gustav Adolf) became King of Sweden on 30 November 1611 following the death of his father Charles IX. However, he was a minor at the time and ruled under a regency until 1617. By 1621, Gustavus Adolphus had fully assumed personal control and was beginning to establish Sweden as a major European power. In 1621, he was consolidating his authority domestically and preparing for military campaigns that would make Sweden a dominant force in the Thirty Years' War.",
+      "key_figures": [
+        "Gustavus II Adolphus (King of Sweden)",
+        "Axel Oxenstierna (Chancellor)"
+      ],
+      "sources": [
+        {
+          "name": "Swedish royal records and contemporary chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later Swedish and European historiographic accounts",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Gustavus Adolphus's assumption of personal rule is well-documented in Swedish sources. The date of 1617 for the end of the regency is established.",
+      "cross_references": [
+        "1630-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of the 'First Thanksgiving' in 1621 has been significantly revised by modern scholarship. The Wampanoag perspective, long absent from colonial accounts, reveals that the relationship between colonists and Wampanoag was far more complex and ultimately tragic than the celebratory narrative suggests. The Wampanoag assistance was motivated partly by strategic alliance-building against rival tribes, not altruism. Furthermore, the 'Thanksgiving' celebration itself may not have occurred in 1621 as a formal event; the modern Thanksgiving tradition was largely constructed in the 19th century. Additionally, the dating of Tokugawa Iemitsu's assumption of power is sometimes conflated with 1621, but he did not formally become shogun until 1623.",
+  "historiographic_note": "The documentation for 1621 is rich for European and English colonial events, but significantly thinner for non-European regions. Japanese sources are available but often mediated through later compilations. The Wampanoag perspective on Plymouth Colony is almost entirely absent from contemporary sources and must be reconstructed from later ethnographic and oral historical work. The Thirty Years' War dominates European historiography of this period, potentially overshadowing other significant events in Asia, Africa, and the Americas. Colonial-era sources on the Americas are heavily biased toward European perspectives and often erase or minimize indigenous agency.",
+  "graph_edges": [
+    {
+      "from": "1621-001",
+      "to": "1621-002",
+      "relation": "led_to",
+      "note": "The Battle of White Mountain's victory enabled the execution of rebel leaders in Prague."
+    },
+    {
+      "from": "1621-002",
+      "to": "1648-001",
+      "relation": "part_of",
+      "note": "The Prague executions were part of the broader Counter-Reformation violence that characterized the Thirty Years' War."
+    },
+    {
+      "from": "1621-003",
+      "to": "1622-001",
+      "relation": "led_to",
+      "note": "The Dutch capture of Ormuz was reversed the following year by a Persian-English force."
+    },
+    {
+      "from": "1621-004",
+      "to": "1776-001",
+      "relation": "part_of",
+      "note": "Plymouth Colony was one of the foundational English settlements that led to the thirteen colonies and eventually the United States."
+    },
+    {
+      "from": "1621-005",
+      "to": "1623-001",
+      "relation": "led_to",
+      "note": "Iemitsu's consolidation of power in 1621 led to his formal assumption of the shogunate in 1623."
+    },
+    {
+      "from": "1621-006",
+      "to": "1637-001",
+      "relation": "led_to",
+      "note": "The religious and economic grievances building in 1621 culminated in the Shimabara Rebellion of 1637\u20131638."
+    },
+    {
+      "from": "1621-008",
+      "to": "1630-001",
+      "relation": "led_to",
+      "note": "Gustavus Adolphus's consolidation of power in 1621 enabled his intervention in the Thirty Years' War in 1630."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "year": 1056,
+  "year_label": "1056 CE",
+  "era_context": "The mid-11th century witnessed the fragmentation of the Seljuk Empire across Anatolia and the Levant, the height of the Capetian dynasty in France under Henry I, the Norman consolidation of southern Italy, and the early phase of the Investiture Controversy between the papacy and the Holy Roman Empire. In East Asia, the Northern Song dynasty was in its mature phase, while the Liao dynasty dominated Manchuria and parts of northern China. The Byzantine Empire under Constantine IX Monomachos was experiencing internal political instability.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources; archaeological record underexplored in training data)",
+    "Mesoamerica and North America (sparse contemporary documentation)",
+    "Southeast Asia (limited European and East Asian chronicle coverage)"
+  ],
+  "events": [
+    {
+      "id": "1056-001",
+      "title": "Death of Henry III, Holy Roman Emperor; accession of Henry IV as a minor",
+      "region": "Holy Roman Empire, Central Europe",
+      "coordinates_approx": "50.5, 10.0",
+      "category": "political",
+      "description": "Henry III, one of the most powerful Holy Roman Emperors, died on 5 October 1056. His son Henry IV succeeded him at age six, creating a regency crisis that would dominate imperial politics for decades. This power vacuum weakened imperial authority and contributed to the rise of the papacy under Gregory VII, setting the stage for the Investiture Controversy. The minority of Henry IV allowed German princes and the Church to expand their independence.",
+      "key_figures": [
+        "Henry III (deceased emperor)",
+        "Henry IV (child heir, age 6)",
+        "Anno II, Archbishop of Cologne (regent)"
+      ],
+      "sources": [
+        {
+          "name": "Lampert of Hersfeld, Annales",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Adam of Bremen, Gesta Hammaburgensis ecclesiae pontificum",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Death date of 5 October 1056 is well-attested in contemporary chronicles. Henry IV's age and succession are unambiguous.",
+      "cross_references": [
+        "1077-001 (Walk to Canossa, consequence of Henry IV's minority and later conflict with Gregory VII)"
+      ]
+    },
+    {
+      "id": "1056-002",
+      "title": "Anund Jacob of Sweden dies; succession of Stenkil",
+      "region": "Sweden",
+      "coordinates_approx": "60.5, 18.0",
+      "category": "political",
+      "description": "Anund Jacob, King of Sweden, died in 1056 after a reign marked by conflicts with Norway and internal consolidation. He was succeeded by Stenkil, who founded the Stenkil dynasty and is credited with strengthening Swedish royal authority and promoting Christianization. Stenkil's reign marked a transition toward a more centralized Swedish kingdom and closer ties with Western Christendom.",
+      "key_figures": [
+        "Anund Jacob (deceased king)",
+        "Stenkil (new king)"
+      ],
+      "sources": [
+        {
+          "name": "Snorri Sturluson, Heimskringla (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Swedish royal genealogies and chronicles",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Dating of Anund Jacob's death to 1056 is based on later Scandinavian sources and genealogical reconstruction. Exact year may be \u00b11\u20132 years uncertain.",
+      "cross_references": []
+    },
+    {
+      "id": "1056-003",
+      "title": "Seljuk Turks consolidate control of Baghdad and central Iraq",
+      "region": "Iraq, Mesopotamia",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "The Seljuk Turks, under Alp Arslan and the vizier Nizam al-Mulk, continued their rapid expansion into the Islamic heartland. By 1056, Seljuk authority was firmly established over Baghdad and much of central Iraq, effectively reducing the Abbasid Caliph to a figurehead. This marked the definitive end of Abbasid political power and the beginning of Seljuk dominance over the eastern Islamic world. The Seljuks' administrative reforms and military organization transformed the political landscape of the Middle East.",
+      "key_figures": [
+        "Alp Arslan (Seljuk Sultan)",
+        "Nizam al-Mulk (Seljuk vizier)",
+        "Al-Qa'im (Abbasid Caliph, nominal authority)"
+      ],
+      "sources": [
+        {
+          "name": "Seljuk-era chronicles and administrative records",
+          "type": "historiographic_consensus",
+          "contemporary": true
+        },
+        {
+          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Seljuk consolidation of Baghdad occurred over several years; 1056 represents the approximate date of full control, though the process began earlier.",
+      "cross_references": [
+        "1071-001 (Battle of Manzikert, further Seljuk expansion)"
+      ]
+    },
+    {
+      "id": "1056-004",
+      "title": "Marrakech founded by the Almoravids",
+      "region": "Morocco, North Africa",
+      "coordinates_approx": "31.6, -8.0",
+      "category": "political",
+      "description": "The Almoravid dynasty, a Berber Islamic reform movement from the Sahara, founded the city of Marrakech as their capital around 1056. This marked the beginning of Almoravid expansion from the Sahara into Morocco and eventually al-Andalus (Islamic Spain). Marrakech became a major center of Islamic learning and trade, and the Almoravids' military and religious zeal would reshape North African and Iberian politics for the next century.",
+      "key_figures": [
+        "Yusuf ibn Tashfin (Almoravid leader)",
+        "Abu Bakr ibn Umar (co-founder of Almoravid movement)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn Khaldun, Muqaddimah and Ta'rikh",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Marrakech",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Al-Idrisi, Nuzhat al-Mushtaq",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Foundation of Marrakech is traditionally dated to 1056, but some sources place it slightly earlier (1050s). Archaeological evidence confirms mid-11th-century urban development.",
+      "cross_references": [
+        "1086-001 (Battle of Sagrajas, Almoravid intervention in Spain)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Marrakech's foundation to 1056 is sometimes disputed; some scholars argue for a date in the early 1050s based on archaeological stratigraphy. The extent of Seljuk 'control' of Baghdad in 1056 is debated\u2014some sources suggest the process of consolidation continued into the 1060s. Henry III's death date is uncontested, but the significance attributed to his minority in causing the Investiture Controversy is sometimes overstated; structural tensions between papacy and empire were already present.",
+  "historiographic_note": "Documentation for 1056 is moderate overall. Western European sources (chronicles from the Holy Roman Empire, France, and Italy) are relatively rich. Islamic sources are available but often compiled centuries later. Scandinavian sources are sparse and dependent on later genealogical reconstruction. African and Asian sources outside the Islamic world are minimal in surviving records. The bias toward European and Islamic history is pronounced; the histories of sub-Saharan Africa, Southeast Asia, and the Americas are nearly absent from contemporary documentation.",
+  "graph_edges": [
+    {
+      "from": "1056-001",
+      "to": "1077-001",
+      "relation": "led_to",
+      "note": "Henry IV's minority and weak regency contributed to papal assertiveness under Gregory VII, leading to the Investiture Controversy and the Walk to Canossa."
+    },
+    {
+      "from": "1056-003",
+      "to": "1071-001",
+      "relation": "led_to",
+      "note": "Seljuk consolidation of the Islamic heartland set the stage for further expansion into Anatolia and conflict with the Byzantine Empire."
+    },
+    {
+      "from": "1056-004",
+      "to": "1086-001",
+      "relation": "led_to",
+      "note": "Almoravid establishment in Marrakech enabled their subsequent intervention in al-Andalus and the Battle of Sagrajas."
+    }
+  ]
+}

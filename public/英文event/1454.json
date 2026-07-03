@@ -1,0 +1,233 @@
+{
+  "year": 1454,
+  "year_label": "1454 CE",
+  "era_context": "The mid-15th century is a period of major transition: the Hundred Years' War has just ended (1453), the Ottoman Empire has conquered Constantinople (1453), and Europe is entering the early Renaissance. Nation-states are consolidating power in Western Europe. The Ming Dynasty rules China under the Zhengtong Emperor. Portuguese exploration of the African coast is accelerating. Printing technology is spreading from Mainz. This is a year of relative stability in Europe following the end of the Hundred Years' War, but underlying tensions (particularly in England) are building.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited European documentation; indigenous records sparse)",
+    "Southeast Asia and the Pacific (limited European awareness)",
+    "Central Asia (post-Timurid fragmentation poorly documented)",
+    "Americas (no European contact; indigenous records not accessible to Western sources)"
+  ],
+  "events": [
+    {
+      "id": "1454-001",
+      "title": "Treaty of Lodi: Peace Between Milan and Venice",
+      "region": "Italian States, Milan and Venice",
+      "coordinates_approx": "45.46, 9.19",
+      "category": "political",
+      "description": "The Treaty of Lodi, signed in April 1454, established peace between the Duchy of Milan and the Republic of Venice, ending decades of conflict over control of northern Italy. The treaty was brokered by Pope Nicholas V and included Florence and other Italian states. It established a balance of power among Italian states and created the Italian League, a diplomatic framework that would dominate Italian politics for the next 40 years. The treaty is considered a landmark in early modern diplomacy and the development of the balance-of-power concept.",
+      "key_figures": [
+        "Francesco Sforza (Duke of Milan)",
+        "Doge Francesco Foscari (Venice)",
+        "Pope Nicholas V (papal mediator)",
+        "Cosimo de' Medici (Florence)"
+      ],
+      "sources": [
+        {
+          "name": "Treaty of Lodi (primary text, April 1454)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Venetian state archives and diplomatic records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Papal correspondence and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from Italian Renaissance studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The treaty is extensively documented in Italian state archives and papal records. The date of April 1454 is secure.",
+      "cross_references": [
+        "1494-001 (Italian Wars, breakdown of the balance of power established by Lodi)"
+      ]
+    },
+    {
+      "id": "1454-002",
+      "title": "Gutenberg Bible: Printing in Progress",
+      "region": "Holy Roman Empire, Mainz",
+      "coordinates_approx": "50.00, 8.27",
+      "category": "technological",
+      "description": "The Gutenberg Bible (42-line Bible) was in active production in 1454, with printing progressing toward completion. The project represented the first major application of movable-type printing technology to a substantial work. The Bible's production involved significant technical innovation in type design, paper sourcing, and printing techniques. By 1454, the project was well advanced, though completion would not occur until 1455 or 1456 (dating remains debated).",
+      "key_figures": [
+        "Johannes Gutenberg (inventor and printer)",
+        "Johann Fust (financial backer)",
+        "Peter Sch\u00f6ffer (printer and partner)"
+      ],
+      "sources": [
+        {
+          "name": "Gutenberg Bible colophon and printing records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Mainz guild and city records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from printing history",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Gutenberg Bible was in production in 1454, but the exact stage of completion is uncertain. Completion is dated to 1455 or 1456 by different sources.",
+      "cross_references": [
+        "1455-002 (Alternative dating of Gutenberg Bible completion)",
+        "1456-004 (Gutenberg Bible completion, conventional dating)"
+      ]
+    },
+    {
+      "id": "1454-003",
+      "title": "Portuguese Exploration: Establishment of Trading Posts in West Africa",
+      "region": "West Africa, Portuguese Atlantic Exploration",
+      "coordinates_approx": "5.00, -5.00",
+      "category": "exploration",
+      "description": "Portuguese navigators and merchants, sponsored by Prince Henry the Navigator, established trading posts and forts along the West African coast. By 1454, Portuguese presence had expanded to include multiple fortified settlements engaged in trade for gold, ivory, and enslaved people. The Portuguese crown granted monopolies on African trade to encourage exploration and settlement. These posts became the foundation for Portuguese colonial expansion in Africa.",
+      "key_figures": [
+        "Prince Henry the Navigator (Portuguese royal patron)",
+        "King Afonso V of Portugal (reigning monarch)",
+        "Portuguese merchants and navigators"
+      ],
+      "sources": [
+        {
+          "name": "Gomes Eanes de Zurara. Cr\u00f3nica da Descoberta da Guin\u00e9 (written c. 1453\u20131460)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Portuguese royal charters and trading licenses",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from Portuguese maritime history",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Portuguese expansion along the African coast is well-documented in general terms, but specific dates and locations of individual trading posts in 1454 are sometimes uncertain.",
+      "cross_references": [
+        "1444-001 (Earlier Portuguese exploration)",
+        "1455-003 (Continued Portuguese expansion)"
+      ]
+    },
+    {
+      "id": "1454-004",
+      "title": "Ming Dynasty: Military Campaigns Against Mongol Tribes",
+      "region": "Ming China, Northern Frontier",
+      "coordinates_approx": "40.00, 110.00",
+      "category": "military",
+      "description": "The Ming Dynasty continued military campaigns against Mongol tribes on the northern frontier, particularly the Oirat Mongols. These campaigns were part of ongoing efforts to secure the northern border and prevent raids into Chinese territory. The campaigns had mixed success, with some victories and some setbacks. The military situation on the frontier remained tense and required constant vigilance and resource allocation.",
+      "key_figures": [
+        "Zhengtong Emperor (Yingzong) (reigning emperor)",
+        "Ming military commanders",
+        "Oirat Mongol leaders"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Official Ming military records and reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from Ming studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ming military campaigns in 1454 are documented in official records, though specific details of individual engagements may vary between sources.",
+      "cross_references": [
+        "1449-001 (Tumu Crisis, earlier Mongol conflict)",
+        "1457-001 (Continued frontier conflicts)"
+      ]
+    },
+    {
+      "id": "1454-005",
+      "title": "Ottoman Empire: Naval Expansion and Mediterranean Control",
+      "region": "Ottoman Empire, Eastern Mediterranean",
+      "coordinates_approx": "41.01, 28.98",
+      "category": "military",
+      "description": "The Ottoman Empire, following the conquest of Constantinople in 1453, expanded its naval power in the Eastern Mediterranean. Ottoman fleets conducted campaigns against Venetian and Genoese holdings, capturing additional territories and establishing Ottoman naval dominance. The expansion of Ottoman naval power was a direct consequence of the conquest of Constantinople, which provided a major naval base and shipbuilding facilities.",
+      "key_figures": [
+        "Mehmed II (Ottoman Sultan)",
+        "Ottoman naval commanders",
+        "Venetian and Genoese naval forces"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles and court records",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Venetian and Genoese diplomatic correspondence and naval records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from Ottoman and Mediterranean studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ottoman naval expansion in 1454 is documented in Ottoman and Venetian sources.",
+      "cross_references": [
+        "1453-001 (Fall of Constantinople)",
+        "1456-001 (Siege of Belgrade)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Treaty of Lodi is often presented as a watershed moment in the development of the balance-of-power concept and modern diplomacy, but recent scholarship suggests that the treaty was less innovative than traditionally portrayed\u2014balance-of-power thinking existed in earlier Italian diplomacy, and the treaty's actual enforcement was weaker than its symbolic significance. The treaty did not prevent subsequent conflicts among Italian states, and its stability lasted only until the 1494 French invasion. Portuguese exploration in 1454 is sometimes presented as more organized and systematic than it actually was; many ventures were private initiatives with royal sponsorship rather than state-directed expeditions. The Gutenberg Bible's production date remains genuinely ambiguous, and the project's significance has been somewhat inflated in popular accounts\u2014it was not immediately recognized as revolutionary at the time.",
+  "historiographic_note": "Documentation for 1454 is moderate for Europe and the Ottoman Empire, with excellent coverage of Italian diplomacy (state archives) and good coverage of Ottoman and Venetian politics. English sources are less detailed for this year than for 1455 (St. Albans). Chinese sources (Ming Shilu) are comprehensive for court politics and military campaigns. African sources are absent from surviving Western records; Portuguese exploration is documented only from the European perspective. Biases include: Italian-centric focus on the Treaty of Lodi in Western historiography, court-sponsored narratives in Ottoman and Chinese sources, and the complete absence of African indigenous perspectives on Portuguese contact.",
+  "graph_edges": [
+    {
+      "from": "1454-001",
+      "to": "1494-001",
+      "relation": "led_to",
+      "note": "Treaty of Lodi establishes balance of power that breaks down in 1494 with French invasion"
+    },
+    {
+      "from": "1454-002",
+      "to": "1455-002",
+      "relation": "led_to",
+      "note": "Gutenberg Bible printing in progress in 1454, completed in 1455 or 1456"
+    },
+    {
+      "from": "1454-003",
+      "to": "1444-001",
+      "relation": "part_of",
+      "note": "Continuation of Portuguese Atlantic exploration program"
+    },
+    {
+      "from": "1454-004",
+      "to": "1449-001",
+      "relation": "part_of",
+      "note": "Continuation of Ming frontier conflicts with Mongol tribes"
+    },
+    {
+      "from": "1454-005",
+      "to": "1453-001",
+      "relation": "led_to",
+      "note": "Ottoman naval expansion follows the conquest of Constantinople"
+    }
+  ]
+}

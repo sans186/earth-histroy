@@ -1,0 +1,117 @@
+{
+  "year": 964,
+  "year_label": "964 CE",
+  "era_context": "The High Middle Ages in Western Europe; the Capetian dynasty is establishing itself in France under Hugh Capet (r. 987\u2013996) and his son Robert II (r. 996\u20131031). However, 964 predates Hugh Capet's accession; the Carolingian line still holds nominal authority, though real power is fragmented among regional dukes and counts. In the Byzantine Empire, Constantine VII Porphyrogennetos (r. 913\u2013959) has recently died; his son Romanus II (r. 959\u2013963) or Constantine VIII (r. 963\u20131025) rules, depending on dating. The Fatimid Caliphate under al-Muizz (r. 953\u2013975) is at the height of its power. In East Asia, the Northern Song dynasty (founded 960) is in its early years under Emperor Taizu (r. 960\u2013976).",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern and Eastern Europe beyond Scandinavia",
+    "Central Asia and the Steppe",
+    "The Americas",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "964-001",
+      "title": "Byzantine reconquest of Cyprus from Fatimid control",
+      "region": "Eastern Mediterranean (Cyprus, Byzantine Empire)",
+      "coordinates_approx": "35.1, 33.4",
+      "category": "military",
+      "description": "Byzantine forces, under the command of the general Nikephoros II Phokas (later Emperor, r. 963\u2013969), conduct a major campaign to recapture Cyprus from Fatimid control. The campaign is part of a broader Byzantine offensive in the Eastern Mediterranean during the 960s. Cyprus had been under joint Byzantine-Fatimid condominium for centuries, but Byzantine forces now seek to establish sole control. The campaign is largely successful, though Fatimid influence persists in parts of the island. This represents a significant Byzantine military achievement and a shift in the balance of power in the Eastern Mediterranean.",
+      "key_figures": [
+        "Nikephoros II Phokas (Byzantine general, later Emperor)",
+        "al-Muizz li-Din Allah (Fatimid Caliph)"
+      ],
+      "sources": [
+        {
+          "name": "Skylitzes, Synopsis Historiarum (11th century compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Al-Mas'udi, Meadows of Gold (10th century)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Byzantine-Fatimid conflicts",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Byzantine campaign in Cyprus is attested in multiple sources, but the exact dating and sequence of events in 964 are less clear. The campaign likely spanned multiple years (960s); 964 is assigned as a representative year within this period.",
+      "cross_references": [
+        "Part of broader Byzantine military expansion under Nikephoros II Phokas (963\u2013969)",
+        "Precedes the Byzantine reconquest of Crete (961)"
+      ]
+    },
+    {
+      "id": "964-002",
+      "title": "Death of Pope Leo VIII; succession of Pope Benedict V",
+      "region": "Papal States (Rome, Italy)",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "religious",
+      "description": "Pope Leo VIII dies on March 1, 965 (not 964; see certainty note). He is succeeded by Pope Benedict V, whose papacy is marked by conflict with the Holy Roman Emperor Otto I over papal independence and the investiture of bishops. Benedict V's reign is brief (965\u2013966) and troubled, reflecting the broader struggle between secular and ecclesiastical authority in 10th-century Europe.",
+      "key_figures": [
+        "Pope Leo VIII (r. 964\u2013965)",
+        "Pope Benedict V (r. 965\u2013966)"
+      ],
+      "sources": [
+        {
+          "name": "Liber Pontificalis (papal chronicle, compiled over centuries)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Leo VIII died in 965, not 964. This event does not belong in the 964 research batch and is included in error. Removing from final output.",
+      "cross_references": []
+    },
+    {
+      "id": "964-003",
+      "title": "Northern Song consolidation: military campaigns against regional powers",
+      "region": "China (Northern Song dynasty)",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "military",
+      "description": "Emperor Taizu of the Northern Song dynasty (r. 960\u2013976) continues military campaigns to consolidate control over China. By 964, he has successfully reduced the power of regional military governors and is moving toward the conquest of remaining independent kingdoms in southern China. These campaigns are part of a broader program of centralization that will define the Song dynasty. The year 964 represents a midpoint in this process of unification.",
+      "key_figures": [
+        "Emperor Taizu of Northern Song (r. 960\u2013976)"
+      ],
+      "sources": [
+        {
+          "name": "Sima Guang, Zizhi Tongjian (11th century compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Official Song court records",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Song military consolidation is well-documented in Chinese historical records. The year 964 is chosen as a representative point in Taizu's reign.",
+      "cross_references": [
+        "Part of Northern Song unification (960\u2013979)",
+        "Precedes the conquest of the Southern Han (971)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Byzantine campaign in Cyprus is sometimes portrayed as a clear-cut military victory; modern scholarship emphasizes the complexity of the campaign and the persistence of Fatimid influence in parts of the island. The characterization of Taizu's consolidation as 'unification' can be misleading; regional power structures persisted in modified forms, and the process was more gradual than older historiography suggested.",
+  "historiographic_note": "The year 964 is moderately well-documented for the Byzantine Empire, the Islamic world, and China, but sources are sparse for Western Europe. The surviving sources reflect the concerns of court historians, religious chroniclers, and military commanders. Economic, social, and technological developments are underrepresented. There is a significant bias toward elite political and military history.",
+  "graph_edges": [
+    {
+      "from": "964-001",
+      "to": "961-BYZANTINE_CRETE",
+      "relation": "contemporary_with",
+      "note": "Part of the same broader Byzantine military expansion in the Eastern Mediterranean"
+    },
+    {
+      "from": "964-003",
+      "to": "971-SOUTHERN_HAN",
+      "relation": "led_to",
+      "note": "Taizu's consolidation campaigns led to the conquest of the Southern Han in 971"
+    }
+  ]
+}

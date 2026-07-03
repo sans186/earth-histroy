@@ -1,0 +1,608 @@
+{
+  "year": 1919,
+  "year_label": "1919 CE",
+  "era_context": "Immediate post-World War I period. The Paris Peace Conference is negotiating the Treaty of Versailles; the Russian Civil War is ongoing; nationalist and independence movements are emerging across Europe, Asia, the Middle East, and Africa; the Ottoman Empire is fragmenting; the Spanish Flu pandemic is concluding; the League of Nations is being designed; European economies are in crisis and reconstruction.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1919-001",
+      "title": "Treaty of Versailles signed, formally ending World War I",
+      "region": "France / Versailles",
+      "coordinates_approx": "48.8,2.1",
+      "category": "political",
+      "description": "The Treaty of Versailles was signed on 28 June 1919, formally ending World War I between the Allied powers and Germany. The treaty imposed harsh reparations, territorial losses, and military restrictions on Germany. It also established the League of Nations and redrew the map of Europe, creating new nation-states and mandates. The treaty was controversial, with many historians arguing that its punitive terms contributed to German resentment and the rise of Nazism. The treaty represented both an attempt at lasting peace and the seeds of future conflict.",
+      "key_figures": [
+        "Woodrow Wilson (U.S. President)",
+        "Georges Clemenceau (French Premier)",
+        "David Lloyd George (British Prime Minister)",
+        "Vittorio Orlando (Italian Premier)"
+      ],
+      "sources": [
+        {
+          "name": "Treaty of Versailles, 28 June 1919 (primary text)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Paris Peace Conference records and negotiations",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on the treaty and its consequences",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Treaty date (28 June 1919) is precisely documented.",
+      "cross_references": [
+        "1918-001 (World War I armistice)",
+        "1933-001 (Hitler withdraws Germany from League of Nations)"
+      ]
+    },
+    {
+      "id": "1919-002",
+      "title": "Irish War of Independence begins",
+      "region": "Ireland / United Kingdom",
+      "coordinates_approx": "53.4,-8.2",
+      "category": "military",
+      "description": "The Irish War of Independence (1919\u20131921) began in January 1919 when the Irish Republican Army (IRA) launched guerrilla attacks against British forces and the Royal Irish Constabulary. The conflict was triggered by the Irish nationalist victory in the 1918 general election and the British refusal to grant independence. The war became increasingly violent and brutal, with British counterinsurgency efforts including the deployment of paramilitary forces. The conflict lasted until the Anglo-Irish Treaty of 1921.",
+      "key_figures": [
+        "Michael Collins (IRA leader)",
+        "\u00c9amon de Valera (Irish republican leader)",
+        "General John French (British military commander)"
+      ],
+      "sources": [
+        {
+          "name": "British military and police records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "IRA records and Irish nationalist sources",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper accounts and eyewitness reports",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "War commencement in January 1919 is well-documented.",
+      "cross_references": [
+        "1920-009 (War escalates)",
+        "1921-003 (Anglo-Irish Treaty signed)"
+      ]
+    },
+    {
+      "id": "1919-003",
+      "title": "Turkish War of Independence begins",
+      "region": "Turkey / Anatolia",
+      "coordinates_approx": "39.9,35.5",
+      "category": "military",
+      "description": "The Turkish War of Independence (1919\u20131923) began in 1919 as Mustafa Kemal's nationalist forces resisted Ottoman dissolution and Allied occupation. The war was triggered by the Allied occupation of Turkish territories following World War I and the Ottoman government's weakness. Kemal organized nationalist resistance in Anatolia, establishing a provisional government in Ankara. The war lasted until 1923 and resulted in the establishment of the Turkish Republic.",
+      "key_figures": [
+        "Mustafa Kemal (Turkish nationalist leader)",
+        "Ismet Pasha (Turkish military commander)",
+        "Mehmed VI (Ottoman Sultan)"
+      ],
+      "sources": [
+        {
+          "name": "Turkish nationalist military records and reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ottoman government records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British and French diplomatic reports from Turkey",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "War commencement in 1919 is well-documented.",
+      "cross_references": [
+        "1920-004 (Ankara government established)",
+        "1923-001 (Treaty of Lausanne; Turkish Republic proclaimed)"
+      ]
+    },
+    {
+      "id": "1919-004",
+      "title": "Jallianwala Bagh massacre in Amritsar, India",
+      "region": "British India / Punjab",
+      "coordinates_approx": "31.6,74.9",
+      "category": "military",
+      "description": "On 13 April 1919, British troops under General Reginald Dyer opened fire on an unarmed crowd of Indian protesters gathered in the Jallianwala Bagh (garden) in Amritsar, Punjab. The massacre killed an estimated 379\u20131,000 people and wounded many more. The massacre was a response to anti-British protests and was intended to intimidate the Indian population. The event became a turning point in Indian nationalism, galvanizing anti-colonial sentiment and contributing to the independence movement. Dyer was later censured but not criminally charged.",
+      "key_figures": [
+        "General Reginald Dyer (British military officer)",
+        "Mohandas Gandhi (Indian nationalist leader)",
+        "Michael O'Dwyer (British Punjab administrator)"
+      ],
+      "sources": [
+        {
+          "name": "British military and colonial records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Indian nationalist accounts and eyewitness reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Hunter Commission Report, 1921 (official inquiry)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Massacre date (13 April 1919) is precisely documented; casualty estimates vary (379\u20131,000).",
+      "cross_references": [
+        "1920-013 (Gandhi assumes leadership of independence movement)",
+        "1921-012 (Hunter Commission report released)"
+      ]
+    },
+    {
+      "id": "1919-005",
+      "title": "Paris Peace Conference convenes",
+      "region": "France / Paris",
+      "coordinates_approx": "48.9,2.4",
+      "category": "political",
+      "description": "The Paris Peace Conference convened on 18 January 1919 to negotiate the peace settlement following World War I. The conference brought together representatives of the Allied powers and defeated Central Powers to redraw the map of Europe and establish new international institutions. The conference resulted in the Treaty of Versailles (with Germany), the Treaty of Saint-Germain (with Austria), the Treaty of Trianon (with Hungary), and the Treaty of Neuilly (with Bulgaria). The conference also established the League of Nations.",
+      "key_figures": [
+        "Woodrow Wilson (U.S. President)",
+        "Georges Clemenceau (French Premier)",
+        "David Lloyd George (British Prime Minister)",
+        "Vittorio Orlando (Italian Premier)"
+      ],
+      "sources": [
+        {
+          "name": "Paris Peace Conference official records and minutes",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Diplomatic correspondence and negotiation records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on the peace settlement",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Conference commencement date (18 January 1919) is precisely documented.",
+      "cross_references": [
+        "1919-001 (Treaty of Versailles signed)"
+      ]
+    },
+    {
+      "id": "1919-006",
+      "title": "Spartacist Uprising in Berlin",
+      "region": "Germany / Berlin",
+      "coordinates_approx": "52.5,13.4",
+      "category": "military",
+      "description": "The Spartacist Uprising (5\u201312 January 1919) was a communist insurrection in Berlin led by the Spartacist League (later the Communist Party of Germany). The uprising aimed to establish a communist government in Germany but was crushed by the Weimar government's forces, including right-wing paramilitary Freikorps. The uprising's leaders, Karl Liebknecht and Rosa Luxemburg, were murdered by Freikorps members. The uprising exposed deep political divisions in Germany and the weakness of the Weimar Republic.",
+      "key_figures": [
+        "Karl Liebknecht (Spartacist leader, murdered)",
+        "Rosa Luxemburg (Spartacist leader, murdered)",
+        "Friedrich Ebert (Weimar President)",
+        "Gustav Noske (Weimar military commander)"
+      ],
+      "sources": [
+        {
+          "name": "German government and military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Spartacist League records and communist sources",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper accounts and eyewitness reports",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Uprising dates (5\u201312 January 1919) and key facts are well-documented.",
+      "cross_references": [
+        "1920-008 (Kapp Putsch)"
+      ]
+    },
+    {
+      "id": "1919-007",
+      "title": "Weimar Republic proclaimed in Germany",
+      "region": "Germany / Weimar",
+      "coordinates_approx": "50.9,11.3",
+      "category": "political",
+      "description": "The Weimar Republic was proclaimed on 9 November 1918 (though formally established in 1919) following the abdication of Kaiser Wilhelm II and the end of World War I. The republic was established as a democratic, federal state with a president and chancellor. The Weimar Constitution was adopted on 31 July 1919. The republic faced severe challenges from right-wing and left-wing extremists, economic crisis, and the burden of war reparations. The Weimar Republic lasted until 1933, when it was overthrown by the Nazi regime.",
+      "key_figures": [
+        "Friedrich Ebert (Weimar President)",
+        "Philipp Scheidemann (Chancellor)",
+        "Hugo Preuss (constitutional drafter)"
+      ],
+      "sources": [
+        {
+          "name": "Weimar Constitution, 31 July 1919 (primary text)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "German government records and proclamations",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on the Weimar Republic",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Republic proclamation (9 November 1918) and constitution adoption (31 July 1919) are precisely documented.",
+      "cross_references": [
+        "1933-001 (Nazi regime established, Weimar Republic ends)"
+      ]
+    },
+    {
+      "id": "1919-008",
+      "title": "May Fourth Movement in China",
+      "region": "China / Beijing",
+      "coordinates_approx": "39.9,116.4",
+      "category": "political",
+      "description": "The May Fourth Movement (4 May 1919) was a major student-led protest in Beijing against the Paris Peace Conference's decision to award German-held territories in Shandong to Japan rather than returning them to China. The movement sparked widespread nationalist sentiment and anti-Japanese protests across China. The May Fourth Movement marked a turning point in Chinese nationalism and contributed to the founding of the Chinese Communist Party in 1921. The movement also promoted cultural and intellectual reform, including the adoption of vernacular Chinese language.",
+      "key_figures": [
+        "Hu Shi (intellectual leader)",
+        "Chen Duxiu (intellectual and future CCP co-founder)",
+        "Cai Yuanpei (Peking University president)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary newspaper accounts and student manifestos",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese government records and police reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on the May Fourth Movement",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Movement date (4 May 1919) is precisely documented.",
+      "cross_references": [
+        "1921-004 (Chinese Communist Party founded)",
+        "1937-001 (Second Sino-Japanese War begins)"
+      ]
+    },
+    {
+      "id": "1919-009",
+      "title": "Amritsar Massacre and Hunter Commission inquiry",
+      "region": "British India / Punjab",
+      "coordinates_approx": "31.6,74.9",
+      "category": "legal",
+      "description": "Following the Jallianwala Bagh massacre (13 April 1919), the British government established the Hunter Commission to investigate the incident. The commission, led by Lord Hunter, conducted hearings and interviews throughout 1919 and released its report in 1921. The commission concluded that General Dyer's actions were unjustified but recommended leniency. The inquiry process itself became controversial, with Indian nationalists viewing it as inadequate and a whitewash of British responsibility.",
+      "key_figures": [
+        "Lord Hunter (commission chair)",
+        "General Reginald Dyer (officer under investigation)",
+        "Mohandas Gandhi (Indian nationalist leader)"
+      ],
+      "sources": [
+        {
+          "name": "Hunter Commission proceedings and testimony",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British government records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Indian nationalist responses and accounts",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Commission establishment and proceedings in 1919 are well-documented.",
+      "cross_references": [
+        "1919-004 (Jallianwala Bagh massacre)",
+        "1921-012 (Hunter Commission report released)"
+      ]
+    },
+    {
+      "id": "1919-010",
+      "title": "Third International (Comintern) founded in Moscow",
+      "region": "Soviet Russia / Moscow",
+      "coordinates_approx": "55.8,37.6",
+      "category": "political",
+      "description": "The Third International (Communist International or Comintern) was founded in March 1919 in Moscow by the Bolshevik leadership. The Comintern was designed to coordinate communist parties worldwide and promote world revolution. The organization became a major instrument of Soviet foreign policy and communist organizing throughout the 20th century. The Comintern's founding reflected Bolshevik confidence in the imminent spread of communist revolution beyond Russia.",
+      "key_figures": [
+        "Vladimir Lenin (Soviet leader)",
+        "Grigory Zinoviev (Comintern president)",
+        "Karl Radek (Comintern organizer)"
+      ],
+      "sources": [
+        {
+          "name": "Comintern founding documents and congress records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Soviet government records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on the Comintern",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Comintern founding date (March 1919) is well-documented.",
+      "cross_references": [
+        "1943-001 (Comintern dissolved)"
+      ]
+    },
+    {
+      "id": "1919-011",
+      "title": "Versailles Treaty imposes harsh terms on Germany",
+      "region": "Germany",
+      "coordinates_approx": "52.5,13.4",
+      "category": "economic",
+      "description": "The Treaty of Versailles imposed severe economic and territorial penalties on Germany, including reparations of 132 billion gold marks, loss of 13% of European territory, loss of all overseas colonies, and severe military restrictions. The treaty required Germany to accept responsibility for the war and to pay for Allied war damages. The harsh terms were intended to prevent German rearmament and future aggression, but they created deep resentment and economic hardship in Germany, contributing to political instability and the rise of extremist movements.",
+      "key_figures": [
+        "Georges Clemenceau (French Premier, architect of harsh terms)",
+        "Woodrow Wilson (U.S. President, advocate for moderation)",
+        "John Maynard Keynes (economist and critic of reparations)"
+      ],
+      "sources": [
+        {
+          "name": "Treaty of Versailles, 28 June 1919 (primary text)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Paris Peace Conference records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on the treaty's economic impact",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Treaty terms and reparations schedule are precisely documented.",
+      "cross_references": [
+        "1919-001 (Treaty of Versailles signed)",
+        "1923-002 (German hyperinflation crisis)"
+      ]
+    },
+    {
+      "id": "1919-012",
+      "title": "Russian Civil War continues; Bolsheviks consolidate control",
+      "region": "Soviet Russia",
+      "coordinates_approx": "55.8,37.6",
+      "category": "military",
+      "description": "The Russian Civil War (1918\u20131922) continued throughout 1919, with Bolshevik forces (Red Army) fighting against White Army forces, anarchists, and nationalist armies. By 1919, the Bolsheviks had consolidated control over the core Russian territories and were advancing against remaining White strongholds. The war was characterized by extreme brutality, mass casualties, and widespread famine. The Bolshevik victory was secured by superior organization, central control, and the Red Army's military effectiveness under Leon Trotsky's command.",
+      "key_figures": [
+        "Vladimir Lenin (Bolshevik leader)",
+        "Leon Trotsky (Red Army commander)",
+        "Wrangel (White Army commander)"
+      ],
+      "sources": [
+        {
+          "name": "Soviet military records and reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "White Army records and \u00e9migr\u00e9 accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on the Russian Civil War",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Bolshevik consolidation of control in 1919 is well-documented.",
+      "cross_references": [
+        "1918-002 (Russian Civil War begins)",
+        "1920-011 (Bolsheviks defeat final White strongholds)"
+      ]
+    },
+    {
+      "id": "1919-013",
+      "title": "Spanish Flu pandemic peaks globally",
+      "region": "Global",
+      "coordinates_approx": null,
+      "category": "environmental",
+      "description": "The Spanish Flu pandemic (1918\u20131920) peaked in 1919, infecting hundreds of millions of people worldwide and killing an estimated 50\u2013100 million. The pandemic was caused by the H1N1 influenza virus and spread rapidly through global trade and military movements. The pandemic had profound social, economic, and political impacts, overwhelming healthcare systems and causing widespread mortality. The pandemic's effects were particularly severe in densely populated urban areas and among indigenous populations with no prior exposure to the virus.",
+      "key_figures": [
+        "Public health officials worldwide",
+        "Medical researchers and physicians"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary medical and public health records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Newspaper accounts and eyewitness reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Modern epidemiological and historical studies",
+          "type": "scientific",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Pandemic peak in 1919 and global scale are well-documented; death toll estimates vary (50\u2013100 million).",
+      "cross_references": [
+        "1918-003 (Spanish Flu pandemic begins)"
+      ]
+    },
+    {
+      "id": "1919-014",
+      "title": "Versailles Treaty creates new nation-states in Europe",
+      "region": "Europe",
+      "coordinates_approx": "50.0,15.0",
+      "category": "political",
+      "description": "The Treaty of Versailles and related peace treaties redrew the map of Europe, creating new nation-states from the territories of the defeated Central Powers and the Russian Empire. New states included Poland, Czechoslovakia, Yugoslavia, Romania (enlarged), Greece (enlarged), and the Baltic states (Lithuania, Latvia, Estonia). The treaty also established the principle of national self-determination, though this principle was applied inconsistently and often ignored. The creation of new states with ethnically mixed populations created tensions that would persist throughout the interwar period.",
+      "key_figures": [
+        "Woodrow Wilson (U.S. President, advocate for self-determination)",
+        "Georges Clemenceau (French Premier)",
+        "David Lloyd George (British Prime Minister)"
+      ],
+      "sources": [
+        {
+          "name": "Treaty of Versailles and related peace treaties (primary texts)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Paris Peace Conference records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on the peace settlement and new states",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Creation of new nation-states and territorial changes are precisely documented.",
+      "cross_references": [
+        "1919-001 (Treaty of Versailles signed)"
+      ]
+    },
+    {
+      "id": "1919-015",
+      "title": "Bolsheviks establish Soviet republics in Ukraine, Belarus, and Caucasus",
+      "region": "Soviet Russia / Ukraine / Belarus / Caucasus",
+      "coordinates_approx": "50.0,30.0",
+      "category": "political",
+      "description": "In 1919, the Bolsheviks established Soviet republics in Ukraine, Belarus, and the South Caucasus (Georgia, Armenia, Azerbaijan) as part of their consolidation of control over the former Russian Empire. These republics were nominally independent but were effectively controlled by Moscow. The establishment of Soviet republics in these regions was contested by nationalist movements and resulted in conflicts that lasted into the early 1920s. The Soviet republics eventually became constituent republics of the Union of Soviet Socialist Republics (USSR), established in 1922.",
+      "key_figures": [
+        "Vladimir Lenin (Soviet leader)",
+        "Leon Trotsky (Red Army commander)",
+        "Grigory Ordzhonikidze (Soviet commander in Caucasus)"
+      ],
+      "sources": [
+        {
+          "name": "Soviet government decrees and proclamations",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Soviet military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Soviet expansion",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Establishment of Soviet republics in 1919 is well-documented.",
+      "cross_references": [
+        "1922-001 (USSR formally established)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The characterization of the Treaty of Versailles as solely punitive is debated by modern historians; some argue that the treaty's terms were not exceptionally harsh compared to other peace settlements and that Germany's economic difficulties were due to other factors (war debt, inflation, global economic conditions) rather than reparations alone. The 'stab-in-the-back' myth, which blamed the treaty for Germany's problems, was a Nazi propaganda narrative that distorted historical reality. Additionally, the May Fourth Movement's significance is sometimes overstated; while it was important for Chinese nationalism, its immediate political impact was limited, and the movement's intellectual legacy was more significant than its political outcomes. The Spanish Flu pandemic's death toll estimates vary widely (50\u2013100 million), and some modern epidemiological studies suggest lower figures. The claim that the Weimar Republic was inherently unstable is disputed; some historians argue that the republic could have survived with different political choices and economic circumstances.",
+  "historiographic_note": "1919 is exceptionally well-documented across multiple regions and perspectives. Western sources (British, American, French, German) are abundant, as are Soviet, Turkish, Indian, Chinese, and Eastern European sources. The main biases are toward political and military events over social and economic history; labor movements, peasant uprisings, and cultural developments are less thoroughly recorded. Colonial and imperial perspectives dominate some narratives (e.g., the Paris Peace Conference and the Jallianwala Bagh massacre), requiring critical reading. The Spanish Flu pandemic is well-documented in medical and public health records, though contemporary accounts often underestimated its scale. Overall, 1919 represents a pivotal year of post-war settlement and geopolitical realignment, and the historical record is sufficiently rich to support detailed analysis.",
+  "graph_edges": [
+    {
+      "from": "1919-001",
+      "to": "1920-001",
+      "relation": "led_to",
+      "note": "Treaty of Versailles established the League of Nations"
+    },
+    {
+      "from": "1919-002",
+      "to": "1921-003",
+      "relation": "led_to",
+      "note": "Irish War of Independence led to Anglo-Irish Treaty"
+    },
+    {
+      "from": "1919-003",
+      "to": "1923-001",
+      "relation": "led_to",
+      "note": "Turkish War of Independence led to Treaty of Lausanne and Turkish Republic"
+    },
+    {
+      "from": "1919-004",
+      "to": "1920-013",
+      "relation": "led_to",
+      "note": "Jallianwala Bagh massacre galvanized Gandhi's leadership of independence movement"
+    },
+    {
+      "from": "1919-006",
+      "to": "1920-008",
+      "relation": "part_of",
+      "note": "Spartacist Uprising exemplified Weimar political instability"
+    },
+    {
+      "from": "1919-008",
+      "to": "1921-004",
+      "relation": "led_to",
+      "note": "May Fourth Movement contributed to founding of Chinese Communist Party"
+    },
+    {
+      "from": "1919-010",
+      "to": "1943-001",
+      "relation": "led_to",
+      "note": "Comintern founded in 1919, dissolved in 1943"
+    },
+    {
+      "from": "1919-011",
+      "to": "1923-002",
+      "relation": "led_to",
+      "note": "Harsh Versailles terms contributed to German hyperinflation crisis"
+    },
+    {
+      "from": "1919-012",
+      "to": "1920-011",
+      "relation": "led_to",
+      "note": "Russian Civil War continued until Bolshevik final victory in 1920"
+    },
+    {
+      "from": "1919-013",
+      "to": "1920-001",
+      "relation": "contemporary_with",
+      "note": "Spanish Flu pandemic peaked as League of Nations was being established"
+    }
+  ]
+}

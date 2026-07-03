@@ -1,0 +1,121 @@
+{
+  "year": 991,
+  "year_label": "991 CE",
+  "era_context": "The late 10th century CE witnessed the consolidation of feudal Europe, the expansion of Islamic caliphates in the Mediterranean and Near East, and the flourishing of East Asian dynasties. In Europe, the Holy Roman Empire under Otto III was attempting to revive Carolingian imperial ideology. The Song Dynasty in China was in its early consolidation phase. The Byzantine Empire remained a major Mediterranean power. In the Islamic world, the Fatimid Caliphate controlled North Africa and the Levant, while the Abbasid Caliphate's authority was fragmenting.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Northern Europe and Scandinavia (sparse documentation outside chronicles)",
+    "Central Asia (limited contemporary records)"
+  ],
+  "events": [
+    {
+      "id": "991-001",
+      "title": "Battle of Maldon aftermath and Viking raids on England",
+      "region": "England",
+      "coordinates_approx": "52.7,-0.5",
+      "category": "military",
+      "description": "Following the famous Battle of Maldon in 991, Viking raids intensified across England under Sweyn Forkbeard and other Norse leaders. King \u00c6thelred II (\u00c6thelred the Unready) faced sustained pressure from Danish forces, leading to the payment of tribute (Danegeld) to secure temporary peace. These raids marked the beginning of a period of sustained Viking pressure that would eventually lead to Danish rule of England within a generation.",
+      "key_figures": [
+        "\u00c6thelred II (King of England)",
+        "Sweyn Forkbeard (Viking leader)",
+        "Ealdorman Byrhtnoth (died at Maldon, 991)"
+      ],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "The Battle of Maldon (poem)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Battle of Maldon is dated to 991 by the Anglo-Saxon Chronicle. Subsequent Viking raids in this period are well-attested in contemporary and near-contemporary sources.",
+      "cross_references": [
+        "Relates to broader Viking expansion in 980s-1010s",
+        "Precedes the St. Brice's Day massacre (1002)"
+      ]
+    },
+    {
+      "id": "991-002",
+      "title": "Otto III crowned Holy Roman Emperor",
+      "region": "Holy Roman Empire (Germany/Italy)",
+      "coordinates_approx": "41.9,12.5",
+      "category": "political",
+      "description": "Otto III, at approximately age 16, was crowned Holy Roman Emperor in Rome, following his father Otto II's death in 983. Otto III pursued an ambitious program of imperial renewal, attempting to revive Carolingian ideals and establish Rome as the center of a renovated Christian empire. His reign marked a significant moment in the development of medieval imperial ideology, though his actual political power remained contested.",
+      "key_figures": [
+        "Otto III (Holy Roman Emperor)",
+        "Pope Gregory V (his cousin)",
+        "Theophanu (his mother, regent)"
+      ],
+      "sources": [
+        {
+          "name": "Thietmar of Merseburg, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Liudprand of Cremona, Historia Ottonis",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Otto III's coronation is well-documented in contemporary and near-contemporary chronicles. The exact date of 991 is conventional; some sources place it in 996.",
+      "cross_references": [
+        "Part of the Ottonian Renaissance movement",
+        "Precedes Otto III's death in 1002"
+      ]
+    },
+    {
+      "id": "991-003",
+      "title": "Fatimid expansion in the Levant and Mediterranean",
+      "region": "Fatimid Caliphate (North Africa, Levant, Mediterranean)",
+      "coordinates_approx": "30.0,31.0",
+      "category": "political",
+      "description": "The Fatimid Caliphate under Caliph Al-Aziz Billah continued its expansion and consolidation of power in the eastern Mediterranean and Levant. The Fatimids controlled Egypt, parts of the Levant, and maintained naval dominance in the Mediterranean, challenging Byzantine and Western Christian interests. This period saw the height of Fatimid cultural and economic influence.",
+      "key_figures": [
+        "Al-Aziz Billah (Fatimid Caliph)",
+        "Gawhar al-Siqilli (vizier and general)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Mas'udi, Meadows of Gold",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Fatimid expansion is well-documented in Islamic sources, though specific events of 991 are not always precisely dated. The broader context of Fatimid dominance in this period is confirmed.",
+      "cross_references": [
+        "Part of broader Fatimid-Byzantine rivalry",
+        "Relates to Crusade-era geopolitics"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Battle of Maldon to 991 is traditional but has been questioned by some modern scholars, who suggest it may have occurred in 993 or another year in the early 990s. The exact chronology of \u00c6thelred II's reign and the Danegeld payments is debated among historians. Otto III's actual political power and the extent of his 'renovation' of the empire have been reassessed by modern scholarship as more limited than earlier historiography suggested.",
+  "historiographic_note": "The historical record for 991 is dominated by Western European and Islamic sources. English sources (Anglo-Saxon Chronicle) are relatively rich but compiled after the events. German sources on Otto III are abundant but often hagiographic. Islamic sources on the Fatimid Caliphate are substantial but were compiled centuries later. The record is heavily biased toward elite political and military events; economic, social, and cultural developments are underrepresented. Sub-Saharan Africa, Northern Europe beyond Scandinavia, and Central Asia are largely absent from surviving documentation.",
+  "graph_edges": [
+    {
+      "from": "991-001",
+      "to": "1002-XXX",
+      "relation": "led_to",
+      "note": "Viking raids of 991 escalated into sustained pressure leading to Danish conquest of England"
+    },
+    {
+      "from": "991-002",
+      "to": "1002-XXX",
+      "relation": "led_to",
+      "note": "Otto III's imperial ideology influenced Holy Roman Empire for centuries"
+    }
+  ]
+}

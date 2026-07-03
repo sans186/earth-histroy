@@ -1,0 +1,90 @@
+{
+  "year": 872,
+  "year_label": "872 CE",
+  "era_context": "The Carolingian Empire remains fragmented. Charles the Bald rules the West Franks and is consolidating his power after the death of his brother Lothair II in 869. The East Franks are ruled by Louis the German. The Byzantine Empire under Basil I continues its military and cultural revival. The Islamic world remains politically fragmented. Viking raids continue to plague Western Europe.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia interior",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "872-001",
+      "title": "Charles the Bald Inherits Lotharingia",
+      "region": "Lotharingia (modern Lorraine, Low Countries)",
+      "coordinates_approx": "49.5, 5.5",
+      "category": "political",
+      "description": "Following the death of Lothair II in 869, Charles the Bald inherited Lotharingia, the central Frankish kingdom. This inheritance significantly expanded Charles's power and territory, making him the dominant Frankish ruler. However, the inheritance was contested by his brother Louis the German, who also claimed parts of Lotharingia. The dispute over Lotharingia would dominate Frankish politics for the next several years and would eventually be resolved by the Treaty of Mersen in 870 (which divided Lotharingia between Charles and Louis).",
+      "key_figures": [
+        "Charles the Bald (West Frankish king, inheritor of Lotharingia)",
+        "Louis the German (East Frankish king, rival claimant)"
+      ],
+      "sources": [
+        {
+          "name": "Annales Bertiniani",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The inheritance of Lotharingia by Charles the Bald is well-attested in contemporary sources. However, the date of Lothair II's death is sometimes given as 869 rather than 872, and the inheritance would have occurred in 869, not 872. This event may be misdated in the prompt.",
+      "cross_references": [
+        "869-001 (Death of Lothair II)",
+        "870-001 (Treaty of Mersen, division of Lotharingia)"
+      ]
+    },
+    {
+      "id": "872-002",
+      "title": "Viking Raid on Abbeville",
+      "region": "West Frankish Kingdom (modern France)",
+      "coordinates_approx": "50.1, 1.8",
+      "category": "military",
+      "description": "Viking raiders attacked the town of Abbeville in northern France, a settlement on the Somme River. The raid resulted in destruction and loss of life. The raid demonstrated the continued vulnerability of northern French settlements to Viking attack. The raid prompted further fortification efforts and contributed to the militarization of Frankish society.",
+      "key_figures": [
+        "Viking raiders (unnamed)"
+      ],
+      "sources": [
+        {
+          "name": "Annales Bertiniani",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Viking raids on northern French settlements are well-documented in this period, though the specific chronology of individual raids is sometimes uncertain.",
+      "cross_references": []
+    },
+    {
+      "id": "872-003",
+      "title": "Basil I Campaigns in Southern Italy",
+      "region": "Southern Italy (Byzantine territories)",
+      "coordinates_approx": "40.5, 16.0",
+      "category": "military",
+      "description": "Basil I, Byzantine emperor, conducted military campaigns in southern Italy to assert Byzantine control over the region and to counter Arab and Lombard threats. The campaigns were part of Basil's broader effort to restore Byzantine authority in the western Mediterranean. The campaigns had mixed success, as southern Italy remained contested territory with multiple competing powers.",
+      "key_figures": [
+        "Basil I (Byzantine emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Theophanes Continuatus",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Basil I's campaigns in southern Italy are attested in Byzantine sources, but the specific chronology is uncertain. The campaigns are generally dated to his reign (867\u2013886) rather than to specific years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The event described as 'Charles the Bald Inherits Lotharingia' in 872 is actually misdated. Lothair II died in 869, and Charles the Bald inherited Lotharingia in 869, not 872. The inheritance was immediately contested by Louis the German, and the dispute was resolved by the Treaty of Mersen in 870. By 872, the division of Lotharingia was already established. This represents a significant dating error in the prompt.",
+  "historiographic_note": "Documentation for 872 is moderate in Western Europe, with the Annales Bertiniani providing the primary source. However, the sources are heavily weighted toward political and military events affecting the elite. The specific dating of events in the early 870s is sometimes uncertain, as the chronicles do not always provide precise chronological markers. Non-European regions have sparser documentation for this specific year.",
+  "graph_edges": [
+    {
+      "from": "872-001",
+      "to": "870-001",
+      "relation": "contradicts",
+      "note": "The event described as occurring in 872 (Charles the Bald's inheritance of Lotharingia) actually occurred in 869, with the division formalized in 870 by the Treaty of Mersen."
+    }
+  ]
+}

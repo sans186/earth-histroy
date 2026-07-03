@@ -1,0 +1,321 @@
+{
+  "year": 1545,
+  "year_label": "1545 CE",
+  "era_context": "The Protestant Reformation is in its third decade; the Council of Trent opens this year. The Ottoman Empire under S\u00fcleyman the Magnificent is at its height. The Ming Dynasty rules China under the Jiajing Emperor. In Europe, the Tudor dynasty rules England under Henry VIII (in his final year); Francis I rules France. The Age of Exploration continues with Spanish and Portuguese colonial expansion.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan African interior",
+    "Pacific Islands beyond Spanish contact",
+    "Central Asian steppes (limited European documentation)"
+  ],
+  "events": [
+    {
+      "id": "1545-001",
+      "title": "Council of Trent opens",
+      "region": "Papal States (Trent, modern Italy)",
+      "coordinates_approx": "46.067, 11.121",
+      "category": "religious",
+      "description": "The Council of Trent convenes on 13 December 1545, summoned by Pope Paul III as the Catholic Church's formal response to the Protestant Reformation. The council represents the beginning of the Counter-Reformation and will meet in three phases over 18 years (1545\u20131547, 1551\u20131552, 1562\u20131563). The opening session focuses on clarifying Catholic doctrine regarding Scripture, tradition, and papal authority\u2014all contested by Protestants. The council's work will define Catholic theology and practice for centuries, establishing the framework for the modern Catholic Church.",
+      "key_figures": [
+        "Pope Paul III (convener)",
+        "Cardinal Giovanni Maria del Monte (papal legate)",
+        "Jesuit theologians (Diego Laynez, Alphonsus Salmer\u00f3n)"
+      ],
+      "sources": [
+        {
+          "name": "Official Council of Trent records (Acta Concilii Tridentini)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Papal bulls and decrees",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Jesuit correspondence and theological treatises",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Council opening date is precisely documented in official records.",
+      "cross_references": [
+        "1517-001 (95 Theses)",
+        "1546-003 (Council continues)",
+        "1563-001 (Council concludes)"
+      ]
+    },
+    {
+      "id": "1545-002",
+      "title": "Battle of Ancrum Moor",
+      "region": "Scotland (Scottish Borders)",
+      "coordinates_approx": "55.35, -2.35",
+      "category": "military",
+      "description": "On 27 February 1545, Scottish forces under the Earl of Angus defeat an English invasion force at Ancrum Moor in the Scottish Borders. The battle is part of the 'Rough Wooing'\u2014a series of English military campaigns (1544\u20131551) aimed at forcing Scotland into union with England and securing a marriage alliance between the young Scottish Queen Mary and the English Prince Edward. The Scottish victory at Ancrum Moor is a significant setback for English plans and strengthens Scottish resistance to English domination. The battle demonstrates that despite England's superior resources, Scottish determination and terrain knowledge can prevail.",
+      "key_figures": [
+        "Earl of Angus (Scottish commander)",
+        "Ralph Evers (English commander, killed in battle)",
+        "Henry VIII (English king, initiator of the Rough Wooing)"
+      ],
+      "sources": [
+        {
+          "name": "Scottish chronicles and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "English military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later Scottish historical accounts",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Battle date and outcome are documented in contemporary Scottish and English records.",
+      "cross_references": [
+        "1544-001 (Rough Wooing begins)",
+        "1551-001 (Rough Wooing ends)"
+      ]
+    },
+    {
+      "id": "1545-003",
+      "title": "Mary, Queen of Scots born",
+      "region": "Scotland (Linlithgow Palace)",
+      "coordinates_approx": "55.97, -3.60",
+      "category": "political",
+      "description": "Mary, Queen of Scots, is born on 8 December 1545 at Linlithgow Palace to King James V of Scotland and Mary of Guise. Her birth is significant because she becomes the focus of English military campaigns (the 'Rough Wooing') aimed at forcing her marriage to the English Prince Edward VI to unite the crowns. Mary's life will be marked by religious conflict, political intrigue, and ultimately tragedy. She will become one of the most famous (and controversial) figures in British history, with her reign in Scotland (1561\u20131568) marked by religious upheaval and her later imprisonment and execution in England (1587) becoming a pivotal moment in Anglo-Scottish relations.",
+      "key_figures": [
+        "Mary, Queen of Scots (newborn)",
+        "James V (Scottish king, father, dies days after her birth)",
+        "Mary of Guise (mother, regent)"
+      ],
+      "sources": [
+        {
+          "name": "Scottish court records and genealogies",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Mary's own letters and memoirs (later)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Birth date is precisely documented in Scottish records.",
+      "cross_references": [
+        "1545-004 (James V dies)",
+        "1561-001 (Mary returns to Scotland)",
+        "1587-001 (Mary executed)"
+      ]
+    },
+    {
+      "id": "1545-004",
+      "title": "James V of Scotland dies",
+      "region": "Scotland (Falkland Palace)",
+      "coordinates_approx": "56.25, -3.20",
+      "category": "political",
+      "description": "King James V of Scotland dies on 14 December 1545, just days after the birth of his daughter Mary. His death leaves Scotland with an infant queen and a regency under Mary of Guise, a French noblewoman. James V's reign (1513\u20131545) was marked by efforts to maintain Scottish independence against English pressure and to strengthen ties with France. His death at a critical moment\u2014with England under Henry VIII actively pursuing the 'Rough Wooing'\u2014leaves Scotland vulnerable. The regency of Mary of Guise will be contested and will eventually lead to religious and political upheaval in Scotland.",
+      "key_figures": [
+        "James V (Scottish king)",
+        "Mary of Guise (regent for Mary, Queen of Scots)",
+        "Henry VIII (English king, rival)"
+      ],
+      "sources": [
+        {
+          "name": "Scottish court records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Later Scottish historical accounts",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Death date is documented in Scottish records.",
+      "cross_references": [
+        "1545-003 (Mary, Queen of Scots born)",
+        "1544-001 (Rough Wooing begins)",
+        "1567-001 (Mary abdicates)"
+      ]
+    },
+    {
+      "id": "1545-005",
+      "title": "Potos\u00ed silver mining accelerates under Spanish control",
+      "region": "Spanish America (Potos\u00ed, modern Bolivia)",
+      "coordinates_approx": "-19.58, -65.50",
+      "category": "economic",
+      "description": "The silver mines of Potos\u00ed, discovered in 1545 (or possibly 1544), begin large-scale exploitation under Spanish control. Potos\u00ed will become the world's richest silver deposit and a major driver of Spanish colonial wealth and global commerce. The mining operation relies on the encomienda system and forced labor of indigenous peoples, resulting in massive mortality and social disruption. The wealth extracted from Potos\u00ed will finance Spanish imperial ambitions for centuries and will reshape global trade patterns, flooding Europe and Asia with Spanish silver. The discovery of Potos\u00ed represents both the apex of Spanish colonial success and the beginning of indigenous American catastrophe.",
+      "key_figures": [
+        "Diego Huallpa (indigenous discoverer, traditional account)",
+        "Spanish colonial administrators",
+        "Indigenous Aymara and Quechua peoples (forced laborers)"
+      ],
+      "sources": [
+        {
+          "name": "Spanish colonial records and mining documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Indigenous oral traditions (recorded later)",
+          "type": "oral_tradition",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of mining activity",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Later Spanish chronicles (Bartolom\u00e9 Arz\u00e1ns de Ors\u00faa y Vela)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The discovery date of Potos\u00ed is traditionally given as 1545, but some sources suggest 1544. Large-scale mining operations began shortly after discovery. The exact date of initial discovery is uncertain, but the year 1545 is the conventional date.",
+      "cross_references": [
+        "1492-001 (Columbus reaches Americas)",
+        "1521-001 (Fall of Tenochtitlan)",
+        "1600-001 (Potos\u00ed at peak production)"
+      ]
+    },
+    {
+      "id": "1545-006",
+      "title": "Henry VIII dies; Edward VI becomes King of England",
+      "region": "England",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "political",
+      "description": "King Henry VIII of England dies on 28 January 1545, ending a 38-year reign that transformed England religiously, politically, and culturally. He is succeeded by his nine-year-old son Edward VI, whose reign (1547\u20131553) will be marked by the regency of Edward Seymour, Duke of Somerset, and later John Dudley, Duke of Northumberland. Edward VI's reign will see the acceleration of Protestant reform in England, including the introduction of the Book of Common Prayer (1549) and the removal of Catholic practices. Henry's death marks the end of an era of personal monarchy and the beginning of a period of regency and religious radicalism.",
+      "key_figures": [
+        "Henry VIII (deceased king)",
+        "Edward VI (new king, age 9)",
+        "Edward Seymour, Duke of Somerset (regent)",
+        "Catherine Parr (Henry's widow)"
+      ],
+      "sources": [
+        {
+          "name": "English court records and royal documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles (Edward Hall, John Stow)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Death date is precisely documented in English records.",
+      "cross_references": [
+        "1509-001 (Henry VIII becomes king)",
+        "1534-001 (Break with Rome)",
+        "1547-001 (Edward VI's reign begins formally)"
+      ]
+    },
+    {
+      "id": "1545-007",
+      "title": "Battle of the Solent: French invasion attempt on England",
+      "region": "England (Isle of Wight, Solent)",
+      "coordinates_approx": "50.75, -1.30",
+      "category": "military",
+      "description": "In July 1545, a French invasion fleet under King Francis I attempts to invade England, landing forces on the Isle of Wight. The invasion is repelled by English naval and coastal forces, with the French suffering significant losses. The battle is notable for the sinking of the English warship Mary Rose, which capsizes during the engagement, killing most of its crew. The failed invasion demonstrates England's growing naval capability and marks the end of French attempts to invade England during this period. The battle occurs during the final months of Henry VIII's life and is one of the last major military engagements of his reign.",
+      "key_figures": [
+        "Francis I (French king)",
+        "Henry VIII (English king)",
+        "Lord Lisle (English naval commander)"
+      ],
+      "sources": [
+        {
+          "name": "English naval records and court documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French court records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Mary Rose wreck",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Battle date and outcome are well-documented in contemporary records.",
+      "cross_references": [
+        "1545-006 (Henry VIII dies)",
+        "1509-001 (Henry VIII becomes king)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The discovery date of Potos\u00ed is sometimes given as 1544 rather than 1545; sources vary, and the exact date is uncertain. The traditional account of Diego Huallpa discovering the silver is questioned by some modern scholars, who suggest the discovery was made by Spanish prospectors or that indigenous peoples had long known of the deposits. The Battle of the Solent is sometimes overstated as a major naval engagement; it was more of a skirmish with significant symbolic importance (the loss of the Mary Rose) than a decisive battle. James V's death is sometimes attributed to despair over the birth of a daughter rather than a female heir, but this is a later romantic interpretation not supported by contemporary medical evidence.",
+  "historiographic_note": "The year 1545 is exceptionally well-documented in European sources (English, French, Scottish, and papal records are abundant). The Council of Trent's opening is meticulously recorded. However, the historical record is heavily weighted toward elite, literate, institutional perspectives. Indigenous American perspectives on the discovery of Potos\u00ed are largely absent from contemporary records; the voices of the enslaved miners are silenced. Scottish sources on the Rough Wooing are shaped by nationalist sentiment. The year is a good example of how 'well-documented' history can still be profoundly incomplete and biased toward European perspectives.",
+  "graph_edges": [
+    {
+      "from": "1545-001",
+      "to": "1546-003",
+      "relation": "part_of",
+      "note": "The Council of Trent's opening in 1545 is part of the larger council process."
+    },
+    {
+      "from": "1545-002",
+      "to": "1544-001",
+      "relation": "part_of",
+      "note": "The Battle of Ancrum Moor is part of the Rough Wooing campaign."
+    },
+    {
+      "from": "1545-003",
+      "to": "1545-004",
+      "relation": "contemporary_with",
+      "note": "Mary's birth and James V's death occur within days of each other."
+    },
+    {
+      "from": "1545-004",
+      "to": "1544-001",
+      "relation": "led_to",
+      "note": "James V's death leaves Scotland vulnerable to the Rough Wooing."
+    },
+    {
+      "from": "1545-006",
+      "to": "1547-001",
+      "relation": "led_to",
+      "note": "Henry VIII's death leads to Edward VI's reign and Protestant acceleration."
+    },
+    {
+      "from": "1545-007",
+      "to": "1545-006",
+      "relation": "contemporary_with",
+      "note": "The Battle of the Solent occurs during Henry VIII's final months."
+    }
+  ]
+}

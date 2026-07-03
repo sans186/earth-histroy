@@ -1,0 +1,411 @@
+{
+  "year": 1894,
+  "year_label": "1894 CE",
+  "era_context": "The mid-1890s, a period of intense imperial competition, industrial expansion, and rising nationalist movements. The Sino-Japanese War (1894\u20131895) marks the emergence of Japan as a regional power and the decline of China's traditional authority. In Europe, the alliance system is solidifying (Franco-Russian Alliance, 1894); in the Americas, the United States is consolidating continental dominance. The Dreyfus Affair begins in France, exposing deep social divisions. This is the era of the Second Industrial Revolution, mass migration, and the emergence of modern mass media.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1894-001",
+      "title": "First Sino-Japanese War begins",
+      "region": "East Asia (China, Japan, Korea)",
+      "coordinates_approx": "37.0, 128.0",
+      "category": "military",
+      "description": "The First Sino-Japanese War (1894\u20131895) began in July 1894 following tensions over control of Korea. Japan, seeking to expand its influence in East Asia and to challenge Chinese dominance, declared war on China on August 1, 1894. The war was marked by a series of Japanese military victories, demonstrating the superiority of Japan's modernised military forces (developed during the Meiji Restoration) over China's traditional armies. The conflict was fought on land in Korea and Manchuria and at sea in the Yellow Sea. Japan's victory was decisive and rapid, concluding with the Treaty of Shimonoseki in April 1895. The war marked a fundamental shift in East Asian geopolitics: Japan emerged as a major regional power, while China's international standing declined significantly.",
+      "key_figures": [
+        "Emperor Meiji of Japan (sovereign)",
+        "Prime Minister Ito Hirobumi (Japanese leader)",
+        "Emperor Guangxu of China (sovereign)",
+        "Li Hongzhang (Chinese statesman and general)"
+      ],
+      "sources": [
+        {
+          "name": "Japanese military records and official histories",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese military records and official accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper accounts from Japan, China, Europe, and America",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on the war's causes and significance",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The war's start date (August 1, 1894) is definitively documented. The basic facts of the war's progression and outcome are well-attested in multiple sources.",
+      "cross_references": [
+        "Leads to 1895-001 (Treaty of Shimonoseki)"
+      ]
+    },
+    {
+      "id": "1894-002",
+      "title": "Franco-Russian Alliance formalised",
+      "region": "Europe (France, Russia)",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "political",
+      "description": "The Franco-Russian Alliance, which had been developing since 1891, was formally ratified and formalised in 1894. The alliance was a response to the Triple Alliance (Germany, Austria-Hungary, Italy) and represented a major shift in European geopolitics. France and Russia agreed to mutual military support in the event of war with Germany or its allies. The alliance was cemented by the visit of Tsar Nicholas II to France in October 1894, which included elaborate state ceremonies and public demonstrations of solidarity. The Franco-Russian Alliance would remain a cornerstone of European diplomacy until World War I and contributed to the polarisation of Europe into two opposing blocs.",
+      "key_figures": [
+        "Tsar Nicholas II of Russia (sovereign)",
+        "President Jean Casimir-Perier of France (sovereign)",
+        "Foreign Minister Gabriel Hanotaux (French)",
+        "Foreign Minister Alexei Lobanov-Rostovsky (Russian)"
+      ],
+      "sources": [
+        {
+          "name": "Franco-Russian Alliance treaty and protocols (primary text)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French and Russian government records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper accounts of the Tsar's October 1894 visit to France",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The formalisation of the alliance in 1894 and the Tsar's October visit are definitively documented in diplomatic records and contemporary sources.",
+      "cross_references": []
+    },
+    {
+      "id": "1894-003",
+      "title": "Captain Alfred Dreyfus arrested and convicted of espionage",
+      "region": "France (Paris)",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "legal",
+      "description": "Captain Alfred Dreyfus, a French Jewish military officer, was arrested in October 1894 on charges of selling military secrets to Germany. He was tried in December 1894 and convicted on December 22, 1894, based on circumstantial evidence and a forged document. Dreyfus was sentenced to life imprisonment and deported to Devil's Island in French Guiana. The case would become one of the most significant political and social crises in French history, the Dreyfus Affair, which exposed deep divisions in French society regarding antisemitism, militarism, and republicanism. The 1894 conviction was based on flawed evidence, and subsequent investigations would reveal that Dreyfus was innocent and that the actual spy was Major Esterhazy.",
+      "key_figures": [
+        "Captain Alfred Dreyfus (accused officer)",
+        "Major Hubert Henry (military officer who fabricated evidence)",
+        "Colonel Picquart (officer who later discovered evidence of Dreyfus's innocence)",
+        "General Auguste Mercier (War Minister who initiated the prosecution)"
+      ],
+      "sources": [
+        {
+          "name": "French military court records and trial documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary French newspaper coverage",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Dreyfus, Alfred. Diaries and memoirs (compiled later)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Burns, Michael. Dreyfus: A Family Affair (1991) \u2014 historiographic synthesis",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The October 1894 arrest and December 22, 1894 conviction are definitively documented in court records and contemporary sources. The conviction was based on flawed evidence, a fact confirmed by modern scholarship.",
+      "cross_references": [
+        "Related to 1895-009 (Dreyfus Affair developments)",
+        "Related to 1896-009 (Dreyfus Affair intensifies)"
+      ]
+    },
+    {
+      "id": "1894-004",
+      "title": "Pullman Strike in the United States",
+      "region": "United States (Illinois, nationwide)",
+      "coordinates_approx": "41.81, -87.63",
+      "category": "economic",
+      "description": "The Pullman Strike began on May 11, 1894, when workers at the Pullman Palace Car Company in Illinois struck in response to wage cuts. The strike quickly spread to other railroad workers across the country, paralyzing rail transport. The strike was led by the American Railway Union under Eugene V. Debs. The federal government, under President Grover Cleveland, intervened with troops and federal marshals, leading to violent clashes between strikers and authorities. The strike was broken by late July 1894, with dozens of workers killed and hundreds arrested. Debs was imprisoned for his role in the strike. The Pullman Strike was a watershed moment in American labour history, demonstrating the power of organised labour and the government's willingness to use force to suppress strikes. It also contributed to the rise of socialism and labour activism in the United States.",
+      "key_figures": [
+        "Eugene V. Debs (American Railway Union leader)",
+        "President Grover Cleveland (U.S. president)",
+        "George Pullman (Pullman Palace Car Company owner)",
+        "Richard Olney (U.S. Attorney General)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. government records and congressional reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "American Railway Union records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper coverage (Chicago Tribune, New York Times, etc.)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Debs, Eugene V. Autobiography and writings",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The strike's start date (May 11, 1894) and duration through late July 1894 are definitively documented in government records and contemporary sources.",
+      "cross_references": []
+    },
+    {
+      "id": "1894-005",
+      "title": "Sino-Japanese War: Battle of the Yalu River",
+      "region": "East Asia (Korea-Manchuria border)",
+      "coordinates_approx": "40.88, 124.40",
+      "category": "military",
+      "description": "The Battle of the Yalu River (September 1894) was a major naval engagement during the First Sino-Japanese War. The Japanese fleet, under Admiral Ito Yuko, defeated the Chinese fleet in a decisive battle off the Yalu River, which forms the border between Korea and Manchuria. The Japanese victory demonstrated the superiority of Japan's modern warships and naval tactics over China's traditional fleet. The battle was one of the first major naval engagements of the modern era and was closely observed by naval powers worldwide. The victory gave Japan control of the Yellow Sea and enabled Japanese forces to advance into Manchuria. The battle was a turning point in the war and contributed to Japan's overall victory.",
+      "key_figures": [
+        "Admiral Ito Yuko (Japanese naval commander)",
+        "Admiral Ding Ruchang (Chinese naval commander)"
+      ],
+      "sources": [
+        {
+          "name": "Japanese naval records and official histories",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese naval records and accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper accounts and naval journals",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle date (September 1894) and basic facts are well-documented in naval records from both Japan and China.",
+      "cross_references": [
+        "Related to 1894-001 (First Sino-Japanese War)"
+      ]
+    },
+    {
+      "id": "1894-006",
+      "title": "Dreyfus Affair: Bordereau document discovered",
+      "region": "France (Paris)",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "legal",
+      "description": "In 1894, a document known as the 'bordereau' (a list of military secrets) was discovered in the waste basket of the German military attach\u00e9 in Paris. The document became the primary evidence used to convict Captain Alfred Dreyfus of espionage. However, modern analysis has revealed that the bordereau was likely forged or misattributed. The document's discovery and use as evidence was a crucial moment in the Dreyfus Affair, as it provided the ostensible justification for Dreyfus's arrest and conviction. The authenticity and significance of the bordereau would become a central point of contention in the subsequent campaign for Dreyfus's exoneration.",
+      "key_figures": [
+        "Major Hubert Henry (military officer who may have forged the document)",
+        "Captain Alfred Dreyfus (accused based on the document)"
+      ],
+      "sources": [
+        {
+          "name": "French military records and court documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary French newspaper coverage",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Modern forensic and historical analysis of the bordereau",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The discovery of the bordereau in 1894 is documented in military records. Modern scholarship has established that the document was likely forged, though the exact date of its discovery within 1894 is less precisely recorded.",
+      "cross_references": [
+        "Related to 1894-003 (Dreyfus's arrest and conviction)"
+      ]
+    },
+    {
+      "id": "1894-007",
+      "title": "Sino-Japanese War: Japanese forces capture Port Arthur",
+      "region": "East Asia (Manchuria, China)",
+      "coordinates_approx": "38.91, 121.27",
+      "category": "military",
+      "description": "In November 1894, Japanese forces captured the strategic port city of Port Arthur (L\u00fcshun) in Manchuria from Chinese control. The capture was part of Japan's broader military campaign during the First Sino-Japanese War. Port Arthur was a major Chinese naval base and its loss was a significant blow to Chinese military power. The Japanese occupation of Port Arthur would have long-term consequences; the port would become a focal point of Russian imperial ambitions and would be a key issue in the Russo-Japanese War (1904\u20131905). The capture of Port Arthur demonstrated Japan's military superiority and its ability to project power on the Asian mainland.",
+      "key_figures": [
+        "General Oyama Iwao (Japanese commander)",
+        "Chinese military commanders (various)"
+      ],
+      "sources": [
+        {
+          "name": "Japanese military records and official histories",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese military records and accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper accounts",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The November 1894 capture of Port Arthur is well-documented in military records from both Japan and China.",
+      "cross_references": [
+        "Related to 1894-001 (First Sino-Japanese War)",
+        "Related to 1904-001 (Russo-Japanese War, which contested control of Port Arthur)"
+      ]
+    },
+    {
+      "id": "1894-008",
+      "title": "Tsar Nicholas II accedes to Russian throne",
+      "region": "Russia",
+      "coordinates_approx": "59.93, 30.36",
+      "category": "political",
+      "description": "Tsar Alexander III of Russia died on November 1, 1894, and was succeeded by his son, Nicholas II. Nicholas II's accession marked the beginning of a new era in Russian history, though it was not immediately clear that his reign would be significantly different from his father's. Nicholas II inherited a vast empire facing modernisation pressures, nationalist movements, and revolutionary agitation. His reign would be marked by the Russo-Japanese War (1904\u20131905), the 1905 Revolution, and ultimately the Russian Revolution of 1917. The 1894 accession was a significant moment in European history, as Nicholas II would play a major role in European geopolitics for the next two decades.",
+      "key_figures": [
+        "Tsar Nicholas II (new sovereign)",
+        "Tsar Alexander III (deceased)",
+        "Tsarina Maria Feodorovna (mother of Nicholas II, regent influence)"
+      ],
+      "sources": [
+        {
+          "name": "Russian imperial records and official announcements",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper accounts from Russia and Europe",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Nicholas II's diaries and correspondence (compiled later)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The death of Alexander III on November 1, 1894, and the accession of Nicholas II are definitively documented in Russian imperial records.",
+      "cross_references": [
+        "Related to 1894-002 (Franco-Russian Alliance, which Nicholas II inherited)"
+      ]
+    },
+    {
+      "id": "1894-009",
+      "title": "Sino-Japanese War: Battle of Pyongyang",
+      "region": "East Asia (Korea)",
+      "coordinates_approx": "39.03, 125.75",
+      "category": "military",
+      "description": "The Battle of Pyongyang (September 1894) was a major land engagement during the First Sino-Japanese War. Japanese forces defeated Chinese forces in a battle for control of the Korean city of Pyongyang. The Japanese victory demonstrated the superiority of Japan's modern military tactics and equipment. The battle was one of the first major land engagements of the war and contributed to Japan's overall military dominance. The victory gave Japan control of Korea and enabled Japanese forces to advance into Manchuria.",
+      "key_figures": [
+        "General Nodzu Michitsura (Japanese commander)",
+        "Chinese military commanders (various)"
+      ],
+      "sources": [
+        {
+          "name": "Japanese military records and official histories",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese military records and accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper accounts",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle date (September 1894) and basic facts are well-documented in military records from both Japan and China.",
+      "cross_references": [
+        "Related to 1894-001 (First Sino-Japanese War)"
+      ]
+    },
+    {
+      "id": "1894-010",
+      "title": "Sino-Japanese War: Japanese forces advance into Manchuria",
+      "region": "East Asia (Manchuria, China)",
+      "coordinates_approx": "45.0, 125.0",
+      "category": "military",
+      "description": "Following their victories at Pyongyang and the Yalu River in September 1894, Japanese forces advanced into Manchuria, the northeastern region of China. The advance was part of Japan's broader military campaign to defeat China and establish Japanese dominance in East Asia. The Japanese occupation of Manchuria would have long-term consequences; the region would become a focal point of Russian imperial ambitions and would be a key issue in the Russo-Japanese War (1904\u20131905). The advance demonstrated Japan's ability to project military power on the Asian mainland and contributed to the shock that prompted the Triple Intervention by European powers in 1895.",
+      "key_figures": [
+        "General Oyama Iwao (Japanese commander)",
+        "Chinese military commanders (various)"
+      ],
+      "sources": [
+        {
+          "name": "Japanese military records and official histories",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese military records and accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper accounts",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Japanese advance into Manchuria in late 1894 is well-documented in military records from both Japan and China.",
+      "cross_references": [
+        "Related to 1894-001 (First Sino-Japanese War)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Pullman Strike is sometimes presented as a clear victory for labour activism, but modern scholarship emphasises that the strike was decisively defeated and that the government's use of force was effective in breaking the strike. The strike did not lead to immediate improvements in workers' conditions; rather, it demonstrated the power of the state to suppress labour unrest. The Dreyfus Affair's 1894 conviction is sometimes presented as a clear miscarriage of justice, but modern scholarship emphasises that the conviction was based on evidence that seemed credible at the time, even though it was later revealed to be forged. The bordereau document's authenticity has been debated by historians; while modern analysis suggests it was forged, some scholars have argued that the document may have been genuine but misattributed. The Franco-Russian Alliance is sometimes presented as a purely defensive measure against German aggression, but modern scholarship emphasises that it was also a tool for French and Russian imperial expansion and that it contributed to the polarisation of Europe that led to World War I.",
+  "historiographic_note": "1894 is exceptionally well-documented, with rich archival sources from Europe, North America, and parts of Asia. However, the historical record is heavily weighted toward European and American events. The Sino-Japanese War is documented from both Japanese and Chinese perspectives, but Chinese sources are often mediated through later compilations or Japanese accounts. The Dreyfus Affair is extensively documented in French sources but reflects the biases of the French military and political establishment; Jewish and socialist perspectives are less thoroughly recorded in official documents. The Pullman Strike is documented from both government and labour union perspectives, but the perspectives of individual workers are less thoroughly recorded. Overall, 1894 reflects the biases of the late 19th-century historical record: Western-centric, elite-focused, and often dismissive of non-European agency and working-class perspectives.",
+  "graph_edges": [
+    {
+      "from": "1894-001",
+      "to": "1895-001",
+      "relation": "led_to",
+      "note": "The First Sino-Japanese War, which began in 1894, concluded with the Treaty of Shimonoseki in 1895."
+    },
+    {
+      "from": "1894-001",
+      "to": "1895-002",
+      "relation": "led_to",
+      "note": "Japan's military victories in the Sino-Japanese War prompted the Triple Intervention by European powers in 1895."
+    },
+    {
+      "from": "1894-003",
+      "to": "1895-009",
+      "relation": "led_to",
+      "note": "Dreyfus's 1894 conviction led to the developments and campaign for his exoneration in 1895 and beyond."
+    },
+    {
+      "from": "1894-002",
+      "to": "1914-001",
+      "relation": "led_to",
+      "note": "The Franco-Russian Alliance, formalised in 1894, would be a cornerstone of European diplomacy leading to World War I."
+    },
+    {
+      "from": "1894-008",
+      "to": "1904-001",
+      "relation": "led_to",
+      "note": "Nicholas II's accession in 1894 set the stage for his reign, which included the Russo-Japanese War in 1904\u20131905."
+    },
+    {
+      "from": "1894-005",
+      "to": "1894-007",
+      "relation": "led_to",
+      "note": "The Japanese naval victory at the Yalu River enabled the subsequent capture of Port Arthur."
+    }
+  ]
+}

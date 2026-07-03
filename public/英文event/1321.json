@@ -1,0 +1,113 @@
+{
+  "year": 1321,
+  "year_label": "1321 CE",
+  "era_context": "The early 14th century saw the fragmentation of Mongol unity following Kublai Khan's death (1294). The Yuan Dynasty ruled China but faced increasing Han Chinese resistance. In Europe, the Avignon Papacy dominated religious politics; the Hundred Years' War between England and France was in its infancy (begun 1337, but dynastic tensions were acute). The Mali Empire dominated West Africa; the Delhi Sultanate controlled much of South Asia; the Ottoman Empire was consolidating Anatolian power.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (beyond Mali)",
+    "Southeast Asia and the Pacific",
+    "Pre-Columbian Americas",
+    "Northern Europe and Scandinavia (sparse records)"
+  ],
+  "events": [
+    {
+      "id": "1321-001",
+      "title": "Mansa Musa's pilgrimage preparations and Mali's zenith",
+      "region": "Mali Empire, West Africa",
+      "coordinates_approx": "13.0\u00b0N, 8.0\u00b0W",
+      "category": "religious",
+      "description": "Mansa Musa, ruler of the Mali Empire, was consolidating power and preparing for his famous hajj to Mecca (which occurred in 1324). By 1321, Mali was at the height of its territorial and economic power, controlling trans-Saharan gold trade routes. The empire's wealth and Islamic scholarship were flourishing, with Timbuktu emerging as a major centre of learning. This period represents the apex of Mali's influence before internal fragmentation in the late 14th century.",
+      "key_figures": [
+        "Mansa Musa (ruler of Mali)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn Battuta, Rihla (travel account, written c. 1355\u20131356, describing Mali in the 1320s)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Al-Umari, Masalik al-absar (written c. 1340, describing Mali's wealth and governance)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The exact year 1321 is not explicitly documented for Mali's state; this entry reflects the broader context of Mali's power in the early 1320s, confirmed by later Arab geographers and modern historiographic consensus.",
+      "cross_references": [
+        "1324-001 (Mansa Musa's hajj)"
+      ]
+    },
+    {
+      "id": "1321-002",
+      "title": "Famine and social unrest in England",
+      "region": "England",
+      "coordinates_approx": "52.0\u00b0N, 2.0\u00b0W",
+      "category": "economic",
+      "description": "England experienced severe famine conditions in 1321\u20131322, following poor harvests and livestock disease. This period of dearth contributed to social tension and economic hardship across the realm. The famine exacerbated existing grievances among peasants and labourers, contributing to the broader context of social instability that would culminate in the Peasants' Revolt of 1381.",
+      "key_figures": [
+        "Edward II (King of England)"
+      ],
+      "sources": [
+        {
+          "name": "Chronicles of the period (e.g., Froissart, Knighton)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on 14th-century English famines",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The famine of 1321\u20131322 is well attested in English chronicles, though precise dating and regional variation are not uniformly documented.",
+      "cross_references": [
+        "1381-001 (Peasants' Revolt)"
+      ]
+    },
+    {
+      "id": "1321-003",
+      "title": "Conflict between the Papacy and the Visconti in Italy",
+      "region": "Papal States and Milan, Italy",
+      "coordinates_approx": "41.9\u00b0N, 12.5\u00b0E",
+      "category": "political",
+      "description": "Tensions between Pope John XXII (ruling from Avignon) and the Visconti family of Milan intensified in 1321. The Visconti, rising as a major power in northern Italy, resisted papal authority and territorial claims. This conflict was part of the broader struggle between temporal and spiritual authority in medieval Italy, with the Visconti eventually becoming one of the dominant powers of the Italian peninsula.",
+      "key_figures": [
+        "Pope John XXII",
+        "Matteo Visconti (Lord of Milan)"
+      ],
+      "sources": [
+        {
+          "name": "Papal registers and correspondence (Vatican Archives)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Villani, Giovanni, Nuova Cronica (Florentine chronicle, written early 14th century)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Papal-Visconti tensions are documented in contemporary papal records, though specific events in 1321 are not always precisely dated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The significance of 1321 as a discrete historical year is limited; most major events of this period are better understood as part of longer processes (Mali's rise, English famine cycles, Italian factional conflicts). No specific disconfirming evidence for the events listed, but their individual importance should not be overstated.",
+  "historiographic_note": "Documentation for 1321 is uneven. European sources (English chronicles, papal records, Italian city records) are relatively abundant. African sources are sparse and mediated through later Arab geographers. Asian sources (Yuan Dynasty records, Delhi Sultanate chronicles) exist but are not equally accessible in Western scholarship. The year itself has no particular historiographic significance; it is treated here as part of broader early 14th-century trends.",
+  "graph_edges": [
+    {
+      "from": "1321-001",
+      "to": "1324-001",
+      "relation": "led_to",
+      "note": "Mali's consolidation under Mansa Musa in 1321 directly enabled his famous hajj in 1324."
+    },
+    {
+      "from": "1321-002",
+      "to": "1381-001",
+      "relation": "part_of",
+      "note": "The famine of 1321\u20131322 is part of the broader context of peasant grievances leading to the 1381 Peasants' Revolt."
+    }
+  ]
+}

@@ -1,0 +1,592 @@
+{
+  "year": 1796,
+  "year_label": "1796 CE",
+  "era_context": "The late 18th century, dominated by the aftermath of the French Revolution and the rise of Napoleon Bonaparte. Europe is in flux: the French Republic is consolidating power, monarchies are threatened, and colonial empires are competing globally. The Industrial Revolution is accelerating in Britain. The Americas are establishing new republics following independence movements.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1796-001",
+      "title": "Napoleon's Italian Campaign begins",
+      "region": "Northern Italy (Piedmont, Lombardy)",
+      "coordinates_approx": "45.5, 9.0",
+      "category": "military",
+      "description": "General Napoleon Bonaparte launches his first major military campaign, commanding the French Army of Italy against the Austro-Piedmontese alliance. Between April and November 1796, he executes a series of rapid maneuvers that separate the Austrian and Piedmontese armies, defeating them in detail at Montenotte, Lodi, and other engagements. This campaign establishes Napoleon's reputation as a military genius and results in the Treaty of Paris (May 1796) forcing Piedmont out of the war. The campaign demonstrates the effectiveness of concentrated force and rapid movement, reshaping European military doctrine.",
+      "key_figures": [
+        "Napoleon Bonaparte (French general)",
+        "Field Marshal Dagobert Sigmund von Wurmser (Austrian commander)",
+        "King Victor Amadeus III (Piedmont)"
+      ],
+      "sources": [
+        {
+          "name": "Napoleon's own dispatches and memoirs (M\u00e9morial de Sainte-H\u00e9l\u00e8ne)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Austrian military records and reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus in military histories (Chandler, Asprey, Markham)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in contemporary military records, dispatches, and later memoirs. Dates and outcomes are uncontested.",
+      "cross_references": [
+        "Follows from 1795-002 (French Directory's strategic planning)",
+        "Led to 1797-001 (Treaty of Campo Formio)"
+      ]
+    },
+    {
+      "id": "1796-002",
+      "title": "Edward Jenner's first smallpox vaccination",
+      "region": "Gloucestershire, England",
+      "coordinates_approx": "51.8, -2.2",
+      "category": "scientific",
+      "description": "On 14 May 1796, English physician Edward Jenner inoculates eight-year-old James Phipps with material from a cowpox pustule obtained from milkmaid Sarah Nelmes. Phipps develops a mild illness and subsequently proves immune to smallpox inoculation. This experiment, conducted on Jenner's farm near Berkeley, marks the birth of vaccination as a systematic medical practice. Jenner's work, published in 1798 as 'An Inquiry into the Causes and Effects of the Variolae Vaccinae,' provides the foundation for the global eradication of smallpox two centuries later.",
+      "key_figures": [
+        "Edward Jenner (physician)",
+        "James Phipps (subject, age 8)",
+        "Sarah Nelmes (milkmaid, source of cowpox material)"
+      ],
+      "sources": [
+        {
+          "name": "Jenner's own account and later publication 'An Inquiry into the Causes and Effects of the Variolae Vaccinae' (1798)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary medical correspondence and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Medical historiography and archival records at the Jenner Museum",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date of 14 May 1796 is well-established in Jenner's own records and subsequent publications. The experiment is one of the most thoroughly documented moments in medical history.",
+      "cross_references": [
+        "Led to 1798-001 (Publication of Jenner's findings)",
+        "Part of broader 18th-century medical innovation"
+      ]
+    },
+    {
+      "id": "1796-003",
+      "title": "British naval victory at Cape St. Vincent",
+      "region": "Off Cape St. Vincent, southwestern Spain",
+      "coordinates_approx": "37.0, -8.9",
+      "category": "military",
+      "description": "On 14 February 1796, a British fleet under Admiral Sir John Jervis defeats a larger Spanish fleet off Cape St. Vincent. The British, numbering 15 ships of the line, engage a Spanish fleet of 27 ships. Through superior tactics and seamanship, Jervis's fleet inflicts heavy casualties and captures four Spanish ships without losing any. The victory, achieved partly through the aggressive tactics of Commodore Nelson, boosts British naval morale during a period of naval strain and prevents Spanish reinforcement of French forces in the Mediterranean.",
+      "key_figures": [
+        "Admiral Sir John Jervis (British commander)",
+        "Commodore Horatio Nelson (British captain)",
+        "Admiral Jos\u00e9 de C\u00f3rdoba (Spanish commander)"
+      ],
+      "sources": [
+        {
+          "name": "British Admiralty records and official dispatches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Nelson's personal correspondence and accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Spanish naval records and later histories",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in British and Spanish naval records. The date and outcome are uncontested.",
+      "cross_references": [
+        "Part of broader Anglo-Spanish naval conflict (1796-1808)",
+        "Led to Nelson's rise to prominence"
+      ]
+    },
+    {
+      "id": "1796-004",
+      "title": "British occupation of the Cape of Good Hope",
+      "region": "Cape of Good Hope, South Africa",
+      "coordinates_approx": "-34.35, 18.5",
+      "category": "military",
+      "description": "In September 1796, a British naval and military expedition under Admiral Sir George Elphinstone and General James Henry Craig captures the Cape of Good Hope from the Dutch. The Dutch had held the Cape since 1652 as a crucial supply station on the route to Asia. The British, seeking to deny the French access to this strategic point and to secure their own eastern trade routes, conduct a brief campaign and occupy the settlement. The Cape remains under British control (with brief interruptions) until 1961, becoming a cornerstone of British imperial strategy in the Indian Ocean.",
+      "key_figures": [
+        "Admiral Sir George Elphinstone (British naval commander)",
+        "General James Henry Craig (British military commander)",
+        "General Jan Willem Janssens (Dutch commander)"
+      ],
+      "sources": [
+        {
+          "name": "British Admiralty and War Office records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Dutch East India Company (VOC) records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary military dispatches and reports",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Well-documented in British and Dutch records. The date and strategic significance are uncontested.",
+      "cross_references": [
+        "Part of broader British imperial expansion",
+        "Led to long-term British control of southern Africa"
+      ]
+    },
+    {
+      "id": "1796-005",
+      "title": "Whiskey Rebellion aftermath and consolidation of U.S. federal authority",
+      "region": "United States (primarily Pennsylvania)",
+      "coordinates_approx": "40.5, -77.0",
+      "category": "political",
+      "description": "By 1796, the aftermath of the Whiskey Rebellion (1794) has solidified federal authority in the young United States. The successful suppression of the rebellion by federal troops under President Washington demonstrated that the new federal government could enforce its laws and taxation. In 1796, this consolidation is reflected in the relative quiet on the frontier and the acceptance of federal excise taxes. The rebellion's suppression marks a turning point in American federalism, establishing the principle that the federal government, not state governments or local militias, holds ultimate coercive power.",
+      "key_figures": [
+        "President George Washington (U.S. President)",
+        "Alexander Hamilton (Secretary of Treasury, architect of the excise tax)",
+        "Henry Knox (Secretary of War)"
+      ],
+      "sources": [
+        {
+          "name": "Washington's official papers and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Federal military records and reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspapers and political writings",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The consolidation of federal authority following the rebellion is well-documented. 1796 marks the point at which the rebellion's lessons had been absorbed into American political practice.",
+      "cross_references": [
+        "Follows from 1794-001 (Whiskey Rebellion)",
+        "Part of broader development of U.S. federalism"
+      ]
+    },
+    {
+      "id": "1796-006",
+      "title": "George Washington's Farewell Address",
+      "region": "United States (Philadelphia, then New York)",
+      "coordinates_approx": "40.7, -74.0",
+      "category": "political",
+      "description": "On 17 September 1796, President George Washington publishes his Farewell Address, announcing his intention not to seek a third term and offering advice to the nation. The address, drafted with input from Alexander Hamilton and James Madison, warns against the dangers of political parties, sectionalism, and foreign entanglements. The phrase 'entangling alliances' becomes a cornerstone of American foreign policy for generations. Washington's voluntary relinquishment of power sets a precedent for peaceful transfer of executive authority and establishes the two-term tradition (later codified in the 22nd Amendment).",
+      "key_figures": [
+        "President George Washington",
+        "Alexander Hamilton (principal drafter)",
+        "James Madison (contributor)"
+      ],
+      "sources": [
+        {
+          "name": "The Farewell Address, published in newspapers and later compilations",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Washington's personal papers and correspondence with Hamilton and Madison",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary political commentary and newspapers",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date of publication (17 September 1796) is well-established. The text and its authorship are thoroughly documented.",
+      "cross_references": [
+        "Part of Washington's presidency (1789-1797)",
+        "Led to 1796-007 (Presidential election of 1796)"
+      ]
+    },
+    {
+      "id": "1796-007",
+      "title": "U.S. Presidential election of 1796",
+      "region": "United States",
+      "coordinates_approx": "39.8, -98.6",
+      "category": "political",
+      "description": "In the autumn of 1796, the United States holds its second presidential election. John Adams, the Federalist candidate and sitting Vice President, defeats Thomas Jefferson, the Democratic-Republican candidate. Adams receives 71 electoral votes to Jefferson's 68. The election marks the first contested presidential election and the first peaceful transfer of power from one political faction to another. Jefferson, as the runner-up, becomes Vice President under the electoral system then in place. The election reflects growing partisan divisions between Federalists (favoring strong central government and commercial interests) and Democratic-Republicans (favoring agrarian interests and state power).",
+      "key_figures": [
+        "John Adams (Federalist candidate, elected President)",
+        "Thomas Jefferson (Democratic-Republican candidate, elected Vice President)",
+        "Alexander Hamilton (Federalist strategist)",
+        "James Madison (Democratic-Republican strategist)"
+      ],
+      "sources": [
+        {
+          "name": "Electoral records and official returns",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspapers and political writings",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Personal correspondence of Adams, Jefferson, Hamilton, and Madison",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Electoral results and dates are thoroughly documented in official records and contemporary sources.",
+      "cross_references": [
+        "Follows from 1796-006 (Washington's Farewell Address)",
+        "Led to 1797-002 (Adams's presidency begins)"
+      ]
+    },
+    {
+      "id": "1796-008",
+      "title": "Russo-Turkish War: Russian advances in the Caucasus",
+      "region": "Caucasus region and Ottoman Empire",
+      "coordinates_approx": "43.0, 45.0",
+      "category": "military",
+      "description": "During 1796, Russian forces under General Grigory Potemkin's successors continue operations against the Ottoman Empire in the Caucasus and along the Black Sea. Russian expansion into the Caucasus, which had begun in the 1760s, accelerates. The Russians capture several Ottoman fortresses and extend their influence over the region. These campaigns are part of the broader Russo-Turkish Wars (1768-1774, 1787-1792, 1806-1812) and represent Russia's systematic expansion southward at Ottoman expense. By 1796, Russia has become the dominant power in the northern Caucasus.",
+      "key_figures": [
+        "Empress Catherine II (Russian ruler)",
+        "General Grigory Potemkin (deceased 1791, but his strategic legacy continues)",
+        "Ottoman Sultan Selim III"
+      ],
+      "sources": [
+        {
+          "name": "Russian military records and dispatches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ottoman administrative records (Ba\u015fbakanl\u0131k Osmanl\u0131 Ar\u015fivi)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary European diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad outlines of Russian-Ottoman conflict in 1796 are well-documented, though specific battles and dates may vary slightly in different sources. The strategic direction is clear.",
+      "cross_references": [
+        "Part of broader Russo-Turkish Wars (1768-1792, 1806-1812)",
+        "Led to Russian consolidation in the Caucasus"
+      ]
+    },
+    {
+      "id": "1796-009",
+      "title": "Tipu Sultan's death and fall of Mysore",
+      "region": "Mysore, southern India",
+      "coordinates_approx": "12.3, 76.6",
+      "category": "military",
+      "description": "On 4 May 1799 (not 1796, but the events leading to this outcome occur in 1796), Tipu Sultan, the ruler of Mysore, is killed in the Fourth Anglo-Mysore War. However, in 1796, Tipu is still actively resisting British expansion. The Fourth Anglo-Mysore War (1799) is preceded by years of tension and skirmishing. In 1796, Tipu is consolidating his power and attempting to modernize Mysore's military with French assistance. The eventual fall of Mysore in 1799 marks the end of Indian resistance to British expansion in southern India and the beginning of British dominance in the subcontinent.",
+      "key_figures": [
+        "Tipu Sultan (Ruler of Mysore)",
+        "Lord Wellesley (British Governor-General, arrived 1798)",
+        "Nizam of Hyderabad (British ally)"
+      ],
+      "sources": [
+        {
+          "name": "British East India Company records and military dispatches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Mysore court records and chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary European accounts and letters",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The events of 1796 are part of the lead-up to the Fourth Anglo-Mysore War (1799). The specific events of 1796 are less well-documented than the war itself, but the general trajectory is clear.",
+      "cross_references": [
+        "Led to 1799-001 (Fourth Anglo-Mysore War and Tipu Sultan's death)",
+        "Part of broader British expansion in India"
+      ]
+    },
+    {
+      "id": "1796-010",
+      "title": "Chinese Qing Dynasty: Qianlong Emperor's abdication",
+      "region": "China (Beijing)",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "In 1796, the Qianlong Emperor of the Qing Dynasty formally abdicates in favor of his son, the Jiaqing Emperor, though Qianlong retains significant power as the 'Retired Emperor' (Taishang Huang) until his death in 1799. The abdication is partly motivated by Qianlong's desire not to rule longer than his grandfather, the Kangxi Emperor. However, the transition marks the beginning of the Qing Dynasty's gradual decline. By 1796, the Qing has already begun to face internal challenges: the White Lotus Rebellion (1796-1804) erupts during this period, signaling growing social unrest and the weakening of central authority.",
+      "key_figures": [
+        "Qianlong Emperor (abdicating emperor)",
+        "Jiaqing Emperor (new emperor)",
+        "Heshen (powerful official and favorite of Qianlong)"
+      ],
+      "sources": [
+        {
+          "name": "Qing imperial records (Qing Shilu) and court documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese historical chronicles and official histories",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary European diplomatic reports from China",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The abdication of Qianlong in 1796 is well-documented in Qing imperial records. The date and circumstances are uncontested.",
+      "cross_references": [
+        "Part of Qing Dynasty history (1644-1912)",
+        "Led to 1796-011 (White Lotus Rebellion begins)"
+      ]
+    },
+    {
+      "id": "1796-011",
+      "title": "White Lotus Rebellion begins in China",
+      "region": "Central China (Hubei, Sichuan, Shaanxi provinces)",
+      "coordinates_approx": "31.0, 110.0",
+      "category": "military",
+      "description": "In 1796, the White Lotus Rebellion erupts in central China, beginning in Hubei Province and spreading to Sichuan and Shaanxi. The rebellion, led by members of the White Lotus sect (a syncretic Buddhist-Daoist religious movement), is motivated by economic hardship, resentment of Qing taxation, and messianic religious beliefs. The rebellion lasts until 1804 and represents one of the most serious challenges to Qing authority in the 18th century. The uprising demonstrates the weakening of Qing military effectiveness and the growing social instability that will characterize the 19th century. The rebellion is suppressed only with great difficulty and at considerable cost to the imperial treasury.",
+      "key_figures": [
+        "Jiaqing Emperor (Qing ruler during the rebellion)",
+        "Qianlong Emperor (Retired Emperor, still influential)",
+        "Wang Lun (early rebellion leader, executed 1774, but his followers continue)",
+        "Liu Song (rebellion leader)"
+      ],
+      "sources": [
+        {
+          "name": "Qing imperial records and military reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese historical chronicles and official histories",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Rebel proclamations and religious texts",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The beginning of the White Lotus Rebellion in 1796 is well-documented in Qing records. The date and initial spread are uncontested.",
+      "cross_references": [
+        "Follows from 1796-010 (Qianlong's abdication and transition of power)",
+        "Led to 1804-001 (Suppression of the White Lotus Rebellion)"
+      ]
+    },
+    {
+      "id": "1796-012",
+      "title": "Treaty of San Ildefonso between Spain and France",
+      "region": "Spain and France",
+      "coordinates_approx": "40.5, -3.5",
+      "category": "political",
+      "description": "On 19 August 1796, Spain and France sign the Treaty of San Ildefonso, a secret alliance directed against Britain. The treaty commits Spain to support France in its wars against Britain and provides for the mutual defense of their colonial possessions. The alliance is partly motivated by Spain's desire to recover Gibraltar and other territories lost to Britain. However, the alliance proves costly for Spain, as it leads to increased British naval attacks on Spanish shipping and colonies. The treaty represents a shift in Spanish foreign policy away from traditional alliances and toward dependence on France, a relationship that will dominate Spanish politics for the next two decades.",
+      "key_figures": [
+        "Manuel Godoy (Spanish Prime Minister)",
+        "King Charles IV (Spanish King)",
+        "French Directory representatives"
+      ],
+      "sources": [
+        {
+          "name": "Treaty text and official Spanish and French records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Spanish diplomatic correspondence and archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French diplomatic records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The treaty and its date are well-documented in Spanish and French archives. The terms and significance are uncontested.",
+      "cross_references": [
+        "Part of broader Franco-Spanish alliance (1796-1808)",
+        "Led to increased Anglo-Spanish naval conflict"
+      ]
+    },
+    {
+      "id": "1796-013",
+      "title": "Mungo Park's exploration of the Niger River",
+      "region": "West Africa (present-day Mali, Senegal, Guinea)",
+      "coordinates_approx": "10.0, -8.0",
+      "category": "exploration",
+      "description": "Scottish explorer Mungo Park, sponsored by the African Association, undertakes an expedition to explore the Niger River in West Africa. Park travels from the Gambia River inland, reaching the Niger River in July 1796 and following it downstream for several hundred miles. His journey provides the first detailed European account of the Niger's course and the interior of West Africa. Park's expedition is significant for European geographical knowledge of Africa, though it also marks the beginning of European penetration into the interior that will lead to colonization. Park's account, published in 1799 as 'Travels in the Interior Districts of Africa,' becomes influential in shaping European perceptions of Africa.",
+      "key_figures": [
+        "Mungo Park (Scottish explorer)",
+        "Ismail, King of Kasson (local ruler who assisted Park)",
+        "Joseph Renaud (French trader who provided information)"
+      ],
+      "sources": [
+        {
+          "name": "Mungo Park's journal and later published account 'Travels in the Interior Districts of Africa' (1799)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "African Association records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary European geographical and travel literature",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Park's expedition and the dates are well-documented in his journal and published account. The route and discoveries are uncontested.",
+      "cross_references": [
+        "Part of broader European exploration of Africa",
+        "Led to 1805-001 (Park's second expedition)"
+      ]
+    },
+    {
+      "id": "1796-014",
+      "title": "Russo-Persian War: Russian expansion in the Caucasus",
+      "region": "Caucasus and Persia (present-day Azerbaijan, Armenia)",
+      "coordinates_approx": "40.0, 47.0",
+      "category": "military",
+      "description": "In 1796, Russian forces under General Valerian Zubov conduct a campaign in the Caucasus and Persian territories, capturing the fortress of Derbent and advancing into present-day Azerbaijan. This campaign is part of Catherine II's broader strategy to expand Russian influence in the Caucasus and weaken Persian power. The campaign results in the temporary Russian occupation of several Persian territories, though these are largely abandoned after Catherine's death in 1796. The campaign demonstrates Russian military superiority in the region and sets the stage for the Russo-Persian Wars of the 19th century.",
+      "key_figures": [
+        "Empress Catherine II (Russian ruler, dies November 1796)",
+        "General Valerian Zubov (Russian military commander)",
+        "Fath Ali Shah Qajar (Persian ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Russian military records and dispatches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Persian administrative records and chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary European diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Russian campaign in 1796 is well-documented in Russian military records. The dates and outcomes are uncontested.",
+      "cross_references": [
+        "Part of broader Russian expansion in the Caucasus",
+        "Led to 1797-003 (Abandonment of Persian territories under Paul I)"
+      ]
+    },
+    {
+      "id": "1796-015",
+      "title": "Death of Empress Catherine II of Russia",
+      "region": "Russia (St. Petersburg)",
+      "coordinates_approx": "59.9, 30.3",
+      "category": "political",
+      "description": "On 17 November 1796 (5 November in the Julian calendar used in Russia), Empress Catherine II of Russia dies at age 67 after a reign of 34 years. She is succeeded by her son, Paul I, whose reign marks a sharp reversal of many of Catherine's policies. Catherine's death ends the era of enlightened absolutism in Russia and the period of Russian expansion under her rule. Paul I's accession leads to the abandonment of the Persian campaign, a reorientation of foreign policy, and significant domestic changes. Catherine's reign is remembered as a period of Russian cultural flourishing, territorial expansion, and the consolidation of serfdom.",
+      "key_figures": [
+        "Empress Catherine II (deceased)",
+        "Paul I (new Russian Emperor)",
+        "Grigory Orlov (former favorite, deceased 1783)",
+        "Grigory Potemkin (former favorite, deceased 1791)"
+      ],
+      "sources": [
+        {
+          "name": "Russian court records and official announcements",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary European diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Russian historical chronicles and memoirs",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date of Catherine's death is well-established in Russian records. The date varies between the Julian calendar (5 November) and the Gregorian calendar (17 November) used in Western Europe.",
+      "cross_references": [
+        "Ends Catherine II's reign (1762-1796)",
+        "Led to 1797-003 (Paul I's reign begins)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Several events listed above have contested elements: (1) Napoleon's Italian Campaign is sometimes dated as beginning in April 1796, but some sources place initial operations in March 1796. The significance attributed to the campaign as establishing Napoleon's reputation is generally accepted, but some historians argue that his later Egyptian campaign (1798-1799) was equally or more significant in shaping European perceptions. (2) Jenner's vaccination experiment is sometimes cited as occurring in 1796, but some sources place the first successful vaccination in May 1796 and subsequent confirmatory experiments in 1797-1798. The exact date of the first vaccination (14 May 1796) is well-established, but the significance attributed to it as the 'birth of vaccination' is somewhat anachronistic\u2014variolation (inoculation with smallpox material) had been practiced for centuries. (3) The White Lotus Rebellion is sometimes dated as beginning in 1795 rather than 1796, with different sources citing different initial uprisings. The rebellion was not a single coordinated event but a series of uprisings that coalesced over time. (4) Tipu Sultan's resistance to British expansion is well-documented, but the attribution of his eventual fall to 1796 events is somewhat speculative\u2014the Fourth Anglo-Mysore War did not begin until 1799. (5) The Treaty of San Ildefonso is sometimes cited as a secret treaty, but the extent of its secrecy and the precise terms are debated by historians. Some sources suggest that Britain was aware of the treaty's existence, if not its full terms.",
+  "historiographic_note": "The historical record for 1796 is rich and well-documented, particularly for Europe and the Americas. European sources (British, French, Spanish, Russian) are abundant and detailed. Asian sources (Chinese, Persian, Indian) are also available but are often filtered through European interpretations and colonial-era scholarship. African sources are sparse, with most information about Mungo Park's expedition coming from his own account rather than from African perspectives. The surviving sources are heavily weighted toward political and military events; economic, social, and cultural history are less well-represented. There is a significant bias toward 'great men' and elite decision-makers; the experiences of ordinary people, enslaved persons, and marginalized groups are largely absent from the historical record. Colonial-era scholarship on India and Africa often reflects European assumptions about 'progress' and 'civilization' that modern historians have critiqued. The sources for 1796 are generally reliable, but they reflect the perspectives and biases of their authors and the societies that produced them.",
+  "graph_edges": [
+    {
+      "from": "1796-001",
+      "to": "1797-001",
+      "relation": "led_to",
+      "note": "Napoleon's Italian Campaign led directly to the Treaty of Campo Formio in 1797"
+    },
+    {
+      "from": "1796-002",
+      "to": "1798-001",
+      "relation": "led_to",
+      "note": "Jenner's vaccination experiment led to the publication of his findings in 1798"
+    },
+    {
+      "from": "1796-006",
+      "to": "1796-007",
+      "relation": "led_to",
+      "note": "Washington's Farewell Address directly preceded the 1796 presidential election"
+    },
+    {
+      "from": "1796-010",
+      "to": "1796-011",
+      "relation": "led_to",
+      "note": "Qianlong's abdication and the transition of power contributed to the conditions that sparked the White Lotus Rebellion"
+    },
+    {
+      "from": "1796-015",
+      "to": "1797-003",
+      "relation": "led_to",
+      "note": "Catherine II's death led to Paul I's accession and a reversal of Russian foreign policy"
+    },
+    {
+      "from": "1796-012",
+      "to": "1808-001",
+      "relation": "led_to",
+      "note": "The Treaty of San Ildefonso established the Franco-Spanish alliance that would lead to the Peninsular War in 1808"
+    }
+  ]
+}

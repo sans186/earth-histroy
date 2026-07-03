@@ -1,0 +1,154 @@
+{
+  "year": 986,
+  "year_label": "986 CE",
+  "era_context": "The late 10th century CE, a period of fragmentation and consolidation across Eurasia. The Byzantine Empire under the Macedonian dynasty was at its height militarily and culturally. The Holy Roman Empire was consolidating under the Ottonian dynasty. In East Asia, the Northern Song dynasty had recently unified much of China (979 CE). The Islamic world was divided among competing caliphates and regional powers. In Scandinavia and Eastern Europe, Christianity was spreading and state formation was accelerating.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Pre-Columbian Americas (no written records; archaeological evidence sparse for specific years)",
+    "Central Asian nomadic peoples (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "986-001",
+      "title": "Christianization of Kievan Rus under Vladimir I",
+      "region": "Kievan Rus (modern Ukraine, western Russia)",
+      "coordinates_approx": "50.45, 30.52",
+      "category": "religious",
+      "description": "Prince Vladimir I of Kiev formally adopted Orthodox Christianity, reportedly after sending envoys to investigate various faiths. This decision, traditionally dated to 988 but with some sources placing key events in 986, marked the beginning of mass conversion of the Rus' population and established the Orthodox Christian tradition that would define Eastern European and Russian religious identity for centuries. The conversion was politically motivated\u2014strengthening ties with the Byzantine Empire and consolidating princely authority\u2014but had profound civilizational consequences, linking Kievan Rus to Byzantine cultural and ecclesiastical spheres rather than Western Christendom.",
+      "key_figures": [
+        "Vladimir I (Prince of Kiev)",
+        "Photius (Byzantine patriarch, traditional account)"
+      ],
+      "sources": [
+        {
+          "name": "Primary Chronicle (Povest vremennykh let), compiled 12th century",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine chronicles and hagiographies",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The conversion process occurred over several years; 988 is the traditional date, but 986 appears in some source traditions as the beginning of negotiations or preliminary events. The exact chronology is uncertain due to reliance on later compilations.",
+      "cross_references": [
+        "Related to 988-001 (formal baptism date in many sources)"
+      ]
+    },
+    {
+      "id": "986-002",
+      "title": "Byzantine-Rus' military alliance and marriage negotiation",
+      "region": "Byzantine Empire and Kievan Rus",
+      "coordinates_approx": "41.0, 28.98",
+      "category": "political",
+      "description": "As part of the Christianization process, Vladimir I negotiated a military alliance with Byzantine Emperor Basil II, reportedly agreeing to provide military support (the famous Varangian Guard) in exchange for the hand of Basil's sister Anna in marriage. This diplomatic arrangement formalized the political and religious bond between Kievan Rus and the Byzantine Empire, elevating Vladimir's status and legitimizing his rule through imperial connection. The marriage alliance was unprecedented\u2014a Byzantine princess marrying a foreign prince\u2014and signaled Byzantine recognition of Kievan Rus as a major regional power.",
+      "key_figures": [
+        "Vladimir I (Prince of Kiev)",
+        "Basil II (Byzantine Emperor)",
+        "Anna Porphyrogenneta (Byzantine princess, traditional account)"
+      ],
+      "sources": [
+        {
+          "name": "Primary Chronicle",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Constantine VII Porphyrogennetus, De Administrando Imperio (earlier period, but context)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The marriage is traditionally dated to 988\u2013989, but negotiations likely began in 986. The exact sequence and dating of diplomatic exchanges is uncertain.",
+      "cross_references": []
+    },
+    {
+      "id": "986-003",
+      "title": "Ethelred II becomes King of England",
+      "region": "England",
+      "coordinates_approx": "52.5, -1.5",
+      "category": "political",
+      "description": "Ethelred II (later known as 'the Unready,' from Old English 'unr\u00e6d' meaning 'poorly advised') became King of England following the murder of his half-brother Edward the Martyr at Corfe Castle in 978 CE. By 986, Ethelred's reign was well established, though marked by increasing Viking raids and internal instability. His reign would be characterized by costly tribute payments (Danegeld) to Viking raiders, military failures, and ecclesiastical reform efforts. The murder of Edward remained a source of political instability and ecclesiastical controversy throughout Ethelred's reign.",
+      "key_figures": [
+        "Ethelred II (King of England)",
+        "\u00c6lfthryth (Queen Mother, regent influence)"
+      ],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "\u00c6thelred's charters and writs",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ethelred's accession is well-documented in contemporary English sources. The year 986 falls within his established reign.",
+      "cross_references": [
+        "978-001 (murder of Edward the Martyr)"
+      ]
+    },
+    {
+      "id": "986-004",
+      "title": "Continued Viking raids on England and coastal Europe",
+      "region": "England, Normandy, coastal Western Europe",
+      "coordinates_approx": "51.5, 0.0",
+      "category": "military",
+      "description": "The 980s saw intensified Viking raiding across Western Europe, particularly targeting England under the weakened rule of Ethelred II. Scandinavian raiders, often operating from bases in Normandy or Denmark, conducted annual campaigns seeking tribute and plunder. These raids were not conquest attempts but rather systematic extortion, leading to the establishment of the Danegeld system\u2014annual payments to buy off attackers. The raids destabilized English governance, drained the royal treasury, and contributed to the eventual Norman conquest of England in 1066.",
+      "key_figures": [
+        "Sweyn I Forkbeard (Danish king, leading raids)",
+        "Ethelred II (English king, paying tribute)"
+      ],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Scandinavian sagas (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Viking raids in this period are well-documented in English chronicles. Specific raids in 986 are attested.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Ethelred II as uniformly weak and ineffectual has been revised by modern scholarship, which recognizes periods of effective governance and military response. The characterization 'the Unready' is a modern interpretation of a nickname that may have had different connotations in its original context. Regarding the Christianization of Rus', some scholars argue that the process was more gradual and less dramatic than the Primary Chronicle suggests, with pagan practices persisting for centuries in rural areas.",
+  "historiographic_note": "Documentation for 986 CE is uneven. English and Byzantine sources are relatively rich and contemporary. Information about Kievan Rus comes primarily from the Primary Chronicle, compiled over a century later and shaped by ecclesiastical and princely interests. Scandinavian sources are largely saga traditions recorded centuries after events. The historical record privileges literate, centralized polities and underrepresents non-literate societies, nomadic peoples, and regions without strong documentary traditions.",
+  "graph_edges": [
+    {
+      "from": "986-001",
+      "to": "988-001",
+      "relation": "led_to",
+      "note": "Christianization process culminated in formal baptism and mass conversion"
+    },
+    {
+      "from": "986-002",
+      "to": "1000-001",
+      "relation": "led_to",
+      "note": "Byzantine-Rus alliance shaped Eastern European geopolitics for centuries"
+    },
+    {
+      "from": "986-003",
+      "to": "1016-001",
+      "relation": "part_of",
+      "note": "Ethelred's reign continued until 1016, marked by Viking pressure"
+    },
+    {
+      "from": "986-004",
+      "to": "1066-001",
+      "relation": "led_to",
+      "note": "Scandinavian pressure on England contributed to Norman conquest"
+    }
+  ]
+}

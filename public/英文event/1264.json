@@ -1,0 +1,218 @@
+{
+  "year": 1264,
+  "year_label": "1264 CE",
+  "era_context": "The High Middle Ages; the Second Barons' War in England at its height; the Mongol civil war between Kublai Khan and Ariq B\u00f6ke; the Mamluk Sultanate under Baibars consolidating power after Ain Jalut; the Reconquista advancing in Iberia; the Papacy in conflict with secular rulers.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written documentation)",
+    "Southeast Asia (sparse European sources; local records underrepresented)",
+    "Pre-Columbian Americas (no written records in European tradition)",
+    "Central Asia and the Steppe (limited documentation outside Mongol administrative records)"
+  ],
+  "events": [
+    {
+      "id": "1264-001",
+      "title": "Battle of Lewes",
+      "region": "England, Sussex",
+      "coordinates_approx": "50.87, 0.02",
+      "category": "military",
+      "description": "In the Second Barons' War, baronial forces led by Simon de Montfort, Earl of Leicester, defeated King Henry III of England at the Battle of Lewes. This was a major baronial victory that temporarily shifted power away from the crown. Following the battle, Simon de Montfort established a form of baronial government and convened what is sometimes considered an early parliament (the Parliament of 1265), which included representatives from towns and shires alongside nobles. The battle represented a significant moment in English constitutional development, though the baronial victory would be reversed at Evesham in 1265.",
+      "key_figures": [
+        "Simon de Montfort, Earl of Leicester (baronial leader)",
+        "Henry III of England (King)",
+        "Edward, Prince of Wales (Henry's son, captured in battle)"
+      ],
+      "sources": [
+        {
+          "name": "Chronicle of William of Rishanger",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Annals of Dunstable",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Royal administrative records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Battle of Lewes is one of the best-documented events of 13th-century England. The date (14 May 1264) is firmly established in multiple contemporary sources.",
+      "cross_references": [
+        "1265-001 (Battle of Evesham, reversing baronial gains)",
+        "Part of broader English constitutional development"
+      ]
+    },
+    {
+      "id": "1264-002",
+      "title": "Ariq B\u00f6ke's Defeat in Mongol Civil War",
+      "region": "Mongol Empire, Central Asia",
+      "coordinates_approx": "47.92, 106.88",
+      "category": "military",
+      "description": "The Mongol civil war between Kublai Khan and his brother Ariq B\u00f6ke, which had begun in 1260, reached a critical point in 1264. Ariq B\u00f6ke was defeated militarily and politically by Kublai Khan's forces. Ariq B\u00f6ke's death occurred in 1264 or 1265 (sources vary), effectively ending the succession dispute. This victory consolidated Kublai Khan's authority over the eastern Mongol territories and enabled him to establish the Yuan Dynasty as the primary Mongol power, though his authority over the western khanates remained contested.",
+      "key_figures": [
+        "Kublai Khan (Great Khan)",
+        "Ariq B\u00f6ke (rival claimant)"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shi (Official History of the Yuan Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Jami' al-tawarikh (Compendium of Chronicles, Rashid al-Din)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Mongol succession",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The defeat of Ariq B\u00f6ke in 1264 is established in historiographic consensus, but the exact dating varies between sources. Some sources place his death in 1264, others in 1265 or 1266. The year 1264 marks the military conclusion of the conflict.",
+      "cross_references": [
+        "1260-002 (Start of Mongol civil war)",
+        "1265-003 (Final consolidation of Kublai Khan's authority)"
+      ]
+    },
+    {
+      "id": "1264-003",
+      "title": "Urban IV's Death and Papal Succession Crisis",
+      "region": "Papal States, Rome",
+      "coordinates_approx": "41.90, 12.45",
+      "category": "religious",
+      "description": "Pope Urban IV died on 2 October 1264, creating a succession crisis in the Papacy. Urban IV had been a strong supporter of Charles of Anjou against the Hohenstaufen dynasty in Italy. His death left the Papacy without a leader during a critical period of Italian political conflict. The papal see remained vacant for several months until the election of Clement IV in November 1265. This interregnum created uncertainty in papal policy and European political alignments.",
+      "key_figures": [
+        "Urban IV (Pope, died)",
+        "Cardinals of the Papal College (electors)"
+      ],
+      "sources": [
+        {
+          "name": "Papal registers and administrative records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Liber Pontificalis (papal chronicle)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary chronicles (Salimbene, Villani)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Urban IV's death is precisely dated (2 October 1264) in papal records and contemporary chronicles. The succession crisis and interregnum are well-documented.",
+      "cross_references": [
+        "1265-002 (Election of Clement IV)",
+        "1266-001 (Battle of Benevento, supported by Clement IV)"
+      ]
+    },
+    {
+      "id": "1264-004",
+      "title": "Baibars' Consolidation of Mamluk Control in Egypt and the Levant",
+      "region": "Mamluk Sultanate, Egypt, Syria, Palestine",
+      "coordinates_approx": "30.04, 31.24",
+      "category": "political",
+      "description": "Sultan Baibars al-Bunduqdari, who had ruled since 1260, continued his military and administrative reforms to strengthen Mamluk control over Egypt and the Levant. By 1264, he had consolidated power after his victory over the Mongols at Ain Jalut (1260) and was systematically reducing Crusader strongholds in the region. Baibars' reign saw the restoration of the Abbasid Caliphate in Cairo (in symbolic form) and the establishment of the Mamluk Sultanate as the dominant power in the eastern Mediterranean.",
+      "key_figures": [
+        "Baibars al-Bunduqdari (Mamluk Sultan)",
+        "Abbasid Caliph al-Mustansir II (restored to Cairo)"
+      ],
+      "sources": [
+        {
+          "name": "Mamluk administrative records and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Ibn al-Athir and later Arab historians",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Mamluk consolidation",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Baibars' reign and general policies are well-documented, but specific events in 1264 are less precisely dated in surviving sources. The year falls within his consolidation period (1260\u20131277).",
+      "cross_references": [
+        "1260-001 (Battle of Ain Jalut)",
+        "1265-004 (Siege of Caesarea by Baibars)"
+      ]
+    },
+    {
+      "id": "1264-005",
+      "title": "Alfonso X of Castile's Continued Reconquista and Cultural Patronage",
+      "region": "Kingdom of Castile, Iberia",
+      "coordinates_approx": "40.27, -3.75",
+      "category": "cultural",
+      "description": "Alfonso X of Castile, known as 'El Sabio' (the Wise), continued his military campaigns against Islamic Granada and other Muslim territories in Iberia, while also serving as a major patron of learning and culture. By 1264, he had commissioned numerous translations and compilations of knowledge, including the Estoria de Espanya (History of Spain) and works on law and science. His reign represented a synthesis of Christian, Muslim, and Jewish intellectual traditions in medieval Iberia, and his cultural patronage had lasting influence on European learning.",
+      "key_figures": [
+        "Alfonso X of Castile (King)",
+        "Scholars and translators at Alfonso's court"
+      ],
+      "sources": [
+        {
+          "name": "Cr\u00f3nica de Alfonso X (Royal chronicle)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Estoria de Espanya and other works commissioned by Alfonso",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Alfonso X",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Alfonso X's cultural patronage and intellectual activities are well-documented in surviving works and chronicles. His reign (1252\u20131284) is one of the best-documented periods of medieval Iberian history.",
+      "cross_references": [
+        "Part of broader Reconquista narrative",
+        "Related to medieval intellectual synthesis in Iberia"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Battle of Lewes is sometimes presented as a decisive baronial victory that fundamentally shifted English governance; however, the baronial government established after Lewes was unstable and short-lived, lasting only about a year before being reversed at Evesham. The significance of the 'Parliament of 1265' is sometimes overstated; while it did include representatives from towns and shires, it was primarily a tool of baronial power rather than a genuine constitutional innovation. Ariq B\u00f6ke's defeat is sometimes presented as a clear-cut military victory; however, the Mongol civil war involved complex political negotiations and alliances, and the exact nature of Ariq B\u00f6ke's death (whether from military defeat, starvation, or other causes) is debated in sources. Urban IV's death is sometimes portrayed as a sudden crisis; however, his health had been declining, and the papal succession process, while creating some uncertainty, was not unprecedented. Alfonso X's cultural patronage is sometimes romanticized as a uniquely enlightened synthesis of cultures; however, his reign also saw significant religious tensions and conflicts with both Muslim and Jewish communities.",
+  "historiographic_note": "Documentation for 1264 is good for European events (England, Papacy, Iberia) due to abundant contemporary chronicles and administrative records. Mongol sources are primarily later compilations (Yuan Shi, Jami' al-tawarikh) and reflect editorial perspectives of later dynasties. Mamluk sources are available but often less precise about specific dates within a year. The historical record is heavily weighted toward political, military, and religious events; economic and social developments are underrepresented. Non-European regions (Africa, Southeast Asia, the Americas) are essentially absent from surviving written sources for this year. The Second Barons' War is exceptionally well-documented due to the abundance of English administrative records and chronicles.",
+  "graph_edges": [
+    {
+      "from": "1264-001",
+      "to": "1265-001",
+      "relation": "led_to",
+      "note": "Baronial victory at Lewes was reversed by royal victory at Evesham in 1265"
+    },
+    {
+      "from": "1264-002",
+      "to": "1265-003",
+      "relation": "led_to",
+      "note": "Ariq B\u00f6ke's defeat enabled Kublai Khan's consolidation of Yuan Dynasty authority"
+    },
+    {
+      "from": "1264-003",
+      "to": "1265-002",
+      "relation": "led_to",
+      "note": "Urban IV's death created interregnum that ended with Clement IV's election"
+    },
+    {
+      "from": "1264-004",
+      "to": "1265-004",
+      "relation": "led_to",
+      "note": "Baibars' consolidation of power enabled continued campaigns against Crusaders"
+    }
+  ]
+}

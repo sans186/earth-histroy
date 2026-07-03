@@ -1,0 +1,126 @@
+{
+  "year": 910,
+  "year_label": "910 CE",
+  "era_context": "The early 10th century continues the fragmentation of the Abbasid Caliphate and the rise of regional Islamic dynasties. In Europe, the post-Carolingian kingdoms are consolidating; the Viking Age is transitioning from raiding to settlement. In China, the Five Dynasties and Ten Kingdoms period is in its early phase. In Mesoamerica, the Toltec civilization is in its formative stages.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (very limited written sources)",
+    "Southeast Asia (sparse contemporary documentation)",
+    "South Asia (limited sources for this specific year)",
+    "Oceania and Pacific islands"
+  ],
+  "events": [
+    {
+      "id": "910-001",
+      "title": "Foundation of Cluny Abbey",
+      "region": "Burgundy (modern France)",
+      "coordinates_approx": "46.43, 4.66",
+      "category": "religious",
+      "description": "William I, Duke of Aquitaine, founds the Benedictine monastery of Cluny in Burgundy. Cluny becomes one of the most influential religious institutions of the medieval period, pioneering monastic reform and establishing a network of affiliated monasteries across Europe. The abbey's emphasis on liturgical precision, independence from secular control, and spiritual renewal makes it a catalyst for the broader Cluniac Reform movement that will reshape medieval Christianity over the next two centuries. The foundation in 910 marks the beginning of one of medieval Europe's most significant religious movements.",
+      "key_figures": [
+        "William I, Duke of Aquitaine (founder)",
+        "Berno of Cluny (first abbot)"
+      ],
+      "sources": [
+        {
+          "name": "Charter of Foundation (contemporary primary document)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Monastic chronicles and later Cluniac histories",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The foundation of Cluny in 910 is attested by the original charter and confirmed by multiple contemporary and near-contemporary sources. The date is secure.",
+      "cross_references": [
+        "Precedes the Cluniac Reform movement of the 10th\u201311th centuries",
+        "Related to broader monastic reform movements in medieval Europe"
+      ]
+    },
+    {
+      "id": "910-002",
+      "title": "Battle of Tettenhall: English victory against Viking raiders",
+      "region": "Mercia (modern England)",
+      "coordinates_approx": "52.58, -2.13",
+      "category": "military",
+      "description": "King Edward the Elder of Wessex and his ally \u00c6thelred of Mercia defeat a major Viking force at Tettenhall in the Midlands. The victory is significant in the context of the English reconquest of the Danelaw\u2014the territory in northern and eastern England that had been settled by Vikings. This battle marks a turning point in the long conflict between English and Viking forces, contributing to the gradual consolidation of English royal power and the reduction of Viking territorial holdings in England.",
+      "key_figures": [
+        "Edward the Elder (King of Wessex)",
+        "\u00c6thelred of Mercia (ealdorman, ally of Edward)"
+      ],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle (near-contemporary compilation)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Later English chronicles and historiographic consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Battle of Tettenhall is attested in the Anglo-Saxon Chronicle, though the exact date (910 vs. 911) is debated by modern scholars. The battle's significance in the context of English expansion is clear, but some details are uncertain.",
+      "cross_references": [
+        "Part of Edward the Elder's broader campaign to reconquer the Danelaw",
+        "Precedes the Treaty of Wedmore (920) and further English expansion"
+      ]
+    },
+    {
+      "id": "910-003",
+      "title": "Abbasid Caliphate faces internal fragmentation and regional challenges",
+      "region": "Islamic Caliphate (centered in Baghdad, but with fragmenting authority)",
+      "coordinates_approx": "33.31, 44.36",
+      "category": "political",
+      "description": "By 910 CE, the Abbasid Caliphate's authority is severely fragmented. Regional dynasties\u2014including the Fatimids in North Africa, the Ikhshidids in Egypt, the Hamdanids in Syria and Mesopotamia, and the Samanids in Central Asia\u2014exercise de facto independence while nominally recognizing Abbasid suzerainty. The caliph in Baghdad controls little beyond the immediate vicinity of the capital. This fragmentation reflects the broader collapse of centralized Islamic authority and the rise of regional powers that will define the political landscape of the Islamic world for centuries.",
+      "key_figures": [
+        "Al-Muqtafi (Abbasid Caliph, r. 902\u2013908)",
+        "Al-Muktafi (Abbasid Caliph, r. 908\u2013932)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Mas'udi, Meadows of Gold (written mid-10th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Abbasid decline",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The fragmentation of the Abbasid Caliphate is well-attested in later Islamic historiography, though specific events in 910 are not always clearly documented. The broader trend is certain; specific details for this year are less so.",
+      "cross_references": [
+        "Part of the broader Abbasid decline that began in the 9th century",
+        "Contemporary with the rise of the Fatimid Caliphate and other regional dynasties"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The date of the Battle of Tettenhall is disputed: some sources place it in 911 or 912 rather than 910. The exact composition of the Viking force and the scale of the battle are uncertain. The significance of the battle in the broader context of English expansion is sometimes overstated in popular accounts; it was one of several engagements rather than a decisive turning point.",
+  "historiographic_note": "The historical record for 910 CE is moderate in quality. Western European events (the foundation of Cluny, the Battle of Tettenhall) are well-attested in near-contemporary sources, though with some dating ambiguities. Islamic sources for the Abbasid fragmentation are later compilations. Eastern European, Asian, and African sources are sparse or absent from Western historiographic tradition. The surviving record reflects the geographic distribution of literate, record-keeping societies\u2014heavily weighted toward Christian Europe and the Islamic Mediterranean.",
+  "graph_edges": [
+    {
+      "from": "910-001",
+      "to": "1000-CLUNIAC_REFORM_PEAK",
+      "relation": "led_to",
+      "note": "The foundation of Cluny in 910 initiated the Cluniac Reform movement that reached its height in the 11th century"
+    },
+    {
+      "from": "910-002",
+      "to": "920-TREATY_WEDMORE",
+      "relation": "part_of",
+      "note": "The Battle of Tettenhall was part of Edward the Elder's broader campaign to reconquer the Danelaw"
+    },
+    {
+      "from": "910-003",
+      "to": "909-FATIMID_FOUNDING",
+      "relation": "contemporary_with",
+      "note": "The Abbasid fragmentation was contemporary with the founding of the Fatimid Caliphate as a rival power"
+    }
+  ]
+}

@@ -1,0 +1,621 @@
+{
+  "year": 1976,
+  "year_label": "1976 CE",
+  "era_context": "The Cold War was in its third decade, with d\u00e9tente between the US and USSR showing signs of strain. The post-colonial world was consolidating: newly independent nations in Africa and Asia were establishing state institutions. The Vietnam War had ended in 1975; its aftermath dominated regional politics. Western economies were recovering from the 1973 oil crisis and stagflation. The digital revolution was nascent: personal computers were emerging, but mainframes and minicomputers dominated computing.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1976-001",
+      "title": "Soweto Uprising begins in South Africa",
+      "region": "South Africa (Soweto, Johannesburg)",
+      "coordinates_approx": "-26.27, 27.86",
+      "category": "political",
+      "description": "On 16 June 1976, students in Soweto (South Western Townships) protested against the Bantu Education Act's requirement to teach in Afrikaans, a language associated with white minority rule. The protest escalated into violent clashes with police; at least 176 people were killed (estimates range to 600+). The uprising catalysed the anti-apartheid movement, drawing international attention and triggering a wave of strikes, boycotts, and resistance across South Africa that would intensify through the 1980s.",
+      "key_figures": [
+        "Hector Pieterson (student, killed)",
+        "Steve Biko (Black Consciousness Movement leader, imprisoned)",
+        "Thabo Mbeki (ANC activist, later president)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary news reports (BBC, Reuters, AP)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "South African Police records and government inquiries",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Soweto: A History (Clive Glaser, 2016) and Truth and Reconciliation Commission testimony",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in contemporary media and official records. Date and basic facts are uncontested; casualty figures vary by source.",
+      "cross_references": [
+        "Follows from 1973-002 (Yom Kippur War and oil crisis, which destabilised South African economy)",
+        "Led to 1977-001 (death of Steve Biko in police custody)"
+      ]
+    },
+    {
+      "id": "1976-002",
+      "title": "Tangshan earthquake in China",
+      "region": "China (Tangshan, Hebei Province)",
+      "coordinates_approx": "39.63, 118.18",
+      "category": "environmental",
+      "description": "On 28 July 1976, a magnitude 7.5 earthquake struck Tangshan, an industrial city of ~1 million people. Official Chinese casualty figures reported 242,000 deaths; international estimates ranged from 240,000 to 655,000, making it one of the deadliest earthquakes in recorded history. The city was almost entirely destroyed. The disaster occurred during the final illness of Mao Zedong (who died 9 September 1976) and was interpreted by some as an ill omen for the transition of power.",
+      "key_figures": [
+        "Mao Zedong (Chinese Communist Party chairman, died weeks later)",
+        "Hua Guofeng (vice chairman, would succeed Mao)"
+      ],
+      "sources": [
+        {
+          "name": "China Earthquake Administration and seismic records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary international news (Reuters, AP, UPI)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "The Great Tangshan Earthquake of 1976 (USGS and Chinese Academy of Sciences joint studies)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Seismic data, casualty records, and eyewitness accounts are well-documented. Casualty figures remain debated; official Chinese figures are lower than international estimates.",
+      "cross_references": [
+        "Coincides with 1976-003 (death of Mao Zedong, 9 September)"
+      ]
+    },
+    {
+      "id": "1976-003",
+      "title": "Death of Mao Zedong; succession crisis in China",
+      "region": "China (Beijing)",
+      "coordinates_approx": "39.90, 116.41",
+      "category": "political",
+      "description": "Mao Zedong died on 9 September 1976 after a prolonged illness. His death triggered a succession struggle between the radical 'Gang of Four' (led by Jiang Qing, Mao's widow) and pragmatists led by Deng Xiaoping and Hua Guofeng. Within weeks, Hua Guofeng consolidated power and arrested the Gang of Four (6 October 1976), effectively ending the Cultural Revolution era. This marked the beginning of China's shift toward economic reform and opening to the West.",
+      "key_figures": [
+        "Mao Zedong (died)",
+        "Hua Guofeng (succeeded as chairman)",
+        "Deng Xiaoping (pragmatist faction, purged but would return to power)",
+        "Jiang Qing (Mao's widow, arrested)",
+        "The Gang of Four (Zhang Chunqiao, Yao Wenyuan, Wang Hongwen, Jiang Qing)"
+      ],
+      "sources": [
+        {
+          "name": "Chinese Communist Party official announcements and Xinhua News Agency",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary international news coverage",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "The Chinese Communist Party: A History (Tony Saich, 2021); Deng Xiaoping and the Transformation of China (Ezra Vogel, 2011)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Dates and basic facts are uncontested. The political significance and long-term consequences are well-established.",
+      "cross_references": [
+        "Follows from 1966-001 (Cultural Revolution began)",
+        "Led to 1978-001 (Third Plenum, Deng's return and reform agenda)"
+      ]
+    },
+    {
+      "id": "1976-004",
+      "title": "Entebbe raid: Israeli commando operation in Uganda",
+      "region": "Uganda (Entebbe Airport)",
+      "coordinates_approx": "0.04, 33.00",
+      "category": "military",
+      "description": "On 3\u20134 July 1976, Israeli commandos conducted a daring raid on Entebbe Airport in Uganda to rescue 103 hostages held by Palestinian and German hijackers who had seized Air France Flight 139 on 27 June. The operation, codenamed 'Operation Thunderbolt,' killed the hijackers and Ugandan soldiers but resulted in the death of one Israeli commando (Yonatan Netanyahu) and one hostage. The raid was celebrated in Israel as a triumph of military ingenuity and became a defining moment in Israeli security doctrine.",
+      "key_figures": [
+        "Yonatan Netanyahu (Israeli commando, killed)",
+        "Idi Amin (Ugandan dictator, allowed hijackers to use airport)",
+        "Wilfried B\u00f6se and Brigitte Kuhlmann (German hijackers, killed)"
+      ],
+      "sources": [
+        {
+          "name": "Israeli Defence Force official reports and declassified documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news coverage (AP, Reuters, BBC)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Raid on Entebbe (William Stevenson, 1976); Entebbe: The Raid (Iddo Netanyahu, 1991)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in contemporary sources and official records. Tactical details and casualty figures are well-established.",
+      "cross_references": [
+        "Part of broader Israeli-Palestinian conflict (ongoing since 1948)"
+      ]
+    },
+    {
+      "id": "1976-005",
+      "title": "Concorde supersonic airliner enters commercial service",
+      "region": "United Kingdom and France (London and Paris)",
+      "coordinates_approx": "51.47, -0.46 (London); 48.86, 2.55 (Paris)",
+      "category": "technological",
+      "description": "The Concorde, a joint British-French supersonic passenger aircraft, entered regular commercial service on 21 January 1976 (Air France) and 21 May 1976 (British Airways). The aircraft could cruise at Mach 2.04 (twice the speed of sound), reducing transatlantic flight time to ~3.5 hours. Despite technological achievement, the Concorde remained economically marginal due to high fuel costs, noise restrictions, and limited passenger demand. It became a symbol of Cold War technological competition and European cooperation.",
+      "key_figures": [
+        "Andr\u00e9 Turcat (Concorde test pilot)",
+        "Brian Trubshaw (British test pilot)"
+      ],
+      "sources": [
+        {
+          "name": "British Airways and Air France official records and press releases",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary aviation and technology press",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Concorde: The Rise and Fall of the Supersonic Airliner (Clive Irving, 2010)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Dates and technical specifications are uncontested. Commercial significance and economic viability are well-documented.",
+      "cross_references": [
+        "Part of broader post-WWII technological competition between Western powers"
+      ]
+    },
+    {
+      "id": "1976-006",
+      "title": "Viking 1 lands on Mars",
+      "region": "Mars (Chryse Planitia)",
+      "coordinates_approx": "22.27, -49.97",
+      "category": "exploration",
+      "description": "On 20 July 1976, NASA's Viking 1 lander touched down on Mars, becoming the first spacecraft to successfully land on the planet and transmit data from the surface. The lander conducted soil analysis, took photographs, and searched for signs of microbial life (results were inconclusive). Viking 1 operated for over 6 years, providing unprecedented data on Martian geology, atmosphere, and climate. The mission represented the apex of 1970s space exploration and demonstrated American technological capability during the Cold War.",
+      "key_figures": [
+        "Gentry Lee (Viking mission director)",
+        "Carl Sagan (planetary scientist, involved in mission design)"
+      ],
+      "sources": [
+        {
+          "name": "NASA official mission reports and data archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary space industry and science press",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "The Exploration of Mars (Chris Impey, 2010); NASA historical archives",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Landing date, technical specifications, and mission data are uncontested and extensively documented.",
+      "cross_references": [
+        "Follows from 1975-001 (Viking 1 launched)",
+        "Led to 1976-007 (Viking 2 landing, 3 September)"
+      ]
+    },
+    {
+      "id": "1976-007",
+      "title": "Viking 2 lands on Mars",
+      "region": "Mars (Utopia Planitia)",
+      "coordinates_approx": "47.64, 225.77",
+      "category": "exploration",
+      "description": "On 3 September 1976, NASA's Viking 2 lander touched down on Mars at a different location (Utopia Planitia) from Viking 1. Like its predecessor, Viking 2 conducted soil analysis, atmospheric measurements, and biological experiments. The two Viking landers together provided the most comprehensive data on Mars available until the 1990s, establishing baseline knowledge of Martian geology, meteorology, and the absence of detectable microbial life in surface soils.",
+      "key_figures": [
+        "Gentry Lee (Viking mission director)",
+        "Carl Sagan (planetary scientist)"
+      ],
+      "sources": [
+        {
+          "name": "NASA official mission reports and data archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary space industry and science press",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Landing date and mission data are uncontested and extensively documented.",
+      "cross_references": [
+        "Follows from 1976-006 (Viking 1 landing, 20 July)"
+      ]
+    },
+    {
+      "id": "1976-008",
+      "title": "Lockheed SR-71 Blackbird retired from service",
+      "region": "United States (Beale Air Force Base, California)",
+      "coordinates_approx": "39.14, -121.31",
+      "category": "military",
+      "description": "The Lockheed SR-71 Blackbird, the world's fastest crewed aircraft, was retired from active service on 6 March 1976 after 12 years of operation. The aircraft had conducted high-altitude reconnaissance missions over the Soviet Union, China, and other adversaries during the Cold War, flying at Mach 3+ and altitudes exceeding 85,000 feet. Its retirement reflected the shift toward satellite reconnaissance and the aircraft's high operational costs. The SR-71 remained the fastest crewed aircraft ever built.",
+      "key_figures": [
+        "Clarence 'Kelly' Johnson (Lockheed designer)",
+        "Richard Heyser (SR-71 pilot)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Air Force official records and press releases",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary aviation and defence press",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "The Complete Book of the SR-71 Blackbird (Paul F. Crickmore, 2012)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Retirement date and technical specifications are uncontested.",
+      "cross_references": [
+        "Part of broader Cold War reconnaissance and military technology development"
+      ]
+    },
+    {
+      "id": "1976-009",
+      "title": "Seychelles gains independence from Britain",
+      "region": "Seychelles (Indian Ocean)",
+      "coordinates_approx": "-4.68, 55.49",
+      "category": "political",
+      "description": "Seychelles, an archipelago in the Indian Ocean, gained independence from Britain on 29 June 1976. The newly independent nation adopted a one-party socialist system under President France-Albert Ren\u00e9. The transition was peaceful, though the country would experience a coup attempt in 1977. Seychelles' independence was part of the broader decolonisation wave of the 1970s, particularly affecting African and island nations.",
+      "key_figures": [
+        "France-Albert Ren\u00e9 (first president)",
+        "James Mancham (first president, 1976, deposed in 1977)"
+      ],
+      "sources": [
+        {
+          "name": "British Colonial Office records and Seychelles government announcements",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news coverage",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Seychelles: A History (Deryck Scarr, 2000)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Independence date and basic facts are uncontested.",
+      "cross_references": [
+        "Part of broader decolonisation movement (1945\u20131980s)",
+        "Led to 1977-002 (coup attempt in Seychelles)"
+      ]
+    },
+    {
+      "id": "1976-010",
+      "title": "Rhodesian Bush War intensifies; Smith regime under pressure",
+      "region": "Rhodesia (Zimbabwe)",
+      "coordinates_approx": "-19.02, 29.15",
+      "category": "military",
+      "description": "The Rhodesian Bush War, a civil conflict between the white minority government of Ian Smith and African nationalist guerrillas (ZANU and ZAPU), intensified dramatically in 1976. Guerrilla attacks increased, and the Smith regime responded with military operations and counter-insurgency campaigns. International pressure mounted on Rhodesia due to its racial policies. The conflict would continue until 1980, when majority rule was established and the nation became Zimbabwe. By 1976, the war had become a proxy conflict in the Cold War, with Soviet and Cuban support for nationalist forces.",
+      "key_figures": [
+        "Ian Smith (Rhodesian Prime Minister)",
+        "Robert Mugabe (ZANU leader)",
+        "Joshua Nkomo (ZAPU leader)"
+      ],
+      "sources": [
+        {
+          "name": "Rhodesian government military records and contemporary news reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Guerrilla movement records and oral histories",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "The Rhodesian War: A Military History (Peter Godwin and Ian Hancock, 1999)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The intensification of the conflict in 1976 is well-documented, though casualty figures and specific military operations vary by source.",
+      "cross_references": [
+        "Follows from 1965-001 (Rhodesian Unilateral Declaration of Independence)",
+        "Led to 1980-001 (Zimbabwe independence and Mugabe's election)"
+      ]
+    },
+    {
+      "id": "1976-011",
+      "title": "Apple Computer Company founded",
+      "region": "United States (Los Altos, California)",
+      "coordinates_approx": "37.36, -122.11",
+      "category": "technological",
+      "description": "On 1 April 1976, Steve Jobs, Steve Wozniak, and Ronald Wayne founded Apple Computer Company in Jobs' parents' garage in Los Altos, California. The company's first product, the Apple I, was a single-board computer designed by Wozniak and sold as a kit for $666.66. Though initially a niche product, Apple's founding marked the beginning of the personal computer revolution. The company would release the Apple II in 1977, which became the first commercially successful personal computer.",
+      "key_figures": [
+        "Steve Jobs (co-founder)",
+        "Steve Wozniak (co-founder, engineer)",
+        "Ronald Wayne (co-founder, departed early)"
+      ],
+      "sources": [
+        {
+          "name": "Apple Computer Company incorporation documents and contemporary press releases",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary technology press and industry publications",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Steve Jobs (Walter Isaacson, 2011); The Apple Story (Del Smith, 1999)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Founding date and basic facts are uncontested and extensively documented.",
+      "cross_references": [
+        "Led to 1977-003 (Apple II release)",
+        "Part of broader personal computer revolution (1970s\u20131980s)"
+      ]
+    },
+    {
+      "id": "1976-012",
+      "title": "Nadia Com\u0103neci scores perfect 10 at Montreal Olympics",
+      "region": "Canada (Montreal)",
+      "coordinates_approx": "45.50, -73.57",
+      "category": "cultural",
+      "description": "At the 1976 Summer Olympics in Montreal, Romanian gymnast Nadia Com\u0103neci became the first athlete to score a perfect 10.0 in an Olympic gymnastics event (balance beam). At age 14, she went on to win three gold medals and became an international celebrity. Her achievement was broadcast worldwide and symbolised the emergence of Eastern Bloc athletic dominance during the Cold War. The scoreboard at the Montreal Forum could not display a score above 9.99, so her perfect 10 was displayed as '1.00.'",
+      "key_figures": [
+        "Nadia Com\u0103neci (Romanian gymnast)",
+        "B\u00e9la K\u00e1rolyi (Romanian coach)"
+      ],
+      "sources": [
+        {
+          "name": "International Olympic Committee official records and contemporary sports media",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news coverage (AP, Reuters, BBC)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Nadia: The Secret Story (Nadia Com\u0103neci, 2004)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Date, score, and event details are uncontested and extensively documented.",
+      "cross_references": [
+        "Part of broader Cold War sports competition (Olympic Games as proxy conflict)"
+      ]
+    },
+    {
+      "id": "1976-013",
+      "title": "Legionnaires' disease outbreak in Philadelphia",
+      "region": "United States (Philadelphia, Pennsylvania)",
+      "coordinates_approx": "39.95, -75.17",
+      "category": "environmental",
+      "description": "In July\u2013August 1976, an outbreak of a previously unknown respiratory disease occurred among attendees of an American Legion convention at the Bellevue-Stratford Hotel in Philadelphia. The disease, later named Legionnaires' disease, killed 34 people and sickened 221 others. The causative agent was identified as the bacterium Legionella pneumophila, which thrived in the hotel's air-conditioning system. The outbreak prompted major changes in public health surveillance and building ventilation standards.",
+      "key_figures": [
+        "Joseph McDade (CDC microbiologist, identified the pathogen)",
+        "David Fraser (CDC epidemiologist)"
+      ],
+      "sources": [
+        {
+          "name": "Centers for Disease Control (CDC) official outbreak investigation reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary medical and public health literature",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Legionnaires' Disease: A History (Paul Edelson, 2016); CDC historical archives",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Outbreak dates, casualty figures, and pathogen identification are well-documented and uncontested.",
+      "cross_references": [
+        "Led to major changes in public health surveillance and building standards"
+      ]
+    },
+    {
+      "id": "1976-014",
+      "title": "Cray-1 supercomputer becomes operational",
+      "region": "United States (Los Alamos National Laboratory, New Mexico)",
+      "coordinates_approx": "35.88, -106.30",
+      "category": "technological",
+      "description": "The Cray-1, designed by Seymour Cray and manufactured by Cray Research, became operational at Los Alamos National Laboratory in 1976. With a processing speed of 160 megaflops, it was the fastest computer in the world and represented a major advance in supercomputing. The Cray-1's distinctive C-shaped design became iconic. The machine was used for nuclear weapons simulations, weather forecasting, and scientific research. Its development reflected Cold War competition in computing technology.",
+      "key_figures": [
+        "Seymour Cray (Cray Research founder and chief designer)",
+        "Les Davis (Cray Research co-founder)"
+      ],
+      "sources": [
+        {
+          "name": "Cray Research official records and Los Alamos National Laboratory documentation",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary computing and technology press",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Seymour: An Introduction to the Cray-1 (Seymour Cray, 1976); The Supermen (Charles J. Murray, 1997)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Operational date and technical specifications are uncontested.",
+      "cross_references": [
+        "Part of broader supercomputing development during Cold War"
+      ]
+    },
+    {
+      "id": "1976-015",
+      "title": "Earthquake in Friuli, Italy",
+      "region": "Italy (Friuli-Venezia Giulia region)",
+      "coordinates_approx": "46.26, 13.20",
+      "category": "environmental",
+      "description": "On 6 May 1976, a magnitude 6.5 earthquake struck the Friuli region in northeastern Italy, killing approximately 965 people and leaving 100,000 homeless. The earthquake destroyed numerous medieval towns and caused significant economic damage. It was followed by strong aftershocks throughout the summer. The disaster prompted major changes in Italian building codes and earthquake preparedness standards.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Italian Geological Survey (Servizio Geologico d'Italia) and seismic records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary international news coverage",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "The 1976 Friuli Earthquake: Geology, Seismology, and Engineering Seismology (USGS and Italian geological studies)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Date, magnitude, and casualty figures are well-documented.",
+      "cross_references": [
+        "Part of broader seismic activity in Mediterranean region"
+      ]
+    },
+    {
+      "id": "1976-016",
+      "title": "Zaire (Democratic Republic of Congo) hosts African Cup of Nations",
+      "region": "Zaire (now Democratic Republic of Congo)",
+      "coordinates_approx": "-4.04, 21.76",
+      "category": "cultural",
+      "description": "Zaire (the Democratic Republic of Congo under Mobutu Sese Seko's rule) hosted the African Cup of Nations football tournament in January\u2013February 1976. The tournament was a major sporting event and a showcase for Mobutu's regime. Morocco won the tournament. The event demonstrated Zaire's role in African politics and sports, though the country's underlying economic and political instability would worsen in subsequent years.",
+      "key_figures": [
+        "Mobutu Sese Seko (Zairian president)"
+      ],
+      "sources": [
+        {
+          "name": "Confederation of African Football (CAF) official records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary sports media and news coverage",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Tournament dates and results are uncontested.",
+      "cross_references": [
+        "Part of broader African sports and political history"
+      ]
+    },
+    {
+      "id": "1976-017",
+      "title": "Supersonic Concorde flights begin between London and New York",
+      "region": "United Kingdom, France, and United States",
+      "coordinates_approx": "51.47, -0.46 (London); 40.64, -73.78 (New York)",
+      "category": "technological",
+      "description": "On 22 November 1976, the first supersonic Concorde flight from London to New York took place, reducing transatlantic travel time to approximately 3 hours 30 minutes. The service was inaugurated simultaneously from Paris to New York. Despite the technological achievement, the Concorde remained economically marginal and faced environmental concerns (noise, fuel consumption). The service represented the pinnacle of 1970s aviation technology but would never achieve profitability.",
+      "key_figures": [
+        "Andr\u00e9 Turcat (Concorde test pilot)",
+        "Brian Trubshaw (British test pilot)"
+      ],
+      "sources": [
+        {
+          "name": "British Airways and Air France official records and press releases",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary aviation press",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Date and route details are uncontested.",
+      "cross_references": [
+        "Follows from 1976-005 (Concorde enters commercial service)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Soweto Uprising's casualty figures remain contested: official South African government figures reported 176 deaths, while international observers and later investigations suggested figures ranging from 300 to 600+. The exact number killed in the Tangshan earthquake is disputed; Chinese official figures (242,000) are significantly lower than international estimates (240,000\u2013655,000), reflecting differences in methodology and data access. The Concorde's commercial viability is often overstated in popular accounts; the aircraft never achieved profitability and was subsidised by both governments. The Legionnaires' disease outbreak's initial attribution to the hotel's air-conditioning system has been refined by subsequent research, which identified specific conditions in the cooling tower system. No disconfirming evidence identified for other events listed.",
+  "historiographic_note": "1976 is exceptionally well-documented due to the availability of contemporary news media, government records, and scientific documentation. Western events (Concorde, Viking missions, Apple, Entebbe) are extensively covered in English-language sources. African and Asian events (Soweto, Tangshan, Rhodesia) are documented but often through the lens of Western media or post-hoc historiography. The Soweto Uprising and Rhodesian Bush War are documented through both government records and later oral histories and Truth and Reconciliation Commission testimony, though these sources sometimes conflict. The year's documentation reflects Cold War biases: space exploration and military technology are extensively recorded, while economic and social developments in the Global South are less thoroughly documented. Chinese sources for the Tangshan earthquake and Mao's death are available but were restricted during the Deng era; Western scholarship has filled some gaps. Overall, 1976 benefits from rich, multi-source documentation across most regions, though some gaps remain in economic and social history.",
+  "graph_edges": [
+    {
+      "from": "1976-001",
+      "to": "1977-001",
+      "relation": "led_to",
+      "note": "Soweto Uprising intensified anti-apartheid resistance; Steve Biko's death in police custody (1977) further galvanised the movement"
+    },
+    {
+      "from": "1976-002",
+      "to": "1976-003",
+      "relation": "contemporary_with",
+      "note": "Tangshan earthquake occurred during Mao's final illness; interpreted as ill omen for succession"
+    },
+    {
+      "from": "1976-003",
+      "to": "1978-001",
+      "relation": "led_to",
+      "note": "Mao's death and Gang of Four's arrest enabled Deng Xiaoping's return and reform agenda"
+    },
+    {
+      "from": "1976-006",
+      "to": "1976-007",
+      "relation": "contemporary_with",
+      "note": "Viking 1 and Viking 2 landings were part of the same NASA mission to Mars"
+    },
+    {
+      "from": "1976-011",
+      "to": "1977-003",
+      "relation": "led_to",
+      "note": "Apple Computer Company's founding led to Apple II release in 1977"
+    },
+    {
+      "from": "1976-010",
+      "to": "1980-001",
+      "relation": "led_to",
+      "note": "Rhodesian Bush War's intensification in 1976 contributed to majority rule and Zimbabwe independence in 1980"
+    }
+  ]
+}

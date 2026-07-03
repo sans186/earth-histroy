@@ -1,0 +1,162 @@
+{
+  "year": 1382,
+  "year_label": "1382 CE",
+  "era_context": "Late medieval Europe with Ottoman expansion in the Balkans, Ming Dynasty consolidating power in China, and England under the young King Richard II. The Hundred Years' War continues with shifting fortunes. The Iberian Peninsula remains fragmented between Christian kingdoms and the Nasrid Emirate of Granada. Religious tensions are building in Central Europe.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Central Asia and the Steppe (sparse documentation)",
+    "Oceania and Pacific islands (minimal written records)",
+    "Americas (no written records in European tradition)"
+  ],
+  "events": [
+    {
+      "id": "1382-001",
+      "title": "Hongwu Emperor's Abolition of the Chancellery",
+      "region": "China (Ming Dynasty)",
+      "coordinates_approx": "32.06, 118.80",
+      "category": "political",
+      "description": "The Hongwu Emperor abolished the position of Chancellor (Zaixiang), a major administrative office that had existed since ancient times. This action was part of the emperor's effort to consolidate absolute power and prevent any official from accumulating too much authority. The abolition of the Chancellery marked a significant shift toward personal imperial rule and the direct administration of the empire by the emperor himself, with the assistance of the Grand Secretariat.",
+      "key_figures": [
+        "Hongwu Emperor (Zhu Yuanzhang)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Ming institutional histories",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The abolition of the Chancellery in 1382 is well-documented in Ming records. This was a major institutional change with significant consequences for Ming governance.",
+      "cross_references": [
+        "1384-002 (Establishment of Jinyiwei)"
+      ]
+    },
+    {
+      "id": "1382-002",
+      "title": "Ottoman Conquest of Nish (Ni\u0161)",
+      "region": "Serbia (Ottoman expansion)",
+      "coordinates_approx": "43.33, 21.90",
+      "category": "military",
+      "description": "Ottoman forces under Murat I conquered Nish (Ni\u0161), a major Serbian fortress city. The conquest of Nish was a significant Ottoman victory and marked the consolidation of Ottoman control over central Serbia. The city would remain under Ottoman control for nearly five centuries. The conquest demonstrated Ottoman military superiority and the fragmentation of Serbian resistance.",
+      "key_figures": [
+        "Murat I (Ottoman Sultan)",
+        "Serbian defenders"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Serbian historical tradition and historiographic consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The conquest of Nish is attested in Ottoman and Serbian sources, but contemporary documentation is limited. The date of 1382 is accepted by most modern scholars, though some sources place it in 1381 or 1383.",
+      "cross_references": [
+        "1384-003 (Ottoman conquest of Sofia)",
+        "1389-001 (Battle of Kosovo)"
+      ]
+    },
+    {
+      "id": "1382-003",
+      "title": "Marriage of Mary of Hungary and Sigismund of Luxembourg",
+      "region": "Central Europe (Hungary and Luxembourg)",
+      "coordinates_approx": "47.5, 19.0",
+      "category": "political",
+      "description": "The marriage of Mary of Hungary to Sigismund of Luxembourg was arranged to strengthen diplomatic ties between Hungary and the Holy Roman Empire. Sigismund would later become King of Hungary and Holy Roman Emperor, and this marriage was part of the dynastic politics of Central Europe. The marriage represented the complex web of alliances among Central European powers.",
+      "key_figures": [
+        "Mary of Hungary",
+        "Sigismund of Luxembourg (future King of Hungary and Holy Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Hungarian royal chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Holy Roman Empire genealogical records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The marriage is attested in Hungarian and Holy Roman Empire records, though the exact date may be approximate (\u00b11 year).",
+      "cross_references": []
+    },
+    {
+      "id": "1382-004",
+      "title": "Richard II's Consolidation of Royal Authority",
+      "region": "England",
+      "coordinates_approx": "52.5, -1.5",
+      "category": "political",
+      "description": "King Richard II, now in his mid-teens, was gradually consolidating his authority as king. The period saw the young king asserting his will in court and parliament, though he remained dependent on magnates for military and political support. The suppression of the Peasants' Revolt in 1381 had strengthened his position, and he was beginning to develop the personal authority that would characterize his later reign.",
+      "key_figures": [
+        "Richard II (King of England)",
+        "John of Gaunt (Duke of Lancaster, uncle and advisor)"
+      ],
+      "sources": [
+        {
+          "name": "Froissart's Chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "English royal records and parliamentary rolls",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Walsingham's Historia Anglicana",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Richard II's activities in 1382 are documented in English chronicles and parliamentary records.",
+      "cross_references": [
+        "1383-004 (Richard II's early reign)",
+        "1385-004 (Richard II's consolidation of power)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The date of the Ottoman conquest of Nish is disputed in some sources, with alternative dates of 1381, 1382, or 1383 appearing in different Ottoman chronicles. The significance of the conquest has sometimes been overstated; while important, it was one of several Ottoman victories rather than a decisive turning point. The abolition of the Chancellery by the Hongwu Emperor is sometimes portrayed as a sudden, dramatic action, but it was part of a gradual process of consolidating imperial power that had been underway for several years.",
+  "historiographic_note": "Documentation for 1382 is moderate. Chinese sources are contemporary and detailed regarding the Hongwu Emperor's reforms. English sources are relatively rich regarding Richard II. Ottoman and Serbian sources are primarily later compilations with dating uncertainties. Hungarian and Central European sources exist but are sometimes sparse for this period. African, American, and Oceanic histories remain absent from written records. The surviving sources reflect elite, court-centered perspectives and may underrepresent popular movements and economic conditions.",
+  "graph_edges": [
+    {
+      "from": "1382-001",
+      "to": "1384-002",
+      "relation": "led_to",
+      "note": "Abolition of Chancellery was part of Hongwu Emperor's consolidation of power"
+    },
+    {
+      "from": "1382-002",
+      "to": "1384-003",
+      "relation": "led_to",
+      "note": "Ottoman conquest of Nish was part of the campaign leading to the conquest of Sofia"
+    },
+    {
+      "from": "1382-002",
+      "to": "1389-001",
+      "relation": "led_to",
+      "note": "Ottoman expansion in the Balkans continued toward the Battle of Kosovo"
+    },
+    {
+      "from": "1382-004",
+      "to": "1383-004",
+      "relation": "led_to",
+      "note": "Richard II's consolidation of authority continued in subsequent years"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "year": 895,
+  "year_label": "895 CE",
+  "era_context": "Continued fragmentation of the post-Carolingian West, with regional kingdoms competing for dominance. The Tang Dynasty in China was in its final years, with regional warlords effectively independent. The Islamic world remained divided among competing caliphates. This period saw the intensification of Viking activity in Western Europe and the consolidation of feudal structures.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Pre-Columbian Americas",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "895-001",
+      "title": "Arnulf of Carinthia campaigns in Italy",
+      "region": "Italian Peninsula, Western Europe",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "military",
+      "description": "Arnulf of Carinthia, king of the East Frankish realm, led a military campaign into Italy to assert control over the peninsula and support his claims to imperial authority. His campaign was partly motivated by the need to counter the influence of other regional powers and to secure papal support. The campaign was largely successful in the short term, establishing Arnulf's military credentials and paving the way for his coronation as Holy Roman Emperor the following year.",
+      "key_figures": [
+        "Arnulf of Carinthia (King of East Francia)",
+        "Pope Formosus (Pontiff)"
+      ],
+      "sources": [
+        {
+          "name": "Liudprand of Cremona, Antapodosis",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Regino of Pr\u00fcm, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The campaign is attested in near-contemporary sources, though details are sparse and the exact chronology is debated. The date of 895 is conventional; some sources place it in 894.",
+      "cross_references": [
+        "Led to 896-001 (Arnulf's coronation as Holy Roman Emperor)"
+      ]
+    },
+    {
+      "id": "895-002",
+      "title": "Viking raids on England and Francia continue",
+      "region": "Western Europe, England, Francia",
+      "coordinates_approx": "52.0, 0.0",
+      "category": "military",
+      "description": "Viking raids continued to plague England and Francia, with Norse raiders targeting coastal settlements and river valleys. In England, the ongoing conflict between Viking settlers and Anglo-Saxon kingdoms remained unresolved, with the Treaty of Wedmore (878) providing only temporary stability. In Francia, Viking fleets operated on the Seine and Loire rivers, extracting tribute and plunder from local populations. These raids were a defining feature of the late 9th century and drove significant changes in military organization and settlement patterns.",
+      "key_figures": [
+        "Alfred the Great (King of Wessex, deceased 899 but his policies continued)",
+        "Edward the Elder (Son of Alfred, future king)"
+      ],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Regino of Pr\u00fcm, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Viking raids are well-documented in contemporary and near-contemporary sources, though specific raids in 895 are often conflated with adjacent years in the historical record.",
+      "cross_references": [
+        "Part of broader Viking Age (793\u20131066)",
+        "Related to 878-001 (Treaty of Wedmore)"
+      ]
+    },
+    {
+      "id": "895-003",
+      "title": "Zhu Wen defeats rival warlords in North China",
+      "region": "North China, Yellow River valley",
+      "coordinates_approx": "34.5, 114.5",
+      "category": "military",
+      "description": "Zhu Wen continued his military campaigns against rival warlords in North China, consolidating his control over the Yellow River valley. His victories in 895 strengthened his position as the dominant military force in the region and brought him closer to the goal of establishing his own dynasty. The campaigns were marked by brutal tactics and the systematic elimination of rival power bases.",
+      "key_figures": [
+        "Zhu Wen (Military commander)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Old History of the Five Dynasties",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Zhu Wen's military campaigns are documented in Chinese sources, though specific events in 895 are reconstructed from later compilations.",
+      "cross_references": [
+        "Part of Zhu Wen's rise to power (880s\u2013907)",
+        "Led to 907-001 (Establishment of Later Liang Dynasty)"
+      ]
+    },
+    {
+      "id": "895-004",
+      "title": "Byzantine military operations in the Balkans",
+      "region": "Balkans, Byzantine Empire",
+      "coordinates_approx": "42.0, 21.0",
+      "category": "military",
+      "description": "The Byzantine Empire, under the regency of Theodosius (acting for the young Constantine VII), conducted military operations in the Balkans to maintain control over the region and counter threats from Slavic and other groups. These operations were part of the broader Byzantine strategy to maintain its territorial integrity during a period of internal political instability.",
+      "key_figures": [
+        "Constantine VII (Young Byzantine emperor)",
+        "Theodosius (Regent)"
+      ],
+      "sources": [
+        {
+          "name": "Constantine Porphyrogennetus, De Administrando Imperio (10th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Byzantine military activities in the Balkans are attested in later sources, but specific operations in 895 are difficult to date precisely.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The significance of Arnulf's Italian campaign in 895 has been debated. Some modern scholars argue that the campaign was less successful than traditional accounts suggest and that Arnulf's actual control over Italy was limited. Additionally, the exact dating of Viking raids in 895 versus 894 or 896 is uncertain; the Anglo-Saxon Chronicle and other sources sometimes conflate events across multiple years.",
+  "historiographic_note": "The historical record for 895 is moderate in quality. Western European events are documented in near-contemporary chronicles, though often with chronological ambiguities. Chinese sources are more systematic but compiled centuries later. Byzantine sources are sparse for this period. There is a significant Western bias in available documentation.",
+  "graph_edges": [
+    {
+      "from": "895-001",
+      "to": "896-001",
+      "relation": "led_to",
+      "note": "Arnulf's successful Italian campaign in 895 enabled his coronation as Holy Roman Emperor in 896"
+    },
+    {
+      "from": "895-002",
+      "to": "878-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of Viking conflicts that began with the Treaty of Wedmore"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "year": 1326,
+  "year_label": "1326 CE",
+  "era_context": "The early 14th century CE spans the late Medieval period in Europe, the height of the Delhi Sultanate in South Asia, the Yuan Dynasty in East Asia, and the early Ottoman Empire in Anatolia. This is an era of significant political fragmentation in Europe (competing kingdoms and city-states), Islamic expansion in the Mediterranean and Indian Ocean, and Mongol-descended dynasties consolidating power across Asia. The Black Death (1347\u20131353) has not yet arrived in Europe, but trade networks connecting Eurasia are at peak intensity.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; Mali Empire and other polities underrepresented in European sources)",
+    "Oceania and Pacific islands (oral traditions not well preserved in written form)",
+    "Indigenous Americas (no written records in most regions; Inca Empire not yet dominant)"
+  ],
+  "events": [
+    {
+      "id": "1326-001",
+      "title": "Osman I's death and succession of Orhan I",
+      "region": "Ottoman Empire, Anatolia (modern Turkey)",
+      "coordinates_approx": "39.5, 32.5",
+      "category": "political",
+      "description": "Osman I, founder of the Ottoman Empire, died in 1323 or 1324 (sources vary); his son Orhan I succeeded him and consolidated Ottoman power in northwestern Anatolia. Orhan expanded the nascent empire through conquest of Byzantine territories and reorganized the military and administrative structure. This succession marked the transition from a small beylik (principality) to a major regional power that would eventually become a world empire. The exact year of Osman's death is disputed, but Orhan's reign (1323/1326\u20131362) is well-attested.",
+      "key_figures": [
+        "Orhan I (Ottoman Sultan, r. 1323/1326\u20131362)",
+        "Osman I (founder, d. 1323/1324)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (A\u015f\u0131kpa\u015fazade, 15th century; Ne\u015fri, 15th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine sources (John Kantakouzenos, 14th century)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Orhan's accession is well-documented in Ottoman and Byzantine sources, but the exact year of Osman's death (1323 or 1324) creates ambiguity about whether 1326 is the correct date for Orhan's formal succession. Most modern scholarship places Osman's death in 1323\u20131324 and Orhan's reign from 1323/1326 onward.",
+      "cross_references": []
+    },
+    {
+      "id": "1326-002",
+      "title": "Isabella of France arrives in England to support her son Edward III",
+      "region": "England, France",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "political",
+      "description": "Queen Isabella of France, wife of Edward II of England, arrived in England in 1326 with her son Edward (later Edward III) and her lover Roger Mortimer. She had fled France after her husband Edward II rejected her, and she returned to England with military support to challenge Edward II's rule. This invasion led to Edward II's deposition and the rise of Edward III, fundamentally altering English politics and contributing to the later Hundred Years' War between England and France.",
+      "key_figures": [
+        "Isabella of France (Queen of England)",
+        "Edward II (King of England, deposed)",
+        "Edward III (Prince, later King)",
+        "Roger Mortimer (Isabella's ally)"
+      ],
+      "sources": [
+        {
+          "name": "Froissart, Chronicles (14th century, near-contemporary)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "English royal records and writs",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Adam of Murimuth, Chronicle (14th century)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Isabella's invasion of England in 1326 is extensively documented in contemporary English and French chronicles. The date is secure.",
+      "cross_references": [
+        "1327-001 (Edward II's deposition)"
+      ]
+    },
+    {
+      "id": "1326-003",
+      "title": "Mansa Musa's pilgrimage to Mecca",
+      "region": "Mali Empire, West Africa; Egypt; Arabia",
+      "coordinates_approx": "14.0, -4.0",
+      "category": "religious",
+      "description": "Mansa Musa, ruler of the Mali Empire, departed on his famous pilgrimage (hajj) to Mecca in 1324, passing through Egypt in 1324 and reaching Mecca in 1324. The pilgrimage is often dated to 1324, though some sources place the departure in 1323 or 1324 and the return in 1325. This pilgrimage is legendary for the vast wealth displayed\u2014Musa brought enormous quantities of gold, which reportedly caused inflation in Egypt. The pilgrimage enhanced Mali's prestige in the Islamic world and led to increased contact between Mali and the Mediterranean/Middle Eastern regions. The exact chronology is debated among scholars.",
+      "key_figures": [
+        "Mansa Musa (Emperor of Mali)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Umari, Masalik al-absar (14th century, near-contemporary)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Ibn Battuta, Rihla (14th century, near-contemporary)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian historical records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The pilgrimage occurred in 1323\u20131325; most modern scholarship places the departure in 1323 or 1324 and the passage through Egypt in 1324. The exact year assigned here (1326) is less certain; the pilgrimage may have been completed by this date or still in progress. Dating varies by \u00b11\u20132 years across sources.",
+      "cross_references": []
+    },
+    {
+      "id": "1326-004",
+      "title": "Lucca's conflict with Florence and Pisa",
+      "region": "Italian city-states, Tuscany",
+      "coordinates_approx": "43.84, 10.5",
+      "category": "military",
+      "description": "In 1326, the city of Lucca, under the rule of Castruccio Castracani, engaged in military campaigns against neighboring Florence and Pisa as part of ongoing Guelph-Ghibelline factional conflicts. Castruccio was a prominent Ghibelline leader who sought to expand Lucca's power in Tuscany. These conflicts were part of the broader Italian political fragmentation of the 14th century, where city-states competed for regional dominance.",
+      "key_figures": [
+        "Castruccio Castracani (Lord of Lucca)"
+      ],
+      "sources": [
+        {
+          "name": "Giovanni Villani, Nuova Cronica (14th century, near-contemporary)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Luccan municipal records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Castruccio's military activities in the mid-1320s are well-documented, though the specific events of 1326 are less precisely dated in surviving sources. The year is assigned by historiographic convention based on chronicle accounts.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Mansa Musa's pilgrimage is contested: some sources place it in 1323, others in 1324, and a few in 1325. The year 1326 is not the primary date assigned by most modern scholars, who favor 1324 for the passage through Egypt. The exact year of Osman I's death (and thus Orhan I's accession) is also disputed between 1323 and 1324, making the assignment to 1326 uncertain. Isabella of France's invasion is well-dated to 1326, but the political consequences (Edward II's deposition) occurred in 1327, not 1326.",
+  "historiographic_note": "The historical record for 1326 is uneven. European events (Isabella's invasion, Italian city-state conflicts) are well-documented in contemporary chronicles and administrative records. Ottoman and Islamic sources are more distant from the events (mostly later compilations), creating dating uncertainty. West African history relies heavily on Islamic geographers and travelers (al-Umari, Ibn Battuta) whose accounts are sometimes vague about precise chronology. The record is heavily weighted toward Mediterranean and European events; East Asian, South Asian, and sub-Saharan African events are underrepresented in surviving sources accessible to modern scholarship.",
+  "graph_edges": [
+    {
+      "from": "1326-002",
+      "to": "1327-001",
+      "relation": "led_to",
+      "note": "Isabella's invasion in 1326 directly led to Edward II's deposition in 1327"
+    },
+    {
+      "from": "1326-001",
+      "to": "1362-001",
+      "relation": "part_of",
+      "note": "Orhan I's succession in 1326 began his reign, which lasted until 1362"
+    }
+  ]
+}

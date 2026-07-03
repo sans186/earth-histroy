@@ -1,0 +1,221 @@
+{
+  "year": 1191,
+  "year_label": "1191 CE",
+  "era_context": "The late 12th century CE saw the Crusader states in the Levant under severe pressure from Ayyubid expansion under Saladin. In Europe, the Third Crusade was underway (1189\u20131192), with Richard I of England and Philip II of France engaged in both crusading and dynastic conflict. In East Asia, the Jin Dynasty controlled northern China while the Southern Song Dynasty held the south; in Japan, the Minamoto clan had recently consolidated power after the Genpei War. The Islamic world was fragmented among competing sultanates and emirs.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Northern Europe beyond the Crusade narrative (Scandinavia, Eastern Europe)",
+    "Central Asia (sparse documentation relative to Islamic heartlands)"
+  ],
+  "events": [
+    {
+      "id": "1191-001",
+      "title": "Battle of Arsuf",
+      "region": "Levant (modern Israel/Palestine)",
+      "coordinates_approx": "32.3\u00b0N, 34.9\u00b0E",
+      "category": "military",
+      "description": "Richard I of England defeated Saladin's Ayyubid forces at Arsuf on 7 September 1191 during the Third Crusade. This was a significant tactical victory for the Crusaders, demonstrating that Saladin's army could be defeated in pitched battle despite his recent conquest of Jerusalem (1187). The victory temporarily stabilized the Crusader position in the Levant and allowed Richard to advance toward Jaffa, though it did not result in the recapture of Jerusalem, which remained Saladin's primary strategic objective.",
+      "key_figures": [
+        "Richard I of England (Crusader commander)",
+        "Saladin / Salah ad-Din (Ayyubid sultan)"
+      ],
+      "sources": [
+        {
+          "name": "Itinerarium Peregrinorum et Gesta Regis Ricardi (Chronicle of the Third Crusade), attributed to Richard of Devizes or Ambroise",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Imad ad-Din al-Isfahani, Al-Fath al-Qussi fi al-Fath al-Qudsi (The Conquest of the Holy City)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological and numismatic evidence from the region",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Multiple contemporary chronicles from both Crusader and Islamic sources confirm the battle, its date, and general outcome. The tactical details are debated but the strategic significance is undisputed.",
+      "cross_references": [
+        "1187-001 (Saladin's conquest of Jerusalem)",
+        "1192-001 (Treaty of Jaffa ending Third Crusade)"
+      ]
+    },
+    {
+      "id": "1191-002",
+      "title": "Richard I captures Acre and establishes Crusader governance",
+      "region": "Levant (modern Israel)",
+      "coordinates_approx": "32.9\u00b0N, 35.1\u00b0E",
+      "category": "political",
+      "description": "Following the Battle of Arsuf, Richard I consolidated Crusader control over Acre, which had been besieged since 1190. He reorganized the city's administration and fortifications, establishing it as the primary Crusader stronghold in the Levant for the remainder of the 12th century. This represented a temporary reversal of Saladin's territorial gains, though Richard's inability to recapture Jerusalem ultimately limited the strategic value of these gains.",
+      "key_figures": [
+        "Richard I of England",
+        "Guy of Lusignan (King of Jerusalem)"
+      ],
+      "sources": [
+        {
+          "name": "Itinerarium Peregrinorum et Gesta Regis Ricardi",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Acre excavations",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Well-documented in contemporary Crusader sources and later Islamic chronicles.",
+      "cross_references": [
+        "1191-001 (Battle of Arsuf)"
+      ]
+    },
+    {
+      "id": "1191-003",
+      "title": "Minamoto Yoritomo consolidates power in Japan; establishment of the Kamakura shogunate",
+      "region": "Japan",
+      "coordinates_approx": "35.3\u00b0N, 139.5\u00b0E",
+      "category": "political",
+      "description": "Minamoto Yoritomo, having defeated the Taira clan in the Genpei War (1180\u20131185), formally established the Kamakura shogunate in 1185, but 1191 marks a key consolidation phase. Yoritomo secured imperial recognition of his military authority and began organizing the samurai class into a hierarchical feudal structure centered on the shogun. This transformation fundamentally altered Japanese governance, shifting power from the imperial court in Kyoto to the military government in Kamakura and establishing a pattern that would dominate Japanese politics for centuries.",
+      "key_figures": [
+        "Minamoto Yoritomo (Shogun)",
+        "Emperor Go-Toba (nominal authority)"
+      ],
+      "sources": [
+        {
+          "name": "Azuma Kagami (Mirror of the East), compiled in the 13th century but based on contemporary records",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Heike Monogatari (Tale of the Heike), oral tradition compiled in written form",
+          "type": "oral_tradition",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation process occurred over several years (1185\u20131192). 1191 is assigned as a key year within this process, but the exact chronology of administrative developments is somewhat uncertain due to reliance on later compilations.",
+      "cross_references": [
+        "1185-001 (Genpei War conclusion)",
+        "1192-002 (Formal shogunal title granted)"
+      ]
+    },
+    {
+      "id": "1191-004",
+      "title": "Saladin's continued consolidation of Ayyubid power in the Levant",
+      "region": "Levant and Egypt",
+      "coordinates_approx": "30.0\u00b0N, 31.0\u00b0E",
+      "category": "political",
+      "description": "Despite the setback at Arsuf, Saladin maintained control over most of the Levant and Egypt, consolidating Ayyubid administrative structures. He continued to organize his military forces and maintain diplomatic pressure on the Crusaders, even as he negotiated with Richard I. Saladin's strategic vision remained focused on containing Crusader expansion rather than immediate reconquest, a pragmatic approach given the arrival of major European forces.",
+      "key_figures": [
+        "Saladin / Salah ad-Din (Ayyubid sultan)",
+        "Al-Adil (Saladin's brother, military commander)"
+      ],
+      "sources": [
+        {
+          "name": "Imad ad-Din al-Isfahani, Al-Fath al-Qussi fi al-Fath al-Qudsi",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Ibn al-Athir, Al-Kamil fi al-Tarikh (The Complete History)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory is clear from Islamic sources, though specific administrative details for 1191 are sparse.",
+      "cross_references": [
+        "1191-001 (Battle of Arsuf)"
+      ]
+    },
+    {
+      "id": "1191-005",
+      "title": "Jin Dynasty consolidates control in northern China; Southern Song Dynasty maintains southern territories",
+      "region": "China",
+      "coordinates_approx": "35.0\u00b0N, 110.0\u00b0E",
+      "category": "political",
+      "description": "The Jin Dynasty, established by the Jurchen people in 1115, controlled northern China in 1191, while the Southern Song Dynasty held the south. This division had been formalized by the Treaty of Shaoxing (1141) and remained stable during this period. Both dynasties maintained sophisticated administrative systems, though the Jin Dynasty faced periodic challenges from Jurchen tribal factions and the rising Mongol confederation in the north. The Southern Song Dynasty, though territorially reduced, remained economically vibrant and culturally sophisticated.",
+      "key_figures": [
+        "Emperor Zhangzong of Jin (r. 1189\u20131208)",
+        "Emperor Guangzong of Song (r. 1189\u20131194)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) and later dynastic histories",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Official Jin Dynasty records (Jurchen administrative documents)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The political division and general stability of this period are well-documented in Chinese historical sources.",
+      "cross_references": [
+        "1141-001 (Treaty of Shaoxing)"
+      ]
+    },
+    {
+      "id": "1191-006",
+      "title": "Khmer Empire under Jayavarman VII continues expansion and temple construction",
+      "region": "Southeast Asia (modern Cambodia)",
+      "coordinates_approx": "13.4\u00b0N, 103.8\u00b0E",
+      "category": "cultural",
+      "description": "Jayavarman VII, who ascended to the Khmer throne around 1181, continued his ambitious program of temple construction and territorial expansion in 1191. He commissioned the construction of Bayon temple and other major religious structures, integrating Buddhist iconography with Khmer architectural traditions. This period represents the height of Khmer cultural and political power, though the empire's territorial extent and administrative capacity were beginning to face challenges from neighboring polities.",
+      "key_figures": [
+        "Jayavarman VII (Khmer king)"
+      ],
+      "sources": [
+        {
+          "name": "Bayon temple inscriptions and architectural evidence",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese diplomatic records (Zhou Daguan's later account, 13th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general chronology of Jayavarman VII's reign is established through epigraphic evidence, though specific events within individual years are often uncertain.",
+      "cross_references": [
+        "1181-001 (Jayavarman VII's ascension)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of the Battle of Arsuf has been somewhat overstated in popular Crusade historiography. While a tactical victory for Richard, it did not fundamentally alter the strategic balance in the Levant\u2014Saladin retained control of Jerusalem and most major cities. Some modern scholarship emphasizes that Richard's failure to recapture Jerusalem and his subsequent departure for Europe (1192) meant the battle's long-term impact was limited. Additionally, the narrative of Saladin as a unified, all-powerful opponent has been complicated by recent scholarship emphasizing the fragmentation and internal tensions within the Ayyubid confederation, which limited his ability to pursue aggressive campaigns despite his military successes.",
+  "historiographic_note": "The year 1191 is exceptionally well-documented for the Crusader Levant and Islamic Middle East, with multiple contemporary chronicles from both sides. However, this creates a potential bias toward military and political events in the Mediterranean and Near East. Documentation for East Asia (China, Japan, Southeast Asia) relies heavily on later compilations and official histories, which may emphasize court-centered narratives over broader social changes. Sub-Saharan Africa and Northern Europe remain poorly documented for this year. The surviving sources are predominantly written by elites (court scribes, religious chroniclers) and may underrepresent the experiences of common people, women, and non-literate populations.",
+  "graph_edges": [
+    {
+      "from": "1191-001",
+      "to": "1187-001",
+      "relation": "caused_by",
+      "note": "Battle of Arsuf was a direct response to Saladin's conquest of Jerusalem in 1187"
+    },
+    {
+      "from": "1191-001",
+      "to": "1192-001",
+      "relation": "led_to",
+      "note": "Arsuf victory enabled negotiations leading to the Treaty of Jaffa"
+    },
+    {
+      "from": "1191-003",
+      "to": "1185-001",
+      "relation": "part_of",
+      "note": "Consolidation of Kamakura shogunate followed the Genpei War"
+    },
+    {
+      "from": "1191-004",
+      "to": "1191-001",
+      "relation": "contemporary_with",
+      "note": "Saladin's consolidation efforts occurred simultaneously with Crusader military pressure"
+    }
+  ]
+}

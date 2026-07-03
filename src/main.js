@@ -12,6 +12,7 @@ import { createDataLoader } from './data/data-loader.js';
 import { YEAR_MAX, YEAR_WINDOW } from './config.js';
 import { debounce } from './utils.js';
 import { t } from './locale.js';
+import { getSavedTheme, applyTheme } from './themes/themes.js';
 
 import mapPlugin from './plugins/map-plugin.js';
 import timelinePlugin from './plugins/timeline-plugin.js';
@@ -20,6 +21,7 @@ import popupPlugin from './plugins/popup-plugin.js';
 import eventPanelPlugin from './plugins/event-panel-plugin.js';
 import layersPlugin from './plugins/layers-plugin.js';
 import trajectoryPlugin from './plugins/trajectory-plugin.js';
+import devSettingsPlugin from './plugins/dev-settings-plugin.js';
 
 // ── Loading overlay helpers ──
 const loadingOverlay = document.getElementById('loading-overlay');
@@ -55,6 +57,9 @@ async function boot() {
   // 2. Data loader
   const dataLoader = createDataLoader(core);
 
+  // 2b. Apply saved theme before plugins render
+  applyTheme(getSavedTheme());
+
   // 3. Register plugins
   core.use(mapPlugin);
   core.use(timelinePlugin);
@@ -63,6 +68,7 @@ async function boot() {
   core.use(eventPanelPlugin);
   core.use(layersPlugin);
   core.use(trajectoryPlugin);
+  core.use(devSettingsPlugin);
 
   // 4. Core refresh logic (debounced – called on currentYear change)
   async function refreshNow() {

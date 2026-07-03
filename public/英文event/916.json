@@ -1,0 +1,161 @@
+{
+  "year": 916,
+  "year_label": "916 CE",
+  "era_context": "The early 10th century CE spans the fragmentation of the Abbasid Caliphate, the rise of regional Islamic dynasties (Fatimids, Buyids, Umayyads of al-Andalus), the consolidation of the Byzantine Empire under the Macedonian Renaissance, the emergence of feudal structures in Western Europe following the collapse of Carolingian authority, and the expansion of the Khmer Empire in Southeast Asia. In East Asia, the Five Dynasties and Ten Kingdoms period in China represents political fragmentation following the Tang collapse, while the Goryeo Kingdom stabilizes the Korean peninsula.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources; archaeological record underexplored)",
+    "Northern Europe beyond Scandinavia and the Frankish realm",
+    "Central Asian steppe politics (sparse documentation)"
+  ],
+  "events": [
+    {
+      "id": "916-001",
+      "title": "Fatimid Caliphate proclaimed in North Africa",
+      "region": "Ifriqiya (modern Tunisia/Algeria)",
+      "coordinates_approx": "36.7\u00b0N, 3.0\u00b0E",
+      "category": "political | religious",
+      "description": "Ubayd Allah al-Mahdi, claiming descent from Fatima (daughter of Prophet Muhammad), formally proclaimed himself caliph in Kairouan, establishing the Fatimid Caliphate as a rival to the Abbasid Caliphate in Baghdad. This marked the beginning of a Shi'a Islamic state that would eventually expand across North Africa and the Mediterranean. The proclamation was both a religious and political act, challenging Sunni Abbasid legitimacy and asserting Ismaili Shi'a authority over a vast territory.",
+      "key_figures": [
+        "Ubayd Allah al-Mahdi (founder, self-proclaimed caliph)",
+        "Abu Abdullah al-Shi'i (missionary who prepared the ground)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Mas'udi, Meadows of Gold (Muruj al-dhahab)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Fatimid foundation",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The proclamation of the Fatimid Caliphate in 916 CE is well-attested in Islamic historiography, though no contemporary primary sources from the event itself survive. The date is established by multiple later chronicles with consistency.",
+      "cross_references": [
+        "Relates to broader Abbasid fragmentation (early 10th century)",
+        "Precedes Fatimid expansion into Egypt (969 CE)"
+      ]
+    },
+    {
+      "id": "916-002",
+      "title": "Khmer Empire under Yasovarman I consolidates territorial control",
+      "region": "Khmer Empire (modern Cambodia)",
+      "coordinates_approx": "13.3\u00b0N, 103.8\u00b0E",
+      "category": "political | cultural",
+      "description": "Yasovarman I, ruling the Khmer Empire, continued the consolidation and expansion of Khmer power in Southeast Asia. He is credited with establishing Yasodharapura (near modern Siem Reap) as a major religious and administrative center, and with commissioning significant temple construction and hydraulic infrastructure projects. His reign represents a period of cultural flourishing and territorial consolidation that would define the classical Khmer period.",
+      "key_figures": [
+        "Yasovarman I (Khmer king, r. 889\u2013910 or 915)"
+      ],
+      "sources": [
+        {
+          "name": "Khmer inscriptions and temple records (epigraphic evidence)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese historical records (Tang and Song dynasties)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Yasovarman I's reign dates are debated among scholars; some sources place his death in 910, others in 915. The events of 916 may fall within his reign or that of his successor. Epigraphic evidence provides the primary basis for dating, but uncertainty of \u00b15 years is reasonable.",
+      "cross_references": [
+        "Part of broader Khmer classical period (9th\u201313th centuries)"
+      ]
+    },
+    {
+      "id": "916-003",
+      "title": "Liao Dynasty established in Manchuria and Mongolia",
+      "region": "Manchuria, Mongolia, and northern China",
+      "coordinates_approx": "45.0\u00b0N, 120.0\u00b0E",
+      "category": "political | military",
+      "description": "Abaoji (Taizu), leader of the Khitan people, proclaimed himself emperor and established the Liao Dynasty, creating a major steppe empire that would dominate northeastern Asia for over two centuries. The Liao Dynasty represented a synthesis of Khitan nomadic traditions and Chinese administrative practices, and would become a major power in the region, eventually controlling parts of northern China and competing with the Song Dynasty.",
+      "key_figures": [
+        "Abaoji/Taizu (founder of Liao Dynasty, r. 916\u2013926)"
+      ],
+      "sources": [
+        {
+          "name": "Liao Shi (History of the Liao Dynasty), compiled during Yuan Dynasty",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Song Dynasty historical records",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Liao foundation date",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The founding of the Liao Dynasty in 916 CE is well-established in both Chinese and modern scholarship. Multiple sources converge on this date, though contemporary documentation is limited.",
+      "cross_references": [
+        "Precedes Liao expansion and conflict with Northern Song (10th\u201311th centuries)",
+        "Contemporary with Five Dynasties and Ten Kingdoms period in China"
+      ]
+    },
+    {
+      "id": "916-004",
+      "title": "Byzantine military campaigns in the Balkans and Aegean",
+      "region": "Byzantine Empire (Balkans, Aegean)",
+      "coordinates_approx": "39.0\u00b0N, 22.0\u00b0E",
+      "category": "military | political",
+      "description": "Under the regency of Zoe Karbonopsina for the young Constantine VII, the Byzantine Empire conducted military operations to consolidate control over the Balkans and suppress piracy in the Aegean. These campaigns were part of the broader Byzantine military revival of the 10th century, which would eventually lead to significant territorial expansion under Basil II.",
+      "key_figures": [
+        "Constantine VII Porphyrogennetos (Byzantine emperor, r. 913\u2013959)",
+        "Zoe Karbonopsina (regent and empress)"
+      ],
+      "sources": [
+        {
+          "name": "Constantine VII, De Administrando Imperio (On the Administration of the Empire)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Theophanes Continuatus (Byzantine chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Byzantine military activity in this period is well-documented in general terms, but specific campaigns in 916 are less clearly dated. The broader context of Byzantine military revival is confirmed; specific events of this year are inferred from general historical patterns.",
+      "cross_references": [
+        "Part of Byzantine Macedonian Renaissance (9th\u201311th centuries)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Yasovarman I's reign (889\u2013910 or 915) creates ambiguity about whether he was still ruling in 916 or had been succeeded. Some modern scholarship suggests his death may have occurred slightly earlier or later than traditionally recorded. The Fatimid proclamation date of 916 is well-attested, but some sources place it in 909 or 910, creating minor chronological debate. No major disconfirming evidence undermines the significance of the events listed.",
+  "historiographic_note": "The historical record for 916 CE is uneven. Islamic sources are relatively rich for the Fatimid proclamation, though they are later compilations. Chinese sources provide good documentation of the Liao Dynasty's founding and the Five Dynasties period. Byzantine sources are contemporary or near-contemporary. Southeast Asian history relies heavily on epigraphic evidence and later chronicles, with less precision in dating. Sub-Saharan Africa and much of Northern Europe are poorly documented for this specific year. The surviving sources tend to emphasize elite political and military events; economic, social, and cultural developments are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "916-001",
+      "to": "969-FATIMID_EGYPT",
+      "relation": "led_to",
+      "note": "Fatimid proclamation in 916 eventually led to Fatimid conquest of Egypt and establishment of Cairo"
+    },
+    {
+      "from": "916-003",
+      "to": "1005-LIAO_SONG_CONFLICT",
+      "relation": "led_to",
+      "note": "Liao Dynasty establishment in 916 led to centuries of conflict with Song Dynasty"
+    },
+    {
+      "from": "916-001",
+      "to": "916-003",
+      "relation": "contemporary_with",
+      "note": "Both represent major political reorganizations in Islamic and East Asian worlds"
+    }
+  ]
+}

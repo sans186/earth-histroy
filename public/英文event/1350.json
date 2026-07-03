@@ -1,0 +1,228 @@
+{
+  "year": 1350,
+  "year_label": "1350 CE",
+  "era_context": "Mid-14th century: The Black Death pandemic continues its devastating sweep across Eurasia and North Africa, with mortality still high in many regions. The Hundred Years' War between England and France is in its early phase. The Yuan Dynasty in China is weakening as rebel movements gain strength. The Ottoman Empire is consolidating power in Anatolia. The Papal Schism is not yet imminent, but the Avignon Papacy remains distant from Rome. Islamic sultanates control Mediterranean and Indian Ocean trade routes.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written records)",
+    "Indigenous Americas (no contemporary written records)",
+    "Central Asia and the steppes (sparse documentation outside Chinese and Islamic sources)"
+  ],
+  "events": [
+    {
+      "id": "1350-001",
+      "title": "Jubilee Year proclaimed by Pope Clement VI",
+      "region": "Papal States, Rome",
+      "coordinates_approx": "41.9,12.45",
+      "category": "religious",
+      "description": "Pope Clement VI proclaims 1350 as a Jubilee Year (Holy Year), offering plenary indulgences to pilgrims who visit Rome. This is the first Jubilee Year in the history of the Catholic Church, established to provide spiritual comfort during the ongoing Black Death crisis. The proclamation draws hundreds of thousands of pilgrims to Rome, generating revenue for the Church and reinforcing papal authority. However, the massive gatherings also facilitate plague transmission, creating an ironic public health consequence. The Jubilee tradition becomes a permanent feature of Catholic practice.",
+      "key_figures": [
+        "Pope Clement VI (initiator)",
+        "Petrarch (contemporary observer and critic of some aspects)"
+      ],
+      "sources": [
+        {
+          "name": "Papal bull Unigenitus Dei Filius (1343, establishing jubilee concept)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Petrarch, Letters",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles (Villani, Froissart)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The proclamation of the Jubilee Year is a documented papal act with precise dating.",
+      "cross_references": [
+        "1347-001 (Black Death arrival)"
+      ]
+    },
+    {
+      "id": "1350-002",
+      "title": "Giovanni Boccaccio completes The Decameron",
+      "region": "Florence, Italy",
+      "coordinates_approx": "43.77,11.25",
+      "category": "cultural",
+      "description": "Giovanni Boccaccio completes his masterwork, The Decameron, a collection of 100 novellas framed by the story of ten young Florentines who flee the plague-stricken city to a countryside villa. Written in vernacular Italian rather than Latin, the work represents a major shift toward literary use of the Italian language and establishes Boccaccio as a foundational figure in Italian literature. The Decameron provides invaluable contemporary testimony to the social and psychological impact of the Black Death, though its literary framing means it is not a straightforward historical document.",
+      "key_figures": [
+        "Giovanni Boccaccio (author)"
+      ],
+      "sources": [
+        {
+          "name": "The Decameron (manuscript tradition, completed ~1350\u20131353)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Boccaccio's biographical accounts",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Decameron was completed sometime between 1350 and 1353; 1350 is a conventional date but not precisely documented.",
+      "cross_references": [
+        "1347-001 (Black Death arrival)"
+      ]
+    },
+    {
+      "id": "1350-003",
+      "title": "Red Turban Rebellion intensifies in Yuan China",
+      "region": "Central and eastern China",
+      "coordinates_approx": "35,115",
+      "category": "military",
+      "description": "The Red Turban Rebellion, a major anti-Yuan uprising with Manichaean and Buddhist religious elements, intensifies in 1350. The rebellion, which began in the 1340s, now controls significant territory in central China. The Yuan Dynasty's military response is increasingly ineffective, hampered by internal corruption and the diversion of resources to other crises. The Red Turban movement, though ultimately fragmented, accelerates the collapse of Yuan authority and creates space for regional warlords like Zhu Yuanzhang to rise. The rebellion represents both a religious and social movement against Mongol rule.",
+      "key_figures": [
+        "Liu Futong (Red Turban leader)",
+        "Zhu Yuanzhang (emerging rival warlord)",
+        "Yuan emperors and generals (various, increasingly ineffective)"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shih (History of the Yuan Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Red Turban Rebellion is well-attested in Chinese sources, but specific events of 1350 are sometimes conflated with adjacent years.",
+      "cross_references": [
+        "1351-003 (Zhu Yuanzhang's campaigns)",
+        "1368-001 (Ming Dynasty establishment)"
+      ]
+    },
+    {
+      "id": "1350-004",
+      "title": "Plague mortality continues in Mediterranean and Islamic world",
+      "region": "Mediterranean, North Africa, Middle East",
+      "coordinates_approx": "35,20",
+      "category": "demographic",
+      "description": "The Black Death, which arrived in the Mediterranean in 1347\u20131348, continues to cause massive mortality in 1350 across North Africa, the Middle East, and the Islamic world. Cairo, Alexandria, and other major Islamic cities experience devastating population loss. Contemporary Islamic sources (Ibn al-Wardi, al-Maqrizi) document the plague's impact on trade, urban life, and religious practice. The plague disrupts the Hajj pilgrimage and causes economic dislocation across the Islamic world. Mortality estimates for some cities suggest 30\u201350% population loss.",
+      "key_figures": [
+        "Ibn al-Wardi (contemporary chronicler)",
+        "Al-Maqrizi (contemporary chronicler)",
+        "Islamic religious leaders (response to plague)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Wardi, Experiences of the Nations",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Al-Maqrizi, Plague accounts",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on plague spread",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Plague presence in the Islamic world in 1350 is well-attested in contemporary Islamic sources.",
+      "cross_references": [
+        "1347-001 (Plague arrival in Mediterranean)"
+      ]
+    },
+    {
+      "id": "1350-005",
+      "title": "English naval dominance in the Channel and North Sea",
+      "region": "English Channel, North Sea",
+      "coordinates_approx": "51,-2",
+      "category": "military",
+      "description": "English naval forces, under Edward III, establish dominance in the English Channel and North Sea, disrupting French trade and military supply lines. The Battle of Winchelsea (1350), also known as the Battle of Espagnols sur Mer, demonstrates English naval superiority. This naval dominance is crucial to English strategy in the Hundred Years' War, allowing England to project power across the Channel and protect its continental possessions. The victory reinforces English confidence and contributes to the broader military ascendancy that will culminate in the Battle of Poitiers (1356).",
+      "key_figures": [
+        "Edward III (King of England)",
+        "English naval commanders (various)",
+        "French naval forces (various)"
+      ],
+      "sources": [
+        {
+          "name": "Froissart, Chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "English royal records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Battle of Winchelsea is well-documented in English and French sources with consistent dating.",
+      "cross_references": [
+        "1356-001 (Battle of Poitiers)"
+      ]
+    },
+    {
+      "id": "1350-006",
+      "title": "Petrarch's literary and intellectual influence at its height",
+      "region": "Italy (Milan, Padua, Avignon)",
+      "coordinates_approx": "43,12",
+      "category": "cultural",
+      "description": "Francesco Petrarch, the Italian poet and humanist, is at the height of his influence in 1350. His works\u2014particularly his sonnets (Canzoniere) and his revival of classical learning\u2014are reshaping European intellectual culture. Petrarch's emphasis on individual emotion, classical texts, and the dignity of human experience marks a significant departure from medieval scholasticism and prefigures the Renaissance. His correspondence and patronage networks extend across Italy and Europe. Petrarch's work in recovering and promoting classical texts contributes to the broader intellectual movement that will define the Renaissance.",
+      "key_figures": [
+        "Francesco Petrarch (poet and humanist)",
+        "Various patrons and correspondents (Visconti, papal court)"
+      ],
+      "sources": [
+        {
+          "name": "Petrarch, Canzoniere (Songbook)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Petrarch, Letters and other works",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Petrarch's literary output and influence in 1350 are well-documented through his surviving works and correspondence.",
+      "cross_references": [
+        "1350-002 (Boccaccio's Decameron)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Jubilee Year of 1350 is often celebrated as a spiritual success, but modern scholarship emphasizes that the massive pilgrim gatherings likely accelerated plague transmission, making it a public health disaster despite its spiritual intent. Additionally, the claim that the Jubilee Year was the 'first' in Church history is complicated by earlier jubilee-like practices in medieval Christianity, though 1350 does mark the formalization of the practice. Regarding Boccaccio's Decameron, the precise completion date of 1350 is conventional; some scholars argue it was completed as late as 1353, making the dating uncertain.",
+  "historiographic_note": "Documentation for 1350 is moderate for Western Europe and the Mediterranean, with good sources for England, France, and Italy. Islamic sources provide valuable testimony to plague impact in the Middle East and North Africa, though these sources are sometimes less detailed than European chronicles. Chinese sources (Yuan and Ming histories) document the Red Turban Rebellion but are official compilations written after the fact. The year is heavily weighted toward European and Mediterranean events in surviving sources, with limited documentation for sub-Saharan Africa, the Americas, and Central Asia. The Jubilee Year and literary achievements of Petrarch and Boccaccio may be over-represented relative to their historical significance compared to the demographic catastrophe of the plague.",
+  "graph_edges": [
+    {
+      "from": "1350-001",
+      "to": "1350-004",
+      "relation": "contemporary_with",
+      "note": "Jubilee Year proclaimed as spiritual response to ongoing plague mortality"
+    },
+    {
+      "from": "1350-003",
+      "to": "1351-003",
+      "relation": "led_to",
+      "note": "Red Turban Rebellion intensification creates opportunity for Zhu Yuanzhang's rise"
+    },
+    {
+      "from": "1350-005",
+      "to": "1356-001",
+      "relation": "led_to",
+      "note": "English naval dominance contributes to broader military ascendancy culminating in Poitiers"
+    },
+    {
+      "from": "1350-002",
+      "to": "1350-006",
+      "relation": "contemporary_with",
+      "note": "Boccaccio and Petrarch represent parallel developments in Italian literary and humanistic culture"
+    }
+  ]
+}

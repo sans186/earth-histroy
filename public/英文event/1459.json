@@ -1,0 +1,230 @@
+{
+  "year": 1459,
+  "year_label": "1459 CE",
+  "era_context": "The late medieval period continues, with European nation-states consolidating power and the Wars of the Roses intensifying in England. The Ottoman Empire is expanding under Mehmed II. In East Asia, the Ming Dynasty maintains centralised rule. The Age of Exploration is accelerating. In the Americas, the Aztec and Inca empires are at their height.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written records)",
+    "Southeast Asia (sparse European documentation)",
+    "Pacific Islands and Oceania (no written records)"
+  ],
+  "events": [
+    {
+      "id": "1459-001",
+      "title": "Wars of the Roses: Battle of Blore Heath and Yorkist resurgence",
+      "region": "England (Staffordshire)",
+      "coordinates_approx": "52.9,-2.1",
+      "category": "military",
+      "description": "On 23 September 1459, the Battle of Blore Heath was fought between Yorkist and Lancastrian forces in Staffordshire. The Yorkists, led by the Earl of Salisbury, defeated a larger Lancastrian force, demonstrating the military competence of the Yorkist faction. The battle was part of the broader conflict of the Wars of the Roses, which had intensified following the First Battle of St Albans in 1455. The Yorkist victory at Blore Heath boosted their position and contributed to the momentum that would lead to the Battle of Towton in 1461.",
+      "key_figures": [
+        "Richard Neville, 3rd Earl of Salisbury (Yorkist commander)",
+        "Henry VI (Lancastrian King)",
+        "Margaret of Anjou (Lancastrian Queen)"
+      ],
+      "sources": [
+        {
+          "name": "Crowland Chronicle (near-contemporary English chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Chronicles of the Wars of the Roses (various contemporary and near-contemporary accounts)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Battle of Blore Heath on 23 September 1459 is well-documented in English chronicles. The date is secure.",
+      "cross_references": [
+        "1455-001 (First Battle of St Albans)",
+        "1460-001 (Battle of Towton)"
+      ]
+    },
+    {
+      "id": "1459-002",
+      "title": "Parliament of Devils: Lancastrian political consolidation",
+      "region": "England (Coventry)",
+      "coordinates_approx": "52.4,-1.5",
+      "category": "political",
+      "description": "In October 1459, the Lancastrian faction held a parliament in Coventry, known as the 'Parliament of Devils' by Yorkist chroniclers. This parliament was called to consolidate Lancastrian power and formally attaint (declare traitors) the Yorkist leaders, including the Duke of York, the Earl of Warwick, and the Earl of Salisbury. The parliament represented an attempt by the Lancastrian court to use legal and political mechanisms to eliminate the Yorkist threat. However, the parliament's actions only intensified the conflict, as the Yorkist leaders refused to accept the attainders and prepared for military confrontation.",
+      "key_figures": [
+        "Henry VI (Lancastrian King)",
+        "Margaret of Anjou (Lancastrian Queen)",
+        "Richard, Duke of York (Yorkist leader, attainted)",
+        "Richard Neville, 16th Earl of Warwick (Yorkist leader, attainted)"
+      ],
+      "sources": [
+        {
+          "name": "Crowland Chronicle (near-contemporary English chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "English parliamentary records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Parliament of Devils in October 1459 is well-documented in English parliamentary records and chronicles. The date is secure.",
+      "cross_references": [
+        "1459-001 (Battle of Blore Heath)",
+        "1460-001 (Battle of Towton)"
+      ]
+    },
+    {
+      "id": "1459-003",
+      "title": "Ottoman Empire: Consolidation of power and military campaigns",
+      "region": "Ottoman Empire",
+      "coordinates_approx": "41.0,29.0",
+      "category": "military",
+      "description": "Mehmed II continued his campaigns to consolidate Ottoman power and expand territorial control. In 1459, the Ottoman Empire was engaged in military operations in Anatolia and the Balkans, eliminating rival Turkish beyliks and strengthening Ottoman hegemony. The period was marked by military campaigns, diplomatic negotiations, and the consolidation of Ottoman administrative structures. Mehmed II was also preparing for future campaigns, including the eventual conquest of Trebizond in 1461.",
+      "key_figures": [
+        "Mehmed II (Ottoman Sultan, r. 1444\u20131481)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (Ne\u015fri, Ashikpashazade)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ottoman administrative records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ottoman expansion during the 1450s\u20131460s is well-documented in Ottoman sources. Specific events in 1459 are less precisely dated.",
+      "cross_references": [
+        "1461-006 (Conquest of Trebizond)"
+      ]
+    },
+    {
+      "id": "1459-004",
+      "title": "Ming Dynasty: Tianshun Emperor's reign; political consolidation",
+      "region": "China",
+      "coordinates_approx": "39.9,116.4",
+      "category": "political",
+      "description": "In 1459, the Ming Dynasty was ruled by the Tianshun Emperor (r. 1457\u20131464), who had been restored to the throne after a period of captivity. The Tianshun Emperor's reign was marked by political instability and the growing influence of eunuchs at court. The period saw continued consolidation of Ming power, though the court was increasingly divided by factional disputes. The Tianshun Emperor's health was declining, and succession disputes were beginning to emerge.",
+      "key_figures": [
+        "Tianshun Emperor (Ming Dynasty, r. 1457\u20131464)",
+        "Eunuch factions at the Ming court"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Official Ming Dynasty Records)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Ming Dynasty's political structure is well-documented in official records. The Tianshun Emperor's reign (1457\u20131464) is secure.",
+      "cross_references": [
+        "1464-001 (Chenghua Emperor's accession)"
+      ]
+    },
+    {
+      "id": "1459-005",
+      "title": "Portuguese exploration: Continued expansion in West Africa",
+      "region": "West Africa (Portuguese trading posts)",
+      "coordinates_approx": "5.0,-2.0",
+      "category": "exploration",
+      "description": "Portuguese explorers and traders continued to establish trading posts and forts along the West African coast. In 1459, the Portuguese were consolidating their presence in the region, particularly in present-day Guinea and Sierra Leone. These posts served as bases for trade in gold, ivory, and enslaved people, and as launching points for further exploration southward. The Portuguese were systematically mapping the African coast and establishing commercial networks.",
+      "key_figures": [
+        "Prince Henry the Navigator (Portuguese royal patron)",
+        "King Afonso V of Portugal"
+      ],
+      "sources": [
+        {
+          "name": "Cr\u00f3nica da Guin\u00e9 by Gomes Eanes de Zurara (contemporary Portuguese chronicle)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Portuguese royal charters and trading records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Portuguese expansion in West Africa during the 1450s\u20131460s is well-documented in Portuguese sources. Specific events in 1459 are less precisely dated.",
+      "cross_references": [
+        "1460-003 (Continued Portuguese expansion)"
+      ]
+    },
+    {
+      "id": "1459-006",
+      "title": "Inca Empire: Pachacuti's reign; expansion and consolidation",
+      "region": "Inca Empire (Andean South America)",
+      "coordinates_approx": "-12.0,-75.0",
+      "category": "political",
+      "description": "Pachacuti Inca Yupanqui continued his reign as the Inca Emperor, overseeing the expansion and consolidation of the Inca Empire. In 1459, the empire was at the height of its territorial reach, with Pachacuti conducting military campaigns to extend Inca control over new regions. The Inca administrative system was being refined, with the quipu being used to track tribute and census information.",
+      "key_figures": [
+        "Pachacuti Inca Yupanqui (Inca Emperor, r. ~1438\u20131471)"
+      ],
+      "sources": [
+        {
+          "name": "Quipucamayoc (Inca oral tradition, recorded by Spanish chroniclers)",
+          "type": "oral_tradition",
+          "contemporary": false
+        },
+        {
+          "name": "Spanish colonial chronicles (Garcilaso de la Vega, Cobo)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Inca chronology is uncertain. Pachacuti's reign is broadly dated to 1438\u20131471, but specific events within years are speculative.",
+      "cross_references": [
+        "1461-007 (Pachacuti's death, alternative date)"
+      ]
+    },
+    {
+      "id": "1459-007",
+      "title": "Aztec Empire: Montezuma I's reign; military campaigns and consolidation",
+      "region": "Aztec Empire (Mesoamerica)",
+      "coordinates_approx": "19.4,-99.1",
+      "category": "military",
+      "description": "Montezuma I continued his reign as the Aztec Emperor, conducting military campaigns to expand the empire's territorial reach and extract tribute from subject peoples. In 1459, the Aztec Empire was consolidating its hegemony over Mesoamerica. Montezuma I's reign was marked by military success, administrative innovation, and the development of the tributary system.",
+      "key_figures": [
+        "Montezuma I (Aztec Emperor, r. 1440\u20131469)",
+        "Tlacaelel (Aztec advisor and military strategist)"
+      ],
+      "sources": [
+        {
+          "name": "Codex Mendoza (Aztec pictorial record, compiled post-conquest)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Spanish colonial chronicles (Sahag\u00fan, Dur\u00e1n)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Aztec chronology is based on indigenous sources recorded by Spanish chroniclers after the conquest. The broad outline of Montezuma I's reign is accepted, but specific events within years are often uncertain.",
+      "cross_references": [
+        "1469-001 (Montezuma I's death and succession of Axayacatl)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of the Battle of Blore Heath (1459-001) is sometimes overstated in Yorkist-biased chronicles. While the Yorkist victory was important, it did not immediately lead to Yorkist dominance; the Lancastrian faction remained powerful and the conflict continued for years. The Parliament of Devils (1459-002) is sometimes portrayed as a turning point in the Wars of the Roses, but it was primarily a political manoeuvre that failed to resolve the underlying conflict. The attainders issued by the parliament were later reversed, and the Yorkist leaders continued to challenge Lancastrian authority.",
+  "historiographic_note": "The historical record for 1459 is heavily weighted towards Europe, particularly England, where written documentation is abundant. The Wars of the Roses are extensively documented in English chronicles, though these sources are often biased towards one faction or the other. East Asian sources (Ming Dynasty records) are rich but focused on court politics. The Americas are represented only through post-conquest indigenous sources and Spanish chronicles, which are inherently biased. Sub-Saharan Africa is almost entirely absent from the historical record at this date. The reliability of dating for non-European events is significantly lower than for European events.",
+  "graph_edges": [
+    {
+      "from": "1459-001",
+      "to": "1459-002",
+      "relation": "led_to",
+      "note": "The Yorkist victory at Blore Heath prompted the Lancastrian faction to consolidate power through the Parliament of Devils."
+    },
+    {
+      "from": "1459-002",
+      "to": "1460-001",
+      "relation": "led_to",
+      "note": "The Parliament of Devils' attainders of Yorkist leaders escalated the conflict, leading to the Battle of Towton in 1460\u20131461."
+    }
+  ]
+}

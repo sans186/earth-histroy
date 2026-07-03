@@ -1,0 +1,167 @@
+{
+  "year": 1251,
+  "year_label": "1251 CE",
+  "era_context": "The mid-13th century saw the fragmentation of the Mongol Empire into regional khanates following M\u00f6ngke Khan's reign (1251\u20131259). In Europe, the Crusader states were in terminal decline after the fall of Acre (1291 was still decades away, but the trajectory was clear). The Song Dynasty in southern China faced increasing Mongol pressure. The Mamluk Sultanate dominated the eastern Mediterranean and Levant. This was an era of religious ferment: the Inquisition was active in southern France, and mendicant orders (Franciscans, Dominicans) were expanding their influence across Christendom.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Southeast Asia (sparse European documentation; local chronicles less accessible)",
+    "Oceania (no written records)"
+  ],
+  "events": [
+    {
+      "id": "1251-001",
+      "title": "M\u00f6ngke Khan elected Great Khan of the Mongol Empire",
+      "region": "Mongolia; Mongol Empire",
+      "coordinates_approx": "47.9, 106.9",
+      "category": "political",
+      "description": "M\u00f6ngke Khan (M\u00f6ngke Qa\u03b3an), brother of Kublai Khan, was elected as the fourth Great Khan of the Mongol Empire at a kurultai (assembly) held in Mongolia. His election marked a consolidation of power within the Tolui line of Genghis Khan's descendants and initiated a period of administrative reform and religious tolerance. M\u00f6ngke's reign (1251\u20131259) saw the continuation of Mongol expansion into China and the Levant, and he appointed his brothers Kublai and H\u00fcleg\u00fc to lead major campaigns. His election was contested by some branches of the Mongol nobility but ultimately secured.",
+      "key_figures": [
+        "M\u00f6ngke Khan (elected Great Khan)",
+        "Kublai Khan (brother, later successor)",
+        "H\u00fcleg\u00fc Khan (brother, founder of Ilkhanate)"
+      ],
+      "sources": [
+        {
+          "name": "Jami' al-tawarikh (Compendium of Chronicles) by Rashid al-Din",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Yuan Shi (Official History of the Yuan Dynasty)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Secret History of the Mongols",
+          "type": "oral_tradition",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The election of M\u00f6ngke Khan in 1251 is well-attested in multiple Mongol and Islamic sources, though the exact date (some sources place it in 1251, others suggest late 1250) has minor variation. The kurultai location and attendees are documented in later compilations.",
+      "cross_references": [
+        "1259-001 (M\u00f6ngke's death and succession crisis)",
+        "1256-001 (H\u00fcleg\u00fc's campaign in Persia)"
+      ]
+    },
+    {
+      "id": "1251-002",
+      "title": "Pastoureaux uprising in France",
+      "region": "France (Languedoc, Aquitaine, \u00cele-de-France)",
+      "coordinates_approx": "46.5, 2.0",
+      "category": "religious",
+      "description": "A popular religious movement known as the Pastoureaux (Shepherds) erupted in France, initially led by a charismatic figure claiming divine inspiration. The movement attracted thousands of peasants and lower clergy, who marched toward the Holy Land with the stated goal of recovering Jerusalem through prayer and moral reform rather than military force. The movement quickly turned violent, targeting Jews and clergy perceived as corrupt. The uprising was suppressed by royal and ecclesiastical authorities within months, but it reflected deep popular discontent with the failures of the Crusades and the Church's perceived corruption.",
+      "key_figures": [
+        "An unnamed shepherd or visionary (leader, identity disputed)",
+        "King Louis IX of France (suppressor)"
+      ],
+      "sources": [
+        {
+          "name": "Chronicle of Jean de Joinville",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Grandes Chroniques de France",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Matthew Paris, Chronica Majora",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Pastoureaux uprising of 1251 is well-documented in contemporary and near-contemporary chronicles. The exact date (spring/summer 1251) is secure, though details of the leadership and precise scale vary between sources.",
+      "cross_references": [
+        "1320-001 (Later Pastoureaux uprising, similar movement)"
+      ]
+    },
+    {
+      "id": "1251-003",
+      "title": "H\u00fcleg\u00fc Khan begins preparations for campaign against the Assassins and Persia",
+      "region": "Mongol Empire; Persia; Levant",
+      "coordinates_approx": "35.0, 51.0",
+      "category": "military",
+      "description": "Following his election, M\u00f6ngke Khan appointed his brother H\u00fcleg\u00fc to lead a major military campaign against the Nizari Ismaili Assassins (Hashashiyun) and to consolidate Mongol control over Persia and the Levant. H\u00fcleg\u00fc began assembling a vast army and organizing logistics for what would become the Ilkhanate. The campaign would culminate in the siege of Alamut (1256) and the destruction of the Assassin strongholds. This appointment marked the formal establishment of the Ilkhanate as a distinct Mongol khanate.",
+      "key_figures": [
+        "H\u00fcleg\u00fc Khan (appointed commander)",
+        "M\u00f6ngke Khan (appointer)",
+        "Nasir al-Din al-Tusi (Persian scholar, later advisor to H\u00fcleg\u00fc)"
+      ],
+      "sources": [
+        {
+          "name": "Jami' al-tawarikh by Rashid al-Din",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ilkhanid administrative records (fragmentary)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The appointment of H\u00fcleg\u00fc and the beginning of campaign preparations in 1251 are attested in Islamic and Mongol sources, though the exact timing of the appointment relative to M\u00f6ngke's election is sometimes conflated in sources. The campaign itself is well-documented from 1256 onward.",
+      "cross_references": [
+        "1256-001 (Siege of Alamut)",
+        "1258-001 (Sack of Baghdad)"
+      ]
+    },
+    {
+      "id": "1251-004",
+      "title": "Kublai Khan appointed to govern Mongol territories in China",
+      "region": "Mongolia; China",
+      "coordinates_approx": "39.0, 116.0",
+      "category": "political",
+      "description": "M\u00f6ngke Khan appointed his brother Kublai to oversee Mongol-held territories in northern China and to prepare for the conquest of the Song Dynasty in the south. Kublai began establishing administrative structures and gathering resources for the long campaign that would eventually result in the fall of the Song and the establishment of the Yuan Dynasty. This appointment set Kublai on the path to becoming one of history's most powerful rulers.",
+      "key_figures": [
+        "Kublai Khan (appointed governor)",
+        "M\u00f6ngke Khan (appointer)",
+        "Batu Khan (cousin, ruler of the Golden Horde)"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shi (Official History of the Yuan Dynasty)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Jami' al-tawarikh by Rashid al-Din",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Kublai's appointment to govern Chinese territories is well-attested in Yuan and Islamic sources. The date of 1251 is consistent with the timing of M\u00f6ngke's election and the reorganization of the empire.",
+      "cross_references": [
+        "1271-001 (Kublai Khan proclaimed emperor of Yuan Dynasty)",
+        "1279-001 (Fall of Song Dynasty)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Pastoureaux uprising is sometimes dated to 1251 or 1320; modern scholarship (particularly Cohn and Nirenberg) has questioned whether the 1251 uprising was as large or as violent as later chronicles suggest, noting that accounts may have been conflated with the 1320 uprising or exaggerated for rhetorical effect. The identity and role of the movement's leader(s) remain obscure. Additionally, some sources suggest the Pastoureaux were not primarily anti-Jewish but anti-clerical, though anti-Jewish violence is attested in some accounts.",
+  "historiographic_note": "The year 1251 is well-documented for Mongol political history, drawing on both Islamic and East Asian sources. European sources (particularly French chronicles) provide good coverage of the Pastoureaux uprising. However, the record is heavily weighted toward elite political and military events; the experiences of ordinary people, economic conditions, and developments in regions outside the Mongol Empire and Western Europe are underrepresented. Sub-Saharan African, Southeast Asian, and Oceanic history for this year is essentially absent from surviving written sources.",
+  "graph_edges": [
+    {
+      "from": "1251-001",
+      "to": "1251-003",
+      "relation": "led_to",
+      "note": "M\u00f6ngke's election enabled the appointment of H\u00fcleg\u00fc to lead the Persian campaign"
+    },
+    {
+      "from": "1251-001",
+      "to": "1251-004",
+      "relation": "led_to",
+      "note": "M\u00f6ngke's election enabled the appointment of Kublai to govern Chinese territories"
+    },
+    {
+      "from": "1251-002",
+      "to": "1320-001",
+      "relation": "part_of",
+      "note": "The Pastoureaux movement recurred in 1320; both reflect popular religious ferment and Crusade fatigue"
+    }
+  ]
+}

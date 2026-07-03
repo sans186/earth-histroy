@@ -1,0 +1,237 @@
+{
+  "year": 1603,
+  "year_label": "1603 CE",
+  "era_context": "Early modern period: King James I ascends to the English throne following Elizabeth I's death; the Tokugawa shogunate is established in Japan; the VOC is chartered in the Dutch Republic; the Safavid Empire under Shah Abbas I is expanding; Ming Dynasty China continues under the Wanli Emperor.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited European documentation)",
+    "Interior North America (sparse European contact records)",
+    "Pacific Islands (minimal European knowledge)"
+  ],
+  "events": [
+    {
+      "id": "1603-001",
+      "title": "Peace of Amasya between Ottoman Empire and Safavid Persia",
+      "region": "Ottoman Empire / Safavid Persia border",
+      "coordinates_approx": "40.6, 35.8",
+      "category": "political",
+      "description": "The Peace of Amasya (May 1603) ends the Ottoman-Safavid War (1578\u20131590) and establishes a border between the Ottoman Empire and the Safavid Empire. The treaty recognizes Ottoman control of the Caucasus and Mesopotamia, while the Safavids retain control of Persia proper. The treaty establishes a relatively stable border that will persist for much of the 17th century, though border conflicts continue.",
+      "key_figures": [
+        "Sultan Ahmed I (Ottoman)",
+        "Shah Abbas I (Safavid)",
+        "Ibrahim Pasha (Ottoman negotiator)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman state records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Safavid court chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Ottoman-Safavid relations",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Treaty text is preserved in multiple archives and extensively studied by historians.",
+      "cross_references": [
+        "1606-004 (Treaty of Zsitvatorok)"
+      ]
+    },
+    {
+      "id": "1603-002",
+      "title": "Tokugawa Ieyasu becomes Shogun of Japan",
+      "region": "Japan",
+      "coordinates_approx": "35.6762, 139.6503",
+      "category": "political",
+      "description": "Tokugawa Ieyasu is appointed shogun by the Emperor, establishing the Tokugawa shogunate. This marks the beginning of the Edo period (1603\u20131868), which will last over 250 years and be characterized by political stability, cultural flourishing, and relative isolation from the outside world. Ieyasu's appointment follows his victory at the Battle of Sekigahara (1600) and consolidates his power over Japan.",
+      "key_figures": [
+        "Tokugawa Ieyasu (new Shogun)",
+        "Emperor Go-Y\u014dzei (Japanese Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Tokugawa Iemitsu Nikki and Edo bakufu records",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Edo period",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Well-documented in Japanese administrative records and later compilations.",
+      "cross_references": [
+        "1600-001 (Battle of Sekigahara)",
+        "1605-002 (Tokugawa Ieyasu retires)"
+      ]
+    },
+    {
+      "id": "1603-003",
+      "title": "King James I ascends to English throne",
+      "region": "England",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "political",
+      "description": "King James I (James VI of Scotland) ascends to the English throne following the death of Queen Elizabeth I on March 24, 1603. James is the first Stuart monarch of England and the first to unite the English and Scottish crowns. His accession marks the end of the Tudor dynasty and the beginning of the Stuart period. James brings a different approach to governance than Elizabeth, emphasizing the divine right of kings and seeking peace with Spain.",
+      "key_figures": [
+        "King James I (new English monarch)",
+        "Queen Elizabeth I (predecessor, died)",
+        "Robert Cecil (chief minister)"
+      ],
+      "sources": [
+        {
+          "name": "State Papers Domestic, James I",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles and accounts",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Stuart period",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in contemporary state papers and chronicles. The accession date is precisely recorded.",
+      "cross_references": [
+        "1604-001 (Treaty of London)"
+      ]
+    },
+    {
+      "id": "1603-004",
+      "title": "Samuel de Champlain explores St. Lawrence River",
+      "region": "North America (present-day Canada)",
+      "coordinates_approx": "46.8139, -71.2080",
+      "category": "exploration",
+      "description": "French explorer Samuel de Champlain sails up the St. Lawrence River, exploring the region that will become Quebec. Champlain is seeking a passage to the Pacific and establishing French trading posts. His explorations mark the beginning of French colonial expansion in North America and the establishment of New France.",
+      "key_figures": [
+        "Samuel de Champlain (French explorer)"
+      ],
+      "sources": [
+        {
+          "name": "Champlain's own accounts and journals",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on early French exploration",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Champlain's explorations are documented in his own journals and later accounts, but the exact dates and routes are sometimes debated by historians.",
+      "cross_references": [
+        "1608-001 (Champlain founds Quebec)"
+      ]
+    },
+    {
+      "id": "1603-005",
+      "title": "Wanli Emperor of Ming China continues reign",
+      "region": "Ming China",
+      "coordinates_approx": "39.9042, 116.4074",
+      "category": "political",
+      "description": "The Wanli Emperor continues his reign over Ming China. By 1603, the emperor has been on the throne for over 30 years and is in declining health. The later Wanli period is marked by administrative decline, factional conflicts, and the rise of eunuch power. However, Ming culture and economy remain strong, and China continues to be a major world power.",
+      "key_figures": [
+        "Wanli Emperor (Ming ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Ming court records and administrative documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Ming Dynasty",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Well-documented in Ming administrative records.",
+      "cross_references": [
+        "1572-001 (Wanli Emperor ascends)",
+        "1620-001 (Wanli Emperor dies)"
+      ]
+    },
+    {
+      "id": "1603-006",
+      "title": "Shah Abbas I consolidates Safavid power",
+      "region": "Safavid Persia",
+      "coordinates_approx": "32.6546, 51.6680",
+      "category": "political",
+      "description": "Shah Abbas I, the Safavid ruler, continues his consolidation of power and expansion of the Persian Empire. By 1603, Abbas has defeated the Uzbeks, secured the Caucasus through the Peace of Amasya, and established Persia as a major regional power. He promotes trade, builds infrastructure, and establishes Isfahan as a magnificent capital.",
+      "key_figures": [
+        "Shah Abbas I (Safavid ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Safavid court chronicles and administrative records",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "European diplomatic accounts (e.g., Venetian and English ambassadors)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Safavid Empire",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Well-documented in both Persian and European sources.",
+      "cross_references": [
+        "1603-001 (Peace of Amasya)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Peace of Amasya is sometimes portrayed as a definitive settlement of Ottoman-Safavid relations, but border conflicts continued throughout the 17th century. The treaty established a framework for peace but did not eliminate underlying tensions. James I's accession is often portrayed as a dramatic shift in English policy, but recent scholarship suggests continuity with Elizabeth I's policies in many areas. Champlain's explorations are sometimes overstated in terms of their immediate impact; French colonization of North America proceeded slowly and faced significant obstacles.",
+  "historiographic_note": "Documentation for 1603 is rich for European history, with extensive state papers and published works. Asian sources (Japanese, Persian, Chinese) are also well-preserved. However, the record is heavily weighted toward political and military events involving elites. The accession of James I dominates English historical narratives, potentially obscuring other significant events of the year. Economic and social history of non-European regions is underrepresented. Sub-Saharan Africa and interior North America are almost entirely absent from contemporary European records, though Champlain's explorations mark the beginning of more systematic European documentation of North America. The sources themselves are shaped by the interests of the recording institutions (courts, trading companies, religious authorities).",
+  "graph_edges": [
+    {
+      "from": "1603-001",
+      "to": "1606-004",
+      "relation": "led_to",
+      "note": "Peace of Amasya framework leads to Treaty of Zsitvatorok"
+    },
+    {
+      "from": "1603-002",
+      "to": "1605-002",
+      "relation": "led_to",
+      "note": "Tokugawa Ieyasu becomes Shogun, leading to his retirement in 1605"
+    },
+    {
+      "from": "1603-003",
+      "to": "1604-001",
+      "relation": "led_to",
+      "note": "James I's accession leads to Treaty of London with Spain"
+    },
+    {
+      "from": "1603-004",
+      "to": "1608-001",
+      "relation": "led_to",
+      "note": "Champlain's explorations lead to founding of Quebec"
+    },
+    {
+      "from": "1603-001",
+      "to": "1603-006",
+      "relation": "contemporary_with",
+      "note": "Peace of Amasya and Shah Abbas I consolidation are contemporary events"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "year": 1445,
+  "year_label": "1445 CE",
+  "era_context": "Mid-15th century Europe is in transition: the Renaissance is flourishing in Italy, the Hundred Years' War between England and France is nearing its end, and the Ottoman Empire is consolidating power in the eastern Mediterranean. In East Asia, the Ming Dynasty continues its inward focus after the conclusion of Zheng He's voyages. The Aztec Empire in Mesoamerica is at its height under Montezuma I.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records in European sources)",
+    "Southeast Asia (sparse European documentation)",
+    "Pacific Islands and Oceania (minimal contemporary written records)",
+    "Indigenous Americas (limited written records; oral traditions not systematically documented)"
+  ],
+  "events": [
+    {
+      "id": "1445-001",
+      "title": "Hundred Years' War: English losses in Normandy",
+      "region": "Normandy, Kingdom of France",
+      "coordinates_approx": "49.2\u00b0N, 0.4\u00b0E",
+      "category": "military",
+      "description": "English forces, weakened by internal conflict (Wars of the Roses) and French military resurgence under Charles VII, continued to lose territory in Normandy. By 1445, English control in France was reduced to Calais and a few coastal enclaves. The Treaty of Tours (1444) had established a truce, but English military dominance in France, which had lasted over a century, was definitively ending. This marked a turning point in English power and French consolidation.",
+      "key_figures": [
+        "Charles VII (King of France)",
+        "Henry VI (King of England)",
+        "Joan of Arc (deceased 1431, but legacy influenced this period)"
+      ],
+      "sources": [
+        {
+          "name": "English and French royal chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Treaty of Tours (1444)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Modern historiographic consensus on Hundred Years' War",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "English losses in Normandy during this period are well-documented in both English and French sources.",
+      "cross_references": [
+        "Part of broader Hundred Years' War (1337\u20131453)",
+        "Related to: 1453-002 (Fall of Calais)"
+      ]
+    },
+    {
+      "id": "1445-002",
+      "title": "Gutenberg's printing press: continued development",
+      "region": "Mainz, Holy Roman Empire",
+      "coordinates_approx": "50.0\u00b0N, 8.3\u00b0E",
+      "category": "technological",
+      "description": "Gutenberg continued refining his movable-type printing press technology in Mainz. By 1445, the basic mechanics of the press were likely functional, though the exact timeline remains uncertain. The development of oil-based inks compatible with metal type and the refinement of the press mechanism itself were ongoing during this period.",
+      "key_figures": [
+        "Johannes Gutenberg (inventor/printer)"
+      ],
+      "sources": [
+        {
+          "name": "Gutenberg's own records (fragmentary)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later biographical accounts",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The exact timeline of Gutenberg's press development is uncertain. 1445 is within the probable range, but definitive contemporary documentation is lacking.",
+      "cross_references": [
+        "Related to: 1446-002 (Gutenberg's press development)"
+      ]
+    },
+    {
+      "id": "1445-003",
+      "title": "Portuguese exploration: expansion of African trade",
+      "region": "West Africa and Atlantic coast",
+      "coordinates_approx": "null",
+      "category": "exploration",
+      "description": "Portuguese explorers, under the patronage of Prince Henry the Navigator, continued expanding their presence along the West African coast. By 1445, Portuguese trading posts and forts were being established to facilitate trade in gold, ivory, and enslaved people. This period marks the intensification of Portuguese maritime expansion that would lead to the rounding of the Cape of Good Hope and the establishment of a sea route to Asia.",
+      "key_figures": [
+        "Henry the Navigator (Prince of Portugal)",
+        "Portuguese explorers and merchants"
+      ],
+      "sources": [
+        {
+          "name": "Portuguese royal records and chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary accounts of Portuguese exploration",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Modern historiographic consensus on Age of Exploration",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Portuguese exploration of the African coast during this period is well-documented in Portuguese sources.",
+      "cross_references": [
+        "Part of broader Age of Exploration (15th\u201317th centuries)",
+        "Leads to: 1488-001 (Bartolomeu Dias rounds Cape of Good Hope)"
+      ]
+    },
+    {
+      "id": "1445-004",
+      "title": "Council of Constance reforms: ecclesiastical consolidation",
+      "region": "Holy Roman Empire and Catholic Church",
+      "coordinates_approx": "null",
+      "category": "religious",
+      "description": "In the aftermath of the Council of Constance (1414\u20131418), the Catholic Church was consolidating its authority and attempting to suppress heretical movements. By 1445, the Hussite Wars had concluded (1434), and the Church was reasserting control over religious life in Central Europe. This period saw the strengthening of papal authority and the suppression of reform movements that challenged Church doctrine.",
+      "key_figures": [
+        "Pope Eugenius IV (r. 1431\u20131447)",
+        "Church authorities in Central Europe"
+      ],
+      "sources": [
+        {
+          "name": "Papal records and ecclesiastical chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Council of Constance records",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ecclesiastical consolidation in this period is well-documented in Church records.",
+      "cross_references": [
+        "Related to: 1446-004 (Religious reform movements)"
+      ]
+    },
+    {
+      "id": "1445-005",
+      "title": "Ming Dynasty: internal consolidation and Confucian orthodoxy",
+      "region": "China",
+      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E",
+      "category": "political",
+      "description": "The Ming Dynasty under the Zhengtong Emperor (r. 1435\u20131449) was consolidating Confucian orthodoxy and centralizing imperial authority. By 1445, the court had definitively ended maritime expeditions and was focusing on land-based defense and internal administration. This shift reflected the triumph of Confucian scholars over eunuch factions and marked a turning inward of Ming policy.",
+      "key_figures": [
+        "Zhengtong Emperor (Ming Emperor, r. 1435\u20131449)"
+      ],
+      "sources": [
+        {
+          "name": "Ming official records (Mingshi)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary Ming court records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ming Dynasty policies during this period are well-documented in official records.",
+      "cross_references": [
+        "Related to: 1446-003 (Zheng He's voyages conclude)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Gutenberg's press development remains disputed; 1445 is within the probable range but lacks definitive contemporary documentation. Some scholars argue the press was developed incrementally rather than in a single year. The characterization of Portuguese exploration as purely commercial and exploratory obscures the role of slavery and coercion in early Portuguese-African contact, which is often underemphasized in traditional historiography.",
+  "historiographic_note": "Documentation for 1445 is moderate, with strong coverage of European political and military events. Chinese sources are abundant for Ming Dynasty activities. However, African, Southeast Asian, and American sources are sparse or absent from European historiography. The surviving record reflects the interests of court-sponsored chroniclers and religious institutions. The role of non-European actors in global events is often marginalized or absent.",
+  "graph_edges": [
+    {
+      "from": "1445-001",
+      "to": "1453-002",
+      "relation": "led_to",
+      "note": "English losses in France culminated in fall of Calais in 1453"
+    },
+    {
+      "from": "1445-002",
+      "to": "1455-001",
+      "relation": "led_to",
+      "note": "Gutenberg's press development led to Gutenberg Bible completion"
+    },
+    {
+      "from": "1445-003",
+      "to": "1488-001",
+      "relation": "led_to",
+      "note": "Portuguese exploration of African coast led to rounding of Cape of Good Hope"
+    },
+    {
+      "from": "1445-005",
+      "to": "1449-001",
+      "relation": "led_to",
+      "note": "Ming consolidation continued until Tumu Crisis in 1449"
+    }
+  ]
+}

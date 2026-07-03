@@ -1,0 +1,257 @@
+{
+  "year": 1494,
+  "year_label": "1494 CE",
+  "era_context": "The year 1494 marks a watershed moment in European and world history. In Europe, Charles VIII of France invades Italy, initiating the Italian Wars (1494\u20131559), which would reshape the political landscape of the peninsula and draw in major European powers. The Ottoman Empire under Bayezid II continues to consolidate control of the Eastern Mediterranean and Balkans. In East Asia, the Ming Dynasty under the Hongwu Emperor's successors is in a period of relative stability. In the Americas, Columbus's first voyage (1492) has recently concluded, and the age of European exploration is accelerating. The Treaty of Tordesillas (June 1494) divides the non-European world between Spain and Portugal, establishing the framework for European colonial expansion.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1494-001",
+      "title": "Charles VIII of France Invades Italy (Beginning of the Italian Wars)",
+      "region": "Italy (Kingdom of Naples)",
+      "coordinates_approx": "40.8, 14.3",
+      "category": "military",
+      "description": "In September 1494, King Charles VIII of France invaded Italy with a large army, claiming the throne of Naples. This invasion, which lasted until 1495, initiated the Italian Wars (1494\u20131559), a series of conflicts that would dominate European politics for the next 65 years. Charles VIII's invasion demonstrated the military superiority of French artillery and pike formations and exposed the vulnerability of Italian city-states. The invasion had profound consequences for Italian politics, European diplomacy, and the balance of power in Europe.",
+      "key_figures": [
+        "Charles VIII of France (invader)",
+        "Alfonso II of Naples (defender)",
+        "Ludovico Sforza, Duke of Milan (ally of Charles VIII)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary chronicles by Italian historians (e.g., Marino Sanuto, Paolo Giovio)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "French royal records and military accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from military and political historians (e.g., Michael Mallett, Christine Shaw)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Charles VIII's invasion of Italy in September 1494 is extensively documented in contemporary chronicles and military records. The date and basic facts are secure.",
+      "cross_references": [
+        "1495-001 (Battle of Fornovo, major engagement in the Italian Wars)",
+        "1496-004 (Battle of the Taro, continuation of the Italian Wars)"
+      ]
+    },
+    {
+      "id": "1494-002",
+      "title": "Treaty of Tordesillas (Spain and Portugal)",
+      "region": "Tordesillas, Spain",
+      "coordinates_approx": "41.5, -5.4",
+      "category": "political",
+      "description": "On June 7, 1494, Spain and Portugal signed the Treaty of Tordesillas, which divided the non-European world between the two Iberian powers. The treaty established a line of demarcation 370 leagues west of the Cape Verde Islands, with Spain receiving territories to the west and Portugal receiving territories to the east. This treaty, negotiated with papal mediation, became the foundation for European colonial expansion and had profound consequences for the Americas, Africa, and Asia. The treaty effectively divided the world into Spanish and Portuguese spheres of influence.",
+      "key_figures": [
+        "Ferdinand II of Aragon (Spanish monarch)",
+        "Isabella I of Castile (Spanish monarch)",
+        "John II of Portugal (Portuguese monarch)",
+        "Pope Alexander VI (mediator)"
+      ],
+      "sources": [
+        {
+          "name": "Treaty of Tordesillas (June 7, 1494), primary diplomatic text",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Spanish and Portuguese royal records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Papal bulls and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from diplomatic and colonial historians",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Treaty of Tordesillas is one of the most securely dated and well-documented diplomatic agreements of the early modern period. The date (June 7, 1494) is secure.",
+      "cross_references": [
+        "1492-001 (Columbus's first voyage, context for the treaty)",
+        "1493-001 (Papal bulls dividing the world, precedent for Tordesillas)"
+      ]
+    },
+    {
+      "id": "1494-003",
+      "title": "Columbus's Second Voyage Departs Spain",
+      "region": "Spain (C\u00e1diz), Atlantic Ocean",
+      "coordinates_approx": "36.5, -6.3",
+      "category": "exploration",
+      "description": "In September 1494, Christopher Columbus departed Spain on his second voyage to the Americas, commanding a much larger fleet (17 ships) than his first voyage (1492). This expedition, which lasted until 1496, aimed to establish a permanent settlement in the Caribbean and explore further. Columbus founded the settlement of La Isabela on Hispaniola and explored the Lesser Antilles and Jamaica. The second voyage was more ambitious than the first but also more troubled, marked by disease, conflict with indigenous peoples, and logistical challenges.",
+      "key_figures": [
+        "Christopher Columbus (commander)",
+        "Ferdinand II of Aragon (patron)",
+        "Isabella I of Castile (patron)"
+      ],
+      "sources": [
+        {
+          "name": "Columbus's letters and journals (some lost, some preserved in later compilations)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles by Spanish historians (e.g., Bartolom\u00e9 de las Casas)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Columbus scholars",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Columbus's second voyage departure in September 1494 is well-documented in contemporary Spanish records and later chronicles. The date is secure.",
+      "cross_references": [
+        "1492-001 (Columbus's first voyage)",
+        "1496-001 (Columbus's second voyage concludes)"
+      ]
+    },
+    {
+      "id": "1494-004",
+      "title": "Portuguese Exploration of the African Coast: Bartolomeu Dias Continues Exploration",
+      "region": "West and Central Africa (Portuguese exploration)",
+      "coordinates_approx": "-10.0, 13.0",
+      "category": "exploration",
+      "description": "In 1494, Portuguese explorers, following the precedent of Bartolomeu Dias's rounding of the Cape of Good Hope in 1488, continued their systematic exploration of the African coast. Portuguese trading posts and forts were being established along the coast, and Portuguese merchants were increasingly engaged in the slave trade and gold trade. This period saw the intensification of Portuguese colonial expansion in Africa.",
+      "key_figures": [
+        "King Manuel I of Portugal (patron)",
+        "Bartolomeu Dias (explorer, advisor)"
+      ],
+      "sources": [
+        {
+          "name": "Portuguese royal records and trading company documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later Portuguese chronicles (e.g., Jo\u00e3o de Barros, D\u00e9cadas da \u00c1sia)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Portuguese maritime historians",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Portuguese exploration of the African coast in 1494 is well-established in the broader context of Portuguese expansion. Specific events and dates for 1494 are less clearly documented than those of earlier (1488) or later (1498) voyages.",
+      "cross_references": [
+        "1488-001 (Bartolomeu Dias rounds the Cape of Good Hope)",
+        "1496-002 (Vasco da Gama departs for India)"
+      ]
+    },
+    {
+      "id": "1494-005",
+      "title": "Ottoman-Mamluk War (Continuation): Naval Conflict in the Eastern Mediterranean",
+      "region": "Eastern Mediterranean (Ottoman Empire and Mamluk Sultanate)",
+      "coordinates_approx": "35.0, 30.0",
+      "category": "military",
+      "description": "In 1494, the Ottoman-Mamluk War (1485\u20131491) had recently concluded, but Ottoman-Mamluk tensions remained high. The Ottomans under Bayezid II were consolidating control of the Eastern Mediterranean, and the Mamluks of Egypt were defending their interests. Naval conflicts and corsairing activities continued to characterize the relationship between the two powers. This period saw the Ottoman Empire's increasing dominance in the Eastern Mediterranean.",
+      "key_figures": [
+        "Bayezid II (Ottoman Sultan)",
+        "Qaitbay (Mamluk Sultan, died 1496)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (e.g., Tursun Beg)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Mamluk chronicles and administrative records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from Ottoman and Mediterranean historians",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ottoman-Mamluk tensions in 1494 are well-established in the broader context of Ottoman expansion. Specific military engagements in 1494 are less clearly documented than those of the 1485\u20131491 war or the 1499\u20131503 Ottoman-Venetian War.",
+      "cross_references": [
+        "1485-001 (Ottoman-Mamluk War begins)",
+        "1491-001 (Ottoman-Mamluk War concludes)"
+      ]
+    },
+    {
+      "id": "1494-006",
+      "title": "Ming Dynasty: Reign of the Hongwu Emperor's Successors (Stable Period)",
+      "region": "China (Ming Dynasty)",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "In 1494, the Ming Dynasty under the successors of the Hongwu Emperor was in a period of relative stability and consolidation. The Zhengde Emperor, who would ascend the throne in 1505, was not yet born (he was born in 1495). The Ming Dynasty was characterized by strong centralized governance, Confucian bureaucracy, and cultural flourishing. This period saw the continuation of the Ming's maritime expeditions (though Zheng He's voyages had ended in 1433) and the consolidation of Ming control over China.",
+      "key_figures": [
+        "Hongwu Emperor's successors (reigning until 1505)",
+        "Confucian bureaucrats and court officials"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Chinese historiographic consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The broader context of Ming Dynasty politics in 1494 is well-established. Specific events of this year are less prominent in surviving records.",
+      "cross_references": [
+        "1368-001 (Ming Dynasty founded)",
+        "1505-001 (Zhengde Emperor ascends throne)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Treaty of Tordesillas (1494) is often presented as a clear and definitive division of the world between Spain and Portugal, but modern scholarship emphasizes its limitations and contested interpretation. The treaty's line of demarcation was based on imprecise geographical knowledge, and disputes over the exact location of the line persisted for centuries. Additionally, the treaty's provisions were not universally accepted by other European powers (particularly England, France, and the Dutch), and it did not prevent conflicts over colonial territories. The treaty's significance is sometimes overstated in popular histories; it was one of several diplomatic instruments (including papal bulls) that shaped European colonial expansion, not the sole determinant. Charles VIII's invasion of Italy (1494) is sometimes presented as a clear military triumph, but modern scholarship emphasizes the invasion's mixed results and the significant resistance it encountered. The invasion did not result in a stable French conquest of Naples, and Charles VIII's withdrawal in 1495 suggests the limits of French power. Columbus's second voyage (1494) is often overshadowed by his first voyage (1492) in popular narratives, and its significance is sometimes underestimated. The second voyage was more ambitious and longer-lasting than the first, but it was also more troubled and less successful in achieving its goals of establishing a permanent settlement.",
+  "historiographic_note": "The year 1494 is exceptionally well-documented for European events, particularly military, diplomatic, and exploratory affairs, due to the survival of royal records, chronicles, and diplomatic correspondence. Spanish, Portuguese, French, and Italian sources are particularly rich. However, documentation remains heavily weighted toward Western Europe. Ottoman and Mamluk sources exist but are less abundant in Western archives. Chinese sources (Ming Shilu) are comprehensive but focus primarily on court politics and administrative matters. African and American sources are sparse or absent from surviving records. The narrative of 1494 is heavily shaped by European perspectives, particularly the Italian Wars, the Treaty of Tordesillas, and the age of exploration. The significance of 1494 in European history is undeniable, but the treaty's global impact is sometimes overstated in retrospective accounts. The year marks a turning point in European expansion, but the full consequences of the treaty and the invasions would not be apparent for decades or centuries.",
+  "graph_edges": [
+    {
+      "from": "1494-001",
+      "to": "1495-001",
+      "relation": "led_to",
+      "note": "Charles VIII's invasion of Italy led to the Battle of Fornovo in 1495"
+    },
+    {
+      "from": "1494-002",
+      "to": "1492-001",
+      "relation": "part_of",
+      "note": "Treaty of Tordesillas is a diplomatic consequence of Columbus's 1492 voyage"
+    },
+    {
+      "from": "1494-003",
+      "to": "1492-001",
+      "relation": "part_of",
+      "note": "Columbus's second voyage is a continuation of his exploration efforts beginning in 1492"
+    },
+    {
+      "from": "1494-004",
+      "to": "1488-001",
+      "relation": "part_of",
+      "note": "Portuguese exploration of Africa in 1494 continues the efforts initiated by Dias's 1488 voyage"
+    },
+    {
+      "from": "1494-005",
+      "to": "1485-001",
+      "relation": "part_of",
+      "note": "Ottoman-Mamluk tensions in 1494 are a continuation of the 1485\u20131491 war"
+    }
+  ]
+}

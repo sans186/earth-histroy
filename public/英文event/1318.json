@@ -1,0 +1,77 @@
+{
+  "year": 1318,
+  "year_label": "1318 CE",
+  "era_context": "The early 14th century saw the consolidation of regional powers following the fragmentation of the Mongol Empire. In Europe, feudal hierarchies were being tested by economic change and dynastic ambitions. The Mali Empire dominated West African trade; the Delhi Sultanate was consolidating power in South Asia; the Yuan Dynasty in China faced increasing internal instability.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Pre-Columbian Americas",
+    "Northern and Eastern Europe",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "1318-001",
+      "title": "Papal election of Pope John XXII",
+      "region": "Avignon, Papal States",
+      "coordinates_approx": "43.9\u00b0N, 4.8\u00b0E",
+      "category": "religious",
+      "description": "Pope John XXII (Jacques d'Euse) was elected pope in 1316 and was firmly established in Avignon by 1318. His papacy (1316\u20131334) was marked by administrative reforms, theological controversies (particularly regarding poverty and the nature of the Beatific Vision), and conflicts with secular rulers. John XXII was one of the most influential popes of the 14th century, and his papacy represented the consolidation of the Avignon Papacy, which had moved from Rome in 1309.",
+      "key_figures": [
+        "Pope John XXII (Jacques d'Euse)"
+      ],
+      "sources": [
+        {
+          "name": "Papal registers and correspondence (Vatican Archives)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Villani, Giovanni, Nuova Cronica",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Pope John XXII's election and papacy are well documented in papal records and contemporary chronicles.",
+      "cross_references": []
+    },
+    {
+      "id": "1318-002",
+      "title": "Continued Mongol fragmentation and regional consolidation",
+      "region": "Mongol successor states (Yuan, Chagatai, Golden Horde, Ilkhanate)",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "By 1318, the fragmentation of the Mongol Empire into regional successor states was well established. The Yuan Dynasty in China, the Chagatai Khanate in Central Asia, the Golden Horde in Eastern Europe, and the Ilkhanate in Persia were all functioning as independent powers. This period marked the consolidation of these regional states and the beginning of their decline as Mongol unity dissolved. The process would continue throughout the 14th century.",
+      "key_figures": [
+        "Mongol khans of various successor states"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Dynasty records, Ilkhanate chronicles, and Russian sources",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Mongol fragmentation",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The fragmentation of the Mongol Empire is well documented, though specific events in 1318 are not always precisely dated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "Pope John XXII is sometimes portrayed as a purely administrative figure, but modern scholarship emphasizes his significant theological influence and his controversial positions on poverty and the Beatific Vision, which generated substantial opposition. The Mongol fragmentation is sometimes presented as a simple decline, but modern scholarship recognizes that the successor states were often more administratively sophisticated and stable than the unified empire.",
+  "historiographic_note": "Documentation for 1318 is sparse. European sources (papal records, chronicles) provide some information, but specific events in this year are often not precisely dated. Asian sources (Yuan, Ilkhanate) exist but are less accessible in Western scholarship. African sources are largely absent. The year 1318 has no particular historiographic significance and is treated here as part of broader early 14th-century trends.",
+  "graph_edges": [
+    {
+      "from": "1318-001",
+      "to": "1309-001",
+      "relation": "part_of",
+      "note": "Pope John XXII's establishment in Avignon in 1318 was part of the broader Avignon Papacy, which began in 1309."
+    }
+  ]
+}

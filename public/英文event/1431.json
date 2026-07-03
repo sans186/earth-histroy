@@ -1,0 +1,228 @@
+{
+  "year": 1431,
+  "year_label": "1431 CE",
+  "era_context": "The early 15th century in Europe is marked by the Council of Constance's aftermath, the Hussite Wars in Bohemia, the early Italian Renaissance, and the consolidation of early modern nation-states. In East Asia, the Ming Dynasty under the Yongle Emperor's successors continues maritime exploration and administrative centralisation. The Ottoman Empire expands in the Balkans. This is a period of religious reformation, technological innovation (printing press emerging), and political fragmentation in Europe alongside cultural flourishing.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources; oral traditions not systematically recorded)",
+    "Interior Americas (Aztec and Inca records exist but are fragmentary; Spanish conquest narratives dominate later sources)",
+    "Southeast Asian kingdoms (some chronicle material exists but is underrepresented in Western scholarship)"
+  ],
+  "events": [
+    {
+      "id": "1431-001",
+      "title": "Execution of Joan of Arc",
+      "region": "Rouen, Normandy, Kingdom of France",
+      "coordinates_approx": "49.44, 1.09",
+      "category": "political",
+      "description": "Joan of Arc, the French military leader who had rallied Valois forces during the Hundred Years' War, was burned at the stake on 30 May 1431 after being tried for heresy and witchcraft by an English-aligned ecclesiastical court. Her execution marked a symbolic turning point in Franco-English conflict, though the war continued for another two decades. Joan's death became a rallying point for French national identity and was later reversed by papal inquiry in 1456. Her trial records survive in detail, making this one of the best-documented executions of the medieval period.",
+      "key_figures": [
+        "Joan of Arc (military leader, executed)",
+        "Henry VI (King of England, nominal authority)",
+        "Pierre Cauchon (Bishop of Beauvais, presiding judge)",
+        "Charles VII (King of France, did not intervene)"
+      ],
+      "sources": [
+        {
+          "name": "Trial records of Joan of Arc (Proc\u00e8s de condamnation), contemporary court documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jean de Metz and Jean de Belleville, contemporary witnesses",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Papal inquiry records (Proc\u00e8s en nullit\u00e9), 1456",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Execution date of 30 May 1431 is confirmed by multiple contemporary sources and trial records. The trial itself is exceptionally well-documented.",
+      "cross_references": [
+        "1429-001 (Joan's military victories at Orl\u00e9ans)",
+        "1456-XXX (Papal reversal of conviction, if included in dataset)"
+      ]
+    },
+    {
+      "id": "1431-002",
+      "title": "Council of Constance concludes; Hussite Wars intensify",
+      "region": "Bohemia, Central Europe",
+      "coordinates_approx": "49.75, 15.47",
+      "category": "religious",
+      "description": "The Council of Constance (1414\u20131418) had condemned Jan Hus and attempted to suppress Hussite reform. By 1431, the Hussite Wars were in their second decade, with radical Taborite and moderate Utraquist factions fighting Catholic forces and each other. The Council of Basel (1431\u20131449) convened partly to address the Hussite crisis. The conflict represented one of the earliest sustained challenges to papal authority and foreshadowed the Protestant Reformation by nearly a century. Military innovations, including the use of wagons as mobile fortifications, emerged from Hussite tactics.",
+      "key_figures": [
+        "Jan \u017di\u017eka (Hussite military commander, died 1424 but legacy dominant)",
+        "Prokop the Great (Hussite commander, active 1431)",
+        "Sigismund of Luxembourg (Holy Roman Emperor, leading Catholic response)"
+      ],
+      "sources": [
+        {
+          "name": "Laurence of B\u0159ezov\u00e1, Hussite Chronicle (contemporary account)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Council of Basel records and decrees",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Catholic polemical accounts (e.g., Aeneas Silvius Piccolomini, later Pope Pius II)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Council of Basel's opening and the ongoing Hussite Wars are well-documented. Specific battles and diplomatic efforts in 1431 are attested in contemporary chronicles.",
+      "cross_references": [
+        "1414-XXX (Council of Constance begins)",
+        "1434-XXX (Battle of Lipany, Hussite factional conflict)"
+      ]
+    },
+    {
+      "id": "1431-003",
+      "title": "Zheng He's treasure voyages continue under Ming Dynasty",
+      "region": "Indian Ocean, Southeast Asia, East Africa",
+      "coordinates_approx": "0, 70",
+      "category": "exploration",
+      "description": "The Ming Dynasty's treasure voyages under Admiral Zheng He, which began in 1405, continued into the 1430s. The seventh and final voyage departed in 1433 and returned in 1435. These expeditions, involving massive fleets of hundreds of ships and tens of thousands of personnel, reached the coasts of East Africa, the Arabian Peninsula, and the Indian subcontinent. They were primarily diplomatic and trade missions rather than voyages of conquest. By 1431, the political climate in China was shifting; the Yongle Emperor (who sponsored the voyages) had died in 1424, and his successors were less enthusiastic about maritime expansion. The voyages would cease after 1435, marking a strategic pivot toward continental consolidation.",
+      "key_figures": [
+        "Zheng He (Admiral, Muslim eunuch)",
+        "Yongle Emperor (deceased 1424, but legacy continued)",
+        "Xuande Emperor (reigning 1426\u20131435, less supportive of voyages)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Ming Veritable Records), official court records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ma Huan, Ying-yai Sheng-lan (Overall Survey of the Ocean's Shores), eyewitness account",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from shipwrecks and port sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The voyages are well-documented in Ming records and eyewitness accounts. The seventh voyage's dates (1433\u20131435) are confirmed.",
+      "cross_references": [
+        "1405-XXX (First voyage begins)",
+        "1435-XXX (Final voyage returns; voyages cease)"
+      ]
+    },
+    {
+      "id": "1431-004",
+      "title": "Medici consolidation in Florence; Cosimo de' Medici's influence grows",
+      "region": "Florence, Italian city-states",
+      "coordinates_approx": "43.77, 11.26",
+      "category": "political",
+      "description": "By 1431, Cosimo de' Medici (1389\u20131464), the patriarch of the Medici banking family, had become the dominant political figure in Florence despite holding no formal office. His influence grew through patronage, banking wealth, and strategic alliances. The Medici family's rise was foundational to the Italian Renaissance, as they became major patrons of art, architecture, and humanist scholarship. In 1431, Florence was consolidating its territorial control in Tuscany and establishing itself as a major power in Italian politics, rivalling Venice and Milan.",
+      "key_figures": [
+        "Cosimo de' Medici (banker, de facto ruler)",
+        "Giovanni de' Medici (father, deceased 1429)",
+        "Filippo Brunelleschi (architect, active in Florence)"
+      ],
+      "sources": [
+        {
+          "name": "Vespasiano da Bisticci, Lives of Illustrious Men (later compilation, but based on contemporary knowledge)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Medici family correspondence and account books",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Florentine government records (Signoria)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Cosimo's growing influence by 1431 is attested in family records and government documents, though the precise chronology of his rise to dominance is debated by historians. The year 1431 marks a point in his consolidation rather than a single decisive event.",
+      "cross_references": [
+        "1434-XXX (Cosimo's exile and return)",
+        "1464-XXX (Cosimo's death)"
+      ]
+    },
+    {
+      "id": "1431-005",
+      "title": "Portuguese maritime expansion; Prince Henry the Navigator's school",
+      "region": "Portugal, Atlantic coast",
+      "coordinates_approx": "37.0, -8.5",
+      "category": "exploration",
+      "description": "Prince Henry of Portugal (1394\u20131460), known as 'the Navigator,' was actively sponsoring maritime expeditions along the African coast in the 1430s. His school at Sagres (founded c. 1418) was training navigators and cartographers. By 1431, Portuguese ships had explored the Canary Islands and were beginning systematic exploration of the West African coast. This marked the beginning of European oceanic exploration that would lead to the Age of Discovery. Henry's patronage was driven by commercial interest (gold, spices, slaves) and religious zeal (crusade against Islam).",
+      "key_figures": [
+        "Henry the Navigator (Prince of Portugal, patron)",
+        "Jo\u00e3o Gon\u00e7alves Zarco (explorer, discovered Madeira)",
+        "Bartolomeu Perestrelo (explorer, active in Atlantic)"
+      ],
+      "sources": [
+        {
+          "name": "Gomes Eanes de Zurara, Chronicle of the Discovery and Conquest of Guinea (mid-15th century, but based on contemporary records)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Portuguese royal records and navigation logs",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cartographic evidence (portolan charts)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Henry's patronage and the school's activities are well-documented, though specific expeditions in 1431 are less precisely dated. The broader context of Portuguese exploration in the 1430s is confirmed.",
+      "cross_references": [
+        "1418-XXX (Sagres school founded)",
+        "1444-XXX (Portuguese slave trade intensifies)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Joan of Arc's trial has been extensively re-examined by modern scholarship. While her execution on 30 May 1431 is confirmed, historians debate the extent to which she was a genuine military strategist versus a symbolic figurehead exploited by French nobles. Some scholars argue that the military successes attributed to her (particularly at Orl\u00e9ans in 1429) were primarily due to French commanders like Jean de Dunois and that Joan's role was propagandistic. Additionally, the trial itself is now understood as a political show trial orchestrated by English and Burgundian interests, not a genuine heresy inquiry. The 'Hussite Wars' framing can obscure the fact that Hussite factions were as much in conflict with each other as with Catholic forces; the Taborites and Utraquists had fundamentally different visions. The narrative of Zheng He's voyages as 'peaceful exploration' has been complicated by recent scholarship emphasizing their role in Ming tributary diplomacy and the coercive aspects of 'gift-giving' to foreign rulers. The characterization of these voyages as 'treasure voyages' is partly a modern invention; Ming sources call them 'treasure ship voyages' (baochuan), but the term 'treasure' may be misleading\u2014the ships carried diplomatic gifts and trade goods, not plundered wealth.",
+  "historiographic_note": "The year 1431 is well-documented for Western Europe (Joan of Arc's trial is exceptionally detailed), moderately documented for East Asia (Ming records are comprehensive), and sparsely documented for most other regions. The surviving sources are heavily weighted toward elite political and military events; economic, social, and cultural history are underrepresented. Joan of Arc's trial records are among the most complete medieval trial documents, but they reflect the biases of her English and Burgundian judges. Ming records are official court documents, which tend to emphasize imperial achievements and downplay failures or dissent. Portuguese exploration records are fragmentary and often compiled retrospectively. Sub-Saharan Africa, the Americas, and much of Southeast Asia have minimal written documentation for this year; oral traditions and archaeological evidence are not systematically integrated into Western historical narratives. The dominance of European sources in modern historical training means that events in other regions are likely underrepresented in this summary.",
+  "graph_edges": [
+    {
+      "from": "1431-001",
+      "to": "1429-001",
+      "relation": "caused_by",
+      "note": "Joan's execution was a consequence of her capture following her military campaigns in 1429"
+    },
+    {
+      "from": "1431-002",
+      "to": "1414-XXX",
+      "relation": "part_of",
+      "note": "The Hussite Wars were a direct consequence of the Council of Constance's condemnation of Jan Hus"
+    },
+    {
+      "from": "1431-003",
+      "to": "1405-XXX",
+      "relation": "part_of",
+      "note": "Zheng He's voyages in 1431 were part of the larger series of treasure voyages initiated in 1405"
+    },
+    {
+      "from": "1431-004",
+      "to": "1434-XXX",
+      "relation": "led_to",
+      "note": "Cosimo's consolidation of power in 1431 led to his temporary exile in 1434"
+    },
+    {
+      "from": "1431-005",
+      "to": "1444-XXX",
+      "relation": "led_to",
+      "note": "Henry the Navigator's early expeditions in 1431 led to the intensification of Portuguese slave trade by 1444"
+    }
+  ]
+}

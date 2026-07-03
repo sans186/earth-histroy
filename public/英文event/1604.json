@@ -1,0 +1,227 @@
+{
+  "year": 1604,
+  "year_label": "1604 CE",
+  "era_context": "Early modern period: The reign of King James I in England is in its second year; the Tokugawa shogunate is consolidating power in Japan; the VOC is in its early years of operation; the Safavid Empire under Shah Abbas I is expanding; Ming Dynasty China continues under the Wanli Emperor.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited European documentation)",
+    "Interior North America (sparse European contact records)",
+    "Pacific Islands (minimal European knowledge)"
+  ],
+  "events": [
+    {
+      "id": "1604-001",
+      "title": "Treaty of London ends Anglo-Spanish War",
+      "region": "England / Spain",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "political",
+      "description": "The Treaty of London (August 1604) ends the Anglo-Spanish War (1585\u20131604), which had lasted nearly 20 years. The treaty is negotiated between King James I of England and King Philip III of Spain. It marks a significant shift in English foreign policy, as James seeks peace with Spain rather than continuing the aggressive Protestant stance of his predecessor Elizabeth I. The treaty allows England to focus on internal consolidation and colonial expansion.",
+      "key_figures": [
+        "King James I (England)",
+        "King Philip III (Spain)",
+        "Robert Cecil (English negotiator)",
+        "Duke of Feria (Spanish negotiator)"
+      ],
+      "sources": [
+        {
+          "name": "Treaty of London (1604), primary text",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "State Papers Domestic and Foreign, James I",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on early Stuart foreign policy",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Treaty text is preserved in multiple archives and extensively studied.",
+      "cross_references": [
+        "1603-003 (James I ascends to English throne)"
+      ]
+    },
+    {
+      "id": "1604-002",
+      "title": "Tokugawa Ieyasu consolidates power in Japan",
+      "region": "Japan",
+      "coordinates_approx": "35.6762, 139.6503",
+      "category": "political",
+      "description": "Tokugawa Ieyasu continues to consolidate power as shogun, establishing the foundations of the Edo period. By 1604, the major daimyo have been brought under Tokugawa control, and the shogunate is establishing a stable feudal order. The period is marked by the construction of Edo Castle and the development of Edo (modern Tokyo) as the administrative center of the shogunate.",
+      "key_figures": [
+        "Tokugawa Ieyasu (Shogun)"
+      ],
+      "sources": [
+        {
+          "name": "Tokugawa Iemitsu Nikki and Edo bakufu records",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Edo period",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Well-documented in Japanese administrative records.",
+      "cross_references": [
+        "1603-002 (Tokugawa Ieyasu becomes Shogun)",
+        "1605-002 (Tokugawa Ieyasu retires)"
+      ]
+    },
+    {
+      "id": "1604-003",
+      "title": "Shakespeare's Othello performed",
+      "region": "England",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "cultural",
+      "description": "William Shakespeare's tragedy Othello is performed for the first time, likely at the court of King James I in November 1604. The play explores themes of race, jealousy, and manipulation, and becomes one of Shakespeare's most frequently performed works. The play is published in the First Folio of 1623.",
+      "key_figures": [
+        "William Shakespeare (playwright)",
+        "King James I (patron)"
+      ],
+      "sources": [
+        {
+          "name": "The First Folio (1623), containing Othello",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary accounts and later compilations",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Shakespeare's works",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The first performance date is traditionally dated to November 1604, but this is based on indirect evidence and later accounts. The exact date and venue are debated by scholars.",
+      "cross_references": [
+        "1623-001 (First Folio published)"
+      ]
+    },
+    {
+      "id": "1604-004",
+      "title": "Safavid-Ottoman border conflicts continue",
+      "region": "Caucasus / Ottoman-Safavid border",
+      "coordinates_approx": "41.0, 45.0",
+      "category": "military",
+      "description": "Ongoing border conflicts between the Safavid Empire and the Ottoman Empire in the Caucasus region continue. These conflicts are part of the broader Ottoman-Safavid rivalry that defines the 16th and 17th centuries. The region experiences periodic raids and military campaigns, with control of territories shifting between the two powers.",
+      "key_figures": [
+        "Shah Abbas I (Safavid)",
+        "Sultan Ahmed I (Ottoman)"
+      ],
+      "sources": [
+        {
+          "name": "Safavid court chronicles and Ottoman records",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Ottoman-Safavid conflicts",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Border conflicts are well-attested in both Ottoman and Safavid records, though specific events in 1604 are not always precisely dated.",
+      "cross_references": [
+        "1603-001 (Peace of Amasya)"
+      ]
+    },
+    {
+      "id": "1604-005",
+      "title": "VOC continues expansion in Southeast Asia",
+      "region": "Dutch East Indies",
+      "coordinates_approx": "-6.2088, 106.8456",
+      "category": "economic",
+      "description": "The Dutch East India Company (VOC) continues its aggressive expansion in Southeast Asia, establishing trading posts and displacing Portuguese traders. By 1604, the VOC has established a significant presence in the Moluccas and is beginning to expand into Java. The company is rapidly becoming the dominant European power in the region.",
+      "key_figures": [
+        "Steven van der Hagen (VOC admiral)"
+      ],
+      "sources": [
+        {
+          "name": "VOC records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on VOC expansion",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Documented in VOC corporate records and Dutch colonial archives.",
+      "cross_references": [
+        "1602-001 (VOC charter)",
+        "1605-005 (VOC spice trade control)"
+      ]
+    },
+    {
+      "id": "1604-006",
+      "title": "Wanli Emperor of Ming China continues reign",
+      "region": "Ming China",
+      "coordinates_approx": "39.9042, 116.4074",
+      "category": "political",
+      "description": "The Wanli Emperor continues his reign over Ming China. By 1604, the emperor has been on the throne for over 30 years and is in declining health. The later Wanli period is marked by administrative decline, factional conflicts, and the rise of eunuch power. However, Ming culture and economy remain strong.",
+      "key_figures": [
+        "Wanli Emperor (Ming ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Ming court records and administrative documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Ming Dynasty",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Well-documented in Ming administrative records.",
+      "cross_references": [
+        "1572-001 (Wanli Emperor ascends)",
+        "1620-001 (Wanli Emperor dies)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Treaty of London is sometimes portrayed as a major diplomatic victory for James I, but recent scholarship suggests that the treaty was largely a continuation of existing policies and did not represent a dramatic shift in English foreign policy. The treaty's significance has been somewhat exaggerated in popular histories. The first performance date of Othello is traditionally dated to November 1604, but this is based on indirect evidence and later accounts; some scholars argue for alternative dates. Shakespeare's plays were not always recognized as masterpieces during his lifetime; their canonical status was established gradually over centuries.",
+  "historiographic_note": "Documentation for 1604 is rich for European history, with extensive state papers and published works. Asian sources (Japanese, Persian, Chinese) are also well-preserved. However, the record is heavily weighted toward political and military events involving elites. Cultural events like Shakespeare's plays are well-documented because they were performed for the court and later published. Economic and social history of non-European regions is underrepresented. Sub-Saharan Africa and interior North America are almost entirely absent from contemporary European records. The sources themselves are shaped by the interests of the recording institutions (courts, trading companies, religious authorities).",
+  "graph_edges": [
+    {
+      "from": "1604-001",
+      "to": "1603-003",
+      "relation": "led_to",
+      "note": "Treaty of London follows from James I's ascension and desire for peace"
+    },
+    {
+      "from": "1604-002",
+      "to": "1605-002",
+      "relation": "led_to",
+      "note": "Tokugawa consolidation continues toward Ieyasu's retirement"
+    },
+    {
+      "from": "1604-003",
+      "to": "1623-001",
+      "relation": "led_to",
+      "note": "Othello performance leads to publication in First Folio"
+    },
+    {
+      "from": "1604-005",
+      "to": "1605-005",
+      "relation": "led_to",
+      "note": "VOC expansion continues toward spice trade monopoly"
+    }
+  ]
+}

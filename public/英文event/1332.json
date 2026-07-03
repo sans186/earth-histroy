@@ -1,0 +1,47 @@
+{
+  "year": 1332,
+  "year_label": "1332 CE",
+  "era_context": "The early 14th century, with the Yuan Dynasty in decline in China, the Ottoman Empire consolidating power in Anatolia, the Hundred Years' War approaching, and Europe in the late medieval period. Plague is endemic in Asia. This is a period of political fragmentation, military innovation, and cultural transition across Eurasia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa \u2014 no contemporary written sources",
+    "Southeast Asia \u2014 minimal documentation",
+    "Indigenous Americas \u2014 no contemporary written records",
+    "Eastern Europe and Russia \u2014 limited sources"
+  ],
+  "events": [
+    {
+      "id": "1332-001",
+      "title": "Famine in northern China and Mongolia",
+      "region": "Northern China, Mongolia, Yuan Dynasty territories",
+      "coordinates_approx": "40.0, 105.0",
+      "category": "environmental",
+      "description": "Severe famine was reported in northern China and Mongolia, causing widespread mortality and social disruption. The famine was likely caused by drought, poor harvests, and the disruption of the Yuan Dynasty's administrative systems. These famines contributed to the conditions that would fuel rebellious movements and eventually lead to the collapse of Yuan rule. The famine is documented in later Chinese chronicles and represents part of the broader crisis of Yuan legitimacy in the 1330s.",
+      "key_figures": [
+        "Toghon Tem\u00fcr (Yuan emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shi (History of the Yuan)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Famines in Yuan China in the early 1330s are documented in later compilations, but specific dating and severity are difficult to verify. The broader context of Yuan decline is clear.",
+      "cross_references": [
+        "1333-002 (Famine in China)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, the distinction between the 1332 and 1333 famines is unclear; they may represent the same famine event or separate but related crises. The exact chronology of Yuan Dynasty famines in the 1330s is uncertain.",
+  "historiographic_note": "Documentation for 1332 is extremely sparse. No major political or military events are clearly documented for this specific year in most regions. The single entry above reflects a broader trend (famine and Yuan decline) rather than a discrete event. Chinese sources are the primary documentation, with later compilations providing the only records. The absence of documentation for most of the world reflects the severe bias of surviving written sources toward East Asia.",
+  "graph_edges": [
+    {
+      "from": "1332-001",
+      "to": "1333-002",
+      "relation": "contemporary_with",
+      "note": "Part of broader famine crisis in Yuan China"
+    }
+  ]
+}

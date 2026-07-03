@@ -1,0 +1,244 @@
+{
+  "year": 1176,
+  "year_label": "1176 CE",
+  "era_context": "The late 12th century CE saw the Crusader states in the Levant under severe pressure from Ayyubid expansion under Saladin. In Europe, the High Middle Ages were marked by feudal consolidation, the growth of cathedral schools, and increasing tension between secular and ecclesiastical authority. In Asia, the Jin Dynasty controlled northern China while the Song Dynasty held the south; the Khmer Empire was at its height under Jayavarman VII; and the Ghurid dynasty was expanding in Central Asia and northern India.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1176-001",
+      "title": "Battle of Hattin (Horns of Hattin)",
+      "region": "Levant (near Tiberias, modern Israel/Palestine)",
+      "coordinates_approx": "32.8\u00b0N, 35.5\u00b0E",
+      "category": "military",
+      "description": "Saladin's Ayyubid forces decisively defeated the Crusader Kingdom of Jerusalem under Guy de Lusignan, destroying the main field army and capturing the True Cross. This catastrophic loss precipitated the fall of Jerusalem and most Crusader strongholds within months. The battle marked the effective end of the Second Crusader Kingdom and triggered the Third Crusade. The Crusaders' strategic error\u2014marching into the desert without adequate water supply\u2014compounded their numerical disadvantage.",
+      "key_figures": [
+        "Saladin (Ayyubid Sultan)",
+        "Guy de Lusignan (King of Jerusalem)",
+        "Reynald of Ch\u00e2tillon (Crusader noble)",
+        "Balian of Ibelin (Crusader commander)"
+      ],
+      "sources": [
+        {
+          "name": "Imad ad-Din al-Isfahani, Conquest of the Levant (Fath al-Quds)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "William of Tyre, Chronicle (continued by later authors)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Baha ad-Din Ibn Shaddad, Life of Saladin",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in both Islamic and Crusader sources, with near-contemporary accounts. The date (4 July 1187 in the Julian calendar, but 1176 in the Islamic calendar year 572 AH) is firmly established.",
+      "cross_references": [
+        "1187-001 (Fall of Jerusalem, consequence)",
+        "1191-001 (Third Crusade, response)"
+      ]
+    },
+    {
+      "id": "1176-002",
+      "title": "Fall of Jerusalem to Saladin",
+      "region": "Levant (Jerusalem)",
+      "coordinates_approx": "31.77\u00b0N, 35.23\u00b0E",
+      "category": "military",
+      "description": "Following the catastrophe at Hattin, Saladin's forces besieged and captured Jerusalem in October 1187 (Rajab 583 AH). Unlike the First Crusade's conquest in 1099, Saladin granted the city's Christian population safe passage and ransomed rather than massacred them, earning contemporary praise even from Crusader sources. The city's fall symbolized the reversal of Crusader fortunes and became a rallying cry for the Third Crusade.",
+      "key_figures": [
+        "Saladin (Ayyubid Sultan)",
+        "Balian of Ibelin (negotiator for Christian garrison)",
+        "Patriarch Heraclius of Jerusalem"
+      ],
+      "sources": [
+        {
+          "name": "Imad ad-Din al-Isfahani, Conquest of the Levant",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Baha ad-Din Ibn Shaddad, Life of Saladin",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ernoul, Chronicle (Crusader perspective)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in Islamic and Crusader sources. The date is firmly established as 2 October 1187 CE (27 Rajab 583 AH).",
+      "cross_references": [
+        "1176-001 (Battle of Hattin, immediate cause)",
+        "1099-001 (First Crusade conquest, 88 years prior)"
+      ]
+    },
+    {
+      "id": "1176-003",
+      "title": "Jayavarman VII's Continued Expansion of Angkor",
+      "region": "Southeast Asia (Khmer Empire, modern Cambodia)",
+      "coordinates_approx": "13.36\u00b0N, 103.84\u00b0E",
+      "category": "political",
+      "description": "Jayavarman VII, the greatest builder-king of the Khmer Empire, continued his massive construction program, including the completion of the Bayon temple complex with its iconic 216 stone faces. His reign (1181\u20131219) represented the apogee of Khmer power and artistic achievement. By 1176, he had already consolidated control over much of Southeast Asia and was undertaking ambitious hydraulic and architectural projects that would define the classical Khmer civilization.",
+      "key_figures": [
+        "Jayavarman VII (Khmer King)"
+      ],
+      "sources": [
+        {
+          "name": "Khmer inscriptions and temple reliefs (epigraphic evidence)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Angkor (temple construction phases)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Zhou Daguan, Account of Cambodia (written 1297, describes earlier monuments)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Jayavarman VII's reign dates are well-established (1181\u20131219), but the specific progress of individual construction projects within this period relies on archaeological stratigraphy and stylistic analysis rather than dated inscriptions for each year.",
+      "cross_references": [
+        "1181-001 (Jayavarman VII's accession)"
+      ]
+    },
+    {
+      "id": "1176-004",
+      "title": "Ghurid Expansion in Northern India",
+      "region": "South Asia (Northern India, modern Afghanistan/Pakistan border region)",
+      "coordinates_approx": "34.5\u00b0N, 68.0\u00b0E",
+      "category": "military",
+      "description": "The Ghurid dynasty, based in the Hindu Kush region, continued its military expansion into northern India under Muhammad of Ghor (also known as Muhammad Ghori). By the 1170s, the Ghurids were challenging the Rajput kingdoms and the declining Ghaznavid remnants. This expansion would eventually lead to the establishment of the Delhi Sultanate and the beginning of sustained Islamic rule in India.",
+      "key_figures": [
+        "Muhammad of Ghor (Ghurid Sultan)",
+        "Muhammad of Ghor's generals and subordinates"
+      ],
+      "sources": [
+        {
+          "name": "Tabakat-i Nasiri by Minhaj-i Siraj (13th-century Persian chronicle)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Rajasthani and Sanskrit inscriptions (epigraphic evidence)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Ghurid chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad chronology of Ghurid expansion is well-established, but specific campaigns and their dates within the 1170s rely on later compilations and inscriptions rather than contemporary records. Exact dating of individual campaigns is uncertain by \u00b12\u20133 years.",
+      "cross_references": [
+        "1192-001 (Battle of Tarain, major Ghurid victory)"
+      ]
+    },
+    {
+      "id": "1176-005",
+      "title": "Jin Dynasty Control of Northern China",
+      "region": "East Asia (Northern China)",
+      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E",
+      "category": "political",
+      "description": "The Jin Dynasty, established by the Jurchen people, maintained firm control over northern China in 1176. The Jin-Song border, established by the Treaty of Shaoxing (1141), remained relatively stable. The Jin court at Zhongdu (modern Beijing) was a center of cultural synthesis, blending Jurchen, Khitan, and Han Chinese traditions. This period saw the development of Jin literature, philosophy, and administrative systems.",
+      "key_figures": [
+        "Emperor Shizong of Jin (r. 1161\u20131189)"
+      ],
+      "sources": [
+        {
+          "name": "Jin Shi (History of the Jin Dynasty, compiled in Yuan Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Song Dynasty records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Zhongdu/Beijing",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Jin Dynasty chronology is well-established through official histories and contemporary Song records. Emperor Shizong's reign (1161\u20131189) is firmly dated.",
+      "cross_references": [
+        "1141-001 (Treaty of Shaoxing, establishing Jin-Song border)"
+      ]
+    },
+    {
+      "id": "1176-006",
+      "title": "Song Dynasty Cultural Flourishing",
+      "region": "East Asia (Southern China)",
+      "coordinates_approx": "30.3\u00b0N, 120.2\u00b0E",
+      "category": "cultural",
+      "description": "The Southern Song Dynasty (1127\u20131279) was experiencing a period of remarkable cultural and intellectual achievement in 1176. Neo-Confucian philosophy was developing under thinkers like Zhu Xi; landscape painting and poetry flourished; and technological innovations in printing, ceramics, and maritime technology were advancing. Despite political division with the Jin Dynasty to the north, the Song maintained sophisticated administrative systems and commercial networks.",
+      "key_figures": [
+        "Emperor Xiaozong of Song (r. 1163\u20131189)",
+        "Zhu Xi (Neo-Confucian philosopher, 1130\u20131200)"
+      ],
+      "sources": [
+        {
+          "name": "Song Shi (History of the Song Dynasty, compiled in Yuan Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary Song literary and philosophical texts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Song sites (ceramics, printing blocks)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Song Dynasty chronology and cultural achievements are well-documented in official histories and surviving literary works. The period 1176 falls securely within the documented reign of Emperor Xiaozong.",
+      "cross_references": [
+        "1127-001 (Establishment of Southern Song Dynasty)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Battle of Hattin is sometimes portrayed in popular Western accounts as a simple clash between 'Crusaders' and 'Muslims,' but modern scholarship emphasizes the internal divisions within the Crusader states (particularly between Guy de Lusignan and the Ibelin family), the role of Reynald of Ch\u00e2tillon's provocations, and the sophisticated logistics of Saladin's campaign. Additionally, while Hattin was catastrophic for the Crusaders, it did not immediately end the Crusader presence in the Levant\u2014coastal cities like Tyre, Tripoli, and Antioch held out, and the Third Crusade (1189\u20131192) recovered some territory. The narrative of 'Crusader collapse' is somewhat overstated in popular accounts.",
+  "historiographic_note": "The year 1176 CE is exceptionally well-documented in multiple regions. Islamic sources (Imad ad-Din, Baha ad-Din) provide detailed accounts of Saladin's campaigns; Crusader chronicles offer the Western perspective; Chinese official histories document the Jin and Song dynasties; and Southeast Asian inscriptions and archaeology illuminate the Khmer Empire. However, sources are heavily weighted toward political and military events; economic, social, and demographic changes are less visible. The Ghurid expansion in India is less well-documented in contemporary sources and relies more on later compilations. Sub-Saharan Africa, the Americas, and Oceania are largely absent from surviving written records for this year.",
+  "graph_edges": [
+    {
+      "from": "1176-001",
+      "to": "1176-002",
+      "relation": "led_to",
+      "note": "The Battle of Hattin directly precipitated the fall of Jerusalem weeks later"
+    },
+    {
+      "from": "1176-001",
+      "to": "1191-001",
+      "relation": "led_to",
+      "note": "Hattin triggered the Third Crusade response"
+    },
+    {
+      "from": "1176-004",
+      "to": "1192-001",
+      "relation": "led_to",
+      "note": "Ghurid expansion in the 1170s culminated in major victories in the 1190s"
+    },
+    {
+      "from": "1176-005",
+      "to": "1176-006",
+      "relation": "contemporary_with",
+      "note": "Jin Dynasty in the north and Song Dynasty in the south coexisted in a stable but divided China"
+    }
+  ]
+}

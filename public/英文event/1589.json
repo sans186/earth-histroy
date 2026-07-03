@@ -1,0 +1,170 @@
+{
+  "year": 1589,
+  "year_label": "1589 CE",
+  "era_context": "Late 16th century: Spain under Philip II remains powerful but weakened by the failed Armada (1588). France is in the midst of the Wars of Religion, with the assassination of Henry III marking a succession crisis. England under Elizabeth I consolidates naval power. The Ottoman Empire controls the eastern Mediterranean. In Asia, the Ming Dynasty rules China; Japan is in final unification under Toyotomi Hideyoshi.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited European documentation)",
+    "Interior South America and North America (minimal European contact documentation)"
+  ],
+  "events": [
+    {
+      "id": "1589-001",
+      "title": "Assassination of Henry III of France; Henry of Navarre becomes heir to the throne",
+      "region": "France",
+      "coordinates_approx": "48.8,2.3",
+      "category": "political",
+      "description": "King Henry III of France is assassinated by Jacques Cl\u00e9ment, a Dominican friar, on August 1, 1589. With his death, the throne passes to Henry of Navarre (Henry IV), a Protestant, creating a succession crisis and intensifying the Wars of Religion. The assassination marks a turning point in French history, as Henry of Navarre must fight to secure his throne against the Catholic League and Spanish intervention.",
+      "key_figures": [
+        "Henry III of France (assassinated king)",
+        "Henry of Navarre (Henry IV, new heir)",
+        "Jacques Cl\u00e9ment (assassin)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary French chronicles and memoirs",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Papal and Spanish diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The assassination is well-documented in multiple contemporary sources with specific dates.",
+      "cross_references": [
+        "1590-001 (Henry IV enters Paris)",
+        "1598-001 (Edict of Nantes)"
+      ]
+    },
+    {
+      "id": "1589-002",
+      "title": "English naval expedition to Spain and Portugal; Drake and Norris campaign",
+      "region": "Spain and Portugal",
+      "coordinates_approx": "40.0,-3.0",
+      "category": "military",
+      "description": "Sir Francis Drake and Sir John Norris lead an English naval and military expedition against Spanish-held territories in Spain and Portugal. The campaign aims to support Portuguese pretenders to the throne and strike at Spanish power in the aftermath of the failed Armada. The expedition is largely unsuccessful and costly, failing to achieve its strategic objectives. It represents English attempts to exploit Spanish weakness after 1588.",
+      "key_figures": [
+        "Sir Francis Drake (English naval commander)",
+        "Sir John Norris (English military commander)",
+        "Antonio, Prior of Crato (Portuguese pretender)"
+      ],
+      "sources": [
+        {
+          "name": "English state papers and military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary English chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Drake-Norris expedition is well-documented in English state papers.",
+      "cross_references": [
+        "1588-002 (Spanish Armada)"
+      ]
+    },
+    {
+      "id": "1589-003",
+      "title": "Wanli Emperor's reign; Ming China experiences economic and military strain",
+      "region": "China",
+      "coordinates_approx": "39.9,116.4",
+      "category": "political",
+      "description": "The Wanli Emperor continues his reign during a period of increasing internal instability and military pressure. Court factionalism intensifies between eunuchs and scholar-officials. Military expenditures on the northern frontier against Jurchen and Mongol threats strain the imperial treasury. The emperor increasingly withdraws from active governance, delegating authority to eunuchs and officials.",
+      "key_figures": [
+        "Wanli Emperor (Ming ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Official Ming Records)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ming administrative records provide detailed documentation.",
+      "cross_references": []
+    },
+    {
+      "id": "1589-004",
+      "title": "Toyotomi Hideyoshi's consolidation of Japan continues; daimyo submission accelerates",
+      "region": "Japan",
+      "coordinates_approx": "35.0,138.0",
+      "category": "political",
+      "description": "Toyotomi Hideyoshi continues the consolidation of power over the Japanese daimyo, with increasing numbers submitting to his authority. The Sengoku period of civil war is effectively ending. Hideyoshi's authority is based on military power and personal prestige rather than institutional structures. By 1589, most major daimyo have acknowledged Hideyoshi's supremacy, though some retain significant regional autonomy.",
+      "key_figures": [
+        "Toyotomi Hideyoshi (Regent of Japan)"
+      ],
+      "sources": [
+        {
+          "name": "Japanese daimyo records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Taik\u014dki and other Japanese chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Hideyoshi's consolidation is well-attested in Japanese records.",
+      "cross_references": [
+        "1590-005 (continuation of consolidation)"
+      ]
+    },
+    {
+      "id": "1589-005",
+      "title": "Ottoman Empire under Murad III; continued control of eastern Mediterranean and Balkans",
+      "region": "Ottoman Empire",
+      "coordinates_approx": "41.0,29.0",
+      "category": "political",
+      "description": "The Ottoman Empire under Murad III (r. 1574\u20131595) continues to control the eastern Mediterranean, the Balkans, and much of the Middle East. The empire faces increasing internal challenges, including administrative corruption and military strain. However, Ottoman naval power remains significant in the Mediterranean, though challenged by European powers. The reign of Murad III marks the beginning of Ottoman institutional decline.",
+      "key_figures": [
+        "Murad III (Ottoman Sultan)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman administrative records (Ba\u015fbakanl\u0131k Osmanl\u0131 Ar\u015fivi)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Ottoman chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ottoman administrative records provide documentation of this period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The assassination of Henry III is sometimes portrayed as a sudden turning point, but the Wars of Religion had been ongoing for decades, and Henry III's death, while significant, did not immediately resolve the succession crisis. The Drake-Norris expedition is often characterized as a failure, but some historians argue it had limited strategic value and was not as significant as the Armada campaign. The characterization of Hideyoshi's consolidation as 'complete' by 1589 is somewhat conventional; some daimyo retained significant autonomy.",
+  "historiographic_note": "Documentation for 1589 is rich for European and East Asian events. European sources reflect the perspectives of major powers and are heavily weighted toward political and military history. Asian sources are primarily administrative records and later chronicles. The assassination of Henry III is extensively documented in French, Spanish, and papal sources, reflecting the international significance of the event. Sub-Saharan African and interior American events are severely underrepresented.",
+  "graph_edges": [
+    {
+      "from": "1589-001",
+      "to": "1590-001",
+      "relation": "led_to",
+      "note": "Henry III's assassination leads to Henry IV's struggle for the throne"
+    },
+    {
+      "from": "1589-002",
+      "to": "1588-002",
+      "relation": "part_of",
+      "note": "Drake-Norris expedition is part of English response to Armada"
+    },
+    {
+      "from": "1589-001",
+      "to": "1598-001",
+      "relation": "led_to",
+      "note": "Succession crisis leads to Edict of Nantes"
+    }
+  ]
+}

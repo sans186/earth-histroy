@@ -1,0 +1,169 @@
+{
+  "year": 983,
+  "year_label": "983 CE",
+  "era_context": "The late 10th century, a period of state consolidation, religious transformation, and the transition from the Viking Age to medieval state formation. The Byzantine Empire under Basil II was consolidating its military power. The Northern Song dynasty in China was establishing sophisticated administrative systems. Western Europe was developing feudal structures and experiencing monastic reform movements. The Islamic world was intellectually vibrant despite political fragmentation. Scandinavia was transitioning from pagan Viking culture to Christian kingdoms.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Pre-Columbian Americas",
+    "Central Asian nomadic confederations",
+    "Southeast Asian kingdoms"
+  ],
+  "events": [
+    {
+      "id": "983-001",
+      "title": "Death of Otto II and succession of Otto III in the Holy Roman Empire",
+      "region": "Holy Roman Empire (Germany, Italy)",
+      "coordinates_approx": "51.0, 10.0",
+      "category": "political",
+      "description": "Otto II, Holy Roman Emperor, died on December 7, 983, at the age of 28. He was succeeded by his young son Otto III (born 980), who was only three years old at the time of his accession. Otto II's reign had been marked by military campaigns in Italy and conflicts with the Byzantine Empire over territorial control in southern Italy. His death created a succession crisis, as Otto III was too young to rule effectively. The regency fell to Otto's widow, Theophanu (a Byzantine princess), and later to Otto III's grandmother, Adelaide. The succession of a child emperor created a period of instability in the Holy Roman Empire, though the regency of strong women helped maintain continuity.",
+      "key_figures": [
+        "Otto II (Holy Roman Emperor, deceased)",
+        "Otto III (Holy Roman Emperor, child)",
+        "Theophanu (Regent, Byzantine princess)",
+        "Adelaide (Regent, Otto I's widow)"
+      ],
+      "sources": [
+        {
+          "name": "Thietmar of Merseburg, Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Hrosvitha of Gandersheim, historical writings",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Imperial charters and documents",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Otto II's death and Otto III's succession are well-documented in contemporary German and Italian sources.",
+      "cross_references": [
+        "973-001 (Otto II's accession)",
+        "1002-001 (Otto III's death and succession of Henry II)"
+      ]
+    },
+    {
+      "id": "983-002",
+      "title": "Theophanu's regency and Byzantine influence in the Holy Roman Empire",
+      "region": "Holy Roman Empire, Byzantine Empire",
+      "coordinates_approx": "51.0, 10.0",
+      "category": "political",
+      "description": "Following Otto II's death, his widow Theophanu, a Byzantine princess, became regent for the young Otto III. Theophanu brought Byzantine administrative practices and cultural influence to the Holy Roman Empire, strengthening ties between the two empires. Her regency was marked by efforts to maintain imperial authority during a period of potential instability. Theophanu's role as regent was significant in medieval European history, as she was one of the few women to exercise direct political power in this period. Her influence helped shape Otto III's education and worldview, contributing to his later interest in Byzantine culture and imperial ideology.",
+      "key_figures": [
+        "Theophanu (Regent, Byzantine princess)",
+        "Otto III (Holy Roman Emperor, child)"
+      ],
+      "sources": [
+        {
+          "name": "Thietmar of Merseburg, Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Imperial charters and documents",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Theophanu's regency is well-documented in contemporary sources.",
+      "cross_references": []
+    },
+    {
+      "id": "983-003",
+      "title": "Basil II's military campaigns in the Balkans and Anatolia",
+      "region": "Byzantine Empire, Balkans, Anatolia",
+      "coordinates_approx": "41.0, 21.0",
+      "category": "military",
+      "description": "Byzantine Emperor Basil II continued his military campaigns to consolidate control over the Balkans and suppress rival powers. These campaigns were part of a systematic strategy to restore Byzantine territorial dominance. Basil II's military successes established him as one of the most formidable Byzantine emperors. The campaigns involved both direct military engagement and diplomatic maneuvering, gradually bringing Bulgarian and other Balkan territories under Byzantine control.",
+      "key_figures": [
+        "Basil II (Byzantine Emperor)",
+        "Samuel of Bulgaria (Bulgarian ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Skylitzes, Synopsis Historiarum",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine administrative and military records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Basil II's military campaigns are well-documented in Byzantine sources.",
+      "cross_references": []
+    },
+    {
+      "id": "983-004",
+      "title": "Northern Song dynasty consolidation in China",
+      "region": "China",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor Taizong of Northern Song continued his reign, overseeing administrative reforms, military reorganization, and economic development. The Song dynasty was establishing sophisticated bureaucratic systems based on civil service examinations and Confucian principles. The period saw significant technological advancement, including developments in printing, naval technology, and commerce. Song China maintained military pressure against the Khitan Liao dynasty to the north while consolidating internal control and economic prosperity.",
+      "key_figures": [
+        "Taizong (Northern Song Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Song administrative records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Song dynasty activities are well-documented in Chinese historical records.",
+      "cross_references": []
+    },
+    {
+      "id": "983-005",
+      "title": "Continued Viking raids on England and Western Europe",
+      "region": "England, Normandy, coastal Western Europe",
+      "coordinates_approx": "51.5, 0.0",
+      "category": "military",
+      "description": "Scandinavian raiders, operating from bases in Normandy and Denmark, continued systematic raids on English coastal settlements and monasteries. These raids were part of the broader pattern of Viking incursions that characterized the 980s. The raids targeted wealthy monasteries and trading centers, generating significant plunder and forcing English authorities to negotiate tribute payments.",
+      "key_figures": [
+        "Sweyn I Forkbeard (Danish king)",
+        "Ethelred II (English king)"
+      ],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Viking raids in this period are well-attested in English chronicles.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "Modern scholarship has emphasized Theophanu's agency and political acumen, revising earlier characterizations that portrayed her primarily as a passive regent or as merely transmitting Byzantine influence. Some scholars argue that her role in shaping Otto III's policies has been underestimated in traditional narratives.",
+  "historiographic_note": "Documentation for 983 CE is relatively rich for Western Europe and the Byzantine Empire, with contemporary sources available. Chinese sources are abundant and sophisticated. The historical record privileges literate, centralized states and underrepresents non-literate societies. The succession of Otto III is well-documented, but the political dynamics of the regency period are sometimes obscured by later chroniclers' focus on Otto III's later reign.",
+  "graph_edges": [
+    {
+      "from": "983-001",
+      "to": "983-002",
+      "relation": "led_to",
+      "note": "Otto II's death led directly to Theophanu's regency"
+    },
+    {
+      "from": "983-001",
+      "to": "1002-001",
+      "relation": "led_to",
+      "note": "Otto III's succession eventually led to Henry II's accession"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "year": 1080,
+  "year_label": "1080 CE",
+  "era_context": "The late 11th century CE, a period of significant religious, political, and military upheaval across Eurasia. The Investiture Controversy was at its height in Western Europe; the Byzantine Empire was recovering under Alexios I Komnenos; the Seljuk Empire was consolidating control over Anatolia and the Levant; and the Northern Song Dynasty in China was facing external military pressures.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Scandinavia (sparse documentation)",
+    "Pre-Columbian Americas (no written records)"
+  ],
+  "events": [
+    {
+      "id": "1080-001",
+      "title": "Pope Gregory VII excommunicates Emperor Henry IV again; Investiture Controversy intensifies",
+      "region": "Holy Roman Empire, Italy, Papacy",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "religious",
+      "description": "In 1080, Pope Gregory VII renewed his excommunication of Emperor Henry IV, who had defied papal authority by continuing to invest bishops. This was the second major excommunication (the first occurred in 1076). Gregory VII also declared Henry deposed and supported Rudolf of Swabia as an anti-king. This escalation of the Investiture Controversy represented the papacy's assertion of supremacy over secular rulers in ecclesiastical matters. The conflict would dominate European politics for the next four decades.",
+      "key_figures": [
+        "Pope Gregory VII",
+        "Emperor Henry IV",
+        "Rudolf of Swabia (Anti-King)"
+      ],
+      "sources": [
+        {
+          "name": "Gregory VII, Register (papal correspondence and decrees)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Lampert of Hersfeld, Annales (near-contemporary chronicle)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date and fact of the excommunication are well-attested in contemporary papal and imperial sources.",
+      "cross_references": [
+        "1076 (First excommunication of Henry IV)",
+        "1081 (Synod of Brixen, election of anti-pope)"
+      ]
+    },
+    {
+      "id": "1080-002",
+      "title": "Battle of the Vaslui River: Cumans and Pechenegs raid Byzantine territories",
+      "region": "Byzantine Empire, Balkans",
+      "coordinates_approx": "45.8, 27.7",
+      "category": "military",
+      "description": "In 1080, nomadic Cuman and Pecheneg forces raided Byzantine territories in the Balkans, particularly in the region of Vaslui (modern-day Romania). These raids were part of ongoing pressure on the Byzantine Empire from steppe peoples. The Byzantine military, under the newly ascended Alexios I Komnenos, was still in the process of reorganization and could not effectively counter these incursions. These raids would continue intermittently and would eventually contribute to Byzantine appeals for Western military assistance, which led to the First Crusade.",
+      "key_figures": [
+        "Alexios I Komnenos (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Anna Komnena, Alexiad (later compilation based on family records)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine military records and chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Cuman and Pecheneg raids in this period is well-documented, though the specific dating of individual raids can be uncertain. The Battle of the Vaslui River is attested in later Byzantine sources but may be conflated with other raids.",
+      "cross_references": [
+        "1081 (Alexios I's accession and military reorganization)"
+      ]
+    },
+    {
+      "id": "1080-003",
+      "title": "Nizam al-Mulk consolidates Seljuk administrative reforms; Nizamiyya madrasas expand",
+      "region": "Great Seljuk Empire",
+      "coordinates_approx": "35.0, 50.0",
+      "category": "cultural",
+      "description": "In 1080, Nizam al-Mulk, the vizier of Malik Shah I, continued his program of administrative and educational reform. The Nizamiyya madrasas, theological schools established to promote orthodox Sunni Islam and strengthen the state's intellectual and religious authority, were expanding across the empire. These institutions represented a significant innovation in Islamic education and would have lasting influence on Islamic scholarship. Nizam al-Mulk's reforms were aimed at centralizing state power and countering the influence of Ismaili Assassins and other heterodox groups.",
+      "key_figures": [
+        "Nizam al-Mulk (Seljuk Vizier)",
+        "Malik Shah I (Seljuk Sultan)"
+      ],
+      "sources": [
+        {
+          "name": "Nizam al-Mulk, Siyasatname (Book of Government)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Al-Ghazali and other Nizamiyya scholars (writings from this period)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The expansion of the Nizamiyya madrasas and Nizam al-Mulk's administrative reforms are well-documented in Islamic sources.",
+      "cross_references": [
+        "1092 (Death of Nizam al-Mulk and Malik Shah I)"
+      ]
+    },
+    {
+      "id": "1080-004",
+      "title": "Northern Song Dynasty: Wang Anshi's New Policies continue; military expenditures strain finances",
+      "region": "China",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "economic",
+      "description": "In 1080, the Northern Song Dynasty continued to implement Wang Anshi's New Policies (Xin Fa), which included state monopolies on salt and iron, land redistribution, and military reforms. However, these policies remained controversial and were creating significant financial strain. Military expenditures to defend against Western Xia and other external threats were consuming a large portion of the state budget. The Song economy, while advanced, was struggling to sustain both the costs of these reforms and military defense.",
+      "key_figures": [
+        "Emperor Shenzong (Northern Song)",
+        "Wang Anshi (Reformer, died 1086)"
+      ],
+      "sources": [
+        {
+          "name": "Song official histories and administrative records",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Song economic policy",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The continuation of Wang Anshi's policies and their economic impact are well-documented in Chinese historical sources.",
+      "cross_references": [
+        "1086 (Death of Wang Anshi)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of Gregory VII's 1080 excommunication is sometimes presented as a decisive moment in the Investiture Controversy, but modern scholarship notes that it had limited immediate practical effect. Henry IV retained substantial support among German bishops and nobles, and the anti-king Rudolf of Swabia was never able to effectively challenge Henry's authority. The excommunication was more symbolic than transformative. Additionally, the Cuman and Pecheneg raids, while real, are sometimes exaggerated in their impact on Byzantine military capacity; Alexios I's reorganization was proceeding despite these incursions.",
+  "historiographic_note": "The historical record for 1080 is dominated by Western European and Byzantine sources, with good documentation from Islamic sources. Chinese sources provide detailed information about Song Dynasty policies. The record is heavily elite-focused and reflects the perspectives of the Church, imperial courts, and military establishments. The Investiture Controversy is extensively documented but from partisan perspectives. Islamic sources are rich but sometimes compiled centuries later. Sub-Saharan Africa, Northern Europe, and the Americas are absent from the written record.",
+  "graph_edges": [
+    {
+      "from": "1080-001",
+      "to": "1076-GREGORY_EXCOMMUNICATION",
+      "relation": "part_of",
+      "note": "The 1080 excommunication was a renewal and escalation of the 1076 excommunication."
+    },
+    {
+      "from": "1080-001",
+      "to": "1122-CONCORDAT_WORMS",
+      "relation": "led_to",
+      "note": "The continued conflict between Gregory VII and Henry IV contributed to the eventual need for the Concordat of Worms."
+    },
+    {
+      "from": "1080-002",
+      "to": "1095-FIRST_CRUSADE",
+      "relation": "led_to",
+      "note": "Nomadic raids on Byzantine territories contributed to Alexios I's appeals for Western military assistance."
+    },
+    {
+      "from": "1080-003",
+      "to": "1092-NIZAM_AL_MULK_DEATH",
+      "relation": "led_to",
+      "note": "Nizam al-Mulk's reforms would be disrupted by his assassination in 1092."
+    }
+  ]
+}

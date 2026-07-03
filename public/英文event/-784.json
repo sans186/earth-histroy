@@ -1,0 +1,106 @@
+{
+  "year": -784,
+  "year_label": "784 BCE",
+  "era_context": "The late 8th century BCE spans the height of the Neo-Assyrian Empire under Sargon II's predecessors and contemporaries, the consolidation of the Zhou Dynasty in China during the Spring and Autumn period, the emergence of the Greek Archaic period following the Dark Ages, and the Iron Age expansion across the Mediterranean and Near East. This is a period of imperial consolidation, alphabetic literacy expansion, and significant demographic and technological change across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this specific period)",
+    "Northern Europe beyond Mediterranean trade networks",
+    "Central Asia and the Steppe (sparse written records; primarily archaeological)",
+    "Mesoamerica (limited chronological precision for this era)"
+  ],
+  "events": [
+    {
+      "id": "-784-001",
+      "title": "Reign of Shalmaneser IV of Assyria",
+      "region": "Neo-Assyrian Empire (Mesopotamia)",
+      "coordinates_approx": "36.0,43.0",
+      "category": "political",
+      "description": "Shalmaneser IV ruled the Neo-Assyrian Empire during a period of relative stability and consolidation following the military campaigns of his predecessors. His reign saw continued administrative organization of conquered territories and maintenance of Assyrian hegemony over the Levant and Mesopotamia. Though less militarily aggressive than some predecessors, his rule maintained the empire's territorial integrity and tributary system. This period represents the mature phase of Neo-Assyrian imperial organization before the more expansionist campaigns of Sargon II.",
+      "key_figures": [
+        "Shalmaneser IV (King of Assyria, r. 783\u2013773 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian King List",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Epigraphic records from Ashur and Nineveh",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Shalmaneser IV's reign dates are well-established through Assyrian king lists and epigraphic evidence, though specific events within 784 BCE are not individually documented.",
+      "cross_references": []
+    },
+    {
+      "id": "-784-002",
+      "title": "Spring and Autumn Period consolidation in China",
+      "region": "Eastern Zhou Dynasty, China",
+      "coordinates_approx": "34.0,110.0",
+      "category": "political",
+      "description": "During the 8th century BCE, the Eastern Zhou Dynasty (established 771 BCE) was in its early consolidation phase following the collapse of Western Zhou authority. The Spring and Autumn period saw the fragmentation of Zhou authority into competing feudal states, with Qi, Jin, Chu, and Qin emerging as major powers. By 784 BCE, the system of interstate relations, ritual hierarchy, and the Confucian-influenced concept of the 'Mandate of Heaven' were becoming established frameworks for political legitimacy. This era saw the development of iron-working technology and the emergence of professional military classes.",
+      "key_figures": [
+        "Zhou kings (nominal authority, actual power devolved to feudal lords)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bronze inscriptions from Eastern Zhou states",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad political context is well-established; specific events in 784 BCE are not individually documented in surviving sources.",
+      "cross_references": []
+    },
+    {
+      "id": "-784-003",
+      "title": "Greek Archaic period: Early alphabetic literacy and colonization",
+      "region": "Greece and Mediterranean",
+      "coordinates_approx": "38.0,23.0",
+      "category": "cultural",
+      "description": "By 784 BCE, the Greek world was in the early Archaic period, characterized by the adoption and adaptation of the Phoenician alphabet into Greek script (completed by ~750 BCE), the emergence of the polis as the dominant political unit, and the beginning of Greek colonization movements throughout the Mediterranean and Black Sea. This period saw the composition of early Greek epic poetry (Homer's works were likely being composed or compiled in this era), the development of geometric pottery styles, and the gradual recovery from the Greek Dark Ages. Iron-working technology was becoming widespread, replacing bronze as the primary metal for tools and weapons.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Greek sites (pottery, settlement patterns)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Later Greek historians (Herodotus, Thucydides) on the Archaic period",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad cultural and technological context is well-established through archaeology; specific events in 784 BCE are not individually documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Shalmaneser IV's reign has minor scholarly variation (some sources place the beginning at 783 BCE, others at 782 BCE), reflecting uncertainty in ancient chronology conversion. The precise dating of the adoption of the Greek alphabet remains debated, with some scholars arguing for earlier adoption (9th century) and others for later (8th century). No major disconfirming evidence identified for the broader era context.",
+  "historiographic_note": "Documentation for 784 BCE is heavily skewed toward the Near East (Assyria) and China, where king lists and epigraphic records provide chronological anchors. Greek history relies primarily on later literary sources and archaeology. Sub-Saharan Africa, the Americas, and northern Europe are essentially absent from the historical record for this specific year, reflecting both the distribution of literate civilizations and the biases of modern scholarship toward Mediterranean and Near Eastern sources. Assyrian records are court-sponsored and emphasize military and administrative achievements; they may underrepresent economic, social, and cultural developments.",
+  "graph_edges": [
+    {
+      "from": "-784-001",
+      "to": "-773-001",
+      "relation": "led_to",
+      "note": "Shalmaneser IV's reign ended in 773 BCE; succeeded by Ashur-dan III"
+    },
+    {
+      "from": "-784-002",
+      "to": "-771-001",
+      "relation": "part_of",
+      "note": "Continuation of Eastern Zhou consolidation following the collapse of Western Zhou in 771 BCE"
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "year": 1775,
+  "year_label": "1775 CE",
+  "era_context": "The American Revolution begins with armed conflict between British forces and colonial militias. The First Continental Congress has convened (1774) and tensions have escalated from political protest to military confrontation. In Europe, the ancien r\u00e9gime remains entrenched, though Enlightenment ideas continue to circulate. The British Empire is the world's dominant naval and commercial power. In Asia, the Qianlong Emperor rules a prosperous but increasingly strained Qing Dynasty; the Ottoman Empire is recovering from the Russo-Turkish War; and India remains fragmented under Mughal decline and rising European mercantile competition.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1775-001",
+      "title": "Battles of Lexington and Concord",
+      "region": "Massachusetts; Lexington and Concord",
+      "coordinates_approx": "42.44\u00b0N, 71.23\u00b0W",
+      "category": "military",
+      "description": "On 19 April 1775, British troops marching from Boston to seize colonial military supplies at Concord encountered colonial militias at Lexington. The confrontation escalated into armed conflict\u2014the first military engagement of the American Revolution. British forces killed eight militiamen at Lexington and continued to Concord, where they were engaged by a larger colonial force. The British were forced to retreat to Boston, suffering significant casualties. The battles demonstrated that colonial militias could stand against professional British soldiers and galvanised support for the revolutionary cause. The 'shot heard round the world' at Lexington became a symbolic beginning of the revolution.",
+      "key_figures": [
+        "Captain John Parker (Lexington militia commander)",
+        "Major John Pitcairn (British commander)",
+        "Colonel James Barrett (Concord militia commander)"
+      ],
+      "sources": [
+        {
+          "name": "Eyewitness accounts from participants and civilians",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British military reports and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David McCullough, 1776 (2005)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date, location, and basic facts are well-documented in contemporary accounts and later historical scholarship. No significant scholarly dispute.",
+      "cross_references": [
+        "1775-002 (Battle of Bunker Hill)",
+        "1776-001 (Declaration of Independence)"
+      ]
+    },
+    {
+      "id": "1775-002",
+      "title": "Battle of Bunker Hill",
+      "region": "Charlestown, Massachusetts; Boston area",
+      "coordinates_approx": "42.37\u00b0N, 71.06\u00b0W",
+      "category": "military",
+      "description": "On 17 June 1775, colonial forces entrenched on Breed's Hill (near Bunker Hill) in Charlestown engaged British forces attempting to dislodge them. The battle was a tactical British victory\u2014the British took the position after three assaults\u2014but at enormous cost. British casualties were nearly 50% of the attacking force, while colonial casualties were lower. The battle demonstrated that colonial militias could inflict serious damage on professional British soldiers and boosted American morale. The famous order 'Don't fire until you see the whites of their eyes' is attributed to this battle (though the exact wording is disputed). The battle reinforced the determination of both sides to pursue the conflict.",
+      "key_figures": [
+        "Colonel William Prescott (colonial commander)",
+        "General William Howe (British commander)",
+        "Dr. Joseph Warren (colonial officer, killed)"
+      ],
+      "sources": [
+        {
+          "name": "Eyewitness accounts from participants",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British military reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Nathaniel Philbrick, Bunker Hill: A City, a Siege, a Revolution (2013)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date, location, and outcome are well-documented. The casualty figures are approximate but widely accepted.",
+      "cross_references": [
+        "1775-001 (Lexington and Concord)",
+        "1776-002 (Battle of Long Island)"
+      ]
+    },
+    {
+      "id": "1775-003",
+      "title": "Second Continental Congress convenes",
+      "region": "Philadelphia, Pennsylvania",
+      "coordinates_approx": "39.95\u00b0N, 75.17\u00b0W",
+      "category": "political",
+      "description": "The Second Continental Congress convened in Philadelphia on 10 May 1775, following the battles of Lexington and Concord. The Congress represented the thirteen colonies and served as the de facto government of the revolutionary cause. It appointed George Washington as commander-in-chief of the Continental Army, authorised the raising of troops, and began coordinating the war effort. The Congress also attempted to negotiate with Britain (the Olive Branch Petition, July 1775) but was rejected. The Congress evolved into the governing body of the emerging United States and remained in session (with interruptions) until 1789.",
+      "key_figures": [
+        "John Hancock (President of Congress)",
+        "Benjamin Franklin (delegate)",
+        "John Adams (delegate)",
+        "Thomas Jefferson (delegate)",
+        "George Washington (appointed commander-in-chief)"
+      ],
+      "sources": [
+        {
+          "name": "Journals of the Continental Congress, 1774\u20131789",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Letters and papers of delegates",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David O. Stewart, The Summer of 1787 (2007)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date and proceedings are documented in the official Journals of Congress. No scholarly dispute.",
+      "cross_references": [
+        "1775-001 (Lexington and Concord, catalyst for Congress)",
+        "1776-001 (Declaration of Independence, adopted by Congress)"
+      ]
+    },
+    {
+      "id": "1775-004",
+      "title": "George Washington appointed commander-in-chief of Continental Army",
+      "region": "Philadelphia, Pennsylvania",
+      "coordinates_approx": "39.95\u00b0N, 75.17\u00b0W",
+      "category": "political",
+      "description": "On 15 June 1775, the Second Continental Congress appointed George Washington, a Virginia planter and former military officer, as commander-in-chief of the Continental Army. Washington was chosen partly for his military experience (French and Indian War) and partly for political reasons\u2014his appointment helped secure Virginia's commitment to the revolutionary cause. Washington accepted the position without salary and proved to be a capable strategist and leader. His appointment was crucial to the success of the revolution; his ability to maintain the Continental Army as a fighting force through defeats and hardships was essential to eventual victory.",
+      "key_figures": [
+        "George Washington (appointed commander)",
+        "John Adams (advocate for Washington's appointment)",
+        "Benjamin Franklin (supporter)"
+      ],
+      "sources": [
+        {
+          "name": "Journals of the Continental Congress",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Washington's letters and papers",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ron Chernow, Washington: A Life (2010)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date and appointment are documented in contemporary records. No scholarly dispute.",
+      "cross_references": [
+        "1775-003 (Second Continental Congress)",
+        "1776-002 (Battle of Long Island, Washington's first major battle)"
+      ]
+    },
+    {
+      "id": "1775-005",
+      "title": "Olive Branch Petition sent to King George III",
+      "region": "Philadelphia to London",
+      "coordinates_approx": "39.95\u00b0N, 75.17\u00b0W",
+      "category": "political",
+      "description": "On 5 July 1775, the Second Continental Congress adopted the Olive Branch Petition, a final attempt to reconcile with Britain. The petition, drafted primarily by John Dickinson, appealed to King George III to intervene with Parliament to redress colonial grievances. It affirmed loyalty to the Crown while protesting parliamentary taxation without representation. The petition was rejected by the British government, which viewed it as insincere given the ongoing military conflict. The rejection of the Olive Branch Petition marked the end of hopes for peaceful reconciliation and hardened the resolve of the revolutionary cause toward independence.",
+      "key_figures": [
+        "John Dickinson (primary author)",
+        "King George III (recipient)",
+        "Lord North (British Prime Minister)"
+      ],
+      "sources": [
+        {
+          "name": "Olive Branch Petition, adopted 5 July 1775, National Archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Journals of the Continental Congress",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David McCullough, 1776 (2005)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date, text, and rejection are documented in contemporary records. No scholarly dispute.",
+      "cross_references": [
+        "1775-003 (Second Continental Congress)",
+        "1776-001 (Declaration of Independence, follows rejection of Olive Branch Petition)"
+      ]
+    },
+    {
+      "id": "1775-006",
+      "title": "Declaration of the Causes and Necessity of Taking Up Arms",
+      "region": "Philadelphia, Pennsylvania",
+      "coordinates_approx": "39.95\u00b0N, 75.17\u00b0W",
+      "category": "political",
+      "description": "On 6 July 1775, the Second Continental Congress adopted the Declaration of the Causes and Necessity of Taking Up Arms, drafted by Thomas Jefferson and John Dickinson. The declaration justified the colonists' resort to armed force, asserting that they had exhausted peaceful remedies and that Britain had left them no choice. It affirmed that the colonists sought reconciliation, not independence, but would defend themselves against British aggression. The declaration was published and distributed to rally support for the revolutionary cause. It represented an intermediate step between the Olive Branch Petition and the Declaration of Independence.",
+      "key_figures": [
+        "Thomas Jefferson (primary author)",
+        "John Dickinson (co-author)",
+        "Second Continental Congress"
+      ],
+      "sources": [
+        {
+          "name": "Declaration of the Causes and Necessity of Taking Up Arms, 6 July 1775",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Journals of the Continental Congress",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date and text are documented in contemporary records. No scholarly dispute.",
+      "cross_references": [
+        "1775-005 (Olive Branch Petition)",
+        "1776-001 (Declaration of Independence)"
+      ]
+    },
+    {
+      "id": "1775-007",
+      "title": "British Parliament declares colonies in rebellion",
+      "region": "Britain; Parliament",
+      "coordinates_approx": "51.50\u00b0N, 0.13\u00b0W",
+      "category": "political",
+      "description": "In August 1775, the British Parliament formally declared the American colonies to be in a state of rebellion. This declaration closed the door to reconciliation and authorised the Crown to use military force to suppress the rebellion. The declaration was a response to the escalating military conflict and the colonists' rejection of parliamentary authority. It marked the point at which the British government committed fully to military suppression of the colonial revolt. The declaration hardened attitudes on both sides and made independence the logical outcome of the conflict.",
+      "key_figures": [
+        "King George III",
+        "Lord North (Prime Minister)",
+        "Parliament"
+      ],
+      "sources": [
+        {
+          "name": "Parliamentary records and acts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Andrew Jackson O'Shaughnessy, The Men Who Lost America (2013)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The declaration is documented in parliamentary records. The date and significance are well-established.",
+      "cross_references": [
+        "1775-001 (Lexington and Concord, catalyst)",
+        "1776-001 (Declaration of Independence, consequence)"
+      ]
+    },
+    {
+      "id": "1775-008",
+      "title": "Siege of Boston begins",
+      "region": "Boston, Massachusetts",
+      "coordinates_approx": "42.36\u00b0N, 71.06\u00b0W",
+      "category": "military",
+      "description": "Following the battles of Lexington and Concord, colonial forces under General Artemus Ward surrounded Boston, where British forces under General William Howe were garrisoned. The siege lasted from April 1775 to March 1776, when the British evacuated the city. The siege was not a conventional military operation but rather a blockade that prevented British forces from operating in the surrounding countryside. The siege demonstrated the colonists' ability to maintain a military force in the field and forced the British to commit significant resources to holding the city. The eventual British evacuation was a significant morale boost for the revolutionary cause.",
+      "key_figures": [
+        "General Artemus Ward (colonial commander)",
+        "General William Howe (British commander)",
+        "George Washington (took command in July 1775)"
+      ],
+      "sources": [
+        {
+          "name": "Military records and correspondence from both sides",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David McCullough, 1776 (2005)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The siege dates and basic facts are well-documented. The duration and outcome are established.",
+      "cross_references": [
+        "1775-001 (Lexington and Concord, catalyst)",
+        "1776-005 (British occupation of New York City, after evacuation of Boston)"
+      ]
+    },
+    {
+      "id": "1775-009",
+      "title": "Qianlong Emperor issues edicts on governance and administration",
+      "region": "China; Qing Dynasty",
+      "coordinates_approx": "39.90\u00b0N, 116.41\u00b0E",
+      "category": "political",
+      "description": "In 1775, the Qianlong Emperor, in the 40th year of his reign, continued to issue edicts on governance, administration, and cultural matters. The Qianlong era was characterised by active imperial governance, cultural patronage, and territorial expansion. However, by 1775, signs of administrative strain were becoming evident: population growth was straining resources, corruption was increasing, and the emperor's health was declining (he would abdicate in 1796). The edicts of this period reflect the emperor's efforts to maintain control and address emerging problems, though with limited success.",
+      "key_figures": [
+        "Qianlong Emperor (r. 1735\u20131796)"
+      ],
+      "sources": [
+        {
+          "name": "Qing imperial edicts and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jonathan D. Spence, The Search for Modern China (1990)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Qianlong Emperor's reign is well-documented, but specific edicts from 1775 are not individually notable. This entry represents the broader context of Qing governance in this year.",
+      "cross_references": [
+        "1796-001 (Qianlong Emperor's abdication)"
+      ]
+    },
+    {
+      "id": "1775-010",
+      "title": "Ottoman Empire under Sultan Abd\u00fclhamid I",
+      "region": "Ottoman Empire",
+      "coordinates_approx": "41.01\u00b0N, 28.98\u00b0E",
+      "category": "political",
+      "description": "In 1775, the Ottoman Empire was in the first year of Sultan Abd\u00fclhamid I's reign (r. 1774\u20131789), which began following the Treaty of K\u00fc\u00e7\u00fck Kaynarca (1774). The sultan inherited an empire weakened by the recent Russo-Turkish War and facing internal challenges. Abd\u00fclhamid I attempted administrative reforms and military modernisation, but progress was slow. The empire remained a major power but was clearly in relative decline compared to rising European powers. The reign was marked by attempts to stabilise the empire and prevent further territorial losses.",
+      "key_figures": [
+        "Sultan Abd\u00fclhamid I (r. 1774\u20131789)",
+        "Grand Vizier Kara Mustafa Pasha"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman imperial records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Caroline Finkel, Osman's Dream: The Story of the Ottoman Empire (2005)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The sultan's reign dates and basic facts are well-established. The characterisation of the era is historiographic consensus.",
+      "cross_references": [
+        "1774-001 (Treaty of K\u00fc\u00e7\u00fck Kaynarca)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Battles of Lexington and Concord are often portrayed as a clear colonial victory, but the British successfully completed their mission (destroying military supplies at Concord) and inflicted significant casualties on the colonial forces. The colonial 'victory' was more psychological than military. The Battle of Bunker Hill is often cited as proof that colonials could defeat British regulars, but it was actually a British tactical victory; the colonials were forced to retreat. The famous order 'Don't fire until you see the whites of their eyes' is often attributed to this battle, but the exact wording and attribution are disputed by historians. The Olive Branch Petition is sometimes presented as a sincere attempt at reconciliation, but many historians argue that by July 1775, the colonists were already committed to independence and the petition was largely a propaganda gesture. The siege of Boston is sometimes portrayed as a decisive colonial victory, but it was a stalemate that lasted nearly a year; the British evacuation was partly a strategic decision to concentrate forces elsewhere, not a defeat.",
+  "historiographic_note": "The historical record for 1775 is exceptionally rich for the American Revolution, with abundant primary sources and extensive modern scholarship. However, this creates a Western-centric bias: the American Revolution dominates narratives of 1775, while equally significant developments in Asia, Africa, and the Ottoman Empire receive less attention. The sources for the American Revolution are heavily weighted toward the perspectives of educated, literate colonists and British officials; the experiences of enslaved people, Native Americans, women, and common soldiers are underrepresented. For the Qing Dynasty and Ottoman Empire, sources are primarily official records; contemporary accounts from common people are sparse. The British East India Company's activities in India are documented in Company records, but these reflect the Company's perspective, not those of Indian subjects.",
+  "graph_edges": [
+    {
+      "from": "1775-001",
+      "to": "1775-002",
+      "relation": "led_to",
+      "note": "Lexington and Concord escalated tensions, leading to Battle of Bunker Hill"
+    },
+    {
+      "from": "1775-001",
+      "to": "1775-003",
+      "relation": "led_to",
+      "note": "Lexington and Concord prompted convening of Second Continental Congress"
+    },
+    {
+      "from": "1775-003",
+      "to": "1775-004",
+      "relation": "led_to",
+      "note": "Second Continental Congress appointed Washington as commander-in-chief"
+    },
+    {
+      "from": "1775-005",
+      "to": "1776-001",
+      "relation": "led_to",
+      "note": "Rejection of Olive Branch Petition led to Declaration of Independence"
+    },
+    {
+      "from": "1775-007",
+      "to": "1776-001",
+      "relation": "led_to",
+      "note": "British declaration of rebellion hardened colonial resolve toward independence"
+    }
+  ]
+}

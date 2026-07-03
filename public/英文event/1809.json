@@ -1,0 +1,406 @@
+{
+  "year": 1809,
+  "year_label": "1809 CE",
+  "era_context": "The Napoleonic Wars dominate European politics; Napoleon defeats the Fifth Coalition at the Battle of Wagram. In the Americas, independence movements are beginning to emerge. The Industrial Revolution continues to accelerate in Britain. The Qing Dynasty faces internal challenges from the White Lotus Rebellion. The Ottoman Empire is weakened by wars with Russia and internal instability.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1809-001",
+      "title": "Napoleonic Wars: Battle of Wagram",
+      "region": "Central Europe (Austria)",
+      "coordinates_approx": "48.17, 16.53",
+      "category": "military",
+      "description": "On 5-6 July 1809, Napoleon defeated the Austrian army under Archduke Charles at the Battle of Wagram near Vienna. The battle was one of the largest of the Napoleonic Wars, involving over 300,000 troops. The French victory forced Austria to sue for peace and resulted in the Treaty of Sch\u00f6nbrunn (October 1809), which significantly reduced Austrian territory and power. Wagram demonstrated Napoleon's continued military dominance but also revealed the growing costs of his wars.",
+      "key_figures": [
+        "Napoleon Bonaparte (French Emperor)",
+        "Archduke Charles of Austria (Austrian commander)",
+        "Marshal Louis-Nicolas Davout (French marshal)"
+      ],
+      "sources": [
+        {
+          "name": "French military reports and Napoleon's correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Austrian military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus (Chandler, Esdaile, Dwyer)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle's date, location, and outcome are extensively documented. It is one of the most thoroughly recorded battles of the Napoleonic Wars.",
+      "cross_references": [
+        "1805-001 (Battle of Austerlitz)",
+        "1815-001 (Napoleonic Wars end)"
+      ]
+    },
+    {
+      "id": "1809-002",
+      "title": "Treaty of Sch\u00f6nbrunn",
+      "region": "Central Europe (Austria)",
+      "coordinates_approx": "48.18, 16.35",
+      "category": "political",
+      "description": "On 14 October 1809, Austria and France signed the Treaty of Sch\u00f6nbrunn, ending the War of the Fifth Coalition. The treaty forced Austria to cede significant territory to France and its allies, including Salzburg, Berchtesgaden, and parts of Galicia. Austria also had to pay a large indemnity and reduce its military. The treaty was a humiliating defeat for Austria and further consolidated French dominance in Europe. It also led to the marriage of Napoleon to Marie Louise of Austria in 1810.",
+      "key_figures": [
+        "Napoleon Bonaparte (French Emperor)",
+        "Francis I (Austrian Emperor)",
+        "Metternich (Austrian diplomat)"
+      ],
+      "sources": [
+        {
+          "name": "Treaty of Sch\u00f6nbrunn (primary document)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French and Austrian diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus (Esdaile, Dwyer, Zamoyski)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The treaty's date, terms, and significance are well-documented in diplomatic records.",
+      "cross_references": [
+        "1809-001 (Battle of Wagram)",
+        "1810-001 (Napoleon marries Marie Louise)"
+      ]
+    },
+    {
+      "id": "1809-003",
+      "title": "British Peninsular War: Wellington Takes Command",
+      "region": "Iberian Peninsula (Spain and Portugal)",
+      "coordinates_approx": "40.00, -5.00",
+      "category": "military",
+      "description": "In April 1809, General Arthur Wellesley (later Duke of Wellington) was appointed commander of British forces in the Iberian Peninsula. Wellington's appointment marked a turning point in the Peninsular War. He implemented new strategies, including the construction of defensive lines (the Lines of Torres Vedras) and the coordination of British, Spanish, and Portuguese forces. Wellington's leadership would eventually lead to French defeat in Spain and Portugal.",
+      "key_figures": [
+        "Arthur Wellesley, Duke of Wellington (British commander)",
+        "Marshal Jean-Baptiste Jourdan (French commander-in-chief in Spain)",
+        "General William Carr Beresford (British general)"
+      ],
+      "sources": [
+        {
+          "name": "British War Office records and Wellington's correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French military reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus (Oman, Chandler, Muir)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Wellington's appointment and its significance are well-documented. The date and outcome are uncontested.",
+      "cross_references": [
+        "1810-001 (Siege of Ciudad Rodrigo)",
+        "1814-001 (Peninsular War ends)"
+      ]
+    },
+    {
+      "id": "1809-004",
+      "title": "United States: Non-Intercourse Act Replaces Embargo",
+      "region": "North America (United States)",
+      "coordinates_approx": "38.89, -77.04",
+      "category": "political",
+      "description": "On 1 March 1809, the Non-Intercourse Act replaced the Embargo Act of 1807, which had severely damaged the American economy. The Non-Intercourse Act prohibited trade with Britain and France but allowed trade with other nations. The act was less economically damaging than the embargo but still failed to achieve its diplomatic goals. The act reflected American frustration with British impressment of sailors and French seizures of ships, but it did not resolve these issues.",
+      "key_figures": [
+        "James Madison (U.S. President)",
+        "Congress (U.S. legislature)"
+      ],
+      "sources": [
+        {
+          "name": "Congressional records and debates",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Presidential correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus (Hickey, Stagg, Brant)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Non-Intercourse Act's date and provisions are well-documented in Congressional records.",
+      "cross_references": [
+        "1807-001 (Embargo Act)",
+        "1812-003 (War of 1812 begins)"
+      ]
+    },
+    {
+      "id": "1809-005",
+      "title": "Qing Dynasty: White Lotus Rebellion Continues",
+      "region": "China (Qing Dynasty)",
+      "coordinates_approx": "35.00, 105.00",
+      "category": "military",
+      "description": "The White Lotus Rebellion, which began in 1796, continued in 1809 with ongoing military campaigns by Qing forces. The rebellion, rooted in messianic Buddhism and popular discontent, had spread across multiple provinces and was proving difficult to suppress. By 1809, the Qing military had made progress but had not yet achieved complete victory. The rebellion would finally be suppressed in 1811 after a costly fifteen-year campaign.",
+      "key_figures": [
+        "Jiaqing Emperor (Qing ruler)",
+        "Fukanggan (Qing general, died 1799)",
+        "White Lotus rebel leaders (names often unrecorded)"
+      ],
+      "sources": [
+        {
+          "name": "Qing imperial records and military reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji and later compilations",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus (Spence, Rowe, Kuhn)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The rebellion's continuation in 1809 is documented in Qing records. The year represents ongoing conflict rather than a discrete event.",
+      "cross_references": [
+        "1796-001 (White Lotus Rebellion begins)",
+        "1811-007 (Rebellion suppressed)"
+      ]
+    },
+    {
+      "id": "1809-006",
+      "title": "Russo-Turkish War: Continued Conflict",
+      "region": "Ottoman Empire and Russian Empire (Balkans, Caucasus)",
+      "coordinates_approx": "42.00, 35.00",
+      "category": "military",
+      "description": "The Russo-Turkish War (1806\u20131812) continued in 1809 with Russian forces making gradual gains against Ottoman armies. General Mikhail Kutuzov led Russian campaigns in Moldavia and Wallachia, pushing Ottoman forces back. The war was costly for both empires and complicated by Napoleon's activities in Europe. The conflict would eventually be resolved by the Treaty of Bucharest in 1812.",
+      "key_figures": [
+        "Mikhail Kutuzov (Russian general)",
+        "Selim III (Ottoman Sultan)",
+        "Mustafa IV (Ottoman Sultan from 1807)"
+      ],
+      "sources": [
+        {
+          "name": "Russian military archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ottoman records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus (Jelavich, Shaw, Aksan)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Military campaigns and their outcomes are documented in Russian and Ottoman records.",
+      "cross_references": [
+        "1806-001 (Russo-Turkish War begins)",
+        "1812-005 (Treaty of Bucharest)"
+      ]
+    },
+    {
+      "id": "1809-007",
+      "title": "British Industrial Revolution: Steam Power Expansion",
+      "region": "England",
+      "coordinates_approx": "52.50, -1.50",
+      "category": "technological",
+      "description": "By 1809, steam power was becoming increasingly widespread in British industry, particularly in textile manufacturing and mining. James Watt's improvements to the steam engine (patented 1769) had made steam power economically viable for factories. The expansion of steam power was a crucial driver of the Industrial Revolution, enabling larger-scale production and the concentration of manufacturing in factories. The technology would continue to spread throughout the 19th century.",
+      "key_figures": [
+        "James Watt (inventor, died 1819)",
+        "Matthew Boulton (manufacturer)",
+        "Factory owners and engineers"
+      ],
+      "sources": [
+        {
+          "name": "Patent records and technical specifications",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Factory records and business correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus (Landes, Mokyr, Crafts)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The expansion of steam power in 1809 is documented in patent records and factory records. The year marks a significant phase in the Industrial Revolution.",
+      "cross_references": [
+        "1769-001 (Watt's steam engine patent)",
+        "1830-001 (Railway expansion begins)"
+      ]
+    },
+    {
+      "id": "1809-008",
+      "title": "Tokugawa Shogunate: Continued Isolation and Internal Stability",
+      "region": "Japan",
+      "coordinates_approx": "36.00, 138.00",
+      "category": "political",
+      "description": "The Tokugawa shogunate under Tokugawa Ienari maintained the sakoku (closed country) policy and internal stability in 1809. The shogunate continued to enforce strict controls on foreign contact and trade. Despite external pressures and occasional foreign ships attempting to trade or seek supplies, the shogunate maintained its isolationist stance. Internal stability was maintained through the feudal system and the shogunate's administrative apparatus.",
+      "key_figures": [
+        "Tokugawa Ienari (Shogun)",
+        "Matsudaira Sadanobu (former regent, died 1829)"
+      ],
+      "sources": [
+        {
+          "name": "Tokugawa administrative records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Japanese chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus (Totman, Sakurai, Vlastos)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The sakoku policy's continuation in 1809 is well-documented. The year represents continuity rather than change.",
+      "cross_references": [
+        "1853-001 (Perry Expedition opens Japan)",
+        "1868-001 (Meiji Restoration)"
+      ]
+    },
+    {
+      "id": "1809-009",
+      "title": "British Royal Navy: Continued Dominance",
+      "region": "Atlantic and Mediterranean",
+      "coordinates_approx": "null",
+      "category": "military",
+      "description": "By 1809, the British Royal Navy had achieved overwhelming dominance over French and allied naval forces. The navy's superiority, established after the Battle of Trafalgar (1805), enabled Britain to maintain blockades of French-controlled ports, support military operations in the Iberian Peninsula, and protect colonial trade routes. Naval dominance was crucial to Britain's ability to sustain the war against Napoleon.",
+      "key_figures": [
+        "Admiral John Jervis, Earl of St. Vincent",
+        "Admiral Sir John Borlase Warren"
+      ],
+      "sources": [
+        {
+          "name": "Admiralty records and naval dispatches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Naval chronicles and logs",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus (Rodger, Gardiner, Morriss)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "British naval dominance in 1809 is well-documented and uncontested.",
+      "cross_references": [
+        "1805-001 (Battle of Trafalgar)",
+        "1815-001 (Napoleonic Wars end)"
+      ]
+    },
+    {
+      "id": "1809-010",
+      "title": "Latin America: Independence Movements Accelerate",
+      "region": "South America",
+      "coordinates_approx": "null",
+      "category": "political",
+      "description": "In 1809, independence movements were accelerating across Latin America, driven by Enlightenment ideas, the weakness of Spain following Napoleon's invasion, and local grievances against Spanish colonial rule. Juntas were established in various regions, including Quito (August 1809) and La Paz (July 1809), declaring autonomy from Spain. These early movements were often suppressed by Spanish forces, but they established a pattern that would lead to widespread independence in the 1810s and 1820s.",
+      "key_figures": [
+        "Juan P\u00edo Mont\u00fafar (Quito junta leader)",
+        "Pedro Domingo Murillo (La Paz junta leader)",
+        "Spanish colonial officials"
+      ],
+      "sources": [
+        {
+          "name": "Spanish colonial records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Junta proclamations and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus (Lynch, Bushnell, Guardino)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The establishment of juntas in Quito and La Paz in 1809 is well-documented in Spanish colonial records and later Latin American historiography.",
+      "cross_references": [
+        "1810-002 (Argentine May Revolution)",
+        "1821-001 (Spanish American independence achieved)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Battle of Wagram is sometimes presented as a decisive French victory, but modern scholarship emphasizes that it was costly and that Austrian forces conducted an orderly retreat; the battle's significance is more strategic than tactical. Wellington's appointment in 1809 is sometimes portrayed as immediately transformative, but the Peninsular War remained difficult and uncertain for several years; Wellington's reputation was built gradually. The Non-Intercourse Act is sometimes presented as a successful diplomatic tool, but it failed to achieve its goals and contributed to American frustration leading to the War of 1812. The independence movements in Latin America in 1809 are sometimes presented as unified and successful, but many were suppressed by Spanish forces and the independence process was protracted and contested.",
+  "historiographic_note": "1809 is richly documented in European sources, particularly regarding the Napoleonic Wars. British military and parliamentary records are abundant. American diplomatic and Congressional records are well-preserved. Latin American independence movements are documented in Spanish colonial archives and later Latin American historiography, though with a bias toward elite perspectives. Asian sources are more limited in Western historiography; Chinese and Japanese records exist but are often underrepresented. The year reflects a Eurocentric bias in available documentation; events in Africa, Oceania, and Central Asia are largely absent. The sources themselves are shaped by their origins: French records emphasize Napoleon's military genius; British records celebrate Wellington's campaigns; Spanish colonial records emphasize Spanish authority and the suppression of rebellion.",
+  "graph_edges": [
+    {
+      "from": "1809-001",
+      "to": "1809-002",
+      "relation": "led_to",
+      "note": "Battle of Wagram led to the Treaty of Sch\u00f6nbrunn"
+    },
+    {
+      "from": "1809-002",
+      "to": "1810-001",
+      "relation": "led_to",
+      "note": "Treaty of Sch\u00f6nbrunn led to Napoleon's marriage to Marie Louise in 1810"
+    },
+    {
+      "from": "1809-003",
+      "to": "1810-001",
+      "relation": "led_to",
+      "note": "Wellington's appointment led to the Siege of Ciudad Rodrigo in 1810"
+    },
+    {
+      "from": "1809-004",
+      "to": "1812-003",
+      "relation": "led_to",
+      "note": "Non-Intercourse Act contributed to tensions leading to the War of 1812"
+    },
+    {
+      "from": "1809-005",
+      "to": "1811-007",
+      "relation": "led_to",
+      "note": "White Lotus Rebellion continued until its suppression in 1811"
+    },
+    {
+      "from": "1809-010",
+      "to": "1810-002",
+      "relation": "led_to",
+      "note": "Early independence movements in 1809 led to the Argentine May Revolution in 1810"
+    }
+  ]
+}

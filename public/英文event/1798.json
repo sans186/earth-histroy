@@ -1,0 +1,365 @@
+{
+  "year": 1798,
+  "year_label": "1798 CE",
+  "era_context": "The French Revolution's radical phase has ended; the Directory (1795\u20131799) is in power but facing military defeats and internal corruption. The Napoleonic Wars are in their early phase. The Qianlong Emperor of Qing China is in his final years (died 1799). The Ottoman Empire continues its slow decline. The United States is in the presidency of John Adams (1797\u20131801), with tensions over the Quasi-War with France (1798\u20131800). The Industrial Revolution accelerates in Britain.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1798-001",
+      "title": "Irish Rebellion of 1798",
+      "region": "Ireland",
+      "coordinates_approx": "53.4\u00b0N, 8.0\u00b0W",
+      "category": "military",
+      "description": "The Irish Rebellion of 1798, which began in May 1798, was a major uprising against British rule inspired by the French Revolution and led by the United Irishmen. The rebellion sought Irish independence and was supported by French military aid (though the French invasion force was intercepted). The rebellion was brutally suppressed by British forces, with thousands killed in battles and executions. Key battles included the Battle of Vinegar Hill (June 1798) and the Battle of Ballinamuck (August 1798). The rebellion's failure marked the end of the United Irishmen as an effective political force and led to the Act of Union (1800), which formally united Ireland with Great Britain.",
+      "key_figures": [
+        "Theobald Wolfe Tone (United Irishmen leader)",
+        "Henry Joy McCracken (United Irishmen leader)",
+        "General John Moore (British commander)",
+        "Lord Cornwallis (Lord Lieutenant of Ireland)"
+      ],
+      "sources": [
+        {
+          "name": "British military records and contemporary accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Lecky, W.E.H., History of Ireland in the Eighteenth Century",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Rebellion dates, key battles, and suppression are well-documented in British military records and Irish sources.",
+      "cross_references": [
+        "1801-002 (Act of Union)"
+      ]
+    },
+    {
+      "id": "1798-002",
+      "title": "French invasion of Egypt \u2014 Napoleon's Egyptian Campaign",
+      "region": "Egypt",
+      "coordinates_approx": "30.0\u00b0N, 31.0\u00b0E",
+      "category": "military",
+      "description": "In 1798, Napoleon led a military expedition to Egypt with the goal of establishing French control over the region and threatening British interests in India. The French army landed in Egypt in July 1798 and quickly defeated the Mamluk forces at the Battle of the Pyramids (21 July 1798). However, the French fleet was destroyed by the British at the Battle of the Nile (1\u20132 August 1798), isolating the French army in Egypt. Despite initial military successes, the French occupation of Egypt proved unsustainable due to disease, local resistance, and British naval dominance. The campaign lasted until 1801, when the French withdrew.",
+      "key_figures": [
+        "Napoleon Bonaparte (French commander)",
+        "Admiral Horatio Nelson (British)",
+        "Murad Bey (Mamluk leader)"
+      ],
+      "sources": [
+        {
+          "name": "Military reports and contemporary chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chandler, D.G., The Campaigns of Napoleon",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Campaign dates, battles, and key figures are well-documented in military archives.",
+      "cross_references": [
+        "1799-004 (Rosetta Stone discovery)",
+        "1801-003 (British occupation of Egypt)"
+      ]
+    },
+    {
+      "id": "1798-003",
+      "title": "Battle of the Nile (Battle of Aboukir Bay) \u2014 British naval victory",
+      "region": "Egypt",
+      "coordinates_approx": "31.3\u00b0N, 30.4\u00b0E",
+      "category": "military",
+      "description": "Fought on 1\u20132 August 1798, the Battle of the Nile was a decisive British naval victory under Admiral Nelson against the French fleet in Egypt. The battle destroyed French naval power in the Mediterranean and isolated the French army in Egypt. The battle is also known as the Battle of Aboukir Bay. The British victory contributed to the eventual French withdrawal from Egypt and established British naval dominance in the Mediterranean. Nelson was wounded in the battle but continued to command.",
+      "key_figures": [
+        "Admiral Horatio Nelson (British)",
+        "Admiral Fran\u00e7ois-Paul Brueys d'Aigalliers (French)"
+      ],
+      "sources": [
+        {
+          "name": "Naval records and contemporary accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Mahan, A.T., The Influence of Sea Power upon the French Revolution and Empire",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Battle date and outcome are well-documented in naval records.",
+      "cross_references": [
+        "1798-002 (French invasion of Egypt)"
+      ]
+    },
+    {
+      "id": "1798-004",
+      "title": "Quasi-War between United States and France \u2014 escalation",
+      "region": "Atlantic Ocean / Caribbean",
+      "coordinates_approx": "null",
+      "category": "military",
+      "description": "The Quasi-War (1798\u20131800) between the United States and France began in 1798 as an undeclared naval conflict. The war arose from French resentment of the Jay Treaty (1794) between the United States and Britain, and French privateers attacked American merchant ships. The U.S. Congress authorized the creation of the Department of the Navy in 1798, and the U.S. Navy engaged in numerous skirmishes with French naval forces and privateers. The conflict was resolved through the Treaty of Mortefontaine (1800), which restored peace between the two nations.",
+      "key_figures": [
+        "President John Adams (United States)",
+        "Secretary of State Timothy Pickering",
+        "Commodore John Barry (U.S. Navy)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Navy records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "DeConde, A., The Quasi-War: The Politics and Diplomacy of the Undeclared War with France",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Quasi-War dates and naval engagements are well-documented in U.S. Navy records.",
+      "cross_references": [
+        "1800-001 (Treaty of Mortefontaine)"
+      ]
+    },
+    {
+      "id": "1798-005",
+      "title": "Battle of the Pyramids (21 July 1798)",
+      "region": "Egypt",
+      "coordinates_approx": "29.9\u00b0N, 31.1\u00b0E",
+      "category": "military",
+      "description": "Fought on 21 July 1798, the Battle of the Pyramids was a decisive French victory under Napoleon against the Mamluk forces in Egypt. The battle was fought near the Giza Pyramids and resulted in the destruction of the Mamluk cavalry. The victory allowed the French to occupy Cairo and establish control over Lower Egypt. However, the French victory was short-lived due to the destruction of the French fleet at the Battle of the Nile (1\u20132 August 1798), which isolated the French army in Egypt.",
+      "key_figures": [
+        "Napoleon Bonaparte (French commander)",
+        "Murad Bey (Mamluk leader)"
+      ],
+      "sources": [
+        {
+          "name": "Military reports and contemporary chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chandler, D.G., The Campaigns of Napoleon",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Battle date and outcome are well-documented in military archives.",
+      "cross_references": [
+        "1798-002 (French invasion of Egypt)",
+        "1798-003 (Battle of the Nile)"
+      ]
+    },
+    {
+      "id": "1798-006",
+      "title": "White Lotus Rebellion in Qing China \u2014 begins",
+      "region": "Qing China (Central China)",
+      "coordinates_approx": "32.0\u00b0N, 110.0\u00b0E",
+      "category": "military",
+      "description": "The White Lotus Rebellion began in 1796 but escalated significantly in 1798 as the Qing government's military response proved ineffective. The rebellion, rooted in messianic Buddhism and anti-Qing sentiment, spread across central China (Hubei, Sichuan, Shaanxi). By 1798, the rebellion had grown to involve tens of thousands of rebels and posed a serious threat to Qing stability. The government's inability to suppress the rebellion quickly exposed weaknesses in the Qing military and administration, contributing to the dynasty's long-term decline.",
+      "key_figures": [
+        "Jiaqing Emperor (Qing China)",
+        "Liu Zhixie (Rebel leader)",
+        "Qing military commanders"
+      ],
+      "sources": [
+        {
+          "name": "Qing imperial records and military reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Naquin, S., Millenarian Rebellion in China: The Eight Trigrams Uprising of 1813",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Rebellion's escalation in 1798 is documented in Qing records, though exact casualty figures are uncertain.",
+      "cross_references": [
+        "1796-001 (White Lotus Rebellion begins)",
+        "1804-002 (Rebellion continues)"
+      ]
+    },
+    {
+      "id": "1798-007",
+      "title": "Second Coalition War \u2014 formation and early campaigns",
+      "region": "Europe",
+      "coordinates_approx": "null",
+      "category": "military",
+      "description": "The Second Coalition War (1798\u20131802) began in 1798 when Austria, Russia, Britain, and other powers formed a coalition against France. The war was precipitated by French expansion in Italy and the Mediterranean. Early campaigns in 1798 saw mixed results, with French forces under Mass\u00e9na and Jourdan achieving some successes in Italy and Switzerland, while Austrian and Russian forces achieved victories in other theaters. The war would continue until 1802, when the Treaty of Amiens ended hostilities.",
+      "key_figures": [
+        "Napoleon Bonaparte (French commander)",
+        "General Andr\u00e9 Mass\u00e9na (French)",
+        "General Alexander Suvorov (Russian)",
+        "General Karl Mack (Austrian)"
+      ],
+      "sources": [
+        {
+          "name": "Military reports and contemporary chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chandler, D.G., The Campaigns of Napoleon",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Coalition formation and early campaigns are well-documented in military archives.",
+      "cross_references": [
+        "1799-002 (Second Coalition War \u2014 French victories)",
+        "1802-001 (Treaty of Amiens)"
+      ]
+    },
+    {
+      "id": "1798-008",
+      "title": "Wordsworth and Coleridge publish Lyrical Ballads",
+      "region": "England",
+      "coordinates_approx": "51.5\u00b0N, 0.1\u00b0W",
+      "category": "cultural",
+      "description": "In 1798, William Wordsworth and Samuel Taylor Coleridge published Lyrical Ballads, a collection of poems that marked the beginning of the Romantic movement in English literature. The collection included Coleridge's 'The Rime of the Ancient Mariner' and Wordsworth's 'Lines Composed a Few Miles above Tintern Abbey.' The publication was revolutionary in its use of everyday language and focus on emotion and nature, departing from the formal conventions of 18th-century poetry. Lyrical Ballads is considered one of the most important works of English literature and had a profound influence on subsequent Romantic poets.",
+      "key_figures": [
+        "William Wordsworth (Poet)",
+        "Samuel Taylor Coleridge (Poet)"
+      ],
+      "sources": [
+        {
+          "name": "Lyrical Ballads, published work",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Abrams, M.H., The Mirror and the Lamp: Romantic Theory and the Critical Tradition",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Publication date and contents are well-documented in literary records.",
+      "cross_references": [
+        "1798-009 (Romantic movement in literature)"
+      ]
+    },
+    {
+      "id": "1798-009",
+      "title": "Romantic movement in literature \u2014 emergence",
+      "region": "Europe",
+      "coordinates_approx": "null",
+      "category": "cultural",
+      "description": "The Romantic movement in literature emerged in the late 18th century, with 1798 marking a significant moment with the publication of Lyrical Ballads by Wordsworth and Coleridge. Romanticism emphasized emotion, nature, individualism, and the imagination, departing from the rationalism and formalism of the Enlightenment. The movement spread across Europe, influencing poets, painters, and composers. Key figures included Goethe, Byron, Keats, and Shelley. Romanticism had profound effects on European culture and thought, influencing not only literature but also philosophy, politics, and the visual arts.",
+      "key_figures": [
+        "William Wordsworth (Poet)",
+        "Samuel Taylor Coleridge (Poet)",
+        "Johann Wolfgang von Goethe (Writer)",
+        "Lord Byron (Poet)"
+      ],
+      "sources": [
+        {
+          "name": "Literary works and contemporary criticism",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Abrams, M.H., The Mirror and the Lamp: Romantic Theory and the Critical Tradition",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The emergence of Romanticism is a gradual process; 1798 is a significant marker but not a discrete event.",
+      "cross_references": [
+        "1798-008 (Lyrical Ballads publication)"
+      ]
+    },
+    {
+      "id": "1798-010",
+      "title": "Ottoman Empire \u2014 ongoing decline and internal instability",
+      "region": "Ottoman Empire",
+      "coordinates_approx": "41.0\u00b0N, 29.0\u00b0E",
+      "category": "political",
+      "description": "In 1798, the Ottoman Empire continued its slow decline, facing military defeats, internal corruption, and economic stagnation. The empire's inability to modernize its military and administration left it vulnerable to European powers. The French invasion of Egypt in 1798 demonstrated the Ottoman Empire's weakness, as the Ottomans were unable to prevent the invasion or effectively respond to it. The empire's decline would accelerate in the 19th century, leading to its eventual dissolution after World War I.",
+      "key_figures": [
+        "Sultan Selim III (Ottoman)",
+        "Tsar Paul I (Russia)",
+        "Napoleon Bonaparte (France)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman diplomatic records and European accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Shaw, S.J., History of the Ottoman Empire and Modern Turkey",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ottoman decline is a long-term process; 1798 is not a discrete event but part of a broader trajectory.",
+      "cross_references": [
+        "1798-002 (French invasion of Egypt)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Irish Rebellion of 1798 is sometimes presented as a unified nationalist uprising, but modern historians emphasize that it was fragmented, with different regional groups having different goals and ideologies. The rebellion was not inevitable; other outcomes were possible. The French invasion of Egypt is sometimes presented as a strategic masterstroke by Napoleon, but modern historians emphasize that it was a strategic blunder that isolated the French army and wasted resources. The Battle of the Nile is sometimes presented as a complete French defeat, but the French army remained in Egypt for several more years and achieved some successes. The Romantic movement is sometimes presented as a sudden break from the Enlightenment, but modern historians emphasize that it was a gradual emergence with roots in the late 18th century.",
+  "historiographic_note": "The year 1798 is exceptionally well-documented in European sources, particularly British, French, and Austrian archives. The documentation is heavily weighted toward political and military events in Europe and North America. Events in Asia, Africa, and the Ottoman Empire are less thoroughly recorded in Western sources. The Qing records are rich but less accessible to Western scholarship. The perspective is shaped by the dominance of Napoleonic history in European historiography. The Irish Rebellion is often presented from the British perspective; Irish nationalist perspectives are less well-represented in contemporary British sources. The French invasion of Egypt is often presented from the French perspective; Egyptian and Ottoman perspectives are less well-represented.",
+  "graph_edges": [
+    {
+      "from": "1798-001",
+      "to": "1801-002",
+      "relation": "led_to",
+      "note": "Irish Rebellion's suppression led to Act of Union in 1801"
+    },
+    {
+      "from": "1798-002",
+      "to": "1798-003",
+      "relation": "led_to",
+      "note": "French invasion of Egypt led to Battle of the Nile"
+    },
+    {
+      "from": "1798-003",
+      "to": "1801-003",
+      "relation": "led_to",
+      "note": "British naval victory at the Nile contributed to eventual British occupation of Egypt"
+    },
+    {
+      "from": "1798-004",
+      "to": "1800-001",
+      "relation": "led_to",
+      "note": "Quasi-War escalation led to Treaty of Mortefontaine in 1800"
+    },
+    {
+      "from": "1798-005",
+      "to": "1798-003",
+      "relation": "led_to",
+      "note": "Battle of the Pyramids was followed by Battle of the Nile"
+    },
+    {
+      "from": "1798-006",
+      "to": "1804-002",
+      "relation": "part_of",
+      "note": "White Lotus Rebellion continued to escalate through the early 1800s"
+    },
+    {
+      "from": "1798-007",
+      "to": "1799-002",
+      "relation": "led_to",
+      "note": "Second Coalition War continued with French victories in 1799"
+    },
+    {
+      "from": "1798-008",
+      "to": "1798-009",
+      "relation": "part_of",
+      "note": "Lyrical Ballads was a key work in the emergence of Romanticism"
+    }
+  ]
+}

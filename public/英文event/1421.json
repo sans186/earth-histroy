@@ -1,0 +1,161 @@
+{
+  "year": 1421,
+  "year_label": "1421 CE",
+  "era_context": "The early Ming Dynasty (1368\u20131644) is consolidating power in China under the Yongle Emperor, who has relocated the capital to Beijing and launched massive maritime expeditions. In Europe, the Hussite Wars continue in Bohemia following Jan Hus's execution in 1415. The Ottoman Empire is expanding in the Balkans and Anatolia. The Renaissance is beginning to flourish in Italy, with early humanist scholarship and artistic innovation.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; oral traditions not systematically recorded in European sources)",
+    "Indigenous Americas (no written records in European tradition; archaeological evidence sparse for this specific year)",
+    "Central Asian steppes (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "1421-001",
+      "title": "Zheng He's Seventh Treasure Voyage departs from Nanjing",
+      "region": "Ming China; Indian Ocean",
+      "coordinates_approx": "32.06, 118.80",
+      "category": "exploration",
+      "description": "Admiral Zheng He (\u912d\u548c) embarks on his seventh and final major maritime expedition from Nanjing, commanding a massive fleet of treasure ships (baochuan). The expedition will visit East Africa, the Arabian Peninsula, and the Indian Ocean littoral, demonstrating Ming naval supremacy and tributary diplomacy. This voyage represents the apex of early 15th-century maritime technology and Chinese naval power, though it will be curtailed after the Yongle Emperor's death in 1424. The expeditions served diplomatic, commercial, and intelligence-gathering purposes, establishing Ming prestige across the Indian Ocean world.",
+      "key_figures": [
+        "Zheng He (Admiral, eunuch commander)",
+        "Yongle Emperor (Ming emperor, sponsor)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Luo Maodeng, The Overall Survey of the Ocean's Shores (Yingya Shenglan), compiled early 15th century",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Departure date and voyage sequence are well-documented in Ming imperial records and contemporary chronicles. The exact dating of the seventh voyage's start is sometimes placed in 1421 or 1422 depending on source; 1421 is the consensus date.",
+      "cross_references": [
+        "1405-001 (First voyage)",
+        "1424-001 (Yongle Emperor's death, leading to expedition curtailment)"
+      ]
+    },
+    {
+      "id": "1421-002",
+      "title": "Hussite forces defeat Catholic crusade at Battle of Kutn\u00e1 Hora",
+      "region": "Bohemia (modern Czech Republic)",
+      "coordinates_approx": "49.95, 15.27",
+      "category": "military",
+      "description": "Hussite military forces, led by Jan \u017di\u017eka's successors, defeat a Catholic crusade army near Kutn\u00e1 Hora in central Bohemia. The Hussites, followers of the executed reformer Jan Hus, have been conducting a sustained military and religious resistance against Catholic and imperial forces since 1419. This victory consolidates Hussite control over much of Bohemia and demonstrates the effectiveness of their innovative military tactics, including the use of wagon fortifications (tabor). The conflict reflects deep religious and social tensions within the Holy Roman Empire.",
+      "key_figures": [
+        "Jan \u017di\u017eka (Hussite military commander, died 1424)",
+        "Sigismund of Hungary (Holy Roman Emperor, leading crusade)"
+      ],
+      "sources": [
+        {
+          "name": "Laurence of B\u0159ezov\u00e1, Chronicle of the Hussite Wars",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Hussite military campaigns",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The battle is attested in Hussite chronicles, though exact dating and casualty figures vary between sources. The year 1421 is conventional; some sources place it in 1422.",
+      "cross_references": [
+        "1415-001 (Jan Hus execution)",
+        "1419-001 (Hussite Wars begin)"
+      ]
+    },
+    {
+      "id": "1421-003",
+      "title": "Forbidden City construction nears completion in Beijing",
+      "region": "Ming China; Beijing",
+      "coordinates_approx": "39.92, 116.41",
+      "category": "technological",
+      "description": "The construction of the Forbidden City (\u7d2b\u7981\u57ce), the imperial palace complex in Beijing, approaches completion under the Yongle Emperor's direction. Work began in 1406 and will be largely finished by 1420, with final refinements continuing through 1421. The complex represents an extraordinary feat of architectural and logistical coordination, employing hundreds of thousands of workers and incorporating advanced timber-frame construction, drainage systems, and decorative arts. The Forbidden City becomes the symbolic and administrative center of Ming power and will remain so for nearly five centuries.",
+      "key_figures": [
+        "Yongle Emperor (Ming emperor, patron)",
+        "Cai Xin (chief architect, among others)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological and architectural evidence from the Forbidden City",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Construction dates and phases are well-documented in Ming records. The complex was functionally complete by 1420, with 1421 marking final phases.",
+      "cross_references": [
+        "1406-001 (Construction begins)",
+        "1420-001 (Yongle Emperor moves court to Beijing)"
+      ]
+    },
+    {
+      "id": "1421-004",
+      "title": "Portuguese exploration of West African coast continues under Henry the Navigator",
+      "region": "Portugal; West Africa",
+      "coordinates_approx": "37.74, -25.67",
+      "category": "exploration",
+      "description": "Portuguese maritime expeditions, sponsored by Prince Henry the Navigator (Henrique o Navegador), continue systematic exploration of the West African coast. By 1421, Portuguese ships have reached and begun establishing trading posts along the Guinea coast. These voyages represent the beginning of European maritime expansion and the Atlantic slave trade, driven by commercial interest in gold, spices, and enslaved people. The expeditions employ improved navigation technology (astrolabe, caravel design) and establish a pattern of coastal fortification and trade monopoly that will characterize European colonialism.",
+      "key_figures": [
+        "Henry the Navigator (Portuguese prince, patron)",
+        "Portuguese sea captains and navigators (names often not recorded)"
+      ],
+      "sources": [
+        {
+          "name": "Gomes Eanes de Zurara, Chronicle of the Discovery of Guinea (Cr\u00f3nica da Descoberta da Guin\u00e9), compiled mid-15th century",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Portuguese royal records and maritime logs",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Portuguese exploration of the African coast was ongoing in the 1420s, though specific events for 1421 are not always precisely dated. The broader campaign is well-attested; individual voyage dates are sometimes approximate.",
+      "cross_references": [
+        "1434-001 (Cape Bojador rounded)",
+        "1444-001 (First large-scale slave raid from Guinea)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of Zheng He's voyages has been subject to historiographic revision. While traditionally celebrated as evidence of Chinese maritime superiority and global reach, modern scholarship emphasizes that these expeditions were ultimately discontinued and did not lead to sustained colonial expansion or trade networks comparable to later European ventures. Some scholars argue the voyages were primarily diplomatic and tributary in nature rather than commercially driven, and that their termination after 1424 reflects a deliberate Ming policy shift toward continental consolidation rather than maritime dominance. The Forbidden City's construction involved massive labor mobilization; modern scholarship has questioned earlier estimates of worker mortality and conditions, though documentation remains limited.",
+  "historiographic_note": "Documentation for 1421 is relatively rich for Ming China and Europe, but heavily skewed toward elite political and military events. The record is dominated by court chronicles, administrative records, and later compilations by scholars with access to imperial archives. African, American, and Asian sources outside the Ming sphere are underrepresented in surviving records accessible to modern scholarship. The Portuguese exploration record is filtered through later hagiographic chronicles (Zurara) written decades after events. Oral traditions and non-elite perspectives are largely absent.",
+  "graph_edges": [
+    {
+      "from": "1421-001",
+      "to": "1424-001",
+      "relation": "led_to",
+      "note": "Zheng He's seventh voyage was curtailed after the Yongle Emperor's death in 1424, marking the end of major Ming maritime expeditions."
+    },
+    {
+      "from": "1421-002",
+      "to": "1434-001",
+      "relation": "part_of",
+      "note": "The Hussite Wars continued as part of broader religious conflict in Central Europe through the 1430s."
+    },
+    {
+      "from": "1421-003",
+      "to": "1420-001",
+      "relation": "contemporary_with",
+      "note": "Forbidden City completion coincided with the Yongle Emperor's relocation of the capital to Beijing."
+    },
+    {
+      "from": "1421-004",
+      "to": "1444-001",
+      "relation": "led_to",
+      "note": "Early Portuguese exploration of the African coast established the infrastructure and precedent for the Atlantic slave trade."
+    }
+  ]
+}

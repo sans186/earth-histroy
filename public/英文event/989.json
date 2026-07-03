@@ -1,0 +1,123 @@
+{
+  "year": 989,
+  "year_label": "989 CE",
+  "era_context": "The late 10th century CE was marked by the consolidation of feudal states in Europe, the expansion of the Byzantine Empire under Basil II, the flourishing of the Song Dynasty in China, and the continued fragmentation and reorganization of the Islamic world. This was a period of significant cultural and intellectual activity across multiple civilizations, with the development of new technologies, artistic styles, and administrative systems.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia and the Steppe",
+    "Northern Europe beyond major kingdoms",
+    "Pre-Columbian Americas",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "989-001",
+      "title": "Battle of Maldon (traditional dating)",
+      "region": "England",
+      "coordinates_approx": "52.7,-0.5",
+      "category": "military",
+      "description": "The Battle of Maldon, one of the most famous battles of Anglo-Saxon England, is traditionally dated to 991, but some sources place it in 989 or 990. In this battle, English forces under Ealdorman Byrhtnoth were defeated by Viking raiders led by Sweyn Forkbeard. The battle is immortalized in the Old English poem 'The Battle of Maldon,' which celebrates the heroic resistance of the English forces despite their defeat. The battle marked a turning point in Viking-English relations, leading to increased Viking pressure and the payment of Danegeld.",
+      "key_figures": [
+        "Ealdorman Byrhtnoth (English commander)",
+        "Sweyn Forkbeard (Viking leader)",
+        "\u00c6thelred II (King of England)"
+      ],
+      "sources": [
+        {
+          "name": "The Battle of Maldon (poem)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Battle of Maldon is traditionally dated to 991, but some scholars argue for 989 or 990. The exact date is uncertain, and the poem itself does not provide a precise date. The battle's historical reality is confirmed, but its chronology is debated.",
+      "cross_references": [
+        "Related to broader Viking expansion in the 980s-1010s",
+        "Precedes the St. Brice's Day massacre (1002)"
+      ]
+    },
+    {
+      "id": "989-002",
+      "title": "Fatimid-Byzantine naval conflict in the Mediterranean",
+      "region": "Mediterranean Sea (Fatimid Caliphate and Byzantine Empire)",
+      "coordinates_approx": "35.0,18.0",
+      "category": "military",
+      "description": "The Fatimid Caliphate and the Byzantine Empire engaged in naval conflicts in the Mediterranean during the late 10th century. These conflicts were part of the broader struggle for control of Mediterranean trade routes and territorial dominance. The Fatimids, under Caliph Al-Aziz Billah, maintained a powerful navy that challenged Byzantine naval supremacy. These conflicts would continue throughout the 990s and into the 11th century.",
+      "key_figures": [
+        "Al-Aziz Billah (Fatimid Caliph)",
+        "Basil II (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Skylitzes, Synopsis of Histories",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Fatimid-Byzantine naval conflicts in the Mediterranean are well-documented in Islamic and Byzantine sources, though specific events of 989 are not always precisely dated. The broader context of Mediterranean naval rivalry is confirmed.",
+      "cross_references": [
+        "Part of broader Fatimid-Byzantine rivalry",
+        "Related to Crusade-era geopolitics"
+      ]
+    },
+    {
+      "id": "989-003",
+      "title": "Conversion of Vladimir the Great (traditional dating)",
+      "region": "Kievan Rus (Eastern Europe)",
+      "coordinates_approx": "50.45,30.52",
+      "category": "religious",
+      "description": "Prince Vladimir I of Kievan Rus underwent conversion to Orthodox Christianity. According to some sources, Vladimir was baptized in 989, though other sources place this event in 988 or 990. The conversion was a pivotal moment in Eastern European history, aligning Kievan Rus with the Byzantine Empire and Orthodox Christianity. The process of Christianization of his realm continued over several years, fundamentally shaping the religious and cultural identity of Eastern Europe and Russia.",
+      "key_figures": [
+        "Vladimir I (Prince of Kievan Rus)",
+        "Basil II (Byzantine Emperor)",
+        "Anna Porphyrogenneta (Byzantine princess)"
+      ],
+      "sources": [
+        {
+          "name": "Primary Chronicle (Povest vremennykh let)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Constantine VII Porphyrogennetus, De Administrando Imperio",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Vladimir's conversion is traditionally dated to 988-989, with some sources placing it in 990 or 991. The exact chronology is debated among historians. The conversion itself is confirmed by multiple sources, though details and exact dates vary.",
+      "cross_references": [
+        "Related to Byzantine-Rus relations",
+        "Precedes the establishment of the Kievan Rus church hierarchy"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of both the Battle of Maldon and Vladimir's conversion is highly uncertain. The Battle of Maldon is traditionally dated to 991, but some scholars argue for 989 or 990. The poem itself provides no precise date, and the Anglo-Saxon Chronicle's dating is not entirely reliable. Vladimir's conversion is traditionally dated to 988-989, but some sources place it in 990 or later. The Primary Chronicle, the main source for this event, was compiled in the 12th century and contains legendary elements. Modern scholarship has questioned the reliability of both events' traditional dating.",
+  "historiographic_note": "The historical record for 989 is sparse and uncertain. The two major events traditionally associated with this year (the Battle of Maldon and Vladimir's conversion) both have disputed dating. The surviving sources are often compiled centuries after the events and contain legendary or hagiographic elements. Byzantine sources are more reliable but focus on different regions. Islamic sources on this period are substantial but were compiled later. The record is heavily biased toward elite political and military events. Economic and social developments are underrepresented. Sub-Saharan Africa, Central Asia, and the Americas are essentially absent from surviving documentation.",
+  "graph_edges": [
+    {
+      "from": "989-003",
+      "to": "1000-XXX",
+      "relation": "led_to",
+      "note": "Christianization of Kievan Rus established Orthodox Christianity as dominant religion in Eastern Europe"
+    },
+    {
+      "from": "989-001",
+      "to": "1002-XXX",
+      "relation": "led_to",
+      "note": "Battle of Maldon (if dated to 989) was part of escalating Viking pressure on England"
+    }
+  ]
+}

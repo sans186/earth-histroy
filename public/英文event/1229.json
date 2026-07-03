@@ -1,0 +1,161 @@
+{
+  "year": 1229,
+  "year_label": "1229 CE",
+  "era_context": "The early 13th century is characterized by the Mongol expansion under \u00d6gedei Khan, the consolidation of European feudalism and early nation-states, the height of the Crusades, and the flourishing of Islamic and Christian scholasticism. The Jin Dynasty in northern China is under severe pressure from Mongol invasions. In Europe, the papacy is asserting unprecedented authority, and the mendicant orders are expanding their influence.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written records)",
+    "Southeast Asia (sparse documentation in Western sources)",
+    "Oceania (no written records)",
+    "Americas (no written records in Old World sources)"
+  ],
+  "events": [
+    {
+      "id": "1229-001",
+      "title": "Treaty of Jaffa (Sixth Crusade settlement)",
+      "region": "Levant (Jaffa, modern-day Israel)",
+      "coordinates_approx": "32.08, 34.76",
+      "category": "political",
+      "description": "Frederick II, Holy Roman Emperor, negotiates a treaty with Al-Kamil Muhammad of the Ayyubid Sultanate, securing Christian control of Jerusalem and other holy sites for a period of ten years. This settlement concludes the Sixth Crusade without major military engagement, achieved through diplomatic negotiation rather than warfare. The treaty represents a significant diplomatic victory for Frederick II and demonstrates the declining military capacity of both Crusader and Islamic powers in the Levant.",
+      "key_figures": [
+        "Frederick II, Holy Roman Emperor (Crusader leader)",
+        "Al-Kamil Muhammad (Ayyubid Sultan)",
+        "Papal legates"
+      ],
+      "sources": [
+        {
+          "name": "Chronicle of the Sixth Crusade (contemporary accounts)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Papal records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Treaty of Jaffa is well-documented in both Christian and Islamic sources, with the date of 1229 firmly established.",
+      "cross_references": []
+    },
+    {
+      "id": "1229-002",
+      "title": "Mongol Siege of Zhongdu (Beijing) region",
+      "region": "Northern China (Hebei Province)",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "military",
+      "description": "Mongol forces under \u00d6gedei Khan continue their systematic conquest of Jin Dynasty territories, with operations in the region around Zhongdu (modern Beijing). The Mongols are consolidating control over northern China and preparing for the final assault on the Jin capital. These campaigns demonstrate the Mongol military machine's efficiency and the Jin Dynasty's declining capacity to resist.",
+      "key_figures": [
+        "\u00d6gedei Khan (Mongol ruler)",
+        "Wanyan Shouxu (Jin Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shi (Official History of the Yuan Dynasty)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Jami' al-tawarikh by Rashid al-Din",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Mongol campaigns is well-documented, though specific events in 1229 may be conflated with adjacent years.",
+      "cross_references": [
+        "1231-004 (Siege of Kaifeng)"
+      ]
+    },
+    {
+      "id": "1229-003",
+      "title": "Reconquista: Siege of Baza",
+      "region": "Iberian Peninsula (Granada region)",
+      "coordinates_approx": "37.49, -3.37",
+      "category": "military",
+      "description": "Christian forces, primarily from Castile, besiege the Islamic fortress of Baza in southern Iberia. The siege represents part of the broader Reconquista campaigns of the 1220s\u20131230s. While the siege may not have concluded in 1229, it represents the ongoing military pressure exerted by Christian kingdoms against Islamic Al-Andalus.",
+      "key_figures": [
+        "Ferdinand III of Castile (Christian ruler)",
+        "Islamic defenders of Baza"
+      ],
+      "sources": [
+        {
+          "name": "Cr\u00f3nica de los Reyes de Castila (Chronicle of the Kings of Castile)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The siege of Baza is documented in later chronicles, but the exact dates are uncertain; it may have occurred in 1228\u20131230.",
+      "cross_references": []
+    },
+    {
+      "id": "1229-004",
+      "title": "Inquisition activities in southern France",
+      "region": "Southern France (Occitania)",
+      "coordinates_approx": "43.5, 1.5",
+      "category": "religious",
+      "description": "The newly established Papal Inquisition, staffed primarily by Dominican friars, intensifies its activities against Cathar heretics in southern France. The Inquisition conducts investigations, interrogations, and trials of suspected heretics. This represents the formalization of systematic heresy prosecution and the expansion of papal authority into local ecclesiastical matters.",
+      "key_figures": [
+        "Pope Gregory IX (Papal authority)",
+        "Dominican inquisitors",
+        "Cathar heretics and sympathizers"
+      ],
+      "sources": [
+        {
+          "name": "Inquisitorial records and registers",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Papal correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Inquisitorial activities in southern France are well-documented in surviving records from the period.",
+      "cross_references": [
+        "1231-002 (Establishment of the Papal Inquisition)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Treaty of Jaffa is sometimes interpreted as a diplomatic failure for the papacy, as Frederick II negotiated directly with Islamic powers without papal approval, leading to papal excommunication. The significance of specific military engagements in 1229 (such as the siege of Baza) is difficult to assess due to sparse documentation and conflicting dates in later chronicles. The Inquisition's activities in 1229 are documented but may be overstated in terms of their immediate impact on heresy suppression.",
+  "historiographic_note": "Documentation for 1229 is moderate, with European sources (particularly papal records and crusade chronicles) being relatively rich. East Asian sources depend on later compilations. Islamic sources provide some contemporary accounts of the Treaty of Jaffa and Ayyubid affairs. The historical record is heavily weighted toward Europe and the Levant, with minimal coverage of other regions. Biases in surviving sources favor political and military events over economic, social, or cultural developments. The Treaty of Jaffa is well-documented from both Christian and Islamic perspectives, making it one of the better-attested events of this year.",
+  "graph_edges": [
+    {
+      "from": "1229-001",
+      "to": "1231-002",
+      "relation": "contemporary_with",
+      "note": "Treaty of Jaffa and establishment of the Inquisition represent parallel developments in medieval Christian authority"
+    },
+    {
+      "from": "1229-002",
+      "to": "1231-001",
+      "relation": "led_to",
+      "note": "Mongol campaigns of 1229 set the stage for intensified campaigns in 1231"
+    },
+    {
+      "from": "1229-003",
+      "to": "1231-003",
+      "relation": "contemporary_with",
+      "note": "Reconquista campaigns continued across 1229\u20131231"
+    },
+    {
+      "from": "1229-004",
+      "to": "1231-002",
+      "relation": "led_to",
+      "note": "Inquisitorial activities of 1229 contributed to the formalization of the Inquisition in 1231"
+    }
+  ]
+}

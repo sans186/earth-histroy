@@ -1,0 +1,117 @@
+{
+  "year": 1245,
+  "year_label": "1245 CE",
+  "era_context": "The mid-13th century: the Mongol Empire was consolidating its vast territorial gains under the aging \u00d6gedei Khan's successors. In Europe, the papacy was engaged in conflict with the Holy Roman Emperor Frederick II. The Song Dynasty in southern China was under increasing military pressure from the Jin Dynasty and Mongol forces. The Mamluk Sultanate was rising in Egypt following the decline of Ayyubid power.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Oceania",
+    "Central Asian steppe (limited written records; mostly inferred from later sources)"
+  ],
+  "events": [
+    {
+      "id": "1245-001",
+      "title": "First Council of Lyon convened by Pope Innocent IV",
+      "region": "Papal States, Lyon, France",
+      "coordinates_approx": "45.76, 4.84",
+      "category": "religious",
+      "description": "Pope Innocent IV convened the First Council of Lyon (also called the Thirteenth Ecumenical Council) to address major ecclesiastical and political issues, including the conflict with Holy Roman Emperor Frederick II, the crusade against the Cathars, and the organization of crusades against the Mongols and Muslims. The council lasted from June to November 1245 and resulted in the excommunication and deposition of Frederick II, a major assertion of papal authority over secular rulers. The council also issued decrees on ecclesiastical reform and authorized new crusading efforts.",
+      "key_figures": [
+        "Pope Innocent IV (convener)",
+        "Frederick II, Holy Roman Emperor (deposed)",
+        "Cardinal Odo of Ch\u00e2tillon (papal legate)"
+      ],
+      "sources": [
+        {
+          "name": "Concilium Lugdunense I (Council records)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chronicles of Matthew Paris",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The council is extensively documented in contemporary ecclesiastical records and chronicles.",
+      "cross_references": []
+    },
+    {
+      "id": "1245-002",
+      "title": "Mongol embassy to Pope Innocent IV",
+      "region": "Papal States, Lyon, France / Mongol Empire",
+      "coordinates_approx": "45.76, 4.84",
+      "category": "political",
+      "description": "During the First Council of Lyon, Pope Innocent IV received Mongol envoys, likely sent by the Mongol Great Khan (possibly G\u00fcy\u00fck Khan, who was elected in 1246, or his predecessor). This embassy represented one of the first direct diplomatic contacts between the Mongol Empire and the Western Christian Church. The pope responded by sending Franciscan friars (including John of Plano Carpini) as envoys to the Mongol court, initiating a period of diplomatic and missionary contact that would continue for several decades. These embassies were motivated by mutual curiosity and the possibility of alliances against Islamic powers.",
+      "key_figures": [
+        "Pope Innocent IV (recipient)",
+        "Mongol envoys (names not recorded in Western sources)",
+        "John of Plano Carpini (Franciscan friar, papal envoy)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Mongolorum by John of Plano Carpini",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chronicles of Matthew Paris",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The embassy is attested in Western sources, but the exact date and the identity of the Mongol sender are uncertain. Some sources place the embassy in 1246 or 1247. The timing relative to the council is inferred from Matthew Paris's account.",
+      "cross_references": [
+        "1246-001 (M\u00f6ngke Khan's election)"
+      ]
+    },
+    {
+      "id": "1245-003",
+      "title": "Mongol campaign against the Jin Dynasty in northern China",
+      "region": "Northern China, Jin Dynasty territory",
+      "coordinates_approx": "39.90, 116.41",
+      "category": "military",
+      "description": "Mongol forces under the command of M\u00f6ngke Khan (or his predecessors) continued their systematic conquest of the Jin Dynasty's remaining territories in northern China. The Jin Dynasty, once a major power, had been reduced to a rump state in Henan and Shandong provinces. Mongol campaigns in 1245 and surrounding years gradually eliminated Jin resistance, with the dynasty's final collapse occurring in 1234 (though some sources extend Jin resistance into the 1240s). The conquest of Jin territories was crucial to Mongol expansion and the eventual unification of China under Kublai Khan.",
+      "key_figures": [
+        "M\u00f6ngke Khan (Mongol commander)",
+        "Jin Dynasty rulers (names vary by source)"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shi (Official History of the Yuan Dynasty)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Jin Shi (History of the Jin Dynasty)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Jin Dynasty's collapse is well-documented, but the specific events of 1245 are difficult to isolate from the broader conquest narrative. The date is assigned by convention within the period of Jin resistance (1234\u20131250s).",
+      "cross_references": [
+        "1234-001 (Jin Dynasty collapse)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The date and significance of the Mongol embassy to the pope are disputed. Some sources place it in 1246 or 1247, and the identity of the Mongol sender is uncertain\u2014it may not have been an official embassy from the Great Khan but rather from a regional Mongol commander. The Western sources (Matthew Paris, John of Plano Carpini) may have inflated the significance of the contact or misunderstood the Mongol intentions. The Jin Dynasty's status in 1245 is also ambiguous; while the dynasty is traditionally dated to have ended in 1234, some sources suggest pockets of Jin resistance persisted into the 1240s or even 1250s, making the exact timeline of conquest unclear.",
+  "historiographic_note": "The historical record for 1245 is dominated by Western ecclesiastical sources (the Council of Lyon records and Matthew Paris's chronicles), which naturally emphasize European events and perspectives. Mongol sources are sparse for this year; most information about Mongol activities comes from later compilations. Chinese sources (Yuan Shi, Jin Shi) provide information about the Jin Dynasty but were written centuries after the events. The experiences of ordinary people, particularly in China and Central Asia, are largely absent. The Mongol embassy to the pope is a fascinating example of early cross-cultural contact, but Western sources may have misinterpreted or exaggerated its significance.",
+  "graph_edges": [
+    {
+      "from": "1245-001",
+      "to": "1245-002",
+      "relation": "contemporary_with",
+      "note": "The Mongol embassy to the pope occurred during or around the First Council of Lyon"
+    },
+    {
+      "from": "1245-002",
+      "to": "1246-001",
+      "relation": "led_to",
+      "note": "The Mongol embassy may have been sent by or on behalf of M\u00f6ngke Khan, whose election occurred in 1246"
+    }
+  ]
+}

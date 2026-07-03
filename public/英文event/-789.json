@@ -1,0 +1,51 @@
+{
+  "year": -789,
+  "year_label": "789 BCE",
+  "era_context": "The Iron Age II Levant and Eastern Mediterranean. The Neo-Assyrian Empire under Sargon II's predecessors was consolidating power in Mesopotamia. The Kingdom of Israel under Jeroboam II had recently ended (c. -746 BCE), and the region was fragmenting into smaller polities under Assyrian pressure. In Greece, the Archaic period was underway; the alphabet was spreading and city-states were consolidating. Egypt was in the Third Intermediate Period, politically fragmented.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "South Asia (Vedic period India)",
+    "East Asia (early Zhou China)",
+    "Mesoamerica",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-789-001",
+      "title": "Reign of Shalmaneser IV of Assyria (approximate dates)",
+      "region": "Neo-Assyrian Empire, Mesopotamia",
+      "coordinates_approx": "35.5, 36.0",
+      "category": "political",
+      "description": "Shalmaneser IV ruled the Neo-Assyrian Empire during a period of relative stability and consolidation. His reign saw continued military campaigns in the Levant and maintenance of Assyrian hegemony, though he was less expansionist than his predecessors. The empire's administrative and military infrastructure was refined during this period.",
+      "key_figures": [
+        "Shalmaneser IV (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian King List",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Synchronistic History of Assyria and Babylonia",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Shalmaneser IV's reign is dated c. 783\u2013773 BCE by most scholars, placing 789 BCE within his rule. However, exact year-by-year events are not well-documented in surviving sources.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Shalmaneser IV's reign is subject to the 'Assyrian chronology problem'\u2014a scholarly debate over whether to use the 'high' or 'low' chronology, which can shift dates by 50+ years. Some sources place his reign earlier or later. No specific events are reliably attested to 789 BCE alone.",
+  "historiographic_note": "Documentation for this year is minimal. Assyrian king lists provide reign lengths, but contemporary inscriptions detailing specific campaigns or events for 789 BCE are not known to survive. The historical record is dominated by Mesopotamian and Levantine sources; other regions are essentially invisible in the archaeological and textual record for this specific year.",
+  "graph_edges": [
+    {
+      "from": "-789-001",
+      "to": "-746-001",
+      "relation": "led_to",
+      "note": "Shalmaneser IV's reign preceded the fall of the Kingdom of Israel under Assyrian pressure"
+    }
+  ]
+}

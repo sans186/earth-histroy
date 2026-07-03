@@ -1,0 +1,90 @@
+{
+  "year": -512,
+  "year_label": "512 BCE",
+  "era_context": "Darius I's reign in the Achaemenid Persian Empire; early democratic Athens under Cleisthenes; the Spring and Autumn period in China; Iron Age societies across Europe. This is a period of relative stability in the Mediterranean, though Persian expansion continues and Greek city-states are consolidating their political systems.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica and South America",
+    "Southeast Asia",
+    "Pacific Islands",
+    "Central Asia",
+    "India (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "-512-001",
+      "title": "Darius I's Scythian campaign (continuation or alternative dating)",
+      "region": "Scythian territories north of the Black Sea and Danube River",
+      "coordinates_approx": "45.0, 35.0",
+      "category": "military",
+      "description": "Some sources and scholarly interpretations place Darius's Scythian campaign in 512 BCE rather than 513 BCE. The campaign involved crossing the Danube and pursuing Scythian forces across the steppes, ultimately failing to achieve permanent conquest due to Scythian mobility and the vast terrain. The expedition consumed significant Persian resources and demonstrated the limits of Persian military reach in the north. Darius withdrew after several months without achieving lasting territorial gains.",
+      "key_figures": [
+        "Darius I (Achaemenid Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories, Book IV",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic debate on dating of Darius's Scythian campaign",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Scythian campaign is dated variously to 513 or 512 BCE by different scholars. Herodotus does not provide a precise date, and the chronology is inferred from narrative sequence and other historical markers. The campaign likely occurred in one of these two years, but the exact year is uncertain.",
+      "cross_references": [
+        "See -513-001 for alternative dating and fuller description"
+      ]
+    },
+    {
+      "id": "-512-002",
+      "title": "Athenian ostracism introduced (traditional dating)",
+      "region": "Athens, Attica",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "Ostracism, a democratic procedure for exiling dangerous politicians, is traditionally dated to around 512 BCE or shortly thereafter, though the exact date is uncertain. The procedure allowed Athenian citizens to vote on whether to exile a prominent figure for ten years by writing the person's name on a pottery shard (ostrakon). The institution was designed to prevent the rise of tyrants and to manage factional conflicts within the democracy. The first recorded ostracism occurred in 487 BCE (Megacles), but the institution may have been established earlier, possibly during Cleisthenes' reforms in the early 5th century BCE.",
+      "key_figures": [
+        "Cleisthenes (attributed with establishing ostracism, though this is debated)"
+      ],
+      "sources": [
+        {
+          "name": "Aristotle, Constitution of the Athenians",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic debate on the dating of ostracism",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The dating of ostracism's introduction is highly uncertain. Aristotle attributes it to Cleisthenes, but the first recorded use was in 487 BCE. Some scholars argue ostracism was introduced later, possibly in the 480s BCE, rather than in the early 5th century. The traditional dating to ~512 BCE is based on Aristotle's narrative but is not firmly established.",
+      "cross_references": [
+        "Part of Cleisthenes' democratic reforms",
+        "First recorded use in -487-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Darius's Scythian campaign is disputed; some scholars place it in 512 BCE, others in 513 BCE, and a few question whether it occurred at all. Herodotus's account contains legendary elements and may be unreliable. The introduction of ostracism is even more uncertain; modern scholarship increasingly argues that ostracism was not established by Cleisthenes but was introduced later, possibly in the 480s BCE. The first recorded ostracism (487 BCE) is well-attested, but the institution's origins are obscure.",
+  "historiographic_note": "The historical record for 512 BCE is sparse and heavily dependent on Greek sources written decades or centuries later. The dating of major events is uncertain, and the chronology of early Athenian democracy is particularly problematic. Aristotle's Constitution of the Athenians is the most detailed source but was written ~200 years after the events. Persian sources do not survive for this year; our knowledge of Darius's activities is inferred from Greek accounts. The perspective is overwhelmingly Greek and Mediterranean; events in Asia, Africa, and other regions are not documented in surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-512-001",
+      "to": "-490-001",
+      "relation": "led_to",
+      "note": "The Scythian campaign's failure contributed to the context of later Greco-Persian conflicts."
+    },
+    {
+      "from": "-512-002",
+      "to": "-487-001",
+      "relation": "led_to",
+      "note": "The establishment of ostracism (if dated to this period) enabled the first recorded ostracism in 487 BCE."
+    }
+  ]
+}

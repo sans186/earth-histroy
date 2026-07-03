@@ -1,0 +1,112 @@
+{
+  "year": -176,
+  "year_label": "176 BCE",
+  "era_context": "Continuation of the mid-Hellenistic period. Antiochus IV Epiphanes is now firmly in power in the Seleucid realm. Rome is consolidating its dominance in the Mediterranean following the Second Macedonian War (200\u2013196 BCE). The Han Dynasty continues its period of stability under Emperor Wen. Regional powers in India, Parthia, and the Mediterranean compete for influence.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-176-001",
+      "title": "Seleucid-Egyptian tensions: Antiochus IV's early military preparations",
+      "region": "Seleucid Empire and Egypt",
+      "coordinates_approx": "35.0, 31.0",
+      "category": "military",
+      "description": "In the years following his accession, Antiochus IV began military preparations and diplomatic maneuvering against Egypt. By 176 BCE, tensions between the Seleucid and Ptolemaic dynasties were escalating. Antiochus sought to expand Seleucid influence in the Levant and potentially reclaim territories lost to Egypt. These tensions would culminate in the Syrian Wars (170\u2013168 BCE).",
+      "key_figures": [
+        "Antiochus IV Epiphanes (Seleucid King)",
+        "Ptolemy VI Philometor (Egyptian King)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories (Books 26\u201329)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Livy, History of Rome (Book 41)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The escalation of tensions is documented, though specific events in 176 BCE are not always precisely dated. The broader conflict trajectory is clear.",
+      "cross_references": [
+        "Leads to -170-001 (First Syrian War)"
+      ]
+    },
+    {
+      "id": "-176-002",
+      "title": "Han Dynasty: Continued economic expansion and merchant activity",
+      "region": "Han Dynasty China",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "economic",
+      "description": "During Emperor Wen's reign, the Han economy continued to expand. Merchant wealth grew significantly, and trade networks extended across Central Asia. The government maintained low taxation policies, which encouraged agricultural production and commerce. By 176 BCE, the Han Dynasty was experiencing one of its most prosperous periods, setting the stage for later imperial expansion.",
+      "key_figures": [
+        "Emperor Wen of Han",
+        "Merchant class (unnamed)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu by Ban Gu",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The economic trends of Emperor Wen's reign are well-documented in Chinese historical sources.",
+      "cross_references": []
+    },
+    {
+      "id": "-176-003",
+      "title": "Parthian Kingdom: Consolidation under Mithridates I",
+      "region": "Parthian Empire (Mesopotamia, Persia)",
+      "coordinates_approx": "35.0, 48.0",
+      "category": "political",
+      "description": "Mithridates I of Parthia (r. c. 171\u2013138 BCE) was in the early stages of his reign, which would transform Parthia from a minor kingdom into a major imperial power rivaling the Seleucids. By 176 BCE, Mithridates was consolidating control and beginning the military campaigns that would expand Parthian territory. This period marks the beginning of Parthia's rise to prominence.",
+      "key_figures": [
+        "Mithridates I of Parthia (r. c. 171\u2013138 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Strabo, Geography",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Parthian coins and numismatic evidence",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Mithridates I's exact accession date is debated (171\u2013165 BCE range). By 176 BCE, he was likely already ruling, though the precise chronology is uncertain.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "Some sources place Antiochus IV's accession in 176 BCE rather than 175 BCE, creating minor chronological ambiguity. The exact dating of Mithridates I's accession to the Parthian throne is disputed among scholars, with estimates ranging from 171 to 165 BCE. No major disconfirming evidence for other events listed.",
+  "historiographic_note": "Documentation for 176 BCE remains moderate, with the same geographic and source biases as 175 BCE. Greek and Roman sources provide the most detailed information about the Mediterranean and Near East. Chinese sources are reliable but less granular about individual years. The Parthian evidence is primarily numismatic and later literary references, making precise dating difficult. The historical record is heavily skewed toward major powers and military/political events; economic and social history is less well-documented.",
+  "graph_edges": [
+    {
+      "from": "-176-001",
+      "to": "-170-001",
+      "relation": "led_to",
+      "note": "Escalating tensions between Seleucids and Ptolemies culminated in the First Syrian War"
+    },
+    {
+      "from": "-176-003",
+      "to": "-160-001",
+      "relation": "led_to",
+      "note": "Mithridates I's early consolidation enabled later Parthian expansion"
+    }
+  ]
+}

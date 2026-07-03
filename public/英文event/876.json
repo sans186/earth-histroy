@@ -1,0 +1,109 @@
+{
+  "year": 876,
+  "year_label": "876 CE",
+  "era_context": "The Carolingian Empire has fragmented following the Treaty of Verdun (843 CE). Western Europe is divided among the successors of Louis the Pious, with the Kingdom of the West Franks (France), East Franks (Germany), and Lotharingia competing for dominance. The Byzantine Empire under the Macedonian Renaissance is experiencing cultural and military revival. The Islamic Abbasid Caliphate is in decline, with regional dynasties asserting autonomy. Viking raids continue to destabilize Western Europe.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "East Asia interior regions beyond major dynasties",
+    "Oceania and Pacific islands"
+  ],
+  "events": [
+    {
+      "id": "876-001",
+      "title": "Death of Louis the German; Division of East Frankish Kingdom",
+      "region": "East Frankish Kingdom (modern Germany, Austria, Bohemia)",
+      "coordinates_approx": "50.0, 10.0",
+      "category": "political",
+      "description": "Louis the German, king of the East Franks since 843, died in 876. His kingdom was divided among his three sons: Carloman received Bavaria and Alemannia, Louis the Younger received Saxony and the lands east of the Rhine, and Charles the Fat received Alemannia and parts of Burgundy. This fragmentation weakened East Frankish unity and created internal rivalries that would persist for decades. The division reflected the Carolingian custom of partible inheritance and set the stage for the eventual reunification under Charles the Fat in 884.",
+      "key_figures": [
+        "Louis the German (deceased king)",
+        "Carloman (son, Bavaria and Alemannia)",
+        "Louis the Younger (son, Saxony)",
+        "Charles the Fat (son, Alemannia and Burgundy)"
+      ],
+      "sources": [
+        {
+          "name": "Annales Bertiniani (Annals of St. Bertin)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Regino of Pr\u00fcm, Chronicon",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Contemporary chronicle sources confirm the death and division. The date 876 is well-established in Carolingian records.",
+      "cross_references": [
+        "843-001 (Treaty of Verdun, initial division)",
+        "884-001 (Charles the Fat's reunification)"
+      ]
+    },
+    {
+      "id": "876-002",
+      "title": "Viking Raid on Melun and Seine Valley",
+      "region": "West Frankish Kingdom (modern France)",
+      "coordinates_approx": "48.5, 2.7",
+      "category": "military",
+      "description": "Viking raiders, likely operating from bases in the Seine estuary, conducted raids deep into the West Frankish heartland, targeting Melun and surrounding settlements. These raids were part of the sustained Viking pressure on the West Franks during the reign of Charles the Bald. The raids prompted fortification efforts and the negotiation of tribute payments (Danegeld-style arrangements) to secure temporary peace. Such raids contributed to the militarization of Frankish society and the rise of local strongmen.",
+      "key_figures": [
+        "Charles the Bald (West Frankish king)",
+        "Viking raiders (unnamed)"
+      ],
+      "sources": [
+        {
+          "name": "Annales Bertiniani",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Chronicles record Viking activity in this region during this period, though specific details of individual raids are sometimes conflated or dated approximately.",
+      "cross_references": []
+    },
+    {
+      "id": "876-003",
+      "title": "Basil I Consolidates Byzantine Military Reforms",
+      "region": "Byzantine Empire (Eastern Mediterranean, Balkans, Anatolia)",
+      "coordinates_approx": "41.0, 29.0",
+      "category": "military",
+      "description": "Basil I, the Macedonian emperor (r. 867\u2013886), continued his military reorganization of the Byzantine state, strengthening the thematic system and rebuilding the navy. By 876, Basil had secured the eastern frontier against Arab incursions and was preparing for campaigns in Italy and the Balkans. His reforms laid the foundation for the Byzantine military renaissance of the 10th century. The reorganization included improved recruitment, training, and the integration of foreign mercenaries.",
+      "key_figures": [
+        "Basil I (Byzantine emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Theophanes Continuatus (continuation of Theophanes' chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Constantine VII Porphyrogennetus, De Administrando Imperio",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Basil's military reforms are well-documented in Byzantine sources, though the precise chronology of individual initiatives is sometimes uncertain. The reforms are generally dated to his reign (867\u2013886) rather than to specific years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The significance of the 876 division of the East Frankish Kingdom is sometimes overstated in older historiography as a 'permanent' fragmentation. Modern scholarship emphasizes that Carolingian partible inheritance was customary and that the reunification under Charles the Fat (884) was not anomalous. The 'fragmentation' narrative reflects later nationalist historiography more than contemporary political reality.",
+  "historiographic_note": "Documentation for 876 is strong in Western Europe, particularly for the Frankish kingdoms, thanks to the Annales Bertiniani and related chronicles. Byzantine sources are also relatively rich. However, sources are heavily weighted toward political and military events affecting the elite. Economic, social, and cultural history is poorly documented. Non-European regions (Islamic world, Asia, Africa) have sparser contemporary documentation for this specific year.",
+  "graph_edges": [
+    {
+      "from": "876-001",
+      "to": "884-001",
+      "relation": "led_to",
+      "note": "The division of Louis the German's kingdom set the stage for the eventual reunification under Charles the Fat."
+    },
+    {
+      "from": "876-002",
+      "to": "876-003",
+      "relation": "contemporary_with",
+      "note": "Both represent military pressures on the Frankish and Byzantine worlds in the same period."
+    }
+  ]
+}

@@ -1,0 +1,495 @@
+{
+  "year": 1943,
+  "year_label": "1943 CE",
+  "era_context": "World War II at a turning point. The Allies are gaining the initiative: German defeat at Stalingrad (February); Italian surrender (September); American advance in the Pacific. The Holocaust continues at full scale. The Allies begin planning the post-war order. Germany and Japan remain militarily formidable but facing inevitable defeat.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1943-001",
+      "title": "Battle of Stalingrad ends; German defeat",
+      "region": "Stalingrad (now Volgograd), Soviet Union",
+      "coordinates_approx": "48.70, 44.50",
+      "category": "military",
+      "description": "The Battle of Stalingrad, which began in August 1942, ended on 2 February 1943 with a decisive Soviet victory. German forces under General Friedrich Paulus surrendered after months of brutal urban combat. The battle resulted in approximately 2 million casualties (killed, wounded, missing) on both sides. The Soviet victory at Stalingrad marked a major turning point in the war on the Eastern Front and demonstrated that Nazi Germany could be defeated. The battle became a symbol of Soviet determination and sacrifice. The German defeat at Stalingrad shattered the myth of German invincibility and boosted Soviet morale.",
+      "key_figures": [
+        "Friedrich Paulus (German commander)",
+        "Georgy Zhukov (Soviet commander)",
+        "Alexander Vasilevsky"
+      ],
+      "sources": [
+        {
+          "name": "Soviet Military Archives, Stalingrad Battle Records, 1942\u20131943",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Richard Overy, Russia's War (1997)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Battle ended 2 February 1943; extensively documented in Soviet and German records.",
+      "cross_references": [
+        "1942-001 (Battle of Stalingrad begins)"
+      ]
+    },
+    {
+      "id": "1943-002",
+      "title": "Battle of Kursk; largest tank battle in history",
+      "region": "Kursk, Soviet Union",
+      "coordinates_approx": "51.73, 36.19",
+      "category": "military",
+      "description": "The Battle of Kursk was fought from 5\u201312 July 1943 and was the largest tank battle in history. German forces attempted to pinch off a Soviet salient (bulge) in the front lines, but Soviet defences were too strong. The battle resulted in a decisive Soviet victory and marked the end of German offensive capability on the Eastern Front. The Soviets captured the initiative and began a series of offensives that would drive German forces westward. The battle demonstrated Soviet military superiority and the effectiveness of Soviet defensive tactics.",
+      "key_figures": [
+        "Georgy Zhukov",
+        "Ivan Konev",
+        "Walter Model (German commander)"
+      ],
+      "sources": [
+        {
+          "name": "Soviet Military Archives, Kursk Battle Records, 1943",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Richard Overy, Russia's War (1997)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Battle occurred 5\u201312 July 1943; documented in Soviet and German military records.",
+      "cross_references": [
+        "1943-001 (Stalingrad victory)"
+      ]
+    },
+    {
+      "id": "1943-003",
+      "title": "Italy surrenders; Mussolini falls from power",
+      "region": "Rome, Italy",
+      "coordinates_approx": "41.90, 12.50",
+      "category": "political",
+      "description": "Benito Mussolini was removed from power on 25 July 1943 after the Fascist Grand Council voted to depose him. King Victor Emmanuel III had Mussolini arrested. Italy's new government, led by Marshal Pietro Badoglio, began secret negotiations with the Allies. Italy surrendered unconditionally on 3 September 1943, though the surrender was not announced until 8 September 1943. German forces, anticipating Italian surrender, occupied much of Italy and rescued Mussolini, establishing him as the puppet leader of the Italian Social Republic in northern Italy. The Italian surrender marked the first major Axis power to leave the war, though the Italian campaign would continue until 1945.",
+      "key_figures": [
+        "Benito Mussolini",
+        "King Victor Emmanuel III",
+        "Pietro Badoglio",
+        "Dwight D. Eisenhower"
+      ],
+      "sources": [
+        {
+          "name": "Italian Government Archives, Fall of Mussolini Records, 1943",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "R. J. B. Bosworth, Mussolini's Italy: Life Under the Dictatorship, 1915\u20131945 (2005)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mussolini deposed 25 July 1943; Italy surrendered 3 September 1943.",
+      "cross_references": [
+        "1945-003 (Germany surrenders)"
+      ]
+    },
+    {
+      "id": "1943-004",
+      "title": "Casablanca Conference; Allies demand unconditional surrender",
+      "region": "Casablanca, Morocco",
+      "coordinates_approx": "33.57, -7.59",
+      "category": "political",
+      "description": "The Casablanca Conference was held from 14\u201324 January 1943 in Casablanca, Morocco, with President Franklin D. Roosevelt and Prime Minister Winston Churchill. The conference addressed the strategy for defeating Nazi Germany and Imperial Japan. Roosevelt announced the policy of 'unconditional surrender,' meaning that Germany and Japan would have no role in negotiating the peace and would face complete defeat. The policy was intended to reassure the Soviet Union that the Western powers would not make a separate peace with Germany. However, the policy was controversial, as some argued it prolonged the war by eliminating incentives for surrender.",
+      "key_figures": [
+        "Franklin D. Roosevelt",
+        "Winston Churchill",
+        "Charles de Gaulle"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Department of State, Casablanca Conference Records, 1943",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David Reynolds (ed.), The Origins of the Cold War in Europe (1994)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Conference held 14\u201324 January 1943; documented in State Department records.",
+      "cross_references": [
+        "1945-003 (Germany surrenders unconditionally)"
+      ]
+    },
+    {
+      "id": "1943-005",
+      "title": "Tehran Conference; Roosevelt, Churchill, Stalin meet",
+      "region": "Tehran, Iran",
+      "coordinates_approx": "35.69, 51.39",
+      "category": "political",
+      "description": "The Tehran Conference was held from 28 November to 1 December 1943 in Tehran, Iran, with President Franklin D. Roosevelt, Prime Minister Winston Churchill, and Soviet Premier Joseph Stalin. This was the first meeting of the 'Big Three' leaders during World War II. The conference addressed the strategy for defeating Nazi Germany, including the opening of a second front in Western Europe (D-Day). Stalin agreed to enter the war against Japan after Germany's defeat. The conference also discussed the post-war division of Europe and the establishment of the United Nations. The Tehran Conference marked the beginning of serious planning for the post-war order.",
+      "key_figures": [
+        "Franklin D. Roosevelt",
+        "Winston Churchill",
+        "Joseph Stalin"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Department of State, Foreign Relations of the United States: The Conferences at Cairo and Tehran, 1943",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David Reynolds (ed.), The Origins of the Cold War in Europe (1994)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Conference held 28 November\u20131 December 1943; documented in diplomatic records.",
+      "cross_references": [
+        "1945-005 (Yalta Conference)"
+      ]
+    },
+    {
+      "id": "1943-006",
+      "title": "Battle of the Atlantic turns in favour of the Allies",
+      "region": "Atlantic Ocean",
+      "coordinates_approx": "50.00, -30.00",
+      "category": "military",
+      "description": "The Battle of the Atlantic, which had raged since 1939, turned decisively in favour of the Allies in 1943. German U-boats, which had inflicted heavy losses on Allied shipping, were increasingly defeated by improved Allied anti-submarine tactics, technology, and intelligence. The Allies broke German naval codes and used this intelligence to locate and sink U-boats. By May 1943, German U-boat losses became unsustainable, and Admiral Karl D\u00f6nitz withdrew U-boats from the North Atlantic. The Allied victory in the Battle of the Atlantic secured the sea lanes for the transport of supplies and troops, essential for the invasion of Europe.",
+      "key_figures": [
+        "Karl D\u00f6nitz (German admiral)",
+        "Max Horton (British admiral)",
+        "Ernest King (US admiral)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Navy, Battle of the Atlantic Records, 1943",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David Syrett, The Defeat of the German U-Boats (1994)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Battle turned in Allies' favour in 1943; documented in naval records.",
+      "cross_references": [
+        "1944-001 (D-Day landings)"
+      ]
+    },
+    {
+      "id": "1943-007",
+      "title": "American island-hopping campaign advances in Pacific",
+      "region": "Pacific Ocean (Gilbert Islands, Marshall Islands)",
+      "coordinates_approx": "0.00, 170.00",
+      "category": "military",
+      "description": "The American island-hopping campaign, which began in 1942, continued to advance in 1943. American forces captured the Gilbert Islands (November 1943) and began preparations for the Marshall Islands campaign. The strategy of island-hopping involved capturing strategically important islands while bypassing others, allowing American forces to advance toward Japan while minimising casualties. The campaign demonstrated American military superiority in the Pacific and the effectiveness of amphibious operations. By 1943, American forces were on the offensive and moving steadily toward Japan.",
+      "key_figures": [
+        "Douglas MacArthur",
+        "Chester Nimitz",
+        "Holland Smith"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Navy, Pacific Fleet Operations Records, 1943",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Gordon W. Prange, Donald M. Goldstein, and Katherine V. Dillon, The Pacific War Papers (1995)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Island-hopping campaign advanced in 1943; documented in military records.",
+      "cross_references": [
+        "1944-004 (Battle of Philippine Sea)"
+      ]
+    },
+    {
+      "id": "1943-008",
+      "title": "Warsaw Ghetto Uprising; Jewish resistance against Nazi persecution",
+      "region": "Warsaw, Poland",
+      "coordinates_approx": "52.23, 21.01",
+      "category": "military",
+      "description": "The Warsaw Ghetto Uprising began on 19 April 1943 when Jewish resistance fighters in the Warsaw Ghetto rose up against Nazi deportations to extermination camps. The uprising lasted until 16 May 1943 and resulted in the deaths of approximately 13,000 Jews and the destruction of the ghetto. The uprising was a heroic act of resistance against overwhelming odds, though it was ultimately unsuccessful in stopping the Holocaust. The uprising became a symbol of Jewish resistance and determination to fight for dignity and survival. Survivors of the uprising testified to the horrors of the Holocaust.",
+      "key_figures": [
+        "Mordechai Anielewicz (resistance commander)",
+        "J\u00fcrgen Stroop (Nazi commander)"
+      ],
+      "sources": [
+        {
+          "name": "Jewish Historical Institute, Warsaw Ghetto Uprising Records, 1943",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Yitzhak Arad, Ghetto in Flames: The Struggle and Destruction of the Jews in Vilna in the Holocaust (1982)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Uprising occurred 19 April\u201316 May 1943; documented in Nazi and Jewish sources.",
+      "cross_references": [
+        "1945-012 (Holocaust liberation)"
+      ]
+    },
+    {
+      "id": "1943-009",
+      "title": "Sicily Campaign; Allies invade Sicily",
+      "region": "Sicily, Italy",
+      "coordinates_approx": "37.58, 14.00",
+      "category": "military",
+      "description": "Operation Husky, the invasion of Sicily, began on 10 July 1943 with American and British forces landing on the island. The campaign lasted 38 days and resulted in the conquest of Sicily by the Allies. The invasion was followed by the Italian surrender in September 1943. The Sicily campaign demonstrated the effectiveness of Allied amphibious operations and provided a stepping stone for the invasion of mainland Italy. The campaign also demonstrated the vulnerability of Axis-controlled territory to Allied assault.",
+      "key_figures": [
+        "Dwight D. Eisenhower",
+        "Bernard Montgomery",
+        "George S. Patton"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Army, Mediterranean Theater of Operations, Sicily Campaign Records, 1943",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Rick Atkinson, The Day of Battle: The War in Sicily and Italy, 1943\u20131944 (2007)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Sicily campaign occurred 10 July\u201317 August 1943; documented in military records.",
+      "cross_references": [
+        "1943-003 (Italy surrenders)"
+      ]
+    },
+    {
+      "id": "1943-010",
+      "title": "Invasion of mainland Italy; Allies cross to Europe",
+      "region": "Calabria, Italy",
+      "coordinates_approx": "38.50, 16.00",
+      "category": "military",
+      "description": "American and British forces invaded mainland Italy on 3 September 1943, crossing the Strait of Messina from Sicily. The invasion was followed by the Italian surrender on 8 September 1943. However, German forces, anticipating Italian surrender, occupied much of Italy and established defensive lines. The Italian campaign would last until 1945 and prove to be more difficult than anticipated. The invasion of mainland Italy marked the first major Allied invasion of Axis-controlled European territory.",
+      "key_figures": [
+        "Dwight D. Eisenhower",
+        "Bernard Montgomery",
+        "Mark Clark"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Army, Mediterranean Theater of Operations, Italian Campaign Records, 1943",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Rick Atkinson, The Day of Battle: The War in Sicily and Italy, 1943\u20131944 (2007)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Invasion occurred 3 September 1943; documented in military records.",
+      "cross_references": [
+        "1943-003 (Italy surrenders)"
+      ]
+    },
+    {
+      "id": "1943-011",
+      "title": "Salerno landings; German counterattack nearly succeeds",
+      "region": "Salerno, Italy",
+      "coordinates_approx": "40.68, 14.76",
+      "category": "military",
+      "description": "American and British forces landed at Salerno on 9 September 1943 as part of the invasion of mainland Italy. German forces launched a fierce counterattack that nearly succeeded in pushing the Allies back into the sea. However, Allied reinforcements and naval gunfire support repelled the German attack. The Salerno landings demonstrated the vulnerability of amphibious operations to determined enemy resistance and the importance of adequate air and naval support. The successful defence of the Salerno beachhead secured the Allied foothold in mainland Italy.",
+      "key_figures": [
+        "Mark Clark",
+        "Bernhard Ramcke (German commander)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Army, Mediterranean Theater of Operations, Salerno Campaign Records, 1943",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Rick Atkinson, The Day of Battle: The War in Sicily and Italy, 1943\u20131944 (2007)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Salerno landings occurred 9 September 1943; documented in military records.",
+      "cross_references": [
+        "1943-010 (Invasion of mainland Italy)"
+      ]
+    },
+    {
+      "id": "1943-012",
+      "title": "Dambusters Raid; Operation Chastise",
+      "region": "Ruhr Valley, Germany",
+      "coordinates_approx": "51.50, 7.50",
+      "category": "military",
+      "description": "Operation Chastise, known as the Dambusters Raid, was carried out on 16\u201317 May 1943 by RAF Squadron 617. The operation involved the bombing of German dams in the Ruhr Valley using specially designed bouncing bombs. The raid destroyed two dams and damaged a third, causing significant flooding and disruption to German industry. The operation was a tactical success but had limited strategic impact. The raid became famous for its technical innovation and the bravery of the pilots involved. The operation demonstrated the effectiveness of precision bombing and the importance of technological innovation in warfare.",
+      "key_figures": [
+        "Guy Gibson (Squadron Leader)",
+        "Barnes Wallis (bomb designer)"
+      ],
+      "sources": [
+        {
+          "name": "RAF, Operation Chastise Records, 1943",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Paul Brickhill, The Dam Busters (1951)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Raid occurred 16\u201317 May 1943; documented in RAF records.",
+      "cross_references": [
+        "1943-002 (Battle of Kursk)"
+      ]
+    },
+    {
+      "id": "1943-013",
+      "title": "Lend-Lease Act extended; American aid to Allies continues",
+      "region": "United States",
+      "coordinates_approx": "39.83, -98.58",
+      "category": "economic",
+      "description": "The Lend-Lease Act, passed in 1941, was extended in 1943 to continue American aid to the Allies. The act allowed the United States to provide military equipment and supplies to Allied nations without requiring immediate payment. By 1943, Lend-Lease had become a crucial component of the Allied war effort, providing supplies to the Soviet Union, Britain, and other Allied nations. The extension of Lend-Lease in 1943 demonstrated American commitment to the Allied cause and the importance of American industrial capacity to the war effort.",
+      "key_figures": [
+        "Franklin D. Roosevelt",
+        "Congress"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Congress, Lend-Lease Act Extension Records, 1943",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David Reynolds, The Creation of the Anglo-American Alliance, 1937\u20131941 (1981)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Lend-Lease extended in 1943; documented in congressional records.",
+      "cross_references": [
+        "1941-001 (Lend-Lease Act passed)"
+      ]
+    },
+    {
+      "id": "1943-014",
+      "title": "German U-boat losses mount; submarine warfare becomes untenable",
+      "region": "Atlantic Ocean",
+      "coordinates_approx": "50.00, -30.00",
+      "category": "military",
+      "description": "In 1943, German U-boat losses reached unsustainable levels as Allied anti-submarine tactics and technology improved. The Allies broke German naval codes and used this intelligence to locate and sink U-boats. By May 1943, German U-boat losses became so severe that Admiral Karl D\u00f6nitz withdrew U-boats from the North Atlantic. The loss of U-boats marked the end of the German submarine threat to Allied shipping and the beginning of Allied naval superiority. The defeat of the U-boat threat was crucial to the success of the invasion of Europe.",
+      "key_figures": [
+        "Karl D\u00f6nitz",
+        "Max Horton",
+        "Ernest King"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Navy, Anti-Submarine Warfare Records, 1943",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David Syrett, The Defeat of the German U-Boats (1994)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "U-boat losses mounted throughout 1943; documented in naval records.",
+      "cross_references": [
+        "1943-006 (Battle of the Atlantic turns)"
+      ]
+    },
+    {
+      "id": "1943-015",
+      "title": "China declares war on Japan; Chinese Nationalist government mobilises",
+      "region": "Chongqing, China",
+      "coordinates_approx": "29.56, 106.55",
+      "category": "political",
+      "description": "The Chinese Nationalist government under Chiang Kai-shek formally declared war on Japan on 9 December 1943. China had been at war with Japan since 1937, but the formal declaration marked the official entry of the Chinese Nationalist government into the global war against the Axis powers. The declaration was intended to demonstrate Chinese commitment to the Allied cause and to secure American support. However, the Chinese military remained relatively weak and unable to mount major offensives against Japanese forces.",
+      "key_figures": [
+        "Chiang Kai-shek",
+        "Franklin D. Roosevelt"
+      ],
+      "sources": [
+        {
+          "name": "Chinese Government Archives, Declaration of War Records, 1943",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jonathan D. Spence, The Search for Modern China (1990)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "China declared war on Japan on 9 December 1943; documented in government records.",
+      "cross_references": [
+        "1937-001 (Second Sino-Japanese War begins)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The claim that the Battle of Stalingrad was a turning point in the war is complicated by the fact that the Soviet Union had already demonstrated its ability to resist German invasion and that the battle, while symbolically important, did not immediately lead to Soviet offensives that would drive German forces out of Soviet territory. The Soviet advance was slow and costly, and German forces remained a formidable threat until 1945. Additionally, the claim that the unconditional surrender policy was necessary to reassure the Soviet Union is disputed by some historians, who argue that the policy was counterproductive and prolonged the war by eliminating incentives for German surrender. The claim that the Tehran Conference marked the beginning of serious planning for the post-war order is complicated by the fact that the conference did not resolve fundamental disagreements between the Western powers and the Soviet Union over the future of Eastern Europe. The claim that the Battle of the Atlantic turned in favour of the Allies in 1943 is accurate, but the significance of this victory is sometimes overstated; German U-boats remained a threat throughout the war, and the Allies continued to suffer significant shipping losses.",
+  "historiographic_note": "1943 is exceptionally well-documented due to the global scale of World War II and the intensive documentation of military operations and diplomatic conferences. Western sources (American, British, French) are abundant; Soviet sources are less accessible but increasingly available through declassified archives. Japanese sources on the Pacific War are substantial but often reflect post-war Japanese historiography. Coverage of the Holocaust is extensive but reflects the perspectives of liberators and survivors; perpetrator perspectives are documented in captured German records. The year marks the transition from the middle to the final phase of World War II, with a shift from defensive to offensive operations by the Allies. Indigenous and non-elite perspectives are underrepresented in surviving sources.",
+  "graph_edges": [
+    {
+      "from": "1943-001",
+      "to": "1943-002",
+      "relation": "led_to",
+      "note": "Soviet victory at Stalingrad in February 1943 led to Soviet offensive at Kursk in July 1943"
+    },
+    {
+      "from": "1943-003",
+      "to": "1943-010",
+      "relation": "led_to",
+      "note": "Fall of Mussolini in July 1943 led to invasion of mainland Italy in September 1943"
+    },
+    {
+      "from": "1943-004",
+      "to": "1943-005",
+      "relation": "led_to",
+      "note": "Casablanca Conference in January 1943 preceded Tehran Conference in November 1943"
+    },
+    {
+      "from": "1943-006",
+      "to": "1944-001",
+      "relation": "led_to",
+      "note": "Allied victory in Battle of the Atlantic in 1943 enabled D-Day landings in 1944"
+    },
+    {
+      "from": "1943-008",
+      "to": "1945-012",
+      "relation": "led_to",
+      "note": "Warsaw Ghetto Uprising in 1943 was part of broader Holocaust that was liberated in 1945"
+    },
+    {
+      "from": "1943-009",
+      "to": "1943-010",
+      "relation": "led_to",
+      "note": "Sicily campaign in July 1943 led to invasion of mainland Italy in September 1943"
+    }
+  ]
+}

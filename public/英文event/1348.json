@@ -1,0 +1,232 @@
+{
+  "year": 1348,
+  "year_label": "1348 CE",
+  "era_context": "Mid-14th century: The Black Death pandemic arrives in Europe and the Mediterranean in 1348, beginning one of the most catastrophic demographic events in human history. The Hundred Years' War between England and France is in its early phase. The Yuan Dynasty in China is weakening under pressure from rebel movements. The Ottoman Empire is consolidating power in Anatolia. The Avignon Papacy governs the Catholic Church from southern France. Islamic sultanates dominate Mediterranean and Indian Ocean trade.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written records)",
+    "Indigenous Americas (no contemporary written records)",
+    "Central Asia and the steppes (sparse documentation)"
+  ],
+  "events": [
+    {
+      "id": "1348-001",
+      "title": "Black Death arrives in Europe via Mediterranean ports",
+      "region": "Mediterranean (Sicily, southern Italy, southern France)",
+      "coordinates_approx": "37,15",
+      "category": "demographic",
+      "description": "The Black Death, a bubonic and pneumonic plague pandemic originating in Central Asia, arrives in Europe in 1348. Genoese merchant ships fleeing the Mongol siege of Caffa (in Crimea) bring infected rats and fleas to Mediterranean ports, particularly Sicily and southern Italy. The plague spreads rapidly through trade networks, reaching southern France, Spain, and North Africa by late 1348. Contemporary sources describe the sudden appearance of the disease, its rapid transmission, and the horrifying symptoms (buboes, blackened extremities, rapid death). The plague will kill an estimated 75\u2013200 million people across Eurasia and North Africa over the next few years, fundamentally reshaping European, Islamic, and Asian societies.",
+      "key_figures": [
+        "Genoese merchants (vectors of transmission)",
+        "Pope Clement VI (attempting to respond)",
+        "Local bishops and physicians (attempting to understand and treat)"
+      ],
+      "sources": [
+        {
+          "name": "Giovanni Boccaccio, The Decameron (written 1350\u20131353, describes 1348 Florence)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Gabriele de' Mussis, Istoria de Morbo (contemporary account from Piacenza)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Italian and French chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The arrival of the Black Death in Europe in 1348 is well-documented in multiple contemporary sources.",
+      "cross_references": [
+        "1349-001 (Flagellant movement)",
+        "1349-002 (Plague mortality in England)",
+        "1350-004 (Plague in Islamic world)"
+      ]
+    },
+    {
+      "id": "1348-002",
+      "title": "Plague mortality in Florence and Italian city-states",
+      "region": "Florence and Tuscany, Italy",
+      "coordinates_approx": "43.77,11.25",
+      "category": "demographic",
+      "description": "Florence and other Italian city-states experience the first wave of plague mortality in 1348. Contemporary sources report that the plague kills 50\u201360% of Florence's population within months. The city's economy, based on trade and banking, is severely disrupted. Entire families are wiped out; skilled workers and merchants die in large numbers. The social fabric of the city is strained by mass death, fear, and the breakdown of normal social rituals. Giovanni Boccaccio's The Decameron, written shortly after, provides a vivid literary account of the plague's impact on Florence, though it is not a straightforward historical document.",
+      "key_figures": [
+        "Florentine merchants and bankers (victims and survivors)",
+        "Giovanni Boccaccio (contemporary observer and chronicler)"
+      ],
+      "sources": [
+        {
+          "name": "Giovanni Boccaccio, The Decameron",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Florentine chronicles and records",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Plague mortality in Florence in 1348 is well-documented in contemporary and near-contemporary sources.",
+      "cross_references": [
+        "1348-001 (Black Death arrival)"
+      ]
+    },
+    {
+      "id": "1348-003",
+      "title": "Red Turban Rebellion begins in Yuan China",
+      "region": "Central China (Anhui Province)",
+      "coordinates_approx": "32,117",
+      "category": "military",
+      "description": "The Red Turban Rebellion, a major anti-Yuan uprising with Manichaean and Buddhist religious elements, begins in 1348 in Anhui Province. The rebellion is triggered by Yuan mismanagement, heavy taxation, and the failure of the Yellow River dike system, which causes flooding and famine. The Red Turban movement combines religious fervor with social and political grievance against Mongol rule. The rebellion will grow rapidly, eventually controlling significant territory in central China. The uprising accelerates the collapse of Yuan authority and creates space for regional warlords like Zhu Yuanzhang to rise. The rebellion represents both a religious and social movement against Mongol rule.",
+      "key_figures": [
+        "Liu Futong (Red Turban leader)",
+        "Han Shantong (religious leader)",
+        "Yuan emperors and generals (increasingly ineffective response)"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shih (History of the Yuan Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Red Turban Rebellion's beginning in 1348 is well-documented in Chinese sources.",
+      "cross_references": [
+        "1350-003 (Red Turban intensification)",
+        "1351-003 (Zhu Yuanzhang's campaigns)"
+      ]
+    },
+    {
+      "id": "1348-004",
+      "title": "English military campaigns in France continue",
+      "region": "Aquitaine and Normandy, France",
+      "coordinates_approx": "48,0",
+      "category": "military",
+      "description": "English forces under Edward III continue military campaigns in France as part of the Hundred Years' War, which began in 1337. The campaigns of 1348 are part of the broader pattern of English military dominance in the early phase of the war. English archers and military tactics prove superior to French feudal levies. The war disrupts French agriculture and trade, compounding the effects of the plague that is beginning to arrive in southern France. The campaigns establish English control over significant territory in southwestern France.",
+      "key_figures": [
+        "Edward III (King of England)",
+        "Edward, the Black Prince (English military commander)",
+        "John II (King of France)"
+      ],
+      "sources": [
+        {
+          "name": "Froissart, Chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "English royal records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "English military campaigns in 1348 are attested in sources, but specific events are sometimes conflated with adjacent years.",
+      "cross_references": [
+        "1356-001 (Battle of Poitiers)"
+      ]
+    },
+    {
+      "id": "1348-005",
+      "title": "Ottoman expansion under Murad I in Anatolia",
+      "region": "Anatolia (modern Turkey)",
+      "coordinates_approx": "39,35",
+      "category": "military",
+      "description": "Murad I, the third Ottoman sultan, continues to consolidate Ottoman power in Anatolia, expanding territory and establishing administrative structures. The Ottoman state, which emerged in the early 14th century, is now a major regional power. Murad's campaigns against neighboring Turkish beyliks and Byzantine territories establish Ottoman dominance. The Ottoman expansion is facilitated by the weakness of the Byzantine Empire and the fragmentation of Anatolian Turkish states. By 1348, the Ottomans are poised for the Balkan expansion that will define the late 14th century.",
+      "key_figures": [
+        "Murad I (Ottoman Sultan)",
+        "Neighboring Turkish beyliks (various, often unnamed)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (Ne\u015fri, \u00c2\u015f\u0131kpa\u015fazade)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine sources",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ottoman expansion in Anatolia is well-attested, but specific campaigns in 1348 are sometimes uncertain in dating.",
+      "cross_references": [
+        "1349-006 (Ottoman consolidation)"
+      ]
+    },
+    {
+      "id": "1348-006",
+      "title": "Plague reaches North Africa and the Islamic world",
+      "region": "North Africa and Middle East (Egypt, Syria, North Africa)",
+      "coordinates_approx": "30,20",
+      "category": "demographic",
+      "description": "The Black Death, arriving via Mediterranean trade routes, reaches North Africa and the Islamic world in 1348. The plague spreads rapidly through Cairo, Alexandria, and other major Islamic cities. Contemporary Islamic sources (Ibn al-Wardi, al-Maqrizi) document the plague's arrival and initial impact. The plague disrupts trade, administration, and religious life across the Islamic world. The Mamluk Sultanate, which rules Egypt, struggles to respond to the crisis. The plague will cause massive mortality in the Islamic world, comparable to or exceeding that in Europe.",
+      "key_figures": [
+        "Mamluk Sultan al-Nasir Muhammad (attempting to maintain order)",
+        "Ibn al-Wardi (contemporary chronicler)",
+        "Islamic religious leaders (pastoral response)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Wardi, Experiences of the Nations",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Al-Maqrizi, Plague accounts",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Mamluk administrative records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The plague's arrival in the Islamic world in 1348 is well-documented in Islamic sources.",
+      "cross_references": [
+        "1348-001 (Black Death arrival in Europe)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of the Black Death's arrival in Europe emphasizes the Genoese ships fleeing Caffa as the primary vector, but modern scholarship has questioned whether the Caffa siege actually occurred in 1348 or earlier, and whether the plague transmission via ships was as direct as traditionally claimed. Some scholars argue that the plague may have arrived through multiple routes and over a longer period than the dramatic 'ships from Caffa' narrative suggests. Additionally, the claim that the plague originated in Central Asia is based on circumstantial evidence and later accounts rather than contemporary documentation. The mortality figures for Florence (50\u201360%) are often cited but are based on estimates and later accounts rather than precise contemporary records.",
+  "historiographic_note": "Documentation for 1348 is moderate for Western Europe and the Mediterranean, with good sources for Italy, France, and England. Islamic sources provide valuable testimony to plague arrival in the Islamic world. Chinese sources document the Red Turban Rebellion but are official compilations written after the fact. The year is heavily weighted toward European and Mediterranean events in surviving sources, with limited documentation for sub-Saharan Africa, the Americas, and Central Asia. The Black Death dominates the historical record for this year, potentially obscuring other significant developments. Ottoman sources are later compilations with limited contemporary documentation. The plague's arrival is one of the most significant events in human history, but the precise mechanisms of transmission and the exact timing of arrival in different regions remain subjects of scholarly debate.",
+  "graph_edges": [
+    {
+      "from": "1348-001",
+      "to": "1348-002",
+      "relation": "led_to",
+      "note": "Black Death arrival leads to plague mortality in Florence"
+    },
+    {
+      "from": "1348-001",
+      "to": "1348-006",
+      "relation": "led_to",
+      "note": "Black Death spreads to North Africa and Islamic world"
+    },
+    {
+      "from": "1348-003",
+      "to": "1350-003",
+      "relation": "led_to",
+      "note": "Red Turban Rebellion beginning leads to intensification and Zhu Yuanzhang's rise"
+    },
+    {
+      "from": "1348-001",
+      "to": "1349-001",
+      "relation": "led_to",
+      "note": "Black Death arrival leads to Flagellant movement response"
+    }
+  ]
+}

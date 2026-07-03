@@ -4,6 +4,9 @@ node_modules/
 # Build output
 dist/
 
+# Vite
+.vite/
+
 # Environment
 .env
 .env.local
@@ -19,8 +22,8 @@ dist/
 
 # OS
 .DS_Store
-thumbs.db
-desktop.ini
+Thumbs.db
+Desktop.ini
 
 # Python
 .venv/
@@ -30,10 +33,17 @@ __pycache__/
 *.pyo
 *.egg-info/
 
-# Data source (large raw import)
+# Data (large raw import files)
 data/
+
+# Backup files
+*.backup_*
+*_backup.*
 
 # Translation progress tracking
 translate_progress.txt
 
-public
+# Large raw input (pre-split)
+public/ne/cliopatria_polities_only.json
+public/ne/*.backup_*
+public/ne/*_backup.*

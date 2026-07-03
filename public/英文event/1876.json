@@ -1,0 +1,591 @@
+{
+  "year": 1876,
+  "year_label": "1876 CE",
+  "era_context": "The late 19th century, marked by industrial expansion, imperial consolidation, and nationalist movements across Europe, Asia, and the Americas. The Ottoman Empire is in terminal decline; European powers are partitioning Africa; the United States is recovering from Civil War and expanding westward; Japan is modernizing rapidly under the Meiji Restoration; and China faces internal fragmentation and external pressure.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1876-001",
+      "title": "Battle of the Little Bighorn",
+      "region": "Montana Territory, United States",
+      "coordinates_approx": "46.3\u00b0N, 107.4\u00b0W",
+      "category": "military",
+      "description": "Lieutenant Colonel George Armstrong Custer and the 7th Cavalry Regiment were defeated and largely annihilated by a coalition of Lakota Sioux, Northern Cheyenne, and Arapaho warriors led by Sitting Bull and Crazy Horse. The battle occurred on the Little Bighorn River during the Great Sioux War, a conflict sparked by U.S. encroachment on sacred Black Hills territory following gold discoveries. The defeat shocked American public opinion and accelerated military campaigns to suppress Native American resistance and force tribes onto reservations.",
+      "key_figures": [
+        "George Armstrong Custer (Lieutenant Colonel, U.S. Army)",
+        "Sitting Bull (Lakota Sioux leader)",
+        "Crazy Horse (Lakota Sioux war leader)",
+        "Gall (Lakota Sioux war leader)"
+      ],
+      "sources": [
+        {
+          "name": "Official U.S. Army reports and court martial records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Lakota oral traditions and later ethnographic interviews (e.g., James McLaughlin, My Friend the Indian)",
+          "type": "oral_tradition",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from the battlefield (excavations 1984\u2013present)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle occurred on 25\u201326 June 1876. Contemporary military reports, casualty records, and extensive later archaeological work confirm the date and basic facts, though details of the engagement remain contested.",
+      "cross_references": [
+        "1868-001 (Fort Laramie Treaty establishing Black Hills as Sioux territory)",
+        "1877-001 (Surrender of Sitting Bull and Crazy Horse)"
+      ]
+    },
+    {
+      "id": "1876-002",
+      "title": "Telephone patent granted to Alexander Graham Bell",
+      "region": "United States (Patent Office, Washington, D.C.)",
+      "coordinates_approx": "38.9\u00b0N, 77.0\u00b0W",
+      "category": "technological",
+      "description": "Alexander Graham Bell was granted U.S. Patent No. 174,465 for the telephone on 14 March 1876. Bell's design transmitted sound as electrical signals over wire, enabling voice communication across distances. The patent became foundational to telecommunications infrastructure and sparked decades of litigation over priority and competing designs (notably with Antonio Meucci and Elisha Gray). The telephone would transform commerce, governance, and social life globally by the early 20th century.",
+      "key_figures": [
+        "Alexander Graham Bell (inventor, Scottish-born, working in Boston)",
+        "Thomas Watson (Bell's assistant)",
+        "Antonio Meucci (competing claimant)",
+        "Elisha Gray (competing claimant)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Patent Office records, Patent No. 174,465",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Bell's laboratory notebooks and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from telecommunications history (e.g., Fischer, A Life of Alexander Graham Bell)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The patent date is precisely documented. The invention's significance is uncontested, though priority disputes with Meucci and Gray remain historically contentious.",
+      "cross_references": [
+        "1877-002 (First commercial telephone exchange in New Haven, Connecticut)"
+      ]
+    },
+    {
+      "id": "1876-003",
+      "title": "Centennial Exposition in Philadelphia",
+      "region": "Philadelphia, Pennsylvania, United States",
+      "coordinates_approx": "39.96\u00b0N, 75.18\u00b0W",
+      "category": "cultural",
+      "description": "The Centennial International Exhibition opened on 10 May 1876 to commemorate the 100th anniversary of American independence. Held in Fairmount Park, the exposition showcased industrial, technological, and artistic achievements from the United States and 37 foreign nations. Over 10 million visitors attended during its six-month run, making it one of the largest world's fairs of the era. The event celebrated American industrial progress and global commerce while also reinforcing hierarchies of civilization that reflected contemporary racial and imperial ideologies.",
+      "key_figures": [
+        "President Ulysses S. Grant (opening ceremony)",
+        "Emperor Dom Pedro II of Brazil (notable foreign visitor)",
+        "Alexander Graham Bell (demonstrated the telephone)"
+      ],
+      "sources": [
+        {
+          "name": "Official Centennial Commission reports and exhibition catalogs",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper accounts (Philadelphia Inquirer, New York Times, etc.)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic analysis (e.g., Rydell, All the World's a Fair)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Dates, attendance figures, and major exhibits are well-documented in contemporary sources.",
+      "cross_references": [
+        "1876-002 (Bell's telephone demonstration at the Exposition)"
+      ]
+    },
+    {
+      "id": "1876-004",
+      "title": "Russo-Turkish War begins",
+      "region": "Ottoman Empire (Balkans, Anatolia, Caucasus)",
+      "coordinates_approx": "40.0\u00b0N, 35.0\u00b0E",
+      "category": "military",
+      "description": "Russia declared war on the Ottoman Empire on 24 April 1876, following the Ottoman suppression of uprisings in Bosnia-Herzegovina and Bulgaria. The conflict was driven by Russian imperial ambitions in the Balkans, Pan-Slavic nationalism, and Ottoman weakness. The war lasted until March 1877 and resulted in Ottoman territorial losses, the independence of Serbia, Romania, and Montenegro, and Russian expansion in the Caucasus. The conflict accelerated Ottoman decline and reshaped European geopolitics, prompting the Berlin Congress of 1878.",
+      "key_figures": [
+        "Tsar Alexander II (Russian Emperor)",
+        "Sultan Abdul Hamid II (Ottoman Sultan)",
+        "General Mikhail Loris-Melikov (Russian commander)",
+        "Osman Pasha (Ottoman commander)"
+      ],
+      "sources": [
+        {
+          "name": "Russian imperial military archives and official declarations",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ottoman official records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary European diplomatic reports and newspapers",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The declaration date and major military operations are precisely documented in multiple contemporary sources.",
+      "cross_references": [
+        "1877-003 (Treaty of San Stefano ending the war)",
+        "1878-001 (Congress of Berlin)"
+      ]
+    },
+    {
+      "id": "1876-005",
+      "title": "Porfirio D\u00edaz assumes presidency of Mexico",
+      "region": "Mexico",
+      "coordinates_approx": "19.4\u00b0N, 99.1\u00b0W",
+      "category": "political",
+      "description": "Porfirio D\u00edaz took office as President of Mexico on 28 November 1876 following a military coup against President Sebasti\u00e1n Lerdo de Tejada. D\u00edaz's rise marked the beginning of the Porfiriato, a period of authoritarian rule lasting until 1911 that prioritized political stability, foreign investment, and railroad expansion at the cost of democratic governance and indigenous land rights. The regime attracted significant foreign capital, particularly from the United States, and modernized infrastructure, but also deepened inequality and suppressed dissent, ultimately contributing to the Mexican Revolution.",
+      "key_figures": [
+        "Porfirio D\u00edaz (military general and new president)",
+        "Sebasti\u00e1n Lerdo de Tejada (deposed president)",
+        "Manuel Gonz\u00e1lez (D\u00edaz's ally)"
+      ],
+      "sources": [
+        {
+          "name": "Mexican government records and official decrees",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Mexican and foreign newspaper accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus (e.g., Hamnett, Roots of Insurgency in Mexico)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date and fact of D\u00edaz's assumption of power are precisely documented.",
+      "cross_references": [
+        "1911-001 (Mexican Revolution and D\u00edaz's fall)"
+      ]
+    },
+    {
+      "id": "1876-006",
+      "title": "Meiji Constitution promulgation process begins in Japan",
+      "region": "Japan",
+      "coordinates_approx": "35.7\u00b0N, 139.7\u00b0E",
+      "category": "legal",
+      "description": "In 1876, the Japanese government, under the Meiji Restoration, began formal deliberations on a constitutional framework. While the Meiji Constitution was not formally promulgated until 1889, the intellectual and political groundwork was laid in the mid-to-late 1870s. This period saw intense debate between advocates of Western-style constitutional monarchy and those favoring stronger imperial prerogative. The process reflected Japan's rapid modernization and its selective adoption of Western institutions while preserving traditional imperial authority.",
+      "key_figures": [
+        "Emperor Meiji (Mutsuhito)",
+        "Iwakura Tomomi (statesman and reformer)",
+        "\u014ckubo Toshimichi (Minister of the Interior)",
+        "Itagaki Taisuke (advocate for popular rights)"
+      ],
+      "sources": [
+        {
+          "name": "Japanese government records and Meiji oligarchy correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Japanese newspapers and political writings",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic analysis (e.g., Jansen, The Making of Modern Japan)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The constitutional process began in the mid-1870s, though the precise year of initial deliberations is less sharply defined than the 1889 promulgation. Scholarly consensus places significant groundwork in 1876\u20131878.",
+      "cross_references": [
+        "1889-001 (Meiji Constitution formally promulgated)"
+      ]
+    },
+    {
+      "id": "1876-007",
+      "title": "Suez Canal traffic reaches significant volume",
+      "region": "Egypt (Suez Canal)",
+      "coordinates_approx": "30.3\u00b0N, 32.3\u00b0E",
+      "category": "economic",
+      "description": "By 1876, the Suez Canal, opened in 1869, had become a critical artery for global maritime commerce. In this year, approximately 2,000 ships transited the canal, carrying goods between Europe and Asia. The canal's success transformed trade routes, reduced shipping times dramatically, and increased Egypt's strategic importance\u2014though Egypt itself remained economically dependent and politically vulnerable. In November 1875, the British government purchased Egypt's canal shares, and by 1876, British influence over the canal and Egypt was solidifying, presaging the 1882 British occupation.",
+      "key_figures": [
+        "Ismail Pasha (Khedive of Egypt)",
+        "Benjamin Disraeli (British Prime Minister)",
+        "Ferdinand de Lesseps (canal engineer and administrator)"
+      ],
+      "sources": [
+        {
+          "name": "Suez Canal Company records and traffic statistics",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British Foreign Office records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary shipping records and commercial journals",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Canal traffic data and British share purchases are well-documented in contemporary commercial and diplomatic records.",
+      "cross_references": [
+        "1869-001 (Suez Canal opens)",
+        "1882-001 (British occupation of Egypt)"
+      ]
+    },
+    {
+      "id": "1876-008",
+      "title": "Satsuma Rebellion suppressed in Japan",
+      "region": "Kyushu, Japan",
+      "coordinates_approx": "32.5\u00b0N, 130.5\u00b0E",
+      "category": "military",
+      "description": "The Satsuma Rebellion, led by Saig\u014d Takamori, a former samurai general, was decisively suppressed by the Meiji government in September 1876. The rebellion represented the last major armed resistance by the samurai class against modernization and the abolition of their feudal privileges. Saig\u014d's defeat and suicide marked the symbolic end of the samurai era and consolidated Meiji state power. The government's victory demonstrated its military modernization and its commitment to centralized, Western-style governance over traditional feudal structures.",
+      "key_figures": [
+        "Saig\u014d Takamori (samurai leader and rebel)",
+        "Yamagata Aritomo (Meiji general)",
+        "Emperor Meiji (Mutsuhito)",
+        "\u014ckubo Toshimichi (government minister)"
+      ],
+      "sources": [
+        {
+          "name": "Japanese government military records and official reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Samurai accounts and later memoirs (e.g., Saig\u014d's letters)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Japanese and foreign newspaper accounts",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The rebellion's dates (January\u2013September 1876) and outcome are precisely documented in Japanese government records and contemporary accounts.",
+      "cross_references": [
+        "1868-001 (Meiji Restoration begins)",
+        "1873-001 (Conscription law and samurai privilege erosion)"
+      ]
+    },
+    {
+      "id": "1876-009",
+      "title": "First complete performance of Wagner's Ring Cycle",
+      "region": "Bayreuth, Germany",
+      "coordinates_approx": "49.95\u00b0N, 11.58\u00b0E",
+      "category": "cultural",
+      "description": "Richard Wagner's monumental four-opera cycle Der Ring des Nibelungen premiered in its entirety at the newly constructed Bayreuth Festival Theatre on 13\u201317 August 1876. The Ring Cycle, comprising Das Rheingold, Die Walk\u00fcre, Siegfried, and G\u00f6tterd\u00e4mmerung, represented the culmination of Wagner's artistic vision and revolutionized operatic form and orchestration. The premiere was attended by European royalty and cultural figures and established Bayreuth as a pilgrimage site for Wagner devotees. The work's mythological themes and innovative music profoundly influenced European culture and, controversially, later appropriated by Nazi ideology.",
+      "key_figures": [
+        "Richard Wagner (composer)",
+        "King Ludwig II of Bavaria (patron and attendee)",
+        "Hans Richter (conductor)",
+        "Cosima Wagner (Wagner's widow, later festival director)"
+      ],
+      "sources": [
+        {
+          "name": "Wagner's correspondence and festival records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper reviews and accounts (German and international press)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Bayreuth Festival archives",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The premiere dates and attendees are precisely documented in festival records and contemporary press.",
+      "cross_references": [
+        "1876-003 (Centennial Exposition in Philadelphia, contemporary cultural event)"
+      ]
+    },
+    {
+      "id": "1876-010",
+      "title": "Queen Victoria proclaimed Empress of India",
+      "region": "British Empire (India)",
+      "coordinates_approx": "20.5\u00b0N, 78.9\u00b0E",
+      "category": "political",
+      "description": "On 1 January 1876, Queen Victoria was formally proclaimed Empress of India by the British government, elevating her title and symbolically asserting British imperial dominion over the Indian subcontinent. The proclamation followed the Royal Titles Act of 1876 and was celebrated with ceremonies in London and India. The new title reflected Britain's consolidation of control over India following the 1857\u20131858 Rebellion and formalized the British Raj. The proclamation was controversial in India and among some British politicians, but it reinforced Victoria's prestige and Britain's imperial ideology.",
+      "key_figures": [
+        "Queen Victoria (British monarch)",
+        "Benjamin Disraeli (Prime Minister, architect of the proclamation)",
+        "Lord Lytton (Viceroy of India)",
+        "Indian princes and colonial administrators"
+      ],
+      "sources": [
+        {
+          "name": "Royal Titles Act 1876 and official proclamation documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British parliamentary records and debates",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary British and Indian newspaper accounts",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The proclamation date and legislative process are precisely documented in official records.",
+      "cross_references": [
+        "1857-001 (Indian Rebellion)",
+        "1947-001 (Indian independence and end of British Raj)"
+      ]
+    },
+    {
+      "id": "1876-011",
+      "title": "First Wimbledon Lawn Tennis Championship",
+      "region": "Wimbledon, London, England",
+      "coordinates_approx": "51.43\u00b0N, 0.21\u00b0W",
+      "category": "cultural",
+      "description": "The first Wimbledon Lawn Tennis Championship was held on 9\u201316 July 1876 at the All England Lawn Tennis and Croquet Club in Wimbledon. Spencer Gore won the men's singles title, defeating William Marshall in the final. The tournament established what would become the oldest continuously held tennis championship in the world and helped standardize lawn tennis rules and equipment. The event reflected the Victorian era's enthusiasm for organized sports and the emergence of lawn tennis as a fashionable pastime among the British upper and middle classes.",
+      "key_figures": [
+        "Spencer Gore (first champion)",
+        "William Marshall (finalist)",
+        "Henry Jones (tournament organizer)",
+        "All England Club members"
+      ],
+      "sources": [
+        {
+          "name": "All England Lawn Tennis and Croquet Club records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary British newspapers and sporting journals",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Wimbledon official historical records",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Tournament dates, participants, and results are precisely documented in club records and contemporary press.",
+      "cross_references": []
+    },
+    {
+      "id": "1876-012",
+      "title": "Colorado admitted to the Union",
+      "region": "Colorado, United States",
+      "coordinates_approx": "39.0\u00b0N, 105.5\u00b0W",
+      "category": "political",
+      "description": "Colorado was admitted to the United States as the 38th state on 1 August 1876, during the nation's centennial year. The territory had been organized in 1861 and had experienced rapid growth due to gold and silver mining. Statehood reflected Colorado's economic development, population growth, and political integration into the expanding American republic. The admission also formalized U.S. control over lands previously inhabited by Native American peoples, particularly the Ute, Arapaho, and Cheyenne.",
+      "key_figures": [
+        "President Ulysses S. Grant (signed admission)",
+        "Colorado territorial delegates and representatives",
+        "Mining entrepreneurs and settlers"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Congress records and admission documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Colorado territorial and state government records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary American newspapers",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The admission date is precisely documented in U.S. congressional records.",
+      "cross_references": [
+        "1876-001 (Battle of the Little Bighorn, same year, same region)"
+      ]
+    },
+    {
+      "id": "1876-013",
+      "title": "Brahms' Symphony No. 1 premiered",
+      "region": "Karlsruhe, Germany",
+      "coordinates_approx": "49.01\u00b0N, 8.40\u00b0E",
+      "category": "cultural",
+      "description": "Johannes Brahms' Symphony No. 1 in C minor premiered on 4 November 1876 under the direction of Otto Dessoff in Karlsruhe. The symphony, completed after years of compositional labor, was hailed as a major work of the Romantic era and established Brahms as a leading symphonist. The work's emotional depth, structural complexity, and orchestration influenced subsequent symphonic composition. The premiere was celebrated across Europe and solidified Brahms' reputation as one of the greatest composers of the 19th century.",
+      "key_figures": [
+        "Johannes Brahms (composer)",
+        "Otto Dessoff (conductor)",
+        "Clara Schumann (Brahms' mentor and confidante)"
+      ],
+      "sources": [
+        {
+          "name": "Brahms' correspondence and manuscript scores",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary German and European newspaper reviews",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Concert records and program notes",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The premiere date and location are precisely documented in concert records and contemporary press.",
+      "cross_references": []
+    },
+    {
+      "id": "1876-014",
+      "title": "Disputed U.S. Presidential Election (Hayes vs. Tilden)",
+      "region": "United States",
+      "coordinates_approx": "38.9\u00b0N, 77.0\u00b0W",
+      "category": "political",
+      "description": "The 1876 U.S. presidential election between Republican Rutherford B. Hayes and Democrat Samuel J. Tilden resulted in disputed electoral votes from four states (Florida, Louisiana, South Carolina, and Oregon). The dispute threatened to reignite sectional conflict between North and South. The crisis was resolved by the Compromise of 1877, in which Republicans agreed to withdraw federal troops from the South (ending Reconstruction) in exchange for Hayes' election. The compromise effectively ended federal protection of African American rights in the South and ushered in the era of Jim Crow segregation.",
+      "key_figures": [
+        "Rutherford B. Hayes (Republican candidate)",
+        "Samuel J. Tilden (Democratic candidate)",
+        "President Ulysses S. Grant (outgoing president)",
+        "Congressional negotiators"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Congress electoral commission records and debates",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary American newspapers and political journals",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus (e.g., Foner, Reconstruction: America's Unfinished Revolution)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The election date, disputed states, and resolution are precisely documented in congressional records and contemporary sources.",
+      "cross_references": [
+        "1877-004 (Compromise of 1877 and end of Reconstruction)"
+      ]
+    },
+    {
+      "id": "1876-015",
+      "title": "Ottoman Empire declares bankruptcy",
+      "region": "Ottoman Empire",
+      "coordinates_approx": "41.0\u00b0N, 29.0\u00b0E",
+      "category": "economic",
+      "description": "The Ottoman Empire, facing severe fiscal crisis due to military expenditures, administrative corruption, and declining revenues, declared itself unable to service its foreign debt in 1876. The government suspended payments on its bonds, shocking European creditors and deepening the empire's international isolation. The bankruptcy reflected the Ottoman state's structural weakness and its inability to compete economically with European powers. The crisis contributed to European intervention in Ottoman affairs and accelerated the empire's territorial dissolution.",
+      "key_figures": [
+        "Sultan Abdul Hamid II (Ottoman Sultan)",
+        "Ottoman finance ministers",
+        "European creditors and bondholders"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman government financial records and decrees",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "European diplomatic correspondence and financial reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary European newspapers and financial journals",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The bankruptcy declaration and date are documented in Ottoman and European financial records.",
+      "cross_references": [
+        "1876-004 (Russo-Turkish War, related to Ottoman crisis)",
+        "1878-001 (Congress of Berlin, Ottoman territorial losses)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of the Battle of the Little Bighorn has been subject to reinterpretation. While traditionally portrayed as a dramatic American defeat, modern scholarship emphasizes that the battle did not fundamentally alter the outcome of the Great Sioux War\u2014U.S. military campaigns continued and forced tribal surrender within a year. The battle's symbolic importance has often overshadowed its limited strategic impact. Additionally, the Satsuma Rebellion's characterization as the 'last samurai' conflict is somewhat romanticized; samurai-class resistance continued in various forms into the 1880s, though the Satsuma Rebellion was indeed the largest organized armed challenge. The 1876 U.S. election dispute's resolution as the 'Compromise of 1877' is debated by historians regarding whether it was a formal agreement or a series of informal understandings; some scholars argue the traditional narrative overstates the coherence of the compromise.",
+  "historiographic_note": "The documentation for 1876 is exceptionally rich, reflecting the era's extensive newspaper coverage, government record-keeping, and proximity to modern times. However, the historical record is heavily weighted toward Western and particularly American and European events. Coverage of events in Africa, Central Asia, and the Pacific is sparse, reflecting both the limited contemporary documentation and the Western-centric bias of surviving archives. The Russo-Turkish War and Ottoman bankruptcy are well-documented in European diplomatic sources but less so from Ottoman or Balkan perspectives. Indigenous perspectives on the Battle of the Little Bighorn and American westward expansion are largely mediated through later ethnographic interviews rather than contemporary indigenous written records. The year's events also reflect the imperial and nationalist ideologies of the era; the proclamation of Victoria as Empress of India and the admission of Colorado both involved the displacement and subjugation of indigenous peoples, a context often backgrounded in traditional historical narratives.",
+  "graph_edges": [
+    {
+      "from": "1876-001",
+      "to": "1877-001",
+      "relation": "led_to",
+      "note": "The Little Bighorn defeat prompted intensified U.S. military campaigns that forced Sitting Bull and Crazy Horse to surrender in 1877."
+    },
+    {
+      "from": "1876-004",
+      "to": "1877-003",
+      "relation": "led_to",
+      "note": "The Russo-Turkish War, begun in 1876, concluded with the Treaty of San Stefano in 1877."
+    },
+    {
+      "from": "1876-004",
+      "to": "1878-001",
+      "relation": "led_to",
+      "note": "The Russo-Turkish War's outcome prompted the Congress of Berlin in 1878 to revise the peace settlement."
+    },
+    {
+      "from": "1876-010",
+      "to": "1947-001",
+      "relation": "led_to",
+      "note": "Victoria's proclamation as Empress of India formalized the British Raj, which lasted until Indian independence in 1947."
+    },
+    {
+      "from": "1876-014",
+      "to": "1877-004",
+      "relation": "led_to",
+      "note": "The disputed 1876 election was resolved by the Compromise of 1877, ending Reconstruction."
+    },
+    {
+      "from": "1876-002",
+      "to": "1877-002",
+      "relation": "led_to",
+      "note": "Bell's telephone patent in 1876 enabled the first commercial telephone exchange in 1877."
+    },
+    {
+      "from": "1876-008",
+      "to": "1868-001",
+      "relation": "part_of",
+      "note": "The Satsuma Rebellion was a culminating event in the Meiji Restoration's consolidation of power begun in 1868."
+    }
+  ]
+}

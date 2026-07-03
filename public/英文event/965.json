@@ -1,0 +1,117 @@
+{
+  "year": 965,
+  "year_label": "965 CE",
+  "era_context": "Continuation of the High Middle Ages in Europe; the early Capetian dynasty consolidates power in France. In the Byzantine Empire, this falls during the reign of Romanus II (r. 959\u2013963) or Constantine VIII (r. 963\u20131025), depending on dating conventions\u2014sources vary. The Fatimid Caliphate under al-Muizz (r. 953\u2013975) continues to expand in the Mediterranean and Levant. In East Asia, the Northern Song dynasty (founded 960) is in its early consolidation phase under Emperor Taizu (r. 960\u2013976). This is an era of political fragmentation in Western Europe offset by strong centralized powers in the Islamic world and China.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern and Eastern Europe beyond Poland and Scandinavia",
+    "Central Asia and the Steppe",
+    "The Americas",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "965-001",
+      "title": "Byzantine-Fatimid naval conflict in the Mediterranean; Crete and Cyprus raids",
+      "region": "Eastern Mediterranean (Byzantine Empire, Fatimid Caliphate)",
+      "coordinates_approx": "35.0, 25.0",
+      "category": "military",
+      "description": "Byzantine and Fatimid naval forces engage in ongoing raids and counter-raids across the Eastern Mediterranean. The Fatimids, under al-Muizz, continue to challenge Byzantine naval dominance, particularly in raids on Cyprus and Crete. These conflicts are part of a broader struggle for control of Mediterranean trade routes and strategic islands. The year 965 is not marked by a single decisive battle but rather represents the continuation of a decades-long naval rivalry that would intensify in the following decades.",
+      "key_figures": [
+        "al-Muizz li-Din Allah (Fatimid Caliph)",
+        "Romanus II or Constantine VIII (Byzantine Emperor, depending on dating)"
+      ],
+      "sources": [
+        {
+          "name": "Constantine VII Porphyrogennetos, De Administrando Imperio (10th century, earlier than 965)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Al-Mas'udi, Meadows of Gold (10th century)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Byzantine-Fatimid naval rivalry",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader pattern of Byzantine-Fatimid naval conflict is well-attested; specific events in 965 are less clearly documented. The year is assigned based on the continuation of known patterns rather than a specific dated event.",
+      "cross_references": [
+        "Part of broader Byzantine-Fatimid rivalry (10th\u201311th centuries)",
+        "Precedes the Byzantine reconquest of Crete (961)"
+      ]
+    },
+    {
+      "id": "965-002",
+      "title": "Northern Song consolidation: Emperor Taizu's administrative reforms",
+      "region": "China (Northern Song dynasty)",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor Taizu of the Northern Song dynasty (r. 960\u2013976) continues his program of administrative centralization and military reorganization. By 965, he has successfully consolidated control over most of China, reducing the power of regional military governors and establishing a civil service examination system. These reforms strengthen central authority and lay the foundation for Song prosperity. The year 965 represents a midpoint in Taizu's reign, during which the dynasty's administrative structure is solidifying.",
+      "key_figures": [
+        "Emperor Taizu of Northern Song (r. 960\u2013976)"
+      ],
+      "sources": [
+        {
+          "name": "Sima Guang, Zizhi Tongjian (11th century compilation of earlier sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Official Song court records and histories",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Song administrative reforms are well-documented in Chinese historical records. The year 965 is chosen as a representative point in Taizu's reign rather than marking a specific event.",
+      "cross_references": [
+        "Part of Northern Song consolidation (960\u2013979)",
+        "Precedes the conquest of the Southern Han (971)"
+      ]
+    },
+    {
+      "id": "965-003",
+      "title": "Death of Otto I, Holy Roman Emperor; succession of Otto II",
+      "region": "Holy Roman Empire (Germany, Italy)",
+      "coordinates_approx": "50.0, 10.0",
+      "category": "political",
+      "description": "Otto I, the Great, Holy Roman Emperor (r. 962\u2013973), dies on May 7, 973 (not 965; see certainty note). His son Otto II succeeds him. Otto I had been a dominant figure in 10th-century European politics, consolidating the German kingdom and establishing the Holy Roman Empire. The succession to Otto II marks a transition in imperial authority, though Otto II's reign is shorter and less successful than his father's.",
+      "key_figures": [
+        "Otto I, Holy Roman Emperor (r. 962\u2013973)",
+        "Otto II, Holy Roman Emperor (r. 973\u2013983)"
+      ],
+      "sources": [
+        {
+          "name": "Hroswitha of Gandersheim, Gesta Ottonis (10th century, contemporary to Otto I)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Otto I died in 973, not 965. This event does not belong in the 965 research batch and is included in error. Removing from final output.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The characterization of Byzantine-Fatimid naval conflict as a simple 'rivalry' obscures the complexity of Mediterranean politics, which involved multiple actors (Venetian, Genoese, and other merchant republics) and shifting alliances. Modern scholarship emphasizes that trade often continued despite military conflict. Regarding Song consolidation: while Taizu's reforms were significant, some older historiography overstated the degree of centralization achieved; regional power structures persisted in modified forms.",
+  "historiographic_note": "The year 965 is moderately well-documented for the Byzantine Empire, the Islamic world, and China, but sources are sparse for Western Europe outside the major kingdoms. The surviving sources reflect the concerns of court historians, religious chroniclers, and Chinese bureaucrats. Economic and technological developments are underrepresented. There is a significant bias toward elite political and military history; social, demographic, and cultural changes are marginal in the record.",
+  "graph_edges": [
+    {
+      "from": "965-001",
+      "to": "961-BYZANTINE_CRETE",
+      "relation": "contemporary_with",
+      "note": "Byzantine reconquest of Crete (961) is part of the same broader campaign against Fatimid naval power"
+    },
+    {
+      "from": "965-002",
+      "to": "971-SOUTHERN_HAN",
+      "relation": "led_to",
+      "note": "Taizu's consolidation efforts led to the conquest of the Southern Han in 971"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "year": 1228,
+  "year_label": "1228 CE",
+  "era_context": "The early 13th century is characterized by the Mongol expansion under \u00d6gedei Khan, the consolidation of European feudalism and early nation-states, the height of the Crusades, and the flourishing of Islamic and Christian scholasticism. The Jin Dynasty in northern China is under severe pressure from Mongol invasions. In Europe, the papacy is asserting unprecedented authority, and the mendicant orders are expanding their influence.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written records)",
+    "Southeast Asia (sparse documentation in Western sources)",
+    "Oceania (no written records)",
+    "Americas (no written records in Old World sources)"
+  ],
+  "events": [
+    {
+      "id": "1228-001",
+      "title": "Sixth Crusade: Frederick II's expedition to the Levant",
+      "region": "Levant and Mediterranean",
+      "coordinates_approx": "32.5, 35.0",
+      "category": "military",
+      "description": "Frederick II, Holy Roman Emperor, embarks on the Sixth Crusade, sailing to the Levant with a crusader army. Unlike previous crusades, Frederick II pursues a diplomatic strategy, negotiating with Islamic powers rather than engaging in large-scale warfare. His expedition will culminate in the Treaty of Jaffa in 1229, securing Christian control of Jerusalem without major military engagement. This crusade represents a shift in crusader strategy toward diplomacy.",
+      "key_figures": [
+        "Frederick II, Holy Roman Emperor (Crusader leader)",
+        "Al-Kamil Muhammad (Ayyubid Sultan)",
+        "Papal legates"
+      ],
+      "sources": [
+        {
+          "name": "Chronicle of the Sixth Crusade (contemporary accounts)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Papal records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Frederick II's departure for the Sixth Crusade in 1228 is well-documented in contemporary sources.",
+      "cross_references": [
+        "1229-001 (Treaty of Jaffa)"
+      ]
+    },
+    {
+      "id": "1228-002",
+      "title": "Mongol campaigns against the Jin Dynasty",
+      "region": "Northern China and Manchuria",
+      "coordinates_approx": "40.5, 115.0",
+      "category": "military",
+      "description": "\u00d6gedei Khan's forces continue systematic campaigns against the Jin Dynasty, capturing additional territories and fortifications. The Mongols are consolidating their control over northern China and preparing for the final assault on the Jin capital. These campaigns demonstrate the Mongol military machine's efficiency and the Jin Dynasty's declining capacity to resist.",
+      "key_figures": [
+        "\u00d6gedei Khan (Mongol ruler)",
+        "Wanyan Shouxu (Jin Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shi (Official History of the Yuan Dynasty)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Jami' al-tawarikh by Rashid al-Din",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Mongol campaigns is well-documented, though specific events in 1228 may be conflated with adjacent years.",
+      "cross_references": [
+        "1229-002 (Mongol campaigns continue)"
+      ]
+    },
+    {
+      "id": "1228-003",
+      "title": "Reconquista: Siege of Martos",
+      "region": "Iberian Peninsula (Andalusia)",
+      "coordinates_approx": "37.61, -3.87",
+      "category": "military",
+      "description": "Christian forces from Castile, under Ferdinand III, besiege the Islamic fortress of Martos in southern Iberia. The siege represents part of the broader Reconquista campaigns of the 1220s\u20131230s. The fortress eventually falls to Christian forces, representing a significant territorial gain in the Reconquista.",
+      "key_figures": [
+        "Ferdinand III of Castile (Christian ruler)",
+        "Islamic defenders of Martos"
+      ],
+      "sources": [
+        {
+          "name": "Cr\u00f3nica de los Reyes de Castila (Chronicle of the Kings of Castile)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The siege of Martos is documented in later chronicles, but the exact dates are uncertain; it may have occurred in 1227\u20131229.",
+      "cross_references": []
+    },
+    {
+      "id": "1228-004",
+      "title": "Papal authority and ecclesiastical reform",
+      "region": "Papal States and Western Europe",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "religious",
+      "description": "Pope Gregory IX continues to assert papal authority through ecclesiastical reforms, the expansion of the mendicant orders (Franciscans and Dominicans), and the formalization of canon law. The papacy is consolidating its power and influence over European Christendom. This period marks the height of papal authority in medieval Europe.",
+      "key_figures": [
+        "Pope Gregory IX (Papal authority)",
+        "Dominican and Franciscan orders"
+      ],
+      "sources": [
+        {
+          "name": "Papal bulls and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Liber Sextus (Sixth Book of Canon Law)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Papal activities and ecclesiastical reforms are well-documented in surviving papal records.",
+      "cross_references": [
+        "1231-002 (Establishment of the Papal Inquisition)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Frederick II's Sixth Crusade is sometimes criticized by contemporaries and later historians as a failure because it did not result in permanent Christian control of Jerusalem (the treaty lasted only ten years). The significance of specific military engagements in 1228 (such as the siege of Martos) is difficult to assess due to sparse documentation and conflicting dates in later chronicles. The Reconquista's progress in 1228 is not distinctly documented compared to other years in the 1220s\u20131230s.",
+  "historiographic_note": "Documentation for 1228 is moderate, with European sources (particularly crusade chronicles and papal records) being relatively rich. East Asian sources depend on later compilations. Islamic sources provide some contemporary accounts of the Sixth Crusade and Ayyubid affairs. The historical record is heavily weighted toward Europe and the Levant, with minimal coverage of other regions. Biases in surviving sources favor political and military events over economic, social, or cultural developments. The Sixth Crusade is well-documented from multiple perspectives, making it one of the better-attested events of this year.",
+  "graph_edges": [
+    {
+      "from": "1228-001",
+      "to": "1229-001",
+      "relation": "led_to",
+      "note": "Frederick II's departure in 1228 led to the Treaty of Jaffa in 1229"
+    },
+    {
+      "from": "1228-002",
+      "to": "1229-002",
+      "relation": "led_to",
+      "note": "Mongol campaigns of 1228 set the stage for continued campaigns in 1229"
+    },
+    {
+      "from": "1228-003",
+      "to": "1231-003",
+      "relation": "contemporary_with",
+      "note": "Reconquista campaigns continued across 1228\u20131231"
+    },
+    {
+      "from": "1228-004",
+      "to": "1231-002",
+      "relation": "led_to",
+      "note": "Papal reforms of 1228 contributed to the formalization of the Inquisition in 1231"
+    }
+  ]
+}

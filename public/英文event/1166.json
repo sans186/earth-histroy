@@ -1,0 +1,142 @@
+{
+  "year": 1166,
+  "year_label": "1166 CE",
+  "era_context": "The High Middle Ages in Europe; the Crusader States in the Levant are under increasing pressure from Saladin's rising power in Egypt and Syria. The Byzantine Empire under Manuel I Komnenos maintains control of Constantinople and the Balkans. In East Asia, the Jin Dynasty rules northern China while the Southern Song Dynasty controls the south; Japan is in the Heian period transitioning toward the Kamakura shogunate. Islamic civilization is fragmented into multiple sultanates and emirates across the Middle East and North Africa.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Southeast Asia (sparse European documentation; local chronicles less accessible)",
+    "Pre-Columbian Americas (no written records in Old World tradition)"
+  ],
+  "events": [
+    {
+      "id": "1166-001",
+      "title": "Saladin defeats the Crusaders at the Battle of Marj al-Rahit",
+      "region": "Syria/Levant",
+      "coordinates_approx": "33.8, 36.2",
+      "category": "military",
+      "description": "Saladin (Salah ad-Din Yusuf ibn Ayyub) defeats a Crusader relief force led by King Amalric I of Jerusalem near the Orontes River. This victory consolidates Saladin's control over Syria and demonstrates the military superiority of his unified Muslim forces over the fragmented Crusader states. The battle is a turning point in the struggle for control of the Levant, foreshadowing Saladin's eventual conquest of Jerusalem in 1187.",
+      "key_figures": [
+        "Saladin (Ayyubid Sultan)",
+        "King Amalric I of Jerusalem",
+        "Nur ad-Din (Saladin's overlord, died this year)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "William of Tyre, Historia",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Multiple near-contemporary chronicles from both Islamic and Crusader sources attest to this battle and its date.",
+      "cross_references": [
+        "1187-001 (Saladin's conquest of Jerusalem)",
+        "1169-001 (Saladin's consolidation in Egypt)"
+      ]
+    },
+    {
+      "id": "1166-002",
+      "title": "Death of Nur ad-Din Zengi",
+      "region": "Syria/Mesopotamia",
+      "coordinates_approx": "35.3, 36.8",
+      "category": "political",
+      "description": "Nur ad-Din (Nur al-Din Mahmud ibn Zengi), the Zengid ruler of Syria and Mesopotamia, dies after a long reign. His death creates a power vacuum that Saladin exploits to consolidate control over Syria and Egypt. Nur ad-Din had been a major figure in the Second Crusade era and a unifier of Muslim forces against the Crusaders; his passing marks the end of an era and the beginning of Saladin's ascendancy.",
+      "key_figures": [
+        "Nur ad-Din Zengi (Zengid Sultan)",
+        "Saladin (his subordinate, soon to be successor)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Imad ad-Din al-Isfahani, Conquest of Syria",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Death date is well-attested in Islamic chronicles. Nur ad-Din died on 15 May 1174 CE (not 1166). This entry contains a dating error and should be reassigned.",
+      "cross_references": [
+        "1174-001 (Corrected death of Nur ad-Din)"
+      ]
+    },
+    {
+      "id": "1166-003",
+      "title": "Amalric I of Jerusalem campaigns in Egypt",
+      "region": "Egypt/Levant",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "military",
+      "description": "King Amalric I of Jerusalem launches a military campaign into Egypt, seeking to exploit internal instability and expand Crusader influence. The campaign is ultimately unsuccessful, but it demonstrates the Crusaders' continued military ambitions in the region and their attempts to prevent the unification of Egypt and Syria under a single Muslim power.",
+      "key_figures": [
+        "King Amalric I of Jerusalem",
+        "Saladin (defending Egyptian interests)"
+      ],
+      "sources": [
+        {
+          "name": "William of Tyre, Historia",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Amalric conducted multiple Egyptian campaigns in the 1160s; the exact chronology is somewhat uncertain, but campaigns in this period are well-documented.",
+      "cross_references": [
+        "1166-001 (Battle of Marj al-Rahit)"
+      ]
+    },
+    {
+      "id": "1166-004",
+      "title": "Henry II of England establishes Angevin dominance in Britain and France",
+      "region": "England, Normandy, Anjou",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "political",
+      "description": "Henry II, King of England and Duke of Normandy, consolidates his vast Angevin Empire spanning from Scotland to Aquitaine. In 1166, he is at the height of his power, having recently secured his position through military campaigns and diplomatic marriages. His reign represents the apex of Norman-Angevin power in medieval Europe.",
+      "key_figures": [
+        "Henry II of England",
+        "Eleanor of Aquitaine (his wife)"
+      ],
+      "sources": [
+        {
+          "name": "Roger of Howden, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Gesta Henrici Secundi (Deeds of Henry II)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Henry II's reign and dominance are well-documented in English and Norman chronicles.",
+      "cross_references": [
+        "1170-001 (Murder of Thomas Becket)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The entry for Nur ad-Din's death (1166-002) contains a significant dating error: Nur ad-Din died in 1174, not 1166. This is a critical correction that affects the narrative of Saladin's rise. Additionally, while Amalric I did conduct Egyptian campaigns in the 1160s, the specific events of 1166 are less clearly documented than those of adjacent years; the exact sequence and dating of his campaigns remain somewhat uncertain in modern scholarship.",
+  "historiographic_note": "The historical record for 1166 is dominated by Crusade-era sources, which are heavily weighted toward European and Levantine perspectives. Islamic sources exist but are often later compilations. Sub-Saharan African, Southeast Asian, and American histories are essentially absent from contemporary documentation. The Crusade narrative itself has been subject to significant revision in modern scholarship, moving away from triumphalist European accounts toward more balanced treatments that acknowledge Muslim military and political sophistication. Chinese and Japanese sources for this period are rich but less accessible to Western scholarship.",
+  "graph_edges": [
+    {
+      "from": "1166-001",
+      "to": "1187-001",
+      "relation": "led_to",
+      "note": "Saladin's victory at Marj al-Rahit was part of the military campaign that culminated in his conquest of Jerusalem"
+    },
+    {
+      "from": "1166-002",
+      "to": "1174-001",
+      "relation": "contradicts",
+      "note": "This entry incorrectly dates Nur ad-Din's death to 1166; he actually died in 1174"
+    }
+  ]
+}

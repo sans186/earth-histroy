@@ -1,0 +1,200 @@
+{
+  "year": 1686,
+  "year_label": "1686 CE",
+  "era_context": "The late 17th century: the Ottoman Empire in slow decline; the Qing Dynasty consolidating control over China and expanding into Taiwan; Louis XIV at the height of French power; the English Glorious Revolution (1688) imminent; the Scientific Revolution in full swing in Europe; the beginning of the Great Northern War era in Eastern Europe.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1686-001",
+      "title": "Battle of Moh\u00e1cs (Second Ottoman-Habsburg War)",
+      "region": "Hungary, Ottoman Empire",
+      "coordinates_approx": "46.41, 18.68",
+      "category": "military",
+      "description": "The Holy League (Austria, Poland, Venice, Papal States, Saxony) defeated Ottoman forces at Moh\u00e1cs on August 12, 1686, marking a decisive turning point in the Great Turkish War (1683\u20131699). The Ottoman army under Ibrahim Pasha was routed, with heavy casualties. This victory reversed Ottoman momentum after the failed Siege of Vienna (1683) and opened the path for Christian reconquest of Hungary. The battle demonstrated the military superiority of European combined-arms tactics and artillery over Ottoman forces.",
+      "key_figures": [
+        "Charles of Lorraine (Holy League commander)",
+        "Ibrahim Pasha (Ottoman commander)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary accounts in Austrian and Polish chronicles; Ottoman records in the Topkapi Palace archives",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Modern historiographic consensus from works by Reuben Levy and Andrew Wheatcroft on Ottoman military history",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Exact date and outcome well-documented in multiple contemporary European and Ottoman sources.",
+      "cross_references": [
+        "1683-001 (Siege of Vienna)",
+        "1699-001 (Treaty of Karlowitz)"
+      ]
+    },
+    {
+      "id": "1686-002",
+      "title": "Qing Dynasty conquest of Taiwan (Zheng family submission)",
+      "region": "Taiwan, Qing China",
+      "coordinates_approx": "23.70, 120.96",
+      "category": "political",
+      "description": "The Zheng family, which had ruled Taiwan as an independent maritime kingdom since 1662, formally submitted to the Qing Dynasty in 1686. Zheng Keshuang, grandson of Zheng Chenggong (Koxinga), surrendered after the Qing blockade and military pressure. Taiwan was incorporated into Fujian Province. This ended the last major independent Chinese polity outside Qing control and consolidated Qing dominion over all Chinese territories. The conquest was facilitated by the Qing's superior naval power and the exhaustion of Zheng resources.",
+      "key_figures": [
+        "Zheng Keshuang (Zheng family ruler)",
+        "Shi Lang (Qing admiral)",
+        "Kangxi Emperor (Qing)"
+      ],
+      "sources": [
+        {
+          "name": "Qing imperial records (Kangxi reign records); Zheng family documents preserved in Taiwan and mainland archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ming-Qing transition histories by scholars such as Frederic Wakeman and Jonathan Spence",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Submission date of 1686 is well-documented in Qing imperial records and Zheng family genealogies.",
+      "cross_references": [
+        "1662-001 (Zheng Chenggong establishes Taiwan kingdom)",
+        "1683-002 (Qing consolidation under Kangxi)"
+      ]
+    },
+    {
+      "id": "1686-003",
+      "title": "Founding of the League of Augsburg (anti-French coalition)",
+      "region": "Holy Roman Empire, Europe",
+      "coordinates_approx": "48.57, 7.77",
+      "category": "political",
+      "description": "The League of Augsburg was formally established in July 1686 as a defensive alliance against French expansion under Louis XIV. Members included the Holy Roman Empire, Spain, Sweden, Saxony, Bavaria, and the Palatinate. The league was a response to French annexations in the Rhineland and the Palatinate, and to Louis's aggressive foreign policy. The alliance would lead directly to the War of the League of Augsburg (1688\u20131697), one of the major European conflicts of the late 17th century.",
+      "key_figures": [
+        "Leopold I (Holy Roman Emperor)",
+        "Louis XIV (France)",
+        "Charles II (Spain)"
+      ],
+      "sources": [
+        {
+          "name": "Diplomatic correspondence and treaty texts preserved in Austrian, Spanish, and German archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from works on 17th-century European diplomacy",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Formation date and membership well-documented in diplomatic records.",
+      "cross_references": [
+        "1688-001 (War of the League of Augsburg begins)",
+        "1697-001 (Treaty of Ryswick)"
+      ]
+    },
+    {
+      "id": "1686-004",
+      "title": "Newton's Principia Mathematica presented to Royal Society",
+      "region": "England",
+      "coordinates_approx": "51.51, -0.13",
+      "category": "scientific",
+      "description": "Isaac Newton presented the manuscript of his Philosophi\u00e6 Naturalis Principia Mathematica (Mathematical Principles of Natural Philosophy) to the Royal Society of London in April 1686. The work, which would be published in 1687, laid the mathematical foundations for classical mechanics, gravitation, and calculus. It represented the culmination of Newton's work over the preceding two decades and became the foundational text of the Scientific Revolution. The Principia established the framework for understanding motion, forces, and the structure of the universe that would dominate physics for over two centuries.",
+      "key_figures": [
+        "Isaac Newton (author)",
+        "Edmond Halley (Royal Society, editor)",
+        "Samuel Pepys (Royal Society President)"
+      ],
+      "sources": [
+        {
+          "name": "Royal Society records and Newton's correspondence; the published Principia (1687)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Newton biographies by Richard Westfall and Andrew Janiak",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Presentation date of April 1686 is well-documented in Royal Society records.",
+      "cross_references": [
+        "1687-001 (Principia published)"
+      ]
+    },
+    {
+      "id": "1686-005",
+      "title": "Revocation of the Edict of Nantes effects in France",
+      "region": "France",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "religious",
+      "description": "The effects of Louis XIV's 1685 Revocation of the Edict of Nantes continued to unfold in 1686, as Protestant Huguenots faced intensified persecution and forced conversion. Thousands fled France for Protestant nations (England, the Dutch Republic, Prussia, Switzerland). The revocation, which had formally ended religious toleration for Protestants, resulted in the loss of a significant portion of France's merchant and artisan classes. The exodus weakened France's economy while strengthening rival Protestant powers. By 1686, the scale of Huguenot emigration was becoming apparent to European observers.",
+      "key_figures": [
+        "Louis XIV (France)",
+        "Huguenot refugees"
+      ],
+      "sources": [
+        {
+          "name": "French royal edicts and correspondence; contemporary accounts from Huguenot refugees",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Works by historians such as Robin Briggs and Menna Prestwich on French religious policy",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The revocation was issued in 1685; 1686 marks the continuation and intensification of its effects.",
+      "cross_references": [
+        "1685-001 (Revocation of Edict of Nantes)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of the Battle of Moh\u00e1cs (1686) as a 'turning point' in Ottoman decline is sometimes overstated in popular histories. While militarily significant, the Ottoman Empire remained a major power for another century and continued to control vast territories. The battle was one of several defeats in the Great Turkish War but did not immediately precipitate Ottoman collapse. Additionally, some scholars argue that the Qing conquest of Taiwan was less a dramatic military victory than a negotiated submission facilitated by economic exhaustion and blockade\u2014the Zheng family's power had been declining for years before 1686.",
+  "historiographic_note": "Documentation for 1686 is excellent for European events (Ottoman-Habsburg conflicts, French politics, scientific developments) due to rich archival records and contemporary chronicles. Asian events (Taiwan conquest) are well-documented in Qing imperial records but may be underrepresented in Western historiography. The year is heavily weighted toward European and East Asian history; African, American, and Oceanic developments are poorly attested in surviving sources, reflecting both the actual distribution of written records and the biases of historical scholarship.",
+  "graph_edges": [
+    {
+      "from": "1686-001",
+      "to": "1683-001",
+      "relation": "led_to",
+      "note": "Moh\u00e1cs victory was a direct consequence of the failed Ottoman siege of Vienna three years earlier"
+    },
+    {
+      "from": "1686-001",
+      "to": "1699-001",
+      "relation": "led_to",
+      "note": "Series of Ottoman defeats including Moh\u00e1cs led to the Treaty of Karlowitz"
+    },
+    {
+      "from": "1686-002",
+      "to": "1662-001",
+      "relation": "led_to",
+      "note": "End of the Zheng maritime kingdom established by Koxinga in 1662"
+    },
+    {
+      "from": "1686-003",
+      "to": "1688-001",
+      "relation": "led_to",
+      "note": "League of Augsburg directly precipitated the War of the League of Augsburg"
+    },
+    {
+      "from": "1686-004",
+      "to": "1687-001",
+      "relation": "led_to",
+      "note": "Presentation preceded publication of the Principia"
+    },
+    {
+      "from": "1686-005",
+      "to": "1685-001",
+      "relation": "part_of",
+      "note": "Continuation of persecution following the 1685 revocation"
+    }
+  ]
+}

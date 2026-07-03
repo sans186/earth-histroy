@@ -1,0 +1,623 @@
+{
+  "year": 1968,
+  "year_label": "1968 CE",
+  "era_context": "The Cold War intensifies with the Soviet invasion of Czechoslovakia. The Vietnam War escalates with the Tet Offensive. The civil rights movement in the United States reaches a critical juncture with the assassination of Martin Luther King Jr. Student protests and social upheaval occur globally. The space race continues with Apollo 8's lunar orbit. Decolonisation accelerates in Africa and Asia.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1968-001",
+      "title": "Tlatelolco Massacre (Mexico City)",
+      "region": "North America (Mexico)",
+      "coordinates_approx": "19.4326, -99.1332",
+      "category": "political",
+      "description": "On 2 October 1968, Mexican security forces open fire on student protesters in Mexico City's Tlatelolco district, killing an estimated 200\u2013300 people (exact figures disputed). The massacre occurs during student-led protests against government repression and in the context of the 1968 Olympics, held in Mexico City. The government initially covers up the massacre, and it receives minimal international attention due to the Olympics. The Tlatelolco Massacre becomes a symbol of state violence and impunity in Mexico, and its full details emerge only in subsequent years through investigations and trials.",
+      "key_figures": [
+        "Gustavo D\u00edaz Ordaz (Mexican President)",
+        "Luis Echeverr\u00eda (Interior Minister)"
+      ],
+      "sources": [
+        {
+          "name": "Mexican government documents and military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news reports and eyewitness testimony",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Elena Poniatowska, La Noche de Tlatelolco (1971)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date and location are confirmed, but the death toll is contested (200\u2013300 range).",
+      "cross_references": [
+        "1969-006 (Tlatelolco trials begin)"
+      ]
+    },
+    {
+      "id": "1968-002",
+      "title": "Tet Offensive (Vietnam War)",
+      "region": "Southeast Asia (Vietnam)",
+      "coordinates_approx": "10.7769, 106.6955",
+      "category": "military",
+      "description": "On 30 January 1968, North Vietnamese and Viet Cong forces launch the Tet Offensive, a coordinated series of attacks on South Vietnamese and American positions across Vietnam. The offensive, named after the Vietnamese Lunar New Year (Tet), involves attacks on over 100 cities and towns. Although militarily defeated, the Tet Offensive becomes a psychological and political victory for North Vietnam, shocking the American public and turning public opinion against the war. The offensive marks a turning point in the Vietnam War, leading to increased anti-war protests in the United States and the eventual withdrawal of American forces.",
+      "key_figures": [
+        "Vo Nguyen Giap (North Vietnamese general)",
+        "William Westmoreland (US military commander)",
+        "Lyndon B. Johnson (US President)"
+      ],
+      "sources": [
+        {
+          "name": "US Department of Defense records and military reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "North Vietnamese military records (declassified)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Don Oberdorfer, Tet! (1971)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date, scale, and significance of the Tet Offensive are well-documented.",
+      "cross_references": [
+        "1973-001 (End of Vietnam War)"
+      ]
+    },
+    {
+      "id": "1968-003",
+      "title": "Martin Luther King Jr. Assassination",
+      "region": "North America (Tennessee, USA)",
+      "coordinates_approx": "35.1395, -90.1848",
+      "category": "political",
+      "description": "On 4 April 1968, civil rights leader Martin Luther King Jr. is assassinated in Memphis, Tennessee, by James Earl Ray. King's assassination triggers massive protests and riots in cities across the United States, exacerbating racial tensions. The assassination marks a turning point in the civil rights movement, as the focus shifts from nonviolent protest to more militant approaches. King's death becomes a watershed moment in American history, and his legacy continues to shape discussions of race, justice, and equality.",
+      "key_figures": [
+        "Martin Luther King Jr. (civil rights leader)",
+        "James Earl Ray (assassin)"
+      ],
+      "sources": [
+        {
+          "name": "FBI records and police investigation files",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news reports and eyewitness testimony",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "James Earl Ray, Tennessee Waltz (1987)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date and location of King's assassination are documented in official records.",
+      "cross_references": []
+    },
+    {
+      "id": "1968-004",
+      "title": "Robert F. Kennedy Assassination",
+      "region": "North America (California, USA)",
+      "coordinates_approx": "34.0522, -118.2437",
+      "category": "political",
+      "description": "On 5 June 1968, Robert F. Kennedy, a US Senator and presidential candidate, is assassinated in Los Angeles by Sirhan Sirhan. Kennedy's assassination occurs just two months after Martin Luther King Jr.'s death, deepening the national trauma. Kennedy was running for the Democratic presidential nomination on an anti-war platform. His death removes a potential alternative to Vice President Hubert Humphrey in the 1968 presidential election, affecting the course of American politics.",
+      "key_figures": [
+        "Robert F. Kennedy (Senator and presidential candidate)",
+        "Sirhan Sirhan (assassin)"
+      ],
+      "sources": [
+        {
+          "name": "Los Angeles Police Department records and investigation files",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news reports and eyewitness testimony",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date and location of Kennedy's assassination are documented in official records.",
+      "cross_references": [
+        "1968-003 (MLK assassination)"
+      ]
+    },
+    {
+      "id": "1968-005",
+      "title": "Soviet Invasion of Czechoslovakia",
+      "region": "Europe (Czechoslovakia)",
+      "coordinates_approx": "49.8175, 15.4730",
+      "category": "military",
+      "description": "On 20 August 1968, Soviet forces, along with troops from other Warsaw Pact countries, invade Czechoslovakia to suppress the Prague Spring, a period of political liberalisation and reform under Alexander Dub\u010dek. The invasion crushes the reform movement and reasserts Soviet control over Eastern Europe. The invasion kills an estimated 137 people and triggers international condemnation. The invasion demonstrates the limits of Soviet tolerance for reform within the Eastern Bloc and reinforces the Brezhnev Doctrine, which asserts the Soviet Union's right to intervene in communist countries.",
+      "key_figures": [
+        "Alexander Dub\u010dek (Czechoslovak leader)",
+        "Leonid Brezhnev (Soviet leader)"
+      ],
+      "sources": [
+        {
+          "name": "Soviet military records and Warsaw Pact documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Czechoslovak government records and eyewitness testimony",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Kieran Williams, The Prague Spring and Its Aftermath (1997)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The invasion date and key figures are documented in military and government records.",
+      "cross_references": []
+    },
+    {
+      "id": "1968-006",
+      "title": "Apollo 8 Orbits the Moon",
+      "region": "Space (Moon)",
+      "coordinates_approx": null,
+      "category": "exploration",
+      "description": "From 21\u201327 December 1968, Apollo 8 orbits the Moon with astronauts Frank Borman, James Lovell, and William Anders aboard. The mission marks the first crewed spacecraft to leave Earth's orbit and reach the Moon. The astronauts transmit images of the Moon and Earth, including the iconic 'Earthrise' photograph, which becomes one of the most influential images in human history. Apollo 8 demonstrates the feasibility of lunar missions and paves the way for the Apollo 11 moon landing in 1969.",
+      "key_figures": [
+        "Frank Borman (mission commander)",
+        "James Lovell (command module pilot)",
+        "William Anders (lunar module pilot)"
+      ],
+      "sources": [
+        {
+          "name": "NASA mission records and telemetry",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Astronaut memoirs and interviews",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "All mission data, dates, and scientific results are extensively documented.",
+      "cross_references": [
+        "1969-001 (Apollo 11 moon landing)"
+      ]
+    },
+    {
+      "id": "1968-007",
+      "title": "1968 Summer Olympics (Mexico City)",
+      "region": "North America (Mexico)",
+      "coordinates_approx": "19.4326, -99.1332",
+      "category": "cultural",
+      "description": "The 1968 Summer Olympics are held in Mexico City from 12\u201327 October 1968. The Games are notable for several reasons: they are the first Olympics held in Latin America, they occur just days after the Tlatelolco Massacre (which is largely overshadowed by the Games), and they feature the famous 'Black Power' salute by American sprinters Tommie Smith and John Carlos during the medal ceremony. The Olympics showcase Mexico's development and modernisation but also highlight the government's repression of dissent.",
+      "key_figures": [
+        "Tommie Smith (American sprinter)",
+        "John Carlos (American sprinter)",
+        "Gustavo D\u00edaz Ordaz (Mexican President)"
+      ],
+      "sources": [
+        {
+          "name": "International Olympic Committee records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news reports and media coverage",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The dates and key events are documented in Olympic records and media coverage.",
+      "cross_references": [
+        "1968-001 (Tlatelolco Massacre)"
+      ]
+    },
+    {
+      "id": "1968-008",
+      "title": "My Lai Massacre (Vietnam War)",
+      "region": "Southeast Asia (Vietnam)",
+      "coordinates_approx": "15.9167, 108.3333",
+      "category": "military",
+      "description": "On 16 March 1968, US Army soldiers from Charlie Company, under the command of Lieutenant William Calley, kill an estimated 347\u2013504 South Vietnamese civilians (mostly women, children, and elderly) in the village of My Lai. The massacre is one of the most notorious war crimes of the Vietnam War. The incident is covered up for over a year and is not revealed to the public until November 1969. The revelation of the My Lai Massacre shocks the American public and becomes a symbol of the brutality and moral failure of the Vietnam War.",
+      "key_figures": [
+        "William Calley (platoon leader)",
+        "Ronald Ridenhour (whistleblower)"
+      ],
+      "sources": [
+        {
+          "name": "US Army investigation records and court-martial transcripts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Seymour Hersh, My Lai 4 (1970)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date and location are confirmed, but the death toll is contested.",
+      "cross_references": [
+        "1969-010 (My Lai Massacre revealed)"
+      ]
+    },
+    {
+      "id": "1968-009",
+      "title": "May 1968 Protests in France",
+      "region": "Europe (France)",
+      "coordinates_approx": "48.8566, 2.3522",
+      "category": "political",
+      "description": "In May 1968, massive student and worker protests erupt in France, beginning with student demonstrations at the University of Paris and escalating into a general strike involving millions of workers. The protests are triggered by educational reforms and broader grievances about social inequality and authoritarianism. The movement challenges the authority of President Charles de Gaulle and nearly brings down his government. Although the protests do not achieve their immediate political goals, they represent a significant challenge to established authority and influence social movements globally.",
+      "key_figures": [
+        "Charles de Gaulle (French President)",
+        "Daniel Cohn-Bendit (student leader)"
+      ],
+      "sources": [
+        {
+          "name": "French government records and police reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news reports and eyewitness testimony",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Kristin Ross, May '68 and Its Afterlives (2002)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The dates and scale of the protests are documented in government records and media coverage.",
+      "cross_references": []
+    },
+    {
+      "id": "1968-010",
+      "title": "Democratic National Convention Protests (Chicago)",
+      "region": "North America (Illinois, USA)",
+      "coordinates_approx": "41.8781, -87.6298",
+      "category": "political",
+      "description": "From 26\u201329 August 1968, the Democratic National Convention is held in Chicago, attracting thousands of anti-war protesters. The convention nominates Vice President Hubert Humphrey as the Democratic presidential candidate, disappointing anti-war activists who supported Robert F. Kennedy (assassinated in June) or Eugene McCarthy. Police clash violently with protesters, resulting in hundreds of injuries and arrests. The convention becomes a symbol of the deep divisions within American society over the Vietnam War and social change.",
+      "key_figures": [
+        "Hubert Humphrey (Democratic nominee)",
+        "Richard Daley (Chicago Mayor)",
+        "Abbie Hoffman (protest organiser)"
+      ],
+      "sources": [
+        {
+          "name": "Chicago Police Department records and arrest reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news reports and eyewitness testimony",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Walker Report (1968, official investigation)",
+          "type": "historiographic_consensus",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The dates and sequence of events are documented in police records and media coverage.",
+      "cross_references": []
+    },
+    {
+      "id": "1968-011",
+      "title": "Richard Nixon Elected US President",
+      "region": "North America (USA)",
+      "coordinates_approx": "40.7128, -74.0060",
+      "category": "political",
+      "description": "On 5 November 1968, Richard Nixon is elected President of the United States, defeating Democratic nominee Hubert Humphrey and independent candidate George Wallace. Nixon wins with 43.4% of the popular vote and 301 electoral votes. Nixon's campaign emphasises 'law and order' and promises to end the Vietnam War with 'peace with honour.' His election marks a significant shift in American politics, as he appeals to the 'silent majority' and conservative voters alienated by social upheaval. Nixon's presidency (1969\u20131974) is marked by the continuation and eventual end of the Vietnam War, d\u00e9tente with the Soviet Union, and the Watergate scandal.",
+      "key_figures": [
+        "Richard Nixon (elected President)",
+        "Hubert Humphrey (Democratic nominee)",
+        "George Wallace (independent candidate)"
+      ],
+      "sources": [
+        {
+          "name": "US Election Commission records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news reports and polling data",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Election results and dates are documented in official records.",
+      "cross_references": [
+        "1974-001 (Nixon resigns)"
+      ]
+    },
+    {
+      "id": "1968-012",
+      "title": "Enoch Powell's 'Rivers of Blood' Speech",
+      "region": "Europe (United Kingdom)",
+      "coordinates_approx": "52.5200, -1.8883",
+      "category": "political",
+      "description": "On 20 April 1968, British Conservative politician Enoch Powell delivers a controversial speech in Birmingham opposing immigration and warning of social conflict. The speech, which includes a classical reference to 'rivers of blood,' becomes known as the 'Rivers of Blood' speech. Powell's speech inflames racial tensions and is widely condemned by political leaders, but it resonates with some segments of the British public concerned about immigration. The speech marks a turning point in British politics, bringing immigration and race to the forefront of political debate.",
+      "key_figures": [
+        "Enoch Powell (Conservative politician)"
+      ],
+      "sources": [
+        {
+          "name": "Text of Powell's speech (published in newspapers and later compilations)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news reports and political analysis",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date and content of the speech are documented in contemporary sources.",
+      "cross_references": []
+    },
+    {
+      "id": "1968-013",
+      "title": "Mauritius Gains Independence from Britain (Scheduled)",
+      "region": "Africa (Indian Ocean)",
+      "coordinates_approx": "-20.3484, 57.5522",
+      "category": "political",
+      "description": "Mauritius is scheduled to gain independence from British colonial rule on 12 March 1969 (the independence actually occurs in 1969, not 1968, but preparations and negotiations occur in 1968). The transition is negotiated peacefully, and Mauritius will join the United Nations and the Commonwealth. Mauritius' independence marks the beginning of a complex post-colonial history marked by ethnic and religious diversity.",
+      "key_figures": [
+        "Sir Seewoosagur Ramgoolam (future first Prime Minister)"
+      ],
+      "sources": [
+        {
+          "name": "British Foreign Office records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Independence negotiations occurred in 1968, but the actual independence date is 12 March 1969.",
+      "cross_references": [
+        "1969-012 (Mauritius independence)"
+      ]
+    },
+    {
+      "id": "1968-014",
+      "title": "Nauru Gains Independence from Australia",
+      "region": "Oceania (Pacific)",
+      "coordinates_approx": "-0.5228, 166.9315",
+      "category": "political",
+      "description": "On 31 January 1968, Nauru gains independence from Australian trusteeship. Nauru is a small island nation in the Pacific, with a population of around 10,000. The country's economy is based on phosphate mining, which provides significant wealth. Nauru joins the United Nations and becomes one of the smallest independent nations by area and population. The country's post-colonial history is marked by economic dependence on phosphate exports and environmental degradation from mining.",
+      "key_figures": [
+        "Hammer DeRoburt (first President)"
+      ],
+      "sources": [
+        {
+          "name": "Australian government records and UN documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "UN admission records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The independence date is documented in official records.",
+      "cross_references": []
+    },
+    {
+      "id": "1968-015",
+      "title": "Mauritania Becomes Islamic Republic",
+      "region": "West Africa",
+      "coordinates_approx": "20.0000, -12.0000",
+      "category": "political",
+      "description": "In 1968, Mauritania undergoes a military coup and becomes an Islamic republic. The coup overthrows the civilian government and establishes military rule. The new regime emphasises Islamic identity and Arab nationalism. Mauritania's post-coup history is marked by military rule, ethnic tensions between Arab-Berber and Black African populations, and economic underdevelopment.",
+      "key_figures": [
+        "Moktar Ould Daddah (deposed president)",
+        "Moustapha Ould Mohamed Salek (new military leader)"
+      ],
+      "sources": [
+        {
+          "name": "Mauritanian government records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news reports",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The coup and establishment of Islamic republic in 1968 are documented, though specific dates may vary.",
+      "cross_references": []
+    },
+    {
+      "id": "1968-016",
+      "title": "Mariner 7 Launched (Mars Flyby Mission)",
+      "region": "Space (Mars mission)",
+      "coordinates_approx": null,
+      "category": "exploration",
+      "description": "On 27 March 1968, Mariner 7 is launched by NASA, beginning its journey to Mars. The spacecraft will conduct a close flyby of Mars in August 1969, transmitting detailed images and scientific data. Mariner 7 is part of the Mariner program's reconnaissance of the inner solar system and contributes to understanding of Mars' geology and atmosphere.",
+      "key_figures": [
+        "NASA mission team (JPL)"
+      ],
+      "sources": [
+        {
+          "name": "NASA Mariner 7 mission records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The launch date is documented in NASA records.",
+      "cross_references": [
+        "1969-007 (Mariner 7 Mars flyby)"
+      ]
+    },
+    {
+      "id": "1968-017",
+      "title": "Swaziland Scheduled for Independence",
+      "region": "Southern Africa",
+      "coordinates_approx": "-26.5225, 31.4659",
+      "category": "political",
+      "description": "Swaziland (now Eswatini) is scheduled to gain independence from British colonial rule on 6 September 1969 (independence actually occurs in 1969, but preparations occur in 1968). The transition is negotiated peacefully, and Swaziland will join the United Nations and the Commonwealth. Swaziland's independence marks the beginning of a complex post-colonial history marked by absolute monarchy and limited democratic institutions.",
+      "key_figures": [
+        "King Sobhuza II (Swazi monarch)"
+      ],
+      "sources": [
+        {
+          "name": "British Foreign Office records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Independence negotiations occurred in 1968, but the actual independence date is 6 September 1969.",
+      "cross_references": [
+        "1969-014 (Swaziland independence)"
+      ]
+    },
+    {
+      "id": "1968-018",
+      "title": "Equatorial Guinea Scheduled for Independence",
+      "region": "West Africa",
+      "coordinates_approx": "1.6578, 10.2679",
+      "category": "political",
+      "description": "Equatorial Guinea is scheduled to gain independence from Spanish colonial rule on 12 October 1969 (independence actually occurs in 1969, but preparations occur in 1968). The transition is negotiated peacefully, and Equatorial Guinea will join the United Nations. Equatorial Guinea's independence marks the end of Spanish colonialism in Africa.",
+      "key_figures": [
+        "Francisco Mac\u00edas Nguema (future first President)"
+      ],
+      "sources": [
+        {
+          "name": "Spanish Foreign Ministry records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Independence negotiations occurred in 1968, but the actual independence date is 12 October 1969.",
+      "cross_references": [
+        "1969-013 (Equatorial Guinea independence)"
+      ]
+    },
+    {
+      "id": "1968-019",
+      "title": "Tet Offensive's Psychological Impact on American Public",
+      "region": "North America (USA)",
+      "coordinates_approx": "40.7128, -74.0060",
+      "category": "political",
+      "description": "Following the Tet Offensive in January 1968, American public opinion turns decisively against the Vietnam War. Trusted news anchor Walter Cronkite declares the war unwinnable, influencing President Lyndon B. Johnson's decision not to seek re-election. The Tet Offensive, though a military defeat for North Vietnam, becomes a psychological and political victory, demonstrating that the war is far from over despite official optimism. The offensive catalyses the anti-war movement and leads to increased protests and social upheaval.",
+      "key_figures": [
+        "Walter Cronkite (CBS news anchor)",
+        "Lyndon B. Johnson (US President)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary news reports and polling data",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Johnson's memoirs and historical analyses",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The shift in public opinion following the Tet Offensive is documented in polling data and media coverage.",
+      "cross_references": [
+        "1968-002 (Tet Offensive)"
+      ]
+    },
+    {
+      "id": "1968-020",
+      "title": "Lyndon B. Johnson Announces He Will Not Seek Re-election",
+      "region": "North America (USA)",
+      "coordinates_approx": "40.7128, -74.0060",
+      "category": "political",
+      "description": "On 31 March 1968, President Lyndon B. Johnson announces in a televised address that he will not seek re-election. Johnson's decision comes after the Tet Offensive and mounting pressure from anti-war activists and Democratic Party members. The announcement shocks the nation and opens the field for the 1968 presidential election. Johnson's withdrawal marks a turning point in the Vietnam War and American politics, as the focus shifts to finding a successor and ending the war.",
+      "key_figures": [
+        "Lyndon B. Johnson (US President)"
+      ],
+      "sources": [
+        {
+          "name": "Johnson's televised address, 31 March 1968",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Johnson's memoirs and historical analyses",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date and content of Johnson's announcement are documented in contemporary sources.",
+      "cross_references": [
+        "1968-011 (Nixon elected President)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The death toll from the Tlatelolco Massacre is contested; estimates range from 200 to 300, with some sources citing higher figures. The exact number of deaths during the Soviet invasion of Czechoslovakia is disputed; estimates range from 137 to over 400. The My Lai Massacre's death toll is contested; estimates range from 347 to 504. The Tet Offensive is sometimes portrayed as a complete military defeat for North Vietnam, but some scholars argue that it achieved significant strategic objectives despite tactical failures. The 'Rivers of Blood' speech by Enoch Powell is sometimes misquoted or misinterpreted; the actual speech does not explicitly call for violence but uses classical rhetoric to warn of social conflict.",
+  "historiographic_note": "1968 is exceptionally well-documented due to the prevalence of contemporary media, government records, and eyewitness testimony. Western events (MLK assassination, RFK assassination, Chicago convention, Nixon election) are heavily represented in available sources. The Tet Offensive is extensively documented in US military records and Vietnamese sources. The Soviet invasion of Czechoslovakia is documented but with limited access to Soviet military records. The Tlatelolco Massacre is documented but with less precision regarding the death toll and government responsibility. The May 1968 protests in France are well-documented in French government records and media coverage. Sources on decolonisation in Africa and the Pacific are abundant but often reflect Western perspectives.",
+  "graph_edges": [
+    {
+      "from": "1968-002",
+      "to": "1968-020",
+      "relation": "led_to",
+      "note": "The Tet Offensive's psychological impact led to Johnson's decision not to seek re-election."
+    },
+    {
+      "from": "1968-003",
+      "to": "1968-004",
+      "relation": "contemporary_with",
+      "note": "MLK and RFK assassinations occurred within two months of each other, deepening national trauma."
+    },
+    {
+      "from": "1968-005",
+      "to": "1969-005",
+      "relation": "led_to",
+      "note": "The Soviet invasion of Czechoslovakia contributed to Sino-Soviet tensions and the border conflict in 1969."
+    },
+    {
+      "from": "1968-009",
+      "to": "1968-010",
+      "relation": "contemporary_with",
+      "note": "The May 1968 protests in France and the Chicago convention protests both represented global youth rebellion."
+    },
+    {
+      "from": "1968-011",
+      "to": "1970-002",
+      "relation": "led_to",
+      "note": "Nixon's election led to his decision to expand the Vietnam War into Cambodia in 1970."
+    },
+    {
+      "from": "1968-001",
+      "to": "1968-007",
+      "relation": "contemporary_with",
+      "note": "The Tlatelolco Massacre and the 1968 Olympics occurred in the same city, with the massacre overshadowed by the Games."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "year": 1335,
+  "year_label": "1335 CE",
+  "era_context": "The mid-14th century continues with the Hundred Years' War in its early phases, the Yuan Dynasty in its final decades of decline in China, the Ottoman Empire consolidating power in Anatolia, and Europe recovering from the Black Death (1347\u20131353 still ahead, but plague was endemic in the 1330s). This is a period of political fragmentation, military innovation, and cultural transition.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa \u2014 minimal contemporary written sources",
+    "Southeast Asia \u2014 sparse documentation",
+    "Indigenous Americas \u2014 no contemporary written records"
+  ],
+  "events": [
+    {
+      "id": "1335-001",
+      "title": "Ashikaga Takauji establishes Ashikaga Shogunate in Japan",
+      "region": "Kyoto, Japan",
+      "coordinates_approx": "35.01, 135.77",
+      "category": "political",
+      "description": "Ashikaga Takauji, a samurai warlord, established the Ashikaga Shogunate (also called the Muromachi Shogunate) after defeating the H\u014dj\u014d clan and consolidating power in Kyoto. This marked the beginning of a new phase of feudal military rule in Japan, replacing the H\u014dj\u014d regency. The Ashikaga Shogunate would govern Japan for over two centuries, though with increasing fragmentation and the rise of regional daimyo (feudal lords). The period is characterized by cultural flourishing in the arts, Zen Buddhism, and noh theater, alongside political instability and frequent warfare.",
+      "key_figures": [
+        "Ashikaga Takauji (Founder of Ashikaga Shogunate)",
+        "Emperor Go-Daigo (nominal imperial authority)"
+      ],
+      "sources": [
+        {
+          "name": "Taiheiki (Chronicle of the Great Peace)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ashikaga family records",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The establishment of the Ashikaga Shogunate is well-documented in Japanese chronicles. However, the exact date is sometimes given as 1338 (when Takauji was formally appointed Shogun) rather than 1335. The 1335 date marks the consolidation of power; 1338 marks formal appointment.",
+      "cross_references": [
+        "1338-001 (Formal appointment as Shogun)"
+      ]
+    },
+    {
+      "id": "1335-002",
+      "title": "Outbreak of plague in Central Asia and the Caucasus",
+      "region": "Central Asia, Caucasus, Steppe",
+      "coordinates_approx": "45.0, 60.0",
+      "category": "environmental",
+      "description": "Plague (likely bubonic plague, Yersinia pestis) was reported in Central Asian and Caucasian regions, with contemporary accounts describing massive mortality. This outbreak is part of the broader plague pandemic that would reach Europe by 1347 and become known as the Black Death. The disease spread along trade routes, particularly the Silk Road, from reservoirs in Central Asia. The 1335 outbreak in the Caucasus and Central Asia is documented in Islamic and Byzantine sources and represents the plague's westward progression before its catastrophic impact on Europe.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Ibn al-Wardi, account of plague in Caucasus",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine sources (Cantacuzenus)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Plague outbreaks in Central Asia in the 1330s are attested in Islamic sources, though exact dating varies. The connection to the later Black Death is established by modern epidemiological and historical scholarship, but contemporary sources did not always distinguish plague outbreaks from other epidemic diseases.",
+      "cross_references": [
+        "1347-001 (Black Death reaches Europe)"
+      ]
+    },
+    {
+      "id": "1335-003",
+      "title": "Kangxi Emperor's reign begins (Chinese calendar adjustment)",
+      "region": "China",
+      "coordinates_approx": "39.90, 116.41",
+      "category": "political",
+      "description": "This entry is a placeholder noting that 1335 CE corresponds to year 1 of the Zhiyuan era in the Yuan Dynasty's calendar system. No major political event is specifically documented for this year in China, though the Yuan Dynasty continued its decline amid Mongol factional disputes and Han Chinese rebellions. The Red Turban rebellion, which would eventually lead to the Ming Dynasty, was gathering strength in southern China during this period.",
+      "key_figures": [
+        "Toghon Tem\u00fcr (Yuan emperor, Toyan Khan)"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shi (History of the Yuan)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "No specific major event is documented for 1335 in Yuan China. This entry reflects the broader era context rather than a discrete historical event.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The Ashikaga Shogunate's founding date is sometimes given as 1338 (formal appointment) rather than 1335 (consolidation of power). Historians debate which date is more significant. The plague outbreak of 1335 in Central Asia is attested in later sources, but contemporary documentation is sparse, and the exact year may be uncertain by \u00b11\u20132 years.",
+  "historiographic_note": "Documentation for 1335 is sparse compared to 1336. Japanese sources are relatively abundant but compiled later. Islamic and Byzantine sources on plague are available but often written decades after the events. Chinese sources are voluminous but focus on court politics rather than discrete events in this year. The absence of documented events for much of the world (Africa, Southeast Asia, Americas) reflects the bias of surviving written sources toward East Asia, the Islamic world, and Europe.",
+  "graph_edges": [
+    {
+      "from": "1335-001",
+      "to": "1338-001",
+      "relation": "led_to",
+      "note": "Consolidation of power led to formal appointment as Shogun"
+    },
+    {
+      "from": "1335-002",
+      "to": "1347-001",
+      "relation": "led_to",
+      "note": "Central Asian plague outbreak preceded Black Death in Europe"
+    }
+  ]
+}

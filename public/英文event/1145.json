@@ -1,0 +1,192 @@
+{
+  "year": 1145,
+  "year_label": "1145 CE",
+  "era_context": "The mid-12th century witnessed the height of the Crusader States in the Levant, the consolidation of the Zengid dynasty under Zengi, the reign of Stephen III in Hungary, and the early Gothic architectural movement in Western Europe. In East Asia, the Jin dynasty controlled northern China while the Song dynasty ruled the south; in Japan, the Heian period was transitioning toward samurai dominance. Islamic scholarship and mathematics flourished in Al-Andalus and the broader Islamic world.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Scandinavia and the Baltic (sparse documentation)",
+    "Central Asia (limited contemporary records)"
+  ],
+  "events": [
+    {
+      "id": "1145-001",
+      "title": "Pope Eugenius III proclaims the Second Crusade",
+      "region": "Papal States, Rome; disseminated across Western Christendom",
+      "coordinates_approx": "41.90, 12.49",
+      "category": "religious",
+      "description": "In response to the fall of Edessa to Zengi's forces in December 1144, Pope Eugenius III issued the papal bull Quantum praedecessores in late 1145, formally calling for a Second Crusade. This was the first crusade proclaimed by a reigning pope (the First Crusade had been called by Urban II in 1095). The bull offered spiritual rewards (remission of sins) to crusaders and granted them the right to wear the cross. The proclamation was revolutionary in its scope and ambition: it aimed to recruit not just knights but kings, including Louis VII of France and Emperor Conrad III of the Holy Roman Empire. The crusade represented an attempt to reverse the tide of Crusader losses and reassert Christian dominance in the Levant.",
+      "key_figures": [
+        "Pope Eugenius III (papal authority)",
+        "Bernard of Clairvaux (chief preacher and advocate)",
+        "Louis VII of France (major recruit)",
+        "Conrad III of the Holy Roman Empire (major recruit)"
+      ],
+      "sources": [
+        {
+          "name": "Quantum praedecessores (papal bull, original text)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "William of Tyre, Historia Belli Sacri",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Odo of Deuil, De Profectione Ludovici VII in Orientem",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The papal bull survives in original form and is dated to late 1145. The proclamation is well-attested in contemporary sources.",
+      "cross_references": [
+        "1146-002 (Bernard's preaching at V\u00e9zelay)",
+        "1147-001 (Departure of crusade armies)"
+      ]
+    },
+    {
+      "id": "1145-002",
+      "title": "Zengi ibn Aq Sunqur dies; succession of Nur ad-Din",
+      "region": "Aleppo and Mosul, Zengid domains",
+      "coordinates_approx": "36.20, 37.16",
+      "category": "political",
+      "description": "Zengi ibn Aq Sunqur, the atabeg of Mosul and Aleppo and founder of the Zengid dynasty, died in 1145 (some sources date this to late 1144 or early 1146). His death marked a succession crisis, but his son Nur ad-Din Mahmud ibn Zengi successfully consolidated power over the Zengid domains. Nur ad-Din proved to be a more capable administrator and religiously motivated ruler than his father, and he would become the dominant Muslim power in the Levant for the next two decades. Zengi's death also removed the immediate military threat that had prompted the Second Crusade, though Nur ad-Din would prove equally formidable.",
+      "key_figures": [
+        "Zengi ibn Aq Sunqur (atabeg of Mosul and Aleppo, died 1145)",
+        "Nur ad-Din Mahmud ibn Zengi (son and successor)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Complete History (Al-Kamil fi al-Ta'rikh)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Atabeg Zengi's inscriptions and coins",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The date of Zengi's death is given variously as 1144, 1145, or 1146 in different sources. Modern scholarship generally accepts 1145 or 1146, with \u00b11-year uncertainty. The succession of Nur ad-Din is secure.",
+      "cross_references": [
+        "1144-001 (Fall of Edessa under Zengi)",
+        "1174-001 (Nur ad-Din's death)"
+      ]
+    },
+    {
+      "id": "1145-003",
+      "title": "Matilda of Tuscany's lands revert to the Papacy",
+      "region": "Tuscany and Umbria, Italian peninsula",
+      "coordinates_approx": "43.0, 12.0",
+      "category": "political",
+      "description": "Matilda of Tuscany, the powerful countess who had been a major supporter of Pope Gregory VII during the Investiture Controversy, died in 1115. Her vast lands in central Italy\u2014the Matildine Lands\u2014were disputed between the papacy and the Holy Roman Empire for decades. By 1145, the papacy had largely secured control of these territories, which became part of the Papal States. This consolidation of papal temporal power was crucial to the papacy's independence from secular rulers and provided the economic base for papal authority in the 12th century. The Matildine Lands remained a source of contention between popes and emperors throughout the medieval period.",
+      "key_figures": [
+        "Matilda of Tuscany (countess, died 1115)",
+        "Pope Eugenius III (beneficiary of papal control)",
+        "Emperor Conrad III (rival claimant)"
+      ],
+      "sources": [
+        {
+          "name": "Liber Pontificalis (papal chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Donizo of Canossa, Life of Matilda (biographical chronicle)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Matilda died in 1115, not 1145. The consolidation of papal control over her lands occurred gradually over the 12th century. By 1145, papal control was largely established, but the process was not instantaneous. This event is included for context but is not precisely dated to 1145.",
+      "cross_references": [
+        "1115-001 (Matilda's death, earlier period)"
+      ]
+    },
+    {
+      "id": "1145-004",
+      "title": "Suger of Saint-Denis continues architectural innovations at the basilica",
+      "region": "Saint-Denis, \u00cele-de-France, Kingdom of France",
+      "coordinates_approx": "48.94, 2.36",
+      "category": "cultural",
+      "description": "Abbot Suger of Saint-Denis continued his revolutionary architectural work on the Basilica of Saint-Denis in 1145. The project, begun in 1137, was progressing toward completion of the western fa\u00e7ade and narthex. Suger's innovations\u2014pointed arches, ribbed vaults, flying buttresses, and extensive use of stained glass\u2014were creating a revolutionary architectural style that would become known as Gothic. The basilica served as the royal necropolis of French kings and was a center of intellectual and artistic patronage. Suger's work was inseparable from his theological vision of divine light.",
+      "key_figures": [
+        "Suger of Saint-Denis (abbot and architectural patron)",
+        "Louis VII of France (royal patron)"
+      ],
+      "sources": [
+        {
+          "name": "Suger, De Administratione",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological and architectural evidence from the basilica",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Suger's work on the basilica continued throughout the 1140s. The exact progress in 1145 is not precisely documented, but the project was ongoing.",
+      "cross_references": [
+        "1137-001 (Beginning of Suger's renovations)",
+        "1146-006 (Completion of western fa\u00e7ade and narthex)",
+        "1151-001 (Suger's death)"
+      ]
+    },
+    {
+      "id": "1145-005",
+      "title": "Jing Zhaojun becomes empress of the Jin dynasty",
+      "region": "Jin dynasty, northern China",
+      "coordinates_approx": "39.90, 116.41",
+      "category": "political",
+      "description": "In 1145, Jing Zhaojun became empress of the Jin dynasty (Jurchen-ruled northern China) as the consort of Emperor Wanyan Liang (also known as Jin Xizong). The Jin dynasty, established by the Jurchen people in 1115, controlled northern China and was in constant tension with the Song dynasty to the south. The imperial court was a center of cultural synthesis, blending Jurchen, Khitan, and Han Chinese traditions. Jing Zhaojun's elevation to empress reflected the complex politics of the Jin court and the role of imperial women in dynastic succession and legitimacy.",
+      "key_figures": [
+        "Jing Zhaojun (empress of the Jin dynasty)",
+        "Wanyan Liang (Emperor Xizong of Jin, husband)"
+      ],
+      "sources": [
+        {
+          "name": "Jin Shi (History of the Jin Dynasty, compiled in the Yuan dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Song Shi (History of the Song Dynasty, compiled in the Yuan dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The date of Jing Zhaojun's elevation to empress is recorded in the Jin Shi, but this source was compiled centuries later. The date carries \u00b11-2 year uncertainty typical of Chinese dynastic records.",
+      "cross_references": [
+        "1161-001 (Wanyan Liang's death and succession crisis)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Zengi's death is disputed: some sources place it in 1144, others in 1145, and still others in 1146. This creates ambiguity about whether his succession should be attributed to 1144, 1145, or 1146. The fall of Edessa occurred in December 1144, not 1145, but the papal response (proclamation of the Second Crusade) occurred in late 1145. The inclusion of Matilda of Tuscany's lands reverting to the papacy is anachronistic for 1145\u2014Matilda died in 1115, and the consolidation of papal control occurred gradually over decades. This event is included for context but is not precisely dated to 1145. Chinese dynastic records (Jin Shi, Song Shi) were compiled centuries after the events they describe, making dating uncertain.",
+  "historiographic_note": "The historical record for 1145 is heavily weighted toward Western European and Islamic sources. The papal proclamation of the Second Crusade is well-documented in papal bulls and contemporary chronicles. Islamic sources (Ibn al-Athir) provide context for Zengi's death and Nur ad-Din's succession, though with some dating ambiguity. Northern European sources are sparse and rely on later compilations. East Asian sources (Jin Shi, Song Shi) are available but were compiled centuries after the events they describe, introducing uncertainty. Sub-Saharan Africa, Central Asia, and much of the Indian Ocean world are essentially absent from contemporary documentation. The sources reflect the biases of their authors: Latin chronicles emphasize Christian perspectives, while Islamic sources may underrepresent Crusader military capabilities. Chinese sources reflect the perspective of the Song dynasty, which was in conflict with the Jin dynasty.",
+  "graph_edges": [
+    {
+      "from": "1145-001",
+      "to": "1146-002",
+      "relation": "led_to",
+      "note": "Papal proclamation of Second Crusade (1145) led to Bernard's preaching campaign (1146)"
+    },
+    {
+      "from": "1145-002",
+      "to": "1174-001",
+      "relation": "led_to",
+      "note": "Nur ad-Din's succession (1145) set the stage for his dominance in the Levant and eventual rise of Saladin"
+    },
+    {
+      "from": "1145-001",
+      "to": "1144-001",
+      "relation": "caused_by",
+      "note": "Papal proclamation of Second Crusade was response to fall of Edessa (1144)"
+    }
+  ]
+}

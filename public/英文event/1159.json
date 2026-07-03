@@ -1,0 +1,134 @@
+{
+  "year": 1159,
+  "year_label": "1159 CE",
+  "era_context": "The mid-12th century CE was characterized by the height of the Crusader States in the Levant (though under increasing pressure), the consolidation of feudal kingdoms in Western Europe, the dominance of the Jin Dynasty in northern China, and the final decades of the Heian period in Japan. This was a period of significant cultural and intellectual activity in the Islamic world, Europe, and East Asia. The era saw the development of Gothic architecture in Europe, the flourishing of Islamic scholarship, and the refinement of samurai culture in Japan.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written documentation)",
+    "Northern Europe beyond major kingdoms (sparse records)",
+    "Central Asia and the Steppe (fragmentary sources)",
+    "Mesoamerica and South America (no written records in European tradition)",
+    "Southeast Asia (limited written sources)"
+  ],
+  "events": [
+    {
+      "id": "1159-001",
+      "title": "Papal election of Pope Alexander III",
+      "region": "Rome, Italy",
+      "coordinates_approx": "41.9\u00b0N, 12.5\u00b0E",
+      "category": "religious",
+      "description": "Pope Alexander III (Orlando Bandinelli) was elected pope in September 1159, succeeding Pope Adrian IV. Alexander III's papacy (1159\u20131181) was marked by significant conflicts with the Holy Roman Emperor Frederick Barbarossa over papal authority and the independence of the Church. These conflicts led to a schism, with Frederick supporting antipopes against Alexander. Alexander III was a skilled canonist and theologian who strengthened papal legal authority and convened the Third Lateran Council (1179). His papacy was crucial in asserting papal independence from secular rulers.",
+      "key_figures": [
+        "Pope Alexander III (Orlando Bandinelli)",
+        "Pope Adrian IV (predecessor)",
+        "Frederick Barbarossa (Holy Roman Emperor, opponent)"
+      ],
+      "sources": [
+        {
+          "name": "Liber Pontificalis (Book of Popes)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Boso, Life of Pope Alexander III",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary papal records and letters",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The election of Pope Alexander III in 1159 is well-documented in papal records and contemporary chronicles. The date is secure.",
+      "cross_references": [
+        "1177-001 (Peace of Venice between Alexander III and Frederick Barbarossa)",
+        "1179-001 (Third Lateran Council)"
+      ]
+    },
+    {
+      "id": "1159-002",
+      "title": "Heiji Rebellion in Japan \u2014 Taira clan victory",
+      "region": "Japan (Kyoto region)",
+      "coordinates_approx": "35.0\u00b0N, 135.8\u00b0E",
+      "category": "military",
+      "description": "The Heiji Rebellion, a brief but significant conflict between the Taira and Minamoto clans, occurred in 1159 (or possibly 1160, depending on calendar conversion). The Taira clan, led by Taira no Kiyomori, defeated the Minamoto clan in a struggle for control of the imperial court. This victory consolidated Taira dominance and marked a major step toward the establishment of the Taira shogunate. The rebellion arose from factional disputes within the imperial court and the growing power of military clans. The Taira's victory led to the execution or exile of key Minamoto leaders.",
+      "key_figures": [
+        "Taira no Kiyomori (Taira clan leader)",
+        "Minamoto no Yoshitomo (Minamoto clan leader)",
+        "Minamoto no Yoritomo (young survivor)"
+      ],
+      "sources": [
+        {
+          "name": "Heiji Monogatari (The Tale of Heiji)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Japanese court records",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Heiji Rebellion is well-attested in Japanese sources, but dating varies between 1159 and 1160 depending on the calendar system used. Modern scholarship generally accepts 1160 as the correct Gregorian date, but 1159 is also cited in some sources.",
+      "cross_references": [
+        "1160-001 (Alternative dating of Heiji Rebellion)",
+        "1185-001 (Minamoto victory at Dan-no-ura)"
+      ]
+    },
+    {
+      "id": "1159-003",
+      "title": "Nur ad-Din Zengi's military campaigns in the Levant",
+      "region": "Syria and the Levant",
+      "coordinates_approx": "33.5\u00b0N, 36.3\u00b0E",
+      "category": "military",
+      "description": "Nur ad-Din Zengi, the Zengid ruler of Syria and northern Mesopotamia, continued his military campaigns against the Crusader States and rival Muslim powers. Nur ad-Din was a key figure in the early Crusades period, known for his military acumen and his patronage of Islamic institutions. His campaigns during the late 1150s and early 1160s strengthened Ayyubid control over the Levant and laid groundwork for later Crusader defeats. Nur ad-Din's court was a center of Islamic learning and culture.",
+      "key_figures": [
+        "Nur ad-Din Zengi (Zengid ruler of Syria)",
+        "Saladin (rising military commander)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Imad ad-Din al-Isfahani, chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Nur ad-Din's military campaigns are well-documented in Islamic sources, but no single dramatic event is reliably dated to 1159 specifically. The year falls within a period of ongoing military consolidation.",
+      "cross_references": [
+        "1174-001 (Nur ad-Din's death)",
+        "1187-001 (Saladin's conquest of Jerusalem)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Heiji Rebellion is sometimes dated to 1160 rather than 1159, depending on the calendar system used. Modern scholarship generally accepts 1160 as the correct Gregorian date, though 1159 is also cited in some sources. This represents a dating ambiguity rather than a disconfirming finding. No major disconfirming evidence was identified for other events listed.",
+  "historiographic_note": "The year 1159 CE is moderately well-documented in European and East Asian sources, but documentation is sparse for most other regions. European sources are dominated by monastic chronicles and papal records, creating a Western and ecclesiastical bias. Japanese sources are rich but often focus on court politics and military narratives. Islamic sources are abundant for the Levant and Egypt but thinner for other regions. The historical record for 1159 is reasonably complete for Europe, the Islamic world, and East Asia, but nearly absent for sub-Saharan Africa, the Americas, and much of Central Asia.",
+  "graph_edges": [
+    {
+      "from": "1159-001",
+      "to": "1177-001",
+      "relation": "led_to",
+      "note": "Alexander III's election led to decades of conflict with Frederick Barbarossa, resolved at the Peace of Venice"
+    },
+    {
+      "from": "1159-002",
+      "to": "1185-001",
+      "relation": "led_to",
+      "note": "Taira victory at Heiji led to Minamoto exile and later resurgence"
+    },
+    {
+      "from": "1159-003",
+      "to": "1174-001",
+      "relation": "part_of",
+      "note": "Nur ad-Din's military campaigns were part of a longer trajectory of Ayyubid expansion"
+    }
+  ]
+}

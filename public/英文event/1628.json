@@ -1,0 +1,216 @@
+{
+  "year": 1628,
+  "year_label": "1628 CE",
+  "era_context": "The Thirty Years' War is in its second decade; the Mughal Empire is transitioning to Shah Jahan's reign; England under Charles I is moving toward constitutional crisis; the Dutch Golden Age is flourishing; the Ming Dynasty in China is facing increasing pressure from the Jurchen.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa: limited documentation of internal political and social developments",
+    "Oceania: sparse records of indigenous societies"
+  ],
+  "events": [
+    {
+      "id": "1628-001",
+      "title": "Death of Jahangir and succession of Shah Jahan",
+      "region": "Mughal Empire (Lahore, modern Pakistan)",
+      "coordinates_approx": "31.54, 74.35",
+      "category": "political",
+      "description": "Jahangir, the fourth Mughal emperor, died in October 1627 (some sources date this to January 1628), and his son Shah Jahan ascended to the throne. The succession was contested, as Jahangir's widow Nur Jahan and other court factions sought to influence the succession. Shah Jahan consolidated his power by eliminating rivals, including his brother Shahjahan (executed in 1628). Shah Jahan's reign (1628\u20131658) marked the beginning of the most culturally and architecturally significant period in Mughal history. He moved the capital from Lahore to Delhi and initiated major building projects. The succession was a major political event that shaped the trajectory of the Mughal Empire.",
+      "key_figures": [
+        "Jahangir (deceased emperor)",
+        "Shah Jahan (new emperor)",
+        "Nur Jahan (empress dowager)",
+        "Dara Shikoh (eldest son of Shah Jahan)"
+      ],
+      "sources": [
+        {
+          "name": "Mughal court records and chronicles (Padshahnama, Alamgir Nama)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "European traveler accounts (e.g., Jean-Baptiste Tavernier)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Jahangir's death is dated to October 1627 in most sources, but some place it in January 1628. Shah Jahan's succession is confirmed, but the exact date and the details of the succession struggle are not fully documented in contemporary sources. The execution of his brother is attested in later chronicles.",
+      "cross_references": [
+        "1627-001 (Jahangir's death, alternative dating)"
+      ]
+    },
+    {
+      "id": "1628-002",
+      "title": "Assassination of the Duke of Buckingham",
+      "region": "England (Portsmouth)",
+      "coordinates_approx": "50.80, -1.09",
+      "category": "political",
+      "description": "George Villiers, Duke of Buckingham, was assassinated on 23 August 1628 by John Felton, a disgruntled military officer. Buckingham had been the favorite of King Charles I and a major figure in English politics, but he was deeply unpopular due to his role in failed military campaigns (particularly the \u00cele de R\u00e9 expedition of 1627) and his perceived influence over the king. His assassination was celebrated by many in England and removed a major obstacle to improved relations between the Crown and Parliament. The assassination marked a turning point in Charles I's reign, as the king lost his closest advisor and was forced to rely more on other ministers. The event is sometimes seen as a precursor to the English Civil War.",
+      "key_figures": [
+        "George Villiers, Duke of Buckingham (victim)",
+        "John Felton (assassin)",
+        "Charles I (King of England)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary accounts by courtiers and observers",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Parliamentary records and royal correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date (23 August 1628), the victim, and the assassin are well-documented in contemporary sources. The assassination is one of the most famous political murders in English history.",
+      "cross_references": [
+        "1629-003 (Dissolution of Parliament)"
+      ]
+    },
+    {
+      "id": "1628-003",
+      "title": "Petition of Right",
+      "region": "England",
+      "coordinates_approx": "51.50, -0.13",
+      "category": "legal",
+      "description": "The English Parliament presented the Petition of Right to King Charles I in June 1628, which sought to limit royal prerogative and protect the rights of subjects. The petition protested against arbitrary taxation, forced loans, arbitrary imprisonment, and the billeting of soldiers. Charles I reluctantly accepted the petition, though he later repudiated it. The Petition of Right is considered one of the foundational documents of English constitutional law and a major step toward the English Civil War. It represented a significant assertion of parliamentary power against royal absolutism and established principles that would be further developed in the English Bill of Rights (1689).",
+      "key_figures": [
+        "Charles I (King of England)",
+        "Sir Edward Coke (parliamentary leader)",
+        "Thomas Wentworth (later Earl of Strafford)"
+      ],
+      "sources": [
+        {
+          "name": "The Petition of Right (primary text)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Parliamentary records and royal correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Petition of Right is well-documented in parliamentary records and the text is preserved. The date (June 1628) is confirmed.",
+      "cross_references": [
+        "1629-003 (Dissolution of Parliament)",
+        "1689-001 (English Bill of Rights)"
+      ]
+    },
+    {
+      "id": "1628-004",
+      "title": "Swedish-Polish War (Truce of Altmark)",
+      "region": "Northern Europe (Poland, Lithuania, Sweden)",
+      "coordinates_approx": "54.00, 24.00",
+      "category": "military",
+      "description": "Sweden and Poland concluded the Truce of Altmark in September 1629 (some sources date this to 1628), ending the Swedish-Polish War (1626\u20131629). The truce was negotiated by Cardinal Richelieu and represented a French effort to stabilize Northern Europe and prevent Swedish-Polish conflicts from diverting resources from the Thirty Years' War. The truce allowed Sweden to focus on intervention in the Thirty Years' War and gave Poland a respite from Swedish pressure. The truce was significant for Swedish foreign policy and contributed to the conditions that enabled Swedish intervention in Germany in 1630.",
+      "key_figures": [
+        "Gustavus Adolphus II (Swedish king)",
+        "Sigismund III (Polish king)",
+        "Cardinal Richelieu (French mediator)"
+      ],
+      "sources": [
+        {
+          "name": "Swedish and Polish diplomatic records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Truce of Altmark is dated to September 1629 in most sources, though some place it in 1628. The basic facts are well-documented in diplomatic records.",
+      "cross_references": [
+        "1630-001 (Swedish intervention in Thirty Years' War)"
+      ]
+    },
+    {
+      "id": "1628-005",
+      "title": "\u00cele de R\u00e9 expedition (English-French conflict)",
+      "region": "France (\u00cele de R\u00e9, off the coast of La Rochelle)",
+      "coordinates_approx": "46.24, -1.54",
+      "category": "military",
+      "description": "An English military expedition led by the Duke of Buckingham attempted to relieve the besieged Huguenot stronghold of La Rochelle by capturing the nearby \u00cele de R\u00e9. The expedition, which took place in summer 1627 (some sources extend the campaign into 1628), was a disaster for the English, resulting in heavy casualties and the failure to relieve La Rochelle. The expedition was unpopular in England and contributed to Buckingham's unpopularity, which culminated in his assassination in August 1628. The failure of the expedition demonstrated the weakness of English military power and contributed to Charles I's decision to seek peace with France and Spain.",
+      "key_figures": [
+        "George Villiers, Duke of Buckingham (English commander)",
+        "Cardinal Richelieu (French minister)",
+        "Charles I (King of England)"
+      ],
+      "sources": [
+        {
+          "name": "English military records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French records and later historiography",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The \u00cele de R\u00e9 expedition is well-documented in English military records. The date (summer 1627, with some operations continuing into 1628) is confirmed. The failure and casualties are well-attested.",
+      "cross_references": [
+        "1628-002 (Assassination of Buckingham)"
+      ]
+    },
+    {
+      "id": "1628-006",
+      "title": "Ming-Jurchen conflict escalation",
+      "region": "Ming China (Liaodong, Manchuria)",
+      "coordinates_approx": "41.50, 123.50",
+      "category": "military",
+      "description": "The conflict between the Ming Dynasty and the Jurchen confederation intensified in 1628, with the Jurchen conducting raids and military campaigns against Ming territories. The Ming were forced to divert significant military and financial resources to defend against the Jurchen threat. The escalation of the conflict contributed to fiscal strain on the Ming government and military weakness that would eventually lead to the Jurchen conquest of China. The Jurchen, under Hong Taiji, were consolidating their power and expanding their territorial control in Manchuria and northern China.",
+      "key_figures": [
+        "Hong Taiji (Jurchen leader)",
+        "Chongzhen Emperor (Ming emperor)",
+        "Yuan Chonghuan (Ming general)"
+      ],
+      "sources": [
+        {
+          "name": "Ming court records and military reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jurchen records (later compiled in Qing histories)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The escalation of Ming-Jurchen conflict in 1628 is attested in Ming court records, but specific events and dates are not always precisely documented.",
+      "cross_references": [
+        "1629-005 (Jurchen invasions of Ming China)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Petition of Right is sometimes presented as a complete victory for Parliament, but modern scholarship emphasizes that Charles I's acceptance was reluctant and that he later repudiated it, limiting its immediate impact. The \u00cele de R\u00e9 expedition is sometimes dated entirely to 1627, with the campaign ending before 1628; the exact timeline is debated. Shah Jahan's succession date is sometimes given as 1627 rather than 1628, reflecting uncertainty in Mughal chronology. The Truce of Altmark is sometimes dated to 1629 rather than 1628.",
+  "historiographic_note": "The year 1628 is well-documented for English political and military events, particularly the Petition of Right and the assassination of Buckingham. European diplomatic records are substantial. Mughal sources are less detailed but substantial. Ming sources are good for military events but less detailed for economic and social history. The historical record is heavily weighted toward political and military events; economic and social history is underrepresented. English sources reflect the perspective of the Crown and Parliament, with limited attention to the experiences of common people. Colonial records reflect European perspectives and may omit or minimize indigenous perspectives.",
+  "graph_edges": [
+    {
+      "from": "1628-002",
+      "to": "1629-003",
+      "relation": "led_to",
+      "note": "The assassination of Buckingham removed a major obstacle to improved Crown-Parliament relations, but Charles I's subsequent dissolution of Parliament in 1629 suggests the improvement was short-lived"
+    },
+    {
+      "from": "1628-003",
+      "to": "1629-003",
+      "relation": "led_to",
+      "note": "The Petition of Right asserted parliamentary power, but Charles I's dissolution of Parliament in 1629 represented a reassertion of royal prerogative"
+    },
+    {
+      "from": "1628-001",
+      "to": "1631-003",
+      "relation": "led_to",
+      "note": "Shah Jahan's succession in 1628 led to his commissioning of the Taj Mahal in 1631"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "year": 1221,
+  "year_label": "1221 CE",
+  "era_context": "The early 13th century witnessed the fragmentation of the Khwarazmian Empire under pressure from the Mongol invasions, the consolidation of the Ayyubid sultanate in the Levant and Egypt under al-Malik al-Kamil, the height of the Angkorian period in Cambodia, and the early Gothic architectural revolution in Western Europe. The Fourth Crusade's aftermath (1204) had destabilised the Eastern Mediterranean, while the Jin Dynasty in China faced mounting pressure from the Jurchen state's internal contradictions.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records from this period)",
+    "Northern Europe beyond Scandinavia and the Baltic (sparse documentation)",
+    "Central Asian nomadic groups (primarily known through external sources)"
+  ],
+  "events": [
+    {
+      "id": "1221-001",
+      "title": "Death of Muhammad of Ghor; Fragmentation of the Ghurid Empire",
+      "region": "Ghoristan (modern Afghanistan/Pakistan border region)",
+      "coordinates_approx": "34.5, 68.5",
+      "category": "political",
+      "description": "Muhammad of Ghor (also known as Muhammad Ghori), the founder of the Delhi Sultanate and conqueror of much of northern India, died in 1206, but his empire's final dissolution and partition among his slave generals (the Mamluks) was completed by 1221. His death marked the end of direct Ghurid rule and the rise of the Delhi Sultanate under Qutb ud-Din Aibak and his successors. This transition fundamentally reshaped the political geography of South Asia and established the institutional framework for Islamic rule in India that would persist for centuries.",
+      "key_figures": [
+        "Muhammad of Ghor (deceased 1206, but legacy dissolution 1221)",
+        "Qutb ud-Din Aibak (founder of Delhi Sultanate)",
+        "Iltutmish (Aibak's successor, r. 1211\u20131236)"
+      ],
+      "sources": [
+        {
+          "name": "Taj ul-Maasir by Hasan Nizami",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Tabaqat-i Nasiri by Minhaj-i Siraj",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation of Delhi Sultanate authority was gradual; 1221 marks the approximate completion of the transition, though exact dating of intermediate steps is uncertain.",
+      "cross_references": [
+        "1206-XXX (Muhammad of Ghor's death)",
+        "1236-XXX (Iltutmish's reign consolidation)"
+      ]
+    },
+    {
+      "id": "1221-002",
+      "title": "Genghis Khan's Campaign Against the Khwarazmian Empire",
+      "region": "Central Asia (Khwarazmia, modern Uzbekistan/Turkmenistan)",
+      "coordinates_approx": "42.0, 59.0",
+      "category": "military",
+      "description": "Tem\u00fcjin (Genghis Khan), having unified the Mongol tribes by 1206, launched a devastating military campaign against the Khwarazmian Shah Muhammad II in 1219\u20131221. The campaign resulted in the destruction of major cities including Samarkand, Bukhara, and Urgench, and the effective collapse of the Khwarazmian Empire. This conquest opened Central Asia to Mongol domination and marked the beginning of the Mongol expansion that would reshape Eurasian geopolitics for two centuries. The campaign demonstrated the military superiority of Mongol cavalry tactics and logistics over settled empires.",
+      "key_figures": [
+        "Genghis Khan (Tem\u00fcjin)",
+        "Muhammad II (Khwarazmian Shah)",
+        "Jochi (Genghis Khan's eldest son)",
+        "Chagatai (Genghis Khan's second son)"
+      ],
+      "sources": [
+        {
+          "name": "Secret History of the Mongols",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Jami' al-tawarikh (Compendium of Chronicles) by Rashid al-Din",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from destroyed cities (Samarkand, Bukhara)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The campaign dates and major events are well-attested in multiple sources, though specific details of individual battles vary between accounts.",
+      "cross_references": [
+        "1206-XXX (Genghis Khan's unification of Mongol tribes)",
+        "1227-XXX (Genghis Khan's death)"
+      ]
+    },
+    {
+      "id": "1221-003",
+      "title": "Al-Malik al-Kamil's Consolidation of Ayyubid Power in Egypt",
+      "region": "Egypt and the Levant",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Al-Malik al-Kamil (r. 1218\u20131238), nephew of Saladin, solidified his control over Egypt and the Levantine territories of the Ayyubid Sultanate by 1221, having defeated rival Ayyubid factions and secured his position as the dominant Islamic power in the eastern Mediterranean. His reign saw the construction of major fortifications, the reorganisation of the military administration, and the negotiation of treaties with the Crusader states. Al-Kamil's consolidation represented the peak of Ayyubid power before the dynasty's gradual decline in the later 13th century.",
+      "key_figures": [
+        "Al-Malik al-Kamil (Ayyubid Sultan)",
+        "Al-Malik al-Mu'azzam Isa (rival Ayyubid prince, defeated)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Al-Maqrizi, History of Egypt",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation process was gradual; 1221 marks the approximate completion of al-Kamil's internal victories, though exact dating of intermediate conflicts varies.",
+      "cross_references": [
+        "1218-XXX (Al-Kamil's accession)",
+        "1238-XXX (Al-Kamil's death)"
+      ]
+    },
+    {
+      "id": "1221-004",
+      "title": "Construction of Reims Cathedral Continues; Gothic Architecture Flourishes",
+      "region": "Reims, Champagne, France",
+      "coordinates_approx": "49.25, 4.03",
+      "category": "cultural",
+      "description": "The construction of Reims Cathedral, begun in 1211, continued through 1221 as one of the major expressions of the High Gothic architectural style. The cathedral's construction represented the technological and artistic ambitions of the French monarchy and the Church, employing innovations in ribbed vaulting, flying buttresses, and sculptural programmes. By 1221, the cathedral's basic structure was advancing, though construction would continue for decades. This period marked the height of the Gothic architectural revolution that transformed European ecclesiastical and civic spaces.",
+      "key_figures": [
+        "Archbishop Aubry de Humbert (patron)",
+        "Master masons (names largely unrecorded)"
+      ],
+      "sources": [
+        {
+          "name": "Cathedral archives and construction records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological and architectural analysis",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The construction timeline is well-documented through cathedral records and architectural analysis.",
+      "cross_references": [
+        "1211-XXX (Reims Cathedral construction begins)",
+        "1299-XXX (Reims Cathedral largely completed)"
+      ]
+    },
+    {
+      "id": "1221-005",
+      "title": "Angkor Wat Complex at Peak of Khmer Architectural Achievement",
+      "region": "Angkor, Cambodia",
+      "coordinates_approx": "13.36, 103.85",
+      "category": "cultural",
+      "description": "The Angkorian period under the Khmer Empire reached its architectural and administrative zenith in the early 13th century. Angkor Wat, the massive temple complex built in the 12th century, was fully integrated into the religious and administrative landscape of the Khmer state. By 1221, the Khmer Empire under King Jayavarman VII's successors maintained control over a vast territory in Southeast Asia, with Angkor serving as the ceremonial and administrative centre. The period represents the peak of Khmer civilisation before the gradual decline that would follow in subsequent centuries.",
+      "key_figures": [
+        "Jayavarman VII (r. 1181\u20131218, deceased by 1221)",
+        "Indravarman II (r. 1218\u20131243, likely ruling in 1221)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Angkor complex",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Inscriptions on temple walls and stelae",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese diplomatic records (Zhou Daguan's later account, 13th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Archaeological and epigraphic evidence confirms the flourishing state of Angkor in this period, though specific events of 1221 are not individually documented.",
+      "cross_references": [
+        "1181-XXX (Jayavarman VII's reign begins)",
+        "1431-XXX (Angkor's decline and abandonment)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of the Khwarazmian campaign's completion to 1221 is approximate; some sources place the final destruction of Urgench in 1220, while others extend the campaign into 1222. The exact chronology of Genghis Khan's movements during this period is debated among scholars. Additionally, the significance of al-Kamil's consolidation in 1221 specifically is somewhat arbitrary; the process of internal Ayyubid conflicts was ongoing and gradual, with no single decisive moment. The claim that Angkor was at its 'peak' in 1221 is historiographic interpretation; the Khmer Empire was stable but already showing signs of administrative strain that would accelerate in the 14th century.",
+  "historiographic_note": "The historical record for 1221 is dominated by sources from the Islamic world and East Asia, reflecting the geographic distribution of literate, record-keeping societies. European sources are primarily ecclesiastical and focus on religious and architectural matters. Sub-Saharan Africa, the Americas, and Oceania are largely absent from contemporary documentation. The Mongol sources are primarily later compilations (13th\u201314th centuries), introducing potential anachronisms and narrative bias. Islamic sources on the Khwarazmian campaign are often written by survivors or later historians with political agendas. The Khmer sources are epigraphic and archaeological, lacking narrative detail. This creates a significant bias toward military and political events in the Islamic world and East Asia, while cultural and economic developments in other regions remain largely invisible.",
+  "graph_edges": [
+    {
+      "from": "1221-001",
+      "to": "1236-XXX",
+      "relation": "led_to",
+      "note": "Iltutmish's consolidation of Delhi Sultanate authority followed the completion of the Ghurid succession crisis"
+    },
+    {
+      "from": "1221-002",
+      "to": "1227-XXX",
+      "relation": "part_of",
+      "note": "The Khwarazmian campaign was part of Genghis Khan's broader expansion that continued until his death"
+    },
+    {
+      "from": "1221-002",
+      "to": "1221-003",
+      "relation": "contemporary_with",
+      "note": "The Mongol campaign against Khwarazmia and al-Kamil's consolidation of Ayyubid power occurred simultaneously, reshaping Central Asian and Middle Eastern geopolitics"
+    },
+    {
+      "from": "1221-004",
+      "to": "1211-XXX",
+      "relation": "part_of",
+      "note": "Reims Cathedral construction was part of the broader Gothic architectural movement that began in the 12th century"
+    },
+    {
+      "from": "1221-005",
+      "to": "1181-XXX",
+      "relation": "part_of",
+      "note": "The Angkorian peak was the culmination of developments under Jayavarman VII's reign"
+    }
+  ]
+}

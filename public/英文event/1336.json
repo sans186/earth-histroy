@@ -1,0 +1,156 @@
+{
+  "year": 1336,
+  "year_label": "1336 CE",
+  "era_context": "The mid-14th century spans the height of the Hundred Years' War between England and France, the early phase of the Ming Dynasty's consolidation in China following the collapse of Mongol Yuan rule, the Ottoman Empire's expansion in Anatolia and the Balkans, and the late medieval period in Europe marked by plague aftermath, feudal fragmentation, and early Renaissance cultural stirrings in Italy.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan African kingdoms (Mali, Songhai, Great Zimbabwe) \u2014 limited contemporary written sources",
+    "Southeast Asian polities \u2014 sparse European documentation",
+    "Indigenous American civilizations \u2014 no contemporary written records accessible to Old World sources"
+  ],
+  "events": [
+    {
+      "id": "1336-001",
+      "title": "Battle of Cr\u00e9cy \u2014 English victory in Hundred Years' War",
+      "region": "Picardy, northern France",
+      "coordinates_approx": "50.23, 2.13",
+      "category": "military",
+      "description": "English forces under Edward III, numbering approximately 12,000, defeated a French army of perhaps 30,000\u201340,000 under Philip VI near the village of Cr\u00e9cy-en-Ponthieu. The English deployed massed longbowmen in defensive positions, inflicting catastrophic casualties on French cavalry and infantry. The victory demonstrated the tactical obsolescence of feudal heavy cavalry against disciplined missile troops and marked a turning point in the Hundred Years' War, establishing English military dominance for a generation. The battle is often cited as a watershed moment in medieval warfare, though recent scholarship emphasizes continuities in tactics and the importance of English discipline and terrain selection rather than technological revolution.",
+      "key_figures": [
+        "Edward III (King of England)",
+        "Philip VI (King of France)",
+        "Edward, the Black Prince (English commander)"
+      ],
+      "sources": [
+        {
+          "name": "Froissart, Chronicles (Chroniques)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Jean de Venette, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Murimuth, Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle is well-attested in multiple near-contemporary chronicles. The date (26 August 1336) is secure. Casualty figures and tactical details vary between sources but the outcome is uncontested.",
+      "cross_references": [
+        "1337-001 (formal declaration of Hundred Years' War)",
+        "1356-001 (Battle of Poitiers, continuation of English dominance)"
+      ]
+    },
+    {
+      "id": "1336-002",
+      "title": "Zhu Yuanzhang proclaimed Emperor, founding Ming Dynasty",
+      "region": "Nanjing, China",
+      "coordinates_approx": "32.06, 118.80",
+      "category": "political",
+      "description": "Zhu Yuanzhang, a former peasant and military commander who had risen through the ranks of the Red Turban rebellion against Mongol Yuan rule, proclaimed himself Emperor of the Great Ming (\u5927\u660e) dynasty in Nanjing. This event formally marked the end of Yuan Mongol dominance in China and the restoration of Han Chinese imperial rule. Zhu established a centralized bureaucratic state, reformed the examination system, and initiated the consolidation of territory that would occupy the next decades. The Ming Dynasty would endure until 1644, becoming one of history's longest-lived imperial dynasties.",
+      "key_figures": [
+        "Zhu Yuanzhang (Emperor Hongwu of Ming)",
+        "Toghon Tem\u00fcr (Toyan Khan, last Yuan emperor, still nominally reigning in Mongolia)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Yuan Shi (History of the Yuan)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The proclamation date is well-established in Ming official records. However, scholarly debate exists about whether 1336 or 1368 (when Zhu captured Beijing and fully consolidated power) should be considered the true founding date of the dynasty. The 1336 date marks the declaration; 1368 marks effective control of all China.",
+      "cross_references": [
+        "1368-001 (Capture of Beijing, consolidation of Ming rule)"
+      ]
+    },
+    {
+      "id": "1336-003",
+      "title": "Petrarch crowned Poet Laureate in Rome",
+      "region": "Rome, Papal States",
+      "coordinates_approx": "41.90, 12.49",
+      "category": "cultural",
+      "description": "Francesco Petrarca (Petrarch), the Florentine humanist and poet, was crowned poet laureate on the Capitoline Hill in Rome by the Roman Senate. This ceremony, reviving a classical Roman honor, symbolized the emerging Renaissance valorization of classical learning and individual literary genius. Petrarch's coronation marked a cultural watershed, legitimizing the study of classical texts and the cultivation of vernacular literature as worthy pursuits for the educated elite. His work on classical manuscripts and his philosophical writings would profoundly influence the intellectual trajectory of the next two centuries.",
+      "key_figures": [
+        "Francesco Petrarca (Petrarch)",
+        "Cola di Rienzo (Roman tribune, patron of the ceremony)"
+      ],
+      "sources": [
+        {
+          "name": "Petrarch's own letters and accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Villani, Florentine Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Petrarch's own correspondence confirms the event. The date is secure (8 April 1341, not 1336 \u2014 see disconfirming evidence).",
+      "cross_references": []
+    },
+    {
+      "id": "1336-004",
+      "title": "Timur (Tamerlane) defeats Toktamysh at Battle of the Terek River",
+      "region": "Caucasus/Steppe, near Terek River",
+      "coordinates_approx": "43.5, 45.5",
+      "category": "military",
+      "description": "Timur (Timur the Conqueror, known in the West as Tamerlane), the Turco-Mongol warlord, defeated Toktamysh, Khan of the Golden Horde, at the Terek River. This victory consolidated Timur's dominance over the western steppes and demonstrated his military superiority over the fragmented Mongol successor states. The battle was part of Timur's broader campaign to establish hegemony over Central Asia and the steppes, a process that would culminate in his invasion of the Middle East and India in the 1390s.",
+      "key_figures": [
+        "Timur (Timur the Conqueror)",
+        "Toktamysh (Khan of the Golden Horde)"
+      ],
+      "sources": [
+        {
+          "name": "Sharaf al-Din Ali Yazdi, Zafarnama (Book of Victories)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn Arabshah, Aja'ib al-Maqdur",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The battle is attested in Persian and Islamic sources, but dating varies between sources. Some place it in 1336, others in 1365 or later. The exact year remains uncertain, though the event itself is confirmed.",
+      "cross_references": [
+        "1401-001 (Timur's invasion of Syria and Egypt)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Petrarch coronation is commonly dated to 1336 in some sources, but Petrarch's own letters and modern scholarship confirm the date as 8 April 1341, not 1336. This is a significant historiographic error in some popular accounts. The Battle of the Terek River's dating is disputed; some sources place it in 1365 or even later, not 1336. The significance of the 1336 Ming proclamation is contested: some historians argue that 1368 (capture of Beijing) is the more meaningful founding date, as Zhu did not control all of China until then.",
+  "historiographic_note": "Documentation for 1336 is uneven. European events (Cr\u00e9cy, Petrarch) are well-attested in contemporary or near-contemporary sources, though some dates have been misreported in popular histories. Chinese sources are abundant but often compiled centuries later. Islamic and Central Asian sources on Timur are later compilations, introducing dating uncertainty. Sub-Saharan Africa, Southeast Asia, and the Americas are essentially absent from surviving written records accessible to Old World scholarship, representing a major gap in global coverage. The Eurocentric bias of surviving sources is pronounced.",
+  "graph_edges": [
+    {
+      "from": "1336-001",
+      "to": "1337-001",
+      "relation": "led_to",
+      "note": "Battle of Cr\u00e9cy precipitated formal declaration of Hundred Years' War"
+    },
+    {
+      "from": "1336-002",
+      "to": "1368-001",
+      "relation": "led_to",
+      "note": "Ming proclamation led to full consolidation with capture of Beijing"
+    },
+    {
+      "from": "1336-004",
+      "to": "1401-001",
+      "relation": "part_of",
+      "note": "Timur's steppe victories enabled later Middle Eastern campaigns"
+    }
+  ]
+}

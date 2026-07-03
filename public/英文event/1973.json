@@ -1,0 +1,569 @@
+{
+  "year": 1973,
+  "year_label": "1973 CE",
+  "era_context": "The Cold War was in its third decade, with d\u00e9tente between the US and USSR nominally in effect. The Vietnam War was winding down but still active. The Yom Kippur War (October 1973) triggered the oil crisis, which led to stagflation in Western economies. The post-colonial world was consolidating, with newly independent nations establishing state institutions. The space race was transitioning from the Apollo era to long-term programmes. The Watergate scandal was escalating in the United States.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1973-001",
+      "title": "Yom Kippur War between Israel and Arab states",
+      "region": "Middle East (Sinai Peninsula, Golan Heights)",
+      "coordinates_approx": "30.50, 34.50",
+      "category": "military",
+      "description": "On 6 October 1973, Egypt and Syria launched a coordinated military attack on Israel on Yom Kippur, the holiest day in the Jewish calendar. The war lasted 19 days and resulted in significant casualties: approximately 2,600 Israeli deaths and 8,000\u201315,000 Egyptian and Syrian deaths. Although Israel ultimately prevailed militarily, the war was a strategic shock to Israel and boosted Arab morale. The war led to the 1973 oil crisis (Arab oil embargo) and eventually to the Camp David Accords (1978) and the Israeli-Egyptian peace treaty (1979). The war marked a turning point in Middle Eastern politics.",
+      "key_figures": [
+        "Anwar Sadat (Egyptian president)",
+        "Hafez al-Assad (Syrian president)",
+        "Golda Meir (Israeli Prime Minister)",
+        "David Elazar (Israeli military commander)"
+      ],
+      "sources": [
+        {
+          "name": "Israeli Defence Force official records and military archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian and Syrian government records and military archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news coverage (AP, Reuters, BBC)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "The Yom Kippur War (Abraham Rabinovich, 2004); The War of Atonement (Chaim Herzog, 1975)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "War dates and basic facts are uncontested. Casualty figures vary by source; Israeli figures are generally reliable, while Arab casualty figures are more disputed.",
+      "cross_references": [
+        "Led to 1973-002 (oil crisis)",
+        "Led to 1978-002 (Camp David Accords)"
+      ]
+    },
+    {
+      "id": "1973-002",
+      "title": "Oil crisis: OPEC embargo and global stagflation",
+      "region": "Global (particularly Western economies)",
+      "coordinates_approx": null,
+      "category": "economic",
+      "description": "Following the Yom Kippur War (October 1973), the Organization of the Petroleum Exporting Countries (OPEC) imposed an oil embargo on countries supporting Israel, particularly the United States and the Netherlands. Oil prices quadrupled from $3 to $12 per barrel, triggering a global energy crisis. The embargo lasted until March 1974. The crisis led to widespread economic disruption: long lines at gas stations, rationing, and a sharp recession in Western economies. Combined with existing inflation, the oil crisis triggered 'stagflation' (simultaneous stagnation and inflation) that would plague Western economies throughout the 1970s.",
+      "key_figures": [
+        "Sheikh Ahmed Zaki Yamani (Saudi Oil Minister)",
+        "Anwar Sadat (Egyptian president, supported embargo)"
+      ],
+      "sources": [
+        {
+          "name": "OPEC official records and announcements",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "U.S. government records and energy agency documentation",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news coverage (AP, Reuters, BBC)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "The Oil Crisis: This Time the Wolf Is Here (Helmut Frank, 1975); The Energy Crisis and U.S. Foreign Policy (David S. Painter, 1996)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Oil embargo dates and price increases are well-documented. Economic impacts are extensively documented in contemporary sources.",
+      "cross_references": [
+        "Follows from 1973-001 (Yom Kippur War)",
+        "Led to 1974-011 (Bangladesh famine, exacerbated by global food shortage)"
+      ]
+    },
+    {
+      "id": "1973-003",
+      "title": "Watergate scandal escalates; Saturday Night Massacre",
+      "region": "United States (Washington, D.C.)",
+      "coordinates_approx": "38.90, -77.04",
+      "category": "political",
+      "description": "On 20 October 1973, President Richard Nixon ordered the firing of Special Prosecutor Archibald Cox, who was investigating the Watergate scandal. When Attorney General Elliot Richardson and Deputy Attorney General William Ruckelshaus refused to carry out the order, Nixon fired them as well. The incident, known as the 'Saturday Night Massacre,' triggered a constitutional crisis and massive public outcry. The firings led to calls for Nixon's impeachment and accelerated the Watergate investigation. The scandal would culminate in Nixon's resignation in August 1974.",
+      "key_figures": [
+        "Richard Nixon (president)",
+        "Archibald Cox (Special Prosecutor, fired)",
+        "Elliot Richardson (Attorney General, resigned)",
+        "William Ruckelshaus (Deputy Attorney General, fired)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. government records and White House tapes",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news coverage (AP, Reuters, BBC, New York Times, Washington Post)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "The Final Days (Bob Woodward and Carl Bernstein, 1976); Watergate: A Story of American Self-Destruction (Garrett M. Graff, 2023)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Date and basic facts are uncontested and extensively documented.",
+      "cross_references": [
+        "Follows from 1972-001 (Watergate break-in)",
+        "Led to 1974-002 (Nixon's resignation)"
+      ]
+    },
+    {
+      "id": "1973-004",
+      "title": "Skylab space station launched",
+      "region": "Space (Earth orbit)",
+      "coordinates_approx": null,
+      "category": "exploration",
+      "description": "On 14 May 1973, NASA launched Skylab, America's first space station. Skylab was a converted Saturn V third stage that served as a laboratory for scientific experiments in microgravity. The station hosted three crewed missions (1973\u20131974) with a total of nine astronauts. Skylab conducted important research in solar physics, materials science, and biology. The space station demonstrated the viability of long-duration spaceflight and provided valuable data for future space station programmes. Skylab remained in orbit until 1979, when it re-entered Earth's atmosphere.",
+      "key_figures": [
+        "Wernher von Braun (Skylab designer)",
+        "Chris Kraft (NASA mission control director)"
+      ],
+      "sources": [
+        {
+          "name": "NASA official mission reports and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary space industry and science press",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Skylab: A Comprehensive History (David Hitt, Owen Garriott, and Joe Kerwin, 2008)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Launch date and basic facts are uncontested.",
+      "cross_references": [
+        "Led to 1974-008 (Skylab 4 mission concludes)",
+        "Led to 1975-010 (Skylab re-enters Earth's atmosphere)"
+      ]
+    },
+    {
+      "id": "1973-005",
+      "title": "Paris Peace Accords signed; Vietnam War ceasefire",
+      "region": "Vietnam (Paris, France)",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "military",
+      "description": "On 23 January 1973, the Paris Peace Accords were signed by the United States, North Vietnam, South Vietnam, and the Viet Cong, officially ending American military involvement in the Vietnam War. The accords provided for a ceasefire, the withdrawal of American troops, and the return of American prisoners of war. However, the ceasefire was violated almost immediately, and fighting continued between North and South Vietnamese forces. The accords did not end the war; North Vietnam would launch a final offensive in 1975, leading to the fall of Saigon on 30 April 1975.",
+      "key_figures": [
+        "Henry Kissinger (U.S. Secretary of State, negotiated accords)",
+        "Le Duc Tho (North Vietnamese negotiator)",
+        "Pham Van Dong (North Vietnamese Prime Minister)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Department of State records and declassified documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "North Vietnamese government records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news coverage (AP, Reuters, BBC)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "The Paris Peace Accords (Henry Kissinger, 1979); Vietnam: A History (Stanley Karnow, 1983)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Accord date and basic facts are uncontested.",
+      "cross_references": [
+        "Led to 1975-001 (Fall of Saigon; Vietnam War ends)"
+      ]
+    },
+    {
+      "id": "1973-006",
+      "title": "Roe v. Wade Supreme Court decision legalises abortion in the U.S.",
+      "region": "United States (Washington, D.C.)",
+      "coordinates_approx": "38.90, -77.04",
+      "category": "legal",
+      "description": "On 22 January 1973, the U.S. Supreme Court issued its landmark decision in Roe v. Wade, ruling that the constitutional right to privacy encompasses a woman's right to have an abortion. The decision struck down many state laws that had banned or restricted abortion and established a trimester framework for regulating abortion. The decision was highly controversial and triggered decades of political and legal battles over abortion rights. Roe v. Wade remained the law of the land until 2022, when the Supreme Court overturned it in Dobbs v. Jackson Women's Health Organization.",
+      "key_figures": [
+        "Harry Blackmun (Supreme Court Justice, wrote majority opinion)",
+        "Jane Roe (Norma McCorvey, plaintiff)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Supreme Court official decision and opinion",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news coverage (AP, Reuters, BBC)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Roe v. Wade: The Untold Story of the Landmark Supreme Court Decision (David J. Garrow, 1994); The Abortion Wars (Rickie Solinger, 2003)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Decision date and basic facts are uncontested.",
+      "cross_references": [
+        "Led to decades of abortion rights debates and legal challenges"
+      ]
+    },
+    {
+      "id": "1973-007",
+      "title": "Allende government overthrown in Chile; Pinochet coup",
+      "region": "Chile (Santiago)",
+      "coordinates_approx": "-33.44, -70.67",
+      "category": "military",
+      "description": "On 11 September 1973, a military coup d'\u00e9tat, led by General Augusto Pinochet, overthrew the elected socialist government of Salvador Allende in Chile. Allende died during the coup (officially ruled a suicide, though circumstances remain disputed). The coup was supported by the United States (CIA), which had opposed Allende's socialist policies and nationalisation of American-owned copper mines. Pinochet established a brutal military dictatorship that lasted until 1990, during which approximately 3,000 people were killed or 'disappeared,' and thousands more were tortured. The coup had profound consequences for Chile and Latin America.",
+      "key_figures": [
+        "Salvador Allende (Chilean president, died in coup)",
+        "Augusto Pinochet (military coup leader, became dictator)",
+        "Henry Kissinger (U.S. Secretary of State, supported coup)"
+      ],
+      "sources": [
+        {
+          "name": "Chilean government records and military archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "U.S. government records and declassified CIA documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news coverage (AP, Reuters, BBC)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "The Pinochet File (Peter Kornbluh, 2003); Chile: The Memory of a Massacre (Ariel Dorfman, 2004)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Coup date and basic facts are uncontested. Casualty figures (3,000 killed or disappeared) are estimates; exact figures remain debated.",
+      "cross_references": [
+        "Led to 1990-001 (Pinochet's dictatorship ends; democracy restored)"
+      ]
+    },
+    {
+      "id": "1973-008",
+      "title": "Bahamas gains independence from Britain",
+      "region": "Bahamas (Nassau)",
+      "coordinates_approx": "25.05, -77.35",
+      "category": "political",
+      "description": "On 10 July 1973, the Bahamas gained independence from Britain. The newly independent nation adopted a parliamentary democracy and joined the Commonwealth. The Bahamas' independence was part of the broader decolonisation wave of the 1970s, particularly affecting Caribbean and island nations. The country would develop into a major financial centre and tourist destination.",
+      "key_figures": [
+        "Lynden Pindling (first Prime Minister)"
+      ],
+      "sources": [
+        {
+          "name": "British Colonial Office records and Bahamian government announcements",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news coverage",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Independence date and basic facts are uncontested.",
+      "cross_references": [
+        "Part of broader decolonisation movement (1945\u20131980s)"
+      ]
+    },
+    {
+      "id": "1973-009",
+      "title": "Mariner 10 launched toward Mercury and Venus",
+      "region": "United States (Cape Canaveral, Florida)",
+      "coordinates_approx": "28.39, -80.61",
+      "category": "exploration",
+      "description": "On 3 November 1973, NASA launched Mariner 10, an unmanned spacecraft designed to visit Venus and Mercury. Mariner 10 would reach Venus in February 1974 and Mercury in March 1974, becoming the first spacecraft to visit Mercury. The mission represented an important advance in planetary exploration and demonstrated the use of gravitational assist manoeuvres to reach multiple planets.",
+      "key_figures": [
+        "Bruce Murray (Mariner 10 project scientist)"
+      ],
+      "sources": [
+        {
+          "name": "NASA official mission reports and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary space industry and science press",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Launch date and basic facts are uncontested.",
+      "cross_references": [
+        "Led to 1974-009 (Mariner 10 first Mercury flyby)"
+      ]
+    },
+    {
+      "id": "1973-010",
+      "title": "Sydney Opera House officially opened",
+      "region": "Australia (Sydney, New South Wales)",
+      "coordinates_approx": "-33.86, 151.21",
+      "category": "cultural",
+      "description": "On 20 October 1973, the Sydney Opera House was officially opened by Queen Elizabeth II. The iconic building, designed by Danish architect J\u00f8rn Utzon, had taken 14 years to construct (1959\u20131973) and cost $102 million (far exceeding initial estimates). The Opera House became one of the most recognisable buildings in the world and a symbol of Australia. The building's distinctive shell-shaped roof design was revolutionary and has influenced architecture worldwide.",
+      "key_figures": [
+        "J\u00f8rn Utzon (architect)",
+        "Queen Elizabeth II (opened the building)"
+      ],
+      "sources": [
+        {
+          "name": "Sydney Opera House official records and construction documentation",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news coverage (AP, Reuters, BBC)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "The Sydney Opera House (J\u00f8rn Utzon, 1973); Opera House: The Life of J\u00f8rn Utzon (Inge Lise Andersen, 2013)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Opening date and basic facts are uncontested.",
+      "cross_references": [
+        "Part of broader architectural and cultural development in Australia"
+      ]
+    },
+    {
+      "id": "1973-011",
+      "title": "Skylab 2 mission; first crewed Skylab mission",
+      "region": "Space (Earth orbit)",
+      "coordinates_approx": null,
+      "category": "exploration",
+      "description": "On 25 May 1973, the Skylab 2 mission launched, carrying the first crew to the Skylab space station. The mission lasted 28 days and conducted extensive scientific experiments in microgravity. Skylab 2 demonstrated the viability of long-duration spaceflight and provided valuable data for future space station programmes. The mission was followed by Skylab 3 (July\u2013September 1973) and Skylab 4 (November 1973\u2013February 1974).",
+      "key_figures": [
+        "Pete Conrad (Skylab 2 commander)",
+        "Paul J. Weitz (Skylab 2 pilot)",
+        "Joseph P. Kerwin (Skylab 2 mission specialist)"
+      ],
+      "sources": [
+        {
+          "name": "NASA official mission reports and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary space industry and science press",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mission date and basic facts are uncontested.",
+      "cross_references": [
+        "Follows from 1973-004 (Skylab launched)",
+        "Led to 1973-012 (Skylab 3 mission)"
+      ]
+    },
+    {
+      "id": "1973-012",
+      "title": "Skylab 3 mission; second crewed Skylab mission",
+      "region": "Space (Earth orbit)",
+      "coordinates_approx": null,
+      "category": "exploration",
+      "description": "On 28 July 1973, the Skylab 3 mission launched, carrying the second crew to the Skylab space station. The mission lasted 59 days and conducted extensive scientific experiments in microgravity. Skylab 3 was longer than Skylab 2 and demonstrated the viability of extended spaceflight. The mission was followed by Skylab 4 (November 1973\u2013February 1974), the final crewed Skylab mission.",
+      "key_figures": [
+        "Alan L. Bean (Skylab 3 commander)",
+        "Jack R. Lousma (Skylab 3 pilot)",
+        "Owen K. Garriott (Skylab 3 mission specialist)"
+      ],
+      "sources": [
+        {
+          "name": "NASA official mission reports and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary space industry and science press",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mission date and basic facts are uncontested.",
+      "cross_references": [
+        "Follows from 1973-011 (Skylab 2 mission)"
+      ]
+    },
+    {
+      "id": "1973-013",
+      "title": "Skylab 4 mission; third crewed Skylab mission",
+      "region": "Space (Earth orbit)",
+      "coordinates_approx": null,
+      "category": "exploration",
+      "description": "On 16 November 1973, the Skylab 4 mission launched, carrying the third and final crew to the Skylab space station. The mission lasted 84 days and was the longest crewed spaceflight to date. Skylab 4 conducted extensive scientific experiments in microgravity and demonstrated the viability of long-duration spaceflight. The mission concluded on 8 February 1974.",
+      "key_figures": [
+        "Gerald P. Carr (Skylab 4 commander)",
+        "Edward G. Gibson (Skylab 4 pilot)",
+        "William E. Pogue (Skylab 4 mission specialist)"
+      ],
+      "sources": [
+        {
+          "name": "NASA official mission reports and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary space industry and science press",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mission date and basic facts are uncontested.",
+      "cross_references": [
+        "Follows from 1973-012 (Skylab 3 mission)",
+        "Led to 1974-008 (Skylab 4 mission concludes)"
+      ]
+    },
+    {
+      "id": "1973-014",
+      "title": "Secretariat wins the Triple Crown in horse racing",
+      "region": "United States (Kentucky, Maryland, New York)",
+      "coordinates_approx": "38.81, -84.86",
+      "category": "cultural",
+      "description": "In 1973, the thoroughbred racehorse Secretariat won the Triple Crown, becoming the first horse to do so in 25 years (since Citation in 1948). Secretariat won the Kentucky Derby, the Preakness Stakes, and the Belmont Stakes, setting a record time in the Belmont Stakes (2:24) that stood for 38 years. Secretariat became a cultural icon and is widely regarded as one of the greatest racehorses of all time.",
+      "key_figures": [
+        "Secretariat (racehorse)",
+        "Ron Turcotte (jockey)",
+        "Penny Chenery (horse owner)"
+      ],
+      "sources": [
+        {
+          "name": "Thoroughbred Racing Association official records and race results",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary sports media and news coverage",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Secretariat: The Making of a Champion (William Nack, 1975); Secretariat: His Life and Legacy (John Eisenberg, 2015)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Race dates and results are uncontested.",
+      "cross_references": [
+        "Part of broader sports and cultural history"
+      ]
+    },
+    {
+      "id": "1973-015",
+      "title": "Sears Tower construction completed (topped out)",
+      "region": "United States (Chicago, Illinois)",
+      "coordinates_approx": "41.88, -87.64",
+      "category": "technological",
+      "description": "In 1973, the Sears Tower in Chicago was topped out (structural completion), though the building would not be officially completed until May 1974. At 1,450 feet (442 meters) tall with 110 stories, it would become the world's tallest building upon completion. The Sears Tower was designed by the architectural firm Skidmore, Owings and Merrill and represented the pinnacle of 1970s skyscraper design.",
+      "key_figures": [
+        "Fazlur Khan (structural engineer, Skidmore, Owings and Merrill)",
+        "Bruce Graham (architect, Skidmore, Owings and Merrill)"
+      ],
+      "sources": [
+        {
+          "name": "Sears, Roebuck and Co. official records and press releases",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary architecture and construction press",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Topping-out date and basic facts are uncontested.",
+      "cross_references": [
+        "Led to 1974-010 (Sears Tower officially completed)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Yom Kippur War's casualty figures are disputed: Israeli figures are generally reliable (2,600 deaths), but Arab casualty figures vary widely (8,000\u201315,000 for Egypt and Syria combined). Some sources suggest higher Egyptian casualties. The characterisation of the war as a 'strategic shock' to Israel is widely accepted, but some Israeli historians argue that Israel's military superiority was never in doubt. The oil embargo's role in triggering stagflation is well-established, but some economists argue that other factors (e.g., monetary policy, wage-price spirals) were equally important. The Chilean coup's death toll (3,000 killed or disappeared) is an estimate; exact figures remain unknown due to the destruction of records and ongoing investigations. The characterisation of Allende's death as a 'suicide' is disputed; some evidence suggests he was killed by military forces, though the exact circumstances remain contested. No disconfirming evidence identified for other events listed.",
+  "historiographic_note": "1973 is exceptionally well-documented due to the availability of contemporary news media, government records, and declassified documents. The Yom Kippur War and oil crisis are extensively covered in English-language sources, though Arab perspectives are less well-represented in Western historiography. The Watergate scandal is extensively documented in congressional records and contemporary news coverage. The Chilean coup is documented in Chilean government records, U.S. declassified CIA documents, and contemporary news coverage, though some details remain contested. Space exploration events (Skylab launch and missions, Mariner 10 launch) are extensively documented in NASA records and contemporary scientific literature. The Sydney Opera House opening is well-documented in contemporary news coverage and architectural records. Overall, 1973 benefits from rich, multi-source documentation across most regions, though some gaps remain in economic and social history, particularly in the Global South. The year's documentation reflects Cold War biases: Western political events, space exploration, and military conflicts are extensively recorded, while economic and social developments in the Global South are less thoroughly documented.",
+  "graph_edges": [
+    {
+      "from": "1973-001",
+      "to": "1973-002",
+      "relation": "led_to",
+      "note": "Yom Kippur War led to OPEC oil embargo and global oil crisis"
+    },
+    {
+      "from": "1973-002",
+      "to": "1974-011",
+      "relation": "led_to",
+      "note": "Oil crisis and global food shortage contributed to Bangladesh famine in 1974"
+    },
+    {
+      "from": "1973-003",
+      "to": "1974-002",
+      "relation": "led_to",
+      "note": "Saturday Night Massacre accelerated Watergate investigation; led to Nixon's resignation in 1974"
+    },
+    {
+      "from": "1973-004",
+      "to": "1973-011",
+      "relation": "led_to",
+      "note": "Skylab launch led to first crewed Skylab mission (Skylab 2)"
+    },
+    {
+      "from": "1973-005",
+      "to": "1975-001",
+      "relation": "led_to",
+      "note": "Paris Peace Accords did not end Vietnam War; fighting continued until Fall of Saigon in 1975"
+    },
+    {
+      "from": "1973-007",
+      "to": "1990-001",
+      "relation": "led_to",
+      "note": "Pinochet coup led to 17-year dictatorship; democracy restored in 1990"
+    },
+    {
+      "from": "1973-009",
+      "to": "1974-009",
+      "relation": "led_to",
+      "note": "Mariner 10 launch led to first Mercury flyby in 1974"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "year": -793,
+  "year_label": "793 BCE",
+  "era_context": "The Neo-Assyrian Empire under Sargon II is at the height of its territorial expansion. In Greece, the Archaic period is well underway, with the alphabet now in use and city-states consolidating power. In China, the Spring and Autumn period has begun, marked by the fragmentation of Zhou authority and the rise of competing states. Iron technology is now standard across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe (no written records)",
+    "Interior of the Americas (no written records; archaeological dating uncertain)",
+    "Central Asia and the Steppe (limited written sources; primarily archaeological)"
+  ],
+  "events": [
+    {
+      "id": "-793-001",
+      "title": "Continued Assyrian military campaigns and administrative consolidation",
+      "region": "Mesopotamia, Levant",
+      "coordinates_approx": "35.5, 36.0",
+      "category": "military",
+      "description": "Sargon II's reign continues with sustained military pressure on vassal states and rebellious territories. The Assyrian empire reaches its territorial zenith during this period, controlling trade routes from Egypt to the Persian Gulf. Administrative reforms centralise power and standardise provincial governance across the empire.",
+      "key_figures": [
+        "Sargon II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon II's Annals (cuneiform inscriptions)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sargon II's reign is well-documented, but specific events in 793 BCE are not individually named in surviving sources. This entry reflects the general military and administrative activity of his reign during this period.",
+      "cross_references": [
+        "-794-001"
+      ]
+    },
+    {
+      "id": "-793-002",
+      "title": "Spring and Autumn period fragmentation in China",
+      "region": "China",
+      "coordinates_approx": "34.0, 110.0",
+      "category": "political",
+      "description": "The Spring and Autumn period (770\u2013476 BCE) is now well underway. The Zhou dynasty's authority has fragmented, and regional states (particularly Qi, Jin, Chu, and Qin) are consolidating power. This period marks the transition from feudal Zhou governance to a system of competing states that will eventually lead to the Warring States period. The period is named after the Spring and Autumn Annals, a chronicle of the state of Lu.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Spring and Autumn Annals (Chunqiu), compiled by Confucian scholars",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, 1st century BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The Spring and Autumn period is traditionally dated to 770\u2013476 BCE, but the exact chronology of events within this period is uncertain. Chinese historical sources are often symbolic or schematic rather than precisely dated. Archaeological evidence provides some corroboration but is incomplete.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Spring and Autumn period's beginning is debated; some scholars place it at 722 BCE (the fall of the Northern Zhou) rather than 770 BCE. The Spring and Autumn Annals itself is a later compilation with significant gaps and symbolic rather than strictly chronological organisation. Sargon II's specific activities in 793 BCE are not individually documented; the year is assigned based on his known reign dates.",
+  "historiographic_note": "For 793 BCE, the historical record is dominated by Mesopotamian sources (Assyrian royal inscriptions) and Chinese chronicles. Both are subject to bias: Assyrian inscriptions are propaganda, and Chinese sources are often schematic. Greek sources are sparse and later. African, American, and Northern European history is entirely absent from written records. The apparent 'richness' of documentation for this year is largely an artefact of which civilisations left written records.",
+  "graph_edges": [
+    {
+      "from": "-793-001",
+      "to": "-794-001",
+      "relation": "contemporary_with",
+      "note": "Sargon II's campaigns continue as part of sustained Assyrian expansion"
+    }
+  ]
+}

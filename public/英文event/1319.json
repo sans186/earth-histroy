@@ -1,0 +1,86 @@
+{
+  "year": 1319,
+  "year_label": "1319 CE",
+  "era_context": "The early 14th century saw regional consolidation across Eurasia and Africa following the fragmentation of the Mongol Empire. In Europe, feudal structures were being tested by economic and dynastic pressures. The Mali Empire dominated West African trade; the Delhi Sultanate was consolidating power in South Asia; the Yuan Dynasty in China faced increasing instability.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Pre-Columbian Americas",
+    "Northern and Eastern Europe",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "1319-001",
+      "title": "Battle of M\u00fchldorf and Bavarian succession dispute",
+      "region": "Bavaria, Holy Roman Empire",
+      "coordinates_approx": "48.5\u00b0N, 12.5\u00b0E",
+      "category": "military",
+      "description": "In 1319, a succession dispute in Bavaria led to military conflict. The death of Duke Stephen III of Bavaria in 1310 had left the duchy contested between the Wittelsbach and Habsburg families. By 1319, tensions were high, and military skirmishes occurred. The conflict would culminate in the Battle of M\u00fchldorf in 1322, one of the largest medieval battles in the Holy Roman Empire. This dispute reflected broader tensions within the Empire over succession and territorial control.",
+      "key_figures": [
+        "Ludwig IV of Bavaria (Wittelsbach)",
+        "Frederick III of Austria (Habsburg)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary German chronicles and imperial records",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Bavarian succession disputes",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Bavarian succession dispute is well documented, but specific events in 1319 are not always precisely dated; the major battle occurred in 1322.",
+      "cross_references": [
+        "1322-001 (Battle of M\u00fchldorf)"
+      ]
+    },
+    {
+      "id": "1319-002",
+      "title": "Famine and plague in Northern Europe",
+      "region": "Northern Europe (England, Scandinavia, Low Countries)",
+      "coordinates_approx": "55.0\u00b0N, 5.0\u00b0E",
+      "category": "environmental",
+      "description": "Northern Europe experienced severe famine conditions in 1319\u20131320, following poor harvests and livestock disease. This famine, sometimes called the 'Great Famine,' affected England, Scandinavia, and the Low Countries. The famine caused significant mortality and social disruption, contributing to economic hardship and social tension. It is sometimes seen as a precursor to the Black Death (1347\u20131353), though the connection is debated.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "English chronicles (e.g., Knighton, Froissart)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on 14th-century famines",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Great Famine of 1319\u20131320 is well attested in chronicles, though precise dating and regional variation are not uniformly documented.",
+      "cross_references": [
+        "1347-001 (Black Death)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The connection between the Great Famine of 1319\u20131320 and the Black Death is sometimes overstated; modern scholarship suggests the famine weakened populations but was not a direct cause of plague transmission. The Bavarian succession dispute is sometimes portrayed as a straightforward conflict between two families, but it involved complex imperial politics and multiple claimants that are not fully resolved in surviving sources.",
+  "historiographic_note": "Documentation for 1319 is sparse. European sources (chronicles, imperial records) provide some information, but specific events in this year are often not precisely dated. Asian and African sources are largely absent from Western scholarship for this year. The year 1319 has no particular historiographic significance and is treated here as part of broader early 14th-century trends.",
+  "graph_edges": [
+    {
+      "from": "1319-002",
+      "to": "1347-001",
+      "relation": "part_of",
+      "note": "The Great Famine of 1319\u20131320 is sometimes seen as part of the broader context of 14th-century demographic crisis, though the connection to the Black Death is debated."
+    },
+    {
+      "from": "1319-001",
+      "to": "1322-001",
+      "relation": "led_to",
+      "note": "The Bavarian succession dispute of 1319 escalated to the Battle of M\u00fchldorf in 1322."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "year": -522,
+  "year_label": "522 BCE",
+  "era_context": "Darius I's reign continues; the Achaemenid Empire is at its height of territorial expansion. In Greece, the Archaic period continues. In China, the Spring and Autumn period continues with the state of Lu and other powers competing for influence. In India, the traditional period of the Buddha's ascetic practice (if traditional dating is accepted).",
+  "documentation_level": "minimal",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Most regions outside the Persian Empire, Greece, and China"
+  ],
+  "events": [
+    {
+      "id": "-522-001",
+      "title": "Darius I suppresses the Gaumata rebellion (alternative dating)",
+      "region": "Achaemenid Persian Empire (Media)",
+      "coordinates_approx": "35.0, 50.0",
+      "category": "military",
+      "description": "The Gaumata rebellion, a major challenge to Darius I's rule, is traditionally dated to 522 BCE (or possibly 521 BCE). A Magian priest named Gaumata claimed to be Bardiya (Darius's brother) and led a revolt in Media. Darius defeated Gaumata in battle and executed him, consolidating his control over the empire. This event is crucial to understanding Darius's legitimacy and the stability of the Persian Empire. However, the exact dating and even the historicity of Gaumata as a distinct person (versus a symbolic representation of resistance) remain debated.",
+      "key_figures": [
+        "Darius I (King of Persia)",
+        "Gaumata (Magian priest / rebel leader)",
+        "Bardiya (Darius's brother, possibly deceased)"
+      ],
+      "sources": [
+        {
+          "name": "Behistun Inscription (trilingual cuneiform, commissioned by Darius I)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Herodotus, Histories (Book III)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Behistun Inscription is contemporary and provides detailed accounts of the rebellion and its suppression. However, it is a royal propaganda document commissioned by Darius himself, and the exact chronology is debated by scholars. Some scholars date the rebellion to 521 BCE; others argue for 522 BCE. The inscription does not provide a precise calendar date, only a sequence of events.",
+      "cross_references": [
+        "-521-001 (Alternative dating of Gaumata rebellion)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Gaumata rebellion is contested. The Behistun Inscription, while contemporary, does not provide an absolute date in terms of a calendar year. Modern scholars debate whether the rebellion occurred in 522 or 521 BCE. Additionally, some scholars have questioned whether Gaumata was a real historical figure or a symbolic representation of resistance to Darius's rule. The inscription's status as royal propaganda means it may exaggerate the threat posed by Gaumata and minimize the legitimacy of his claims. Herodotus's account, written a century later, contains details that contradict the Behistun Inscription, raising questions about the reliability of both sources.",
+  "historiographic_note": "The Gaumata rebellion is one of the few events from this period that is documented in a contemporary source (the Behistun Inscription). However, the inscription is a royal propaganda document, and its account must be read critically. The exact dating of the rebellion remains uncertain, and the year 522 BCE is a scholarly convention rather than a definitively established date. The rebellion's significance lies in its challenge to Darius's legitimacy and the consolidation of Persian imperial power, but the historical details are filtered through Darius's own narrative.",
+  "graph_edges": [
+    {
+      "from": "-522-001",
+      "to": "-521-001",
+      "relation": "contemporary_with",
+      "note": "The Gaumata rebellion may have occurred in 521 or 522 BCE; the exact dating is disputed"
+    }
+  ]
+}

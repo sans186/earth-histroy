@@ -1,0 +1,126 @@
+{
+  "year": 1274,
+  "year_label": "1274 CE",
+  "era_context": "The late 13th century was a period of consolidation and conflict. The Mongol Empire was fragmenting into regional khanates, with Kublai Khan's Yuan Dynasty dominating East Asia. The Mamluk Sultanate controlled the Eastern Mediterranean. The Iberian Reconquista was in its final phases. Italian city-states competed for Mediterranean trade. This was an era of technological diffusion, religious conflict, and the emergence of early modern state structures.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Southeast Asian interior kingdoms (sparse contemporary documentation)",
+    "Pacific Islander societies (no written records)",
+    "Northern and Eastern Europe beyond major kingdoms (limited records)"
+  ],
+  "events": [
+    {
+      "id": "1274-001",
+      "title": "Second Council of Lyon convenes; Church reform and Crusade planning",
+      "region": "Papal States, Western Europe",
+      "coordinates_approx": "45.76, 4.84",
+      "category": "religious",
+      "description": "Pope Gregory X convened the Second Council of Lyon (1274\u20131275) to address Church reform, the threat of heresy, and the organization of a new Crusade to recover the Holy Land. The council attempted to reunite the Eastern Orthodox Church with Rome (the Union of Lyon, 1274), though this union would prove short-lived. The council also addressed the structure of the Church hierarchy and the conduct of clergy. This was one of the last major attempts to organize a large-scale Crusade.",
+      "key_figures": [
+        "Pope Gregory X (r. 1271\u20131276)",
+        "Michael VIII Palaiologus (Byzantine Emperor, r. 1259\u20131282)",
+        "Thomas Aquinas (theologian, died 1274)"
+      ],
+      "sources": [
+        {
+          "name": "Council of Lyon records and papal bulls",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Byzantine and Western chronicles of the council",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Second Council of Lyon is precisely dated to 1274\u20131275 in ecclesiastical records.",
+      "cross_references": [
+        "1204-001 (Fourth Crusade and Latin conquest of Constantinople)",
+        "1453-001 (Fall of Constantinople to Ottomans)"
+      ]
+    },
+    {
+      "id": "1274-002",
+      "title": "Kublai Khan's Yuan Dynasty consolidates administrative control over conquered territories",
+      "region": "China, Mongol Empire",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "Kublai Khan continued to consolidate administrative control over the territories conquered by the Mongols. In 1274, he was establishing bureaucratic structures that blended Mongol military organization with Chinese administrative traditions. This process of Sino-Mongol synthesis was crucial to the stability and longevity of Yuan rule. The Khan was also expanding the Grand Canal system and improving infrastructure to facilitate trade and administration.",
+      "key_figures": [
+        "Kublai Khan (Mongol Emperor, r. 1260\u20131294)",
+        "Bayan of the Baarin (Mongol general and administrator)"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shi (History of the Yuan Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Marco Polo, The Travels of Marco Polo",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general process of Yuan administrative consolidation is well-documented; specific events in 1274 are less precisely dated.",
+      "cross_references": [
+        "1276-001 (Yuan Dynasty formally declared)",
+        "1279-001 (Fall of Southern Song)"
+      ]
+    },
+    {
+      "id": "1274-003",
+      "title": "Mamluk Sultanate under Baybars maintains control of Eastern Mediterranean",
+      "region": "Egypt, Levant, Eastern Mediterranean",
+      "coordinates_approx": "30.04, 31.24",
+      "category": "political",
+      "description": "The Mamluk Sultanate under Baybars (r. 1260\u20131277) continued to consolidate its dominance over Egypt, the Levant, and the Eastern Mediterranean trade routes. In 1274, Baybars was in the final years of his reign, having established the Mamluks as the primary Islamic military power and the guardian of the Islamic holy cities (Mecca and Medina). The Mamluks were also expanding their naval power and commercial influence.",
+      "key_figures": [
+        "Baybars al-Bunduqdari (Mamluk Sultan, r. 1260\u20131277)"
+      ],
+      "sources": [
+        {
+          "name": "Mamluk chronicles and Arabic historiography",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Venetian and Genoese merchant records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Mamluk consolidation is well-attested; 1274 is assigned as a representative year within Baybars' reign.",
+      "cross_references": [
+        "1260-001 (Battle of Ain Jalut)",
+        "1277-001 (Baybars dies)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Union of Lyon (1274) is often presented as a significant achievement in Church history, but modern scholarship emphasizes that it was short-lived and largely ineffective. The Byzantine Emperor Michael VIII agreed to the union primarily for political reasons (to secure Western support against the Ottomans), and the union collapsed within a few decades. The significance of Kublai Khan's administrative reforms in 1274 is also debated; some scholars argue that the Yuan Dynasty's administrative structure was less innovative than often portrayed and relied heavily on existing Chinese models.",
+  "historiographic_note": "Documentation for 1274 is moderate for Western Europe (ecclesiastical records), East Asia (Yuan sources), and the Mediterranean (merchant records). Sources are heavily weighted toward political, military, and religious history. The surviving sources reflect the biases of their authors: papal records emphasize the Church's authority and achievements; Yuan sources emphasize Mongol legitimacy; merchant records emphasize trade and commerce. Sub-Saharan Africa, Southeast Asia, and the Pacific are almost entirely absent from contemporary written records.",
+  "graph_edges": [
+    {
+      "from": "1274-001",
+      "to": "1204-001",
+      "relation": "part_of",
+      "note": "The Second Council of Lyon was part of the broader history of East-West Church relations dating back to the Fourth Crusade (1204)"
+    },
+    {
+      "from": "1274-001",
+      "to": "1453-001",
+      "relation": "led_to",
+      "note": "The failed Union of Lyon in 1274 contributed to the eventual fall of Constantinople in 1453"
+    },
+    {
+      "from": "1274-002",
+      "to": "1279-001",
+      "relation": "led_to",
+      "note": "Kublai Khan's administrative consolidation in 1274 enabled the final conquest of Southern Song in 1279"
+    }
+  ]
+}

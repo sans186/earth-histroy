@@ -1,0 +1,231 @@
+{
+  "year": 1141,
+  "year_label": "1141 CE",
+  "era_context": "The 12th century witnessed the fragmentation of the Crusader States in the Levant, the rise of the Zengid dynasty under Nur ad-Din, the consolidation of the Angevin dynasty in England and Normandy, and the flourishing of Scholasticism in Western Europe. In East Asia, the Jin dynasty controlled northern China while the Southern Song dynasty ruled the south; in Japan, the Heian period was transitioning toward the Kamakura shogunate. Islamic scholarship and mathematics were at a high point, particularly in Al-Andalus and the Levant.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; oral traditions not systematically recorded)",
+    "Northern Europe beyond Scandinavia and the Baltic (sparse documentation)",
+    "Central Asia and the Steppe (limited non-Islamic sources)"
+  ],
+  "events": [
+    {
+      "id": "1141-001",
+      "title": "Battle of the Horns of Hattin (Saladin's preparation phase)",
+      "region": "Levant / Crusader States",
+      "coordinates_approx": "32.78, 35.42",
+      "category": "military",
+      "description": "While the famous Battle of Hattin occurred in 1187, the year 1141 marks a critical phase in the consolidation of Zengid power under Nur ad-Din, who was systematically unifying Muslim forces in Syria and Mesopotamia. This period saw the strengthening of the military infrastructure and alliances that would eventually enable Saladin's later victories. Nur ad-Din's campaigns in 1141 reinforced Zengid control over key Syrian cities and weakened Crusader territorial coherence.",
+      "key_figures": [
+        "Nur ad-Din Zengi (Zengid ruler)",
+        "Imad ad-Din Zengi (father, deceased 1146 but legacy dominant)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "William of Tyre, Historia",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Nur ad-Din's campaigns in this period are well-attested in Islamic and Crusader chronicles, though specific battles and dates vary slightly between sources. The broader strategic consolidation is confirmed.",
+      "cross_references": [
+        "1187-001 (Battle of Hattin itself)",
+        "1146-001 (Death of Imad ad-Din Zengi)"
+      ]
+    },
+    {
+      "id": "1141-002",
+      "title": "Anarchy in England: Stephen vs. Matilda civil war intensifies",
+      "region": "England / Normandy",
+      "coordinates_approx": "52.5, -1.5",
+      "category": "political",
+      "description": "The civil war between King Stephen and the Empress Matilda (also called the Anarchy) reached a critical phase in 1141. Stephen was captured at the Battle of Lincoln in February 1141, a major military defeat that temporarily shifted the balance of power toward Matilda's faction. However, Matilda's subsequent unpopularity in London and her failure to consolidate support prevented her from establishing stable rule, prolonging the conflict until 1153.",
+      "key_figures": [
+        "King Stephen of England (captured)",
+        "Empress Matilda (claimant)",
+        "Robert of Gloucester (Matilda's half-brother, military leader)"
+      ],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle (E version)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "John of Worcester, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Gesta Stephani",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Battle of Lincoln and Stephen's capture are well-documented in contemporary and near-contemporary English chronicles. The date (February 1141) is secure.",
+      "cross_references": [
+        "1135-001 (Stephen's accession)",
+        "1153-001 (Treaty of Winchester, end of Anarchy)"
+      ]
+    },
+    {
+      "id": "1141-003",
+      "title": "Matilda briefly recognized as Lady of the English",
+      "region": "England",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "political",
+      "description": "Following Stephen's capture at Lincoln, Matilda was recognized by the church and nobility as 'Lady of the English' (Domina Anglorum) in 1141, though she was never formally crowned. Her position was undermined by her arrogance and the Londoners' rejection of her authority. By autumn 1141, Stephen's supporters had regrouped, and Matilda's brief ascendancy collapsed, leading to her eventual exile to Normandy.",
+      "key_figures": [
+        "Empress Matilda",
+        "Bishop Henry of Winchester (her brother, initially supporting her)"
+      ],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Gesta Stephani",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Matilda's recognition and subsequent loss of support are documented in contemporary English sources.",
+      "cross_references": [
+        "1141-002 (Battle of Lincoln)"
+      ]
+    },
+    {
+      "id": "1141-004",
+      "title": "Jin dynasty consolidates control over northern China",
+      "region": "Northern China / Jin dynasty",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "The Jin dynasty, established by the Jurchen people in 1115, continued to consolidate its rule over northern China in 1141. The Treaty of Shaoxing (1141) between the Jin and Southern Song dynasties formally recognized the division of China, with the Jin controlling the north and the Song the south. This treaty, negotiated by the Jin chancellor Wanyan Liang and Southern Song official Qin Hui, established a relatively stable border and tribute relationship that would persist for decades.",
+      "key_figures": [
+        "Emperor Wanyan Liang (Jin)",
+        "Emperor Gaozong (Southern Song)",
+        "Qin Hui (Southern Song official)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Historian) and later compilations",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Song Shi (History of the Song Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Treaty of Shaoxing is well-documented in Chinese historical records. The date 1141 is secure.",
+      "cross_references": [
+        "1115-001 (Founding of Jin dynasty)",
+        "1127-001 (Jin conquest of northern China)"
+      ]
+    },
+    {
+      "id": "1141-005",
+      "title": "Treaty of Shaoxing: Jin-Song border stabilization",
+      "region": "China",
+      "coordinates_approx": "30.3, 120.6",
+      "category": "political",
+      "description": "The Treaty of Shaoxing (also called the Treaty of Longxing) formally ended the Jin-Song conflict and established a stable border along the Huai River. The Song agreed to pay annual tribute to the Jin and recognized Jin sovereignty over northern China. This treaty was a major diplomatic achievement that allowed both dynasties to consolidate their territories and focus on internal development. The treaty held until the Jin dynasty's collapse in 1234.",
+      "key_figures": [
+        "Wanyan Liang (Jin chancellor)",
+        "Qin Hui (Song official)",
+        "Emperor Gaozong (Song)"
+      ],
+      "sources": [
+        {
+          "name": "Song Shi (History of the Song Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Jin Shi (History of the Jin Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The treaty is well-documented in both Chinese and Jin historical records. The date and terms are secure.",
+      "cross_references": [
+        "1141-004 (Jin consolidation)"
+      ]
+    },
+    {
+      "id": "1141-006",
+      "title": "Averroes (Ibn Rushd) born in C\u00f3rdoba",
+      "region": "Al-Andalus / C\u00f3rdoba",
+      "coordinates_approx": "37.88, -4.77",
+      "category": "cultural",
+      "description": "The philosopher, physician, and jurist Averroes (Ibn Rushd) was born in C\u00f3rdoba in 1141. He would become one of the most influential Islamic philosophers of the medieval period, known for his extensive commentaries on Aristotle and his synthesis of Aristotelian philosophy with Islamic theology. His work profoundly influenced both Islamic and Christian European thought during the 12th and 13th centuries.",
+      "key_figures": [
+        "Averroes / Ibn Rushd (philosopher, physician, jurist)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Abbar, Biographical Dictionary",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Averroes' life",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Averroes' birth year is traditionally given as 1141, though some sources place it in 1138. The year 1141 is the most widely accepted date in modern scholarship.",
+      "cross_references": [
+        "1198-001 (Averroes' death)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of the Treaty of Shaoxing (1141) is sometimes overstated in Western historiography as a 'peace treaty,' when it was more accurately a tributary arrangement that formalized Jin dominance and Song subordination. Some sources conflate the Treaty of Shaoxing with earlier peace negotiations; the 1141 treaty specifically refers to the formal agreement that stabilized the border. Matilda's brief recognition as 'Lady of the English' is sometimes presented as a coronation or legitimate succession; contemporary sources make clear she was never crowned and her authority was contested from the outset.",
+  "historiographic_note": "The year 1141 is well-documented in European and East Asian sources, particularly for political and military events. Islamic sources provide good coverage of Zengid consolidation. However, the record is heavily weighted toward elite political and military history; economic, social, and cultural developments are underrepresented. Sub-Saharan African, Central Asian, and Mesoamerican sources are sparse or absent. The surviving sources are often written by court historians or clerics with particular political allegiances, potentially biasing the narrative toward their patrons' perspectives.",
+  "graph_edges": [
+    {
+      "from": "1141-001",
+      "to": "1187-001",
+      "relation": "led_to",
+      "note": "Nur ad-Din's consolidation of Muslim forces in 1141 created the military and political foundation for Saladin's later victory at Hattin"
+    },
+    {
+      "from": "1141-002",
+      "to": "1141-003",
+      "relation": "led_to",
+      "note": "Stephen's capture at Lincoln directly enabled Matilda's brief recognition as Lady of the English"
+    },
+    {
+      "from": "1141-003",
+      "to": "1153-001",
+      "relation": "led_to",
+      "note": "Matilda's failure to consolidate power in 1141 prolonged the English civil war until the Treaty of Winchester in 1153"
+    },
+    {
+      "from": "1141-004",
+      "to": "1141-005",
+      "relation": "contemporary_with",
+      "note": "The Treaty of Shaoxing was the formal diplomatic expression of Jin consolidation in northern China"
+    },
+    {
+      "from": "1141-006",
+      "to": "1198-001",
+      "relation": "part_of",
+      "note": "Averroes' birth marks the beginning of his influential intellectual career spanning the late 12th century"
+    }
+  ]
+}

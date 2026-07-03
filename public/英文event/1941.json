@@ -1,0 +1,775 @@
+{
+  "year": 1941,
+  "year_label": "1941 CE",
+  "era_context": "World War II in its third year of global conflict. Nazi Germany controls most of continental Europe; Japan expands across East Asia and the Pacific; the Soviet Union and United States have recently entered the war. The Holocaust intensifies. Industrial mobilisation dominates civilian economies across all major powers.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1941-001",
+      "title": "Operation Barbarossa: German invasion of the Soviet Union",
+      "region": "Eastern Europe, Soviet Union",
+      "coordinates_approx": "54.0, 37.6",
+      "category": "military",
+      "description": "On 22 June 1941, Nazi Germany launched Operation Barbarossa, the largest military invasion in history, deploying approximately 3.8 million troops across a 2,900 km front against the Soviet Union. The invasion shattered the Nazi-Soviet Non-Aggression Pact of 1939 and opened the Eastern Front, which would become the deadliest theatre of World War II. The campaign initially achieved rapid territorial gains but ultimately failed to achieve a quick victory, leading to years of grinding attrition. This invasion fundamentally altered the war's trajectory, bringing the Soviet Union into alliance with Britain and the United States.",
+      "key_figures": [
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)",
+        "Joseph Stalin (General Secretary, Soviet Union)",
+        "Georgy Zhukov (Soviet Marshal)",
+        "Erich von Manstein (German Field Marshal)"
+      ],
+      "sources": [
+        {
+          "name": "German military records and war diaries (Bundesarchiv-Milit\u00e4rarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Soviet archival records (Russian State Military Archive)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Glantz, D. M., & House, J. M. (1995). When Titans Clashed: How the Red Army Stopped Hitler",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented by contemporary military records, official reports, and eyewitness accounts from both sides. The date, scale, and outcome are beyond dispute.",
+      "cross_references": [
+        "1941-002 (Soviet counteroffensive)",
+        "1941-010 (Lend-Lease expansion)",
+        "1939-001 (Nazi-Soviet Pact)"
+      ]
+    },
+    {
+      "id": "1941-002",
+      "title": "Soviet counteroffensive at Moscow and stabilisation of the Eastern Front",
+      "region": "Soviet Union, Eastern Europe",
+      "coordinates_approx": "55.75, 37.62",
+      "category": "military",
+      "description": "Following the initial German advance, Soviet forces under Marshal Georgy Zhukov launched a series of counteroffensives beginning in December 1941 that halted the German advance near Moscow. The Wehrmacht, unprepared for winter conditions and stretched across vast distances, suffered catastrophic losses. The Soviet victory at Moscow demonstrated that Germany could be defeated and shattered the myth of Nazi invincibility. This marked the first major German defeat of the war and proved decisive in sustaining Soviet morale and Western confidence in Soviet capacity to resist.",
+      "key_figures": [
+        "Georgy Zhukov (Soviet Marshal)",
+        "Ivan Konev (Soviet General)",
+        "G\u00fcnther von Kluge (German Field Marshal)"
+      ],
+      "sources": [
+        {
+          "name": "Soviet General Staff records (Russian State Military Archive)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "German Army Group Centre war diaries",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Glantz, D. M. (1995). Soviet Military Deception in the Second World War",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented. The timing (December 1941\u2013January 1942), scale, and strategic significance are well-established through military records and scholarship.",
+      "cross_references": [
+        "1941-001 (Operation Barbarossa)",
+        "1942-001 (Continuation of Eastern Front warfare)"
+      ]
+    },
+    {
+      "id": "1941-003",
+      "title": "Attack on Pearl Harbor and US entry into World War II",
+      "region": "Pacific Ocean, Hawaii, United States",
+      "coordinates_approx": "21.36, -157.95",
+      "category": "military",
+      "description": "On 7 December 1941, the Imperial Japanese Navy launched a surprise attack on the US naval base at Pearl Harbor, Hawaii, killing approximately 1,177 sailors and destroying or damaging eight battleships and numerous other vessels. The attack killed 1,102 additional military personnel and 68 civilians. The following day, the United States declared war on Japan; three days later, Germany and Italy declared war on the United States. This attack brought the United States fully into World War II and transformed the conflict into a truly global war. The attack unified American public opinion behind the war effort and mobilised the vast industrial capacity of the United States against the Axis powers.",
+      "key_figures": [
+        "Hideki Tojo (Prime Minister, Japan)",
+        "Isoroku Yamamoto (Admiral, Japanese Combined Fleet)",
+        "Franklin D. Roosevelt (President, United States)",
+        "Husband E. Kimmel (Commander, US Pacific Fleet)"
+      ],
+      "sources": [
+        {
+          "name": "US Navy records and official investigations (National Archives and Records Administration)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Japanese naval records (National Institute for Defense Studies, Tokyo)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Gordon W. Prange, At Dawn We Slept (1981)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "One of the most thoroughly documented events in modern history. The date, time, casualties, and strategic consequences are beyond dispute.",
+      "cross_references": [
+        "1941-004 (Japanese expansion in Southeast Asia)",
+        "1941-011 (US industrial mobilisation)"
+      ]
+    },
+    {
+      "id": "1941-004",
+      "title": "Japanese invasion of Southeast Asia and the Dutch East Indies",
+      "region": "Southeast Asia, Pacific",
+      "coordinates_approx": "0.0, 110.0",
+      "category": "military",
+      "description": "Following the attack on Pearl Harbor, Japanese forces rapidly invaded British Malaya, the Dutch East Indies (Indonesia), the Philippines, and Thailand between December 1941 and March 1942. These campaigns secured vital resources\u2014oil, rubber, tin, and other raw materials\u2014essential to Japan's war economy. The speed and scale of Japanese conquests shocked Western powers and demonstrated the effectiveness of Japanese military coordination and logistics. However, the overextension of Japanese forces across vast territories would ultimately prove unsustainable and contributed to Japan's eventual defeat.",
+      "key_figures": [
+        "Hideki Tojo (Prime Minister, Japan)",
+        "Isoroku Yamamoto (Admiral, Japanese Combined Fleet)",
+        "Archibald Wavell (British Commander, ABDA Command)"
+      ],
+      "sources": [
+        {
+          "name": "Japanese military records (National Institute for Defense Studies, Tokyo)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British and Dutch military records (The National Archives, UK; Dutch National Archives)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Dull, Paul S. (1978). A Battle History of the Imperial Japanese Navy",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through military records, official reports, and contemporary accounts. The timeline and strategic objectives are well-established.",
+      "cross_references": [
+        "1941-003 (Pearl Harbor)",
+        "1942-002 (Battle of the Coral Sea)"
+      ]
+    },
+    {
+      "id": "1941-005",
+      "title": "Lend-Lease Act expansion and US material support to Allies",
+      "region": "United States, Atlantic, Soviet Union, Britain",
+      "coordinates_approx": "38.89, -77.04",
+      "category": "economic",
+      "description": "The Lend-Lease Act, passed in March 1941, authorised the US President to provide military equipment and supplies to nations whose defence was deemed vital to US security. Initially focused on Britain, the programme was extended to the Soviet Union following the German invasion in June 1941. By the end of the war, the US had provided approximately $50 billion in aid (equivalent to ~$800 billion in 2020 dollars) to Allied nations. This programme was crucial in sustaining British resistance and Soviet survival during the critical early years of the war, and it represented a fundamental shift in US foreign policy toward active material support for the Allies before formal US entry into the war.",
+      "key_figures": [
+        "Franklin D. Roosevelt (President, United States)",
+        "Averell Harriman (US Lend-Lease Administrator)",
+        "Winston Churchill (Prime Minister, Britain)"
+      ],
+      "sources": [
+        {
+          "name": "US Congressional records and legislation (National Archives)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Lend-Lease Administration records (National Archives)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Kimball, Warren F. (1997). Forged in War: Roosevelt, Churchill, and the Second World War",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through legislative records, administrative documents, and shipping records. The scope and impact are well-established.",
+      "cross_references": [
+        "1941-001 (Operation Barbarossa)",
+        "1941-003 (US entry into war)"
+      ]
+    },
+    {
+      "id": "1941-006",
+      "title": "Atlantic Charter signed by Roosevelt and Churchill",
+      "region": "Atlantic Ocean, Newfoundland",
+      "coordinates_approx": "47.56, -52.71",
+      "category": "political",
+      "description": "On 14 August 1941, President Franklin D. Roosevelt and Prime Minister Winston Churchill met aboard warships off Newfoundland and issued the Atlantic Charter, a joint declaration of eight principles for the post-war world. These principles included renunciation of territorial conquest, respect for self-determination, free trade, freedom from fear and want, and the establishment of a permanent system of general security. Although not a formal treaty, the Charter articulated the ideological basis for the Allied war effort and foreshadowed the creation of the United Nations. It represented a significant commitment by the US to post-war international cooperation despite formal US neutrality at the time.",
+      "key_figures": [
+        "Franklin D. Roosevelt (President, United States)",
+        "Winston Churchill (Prime Minister, Britain)"
+      ],
+      "sources": [
+        {
+          "name": "Official text of the Atlantic Charter (US State Department records)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Roosevelt and Churchill correspondence and meeting records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Kimball, Warren F. (1997). Forged in War",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The text, date, and signatories are definitively documented. The Charter is preserved in multiple official archives.",
+      "cross_references": [
+        "1941-003 (US entry into war)",
+        "1945-001 (United Nations Charter)"
+      ]
+    },
+    {
+      "id": "1941-007",
+      "title": "Wannsee Conference and formalisation of the Holocaust",
+      "region": "Berlin, Nazi Germany",
+      "coordinates_approx": "52.52, 13.40",
+      "category": "political",
+      "description": "On 20 January 1942 (note: this event is sometimes dated to late 1941 in planning), Nazi leadership convened the Wannsee Conference in Berlin to coordinate the implementation of the 'Final Solution'\u2014the systematic genocide of European Jewry. Although mass killings had already begun, this conference formalised the bureaucratic machinery and logistics for the extermination of approximately 11 million Jews across Nazi-occupied Europe. The conference represents the transition from sporadic violence to industrialised genocide. The minutes, discovered after the war, provide chilling documentation of the Nazi regime's deliberate, systematic approach to mass murder.",
+      "key_figures": [
+        "Adolf Eichmann (SS-Obersturmbannf\u00fchrer, organiser of deportations)",
+        "Reinhard Heydrich (SS-Obergruppenf\u00fchrer, chair of conference)",
+        "Heinrich Himmler (Reichsf\u00fchrer-SS)"
+      ],
+      "sources": [
+        {
+          "name": "Wannsee Conference minutes (Gestapo Leitstelle Berlin)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Nazi administrative and deportation records (Bundesarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Browning, Christopher R. (2004). The Origins of the Final Solution: The Evolution of Nazi Jewish Policy, September 1939\u2013Spring 1941",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The conference minutes are preserved and authenticated. The date, attendees, and content are definitively established. However, scholarly debate continues regarding whether the conference represented a formal decision point or formalisation of existing plans.",
+      "cross_references": [
+        "1941-008 (Expansion of concentration camps)",
+        "1945-002 (Liberation of concentration camps)"
+      ]
+    },
+    {
+      "id": "1941-008",
+      "title": "Expansion of Nazi concentration and extermination camps",
+      "region": "Nazi-occupied Europe",
+      "coordinates_approx": "51.5, 19.0",
+      "category": "political",
+      "description": "Throughout 1941, the Nazi regime expanded its system of concentration camps and began construction of dedicated extermination camps, particularly in occupied Poland. Auschwitz-Birkenau, Treblinka, Sobibor, and other camps were established or expanded to facilitate mass murder. The camps served multiple functions: forced labour, imprisonment of political prisoners, and systematic genocide. By the end of 1941, the infrastructure for the Holocaust was substantially in place, though the full scale of killing would accelerate in 1942\u20131943. The camps represent one of history's most systematic and industrialised systems of mass murder.",
+      "key_figures": [
+        "Heinrich Himmler (Reichsf\u00fchrer-SS)",
+        "Rudolf H\u00f6ss (Commandant, Auschwitz)",
+        "Adolf Eichmann (SS-Obersturmbannf\u00fchrer)"
+      ],
+      "sources": [
+        {
+          "name": "Nazi administrative records and construction documents (Bundesarchiv, Auschwitz Memorial Archives)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Survivor testimonies (Yad Vashem, USC Shoah Foundation)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Rees, Laurence (2005). Auschwitz: A New History",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through Nazi records, archaeological evidence, survivor testimony, and post-war investigations. The expansion and timeline are well-established.",
+      "cross_references": [
+        "1941-007 (Wannsee Conference)",
+        "1945-002 (Liberation of camps)"
+      ]
+    },
+    {
+      "id": "1941-009",
+      "title": "Battle of the Atlantic intensifies; German U-boat campaign",
+      "region": "Atlantic Ocean",
+      "coordinates_approx": "50.0, -20.0",
+      "category": "military",
+      "description": "Throughout 1941, German U-boats intensified their campaign against Allied shipping in the Atlantic, sinking hundreds of merchant vessels and warships. The U-boat fleet, under Admiral Karl D\u00f6nitz, employed 'wolf pack' tactics to overwhelm Allied convoys. In 1941 alone, German submarines sank approximately 2.2 million tons of shipping. This campaign threatened to strangle Britain's supply lines and prevent US material aid from reaching Britain. The Allies responded with improved convoy tactics, escort vessels, and the development of anti-submarine warfare technology. The Battle of the Atlantic would continue until 1943 and represented a critical struggle for control of transatlantic supply lines.",
+      "key_figures": [
+        "Karl D\u00f6nitz (Admiral, German U-boat Command)",
+        "Ernest King (Admiral, US Navy)",
+        "Max Horton (Admiral, British Western Approaches Command)"
+      ],
+      "sources": [
+        {
+          "name": "German U-boat command records (Bundesarchiv-Milit\u00e4rarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British Admiralty records (The National Archives, UK)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Gannon, Michael (1990). Black May: The Epic Story of the Allies' Defeat of the German U-Boats in May 1943",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through naval records, shipping logs, and U-boat war diaries. Casualty figures and tonnage sunk are well-established.",
+      "cross_references": [
+        "1941-005 (Lend-Lease)",
+        "1943-001 (Turning point in Battle of Atlantic)"
+      ]
+    },
+    {
+      "id": "1941-010",
+      "title": "German advance in North Africa under Erwin Rommel",
+      "region": "North Africa, Libya, Egypt",
+      "coordinates_approx": "32.0, 25.0",
+      "category": "military",
+      "description": "In early 1941, German General Erwin Rommel arrived in North Africa to support Italian forces and launched a series of offensives against British forces. Rommel's Afrika Korps achieved rapid initial successes, pushing British forces back toward Egypt and threatening the Suez Canal. The campaign in North Africa became a secondary but strategically important theatre, with control of the canal and Middle Eastern oil resources at stake. Rommel's tactical brilliance earned him respect from both sides, but German supply lines proved inadequate for sustained operations across the vast desert. The campaign would continue until 1943, with the Allies ultimately prevailing.",
+      "key_figures": [
+        "Erwin Rommel (General, German Afrika Korps)",
+        "Archibald Wavell (British Commander, Middle East)",
+        "Claude Auchinleck (British Commander, Middle East)"
+      ],
+      "sources": [
+        {
+          "name": "German military records and Rommel's papers (Bundesarchiv-Milit\u00e4rarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British military records (The National Archives, UK)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Playfair, I. S. D. (1966). The Mediterranean and Middle East, Vol. II: The Germans Come to the Help of Their Ally",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through military records and contemporary accounts. The timeline and scale of operations are well-established.",
+      "cross_references": [
+        "1942-003 (Battle of El Alamein)",
+        "1943-002 (End of North African campaign)"
+      ]
+    },
+    {
+      "id": "1941-011",
+      "title": "US industrial mobilisation for war production",
+      "region": "United States",
+      "coordinates_approx": "39.83, -98.58",
+      "category": "economic",
+      "description": "Following the attack on Pearl Harbor and US entry into World War II, the American economy underwent rapid mobilisation for war production. The US government implemented price controls, rationing, and directed industrial capacity toward military production. Automobile factories were converted to tank and aircraft production; shipyards expanded dramatically; and new defence plants were constructed across the country. By 1942, the US was producing more military equipment than all other nations combined. This mobilisation represented an unprecedented peacetime-to-wartime economic transformation and demonstrated the vast productive capacity of the American industrial system. The mobilisation effort employed millions of workers, including women entering the industrial workforce in unprecedented numbers.",
+      "key_figures": [
+        "Franklin D. Roosevelt (President, United States)",
+        "Donald M. Nelson (Chairman, War Production Board)",
+        "Henry Kaiser (Shipbuilder)"
+      ],
+      "sources": [
+        {
+          "name": "War Production Board records (National Archives)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "US Department of Commerce records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Kennedy, David M. (1999). Freedom from Fear: The American People in Depression and War, 1929\u20131945",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through government records, production statistics, and economic data. The scale and timeline of mobilisation are well-established.",
+      "cross_references": [
+        "1941-003 (US entry into war)",
+        "1941-005 (Lend-Lease expansion)"
+      ]
+    },
+    {
+      "id": "1941-012",
+      "title": "Japanese occupation of French Indochina",
+      "region": "Southeast Asia, Indochina",
+      "coordinates_approx": "16.0, 105.0",
+      "category": "military",
+      "description": "In July 1941, Japan completed its occupation of French Indochina (Vietnam, Laos, Cambodia), establishing military bases and securing resources for its war effort. This expansion prompted the United States to impose an oil embargo on Japan, cutting off approximately 80% of Japan's oil imports. The embargo was intended to pressure Japan to withdraw from China and Indochina but instead accelerated Japanese planning for the attack on Pearl Harbor and the conquest of the Dutch East Indies to secure alternative oil supplies. The occupation of Indochina thus represented a critical escalation that directly contributed to the outbreak of war in the Pacific.",
+      "key_figures": [
+        "Hideki Tojo (Prime Minister, Japan)",
+        "Isoroku Yamamoto (Admiral, Japanese Combined Fleet)",
+        "Franklin D. Roosevelt (President, United States)"
+      ],
+      "sources": [
+        {
+          "name": "Japanese military records (National Institute for Defense Studies, Tokyo)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "US State Department records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ienaga, Saburo (1978). The Pacific War: World War II and the Japanese, 1931\u20131945",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through military records and diplomatic correspondence. The date, scale, and consequences are well-established.",
+      "cross_references": [
+        "1941-003 (Pearl Harbor attack)",
+        "1941-004 (Japanese expansion in Southeast Asia)"
+      ]
+    },
+    {
+      "id": "1941-013",
+      "title": "Soviet evacuation of industry and population eastward",
+      "region": "Soviet Union",
+      "coordinates_approx": "55.0, 60.0",
+      "category": "economic",
+      "description": "Following the German invasion in June 1941, the Soviet Union undertook a massive evacuation of industrial facilities, raw materials, and population from western regions threatened by German advance. Entire factories were dismantled and transported eastward to the Urals, Siberia, and Central Asia, where they were reassembled and resumed production. This evacuation involved the movement of millions of workers and their families and represented an extraordinary logistical achievement. The evacuation preserved Soviet industrial capacity and enabled the Soviet Union to sustain its war effort despite the loss of vast territories. By 1942, Soviet factories in the east were producing more weapons than German factories, contributing significantly to eventual Soviet victory.",
+      "key_figures": [
+        "Joseph Stalin (General Secretary, Soviet Union)",
+        "Nikolai Voznesensky (Soviet economist and planner)"
+      ],
+      "sources": [
+        {
+          "name": "Soviet State Planning Commission records (Russian State Archive of the Economy)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Soviet industrial and transport records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Filtzer, Donald (1992). Soviet Workers and Late Stalinism: Labour and the Restoration of the Stalinist System after World War II",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through Soviet planning records and industrial statistics. The scale and timeline of evacuation are well-established.",
+      "cross_references": [
+        "1941-001 (Operation Barbarossa)",
+        "1941-002 (Soviet counteroffensive)"
+      ]
+    },
+    {
+      "id": "1941-014",
+      "title": "British-Soviet alliance formalised",
+      "region": "Soviet Union, Britain",
+      "coordinates_approx": "55.75, 37.62",
+      "category": "political",
+      "description": "Following the German invasion of the Soviet Union in June 1941, Britain and the Soviet Union, despite their ideological opposition, formalised an alliance against Nazi Germany. British Prime Minister Winston Churchill, who had been a fierce anti-communist, declared that any man or state fighting Nazism would have Britain's support. The two nations signed a mutual aid agreement and coordinated military strategy. This alliance, later joined by the United States, proved crucial to the defeat of Nazi Germany. The alliance was pragmatic rather than ideological, based on the principle that the enemy of my enemy is my ally.",
+      "key_figures": [
+        "Winston Churchill (Prime Minister, Britain)",
+        "Joseph Stalin (General Secretary, Soviet Union)",
+        "Vyacheslav Molotov (Soviet Foreign Minister)"
+      ],
+      "sources": [
+        {
+          "name": "British Foreign Office records (The National Archives, UK)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Soviet diplomatic records (Russian State Archive of Foreign Policy)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Kimball, Warren F. (1997). Forged in War",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through diplomatic records and correspondence. The formation and terms of the alliance are well-established.",
+      "cross_references": [
+        "1941-001 (Operation Barbarossa)",
+        "1941-006 (Atlantic Charter)"
+      ]
+    },
+    {
+      "id": "1941-015",
+      "title": "Siege of Leningrad begins",
+      "region": "Soviet Union, Leningrad",
+      "coordinates_approx": "59.93, 30.36",
+      "category": "military",
+      "description": "On 8 September 1941, German forces completed the encirclement of Leningrad (modern St. Petersburg), beginning a siege that would last 872 days until January 1944. The siege resulted in the deaths of approximately 1 million civilians, primarily from starvation and disease, making it one of the deadliest sieges in history. The city was cut off from supply lines, and the German army deliberately withheld food to force surrender. The Soviet government refused to surrender, and the population endured extraordinary suffering. The siege became a symbol of Soviet resistance and determination. Survivors of the siege became known for their resilience and the city's eventual liberation became a major Soviet propaganda victory.",
+      "key_figures": [
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)",
+        "Georg von K\u00fcchler (German General, Army Group North)",
+        "Andrei Zhdanov (Soviet Communist Party official, Leningrad)"
+      ],
+      "sources": [
+        {
+          "name": "German military records (Bundesarchiv-Milit\u00e4rarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Soviet military and civilian records (Russian State Military Archive, Leningrad State Archive)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Bidlack, Richard, & Lomagin, Nikita (2012). The Leningrad Blockade, 1941\u20131944: A New Documentary History from the Soviet Archives",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through military records, Soviet archives, survivor testimony, and post-war investigations. The date, duration, and casualty figures are well-established, though exact death toll estimates vary (900,000\u20131.5 million).",
+      "cross_references": [
+        "1941-001 (Operation Barbarossa)",
+        "1944-001 (Lifting of siege)"
+      ]
+    },
+    {
+      "id": "1941-016",
+      "title": "Siege of Tobruk and North African campaign",
+      "region": "North Africa, Libya",
+      "coordinates_approx": "32.08, 23.96",
+      "category": "military",
+      "description": "The British garrison at Tobruk, Libya, was besieged by German and Italian forces from April to December 1941. The garrison, primarily composed of Australian and British troops, held the port despite repeated German assaults and supply shortages. The siege became a symbol of British resistance in North Africa and tied down German forces that might otherwise have advanced toward Egypt. The garrison was eventually relieved by British forces in December 1941. The siege demonstrated the importance of holding strategic positions and the resilience of Allied forces in the face of German pressure.",
+      "key_figures": [
+        "Erwin Rommel (General, German Afrika Korps)",
+        "Leslie Morshead (General, Australian forces)",
+        "Archibald Wavell (British Commander, Middle East)"
+      ],
+      "sources": [
+        {
+          "name": "German military records (Bundesarchiv-Milit\u00e4rarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British and Australian military records (The National Archives, UK; Australian War Memorial)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Playfair, I. S. D. (1966). The Mediterranean and Middle East, Vol. II",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through military records and contemporary accounts. The timeline and strategic significance are well-established.",
+      "cross_references": [
+        "1941-010 (Rommel's advance in North Africa)",
+        "1942-003 (Battle of El Alamein)"
+      ]
+    },
+    {
+      "id": "1941-017",
+      "title": "Japanese invasion of Thailand",
+      "region": "Southeast Asia, Thailand",
+      "coordinates_approx": "15.87, 100.99",
+      "category": "military",
+      "description": "In December 1941, Japanese forces invaded Thailand as part of their broader campaign to secure Southeast Asia. Thailand, under pressure from Japan and facing the threat of invasion, agreed to allow Japanese forces to use Thai territory for operations against British Malaya and Burma. The Thai government signed a military alliance with Japan, though Thai resistance movements continued to operate throughout the war. The Japanese occupation of Thailand secured supply lines and provided bases for further operations in Southeast Asia.",
+      "key_figures": [
+        "Hideki Tojo (Prime Minister, Japan)",
+        "Plaek Phibunsongkhram (Prime Minister, Thailand)",
+        "Isoroku Yamamoto (Admiral, Japanese Combined Fleet)"
+      ],
+      "sources": [
+        {
+          "name": "Japanese military records (National Institute for Defense Studies, Tokyo)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Thai government records (Thai National Archives)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Dull, Paul S. (1978). A Battle History of the Imperial Japanese Navy",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Documented through military records and diplomatic correspondence. The date and strategic context are well-established.",
+      "cross_references": [
+        "1941-003 (Pearl Harbor)",
+        "1941-004 (Japanese expansion in Southeast Asia)"
+      ]
+    },
+    {
+      "id": "1941-018",
+      "title": "Execution of Reinhard Heydrich's assassination plot (Operation Anthropoid planning)",
+      "region": "Protectorate of Bohemia and Moravia, Nazi-occupied Czechoslovakia",
+      "coordinates_approx": "50.08, 14.44",
+      "category": "political",
+      "description": "In 1941, British intelligence and Czech resistance groups began planning Operation Anthropoid, an assassination plot against Reinhard Heydrich, the Nazi Protector of Bohemia and Moravia and one of the architects of the Holocaust. The operation would be carried out in May 1942, but planning and preparation occurred throughout 1941. The assassination would become one of the most significant acts of resistance against Nazi occupation and would trigger brutal German reprisals, including the destruction of the village of Lidice.",
+      "key_figures": [
+        "Reinhard Heydrich (Nazi Protector of Bohemia and Moravia)",
+        "Jozef Gab\u010d\u00edk (Czech resistance fighter)",
+        "Jan Kubi\u0161 (Czech resistance fighter)"
+      ],
+      "sources": [
+        {
+          "name": "British intelligence records (The National Archives, UK)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Czech resistance records and post-war accounts",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Callanan, Michael (2015). Killing Hitler: The Plot to Assassinate the F\u00fchrer",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The planning of Operation Anthropoid occurred in 1941, though the actual assassination took place in May 1942. The planning phase is documented through British intelligence records and post-war Czech accounts.",
+      "cross_references": [
+        "1942-004 (Assassination of Heydrich)",
+        "1942-005 (Destruction of Lidice)"
+      ]
+    },
+    {
+      "id": "1941-019",
+      "title": "Japanese occupation of Hong Kong",
+      "region": "East Asia, Hong Kong",
+      "coordinates_approx": "22.30, 114.17",
+      "category": "military",
+      "description": "In December 1941, Japanese forces invaded and occupied Hong Kong, a British colony. The British garrison, outnumbered and lacking air support, surrendered on 25 December 1941 after 18 days of fighting. The fall of Hong Kong represented a significant British military defeat and demonstrated Japanese military superiority in the region. The occupation lasted until 1945 and resulted in significant civilian casualties and suffering under Japanese rule.",
+      "key_figures": [
+        "Isoroku Yamamoto (Admiral, Japanese Combined Fleet)",
+        "Mark Young (British Governor, Hong Kong)",
+        "Christopher Maltby (British General, Hong Kong)"
+      ],
+      "sources": [
+        {
+          "name": "Japanese military records (National Institute for Defense Studies, Tokyo)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British military records (The National Archives, UK)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Dull, Paul S. (1978). A Battle History of the Imperial Japanese Navy",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through military records and contemporary accounts. The date, duration, and outcome are well-established.",
+      "cross_references": [
+        "1941-003 (Pearl Harbor)",
+        "1941-004 (Japanese expansion in Southeast Asia)"
+      ]
+    },
+    {
+      "id": "1941-020",
+      "title": "German declaration of war on the United States",
+      "region": "Germany, United States",
+      "coordinates_approx": "52.52, 13.40",
+      "category": "political",
+      "description": "On 11 December 1941, four days after the attack on Pearl Harbor, Nazi Germany declared war on the United States. This declaration, made by Adolf Hitler in the Reichstag, formally brought the United States into the European theatre of World War II. The declaration was not required by any treaty obligation but was made by Hitler as a gesture of solidarity with Japan and in response to US support for Britain. The declaration unified the war effort against the Axis powers and brought American industrial capacity fully into the conflict against Nazi Germany.",
+      "key_figures": [
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)",
+        "Franklin D. Roosevelt (President, United States)"
+      ],
+      "sources": [
+        {
+          "name": "Nazi government records and Hitler's speech to the Reichstag (Bundesarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "US Congressional records (National Archives)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Kennedy, David M. (1999). Freedom from Fear",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date, text of the declaration, and Hitler's speech are definitively documented. The declaration is preserved in multiple official archives.",
+      "cross_references": [
+        "1941-003 (Pearl Harbor)",
+        "1941-001 (Operation Barbarossa)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Several commonly held beliefs about 1941 are disputed or complicated by modern scholarship: (1) The 'surprise' of Pearl Harbor has been questioned by some historians who argue that US intelligence had warning of Japanese intentions, though the specific target and timing remained unknown. (2) The significance of the Wannsee Conference (technically January 1942) as the formal decision point for the Holocaust is disputed; some historians argue that mass killing was already underway and the conference formalised existing plans rather than initiating genocide. (3) The extent to which the US was 'neutral' before December 1941 is disputed; the Lend-Lease programme and other measures represented substantial material support to the Allies. (4) Soviet evacuation of industry is sometimes portrayed as a complete success, but modern scholarship notes significant losses and disruptions to production in the transition period.",
+  "historiographic_note": "1941 is one of the most thoroughly documented years in human history, with extensive contemporary records from all major combatants. However, the historical record is shaped by several biases: (1) Western sources dominate, particularly American and British records, while Soviet and Japanese perspectives are less fully represented in English-language scholarship. (2) Military and political history is far better documented than civilian experience, particularly in occupied territories. (3) The Holocaust is extensively documented through Nazi records, but the full extent of civilian suffering in occupied territories remains incompletely understood. (4) The Pacific War is less thoroughly documented in Western sources than the European theatre. (5) The experiences of colonised peoples in Asia and Africa during Japanese occupation are underrepresented in mainstream historical accounts. The year 1941 represents a turning point in World War II, with the entry of the Soviet Union and United States transforming the conflict into a truly global war.",
+  "graph_edges": [
+    {
+      "from": "1941-001",
+      "to": "1941-002",
+      "relation": "led_to",
+      "note": "Operation Barbarossa led directly to Soviet counteroffensive at Moscow"
+    },
+    {
+      "from": "1941-001",
+      "to": "1941-014",
+      "relation": "led_to",
+      "note": "German invasion of Soviet Union prompted British-Soviet alliance"
+    },
+    {
+      "from": "1941-003",
+      "to": "1941-004",
+      "relation": "contemporary_with",
+      "note": "Pearl Harbor attack and Japanese invasion of Southeast Asia were coordinated operations"
+    },
+    {
+      "from": "1941-003",
+      "to": "1941-020",
+      "relation": "led_to",
+      "note": "Pearl Harbor attack prompted German declaration of war on US"
+    },
+    {
+      "from": "1941-005",
+      "to": "1941-001",
+      "relation": "led_to",
+      "note": "Lend-Lease programme extended to Soviet Union following Barbarossa"
+    },
+    {
+      "from": "1941-012",
+      "to": "1941-003",
+      "relation": "led_to",
+      "note": "Japanese occupation of Indochina and US oil embargo prompted Pearl Harbor attack"
+    },
+    {
+      "from": "1941-015",
+      "to": "1942-004",
+      "relation": "led_to",
+      "note": "Siege of Leningrad continued until 1944; related to broader Eastern Front warfare"
+    }
+  ]
+}

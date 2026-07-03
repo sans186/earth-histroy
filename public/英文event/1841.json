@@ -1,0 +1,296 @@
+{
+  "year": 1841,
+  "year_label": "1841 CE",
+  "era_context": "The height of the Industrial Revolution in Britain and Western Europe; the Victorian era (1837\u20131901) well established. The Qing Dynasty in China faces internal instability and external pressure from Western imperial powers. The Ottoman Empire continues its long decline. In the Americas, the United States is expanding westward; slavery remains entrenched in the South. This is an era of rapid technological change, imperial competition, and growing nationalist movements.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited European documentation; oral traditions and local records underrepresented)",
+    "Interior of Australia (sparse colonial records)",
+    "Central Asia and parts of the Russian interior (limited Western sources)"
+  ],
+  "events": [
+    {
+      "id": "1841-001",
+      "title": "Treaty of Waitangi Aftermath and M\u0101ori Land Dispossession Accelerates",
+      "region": "New Zealand",
+      "coordinates_approx": "-41.3, 174.9",
+      "category": "legal",
+      "description": "Two years after the Treaty of Waitangi (1840), British colonial authorities begin systematic land surveys and confiscations from M\u0101ori communities. The treaty's ambiguous wording\u2014particularly regarding land ownership\u2014becomes a tool for European settlement expansion. M\u0101ori resistance begins to crystallize, setting the stage for decades of conflict. The Crown's interpretation of the treaty prioritizes settler interests over M\u0101ori sovereignty, establishing a pattern that would dominate New Zealand history.",
+      "key_figures": [
+        "William Hobson (Governor of New Zealand)",
+        "Hongi Hika (M\u0101ori leader, died 1828 but legacy shapes resistance)"
+      ],
+      "sources": [
+        {
+          "name": "New Zealand Colonial Office Records and Land Claims Registers",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Treaty of Waitangi interpretation (e.g., Claudia Orange, The Treaty of Waitangi)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Colonial records and land registers are well-preserved; the acceleration of land dispossession in 1841 is documented in official correspondence.",
+      "cross_references": [
+        "1840-001 (Treaty of Waitangi signed)",
+        "1845-001 (Hone Heke's War begins)"
+      ]
+    },
+    {
+      "id": "1841-002",
+      "title": "First Opium War Concludes; Treaty of Nanking Signed",
+      "region": "China (Qing Dynasty)",
+      "coordinates_approx": "30.3, 120.2",
+      "category": "military",
+      "description": "The First Opium War (1840\u20131842) effectively ends with the Treaty of Nanking (Nanjing), signed in August 1842, though the final ratification occurs in 1843. However, the decisive British military victories and Chinese capitulation occur in 1841\u20131842. The treaty forces China to cede Hong Kong to Britain, open five treaty ports to foreign trade, and pay an indemnity of 21 million silver dollars. This marks the beginning of the 'Century of Humiliation' for China and establishes the unequal treaty system that will dominate Sino-Western relations for a century. The war demonstrates Western military and naval superiority and accelerates China's internal decline.",
+      "key_figures": [
+        "Lin Zexu (Chinese imperial commissioner, advocate for resistance)",
+        "William John Napier (British naval commander)",
+        "Daoguang Emperor (Qing ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Treaty of Nanking (1842), primary diplomatic text",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British East India Company records and naval dispatches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Qing Dynasty official records (Qing Shilu)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The treaty is a primary diplomatic document; military campaigns are well-documented in British naval records and Chinese official histories.",
+      "cross_references": [
+        "1840-002 (First Opium War begins)",
+        "1856-001 (Second Opium War begins)"
+      ]
+    },
+    {
+      "id": "1841-003",
+      "title": "David Livingstone Begins African Exploration; Reaches Zambezi",
+      "region": "Southern Africa (present-day Zambia, Zimbabwe, Mozambique)",
+      "coordinates_approx": "-17.8, 25.9",
+      "category": "exploration",
+      "description": "Scottish missionary and explorer David Livingstone begins his major African expeditions, traveling inland from the Cape Colony. In 1841, he reaches the Zambezi River region and begins systematic exploration of interior Southern Africa. His journeys, documented in detailed journals and later published accounts, will make him one of the most celebrated European explorers of Africa. Livingstone's expeditions combine missionary work, geographical discovery, and anti-slavery advocacy, though his legacy is complicated by his role in facilitating European colonial expansion.",
+      "key_figures": [
+        "David Livingstone (Scottish missionary-explorer)",
+        "Robert Moffat (missionary mentor)"
+      ],
+      "sources": [
+        {
+          "name": "Livingstone's personal journals and expedition records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Missionary Society correspondence (London Missionary Society)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Livingstone, David. Missionary Travels and Researches in South Africa (1857)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Livingstone's journals and missionary correspondence provide contemporary documentation of his movements and discoveries.",
+      "cross_references": [
+        "1855-001 (Livingstone reaches Victoria Falls)"
+      ]
+    },
+    {
+      "id": "1841-004",
+      "title": "William Henry Harrison Dies; John Tyler Becomes U.S. President",
+      "region": "United States",
+      "coordinates_approx": "38.9, -77.0",
+      "category": "political",
+      "description": "President William Henry Harrison dies on April 4, 1841, just 31 days into his presidency\u2014the shortest tenure of any U.S. president. Vice President John Tyler assumes the presidency, becoming the first vice president to succeed to the office due to a president's death. Tyler's assumption of full presidential powers (rather than merely acting as president) establishes an important constitutional precedent. Tyler's presidency (1841\u20131845) is marked by internal party conflict, as he is a former Democrat who alienated many Whigs. His administration faces economic depression and sectional tensions over slavery expansion.",
+      "key_figures": [
+        "William Henry Harrison (9th U.S. President)",
+        "John Tyler (10th U.S. President)",
+        "Henry Clay (Whig leader)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Presidential Records and Congressional Globe",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Tyler presidency",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Harrison's death and Tyler's succession are documented in official U.S. government records and contemporary newspapers.",
+      "cross_references": [
+        "1840-003 (Harrison elected president)",
+        "1845-002 (Texas annexation under Tyler)"
+      ]
+    },
+    {
+      "id": "1841-005",
+      "title": "Punch Magazine Founded in London",
+      "region": "Britain (England)",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "cultural",
+      "description": "Punch, or The London Charivari, is founded in July 1841 as a satirical weekly magazine. It becomes one of the most influential periodicals of the Victorian era, known for its political satire, humor, and social commentary. Punch's cartoons and illustrations help establish the visual language of political satire and social criticism. The magazine's success reflects growing literacy rates and the expansion of the periodical press during the Industrial Revolution. Punch will remain influential for over a century, shaping public discourse on politics, society, and culture.",
+      "key_figures": [
+        "Mark Lemon (co-founder and editor)",
+        "Henry Mayhew (co-founder)",
+        "John Leech (illustrator)"
+      ],
+      "sources": [
+        {
+          "name": "Punch Magazine archives and founding records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Victorian periodical press historiography",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Punch's founding date and early issues are well-documented in the magazine's archives and contemporary publishing records.",
+      "cross_references": []
+    },
+    {
+      "id": "1841-006",
+      "title": "Straits Settlements Established as British Crown Colony",
+      "region": "Malaya (present-day Malaysia and Singapore)",
+      "coordinates_approx": "1.3, 103.8",
+      "category": "political",
+      "description": "The Straits Settlements (Singapore, Penang, and Malacca) are formally established as a British Crown Colony, separated from the East India Company's administration. This consolidation reflects Britain's growing strategic interest in Southeast Asia and the importance of Singapore as a trading hub. The establishment of direct Crown control facilitates further British expansion into the Malay Peninsula and strengthens Britain's position in regional trade networks. The move accelerates Chinese and Indian immigration to the settlements, transforming their demographic composition.",
+      "key_figures": [
+        "Lord Stanley (British Colonial Secretary)",
+        "Samuel George Bonham (Governor of Straits Settlements)"
+      ],
+      "sources": [
+        {
+          "name": "British Colonial Office records and official gazette",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "East India Company administrative records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The formal establishment of the Crown Colony is documented in British colonial administrative records and official proclamations.",
+      "cross_references": [
+        "1819-001 (Singapore founded by Stamford Raffles)",
+        "1874-001 (British protectorates established in Malay Peninsula)"
+      ]
+    },
+    {
+      "id": "1841-007",
+      "title": "Sikh Wars Period: Ranjit Singh's Death and Succession Crisis",
+      "region": "Punjab (present-day India and Pakistan)",
+      "coordinates_approx": "31.5, 74.3",
+      "category": "political",
+      "description": "Maharaja Ranjit Singh, the powerful Sikh ruler of Punjab, died in 1839, but the succession crisis and instability that followed continue to destabilize the region in 1841. Multiple claimants to the throne and factional conflicts within the Sikh court weaken central authority. This period of internal conflict sets the stage for British intervention and the First Anglo-Sikh War (1845\u20131846). The decline of Sikh power in Punjab represents a major shift in the balance of power in South Asia, favoring British expansion.",
+      "key_figures": [
+        "Ranjit Singh (deceased 1839, but legacy shapes 1841 events)",
+        "Kharak Singh (nominal successor, died 1840)",
+        "Sher Singh (claimant to throne)"
+      ],
+      "sources": [
+        {
+          "name": "British East India Company intelligence reports and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sikh court records and chronicles (Sikh Rahit Maryada traditions)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Sikh history (e.g., Priya Chandra, The Sikhs)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The succession crisis is documented in British intelligence reports and Sikh chronicles, though exact dating of internal court events can be uncertain.",
+      "cross_references": [
+        "1839-001 (Ranjit Singh dies)",
+        "1845-003 (First Anglo-Sikh War begins)"
+      ]
+    },
+    {
+      "id": "1841-008",
+      "title": "Slavery Abolished in the British Empire; Enforcement Continues",
+      "region": "British Empire (global)",
+      "coordinates_approx": null,
+      "category": "legal",
+      "description": "While slavery was formally abolished throughout the British Empire in 1833, 1841 marks a period of intensified enforcement and the suppression of the slave trade. The British Navy's anti-slavery patrols in African waters and the Atlantic continue to expand. However, slavery persists in practice in some British territories, and the transition from slavery to indentured labor systems creates new forms of exploitation. The British abolition movement, led by figures like Thomas Clarkson and William Wilberforce (who died in 1833), continues to influence global anti-slavery efforts.",
+      "key_figures": [
+        "Lord Palmerston (Foreign Secretary, advocate for anti-slavery enforcement)",
+        "Thomas Clarkson (abolitionist, still active in 1841)"
+      ],
+      "sources": [
+        {
+          "name": "British Parliamentary records and naval dispatches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Anti-slavery society records (British and Foreign Anti-Slavery Society)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "British anti-slavery enforcement in 1841 is well-documented in naval records and parliamentary proceedings.",
+      "cross_references": [
+        "1833-001 (Slavery Abolition Act passed)",
+        "1807-001 (Slave Trade Act passed)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of the Treaty of Nanking (1841\u20131842) as a watershed moment in Sino-Western relations is widely accepted, but some modern scholarship questions whether the treaty's immediate economic impact was as transformative as Victorian-era accounts suggest. Trade volumes did not immediately surge as British negotiators expected. Additionally, the characterization of the First Opium War as purely a Western imposition is complicated by evidence of internal Chinese political factions that benefited from the treaty's provisions. The 'Century of Humiliation' narrative, while culturally significant in modern China, may overstate the immediate impact of 1841\u20131842 events on Chinese sovereignty and economic capacity.",
+  "historiographic_note": "Documentation for 1841 is rich in Western sources, particularly British colonial records, naval dispatches, and parliamentary proceedings. Chinese sources exist but are often filtered through later nationalist historiography. African exploration records are dominated by European accounts; indigenous perspectives are largely absent from surviving written records. The historical record reflects Victorian-era biases toward imperial expansion and technological progress. Significant gaps exist in documentation of internal political events in non-Western societies, particularly in Sub-Saharan Africa, Central Asia, and the Pacific Islands. The record is heavily weighted toward political and military events; economic and social history of non-elite populations is underrepresented.",
+  "graph_edges": [
+    {
+      "from": "1841-002",
+      "to": "1842-001",
+      "relation": "led_to",
+      "note": "Treaty of Nanking ratified in 1842; establishes unequal treaty system"
+    },
+    {
+      "from": "1841-004",
+      "to": "1845-002",
+      "relation": "led_to",
+      "note": "Tyler's presidency enables Texas annexation policy"
+    },
+    {
+      "from": "1841-007",
+      "to": "1845-003",
+      "relation": "led_to",
+      "note": "Sikh succession crisis leads to First Anglo-Sikh War"
+    },
+    {
+      "from": "1841-001",
+      "to": "1845-001",
+      "relation": "led_to",
+      "note": "Land dispossession accelerates M\u0101ori resistance"
+    }
+  ]
+}

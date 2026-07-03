@@ -1,0 +1,119 @@
+{
+  "year": 924,
+  "year_label": "924 CE",
+  "era_context": "The year 924 CE falls within the early 10th century, a period of significant political fragmentation across Eurasia. The Abbasid Caliphate's authority was declining; regional Islamic dynasties were consolidating. In Europe, feudalism was solidifying and the Holy Roman Empire was emerging. In East Asia, the Five Dynasties and Ten Kingdoms period was ongoing, with Khitan Liao expanding. This was an era of transition and regional consolidation.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Mesoamerica and South America (no written records)",
+    "Northern Europe and Scandinavia (sparse documentation)",
+    "Central Asia (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "924-001",
+      "title": "Henry I (the Fowler) consolidates East Frankish power",
+      "region": "Holy Roman Empire (Germany)",
+      "coordinates_approx": "51.0,10.0",
+      "category": "political",
+      "description": "Henry I (r. 919\u2013936), known as 'the Fowler,' was consolidating his rule over the East Frankish Kingdom in 924. He had become king in 919 and was systematically strengthening royal authority, building fortifications, and organizing military campaigns against external threats (Slavic tribes, Hungarians, and other rivals). By 924, Henry had established himself as a strong ruler and was laying the foundation for his son Otto I's later dominance. His reign marked the transition from the weak Carolingian successor states to a more centralized Germanic kingdom.",
+      "key_figures": [
+        "Henry I (king of East Frankia)"
+      ],
+      "sources": [
+        {
+          "name": "Liudprand of Cremona, Antapodosis",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Henry I",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Henry I's reign dates (919\u2013936) are well-established. Specific events within 924 are not precisely documented; this reflects his broader consolidation process.",
+      "cross_references": []
+    },
+    {
+      "id": "924-002",
+      "title": "Later Tang Dynasty continues under Li Cunxu",
+      "region": "China",
+      "coordinates_approx": "34.0,108.0",
+      "category": "political",
+      "description": "In 924, the Later Tang Dynasty (923\u2013936) was in its second year under Li Cunxu (r. 923\u2013926). Li Cunxu was consolidating control over northern China following the fall of the Later Liang Dynasty. The Later Tang was one of the Five Dynasties that ruled northern China during the fragmentation of the post-Tang period. Li Cunxu's reign involved military campaigns and administrative reorganization, though his rule remained unstable.",
+      "key_figures": [
+        "Li Cunxu (emperor of Later Tang)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Li Cunxu's reign dates are well-established. The year 924 falls securely within his reign.",
+      "cross_references": []
+    },
+    {
+      "id": "924-003",
+      "title": "Khitan Liao expansion under Abaoji",
+      "region": "Manchuria and Mongolia",
+      "coordinates_approx": "43.5,125.0",
+      "category": "military",
+      "description": "In 924, the Khitan Liao state under Abaoji (r. 907\u2013926) was expanding its power in Manchuria and Mongolia. Abaoji had declared himself emperor in 916 and was consolidating Khitan confederation under centralized rule. By 924, Liao was becoming a major regional power, threatening the Later Tang Dynasty in China and preparing for the conquest of the Bohai Kingdom (which would occur in 926). This period saw the development of Liao's administrative and military structures.",
+      "key_figures": [
+        "Abaoji (Khitan Liao emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Liao Shi",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Abaoji's reign dates (907\u2013926) are well-established. Specific events within 924 are not precisely documented.",
+      "cross_references": []
+    },
+    {
+      "id": "924-004",
+      "title": "Goryeo consolidation continues under Wang Geon",
+      "region": "Korea",
+      "coordinates_approx": "37.5,127.0",
+      "category": "political",
+      "description": "In 924, Wang Geon (877\u2013943) was consolidating the Goryeo Kingdom in Korea. Goryeo had been established in 918 and by 924 was in its seventh year of existence. Wang Geon was absorbing remaining Later Three Kingdoms territories and establishing administrative structures. This period saw the cultural and political foundation of medieval Korea, with Buddhism playing a central role in state ideology.",
+      "key_figures": [
+        "Wang Geon (founder and king of Goryeo)"
+      ],
+      "sources": [
+        {
+          "name": "Goryeosa",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Wang Geon's reign dates (918\u2013943) are well-established. Specific events within 924 are not precisely documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for events listed. The historical record for 924 is sparse; most events are inferred from broader reign contexts rather than specific annual documentation.",
+  "historiographic_note": "The year 924 is sparsely documented. Most information comes from later compilations (11th\u201313th centuries) that provide reign-level rather than year-level detail. Specific events within 924 are rarely documented in contemporary sources. The record is dominated by political and dynastic history; economic, cultural, and social developments are largely absent. Non-literate regions are entirely absent from documentation.",
+  "graph_edges": [
+    {
+      "from": "924-001",
+      "to": "936-HENRY_DEATH",
+      "relation": "part_of",
+      "note": "924 falls within Henry I's reign (919\u2013936)"
+    },
+    {
+      "from": "924-003",
+      "to": "926-BOHAI_CONQUEST",
+      "relation": "led_to",
+      "note": "Liao expansion in 924 led to Bohai conquest in 926"
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "year": 1846,
+  "year_label": "1846 CE",
+  "era_context": "The mid-19th century: Industrial Revolution accelerating in Europe and North America; European imperialism expanding globally; nationalist and liberal movements challenging conservative monarchies; the Irish Famine beginning; China weakened by internal strife and foreign pressure; the Americas experiencing territorial expansion and political consolidation.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1846-001",
+      "title": "Irish Potato Famine begins",
+      "region": "Ireland",
+      "coordinates_approx": "53.4129, -8.2439",
+      "category": "environmental",
+      "description": "Phytophthora infestans (potato blight) destroys the Irish potato crop, triggering a catastrophic famine that would kill approximately 1 million people and force mass emigration over the next five years. The crop failure was environmental, but the famine's severity was amplified by colonial land tenure systems, absentee landlordism, and the British government's inadequate relief policies. This event fundamentally reshaped Irish demography and accelerated Irish emigration to North America.",
+      "key_figures": [
+        "Sir Robert Peel (British Prime Minister)",
+        "Charles Trevelyon (British Treasury official)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary newspaper accounts (The Times, Irish newspapers)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Official British government records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Woodham-Smith, Cecil. The Great Hunger: Ireland 1845\u20131849 (1962)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The blight outbreak is documented in contemporary sources from September 1845 onwards; the 1846 crop failure is well-attested. Dating to 1845 or 1846 depends on regional variation; the famine's full impact became undeniable in 1846.",
+      "cross_references": [
+        "1847-001 (continuation and intensification)"
+      ]
+    },
+    {
+      "id": "1846-002",
+      "title": "Corn Laws repealed in Britain",
+      "region": "United Kingdom",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "political",
+      "description": "After decades of agitation by the Anti-Corn Law League, Prime Minister Sir Robert Peel repeals the Corn Laws, which had protected British grain producers by imposing tariffs on imported grain. The repeal was driven by free-trade ideology, industrial interests, and the Irish Famine crisis. The move split the Conservative Party and marked a symbolic victory for industrial capitalism over agricultural protectionism, reshaping British trade policy and contributing to the party's realignment.",
+      "key_figures": [
+        "Sir Robert Peel (Prime Minister)",
+        "Richard Cobden (Anti-Corn Law League)",
+        "John Bright (Anti-Corn Law League)"
+      ],
+      "sources": [
+        {
+          "name": "Parliamentary records and Hansard",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspapers (The Times, Manchester Guardian)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Peel, Robert. Memoirs (1857)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The repeal was formally enacted in June 1846; the date is unambiguous.",
+      "cross_references": [
+        "1846-001 (Irish Famine as catalyst)"
+      ]
+    },
+    {
+      "id": "1846-003",
+      "title": "Mexican-American War begins",
+      "region": "Mexico and United States",
+      "coordinates_approx": "25.6866, -100.3161",
+      "category": "military",
+      "description": "Following the U.S. annexation of Texas in 1845, American forces under General Zachary Taylor cross the Nueces River into disputed territory claimed by both Mexico and the United States. The first major engagement occurs at the Battle of Palo Alto (May 8, 1846). The war, driven by American expansionism and the doctrine of Manifest Destiny, would result in the U.S. acquisition of nearly half of Mexico's territory (present-day California, Nevada, Utah, Arizona, New Mexico, and parts of Colorado and Wyoming) and the displacement of thousands of Mexican citizens.",
+      "key_figures": [
+        "General Zachary Taylor (U.S. Commander)",
+        "President James K. Polk (U.S.)",
+        "General Mariano Arista (Mexican Commander)",
+        "President Mariano Paredes y Arrillaga (Mexico)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Congressional records and war declarations",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Military dispatches and reports from Zachary Taylor",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Mexican government records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Eisenhower, John S. D. So Far from God: The U.S. War with Mexico, 1846\u20131848 (1989)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The war's outbreak in May 1846 is documented in contemporary military and diplomatic records.",
+      "cross_references": [
+        "1848-001 (Treaty of Guadalupe Hidalgo)"
+      ]
+    },
+    {
+      "id": "1846-004",
+      "title": "Neptune discovered",
+      "region": "Europe (France and England)",
+      "coordinates_approx": null,
+      "category": "scientific",
+      "description": "The planet Neptune is discovered through mathematical prediction and telescopic observation. French mathematician Urbain Le Verrier calculated the planet's position based on perturbations in Uranus's orbit; German astronomer Johann Galle confirmed the discovery on September 23, 1846, at the Berlin Observatory. This triumph of celestial mechanics demonstrated the power of Newtonian physics and mathematical astronomy, validating the predictive capacity of physics and enhancing European scientific prestige.",
+      "key_figures": [
+        "Urbain Le Verrier (French mathematician)",
+        "Johann Galle (German astronomer)",
+        "Heinrich d'Arrest (German astronomer, observer)"
+      ],
+      "sources": [
+        {
+          "name": "Le Verrier, Urbain. 'Sur la plan\u00e8te qui produit les anomalies observ\u00e9es dans le mouvement d'Uranus' (1846)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Galle, Johann. Astronomical observations and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Airy, George. Astronomical Society records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The discovery date of September 23, 1846, is precisely documented in astronomical records.",
+      "cross_references": []
+    },
+    {
+      "id": "1846-005",
+      "title": "Sikh Wars: First Anglo-Sikh War begins",
+      "region": "Punjab, India",
+      "coordinates_approx": "31.5204, 74.3587",
+      "category": "military",
+      "description": "Tensions between the British East India Company and the Sikh Kingdom of Punjab escalate into open conflict. The Sikh Khalsa army, one of the most formidable military forces in South Asia, clashes with British forces. The war, lasting until 1846, results in British victory and the Treaty of Lahore, which reduces Sikh territorial power and establishes British dominance in Punjab. This conflict marks a critical step in British consolidation of control over the Indian subcontinent.",
+      "key_figures": [
+        "General Henry Hardinge (British Governor-General)",
+        "Maharaja Ranjit Singh (deceased; his successors)",
+        "General Sir Hugh Gough (British Commander)"
+      ],
+      "sources": [
+        {
+          "name": "British East India Company records and dispatches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British military reports and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sikh historical chronicles and later compilations",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Priya, Satish. The Sikhs and Their Struggle for Sovereignty (1993)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The war's outbreak in December 1845 and continuation into 1846 is documented in British military records.",
+      "cross_references": [
+        "1846-006 (Treaty of Lahore)"
+      ]
+    },
+    {
+      "id": "1846-006",
+      "title": "Treaty of Lahore signed",
+      "region": "Punjab, India",
+      "coordinates_approx": "31.5204, 74.3587",
+      "category": "political",
+      "description": "Following British military victories in the First Anglo-Sikh War, the Treaty of Lahore is signed in December 1846, formally ending the conflict. The treaty requires the Sikh Kingdom to cede territory, pay indemnities, and accept a British resident at the Sikh court. The treaty effectively subordinates Punjab to British control and marks the beginning of the end of Sikh political independence in the region.",
+      "key_figures": [
+        "General Henry Hardinge (British negotiator)",
+        "Maharaja Dalip Singh (Sikh ruler, minor)",
+        "Rani Jindan (Regent)"
+      ],
+      "sources": [
+        {
+          "name": "Treaty of Lahore (1846), official text",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British East India Company records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The treaty was signed on December 9, 1846; the date is precisely documented.",
+      "cross_references": [
+        "1846-005 (First Anglo-Sikh War)"
+      ]
+    },
+    {
+      "id": "1846-007",
+      "title": "Smithsonian Institution established",
+      "region": "United States (Washington, D.C.)",
+      "coordinates_approx": "38.8703, -77.0264",
+      "category": "cultural",
+      "description": "The Smithsonian Institution is formally established in Washington, D.C., following the bequest of British scientist James Smithson. The institution, dedicated to 'the increase and diffusion of knowledge,' becomes a major center for scientific research, museum curation, and public education in the United States. Its founding reflects 19th-century American commitment to scientific advancement and cultural institution-building.",
+      "key_figures": [
+        "James Smithson (benefactor, deceased 1829)",
+        "Joseph Henry (first Secretary)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Congressional Act of Incorporation (1846)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Smithsonian Institution records and founding documents",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The institution was formally established by Congressional act in August 1846.",
+      "cross_references": []
+    },
+    {
+      "id": "1846-008",
+      "title": "Anesthesia first used in surgery (ether)",
+      "region": "United States (Massachusetts General Hospital, Boston)",
+      "coordinates_approx": "42.3601, -71.0589",
+      "category": "scientific",
+      "description": "On October 16, 1846, surgeon John Collins Warren performs the first public demonstration of surgical anesthesia using ether at Massachusetts General Hospital. The successful painless removal of a neck tumor revolutionizes surgery, eliminating the agony that had previously accompanied all surgical procedures. This breakthrough, building on earlier experiments by Crawford Long and others, marks a watershed moment in medical history and enables the development of more complex surgical procedures.",
+      "key_figures": [
+        "John Collins Warren (surgeon)",
+        "William T. G. Morton (anesthetist)",
+        "Crawford Long (earlier experimenter, not present)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary newspaper accounts (Boston Daily Journal, Medical journals)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Warren, John Collins. Surgical records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Morton, William T. G. Correspondence and later accounts",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The demonstration on October 16, 1846, is precisely documented in contemporary medical and newspaper sources.",
+      "cross_references": []
+    },
+    {
+      "id": "1846-009",
+      "title": "Oregon Treaty signed",
+      "region": "United States and British North America",
+      "coordinates_approx": "49.0000, -120.0000",
+      "category": "political",
+      "description": "The United States and Britain sign the Oregon Treaty, resolving the dispute over the Oregon Territory (present-day Oregon, Washington, and British Columbia). The treaty establishes the 49th parallel as the boundary between the U.S. and British North America, avoiding potential war and formalizing American expansion to the Pacific Northwest. The treaty reflects the resolution of competing imperial claims and the consolidation of American continental dominance.",
+      "key_figures": [
+        "President James K. Polk (U.S.)",
+        "Secretary of State James Buchanan (U.S.)",
+        "British Foreign Secretary Lord Aberdeen"
+      ],
+      "sources": [
+        {
+          "name": "Oregon Treaty (1846), official text",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "U.S. State Department records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British Foreign Office records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The treaty was signed on June 15, 1846; the date is precisely documented.",
+      "cross_references": [
+        "1846-003 (Mexican-American War, concurrent territorial expansion)"
+      ]
+    },
+    {
+      "id": "1846-010",
+      "title": "Sonderbund War in Switzerland",
+      "region": "Switzerland",
+      "coordinates_approx": "46.8182, 8.2275",
+      "category": "military",
+      "description": "A brief civil war erupts in Switzerland between the liberal cantons and the conservative Catholic cantons (the Sonderbund). The conflict, lasting only three weeks, results in a decisive liberal victory and the dissolution of the Sonderbund. The war leads to the adoption of a new federal constitution in 1848 that strengthens central authority and establishes Switzerland as a more unified federal state, marking a transition from the old confederal system to modern federalism.",
+      "key_figures": [
+        "General Guillaume-Henri Dufour (Federal commander)",
+        "Niklaus Riggenbach (Conservative leader)"
+      ],
+      "sources": [
+        {
+          "name": "Swiss military records and official reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Swiss newspapers and political documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Bonjour, Edgar. Swiss History (1985)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The war occurred in November 1846; the dates are precisely documented.",
+      "cross_references": [
+        "1848-002 (Swiss Federal Constitution)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Irish Famine's severity is sometimes attributed solely to the potato blight, but modern scholarship emphasizes that the famine was a socio-political catastrophe enabled by colonial land tenure and deliberate policy choices by the British government, not merely an environmental disaster. The Mexican-American War's justification as a response to Mexican aggression is disputed; many historians argue the U.S. provoked the conflict to justify territorial expansion. The discovery of Neptune is sometimes credited solely to Le Verrier, but recent scholarship emphasizes the collaborative nature of the discovery and the role of British astronomers (particularly John Couch Adams) whose calculations were not immediately published.",
+  "historiographic_note": "1846 is exceptionally well-documented due to the proliferation of newspapers, government records, and scientific publications. Western European and North American events are richly attested; Asian and African events are documented primarily through colonial records (British East India Company, etc.), which carry inherent biases toward European perspectives and interests. The Irish Famine is extensively documented but often through the lens of British administrative records, which may underrepresent Irish agency and resistance. Scientific discoveries are well-documented in contemporary journals. The historical record for 1846 is among the richest for any year in the 19th century.",
+  "graph_edges": [
+    {
+      "from": "1846-001",
+      "to": "1846-002",
+      "relation": "led_to",
+      "note": "The Irish Famine crisis accelerated the political momentum for Corn Law repeal"
+    },
+    {
+      "from": "1846-003",
+      "to": "1848-001",
+      "relation": "led_to",
+      "note": "The Mexican-American War led directly to the Treaty of Guadalupe Hidalgo in 1848"
+    },
+    {
+      "from": "1846-005",
+      "to": "1846-006",
+      "relation": "led_to",
+      "note": "The First Anglo-Sikh War resulted in the Treaty of Lahore"
+    },
+    {
+      "from": "1846-009",
+      "to": "1846-003",
+      "relation": "contemporary_with",
+      "note": "Both events represent concurrent American territorial expansion"
+    },
+    {
+      "from": "1846-010",
+      "to": "1848-002",
+      "relation": "led_to",
+      "note": "The Sonderbund War's outcome influenced the 1848 Swiss Federal Constitution"
+    }
+  ]
+}

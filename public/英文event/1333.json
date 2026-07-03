@@ -1,0 +1,89 @@
+{
+  "year": 1333,
+  "year_label": "1333 CE",
+  "era_context": "The early 14th century, with the Yuan Dynasty in decline in China, the Ottoman Empire consolidating power in Anatolia, the Hundred Years' War approaching (formal declaration in 1337), and Europe in the late medieval period. Plague is endemic in Asia and spreading westward. This is a period of political fragmentation, military innovation, and cultural transition across Eurasia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa \u2014 no contemporary written sources",
+    "Southeast Asia \u2014 minimal documentation",
+    "Indigenous Americas \u2014 no contemporary written records",
+    "Eastern Europe and Russia \u2014 limited sources"
+  ],
+  "events": [
+    {
+      "id": "1333-001",
+      "title": "Kenmu Restoration in Japan \u2014 Emperor Go-Daigo's attempt to restore imperial rule",
+      "region": "Kyoto, Japan",
+      "coordinates_approx": "35.01, 135.77",
+      "category": "political",
+      "description": "Emperor Go-Daigo, with support from samurai warlords including Ashikaga Takauji, overthrew the H\u014dj\u014d regency and attempted to restore direct imperial rule in Japan. This event, known as the Kenmu Restoration, marked the end of the Kamakura shogunate and the beginning of a period of political instability. However, the restoration was short-lived; Ashikaga Takauji would soon turn against Go-Daigo and establish his own shogunate (the Ashikaga Shogunate) by 1338. The Kenmu Restoration is significant as a moment of imperial reassertion, though ultimately unsuccessful.",
+      "key_figures": [
+        "Emperor Go-Daigo (Japanese emperor)",
+        "Ashikaga Takauji (samurai warlord, later founder of Ashikaga Shogunate)",
+        "Nitta Yoshisada (samurai general supporting Go-Daigo)"
+      ],
+      "sources": [
+        {
+          "name": "Taiheiki (Chronicle of the Great Peace)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Japanese court records",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Kenmu Restoration is well-documented in Japanese chronicles. The date (1333) is secure, though some sources give 1334 as the beginning of the restoration period.",
+      "cross_references": [
+        "1335-001 (Ashikaga Takauji establishes Ashikaga Shogunate)",
+        "1338-001 (Formal appointment of Ashikaga Takauji as Shogun)"
+      ]
+    },
+    {
+      "id": "1333-002",
+      "title": "Famine in China during Yuan Dynasty",
+      "region": "China, Yuan Dynasty territories",
+      "coordinates_approx": "35.0, 105.0",
+      "category": "environmental",
+      "description": "Severe famine was reported in various regions of China during the Yuan Dynasty, contributing to social unrest and the rise of rebellious movements. The famine was likely caused by a combination of factors: poor harvests, Mongol administrative mismanagement, and the disruption of the Grand Canal system. These famines contributed to the conditions that would fuel the Red Turban rebellion and eventually lead to the collapse of Yuan rule and the establishment of the Ming Dynasty. Famine and plague together created a crisis of legitimacy for Mongol rule.",
+      "key_figures": [
+        "Toghon Tem\u00fcr (Yuan emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shi (History of the Yuan)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Famines in Yuan China in the 1330s are documented in later compilations, but specific dating and severity are difficult to verify. The broader context of Yuan decline is clear, but year-by-year events are uncertain.",
+      "cross_references": [
+        "1336-002 (Ming Dynasty founded)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Kenmu Restoration's date is sometimes given as 1334 rather than 1333. The exact chronology of the restoration and its immediate aftermath is debated among Japanese historians. The significance of the restoration is contested: some scholars view it as a genuine attempt at imperial reassertion, while others see it as a brief interlude in the rise of military government.",
+  "historiographic_note": "Documentation for 1333 is sparse. Japanese sources are relatively abundant but compiled later. Chinese sources are voluminous but focus on court politics and dynastic decline rather than discrete events in this year. Islamic and Byzantine sources provide minimal information about this year. The absence of documented events for most of the world reflects the severe bias of surviving written sources toward East Asia and the Islamic world.",
+  "graph_edges": [
+    {
+      "from": "1333-001",
+      "to": "1335-001",
+      "relation": "led_to",
+      "note": "Kenmu Restoration led to Ashikaga Takauji's consolidation of power"
+    },
+    {
+      "from": "1333-002",
+      "to": "1336-002",
+      "relation": "led_to",
+      "note": "Yuan famine and crisis contributed to Ming Dynasty's rise"
+    }
+  ]
+}

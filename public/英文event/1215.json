@@ -1,0 +1,243 @@
+{
+  "year": 1215,
+  "year_label": "1215 CE",
+  "era_context": "The early 13th century was marked by the consolidation of royal power in Western Europe, the height of the Crusading movement, the flourishing of Islamic scholarship and architecture in the Levant and Egypt, and the emergence of the Mongol confederation in Central Asia. In 1215, the Fourth Lateran Council convened under Pope Innocent III, representing the apex of papal authority in Christendom. England was in crisis under King John, the Ayyubid Sultanate was consolidating under al-Malik al-Adil, and the Song Dynasty in China was under pressure from the Jurchen Jin. This was an era of religious reform, military conflict, and political centralisation.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Oceania and Pacific islands (no written records)",
+    "Northern Europe beyond Scandinavia (sparse documentation)",
+    "East Asia beyond Song China and Jin territories (limited sources in Western archives)"
+  ],
+  "events": [
+    {
+      "id": "1215-001",
+      "title": "Magna Carta sealed by King John of England at Runnymede",
+      "region": "England, Thames Valley",
+      "coordinates_approx": "51.4,-0.5",
+      "category": "legal",
+      "description": "On 15 June 1215, King John of England sealed the Magna Carta (Great Charter) at Runnymede, near Windsor, under pressure from rebellious barons. The charter was a peace treaty between the king and the baronial opposition, listing 63 clauses that limited royal prerogatives, guaranteed certain legal rights (trial by jury, due process), and established the principle that the king was subject to law rather than above it. The charter was quickly repudiated by both John and the barons, leading to the First Barons' War (1215\u20131217), but it became a foundational document in the development of English constitutional law and the concept of limited monarchy. The Magna Carta's significance lies not in its immediate effect (minimal) but in its later reinterpretation as a symbol of legal rights and parliamentary governance.",
+      "key_figures": [
+        "King John of England",
+        "Stephen Langton, Archbishop of Canterbury (mediator)",
+        "The Barons of England (signatories)"
+      ],
+      "sources": [
+        {
+          "name": "The Magna Carta (original sealed document, 1215)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Roger of Wendover, Flores Historiarum (contemporary chronicle)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "The Life of William Marshal (Anglo-Norman verse biography)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The sealing of Magna Carta on 15 June 1215 is one of the most precisely documented events in medieval English history. Multiple contemporary sources attest to the date and circumstances.",
+      "cross_references": [
+        "Led to 1216-001 (King John's death and Henry III's accession)",
+        "Led to 1217-001 (Treaty of Lambeth, reissue of Magna Carta)"
+      ]
+    },
+    {
+      "id": "1215-002",
+      "title": "Fourth Lateran Council convened by Pope Innocent III",
+      "region": "Rome, Christendom",
+      "coordinates_approx": "41.9,12.5",
+      "category": "religious",
+      "description": "From 11 to 30 November 1215, Pope Innocent III convened the Fourth Lateran Council in Rome, the largest and most important ecumenical council of the medieval period. The council issued 70 canons addressing doctrine, Church discipline, and crusade policy. Key decisions included the formal definition of transubstantiation as Catholic doctrine, the requirement for annual confession and communion, restrictions on clerical marriage and simony, the establishment of inquisitorial procedures against heresy, and the confirmation of the Fourth Crusade and the Albigensian Crusade. The council also addressed the status of Jews and Muslims in Christendom, imposing restrictions on their dress and residence. The Fourth Lateran Council represented the apex of medieval papal authority and reshaped Christian practice and belief across Europe.",
+      "key_figures": [
+        "Pope Innocent III (convener)",
+        "Stephen Langton, Archbishop of Canterbury (participant)",
+        "Bishops and abbots of Christendom (participants)"
+      ],
+      "sources": [
+        {
+          "name": "The Canons of the Fourth Lateran Council (official ecclesiastical documents, 1215)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Roger of Wendover, Flores Historiarum (contemporary chronicle)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Fourth Lateran Council is one of the most thoroughly documented events of the medieval period. Dates, participants, and canons are precisely recorded in official ecclesiastical documents and contemporary chronicles.",
+      "cross_references": [
+        "Led to 1216-006 (implementation of council reforms)",
+        "Contemporary with 1215-001 (Magna Carta)"
+      ]
+    },
+    {
+      "id": "1215-003",
+      "title": "Al-Malik al-Adil rules the Ayyubid Sultanate at the height of its power",
+      "region": "Egypt, Levant, Syria, Mesopotamia",
+      "coordinates_approx": "30.0,35.0",
+      "category": "political",
+      "description": "In 1215, al-Malik al-Adil (Saif al-Din Abu Bakr Ahmad al-Malik al-Adil Isa ibn Ayyub), the Ayyubid Sultan, was ruling a vast empire stretching from Egypt through the Levant to Mesopotamia. Al-Adil had consolidated Ayyubid power following the death of his brother Saladin in 1193 and had established a stable, prosperous realm. In 1215, al-Adil was in his late 70s and would die in 1218, but his reign represented the height of Ayyubid territorial extent and cultural achievement. Cairo was a centre of Islamic learning, architecture, and commerce. Al-Adil's reign saw the construction of major monuments and the patronage of scholars, though it also witnessed the beginning of the Fifth Crusade's invasion of Egypt.",
+      "key_figures": [
+        "Al-Malik al-Adil (Ayyubid Sultan)",
+        "Al-Malik al-Kamil (son, heir)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh (Islamic chronicle, contemporary)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Al-Maqrizi, Kitab al-Suluk (later compilation, 15th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Al-Adil's rule in 1215 is well-attested in Islamic sources. His death in 1218 is precisely dated in multiple chronicles.",
+      "cross_references": [
+        "Follows from 1193-001 (Saladin's death)",
+        "Led to 1218-001 (al-Adil's death and al-Kamil's succession)"
+      ]
+    },
+    {
+      "id": "1215-004",
+      "title": "Tem\u00fcjin consolidates Mongol confederation; Jamukha defeated",
+      "region": "Central Asian steppes, Mongolia",
+      "coordinates_approx": "47.0,105.0",
+      "category": "political",
+      "description": "In 1204, Tem\u00fcjin defeated his rival Jamukha at the Battle of the Thirteen Sides, eliminating his most serious competitor for control of the Mongol tribes. By 1215, Tem\u00fcjin had been consolidating his power for over a decade, incorporating defeated tribes into a unified state, establishing a meritocratic military system, and eliminating rival khans. In 1206, he was proclaimed Genghis Khan at a kurultai (assembly). By 1215, the Mongol confederation was a significant regional power on the steppes, though it was not yet known to distant observers in Europe or the Islamic world. Tem\u00fcjin's consolidation of the Mongol tribes would have profound consequences for Eurasia, though these consequences were not yet apparent.",
+      "key_figures": [
+        "Tem\u00fcjin / Genghis Khan (Mongol leader)",
+        "Jamukha (defeated rival)",
+        "Toghrul Khan (Kereit ally)"
+      ],
+      "sources": [
+        {
+          "name": "The Secret History of the Mongols (Mongolian epic, compiled 13th century, oral tradition)",
+          "type": "oral_tradition",
+          "contemporary": false
+        },
+        {
+          "name": "Rashid al-Din, Jami' al-tawarikh (Persian chronicle, early 14th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The exact chronology of Tem\u00fcjin's consolidation is uncertain. The Secret History provides narrative detail but was compiled after the fact. Islamic sources are later and less detailed. Dating is approximate within \u00b15 years.",
+      "cross_references": [
+        "Follows from 1206-001 (Tem\u00fcjin proclaimed Genghis Khan)",
+        "Led to 1219-001 (Mongol invasion of Khwarazmia)"
+      ]
+    },
+    {
+      "id": "1215-005",
+      "title": "Song Dynasty under pressure from Jurchen Jin in northern China",
+      "region": "China, East Asia",
+      "coordinates_approx": "35.0,115.0",
+      "category": "political",
+      "description": "In 1215, the Song Dynasty of southern China was in a state of military and political stress, having lost control of northern China to the Jurchen Jin Dynasty in 1127. The Jin Dynasty ruled northern China from their capital at Zhongdu (modern Beijing), while the Song Dynasty controlled the south from their capital at Hangzhou. In 1215, the Jin Dynasty was itself under pressure from the rising Mongol confederation under Tem\u00fcjin, though this threat was not yet apparent to Song observers. The division of China between Jin and Song would persist until the Mongol conquests of the 1270s. In 1215, the Song Dynasty was experiencing a period of cultural and economic flourishing, with advances in printing, ceramics, and landscape painting, despite military and political challenges.",
+      "key_figures": [
+        "Emperor Zhangzong of Song (Song ruler, died 1189, but his successors ruled in 1215)",
+        "Emperor Xuanzong of Jin (Jin ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Zhu Xi, Zizhi Tongjian Gangmu (Chinese historical compilation, 12th\u201313th century)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Official Song and Jin court records (fragmentary, later compiled)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The political division of China between Song and Jin in 1215 is well-documented in Chinese historical sources. The cultural and economic developments of the Song Dynasty are also well-attested.",
+      "cross_references": [
+        "Follows from 1127-001 (Jin conquest of northern China)",
+        "Led to 1271-001 (Mongol conquest of Song Dynasty)"
+      ]
+    },
+    {
+      "id": "1215-006",
+      "title": "Albigensian Crusade: Simon de Montfort captures Toulouse",
+      "region": "Occitania, southern France",
+      "coordinates_approx": "43.6,1.4",
+      "category": "military",
+      "description": "In 1215, Simon de Montfort, the commander of the Albigensian Crusade, captured the city of Toulouse, the capital of the County of Toulouse and a centre of Cathar heresy. The capture of Toulouse represented a major crusader victory and the consolidation of crusader control over much of Occitania. However, the crusade would continue for another 14 years, and Toulouse would be recaptured by the Count of Toulouse in 1217. The Albigensian Crusade (1209\u20131229) was a papal-sanctioned military campaign against the Cathar heresy in southern France, which resulted in the destruction of Occitan culture and the integration of the region into the French crown. The crusade is notable for its brutality and for the use of crusade rhetoric against Christian heretics rather than external enemies.",
+      "key_figures": [
+        "Simon de Montfort (crusade commander)",
+        "Raymond V, Count of Toulouse (defender)",
+        "Pope Innocent III (crusade sponsor)"
+      ],
+      "sources": [
+        {
+          "name": "Peter of Vaux-de-Cernay, Historia Albigensis (chronicle by crusade participant)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "The Song of the Albigensian Crusade (Occitan epic poem, compiled 13th century)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The capture of Toulouse in 1215 is attested in crusade chronicles, though some sources date the event to 1216. The exact date is uncertain within \u00b11 year.",
+      "cross_references": [
+        "Part of Albigensian Crusade (1209\u20131229)",
+        "Led to 1217-002 (Raymond V recaptures Toulouse)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Magna Carta is often portrayed as a triumph of baronial rights and a step toward democracy, but modern scholarship emphasizes that it was a peace treaty between the king and the nobility, not a document establishing popular rights. The charter was quickly repudiated and had minimal immediate effect. Its later reinterpretation as a symbol of constitutional governance occurred centuries later, particularly in the 17th century. The Fourth Lateran Council is sometimes presented as a purely spiritual event, but it was deeply political, addressing the status of Jews and Muslims and confirming military crusades. The capture of Toulouse by Simon de Montfort in 1215 is sometimes dated to 1216 in different sources, indicating chronological uncertainty. The portrayal of the Albigensian Crusade as a straightforward papal victory obscures the significant local resistance and the cultural destruction involved.",
+  "historiographic_note": "The year 1215 is exceptionally well-documented for Western Europe, with abundant chronicle sources and official documents (Magna Carta, Fourth Lateran Council canons). However, sources are heavily weighted toward political, military, and ecclesiastical events involving the Church and nobility. Economic, social, and cultural developments are less well-recorded. Sources for the Islamic world are good for the Ayyubid Sultanate but sparse for other regions. Sources for East Asia are limited in Western archives but abundant in Chinese and Japanese sources. Sources for Central Asia and the Mongol steppes are sparse and largely retrospective. Sub-Saharan Africa, Oceania, and much of northern Europe are poorly represented. The historical record reflects the biases of literate elites and the priorities of surviving manuscript traditions.",
+  "graph_edges": [
+    {
+      "from": "1215-001",
+      "to": "1216-001",
+      "relation": "led_to",
+      "note": "The Magna Carta crisis and baronial revolt led to King John's death and Henry III's accession in 1216"
+    },
+    {
+      "from": "1215-002",
+      "to": "1216-006",
+      "relation": "led_to",
+      "note": "The Fourth Lateran Council's canons were implemented across Christendom in 1216"
+    },
+    {
+      "from": "1215-003",
+      "to": "1218-001",
+      "relation": "led_to",
+      "note": "Al-Malik al-Adil's rule in 1215 ended with his death in 1218 and al-Kamil's succession"
+    },
+    {
+      "from": "1215-004",
+      "to": "1219-001",
+      "relation": "led_to",
+      "note": "Tem\u00fcjin's consolidation of the Mongol confederation by 1215 enabled the invasion of Khwarazmia in 1219"
+    },
+    {
+      "from": "1215-005",
+      "to": "1271-001",
+      "relation": "led_to",
+      "note": "The Song Dynasty's weakness in 1215 contributed to its eventual conquest by the Mongols in 1271"
+    },
+    {
+      "from": "1215-006",
+      "to": "1217-002",
+      "relation": "led_to",
+      "note": "Simon de Montfort's capture of Toulouse in 1215 was followed by its recapture by the Count of Toulouse in 1217"
+    }
+  ]
+}

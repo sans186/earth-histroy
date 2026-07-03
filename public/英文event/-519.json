@@ -1,0 +1,95 @@
+{
+  "year": -519,
+  "year_label": "519 BCE",
+  "era_context": "The Achaemenid Persian Empire under Darius I is consolidating control over vast territories from Egypt to the Indus Valley. In Greece, the Archaic period is transitioning toward the Classical; city-states are developing democratic and oligarchic institutions. In China, the Spring and Autumn period continues with competing states fragmenting the Zhou realm. In India, the Vedic period is giving way to the Upanishadic age and early formation of the Mahajanapadas.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Most of Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-519-001",
+      "title": "Darius I's Scythian Campaign (probable dating)",
+      "region": "Scythian territories north of the Black Sea and Danube; Persian Empire",
+      "coordinates_approx": "48.0, 35.0",
+      "category": "military",
+      "description": "Darius I led a major military expedition against the Scythians, crossing the Danube River with a large army. The campaign aimed to subjugate or punish the nomadic Scythian tribes and extend Persian control into the steppes. The expedition is attested in Herodotus and later sources, though the exact dating remains debated among scholars. The campaign was ultimately inconclusive; Darius withdrew without achieving decisive conquest, though he may have secured tributary arrangements. This expedition demonstrated both the reach and limits of Persian imperial power.",
+      "key_figures": [
+        "Darius I (Persian King)",
+        "Scythian leaders (unnamed in sources)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories, Book IV",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Herodotus places this campaign in Darius's reign (522\u2013486 BCE), but does not provide a precise year. Modern scholars debate whether it occurred c. 519 BCE or in the 510s BCE. Archaeological evidence from the region is limited.",
+      "cross_references": [
+        "Related to broader Achaemenid expansion documented in inscriptions from Darius's reign"
+      ]
+    },
+    {
+      "id": "-519-002",
+      "title": "Cleisthenes' Reforms in Athens (traditional dating)",
+      "region": "Athens, Attica, Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "Cleisthenes, an Athenian aristocrat, implemented sweeping constitutional reforms that are traditionally dated to around 508\u2013507 BCE, though some scholars place elements in the 510s. These reforms reorganized the Athenian citizen body by replacing kinship-based tribal divisions with ten new tribes based on geographic demes (local districts). The reforms established the Council of 500 (Boule) and strengthened the Assembly (Ekklesia), laying foundational structures for Athenian democracy. The ostracism procedure may also have been introduced around this time. These changes fundamentally altered Athenian political life and are considered a watershed moment in the development of democratic institutions.",
+      "key_figures": [
+        "Cleisthenes (Athenian reformer)",
+        "Isagoras (rival aristocrat)"
+      ],
+      "sources": [
+        {
+          "name": "Aristotle, Constitution of the Athenians",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Herodotus, Histories, Book V",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Solon",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Ancient sources place Cleisthenes' reforms in the archonship of Isagoras (508/7 BCE by the Athenian calendar), but the exact year in the proleptic Gregorian calendar is uncertain by \u00b12\u20133 years. No contemporary inscriptions precisely date the reforms.",
+      "cross_references": [
+        "Precedes the Persian Wars (490\u2013479 BCE)",
+        "Follows the tyranny of Peisistratus and his sons"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Cleisthenes' reforms is contested. Some scholars argue that the reforms were more gradual and less revolutionary than the traditional narrative suggests, with democratic elements developing incrementally over decades rather than in a single legislative moment. The Scythian campaign's date is highly uncertain; some scholars place it in the 510s or even 500s BCE, and its historical significance may be exaggerated in Herodotus's account relative to its actual impact on Persian imperial strategy.",
+  "historiographic_note": "Documentation for this year is sparse and heavily dependent on later Greek historiography (Herodotus, Aristotle, Plutarch), written 50\u2013400 years after the events. Persian sources (inscriptions, administrative records) are more contemporary but do not provide year-by-year detail. The Athenian reforms are better attested than the Scythian campaign, but even Athenian dating relies on later reconstruction. No contemporary inscriptions or primary documents from this specific year survive. The record is biased toward Greek and Persian elite narratives; events in other regions are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-519-001",
+      "to": "-490-001",
+      "relation": "led_to",
+      "note": "Darius's expansionist campaigns and consolidation of power set the stage for later Persian-Greek conflicts"
+    },
+    {
+      "from": "-519-002",
+      "to": "-490-001",
+      "relation": "led_to",
+      "note": "Cleisthenes' democratic reforms strengthened Athens politically and militarily, enabling resistance to Persian invasion"
+    }
+  ]
+}

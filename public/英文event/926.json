@@ -1,0 +1,139 @@
+{
+  "year": 926,
+  "year_label": "926 CE",
+  "era_context": "The early 10th century CE spans the fragmentation of the Abbasid Caliphate, the rise of regional Islamic dynasties (Fatimids, Buyids, Umayyads of al-Andalus), the consolidation of the Holy Roman Empire under Otto I, the decline of the Tang Dynasty's successor states in China, and the emergence of Khitan Liao power in East Asia. In Europe, feudalism is solidifying; in the Islamic world, theological and political schism deepens; in East Asia, the Five Dynasties and Ten Kingdoms period is nearing its end.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources; oral traditions not systematically recorded)",
+    "Mesoamerica and South America (no written records in this period; archaeological record sparse)",
+    "Northern Europe and Scandinavia (sparse written documentation; mostly later sagas)"
+  ],
+  "events": [
+    {
+      "id": "926-001",
+      "title": "Death of \u00c6thelstan of England; accession of Edmund I",
+      "region": "England",
+      "coordinates_approx": "52.5,-1.5",
+      "category": "political",
+      "description": "\u00c6thelstan, king of England and first to style himself 'King of all Britain,' died on 27 October 926 after a reign of 15 years. His half-brother Edmund I succeeded him at approximately age 18. Edmund inherited a consolidated English kingdom but faced immediate challenges from Scottish and Norse rivals who had submitted to \u00c6thelstan. Edmund's reign would be marked by military campaigns to reassert English dominance over the north and west.",
+      "key_figures": [
+        "\u00c6thelstan (deceased king)",
+        "Edmund I (new king of England)"
+      ],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle (E-version, compiled 11th century but drawing on earlier annals)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "William of Malmesbury, Gesta Regum Anglorum (12th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Death date of 27 October 926 is well-attested in multiple chronicle traditions. Edmund's succession is uncontested.",
+      "cross_references": []
+    },
+    {
+      "id": "926-002",
+      "title": "Khitan Liao conquest of the Bohai Kingdom",
+      "region": "Manchuria and Korea",
+      "coordinates_approx": "43.5,125.0",
+      "category": "military",
+      "description": "The Khitan Liao, a semi-nomadic confederation under Abaoji (who had declared himself emperor in 916), conquered the Bohai Kingdom (also known as Balhae), a Korean-Jurchen state that had existed since 698 CE. The conquest was completed in 926, marking the end of Bohai as an independent polity and the expansion of Khitan Liao hegemony over Manchuria and parts of the Korean peninsula. This event reshaped East Asian geopolitics and established Liao as a major regional power.",
+      "key_figures": [
+        "Abaoji (Khitan Liao emperor, died 926)",
+        "Dae Gwangeon (last king of Bohai, fled to Goryeo)"
+      ],
+      "sources": [
+        {
+          "name": "Liao Shi (History of the Liao Dynasty, compiled 13th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Goryeosa (History of Goryeo, compiled 13th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Bohai sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The conquest of Bohai in 926 is consistently dated in Chinese and Korean historiographic sources. Abaoji's death also occurred in 926, making this a pivotal year for Liao succession.",
+      "cross_references": []
+    },
+    {
+      "id": "926-003",
+      "title": "Death of Abaoji; succession crisis in Khitan Liao",
+      "region": "Manchuria",
+      "coordinates_approx": "43.5,125.0",
+      "category": "political",
+      "description": "Abaoji, founder of the Khitan Liao state and architect of its expansion, died in 926 (some sources give 927). His death triggered a succession dispute. His widow, Yelu Yushi (Empress Shul\u00fc), acted as regent and eventually secured the throne for their son Deguang (Taizong), though not without internal conflict. This succession was critical to Liao's consolidation as a multi-ethnic empire.",
+      "key_figures": [
+        "Abaoji (deceased Khitan emperor)",
+        "Yelu Yushi / Shul\u00fc (empress regent)",
+        "Deguang / Taizong (successor)"
+      ],
+      "sources": [
+        {
+          "name": "Liao Shi",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Abaoji's death is dated to 926 in most sources, though some place it in 927. The succession process is attested but details of internal conflict are sparse.",
+      "cross_references": [
+        "926-002"
+      ]
+    },
+    {
+      "id": "926-004",
+      "title": "Fatimid consolidation in North Africa; al-Mahdi's reign",
+      "region": "North Africa (Ifriqiya, Maghreb)",
+      "coordinates_approx": "35.0,5.0",
+      "category": "political",
+      "description": "In 926, the Fatimid Caliphate under al-Mahdi (r. 909\u2013934) was consolidating its control over North Africa. Al-Mahdi had established the Fatimid state as a rival Shi'a caliphate to the Sunni Abbasids. By 926, Fatimid power was expanding militarily and administratively, with control extending from the Maghreb toward Egypt. This period saw the development of Fatimid administrative structures and the assertion of Shi'a religious authority.",
+      "key_figures": [
+        "al-Mahdi (Fatimid caliph)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Mas'udi, Meadows of Gold (10th century, near-contemporary)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Fatimid expansion",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Al-Mahdi's reign dates are well-established (909\u2013934). Specific events within 926 are less precisely documented; this entry reflects the broader consolidation process.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Abaoji's death is sometimes given as 927 rather than 926 in certain sources, creating minor chronological ambiguity. The extent of Fatimid territorial control in 926 is debated; some scholars argue consolidation was slower than traditional narratives suggest. No major disconfirming evidence undermines the significance of the events listed.",
+  "historiographic_note": "The year 926 is well-documented for Western Europe (Anglo-Saxon Chronicle) and moderately documented for East Asia (Liao and Goryeo sources, though compiled centuries later). Islamic sources from this period are less precise about annual events. The record is heavily skewed toward political and military events; economic, cultural, and social history are underrepresented. Sub-Saharan Africa, the Americas, and Oceania are essentially absent from contemporary documentation.",
+  "graph_edges": [
+    {
+      "from": "926-001",
+      "to": "927-EDMUND_CAMPAIGNS",
+      "relation": "led_to",
+      "note": "Edmund I's succession set the stage for military campaigns to reassert English dominance"
+    },
+    {
+      "from": "926-002",
+      "to": "926-003",
+      "relation": "contemporary_with",
+      "note": "Bohai conquest and Abaoji's death both occurred in 926, marking a turning point for Liao"
+    }
+  ]
+}

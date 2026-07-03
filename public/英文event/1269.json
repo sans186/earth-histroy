@@ -1,0 +1,94 @@
+{
+  "year": 1269,
+  "year_label": "1269 CE",
+  "era_context": "The late 13th century saw the Mongol Yuan Dynasty consolidating control over China under Kublai Khan, while the Mamluk Sultanate dominated the Eastern Mediterranean and Levant. In Europe, the Angevin kingdoms controlled southern Italy and Sicily, the Iberian Reconquista was in its final phases, and the Crusader presence in the Levant had been reduced to isolated coastal holdings. This was an era of long-distance trade expansion (Silk Road, Indian Ocean networks), religious conflict, and the transition from High Medieval to early Late Medieval political structures.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources; oral traditions not well-preserved in Western archives)",
+    "Southeast Asia (limited European documentation; local chronicles exist but underrepresented in English-language historiography)",
+    "Oceania and Pacific islands (minimal written record)",
+    "Eastern Europe and the Steppe (limited documentation in Western sources)"
+  ],
+  "events": [
+    {
+      "id": "1269-001",
+      "title": "Baibars campaigns in Cilician Armenia; Mamluk expansion continues",
+      "region": "Cilicia / Armenia / Levant",
+      "coordinates_approx": "37.0, 35.5",
+      "category": "military",
+      "description": "Sultan Baibars of the Mamluk Sultanate continued military campaigns in the Eastern Mediterranean, including operations against Cilician Armenia and other Christian strongholds. These campaigns were part of Baibars' broader strategy to eliminate Crusader and Christian resistance in the Levant and establish Mamluk hegemony. The campaigns were generally successful, though specific details of 1269 operations are less well-documented than earlier or later campaigns.",
+      "key_figures": [
+        "Baibars al-Bunduqdari (Sultan of Mamluk Sultanate, r. 1260\u20131277)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Maqrizi, Kitab al-Suluk (Book of the Path, 15th-century compilation of Mamluk history)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Baibars' campaigns",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Baibars' general campaign trajectory is well-attested, but specific events in 1269 are poorly documented. This entry represents the broader political context rather than a discrete, well-documented event.",
+      "cross_references": [
+        "1268-001 (Fall of Antioch)",
+        "1277-001 (Baibars' death)"
+      ]
+    },
+    {
+      "id": "1269-002",
+      "title": "Kublai Khan's Yuan Dynasty consolidates administrative structures",
+      "region": "China / Yuan Dynasty",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "Kublai Khan continued the process of consolidating Yuan administrative structures and integrating Chinese bureaucratic traditions with Mongol military rule. This period saw the development of the Yuan civil service examination system and the incorporation of Chinese scholars into the Yuan administration. The process of Sinicization of the Mongol elite accelerated during this period, though Mongol military and aristocratic privilege remained paramount.",
+      "key_figures": [
+        "Kublai Khan (Mongol leader, later Emperor of Yuan Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Yuanshi (Official History of the Yuan Dynasty), compiled 14th century",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Yuan administrative development",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general trajectory of Yuan administrative consolidation is well-attested. Specific events in 1269 are not clearly documented. This entry represents the broader political context rather than a discrete event.",
+      "cross_references": [
+        "1271-001 (Yuan Dynasty proclamation)",
+        "1279-001 (Final conquest of Southern Song)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for events listed. However, the significance of 1269 as a discrete year in both Mamluk and Yuan history is minimal. The major events of this period occurred in adjacent years (Antioch fell in 1268; the Eighth Crusade and Louis IX's death occurred in 1270; the Yuan Dynasty was formally proclaimed in 1271). The events listed for 1269 represent continuations of broader trends rather than discrete, well-documented historical events.",
+  "historiographic_note": "The historical record for 1269 is sparse. Few specific events are well-documented for this year. The surviving sources are heavily weighted toward court chronicles and military records, which tend to focus on major battles and political transitions rather than routine administrative or military operations. The year 1269 appears to be a relatively quiet year in the major political centers of the Mediterranean and East Asia, with no major wars, political transitions, or significant events clearly documented. This may reflect the actual historical situation or may reflect gaps in the surviving historical record.",
+  "graph_edges": [
+    {
+      "from": "1269-001",
+      "to": "1268-001",
+      "relation": "part_of",
+      "note": "Baibars' campaigns continued from earlier military victories"
+    },
+    {
+      "from": "1269-001",
+      "to": "1270-001",
+      "relation": "contemporary_with",
+      "note": "Mamluk campaigns occurred during the Eighth Crusade"
+    },
+    {
+      "from": "1269-002",
+      "to": "1271-001",
+      "relation": "led_to",
+      "note": "Administrative consolidation led to formal Yuan Dynasty proclamation"
+    }
+  ]
+}

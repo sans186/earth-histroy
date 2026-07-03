@@ -1,0 +1,135 @@
+{
+  "year": 1129,
+  "year_label": "1129 CE",
+  "era_context": "The early 12th century is characterized by the consolidation of the Crusader States in the Levant, the height of the Seljuk Empire, the Song Dynasty's economic and cultural flourishing in China, and the Norman kingdoms' expansion in the Mediterranean. In Europe, the post-Investiture Controversy period is establishing new church-state relations. This is an era of significant military campaigns, religious reform, and technological advancement.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no surviving written records)",
+    "Northern Europe beyond major kingdoms (sparse documentation)",
+    "Central Asia and the Steppe (limited non-Islamic sources)",
+    "Pre-Columbian Americas (no written records)"
+  ],
+  "events": [
+    {
+      "id": "1129-001",
+      "title": "Council of Troyes; formal recognition of the Knights Templar",
+      "region": "Champagne, France, Western Europe",
+      "coordinates_approx": "48.3, 4.1",
+      "category": "religious",
+      "description": "The Council of Troyes, held in January 1129, formally recognized and approved the Rule of the Knights Templar (Poor Fellow-Soldiers of Christ and of the Temple of Solomon). The Templars, founded around 1119 by Hugues de Payens and other knights, had been operating informally to protect pilgrims on the roads to the Holy Land. Pope Honorius II and the assembled bishops granted them official status and a monastic Rule, modeled on the Cistercian order. This formalization transformed the Templars into a major military and religious institution that would play a crucial role in the Crusades and become one of the wealthiest and most powerful organizations in medieval Christendom.",
+      "key_figures": [
+        "Hugues de Payens (founder of the Knights Templar)",
+        "Bernard of Clairvaux (advocate for the Templars)",
+        "Pope Honorius II (papal authority)",
+        "Count Thibault II of Champagne (host of the council)"
+      ],
+      "sources": [
+        {
+          "name": "The Rule of the Templars (Latin text, approved at the council)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Bernard of Clairvaux, De Laude Novae Militiae (In Praise of the New Knighthood)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Monastic chronicles recording the council",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Council of Troyes and the formal recognition of the Templars in 1129 are well-attested in contemporary sources, including the Rule itself and Bernard of Clairvaux's writings.",
+      "cross_references": [
+        "1119-001 (Founding of the Knights Templar)",
+        "1312-001 (Suppression of the Knights Templar at the Council of Vienne)"
+      ]
+    },
+    {
+      "id": "1129-002",
+      "title": "Death of Pope Honorius II; succession of Innocent II",
+      "region": "Papal States, Rome, Western Europe",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Pope Honorius II died on 13 February 1129. He was succeeded by Innocent II (Gregorio Papareschi), who would reign until 1143. Innocent II's election was contested, leading to the schism with Anacletus II that would last until 1138. Honorius II had been a reforming pope, continuing the work of the Gregorian Reform and the resolution of the Investiture Controversy. His death marked a transition in papal politics and the beginning of a period of internal Church conflict.",
+      "key_figures": [
+        "Honorius II (Pope, 1124\u20131129)",
+        "Innocent II (successor, Pope 1130\u20131143)",
+        "Anacletus II (antipope, 1130\u20131138)"
+      ],
+      "sources": [
+        {
+          "name": "Liber Pontificalis (papal chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary monastic chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Honorius II's death date is well-attested. The succession dispute is documented in multiple sources.",
+      "cross_references": [
+        "1130-002 (Papal schism between Innocent II and Anacletus II)",
+        "1138-001 (End of the schism)"
+      ]
+    },
+    {
+      "id": "1129-003",
+      "title": "Continued Crusader military campaigns in the Levant; Baldwin II's reign",
+      "region": "Levant, Kingdom of Jerusalem, Near East",
+      "coordinates_approx": "31.9, 35.2",
+      "category": "military",
+      "description": "In 1129, King Baldwin II of Jerusalem (r. 1118\u20131131) was in the later years of his reign, continuing to consolidate Crusader control over the Kingdom of Jerusalem and its neighboring territories. Baldwin II was known for his military campaigns against Islamic powers and his efforts to strengthen the kingdom's administrative and military structures. The Crusader States were at a period of relative stability, though constantly threatened by Islamic powers under leaders like Zengi. Baldwin II's reign saw the establishment of the Templars and other military orders that would become crucial to Crusader defense.",
+      "key_figures": [
+        "Baldwin II (King of Jerusalem)",
+        "Zengi (Atabeg of Mosul, Islamic opponent)",
+        "Roger of Antioch (Prince of Antioch)"
+      ],
+      "sources": [
+        {
+          "name": "William of Tyre, Historia Belli Sacri (compiled late 12th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Crusader chronicles and letters",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Baldwin II's reign and general military activities are well-attested, though specific events within 1129 are not always precisely dated.",
+      "cross_references": [
+        "1131-001 (Death of Baldwin II)",
+        "1127-001 (Zengi's consolidation)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Council of Troyes is often presented as a straightforward approval of the Templars, but the historical record shows that the Templars were already operating and had already gained significant support before 1129. The council formalized and regulated an existing institution rather than creating something entirely new. Additionally, Bernard of Clairvaux's role in promoting the Templars is sometimes overstated; while he was influential, the Templars had already established themselves through military success and noble patronage.",
+  "historiographic_note": "Documentation for 1129 is good for Western Europe (Council of Troyes, papal succession) and moderate for the Levant (Crusader activities). Sources are heavily weighted toward religious and political events. Islamic sources for the Near East are sparse for this specific year. Economic and social history is less well-documented. Sub-Saharan Africa, the Americas, and much of Asia have no surviving written records for this year.",
+  "graph_edges": [
+    {
+      "from": "1129-001",
+      "to": "1119-001",
+      "relation": "caused_by",
+      "note": "The Council of Troyes formalized the Knights Templar, which had been founded around 1119"
+    },
+    {
+      "from": "1129-002",
+      "to": "1130-002",
+      "relation": "led_to",
+      "note": "Honorius II's death in 1129 led directly to the disputed papal election and schism of 1130"
+    },
+    {
+      "from": "1129-003",
+      "to": "1131-001",
+      "relation": "led_to",
+      "note": "Baldwin II's reign continued until his death in 1131"
+    }
+  ]
+}

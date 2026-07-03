@@ -1,0 +1,596 @@
+{
+  "year": 1860,
+  "year_label": "1860 CE",
+  "era_context": "The eve of the American Civil War; European imperialism accelerates. Italy approaches unification under Cavour and Garibaldi. The Qing Dynasty struggles with the aftermath of the Second Opium War and the Taiping Rebellion. Japan remains closed but increasingly pressured by Western powers. The Industrial Revolution reaches maturity in Britain and Western Europe.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1860-001",
+      "title": "Abraham Lincoln elected US President; Southern secession crisis begins",
+      "region": "United States",
+      "coordinates_approx": "39.83,-98.58",
+      "category": "political",
+      "description": "On 6 November 1860, Abraham Lincoln, the Republican candidate opposed to slavery expansion, was elected president with 40% of the popular vote. Lincoln won the electoral college decisively but carried no Southern states. The election triggered an immediate secession crisis: South Carolina seceded on 20 December 1860, followed by six other states by February 1861. The election revealed the irreconcilable divide between North and South over slavery's future. Lincoln's victory, though achieved through constitutional means, was interpreted by the South as a threat to slavery and Southern autonomy, making war inevitable.",
+      "key_figures": [
+        "Abraham Lincoln (Republican candidate)",
+        "Stephen Douglas (Northern Democrat)",
+        "John C. Breckinridge (Southern Democrat)",
+        "John Bell (Constitutional Union)",
+        "Jefferson Davis (future Confederate President)"
+      ],
+      "sources": [
+        {
+          "name": "Official election records and returns",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspapers and political correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "McPherson, James M. Battle Cry of Freedom (1988)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The election date and results are unambiguously documented. The causal link to secession is established by contemporary sources and historical consensus.",
+      "cross_references": [
+        "1861-001 (Fort Sumter)",
+        "1860-002 (South Carolina secession)"
+      ]
+    },
+    {
+      "id": "1860-002",
+      "title": "South Carolina secedes from the Union",
+      "region": "United States (South Carolina)",
+      "coordinates_approx": "34.00,-81.00",
+      "category": "political",
+      "description": "On 20 December 1860, South Carolina became the first state to secede from the Union, formally withdrawing in response to Lincoln's election. The state convention voted 169\u20130 to secede, citing the North's hostility to slavery and the election of a Republican president as justification. South Carolina's secession was the opening move in the cascade that would lead to the formation of the Confederate States of America. The secession was celebrated in the South as a defense of states' rights and slavery; in the North, it was condemned as rebellion and treason.",
+      "key_figures": [
+        "South Carolina state convention delegates",
+        "James Chesnut Jr. (secessionist)",
+        "James L. Orr (secessionist)"
+      ],
+      "sources": [
+        {
+          "name": "South Carolina Secession Convention records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "South Carolina Declaration of Secession",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "McPherson, James M. Battle Cry of Freedom (1988)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Formally documented in state records and the Declaration of Secession. The date is unambiguous.",
+      "cross_references": [
+        "1860-001 (Lincoln's election)",
+        "1861-001 (Fort Sumter)"
+      ]
+    },
+    {
+      "id": "1860-003",
+      "title": "Garibaldi's Sicilian campaign: Thousand redshirts conquer Sicily",
+      "region": "Italy (Sicily)",
+      "coordinates_approx": "37.57,13.58",
+      "category": "military",
+      "description": "In May 1860, Giuseppe Garibaldi led approximately 1,000 volunteers (the 'Thousand' or 'Mille') in an invasion of Sicily, then ruled by the Bourbon Kingdom of the Two Sicilies. Garibaldi's campaign was a stunning military success: his forces defeated the Bourbon army and liberated Sicily by August 1860. The campaign was supported by Cavour and the Piedmontese government, though the relationship was complex and sometimes tense. Garibaldi's success in Sicily demonstrated the viability of Italian unification and set the stage for the proclamation of the Kingdom of Italy in 1861. The campaign is celebrated as one of the most audacious military operations of the 19th century.",
+      "key_figures": [
+        "Giuseppe Garibaldi (general)",
+        "Camillo Cavour (Piedmontese Prime Minister)",
+        "King Francis II (Bourbon)",
+        "Victor Emmanuel II (Piedmontese King)"
+      ],
+      "sources": [
+        {
+          "name": "Garibaldi's memoirs and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cavour's correspondence and government records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Mack Smith, Denis. Garibaldi (1956)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented by Garibaldi's own accounts, Cavour's correspondence, and contemporary military records. The campaign's dates and outcomes are unambiguous.",
+      "cross_references": [
+        "1860-004 (Garibaldi invades mainland)",
+        "1861-002 (Kingdom of Italy proclaimed)"
+      ]
+    },
+    {
+      "id": "1860-004",
+      "title": "Garibaldi crosses to mainland Italy; Naples falls",
+      "region": "Italy (Campania)",
+      "coordinates_approx": "40.85,14.27",
+      "category": "military",
+      "description": "In August\u2013September 1860, Garibaldi crossed from Sicily to mainland Italy and advanced rapidly toward Naples. The Bourbon army, demoralized by the loss of Sicily, offered little resistance. Garibaldi entered Naples on 7 September 1860 without a major battle. The city's population welcomed him as a liberator. By October 1860, Garibaldi had conquered the entire Kingdom of the Two Sicilies. He then handed over his conquests to Victor Emmanuel II, the Piedmontese king, facilitating the unification of Italy under the House of Savoy. The campaign demonstrated the power of nationalist sentiment and the weakness of the old dynastic order.",
+      "key_figures": [
+        "Giuseppe Garibaldi (general)",
+        "King Francis II (Bourbon)",
+        "Victor Emmanuel II (Piedmontese King)",
+        "Camillo Cavour (Piedmontese PM)"
+      ],
+      "sources": [
+        {
+          "name": "Garibaldi's memoirs and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cavour's correspondence and government records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Mack Smith, Denis. Garibaldi (1956)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented by contemporary accounts and correspondence. The dates and sequence of events are unambiguous.",
+      "cross_references": [
+        "1860-003 (Sicilian campaign)",
+        "1861-002 (Kingdom of Italy proclaimed)"
+      ]
+    },
+    {
+      "id": "1860-005",
+      "title": "Treaty of Turin: Piedmont cedes Savoy and Nice to France",
+      "region": "Italy (Piedmont), France",
+      "coordinates_approx": "45.07,7.69",
+      "category": "political",
+      "description": "On 24 March 1860, Piedmont and France signed the Treaty of Turin, in which Piedmont ceded the regions of Savoy and Nice to France in exchange for French support for Italian unification. The treaty was controversial: Nice was the birthplace of Garibaldi, and many Italians resented its loss. However, Cavour calculated that French support was essential for unification, and the treaty secured Napoleon III's neutrality during the unification campaigns. The treaty demonstrated the price of unification: the sacrifice of territories that had been part of the Piedmontese state.",
+      "key_figures": [
+        "Camillo Cavour (Piedmontese PM)",
+        "Napoleon III (French Emperor)",
+        "Victor Emmanuel II (Piedmontese King)"
+      ],
+      "sources": [
+        {
+          "name": "Treaty of Turin (official text)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cavour's correspondence and government records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Mack Smith, Denis. Cavour and Garibaldi (1954)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Formally signed and extensively documented. The date and terms are unambiguous.",
+      "cross_references": [
+        "1860-003 (Sicilian campaign)",
+        "1861-002 (Kingdom of Italy proclaimed)"
+      ]
+    },
+    {
+      "id": "1860-006",
+      "title": "Second Opium War ends: Treaty of Peking signed",
+      "region": "China (Beijing)",
+      "coordinates_approx": "39.90,116.41",
+      "category": "political",
+      "description": "On 18 October 1860, the Second Opium War (1856\u20131860) formally ended with the signing of the Treaty of Peking (Beijing Convention). The treaty, signed by Britain, France, and China, forced China to open additional ports to Western trade, legalize the opium trade, and cede the Kowloon Peninsula to Britain. The treaty also allowed foreign diplomats to reside in Beijing and permitted Christian missionary activity. The war had been fought by British and French forces against the Qing Dynasty; it demonstrated China's military weakness and accelerated the empire's decline. The treaty was a humiliating defeat for the Qing and accelerated the process of Western domination of China.",
+      "key_figures": [
+        "Lord Elgin (British negotiator)",
+        "Baron Gros (French negotiator)",
+        "Prince Gong (Qing negotiator)",
+        "Emperor Xianfeng (Qing Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Treaty of Peking (official text)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British Foreign Office records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Spence, Jonathan D. The Search for Modern China (1990)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Formally signed and extensively documented in diplomatic records. The date and terms are unambiguous.",
+      "cross_references": [
+        "1856-001 (Second Opium War begins)",
+        "1861-007 (Taiping Rebellion suppression)"
+      ]
+    },
+    {
+      "id": "1860-007",
+      "title": "Assassination of Ii Naosuke: Tokugawa shogunate destabilized",
+      "region": "Japan (Edo)",
+      "coordinates_approx": "35.68,139.69",
+      "category": "political",
+      "description": "On 24 March 1860 (Ansei 7, 3rd month, 3rd day in the lunar calendar), Ii Naosuke, the powerful chief minister (tairo) of the Tokugawa shogunate, was assassinated by samurai from the Mito domain who opposed his pro-foreign policies and his role in signing the Harris Treaty (1858). The assassination was a watershed moment: it demonstrated the shogunate's inability to control samurai violence and emboldened anti-foreign and anti-shogunate factions. The shogunate's authority, already weakened by the forced opening of Japan, was further eroded. The assassination is often cited as a turning point in the decline of the Tokugawa and the rise of the Meiji Restoration.",
+      "key_figures": [
+        "Ii Naosuke (Tokugawa chief minister)",
+        "Tokugawa Iemochi (Shogun)",
+        "Mito samurai assassins"
+      ],
+      "sources": [
+        {
+          "name": "Tokugawa government records and samurai chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sakoku edict records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jansen, Marius B. The Making of Modern Japan (2000)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The assassination is well-documented in Japanese records and contemporary accounts. The date is certain; the significance is established by historical consensus.",
+      "cross_references": [
+        "1858-001 (Harris Treaty)",
+        "1867-001 (Tokugawa abdication)"
+      ]
+    },
+    {
+      "id": "1860-008",
+      "title": "British-French forces burn Summer Palace in Beijing",
+      "region": "China (Beijing)",
+      "coordinates_approx": "40.00,116.27",
+      "category": "military",
+      "description": "In October 1860, as part of the Second Opium War, British and French forces under Lord Elgin and Baron Gros looted and burned the Summer Palace (Yuanmingyuan) in Beijing. The destruction was intended as punishment for Chinese resistance and as a demonstration of Western military superiority. The Summer Palace, one of the greatest architectural achievements of the Qing Dynasty, was systematically destroyed. The burning is remembered in China as a symbol of Western imperialism and national humiliation. The event accelerated the Qing's acceptance of the Treaty of Peking and demonstrated the futility of resistance to Western military power.",
+      "key_figures": [
+        "Lord Elgin (British commander)",
+        "Baron Gros (French commander)",
+        "Emperor Xianfeng (Qing Emperor)",
+        "Prince Gong (Qing negotiator)"
+      ],
+      "sources": [
+        {
+          "name": "British military reports and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Spence, Jonathan D. The Search for Modern China (1990)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in British and French military records and contemporary accounts. The event is unambiguously attested.",
+      "cross_references": [
+        "1860-006 (Treaty of Peking)",
+        "1856-001 (Second Opium War begins)"
+      ]
+    },
+    {
+      "id": "1860-009",
+      "title": "Plebiscites in Italian territories: Popular support for unification",
+      "region": "Italy (Papal States, Two Sicilies)",
+      "coordinates_approx": "41.87,12.57",
+      "category": "political",
+      "description": "In 1860, plebiscites were held in the newly conquered territories of Sicily, Naples, and the Papal States to gauge popular support for unification with Piedmont. The plebiscites showed overwhelming majorities in favor of unification (typically 95%+ in favor). These votes provided a veneer of democratic legitimacy to the unification process, though the plebiscites were not conducted under modern democratic standards and were influenced by Garibaldi's popularity and the weakness of the old regimes. The plebiscites demonstrated the power of nationalist sentiment and the weakness of the old dynastic order.",
+      "key_figures": [
+        "Victor Emmanuel II (Piedmontese King)",
+        "Giuseppe Garibaldi (general)",
+        "Camillo Cavour (Piedmontese PM)"
+      ],
+      "sources": [
+        {
+          "name": "Plebiscite records and results",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cavour's correspondence and government records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Mack Smith, Denis. Italy and Its Monarchy (1989)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The plebiscites are documented in official records. The results are unambiguous, though their interpretation as expressions of genuine popular will is debated.",
+      "cross_references": [
+        "1860-003 (Sicilian campaign)",
+        "1860-004 (Naples falls)",
+        "1861-002 (Kingdom of Italy proclaimed)"
+      ]
+    },
+    {
+      "id": "1860-010",
+      "title": "Taiping Rebellion: Qing forces advance; rebel capital threatened",
+      "region": "China (Jiangnan region)",
+      "coordinates_approx": "32.00,120.00",
+      "category": "military",
+      "description": "By 1860, the Taiping Rebellion, which had begun in 1851, was in its final phase. Qing forces, aided by foreign-trained armies (particularly the Ever-Victorious Army under Charles Gordon), were advancing on the rebel capital of Nanjing. The rebellion had devastated central and eastern China, killing an estimated 20\u201330 million people. By 1860, the Qing had regained control of most major cities, and the rebellion was militarily defeated, though it would not formally end until 1864. The suppression of the rebellion demonstrated the Qing's capacity for military recovery and the effectiveness of foreign military advisors.",
+      "key_figures": [
+        "Zeng Guofan (Qing general)",
+        "Li Hongzhang (Qing official)",
+        "Charles Gordon (British officer)",
+        "Hong Xiuquan (Taiping leader)"
+      ],
+      "sources": [
+        {
+          "name": "Qing government records and military reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Western missionary accounts and diplomatic reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Spence, Jonathan D. God's Chinese Son (1996)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The rebellion's decline is well-documented, but 1860 was not a single turning point. The year represents a phase in the rebellion's final years.",
+      "cross_references": [
+        "1851-001 (Taiping Rebellion begins)",
+        "1864-001 (Taiping Rebellion ends)"
+      ]
+    },
+    {
+      "id": "1860-011",
+      "title": "Fraser Canyon Gold Rush: British Columbia gold discovery",
+      "region": "British North America (British Columbia)",
+      "coordinates_approx": "50.0,-121.0",
+      "category": "economic",
+      "description": "In 1858\u20131860, the Fraser Canyon Gold Rush brought thousands of miners to the interior of British Columbia, then a remote and sparsely populated region. The gold rush led to the establishment of British authority in the region and prompted the creation of the Crown Colony of British Columbia in 1858. By 1860, the rush was declining, but it had permanently altered the region's demographics and economy. The gold rush demonstrated the value of the Pacific coast to Britain and prompted the expansion of British colonial authority in North America.",
+      "key_figures": [
+        "James Douglas (Governor of British Columbia)",
+        "Gold miners and prospectors"
+      ],
+      "sources": [
+        {
+          "name": "British Colonial Office records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ormsby, Margaret A. British Columbia: A History (1971)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The gold rush is well-documented in colonial records and contemporary accounts. The dates and scale are unambiguous.",
+      "cross_references": [
+        "1858-001 (Crown Colony of British Columbia established)",
+        "1861-008 (British Columbia reorganized)"
+      ]
+    },
+    {
+      "id": "1860-012",
+      "title": "Serfdom abolished in Russian Poland (preliminary)",
+      "region": "Russian Empire (Poland)",
+      "coordinates_approx": "52.0,21.0",
+      "category": "legal",
+      "description": "In 1860, the Russian authorities began the process of abolishing serfdom in Polish territories under Russian control, as part of the broader emancipation reform that would be formally proclaimed in 1861. The process was complicated by nationalist sentiment in Poland and the desire of Polish landowners to maintain control over peasants. The preliminary abolition in 1860 set the stage for the formal emancipation edict of 1861.",
+      "key_figures": [
+        "Alexander II (Tsar)",
+        "Polish nobility",
+        "Russian administrators"
+      ],
+      "sources": [
+        {
+          "name": "Russian government records and Polish administrative documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Davies, Norman. God's Playground: A History of Poland (1981)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The preliminary process is documented, but the exact dates and sequence are less precisely attested than the formal 1861 edict.",
+      "cross_references": [
+        "1861-003 (Russian emancipation)",
+        "1861-009 (Serfdom abolished in Polish territories)"
+      ]
+    },
+    {
+      "id": "1860-013",
+      "title": "British India: Administrative consolidation after Rebellion",
+      "region": "British India",
+      "coordinates_approx": "20.59,78.96",
+      "category": "political",
+      "description": "In 1860, British India was consolidating control after the Indian Rebellion of 1857\u20131858. The East India Company's administrative role was being wound down (formally dissolved in 1858), and direct Crown administration was being established. The year 1860 saw the expansion of the British military presence and the reorganization of the Indian Civil Service. The British were implementing policies designed to prevent future rebellions, including the disarming of Indian soldiers and the promotion of loyalty among the Indian elite.",
+      "key_figures": [
+        "Lord Canning (Viceroy)",
+        "British colonial administrators"
+      ],
+      "sources": [
+        {
+          "name": "British India Office records and administrative reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Metcalf, Thomas R. Ideologies of the Raj (1995)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation process is documented in British records, but 1860 was not a single turning point. The year represents a phase in the broader process of administrative reorganization.",
+      "cross_references": [
+        "1858-001 (East India Company dissolved)",
+        "1857-001 (Indian Rebellion begins)"
+      ]
+    },
+    {
+      "id": "1860-014",
+      "title": "Ottoman Empire: Tanzimat reforms continue; military weakness persists",
+      "region": "Ottoman Empire",
+      "coordinates_approx": "41.01,28.98",
+      "category": "political",
+      "description": "In 1860, the Ottoman Empire continued its Tanzimat reforms (1839\u20131876), aimed at modernizing the state and military. However, the reforms had not reversed the empire's relative decline. The empire remained militarily weak compared to European powers and financially dependent on European loans. The year 1860 saw continued loss of effective control over peripheral territories and the rise of nationalist movements among Christian minorities. The empire was entering a period of accelerating decline that would culminate in the Russo-Turkish War (1877\u20131878) and the loss of most remaining European territories.",
+      "key_figures": [
+        "Sultan Abd\u00fclaziz",
+        "Grand Vizier Fuad Pasha",
+        "European creditors"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman government records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "European diplomatic reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Pamuk, \u015eevket. A Monetary History of the Ottoman Empire (2000)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Tanzimat reforms are well-documented, but 1860 was not a turning point. The year represents a phase in the longer process of Ottoman decline.",
+      "cross_references": [
+        "1875-001 (Ottoman default)",
+        "1877-001 (Russo-Turkish War)"
+      ]
+    },
+    {
+      "id": "1860-015",
+      "title": "Pony Express established: Rapid mail service across American West",
+      "region": "United States (Missouri to California)",
+      "coordinates_approx": "39.0,-105.0",
+      "category": "technological",
+      "description": "In April 1860, the Pony Express began operations, providing rapid mail service between St. Joseph, Missouri, and Sacramento, California. The service used relays of horses and riders to deliver mail across the American West in approximately 10 days, a dramatic improvement over previous methods. The Pony Express operated for only 18 months before being superseded by the transcontinental telegraph, but it became an iconic symbol of the American frontier. The service demonstrated the technological possibilities of rapid communication and the economic value of connecting the East and West coasts.",
+      "key_figures": [
+        "William H. Russell (founder)",
+        "Pony Express riders"
+      ],
+      "sources": [
+        {
+          "name": "Pony Express company records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Settle, Raymond W. The Pony Express (1955)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The establishment of the Pony Express is well-documented in company records and contemporary accounts. The date is unambiguous.",
+      "cross_references": [
+        "1861-001 (Civil War begins)",
+        "1869-001 (Transcontinental Railroad completed)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The claim that Lincoln's election was a 'shock' to the South is somewhat overstated: Southern politicians had been threatening secession for decades, and the election was the culmination of long-standing tensions rather than a sudden surprise. The Garibaldi campaigns (1860-003, 1860-004) are sometimes presented as purely nationalist movements, but modern scholarship emphasizes the role of Cavour's diplomacy and French support; Garibaldi's role, while militarily crucial, was politically contingent on elite backing. The plebiscites (1860-009) are sometimes cited as evidence of genuine popular support for unification, but modern scholarship notes that they were conducted under conditions that favored unification and did not represent free democratic choice. The Taiping Rebellion's decline (1860-010) is sometimes attributed to Qing military recovery, but modern scholarship emphasizes the role of foreign military advisors (particularly Charles Gordon) and the rebellion's internal exhaustion.",
+  "historiographic_note": "1860 is exceptionally well-documented due to the American political crisis and the Italian unification campaigns, both of which generated vast quantities of contemporary records and correspondence. European and Asian events are documented through diplomatic records and official chronicles. However, the documentation is heavily weighted toward political and military events; economic and social history of non-Western regions is less thoroughly recorded. The sources are biased toward elite perspectives (government, military, diplomatic) and toward literate, urban populations. Indigenous perspectives, peasant experiences, and women's roles are underrepresented. The American political crisis and Italian unification dominate historical attention; other significant events (Second Opium War, Taiping Rebellion, Ottoman decline) are often treated as secondary.",
+  "graph_edges": [
+    {
+      "from": "1860-001",
+      "to": "1860-002",
+      "relation": "led_to",
+      "note": "Lincoln's election prompted South Carolina's secession"
+    },
+    {
+      "from": "1860-002",
+      "to": "1861-001",
+      "relation": "led_to",
+      "note": "South Carolina's secession set stage for Fort Sumter attack"
+    },
+    {
+      "from": "1860-003",
+      "to": "1860-004",
+      "relation": "led_to",
+      "note": "Sicilian campaign success enabled mainland invasion"
+    },
+    {
+      "from": "1860-004",
+      "to": "1861-002",
+      "relation": "led_to",
+      "note": "Garibaldi's conquests enabled proclamation of Kingdom of Italy"
+    },
+    {
+      "from": "1860-005",
+      "to": "1860-003",
+      "relation": "led_to",
+      "note": "Treaty of Turin secured French neutrality for Sicilian campaign"
+    },
+    {
+      "from": "1860-006",
+      "to": "1860-008",
+      "relation": "led_to",
+      "note": "Second Opium War's continuation led to burning of Summer Palace"
+    },
+    {
+      "from": "1860-007",
+      "to": "1867-001",
+      "relation": "led_to",
+      "note": "Assassination of Ii Naosuke accelerated Tokugawa decline"
+    },
+    {
+      "from": "1860-010",
+      "to": "1864-001",
+      "relation": "led_to",
+      "note": "Taiping Rebellion's military defeat led to formal suppression in 1864"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "year": -2594,
+  "year_label": "2594 BCE",
+  "era_context": "Egypt's Old Kingdom, Dynasty IV (c. 2613\u20132494 BCE). The reign of Khufu or his immediate successors; the age of the great pyramid complexes at Giza. Contemporaneously, the Akkad Empire was consolidating power in Mesopotamia under Sargon of Akkad (r. c. 2334\u20132279 BCE) \u2014 though this is slightly later. In the Indus Valley, early urban centres were developing. This period represents the apex of Egyptian monumental architecture and centralised pharaonic power.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Mesopotamia (limited specific events for this year)",
+    "Indus Valley Civilisation (no year-specific records)",
+    "China (no contemporary written records)",
+    "Sub-Saharan Africa",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "-2594-001",
+      "title": "Reign of Khufu or successor pharaoh; ongoing construction at Giza",
+      "region": "Egypt, Giza Plateau",
+      "coordinates_approx": "29.9788, 31.1345",
+      "category": "political",
+      "description": "The Great Pyramid of Khufu (Cheops) was completed c. 2560 BCE; by 2594 BCE, major pyramid construction projects were underway or in planning phases under Dynasty IV pharaohs. The exact year-to-year activities are not documented in surviving records, but archaeological evidence from the Giza complex indicates sustained labour mobilisation, quarrying, and administrative oversight. These projects required unprecedented coordination of resources, labour, and logistics, reflecting the centralised power of the pharaonic state.",
+      "key_figures": [
+        "Khufu (Pharaoh, r. c. 2589\u20132566 BCE) or successor"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Giza pyramid complex; Abydos King List; Turin Papyrus",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Later Egyptological consensus on Dynasty IV chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "No contemporary written records specify events in 2594 BCE. Dating relies on king lists compiled centuries later and modern Egyptological chronology, which places Khufu's reign c. 2589\u20132566 BCE. The year 2594 BCE falls within or near this period, but specific events are not attested.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of Dynasty IV remains debated. Some scholars argue for a higher chronology (dating Khufu earlier), while others support a lower chronology. The 'Khufu's reign' assignment to 2594 BCE is conventional but not definitively confirmed. Additionally, the popular narrative of pyramid construction using enslaved labour is contradicted by archaeological evidence from workers' villages at Giza, which suggests organised, paid labour forces rather than slavery.",
+  "historiographic_note": "The historical record for 2594 BCE is almost entirely dependent on later king lists and archaeological inference. No contemporary written records from Egypt for this specific year survive. The Abydos King List and Turin Papyrus were compiled during the New Kingdom (c. 1550\u20131070 BCE), over 1000 years after the events they describe. Bias toward monumental (pyramid) records means administrative, economic, or social details are largely lost. The absence of written records from this period is a fundamental limitation.",
+  "graph_edges": [
+    {
+      "from": "-2594-001",
+      "to": "-2560-001",
+      "relation": "led_to",
+      "note": "Ongoing construction projects culminated in completion of the Great Pyramid c. 2560 BCE"
+    }
+  ]
+}

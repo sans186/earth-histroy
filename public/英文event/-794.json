@@ -1,0 +1,73 @@
+{
+  "year": -794,
+  "year_label": "794 BCE",
+  "era_context": "The late 8th century BCE spans the height of the Neo-Assyrian Empire under Sargon II and his predecessors, a period of aggressive territorial expansion and administrative consolidation. In the Mediterranean, Greek city-states are consolidating the Archaic period; in China, the early Zhou dynasty is fragmenting into the Spring and Autumn period. Iron-working technology is now dominant across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources; archaeological record incomplete)",
+    "Northern Europe beyond Greek and Roman awareness",
+    "Interior of the Americas (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-794-001",
+      "title": "Sargon II's campaigns in the Levant and consolidation of Assyrian control",
+      "region": "Mesopotamia, Levant, Syria",
+      "coordinates_approx": "35.5, 36.0",
+      "category": "military",
+      "description": "Sargon II (r. 722\u2013705 BCE) continues aggressive campaigns to secure Assyrian hegemony over the Levantine states. This period saw the deportation of populations from conquered territories as part of Assyrian imperial policy, designed to prevent rebellion and redistribute labour. The practice of mass deportation becomes a defining feature of Neo-Assyrian statecraft. These campaigns consolidate Assyrian control over trade routes and vassal states from Egypt to Mesopotamia.",
+      "key_figures": [
+        "Sargon II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon II's Annals (cuneiform inscriptions from Dur-Sharrukin)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Dur-Sharrukin palace excavations",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Sargon II's reign is well-documented through royal inscriptions and palace reliefs. Specific campaigns in 794 BCE fall within his documented military activity (722\u2013705 BCE reign), though exact year-by-year attribution is sometimes approximate.",
+      "cross_references": []
+    },
+    {
+      "id": "-794-002",
+      "title": "Greek colonisation movements in the western Mediterranean",
+      "region": "Greece, Italy, Sicily, Mediterranean",
+      "coordinates_approx": "38.0, 15.0",
+      "category": "exploration",
+      "description": "Greek city-states, particularly Corinth and Euboea, establish colonies in Sicily and southern Italy during the Archaic period. These settlements (apoikiai) serve as trading posts and agricultural settlements, spreading Greek culture and establishing networks that will dominate Mediterranean trade for centuries. The colonisation process is driven by population pressure, factional conflict, and commercial opportunity.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Strabo, Geography (later compilation, 1st century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from colonial sites (pottery, settlement layers)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Greek colonisation occurred over several decades in the 8th\u20137th centuries BCE. Specific dating to 794 BCE is conventional; most colonies were established between 750\u2013700 BCE. Archaeological evidence provides better precision than literary sources.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of Sargon II's reign and specific campaigns remains debated. Some scholars argue for a shorter reign (715\u2013705 BCE) rather than the traditional 722\u2013705 BCE, which would shift the dating of campaigns attributed to him. Additionally, the scale and impact of Assyrian deportation policies have been reassessed by modern scholarship; while real, they may have been less systematically comprehensive than earlier historiography suggested. Greek colonisation dates are often imprecise in ancient sources; archaeological evidence sometimes contradicts traditional literary chronologies.",
+  "historiographic_note": "The historical record for 794 BCE is heavily weighted toward Mesopotamian and Mediterranean sources. Assyrian royal inscriptions are self-promotional and may exaggerate military successes. Greek sources are later compilations (Strabo, Pausanias) and contain legendary elements. Chinese sources (Spring and Autumn Annals) exist but are sparse for this period. Sub-Saharan Africa, Northern Europe, and the Americas have no written records; our knowledge depends entirely on archaeology, which is unevenly distributed and subject to dating uncertainty.",
+  "graph_edges": [
+    {
+      "from": "-794-001",
+      "to": "-790-001",
+      "relation": "part_of",
+      "note": "Sargon II's campaigns continue throughout the early 790s BCE as part of sustained Assyrian expansion"
+    }
+  ]
+}

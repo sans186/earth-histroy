@@ -1,0 +1,134 @@
+{
+  "year": 866,
+  "year_label": "866 CE",
+  "era_context": "The mid-9th century CE saw the fragmentation of the Carolingian Empire following the Treaty of Verdun (843), with the rise of independent kingdoms in Western Europe, the Byzantine Empire's military resurgence under the Macedonian Renaissance, the expansion of the Abbasid Caliphate's cultural and scientific influence, and the consolidation of Viking settlements in the North Atlantic and Eastern Europe. In East Asia, the Tang Dynasty was in terminal decline, with regional warlords fragmenting imperial authority.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources; archaeological record underexplored)",
+    "Southeast Asia (sparse contemporary documentation)",
+    "Pre-Columbian Americas (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "866-001",
+      "title": "Viking conquest of York (Jorvik)",
+      "region": "Northumbria, England",
+      "coordinates_approx": "53.96, -1.08",
+      "category": "military",
+      "description": "A Viking force led by Ragnar Lothbrok's sons (according to legend) or more reliably by a coalition of Norse raiders captured York from the Northumbrian kingdom. This marked the beginning of the Danelaw period and represented a major shift in Viking strategy from raiding to settlement and conquest. The city became a major Viking trading center and administrative hub, fundamentally altering the political geography of England.",
+      "key_figures": [
+        "Ragnar Lothbrok (legendary/semi-legendary leader)",
+        "Aelle of Northumbria (Northumbrian king)"
+      ],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ragnar's Saga (Icelandic saga)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Jorvik excavations",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The conquest itself is well-attested in the Anglo-Saxon Chronicle, though the specific date of 866 is conventional; some sources place it in 867. The legendary attribution to Ragnar Lothbrok is not contemporary and likely conflates multiple raids.",
+      "cross_references": [
+        "867-001 (continued Viking expansion)",
+        "878-001 (Treaty of Wedmore, consolidation of Danelaw)"
+      ]
+    },
+    {
+      "id": "866-002",
+      "title": "Basil I's military campaigns in the Balkans",
+      "region": "Byzantine Empire, Balkans",
+      "coordinates_approx": "41.0, 25.0",
+      "category": "military",
+      "description": "Emperor Basil I (r. 867\u2013886) initiated a series of military campaigns to restore Byzantine control over the Balkans and suppress Slavic and Bulgarian incursions. These campaigns were part of the broader Macedonian Renaissance, a period of Byzantine military and cultural revival. Basil's campaigns laid the groundwork for Byzantine dominance in the region for the next century.",
+      "key_figures": [
+        "Basil I (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Theophanes Continuatus (Byzantine chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "De Administrando Imperio (Constantine VII)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Basil I's reign and military activities are well-documented in Byzantine sources, though specific campaign dates are sometimes approximate. The year 866 falls within his early reign (he became co-emperor in 867, sole emperor in 886).",
+      "cross_references": [
+        "867-002 (Basil I becomes sole emperor)"
+      ]
+    },
+    {
+      "id": "866-003",
+      "title": "Photian Schism tensions in the Byzantine Church",
+      "region": "Byzantine Empire",
+      "coordinates_approx": "41.0, 29.0",
+      "category": "religious",
+      "description": "The dispute between Patriarch Photius and Pope Nicholas I over ecclesiastical authority and the Filioque controversy continued to escalate. Photius had been deposed and exiled, but his supporters remained influential. This period saw the deepening of East-West Christian divisions that would culminate in the Great Schism of 1054. The conflict involved questions of papal authority, monastic reform, and theological interpretation.",
+      "key_figures": [
+        "Photius (Patriarch of Constantinople)",
+        "Pope Nicholas I",
+        "Michael III (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Photius's letters and theological writings",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Papal correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Theophanes Continuatus",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Photian Schism is extensively documented in contemporary ecclesiastical correspondence and later Byzantine chronicles. The year 866 falls within the active phase of the dispute.",
+      "cross_references": [
+        "858-001 (Photius becomes patriarch)",
+        "867-003 (Photius's deposition)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Ragnar Lothbrok leading the conquest of York is heavily disputed by modern scholarship. Most historians now view Ragnar as a legendary or semi-legendary figure whose exploits may conflate multiple Viking leaders and raids across several decades. The actual leadership and composition of the Viking force that took York in 866\u2013867 remains uncertain. Additionally, some scholars argue the date of the conquest may be 867 rather than 866, based on discrepancies in the Anglo-Saxon Chronicle's chronology.",
+  "historiographic_note": "The historical record for 866 CE is moderately rich for Western Europe and the Byzantine Empire, drawing on contemporary chronicles and later compilations. However, the sources are often court-sponsored or ecclesiastically biased, emphasizing political and religious events while underrepresenting economic, social, and cultural developments. Viking sources are primarily later Icelandic sagas, which blend historical fact with legend. For regions outside Europe and the Mediterranean, documentation is sparse or absent.",
+  "graph_edges": [
+    {
+      "from": "866-001",
+      "to": "867-001",
+      "relation": "led_to",
+      "note": "The conquest of York initiated the Viking settlement phase in England, leading to the establishment of the Danelaw."
+    },
+    {
+      "from": "866-002",
+      "to": "867-002",
+      "relation": "part_of",
+      "note": "Basil I's military campaigns were part of his broader program of imperial restoration after becoming sole emperor."
+    },
+    {
+      "from": "866-003",
+      "to": "1054-001",
+      "relation": "led_to",
+      "note": "The Photian Schism and related East-West ecclesiastical tensions contributed to the Great Schism of 1054."
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "year": 1240,
+  "year_label": "1240 CE",
+  "era_context": "The mid-13th century: the Mongol Empire under \u00d6gedei Khan (r. 1229\u20131241) is at the height of its territorial expansion. In Europe, the Crusader states in the Levant face mounting pressure; the Reconquista continues in Iberia. In East Asia, the Jin Dynasty has recently fallen to the Mongols (1234); the Song Dynasty controls southern China. In the Islamic world, the Abbasid Caliphate remains nominally supreme but politically fractured. The Mamluk Sultanate is consolidating power in Egypt.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited contemporary written sources)",
+    "Southeast Asia (sparse European and Islamic documentation)",
+    "Oceania and Pacific (no written records)",
+    "Central Asia (limited contemporary documentation of non-Mongol populations)"
+  ],
+  "events": [
+    {
+      "id": "1240-001",
+      "title": "Mongol invasion of Hungary and Poland begins; Batu Khan's western campaign",
+      "region": "Hungary, Poland, Eastern Europe",
+      "coordinates_approx": "50.0, 20.0",
+      "category": "military",
+      "description": "In late 1240 or early 1241, Mongol forces under Batu Khan (grandson of Genghis Khan) launched a major invasion of Hungary and Poland. The campaign was authorized by \u00d6gedei Khan and represented the westernmost extent of Mongol military expansion in this period. The invasion was preceded by reconnaissance missions and diplomatic overtures. The Mongol forces, numbering perhaps 50,000\u2013150,000 (estimates vary widely), were organized into multiple columns that invaded from the east and northeast. The invasion would culminate in the battles of Mohi and Liegnitz in April 1241 and the subsequent withdrawal following \u00d6gedei's death in December 1241.",
+      "key_figures": [
+        "Batu Khan (Mongol commander)",
+        "Subutai (Mongol general)",
+        "\u00d6gedei Khan (Great Khan, authorizing the campaign)",
+        "B\u00e9la IV (King of Hungary)"
+      ],
+      "sources": [
+        {
+          "name": "Roger of Apulia. Letter to the Pope, 1241 (contemporary account of the invasion)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Juvayni, Ata-Malik. Tarikh-i jahan-gusha (History of the World Conqueror), compiled mid-13th century",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Mongol studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The invasion began in late 1240 or early 1241; sources vary on the exact date. The campaign itself is well-attested, but the precise chronology of the initial invasion is less clear than the battles of 1241.",
+      "cross_references": [
+        "1241-001 (\u00d6gedei's death and withdrawal)",
+        "1241-002 (Battle of Mohi)",
+        "1241-003 (Mongol invasion of Poland)"
+      ]
+    },
+    {
+      "id": "1240-002",
+      "title": "Mongol conquest of the Caucasus and subjugation of the Kipchak Steppe",
+      "region": "Caucasus, Kipchak Steppe (Central Asia)",
+      "coordinates_approx": "45.0, 50.0",
+      "category": "military",
+      "description": "In the years leading up to 1240, Mongol forces under Batu Khan consolidated control over the Caucasus region and the Kipchak Steppe, establishing the Golden Horde as a regional power. The subjugation of the Kipchak peoples and the destruction of the Cumans (Polovtsy) as an independent force were completed by 1240. This conquest secured the Mongol western flank and provided a base for the invasion of Hungary and Poland. The establishment of the Golden Horde would have lasting consequences for Eastern European and Russian history, as the Mongol yoke would dominate the region for over two centuries.",
+      "key_figures": [
+        "Batu Khan (Mongol commander)",
+        "Subutai (Mongol general)"
+      ],
+      "sources": [
+        {
+          "name": "Juvayni, Tarikh-i jahan-gusha",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Rashid al-Din. Jami' al-tawarikh (Compendium of Chronicles), early 14th century",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Mongol and Central Asian studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The conquest of the Caucasus and Kipchak Steppe occurred over several years (roughly 1237\u20131240). The exact chronology is less clear than for the Hungarian and Polish campaigns, as Islamic and Mongol sources are less detailed for this region.",
+      "cross_references": [
+        "1237-001 (beginning of Mongol expansion westward)",
+        "1240-001 (invasion of Hungary and Poland)"
+      ]
+    },
+    {
+      "id": "1240-003",
+      "title": "Mongol siege of Vladimir and conquest of northeastern Russia",
+      "region": "Vladimir-Suzdal Principality (Russia)",
+      "coordinates_approx": "56.1, 40.4",
+      "category": "military",
+      "description": "In 1238\u20131240, Mongol forces under Batu Khan invaded and conquered the Vladimir-Suzdal Principality and other Russian principalities. The siege of Vladimir in February 1238 was followed by the conquest of Moscow, Tver, and other major cities. By 1240, the Mongol conquest of Russia was largely complete, establishing Mongol suzerainty over the Russian principalities that would last until the 15th century. The conquest devastated the region's infrastructure and population, and the imposition of Mongol tribute and administrative control had profound consequences for Russian political development.",
+      "key_figures": [
+        "Batu Khan (Mongol commander)",
+        "Yuri II (Grand Prince of Vladimir, killed in battle)"
+      ],
+      "sources": [
+        {
+          "name": "Novgorod First Chronicle (Novgorodskaya Pervaya Letopis), compiled 13th century with contemporary accounts",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Juvayni, Tarikh-i jahan-gusha",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Russian medieval studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The conquest of Russia is well-attested in Russian chronicles and Islamic sources. The dates and major events are confirmed by multiple sources.",
+      "cross_references": [
+        "1238-001 (Mongol invasion of Russia begins)",
+        "1240-001 (invasion of Hungary and Poland)"
+      ]
+    },
+    {
+      "id": "1240-004",
+      "title": "Mongol conquest of Crimea and the Black Sea region",
+      "region": "Crimea, Black Sea coast",
+      "coordinates_approx": "44.5, 34.0",
+      "category": "military",
+      "description": "By 1240, Mongol forces had conquered Crimea and established control over the Black Sea coast, including the Genoese trading posts. This conquest gave the Mongols access to maritime trade routes and enhanced their strategic position in the region. The conquest of Crimea also facilitated Mongol control over the Kipchak Steppe and provided a base for further operations in the Caucasus and beyond.",
+      "key_figures": [
+        "Batu Khan (Mongol commander)"
+      ],
+      "sources": [
+        {
+          "name": "Juvayni, Tarikh-i jahan-gusha",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Mongol and Black Sea studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The conquest of Crimea occurred in the late 1230s or early 1240s. The exact date is uncertain, as sources are sparse for this region.",
+      "cross_references": [
+        "1240-002 (Mongol conquest of the Caucasus and Kipchak Steppe)"
+      ]
+    },
+    {
+      "id": "1240-005",
+      "title": "\u00d6gedei Khan's reign continues; consolidation of Mongol administrative systems",
+      "region": "Mongol Empire (Central Asia, East Asia, Eastern Europe)",
+      "coordinates_approx": "48.0, 106.0",
+      "category": "political",
+      "description": "In 1240, \u00d6gedei Khan (r. 1229\u20131241) continued his reign as the second Great Khan of the Mongol Empire. His reign was marked by the consolidation of Mongol administrative systems, the expansion of the empire to its greatest territorial extent, and the establishment of the Mongol postal system (yam). \u00d6gedei was known for his administrative acumen and his patronage of Mongol culture. His death in late 1241 would trigger a succession crisis that lasted until 1246.",
+      "key_figures": [
+        "\u00d6gedei Khan (Great Khan)",
+        "T\u00f6regene Khatun (wife, future regent)"
+      ],
+      "sources": [
+        {
+          "name": "Juvayni, Tarikh-i jahan-gusha",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Rashid al-Din. Jami' al-tawarikh",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Mongol studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "\u00d6gedei's reign and administrative achievements are well-attested in Islamic and Mongol sources.",
+      "cross_references": [
+        "1241-001 (\u00d6gedei's death)"
+      ]
+    },
+    {
+      "id": "1240-006",
+      "title": "Song Dynasty consolidates control of southern China; Jin Dynasty remnants eliminated",
+      "region": "Song Dynasty (southern China)",
+      "coordinates_approx": "30.0, 115.0",
+      "category": "political",
+      "description": "In 1240, the Song Dynasty continued to consolidate its control of southern China following the fall of the Jin Dynasty to the Mongols in 1234. The Song Dynasty, under the reign of Emperor Lizong (r. 1224\u20131264), maintained a precarious peace with the Mongol Empire to the north. The Song Dynasty was one of the most economically and culturally advanced states of the era, with a sophisticated bureaucracy, advanced military technology, and a thriving merchant class. However, the Song Dynasty faced mounting pressure from Mongol expansion and would eventually fall to the Mongols in 1279.",
+      "key_figures": [
+        "Emperor Lizong (Song Dynasty)",
+        "Jia Sidao (chancellor, influential from 1260s onward)"
+      ],
+      "sources": [
+        {
+          "name": "Zhu Xi and others. Zizhi Tongjian Gangmu (Outline and Details of the Comprehensive Mirror for Aid in Government), compiled 12th\u201313th centuries",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Chinese medieval studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Song Dynasty's consolidation of southern China and its political status in 1240 are well-attested in Chinese sources.",
+      "cross_references": [
+        "1234-001 (fall of Jin Dynasty to Mongols)",
+        "1279-001 (fall of Song Dynasty to Mongols)"
+      ]
+    },
+    {
+      "id": "1240-007",
+      "title": "Mamluk Sultanate consolidates power in Egypt; Ayyubid dynasty declining",
+      "region": "Egypt, Levant",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "In 1240, the Mamluk Sultanate was consolidating its power in Egypt, gradually displacing the declining Ayyubid dynasty. The Mamluks, originally slave-soldiers of the Ayyubids, had begun to assert independent political authority. By the mid-13th century, the Mamluks would become the dominant power in Egypt and the Levant, establishing a sultanate that would last until the Ottoman conquest in 1517. The rise of the Mamluks represented a significant shift in the political balance of the Islamic world.",
+      "key_figures": [
+        "As-Salih Ayyub (Ayyubid Sultan, r. 1240\u20131249)",
+        "Shajar al-Durr (wife of As-Salih Ayyub, future regent)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir. Al-Kamil fi al-tarikh (The Complete History), compiled early 13th century with later additions",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Islamic medieval studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The consolidation of Mamluk power and the decline of the Ayyubid dynasty are well-attested in Islamic sources.",
+      "cross_references": [
+        "1250-001 (Mamluk Sultanate formally established)"
+      ]
+    },
+    {
+      "id": "1240-008",
+      "title": "Crusader states in the Levant face mounting pressure from Islamic powers",
+      "region": "Crusader states (Levant)",
+      "coordinates_approx": "33.0, 35.0",
+      "category": "military",
+      "description": "In 1240, the Crusader states in the Levant (including the Kingdom of Jerusalem, the County of Tripoli, and the Principality of Antioch) faced mounting military and political pressure from Islamic powers, particularly the Ayyubid Sultanate and the rising Mamluk Sultanate. The Crusaders had lost much of their territorial holdings following the fall of Jerusalem to Saladin in 1187, and their position continued to deteriorate throughout the 13th century. The Sixth Crusade (1228\u20131229) had temporarily recovered Jerusalem, but the city was lost again in 1244. The Crusader presence in the Levant would be further weakened by internal divisions and the rise of the Mamluks.",
+      "key_figures": [
+        "Frederick II (Holy Roman Emperor, involved in Sixth Crusade)",
+        "As-Salih Ayyub (Ayyubid Sultan)"
+      ],
+      "sources": [
+        {
+          "name": "William of Tyre. Historia (History of the Crusades), compiled 12th century with later continuations",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Crusade studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The military and political pressure on the Crusader states is well-attested in European and Islamic sources.",
+      "cross_references": [
+        "1244-001 (loss of Jerusalem to Islamic forces)",
+        "1291-001 (fall of Acre, end of Crusader presence in the Levant)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the beginning of the Mongol invasion of Hungary and Poland is uncertain; some sources place it in late 1240, others in early 1241. The scale of the Mongol forces is disputed, with estimates ranging from 50,000 to 150,000 or more. Modern scholarship has questioned the reliability of medieval European casualty figures, which are often exaggerated. The narrative of the Mongol invasions as a unified campaign under \u00d6gedei's direct command has been complicated by recent scholarship, which emphasizes the autonomy of regional commanders like Batu Khan and the decentralized nature of Mongol military operations.",
+  "historiographic_note": "The historical record for 1240 is rich for European events (Hungary, Poland, Russia) due to contemporary and near-contemporary chronicles. Islamic sources (Juvayni, Rashid al-Din) provide Mongol perspectives but were compiled decades or centuries later. Chinese sources provide context for the Song Dynasty and the aftermath of the Jin Dynasty's fall. There is a significant bias toward European and Islamic sources; the impact on Central Asian and Caucasian populations is less well-documented. The conquest of Russia is well-attested in Russian chronicles, but the perspective of the conquered populations is largely absent from surviving sources.",
+  "graph_edges": [
+    {
+      "from": "1240-001",
+      "to": "1241-002",
+      "relation": "led_to",
+      "note": "The invasion of Hungary in 1240 led to the Battle of Mohi in 1241"
+    },
+    {
+      "from": "1240-002",
+      "to": "1240-001",
+      "relation": "led_to",
+      "note": "Conquest of the Caucasus and Kipchak Steppe enabled the invasion of Hungary and Poland"
+    },
+    {
+      "from": "1240-003",
+      "to": "1240-001",
+      "relation": "contemporary_with",
+      "note": "Conquest of Russia and invasion of Hungary occurred in the same period"
+    },
+    {
+      "from": "1240-005",
+      "to": "1241-001",
+      "relation": "led_to",
+      "note": "\u00d6gedei's reign ended with his death in 1241, triggering succession crisis"
+    },
+    {
+      "from": "1240-007",
+      "to": "1240-008",
+      "relation": "contemporary_with",
+      "note": "Rise of Mamluks and pressure on Crusader states occurred simultaneously"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "year": 1404,
+  "year_label": "1404 CE",
+  "era_context": "Late Timurid period; Timur is in his final year of life (dies February 1405). Ming Dynasty under the Yongle Emperor; the Yongle Emperor is consolidating power and planning major initiatives including the Forbidden City and maritime expeditions. The Ottoman Empire is expanding in Anatolia and the Balkans. The Italian Renaissance is accelerating; humanist scholarship is flourishing in Florence and other Italian city-states.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written documentation)",
+    "Mesoamerica and South America (Aztec and Inca records sparse for this year)",
+    "Northern Europe and Scandinavia (limited documentation outside major political centers)",
+    "Southeast Asia (limited written records; oral traditions not systematically documented)"
+  ],
+  "events": [
+    {
+      "id": "1404-001",
+      "title": "Timur's final military campaign; preparations for Central Asian expansion",
+      "region": "Samarkand and Central Asia, Timurid Empire",
+      "coordinates_approx": "39.65\u00b0N, 66.98\u00b0E",
+      "category": "military",
+      "description": "In his final year of life, Timur (Tamerlane) was planning a massive military campaign against the Ming Dynasty in China, reportedly motivated by the Yongle Emperor's refusal to pay tribute. Timur assembled a vast army at Samarkand and made preparations for the campaign, though he died in February 1405 before the expedition could depart. This final campaign plan reflected Timur's continued ambitions for conquest despite his advanced age (approximately 67\u201368 years old).",
+      "key_figures": [
+        "Timur (Tamerlane, Timurid founder)",
+        "Yongle Emperor (Ming ruler, target of planned campaign)"
+      ],
+      "sources": [
+        {
+          "name": "Zafarnama (Book of Victories) by Sharaf al-Din Ali Yazdi",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The campaign plan is attested in Timurid sources (Zafarnama), but the Zafarnama was written in the 16th century and may conflate or embellish events. Ming sources do not mention the planned campaign, suggesting it may have been less significant than Timurid sources suggest.",
+      "cross_references": [
+        "1405-001 (Timur's death; campaign never launched)"
+      ]
+    },
+    {
+      "id": "1404-002",
+      "title": "Yongle Emperor consolidates power; purges rivals and establishes eunuch administration",
+      "region": "Ming China (Beijing, Nanjing)",
+      "coordinates_approx": "39.92\u00b0N, 116.41\u00b0E",
+      "category": "political",
+      "description": "The Yongle Emperor (Zhu Di), who had seized the throne in 1402 from his nephew, continued to consolidate power in 1404 by purging potential rivals and establishing a powerful eunuch administration. This period saw the rise of eunuchs like Zheng He to positions of significant authority. The Yongle Emperor's reliance on eunuchs as trusted administrators would shape Ming governance for decades and enable ambitious projects like the Forbidden City and the treasure voyages.",
+      "key_figures": [
+        "Yongle Emperor (Ming ruler)",
+        "Zheng He (eunuch administrator, rising in power)",
+        "Jianwen Emperor (deposed nephew)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Yongle Emperor's reign",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Yongle Emperor's consolidation of power is well-documented in Ming administrative records, though specific purges and administrative changes in 1404 are not individually detailed.",
+      "cross_references": [
+        "1402-001 (Yongle Emperor seizes throne)"
+      ]
+    },
+    {
+      "id": "1404-003",
+      "title": "Brunelleschi wins competition for Florence Cathedral dome; Renaissance architecture begins",
+      "region": "Florence, Italy",
+      "coordinates_approx": "43.77\u00b0N, 11.26\u00b0E",
+      "category": "cultural",
+      "description": "Filippo Brunelleschi won the competition to design and construct the dome of the Florence Cathedral (Cattedrale di Santa Maria del Fiore), one of the most ambitious architectural projects of the Renaissance. The competition, held in 1401\u20131402, was formally awarded to Brunelleschi in 1404. His innovative engineering solution\u2014using a double-shell dome without a wooden framework\u2014would become a masterpiece of Renaissance engineering and a symbol of Florentine civic pride. Construction of the dome would continue until 1436.",
+      "key_figures": [
+        "Filippo Brunelleschi (architect and engineer)",
+        "Lorenzo Ghiberti (rival competitor)",
+        "Medici family (patrons)"
+      ],
+      "sources": [
+        {
+          "name": "Vasari's Lives of the Artists (Vite de' pi\u00f9 eccellenti pittori, scultori, e architettori)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Florentine archival records and guild documents",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The competition and Brunelleschi's award are well-documented in Florentine archival records. Vasari's account, written in the 16th century, provides narrative context.",
+      "cross_references": [
+        "1436-001 (Florence Cathedral dome completed)"
+      ]
+    },
+    {
+      "id": "1404-004",
+      "title": "Venice and Ottoman Empire sign peace treaty; Mediterranean power balance",
+      "region": "Venice and Ottoman Empire (Mediterranean)",
+      "coordinates_approx": "45.44\u00b0N, 12.34\u00b0E",
+      "category": "political",
+      "description": "Venice and the Ottoman Empire signed a peace treaty in 1404, establishing a period of relative stability in the eastern Mediterranean. The treaty reflected the growing power of the Ottoman Empire and Venice's need to protect its commercial interests in the region. The agreement allowed both powers to focus on other priorities: Venice on its mainland Italian territories and the Ottomans on consolidating control in Anatolia and the Balkans.",
+      "key_figures": [
+        "Mehmed I (Ottoman Sultan)",
+        "Venetian Republic (represented by doge and council)"
+      ],
+      "sources": [
+        {
+          "name": "Venetian state archives and diplomatic records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Ottoman chronicles (Ne\u015fri, Ashikpashazade)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The treaty is attested in Venetian archival records, though Ottoman sources are less precise about the date. The treaty's terms and significance are well-documented in Venetian sources.",
+      "cross_references": []
+    },
+    {
+      "id": "1404-005",
+      "title": "Zheng He appointed to military command; rise of eunuch power in Ming",
+      "region": "Ming China (Nanjing, Beijing)",
+      "coordinates_approx": "32.0\u00b0N, 118.8\u00b0E",
+      "category": "political",
+      "description": "Zheng He, a Muslim eunuch of Mongol descent, was appointed to a military command position in the Ming government, marking his rise to prominence. This appointment reflected the Yongle Emperor's trust in eunuch administrators and would eventually lead to Zheng He's appointment as admiral of the treasure fleet in 1405\u20131406. Zheng He's rise exemplified the Yongle Emperor's strategy of using eunuchs as counterweights to the traditional bureaucratic elite.",
+      "key_figures": [
+        "Zheng He (eunuch administrator)",
+        "Yongle Emperor (Ming ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Biography of Zheng He in Ming historical records",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Zheng He's early appointments are not precisely dated in surviving records. The chronology of his rise is inferred from later biographical accounts and administrative records.",
+      "cross_references": [
+        "1405-005 (Zheng He appointed as admiral)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Timur's planned campaign against Ming China is attested only in later Timurid sources (Zafarnama, written in the 16th century) and is not mentioned in contemporary Ming sources. This raises questions about the campaign's historical reality and significance. Some scholars argue that the campaign plan may have been exaggerated or invented by later Timurid historians to enhance Timur's legacy. The Venice-Ottoman treaty of 1404 is well-documented in Venetian sources but less precisely dated in Ottoman sources, suggesting possible discrepancies in dating or terms. Brunelleschi's competition award date is sometimes given as 1402 or 1403 in different sources, though 1404 is the most commonly accepted date.",
+  "historiographic_note": "Documentation for 1404 is moderate but uneven. Ming administrative records (Ming Shilu) provide good coverage of Chinese political events. Venetian archival records are abundant and contemporary. Italian Renaissance sources (Vasari, Florentine guild documents) are well-preserved. Timurid sources (Zafarnama) are later compilations, written in the 16th century, and may conflate or embellish events. Ottoman sources are also later compilations. The historical record is heavily skewed toward literate, centralized states (Ming China, Venice, Ottoman Empire, Italian city-states) and away from oral cultures and decentralized societies. Sub-Saharan Africa, the Americas, and much of Northern Europe are essentially undocumented for this year.",
+  "graph_edges": [
+    {
+      "from": "1404-001",
+      "to": "1405-001",
+      "relation": "led_to",
+      "note": "Timur's final campaign preparations were cut short by his death in February 1405"
+    },
+    {
+      "from": "1404-002",
+      "to": "1405-005",
+      "relation": "led_to",
+      "note": "Yongle Emperor's consolidation of power and reliance on eunuchs enabled Zheng He's rise"
+    },
+    {
+      "from": "1404-003",
+      "to": "1436-001",
+      "relation": "led_to",
+      "note": "Brunelleschi's competition award in 1404 led to the construction and completion of the Florence Cathedral dome in 1436"
+    }
+  ]
+}

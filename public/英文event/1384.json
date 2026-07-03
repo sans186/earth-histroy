@@ -1,0 +1,152 @@
+{
+  "year": 1384,
+  "year_label": "1384 CE",
+  "era_context": "Late medieval Europe with Ottoman expansion in the Balkans, Ming Dynasty consolidating power in China, and England under the young King Richard II. The Hundred Years' War continues with shifting fortunes. The Iberian Peninsula remains fragmented. The Hussite movement has not yet begun, but religious tensions are building in Central Europe.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Central Asia and the Steppe (sparse documentation)",
+    "Oceania and Pacific islands (minimal written records)",
+    "Americas (no written records in European tradition)"
+  ],
+  "events": [
+    {
+      "id": "1384-001",
+      "title": "Death of John Wycliffe",
+      "region": "England",
+      "coordinates_approx": "51.75, -1.25",
+      "category": "religious",
+      "description": "John Wycliffe, the English theologian and reformer, died in December 1384. Wycliffe had been a major critic of papal authority and church corruption, advocating for the translation of the Bible into English and challenging clerical wealth. Though he died of natural causes and was not persecuted during his lifetime, his ideas would profoundly influence the Lollard movement and later Protestant reformers. His death marked the end of his direct influence but the beginning of his legacy.",
+      "key_figures": [
+        "John Wycliffe (theologian and reformer)",
+        "Richard II (King of England, patron of Wycliffe)"
+      ],
+      "sources": [
+        {
+          "name": "Walsingham's Historia Anglicana",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Lollard chronicles and later Protestant sources",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Oxford University records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Wycliffe's death in December 1384 is well-documented in contemporary English chronicles and university records.",
+      "cross_references": [
+        "1415-001 (Council of Constance condemns Wycliffe's memory)"
+      ]
+    },
+    {
+      "id": "1384-002",
+      "title": "Hongwu Emperor's Establishment of the Jinyiwei (Embroidered Uniform Guard)",
+      "region": "China (Ming Dynasty)",
+      "coordinates_approx": "32.06, 118.80",
+      "category": "political",
+      "description": "The Hongwu Emperor established or reorganized the Jinyiwei, a secret police and intelligence agency that would become notorious for its surveillance and enforcement of imperial will. The Jinyiwei operated outside normal bureaucratic channels and reported directly to the emperor, enabling him to monitor officials and suppress dissent. This institution became a defining feature of Ming absolutism and would persist throughout the dynasty.",
+      "key_figures": [
+        "Hongwu Emperor (Zhu Yuanzhang)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Ming institutional histories",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The establishment of the Jinyiwei is traditionally dated to 1384, though some sources suggest it was reorganized or expanded at this time rather than newly created. The exact date is somewhat uncertain.",
+      "cross_references": []
+    },
+    {
+      "id": "1384-003",
+      "title": "Ottoman Conquest of Sofia",
+      "region": "Bulgaria (Ottoman expansion)",
+      "coordinates_approx": "42.70, 23.32",
+      "category": "military",
+      "description": "Ottoman forces under Murat I conquered Sofia, the capital of Bulgaria, from the Bulgarian Empire. This conquest marked a major step in Ottoman expansion into the Balkans and the decline of Bulgarian independence. Sofia would remain under Ottoman control for nearly five centuries. The conquest demonstrated Ottoman military superiority and the fragmentation of Balkan Christian states.",
+      "key_figures": [
+        "Murat I (Ottoman Sultan)",
+        "Bulgarian nobility and defenders"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bulgarian historical tradition and historiographic consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The conquest of Sofia is attested in Ottoman and Bulgarian sources, but contemporary documentation is limited. The date of 1384 is accepted by most modern scholars, though some sources place it slightly earlier or later.",
+      "cross_references": [
+        "1389-001 (Battle of Kosovo, continuation of Ottoman expansion)"
+      ]
+    },
+    {
+      "id": "1384-004",
+      "title": "Marriage of Margaret III of Male and John I of Portugal",
+      "region": "Portugal and Flanders",
+      "coordinates_approx": "39.5, -8.0",
+      "category": "political",
+      "description": "The marriage of Margaret III, Countess of Male (Flanders), to John I of Portugal was arranged to strengthen diplomatic ties between Portugal and Flanders. Though the marriage did not produce lasting political consequences, it represented the diplomatic networks of late medieval Europe and Portugal's efforts to establish international alliances.",
+      "key_figures": [
+        "Margaret III (Countess of Male)",
+        "John I of Portugal (Aviz Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Portuguese royal chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Flemish genealogical records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The marriage is attested in Portuguese and Flemish records, though the exact date may be approximate (\u00b11 year).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The date of the Ottoman conquest of Sofia is disputed in some sources, with alternative dates of 1382, 1385, or 1386 appearing in different Ottoman chronicles. The significance of Wycliffe's death has sometimes been overstated; while he was influential, his direct impact on religious reform was limited during his lifetime, and the Lollard movement developed somewhat independently of his direct teachings. The marriage of Margaret III and John I may not have occurred in 1384; some sources suggest 1385 or other dates.",
+  "historiographic_note": "Documentation for 1384 is moderate. English sources are relatively rich, particularly regarding Wycliffe. Chinese sources are contemporary and detailed. Ottoman and Bulgarian sources are primarily later compilations with dating uncertainties. Portuguese sources exist but are sometimes sparse for this period. African, American, and Oceanic histories remain absent from written records. The surviving sources reflect elite, court-centered perspectives and may underrepresent popular religious movements and economic conditions.",
+  "graph_edges": [
+    {
+      "from": "1384-001",
+      "to": "1415-001",
+      "relation": "led_to",
+      "note": "Wycliffe's death and legacy influenced later religious reform movements"
+    },
+    {
+      "from": "1384-003",
+      "to": "1389-001",
+      "relation": "led_to",
+      "note": "Ottoman conquest of Sofia was part of the campaign leading to the Battle of Kosovo"
+    },
+    {
+      "from": "1384-002",
+      "to": "1386-003",
+      "relation": "contemporary_with",
+      "note": "Hongwu Emperor's consolidation of power through institutional and legal reforms"
+    }
+  ]
+}

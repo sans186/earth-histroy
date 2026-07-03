@@ -1,0 +1,159 @@
+{
+  "year": 901,
+  "year_label": "901 CE",
+  "era_context": "The early 10th century CE marks the fragmentation of the Abbasid Caliphate's central authority, the consolidation of regional Islamic dynasties (Fatimids in North Africa, Ikhshidids in Egypt, Samanids in Central Asia), the Viking Age in full swing with Norse settlement and raiding across Europe and the Atlantic, and the Tang Dynasty's collapse in China (907 CE imminent) with regional warlordism rising. In Europe, the Carolingian Empire has dissolved; feudalism is crystallizing. In Mesoamerica, the Classic Maya collapse is centuries past; the Toltec civilization is emerging.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources; oral traditions not well-preserved in contemporary records)",
+    "Oceania and Pacific island societies (minimal documentation)",
+    "Pre-Columbian Americas outside Mesoamerica (sparse archaeological dating to specific years)"
+  ],
+  "events": [
+    {
+      "id": "901-001",
+      "title": "Zanj Rebellion suppressed; final collapse of the Zanj slave state in southern Iraq",
+      "region": "Mesopotamia (Iraq), Abbasid Caliphate",
+      "coordinates_approx": "30.5, 47.8",
+      "category": "military",
+      "description": "The Zanj Rebellion, a major slave uprising that began in 869 CE, was finally crushed by Abbasid forces under the command of Caliph al-Muktafi. The rebellion had devastated southern Iraq for decades, disrupting agriculture and trade. By 901 CE, the remaining Zanj forces were eliminated, though the region remained economically weakened. This marked the end of one of the largest slave revolts in pre-modern history and a symbolic reassertion of Abbasid central authority, though the caliphate's actual power continued to decline.",
+      "key_figures": [
+        "Caliph al-Muktafi (Abbasid ruler)",
+        "Ali ibn Muhammad (Zanj leader, deceased 883 CE but rebellion continued under successors)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Tabari, History of the Prophets and Kings (Tarikh al-Rusul wa-al-Muluk)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Al-Mas'udi, Meadows of Gold (Muruj al-dhahab)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The rebellion's final suppression is dated to ~901 CE by historiographic consensus, though exact year varies slightly in sources (898\u2013903 CE range cited). Al-Tabari wrote a century later but drew on earlier accounts.",
+      "cross_references": [
+        "Relates to broader Abbasid decline; precedes final fragmentation by decades"
+      ]
+    },
+    {
+      "id": "901-002",
+      "title": "Fatimid Caliphate consolidates control over North Africa and Sicily",
+      "region": "North Africa, Sicily, Mediterranean",
+      "coordinates_approx": "35.0, 15.0",
+      "category": "political",
+      "description": "The Fatimid Caliphate, founded in 909 CE (or 910 CE depending on source), was in its early consolidation phase by 901 CE. Fatimid forces under the Aghlabid dynasty's successors were expanding naval power and territorial control across the Maghreb and Sicily. By 901 CE, Fatimid-aligned or Fatimid-controlled forces held significant portions of North Africa and were beginning systematic conquest of Sicily from Byzantine and local rulers. This expansion would make the Fatimids a major Mediterranean power by the mid-10th century.",
+      "key_figures": [
+        "Ubaidallah al-Mahdi (Fatimid founder, r. 909\u2013934 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Mas'udi, Meadows of Gold",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Tarikh)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Fatimid founding is traditionally dated 909 CE; consolidation of North African control occurred over the first two decades. 901 CE is assigned as a marker of early expansion, though specific events for this exact year are not well-documented.",
+      "cross_references": [
+        "Precedes formal Fatimid caliphate declaration (909 CE) but represents the movement's rise"
+      ]
+    },
+    {
+      "id": "901-003",
+      "title": "Norse settlement and raiding in the Irish Sea and Atlantic",
+      "region": "British Isles, North Atlantic, Scandinavia",
+      "coordinates_approx": "54.0, -3.0",
+      "category": "exploration",
+      "description": "By 901 CE, Norse (Viking) settlement in the British Isles and Atlantic was well-established. The Norse had colonized Iceland (c. 874 CE), were raiding and settling in Ireland and Scotland, and were beginning exploration toward Greenland and North America. In 901 CE specifically, Norse fleets were active in raids and trade across the Irish Sea and North Atlantic. This period represents the height of Viking Age expansion and the beginning of permanent Norse settlement in the North Atlantic.",
+      "key_figures": [
+        "Various Norse jarls and chieftains (names not consistently recorded for this year)"
+      ],
+      "sources": [
+        {
+          "name": "Landn\u00e1mab\u00f3k (Book of Settlements), compiled 12th century but based on oral tradition",
+          "type": "oral_tradition",
+          "contemporary": false
+        },
+        {
+          "name": "Icelandic Sagas (various, compiled 13th century)",
+          "type": "oral_tradition",
+          "contemporary": false
+        },
+        {
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Norse settlement in Iceland and raiding in the British Isles are well-attested by 901 CE. Specific events for this year are not documented; the entry reflects the broader context of Norse expansion during this period.",
+      "cross_references": [
+        "Part of broader Viking Age (c. 793\u20131066 CE)"
+      ]
+    },
+    {
+      "id": "901-004",
+      "title": "Samanid Empire consolidates control over Central Asia and Persia",
+      "region": "Central Asia, Persia, Khorasan",
+      "coordinates_approx": "37.0, 65.0",
+      "category": "political",
+      "description": "The Samanid Empire, founded in the 9th century, was at the height of its power by 901 CE under Amir Ismail I (r. 892\u2013907 CE). The Samanids controlled a vast territory from the Caspian Sea to the Indus River, making them one of the most powerful Islamic dynasties of the era. By 901 CE, they had consolidated control over Khorasan, Transoxiana, and parts of Persia, establishing a sophisticated administrative system and becoming major patrons of Persian culture and scholarship. This period saw the flourishing of Persian literature, science, and philosophy under Samanid patronage.",
+      "key_figures": [
+        "Amir Ismail I (Samanid ruler, r. 892\u2013907 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Tabari, History of the Prophets and Kings",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Samanid rule and territorial extent by 901 CE are well-documented in Islamic chronicles. Ismail I's reign dates are firmly established.",
+      "cross_references": [
+        "Part of broader Islamic fragmentation and regional dynasty formation"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Fatimid founding date is disputed: some sources place it in 909 CE, others in 910 CE. The entry above assumes 909 CE but notes this uncertainty. The Zanj Rebellion's final suppression date varies in sources (898\u2013903 CE range), reflecting uncertainty in medieval Islamic chronology. No major disconfirming evidence identified for other events listed.",
+  "historiographic_note": "Documentation for 901 CE is moderate but unevenly distributed. Islamic sources (al-Tabari, al-Mas'udi, Ibn al-Athir) provide the most detailed records, though they were written a century or more after events. Norse sources are primarily oral traditions compiled centuries later. European sources are sparse. Sub-Saharan Africa, the Americas, and Oceania are essentially undocumented for this specific year. The historical record is heavily weighted toward the Islamic world and Mediterranean Europe, reflecting the survival and preservation of written sources in these regions.",
+  "graph_edges": [
+    {
+      "from": "901-001",
+      "to": "Abbasid decline (broader process)",
+      "relation": "part_of",
+      "note": "Suppression of Zanj Rebellion represents temporary reassertion of Abbasid authority but does not reverse long-term decline"
+    },
+    {
+      "from": "901-002",
+      "to": "909-001",
+      "relation": "led_to",
+      "note": "Fatimid consolidation in North Africa leads to formal caliphate declaration in 909 CE"
+    },
+    {
+      "from": "901-003",
+      "to": "1000-001",
+      "relation": "led_to",
+      "note": "Norse Atlantic expansion in 901 CE leads to Norse discovery of North America (Vinland) by c. 1000 CE"
+    },
+    {
+      "from": "901-004",
+      "to": "Samanid cultural flourishing",
+      "relation": "part_of",
+      "note": "Samanid consolidation supports major developments in Persian literature and science"
+    }
+  ]
+}

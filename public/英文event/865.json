@@ -1,0 +1,123 @@
+{
+  "year": 865,
+  "year_label": "865 CE",
+  "era_context": "The mid-9th century CE continued to see the fragmentation of Carolingian authority, the rise of Viking power in Northern Europe, the Byzantine Empire's military and cultural renaissance under the Macedonian dynasty, and the decline of the Tang Dynasty in China. The Islamic world remained culturally and scientifically vibrant under the Abbasid Caliphate, while the Khazar Khaganate maintained control of the Eurasian steppes.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Pre-Columbian Americas",
+    "Central Asia (limited contemporary sources)"
+  ],
+  "events": [
+    {
+      "id": "865-001",
+      "title": "Viking Great Heathen Army campaigns in England",
+      "region": "England",
+      "coordinates_approx": "52.5, -1.5",
+      "category": "military",
+      "description": "The Great Heathen Army, a large Viking force, invaded England and began a systematic conquest of Anglo-Saxon kingdoms. This force, which had previously campaigned in France, now turned its attention to England with the goal of conquest and settlement rather than mere raiding. The campaign marked a turning point in Viking-English relations and set the stage for the eventual establishment of the Danelaw.",
+      "key_figures": [
+        "Ragnar Lothbrok (legendary attribution)",
+        "Ivar the Boneless (Viking leader)",
+        "Halfdan Ragnarsson (Viking leader)"
+      ],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Icelandic sagas (Ragnar's Saga, Saga of Ivar the Boneless)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The arrival of the Great Heathen Army is attested in the Anglo-Saxon Chronicle, though the exact date and composition of the force remain debated. The legendary attributions to Ragnar Lothbrok and his sons are not contemporary.",
+      "cross_references": [
+        "866-001 (conquest of York)",
+        "878-001 (Treaty of Wedmore)"
+      ]
+    },
+    {
+      "id": "865-002",
+      "title": "Conversion of the Khazars to Judaism (traditional date)",
+      "region": "Khazar Khaganate, Caucasus and Volga region",
+      "coordinates_approx": "45.0, 48.0",
+      "category": "religious",
+      "description": "According to Jewish and some Islamic sources, the Khazar Khaganate underwent a mass conversion to Judaism during this period. The Khazars were a Turkic people who controlled a vast empire spanning the Caucasus, the Volga region, and parts of the steppes. This conversion is one of the most debated events in medieval history, with scholars disagreeing on its extent, timing, and authenticity. If it occurred, it would represent a unique case of a major state adopting Judaism as its official religion.",
+      "key_figures": [
+        "Bulan (legendary Khazar ruler, attributed with initiating conversion)",
+        "Joseph (Khazar ruler, mentioned in Khazar correspondence)"
+      ],
+      "sources": [
+        {
+          "name": "Kuzari (Judah Halevi, 12th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Khazar Correspondence (10th century letters)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Islamic geographers (Al-Masudi, Ibn Fadlan)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "legendary",
+      "certainty_note": "The conversion of the Khazars to Judaism is highly disputed. The traditional date of 865 is based on later sources and is not contemporary. Modern scholars debate whether a mass conversion occurred at all, or whether it was limited to the ruling elite. The Kuzari, a major source, was written in the 12th century, centuries after the alleged event.",
+      "cross_references": [
+        "10th century (Khazar correspondence period)"
+      ]
+    },
+    {
+      "id": "865-003",
+      "title": "Tang Dynasty decline and regional fragmentation",
+      "region": "China",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "political",
+      "description": "The Tang Dynasty, which had ruled China for nearly three centuries, continued its rapid decline in the mid-9th century. Regional warlords increasingly asserted independence, and central imperial authority weakened. This period saw the rise of regional military governors (jiedushi) who controlled vast territories and resources. The decline would culminate in the dynasty's fall in 907 CE and the subsequent period of fragmentation known as the Five Dynasties and Ten Kingdoms period.",
+      "key_figures": [
+        "Emperor Yizong of Tang (r. 859\u2013873)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Sima Guang's comprehensive history)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Official Tang court records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The decline of the Tang Dynasty is well-documented in Chinese historical records. The year 865 falls within the documented period of imperial weakness and regional fragmentation.",
+      "cross_references": [
+        "907-001 (fall of Tang Dynasty)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Khazar conversion to Judaism is one of the most contested events in medieval history. Modern scholarship is deeply divided: some scholars argue the conversion was limited to the ruling elite or did not occur at all; others suggest it was a gradual process rather than a sudden event; still others question whether the sources are reliable. The traditional date of 865 is not supported by contemporary evidence and appears to be a later scholarly convention. Additionally, the attribution of the Great Heathen Army's invasion to Ragnar Lothbrok and his sons is now widely rejected by historians as legendary conflation.",
+  "historiographic_note": "The historical record for 865 CE is uneven. Western European and Byzantine sources are relatively abundant, though often biased toward political and military narratives. Chinese sources are rich and detailed but focus on court politics and administrative matters. The Khazar conversion is known primarily through later sources written centuries after the alleged event, making it impossible to verify with confidence. For most of the world outside these regions, contemporary documentation is minimal or absent.",
+  "graph_edges": [
+    {
+      "from": "865-001",
+      "to": "866-001",
+      "relation": "led_to",
+      "note": "The Great Heathen Army's campaigns in 865 led directly to the conquest of York in 866."
+    },
+    {
+      "from": "865-003",
+      "to": "907-001",
+      "relation": "led_to",
+      "note": "The fragmentation and decline of the Tang Dynasty in the mid-9th century led to its collapse in 907 and the subsequent period of disunity."
+    }
+  ]
+}

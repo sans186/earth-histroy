@@ -1,0 +1,116 @@
+{
+  "year": -178,
+  "year_label": "178 BCE",
+  "era_context": "The mid-2nd century BCE continues. Antiochus IV Epiphanes is consolidating Seleucid power and preparing for major military campaigns. Rome is increasingly dominant in the Mediterranean. The Han Dynasty under Emperor Wen is in its final years (he would die in 157 BCE). Parthia is rising under Mithridates I. India's Shunga Empire is establishing itself.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Oceania",
+    "Central Asia (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "-178-001",
+      "title": "Seleucid military preparations: Antiochus IV's strategic positioning",
+      "region": "Seleucid Empire",
+      "coordinates_approx": "35.0, 35.0",
+      "category": "military",
+      "description": "Antiochus IV continued military preparations and strategic positioning for his planned campaigns against Egypt and Parthia. By 178 BCE, he had consolidated internal Seleucid power and was building up military resources. These preparations would culminate in the First Syrian War (170\u2013168 BCE) against Egypt and ongoing conflicts with Parthia.",
+      "key_figures": [
+        "Antiochus IV Epiphanes (Seleucid King)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Livy, History of Rome",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Antiochus IV's military preparations is documented, but specific events in 178 BCE are not always precisely dated.",
+      "cross_references": [
+        "Leads to -170-001 (First Syrian War)"
+      ]
+    },
+    {
+      "id": "-178-002",
+      "title": "Han Dynasty: Emperor Wen's final years of reign",
+      "region": "Han Dynasty China",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "political",
+      "description": "Emperor Wen of Han was in the final years of his reign (he would die in 157 BCE). By 178 BCE, he had ruled for over two decades and had established a stable, prosperous empire. His policies of low taxation and reduced military expenditure had created economic growth and relative peace. The succession was being prepared, though the exact arrangements are not fully documented.",
+      "key_figures": [
+        "Emperor Wen of Han (r. 180\u2013157 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu by Ban Gu",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Emperor Wen's reign dates are well-established. By 178 BCE, he was in his final years.",
+      "cross_references": [
+        "Leads to -157-001 (Emperor Wen's death and succession)"
+      ]
+    },
+    {
+      "id": "-178-003",
+      "title": "Ptolemaic Egypt: Ptolemy VI Philometor's consolidation",
+      "region": "Ptolemaic Egypt",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Ptolemy VI Philometor continued to consolidate his rule over Egypt. By 178 BCE, he was firmly established as the primary ruler, though his mother Cleopatra II retained significant influence. Egypt remained a major Mediterranean power, but tensions with the Seleucid Empire were building, setting the stage for the Syrian Wars.",
+      "key_figures": [
+        "Ptolemy VI Philometor (Ptolemaic King)",
+        "Cleopatra II (mother/regent)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Porphyry's Chronicle",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ptolemy VI's rule is attested, but specific events in 178 BCE are not always precisely documented.",
+      "cross_references": [
+        "Relates to -170-001 (First Syrian War)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for events listed. The chronology of Antiochus IV's military preparations is somewhat speculative, as specific events in 178 BCE are not always precisely dated in sources.",
+  "historiographic_note": "Documentation for 178 BCE remains moderate, with the same geographic and source biases as previous years. Greek and Roman sources dominate; Chinese sources are reliable but less detailed about individual years. The historical record continues to be weighted toward major political and military events. Economic, social, and cultural history is underrepresented. Regions outside the Mediterranean, Near East, and China are essentially absent from contemporary records.",
+  "graph_edges": [
+    {
+      "from": "-178-001",
+      "to": "-170-001",
+      "relation": "led_to",
+      "note": "Antiochus IV's military preparations culminated in the First Syrian War"
+    },
+    {
+      "from": "-178-002",
+      "to": "-157-001",
+      "relation": "led_to",
+      "note": "Emperor Wen's reign ended with his death in 157 BCE"
+    }
+  ]
+}

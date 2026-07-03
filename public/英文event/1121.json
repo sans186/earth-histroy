@@ -1,0 +1,192 @@
+{
+  "year": 1121,
+  "year_label": "1121 CE",
+  "era_context": "The early 12th century CE spans the height of the Crusader States in the Levant, the consolidation of Norman rule in England and Sicily, the Song Dynasty's dominance in China, and the rise of the Seljuk Empire in Anatolia and the Near East. This is an era of religious ferment, military expansion, and significant technological and cultural exchange across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources; oral traditions and archaeological evidence underrepresented)",
+    "Northern Europe beyond Scandinavia and the Baltic (sparse monastic records)",
+    "Central Asia and the Steppe (limited contemporary chronicles in European archives)"
+  ],
+  "events": [
+    {
+      "id": "1121-001",
+      "title": "Battle of Didgori (Georgian victory over Seljuks)",
+      "region": "Georgia (South Caucasus)",
+      "coordinates_approx": "41.8\u00b0N, 44.5\u00b0E",
+      "category": "military",
+      "description": "King David the Builder of Georgia defeated a major Seljuk invasion force at Didgori on 12 August 1121, marking a decisive turning point in Georgian independence and regional power. The victory halted Seljuk expansion into the Caucasus and enabled Georgia to reclaim lost territories. This battle is celebrated as foundational to Georgian national identity and marked the beginning of Georgia's 'Golden Age' under David and his successors.",
+      "key_figures": [
+        "David II of Georgia (King of Georgia)",
+        "Seljuk commanders (names disputed in sources)"
+      ],
+      "sources": [
+        {
+          "name": "The Life of King David the Builder (Georgian hagiographic chronicle, compiled 12th\u201313th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Seljuk chronicles and later Islamic historiography",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle is attested in multiple Georgian and Islamic sources, though details vary. The date of 12 August 1121 is the traditional Georgian dating; some sources place it in 1122. Modern scholarship confirms the battle's occurrence and strategic significance.",
+      "cross_references": [
+        "Follows from David II's earlier military campaigns (1110s)",
+        "Led to Georgian territorial expansion and the consolidation of the Georgian kingdom"
+      ]
+    },
+    {
+      "id": "1121-002",
+      "title": "Suger becomes Abbot of Saint-Denis",
+      "region": "France (\u00cele-de-France)",
+      "coordinates_approx": "48.95\u00b0N, 2.35\u00b0E",
+      "category": "religious",
+      "description": "Suger, a French Benedictine monk and statesman, became Abbot of the royal Abbey of Saint-Denis near Paris. He would become one of the most influential ecclesiastical figures of the 12th century, serving as regent during the Second Crusade and pioneering the Gothic architectural style. His tenure marked the beginning of Saint-Denis's transformation into a centre of theological and artistic innovation.",
+      "key_figures": [
+        "Suger (Abbot of Saint-Denis)",
+        "Louis VI of France (patron)"
+      ],
+      "sources": [
+        {
+          "name": "Suger's own writings and biographical accounts (Vita Sugerii)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Monastic records of Saint-Denis",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Suger's appointment is well-documented in monastic records and his own writings. The date 1121 is established by historiographic consensus.",
+      "cross_references": [
+        "Led to the development of Gothic architecture at Saint-Denis (1130s\u20131140s)",
+        "Connected to the Second Crusade (1147\u20131149)"
+      ]
+    },
+    {
+      "id": "1121-003",
+      "title": "Establishment of the Hospitallers' presence in the Levant",
+      "region": "Levant (Palestine/Syria)",
+      "coordinates_approx": "31.9\u00b0N, 35.2\u00b0E",
+      "category": "religious",
+      "description": "The Order of Saint John of Jerusalem (later the Knights Hospitaller) was formally recognised and began consolidating its military and charitable presence in the Crusader States. By 1121, the order had evolved from a purely charitable institution into a military-monastic order, establishing fortifications and playing an increasingly important role in defending Crusader territories.",
+      "key_figures": [
+        "Raymond du Puy (Master of the Hospitallers, c. 1120\u20131160)"
+      ],
+      "sources": [
+        {
+          "name": "Cartularies and charters of the Order of Saint John",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Crusader chronicles (e.g., William of Tyre)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Hospitallers' institutional development occurred gradually over the early 12th century. The date 1121 marks a conventional point of consolidation; exact dating of their military transformation is uncertain by \u00b15\u201310 years.",
+      "cross_references": [
+        "Part of the broader militarisation of religious orders in the Crusader States",
+        "Led to the Hospitallers' dominance in Mediterranean naval warfare (12th\u201316th centuries)"
+      ]
+    },
+    {
+      "id": "1121-004",
+      "title": "Zhezong Emperor's reign ends; Huizong ascends in Song China",
+      "region": "China (Song Dynasty)",
+      "coordinates_approx": "34.3\u00b0N, 108.9\u00b0E",
+      "category": "political",
+      "description": "The Zhezong Emperor of the Northern Song Dynasty died in 1121, and was succeeded by his brother, the Huizong Emperor. Huizong's reign (1101\u20131125) was marked by cultural flourishing in painting, calligraphy, and ceramics, but also by political instability, factional conflict, and military vulnerability to the Jurchen Jin Dynasty in the north. This transition marked a shift in Song governance and cultural priorities.",
+      "key_figures": [
+        "Zhezong Emperor (r. 1085\u20131100, died 1121)",
+        "Huizong Emperor (r. 1100\u20131125, ascended 1100 but consolidated power by 1121)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government) and Song official histories",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Imperial records and court documents",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The dates of imperial reigns in Song China are well-established through official records and historiographic consensus. Huizong's ascension occurred in 1100, but 1121 marks a consolidation of his personal authority.",
+      "cross_references": [
+        "Part of the Song Dynasty's internal political evolution",
+        "Led to increased cultural patronage and artistic innovation",
+        "Preceded the Jin conquest of northern China (1127)"
+      ]
+    },
+    {
+      "id": "1121-005",
+      "title": "Abelard and H\u00e9lo\u00efse's correspondence and separation",
+      "region": "France (Paris)",
+      "coordinates_approx": "48.85\u00b0N, 2.35\u00b0E",
+      "category": "cultural",
+      "description": "The famous scholar and theologian Peter Abelard and his student H\u00e9lo\u00efse were separated following the discovery of their secret marriage and love affair. Abelard was castrated by H\u00e9lo\u00efse's uncle Fulbert, and both entered monastic life. Their subsequent correspondence became one of the most celebrated love letters in medieval literature, reflecting intellectual and emotional depth unusual for the period.",
+      "key_figures": [
+        "Peter Abelard (theologian and philosopher)",
+        "H\u00e9lo\u00efse (scholar and abbess)",
+        "Fulbert (canon of Notre-Dame, H\u00e9lo\u00efse's uncle)"
+      ],
+      "sources": [
+        {
+          "name": "The Letters of Abelard and H\u00e9lo\u00efse (primary correspondence)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Abelard's Historia Calamitatum (autobiographical account)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The affair and separation are attested in Abelard's own writings and the couple's correspondence. The exact date of the separation is traditionally placed in 1121, though some sources suggest 1118\u20131119. Modern scholarship confirms the events but debates precise chronology.",
+      "cross_references": [
+        "Part of the intellectual ferment of 12th-century Paris",
+        "Reflects broader medieval attitudes toward marriage, celibacy, and women's education"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Battle of Didgori's significance is sometimes overstated in Georgian nationalist historiography; while a genuine military victory, its immediate strategic impact was more limited than later sources suggest, and Seljuk pressure on Georgia continued intermittently. Abelard and H\u00e9lo\u00efse's separation date is disputed: some modern scholars place the castration and separation in 1118\u20131119 rather than 1121, based on textual analysis of their letters. The exact dating of Huizong's consolidation of power is debated; some sources treat 1100 as the effective beginning of his reign rather than 1121.",
+  "historiographic_note": "Documentation for 1121 is uneven. European events (Crusades, monastic life, intellectual figures) are well-attested in Latin chronicles and primary texts. East Asian events rely on official dynastic histories compiled centuries later but based on contemporary records. Georgian sources are hagiographic and compiled after the events. Islamic and Seljuk perspectives on the Battle of Didgori are sparse in surviving sources; the narrative is dominated by Georgian accounts. Sub-Saharan Africa, the Americas, and much of Central Asia have no surviving written records for this year. The surviving sources reflect the biases of literate elites (clergy, nobility, court officials) and likely omit the experiences of peasants, merchants, and non-elite populations.",
+  "graph_edges": [
+    {
+      "from": "1121-001",
+      "to": "1127-GEORGIAN_KINGDOM",
+      "relation": "led_to",
+      "note": "The victory at Didgori enabled Georgia's territorial expansion and cultural flourishing in the subsequent decades"
+    },
+    {
+      "from": "1121-002",
+      "to": "1130-GOTHIC_ARCHITECTURE",
+      "relation": "led_to",
+      "note": "Suger's tenure as Abbot led to the pioneering of Gothic architecture at Saint-Denis"
+    },
+    {
+      "from": "1121-004",
+      "to": "1127-JIN_CONQUEST",
+      "relation": "led_to",
+      "note": "Huizong's reign was marked by military vulnerability that culminated in the Jin conquest of northern China"
+    },
+    {
+      "from": "1121-005",
+      "to": "1142-ABELARD_DEATH",
+      "relation": "led_to",
+      "note": "The separation led to Abelard and H\u00e9lo\u00efse's monastic careers and their continued intellectual correspondence"
+    }
+  ]
+}

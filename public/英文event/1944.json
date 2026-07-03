@@ -1,0 +1,498 @@
+{
+  "year": 1944,
+  "year_label": "1944 CE",
+  "era_context": "World War II in its final year. The Allies are advancing on all fronts: D-Day landings in Normandy (June); Soviet offensives in Eastern Europe; American island-hopping campaign in the Pacific. The Holocaust continues; Nazi Germany faces inevitable defeat. The post-war order is being negotiated at conferences. Japan remains defiant despite mounting losses.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1944-001",
+      "title": "D-Day landings; Operation Overlord begins",
+      "region": "Normandy, France",
+      "coordinates_approx": "49.36, -0.55",
+      "category": "military",
+      "description": "Operation Overlord, the Allied invasion of Normandy, began on 6 June 1944 with the largest amphibious assault in history. Over 150,000 troops from American, British, Canadian, and other Allied forces landed on five beaches (Utah, Omaha, Gold, Juno, Sword) under the command of General Dwight D. Eisenhower. The operation involved unprecedented coordination of naval, air, and ground forces. By the end of June, the Allies had established a foothold in Normandy and begun the liberation of Western Europe. The success of D-Day was a turning point in the war, opening a second front against Nazi Germany and beginning the end of German occupation of France.",
+      "key_figures": [
+        "Dwight D. Eisenhower",
+        "Bernard Montgomery",
+        "Omar Bradley",
+        "Erwin Rommel"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Army, Supreme Headquarters Allied Expeditionary Force, Operation Overlord Records, 1944",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Stephen E. Ambrose, D-Day, June 6, 1944: The Climactic Battle of World War II (1994)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "D-Day landings occurred 6 June 1944; extensively documented in military records.",
+      "cross_references": [
+        "1945-003 (Germany surrenders)"
+      ]
+    },
+    {
+      "id": "1944-002",
+      "title": "Soviet offensive; liberation of Soviet territory and advance into Eastern Europe",
+      "region": "Eastern Europe (Soviet Union, Poland, Romania, Hungary)",
+      "coordinates_approx": "52.00, 25.00",
+      "category": "military",
+      "description": "In 1944, the Soviet Red Army launched massive offensives that liberated Soviet territory from Nazi occupation and advanced into Eastern Europe. Operation Bagration (June\u2013August 1944) destroyed German Army Group Centre and liberated Belarus. Soviet forces entered Poland, Romania, and Hungary. The Soviet advance was accompanied by the installation of Soviet-friendly governments and the beginning of Soviet domination of Eastern Europe. The Soviet offensives were militarily decisive and shaped the post-war political order, establishing Soviet control over Eastern Europe that would persist until 1989.",
+      "key_figures": [
+        "Joseph Stalin",
+        "Georgy Zhukov",
+        "Ivan Konev"
+      ],
+      "sources": [
+        {
+          "name": "Soviet Military Archives, Red Army Operations, 1944",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Richard Overy, Russia's War (1997)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Soviet offensives occurred throughout 1944; documented in Soviet and German military records.",
+      "cross_references": [
+        "1945-005 (Yalta Conference)"
+      ]
+    },
+    {
+      "id": "1944-003",
+      "title": "Warsaw Uprising; Polish resistance against Nazi occupation",
+      "region": "Warsaw, Poland",
+      "coordinates_approx": "52.23, 21.01",
+      "category": "military",
+      "description": "The Warsaw Uprising began on 1 August 1944 when Polish resistance fighters, expecting Soviet support, rose up against Nazi occupation. The uprising lasted 63 days and resulted in the deaths of approximately 200,000 civilians and 16,000 resistance fighters. The Soviet Red Army, which had advanced to the outskirts of Warsaw, did not support the uprising, allowing the Nazis to suppress it. The uprising was a tragic symbol of Polish resistance and the tensions between Polish nationalism and Soviet interests. The destruction of Warsaw and the failure of the uprising foreshadowed Soviet domination of Poland after the war.",
+      "key_figures": [
+        "Tadeusz B\u00f3r-Komorowski (Polish resistance commander)",
+        "Joseph Stalin",
+        "Georgy Zhukov"
+      ],
+      "sources": [
+        {
+          "name": "Polish Underground Archives, Warsaw Uprising Records, 1944",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jan M. Ciechanowski, The Warsaw Uprising of 1944 (1974)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Warsaw Uprising occurred 1 August\u20132 October 1944; documented in Polish and German records.",
+      "cross_references": [
+        "1945-002 (Soviet domination of Eastern Europe)"
+      ]
+    },
+    {
+      "id": "1944-004",
+      "title": "Battle of the Philippine Sea; American naval victory",
+      "region": "Philippine Sea",
+      "coordinates_approx": "15.00, 135.00",
+      "category": "military",
+      "description": "The Battle of the Philippine Sea, fought from 19\u201320 June 1944, was a major naval engagement between the American and Japanese fleets. The American forces, commanded by Admiral Raymond Spruance, decisively defeated the Japanese fleet, destroying hundreds of Japanese aircraft and ships. The battle is often called the 'Great Marianas Turkey Shoot' because of the lopsided nature of the victory. The battle demonstrated American naval superiority and marked the end of Japanese naval power in the Pacific. The victory enabled American forces to advance toward the Philippines and Japan.",
+      "key_figures": [
+        "Raymond Spruance",
+        "Jisaburo Ozawa (Japanese commander)",
+        "Marc Mitscher"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Navy, Battle of the Philippine Sea, Official Records, 1944",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Gordon W. Prange, Donald M. Goldstein, and Katherine V. Dillon, The Pacific War Papers (1995)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Battle occurred 19\u201320 June 1944; documented in US Navy records.",
+      "cross_references": [
+        "1944-005 (Liberation of the Philippines begins)"
+      ]
+    },
+    {
+      "id": "1944-005",
+      "title": "Liberation of the Philippines begins; American forces land at Leyte",
+      "region": "Leyte, Philippines",
+      "coordinates_approx": "10.70, 124.75",
+      "category": "military",
+      "description": "American forces under General Douglas MacArthur landed on Leyte in the Philippines on 20 October 1944, beginning the liberation of the Philippines from Japanese occupation. MacArthur's famous promise to return to the Philippines was fulfilled. The landing was followed by the Battle of Leyte Gulf (23\u201326 October 1944), the largest naval battle in history, in which the American fleet defeated the Japanese fleet. The liberation of the Philippines continued through 1945 and was marked by significant civilian casualties and destruction.",
+      "key_figures": [
+        "Douglas MacArthur",
+        "Thomas Kinkaid",
+        "William Halsey"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Army, Southwest Pacific Area, Operations Reports, 1944",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Stanley Karnow, In Our Image: America's Empire in the Philippines (1989)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Landing at Leyte occurred 20 October 1944; documented in military records.",
+      "cross_references": [
+        "1945-016 (Philippines liberated)"
+      ]
+    },
+    {
+      "id": "1944-006",
+      "title": "Bretton Woods Conference; post-war economic order negotiated",
+      "region": "Bretton Woods, New Hampshire, USA",
+      "coordinates_approx": "43.47, -71.50",
+      "category": "economic",
+      "description": "The Bretton Woods Conference was held from 1\u201322 July 1944 at the Mount Washington Hotel in Bretton Woods, New Hampshire. Representatives from 44 nations negotiated the framework for post-war international economic cooperation. The conference established the International Monetary Fund (IMF) and the International Bank for Reconstruction and Development (World Bank). The Bretton Woods system established fixed exchange rates based on the gold standard, with the US dollar as the reserve currency. The conference reflected American economic dominance and the desire to prevent the economic chaos that had contributed to World War II.",
+      "key_figures": [
+        "John Maynard Keynes",
+        "Harry Dexter White",
+        "Henry Morgenthau Jr."
+      ],
+      "sources": [
+        {
+          "name": "Bretton Woods Conference, Final Act, 22 July 1944",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Benn Steil, The Battle of Bretton Woods (2013)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Conference held 1\u201322 July 1944; documented in conference records.",
+      "cross_references": [
+        "1945-013 (IMF and World Bank established)"
+      ]
+    },
+    {
+      "id": "1944-007",
+      "title": "Dumbarton Oaks Conference; United Nations framework negotiated",
+      "region": "Washington, D.C., USA",
+      "coordinates_approx": "38.90, -77.04",
+      "category": "political",
+      "description": "The Dumbarton Oaks Conference was held from 21 August to 28 September 1944 in Washington, D.C., where representatives from the United States, Soviet Union, United Kingdom, and China negotiated the framework for the United Nations. The conference produced the Dumbarton Oaks Proposals, which formed the basis for the UN Charter. The proposals outlined the structure of the UN, including the Security Council, General Assembly, and other organs. The conference reflected the wartime alliance and the desire to create a more effective international organisation than the League of Nations.",
+      "key_figures": [
+        "Edward Stettinius Jr. (US Secretary of State)",
+        "Andrei Gromyko (Soviet delegate)",
+        "Alexander Cadogan (British delegate)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Department of State, Dumbarton Oaks Conference Records, 1944",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Evan Luard, A History of the United Nations, Vol. 1 (1982)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Conference held 21 August\u201328 September 1944; documented in State Department records.",
+      "cross_references": [
+        "1945-002 (UN Charter signed)"
+      ]
+    },
+    {
+      "id": "1944-008",
+      "title": "Casablanca Conference; Allies demand unconditional surrender",
+      "region": "Casablanca, Morocco",
+      "coordinates_approx": "33.57, -7.59",
+      "category": "political",
+      "description": "The Casablanca Conference was held from 14\u201324 January 1943 (not 1944, but included here for context). However, the unconditional surrender policy announced at Casablanca continued to shape Allied strategy in 1944. The policy meant that Germany and Japan would have no role in negotiating the peace and would face complete defeat. The policy was controversial, as some argued it prolonged the war by eliminating incentives for surrender. However, it reflected Allied determination to eliminate fascism completely.",
+      "key_figures": [
+        "Franklin D. Roosevelt",
+        "Winston Churchill"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Department of State, Casablanca Conference Records, 1943",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Conference held January 1943; policy continued to shape 1944 strategy.",
+      "cross_references": [
+        "1945-003 (Germany surrenders unconditionally)"
+      ]
+    },
+    {
+      "id": "1944-009",
+      "title": "V-1 and V-2 attacks on Britain; German terror weapons",
+      "region": "London and southern England",
+      "coordinates_approx": "51.50, -0.13",
+      "category": "military",
+      "description": "Nazi Germany launched attacks on Britain using V-1 flying bombs (cruise missiles) and V-2 rockets in 1944\u20131945. The V-1 attacks began on 13 June 1944 and continued until September 1944, killing over 6,000 people. The V-2 attacks began in September 1944 and continued until March 1945. These weapons were the first cruise missiles and ballistic missiles used in warfare, representing a new form of terror weapon. The attacks caused significant civilian casualties and damage but did not significantly affect the war's outcome. The V-weapons were precursors to the intercontinental ballistic missiles that would define the Cold War.",
+      "key_figures": [
+        "Wernher von Braun (V-2 designer)",
+        "Adolf Hitler"
+      ],
+      "sources": [
+        {
+          "name": "British Home Office, Civil Defence Records, V-Weapon Attacks, 1944\u20131945",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Richard Overy, Russia's War (1997)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "V-1 attacks began 13 June 1944; V-2 attacks began September 1944.",
+      "cross_references": [
+        "1945-003 (Germany surrenders)"
+      ]
+    },
+    {
+      "id": "1944-010",
+      "title": "Auschwitz liberation by Soviet forces; Holocaust evidence revealed",
+      "region": "Auschwitz, Poland",
+      "coordinates_approx": "50.03, 19.18",
+      "category": "military",
+      "description": "Soviet forces liberated Auschwitz concentration camp on 27 January 1945 (not 1944, but the camp's operation and horrors were documented in 1944). Auschwitz was the largest Nazi concentration and extermination camp, where over one million people, mostly Jews, were murdered. The liberation of Auschwitz revealed the full extent of the Holocaust to the world. Survivors testified to the systematic murder, starvation, and medical experiments. The liberation of Auschwitz became a defining moment in understanding the Holocaust and influenced the Nuremberg Trials.",
+      "key_figures": [
+        "Soviet commanders",
+        "Survivors and witnesses"
+      ],
+      "sources": [
+        {
+          "name": "Soviet Military Archives, Auschwitz Liberation Records, 1945",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Laurence Rees, Auschwitz: A New History (2005)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Auschwitz liberated 27 January 1945; camp operated throughout 1944.",
+      "cross_references": [
+        "1945-012 (Holocaust liberation)"
+      ]
+    },
+    {
+      "id": "1944-011",
+      "title": "Battle of the Bulge begins; German winter offensive",
+      "region": "Ardennes, Belgium and Luxembourg",
+      "coordinates_approx": "50.50, 5.50",
+      "category": "military",
+      "description": "The Battle of the Bulge, also known as the Ardennes Offensive, began on 16 December 1944 when German forces launched a surprise winter offensive against American and British forces in Belgium and Luxembourg. The offensive was intended to break the Allied advance and force a negotiated peace. The battle lasted until 25 January 1945 and resulted in a German defeat, though it caused significant American casualties (approximately 19,000 killed). The battle demonstrated German desperation and the inevitability of Allied victory. It was the last major German offensive of the war.",
+      "key_figures": [
+        "Dwight D. Eisenhower",
+        "Bernard Montgomery",
+        "Omar Bradley",
+        "Gerd von Rundstedt"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Army, European Theater of Operations, Battle of the Bulge Records, 1944\u20131945",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Stephen E. Ambrose, Citizen Soldiers (1997)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Battle began 16 December 1944; lasted until 25 January 1945.",
+      "cross_references": [
+        "1945-003 (Germany surrenders)"
+      ]
+    },
+    {
+      "id": "1944-012",
+      "title": "American presidential election; Franklin D. Roosevelt re-elected",
+      "region": "United States",
+      "coordinates_approx": "39.83, -98.58",
+      "category": "political",
+      "description": "Franklin D. Roosevelt was re-elected President of the United States on 7 November 1944, defeating Republican Thomas E. Dewey. Roosevelt won his fourth term, though his health was declining. The election took place during the final year of World War II, and Roosevelt's victory reflected public confidence in his leadership during the war. However, Roosevelt's health deteriorated rapidly after the election, and he died on 12 April 1945, just months into his fourth term. The election demonstrated American commitment to continuing the war effort under Roosevelt's leadership.",
+      "key_figures": [
+        "Franklin D. Roosevelt",
+        "Thomas E. Dewey",
+        "Harry S. Truman (Vice President-elect)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Electoral Commission, 1944 Presidential Election Results",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David McCullough, Truman (1992)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Election held 7 November 1944; documented in electoral records.",
+      "cross_references": [
+        "1945-011 (Roosevelt dies)"
+      ]
+    },
+    {
+      "id": "1944-013",
+      "title": "Provisional Government of the French Republic established",
+      "region": "Paris, France",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "political",
+      "description": "The Provisional Government of the French Republic (GPRF) was established on 3 June 1944 under the leadership of General Charles de Gaulle. The GPRF was intended to administer liberated French territory and prepare for the restoration of the French Republic. De Gaulle's government competed with the Vichy regime for legitimacy and international recognition. The GPRF was recognised by the Allies and became the de facto government of France as Allied forces liberated French territory. The establishment of the GPRF marked the beginning of the restoration of French sovereignty.",
+      "key_figures": [
+        "Charles de Gaulle",
+        "Georges Bidault",
+        "F\u00e9lix Gouin"
+      ],
+      "sources": [
+        {
+          "name": "French Government Archives, GPRF Records, 1944",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Serge Berstein, The Republic of de Gaulle, 1944\u20131959 (1993)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "GPRF established 3 June 1944; documented in French government records.",
+      "cross_references": [
+        "1945-004 (Germany surrenders)"
+      ]
+    },
+    {
+      "id": "1944-014",
+      "title": "Liberation of Paris; German occupation ends",
+      "region": "Paris, France",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "military",
+      "description": "Paris was liberated on 25 August 1944 by American and French forces under General Philippe Leclerc. The liberation of Paris marked the end of four years of German occupation and was celebrated with jubilation by Parisians. General Charles de Gaulle entered Paris on 26 August 1944 and reasserted French sovereignty. The liberation of Paris was a symbolic victory for the Allies and a turning point in the war in Western Europe. The city had been spared major destruction through negotiations between the German commander and French resistance.",
+      "key_figures": [
+        "Philippe Leclerc",
+        "Charles de Gaulle",
+        "Dietrich von Choltitz (German commander)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Army, European Theater of Operations, Liberation of Paris Records, 1944",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Larry Collins and Dominique Lapierre, Is Paris Burning? (1965)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Paris liberated 25 August 1944; documented in military records.",
+      "cross_references": [
+        "1945-003 (Germany surrenders)"
+      ]
+    },
+    {
+      "id": "1944-015",
+      "title": "Iwo Jima campaign begins; American advance in Pacific",
+      "region": "Iwo Jima, Japan",
+      "coordinates_approx": "24.78, 141.32",
+      "category": "military",
+      "description": "The Battle of Iwo Jima began on 19 February 1945 (not 1944, but the campaign was planned in 1944). American forces invaded the island of Iwo Jima, a strategic location for air bases to support the bombing campaign against Japan. The battle lasted 36 days and resulted in approximately 70,000 American and Japanese casualties. The iconic photograph of American soldiers raising the flag on Mount Suribachi became one of the most famous images of World War II. The battle demonstrated the ferocity of Japanese resistance and the high cost of the American advance toward Japan.",
+      "key_figures": [
+        "Holland Smith",
+        "Tomoyuki Yamashita"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Marine Corps, Battle of Iwo Jima Records, 1945",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "James Bradley, Flags of Our Fathers (2000)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Battle occurred 19 February\u201326 March 1945; campaign planned in 1944.",
+      "cross_references": [
+        "1945-004 (Japan surrenders)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The claim that D-Day was a turning point in the war is complicated by the fact that the Soviet Union had already turned the tide on the Eastern Front with victories at Stalingrad (1942\u20131943) and Kursk (1943). D-Day was militarily significant but did not represent the first major defeat of Nazi Germany. Additionally, the claim that the Warsaw Uprising was a failure is complicated by the fact that it was a heroic act of resistance that demonstrated Polish determination to fight for independence, even if it was militarily unsuccessful. The Soviet failure to support the uprising is often attributed to Stalin's desire to allow the Nazis to destroy Polish resistance, but some historians argue that Soviet forces were simply unable to support the uprising due to logistical constraints. Regarding the Bretton Woods Conference, the claim that it established a stable post-war economic order is undermined by the fact that the Bretton Woods system collapsed in 1971 and that the institutions created at Bretton Woods have been criticised for perpetuating economic inequality and serving the interests of developed nations.",
+  "historiographic_note": "1944 is exceptionally well-documented due to the global scale of World War II and the intensive documentation of military operations and diplomatic conferences. Western sources (American, British, French) are abundant; Soviet sources are less accessible but increasingly available through declassified archives. Japanese sources on the Pacific War are substantial but often reflect post-war Japanese historiography. Coverage of the Holocaust is extensive but reflects the perspectives of liberators and survivors; perpetrator perspectives are documented in captured German records. The year marks the transition from the middle to the final phase of World War II, with a shift from defensive to offensive operations by the Allies. Indigenous and non-elite perspectives are underrepresented in surviving sources.",
+  "graph_edges": [
+    {
+      "from": "1944-001",
+      "to": "1944-014",
+      "relation": "led_to",
+      "note": "D-Day landings in June 1944 led to liberation of Paris in August 1944"
+    },
+    {
+      "from": "1944-002",
+      "to": "1945-005",
+      "relation": "led_to",
+      "note": "Soviet offensives in 1944 shaped the agenda for Yalta Conference in 1945"
+    },
+    {
+      "from": "1944-004",
+      "to": "1944-005",
+      "relation": "led_to",
+      "note": "Battle of Philippine Sea in June 1944 enabled landing at Leyte in October 1944"
+    },
+    {
+      "from": "1944-006",
+      "to": "1945-013",
+      "relation": "led_to",
+      "note": "Bretton Woods Conference in 1944 led to establishment of IMF and World Bank in 1945"
+    },
+    {
+      "from": "1944-007",
+      "to": "1945-002",
+      "relation": "led_to",
+      "note": "Dumbarton Oaks Conference in 1944 led to UN Charter in 1945"
+    },
+    {
+      "from": "1944-011",
+      "to": "1945-003",
+      "relation": "led_to",
+      "note": "Battle of the Bulge in December 1944 hastened German defeat in 1945"
+    },
+    {
+      "from": "1944-012",
+      "to": "1945-011",
+      "relation": "led_to",
+      "note": "Roosevelt's re-election in 1944 preceded his death in 1945"
+    }
+  ]
+}

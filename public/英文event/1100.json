@@ -1,0 +1,206 @@
+{
+  "year": 1100,
+  "year_label": "1100 CE",
+  "era_context": "The First Crusade has just concluded with the capture of Jerusalem in July 1099. Western Europe is consolidating the results of this unprecedented military and religious mobilization. The Byzantine Empire under Alexios I Komnenos is recovering from the shock of the crusader passage and beginning to reassert control in Anatolia. The Islamic world is fragmented and reeling from the loss of Jerusalem. East Asia sees the Northern Song Dynasty in its final century of dominance, with the Jurchen Jin Dynasty beginning to consolidate power in Manchuria.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Southeast Asia (sparse documentation)",
+    "Mesoamerica and North America (no written records in European tradition)"
+  ],
+  "events": [
+    {
+      "id": "1100-001",
+      "title": "Baldwin I Crowned First King of Jerusalem",
+      "region": "Levant (Jerusalem)",
+      "coordinates_approx": "31.78, 35.23",
+      "category": "political",
+      "description": "Baldwin of Boulogne, brother of Godfrey of Bouillon (the first crusader leader in Jerusalem), is crowned the first king of the Kingdom of Jerusalem on Christmas Day 1100. Godfrey had refused the title 'king,' calling himself 'Defender of the Holy Sepulchre,' but Baldwin established a hereditary monarchy. This formalized the Crusader States as permanent political entities rather than temporary military conquests. Baldwin I ruled until 1118 and is credited with expanding the kingdom's territory and establishing its feudal structure.",
+      "key_figures": [
+        "Baldwin I of Boulogne (First King of Jerusalem)",
+        "Godfrey of Bouillon (Predecessor, died 1100)",
+        "Patriarch Daimbert of Pisa (Ecclesiastical authority)"
+      ],
+      "sources": [
+        {
+          "name": "Fulcher of Chartres, Historia Hierosolymitana",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Albert of Aachen, Historia Ierosolimitana",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "William of Tyre, Historia",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Baldwin's coronation is well-documented in multiple crusader chronicles. The date of Christmas Day 1100 is consistently reported.",
+      "cross_references": [
+        "1099-001 (Jerusalem captured)",
+        "1118-001 (Baldwin I dies)"
+      ]
+    },
+    {
+      "id": "1100-002",
+      "title": "William II (Rufus) Dies; Henry I Becomes King of England",
+      "region": "England",
+      "coordinates_approx": "52.0, -2.0",
+      "category": "political",
+      "description": "King William II of England (William Rufus), son of William the Conqueror, dies in a hunting accident in the New Forest on August 2, 1100. His younger brother Henry I seizes the throne, bypassing the claims of their older brother Robert Curthose (Duke of Normandy). Henry I's accession marks a shift in English governance; he issued a Charter of Liberties that limited royal prerogatives and gained support from the Norman barons. This succession dispute would lead to civil war between Henry and Robert over the next decade.",
+      "key_figures": [
+        "William II Rufus (Deceased king)",
+        "Henry I (New king)",
+        "Robert Curthose (Duke of Normandy, displaced heir)"
+      ],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Orderic Vitalis, Ecclesiastical History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "William of Malmesbury, Gesta Regum Anglorum",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "William II's death and Henry I's accession are precisely dated and well-documented in contemporary English chronicles.",
+      "cross_references": [
+        "1066-001 (Norman Conquest)",
+        "1106-001 (Henry I defeats Robert Curthose)"
+      ]
+    },
+    {
+      "id": "1100-003",
+      "title": "Bohemond I Captured by Danishmend Turks",
+      "region": "Anatolia (modern Turkey)",
+      "coordinates_approx": "40.5, 36.0",
+      "category": "military",
+      "description": "Bohemond I, the Norman crusader leader and Prince of Antioch, is captured by the Danishmend Turks (a rival Anatolian Turkish dynasty) while on a military campaign. He is held for ransom and remains in captivity until 1103. This capture temporarily weakens crusader control in northern Syria and demonstrates the military challenges facing the newly established Crusader States. During his captivity, Tancred of Lecce serves as regent of Antioch.",
+      "key_figures": [
+        "Bohemond I (Prince of Antioch, captured)",
+        "Malik Ghazi (Danishmend leader)",
+        "Tancred of Lecce (Regent during captivity)"
+      ],
+      "sources": [
+        {
+          "name": "Fulcher of Chartres, Historia Hierosolymitana",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Anna Komnena, Alexiad",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Albert of Aachen, Historia Ierosolimitana",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Bohemond's capture is well-attested in crusader and Byzantine sources. The date is consistently given as 1100.",
+      "cross_references": [
+        "1098-001 (Antioch captured)",
+        "1103-001 (Bohemond ransomed)"
+      ]
+    },
+    {
+      "id": "1100-004",
+      "title": "Anund Jacob Becomes King of Sweden",
+      "region": "Scandinavia (Sweden)",
+      "coordinates_approx": "60.0, 18.0",
+      "category": "political",
+      "description": "Anund Jacob (also called Anund the Great) becomes King of Sweden, ruling until 1118. He is known for strengthening Swedish Christianity and consolidating royal authority. His reign marks a period of relative stability in Scandinavia, though details of his early reign are sparse in surviving sources. Anund Jacob is credited with promoting the Christianization of Sweden and establishing stronger ties with Western Europe.",
+      "key_figures": [
+        "Anund Jacob (King of Sweden)"
+      ],
+      "sources": [
+        {
+          "name": "Snorri Sturluson, Heimskringla (Lives of the Norse Kings)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Swedish royal chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Anund Jacob's reign is documented in Norse and Swedish sources, but these were compiled centuries later. The exact date of his accession shows minor variation in sources.",
+      "cross_references": [
+        "1118-001 (Anund Jacob dies)"
+      ]
+    },
+    {
+      "id": "1100-005",
+      "title": "Seljuk Sultanate Consolidates Control in Anatolia",
+      "region": "Anatolia (modern Turkey)",
+      "coordinates_approx": "39.0, 35.0",
+      "category": "political",
+      "description": "The Seljuk Sultanate of Rum (Anatolia) consolidates its control over central and western Anatolia following the First Crusade. Despite the crusader presence in the Levant and northern Syria, the Seljuks maintain dominance in Anatolia proper. The sultanate is ruled by Kilij Arslan I, who successfully resists crusader expansion and maintains Seljuk territorial integrity. This period marks the establishment of Seljuk Rum as a major regional power that would endure until the Mongol invasions of the 13th century.",
+      "key_figures": [
+        "Kilij Arslan I (Seljuk Sultan of Rum)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Anna Komnena, Alexiad",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Seljuk consolidation in Anatolia is documented in Islamic and Byzantine sources, though specific events of 1100 are less precisely dated than major military campaigns.",
+      "cross_references": [
+        "1099-001 (First Crusade ends)",
+        "1101-001 (Crusaders defeated at Mersivan)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Baldwin I's coronation as a triumphant establishment of Christian kingship has been complicated by modern scholarship. Some historians note that Baldwin's authority was contested by the Patriarch of Jerusalem and that his claim to legitimacy was weaker than crusader chronicles suggest. Additionally, the 'hunting accident' death of William II Rufus has been subject to speculation and alternative theories by modern historians, though no definitive evidence of foul play exists. The characterization of the Seljuk response to crusader presence as purely military obscures the complex diplomatic negotiations and alliances that were also occurring.",
+  "historiographic_note": "Documentation for 1100 is heavily weighted toward Western European and Byzantine sources, with crusader chronicles dominating the narrative. Islamic sources provide less detailed coverage of this specific year. English sources (Anglo-Saxon Chronicle, Orderic Vitalis) are contemporary or near-contemporary for English events. Scandinavian sources are much later compilations. The historical record privileges political and military events over social, economic, or cultural developments. The perspective is heavily Western-centric, with the Crusade and its aftermath dominating the narrative despite simultaneous developments in Asia and the Islamic world being equally significant.",
+  "graph_edges": [
+    {
+      "from": "1100-001",
+      "to": "1099-001",
+      "relation": "led_to",
+      "note": "The capture of Jerusalem in 1099 directly led to Baldwin I's establishment of the Kingdom of Jerusalem in 1100."
+    },
+    {
+      "from": "1100-002",
+      "to": "1106-001",
+      "relation": "led_to",
+      "note": "Henry I's accession in 1100 set the stage for his conflict with Robert Curthose, resolved in 1106."
+    },
+    {
+      "from": "1100-003",
+      "to": "1103-001",
+      "relation": "led_to",
+      "note": "Bohemond's capture in 1100 led to his ransom and release in 1103."
+    },
+    {
+      "from": "1100-004",
+      "to": "1118-001",
+      "relation": "led_to",
+      "note": "Anund Jacob's reign began in 1100 and lasted until his death in 1118."
+    }
+  ]
+}

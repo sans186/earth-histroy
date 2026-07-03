@@ -1,0 +1,82 @@
+{
+  "year": 1297,
+  "year_label": "1297 CE",
+  "era_context": "The late 13th and early 14th centuries saw the fragmentation of Mongol power, the rise of the Ottoman Empire in Anatolia, the consolidation of the Delhi Sultanate in South Asia, the height of the Mali Empire in West Africa, and the late medieval period in Europe. The Yuan Dynasty ruled China; the Byzantine Empire was in decline; and Islamic sultanates dominated the Middle East and South Asia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa beyond Mali",
+    "Southeast Asian kingdoms",
+    "Pre-Columbian Americas",
+    "Pacific and Oceanic regions",
+    "Most of Europe and Asia lack specific documented events for this year"
+  ],
+  "events": [
+    {
+      "id": "1297-001",
+      "title": "Ala-ud-Din Khalji seizes power in Delhi Sultanate",
+      "region": "Delhi Sultanate, South Asia",
+      "coordinates_approx": "28.6, 77.2",
+      "category": "political",
+      "description": "Ala-ud-Din Khalji seized power from his uncle, the reigning Sultan, in 1296 or 1297, establishing himself as Sultan of Delhi. This coup marked the beginning of his reign (1296\u20131316), which would be characterized by military expansion, administrative reforms, and the strengthening of the Sultanate. The exact date of the coup is uncertain, with some sources placing it in 1296 and others in 1297.",
+      "key_figures": [
+        "Ala-ud-Din Khalji (Delhi Sultan)",
+        "Previous Sultan (uncle, name uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Tarikh-i Firuz Shahi and other Persian chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Ala-ud-Din's seizure of power is attested in Persian chronicles, but the exact date is uncertain. Sources vary between 1296 and 1297.",
+      "cross_references": [
+        "Begins Ala-ud-Din's reign (1296\u20131316)"
+      ]
+    },
+    {
+      "id": "1297-002",
+      "title": "Yuan Dynasty under Tem\u00fcr Khan: continued rule",
+      "region": "China / Yuan Dynasty",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "Tem\u00fcr Khan (r. 1294\u20131307) continued to rule the Yuan Dynasty in China, maintaining Mongol administrative systems and military organization. The Yuan controlled vast territories from the Pacific to Central Asia.",
+      "key_figures": [
+        "Tem\u00fcr Khan (Yuan Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Yuanshi (Official History of the Yuan Dynasty)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Chinese administrative records and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Tem\u00fcr Khan's reign is well-documented in Yuan records. 1297 falls within his reign.",
+      "cross_references": [
+        "Part of Yuan Dynasty 1271\u20131368"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of Ala-ud-Din's seizure of power is disputed; some sources place it in 1296, others in 1297. The dating uncertainty reflects the limitations of Persian chronicles, which were written centuries after events and often lack precise chronological information.",
+  "historiographic_note": "Documentation for 1297 is extremely sparse. No major events are documented for this year in most historical sources beyond Ala-ud-Din's coup in Delhi. This reflects the fundamental problem that historical significance is often assigned retrospectively, and years without major documented events are overlooked. The historical record is heavily skewed toward years with significant political, military, or religious events. For most of the world in 1297, no written records survive or have been consulted.",
+  "graph_edges": [
+    {
+      "from": "1297-001",
+      "to": "1316-001",
+      "relation": "led_to",
+      "note": "Ala-ud-Din's seizure of power begins his reign of expansion"
+    }
+  ]
+}

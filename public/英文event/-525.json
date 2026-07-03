@@ -1,0 +1,101 @@
+{
+  "year": -525,
+  "year_label": "525 BCE",
+  "era_context": "Late Archaic Greece; Darius I's reign in the Achaemenid Empire (522\u2013486 BCE). Hippias rules Athens. In India, the Buddha's teaching mission is underway. China is in the Spring and Autumn period with regional fragmentation. The Mediterranean world is experiencing rapid urbanisation and cultural development. This year marks a significant military campaign by Darius I in the Near East.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "The Americas",
+    "Oceania",
+    "Central Asia (limited written records)",
+    "India (limited synchronised dating)"
+  ],
+  "events": [
+    {
+      "id": "-525-001",
+      "title": "Darius I conquers Egypt",
+      "region": "Egypt / Achaemenid Empire",
+      "coordinates_approx": "26.0, 29.0",
+      "category": "military",
+      "description": "Darius I, having consolidated his power in Persia and the Near East, launches a military campaign to conquer Egypt. The Persian forces, led by Darius himself or his general Cambyses (depending on the source), defeat the Egyptian forces at the Battle of Pelusium. Egypt falls under Persian control, ending the 26th Dynasty (Saite period) and beginning the 27th Dynasty (Persian period). This conquest extends Darius's empire to include the richest and most ancient civilisation of the Mediterranean world, significantly enhancing Persian power and prestige.",
+      "key_figures": [
+        "Darius I (King of Kings, Achaemenid Empire)",
+        "Psamtik III (last pharaoh of the 26th Dynasty)",
+        "Cambyses II (possibly involved, though he died in 522 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories, Book III",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Behistun Inscription (Old Persian cuneiform)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian temple inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho, History of Egypt (via later compilations)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The conquest of Egypt by Darius I is well attested in both Persian (Behistun Inscription) and Egyptian sources. The date of 525 BCE is accepted by modern Egyptologists and ancient historians, though Herodotus's account contains some legendary elements.",
+      "cross_references": [
+        "-529-001 (Consolidation of Persian control in Egypt)"
+      ]
+    },
+    {
+      "id": "-525-002",
+      "title": "Battle of Pelusium: Persian victory over Egypt",
+      "region": "Pelusium, Egypt",
+      "coordinates_approx": "31.08, 31.68",
+      "category": "military",
+      "description": "The decisive battle in which Persian forces defeat the Egyptian army at Pelusium, a fortified city on Egypt's northeastern frontier. Herodotus provides a legendary account involving the use of cats (sacred to the Egyptians) as a psychological weapon, though this is likely apocryphal. The battle marks the end of Egyptian independence and the beginning of Persian rule. The victory is swift and decisive, suggesting superior Persian military organisation and tactics.",
+      "key_figures": [
+        "Darius I (Persian commander)",
+        "Psamtik III (Egyptian pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories, Book III.10-11",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian administrative records and temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle is attested in both Persian and Egyptian sources. The date of 525 BCE is widely accepted. Herodotus's account of the cats is considered legendary, but the fact of the battle and Persian victory is confirmed.",
+      "cross_references": [
+        "-525-001 (Darius's conquest of Egypt)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Herodotus's account of the Battle of Pelusium includes the famous (and almost certainly apocryphal) story of Persian soldiers using cats as a psychological weapon, exploiting Egyptian reverence for the animal. Modern scholars dismiss this as legendary embellishment. Additionally, some sources attribute the conquest to Cambyses II (Darius's predecessor, who died in 522 BCE), while others credit Darius I. The Behistun Inscription, Darius's own account, does not explicitly mention Egypt, which has led some scholars to question whether Darius personally led the campaign or inherited control from Cambyses. However, the consensus is that the conquest occurred in 525 BCE under Darius's reign, even if the details of his personal involvement are uncertain.",
+  "historiographic_note": "The conquest of Egypt is one of the best-documented events of this period, attested in both Persian and Egyptian sources. However, the sources have different biases: Herodotus, writing a century later, includes legendary elements and may have confused the roles of Cambyses and Darius. Egyptian sources, written by the priesthood under Persian rule, may have been influenced by political considerations. The Behistun Inscription, Darius's official account, is contemporary but selective in what it records. Modern Egyptology has integrated archaeological evidence (pottery, inscriptions, administrative records) to construct a more reliable chronology. The conquest marks a major shift in Mediterranean and Near Eastern politics, bringing Egypt under foreign rule for the first time in its recorded history.",
+  "graph_edges": [
+    {
+      "from": "-525-001",
+      "to": "-525-002",
+      "relation": "part_of",
+      "note": "The Battle of Pelusium is the military engagement that secured Darius's conquest of Egypt"
+    },
+    {
+      "from": "-525-001",
+      "to": "-404-001",
+      "relation": "led_to",
+      "note": "Persian rule of Egypt lasts until 404 BCE"
+    }
+  ]
+}

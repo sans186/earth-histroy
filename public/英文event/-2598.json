@@ -1,0 +1,82 @@
+{
+  "year": -2598,
+  "year_label": "2598 BCE",
+  "era_context": "Early Bronze Age III. The Akkadian Empire under Naram-Sin continues to dominate Mesopotamia. Old Kingdom Egypt (Dynasty VI) is in its final century, with provincial power consolidating. The Indus Valley Civilization remains in its mature urban phase. In China, the Xia Dynasty is traditionally dated to this period, though archaeological evidence is contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Oceania",
+    "The Americas",
+    "Central Asia (limited archaeological record for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-2598-001",
+      "title": "Naram-Sin's military campaigns continue; consolidation of Akkadian hegemony",
+      "region": "Mesopotamia and the Levant",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "military",
+      "description": "Naram-Sin continues military operations to maintain Akkadian control over conquered territories and suppress rebellions. Inscriptions record campaigns against the Lullubi, Elamites, and other highland peoples. The empire's military apparatus is at full strength, with standing armies and a sophisticated administrative system to manage tribute and trade. However, the costs of maintaining such a large empire are beginning to strain resources.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions and stelae",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-documented, but specific events within the reign are difficult to date precisely. This year is assigned to his reign based on chronological estimates.",
+      "cross_references": [
+        "-2599-001"
+      ]
+    },
+    {
+      "id": "-2598-002",
+      "title": "Egyptian Old Kingdom: continued administrative fragmentation",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Under Pepi II, the process of decentralization continues. Provincial governors accumulate wealth and autonomy, and the royal court's ability to command resources diminishes. Pyramid construction has largely ceased, and the focus of royal power is shifting from monumental building to military campaigns in Nubia and the Sinai. The administrative system that sustained the Old Kingdom is beginning to break down.",
+      "key_figures": [
+        "Pepi II (Pharaoh, Dynasty VI)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian administrative records and tomb inscriptions",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from provincial sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The process of Old Kingdom decline is well-attested archaeologically, but specific events within Pepi II's reign are difficult to date precisely.",
+      "cross_references": [
+        "-2599-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the broader chronological framework remains debated, particularly the absolute dating of Naram-Sin's reign and Pepi II's reign.",
+  "historiographic_note": "The historical record for -2598 is sparse and relies on the same sources as -2599. Specific events within the reigns of Naram-Sin and Pepi II are difficult to isolate to individual years. The surviving sources are primarily administrative and monumental records, which bias our understanding toward elite activities and away from broader social and economic changes.",
+  "graph_edges": [
+    {
+      "from": "-2598-001",
+      "to": "-2599-001",
+      "relation": "contemporary_with",
+      "note": "Naram-Sin's reign continues; military campaigns are ongoing."
+    },
+    {
+      "from": "-2598-002",
+      "to": "-2599-002",
+      "relation": "contemporary_with",
+      "note": "Pepi II's reign continues; administrative fragmentation accelerates."
+    }
+  ]
+}

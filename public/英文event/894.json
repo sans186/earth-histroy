@@ -1,0 +1,125 @@
+{
+  "year": 894,
+  "year_label": "894 CE",
+  "era_context": "The late 9th century, characterized by the fragmentation of the Carolingian Empire and the rise of regional kingdoms in Western Europe. In East Asia, the Tang Dynasty was in terminal decline, with regional warlords effectively independent. The Islamic world remained divided. This era saw significant military and political upheaval across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Pre-Columbian Americas",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "894-001",
+      "title": "Arnulf of Carinthia begins Italian campaigns",
+      "region": "Italian Peninsula, Western Europe",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "military",
+      "description": "Arnulf of Carinthia, king of the East Frankish realm, began military campaigns into Italy to assert control over the peninsula and counter the influence of rival powers. These campaigns were motivated by both political ambition and the need to secure papal support for his claims to imperial authority. The campaigns would continue through 895 and culminate in his coronation as Holy Roman Emperor in 896.",
+      "key_figures": [
+        "Arnulf of Carinthia (King of East Francia)"
+      ],
+      "sources": [
+        {
+          "name": "Liudprand of Cremona, Antapodosis",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Regino of Pr\u00fcm, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The campaigns are attested in near-contemporary sources, though the exact chronology is debated. The date of 894 is conventional; some sources place the beginning of the campaigns in 893 or 895.",
+      "cross_references": [
+        "Led to 895-001 (Continuation of Italian campaigns)",
+        "Led to 896-001 (Coronation as Holy Roman Emperor)"
+      ]
+    },
+    {
+      "id": "894-002",
+      "title": "Zhu Wen consolidates military power in North China",
+      "region": "North China, Yellow River valley",
+      "coordinates_approx": "34.5, 114.5",
+      "category": "military",
+      "description": "Zhu Wen, a former bandit and military commander, continued his consolidation of military power in North China. By 894, he had become the dominant military force in the region, effectively controlling much of the Yellow River valley despite the nominal authority of the Tang emperor. His rise exemplified the fragmentation of central authority in late 9th-century China.",
+      "key_figures": [
+        "Zhu Wen (Military commander)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Old History of the Five Dynasties",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Zhu Wen's rise to power is well-documented in Chinese sources, though specific events in 894 are reconstructed from later compilations.",
+      "cross_references": [
+        "Part of Zhu Wen's rise to power (880s\u2013907)",
+        "Led to 907-001 (Establishment of Later Liang Dynasty)"
+      ]
+    },
+    {
+      "id": "894-003",
+      "title": "Magyar raids continue across Central Europe",
+      "region": "Central Europe, Pannonia, Bavaria",
+      "coordinates_approx": "48.0, 16.0",
+      "category": "military",
+      "description": "The Magyars continued their cavalry raids across Central Europe, targeting wealthy monasteries and towns. These raids, which had begun in the 880s, were becoming increasingly systematic and devastating. The Magyars' superior horsemanship and mobility made them nearly impossible to counter with the heavy infantry tactics of the period.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Regino of Pr\u00fcm, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Magyar raids are well-documented in Western chronicles, though the specific intensity and dating of individual raids in 894 is approximate.",
+      "cross_references": [
+        "Part of broader Magyar expansion (880s\u2013950s)",
+        "Related to 896-002 (Intensification of Magyar raids)"
+      ]
+    },
+    {
+      "id": "894-004",
+      "title": "Byzantine-Bulgarian conflict in the Balkans",
+      "region": "Balkans, Byzantine Empire, Bulgaria",
+      "coordinates_approx": "42.0, 21.0",
+      "category": "military",
+      "description": "The Byzantine Empire and the Bulgarian state engaged in military conflict in the Balkans. The conflict was part of the broader struggle for control of the region and reflected the complex political dynamics of the late 9th century. The exact nature and outcome of the conflict in 894 are difficult to determine from available sources.",
+      "key_figures": [
+        "Constantine VII (Young Byzantine emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Constantine Porphyrogennetus, De Administrando Imperio",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Byzantine-Bulgarian conflicts are attested in later sources, but specific events in 894 are difficult to date precisely.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact dating and significance of Arnulf's Italian campaigns have been debated by modern scholars. Some argue that the campaigns were less successful than traditional accounts suggest. Additionally, the chronology of events in 894 versus 893 or 895 is uncertain in many cases.",
+  "historiographic_note": "The historical record for 894 is moderate in quality. Western European events are documented in near-contemporary chronicles, though often with chronological ambiguities. Chinese sources are more systematic but compiled centuries later. Byzantine sources are sparse for this period.",
+  "graph_edges": [
+    {
+      "from": "894-001",
+      "to": "896-001",
+      "relation": "led_to",
+      "note": "Arnulf's Italian campaigns of 894-895 led to his coronation as Holy Roman Emperor in 896"
+    }
+  ]
+}

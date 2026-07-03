@@ -1,0 +1,422 @@
+{
+  "year": 1911,
+  "year_label": "1911 CE",
+  "era_context": "The early 20th century, marked by imperial competition, industrial acceleration, and rising nationalist movements. The Qing Dynasty in China is in terminal decline; European powers dominate Africa and Asia; the Ottoman Empire is fragmenting; the Russian Empire faces internal instability; and the United States is consolidating continental and Pacific power under Theodore Roosevelt's successor, William Howard Taft.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1911-001",
+      "title": "Xinhai Revolution; Fall of the Qing Dynasty",
+      "region": "China",
+      "coordinates_approx": "30.5, 114.3",
+      "category": "political",
+      "description": "The Xinhai Revolution, initiated by the Wuchang Uprising on 10 October 1911, triggered the collapse of the Qing Dynasty after 268 years of rule. Military mutinies, republican agitation led by Sun Yat-sen and the Revolutionary Alliance (Tongmenghui), and widespread provincial declarations of independence cascaded across China. By December 1911, most provinces had seceded from Qing control. The revolution ended imperial rule in China and established the Republic of China in 1912, though it did not immediately produce stable governance and led to warlordism and civil conflict.",
+      "key_figures": [
+        "Sun Yat-sen (Revolutionary Alliance leader)",
+        "Li Yuanhong (Wuchang military commander)",
+        "Yuan Shikai (Qing general who negotiated transition)"
+      ],
+      "sources": [
+        {
+          "name": "Xinhai Revolution records and contemporary Chinese newspapers (\u6c11\u570b\u65e5\u5831, etc.)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus in Chinese and Western scholarship (e.g., Spence, Jonathan D., The Search for Modern China)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Wuchang Uprising date of 10 October 1911 is precisely documented in contemporary military records and newspapers. The cascade of provincial secessions is well-attested in provincial archives and later compilations.",
+      "cross_references": [
+        "1912-001 (Proclamation of the Republic of China)"
+      ]
+    },
+    {
+      "id": "1911-002",
+      "title": "Italian Invasion of Libya (Italo-Turkish War begins)",
+      "region": "Ottoman Libya / North Africa",
+      "coordinates_approx": "32.0, 17.0",
+      "category": "military",
+      "description": "Italy declared war on the Ottoman Empire on 29 September 1911 and invaded Libya (then Ottoman Tripolitania and Cyrenaica) on 3 October 1911. The invasion was justified by Italian nationalist rhetoric and imperial ambition to secure a North African colony. The war lasted until 1912 and resulted in Ottoman loss of Libya to Italy, marking the first major European military action against the Ottoman Empire in the 20th century and accelerating Ottoman decline in North Africa.",
+      "key_figures": [
+        "Giolitti, Giovanni (Italian Prime Minister)",
+        "Enver Pasha (Ottoman military commander)"
+      ],
+      "sources": [
+        {
+          "name": "Italian government records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ottoman military records and Turkish historiography",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The declaration of war and invasion dates are precisely documented in Italian and Ottoman official records.",
+      "cross_references": [
+        "1912-002 (Treaty of Ouchy; end of Italo-Turkish War)"
+      ]
+    },
+    {
+      "id": "1911-003",
+      "title": "Hiram Bingham's Expedition to Machu Picchu",
+      "region": "Peru / South America",
+      "coordinates_approx": "-13.163, -72.545",
+      "category": "exploration",
+      "description": "American historian and explorer Hiram Bingham reached the Inca citadel of Machu Picchu on 24 July 1911, bringing international attention to the site. Although local Quechua people knew of the ruins, Bingham's expedition and subsequent publications introduced Machu Picchu to the Western world and initiated systematic archaeological study. The site had been abandoned in the 16th century during Spanish conquest but remained largely unknown to the outside world until Bingham's arrival.",
+      "key_figures": [
+        "Hiram Bingham (American historian and explorer)",
+        "Melchor Arteaga (local guide)"
+      ],
+      "sources": [
+        {
+          "name": "Bingham, Hiram. The Lost City of the Incas (1911 expedition reports and later memoir)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence and site documentation",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date of 24 July 1911 is documented in Bingham's expedition journals and published accounts. The site's pre-Columbian construction is confirmed by archaeological evidence.",
+      "cross_references": []
+    },
+    {
+      "id": "1911-004",
+      "title": "Coronation of George V; Delhi Durbar",
+      "region": "British Empire / India",
+      "coordinates_approx": "28.6, 77.2",
+      "category": "political",
+      "description": "King George V was crowned on 22 June 1911 in Westminster Abbey. In December 1911, George V and Queen Mary attended the Delhi Durbar in India, a grand imperial ceremony celebrating the coronation and reaffirming British dominion over India. The Durbar was the largest imperial gathering of the era and symbolized the height of British imperial power, though it also provoked nationalist sentiment among Indian elites.",
+      "key_figures": [
+        "George V (British King)",
+        "Queen Mary",
+        "Lord Curzon (Viceroy of India)"
+      ],
+      "sources": [
+        {
+          "name": "British royal records and official coronation documentation",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary British and Indian newspapers and official accounts",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The coronation date and Delhi Durbar are precisely documented in British royal archives and contemporary press accounts.",
+      "cross_references": []
+    },
+    {
+      "id": "1911-005",
+      "title": "Amundsen Reaches the South Pole",
+      "region": "Antarctica",
+      "coordinates_approx": "-90.0, 0.0",
+      "category": "exploration",
+      "description": "Norwegian explorer Roald Amundsen reached the South Pole on 14 December 1911, becoming the first person to reach the pole. Amundsen's expedition, using dog sleds and careful logistical planning, beat the British expedition led by Robert Falcon Scott, who arrived 34 days later. Amundsen's success was a major achievement in polar exploration and a symbolic victory for Norway in the international race for polar conquest.",
+      "key_figures": [
+        "Roald Amundsen (Norwegian explorer)",
+        "Robert Falcon Scott (British explorer)"
+      ],
+      "sources": [
+        {
+          "name": "Amundsen, Roald. The South Pole (1912 memoir based on expedition records)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Scott, Robert Falcon. Scott's Last Expedition (journals and records)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date of 14 December 1911 is documented in Amundsen's expedition records and confirmed by Scott's arrival date of 17 January 1912.",
+      "cross_references": [
+        "1912-003 (Scott's death on return journey)"
+      ]
+    },
+    {
+      "id": "1911-006",
+      "title": "Rutherford's Nuclear Model of the Atom",
+      "region": "United Kingdom / Scientific",
+      "coordinates_approx": "52.2, 0.1",
+      "category": "scientific",
+      "description": "Ernest Rutherford published his nuclear model of the atom in May 1911, based on his team's gold foil experiment (conducted in 1909). The model proposed that atoms consist of a small, dense, positively charged nucleus surrounded by electrons in orbital space\u2014overturning the 'plum pudding' model of J.J. Thomson. This discovery was foundational to modern atomic physics and chemistry, establishing the structure of matter at the subatomic scale.",
+      "key_figures": [
+        "Ernest Rutherford (British physicist)",
+        "Hans Geiger (German physicist)",
+        "Ernest Marsden (British physicist)"
+      ],
+      "sources": [
+        {
+          "name": "Rutherford, Ernest. 'The Scattering of \u03b1 and \u03b2 Particles by Matter and the Structure of the Atom.' Philosophical Magazine (May 1911)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The publication date and content are precisely documented in the Philosophical Magazine. The experimental basis (gold foil experiment) was conducted in 1909 but published in 1911.",
+      "cross_references": [
+        "1909-002 (Gold foil experiment)"
+      ]
+    },
+    {
+      "id": "1911-007",
+      "title": "Agadir Crisis (Second Moroccan Crisis)",
+      "region": "Morocco / North Africa",
+      "coordinates_approx": "30.4, -9.6",
+      "category": "political",
+      "description": "The Agadir Crisis erupted in July 1911 when Germany sent the gunboat SMS Panther to the Moroccan port of Agadir, ostensibly to protect German nationals during a Moroccan rebellion. The action was actually a show of force to challenge French expansion in Morocco and to demand territorial compensation. The crisis escalated tensions between Germany and France (and Britain, which supported France) and nearly triggered war. It was resolved by the Treaty of Fez in November 1911, which established a French protectorate over Morocco and ceded German territory in the Congo to Germany.",
+      "key_figures": [
+        "Kiderlen-W\u00e4chter (German Foreign Secretary)",
+        "Joseph Caillaux (French Prime Minister)",
+        "Winston Churchill (British Home Secretary, later First Lord of the Admiralty)"
+      ],
+      "sources": [
+        {
+          "name": "German diplomatic records and Foreign Office correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French diplomatic records and government archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British Foreign Office records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The crisis dates and diplomatic exchanges are precisely documented in the archives of all three powers involved.",
+      "cross_references": [
+        "1905-001 (First Moroccan Crisis)"
+      ]
+    },
+    {
+      "id": "1911-008",
+      "title": "Assassination of Prime Minister Pyotr Stolypin (Russia)",
+      "region": "Russian Empire",
+      "coordinates_approx": "50.45, 30.52",
+      "category": "political",
+      "description": "Prime Minister Pyotr Stolypin was assassinated on 14 September 1911 in Kiev by Dmitri Bogrov, a revolutionary with alleged ties to the Okhrana (secret police). Stolypin had been a reformer and conservative stabilizer after the 1905 Revolution, implementing agrarian reforms and suppressing revolutionary activity. His death removed a key figure from Russian governance and left a power vacuum, contributing to the instability that would culminate in the 1917 Revolution.",
+      "key_figures": [
+        "Pyotr Stolypin (Russian Prime Minister)",
+        "Dmitri Bogrov (assassin)",
+        "Tsar Nicholas II"
+      ],
+      "sources": [
+        {
+          "name": "Russian government records and police reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Russian and European newspapers",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The assassination date and circumstances are documented in Russian state archives and contemporary press accounts.",
+      "cross_references": [
+        "1905-002 (1905 Russian Revolution)"
+      ]
+    },
+    {
+      "id": "1911-009",
+      "title": "Establishment of the Union of South Africa",
+      "region": "South Africa",
+      "coordinates_approx": "-30.0, 25.0",
+      "category": "political",
+      "description": "The Union of South Africa was formally established on 31 May 1911, unifying the British colonies of the Cape, Natal, Transvaal, and Orange River Colony into a single dominion within the British Empire. The union was intended to consolidate British control and reconcile British and Afrikaner (Boer) interests after the Second Boer War (1899\u20131902). However, the union institutionalized racial segregation and excluded Black Africans from political power, laying the foundation for apartheid.",
+      "key_figures": [
+        "Louis Botha (First Prime Minister)",
+        "Jan Smuts (Defence Minister)",
+        "Herbert Asquith (British Prime Minister)"
+      ],
+      "sources": [
+        {
+          "name": "South African government records and constitutional documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British Colonial Office records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The establishment date of 31 May 1911 is documented in official South African and British government records.",
+      "cross_references": [
+        "1902-001 (Treaty of Vereeniging; end of Second Boer War)"
+      ]
+    },
+    {
+      "id": "1911-010",
+      "title": "Silliman Lecture Series on Radioactivity (Rutherford)",
+      "region": "United States / Scientific",
+      "coordinates_approx": "41.31, -72.93",
+      "category": "scientific",
+      "description": "Ernest Rutherford delivered the Silliman Lectures at Yale University in the spring of 1911, presenting his recent discoveries on radioactivity and the nuclear model of the atom. These lectures, later published as 'Radioactive Substances and Their Radiations' (1913), were influential in disseminating Rutherford's revolutionary atomic theory to the American scientific community and the broader public.",
+      "key_figures": [
+        "Ernest Rutherford (British physicist)"
+      ],
+      "sources": [
+        {
+          "name": "Rutherford, Ernest. Radioactive Substances and Their Radiations (1913, based on 1911 lectures)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Yale University records and lecture documentation",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Silliman Lectures were held in spring 1911 and are documented in Yale University archives and Rutherford's published works.",
+      "cross_references": [
+        "1911-006 (Rutherford's nuclear model)"
+      ]
+    },
+    {
+      "id": "1911-011",
+      "title": "Manchu Restoration Attempt (China)",
+      "region": "China",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "In the aftermath of the Xinhai Revolution, there were brief attempts to restore the Qing Dynasty, including a failed coup in 1917 (the Zhangxun Restoration). However, in 1911 itself, as the revolution unfolded, some conservative forces attempted to preserve the monarchy through negotiation. Yuan Shikai, the Qing general, negotiated the abdication of the child emperor Puyi in February 1912, effectively ending imperial restoration hopes for the immediate period.",
+      "key_figures": [
+        "Puyi (Last Qing Emperor, child)",
+        "Yuan Shikai (Qing general and negotiator)"
+      ],
+      "sources": [
+        {
+          "name": "Chinese government records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on the Xinhai Revolution and its aftermath",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The restoration attempts are documented in Chinese records, though the precise timeline and significance of 1911 efforts versus later attempts (e.g., 1917) requires careful dating.",
+      "cross_references": [
+        "1911-001 (Xinhai Revolution)",
+        "1912-001 (Abdication of Puyi)"
+      ]
+    },
+    {
+      "id": "1911-012",
+      "title": "Suffragette Movement Escalation (United Kingdom)",
+      "region": "United Kingdom",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "political",
+      "description": "The Women's Social and Political Union (WSPU), led by Emmeline Pankhurst, intensified its campaign for women's suffrage in 1911. The movement employed increasingly militant tactics, including arson, window-breaking, and disruption of public events. In 1911, the movement reached a peak of public visibility and controversy, with mass demonstrations and arrests. The campaign would continue until World War I interrupted activism in 1914.",
+      "key_figures": [
+        "Emmeline Pankhurst (WSPU leader)",
+        "Christabel Pankhurst (WSPU organizer)"
+      ],
+      "sources": [
+        {
+          "name": "WSPU records and contemporary British newspapers",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British government records and police reports",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The escalation of suffragette activity in 1911 is well-documented in contemporary press accounts and government records.",
+      "cross_references": [
+        "1918-001 (Partial women's suffrage in UK)"
+      ]
+    },
+    {
+      "id": "1911-013",
+      "title": "Establishment of the Chinese Republic (Provisional)",
+      "region": "China",
+      "coordinates_approx": "32.06, 118.8",
+      "category": "political",
+      "description": "Following the Xinhai Revolution, a provisional government of the Republic of China was established in Nanjing on 1 January 1912 (though preparations began in late 1911). Sun Yat-sen was elected provisional president. However, Yuan Shikai, commanding the most powerful military force, negotiated the abdication of the Qing emperor and assumed control, establishing the formal Republic of China in February 1912. The transition from empire to republic was thus completed, though political instability and warlordism followed.",
+      "key_figures": [
+        "Sun Yat-sen (Provisional President)",
+        "Yuan Shikai (Military strongman)"
+      ],
+      "sources": [
+        {
+          "name": "Chinese government records and proclamations",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Chinese newspapers and foreign diplomatic reports",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The provisional government was established in late 1911 / early 1912. The exact dating depends on whether one counts the revolutionary government (late 1911) or the formal proclamation (1 January 1912).",
+      "cross_references": [
+        "1911-001 (Xinhai Revolution)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of the Xinhai Revolution is sometimes overstated in Western historiography as a 'democratic revolution.' Modern scholarship (e.g., Spence, Fairbank) emphasizes that the revolution was driven by diverse, often conflicting interests\u2014military mutineers, provincial elites, and republican ideologues\u2014rather than a unified democratic movement. The outcome (Yuan Shikai's military dominance and subsequent warlordism) suggests that the revolution did not establish stable republican governance. Additionally, the Delhi Durbar of 1911 is sometimes presented as an unambiguous display of British imperial strength, but Indian historiography emphasizes the event's role in catalyzing nationalist sentiment and the Indian National Congress's growing opposition to British rule. The Agadir Crisis is sometimes portrayed as a German attempt to provoke war, but German historiography argues it was a rational attempt to extract concessions from France; the crisis's role in accelerating the alliance system toward World War I is debated.",
+  "historiographic_note": "1911 is exceptionally well-documented due to the prevalence of newspapers, government archives, and contemporary accounts across Europe, North America, and parts of Asia. However, the historical record is heavily weighted toward political and military events in Europe and East Asia. Events in sub-Saharan Africa, the Pacific Islands, and much of South America are underrepresented in surviving sources. The sources themselves reflect the biases of the era: Western newspapers emphasize European and American events; Chinese sources focus on the revolution; Ottoman sources are sparse due to the empire's decline and later destruction of archives. Colonial-era archaeology and anthropology (e.g., Bingham's Machu Picchu expedition) are now understood to have been shaped by Western assumptions and sometimes involved looting or appropriation of cultural artifacts.",
+  "graph_edges": [
+    {
+      "from": "1911-001",
+      "to": "1912-001",
+      "relation": "led_to",
+      "note": "The Xinhai Revolution directly led to the establishment of the Republic of China and the abdication of the Qing emperor."
+    },
+    {
+      "from": "1911-002",
+      "to": "1912-002",
+      "relation": "led_to",
+      "note": "The Italian invasion of Libya led to the Treaty of Ouchy in 1912, formalizing Ottoman loss of the territory."
+    },
+    {
+      "from": "1911-007",
+      "to": "1914-001",
+      "relation": "part_of",
+      "note": "The Agadir Crisis was part of the escalating imperial tensions and alliance system that contributed to World War I."
+    },
+    {
+      "from": "1911-005",
+      "to": "1912-003",
+      "relation": "led_to",
+      "note": "Amundsen's successful South Pole expedition was followed by Scott's tragic return journey and death in 1912."
+    },
+    {
+      "from": "1911-006",
+      "to": "1913-001",
+      "relation": "led_to",
+      "note": "Rutherford's nuclear model of the atom led to Niels Bohr's model of the hydrogen atom in 1913."
+    }
+  ]
+}

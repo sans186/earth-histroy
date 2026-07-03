@@ -1,0 +1,118 @@
+{
+  "year": 875,
+  "year_label": "875 CE",
+  "era_context": "The year following Louis the German's death sees the consolidation of the East Frankish succession and continued Viking pressure on the West Franks. Charles the Bald remains king of the West Franks but faces mounting challenges. The Byzantine Empire under Basil I continues its military and cultural revival. The Islamic world remains fragmented, with the Abbasid Caliphate's authority weakening in the periphery.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia interior",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "875-001",
+      "title": "Charles the Bald Crowned Emperor by Pope John VIII",
+      "region": "West Frankish Kingdom and Papal States (modern France and Italy)",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Charles the Bald, king of the West Franks, was crowned emperor by Pope John VIII in 875. This coronation was intended to legitimize Charles's claim to the imperial title and to secure papal support against his rivals, particularly his nephew Charles the Fat in the East Franks. The coronation was controversial, as it challenged the legitimacy of the Lotharingian claims and the imperial pretensions of the East Franks. The ceremony reflected the pope's attempt to play Frankish factions against one another and to assert papal authority over imperial legitimation.",
+      "key_figures": [
+        "Charles the Bald (West Frankish king, newly crowned emperor)",
+        "Pope John VIII (papal authority)"
+      ],
+      "sources": [
+        {
+          "name": "Annales Bertiniani",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Liber Pontificalis (Lives of the Popes)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The coronation is well-attested in contemporary and near-contemporary sources. The date 875 is secure.",
+      "cross_references": [
+        "800-001 (Charlemagne's coronation as emperor)",
+        "884-001 (Charles the Fat's later imperial claims)"
+      ]
+    },
+    {
+      "id": "875-002",
+      "title": "Death of Charles the Bald; Succession Crisis in West Frankia",
+      "region": "West Frankish Kingdom",
+      "coordinates_approx": "48.0, 2.0",
+      "category": "political",
+      "description": "Charles the Bald died on October 6, 875, at Aachen. His death triggered a succession crisis in the West Frankish Kingdom. His son Louis the Stammerer inherited the throne, but Louis was weak and faced immediate challenges from his uncles and cousins. The succession was contested, and the kingdom descended into civil conflict. Charles the Bald's death marked the effective end of strong Carolingian rule in the West and accelerated the fragmentation of the kingdom into regional principalities.",
+      "key_figures": [
+        "Charles the Bald (deceased emperor and king)",
+        "Louis the Stammerer (son, new king of West Franks)",
+        "Carloman (uncle, king of Bavaria)",
+        "Louis the Younger (uncle, king of Saxony)"
+      ],
+      "sources": [
+        {
+          "name": "Annales Bertiniani",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Regino of Pr\u00fcm, Chronicon",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The death of Charles the Bald is one of the most securely dated events in Carolingian history, attested in multiple contemporary sources.",
+      "cross_references": [
+        "876-001 (Louis the German's death and division)",
+        "877-001 (Capitulary of Quierzy, Louis the Stammerer's response)"
+      ]
+    },
+    {
+      "id": "875-003",
+      "title": "Saracen Raids on Southern Italy and Sicily",
+      "region": "Southern Italy and Sicily",
+      "coordinates_approx": "37.5, 14.0",
+      "category": "military",
+      "description": "Arab and Berber raiders, operating from bases in North Africa and Sicily, conducted raids on southern Italian coastal settlements. These raids were part of the ongoing conflict between Christian and Islamic powers in the Mediterranean. The raids prompted defensive fortifications and the rise of local maritime powers. The instability in southern Italy created opportunities for Byzantine intervention and contributed to the complex political situation in the region.",
+      "key_figures": [
+        "Arab and Berber raiders (unnamed)",
+        "Local Italian rulers (unnamed)"
+      ],
+      "sources": [
+        {
+          "name": "Annales Bertiniani",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Chronicle of Salerno",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Raids in this region during this period are well-documented, though specific details of individual raids are sometimes conflated or dated approximately.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The coronation of Charles the Bald as emperor in 875 is sometimes presented as a triumphant assertion of West Frankish imperial claims. However, modern scholarship emphasizes that the coronation was largely symbolic and did not translate into effective political power. The coronation was contested by the East Franks and did not prevent the fragmentation of the West Frankish kingdom after Charles's death.",
+  "historiographic_note": "Documentation for 875 is strong in Western Europe, particularly for the death of Charles the Bald and the succession crisis. The Annales Bertiniani provide detailed contemporary accounts. However, the sources are heavily weighted toward political and military events affecting the elite. Economic and social history is poorly documented. Non-European regions have sparser documentation.",
+  "graph_edges": [
+    {
+      "from": "875-001",
+      "to": "875-002",
+      "relation": "contemporary_with",
+      "note": "Charles the Bald's coronation as emperor occurred in the same year as his death, making the imperial title short-lived."
+    },
+    {
+      "from": "875-002",
+      "to": "877-001",
+      "relation": "led_to",
+      "note": "Charles the Bald's death triggered the succession crisis that Louis the Stammerer attempted to address with the Capitulary of Quierzy."
+    }
+  ]
+}

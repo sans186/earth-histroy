@@ -1,0 +1,163 @@
+{
+  "year": 1385,
+  "year_label": "1385 CE",
+  "era_context": "Late medieval period with Ottoman expansion accelerating in the Balkans, Ming Dynasty consolidating control in China, and England experiencing political tensions under Richard II. The Hundred Years' War continues with fluctuating fortunes. The Iberian Peninsula remains divided between Christian kingdoms and the Nasrid Emirate of Granada.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Central Asia and the Steppe (sparse documentation)",
+    "Oceania and Pacific islands (minimal written records)",
+    "Americas (no written records in European tradition)"
+  ],
+  "events": [
+    {
+      "id": "1385-001",
+      "title": "Battle of Plo\u010dnik (alternative dating)",
+      "region": "Serbia (Ottoman-Serbian frontier)",
+      "coordinates_approx": "43.65, 21.65",
+      "category": "military",
+      "description": "Some sources date the Ottoman victory at Plo\u010dnik to 1385 rather than 1386. Ottoman forces under Murat I defeated Serbian forces, advancing Ottoman control in the Balkans. The battle demonstrated Ottoman military superiority and was part of the broader conquest of Serbian territories.",
+      "key_figures": [
+        "Murat I (Ottoman Sultan)",
+        "Serbian nobility"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Serbian historical tradition",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Dating of this battle is disputed across sources. Different Ottoman and Serbian chronicles place it in 1385, 1386, or 1387. Modern scholarship has not definitively resolved this discrepancy.",
+      "cross_references": [
+        "1386-001 (alternative dating of same battle)"
+      ]
+    },
+    {
+      "id": "1385-002",
+      "title": "Portuguese Expedition to Morocco (Ceuta campaign preparations)",
+      "region": "Portugal and North Africa",
+      "coordinates_approx": "37.18, -5.36",
+      "category": "military",
+      "description": "Portuguese forces under King John I began preparations for the conquest of Ceuta, a major North African port city held by the Marinid dynasty. Though the actual conquest would occur in 1415, the 1385 period saw significant military and naval preparations, including the construction of ships and gathering of forces. This campaign represented the beginning of Portuguese expansion into North Africa and the Atlantic.",
+      "key_figures": [
+        "John I of Portugal (Aviz Dynasty)",
+        "Prince Henry the Navigator (young, not yet leading expeditions)"
+      ],
+      "sources": [
+        {
+          "name": "Portuguese royal chronicles and records",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Zurara's Chronicle of the Discovery and Conquest of Guinea",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The preparations for Ceuta are documented in Portuguese sources, though the exact timeline is somewhat unclear. The campaign was delayed by other conflicts.",
+      "cross_references": [
+        "1415-001 (Conquest of Ceuta)"
+      ]
+    },
+    {
+      "id": "1385-003",
+      "title": "Hongwu Emperor's Purge of Officials",
+      "region": "China (Ming Dynasty)",
+      "coordinates_approx": "32.06, 118.80",
+      "category": "political",
+      "description": "The Hongwu Emperor continued his systematic purges of officials suspected of disloyalty or corruption. These purges, which lasted throughout the 1380s, resulted in thousands of executions and were part of the emperor's effort to consolidate absolute power and eliminate potential rivals. The purges created a climate of fear in the bureaucracy and contributed to the centralization of Ming authority.",
+      "key_figures": [
+        "Hongwu Emperor (Zhu Yuanzhang)",
+        "Various officials and generals (victims of purges)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Ming historical records and genealogies",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The purges of the 1380s are well-documented in Ming records. The scale and brutality are confirmed by multiple contemporary sources.",
+      "cross_references": []
+    },
+    {
+      "id": "1385-004",
+      "title": "Richard II's Consolidation of Power in England",
+      "region": "England",
+      "coordinates_approx": "52.5, -1.5",
+      "category": "political",
+      "description": "King Richard II, who had ascended to the throne in 1377 at age 10, was consolidating his personal authority in the mid-1380s. The period saw increasing tension between the young king and the magnates who had served as regents and advisors. Richard's efforts to assert royal prerogative would eventually lead to the conflicts of 1397-1399.",
+      "key_figures": [
+        "Richard II (King of England)",
+        "John of Gaunt (Duke of Lancaster, uncle)",
+        "Thomas of Woodstock (Duke of Gloucester, uncle)"
+      ],
+      "sources": [
+        {
+          "name": "Froissart's Chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "English royal records and parliamentary rolls",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Walsingham's Historia Anglicana",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Richard II's political activities in 1385 are well-documented in English chronicles and parliamentary records.",
+      "cross_references": [
+        "1397-001 (Richard II's revenge on magnates)",
+        "1399-001 (Richard II's deposition)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Battle of Plo\u010dnik to 1385 is disputed; some sources place it in 1386 or 1387. The significance of Portuguese preparations for Ceuta in 1385 is uncertain; the campaign may have been less organized at this date than later sources suggest. Richard II's consolidation of power in 1385 was gradual and contested; the narrative of a young king asserting authority is somewhat simplified, as he remained dependent on magnates for several more years.",
+  "historiographic_note": "Sources for 1385 are moderate in quality and coverage. English and Chinese sources are relatively rich. Ottoman and Serbian sources are primarily later compilations with dating uncertainties. Portuguese sources exist but are sometimes retrospectively organized around the later conquest of Ceuta. African, American, and Oceanic histories remain absent from written records. The surviving sources reflect elite political and military perspectives.",
+  "graph_edges": [
+    {
+      "from": "1385-001",
+      "to": "1389-001",
+      "relation": "led_to",
+      "note": "Ottoman victories in the Balkans continued toward the Battle of Kosovo"
+    },
+    {
+      "from": "1385-002",
+      "to": "1415-001",
+      "relation": "led_to",
+      "note": "Portuguese preparations for Ceuta campaign"
+    },
+    {
+      "from": "1385-003",
+      "to": "1386-003",
+      "relation": "contemporary_with",
+      "note": "Hongwu Emperor's consolidation of power through purges and legal reforms"
+    },
+    {
+      "from": "1385-004",
+      "to": "1397-001",
+      "relation": "led_to",
+      "note": "Richard II's early consolidation of power led to later conflicts with magnates"
+    }
+  ]
+}

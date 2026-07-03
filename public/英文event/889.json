@@ -1,0 +1,118 @@
+{
+  "year": 889,
+  "year_label": "889 CE",
+  "era_context": "The late 9th century is marked by the fragmentation of the Carolingian Empire and the consolidation of regional kingdoms in Western Europe. The Viking Age continues with sustained raids and settlement. The Abbasid Caliphate is in decline, with regional dynasties asserting independence. In East Asia, the Tang Dynasty is in its final years, collapsing into warlordism. Japan's Heian period is well established, with aristocratic court culture flourishing.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Pre-Columbian Americas",
+    "Scandinavia (limited contemporary written records)"
+  ],
+  "events": [
+    {
+      "id": "889-001",
+      "title": "Death of Fujiwara no Mototsune",
+      "region": "Japan (Heian period)",
+      "coordinates_approx": "35.0, 135.5",
+      "category": "political",
+      "description": "Fujiwara no Mototsune, the powerful regent and chief advisor to the Japanese imperial court, dies in 891 (some sources give 889). His death marks a transition in the Fujiwara regency system. Mototsune had been the dominant political figure at court, and his death creates a succession struggle within the Fujiwara family. The exact date is disputed between sources.",
+      "key_figures": [
+        "Fujiwara no Mototsune (Chief Regent)"
+      ],
+      "sources": [
+        {
+          "name": "Nihon Sandai Jitsuroku",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Later Japanese historical compilations",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Mototsune's death is dated to 891 in most sources, not 889. The year 889 may reflect alternative dating or confusion in transmission. Modern scholarship generally accepts 891 as the correct date.",
+      "cross_references": [
+        "Related to the succession of Fujiwara power in the early 890s"
+      ]
+    },
+    {
+      "id": "889-002",
+      "title": "Continued Viking Raids on Western Europe",
+      "region": "Western Europe (Frankia, British Isles)",
+      "coordinates_approx": "50.0, 5.0",
+      "category": "military",
+      "description": "Viking raids continue across Western Europe, targeting monasteries, coastal settlements, and river valleys. The raids are part of the sustained Norse expansion that characterizes the late 9th century. Specific raids in 889 are attested in various chronicles, though individual incidents are often poorly documented.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Annales Fuldenses and other Frankish chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Viking raids are well attested in chronicles, but specific incidents in 889 are not always clearly distinguished from raids in adjacent years.",
+      "cross_references": [
+        "Part of the broader Viking Age (793\u20131066)"
+      ]
+    },
+    {
+      "id": "889-003",
+      "title": "Abbasid Caliphate Internal Strife",
+      "region": "Abbasid Caliphate (centered in Baghdad)",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "The Abbasid Caliphate continues to experience internal fragmentation and loss of central authority. Regional dynasties (Tulunids in Egypt, Samanids in Central Asia, Ikhshidids in Syria) assert independence. The caliph's authority is increasingly nominal, confined to Baghdad and its immediate surroundings. This period marks the effective end of Abbasid centralized power.",
+      "key_figures": [
+        "Al-Muktafi (Abbasid Caliph, r. 888\u2013892)"
+      ],
+      "sources": [
+        {
+          "name": "Later Islamic chronicles (e.g., al-Tabari, History of the Prophets and Kings)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Numismatic and epigraphic evidence",
+          "type": "historiographic_consensus",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The fragmentation of the Abbasid Caliphate is well attested, but specific events in 889 are not clearly documented. The broader trend is clear; individual incidents are less so.",
+      "cross_references": [
+        "Part of the broader decline of the Abbasid Caliphate in the 9th\u201310th centuries"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The date of Fujiwara no Mototsune's death is disputed; most sources give 891, not 889. Including it under 889 may reflect confusion or alternative dating traditions. The significance of specific Viking raids in 889 is difficult to assess; chronicles often record raids without clear indication of their scale or impact. The Abbasid fragmentation is sometimes presented as a sudden collapse, but it was a gradual process spanning decades.",
+  "historiographic_note": "Documentation for 889 is sparse and fragmented. Western European sources focus on Frankish and British events, with limited coverage of other regions. Japanese sources are detailed and contemporary. Islamic sources are largely later compilations. The perspective is heavily weighted toward elite political and military history. Economic, social, and cultural developments are underrepresented. The year 889 is not particularly well documented; many events are inferred from broader trends rather than specific contemporary records.",
+  "graph_edges": [
+    {
+      "from": "889-001",
+      "to": "890-003",
+      "relation": "contemporary_with",
+      "note": "Fujiwara succession issues in 889\u2013891 occur during the reign of Emperor Uda"
+    },
+    {
+      "from": "889-002",
+      "to": "891-001",
+      "relation": "part_of",
+      "note": "Continued Viking raids in 889 are part of the broader Norse expansion that includes the Battle of the Dyle in 891"
+    },
+    {
+      "from": "889-003",
+      "to": "10th-century-Islamic-fragmentation",
+      "relation": "led_to",
+      "note": "Abbasid fragmentation in 889 contributes to the emergence of independent regional dynasties in the 10th century"
+    }
+  ]
+}

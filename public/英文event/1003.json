@@ -1,0 +1,147 @@
+{
+  "year": 1003,
+  "year_label": "1003 CE",
+  "era_context": "The early 11th century saw the Fatimid Caliphate under regency following al-Hakim's death in 1006 CE (note: this year precedes that event), the consolidation of feudal Europe, the Song Dynasty's cultural and economic flourishing in China, and the Byzantine Empire's military campaigns. This was a period of significant religious reform movements and the development of feudal hierarchies in Western Europe.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Southeast Asia (sparse contemporary documentation)",
+    "Pre-Columbian Americas (no written records)",
+    "Northern Europe and Scandinavia (limited contemporary sources)"
+  ],
+  "events": [
+    {
+      "id": "1003-001",
+      "title": "Brihadesvara Temple construction begins in Thanjavur",
+      "region": "Chola Empire (South India)",
+      "coordinates_approx": "10.78, 79.13",
+      "category": "cultural",
+      "description": "Construction of the Brihadesvara Temple in Thanjavur began under the patronage of Chola Emperor Rajaraja I around 1003 CE. The temple would be completed by 1010 CE and represents one of the finest examples of Chola architecture and sculpture. The temple's construction involved the mobilization of significant resources, skilled craftsmen, and architectural innovation. The project exemplifies the Chola Empire's cultural and economic power during the early 11th century.",
+      "key_figures": [
+        "Rajaraja I (Chola Emperor)",
+        "Chola architects and craftsmen"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence and temple inscriptions",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Later Tamil literary sources",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The temple's construction date is traditionally given as c. 1003\u20131010 CE. The exact start date is approximate, based on architectural analysis and inscriptional evidence.",
+      "cross_references": [
+        "1006-004 (Brihadesvara Temple completion phase)"
+      ]
+    },
+    {
+      "id": "1003-002",
+      "title": "Henry II's reign as Holy Roman Emperor continues",
+      "region": "Holy Roman Empire (Central Europe)",
+      "coordinates_approx": "50.0, 10.0",
+      "category": "political",
+      "description": "Henry II continued his reign as Holy Roman Emperor and King of Germany in 1003 CE. His reign (1002\u20131024 CE) was marked by efforts to consolidate imperial authority, reform the Church, and manage relations with the papacy. In 1003 CE, Henry II was engaged in consolidating his power in Bavaria and the Rhineland, and in managing relations with the Polish and Hungarian kingdoms to the east. His reign represented a period of relative stability in the Holy Roman Empire.",
+      "key_figures": [
+        "Henry II (Holy Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Thietmar of Merseburg, Chronicon",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Henry II's reign dates are well-documented in contemporary German chronicles.",
+      "cross_references": []
+    },
+    {
+      "id": "1003-003",
+      "title": "Song Dynasty continues cultural and economic flourishing",
+      "region": "Song Dynasty (China)",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "cultural",
+      "description": "The Song Dynasty under Emperor Zhenzong (r. 997\u20131022 CE) continued its period of cultural, technological, and economic flourishing in 1003 CE. The Song court was a center of artistic and intellectual achievement, with advances in landscape painting, ceramics, printing, and Neo-Confucian philosophy. The period saw the development of sophisticated administrative systems and the growth of urban centers and commerce. The Song Dynasty represented one of the most culturally advanced civilizations of the medieval world.",
+      "key_figures": [
+        "Emperor Zhenzong (Song Dynasty)",
+        "Song scholars, artists, and administrators"
+      ],
+      "sources": [
+        {
+          "name": "Songshi (History of the Song Dynasty)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary Song literary and artistic works",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Song Dynasty's cultural flourishing during this period is well-documented in contemporary sources and later histories.",
+      "cross_references": []
+    },
+    {
+      "id": "1003-004",
+      "title": "Byzantine military campaigns continue under Basil II",
+      "region": "Byzantine Empire (Balkans, Anatolia)",
+      "coordinates_approx": "42.0, 21.0",
+      "category": "military",
+      "description": "Emperor Basil II of the Byzantine Empire continued his military campaigns in the Balkans and Anatolia in 1003 CE. Basil II (r. 976\u20131025 CE) was one of the most successful Byzantine military commanders, and his campaigns against the Bulgarian Empire and other regional powers were ongoing during this period. These campaigns would culminate in the conquest of Bulgaria by 1018 CE, earning him the epithet 'Bulgar-slayer' (Bulgaroktonos). The period represented the height of Byzantine military power and territorial expansion.",
+      "key_figures": [
+        "Basil II (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Byzantine chronicles and administrative records",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Basil II's campaigns",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Basil II's military campaigns are well-attested, but the specific events of 1003 CE are less precisely documented than his later campaigns.",
+      "cross_references": [
+        "1005-004 (Byzantine military campaigns continue)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Brihadesvara Temple's construction date is sometimes given as beginning in 1004 CE or 1005 CE, with completion in 1010 CE. The exact start date is uncertain and depends on the interpretation of inscriptional and archaeological evidence. Henry II's reign dates are well-established, but the specific events of 1003 CE are not extensively documented in contemporary sources.",
+  "historiographic_note": "Documentation for 1003 CE is moderate, with strong records for the Holy Roman Empire and China, moderate records for the Chola Empire and Byzantine Empire, and sparse records for other regions. German chronicles are contemporary and relatively reliable. Chinese sources are contemporary and reliable. Byzantine sources are often later compilations. Chola records are contemporary inscriptions, which are reliable but may emphasize royal achievements.",
+  "graph_edges": [
+    {
+      "from": "1003-001",
+      "to": "1006-004",
+      "relation": "led_to",
+      "note": "The Brihadesvara Temple's construction beginning in 1003 CE led to its completion and major phases in 1006 CE"
+    },
+    {
+      "from": "1003-002",
+      "to": "1004-001",
+      "relation": "led_to",
+      "note": "Henry II's reign in 1003 CE continued until his death in 1004 CE"
+    },
+    {
+      "from": "1003-003",
+      "to": "1005-003",
+      "relation": "led_to",
+      "note": "Song Dynasty's cultural flourishing in 1003 CE was enabled by the Shanyuan Treaty of 1005 CE, which brought peace with the Khitan Liao"
+    },
+    {
+      "from": "1003-004",
+      "to": "1018-basil-ii-bulgarian-conquest",
+      "relation": "led_to",
+      "note": "Basil II's campaigns in 1003 CE were part of the broader campaign that culminated in the conquest of Bulgaria by 1018 CE"
+    }
+  ]
+}

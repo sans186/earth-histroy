@@ -1,0 +1,131 @@
+{
+  "year": 1165,
+  "year_label": "1165 CE",
+  "era_context": "The High Middle Ages continue; the Second Crusade (1147\u20131149) is now a distant memory, and the Crusader States face mounting pressure from Saladin's consolidation of power in Egypt and Syria. In Europe, the Investiture Controversy has been resolved (1122), and feudal monarchies are stabilizing. The Byzantine Empire under Manuel I maintains its cultural and military presence. In Asia, the Jin Dynasty rules northern China; the Southern Song Dynasty controls the south. Islamic civilization remains fragmented but increasingly unified under strong military leaders like Saladin.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Pre-Columbian Americas",
+    "Northern Europe and Scandinavia (limited documentation for this year specifically)"
+  ],
+  "events": [
+    {
+      "id": "1165-001",
+      "title": "Saladin consolidates power in Egypt following the death of the Fatimid Caliph",
+      "region": "Egypt",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Following the death of the Fatimid Caliph al-Adid in 1160, Saladin (serving as vizier under Nur ad-Din) has consolidated his control over Egypt. By 1165, he is the dominant military and political figure in Egypt, having eliminated rival factions and established Ayyubid rule. This consolidation is crucial to his later ability to unify Egypt and Syria and challenge the Crusader States.",
+      "key_figures": [
+        "Saladin (Ayyubid vizier and military commander)",
+        "Nur ad-Din (Saladin's overlord in Syria)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Imad ad-Din al-Isfahani, Conquest of Syria",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Saladin's consolidation of power in Egypt is well-documented in Islamic sources. The Fatimid Caliph al-Adid died in 1160, and by 1165 Saladin's dominance was established.",
+      "cross_references": [
+        "1169-001 (Saladin's formal establishment of Ayyubid rule)"
+      ]
+    },
+    {
+      "id": "1165-002",
+      "title": "Henry II of England and Louis VII of France negotiate the Treaty of Montmirail",
+      "region": "France/England",
+      "coordinates_approx": "48.5, 0.5",
+      "category": "political",
+      "description": "Henry II of England and Louis VII of France meet at Montmirail to negotiate peace and arrange marriages between their children. The treaty is intended to reduce tensions between the Angevin and Capetian dynasties, though it ultimately proves fragile. The negotiations reflect the complex feudal relationships between the Norman-Angevin kings and the French crown.",
+      "key_figures": [
+        "Henry II of England",
+        "Louis VII of France",
+        "Eleanor of Aquitaine"
+      ],
+      "sources": [
+        {
+          "name": "Roger of Howden, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Gesta Henrici Secundi",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Treaty of Montmirail is well-documented in English and French chronicles.",
+      "cross_references": [
+        "1170-001 (Murder of Thomas Becket, which strained Henry II's relations)"
+      ]
+    },
+    {
+      "id": "1165-003",
+      "title": "Byzantine Emperor Manuel I campaigns in the Balkans",
+      "region": "Balkans/Byzantine Empire",
+      "coordinates_approx": "42.0, 21.0",
+      "category": "military",
+      "description": "Emperor Manuel I Komnenos of the Byzantine Empire conducts military campaigns in the Balkans to maintain Byzantine control and suppress rebellions. Manuel's reign is characterized by aggressive military expansion and the attempt to restore Byzantine power in the Mediterranean and Balkans.",
+      "key_figures": [
+        "Manuel I Komnenos (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Niketas Choniates, History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Manuel I conducted multiple Balkan campaigns throughout his reign (1143\u20131180); the specific events of 1165 are less clearly documented than the broader pattern.",
+      "cross_references": []
+    },
+    {
+      "id": "1165-004",
+      "title": "Jin Dynasty consolidates control over northern China",
+      "region": "Northern China",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "The Jin Dynasty, established by the Jurchen people, continues to consolidate its control over northern China. The Jin-Song border remains relatively stable during this period, with the Jin controlling the north and the Song controlling the south. This division of China persists until the Mongol invasions of the 13th century.",
+      "key_figures": [
+        "Emperor Shizong of Jin (r. 1161\u20131189)"
+      ],
+      "sources": [
+        {
+          "name": "Jurchen chronicles and Chinese historical records",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Jin Dynasty's control of northern China is well-documented in Chinese historical records.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No significant disconfirming evidence identified for the events listed. However, the specific significance of 1165 as a distinct year is somewhat arbitrary; the broader patterns of Saladin's consolidation, Henry II's dominance, and Byzantine military activity span multiple years and are not uniquely defined by 1165.",
+  "historiographic_note": "The historical record for 1165 is heavily weighted toward European and Islamic sources, with strong documentation of political and military events in the Mediterranean and Middle East. Chinese sources are rich but less integrated into Western historical narratives. The Crusade-era sources are often written from a European perspective and may underrepresent Islamic and Byzantine viewpoints. Sub-Saharan African, Southeast Asian, and American histories remain essentially absent from contemporary documentation.",
+  "graph_edges": [
+    {
+      "from": "1165-001",
+      "to": "1169-001",
+      "relation": "led_to",
+      "note": "Saladin's consolidation of power in Egypt in 1165 led to his formal establishment of Ayyubid rule in 1169"
+    },
+    {
+      "from": "1165-002",
+      "to": "1170-001",
+      "relation": "led_to",
+      "note": "The Treaty of Montmirail was followed by the murder of Thomas Becket, which strained Henry II's relations"
+    }
+  ]
+}

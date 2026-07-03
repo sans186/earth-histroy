@@ -1,0 +1,175 @@
+{
+  "year": 1143,
+  "year_label": "1143 CE",
+  "era_context": "The mid-12th century witnessed the height of the Crusader States in the Levant, the dominance of Zengi and the Zengid dynasty, the reign of Stephen III in Hungary, and the early Gothic architectural movement in Western Europe. In East Asia, the Jin dynasty controlled northern China while the Song dynasty ruled the south; in Japan, the Heian period was transitioning toward samurai dominance. Islamic scholarship and mathematics flourished in Al-Andalus and the broader Islamic world.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Scandinavia and the Baltic (sparse documentation)",
+    "Central Asia (limited contemporary records)"
+  ],
+  "events": [
+    {
+      "id": "1143-001",
+      "title": "Zengi ibn Aq Sunqur besieges Edessa",
+      "region": "County of Edessa, Upper Mesopotamia (modern-day \u015eanl\u0131urfa, Turkey)",
+      "coordinates_approx": "37.15, 38.79",
+      "category": "military",
+      "description": "In 1143, Zengi ibn Aq Sunqur, atabeg of Mosul and Aleppo, began a siege of the Crusader County of Edessa. The siege would continue into 1144 and culminate in the fall of the city on 28 December 1144. Edessa was the northernmost and oldest of the Crusader States, founded during the First Crusade in 1098. The siege demonstrated Zengi's military capabilities and his determination to expand Zengid control in northern Syria and Mesopotamia. The eventual fall of Edessa would shock Western Christendom and trigger the Second Crusade.",
+      "key_figures": [
+        "Zengi ibn Aq Sunqur (atabeg of Mosul and Aleppo)",
+        "Joscelin II of Courtenay (count of Edessa)"
+      ],
+      "sources": [
+        {
+          "name": "William of Tyre, Historia Belli Sacri (History of the Holy War)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History (Al-Kamil fi al-Ta'rikh)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Michael the Syrian, Chronicle (Syriac Christian perspective)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The siege of Edessa is attested in multiple sources, but the exact date of its beginning is not always specified. Sources indicate it began in 1143 or 1144, with the fall occurring on 28 December 1144. The siege likely began in 1143 and continued into 1144.",
+      "cross_references": [
+        "1144-001 (Fall of Edessa)"
+      ]
+    },
+    {
+      "id": "1143-002",
+      "title": "Pope Innocent II dies; Pope Celestine II elected",
+      "region": "Papal States, Rome",
+      "coordinates_approx": "41.90, 12.49",
+      "category": "religious",
+      "description": "Pope Innocent II died on 24 September 1143, and Pope Celestine II was elected as his successor. Celestine II's papacy was brief (he died in March 1144) and marked by attempts to maintain papal authority in the face of challenges from the Roman commune and the Holy Roman Empire. Innocent II had been a strong pope who had consolidated papal authority and supported the Cistercian order. Celestine II continued these policies but had little time to make a significant impact before his death. The succession of popes in the 1140s reflected the ongoing struggles for power within the Church and between the papacy and secular rulers.",
+      "key_figures": [
+        "Pope Innocent II (predecessor, died 1143)",
+        "Pope Celestine II (successor, elected 1143, died 1144)",
+        "Pope Lucius II (successor to Celestine II, elected 1144)"
+      ],
+      "sources": [
+        {
+          "name": "Liber Pontificalis (papal chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Boso, Life of Pope Celestine II (biographical account)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The death of Innocent II on 24 September 1143 and the election of Celestine II are well-attested in papal records and chronicles.",
+      "cross_references": [
+        "1144-001 (Celestine II's death and succession of Lucius II)"
+      ]
+    },
+    {
+      "id": "1143-003",
+      "title": "Suger of Saint-Denis continues architectural work on the basilica",
+      "region": "Saint-Denis, \u00cele-de-France, Kingdom of France",
+      "coordinates_approx": "48.94, 2.36",
+      "category": "cultural",
+      "description": "Abbot Suger of Saint-Denis continued his revolutionary architectural work on the Basilica of Saint-Denis in 1143. The project, begun in 1137, was progressing toward completion of the western fa\u00e7ade and narthex. Suger's innovations\u2014pointed arches, ribbed vaults, flying buttresses, and extensive use of stained glass\u2014were creating a revolutionary architectural style that would become known as Gothic. The basilica served as the royal necropolis of French kings and was a center of intellectual and artistic patronage.",
+      "key_figures": [
+        "Suger of Saint-Denis (abbot and architectural patron)",
+        "Louis VII of France (royal patron)"
+      ],
+      "sources": [
+        {
+          "name": "Suger, De Administratione",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological and architectural evidence from the basilica",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Suger's work on the basilica continued throughout the 1140s. The exact progress in 1143 is not precisely documented.",
+      "cross_references": [
+        "1137-001 (Beginning of Suger's renovations)",
+        "1146-006 (Completion of western fa\u00e7ade and narthex)"
+      ]
+    },
+    {
+      "id": "1143-004",
+      "title": "Stephen III reigns as King of Hungary",
+      "region": "Kingdom of Hungary",
+      "coordinates_approx": "47.5, 19.0",
+      "category": "political",
+      "description": "Stephen III (also known as Stephen IV) reigned as King of Hungary from 1141 to 1162. In 1143, he was in the middle of his reign, which was marked by consolidation of royal authority, conflicts with the nobility, and expansion of Hungarian influence in the Balkans. Stephen III was a strong ruler who resisted papal interference and maintained Hungary's independence from both the Holy Roman Empire and the Byzantine Empire.",
+      "key_figures": [
+        "Stephen III of Hungary (king)"
+      ],
+      "sources": [
+        {
+          "name": "Simon of K\u00e9za, Gesta Hungarorum (Hungarian chronicle)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Stephen III's reign (1141\u20131162) is well-attested in Hungarian sources. The year 1143 falls securely within his reign.",
+      "cross_references": [
+        "1162-001 (Stephen III's death)"
+      ]
+    },
+    {
+      "id": "1143-005",
+      "title": "Wanyan Yong (Emperor Taizong) reigns as Emperor of the Jin dynasty",
+      "region": "Jin dynasty, northern China",
+      "coordinates_approx": "39.90, 116.41",
+      "category": "political",
+      "description": "In 1143, Wanyan Yong (Emperor Taizong of Jin) reigned as emperor of the Jin dynasty (Jurchen-ruled northern China). He had ascended to the throne in 1123 and reigned until 1144. Wanyan Yong's reign was marked by military campaigns against the Song dynasty to the south and consolidation of Jin control over northern China. The Jin dynasty, established by the Jurchen people in 1115, controlled northern China and was in constant tension with the Song dynasty. Wanyan Yong's reign represented a period of relative stability and military strength for the Jin dynasty.",
+      "key_figures": [
+        "Wanyan Yong (Emperor Taizong of Jin)",
+        "Wanyan Liang (successor, Emperor Xizong of Jin)"
+      ],
+      "sources": [
+        {
+          "name": "Jin Shi (History of the Jin Dynasty, compiled in the Yuan dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Song Shi (History of the Song Dynasty, compiled in the Yuan dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Wanyan Yong's reign (1123\u20131144) is recorded in the Jin Shi. The year 1143 falls securely within his reign.",
+      "cross_references": [
+        "1144-005 (Wanyan Liang's accession)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of the beginning of the siege of Edessa is not always specified in sources. Some sources indicate it began in 1143, while others suggest 1144. The fall of Edessa is definitively dated to 28 December 1144, but the duration of the siege is uncertain. Pope Celestine II's papacy was very brief (September 1143 to March 1144), and his significance is often downplayed in papal histories. Chinese dynastic records (Jin Shi, Song Shi) were compiled centuries after the events they describe, making dating uncertain.",
+  "historiographic_note": "The historical record for 1143 is heavily weighted toward Western European and Islamic sources. The siege of Edessa is attested in multiple sources, but with some ambiguity about its exact dates. Papal succession is well-documented in papal records and chronicles. Northern European sources are sparse and rely on later compilations. East Asian sources (Jin Shi, Song Shi) are available but were compiled centuries after the events they describe. Sub-Saharan Africa, Central Asia, and much of the Indian Ocean world are essentially absent from contemporary documentation. The sources reflect the biases of their authors: Latin chronicles emphasize Christian perspectives, while Islamic sources may underrepresent Crusader military capabilities.",
+  "graph_edges": [
+    {
+      "from": "1143-001",
+      "to": "1144-001",
+      "relation": "led_to",
+      "note": "Siege of Edessa (1143) led to fall of Edessa (1144)"
+    },
+    {
+      "from": "1143-002",
+      "to": "1144-001",
+      "relation": "contemporary_with",
+      "note": "Papal succession (1143) occurred during the siege of Edessa (1143\u20131144)"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "year": 1163,
+  "year_label": "1163 CE",
+  "era_context": "The High Middle Ages; the Crusader States are in a period of relative stability but facing increasing pressure from Saladin's consolidation of power in Egypt. In Europe, Henry II of England is consolidating his Angevin Empire and beginning his conflict with the Church over ecclesiastical authority. The Byzantine Empire under Manuel I is at a high point of power. In Asia, the Jin Dynasty rules northern China while the Southern Song Dynasty controls the south. Islamic civilization is fragmented but increasingly unified under strong military leaders like Saladin and Nur ad-Din.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Pre-Columbian Americas",
+    "Northern Europe and Scandinavia (limited specific documentation for 1163)"
+  ],
+  "events": [
+    {
+      "id": "1163-001",
+      "title": "Death of Baldwin III of Jerusalem",
+      "region": "Kingdom of Jerusalem",
+      "coordinates_approx": "31.8, 35.2",
+      "category": "political",
+      "description": "Baldwin III, King of Jerusalem, dies after a reign marked by military campaigns against Nur ad-Din and attempts to expand Crusader influence in Egypt. His death marks the end of an era of relative Crusader strength; his successor, Amalric I, will continue aggressive policies but ultimately face the rising power of Saladin. Baldwin III was known for his military leadership and his attempts to maintain Crusader dominance in the Levant.",
+      "key_figures": [
+        "Baldwin III (King of Jerusalem)",
+        "Amalric I (his brother and successor)"
+      ],
+      "sources": [
+        {
+          "name": "William of Tyre, Historia",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Baldwin III's death in 1163 is well-documented in Crusader sources. The date is confirmed.",
+      "cross_references": [
+        "1164-001 (Amalric I's accession)"
+      ]
+    },
+    {
+      "id": "1163-002",
+      "title": "Thomas Becket becomes Archbishop of Canterbury",
+      "region": "England",
+      "coordinates_approx": "51.3, 1.1",
+      "category": "religious",
+      "description": "Thomas Becket is appointed Archbishop of Canterbury by King Henry II. Becket had been Henry's chancellor and close friend, and the king expects him to continue to serve royal interests as archbishop. However, Becket undergoes a transformation upon taking office, becoming a strong defender of ecclesiastical independence and opposing Henry's attempts to subordinate the Church to royal authority. This appointment marks the beginning of one of the most famous conflicts in medieval history.",
+      "key_figures": [
+        "Thomas Becket (Archbishop of Canterbury)",
+        "Henry II of England"
+      ],
+      "sources": [
+        {
+          "name": "Roger of Howden, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Life of Thomas Becket (various contemporary accounts)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Thomas Becket's appointment as Archbishop of Canterbury in 1163 is well-documented in contemporary sources.",
+      "cross_references": [
+        "1164-003 (Henry II-Thomas Becket conflict intensifies)",
+        "1170-001 (Murder of Thomas Becket)"
+      ]
+    },
+    {
+      "id": "1163-003",
+      "title": "Saladin consolidates power in Egypt following the death of the Fatimid Caliph",
+      "region": "Egypt",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Saladin, serving as vizier under Nur ad-Din, continues to consolidate his control over Egypt following the death of the Fatimid Caliph al-Adid in 1160. By 1163, Saladin has eliminated rival factions and established himself as the dominant military and political figure in Egypt. This consolidation is crucial to his later ability to unify Egypt and Syria and challenge the Crusader States.",
+      "key_figures": [
+        "Saladin (Ayyubid vizier and military commander)",
+        "Nur ad-Din (Saladin's overlord in Syria)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Imad ad-Din al-Isfahani, Conquest of Syria",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Saladin's consolidation of power in Egypt is well-documented in Islamic sources. The process began after the death of al-Adid in 1160 and was largely complete by the mid-1160s.",
+      "cross_references": [
+        "1169-001 (Saladin's formal establishment of Ayyubid rule)"
+      ]
+    },
+    {
+      "id": "1163-004",
+      "title": "Byzantine Emperor Manuel I campaigns in Cilicia and Syria",
+      "region": "Cilicia/Syria/Byzantine Empire",
+      "coordinates_approx": "36.5, 34.5",
+      "category": "military",
+      "description": "Emperor Manuel I Komnenos of the Byzantine Empire conducts military campaigns in Cilicia and Syria to expand Byzantine influence and challenge the Crusader States and Muslim powers. Manuel's reign is characterized by aggressive military expansion and the attempt to restore Byzantine power in the Mediterranean and the Levant. These campaigns are part of his broader strategy to reassert Byzantine dominance in the eastern Mediterranean.",
+      "key_figures": [
+        "Manuel I Komnenos (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Niketas Choniates, History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Manuel I conducted multiple campaigns in Cilicia and Syria throughout his reign (1143\u20131180); the specific events of 1163 are less clearly documented than the broader pattern.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No significant disconfirming evidence identified for the events listed. However, the specific significance of 1163 as a distinct year is somewhat arbitrary; the broader patterns of Saladin's consolidation, Thomas Becket's appointment, and Byzantine military activity span multiple years and are not uniquely defined by 1163.",
+  "historiographic_note": "The historical record for 1163 is heavily weighted toward European sources, particularly English and Crusader chronicles. The appointment of Thomas Becket as Archbishop of Canterbury is extensively documented because it was a major political and ecclesiastical event in medieval Europe. Islamic sources for Saladin's consolidation of power exist but are often later compilations. Byzantine sources are rich but less integrated into Western historical narratives. The record is heavily weighted toward political and religious events; economic, social, and cultural developments are less well-documented. Sub-Saharan African, Southeast Asian, and American histories remain absent from contemporary documentation.",
+  "graph_edges": [
+    {
+      "from": "1163-001",
+      "to": "1164-001",
+      "relation": "led_to",
+      "note": "Baldwin III's death in 1163 led to Amalric I's accession in 1164"
+    },
+    {
+      "from": "1163-002",
+      "to": "1164-003",
+      "relation": "led_to",
+      "note": "Thomas Becket's appointment as Archbishop in 1163 led to the intensification of the Henry II-Thomas Becket conflict in 1164"
+    },
+    {
+      "from": "1163-003",
+      "to": "1166-001",
+      "relation": "led_to",
+      "note": "Saladin's consolidation of power in Egypt in 1163 was part of the process that led to his military victories in 1166"
+    }
+  ]
+}

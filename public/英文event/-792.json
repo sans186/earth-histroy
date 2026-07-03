@@ -1,0 +1,88 @@
+{
+  "year": -792,
+  "year_label": "792 BCE",
+  "era_context": "The Neo-Assyrian Empire under Sargon II remains at its territorial peak. In Greece, the Archaic period continues with the consolidation of the polis system and the development of hoplite warfare. In China, the Spring and Autumn period is well established, with regional states competing for dominance. Iron-working is now universal across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe (no written records)",
+    "Interior of the Americas (no written records)",
+    "Central Asia and the Steppe (limited written sources)"
+  ],
+  "events": [
+    {
+      "id": "-792-001",
+      "title": "Sargon II's military campaigns in Anatolia and the Levant",
+      "region": "Mesopotamia, Anatolia, Levant",
+      "coordinates_approx": "36.0, 36.0",
+      "category": "military",
+      "description": "Sargon II continues campaigns to secure Assyrian hegemony over Anatolia and the Levant. The Hittite successor states and Aramean kingdoms are brought under Assyrian control or reduced to vassal status. These campaigns are part of Sargon II's broader strategy to consolidate the empire and secure trade routes. The deportation of conquered populations continues as a tool of imperial control.",
+      "key_figures": [
+        "Sargon II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon II's Annals (cuneiform inscriptions from Dur-Sharrukin)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Dur-Sharrukin and other Assyrian sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sargon II's reign (722\u2013705 BCE) is well-documented, but specific campaigns in 792 BCE are not individually named. This entry reflects the general military activity of his reign during this period, with dating approximate to within a few years.",
+      "cross_references": [
+        "-794-001",
+        "-793-001"
+      ]
+    },
+    {
+      "id": "-792-002",
+      "title": "Development of hoplite warfare in Greece",
+      "region": "Greece",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "military",
+      "description": "The hoplite phalanx formation is becoming the dominant military technology in Greek city-states during the Archaic period. This shift from aristocratic chariot warfare to mass infantry formations has profound social and political consequences, as it requires training and discipline from ordinary citizens rather than elite warriors. The hoplite system will define Greek warfare for the next three centuries and is closely linked to the development of democratic institutions.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Homer, Iliad (composed 8th century BCE, but describes earlier warfare)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Greek sites (weapons, armour, settlement patterns)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus based on material evidence",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The transition to hoplite warfare occurred gradually over the 8th\u20137th centuries BCE. Specific dating to 792 BCE is conventional; the process was not sudden but evolutionary. Archaeological evidence (weapons, armour) provides better precision than literary sources.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating and nature of the 'hoplite revolution' is debated by modern scholars. Some argue that the transition was more gradual than traditionally portrayed, and that hoplite-style warfare may have emerged earlier than the 8th century BCE. The connection between hoplite warfare and the development of democracy is also contested; some scholars argue that democracy emerged for other reasons and was not directly caused by military technology. Sargon II's specific activities in 792 BCE are not documented; the year is assigned by convention.",
+  "historiographic_note": "The historical record for 792 BCE is dominated by Mesopotamian sources and Greek archaeological evidence. Assyrian inscriptions are self-promotional and may exaggerate military successes. Greek sources are sparse and later (Homer, Herodotus). Chinese sources exist but are schematic. The apparent richness of documentation is an artefact of which civilisations left written records and which have been extensively excavated.",
+  "graph_edges": [
+    {
+      "from": "-792-001",
+      "to": "-794-001",
+      "relation": "part_of",
+      "note": "Sargon II's campaigns continue as part of sustained Assyrian expansion throughout the early 790s BCE"
+    },
+    {
+      "from": "-792-002",
+      "to": "-480-001",
+      "relation": "led_to",
+      "note": "Hoplite warfare becomes the dominant Greek military system and is used at the Battle of Marathon and other Classical period conflicts"
+    }
+  ]
+}

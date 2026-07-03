@@ -1,0 +1,135 @@
+{
+  "year": 1294,
+  "year_label": "1294 CE",
+  "era_context": "The late 13th century saw the fragmentation of the Mongol Empire, the consolidation of European feudal monarchies, and the flourishing of Islamic and Chinese civilizations. The Yuan Dynasty under Kublai Khan controlled China; the Mamluk Sultanate dominated the Islamic world; European kingdoms were centralizing power; and maritime trade networks were expanding across the Indian Ocean and Mediterranean.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Interior Southeast Asia",
+    "Northern Eurasia/Siberia",
+    "Pre-Columbian Americas",
+    "Most of Asia (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "1294-001",
+      "title": "Death of Kublai Khan; succession crisis in Yuan Dynasty",
+      "region": "China / Yuan Dynasty",
+      "coordinates_approx": "39.9042, 116.4074",
+      "category": "political",
+      "description": "Kublai Khan, founder of the Yuan Dynasty and one of history's most significant conquerors, died in 1294 at an advanced age. His death triggered a succession crisis that would shape the Yuan Dynasty's future. His grandson Tem\u00fcr Khan (Khashan) eventually succeeded him, but the transition was contested and revealed fissures within the Mongol elite. Kublai's death marked the end of an era of Mongol expansion and the beginning of a period of consolidation and gradual decline of Mongol power in Asia.",
+      "key_figures": [
+        "Kublai Khan (Emperor of Yuan Dynasty)",
+        "Tem\u00fcr Khan / Khashan (successor)"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Dynasty official histories and chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Shiji and other Chinese historical compilations",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Kublai Khan and Yuan succession",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Kublai Khan's death in 1294 is well-attested in Chinese historical records. The date is firmly established in Yuan Dynasty chronicles.",
+      "cross_references": [
+        "Part of the broader history of the Mongol Empire's fragmentation",
+        "Led to the reign of Tem\u00fcr Khan (1294\u20131307)"
+      ]
+    },
+    {
+      "id": "1294-002",
+      "title": "Boniface VIII elected Pope",
+      "region": "Papal States / Rome",
+      "coordinates_approx": "41.9028, 12.4534",
+      "category": "religious",
+      "description": "Benedetto Caetani was elected Pope and took the name Boniface VIII. His election marked the beginning of a papacy characterized by aggressive assertions of papal authority and temporal power, as well as significant conflicts with secular rulers, particularly King Philip IV of France. Boniface VIII would become one of the most controversial popes of the medieval period, known for his conflicts with secular authority and his ultimate political defeat. His papacy represented both the height of medieval papal ambition and the beginning of its decline.",
+      "key_figures": [
+        "Benedetto Caetani / Boniface VIII (Pope)"
+      ],
+      "sources": [
+        {
+          "name": "Papal records and chronicles of the papal court",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chronicle of Jean de Joinville and other contemporary sources",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Boniface VIII",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Boniface VIII's election in 1294 is well-documented in papal records and contemporary chronicles. The date is firmly established.",
+      "cross_references": [
+        "Led to the Jubilee proclamation (1296-001)",
+        "Led to conflicts with Philip IV of France (1296-004)"
+      ]
+    },
+    {
+      "id": "1294-003",
+      "title": "Angevin rule in Naples and Sicily continues under Charles II",
+      "region": "Naples / Sicily",
+      "coordinates_approx": "40.8518, 14.2681",
+      "category": "political",
+      "description": "Charles II of Anjou continued his rule over Naples and Sicily in 1294, maintaining Angevin dominance in the Mediterranean. The Angevin dynasty had established itself in southern Italy and Sicily following the War of the Sicilian Vespers (1282\u20131302), though their control of Sicily was contested by the Aragonese. Charles II's reign was marked by efforts to consolidate Angevin power and manage the complex politics of Mediterranean kingdoms. The Angevin presence in southern Italy remained significant for centuries.",
+      "key_figures": [
+        "Charles II of Anjou (King of Naples and Sicily)"
+      ],
+      "sources": [
+        {
+          "name": "Angevin court records and chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Angevin rule in Italy",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Charles II's rule in 1294 is well-attested in contemporary records. However, specific events for this year are not prominently documented.",
+      "cross_references": [
+        "Part of the broader history of Mediterranean politics in the late 13th century",
+        "Related to the War of the Sicilian Vespers (1282\u20131302)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Kublai Khan's death is sometimes presented as marking a clear end to Mongol expansion and the beginning of decline. However, modern scholarship emphasizes that the Yuan Dynasty remained a major power for decades after 1294, and Mongol successor states in Central Asia and the Middle East continued to exercise significant influence. The succession of Tem\u00fcr Khan was contested, but the Yuan Dynasty did not immediately collapse. Additionally, Boniface VIII is often portrayed as an ambitious but ultimately defeated pope; however, some modern historians argue that his conflicts with secular rulers reflected genuine theological and political principles rather than mere personal ambition.",
+  "historiographic_note": "Documentation for 1294 is sparse, particularly outside of Europe and China. European sources are dominated by papal and royal chronicles. Chinese sources exist for the Yuan Dynasty but are often compiled centuries after the events they describe. The death of Kublai Khan is well-documented in Chinese sources, but most other regions have minimal contemporary documentation for this year. The surviving sources reflect the perspectives of literate elites and likely underrepresent the experiences of common people and non-literate societies.",
+  "graph_edges": [
+    {
+      "from": "1294-001",
+      "to": "1295-003",
+      "relation": "led_to",
+      "note": "Kublai Khan's death led to the succession of Tem\u00fcr Khan and the continuation of Yuan Dynasty rule"
+    },
+    {
+      "from": "1294-002",
+      "to": "1296-001",
+      "relation": "led_to",
+      "note": "Boniface VIII's election led to the proclamation of the Jubilee in 1296"
+    },
+    {
+      "from": "1294-002",
+      "to": "1296-004",
+      "relation": "led_to",
+      "note": "Boniface VIII's election led to conflicts with Philip IV of France"
+    }
+  ]
+}

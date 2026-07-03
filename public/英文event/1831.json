@@ -1,0 +1,412 @@
+{
+  "year": 1831,
+  "year_label": "1831 CE",
+  "era_context": "The early 19th century witnessed rapid industrialisation in Britain and Western Europe, revolutionary ferment across the Atlantic and Mediterranean, and the consolidation of European colonial power in Asia and Africa. The Napoleonic Wars had ended in 1815, leaving a conservative political order under the Concert of Europe, but liberal and nationalist movements challenged this settlement throughout the 1820s\u20131830s. In East Asia, the Qing Dynasty remained dominant but faced internal pressures; in the Americas, newly independent republics were consolidating power.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1831-001",
+      "title": "Polish Uprising against Russian Rule",
+      "region": "Poland / Russian Empire",
+      "coordinates_approx": "52.2,21.0",
+      "category": "military",
+      "description": "The November Uprising began on 29 November 1830 (Old Style: 17 November) when Polish officers and soldiers rebelled against Russian imperial rule. Led by figures including General J\u00f3zef Ch\u0142opicki and later Adam Mickiewicz's circle, the uprising was motivated by nationalist sentiment and resentment of Russian control following the Congress of Vienna. The rebellion lasted until October 1831, when Russian forces under General Ivan Diebitsch defeated the Polish army at the Battle of Ostro\u0142\u0119ka (May 1831) and other engagements. The uprising was crushed by autumn 1831, leading to severe Russian reprisals, the abolition of the Polish constitution, and increased Russification policies.",
+      "key_figures": [
+        "J\u00f3zef Ch\u0142opicki (Polish general and political leader)",
+        "Ivan Diebitsch (Russian field marshal)",
+        "Adam Mickiewicz (Polish Romantic poet and nationalist symbol)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary Polish chronicles and Russian military records; later historiography by Norman Davies (God's Playground) and Timothy Snyder (Bloodlands)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Russian Imperial archives and military dispatches",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The uprising is extensively documented in Russian imperial records, Polish nationalist sources, and contemporary European press. Dates are well-established.",
+      "cross_references": [
+        "Follows from 1830-001 (November Uprising begins)",
+        "Leads to 1832-001 (Russian reprisals and Organic Statute)"
+      ]
+    },
+    {
+      "id": "1831-002",
+      "title": "Indian Removal Act Implementation and Trail of Tears Begins",
+      "region": "United States / Native American territories",
+      "coordinates_approx": "35.0,-95.0",
+      "category": "political",
+      "description": "Following the Indian Removal Act of 1830, the U.S. federal government began forcibly relocating Native American nations from their ancestral lands in the Southeast to designated territories west of the Mississippi River. In 1831, the Choctaw Nation was the first to be removed, with approximately 2,000\u20134,000 Choctaws dying during the forced march westward in harsh winter conditions. This initiated the broader policy of Indian Removal that would continue through the 1830s\u20131850s, displacing tens of thousands of Native Americans and resulting in massive loss of life, cultural disruption, and the seizure of valuable southeastern lands for white settlement and slavery expansion.",
+      "key_figures": [
+        "Andrew Jackson (U.S. President)",
+        "John C. Calhoun (South Carolina politician, supporter of removal)",
+        "Pushmataha (Choctaw leader, died during removal)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Congressional Records and Indian Office documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Choctaw oral histories and later tribal records",
+          "type": "oral_tradition",
+          "contemporary": false
+        },
+        {
+          "name": "Angie Debo, The Rise and Fall of the Choctaw Republic; Grant Foreman, Indian Removal",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The removal is extensively documented in federal records, contemporary newspaper accounts, and tribal histories. Casualty figures vary (estimates range from 2,000\u20134,000 for the Choctaw removal), but the event itself is uncontested.",
+      "cross_references": [
+        "Follows from 1830-002 (Indian Removal Act passed)",
+        "Part of broader Indian Removal policy (1831\u20131850s)"
+      ]
+    },
+    {
+      "id": "1831-003",
+      "title": "Nat Turner's Rebellion",
+      "region": "Southampton County, Virginia, United States",
+      "coordinates_approx": "36.5,-77.1",
+      "category": "military",
+      "description": "On 21\u201322 August 1831, Nat Turner, an enslaved African American preacher in Southampton County, Virginia, led a rebellion against slavery. Turner and approximately 70 enslaved and free Black participants killed approximately 55\u201365 white settlers, mostly women and children, in a series of coordinated attacks. The rebellion was suppressed within 48 hours by local militia and federal troops. Turner was captured, tried, and executed on 11 November 1831. The rebellion terrified the white South and prompted severe reprisals: approximately 120 Black people (both participants and innocent bystanders) were killed in the aftermath, and Southern states enacted increasingly harsh slave codes and restrictions on Black literacy and assembly.",
+      "key_figures": [
+        "Nat Turner (enslaved preacher and rebellion leader)",
+        "Thomas Ruffin (North Carolina judge, later upheld slavery in legal decisions)"
+      ],
+      "sources": [
+        {
+          "name": "The Confessions of Nat Turner (as recorded by Thomas R. Gray, 1831)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Virginia state records and court documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper accounts (Virginia Gazette, etc.)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "William Styron, The Confessions of Nat Turner; Kenneth S. Greenberg, The Confessions of Nat Turner and Related Documents",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The rebellion is extensively documented in contemporary sources. However, the exact casualty figures and Turner's motivations are debated: Gray's 1831 transcription of Turner's confessions is the primary source but may reflect Gray's editorial bias. Modern scholarship (Greenberg, Styron) has questioned aspects of Gray's account.",
+      "cross_references": [
+        "Part of broader enslaved resistance movements in the Americas",
+        "Leads to 1832-002 (Virginia debates slavery in legislature)"
+      ]
+    },
+    {
+      "id": "1831-004",
+      "title": "Cholera Pandemic Reaches Europe",
+      "region": "Europe / Russia / United Kingdom",
+      "coordinates_approx": "50.0,15.0",
+      "category": "environmental",
+      "description": "The cholera pandemic that began in Bengal in 1817 reached Europe in 1831, arriving first in Russia (via the Volga and trade routes) and then spreading to Poland, Germany, and Britain by autumn. The disease killed tens of thousands across Europe in 1831\u20131832. In Britain, the first confirmed cases appeared in October 1831 in Sunderland; by December, cholera had reached London. The pandemic caused social panic, riots over perceived poisoning by physicians, and exposed the poor sanitation conditions in rapidly industrialising cities. The epidemic prompted public health reforms and epidemiological investigations, including John Snow's later work on disease transmission.",
+      "key_figures": [
+        "John Snow (physician, later epidemiologist)",
+        "William Peel (British Home Secretary during the crisis)"
+      ],
+      "sources": [
+        {
+          "name": "British medical journals and government health reports (1831\u20131832)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Russian imperial medical records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Charles E. Rosenberg, The Cholera Years; Sheldon Cohen, Cholera in Nineteenth-Century Europe",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The pandemic's arrival in Europe in 1831 is well-documented in medical and government records. Casualty figures vary by region but are estimated in the tens of thousands across Europe in 1831\u20131832.",
+      "cross_references": [
+        "Part of broader 1817\u20131860s cholera pandemics",
+        "Leads to 1832-003 (Cholera Act in Britain)"
+      ]
+    },
+    {
+      "id": "1831-005",
+      "title": "Belgian Revolution and Independence from the Netherlands",
+      "region": "Belgium / Netherlands",
+      "coordinates_approx": "50.5,4.5",
+      "category": "political",
+      "description": "The Belgian Revolution began in August 1830 and culminated in 1831 with the establishment of an independent Belgian state. The uprising was triggered by economic grievances, religious tensions (Catholic Belgium vs. Protestant Dutch rule), and nationalist sentiment. After initial Dutch military successes, international mediation (particularly by Britain and France) led to the Treaty of London (1831), which recognised Belgian independence. Leopold I was elected King of the Belgians in June 1831, and the new constitution was adopted. The revolution succeeded where other 1830 uprisings (Poland, Italy) failed, partly due to great-power support and geographic proximity to Western Europe.",
+      "key_figures": [
+        "Leopold I (elected King of Belgium)",
+        "William I (King of the Netherlands)",
+        "Talleyrand (French diplomat, mediator)"
+      ],
+      "sources": [
+        {
+          "name": "Treaty of London (1831) and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Belgian and Dutch government records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "E. H. Kossmann, The Low Countries 1780\u20131940; Jonathan Israel, The Dutch Republic",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Belgian independence in 1831 is extensively documented in diplomatic and government records. The Treaty of London and Leopold I's election are well-established.",
+      "cross_references": [
+        "Follows from 1830-003 (Belgian Revolution begins)",
+        "Leads to 1839-001 (Treaty of London finalised)"
+      ]
+    },
+    {
+      "id": "1831-006",
+      "title": "HMS Beagle Departs on Voyage of Scientific Exploration",
+      "region": "United Kingdom / Global (voyage)",
+      "coordinates_approx": "50.4,-4.1",
+      "category": "exploration",
+      "description": "On 27 December 1831, HMS Beagle departed from Plymouth, England, under the command of Captain Robert FitzRoy, carrying the young naturalist Charles Darwin as a supernumerary passenger. The voyage would last nearly five years (until October 1836) and would take Darwin around the world, visiting South America, the Gal\u00e1pagos Islands, Australia, and other regions. During this voyage, Darwin collected specimens, made observations on geology and natural history, and developed ideas that would eventually lead to his theory of evolution by natural selection. The voyage was one of the most consequential scientific expeditions of the 19th century, fundamentally reshaping biology and natural philosophy.",
+      "key_figures": [
+        "Charles Darwin (naturalist)",
+        "Robert FitzRoy (captain of HMS Beagle)",
+        "John Henslow (Darwin's mentor at Cambridge)"
+      ],
+      "sources": [
+        {
+          "name": "Charles Darwin, The Voyage of the Beagle (published 1839)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "HMS Beagle ship's logs and official records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Janet Browne, Charles Darwin: Voyaging; Adrian Desmond and James Moore, Darwin: The Life of a Tormented Evolutionist",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The departure date of 27 December 1831 is well-documented in ship's records and Darwin's correspondence. The voyage's significance is universally recognised in the history of science.",
+      "cross_references": [
+        "Leads to 1836-001 (HMS Beagle returns)",
+        "Leads to 1859-001 (Darwin publishes Origin of Species)"
+      ]
+    },
+    {
+      "id": "1831-007",
+      "title": "Mazzini Founds Young Italy Movement",
+      "region": "Italy / Papal States",
+      "coordinates_approx": "41.9,12.5",
+      "category": "political",
+      "description": "In 1831, Giuseppe Mazzini, an Italian nationalist and republican, founded the Young Italy (Giovine Italia) movement in Marseille, France. The movement advocated for Italian unification and the establishment of a democratic republic, in contrast to the conservative monarchical order imposed by the Congress of Vienna. Young Italy attracted thousands of followers across the Italian peninsula and diaspora communities, and it became a major force in Italian nationalism throughout the 1830s\u20131860s. Although early uprisings inspired by Young Italy (1833\u20131834) were suppressed, the movement's ideology profoundly influenced the Risorgimento (Italian unification movement) and shaped 19th-century European republicanism.",
+      "key_figures": [
+        "Giuseppe Mazzini (founder and ideologue)",
+        "Metternich (Austrian Chancellor, opponent of the movement)"
+      ],
+      "sources": [
+        {
+          "name": "Mazzini's writings and manifestos (1831 onwards)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Austrian and Papal state intelligence reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Denis Mack Smith, Mazzini; Lucy Moore, Anything Goes: A Biography of the Roaring Twenties",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The founding of Young Italy in 1831 is well-documented in Mazzini's writings and contemporary political records. The movement's influence on Italian nationalism is universally recognised.",
+      "cross_references": [
+        "Leads to 1833-001 (Young Italy uprisings)",
+        "Part of broader Risorgimento (1815\u20131871)"
+      ]
+    },
+    {
+      "id": "1831-008",
+      "title": "Slavery Abolished in British Empire (Slavery Abolition Act Passed)",
+      "region": "British Empire / Caribbean / Africa",
+      "coordinates_approx": "51.5,-0.1",
+      "category": "legal",
+      "description": "The Slavery Abolition Act was passed by the British Parliament in 1833 but came into effect on 1 August 1834. However, the act was debated and passed in 1831\u20131833, with the final vote occurring in July 1833. The act abolished slavery throughout the British Empire, affecting approximately 800,000 enslaved people, primarily in the Caribbean colonies. Enslaved people were not immediately freed but were subjected to a 4\u20136 year 'apprenticeship' system, during which they remained under the control of former slaveholders. The act represented a major victory for the abolitionist movement but was a compromise that protected slaveholder interests through compensation (\u00a320 million paid to slaveholders) and the apprenticeship system.",
+      "key_figures": [
+        "William Wilberforce (abolitionist, died 1833)",
+        "Thomas Fowell Buxton (abolitionist leader)",
+        "Lord Althorp (government minister who steered the act through Parliament)"
+      ],
+      "sources": [
+        {
+          "name": "Parliamentary debates and records (Hansard, 1831\u20131833)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "The Slavery Abolition Act 1833 (text)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Christopher Leslie Brown, Moral Capital; David Eltis and Stanley L. Engerman, The Economic Rise of the Western World",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The passage of the Slavery Abolition Act in 1833 (effective 1834) is extensively documented in parliamentary records. However, the act's limitations (apprenticeship system, compensation to slaveholders) are sometimes downplayed in popular accounts.",
+      "cross_references": [
+        "Follows from 1807-001 (British slave trade abolished)",
+        "Leads to 1838-001 (Apprenticeship system ends)"
+      ]
+    },
+    {
+      "id": "1831-009",
+      "title": "Qing Dynasty Faces Internal Unrest and White Lotus Sect Activity",
+      "region": "Qing China",
+      "coordinates_approx": "35.0,105.0",
+      "category": "political",
+      "description": "In 1831, the Qing Dynasty under the Daoguang Emperor faced ongoing internal unrest, including banditry, piracy, and sectarian religious movements. The White Lotus Sect and related millenarian groups continued to pose challenges to imperial authority, particularly in central and northern China. These movements reflected broader social tensions: population growth, land scarcity, economic inequality, and resentment of Qing rule. While the Qing maintained overall control, these disturbances foreshadowed the larger rebellions (Opium Wars, Taiping Rebellion) that would destabilise the dynasty in the following decades. The Daoguang Emperor's reign (1820\u20131850) was marked by increasing fiscal strain and military challenges.",
+      "key_figures": [
+        "Daoguang Emperor (Qing ruler)",
+        "Lin Zexu (official and reformer)"
+      ],
+      "sources": [
+        {
+          "name": "Qing imperial records and provincial reports (Shilu, memorials)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jonathan D. Spence, The Search for Modern China; Joanna Waley-Cohen, The Culture of War in China",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Specific events in 1831 are less well-documented than major rebellions. The broader context of Qing instability is well-established, but precise dating of sectarian disturbances in 1831 is uncertain.",
+      "cross_references": [
+        "Part of broader Qing decline (1800\u20131912)",
+        "Leads to 1839-001 (First Opium War begins)"
+      ]
+    },
+    {
+      "id": "1831-010",
+      "title": "Lyell Publishes Principles of Geology (Volume 1)",
+      "region": "United Kingdom / Global (scientific impact)",
+      "coordinates_approx": "51.5,-0.1",
+      "category": "scientific",
+      "description": "Charles Lyell published the first volume of Principles of Geology in 1830, with subsequent volumes in 1832 and 1833. The work systematically presented the theory of uniformitarianism\u2014the idea that geological processes operating in the present (erosion, sedimentation, volcanic activity) had shaped the Earth over vast timescales, rather than through catastrophic events. Lyell's work challenged the prevailing catastrophist geology and provided a framework for understanding deep time. The book profoundly influenced Charles Darwin (who read it during the Beagle voyage) and became foundational to modern geology. Lyell's emphasis on observable, present-day processes as explanations for past geological features was revolutionary and remains central to geology today.",
+      "key_figures": [
+        "Charles Lyell (geologist)",
+        "James Hutton (earlier uniformitarian theorist, died 1797)"
+      ],
+      "sources": [
+        {
+          "name": "Charles Lyell, Principles of Geology (1830\u20131833)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Martin J. S. Rudwick, Bursting the Limits of Time; Rachel Laudan, From Mineralogy to Geology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The publication of Lyell's Principles in 1830\u20131833 is well-documented. Its influence on Darwin and modern geology is universally recognised.",
+      "cross_references": [
+        "Influences 1831-006 (Darwin's Beagle voyage)",
+        "Leads to 1859-001 (Darwin publishes Origin of Species)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of the Polish Uprising is sometimes overstated in nationalist historiography: while it was a major event, it did not achieve its goal of independence and resulted in harsher Russian control. The Indian Removal Act is sometimes presented as a discrete event, but the removal process was prolonged and contested, with significant resistance and negotiation (not simply forced deportation). Nat Turner's Rebellion is sometimes romanticised in popular accounts; modern scholarship (Greenberg) emphasises the uncertainty surrounding Turner's own motivations and the reliability of Thomas Gray's transcription of his confessions. The Slavery Abolition Act is often celebrated as a triumph of abolitionism, but historians (Eltis, Engerman) note that it was a compromise that protected slaveholder interests through compensation and the apprenticeship system, and that economic factors (declining profitability of slavery) may have been as important as moral arguments.",
+  "historiographic_note": "1831 is well-documented in European and North American sources, reflecting the dominance of these regions in surviving archives and historiography. The year is rich in political, military, and scientific events. However, documentation for Asia, Africa, and the Americas outside the United States is thinner. The Qing Dynasty's internal disturbances are attested in imperial records but are less detailed than major rebellions. African and indigenous American perspectives are underrepresented in surviving sources, which tend to reflect European and colonial viewpoints. The sources for 1831 are predominantly written by educated elites (government officials, scientists, military officers), so popular experiences and non-literate societies are largely absent from the record.",
+  "graph_edges": [
+    {
+      "from": "1831-001",
+      "to": "1830-001",
+      "relation": "part_of",
+      "note": "The Polish Uprising began in November 1830 and continued through 1831"
+    },
+    {
+      "from": "1831-002",
+      "to": "1830-002",
+      "relation": "caused_by",
+      "note": "Implementation of the Indian Removal Act of 1830"
+    },
+    {
+      "from": "1831-003",
+      "to": "1832-002",
+      "relation": "led_to",
+      "note": "Nat Turner's Rebellion prompted Virginia to debate slavery and enact harsher slave codes"
+    },
+    {
+      "from": "1831-004",
+      "to": "1817-001",
+      "relation": "part_of",
+      "note": "The 1831 cholera outbreak was part of the broader 1817\u20131860s pandemic"
+    },
+    {
+      "from": "1831-005",
+      "to": "1830-003",
+      "relation": "part_of",
+      "note": "Belgian independence was the culmination of the 1830 revolution"
+    },
+    {
+      "from": "1831-006",
+      "to": "1859-001",
+      "relation": "led_to",
+      "note": "Darwin's observations during the Beagle voyage (1831\u20131836) contributed to his theory of evolution"
+    },
+    {
+      "from": "1831-007",
+      "to": "1833-001",
+      "relation": "led_to",
+      "note": "Young Italy inspired uprisings in 1833\u20131834"
+    },
+    {
+      "from": "1831-008",
+      "to": "1807-001",
+      "relation": "part_of",
+      "note": "The Slavery Abolition Act was the culmination of the abolitionist movement that began with the slave trade abolition in 1807"
+    },
+    {
+      "from": "1831-010",
+      "to": "1831-006",
+      "relation": "contemporary_with",
+      "note": "Lyell's Principles of Geology influenced Darwin during the Beagle voyage"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "year": 1272,
+  "year_label": "1272 CE",
+  "era_context": "The late 13th century was a period of consolidation and conflict. The Mongol Empire was fragmenting into regional khanates, with Kublai Khan's Yuan Dynasty dominating East Asia. The Mamluk Sultanate controlled the Eastern Mediterranean. The Iberian Reconquista was in its final phases. Italian city-states competed for Mediterranean trade. This was an era of technological diffusion, religious conflict, and the emergence of early modern state structures.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Southeast Asian interior kingdoms (sparse contemporary documentation)",
+    "Pacific Islander societies (no written records)",
+    "Northern and Eastern Europe beyond major kingdoms (limited records)"
+  ],
+  "events": [
+    {
+      "id": "1272-001",
+      "title": "Edward I becomes King of England; beginning of his reign",
+      "region": "England",
+      "coordinates_approx": "52.08, -1.95",
+      "category": "political",
+      "description": "Edward I became King of England in 1272 following the death of his father, Henry III. Edward was on Crusade in the Holy Land when he learned of his father's death, and he did not return to England until 1274. Nevertheless, 1272 marks the beginning of his reign, which would last until 1307 and would be marked by significant legal, administrative, and military reforms. Edward I is often called 'the English Justinian' for his legal reforms and is remembered as one of England's greatest medieval kings.",
+      "key_figures": [
+        "Edward I of England (King, r. 1272\u20131307)",
+        "Henry III of England (deceased 1272)",
+        "Eleanor of Castile (Edward's wife)"
+      ],
+      "sources": [
+        {
+          "name": "English royal chronicles and records",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Edward I's reign",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Edward I's accession to the throne in 1272 is precisely dated in English royal records.",
+      "cross_references": [
+        "1275-002 (Statute of Westminster)",
+        "1295-001 (Model Parliament)",
+        "1307-001 (Edward I dies)"
+      ]
+    },
+    {
+      "id": "1272-002",
+      "title": "Mongol conquest of Southern Song Dynasty continues; Xiangyang under siege",
+      "region": "China, Mongol Empire",
+      "coordinates_approx": "32.0, 112.6",
+      "category": "military",
+      "description": "The Mongol conquest of the Southern Song Dynasty continued in 1272, with the siege of Xiangyang (1268\u20131273) ongoing. Xiangyang was a crucial Song fortress on the Yangtze River, and its siege was one of the longest and most significant of the conquest. By 1272, the Mongols had been besieging the city for four years, and the Song defenders were running low on supplies. The siege would conclude in 1273 with the fall of the city, opening the way for Mongol forces to advance further south.",
+      "key_figures": [
+        "Bayan of the Baarin (Mongol general)",
+        "Kublai Khan (Mongol Emperor)",
+        "Song generals defending Xiangyang"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shi (History of the Yuan Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Song Dynasty records",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The siege of Xiangyang is well-documented; 1272 is assigned as a representative year within the siege period (1268\u20131273).",
+      "cross_references": [
+        "1268-001 (Siege of Xiangyang begins)",
+        "1273-002 (Fall of Xiangyang)",
+        "1279-001 (Fall of Southern Song)"
+      ]
+    },
+    {
+      "id": "1272-003",
+      "title": "Baybars consolidates Mamluk control; expansion of naval power",
+      "region": "Egypt, Levant, Eastern Mediterranean",
+      "coordinates_approx": "30.04, 31.24",
+      "category": "military",
+      "description": "Baybars al-Bunduqdari, the Mamluk Sultan, continued to consolidate Mamluk control over Egypt, the Levant, and the Eastern Mediterranean in 1272. He was expanding the Mamluk navy and establishing naval bases throughout the Mediterranean, challenging Venetian and Genoese dominance. Baybars was also consolidating his control over the Islamic holy cities (Mecca and Medina), which gave the Mamluks significant religious prestige and legitimacy.",
+      "key_figures": [
+        "Baybars al-Bunduqdari (Mamluk Sultan, r. 1260\u20131273/1277)"
+      ],
+      "sources": [
+        {
+          "name": "Mamluk chronicles and Arabic historiography",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Venetian and Genoese merchant records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Baybars' consolidation is well-documented; specific events in 1272 are less precisely dated.",
+      "cross_references": [
+        "1260-001 (Baybars becomes Sultan)",
+        "1273-003 (Baybars dies)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Edward I's reputation as 'the English Justinian' is somewhat overstated by modern historians. While he did implement significant legal reforms, many of these were continuations of earlier developments rather than revolutionary innovations. The significance of his reign is also sometimes exaggerated in English historiography, which tends to emphasize English achievements over those of other regions. The dating of the siege of Xiangyang is sometimes given as beginning in 1267 rather than 1268.",
+  "historiographic_note": "Documentation for 1272 is moderate for Western Europe (English royal records), East Asia (Yuan and Song sources), and the Islamic world (Mamluk chronicles). Sources are heavily weighted toward political and military history. The surviving sources reflect the biases of their authors: English royal records emphasize Edward I's legitimacy and achievements; Yuan sources emphasize Mongol military prowess; Mamluk sources emphasize the sultanate's power and stability. Sub-Saharan Africa, Southeast Asia, and the Pacific are almost entirely absent from contemporary written records.",
+  "graph_edges": [
+    {
+      "from": "1272-001",
+      "to": "1275-002",
+      "relation": "led_to",
+      "note": "Edward I's accession in 1272 led to his legal reforms, including the Statute of Westminster in 1275"
+    },
+    {
+      "from": "1272-001",
+      "to": "1295-001",
+      "relation": "led_to",
+      "note": "Edward I's reign beginning in 1272 led to the development of Parliament by 1295"
+    },
+    {
+      "from": "1272-001",
+      "to": "1307-001",
+      "relation": "led_to",
+      "note": "Edward I's reign began in 1272 and lasted until his death in 1307"
+    },
+    {
+      "from": "1272-002",
+      "to": "1273-002",
+      "relation": "led_to",
+      "note": "The ongoing siege of Xiangyang in 1272 led to its fall in 1273"
+    },
+    {
+      "from": "1272-003",
+      "to": "1273-003",
+      "relation": "led_to",
+      "note": "Baybars' consolidation in 1272 was interrupted by his death in 1273"
+    }
+  ]
+}

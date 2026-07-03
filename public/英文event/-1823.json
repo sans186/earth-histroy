@@ -1,0 +1,53 @@
+{
+  "year": -1823,
+  "year_label": "1824 BCE",
+  "era_context": "Middle Bronze Age; the reign of Amenemhat III in Egypt (or possibly the final years of his reign). In Mesopotamia, the post-Hammurabi period of fragmentation continues. The Hittite Old Kingdom is active in Anatolia. The Indus Valley Civilization is in its mature phase. In China, the traditional Xia Dynasty is dated to this period.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-1823-001",
+      "title": "Amenemhat III's reign (continued or final phase)",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Amenemhat III's reign continues or enters its final phase. This year falls within the period of his documented activity, though no specific events are recorded for this particular year. His reign is characterized by extensive building programs, administrative sophistication, and trade networks extending to Nubia, the Levant, and the Aegean. The period also sees evidence of environmental stress (low Nile floods) and administrative challenges.",
+      "key_figures": [
+        "Amenemhat III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from temple and palace sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Inscriptions and reliefs from Amenemhat III's building projects",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "No specific events are recorded for this year. The dating is conventional, based on the estimated length of Amenemhat III's reign. Uncertainty is \u00b120\u201330 years.",
+      "cross_references": [
+        "-1820-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific events are attested for this year. The broader claim that Amenemhat III's reign was a period of uninterrupted prosperity is complicated by evidence of environmental stress and administrative challenges.",
+  "historiographic_note": "This year is not specifically documented. The historical record for this period is reconstructed from the broader context of Amenemhat III's reign. The dating depends on the chronological framework applied to Egyptian history, which is uncertain by \u00b120\u201330 years.",
+  "graph_edges": [
+    {
+      "from": "-1823-001",
+      "to": "-1820-001",
+      "relation": "contemporary_with",
+      "note": "This year is part of the same reign as -1820-001."
+    }
+  ]
+}

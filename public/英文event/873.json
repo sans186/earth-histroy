@@ -1,0 +1,87 @@
+{
+  "year": 873,
+  "year_label": "873 CE",
+  "era_context": "The Carolingian Empire remains fragmented among the sons and grandsons of Louis the Pious. Charles the Bald rules the West Franks, while his brothers control the East Franks and Lotharingia. The Byzantine Empire under Basil I continues its military and cultural revival. The Islamic world remains politically fragmented. Viking raids continue to destabilize Western Europe.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia interior",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "873-001",
+      "title": "Charles the Bald Campaigns in Lotharingia",
+      "region": "Lotharingia (modern Lorraine, Low Countries)",
+      "coordinates_approx": "49.5, 5.5",
+      "category": "military",
+      "description": "Charles the Bald, king of the West Franks, conducted military campaigns in Lotharingia to assert control over the region and to challenge the authority of his nephew Lothair II, king of Lotharingia. The campaigns were part of the ongoing struggle among the Carolingian heirs for control of the central European territories. The campaigns had mixed success, and Lotharingia remained contested territory throughout the 870s.",
+      "key_figures": [
+        "Charles the Bald (West Frankish king)",
+        "Lothair II (king of Lotharingia)"
+      ],
+      "sources": [
+        {
+          "name": "Annales Bertiniani",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Charles the Bald's campaigns in Lotharingia during the 870s are attested in chronicles, though the specific chronology of individual campaigns is sometimes uncertain.",
+      "cross_references": []
+    },
+    {
+      "id": "873-002",
+      "title": "Viking Raid on Nantes",
+      "region": "West Frankish Kingdom (modern France)",
+      "coordinates_approx": "47.2, -1.5",
+      "category": "military",
+      "description": "Viking raiders attacked the city of Nantes on the Loire River, a major trading center and ecclesiastical site. The raid resulted in significant destruction and loss of life. The raid demonstrated the vulnerability of inland river cities to Viking attack and prompted further fortification efforts. The raid also contributed to the militarization of Frankish society and the rise of local strongmen.",
+      "key_figures": [
+        "Viking raiders (unnamed)"
+      ],
+      "sources": [
+        {
+          "name": "Annales Bertiniani",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Viking raids on Nantes and other Loire valley cities are well-documented in this period, though the specific chronology of individual raids is sometimes uncertain.",
+      "cross_references": []
+    },
+    {
+      "id": "873-003",
+      "title": "Basil I Defeats Arab Forces at Samosata",
+      "region": "Anatolia (Byzantine Empire)",
+      "coordinates_approx": "37.5, 37.0",
+      "category": "military",
+      "description": "Basil I, Byzantine emperor, achieved a significant military victory against Arab forces at Samosata (also known as Samsat) in Anatolia. The victory was part of Basil's broader campaign to secure the eastern frontier of the Byzantine Empire against Arab incursions. The victory demonstrated the effectiveness of Basil's military reforms and contributed to Byzantine military dominance in the region.",
+      "key_figures": [
+        "Basil I (Byzantine emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Theophanes Continuatus",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The battle at Samosata is attested in Byzantine sources, but the exact date is uncertain. It is generally dated to the 870s, but the specific year is not always clear.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The significance of Charles the Bald's campaigns in Lotharingia is sometimes overstated as a major assertion of West Frankish power. However, modern scholarship emphasizes that these campaigns were largely unsuccessful in establishing lasting control over Lotharingia, which remained contested territory. The campaigns reflect the weakness of Carolingian authority rather than its strength.",
+  "historiographic_note": "Documentation for 873 is moderate in Western Europe, with the Annales Bertiniani providing the primary source. The sources are heavily weighted toward political and military events affecting the elite. Economic and social history is poorly documented. Non-European regions have sparser documentation for this specific year.",
+  "graph_edges": [
+    {
+      "from": "873-001",
+      "to": "873-002",
+      "relation": "contemporary_with",
+      "note": "Charles the Bald's military campaigns in Lotharingia occurred during the same period as Viking raids on the Loire valley, reflecting the multiple military pressures on the West Frankish kingdom."
+    }
+  ]
+}

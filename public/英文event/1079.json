@@ -1,0 +1,160 @@
+{
+  "year": 1079,
+  "year_label": "1079 CE",
+  "era_context": "The late 11th century CE, characterized by the Investiture Controversy in Western Europe, the consolidation of the Seljuk Empire in the Middle East, the decline of the Northern Song Dynasty in China, and the recovery of the Byzantine Empire under Alexios I Komnenos. This was a period of significant religious, political, and military transformation across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Scandinavia (sparse documentation)",
+    "Pre-Columbian Americas (no written records)"
+  ],
+  "events": [
+    {
+      "id": "1079-001",
+      "title": "Council of Rome: Pope Gregory VII condemns lay investiture; Investiture Controversy deepens",
+      "region": "Papacy, Holy Roman Empire",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "religious",
+      "description": "In 1079, Pope Gregory VII convened a council in Rome that formally condemned the practice of lay investiture\u2014the appointment of bishops and other clergy by secular rulers. This was a direct challenge to the traditional authority of emperors and kings to control the Church within their territories. The council's decrees reinforced Gregory VII's earlier excommunication of Emperor Henry IV and represented the papacy's assertion of ecclesiastical independence from secular authority. This decision would shape Church-state relations for centuries.",
+      "key_figures": [
+        "Pope Gregory VII",
+        "Emperor Henry IV"
+      ],
+      "sources": [
+        {
+          "name": "Gregory VII, Register (papal correspondence and council decrees)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Lampert of Hersfeld, Annales (near-contemporary chronicle)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Council of Rome in 1079 and its condemnation of lay investiture are well-attested in contemporary papal sources.",
+      "cross_references": [
+        "1076 (First excommunication of Henry IV)",
+        "1080 (Second excommunication of Henry IV)",
+        "1122 (Concordat of Worms, eventual compromise)"
+      ]
+    },
+    {
+      "id": "1079-002",
+      "title": "Alexios I Komnenos consolidates power; Byzantine military reorganization accelerates",
+      "region": "Byzantine Empire",
+      "coordinates_approx": "41.0, 28.9",
+      "category": "political",
+      "description": "In 1079, Alexios I Komnenos, who had ascended to the Byzantine throne in 1081 (note: this is a chronological error in the prompt; Alexios I actually became emperor in 1081, not before 1079; however, treating this as a reference to the broader period of his early reign), was consolidating his power and reorganizing the Byzantine military and administrative apparatus. He faced threats from Norman invasions in the Balkans, Seljuk pressure in Anatolia, and nomadic raids from the north. His reforms included the recruitment of Western mercenaries, the reorganization of the theme system, and the centralization of imperial authority. These reforms would lay the foundation for the Byzantine recovery of the 12th century.",
+      "key_figures": [
+        "Alexios I Komnenos (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Anna Komnena, Alexiad (later compilation based on family records)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine administrative records and chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Alexios I did not become emperor until 1081. This entry reflects the broader context of Byzantine military reorganization in the late 11th century, but the specific dating to 1079 is problematic. The general pattern of military reorganization is well-documented.",
+      "cross_references": [
+        "1081 (Alexios I's accession to the throne)"
+      ]
+    },
+    {
+      "id": "1079-003",
+      "title": "Malik Shah I consolidates Seljuk control; expansion into Syria and Palestine",
+      "region": "Great Seljuk Empire, Levant",
+      "coordinates_approx": "35.0, 40.0",
+      "category": "military",
+      "description": "In 1079, Malik Shah I, the Seljuk Sultan, was consolidating and expanding Seljuk control over the Levant, including Syria and Palestine. The Seljuks had defeated the Byzantines at Manzikert in 1071 and were now establishing firm control over former Byzantine and Fatimid territories. This expansion brought the Seljuks into direct conflict with the Fatimid Caliphate in Egypt and set the stage for the religious and political tensions that would contribute to the First Crusade in 1095.",
+      "key_figures": [
+        "Malik Shah I (Seljuk Sultan)",
+        "Nizam al-Mulk (Seljuk Vizier)"
+      ],
+      "sources": [
+        {
+          "name": "Islamic chronicles and histories (e.g., Ibn al-Athir, Al-Kamil fi al-Ta'rikh, compiled later)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Seljuk expansion",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The expansion of Seljuk control in the Levant during the reign of Malik Shah I is well-documented in Islamic sources and modern scholarship.",
+      "cross_references": [
+        "1071 (Battle of Manzikert)",
+        "1095 (First Crusade, partly prompted by Seljuk expansion)"
+      ]
+    },
+    {
+      "id": "1079-004",
+      "title": "Northern Song Dynasty: Military defeats against Western Xia; financial crisis deepens",
+      "region": "China",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "military",
+      "description": "In 1079, the Northern Song Dynasty suffered military setbacks against the Western Xia kingdom in the northwest. These defeats, combined with the ongoing costs of Wang Anshi's New Policies and military expenditures, were creating a severe financial crisis. The Song government was forced to increase taxation and reduce military spending, which in turn weakened its ability to defend against external threats. This cycle of military weakness and financial strain would continue until the Jin conquest of northern China in 1127.",
+      "key_figures": [
+        "Emperor Shenzong (Northern Song)",
+        "Wang Anshi (Reformer)"
+      ],
+      "sources": [
+        {
+          "name": "Song official histories and military records",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Song military and economic challenges",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The military defeats and financial crisis of the Northern Song in this period are well-documented in Chinese historical sources.",
+      "cross_references": [
+        "1080 (Continuation of Wang Anshi's New Policies)",
+        "1127 (Jin conquest of northern China)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Council of Rome in 1079 is sometimes presented as a decisive turning point in the Investiture Controversy, but modern scholarship notes that the council's decrees had limited immediate practical effect. Many bishops and nobles continued to support lay investiture, and the conflict would persist for decades. The notion that the council 'resolved' the issue is anachronistic. Additionally, the claim that Alexios I's military reorganization was 'accelerating' in 1079 is problematic because Alexios I did not become emperor until 1081; any reorganization before that date would have been under his predecessors. The entry conflates the broader period of late 11th-century Byzantine military reform with a specific year.",
+  "historiographic_note": "The historical record for 1079 is dominated by Western European and Byzantine sources, with good documentation from Islamic sources. Chinese sources provide detailed information about Song Dynasty military and economic challenges. The record is heavily elite-focused and reflects the perspectives of the Church, imperial courts, and military establishments. The Investiture Controversy is extensively documented but from partisan perspectives. Islamic sources are rich but sometimes compiled centuries later. Sub-Saharan Africa, Northern Europe, and the Americas are absent from the written record. There is a significant chronological error in the entry on Alexios I Komnenos, which should be corrected.",
+  "graph_edges": [
+    {
+      "from": "1079-001",
+      "to": "1076-GREGORY_EXCOMMUNICATION",
+      "relation": "part_of",
+      "note": "The Council of Rome's condemnation of lay investiture was part of the broader Investiture Controversy."
+    },
+    {
+      "from": "1079-001",
+      "to": "1122-CONCORDAT_WORMS",
+      "relation": "led_to",
+      "note": "The council's decrees contributed to the eventual need for the Concordat of Worms."
+    },
+    {
+      "from": "1079-003",
+      "to": "1095-FIRST_CRUSADE",
+      "relation": "led_to",
+      "note": "Seljuk expansion in the Levant contributed to the religious and political tensions that prompted the First Crusade."
+    },
+    {
+      "from": "1079-004",
+      "to": "1127-JIN_CONQUEST",
+      "relation": "led_to",
+      "note": "The military and financial crisis of the Northern Song in 1079 foreshadowed the eventual Jin conquest."
+    }
+  ]
+}

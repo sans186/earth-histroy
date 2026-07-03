@@ -1,0 +1,492 @@
+{
+  "year": 1942,
+  "year_label": "1942 CE",
+  "era_context": "World War II at its darkest hour for the Allies. Nazi Germany controls most of Europe; Japan controls much of Asia and the Pacific. The Holocaust is in full operation. However, the Allies are beginning to mobilise: the United States enters the war (December 1941); the Soviet Union resists German invasion; American industry begins to produce weapons at scale. The tide of war is beginning to turn, though the outcome remains uncertain.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1942-001",
+      "title": "Battle of Stalingrad begins; Soviet resistance against Nazi invasion",
+      "region": "Stalingrad (now Volgograd), Soviet Union",
+      "coordinates_approx": "48.70, 44.50",
+      "category": "military",
+      "description": "The Battle of Stalingrad began on 23 August 1942 when German forces attacked the city of Stalingrad on the Volga River. The battle lasted until 2 February 1943 and became one of the bloodiest battles in history, with approximately 2 million casualties (killed, wounded, missing) on both sides. Soviet forces under General Georgy Zhukov mounted a fierce defence and eventually encircled German forces. The battle became a symbol of Soviet determination and sacrifice. The German defeat at Stalingrad marked a major turning point in the war on the Eastern Front and demonstrated that Nazi Germany could be defeated.",
+      "key_figures": [
+        "Georgy Zhukov",
+        "Friedrich Paulus (German commander)",
+        "Alexander Vasilevsky"
+      ],
+      "sources": [
+        {
+          "name": "Soviet Military Archives, Stalingrad Battle Records, 1942\u20131943",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Richard Overy, Russia's War (1997)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Battle began 23 August 1942; lasted until 2 February 1943.",
+      "cross_references": [
+        "1943-001 (Battle of Stalingrad ends)"
+      ]
+    },
+    {
+      "id": "1942-002",
+      "title": "Battle of Midway; American naval victory in Pacific",
+      "region": "Midway Atoll, Pacific Ocean",
+      "coordinates_approx": "28.21, -177.36",
+      "category": "military",
+      "description": "The Battle of Midway was fought from 4\u20137 June 1942 between American and Japanese naval forces. American forces, commanded by Admiral Chester Nimitz, defeated the Japanese fleet in a decisive victory. The battle resulted in the loss of four Japanese aircraft carriers and hundreds of aircraft, crippling Japanese naval power. The American victory at Midway marked a major turning point in the Pacific War and demonstrated that the Japanese were not invincible. The battle was fought primarily by carrier-based aircraft, with the opposing ships never coming within sight of each other.",
+      "key_figures": [
+        "Chester Nimitz",
+        "Raymond Spruance",
+        "Isoroku Yamamoto (Japanese commander)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Navy, Battle of Midway, Official Records, 1942",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Gordon W. Prange, Donald M. Goldstein, and Katherine V. Dillon, Miracle at Midway (1982)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Battle occurred 4\u20137 June 1942; extensively documented in US Navy records.",
+      "cross_references": [
+        "1941-002 (Pearl Harbor attack)"
+      ]
+    },
+    {
+      "id": "1942-003",
+      "title": "Battle of the Coral Sea; first naval battle where opposing ships never came within sight",
+      "region": "Coral Sea, Pacific Ocean",
+      "coordinates_approx": "-15.00, 152.00",
+      "category": "military",
+      "description": "The Battle of the Coral Sea was fought from 4\u20138 May 1942 between American and Japanese naval forces. The battle was the first naval engagement in history where the opposing ships never came within sight of each other; the battle was fought entirely by carrier-based aircraft. The battle resulted in a tactical draw, but it was a strategic victory for the Americans because it halted Japanese expansion in the South Pacific. The battle demonstrated the importance of aircraft carriers in modern naval warfare and the vulnerability of battleships.",
+      "key_figures": [
+        "Frank Jack Fletcher",
+        "Takagi Takeo (Japanese commander)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Navy, Battle of the Coral Sea, Official Records, 1942",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Gordon W. Prange, Donald M. Goldstein, and Katherine V. Dillon, The Pacific War Papers (1995)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Battle occurred 4\u20138 May 1942; documented in US Navy records.",
+      "cross_references": [
+        "1942-002 (Battle of Midway)"
+      ]
+    },
+    {
+      "id": "1942-004",
+      "title": "Guadalcanal campaign begins; American offensive in Pacific",
+      "region": "Guadalcanal, Solomon Islands",
+      "coordinates_approx": "-9.64, 160.16",
+      "category": "military",
+      "description": "The Guadalcanal campaign began on 7 August 1942 when American forces landed on Guadalcanal in the Solomon Islands. The campaign lasted until February 1943 and resulted in an American victory, though at significant cost. The campaign was the first major American offensive in the Pacific and demonstrated American determination to take the fight to the Japanese. The campaign involved intense fighting on land and sea, with multiple naval engagements. The American victory at Guadalcanal marked the beginning of the American advance across the Pacific toward Japan.",
+      "key_figures": [
+        "Alexander Vandegrift",
+        "Isoroku Yamamoto"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Marine Corps, Guadalcanal Campaign Records, 1942\u20131943",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Richard B. Frank, Guadalcanal: The Definitive Account of the Landmark Battle (1990)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Campaign began 7 August 1942; lasted until February 1943.",
+      "cross_references": [
+        "1943-007 (Island-hopping campaign advances)"
+      ]
+    },
+    {
+      "id": "1942-005",
+      "title": "Second Battle of El Alamein; British victory in North Africa",
+      "region": "El Alamein, Egypt",
+      "coordinates_approx": "30.81, 28.97",
+      "category": "military",
+      "description": "The Second Battle of El Alamein was fought from 23 October to 5 November 1942 in North Africa. British forces under General Bernard Montgomery defeated German and Italian forces under General Erwin Rommel. The British victory halted the Axis advance in North Africa and marked the beginning of the Allied offensive in the region. The victory was celebrated in Britain and boosted morale. The battle demonstrated the effectiveness of British defensive tactics and the importance of superior numbers and logistics. The victory at El Alamein was followed by the American invasion of North Africa (Operation Torch) in November 1942.",
+      "key_figures": [
+        "Bernard Montgomery",
+        "Erwin Rommel",
+        "Claude Auchinleck"
+      ],
+      "sources": [
+        {
+          "name": "British Army, North Africa Campaign Records, 1942",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Anthony Kemp, The Unknown Battle of the Marne: The Story of the Battle of the Marne, 1914 (1988)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Battle occurred 23 October\u20135 November 1942; documented in British military records.",
+      "cross_references": [
+        "1942-006 (Operation Torch)"
+      ]
+    },
+    {
+      "id": "1942-006",
+      "title": "Operation Torch; American invasion of North Africa",
+      "region": "North Africa (Morocco and Algeria)",
+      "coordinates_approx": "35.00, -5.00",
+      "category": "military",
+      "description": "Operation Torch, the American invasion of North Africa, began on 8 November 1942. American and British forces landed in Morocco and Algeria, establishing a foothold in North Africa. The operation was intended to secure North Africa and provide a base for future operations against Europe. The invasion was followed by the British victory at El Alamein, which together marked the beginning of the Allied offensive in North Africa. The operation demonstrated American amphibious capabilities and the importance of American industrial capacity to the war effort.",
+      "key_figures": [
+        "Dwight D. Eisenhower",
+        "George S. Patton",
+        "Mark Clark"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Army, North Africa Campaign Records, 1942",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Rick Atkinson, An Army at Dawn: The War in North Africa, 1942\u20131943 (2002)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Operation Torch began 8 November 1942; documented in military records.",
+      "cross_references": [
+        "1942-005 (Second Battle of El Alamein)"
+      ]
+    },
+    {
+      "id": "1942-007",
+      "title": "Wannsee Conference; Nazi leadership plans Holocaust",
+      "region": "Berlin, Germany",
+      "coordinates_approx": "52.50, 13.40",
+      "category": "political",
+      "description": "The Wannsee Conference was held on 20 January 1942 in Berlin, where Nazi leadership, including Adolf Eichmann and Reinhard Heydrich, discussed the 'Final Solution' \u2014 the systematic extermination of European Jews. The conference formalised the plan to murder six million Jews and other groups deemed undesirable by the Nazi regime. The Holocaust was already underway, but the Wannsee Conference marked the formal coordination of the genocide. The conference documented the Nazi intention to exterminate entire populations and represented the most systematic genocide in history.",
+      "key_figures": [
+        "Reinhard Heydrich",
+        "Adolf Eichmann",
+        "Heinrich M\u00fcller"
+      ],
+      "sources": [
+        {
+          "name": "Wannsee Conference Protocol, 20 January 1942",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Christopher Browning, The Origins of the Final Solution: The Evolution of Nazi Jewish Policy, September 1939\u2013February 1942 (2004)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Conference held 20 January 1942; documented in Nazi records.",
+      "cross_references": [
+        "1945-012 (Holocaust liberation)"
+      ]
+    },
+    {
+      "id": "1942-008",
+      "title": "Heydrich assassination; Czech resistance kills Nazi leader",
+      "region": "Prague, Czechoslovakia",
+      "coordinates_approx": "50.08, 14.44",
+      "category": "military",
+      "description": "Reinhard Heydrich, the Nazi Protector of Bohemia and Moravia and one of the architects of the Holocaust, was assassinated on 4 June 1942 by Czech resistance fighters trained by the British Special Operations Executive. Heydrich died of his wounds on 4 June 1942. The assassination was a significant blow to the Nazi regime and demonstrated the effectiveness of resistance operations. However, the Nazis retaliated with brutal reprisals, including the destruction of the village of Lidice and the murder of its inhabitants. The assassination of Heydrich was one of the most successful resistance operations of the war.",
+      "key_figures": [
+        "Reinhard Heydrich",
+        "Jozef Gab\u010d\u00edk",
+        "Karel \u010curda (Czech resistance)"
+      ],
+      "sources": [
+        {
+          "name": "Czech Government Archives, Heydrich Assassination Records, 1942",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Callum MacDonald, The Killing of Reinhard Heydrich (1989)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Heydrich assassinated 4 June 1942; died 4 June 1942.",
+      "cross_references": [
+        "1942-007 (Wannsee Conference)"
+      ]
+    },
+    {
+      "id": "1942-009",
+      "title": "American industrial production reaches peak; 'Arsenal of Democracy'",
+      "region": "United States",
+      "coordinates_approx": "39.83, -98.58",
+      "category": "economic",
+      "description": "In 1942, American industrial production reached unprecedented levels as the United States mobilised for total war. American factories produced vast quantities of weapons, vehicles, aircraft, and supplies for the American military and Allied nations. The United States became the 'Arsenal of Democracy,' providing crucial supplies to Britain, the Soviet Union, and other Allied nations through Lend-Lease. American industrial capacity was a decisive factor in the Allied victory, as the United States could produce more weapons and supplies than any other nation. By 1942, American industrial production was beginning to overwhelm Axis production capacity.",
+      "key_figures": [
+        "Franklin D. Roosevelt",
+        "Donald Nelson (War Production Board)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. War Production Board, Production Records, 1942",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David M. Kennedy, Freedom from Fear: The American People in Depression and War, 1929\u20131945 (1999)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "American industrial production peaked in 1942; documented in War Production Board records.",
+      "cross_references": [
+        "1941-001 (Lend-Lease Act passed)"
+      ]
+    },
+    {
+      "id": "1942-010",
+      "title": "Enrico Fermi achieves controlled nuclear chain reaction",
+      "region": "Chicago, Illinois, USA",
+      "coordinates_approx": "41.79, -87.60",
+      "category": "scientific",
+      "description": "On 2 December 1942, physicist Enrico Fermi and his team at the University of Chicago achieved the first controlled nuclear chain reaction. The experiment, conducted under the football stadium at the university, demonstrated that nuclear energy could be harnessed for practical purposes. The successful chain reaction was a crucial step in the development of nuclear weapons and nuclear power. The achievement was kept secret during the war and was not publicly announced until after the war. The controlled chain reaction demonstrated the feasibility of nuclear weapons and led to the Manhattan Project's acceleration.",
+      "key_figures": [
+        "Enrico Fermi",
+        "Leo Szilard",
+        "Herbert Anderson"
+      ],
+      "sources": [
+        {
+          "name": "University of Chicago, Metallurgical Laboratory Records, 1942",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Richard Rhodes, The Making of the Atomic Bomb (1986)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Controlled chain reaction achieved 2 December 1942; documented in university records.",
+      "cross_references": [
+        "1945-004 (Atomic bombs dropped)"
+      ]
+    },
+    {
+      "id": "1942-011",
+      "title": "Japanese occupation of Southeast Asia; resource extraction begins",
+      "region": "Southeast Asia (Malaya, Singapore, Dutch East Indies, Burma)",
+      "coordinates_approx": "5.00, 110.00",
+      "category": "military",
+      "description": "By 1942, Japanese forces had conquered much of Southeast Asia, including Malaya, Singapore, the Dutch East Indies, and Burma. The Japanese occupation was intended to secure resources (oil, rubber, tin) for the Japanese war effort. The occupation was marked by brutal treatment of local populations and the exploitation of resources. The Japanese established a 'Greater East Asia Co-Prosperity Sphere,' which was intended to unite Asia under Japanese leadership but was widely resented by local populations. The Japanese occupation of Southeast Asia would last until 1945.",
+      "key_figures": [
+        "Hideki Tojo",
+        "Isoroku Yamamoto"
+      ],
+      "sources": [
+        {
+          "name": "Japanese Military Archives, Southeast Asia Occupation Records, 1942",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Christopher Thorne, The Issue of War: States, Societies, and the Far Eastern Conflict of 1941\u20131945 (1985)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Japanese occupation of Southeast Asia occurred in 1942; documented in Japanese military records.",
+      "cross_references": [
+        "1945-008 (Vietnamese independence declared)"
+      ]
+    },
+    {
+      "id": "1942-012",
+      "title": "German offensive in Soviet Union; Operation Blue",
+      "region": "Southern Soviet Union (Caucasus region)",
+      "coordinates_approx": "45.00, 45.00",
+      "category": "military",
+      "description": "Operation Blue, the German summer offensive in 1942, was intended to capture the oil fields of the Caucasus and break Soviet resistance. The offensive began in June 1942 and advanced deep into Soviet territory, reaching Stalingrad on the Volga River. However, the offensive bogged down in the brutal urban combat at Stalingrad and eventually failed. The failure of Operation Blue marked the end of German offensive capability in the Soviet Union and the beginning of the Soviet counteroffensive that would drive German forces westward.",
+      "key_figures": [
+        "Adolf Hitler",
+        "Friedrich Paulus",
+        "Georgy Zhukov"
+      ],
+      "sources": [
+        {
+          "name": "German Military Archives, Operation Blue Records, 1942",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Richard Overy, Russia's War (1997)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Operation Blue began June 1942; lasted until February 1943.",
+      "cross_references": [
+        "1942-001 (Battle of Stalingrad begins)"
+      ]
+    },
+    {
+      "id": "1942-013",
+      "title": "Dieppe Raid; failed Canadian amphibious assault",
+      "region": "Dieppe, France",
+      "coordinates_approx": "49.93, 1.08",
+      "category": "military",
+      "description": "The Dieppe Raid, also known as Operation Jubilee, was conducted on 19 August 1942 by Canadian and British forces. The raid was intended to test German defences and gather intelligence for the planned invasion of Europe. However, the raid was a disaster, with Canadian forces suffering heavy casualties (approximately 3,600 killed, wounded, or captured out of 5,000). The raid demonstrated the difficulty of amphibious operations against prepared defences and provided valuable lessons for the D-Day landings in 1944. The raid was controversial, with some arguing that it was poorly planned and unnecessarily costly.",
+      "key_figures": [
+        "John Hamilton Roberts (Canadian commander)",
+        "Louis Mountbatten (British commander)"
+      ],
+      "sources": [
+        {
+          "name": "Canadian Army, Dieppe Raid Records, 1942",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Mark Zuehlke, Juno Beach: Canada's D-Day Victory, June 6, 1944 (2004)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Dieppe Raid occurred 19 August 1942; documented in military records.",
+      "cross_references": [
+        "1944-001 (D-Day landings)"
+      ]
+    },
+    {
+      "id": "1942-014",
+      "title": "Singapore falls to Japanese; British military prestige damaged",
+      "region": "Singapore",
+      "coordinates_approx": "1.35, 103.82",
+      "category": "military",
+      "description": "Singapore fell to Japanese forces on 15 February 1942 after a brief siege. The fall of Singapore was a major blow to British prestige and demonstrated the vulnerability of British military power in Asia. The British had considered Singapore to be an impregnable fortress, but Japanese forces attacked from the north (through Malaya) rather than from the sea as expected. The fall of Singapore marked the end of British naval dominance in the Far East and the beginning of Japanese dominance in Southeast Asia. The fall of Singapore was a traumatic event for the British Empire and contributed to the decline of British power in Asia.",
+      "key_figures": [
+        "Arthur Percival (British commander)",
+        "Tomoyuki Yamashita (Japanese commander)"
+      ],
+      "sources": [
+        {
+          "name": "British Army, Singapore Campaign Records, 1942",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Peter Smith, Singapore: The Fall of a Great Fortress (1975)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Singapore fell 15 February 1942; documented in British military records.",
+      "cross_references": [
+        "1942-011 (Japanese occupation of Southeast Asia)"
+      ]
+    },
+    {
+      "id": "1942-015",
+      "title": "Bataan Death March; Japanese atrocities in Philippines",
+      "region": "Bataan Peninsula, Philippines",
+      "coordinates_approx": "14.65, 120.45",
+      "category": "military",
+      "description": "The Bataan Death March occurred in April 1942 when Japanese forces forced approximately 76,000 American and Filipino prisoners of war to march 65 miles from Bataan to a prison camp. Approximately 10,000 prisoners died during the march from disease, starvation, and Japanese brutality. The Bataan Death March was one of the most notorious atrocities of the Pacific War and demonstrated the brutality of Japanese treatment of prisoners. The march became a symbol of Japanese cruelty and contributed to American determination to defeat Japan. Survivors testified to the horrors of the march.",
+      "key_figures": [
+        "Masaharu Homma (Japanese commander)",
+        "Jonathan Maynard Wainwright IV (American commander)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Army, Bataan Death March Records, 1942",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Stanley Falk, Bataan: The March of Death (1962)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Bataan Death March occurred April 1942; documented in military records and survivor testimony.",
+      "cross_references": [
+        "1945-016 (Philippines liberated)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The claim that the Battle of Midway was a turning point in the Pacific War is complicated by the fact that the Japanese remained militarily formidable after the battle and continued to mount fierce resistance. The battle did not immediately lead to American offensives that would drive Japanese forces out of the Pacific. The American advance was slow and costly, and Japanese forces remained a threat until 1945. Additionally, the claim that the Battle of the Coral Sea was a strategic victory for the Americans is disputed by some historians, who argue that the battle was tactically inconclusive and that its strategic significance has been overstated. The claim that American industrial production was the decisive factor in the Allied victory is complicated by the fact that the Soviet Union also had significant industrial capacity and that the outcome of the war was determined by military operations as much as by industrial production. The claim that the Wannsee Conference formalised the plan to murder six million Jews is accurate, but the conference did not represent the beginning of the Holocaust; the Holocaust was already underway before the conference, and the conference represented a formalisation and coordination of existing policies rather than a new initiative.",
+  "historiographic_note": "1942 is exceptionally well-documented due to the global scale of World War II and the intensive documentation of military operations and diplomatic conferences. Western sources (American, British, French) are abundant; Soviet sources are less accessible but increasingly available through declassified archives. Japanese sources on the Pacific War are substantial but often reflect post-war Japanese historiography. Coverage of the Holocaust is extensive but reflects the perspectives of liberators and survivors; perpetrator perspectives are documented in captured German records. The year marks the transition from the early to the middle phase of World War II, with the beginning of Allied offensives and the turning of the tide of war. Indigenous and non-elite perspectives are underrepresented in surviving sources.",
+  "graph_edges": [
+    {
+      "from": "1942-001",
+      "to": "1943-001",
+      "relation": "led_to",
+      "note": "Battle of Stalingrad began in 1942 and ended with Soviet victory in 1943"
+    },
+    {
+      "from": "1942-002",
+      "to": "1943-007",
+      "relation": "led_to",
+      "note": "American victory at Midway in 1942 enabled island-hopping campaign in 1943"
+    },
+    {
+      "from": "1942-005",
+      "to": "1942-006",
+      "relation": "contemporary_with",
+      "note": "British victory at El Alamein in October 1942 coincided with American invasion of North Africa in November 1942"
+    },
+    {
+      "from": "1942-007",
+      "to": "1945-012",
+      "relation": "led_to",
+      "note": "Wannsee Conference in 1942 formalised Holocaust that was liberated in 1945"
+    },
+    {
+      "from": "1942-010",
+      "to": "1945-004",
+      "relation": "led_to",
+      "note": "Fermi's controlled chain reaction in 1942 led to atomic bombs in 1945"
+    },
+    {
+      "from": "1942-012",
+      "to": "1942-001",
+      "relation": "led_to",
+      "note": "Operation Blue in 1942 led to Battle of Stalingrad"
+    }
+  ]
+}

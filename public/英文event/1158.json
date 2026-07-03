@@ -1,0 +1,127 @@
+{
+  "year": 1158,
+  "year_label": "1158 CE",
+  "era_context": "The mid-12th century CE was a period of Crusader retrenchment in the Levant, feudal consolidation in Western Europe, and the height of the Jin Dynasty's power in northern China. In Japan, the Heian period was in its final decades, with the rise of the samurai class and factional conflicts within the imperial court. The Islamic world experienced significant cultural production and military consolidation under figures like Nur ad-Din Zengi. This was also a period of technological advancement in Europe, including improvements in agricultural techniques and the expansion of trade networks.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written documentation)",
+    "Northern Europe beyond major kingdoms (sparse records)",
+    "Central Asia and the Steppe (fragmentary sources)",
+    "Mesoamerica and South America (no written records in European tradition)",
+    "Southeast Asia (limited written sources)"
+  ],
+  "events": [
+    {
+      "id": "1158-001",
+      "title": "Frederick Barbarossa's Italian campaigns",
+      "region": "Northern Italy",
+      "coordinates_approx": "45.4\u00b0N, 12.3\u00b0E",
+      "category": "military",
+      "description": "Frederick I Barbarossa, Holy Roman Emperor, conducted military campaigns in northern Italy to assert imperial authority over the Lombard cities and the papacy. These campaigns were part of Frederick's broader effort to strengthen imperial power in Italy and challenge papal authority. The campaigns led to conflicts with the Lombard League, a coalition of northern Italian cities that opposed imperial expansion. Frederick's Italian campaigns were a defining feature of his reign and contributed to the long-term conflict between the Holy Roman Empire and the papacy.",
+      "key_figures": [
+        "Frederick I Barbarossa (Holy Roman Emperor)",
+        "Pope Adrian IV (papal opponent)",
+        "Lombard League leaders"
+      ],
+      "sources": [
+        {
+          "name": "Otto of Freising, Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Rahewin, Deeds of Frederick Barbarossa",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Frederick Barbarossa's Italian campaigns are well-documented in contemporary chronicles, but no single dramatic event is reliably dated to 1158 specifically. The year falls within a period of ongoing military consolidation.",
+      "cross_references": [
+        "1177-001 (Peace of Venice between Frederick Barbarossa and Pope Alexander III)",
+        "1190-001 (Frederick Barbarossa's death)"
+      ]
+    },
+    {
+      "id": "1158-002",
+      "title": "Jin Dynasty administrative consolidation",
+      "region": "Northern China (Jin Dynasty territory)",
+      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E",
+      "category": "political",
+      "description": "The Jin Dynasty, established by the Jurchen people in 1115, continued to consolidate its administrative control over northern China during the late 1150s. The Jin maintained a dual administrative system incorporating both Jurchen and Han Chinese bureaucratic traditions. This period saw relative stability in the north, though the Jin faced ongoing pressure from the Southern Song Dynasty to the south and from Mongol tribes to the north. The Jin's military strength derived from its cavalry forces and the integration of conquered Han Chinese territories.",
+      "key_figures": [
+        "Emperor Shizong of Jin (r. 1161\u20131189, but administrative consolidation began earlier)"
+      ],
+      "sources": [
+        {
+          "name": "Jurchen Jin Dynasty records",
+          "type": "historiographic_consensus",
+          "contemporary": true
+        },
+        {
+          "name": "Song Dynasty chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Jin Dynasty's administrative consolidation is well-documented in Chinese historical records, but no single dramatic event is reliably dated to 1158 specifically.",
+      "cross_references": [
+        "1115-001 (Jin Dynasty founding)",
+        "1234-001 (Jin Dynasty fall to Mongols)"
+      ]
+    },
+    {
+      "id": "1158-003",
+      "title": "Nur ad-Din Zengi's expansion in Syria",
+      "region": "Syria and the Levant",
+      "coordinates_approx": "33.5\u00b0N, 36.3\u00b0E",
+      "category": "political",
+      "description": "Nur ad-Din Zengi, the Zengid ruler of Syria and northern Mesopotamia, continued to consolidate power and expand Ayyubid influence in the region during the late 1150s. Nur ad-Din was a key figure in the early Crusades period, known for his military campaigns against the Crusader States and his patronage of Islamic institutions. His reign saw the strengthening of Islamic military and administrative structures in the Levant, laying groundwork for Saladin's later campaigns. Nur ad-Din's court was a center of Islamic learning and culture.",
+      "key_figures": [
+        "Nur ad-Din Zengi (Zengid ruler of Syria)",
+        "Saladin (rising military commander under Nur ad-Din's patronage)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Imad ad-Din al-Isfahani, chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Nur ad-Din's consolidation of power is well-documented, but no single dramatic event is reliably dated to 1158 specifically.",
+      "cross_references": [
+        "1174-001 (Nur ad-Din's death and Saladin's rise)",
+        "1187-001 (Saladin's conquest of Jerusalem)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence was identified for events listed for 1158. The year is relatively underdocumented compared to adjacent years, with most major events of the period occurring in 1159, 1160, or later.",
+  "historiographic_note": "The year 1158 CE is moderately well-documented in European and East Asian sources, but documentation is sparse for most other regions. European sources are dominated by monastic chronicles and royal records, creating a Western bias. Islamic sources are abundant for the Levant and Egypt but thinner for other regions. Chinese sources are abundant but often focus on court politics rather than broader social change. The historical record for 1158 is reasonably complete for Europe, the Islamic world, and East Asia, but nearly absent for sub-Saharan Africa, the Americas, and much of Central Asia.",
+  "graph_edges": [
+    {
+      "from": "1158-001",
+      "to": "1177-001",
+      "relation": "led_to",
+      "note": "Frederick Barbarossa's Italian campaigns led to decades of conflict with the papacy, resolved at the Peace of Venice"
+    },
+    {
+      "from": "1158-002",
+      "to": "1234-001",
+      "relation": "part_of",
+      "note": "Jin Dynasty consolidation was part of a longer trajectory ending in Mongol conquest"
+    },
+    {
+      "from": "1158-003",
+      "to": "1174-001",
+      "relation": "part_of",
+      "note": "Nur ad-Din's expansion was part of a longer trajectory of Ayyubid consolidation"
+    }
+  ]
+}

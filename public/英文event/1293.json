@@ -1,0 +1,125 @@
+{
+  "year": 1293,
+  "year_label": "1293 CE",
+  "era_context": "The late 13th century was a period of consolidation and fragmentation across Eurasia. The Mongol Empire was breaking into regional khanates; the Yuan Dynasty under Kublai Khan controlled China; the Mamluk Sultanate dominated the Islamic Mediterranean; European feudal monarchies were centralizing power; and maritime trade networks were expanding. This was also a period of significant cultural and intellectual achievement in multiple civilizations.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Interior Southeast Asia",
+    "Northern Eurasia/Siberia",
+    "Pre-Columbian Americas",
+    "Most of Asia (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "1293-001",
+      "title": "War of the Sicilian Vespers continues; Aragonese-Angevin conflict in Mediterranean",
+      "region": "Sicily / Mediterranean",
+      "coordinates_approx": "37.5833, 14.0167",
+      "category": "military",
+      "description": "The War of the Sicilian Vespers (1282\u20131302) continued in 1293, with the Aragonese and Angevin dynasties competing for control of Sicily and southern Italy. This conflict was one of the major Mediterranean power struggles of the late 13th century, involving multiple European powers and reshaping Mediterranean politics. The war was characterized by naval battles, diplomatic maneuvering, and dynastic claims. By 1293, the conflict had become entrenched, with neither side able to achieve decisive victory.",
+      "key_figures": [
+        "Charles II of Anjou (King of Naples and Sicily)",
+        "James II of Aragon (King of Aragon)"
+      ],
+      "sources": [
+        {
+          "name": "Aragonese and Angevin court records and chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on the War of the Sicilian Vespers",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The War of the Sicilian Vespers is well-documented in contemporary sources. The year 1293 falls within the documented period of the conflict.",
+      "cross_references": [
+        "Part of the War of the Sicilian Vespers (1282\u20131302)",
+        "Related to broader Mediterranean power politics"
+      ]
+    },
+    {
+      "id": "1293-002",
+      "title": "Edward I of England campaigns in Wales and Scotland",
+      "region": "Wales / Scotland",
+      "coordinates_approx": "52.5, -3.5",
+      "category": "military",
+      "description": "King Edward I of England continued his military campaigns to consolidate English control over Wales and to assert dominance over Scotland. Edward I was one of the most militarily active English kings, constantly engaged in campaigns to expand and consolidate English power. In 1293, he was involved in military operations in Wales and was preparing for further Scottish campaigns. These campaigns were part of Edward's broader strategy to create a unified British kingdom under English rule.",
+      "key_figures": [
+        "Edward I (King of England)"
+      ],
+      "sources": [
+        {
+          "name": "English royal chronicles and military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Edward I's reign",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Edward I's military activities in 1293 are attested in contemporary sources, though specific details for this particular year are not extensively documented.",
+      "cross_references": [
+        "Led to Edward I's invasion of Scotland in 1296 (1296-003)",
+        "Part of Edward I's broader campaign to consolidate English power"
+      ]
+    },
+    {
+      "id": "1293-003",
+      "title": "Kublai Khan's Yuan Dynasty continues to consolidate rule in China",
+      "region": "China / Yuan Dynasty",
+      "coordinates_approx": "39.9042, 116.4074",
+      "category": "political",
+      "description": "The Yuan Dynasty under Kublai Khan continued to consolidate Mongol rule over China in 1293. The dynasty had successfully integrated Mongol military dominance with Chinese administrative structures. By 1293, the Yuan was well-established, though it faced ongoing challenges from Han Chinese resistance and internal Mongol factional disputes. The Yuan's rule represented a significant moment in world history\u2014the conquest and integration of the world's most populous civilization by a steppe people.",
+      "key_figures": [
+        "Kublai Khan (Emperor of Yuan Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Dynasty official histories and chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Yuan Dynasty",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Yuan Dynasty's existence and consolidation in 1293 is well-attested in Chinese historical records. However, specific events for this particular year are not well-documented in surviving sources.",
+      "cross_references": [
+        "Part of the broader history of Mongol rule in Asia",
+        "Led to Kublai Khan's death in 1294 (1294-001)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The War of the Sicilian Vespers is sometimes presented as a clear conflict between Aragonese and Angevin powers. However, modern scholarship emphasizes the complexity of the conflict, involving multiple powers, shifting alliances, and dynastic claims that were not always clearly defined. Additionally, Edward I's campaigns in Wales and Scotland are often presented as straightforward conquests, but modern historians emphasize the resistance and resilience of Welsh and Scottish populations, as well as the difficulty of maintaining English control over these territories.",
+  "historiographic_note": "Documentation for 1293 is sparse, with limited contemporary sources for most regions. European sources are dominated by royal and ecclesiastical chronicles. Chinese sources exist for the Yuan Dynasty but are often compiled centuries after the events they describe. Most of Asia, Africa, and the Americas have minimal contemporary documentation for this year. The surviving sources reflect the perspectives of literate elites and likely underrepresent the experiences of common people and non-literate societies.",
+  "graph_edges": [
+    {
+      "from": "1293-001",
+      "to": "1294-003",
+      "relation": "contemporary_with",
+      "note": "Both reflect major power struggles in the Mediterranean and Europe"
+    },
+    {
+      "from": "1293-002",
+      "to": "1296-003",
+      "relation": "led_to",
+      "note": "Edward I's campaigns in Wales and Scotland led to his invasion of Scotland in 1296"
+    },
+    {
+      "from": "1293-003",
+      "to": "1294-001",
+      "relation": "led_to",
+      "note": "The Yuan Dynasty's consolidation under Kublai Khan led to his death and succession in 1294"
+    }
+  ]
+}

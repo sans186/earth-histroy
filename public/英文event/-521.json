@@ -1,0 +1,98 @@
+{
+  "year": -521,
+  "year_label": "521 BCE",
+  "era_context": "Darius I's consolidation of power in the Achaemenid Persian Empire following the suppression of the Gaumata rebellion. In Greece, the Archaic period continues with the development of early democratic institutions. In China, the Spring and Autumn period continues. In India, the traditional period of the Buddha's life (if traditional dating is accepted).",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Most regions outside the Persian Empire, Greece, and China"
+  ],
+  "events": [
+    {
+      "id": "-521-001",
+      "title": "Darius I consolidates power after suppressing the Gaumata rebellion",
+      "region": "Achaemenid Persian Empire",
+      "coordinates_approx": "35.0, 50.0",
+      "category": "political",
+      "description": "Following the suppression of the Gaumata rebellion (dated to either 522 or 521 BCE), Darius I consolidates his control over the Persian Empire. He reorganizes the administrative structure, establishes the satrapy system more firmly, and begins military campaigns to expand Persian territory. The Behistun Inscription, commissioned by Darius, documents his victories and legitimizes his rule. This period marks the beginning of Darius's reign as a stable, centralized empire.",
+      "key_figures": [
+        "Darius I (King of Persia)",
+        "Satrap governors (regional administrators)"
+      ],
+      "sources": [
+        {
+          "name": "Behistun Inscription (trilingual cuneiform)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Herodotus, Histories (Book III)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Persepolis administrative tablets (clay tablets)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation of Darius's power is well-attested in the Behistun Inscription and administrative records. However, the exact chronology of individual events is uncertain, and the year 521 BCE is a scholarly convention based on the dating of the Gaumata rebellion.",
+      "cross_references": [
+        "-522-001 (Gaumata rebellion)"
+      ]
+    },
+    {
+      "id": "-521-002",
+      "title": "Possible date of Buddha's enlightenment (traditional dating)",
+      "region": "Shakya Kingdom / Northern India (modern Nepal/Uttar Pradesh border)",
+      "coordinates_approx": "27.5, 85.0",
+      "category": "religious",
+      "description": "According to some traditional Buddhist chronologies, Siddhartha Gautama attained enlightenment (bodhi) in 521 BCE, becoming the Buddha. However, this date is highly uncertain and varies significantly across different Buddhist traditions and modern scholarly estimates. The event is traditionally said to have occurred at Bodh Gaya, under a Bodhi tree. The exact dating of this event is one of the most contested problems in Asian historiography.",
+      "key_figures": [
+        "Siddhartha Gautama (Buddha)"
+      ],
+      "sources": [
+        {
+          "name": "Pali Canon (Tripitaka)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Sanskrit Buddhist texts (Mahayana traditions)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Chinese Buddhist chronologies",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "legendary",
+      "certainty_note": "No contemporary sources document the Buddha's enlightenment. All dates are reconstructed from texts compiled centuries or millennia after the events. Modern scholarship is deeply divided; the most commonly cited range is 563\u2013483 BCE or 480\u2013400 BCE. The year 521 BCE is one of many proposed dates and has no stronger evidential basis than alternatives.",
+      "cross_references": [
+        "-524-002 (Buddha's birth, alternative dating)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Gaumata rebellion and Darius's consolidation of power is contested. Some scholars date the rebellion to 521 BCE, others to 522 BCE. The Behistun Inscription does not provide an absolute date in terms of a calendar year. Additionally, the dating of the Buddha's enlightenment is highly uncertain and varies across traditions. Modern scholarship has largely abandoned attempts to pinpoint exact dates for the Buddha's life and instead works with broad ranges. The inclusion of the Buddha's enlightenment at 521 BCE reflects traditional dating conventions but should not be interpreted as historical confirmation.",
+  "historiographic_note": "The year 521 BCE is better documented than 523 BCE, primarily due to the Behistun Inscription and Persian administrative records. However, the exact chronology of events remains uncertain. The inscription is a royal propaganda document, and its account must be read critically. For India and the Buddha, all sources are post-hoc compilations with significant chronological uncertainty. The historical record is heavily skewed toward the Persian Empire and Mediterranean regions.",
+  "graph_edges": [
+    {
+      "from": "-521-001",
+      "to": "-520-001",
+      "relation": "led_to",
+      "note": "Darius's consolidation of power leads to further military campaigns and administrative reforms"
+    },
+    {
+      "from": "-521-002",
+      "to": "-480-001",
+      "relation": "part_of",
+      "note": "Buddha's enlightenment is a central event in Buddhist tradition, but its exact dating remains disputed"
+    }
+  ]
+}

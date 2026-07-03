@@ -1,0 +1,219 @@
+{
+  "year": 1376,
+  "year_label": "1376 CE",
+  "era_context": "The late 14th century in Europe is marked by the Western Schism in the Catholic Church (1378 onwards, but tensions building), the Hundred Years' War between England and France in its fourth decade, the rise of the Ottoman Empire in Anatolia and the Balkans, the Ming Dynasty consolidating power in China after overthrowing the Yuan, and the early Italian Renaissance beginning to flourish in city-states like Florence and Venice.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; oral traditions not systematically documented in Western sources)",
+    "Interior Americas (Aztec and Inca empires well-documented in their own records, but European sources sparse)",
+    "Central Asian steppes (fragmentary records)"
+  ],
+  "events": [
+    {
+      "id": "1376-001",
+      "title": "Death of Pope Gregory XI; return of papacy to Rome",
+      "region": "Papal States / Rome, Italy",
+      "coordinates_approx": "41.9028, 12.4534",
+      "category": "religious",
+      "description": "Pope Gregory XI died on 27 March 1376 in Rome, ending the Avignon Papacy (1309\u20131377). His death precipitated a succession crisis that would lead directly to the Western Schism. The cardinals, under pressure from Roman mobs demanding an Italian pope, elected Urban VI in April 1378 (not yet in 1376, but the groundwork was laid). Gregory's death marked the symbolic end of papal exile in Avignon and the beginning of institutional instability in the Church.",
+      "key_figures": [
+        "Pope Gregory XI (died 1376)",
+        "Urban VI (elected 1378, but succession crisis began 1376)"
+      ],
+      "sources": [
+        {
+          "name": "Liber Pontificalis; contemporary papal records and chronicles (Froissart, Villani)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on papal chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Death date of Gregory XI is well-documented in papal records and contemporary chronicles. The date 27 March 1376 is standard in all major sources.",
+      "cross_references": [
+        "1378-001 (Western Schism begins with Urban VI's election)"
+      ]
+    },
+    {
+      "id": "1376-002",
+      "title": "Battle of Plo\u010dnik; Serbian defeat by Ottoman forces",
+      "region": "Serbia / Ottoman Empire (modern-day southern Serbia)",
+      "coordinates_approx": "43.6500, 21.6833",
+      "category": "military",
+      "description": "Ottoman forces under Murad I defeated Serbian forces at Plo\u010dnik in 1376, marking a significant Ottoman advance into the Balkans. This battle demonstrated Ottoman military superiority and contributed to the gradual Ottoman conquest of Serbian territories. The defeat weakened Serbian resistance and accelerated Ottoman expansion northward into the Balkans, a process that would culminate in the Battle of Kosovo (1389).",
+      "key_figures": [
+        "Murad I (Ottoman Sultan)",
+        "Serbian nobility (names vary in sources)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (Ne\u015fri, Ashikpashazade); Serbian medieval sources",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Ottoman expansion",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The battle is attested in Ottoman and Serbian sources, but dating varies slightly (some sources place it 1375\u20131377). 1376 is the most commonly cited date in modern scholarship, though \u00b11 year uncertainty is reasonable.",
+      "cross_references": [
+        "1389-001 (Battle of Kosovo, culmination of Ottoman Balkan expansion)"
+      ]
+    },
+    {
+      "id": "1376-003",
+      "title": "Zhu Yuanzhang consolidates Ming control; purge of early officials",
+      "region": "China (Ming Dynasty)",
+      "coordinates_approx": "39.9042, 116.4074",
+      "category": "political",
+      "description": "The Hongwu Emperor (Zhu Yuanzhang), founder of the Ming Dynasty, continued consolidating power by purging officials and military commanders he deemed threats. In 1376, he initiated or intensified investigations into alleged conspiracies, particularly targeting the military elite. These purges were part of a broader pattern of centralizing authority and eliminating potential rivals, establishing the autocratic structure that would define Ming governance.",
+      "key_figures": [
+        "Hongwu Emperor / Zhu Yuanzhang (r. 1368\u20131398)",
+        "Various purged officials (names recorded in Ming records)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming); official court records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Hongwu's reign",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Hongwu Emperor's purges occurred throughout the 1370s\u20131380s. Specific events in 1376 are recorded in Ming records, but the exact chronology of individual purges can be difficult to isolate without access to original Ming Shilu texts.",
+      "cross_references": [
+        "1368-001 (Ming Dynasty founded)",
+        "1380-001 (Major purge of Chancellor Hu Weiyong)"
+      ]
+    },
+    {
+      "id": "1376-004",
+      "title": "Hundred Years' War: English campaigns in France; Treaty negotiations",
+      "region": "England / France",
+      "coordinates_approx": "48.8566, 2.3522",
+      "category": "military",
+      "description": "In 1376, the Hundred Years' War continued with English forces conducting raids and campaigns in France. This year saw diplomatic negotiations and truces, including discussions that would lead to the Treaty of Bruges (1375) and subsequent peace efforts. The war remained in a phase of English military advantage, though the tide would shift in the following decades.",
+      "key_figures": [
+        "Edward III of England (aging, died 1377)",
+        "Charles V of France",
+        "John of Gaunt (English military commander)"
+      ],
+      "sources": [
+        {
+          "name": "Froissart's Chronicles; English and French royal records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Hundred Years' War chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad outline of English-French military activity in 1376 is well-documented, though specific battles and engagements vary in detail across sources. The year falls within a well-attested period of the war.",
+      "cross_references": [
+        "1375-001 (Treaty of Bruges)",
+        "1377-001 (Death of Edward III; succession of Richard II)"
+      ]
+    },
+    {
+      "id": "1376-005",
+      "title": "Peasants' Revolt in England: social unrest and labor demands",
+      "region": "England",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "political",
+      "description": "In 1376, England experienced significant social unrest related to labor conditions, taxation, and peasant grievances. This period saw the emergence of organized peasant resistance and demands for better conditions, which would culminate in the major Peasants' Revolt of 1381. The 1376 unrest reflected broader tensions over the Poll Tax, serfdom, and the power of the nobility.",
+      "key_figures": [
+        "English peasantry and laborers",
+        "John of Gaunt (target of peasant anger)",
+        "Richard II (young king, not yet in full power)"
+      ],
+      "sources": [
+        {
+          "name": "Froissart's Chronicles; English chronicles (Walsingham, Knighton)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on pre-1381 unrest",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The 1376 unrest is attested in chronicles, though it is often overshadowed by the 1381 Peasants' Revolt in historical narratives. The exact chronology and scale of 1376 events require careful reading of primary sources.",
+      "cross_references": [
+        "1381-001 (Peasants' Revolt)"
+      ]
+    },
+    {
+      "id": "1376-006",
+      "title": "Tamerlane (Timur) campaigns in Central Asia and the Caucasus",
+      "region": "Central Asia / Caucasus (Timurid Empire)",
+      "coordinates_approx": "39.2075, 69.1824",
+      "category": "military",
+      "description": "Timur (Tamerlane), the Turco-Mongol conqueror, was in the midst of his campaigns to build a vast Central Asian empire. In 1376, he was consolidating control over Transoxiana and conducting military campaigns against rival khans and neighboring regions. These campaigns would eventually lead to his conquest of much of Asia and his invasion of the Ottoman Empire and India.",
+      "key_figures": [
+        "Timur / Tamerlane (r. 1369\u20131405)",
+        "Various Central Asian and Caucasian rulers"
+      ],
+      "sources": [
+        {
+          "name": "Timurid chronicles (Yazdi, Sharaf al-Din Ali Yazdi); Persian and Islamic sources",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Timur's campaigns",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Timur's campaigns are well-documented in Islamic and Persian sources, though exact dates of specific campaigns can vary. 1376 falls within his period of consolidation and expansion.",
+      "cross_references": [
+        "1398-001 (Timur's invasion of India)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of the 1376 peasant unrest in England is often minimized in favor of the 1381 Peasants' Revolt, which may obscure the continuity of social tension. Some sources attribute the 1376 unrest primarily to the Poll Tax, while others emphasize longer-term labor shortages and demographic changes post-Black Death. The Battle of Plo\u010dnik's exact date and significance are debated: some Ottoman sources place it earlier or later, and its strategic importance may have been exaggerated in later Ottoman historiography to support narratives of inevitable Ottoman expansion.",
+  "historiographic_note": "The year 1376 is well-documented for Western Europe (England, France, Papal States) due to abundant chronicle sources. Ottoman and Serbian sources exist but are often later compilations. Chinese sources (Ming Shilu) are contemporary and detailed. Central Asian sources on Timur are rich but often written after his death. Sub-Saharan Africa, the interior Americas, and much of Southeast Asia have minimal written documentation for this specific year. The surviving record is heavily weighted toward political and military events; economic, social, and cultural history require inference from broader patterns.",
+  "graph_edges": [
+    {
+      "from": "1376-001",
+      "to": "1378-001",
+      "relation": "led_to",
+      "note": "Gregory XI's death directly precipitated the succession crisis that led to the Western Schism"
+    },
+    {
+      "from": "1376-002",
+      "to": "1389-001",
+      "relation": "part_of",
+      "note": "Ottoman advance at Plo\u010dnik was part of the broader Balkan conquest culminating in Kosovo"
+    },
+    {
+      "from": "1376-005",
+      "to": "1381-001",
+      "relation": "led_to",
+      "note": "1376 peasant unrest was a precursor to the major 1381 Peasants' Revolt"
+    },
+    {
+      "from": "1376-004",
+      "to": "1377-001",
+      "relation": "led_to",
+      "note": "English military campaigns in 1376 continued under Edward III until his death in 1377"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "year": 1374,
+  "year_label": "1374 CE",
+  "era_context": "The late 14th century is marked by the Hundred Years' War between England and France, the Ottoman Empire's expansion in Anatolia and the Balkans, the Ming Dynasty's consolidation in China, and the early Italian Renaissance. The Catholic Church is unified but experiencing tensions that would lead to the Western Schism in 1378.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Interior Americas (Aztec and Inca records exist but are sparse in European sources)",
+    "Central Asian steppes (fragmentary records)"
+  ],
+  "events": [
+    {
+      "id": "1374-001",
+      "title": "Death of Petrarch; end of an era in Italian humanism",
+      "region": "Italy (Padua / Arqu\u00e0)",
+      "coordinates_approx": "45.4215, 11.9050",
+      "category": "cultural",
+      "description": "Francesco Petrarch, the Italian poet and humanist, died on 19 July 1374 in Arqu\u00e0, near Padua. His death marked the end of a transformative intellectual life that had profoundly influenced the development of humanism and the early Renaissance. Petrarch's emphasis on classical texts, individual achievement, and the recovery of ancient learning shaped the intellectual landscape of the 14th and 15th centuries.",
+      "key_figures": [
+        "Francesco Petrarch (1304\u20131374)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary biographical accounts; Petrarch's own writings and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later biographical compilations",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Petrarch's death date is well-documented. The date 19 July 1374 is standard in all major sources.",
+      "cross_references": [
+        "1375-004 (Humanist movement continues after Petrarch's death)"
+      ]
+    },
+    {
+      "id": "1374-002",
+      "title": "Hongwu Emperor's administrative reforms; centralization of Ming power",
+      "region": "China (Ming Dynasty)",
+      "coordinates_approx": "39.9042, 116.4074",
+      "category": "political",
+      "description": "The Hongwu Emperor (Zhu Yuanzhang) continued implementing administrative reforms to centralize Ming power in 1374. He reorganized the bureaucracy, reduced the power of regional warlords, and established new systems of control. These reforms were part of his broader effort to create an autocratic state with power concentrated in the imperial center.",
+      "key_figures": [
+        "Hongwu Emperor / Zhu Yuanzhang (r. 1368\u20131398)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Hongwu's reign",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Hongwu Emperor's administrative reforms are well-documented in Ming records, though specific reforms in 1374 require careful reading of the Ming Shilu.",
+      "cross_references": [
+        "1376-003 (Continued purges and consolidation)"
+      ]
+    },
+    {
+      "id": "1374-003",
+      "title": "Hundred Years' War: English military campaigns in France",
+      "region": "England / France",
+      "coordinates_approx": "48.8566, 2.3522",
+      "category": "military",
+      "description": "In 1374, the Hundred Years' War continued with English forces conducting military campaigns in France. This period saw English military dominance, with campaigns led by John of Gaunt and other English commanders. The war remained in a phase of relative English advantage, though the underlying territorial disputes remained unresolved.",
+      "key_figures": [
+        "Edward III of England",
+        "Charles V of France",
+        "John of Gaunt (English military commander)"
+      ],
+      "sources": [
+        {
+          "name": "Froissart's Chronicles; English and French royal records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Hundred Years' War chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad outline of English military activity in 1374 is well-documented, though specific battles and engagements vary in detail across sources.",
+      "cross_references": [
+        "1375-001 (Treaty of Bruges)"
+      ]
+    },
+    {
+      "id": "1374-004",
+      "title": "Murad I's military campaigns in the Balkans",
+      "region": "Ottoman Empire / Balkans",
+      "coordinates_approx": "42.6977, 21.1789",
+      "category": "military",
+      "description": "Murad I, the Ottoman Sultan, continued military campaigns in the Balkans in 1374, expanding Ottoman territory and consolidating Ottoman power in the region. These campaigns were part of the broader Ottoman expansion that would eventually lead to Ottoman dominance of the Balkans and southeastern Europe.",
+      "key_figures": [
+        "Murad I (Ottoman Sultan, r. 1362\u20131389)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (Ne\u015fri, Ashikpashazade)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Ottoman expansion",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ottoman expansion in 1374 is attested in Ottoman sources, but specific events and dates can vary. The broader pattern of Murad I's consolidation is well-established.",
+      "cross_references": [
+        "1376-002 (Battle of Plo\u010dnik)"
+      ]
+    },
+    {
+      "id": "1374-005",
+      "title": "Tamerlane's campaigns in Central Asia; consolidation of power",
+      "region": "Central Asia (Timurid Empire)",
+      "coordinates_approx": "39.2075, 69.1824",
+      "category": "military",
+      "description": "Timur (Tamerlane) was consolidating his power in Central Asia in 1374, conducting military campaigns against rival khans and neighboring regions. He was establishing the foundation of the Timurid Empire, which would eventually become one of the largest empires in history.",
+      "key_figures": [
+        "Timur / Tamerlane (r. 1369\u20131405)"
+      ],
+      "sources": [
+        {
+          "name": "Timurid chronicles (Yazdi, Sharaf al-Din Ali Yazdi)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Timur's rise",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Timur's campaigns are well-attested in Islamic and Persian sources, though specific events in 1374 are not always clearly dated.",
+      "cross_references": [
+        "1375-005 (Continued consolidation)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Petrarch's death is often treated as a symbolic endpoint for medieval culture and the beginning of the Renaissance, but this is a historiographic convenience. Petrarch himself was deeply medieval in many ways, and the 'Renaissance' was a gradual process rather than a sharp break. The significance of 1374 as a turning point is partly retrospective.",
+  "historiographic_note": "1374 is well-documented for Western Europe, the Ottoman Empire, and China. Italian sources on Petrarch and humanism are abundant. Ottoman and Central Asian sources exist but are often later compilations. The year is less well-documented for regions outside these areas. The surviving record emphasizes political, military, and cultural events; economic and social history require inference from broader patterns.",
+  "graph_edges": [
+    {
+      "from": "1374-001",
+      "to": "1375-004",
+      "relation": "led_to",
+      "note": "Petrarch's death in 1374 marked the end of his direct influence, but the humanist movement continued to flourish"
+    },
+    {
+      "from": "1374-003",
+      "to": "1375-001",
+      "relation": "led_to",
+      "note": "English military campaigns in 1374 continued until the Treaty of Bruges in 1375"
+    },
+    {
+      "from": "1374-004",
+      "to": "1376-002",
+      "relation": "led_to",
+      "note": "Murad I's 1374 campaigns set the stage for the Battle of Plo\u010dnik in 1376"
+    }
+  ]
+}

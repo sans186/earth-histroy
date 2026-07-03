@@ -1,0 +1,139 @@
+{
+  "year": 914,
+  "year_label": "914 CE",
+  "era_context": "The early 10th century CE continues to be characterized by political fragmentation and reorganization across Eurasia. The Islamic world is experiencing the rise of regional dynasties challenging Abbasid authority. In Europe, feudalism is consolidating, and the Byzantine Empire is in a period of military and cultural revival. East Asia remains fragmented among competing regional powers in the Five Dynasties and Ten Kingdoms period. This is a transitional era between the classical empires of the previous centuries and the medieval states that would emerge in the following centuries.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (very limited written sources)",
+    "Northern Europe beyond major kingdoms",
+    "Central Asian steppe (sparse documentation)",
+    "Americas (no written records)"
+  ],
+  "events": [
+    {
+      "id": "914-001",
+      "title": "Fatimid Caliphate consolidates control in North Africa",
+      "region": "Ifriqiya and Maghreb (North Africa)",
+      "coordinates_approx": "35.0\u00b0N, 5.0\u00b0E",
+      "category": "political | military",
+      "description": "The newly proclaimed Fatimid Caliphate, established in 909/916, continued to consolidate its control over North Africa. In 914, the Fatimids were expanding their territorial control and establishing administrative structures. The Fatimid state was characterized by a sophisticated bureaucracy, a powerful navy, and a commitment to Ismaili Shi'a Islam. This period saw the Fatimids challenging both the Abbasid Caliphate and the Umayyad Caliphate of al-Andalus for supremacy in the Islamic world.",
+      "key_figures": [
+        "Ubayd Allah al-Mahdi (Fatimid caliph, r. 909\u2013934)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Mas'udi, Meadows of Gold",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Fatimid consolidation in North Africa is well-documented in general terms, but specific events of 914 are less precisely dated. The broader pattern of Fatimid expansion and consolidation is confirmed.",
+      "cross_references": [
+        "Follows from Fatimid proclamation (909/916)",
+        "Precedes Fatimid expansion into Egypt (969)"
+      ]
+    },
+    {
+      "id": "914-002",
+      "title": "Later Liang Dynasty continues to rule central China",
+      "region": "China (central plains)",
+      "coordinates_approx": "34.0\u00b0N, 115.0\u00b0E",
+      "category": "political",
+      "description": "The Later Liang Dynasty, under Emperor Taizong (r. 912\u2013923), continued to rule the central plains of China during the Five Dynasties and Ten Kingdoms period. The Later Liang Dynasty was one of the five major dynasties that ruled northern China during this fragmented period. The dynasty was characterized by military strength but also internal instability and conflict with neighboring kingdoms.",
+      "key_figures": [
+        "Zhu You/Emperor Taizong of Later Liang (r. 912\u2013923)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Official histories of the Five Dynasties",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Later Liang Dynasty's rule in 914 is well-documented in Chinese historical sources. The general political situation is clear.",
+      "cross_references": [
+        "Part of Five Dynasties and Ten Kingdoms period (907\u2013960)"
+      ]
+    },
+    {
+      "id": "914-003",
+      "title": "Byzantine military operations in the Balkans",
+      "region": "Byzantine Empire (Balkans)",
+      "coordinates_approx": "42.0\u00b0N, 22.0\u00b0E",
+      "category": "military | political",
+      "description": "The Byzantine Empire, under Constantine VII and the regency of Zoe Karbonopsina, continued military operations in the Balkans to consolidate control and suppress rebellions. These operations were part of the broader Byzantine military revival of the 10th century.",
+      "key_figures": [
+        "Constantine VII Porphyrogennetos (Byzantine emperor)",
+        "Zoe Karbonopsina (regent)"
+      ],
+      "sources": [
+        {
+          "name": "Theophanes Continuatus (Byzantine chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Constantine VII, De Administrando Imperio",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Byzantine military activity in this period is well-documented in general terms, but specific operations in 914 are less clearly dated.",
+      "cross_references": [
+        "Part of Byzantine Macedonian Renaissance"
+      ]
+    },
+    {
+      "id": "914-004",
+      "title": "Khmer Empire continues cultural and architectural development",
+      "region": "Khmer Empire (Cambodia)",
+      "coordinates_approx": "13.3\u00b0N, 103.8\u00b0E",
+      "category": "cultural | political",
+      "description": "The Khmer Empire continued its period of cultural and architectural development. Temple construction and administrative consolidation characterized this period. The exact ruler in 914 is uncertain due to dating ambiguities in Khmer chronology.",
+      "key_figures": [
+        "Khmer ruler (identity uncertain due to chronological ambiguity)"
+      ],
+      "sources": [
+        {
+          "name": "Khmer inscriptions and temple records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Khmer chronology for this period is uncertain. Dating uncertainty of \u00b15\u201310 years is reasonable.",
+      "cross_references": [
+        "Part of Khmer classical period"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence undermines the events listed for 914. The general historical narrative for this year is consistent with broader patterns of the early 10th century.",
+  "historiographic_note": "The historical record for 914 CE is moderate in quality. Chinese sources provide good documentation of the Five Dynasties period. Islamic sources are available but are later compilations. Byzantine sources are relatively contemporary. Southeast Asian history relies on epigraphic evidence with inherent dating uncertainties. The surviving sources emphasize political and military events; economic, social, and cultural developments are underrepresented. Sub-Saharan Africa and much of Northern Europe remain poorly documented.",
+  "graph_edges": [
+    {
+      "from": "914-001",
+      "to": "969-FATIMID_EGYPT",
+      "relation": "led_to",
+      "note": "Fatimid consolidation in North Africa eventually led to conquest of Egypt"
+    },
+    {
+      "from": "914-002",
+      "to": "960-SONG_UNIFICATION",
+      "relation": "led_to",
+      "note": "Later Liang rule during Five Dynasties period eventually ended with Song unification"
+    }
+  ]
+}

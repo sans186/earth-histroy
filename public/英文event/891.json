@@ -1,0 +1,80 @@
+{
+  "year": 891,
+  "year_label": "891 CE",
+  "era_context": "The late 9th century CE marks the fragmentation of the Carolingian Empire following the Treaty of Verdun (843) and subsequent divisions. The Viking Age is at its height, with Norse raiders active across Europe, the Mediterranean, and into North Africa. The Abbasid Caliphate in Baghdad is declining in central authority while regional dynasties assert independence. In East Asia, the Tang Dynasty has collapsed (907), and China enters the Five Dynasties and Ten Kingdoms period. Japan's Heian period is consolidating aristocratic power under the Fujiwara regency.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Southeast Asia (sparse contemporary documentation)",
+    "Pre-Columbian Americas (no written records for specific dating)"
+  ],
+  "events": [
+    {
+      "id": "891-001",
+      "title": "Battle of the Dyle",
+      "region": "East Frankia (modern Belgium/Netherlands border)",
+      "coordinates_approx": "50.8, 4.5",
+      "category": "military",
+      "description": "King Arnulf of Carinthia defeats a major Viking fleet under Rollo on the Meuse River (or Dyle River\u2014sources vary on location). This victory temporarily halts Viking incursions into East Frankia and establishes Arnulf's military reputation. The battle is a significant moment in the Frankish resistance to Norse raids, though its exact location and casualty figures remain debated among historians.",
+      "key_figures": [
+        "Arnulf of Carinthia (King of East Frankia)",
+        "Rollo (Viking leader, later Duke of Normandy)"
+      ],
+      "sources": [
+        {
+          "name": "Annales Fuldenses (Fulda Annals)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Regino of Pr\u00fcm, Chronicon",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The battle is attested in near-contemporary chronicles, but the exact location (Dyle vs. Meuse) and date (891 vs. 892) are disputed. Most modern scholarship places it in 891.",
+      "cross_references": [
+        "Relates to broader Viking incursions in the 880s\u2013890s",
+        "Precedes Rollo's establishment in Normandy (911)"
+      ]
+    },
+    {
+      "id": "891-002",
+      "title": "Synod of Reims",
+      "region": "West Frankia (modern France)",
+      "coordinates_approx": "49.26, 4.03",
+      "category": "religious",
+      "description": "A church council convenes at Reims to address ecclesiastical discipline and reform. The synod reflects ongoing efforts by the Frankish church to maintain institutional coherence amid political fragmentation. Details of specific canons are preserved in later compilations, though the immediate impact is difficult to assess.",
+      "key_figures": [
+        "Fulk, Archbishop of Reims (presiding)"
+      ],
+      "sources": [
+        {
+          "name": "Concilium Remense (Council records, preserved in later compilations)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The synod is attested in later ecclesiastical records. The exact date and specific decrees are not always clearly preserved in surviving sources.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The location and date of the Battle of the Dyle are contested. Some scholars argue for 892 rather than 891, and the river involved (Dyle vs. Meuse) is debated. The significance attributed to this battle in halting Viking expansion may be overstated; Viking raids continued throughout the 890s and into the 10th century. The synod at Reims is poorly documented, and its historical significance is unclear from surviving sources.",
+  "historiographic_note": "Documentation for 891 relies heavily on Frankish ecclesiastical chronicles, which privilege events in the heartland of the former Carolingian Empire. Viking sources (sagas, runic inscriptions) are sparse and often much later. The perspective is decidedly Western European; events in the Abbasid Caliphate, Byzantine Empire, and East Asia are underrepresented in surviving Western sources. Bias toward military and ecclesiastical events; economic and social history is largely invisible.",
+  "graph_edges": [
+    {
+      "from": "891-001",
+      "to": "911-001",
+      "relation": "led_to",
+      "note": "Rollo's defeat at the Dyle contributes to his eventual settlement in Normandy and establishment of the Duchy (911)"
+    },
+    {
+      "from": "891-001",
+      "to": "880s-Viking-raids",
+      "relation": "part_of",
+      "note": "Part of sustained Viking incursions into Frankia during the 880s\u2013890s"
+    }
+  ]
+}

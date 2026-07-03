@@ -1,0 +1,238 @@
+{
+  "year": 1146,
+  "year_label": "1146 CE",
+  "era_context": "The mid-12th century witnessed the height of the Crusader States in the Levant, the consolidation of the Zengid dynasty under Nur ad-Din, the reign of Stephen III in Hungary, and the early Gothic architectural movement in Western Europe. In East Asia, the Jin dynasty controlled northern China while the Song dynasty ruled the south; in Japan, the Heian period was transitioning toward samurai dominance. Islamic scholarship and mathematics flourished in Al-Andalus and the broader Islamic world.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Scandinavia and the Baltic (sparse documentation)",
+    "Central Asia (limited contemporary records)"
+  ],
+  "events": [
+    {
+      "id": "1146-001",
+      "title": "Fall of Edessa to Zengi's forces; trigger for the Second Crusade",
+      "region": "County of Edessa, Upper Mesopotamia (modern-day \u015eanl\u0131urfa, Turkey)",
+      "coordinates_approx": "37.15, 38.79",
+      "category": "military",
+      "description": "Zengi ibn Aq Sunqur, atabeg of Mosul and Aleppo, captured the Crusader County of Edessa on 28 December 1144 (not 1146, but the political and religious shock reverberated through 1146). The fall of the northernmost Crusader state\u2014the first major Crusader loss since the First Crusade\u2014triggered Pope Eugenius III to call for a Second Crusade in late 1145 and formally proclaimed it in 1146. This event fundamentally shifted the balance of power in the Levant and demonstrated the vulnerability of the Crusader presence. The loss galvanized Western Christendom and led to the recruitment of major European monarchs, including King Louis VII of France and Emperor Conrad III of the Holy Roman Empire.",
+      "key_figures": [
+        "Zengi ibn Aq Sunqur (atabeg of Mosul and Aleppo)",
+        "Pope Eugenius III (caller of the Second Crusade)",
+        "Joscelin II of Courtenay (last count of Edessa)"
+      ],
+      "sources": [
+        {
+          "name": "William of Tyre, Historia Belli Sacri (History of the Holy War)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Anna Comnena, Alexiad (Byzantine court history, earlier period but relevant context)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History (Al-Kamil fi al-Ta'rikh)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The fall of Edessa occurred in December 1144, not 1146. However, the proclamation of the Second Crusade and its immediate political consequences occurred in 1145\u20131146. The event is well-attested in both Latin and Islamic sources.",
+      "cross_references": [
+        "1145-001 (Papal proclamation of Second Crusade)",
+        "1147-001 (Departure of Second Crusade armies)"
+      ]
+    },
+    {
+      "id": "1146-002",
+      "title": "Bernard of Clairvaux preaches the Second Crusade at V\u00e9zelay",
+      "region": "V\u00e9zelay, Burgundy, Kingdom of France",
+      "coordinates_approx": "47.47, 3.75",
+      "category": "religious",
+      "description": "On Easter (31 March) 1146, Bernard of Clairvaux, the most influential churchman of his age, preached the Second Crusade at the Basilica of Sainte-Madeleine in V\u00e9zelay before King Louis VII and a vast assembly of French nobility. Bernard's eloquence and spiritual authority transformed the crusade from a papal initiative into a mass movement. His preaching sparked widespread recruitment across France, Germany, and beyond. Bernard's involvement lent the crusade unprecedented legitimacy and emotional power, though his rhetoric also contributed to pogroms against Jewish communities in the Rhineland as crusaders mobilized.",
+      "key_figures": [
+        "Bernard of Clairvaux (Cistercian abbot and preacher)",
+        "Louis VII of France (king)",
+        "Pope Eugenius III (papal authority)"
+      ],
+      "sources": [
+        {
+          "name": "Odo of Deuil, De Profectione Ludovici VII in Orientem (contemporary account of the crusade)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "William of Tyre, Historia Belli Sacri",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Letters of Bernard of Clairvaux (contemporary correspondence)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date and location are well-attested in contemporary sources, particularly Odo of Deuil's account and Bernard's own letters.",
+      "cross_references": [
+        "1146-001 (Context: fall of Edessa)",
+        "1146-003 (Rhineland pogroms)"
+      ]
+    },
+    {
+      "id": "1146-003",
+      "title": "Rhineland pogroms during Second Crusade recruitment",
+      "region": "Rhineland, Holy Roman Empire (modern-day western Germany)",
+      "coordinates_approx": "50.5, 7.5",
+      "category": "military",
+      "description": "As crusade recruitment swept through the Rhineland in spring and summer 1146, bands of crusaders and local mobs attacked Jewish communities in cities including Cologne, Mainz, Worms, and Speyer. Thousands of Jews were killed or forcibly converted. Unlike the First Crusade pogroms (1096), these attacks were not explicitly sanctioned by Church authorities, but neither were they effectively prevented. Local bishops attempted to protect Jewish communities with varying degrees of success. The violence reflected both religious fervor and economic resentment, as crusaders sought to eliminate 'infidels at home' and sometimes targeted Jewish creditors. This represents one of the major medieval Jewish persecutions and demonstrates the dark underside of crusade mobilization.",
+      "key_figures": [
+        "Bernard of Clairvaux (attempted to restrain violence through letters)",
+        "Archbishop Arnold I of Cologne (attempted protection of Jews)",
+        "Radulf (radical preacher who incited violence)"
+      ],
+      "sources": [
+        {
+          "name": "Sefer Hasidim (Hebrew chronicle of persecution)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chronicle of Cologne (Latin chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Letters of Bernard of Clairvaux",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The pogroms are well-attested in both Jewish and Christian sources from the period. The scale and timing are historically secure.",
+      "cross_references": [
+        "1146-002 (Bernard's preaching)",
+        "1096-001 (First Crusade pogroms, earlier period)"
+      ]
+    },
+    {
+      "id": "1146-004",
+      "title": "Nur ad-Din consolidates control of Syria",
+      "region": "Syria, Mesopotamia (Zengid domains)",
+      "coordinates_approx": "35.0, 37.0",
+      "category": "political",
+      "description": "Following his father Zengi's death in 1146 (or late 1145), Nur ad-Din Mahmud ibn Zengi inherited and consolidated the Zengid atabegate, controlling Aleppo, Mosul, and surrounding territories. Nur ad-Din proved to be a more capable and religiously motivated ruler than his father, using the crusade threat to unify Muslim Syria and Mesopotamia under his authority. He would become the dominant Muslim power in the Levant for the next two decades, eventually uniting Egypt and Syria against the Crusaders. His reign marked the beginning of a coordinated Islamic response to the Crusader presence.",
+      "key_figures": [
+        "Nur ad-Din Mahmud ibn Zengi (atabeg of Aleppo and Mosul)",
+        "Zengi ibn Aq Sunqur (father, died 1146)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Complete History (Al-Kamil fi al-Ta'rikh)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Atabeg Zengi's inscriptions and coins",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Nur ad-Din's succession and early consolidation are well-documented in Islamic sources. The exact date of Zengi's death is sometimes given as 1145 or 1146, but the succession is secure.",
+      "cross_references": [
+        "1146-001 (Zengi's capture of Edessa)",
+        "1174-001 (Nur ad-Din's death and Saladin's rise)"
+      ]
+    },
+    {
+      "id": "1146-005",
+      "title": "Anund Jacob becomes King of Sweden",
+      "region": "Kingdom of Sweden",
+      "coordinates_approx": "60.0, 18.0",
+      "category": "political",
+      "description": "Anund Jacob (also known as Anund VI or Anund the Younger) became king of Sweden in 1146, following the death of his father Magnus I. Anund's reign was marked by continued Christianization of Sweden and consolidation of royal authority. He ruled until his death in 1160. His reign falls within the period of the Second Swedish Crusade (traditionally dated 1157\u20131160, though some sources place it earlier), which aimed to convert Finland and establish Swedish dominance in the Baltic.",
+      "key_figures": [
+        "Anund Jacob (King of Sweden)",
+        "Magnus I (father, previous king)"
+      ],
+      "sources": [
+        {
+          "name": "Erik's Chronicle (Erikskr\u00f6nikan, Swedish chronicle compiled in the 13th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Saxo Grammaticus, Gesta Danorum (Danish history, contemporary context)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Swedish royal succession in this period is attested in later chronicles but lacks contemporary documentation. The date is accepted by modern scholarship but carries \u00b12-year uncertainty.",
+      "cross_references": [
+        "1160-001 (Anund Jacob's death)"
+      ]
+    },
+    {
+      "id": "1146-006",
+      "title": "Suger completes the Basilica of Saint-Denis (western fa\u00e7ade and narthex)",
+      "region": "Saint-Denis, \u00cele-de-France, Kingdom of France",
+      "coordinates_approx": "48.94, 2.36",
+      "category": "cultural",
+      "description": "Abbot Suger of Saint-Denis completed major renovations to the Basilica of Saint-Denis, including the western fa\u00e7ade and narthex. This project, begun in 1137, is considered the birthplace of Gothic architecture. Suger's innovations\u2014pointed arches, ribbed vaults, flying buttresses, and extensive use of stained glass\u2014created a revolutionary architectural style that would dominate European cathedral building for centuries. The basilica served as the royal necropolis of French kings and was a center of intellectual and artistic patronage. Suger's architectural vision was inseparable from his theological program: the light streaming through stained glass was meant to evoke divine illumination.",
+      "key_figures": [
+        "Suger of Saint-Denis (abbot and architectural patron)",
+        "Louis VII of France (royal patron)"
+      ],
+      "sources": [
+        {
+          "name": "Suger, De Administratione (autobiographical account of his abbacy and building projects)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological and architectural evidence from the basilica",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The completion date of the western fa\u00e7ade and narthex is well-documented in Suger's own writings and confirmed by architectural analysis. The basilica still stands and can be directly examined.",
+      "cross_references": [
+        "1137-001 (Beginning of Suger's renovations)",
+        "1151-001 (Suger's death)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Zengi's death and the succession of Nur ad-Din is sometimes placed in 1145 rather than 1146, creating ambiguity about whether the consolidation of Nur ad-Din's power belongs to 1145 or 1146. Modern scholarship generally accepts 1146 as the year of Zengi's death, but some sources differ. The Second Crusade proclamation occurred in late 1145 (papal bull), but the major preaching campaign and recruitment occurred in 1146, so the 'trigger' event (fall of Edessa) technically occurred in 1144. The dating of Swedish royal succession relies heavily on later chronicles (Erik's Chronicle, compiled in the 13th century) and lacks contemporary documentation, making it less certain than Western European events.",
+  "historiographic_note": "The historical record for 1146 is heavily weighted toward Western European and Islamic sources. Latin chronicles (William of Tyre, Odo of Deuil) and Islamic histories (Ibn al-Athir) provide rich documentation of the Crusade context and Zengid politics. However, the record is skewed toward military and religious events; economic, demographic, and social history are underrepresented. Northern European sources (Scandinavia, Baltic) are sparse and rely on later compilations. Sub-Saharan Africa, Central Asia, and much of the Indian Ocean world are essentially absent from contemporary documentation. The sources also reflect the biases of their authors: Latin chronicles emphasize Christian perspectives and often demonize Muslim actors, while Islamic sources may underrepresent Crusader military capabilities. Jewish sources provide crucial counternarrative to Christian accounts of the Rhineland pogroms but are limited in scope.",
+  "graph_edges": [
+    {
+      "from": "1146-001",
+      "to": "1145-001",
+      "relation": "led_to",
+      "note": "Fall of Edessa (1144) triggered papal proclamation of Second Crusade (1145)"
+    },
+    {
+      "from": "1146-002",
+      "to": "1146-003",
+      "relation": "led_to",
+      "note": "Bernard's preaching campaign mobilized crusaders, leading to Rhineland pogroms"
+    },
+    {
+      "from": "1146-004",
+      "to": "1174-001",
+      "relation": "led_to",
+      "note": "Nur ad-Din's consolidation of Syria set the stage for Saladin's rise after his death"
+    },
+    {
+      "from": "1146-006",
+      "to": "1200-001",
+      "relation": "part_of",
+      "note": "Gothic architectural revolution initiated at Saint-Denis; spread across Europe through 12th\u201313th centuries"
+    }
+  ]
+}

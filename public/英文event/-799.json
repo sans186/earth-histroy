@@ -1,0 +1,80 @@
+{
+  "year": -799,
+  "year_label": "799 BCE",
+  "era_context": "The early Iron Age Mediterranean and Near East. The Neo-Assyrian Empire under Sargon II's predecessors is consolidating power in Mesopotamia. The Greek Dark Ages are ending; the Archaic period is beginning with the emergence of the polis. Phoenician city-states dominate Mediterranean trade. In China, the Western Zhou dynasty is in its final decades before collapse. Egypt is fragmented under the late 21st Dynasty.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written records for this period)",
+    "Americas (no written records; archaeological evidence sparse)",
+    "Northern Europe (minimal contemporary documentation)",
+    "Central Asia (limited sources beyond later compilations)"
+  ],
+  "events": [
+    {
+      "id": "-799-001",
+      "title": "Sargon II's military campaigns in the Levant",
+      "region": "Assyrian Empire, Levant",
+      "coordinates_approx": "36.0,43.0",
+      "category": "military",
+      "description": "Sargon II (r. 722\u2013705 BCE) was likely conducting consolidation campaigns in the Levant during this period, though specific events for 799 BCE are not well-attested. The broader context of Assyrian expansion under his predecessors (particularly Shalmaneser III) set the stage for later conquest. This year falls within the period of Assyrian military reorganization and administrative expansion.",
+      "key_figures": [
+        "Sargon II (King of Assyria, r. 722\u2013705 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon II's annals and inscriptions (later compilation)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Neo-Assyrian chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Sargon II's reign is well-dated (722\u2013705 BCE), but specific events for 799 BCE are not independently attested. This entry reflects the broader military context of the era rather than a documented event for this specific year.",
+      "cross_references": []
+    },
+    {
+      "id": "-799-002",
+      "title": "Greek Archaic period consolidation",
+      "region": "Greece",
+      "coordinates_approx": "38.0,23.0",
+      "category": "cultural",
+      "description": "By 799 BCE, the Greek Dark Ages (c. 1100\u2013800 BCE) were ending. The polis system was beginning to emerge, with early forms of political organization developing in city-states like Athens, Corinth, and Sparta. Alphabet adoption from Phoenician sources was underway. This period saw the composition of early Greek epic poetry, though the Homeric epics were likely still being orally transmitted.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Greek settlements (pottery, architecture)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Greek Archaic chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader Archaic period (c. 800\u2013480 BCE) is well-established archaeologically. Specific events for 799 BCE are not documented; this entry describes the era context.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No specific events for 799 BCE have disconfirming evidence. However, the dating of the Greek Archaic period's beginning is debated: some scholars place it closer to 750 BCE, while others extend it back to 800 BCE. The exact chronology of early Assyrian campaigns under Sargon II's predecessors remains contested due to overlapping king lists and variant chronologies in cuneiform sources.",
+  "historiographic_note": "Documentation for 799 BCE is minimal. No contemporary written records specifically document events of this year. The historical record is dominated by later compilations (Assyrian annals, Greek historiography written centuries later). Archaeological evidence provides broad context but rarely yields year-specific data. The surviving sources are heavily weighted toward Mesopotamia and the Mediterranean; vast regions (Africa, Americas, most of Asia) are archaeologically silent for this period. Chronological systems for this era rely on king lists, astronomical calculations, and radiocarbon dating, all of which carry uncertainty margins of \u00b15\u201310 years or more.",
+  "graph_edges": [
+    {
+      "from": "-799-001",
+      "to": "-722-001",
+      "relation": "led_to",
+      "note": "Sargon II's consolidation campaigns of this era culminated in his conquest of the northern Kingdom of Israel in 722 BCE"
+    },
+    {
+      "from": "-799-002",
+      "to": "-776-001",
+      "relation": "part_of",
+      "note": "The Greek Archaic period consolidation continued through the traditional date of the first Olympic Games (776 BCE)"
+    }
+  ]
+}

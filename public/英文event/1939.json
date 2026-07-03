@@ -1,0 +1,780 @@
+{
+  "year": 1939,
+  "year_label": "1939 CE",
+  "era_context": "The final year before World War II becomes truly global. Nazi Germany, under Adolf Hitler, has consolidated power and begun aggressive territorial expansion. The Soviet Union under Joseph Stalin is consolidating totalitarian control. Japan continues expansion in China. Britain and France are the major Western powers, increasingly alarmed by German aggression. The League of Nations has proven ineffective in preventing aggression.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1939-001",
+      "title": "Nazi-Soviet Non-Aggression Pact signed",
+      "region": "Soviet Union, Germany",
+      "coordinates_approx": "55.75, 37.62",
+      "category": "political",
+      "description": "On 23 August 1939, Nazi Germany and the Soviet Union signed the Molotov-Ribbentrop Pact (Nazi-Soviet Non-Aggression Pact), shocking the world by uniting two ideologically opposed powers. The pact included secret protocols that divided Eastern Europe into German and Soviet spheres of influence, assigning Poland, the Baltic states, and Bessarabia to Soviet control, while Germany retained control of western Poland and other territories. The pact removed the threat of a two-front war for Germany and allowed Hitler to invade Poland without fear of Soviet intervention. The pact was a pragmatic accommodation between two powers with conflicting ideologies but compatible strategic interests. The pact would remain in effect until Germany's invasion of the Soviet Union in June 1941.",
+      "key_figures": [
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)",
+        "Joseph Stalin (General Secretary, Soviet Union)",
+        "Joachim von Ribbentrop (German Foreign Minister)",
+        "Vyacheslav Molotov (Soviet Foreign Minister)"
+      ],
+      "sources": [
+        {
+          "name": "Official text of the Nazi-Soviet Non-Aggression Pact (German and Soviet government records)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Diplomatic correspondence and records (Bundesarchiv, Russian State Archive of Foreign Policy)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Haslam, Jonathan (1979). The Soviet Union and the Struggle for Collective Security in Europe, 1933\u201339",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The text, date, and signatories are definitively documented in official records. The secret protocols were revealed after the war.",
+      "cross_references": [
+        "1939-002 (German invasion of Poland)",
+        "1940-009 (Soviet occupation of Baltic states)",
+        "1941-001 (Operation Barbarossa)"
+      ]
+    },
+    {
+      "id": "1939-002",
+      "title": "German invasion of Poland and outbreak of World War II",
+      "region": "Poland, Eastern Europe",
+      "coordinates_approx": "52.0, 19.0",
+      "category": "military",
+      "description": "On 1 September 1939, Nazi Germany invaded Poland, marking the beginning of World War II in Europe. German forces, employing blitzkrieg tactics, rapidly overwhelmed Polish defences. The invasion prompted Britain and France to declare war on Germany on 3 September 1939. Poland was defeated within weeks, with the country divided between Germany and the Soviet Union according to the secret protocols of the Nazi-Soviet Pact. The invasion of Poland resulted in the deaths of approximately 200,000 Polish soldiers and civilians and the displacement of millions more. The invasion demonstrated the effectiveness of German military innovation and the failure of the League of Nations to prevent aggression. The invasion marked the beginning of six years of global conflict that would result in the deaths of approximately 70\u201385 million people.",
+      "key_figures": [
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)",
+        "Erich von Manstein (German General)",
+        "W\u0142adys\u0142aw Sikorski (Polish General, later Prime Minister in exile)",
+        "Neville Chamberlain (Prime Minister, Britain)",
+        "\u00c9douard Daladier (Prime Minister, France)"
+      ],
+      "sources": [
+        {
+          "name": "German military records and war diaries (Bundesarchiv-Milit\u00e4rarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Polish military records and government-in-exile records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British and French government records (The National Archives, UK; Archives de France)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Shirer, William L. (1960). The Rise and Fall of the Third Reich",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented by contemporary military records, official reports, and eyewitness accounts. The date, scale, and outcome are beyond dispute.",
+      "cross_references": [
+        "1939-001 (Nazi-Soviet Pact)",
+        "1939-003 (Britain and France declare war)",
+        "1940-001 (German invasion of France)"
+      ]
+    },
+    {
+      "id": "1939-003",
+      "title": "Britain and France declare war on Germany",
+      "region": "Britain, France, Germany",
+      "coordinates_approx": "51.50, -0.13",
+      "category": "political",
+      "description": "On 3 September 1939, two days after the German invasion of Poland, Britain and France declared war on Nazi Germany. The declarations marked the formal beginning of World War II in Europe and the end of the policy of appeasement that had characterised British and French responses to German aggression in the 1930s. The declarations were made in response to German violation of the Munich Agreement and the invasion of Poland. The declarations committed Britain and France to military opposition to Nazi Germany, though neither power was immediately prepared for large-scale military operations. The declarations represented a fundamental shift in British and French foreign policy and marked the beginning of a long and costly war.",
+      "key_figures": [
+        "Neville Chamberlain (Prime Minister, Britain)",
+        "Winston Churchill (First Lord of the Admiralty, Britain)",
+        "\u00c9douard Daladier (Prime Minister, France)",
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)"
+      ],
+      "sources": [
+        {
+          "name": "British government records and parliamentary debates (The National Archives, UK; Hansard)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French government records (Archives de France)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news accounts and political commentary",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The declarations, dates, and signatories are definitively documented in official records.",
+      "cross_references": [
+        "1939-002 (German invasion of Poland)",
+        "1939-001 (Nazi-Soviet Pact)",
+        "1940-001 (German invasion of France)"
+      ]
+    },
+    {
+      "id": "1939-004",
+      "title": "Soviet invasion of Poland from the east",
+      "region": "Poland, Eastern Europe",
+      "coordinates_approx": "52.0, 19.0",
+      "category": "military",
+      "description": "On 17 September 1939, following the German invasion of Poland from the west, the Soviet Union invaded Poland from the east, occupying the eastern half of the country according to the secret protocols of the Nazi-Soviet Pact. The Soviet invasion resulted in the capture of approximately 200,000 Polish soldiers and the occupation of Polish territory. The invasion demonstrated Soviet willingness to cooperate with Nazi Germany in the division of Eastern Europe. The Soviet occupation of eastern Poland lasted until the German invasion of the Soviet Union in June 1941. The invasion resulted in significant Polish casualties and the displacement of millions of Polish citizens.",
+      "key_figures": [
+        "Joseph Stalin (General Secretary, Soviet Union)",
+        "Semyon Timoshenko (Soviet General)",
+        "W\u0142adys\u0142aw Sikorski (Polish General)"
+      ],
+      "sources": [
+        {
+          "name": "Soviet military records (Russian State Military Archive)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Polish military records and government-in-exile records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "German military records (Bundesarchiv-Milit\u00e4rarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Documented through military records from all three powers. The date, scale, and outcome are well-established.",
+      "cross_references": [
+        "1939-001 (Nazi-Soviet Pact)",
+        "1939-002 (German invasion of Poland)",
+        "1941-001 (Operation Barbarossa)"
+      ]
+    },
+    {
+      "id": "1939-005",
+      "title": "Winter War: Soviet invasion of Finland",
+      "region": "Finland, Soviet Union",
+      "coordinates_approx": "62.0, 25.0",
+      "category": "military",
+      "description": "On 30 November 1939, the Soviet Union invaded Finland, seeking to expand Soviet territory and secure Leningrad from potential attack. The invasion was prompted by Finnish refusal to cede territory to the Soviet Union. The Finns, despite being vastly outnumbered, mounted a determined resistance using innovative tactics suited to the harsh winter conditions. The war lasted until March 1940, when Finland was forced to cede territory to the Soviet Union but retained its independence. The Winter War demonstrated that Soviet military forces, despite their size, were not invincible and that smaller nations could resist Soviet expansion. The war resulted in approximately 130,000 Soviet casualties and 25,000 Finnish casualties. The Winter War was a propaganda victory for Finland and a setback for Soviet prestige.",
+      "key_figures": [
+        "Joseph Stalin (General Secretary, Soviet Union)",
+        "Semyon Timoshenko (Soviet General)",
+        "Carl Gustaf Emil Mannerheim (Finnish Marshal)"
+      ],
+      "sources": [
+        {
+          "name": "Soviet military records (Russian State Military Archive)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Finnish military records (Finnish Defence Forces Historical Archives)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Trotter, William R. (1991). The Winter War: The Russo-Finnish War, 1939\u201340",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through military records and contemporary accounts. The dates, scale, and outcome are well-established.",
+      "cross_references": [
+        "1939-001 (Nazi-Soviet Pact)",
+        "1940-009 (Soviet occupation of Baltic states)"
+      ]
+    },
+    {
+      "id": "1939-006",
+      "title": "Sinking of the Athenia and beginning of German U-boat campaign",
+      "region": "Atlantic Ocean",
+      "coordinates_approx": "56.5, -14.0",
+      "category": "military",
+      "description": "On 3 September 1939, the same day Britain and France declared war on Germany, the German U-boat U-30 sank the British passenger liner Athenia, killing 112 people, including 28 Americans. The sinking marked the beginning of the German U-boat campaign against Allied shipping in the Atlantic. The sinking of the Athenia was controversial because it violated international law regarding the treatment of merchant vessels. The U-boat campaign would continue throughout the war and would become one of the most significant naval campaigns, threatening to strangle Allied supply lines. The sinking of the Athenia demonstrated the vulnerability of civilian shipping to submarine attack.",
+      "key_figures": [
+        "Fritz-Julius Lemp (Captain, U-30)",
+        "Karl D\u00f6nitz (Admiral, German U-boat Command)"
+      ],
+      "sources": [
+        {
+          "name": "German U-boat records (Bundesarchiv-Milit\u00e4rarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British naval records (The National Archives, UK)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Gannon, Michael (1990). Black May",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Documented through U-boat records and British naval records. The date, vessel, and casualties are well-established.",
+      "cross_references": [
+        "1939-003 (Britain declares war)",
+        "1941-009 (Battle of Atlantic intensifies)"
+      ]
+    },
+    {
+      "id": "1939-007",
+      "title": "Japanese invasion of Nanjing and Nanjing Massacre",
+      "region": "East Asia, China",
+      "coordinates_approx": "32.06, 118.80",
+      "category": "military",
+      "description": "In December 1937 (note: this event is sometimes dated to late 1937, but the massacre continued into early 1938), Japanese forces captured the Chinese city of Nanjing and committed one of the worst atrocities of World War II. Japanese soldiers killed an estimated 200,000\u2013300,000 Chinese civilians and prisoners of war, committed widespread rape and sexual slavery, and destroyed much of the city. The massacre became known as the Rape of Nanjing and remains one of the most controversial and disputed events of World War II. The massacre demonstrated the brutality of Japanese military conduct and the vulnerability of civilian populations to military occupation. The massacre is commemorated in China and remains a source of tension between China and Japan.",
+      "key_figures": [
+        "Hideki Tojo (Japanese General, later Prime Minister)",
+        "Iwane Matsui (Japanese General, commander of forces in Nanjing)",
+        "Chiang Kai-shek (Generalissimo, Chinese Nationalist Government)"
+      ],
+      "sources": [
+        {
+          "name": "Japanese military records (National Institute for Defense Studies, Tokyo)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese government records and contemporary accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ienaga, Saburo (1978). The Pacific War",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through Japanese military records, Chinese accounts, and post-war investigations. The scale of the massacre is disputed, with estimates ranging from 100,000 to 300,000 deaths.",
+      "cross_references": [
+        "1937-001 (Japanese invasion of China begins)",
+        "1940-020 (Japanese expansion in China continues)"
+      ]
+    },
+    {
+      "id": "1939-008",
+      "title": "German rearmament and military expansion",
+      "region": "Germany",
+      "coordinates_approx": "52.52, 13.40",
+      "category": "military",
+      "description": "Throughout 1939, Nazi Germany continued its massive rearmament programme, building military forces far beyond the limits imposed by the Treaty of Versailles. German military production focused on aircraft, tanks, and submarines. The rearmament programme was driven by Hitler's aggressive foreign policy and his plans for territorial expansion. The rearmament programme involved the mobilisation of German industry and the conscription of millions of German men into military service. The rearmament programme was financed through deficit spending and the seizure of Jewish and other assets. By 1939, Germany had built one of the most powerful military forces in the world, though it was still inferior to the combined forces of Britain and France.",
+      "key_figures": [
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)",
+        "Hermann G\u00f6ring (Reichsmarschall, head of rearmament)",
+        "Erich Raeder (Admiral, German Navy)"
+      ],
+      "sources": [
+        {
+          "name": "German military and economic records (Bundesarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Nazi government records and economic planning documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Shirer, William L. (1960). The Rise and Fall of the Third Reich",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through German military and economic records. The scale and nature of rearmament are well-established.",
+      "cross_references": [
+        "1933-001 (Hitler comes to power)",
+        "1939-002 (German invasion of Poland)"
+      ]
+    },
+    {
+      "id": "1939-009",
+      "title": "Kristallnacht aftermath and intensification of Nazi persecution of Jews",
+      "region": "Germany, Nazi-occupied territories",
+      "coordinates_approx": "52.52, 13.40",
+      "category": "political",
+      "description": "Following Kristallnacht in November 1938, Nazi persecution of Jews intensified throughout 1939. Jews were expelled from professions, their businesses were seized, and they were subjected to increasing legal discrimination and violence. The Nazi regime began planning the forced emigration or deportation of Jews from German-controlled territories. The persecution laid the groundwork for the Holocaust, which would begin in earnest following the German invasion of the Soviet Union in 1941. The persecution of Jews in 1939 demonstrated the Nazi regime's determination to eliminate the Jewish presence in German society and foreshadowed the systematic genocide that would follow.",
+      "key_figures": [
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)",
+        "Heinrich Himmler (Reichsf\u00fchrer-SS)",
+        "Reinhard Heydrich (SS-Obergruppenf\u00fchrer)"
+      ],
+      "sources": [
+        {
+          "name": "Nazi government records and decrees (Bundesarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jewish community records and contemporary accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Browning, Christopher R. (2004). The Origins of the Final Solution",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through Nazi government records and Jewish community records. The nature and scale of persecution are well-established.",
+      "cross_references": [
+        "1938-002 (Kristallnacht)",
+        "1941-007 (Wannsee Conference)"
+      ]
+    },
+    {
+      "id": "1939-010",
+      "title": "Japanese occupation of Hainan Island",
+      "region": "East Asia, China",
+      "coordinates_approx": "19.0, 109.5",
+      "category": "military",
+      "description": "In February 1939, Japanese forces occupied Hainan Island, a strategic island off the coast of southern China. The occupation was part of Japan's broader campaign to control Chinese territory and secure resources for its war effort. The occupation of Hainan Island gave Japan control of important naval bases and air bases that could be used to project power across Southeast Asia. The occupation demonstrated Japan's determination to expand its territorial control in East Asia and foreshadowed further Japanese expansion into Southeast Asia.",
+      "key_figures": [
+        "Hideki Tojo (Prime Minister, Japan)",
+        "Isoroku Yamamoto (Admiral, Japanese Combined Fleet)"
+      ],
+      "sources": [
+        {
+          "name": "Japanese military records (National Institute for Defense Studies, Tokyo)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese government records and contemporary accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ienaga, Saburo (1978). The Pacific War",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Documented through Japanese military records. The date and strategic significance are well-established.",
+      "cross_references": [
+        "1937-001 (Japanese invasion of China begins)",
+        "1940-020 (Japanese expansion in China continues)"
+      ]
+    },
+    {
+      "id": "1939-011",
+      "title": "Spanish Civil War ends with Franco's victory",
+      "region": "Spain",
+      "coordinates_approx": "40.46, -3.75",
+      "category": "military",
+      "description": "On 1 April 1939, the Spanish Civil War ended with the victory of Francisco Franco's Nationalist forces over the Republican government. The war, which had lasted from 1936 to 1939, resulted in approximately 500,000 deaths and the displacement of hundreds of thousands of Spanish citizens. The war had been a proxy conflict between fascist and communist forces, with Nazi Germany and Fascist Italy supporting Franco's Nationalists and the Soviet Union supporting the Republicans. Franco's victory established a fascist dictatorship in Spain that would last until 1975. The Spanish Civil War demonstrated the weakness of the League of Nations and the willingness of fascist powers to intervene in other nations' conflicts.",
+      "key_figures": [
+        "Francisco Franco (Generalissimo, Spanish Nationalist forces)",
+        "Juan Negr\u00edn (Prime Minister, Spanish Republican government)",
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)",
+        "Benito Mussolini (Il Duce, Italy)"
+      ],
+      "sources": [
+        {
+          "name": "Spanish military records (Archivo General Militar de \u00c1vila)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "German and Italian military records (Bundesarchiv, Archivio Centrale dello Stato)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Thomas, Hugh (1961). The Spanish Civil War",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through military records and contemporary accounts. The date and outcome are well-established.",
+      "cross_references": [
+        "1936-001 (Spanish Civil War begins)",
+        "1939-001 (Nazi-Soviet Pact)"
+      ]
+    },
+    {
+      "id": "1939-012",
+      "title": "German occupation of Czechoslovakia",
+      "region": "Central Europe, Czechoslovakia",
+      "coordinates_approx": "49.75, 15.47",
+      "category": "military",
+      "description": "In March 1939, Nazi Germany occupied the remainder of Czechoslovakia, completing the dismemberment of the country that had begun with the Munich Agreement of 1938. German forces occupied Bohemia and Moravia, establishing a German protectorate, while Slovakia became a German puppet state. The occupation violated the Munich Agreement and demonstrated Hitler's determination to expand German territory beyond the limits of the agreement. The occupation of Czechoslovakia was the first major German territorial expansion that could not be justified as the reunification of German-speaking peoples and marked a turning point in British and French attitudes toward German aggression. The occupation prompted Britain and France to begin military preparations for war.",
+      "key_figures": [
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)",
+        "Emil H\u00e1cha (President, Czechoslovakia)",
+        "Neville Chamberlain (Prime Minister, Britain)"
+      ],
+      "sources": [
+        {
+          "name": "German military and government records (Bundesarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Czechoslovak government records and contemporary accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Shirer, William L. (1960). The Rise and Fall of the Third Reich",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through German military and government records. The date and scale of occupation are well-established.",
+      "cross_references": [
+        "1938-001 (Munich Agreement)",
+        "1939-002 (German invasion of Poland)"
+      ]
+    },
+    {
+      "id": "1939-013",
+      "title": "German-Italian military alliance (Pact of Steel)",
+      "region": "Germany, Italy",
+      "coordinates_approx": "52.52, 13.40",
+      "category": "political",
+      "description": "On 22 May 1939, Nazi Germany and Fascist Italy signed the Pact of Steel (Patto d'Acciaio), formalising their military alliance. The pact committed the two powers to mutual military support in the event of war with third parties. The pact was intended to strengthen the Axis alliance and deter potential enemies. The pact represented the consolidation of the fascist alliance in Europe and committed Italy to support Germany in its aggressive foreign policy. The pact would remain in effect until Italy's surrender in 1943.",
+      "key_figures": [
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)",
+        "Benito Mussolini (Il Duce, Italy)",
+        "Joachim von Ribbentrop (German Foreign Minister)",
+        "Galeazzo Ciano (Italian Foreign Minister)"
+      ],
+      "sources": [
+        {
+          "name": "Official text of the Pact of Steel (German and Italian government records)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Diplomatic correspondence and records (Bundesarchiv, Archivio Centrale dello Stato)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Bosworth, R. J. B. (2006). Mussolini's Italy",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The text, date, and signatories are definitively documented in official records.",
+      "cross_references": [
+        "1939-001 (Nazi-Soviet Pact)",
+        "1940-004 (Italy enters World War II)"
+      ]
+    },
+    {
+      "id": "1939-014",
+      "title": "Japanese occupation of Canton (Guangzhou)",
+      "region": "East Asia, China",
+      "coordinates_approx": "23.13, 113.26",
+      "category": "military",
+      "description": "In October 1938 (note: this event is sometimes dated to late 1938, but the occupation continued into 1939), Japanese forces occupied the Chinese city of Canton (Guangzhou), a major port city in southern China. The occupation was part of Japan's broader campaign to control Chinese territory and secure resources for its war effort. The occupation of Canton gave Japan control of an important port and demonstrated Japan's determination to expand its territorial control in East Asia. The occupation resulted in significant civilian casualties and economic disruption.",
+      "key_figures": [
+        "Hideki Tojo (Prime Minister, Japan)",
+        "Isoroku Yamamoto (Admiral, Japanese Combined Fleet)",
+        "Chiang Kai-shek (Generalissimo, Chinese Nationalist Government)"
+      ],
+      "sources": [
+        {
+          "name": "Japanese military records (National Institute for Defense Studies, Tokyo)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese government records and contemporary accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ienaga, Saburo (1978). The Pacific War",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Documented through Japanese military records. The date is approximate, as the occupation occurred over several months.",
+      "cross_references": [
+        "1937-001 (Japanese invasion of China begins)",
+        "1940-020 (Japanese expansion in China continues)"
+      ]
+    },
+    {
+      "id": "1939-015",
+      "title": "League of Nations expels Soviet Union for invasion of Finland",
+      "region": "Geneva, Switzerland",
+      "coordinates_approx": "46.20, 6.14",
+      "category": "political",
+      "description": "On 14 December 1939, the League of Nations expelled the Soviet Union for its invasion of Finland in the Winter War. The expulsion was the first and only time the League expelled a member state for aggression. The expulsion was largely symbolic, as the League had proven ineffective in preventing aggression by major powers. The expulsion demonstrated the League's weakness and its inability to enforce international law. The expulsion of the Soviet Union further weakened the League and contributed to its eventual dissolution.",
+      "key_figures": [
+        "Joseph Stalin (General Secretary, Soviet Union)",
+        "Carl Gustaf Emil Mannerheim (Finnish Marshal)"
+      ],
+      "sources": [
+        {
+          "name": "League of Nations records (United Nations Archives)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news accounts and political commentary",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Walters, F. P. (1952). A History of the League of Nations",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The expulsion, date, and vote are definitively documented in League of Nations records.",
+      "cross_references": [
+        "1939-005 (Winter War begins)",
+        "1945-004 (United Nations founded)"
+      ]
+    },
+    {
+      "id": "1939-016",
+      "title": "German-Soviet economic cooperation and trade",
+      "region": "Germany, Soviet Union",
+      "coordinates_approx": "52.52, 13.40",
+      "category": "economic",
+      "description": "Following the Nazi-Soviet Non-Aggression Pact, Germany and the Soviet Union established economic cooperation, with the Soviet Union supplying Germany with raw materials including oil, grain, and minerals essential to the German war effort. The trade was conducted under the terms of the German-Soviet Trade Agreement, which formalised the economic relationship. The economic cooperation was pragmatic rather than ideological and served the interests of both powers. The trade was crucial to Germany's ability to sustain its war effort and to the Soviet Union's ability to acquire industrial equipment and manufactured goods. The economic relationship would end abruptly with the German invasion of the Soviet Union in June 1941.",
+      "key_figures": [
+        "Joseph Stalin (General Secretary, Soviet Union)",
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)",
+        "Vyacheslav Molotov (Soviet Foreign Minister)"
+      ],
+      "sources": [
+        {
+          "name": "German-Soviet Trade Agreement (official text)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "German and Soviet economic records (Bundesarchiv, Russian State Archive of the Economy)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Haslam, Jonathan (1979). The Soviet Union and the Struggle for Collective Security in Europe, 1933\u201339",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Documented through trade agreements and economic records. The terms and scale of trade are well-established.",
+      "cross_references": [
+        "1939-001 (Nazi-Soviet Pact)",
+        "1941-001 (Operation Barbarossa)"
+      ]
+    },
+    {
+      "id": "1939-017",
+      "title": "British and French military preparations and rearmament",
+      "region": "Britain, France",
+      "coordinates_approx": "51.50, -0.13",
+      "category": "military",
+      "description": "Throughout 1939, Britain and France accelerated their military rearmament in response to the German threat. Britain introduced conscription and expanded its military forces. France mobilised its reserves and prepared for war. Both nations increased military spending and industrial production. However, both nations were still unprepared for the scale of the German military threat when war began in September 1939. The rearmament efforts would continue throughout the war, but the initial German military advantage would prove difficult to overcome.",
+      "key_figures": [
+        "Neville Chamberlain (Prime Minister, Britain)",
+        "Winston Churchill (First Lord of the Admiralty, Britain)",
+        "\u00c9douard Daladier (Prime Minister, France)"
+      ],
+      "sources": [
+        {
+          "name": "British government records and military records (The National Archives, UK)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French government records and military records (Archives de France, Service Historique de la D\u00e9fense)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Kennedy, David M. (1999). Freedom from Fear",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Documented through government and military records. The scale and nature of rearmament are well-established.",
+      "cross_references": [
+        "1939-002 (German invasion of Poland)",
+        "1939-003 (Britain and France declare war)"
+      ]
+    },
+    {
+      "id": "1939-018",
+      "title": "Japanese occupation of Wuhan",
+      "region": "East Asia, China",
+      "coordinates_approx": "30.59, 114.31",
+      "category": "military",
+      "description": "In October 1938 (note: this event is sometimes dated to late 1938, but the occupation continued into 1939), Japanese forces occupied the Chinese city of Wuhan, a major industrial and transportation centre in central China. The occupation was part of Japan's broader campaign to control Chinese territory and secure resources for its war effort. The occupation of Wuhan gave Japan control of an important industrial centre and demonstrated Japan's determination to expand its territorial control in East Asia. The occupation resulted in significant civilian casualties and economic disruption.",
+      "key_figures": [
+        "Hideki Tojo (Prime Minister, Japan)",
+        "Isoroku Yamamoto (Admiral, Japanese Combined Fleet)",
+        "Chiang Kai-shek (Generalissimo, Chinese Nationalist Government)"
+      ],
+      "sources": [
+        {
+          "name": "Japanese military records (National Institute for Defense Studies, Tokyo)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese government records and contemporary accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ienaga, Saburo (1978). The Pacific War",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Documented through Japanese military records. The date is approximate, as the occupation occurred over several months.",
+      "cross_references": [
+        "1937-001 (Japanese invasion of China begins)",
+        "1940-020 (Japanese expansion in China continues)"
+      ]
+    },
+    {
+      "id": "1939-019",
+      "title": "German-Soviet military cooperation and intelligence sharing",
+      "region": "Germany, Soviet Union",
+      "coordinates_approx": "52.52, 13.40",
+      "category": "political",
+      "description": "Following the Nazi-Soviet Non-Aggression Pact, Germany and the Soviet Union established limited military cooperation and intelligence sharing. The two powers exchanged military information and coordinated their actions in Eastern Europe. The cooperation was pragmatic rather than ideological and served the interests of both powers. The military cooperation would end abruptly with the German invasion of the Soviet Union in June 1941.",
+      "key_figures": [
+        "Joseph Stalin (General Secretary, Soviet Union)",
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)",
+        "Vyacheslav Molotov (Soviet Foreign Minister)"
+      ],
+      "sources": [
+        {
+          "name": "German and Soviet military records (Bundesarchiv-Milit\u00e4rarchiv, Russian State Military Archive)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Diplomatic correspondence and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Haslam, Jonathan (1979). The Soviet Union and the Struggle for Collective Security in Europe, 1933\u201339",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Documented through military records and diplomatic correspondence. The extent and nature of cooperation are less fully documented than other aspects of the Nazi-Soviet relationship.",
+      "cross_references": [
+        "1939-001 (Nazi-Soviet Pact)",
+        "1941-001 (Operation Barbarossa)"
+      ]
+    },
+    {
+      "id": "1939-020",
+      "title": "German pocket battleship Graf Spee scuttled in the River Plate",
+      "region": "South America, Uruguay",
+      "coordinates_approx": "-34.88, -56.16",
+      "category": "military",
+      "description": "On 17 December 1939, the German pocket battleship Admiral Graf Spee was scuttled (deliberately sunk) in the River Plate off Montevideo, Uruguay, following a naval engagement with British forces. The Graf Spee had been raiding Allied merchant shipping in the Atlantic and Indian Oceans. After being damaged in combat with British cruisers, the ship's captain, Hans Langsdorff, chose to scuttle the ship rather than surrender it to the British. The scuttling of the Graf Spee was a symbolic victory for the British and demonstrated that German naval forces could be defeated. The incident boosted British morale and demonstrated the effectiveness of British naval strategy.",
+      "key_figures": [
+        "Hans Langsdorff (Captain, Admiral Graf Spee)",
+        "Henry Harwood (Commodore, British South America Squadron)"
+      ],
+      "sources": [
+        {
+          "name": "German naval records (Bundesarchiv-Milit\u00e4rarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British naval records (The National Archives, UK)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Gannon, Michael (1990). Black May",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through naval records and contemporary accounts. The date, location, and outcome are well-established.",
+      "cross_references": [
+        "1939-006 (Sinking of Athenia)",
+        "1941-009 (Battle of Atlantic intensifies)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Several commonly held beliefs about 1939 are disputed or complicated by modern scholarship: (1) The 'inevitability' of World War II is disputed; some historians argue that alternative outcomes were possible if different decisions had been made. (2) The extent of Soviet culpability for the invasion of Poland is debated; some historians emphasise that the Soviet invasion was a response to the German invasion and the secret protocols of the Nazi-Soviet Pact. (3) The effectiveness of British and French rearmament in 1939 is disputed; some historians argue that the rearmament was insufficient and poorly coordinated. (4) The significance of the Spanish Civil War as a 'dress rehearsal' for World War II is disputed; some historians argue that the lessons drawn from the Spanish Civil War were misinterpreted by both sides.",
+  "historiographic_note": "1939 is one of the most thoroughly documented years in human history, with extensive contemporary records from all major combatants. However, the historical record is shaped by several biases: (1) Western sources dominate, particularly British and American records, while German, Italian, Soviet, and Japanese perspectives are less fully represented in English-language scholarship. (2) Military and political history is far better documented than civilian experience, particularly in occupied territories. (3) The experiences of colonised peoples in Asia and Africa during Japanese expansion are underrepresented in mainstream historical accounts. (4) The Holocaust, though beginning in this period, is less thoroughly documented for 1939 than for later years. The year 1939 represents the beginning of World War II in Europe and marks a fundamental turning point in twentieth-century history.",
+  "graph_edges": [
+    {
+      "from": "1939-001",
+      "to": "1939-002",
+      "relation": "led_to",
+      "note": "Nazi-Soviet Pact enabled German invasion of Poland"
+    },
+    {
+      "from": "1939-001",
+      "to": "1939-004",
+      "relation": "led_to",
+      "note": "Nazi-Soviet Pact secret protocols enabled Soviet invasion of Poland"
+    },
+    {
+      "from": "1939-002",
+      "to": "1939-003",
+      "relation": "led_to",
+      "note": "German invasion of Poland prompted British and French declarations of war"
+    },
+    {
+      "from": "1939-012",
+      "to": "1939-002",
+      "relation": "led_to",
+      "note": "German occupation of Czechoslovakia preceded invasion of Poland"
+    },
+    {
+      "from": "1939-011",
+      "to": "1939-001",
+      "relation": "contemporary_with",
+      "note": "Spanish Civil War ended as Nazi-Soviet Pact was signed"
+    },
+    {
+      "from": "1939-005",
+      "to": "1939-015",
+      "relation": "led_to",
+      "note": "Winter War led to Soviet expulsion from League of Nations"
+    }
+  ]
+}

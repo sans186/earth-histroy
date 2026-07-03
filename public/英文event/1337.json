@@ -1,0 +1,182 @@
+{
+  "year": 1337,
+  "year_label": "1337 CE",
+  "era_context": "The year 1337 marks the beginning of the Hundred Years' War between England and France, a conflict that would dominate European politics for over a century. The Yuan Dynasty in China was experiencing administrative decline. The Ottoman Empire was consolidating power in Anatolia. The Black Death was still confined to Central Asia but would soon spread catastrophically westward. The Avignon Papacy continued to exercise spiritual authority from southern France. This was a pivotal year for European political history.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Pacific and Oceanic regions",
+    "Central Asian nomadic peoples"
+  ],
+  "events": [
+    {
+      "id": "1337-001",
+      "title": "Hundred Years' War begins; Edward III claims French throne",
+      "region": "England / France",
+      "coordinates_approx": "50.0000, 2.0000",
+      "category": "political",
+      "description": "The Hundred Years' War began in 1337 when King Edward III of England formally claimed the French throne, challenging the Valois succession. The conflict was rooted in disputes over English-held territories in France (particularly Aquitaine), feudal obligations, and dynastic succession. Edward's claim was based on his descent from French royal lines through his mother, Isabella of France. The war would last intermittently until 1453 and would profoundly shape European politics, military technology, and culture.",
+      "key_figures": [
+        "Edward III of England (King)",
+        "Philip VI of France (King)",
+        "Isabella of France (Edward's mother)"
+      ],
+      "sources": [
+        {
+          "name": "English royal chronicles and records",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "French royal records",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Froissart, Chronicles",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The beginning of the Hundred Years' War in 1337 is well-documented in contemporary English and French royal records. The date is universally accepted by historians.",
+      "cross_references": [
+        "1340-001 (Battle of Sluys)",
+        "1346-001 (Battle of Cr\u00e9cy)"
+      ]
+    },
+    {
+      "id": "1337-002",
+      "title": "English embargo on French wool trade",
+      "region": "England / Flanders / France",
+      "coordinates_approx": "50.5000, 2.0000",
+      "category": "economic",
+      "description": "As part of the escalating conflict with France, Edward III imposed an embargo on English wool exports to France and Flanders in 1337. This economic warfare was designed to damage French and Flemish economies and to pressure Flemish cities to support England against France. The wool embargo had significant economic consequences for both England and continental Europe, affecting textile production and trade networks.",
+      "key_figures": [
+        "Edward III of England (King)",
+        "Philip VI of France (King)"
+      ],
+      "sources": [
+        {
+          "name": "English royal records and customs documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Flemish municipal records",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The wool embargo of 1337 is well-documented in English customs records and Flemish municipal archives.",
+      "cross_references": []
+    },
+    {
+      "id": "1337-003",
+      "title": "Yuan Dynasty administrative crisis; Toghon Tem\u00fcr's reign",
+      "region": "China / Yuan Dynasty",
+      "coordinates_approx": "35.0000, 105.0000",
+      "category": "political",
+      "description": "The Yuan Dynasty under Toghon Tem\u00fcr (Huizong Emperor, r. 1333\u20131368) faced deepening administrative crisis in 1337. Factional conflicts within the imperial court, corruption among Mongol officials, and the decline of Mongol military discipline created conditions for rebellion. Environmental stress (droughts, floods) exacerbated social tensions. These crises would contribute to the rise of peasant rebellions in the 1350s and ultimately to the dynasty's collapse in 1368.",
+      "key_figures": [
+        "Toghon Tem\u00fcr (Huizong Emperor, Yuan Dynasty, r. 1333\u20131368)"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shilu (Yuan Dynasty official records)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Ming Shilu (Ming Dynasty records, compiled after 1368)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Yuan Dynasty's administrative crisis in 1337 is attested in official records, but specific details and causation are often unclear. Later Ming historians may have emphasized Yuan decline to justify their own dynasty's legitimacy.",
+      "cross_references": [
+        "1338-003 (Yuan drought and famine)",
+        "1352-001 (Red Turban Rebellion)"
+      ]
+    },
+    {
+      "id": "1337-004",
+      "title": "Ottoman consolidation in Anatolia; Orhan I's reign",
+      "region": "Ottoman Empire / Anatolia",
+      "coordinates_approx": "40.5000, 29.0000",
+      "category": "military",
+      "description": "The Ottoman Empire under Orhan I (r. 1323\u20131362) continued its territorial consolidation in northwestern Anatolia in 1337. Ottoman forces were systematically reducing rival Turkmen beyliks and expanding their control over former Byzantine territories. This expansion was facilitated by Byzantine weakness and the fragmentation of Anatolian political authority. The Ottomans were establishing the administrative and military structures that would enable their later expansion into the Balkans.",
+      "key_figures": [
+        "Orhan I (Ottoman Sultan, r. 1323\u20131362)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (A\u015f\u0131kpa\u015fazade, Ne\u015fri)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine sources (Cantacuzenus, Pachymeres)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ottoman expansion in this period is well-attested in Byzantine sources, but Ottoman chronicles are less reliable for specific dates and details. 1337 is a conventional date for ongoing consolidation, but the exact timeline is uncertain.",
+      "cross_references": []
+    },
+    {
+      "id": "1337-005",
+      "title": "Pope Benedict XII's reign; Avignon Papacy consolidation",
+      "region": "Papal States / Avignon",
+      "coordinates_approx": "43.9506, 4.8066",
+      "category": "religious",
+      "description": "Pope Benedict XII (r. 1334\u20131342) continued his efforts to consolidate papal authority and reform the church in 1337. Benedict XII was known for his administrative reforms and his efforts to strengthen papal finances and ecclesiastical discipline. His papacy represented the height of the Avignon Papacy's power and influence, though it also faced criticism from reformers like Petrarch who called for the papacy's return to Rome.",
+      "key_figures": [
+        "Pope Benedict XII (r. 1334\u20131342)"
+      ],
+      "sources": [
+        {
+          "name": "Papal records and bulls",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles and biographical sources",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Pope Benedict XII's reign and his administrative activities in 1337 are well-documented in papal records and contemporary accounts.",
+      "cross_references": [
+        "1338-002 (Clement VI becomes Bishop of Arras)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of Edward III's claim to the French throne is sometimes overstated; while it was a major political gesture, it was not universally recognized and was largely abandoned by later English kings. The claim was more of a negotiating position than a genuine assertion of sovereignty. The wool embargo of 1337, while economically significant, did not immediately cripple French or Flemish economies and was not sustained consistently throughout the war. The Yuan Dynasty's administrative crisis in 1337 is documented, but the causal links to later rebellion are inferred rather than directly attested.",
+  "historiographic_note": "The year 1337 is well-documented for European events, with contemporary chronicles from England, France, and the Papacy providing detailed accounts. The beginning of the Hundred Years' War is one of the most thoroughly documented events of the medieval period. Asian sources (Chinese, Ottoman) are more fragmentary and often compiled centuries after the events. The surviving sources reflect elite perspectives (royal courts, papal bureaucracy); peasant and non-elite experiences are largely invisible. Ottoman sources are particularly problematic, as they were compiled in the 15th\u201316th centuries and may reflect later political narratives. Sub-Saharan African, Southeast Asian, and Pacific regions are absent from surviving records.",
+  "graph_edges": [
+    {
+      "from": "1337-001",
+      "to": "1340-001",
+      "relation": "led_to",
+      "note": "Hundred Years' War beginning in 1337 led to Battle of Sluys in 1340"
+    },
+    {
+      "from": "1337-002",
+      "to": "1340-001",
+      "relation": "part_of",
+      "note": "Wool embargo was part of broader English strategy in Hundred Years' War"
+    },
+    {
+      "from": "1337-003",
+      "to": "1352-001",
+      "relation": "led_to",
+      "note": "Yuan administrative crisis in 1337 contributed to Red Turban Rebellion in early 1350s"
+    }
+  ]
+}

@@ -1,0 +1,781 @@
+{
+  "year": 1940,
+  "year_label": "1940 CE",
+  "era_context": "World War II in its second year. Nazi Germany has conquered Poland and is now attacking Western Europe. France falls to German invasion in June; Britain stands alone against Nazi Germany. Italy enters the war on Germany's side. Japan continues expansion in China and Southeast Asia. The Soviet Union remains officially neutral but increasingly threatened by German expansion.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1940-001",
+      "title": "German invasion of France and the Low Countries (Case Yellow)",
+      "region": "Western Europe, France, Belgium, Netherlands",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "military",
+      "description": "On 10 May 1940, Nazi Germany launched Operation Case Yellow (Fall Gelb), the invasion of France, Belgium, and the Netherlands. German forces, employing innovative blitzkrieg tactics combining air power, armoured vehicles, and rapid infantry movements, overwhelmed Allied defences. The German army bypassed the heavily fortified Maginot Line by advancing through Belgium and the Netherlands. Within six weeks, France was defeated and forced to sign an armistice on 22 June 1940. The rapid collapse of France shocked the world and left Britain as the sole major power opposing Nazi Germany in Western Europe. The invasion demonstrated the effectiveness of German military innovation and the vulnerability of traditional defensive strategies.",
+      "key_figures": [
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)",
+        "Erich von Manstein (German General, architect of Case Yellow)",
+        "Paul Reynaud (Prime Minister, France)",
+        "Philippe P\u00e9tain (French Marshal, signed armistice)"
+      ],
+      "sources": [
+        {
+          "name": "German military records and war diaries (Bundesarchiv-Milit\u00e4rarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French military records (Service Historique de la D\u00e9fense)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Shirer, William L. (1960). The Rise and Fall of the Third Reich",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented by contemporary military records, official reports, and eyewitness accounts. The dates, scale, and outcome are beyond dispute.",
+      "cross_references": [
+        "1940-002 (Dunkirk evacuation)",
+        "1940-003 (Battle of Britain)",
+        "1939-001 (Invasion of Poland)"
+      ]
+    },
+    {
+      "id": "1940-002",
+      "title": "Dunkirk evacuation and British retreat",
+      "region": "France, Belgium, English Channel",
+      "coordinates_approx": "51.04, 2.37",
+      "category": "military",
+      "description": "Following the German invasion of France and Belgium, British and French forces were trapped on the beaches near Dunkirk, France. Between 26 May and 4 June 1940, the British military orchestrated Operation Dynamo, evacuating approximately 338,000 troops (mostly British, but also French, Belgian, and other Allied soldiers) across the English Channel using military vessels and civilian boats. The evacuation was a tactical defeat but a strategic success, preserving the British army to continue the fight. The evacuation became a symbol of British resilience and determination and prevented the complete destruction of the British Expeditionary Force. The evacuation is remembered in British culture as a moment of national unity and sacrifice.",
+      "key_figures": [
+        "Winston Churchill (Prime Minister, Britain)",
+        "Bertram Ramsay (Admiral, British Navy, organiser of evacuation)",
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)"
+      ],
+      "sources": [
+        {
+          "name": "British military records and official reports (The National Archives, UK)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "German military records (Bundesarchiv-Milit\u00e4rarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Kersshaw, Robert J. (1997). Never Surrender: The Dunkirk Evacuation",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through military records, official reports, and contemporary accounts. The dates, numbers evacuated, and strategic significance are well-established.",
+      "cross_references": [
+        "1940-001 (German invasion of France)",
+        "1940-003 (Battle of Britain)"
+      ]
+    },
+    {
+      "id": "1940-003",
+      "title": "Battle of Britain and German air campaign",
+      "region": "United Kingdom, English Channel",
+      "coordinates_approx": "51.50, -0.13",
+      "category": "military",
+      "description": "Following the fall of France, Nazi Germany sought to gain air superiority over Britain as a prelude to invasion. Between July and October 1940, the German Luftwaffe launched sustained air attacks against British airfields, radar stations, aircraft factories, and cities. The Royal Air Force (RAF), equipped with superior fighter aircraft (the Spitfire and Hurricane) and aided by radar technology, successfully defended British airspace. The German air force suffered heavy losses and failed to achieve air superiority. Hitler abandoned plans for invasion and turned his attention eastward toward the Soviet Union. The Battle of Britain was the first major military defeat of Nazi Germany and demonstrated that German military power could be resisted. The victory boosted British morale and prevented German invasion.",
+      "key_figures": [
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)",
+        "Hermann G\u00f6ring (Reichsmarschall, Luftwaffe commander)",
+        "Winston Churchill (Prime Minister, Britain)",
+        "Hugh Dowding (Air Chief Marshal, RAF)"
+      ],
+      "sources": [
+        {
+          "name": "German Luftwaffe records (Bundesarchiv-Milit\u00e4rarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British Air Ministry records (The National Archives, UK)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Overy, Richard (1980). The Air War 1939\u20131945",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through military records, aircraft loss statistics, and contemporary accounts. The timeline, scale, and outcome are well-established.",
+      "cross_references": [
+        "1940-001 (German invasion of France)",
+        "1940-002 (Dunkirk evacuation)",
+        "1941-001 (Operation Barbarossa)"
+      ]
+    },
+    {
+      "id": "1940-004",
+      "title": "Italy enters World War II on Germany's side",
+      "region": "Italy, Mediterranean",
+      "coordinates_approx": "41.87, 12.57",
+      "category": "political",
+      "description": "On 10 June 1940, Italy, under Benito Mussolini, declared war on Britain and France and formally entered World War II on Germany's side. The Italian entry was motivated by Mussolini's desire to share in German military successes and to expand Italian territory in North Africa and the Mediterranean. However, Italian military forces proved less effective than German forces, and Italian entry ultimately extended the war into the Mediterranean and North Africa, creating new theatres of conflict. The Italian alliance with Germany would last until Italy's surrender in 1943.",
+      "key_figures": [
+        "Benito Mussolini (Il Duce, Italy)",
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)",
+        "Winston Churchill (Prime Minister, Britain)"
+      ],
+      "sources": [
+        {
+          "name": "Italian government records and Mussolini's speeches (Archivio Centrale dello Stato, Rome)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "German diplomatic records (Bundesarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Bosworth, R. J. B. (2006). Mussolini's Italy: Life Under the Dictatorship",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date, declaration, and signatories are definitively documented in official records.",
+      "cross_references": [
+        "1940-001 (German invasion of France)",
+        "1940-005 (Italian invasion of Egypt)"
+      ]
+    },
+    {
+      "id": "1940-005",
+      "title": "Italian invasion of Egypt and North African campaign begins",
+      "region": "North Africa, Egypt, Libya",
+      "coordinates_approx": "30.04, 31.24",
+      "category": "military",
+      "description": "In September 1940, Italian forces under Marshal Rodolfo Graziani invaded Egypt from Libya, seeking to capture the Suez Canal and expand Italian territory in North Africa. The Italian advance was initially successful but was halted by British forces. The campaign in North Africa would continue for three years, with control of the region contested between Axis and Allied forces. The campaign demonstrated the importance of North Africa as a strategic theatre and the vulnerability of British positions in the Mediterranean.",
+      "key_figures": [
+        "Rodolfo Graziani (Italian Marshal)",
+        "Archibald Wavell (British Commander, Middle East)",
+        "Benito Mussolini (Il Duce, Italy)"
+      ],
+      "sources": [
+        {
+          "name": "Italian military records (Ufficio Storico dello Stato Maggiore dell'Esercito)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British military records (The National Archives, UK)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Playfair, I. S. D. (1954). The Mediterranean and Middle East, Vol. I: The Early Successes Against Italy",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Documented through military records and contemporary accounts. The date, scale, and initial success of the invasion are well-established.",
+      "cross_references": [
+        "1940-004 (Italy enters war)",
+        "1941-010 (Rommel's advance in North Africa)"
+      ]
+    },
+    {
+      "id": "1940-006",
+      "title": "Vichy France established as German puppet state",
+      "region": "France",
+      "coordinates_approx": "46.13, 3.43",
+      "category": "political",
+      "description": "Following the French defeat and armistice with Germany on 22 June 1940, the French government established a new state in the unoccupied zone of southern France, with its capital at Vichy. The Vichy regime, led by Marshal Philippe P\u00e9tain, was nominally independent but was effectively a German puppet state. Vichy France collaborated with Nazi Germany, implementing anti-Semitic laws and providing resources to the German war effort. The Vichy regime remained in place until 1944 and became a symbol of collaboration and moral compromise. The establishment of Vichy France represented the complete political defeat of France and the consolidation of German control over Western Europe.",
+      "key_figures": [
+        "Philippe P\u00e9tain (Marshal, Chief of State, Vichy France)",
+        "Pierre Laval (Prime Minister, Vichy France)",
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)"
+      ],
+      "sources": [
+        {
+          "name": "Vichy government records (Archives de France)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "German diplomatic and military records (Bundesarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Paxton, Robert O. (1972). Vichy France: Old Guard and New Order, 1940\u20131944",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through government records and contemporary accounts. The establishment, leadership, and nature of the Vichy regime are well-established.",
+      "cross_references": [
+        "1940-001 (German invasion of France)",
+        "1944-002 (Liberation of France)"
+      ]
+    },
+    {
+      "id": "1940-007",
+      "title": "Free French movement established under Charles de Gaulle",
+      "region": "Britain, France",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "political",
+      "description": "Following the French defeat and the establishment of the Vichy regime, French General Charles de Gaulle fled to Britain and established the Free French movement (France Libre) on 18 June 1940. De Gaulle refused to accept the French defeat and called for continued resistance against Nazi Germany. The Free French movement, though initially small and lacking significant military resources, became a symbol of French resistance and determination. De Gaulle's famous radio broadcast from London on 18 June 1940, calling for continued resistance, became iconic in French history. The Free French movement would eventually grow into a significant military force and would play a crucial role in the liberation of France.",
+      "key_figures": [
+        "Charles de Gaulle (General, Free French)",
+        "Winston Churchill (Prime Minister, Britain)",
+        "Philippe P\u00e9tain (Marshal, Vichy France)"
+      ],
+      "sources": [
+        {
+          "name": "Free French records and de Gaulle's speeches (Archives de la France Libre, Institut Charles de Gaulle)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British government records (The National Archives, UK)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jackson, Julian (2003). Charles de Gaulle",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through de Gaulle's speeches, Free French records, and British government documents. The date and significance of the movement are well-established.",
+      "cross_references": [
+        "1940-001 (German invasion of France)",
+        "1940-006 (Vichy France established)",
+        "1944-002 (Liberation of France)"
+      ]
+    },
+    {
+      "id": "1940-008",
+      "title": "Tripartite Pact signed by Germany, Italy, and Japan",
+      "region": "Berlin, Germany",
+      "coordinates_approx": "52.52, 13.40",
+      "category": "political",
+      "description": "On 27 September 1940, Nazi Germany, Fascist Italy, and Imperial Japan signed the Tripartite Pact (also known as the Axis Pact), formalising their military and political alliance. The pact committed the three powers to mutual defence and recognised their respective spheres of influence: Germany and Italy in Europe, Japan in East Asia. The pact was intended to deter the United States from entering the war but ultimately failed in this objective. The Tripartite Pact represented the formal consolidation of the Axis alliance and committed the three powers to a coordinated war effort.",
+      "key_figures": [
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)",
+        "Benito Mussolini (Il Duce, Italy)",
+        "Hideki Tojo (Prime Minister, Japan)"
+      ],
+      "sources": [
+        {
+          "name": "Official text of the Tripartite Pact (German, Italian, and Japanese government records)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Diplomatic correspondence and records (Bundesarchiv, Archivio Centrale dello Stato, National Institute for Defense Studies)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ienaga, Saburo (1978). The Pacific War",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The text, date, and signatories are definitively documented in official records.",
+      "cross_references": [
+        "1940-001 (German invasion of France)",
+        "1940-004 (Italy enters war)",
+        "1941-003 (Pearl Harbor)"
+      ]
+    },
+    {
+      "id": "1940-009",
+      "title": "Soviet occupation of the Baltic states",
+      "region": "Baltic region, Soviet Union",
+      "coordinates_approx": "56.0, 24.0",
+      "category": "military",
+      "description": "In June 1940, following the German invasion of France and the apparent weakness of Western powers, the Soviet Union occupied the Baltic states of Lithuania, Latvia, and Estonia. The occupation was facilitated by the secret protocols of the Nazi-Soviet Non-Aggression Pact of 1939, which had assigned the Baltic states to the Soviet sphere of influence. The Soviet occupation involved the installation of communist governments, collectivisation of agriculture, and the deportation of thousands of Baltic citizens to Siberia. The occupation lasted until 1941, when Nazi Germany invaded the Soviet Union and occupied the Baltic states. The Soviet occupation of the Baltic states remains controversial and is viewed by Baltic nations as an illegal invasion and occupation.",
+      "key_figures": [
+        "Joseph Stalin (General Secretary, Soviet Union)",
+        "Vyacheslav Molotov (Soviet Foreign Minister)"
+      ],
+      "sources": [
+        {
+          "name": "Soviet government records (Russian State Archive of Foreign Policy)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Baltic government records and contemporary accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Misiunas, Romuald J., & Taagepera, Rein (1983). The Baltic States: Years of Dependence, 1940\u20131990",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through Soviet records, Baltic government records, and contemporary accounts. The dates and scale of occupation are well-established.",
+      "cross_references": [
+        "1939-001 (Nazi-Soviet Pact)",
+        "1941-001 (Operation Barbarossa)"
+      ]
+    },
+    {
+      "id": "1940-010",
+      "title": "Soviet occupation of Bessarabia and Bukovina",
+      "region": "Eastern Europe, Romania",
+      "coordinates_approx": "46.0, 28.0",
+      "category": "military",
+      "description": "In June 1940, the Soviet Union issued an ultimatum to Romania demanding the cession of Bessarabia and northern Bukovina. Romania, weakened by the fall of France and lacking support from other powers, complied. The Soviet occupation of these territories was facilitated by the secret protocols of the Nazi-Soviet Pact, which had assigned Bessarabia to the Soviet sphere of influence. The occupation involved the installation of Soviet administration and the deportation of thousands of Romanians. The occupation lasted until 1941, when Nazi Germany invaded the Soviet Union and occupied these territories. The Soviet occupation of Bessarabia and Bukovina remains controversial and is viewed by Romania as an illegal invasion and occupation.",
+      "key_figures": [
+        "Joseph Stalin (General Secretary, Soviet Union)",
+        "Ion Antonescu (Conduc\u0103tor, Romania)"
+      ],
+      "sources": [
+        {
+          "name": "Soviet government records (Russian State Archive of Foreign Policy)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Romanian government records and contemporary accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Deletant, Dennis (1999). Hitler's Forgotten Ally: Ion Antonescu and His Regime, Romania 1940\u201344",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Documented through Soviet and Romanian government records. The dates and scale of occupation are well-established.",
+      "cross_references": [
+        "1939-001 (Nazi-Soviet Pact)",
+        "1941-001 (Operation Barbarossa)"
+      ]
+    },
+    {
+      "id": "1940-011",
+      "title": "Japanese invasion of French Indochina",
+      "region": "Southeast Asia, Indochina",
+      "coordinates_approx": "16.0, 105.0",
+      "category": "military",
+      "description": "In September 1940, Japanese forces invaded French Indochina (Vietnam, Laos, Cambodia), establishing military bases and securing resources for Japan's war effort in China. The invasion was facilitated by the weakness of France following its defeat by Germany and the collaboration of the Vichy French administration in Indochina. The Japanese occupation of Indochina represented a significant expansion of Japanese control in Southeast Asia and brought Japan into direct conflict with British and American interests in the region. The occupation lasted until 1945 and resulted in significant civilian suffering and economic disruption.",
+      "key_figures": [
+        "Hideki Tojo (Prime Minister, Japan)",
+        "Isoroku Yamamoto (Admiral, Japanese Combined Fleet)",
+        "Jean Decoux (French Governor-General, Indochina)"
+      ],
+      "sources": [
+        {
+          "name": "Japanese military records (National Institute for Defense Studies, Tokyo)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French colonial records (Archives d'Outre-Mer, Aix-en-Provence)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ienaga, Saburo (1978). The Pacific War",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Documented through Japanese military records and French colonial records. The date and scale of invasion are well-established.",
+      "cross_references": [
+        "1940-001 (German invasion of France)",
+        "1940-006 (Vichy France established)",
+        "1941-012 (Japanese occupation of Indochina completed)"
+      ]
+    },
+    {
+      "id": "1940-012",
+      "title": "Blitz: German bombing campaign against Britain",
+      "region": "United Kingdom",
+      "coordinates_approx": "51.50, -0.13",
+      "category": "military",
+      "description": "Following the failure to achieve air superiority in the Battle of Britain, the German Luftwaffe shifted to a bombing campaign against British cities, known as the Blitz. Between September 1940 and May 1941, German bombers attacked London, Coventry, Plymouth, and other British cities, killing approximately 40,000 civilians and destroying hundreds of thousands of homes. The bombing campaign was intended to break British morale and force surrender but failed to achieve this objective. The Blitz demonstrated the vulnerability of civilian populations to air attack and the resilience of British society under bombardment. The campaign ultimately strengthened British determination to resist Nazi Germany.",
+      "key_figures": [
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)",
+        "Hermann G\u00f6ring (Reichsmarschall, Luftwaffe commander)",
+        "Winston Churchill (Prime Minister, Britain)"
+      ],
+      "sources": [
+        {
+          "name": "German Luftwaffe records (Bundesarchiv-Milit\u00e4rarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British Air Ministry and Home Office records (The National Archives, UK)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Overy, Richard (1980). The Air War 1939\u20131945",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through military records, casualty statistics, and contemporary accounts. The timeline, scale, and casualties are well-established.",
+      "cross_references": [
+        "1940-003 (Battle of Britain)",
+        "1941-001 (Operation Barbarossa)"
+      ]
+    },
+    {
+      "id": "1940-013",
+      "title": "British attack on French fleet at Mers-el-K\u00e9bir",
+      "region": "North Africa, Algeria",
+      "coordinates_approx": "35.87, -0.63",
+      "category": "military",
+      "description": "On 3 July 1940, British naval forces attacked the French fleet anchored at Mers-el-K\u00e9bir in Algeria, sinking or damaging several ships and killing approximately 1,300 French sailors. The attack was intended to prevent the French fleet from falling under German control following the French defeat and armistice. The attack was controversial and damaged British-French relations, but it demonstrated British determination to continue the fight against Nazi Germany. The attack also prevented Germany from gaining control of significant naval assets that might have threatened British naval superiority.",
+      "key_figures": [
+        "Winston Churchill (Prime Minister, Britain)",
+        "James Somerville (Admiral, British Mediterranean Fleet)",
+        "Fran\u00e7ois Darlan (Admiral, French Navy)"
+      ],
+      "sources": [
+        {
+          "name": "British naval records (The National Archives, UK)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French naval records (Service Historique de la D\u00e9fense)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Playfair, I. S. D. (1954). The Mediterranean and Middle East, Vol. I",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through naval records and contemporary accounts. The date, scale, and casualties are well-established.",
+      "cross_references": [
+        "1940-001 (German invasion of France)",
+        "1940-006 (Vichy France established)"
+      ]
+    },
+    {
+      "id": "1940-014",
+      "title": "Roosevelt re-elected to unprecedented third term as US President",
+      "region": "United States",
+      "coordinates_approx": "38.89, -77.04",
+      "category": "political",
+      "description": "On 5 November 1940, Franklin D. Roosevelt was re-elected to an unprecedented third term as President of the United States, defeating Republican challenger Wendell Willkie. Roosevelt's re-election was significant because it broke the two-term tradition established by George Washington and continued by all subsequent presidents. The election took place during the crisis of World War II, with Britain standing alone against Nazi Germany. Roosevelt's re-election ensured continuity in US foreign policy and his commitment to supporting Britain through the Lend-Lease programme. The election demonstrated American support for Roosevelt's interventionist foreign policy despite official US neutrality.",
+      "key_figures": [
+        "Franklin D. Roosevelt (President, United States)",
+        "Wendell Willkie (Republican candidate)",
+        "Henry Wallace (Vice President, United States)"
+      ],
+      "sources": [
+        {
+          "name": "US election records and results (National Archives)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news accounts and political commentary",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Kennedy, David M. (1999). Freedom from Fear",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The election results, date, and significance are definitively documented in official records.",
+      "cross_references": [
+        "1940-003 (Battle of Britain)",
+        "1941-005 (Lend-Lease Act)"
+      ]
+    },
+    {
+      "id": "1940-015",
+      "title": "Soviet-Japanese Neutrality Pact signed",
+      "region": "Soviet Union, Japan",
+      "coordinates_approx": "55.75, 37.62",
+      "category": "political",
+      "description": "On 13 April 1940, the Soviet Union and Japan signed the Soviet-Japanese Neutrality Pact, committing the two powers to neutrality in the event of war with third parties. The pact was intended to reduce tensions between the two powers, which had clashed in Manchuria and Mongolia. The pact allowed both powers to focus on their respective strategic objectives: the Soviet Union on Europe and Japan on China and Southeast Asia. The pact remained in effect until 1945, when the Soviet Union declared war on Japan following the German surrender. The pact represented a pragmatic accommodation between two powers with conflicting interests in East Asia.",
+      "key_figures": [
+        "Joseph Stalin (General Secretary, Soviet Union)",
+        "Vyacheslav Molotov (Soviet Foreign Minister)",
+        "Yosuke Matsuoka (Japanese Foreign Minister)"
+      ],
+      "sources": [
+        {
+          "name": "Official text of the Soviet-Japanese Neutrality Pact (Soviet and Japanese government records)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Diplomatic correspondence and records (Russian State Archive of Foreign Policy, Japanese Ministry of Foreign Affairs)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ienaga, Saburo (1978). The Pacific War",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The text, date, and signatories are definitively documented in official records.",
+      "cross_references": [
+        "1939-001 (Nazi-Soviet Pact)",
+        "1945-003 (Soviet declaration of war on Japan)"
+      ]
+    },
+    {
+      "id": "1940-016",
+      "title": "British counteroffensive in North Africa (Operation Compass)",
+      "region": "North Africa, Libya, Egypt",
+      "coordinates_approx": "30.0, 25.0",
+      "category": "military",
+      "description": "In December 1940, British forces under General Archibald Wavell launched Operation Compass, a counteroffensive against Italian forces in North Africa. The British offensive achieved surprising success, advancing rapidly and inflicting heavy casualties on Italian forces. The British captured thousands of Italian prisoners and significant quantities of equipment. The offensive demonstrated that Italian forces were less effective than German forces and that British forces could achieve tactical victories despite being outnumbered. However, the arrival of German forces under Erwin Rommel in early 1941 would reverse British gains and lead to a prolonged campaign in North Africa.",
+      "key_figures": [
+        "Archibald Wavell (British General, Commander Middle East)",
+        "Richard O'Connor (British General, Western Desert Force)",
+        "Rodolfo Graziani (Italian Marshal)"
+      ],
+      "sources": [
+        {
+          "name": "British military records (The National Archives, UK)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Italian military records (Ufficio Storico dello Stato Maggiore dell'Esercito)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Playfair, I. S. D. (1954). The Mediterranean and Middle East, Vol. I",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Documented through military records and contemporary accounts. The timeline, scale, and results are well-established.",
+      "cross_references": [
+        "1940-005 (Italian invasion of Egypt)",
+        "1941-010 (Rommel's advance in North Africa)"
+      ]
+    },
+    {
+      "id": "1940-017",
+      "title": "Trotsky assassinated in Mexico",
+      "region": "Mexico",
+      "coordinates_approx": "19.43, -99.13",
+      "category": "political",
+      "description": "On 20 August 1940, Leon Trotsky, the exiled Soviet revolutionary and founder of the Red Army, was assassinated in Mexico City by Ram\u00f3n Mercader, a Soviet NKVD agent. Trotsky had been a leading figure in the Russian Revolution and a rival of Joseph Stalin. After his expulsion from the Soviet Union in 1929, Trotsky had lived in exile and continued to criticise Stalin's policies. The assassination was ordered by Stalin and represented the culmination of a long campaign to eliminate Trotsky and his followers. The assassination demonstrated Stalin's determination to eliminate all potential rivals and critics, even those living in exile.",
+      "key_figures": [
+        "Leon Trotsky (Soviet revolutionary, exiled)",
+        "Ram\u00f3n Mercader (NKVD assassin)",
+        "Joseph Stalin (General Secretary, Soviet Union)"
+      ],
+      "sources": [
+        {
+          "name": "Mexican police and judicial records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Soviet NKVD records (Russian State Archive of the FSB)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Deutscher, Isaac (1963). The Prophet Outcast: Trotsky in Exile",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The assassination, date, and perpetrator are definitively documented through Mexican judicial records and later Soviet admissions.",
+      "cross_references": [
+        "1929-001 (Trotsky's expulsion from Soviet Union)",
+        "1940-018 (Stalin's Great Purge continuation)"
+      ]
+    },
+    {
+      "id": "1940-018",
+      "title": "Continuation of Stalin's purges and consolidation of totalitarian control",
+      "region": "Soviet Union",
+      "coordinates_approx": "55.75, 37.62",
+      "category": "political",
+      "description": "Throughout 1940, Stalin continued to consolidate totalitarian control over the Soviet Union through purges, executions, and deportations. Although the Great Purge of 1936\u20131938 had officially ended, Stalin continued to eliminate perceived enemies and rivals. The NKVD (secret police) continued to arrest, interrogate, torture, and execute thousands of Soviet citizens suspected of disloyalty or ideological deviation. The purges extended to military officers, party officials, intellectuals, and ordinary citizens. The purges weakened Soviet military leadership and contributed to initial Soviet defeats following the German invasion in 1941. The purges represented Stalin's determination to maintain absolute control through terror and violence.",
+      "key_figures": [
+        "Joseph Stalin (General Secretary, Soviet Union)",
+        "Lavrentiy Beria (NKVD chief)",
+        "Nikolai Yezhov (NKVD chief, predecessor to Beria)"
+      ],
+      "sources": [
+        {
+          "name": "Soviet NKVD records (Russian State Archive of the FSB)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Soviet judicial and administrative records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Getty, J. Arch, & Naumov, Vladimir P. (1999). The Road to Terror: Stalin and the Self-Destruction of the Bolsheviks, 1932\u20131939",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Documented through Soviet records and post-Soviet archival releases. The scale and nature of purges are well-established, though exact casualty figures remain debated.",
+      "cross_references": [
+        "1936-001 (Great Purge begins)",
+        "1938-001 (Great Purge ends)",
+        "1940-017 (Trotsky assassination)"
+      ]
+    },
+    {
+      "id": "1940-019",
+      "title": "German-Soviet economic cooperation and trade agreements",
+      "region": "Germany, Soviet Union",
+      "coordinates_approx": "52.52, 13.40",
+      "category": "economic",
+      "description": "Throughout 1940, Germany and the Soviet Union maintained economic cooperation under the terms of the Nazi-Soviet Non-Aggression Pact of 1939. The Soviet Union supplied Germany with raw materials including oil, grain, and minerals essential to the German war effort. In return, Germany supplied the Soviet Union with manufactured goods and industrial equipment. The trade was conducted under the terms of the German-Soviet Trade Agreement of 1940, which formalised the economic relationship. The economic cooperation was pragmatic rather than ideological and served the interests of both powers. However, the economic relationship would end abruptly with the German invasion of the Soviet Union in June 1941.",
+      "key_figures": [
+        "Joseph Stalin (General Secretary, Soviet Union)",
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)",
+        "Vyacheslav Molotov (Soviet Foreign Minister)"
+      ],
+      "sources": [
+        {
+          "name": "German-Soviet Trade Agreement of 1940 (official text)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "German and Soviet economic records (Bundesarchiv, Russian State Archive of the Economy)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Haslam, Jonathan (1979). The Soviet Union and the Struggle for Collective Security in Europe, 1933\u201339",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Documented through trade agreements and economic records. The terms and scale of trade are well-established.",
+      "cross_references": [
+        "1939-001 (Nazi-Soviet Pact)",
+        "1941-001 (Operation Barbarossa)"
+      ]
+    },
+    {
+      "id": "1940-020",
+      "title": "Japanese expansion in China continues",
+      "region": "East Asia, China",
+      "coordinates_approx": "35.0, 105.0",
+      "category": "military",
+      "description": "Throughout 1940, Japanese forces continued their invasion and occupation of China, which had begun in 1937. Japanese forces controlled major cities and transportation routes but faced continued resistance from Chinese nationalist and communist forces. The Japanese occupation involved significant civilian casualties and economic disruption. The Japanese military committed numerous atrocities against Chinese civilians, including massacres, forced labour, and sexual slavery. The war in China was a major drain on Japanese resources and contributed to Japan's decision to expand into Southeast Asia to secure additional resources. The war in China would continue until 1945.",
+      "key_figures": [
+        "Hideki Tojo (Prime Minister, Japan)",
+        "Isoroku Yamamoto (Admiral, Japanese Combined Fleet)",
+        "Chiang Kai-shek (Generalissimo, Chinese Nationalist Government)"
+      ],
+      "sources": [
+        {
+          "name": "Japanese military records (National Institute for Defense Studies, Tokyo)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese government records and contemporary accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ienaga, Saburo (1978). The Pacific War",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Documented through military records and contemporary accounts. The continuation of Japanese expansion is well-established.",
+      "cross_references": [
+        "1937-001 (Japanese invasion of China begins)",
+        "1941-004 (Japanese expansion in Southeast Asia)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Several commonly held beliefs about 1940 are disputed or complicated by modern scholarship: (1) The 'inevitability' of German victory following the fall of France is disputed; some historians argue that German strategic options were more limited than commonly portrayed. (2) The effectiveness of the Blitz in breaking British morale is disputed; some historians argue that the bombing campaign strengthened rather than weakened British determination to resist. (3) The extent of French collaboration with Nazi Germany is debated; some historians emphasise the complexity of French responses to occupation and the existence of resistance movements. (4) The significance of the Battle of Britain as a 'turning point' is disputed; some historians argue that German strategic objectives had already shifted eastward before the battle's conclusion.",
+  "historiographic_note": "1940 is one of the most thoroughly documented years in human history, with extensive contemporary records from all major combatants. However, the historical record is shaped by several biases: (1) Western sources dominate, particularly British and American records, while German, Italian, and Japanese perspectives are less fully represented in English-language scholarship. (2) Military and political history is far better documented than civilian experience, particularly in occupied territories. (3) The experiences of colonised peoples in Asia and Africa during Japanese expansion are underrepresented in mainstream historical accounts. (4) The Holocaust, though beginning in this period, is less thoroughly documented for 1940 than for later years. The year 1940 represents a critical turning point in World War II, with the fall of France and the Battle of Britain determining the course of the war in Western Europe.",
+  "graph_edges": [
+    {
+      "from": "1940-001",
+      "to": "1940-002",
+      "relation": "led_to",
+      "note": "German invasion of France led to Dunkirk evacuation"
+    },
+    {
+      "from": "1940-001",
+      "to": "1940-003",
+      "relation": "led_to",
+      "note": "German invasion of France led to Battle of Britain"
+    },
+    {
+      "from": "1940-001",
+      "to": "1940-006",
+      "relation": "led_to",
+      "note": "German invasion of France led to establishment of Vichy regime"
+    },
+    {
+      "from": "1940-001",
+      "to": "1940-007",
+      "relation": "led_to",
+      "note": "German invasion of France prompted de Gaulle to establish Free French movement"
+    },
+    {
+      "from": "1940-004",
+      "to": "1940-005",
+      "relation": "led_to",
+      "note": "Italy's entry into war led to invasion of Egypt"
+    },
+    {
+      "from": "1940-003",
+      "to": "1940-012",
+      "relation": "led_to",
+      "note": "German failure in Battle of Britain led to Blitz bombing campaign"
+    },
+    {
+      "from": "1940-006",
+      "to": "1940-013",
+      "relation": "contemporary_with",
+      "note": "Vichy France and British attack on French fleet were related to French defeat"
+    }
+  ]
+}

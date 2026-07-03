@@ -1,0 +1,403 @@
+{
+  "year": 1805,
+  "year_label": "1805 CE",
+  "era_context": "The Napoleonic Wars are at their height; Britain stands alone against French hegemony after the collapse of the Third Coalition; the Qing Dynasty remains economically dominant but faces internal challenges; the Ottoman Empire continues its long decline; the United States is consolidating its early republic under Jefferson; the Industrial Revolution is accelerating in Britain.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1805-001",
+      "title": "Battle of Trafalgar",
+      "region": "Atlantic Ocean, off Cape Trafalgar (Spain/Morocco border)",
+      "coordinates_approx": "36.2, -6.0",
+      "category": "military",
+      "description": "On October 21, 1805, the British Royal Navy under Admiral Nelson decisively defeated the combined Franco-Spanish fleet off Cape Trafalgar. The battle resulted in the destruction of 17 enemy ships of the line with no British ships lost, though Nelson was mortally wounded. Trafalgar established British naval supremacy for the next century and made invasion of Britain impossible for Napoleon. The victory had profound strategic consequences: it secured Britain's position as a global power, enabled the British blockade of France, and contributed to Napoleon's shift toward the Continental System. Nelson's death made him a national hero and symbol of British naval dominance.",
+      "key_figures": [
+        "Admiral Horatio Nelson (British commander, killed in action)",
+        "Vice-Admiral Collingwood (British second-in-command)",
+        "Admiral Villeneuve (Franco-Spanish commander)",
+        "Napoleon Bonaparte (strategic architect)"
+      ],
+      "sources": [
+        {
+          "name": "British Admiralty official reports and dispatches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Eyewitness accounts from British naval officers and sailors",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French and Spanish naval records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary British newspaper accounts",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "One of the most thoroughly documented naval battles in history; date, location, and outcome are unambiguous.",
+      "cross_references": [
+        "1805-002 (Battle of Austerlitz)",
+        "1806-004 (British Orders in Council)"
+      ]
+    },
+    {
+      "id": "1805-002",
+      "title": "Battle of Austerlitz",
+      "region": "Moravia (present-day Czech Republic)",
+      "coordinates_approx": "49.2, 16.8",
+      "category": "military",
+      "description": "On December 2, 1805, Napoleon defeated the combined Austro-Russian army at Austerlitz (Slavkov) in what is often called the 'Battle of the Three Emperors' (Napoleon, Francis II of Austria, and Alexander I of Russia were all present). The French victory was decisive and tactically brilliant, resulting in approximately 15,000 Allied casualties versus 9,000 French. The battle effectively ended the Third Coalition against France and forced Austria to sue for peace. Austerlitz is considered one of Napoleon's greatest military achievements and demonstrated the superiority of French military organization and tactics. The victory had immediate consequences for Central European politics and the dissolution of the Holy Roman Empire.",
+      "key_figures": [
+        "Napoleon Bonaparte (French commander)",
+        "Marshal Davout (French corps commander)",
+        "Emperor Francis II (Austrian commander)",
+        "Tsar Alexander I (Russian commander)",
+        "General Kutuzov (Russian field commander)"
+      ],
+      "sources": [
+        {
+          "name": "French military reports and Napoleon's correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Austrian and Russian military records and eyewitness accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary military analyses and reports",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented from multiple contemporary sources; date and outcome are unambiguous.",
+      "cross_references": [
+        "1805-001 (Battle of Trafalgar)",
+        "1806-001 (Dissolution of Holy Roman Empire)"
+      ]
+    },
+    {
+      "id": "1805-003",
+      "title": "Treaty of Pressburg",
+      "region": "Pressburg (present-day Bratislava, Slovakia)",
+      "coordinates_approx": "48.1, 17.1",
+      "category": "political",
+      "description": "Following the Battle of Austerlitz, Austria signed the Treaty of Pressburg on December 26, 1805, ending the War of the Third Coalition. Austria ceded significant territories to France and its allies: Venetia and Istria to France, Tyrol and Vorarlberg to Bavaria, and Salzburg to Bernadotte. Austria also recognized the Italian Republic and the Helvetic Republic. The treaty marked a major shift in the balance of power in Central Europe and demonstrated French dominance. It also accelerated the reorganization of German territories that would culminate in the Confederation of the Rhine in 1806.",
+      "key_figures": [
+        "Napoleon Bonaparte (French negotiator)",
+        "Emperor Francis II (Austrian negotiator)",
+        "Prince Metternich (Austrian diplomat)"
+      ],
+      "sources": [
+        {
+          "name": "Treaty of Pressburg, official text",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French and Austrian diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary diplomatic reports",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The treaty is precisely dated and extensively documented in diplomatic archives.",
+      "cross_references": [
+        "1805-002 (Battle of Austerlitz)",
+        "1806-001 (Confederation of the Rhine)"
+      ]
+    },
+    {
+      "id": "1805-004",
+      "title": "Fulton's steamboat demonstration",
+      "region": "Hudson River, New York, United States",
+      "coordinates_approx": "40.7, -74.0",
+      "category": "technological",
+      "description": "Robert Fulton successfully demonstrated his steamboat, the Clermont, on the Hudson River on August 17, 1805, traveling from New York to Albany (approximately 150 miles) in 32 hours. While steam-powered vessels had been experimented with earlier, Fulton's design was the first commercially viable steamboat. The successful demonstration proved the feasibility of steam navigation and led to the establishment of regular steamboat service. This innovation had profound consequences for American transportation, commerce, and westward expansion. Fulton's achievement marked a crucial step in the Industrial Revolution's application to transportation.",
+      "key_figures": [
+        "Robert Fulton (inventor and engineer)",
+        "Robert R. Livingston (patron and investor)",
+        "Nicholas J. Roosevelt (engineer and investor)"
+      ],
+      "sources": [
+        {
+          "name": "Fulton's personal accounts and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Newspaper accounts of the demonstration",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Eyewitness accounts from passengers and observers",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date of August 17, 1805, is well-documented in contemporary sources and Fulton's records.",
+      "cross_references": [
+        "1807-003 (Clermont regular service begins)"
+      ]
+    },
+    {
+      "id": "1805-005",
+      "title": "White Lotus Rebellion: ongoing suppression in Qing China",
+      "region": "Central China (Hubei, Sichuan, Shaanxi provinces)",
+      "coordinates_approx": "31.0, 110.0",
+      "category": "military",
+      "description": "The White Lotus Rebellion, which began in 1796, continued into 1805 with Qing imperial forces engaged in suppression campaigns. The rebellion was a major challenge to Qing authority, involving both religious and social dimensions. By 1805, the rebellion was being gradually suppressed through military campaigns and administrative measures, though it would not be fully extinguished until 1804. The rebellion demonstrated vulnerabilities in Qing control and foreshadowed later challenges to the dynasty. The conflict also revealed the strain on Qing military resources and the limitations of the imperial system in responding to large-scale internal unrest.",
+      "key_figures": [
+        "Jiaqing Emperor (Qing ruler)",
+        "General Fukanggan (Qing military commander, died 1799)",
+        "White Lotus religious leaders (various)"
+      ],
+      "sources": [
+        {
+          "name": "Qing imperial records and military reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Official Qing administrative documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later Qing historiography",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of the rebellion is well-documented; specific events in 1805 are less precisely dated in Western sources.",
+      "cross_references": [
+        "1796-001 (White Lotus Rebellion begins)",
+        "1804-001 (Rebellion suppression)"
+      ]
+    },
+    {
+      "id": "1805-006",
+      "title": "Barbary Wars: USS Constitution vs. Tripoli",
+      "region": "Mediterranean Sea, North Africa (Tripoli)",
+      "coordinates_approx": "32.9, 13.2",
+      "category": "military",
+      "description": "The First Barbary War (1801\u20131805) between the United States and Tripoli reached its climax in 1805. The USS Constitution, under Commodore Edward Preble, conducted naval operations against Tripoli. The war was fought over American merchant shipping rights and the payment of tribute to Barbary States. The conflict ended with the Treaty of Tripoli in June 1805, which established American naval credibility in the Mediterranean and reduced (though did not eliminate) tribute payments. The war demonstrated American naval capability and marked an important assertion of American sovereignty. The conflict also had broader implications for American foreign policy and naval development.",
+      "key_figures": [
+        "Commodore Edward Preble (USS Constitution commander)",
+        "Stephen Decatur (American naval officer)",
+        "Yusuf Karamanli (Pasha of Tripoli)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Navy official records and dispatches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Commodore Preble's correspondence and reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Treaty of Tripoli, June 4, 1805",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The treaty date and naval operations are well-documented in U.S. Navy records.",
+      "cross_references": [
+        "1801-001 (First Barbary War begins)"
+      ]
+    },
+    {
+      "id": "1805-007",
+      "title": "Goethe's Faust Part One published",
+      "region": "German-speaking territories (Weimar)",
+      "coordinates_approx": "50.9, 11.3",
+      "category": "cultural",
+      "description": "Johann Wolfgang von Goethe published the first part of his dramatic poem Faust in 1805. Faust Part One represents one of the greatest works of German literature and world literature generally. The work synthesizes German Romantic and Classical traditions and explores themes of human ambition, knowledge, and redemption. The publication was a major cultural event in German-speaking territories and influenced European literature profoundly. Goethe's Faust became a foundational text for German national identity and continues to be widely read and performed.",
+      "key_figures": [
+        "Johann Wolfgang von Goethe (author)",
+        "Friedrich Schiller (contemporary literary figure)"
+      ],
+      "sources": [
+        {
+          "name": "Faust: Eine Trag\u00f6die, first published edition, 1805",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Goethe's correspondence and journals",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary literary reviews and correspondence",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The publication date of 1805 is well-documented in bibliographic records.",
+      "cross_references": [
+        "1832-001 (Faust Part Two published)"
+      ]
+    },
+    {
+      "id": "1805-008",
+      "title": "Haitian independence: Jean-Jacques Dessalines declares independence",
+      "region": "Haiti (Caribbean)",
+      "coordinates_approx": "19.0, -72.3",
+      "category": "political",
+      "description": "On January 1, 1805, Haiti formally declared independence under the leadership of Jean-Jacques Dessalines, who crowned himself Emperor. Haiti became the first independent nation in Latin America and the first successful slave revolution in history. The Haitian Revolution (1791\u20131804) had already established de facto independence, but the 1805 declaration formalized it. The new nation faced immediate challenges: international isolation (especially from France and the United States), economic devastation from years of warfare, and the need to establish stable governance. Haiti's independence was a revolutionary moment with profound implications for slavery, colonialism, and the Americas.",
+      "key_figures": [
+        "Jean-Jacques Dessalines (Emperor of Haiti)",
+        "Toussaint L'Ouverture (revolutionary leader, died 1803)",
+        "Henri Christophe (military leader)"
+      ],
+      "sources": [
+        {
+          "name": "Haitian independence declaration and official documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Dessalines' correspondence and proclamations",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French and American diplomatic reports on Haiti",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date of January 1, 1805, is well-documented in Haitian and international sources.",
+      "cross_references": [
+        "1791-001 (Haitian Revolution begins)",
+        "1804-001 (Haiti de facto independence)"
+      ]
+    },
+    {
+      "id": "1805-009",
+      "title": "Dalton's atomic theory: publication of A New System of Chemical Philosophy",
+      "region": "Manchester, England",
+      "coordinates_approx": "53.5, -2.2",
+      "category": "scientific",
+      "description": "John Dalton published the first part of A New System of Chemical Philosophy in 1805, presenting his atomic theory. Dalton proposed that all matter is composed of indivisible atoms, that atoms of the same element are identical, and that chemical compounds are formed by the combination of atoms in simple whole-number ratios. This work laid the foundation for modern chemistry and provided a theoretical framework for understanding chemical reactions. Dalton's atomic theory was revolutionary and gradually became the basis for modern chemistry, though it faced initial skepticism and was refined over subsequent decades.",
+      "key_figures": [
+        "John Dalton (chemist and physicist)",
+        "Joseph Proust (chemist, law of definite proportions)"
+      ],
+      "sources": [
+        {
+          "name": "A New System of Chemical Philosophy, Part I, 1805",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Dalton's correspondence and laboratory notes",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary scientific journals and reviews",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The publication date of 1805 is well-documented in scientific bibliographies.",
+      "cross_references": [
+        "1808-002 (Dalton's atomic weight tables)"
+      ]
+    },
+    {
+      "id": "1805-010",
+      "title": "Ottoman Empire: Selim III's Nizam-i Cedid reforms",
+      "region": "Ottoman Empire (centered in Istanbul)",
+      "coordinates_approx": "41.0, 29.0",
+      "category": "political",
+      "description": "Sultan Selim III (r. 1789\u20131807) continued implementing his Nizam-i Cedid (New Order) military and administrative reforms in 1805. These reforms aimed to modernize the Ottoman military along European lines, establish new military schools, and improve administrative efficiency. The reforms faced resistance from the Janissaries and conservative elements within the Ottoman establishment. While the reforms represented genuine attempts at modernization, they were ultimately insufficient to reverse Ottoman decline relative to European powers. The Nizam-i Cedid represented an important moment of Ottoman self-awareness regarding the need for change, though implementation remained incomplete and contested.",
+      "key_figures": [
+        "Selim III (Ottoman Sultan)",
+        "Alemdar Mustafa Pasha (reformist administrator)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman imperial decrees and administrative records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ottoman official correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "European diplomatic reports on Ottoman reforms",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Selim III's reforms is well-documented; specific events in 1805 are less precisely dated.",
+      "cross_references": [
+        "1807-004 (Janissary revolt against Selim III)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Battle of Trafalgar is sometimes presented as an unambiguous British triumph that 'saved Britain from invasion,' but historians debate whether Napoleon ever seriously intended invasion after 1803; the battle's strategic significance is sometimes overstated relative to the Continental System's actual impact on British trade. The Haitian independence declaration of 1805 is sometimes presented as the culmination of the revolution, but Haiti's de facto independence had been established earlier (1804), and the 1805 declaration was more a formalization than a revolutionary moment. Fulton's steamboat is often credited as the 'first' steamboat, but earlier steam-powered vessels existed; Fulton's innovation was primarily in commercial viability rather than invention. Dalton's atomic theory, while foundational, was not immediately accepted and faced significant opposition; the theory was refined substantially over the 19th century.",
+  "historiographic_note": "1805 is exceptionally well-documented in European and American sources due to the Napoleonic Wars' prominence in historical consciousness and the richness of contemporary records. The year is often presented through a Eurocentric lens, with Trafalgar and Austerlitz dominating narratives while events in Asia, Africa, and the Americas receive less attention. Ottoman sources exist but are less frequently consulted in English-language historiography. The year marks a pivotal moment in European power dynamics and the emergence of British naval hegemony, which shapes how the year is interpreted. Scientific and cultural developments are well-documented but sometimes overshadowed by military and political events in historical narratives.",
+  "graph_edges": [
+    {
+      "from": "1805-001",
+      "to": "1805-002",
+      "relation": "contemporary_with",
+      "note": "Trafalgar (October) and Austerlitz (December) were simultaneous strategic victories for Napoleon and Britain respectively"
+    },
+    {
+      "from": "1805-002",
+      "to": "1805-003",
+      "relation": "led_to",
+      "note": "Battle of Austerlitz directly led to Treaty of Pressburg negotiations"
+    },
+    {
+      "from": "1805-004",
+      "to": "1807-003",
+      "relation": "led_to",
+      "note": "Fulton's 1805 demonstration led to establishment of regular Clermont service in 1807"
+    },
+    {
+      "from": "1805-008",
+      "to": "1806-005",
+      "relation": "contemporary_with",
+      "note": "Haiti's independence and Britain's slave trade abolition were contemporary developments with different ideological origins"
+    },
+    {
+      "from": "1805-009",
+      "to": "1808-002",
+      "relation": "led_to",
+      "note": "Dalton's 1805 atomic theory publication led to development of atomic weight tables in 1808"
+    }
+  ]
+}

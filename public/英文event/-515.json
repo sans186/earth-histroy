@@ -1,0 +1,92 @@
+{
+  "year": -515,
+  "year_label": "515 BCE",
+  "era_context": "Darius I's Achaemenid Empire is consolidating its vast territorial holdings. In Greece, Athens is developing its democratic institutions; the Archaic period is in its final years. In China, the Spring and Autumn period continues with increasing interstate conflict. In India, the early Mahajanapadas are forming; this is the period in which Siddhartha Gautama (the Buddha) and Mahavira (the Jain founder) are traditionally said to have lived, though their exact dates are debated.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Most of Southeast Asia",
+    "Pacific Islands",
+    "Most of India",
+    "Most of China"
+  ],
+  "events": [
+    {
+      "id": "-515-001",
+      "title": "Darius I's Behistun Inscription (ongoing documentation)",
+      "region": "Behistun, Persian Empire (modern Iran)",
+      "coordinates_approx": "34.38, 47.38",
+      "category": "political",
+      "description": "Darius I's monumental Behistun Inscription, carved into a cliff face in western Iran, documents his consolidation of power and suppression of rebellions during the early years of his reign (522\u2013520 BCE). While the inscription was completed by around 515 BCE or shortly thereafter, it represents the culmination of Darius's efforts to establish his legitimacy and document his achievements. The inscription is written in Old Persian, Elamite, and Babylonian cuneiform and includes a relief depicting Darius with conquered enemies. The inscription served as a propaganda tool and administrative record, asserting Darius's divine right to rule and his military prowess. It is one of the most important surviving documents of the Achaemenid Empire.",
+      "key_figures": [
+        "Darius I (Persian King)",
+        "Gaumata (rebel, depicted in relief)"
+      ],
+      "sources": [
+        {
+          "name": "Behistun Inscription (epigraphic evidence)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Herodotus, Histories, Book III",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Behistun Inscription is a contemporary primary source carved in stone. The inscription itself does not provide a precise date in the proleptic Gregorian calendar, but paleographic and historical analysis places its completion around 515 BCE or shortly thereafter, during Darius's reign. The events it describes (the suppression of rebellions) occurred in 522\u2013520 BCE.",
+      "cross_references": [
+        "Documents the same period as Darius I's consolidation of power",
+        "Provides contemporary evidence for events described in Herodotus"
+      ]
+    },
+    {
+      "id": "-515-002",
+      "title": "Possible date of Buddha's enlightenment (traditional dating, highly disputed)",
+      "region": "Bodh Gaya, Magadha, India",
+      "coordinates_approx": "24.49, 84.99",
+      "category": "religious",
+      "description": "According to some traditional Buddhist chronologies, Siddhartha Gautama (the Buddha) attained enlightenment around 515 BCE, though this date is highly uncertain and debated among scholars. Different Buddhist traditions and modern scholars propose dates ranging from the 6th to the 4th century BCE. The Buddha's enlightenment is a foundational event in Buddhism, marking his awakening to the nature of suffering and the path to liberation. If this date is accurate, it would represent a major religious and philosophical development in India during this period. However, the historical Buddha's life dates remain one of the most contested issues in Asian history.",
+      "key_figures": [
+        "Siddhartha Gautama (the Buddha)"
+      ],
+      "sources": [
+        {
+          "name": "Buddhist texts (Pali Canon, Sanskrit texts)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus (modern scholarship)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "legendary",
+      "certainty_note": "The date of the Buddha's enlightenment is not established by contemporary sources. Buddhist texts were compiled centuries after the Buddha's lifetime and reflect theological rather than historical concerns. Modern scholars debate whether the Buddha lived in the 6th, 5th, or 4th century BCE. Some scholars place his enlightenment around 515 BCE; others argue for dates as late as 400 BCE. The uncertainty is fundamental and reflects the lack of contemporary historical documentation.",
+      "cross_references": [
+        "Related to the emergence of early Buddhism in India",
+        "Contemporary with the Mahajanapadas period"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Buddha's enlightenment to 515 BCE is highly disputed and is not supported by contemporary evidence. Modern scholarship increasingly questions the traditional chronologies preserved in Buddhist texts. Some scholars argue that the Buddha lived a century or more later than 515 BCE, while others defend earlier dates. The Behistun Inscription's completion date is also debated; some scholars argue it was completed earlier (c. 520 BCE) or later (c. 510 BCE), though the inscription itself is contemporary evidence for Darius's reign. The inscription's propaganda purpose means it presents a selective and ideologically motivated account of Darius's rise to power.",
+  "historiographic_note": "Documentation for this year is sparse and heavily dependent on later sources. The Behistun Inscription is a contemporary primary source, but it is a propaganda document that presents Darius's perspective on his consolidation of power. Buddhist texts are much later compilations and do not provide reliable historical dating for the Buddha's life. Modern scholarship on the Buddha's dates relies on comparative analysis of textual traditions, numismatic evidence, and archaeological findings, but no consensus has been reached. The record is heavily biased toward Persian imperial narratives and Buddhist religious traditions; other regions and perspectives are largely absent.",
+  "graph_edges": [
+    {
+      "from": "-515-001",
+      "to": "-522-001",
+      "relation": "part_of",
+      "note": "The Behistun Inscription documents Darius's consolidation of power following his accession in 522 BCE"
+    },
+    {
+      "from": "-515-002",
+      "to": "-500-001",
+      "relation": "led_to",
+      "note": "If the traditional date is accurate, the Buddha's enlightenment led to the founding of Buddhism and the development of Buddhist philosophy and practice"
+    }
+  ]
+}

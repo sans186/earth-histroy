@@ -1,0 +1,300 @@
+{
+  "year": 1759,
+  "year_label": "1759 CE",
+  "era_context": "The Seven Years' War (1756\u20131763) is in its fourth year, with Britain and Prussia gaining momentum against France, Austria, Russia, and Spain. The war is being fought across multiple continents. In Europe, the Battle of Kunersdorf (August 1759) is a major Russian victory against Prussia, but British naval victories dominate the year. The Enlightenment is in full swing in Europe, with major intellectual figures active (Voltaire, Rousseau, Diderot, Hume).",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1759-001",
+      "title": "Battle of Kunersdorf",
+      "region": "Eastern Prussia (modern-day Poland/Germany border)",
+      "coordinates_approx": "52.02, 14.64",
+      "category": "military",
+      "description": "Russian and Austrian forces under General Peter Saltykov and General Ernst Gideon von Laudon defeat Prussian forces under Frederick II (Frederick the Great) in a major battle near the Oder River. The battle is one of the most significant Russian victories of the Seven Years' War and demonstrates the vulnerability of Prussia despite Frederick's military genius. However, the Russians fail to follow up on their victory, and Prussia survives the war. The battle is a turning point in the war's momentum, though not its ultimate outcome.",
+      "key_figures": [
+        "Frederick II (Frederick the Great, Prussian king)",
+        "Peter Saltykov (Russian general)",
+        "Ernst Gideon von Laudon (Austrian general)"
+      ],
+      "sources": [
+        {
+          "name": "Prussian military records and Frederick's own writings",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Russian military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Austrian military records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle date (August 12, 1759) and outcome are well-documented in multiple contemporary sources.",
+      "cross_references": [
+        "Part of Seven Years' War (1756\u20131763)",
+        "Demonstrates Prussia's vulnerability but also its resilience"
+      ]
+    },
+    {
+      "id": "1759-002",
+      "title": "Battle of Quiberon Bay (Naval)",
+      "region": "Atlantic Ocean, off Brittany, France",
+      "coordinates_approx": "47.48, -3.35",
+      "category": "military",
+      "description": "British naval forces under Admiral Edward Hawke defeat a French fleet in a decisive naval engagement off the coast of Brittany. The battle is fought in rough seas and demonstrates British naval superiority and tactical innovation. The French fleet is scattered and several ships are captured or destroyed. This victory consolidates British naval dominance and disrupts French plans for a cross-Channel invasion of Britain. The battle is one of the most significant naval engagements of the Seven Years' War.",
+      "key_figures": [
+        "Admiral Edward Hawke (British commander)",
+        "Admiral Hubert de Brienne, Comte de Conflans (French commander)"
+      ],
+      "sources": [
+        {
+          "name": "British Admiralty records and naval logs",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French naval records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary accounts and memoirs",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle date (November 20, 1759) and outcome are precisely documented in British and French naval records.",
+      "cross_references": [
+        "Part of Seven Years' War (1756\u20131763)",
+        "Establishes British naval supremacy for the remainder of the war and beyond"
+      ]
+    },
+    {
+      "id": "1759-003",
+      "title": "Battle of the Plains of Abraham (preliminary operations and siege of Quebec begins)",
+      "region": "Quebec, New France (North America)",
+      "coordinates_approx": "46.81, -71.21",
+      "category": "military",
+      "description": "British forces under General James Wolfe begin operations against Quebec in the spring of 1759. The siege lasts from June to September 1759, with the decisive Battle of the Plains of Abraham occurring on September 13, 1759. Wolfe defeats the French commander Montcalm in a brief but intense engagement. Both commanders are killed in the battle. The fall of Quebec marks the effective end of French military power in North America and is a turning point in the Seven Years' War.",
+      "key_figures": [
+        "General James Wolfe (British commander, killed in battle)",
+        "General Louis-Joseph de Montcalm (French commander, killed in battle)",
+        "General George Townshend (British commander after Wolfe's death)"
+      ],
+      "sources": [
+        {
+          "name": "British military records and dispatches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary accounts and memoirs (e.g., Knox's Journal)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The siege dates (June\u2013September 1759) and the Battle of the Plains of Abraham (September 13, 1759) are precisely documented in multiple contemporary sources.",
+      "cross_references": [
+        "Part of Seven Years' War (1756\u20131763)",
+        "Leads to capture of Montreal (1760) and Treaty of Paris (1763)"
+      ]
+    },
+    {
+      "id": "1759-004",
+      "title": "British capture of Guadeloupe",
+      "region": "Caribbean",
+      "coordinates_approx": "16.27, -61.55",
+      "category": "military",
+      "description": "British forces capture the French Caribbean island of Guadeloupe after a siege lasting several months. The capture is part of a broader British strategy to seize French colonial possessions and disrupt French trade. Guadeloupe is a valuable sugar-producing colony, and its capture represents a significant economic blow to France.",
+      "key_figures": [
+        "General Peregrine Hopson (British commander)",
+        "General John Barrington (British commander)"
+      ],
+      "sources": [
+        {
+          "name": "British military records and dispatches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French military records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The capture of Guadeloupe (May 1759) is well-documented in British military records.",
+      "cross_references": [
+        "Part of Seven Years' War (1756\u20131763)",
+        "Part of broader British strategy to seize French colonies"
+      ]
+    },
+    {
+      "id": "1759-005",
+      "title": "Publication of Voltaire's Candide",
+      "region": "France (intellectual/cultural event)",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "cultural",
+      "description": "Voltaire publishes Candide, a satirical novella that critiques optimism, religious dogmatism, and the follies of European society. The work is an immediate success and becomes one of the most influential works of the Enlightenment. Candide is a masterpiece of satire and philosophical critique, using humor and absurdity to challenge conventional wisdom. The work reflects Enlightenment skepticism toward traditional authority and established institutions.",
+      "key_figures": [
+        "Voltaire (Fran\u00e7ois-Marie Arouet, author)"
+      ],
+      "sources": [
+        {
+          "name": "Candide (original publication, 1759)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Voltaire's correspondence and memoirs",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The publication date of Candide (January 1759) is precisely documented.",
+      "cross_references": [
+        "Part of broader Enlightenment intellectual movement",
+        "Influences European thought and literature for centuries"
+      ]
+    },
+    {
+      "id": "1759-006",
+      "title": "British Museum opens to the public",
+      "region": "London, Britain",
+      "coordinates_approx": "51.53, -0.13",
+      "category": "cultural",
+      "description": "The British Museum opens to the public on January 15, 1759, in Montagu House in Bloomsbury. The museum is established to house the collections of Sir Hans Sloane and other antiquities and natural history specimens. The opening of the British Museum represents a significant moment in the history of public institutions and the democratization of knowledge. The museum becomes one of the world's most important repositories of cultural and natural history artifacts.",
+      "key_figures": [
+        "Sir Hans Sloane (collector, deceased 1753)",
+        "George II (patron)",
+        "Montagu House (location)"
+      ],
+      "sources": [
+        {
+          "name": "British Museum records and official documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspapers and journals",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The opening date of the British Museum (January 15, 1759) is precisely documented.",
+      "cross_references": [
+        "Part of broader Enlightenment emphasis on public knowledge and institutions",
+        "Establishes a model for public museums that spreads globally"
+      ]
+    },
+    {
+      "id": "1759-007",
+      "title": "Death of Handel",
+      "region": "London, Britain",
+      "coordinates_approx": "51.50, -0.13",
+      "category": "cultural",
+      "description": "George Frideric Handel, the renowned German-British composer, dies on April 14, 1759, at age 74. Handel is one of the most influential composers of the Baroque era and has shaped European musical culture for over 50 years. His works, including operas, oratorios (particularly Messiah), and instrumental compositions, are celebrated across Europe. His death marks the end of an era in European music, though his influence continues to shape musical composition and performance.",
+      "key_figures": [
+        "George Frideric Handel (composer)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary obituaries and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Handel's own compositions and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Handel's death date (April 14, 1759) is precisely documented.",
+      "cross_references": [
+        "Part of broader Baroque musical era",
+        "Influences subsequent musical development and Enlightenment aesthetics"
+      ]
+    },
+    {
+      "id": "1759-008",
+      "title": "Continued Seven Years' War: British dominance in multiple theaters",
+      "region": "Global (Europe, North America, Caribbean, India)",
+      "coordinates_approx": null,
+      "category": "military",
+      "description": "1759 is often called the 'Year of Victories' for Britain due to the accumulation of British military successes across multiple theaters of the Seven Years' War. In addition to the major battles and campaigns listed above, British forces achieve numerous smaller victories and consolidate control over territories. This year marks a turning point in the war, with Britain clearly gaining the upper hand.",
+      "key_figures": [
+        "William Pitt the Elder (British Prime Minister, architect of war strategy)",
+        "General Jeffrey Amherst (British commander-in-chief, North America)",
+        "Admiral Edward Hawke (British naval commander)"
+      ],
+      "sources": [
+        {
+          "name": "British military records and dispatches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Parliamentary records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The overall pattern of British military success in 1759 is well-documented.",
+      "cross_references": [
+        "Part of Seven Years' War (1756\u20131763)",
+        "Leads to Treaty of Paris (1763) and British imperial dominance"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Battle of the Plains of Abraham is sometimes presented as a clear-cut British victory due to superior tactics, but modern scholarship emphasizes that the battle was closely fought and that the outcome was influenced by multiple factors, including French supply shortages and the broader strategic situation. The narrative of 'Wolfe's genius' sometimes obscures the contributions of other commanders and the role of luck and circumstance. Additionally, the claim that 1759 was the 'Year of Victories' for Britain is somewhat exaggerated; while British forces achieved significant successes, the war continued for another four years and the final outcome was not predetermined. The Battle of Kunersdorf, while a Russian victory, did not lead to the collapse of Prussia as some contemporary observers hoped, demonstrating the limits of even decisive military victories.",
+  "historiographic_note": "1759 is exceptionally well-documented in British, French, Prussian, and Russian sources due to the Seven Years' War. Military operations are extensively documented in official records, dispatches, and contemporary accounts. Cultural events (Voltaire's Candide, the opening of the British Museum, Handel's death) are well-recorded in European sources. The historical record is heavily weighted toward military and political events; economic and social history is less extensively documented. Colonial and indigenous perspectives are underrepresented in surviving sources.",
+  "graph_edges": [
+    {
+      "from": "1759-001",
+      "to": "1763-001",
+      "relation": "part_of",
+      "note": "Battle of Kunersdorf is part of broader Seven Years' War"
+    },
+    {
+      "from": "1759-002",
+      "to": "1763-001",
+      "relation": "led_to",
+      "note": "British naval victory at Quiberon Bay contributes to British dominance in Treaty of Paris"
+    },
+    {
+      "from": "1759-003",
+      "to": "1760-004",
+      "relation": "led_to",
+      "note": "Fall of Quebec leads to capture of Montreal (1760)"
+    },
+    {
+      "from": "1759-005",
+      "to": "1789-001",
+      "relation": "led_to",
+      "note": "Voltaire's Candide influences Enlightenment thought leading to French Revolution"
+    },
+    {
+      "from": "1759-006",
+      "to": "1800-001",
+      "relation": "led_to",
+      "note": "Opening of British Museum establishes model for public institutions"
+    }
+  ]
+}

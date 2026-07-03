@@ -1,0 +1,585 @@
+{
+  "year": 1945,
+  "year_label": "1945 CE",
+  "era_context": "The final year of World War II in Europe and the Pacific. Nazi Germany surrenders in May; Japan surrenders in August following atomic bombings. The United Nations is established; the Yalta and Potsdam Conferences reshape the post-war world order. The Soviet Union emerges as a superpower; the atomic age begins. Decolonisation movements accelerate.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1945-001",
+      "title": "Nuremberg Trials begin; International Military Tribunal established",
+      "region": "Nuremberg, Germany",
+      "coordinates_approx": "49.45, 11.08",
+      "category": "legal",
+      "description": "The International Military Tribunal opened on 20 November 1945 to prosecute Nazi leaders for war crimes, crimes against humanity, and crimes against peace. Twenty-four defendants were tried, including Hermann G\u00f6ring, Rudolf Hess, and Joachim von Ribbentrop. The trial lasted until October 1946 and established precedent for international prosecution of war crimes, though it was criticised for victor's justice and the exclusion of Soviet crimes. The trial was conducted in four languages and observed by international press, making it a public reckoning with Nazi atrocities.",
+      "key_figures": [
+        "Robert Jackson (chief US prosecutor)",
+        "Telford Taylor",
+        "Hermann G\u00f6ring",
+        "Rudolf Hess",
+        "Joachim von Ribbentrop"
+      ],
+      "sources": [
+        {
+          "name": "International Military Tribunal, Official Records and Transcripts, 1945\u20131946",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Telford Taylor, The Anatomy of the Nuremberg Trials (1992)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Trials opened 20 November 1945; extensively documented in trial records.",
+      "cross_references": [
+        "1946-001 (Nuremberg verdicts and executions)"
+      ]
+    },
+    {
+      "id": "1945-002",
+      "title": "United Nations Charter signed in San Francisco",
+      "region": "San Francisco, California, USA",
+      "coordinates_approx": "37.78, -122.41",
+      "category": "political",
+      "description": "The United Nations Charter was signed on 26 June 1945 by 50 nations at the San Francisco Conference. The Charter established the UN as the successor to the League of Nations, with the goal of maintaining international peace and security. The Charter created the Security Council (with five permanent members: US, USSR, UK, France, China), the General Assembly, and other organs. The UN officially came into existence on 24 October 1945 when the Charter was ratified. The Charter reflected the wartime alliance between the Western powers and the Soviet Union, though tensions were already emerging.",
+      "key_figures": [
+        "Harry S. Truman (US President)",
+        "Alger Hiss (US delegate)",
+        "Vyacheslav Molotov (Soviet delegate)",
+        "T. V. Soong (Chinese delegate)"
+      ],
+      "sources": [
+        {
+          "name": "United Nations Charter, 26 June 1945",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Evan Luard, A History of the United Nations, Vol. 1 (1982)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Charter signed 26 June 1945; UN officially established 24 October 1945.",
+      "cross_references": [
+        "1946-002 (UN General Assembly first session)"
+      ]
+    },
+    {
+      "id": "1945-003",
+      "title": "Germany surrenders unconditionally; Nazi regime collapses",
+      "region": "Reims, France; Berlin, Germany",
+      "coordinates_approx": "49.26, 4.03",
+      "category": "military",
+      "description": "Nazi Germany surrendered unconditionally on 7 May 1945 (VE Day), ending the war in Europe. The surrender followed Hitler's suicide on 30 April and the Soviet capture of Berlin. Germany was divided into four occupation zones (American, British, Soviet, French). The unconditional surrender policy, adopted at the Casablanca Conference in 1943, meant that Germany would have no role in negotiating the peace. The collapse of the Nazi regime revealed the full extent of the Holocaust and other atrocities, shocking the world.",
+      "key_figures": [
+        "Adolf Hitler (suicide 30 April)",
+        "Joseph Goebbels",
+        "Heinrich Himmler",
+        "Dwight D. Eisenhower (Supreme Allied Commander)",
+        "Bernard Montgomery",
+        "Georgy Zhukov"
+      ],
+      "sources": [
+        {
+          "name": "German Instrument of Surrender, 7 May 1945",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Richard Overy, Russia's War (1997)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Germany surrendered 7 May 1945; extensively documented in military records.",
+      "cross_references": [
+        "1944-001 (D-Day landings)"
+      ]
+    },
+    {
+      "id": "1945-004",
+      "title": "Atomic bombs dropped on Hiroshima and Nagasaki; Japan surrenders",
+      "region": "Hiroshima and Nagasaki, Japan",
+      "coordinates_approx": "34.39, 132.45",
+      "category": "military",
+      "description": "The United States dropped atomic bombs on Hiroshima on 6 August 1945 and Nagasaki on 9 August 1945, killing an estimated 200,000 people by the end of 1945 (including those who died from radiation sickness). Japan announced its surrender on 15 August 1945 (VJ Day), formally signing the Instrument of Surrender on 2 September 1945. The bombings remain controversial: supporters argue they ended the war and prevented a costly invasion of Japan; critics contend they were unnecessary and constituted war crimes. The bombings introduced nuclear weapons as a defining feature of modern warfare and geopolitics.",
+      "key_figures": [
+        "Harry S. Truman (US President)",
+        "Enola Gay pilot Paul Tibbets",
+        "Emperor Hirohito",
+        "Hideki Tojo"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Strategic Bombing Survey, The Effects of the Atomic Bombings of Hiroshima and Nagasaki (1946)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Gar Alperovitz, The Decision to Use the Atomic Bomb (1995)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Bombings occurred 6 and 9 August 1945; Japan surrendered 15 August 1945.",
+      "cross_references": [
+        "1946-006 (Bikini Atoll nuclear tests)"
+      ]
+    },
+    {
+      "id": "1945-005",
+      "title": "Yalta Conference; Roosevelt, Churchill, Stalin meet",
+      "region": "Yalta, Crimea, USSR",
+      "coordinates_approx": "44.48, 34.16",
+      "category": "political",
+      "description": "The Yalta Conference was held from 4\u201311 February 1945 in Yalta, Crimea, with President Franklin D. Roosevelt, Prime Minister Winston Churchill, and Soviet Premier Joseph Stalin. The conference addressed the post-war division of Europe, German reparations, Soviet entry into the war against Japan, and the establishment of the United Nations. The agreements reached at Yalta\u2014particularly regarding Soviet control of Eastern Europe\u2014became controversial, with critics arguing that Roosevelt conceded too much to Stalin. However, historians debate whether Roosevelt had realistic alternatives given Soviet military strength.",
+      "key_figures": [
+        "Franklin D. Roosevelt",
+        "Winston Churchill",
+        "Joseph Stalin",
+        "Averell Harriman (US diplomat)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Department of State, Foreign Relations of the United States: The Conferences at Malta and Yalta, 1945",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David Reynolds (ed.), The Origins of the Cold War in Europe (1994)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Conference held 4\u201311 February 1945; documented in diplomatic records.",
+      "cross_references": [
+        "1945-006 (Potsdam Conference)"
+      ]
+    },
+    {
+      "id": "1945-006",
+      "title": "Potsdam Conference; Truman, Churchill, Stalin meet",
+      "region": "Potsdam, Germany",
+      "coordinates_approx": "52.39, 13.04",
+      "category": "political",
+      "description": "The Potsdam Conference was held from 17 July to 2 August 1945 in Potsdam, Germany, with President Harry S. Truman (who had assumed office after Roosevelt's death in April), Prime Minister Winston Churchill (replaced mid-conference by Clement Attlee after the British election), and Soviet Premier Joseph Stalin. The conference addressed the occupation and division of Germany, reparations, and the war against Japan. The Potsdam Declaration called for Japan's unconditional surrender. The conference revealed growing tensions between the Western powers and the Soviet Union over the future of Eastern Europe, foreshadowing the Cold War.",
+      "key_figures": [
+        "Harry S. Truman",
+        "Winston Churchill",
+        "Clement Attlee",
+        "Joseph Stalin"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Department of State, Foreign Relations of the United States: The Conference of Berlin (Potsdam), 1945",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David Holloway, Stalin and the Bomb (1994)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Conference held 17 July\u20132 August 1945; documented in diplomatic records.",
+      "cross_references": [
+        "1945-005 (Yalta Conference)"
+      ]
+    },
+    {
+      "id": "1945-007",
+      "title": "Soviet Union declares war on Japan; invades Manchuria",
+      "region": "Manchuria (northeast China)",
+      "coordinates_approx": "45.00, 125.00",
+      "category": "military",
+      "description": "The Soviet Union declared war on Japan on 8 August 1945 and immediately invaded Manchuria with over 1.5 million troops. The Soviet offensive, led by Marshal Georgy Zhukov, rapidly defeated the Japanese Kwantung Army and occupied Manchuria, Korea, and parts of China. The invasion was motivated by Soviet interests in territorial expansion and the desire to influence the post-war settlement in Asia. The Soviet entry into the war against Japan was a factor in Japan's decision to surrender, though the extent of its influence is debated.",
+      "key_figures": [
+        "Joseph Stalin",
+        "Georgy Zhukov",
+        "Ivanovich Vasilevsky"
+      ],
+      "sources": [
+        {
+          "name": "Soviet Military Archives, Far Eastern Command, 1945",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David Holloway, Stalin and the Bomb (1994)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Soviet declaration of war 8 August 1945; invasion began immediately.",
+      "cross_references": [
+        "1945-004 (Japan surrenders)"
+      ]
+    },
+    {
+      "id": "1945-008",
+      "title": "Ho Chi Minh declares Vietnamese independence; Vi\u1ec7t Minh seize power",
+      "region": "Hanoi, Vietnam",
+      "coordinates_approx": "21.03, 105.85",
+      "category": "political",
+      "description": "On 2 September 1945, H\u1ed3 Ch\u00ed Minh declared Vietnamese independence in Hanoi, establishing the Democratic Republic of Vietnam. The Vi\u1ec7t Minh, a nationalist coalition led by H\u1ed3 Ch\u00ed Minh, had seized power during the power vacuum created by Japan's surrender and the collapse of French colonial authority. H\u1ed3 Ch\u00ed Minh's declaration was modelled on the American Declaration of Independence and appealed to anti-colonial sentiment. However, France refused to recognise Vietnamese independence, leading to the First Indochina War (1946\u20131954). The declaration marked the beginning of Vietnam's long struggle for independence and reunification.",
+      "key_figures": [
+        "H\u1ed3 Ch\u00ed Minh",
+        "V\u00f5 Nguy\u00ean Gi\u00e1p",
+        "B\u1ea3o \u0110\u1ea1i (former emperor)"
+      ],
+      "sources": [
+        {
+          "name": "H\u1ed3 Ch\u00ed Minh, Declaration of Independence of the Democratic Republic of Vietnam, 2 September 1945",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "William J. Duiker, Ho Chi Minh: A Life (2000)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Declaration issued 2 September 1945; documented in Vietnamese and French sources.",
+      "cross_references": [
+        "1946-011 (First Indochina War begins)"
+      ]
+    },
+    {
+      "id": "1945-009",
+      "title": "Indonesia declares independence from the Netherlands",
+      "region": "Jakarta, Indonesia",
+      "coordinates_approx": "-6.21, 106.85",
+      "category": "political",
+      "description": "On 17 August 1945, Indonesian nationalist leaders Sukarno and Muhammad Hatta declared Indonesian independence from the Netherlands. The declaration followed Japan's surrender and the collapse of Japanese occupation. The Netherlands refused to recognise Indonesian independence, leading to the Indonesian National Revolution (1945\u20131949), a four-year armed conflict and diplomatic struggle. The revolution was supported by nationalist sentiment and international pressure, eventually resulting in Dutch recognition of Indonesian independence in 1949. The declaration marked the beginning of Indonesia's emergence as a major Southeast Asian nation.",
+      "key_figures": [
+        "Sukarno",
+        "Muhammad Hatta",
+        "Sutan Sjahrir"
+      ],
+      "sources": [
+        {
+          "name": "Sukarno and Muhammad Hatta, Proclamation of Indonesian Independence, 17 August 1945",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Anthony Reid, The Indonesian National Revolution, 1945\u20131950 (1974)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Declaration issued 17 August 1945; documented in Indonesian and Dutch sources.",
+      "cross_references": [
+        "1949-002 (Dutch recognise Indonesian independence)"
+      ]
+    },
+    {
+      "id": "1945-010",
+      "title": "Arab League established in Cairo",
+      "region": "Cairo, Egypt",
+      "coordinates_approx": "30.05, 31.24",
+      "category": "political",
+      "description": "The Arab League was formally established on 22 March 1945 with the signing of the Pact of the League of Arab States in Cairo. The founding members were Egypt, Iraq, Lebanon, Saudi Arabia, Syria, Transjordan, and Yemen. The League was intended to promote Arab unity and coordinate Arab policy on regional issues, particularly regarding Palestine. The League's establishment reflected growing Arab nationalism and the desire to present a united front on the question of Palestine as the British Mandate approached its end. The League would become a major player in Middle Eastern politics.",
+      "key_figures": [
+        "Abdel Rahman Hassan Azzam (first Secretary-General)",
+        "King Farouk (Egypt)",
+        "King Ibn Saud (Saudi Arabia)"
+      ],
+      "sources": [
+        {
+          "name": "Pact of the League of Arab States, 22 March 1945",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Adeed Dawisha, Arab Nationalism in the Twentieth Century (2003)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Arab League established 22 March 1945; documented in League records.",
+      "cross_references": [
+        "1948-001 (Arab-Israeli War)"
+      ]
+    },
+    {
+      "id": "1945-011",
+      "title": "Franklin D. Roosevelt dies; Harry S. Truman becomes US President",
+      "region": "Warm Springs, Georgia, USA",
+      "coordinates_approx": "32.78, -84.73",
+      "category": "political",
+      "description": "President Franklin D. Roosevelt died on 12 April 1945 from a cerebral haemorrhage, just weeks before Germany's surrender and months before Japan's surrender. Vice President Harry S. Truman assumed the presidency. Truman, who had been kept largely uninformed about major wartime decisions, inherited the presidency at a critical moment. He made the decision to use atomic bombs against Japan and would shape the early Cold War. Roosevelt's death marked the end of an era in American politics and the beginning of Truman's presidency, which would define the post-war world.",
+      "key_figures": [
+        "Franklin D. Roosevelt",
+        "Harry S. Truman",
+        "Eleanor Roosevelt"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Presidential Archives, Death of Franklin D. Roosevelt, 12 April 1945",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David McCullough, Truman (1992)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Roosevelt died 12 April 1945; extensively documented in presidential records.",
+      "cross_references": [
+        "1945-004 (Atomic bombs dropped)"
+      ]
+    },
+    {
+      "id": "1945-012",
+      "title": "Holocaust liberation; concentration camps discovered by Allied forces",
+      "region": "Germany and occupied territories",
+      "coordinates_approx": "51.50, 10.00",
+      "category": "military",
+      "description": "As Allied forces advanced into Germany in 1945, they discovered the Nazi concentration and extermination camps, revealing the full extent of the Holocaust. Camps including Auschwitz, Treblinka, Sobibor, and Dachau were liberated, exposing the systematic murder of six million Jews and millions of others (Roma, disabled people, political prisoners, Soviet POWs). The liberation of the camps shocked the world and provided irrefutable evidence of Nazi atrocities. Survivors testified to the horrors they had endured. The discovery of the camps became a defining moment in understanding the Holocaust and influenced the Nuremberg Trials and subsequent international law on crimes against humanity.",
+      "key_figures": [
+        "Dwight D. Eisenhower",
+        "Soviet commanders",
+        "Survivors and witnesses"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Army Signal Corps, Photographs and Film of Concentration Camp Liberations, 1945",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Richard Overy, Russia's War (1997)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Camps liberated in 1945; extensively documented in military records and survivor testimony.",
+      "cross_references": [
+        "1946-001 (Nuremberg Trials)"
+      ]
+    },
+    {
+      "id": "1945-013",
+      "title": "Bretton Woods institutions established; IMF and World Bank created",
+      "region": "Bretton Woods, New Hampshire, USA",
+      "coordinates_approx": "43.47, -71.50",
+      "category": "economic",
+      "description": "The Bretton Woods Conference, held in July 1944, resulted in the establishment of the International Monetary Fund (IMF) and the International Bank for Reconstruction and Development (World Bank) in 1945. These institutions were designed to promote international economic cooperation, stabilise exchange rates, and provide loans for post-war reconstruction. The Bretton Woods system also established the gold standard for international currency exchange, with the US dollar as the reserve currency. The institutions became central to post-war economic order and development policy, though the Bretton Woods monetary system would collapse in 1971.",
+      "key_figures": [
+        "John Maynard Keynes",
+        "Harry Dexter White",
+        "Henry Morgenthau Jr."
+      ],
+      "sources": [
+        {
+          "name": "Bretton Woods Conference, Final Act, July 1944; IMF and World Bank Articles of Agreement, 1945",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Benn Steil, The Battle of Bretton Woods (2013)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Bretton Woods Conference held July 1944; IMF and World Bank established in 1945.",
+      "cross_references": [
+        "1971-001 (Bretton Woods system collapses)"
+      ]
+    },
+    {
+      "id": "1945-014",
+      "title": "Chinese Civil War resumes after Japanese surrender",
+      "region": "China",
+      "coordinates_approx": "35.86, 104.20",
+      "category": "military",
+      "description": "Following Japan's surrender in August 1945, the uneasy wartime alliance between the Chinese Nationalist (Kuomintang) government under Chiang Kai-shek and the Chinese Communist Party under Mao Zedong collapsed. Both sides raced to occupy territory vacated by the Japanese. The Communists, with Soviet support, controlled Manchuria and northern China; the Nationalists controlled the south and east. American mediation efforts under General George Marshall attempted to broker a ceasefire and political settlement, but negotiations failed. By year's end, full-scale civil war was imminent, setting the stage for the Communist victory in 1949.",
+      "key_figures": [
+        "Mao Zedong",
+        "Chiang Kai-shek",
+        "George Marshall",
+        "Lin Biao"
+      ],
+      "sources": [
+        {
+          "name": "U.S. State Department, China Dispatches, 1945",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jonathan D. Spence, The Search for Modern China (1990)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Civil war resumed in 1945; documented in American and Chinese sources.",
+      "cross_references": [
+        "1946-007 (Chinese Civil War escalates)"
+      ]
+    },
+    {
+      "id": "1945-015",
+      "title": "Clement Attlee becomes British Prime Minister; Labour government elected",
+      "region": "London, United Kingdom",
+      "coordinates_approx": "51.50, -0.13",
+      "category": "political",
+      "description": "In the British general election held on 5 July 1945, the Labour Party, led by Clement Attlee, won a landslide victory, defeating Winston Churchill's Conservative Party. Attlee became Prime Minister on 26 July 1945. The Labour victory reflected public desire for social reform and the welfare state after years of wartime austerity. The Attlee government implemented the National Health Service, expanded the welfare state, and began the process of decolonisation. The election marked a significant shift in British politics and the beginning of the post-war consensus on the welfare state.",
+      "key_figures": [
+        "Clement Attlee",
+        "Winston Churchill",
+        "Ernest Bevin (Foreign Secretary)"
+      ],
+      "sources": [
+        {
+          "name": "British Electoral Commission, General Election Results, 5 July 1945",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Peter Hennessy, Never Again: Britain 1945\u20131951 (1992)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Election held 5 July 1945; Attlee became PM 26 July 1945.",
+      "cross_references": [
+        "1948-002 (National Health Service established)"
+      ]
+    },
+    {
+      "id": "1945-016",
+      "title": "Philippines liberated from Japanese occupation",
+      "region": "Manila, Philippines",
+      "coordinates_approx": "14.60, 120.98",
+      "category": "military",
+      "description": "The Philippines were liberated from Japanese occupation in 1945 following the Battle of Manila (February\u2013March 1945) and the subsequent American advance. General Douglas MacArthur's forces defeated the Japanese military and restored American control. The liberation was marked by significant civilian casualties and destruction, particularly in Manila. The Philippines remained under American military administration until independence was granted on 4 July 1946. The liberation marked the beginning of the end of Japanese occupation in Southeast Asia.",
+      "key_figures": [
+        "Douglas MacArthur",
+        "Sergio Osme\u00f1a (Philippine President-in-exile)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Army, Southwest Pacific Area, Operations Reports, 1945",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Stanley Karnow, In Our Image: America's Empire in the Philippines (1989)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Philippines liberated in 1945; documented in military records.",
+      "cross_references": [
+        "1946-005 (Philippines granted independence)"
+      ]
+    },
+    {
+      "id": "1945-017",
+      "title": "Partition of Korea; Soviet and American occupation zones established",
+      "region": "Korea",
+      "coordinates_approx": "37.00, 127.00",
+      "category": "political",
+      "description": "Following Japan's surrender, Korea was divided at the 38th parallel into Soviet and American occupation zones. The Soviet Union occupied the north; the United States occupied the south. This division, intended to be temporary, became permanent with the establishment of the Democratic People's Republic of Korea (North Korea) in 1948 and the Republic of Korea (South Korea) in 1948. The partition of Korea set the stage for the Korean War (1950\u20131953) and the division of the peninsula that persists to the present day.",
+      "key_figures": [
+        "Syngman Rhee (South Korean leader)",
+        "Kim Il-sung (North Korean leader)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. State Department, Korea Occupation Directives, 1945",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Bruce Cumings, The Korean War: A History (2010)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Korea partitioned at 38th parallel in 1945; documented in US and Soviet records.",
+      "cross_references": [
+        "1948-003 (North and South Korea established)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The claim that the atomic bombings of Hiroshima and Nagasaki were necessary to end the war is disputed by modern scholarship. Some historians argue that Japan was already seeking surrender terms and that the bombings were unnecessary. Others contend that the Soviet entry into the war against Japan was the decisive factor in Japan's surrender. The bombings' role in ending the war remains contested. Additionally, the Yalta Conference's reputation has been revised by modern scholarship. While Cold War historians criticised Roosevelt for 'conceding' Eastern Europe to Stalin, recent scholarship argues that Roosevelt had limited leverage given Soviet military strength and that the agreements reflected military realities rather than Roosevelt's weakness. The characterisation of Yalta as a 'betrayal' of Eastern Europe is now seen as oversimplified. Regarding the Bretton Woods institutions, the claim that they were designed to promote development and stability is complicated by the fact that they were primarily designed to serve the interests of the United States and Western powers, and their policies often reflected Cold War geopolitical interests rather than purely economic considerations.",
+  "historiographic_note": "1945 is exceptionally well-documented due to the global scale of World War II and the intensive documentation of military operations, diplomatic conferences, and war crimes. Western sources (American, British, French) are abundant; Soviet sources are less accessible but increasingly available through declassified archives. Japanese sources on the war's end are substantial but often reflect post-war Japanese historiography. Coverage of Asian decolonisation movements is less detailed in Western sources, reflecting the bias of contemporary documentation toward European and American perspectives. The year marks a transition from wartime to peacetime documentation, with a shift from military records to diplomatic and political archives. Indigenous and non-elite perspectives are underrepresented in surviving sources. The Holocaust documentation is extensive but reflects the perspectives of liberators and survivors; perpetrator perspectives are documented in trial records.",
+  "graph_edges": [
+    {
+      "from": "1945-003",
+      "to": "1945-004",
+      "relation": "contemporary_with",
+      "note": "Germany's surrender in May 1945 preceded Japan's surrender in August 1945"
+    },
+    {
+      "from": "1945-004",
+      "to": "1946-006",
+      "relation": "led_to",
+      "note": "Atomic bombings of Japan led to Bikini Atoll nuclear tests in 1946"
+    },
+    {
+      "from": "1945-005",
+      "to": "1945-006",
+      "relation": "led_to",
+      "note": "Yalta Conference in February 1945 preceded Potsdam Conference in July 1945"
+    },
+    {
+      "from": "1945-007",
+      "to": "1945-004",
+      "relation": "contemporary_with",
+      "note": "Soviet entry into war against Japan in August 1945 coincided with atomic bombings"
+    },
+    {
+      "from": "1945-008",
+      "to": "1946-011",
+      "relation": "led_to",
+      "note": "Vietnamese independence declaration in 1945 led to First Indochina War in 1946"
+    },
+    {
+      "from": "1945-009",
+      "to": "1949-002",
+      "relation": "led_to",
+      "note": "Indonesian independence declaration in 1945 led to Dutch recognition in 1949"
+    },
+    {
+      "from": "1945-012",
+      "to": "1946-001",
+      "relation": "led_to",
+      "note": "Liberation of concentration camps in 1945 provided evidence for Nuremberg Trials in 1946"
+    },
+    {
+      "from": "1945-014",
+      "to": "1946-007",
+      "relation": "led_to",
+      "note": "Chinese Civil War resumed in 1945 and escalated in 1946"
+    },
+    {
+      "from": "1945-017",
+      "to": "1950-001",
+      "relation": "led_to",
+      "note": "Partition of Korea in 1945 led to Korean War in 1950"
+    }
+  ]
+}

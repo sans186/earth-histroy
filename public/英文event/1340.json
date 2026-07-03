@@ -1,0 +1,188 @@
+{
+  "year": 1340,
+  "year_label": "1340 CE",
+  "era_context": "The year 1340 falls within the late medieval period in Europe, characterized by feudal fragmentation, the early Hundred Years' War, and the Avignon Papacy. In Asia, the Yuan Dynasty was experiencing administrative decline and peasant unrest, while the Ottoman Empire was consolidating Anatolian territories. The Black Death was beginning its catastrophic spread from Central Asia toward the Mediterranean. Islamic sultanates dominated trade and politics in the Middle East and North Africa.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Pacific and Oceanic regions",
+    "Central Asian nomadic peoples (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "1340-001",
+      "title": "Battle of Sluys (Hundred Years' War)",
+      "region": "Flanders / County of Flanders",
+      "coordinates_approx": "51.3167, 3.2833",
+      "category": "military",
+      "description": "On June 24, 1340, English forces under King Edward III defeated a French fleet at Sluys in Flanders, destroying approximately 190 French ships and killing an estimated 16,000\u201318,000 French sailors and soldiers. This naval victory gave England temporary control of the English Channel and boosted English morale early in the Hundred Years' War. The battle demonstrated the vulnerability of medieval naval forces and the importance of control over sea lanes for cross-Channel operations.",
+      "key_figures": [
+        "Edward III of England (King)",
+        "Philip VI of France (King)",
+        "Robert of Artois (French commander)"
+      ],
+      "sources": [
+        {
+          "name": "Froissart, Chronicles (compiled late 14th century, based on earlier accounts)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "English royal chronicles and records",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "French royal records",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date (June 24, 1340) and basic facts of the battle are well-attested in contemporary English and French records. Casualty figures vary among sources but are consistently high.",
+      "cross_references": [
+        "1337-001 (Hundred Years' War beginning)"
+      ]
+    },
+    {
+      "id": "1340-002",
+      "title": "Black Death spreads from Central Asia toward Mediterranean",
+      "region": "Central Asia / Silk Road",
+      "coordinates_approx": "43.0000, 75.0000",
+      "category": "demographic",
+      "description": "In 1340, the bubonic plague (Black Death) was spreading westward along trade routes from Central Asia, likely originating in the Mongol-controlled steppes. The disease had already devastated populations in Central Asia and the Caucasus. By late 1340 or early 1341, it would reach the Mediterranean via Genoese trading posts. The plague's spread was facilitated by the Mongol Peace (Pax Mongolica), which had opened trade routes but also enabled rapid disease transmission.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Gabriele de Mussis, Istoria de Morbo (14th-century account, written after 1348)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Chinese and Islamic sources documenting plague in Central Asia",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Modern epidemiological and genetic analysis",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The plague's presence in Central Asia in 1340 is inferred from later accounts and epidemiological modeling. Contemporary documentation from Central Asia is sparse. The exact timeline of westward spread is debated.",
+      "cross_references": [
+        "1341-002 (Black Death arrival in Mediterranean)"
+      ]
+    },
+    {
+      "id": "1340-003",
+      "title": "Yuan Dynasty famine and peasant unrest in China",
+      "region": "China / Yuan Dynasty",
+      "coordinates_approx": "35.0000, 105.0000",
+      "category": "demographic",
+      "description": "Widespread famine and crop failures in 1340 exacerbated existing social tensions in Yuan-controlled China. Administrative corruption, Mongol military overextension, and environmental stress (possibly related to climate anomalies) created conditions for peasant rebellion. These famines and unrest would contribute to the rise of the Red Turban Rebellion in the early 1350s and ultimately to the Yuan Dynasty's collapse.",
+      "key_figures": [
+        "Toghon Tem\u00fcr (Huizong Emperor, Yuan Dynasty, r. 1333\u20131368)"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shilu (Yuan Dynasty official records)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Ming Shilu (Ming Dynasty records, compiled after 1368)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Chinese historical chronicles (Zizhi Tongjian and continuations)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Famine and unrest in 1340 are attested in Yuan records, but specific casualty figures and regional extent are difficult to verify. The causal links to later rebellion are inferred from broader historical patterns.",
+      "cross_references": [
+        "1341-003 (Red Turban Rebellion)"
+      ]
+    },
+    {
+      "id": "1340-004",
+      "title": "Murad I becomes Ottoman Sultan",
+      "region": "Ottoman Empire / Anatolia",
+      "coordinates_approx": "40.5000, 29.0000",
+      "category": "political",
+      "description": "Murad I succeeded his father Orhan I as Ottoman Sultan in 1340 (or possibly 1362, sources vary). Murad I is credited with expanding Ottoman territory significantly and establishing the Janissary corps, a professional standing army that would become central to Ottoman military power. His reign marked the transition of the Ottomans from a regional Anatolian beylik to a major Balkan and Mediterranean power.",
+      "key_figures": [
+        "Murad I (Ottoman Sultan, r. 1340\u20131389 or 1362\u20131389)",
+        "Orhan I (predecessor)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (A\u015f\u0131kpa\u015fazade, Ne\u015fri)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine sources (Cantacuzenus, Pachymeres)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The date of Murad I's accession is disputed. Some sources place it in 1340, others in 1362. Ottoman chronicles were compiled centuries after the events and may contain chronological errors. Modern scholarship generally favors 1362, but 1340 is also attested in some traditions.",
+      "cross_references": []
+    },
+    {
+      "id": "1340-005",
+      "title": "Papal Jubilee Year declared by Pope Benedict XII",
+      "region": "Papal States / Avignon",
+      "coordinates_approx": "43.9506, 4.8066",
+      "category": "religious",
+      "description": "Pope Benedict XII declared 1340 a Jubilee Year (Holy Year), a tradition of pilgrimage and spiritual renewal in the Catholic Church. The Jubilee drew pilgrims to Rome and Avignon, generating significant economic activity and religious fervor. This was part of the Avignon Papacy's efforts to maintain spiritual authority and financial resources during a period of political fragmentation in Europe.",
+      "key_figures": [
+        "Pope Benedict XII (r. 1334\u20131342)"
+      ],
+      "sources": [
+        {
+          "name": "Papal bulls and official declarations",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles of pilgrimage and religious observance",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The declaration of the 1340 Jubilee Year is well-documented in papal records and contemporary accounts.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The date of Murad I's accession to the Ottoman throne is highly disputed; while some sources place it in 1340, modern scholarship increasingly favors 1362, suggesting that Ottoman chronicles may have compressed or rearranged chronology. The Battle of Sluys, while a significant English naval victory, did not lead to sustained English control of the Channel or prevent French recovery; its long-term strategic impact was limited. The causal link between 1340 famines in China and the later Red Turban Rebellion is inferred rather than directly documented; multiple factors contributed to Yuan collapse.",
+  "historiographic_note": "The year 1340 is moderately well-documented for European and Mediterranean events, with contemporary chronicles from England, France, and the Papacy providing detailed accounts. Asian sources (Chinese, Ottoman) are more fragmentary and often compiled centuries after the events. The Black Death's presence in Central Asia in 1340 is inferred from later accounts and epidemiological modeling rather than contemporary documentation. Sub-Saharan African, Southeast Asian, and Pacific regions are absent from surviving records. The surviving sources reflect elite perspectives (royal courts, papal bureaucracy, merchant records); peasant and non-elite experiences are largely invisible. Ottoman sources are particularly problematic, as they were compiled in the 15th\u201316th centuries and may reflect later political narratives.",
+  "graph_edges": [
+    {
+      "from": "1340-001",
+      "to": "1346-001",
+      "relation": "part_of",
+      "note": "Battle of Sluys was part of broader Hundred Years' War conflict"
+    },
+    {
+      "from": "1340-002",
+      "to": "1341-002",
+      "relation": "led_to",
+      "note": "Black Death spread from Central Asia toward Mediterranean in 1340, arriving in 1341"
+    },
+    {
+      "from": "1340-003",
+      "to": "1352-001",
+      "relation": "led_to",
+      "note": "Yuan famines and unrest in 1340 contributed to Red Turban Rebellion in early 1350s"
+    }
+  ]
+}

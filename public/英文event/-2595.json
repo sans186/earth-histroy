@@ -1,0 +1,95 @@
+{
+  "year": -2595,
+  "year_label": "2595 BCE",
+  "era_context": "Early Bronze Age III. The Akkadian Empire under Naram-Sin is at its height. Old Kingdom Egypt (Dynasty VI) is in its final century, with central authority fragmenting. The Indus Valley Civilization is in its mature phase. In China, the Xia Dynasty is traditionally dated to this period, though archaeological evidence is contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Oceania",
+    "The Americas",
+    "Central Asia",
+    "East Asia (Xia Dynasty chronology is highly uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-2595-001",
+      "title": "Akkadian Empire: continued dominance and trade expansion",
+      "region": "Mesopotamia, the Levant, and adjacent regions",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "economic",
+      "description": "Naram-Sin's reign continues, and the Akkadian Empire maintains its dominance over Mesopotamia and the Levant. Trade networks are extensive, connecting Mesopotamia to the Indus Valley, the Persian Gulf, and the Levant. Akkadian merchants and officials are active throughout the region, and the Akkadian language is the lingua franca of trade and administration. However, the costs of maintaining such a large empire are mounting, and external pressures from the Gutians and other highland peoples are increasing.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions, administrative records, and trade documents",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested. The year -2595 falls within his reign based on Middle Chronology, with \u00b150\u2013100 year uncertainty.",
+      "cross_references": [
+        "-2599-001",
+        "-2598-001",
+        "-2597-001",
+        "-2596-001"
+      ]
+    },
+    {
+      "id": "-2595-002",
+      "title": "Old Kingdom Egypt: Pepi II's reign in its final phase",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Pepi II's reign continues, and the Old Kingdom's centralized authority is visibly eroding. Provincial governors are accumulating wealth and power, and the royal treasury is depleted. The construction of royal monuments has ceased, and the focus of royal activity is on military campaigns in Nubia and the Sinai. The administrative system that sustained the Old Kingdom is fragmenting, and the transition to the First Intermediate Period is imminent. Some scholars suggest that Pepi II's reign may be ending around this time, though the exact date is uncertain.",
+      "key_figures": [
+        "Pepi II (Pharaoh, Dynasty VI)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian administrative records, tomb inscriptions, and king lists",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Old Kingdom sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The decline of the Old Kingdom is well-attested archaeologically, but specific events within Pepi II's reign are difficult to date precisely. The year -2595 is assigned to his reign by convention, though some scholars place the end of his reign around this time.",
+      "cross_references": [
+        "-2599-002",
+        "-2598-002",
+        "-2597-002",
+        "-2596-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Pepi II's reign is contested. Some scholars argue for a much shorter reign (c. 2250\u20132240 BCE) based on revised Egyptological chronology, which would place the end of his reign earlier than traditionally thought. Additionally, the absolute chronology of the Akkadian Empire depends on the 'Middle Chronology' of Mesopotamia, which is debated; alternative chronologies shift these dates by 50\u2013150 years.",
+  "historiographic_note": "The historical record for -2595 is sparse and relies on the same sources as previous years. Specific events within the reigns of Naram-Sin and Pepi II are difficult to isolate to individual years. The surviving sources are primarily administrative and monumental records, which bias our understanding toward elite activities. The chronological framework for this period is debated, and absolute dating has significant uncertainty.",
+  "graph_edges": [
+    {
+      "from": "-2595-001",
+      "to": "-2599-001",
+      "relation": "contemporary_with",
+      "note": "Naram-Sin's reign continues; the Akkadian Empire is at its height."
+    },
+    {
+      "from": "-2595-002",
+      "to": "-2599-002",
+      "relation": "contemporary_with",
+      "note": "Pepi II's reign continues; Old Kingdom authority continues to weaken."
+    },
+    {
+      "from": "-2595-002",
+      "to": "-2184-001",
+      "relation": "led_to",
+      "note": "Pepi II's reign ends c. 2184 BCE; Egypt enters the First Intermediate Period."
+    }
+  ]
+}

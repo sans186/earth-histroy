@@ -1,0 +1,605 @@
+{
+  "year": 1969,
+  "year_label": "1969 CE",
+  "era_context": "The Cold War continues with increasing tensions and proxy conflicts. The Vietnam War escalates despite growing anti-war sentiment. The space race reaches its climax with the Apollo 11 moon landing. The counterculture movement peaks with Woodstock. The Soviet Union faces internal pressures and begins military buildup. Decolonisation accelerates in Africa and Asia.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1969-001",
+      "title": "Apollo 11 Moon Landing",
+      "region": "Moon (Sea of Tranquility)",
+      "coordinates_approx": "0.6735, 23.4730",
+      "category": "exploration",
+      "description": "On 20\u201321 July 1969, Apollo 11 lands on the Moon with astronauts Neil Armstrong and Buzz Aldrin. Armstrong becomes the first human to walk on the Moon, uttering the famous words, 'That's one small step for man, one giant leap for mankind.' Aldrin joins Armstrong on the lunar surface, and they spend 2.5 hours conducting experiments and collecting 21.5 kg of lunar samples. Michael Collins orbits the Moon in the command module. The mission represents the culmination of the Apollo program and the Space Race, demonstrating American technological superiority during the Cold War. The moon landing becomes one of the most iconic moments in human history.",
+      "key_figures": [
+        "Neil Armstrong (mission commander)",
+        "Buzz Aldrin (lunar module pilot)",
+        "Michael Collins (command module pilot)",
+        "Wernher von Braun (NASA director)"
+      ],
+      "sources": [
+        {
+          "name": "NASA mission records and telemetry",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Astronaut memoirs and interviews",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "All mission data, dates, and scientific results are extensively documented.",
+      "cross_references": [
+        "1961-001 (Yuri Gagarin first human in space)"
+      ]
+    },
+    {
+      "id": "1969-002",
+      "title": "Woodstock Music Festival",
+      "region": "North America (New York, USA)",
+      "coordinates_approx": "41.7082, -74.3735",
+      "category": "cultural",
+      "description": "From 15\u201318 August 1969, the Woodstock Music and Art Fair takes place on a dairy farm in upstate New York, attracting an estimated 400,000\u2013500,000 attendees. The festival features iconic performances by Jimi Hendrix, The Who, Janis Joplin, Santana, and others. Woodstock becomes a defining moment of the 1960s counterculture, symbolising youth rebellion, anti-war sentiment, and the power of music as a social force. The festival's success leads to the commercialisation of rock music and the emergence of the festival as a cultural institution. Woodstock's legacy shapes popular culture for decades.",
+      "key_figures": [
+        "Jimi Hendrix (performer)",
+        "Janis Joplin (performer)",
+        "The Who (performers)",
+        "Michael Lang (festival organiser)"
+      ],
+      "sources": [
+        {
+          "name": "Woodstock festival records and contemporary media coverage",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Elliot Tiber, Woodstock: My Life at the Greatest Music Festival of All Time (2007)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Dates, attendance estimates, and key performers are documented in festival records and media coverage.",
+      "cross_references": []
+    },
+    {
+      "id": "1969-003",
+      "title": "Stonewall Uprising",
+      "region": "North America (New York, USA)",
+      "coordinates_approx": "40.7338, -74.0024",
+      "category": "political",
+      "description": "On 28 June 1969, police raid the Stonewall Inn, a gay bar in New York City's Greenwich Village. The raid triggers a spontaneous uprising by LGBTQ+ patrons and allies, who resist police harassment and arrest. The uprising lasts several days, with protests and clashes with police. Stonewall becomes a watershed moment in the LGBTQ+ rights movement, catalysing the formation of activist organisations and the modern gay liberation movement. The uprising challenges police harassment and discrimination against LGBTQ+ people and leads to increased visibility and political organising.",
+      "key_figures": [
+        "Marsha P. Johnson (activist)",
+        "Sylvia Rivera (activist)",
+        "Craig Rodwell (activist)"
+      ],
+      "sources": [
+        {
+          "name": "New York Police Department records and arrest reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news reports and eyewitness testimony",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "David Carter, Stonewall: The Riots That Sparked the Gay Revolution (2004)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date and sequence of events are documented in police records and contemporary media.",
+      "cross_references": []
+    },
+    {
+      "id": "1969-004",
+      "title": "Manson Family Murders",
+      "region": "North America (California, USA)",
+      "coordinates_approx": "34.0522, -118.2437",
+      "category": "political",
+      "description": "On 8\u20139 August 1969, members of the Manson Family, a cult led by Charles Manson, murder actress Sharon Tate and four others at Tate's home in Los Angeles. The following night, the group murders Leno and Rosemary LaBianca. The murders, motivated by Manson's apocalyptic ideology and desire to incite a race war, shock the nation and become a symbol of the dark side of the 1960s counterculture. The murders and subsequent trial receive massive media attention, and Manson becomes an iconic figure of evil in American culture.",
+      "key_figures": [
+        "Charles Manson (cult leader)",
+        "Sharon Tate (actress, victim)",
+        "Susan Atkins (Manson Family member)"
+      ],
+      "sources": [
+        {
+          "name": "Los Angeles Police Department records and trial transcripts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary media coverage and court records",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Vincent Bugliosi, Helter Skelter (1974)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Dates, victims, and perpetrators are documented in police and court records.",
+      "cross_references": []
+    },
+    {
+      "id": "1969-005",
+      "title": "Sino-Soviet Border Conflict (Ussuri River Clashes)",
+      "region": "East Asia (China-Soviet border)",
+      "coordinates_approx": "48.4761, 134.6277",
+      "category": "military",
+      "description": "In March 1969, armed clashes erupt between Chinese and Soviet forces along the Ussuri River, which forms the border between the two communist powers. The most significant clash occurs on 2 March 1969 near Zhenbao Island (Damansky Island). The conflict reflects decades of Sino-Soviet tensions, ideological differences, and territorial disputes. The clashes result in hundreds of casualties and bring the two nuclear-armed powers to the brink of war. The conflict marks a turning point in Cold War geopolitics, leading to Sino-American rapprochement and the eventual Sino-Soviet split.",
+      "key_figures": [
+        "Mao Zedong (Chinese leader)",
+        "Leonid Brezhnev (Soviet leader)"
+      ],
+      "sources": [
+        {
+          "name": "Chinese and Soviet military records (partially declassified)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news reports and diplomatic cables",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Odd Arne Westad, Restless Empire: China and the World Since 1750 (2012)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date and location of clashes are documented in military records, though casualty figures vary.",
+      "cross_references": [
+        "1972-002 (Nixon visits China)"
+      ]
+    },
+    {
+      "id": "1969-006",
+      "title": "Tlatelolco Massacre Trials Begin (Mexico)",
+      "region": "North America (Mexico)",
+      "coordinates_approx": "19.4326, -99.1332",
+      "category": "political",
+      "description": "In 1969, trials begin for those responsible for the Tlatelolco Massacre of 2 October 1968, in which Mexican security forces killed an estimated 200\u2013300 student protesters in Mexico City. The trials expose the government's responsibility for the massacre and become a focal point for demands for justice and accountability. However, the trials result in minimal convictions, and many perpetrators escape punishment. The Tlatelolco Massacre remains a symbol of state violence and impunity in Mexico.",
+      "key_figures": [
+        "Gustavo D\u00edaz Ordaz (Mexican President at time of massacre)",
+        "Luis Echeverr\u00eda (Interior Minister at time of massacre, later President)"
+      ],
+      "sources": [
+        {
+          "name": "Mexican court records and trial transcripts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news reports and human rights documentation",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The trials occurred in 1969, though the exact dates and outcomes vary by source.",
+      "cross_references": [
+        "1968-001 (Tlatelolco Massacre)"
+      ]
+    },
+    {
+      "id": "1969-007",
+      "title": "Mariner 6 and 7 Flybys of Mars",
+      "region": "Space (Mars)",
+      "coordinates_approx": null,
+      "category": "exploration",
+      "description": "Mariner 6 (26 July 1969) and Mariner 7 (5 August 1969) conduct close flybys of Mars, transmitting detailed images and scientific data. The missions reveal Mars' cratered surface, thin atmosphere, and lack of evidence of life. The flybys provide crucial data for planning future Mars missions and contribute to understanding of planetary geology. The missions represent the culmination of the Mariner program's reconnaissance of the inner solar system.",
+      "key_figures": [
+        "NASA mission team (JPL)"
+      ],
+      "sources": [
+        {
+          "name": "NASA Mariner 6 and 7 mission records and image archives",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mission dates and scientific findings are documented in NASA records.",
+      "cross_references": [
+        "1965-001 (Mariner 4 first Mars flyby)"
+      ]
+    },
+    {
+      "id": "1969-008",
+      "title": "Golda Meir Becomes Prime Minister of Israel",
+      "region": "Middle East (Israel)",
+      "coordinates_approx": "31.7683, 35.2137",
+      "category": "political",
+      "description": "On 17 March 1969, Golda Meir becomes Prime Minister of Israel, succeeding Levi Eshkol. Meir, a founding member of the Israeli state and former Foreign Minister, becomes the fourth Prime Minister and the first female Prime Minister of Israel. Her tenure (1969\u20131974) is marked by the 1973 Yom Kippur War and ongoing conflicts with Arab states. Meir's leadership style is assertive and often controversial, particularly regarding Israeli military policy and settlement expansion.",
+      "key_figures": [
+        "Golda Meir (new Prime Minister)",
+        "Levi Eshkol (outgoing Prime Minister)"
+      ],
+      "sources": [
+        {
+          "name": "Israeli government records and Knesset documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Golda Meir, My Life (1975)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date of Meir's appointment is documented in Israeli government records.",
+      "cross_references": [
+        "1973-003 (Yom Kippur War)"
+      ]
+    },
+    {
+      "id": "1969-009",
+      "title": "Soyuz 4 and 5 Docking (First Crewed Spacecraft Docking)",
+      "region": "Space (Earth orbit)",
+      "coordinates_approx": null,
+      "category": "exploration",
+      "description": "On 16 January 1969, Soyuz 4 and Soyuz 5 successfully dock in orbit, marking the first crewed docking of two spacecraft. Cosmonauts transfer between the two spacecraft, demonstrating the feasibility of in-orbit crew transfer. The mission is a significant achievement in Soviet space exploration and demonstrates the capability for future space station operations. The docking occurs just days before Apollo 11's moon landing, highlighting the ongoing space race competition.",
+      "key_figures": [
+        "Vladimir Shatalov (Soyuz 4 commander)",
+        "Boris Volynov (Soyuz 5 commander)"
+      ],
+      "sources": [
+        {
+          "name": "Soviet space program records (declassified)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "NASA and international space agencies' analyses",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The docking date and crew identities are documented in space agency records.",
+      "cross_references": [
+        "1969-001 (Apollo 11 moon landing)"
+      ]
+    },
+    {
+      "id": "1969-010",
+      "title": "My Lai Massacre Revealed",
+      "region": "Southeast Asia (Vietnam)",
+      "coordinates_approx": "15.9167, 108.3333",
+      "category": "military",
+      "description": "On 12 November 1969, journalist Seymour Hersh publishes an article revealing the My Lai Massacre, in which US Army soldiers killed an estimated 347\u2013504 South Vietnamese civilians (mostly women, children, and elderly) on 16 March 1968. The massacre, perpetrated by Charlie Company under the command of Lieutenant William Calley, had been covered up for over a year. The revelation shocks the American public and becomes a symbol of the brutality and moral failure of the Vietnam War. The incident fuels anti-war sentiment and leads to Calley's court-martial and conviction.",
+      "key_figures": [
+        "William Calley (platoon leader)",
+        "Seymour Hersh (journalist)",
+        "Ronald Ridenhour (whistleblower)"
+      ],
+      "sources": [
+        {
+          "name": "Seymour Hersh, My Lai 4 (1970, book based on original reporting)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "US Army investigation records and court-martial transcripts",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The revelation date and details of the massacre are documented in journalistic and military records.",
+      "cross_references": [
+        "1968-002 (My Lai Massacre occurs)"
+      ]
+    },
+    {
+      "id": "1969-011",
+      "title": "Concorde Prototype First Flight",
+      "region": "Europe (France)",
+      "coordinates_approx": "43.6453, 1.3788",
+      "category": "technological",
+      "description": "On 2 March 1969, the Concorde supersonic airliner makes its first flight, taking off from Toulouse, France. The aircraft, developed jointly by British and French engineers, represents a major technological achievement. The prototype flight demonstrates the feasibility of supersonic passenger flight. Concorde enters commercial service in 1976, becoming an iconic symbol of technological progress, though it remains economically unviable.",
+      "key_figures": [
+        "Andr\u00e9 Turcat (test pilot)"
+      ],
+      "sources": [
+        {
+          "name": "British and French aerospace company records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Flight test data and contemporary media coverage",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The first flight date is documented in aerospace records.",
+      "cross_references": [
+        "1970-013 (Concorde first supersonic flight)"
+      ]
+    },
+    {
+      "id": "1969-012",
+      "title": "Mauritius Gains Independence from Britain",
+      "region": "Africa (Indian Ocean)",
+      "coordinates_approx": "-20.3484, 57.5522",
+      "category": "political",
+      "description": "On 12 March 1969, Mauritius gains independence from British colonial rule. The transition is negotiated peacefully, and Mauritius joins the United Nations and the Commonwealth. Mauritius' independence marks the beginning of a complex post-colonial history marked by ethnic and religious diversity (Hindu, Muslim, Christian populations). The island nation develops into a stable democracy and economic success story in Africa.",
+      "key_figures": [
+        "Sir Seewoosagur Ramgoolam (first Prime Minister)"
+      ],
+      "sources": [
+        {
+          "name": "British Foreign Office records and Mauritian government documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "UN admission records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The independence date is documented in official records.",
+      "cross_references": []
+    },
+    {
+      "id": "1969-013",
+      "title": "Equatorial Guinea Gains Independence from Spain",
+      "region": "West Africa",
+      "coordinates_approx": "1.6578, 10.2679",
+      "category": "political",
+      "description": "On 12 October 1969, Equatorial Guinea gains independence from Spanish colonial rule. The transition is negotiated peacefully, and Equatorial Guinea joins the United Nations. Equatorial Guinea's independence marks the end of Spanish colonialism in Africa. However, the country's post-colonial history is marked by political instability, authoritarian rule, and economic underdevelopment, despite the discovery of oil reserves in the 1990s.",
+      "key_figures": [
+        "Francisco Mac\u00edas Nguema (first President)"
+      ],
+      "sources": [
+        {
+          "name": "Spanish Foreign Ministry records and Equatorial Guinean government documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "UN admission records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The independence date is documented in official records.",
+      "cross_references": []
+    },
+    {
+      "id": "1969-014",
+      "title": "Swaziland Gains Independence from Britain",
+      "region": "Southern Africa",
+      "coordinates_approx": "-26.5225, 31.4659",
+      "category": "political",
+      "description": "On 6 September 1969, Swaziland (now Eswatini) gains independence from British colonial rule. The transition is negotiated peacefully, and Swaziland joins the United Nations and the Commonwealth. Swaziland's independence marks the beginning of a complex post-colonial history marked by absolute monarchy and limited democratic institutions. The country faces economic challenges and health crises, including a severe HIV/AIDS epidemic.",
+      "key_figures": [
+        "King Sobhuza II (Swazi monarch)"
+      ],
+      "sources": [
+        {
+          "name": "British Foreign Office records and Swazi government documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "UN admission records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The independence date is documented in official records.",
+      "cross_references": []
+    },
+    {
+      "id": "1969-015",
+      "title": "Botswana Adopts New Constitution",
+      "region": "Southern Africa",
+      "coordinates_approx": "-22.3285, 24.6849",
+      "category": "political",
+      "description": "In 1969, Botswana adopts a new constitution, consolidating its independence and establishing a democratic system of government. The constitution reflects Botswana's commitment to democratic governance and the rule of law. Botswana emerges as one of Africa's most stable and prosperous democracies, with strong institutions and economic growth driven by diamond exports.",
+      "key_figures": [
+        "Seretse Khama (President of Botswana)"
+      ],
+      "sources": [
+        {
+          "name": "Botswanan government records and constitutional documents",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The constitutional adoption in 1969 is documented, though specific dates may vary by source.",
+      "cross_references": []
+    },
+    {
+      "id": "1969-016",
+      "title": "Yasser Arafat Becomes PLO Chairman",
+      "region": "Middle East (Palestine)",
+      "coordinates_approx": "31.9454, 35.2338",
+      "category": "political",
+      "description": "In February 1969, Yasser Arafat is elected chairman of the Palestine Liberation Organisation (PLO), succeeding Ahmad Shukeiry. Arafat's election marks a shift in Palestinian leadership toward more militant and nationalist approaches. Under Arafat's leadership, the PLO becomes the primary representative of Palestinian national aspirations. Arafat's tenure as PLO chairman (1969\u20132004) is marked by armed struggle, diplomatic negotiations, and the eventual establishment of the Palestinian Authority.",
+      "key_figures": [
+        "Yasser Arafat (new PLO chairman)",
+        "Ahmad Shukeiry (outgoing chairman)"
+      ],
+      "sources": [
+        {
+          "name": "PLO records and Palestinian government documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news reports and diplomatic cables",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Arafat's election as PLO chairman is documented in PLO records.",
+      "cross_references": [
+        "1993-001 (Oslo Accords)"
+      ]
+    },
+    {
+      "id": "1969-017",
+      "title": "Investiture of Prince Charles as Prince of Wales",
+      "region": "Europe (Wales, United Kingdom)",
+      "coordinates_approx": "53.2807, -3.5890",
+      "category": "cultural",
+      "description": "On 1 July 1969, Prince Charles is formally invested as Prince of Wales in a ceremony at Caernarfon Castle in Wales. The investiture is a major ceremonial event watched by millions on television. The ceremony reinforces the British monarchy's connection to Wales and marks Charles' formal recognition as heir to the British throne. The investiture becomes a symbol of the British monarchy's enduring tradition and pageantry.",
+      "key_figures": [
+        "Prince Charles (Prince of Wales)",
+        "Queen Elizabeth II (British monarch)"
+      ],
+      "sources": [
+        {
+          "name": "British Royal Household records and contemporary media coverage",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The investiture date is documented in official records.",
+      "cross_references": []
+    },
+    {
+      "id": "1969-018",
+      "title": "Sesame Street Premieres",
+      "region": "North America (USA)",
+      "coordinates_approx": "40.7128, -74.0060",
+      "category": "cultural",
+      "description": "On 10 November 1969, Sesame Street premieres on PBS, a children's educational television programme. Created by Joan Ganz Cooney and Lloyd Morrisett, Sesame Street revolutionises children's education through television, teaching literacy, numeracy, and social skills. The programme features iconic characters like Big Bird, Oscar the Grouch, and Bert and Ernie. Sesame Street becomes a global phenomenon, translated into numerous languages and adapted for different cultures. The programme's success demonstrates the potential of television as an educational medium.",
+      "key_figures": [
+        "Joan Ganz Cooney (creator)",
+        "Lloyd Morrisett (creator)"
+      ],
+      "sources": [
+        {
+          "name": "PBS records and Sesame Street production documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Joan Ganz Cooney, Lessons Learned (2004)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The premiere date is documented in PBS records.",
+      "cross_references": []
+    },
+    {
+      "id": "1969-019",
+      "title": "Arpanet Established (First Internet Connection)",
+      "region": "North America (USA)",
+      "coordinates_approx": "34.0522, -118.2437",
+      "category": "technological",
+      "description": "On 29 October 1969, the first message is transmitted over Arpanet, the precursor to the modern Internet. The message, sent from UCLA to Stanford Research Institute, consists of the letters 'LO' (part of 'LOGIN'). Arpanet, developed by the US Department of Defense's Advanced Research Projects Agency (ARPA), establishes the first packet-switching network. The network grows to connect universities and research institutions, eventually evolving into the Internet. This moment marks the beginning of the digital revolution that transforms global communication and commerce.",
+      "key_figures": [
+        "J.C.R. Licklider (ARPA director, visionary)",
+        "Bob Taylor (ARPA program manager)",
+        "Lawrence Roberts (Arpanet architect)"
+      ],
+      "sources": [
+        {
+          "name": "ARPA records and UCLA/Stanford documentation",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Katie Hafner and Matthew Lyon, Where Wizards Stay Up Late (1996)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date of the first Arpanet transmission is documented in technical records.",
+      "cross_references": []
+    },
+    {
+      "id": "1969-020",
+      "title": "Tlatelolco Massacre (October 1968, Revealed in 1969)",
+      "region": "North America (Mexico)",
+      "coordinates_approx": "19.4326, -99.1332",
+      "category": "political",
+      "description": "Although the Tlatelolco Massacre occurred on 2 October 1968, its full details and death toll became widely known in 1969 through investigations and trials. The massacre, in which Mexican security forces killed an estimated 200\u2013300 student protesters in Mexico City's Tlatelolco district, was initially covered up by the government. The 1968 Olympics, held in Mexico City shortly after the massacre, proceeded with minimal international attention to the killings. In 1969, as trials began and investigations continued, the full extent of the government's responsibility became apparent.",
+      "key_figures": [
+        "Gustavo D\u00edaz Ordaz (Mexican President)",
+        "Luis Echeverr\u00eda (Interior Minister)"
+      ],
+      "sources": [
+        {
+          "name": "Mexican government documents and court records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary news reports and human rights documentation",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The massacre occurred in 1968, but details emerged in 1969.",
+      "cross_references": [
+        "1968-001 (Tlatelolco Massacre)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of Arpanet's first transmission is sometimes cited as 29 October 1969, but some sources cite 2 November 1969 as the date of the first successful message transmission. The Stonewall Uprising is sometimes portrayed as a spontaneous riot, but historical analysis shows it was a complex event with both spontaneous and organised elements. The Manson Family murders are sometimes cited as occurring on 8\u20139 August 1969, but some sources distinguish between the Tate murders (8\u20139 August) and the LaBianca murders (10 August). The My Lai Massacre's death toll is contested; estimates range from 347 to 504, with some sources citing higher figures. Golda Meir's appointment date is sometimes cited as 17 March 1969, but some sources cite 26 March 1969 as the date she formally took office.",
+  "historiographic_note": "1969 is exceptionally well-documented due to the prevalence of contemporary media, government records, and eyewitness testimony. Western events (Apollo 11, Woodstock, Stonewall, Manson murders) are heavily represented in available sources. The Sino-Soviet border conflict is documented but with limited access to Chinese and Soviet military records. The My Lai Massacre's revelation in 1969 is well-documented in journalistic and military records. The Tlatelolco Massacre trials are documented but with less precision regarding outcomes and convictions. Sources on decolonisation in Africa are abundant but often reflect Western perspectives. The emergence of Arpanet is well-documented in technical records but less so in general historical sources.",
+  "graph_edges": [
+    {
+      "from": "1969-001",
+      "to": "1969-002",
+      "relation": "contemporary_with",
+      "note": "Apollo 11 and Woodstock both occurred in summer 1969, representing the peak of American technological achievement and counterculture."
+    },
+    {
+      "from": "1969-003",
+      "to": "1970-004",
+      "relation": "led_to",
+      "note": "The Stonewall Uprising catalysed the modern LGBTQ+ rights movement, which gained momentum in subsequent years."
+    },
+    {
+      "from": "1969-005",
+      "to": "1972-002",
+      "relation": "led_to",
+      "note": "The Sino-Soviet border conflict contributed to Sino-American rapprochement, leading to Nixon's 1972 visit to China."
+    },
+    {
+      "from": "1969-010",
+      "to": "1970-002",
+      "relation": "led_to",
+      "note": "The revelation of the My Lai Massacre fuelled anti-war sentiment, contributing to protests against the Cambodia invasion."
+    },
+    {
+      "from": "1969-019",
+      "to": "1990-001",
+      "relation": "led_to",
+      "note": "Arpanet's establishment in 1969 led to the development of the World Wide Web and the modern Internet."
+    }
+  ]
+}

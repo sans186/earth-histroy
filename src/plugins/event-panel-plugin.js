@@ -33,18 +33,18 @@ export default {
     style.textContent = `
       #evt-toggle {
         position: fixed; left: 10px; top: 60px; z-index: 110;
-        background: rgba(10,10,26,0.88); border: 1px solid #3a3a5a; border-radius: 6px;
-        color: #ccc; font-size: 18px; padding: 6px 10px; cursor: pointer;
+        background: var(--bg-panel); border: 1px solid var(--border-secondary); border-radius: 6px;
+        color: var(--btn-text); font-size: 18px; padding: 6px 10px; cursor: pointer;
         transition: left 0.25s ease, background 0.2s, border-color 0.2s, color 0.2s; line-height: 1;
       }
-      #evt-toggle:hover { background: #3a3a5a; color: #fff; }
-      #evt-toggle.active { background: #4a60af; border-color: #6a80cf; color: #fff; }
+      #evt-toggle:hover { background: var(--btn-hover); color: var(--text-white); }
+      #evt-toggle.active { background: var(--accent-blue); border-color: var(--border-accent-hover); color: var(--text-white); }
 
       #evt-panel {
         position: fixed; left: 0; top: 0; bottom: 200px; width: 0;
         z-index: 105; overflow: hidden;
-        background: rgba(10,10,26,0.92);
-        border-right: 1px solid #3a3a5a;
+        background: var(--bg-panel-solid);
+        border-right: 1px solid var(--border-secondary);
         display: flex; flex-direction: column;
         transition: width 0.25s ease;
       }
@@ -52,21 +52,21 @@ export default {
       @media (max-width: 768px) { #evt-panel.open { width: 240px; } }
 
       #evt-panel .evt-header {
-        padding: 14px 14px 10px; border-bottom: 1px solid #2a2a4a;
+        padding: 14px 14px 10px; border-bottom: 1px solid var(--divider);
         flex-shrink: 0;
       }
       #evt-panel .evt-header h3 {
-        color: #ffd700; font-size: 15px; margin: 0 0 2px;
+        color: var(--accent-gold); font-size: 15px; margin: 0 0 2px;
       }
       #evt-panel .evt-header .evt-sub {
-        color: #888; font-size: 11px;
+        color: var(--text-dim); font-size: 11px;
       }
 
       #evt-panel .evt-list {
         flex: 1; overflow-y: auto; padding: 6px 0;
       }
       #evt-panel .evt-list::-webkit-scrollbar { width: 4px; }
-      #evt-panel .evt-list::-webkit-scrollbar-thumb { background: #4a4a7a; border-radius: 2px; }
+      #evt-panel .evt-list::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 2px; }
 
       #evt-panel .evt-item {
         display: flex; align-items: center; gap: 8px;
@@ -76,19 +76,19 @@ export default {
       #evt-panel .evt-item:hover { background: rgba(74,96,175,0.15); }
       #evt-panel .evt-item.selected {
         background: rgba(74,96,175,0.25);
-        border-left-color: #4a60af;
+        border-left-color: var(--accent-blue);
       }
 
       #evt-panel .evt-dot {
         width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0;
       }
       #evt-panel .evt-title {
-        font-size: 13px; color: #ddd; line-height: 1.3; flex: 1;
+        font-size: 13px; color: var(--text-primary); line-height: 1.3; flex: 1;
         overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
       }
 
       #evt-panel .evt-empty {
-        color: #666; font-size: 13px; text-align: center;
+        color: var(--text-very-faint); font-size: 13px; text-align: center;
         padding: 40px 14px;
       }
     `;

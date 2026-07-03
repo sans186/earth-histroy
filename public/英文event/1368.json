@@ -1,0 +1,211 @@
+{
+  "year": 1368,
+  "year_label": "1368 CE",
+  "era_context": "The year 1368 marked a major turning point in East Asian history with the establishment of the Ming Dynasty in China, ending Mongol Yuan rule. In Europe, the Hundred Years' War continued, and the papacy was still in Avignon. The Ottoman Empire was rising in the Balkans, and Timur was beginning his rise to power in Central Asia. This was a period of significant dynastic change and political realignment across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Pacific Islands and Oceania",
+    "Interior of the Americas",
+    "Southeast Asia (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "1368-001",
+      "title": "Ming Dynasty established; Yuan Dynasty falls",
+      "region": "China (Beijing/Nanjing)",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "The Ming Dynasty was established in 1368 when Zhu Yuanzhang (the Hongwu Emperor) led a successful rebellion against the Mongol Yuan Dynasty. The Yuan capital of Khanbaliq (Beijing) fell to Ming forces in September 1368, marking the end of Mongol rule in China. The Ming Dynasty would rule China for nearly three centuries (1368\u20131644) and would become one of history's most culturally and artistically significant dynasties. This event marked a major shift in East Asian politics and culture.",
+      "key_figures": [
+        "Zhu Yuanzhang (Hongwu Emperor, r. 1368\u20131398)",
+        "Toghon Tem\u00fcr (Yuan Emperor, deposed)",
+        "Ming generals and administrators"
+      ],
+      "sources": [
+        {
+          "name": "Ming official records and imperial chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Yuan historical records",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Ming establishment",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The establishment of the Ming Dynasty in 1368 is one of the most well-documented events in Chinese history. Multiple contemporary sources confirm the date and the fall of the Yuan Dynasty.",
+      "cross_references": [
+        "1369-002 (Ming tributary system)",
+        "1370-003 (Ming consolidation)",
+        "1405-001 (Zheng He's voyages)"
+      ]
+    },
+    {
+      "id": "1368-002",
+      "title": "Hundred Years' War: English forces continue campaigns",
+      "region": "Western Europe (France)",
+      "coordinates_approx": "48.5, 2.5",
+      "category": "military",
+      "description": "The Hundred Years' War between England and France continued with English forces conducting military campaigns in France. By 1368, English power was still significant, though the period of English dominance was beginning to wane. The war would continue for another century, with shifting fortunes for both sides. This period saw the consolidation of English holdings in Aquitaine and Gascony.",
+      "key_figures": [
+        "Edward III (English King, r. 1327\u20131377)",
+        "Charles V (French King, r. 1364\u20131380)",
+        "Edward the Black Prince (English commander)"
+      ],
+      "sources": [
+        {
+          "name": "Froissart, Chroniques",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "English and French royal records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Hundred Years' War is extensively documented in contemporary chronicles and administrative records. The year 1368 is well-attested.",
+      "cross_references": [
+        "1369-001 (Continued Hundred Years' War)",
+        "1370-001 (Battle of Pontvallain)"
+      ]
+    },
+    {
+      "id": "1368-003",
+      "title": "Ottoman Empire expands under Murad I",
+      "region": "Balkans and Anatolia (Ottoman territories)",
+      "coordinates_approx": "40.0, 25.0",
+      "category": "military",
+      "description": "The Ottoman Empire, under Murad I (r. 1362\u20131389), was expanding its territorial control in the Balkans and Anatolia. By 1368, the Ottomans had consolidated their hold over much of western Anatolia and were beginning to expand into the Balkans. This expansion would accelerate in the following years, establishing the Ottoman Empire as a major power in the Eastern Mediterranean and Balkans.",
+      "key_figures": [
+        "Murad I (Ottoman Sultan, r. 1362\u20131389)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles and later compilations",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine and Serbian historical sources",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ottoman expansion in this period is well-attested, though specific dates for individual campaigns vary by source. The year 1368 is a reasonable approximation for the period of expansion.",
+      "cross_references": [
+        "1369-004 (Ottoman consolidation in Thrace)",
+        "1371-001 (Battle of Maritsa)"
+      ]
+    },
+    {
+      "id": "1368-004",
+      "title": "Timur begins his rise to power in Central Asia",
+      "region": "Central Asia (Samarkand region)",
+      "coordinates_approx": "39.65, 66.98",
+      "category": "political",
+      "description": "Timur (Tamerlane), a Turco-Mongol warrior, was beginning his rise to power in Central Asia around 1368. By this year, he had begun to consolidate his control over various tribes and territories in the region. Over the next few years, he would defeat rival khans and establish himself as the dominant power in Central Asia, eventually creating one of history's largest empires. This period marked the beginning of the Timurid era.",
+      "key_figures": [
+        "Timur (Tamerlane, Turco-Mongol conqueror)",
+        "Central Asian khans and tribal leaders"
+      ],
+      "sources": [
+        {
+          "name": "Timurid chronicles and later compilations (e.g., Zafar-nama by Sharaf ad-Din Ali Yazdi)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Persian and Islamic historical sources",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Timur's early career is attested in later sources, but the exact chronology is uncertain. The year 1368 is an approximation for the beginning of his rise to power.",
+      "cross_references": [
+        "1369-003 (Timur defeats Chagatai Khanate)",
+        "1370-004 (Timur consolidates power)"
+      ]
+    },
+    {
+      "id": "1368-005",
+      "title": "Papacy remains in Avignon; religious tensions mount",
+      "region": "Western Europe (Avignon, Rome)",
+      "coordinates_approx": "43.95, 4.8",
+      "category": "religious",
+      "description": "The papacy remained in Avignon in 1368, though there were growing calls for the pope to return to Rome. Pope Urban VI would not be elected until 1378, and the return to Rome would not occur until 1377 under Gregory XI. This period saw increasing tensions over papal authority, church reform, and the location of the papal seat. Religious reform movements were gaining momentum in England and elsewhere.",
+      "key_figures": [
+        "Pope Urban V (r. 1362\u20131370)",
+        "Church reformers and theologians"
+      ],
+      "sources": [
+        {
+          "name": "Papal records and ecclesiastical chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Theological writings and reform documents",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The location of the papacy in Avignon in 1368 is well-documented. The year 1368 is clearly attested.",
+      "cross_references": [
+        "1370-002 (Gregory XI's papacy begins)",
+        "1378-001 (Western Schism begins)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The fall of the Yuan Dynasty and the establishment of the Ming Dynasty in 1368 is one of the most well-documented events in Chinese history, with no significant disconfirming evidence. However, some sources emphasize that the Yuan Dynasty did not completely disappear in 1368; Yuan remnants continued to rule in Mongolia and other regions for some time. The exact chronology of Timur's early campaigns is disputed in modern scholarship, with some sources placing his rise to power in different years. Ottoman expansion in this period is well-attested, but the significance of specific campaigns has been debated by historians.",
+  "historiographic_note": "The historical record for 1368 is well-documented for China and Europe, with detailed chronicles and administrative records. The fall of the Yuan Dynasty and the establishment of the Ming Dynasty is one of the most thoroughly documented events in world history. Ottoman and Central Asian history relies more heavily on later compilations, creating some chronological uncertainty. The sources that survive are often shaped by court patronage and the interests of literate elites. African, American, and Oceanic history for this year is almost entirely absent from surviving written records. The Eurocentric and Sinocentric bias in historical preservation is particularly evident for this period.",
+  "graph_edges": [
+    {
+      "from": "1368-001",
+      "to": "1369-002",
+      "relation": "led_to",
+      "note": "Ming Dynasty establishment led to the establishment of the tributary system"
+    },
+    {
+      "from": "1368-001",
+      "to": "1405-001",
+      "relation": "led_to",
+      "note": "Ming Dynasty establishment enabled later maritime exploration"
+    },
+    {
+      "from": "1368-002",
+      "to": "1369-001",
+      "relation": "contemporary_with",
+      "note": "Part of the ongoing Hundred Years' War"
+    },
+    {
+      "from": "1368-003",
+      "to": "1369-004",
+      "relation": "led_to",
+      "note": "Ottoman expansion continued in subsequent years"
+    },
+    {
+      "from": "1368-004",
+      "to": "1369-003",
+      "relation": "led_to",
+      "note": "Timur's rise to power led to his consolidation of Central Asia"
+    },
+    {
+      "from": "1368-005",
+      "to": "1370-002",
+      "relation": "led_to",
+      "note": "Religious tensions of 1368 contributed to papal movements in subsequent years"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "year": -520,
+  "year_label": "520 BCE",
+  "era_context": "Darius I's reign continues with consolidation and expansion of the Achaemenid Persian Empire. In Greece, the Archaic period continues; Athens is moving toward democratic reforms. In China, the Spring and Autumn period continues with interstate conflicts. In India, the traditional period of the Buddha's early teaching (if traditional dating is accepted).",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Most regions outside the Persian Empire, Greece, and China"
+  ],
+  "events": [
+    {
+      "id": "-520-001",
+      "title": "Darius I campaigns in Central Asia and the Indus Valley",
+      "region": "Achaemenid Persian Empire (Central Asia, Indus Valley)",
+      "coordinates_approx": "35.0, 70.0",
+      "category": "military",
+      "description": "Darius I, having consolidated his power in the western portions of the Persian Empire, begins military campaigns to expand Persian control eastward into Central Asia and the Indus Valley. These campaigns are documented in the Behistun Inscription and later Greek sources. The conquest of the Indus Valley brings the Persian Empire into contact with Indian kingdoms and establishes Persian control over wealthy trade routes. The exact chronology of these campaigns is uncertain, but they are generally dated to the early years of Darius's reign (c. 520\u2013515 BCE).",
+      "key_figures": [
+        "Darius I (King of Persia)",
+        "Persian generals and satraps"
+      ],
+      "sources": [
+        {
+          "name": "Behistun Inscription (trilingual cuneiform)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Herodotus, Histories (Book III, IV)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Arrian, Anabasis of Alexander (references to Persian administrative divisions)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Behistun Inscription documents Darius's campaigns, but the exact chronology is uncertain. The inscription lists conquered regions but does not provide precise dates for individual campaigns. Modern scholars generally date these campaigns to c. 520\u2013515 BCE, but the year 520 BCE is a scholarly convention.",
+      "cross_references": [
+        "-521-001 (Darius consolidates power)"
+      ]
+    },
+    {
+      "id": "-520-002",
+      "title": "Possible date of Buddha's first sermon (traditional dating)",
+      "region": "Shakya Kingdom / Northern India (modern Uttar Pradesh)",
+      "coordinates_approx": "25.0, 83.0",
+      "category": "religious",
+      "description": "According to some traditional Buddhist chronologies, the Buddha delivered his first sermon (Dhammacakkappavattana Sutta) at Sarnath in 520 BCE, approximately one year after his enlightenment. This sermon is considered the foundation of Buddhist teaching and outlines the Four Noble Truths and the Eightfold Path. However, this date is highly uncertain and varies significantly across different Buddhist traditions and modern scholarly estimates.",
+      "key_figures": [
+        "Siddhartha Gautama (Buddha)",
+        "The five ascetics (first disciples)"
+      ],
+      "sources": [
+        {
+          "name": "Pali Canon (Tripitaka, Samyutta Nikaya)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Sanskrit Buddhist texts (Mahayana traditions)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "legendary",
+      "certainty_note": "No contemporary sources document the Buddha's first sermon. All dates are reconstructed from texts compiled centuries or millennia after the events. Modern scholarship is deeply divided on the dating of the Buddha's life and teachings. The year 520 BCE is one of many proposed dates and has no stronger evidential basis than alternatives.",
+      "cross_references": [
+        "-521-002 (Buddha's enlightenment, alternative dating)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Darius's campaigns in Central Asia and the Indus Valley is uncertain. The Behistun Inscription does not provide precise dates for individual campaigns, and modern scholars debate the chronology. Some scholars argue that the Indus Valley conquest occurred later in Darius's reign (c. 515 BCE or later). Additionally, the dating of the Buddha's first sermon is highly uncertain and varies across traditions. Modern scholarship has largely abandoned attempts to pinpoint exact dates for the Buddha's life and teachings. The inclusion of these events at 520 BCE reflects traditional dating conventions but should not be interpreted as historical confirmation.",
+  "historiographic_note": "The year 520 BCE is better documented than earlier years in this batch, primarily due to the Behistun Inscription and Persian administrative records. However, the exact chronology of events remains uncertain. The inscription is a royal propaganda document, and its account must be read critically. For India and the Buddha, all sources are post-hoc compilations with significant chronological uncertainty. The historical record is heavily skewed toward the Persian Empire and Mediterranean regions; events in India and other regions are either undated or dated through later traditions.",
+  "graph_edges": [
+    {
+      "from": "-520-001",
+      "to": "-515-001",
+      "relation": "led_to",
+      "note": "Darius's campaigns in Central Asia and the Indus Valley continue over several years, establishing Persian control over vast territories"
+    },
+    {
+      "from": "-520-002",
+      "to": "-480-001",
+      "relation": "part_of",
+      "note": "Buddha's first sermon is a central event in Buddhist tradition, but its exact dating remains disputed"
+    }
+  ]
+}

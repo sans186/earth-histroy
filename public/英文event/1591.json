@@ -1,0 +1,174 @@
+{
+  "year": 1591,
+  "year_label": "1591 CE",
+  "era_context": "Late 16th century: The Spanish Habsburg Empire under Philip II remains the dominant European power, though challenged by England and the Dutch Revolt. The Ottoman Empire controls the eastern Mediterranean and Balkans. In East Asia, the Wanli Emperor rules Ming China; Japan is in the final consolidation phase under Toyotomi Hideyoshi. The Reformation and Counter-Reformation shape European religious and political conflict.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited European documentation; indigenous sources sparse in surviving records)",
+    "Interior South America (limited Spanish/Portuguese documentation of non-colonial regions)"
+  ],
+  "events": [
+    {
+      "id": "1591-001",
+      "title": "Battle of Kinsale campaign begins; English forces under Essex land in Ireland",
+      "region": "Ireland",
+      "coordinates_approx": "52.0,-8.5",
+      "category": "military",
+      "description": "Robert Devereux, 2nd Earl of Essex, lands in Ireland with an English expeditionary force to suppress the Nine Years' War and the rebellion of Hugh O'Neill, Earl of Tyrone. This campaign, lasting until 1592, represents a major English military commitment to suppress Irish resistance to Tudor rule. The campaign is costly and ultimately inconclusive, contributing to Essex's later political decline.",
+      "key_figures": [
+        "Robert Devereux, 2nd Earl of Essex (English commander)",
+        "Hugh O'Neill, Earl of Tyrone (Irish rebel leader)"
+      ],
+      "sources": [
+        {
+          "name": "Calendar of State Papers relating to Ireland, 1588\u20131592",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Fynes Moryson, An Itinerary (written early 17th century, describes events)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Well-documented in English state papers and contemporary correspondence.",
+      "cross_references": [
+        "1592-001 (continuation of campaign)",
+        "1588-002 (Spanish Armada context)"
+      ]
+    },
+    {
+      "id": "1591-002",
+      "title": "Toyotomi Hideyoshi completes military unification of Japan; begins Korean campaign planning",
+      "region": "Japan",
+      "coordinates_approx": "35.0,138.0",
+      "category": "military",
+      "description": "Toyotomi Hideyoshi consolidates his control over all major daimyo (feudal lords) of Japan, effectively ending the Sengoku period of civil war. With domestic unification complete, Hideyoshi begins planning an ambitious invasion of Korea and China, viewing this as the next phase of expansion. This marks the peak of Hideyoshi's power and ambition.",
+      "key_figures": [
+        "Toyotomi Hideyoshi (Regent of Japan)"
+      ],
+      "sources": [
+        {
+          "name": "Taik\u014dki (biography of Hideyoshi, compiled by disciples)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Japanese administrative records and daimyo correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Hideyoshi's consolidation is well-attested in Japanese records; the date 1591 marks the completion of this process.",
+      "cross_references": [
+        "1592-002 (Korean invasion begins)"
+      ]
+    },
+    {
+      "id": "1591-003",
+      "title": "Wanli Emperor's reign continues; Ming China experiences economic strain and factional conflict",
+      "region": "China",
+      "coordinates_approx": "39.9,116.4",
+      "category": "political",
+      "description": "The Wanli Emperor (r. 1572\u20131620) continues his reign during a period of internal Ming instability. Court factionalism between eunuchs and scholar-officials intensifies; the Wanli Emperor increasingly withdraws from active governance. Economic pressures mount due to military expenditures on the northern frontier against the Jurchen and Mongol threats. This period marks the beginning of Ming institutional decline.",
+      "key_figures": [
+        "Wanli Emperor (Ming ruler)",
+        "Zhang Juzheng (deceased 1582, but his reforms still influence governance)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Official Ming Records)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Shenzong (Wanli) reign records in official histories",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ming administrative records provide detailed documentation of this period.",
+      "cross_references": []
+    },
+    {
+      "id": "1591-004",
+      "title": "Sigismund III Vasa elected King of Poland-Lithuania",
+      "region": "Poland-Lithuania",
+      "coordinates_approx": "52.0,21.0",
+      "category": "political",
+      "description": "Sigismund III Vasa, grandson of Gustav I of Sweden, is elected King of Poland-Lithuania following the death of Stephen B\u00e1thory. His election unites the Polish-Lithuanian Commonwealth with Sweden (through his claim) and marks the beginning of a complex personal union. Sigismund's reign will be marked by religious conflict (Catholic vs. Protestant) and military struggles with Sweden and Russia.",
+      "key_figures": [
+        "Sigismund III Vasa (newly elected king)",
+        "Stephen B\u00e1thory (deceased predecessor)"
+      ],
+      "sources": [
+        {
+          "name": "Polish Sejm records and election documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Polish and Swedish chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Election is well-documented in Polish state records.",
+      "cross_references": [
+        "1592-003 (Sigismund's early reign conflicts)"
+      ]
+    },
+    {
+      "id": "1591-005",
+      "title": "Portuguese establish Goa as major colonial administrative center; expansion in Indian Ocean",
+      "region": "India (Goa)",
+      "coordinates_approx": "15.3,73.8",
+      "category": "political",
+      "description": "The Portuguese Estado da \u00cdndia, centered in Goa, consolidates its control over key Indian Ocean trade routes and coastal settlements. Under the governance of the Portuguese viceroy, Goa serves as the administrative hub for Portuguese colonial expansion in Asia. This period marks the height of Portuguese maritime dominance in the Indian Ocean before Dutch and English competition intensifies.",
+      "key_figures": [
+        "Portuguese Viceroy in India (administrative authority)"
+      ],
+      "sources": [
+        {
+          "name": "Portuguese colonial administrative records (Arquivo Hist\u00f3rico Ultramarino)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Portuguese chronicles of India",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Portuguese colonial administration is well-documented in Portuguese archives.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The significance of Essex's Irish campaign is sometimes overstated in English historiography as a turning point; modern scholarship emphasizes that it was largely a costly failure that did not suppress Irish resistance, which continued for years. The 'completion' of Japanese unification in 1591 is somewhat conventional; some daimyo retained significant autonomy, and Hideyoshi's authority was personal rather than institutionally embedded, as became clear after his death.",
+  "historiographic_note": "Documentation for 1591 is rich for European and East Asian events, reflecting the survival of administrative records and chronicles. European sources are heavily weighted toward English, Spanish, and Polish perspectives. Documentation of Portuguese colonial activities is good but reflects colonial-era bias (indigenous perspectives are largely absent). Sub-Saharan African and interior American events are severely underrepresented due to limited surviving written records from these regions during this period.",
+  "graph_edges": [
+    {
+      "from": "1591-001",
+      "to": "1592-001",
+      "relation": "led_to",
+      "note": "Essex's Irish campaign continues into 1592"
+    },
+    {
+      "from": "1591-002",
+      "to": "1592-002",
+      "relation": "led_to",
+      "note": "Hideyoshi's planning leads to invasion of Korea in 1592"
+    },
+    {
+      "from": "1591-004",
+      "to": "1600-001",
+      "relation": "led_to",
+      "note": "Sigismund's election initiates decades of Polish-Swedish conflict"
+    }
+  ]
+}

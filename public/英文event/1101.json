@@ -1,0 +1,206 @@
+{
+  "year": 1101,
+  "year_label": "1101 CE",
+  "era_context": "The First Crusade (1096\u20131099) has just concluded with the establishment of the Crusader States in the Levant. Western Europe is in the High Middle Ages, marked by feudalism, monastic reform, and the Investiture Controversy between papacy and empire. The Byzantine Empire under Alexios I Komnenos is consolidating territorial recovery in Anatolia. The Islamic world is fragmented among Seljuk sultanates, Fatimid Egypt, and regional emirs. East Asia sees the Northern Song Dynasty in decline, with the Jurchen Jin Dynasty rising in Manchuria.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Southeast Asia (sparse European documentation)",
+    "Mesoamerica and North America (no written records in European tradition)"
+  ],
+  "events": [
+    {
+      "id": "1101-001",
+      "title": "Crusaders' Anatolian Campaign and Defeat at Mersivan",
+      "region": "Anatolia (modern Turkey)",
+      "coordinates_approx": "40.5, 35.5",
+      "category": "military",
+      "description": "Following the success of the First Crusade, a second wave of crusaders\u2014including Raymond of Toulouse, Stephen of Blois, and other nobles\u2014marched toward Jerusalem but were intercepted and defeated by Seljuk forces under Kilij Arslan I near Mersivan (also called Merzifon). This campaign, sometimes called the Crusade of 1101, resulted in heavy casualties and demonstrated that the initial crusader victory was not easily repeatable. The defeat temporarily halted crusader expansion and forced survivors to retreat to the newly established Crusader States.",
+      "key_figures": [
+        "Raymond of Toulouse (Crusader leader)",
+        "Stephen of Blois (Crusader leader)",
+        "Kilij Arslan I (Seljuk Sultan)"
+      ],
+      "sources": [
+        {
+          "name": "Albert of Aachen, Historia Ierosolimitana (History of the Journey to Jerusalem)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Fulcher of Chartres, Historia Hierosolymitana",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Anna Komnena, Alexiad",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The campaign is well-attested in crusader chronicles, though written decades after the events. The exact date and location of the main engagement (Mersivan vs. other sites) shows minor variation in sources.",
+      "cross_references": [
+        "1096-001 (First Crusade begins)",
+        "1099-001 (Jerusalem captured)"
+      ]
+    },
+    {
+      "id": "1101-002",
+      "title": "Bohemond I Establishes Principality of Antioch",
+      "region": "Levant (Antioch, modern Turkey/Syria border)",
+      "coordinates_approx": "36.2, 36.2",
+      "category": "political",
+      "description": "Bohemond of Taranto, a Norman adventurer and leader of the First Crusade, consolidates his control over Antioch and its surrounding territories, establishing the Principality of Antioch as one of the four major Crusader States. By 1101, Bohemond had already secured the city (captured in 1098) and was expanding his domain. He ruled as prince, creating a feudal hierarchy and establishing Latin Christian governance over a predominantly Greek Orthodox and Muslim population. This principality would endure until 1268.",
+      "key_figures": [
+        "Bohemond I of Antioch (Norman prince)",
+        "Alexios I Komnenos (Byzantine Emperor, nominal overlord)"
+      ],
+      "sources": [
+        {
+          "name": "Fulcher of Chartres, Historia Hierosolymitana",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Anna Komnena, Alexiad",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "William of Tyre, Historia",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Bohemond's rule of Antioch is well-documented in multiple crusader and Byzantine sources. The consolidation process occurred over 1098\u20131101.",
+      "cross_references": [
+        "1098-001 (Antioch captured)",
+        "1099-001 (Jerusalem captured)"
+      ]
+    },
+    {
+      "id": "1101-003",
+      "title": "Henry IV Excommunicated Again by Pope Paschal II",
+      "region": "Holy Roman Empire (Germany, Italy)",
+      "coordinates_approx": "50.0, 10.0",
+      "category": "religious",
+      "description": "Pope Paschal II renews excommunication against Holy Roman Emperor Henry IV over the Investiture Controversy\u2014the dispute over who has the right to appoint bishops and other church officials. Henry IV had been excommunicated multiple times since 1076. This ongoing conflict between secular and ecclesiastical authority was a defining feature of late 11th-century European politics. The dispute would not be resolved until the Concordat of Worms in 1122.",
+      "key_figures": [
+        "Pope Paschal II (Pontiff)",
+        "Henry IV (Holy Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Liber Pontificalis (Book of the Popes)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Berthold of Reichensberg, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Investiture Controversy is well-documented, though the exact dates of individual excommunications vary slightly in sources. 1101 is within the period of renewed conflict.",
+      "cross_references": [
+        "1076-001 (Henry IV first excommunicated)",
+        "1122-001 (Concordat of Worms)"
+      ]
+    },
+    {
+      "id": "1101-004",
+      "title": "Taira Clan Dominance in Japan",
+      "region": "Japan",
+      "coordinates_approx": "36.0, 138.0",
+      "category": "political",
+      "description": "The Taira clan (Heike) consolidates power in Japan during the late Heian period, with Taira no Kiyomori emerging as a dominant military figure. The Taira would reach their zenith in the 1160s\u20131180s before being defeated by the Minamoto clan. In 1101, the Taira were ascending, benefiting from the decline of the Fujiwara regency and the increasing militarization of Japanese politics. This period marks the transition from aristocratic court dominance to military rule (bakufu).",
+      "key_figures": [
+        "Taira no Kiyomori (Taira clan leader)",
+        "Emperor Horikawa (Reigning emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Heike Monogatari (Tale of the Heike)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Kojidan (Anthology of Tales)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The rise of the Taira is documented in Japanese chronicles, though the Heike Monogatari was compiled in the 13th century. The specific events of 1101 are less precisely dated than the later Genpei War.",
+      "cross_references": [
+        "1185-001 (Minamoto defeat Taira)"
+      ]
+    },
+    {
+      "id": "1101-005",
+      "title": "Song Dynasty Faces Jurchen Pressure in North China",
+      "region": "Northern China",
+      "coordinates_approx": "40.0, 116.0",
+      "category": "military",
+      "description": "The Northern Song Dynasty, already weakened by military losses to the Khitan Liao Dynasty, faces increasing pressure from the rising Jurchen Jin Dynasty in Manchuria. By 1101, the Jurchen were consolidating power and would soon challenge both the Liao and Song. This period marks the beginning of the end for Song dominance in northern China, a process that would culminate in the Jin conquest of the north by 1127.",
+      "key_figures": [
+        "Emperor Huizong (Northern Song emperor)",
+        "Aguda (Jurchen Jin founder, died 1123)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Song Shi (History of the Song)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The geopolitical situation in northern China is well-documented in Chinese historical records, though the specific events of 1101 are part of a longer process of decline.",
+      "cross_references": [
+        "1127-001 (Jin Dynasty conquers northern Song)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of the 1101 Crusader campaigns has been reassessed by modern scholarship. While traditionally portrayed as a straightforward continuation of crusader expansion, recent historians emphasize the military superiority of Seljuk forces and the logistical fragility of crusader armies. The 'Crusade of 1101' is sometimes minimized in modern accounts compared to older narratives that treated all crusader movements as equally significant. Additionally, the role of Byzantine diplomacy and manipulation in directing crusader movements is now recognized as more central than earlier Western-centric accounts suggested.",
+  "historiographic_note": "Documentation for 1101 is heavily weighted toward Western European and Byzantine sources. Crusader chronicles dominate the record, creating a Western-centric bias. Islamic sources (Seljuk, Fatimid) are sparse for this specific year. East Asian sources (Chinese, Japanese) are more abundant but often compiled centuries later. The historical record privileges military and political events over economic, social, or cultural developments. Sub-Saharan Africa, Mesoamerica, and most of the Americas are entirely absent from contemporary documentation in the Western tradition.",
+  "graph_edges": [
+    {
+      "from": "1101-001",
+      "to": "1099-001",
+      "relation": "led_to",
+      "note": "The success of the First Crusade prompted a second wave of crusaders in 1101, which was defeated."
+    },
+    {
+      "from": "1101-002",
+      "to": "1268-001",
+      "relation": "led_to",
+      "note": "Bohemond's establishment of the Principality of Antioch in 1101 created a state that would endure until 1268."
+    },
+    {
+      "from": "1101-003",
+      "to": "1122-001",
+      "relation": "led_to",
+      "note": "The Investiture Controversy, renewed in 1101, would be resolved by the Concordat of Worms in 1122."
+    },
+    {
+      "from": "1101-004",
+      "to": "1185-001",
+      "relation": "led_to",
+      "note": "Taira dominance in 1101 set the stage for the later Genpei War and Minamoto victory."
+    },
+    {
+      "from": "1101-005",
+      "to": "1127-001",
+      "relation": "led_to",
+      "note": "Jurchen pressure on Song in 1101 culminated in the Jin conquest of northern China by 1127."
+    }
+  ]
+}

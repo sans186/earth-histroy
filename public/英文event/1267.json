@@ -1,0 +1,88 @@
+{
+  "year": 1267,
+  "year_label": "1267 CE",
+  "era_context": "The late 13th century saw the Mongol Yuan Dynasty consolidating control over China under Kublai Khan, while the Mamluk Sultanate dominated the Eastern Mediterranean and Levant. In Europe, the Angevin kingdoms controlled southern Italy and Sicily, the Iberian Reconquista was in its final phases, and the Crusader presence in the Levant had been reduced to isolated coastal holdings. This was an era of long-distance trade expansion (Silk Road, Indian Ocean networks), religious conflict, and the transition from High Medieval to early Late Medieval political structures.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources; oral traditions not well-preserved in Western archives)",
+    "Southeast Asia (limited European documentation; local chronicles exist but underrepresented in English-language historiography)",
+    "Oceania and Pacific islands (minimal written record)",
+    "Eastern Europe and the Steppe (limited documentation in Western sources)"
+  ],
+  "events": [
+    {
+      "id": "1267-001",
+      "title": "Baibars consolidates Mamluk power; campaigns in the Levant",
+      "region": "Syria / Levant / Mamluk Sultanate",
+      "coordinates_approx": "35.0, 36.0",
+      "category": "military",
+      "description": "Sultan Baibars al-Bunduqdari of the Mamluk Sultanate continued military campaigns in the Levant, consolidating Mamluk control over the region. These campaigns were part of Baibars' broader strategy to eliminate Crusader and Christian resistance and establish Mamluk hegemony. The campaigns were generally successful, though specific details of 1267 operations are less well-documented than the major campaigns of 1268 (fall of Antioch) and earlier years.",
+      "key_figures": [
+        "Baibars al-Bunduqdari (Sultan of Mamluk Sultanate, r. 1260\u20131277)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Maqrizi, Kitab al-Suluk (Book of the Path, 15th-century compilation of Mamluk history)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Baibars' campaigns",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Baibars' general campaign trajectory is well-attested, but specific events in 1267 are poorly documented. This entry represents the broader political context rather than a discrete, well-documented event.",
+      "cross_references": [
+        "1268-001 (Fall of Antioch)",
+        "1277-001 (Baibars' death)"
+      ]
+    },
+    {
+      "id": "1267-002",
+      "title": "Kublai Khan's Yuan Dynasty consolidates control; Southern Song resistance continues",
+      "region": "China / Yuan Dynasty",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "Kublai Khan continued consolidating Yuan control over China. The Southern Song Dynasty, though weakened, continued to resist Yuan expansion. By 1267, the Yuan controlled most of northern and central China, but the final conquest of the Southern Song would not occur until 1279. This period saw the development of Yuan administrative structures and the integration of Chinese bureaucratic traditions with Mongol military rule.",
+      "key_figures": [
+        "Kublai Khan (Mongol leader, later Emperor of Yuan Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Yuanshi (Official History of the Yuan Dynasty), compiled 14th century",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Yuan consolidation",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general trajectory of Yuan consolidation is well-attested. Specific events in 1267 are not clearly documented. This entry represents the broader political context rather than a discrete event.",
+      "cross_references": [
+        "1279-001 (Final conquest of Southern Song)",
+        "1271-001 (Yuan Dynasty proclamation)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for events listed. However, the significance of 1267 as a discrete year in both Mamluk and Yuan history is minimal. The major events of this period occurred in adjacent years (the fall of Antioch in 1268; the Eighth Crusade and Louis IX's death in 1270; the Yuan Dynasty proclamation in 1271). The events listed for 1267 represent continuations of broader trends rather than discrete, well-documented historical events.",
+  "historiographic_note": "The historical record for 1267 is sparse. Few specific events are well-documented for this year. The surviving sources are heavily weighted toward court chronicles and military records, which tend to focus on major battles and political transitions rather than routine administrative or military operations. The year 1267 appears to be a relatively quiet year in the major political centers of the Mediterranean and East Asia, with no major wars, political transitions, or significant events clearly documented. This may reflect the actual historical situation or may reflect gaps in the surviving historical record.",
+  "graph_edges": [
+    {
+      "from": "1267-001",
+      "to": "1268-001",
+      "relation": "led_to",
+      "note": "Baibars' campaigns led to the fall of Antioch in 1268"
+    },
+    {
+      "from": "1267-002",
+      "to": "1279-001",
+      "relation": "led_to",
+      "note": "Yuan consolidation led to final conquest of Southern Song"
+    }
+  ]
+}

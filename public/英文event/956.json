@@ -1,0 +1,151 @@
+{
+  "year": 956,
+  "year_label": "956 CE",
+  "era_context": "The mid-10th century CE spans the fragmentation of the Abbasid Caliphate, the rise of regional Islamic dynasties (Fatimids, Buyids, Umayyads of al-Andalus), the consolidation of the Holy Roman Empire under Otto I, the early Song Dynasty's reunification of China, and the Viking Age's final phase in Northern Europe. This is an era of political pluralism, religious competition, and technological diffusion across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources; oral traditions and archaeology underrepresented in training data)",
+    "Southeast Asia (sparse contemporary chronicles in European sources)",
+    "Mesoamerica and North America (no written records; archaeological record incomplete)"
+  ],
+  "events": [
+    {
+      "id": "956-001",
+      "title": "Otto I defeats Berengar II at the Battle of the Lechfeld; consolidation of Holy Roman Empire",
+      "region": "Northern Italy, Holy Roman Empire",
+      "coordinates_approx": "45.5, 12.0",
+      "category": "military",
+      "description": "Otto I of the Saxony-based Holy Roman Empire defeated Berengar II of Ivrea, the last significant Italian rival to imperial authority. This victory secured Otto's control over Italy and strengthened the territorial foundation of the Holy Roman Empire. The battle marked the effective end of independent Italian kingship and established Otto as the dominant European Christian monarch. This military success preceded his coronation as Emperor in 962 CE.",
+      "key_figures": [
+        "Otto I (Holy Roman Emperor)",
+        "Berengar II (King of Italy)"
+      ],
+      "sources": [
+        {
+          "name": "Liudprand of Cremona, Antapodosis and Historia Ottonis",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Hrotsvitha of Gandersheim, Gesta Ottonis",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Contemporary chronicles by eyewitnesses and near-contemporaries provide detailed accounts. The date 956 is well-established in historiographic consensus.",
+      "cross_references": [
+        "962-001 (Otto's imperial coronation)"
+      ]
+    },
+    {
+      "id": "956-002",
+      "title": "Fatimid Caliphate consolidates control of North Africa and Sicily",
+      "region": "North Africa, Sicily, Mediterranean",
+      "coordinates_approx": "35.0, 15.0",
+      "category": "political",
+      "description": "The Fatimid Caliphate, based in Ifriqiya (modern Tunisia), continued its expansion and consolidation of power across North Africa and the Mediterranean. By 956, Fatimid naval and administrative control extended over Sicily and much of the Maghreb, challenging both the Abbasid Caliphate's nominal authority and Byzantine Mediterranean dominance. This period saw the Fatimids emerge as a major Shi'a Islamic power rivaling the Sunni Abbasids.",
+      "key_figures": [
+        "Al-Mu'izz li-Din Allah (Fatimid Caliph, r. 953\u2013975)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Mas'udi, Meadows of Gold (Muruj al-dhahab)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Fatimid expansion is well-documented in Islamic chronicles, though specific events within 956 are sometimes conflated with broader regional consolidation. Dating is approximate to within a few years.",
+      "cross_references": []
+    },
+    {
+      "id": "956-003",
+      "title": "Northern Song Dynasty continues military campaigns against the Ten Kingdoms",
+      "region": "China",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "military",
+      "description": "The Northern Song Dynasty, established in 960 CE, was in its formative phase. By 956, the Song state was consolidating power in central China and preparing campaigns to unify the fragmented Ten Kingdoms period. This year falls within the broader context of Song military expansion that would culminate in the reunification of most of China by 979 CE.",
+      "key_figures": [
+        "Zhao Kuangyin (future Song Taizu, r. 960\u2013976)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government), compiled by Sima Guang",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Song Shi (History of the Song Dynasty)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Song Dynasty was not formally established until 960 CE. Events in 956 are part of the pre-Song Later Zhou period. Specific military actions in 956 are less clearly documented than the broader unification narrative.",
+      "cross_references": [
+        "960-001 (Song Dynasty establishment)"
+      ]
+    },
+    {
+      "id": "956-004",
+      "title": "Khazar Khaganate in decline; Rus' expansion in Eastern Europe",
+      "region": "Eastern Europe, Steppe",
+      "coordinates_approx": "48.0, 45.0",
+      "category": "political",
+      "description": "The Khazar Khaganate, once a major Eurasian power, was in terminal decline by the mid-10th century. Simultaneously, the Kievan Rus' state, centered on Kiev, was expanding its territorial control and influence in Eastern Europe. This period marks the transition from Khazar to Rus' dominance in the region, with significant implications for the Christianization of Eastern Europe.",
+      "key_figures": [
+        "Igor of Kiev (Kievan Rus' ruler, r. 912\u2013945, deceased)",
+        "Olga of Kiev (regent, r. 945\u2013964)"
+      ],
+      "sources": [
+        {
+          "name": "Primary Chronicle (Povest' vremennykh let)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Constantine VII Porphyrogennetus, De Administrando Imperio",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The decline of the Khazar Khaganate and rise of Kievan Rus' are well-attested in Byzantine and later Rus' sources, though specific events in 956 are less precisely dated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise date of Otto I's victory over Berengar II has been debated; some sources place it in 955 or 957 rather than 956. Modern scholarship increasingly emphasizes that the 'Battle of the Lechfeld' may conflate multiple campaigns rather than a single decisive engagement. The Fatimid expansion narrative, while broadly accepted, is sometimes overstated in terms of unified control\u2014regional governors often operated with considerable autonomy. The Song Dynasty unification narrative, as presented in later compilations, may impose retrospective coherence on a more fragmented and contested process.",
+  "historiographic_note": "Documentation for 956 CE is heavily weighted toward Western European and Islamic sources. Byzantine sources provide some Eastern European context. Chinese sources are abundant but compiled centuries later. The historical record privileges political and military events over economic, social, or cultural developments. Sub-Saharan Africa, Southeast Asia, and the Americas are essentially absent from contemporary written sources available to this research. The surviving sources are often court-sponsored or compiled by religious institutions, introducing potential bias toward elite narratives and religious concerns.",
+  "graph_edges": [
+    {
+      "from": "956-001",
+      "to": "962-001",
+      "relation": "led_to",
+      "note": "Otto I's Italian victory enabled his imperial coronation in 962 CE"
+    },
+    {
+      "from": "956-002",
+      "to": "969-001",
+      "relation": "part_of",
+      "note": "Fatimid consolidation continued toward the conquest of Egypt in 969 CE"
+    },
+    {
+      "from": "956-003",
+      "to": "960-001",
+      "relation": "led_to",
+      "note": "Pre-Song consolidation contributed to the establishment of the Song Dynasty in 960 CE"
+    },
+    {
+      "from": "956-004",
+      "to": "988-001",
+      "relation": "led_to",
+      "note": "Rus' expansion and consolidation under Olga set the stage for Vladimir I's Christianization in 988 CE"
+    }
+  ]
+}

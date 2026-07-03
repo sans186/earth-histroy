@@ -1,0 +1,162 @@
+{
+  "year": 970,
+  "year_label": "970 CE",
+  "era_context": "The late 10th century CE: Byzantine military resurgence under the Macedonian Renaissance; Fatimid Caliphate at its zenith in Egypt and the Levant; the Song Dynasty consolidating control over China; the Ottonian Holy Roman Empire expanding in Central Europe; Scandinavian Christianization accelerating; the Chola Dynasty dominant in South India. This was an era of relative political stability in major civilizations, though regional conflicts and religious transformations were ongoing.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Pre-Columbian Americas (no Old World written records)",
+    "Central Asian steppes (sparse documentation)",
+    "Southeast Asia (limited contemporary written sources in training data)"
+  ],
+  "events": [
+    {
+      "id": "970-001",
+      "title": "Byzantine Levantine Campaign Continues",
+      "region": "Syria / Byzantine Empire",
+      "coordinates_approx": "35.5\u00b0N, 36.5\u00b0E",
+      "category": "military",
+      "description": "Emperor John I Tzimiskes continued his military campaigns in the Levant, consolidating Byzantine gains and pushing further into northern Syria. These campaigns were part of a sustained Byzantine offensive that would culminate in the capture of Antioch (dated variously to 969\u2013971 CE). The campaigns represented the height of Byzantine military power in the eastern Mediterranean during the 10th century.",
+      "key_figures": [
+        "John I Tzimiskes (Byzantine Emperor)",
+        "Nikephoros II Phokas (predecessor, whose campaigns Tzimiskes continued)"
+      ],
+      "sources": [
+        {
+          "name": "Skylitzes, Synopsis Historiarum",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Yahya of Antioch, History",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader campaign is well-attested; specific events in 970 CE are less precisely dated. The chronology of Tzimiskes' Levantine campaigns spans 969\u2013976 CE with some uncertainty in year-by-year attribution.",
+      "cross_references": [
+        "971-001 (Antioch conquest, likely outcome of this campaign)",
+        "969-002 (Nikephoros II's earlier campaigns)"
+      ]
+    },
+    {
+      "id": "970-002",
+      "title": "Song Dynasty Consolidation: Conquest of Wuyue",
+      "region": "China / Wuyue Kingdom",
+      "coordinates_approx": "30.3\u00b0N, 120.2\u00b0E",
+      "category": "military",
+      "description": "The Song Dynasty, under Emperor Taizu, conquered the Wuyue kingdom in the Yangtze River Delta region. This was a crucial step in Song reunification, bringing the wealthy and economically advanced Wuyue territories under Song control. The conquest was largely peaceful, with the Wuyue ruler surrendering to avoid destruction. This region would become one of the most economically productive areas of the Song Empire.",
+      "key_figures": [
+        "Song Taizu (Song Emperor)",
+        "Qian Shu (Wuyue ruler, surrendered)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Song Shi (History of the Song Dynasty)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The conquest of Wuyue is well-documented in Chinese historical records. The date 970 CE is the conventional assignment in modern scholarship.",
+      "cross_references": [
+        "960-001 (Song Dynasty founding)",
+        "971-003 (Southern Han conquest)",
+        "975-001 (Southern Tang conquest)"
+      ]
+    },
+    {
+      "id": "970-003",
+      "title": "Christianization of Poland: Baptism of Mieszko I",
+      "region": "Poland / Central Europe",
+      "coordinates_approx": "52.2\u00b0N, 21.0\u00b0E",
+      "category": "religious",
+      "description": "Mieszko I, Duke of Poland, was baptized into Christianity, marking the formal Christianization of Poland. This event was politically motivated\u2014Mieszko sought to align Poland with Western Christendom and to secure his position against rivals. The baptism led to the rapid spread of Christianity throughout Poland and the integration of Poland into the Western European political and cultural sphere. This was a transformative moment for Central European history.",
+      "key_figures": [
+        "Mieszko I (Duke of Poland)",
+        "Dobrawa of Bohemia (wife, Christian influence)",
+        "Pope John XIII (ecclesiastical authority)"
+      ],
+      "sources": [
+        {
+          "name": "Thietmar of Merseburg, Chronicon (early 11th century chronicle)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Gallus Anonymus, Gesta Polonorum (12th century Polish chronicle)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Polish medieval studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The baptism of Mieszko I is traditionally dated to 966 CE in some sources and 970 CE in others. Modern scholarship (e.g., Gieysztor) tends toward 966 CE, making the assignment to 970 CE disputed. The event itself is confirmed; the precise year is uncertain by \u00b14 years.",
+      "cross_references": [
+        "966-001 (Alternative dating for Mieszko's baptism)",
+        "1000-001 (Establishment of Polish archbishopric)"
+      ]
+    },
+    {
+      "id": "970-004",
+      "title": "Fatimid Naval Expansion in the Mediterranean",
+      "region": "Egypt / Mediterranean / Fatimid Caliphate",
+      "coordinates_approx": "31.2\u00b0N, 29.9\u00b0E",
+      "category": "military",
+      "description": "The Fatimid Caliphate, under Caliph Al-Aziz Billah, expanded its naval power in the Mediterranean, challenging Byzantine naval dominance and protecting Fatimid trade routes. The Fatimid fleet was one of the most powerful in the Mediterranean during this period, and its expansion reflected the Caliphate's economic and military strength.",
+      "key_figures": [
+        "Al-Aziz Billah (Fatimid Caliph)",
+        "Gawhar al-Siqilli (Fatimid admiral and general)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Maqrizi, Itti'az al-Hunafa",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Fatimid naval studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Fatimid naval expansion is well-documented in the broader context of the late 10th century; specific events in 970 CE are less precisely dated. This entry reflects the general trajectory of Fatimid naval power during this decade.",
+      "cross_references": [
+        "969-001 (Fatimid consolidation in Egypt)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The baptism of Mieszko I is traditionally dated to 966 CE in many modern sources (e.g., Gieysztor, Manteuffel), not 970 CE. The assignment to 970 CE is based on some medieval chronicles but is disputed by contemporary scholarship. The dating of specific Byzantine campaigns in 970 CE is uncertain; the broader campaign is confirmed, but year-by-year attribution is problematic.",
+  "historiographic_note": "The historical record for 970 CE is dominated by Byzantine, Western European, and Chinese sources. Arab and Islamic sources are well-preserved but often compiled centuries later. The baptism of Mieszko I is attested in later chronicles (11th\u201312th century) rather than contemporary sources, introducing dating uncertainty. Polish medieval history is heavily influenced by later nationalist historiography, which may have shaped the dating and significance of Christianization. Byzantine sources emphasize military campaigns; Chinese sources emphasize administrative consolidation. Sub-Saharan African, American, and Central Asian histories remain largely absent from contemporary written records.",
+  "graph_edges": [
+    {
+      "from": "970-001",
+      "to": "971-001",
+      "relation": "led_to",
+      "note": "Tzimiskes' 970 campaign led to the conquest of Antioch in 971"
+    },
+    {
+      "from": "970-002",
+      "to": "971-003",
+      "relation": "part_of",
+      "note": "Wuyue conquest is part of broader Song reunification"
+    },
+    {
+      "from": "970-003",
+      "to": "1000-001",
+      "relation": "led_to",
+      "note": "Mieszko's baptism led to the establishment of the Polish archbishopric in 1000 CE"
+    }
+  ]
+}

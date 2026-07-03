@@ -1,0 +1,119 @@
+{
+  "year": 1153,
+  "year_label": "1153 CE",
+  "era_context": "The mid-12th century was a period of consolidation and conflict. In Europe, the Second Crusade had recently ended (1149); feudal kingdoms were competing for dominance. In the Islamic world, the Zengid dynasty was consolidating power in Syria; the Fatimid Caliphate in Egypt was in decline. In East Asia, the Jin Dynasty ruled northern China; the Southern Song Dynasty controlled the south. Japan was in the late Heian period, with imperial authority declining and samurai clans rising. The Khmer Empire in Southeast Asia was flourishing.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia and the Steppe",
+    "Northern Europe beyond the Holy Roman Empire",
+    "The Americas",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "1153-001",
+      "title": "King Stephen of England Dies; End of The Anarchy",
+      "region": "England",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "political",
+      "description": "King Stephen of England died on 25 October 1153, ending the civil war known as The Anarchy (1135\u20131153). Stephen's death marked the end of nearly two decades of conflict between the Norman and Angevin factions over the English throne. By the Treaty of Wallingford (1153), Stephen had agreed to recognize Henry of Anjou as his heir, effectively ending the succession dispute. Stephen's death formalized this agreement and paved the way for Henry II's accession in 1154. The Anarchy had weakened royal authority and allowed the Norman barons to consolidate power, but Henry II would work to restore centralized rule.",
+      "key_figures": [
+        "Stephen (deceased king)",
+        "Henry of Anjou (designated heir)",
+        "Matilda (Stephen's rival claimant, deceased 1167)"
+      ],
+      "sources": [
+        {
+          "name": "Roger of Howden, Chronica (Chronicle)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "William of Newburgh, Historia Rerum Anglicarum (History of English Affairs)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Stephen's death on 25 October 1153 is well-documented in contemporary English chronicles. The date is secure.",
+      "cross_references": [
+        "1154-004 (Henry II's accession to the English throne)"
+      ]
+    },
+    {
+      "id": "1153-002",
+      "title": "Bernard of Clairvaux Dies",
+      "region": "Burgundy (Clairvaux Abbey)",
+      "coordinates_approx": "48.4667, 4.6333",
+      "category": "religious",
+      "description": "Bernard of Clairvaux, one of the most influential religious figures of the 12th century, died on 20 August 1153. Bernard was the founder and abbot of Clairvaux Abbey and a leading voice in the Cistercian movement. He was a major advocate for the Second Crusade (1147\u20131149), which he promoted through his preaching and writings. Bernard's death marked the end of an era of Cistercian expansion and influence. His theological writings and spiritual teachings had profound impact on medieval Christianity, and he was canonized as a saint in 1174.",
+      "key_figures": [
+        "Bernard of Clairvaux (deceased abbot and theologian)",
+        "Pope Eugenius III (Bernard's prot\u00e9g\u00e9)"
+      ],
+      "sources": [
+        {
+          "name": "Vita Sancti Bernardi (Life of Saint Bernard) by William of Saint-Thierry",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bernard's own writings and letters",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Bernard of Clairvaux's death on 20 August 1153 is well-documented in monastic records and hagiographies. The date is secure.",
+      "cross_references": [
+        "1147-001 (Bernard's promotion of the Second Crusade)"
+      ]
+    },
+    {
+      "id": "1153-003",
+      "title": "Nur ad-Din Consolidates Control of Aleppo",
+      "region": "Syria (Aleppo)",
+      "coordinates_approx": "36.2021, 37.1670",
+      "category": "political",
+      "description": "Nur ad-Din Mahmud, the Zengid ruler, consolidated his control over Aleppo and the surrounding territories in 1153. This consolidation was part of his broader program to unify Syria under Zengid rule and to resist Crusader expansion. Nur ad-Din's control of Aleppo gave him a major power base in northern Syria and allowed him to extend his influence southward toward Damascus and Egypt. His administrative and military reforms became a model for the later Ayyubid dynasty under Saladin.",
+      "key_figures": [
+        "Nur ad-Din Mahmud (Zengid ruler)",
+        "Saladin (young officer in Nur ad-Din's service)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Usama ibn Munqidh, Book of Contemplation",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Nur ad-Din's consolidation of Aleppo was a gradual process; 1153 marks a point of advanced consolidation rather than a single decisive event. Sources confirm his dominance by this date, though the exact chronology is uncertain.",
+      "cross_references": [
+        "1156-003 (Nur ad-Din's continued consolidation of Syria)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Stephen's death is often portrayed as the definitive end of The Anarchy, but recent scholarship emphasizes that the conflict had been winding down for several years before his death. The Treaty of Wallingford (1153) was the real turning point; Stephen's death merely formalized an agreement already reached. Bernard of Clairvaux's role in promoting the Second Crusade is well-documented, but his responsibility for the crusade's failure is debated; some scholars argue that the crusade's failure was due to military incompetence and logistical problems rather than Bernard's preaching.",
+  "historiographic_note": "Documentation for 1153 is good for Western Europe (Stephen's death is extensively chronicled) but thinner for the Islamic world. Sources on Nur ad-Din are later compilations with potential distortion. Sub-Saharan Africa, Central Asia, the Americas, and Oceania have no surviving written records for this year. The bias toward Western European events is pronounced.",
+  "graph_edges": [
+    {
+      "from": "1153-001",
+      "to": "1154-004",
+      "relation": "led_to",
+      "note": "Stephen's death led directly to Henry II's accession in 1154"
+    },
+    {
+      "from": "1153-002",
+      "to": "1174-001",
+      "relation": "led_to",
+      "note": "Bernard of Clairvaux's death preceded his canonization as a saint in 1174"
+    }
+  ]
+}

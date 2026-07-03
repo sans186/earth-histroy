@@ -114,17 +114,21 @@ function createPanel() {
     top: '80px',
     right: '10px',
     zIndex: '100',
-    background: 'rgba(10,10,26,0.9)',
-    border: '1px solid #3a3a5a',
+    background: 'var(--bg-panel)',
+    border: '1px solid var(--border-secondary)',
     borderRadius: '8px',
     padding: '10px 14px',
-    color: '#ccc',
+    color: 'var(--btn-text)',
     fontSize: '13px',
     minWidth: '180px',
     maxHeight: 'calc(100vh - 300px)',
     overflowY: 'auto',
     userSelect: 'none',
   });
+  // Apply CSS variable styles via setProperty for proper var() support
+  panel.style.setProperty('background', 'var(--bg-panel)');
+  panel.style.setProperty('border', '1px solid var(--border-secondary)');
+  panel.style.setProperty('color', 'var(--btn-text)');
   return panel;
 }
 
@@ -142,7 +146,7 @@ export default {
 
     // ── Base Layer Section ──
     const baseTitle = document.createElement('div');
-    baseTitle.style.cssText = 'color:#ffd700;font-weight:bold;margin-bottom:6px;';
+    baseTitle.style.cssText = 'color:var(--accent-gold);font-weight:bold;margin-bottom:6px;';
     panel.appendChild(baseTitle);
 
     const baseBtns = document.createElement('div');
@@ -156,8 +160,8 @@ export default {
     function updateBtnStyles() {
       baseBtns.querySelectorAll('button.baselayer-btn').forEach((b) => {
         const sel = b.dataset.layerId === activeBaseId;
-        b.style.background = sel ? '#4a60af' : '#2a2a4a';
-        b.style.borderColor = sel ? '#6a80cf' : '#4a4a7a';
+        b.style.background = sel ? 'var(--accent-blue)' : 'var(--btn-bg)';
+        b.style.borderColor = sel ? 'var(--border-accent-hover)' : 'var(--btn-border)';
       });
     }
 
@@ -197,10 +201,10 @@ export default {
       btn.className = 'baselayer-btn';
       btn.dataset.layerId = layer.id;
       Object.assign(btn.style, {
-        background: layer.id === DEFAULT_BASE_LAYER ? '#4a60af' : '#2a2a4a',
+        background: layer.id === DEFAULT_BASE_LAYER ? 'var(--accent-blue)' : 'var(--btn-bg)',
         border: '1px solid',
-        borderColor: layer.id === DEFAULT_BASE_LAYER ? '#6a80cf' : '#4a4a7a',
-        color: '#ccc',
+        borderColor: layer.id === DEFAULT_BASE_LAYER ? 'var(--border-accent-hover)' : 'var(--btn-border)',
+        color: 'var(--btn-text)',
         padding: '4px 8px',
         borderRadius: '4px',
         cursor: 'pointer',
@@ -243,8 +247,8 @@ export default {
       const modeBtns = panel.querySelectorAll('button.mode-btn');
       modeBtns.forEach((b) => {
         const sel = b.dataset.mode === mode;
-        b.style.background = sel ? '#4a60af' : '#2a2a4a';
-        b.style.borderColor = sel ? '#6a80cf' : '#4a4a7a';
+        b.style.background = sel ? 'var(--accent-blue)' : 'var(--btn-bg)';
+        b.style.borderColor = sel ? 'var(--border-accent-hover)' : 'var(--btn-border)';
       });
 
       if (mode === '2d') {
@@ -264,7 +268,7 @@ export default {
 
     // ── Settings Dropdown ──
     const settingsHeader = document.createElement('div');
-    settingsHeader.style.cssText = 'color:#ffd700;font-weight:bold;margin-bottom:4px;margin-top:4px;cursor:pointer;user-select:none;';
+    settingsHeader.style.cssText = 'color:var(--accent-gold);font-weight:bold;margin-bottom:4px;margin-top:4px;cursor:pointer;user-select:none;';
     settingsHeader.textContent = '▶ ' + t('panel.layers.settings', 'zh');
     panel.appendChild(settingsHeader);
 
@@ -280,7 +284,7 @@ export default {
 
     // Language select inside dropdown
     const localeSelect = document.createElement('select');
-    localeSelect.style.cssText = 'display:block;width:100%;border:1px solid #4a4a7a;color:#ccc;padding:4px 8px;border-radius:4px;cursor:pointer;font-size:12px;background:#2a2a4a;margin-bottom:4px;';
+    localeSelect.style.cssText = 'display:block;width:100%;border:1px solid var(--border-input);color:var(--btn-text);padding:4px 8px;border-radius:4px;cursor:pointer;font-size:12px;background:var(--btn-bg);margin-bottom:4px;';
     localeSelect.addEventListener('change', () => {
       core.state.set('locale', localeSelect.value);
     });
@@ -362,11 +366,11 @@ export default {
 
     // Historical Polities Section
     const polTitle = document.createElement('div');
-    polTitle.style.cssText = 'color:#ffd700;font-weight:bold;margin-bottom:4px;';
+    polTitle.style.cssText = 'color:var(--accent-gold);font-weight:bold;margin-bottom:4px;';
     panel.appendChild(polTitle);
 
     const polStatus = document.createElement('div');
-    polStatus.style.cssText = 'font-size:11px;color:#888;margin-bottom:6px;';
+    polStatus.style.cssText = 'font-size:11px;color:var(--text-dim);margin-bottom:6px;';
     panel.appendChild(polStatus);
 
     const polBtns = document.createElement('div');
@@ -709,9 +713,9 @@ export default {
     // ── Toggle: Historical Polities ──
     const polToggle = document.createElement('button');
     Object.assign(polToggle.style, {
-      background: '#2c6e49',
-      border: '1px solid #40916c',
-      color: '#ccc',
+      background: 'var(--accent-green)',
+      border: '1px solid var(--accent-green-border)',
+      color: 'var(--btn-text)',
       padding: '4px 8px',
       borderRadius: '4px',
       cursor: 'pointer',
@@ -724,15 +728,15 @@ export default {
       const loc = core.state.get('locale') ?? 'zh';
       if (politiesVisible) {
         polToggle.textContent = t('panel.layers.historical.on', loc);
-        polToggle.style.background = '#2c6e49';
-        polToggle.style.borderColor = '#40916c';
+        polToggle.style.background = 'var(--accent-green)';
+        polToggle.style.borderColor = 'var(--accent-green-border)';
         const year = core.state.get('currentYear') ?? 2025;
         await syncPolitiesToYear(year);
         hideFarSideLabels();
       } else {
         polToggle.textContent = t('panel.layers.historical.off', loc);
-        polToggle.style.background = '#2a2a4a';
-        polToggle.style.borderColor = '#4a4a7a';
+        polToggle.style.background = 'var(--btn-bg)';
+        polToggle.style.borderColor = 'var(--btn-border)';
         if (currentMode === '2d') {
           map2d.clearPolities();
         } else {
@@ -746,9 +750,9 @@ export default {
     // ── Toggle: Modern Borders ──
     const modernToggle = document.createElement('button');
     Object.assign(modernToggle.style, {
-      background: '#2a2a4a',
-      border: '1px solid #4a4a7a',
-      color: '#ccc',
+      background: 'var(--btn-bg)',
+      border: '1px solid var(--btn-border)',
+      color: 'var(--btn-text)',
       padding: '4px 8px',
       borderRadius: '4px',
       cursor: 'pointer',
@@ -761,13 +765,13 @@ export default {
       const loc = core.state.get('locale') ?? 'zh';
       if (modernVisible) {
         modernToggle.textContent = t('panel.layers.modern.on', loc);
-        modernToggle.style.background = '#2c6e49';
-        modernToggle.style.borderColor = '#40916c';
+        modernToggle.style.background = 'var(--accent-green)';
+        modernToggle.style.borderColor = 'var(--accent-green-border)';
         await loadModernBorders();
       } else {
         modernToggle.textContent = t('panel.layers.modern.off', loc);
-        modernToggle.style.background = '#2a2a4a';
-        modernToggle.style.borderColor = '#4a4a7a';
+        modernToggle.style.background = 'var(--btn-bg)';
+        modernToggle.style.borderColor = 'var(--btn-border)';
       }
       if (modernCountriesDS) modernCountriesDS.show = modernVisible;
       if (modernLinesDS) modernLinesDS.show = modernVisible;
@@ -782,11 +786,11 @@ export default {
       display: 'none',
       position: 'fixed',
       zIndex: '200',
-      background: 'rgba(10,10,26,0.93)',
-      border: '1px solid #4a4a7a',
+      background: 'var(--bg-panel-solid)',
+      border: '1px solid var(--border-input)',
       borderRadius: '8px',
       padding: '14px 16px',
-      color: '#ddd',
+      color: 'var(--text-primary)',
       fontSize: '13px',
       maxWidth: '360px',
       minWidth: '240px',
@@ -861,7 +865,7 @@ export default {
         if (assetData.area) parts.push(`<span><span style="color:#666;">${L[loc][2]}</span> ${fmtArea(assetData.area)}&nbsp;km&sup2;</span>`);
         if (assetData.languages?.[0]) parts.push(`<span><span style="color:#666;">${L[loc][3]}</span> ${escapeHtml(assetData.languages.slice(0,3).join(', '))}</span>`);
         if (parts.length) {
-          statsHtml = `<div style="display:flex;flex-wrap:wrap;gap:4px 14px;margin-bottom:8px;padding:6px 0;border-bottom:1px solid #2a2a4a;font-size:11px;color:#aaa;">${parts.join('')}</div>`;
+          statsHtml = `<div style="display:flex;flex-wrap:wrap;gap:4px 14px;margin-bottom:8px;padding:6px 0;border-bottom:1px solid var(--divider);font-size:11px;color:#aaa;">${parts.join('')}</div>`;
         }
       }
 
@@ -871,17 +875,17 @@ export default {
             ${assetData?.flag ? `<img src="${escapeAttr(assetData.flag)}" alt="flag" style="width:64px;height:auto;max-height:40px;object-fit:contain;border-radius:2px;flex-shrink:0;" onerror="this.style.display='none'"/>` : ''}
             ${assetData?.shield ? `<img src="${escapeAttr(assetData.shield)}" alt="" style="width:40px;height:auto;max-height:44px;object-fit:contain;flex-shrink:0;" onerror="this.style.display='none'"/>` : ''}
             <div style="min-width:0;">
-              <div style="font-size:15px;font-weight:bold;color:#ffd700;">${escapeHtml(name)}</div>
-              ${yearStr ? `<div style="font-size:11px;color:#888;margin-top:2px;">${yearStr}</div>` : ''}
-              <div style="font-size:11px;color:#666;margin-top:1px;">${escapeHtml(engName)}</div>
+              <div style="font-size:15px;font-weight:bold;color:var(--accent-gold);">${escapeHtml(name)}</div>
+              ${yearStr ? `<div style="font-size:11px;color:var(--text-dim);margin-top:2px;">${yearStr}</div>` : ''}
+              <div style="font-size:11px;color:var(--text-very-faint);margin-top:1px;">${escapeHtml(engName)}</div>
             </div>
           </div>
-          <button id="polity-card-close" style="background:none;border:none;color:#888;cursor:pointer;font-size:18px;padding:0 2px;line-height:1;flex-shrink:0;">&times;</button>
+          <button id="polity-card-close" style="background:none;border:none;color:var(--text-dim);cursor:pointer;font-size:18px;padding:0 2px;line-height:1;flex-shrink:0;">&times;</button>
         </div>
         ${thumbnail ? `<img src="${thumbnail}" style="width:100%;max-height:120px;object-fit:cover;border-radius:4px;margin-bottom:8px;" alt="" />` : ''}
         ${statsHtml}
-        <div style="font-size:13px;color:#ccc;line-height:1.65;">${descTruncated}</div>
-        ${wiki ? `<div style="margin-top:8px;font-size:11px;"><a href="https://en.wikipedia.org/wiki/${encodeURIComponent(wiki)}" target="_blank" rel="noopener" style="color:#8ab4f8;text-decoration:none;">↗ Wikipedia</a></div>` : ''}
+        <div style="font-size:13px;color:var(--btn-text);line-height:1.65;">${descTruncated}</div>
+        ${wiki ? `<div style="margin-top:8px;font-size:11px;"><a href="https://en.wikipedia.org/wiki/${encodeURIComponent(wiki)}" target="_blank" rel="noopener" style="color:var(--text-link);text-decoration:none;">↗ Wikipedia</a></div>` : ''}
       `;
 
       const closeBtn = polityCard.querySelector('#polity-card-close');

@@ -1,0 +1,176 @@
+{
+  "year": 1271,
+  "year_label": "1271 CE",
+  "era_context": "The late 13th century saw the Mongol Yuan Dynasty consolidating control over China under Kublai Khan, while the Mamluk Sultanate dominated the Eastern Mediterranean and Levant. In Europe, the Angevin kingdoms controlled southern Italy and Sicily, the Iberian Reconquista was in its final phases, and the Crusader presence in the Levant had been reduced to isolated coastal holdings. This was an era of long-distance trade expansion (Silk Road, Indian Ocean networks), religious conflict, and the transition from High Medieval to early Late Medieval political structures.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources; oral traditions not well-preserved in Western archives)",
+    "Southeast Asia (limited European documentation; local chronicles exist but underrepresented in English-language historiography)",
+    "Oceania and Pacific islands (minimal written record)"
+  ],
+  "events": [
+    {
+      "id": "1271-001",
+      "title": "Kublai Khan establishes the Yuan Dynasty officially",
+      "region": "China / Mongol Empire",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "Kublai Khan formally proclaimed himself emperor of the Yuan Dynasty, consolidating Mongol rule over China. This marked the transition from the Mongol conquest phase to dynastic legitimacy within the Chinese imperial system. The Yuan adopted Chinese administrative structures, though Mongol military and aristocratic privilege remained paramount. This event symbolized the completion of the Mongol conquest of the Jin Dynasty territories and the beginning of systematic Sinicization of Mongol rule.",
+      "key_figures": [
+        "Kublai Khan (Emperor of Yuan Dynasty)",
+        "M\u00f6ngke Khan (predecessor, deceased 1259)"
+      ],
+      "sources": [
+        {
+          "name": "Yuanshi (Official History of the Yuan Dynasty), compiled 14th century",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Marco Polo, The Travels of Marco Polo (account of Venetian merchant in Yuan court, late 13th century)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Yuan Dynasty founding",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The formal proclamation of the Yuan Dynasty is well-attested in multiple sources, though the exact date (1271 vs. 1279 for complete conquest) varies by source tradition. 1271 marks the formal dynastic declaration; 1279 marks the final defeat of the Southern Song.",
+      "cross_references": [
+        "1279-001 (Final conquest of Southern Song)",
+        "1260-001 (Kublai Khan's earlier rise to power)"
+      ]
+    },
+    {
+      "id": "1271-002",
+      "title": "Marco Polo departs Venice for the East",
+      "region": "Venice / Eastern Mediterranean / Silk Road",
+      "coordinates_approx": "45.4, 12.3",
+      "category": "exploration",
+      "description": "Marco Polo, his father Niccol\u00f2, and uncle Maffeo departed Venice on a trading and diplomatic mission to the court of Kublai Khan. This journey, which would last approximately 24 years, became one of the most famous accounts of medieval Eurasian travel and trade. The Polos' mission represented the height of Venetian commercial ambition and the opening of direct European-Mongol diplomatic and trade relations. Their detailed account, later compiled as 'The Travels of Marco Polo,' provided Europeans with unprecedented geographical and ethnographic information about Asia.",
+      "key_figures": [
+        "Marco Polo (Venetian merchant and traveler)",
+        "Niccol\u00f2 Polo (father)",
+        "Maffeo Polo (uncle)"
+      ],
+      "sources": [
+        {
+          "name": "Marco Polo, The Travels of Marco Polo (account written/dictated after return, early 14th century)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Ramusio, Giovanni Battista, Navigationi et Viaggi (16th-century compilation of travel accounts)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Polo family travels",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The departure date of 1271 is traditional, derived from Marco Polo's own account. Some modern scholars suggest 1272 as possible, but 1271 is the consensus date in most historiographic sources. The account itself was written decades later, introducing potential dating uncertainties.",
+      "cross_references": [
+        "1295-001 (Marco Polo's return to Venice)",
+        "1271-001 (Kublai Khan's court, destination of the Polos)"
+      ]
+    },
+    {
+      "id": "1271-003",
+      "title": "Baibars dies; Qalawun becomes Mamluk Sultan",
+      "region": "Egypt / Mamluk Sultanate",
+      "coordinates_approx": "30.0, 31.2",
+      "category": "political",
+      "description": "The death of Sultan Baibars al-Bunduqdari in July 1277 (not 1271; see disconfirming evidence) marked a transition in Mamluk leadership. However, the succession was contested. Qalawun (Saif al-Din Qalawun) eventually consolidated power and became one of the most significant Mamluk sultans, ruling until 1290. Qalawun's reign saw the consolidation of Mamluk military dominance in the Eastern Mediterranean, the final elimination of Crusader strongholds in the Levant, and the expansion of Mamluk commercial networks. This period marked the peak of Mamluk military and economic power.",
+      "key_figures": [
+        "Baibars al-Bunduqdari (deceased 1277)",
+        "Qalawun (Saif al-Din Qalawun, Sultan 1279\u20131290)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Al-Kamil fi al-Tarikh (Chronicle of Complete History, 13th century)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Al-Maqrizi, Kitab al-Suluk (Book of the Path, 15th-century compilation of Mamluk history)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Mamluk succession",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Baibars' death is dated to 1277 in most sources, not 1271. The succession process was complex and contested over several years. Qalawun's consolidation of power occurred gradually between 1277 and 1279. This event is included for 1271 as a historiographic error; see disconfirming evidence.",
+      "cross_references": [
+        "1277-001 (Baibars' death, corrected date)",
+        "1290-001 (Qalawun's death)"
+      ]
+    },
+    {
+      "id": "1271-004",
+      "title": "Angevin expansion in the Mediterranean; Charles of Anjou consolidates southern Italian rule",
+      "region": "Sicily / Southern Italy / Mediterranean",
+      "coordinates_approx": "37.6, 14.0",
+      "category": "political",
+      "description": "Charles of Anjou, King of Sicily and Naples, continued consolidating Angevin control over southern Italy and the Mediterranean. The Angevin dynasty, established after the Sicilian Vespers (1282), was in the process of expanding its commercial and military influence. Charles pursued aggressive policies toward the Byzantine Empire and the Eastern Mediterranean, attempting to establish Angevin hegemony. This period saw the development of Angevin naval power and the expansion of Mediterranean trade networks under Angevin patronage.",
+      "key_figures": [
+        "Charles of Anjou (King of Sicily and Naples, r. 1266\u20131285)"
+      ],
+      "sources": [
+        {
+          "name": "Giovanni Villani, Nuova Cronica (Florentine chronicle, 14th century)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Angevin expansion",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Angevin expansion in this period is well-attested. Specific events in 1271 are less clearly documented. This entry represents the broader political context rather than a discrete event.",
+      "cross_references": [
+        "1282-001 (Sicilian Vespers, major disruption to Angevin rule)",
+        "1285-001 (Charles of Anjou's death)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The entry on Baibars/Qalawun succession is misdated. Baibars died in 1277, not 1271. Qalawun's consolidation of power occurred between 1277 and 1279, not in 1271. This reflects a historiographic error in assigning events to this year. Additionally, the significance of 1271 as a discrete year in Mamluk history is overstated; the major political transitions occurred in 1277\u20131279. The Yuan Dynasty proclamation date is also contested: some sources date the formal establishment to 1279 (after the final conquest of the Southern Song), while others recognize 1271 as the date of Kublai Khan's formal assumption of the imperial title. Modern scholarship increasingly favors 1279 as the more significant date for the completion of Yuan consolidation.",
+  "historiographic_note": "The historical record for 1271 is heavily weighted toward East Asian (Chinese and Mongol) and Mediterranean (Venetian, Mamluk, Angevin) sources. European chronicles are abundant but often focused on local or regional events. Islamic sources provide good coverage of Mamluk affairs but are often compiled centuries after the events. The account of Marco Polo's departure is well-known but was written decades after the fact, introducing potential dating uncertainties. Sub-Saharan African, Southeast Asian, and Pacific sources are virtually absent from the Western historiographic tradition for this year. The surviving sources reflect the biases of literate, urban, merchant, and court-centered societies; rural, non-literate, and non-elite perspectives are largely absent.",
+  "graph_edges": [
+    {
+      "from": "1271-001",
+      "to": "1279-001",
+      "relation": "led_to",
+      "note": "Yuan Dynasty proclamation led to final conquest of Southern Song"
+    },
+    {
+      "from": "1271-002",
+      "to": "1295-001",
+      "relation": "led_to",
+      "note": "Marco Polo's departure led to his return and compilation of travel account"
+    },
+    {
+      "from": "1271-002",
+      "to": "1271-001",
+      "relation": "contemporary_with",
+      "note": "Marco Polo's journey occurred during Kublai Khan's reign"
+    },
+    {
+      "from": "1271-003",
+      "to": "1277-001",
+      "relation": "contradicts",
+      "note": "Baibars' death is misdated to 1271; correct date is 1277"
+    }
+  ]
+}

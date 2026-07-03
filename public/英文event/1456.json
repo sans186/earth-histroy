@@ -1,0 +1,231 @@
+{
+  "year": 1456,
+  "year_label": "1456 CE",
+  "era_context": "The mid-15th century marks the final phase of the European Middle Ages and early Renaissance. The Ottoman Empire is consolidating control over the Eastern Mediterranean following the 1453 fall of Constantinople. Western Europe is emerging from the Hundred Years' War (ended 1453), with nation-states consolidating power. In East Asia, the Ming Dynasty rules China; in Africa, the Mali Empire has fragmented and the Portuguese are beginning systematic Atlantic exploration. Gutenberg's printing press (c. 1440) is beginning to circulate, though its impact remains localized.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited European documentation; indigenous records sparse in surviving sources)",
+    "Southeast Asia and the Pacific (limited European awareness; local chronicles underrepresented in Western archives)",
+    "Central Asia and the Steppe (post-Timurid fragmentation poorly documented in accessible sources)"
+  ],
+  "events": [
+    {
+      "id": "1456-001",
+      "title": "Siege of Belgrade and Hungarian Victory",
+      "region": "Kingdom of Hungary, Ottoman Empire",
+      "coordinates_approx": "44.82, 20.46",
+      "category": "military",
+      "description": "Hungarian forces under John Hunyadi, regent of Hungary, successfully defended Belgrade (N\u00e1ndorfeh\u00e9rv\u00e1r) against a major Ottoman siege led by Mehmed II. The Ottoman fleet and army were repelled after a 70-day siege, marking a significant check on Ottoman expansion into Central Europe. The victory boosted Hungarian prestige and temporarily halted Ottoman advances northward. Church bells were rung across Catholic Europe in celebration, and the event became a symbol of Christian resistance to Ottoman expansion.",
+      "key_figures": [
+        "John Hunyadi (Hungarian regent and military commander)",
+        "Mehmed II (Ottoman Sultan)",
+        "Nicholas of Modru\u0161 (Papal legate and military advisor)"
+      ],
+      "sources": [
+        {
+          "name": "Chalkokondyles, Laonikos. Histories (written c. 1460s\u20131480s)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bonfini, Antonio. Rerum Hungaricarum Decades (written early 16th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ottoman chronicles and Mehmed II's court records",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Papal correspondence and Hungarian royal documents",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The siege is well-attested in both Ottoman and Hungarian sources from the period. Dating to July\u2013August 1456 is secure.",
+      "cross_references": [
+        "1453-001 (Fall of Constantinople, context for Ottoman expansion)",
+        "1444-001 (Battle of Varna, earlier Ottoman-Hungarian conflict)"
+      ]
+    },
+    {
+      "id": "1456-002",
+      "title": "Joan of Arc Posthumous Trial and Rehabilitation",
+      "region": "Kingdom of France, Rouen",
+      "coordinates_approx": "49.44, 1.10",
+      "category": "legal",
+      "description": "A retrial of Joan of Arc's 1431 execution was initiated by the Church, leading to her formal rehabilitation. The original trial was declared null and void, and Joan's conviction for heresy was overturned. This process, known as the Inquisitorial retrial or 'trial of rehabilitation,' was driven by French political interests and papal authority. The retrial affirmed Joan's orthodoxy and paved the way for her eventual canonization in 1920.",
+      "key_figures": [
+        "Joan of Arc (subject of retrial, deceased 1431)",
+        "Pope Callixtus III (authorized the retrial)",
+        "Jean Br\u00e9hal (Inquisitor who led the retrial)"
+      ],
+      "sources": [
+        {
+          "name": "Proc\u00e8s en Nullit\u00e9 de la Condamnation de Jeanne d'Arc (Trial records, 1456)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Papal bull Considerantes (1456)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Quicherat, Jules (ed.). Proc\u00e8s de Condamnation et de Nullit\u00e9 de Jeanne d'Arc (19th-century compilation of trial documents)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The retrial is extensively documented in ecclesiastical records. The process began in 1456 and concluded formally in 1456, though the full proceedings extended into 1457.",
+      "cross_references": [
+        "1431-001 (Joan of Arc's execution and original trial)"
+      ]
+    },
+    {
+      "id": "1456-003",
+      "title": "Portuguese Exploration: Dinis Dias Reaches Cape Verde",
+      "region": "West Africa, Portuguese Atlantic Exploration",
+      "coordinates_approx": "14.93, -23.61",
+      "category": "exploration",
+      "description": "Portuguese navigator Dinis Dias, sailing under the sponsorship of Prince Henry the Navigator, reached Cape Verde (Cabo Verde), the westernmost point of Africa. This voyage extended Portuguese knowledge of the African coast and represented a major milestone in the systematic exploration of the Atlantic. The discovery of Cape Verde islands followed, establishing Portuguese trading posts and marking the beginning of Portuguese colonial presence in West Africa.",
+      "key_figures": [
+        "Dinis Dias (Portuguese navigator)",
+        "Prince Henry the Navigator (Portuguese royal patron)",
+        "King Afonso V of Portugal (reigning monarch)"
+      ],
+      "sources": [
+        {
+          "name": "Gomes Eanes de Zurara. Cr\u00f3nica da Descoberta da Guin\u00e9 (Chronicle of the Discovery of Guinea, written c. 1453\u20131460)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Portuguese royal archives and navigation records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from Portuguese maritime history",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The voyage is attested in Portuguese chronicles, but exact dating varies slightly between sources (some place it 1455\u20131456). The year 1456 is conventional in most modern accounts.",
+      "cross_references": [
+        "1444-001 (Earlier Portuguese exploration under Henry the Navigator)",
+        "1460-001 (Further Portuguese expansion along African coast)"
+      ]
+    },
+    {
+      "id": "1456-004",
+      "title": "Gutenberg's Printing Press: Spread to Mainz and Early Dissemination",
+      "region": "Holy Roman Empire, Mainz",
+      "coordinates_approx": "50.00, 8.27",
+      "category": "technological",
+      "description": "Gutenberg's movable-type printing press, invented c. 1440, was becoming established in Mainz by 1456. The first dated printed book, the Gutenberg Bible (42-line Bible), was completed in 1456, marking the beginning of the print revolution. This technology would fundamentally transform knowledge dissemination, religious reform, and intellectual culture across Europe over the following century.",
+      "key_figures": [
+        "Johannes Gutenberg (inventor of movable-type printing)",
+        "Johann Fust (financial backer)",
+        "Peter Sch\u00f6ffer (printer and partner)"
+      ],
+      "sources": [
+        {
+          "name": "Gutenberg Bible colophon and printing records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Mainz guild records and city archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from printing history",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The completion of the Gutenberg Bible in 1456 is well-documented. The colophon and surviving copies provide direct evidence.",
+      "cross_references": [
+        "1440-001 (Invention of movable-type printing)",
+        "1465-001 (Spread of printing to Rome and Italy)"
+      ]
+    },
+    {
+      "id": "1456-005",
+      "title": "Ming Dynasty: Zhengtong Emperor's Restoration and Political Consolidation",
+      "region": "Ming China",
+      "coordinates_approx": "39.90, 116.41",
+      "category": "political",
+      "description": "The Zhengtong Emperor (Yingzong), who had been deposed in 1449 after the Tumu Crisis, was restored to the throne in a palace coup known as the Jingtai Restoration reversal. This event consolidated power within the imperial court and marked a shift in Ming political dynamics. The restoration reflected factional struggles within the imperial bureaucracy and affected military and foreign policy toward the Mongol tribes to the north.",
+      "key_figures": [
+        "Zhengtong Emperor (Yingzong) (restored to throne)",
+        "Jingtai Emperor (deposed)",
+        "Cao Jixiao (eunuch faction leader)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Official Ming court records and imperial edicts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from Ming studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The restoration is well-documented in Ming official records. The event occurred in the first month of 1457 (by lunar calendar), but is often dated to 1456 in Western chronologies.",
+      "cross_references": [
+        "1449-001 (Tumu Crisis and Zhengtong's initial deposition)",
+        "1457-001 (Continuation of Zhengtong's reign)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of the Belgrade siege has been somewhat inflated in Western historiography as a symbol of Christian resistance; Ottoman sources suggest the campaign was a strategic probe rather than a critical threat to Ottoman expansion, which continued successfully in other theaters. The retrial of Joan of Arc, while legally significant, was driven primarily by French political interests in rehabilitating national heroes rather than by new evidence of her innocence\u2014the original trial's procedures, though harsh by modern standards, were not exceptional for the period. Dinis Dias's voyage to Cape Verde is sometimes conflated with earlier Portuguese explorations; the exact chronology of early 1450s African voyages is uncertain and may represent multiple expeditions rather than a single voyage. The Gutenberg Bible's completion date of 1456 is traditional but not absolutely certain\u2014some scholars argue for 1455 based on colophon ambiguities.",
+  "historiographic_note": "Documentation for 1456 is moderate to good for Europe and the Ottoman Empire, reflecting the density of surviving chronicles, royal records, and ecclesiastical documents. European sources dominate; Ottoman sources are available but less frequently consulted in Western scholarship. Chinese sources (Ming Shilu) are comprehensive but require specialized expertise. African and Asian sources outside these major centers are sparse or absent from surviving records. The year is well-documented for political and military events in Europe; cultural and economic history is less thoroughly recorded. Biases include: Western-centric focus on European events, court-sponsored narratives in both European and Chinese sources, and the absence of indigenous African perspectives on Portuguese exploration.",
+  "graph_edges": [
+    {
+      "from": "1456-001",
+      "to": "1453-001",
+      "relation": "part_of",
+      "note": "Belgrade siege is a response to Ottoman expansion following Constantinople's fall"
+    },
+    {
+      "from": "1456-002",
+      "to": "1431-001",
+      "relation": "led_to",
+      "note": "Retrial overturns the 1431 execution and conviction"
+    },
+    {
+      "from": "1456-003",
+      "to": "1444-001",
+      "relation": "part_of",
+      "note": "Continuation of Portuguese Atlantic exploration program"
+    },
+    {
+      "from": "1456-004",
+      "to": "1440-001",
+      "relation": "led_to",
+      "note": "Gutenberg Bible represents the first major application of movable-type printing"
+    },
+    {
+      "from": "1456-005",
+      "to": "1449-001",
+      "relation": "led_to",
+      "note": "Restoration reverses the 1449 deposition and reshapes Ming court politics"
+    }
+  ]
+}

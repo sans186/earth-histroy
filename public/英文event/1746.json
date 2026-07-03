@@ -1,0 +1,201 @@
+{
+  "year": 1746,
+  "year_label": "1746 CE",
+  "era_context": "The War of Austrian Succession (1740\u20131748) dominates European politics; the Qing Dynasty under the Kangxi and Yongzheng successors consolidates control over China and Central Asia; the British Empire expands colonial holdings in North America and India; the Ottoman Empire faces internal fragmentation and external pressure from Russia and Austria.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1746-001",
+      "title": "Battle of Culloden",
+      "region": "Scotland, British Isles",
+      "coordinates_approx": "57.48, -4.08",
+      "category": "military",
+      "description": "On 16 April 1746, the Jacobite rising of 1745 was decisively crushed at Culloden Moor near Inverness. The Highland army of Charles Edward Stuart (Bonnie Prince Charlie) was routed by the Duke of Cumberland's government forces. This marked the effective end of the Stuart restoration movement and the beginning of systematic suppression of Highland clan culture, including the Disarming Acts and the end of heritable jurisdictions. The battle had profound consequences for Scottish society, accelerating the integration of the Highlands into the British state and the decline of Gaelic culture.",
+      "key_figures": [
+        "Charles Edward Stuart (Jacobite claimant)",
+        "William Augustus, Duke of Cumberland (British commander)",
+        "Lord George Murray (Jacobite general)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary accounts by eyewitnesses and military records; The Lyon in Mourning (Robert Forbes, compiled 1747\u20131775)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from the battlefield",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Date and outcome are well-documented in contemporary military records and eyewitness accounts.",
+      "cross_references": [
+        "1745-001 (Jacobite rising begins)",
+        "1746-002 (aftermath legislation)"
+      ]
+    },
+    {
+      "id": "1746-002",
+      "title": "Heritable Jurisdictions Act (Scotland)",
+      "region": "Scotland, British Isles",
+      "coordinates_approx": "55.95, -3.19",
+      "category": "legal",
+      "description": "Following the Jacobite defeat, the British Parliament passed the Heritable Jurisdictions Act in 1746, abolishing the feudal right of Scottish landowners to hold judicial authority over their lands. This was a direct consequence of the rebellion and represented a major centralisation of state power. The act effectively ended the quasi-independent power of Highland chiefs and integrated Scottish law more fully under Westminster control. Compensation was offered to affected landowners, but the symbolic and practical impact was profound.",
+      "key_figures": [
+        "Duke of Newcastle (Secretary of State)",
+        "Henry Pelham (First Lord of the Treasury)"
+      ],
+      "sources": [
+        {
+          "name": "Parliamentary records and the text of the Heritable Jurisdictions Act, 1746",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Parliamentary legislation is precisely dated and documented.",
+      "cross_references": [
+        "1746-001 (Culloden battle, immediate cause)"
+      ]
+    },
+    {
+      "id": "1746-003",
+      "title": "Battle of Rocoux (War of Austrian Succession)",
+      "region": "Spanish Netherlands (modern Belgium)",
+      "coordinates_approx": "50.65, 5.75",
+      "category": "military",
+      "description": "On 11 October 1746, French forces under Marshal Saxe defeated the Allied army (British, Dutch, Austrian) commanded by the Duke of Cumberland at Rocoux in the Spanish Netherlands. This was a significant French victory in the ongoing War of Austrian Succession, consolidating French military dominance in the Low Countries and contributing to the eventual French territorial gains in the peace settlement. The battle demonstrated the effectiveness of Saxe's tactical innovations and the relative weakness of the Allied coalition.",
+      "key_figures": [
+        "Maurice de Saxe (French marshal)",
+        "William Augustus, Duke of Cumberland (Allied commander)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary military dispatches and memoirs; Saxe's Reveries upon the Art of War",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from military histories of the War of Austrian Succession",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Date and outcome are well-documented in military records and contemporary accounts.",
+      "cross_references": [
+        "1745-002 (Battle of Fontenoy, earlier French victory)"
+      ]
+    },
+    {
+      "id": "1746-004",
+      "title": "Qing consolidation of Tibet",
+      "region": "Tibet, Qing Empire",
+      "coordinates_approx": "30.0, 95.0",
+      "category": "political",
+      "description": "In 1746, the Qing Dynasty under the Yongzheng Emperor (r. 1722\u20131735, but policies continued under Qianlong, r. 1735\u20131796) further consolidated control over Tibet following the 1728 establishment of the Amban (imperial resident) system. By 1746, the Qing had effectively subordinated the Tibetan government to imperial oversight, though maintaining the Dalai Lama as a figurehead. This represented a major expansion of Qing territorial control and the beginning of systematic Chinese administrative integration of Tibet, which would have long-term consequences for Sino-Tibetan relations.",
+      "key_figures": [
+        "Qianlong Emperor (Qing ruler)",
+        "The 7th Dalai Lama (Kelsang Gyatso)"
+      ],
+      "sources": [
+        {
+          "name": "Qing imperial records (Veritable Records of the Qing Dynasty)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Tibetan Buddhist chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation process occurred over several years; 1746 is approximate for the completion of administrative integration.",
+      "cross_references": [
+        "1728-001 (Amban system established)"
+      ]
+    },
+    {
+      "id": "1746-005",
+      "title": "Nadir Shah's invasion of the Caucasus",
+      "region": "Caucasus, Persian Empire",
+      "coordinates_approx": "43.0, 45.0",
+      "category": "military",
+      "description": "Nadir Shah of Persia, having consolidated power and defeated the Ottomans, turned his attention to the Caucasus in 1746, launching campaigns to bring the region under Persian control. These campaigns were part of Nadir Shah's broader imperial expansion and represented a reassertion of Persian power in the region after Ottoman and Russian encroachments. The campaigns were largely successful in the short term but contributed to the destabilisation of the Caucasus that would persist for centuries.",
+      "key_figures": [
+        "Nadir Shah (Persian ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Persian chronicles and court records",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Russian diplomatic records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The campaigns occurred in this period; exact dating of specific operations is less certain.",
+      "cross_references": [
+        "1738-001 (Nadir Shah's earlier campaigns)"
+      ]
+    },
+    {
+      "id": "1746-006",
+      "title": "Founding of Princeton College",
+      "region": "New Jersey, British North America",
+      "coordinates_approx": "40.35, -74.66",
+      "category": "cultural",
+      "description": "The College of New Jersey (later Princeton University) was formally chartered on 22 November 1746 by royal charter from Governor Jonathan Belcher. The college was founded as a Presbyterian institution to train ministers and was initially located in Elizabeth, New Jersey, before moving to Princeton in 1756. This was part of the broader expansion of higher education in the American colonies and reflected the growing intellectual and religious sophistication of colonial society. The college would become one of the most influential institutions in American history.",
+      "key_figures": [
+        "Jonathan Belcher (Governor of New Jersey)",
+        "Jonathan Dickinson (first president)"
+      ],
+      "sources": [
+        {
+          "name": "Royal charter and college records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Colonial government records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The charter date is precisely documented.",
+      "cross_references": [
+        "1754-001 (College moves to Princeton)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of the Battle of Culloden as a 'turning point' in Highland history has been somewhat revised by modern scholarship. While the battle was decisive militarily, recent historians argue that the decline of Highland clan culture was a longer process than the 'immediate suppression' narrative suggests, with economic and social changes predating and postdating the battle. Additionally, the role of the Duke of Cumberland in 'pacifying' the Highlands is contested; some scholars emphasise that the Highlands were already economically integrated into the British system before 1746.",
+  "historiographic_note": "1746 is well-documented in European sources, particularly for Britain, France, and the War of Austrian Succession. Sources are predominantly from the perspective of European powers and colonial elites. Non-European regions (Asia, Africa, the Americas outside British North America) are less thoroughly documented in Western archives. The Qing consolidation of Tibet is well-attested in Chinese sources but less visible in European records. Indigenous perspectives on colonial expansion in North America are largely absent from contemporary European documentation.",
+  "graph_edges": [
+    {
+      "from": "1746-001",
+      "to": "1746-002",
+      "relation": "led_to",
+      "note": "Culloden defeat prompted the Heritable Jurisdictions Act"
+    },
+    {
+      "from": "1746-001",
+      "to": "1745-001",
+      "relation": "caused_by",
+      "note": "Culmination of the 1745 Jacobite rising"
+    },
+    {
+      "from": "1746-003",
+      "to": "1748-001",
+      "relation": "led_to",
+      "note": "Part of the War of Austrian Succession, leading to the Treaty of Aix-la-Chapelle"
+    }
+  ]
+}

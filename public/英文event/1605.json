@@ -1,0 +1,227 @@
+{
+  "year": 1605,
+  "year_label": "1605 CE",
+  "era_context": "Early modern period: The Gunpowder Plot is discovered in England; Tokugawa Ieyasu retires as shogun in Japan, passing power to his son; the VOC is in its early years of aggressive expansion; the Safavid Empire under Shah Abbas I is at its height; Ming Dynasty China continues under the Wanli Emperor.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited European documentation)",
+    "Interior North America (sparse European contact records)",
+    "Pacific Islands (minimal European knowledge)"
+  ],
+  "events": [
+    {
+      "id": "1605-001",
+      "title": "Gunpowder Plot discovered",
+      "region": "England",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "political",
+      "description": "The Gunpowder Plot, a conspiracy by Catholic extremists to assassinate King James I and blow up Parliament, is discovered on November 5, 1605. Guy Fawkes and other conspirators are arrested. The plot fails to achieve its objective but becomes a defining moment in English Protestant identity and anti-Catholic sentiment. The discovery leads to increased surveillance and restrictions on Catholics in England.",
+      "key_figures": [
+        "Guy Fawkes (conspirator)",
+        "Robert Catesby (conspirator, leader)",
+        "King James I (target)",
+        "Robert Cecil (Secretary of State, discoverer)"
+      ],
+      "sources": [
+        {
+          "name": "State Papers Domestic, James I; contemporary court records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary accounts and later compilations",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in contemporary state papers. The discovery date of November 5, 1605 is precisely recorded.",
+      "cross_references": [
+        "1606-001 (Gunpowder Plot trials)"
+      ]
+    },
+    {
+      "id": "1605-002",
+      "title": "Tokugawa Ieyasu retires as Shogun",
+      "region": "Japan",
+      "coordinates_approx": "35.6762, 139.6503",
+      "category": "political",
+      "description": "Tokugawa Ieyasu, the founder of the Tokugawa shogunate, formally retires as shogun and passes power to his son Tokugawa Hidetada. Ieyasu continues to wield significant influence as \u014cgosho (retired shogun). This transition marks the consolidation of Tokugawa power and the beginning of the Edo period's stable feudal order that will last until 1868.",
+      "key_figures": [
+        "Tokugawa Ieyasu (retiring Shogun)",
+        "Tokugawa Hidetada (new Shogun)"
+      ],
+      "sources": [
+        {
+          "name": "Tokugawa Iemitsu Nikki and Edo bakufu records",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Edo period",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Well-documented in Japanese administrative records and later compilations.",
+      "cross_references": [
+        "1603-002 (Tokugawa Ieyasu becomes Shogun)",
+        "1606-002 (Tokugawa consolidation continues)"
+      ]
+    },
+    {
+      "id": "1605-003",
+      "title": "Cervantes publishes Don Quixote (Part 1)",
+      "region": "Spain",
+      "coordinates_approx": "40.4168, -3.7038",
+      "category": "cultural",
+      "description": "Miguel de Cervantes publishes the first part of Don Quixote, one of the most influential works of literature in the Western canon. The novel is an immediate success and is translated into English and French within a year. It marks a turning point in the development of the modern novel and becomes a foundational text of Spanish literature.",
+      "key_figures": [
+        "Miguel de Cervantes (author)"
+      ],
+      "sources": [
+        {
+          "name": "Don Quixote, first edition (1605)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Publishing records and contemporary accounts",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Publication date is precisely documented. The work is preserved in multiple copies and editions.",
+      "cross_references": [
+        "1615-001 (Don Quixote Part 2 published)"
+      ]
+    },
+    {
+      "id": "1605-004",
+      "title": "Shah Abbas I consolidates Safavid power",
+      "region": "Safavid Persia",
+      "coordinates_approx": "32.6546, 51.6680",
+      "category": "political",
+      "description": "Shah Abbas I, the Safavid ruler, continues his consolidation of power and expansion of the Persian Empire. By 1605, Abbas has defeated the Uzbeks, secured the Caucasus, and established Persia as a major regional power. He promotes trade, builds infrastructure, and establishes Isfahan as a magnificent capital. This period marks the height of Safavid cultural and political power.",
+      "key_figures": [
+        "Shah Abbas I (Safavid ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Safavid court chronicles and administrative records",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "European diplomatic accounts (e.g., Venetian and English ambassadors)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Safavid Empire",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Well-documented in both Persian and European sources.",
+      "cross_references": [
+        "1603-001 (Peace of Amasya)"
+      ]
+    },
+    {
+      "id": "1605-005",
+      "title": "VOC establishes control over Moluccan spice trade",
+      "region": "Moluccas (Dutch East Indies)",
+      "coordinates_approx": "-0.5, 127.0",
+      "category": "economic",
+      "description": "The Dutch East India Company (VOC) consolidates its control over the spice trade in the Moluccas, one of the most valuable trade routes in the world. By 1605, the VOC has displaced Portuguese traders and established a monopoly on clove and nutmeg exports. This marks the beginning of Dutch economic dominance in Southeast Asia.",
+      "key_figures": [
+        "Steven van der Hagen (VOC admiral)"
+      ],
+      "sources": [
+        {
+          "name": "VOC records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on VOC expansion",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Documented in VOC corporate records and Dutch colonial archives.",
+      "cross_references": [
+        "1602-001 (VOC charter)",
+        "1606-003 (VOC expansion continues)"
+      ]
+    },
+    {
+      "id": "1605-006",
+      "title": "Wanli Emperor of Ming China continues reign",
+      "region": "Ming China",
+      "coordinates_approx": "39.9042, 116.4074",
+      "category": "political",
+      "description": "The Wanli Emperor continues his reign over Ming China. By 1605, the emperor has been on the throne for over 40 years and is in declining health. The later Wanli period is marked by administrative decline, factional conflicts, and the rise of eunuch power. However, Ming culture and economy remain strong, and China continues to be a major world power.",
+      "key_figures": [
+        "Wanli Emperor (Ming ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Ming court records and administrative documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Ming Dynasty",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Well-documented in Ming administrative records.",
+      "cross_references": [
+        "1572-001 (Wanli Emperor ascends)",
+        "1620-001 (Wanli Emperor dies)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Gunpowder Plot is often portrayed as a major turning point in English religious history, but recent scholarship suggests that anti-Catholic sentiment was already deeply entrenched in English Protestant identity before 1605. The plot reinforced rather than initiated this trend. Additionally, some historians argue that the plot's significance has been exaggerated by later Protestant historiography. The characterization of Shah Abbas I as the 'height' of Safavid power is debated; some scholars argue that the empire's cultural and economic peak occurred earlier or that decline began sooner than traditionally dated. Cervantes' Don Quixote, while undoubtedly influential, was not immediately recognized as a masterpiece; its canonical status was established gradually over centuries.",
+  "historiographic_note": "Documentation for 1605 is rich for European history, with extensive state papers and published works. Asian sources (Japanese, Persian, Chinese) are also well-preserved. However, the record is heavily weighted toward political and military events involving elites. The Gunpowder Plot dominates English historical narratives, potentially obscuring other significant events of the year. Economic and social history of non-European regions is underrepresented. Sub-Saharan Africa and interior North America are almost entirely absent from contemporary European records. The sources themselves are shaped by the interests of the recording institutions (courts, trading companies, religious authorities).",
+  "graph_edges": [
+    {
+      "from": "1605-001",
+      "to": "1606-001",
+      "relation": "led_to",
+      "note": "Gunpowder Plot discovery leads to trials and executions in 1606"
+    },
+    {
+      "from": "1605-002",
+      "to": "1606-002",
+      "relation": "led_to",
+      "note": "Tokugawa Ieyasu's retirement leads to continued consolidation under Hidetada"
+    },
+    {
+      "from": "1605-003",
+      "to": "1615-001",
+      "relation": "led_to",
+      "note": "Don Quixote Part 1 leads to Part 2 publication"
+    },
+    {
+      "from": "1605-004",
+      "to": "1603-001",
+      "relation": "contemporary_with",
+      "note": "Shah Abbas I's consolidation follows from the Peace of Amasya"
+    },
+    {
+      "from": "1605-005",
+      "to": "1606-003",
+      "relation": "led_to",
+      "note": "VOC spice trade control leads to broader expansion in Java"
+    }
+  ]
+}

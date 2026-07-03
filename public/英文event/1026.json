@@ -1,0 +1,193 @@
+{
+  "year": 1026,
+  "year_label": "1026 CE",
+  "era_context": "The early 11th century saw the consolidation of feudal Europe, the height of the Fatimid Caliphate in Egypt and the Levant, the Song Dynasty's scientific and administrative flourishing in China, and the expansion of Islamic sultanates in South Asia. The Byzantine Empire under Constantine VIII was in decline; the Holy Roman Empire fragmented under competing claims. This was an era of religious reform movements, technological diffusion (including the spread of the heavy plough and three-field rotation in Europe), and intensifying long-distance trade along the Silk Road and Indian Ocean routes.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources; oral traditions and archaeological evidence underrepresented in training data)",
+    "Mesoamerica and North America (Maya and Ancestral Puebloan cultures; sparse written records)",
+    "Southeast Asia (limited contemporary chronicles in European sources)"
+  ],
+  "events": [
+    {
+      "id": "1026-001",
+      "title": "Death of Caliph Al-Zahir and succession of Al-Mustansir II",
+      "region": "Fatimid Caliphate (Egypt, Levant, North Africa)",
+      "coordinates_approx": "30.0444, 31.2357",
+      "category": "political",
+      "description": "Al-Zahir, the sixth Fatimid caliph, died in 1026 CE after a 30-year reign marked by military campaigns, administrative reforms, and cultural patronage. He was succeeded by his young son Al-Mustansir II, who would become one of the longest-reigning Fatimid caliphs (1026\u20131094). The transition occurred during a period of relative Fatimid strength, though succession of a minor would eventually lead to periods of regency and internal factional struggle. This succession shaped the political trajectory of the eastern Mediterranean and Levantine politics for the next seven decades.",
+      "key_figures": [
+        "Al-Zahir (Fatimid Caliph, r. 996\u20131026)",
+        "Al-Mustansir II (Fatimid Caliph, r. 1026\u20131094)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Maqrizi, Itti'az al-Hunafa bi-Akhbar al-A'imma al-Khulafa (History of the Fatimid Caliphs)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Al-Kamil fi al-Tarikh (The Complete History)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Fatimid succession dates are well-established in Islamic historiography, though primary contemporary documentation is limited. Multiple later chronicles agree on the date and succession.",
+      "cross_references": []
+    },
+    {
+      "id": "1026-002",
+      "title": "Consecration of the Church of the Holy Sepulchre (rebuilt)",
+      "region": "Jerusalem, Levant (under Fatimid control)",
+      "coordinates_approx": "31.7683, 35.2137",
+      "category": "religious",
+      "description": "The Church of the Holy Sepulchre in Jerusalem, which had been destroyed during the reign of Caliph Al-Hakim bi-Amr Allah (996\u20131021), was rebuilt and reconsecrated in 1026 CE under Caliph Al-Mustansir II. The reconstruction was permitted as part of a broader Fatimid policy of accommodation with Christian communities, though the process had been contentious. The reconsecration was a major event for Christian pilgrimage networks and symbolized the restoration of Christian access to one of Christianity's holiest sites. This event would have significant repercussions for Christian-Muslim relations in the Levant and contributed to the religious tensions that would eventually fuel the Crusades (beginning 1096).",
+      "key_figures": [
+        "Al-Mustansir II (Fatimid Caliph)",
+        "Patriarch of Jerusalem (identity uncertain in sources)"
+      ],
+      "sources": [
+        {
+          "name": "Yahya of Antioch, Chronicle (contemporary or near-contemporary)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Al-Maqrizi, Itti'az al-Hunafa",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Western pilgrimage accounts and monastic chronicles (10th\u201311th century)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The reconsecration is attested in multiple sources, though exact dating (1026 vs. 1027) varies slightly. Yahya of Antioch provides near-contemporary testimony. The event is historically significant but dating precision is \u00b11 year.",
+      "cross_references": [
+        "Related to 1021 destruction under Al-Hakim",
+        "Precursor to Crusader interest in Jerusalem (1096+)"
+      ]
+    },
+    {
+      "id": "1026-003",
+      "title": "Reign of Anund Jacob of Sweden; consolidation of Christian kingship",
+      "region": "Sweden (Scandinavia)",
+      "coordinates_approx": "60.1282, 18.6435",
+      "category": "political",
+      "description": "Anund Jacob (also called Anund the Great) ruled Sweden from approximately 1022 to 1066. By 1026, his reign was well-established, and he was actively consolidating Christian authority in Sweden, building churches and strengthening ties with the papacy and neighboring Christian kingdoms. His reign marked the transition of Sweden from a pagan to a Christian kingdom and the integration of Swedish nobility into the feudal structures of Western Europe. Anund Jacob's policies of Christianization and centralization had lasting effects on Scandinavian political development.",
+      "key_figures": [
+        "Anund Jacob (King of Sweden, r. ~1022\u20131066)"
+      ],
+      "sources": [
+        {
+          "name": "Adam of Bremen, Gesta Hammaburgensis Ecclesiae Pontificum (History of the Archbishops of Hamburg-Bremen)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Snorri Sturluson, Heimskringla (later Norse saga compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Anund Jacob's reign dates are approximate (\u00b12\u20133 years). Adam of Bremen provides near-contemporary testimony from the late 11th century. Norse sagas are later compilations with legendary elements.",
+      "cross_references": []
+    },
+    {
+      "id": "1026-004",
+      "title": "Song Dynasty consolidation under Emperor Zhenzhong; technological and administrative peak",
+      "region": "China (Song Dynasty)",
+      "coordinates_approx": "34.3416, 108.9398",
+      "category": "political",
+      "description": "Emperor Zhenzhong of Song (r. 997\u20131022) had recently died, and his successor, Emperor Renzong (r. 1022\u20131063), was consolidating power in 1026. The Song Dynasty was at the height of its administrative sophistication and technological innovation. By this period, the Song had developed advanced printing technology, gunpowder weapons, sophisticated bureaucratic examination systems, and a thriving commercial economy. The year 1026 falls within a period of relative stability and prosperity, though the Song faced ongoing military pressure from the Liao Dynasty in the north. This era saw the flourishing of Neo-Confucian philosophy and the development of landscape painting.",
+      "key_figures": [
+        "Emperor Renzong of Song (r. 1022\u20131063)",
+        "Wang Anshi (statesman and reformer, b. 1021)"
+      ],
+      "sources": [
+        {
+          "name": "Sima Guang, Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Official Song Dynasty histories and court records",
+          "type": "historiographic_consensus",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Song Dynasty chronology is well-established through official court records and comprehensive later compilations. Emperor Renzong's reign dates are certain.",
+      "cross_references": []
+    },
+    {
+      "id": "1026-005",
+      "title": "Expansion of the Chola Empire in South India; maritime dominance",
+      "region": "South India (Chola Empire)",
+      "coordinates_approx": "11.1271, 79.8711",
+      "category": "political",
+      "description": "The Chola Empire under Rajendra Chola I (r. 1014\u20131044) was at the height of its power in 1026. Rajendra had recently completed his military campaigns in northern India and was consolidating control over maritime trade routes in the Indian Ocean. The Cholas were the dominant naval power in the region, controlling trade with Southeast Asia, China, and the Arab world. In 1026, the empire was experiencing economic prosperity driven by agricultural surplus, temple patronage, and maritime commerce. The Cholas were also major patrons of Tamil literature and temple architecture, contributing significantly to the cultural development of South India.",
+      "key_figures": [
+        "Rajendra Chola I (Chola Emperor, r. 1014\u20131044)"
+      ],
+      "sources": [
+        {
+          "name": "Chola inscriptions and temple records (epigraphic evidence)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Tamil literary texts (Silappatikaram, Manimekalai, and later Chola-era poetry)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Arab and Chinese merchant accounts (indirect evidence of Chola maritime power)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Chola chronology is well-established through epigraphic evidence (temple inscriptions and copper plates). Rajendra Chola I's reign dates are certain.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The significance of the Church of the Holy Sepulchre reconsecration in 1026 is sometimes overstated in Western historiography as a precursor to the Crusades. However, modern scholarship emphasizes that Christian-Muslim coexistence in the Levant remained relatively stable for another 70 years; the Crusades were triggered by specific geopolitical shifts (Seljuk expansion, Byzantine military decline) rather than religious tensions alone. The exact date of the reconsecration (1026 vs. 1027) is disputed in sources, and some scholars argue the reconstruction process was more gradual than a single consecration event suggests.",
+  "historiographic_note": "Documentation for 1026 is moderate overall. European sources are relatively abundant (monastic chronicles, papal records), but they are heavily Western-centric and often focus on religious and political elites. Islamic sources (particularly Fatimid and later compilations) are rich but often compiled centuries after events. Chinese sources are excellent and contemporary. South Asian sources are strong (epigraphic evidence) but less accessible to Western scholarship. Sub-Saharan Africa, Mesoamerica, and Southeast Asia are significantly underrepresented. The surviving record reflects the biases of literate, institutionalized societies (courts, monasteries, temples) and likely omits the experiences of peasants, merchants, and non-elite populations.",
+  "graph_edges": [
+    {
+      "from": "1026-001",
+      "to": "1094-FATIMID_SUCCESSION",
+      "relation": "led_to",
+      "note": "Al-Mustansir II's long reign (1026\u20131094) shaped Fatimid politics for 68 years"
+    },
+    {
+      "from": "1026-002",
+      "to": "1096-FIRST_CRUSADE",
+      "relation": "part_of",
+      "note": "Reconsecration of Holy Sepulchre contributed to Christian interest in Jerusalem, though not a direct cause of the Crusades"
+    },
+    {
+      "from": "1026-003",
+      "to": "1066-NORMAN_CONQUEST",
+      "relation": "contemporary_with",
+      "note": "Anund Jacob's reign overlaps with the Norman Conquest of England; both represent Scandinavian/Norman integration into Western European feudalism"
+    },
+    {
+      "from": "1026-004",
+      "to": "1127-JIN_DYNASTY_RISE",
+      "relation": "led_to",
+      "note": "Song Dynasty's military vulnerabilities in the north would eventually lead to Jin Dynasty conquest of northern China"
+    },
+    {
+      "from": "1026-005",
+      "to": "1044-RAJENDRA_CHOLA_DEATH",
+      "relation": "part_of",
+      "note": "1026 falls within Rajendra Chola I's reign; his death in 1044 marked the beginning of Chola decline"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "year": 1275,
+  "year_label": "1275 CE",
+  "era_context": "The late 13th century saw the fragmentation of Mongol unity and the rise of regional powers. The Yuan Dynasty under Kublai Khan was consolidating control over China; the Mamluk Sultanate dominated the Eastern Mediterranean; the Iberian Reconquista was in its final phases; and Italian city-states competed for Mediterranean trade dominance. This was an era of technological diffusion, religious conflict, and the emergence of early modern state structures.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Southeast Asian interior kingdoms (sparse contemporary documentation)",
+    "Pacific Islander societies (no written records)",
+    "Northern Europe beyond England and Scandinavia (limited records)"
+  ],
+  "events": [
+    {
+      "id": "1275-001",
+      "title": "Mongol conquest of Southern Song Dynasty continues; Bayan's campaigns advance southward",
+      "region": "China, Mongol Empire",
+      "coordinates_approx": "30.0, 115.0",
+      "category": "military",
+      "description": "The Mongol general Bayan of the Baarin continued his systematic conquest of the Southern Song Dynasty, advancing southward along the Yangtze River. By 1275, the Mongols had captured major Song strongholds and were consolidating control over central China. This campaign would culminate in the complete fall of the Song Dynasty in 1279, but 1275 represents a critical turning point in the conquest.",
+      "key_figures": [
+        "Bayan of the Baarin (Mongol general)",
+        "Kublai Khan (Mongol Emperor)",
+        "Song Emperor Duzong (Southern Song, r. 1264\u20131274, deceased by 1275)"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shi (History of the Yuan Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Song Dynasty records and later compilations",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general timeline of the Mongol conquest is well-established; specific events in 1275 are less precisely dated in surviving sources.",
+      "cross_references": [
+        "1276-001 (Yuan Dynasty consolidation)",
+        "1279-001 (Fall of Southern Song)"
+      ]
+    },
+    {
+      "id": "1275-002",
+      "title": "Edward I of England initiates legal and administrative reforms",
+      "region": "England",
+      "coordinates_approx": "52.08, -1.95",
+      "category": "legal",
+      "description": "Edward I, having secured his throne in 1272, began a series of legal and administrative reforms that would reshape English governance. These included the Statute of Westminster (1275), which codified common law procedures and established new legal frameworks. These reforms were part of Edward's broader project to centralize royal authority and establish England as a well-governed kingdom with a sophisticated legal system.",
+      "key_figures": [
+        "Edward I of England (King, r. 1272\u20131307)",
+        "Robert Burnell (Chancellor of England)"
+      ],
+      "sources": [
+        {
+          "name": "Statute of Westminster (1275), English royal archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chronicles of Edward I's reign (monastic sources)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Statute of Westminster is precisely dated to 1275 in English legal records.",
+      "cross_references": [
+        "1272-001 (Edward I becomes king)",
+        "1295-001 (Model Parliament)"
+      ]
+    },
+    {
+      "id": "1275-003",
+      "title": "Venetian-Genoese rivalry intensifies in Eastern Mediterranean trade",
+      "region": "Mediterranean, Venice, Genoa",
+      "coordinates_approx": "45.43, 12.33",
+      "category": "economic",
+      "description": "Venice and Genoa, the two dominant Italian maritime republics, were engaged in intense competition for control of Mediterranean and Eastern trade routes. By 1275, this rivalry was escalating, with both cities establishing trading posts and naval bases throughout the Eastern Mediterranean and Black Sea. This competition would eventually lead to open warfare (the Venetian-Genoese Wars, 1294\u20131381), but in 1275 it was primarily economic and diplomatic.",
+      "key_figures": [
+        "Venetian merchant families (Dandolo, Morosini, etc.)",
+        "Genoese merchant families (Doria, Spinola, etc.)"
+      ],
+      "sources": [
+        {
+          "name": "Venetian and Genoese merchant records and chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Byzantine and Mamluk records of trade agreements",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Venetian-Genoese rivalry is well-documented; specific events in 1275 are less precisely dated.",
+      "cross_references": [
+        "1294-001 (Venetian-Genoese Wars begin)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of the Statute of Westminster (1275) as a revolutionary legal reform is debated by modern scholars. Some argue it was more of a codification of existing practices than a radical innovation. The dating of specific Mongol military campaigns in 1275 is also uncertain, as Yuan sources often provide only approximate dates for events during the conquest period.",
+  "historiographic_note": "Documentation for 1275 is moderate for East Asia, Western Europe, and the Mediterranean. Sources are heavily weighted toward political, military, and legal history; economic and social history is underrepresented. The surviving sources reflect the biases of their authors: English royal records emphasize Edward I's achievements; Venetian and Genoese sources emphasize their own cities' importance; Yuan sources emphasize Mongol legitimacy. Sub-Saharan Africa, Southeast Asia, and the Pacific are almost entirely absent from contemporary written records.",
+  "graph_edges": [
+    {
+      "from": "1275-001",
+      "to": "1279-001",
+      "relation": "led_to",
+      "note": "Bayan's 1275 campaigns directly led to the final conquest of Southern Song in 1279"
+    },
+    {
+      "from": "1275-002",
+      "to": "1295-001",
+      "relation": "led_to",
+      "note": "Edward I's legal reforms in 1275 contributed to the development of Parliament by 1295"
+    },
+    {
+      "from": "1275-003",
+      "to": "1294-001",
+      "relation": "led_to",
+      "note": "Venetian-Genoese rivalry in 1275 escalated into open warfare by 1294"
+    }
+  ]
+}

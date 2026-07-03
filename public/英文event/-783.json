@@ -1,0 +1,105 @@
+{
+  "year": -783,
+  "year_label": "783 BCE",
+  "era_context": "Continuation of the Neo-Assyrian Empire's mature phase, the early Eastern Zhou Dynasty in China, and the Greek Archaic period. This year falls within the reign of Shalmaneser IV of Assyria and represents a period of relative stability in the Near East before the more aggressive expansionism of Sargon II (r. 722\u2013705 BCE). Across Eurasia, iron-working technology was becoming dominant, and long-distance trade networks were expanding.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia and the Steppe",
+    "Mesoamerica",
+    "Most of the Indian subcontinent"
+  ],
+  "events": [
+    {
+      "id": "-783-001",
+      "title": "Continued reign of Shalmaneser IV of Assyria",
+      "region": "Neo-Assyrian Empire",
+      "coordinates_approx": "36.0,43.0",
+      "category": "political",
+      "description": "Shalmaneser IV's reign continued with the maintenance of Assyrian tributary networks and administrative consolidation. While less militarily active than his predecessors Ashur-dan III and Adad-nirari III, Shalmaneser IV's rule ensured the stability of the empire's territorial holdings and the collection of tribute from vassal states. His reign represents a period of administrative rather than expansionist focus, with emphasis on internal organization and the maintenance of the imperial bureaucracy.",
+      "key_figures": [
+        "Shalmaneser IV (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian King List",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Epigraphic records from Assyrian sites",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Shalmaneser IV's reign is well-documented in Assyrian records; specific events in 783 BCE are not individually attested.",
+      "cross_references": [
+        "-784-001"
+      ]
+    },
+    {
+      "id": "-783-002",
+      "title": "Spring and Autumn period: Interstate competition in China",
+      "region": "Eastern Zhou Dynasty, China",
+      "coordinates_approx": "34.0,110.0",
+      "category": "political",
+      "description": "The Eastern Zhou Dynasty continued its fragmented political structure, with major feudal states (Qi, Jin, Chu, Qin, Song) competing for regional hegemony. The concept of the 'Mandate of Heaven' and ritual propriety (li) were becoming increasingly important in legitimizing political authority. Interstate warfare was becoming more formalized, with codes of conduct emerging. The period saw the development of iron-working technology and the emergence of professional military classes, which would transform warfare in subsequent centuries.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bronze inscriptions from Eastern Zhou states",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad political context is well-established; specific events in 783 BCE are not individually documented.",
+      "cross_references": [
+        "-784-002"
+      ]
+    },
+    {
+      "id": "-783-003",
+      "title": "Greek Archaic period: Geometric pottery and early colonization",
+      "region": "Greece and Mediterranean",
+      "coordinates_approx": "38.0,23.0",
+      "category": "cultural",
+      "description": "The Greek Archaic period continued with the refinement of geometric pottery styles and the early phases of Greek colonization in the Mediterranean and Black Sea regions. The adoption of the Phoenician alphabet was progressing, though not yet complete. The composition of early Greek epic poetry (Homeric epics) was likely ongoing during this period. The polis system was becoming the dominant political organization, with the development of citizen assemblies and the gradual emergence of hoplite warfare tactics.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Greek sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Later Greek historians on the Archaic period",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad cultural context is well-established through archaeology; specific events in 783 BCE are not individually documented.",
+      "cross_references": [
+        "-784-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for events listed. Minor chronological variations exist in the dating of Shalmaneser IV's reign across different scholarly sources, but these are within \u00b11 year and do not significantly affect the historical narrative.",
+  "historiographic_note": "The historical record for 783 BCE is similar to 784 BCE: well-documented for the Near East and China through administrative and epigraphic sources, but sparse for most other regions. The absence of documentation for most of the world reflects both the limited extent of literate civilizations in this period and the biases of modern scholarship. Assyrian records are official court documents and may not reflect the full complexity of political and social life. Chinese sources are primarily later compilations, though epigraphic evidence provides some contemporary verification.",
+  "graph_edges": [
+    {
+      "from": "-783-001",
+      "to": "-784-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of Shalmaneser IV's reign"
+    }
+  ]
+}

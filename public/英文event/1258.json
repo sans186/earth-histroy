@@ -1,0 +1,202 @@
+{
+  "year": 1258,
+  "year_label": "1258 CE",
+  "era_context": "Mid-13th century: the Mongol Empire under M\u00f6ngke Khan is at its height, conducting military campaigns across Asia and the Middle East. The Abbasid Caliphate in Baghdad is in terminal decline. The Mamluk Sultanate is consolidating power in Egypt. The Byzantine Empire is preparing to recapture Constantinople from the Latin Empire. Western Europe is dominated by feudal monarchies; the Crusader states in the Levant are in decline.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written records)",
+    "Southeast Asia (sparse European documentation; local sources may exist but are underrepresented)",
+    "Northern and Eastern Europe (limited sources in Western archives)",
+    "Oceania (no written records)"
+  ],
+  "events": [
+    {
+      "id": "1258-001",
+      "title": "Mongol sack of Baghdad and fall of the Abbasid Caliphate",
+      "region": "Baghdad, Iraq, Abbasid Caliphate",
+      "coordinates_approx": "33.3128, 44.3615",
+      "category": "military",
+      "description": "In February 1258, Mongol forces under Hulagu Khan, grandson of Genghis Khan, sacked Baghdad, the capital of the Abbasid Caliphate. The city was besieged for several weeks and fell after fierce resistance. The sack of Baghdad resulted in massive destruction and loss of life (estimates vary from tens of thousands to over a million, though modern scholarship suggests lower figures). The Abbasid Caliph al-Musta'sim was executed, ending the Abbasid Caliphate's political authority, though the title would be claimed by successors in Cairo. The fall of Baghdad marked the end of the medieval Islamic golden age and had profound consequences for Islamic civilization, particularly the destruction of libraries and centers of learning. However, modern scholarship has nuanced the narrative of total destruction, noting that Baghdad recovered relatively quickly and that the Mongol conquest did not immediately destroy Islamic culture.",
+      "key_figures": [
+        "Hulagu Khan (Mongol commander)",
+        "al-Musta'sim (Abbasid Caliph, executed)",
+        "M\u00f6ngke Khan (Hulagu's brother, Great Khan)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh (13th-century Arabic chronicle, continued by later authors)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Jami' al-tawarikh by Rashid al-Din (early 14th century, Persian history of the Mongols)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Islamic and Mongol studies (Jackson, Reuven Amitai, Maalouf)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The sack of Baghdad in February 1258 is well-attested in multiple sources, though the exact date within February and the scale of destruction are debated. Modern scholarship has revised earlier estimates of casualties and destruction.",
+      "cross_references": [
+        "1260-001 (Battle of Ain Jalut, Mamluk response to Mongol threat)",
+        "1261-004 (Baibars' consolidation of Mamluk power following Ain Jalut)"
+      ]
+    },
+    {
+      "id": "1258-002",
+      "title": "Mongol conquest of Persia and establishment of the Ilkhanate",
+      "region": "Persia (modern Iran), Mongol Empire",
+      "coordinates_approx": "32.4279, 53.6880",
+      "category": "military",
+      "description": "In 1258, following the sack of Baghdad, Hulagu Khan consolidated Mongol control over Persia and established the Ilkhanate, a Mongol khanate that would rule Persia, Iraq, and parts of Anatolia for over a century. The Ilkhanate was nominally subordinate to the Great Khan in Mongolia but functioned as an independent state. The conquest of Persia involved the destruction of the Assassins (Nizari Ismailis) and the subjugation of Persian kingdoms. The establishment of the Ilkhanate marked a major shift in the political geography of the Middle East and had lasting consequences for Persian culture and society.",
+      "key_figures": [
+        "Hulagu Khan (founder of the Ilkhanate)",
+        "M\u00f6ngke Khan (Great Khan, Hulagu's brother)"
+      ],
+      "sources": [
+        {
+          "name": "Jami' al-tawarikh by Rashid al-Din (early 14th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Mongol and Islamic studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The establishment of the Ilkhanate in 1258 is attested in sources, but the exact date and the process of consolidation are less precisely documented than the sack of Baghdad. The Ilkhanate's formal establishment may have occurred over several years rather than in a single year.",
+      "cross_references": [
+        "1258-001 (Sack of Baghdad)",
+        "1295-001 (Ghazan Khan's conversion to Islam and reforms in the Ilkhanate)"
+      ]
+    },
+    {
+      "id": "1258-003",
+      "title": "Kublai Khan's campaign in southern China against the Song Dynasty",
+      "region": "China, Song Dynasty territories",
+      "coordinates_approx": "30.5728, 114.3055",
+      "category": "military",
+      "description": "In 1258, Kublai Khan, under the direction of his brother M\u00f6ngke Khan, continued the Mongol campaign against the Southern Song Dynasty in China. The Mongols were systematically conquering Song territories and moving toward the final conquest of China, which would be completed in 1279. The campaign in 1258 involved sieges of major cities and the gradual encirclement of Song-controlled territory. This campaign was part of M\u00f6ngke Khan's broader strategy to consolidate Mongol control over all of China.",
+      "key_figures": [
+        "Kublai Khan (Mongol commander)",
+        "M\u00f6ngke Khan (Great Khan, directing the campaign)",
+        "Song emperors (Song Dynasty rulers)"
+      ],
+      "sources": [
+        {
+          "name": "Yuanshi (Official History of the Yuan Dynasty, compiled 14th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Song Shi (Official History of the Song Dynasty, compiled 14th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Chinese and Mongol studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Mongol campaign against the Song Dynasty in 1258 is attested in Chinese and Mongol sources, but specific events within 1258 are less precisely dated than the overall conquest process.",
+      "cross_references": [
+        "1279-001 (Final Mongol conquest of China and establishment of Yuan Dynasty)"
+      ]
+    },
+    {
+      "id": "1258-004",
+      "title": "Mamluk Sultanate consolidates control of Egypt following internal conflicts",
+      "region": "Egypt, Mamluk Sultanate",
+      "coordinates_approx": "30.0444, 31.2357",
+      "category": "political",
+      "description": "In 1258, the Mamluk Sultanate under Sultan Qutuz was consolidating control of Egypt following internal conflicts and the threat of Mongol invasion. The Mamluks had recently seized power from the Ayyubid Dynasty and were establishing their authority. The threat of Mongol invasion (which would materialize in 1260 at the Battle of Ain Jalut) was a major factor in Mamluk consolidation. By 1258, the Mamluks had established themselves as the dominant military power in Egypt and were preparing to expand into the Levant.",
+      "key_figures": [
+        "Qutuz (Mamluk Sultan)",
+        "Baibars al-Bunduqdari (Mamluk general, future Sultan)"
+      ],
+      "sources": [
+        {
+          "name": "Mamluk administrative records and chronicles",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Ibn al-Athir and later Mamluk historians",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation of Mamluk power in 1258 is attested in sources, but specific events within 1258 are less precisely documented than the Battle of Ain Jalut (1260).",
+      "cross_references": [
+        "1260-001 (Battle of Ain Jalut)",
+        "1260-003 (Assassination of Qutuz and rise of Baibars)"
+      ]
+    },
+    {
+      "id": "1258-005",
+      "title": "Papal election of Alexander IV",
+      "region": "Papal States, Italy",
+      "coordinates_approx": "41.9028, 12.4534",
+      "category": "religious",
+      "description": "Alexander IV (born Rinaldo di Jenne) was elected Pope in 1254 and continued his papacy in 1258. His papacy was marked by conflict with the Hohenstaufen dynasty and efforts to strengthen papal authority in Italy. In 1258, Alexander IV was dealing with the aftermath of the death of Conrad IV of the Hohenstaufen dynasty (1254) and the resulting power vacuum in Italy. The Papacy was attempting to assert control over the Papal States and to prevent the rise of a strong secular power in Italy.",
+      "key_figures": [
+        "Alexander IV (Pope)",
+        "Hohenstaufen dynasty (papal rivals)"
+      ],
+      "sources": [
+        {
+          "name": "Liber Pontificalis (papal chronicle)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Annales Ecclesiastici by Baronius",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Alexander IV's papacy is well-documented in papal records. He was elected in 1254 and died in 1260.",
+      "cross_references": [
+        "1260-005 (Death of Alexander IV and papal interregnum)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The sack of Baghdad is often portrayed in popular history as a catastrophic event that destroyed Islamic civilization and ended the Islamic golden age. However, modern scholarship, particularly by scholars like Peter Jackson and Reuven Amitai, has significantly nuanced this narrative. While the sack was certainly destructive and resulted in significant loss of life and cultural artifacts, Baghdad recovered relatively quickly and remained an important city. The destruction of libraries, while real, was not as total as later accounts suggested. Additionally, the Mongol conquest did not immediately destroy Islamic culture\u2014Islamic scholarship and culture continued to flourish in other centers (Cairo, Damascus, Cordoba) and even within the Ilkhanate itself. The narrative of total civilizational collapse is an exaggeration that reflects later Islamic historiography's desire to emphasize the catastrophe of the Mongol conquest.",
+  "historiographic_note": "Documentation for 1258 is good for the Mongol conquests (Baghdad, Persia) and the Mamluk Sultanate, but relies heavily on later compilations rather than contemporary records. Islamic sources on the sack of Baghdad are abundant but often written decades or centuries after the event and may reflect later anti-Mongol narratives. Chinese sources on the Mongol campaign against the Song Dynasty are official histories compiled after the fact. The record is heavily weighted toward political and military events; the experiences of ordinary people during the Mongol invasions and the destruction of Baghdad are largely absent from surviving sources. The social and economic consequences of the sack of Baghdad are poorly documented.",
+  "graph_edges": [
+    {
+      "from": "1258-001",
+      "to": "1260-001",
+      "relation": "led_to",
+      "note": "The sack of Baghdad in 1258 established the Mongol threat that led to the Battle of Ain Jalut in 1260"
+    },
+    {
+      "from": "1258-002",
+      "to": "1295-001",
+      "relation": "led_to",
+      "note": "The establishment of the Ilkhanate in 1258 led to the later reforms of Ghazan Khan in 1295"
+    },
+    {
+      "from": "1258-003",
+      "to": "1279-001",
+      "relation": "led_to",
+      "note": "The Mongol campaign against the Song Dynasty in 1258 was part of the process that led to the final conquest of China in 1279"
+    },
+    {
+      "from": "1258-004",
+      "to": "1260-001",
+      "relation": "led_to",
+      "note": "The consolidation of Mamluk power in 1258 enabled the Mamluk victory at Ain Jalut in 1260"
+    }
+  ]
+}

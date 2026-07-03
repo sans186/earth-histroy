@@ -1,0 +1,84 @@
+{
+  "year": -791,
+  "year_label": "791 BCE",
+  "era_context": "The Neo-Assyrian Empire under Sargon II is at its territorial zenith. In Greece, the Archaic period is well established, with the polis system consolidating and hoplite warfare becoming dominant. In China, the Spring and Autumn period is underway, with regional states competing for power. Iron technology is now standard across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe (no written records)",
+    "Interior of the Americas (no written records)",
+    "Central Asia and the Steppe (limited written sources)"
+  ],
+  "events": [
+    {
+      "id": "-791-001",
+      "title": "Sargon II's consolidation of Assyrian provincial administration",
+      "region": "Mesopotamia, Levant, Anatolia",
+      "coordinates_approx": "35.5, 36.0",
+      "category": "political",
+      "description": "Sargon II implements administrative reforms to consolidate control over the vast Assyrian empire. The empire is divided into provinces with appointed governors, and a system of roads and communication networks is established to facilitate control and taxation. The deportation of conquered populations continues as a tool of imperial policy, designed to prevent rebellion and redistribute labour. These administrative innovations make the Assyrian empire one of the most sophisticated bureaucratic systems of the ancient world.",
+      "key_figures": [
+        "Sargon II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon II's Annals (cuneiform inscriptions from Dur-Sharrukin)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Dur-Sharrukin palace and provincial sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sargon II's administrative reforms are well-documented in his inscriptions, but specific reforms in 791 BCE are not individually dated. This entry reflects the general administrative activity of his reign during this period.",
+      "cross_references": [
+        "-794-001",
+        "-793-001",
+        "-792-001"
+      ]
+    },
+    {
+      "id": "-791-002",
+      "title": "Greek alphabet adoption and literacy expansion",
+      "region": "Greece",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "cultural",
+      "description": "The Greek alphabet, adapted from the Phoenician script, is now in widespread use across Greek city-states. This development has profound cultural and political consequences, enabling the recording of laws, contracts, and literary works. The spread of literacy, though still limited to elites, facilitates the development of political institutions and the recording of history. This period sees the emergence of early Greek poetry and the beginning of written law codes.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from inscriptions on pottery and stone",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus based on material evidence",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The adoption of the Greek alphabet is confirmed by archaeological evidence (inscriptions on pottery and stone). The process occurred gradually over the 8th\u20137th centuries BCE, with 791 BCE representing a point within this transition.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact timeline of Greek alphabet adoption is debated; some scholars argue it occurred earlier (9th century BCE) or later (7th century BCE) than traditionally dated. The relationship between literacy and political development is also contested; some argue that literacy was a consequence rather than a cause of political change. Sargon II's specific administrative reforms in 791 BCE are not individually documented.",
+  "historiographic_note": "The historical record for 791 BCE is dominated by Mesopotamian sources (Assyrian inscriptions) and Greek archaeological evidence (inscriptions, pottery). Both are subject to bias: Assyrian inscriptions are propaganda, and Greek inscriptions are fragmentary. Chinese sources exist but are schematic. The apparent richness of documentation is an artefact of which civilisations left written records and which have been extensively excavated.",
+  "graph_edges": [
+    {
+      "from": "-791-001",
+      "to": "-794-001",
+      "relation": "part_of",
+      "note": "Administrative consolidation is part of Sargon II's broader imperial strategy"
+    },
+    {
+      "from": "-791-002",
+      "to": "-500-001",
+      "relation": "led_to",
+      "note": "Greek literacy enables the development of democratic institutions and the recording of history in the Classical period"
+    }
+  ]
+}

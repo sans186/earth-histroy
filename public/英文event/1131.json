@@ -1,0 +1,123 @@
+{
+  "year": 1131,
+  "year_label": "1131 CE",
+  "era_context": "The 12th century is marked by the Crusader States in the Levant (established after the First Crusade, 1096\u20131099), the height of the Seljuk Empire in Anatolia and the Near East, the Song Dynasty in China experiencing economic and technological flourishing, and the Norman kingdoms in Sicily and southern Italy consolidating power. In Europe, the Investiture Controversy has recently been resolved (Concordat of Worms, 1122), and feudal monarchies are strengthening. This is an era of significant religious reform, military expansion, and cultural exchange along trade routes.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; oral traditions not systematically recorded in surviving sources)",
+    "Northern Europe beyond Scandinavia and the Baltic (sparse monastic chronicles)",
+    "Central Asia and the Steppe (limited non-Islamic sources; Islamic chronicles focus on settled regions)"
+  ],
+  "events": [
+    {
+      "id": "1131-001",
+      "title": "Death of King Henry V of the Holy Roman Empire",
+      "region": "Holy Roman Empire, Central Europe",
+      "coordinates_approx": "50.7, 10.0",
+      "category": "political",
+      "description": "Henry V, the last Salian emperor, died on 23 May 1131 at Utrecht. His death ended the Salian dynasty's rule and triggered a succession crisis. The throne passed to Lothair II, Duke of Saxony, marking a shift in imperial power dynamics. Henry V had been a controversial figure, involved in the Investiture Controversy and conflicts with the papacy. His death left the empire weakened and set the stage for the rise of the Staufen dynasty.",
+      "key_figures": [
+        "Henry V (Holy Roman Emperor)",
+        "Lothair II (successor, Duke of Saxony)"
+      ],
+      "sources": [
+        {
+          "name": "Annales Magdeburgenses (Magdeburg Annals)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ekkehard of Aura, Chronicon",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Death date is well-attested in multiple contemporary and near-contemporary chronicles. The succession and its political consequences are documented in imperial records.",
+      "cross_references": [
+        "1122-001 (Concordat of Worms, which Henry V negotiated)",
+        "1133-001 (Lothair II's coronation)"
+      ]
+    },
+    {
+      "id": "1131-002",
+      "title": "Anund Jacob of Sweden dies; succession of Magnus I",
+      "region": "Sweden",
+      "coordinates_approx": "60.0, 18.0",
+      "category": "political",
+      "description": "King Anund Jacob of Sweden died in 1131 after a reign marked by efforts to strengthen royal authority and promote Christianity. He was succeeded by his son Magnus I (Magnus the Strong). The transition consolidated the Stenkil dynasty's hold on the Swedish throne. This period saw continued Christianization of Sweden and the establishment of stronger ties with the rest of Christendom.",
+      "key_figures": [
+        "Anund Jacob (King of Sweden)",
+        "Magnus I (successor)"
+      ],
+      "sources": [
+        {
+          "name": "Snorri Sturluson, Heimskringla (compiled 13th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Swedish royal genealogies and later chronicles",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The succession is attested in later Scandinavian sources, but contemporary documentation is sparse. Dating is reliable within \u00b11 year.",
+      "cross_references": []
+    },
+    {
+      "id": "1131-003",
+      "title": "Continued Crusader consolidation in the Levant; Zengi's rise in Mesopotamia",
+      "region": "Levant, Mesopotamia, Near East",
+      "coordinates_approx": "35.0, 38.0",
+      "category": "military",
+      "description": "In 1131, the Crusader States (Kingdom of Jerusalem, County of Antioch, County of Edessa, County of Tripoli) were consolidating their territorial holdings following the First Crusade. Simultaneously, Zengi (Imad ad-Din Zengi), the Turkish atabeg of Mosul, was expanding his power in Mesopotamia and northern Syria, laying the groundwork for the later Zengid dynasty. This period represents a critical phase of military and political competition between Crusader and Islamic powers, with neither side achieving decisive dominance.",
+      "key_figures": [
+        "Baldwin II (King of Jerusalem)",
+        "Zengi (Atabeg of Mosul)",
+        "Roger of Antioch (Prince of Antioch)"
+      ],
+      "sources": [
+        {
+          "name": "William of Tyre, Historia Belli Sacri (compiled late 12th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History (compiled 13th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general political and military situation is well-attested, though specific events within 1131 are not always precisely dated in surviving sources.",
+      "cross_references": [
+        "1127-001 (Zengi's earlier consolidation)",
+        "1144-001 (Fall of Edessa to Zengi)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of 1131 as a turning point in European history is sometimes overstated. While Henry V's death was politically important, the transition to Lothair II was not immediately destabilizing\u2014the empire continued to function. Similarly, the Crusader-Islamic balance in the Levant was more fluid and contested than traditional narratives suggest; neither side held clear strategic advantage in 1131.",
+  "historiographic_note": "Documentation for 1131 is uneven. Western European events (Henry V's death) are well-attested in monastic chronicles. Scandinavian succession is known but relies heavily on later compilations like Heimskringla, which were written 150+ years after the events and may conflate or misdate details. Islamic sources for the Near East are similarly later compilations. Sub-Saharan Africa, the Americas, and much of Asia have no surviving written records for this specific year. The surviving sources are heavily weighted toward Christian Europe and the Islamic Near East.",
+  "graph_edges": [
+    {
+      "from": "1131-001",
+      "to": "1122-001",
+      "relation": "caused_by",
+      "note": "Henry V's death was a consequence of the political instability created by the Investiture Controversy and the Concordat of Worms"
+    },
+    {
+      "from": "1131-001",
+      "to": "1133-001",
+      "relation": "led_to",
+      "note": "Henry V's death directly led to Lothair II's succession and coronation"
+    },
+    {
+      "from": "1131-003",
+      "to": "1144-001",
+      "relation": "led_to",
+      "note": "Zengi's consolidation of power in 1131 and earlier years culminated in the fall of Edessa in 1144"
+    }
+  ]
+}

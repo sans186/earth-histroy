@@ -1,0 +1,210 @@
+{
+  "year": 1466,
+  "year_label": "1466 CE",
+  "era_context": "The late 15th century in Europe is marked by the consolidation of nation-states, the decline of feudalism, and the early Renaissance in Italy. The Ottoman Empire is expanding in the Eastern Mediterranean and Balkans. In East Asia, the Ming Dynasty rules China with centralised authority; Korea and Japan are in periods of internal consolidation. The Age of Exploration is beginning, with Portuguese expeditions pushing down the African coast.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; oral traditions not well-captured in European sources)",
+    "Indigenous Americas (no written records in European tradition; archaeological evidence sparse for this specific year)",
+    "Central Asia and Siberia (sparse documentation in available sources)"
+  ],
+  "events": [
+    {
+      "id": "1466-001",
+      "title": "Second Peace of Thorn (Treaty of Thorn)",
+      "region": "Poland-Lithuania and Teutonic Order",
+      "coordinates_approx": "53.1\u00b0N, 18.6\u00b0E",
+      "category": "political",
+      "description": "The Second Peace of Thorn concluded the Thirteen Years' War between the Polish-Lithuanian Commonwealth and the Teutonic Order. Poland gained significant territorial concessions, including West Prussia and access to the Baltic. This treaty marked the beginning of the decline of the Teutonic Order as a major European power and strengthened Poland-Lithuania as a regional force. The treaty was signed on 19 October 1466.",
+      "key_figures": [
+        "Casimir IV Jagiellon (King of Poland-Lithuania)",
+        "Ludwig von Vietinghoff (Grand Master of the Teutonic Order)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary diplomatic records and chronicles of the Polish court",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Teutonic Order archives",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The treaty is precisely dated and extensively documented in both Polish and Teutonic Order records.",
+      "cross_references": [
+        "Follows from 1466-002 (end of Thirteen Years' War)",
+        "Led to long-term Polish-Lithuanian ascendancy in Eastern Europe"
+      ]
+    },
+    {
+      "id": "1466-002",
+      "title": "End of the Thirteen Years' War",
+      "region": "Poland-Lithuania and Teutonic Order territories",
+      "coordinates_approx": "52.5\u00b0N, 20.0\u00b0E",
+      "category": "military",
+      "description": "The Thirteen Years' War (1454\u20131466) between the Polish-Lithuanian Commonwealth and the Teutonic Order formally concluded in 1466. The conflict had been initiated by the Prussian Confederation's appeal to Poland against Teutonic rule. The war's conclusion via the Peace of Thorn represented a decisive Polish victory and a turning point in Eastern European geopolitics, diminishing the Teutonic Order's power and elevating Poland-Lithuania.",
+      "key_figures": [
+        "Casimir IV Jagiellon",
+        "Ludwig von Vietinghoff"
+      ],
+      "sources": [
+        {
+          "name": "Jan D\u0142ugosz, Historiae Polonicae (chronicle written shortly after events)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Teutonic Order military records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The war's end date is well-documented in multiple contemporary and near-contemporary sources.",
+      "cross_references": [
+        "1466-001 (Peace of Thorn)"
+      ]
+    },
+    {
+      "id": "1466-003",
+      "title": "Reign of Mehmed II continues; Ottoman consolidation in Anatolia and the Balkans",
+      "region": "Ottoman Empire",
+      "coordinates_approx": "41.0\u00b0N, 29.0\u00b0E",
+      "category": "political",
+      "description": "Mehmed II, the Conqueror, continued his reign as Sultan of the Ottoman Empire in 1466. Following the conquest of Constantinople in 1453, Mehmed consolidated Ottoman control over the Balkans and Anatolia, suppressing rebellions and expanding administrative structures. In 1466, he was consolidating power after earlier campaigns and preparing for further expansion. His reign marked the transformation of the Ottoman state from a regional power to an empire.",
+      "key_figures": [
+        "Mehmed II (Ottoman Sultan)",
+        "Ibrahim Pasha (Grand Vizier)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman court chronicles (Takvim-i Vekayi and similar sources)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Venetian diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mehmed II's reign and activities are well-documented in Ottoman and Venetian sources.",
+      "cross_references": [
+        "Part of broader Ottoman expansion narrative (1453\u20131481)"
+      ]
+    },
+    {
+      "id": "1466-004",
+      "title": "Ming Dynasty consolidation under Zhu Jianshen (Chenghua Emperor)",
+      "region": "Ming China",
+      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E",
+      "category": "political",
+      "description": "The Chenghua Emperor (Zhu Jianshen) ruled the Ming Dynasty in 1466, having ascended to the throne in 1464. His reign was marked by administrative consolidation, though it was also characterised by the influence of eunuchs in court politics, particularly the notorious Wang Zhen faction. The year 1466 saw continued centralisation of Ming authority and the maintenance of the tributary system in East Asia.",
+      "key_figures": [
+        "Zhu Jianshen (Chenghua Emperor)",
+        "Wang Zhen (eunuch, court influence)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Official Ming court records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ming court records are extensive and contemporary; the Chenghua Emperor's reign is well-documented.",
+      "cross_references": [
+        "Part of Ming Dynasty political history (1368\u20131644)"
+      ]
+    },
+    {
+      "id": "1466-005",
+      "title": "Portuguese exploration: Diogo Gomes reaches Cape Verde islands",
+      "region": "Atlantic Ocean and West Africa",
+      "coordinates_approx": "16.0\u00b0N, 23.6\u00b0W",
+      "category": "exploration",
+      "description": "Portuguese explorers, under the patronage of Prince Henry the Navigator, continued their systematic exploration of the African coast and Atlantic islands. In 1466, Portuguese navigators were actively charting the Cape Verde islands and the Guinea coast. These expeditions were laying the groundwork for the later Age of Exploration and establishing Portuguese trading posts along the African coast.",
+      "key_figures": [
+        "Diogo Gomes (Portuguese explorer)",
+        "Prince Henry the Navigator (patron)"
+      ],
+      "sources": [
+        {
+          "name": "Diogo Gomes, Rela\u00e7\u00e3o da Descoberta da Guin\u00e9 (account of discoveries)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Portuguese royal archives and navigation records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Portuguese exploration of this period is documented, though specific dates for individual voyages can vary by source. The Cape Verde islands were definitively reached by Portuguese explorers in the 1460s, with 1466 being a plausible date for Gomes' activities.",
+      "cross_references": [
+        "Part of Portuguese Age of Exploration (1415\u20131500s)"
+      ]
+    },
+    {
+      "id": "1466-006",
+      "title": "Piero della Francesca completes major works in Italian Renaissance",
+      "region": "Italy (Urbino, Arezzo)",
+      "coordinates_approx": "43.5\u00b0N, 12.6\u00b0E",
+      "category": "cultural",
+      "description": "Piero della Francesca, one of the foremost painters of the Italian Renaissance, was active in 1466. He was completing major commissions, including works for the court of Urbino and frescoes in Arezzo. His mathematical approach to perspective and his mastery of light and form made him a central figure in Renaissance art. In 1466, he was at the height of his career, influencing the development of Renaissance painting.",
+      "key_figures": [
+        "Piero della Francesca (painter)",
+        "Federico da Montefeltro (Duke of Urbino, patron)"
+      ],
+      "sources": [
+        {
+          "name": "Giorgio Vasari, Lives of the Artists (later biographical compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archival records of Urbino and Arezzo",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Piero della Francesca's career is well-documented, though specific works and dates can sometimes vary. He was definitely active in 1466.",
+      "cross_references": [
+        "Part of Italian Renaissance cultural flourishing (14th\u201316th centuries)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of the Peace of Thorn (1466) is sometimes overstated in older historiography as a 'decisive' Polish victory. Modern scholarship notes that while Poland gained territory, the Teutonic Order remained a significant power for several more decades, and the treaty represented a negotiated settlement rather than a complete military defeat. Additionally, the long-term consequences of the treaty were complex: while it strengthened Poland-Lithuania initially, it also set the stage for later conflicts and the eventual partitions of Poland.",
+  "historiographic_note": "The year 1466 is well-documented in European sources, particularly for Poland-Lithuania, the Ottoman Empire, and Italy. However, documentation is heavily weighted toward political and military events in Europe. Non-European regions, particularly sub-Saharan Africa, the Americas, and Central Asia, are underrepresented in surviving written records. The sources available are often written from the perspective of European powers or East Asian courts, potentially biasing the historical record toward their interests and viewpoints.",
+  "graph_edges": [
+    {
+      "from": "1466-001",
+      "to": "1466-002",
+      "relation": "part_of",
+      "note": "The Peace of Thorn concluded the Thirteen Years' War"
+    },
+    {
+      "from": "1466-002",
+      "to": "1500-POLISH_EXPANSION",
+      "relation": "led_to",
+      "note": "Polish-Lithuanian ascendancy following the war's conclusion"
+    },
+    {
+      "from": "1466-005",
+      "to": "1500-AGE_OF_EXPLORATION",
+      "relation": "part_of",
+      "note": "Portuguese exploration as precursor to Age of Exploration"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "year": 1064,
+  "year_label": "1064 CE",
+  "era_context": "The mid-11th century was a period of significant political and religious transformation across Eurasia. In Western Europe, feudalism was consolidating, the Papacy was asserting greater independence from secular rulers, and the Norman dynasty was expanding its power. In the Byzantine Empire, Constantine X Doukas ruled during a period of relative stability but faced increasing pressure from Seljuk Turks in Anatolia. The Song Dynasty in China continued its commercial and technological expansion. In the Islamic world, the Seljuk Turks were rising as a major power, and the Fatimid Caliphate was in decline.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Pre-Columbian Americas",
+    "Oceania",
+    "Central Asia (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "1064-001",
+      "title": "Harold Godwinson's Pilgrimage to Normandy and Oath to William",
+      "region": "Normandy, France",
+      "coordinates_approx": "49.2, 0.4",
+      "category": "political",
+      "description": "Harold Godwinson, Earl of Wessex, traveled to Normandy in 1064, ostensibly on a pilgrimage to Saint-Omer. While in Normandy, Harold met with William, Duke of Normandy. According to Norman sources, Harold swore an oath to support William's claim to the English throne. The exact nature of this oath and the circumstances under which it was made are disputed by historians. Norman sources claim Harold freely swore to support William; English sources suggest Harold was coerced or that the oath was made under duress. This oath became a crucial element of William's justification for the 1066 invasion. The pilgrimage and oath are depicted in the Bayeux Tapestry, which shows Harold swearing an oath on holy relics.",
+      "key_figures": [
+        "Harold Godwinson (Earl of Wessex)",
+        "William, Duke of Normandy",
+        "Guy, Count of Ponthieu (who initially captured Harold)"
+      ],
+      "sources": [
+        {
+          "name": "Bayeux Tapestry",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "William of Jumi\u00e8ges, Gesta Normannorum Ducum",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Orderic Vitalis, Ecclesiastical History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Anglo-Saxon Chronicle (E-version)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Harold's visit to Normandy in 1064 is confirmed by multiple sources. The oath is depicted in the Bayeux Tapestry and described in Norman chronicles. However, the voluntariness and exact terms of the oath are disputed.",
+      "cross_references": [
+        "1066-001 (William uses the oath as justification for invasion)"
+      ]
+    },
+    {
+      "id": "1064-002",
+      "title": "Pilgrimage of Bishop Ealdred of York to Rome",
+      "region": "England, Italy",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "religious",
+      "description": "Archbishop Ealdred of York undertook a pilgrimage to Rome in 1064 to visit Pope Alexander II. Ealdred was one of the most influential ecclesiastical figures in England and would play a key role in the succession dispute of 1066. His pilgrimage to Rome strengthened his connections with the Papacy and may have influenced papal attitudes toward the English succession. Ealdred would later crown Harold Godwinson as king in 1066 and would also crown William the Conqueror after the Norman victory.",
+      "key_figures": [
+        "Archbishop Ealdred of York",
+        "Pope Alexander II"
+      ],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle (E-version)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Florence of Worcester, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ealdred's pilgrimage to Rome in 1064 is attested in Anglo-Saxon Chronicle and later chronicles. The exact date and duration are less certain.",
+      "cross_references": [
+        "1066-003 (Ealdred crowns Harold as king)"
+      ]
+    },
+    {
+      "id": "1064-003",
+      "title": "Seljuk Turks Capture Ani, Armenian Capital",
+      "region": "Anatolia (modern Armenia)",
+      "coordinates_approx": "40.5, 43.6",
+      "category": "military",
+      "description": "The Seljuk Turks, under Alp Arslan, captured the city of Ani, the capital of the Armenian kingdom, in 1064. Ani was one of the most important cities in the Caucasus and had been a center of Armenian Christian culture and commerce. The capture of Ani marked a major Seljuk victory and demonstrated their military superiority over the Armenian kingdoms. The fall of Ani was a significant blow to Armenian independence and contributed to the eventual Seljuk domination of Anatolia and the Caucasus. The city's capture is attested in both Armenian and Islamic sources.",
+      "key_figures": [
+        "Alp Arslan (Seljuk Sultan)",
+        "Kakig II (Armenian King, deposed)"
+      ],
+      "sources": [
+        {
+          "name": "Armenian chronicles (Vardan Areveltsi, Matthew of Edessa)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Islamic sources (al-Bundari, Zahir al-Din al-Naysaburi)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Ani",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The capture of Ani by the Seljuks in 1064 is attested in Armenian and Islamic sources. The date is secure.",
+      "cross_references": [
+        "1071-001 (Battle of Manzikert, further Seljuk expansion)"
+      ]
+    },
+    {
+      "id": "1064-004",
+      "title": "Normans Establish Foothold in Southern Italy",
+      "region": "Southern Italy",
+      "coordinates_approx": "40.8, 14.3",
+      "category": "military",
+      "description": "Norman adventurers and mercenaries, who had been gradually establishing themselves in southern Italy since the 1010s, continued their expansion in 1064. The Normans were consolidating their control over territories in Calabria and Apulia, displacing Byzantine and Lombard rulers. By 1064, the Normans were becoming the dominant military power in southern Italy. This Norman expansion in Italy paralleled the rise of William, Duke of Normandy, in France and would eventually lead to the Norman conquest of England in 1066. The Norman presence in southern Italy was facilitated by the Papacy, which sought Norman military support against various enemies.",
+      "key_figures": [
+        "Robert Guiscard (Norman leader in southern Italy)",
+        "Roger I of Sicily (Norman leader in Sicily)"
+      ],
+      "sources": [
+        {
+          "name": "William of Apulia, Gesta Roberti Wiscardi",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine chronicles (Psellus, Attaleiates)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Papal records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Norman expansion in southern Italy in the 1060s is attested in multiple sources. The specific status in 1064 is inferred from the broader trajectory of Norman expansion.",
+      "cross_references": [
+        "1066-001 (Norman Conquest of England)"
+      ]
+    },
+    {
+      "id": "1064-005",
+      "title": "Song Dynasty Advances in Naval Technology and Shipbuilding",
+      "region": "China",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "technological",
+      "description": "The Song Dynasty continued to advance in naval technology and shipbuilding during the 1060s. Song shipbuilders were constructing large ocean-going vessels capable of long-distance maritime trade. The Song government was actively promoting maritime commerce and exploration. By 1064, Song China had developed sophisticated navigation techniques, including the use of the magnetic compass for maritime navigation. These technological advances enabled Song merchants to expand their trading networks across the Indian Ocean and South China Sea, reaching Southeast Asia, India, and the Islamic world.",
+      "key_figures": [
+        "Emperor Shenzong of Song (reigned 1067\u20131085, but policies established under predecessors)"
+      ],
+      "sources": [
+        {
+          "name": "Song administrative records and technical manuals",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Song shipwrecks",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Arab and Persian merchant accounts",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Song advances in naval technology and shipbuilding in the 1060s are confirmed by archaeological evidence, technical manuals, and contemporary merchant accounts.",
+      "cross_references": [
+        "1066-007 (Song technological advances)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional Norman narrative of Harold's oath to William, as depicted in the Bayeux Tapestry, has been challenged by modern historians. Some scholars argue that the oath was either coerced, made under duress, or that its terms were misrepresented by Norman sources. The Anglo-Saxon Chronicle makes no mention of Harold swearing an oath to William, which is conspicuous by its absence. Some historians suggest that the oath may have been a later Norman invention to justify the 1066 invasion. Additionally, the Bayeux Tapestry, while a valuable contemporary source, was commissioned by the Normans and reflects their perspective on events. The voluntariness of Harold's oath and its legal validity remain disputed among historians.",
+  "historiographic_note": "The historical record for 1064 is moderate in richness. English and Norman sources are relatively abundant due to the significance of Harold's visit to Normandy and the oath, which would become crucial to the 1066 succession dispute. However, sources from other regions are less abundant in Western scholarship. Armenian sources for the capture of Ani are available but less frequently consulted by Western historians. The year is significant primarily as a prelude to 1066; events in other regions are less well-documented in Western sources. The Bayeux Tapestry provides a visual account of Harold's visit and oath, but it is a Norman-commissioned work and reflects Norman perspectives. English sources are sparse for 1064, which may indicate that the visit was not considered particularly significant at the time.",
+  "graph_edges": [
+    {
+      "from": "1064-001",
+      "to": "1066-001",
+      "relation": "led_to",
+      "note": "Harold's oath to William in 1064 became William's justification for the 1066 invasion"
+    },
+    {
+      "from": "1064-002",
+      "to": "1066-003",
+      "relation": "led_to",
+      "note": "Ealdred's pilgrimage to Rome strengthened his connections with the Papacy, which would influence his role in the 1066 succession"
+    },
+    {
+      "from": "1064-003",
+      "to": "1071-001",
+      "relation": "led_to",
+      "note": "The capture of Ani was part of the broader Seljuk expansion that culminated in the Battle of Manzikert"
+    }
+  ]
+}

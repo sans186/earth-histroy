@@ -1,0 +1,125 @@
+{
+  "year": 911,
+  "year_label": "911 CE",
+  "era_context": "The early 10th century marks the fragmentation of the Abbasid Caliphate's central authority, the rise of regional Islamic dynasties, the consolidation of the early medieval European kingdoms, and the establishment of Viking settlements in Normandy. The Tang Dynasty has fallen in China (907 CE); the Five Dynasties and Ten Kingdoms period is underway. In Mesoamerica, the Classic Maya collapse is centuries past; the Toltec civilization is rising.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Southeast Asia (sparse contemporary documentation)",
+    "Oceania and Pacific islands (oral traditions not well preserved in written form)"
+  ],
+  "events": [
+    {
+      "id": "911-001",
+      "title": "Treaty of Saint-Clair-sur-Epte: Rollo and Charles III establish Normandy",
+      "region": "Frankia (modern Normandy, France)",
+      "coordinates_approx": "49.4, 0.9",
+      "category": "political",
+      "description": "Rollo, a Viking leader, negotiates with Charles III (the Simple) of West Francia to establish a permanent Viking settlement in the Seine valley. In exchange for ceasing raids and accepting Christian baptism, Rollo receives the territory that becomes Normandy. This treaty formalizes the integration of Norse settlers into Frankish feudal structures and marks a turning point in Viking settlement patterns\u2014from raiding to territorial consolidation. The agreement is attested in near-contemporary chronicles and represents a crucial moment in the formation of medieval France.",
+      "key_figures": [
+        "Rollo (Viking leader, first Duke of Normandy)",
+        "Charles III the Simple (King of West Francia)"
+      ],
+      "sources": [
+        {
+          "name": "Flodoard of Reims, Annals (written c. 920\u2013966, near-contemporary)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Dudo of Saint-Quentin, History of the Normans (written early 11th century, later compilation but based on earlier sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The treaty is attested in near-contemporary chronicles, though the exact date (911 vs. 912) is debated by modern scholars. Flodoard's account is closest to contemporary, written within 10\u201315 years of the event.",
+      "cross_references": [
+        "Relates to broader Viking settlement patterns in the 9th\u201310th centuries",
+        "Precedes the establishment of the Duchy of Normandy as a major feudal power"
+      ]
+    },
+    {
+      "id": "911-002",
+      "title": "Death of Louis the Child; end of the Carolingian line in East Francia",
+      "region": "East Francia (modern Germany)",
+      "coordinates_approx": "51.0, 10.0",
+      "category": "political",
+      "description": "Louis the Child, the last Carolingian king of East Francia, dies at approximately age 18. His death marks the end of direct Carolingian rule in the eastern kingdom and precipitates a succession crisis. The German nobility elects Conrad I as king, establishing the principle of elective monarchy in East Francia and beginning the transition toward the formation of the Holy Roman Empire. This event is a watershed in medieval German history.",
+      "key_figures": [
+        "Louis the Child (last Carolingian king of East Francia)",
+        "Conrad I (elected successor)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Fulda and related East Frankish chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Carolingian succession",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The death of Louis the Child in 911 is well-attested in multiple near-contemporary sources. The date is secure.",
+      "cross_references": [
+        "Leads to the election of Conrad I and the fragmentation of the Carolingian Empire",
+        "Part of the broader collapse of Carolingian centralized authority"
+      ]
+    },
+    {
+      "id": "911-003",
+      "title": "Fatimid Caliphate consolidates control in North Africa",
+      "region": "North Africa (Ifriqiya, modern Tunisia and surrounding regions)",
+      "coordinates_approx": "35.0, 10.0",
+      "category": "political",
+      "description": "The Fatimid Caliphate, founded in 909 CE, continues to consolidate its power in North Africa. By 911, the Fatimids have established firm control over Ifriqiya (modern Tunisia) and are beginning to expand their influence. This Shi'a Islamic dynasty represents a major challenge to Abbasid Sunni orthodoxy and will eventually become one of the most powerful Islamic states of the medieval Mediterranean. The consolidation in 911 marks the transition from the Fatimid movement's founding phase to its establishment as a major regional power.",
+      "key_figures": [
+        "Abd Allah al-Mahdi (Fatimid Caliph, founder)",
+        "Muhammad al-Qa'im (Fatimid Caliph, r. 934\u2013946, but consolidation underway in 911)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Mas'udi, Meadows of Gold (written mid-10th century, later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Fatimid expansion",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Fatimid consolidation in North Africa is attested in later Islamic historiography. The precise events of 911 are less clearly documented than the founding in 909 or later major expansions.",
+      "cross_references": [
+        "Follows from the Fatimid founding in 909",
+        "Precedes major Fatimid expansion into Egypt and the Levant in the 10th century"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The date of the Treaty of Saint-Clair-sur-Epte is disputed: some modern scholars argue for 912 CE rather than 911 CE, based on discrepancies in chronicle dating. The exact terms of the treaty are also uncertain\u2014later Norman sources (Dudo of Saint-Quentin) may have embellished or reinterpreted the agreement to enhance Norman legitimacy. The significance of Rollo's baptism as a genuine conversion versus a political gesture is debated by historians.",
+  "historiographic_note": "The historical record for 911 CE is uneven. Western European events (the Norman settlement, the death of Louis the Child) are well-attested in near-contemporary chronicles, though with some dating ambiguities. Islamic sources for the Fatimid consolidation are later compilations, introducing uncertainty about specific events in 911. Eastern European, Asian, and African sources are sparse or absent from Western historiographic tradition. The surviving record is heavily weighted toward Christian Europe and the Islamic Mediterranean, reflecting the geographic distribution of literate, record-keeping societies at this time.",
+  "graph_edges": [
+    {
+      "from": "911-001",
+      "to": "912-NORMANDY_EXPANSION",
+      "relation": "led_to",
+      "note": "The Treaty of Saint-Clair-sur-Epte established the foundation for Normandy's growth as a feudal power"
+    },
+    {
+      "from": "911-002",
+      "to": "912-CONRAD_I_ELECTION",
+      "relation": "led_to",
+      "note": "Louis the Child's death directly precipitated the election of Conrad I and the transformation of East Frankish succession"
+    },
+    {
+      "from": "911-003",
+      "to": "969-FATIMID_EGYPT",
+      "relation": "part_of",
+      "note": "The 911 consolidation is part of the broader Fatimid expansion that culminated in the conquest of Egypt"
+    }
+  ]
+}

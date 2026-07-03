@@ -1,0 +1,667 @@
+{
+  "year": 1971,
+  "year_label": "1971 CE",
+  "era_context": "The Cold War enters its third decade with d\u00e9tente beginning to reshape superpower relations. The Vietnam War continues despite growing anti-war sentiment in the West. Decolonisation accelerates in Africa and Asia. The Bretton Woods system collapses, reshaping global finance. China enters the UN, signalling geopolitical realignment.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1971-001",
+      "title": "Bangladesh Liberation War and Independence",
+      "region": "South Asia (East Pakistan / Bangladesh)",
+      "coordinates_approx": "23.6850, 90.3563",
+      "category": "military",
+      "description": "Following the 1970 election victory of the Awami League and West Pakistan's refusal to transfer power, East Pakistan declares independence on 26 March 1971. A nine-month civil war ensues, marked by systematic violence against Bengali intellectuals, Hindus, and civilians. India intervenes militarily in December, leading to Pakistani surrender on 16 December. Approximately 300,000\u20133 million people die (estimates vary widely). Bangladesh emerges as an independent nation, fundamentally reshaping South Asian geopolitics and establishing a precedent for humanitarian intervention.",
+      "key_figures": [
+        "Sheikh Mujibur Rahman (Awami League leader)",
+        "Yahya Khan (Pakistani military ruler)",
+        "Indira Gandhi (Indian Prime Minister)",
+        "Zulfikar Ali Bhutto (Pakistani politician)"
+      ],
+      "sources": [
+        {
+          "name": "Official records of the Government of Bangladesh and Pakistan",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archer K. Blood, US Consul General in Dhaka, declassified cables",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Susan Brownmiller, Against Our Will (1975); Bina D'Costa, Memoirs of Survivors (2011)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through contemporary diplomatic cables, military records, survivor testimony, and scholarly consensus. Death toll estimates remain contested between 300,000 and 3 million; 1 million is commonly cited.",
+      "cross_references": [
+        "1970-001 (East Pakistan election)",
+        "1972-001 (Bangladesh joins UN)"
+      ]
+    },
+    {
+      "id": "1971-002",
+      "title": "China Admitted to United Nations",
+      "region": "Global (UN headquarters, New York)",
+      "coordinates_approx": "40.7489, -73.9680",
+      "category": "political",
+      "description": "On 25 October 1971, the UN General Assembly votes to seat the People's Republic of China and expel the Republic of China (Taiwan). The vote (76\u201335 with 17 abstentions) marks a watershed in Cold War geopolitics, reflecting China's growing international legitimacy and the erosion of US-led consensus on China's status. The decision accelerates China's integration into international institutions and signals the beginning of Sino-American rapprochement, culminating in Nixon's 1972 visit.",
+      "key_figures": [
+        "Huang Hua (Chinese UN representative)",
+        "George H. W. Bush (US UN Ambassador)",
+        "Kurt Waldheim (UN Secretary-General)"
+      ],
+      "sources": [
+        {
+          "name": "UN General Assembly Official Records, 26th Session",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "US State Department declassified cables",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Exact vote count and date are documented in UN records.",
+      "cross_references": [
+        "1972-002 (Nixon visits China)"
+      ]
+    },
+    {
+      "id": "1971-003",
+      "title": "Collapse of Bretton Woods System",
+      "region": "Global (financial system)",
+      "coordinates_approx": null,
+      "category": "economic",
+      "description": "The fixed exchange rate system established at Bretton Woods in 1944 formally collapses when President Nixon announces the end of dollar-gold convertibility on 15 August 1971 (the 'Nixon Shock'). By December, the Smithsonian Agreement attempts to stabilise exchange rates with a new parity, but the system proves unsustainable. The shift to floating exchange rates reshapes global trade, capital flows, and monetary policy for decades. Inflation accelerates in many Western economies, and developing nations face currency instability.",
+      "key_figures": [
+        "Richard Nixon (US President)",
+        "John Connally (US Treasury Secretary)",
+        "Paul Volcker (Federal Reserve official)"
+      ],
+      "sources": [
+        {
+          "name": "Nixon's 15 August 1971 televised address",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Federal Reserve historical records and NBER working papers",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Benn Steil, The Battle of Bretton Woods (2013)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date and sequence of events are precisely documented in government records and contemporary media.",
+      "cross_references": [
+        "1944-001 (Bretton Woods Conference)"
+      ]
+    },
+    {
+      "id": "1971-004",
+      "title": "Indo-Pakistani War (Third Indo-Pakistani War)",
+      "region": "South Asia (India and Pakistan)",
+      "coordinates_approx": "28.7041, 77.1025",
+      "category": "military",
+      "description": "A brief but decisive 13-day war (3\u201316 December 1971) between India and Pakistan, fought primarily over the Bangladesh independence crisis. Indian forces, supporting Bengali independence fighters, defeat Pakistani forces in East Pakistan. The war results in the creation of Bangladesh as an independent nation, the surrender of 93,000 Pakistani troops, and a fundamental shift in South Asian power dynamics. India emerges as the dominant regional power.",
+      "key_figures": [
+        "Indira Gandhi (Indian Prime Minister)",
+        "Agha Muhammad Yahya Khan (Pakistani military ruler)",
+        "General Jacob (Indian military commander)",
+        "General Niazi (Pakistani commander in East Pakistan)"
+      ],
+      "sources": [
+        {
+          "name": "Official war records of Indian and Pakistani militaries",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Srinath Raghavan, 1971: A Global History of the Creation of Bangladesh (2013)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Dates, military outcomes, and casualty figures are well-documented.",
+      "cross_references": [
+        "1971-001 (Bangladesh Liberation War)"
+      ]
+    },
+    {
+      "id": "1971-005",
+      "title": "Apollo 15 Moon Landing",
+      "region": "Hadley-Apennine region, Moon",
+      "coordinates_approx": "26.1324, 3.6339",
+      "category": "exploration",
+      "description": "Apollo 15 (26 July \u2013 7 August 1971) lands on the Moon with astronauts David Scott and James Irwin. The mission marks the first use of the Lunar Roving Vehicle, enabling exploration of a wider area. Scott and Irwin conduct three EVAs (extravehicular activities) totalling 18.5 hours, collecting 77 kg of lunar samples. The mission demonstrates sustained lunar exploration capability and represents the peak of the Apollo program's scientific achievements.",
+      "key_figures": [
+        "David Scott (mission commander)",
+        "James Irwin (lunar module pilot)",
+        "Alfred Worden (command module pilot)"
+      ],
+      "sources": [
+        {
+          "name": "NASA mission records and telemetry",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Apollo 15 mission reports and geological analyses",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "All mission data, dates, and scientific results are extensively documented.",
+      "cross_references": [
+        "1969-001 (Apollo 11 moon landing)"
+      ]
+    },
+    {
+      "id": "1971-006",
+      "title": "Idi Amin Seizes Power in Uganda",
+      "region": "East Africa (Uganda)",
+      "coordinates_approx": "0.3476, 32.5825",
+      "category": "political",
+      "description": "On 25 January 1971, Major General Idi Amin overthrows President Milton Obote in a military coup while Obote is attending the Commonwealth Heads of Government Meeting in Singapore. Amin consolidates power through the military and secret police (State Research Bureau). His regime initiates systematic persecution of ethnic and political opponents, particularly the Acholi and Lango peoples. Over the next eight years, an estimated 100,000\u2013500,000 people are killed. The coup marks the beginning of one of Africa's most brutal dictatorships and destabilises the East African region.",
+      "key_figures": [
+        "Idi Amin (coup leader, future dictator)",
+        "Milton Obote (deposed president)"
+      ],
+      "sources": [
+        {
+          "name": "Uganda military records and government documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Survivor testimony and human rights documentation",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Mahmood Mamdani, When Victims Become Killers (2001)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The coup date and Amin's rise to power are well-documented. Death toll estimates vary widely (100,000\u2013500,000) due to limited documentation of killings.",
+      "cross_references": [
+        "1979-001 (Fall of Amin)"
+      ]
+    },
+    {
+      "id": "1971-007",
+      "title": "Decimal Currency Introduced in United Kingdom",
+      "region": "United Kingdom",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "economic",
+      "description": "On 15 February 1971 ('Decimal Day'), the United Kingdom officially adopts decimal currency, replacing the pounds, shillings, and pence system (\u00a3sd) that had been in use for centuries. The new system uses pounds and pence (100 pence = 1 pound). The transition requires massive public education and coordination across financial institutions. Though economically significant primarily for the UK, the shift reflects broader modernisation trends in Western economies and simplifies international trade.",
+      "key_figures": [
+        "Edward Heath (UK Prime Minister)",
+        "Anthony Barber (Chancellor of the Exchequer)"
+      ],
+      "sources": [
+        {
+          "name": "UK Government Decimal Currency Board records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Bank of England historical records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date and implementation details are precisely documented.",
+      "cross_references": []
+    },
+    {
+      "id": "1971-008",
+      "title": "Mariner 9 Reaches Mars",
+      "region": "Mars (orbital mission)",
+      "coordinates_approx": null,
+      "category": "exploration",
+      "description": "Mariner 9 becomes the first spacecraft to orbit Mars, arriving on 14 November 1971. The probe transmits detailed images of the Martian surface, revealing vast canyons (Valles Marineris), extinct volcanoes, and evidence of ancient water erosion. The mission fundamentally transforms understanding of Mars' geology and climate history, establishing that Mars once had liquid water and a thicker atmosphere. Mariner 9 operates for nearly a year, mapping 85% of the Martian surface.",
+      "key_figures": [
+        "NASA mission team (JPL)"
+      ],
+      "sources": [
+        {
+          "name": "NASA Mariner 9 mission records and image archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Geological Survey of the United States, Mariner 9 analyses",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mission data, arrival date, and scientific findings are extensively documented.",
+      "cross_references": [
+        "1965-001 (Mariner 4 first Mars flyby)"
+      ]
+    },
+    {
+      "id": "1971-009",
+      "title": "Attica Prison Uprising and Massacre",
+      "region": "North America (New York State, USA)",
+      "coordinates_approx": "43.0039, -78.2324",
+      "category": "political",
+      "description": "On 9 September 1971, inmates at Attica Correctional Facility in upstate New York seize control of the prison in protest against brutal conditions, overcrowding, and racial discrimination. For four days, 1,200 inmates hold 38 guards hostage and negotiate with authorities. On 13 September, state police and National Guard storm the prison, firing indiscriminately. The assault kills 29 inmates and 10 guards (the only guards killed during the uprising). The massacre becomes a watershed moment in American criminal justice discourse, exposing prison brutality and sparking decades of reform debates.",
+      "key_figures": [
+        "Nelson Rockefeller (New York Governor)",
+        "Russell Oswald (Corrections Commissioner)",
+        "Inmate leaders (names varied in sources)"
+      ],
+      "sources": [
+        {
+          "name": "New York State Special Commission on Attica (McKay Commission) Report (1972)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Survivor testimony and court records",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Heather Ann Thompson, Blood in the Water (2016)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Dates, death toll, and sequence of events are well-documented in official reports and scholarly analysis.",
+      "cross_references": []
+    },
+    {
+      "id": "1971-010",
+      "title": "Pentagon Papers Published",
+      "region": "North America (USA)",
+      "coordinates_approx": "40.7128, -74.0060",
+      "category": "political",
+      "description": "On 13 June 1971, The New York Times begins publishing excerpts from the Pentagon Papers, a classified Department of Defense study of US political and military involvement in Vietnam from 1945 to 1967. The 7,000-page study, leaked by analyst Daniel Ellsberg, reveals that successive US administrations had systematically misled the public about the Vietnam War. The publication triggers a constitutional crisis over press freedom and government secrecy. The Supreme Court rules in favour of the Times in New York Times Co. v. United States (30 June 1971), establishing a landmark precedent for press freedom.",
+      "key_figures": [
+        "Daniel Ellsberg (analyst and whistleblower)",
+        "Neil Sheehan (New York Times reporter)",
+        "Richard Nixon (US President)",
+        "Henry Kissinger (National Security Advisor)"
+      ],
+      "sources": [
+        {
+          "name": "The Pentagon Papers (declassified Department of Defense study)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "New York Times Co. v. United States, 403 U.S. 713 (1971)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Daniel Ellsberg, Secrets: A Memoir of Vietnam and the Pentagon Papers (2002)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Publication dates, court decision, and key figures are precisely documented.",
+      "cross_references": [
+        "1973-001 (Watergate scandal begins)"
+      ]
+    },
+    {
+      "id": "1971-011",
+      "title": "Bhutto Becomes President of Pakistan",
+      "region": "South Asia (Pakistan)",
+      "coordinates_approx": "33.6844, 73.0479",
+      "category": "political",
+      "description": "Following Pakistan's military defeat in the 1971 war and the loss of East Pakistan, General Agha Muhammad Yahya Khan transfers power to Zulfikar Ali Bhutto on 20 December 1971. Bhutto, a civilian politician and former Foreign Minister, becomes President and Chief Martial Law Administrator. He initiates land reforms, nationalisation of key industries, and a new constitution (1973), attempting to rebuild Pakistan's economy and international standing. Bhutto's tenure marks a shift from military to civilian rule, though martial law remains in effect.",
+      "key_figures": [
+        "Zulfikar Ali Bhutto (new President)",
+        "Agha Muhammad Yahya Khan (outgoing military ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Pakistani government records and constitutional documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Kuldip Nayar, The Judgement (1977)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date of power transfer and Bhutto's appointment are documented in Pakistani government records.",
+      "cross_references": [
+        "1971-004 (Indo-Pakistani War)",
+        "1979-001 (Bhutto's execution)"
+      ]
+    },
+    {
+      "id": "1971-012",
+      "title": "Greenpeace Founded",
+      "region": "North America (Canada)",
+      "coordinates_approx": "49.2827, -123.1207",
+      "category": "cultural",
+      "description": "Greenpeace is founded in Vancouver, Canada, in September 1971 by a group of environmental and peace activists, including Robert Hunter and Paul Watson. The organisation initially focuses on opposing nuclear weapons testing in the Arctic. It evolves into a global environmental movement, pioneering direct-action tactics (blockades, occupations) to draw attention to environmental destruction. Greenpeace becomes one of the most influential environmental organisations of the late 20th century, shaping public discourse on climate, whaling, and pollution.",
+      "key_figures": [
+        "Robert Hunter (co-founder)",
+        "Paul Watson (co-founder)",
+        "Jim Bohlen (co-founder)"
+      ],
+      "sources": [
+        {
+          "name": "Greenpeace organisational records and founding documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Robert Hunter, The Greenpeace to Amchitka (1971)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Founding date and key figures are documented in organisational records.",
+      "cross_references": []
+    },
+    {
+      "id": "1971-013",
+      "title": "Famine in East Africa (Ethiopia, Kenya, Somalia)",
+      "region": "East Africa",
+      "coordinates_approx": "9.1450, 40.4897",
+      "category": "environmental",
+      "description": "A severe drought and famine affect the Horn of Africa and East Africa, particularly Ethiopia, Kenya, and Somalia. The crisis, exacerbated by political instability and conflict, results in widespread malnutrition and death, especially among pastoral communities. The famine receives limited international media attention compared to the 1984\u20131985 famine, but causes significant mortality. The crisis highlights the vulnerability of pastoral economies to climate variability and the inadequacy of early warning systems.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "UN Food and Agriculture Organisation reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "International Red Cross and Red Crescent Movement records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Alex de Waal, Evil Days: 30 Years of War and Famine in Ethiopia (1991)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The famine occurred but received less documentation than later famines. Casualty figures are estimates.",
+      "cross_references": [
+        "1984-001 (Ethiopian famine)"
+      ]
+    },
+    {
+      "id": "1971-014",
+      "title": "Internment Without Trial Introduced in Northern Ireland",
+      "region": "Europe (Northern Ireland)",
+      "coordinates_approx": "54.5973, -5.9301",
+      "category": "political",
+      "description": "On 9 August 1971, the British government introduces internment without trial in Northern Ireland, authorising the arrest and detention of suspected Irish Republican Army (IRA) members without due process. The policy, intended to suppress IRA violence, instead radicalises the Catholic population and triggers massive protests. The operation results in the arrest of 342 people, mostly innocent civilians. The policy proves counterproductive, fuelling recruitment to the IRA and escalating the conflict. Internment remains in place until 1975, becoming a symbol of British repression in Northern Ireland.",
+      "key_figures": [
+        "Edward Heath (UK Prime Minister)",
+        "Brian Faulkner (Northern Ireland Prime Minister)",
+        "William Whitelaw (Secretary of State for Northern Ireland)"
+      ],
+      "sources": [
+        {
+          "name": "UK Government records and parliamentary debates",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Amnesty International reports",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Richard English, Armed Struggle (2003)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date, policy details, and number of arrests are documented in government records.",
+      "cross_references": [
+        "1972-001 (Bloody Sunday)"
+      ]
+    },
+    {
+      "id": "1971-015",
+      "title": "Soyuz 11 Disaster",
+      "region": "Space (Salyut 1 space station)",
+      "coordinates_approx": null,
+      "category": "exploration",
+      "description": "On 30 June 1971, the Soyuz 11 spacecraft returns to Earth after a 24-day mission to the Salyut 1 space station. During re-entry, a valve opens prematurely, causing rapid depressurisation of the capsule. The three cosmonauts aboard\u2014Georgy Dobrovolsky, Vladimir Volkov, and Vladislav Patsayev\u2014die from asphyxiation. They are the only humans to die in space. The disaster leads to redesign of the Soyuz spacecraft and renewed emphasis on safety protocols in the Soviet space program.",
+      "key_figures": [
+        "Georgy Dobrovolsky (commander)",
+        "Vladimir Volkov (engineer)",
+        "Vladislav Patsayev (researcher)"
+      ],
+      "sources": [
+        {
+          "name": "Soviet space program records (declassified)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "NASA and international space agencies' investigations",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date, cause of death, and crew identities are documented in space agency records.",
+      "cross_references": [
+        "1971-008 (Apollo 15 success)"
+      ]
+    },
+    {
+      "id": "1971-016",
+      "title": "Bahrain Gains Independence from Britain",
+      "region": "Middle East (Persian Gulf)",
+      "coordinates_approx": "26.0667, 50.5577",
+      "category": "political",
+      "description": "Bahrain declares independence from British protection on 14 August 1971, ending a 150-year relationship as a British protectorate. The transition is negotiated peacefully, and Bahrain joins the United Nations and the Arab League. The independence marks the beginning of Bahrain's emergence as a significant financial centre in the Gulf. The country adopts a constitutional monarchy system, though political tensions between the Sunni-led government and the Shia majority persist.",
+      "key_figures": [
+        "Isa bin Salman Al Khalifa (Emir of Bahrain)"
+      ],
+      "sources": [
+        {
+          "name": "British Foreign Office records and Bahraini government documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "UN admission records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The independence date and process are documented in official records.",
+      "cross_references": [
+        "1971-017 (Qatar independence)"
+      ]
+    },
+    {
+      "id": "1971-017",
+      "title": "Qatar Gains Independence from Britain",
+      "region": "Middle East (Persian Gulf)",
+      "coordinates_approx": "25.2854, 51.5310",
+      "category": "political",
+      "description": "Qatar declares independence from British protection on 3 September 1971, ending a 120-year relationship as a British protectorate. The transition is negotiated peacefully, and Qatar joins the United Nations and the Arab League. The independence occurs amid the oil boom, positioning Qatar to become a major energy exporter. The country adopts an absolute monarchy system under Sheikh Ahmad bin Ali Al Thani.",
+      "key_figures": [
+        "Ahmad bin Ali Al Thani (Emir of Qatar)"
+      ],
+      "sources": [
+        {
+          "name": "British Foreign Office records and Qatari government documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "UN admission records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The independence date and process are documented in official records.",
+      "cross_references": [
+        "1971-016 (Bahrain independence)"
+      ]
+    },
+    {
+      "id": "1971-018",
+      "title": "United Arab Emirates Formed",
+      "region": "Middle East (Persian Gulf)",
+      "coordinates_approx": "23.4241, 53.8478",
+      "category": "political",
+      "description": "On 2 December 1971, six emirates (Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain, and Fujairah) formally unite to create the United Arab Emirates (UAE), ending British protectorate status. Ras al-Khaimah joins in 1972. The federation is established as a constitutional monarchy with a Supreme Council of rulers. Abu Dhabi's vast oil wealth becomes the economic foundation of the new state. The UAE rapidly develops into a major regional power and global financial centre.",
+      "key_figures": [
+        "Zayed bin Sultan Al Nahyan (Emir of Abu Dhabi, first President)",
+        "Rashid bin Saeed Al Maktoum (Emir of Dubai)"
+      ],
+      "sources": [
+        {
+          "name": "UAE Constitutional documents and founding records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British Foreign Office records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "UN admission records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The founding date, member emirates, and constitutional structure are documented in official records.",
+      "cross_references": [
+        "1971-016 (Bahrain independence)",
+        "1971-017 (Qatar independence)"
+      ]
+    },
+    {
+      "id": "1971-019",
+      "title": "Oman's Sultanate Coup (Dhofar Rebellion Context)",
+      "region": "Middle East (Oman)",
+      "coordinates_approx": "21.4735, 55.9754",
+      "category": "military",
+      "description": "In July 1971, Sultan Qaboos bin Said Al Said overthrows his father, Sultan Said bin Taimur, in a bloodless coup. Qaboos, educated in Britain and trained in the British military, modernises Oman's government and economy. The coup occurs amid the Dhofar Rebellion (1962\u20131976), a communist-backed insurgency in southern Oman. Qaboos initiates reforms, opens the country to international trade, and receives British military support to suppress the rebellion. The coup marks a turning point in Oman's development from an isolated sultanate to a modern state.",
+      "key_figures": [
+        "Qaboos bin Said Al Said (new Sultan)",
+        "Said bin Taimur (deposed Sultan)"
+      ],
+      "sources": [
+        {
+          "name": "Omani government records and British military archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Fred Halliday, Arabia Without Sultans (1974)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The coup date and key figures are documented in government and military records.",
+      "cross_references": [
+        "1976-001 (End of Dhofar Rebellion)"
+      ]
+    },
+    {
+      "id": "1971-020",
+      "title": "Decimal Currency Introduced in Ireland",
+      "region": "Europe (Ireland)",
+      "coordinates_approx": "53.3498, -6.2603",
+      "category": "economic",
+      "description": "On 15 February 1971, the Republic of Ireland adopts decimal currency, replacing the pounds, shillings, and pence system. The transition occurs on the same day as the United Kingdom's decimalisation, facilitating trade and financial coordination between the two countries. The Irish pound (\u00a3) is divided into 100 pence, mirroring the British system.",
+      "key_figures": [
+        "Jack Lynch (Irish Taoiseach)"
+      ],
+      "sources": [
+        {
+          "name": "Irish government records and Central Bank of Ireland",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date and details are documented in government records.",
+      "cross_references": [
+        "1971-007 (UK decimalisation)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The death toll in the Bangladesh Liberation War is highly contested. Estimates range from 300,000 to 3 million, with scholarly consensus settling around 1 million, but Pakistani sources often cite lower figures (30,000\u2013200,000) and Indian sources sometimes cite higher figures. The exact number of deaths in Amin's Uganda is similarly uncertain; estimates of 100,000\u2013500,000 are commonly cited, but documentation is sparse. The Pentagon Papers' historical significance is sometimes overstated; while they revealed deception about the war's origins and conduct, they did not contain information about the secret bombing of Cambodia (1969\u20131973), which was a major undisclosed operation. The Attica uprising is sometimes portrayed as purely a prisoner rights protest, but it also involved significant gang violence and inmate-on-inmate assaults during the four-day occupation, complicating the narrative of state brutality alone.",
+  "historiographic_note": "1971 is exceptionally well-documented due to the prevalence of contemporary media, government records, and eyewitness testimony. Western and Cold War events are heavily represented in available sources, while African and Asian events (particularly the Bangladesh War and Amin's Uganda) rely more on later compilations and survivor testimony. The Pentagon Papers and Watergate-era declassifications have enriched the historical record for US events. However, sources on the East African famine are sparse compared to the 1984\u20131985 famine, suggesting that less severe crises receive less documentation. Chinese and Soviet sources for 1971 remain partially restricted, limiting detailed analysis of internal political developments in those countries.",
+  "graph_edges": [
+    {
+      "from": "1971-001",
+      "to": "1971-004",
+      "relation": "part_of",
+      "note": "The Bangladesh Liberation War and the Indo-Pakistani War are two aspects of the same geopolitical crisis."
+    },
+    {
+      "from": "1971-002",
+      "to": "1972-002",
+      "relation": "led_to",
+      "note": "China's UN admission accelerated Sino-American rapprochement, leading to Nixon's 1972 visit."
+    },
+    {
+      "from": "1971-003",
+      "to": "1973-001",
+      "relation": "led_to",
+      "note": "The collapse of Bretton Woods contributed to economic instability that exacerbated the 1973 oil crisis."
+    },
+    {
+      "from": "1971-010",
+      "to": "1973-001",
+      "relation": "contemporary_with",
+      "note": "The Pentagon Papers and Watergate scandal both exposed government deception and triggered constitutional crises."
+    },
+    {
+      "from": "1971-014",
+      "to": "1972-001",
+      "relation": "led_to",
+      "note": "Internment without trial radicalised the Catholic population and contributed to the escalation leading to Bloody Sunday."
+    },
+    {
+      "from": "1971-016",
+      "to": "1971-018",
+      "relation": "contemporary_with",
+      "note": "The independence of Gulf states (Bahrain, Qatar, UAE) occurred in rapid succession, reshaping the region."
+    }
+  ]
+}

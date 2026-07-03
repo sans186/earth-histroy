@@ -1,0 +1,81 @@
+{
+  "year": 1298,
+  "year_label": "1298 CE",
+  "era_context": "The late 13th and early 14th centuries saw the fragmentation of Mongol power, the rise of the Ottoman Empire in Anatolia, the consolidation of the Delhi Sultanate in South Asia, the height of the Mali Empire in West Africa, and the late medieval period in Europe. The Yuan Dynasty ruled China; the Byzantine Empire was in decline; and Islamic sultanates dominated the Middle East and South Asia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa beyond Mali",
+    "Southeast Asian kingdoms",
+    "Pre-Columbian Americas",
+    "Pacific and Oceanic regions",
+    "Most of Europe and Asia lack specific documented events for this year"
+  ],
+  "events": [
+    {
+      "id": "1298-001",
+      "title": "Ala-ud-Din Khalji consolidates power in Delhi Sultanate",
+      "region": "Delhi Sultanate, South Asia",
+      "coordinates_approx": "28.6, 77.2",
+      "category": "political",
+      "description": "Ala-ud-Din Khalji (r. 1296\u20131316) was consolidating his power as Sultan of Delhi, having recently seized the throne. By 1298, he had established his authority and was beginning military campaigns to expand the Sultanate's territorial control. His reign would be marked by military expansion, administrative reforms, and the strengthening of the Sultanate's military and bureaucratic institutions.",
+      "key_figures": [
+        "Ala-ud-Din Khalji (Delhi Sultan)"
+      ],
+      "sources": [
+        {
+          "name": "Tarikh-i Firuz Shahi and other Persian chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ala-ud-Din's reign is well-attested, but specific events for 1298 are not precisely documented.",
+      "cross_references": [
+        "Part of Ala-ud-Din's reign (1296\u20131316)"
+      ]
+    },
+    {
+      "id": "1298-002",
+      "title": "Yuan Dynasty under Tem\u00fcr Khan: continued rule",
+      "region": "China / Yuan Dynasty",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "Tem\u00fcr Khan (r. 1294\u20131307) continued to rule the Yuan Dynasty in China, maintaining Mongol administrative systems and military organization. The Yuan controlled vast territories from the Pacific to Central Asia. In 1298, the Yuan was experiencing relative stability.",
+      "key_figures": [
+        "Tem\u00fcr Khan (Yuan Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Yuanshi (Official History of the Yuan Dynasty)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Chinese administrative records and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Tem\u00fcr Khan's reign is well-documented in Yuan records. 1298 falls within his reign.",
+      "cross_references": [
+        "Part of Yuan Dynasty 1271\u20131368"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, the sparsity of documented events for 1298 reflects the limitations of historical sources rather than the absence of historical activity.",
+  "historiographic_note": "Documentation for 1298 is extremely sparse. No major events are documented for this year in most historical sources. This reflects a fundamental problem in historical research: years without major documented events are often overlooked, and the historical record is heavily skewed toward years with significant political, military, or religious events. The absence of documented events for 1298 does not mean nothing happened; it means that what happened was not recorded in sources that survive or were consulted. This is particularly true for non-European regions, where written records are sparse or have not been translated into European languages.",
+  "graph_edges": [
+    {
+      "from": "1298-001",
+      "to": "1316-001",
+      "relation": "part_of",
+      "note": "Part of Ala-ud-Din's reign"
+    }
+  ]
+}

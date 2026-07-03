@@ -1,0 +1,307 @@
+{
+  "year": 1768,
+  "year_label": "1768 CE",
+  "era_context": "The late 18th century, a period of imperial consolidation, Enlightenment intellectual ferment, and the beginning of industrial transformation in Britain. The Seven Years' War (1756\u20131763) had recently concluded, reshaping global colonial boundaries. In Europe, enlightened absolutism was being tested; in Asia, the Qing Dynasty remained dominant; in the Americas, European settlement accelerated and indigenous populations faced displacement.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written documentation; oral traditions not systematically recorded)",
+    "Interior North America (indigenous perspectives underrepresented)",
+    "Pacific Islands (sparse European contact records)"
+  ],
+  "events": [
+    {
+      "id": "1768-001",
+      "title": "Cook's First Voyage: HMS Endeavour departs England",
+      "region": "British Empire / Pacific Ocean",
+      "coordinates_approx": "51.5,-0.1",
+      "category": "exploration",
+      "description": "On 26 August 1768, Captain James Cook departed Plymouth aboard HMS Endeavour to undertake a voyage to the Pacific Ocean. The primary scientific goal was to observe the transit of Venus across the sun from Tahiti in 1769. The voyage would also chart previously unmapped regions of the Pacific and establish British claims to new territories. Cook's First Voyage (1768\u20131771) resulted in the discovery of the east coast of Australia, detailed charts of New Zealand, and numerous Pacific islands. The expedition represented the intersection of scientific inquiry and imperial exploration.",
+      "key_figures": [
+        "James Cook (Captain, Royal Navy)",
+        "Joseph Banks (naturalist)",
+        "Daniel Solander (naturalist)"
+      ],
+      "sources": [
+        {
+          "name": "Cook, James. The Journals of Captain James Cook on His Voyages of Discovery (1768\u20131779)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Admiralty records and ship logs, National Archives (UK)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Departure date is precisely documented in Admiralty records and Cook's published account.",
+      "cross_references": [
+        "1769-004 (Cook reaches Tahiti)",
+        "1770-003 (Cook reaches Australia)",
+        "1771-001 (Cook's Second Voyage departs)"
+      ]
+    },
+    {
+      "id": "1768-002",
+      "title": "First Russo-Turkish War begins",
+      "region": "Ottoman Empire / Russian Empire / Balkans",
+      "coordinates_approx": "43.5,26.0",
+      "category": "military",
+      "description": "In 1768, tensions between the Russian Empire and the Ottoman Empire escalated into open warfare. The conflict was triggered by Russian support for Cossack rebels in Ottoman territory and disputes over the Crimea. The First Russo-Turkish War (1768\u20131774) would result in decisive Russian victories, the destruction of much of the Ottoman navy, and the eventual Treaty of Kuchuk Kainarji (1771), which established Russia as a major Black Sea power and began the Ottoman Empire's long decline. The war demonstrated the military superiority of the Russian state under Catherine II.",
+      "key_figures": [
+        "Catherine II (Empress of Russia)",
+        "Mustafa III (Ottoman Sultan)",
+        "Grigory Orlov (Russian general)"
+      ],
+      "sources": [
+        {
+          "name": "Russian military records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ottoman chronicles and later historiography",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The war's beginning is documented in Russian and Ottoman sources.",
+      "cross_references": [
+        "1770-004 (Battle of Chesme)",
+        "1771-002 (Treaty of Kuchuk Kainarji)"
+      ]
+    },
+    {
+      "id": "1768-003",
+      "title": "Corsica ceded to France by Genoa",
+      "region": "Mediterranean / French Empire / Genoa",
+      "coordinates_approx": "42.0,9.0",
+      "category": "political",
+      "description": "In 1768, the Republic of Genoa ceded the island of Corsica to France through the Treaty of Versailles (signed in May 1768). Corsica had been a Genoese possession since the 15th century, but Genoa, weakened by economic decline and internal strife, agreed to sell the island to France. The cession was part of French efforts to expand its Mediterranean influence and control strategic territories. Corsica's incorporation into France occurred just a year before Napoleon Bonaparte's birth (1769), and the island's transition to French rule shaped Napoleon's early identity and military education.",
+      "key_figures": [
+        "Louis XV (King of France)",
+        "Doge of Genoa",
+        "Count Choiseul (French minister)"
+      ],
+      "sources": [
+        {
+          "name": "Treaty of Versailles (1768), diplomatic text",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French royal records and Genoese archives",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The treaty date and terms are documented in diplomatic records.",
+      "cross_references": [
+        "1769-006 (Napoleon Bonaparte born in Corsica)"
+      ]
+    },
+    {
+      "id": "1768-004",
+      "title": "Jesuits expelled from Spain",
+      "region": "Spanish Empire / Spain",
+      "coordinates_approx": "40.4,-3.7",
+      "category": "religious",
+      "description": "In 1768, the Spanish Crown, under the influence of the enlightened minister Count Aranda, expelled the Jesuits from Spain. The expulsion was motivated by Enlightenment anti-clericalism, the Crown's desire to reduce papal influence, and economic interests in Jesuit lands. The Jesuits had been powerful educators and missionaries, and their removal disrupted colonial administration and indigenous missions. The expulsion reflected the broader tension between Enlightened absolutism and the Catholic Church's institutional power. The expulsion would be extended to Spanish America in 1770.",
+      "key_figures": [
+        "Charles III (King of Spain)",
+        "Count Aranda (Spanish minister)",
+        "Pope Clement XIV"
+      ],
+      "sources": [
+        {
+          "name": "Spanish royal decrees and correspondence, Archivo General de Indias",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Papal records, Vatican Archives",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The expulsion is documented in Spanish royal decrees and colonial records.",
+      "cross_references": [
+        "1770-008 (Jesuits expelled from Spanish colonies)",
+        "1769-005 (Jesuits suppressed by the Pope)"
+      ]
+    },
+    {
+      "id": "1768-005",
+      "title": "Stamp Act Crisis: Townshend Acts imposed on American colonies",
+      "region": "British North America",
+      "coordinates_approx": "42.36,-71.06",
+      "category": "political",
+      "description": "In 1768, tensions between the British Crown and the American colonies escalated following the imposition of the Townshend Acts (1767), which imposed duties on imported goods including tea, glass, paper, and paint. The acts were intended to raise revenue for colonial administration and defense, but colonists opposed them as taxation without representation. The Townshend Acts sparked widespread protests, boycotts of British goods, and the formation of the Sons of Liberty. The crisis contributed to the radicalization of colonial opinion and the eventual movement toward independence.",
+      "key_figures": [
+        "Charles Townshend (British Chancellor of the Exchequer)",
+        "Lord North (British Prime Minister)",
+        "Samuel Adams (colonial organizer)",
+        "John Hancock (colonial merchant)"
+      ],
+      "sources": [
+        {
+          "name": "British Parliamentary records and debates, House of Commons Journal",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Colonial newspapers and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Townshend Acts and colonial protests are documented in contemporary records.",
+      "cross_references": [
+        "1765-001 (Stamp Act Crisis)",
+        "1770-001 (Boston Massacre)",
+        "1773-001 (Boston Tea Party)"
+      ]
+    },
+    {
+      "id": "1768-006",
+      "title": "Qing Dynasty: Kangxi Emperor's reign continues; Qianlong's consolidation",
+      "region": "Qing China",
+      "coordinates_approx": "39.9,116.4",
+      "category": "political",
+      "description": "In 1768, the Qing Dynasty under the Qianlong Emperor (r. 1735\u20131796) was consolidating its vast territorial gains and administrative system. The Qing had recently completed the conquest of Xinjiang (1759) and maintained tight control over Tibet, Mongolia, and Manchuria. The empire was economically prosperous, with a population exceeding 300 million. However, the seeds of later decline\u2014population pressure, administrative corruption, and the rigidity of the examination system\u2014were already present. The Qianlong Emperor's reign represented the height of Qing power.",
+      "key_figures": [
+        "Qianlong Emperor (Qing Dynasty)",
+        "Heshen (imperial favorite and official)"
+      ],
+      "sources": [
+        {
+          "name": "Qing imperial edicts and administrative records, Palace Museum archives (Beijing)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Spence, Jonathan D. The Search for Modern China (1990)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Qianlong Emperor's reign dates and major policies are well-documented in Qing archives.",
+      "cross_references": [
+        "1759-001 (Qing conquest of Xinjiang)",
+        "1792-001 (Macartney Embassy)"
+      ]
+    },
+    {
+      "id": "1768-007",
+      "title": "Mysore Wars: British-Indian conflicts in South India",
+      "region": "South India / British East India Company",
+      "coordinates_approx": "15.3,75.7",
+      "category": "military",
+      "description": "In 1768, tensions between the British East India Company and the Kingdom of Mysore escalated into the First Mysore War (1767\u20131769). The conflict arose from disputes over territorial control and trade in South India. The British, under the command of Sir Hector Munro, fought against the forces of Hyder Ali, the de facto ruler of Mysore. The war resulted in a stalemate, with both sides claiming victory. The conflict marked the beginning of British military expansion in South India and the eventual establishment of British dominance in the region.",
+      "key_figures": [
+        "Hyder Ali (ruler of Mysore)",
+        "Sir Hector Munro (British commander)",
+        "Tipu Sultan (Hyder Ali's son, future ruler)"
+      ],
+      "sources": [
+        {
+          "name": "British East India Company records, British Library",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Indian chronicles and later historiography",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The First Mysore War is documented in British East India Company records and Indian sources.",
+      "cross_references": [
+        "1780-001 (Second Mysore War)",
+        "1799-001 (Fourth Mysore War and death of Tipu Sultan)"
+      ]
+    },
+    {
+      "id": "1768-008",
+      "title": "Gustavus III becomes King of Sweden",
+      "region": "Sweden",
+      "coordinates_approx": "59.3,18.1",
+      "category": "political",
+      "description": "In 1768, Gustavus III became King of Sweden following the death of his father, Adolf Frederick. Gustavus III inherited a kingdom weakened by the 'Age of Liberty' (1718\u20131772), a period of parliamentary dominance that had reduced royal authority. Influenced by Enlightenment ideals and French absolutism, Gustavus III sought to restore monarchical power and modernize the state. His reign would be marked by cultural patronage, military reform, and the coup d'\u00e9tat of 1771 that ended parliamentary rule.",
+      "key_figures": [
+        "Gustavus III (King of Sweden)",
+        "Adolf Frederick (former King, Gustavus's father)"
+      ],
+      "sources": [
+        {
+          "name": "Swedish royal records and contemporary accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Barton, H. Arnold. Scandinavia in the Revolutionary Era (1986)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Gustavus III's accession is documented in Swedish state records.",
+      "cross_references": [
+        "1771-006 (Gustavus III's coup d'\u00e9tat)",
+        "1792-001 (Gustavus III assassinated)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of the Townshend Acts is sometimes overstated as a direct cause of the American Revolution; modern scholarship emphasizes that the acts were repealed (except for the tea duty) in 1770, and the immediate crisis was resolved. The acts' significance lies more in their symbolic assertion of Parliament's right to tax the colonies than in their economic impact. Additionally, the First Mysore War is often portrayed as a clear British victory, but modern scholarship emphasizes that it was a stalemate, with both sides claiming success and neither achieving decisive advantage.",
+  "historiographic_note": "Documentation for 1768 is rich for European and British imperial history, with extensive archival records and published accounts. However, the perspective is heavily weighted toward European actors and interests. Indigenous perspectives from the Pacific, Africa, and the Americas are almost entirely absent from surviving written records. Chinese sources are well-preserved but often underrepresented in English-language historiography. Indian sources are limited, and the perspective is heavily weighted toward British East India Company records. The sources are heavily weighted toward political, military, and diplomatic events; economic and social history requires inference from fragmentary evidence.",
+  "graph_edges": [
+    {
+      "from": "1768-001",
+      "to": "1769-004",
+      "relation": "led_to",
+      "note": "Cook's First Voyage departure leads to observations in Tahiti"
+    },
+    {
+      "from": "1768-002",
+      "to": "1770-004",
+      "relation": "led_to",
+      "note": "First Russo-Turkish War leads to Battle of Chesme"
+    },
+    {
+      "from": "1768-003",
+      "to": "1769-006",
+      "relation": "led_to",
+      "note": "Corsica ceded to France; Napoleon born in Corsica a year later"
+    },
+    {
+      "from": "1768-004",
+      "to": "1770-008",
+      "relation": "led_to",
+      "note": "Jesuits expelled from Spain; expulsion extended to Spanish colonies"
+    },
+    {
+      "from": "1768-005",
+      "to": "1770-001",
+      "relation": "led_to",
+      "note": "Townshend Acts crisis contributes to Boston Massacre tensions"
+    },
+    {
+      "from": "1768-007",
+      "to": "1780-001",
+      "relation": "led_to",
+      "note": "First Mysore War leads to Second Mysore War"
+    },
+    {
+      "from": "1768-008",
+      "to": "1771-006",
+      "relation": "led_to",
+      "note": "Gustavus III's accession leads to coup d'\u00e9tat"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "year": 1451,
+  "year_label": "1451 CE",
+  "era_context": "The mid-15th century marks the final decades of the Byzantine Empire, the consolidation of Ottoman power in Anatolia and the Balkans, the height of the Italian Renaissance, the early Portuguese Age of Exploration along the African coast, and the reign of major European monarchs (Henry VI of England, Charles VII of France, Frederick III of the Holy Roman Empire). In East Asia, the Ming Dynasty rules China under the Tianshun Emperor; Korea, Japan, and Southeast Asia pursue independent state-building. Sub-Saharan Africa sees the expansion of the Mali and Songhai empires; the Americas remain in pre-Columbian development.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited European documentation; oral traditions and later Arab chronicles are primary sources)",
+    "Indigenous Americas (no written records; archaeological inference only)",
+    "Central Asia and the Steppe (sparse documentation outside Ottoman and Ming records)"
+  ],
+  "events": [
+    {
+      "id": "1451-001",
+      "title": "Conquest of Constantinople by Mehmed II; Fall of the Byzantine Empire",
+      "region": "Constantinople (modern Istanbul), Ottoman Empire",
+      "coordinates_approx": "41.0082, 28.9784",
+      "category": "military",
+      "description": "On 29 May 1453, Ottoman forces under Mehmed II breached the walls of Constantinople after a 53-day siege, ending the Byzantine Empire's 1,123-year reign. The last Byzantine Emperor, Constantine XI Palaiologus, died in the final defense. This conquest marked the definitive end of the Eastern Roman Empire and established Istanbul as the Ottoman capital, reshaping Mediterranean geopolitics and triggering the diaspora of Byzantine scholars to Western Europe, accelerating the Renaissance. The fall sent shockwaves through Christian Europe and prompted calls for crusade.",
+      "key_figures": [
+        "Mehmed II (Ottoman Sultan)",
+        "Constantine XI Palaiologus (Byzantine Emperor)",
+        "Giustiniani Longo (Genoese military commander)"
+      ],
+      "sources": [
+        {
+          "name": "Kritovoulos of Imbros, History of Mehmed the Conqueror (written c. 1467, near-contemporary account by Ottoman court historian)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Doukas, History (Byzantine chronicle, compiled early 16th century but drawing on earlier sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Constantinople city walls and Ottoman siege camps",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date of 29 May 1453 is well-established in both Ottoman and Byzantine sources. However, this event occurred in 1453, not 1451. It is included here as a major historical marker but is chronologically outside the requested year.",
+      "cross_references": [
+        "Relates to 1453-001 (the actual siege and conquest)",
+        "Precedes 1453-002 (Ottoman consolidation of Anatolia)"
+      ]
+    },
+    {
+      "id": "1451-002",
+      "title": "Portuguese Exploration: Diogo Gomes reaches the Senegal River",
+      "region": "West Africa (Senegal coast), Portugal",
+      "coordinates_approx": "14.5, -14.5",
+      "category": "exploration",
+      "description": "Portuguese navigator Diogo Gomes, under the patronage of Prince Henry the Navigator, sailed along the West African coast and reached the Senegal River region, establishing early Portuguese trading posts and gathering intelligence on African gold trade routes. This expedition was part of the systematic Portuguese exploration program that would eventually round the Cape of Good Hope and reach India. The voyages generated geographic knowledge, established commercial relationships with African kingdoms, and laid groundwork for the transatlantic slave trade.",
+      "key_figures": [
+        "Diogo Gomes (Portuguese navigator)",
+        "Prince Henry the Navigator (Portuguese patron)"
+      ],
+      "sources": [
+        {
+          "name": "Diogo Gomes, Rela\u00e7\u00e3o da Guin\u00e9 (account written in old age, c. 1480s, recounting voyages from 1440s\u20131460s)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Gomes Eanes de Zurara, Cr\u00f3nica da Guin\u00e9 (Portuguese chronicle, c. 1453, documenting Prince Henry's expeditions)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Diogo Gomes's voyages are attested in Portuguese chronicles, but precise dating of individual expeditions is uncertain. The Senegal River voyage is traditionally assigned to the early 1450s, but sources vary by \u00b15 years.",
+      "cross_references": [
+        "Part of broader Portuguese Age of Exploration (1420s\u20131500s)",
+        "Precedes 1488-001 (Bartolomeu Dias rounds Cape of Good Hope)"
+      ]
+    },
+    {
+      "id": "1451-003",
+      "title": "Zheng He's Treasure Fleet Voyages End; Ming Shift to Isolationism",
+      "region": "China, Indian Ocean, East Africa",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "The death of the Yongle Emperor in 1424 and the ascendancy of conservative Confucian officials led to the cessation of Zheng He's great maritime expeditions by the 1430s. By 1451, the Ming Dynasty had fully committed to a policy of naval retrenchment and inward focus, dismantling shipyards and redirecting resources to the Great Wall and terrestrial defense. This marked a decisive turn away from maritime expansion and global trade, ceding Indian Ocean dominance to European and Arab traders. The decision reflected ideological preference for agricultural stability and Confucian orthodoxy over mercantile adventure.",
+      "key_figures": [
+        "Zheng He (Admiral, voyages ended c. 1433)",
+        "Yongle Emperor (died 1424, initiated voyages)",
+        "Confucian court officials (advocates of retrenchment)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Official Ming Dynasty Records), Tianshun reign section",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ma Huan, Ying-yai Sheng-lan (Record of the Marvels of the Indian Ocean, c. 1433, eyewitness account of Zheng He voyages)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The end of Zheng He's voyages and the Ming shift to isolationism are well-documented in official records. By 1451, the policy was firmly entrenched.",
+      "cross_references": [
+        "Follows from 1433-001 (final Zheng He voyage)",
+        "Contrasts with 1451-002 (Portuguese expansion)"
+      ]
+    },
+    {
+      "id": "1451-004",
+      "title": "Gutenberg's Printing Press: Completion of the Gutenberg Bible",
+      "region": "Mainz, Holy Roman Empire",
+      "coordinates_approx": "50.0, 8.3",
+      "category": "technological",
+      "description": "Johannes Gutenberg completed the printing of the Gutenberg Bible (also called the 42-line Bible) around 1451\u20131452, marking the first major book printed using movable type in Europe. This technological innovation revolutionized the dissemination of knowledge, reduced the cost of books, and accelerated the spread of Renaissance ideas, religious reform, and scientific thought. The printing press became the foundational technology of the early modern world, enabling mass literacy and the democratization of information.",
+      "key_figures": [
+        "Johannes Gutenberg (inventor and printer)",
+        "Johann Fust (financial backer)"
+      ],
+      "sources": [
+        {
+          "name": "Colophon and surviving copies of the Gutenberg Bible (physical evidence)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Peter Sch\u00f6ffer, later printer and associate of Gutenberg (testimony in legal disputes, 1450s\u20131460s)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Gutenberg Bible's completion is traditionally dated to 1451\u20131452, but no colophon survives to confirm the exact year. Scholarly consensus places it in this window based on paper analysis and type development.",
+      "cross_references": [
+        "Precedes 1455-001 (printing of the Mainz Psalter)",
+        "Part of broader technological revolution of the 15th century"
+      ]
+    },
+    {
+      "id": "1451-005",
+      "title": "Hundred Years' War: English Losses in Aquitaine; Bordeaux Falls to France",
+      "region": "Aquitaine, France",
+      "coordinates_approx": "44.8, -0.6",
+      "category": "military",
+      "description": "In 1451, French forces under Jean de Dunois and Jean Bureau captured Bordeaux, the last major English stronghold in Aquitaine, effectively ending English control of the region after more than 300 years. This followed the English defeat at Castillon in 1453. The loss of Aquitaine marked the practical end of the Hundred Years' War and the consolidation of French territorial power. England retained only Calais (until 1558), signaling the end of English continental ambitions and the rise of France as the dominant Western European power.",
+      "key_figures": [
+        "Jean de Dunois (French commander, 'the Bastard of Orl\u00e9ans')",
+        "Jean Bureau (French artillery commander)",
+        "Henry VI (English King, mentally incapacitated)"
+      ],
+      "sources": [
+        {
+          "name": "Jean de Wavrin, Recueil des croniques et anchiennes istories de la Grant Bretaigne (Burgundian chronicle, c. 1470s, eyewitness account)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Chronique de Mathieu d'Escouchy (French chronicle, c. 1470s)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The fall of Bordeaux in 1451 is well-attested in French and English chronicles. The date is secure.",
+      "cross_references": [
+        "Precedes 1453-003 (Battle of Castillon, final English defeat)",
+        "Part of broader Hundred Years' War (1337\u20131453)"
+      ]
+    },
+    {
+      "id": "1451-006",
+      "title": "Tianshun Emperor's Reign in Ming China; Restoration After Zhengtong's Captivity",
+      "region": "China, Beijing",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "The Tianshun Emperor (Zhu Qiyu) ruled Ming China from 1450 to 1457, having assumed the throne after his brother, the Zhengtong Emperor, was captured by the Oirat Mongols at the Battle of Tumu Fortress in 1449. Tianshun's reign was marked by efforts to stabilize the dynasty, rebuild military strength, and manage the return of the Zhengtong Emperor from captivity. The period saw continued construction of the Great Wall and consolidation of Confucian bureaucratic authority. In 1451, the court was focused on recovering from the military disaster and reasserting Ming control over the northern frontier.",
+      "key_figures": [
+        "Tianshun Emperor (Zhu Qiyu, r. 1450\u20131457)",
+        "Zhengtong Emperor (Zhu Qizhen, captured 1449, returned 1450)",
+        "Oirat Mongols (captors)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Official Ming Dynasty Records), Tianshun reign section",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Daming Yitong Zhi (Ming geographical and administrative records)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Tianshun Emperor's reign dates and major events are well-documented in official Ming records.",
+      "cross_references": [
+        "Follows from 1449-001 (Battle of Tumu Fortress)",
+        "Precedes 1457-001 (Zhengtong Emperor's restoration)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Gutenberg's Bible completion (1451-004) is disputed: some scholars argue for 1452 or even 1453 based on paper analysis and type development. The exact year remains uncertain. Additionally, the fall of Bordeaux (1451-005) is sometimes dated to 1453 in older sources, though modern scholarship confirms 1451. The significance of the Tianshun Emperor's reign (1451-006) has been reassessed by modern scholars as less transformative than once believed; the dynasty's fundamental trajectory was not altered by the change in emperors.",
+  "historiographic_note": "The historical record for 1451 is rich for Europe and East Asia, reflecting the survival of court records, chronicles, and later compilations. However, sources are heavily skewed toward political and military events; economic and social history are underrepresented. African and American sources are entirely absent from European-language historiography of this period. The Portuguese exploration narrative (1451-002) reflects European perspectives and may overstate the novelty of Portuguese activities relative to existing Arab and African trade networks. Ottoman sources for the period are abundant but often written decades after events, introducing potential bias toward Mehmed II's glorification.",
+  "graph_edges": [
+    {
+      "from": "1451-001",
+      "to": "1453-001",
+      "relation": "led_to",
+      "note": "The fall of Constantinople in 1453 was the culmination of Ottoman expansion that accelerated in 1451."
+    },
+    {
+      "from": "1451-002",
+      "to": "1488-001",
+      "relation": "part_of",
+      "note": "Portuguese exploration in 1451 was part of the systematic program that led to rounding the Cape in 1488."
+    },
+    {
+      "from": "1451-003",
+      "to": "1451-002",
+      "relation": "contemporary_with",
+      "note": "Ming isolationism and Portuguese expansion were simultaneous, reshaping global trade patterns."
+    },
+    {
+      "from": "1451-004",
+      "to": "1517-001",
+      "relation": "led_to",
+      "note": "Gutenberg's printing press enabled the rapid dissemination of Luther's theses in 1517."
+    },
+    {
+      "from": "1451-005",
+      "to": "1453-003",
+      "relation": "led_to",
+      "note": "The fall of Bordeaux in 1451 set the stage for the final English defeat at Castillon in 1453."
+    },
+    {
+      "from": "1451-006",
+      "to": "1449-001",
+      "relation": "caused_by",
+      "note": "Tianshun's reign was a direct consequence of the Tumu Fortress disaster in 1449."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "year": -527,
+  "year_label": "527 BCE",
+  "era_context": "Late Archaic Greece; Darius I's reign in the Achaemenid Empire (522\u2013486 BCE). In Athens, the Peisistratid tyranny under Hippias continues (his father Peisistratos died c. 527 BCE, and Hippias assumed power). In India, the Buddha's early teaching period. China remains in the Spring and Autumn period with regional fragmentation. The Mediterranean world is experiencing rapid urbanisation and the development of early democratic and tyrannical political systems.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "The Americas",
+    "Oceania",
+    "Central Asia",
+    "India (limited synchronised dating)"
+  ],
+  "events": [
+    {
+      "id": "-527-001",
+      "title": "Death of Peisistratos and succession of Hippias in Athens",
+      "region": "Athens / Attica",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "Peisistratos, the tyrant of Athens who had ruled (with interruptions) since c. 560 BCE, dies around 527 BCE. His son Hippias succeeds him, continuing the Peisistratid tyranny. Hippias initially rules with his brother Hipparchus, maintaining the cultural and political stability established by their father. The tyranny will continue until 510 BCE, when it is overthrown. Peisistratos's reign is remembered as a period of cultural flourishing and economic development in Athens.",
+      "key_figures": [
+        "Peisistratos (tyrant of Athens, died c. 527 BCE)",
+        "Hippias (son, successor)",
+        "Hipparchus (son, co-ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories, Book I",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book VI",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Aristotle, Constitution of the Athenians",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ancient sources agree on the succession of Hippias after Peisistratos's death, but the exact date is uncertain. Herodotus and later sources place Peisistratos's death around 527 BCE, but some modern scholars argue for dates as late as 520 BCE. The chronology of the Peisistratid period is reconstructed from reign lengths and later historical accounts.",
+      "cross_references": [
+        "-510-001 (Overthrow of the Peisistratid tyranny)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Peisistratos's death to 527 BCE is not universally accepted. Some modern scholars, based on archaeological evidence and reanalysis of ancient sources, argue for a date closer to 520 BCE. The exact chronology of the Peisistratid period remains debated. Additionally, the characterisation of Peisistratos's rule as a 'golden age' is partly a later idealisation; contemporary evidence suggests political tension and factional conflict.",
+  "historiographic_note": "The dating of events in 6th-century Athens relies heavily on later literary sources (Herodotus, Thucydides, Aristotle) written 50\u2013100+ years after the events. No contemporary Athenian written records survive for this period. Archaeological evidence (pottery, inscriptions) provides some corroboration but is not precisely datable to individual years. The Athenian tradition of dating by archons (annual magistrates) was not systematised until later, so year-by-year precision is largely impossible. The narrative of the Peisistratid tyranny has been shaped by later democratic ideology, which may have distorted the historical record.",
+  "graph_edges": [
+    {
+      "from": "-527-001",
+      "to": "-510-001",
+      "relation": "led_to",
+      "note": "Hippias's succession leads eventually to the tyranny's overthrow"
+    }
+  ]
+}

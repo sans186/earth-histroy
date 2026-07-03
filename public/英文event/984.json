@@ -1,0 +1,142 @@
+{
+  "year": 984,
+  "year_label": "984 CE",
+  "era_context": "The late 10th century, characterized by state consolidation, religious transformation, and the transition from the Viking Age to medieval state formation. The Byzantine Empire under Basil II was at the height of its military power. The Northern Song dynasty in China was establishing sophisticated administrative systems. Western Europe was developing feudal structures and experiencing monastic reform movements. The Islamic world was intellectually vibrant despite political fragmentation. Scandinavia was transitioning from pagan Viking culture to Christian kingdoms.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Pre-Columbian Americas",
+    "Central Asian nomadic confederations",
+    "Southeast Asian kingdoms"
+  ],
+  "events": [
+    {
+      "id": "984-001",
+      "title": "Murder of Edward the Martyr and accession of Ethelred II",
+      "region": "England",
+      "coordinates_approx": "50.9, -2.5",
+      "category": "political",
+      "description": "Edward the Martyr, King of England, was murdered at Corfe Castle in Dorset on March 18, 978 CE. However, the political consequences of this murder continued to dominate English politics in 984. Ethelred II, Edward's half-brother, became king following the murder, but the circumstances remained controversial. The murder was widely attributed to the influence of \u00c6lfthryth, Ethelred's mother and Edward's stepmother, though her direct involvement was never proven. The ecclesiastical establishment, particularly Archbishop Dunstan, opposed Ethelred's succession and promoted the cult of Edward as a martyr. By 984, Ethelred's position was more secure, but the murder's legacy continued to undermine his legitimacy and contributed to internal political instability.",
+      "key_figures": [
+        "Ethelred II (King of England)",
+        "\u00c6lfthryth (Queen Mother)",
+        "Archbishop Dunstan (ecclesiastical opposition)"
+      ],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "\u00c6thelred's charters and writs",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Hagiographies of Edward the Martyr",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Edward's murder in 978 is well-documented. The year 984 marks a point in the ongoing political consequences of this event.",
+      "cross_references": [
+        "978-001 (Edward's murder)"
+      ]
+    },
+    {
+      "id": "984-002",
+      "title": "Basil II's continued military consolidation in the Balkans",
+      "region": "Byzantine Empire, Balkans",
+      "coordinates_approx": "41.0, 21.0",
+      "category": "military",
+      "description": "Byzantine Emperor Basil II continued his military campaigns to consolidate control over the Balkans and suppress rival powers. These campaigns were part of a systematic strategy to restore Byzantine territorial dominance and eliminate the Bulgarian Empire as an independent power. Basil II's military successes established him as one of the most formidable Byzantine emperors. The campaigns involved both direct military engagement and diplomatic maneuvering, gradually bringing Bulgarian and other Balkan territories under Byzantine control or suzerainty.",
+      "key_figures": [
+        "Basil II (Byzantine Emperor)",
+        "Samuel of Bulgaria (Bulgarian ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Skylitzes, Synopsis Historiarum",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine administrative and military records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Basil II's Balkan campaigns are well-documented in Byzantine sources.",
+      "cross_references": [
+        "985-001 (continuation of campaigns)"
+      ]
+    },
+    {
+      "id": "984-003",
+      "title": "Taizong's reign in Northern Song China",
+      "region": "China",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor Taizong of Northern Song (r. 976\u2013997) continued his reign, overseeing administrative reforms, military reorganization, and economic development. The Song dynasty was establishing sophisticated bureaucratic systems based on civil service examinations and Confucian principles. The period saw significant technological advancement, including developments in printing, naval technology, and commerce. Song China maintained military pressure against the Khitan Liao dynasty to the north while consolidating internal control and economic prosperity.",
+      "key_figures": [
+        "Taizong (Northern Song Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Song administrative records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Song dynasty activities are well-documented in Chinese historical records.",
+      "cross_references": []
+    },
+    {
+      "id": "984-004",
+      "title": "Continued Viking raids on England and Western Europe",
+      "region": "England, Normandy, coastal Western Europe",
+      "coordinates_approx": "51.5, 0.0",
+      "category": "military",
+      "description": "Scandinavian raiders, operating from bases in Normandy and Denmark, continued systematic raids on English coastal settlements and monasteries. These raids were part of the broader pattern of Viking incursions that characterized the 980s. The raids targeted wealthy monasteries and trading centers, generating significant plunder and forcing English authorities to negotiate tribute payments. The raids contributed to the destabilization of Ethelred II's reign and the eventual integration of Scandinavian military forces into English politics.",
+      "key_figures": [
+        "Sweyn I Forkbeard (Danish king)",
+        "Ethelred II (English king)"
+      ],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Viking raids in this period are well-attested in English chronicles.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "Modern scholarship has questioned the extent to which \u00c6lfthryth was directly responsible for Edward's murder, noting that the evidence is circumstantial and that later hagiographies may have exaggerated her role for ecclesiastical purposes. The characterization of Ethelred as uniformly weak has been revised by scholars who recognize periods of effective governance.",
+  "historiographic_note": "Documentation for 984 CE is uneven across regions. English and Byzantine sources are relatively rich and contemporary. Chinese sources are abundant and sophisticated. Islamic sources are rich in intellectual and religious content. Scandinavian sources are primarily later saga traditions. The historical record privileges literate, centralized states and underrepresents non-literate societies.",
+  "graph_edges": [
+    {
+      "from": "984-001",
+      "to": "1016-001",
+      "relation": "part_of",
+      "note": "Ethelred's reign continued until 1016, marked by political instability"
+    },
+    {
+      "from": "984-002",
+      "to": "1014-001",
+      "relation": "led_to",
+      "note": "Basil II's campaigns culminated in complete Bulgarian conquest"
+    }
+  ]
+}

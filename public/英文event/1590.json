@@ -1,0 +1,198 @@
+{
+  "year": 1590,
+  "year_label": "1590 CE",
+  "era_context": "Late 16th century: Spain under Philip II remains a dominant power, though weakened by the failed Armada of 1588. The Dutch Revolt continues against Spanish rule. England under Elizabeth I consolidates its naval power. The Ottoman Empire remains a major Mediterranean and Balkan power. In Asia, the Ming Dynasty rules China; Japan is in final unification under Toyotomi Hideyoshi.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited European documentation)",
+    "Interior South America and North America (minimal European contact documentation)"
+  ],
+  "events": [
+    {
+      "id": "1590-001",
+      "title": "Siege of Paris ends; Henry IV enters Paris as King of France",
+      "region": "France",
+      "coordinates_approx": "48.8,2.3",
+      "category": "military",
+      "description": "After a prolonged siege lasting from 1589\u20131590, Henry IV (formerly Henry of Navarre) enters Paris and is recognized as King of France, effectively ending the Wars of Religion. The siege was brutal, with the city suffering from starvation. Henry's entry marks the beginning of the consolidation of royal authority and the gradual pacification of France. This is a turning point in French history, establishing the Bourbon dynasty.",
+      "key_figures": [
+        "Henry IV of France (newly recognized king)",
+        "Duke of Parma (Spanish commander who relieved Paris)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary French chronicles and memoirs",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Spanish and papal diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The siege and Henry's entry are well-documented in multiple contemporary sources.",
+      "cross_references": [
+        "1589-001 (assassination of Henry III)",
+        "1598-001 (Edict of Nantes)"
+      ]
+    },
+    {
+      "id": "1590-002",
+      "title": "Battle of Ivry; Henry IV defeats Catholic League forces",
+      "region": "France",
+      "coordinates_approx": "48.7,1.6",
+      "category": "military",
+      "description": "Henry IV defeats the Catholic League at the Battle of Ivry (March 14, 1590), a decisive victory that strengthens his claim to the French throne and demonstrates his military capability. The victory is celebrated in contemporary accounts and helps consolidate support for Henry among moderate Catholics and Protestants. This battle is a key moment in the Wars of Religion.",
+      "key_figures": [
+        "Henry IV of France (victorious commander)",
+        "Duke of Mayenne (Catholic League commander)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary French military records and chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Memoirs of participants and observers",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle is well-documented with specific dates and participant accounts.",
+      "cross_references": [
+        "1590-001 (leads to Paris siege)"
+      ]
+    },
+    {
+      "id": "1590-003",
+      "title": "Dutch Revolt continues; Maurice of Nassau consolidates military reforms",
+      "region": "Dutch Republic (United Provinces)",
+      "coordinates_approx": "52.0,5.0",
+      "category": "military",
+      "description": "Maurice of Nassau, Prince of Orange, continues his military reforms and consolidation of Dutch independence from Spain. His innovations in military tactics and organization (the 'Military Revolution') begin to show results in campaigns against Spanish forces. By 1590, the Dutch Revolt has evolved into a protracted conflict with the Dutch establishing de facto independence, though Spain does not formally recognize this until 1648.",
+      "key_figures": [
+        "Maurice of Nassau (Dutch military leader)",
+        "William of Orange (deceased 1584, but his legacy shapes the revolt)"
+      ],
+      "sources": [
+        {
+          "name": "Dutch military records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Spanish military reports and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Dutch Revolt and Maurice's role are well-documented in Dutch and Spanish archives.",
+      "cross_references": [
+        "1588-002 (Spanish Armada context)",
+        "1648-001 (Peace of Westphalia)"
+      ]
+    },
+    {
+      "id": "1590-004",
+      "title": "Wanli Emperor's reign; Ming China faces Jurchen threats and internal instability",
+      "region": "China",
+      "coordinates_approx": "39.9,116.4",
+      "category": "military",
+      "description": "The Wanli Emperor continues his reign during a period of increasing military pressure from the Jurchen in Manchuria and Mongol forces on the northern frontier. Internal Ming governance is hampered by court factionalism and the withdrawal of the emperor from active rule. Military expenditures strain the imperial treasury, contributing to long-term economic decline.",
+      "key_figures": [
+        "Wanli Emperor (Ming ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Official Ming Records)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ming administrative records provide detailed documentation.",
+      "cross_references": []
+    },
+    {
+      "id": "1590-005",
+      "title": "Toyotomi Hideyoshi consolidates power in Japan; daimyo submit to central authority",
+      "region": "Japan",
+      "coordinates_approx": "35.0,138.0",
+      "category": "political",
+      "description": "Toyotomi Hideyoshi continues the consolidation of power over the Japanese daimyo (feudal lords), effectively ending the Sengoku period of civil war. By 1590, most major daimyo have submitted to Hideyoshi's authority, though some retain significant regional power. Hideyoshi's unification is based on personal authority and military power rather than institutional structures, which will create succession problems after his death.",
+      "key_figures": [
+        "Toyotomi Hideyoshi (Regent of Japan)"
+      ],
+      "sources": [
+        {
+          "name": "Taik\u014dki and other Japanese chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Daimyo records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Hideyoshi's consolidation is well-attested in Japanese records.",
+      "cross_references": [
+        "1591-002 (continuation of consolidation)"
+      ]
+    },
+    {
+      "id": "1590-006",
+      "title": "Portuguese colonial expansion in Southeast Asia; establishment of trading posts",
+      "region": "Southeast Asia (Malacca, Timor, Philippines)",
+      "coordinates_approx": "2.2,102.2",
+      "category": "exploration",
+      "description": "Portuguese colonial activities in Southeast Asia continue to expand, with the establishment and consolidation of trading posts and colonial settlements. Malacca remains the key Portuguese base in the region. Portuguese merchants and missionaries extend their influence in the Philippines and the Indonesian archipelago, competing with indigenous sultanates and later with Dutch traders.",
+      "key_figures": [
+        "Portuguese colonial administrators and merchants"
+      ],
+      "sources": [
+        {
+          "name": "Portuguese colonial records (Arquivo Hist\u00f3rico Ultramarino)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Portuguese chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Portuguese colonial activities are well-documented in Portuguese archives.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The significance of the Battle of Ivry is sometimes overstated as a decisive turning point; while important, the Wars of Religion continued for years after this battle, and Henry IV's consolidation of power was gradual rather than immediate. The characterization of Hideyoshi's consolidation as 'complete' by 1590 is somewhat conventional; some daimyo retained significant autonomy, and the stability was dependent on Hideyoshi's personal authority.",
+  "historiographic_note": "Documentation for 1590 is rich for European and East Asian events. European sources reflect the perspectives of major powers (Spain, France, England, Dutch Republic) and are heavily weighted toward political and military history. Asian sources are primarily administrative records and later chronicles. Sub-Saharan African and interior American events are severely underrepresented due to limited surviving written records.",
+  "graph_edges": [
+    {
+      "from": "1590-001",
+      "to": "1590-002",
+      "relation": "contemporary_with",
+      "note": "Ivry battle and Paris siege are part of the same campaign"
+    },
+    {
+      "from": "1590-001",
+      "to": "1598-001",
+      "relation": "led_to",
+      "note": "Henry IV's consolidation leads to Edict of Nantes"
+    },
+    {
+      "from": "1590-003",
+      "to": "1648-001",
+      "relation": "led_to",
+      "note": "Dutch Revolt continues until Peace of Westphalia"
+    }
+  ]
+}

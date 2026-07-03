@@ -1,0 +1,162 @@
+{
+  "year": 950,
+  "year_label": "950 CE",
+  "era_context": "The mid-10th century CE continues the period of political fragmentation and regional consolidation across Eurasia. The Abbasid Caliphate's authority is nominal; regional Islamic dynasties (Fatimids in North Africa and Egypt, Buyids in Persia and Iraq, Umayyads in al-Andalus) exercise real power. In Europe, the Ottonian Saxon dynasty is rising; in China, the Five Dynasties period is ending and the Northern Song is emerging; in Southeast Asia, the Khmer Empire is at its height; in the Islamic world, intellectual and cultural production remains vibrant despite political fragmentation.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe and Scandinavia (limited contemporary documentation)",
+    "Central Asia (reliant on Chinese and Islamic sources)",
+    "Americas (no written records; archaeological evidence sparse for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "950-001",
+      "title": "Fatimid Caliphate under al-Mansur; consolidation of North African power",
+      "region": "North Africa / Egypt",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Al-Mansur (r. 946\u2013975) ruled the Fatimid Caliphate during a period of territorial expansion and administrative consolidation. By 950, the Fatimids controlled much of North Africa and were beginning to expand into the Levant and Egypt. Al-Mansur's reign saw significant military campaigns, the strengthening of the Fatimid navy, and the development of Cairo as a major administrative center (though the formal founding of Cairo as a capital occurred later, in 969). The Fatimids represented a major Shi'a Islamic power challenging the Sunni Abbasid Caliphate's authority.",
+      "key_figures": [
+        "Al-Mansur (Fatimid Caliph, r. 946\u2013975)",
+        "Gawhar al-Siqilli (Fatimid general and administrator)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Mas'udi, Meadows of Gold (Muruj al-dhahab)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Al-Mansur's reign and general policies are well-attested; specific events in 950 are less precisely dated. Islamic historical sources are generally reliable for this period, though often compiled centuries later.",
+      "cross_references": [
+        "969-001 (Founding of Cairo as Fatimid capital)"
+      ]
+    },
+    {
+      "id": "950-002",
+      "title": "Buyid dynasty consolidation in Persia and Iraq",
+      "region": "Persia / Iraq / Islamic world",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "The Buyid dynasty, a Shi'a Persian dynasty, consolidated control over much of Persia and Iraq during the mid-10th century. By 950, the Buyids had established themselves as the dominant military and political power in the region, reducing the Abbasid Caliph to a figurehead. The Buyids were major patrons of Persian culture and learning, and their rule saw a flourishing of Persian literature, philosophy, and science. This period marks a significant shift in the balance of power within the Islamic world, with Persian Shi'a interests gaining prominence over Arab Sunni authority.",
+      "key_figures": [
+        "Ahmad ibn Buya (Mu'izz al-Dawla, Buyid emir, r. 945\u2013967)"
+      ],
+      "sources": [
+        {
+          "name": "Miskawayh, Experiences of the Nations (Taj\u0101rib al-umam)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Buyid consolidation is well-attested in Islamic sources; specific events in 950 are less precisely dated. Miskawayh wrote in the 10th century but compiled his work after the events described.",
+      "cross_references": [
+        "945-001 (Buyid rise to power)"
+      ]
+    },
+    {
+      "id": "950-003",
+      "title": "Later Zhou dynasty in China; military reforms and centralization",
+      "region": "China",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "The Later Zhou dynasty (951\u2013960) was in its early years under Emperor Shizong (r. 954\u2013959), though the dynasty itself was founded in 951. By 950, the transition from the Later Han to the Later Zhou was underway, with significant military and administrative reforms being implemented. These reforms included the centralization of military authority, the reduction of regional warlord power, and the strengthening of the imperial bureaucracy. These changes laid the groundwork for the Northern Song unification that would follow.",
+      "key_figures": [
+        "Guo Wei (Later Zhou founder, r. 951\u2013954)",
+        "Guo Rong (Later Zhou emperor, r. 954\u2013959)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Song Shi (History of the Song Dynasty)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Later Zhou dynasty's founding is dated to 951; events in 950 are transitional and less precisely documented. Chinese historical records are generally reliable but compiled centuries later.",
+      "cross_references": [
+        "951-003 (Zhao Kuangyin's rise)",
+        "960-001 (Northern Song founding)"
+      ]
+    },
+    {
+      "id": "950-004",
+      "title": "C\u00f3rdoba Umayyad Caliphate under Abd al-Rahman III; cultural and scientific flourishing",
+      "region": "Al-Andalus / Iberian Peninsula",
+      "coordinates_approx": "37.9, -4.8",
+      "category": "cultural",
+      "description": "Abd al-Rahman III (r. 912\u2013961) ruled the Umayyad Caliphate of C\u00f3rdoba during a period of unprecedented cultural, scientific, and economic flourishing. By 950, C\u00f3rdoba was one of the largest and most sophisticated cities in Europe, with a renowned library, centers of learning, and a diverse population of Muslims, Christians, and Jews. Abd al-Rahman III's reign saw significant advances in mathematics, astronomy, medicine, and philosophy, as well as the development of a sophisticated administrative apparatus. The caliphate's economic power was based on trade, agriculture, and the production of luxury goods.",
+      "key_figures": [
+        "Abd al-Rahman III (Umayyad Caliph, r. 912\u2013961)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Al-Mas'udi, Meadows of Gold",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from C\u00f3rdoba and Madinat al-Zahra",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Abd al-Rahman III's reign and the cultural flourishing of C\u00f3rdoba are well-attested; specific events in 950 are less precisely dated. Archaeological evidence from Madinat al-Zahra (the royal city founded by Abd al-Rahman III) provides material confirmation.",
+      "cross_references": [
+        "936-001 (Abd al-Rahman III's proclamation as caliph)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The notion of a 'Fatimid expansion' in 950 is somewhat overstated in some sources; the Fatimids faced significant military challenges and their territorial control was contested. The Buyid 'consolidation' was also contested, with multiple regional powers competing for dominance. The characterization of the Later Zhou as a unified 'dynasty' in 950 is anachronistic; it was still in the process of formation and faced significant internal and external challenges. The 'cultural flourishing' of C\u00f3rdoba is well-attested, but some modern scholarship questions whether this period represents a genuine 'golden age' or a more complex picture of cultural exchange and conflict.",
+  "historiographic_note": "Documentation for 950 is moderate but unevenly distributed. Islamic sources (al-Mas'udi, Ibn al-Athir, Miskawayh) are detailed but often compiled centuries after the events described. Chinese sources are abundant but similarly compiled much later. European sources are sparse for this year. Archaeological evidence from C\u00f3rdoba and the Khmer region provides material confirmation of cultural and administrative development. The 'Western' bias in surviving documentation is pronounced; events in Central Asia, Sub-Saharan Africa, and Northern Europe are underrepresented or absent. The sources tend to emphasize political and military events over economic and social developments.",
+  "graph_edges": [
+    {
+      "from": "950-001",
+      "to": "969-001",
+      "relation": "led_to",
+      "note": "Fatimid consolidation in 950 culminated in the founding of Cairo as capital in 969"
+    },
+    {
+      "from": "950-002",
+      "to": "945-001",
+      "relation": "contemporary_with",
+      "note": "Buyid consolidation was part of the broader mid-10th century shift in Islamic political power"
+    },
+    {
+      "from": "950-003",
+      "to": "960-001",
+      "relation": "led_to",
+      "note": "Later Zhou military reforms in 950 facilitated the Northern Song unification in 960"
+    },
+    {
+      "from": "950-004",
+      "to": "936-001",
+      "relation": "contemporary_with",
+      "note": "Abd al-Rahman III's cultural patronage continued from his earlier proclamation as caliph"
+    }
+  ]
+}

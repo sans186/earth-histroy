@@ -1,0 +1,166 @@
+{
+  "year": 1331,
+  "year_label": "1331 CE",
+  "era_context": "The early 14th century in Eurasia was marked by the fragmentation of the Mongol Empire into competing khanates, the rise of the Ming Dynasty's precursors in China, the consolidation of Ottoman power in Anatolia, and the late medieval period in Europe characterised by feudal instability, dynastic conflicts, and the early stages of the Black Death's approach. Islamic civilisation remained vibrant across the Middle East and North Africa, while Indian sultanates competed for regional dominance.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records from this period)",
+    "Oceania and Pacific island societies",
+    "Northern Europe beyond major chronicles",
+    "Central Asian nomadic populations (sparse written documentation)"
+  ],
+  "events": [
+    {
+      "id": "1331-001",
+      "title": "Siege of Kallimere (Kallimere/Kallimeria) \u2014 Ottoman expansion in Bithynia",
+      "region": "Bithynia, Ottoman Empire (modern-day Turkey)",
+      "coordinates_approx": "40.5, 29.5",
+      "category": "military",
+      "description": "Ottoman forces under Osman I or his successor Orhan I besieged and captured the Byzantine fortress of Kallimere (also known as Kallimeria or Kalamaria), a strategic stronghold in northwestern Anatolia. This conquest was part of the systematic Ottoman expansion into former Byzantine territories during the early 14th century. The fall of Kallimere represented a significant step in Ottoman consolidation of Bithynia and demonstrated the military superiority of Ottoman forces over declining Byzantine garrisons. The capture contributed to the eventual Ottoman domination of the region and the erosion of Byzantine territorial control.",
+      "key_figures": [
+        "Orhan I (Ottoman Sultan, r. 1323\u20131362)",
+        "Osman I (Ottoman founder, d. 1323/1324)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (A\u015f\u0131kpa\u015fazade, Ne\u015fri); later Byzantine sources",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of Ottoman fortification layers",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ottoman expansion in this region is well-attested, but precise dating of individual fortress captures is often uncertain. Kallimere's fall is traditionally assigned to this period, but sources vary by 1\u20133 years.",
+      "cross_references": [
+        "Relates to broader Ottoman expansion documented in 1320s\u20131340s"
+      ]
+    },
+    {
+      "id": "1331-002",
+      "title": "Famine and plague conditions in China \u2014 Yuan Dynasty crisis",
+      "region": "China, Yuan Dynasty",
+      "coordinates_approx": "35.0, 105.0",
+      "category": "demographic",
+      "description": "The Yuan Dynasty under the Mongol Khanate experienced severe famine, disease, and social unrest in 1331 and surrounding years. Contemporary Chinese sources record widespread crop failures, flooding, and the outbreak of epidemic disease (possibly plague or cholera) across northern and central China. These catastrophes killed hundreds of thousands and contributed to the destabilisation of Yuan rule. The famines and epidemics are documented in Yuan official records and later Ming histories, and they coincided with the early stages of what would become the Black Death pandemic. These disasters fuelled peasant rebellions and accelerated the decline of Mongol authority in China.",
+      "key_figures": [
+        "Toghon Tem\u00fcr (Emperor Wenzong of Yuan, r. 1328\u20131332)"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shi (Official History of the Yuan Dynasty), compiled by Ming historians",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary Chinese local records and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Famine and disease in Yuan China in 1331 are well-documented in multiple sources. The dating is secure within \u00b11 year.",
+      "cross_references": [
+        "Part of broader Black Death pandemic origins (1340s\u20131350s)",
+        "Precursor to Ming Dynasty rise (1368)"
+      ]
+    },
+    {
+      "id": "1331-003",
+      "title": "Battle of Halidon Hill \u2014 English victory in Scottish Wars",
+      "region": "Halidon Hill, Scottish Borders (modern-day Scotland/England border)",
+      "coordinates_approx": "55.75, -2.25",
+      "category": "military",
+      "description": "English forces under Edward III defeated a Scottish army commanded by Archibald Douglas at Halidon Hill on 19 July 1331. The English employed massed longbowmen in a defensive formation, inflicting heavy casualties on the Scottish cavalry and infantry. The victory secured English control over the border region and supported the claim of Edward Balliol (a rival claimant to the Scottish throne) against David II. Halidon Hill demonstrated the tactical superiority of English longbow formations and became a model for English military doctrine in the Hundred Years' War. The battle was a significant moment in the Anglo-Scottish conflict and reinforced English dominance in the north.",
+      "key_figures": [
+        "Edward III (King of England, r. 1327\u20131377)",
+        "Archibald Douglas (Scottish commander)",
+        "Edward Balliol (claimant to Scottish throne)"
+      ],
+      "sources": [
+        {
+          "name": "Froissart, Chronicles (compiled later but based on contemporary accounts)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "English royal records and writs",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Scottish chronicles (Fordun, Wyntoun)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date, location, and outcome of Halidon Hill are well-documented in contemporary English records and near-contemporary chronicles. The dating is secure.",
+      "cross_references": [
+        "Part of the Wars of Scottish Independence (1296\u20131357)",
+        "Precursor to Hundred Years' War tactics (1337\u20131453)"
+      ]
+    },
+    {
+      "id": "1331-004",
+      "title": "Reign of Toghon Tem\u00fcr (Wenzong) \u2014 Yuan Dynasty political instability",
+      "region": "Yuan Dynasty, China and Mongolia",
+      "coordinates_approx": "40.0, 100.0",
+      "category": "political",
+      "description": "Toghon Tem\u00fcr (Emperor Wenzong) ruled the Yuan Dynasty from 1328 to 1332, a period marked by factional conflict, administrative corruption, and the early stages of the dynasty's decline. In 1331, his reign was characterised by struggles between Mongol and Han Chinese bureaucratic factions, financial instability, and the aforementioned famines and epidemics. Wenzong attempted administrative reforms but lacked the authority to enforce them effectively. His reign exemplified the broader crisis of Yuan governance in the early 14th century, as Mongol rule over China became increasingly contested and unstable.",
+      "key_figures": [
+        "Toghon Tem\u00fcr (Emperor Wenzong of Yuan)",
+        "Bayan of the Merkits (powerful Mongol official)"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shi (Official History of the Yuan Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary Yuan official records and edicts",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Wenzong's reign dates and major political events are well-documented in Yuan records.",
+      "cross_references": [
+        "Part of Yuan Dynasty decline (1330s\u20131360s)",
+        "Related to 1331-002 (famines and epidemics)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of Halidon Hill has been somewhat revised by modern scholarship. While traditionally presented as a decisive turning point in Anglo-Scottish relations, recent historians note that the battle's long-term strategic impact was limited; Scottish independence was ultimately secured despite this English victory, and Edward Balliol's claim to the Scottish throne proved unsustainable. The battle is better understood as one episode in a prolonged conflict rather than a watershed moment. Additionally, the precise casualty figures reported in contemporary chronicles are likely exaggerated.",
+  "historiographic_note": "Documentation for 1331 is uneven. European sources (particularly English chronicles) are relatively rich for military and political events. Chinese sources are abundant but often compiled centuries later (Yuan Shi was written by Ming historians). Islamic and Ottoman sources are sparser and often later compilations. Sub-Saharan Africa, Oceania, and much of Central Asia are essentially undocumented for this specific year. The surviving record is heavily weighted toward elite political and military history; economic, social, and cultural history are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "1331-001",
+      "to": "1340s-Ottoman_expansion",
+      "relation": "part_of",
+      "note": "Kallimere's capture is part of systematic Ottoman territorial consolidation in Anatolia"
+    },
+    {
+      "from": "1331-002",
+      "to": "1340s-Black_Death_pandemic",
+      "relation": "led_to",
+      "note": "Yuan famines and epidemics of 1331 are among the earliest documented outbreaks of plague that would become the Black Death"
+    },
+    {
+      "from": "1331-003",
+      "to": "1337-Hundred_Years_War",
+      "relation": "part_of",
+      "note": "Halidon Hill demonstrated longbow tactics that would define English strategy in the Hundred Years' War"
+    },
+    {
+      "from": "1331-004",
+      "to": "1368-Ming_Dynasty_founding",
+      "relation": "led_to",
+      "note": "Wenzong's weak rule contributed to Yuan decline and eventual Ming conquest"
+    }
+  ]
+}

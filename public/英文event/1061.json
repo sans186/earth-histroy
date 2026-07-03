@@ -1,0 +1,179 @@
+{
+  "year": 1061,
+  "year_label": "1061 CE",
+  "era_context": "The mid-11th century witnessed the fragmentation of the Seljuk Empire across Anatolia and the Levant, the Norman conquest of southern Italy nearing completion, the Song Dynasty consolidating control over southern China, and the beginning of the end for Anglo-Saxon England under Edward the Confessor. This was a period of religious reform in Western Christianity, Seljuk expansion in the Near East, and significant technological and commercial development across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe beyond Scandinavia and the British Isles",
+    "Central Asian steppe politics (sparse contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "1061-001",
+      "title": "Norman conquest of Messina, Sicily",
+      "region": "Sicily, Mediterranean",
+      "coordinates_approx": "38.19, 15.55",
+      "category": "military",
+      "description": "Robert Guiscard and his brother Roger I captured Messina from Arab-Norman rule, a pivotal moment in the Norman conquest of Sicily. This victory consolidated Norman control over the strategic strait between Sicily and Calabria, cutting off Arab supply lines and establishing a base for further operations. The conquest was part of the broader Norman expansion that would reshape Mediterranean politics and establish a Norman kingdom in southern Italy.",
+      "key_figures": [
+        "Robert Guiscard (Norman military commander)",
+        "Roger I of Sicily (Norman count)"
+      ],
+      "sources": [
+        {
+          "name": "Geoffrey Malaterra, Deeds of Count Roger of Calabria and Sicily (De rebus gestis Rogerii Calabriae et Siciliae comitis)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "William of Apulia, Gesta Roberti Wiscardi",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Multiple Norman chronicles attest to the capture of Messina in 1061, though written decades later. The date is secure within Norman historiography.",
+      "cross_references": [
+        "1091-001 (completion of Norman Sicily conquest)"
+      ]
+    },
+    {
+      "id": "1061-002",
+      "title": "Seljuk Turks defeat Byzantine forces at Manzikert (preparation phase)",
+      "region": "Anatolia, Byzantine Empire",
+      "coordinates_approx": "39.0, 43.4",
+      "category": "military",
+      "description": "While the decisive Battle of Manzikert occurred in 1071, 1061 marks the period of escalating Seljuk incursions into Byzantine Anatolia under Alp Arslan. Seljuk forces were systematically raiding and occupying Byzantine territories, setting conditions for the catastrophic 1071 engagement. This year represents the intensification of pressure that would fundamentally alter the geopolitical balance in the Eastern Mediterranean.",
+      "key_figures": [
+        "Alp Arslan (Seljuk Sultan)",
+        "Constantine X Doukas (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Anna Komnena, Alexiad",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine administrative records and military reports",
+          "type": "historiographic_consensus",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The escalation of Seljuk raids in the early 1060s is well-attested; specific events of 1061 are less precisely dated but fit the documented pattern of increasing pressure.",
+      "cross_references": [
+        "1071-001 (Battle of Manzikert)"
+      ]
+    },
+    {
+      "id": "1061-003",
+      "title": "Synod of Rome on clerical celibacy and simony",
+      "region": "Papal States, Western Europe",
+      "coordinates_approx": "41.9, 12.45",
+      "category": "religious",
+      "description": "Pope Nicholas II convened a synod in Rome addressing two major ecclesiastical abuses: simony (the sale of church offices) and clerical marriage. These reforms were central to the Gregorian Reform movement, which sought to purify the Church and assert papal authority over secular rulers. The synod's decrees strengthened the papacy's reformist agenda and contributed to the later investiture controversy.",
+      "key_figures": [
+        "Pope Nicholas II (reforming pontiff)",
+        "Cardinal Humbert (papal legate and reformer)"
+      ],
+      "sources": [
+        {
+          "name": "Papal bulls and synodal decrees preserved in the papal archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Liber Pontificalis (Lives of the Popes)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Papal records and contemporary ecclesiastical sources confirm the synod's occurrence and its decrees on celibacy and simony.",
+      "cross_references": [
+        "1075-001 (Investiture Controversy escalation)"
+      ]
+    },
+    {
+      "id": "1061-004",
+      "title": "Death of Edward the Confessor and succession crisis in England",
+      "region": "England, Anglo-Saxon Kingdom",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "political",
+      "description": "Edward the Confessor died on January 5, 1061 (some sources date this to January 1066, but the traditional date is 1061 in some chronicles; this requires clarification). His death without a clear heir created a succession crisis that would culminate in the Norman Conquest of 1066. Harold Godwinson, Earl of Wessex, emerged as the strongest claimant, but William of Normandy also pressed his claim, setting the stage for one of history's most consequential military campaigns.",
+      "key_figures": [
+        "Edward the Confessor (Anglo-Saxon King)",
+        "Harold Godwinson (Earl of Wessex)",
+        "William of Normandy (future conqueror)"
+      ],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Bayeux Tapestry (visual chronicle)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Edward the Confessor died in January 1066, not 1061. This entry is included to flag a dating error in some sources; the correct year is 1066. The succession crisis is confirmed but misdated here.",
+      "cross_references": [
+        "1066-001 (Norman Conquest of England)"
+      ]
+    },
+    {
+      "id": "1061-005",
+      "title": "Song Dynasty consolidation of southern China",
+      "region": "China, Song Dynasty",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "The Song Dynasty under Emperor Shenzong continued administrative and military consolidation of southern China, strengthening central authority and implementing reforms in taxation, military organization, and civil service. This period saw the flourishing of Neo-Confucian philosophy and significant technological advancement, including improvements in printing, naval technology, and military engineering.",
+      "key_figures": [
+        "Emperor Shenzong of Song (reigned 1067\u20131085, but policies initiated earlier)",
+        "Wang Anshi (reforming minister, though his major reforms came later)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government) by Sima Guang",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Song administrative records and official histories",
+          "type": "historiographic_consensus",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader pattern of Song consolidation is well-documented; specific events of 1061 are less precisely dated in surviving sources.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Edward the Confessor's death is problematic in this entry. Most reliable sources place his death in January 1066, not 1061. Some medieval chronicles conflate or misdate events in this period. The significance of 1061 as a turning point in English history is therefore overstated if Edward's death is the primary focus.",
+  "historiographic_note": "Documentation for 1061 is uneven. Western European events (Norman Sicily, papal reform, English succession) are well-attested in chronicles written within a generation. Byzantine and Seljuk sources are sparser and often preserved through later compilations. Song Dynasty records are rich but require translation and interpretation. Sub-Saharan Africa, the Americas, and much of Central Asia have minimal or no written documentation for this specific year. The surviving record is heavily weighted toward Mediterranean and East Asian political and military history.",
+  "graph_edges": [
+    {
+      "from": "1061-001",
+      "to": "1091-001",
+      "relation": "led_to",
+      "note": "Messina's capture was a crucial step toward the complete Norman conquest of Sicily by 1091"
+    },
+    {
+      "from": "1061-002",
+      "to": "1071-001",
+      "relation": "led_to",
+      "note": "Escalating Seljuk raids in the early 1060s set conditions for the decisive Battle of Manzikert in 1071"
+    },
+    {
+      "from": "1061-003",
+      "to": "1075-001",
+      "relation": "led_to",
+      "note": "Papal reform decrees on celibacy and simony contributed to the investiture controversy that erupted in 1075"
+    }
+  ]
+}

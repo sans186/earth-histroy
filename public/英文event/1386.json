@@ -1,0 +1,149 @@
+{
+  "year": 1386,
+  "year_label": "1386 CE",
+  "era_context": "Late medieval Europe in the final decades before the Renaissance. The Ottoman Empire is consolidating power in the Balkans and Anatolia. China under the Ming Dynasty (established 1368) is in its early consolidation phase under the Hongwu Emperor. The Hundred Years' War between England and France continues with shifting fortunes. The Iberian Peninsula remains fragmented among Christian kingdoms and the Nasrid Emirate of Granada.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Central Asia and the Steppe (sparse documentation outside major trade routes)",
+    "Oceania and Pacific islands (minimal written records)"
+  ],
+  "events": [
+    {
+      "id": "1386-001",
+      "title": "Battle of Plo\u010dnik",
+      "region": "Serbia (Ottoman-Serbian frontier)",
+      "coordinates_approx": "43.65, 21.65",
+      "category": "military",
+      "description": "Ottoman forces under Murat I defeated Serbian forces at Plo\u010dnik, marking a significant Ottoman advance into the Balkans. This victory consolidated Ottoman control over central Serbia and demonstrated the military superiority of Ottoman cavalry tactics over feudal Serbian forces. The battle was part of the broader Ottoman conquest of the Balkans that would culminate in the Battle of Kosovo in 1389.",
+      "key_figures": [
+        "Murat I (Ottoman Sultan)",
+        "Serbian nobility (collective)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (later compilation, 16th-17th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Serbian historical tradition and historiographic consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The battle is attested in Ottoman and Serbian sources, but contemporary documentation is limited. Dating to 1386 is accepted by modern scholarship, though some sources place it in 1385 or 1387.",
+      "cross_references": [
+        "1389-001 (Battle of Kosovo, continuation of Ottoman expansion)"
+      ]
+    },
+    {
+      "id": "1386-002",
+      "title": "Marriage of John of Gaunt and Katherine Swynford",
+      "region": "England",
+      "coordinates_approx": "52.5, -1.5",
+      "category": "political",
+      "description": "John of Gaunt, Duke of Lancaster and son of Edward III, married Katherine Swynford, legitimizing their long-standing relationship and their children. This marriage had significant political implications for English succession, as their children (the Beauforts) would later play crucial roles in English politics and the Tudor dynasty. The marriage reflected the changing social dynamics of the English nobility.",
+      "key_figures": [
+        "John of Gaunt (Duke of Lancaster)",
+        "Katherine Swynford",
+        "Richard II (King of England, nephew of Gaunt)"
+      ],
+      "sources": [
+        {
+          "name": "Froissart's Chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "English royal records and genealogies",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Well-documented in English royal records and contemporary chronicles. The date is firmly established.",
+      "cross_references": [
+        "1399-001 (Henry Bolingbroke's usurpation, Beaufort connection)"
+      ]
+    },
+    {
+      "id": "1386-003",
+      "title": "Hongwu Emperor's Compilation of the Hongwu Code",
+      "region": "China (Ming Dynasty)",
+      "coordinates_approx": "32.06, 118.80",
+      "category": "legal",
+      "description": "The Hongwu Emperor continued refinement of the legal code that would become the foundation of Ming Dynasty law. The code emphasized Confucian principles, centralized imperial authority, and harsh punishments for corruption. This legal framework would influence Chinese governance for centuries and represented the Hongwu Emperor's effort to establish a stable, bureaucratic state after the collapse of Mongol Yuan rule.",
+      "key_figures": [
+        "Hongwu Emperor (Zhu Yuanzhang)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Hongwu Code texts and commentaries",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Hongwu Code was compiled over several years (1370s-1390s). Attribution to 1386 specifically is approximate; the code was finalized and promulgated in 1397.",
+      "cross_references": []
+    },
+    {
+      "id": "1386-004",
+      "title": "Zheng He's Early Career in Ming Service",
+      "region": "China (Ming Dynasty)",
+      "coordinates_approx": "32.06, 118.80",
+      "category": "political",
+      "description": "Zheng He, the future admiral and explorer, was serving in the household of the Yongle Prince (later the Yongle Emperor) during this period. Though his famous voyages would not begin until 1405, his rise in the Ming court during the 1380s-1390s established the connections and authority that would enable his later expeditions. This period saw his consolidation of power and influence within the imperial household.",
+      "key_figures": [
+        "Zheng He (eunuch admiral, early career)",
+        "Yongle Prince (future emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Later biographical compilations on Zheng He",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Zheng He's early career is less well-documented than his later voyages. The exact timeline of his rise is inferred from later sources.",
+      "cross_references": [
+        "1405-001 (Zheng He's first voyage)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Battle of Plo\u010dnik's date is disputed in some sources, with alternative dates of 1385 or 1387 appearing in different Ottoman and Serbian chronicles. The significance of this battle has sometimes been overstated in nationalist historiography; while important, it was one of several Ottoman victories rather than a decisive turning point. Modern scholarship emphasizes that Ottoman expansion was gradual rather than a sudden conquest.",
+  "historiographic_note": "Documentation for 1386 is uneven. European events are well-recorded in chronicles and royal records, particularly for England and the Ottoman-Balkan frontier. Chinese sources are rich and contemporary. However, the Ottoman sources are primarily later compilations, introducing dating uncertainty. African, American, and Oceanic histories are largely absent from surviving written records for this year. The surviving sources reflect elite, court-centered perspectives and may underrepresent popular movements, economic conditions, and non-literate societies.",
+  "graph_edges": [
+    {
+      "from": "1386-001",
+      "to": "1389-001",
+      "relation": "led_to",
+      "note": "Battle of Plo\u010dnik was part of the Ottoman campaign that culminated in the Battle of Kosovo"
+    },
+    {
+      "from": "1386-002",
+      "to": "1399-001",
+      "relation": "led_to",
+      "note": "Legitimization of Beaufort children influenced succession politics leading to Bolingbroke's usurpation"
+    },
+    {
+      "from": "1386-004",
+      "to": "1405-001",
+      "relation": "led_to",
+      "note": "Zheng He's early career advancement enabled his later voyages"
+    }
+  ]
+}

@@ -121,18 +121,18 @@ export default {
     style.textContent = `
       #traj-toggle {
         position: fixed; left: 10px; top: 100px; z-index: 110;
-        background: rgba(10,10,26,0.88); border: 1px solid #3a3a5a; border-radius: 6px;
-        color: #ccc; font-size: 13px; padding: 6px 10px; cursor: pointer;
+        background: var(--bg-panel); border: 1px solid var(--border-secondary); border-radius: 6px;
+        color: var(--btn-text); font-size: 13px; padding: 6px 10px; cursor: pointer;
         transition: left 0.25s ease, background 0.2s, border-color 0.2s, color 0.2s; font-family: inherit; line-height: 1;
       }
-      #traj-toggle:hover { background: #3a3a5a; color: #fff; }
-      #traj-toggle.active { background: #4a60af; border-color: #6a80cf; color: #fff; }
+      #traj-toggle:hover { background: var(--btn-hover); color: var(--text-white); }
+      #traj-toggle.active { background: var(--accent-blue); border-color: var(--border-accent-hover); color: var(--text-white); }
 
       #traj-list {
         position: fixed; left: 0; top: 0; bottom: 200px; width: 0;
         z-index: 105; overflow: hidden;
-        background: rgba(10,10,26,0.92);
-        border-right: 1px solid #3a3a5a;
+        background: var(--bg-panel-solid);
+        border-right: 1px solid var(--border-secondary);
         display: flex; flex-direction: column;
         transition: width 0.25s ease;
       }
@@ -140,28 +140,28 @@ export default {
       @media (max-width: 768px) { #traj-list.open { width: 240px; } }
 
       #traj-list .tl-header {
-        padding: 10px 14px; border-bottom: 1px solid #2a2a4a; flex-shrink: 0;
+        padding: 10px 14px; border-bottom: 1px solid var(--divider); flex-shrink: 0;
       }
       #traj-list .tl-header h3 {
-        color: #ffd700; font-size: 15px; margin: 0 0 4px;
+        color: var(--accent-gold); font-size: 15px; margin: 0 0 4px;
       }
       #traj-list .tl-sub {
-        color: #888; font-size: 11px;
+        color: var(--text-dim); font-size: 11px;
       }
       #traj-list .tl-search {
         width: 100%; box-sizing: border-box; margin-top: 6px;
-        background: #1a1a3e; border: 1px solid #4a4a7a; border-radius: 14px;
-        color: #ddd; font-size: 12px; padding: 4px 10px; font-family: inherit;
+        background: var(--bg-input); border: 1px solid var(--border-input); border-radius: 14px;
+        color: var(--text-primary); font-size: 12px; padding: 4px 10px; font-family: inherit;
         outline: none;
       }
-      #traj-list .tl-search:focus { border-color: #6a80cf; }
-      #traj-list .tl-search::placeholder { color: #555; }
+      #traj-list .tl-search:focus { border-color: var(--border-accent-hover); }
+      #traj-list .tl-search::placeholder { color: var(--filter-dot-border); }
 
       #traj-list .tl-list {
         flex: 1; overflow-y: auto; padding: 6px 0;
       }
       #traj-list .tl-list::-webkit-scrollbar { width: 4px; }
-      #traj-list .tl-list::-webkit-scrollbar-thumb { background: #4a4a7a; border-radius: 2px; }
+      #traj-list .tl-list::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 2px; }
 
       #traj-list .tl-item {
         padding: 8px 14px; cursor: pointer;
@@ -170,17 +170,17 @@ export default {
       #traj-list .tl-item:hover { background: rgba(255,215,0,0.1); }
       #traj-list .tl-item.active {
         background: rgba(255,215,0,0.15);
-        border-left-color: #ffd700;
+        border-left-color: var(--accent-gold);
       }
       #traj-list .tl-name {
-        font-size: 14px; color: #ffd700; font-weight: bold;
+        font-size: 14px; color: var(--accent-gold); font-weight: bold;
       }
       #traj-list .tl-life {
-        font-size: 11px; color: #888; margin-left: 6px;
+        font-size: 11px; color: var(--text-dim); margin-left: 6px;
       }
       #traj-list .tl-nationality {
         display: inline-block; font-size: 10px; padding: 1px 6px;
-        border-radius: 8px; background: rgba(138,180,248,0.15); color: #8ab4f8;
+        border-radius: 8px; background: rgba(138,180,248,0.15); color: var(--text-link);
         margin-left: 4px;
       }
       #traj-list .tl-stops {
@@ -196,8 +196,8 @@ export default {
       #traj-panel > * { pointer-events: auto; }
 
       #traj-panel .traj-inner {
-        background: rgba(10,10,26,0.94);
-        border: 1px solid #3a3a5a; border-radius: 12px;
+        background: var(--bg-panel-solid);
+        border: 1px solid var(--border-secondary); border-radius: 12px;
         padding: 8px 14px;
         backdrop-filter: blur(8px);
         min-width: 480px; max-width: 720px;
@@ -208,10 +208,10 @@ export default {
       #traj-panel .traj-row + .traj-row { margin-top: 4px; }
 
       #traj-panel .traj-person-badge {
-        color: #ffd700; font-size: 13px; font-weight: bold; white-space: nowrap;
+        color: var(--accent-gold); font-size: 13px; font-weight: bold; white-space: nowrap;
       }
       #traj-panel .traj-life {
-        color: #888; font-size: 11px; white-space: nowrap;
+        color: var(--text-dim); font-size: 11px; white-space: nowrap;
       }
       #traj-panel .traj-progress {
         color: #aaa; font-size: 12px; white-space: nowrap; margin-left: auto;
@@ -220,36 +220,36 @@ export default {
         display: flex; align-items: center; gap: 6px; flex-wrap: wrap; flex: 1;
       }
       #traj-panel .traj-place-name {
-        color: #8ab4f8; font-size: 14px; font-weight: bold;
+        color: var(--text-link); font-size: 14px; font-weight: bold;
       }
       #traj-panel .traj-place-year {
-        color: #888; font-size: 11px;
+        color: var(--text-dim); font-size: 11px;
       }
       #traj-panel .traj-place-title {
         display: inline-block; font-size: 10px; padding: 1px 6px;
-        border-radius: 8px; background: rgba(138,180,248,0.15); color: #8ab4f8;
+        border-radius: 8px; background: rgba(138,180,248,0.15); color: var(--text-link);
       }
       #traj-panel .traj-btns {
         display: flex; align-items: center; gap: 4px;
       }
       #traj-panel .traj-btn {
-        background: #2a2a4a; border: 1px solid #4a4a7a;
-        color: #ccc; padding: 5px 10px; border-radius: 5px;
+        background: var(--btn-bg); border: 1px solid var(--btn-border);
+        color: var(--btn-text); padding: 5px 10px; border-radius: 5px;
         cursor: pointer; font-size: 14px; line-height: 1;
         transition: all 0.15s;
       }
-      #traj-panel .traj-btn:hover { background: #3a3a5a; color: #fff; }
-      #traj-panel .traj-btn.playing { background: #c0392b; border-color: #e74c3c; }
+      #traj-panel .traj-btn:hover { background: var(--btn-hover); color: var(--text-white); }
+      #traj-panel .traj-btn.playing { background: var(--accent-red); border-color: var(--accent-red-border); }
       #traj-panel .traj-btn:disabled { opacity: 0.3; cursor: not-allowed; }
 
       /* Detail card */
       #traj-card {
         position: fixed; top: 50%; right: 20px; transform: translateY(-50%);
-        background: linear-gradient(145deg, #1a1a2e 0%, #16213e 100%);
-        border: 1px solid #ffd70055; border-radius: 14px;
+        background: linear-gradient(145deg, var(--bg-card-start) 0%, var(--bg-card-end) 100%);
+        border: 1px solid rgba(255,215,0,0.33); border-radius: 14px;
         z-index: 1000; width: 420px; max-width: 90vw; max-height: 85vh;
-        box-shadow: 0 12px 50px rgba(0,0,0,0.8);
-        display: none; color: #e0e0e0; overflow: hidden;
+        box-shadow: 0 12px 50px var(--card-shadow);
+        display: none; color: var(--text-primary); overflow: hidden;
         flex-direction: column;
       }
       #traj-card.visible { display: flex; animation: cardFadeIn 0.25s ease-out; }
@@ -258,72 +258,72 @@ export default {
         to   { opacity: 1; transform: translateY(-50%) translateX(0); }
       }
       #traj-card .tc-header {
-        padding: 14px 18px 10px; border-bottom: 1px solid #2a2a4a;
+        padding: 14px 18px 10px; border-bottom: 1px solid var(--divider);
         display: flex; justify-content: space-between; align-items: flex-start;
         flex-shrink: 0;
       }
-      #traj-card .tc-header h3 { color: #ffd700; font-size: 17px; margin: 0; padding-right: 16px; }
+      #traj-card .tc-header h3 { color: var(--accent-gold); font-size: 17px; margin: 0; padding-right: 16px; }
       #traj-card .tc-header .close-btn {
-        background: none; border: none; color: #777; font-size: 18px;
+        background: none; border: none; color: var(--text-faint); font-size: 18px;
         cursor: pointer; padding: 0; line-height: 1;
       }
-      #traj-card .tc-header .close-btn:hover { color: #fff; }
+      #traj-card .tc-header .close-btn:hover { color: var(--text-white); }
       #traj-card .tc-body {
         padding: 10px 18px 16px; overflow-y: auto; flex: 1;
       }
       #traj-card .tc-body::-webkit-scrollbar { width: 4px; }
-      #traj-card .tc-body::-webkit-scrollbar-thumb { background: #4a4a7a; border-radius: 2px; }
+      #traj-card .tc-body::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 2px; }
 
       #traj-card .tc-meta { display: flex; gap: 10px; margin-bottom: 8px; align-items: center; flex-wrap: wrap; }
       #traj-card .tc-year-badge {
-        color: #8ab4f8; font-size: 14px; font-weight: bold;
-        background: rgba(138,180,248,0.12); padding: 2px 10px; border-radius: 10px;
+        color: var(--text-link); font-size: 14px; font-weight: bold;
+        background: var(--accent-blue-bg); padding: 2px 10px; border-radius: 10px;
       }
       #traj-card .tc-title-badge {
         font-size: 11px; padding: 2px 10px; border-radius: 10px;
-        background: rgba(255,215,0,0.15); color: #ffd700;
+        background: rgba(255,215,0,0.15); color: var(--accent-gold);
       }
-      #traj-card .tc-place { font-size: 22px; color: #fff; margin-bottom: 4px; }
-      #traj-card .tc-coords { font-size: 11px; color: #666; margin-bottom: 8px; }
+      #traj-card .tc-place { font-size: 22px; color: var(--text-white); margin-bottom: 4px; }
+      #traj-card .tc-coords { font-size: 11px; color: var(--text-very-faint); margin-bottom: 8px; }
       #traj-card .tc-desc { font-size: 13px; color: #bbb; line-height: 1.7; }
 
       /* Evaluation tabs */
-      #traj-card .tc-eval { margin-top: 12px; border-top: 1px solid #2a2a4a; padding-top: 10px; }
+      #traj-card .tc-eval { margin-top: 12px; border-top: 1px solid var(--divider); padding-top: 10px; }
       #traj-card .tc-eval-label {
-        font-size: 10px; color: #666; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px;
+        font-size: 10px; color: var(--text-very-faint); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px;
       }
       #traj-card .tc-eval-tabs { display: flex; gap: 4px; margin-bottom: 8px; }
       #traj-card .tc-eval-tab {
         font-size: 11px; padding: 3px 10px; border-radius: 12px; cursor: pointer;
-        background: rgba(138,180,248,0.08); color: #777;
+        background: rgba(138,180,248,0.08); color: var(--text-faint);
         border: 1px solid transparent; transition: all 0.15s; user-select: none;
       }
       #traj-card .tc-eval-tab:hover { background: rgba(138,180,248,0.18); color: #aaa; }
       #traj-card .tc-eval-tab.active {
-        background: rgba(255,215,0,0.15); color: #ffd700; border-color: #ffd70055;
+        background: rgba(255,215,0,0.15); color: var(--accent-gold); border-color: rgba(255,215,0,0.33);
       }
       #traj-card .tc-eval-text { font-size: 12px; color: #aaa; line-height: 1.6; }
 
       /* Quotes */
-      #traj-card .tc-quotes { margin-top: 10px; border-top: 1px solid #2a2a4a; padding-top: 10px; }
+      #traj-card .tc-quotes { margin-top: 10px; border-top: 1px solid var(--divider); padding-top: 10px; }
       #traj-card .tc-quote-item { margin-bottom: 8px; }
       #traj-card .tc-quote-label {
-        font-size: 10px; color: #666; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 2px;
+        font-size: 10px; color: var(--text-very-faint); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 2px;
       }
       #traj-card .tc-quote-text {
         font-size: 12px; color: #ffd700aa; font-style: italic; line-height: 1.5;
       }
-      #traj-card .tc-quote-by { font-size: 10px; color: #666; margin-top: 1px; }
+      #traj-card .tc-quote-by { font-size: 10px; color: var(--text-very-faint); margin-top: 1px; }
 
       #traj-card .tc-nav {
         display: flex; gap: 6px; margin-top: 10px; padding-top: 10px;
-        border-top: 1px solid #2a2a4a;
+        border-top: 1px solid var(--divider);
       }
       #traj-card .tc-nav button {
-        flex: 1; background: #2a2a4a; border: 1px solid #4a4a7a; color: #ccc;
+        flex: 1; background: var(--btn-bg); border: 1px solid var(--btn-border); color: var(--btn-text);
         padding: 6px; border-radius: 5px; cursor: pointer; font-size: 12px;
       }
-      #traj-card .tc-nav button:hover { background: #3a3a5a; color: #fff; }
+      #traj-card .tc-nav button:hover { background: var(--btn-hover); color: var(--text-white); }
       #traj-card .tc-nav button:disabled { opacity: 0.3; cursor: not-allowed; }
 
       @media (max-width: 768px) {

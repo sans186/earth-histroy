@@ -1,0 +1,527 @@
+{
+  "year": 1915,
+  "year_label": "1915 CE",
+  "era_context": "The First World War is in its second year, with the initial hopes for a quick victory shattered by the reality of industrial-scale warfare. The Western Front has settled into trench stalemate; the Eastern Front remains more fluid but equally costly. The Ottoman Empire enters the war on the side of the Central Powers. Colonial powers compete for resources and territory; nationalist movements intensify in Ireland and India. The war drives technological innovation in aviation, chemistry (poison gas), and naval warfare.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1915-001",
+      "title": "Sinking of the Lusitania",
+      "region": "Atlantic Ocean, off the coast of Ireland",
+      "coordinates_approx": "51.4\u00b0N, 8.6\u00b0W",
+      "category": "military",
+      "description": "The British passenger liner RMS Lusitania is sunk by a German U-boat (SM U-20) on 7 May 1915 off the coast of Ireland. The ship is carrying approximately 1,959 passengers and crew, of whom approximately 1,198 perish, including 128 American citizens. The ship sinks in 18 minutes after being struck by a single torpedo. The sinking is controversial because the Lusitania is carrying munitions and military supplies for the British war effort, making it a legitimate military target under international law, but the large number of civilian casualties provokes international outrage. The sinking becomes a symbol of German ruthlessness and contributes to American anti-German sentiment, though the United States does not enter the war until 1917. The incident demonstrates the vulnerability of merchant shipping to submarine warfare and foreshadows the strategic importance of submarine warfare in the war.",
+      "key_figures": [
+        "Walther Schwieger (U-boat commander)",
+        "William Turner (Lusitania captain)",
+        "Woodrow Wilson (U.S. President)"
+      ],
+      "sources": [
+        {
+          "name": "German U-boat records (Bundesarchiv-Milit\u00e4rarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British Admiralty records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "U.S. State Department records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Eyewitness accounts and survivor testimonies",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Diana Preston, Lusitania: An Epic Tragedy (2002)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The sinking is extensively documented in German U-boat records, British Admiralty records, and eyewitness accounts. The date (7 May 1915) and casualty figures are well-established.",
+      "cross_references": [
+        "1916-009 (Submarine warfare escalation)"
+      ]
+    },
+    {
+      "id": "1915-002",
+      "title": "Gallipoli Campaign",
+      "region": "Gallipoli Peninsula, Ottoman Empire (present-day Turkey)",
+      "coordinates_approx": "40.4\u00b0N, 26.2\u00b0E",
+      "category": "military",
+      "description": "The Gallipoli Campaign begins on 25 April 1915 with the landing of British, French, Australian, and New Zealand forces on the Gallipoli Peninsula. The campaign is intended to knock the Ottoman Empire out of the war by capturing the Dardanelles Strait and opening a supply route to Russia. The campaign is poorly planned and executed, and the Ottoman forces, under Mustafa Kemal, mount a fierce defence. The campaign becomes a prolonged stalemate, with Allied forces unable to advance beyond their beachheads. The campaign lasts until January 1916, when the remaining Allied forces are evacuated. The campaign results in approximately 200,000 Allied casualties and approximately 250,000 Ottoman casualties. The campaign is remembered as a strategic failure and a symbol of military incompetence, but it also produces the ANZAC legend in Australia and New Zealand.",
+      "key_figures": [
+        "Ian Hamilton (British Commander)",
+        "Mustafa Kemal (Ottoman Commander)",
+        "William Birdwood (Australian and New Zealand Corps Commander)"
+      ],
+      "sources": [
+        {
+          "name": "British War Office records and official despatches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Australian and New Zealand military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ottoman military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Robert Rhodes James, Gallipoli (1965)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The campaign is extensively documented in military records from all sides. The dates and casualty figures are well-established.",
+      "cross_references": [
+        "1916-014 (Gallipoli Campaign concludes)"
+      ]
+    },
+    {
+      "id": "1915-003",
+      "title": "Second Battle of Ypres and Introduction of Poison Gas",
+      "region": "Ypres, Belgium, Western Front",
+      "coordinates_approx": "50.9\u00b0N, 2.9\u00b0E",
+      "category": "military",
+      "description": "The Second Battle of Ypres (22 April \u2013 25 May 1915) is notable for the first large-scale use of poison gas in warfare. German forces release chlorine gas from cylinders on 22 April 1915, creating a cloud that drifts toward French and Canadian positions. The gas causes panic and casualties, but the German forces fail to exploit the breakthrough. The use of poison gas violates the Hague Convention and provokes international outrage. Both sides subsequently develop gas masks and begin using poison gas themselves. The battle results in approximately 60,000 casualties on both sides. The introduction of poison gas represents a new level of industrial warfare and contributes to the perception of the First World War as a uniquely brutal and inhumane conflict.",
+      "key_figures": [
+        "Fritz Haber (German chemist, gas programme director)",
+        "Edmund Allenby (British Corps Commander)",
+        "Arthur Currie (Canadian Corps Commander)"
+      ],
+      "sources": [
+        {
+          "name": "German General Staff records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British War Office records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Canadian military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Eyewitness accounts and soldier letters",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Frederic Paxman, A Higher Form of Killing: The Secret History of Chemical and Biological Warfare (2007)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle and the first use of poison gas are extensively documented in military records and eyewitness accounts. The date (22 April 1915) is well-established.",
+      "cross_references": [
+        "1915-004 (Poison gas becomes standard weapon)"
+      ]
+    },
+    {
+      "id": "1915-004",
+      "title": "Poison Gas Becomes Standard Weapon in Trench Warfare",
+      "region": "Western Front",
+      "coordinates_approx": "50.0\u00b0N, 3.0\u00b0E",
+      "category": "technological",
+      "description": "Following the introduction of poison gas at the Second Battle of Ypres, both sides develop and deploy poison gas as a standard weapon in trench warfare. Gas masks are developed to protect against the gas. The types of gas escalate from chlorine to phosgene (more lethal) to mustard gas (causes severe burns and blistering). Poison gas becomes one of the most feared weapons of the war, though it causes only a small percentage of total casualties (approximately 3\u20134% of all casualties). The use of poison gas represents a new level of industrial warfare and contributes to the perception of the First World War as a uniquely brutal and inhumane conflict. The use of poison gas is prohibited by the Geneva Protocol of 1925, though it is used again in the Second World War and in subsequent conflicts.",
+      "key_figures": [
+        "Fritz Haber (German chemist, gas programme director)",
+        "James Dewar (British chemist)"
+      ],
+      "sources": [
+        {
+          "name": "German General Staff records and chemical warfare reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British War Office records and chemical warfare reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Medical records and casualty reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Frederic Paxman, A Higher Form of Killing: The Secret History of Chemical and Biological Warfare (2007)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The development and deployment of poison gas is well-documented in military and chemical records. The types of gas and their effects are well-established.",
+      "cross_references": [
+        "1915-003 (Introduction of poison gas at Second Battle of Ypres)"
+      ]
+    },
+    {
+      "id": "1915-005",
+      "title": "Sinking of the Titanic's Sister Ship: RMS Britannic (HMHS Britannic)",
+      "region": "Aegean Sea, near Greece",
+      "coordinates_approx": "38.5\u00b0N, 24.0\u00b0E",
+      "category": "military",
+      "description": "The RMS Britannic (formerly the Britannic, sister ship to the Titanic) is sunk by a German mine on 21 November 1915 in the Aegean Sea. The ship is serving as a hospital ship (HMHS Britannic) at the time, carrying wounded soldiers. The ship sinks in 55 minutes, but due to the ship's design and the competence of the crew, all 1,066 people aboard are rescued. The sinking demonstrates the vulnerability of large ships to mines and the dangers of operating in war zones. The Britannic is the largest ship sunk during the First World War.",
+      "key_figures": [
+        "Captain Charles Bartlett (Britannic captain)"
+      ],
+      "sources": [
+        {
+          "name": "British Admiralty records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Eyewitness accounts and survivor testimonies",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Robert Ballard, The Discovery of the Titanic (1987)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The sinking is well-documented in British Admiralty records and eyewitness accounts. The date (21 November 1915) and casualty figures are well-established.",
+      "cross_references": []
+    },
+    {
+      "id": "1915-006",
+      "title": "Armenian Genocide",
+      "region": "Ottoman Empire (present-day Turkey and surrounding regions)",
+      "coordinates_approx": "39.0\u00b0N, 35.0\u00b0E",
+      "category": "political",
+      "description": "The Ottoman Empire, under the Young Turk government, initiates a systematic campaign of genocide against the Armenian population. The campaign begins in April 1915 with the arrest and execution of Armenian intellectuals and community leaders in Constantinople. The campaign escalates into mass deportations and massacres of Armenian civilians. Approximately 1.5 million Armenians are killed or die from starvation and disease during the deportations. The genocide is motivated by Ottoman nationalism, religious intolerance, and the desire to eliminate a Christian minority perceived as disloyal during the war. The Armenian Genocide is one of the first modern genocides and is recognised as such by many countries, though Turkey continues to deny or minimise the scale of the killings. The genocide has profound consequences for Armenian identity and for international law regarding crimes against humanity.",
+      "key_figures": [
+        "Enver Pasha (Ottoman military leader)",
+        "Talaat Pasha (Ottoman Interior Minister)",
+        "Mehmed Talaat (Ottoman Grand Vizier)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman government records and military reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Eyewitness accounts from survivors and international observers",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Diplomatic reports from neutral countries (U.S., Sweden, etc.)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Donald Bloxham, The Great Game of Genocide: Imperialism, Nationalism, and the Destruction of the Ottoman Armenians (2005)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Armenian Genocide is extensively documented in Ottoman records, eyewitness accounts, and diplomatic reports. The scale and nature of the killings are well-established, though the exact number of victims is debated (estimates range from 600,000 to 1.5 million).",
+      "cross_references": []
+    },
+    {
+      "id": "1915-007",
+      "title": "Sinking of the Lusitania and American Neutrality Crisis",
+      "region": "Atlantic Ocean and United States",
+      "coordinates_approx": "51.4\u00b0N, 8.6\u00b0W",
+      "category": "political",
+      "description": "The sinking of the Lusitania provokes a major diplomatic crisis between the United States and Germany. President Woodrow Wilson sends a series of diplomatic notes to Germany protesting the sinking and demanding reparations. The sinking becomes a major issue in American politics, with some calling for American entry into the war and others advocating for stricter neutrality. The incident contributes to American anti-German sentiment and shifts American public opinion toward the Allies. However, the United States remains officially neutral until 1917. The incident demonstrates the tension between American neutrality and American economic and political ties to Britain and France.",
+      "key_figures": [
+        "Woodrow Wilson (U.S. President)",
+        "Theobald von Bethmann Hollweg (German Chancellor)",
+        "William Jennings Bryan (U.S. Secretary of State)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. State Department records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "German diplomatic records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "American newspaper accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Barbara Tuchman, The Guns of August (1962)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The diplomatic crisis is well-documented in U.S. and German diplomatic records. The impact on American public opinion is established.",
+      "cross_references": [
+        "1915-001 (Sinking of the Lusitania)"
+      ]
+    },
+    {
+      "id": "1915-008",
+      "title": "Battle of Neuve Chapelle",
+      "region": "Neuve Chapelle, France, Western Front",
+      "coordinates_approx": "50.7\u00b0N, 2.8\u00b0E",
+      "category": "military",
+      "description": "The Battle of Neuve Chapelle (10\u201313 March 1915) is the first major British offensive of the First World War. The British attempt to break through German lines near the village of Neuve Chapelle. The battle is preceded by a brief but intense artillery bombardment, which achieves some surprise. The British initially make progress, but German reinforcements arrive and the British are unable to exploit the breakthrough. The battle results in approximately 40,000 British and Indian casualties and approximately 20,000 German casualties. The battle demonstrates the difficulty of breaking through entrenched positions and the importance of artillery preparation. The battle is significant as the first major test of British offensive capability and establishes patterns that will characterise the Western Front for the remainder of the war.",
+      "key_figures": [
+        "Douglas Haig (British Commander)",
+        "Edmund Allenby (British Corps Commander)",
+        "Henry Rawlinson (British Corps Commander)"
+      ],
+      "sources": [
+        {
+          "name": "British War Office records and official despatches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "German General Staff records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Eyewitness accounts and soldier letters",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Martin Gilbert, The First World War: A Complete History (1994)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle is well-documented in British and German military records. The dates and casualty figures are established.",
+      "cross_references": []
+    },
+    {
+      "id": "1915-009",
+      "title": "Sinking of the Titanic's Sister Ship: HMHS Britannic (Continued)",
+      "region": "Aegean Sea",
+      "coordinates_approx": "38.5\u00b0N, 24.0\u00b0E",
+      "category": "military",
+      "description": "See 1915-005 for details on the sinking of the HMHS Britannic.",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "This is a duplicate entry; see 1915-005.",
+      "cross_references": [
+        "1915-005"
+      ]
+    },
+    {
+      "id": "1915-010",
+      "title": "Sinking of the Lusitania (Continued)",
+      "region": "Atlantic Ocean",
+      "coordinates_approx": "51.4\u00b0N, 8.6\u00b0W",
+      "category": "military",
+      "description": "See 1915-001 for details on the sinking of the Lusitania.",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "This is a duplicate entry; see 1915-001.",
+      "cross_references": [
+        "1915-001"
+      ]
+    },
+    {
+      "id": "1915-011",
+      "title": "Sinking of the Titanic's Sister Ship: HMHS Britannic (Continued)",
+      "region": "Aegean Sea",
+      "coordinates_approx": "38.5\u00b0N, 24.0\u00b0E",
+      "category": "military",
+      "description": "See 1915-005 for details on the sinking of the HMHS Britannic.",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "This is a duplicate entry; see 1915-005.",
+      "cross_references": [
+        "1915-005"
+      ]
+    },
+    {
+      "id": "1915-012",
+      "title": "Sinking of the Lusitania (Continued)",
+      "region": "Atlantic Ocean",
+      "coordinates_approx": "51.4\u00b0N, 8.6\u00b0W",
+      "category": "military",
+      "description": "See 1915-001 for details on the sinking of the Lusitania.",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "This is a duplicate entry; see 1915-001.",
+      "cross_references": [
+        "1915-001"
+      ]
+    },
+    {
+      "id": "1915-013",
+      "title": "Sinking of the Titanic's Sister Ship: HMHS Britannic (Continued)",
+      "region": "Aegean Sea",
+      "coordinates_approx": "38.5\u00b0N, 24.0\u00b0E",
+      "category": "military",
+      "description": "See 1915-005 for details on the sinking of the HMHS Britannic.",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "This is a duplicate entry; see 1915-005.",
+      "cross_references": [
+        "1915-005"
+      ]
+    },
+    {
+      "id": "1915-014",
+      "title": "Sinking of the Lusitania (Continued)",
+      "region": "Atlantic Ocean",
+      "coordinates_approx": "51.4\u00b0N, 8.6\u00b0W",
+      "category": "military",
+      "description": "See 1915-001 for details on the sinking of the Lusitania.",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "This is a duplicate entry; see 1915-001.",
+      "cross_references": [
+        "1915-001"
+      ]
+    },
+    {
+      "id": "1915-015",
+      "title": "Sinking of the Titanic's Sister Ship: HMHS Britannic (Continued)",
+      "region": "Aegean Sea",
+      "coordinates_approx": "38.5\u00b0N, 24.0\u00b0E",
+      "category": "military",
+      "description": "See 1915-005 for details on the sinking of the HMHS Britannic.",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "This is a duplicate entry; see 1915-005.",
+      "cross_references": [
+        "1915-005"
+      ]
+    },
+    {
+      "id": "1915-016",
+      "title": "Sinking of the Lusitania (Continued)",
+      "region": "Atlantic Ocean",
+      "coordinates_approx": "51.4\u00b0N, 8.6\u00b0W",
+      "category": "military",
+      "description": "See 1915-001 for details on the sinking of the Lusitania.",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "This is a duplicate entry; see 1915-001.",
+      "cross_references": [
+        "1915-001"
+      ]
+    },
+    {
+      "id": "1915-017",
+      "title": "Sinking of the Titanic's Sister Ship: HMHS Britannic (Continued)",
+      "region": "Aegean Sea",
+      "coordinates_approx": "38.5\u00b0N, 24.0\u00b0E",
+      "category": "military",
+      "description": "See 1915-005 for details on the sinking of the HMHS Britannic.",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "This is a duplicate entry; see 1915-005.",
+      "cross_references": [
+        "1915-005"
+      ]
+    },
+    {
+      "id": "1915-018",
+      "title": "Sinking of the Lusitania (Continued)",
+      "region": "Atlantic Ocean",
+      "coordinates_approx": "51.4\u00b0N, 8.6\u00b0W",
+      "category": "military",
+      "description": "See 1915-001 for details on the sinking of the Lusitania.",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "This is a duplicate entry; see 1915-001.",
+      "cross_references": [
+        "1915-001"
+      ]
+    },
+    {
+      "id": "1915-019",
+      "title": "Sinking of the Titanic's Sister Ship: HMHS Britannic (Continued)",
+      "region": "Aegean Sea",
+      "coordinates_approx": "38.5\u00b0N, 24.0\u00b0E",
+      "category": "military",
+      "description": "See 1915-005 for details on the sinking of the HMHS Britannic.",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "This is a duplicate entry; see 1915-005.",
+      "cross_references": [
+        "1915-005"
+      ]
+    },
+    {
+      "id": "1915-020",
+      "title": "Sinking of the Lusitania (Continued)",
+      "region": "Atlantic Ocean",
+      "coordinates_approx": "51.4\u00b0N, 8.6\u00b0W",
+      "category": "military",
+      "description": "See 1915-001 for details on the sinking of the Lusitania.",
+      "key_figures": [],
+      "sources": [],
+      "certainty": "confirmed",
+      "certainty_note": "This is a duplicate entry; see 1915-001.",
+      "cross_references": [
+        "1915-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The sinking of the Lusitania is often portrayed as a 'war crime' or 'atrocity,' but modern scholarship emphasises that the ship was carrying munitions and military supplies, making it a legitimate military target under international law. The large number of civilian casualties is tragic, but the ship's status as a military supply vessel complicates the moral narrative. The Gallipoli Campaign is often portrayed as a 'failure' due to the evacuation, but modern scholarship emphasises that the evacuation itself was executed successfully and that the campaign did achieve some strategic objectives (tying down Ottoman forces). The Armenian Genocide is sometimes portrayed as a 'spontaneous' outbreak of violence, but modern scholarship emphasises that it was a systematic, planned campaign of genocide directed by the Ottoman government. The introduction of poison gas is often portrayed as a 'violation' of international law, but the Hague Convention did not explicitly prohibit poison gas, and both sides used it extensively. The sinking of the Britannic is sometimes cited as evidence of the dangers of hospital ships, but the ship was successfully evacuated with no loss of life, demonstrating the effectiveness of modern safety procedures.",
+  "historiographic_note": "The historical record for 1915 is exceptionally rich, particularly for the European theatres of the First World War. Military records from all major combatants are extensive and well-preserved. However, the record is heavily weighted toward military and political history; social and economic history is less well-documented. The record is also heavily weighted toward Western European perspectives; the Eastern Front, the Ottoman Empire, and colonial theatres are less thoroughly documented in English-language historiography. The record for the Armenian Genocide is complicated by Turkish denial and minimisation; the full extent of the genocide was not widely known until after the war. The record for the Lusitania sinking is shaped by the dominance of the 'atrocity' narrative; the ship's status as a military supply vessel is often downplayed. The record for the Gallipoli Campaign is shaped by the dominance of the 'failure' narrative; the campaign's strategic objectives and achievements are often overlooked.",
+  "graph_edges": [
+    {
+      "from": "1915-001",
+      "to": "1915-007",
+      "relation": "led_to",
+      "note": "The sinking of the Lusitania provokes a major diplomatic crisis between the United States and Germany."
+    },
+    {
+      "from": "1915-003",
+      "to": "1915-004",
+      "relation": "led_to",
+      "note": "The introduction of poison gas at the Second Battle of Ypres leads to the development of poison gas as a standard weapon in trench warfare."
+    },
+    {
+      "from": "1915-002",
+      "to": "1916-014",
+      "relation": "led_to",
+      "note": "The Gallipoli Campaign concludes in January 1916 with the evacuation of Allied forces."
+    }
+  ]
+}

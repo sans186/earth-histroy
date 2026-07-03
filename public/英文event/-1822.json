@@ -1,0 +1,59 @@
+{
+  "year": -1822,
+  "year_label": "1823 BCE",
+  "era_context": "Middle Bronze Age; the reign of Amenemhat III in Egypt (or possibly the final years of his reign or the beginning of the reign of his successor, depending on chronological system). In Mesopotamia, the period following the fall of Hammurabi's dynasty is marked by political fragmentation and the rise of regional powers. The Hittite Old Kingdom is active in Anatolia. The Indus Valley Civilization is in its mature phase. In China, the traditional Xia Dynasty is dated to this period.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-1822-001",
+      "title": "Possible transition in Egyptian 12th Dynasty leadership",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "This year may fall near the end of Amenemhat III's reign or the beginning of his successor's reign, depending on the chronological system used. The exact dates of the transition are uncertain. The 12th Dynasty is entering its final phase, and within a few decades, Egypt will fragment into the Second Intermediate Period. The transition is marked by a gradual decline in centralized authority and the rise of regional governors.",
+      "key_figures": [
+        "Amenemhat III (Pharaoh of Egypt, possibly in final years)",
+        "Amenemhat IV (possible successor, if reign begins near this date)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from temple and administrative sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The dating of the transition between Amenemhat III and his successor is uncertain by \u00b120\u201330 years. This year is assigned by convention within the estimated range of the transition.",
+      "cross_references": [
+        "-1820-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of the transition between Amenemhat III and his successor is disputed. Some scholars place Amenemhat III's death c. 1814 BCE; others place it c. 1805 BCE or even later. The identity of his immediate successor is also debated; some sources suggest Amenemhat IV, while others propose different individuals. The traditional narrative of a smooth transition is complicated by evidence of administrative strain and the eventual fragmentation of Egypt.",
+  "historiographic_note": "This year is not specifically documented. The historical record for this period is reconstructed from the broader context of the 12th Dynasty's decline and the transition to the Second Intermediate Period. The dating depends on the chronological framework applied to Egyptian history, which is itself uncertain by \u00b120\u201330 years. The surviving sources (Turin King List, Manetho) are later compilations with known errors and gaps.",
+  "graph_edges": [
+    {
+      "from": "-1822-001",
+      "to": "-1800-001",
+      "relation": "led_to",
+      "note": "The transition in Egyptian leadership is part of the broader process that leads to the fragmentation of Egypt in the Second Intermediate Period."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "year": -194,
+  "year_label": "194 BCE",
+  "era_context": "The Hellenistic world in the early 2nd century BCE, dominated by the Seleucid Empire under Seleucus II Callinicus and the Ptolemaic Kingdom under Ptolemy IV Philopator. Rome is consolidating power in the Mediterranean following the First Punic War (264\u2013241 BCE) and is beginning to intervene in Eastern affairs. The Han Dynasty rules China under Emperor Wen. This is a period of dynastic instability in the Hellenistic East and rising Roman military dominance.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe beyond Roman contact",
+    "Central Asia (sparse Hellenistic sources)",
+    "Mesoamerica (no contemporary written records in Greek/Latin sources)"
+  ],
+  "events": [
+    {
+      "id": "-194-001",
+      "title": "Seleucid Civil War: Seleucus II campaigns against his brother Antiochus Hierax",
+      "region": "Seleucid Empire (Syria, Mesopotamia, Anatolia)",
+      "coordinates_approx": "35.0,35.0",
+      "category": "military",
+      "description": "Seleucus II Callinicus, facing internal instability, campaigns militarily against his brother Antiochus Hierax, who had established a rival power base in Anatolia and Syria. This conflict weakened Seleucid central authority and contributed to the fragmentation of the empire. The civil war lasted several years and diverted resources from external threats, particularly from Egypt and Rome.",
+      "key_figures": [
+        "Seleucus II Callinicus (Seleucid King)",
+        "Antiochus Hierax (rival claimant)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Syrian Wars; Polybius, Histories (later compilation of earlier sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Seleucid dynastic conflicts",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader civil war is well-attested, but precise dating of individual campaigns within 194\u2013187 BCE is uncertain. Polybius and Appian wrote centuries later, relying on earlier sources now lost.",
+      "cross_references": [
+        "Related to broader Seleucid fragmentation visible in -187 onwards"
+      ]
+    },
+    {
+      "id": "-194-002",
+      "title": "Ptolemy IV Philopator consolidates power in Egypt",
+      "region": "Ptolemaic Egypt",
+      "coordinates_approx": "30.0,31.0",
+      "category": "political",
+      "description": "Ptolemy IV Philopator, having ruled since 221 BCE, continues to consolidate his authority in Egypt. He is known for his cultural patronage and religious policies, including promotion of the Serapis cult. His reign is marked by relative stability in domestic affairs, though external pressures from the Seleucid Empire and rising Roman power shape foreign policy.",
+      "key_figures": [
+        "Ptolemy IV Philopator (Ptolemaic King of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Manetho, History of Egypt (via Josephus and Eusebius)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Papyri from Ptolemaic Egypt (administrative records)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ptolemy IV's reign dates are well-established (221\u2013204 BCE). Specific events within 194 BCE are less precisely documented; this entry reflects the general stability of his mid-reign.",
+      "cross_references": []
+    },
+    {
+      "id": "-194-003",
+      "title": "Han Dynasty under Emperor Wen: Continued consolidation and economic development",
+      "region": "Han China",
+      "coordinates_approx": "34.0,108.0",
+      "category": "political",
+      "description": "Emperor Wen of Han (r. 180\u2013157 BCE) continues his reign, known for Confucian governance, reduction of taxes, and economic recovery following the Chu-Han Contention. His policies emphasize agricultural development and the reduction of military expenditure. This period sees the strengthening of the Han state and the expansion of trade networks, including early Silk Road connections.",
+      "key_figures": [
+        "Emperor Wen of Han",
+        "Confucian advisors (e.g., Jia Yi)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Emperor Wen's reign and general policies are well-documented in Chinese historical records. Specific events in 194 BCE are not individually attested but fit the documented pattern of his reign.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise dating and significance of individual Seleucid civil war campaigns in 194 BCE are debated. Some scholars argue that the conflict between Seleucus II and Antiochus Hierax was less a unified civil war and more a series of regional power struggles, with the chronology compressed or distorted in later sources. The extent to which these conflicts directly weakened Seleucid power relative to Rome is also contested.",
+  "historiographic_note": "For 194 BCE, sources are primarily Hellenistic and Chinese. Greek and Roman sources (Polybius, Appian, Livy) are later compilations relying on earlier works now lost. Chinese sources (Shiji, Han Shu) are more contemporary in spirit but were compiled centuries after the events. Egyptian sources are sparse in narrative form but papyri provide administrative evidence. The record is biased toward political and military events; economic and social history is underrepresented. Sub-Saharan Africa, the Americas, and Northern Europe are absent from surviving written records.",
+  "graph_edges": [
+    {
+      "from": "-194-001",
+      "to": "-187-SELEUCID_FRAGMENTATION",
+      "relation": "led_to",
+      "note": "Seleucid civil war contributed to long-term fragmentation of the empire"
+    },
+    {
+      "from": "-194-003",
+      "to": "-138-SILK_ROAD_EXPANSION",
+      "relation": "part_of",
+      "note": "Han economic development under Wen laid groundwork for later Silk Road trade"
+    }
+  ]
+}

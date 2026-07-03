@@ -1,0 +1,202 @@
+{
+  "year": 1587,
+  "year_label": "1587 CE",
+  "era_context": "Late 16th century: Spain under Philip II remains the dominant European power. England under Elizabeth I consolidates naval power and Protestant identity. France is in the midst of the Wars of Religion. The Ottoman Empire controls the eastern Mediterranean. In Asia, the Ming Dynasty rules China; Japan is in final unification under Toyotomi Hideyoshi.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited European documentation)",
+    "Interior South America and North America (minimal European contact documentation)"
+  ],
+  "events": [
+    {
+      "id": "1587-001",
+      "title": "Execution of Mary, Queen of Scots; major blow to Catholic opposition to Elizabeth I",
+      "region": "England",
+      "coordinates_approx": "55.0,-3.0",
+      "category": "political",
+      "description": "Mary, Queen of Scots, is executed on February 8, 1587, after 19 years of imprisonment in England. Mary had been a focus of Catholic plots against Elizabeth I, and her execution removes a major threat to Elizabeth's rule. The execution also provokes outrage among Catholic powers, particularly Spain and France, and contributes to Philip II's decision to launch the Spanish Armada in 1588. Mary's death marks a turning point in the religious conflicts of the era.",
+      "key_figures": [
+        "Mary, Queen of Scots (executed queen)",
+        "Elizabeth I of England (English queen)",
+        "William Cecil, Lord Burghley (English chief minister)"
+      ],
+      "sources": [
+        {
+          "name": "English state papers and court records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary English and Scottish chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Spanish and papal diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mary's execution is one of the most thoroughly documented events of the 16th century, with specific dates and detailed accounts.",
+      "cross_references": [
+        "1588-001 (Spanish Armada)",
+        "1603-001 (Elizabeth I's death and succession)"
+      ]
+    },
+    {
+      "id": "1587-002",
+      "title": "English privateering and naval raids against Spanish colonies; Drake's activities",
+      "region": "Caribbean and Atlantic",
+      "coordinates_approx": "15.0,-60.0",
+      "category": "military",
+      "description": "English privateers, including Sir Francis Drake, continue raids against Spanish colonial possessions in the Caribbean and Atlantic. These raids, sanctioned by Elizabeth I, weaken Spanish colonial resources and demonstrate English naval capability. The raids also serve as a form of economic warfare against Spain and contribute to tensions that will lead to the Spanish Armada in 1588.",
+      "key_figures": [
+        "Sir Francis Drake (English privateer)",
+        "Elizabeth I of England (English queen)"
+      ],
+      "sources": [
+        {
+          "name": "English state papers and naval records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Spanish colonial reports and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "English privateering activities are well-documented in state papers.",
+      "cross_references": [
+        "1588-001 (Spanish Armada)"
+      ]
+    },
+    {
+      "id": "1587-003",
+      "title": "Wanli Emperor's reign; Ming China faces military and administrative challenges",
+      "region": "China",
+      "coordinates_approx": "39.9,116.4",
+      "category": "political",
+      "description": "The Wanli Emperor continues his reign during a period of increasing military pressure from the Jurchen in Manchuria and Mongol forces on the northern frontier. Internal Ming governance is hampered by court factionalism between eunuchs and scholar-officials. Military expenditures strain the imperial treasury. The emperor increasingly withdraws from active governance.",
+      "key_figures": [
+        "Wanli Emperor (Ming ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Official Ming Records)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ming administrative records provide detailed documentation.",
+      "cross_references": []
+    },
+    {
+      "id": "1587-004",
+      "title": "Toyotomi Hideyoshi consolidates power in Japan; daimyo submission continues",
+      "region": "Japan",
+      "coordinates_approx": "35.0,138.0",
+      "category": "political",
+      "description": "Toyotomi Hideyoshi continues the consolidation of power over the Japanese daimyo (feudal lords). By 1587, most major daimyo have submitted to Hideyoshi's authority, effectively ending the Sengoku period of civil war. Hideyoshi's unification is based on personal military power and prestige. The consolidation allows Hideyoshi to begin planning for external expansion, particularly toward Korea and China.",
+      "key_figures": [
+        "Toyotomi Hideyoshi (Regent of Japan)"
+      ],
+      "sources": [
+        {
+          "name": "Japanese daimyo records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Taik\u014dki and other Japanese chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Hideyoshi's consolidation is well-attested in Japanese records.",
+      "cross_references": [
+        "1588-004 (continuation of consolidation)"
+      ]
+    },
+    {
+      "id": "1587-005",
+      "title": "Ottoman Empire under Murad III; continued control of eastern Mediterranean",
+      "region": "Ottoman Empire",
+      "coordinates_approx": "41.0,29.0",
+      "category": "political",
+      "description": "The Ottoman Empire under Murad III continues to control the eastern Mediterranean, the Balkans, and much of the Middle East. Ottoman naval power remains significant, though challenged by European powers. The empire faces increasing internal challenges, including administrative corruption and military strain. The reign marks the beginning of Ottoman institutional decline.",
+      "key_figures": [
+        "Murad III (Ottoman Sultan)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman administrative records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Ottoman chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ottoman administrative records provide documentation.",
+      "cross_references": []
+    },
+    {
+      "id": "1587-006",
+      "title": "Dutch Revolt continues; Maurice of Nassau consolidates military leadership",
+      "region": "Dutch Republic (United Provinces)",
+      "coordinates_approx": "52.0,5.0",
+      "category": "military",
+      "description": "The Dutch Revolt against Spanish rule continues, with Maurice of Nassau consolidating his military leadership of the United Provinces. Maurice's military innovations and reforms begin to show results in campaigns against Spanish forces. By 1587, the Dutch have established de facto independence in much of the northern Netherlands.",
+      "key_figures": [
+        "Maurice of Nassau (Dutch military leader)"
+      ],
+      "sources": [
+        {
+          "name": "Dutch military records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Spanish military reports",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Dutch Revolt and Maurice's role are well-documented.",
+      "cross_references": [
+        "1648-001 (Peace of Westphalia)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Mary, Queen of Scots' execution is sometimes portrayed as the direct cause of the Spanish Armada; however, Philip II had been planning an invasion of England for years, and Mary's death was one of several factors contributing to the decision. The characterization of Mary as a major threat to Elizabeth I is somewhat exaggerated; by 1587, Mary had been imprisoned for 19 years and posed limited direct threat. Some historians argue that her execution was more about removing a symbolic focus for Catholic opposition than addressing an immediate security threat.",
+  "historiographic_note": "Documentation for 1587 is rich for European events, particularly Mary's execution, which is extensively documented in English, Scottish, Spanish, and papal sources. The execution reflects the religious and political tensions of the era and has been extensively analyzed by historians. Asian events are documented in official records and later chronicles. Sub-Saharan African and interior American events are severely underrepresented due to limited surviving written records.",
+  "graph_edges": [
+    {
+      "from": "1587-001",
+      "to": "1588-001",
+      "relation": "led_to",
+      "note": "Mary's execution contributes to Philip II's decision to launch the Spanish Armada"
+    },
+    {
+      "from": "1587-002",
+      "to": "1588-001",
+      "relation": "led_to",
+      "note": "English privateering contributes to Spanish-English tensions leading to Armada"
+    },
+    {
+      "from": "1587-001",
+      "to": "1603-001",
+      "relation": "led_to",
+      "note": "Mary's execution removes a potential successor to Elizabeth I"
+    }
+  ]
+}

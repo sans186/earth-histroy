@@ -1,0 +1,303 @@
+{
+  "year": 1546,
+  "year_label": "1546 CE",
+  "era_context": "The Protestant Reformation is in its third decade; Martin Luther dies this year. The Catholic Counter-Reformation is accelerating, with the Council of Trent convening. The Ottoman Empire under S\u00fcleyman the Magnificent remains a dominant Mediterranean and Eastern European power. In East Asia, the Ming Dynasty rules China; Japan is fragmented among competing daimyo. The Age of Exploration continues, with European colonial expansion in the Americas, Africa, and Asia.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan African interior (limited European documentation; oral traditions not systematically recorded)",
+    "Pacific Islands beyond Spanish contact zones",
+    "Central Asian steppes (Ottoman and Safavid sources exist but are underrepresented in Western historiography)"
+  ],
+  "events": [
+    {
+      "id": "1546-001",
+      "title": "Death of Martin Luther",
+      "region": "Holy Roman Empire (Wittenberg, Saxony)",
+      "coordinates_approx": "51.866, 12.643",
+      "category": "religious",
+      "description": "Martin Luther, the initiator of the Protestant Reformation, dies on 18 February 1546 at age 62 in Eisleben. His death marks a symbolic transition in the Reformation: the movement, now institutionalized across multiple German territories and Scandinavia, must survive without its founder. Luther's legacy\u2014vernacular Bible translation, the doctrine of sola scriptura, and the break with papal authority\u2014had already reshaped European Christianity and triggered decades of religious conflict. His death occurs amid the Schmalkaldic War, which will determine the political fate of Protestantism in the Empire.",
+      "key_figures": [
+        "Martin Luther (theologian, reformer)",
+        "Philip Melanchthon (successor, theologian)",
+        "Charles V (Holy Roman Emperor, opponent)"
+      ],
+      "sources": [
+        {
+          "name": "Luther's Table Talk and contemporary letters",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Melanchthon's biographical accounts",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Church records from Wittenberg and Eisleben",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Death date is precisely documented in contemporary records and multiple reliable sources.",
+      "cross_references": [
+        "1517-001 (95 Theses)",
+        "1521-001 (Diet of Worms)",
+        "1546-002 (Schmalkaldic War)"
+      ]
+    },
+    {
+      "id": "1546-002",
+      "title": "Schmalkaldic War begins",
+      "region": "Holy Roman Empire (German territories)",
+      "coordinates_approx": "51.5, 10.0",
+      "category": "military",
+      "description": "The Schmalkaldic War (1546\u20131547) erupts between the Holy Roman Emperor Charles V and the Schmalkaldic League, a military alliance of Lutheran German states and princes. The war represents the first major armed conflict between Catholic and Protestant powers in the Empire. Charles V, seeking to restore religious and political unity, mobilizes imperial forces. The conflict will result in a temporary Catholic military victory but ultimately lead to the Peace of Augsburg (1555), which grants Protestants legal recognition. The war demonstrates that religious division in Europe cannot be resolved by force alone.",
+      "key_figures": [
+        "Charles V (Holy Roman Emperor)",
+        "John Frederick I (Elector of Saxony, Schmalkaldic League leader)",
+        "Philip of Hesse (Schmalkaldic League leader)",
+        "Maurice of Saxony (Charles V's ally)"
+      ],
+      "sources": [
+        {
+          "name": "Imperial war records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Schmalkaldic League documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles by German historians",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "War dates and major participants are well-documented in contemporary diplomatic and military records.",
+      "cross_references": [
+        "1546-001 (Luther's death)",
+        "1547-001 (Battle of M\u00fchlberg)",
+        "1555-001 (Peace of Augsburg)"
+      ]
+    },
+    {
+      "id": "1546-003",
+      "title": "Council of Trent convenes (first session)",
+      "region": "Papal States (Trent, modern Italy)",
+      "coordinates_approx": "46.067, 11.121",
+      "category": "religious",
+      "description": "The Council of Trent opens on 13 December 1545 (continuing into 1546) as the Catholic Church's formal response to the Protestant Reformation. Convened by Pope Paul III, the council aims to clarify Catholic doctrine, reform clerical abuses, and counter Protestant theology. The council will meet in three phases (1545\u20131547, 1551\u20131552, 1562\u20131563) and become the defining event of the Counter-Reformation. Key decisions include reaffirming papal authority, the seven sacraments, and the veneration of saints\u2014all contested by Protestants. The council's decrees will shape Catholic practice for centuries.",
+      "key_figures": [
+        "Pope Paul III (convener)",
+        "Cardinal Giovanni Maria del Monte (papal legate, later Pope Julius III)",
+        "Jesuit theologians (including Diego Laynez)"
+      ],
+      "sources": [
+        {
+          "name": "Official Council of Trent records (Acta Concilii Tridentini)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Papal bulls and decrees",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary theological treatises",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Council proceedings are meticulously documented in official records.",
+      "cross_references": [
+        "1545-001 (Council opening)",
+        "1563-001 (Council concludes)"
+      ]
+    },
+    {
+      "id": "1546-004",
+      "title": "Hern\u00e1n Cort\u00e9s dies in Spain",
+      "region": "Spain (Castile)",
+      "coordinates_approx": "40.4, -3.7",
+      "category": "political",
+      "description": "Hern\u00e1n Cort\u00e9s, the Spanish conquistador who led the conquest of the Aztec Empire (1519\u20131521), dies on 2 December 1546 in Castilleja de la Cuesta, near Seville. By the time of his death, Cort\u00e9s had been stripped of most of his titles and wealth by the Spanish Crown, which sought to consolidate control over New Spain. His legacy is deeply contested: celebrated in Spain as a great military commander, he is remembered in Mexico as the architect of indigenous subjugation and cultural destruction. His death marks the end of an era of individual conquistador power; henceforth, colonial governance will be more directly controlled by the Crown.",
+      "key_figures": [
+        "Hern\u00e1n Cort\u00e9s (conquistador)",
+        "Charles V (Spanish king, who marginalized Cort\u00e9s)",
+        "Montezuma II (Aztec emperor, deceased but central to Cort\u00e9s's legacy)"
+      ],
+      "sources": [
+        {
+          "name": "Spanish Crown records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cort\u00e9s's own letters and memoirs (Cartas de relaci\u00f3n)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Bernal D\u00edaz del Castillo's Historia verdadera de la conquista de la Nueva Espa\u00f1a",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Death date is documented in Spanish records and contemporary sources.",
+      "cross_references": [
+        "1519-001 (Cort\u00e9s arrives in Mexico)",
+        "1521-001 (Fall of Tenochtitlan)"
+      ]
+    },
+    {
+      "id": "1546-005",
+      "title": "Portuguese establish Goa as capital of Estado da \u00cdndia",
+      "region": "India (Goa)",
+      "coordinates_approx": "15.3, 73.8",
+      "category": "political",
+      "description": "Goa, captured by the Portuguese under Afonso de Albuquerque in 1510, is formally established as the capital of the Portuguese Estado da \u00cdndia (State of India) in 1546 under Governor Jo\u00e3o de Castro. This consolidation reflects Portugal's shift from a trading-post empire to a territorial colonial state in Asia. Goa becomes the administrative, military, and religious center of Portuguese Asia, with a cathedral, fortifications, and a growing European settler population. The city will remain under Portuguese control until 1961, making it one of Europe's longest-held overseas territories. The establishment of Goa as capital symbolizes the permanence of European colonial presence in Asia.",
+      "key_figures": [
+        "Jo\u00e3o de Castro (Portuguese Governor)",
+        "Afonso de Albuquerque (earlier conqueror, deceased)",
+        "Francis Xavier (Jesuit missionary, active in Goa from 1542)"
+      ],
+      "sources": [
+        {
+          "name": "Portuguese Crown records and administrative documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jesuit mission records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Portuguese chronicles of the Estado da \u00cdndia",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Administrative reorganization is documented in Portuguese Crown records.",
+      "cross_references": [
+        "1510-001 (Albuquerque captures Goa)",
+        "1542-001 (Francis Xavier arrives in Goa)"
+      ]
+    },
+    {
+      "id": "1546-006",
+      "title": "Suleyman the Magnificent campaigns in Persia",
+      "region": "Ottoman Empire and Safavid Persia",
+      "coordinates_approx": "37.0, 45.0",
+      "category": "military",
+      "description": "S\u00fcleyman the Magnificent, Ottoman Sultan, launches a military campaign against the Safavid Persian Empire in 1546, continuing Ottoman-Safavid rivalry over control of Mesopotamia and the Caucasus. The campaign results in Ottoman gains but does not decisively resolve the long-standing conflict. This campaign is part of a broader pattern of Ottoman expansion and consolidation under S\u00fcleyman, who ruled from 1520 to 1566 and is considered the empire's greatest sultan. The Ottoman-Safavid conflict will persist until the Treaty of Zuhab (1639).",
+      "key_figures": [
+        "S\u00fcleyman the Magnificent (Ottoman Sultan)",
+        "Tahmasp I (Safavid Shah)",
+        "Ibrahim Pasha (Ottoman Grand Vizier, executed 1536 but his legacy shapes policy)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman court records and military chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Safavid court records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary European diplomatic reports",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Campaign is documented in Ottoman and Safavid records.",
+      "cross_references": [
+        "1520-001 (S\u00fcleyman becomes Sultan)",
+        "1555-001 (Peace of Amasya with Safavids)"
+      ]
+    },
+    {
+      "id": "1546-007",
+      "title": "Ming Dynasty naval expeditions cease; Jiajing Emperor consolidates inland focus",
+      "region": "Ming China",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "By 1546, the Ming Dynasty under the Jiajing Emperor (r. 1521\u20131567) has fully abandoned the great maritime expeditions that characterized the early Ming (Zheng He's voyages, 1405\u20131433). The Jiajing Emperor's reign is marked by a turn inward, focusing on land-based defense against Mongol incursions and internal consolidation. This shift reflects both economic constraints and a philosophical reorientation toward Confucian values that prioritize agriculture and territorial stability over maritime commerce. The cessation of naval expeditions represents a missed opportunity for Ming China to maintain naval dominance in the Indian Ocean, a role that will be increasingly filled by European powers.",
+      "key_figures": [
+        "Jiajing Emperor (Ming ruler)",
+        "Qi Jiguang (military general, reformer)",
+        "Zhang Juzheng (later reformer, not yet in power)"
+      ],
+      "sources": [
+        {
+          "name": "Ming court records and imperial edicts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian) and later Ming histories",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of shipbuilding decline",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The shift in Ming policy is well-documented in imperial records and later historiography.",
+      "cross_references": [
+        "1405-001 (Zheng He's first voyage)",
+        "1433-001 (Zheng He's last voyage)",
+        "1567-001 (Jiajing Emperor dies)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of Cort\u00e9s's death in 1546 is sometimes overstated in popular histories as marking the 'end of the conquest era'\u2014in fact, Spanish conquest and consolidation of the Americas continued vigorously for decades after his death. The Council of Trent is sometimes portrayed as a unified Catholic response, but it was contentious internally, with significant disagreement among bishops and theologians about reform priorities. The Schmalkaldic War is often presented as a clear Catholic victory, but Charles V's military success did not translate into religious re-unification; the Peace of Augsburg (1555) effectively legitimized Protestant territorial states, a partial defeat for Charles's original aims.",
+  "historiographic_note": "The year 1546 is exceptionally well-documented in European sources (religious, political, military records are abundant), moderately well-documented in Ottoman and Safavid sources, and adequately documented in Ming China. However, the historical record is heavily weighted toward elite, literate, institutional perspectives. Indigenous American perspectives on Cort\u00e9s's death are absent from contemporary records; African and Pacific histories are largely invisible in surviving documentation. The sources are also shaped by religious and political bias: Protestant and Catholic sources offer competing narratives of the Reformation; Spanish sources celebrate conquest while indigenous accounts were suppressed or lost. The year is a good example of how 'well-documented' history can still be profoundly incomplete.",
+  "graph_edges": [
+    {
+      "from": "1546-001",
+      "to": "1546-002",
+      "relation": "contemporary_with",
+      "note": "Luther's death and the Schmalkaldic War occur in the same year, marking a transition in the Reformation."
+    },
+    {
+      "from": "1546-002",
+      "to": "1555-001",
+      "relation": "led_to",
+      "note": "The Schmalkaldic War's outcome shapes the Peace of Augsburg."
+    },
+    {
+      "from": "1546-003",
+      "to": "1563-001",
+      "relation": "part_of",
+      "note": "The Council of Trent's first session in 1546 is part of the larger council process."
+    },
+    {
+      "from": "1546-004",
+      "to": "1521-001",
+      "relation": "caused_by",
+      "note": "Cort\u00e9s's death is a consequence of his conquest of the Aztec Empire."
+    },
+    {
+      "from": "1546-006",
+      "to": "1555-001",
+      "relation": "led_to",
+      "note": "Ottoman-Safavid conflicts in 1546 contribute to the eventual Peace of Amasya."
+    }
+  ]
+}

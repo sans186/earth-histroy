@@ -1,0 +1,121 @@
+{
+  "year": 890,
+  "year_label": "890 CE",
+  "era_context": "The late 9th century continues with the Carolingian Empire fragmented into competing kingdoms. Arnulf of Carinthia is consolidating power in East Frankia. The Abbasid Caliphate is weakening, with regional dynasties (Tulunids in Egypt, Samanids in Central Asia) asserting autonomy. In East Asia, the Tang Dynasty's final years are marked by internal collapse and warlord fragmentation. Japan's Heian period is well established, with the Fujiwara family rising to dominance.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Pre-Columbian Americas",
+    "Scandinavia (limited written records; sagas are much later)"
+  ],
+  "events": [
+    {
+      "id": "890-001",
+      "title": "Arnulf of Carinthia's Italian Campaign",
+      "region": "Italy",
+      "coordinates_approx": "43.0, 12.0",
+      "category": "military",
+      "description": "King Arnulf of Carinthia leads a military expedition into Italy to assert Frankish authority and counter the influence of rival powers. The campaign is part of Arnulf's broader strategy to consolidate control over the fragmented Frankish realms. The expedition has mixed results and does not establish lasting Frankish dominance in Italy.",
+      "key_figures": [
+        "Arnulf of Carinthia (King of East Frankia)"
+      ],
+      "sources": [
+        {
+          "name": "Annales Fuldenses",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Liutprand of Cremona, Antapodosis (written later, 10th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Arnulf's Italian campaigns are attested in chronicles, but the precise chronology and outcomes of individual campaigns in the 890s are sometimes conflated or unclear.",
+      "cross_references": [
+        "Part of Arnulf's broader consolidation of power in the 880s\u2013890s"
+      ]
+    },
+    {
+      "id": "890-002",
+      "title": "Samanid Expansion in Central Asia",
+      "region": "Central Asia (Transoxiana)",
+      "coordinates_approx": "39.0, 66.0",
+      "category": "political",
+      "description": "The Samanid dynasty, based in Bukhara and Samarkand, continues its expansion and consolidation of control over Central Asia, establishing itself as a major regional power independent of the weakening Abbasid Caliphate. The Samanids promote Persian culture, scholarship, and trade along the Silk Road. This period marks the beginning of the Samanid golden age (late 9th\u201310th centuries).",
+      "key_figures": [
+        "Ismail Samani (Emir of the Samanids, r. 892\u2013907)"
+      ],
+      "sources": [
+        {
+          "name": "Historiographic consensus based on numismatic, epigraphic, and later Islamic chronicles",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Coins and inscriptions from Samanid mints",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Samanid rise is well attested in numismatic and later Islamic sources. Ismail Samani's reign began in 892, so 890 falls in the reign of his predecessor. The exact trajectory of expansion in 890 specifically is less clearly documented.",
+      "cross_references": [
+        "Part of broader fragmentation of Abbasid authority in the 9th century"
+      ]
+    },
+    {
+      "id": "890-003",
+      "title": "Fujiwara Regency Consolidation in Japan",
+      "region": "Japan (Heian period)",
+      "coordinates_approx": "35.0, 135.5",
+      "category": "political",
+      "description": "The Fujiwara family continues to consolidate power as regents (sessh\u014d) and chief advisors to the imperial court. By 890, the Fujiwara have effectively marginalized the imperial authority and established a system of regency that will dominate Japanese politics for the next two centuries. This marks the height of Fujiwara influence in the early Heian period.",
+      "key_figures": [
+        "Fujiwara no Mototsune (Chief Regent, d. 891)",
+        "Emperor Uda (r. 887\u2013897)"
+      ],
+      "sources": [
+        {
+          "name": "Nihon Sandai Jitsuroku (Veritable Records of Three Reigns of Japan)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Engi Shiki (Procedures of the Engi Era, compiled early 10th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Japanese court records are detailed and contemporary. The Fujiwara regency system is well documented in official chronicles.",
+      "cross_references": [
+        "Part of the broader Heian period (794\u20131185) and the rise of the Fujiwara clan"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of Arnulf's Italian campaign in 890 is unclear; later sources may conflate or exaggerate its impact. The Samanid expansion is often presented as a linear rise, but the political situation in Central Asia was more fluid and contested. The Fujiwara regency is sometimes portrayed as a stable system, but it was subject to factional disputes and imperial resistance (as seen under Emperor Uda).",
+  "historiographic_note": "Western European sources dominate the surviving record for 890, with detailed chronicles from the Frankish realm. Islamic sources (later compilations and numismatic evidence) provide information on Central Asia and the Abbasid sphere, but contemporary documentation is sparse. Japanese sources are detailed and contemporary, reflecting the sophisticated bureaucratic record-keeping of the Heian court. The perspective is heavily skewed toward elite political and military history; economic, social, and cultural developments are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "890-001",
+      "to": "891-001",
+      "relation": "part_of",
+      "note": "Arnulf's Italian campaign is part of his broader military consolidation in the early 890s"
+    },
+    {
+      "from": "890-002",
+      "to": "10th-century-Samanid-golden-age",
+      "relation": "led_to",
+      "note": "Samanid expansion in 890 contributes to the dynasty's dominance in Central Asia in the 10th century"
+    },
+    {
+      "from": "890-003",
+      "to": "Fujiwara-regency-system",
+      "relation": "part_of",
+      "note": "Consolidation of Fujiwara power in 890 is part of the broader establishment of the regency system"
+    }
+  ]
+}

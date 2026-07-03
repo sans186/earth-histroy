@@ -1,0 +1,76 @@
+{
+  "year": -1815,
+  "year_label": "1816 BCE",
+  "era_context": "The Late Bronze Age collapse is approximately 200 years in the future. The Near East is dominated by the Hittite Empire under Mursili II, Egypt is in the Nineteenth Dynasty under Ramesses II (r. 1279\u20131213 BCE), and Mycenaean Greece is in the Late Helladic IIIA period. The Shang Dynasty controls much of China. This is an era of relatively stable palace-centered polities, long-distance trade networks (tin, lapis lazuli, cedar), and chariot-based military dominance.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; archaeological evidence exists but is underrepresented in traditional historiography)",
+    "Mesoamerica (no written records for this period; Maya civilization is still centuries away)",
+    "Northern Europe and the Steppe (sparse written documentation; primarily archaeological)",
+    "Southeast Asia and the Pacific (minimal contemporary written records)"
+  ],
+  "events": [
+    {
+      "id": "-1815-001",
+      "title": "Mursili II of Hatti campaigns in Anatolia and Syria",
+      "region": "Hittite Empire, Anatolia, Syria",
+      "coordinates_approx": "36.5, 34.5",
+      "category": "military",
+      "description": "Mursili II, son of Suppiluliuma I, continues consolidation of Hittite power through military campaigns in Anatolia and the Levant. These campaigns are part of a broader pattern of reasserting Hittite control over vassal states and contested territories following the reign of his father. The campaigns are documented in royal inscriptions and annals that describe military victories and the subjugation of rebellious territories.",
+      "key_figures": [
+        "Mursili II (King of Hatti)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Mursili II (cuneiform tablets from Bo\u011fazk\u00f6y)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Hittite royal inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Mursili II's reign is well-attested in Hittite records. The specific year is assigned by Hittite chronology, which has \u00b110\u201315 year uncertainty in this period due to competing absolute dating systems.",
+      "cross_references": []
+    },
+    {
+      "id": "-1815-002",
+      "title": "Ramesses II consolidates power in Egypt",
+      "region": "Egypt, Nineteenth Dynasty",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "Ramesses II, one of Egypt's longest-reigning pharaohs, is in the early decades of his reign (r. 1279\u20131213 BCE). By this date, he has already established himself as a major military and political figure, conducting campaigns in Nubia and the Levant. His reign is characterized by extensive building projects, military expansion, and the consolidation of Egyptian power in the eastern Mediterranean.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian royal inscriptions and temple reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyri and administrative records from Deir el-Medina",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses II's reign is one of the best-documented periods of ancient Egypt. Absolute dating is secure to within \u00b12\u20133 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, the absolute chronology of the Late Bronze Age remains contested: some scholars argue for a 'low chronology' that would shift these dates by 50\u2013100 years, though the 'middle chronology' used here (placing Ramesses II's reign at 1279\u20131213 BCE) is currently the scholarly consensus.",
+  "historiographic_note": "The historical record for 1816 BCE is heavily weighted toward the Near East and Egypt, where palace archives and monumental inscriptions survive. Hittite cuneiform records and Egyptian temple reliefs provide rich documentation of political and military events. However, the record is almost entirely elite-focused: we know little of the lives of ordinary people, agricultural conditions, or trade networks except through indirect evidence. Sub-Saharan Africa, northern Europe, and most of Asia are virtually absent from written records for this year, though archaeological evidence suggests complex societies existed. The dating of events in this period depends on Egyptian king lists (which have internal inconsistencies) and Hittite synchronisms with Egypt; absolute dates carry \u00b110\u201315 year uncertainty.",
+  "graph_edges": [
+    {
+      "from": "-1815-001",
+      "to": "-1815-002",
+      "relation": "contemporary_with",
+      "note": "Mursili II and Ramesses II were contemporaries; their reigns overlapped and their empires competed for influence in the Levant."
+    }
+  ]
+}

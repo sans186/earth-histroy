@@ -1,0 +1,156 @@
+{
+  "year": 1150,
+  "year_label": "1150 CE",
+  "era_context": "The mid-12th century CE was a period of relative stability in Western Europe following the failure of the Second Crusade (1147\u20131149). The Crusader States in the Levant were at their territorial peak but facing increasing pressure from Nur ad-Din's Zengid state. In East Asia, the Jin Dynasty was consolidating control of northern China, while the Song Dynasty maintained a precarious independence in the south. In Western Europe, feudal monarchies were strengthening; the Anarchy in England was in its final years. Islamic civilization was experiencing a cultural and intellectual flourishing, particularly in Al-Andalus and the eastern Islamic world.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Southeast Asia (sparse European documentation)",
+    "Oceania (no written records)",
+    "Americas (no written records in Old World sources)"
+  ],
+  "events": [
+    {
+      "id": "1150-001",
+      "title": "Second Crusade concludes; Crusader States reassess strategy",
+      "region": "Levant, Mediterranean, Europe",
+      "coordinates_approx": "35.0, 35.0",
+      "category": "military",
+      "description": "The Second Crusade, launched in 1147 in response to the fall of Edessa, ended in failure by 1150. The Crusaders' attempt to capture Damascus was repulsed, and the campaign resulted in significant losses of men and resources. The failure discredited the crusading ideal in Europe and emboldened Islamic powers in the Levant. The Crusader States, particularly the Kingdom of Jerusalem, were forced to adopt a more defensive posture and focus on consolidating existing territories rather than expansion. This marked a psychological and strategic turning point in the Crusades.",
+      "key_figures": [
+        "Louis VII of France (leader of Second Crusade)",
+        "Conrad III of the Holy Roman Empire (co-leader)",
+        "Nur ad-Din ibn Zengi (Islamic commander)"
+      ],
+      "sources": [
+        {
+          "name": "William of Tyre, Historia Ecclesiastica",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Odo of Deuil, De Profectione Ludovici VII in Orientem (written c. 1150\u20131160)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Second Crusade's failure is well-documented in multiple contemporary and near-contemporary sources. The campaign's end date of 1150 is established.",
+      "cross_references": [
+        "1147-001 (Second Crusade launched)",
+        "1144-001 (Fall of Edessa, trigger for Second Crusade)"
+      ]
+    },
+    {
+      "id": "1150-002",
+      "title": "Eleanor of Aquitaine's marriage to Henry of Anjou is arranged",
+      "region": "France, Aquitaine, Anjou",
+      "coordinates_approx": "46.0, 0.0",
+      "category": "political",
+      "description": "Eleanor of Aquitaine, recently divorced from King Louis VII of France, married Henry of Anjou (the future Henry II of England) in 1152, but the arrangement was negotiated and formalized in 1150\u20131151. This marriage united the vast Angevin territories with the Duchy of Aquitaine, creating an empire that stretched from Scotland to the Pyrenees. The union fundamentally altered the balance of power in Western Europe, making the English king more powerful in France than the French king himself. This would lead to centuries of conflict between England and France.",
+      "key_figures": [
+        "Eleanor of Aquitaine (Duchess of Aquitaine)",
+        "Henry of Anjou (future Henry II of England)",
+        "Louis VII of France (Eleanor's ex-husband)"
+      ],
+      "sources": [
+        {
+          "name": "Roger of Howden, Chronica",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "William of Newburgh, Historia Rerum Anglicarum",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The marriage occurred in 1152, but negotiations and arrangements were finalized in 1150\u20131151. The exact timing of formal arrangements is less precisely documented than the marriage itself.",
+      "cross_references": [
+        "1152-001 (Eleanor marries Henry of Anjou)",
+        "1154-001 (Henry II crowned King of England)"
+      ]
+    },
+    {
+      "id": "1150-003",
+      "title": "Wanyan Liang becomes Emperor of Jin Dynasty",
+      "region": "China; Jin Dynasty",
+      "coordinates_approx": "40.0, 115.0",
+      "category": "political",
+      "description": "Wanyan Liang (r. 1150\u20131161) became Emperor of the Jin Dynasty in 1150, succeeding his uncle Wanyan Dan. Wanyan Liang was an ambitious and aggressive ruler who sought to expand Jin territory and consolidate Jurchen control over northern China. He would later launch a major invasion of Song territory in 1161. His reign was marked by military campaigns, administrative reforms, and cultural assimilation of Chinese practices into Jurchen governance.",
+      "key_figures": [
+        "Wanyan Liang (Jin Emperor, r. 1150\u20131161)",
+        "Wanyan Dan (predecessor)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Jin Dynasty official histories",
+          "type": "historiographic_consensus",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Wanyan Liang's accession in 1150 is well-documented in Chinese historical records. The date is precise.",
+      "cross_references": [
+        "1161-001 (Wanyan Liang's invasion of Song)",
+        "1161-002 (Wanyan Liang's assassination)"
+      ]
+    },
+    {
+      "id": "1150-004",
+      "title": "Khmer Empire under Jayavarman VII continues expansion",
+      "region": "Southeast Asia; Khmer Empire (Cambodia)",
+      "coordinates_approx": "13.36, 103.85",
+      "category": "political",
+      "description": "Jayavarman VII (r. c. 1181\u20131215) had not yet ascended to the throne in 1150, but the Khmer Empire was in a period of relative stability and cultural flourishing under earlier rulers. The empire was consolidating its territorial gains and maintaining its position as the dominant power in Southeast Asia. Angkor was at its height as an urban and religious center, with ongoing construction and maintenance of temples and hydraulic infrastructure.",
+      "key_figures": [
+        "Jayavarman VI or VII (Khmer rulers of this period)"
+      ],
+      "sources": [
+        {
+          "name": "Khmer inscriptions and temple records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Angkor",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The dating of Khmer rulers in this period is uncertain; inscriptions provide some guidance, but precise chronology is difficult. Jayavarman VII's reign is traditionally dated to c. 1181\u20131215, placing 1150 in the reign of an earlier ruler.",
+      "cross_references": [
+        "1181-001 (Jayavarman VII's reign begins)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of the Second Crusade as an unmitigated disaster requires nuance. While the campaign failed to capture Damascus, it did result in some territorial consolidation for the Crusaders and did not immediately lead to the collapse of Crusader power. The psychological impact was significant, but the military consequences were less catastrophic than sometimes portrayed. Additionally, Eleanor of Aquitaine's marriage to Henry of Anjou is often presented as a calculated political move, but evidence suggests it was also motivated by personal attraction and Eleanor's desire to escape her marriage to Louis VII.",
+  "historiographic_note": "Documentation for 1150 is good for European and East Asian history, moderate for the Islamic world, and sparse for Southeast Asia and Africa. European sources are dominated by the perspective of the Crusaders and the French court. Chinese sources are rich but focus on political and military elites. Southeast Asian history relies heavily on inscriptions and archaeology, which provide limited information about specific events in a given year. The absence of written records for sub-Saharan Africa, the Americas, and Oceania means these regions are invisible in the historical record for this year.",
+  "graph_edges": [
+    {
+      "from": "1150-001",
+      "to": "1151-001",
+      "relation": "led_to",
+      "note": "The Second Crusade's failure in 1150 set the stage for Baldwin III's death in 1151 and the succession crisis that followed."
+    },
+    {
+      "from": "1150-002",
+      "to": "1152-001",
+      "relation": "led_to",
+      "note": "The arrangement of Eleanor and Henry's marriage in 1150 culminated in their formal marriage in 1152."
+    },
+    {
+      "from": "1150-003",
+      "to": "1161-001",
+      "relation": "led_to",
+      "note": "Wanyan Liang's accession in 1150 set the stage for his aggressive invasion of Song territory in 1161."
+    }
+  ]
+}

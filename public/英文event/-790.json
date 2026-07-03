@@ -1,0 +1,119 @@
+{
+  "year": -790,
+  "year_label": "790 BCE",
+  "era_context": "The Neo-Assyrian Empire under Sargon II is at its territorial peak, controlling vast territories from Egypt to Mesopotamia. In Greece, the Archaic period is well established, with the polis system consolidating and hoplite warfare becoming dominant. In China, the Spring and Autumn period is underway, with regional states competing for power. Iron technology is now standard across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe (no written records)",
+    "Interior of the Americas (no written records)",
+    "Central Asia and the Steppe (limited written sources)"
+  ],
+  "events": [
+    {
+      "id": "-790-001",
+      "title": "Sargon II's military campaigns and territorial consolidation",
+      "region": "Mesopotamia, Levant, Anatolia, Egypt",
+      "coordinates_approx": "35.5, 36.0",
+      "category": "military",
+      "description": "Sargon II continues aggressive military campaigns to consolidate Assyrian control over the eastern Mediterranean and Mesopotamia. The empire reaches its maximum territorial extent during his reign (722\u2013705 BCE). Vassal states from Egypt to Mesopotamia are brought under Assyrian hegemony, and trade routes are secured. The Assyrian military machine, with its advanced siege technology and organised logistics, becomes the dominant military force of the ancient Near East.",
+      "key_figures": [
+        "Sargon II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon II's Annals (cuneiform inscriptions from Dur-Sharrukin)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Dur-Sharrukin palace and provincial sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sargon II's reign (722\u2013705 BCE) is well-documented, but specific campaigns in 790 BCE are not individually named in surviving sources. This entry reflects the general military activity of his reign during this period, with dating approximate to within a few years.",
+      "cross_references": [
+        "-794-001",
+        "-793-001",
+        "-792-001",
+        "-791-001"
+      ]
+    },
+    {
+      "id": "-790-002",
+      "title": "Greek colonisation and trade expansion in the Mediterranean",
+      "region": "Greece, Mediterranean, Italy, Sicily",
+      "coordinates_approx": "38.0, 15.0",
+      "category": "economic",
+      "description": "Greek city-states, particularly Corinth and Euboea, continue to establish colonies throughout the Mediterranean. These settlements serve as trading posts and agricultural settlements, spreading Greek culture and establishing networks that will dominate Mediterranean trade. The colonisation process is driven by population pressure, factional conflict, and commercial opportunity. Greek merchants begin to establish trading relationships with Egypt and the Levant, facilitating the exchange of goods and ideas.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Strabo, Geography (later compilation, 1st century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from colonial sites (pottery, settlement layers, trade goods)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Greek colonisation occurred over several decades in the 8th\u20137th centuries BCE. Specific dating to 790 BCE is conventional; most colonies were established between 750\u2013700 BCE. Archaeological evidence provides better precision than literary sources.",
+      "cross_references": [
+        "-794-002"
+      ]
+    },
+    {
+      "id": "-790-003",
+      "title": "Spring and Autumn period state consolidation in China",
+      "region": "China",
+      "coordinates_approx": "34.0, 110.0",
+      "category": "political",
+      "description": "The Spring and Autumn period (770\u2013476 BCE) is well underway. Regional states (Qi, Jin, Chu, Qin) are consolidating power and competing for dominance. The Zhou dynasty's authority has fragmented, and a system of competing states is emerging. This period marks the transition from feudal Zhou governance to a system of interstate relations that will eventually lead to the Warring States period. Diplomatic relations and interstate conflicts become increasingly formalised.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Spring and Autumn Annals (Chunqiu), compiled by Confucian scholars",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, 1st century BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The Spring and Autumn period is traditionally dated to 770\u2013476 BCE, but the exact chronology of events within this period is uncertain. Chinese historical sources are often symbolic or schematic rather than precisely dated. Archaeological evidence provides some corroboration but is incomplete.",
+      "cross_references": [
+        "-793-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of Sargon II's reign and specific campaigns remains debated. Some scholars argue for a shorter reign (715\u2013705 BCE) rather than the traditional 722\u2013705 BCE, which would shift the dating of campaigns attributed to him. The scale and impact of Assyrian military dominance may have been exaggerated in royal inscriptions. Greek colonisation dates are often imprecise in ancient sources; archaeological evidence sometimes contradicts traditional literary chronologies. The dating of the Spring and Autumn period's beginning is debated; some scholars place it at 722 BCE rather than 770 BCE.",
+  "historiographic_note": "The historical record for 790 BCE is dominated by Mesopotamian sources (Assyrian royal inscriptions), Greek archaeological evidence, and Chinese chronicles. All are subject to significant bias: Assyrian inscriptions are propaganda, Greek sources are later compilations, and Chinese sources are schematic. The apparent richness of documentation is an artefact of which civilisations left written records and which have been extensively excavated. Sub-Saharan Africa, Northern Europe, and the Americas have no written records for this period; our knowledge depends entirely on archaeology, which is unevenly distributed and subject to dating uncertainty.",
+  "graph_edges": [
+    {
+      "from": "-790-001",
+      "to": "-794-001",
+      "relation": "part_of",
+      "note": "Sargon II's campaigns continue as part of sustained Assyrian expansion throughout the early 790s BCE"
+    },
+    {
+      "from": "-790-002",
+      "to": "-500-001",
+      "relation": "led_to",
+      "note": "Greek colonisation and trade networks establish the foundation for Classical Greek dominance of the Mediterranean"
+    },
+    {
+      "from": "-790-003",
+      "to": "-476-001",
+      "relation": "led_to",
+      "note": "Spring and Autumn period state consolidation eventually leads to the Warring States period"
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "year": 1806,
+  "year_label": "1806 CE",
+  "era_context": "The Napoleonic Wars dominate European politics; the Holy Roman Empire is dissolving; the British Empire is consolidating naval supremacy after Trafalgar; the Ottoman Empire continues its long decline; in Asia, the Qing Dynasty remains the world's largest economy but faces internal pressures; the United States is a young republic navigating neutrality amid European conflict.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "1806-001",
+      "title": "Dissolution of the Holy Roman Empire",
+      "region": "Central Europe (German-speaking territories)",
+      "coordinates_approx": "50.0, 10.0",
+      "category": "political",
+      "description": "Following Napoleon's decisive victory at Austerlitz (December 1805), Emperor Francis II formally dissolved the Holy Roman Empire on August 6, 1806, after 844 years of existence. The Confederation of the Rhine, a French client state comprising 16 German principalities, was established in its place. This marked the effective end of the medieval imperial structure and accelerated German state consolidation. The event fundamentally reshaped Central European politics and paved the way for later German unification.",
+      "key_figures": [
+        "Napoleon Bonaparte (Emperor of France)",
+        "Francis II (Holy Roman Emperor, later Francis I of Austria)"
+      ],
+      "sources": [
+        {
+          "name": "Official decree of Francis II, August 6, 1806",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Napoleonic administrative records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date and fact are unambiguously documented in contemporary official sources.",
+      "cross_references": [
+        "1805-003 (Battle of Austerlitz)",
+        "1806-002 (War of the Fourth Coalition)"
+      ]
+    },
+    {
+      "id": "1806-002",
+      "title": "War of the Fourth Coalition begins",
+      "region": "Europe (Prussia, Russia, Saxony, Britain)",
+      "coordinates_approx": "52.0, 13.0",
+      "category": "military",
+      "description": "Prussia, Russia, Saxony, and Britain formed the Fourth Coalition against France in response to French expansion and the dissolution of the Holy Roman Empire. The war opened with the Prussian campaign in autumn 1806. Napoleon defeated the Prussian army decisively at the twin battles of Jena and Auerstedt (October 14, 1806), destroying Prussian military power and leading to the occupation of Prussia. The conflict would continue into 1807 with Russian involvement.",
+      "key_figures": [
+        "Napoleon Bonaparte",
+        "Frederick William III (King of Prussia)",
+        "Alexander I (Tsar of Russia)",
+        "William Pitt the Younger (British Prime Minister)"
+      ],
+      "sources": [
+        {
+          "name": "Military dispatches and official records from French, Prussian, Russian, and British archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper accounts and diplomatic correspondence",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in contemporary military and diplomatic records.",
+      "cross_references": [
+        "1806-001 (Dissolution of HRE)",
+        "1807-001 (Treaties of Tilsit)"
+      ]
+    },
+    {
+      "id": "1806-003",
+      "title": "Battle of Jena and Auerstedt",
+      "region": "Saxony/Prussia (Central Europe)",
+      "coordinates_approx": "50.9, 11.6",
+      "category": "military",
+      "description": "On October 14, 1806, Napoleon's Grande Arm\u00e9e defeated the Prussian army in two simultaneous battles near Jena and Auerstedt. The Prussian military, still organized along 18th-century lines, was decisively crushed. French casualties were approximately 5,000; Prussian casualties exceeded 25,000 with massive losses in prisoners and equipment. The victory effectively ended Prussian military independence for a decade and demonstrated the superiority of Napoleonic tactics and organization. Prussia was occupied and forced to accept harsh peace terms.",
+      "key_figures": [
+        "Napoleon Bonaparte",
+        "Marshal Louis-Nicolas Davout (French commander at Auerstedt)",
+        "Frederick William III (Prussian King)",
+        "Duke of Brunswick (Prussian commander)"
+      ],
+      "sources": [
+        {
+          "name": "French military reports and Napoleon's correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Prussian military records and eyewitness accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary military histories and analyses",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented from multiple contemporary sources; date and outcome are unambiguous.",
+      "cross_references": [
+        "1806-002 (War of Fourth Coalition)"
+      ]
+    },
+    {
+      "id": "1806-004",
+      "title": "British Orders in Council (economic warfare)",
+      "region": "British Empire and Atlantic trade routes",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "economic",
+      "description": "Following the failure of the Third Coalition and seeking to damage French economic power, Britain issued Orders in Council in May and November 1806 declaring French-controlled territories under blockade and prohibiting neutral trade with France. These orders intensified the Continental System conflict and severely disrupted American and other neutral commerce. The measures contributed to rising tensions between Britain and the United States, eventually contributing to the War of 1812. The orders represented an escalation of economic warfare as a strategic tool.",
+      "key_figures": [
+        "William Pitt the Younger (British Prime Minister)",
+        "Lord Grenville (Foreign Secretary)"
+      ],
+      "sources": [
+        {
+          "name": "Official Orders in Council, May and November 1806",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British Admiralty and Foreign Office records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "American diplomatic correspondence and merchant records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The orders are documented in official British records with precise dates.",
+      "cross_references": [
+        "1807-002 (Berlin Decree and Continental System)",
+        "1812-001 (War of 1812)"
+      ]
+    },
+    {
+      "id": "1806-005",
+      "title": "Slave trade abolition in British Empire",
+      "region": "British Empire (global)",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "legal",
+      "description": "The British Parliament passed the Slave Trade Act 1806 (effective March 25, 1807), abolishing the slave trade throughout the British Empire. The act was the culmination of decades of abolitionist campaigning led by figures including William Wilberforce, Granville Sharp, and Thomas Clarkson. While the act prohibited the trade itself (not slavery), it represented a major moral and political victory for the abolitionist movement and made Britain the first major slave-trading nation to ban the trade. The act had profound consequences for the Atlantic slave trade and influenced abolitionist movements globally.",
+      "key_figures": [
+        "William Wilberforce (abolitionist MP)",
+        "Lord Grenville (Prime Minister)",
+        "Granville Sharp (abolitionist)",
+        "Thomas Clarkson (abolitionist)"
+      ],
+      "sources": [
+        {
+          "name": "Slave Trade Act 1806, Parliamentary records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Parliamentary debates and Hansard records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Abolitionist correspondence and publications",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The act is precisely dated and extensively documented in parliamentary records.",
+      "cross_references": [
+        "1833-001 (Slavery Abolition Act)"
+      ]
+    },
+    {
+      "id": "1806-006",
+      "title": "Lewis and Clark Expedition reaches Pacific Ocean",
+      "region": "North America (Pacific Northwest)",
+      "coordinates_approx": "46.3, -124.0",
+      "category": "exploration",
+      "description": "The Lewis and Clark Expedition, commissioned by President Thomas Jefferson to explore the newly acquired Louisiana Territory, reached the Pacific Ocean in November 1806 after a journey of approximately 8,000 miles. The expedition, led by Meriwether Lewis and William Clark with the invaluable assistance of Sacagawea (Shoshone woman and interpreter), documented the geography, flora, fauna, and indigenous peoples of the western interior. The expedition's findings provided crucial geographic knowledge and supported American territorial claims to the Pacific Northwest, influencing future westward expansion.",
+      "key_figures": [
+        "Meriwether Lewis (expedition co-leader)",
+        "William Clark (expedition co-leader)",
+        "Sacagawea (Shoshone interpreter and guide)",
+        "Thomas Jefferson (U.S. President, expedition sponsor)"
+      ],
+      "sources": [
+        {
+          "name": "Lewis and Clark Expedition journals and field notes",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Official expedition reports to President Jefferson",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Published expedition narratives (1814 onward)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The expedition's arrival at the Pacific is documented in the expedition's own journals with the date of November 1806.",
+      "cross_references": [
+        "1803-001 (Louisiana Purchase)"
+      ]
+    },
+    {
+      "id": "1806-007",
+      "title": "Qing Dynasty: Jiaqing Emperor consolidates power",
+      "region": "China (Qing Empire)",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "The Jiaqing Emperor (r. 1796\u20131820) continued consolidating power in 1806, eliminating remaining influence of the Heshen faction (the corrupt official had been purged in 1799). The Jiaqing period saw efforts to reform administrative corruption and address internal security challenges, including the White Lotus Rebellion (ongoing until 1804) and growing piracy. However, the Qing Dynasty faced mounting structural challenges: population pressure, agricultural strain, and the beginning of Western commercial encroachment. By 1806, the dynasty remained economically dominant but showed signs of the decline that would accelerate in the 19th century.",
+      "key_figures": [
+        "Jiaqing Emperor (Qing ruler)",
+        "Heshen (purged official, influence lingering)"
+      ],
+      "sources": [
+        {
+          "name": "Qing imperial records and edicts (Veritable Records of the Qing Dynasty)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Official Qing administrative documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later Qing historiography and scholarship",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Jiaqing's reign is well-documented; specific events in 1806 are less precisely dated in Western sources but consistent with Qing records.",
+      "cross_references": [
+        "1799-001 (Heshen purge)",
+        "1804-001 (White Lotus Rebellion suppression)"
+      ]
+    },
+    {
+      "id": "1806-008",
+      "title": "Ottoman Empire: Russo-Turkish War (1806\u20131812) begins",
+      "region": "Ottoman Empire, Balkans, Black Sea region",
+      "coordinates_approx": "41.0, 29.0",
+      "category": "military",
+      "description": "Tensions between the Russian Empire and the Ottoman Empire escalated into open conflict in 1806. The war was triggered by Ottoman concerns about Russian expansion and Russian support for Serbian and Greek independence movements. The conflict lasted until 1812 and resulted in significant Ottoman territorial losses, including Bessarabia and parts of the Caucasus. The war demonstrated Ottoman military weakness relative to Russia and accelerated the Ottoman Empire's decline. It also had major consequences for the Balkans and the Eastern Question in European politics.",
+      "key_figures": [
+        "Alexander I (Tsar of Russia)",
+        "Selim III (Ottoman Sultan)",
+        "Mikhail Kutuzov (Russian general)"
+      ],
+      "sources": [
+        {
+          "name": "Russian military records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ottoman official records and chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary European diplomatic reports",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The outbreak of the war in 1806 is documented in Russian and Ottoman sources; the exact trigger date is sometimes given as late 1806 or early 1807.",
+      "cross_references": [
+        "1812-002 (Treaty of Bucharest)"
+      ]
+    },
+    {
+      "id": "1806-009",
+      "title": "Beethoven's Violin Concerto premiered",
+      "region": "Vienna, Austrian Empire",
+      "coordinates_approx": "48.2, 16.4",
+      "category": "cultural",
+      "description": "Ludwig van Beethoven's Violin Concerto in D major, Op. 61, was premiered on December 23, 1806, at the Theater an der Wien in Vienna. The concerto is considered one of the greatest works in the violin repertoire and represents Beethoven's mature compositional style. The premiere featured Franz Clement as soloist. The work exemplifies the transition from Classical to Romantic musical aesthetics and remains a cornerstone of concert programming. The concerto's composition and premiere occurred during a period of significant personal and professional challenge for Beethoven.",
+      "key_figures": [
+        "Ludwig van Beethoven (composer)",
+        "Franz Clement (violinist, premiere performer)"
+      ],
+      "sources": [
+        {
+          "name": "Theater an der Wien concert records and announcements",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Beethoven's correspondence and sketches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Vienna newspaper accounts",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The premiere date of December 23, 1806, is well-documented in concert records and Beethoven scholarship.",
+      "cross_references": []
+    },
+    {
+      "id": "1806-010",
+      "title": "Peninsular War: French invasion of Spain begins",
+      "region": "Iberian Peninsula (Spain and Portugal)",
+      "coordinates_approx": "40.0, -3.0",
+      "category": "military",
+      "description": "French forces under General Junot invaded Portugal in November 1806 as part of Napoleon's enforcement of the Continental System against Britain. The invasion was rapid and successful, forcing the Portuguese royal family to flee to Brazil. This invasion marked the beginning of French involvement in the Iberian Peninsula that would escalate into the full Peninsular War (1808\u20131814). The 1806 invasion demonstrated French military dominance but also initiated a conflict that would prove costly and ultimately contribute to Napoleon's downfall.",
+      "key_figures": [
+        "Napoleon Bonaparte",
+        "General Jean-Andoche Junot (French commander)",
+        "Maria I (Queen of Portugal)",
+        "Prince John (Portuguese regent, later John VI)"
+      ],
+      "sources": [
+        {
+          "name": "French military dispatches and reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Portuguese royal correspondence and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British diplomatic reports on Portuguese situation",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The invasion date and course are well-documented in French, Portuguese, and British sources.",
+      "cross_references": [
+        "1808-001 (Spanish uprising and Peninsular War escalation)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of the Lewis and Clark Expedition's 1806 arrival at the Pacific is sometimes overstated in American historiography as a singular achievement; in fact, European fur traders and Russian explorers had reached the Pacific Northwest earlier. The expedition's primary value was systematic documentation and the establishment of American territorial claims, not discovery per se. Additionally, the expedition's reliance on Sacagawea is sometimes romanticized; while crucial, she was one of many indigenous guides and interpreters. The Slave Trade Act 1806 is sometimes presented as a humanitarian triumph, but it abolished only the trade, not slavery itself, and was partly motivated by economic and strategic considerations (reducing French colonial power) as much as moral conviction.",
+  "historiographic_note": "1806 is exceptionally well-documented due to the richness of Napoleonic-era sources, extensive British and European diplomatic records, and the emergence of modern journalism. Western European and North American events are richly attested; Ottoman, Qing, and other non-Western sources are less abundant in English-language historiography but exist in original archives. The period reflects a Eurocentric bias in surviving English-language scholarship, though primary sources from other regions are increasingly accessible. The year marks a pivotal moment in European power dynamics and the beginning of global British naval hegemony, which shapes how the year is often interpreted.",
+  "graph_edges": [
+    {
+      "from": "1806-001",
+      "to": "1806-002",
+      "relation": "led_to",
+      "note": "Dissolution of HRE directly triggered Prussian and Russian response, initiating Fourth Coalition War"
+    },
+    {
+      "from": "1806-003",
+      "to": "1806-002",
+      "relation": "part_of",
+      "note": "Battle of Jena-Auerstedt was the decisive engagement of the Fourth Coalition War's opening phase"
+    },
+    {
+      "from": "1806-004",
+      "to": "1812-001",
+      "relation": "led_to",
+      "note": "British Orders in Council contributed to American grievances leading to War of 1812"
+    },
+    {
+      "from": "1806-005",
+      "to": "1833-001",
+      "relation": "led_to",
+      "note": "Slave Trade Act 1806 was precursor to full slavery abolition in 1833"
+    },
+    {
+      "from": "1806-006",
+      "to": "1848-001",
+      "relation": "led_to",
+      "note": "Lewis and Clark Expedition findings supported American westward expansion and territorial claims"
+    },
+    {
+      "from": "1806-010",
+      "to": "1808-001",
+      "relation": "led_to",
+      "note": "Portuguese invasion of 1806 escalated into full Peninsular War with Spanish uprising in 1808"
+    }
+  ]
+}

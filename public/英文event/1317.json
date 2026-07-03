@@ -1,0 +1,86 @@
+{
+  "year": 1317,
+  "year_label": "1317 CE",
+  "era_context": "The early 14th century saw the consolidation of regional powers following the fragmentation of the Mongol Empire. In Europe, feudal hierarchies were being tested by economic change and dynastic ambitions. The Mali Empire dominated West African trade; the Delhi Sultanate was consolidating power in South Asia; the Yuan Dynasty in China faced increasing internal instability.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Pre-Columbian Americas",
+    "Northern and Eastern Europe",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "1317-001",
+      "title": "Famine and economic crisis in Northern Europe",
+      "region": "Northern Europe (England, Scandinavia, Low Countries)",
+      "coordinates_approx": "55.0\u00b0N, 5.0\u00b0E",
+      "category": "environmental",
+      "description": "Northern Europe, particularly England and Scandinavia, experienced severe famine conditions beginning in 1317, following poor harvests and livestock disease. This famine, sometimes called the 'Great Famine,' would persist through 1319\u20131320 and caused significant mortality and social disruption. The famine contributed to economic hardship and social tension across the region.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "English chronicles (e.g., Knighton, Froissart)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on 14th-century famines",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Great Famine beginning in 1317 is well attested in chronicles, though precise dating and regional variation are not uniformly documented.",
+      "cross_references": [
+        "1319-002 (Continuation of famine)"
+      ]
+    },
+    {
+      "id": "1317-002",
+      "title": "Robert the Bruce's consolidation of Scottish power",
+      "region": "Scotland",
+      "coordinates_approx": "56.5\u00b0N, 3.5\u00b0W",
+      "category": "political",
+      "description": "Robert I (Robert the Bruce), King of Scotland, continued to consolidate his power and secure Scottish independence from England in 1317. Following his victory at Bannockburn (1314), Robert the Bruce was establishing Scotland as a recognized independent kingdom. In 1317, he was strengthening his position through military campaigns and diplomatic efforts, laying the groundwork for the Declaration of Arbroath (1320).",
+      "key_figures": [
+        "Robert I (Robert the Bruce, King of Scotland)"
+      ],
+      "sources": [
+        {
+          "name": "Barbour, John, The Brus (Scottish epic poem, written c. 1375)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Scottish chronicles and records",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Robert the Bruce's consolidation of power in the years following Bannockburn (1314) is well documented, though specific events in 1317 are not always precisely dated.",
+      "cross_references": [
+        "1314-001 (Battle of Bannockburn)",
+        "1320-001 (Declaration of Arbroath)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Great Famine of 1317\u20131320 is sometimes overstated as a unique catastrophe; modern scholarship recognizes that famine was a recurring phenomenon in medieval Europe, and the 1317\u20131320 famine, while severe, was not unprecedented. Robert the Bruce's consolidation of power is sometimes portrayed as straightforward, but it involved complex military and diplomatic maneuvering against English opposition that is not fully resolved in surviving sources.",
+  "historiographic_note": "Documentation for 1317 is sparse. European sources (chronicles, Scottish records) provide some information, but specific events in this year are often not precisely dated. Asian and African sources are largely absent from Western scholarship for this year. The year 1317 has no particular historiographic significance and is treated here as part of broader early 14th-century trends.",
+  "graph_edges": [
+    {
+      "from": "1317-001",
+      "to": "1319-002",
+      "relation": "led_to",
+      "note": "The famine beginning in 1317 continued and intensified through 1319\u20131320."
+    },
+    {
+      "from": "1317-002",
+      "to": "1320-001",
+      "relation": "led_to",
+      "note": "Robert the Bruce's consolidation of power in 1317 enabled the issuance of the Declaration of Arbroath in 1320."
+    }
+  ]
+}

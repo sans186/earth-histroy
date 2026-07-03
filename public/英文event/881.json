@@ -1,0 +1,127 @@
+{
+  "year": 881,
+  "year_label": "881 CE",
+  "era_context": "The late 9th century CE was marked by the fragmentation of the Carolingian Empire following the Treaty of Verdun (843) and subsequent divisions. In Western Europe, the Frankish kingdoms faced increasing pressure from Viking raids and internal dynastic conflict. The Byzantine Empire under the Macedonian Renaissance was consolidating power in the Eastern Mediterranean. In the Islamic world, the Abbasid Caliphate was experiencing administrative decentralization, with regional dynasties asserting autonomy. East Asia saw the Tang Dynasty in its final decades before collapse, with regional warlords rising in power.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Southeast Asia (sparse contemporary documentation)",
+    "Pre-Columbian Americas (no written records in this era)"
+  ],
+  "events": [
+    {
+      "id": "881-001",
+      "title": "Battle of the Dyle",
+      "region": "Frankish Kingdom (modern Belgium/Netherlands border)",
+      "coordinates_approx": "50.8, 4.5",
+      "category": "military",
+      "description": "King Arnulf of Carinthia defeated a major Viking fleet led by Godfrid at the Dyle River, a tributary of the Meuse. This victory temporarily halted Viking incursions into the Frankish heartland and enhanced Arnulf's prestige within the fragmented Carolingian successor states. The battle demonstrated that organized Frankish military response could still repel Viking raiders, though the broader Viking threat would persist for decades.",
+      "key_figures": [
+        "Arnulf of Carinthia (King of East Francia)",
+        "Godfrid (Viking leader)"
+      ],
+      "sources": [
+        {
+          "name": "Annales Fuldenses (Fulda Annals)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Reginonis Chronicon (Regino of Pr\u00fcm)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Multiple near-contemporary Frankish chronicles record this battle with consistent dating to 881. Arnulf's victory is well-attested in the historical record.",
+      "cross_references": [
+        "Relates to broader Viking Age expansion (c. 793\u20131066)",
+        "Part of Arnulf's consolidation of East Frankish power"
+      ]
+    },
+    {
+      "id": "881-002",
+      "title": "Photian Schism tensions and ecclesiastical politics",
+      "region": "Byzantine Empire and Papal Rome",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "religious",
+      "description": "The aftermath of the Photian Schism (863\u2013867, with renewed tensions 879\u2013886) continued to dominate Byzantine-Roman ecclesiastical relations. Pope John VIII and Patriarch Photius of Constantinople engaged in diplomatic and theological disputes over jurisdiction, the Filioque clause, and the status of Bulgaria. These tensions reflected deeper political divisions between the Latin West and Greek East, foreshadowing the final schism of 1054.",
+      "key_figures": [
+        "Pope John VIII",
+        "Photius (Patriarch of Constantinople)",
+        "Emperor Basil I (Byzantine)"
+      ],
+      "sources": [
+        {
+          "name": "Papal correspondence and registers",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Byzantine ecclesiastical records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader ecclesiastical conflict is well-documented; specific events in 881 are less precisely dated in surviving sources but fall within the documented period of tension.",
+      "cross_references": [
+        "Photian Schism (863\u2013867, 879\u2013886)",
+        "East-West Schism (1054)"
+      ]
+    },
+    {
+      "id": "881-003",
+      "title": "Tang Dynasty decline and regional fragmentation in China",
+      "region": "China (Tang Dynasty territories)",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "By 881, the Tang Dynasty was in terminal decline following the Huang Chao Rebellion (874\u2013884), which devastated the empire's administrative and economic infrastructure. Regional military governors (jiedushi) were consolidating autonomous power, effectively ending central imperial control. This period marks the transition toward the Five Dynasties and Ten Kingdoms period (907\u2013960), characterized by political fragmentation and constant warfare.",
+      "key_figures": [
+        "Emperor Xizong of Tang (reigned 873\u2013888)",
+        "Huang Chao (rebel leader)",
+        "Zhu Wen (future founder of Later Liang)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government) by Sima Guang",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Jiu Tangshu (Old History of Tang)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The decline of Tang authority and rise of regional warlords in this period is extensively documented in Chinese historical sources, though specific events within 881 are sometimes difficult to pinpoint precisely.",
+      "cross_references": [
+        "Huang Chao Rebellion (874\u2013884)",
+        "Five Dynasties and Ten Kingdoms period (907\u2013960)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Battle of the Dyle is sometimes attributed to 880 in certain manuscript traditions, though the weight of modern scholarship places it in 881. Some sources emphasize that Arnulf's victory was less decisive than traditional accounts suggest, with Viking raids continuing in subsequent years. The ecclesiastical tensions of this period are sometimes overstated as a direct cause of the 1054 schism; modern scholarship recognizes more complex theological and political factors.",
+  "historiographic_note": "Documentation for 881 is uneven. Western European events (particularly Frankish affairs) are well-recorded in monastic chronicles. Byzantine and Islamic sources are more fragmentary for this specific year. Chinese sources are abundant but often compiled centuries later. The surviving record is heavily weighted toward elite political and military events; economic, social, and cultural developments are underrepresented. Monastic chroniclers' biases toward religious and dynastic matters shape the narrative.",
+  "graph_edges": [
+    {
+      "from": "881-001",
+      "to": "Viking_Age_expansion",
+      "relation": "part_of",
+      "note": "Battle of the Dyle is one episode in the broader Viking Age (c. 793\u20131066)"
+    },
+    {
+      "from": "881-002",
+      "to": "1054-East_West_Schism",
+      "relation": "led_to",
+      "note": "Ecclesiastical tensions of the 880s contributed to the final schism of 1054"
+    },
+    {
+      "from": "881-003",
+      "to": "907-Five_Dynasties_Ten_Kingdoms",
+      "relation": "led_to",
+      "note": "Tang collapse in 881\u2013907 directly caused the fragmentation of the Five Dynasties period"
+    }
+  ]
+}

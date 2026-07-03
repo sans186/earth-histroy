@@ -1,0 +1,122 @@
+{
+  "year": 1396,
+  "year_label": "1396 CE",
+  "era_context": "The late 14th century witnessed the fragmentation of the Timurid Empire following Timur's death in 1405, though his successors still held considerable power across Central Asia and the Middle East. In Europe, the Ottoman Empire was consolidating control in the Balkans and Anatolia, while Western European kingdoms were engaged in dynastic conflicts\u2014particularly the early stages of the Hundred Years' War between England and France. The Ming Dynasty in China (established 1368) was consolidating Han Chinese rule after the Yuan collapse. This was an era of significant military upheaval, religious reform movements, and early maritime exploration.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records from this period)",
+    "Southeast Asian kingdoms (sparse European documentation)",
+    "Pacific and Oceanic regions"
+  ],
+  "events": [
+    {
+      "id": "1396-001",
+      "title": "Battle of Nicopolis",
+      "region": "Balkans (modern Bulgaria/Romania border)",
+      "coordinates_approx": "43.7\u00b0N, 25.3\u00b0E",
+      "category": "military",
+      "description": "A major Ottoman victory under Bayezid I against a Crusade army led by Hungarian King Sigismund and French nobility. The Ottoman forces decisively defeated the Christian coalition, killing thousands and capturing many nobles for ransom. This battle marked a turning point in Ottoman expansion into the Balkans and demonstrated the military superiority of Ottoman tactics. The defeat shattered Western European hopes of reversing Ottoman gains in southeastern Europe and effectively ended the last major Crusade effort of the medieval period.",
+      "key_figures": [
+        "Bayezid I (Ottoman Sultan)",
+        "Sigismund of Hungary (King of Hungary and Holy Roman Emperor-elect)",
+        "Jean de Nevers (French nobleman, later Duke of Burgundy)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary Ottoman chronicles and later European accounts (Froissart, Jean de Wavrin)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ottoman administrative records and Turkish historiography",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle date is well-established in both Ottoman and European sources. Contemporary accounts exist, though written shortly after the event rather than during it.",
+      "cross_references": [
+        "Relates to Ottoman expansion trajectory documented in 1389 (Battle of Kosovo) and subsequent Balkan campaigns"
+      ]
+    },
+    {
+      "id": "1396-002",
+      "title": "Zheng He's early career in Ming service",
+      "region": "China (Ming Dynasty)",
+      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E",
+      "category": "political",
+      "description": "Zheng He, a Muslim eunuch of Mongol descent, was rising in prominence within the Ming court under the Yongle Emperor's patronage. Though his famous voyages would not begin until 1405, his appointment to positions of military and administrative authority in the 1390s laid the groundwork for his later role as commander of the treasure fleets. This period reflects the Ming Dynasty's consolidation of power and its increasing interest in maritime projection and diplomatic outreach.",
+      "key_figures": [
+        "Zheng He (Ming admiral and diplomat, then rising official)",
+        "Yongle Emperor (Ming Emperor, r. 1402\u20131424, but influential before formal reign)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Dynasty official records and later compilations (Ming Shilu)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Zheng He's biography",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Zheng He's exact career trajectory in the 1390s is less well-documented than his later voyages. The general timeline of his rise is accepted, but specific events in 1396 are inferred from broader career patterns.",
+      "cross_references": [
+        "Precedes 1405-001 (First Treasure Voyage)"
+      ]
+    },
+    {
+      "id": "1396-003",
+      "title": "Tamerlane (Timur) consolidates Central Asian power",
+      "region": "Central Asia (Timurid Empire)",
+      "coordinates_approx": "39.7\u00b0N, 64.4\u00b0E",
+      "category": "political",
+      "description": "Timur, the Turco-Mongol conqueror, was at the height of his power, having conquered vast territories from the Mediterranean to China. In 1396, he was organizing his empire and preparing for further campaigns. His court at Samarkand was becoming a center of Islamic culture and architecture. Though Timur would die in 1405, his dominance in this period shaped the geopolitical landscape of Central Asia, the Middle East, and parts of South Asia.",
+      "key_figures": [
+        "Timur (Tamerlane, Timurid Empire founder and ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary Persian chronicles (Yazdi, Sharaf al-Din Ali Yazdi's Zafarnama)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ottoman and Mamluk sources documenting Timurid relations",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Timur's political dominance in 1396 is well-attested. The specific events of this year are less detailed, but his overall power and activities are historically secure.",
+      "cross_references": [
+        "Part of broader Timurid expansion documented from 1370s onward"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Battle of Nicopolis is sometimes portrayed in Western sources as a straightforward 'Crusade' against the Ottomans, but modern scholarship emphasizes that it was primarily a Hungarian-led Balkan campaign with French and other European contingents, not a formally declared Crusade by the Papacy. The religious framing was partly retrospective. Additionally, some sources exaggerate the casualty figures and the degree of European unity in the campaign.",
+  "historiographic_note": "Documentation for 1396 is moderate but heavily weighted toward Ottoman-European military history. Ottoman and European chronicles provide detailed accounts of Nicopolis, but these sources have inherent biases\u2014Ottoman sources emphasize Bayezid's military genius, while European sources often focus on the tragedy of Christian defeat. Chinese sources on Zheng He and Ming activities are more sparse for this specific year. Sub-Saharan African, Southeast Asian, and Pacific histories are largely absent from surviving written records for this year.",
+  "graph_edges": [
+    {
+      "from": "1396-001",
+      "to": "1389-001",
+      "relation": "part_of",
+      "note": "Nicopolis continues Ottoman expansion into the Balkans, following the earlier Battle of Kosovo"
+    },
+    {
+      "from": "1396-002",
+      "to": "1405-001",
+      "relation": "led_to",
+      "note": "Zheng He's rise in the 1390s directly enabled his command of the treasure voyages beginning in 1405"
+    },
+    {
+      "from": "1396-003",
+      "to": "1405-002",
+      "relation": "led_to",
+      "note": "Timur's consolidation of Central Asian power in 1396 set the stage for the succession crisis and fragmentation after his death in 1405"
+    }
+  ]
+}

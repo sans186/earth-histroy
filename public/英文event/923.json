@@ -1,0 +1,120 @@
+{
+  "year": 923,
+  "year_label": "923 CE",
+  "era_context": "The year 923 CE falls within the early 10th century, a period of significant political fragmentation and realignment across Eurasia. The Abbasid Caliphate's authority was waning; regional Islamic dynasties were consolidating. In Europe, the Holy Roman Empire was emerging from the fragmentation of the Carolingian successor states. In East Asia, the Five Dynasties and Ten Kingdoms period was ongoing, with the Later Tang Dynasty newly established. This was an era of transition, with older empires fragmenting and new regional powers consolidating.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Mesoamerica and South America (no written records)",
+    "Northern Europe and Scandinavia (sparse documentation)",
+    "Central Asia (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "923-001",
+      "title": "Establishment of the Later Tang Dynasty in China",
+      "region": "China",
+      "coordinates_approx": "34.0,108.0",
+      "category": "political",
+      "description": "In 923, Li Cunxu (885\u2013926), a military commander of Shatuo Turkic origin, proclaimed himself emperor and established the Later Tang Dynasty, replacing the Later Liang Dynasty (907\u2013923). This marked the beginning of the Later Tang period (923\u2013936), one of the Five Dynasties that ruled northern China during the fragmentation following the Tang Dynasty's collapse. Li Cunxu's establishment of Later Tang was a significant political event, though his reign would prove unstable and short-lived. The Later Tang represented an attempt to restore centralized authority in northern China.",
+      "key_figures": [
+        "Li Cunxu (founder and emperor of Later Tang)",
+        "Zhu Wen / Zhu Quanzhong (founder of Later Liang, deceased)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Five Dynasties period",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The establishment of Later Tang in 923 is well-dated in Chinese historiography. Li Cunxu's proclamation as emperor is a documented political event.",
+      "cross_references": []
+    },
+    {
+      "id": "923-002",
+      "title": "Henry I (the Fowler) consolidates East Frankish power",
+      "region": "Holy Roman Empire (Germany)",
+      "coordinates_approx": "51.0,10.0",
+      "category": "political",
+      "description": "In 923, Henry I (r. 919\u2013936), known as 'the Fowler,' was consolidating his rule over the East Frankish Kingdom. He had become king in 919 and by 923 was establishing himself as a strong ruler through military campaigns against external threats (Slavic tribes, Hungarians) and internal consolidation. Henry I's reign marked the transition from the weak Carolingian successor states to a more centralized Germanic kingdom, laying the foundation for his son Otto I's later dominance.",
+      "key_figures": [
+        "Henry I (king of East Frankia)"
+      ],
+      "sources": [
+        {
+          "name": "Liudprand of Cremona, Antapodosis",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Henry I's reign dates (919\u2013936) are well-established. Specific events within 923 are not precisely documented.",
+      "cross_references": []
+    },
+    {
+      "id": "923-003",
+      "title": "Goryeo consolidation under Wang Geon",
+      "region": "Korea",
+      "coordinates_approx": "37.5,127.0",
+      "category": "political",
+      "description": "In 923, Wang Geon (877\u2013943) was consolidating the Goryeo Kingdom in Korea. Goryeo had been established in 918 and by 923 was in its sixth year of existence. Wang Geon was absorbing remaining Later Three Kingdoms territories and establishing administrative structures. This period saw the cultural and political foundation of medieval Korea, with Buddhism playing a central role in state ideology.",
+      "key_figures": [
+        "Wang Geon (founder and king of Goryeo)"
+      ],
+      "sources": [
+        {
+          "name": "Goryeosa",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Wang Geon's reign dates (918\u2013943) are well-established. Specific events within 923 are not precisely documented.",
+      "cross_references": []
+    },
+    {
+      "id": "923-004",
+      "title": "Khitan Liao expansion under Abaoji",
+      "region": "Manchuria and Mongolia",
+      "coordinates_approx": "43.5,125.0",
+      "category": "military",
+      "description": "In 923, the Khitan Liao state under Abaoji (r. 907\u2013926) was consolidating and expanding its power in Manchuria and Mongolia. Abaoji had declared himself emperor in 916 and was centralizing Khitan confederation under imperial rule. By 923, Liao was becoming a major regional power, threatening the Later Tang Dynasty in China and preparing for future expansion. This period saw the development of Liao's administrative and military structures.",
+      "key_figures": [
+        "Abaoji (Khitan Liao emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Liao Shi",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Abaoji's reign dates (907\u2013926) are well-established. Specific events within 923 are not precisely documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for events listed. The establishment of Later Tang in 923 is well-documented and uncontested.",
+  "historiographic_note": "The year 923 is sparsely documented overall. The establishment of Later Tang is a well-attested political event, but most other information comes from later compilations that provide reign-level rather than year-level detail. The record is dominated by political and dynastic history; economic, cultural, and social developments are largely absent. Non-literate regions are entirely absent from documentation.",
+  "graph_edges": [
+    {
+      "from": "923-001",
+      "to": "936-LATER_TANG_FALL",
+      "relation": "led_to",
+      "note": "Later Tang's establishment in 923 led to its fall in 936"
+    },
+    {
+      "from": "923-001",
+      "to": "926-LI_CUNXU_DEATH",
+      "relation": "led_to",
+      "note": "Li Cunxu's establishment of Later Tang in 923 led to succession crisis in 926"
+    }
+  ]
+}
