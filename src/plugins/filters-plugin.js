@@ -4,6 +4,7 @@
  */
 
 import { CATEGORIES, DEFAULT_ACTIVE_CATEGORIES } from '../config.js';
+import { getCategoryLabel } from '../locale.js';
 
 export default {
   name: 'filters-plugin',
@@ -17,35 +18,46 @@ export default {
     const active = new Set(DEFAULT_ACTIVE_CATEGORIES);
     core.state.set('activeFilters', active);
 
-    for (const [key, cfg] of Object.entries(CATEGORIES)) {
-      const label = document.createElement('label');
-      label.className = 'filter-item active';
-      label.dataset.category = key;
+    function renderFilters() {
+      const locale = core.state.get('locale') ?? 'zh';
 
-      const check = document.createElement('span');
-      check.className = 'filter-check';
+      // Clear and rebuild
+      container.innerHTML = '';
 
-      const dot = document.createElement('span');
-      dot.className = 'filter-dot';
-      dot.style.background = cfg.color;
+      for (const [key, cfg] of Object.entries(CATEGORIES)) {
+        const label = document.createElement('label');
+        label.className = 'filter-item active';
+        label.dataset.category = key;
 
-      label.append(check, dot, cfg.label);
+        const check = document.createElement('span');
+        check.className = 'filter-check';
 
-      label.addEventListener('click', () => {
-        const filters = core.state.get('activeFilters');
-        if (filters.has(key)) {
-          filters.delete(key);
-          label.classList.remove('active');
-        } else {
-          filters.add(key);
-          label.classList.add('active');
-        }
-        // Create a new Set to trigger reactivity
-        core.state.set('activeFilters', new Set(filters));
-      });
+        const dot = document.createElement('span');
+        dot.className = 'filter-dot';
+        dot.style.background = cfg.color;
 
-      container.appendChild(label);
+        label.append(check, dot, getCategoryLabel(cfg, locale));
+
+        label.addEventListener('click', () => {
+          const filters = core.state.get('activeFilters');
+          if (filters.has(key)) {
+            filters.delete(key);
+            label.classList.remove('active');
+          } else {
+            filters.add(key);
+            label.classList.add('active');
+          }
+          core.state.set('activeFilters', new Set(filters));
+        });
+
+        container.appendChild(label);
+      }
     }
+
+    renderFilters();
+
+    // Re-render on locale change
+    core.state.on('locale', renderFilters);
 
     // Sync DOM when filters change externally
     core.state.on('activeFilters', (filters) => {

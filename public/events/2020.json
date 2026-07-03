@@ -1,111 +1,111 @@
 {
   "year": 2020,
-  "year_label": "2020 CE",
-  "era_context": "The early 2020s mark a pivotal inflection in the post-Cold War global order. The year 2020 is defined above all by the COVID-19 pandemic, the most severe global public health crisis since the 1918 influenza pandemic, which triggered unprecedented peacetime economic shutdowns, accelerated digitalisation, and reshaped geopolitics. Simultaneously, the United States experienced deep political polarisation culminating in a contested presidential election, while racial justice movements, climate emergencies, and great-power competition between the US and China intensified. The world population stood at approximately 7.8 billion.",
-  "documentation_level": "rich",
+  "year_label": "2020年",
+  "era_context": "2020年代初期标志着冷战后全球秩序的关键转折点。2020年首先由COVID-19疫情定义，这是自1918年流感大流行以来最严重的全球公共卫生危机，引发了史无前例的和平时期经济停摆，加速了数字化进程，并重塑了地缘政治格局。与此同时，美国经历了深刻的政治两极分化，最终导致了一场有争议的总统选举，而种族正义运动、气候紧急状况以及美中大国竞争也愈演愈烈。世界人口约为78亿。",
+  "documentation_level": "丰富",
   "geographic_coverage_gaps": [
-    "Central Asian domestic politics beyond headline events",
-    "Pacific Island nations beyond climate reporting",
-    "Internal dynamics of several African conflicts (Sahel, eastern DRC) are underrepresented relative to their human cost"
+    "中亚国内政治（除头条新闻外）",
+    "太平洋岛国（除气候报道外）",
+    "非洲若干冲突（萨赫勒地区、刚果民主共和国东部）的内部动态与其造成的人员伤亡相比，报道不足"
   ],
   "events": [
     {
       "id": "2020-001",
-      "title": "COVID-19 declared a global pandemic by WHO",
-      "region": "Global (originating in Wuhan, Hubei, China)",
+      "title": "世界卫生组织宣布COVID-19为全球大流行病",
+      "region": "全球（起源于中国湖北武汉）",
       "coordinates_approx": "30.59, 114.31",
       "category": "demographic",
-      "description": "On 11 March 2020, the World Health Organization declared COVID-19 a pandemic. The novel coronavirus SARS-CoV-2 had been identified in Wuhan in late December 2019 and spread rapidly worldwide. By year's end, over 83 million confirmed cases and 1.8 million deaths had been recorded globally, though true figures were certainly higher. The pandemic triggered the most severe global recession since the 1930s, fundamentally altered work patterns, education, and social behaviour, and exposed deep inequalities in healthcare access worldwide.",
+      "description": "2020年3月11日，世界卫生组织宣布COVID-19为大流行病。新型冠状病毒SARS-CoV-2于2019年12月底在武汉被发现，并迅速在全球传播。到年底，全球已记录超过8300万确诊病例和180万死亡病例，但实际数字肯定更高。这场疫情引发了自1930年代以来最严重的全球衰退，从根本上改变了工作模式、教育和社会行为，并暴露了全球医疗保健获取方面的深刻不平等。",
       "key_figures": [
-        "Tedros Adhanom Ghebreyesus (WHO Director-General)",
-        "Li Wenliang (Wuhan ophthalmologist and early whistleblower, died Feb 2020)",
-        "Zhang Yongzhen (virologist who published the first genome sequence)"
+        "Tedros Adhanom Ghebreyesus（世卫组织总干事）",
+        "Li Wenliang（武汉眼科医生，早期吹哨人，2020年2月去世）",
+        "Zhang Yongzhen（发布首个基因组序列的病毒学家）"
       ],
       "sources": [
         {
-          "name": "WHO Director-General's opening remarks at the media briefing on COVID-19, 11 March 2020",
+          "name": "世卫组织总干事在2020年3月11日COVID-19媒体通报会上的开场发言",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Johns Hopkins University COVID-19 Dashboard data",
+          "name": "约翰霍普金斯大学COVID-19仪表盘数据",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "The Lancet, early epidemiological studies (Jan\u2013Mar 2020)",
+          "name": "《柳叶刀》早期流行病学研究（2020年1月至3月）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Exhaustively documented in real time by global media, governments, and scientific institutions. Some debate persists about total case counts due to undertesting, but the pandemic itself is beyond question.",
+      "certainty_note": "全球媒体、政府和科学机构实时详尽记录。由于检测不足，总病例数仍存在一些争议，但疫情本身毋庸置疑。",
       "cross_references": [
         "2019-COVID_EMERGENCE"
       ]
     },
     {
       "id": "2020-002",
-      "title": "Global lockdowns and economic shutdown",
-      "region": "Global",
+      "title": "全球封锁和经济停摆",
+      "region": "全球",
       "coordinates_approx": null,
       "category": "economic",
-      "description": "Beginning with China's lockdown of Hubei province in January and Italy's nationwide lockdown in March, governments across the world imposed stay-at-home orders, business closures, and travel restrictions of unprecedented peacetime scope. By April, over half the world's population was under some form of movement restriction. Global GDP contracted by approximately 3.1% in 2020 according to the IMF \u2014 the worst peacetime contraction since the Great Depression. Unemployment surged, supply chains fractured, and governments deployed trillions in fiscal stimulus. The lockdowns accelerated remote work, e-commerce, and digital communication permanently.",
+      "description": "从中国1月份封锁湖北省和意大利3月份全国封锁开始，世界各国政府实施了史无前例的和平时期规模的居家令、企业关闭和旅行限制。到4月份，全球超过一半的人口受到某种形式的行动限制。根据国际货币基金组织的数据，2020年全球GDP萎缩约3.1%——这是自大萧条以来最严重的和平时期经济萎缩。失业率飙升，供应链断裂，各国政府部署了数万亿美元的财政刺激措施。封锁措施永久性地加速了远程工作、电子商务和数字通信。",
       "key_figures": [
-        "Giuseppe Conte (Italian PM, imposed first European national lockdown)",
-        "Xi Jinping (ordered Wuhan lockdown)"
+        "Giuseppe Conte（意大利总理，实施了首个欧洲国家封锁）",
+        "Xi Jinping（下令封锁武汉）"
       ],
       "sources": [
         {
-          "name": "IMF World Economic Outlook, October 2020 and January 2021 updates",
+          "name": "国际货币基金组织《世界经济展望》2020年10月和2021年1月更新",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Oxford COVID-19 Government Response Tracker (Blavatnik School)",
+          "name": "牛津COVID-19政府响应追踪器（布拉瓦特尼克政府学院）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Documented in real time by economic data, government orders, and media reporting across virtually every country.",
+      "certainty_note": "经济数据、政府命令和几乎所有国家的媒体报道均实时记录。",
       "cross_references": [
         "2020-001"
       ]
     },
     {
       "id": "2020-003",
-      "title": "Development of COVID-19 vaccines at unprecedented speed",
-      "region": "Global (key development in USA, Germany, UK, China, Russia)",
+      "title": "COVID-19疫苗以前所未有的速度研发",
+      "region": "全球（主要研发地：美国、德国、英国、中国、俄罗斯）",
       "coordinates_approx": null,
       "category": "scientific",
-      "description": "Multiple COVID-19 vaccines were developed in under a year \u2014 shattering the previous record of approximately four years for the mumps vaccine. The Pfizer-BioNTech mRNA vaccine (BNT162b2) reported 95% efficacy in November and received emergency use authorisation in the UK on 2 December 2020, followed by the US on 11 December. Moderna's mRNA vaccine received US EUA on 18 December. Russia's Sputnik V and China's Sinopharm and Sinovac vaccines were also deployed. The success of mRNA technology represented a paradigm shift in vaccinology with implications far beyond COVID-19.",
+      "description": "多种COVID-19疫苗在不到一年的时间内研发成功——打破了此前腮腺炎疫苗约四年的记录。辉瑞-BioNTech的mRNA疫苗（BNT162b2）在11月报告了95%的有效性，并于2020年12月2日在英国获得紧急使用授权，随后于12月11日在美国获得授权。Moderna的mRNA疫苗于12月18日获得美国紧急使用授权。俄罗斯的Sputnik V以及中国的国药和科兴疫苗也已部署。mRNA技术的成功代表了疫苗学的一次范式转变，其影响远远超出COVID-19。",
       "key_figures": [
-        "U\u011fur \u015eahin and \u00d6zlem T\u00fcreci (BioNTech co-founders)",
-        "Katalin Karik\u00f3 (mRNA pioneer)",
-        "St\u00e9phane Bancel (Moderna CEO)",
-        "Sarah Gilbert (Oxford-AstraZeneca vaccine lead)",
-        "Alexander Gintsburg (Gamaleya Institute, Sputnik V)"
+        "Uğur Şahin和Özlem Türeci（BioNTech联合创始人）",
+        "Katalin Karikó（mRNA先驱）",
+        "Stéphane Bancel（Moderna首席执行官）",
+        "Sarah Gilbert（牛津-阿斯利康疫苗负责人）",
+        "Alexander Gintsburg（加马列亚研究所，Sputnik V）"
       ],
       "sources": [
         {
-          "name": "Polack et al., 'Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine,' New England Journal of Medicine, 31 Dec 2020",
+          "name": "Polack等人，《BNT162b2 mRNA Covid-19疫苗的安全性和有效性》，《新英格兰医学杂志》，2020年12月31日",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Baden et al., 'Efficacy and Safety of the mRNA-1273 SARS-CoV-2 Vaccine,' NEJM, 30 Dec 2020",
+          "name": "Baden等人，《mRNA-1273 SARS-CoV-2疫苗的有效性和安全性》，《新英格兰医学杂志》，2020年12月30日",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "UK MHRA Emergency Use Authorisation documentation, 2 December 2020",
+          "name": "英国药品和健康产品管理局紧急使用授权文件，2020年12月2日",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Peer-reviewed clinical trial data and regulatory authorisation documents are publicly available.",
+      "certainty_note": "同行评审的临床试验数据和监管授权文件均可公开获取。",
       "cross_references": [
         "2020-001",
         "2021-VACCINE_ROLLOUT"
@@ -113,166 +113,166 @@
     },
     {
       "id": "2020-004",
-      "title": "Killing of George Floyd and global racial justice protests",
-      "region": "United States; protests worldwide",
+      "title": "乔治·弗洛伊德被杀及全球种族正义抗议",
+      "region": "美国；全球抗议活动",
       "coordinates_approx": "44.95, -93.26",
       "category": "cultural",
-      "description": "On 25 May 2020, George Floyd, a 46-year-old Black man, was killed during arrest by Minneapolis police officer Derek Chauvin, who knelt on his neck for over nine minutes. Bystander video of the killing went viral and triggered the largest protest movement in US history. An estimated 15\u201326 million Americans participated in Black Lives Matter demonstrations across all 50 states. Solidarity protests erupted in dozens of countries. The movement prompted widespread debate on systemic racism, police reform, and monument removal, and led to policy changes in numerous jurisdictions.",
+      "description": "2020年5月25日，46岁的黑人男子乔治·弗洛伊德在明尼阿波利斯被捕期间被警察德里克·肖万杀害，肖万跪在其脖子上超过九分钟。旁观者拍摄的杀人视频迅速传播，引发了美国历史上最大的抗议运动。估计有1500万至2600万美国人参与了全美50个州的“黑人的命也是命”示威活动。数十个国家爆发了声援抗议。这场运动引发了关于系统性种族主义、警察改革和纪念碑移除的广泛辩论，并导致许多司法管辖区出台了政策变革。",
       "key_figures": [
-        "George Floyd (victim)",
-        "Derek Chauvin (police officer, later convicted)",
-        "Darnella Frazier (bystander who filmed the killing)"
+        "George Floyd（受害者）",
+        "Derek Chauvin（警察，后被定罪）",
+        "Darnella Frazier（拍摄杀人视频的旁观者）"
       ],
       "sources": [
         {
-          "name": "Bystander video by Darnella Frazier, 25 May 2020",
+          "name": "Darnella Frazier拍摄的旁观者视频，2020年5月25日",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Buchanan, Bui, and Patel, 'Black Lives Matter May Be the Largest Movement in U.S. History,' New York Times, 3 July 2020",
+          "name": "Buchanan、Bui和Patel，《黑人的命也是命可能是美国历史上最大的运动》，《纽约时报》，2020年7月3日",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Minneapolis Police Department incident records and subsequent criminal trial documents",
+          "name": "明尼阿波利斯警察局事件记录及随后的刑事审判文件",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The killing was captured on video. Protest scale estimates from crowd-counting researchers and the Armed Conflict Location & Event Data Project (ACLED).",
+      "certainty_note": "杀人过程被视频记录。抗议规模估计来自人群计数研究人员和武装冲突地点与事件数据项目。",
       "cross_references": [
         "2021-CHAUVIN_TRIAL"
       ]
     },
     {
       "id": "2020-005",
-      "title": "United States presidential election \u2014 Biden defeats Trump",
-      "region": "United States",
+      "title": "美国总统选举——拜登击败特朗普",
+      "region": "美国",
       "coordinates_approx": "38.90, -77.04",
       "category": "political",
-      "description": "Democrat Joseph R. Biden defeated incumbent Republican President Donald J. Trump in the presidential election held on 3 November 2020, winning 306 electoral votes to 232 and over 81 million popular votes \u2014 the most in US history. The election was conducted amid the pandemic, with unprecedented levels of mail-in voting. Trump refused to concede and made sustained, baseless claims of widespread fraud, filing dozens of unsuccessful legal challenges. This culminated in a campaign to overturn the result that would lead to the 6 January 2021 Capitol attack. Voter turnout was the highest in over a century at approximately 66.8%.",
+      "description": "民主党人小约瑟夫·R·拜登在2020年11月3日举行的总统选举中击败了在任共和党总统唐纳德·J·特朗普，赢得了306张选举人票对232张，以及超过8100万张普选票——这是美国历史上最多的。选举是在疫情期间进行的，邮寄投票数量空前。特朗普拒绝认输，并持续提出毫无根据的大规模舞弊指控，提起了数十起未成功的法律挑战。这最终演变成一场推翻选举结果的运动，导致了2021年1月6日的国会大厦袭击事件。选民投票率约为66.8%，是超过一个世纪以来的最高水平。",
       "key_figures": [
-        "Joe Biden (President-elect)",
-        "Kamala Harris (Vice President-elect, first woman and first person of colour in the role)",
-        "Donald Trump (incumbent, refused to concede)"
+        "Joe Biden（当选总统）",
+        "Kamala Harris（当选副总统，首位担任此职的女性和有色人种）",
+        "Donald Trump（在任总统，拒绝认输）"
       ],
       "sources": [
         {
-          "name": "Federal Election Commission certified results; Associated Press election desk calls",
+          "name": "联邦选举委员会认证结果；美联社选举计票结果",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "US Elections Project (Michael McDonald) turnout data",
+          "name": "美国选举项目（Michael McDonald）投票率数据",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Court filings in Trump campaign lawsuits (various jurisdictions, Nov\u2013Dec 2020)",
+          "name": "特朗普竞选团队诉讼中的法庭文件（各司法管辖区，2020年11月至12月）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Certified by all 50 states and confirmed by the Electoral College on 14 December 2020. Post-election audits in contested states confirmed the outcome.",
+      "certainty_note": "经全部50个州认证，并于2020年12月14日经选举人团确认。争议州的选举后审计证实了结果。",
       "cross_references": [
         "2021-JAN6_CAPITOL"
       ]
     },
     {
       "id": "2020-006",
-      "title": "United Kingdom formally exits the European Union",
-      "region": "United Kingdom / European Union",
+      "title": "英国正式退出欧盟",
+      "region": "英国 / 欧盟",
       "coordinates_approx": "51.50, -0.13",
       "category": "political",
-      "description": "The United Kingdom formally left the European Union on 31 January 2020 at 23:00 GMT, entering a transition period during which it remained in the single market and customs union while negotiating future terms. After months of fraught negotiations, a Trade and Cooperation Agreement was finalised on 24 December 2020 and provisionally applied from 1 January 2021. Brexit ended 47 years of British EU membership and represented the most significant reconfiguration of European geopolitics since German reunification.",
+      "description": "英国于2020年1月31日格林威治标准时间23:00正式退出欧盟，进入一个过渡期，在此期间它仍留在单一市场和关税同盟中，同时就未来条款进行谈判。经过数月艰难的谈判，一项贸易与合作协定于2020年12月24日最终敲定，并于2021年1月1日起临时适用。英国脱欧结束了英国47年的欧盟成员国身份，代表了自德国统一以来欧洲地缘政治最重大的重新配置。",
       "key_figures": [
-        "Boris Johnson (UK Prime Minister)",
-        "Michel Barnier (EU chief negotiator)",
-        "Ursula von der Leyen (European Commission President)"
+        "Boris Johnson（英国首相）",
+        "Michel Barnier（欧盟首席谈判代表）",
+        "Ursula von der Leyen（欧盟委员会主席）"
       ],
       "sources": [
         {
-          "name": "European Union (Withdrawal Agreement) Act 2020 (UK legislation)",
+          "name": "《2020年欧盟（退出协议）法案》（英国立法）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "EU-UK Trade and Cooperation Agreement, 24 December 2020",
+          "name": "《欧盟-英国贸易与合作协定》，2020年12月24日",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Documented by official legislation and treaty texts of both parties.",
+      "certainty_note": "由双方的官方立法和条约文本记录。",
       "cross_references": [
         "2016-BREXIT_REFERENDUM"
       ]
     },
     {
       "id": "2020-007",
-      "title": "Beirut port explosion",
-      "region": "Lebanon",
+      "title": "贝鲁特港口爆炸",
+      "region": "黎巴嫩",
       "coordinates_approx": "33.90, 35.52",
       "category": "environmental",
-      "description": "On 4 August 2020, approximately 2,750 tonnes of ammonium nitrate stored unsafely at the Port of Beirut detonated, producing one of the largest non-nuclear explosions in history. The blast killed at least 218 people, injured over 7,000, left 300,000 homeless, and caused an estimated $15 billion in property damage across half the city. The disaster exposed deep corruption and negligence within Lebanon's political establishment, as officials had been warned about the dangerous stockpile for years. It accelerated Lebanon's ongoing economic and political crisis.",
+      "description": "2020年8月4日，贝鲁特港口不安全储存的大约2750吨硝酸铵发生爆炸，造成了历史上最大的非核爆炸之一。爆炸造成至少218人死亡，超过7000人受伤，30万人无家可归，并给半个城市造成了估计150亿美元的财产损失。这场灾难暴露了黎巴嫩政治体制内的深层腐败和疏忽，因为官员们多年来一直收到关于危险库存的警告。它加速了黎巴嫩持续的经济和政治危机。",
       "key_figures": [
-        "Hassan Diab (Lebanese Prime Minister, resigned 10 August)",
-        "Tarek Bitar (lead investigative judge, later obstructed)"
+        "Hassan Diab（黎巴嫩总理，8月10日辞职）",
+        "Tarek Bitar（首席调查法官，后遭阻挠）"
       ],
       "sources": [
         {
-          "name": "Seismological and blast analysis reports (multiple institutions including USGS)",
+          "name": "地震学和爆炸分析报告（包括美国地质调查局在内的多个机构）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Human Rights Watch, '\"They Killed Us from the Inside\": An Investigation into the August 4 Beirut Blast,' August 2021",
+          "name": "人权观察，《“他们从内部杀死了我们”：对8月4日贝鲁特爆炸的调查》，2021年8月",
           "type": "historiographic_consensus",
           "contemporary": false
         },
         {
-          "name": "Lebanese Red Cross casualty figures; UN OCHA damage assessments",
+          "name": "黎巴嫩红十字会伤亡数字；联合国人道主义事务协调厅损失评估",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The explosion was captured on numerous videos and by seismic instruments globally. Casualty figures are from Lebanese government and Red Cross sources. The judicial investigation has been repeatedly blocked.",
+      "certainty_note": "爆炸被大量视频和全球地震仪器记录。伤亡数字来自黎巴嫩政府和红十字会消息来源。司法调查一再受阻。",
       "cross_references": [
         "2019-LEBANON_PROTESTS"
       ]
     },
     {
       "id": "2020-008",
-      "title": "Abraham Accords \u2014 normalisation of Israel's relations with UAE and Bahrain",
-      "region": "Middle East (Israel, United Arab Emirates, Bahrain)",
+      "title": "《亚伯拉罕协议》——以色列与阿联酋和巴林关系正常化",
+      "region": "中东（以色列、阿拉伯联合酋长国、巴林）",
       "coordinates_approx": "38.90, -77.04",
       "category": "political",
-      "description": "On 15 September 2020, Israel, the United Arab Emirates, and Bahrain signed the Abraham Accords at the White House, normalising diplomatic relations. Sudan and Morocco followed with similar agreements in October and December respectively. These were the first Arab-Israeli normalisation agreements since Jordan's 1994 peace treaty and represented a significant realignment of Middle Eastern geopolitics, driven partly by shared concern over Iran. The accords were criticised by Palestinians as a betrayal that abandoned their cause as a precondition for normalisation.",
+      "description": "2020年9月15日，以色列、阿拉伯联合酋长国和巴林在白宫签署了《亚伯拉罕协议》，实现了外交关系正常化。苏丹和摩洛哥随后分别在10月和12月签署了类似协议。这是自1994年约旦和平条约以来首批阿拉伯-以色列正常化协议，代表了中东地缘政治的重大调整，部分原因是出于对伊朗的共同担忧。该协议被巴勒斯坦人批评为背叛，认为它放弃了将巴勒斯坦事业作为正常化的先决条件。",
       "key_figures": [
-        "Benjamin Netanyahu (Israeli PM)",
-        "Abdullah bin Zayed Al Nahyan (UAE Foreign Minister)",
-        "Abdullatif bin Rashid Al Zayani (Bahraini Foreign Minister)",
-        "Donald Trump (US President, broker)",
-        "Jared Kushner (senior adviser)"
+        "Benjamin Netanyahu（以色列总理）",
+        "Abdullah bin Zayed Al Nahyan（阿联酋外交部长）",
+        "Abdullatif bin Rashid Al Zayani（巴林外交部长）",
+        "Donald Trump（美国总统，斡旋者）",
+        "Jared Kushner（高级顾问）"
       ],
       "sources": [
         {
-          "name": "Abraham Accords Declaration, signed 15 September 2020 (US State Department)",
+          "name": "《亚伯拉罕协议宣言》，2020年9月15日签署（美国国务院）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "UN General Assembly statements by Palestinian Authority representatives, September 2020",
+          "name": "巴勒斯坦权力机构代表在联合国大会的声明，2020年9月",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Treaty texts are public; signing ceremony was televised globally.",
+      "certainty_note": "条约文本公开；签署仪式全球电视转播。",
       "cross_references": [
         "1994-JORDAN_ISRAEL_PEACE",
         "1979-EGYPT_ISRAEL_PEACE"
@@ -280,36 +280,36 @@
     },
     {
       "id": "2020-009",
-      "title": "Nagorno-Karabakh War between Armenia and Azerbaijan",
-      "region": "South Caucasus (Nagorno-Karabakh / Azerbaijan)",
+      "title": "亚美尼亚与阿塞拜疆之间的纳戈尔诺-卡拉巴赫战争",
+      "region": "南高加索（纳戈尔诺-卡拉巴赫 / 阿塞拜疆）",
       "coordinates_approx": "39.82, 46.76",
       "category": "military",
-      "description": "On 27 September 2020, Azerbaijan launched a major military offensive to recapture territories in and around Nagorno-Karabakh held by Armenian forces since the 1994 ceasefire. The 44-day war ended on 10 November with a Russian-brokered ceasefire. Azerbaijan recaptured most of the surrounding territories and parts of Nagorno-Karabakh itself. Turkish military support, including drone warfare, proved decisive. Approximately 6,500 people were killed. The war demonstrated the transformative impact of Turkish Bayraktar TB2 drones on modern conventional warfare.",
+      "description": "2020年9月27日，阿塞拜疆发动重大军事攻势，以夺回自1994年停火以来由亚美尼亚军队控制的纳戈尔诺-卡拉巴赫及其周边领土。这场44天的战争于11月10日以俄罗斯斡旋的停火协议结束。阿塞拜疆夺回了大部分周边领土和纳戈尔诺-卡拉巴赫的部分地区。土耳其的军事支持，包括无人机作战，被证明具有决定性作用。大约6500人丧生。这场战争展示了土耳其Bayraktar TB2无人机对现代常规战争的变革性影响。",
       "key_figures": [
-        "Ilham Aliyev (President of Azerbaijan)",
-        "Nikol Pashinyan (Prime Minister of Armenia)",
-        "Vladimir Putin (Russian President, brokered ceasefire)",
-        "Recep Tayyip Erdo\u011fan (Turkish President, military support to Azerbaijan)"
+        "Ilham Aliyev（阿塞拜疆总统）",
+        "Nikol Pashinyan（亚美尼亚总理）",
+        "Vladimir Putin（俄罗斯总统，斡旋停火）",
+        "Recep Tayyip Erdoğan（土耳其总统，向阿塞拜疆提供军事支持）"
       ],
       "sources": [
         {
-          "name": "Trilateral ceasefire statement by Russia, Armenia, and Azerbaijan, 10 November 2020",
+          "name": "俄罗斯、亚美尼亚和阿塞拜疆三方停火声明，2020年11月10日",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "International Crisis Group, 'The Nagorno-Karabakh Conflict: A Visual Explainer,' and 'Improving Prospects for Peace after the Nagorno-Karabakh War,' 2020\u20132021",
+          "name": "国际危机组织，《纳戈尔诺-卡拉巴赫冲突：视觉解读》和《纳戈尔诺-卡拉巴赫战争后改善和平前景》，2020-2021年",
           "type": "historiographic_consensus",
           "contemporary": true
         },
         {
-          "name": "Open-source intelligence analysis of drone warfare footage (Bellingcat, RUSI studies)",
+          "name": "无人机作战视频的开源情报分析（Bellingcat、RUSI研究）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in real time through satellite imagery, social media, and official statements from both sides.",
+      "certainty_note": "通过卫星图像、社交媒体和双方官方声明实时广泛记录。",
       "cross_references": [
         "1994-KARABAKH_CEASEFIRE",
         "2023-KARABAKH_DISSOLUTION"
@@ -317,172 +317,172 @@
     },
     {
       "id": "2020-010",
-      "title": "Tigray War begins in Ethiopia",
-      "region": "Ethiopia (Tigray region)",
+      "title": "埃塞俄比亚提格雷战争爆发",
+      "region": "埃塞俄比亚（提格雷地区）",
       "coordinates_approx": "13.50, 39.47",
       "category": "military",
-      "description": "On 4 November 2020, armed conflict erupted between Ethiopian federal forces (with Eritrean and Amhara allies) and the Tigray People's Liberation Front (TPLF) after TPLF forces attacked the Northern Command of the Ethiopian National Defense Force. The Ethiopian government declared victory in late November after capturing Mekelle, but the TPLF launched a guerrilla insurgency. The war would continue until November 2022 and is estimated to have caused 300,000\u2013500,000 deaths, mostly civilians, making it one of the deadliest conflicts of the 21st century. Communications blackouts severely hampered reporting.",
+      "description": "2020年11月4日，在提格雷人民解放阵线部队袭击埃塞俄比亚国防军北部司令部后，埃塞俄比亚联邦部队（与厄立特里亚和阿姆哈拉盟友一起）与提格雷人民解放阵线之间爆发了武装冲突。埃塞俄比亚政府在11月底占领默克莱后宣布胜利，但提格雷人民解放阵线发动了游击战。这场战争一直持续到2022年11月，估计造成30万至50万人死亡，其中大部分是平民，使其成为21世纪最致命的冲突之一。通讯中断严重阻碍了报道。",
       "key_figures": [
-        "Abiy Ahmed (Ethiopian PM, 2019 Nobel Peace laureate)",
-        "Debretsion Gebremichael (TPLF leader)",
-        "Isaias Afwerki (Eritrean President, allied with Ethiopia)"
+        "Abiy Ahmed（埃塞俄比亚总理，2019年诺贝尔和平奖得主）",
+        "Debretsion Gebremichael（提格雷人民解放阵线领导人）",
+        "Isaias Afwerki（厄立特里亚总统，与埃塞俄比亚结盟）"
       ],
       "sources": [
         {
-          "name": "Ethiopian government statements and TPLF communiqu\u00e9s, November 2020",
+          "name": "埃塞俄比亚政府声明和提格雷人民解放阵线公报，2020年11月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "UN OHCHR and Amnesty International reports on atrocities, 2021 (covering 2020 events)",
+          "name": "联合国人权事务高级专员办事处和大赦国际关于暴行的报告，2021年（涵盖2020年事件）",
           "type": "historiographic_consensus",
           "contemporary": false
         },
         {
-          "name": "Ghent University casualty estimates (Jan 2023, retrospective analysis)",
+          "name": "根特大学伤亡估计（2023年1月，回顾性分析）",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The conflict's outbreak is confirmed; precise casualty figures remain uncertain due to communications blackouts and restricted humanitarian access. The 300,000\u2013500,000 death toll is from post-conflict demographic and epidemiological estimates.",
+      "certainty_note": "冲突爆发已确认；由于通讯中断和人道主义准入受限，确切伤亡数字仍不确定。30万至50万的死亡人数来自冲突后的人口学和流行病学估计。",
       "cross_references": [
         "2022-TIGRAY_CEASEFIRE"
       ]
     },
     {
       "id": "2020-011",
-      "title": "Australian bushfire season reaches catastrophic scale",
-      "region": "Australia (primarily New South Wales, Victoria, South Australia)",
+      "title": "澳大利亚丛林火灾季节达到灾难性规模",
+      "region": "澳大利亚（主要在新南威尔士州、维多利亚州、南澳大利亚州）",
       "coordinates_approx": "-33.87, 151.21",
       "category": "environmental",
-      "description": "The 2019\u20132020 Australian bushfire season, colloquially 'Black Summer,' peaked in January 2020. Fires burned an estimated 18.6 million hectares, destroyed over 5,900 buildings including 2,779 homes, and killed 34 people directly. An estimated 3 billion animals were killed or displaced \u2014 a figure described by ecologists as one of the worst wildlife disasters in modern history. The fires generated pyrocumulonimbus clouds visible from space and injected smoke into the stratosphere. The season intensified global debate on climate change and its role in extreme fire weather.",
+      "description": "2019-2020年澳大利亚丛林火灾季节，俗称“黑色夏季”，在2020年1月达到顶峰。火灾烧毁了估计1860万公顷土地，摧毁了超过5900座建筑物，包括2779所房屋，并直接造成34人死亡。估计有30亿只动物死亡或流离失所——生态学家称其为现代历史上最严重的野生动物灾难之一。火灾产生了从太空可见的火积云，并将烟雾注入平流层。这个火灾季节加剧了关于气候变化及其在极端火灾天气中作用的全球辩论。",
       "key_figures": [
-        "Scott Morrison (Australian PM, criticised for holidaying during crisis)",
-        "Shane Fitzsimmons (NSW Rural Fire Service Commissioner)"
+        "Scott Morrison（澳大利亚总理，因在危机期间度假而受到批评）",
+        "Shane Fitzsimmons（新南威尔士州乡村消防局专员）"
       ],
       "sources": [
         {
-          "name": "Royal Commission into National Natural Disaster Arrangements, October 2020",
+          "name": "国家自然灾害安排皇家委员会，2020年10月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "WWF Australia, 'Australia's 2019-2020 Bushfires: The Wildlife Toll,' interim report by Chris Dickman et al.",
+          "name": "世界自然基金会澳大利亚分会，《澳大利亚2019-2020年丛林火灾：野生动物损失》，Chris Dickman等人的中期报告",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "NASA Earth Observatory satellite imagery and analysis",
+          "name": "美国国家航空航天局地球观测站卫星图像和分析",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Satellite data, government records, and the Royal Commission report provide comprehensive documentation. Wildlife toll estimates carry acknowledged uncertainty but order of magnitude is well established.",
+      "certainty_note": "卫星数据、政府记录和皇家委员会报告提供了全面记录。野生动物损失估计存在公认的不确定性，但数量级已得到充分确认。",
       "cross_references": [
         "2019-AUSTRALIA_FIRES_BEGIN"
       ]
     },
     {
       "id": "2020-012",
-      "title": "Assassination of Qasem Soleimani by US drone strike",
-      "region": "Iraq (Baghdad)",
+      "title": "美国无人机袭击暗杀卡西姆·苏莱曼尼",
+      "region": "伊拉克（巴格达）",
       "coordinates_approx": "33.26, 44.23",
       "category": "military",
-      "description": "On 3 January 2020, a US drone strike near Baghdad International Airport killed Major General Qasem Soleimani, commander of Iran's Islamic Revolutionary Guard Corps Quds Force, along with Abu Mahdi al-Muhandis, deputy commander of Iraq's Popular Mobilization Forces. Ordered by President Trump, the strike brought the US and Iran to the brink of open war. Iran retaliated on 8 January with ballistic missile strikes on Al Asad Air Base in Iraq, injuring over 100 US personnel. The crisis subsequently de-escalated but fundamentally altered US-Iran dynamics.",
+      "description": "2020年1月3日，美国在巴格达国际机场附近发动无人机袭击，打死了伊朗伊斯兰革命卫队圣城旅指挥官卡西姆·苏莱曼尼少将，以及伊拉克人民动员部队副指挥官阿布·马赫迪·穆罕迪斯。这次袭击由特朗普总统下令，使美国和伊朗濒临公开战争。伊朗于1月8日以弹道导弹袭击伊拉克的阿萨德空军基地作为报复，造成超过100名美国人员受伤。这场危机随后缓和，但从根本上改变了美伊关系动态。",
       "key_figures": [
-        "Qasem Soleimani (IRGC Quds Force commander, killed)",
-        "Abu Mahdi al-Muhandis (PMF deputy commander, killed)",
-        "Donald Trump (US President, ordered strike)",
-        "Ali Khamenei (Iranian Supreme Leader)"
+        "Qasem Soleimani（伊朗伊斯兰革命卫队圣城旅指挥官，被杀）",
+        "Abu Mahdi al-Muhandis（人民动员部队副指挥官，被杀）",
+        "Donald Trump（美国总统，下令袭击）",
+        "Ali Khamenei（伊朗最高领袖）"
       ],
       "sources": [
         {
-          "name": "US Department of Defense statement confirming the strike, 3 January 2020",
+          "name": "美国国防部确认袭击的声明，2020年1月3日",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Iranian government and IRGC official statements, January 2020",
+          "name": "伊朗政府和伊斯兰革命卫队官方声明，2020年1月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Pentagon report on traumatic brain injuries from Al Asad retaliatory strike",
+          "name": "五角大楼关于阿萨德报复性袭击造成创伤性脑损伤的报告",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Confirmed by all parties involved. The strike, the identity of those killed, and the retaliatory attack are undisputed.",
+      "certainty_note": "所有相关方均已确认。袭击、死者身份以及报复性袭击均无争议。",
       "cross_references": []
     },
     {
       "id": "2020-013",
-      "title": "Belarus presidential election and mass protests",
-      "region": "Belarus",
+      "title": "白俄罗斯总统选举和大规模抗议",
+      "region": "白俄罗斯",
       "coordinates_approx": "53.90, 27.57",
       "category": "political",
-      "description": "President Alexander Lukashenko claimed victory in the 9 August 2020 presidential election with an implausible 80.1% of the vote. Opposition candidate Sviatlana Tsikhanouskaya, who had drawn massive rallies, rejected the result and fled to Lithuania. Hundreds of thousands of Belarusians took to the streets in the largest protests in the country's history. Security forces responded with mass arrests (over 35,000), torture of detainees, and lethal force. The protest movement, while ultimately suppressed, represented an unprecedented challenge to Lukashenko's 26-year rule and drew widespread international condemnation.",
+      "description": "总统亚历山大·卢卡申科在2020年8月9日的总统选举中以令人难以置信的80.1%得票率声称获胜。曾吸引大规模集会的反对派候选人斯维特拉娜·季哈诺夫斯卡娅拒绝接受结果并逃往立陶宛。数十万白俄罗斯人走上街头，举行了该国历史上最大规模的抗议活动。安全部队以大规模逮捕（超过35000人）、酷刑和致命武力作为回应。抗议运动虽然最终被镇压，但代表了对卢卡申科26年统治前所未有的挑战，并引起了广泛的国际谴责。",
       "key_figures": [
-        "Alexander Lukashenko (President)",
-        "Sviatlana Tsikhanouskaya (opposition candidate)",
-        "Maria Kolesnikova (opposition leader, arrested)"
+        "Alexander Lukashenko（总统）",
+        "Sviatlana Tsikhanouskaya（反对派候选人）",
+        "Maria Kolesnikova（反对派领导人，被捕）"
       ],
       "sources": [
         {
-          "name": "OSCE/ODIHR statement on non-observation of the election (Belarus refused observers)",
+          "name": "欧洲安全与合作组织/民主制度和人权办公室关于未观察选举的声明（白俄罗斯拒绝观察员）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Viasna Human Rights Centre documentation of arrests and torture",
+          "name": "Viasna人权中心关于逮捕和酷刑的记录",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "BBC, Reuters, and AP contemporaneous reporting with verified protest footage",
+          "name": "英国广播公司、路透社和美联社的同期报道及经核实的抗议视频",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Mass protests documented by extensive video footage, satellite imagery of crowd sizes, and independent human rights monitoring. The election itself lacked credible independent observation.",
+      "certainty_note": "大规模抗议活动由大量视频片段、人群规模的卫星图像以及独立的人权监测记录。选举本身缺乏可信的独立观察。",
       "cross_references": []
     },
     {
       "id": "2020-014",
-      "title": "China imposes National Security Law on Hong Kong",
-      "region": "Hong Kong / China",
+      "title": "中国对香港实施《国家安全法》",
+      "region": "香港 / 中国",
       "coordinates_approx": "22.32, 114.17",
       "category": "legal",
-      "description": "On 30 June 2020, China's National People's Congress Standing Committee imposed a sweeping National Security Law on Hong Kong, bypassing the territory's legislature. The law criminalised secession, subversion, terrorism, and collusion with foreign forces, with maximum penalties of life imprisonment. It effectively ended the 'one country, two systems' framework guaranteed until 2047 under the 1984 Sino-British Joint Declaration. The law was enacted in response to the massive 2019 pro-democracy protests and led to the arrest of dozens of pro-democracy figures, the disbanding of civil society organisations, and the closure or self-censorship of independent media outlets.",
+      "description": "2020年6月30日，中国全国人民代表大会常务委员会绕过香港立法机构，对香港实施了一项全面的《国家安全法》。该法律将分裂国家、颠覆国家政权、恐怖活动以及外国干预定为刑事犯罪，最高可判处终身监禁。它实际上结束了1984年《中英联合声明》中承诺的“一国两制”框架（保证至2047年）。该法律是为了回应2019年大规模民主抗议活动而颁布的，导致数十名民主派人士被捕、民间社会组织解散以及独立媒体关闭或自我审查。",
       "key_figures": [
-        "Xi Jinping (Chinese President)",
-        "Carrie Lam (Hong Kong Chief Executive)",
-        "Jimmy Lai (media mogul, arrested)",
-        "Joshua Wong (activist, imprisoned)"
+        "Xi Jinping（中国国家主席）",
+        "Carrie Lam（香港行政长官）",
+        "Jimmy Lai（媒体大亨，被捕）",
+        "Joshua Wong（活动人士，被监禁）"
       ],
       "sources": [
         {
-          "name": "The Law of the People's Republic of China on Safeguarding National Security in the Hong Kong Special Administrative Region (full text, 30 June 2020)",
+          "name": "《中华人民共和国香港特别行政区维护国家安全法》（全文，2020年6月30日）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Joint statement by Australia, Canada, UK, and US condemning the law, 28 May 2020",
+          "name": "澳大利亚、加拿大、英国和美国谴责该法律的联合声明，2020年5月28日",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Hong Kong Free Press and Reuters contemporaneous reporting on arrests and organisational closures",
+          "name": "《香港自由报》和路透社关于逮捕和组织关闭的同期报道",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The law's text is publicly available. Its effects are documented by legal records, media reporting, and human rights organisations.",
+      "certainty_note": "法律文本公开。其影响由法律记录、媒体报道和人权组织记录。",
       "cross_references": [
         "2019-HONG_KONG_PROTESTS",
         "1984-SINO_BRITISH_DECLARATION"
@@ -490,123 +490,123 @@
     },
     {
       "id": "2020-015",
-      "title": "India-China military clash in Galwan Valley",
-      "region": "Ladakh (India-China border)",
+      "title": "中印加勒万河谷军事冲突",
+      "region": "拉达克（中印边境）",
       "coordinates_approx": "34.75, 78.18",
       "category": "military",
-      "description": "On 15 June 2020, Indian and Chinese soldiers fought a deadly hand-to-hand clash in the Galwan Valley along the disputed Line of Actual Control in Ladakh. Twenty Indian soldiers and at least four Chinese soldiers were killed \u2014 the first fatal engagement between the two nuclear-armed nations since 1975. The clash followed months of Chinese infrastructure expansion in disputed border areas. Both sides subsequently deployed tens of thousands of additional troops to the region. The incident severely damaged Sino-Indian relations and prompted India to ban dozens of Chinese mobile applications and shift its strategic posture.",
+      "description": "2020年6月15日，印度和中国士兵在有争议的拉达克实际控制线沿线的加勒万河谷发生了一场致命的肉搏战。20名印度士兵和至少4名中国士兵丧生——这是自1975年以来这两个拥有核武器的国家之间首次发生致命交火。这场冲突发生前，中国在争议边境地区进行了数月的基础设施扩建。此后，双方都向该地区增派了数万名士兵。这一事件严重损害了中印关系，并促使印度禁止了数十个中国手机应用程序并调整了其战略姿态。",
       "key_figures": [
-        "Narendra Modi (Indian PM)",
-        "Xi Jinping (Chinese President)",
-        "Colonel Santosh Babu (Indian commanding officer, killed)"
+        "Narendra Modi（印度总理）",
+        "Xi Jinping（中国国家主席）",
+        "Colonel Santosh Babu（印度指挥官，阵亡）"
       ],
       "sources": [
         {
-          "name": "Indian Army official statement, 16 June 2020",
+          "name": "印度陆军官方声明，2020年6月16日",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Chinese PLA Daily acknowledgement (delayed, February 2021, confirming four Chinese deaths)",
+          "name": "中国《解放军报》承认（延迟，2021年2月，确认四名中国军人死亡）",
           "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "Satellite imagery analysis by Planet Labs and Maxar Technologies showing troop buildups",
+          "name": "Planet Labs和Maxar Technologies的卫星图像分析显示部队集结",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Indian casualties were acknowledged immediately. China initially concealed its casualties, confirming four deaths only in February 2021; some sources suggest the figure was higher. The clash itself is undisputed.",
+      "certainty_note": "印度伤亡立即得到承认。中国最初隐瞒了其伤亡情况，仅在2021年2月确认了四人死亡；一些消息来源表明数字更高。冲突本身无争议。",
       "cross_references": [
         "1962-SINO_INDIAN_WAR"
       ]
     },
     {
       "id": "2020-016",
-      "title": "Global stock market crash and recovery",
-      "region": "Global",
+      "title": "全球股市崩盘与复苏",
+      "region": "全球",
       "coordinates_approx": null,
       "category": "economic",
-      "description": "Between 20 February and 23 March 2020, global stock markets experienced the fastest crash in history, with the S&P 500 falling 34% in 23 trading days. Central banks responded with extraordinary monetary policy: the US Federal Reserve cut rates to near zero and launched unlimited quantitative easing; the European Central Bank expanded its asset purchases by \u20ac750 billion. Markets recovered with remarkable speed, with the S&P 500 reaching new all-time highs by August. The disconnect between surging markets and severe economic contraction became a defining feature of the year and intensified debate about wealth inequality.",
+      "description": "2020年2月20日至3月23日期间，全球股市经历了历史上最快的崩盘，标准普尔500指数在23个交易日内下跌了34%。各国央行以非常规货币政策回应：美联储将利率降至接近零并启动了无限量量化宽松；欧洲央行将其资产购买规模扩大7500亿欧元。市场以惊人的速度复苏，标准普尔500指数在8月份达到了历史新高。飙升的市场与严重的经济收缩之间的脱节成为这一年的一个决定性特征，并加剧了关于财富不平等的辩论。",
       "key_figures": [
-        "Jerome Powell (US Federal Reserve Chair)",
-        "Christine Lagarde (ECB President)",
-        "Steven Mnuchin (US Treasury Secretary)"
+        "Jerome Powell（美联储主席）",
+        "Christine Lagarde（欧洲央行行长）",
+        "Steven Mnuchin（美国财政部长）"
       ],
       "sources": [
         {
-          "name": "Federal Reserve FOMC statements and emergency actions, March 2020",
+          "name": "美联储联邦公开市场委员会声明和紧急行动，2020年3月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "S&P 500 and MSCI World Index historical price data",
+          "name": "标准普尔500指数和MSCI世界指数历史价格数据",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Financial market data is recorded to the millisecond. Central bank policy decisions are publicly documented.",
+      "certainty_note": "金融市场数据精确到毫秒记录。央行政策决策公开记录。",
       "cross_references": [
         "2020-002"
       ]
     },
     {
       "id": "2020-017",
-      "title": "Kobe Bryant killed in helicopter crash",
-      "region": "United States (Calabasas, California)",
+      "title": "科比·布莱恩特在直升机坠毁中遇难",
+      "region": "美国（加利福尼亚州卡拉巴萨斯）",
       "coordinates_approx": "34.14, -118.66",
       "category": "cultural",
-      "description": "On 26 January 2020, basketball legend Kobe Bryant, his 13-year-old daughter Gianna, and seven others were killed when their helicopter crashed into a hillside in Calabasas, California, in foggy conditions. Bryant, who had won five NBA championships with the Los Angeles Lakers and was widely regarded as one of the greatest basketball players in history, was 41 years old. The crash triggered a global outpouring of grief and reignited debate about helicopter safety regulations. The NTSB attributed the crash to pilot spatial disorientation in degraded visual conditions.",
+      "description": "2020年1月26日，篮球传奇人物科比·布莱恩特、他13岁的女儿吉安娜以及其他七人在雾天条件下，其直升机在加利福尼亚州卡拉巴萨斯的一个山坡上坠毁而遇难。布莱恩特曾随洛杉矶湖人队赢得五次NBA总冠军，被广泛认为是历史上最伟大的篮球运动员之一，享年41岁。这场坠机事件引发了全球性的悲痛，并重新引发了关于直升机安全法规的辩论。美国国家运输安全委员会将坠机归因于飞行员在能见度降低的条件下空间迷失方向。",
       "key_figures": [
-        "Kobe Bryant (basketball legend, killed)",
-        "Gianna Bryant (daughter, killed)",
-        "Ara Zobayan (pilot, killed)"
+        "Kobe Bryant（篮球传奇人物，遇难）",
+        "Gianna Bryant（女儿，遇难）",
+        "Ara Zobayan（飞行员，遇难）"
       ],
       "sources": [
         {
-          "name": "NTSB Final Report, Accident No. WPR20MA068, adopted 9 February 2021",
+          "name": "美国国家运输安全委员会最终报告，事故编号WPR20MA068，2021年2月9日通过",
           "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "Los Angeles County Medical Examiner reports",
+          "name": "洛杉矶县法医报告",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Fully investigated by the NTSB with a detailed final report.",
+      "certainty_note": "美国国家运输安全委员会进行了全面调查，并发布了详细的最终报告。",
       "cross_references": []
     },
     {
       "id": "2020-018",
-      "title": "First impeachment trial of President Trump concludes with acquittal",
-      "region": "United States",
+      "title": "特朗普总统首次弹劾审判以无罪告终",
+      "region": "美国",
       "coordinates_approx": "38.89, -77.01",
       "category": "political",
-      "description": "On 5 February 2020, the US Senate acquitted President Donald Trump on both articles of impeachment \u2014 abuse of power and obstruction of Congress \u2014 stemming from his efforts to pressure Ukraine into investigating political rival Joe Biden. The vote was 52\u201348 on abuse of power and 53\u201347 on obstruction, falling well short of the two-thirds majority required for removal. Republican Senator Mitt Romney became the first senator in US history to vote to convict a president of his own party. The trial crystallised partisan divisions that would define the remainder of the election year.",
+      "description": "2020年2月5日，美国参议院宣判唐纳德·特朗普总统在两项弹劾条款——滥用权力和妨碍国会——上无罪，这些指控源于他施压乌克兰调查政治对手乔·拜登的努力。滥用权力罪的投票结果为52票对48票，妨碍国会罪为53票对47票，远未达到定罪所需的三分之二多数。共和党参议员米特·罗姆尼成为美国历史上第一位投票给本党总统定罪的参议员。这次审判巩固了将在选举年剩余时间里定义政治格局的党派分歧。",
       "key_figures": [
-        "Donald Trump (President, acquitted)",
-        "Mitt Romney (Republican senator, voted to convict)",
-        "Adam Schiff (lead House impeachment manager)"
+        "Donald Trump（总统，被宣告无罪）",
+        "Mitt Romney（共和党参议员，投票定罪）",
+        "Adam Schiff（众议院首席弹劾管理人）"
       ],
       "sources": [
         {
-          "name": "US Senate roll call votes, 5 February 2020",
+          "name": "美国参议院唱名表决，2020年2月5日",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "House Resolution 755 (articles of impeachment) and trial transcripts",
+          "name": "众议院第755号决议（弹劾条款）和审判记录",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official Congressional Record documents the proceedings and votes.",
+      "certainty_note": "官方国会记录记录了程序和投票情况。",
       "cross_references": [
         "2019-TRUMP_IMPEACHMENT_1",
         "2020-005"
@@ -614,308 +614,308 @@
     },
     {
       "id": "2020-019",
-      "title": "Thai pro-democracy protests challenge monarchy",
-      "region": "Thailand",
+      "title": "泰国亲民主抗议活动挑战君主制",
+      "region": "泰国",
       "coordinates_approx": "13.76, 100.50",
       "category": "political",
-      "description": "Beginning in February and escalating from July 2020, a youth-led pro-democracy movement in Thailand issued unprecedented public demands for reform of the monarchy \u2014 breaking the country's powerful l\u00e8se-majest\u00e9 taboo. Protesters demanded the resignation of Prime Minister Prayuth Chan-ocha, a new constitution, and reform of King Vajiralongkorn's powers and finances. Tens of thousands demonstrated in Bangkok and other cities. The movement was notable for its use of social media, its ties to similar movements in Hong Kong and Taiwan ('Milk Tea Alliance'), and for openly challenging an institution previously considered untouchable.",
+      "description": "从2020年2月开始，并于7月升级，泰国一场由青年领导的亲民主运动发出了前所未有的公开要求改革君主制的呼声——打破了该国强大的冒犯君主罪禁忌。抗议者要求总理巴育·占奥差辞职、制定新宪法以及改革国王哇集拉隆功的权力和财政。数万人在曼谷和其他城市示威。这场运动以其对社交媒体的运用、与香港和台湾类似运动的联系（“奶茶联盟”）以及公开挑战一个以前被认为不可触碰的机构而著称。",
       "key_figures": [
-        "Prayuth Chan-ocha (Prime Minister)",
-        "Panusaya Sithijirawattanakul (student activist who read monarchy reform demands)",
-        "Parit Chiwarak (protest leader)"
+        "Prayuth Chan-ocha（总理）",
+        "Panusaya Sithijirawattanakul（宣读君主制改革要求的学生活动家）",
+        "Parit Chiwarak（抗议领袖）"
       ],
       "sources": [
         {
-          "name": "Contemporaneous reporting by Reuters, Bangkok Post, and Prachatai",
+          "name": "路透社、《曼谷邮报》和Prachatai的同期报道",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "10-point monarchy reform demands read at Thammasat University, 10 August 2020",
+          "name": "在法政大学宣读的十点君主制改革要求，2020年8月10日",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented by Thai and international media, protest organisers' public statements, and social media records.",
+      "certainty_note": "泰国和国际媒体、抗议组织者的公开声明以及社交媒体记录广泛记录。",
       "cross_references": [
         "2014-THAI_COUP"
       ]
     },
     {
       "id": "2020-020",
-      "title": "Claimed near-room-temperature superconductivity under extreme pressure",
-      "region": "United States (University of Rochester)",
+      "title": "声称在极端压力下实现近室温超导",
+      "region": "美国（罗切斯特大学）",
       "coordinates_approx": "43.13, -77.63",
       "category": "scientific",
-      "description": "In October 2020, a team led by Ranga Dias at the University of Rochester published a paper in Nature reporting superconductivity in a carbonaceous sulfur hydride at approximately 15\u00b0C (288 K), though at extreme pressure of 267 GPa. If valid, this represented the first near-room-temperature superconductor. The result was initially hailed as a major milestone in condensed matter physics, though the paper and subsequent work by Dias would later come under intense scrutiny for data integrity concerns.",
+      "description": "2020年10月，由Ranga Dias领导的罗切斯特大学团队在《自然》杂志上发表了一篇论文，报告了在约15°C（288 K）的温度下，但在267 GPa的极端压力下，碳质硫氢化物中的超导现象。如果有效，这代表了第一个近室温超导体。该结果最初被誉为凝聚态物理学的一个重要里程碑，尽管该论文以及Dias后续的工作后来因数据完整性问题受到严格审查。",
       "key_figures": [
-        "Ranga Dias (lead researcher)"
+        "Ranga Dias（首席研究员）"
       ],
       "sources": [
         {
-          "name": "Snider et al., 'Room-temperature superconductivity in a carbonaceous sulfur hydride,' Nature 586, 373\u2013377 (2020)",
+          "name": "Snider等人，《碳质硫氢化物中的室温超导性》，《自然》586, 373–377 (2020)",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Published in a top peer-reviewed journal. However, the paper was later retracted by Nature in 2022 due to data-processing concerns, and Dias's subsequent work faced misconduct investigations. The underlying claim is now widely disputed. Listed here as it was a major event of 2020 as reported; the controversy is addressed in disconfirming evidence.",
+      "certainty_note": "发表在顶级同行评审期刊上。然而，该论文后来因数据处理问题于2022年被《自然》杂志撤回，Dias后续的工作面临不当行为调查。该基础性主张现在被广泛质疑。此处列出是因为它是2020年报道的重大事件；争议在反证部分处理。",
       "cross_references": []
     },
     {
       "id": "2020-021",
-      "title": "SpaceX Crew Dragon \u2014 first commercial crewed spaceflight",
-      "region": "United States (Kennedy Space Center, Florida)",
+      "title": "SpaceX载人龙飞船——首次商业载人航天飞行",
+      "region": "美国（佛罗里达州肯尼迪航天中心）",
       "coordinates_approx": "28.57, -80.65",
       "category": "technological",
-      "description": "On 30 May 2020, SpaceX's Crew Dragon spacecraft launched NASA astronauts Doug Hurley and Bob Behnken to the International Space Station \u2014 the first crewed orbital spaceflight from US soil since the Space Shuttle retired in 2011, and the first time a commercial company carried humans to orbit. The Demo-2 mission validated NASA's Commercial Crew Program model of contracting private companies for routine crew transport. It marked a new era in human spaceflight, with SpaceX subsequently conducting regular operational crew rotations.",
+      "description": "2020年5月30日，SpaceX的载人龙飞船将NASA宇航员道格·赫尔利和鲍勃·本肯送往国际空间站——这是自2011年航天飞机退役以来，首次从美国本土进行的载人轨道航天飞行，也是首次由商业公司将人类送入轨道。Demo-2任务验证了NASA商业载人计划将常规乘员运输承包给私营公司的模式。它标志着人类航天飞行进入了一个新时代，SpaceX随后进行了常规的运营乘员轮换。",
       "key_figures": [
-        "Elon Musk (SpaceX CEO)",
-        "Doug Hurley (NASA astronaut)",
-        "Bob Behnken (NASA astronaut)",
-        "Jim Bridenstine (NASA Administrator)"
+        "Elon Musk（SpaceX首席执行官）",
+        "Doug Hurley（NASA宇航员）",
+        "Bob Behnken（NASA宇航员）",
+        "Jim Bridenstine（NASA局长）"
       ],
       "sources": [
         {
-          "name": "NASA press releases and mission documentation for SpaceX Demo-2",
+          "name": "NASA关于SpaceX Demo-2任务的新闻稿和任务文件",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Live broadcast footage (NASA TV / SpaceX)",
+          "name": "现场直播画面（NASA TV / SpaceX）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Broadcast live; fully documented by NASA and SpaceX.",
+      "certainty_note": "现场直播；由NASA和SpaceX全面记录。",
       "cross_references": [
         "2011-SHUTTLE_RETIREMENT"
       ]
     },
     {
       "id": "2020-022",
-      "title": "Mars missions launched: Perseverance, Tianwen-1, and Hope",
-      "region": "Global (USA, China, UAE)",
+      "title": "火星任务发射：毅力号、天问一号和希望号",
+      "region": "全球（美国、中国、阿联酋）",
       "coordinates_approx": null,
       "category": "scientific",
-      "description": "Taking advantage of the July 2020 Mars transfer window, three nations launched Mars missions within eleven days: NASA's Perseverance rover (30 July), China's Tianwen-1 orbiter-lander-rover combination (23 July), and the UAE's Hope orbiter (19 July). Perseverance, carrying the Ingenuity helicopter, was tasked with searching for ancient microbial life and caching samples for future return. Tianwen-1 made China only the second nation to successfully operate a rover on Mars. Hope made the UAE the first Arab nation to reach Mars orbit. All three arrived successfully in February 2021.",
+      "description": "利用2020年7月的火星转移窗口，三个国家在十一天内发射了火星任务：NASA的毅力号火星车（7月30日）、中国的天问一号轨道器-着陆器-火星车组合体（7月23日）以及阿联酋的希望号轨道器（7月19日）。携带机智号直升机的毅力号的任务是寻找古代微生物生命迹象并缓存样本以供未来返回。天问一号使中国成为第二个成功在火星上运行火星车的国家。希望号使阿联酋成为第一个到达火星轨道的阿拉伯国家。三者均于2021年2月成功抵达。",
       "key_figures": [
-        "Thomas Zurbuchen (NASA Associate Administrator for Science)"
+        "Thomas Zurbuchen（NASA科学任务理事会副局长）"
       ],
       "sources": [
         {
-          "name": "NASA JPL mission documentation for Mars 2020/Perseverance",
+          "name": "NASA喷气推进实验室关于火星2020/毅力号的任务文件",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "CNSA press releases on Tianwen-1",
+          "name": "中国国家航天局关于天问一号的新闻稿",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Mohammed bin Rashid Space Centre documentation on Emirates Mars Mission",
+          "name": "穆罕默德·本·拉希德航天中心关于阿联酋火星任务的文件",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "All three launches were tracked by global space surveillance networks. Successful Mars arrivals confirmed in February 2021.",
+      "certainty_note": "三次发射均被全球太空监视网络追踪。2021年2月确认成功抵达火星。",
       "cross_references": [
         "2021-MARS_ARRIVALS"
       ]
     },
     {
       "id": "2020-023",
-      "title": "Shinzo Abe resigns as Japan's longest-serving Prime Minister",
-      "region": "Japan",
+      "title": "安倍晋三辞去日本任职时间最长的首相职务",
+      "region": "日本",
       "coordinates_approx": "35.68, 139.75",
       "category": "political",
-      "description": "On 28 August 2020, Prime Minister Shinzo Abe announced his resignation due to a recurrence of ulcerative colitis, ending the longest consecutive premiership in Japanese history (7 years, 8 months). Abe had pursued an ambitious programme \u2014 'Abenomics' in economics, reinterpretation of the pacifist constitution's Article 9, and a more assertive foreign policy. He was succeeded by Yoshihide Suga on 16 September. Abe's legacy remained contested between those who credited him with revitalising Japan's international posture and critics of his nationalist historical revisionism and economic record.",
+      "description": "2020年8月28日，首相安倍晋三因溃疡性结肠炎复发宣布辞职，结束了日本历史上最长的连续首相任期（7年8个月）。安倍推行了一项雄心勃勃的计划——经济上的“安倍经济学”、对和平宪法第九条的重新解释以及更加自信的外交政策。他于9月16日由菅义伟接替。安倍的政治遗产仍然存在争议，有人称赞他重振了日本的国际地位，而批评者则指责他的民族主义历史修正主义和经济记录。",
       "key_figures": [
-        "Shinzo Abe (Prime Minister)",
-        "Yoshihide Suga (successor)"
+        "Shinzo Abe（首相）",
+        "Yoshihide Suga（继任者）"
       ],
       "sources": [
         {
-          "name": "Prime Minister's office press conference, 28 August 2020",
+          "name": "首相官邸新闻发布会，2020年8月28日",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "NHK and Kyodo News Agency contemporaneous reporting",
+          "name": "日本放送协会和共同通讯社的同期报道",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Publicly announced and documented through official government records.",
+      "certainty_note": "公开宣布并通过官方政府记录记录。",
       "cross_references": [
         "2022-ABE_ASSASSINATION"
       ]
     },
     {
       "id": "2020-024",
-      "title": "CRISPR pioneers awarded Nobel Prize in Chemistry",
-      "region": "Sweden (award); research in USA, France, Sweden",
+      "title": "CRISPR先驱获诺贝尔化学奖",
+      "region": "瑞典（颁奖）；研究在美国、法国、瑞典",
       "coordinates_approx": "59.33, 18.07",
       "category": "scientific",
-      "description": "On 7 October 2020, the Nobel Prize in Chemistry was awarded to Emmanuelle Charpentier and Jennifer Doudna for developing the CRISPR-Cas9 gene editing tool. It was the first time two women shared a science Nobel without a male co-laureate. CRISPR-Cas9 had since 2012 revolutionised molecular biology by enabling precise, cheap, and relatively easy editing of DNA in living organisms, with applications spanning agriculture, medicine, and fundamental research. The award was notable for the speed of recognition \u2014 just eight years after the key publication.",
+      "description": "2020年10月7日，诺贝尔化学奖授予埃马纽埃尔·卡彭蒂耶和詹妮弗·杜德纳，以表彰他们开发了CRISPR-Cas9基因编辑工具。这是首次由两位女性在没有男性共同获奖者的情况下共享科学类诺贝尔奖。自2012年以来，CRISPR-Cas9通过实现对活生物体DNA的精确、廉价且相对容易的编辑，彻底改变了分子生物学，其应用涵盖农业、医学和基础研究。该奖项因其认可速度之快而引人注目——距离关键论文发表仅八年。",
       "key_figures": [
-        "Jennifer Doudna (UC Berkeley)",
-        "Emmanuelle Charpentier (Max Planck Unit for the Science of Pathogens)"
+        "Jennifer Doudna（加州大学伯克利分校）",
+        "Emmanuelle Charpentier（马克斯·普朗克病原体科学研究所）"
       ],
       "sources": [
         {
-          "name": "Nobel Prize Committee announcement and scientific background document, 7 October 2020",
+          "name": "诺贝尔奖委员会公告和科学背景文件，2020年10月7日",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Jinek et al., 'A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity,' Science 337 (2012) \u2014 the foundational paper",
+          "name": "Jinek等人，《适应性细菌免疫中的可编程双RNA引导DNA核酸内切酶》，《科学》337 (2012)——奠基性论文",
           "type": "primary_text",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Nobel Prize announcements are public record.",
+      "certainty_note": "诺贝尔奖公告是公开记录。",
       "cross_references": [
         "2012-CRISPR_PAPER"
       ]
     },
     {
       "id": "2020-025",
-      "title": "DeepMind's AlphaFold solves protein structure prediction",
-      "region": "United Kingdom",
+      "title": "DeepMind的AlphaFold解决蛋白质结构预测问题",
+      "region": "英国",
       "coordinates_approx": "51.53, -0.13",
       "category": "scientific",
-      "description": "In November 2020, DeepMind announced that its AlphaFold2 system had achieved a median GDT score of 92.4 in the 14th Critical Assessment of protein Structure Prediction (CASP14) competition \u2014 effectively solving the 50-year-old protein folding problem to experimental accuracy for most targets. This was widely regarded as one of the most significant scientific breakthroughs enabled by artificial intelligence. The system would later be used to predict structures for nearly all known proteins, transforming structural biology, drug discovery, and biochemistry.",
+      "description": "2020年11月，DeepMind宣布其AlphaFold2系统在第14届蛋白质结构预测关键评估竞赛中达到了92.4的中位GDT分数——实际上解决了长达50年的蛋白质折叠问题，对大多数目标达到了实验精度。这被广泛认为是人工智能带来的最重要的科学突破之一。该系统后来被用于预测几乎所有已知蛋白质的结构，从而改变了结构生物学、药物发现和生物化学。",
       "key_figures": [
-        "Demis Hassabis (DeepMind co-founder and CEO)",
-        "John Jumper (AlphaFold2 lead researcher)"
+        "Demis Hassabis（DeepMind联合创始人兼首席执行官）",
+        "John Jumper（AlphaFold2首席研究员）"
       ],
       "sources": [
         {
-          "name": "CASP14 organisers' results, November 2020",
+          "name": "第14届蛋白质结构预测关键评估组织者结果，2020年11月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Jumper et al., 'Highly accurate protein structure prediction with AlphaFold,' Nature 596 (2021) \u2014 peer-reviewed publication of CASP14 results",
+          "name": "Jumper等人，《使用AlphaFold进行高精度蛋白质结构预测》，《自然》596 (2021)——第14届蛋白质结构预测关键评估结果的同行评审出版物",
           "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "DeepMind press release, 30 November 2020",
+          "name": "DeepMind新闻稿，2020年11月30日",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "CASP14 results were independently evaluated by competition organisers. Subsequent peer review and widespread adoption confirmed the breakthrough.",
+      "certainty_note": "第14届蛋白质结构预测关键评估结果由竞赛组织者独立评估。随后的同行评审和广泛采用证实了这一突破。",
       "cross_references": []
     }
   ],
-  "disconfirming_evidence": "Several events listed above have contested or complicated aspects that must be noted:\n\n1. **COVID-19 origins (2020-001):** The precise origin of SARS-CoV-2 remained intensely debated as of the mid-2020s. While the initial scientific consensus favoured zoonotic spillover at the Huanan Seafood Market, the laboratory leak hypothesis (from the Wuhan Institute of Virology) gained mainstream scientific consideration. A 2023 US Department of Energy assessment and FBI assessment both favoured the lab leak theory, though with low confidence. The WHO-China joint study (March 2021) was widely criticised as insufficiently independent. No definitive evidence has resolved the question.\n\n2. **BLM protest scale (2020-004):** The widely cited figure of 15\u201326 million participants comes from polling data extrapolation (Civis Analytics / New York Times), not direct crowd counts. Some methodologists have questioned the upper bound. The number of distinct protests (approximately 7,750 according to ACLED) is better attested than total participation.\n\n3. **Soleimani strike legality (2020-012):** The US claimed the strike was justified under Article II powers and the 2002 AUMF. UN Special Rapporteur Agn\u00e8s Callamard concluded the killing was unlawful under international law (July 2020 report). The legal basis remains disputed among international law scholars.\n\n4. **Galwan Valley Chinese casualties (2020-015):** India claimed Chinese casualties were significantly higher than four. Some Western intelligence estimates suggested 20\u201340 Chinese deaths. China's official acknowledgement of only four deaths (released months later) is not universally accepted.\n\n5. **Room-temperature superconductor claim (2020-020):** The Dias et al. Nature paper was retracted in September 2022 by the journal's editors over concerns about data processing. Dias has faced subsequent misconduct findings from the University of Rochester. The near-room-temperature superconductivity claim at these extreme pressures is now widely doubted.\n\n6. **Abraham Accords significance (2020-008):** While presented as breakthrough peace agreements, critics note that Israel was not in a state of war or significant conflict with the UAE or Bahrain, making 'normalisation' more accurate than 'peace.' Palestinian analysts and some scholars argue the accords' significance was inflated for domestic political purposes by all signatories.",
-  "historiographic_note": "The year 2020 is among the most exhaustively documented in human history. Nearly every significant event was recorded in real time by multiple independent sources \u2014 professional media, government records, scientific publications, satellite imagery, social media, and personal devices. The primary historiographic challenge is not scarcity but overabundance: the sheer volume of information makes curation and significance-ranking subjective. Key biases include: (1) English-language media dominance in global coverage, underrepresenting events in sub-Saharan Africa, Central Asia, and parts of Southeast Asia; (2) COVID-19 consuming disproportionate attention, causing other significant events (notably the Tigray War) to receive less coverage than their scale warranted; (3) social media amplification distorting perceived significance of some events while burying others; (4) government information control in China, Russia, and other authoritarian states limiting independent verification of domestic events. The pandemic itself created documentation gaps \u2014 lockdowns restricted journalistic access, and overwhelmed health systems in many countries produced unreliable mortality data.",
+  "disconfirming_evidence": "上述几个事件存在有争议或复杂的方面，必须予以注意：\n\n1. **COVID-19起源（2020-001）：** 截至2020年代中期，SARS-CoV-2的确切起源仍存在激烈争论。虽然最初的科学共识倾向于华南海鲜市场的动物源性溢出，但实验室泄漏假说（来自武汉病毒研究所）获得了主流科学界的考虑。美国能源部2023年的一份评估和联邦调查局的评估都倾向于实验室泄漏理论，但置信度较低。世卫组织-中国联合研究（2021年3月）被广泛批评为不够独立。没有确凿证据能解决这个问题。\n\n2. **BLM抗议规模（2020-004）：** 被广泛引用的1500万至2600万参与者数字来自民调数据推断（Civis Analytics / 纽约时报），而非直接人群计数。一些方法论学者对上限提出了质疑。不同抗议活动的数量（根据ACLED数据约为7750次）比总参与人数更有据可查。\n\n3. **苏莱曼尼打击的合法性（2020-012）：** 美国声称该打击是根据第二条权力和2002年《授权使用军事力量法》进行的。联合国特别报告员Agnès Callamard得出结论，该杀戮违反了国际法（2020年7月报告）。其法律依据在国际法学者中仍存在争议。\n\n4. **加勒万河谷中国伤亡（2020-015）：** 印度声称中国伤亡人数远高于四人。一些西方情报估计有20至40名中国军人死亡。中国官方仅承认四人死亡（数月后公布）的说法并未被普遍接受。\n\n5. **室温超导体声称（2020-020）：** Dias等人的《自然》论文于2022年9月因数据处理问题被期刊编辑撤回。Dias随后面临罗切斯特大学的不当行为调查。在这些极端压力下的近室温超导声称现在被广泛怀疑。\n\n6. **《亚伯拉罕协议》的意义（2020-008）：** 虽然被呈现为突破性的和平协议，但批评者指出，以色列与阿联酋或巴林并未处于战争或重大冲突状态，因此“正常化”比“和平”更准确。巴勒斯坦分析人士和一些学者认为，该协议的意义被所有签署方出于国内政治目的而夸大了。",
+  "historiographic_note": "2020年是人类历史上记录最详尽的一年之一。几乎每一个重大事件都被多个独立来源实时记录——专业媒体、政府记录、科学出版物、卫星图像、社交媒体和个人设备。主要的史学挑战不是稀缺而是过剩：信息的巨大体量使得策展和重要性排序变得主观。关键偏差包括：（1）英语媒体在全球报道中占主导地位，导致撒哈拉以南非洲、中亚和东南亚部分地区的事件报道不足；（2）COVID-19占据了不成比例的注意力，导致其他重大事件（尤其是提格雷战争）获得的报道与其规模相称的程度较低；（3）社交媒体的放大效应扭曲了一些事件的感知重要性，同时埋没了其他事件；（4）中国、俄罗斯和其他威权国家的政府信息控制限制了对国内事件的独立核实。疫情本身造成了记录空白——封锁限制了记者访问，许多国家不堪重负的卫生系统产生了不可靠的死亡率数据。",
   "graph_edges": [
     {
       "from": "2020-001",
       "to": "2020-002",
       "relation": "caused_by",
-      "note": "The pandemic directly caused global lockdowns and economic shutdown"
+      "note": "疫情直接导致了全球封锁和经济停摆"
     },
     {
       "from": "2020-001",
       "to": "2020-003",
       "relation": "led_to",
-      "note": "The pandemic drove unprecedented vaccine development efforts"
+      "note": "疫情推动了前所未有的疫苗研发努力"
     },
     {
       "from": "2020-002",
       "to": "2020-016",
       "relation": "caused_by",
-      "note": "Economic shutdowns triggered the stock market crash; stimulus drove the recovery"
+      "note": "经济停摆引发了股市崩盘；刺激措施推动了复苏"
     },
     {
       "from": "2020-005",
       "to": "2021-JAN6_CAPITOL",
       "relation": "led_to",
-      "note": "Trump's refusal to accept the 2020 election result led directly to the January 6 Capitol attack"
+      "note": "特朗普拒绝接受2020年选举结果直接导致了1月6日国会大厦袭击事件"
     },
     {
       "from": "2020-012",
       "to": "2020-001",
       "relation": "contemporary_with",
-      "note": "The Soleimani assassination occurred just weeks before COVID dominated global attention"
+      "note": "苏莱曼尼暗杀事件发生在COVID主导全球关注之前仅几周"
     },
     {
       "from": "2020-008",
       "to": "1979-EGYPT_ISRAEL_PEACE",
       "relation": "part_of",
-      "note": "Abraham Accords are part of the broader arc of Arab-Israeli normalisation beginning with Egypt in 1979"
+      "note": "《亚伯拉罕协议》是始于1979年埃及的阿拉伯-以色列正常化更广泛进程的一部分"
     },
     {
       "from": "2020-014",
       "to": "2019-HONG_KONG_PROTESTS",
       "relation": "caused_by",
-      "note": "The National Security Law was a direct response to the 2019 Hong Kong protests"
+      "note": "《国家安全法》是对2019年香港抗议活动的直接回应"
     },
     {
       "from": "2020-010",
       "to": "2022-TIGRAY_CEASEFIRE",
       "relation": "led_to",
-      "note": "The Tigray War that began in November 2020 continued until the Pretoria ceasefire in November 2022"
+      "note": "2020年11月开始的提格雷战争一直持续到2022年11月的比勒陀利亚停火协议"
     },
     {
       "from": "2020-009",
       "to": "2023-KARABAKH_DISSOLUTION",
       "relation": "led_to",
-      "note": "Azerbaijan's 2020 military victory set the stage for its 2023 recapture of the remaining Karabakh territory"
+      "note": "阿塞拜疆2020年的军事胜利为其2023年夺回剩余卡拉巴赫领土奠定了基础"
     },
     {
       "from": "2020-006",
       "to": "2016-BREXIT_REFERENDUM",
       "relation": "caused_by",
-      "note": "The UK's formal EU departure was the culmination of the 2016 referendum result"
+      "note": "英国正式退出欧盟是2016年公投结果的高潮"
     },
     {
       "from": "2020-004",
       "to": "2021-CHAUVIN_TRIAL",
       "relation": "led_to",
-      "note": "George Floyd's killing led to Derek Chauvin's trial and conviction in 2021"
+      "note": "乔治·弗洛伊德被杀导致了2021年德里克·肖万的审判和定罪"
     },
     {
       "from": "2020-018",
       "to": "2020-005",
       "relation": "part_of",
-      "note": "Trump's impeachment and acquittal were part of the political dynamics leading into the 2020 election"
+      "note": "特朗普的弹劾和无罪判决是进入2020年选举的政治动态的一部分"
     },
     {
       "from": "2020-021",
       "to": "2011-SHUTTLE_RETIREMENT",
       "relation": "caused_by",
-      "note": "The Commercial Crew Program was developed after the Shuttle's retirement left the US without independent crew launch capability"
+      "note": "商业载人计划是在航天飞机退役使美国失去独立载人发射能力后开发的"
     },
     {
       "from": "2020-025",
       "to": "2024-NOBEL_HASSABIS",
       "relation": "led_to",
-      "note": "AlphaFold2's CASP14 success led to Hassabis and Jumper receiving the 2024 Nobel Prize in Chemistry"
+      "note": "AlphaFold2在第14届蛋白质结构预测关键评估中的成功导致Hassabis和Jumper获得2024年诺贝尔化学奖"
     },
     {
       "from": "2020-011",
       "to": "2019-AUSTRALIA_FIRES_BEGIN",
       "relation": "part_of",
-      "note": "The January 2020 peak was part of the 2019\u20132020 Black Summer fire season"
+      "note": "2020年1月的火灾高峰是2019-2020年黑色夏季火灾季节的一部分"
     }
   ],
   "_meta": {
     "processed_at": "2026-04-10T14:33:09.443112",
     "model": "claude-sonnet-4-6",
     "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
+    "note": "通过Claude Code CLI（Max订阅）在API迁移前生成"
   }
 }

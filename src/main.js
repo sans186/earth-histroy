@@ -11,6 +11,7 @@ import { Core } from './core/index.js';
 import { createDataLoader } from './data/data-loader.js';
 import { YEAR_MAX, YEAR_WINDOW } from './config.js';
 import { debounce } from './utils.js';
+import { t } from './locale.js';
 
 import mapPlugin from './plugins/map-plugin.js';
 import timelinePlugin from './plugins/timeline-plugin.js';
@@ -18,6 +19,7 @@ import filtersPlugin from './plugins/filters-plugin.js';
 import popupPlugin from './plugins/popup-plugin.js';
 import eventPanelPlugin from './plugins/event-panel-plugin.js';
 import layersPlugin from './plugins/layers-plugin.js';
+import trajectoryPlugin from './plugins/trajectory-plugin.js';
 
 // ── Loading overlay helpers ──
 const loadingOverlay = document.getElementById('loading-overlay');
@@ -60,6 +62,7 @@ async function boot() {
   core.use(popupPlugin);
   core.use(eventPanelPlugin);
   core.use(layersPlugin);
+  core.use(trajectoryPlugin);
 
   // 4. Core refresh logic (debounced – called on currentYear change)
   async function refreshNow() {
@@ -100,6 +103,14 @@ async function boot() {
     retryBtn.addEventListener('click', () => refreshNow());
   }
 
+  // 5b. Locale change → clear cache and reload
+  core.state.on('locale', (locale) => {
+    dataLoader.clearCache();
+    const loadingText = document.getElementById('loading-text');
+    if (loadingText) loadingText.textContent = t('loading.text', locale);
+    refreshNow();
+  });
+
   // 6. Initial data load (direct call, no debounce)
   await refreshNow();
 
@@ -111,8 +122,8 @@ async function boot() {
     window.__core = core;
     window.__data = dataLoader;
     console.log(
-      '%c🌍 Earth Historical Timeline ready %c| %cClick globe markers %c| %c← → keys %c| %cSpace to play',
-      'font-size:16px;', '', 'color:#ffd700;', '', 'color:#8ab4f8;', '', 'color:#2ecc71;',
+      '%c🌍 Earth Historical Timeline ready %c| %cClick globe markers %c| %c← → keys %c| %cSpace to play %c| %c⏳ Trajectory',
+      'font-size:16px;', '', 'color:#ffd700;', '', 'color:#8ab4f8;', '', 'color:#2ecc71;', '', 'color:#b8860b;',
     );
   }
 }
@@ -122,7 +133,7 @@ boot().catch((err) => {
   const el = document.getElementById('error-overlay');
   const msg = document.getElementById('error-msg');
   if (el) el.style.display = 'flex';
-  if (msg) msg.textContent = '启动失败：' + (err.message || String(err));
+  if (msg) msg.textContent = t('error.boot_fail', 'zh', { msg: err.message || String(err) });
   const loading = document.getElementById('loading-overlay');
   if (loading) loading.style.display = 'none';
 });

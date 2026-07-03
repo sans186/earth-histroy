@@ -1,40 +1,40 @@
 {
   "year": 1957,
-  "year_label": "1957 CE",
-  "era_context": "The mid-1950s mark a period of Cold War competition and technological advancement. The Soviet Union is achieving early successes in space exploration. The Suez Crisis of 1956 has just concluded, reshaping Middle Eastern politics. Decolonization is accelerating across Africa and Asia. The era is characterized by superpower competition, technological innovation, and the beginning of the end of European colonialism. The Treaty of Rome is signed, laying the foundation for European integration.",
-  "documentation_level": "rich",
+  "year_label": "1957年",
+  "era_context": "20世纪50年代中期标志着冷战竞争和技术进步的时期。苏联在太空探索方面取得了早期成功。1956年的苏伊士危机刚刚结束，重塑了中东政治。非殖民化在非洲和亚洲加速推进。这个时代的特点是超级大国竞争、技术创新以及欧洲殖民主义终结的开始。《罗马条约》签署，为欧洲一体化奠定了基础。",
+  "documentation_level": "丰富",
   "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1957-001",
-      "title": "Soviet Union launches Sputnik 1",
-      "region": "Soviet Union / Space",
-      "coordinates_approx": "51.9\u00b0N, 104.1\u00b0E (Baikonur Cosmodrome, Kazakhstan)",
+      "title": "苏联发射斯普特尼克1号",
+      "region": "苏联 / 太空",
+      "coordinates_approx": "51.9°N, 104.1°E (Baikonur Cosmodrome, Kazakhstan)",
       "category": "technological",
-      "description": "On 4 October 1957, the Soviet Union launched Sputnik 1, the first artificial satellite to orbit Earth. Sputnik 1 was a small, spherical satellite that orbited Earth every 96 minutes and transmitted radio signals that could be detected by radio operators worldwide. The launch was a major achievement in space exploration and demonstrated Soviet technological superiority. The successful launch shocked the United States and triggered the Space Race, as American policymakers feared Soviet dominance in space and its implications for military technology. Sputnik 1 became a symbol of Soviet technological achievement and American technological vulnerability.",
+      "description": "1957年10月4日，苏联发射了斯普特尼克1号，这是第一颗绕地球运行的人造卫星。斯普特尼克1号是一个小型球形卫星，每96分钟绕地球一周，并发射无线电信号，全球无线电操作员均可接收。这次发射是太空探索的一项重大成就，展示了苏联的技术优势。成功的发射震惊了美国，引发了太空竞赛，美国政策制定者担心苏联在太空领域的优势及其对军事技术的影响。",
       "key_figures": [
-        "Sergei Korolev (chief designer)",
-        "Nikita Khrushchev (Soviet Premier)"
+        "Sergei Korolev（总设计师）",
+        "Nikita Khrushchev（苏联总理）"
       ],
       "sources": [
         {
-          "name": "Soviet official announcements and Tass reports, October 1957",
+          "name": "苏联官方公告和塔斯社报道，1957年10月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Western news agencies and scientific publications",
+          "name": "西方新闻机构和科学出版物",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Declassified Soviet space program records; Asif Siddiqi, Challenge to Apollo: The Soviet Union and the Space Race, 1945\u20131974",
+          "name": "解密的苏联太空计划档案；Asif Siddiqi，《挑战阿波罗：苏联与太空竞赛，1945–1974》",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Launch date, orbital parameters, and basic facts are confirmed by Soviet records and Western tracking data.",
+      "certainty_note": "发射日期、轨道参数和基本事实已由苏联记录和西方跟踪数据确认。",
       "cross_references": [
         "1957-002 (Sputnik 2)",
         "1958-003 (NASA established)"
@@ -42,35 +42,35 @@
     },
     {
       "id": "1957-002",
-      "title": "Soviet Union launches Sputnik 2 with dog Laika",
-      "region": "Soviet Union / Space",
-      "coordinates_approx": "51.9\u00b0N, 104.1\u00b0E (Baikonur Cosmodrome, Kazakhstan)",
+      "title": "苏联发射斯普特尼克2号，搭载小狗莱卡",
+      "region": "苏联 / 太空",
+      "coordinates_approx": "51.9°N, 104.1°E (Baikonur Cosmodrome, Kazakhstan)",
       "category": "technological",
-      "description": "On 3 November 1957, the Soviet Union launched Sputnik 2, a much larger satellite carrying a living dog named Laika into orbit. Sputnik 2 was approximately 1,000 kilograms and demonstrated Soviet advances in rocket technology and life support systems. Laika became the first animal to orbit Earth, though she died during the mission. The launch of Sputnik 2 further demonstrated Soviet technological superiority and intensified American concerns about Soviet space capabilities. The mission provided crucial data on the effects of spaceflight on living organisms, paving the way for human spaceflight.",
+      "description": "1957年11月3日，苏联发射了斯普特尼克2号，这是一颗更大的卫星，搭载了一只名叫莱卡的活狗进入轨道。斯普特尼克2号重约1000公斤，展示了苏联在火箭技术和生命支持系统方面的进步。莱卡成为第一只绕地球飞行的动物，尽管它在任务中死亡。这次任务提供了关于太空飞行对生物体影响的关键数据，为载人航天铺平了道路。",
       "key_figures": [
-        "Sergei Korolev (chief designer)",
-        "Nikita Khrushchev (Soviet Premier)",
-        "Laika (dog)"
+        "Sergei Korolev（总设计师）",
+        "Nikita Khrushchev（苏联总理）",
+        "Laika（狗）"
       ],
       "sources": [
         {
-          "name": "Soviet official announcements and Tass reports, November 1957",
+          "name": "苏联官方公告和塔斯社报道，1957年11月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Western news agencies and scientific publications",
+          "name": "西方新闻机构和科学出版物",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Declassified Soviet space program records; Asif Siddiqi, Challenge to Apollo",
+          "name": "解密的苏联太空计划档案；Asif Siddiqi，《挑战阿波罗》",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Launch date, payload, and basic facts are confirmed by Soviet records and Western tracking data.",
+      "certainty_note": "发射日期、有效载荷和基本事实已由苏联记录和西方跟踪数据确认。",
       "cross_references": [
         "1957-001 (Sputnik 1)",
         "1961-001 (Gagarin's flight)"
@@ -78,458 +78,458 @@
     },
     {
       "id": "1957-003",
-      "title": "Treaty of Rome signed, establishing European Economic Community",
-      "region": "Europe / Western Europe",
-      "coordinates_approx": "41.9\u00b0N, 12.5\u00b0E (Rome, Italy)",
+      "title": "《罗马条约》签署，建立欧洲经济共同体",
+      "region": "欧洲 / 西欧",
+      "coordinates_approx": "41.9°N, 12.5°E (Rome, Italy)",
       "category": "political",
-      "description": "On 25 March 1957, six Western European nations\u2014Belgium, France, Italy, Luxembourg, the Netherlands, and West Germany\u2014signed the Treaty of Rome, establishing the European Economic Community (EEC). The treaty was intended to promote economic integration and cooperation among the signatory nations and to prevent future wars in Europe. The EEC was a major step toward European integration and laid the foundation for what would eventually become the European Union. The treaty reflected Western European commitment to economic cooperation and Cold War alliance-building against the Soviet Union. The EEC would formally begin operations on 1 January 1958.",
+      "description": "1957年3月25日，六个西欧国家——比利时、法国、意大利、卢森堡、荷兰和西德——签署了《罗马条约》，建立了欧洲经济共同体（EEC）。该条约旨在促进签署国之间的经济一体化与合作，并防止欧洲未来发生战争。该条约反映了西欧对经济合作和冷战时期对抗苏联的联盟建设的承诺。EEC于1958年1月1日正式开始运作。",
       "key_figures": [
-        "Jean Monnet (European integration advocate)",
-        "Robert Schuman (French statesman)",
-        "Konrad Adenauer (West German Chancellor)"
+        "Jean Monnet（欧洲一体化倡导者）",
+        "Robert Schuman（法国政治家）",
+        "Konrad Adenauer（西德总理）"
       ],
       "sources": [
         {
-          "name": "Treaty of Rome text and signing ceremony documentation, March 1957",
+          "name": "《罗马条约》文本和签署仪式文件，1957年3月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "European government statements and newspapers",
+          "name": "欧洲政府声明和报纸",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus on European integration",
+          "name": "关于欧洲一体化的史学共识",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Treaty signing date and signatories are unambiguous and documented in official records.",
+      "certainty_note": "条约签署日期和签署国明确无误，并记录在官方文件中。",
       "cross_references": [
         "1958-006 (EEC formally established)"
       ]
     },
     {
       "id": "1957-004",
-      "title": "Ghana becomes first sub-Saharan African nation to gain independence",
-      "region": "Ghana / West Africa",
-      "coordinates_approx": "5.6\u00b0N, 0.2\u00b0W (Accra)",
+      "title": "加纳成为撒哈拉以南非洲第一个获得独立的国家",
+      "region": "加纳 / 西非",
+      "coordinates_approx": "5.6°N, 0.2°W (Accra)",
       "category": "political",
-      "description": "On 6 March 1957, Ghana became the first sub-Saharan African nation to gain independence from European colonial rule. Ghana, formerly the British Gold Coast, gained independence under the leadership of Kwame Nkrumah, who became the nation's first President. Ghana's independence was a watershed moment in African decolonization and inspired nationalist movements across the continent. Nkrumah became a leading figure in Pan-African politics and advocated for African unity and socialism. Ghana's independence demonstrated that African nations could successfully achieve independence and self-governance, setting the stage for the rapid decolonization of Africa in the following years.",
+      "description": "1957年3月6日，加纳成为撒哈拉以南非洲第一个摆脱欧洲殖民统治获得独立的国家。加纳，前身为英国黄金海岸，在夸梅·恩克鲁玛的领导下获得独立，他成为该国首任总统。加纳的独立是非洲非殖民化的分水岭时刻，激励了整个非洲大陆的民族主义运动。加纳的独立表明非洲国家能够成功实现独立和自治，为随后几年非洲的快速非殖民化奠定了基础。",
       "key_figures": [
-        "Kwame Nkrumah (President)",
-        "Queen Elizabeth II (British monarch)"
+        "Kwame Nkrumah（总统）",
+        "Queen Elizabeth II（英国君主）"
       ],
       "sources": [
         {
-          "name": "British Colonial Office records and independence ceremony documentation, March 1957",
+          "name": "英国殖民办公室记录和独立仪式文件，1957年3月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Ghanaian government announcements and newspapers",
+          "name": "加纳政府公告和报纸",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus on Ghana's independence and African decolonization",
+          "name": "关于加纳独立和非洲非殖民化的史学共识",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Independence date is unambiguous and documented in British and Ghanaian official records.",
+      "certainty_note": "独立日期明确无误，并记录在英国和加纳的官方文件中。",
       "cross_references": [
         "1960-003 (African independence wave)"
       ]
     },
     {
       "id": "1957-005",
-      "title": "Malaya gains independence from Britain",
-      "region": "Malaya / Southeast Asia",
-      "coordinates_approx": "3.1\u00b0N, 101.7\u00b0E (Kuala Lumpur)",
+      "title": "马来亚脱离英国独立",
+      "region": "马来亚 / 东南亚",
+      "coordinates_approx": "3.1°N, 101.7°E (Kuala Lumpur)",
       "category": "political",
-      "description": "On 31 August 1957, Malaya gained independence from British rule, with Tunku Abdul Rahman as its first Prime Minister. Malaya's independence was the culmination of nationalist movements and British decolonization policy. The transition was relatively peaceful compared to other Asian decolonizations, reflecting Britain's gradual devolution of power and Tunku Abdul Rahman's moderate nationalist approach. Malaya's independence set the stage for its later union with Singapore and other territories to form Malaysia in 1963. Malaya's independence was part of the broader wave of Asian decolonization in the 1950s.",
+      "description": "1957年8月31日，马来亚脱离英国统治获得独立，东姑阿都拉曼担任首任总理。马来亚的独立是民族主义运动和英国非殖民化政策的高潮。与其他亚洲非殖民化进程相比，这一过渡相对和平，反映了英国逐步移交权力以及东姑阿都拉曼温和的民族主义方针。马来亚的独立是20世纪50年代更广泛的亚洲非殖民化浪潮的一部分。",
       "key_figures": [
-        "Tunku Abdul Rahman (Prime Minister)",
-        "Queen Elizabeth II (British monarch)"
+        "Tunku Abdul Rahman（总理）",
+        "Queen Elizabeth II（英国君主）"
       ],
       "sources": [
         {
-          "name": "British Colonial Office records and independence ceremony documentation, August 1957",
+          "name": "英国殖民办公室记录和独立仪式文件，1957年8月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Malayan government announcements and newspapers",
+          "name": "马来亚政府公告和报纸",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Independence date is unambiguous and documented in British and Malayan official records.",
+      "certainty_note": "独立日期明确无误，并记录在英国和马来亚的官方文件中。",
       "cross_references": [
         "1963-003 (Malaysia formed)"
       ]
     },
     {
       "id": "1957-006",
-      "title": "Little Rock Nine integrate Central High School",
-      "region": "United States / Arkansas",
-      "coordinates_approx": "34.8\u00b0N, 92.4\u00b0W (Little Rock)",
+      "title": "小石城九人事件：中央高中种族融合",
+      "region": "美国 / 阿肯色州",
+      "coordinates_approx": "34.8°N, 92.4°W (Little Rock)",
       "category": "political",
-      "description": "In September 1957, nine African American students attempted to integrate Central High School in Little Rock, Arkansas, in defiance of state segregation laws. The integration was ordered by a federal court following the Supreme Court's 1954 Brown v. Board of Education decision. Arkansas Governor Orval Faubus deployed the National Guard to prevent the students from entering the school, and angry white mobs gathered outside. President Dwight D. Eisenhower eventually sent federal troops to enforce the integration order. The Little Rock crisis became a defining moment in the Civil Rights Movement and demonstrated the federal government's willingness to enforce desegregation. The crisis also highlighted the violent resistance to racial integration in the American South.",
+      "description": "1957年9月，九名非裔美国学生试图进入阿肯色州小石城的中央高中就读，违抗州种族隔离法。此次融合是由联邦法院根据最高法院1954年布朗诉托皮卡教育局案的判决下令执行的。阿肯色州州长奥瓦尔·福布斯部署国民警卫队阻止学生进入学校，愤怒的白人暴民聚集在校外。德怀特·D·艾森豪威尔总统最终派遣联邦军队强制执行融合令。小石城危机成为民权运动的决定性时刻，展示了联邦政府执行废除种族隔离的意愿。这场危机也凸显了美国南方对种族融合的暴力抵抗。",
       "key_figures": [
-        "The Little Rock Nine (students)",
-        "Orval Faubus (Arkansas Governor)",
-        "Dwight D. Eisenhower (U.S. President)"
+        "The Little Rock Nine（学生）",
+        "Orval Faubus（阿肯色州州长）",
+        "Dwight D. Eisenhower（美国总统）"
       ],
       "sources": [
         {
-          "name": "Contemporary newspaper coverage and eyewitness accounts, September 1957",
+          "name": "当代报纸报道和目击者证词，1957年9月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "U.S. government records and military documentation",
+          "name": "美国政府记录和军事文件",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Oral histories and participant interviews; Elizabeth Eckford, The Worst Hard Time",
+          "name": "口述历史和参与者访谈；Elizabeth Eckford，《最艰难的时刻》",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Dates and basic facts are unambiguous and extensively documented in contemporary sources.",
+      "certainty_note": "日期和基本事实明确无误，并在当代资料中有广泛记录。",
       "cross_references": [
         "1960-013 (Greensboro sit-in)"
       ]
     },
     {
       "id": "1957-007",
-      "title": "Suez Crisis aftermath: British and French withdraw from Egypt",
-      "region": "Egypt / Middle East",
-      "coordinates_approx": "30.0\u00b0N, 31.2\u00b0E (Cairo)",
+      "title": "苏伊士危机后续：英法从埃及撤军",
+      "region": "埃及 / 中东",
+      "coordinates_approx": "30.0°N, 31.2°E (Cairo)",
       "category": "military",
-      "description": "In 1957, following the Suez Crisis of 1956, British and French forces completed their withdrawal from Egypt. The crisis had been triggered by Egyptian President Gamal Abdel Nasser's nationalization of the Suez Canal in July 1956. Britain and France, along with Israel, had invaded Egypt in October 1956, but international pressure, particularly from the United States and Soviet Union, forced them to withdraw. The withdrawal was completed by early 1957. The Suez Crisis was a major turning point in Middle Eastern politics and demonstrated the limits of European colonial power. Nasser emerged as a hero in the Arab world, and the crisis accelerated the decline of British and French influence in the Middle East.",
+      "description": "1957年，继1956年苏伊士危机之后，英国和法国完成了从埃及的撤军。这场危机是由埃及总统贾迈勒·阿卜杜勒·纳赛尔于1956年7月将苏伊士运河国有化引发的。英国和法国与以色列一起于1956年10月入侵埃及，但国际压力，特别是来自美国和苏联的压力，迫使他们撤军。苏伊士危机是中东政治的一个重大转折点，展示了欧洲殖民力量的局限性。纳赛尔成为阿拉伯世界的英雄，这场危机加速了英国和法国在中东影响力的衰落。",
       "key_figures": [
-        "Gamal Abdel Nasser (Egyptian President)",
-        "Anthony Eden (British Prime Minister)",
-        "Guy Mollet (French Prime Minister)"
+        "Gamal Abdel Nasser（埃及总统）",
+        "Anthony Eden（英国首相）",
+        "Guy Mollet（法国总理）"
       ],
       "sources": [
         {
-          "name": "British and French government records, 1957",
+          "name": "英国和法国政府记录，1957年",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Egyptian government statements and newspapers",
+          "name": "埃及政府声明和报纸",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Declassified U.S. and Soviet diplomatic records",
+          "name": "解密的美国和苏联外交记录",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Withdrawal dates and basic facts are confirmed by British, French, and Egyptian sources.",
+      "certainty_note": "撤军日期和基本事实已由英国、法国和埃及的资料确认。",
       "cross_references": [
         "1956-001 (Suez Crisis)"
       ]
     },
     {
       "id": "1957-008",
-      "title": "Eisenhower Doctrine announced",
-      "region": "United States / Middle East",
-      "coordinates_approx": "38.9\u00b0N, 77.1\u00b0W (Washington, D.C.)",
+      "title": "艾森豪威尔主义宣布",
+      "region": "美国 / 中东",
+      "coordinates_approx": "38.9°N, 77.1°W (Washington, D.C.)",
       "category": "political",
-      "description": "In January 1957, President Dwight D. Eisenhower announced the Eisenhower Doctrine, a foreign policy initiative intended to counter Soviet influence in the Middle East. The doctrine authorized the President to provide military and economic aid to Middle Eastern nations threatened by communist aggression and to use armed force if necessary to defend them. The doctrine was a response to the Suez Crisis and growing Soviet influence in the region. The Eisenhower Doctrine represented American commitment to containing communism in the Middle East and maintaining American influence in the region. The doctrine would be invoked in subsequent Middle Eastern crises, including the Lebanese crisis of 1958.",
+      "description": "1957年1月，美国总统德怀特·D·艾森豪威尔宣布了艾森豪威尔主义，这是一项旨在对抗苏联在中东影响力的外交政策倡议。该主义授权总统向受到共产主义侵略威胁的中东国家提供军事和经济援助，并在必要时使用武力保卫它们。该主义是对苏伊士危机和苏联在该地区日益增长的影响力的回应。该主义在后来的中东危机中被援引，包括1958年的黎巴嫩危机。",
       "key_figures": [
-        "Dwight D. Eisenhower (U.S. President)",
-        "John Foster Dulles (Secretary of State)"
+        "Dwight D. Eisenhower（美国总统）",
+        "John Foster Dulles（国务卿）"
       ],
       "sources": [
         {
-          "name": "Presidential address and State Department announcements, January 1957",
+          "name": "总统讲话和国务院公告，1957年1月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Congressional records and debates",
+          "name": "国会记录和辩论",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Declassified U.S. diplomatic records",
+          "name": "解密的美国外交记录",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Doctrine announcement date and basic provisions are confirmed by U.S. government records.",
+      "certainty_note": "主义宣布日期和基本条款已由美国政府记录确认。",
       "cross_references": [
         "1958-005 (Lebanon crisis)"
       ]
     },
     {
       "id": "1957-009",
-      "title": "Soviet Union tests first intercontinental ballistic missile",
-      "region": "Soviet Union / Space",
-      "coordinates_approx": "51.9\u00b0N, 104.1\u00b0E (Baikonur Cosmodrome, Kazakhstan)",
+      "title": "苏联测试首枚洲际弹道导弹",
+      "region": "苏联 / 太空",
+      "coordinates_approx": "51.9°N, 104.1°E (Baikonur Cosmodrome, Kazakhstan)",
       "category": "technological",
-      "description": "In August 1957, the Soviet Union successfully tested the R-7 Semyorka, the first intercontinental ballistic missile (ICBM). The successful test demonstrated Soviet advances in missile technology and raised American concerns about Soviet military capabilities. The R-7 was the same rocket used to launch Sputnik 1 in October 1957. The successful ICBM test, combined with the Sputnik launches, created a sense of crisis in the United States and led to increased defense spending and the acceleration of American space and missile programs. The Soviet ICBM test was a major milestone in the Cold War arms race.",
+      "description": "1957年8月，苏联成功测试了R-7谢苗尔卡，这是首枚洲际弹道导弹（ICBM）。成功的测试展示了苏联在导弹技术方面的进步，并引发了美国对苏联军事能力的担忧。R-7与1957年10月用于发射斯普特尼克1号的火箭相同。苏联ICBM测试是冷战军备竞赛的一个重要里程碑。",
       "key_figures": [
-        "Sergei Korolev (chief designer)",
-        "Nikita Khrushchev (Soviet Premier)"
+        "Sergei Korolev（总设计师）",
+        "Nikita Khrushchev（苏联总理）"
       ],
       "sources": [
         {
-          "name": "Soviet official announcements and Tass reports, August 1957",
+          "name": "苏联官方公告和塔斯社报道，1957年8月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "U.S. intelligence reports and military analysis",
+          "name": "美国情报报告和军事分析",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Declassified Soviet and U.S. records; Asif Siddiqi, Challenge to Apollo",
+          "name": "解密的苏联和美国记录；Asif Siddiqi，《挑战阿波罗》",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "ICBM test date and basic facts are confirmed by Soviet records and U.S. intelligence analysis.",
+      "certainty_note": "ICBM测试日期和基本事实已由苏联记录和美国情报分析确认。",
       "cross_references": [
         "1957-001 (Sputnik 1)"
       ]
     },
     {
       "id": "1957-010",
-      "title": "Jack Kerouac publishes On the Road",
-      "region": "United States / North America",
-      "coordinates_approx": "40.7\u00b0N, 74.0\u00b0W (New York City)",
+      "title": "杰克·凯鲁亚克出版《在路上》",
+      "region": "美国 / 北美",
+      "coordinates_approx": "40.7°N, 74.0°W (New York City)",
       "category": "cultural",
-      "description": "In September 1957, American author Jack Kerouac published On the Road, a semi-autobiographical novel about cross-country travel and the search for meaning. The novel became a defining work of the Beat Generation and influenced American literature and culture. On the Road celebrated spontaneity, freedom, and rebellion against conformity, themes that resonated with young Americans in the 1950s and 1960s. The novel's publication marked a cultural shift toward questioning American values and social norms. Kerouac's work became influential in the counterculture movement of the 1960s.",
+      "description": "1957年9月，美国作家杰克·凯鲁亚克出版了《在路上》，这是一部关于横跨美国旅行和寻找意义的半自传体小说。这部小说成为“垮掉的一代”的代表作，影响了美国文学和文化。《在路上》颂扬自发性、自由和对顺从的反叛，这些主题在20世纪50年代和60年代的美国年轻人中引起共鸣。凯鲁亚克的作品对20世纪60年代的反文化运动产生了影响。",
       "key_figures": [
-        "Jack Kerouac (author)"
+        "Jack Kerouac（作者）"
       ],
       "sources": [
         {
-          "name": "Jack Kerouac, On the Road, 1957",
+          "name": "杰克·凯鲁亚克，《在路上》，1957年",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Publisher records and literary criticism",
+          "name": "出版商记录和文学批评",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Publication date is unambiguous and documented in publishing records.",
+      "certainty_note": "出版日期明确无误，并记录在出版记录中。",
       "cross_references": []
     },
     {
       "id": "1957-011",
-      "title": "West Side Story opens on Broadway",
-      "region": "United States / New York",
-      "coordinates_approx": "40.8\u00b0N, 73.9\u00b0W (New York City)",
+      "title": "《西区故事》在百老汇首演",
+      "region": "美国 / 纽约",
+      "coordinates_approx": "40.8°N, 73.9°W (New York City)",
       "category": "cultural",
-      "description": "On 26 September 1957, the musical West Side Story opened on Broadway, becoming one of the most influential musicals in American theater history. The musical, with music by Leonard Bernstein and lyrics by Stephen Sondheim, told the story of rival gangs in New York City and featured groundbreaking choreography by Jerome Robbins. West Side Story was a critical and commercial success and won multiple Tony Awards. The musical addressed themes of social conflict, prejudice, and violence, and it became a landmark work in American musical theater. The musical's success opened doors for more sophisticated and socially conscious musicals.",
+      "description": "1957年9月26日，音乐剧《西区故事》在百老汇首演，成为美国戏剧史上最具影响力的音乐剧之一。这部音乐剧由伦纳德·伯恩斯坦作曲，斯蒂芬·桑德海姆作词，讲述了纽约市敌对帮派的故事，并采用了杰罗姆·罗宾斯开创性的编舞。《西区故事》在评论界和商业上都取得了成功，并赢得了多项托尼奖。这部音乐剧的成功为更复杂、更具社会意识的音乐剧打开了大门。",
       "key_figures": [
-        "Leonard Bernstein (composer)",
-        "Stephen Sondheim (lyricist)",
-        "Jerome Robbins (choreographer)"
+        "Leonard Bernstein（作曲家）",
+        "Stephen Sondheim（作词家）",
+        "Jerome Robbins（编舞家）"
       ],
       "sources": [
         {
-          "name": "Broadway theater records and contemporary reviews, September 1957",
+          "name": "百老汇剧院记录和当代评论，1957年9月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Theater history and criticism",
+          "name": "戏剧史和批评",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Opening date and basic facts are confirmed by theater records and contemporary sources.",
+      "certainty_note": "首演日期和基本事实已由剧院记录和当代资料确认。",
       "cross_references": []
     },
     {
       "id": "1957-012",
-      "title": "Soviet Union announces hydrogen bomb capability",
-      "region": "Soviet Union / Global",
-      "coordinates_approx": "55.8\u00b0N, 37.6\u00b0E (Moscow)",
+      "title": "苏联宣布拥有氢弹能力",
+      "region": "苏联 / 全球",
+      "coordinates_approx": "55.8°N, 37.6°E (Moscow)",
       "category": "technological",
-      "description": "In August 1957, the Soviet Union announced that it had successfully tested a hydrogen bomb and possessed the capability to deliver it via intercontinental ballistic missile. The announcement was intended to demonstrate Soviet military superiority and to deter American aggression. The Soviet hydrogen bomb capability, combined with the successful ICBM test and the Sputnik launches, created a sense of crisis in the United States and led to increased defense spending and the acceleration of American military programs. The Soviet announcement was a major milestone in the Cold War arms race and contributed to American fears of Soviet superiority.",
+      "description": "1957年8月，苏联宣布已成功测试氢弹，并具备通过洲际弹道导弹投送的能力。该声明旨在展示苏联的军事优势并威慑美国的侵略。苏联的声明是冷战军备竞赛的一个重要里程碑，并加剧了美国对苏联优势的恐惧。",
       "key_figures": [
-        "Nikita Khrushchev (Soviet Premier)"
+        "Nikita Khrushchev（苏联总理）"
       ],
       "sources": [
         {
-          "name": "Soviet official announcements and Tass reports, August 1957",
+          "name": "苏联官方公告和塔斯社报道，1957年8月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "U.S. intelligence reports and military analysis",
+          "name": "美国情报报告和军事分析",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Declassified Soviet and U.S. records",
+          "name": "解密的苏联和美国记录",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Announcement date and basic facts are confirmed by Soviet records and U.S. intelligence analysis.",
+      "certainty_note": "宣布日期和基本事实已由苏联记录和美国情报分析确认。",
       "cross_references": [
         "1957-009 (ICBM test)"
       ]
     },
     {
       "id": "1957-013",
-      "title": "Tunisia gains independence from France",
-      "region": "Tunisia / North Africa",
-      "coordinates_approx": "36.8\u00b0N, 10.2\u00b0E (Tunis)",
+      "title": "突尼斯脱离法国独立",
+      "region": "突尼斯 / 北非",
+      "coordinates_approx": "36.8°N, 10.2°E (Tunis)",
       "category": "political",
-      "description": "On 20 March 1957, Tunisia gained independence from French rule, with Habib Bourguiba as its first President. Tunisia's independence was the culmination of nationalist movements and French decolonization policy. Bourguiba became one of North Africa's most influential leaders and pursued modernization and secularization policies. Tunisia's independence was part of the broader wave of African and Middle Eastern decolonization in the 1950s. Tunisia's independence set the stage for the Algerian War of Independence, which would continue until 1962.",
+      "description": "1957年3月20日，突尼斯脱离法国统治获得独立，哈比卜·布尔吉巴担任首任总统。突尼斯的独立是民族主义运动和法国非殖民化政策的高潮。布尔吉巴成为北非最具影响力的领导人之一，并推行现代化和世俗化政策。突尼斯的独立为阿尔及利亚独立战争（持续至1962年）奠定了基础。",
       "key_figures": [
-        "Habib Bourguiba (President)",
-        "French government"
+        "Habib Bourguiba（总统）",
+        "French government（法国政府）"
       ],
       "sources": [
         {
-          "name": "French government records and independence ceremony documentation, March 1957",
+          "name": "法国政府记录和独立仪式文件，1957年3月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Tunisian government announcements and newspapers",
+          "name": "突尼斯政府公告和报纸",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Independence date is unambiguous and documented in French and Tunisian official records.",
+      "certainty_note": "独立日期明确无误，并记录在法国和突尼斯的官方文件中。",
       "cross_references": [
         "1956-002 (Morocco independence)"
       ]
     },
     {
       "id": "1957-014",
-      "title": "Morocco gains independence from France",
-      "region": "Morocco / North Africa",
-      "coordinates_approx": "33.9\u00b0N, 6.9\u00b0W (Rabat)",
+      "title": "摩洛哥脱离法国独立",
+      "region": "摩洛哥 / 北非",
+      "coordinates_approx": "33.9°N, 6.9°W (Rabat)",
       "category": "political",
-      "description": "On 2 March 1957, Morocco gained independence from French rule, with King Mohammed V as its head of state. Morocco's independence was the culmination of nationalist movements and French decolonization policy. Mohammed V became a leading figure in Arab and African politics. Morocco's independence was part of the broader wave of African and Middle Eastern decolonization in the 1950s. Morocco's independence, along with Tunisia's independence in the same year, marked the end of French colonial rule in North Africa, though the Algerian War would continue until 1962.",
+      "description": "1957年3月2日，摩洛哥脱离法国统治获得独立，国王穆罕默德五世担任国家元首。摩洛哥的独立是民族主义运动和法国非殖民化政策的高潮。穆罕默德五世成为阿拉伯和非洲政治的主要人物。摩洛哥的独立，加上同年突尼斯的独立，标志着法国在北非殖民统治的结束，尽管阿尔及利亚战争持续至1962年。",
       "key_figures": [
-        "King Mohammed V (Moroccan monarch)",
-        "French government"
+        "King Mohammed V（摩洛哥国王）",
+        "French government（法国政府）"
       ],
       "sources": [
         {
-          "name": "French government records and independence ceremony documentation, March 1957",
+          "name": "法国政府记录和独立仪式文件，1957年3月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Moroccan government announcements and newspapers",
+          "name": "摩洛哥政府公告和报纸",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Independence date is unambiguous and documented in French and Moroccan official records.",
+      "certainty_note": "独立日期明确无误，并记录在法国和摩洛哥的官方文件中。",
       "cross_references": [
         "1957-013 (Tunisia independence)"
       ]
     },
     {
       "id": "1957-015",
-      "title": "Soviet Union announces successful hydrogen bomb test",
-      "region": "Soviet Union / Global",
-      "coordinates_approx": "50.0\u00b0N, 78.0\u00b0E (Semipalatinsk test site, Kazakhstan)",
+      "title": "苏联宣布成功测试氢弹",
+      "region": "苏联 / 全球",
+      "coordinates_approx": "50.0°N, 78.0°E (Semipalatinsk test site, Kazakhstan)",
       "category": "technological",
-      "description": "In August 1957, the Soviet Union announced that it had successfully tested a hydrogen bomb. The test was conducted at the Semipalatinsk test site in Kazakhstan. The successful hydrogen bomb test demonstrated Soviet advances in nuclear weapons technology and raised American concerns about Soviet military capabilities. The Soviet hydrogen bomb test, combined with the successful ICBM test and the Sputnik launches, created a sense of crisis in the United States and led to increased defense spending and the acceleration of American military programs. The Soviet hydrogen bomb test was a major milestone in the Cold War arms race.",
+      "description": "1957年8月，苏联宣布已成功测试氢弹。测试在哈萨克斯坦的塞米巴拉金斯克试验场进行。成功的氢弹测试展示了苏联在核武器技术方面的进步，并引发了美国对苏联军事能力的担忧。苏联的氢弹测试是冷战军备竞赛的一个重要里程碑。",
       "key_figures": [
-        "Nikita Khrushchev (Soviet Premier)",
-        "Soviet nuclear scientists"
+        "Nikita Khrushchev（苏联总理）",
+        "Soviet nuclear scientists（苏联核科学家）"
       ],
       "sources": [
         {
-          "name": "Soviet official announcements and Tass reports, August 1957",
+          "name": "苏联官方公告和塔斯社报道，1957年8月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "U.S. intelligence reports and military analysis",
+          "name": "美国情报报告和军事分析",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Declassified Soviet and U.S. records",
+          "name": "解密的苏联和美国记录",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Test announcement date and basic facts are confirmed by Soviet records and U.S. intelligence analysis.",
+      "certainty_note": "测试宣布日期和基本事实已由苏联记录和美国情报分析确认。",
       "cross_references": [
         "1957-009 (ICBM test)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Sputnik launches are sometimes portrayed as a complete surprise to the United States, but American intelligence agencies had predicted Soviet space capabilities and were aware of the possibility of a satellite launch. The Little Rock crisis is sometimes portrayed as a purely Southern phenomenon, but segregation and racial discrimination were nationwide problems. The Suez Crisis is sometimes portrayed as a clear victory for Nasser, but it also demonstrated the limits of Soviet support and the vulnerability of Egypt to future conflicts. The Treaty of Rome is sometimes portrayed as a purely economic agreement, but it also had significant political implications for European integration and Cold War alliance-building.",
-  "historiographic_note": "1957 is exceptionally well-documented due to the richness of Cold War-era sources, extensive media coverage, and the preservation of government records. Western sources dominate, particularly American and British documentation. Soviet sources are available but often reflect official narratives. The year's significance is heavily weighted toward Cold War events (Sputnik, ICBM test, hydrogen bomb) in Western historiography, while decolonization events in Africa and Asia receive less attention in popular historical narratives despite their profound long-term impact. The Little Rock crisis is well-documented in American sources but is sometimes underrepresented in global historical narratives.",
+  "disconfirming_evidence": "斯普特尼克发射有时被描绘成对美国完全出乎意料，但美国情报机构已预测到苏联的太空能力，并意识到卫星发射的可能性。小石城危机有时被描绘成纯粹的南方现象，但种族隔离和种族歧视是全国性的问题。苏伊士危机有时被描绘成纳赛尔的明确胜利，但它也显示了苏联支持的局限性以及埃及在未来冲突中的脆弱性。《罗马条约》有时被描绘成纯粹的经济协议，但它对欧洲一体化和冷战联盟建设也具有重要的政治意义。",
+  "historiographic_note": "由于冷战时期资料的丰富、广泛的媒体报道以及政府记录的保存，1957年的记录异常详尽。西方资料占主导地位，尤其是美国和英国的文件。苏联资料虽然可用，但往往反映官方叙事。在西方史学中，这一年的重要性严重偏向冷战事件（斯普特尼克、ICBM测试、氢弹），而非洲和亚洲的非殖民化事件在流行历史叙事中受到的关注较少，尽管它们具有深远的长期影响。小石城危机在美国资料中有详细记录，但在全球历史叙事中有时代表性不足。",
   "graph_edges": [
     {
       "from": "1957-001",
       "to": "1957-002",
       "relation": "led_to",
-      "note": "Sputnik 1 success led to Sputnik 2 launch with Laika"
+      "note": "斯普特尼克1号的成功导致搭载莱卡的斯普特尼克2号发射"
     },
     {
       "from": "1957-001",
       "to": "1958-003",
       "relation": "led_to",
-      "note": "Sputnik 1 launch triggered American response leading to NASA establishment"
+      "note": "斯普特尼克1号发射引发美国回应，导致NASA成立"
     },
     {
       "from": "1957-003",
       "to": "1958-006",
       "relation": "led_to",
-      "note": "Treaty of Rome signed in 1957 led to EEC formal establishment in 1958"
+      "note": "1957年签署的《罗马条约》导致1958年EEC正式成立"
     },
     {
       "from": "1957-004",
       "to": "1960-003",
       "relation": "led_to",
-      "note": "Ghana's independence in 1957 inspired broader African decolonization wave in 1960"
+      "note": "1957年加纳独立激发了1960年更广泛的非洲非殖民化浪潮"
     },
     {
       "from": "1957-006",
       "to": "1960-013",
       "relation": "led_to",
-      "note": "Little Rock crisis in 1957 contributed to Civil Rights Movement momentum leading to Greensboro sit-in in 1960"
+      "note": "1957年小石城危机为民权运动势头做出贡献，导致1960年格林斯博罗静坐"
     },
     {
       "from": "1957-009",
       "to": "1957-001",
       "relation": "contemporary_with",
-      "note": "ICBM test and Sputnik 1 launch were both Soviet technological achievements in 1957"
+      "note": "ICBM测试和斯普特尼克1号发射都是1957年苏联的技术成就"
     }
   ]
 }

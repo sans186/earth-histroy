@@ -75,6 +75,46 @@ export function throttle(fn, delay) {
 /**
  * Debounce a function – fires only after `delay` ms of inactivity.
  */
+
+import { CATEGORIES, CATEGORY_MERGE_MAP } from './config.js';
+
+/**
+ * Map a raw data category (from JSON) to its display category key.
+ * Handles exact match, merge-map lookup, composite ("A | B") split,
+ * and trimmed variants.
+ */
+export function getDisplayCategory(rawCategory) {
+  if (!rawCategory || typeof rawCategory !== 'string') return null;
+  const cat = rawCategory.trim();
+  if (!cat) return null;
+
+  // Direct match with a display key
+  if (CATEGORIES[cat]) return cat;
+
+  // Look up in merge map
+  for (const [displayCat, sources] of Object.entries(CATEGORY_MERGE_MAP)) {
+    if (sources.includes(cat)) return displayCat;
+  }
+
+  // Composite categories e.g. "political | military" → take first part
+  if (cat.includes(' | ')) {
+    const first = cat.split(' | ')[0].trim();
+    return getDisplayCategory(first);
+  }
+
+  // Fallback – won't match any active filter
+  return cat;
+}
+
+/**
+ * Check whether an event with the given data category should be visible
+ * when the given set of display-category filters is active.
+ */
+export function isEventVisible(rawCategory, activeFilters) {
+  if (!activeFilters || activeFilters.size === 0) return false;
+  const displayCat = getDisplayCategory(rawCategory);
+  return displayCat != null && activeFilters.has(displayCat);
+}
 export function debounce(fn, delay) {
   let timer = null;
   return function (...args) {

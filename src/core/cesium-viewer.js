@@ -8,6 +8,9 @@
 import * as Cesium from 'cesium';
 import 'cesium/Build/Cesium/Widgets/widgets.css';
 
+// Set worker base URL globally so Cesium can find Web Workers
+window.CESIUM_BASE_URL = '/cesium/';
+
 /**
  * @param {string} containerId  DOM element id
  * @param {{ lon: number, lat: number, height: number }} initialView
@@ -25,14 +28,22 @@ export function createViewer(containerId, initialView) {
     navigationHelpButton: false,
     infoBox: false,
     selectionIndicator: false,
+    imageryProvider: new Cesium.UrlTemplateImageryProvider({
+      url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+      subdomains: ['a', 'b', 'c'],
+      credit: '© OpenStreetMap contributors',
+    }),
   });
 
   viewer.cesiumWidget.creditContainer.style.display = 'none';
 
-  viewer.scene.globe.enableLighting = true;
+  viewer.scene.globe.enableLighting = false;
   viewer.scene.skyAtmosphere.show = false;
   viewer.scene.sun.show = false;
   viewer.scene.moon.show = false;
+
+  // Ocean base color – shows through where imagery tiles are absent or loading
+  viewer.scene.globe.baseColor = Cesium.Color.fromCssColorString('#1a6080');
 
   viewer.camera.flyTo({
     destination: Cesium.Cartesian3.fromDegrees(

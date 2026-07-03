@@ -1,40 +1,40 @@
 {
   "year": 1962,
-  "year_label": "1962 CE",
-  "era_context": "The Cold War reaches its most dangerous point with the Cuban Missile Crisis in October. The Space Race accelerates with the Mariner 2 Venus mission and John Glenn's orbital flight. Decolonization continues across Africa and Asia, with Algeria gaining independence after a brutal war. The Civil Rights Movement in the U.S. intensifies with the integration of the University of Mississippi. The Beatles release their first album.",
-  "documentation_level": "rich",
+  "year_label": "1962年",
+  "era_context": "冷战在10月的古巴导弹危机中达到最危险时刻。太空竞赛因水手2号金星任务和约翰·格伦的轨道飞行而加速。非殖民化在非洲和亚洲持续进行，阿尔及利亚在残酷战争后获得独立。美国民权运动因密西西比大学的融合而加剧。披头士发行首张专辑。",
+  "documentation_level": "丰富",
   "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1962-001",
-      "title": "Mariner 2 spacecraft reaches Venus; first successful planetary probe",
-      "region": "Venus (space exploration)",
+      "title": "水手2号探测器抵达金星；首次成功的行星探测器",
+      "region": "金星（太空探索）",
       "coordinates_approx": null,
       "category": "exploration",
-      "description": "NASA's Mariner 2 spacecraft reaches Venus on December 14, 1962, becoming the first spacecraft to successfully reach another planet. Mariner 2 transmits data about Venus's atmosphere, temperature, and magnetic field, revealing that Venus is an extremely hostile environment with surface temperatures exceeding 400 degrees Celsius. The mission is a major achievement in planetary exploration and demonstrates the feasibility of interplanetary spaceflight. Mariner 2's success paves the way for future planetary missions.",
+      "description": "美国国家航空航天局的水手2号探测器于1962年12月14日抵达金星，成为首个成功到达另一颗行星的航天器。水手2号传回了关于金星大气、温度和磁场的数据，揭示了金星是一个极端恶劣的环境，表面温度超过400摄氏度。这次任务是行星探索的重大成就，证明了星际航行的可行性。水手2号的成功为未来的行星任务铺平了道路。",
       "key_figures": [
-        "Wernher von Braun (U.S. rocket scientist)",
-        "JPL scientists and engineers"
+        "Wernher von Braun（美国火箭科学家）",
+        "JPL科学家和工程师"
       ],
       "sources": [
         {
-          "name": "NASA Jet Propulsion Laboratory mission reports and press releases",
+          "name": "美国国家航空航天局喷气推进实验室任务报告和新闻稿",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Mariner 2 telemetry and data",
+          "name": "水手2号遥测数据",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "David Harland, The Soviet Conquest of Space (2003)",
+          "name": "David Harland，《苏联征服太空》（2003年）",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Mariner 2's Venus encounter date is documented in NASA records.",
+      "certainty_note": "水手2号的金星相遇日期记录在美国国家航空航天局的档案中。",
       "cross_references": [
         "1962-002 (Cuban Missile Crisis)",
         "1965-003 (Mariner 4 Mars flyby)"
@@ -42,41 +42,41 @@
     },
     {
       "id": "1962-002",
-      "title": "Cuban Missile Crisis; nuclear standoff between U.S. and Soviet Union",
-      "region": "Cuba, Atlantic Ocean",
+      "title": "古巴导弹危机；美苏核对峙",
+      "region": "古巴，大西洋",
       "coordinates_approx": "21.5200, -77.0369",
       "category": "military",
-      "description": "The Cuban Missile Crisis occurs from October 16\u201328, 1962, when the United States discovers Soviet nuclear missiles in Cuba, just 90 miles from the U.S. coast. President John F. Kennedy orders a naval blockade of Cuba and demands the removal of the missiles. The crisis brings the world to the brink of nuclear war. Soviet Premier Nikita Khrushchev agrees to remove the missiles in exchange for a U.S. pledge not to invade Cuba and the secret removal of U.S. missiles from Turkey. The crisis is resolved peacefully on October 28, 1962. The Cuban Missile Crisis is the closest the world comes to nuclear war during the Cold War and leads to a thaw in U.S.-Soviet relations.",
+      "description": "古巴导弹危机发生于1962年10月16日至28日，当时美国发现苏联在距离美国海岸仅90英里的古巴部署了核导弹。约翰·F·肯尼迪总统下令对古巴实施海上封锁，并要求撤除导弹。这场危机将世界推向核战争的边缘。苏联总理尼基塔·赫鲁晓夫同意撤除导弹，以换取美国不入侵古巴的承诺以及秘密撤除美国在土耳其的导弹。危机于1962年10月28日和平解决。古巴导弹危机是冷战期间世界最接近核战争的时刻，并导致美苏关系解冻。",
       "key_figures": [
-        "John F. Kennedy (U.S. President)",
-        "Nikita Khrushchev (Soviet Premier)",
-        "Fidel Castro (Cuban leader)",
-        "Robert F. Kennedy (U.S. Attorney General, President's brother)"
+        "John F. Kennedy（美国总统）",
+        "Nikita Khrushchev（苏联总理）",
+        "Fidel Castro（古巴领导人）",
+        "Robert F. Kennedy（美国司法部长，总统的弟弟）"
       ],
       "sources": [
         {
-          "name": "U.S. government records and declassified documents",
+          "name": "美国政府记录和解密文件",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Soviet government records (declassified)",
+          "name": "苏联政府记录（已解密）",
           "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "Robert F. Kennedy, Thirteen Days (1969)",
+          "name": "Robert F. Kennedy，《十三天》（1969年）",
           "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "Odd Arne Westad, The Cold War: A World History (2017)",
+          "name": "Odd Arne Westad，《冷战：一部世界史》（2017年）",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Cuban Missile Crisis dates and key events are documented in U.S. government records and declassified Soviet documents.",
+      "certainty_note": "古巴导弹危机的日期和关键事件记录在美国政府记录和解密的苏联文件中。",
       "cross_references": [
         "1961-003 (Bay of Pigs invasion)",
         "1963-003 (Limited Test Ban Treaty signed)"
@@ -84,35 +84,35 @@
     },
     {
       "id": "1962-003",
-      "title": "John Glenn orbits Earth; first American to orbit the planet",
-      "region": "Low Earth Orbit",
+      "title": "约翰·格伦绕地球飞行；首位绕地球飞行的美国人",
+      "region": "近地轨道",
       "coordinates_approx": null,
       "category": "exploration",
-      "description": "NASA astronaut John Glenn launches aboard Mercury 6 on February 20, 1962, becoming the first American to orbit Earth. Glenn completes three orbits of Earth in 4 hours and 55 minutes. The mission is a major achievement for the U.S. space program and demonstrates American technological capabilities in the Space Race. Glenn's flight comes nearly a year after Soviet cosmonaut Yuri Gagarin's first human spaceflight (April 1961) and Soviet cosmonaut Gherman Titov's orbital flight (August 1961). Glenn's successful mission boosts American morale and confidence in the space program.",
+      "description": "美国国家航空航天局宇航员约翰·格伦于1962年2月20日乘坐水星6号发射升空，成为首位绕地球飞行的美国人。格伦在4小时55分钟内完成了三次绕地球轨道飞行。这次任务是美国太空计划的重大成就，展示了美国在太空竞赛中的技术能力。格伦的飞行发生在苏联宇航员尤里·加加林首次载人航天飞行（1961年4月）和苏联宇航员格尔曼·季托夫的轨道飞行（1961年8月）近一年之后。格伦的成功任务提升了美国的士气和太空计划的信心。",
       "key_figures": [
-        "John Glenn (astronaut)",
-        "Wernher von Braun (rocket scientist)",
-        "Chris Kraft (Mission Control director)"
+        "John Glenn（宇航员）",
+        "Wernher von Braun（火箭科学家）",
+        "Chris Kraft（任务控制主任）"
       ],
       "sources": [
         {
-          "name": "NASA mission reports and press releases",
+          "name": "美国国家航空航天局任务报告和新闻稿",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "John Glenn, Memoir (1999)",
+          "name": "John Glenn，《回忆录》（1999年）",
           "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "David Baker, The History of NASA's Space Shuttle Program (2011)",
+          "name": "David Baker，《美国国家航空航天局航天飞机计划史》（2011年）",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "John Glenn's orbital flight date and mission duration are documented in NASA records.",
+      "certainty_note": "约翰·格伦的轨道飞行日期和任务时长记录在美国国家航空航天局的档案中。",
       "cross_references": [
         "1961-001 (Yuri Gagarin first human in space)",
         "1962-004 (Scott Carpenter orbits Earth)"
@@ -120,35 +120,35 @@
     },
     {
       "id": "1962-004",
-      "title": "Scott Carpenter orbits Earth; second American orbital flight",
-      "region": "Low Earth Orbit",
+      "title": "斯科特·卡彭特绕地球飞行；第二次美国轨道飞行",
+      "region": "近地轨道",
       "coordinates_approx": null,
       "category": "exploration",
-      "description": "NASA astronaut Scott Carpenter launches aboard Mercury 7 on May 24, 1962, becoming the second American to orbit Earth. Carpenter completes three orbits of Earth in 4 hours and 56 minutes. The mission is successful, though Carpenter overshoots the landing zone, requiring a longer recovery operation. Carpenter's flight demonstrates the reliability of the Mercury spacecraft and continues the U.S. effort to catch up with the Soviet space program.",
+      "description": "美国国家航空航天局宇航员斯科特·卡彭特于1962年5月24日乘坐水星7号发射升空，成为第二位绕地球飞行的美国人。卡彭特在4小时56分钟内完成了三次绕地球轨道飞行。任务成功，但卡彭特超出了着陆区，需要更长的回收操作。卡彭特的飞行证明了水星飞船的可靠性，并继续了美国追赶苏联太空计划的努力。",
       "key_figures": [
-        "Scott Carpenter (astronaut)",
-        "Wernher von Braun (rocket scientist)",
-        "Chris Kraft (Mission Control director)"
+        "Scott Carpenter（宇航员）",
+        "Wernher von Braun（火箭科学家）",
+        "Chris Kraft（任务控制主任）"
       ],
       "sources": [
         {
-          "name": "NASA mission reports and press releases",
+          "name": "美国国家航空航天局任务报告和新闻稿",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Scott Carpenter, For Spacious Skies (2003)",
+          "name": "Scott Carpenter，《广阔天空》（2003年）",
           "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "David Baker, The History of NASA's Space Shuttle Program (2011)",
+          "name": "David Baker，《美国国家航空航天局航天飞机计划史》（2011年）",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Scott Carpenter's orbital flight date and mission duration are documented in NASA records.",
+      "certainty_note": "斯科特·卡彭特的轨道飞行日期和任务时长记录在美国国家航空航天局的档案中。",
       "cross_references": [
         "1962-003 (John Glenn orbits Earth)",
         "1963-009 (Mercury 9 final mission)"
@@ -156,35 +156,35 @@
     },
     {
       "id": "1962-005",
-      "title": "Algeria gains independence from France after eight-year war",
-      "region": "Algeria",
+      "title": "阿尔及利亚经过八年战争从法国获得独立",
+      "region": "阿尔及利亚",
       "coordinates_approx": "36.7372, 3.0588",
       "category": "political",
-      "description": "Algeria gains independence from France on July 5, 1962, following the Algerian War of Independence (1954\u20131962). The war is one of the most brutal decolonization conflicts, resulting in an estimated 1 million deaths. The independence is achieved through the Evian Accords, signed on March 18, 1962, which provide for a ceasefire and the withdrawal of French forces. Ahmed Ben Bella becomes the first President of independent Algeria. Algeria's independence marks the end of French colonial rule in North Africa and is a major victory for the anti-colonial movement.",
+      "description": "阿尔及利亚于1962年7月5日从法国获得独立，此前经历了阿尔及利亚独立战争（1954-1962年）。这场战争是最残酷的非殖民化冲突之一，估计造成100万人死亡。独立是通过1962年3月18日签署的《埃维昂协议》实现的，该协议规定了停火和法国军队的撤出。艾哈迈德·本·贝拉成为独立阿尔及利亚的首任总统。阿尔及利亚的独立标志着法国在北非殖民统治的结束，是反殖民运动的一次重大胜利。",
       "key_figures": [
-        "Ahmed Ben Bella (first President)",
-        "Charles de Gaulle (French President)",
-        "Ferhat Abbas (nationalist leader)"
+        "Ahmed Ben Bella（首任总统）",
+        "Charles de Gaulle（法国总统）",
+        "Ferhat Abbas（民族主义领袖）"
       ],
       "sources": [
         {
-          "name": "Algerian independence proclamation and constitutional documents",
+          "name": "阿尔及利亚独立宣言和宪法文件",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Evian Accords (treaty document)",
+          "name": "《埃维昂协议》（条约文件）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Alistair Horne, A Savage War of Peace: Algeria 1954\u20131962 (1977)",
+          "name": "Alistair Horne，《野蛮的和平之战争：阿尔及利亚1954-1962》（1977年）",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Algeria's independence date and first President are documented in official government records.",
+      "certainty_note": "阿尔及利亚的独立日期和首任总统记录在官方政府文件中。",
       "cross_references": [
         "1954-001 (Algerian War of Independence begins)",
         "1965-001 (Ahmed Ben Bella ousted in coup)"
@@ -192,41 +192,41 @@
     },
     {
       "id": "1962-006",
-      "title": "James Meredith integrates University of Mississippi; federal intervention required",
-      "region": "United States (Mississippi)",
+      "title": "詹姆斯·梅雷迪斯融入密西西比大学；需要联邦干预",
+      "region": "美国（密西西比州）",
       "coordinates_approx": "34.3642, -89.5344",
       "category": "political",
-      "description": "James Meredith, an African American student, enrolls at the University of Mississippi on October 1, 1962, becoming the first African American to attend the university. The enrollment triggers violent protests by white students and residents. President John F. Kennedy orders federal marshals and National Guard troops to enforce Meredith's right to attend. The integration of the University of Mississippi is a major victory for the Civil Rights Movement and demonstrates the federal government's commitment to enforcing civil rights. However, the violence and resistance highlight the depth of racial prejudice in the South.",
+      "description": "非裔美国学生詹姆斯·梅雷迪斯于1962年10月1日注册进入密西西比大学，成为首位就读该校的非裔美国人。注册引发了白人学生和居民的暴力抗议。约翰·F·肯尼迪总统命令联邦法警和国民警卫队部队执行梅雷迪斯的入学权利。密西西比大学的融合是民权运动的重大胜利，展示了联邦政府执行民权的承诺。然而，暴力和抵抗突显了南方种族偏见的深度。",
       "key_figures": [
-        "James Meredith (student)",
-        "John F. Kennedy (U.S. President)",
-        "Robert F. Kennedy (U.S. Attorney General)",
-        "Ross Barnett (Mississippi Governor)"
+        "James Meredith（学生）",
+        "John F. Kennedy（美国总统）",
+        "Robert F. Kennedy（美国司法部长）",
+        "Ross Barnett（密西西比州州长）"
       ],
       "sources": [
         {
-          "name": "U.S. Department of Justice records and federal marshal reports",
+          "name": "美国司法部记录和联邦法警报告",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary newspaper coverage and photographs",
+          "name": "当代报纸报道和照片",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "James Meredith, A Mission from God (2012)",
+          "name": "James Meredith，《来自上帝的使命》（2012年）",
           "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "Taylor Branch, Parting the Waters: America in the King Years 1954\u201363 (1988)",
+          "name": "Taylor Branch，《分水岭：美国在国王时代1954-63》（1988年）",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Meredith's enrollment date and the federal intervention are documented in government records and contemporary sources.",
+      "certainty_note": "梅雷迪斯的注册日期和联邦干预记录在政府记录和当代资料中。",
       "cross_references": [
         "1963-001 (March on Washington)",
         "1964-002 (Civil Rights Act of 1964)"
@@ -234,36 +234,36 @@
     },
     {
       "id": "1962-007",
-      "title": "The Beatles release their first album; 'Please Please Me'",
-      "region": "United Kingdom",
+      "title": "披头士发行首张专辑《Please Please Me》",
+      "region": "英国",
       "coordinates_approx": "53.3498, -2.6090",
       "category": "cultural",
-      "description": "The Beatles release their first album, 'Please Please Me,' on March 22, 1962 (in the UK). The album includes the hit single 'Please Please Me' and other songs that establish the Beatles as a major force in popular music. The album is a commercial and critical success, reaching number one on the UK charts. The Beatles' early success in the UK sets the stage for their later dominance of American popular music and the British Invasion of 1964.",
+      "description": "披头士于1962年3月22日（英国）发行了他们的首张专辑《Please Please Me》。专辑包括热门单曲《Please Please Me》和其他歌曲，确立了披头士在流行音乐中的重要地位。这张专辑在商业和评论上都取得了成功，在英国排行榜上达到第一名。披头士在英国早期的成功为他们后来主导美国流行音乐和1964年的英国入侵奠定了基础。",
       "key_figures": [
-        "John Lennon (The Beatles)",
-        "Paul McCartney (The Beatles)",
-        "George Harrison (The Beatles)",
-        "Ringo Starr (The Beatles, joined in August 1962)"
+        "John Lennon（披头士成员）",
+        "Paul McCartney（披头士成员）",
+        "George Harrison（披头士成员）",
+        "Ringo Starr（披头士成员，1962年8月加入）"
       ],
       "sources": [
         {
-          "name": "The Beatles, 'Please Please Me' album (recorded and released)",
+          "name": "披头士专辑《Please Please Me》（录制和发行）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary British press coverage",
+          "name": "当代英国媒体报导",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Mark Lewisohn, The Beatles: All These Years (2013)",
+          "name": "Mark Lewisohn，《披头士：这些年》（2013年）",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Beatles' first album release date is documented in music industry records.",
+      "certainty_note": "披头士首张专辑的发行日期记录在音乐行业档案中。",
       "cross_references": [
         "1964-005 (The Beatles perform on Ed Sullivan Show)",
         "1970-001 (The Beatles break up)"
@@ -271,37 +271,37 @@
     },
     {
       "id": "1962-008",
-      "title": "Ringo Starr joins The Beatles; replaces Pete Best",
-      "region": "United Kingdom",
+      "title": "林戈·斯塔尔加入披头士；取代皮特·贝斯特",
+      "region": "英国",
       "coordinates_approx": "53.3498, -2.6090",
       "category": "cultural",
-      "description": "Ringo Starr (Richard Starkey) joins The Beatles on August 16, 1962, replacing Pete Best as the drummer. Ringo's addition completes the classic Beatles lineup of John Lennon, Paul McCartney, George Harrison, and Ringo Starr. Ringo's drumming style and personality contribute to the Beatles' success and help establish their distinctive sound. Ringo's joining marks the beginning of the Beatles' rise to international fame.",
+      "description": "林戈·斯塔尔（理查德·斯塔基）于1962年8月16日加入披头士，取代皮特·贝斯特成为鼓手。林戈的加入完成了披头士的经典阵容：约翰·列侬、保罗·麦卡特尼、乔治·哈里森和林戈·斯塔尔。林戈的鼓技和个性为披头士的成功做出了贡献，并帮助确立了他们的独特声音。林戈的加入标志着披头士开始走向国际声誉。",
       "key_figures": [
-        "Ringo Starr (new drummer)",
-        "Pete Best (replaced drummer)",
-        "John Lennon (The Beatles)",
-        "Paul McCartney (The Beatles)",
-        "George Harrison (The Beatles)"
+        "Ringo Starr（新鼓手）",
+        "Pete Best（被取代的鼓手）",
+        "John Lennon（披头士成员）",
+        "Paul McCartney（披头士成员）",
+        "George Harrison（披头士成员）"
       ],
       "sources": [
         {
-          "name": "The Beatles' management records and press releases",
+          "name": "披头士管理记录和新闻稿",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary British press coverage",
+          "name": "当代英国媒体报导",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Mark Lewisohn, The Beatles: All These Years (2013)",
+          "name": "Mark Lewisohn，《披头士：这些年》（2013年）",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Ringo Starr's joining date is documented in The Beatles' management records.",
+      "certainty_note": "林戈·斯塔尔的加入日期记录在披头士的管理记录中。",
       "cross_references": [
         "1962-007 (The Beatles release first album)",
         "1964-005 (The Beatles perform on Ed Sullivan Show)"
@@ -309,33 +309,33 @@
     },
     {
       "id": "1962-009",
-      "title": "Telstar satellite launched; first transatlantic television transmission",
-      "region": "Low Earth Orbit",
+      "title": "Telstar卫星发射；首次跨大西洋电视传输",
+      "region": "近地轨道",
       "coordinates_approx": null,
       "category": "technological",
-      "description": "The Telstar satellite is launched on July 10, 1962, becoming the first active communications satellite. Telstar enables the first live transatlantic television transmission on July 23, 1962, when a television signal is transmitted from the United States to France and then to the United Kingdom. The Telstar satellite is a major achievement in telecommunications and demonstrates the feasibility of satellite communications. Telstar's success leads to the development of a global satellite communications network.",
+      "description": "Telstar卫星于1962年7月10日发射，成为首颗有源通信卫星。Telstar于1962年7月23日实现了首次实时跨大西洋电视传输，当时电视信号从美国传输到法国，然后传输到英国。Telstar卫星是电信领域的重大成就，证明了卫星通信的可行性。Telstar的成功导致了全球卫星通信网络的发展。",
       "key_figures": [
-        "Bell Telephone Laboratories scientists and engineers"
+        "贝尔电话实验室科学家和工程师"
       ],
       "sources": [
         {
-          "name": "Bell Telephone Laboratories press releases and technical reports",
+          "name": "贝尔电话实验室新闻稿和技术报告",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary newspaper coverage",
+          "name": "当代报纸报道",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "David Harland, The Soviet Conquest of Space (2003)",
+          "name": "David Harland，《苏联征服太空》（2003年）",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Telstar's launch date and first transatlantic transmission date are documented in Bell Telephone Laboratories records.",
+      "certainty_note": "Telstar的发射日期和首次跨大西洋传输日期记录在贝尔电话实验室的档案中。",
       "cross_references": [
         "1957-001 (Sputnik 1 launched)",
         "1965-001 (Early Bird satellite launched)"
@@ -343,35 +343,35 @@
     },
     {
       "id": "1962-010",
-      "title": "Sino-Indian War; border conflict between China and India",
-      "region": "India, China (Himalayan border)",
+      "title": "中印战争；中国与印度之间的边界冲突",
+      "region": "印度，中国（喜马拉雅边界）",
       "coordinates_approx": "32.5, 78.5",
       "category": "military",
-      "description": "The Sino-Indian War occurs from October 20 to November 21, 1962, as a result of border disputes between China and India in the Himalayan region. China launches a military offensive against Indian forces, achieving significant victories. India suffers a humiliating defeat, with over 3,000 soldiers killed or captured. The war is a major blow to Indian prestige and to Prime Minister Jawaharlal Nehru's policy of non-alignment. The war also marks a turning point in Sino-Indian relations, establishing China as a major regional power and India as a secondary power in Asia.",
+      "description": "中印战争发生于1962年10月20日至11月21日，是由于中国和印度在喜马拉雅地区的边界争端引起的。中国对印度军队发动了军事进攻，取得了重大胜利。印度遭受了耻辱性的失败，超过3000名士兵阵亡或被俘。这场战争对印度的威望和贾瓦哈拉尔·尼赫鲁总理的不结盟政策是一个重大打击。这场战争也标志着中印关系的转折点，确立了中国作为地区大国的地位，而印度则成为亚洲的二流国家。",
       "key_figures": [
-        "Jawaharlal Nehru (Indian Prime Minister)",
-        "Mao Zedong (Chinese Chairman)",
-        "Zhou Enlai (Chinese Premier)"
+        "Jawaharlal Nehru（印度总理）",
+        "Mao Zedong（中国主席）",
+        "Zhou Enlai（中国总理）"
       ],
       "sources": [
         {
-          "name": "Indian and Chinese government statements and military reports",
+          "name": "印度和中国政府声明及军事报告",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary newspaper coverage",
+          "name": "当代报纸报道",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Neville Maxwell, India's China War (1970)",
+          "name": "Neville Maxwell，《印度的中国战争》（1970年）",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Sino-Indian War dates and casualty figures are documented in government records and contemporary sources.",
+      "certainty_note": "中印战争的日期和伤亡数字记录在政府记录和当代资料中。",
       "cross_references": [
         "1947-001 (India gains independence)",
         "1971-002 (Indo-Pakistani War)"
@@ -379,34 +379,34 @@
     },
     {
       "id": "1962-011",
-      "title": "Vatican II opens; Catholic Church begins modernization",
-      "region": "Vatican City",
+      "title": "梵蒂冈第二届大公会议开幕；天主教会开始现代化",
+      "region": "梵蒂冈城",
       "coordinates_approx": "41.9029, 12.4534",
       "category": "religious",
-      "description": "The Second Vatican Council (Vatican II) opens on October 11, 1962, under Pope John XXIII. Vatican II is a major ecumenical council of the Catholic Church that aims to modernize the Church and improve relations with other Christian denominations and religions. The council introduces significant changes to Catholic practice, including the use of vernacular languages in the Mass (instead of Latin), greater emphasis on ecumenism, and reforms to Church governance. Vatican II has profound implications for the Catholic Church and Christianity as a whole, leading to significant changes in Catholic theology and practice.",
+      "description": "梵蒂冈第二届大公会议（梵蒂冈第二届大公会议）于1962年10月11日在教皇约翰二十三世的主持下开幕。梵蒂冈第二届大公会议是天主教会的一次重要大公会议，旨在使教会现代化，并改善与其他基督教派别和宗教的关系。会议引入了天主教实践的显著变化，包括在弥撒中使用本地语言（而不是拉丁语）、更加强调大公主义以及教会治理的改革。梵蒂冈第二届大公会议对天主教会和整个基督教产生了深远影响，导致了天主教神学和实践的重大变化。",
       "key_figures": [
-        "Pope John XXIII (Pope, convened Vatican II)",
-        "Cardinal Giuseppe Roncalli (Pope John XXIII's birth name)"
+        "Pope John XXIII（教皇，召集了梵蒂冈第二届大公会议）",
+        "Cardinal Giuseppe Roncalli（教皇约翰二十三世的原名）"
       ],
       "sources": [
         {
-          "name": "Vatican II documents and council records",
+          "name": "梵蒂冈第二届大公会议文件和会议记录",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary Catholic press coverage",
+          "name": "当代天主教媒体报导",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "John W. O'Malley, What Happened at Vatican II (2008)",
+          "name": "John W. O'Malley，《梵蒂冈第二届大公会议发生了什么》（2008年）",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Vatican II's opening date is documented in Vatican records.",
+      "certainty_note": "梵蒂冈第二届大公会议的开幕日期记录在梵蒂冈档案中。",
       "cross_references": [
         "1965-001 (Vatican II closes)",
         "1978-001 (Pope John Paul II elected)"
@@ -414,103 +414,103 @@
     },
     {
       "id": "1962-012",
-      "title": "Nelson Mandela arrested in South Africa; begins 27-year imprisonment",
-      "region": "South Africa",
+      "title": "纳尔逊·曼德拉在南非被捕；开始27年监禁",
+      "region": "南非",
       "coordinates_approx": "-33.9249, 18.4241",
       "category": "political",
-      "description": "Nelson Mandela is arrested on August 5, 1962, in South Africa, charged with sabotage and conspiracy. Mandela is sentenced to five years in prison, which he serves on Robben Island. In 1964, Mandela is tried again and sentenced to life imprisonment on charges of sabotage and conspiracy. Mandela spends 27 years in prison, becoming a symbol of resistance to apartheid. His imprisonment galvanizes international opposition to apartheid and makes him a global icon of the anti-apartheid movement.",
+      "description": "纳尔逊·曼德拉于1962年8月5日在南非被捕，被指控犯有破坏和阴谋罪。曼德拉被判处五年监禁，在罗本岛服刑。1964年，曼德拉再次受审，因破坏和阴谋罪被判处终身监禁。曼德拉在监狱中度过了27年，成为抵抗种族隔离的象征。他的监禁激发了国际社会对种族隔离的反对，使他成为反种族隔离运动的全球偶像。",
       "key_figures": [
-        "Nelson Mandela (anti-apartheid activist)",
-        "Walter Sisulu (ANC leader, also imprisoned)",
-        "Oliver Tambo (ANC leader, in exile)"
+        "Nelson Mandela（反种族隔离活动家）",
+        "Walter Sisulu（非洲人国民大会领袖，也被监禁）",
+        "Oliver Tambo（非洲人国民大会领袖，流亡中）"
       ],
       "sources": [
         {
-          "name": "South African government records and court documents",
+          "name": "南非政府记录和法院文件",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Nelson Mandela, Long Walk to Freedom (1994)",
+          "name": "Nelson Mandela，《漫漫自由路》（1994年）",
           "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "Anthony Sampson, Mandela: The Authorized Biography (1999)",
+          "name": "Anthony Sampson，《曼德拉：授权传记》（1999年）",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Mandela's arrest date and charges are documented in South African government records.",
+      "certainty_note": "曼德拉的被捕日期和指控记录在南非政府记录中。",
       "cross_references": [
         "1964-001 (Mandela sentenced to life imprisonment)",
         "1990-001 (Mandela released from prison)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Cuban Missile Crisis is sometimes portrayed as a clear-cut U.S. victory; in fact, the U.S. agreed to remove missiles from Turkey as part of the settlement, though this was kept secret at the time. The Sino-Indian War is sometimes characterized as a decisive Chinese victory; in fact, China withdrew after achieving its objectives, suggesting the war was more limited in scope than often portrayed. James Meredith's integration of the University of Mississippi is sometimes portrayed as a straightforward victory for civil rights; in fact, Meredith faced ongoing harassment and discrimination after his enrollment. The Beatles' early success is sometimes attributed solely to their musical talent; in fact, their success was also due to effective marketing, radio promotion, and the cultural moment of the early 1960s.",
-  "historiographic_note": "1962 is exceptionally well-documented due to proximity to the present and the richness of contemporary media, government records, and later oral histories. Western sources dominate the record, particularly for U.S. and European events. The Cuban Missile Crisis is extensively documented in U.S. government records and declassified Soviet documents. The Space Race is well-documented due to public interest and declassification of government records. The Algerian War is extensively documented in French and Algerian sources, though Western historiography often emphasizes the French perspective. The Sino-Indian War is less densely documented in English-language historiography, though primary sources exist in Indian and Chinese archives. The Beatles' early career is well-documented in music industry records and contemporary press coverage.",
+  "disconfirming_evidence": "古巴导弹危机有时被描绘成美国的明确胜利；事实上，美国同意撤除在土耳其的导弹作为解决方案的一部分，尽管当时对此保密。中印战争有时被描述为中国决定性的胜利；事实上，中国在实现目标后撤军，表明这场战争的范围比通常描绘的更为有限。詹姆斯·梅雷迪斯融入密西西比大学有时被描绘成民权的直接胜利；事实上，梅雷迪斯在入学后仍面临持续的骚扰和歧视。披头士的早期成功有时被归因于他们的音乐才华；事实上，他们的成功也归功于有效的营销、广播推广以及20世纪60年代初的文化时刻。",
+  "historiographic_note": "1962年由于距离现在较近以及当代媒体、政府记录和后来的口述历史的丰富性，记录异常详尽。西方资料在记录中占主导地位，尤其是美国和欧洲事件。古巴导弹危机在美国政府记录和解密的苏联文件中记录详尽。太空竞赛由于公众兴趣和政府记录的解密而记录详尽。阿尔及利亚战争在法国和阿尔及利亚资料中记录详尽，尽管西方史学通常强调法国视角。中印战争在英语史学中记录较少，尽管印度和中国档案中存在原始资料。披头士的早期职业生涯在音乐行业记录和当代媒体报导中记录详尽。",
   "graph_edges": [
     {
       "from": "1962-001",
       "to": "1962-002",
       "relation": "contemporary_with",
-      "note": "Mariner 2 Venus mission and Cuban Missile Crisis occur in same year"
+      "note": "水手2号金星任务和古巴导弹危机发生在同一年"
     },
     {
       "from": "1962-002",
       "to": "1963-003",
       "relation": "led_to",
-      "note": "Cuban Missile Crisis leads to Limited Test Ban Treaty"
+      "note": "古巴导弹危机导致《部分禁止核试验条约》"
     },
     {
       "from": "1962-003",
       "to": "1962-004",
       "relation": "contemporary_with",
-      "note": "John Glenn and Scott Carpenter orbital flights occur in same year"
+      "note": "约翰·格伦和斯科特·卡彭特的轨道飞行发生在同一年"
     },
     {
       "from": "1962-005",
       "to": "1965-001",
       "relation": "led_to",
-      "note": "Algeria's independence leads to Ahmed Ben Bella's presidency"
+      "note": "阿尔及利亚独立导致艾哈迈德·本·贝拉担任总统"
     },
     {
       "from": "1962-006",
       "to": "1963-001",
       "relation": "led_to",
-      "note": "University of Mississippi integration leads to March on Washington"
+      "note": "密西西比大学融合导致向华盛顿进军"
     },
     {
       "from": "1962-007",
       "to": "1962-008",
       "relation": "contemporary_with",
-      "note": "Beatles' first album and Ringo Starr joining occur in same year"
+      "note": "披头士首张专辑和林戈·斯塔尔加入发生在同一年"
     },
     {
       "from": "1962-008",
       "to": "1964-005",
       "relation": "led_to",
-      "note": "Ringo Starr joining leads to Beatles' Ed Sullivan Show performance"
+      "note": "林戈·斯塔尔加入导致披头士在埃德·沙利文秀上表演"
     },
     {
       "from": "1962-010",
       "to": "1971-002",
       "relation": "led_to",
-      "note": "Sino-Indian War leads to Indo-Pakistani War tensions"
+      "note": "中印战争导致印巴战争紧张局势"
     },
     {
       "from": "1962-011",
       "to": "1965-001",
       "relation": "led_to",
-      "note": "Vatican II opens; closes in 1965"
+      "note": "梵蒂冈第二届大公会议开幕；于1965年闭幕"
     },
     {
       "from": "1962-012",
       "to": "1990-001",
       "relation": "led_to",
-      "note": "Mandela's arrest leads to 27-year imprisonment and later release"
+      "note": "曼德拉被捕导致27年监禁和后来的释放"
     }
   ]
 }

@@ -1,42 +1,42 @@
 {
   "year": -1897,
-  "year_label": "1898 BCE",
-  "era_context": "Old Babylonian period in Mesopotamia; late 12th Dynasty in Egypt; late mature phase of Indus Valley Civilization; early Shang Dynasty in China; Middle Bronze Age I in the Levant. This period represents the height of several established civilizations, though underlying stresses\u2014environmental, political, and social\u2014were beginning to manifest.",
-  "documentation_level": "sparse",
+  "year_label": "公元前1897年",
+  "era_context": "美索不达米亚的古巴比伦时期；埃及第十二王朝晚期；印度河流域文明成熟阶段末期；中国商朝早期；黎凡特中青铜时代一期。这一时期代表多个成熟文明的鼎盛时期，但环境、政治和社会层面的潜在压力已开始显现。",
+  "documentation_level": "稀疏",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
-    "Northern Europe",
-    "Oceania",
-    "Pre-Columbian Americas",
-    "Central Asia and the Steppe"
+    "撒哈拉以南非洲",
+    "北欧",
+    "大洋洲",
+    "前哥伦布时期美洲",
+    "中亚与草原地区"
   ],
   "events": [
     {
       "id": "-1897-001",
-      "title": "Hammurabi's reign: military campaigns and administrative consolidation",
-      "region": "Mesopotamia, Babylon",
+      "title": "汉谟拉比统治：军事扩张与行政整合",
+      "region": "美索不达米亚，巴比伦",
       "coordinates_approx": "32.5352, 44.4275",
       "category": "political",
-      "description": "Hammurabi's reign continued with ongoing military campaigns to expand and consolidate Babylonian control over southern Mesopotamia. His correspondence with other rulers (preserved in cuneiform tablets) shows diplomatic negotiations, military alliances, and conflicts with rival powers such as Rim-Sin of Larsa and Shamshi-Adad of Assyria. The expansion of Babylonian territory and the integration of conquered cities into a unified administrative system were ongoing processes during this period.",
+      "description": "汉谟拉比的统治持续进行军事扩张，以扩大并巩固巴比伦对南美索不达米亚的控制。他与统治者的通信（保存于楔形文字泥板中）显示了外交谈判、军事联盟以及与拉尔萨的瑞姆辛、亚述的沙姆希阿达德等对手的冲突。巴比伦领土的扩张及被征服城市纳入统一行政体系的过程在这一时期持续进行。",
       "key_figures": [
-        "Hammurabi (King of Babylon)",
-        "Rim-Sin (King of Larsa, rival)",
-        "Shamshi-Adad (King of Assyria, rival)"
+        "Hammurabi（巴比伦国王）",
+        "Rim-Sin（拉尔萨国王，对手）",
+        "Shamshi-Adad（亚述国王，对手）"
       ],
       "sources": [
         {
-          "name": "Old Babylonian correspondence and administrative texts (cuneiform tablets)",
+          "name": "古巴比伦通信与行政文本（楔形文字泥板）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Inscriptions of Hammurabi",
+          "name": "汉谟拉比铭文",
           "type": "epigraphic",
           "contemporary": true
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Hammurabi's military campaigns are attested in contemporary texts, but the precise dating of individual campaigns to specific years is uncertain due to chronological debates.",
+      "certainty_note": "汉谟拉比的军事行动在同时代文献中有记载，但由于年代学争议，具体战役的精确年份难以确定。",
       "cross_references": [
         "-1899-001",
         "-1898-001"
@@ -44,26 +44,26 @@
     },
     {
       "id": "-1897-002",
-      "title": "Indus Valley Civilization: continued decline and site abandonment",
-      "region": "Indus Valley, South Asia",
+      "title": "印度河流域文明：持续衰落与遗址废弃",
+      "region": "印度河流域，南亚",
       "coordinates_approx": "27.0, 71.0",
       "category": "environmental",
-      "description": "Archaeological evidence indicates that the Indus Valley Civilization was experiencing accelerating decline during this period. Multiple sites show evidence of abandonment or significant reduction in occupation. The standardized weights, measures, and administrative systems that had characterized the civilization were breaking down. Trade networks that had connected the Indus Valley to Mesopotamia and the Persian Gulf were contracting. The causes remain debated, but environmental stress (particularly changes in river courses and climate), combined with possible social or economic disruption, likely contributed to the civilization's fragmentation.",
+      "description": "考古证据表明，印度河流域文明在这一时期加速衰落。多个遗址显示废弃或居住规模显著减少。曾是该文明特征的标准化度量衡与行政体系正在瓦解。连接印度河流域与美索不达米亚、波斯湾的贸易网络逐渐收缩。原因仍有争议，但环境压力（特别是河流改道与气候变化）结合可能的社会或经济动荡，共同导致了文明的解体。",
       "key_figures": [],
       "sources": [
         {
-          "name": "Archaeological excavations and stratigraphy from Indus sites",
+          "name": "印度河流域遗址的考古发掘与地层学",
           "type": "archaeological",
           "contemporary": false
         },
         {
-          "name": "Paleoclimatic and hydrological studies",
+          "name": "古气候与水文研究",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The decline of the Indus Valley Civilization is well-documented archaeologically, but the precise timing and causation remain subjects of scholarly debate.",
+      "certainty_note": "印度河流域文明的衰落有充分的考古证据，但具体时间与原因仍是学术争论的焦点。",
       "cross_references": [
         "-1899-002",
         "-1898-002"
@@ -71,48 +71,48 @@
     },
     {
       "id": "-1897-003",
-      "title": "Egyptian 12th Dynasty: late reign of Amenemhat III",
-      "region": "Egypt",
+      "title": "埃及第十二王朝：阿蒙涅姆赫特三世统治后期",
+      "region": "埃及",
       "coordinates_approx": "26.0, 31.0",
       "category": "political",
-      "description": "The 12th Dynasty of Egypt continued under the rule of Amenemhat III (if traditional dating is correct, r. c. 1860\u20131814 BCE). His reign was marked by extensive building projects, including temples and the famous Labyrinth at Hawara, as well as administrative reforms. However, by this period, signs of declining central authority were evident. Provincial governors were accumulating power, and the state's ability to control the entire Nile Valley was weakening. The influx of Asiatic peoples into the Delta region was increasing.",
+      "description": "埃及第十二王朝在阿蒙涅姆赫特三世统治下延续（若按传统年代学，约公元前1860–1814年在位）。其统治以大规模建筑项目为标志，包括神庙和著名的哈瓦拉迷宫，以及行政改革。但到这一时期，中央权威衰落的迹象已显现。地方总督权力膨胀，国家控制整个尼罗河谷的能力减弱。亚洲移民涌入三角洲地区的情况日益增多。",
       "key_figures": [
-        "Amenemhat III (Pharaoh of Egypt)"
+        "Amenemhat III（埃及法老）"
       ],
       "sources": [
         {
-          "name": "Egyptian inscriptions and building records",
+          "name": "埃及铭文与建筑记录",
           "type": "epigraphic",
           "contemporary": true
         },
         {
-          "name": "Administrative papyri",
+          "name": "行政纸莎草文献",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The 12th Dynasty's chronology is well-established, but specific events for individual years are rarely recorded in surviving sources.",
+      "certainty_note": "第十二王朝的年代学较为明确，但具体年份的特定事件在现存文献中鲜有记载。",
       "cross_references": [
         "-1899-003",
         "-1898-003"
       ]
     }
   ],
-  "disconfirming_evidence": "No specific events for 1898 BCE are documented in contemporary sources. The broader chronological frameworks remain contested. The Indus Valley Civilization's decline is often attributed to environmental factors, but some scholars argue for social or economic causes. The 'Aryan invasion' hypothesis, once dominant, is now rejected by mainstream scholarship.",
-  "historiographic_note": "For 1898 BCE, the historical record is extremely sparse. No specific events are recorded for this particular year in contemporary sources. Knowledge comes from broader chronological frameworks and archaeological sequences. The record is heavily biased toward literate, urban civilizations in Mesopotamia and Egypt. Large regions of the world remain invisible in the historical record.",
+  "disconfirming_evidence": "公元前1897年无具体事件在同时代文献中记载。更广泛的年代学框架仍存争议。印度河流域文明的衰落常归因于环境因素，但部分学者主张社会或经济原因。曾占主导地位的“雅利安入侵”假说现已被主流学界否定。",
+  "historiographic_note": "对于公元前1897年，历史记录极为稀疏。同时代文献中未记载该特定年份的具体事件。知识来源于更广泛的年代学框架与考古序列。记录严重偏向美索不达米亚和埃及的识字城市文明。世界大部分地区在历史记录中仍不可见。",
   "graph_edges": [
     {
       "from": "-1897-001",
       "to": "-1850-001",
       "relation": "led_to",
-      "note": "Hammurabi's consolidation of power established the Old Babylonian state"
+      "note": "汉谟拉比的权力巩固奠定了古巴比伦国家的基础"
     },
     {
       "from": "-1897-002",
       "to": "-1750-002",
       "relation": "led_to",
-      "note": "Decline of Indus Valley Civilization led to emergence of new cultures in South Asia"
+      "note": "印度河流域文明的衰落导致南亚新文化的兴起"
     }
   ]
 }

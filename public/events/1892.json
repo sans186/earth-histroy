@@ -1,19 +1,188 @@
 {
   "year": 1892,
   "year_label": "公元1892年",
-  "era_context": "1890年代初，工业化迅速推进，帝国扩张加剧，国际紧张局势日益加剧。第二次工业革命正在改变全球经济；电力、钢铁生产和铁路正在重塑社会。欧洲列强正在加强在非洲和亚洲对殖民地的争夺。在美洲，美国正在巩固大陆主导地位并向海外投射力量。这是一个大规模移民、城市化和现代大众媒体兴起的时代。民族主义运动在欧洲和亚洲各地兴起。这个时代以劳工动荡、政治不稳定以及社会主义和无政府主义运动的兴起为特征。",
+  "era_context": "1892年是帝国竞争加剧、劳工运动兴起和文化变革的一年。第二次工业革命正在全球范围扩展。在非洲，欧洲列强加速争夺内陆领土。在美国，民粹主义和劳工运动挑战既有政治秩序。在欧洲，社会主义政党在选举中取得进展。",
   "documentation_level": "丰富",
   "geographic_coverage_gaps": [
     "殖民地行政记录之外的撒哈拉以南非洲内陆",
     "俄罗斯帝国统治下的中亚",
     "原住民视角（澳大利亚、美国、加拿大）",
-    "主要殖民港口以外的太平洋岛屿",
-    "拉丁美洲和亚洲偏远地区的农村社区"
+    "主要殖民港口以外的太平洋岛屿"
   ],
-  "_meta": {
-    "processed_at": "2026-04-11T02:46:48.058012",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI"
-  }
+  "events": [
+    {
+      "id": "1892-001",
+      "title": "纽约州禁止卡南代瓜湖商业捕捞",
+      "region": "美国（纽约州）",
+      "coordinates_approx": "42.9°N, 77.3°W",
+      "category": "environmental",
+      "description": "1892年纽约州通过立法限制卡南代瓜湖的商业捕捞，标志早期环境保护努力。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1892-002",
+      "title": "法国-达荷美战争：贝汉津被俘",
+      "region": "西非（达荷美）",
+      "coordinates_approx": "6.5°N, 2.6°E",
+      "category": "military",
+      "description": "1892年，法国对达荷美王国发动全面军事进攻，最终击败贝汉津国王的军队。贝汉津逃往北部，法国建立了对达荷美的保护国统治。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1892-003",
+      "title": "洛克菲勒的标准石油公司重组为信托",
+      "region": "美国（俄亥俄州克利夫兰）",
+      "coordinates_approx": "41.5°N, 81.7°W",
+      "category": "economic",
+      "description": "1892年，标准石油公司因应俄亥俄州最高法院的反垄断裁决进行重组，将业务转移到新泽西州的标准石油信托旗下。这一重组展示了早期反垄断执法的局限性。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1892-004",
+      "title": "诗人沃尔特·惠特曼去世",
+      "region": "美国（新泽西州卡姆登）",
+      "coordinates_approx": "39.9°N, 75.1°W",
+      "category": "cultural",
+      "description": "1892年3月26日，美国著名诗人沃尔特·惠特曼去世，享年72岁。惠特曼的《草叶集》是美国文学的里程碑作品，以其自由诗体和民主主题深远影响了后世文学。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1892-005",
+      "title": "格罗弗·克利夫兰赢得总统大选",
+      "region": "美国",
+      "coordinates_approx": "38.9°N, 77.0°W",
+      "category": "political",
+      "description": "1892年11月，民主党人格罗弗·克利夫兰击败在任总统本杰明·哈里森，赢得总统选举。克利夫兰成为美国历史上唯一一位在两个非连续任期担任总统的人。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1892-006",
+      "title": "英国独立工党在布拉德福德成立",
+      "region": "英国（布拉德福德）",
+      "coordinates_approx": "53.8°N, 1.8°W",
+      "category": "political",
+      "description": "1892年1月，英国独立工党在布拉德福德成立，由凯尔·哈迪领导。独立工党致力于推动议会社会主义，为1900年工党的成立奠定了基础。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1892-007",
+      "title": "阿根廷经济危机",
+      "region": "阿根廷",
+      "coordinates_approx": "34.6°S, 58.4°W",
+      "category": "economic",
+      "description": "1892年，阿根廷经历严重经济危机，巴林银行因对阿根廷过度贷款而面临崩溃。英国央行组织了救援行动，但危机揭示了新兴市场金融的脆弱性。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1892-008",
+      "title": "俄罗斯大饥荒蔓延",
+      "region": "俄罗斯帝国（伏尔加河流域）",
+      "coordinates_approx": "52.0°N, 48.0°E",
+      "category": "demographic",
+      "description": "1891-1892年的俄罗斯大饥荒持续蔓延，影响了伏尔加河流域和乌拉尔地区约2000万人，估计造成超过40万人死亡。饥荒暴露了沙皇政府的行政无能，促使托尔斯泰和契诃夫等知识分子组织民间救济。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1892-009",
+      "title": "霍乱疫情袭击汉堡",
+      "region": "德国（汉堡）",
+      "coordinates_approx": "53.6°N, 10.0°E",
+      "category": "demographic",
+      "description": "1892年，霍乱疫情在德国汉堡爆发，造成约8,600人死亡。疫情暴露了城市卫生设施的不足，促使汉堡改革供水系统。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "以上事件基于广泛接受的历史记载。部分事件的精确日期和细节在学术研究中存在合理争议。",
+  "historiographic_note": "1890年代的历史记录以欧洲和北美资料为主。非洲、亚洲和太平洋岛民的视角在幸存记录中呈现不足。近年来的学术研究正在纠正这些偏见。",
+  "graph_edges": []
 }

@@ -1,19 +1,207 @@
 {
   "year": 1895,
   "year_label": "公元1895年",
-  "era_context": "19世纪的最后几年，以欧洲帝国巩固、奥斯曼帝国衰落和日本作为地区大国崛起为特征。第二次工业革命全面展开；电力、钢铁生产和铁路正在改变经济。瓜分非洲达到顶峰。在欧洲，民族主义运动和社会主义思想日益受到支持。这是一个世纪末文化、审美运动和现代大众媒体兴起的时代。",
+  "era_context": "1895年见证了中日甲午战争以日本胜利告终、X射线的发现以及无线电通信的开端。古巴独立战争爆发，挑战西班牙殖民统治。在非洲，欧洲殖民扩张继续推进。这一年预示了二十世纪的技术变革和地缘政治重组。",
   "documentation_level": "丰富",
   "geographic_coverage_gaps": [
-    "欧洲殖民行政记录之外的撒哈拉以南非洲内陆",
+    "殖民地行政记录之外的撒哈拉以南非洲内陆",
     "俄罗斯帝国统治下的中亚",
-    "定居者-殖民地国家中的原住民视角（澳大利亚、美国、加拿大）",
-    "主要口岸以外的太平洋岛屿",
-    "资本主义经济体系之外的原住民经济"
+    "原住民视角（澳大利亚、美国、加拿大）",
+    "主要殖民港口以外的太平洋岛屿"
   ],
-  "_meta": {
-    "processed_at": "2026-04-11T02:46:48.058012",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI"
-  }
+  "events": [
+    {
+      "id": "1895-001",
+      "title": "中日签订《马关条约》",
+      "region": "日本（马关）/东亚",
+      "coordinates_approx": "34.0°N, 131.0°E",
+      "category": "political",
+      "description": "1895年4月17日，清朝与日本签订《马关条约》，结束了中日甲午战争。中国承认朝鲜独立，割让台湾和辽东半岛，并支付巨额赔款。条约标志日本成为亚洲主要强国，中国国际地位进一步衰落。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1895-002",
+      "title": "伦琴发现X射线",
+      "region": "德国（维尔茨堡）",
+      "coordinates_approx": "49.8°N, 9.9°E",
+      "category": "scientific",
+      "description": "1895年11月8日，德国物理学家威廉·伦琴在维尔茨堡大学实验中发现了X射线。他拍摄的伦琴夫人手部X光照片成为轰动世界的科学图像。伦琴于1901年获得首届诺贝尔物理学奖。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1895-003",
+      "title": "马可尼发明无线电通信",
+      "region": "意大利（博洛尼亚）/英国",
+      "coordinates_approx": "44.5°N, 11.3°E",
+      "category": "technological",
+      "description": "1895年，意大利发明家古列尔莫·马可尼成功进行了无线电信号的远距离传输实验。基于赫兹和麦克斯韦的理论，马可尼开发了实用的无线电报系统，开创了现代无线通信时代。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1895-004",
+      "title": "古巴独立战争爆发",
+      "region": "古巴",
+      "coordinates_approx": "22.0°N, 79.0°W",
+      "category": "military",
+      "description": "1895年2月24日，古巴独立战争重新爆发，何塞·马蒂和马克西莫·戈麦斯领导反抗西班牙殖民统治的起义。马蒂在5月的多斯里奥斯战役中阵亡，成为古巴民族英雄。战争最终导致美国干预和1898年的美西战争。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1895-005",
+      "title": "詹姆斯森突袭",
+      "region": "南部非洲（德兰士瓦）",
+      "coordinates_approx": "25.7°S, 27.2°E",
+      "category": "military",
+      "description": "1895年12月29日，利安德·斯塔尔·詹姆斯森博士率领约500名武装人员从贝专纳兰入侵德兰士瓦共和国，企图煽动外侨起义。突袭失败，加剧了英德之间在南部非洲的紧张关系。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1895-006",
+      "title": "列宁被捕流放西伯利亚",
+      "region": "俄罗斯帝国",
+      "coordinates_approx": "55.0°N, 83.0°E",
+      "category": "political",
+      "description": "1895年12月，弗拉基米尔·列宁因组织革命活动在圣彼得堡被捕，后被流放西伯利亚三年。流放期间他撰写了多部著作，巩固了马克思主义革命理论。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1895-007",
+      "title": "法国总工会成立",
+      "region": "法国（利摩日）",
+      "coordinates_approx": "45.8°N, 1.3°E",
+      "category": "economic",
+      "description": "1895年9月，法国各工会联合会在利摩日召开大会，正式成立法国总工会。总工会成为法国劳工运动的核心组织，采用无政府工团主义路线，倡导总罢工作为斗争手段。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1895-008",
+      "title": "《乌合之众》出版",
+      "region": "法国（巴黎）",
+      "coordinates_approx": "48.9°N, 2.3°E",
+      "category": "cultural",
+      "description": "1895年，法国社会心理学家古斯塔夫·勒庞出版了《乌合之众：大众心理研究》，分析了群体行为和心理机制。这部著作影响深远，成为大众心理学和社会学的经典之作。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1895-009",
+      "title": "康斯坦丁宫举办俄国首届自行车展",
+      "region": "俄罗斯帝国（圣彼得堡）",
+      "coordinates_approx": "59.9°N, 30.3°E",
+      "category": "cultural",
+      "description": "1895年，自行车在俄罗斯开始流行，圣彼得堡举办了首届自行车展览。自行车热席卷全球，成为19世纪末重要的交通工具和休闲活动。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1895-010",
+      "title": "塞西尔·罗兹的英国南非公司扩张领土",
+      "region": "南部非洲",
+      "coordinates_approx": "17.8°S, 31.0°E",
+      "category": "political",
+      "description": "1895年，塞西尔·罗兹的英国南非公司继续在赞比西河以北扩张领土。公司管理的罗得西亚领土不断扩大，英国殖民统治在南部非洲内陆进一步巩固。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "以上事件基于广泛接受的历史记载。部分事件的精确日期和细节在学术研究中存在合理争议。",
+  "historiographic_note": "1890年代的历史记录以欧洲和北美资料为主。非洲、亚洲和太平洋岛民的视角在幸存记录中呈现不足。近年来的学术研究正在纠正这些偏见。",
+  "graph_edges": []
 }

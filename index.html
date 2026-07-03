@@ -10,6 +10,19 @@
 
     #cesiumContainer { width: 100%; height: calc(100% - 200px); }
 
+    #map-2d-container {
+      position: fixed; top: 0; left: 0; width: 100%;
+      height: calc(100% - 200px); display: none; z-index: 2;
+    }
+    #map-2d-container .maplibregl-ctrl-attrib { font-size: 10px; background: rgba(0,0,0,0.5); color: #888; }
+    #map-2d-container .maplibregl-ctrl-attrib a { color: #8ab4f8; }
+    .maplibregl-popup-content {
+      background: rgba(10,10,26,0.92) !important; color: #ddd !important;
+      border: 1px solid #4a60af !important; border-radius: 8px !important;
+      padding: 10px 14px !important; font: 13px 'Microsoft YaHei',sans-serif !important;
+    }
+    .maplibregl-popup-tip { border-top-color: rgba(10,10,26,0.92) !important; }
+
     /* ── Filter Bar ── */
     #filter-bar {
       position: fixed; top: 10px; left: 50%; transform: translateX(-50%);
@@ -43,15 +56,47 @@
     }
     #year-display {
       color: #ffd700; font-size: 44px; font-weight: bold;
-      letter-spacing: 3px; margin-bottom: 6px;
+      letter-spacing: 3px;
       text-shadow: 0 0 20px rgba(255,215,0,0.5);
       user-select: none; font-family: 'Georgia', 'Microsoft YaHei', serif;
     }
+    #era-display {
+      display: flex; align-items: center; gap: 10px; margin-bottom: 2px;
+    }
+    #era-name {
+      color: #fff; font-size: 15px; font-weight: 600; letter-spacing: 1px;
+      padding: 2px 12px; border-radius: 10px; user-select: none;
+    }
+    #era-range {
+      color: #999; font-size: 12px; user-select: none;
+    }
     #event-count {
-      color: #777; font-size: 12px; margin-bottom: 10px; user-select: none;
+      color: #777; font-size: 12px; margin-bottom: 6px; user-select: none;
     }
     #timeline-controls {
       display: flex; align-items: center; gap: 10px; width: 100%; max-width: 900px;
+    }
+    #timeline-controls .tl-range-label {
+      color: #888; font-size: 11px; white-space: nowrap; user-select: none;
+    }
+
+    /* ── Era Quick-Nav Bar ── */
+    #era-bar {
+      display: flex; gap: 4px; width: 100%; max-width: 900px;
+      margin-top: 6px; flex-wrap: nowrap; overflow-x: auto;
+      scrollbar-width: none; justify-content: center;
+    }
+    #era-bar::-webkit-scrollbar { display: none; }
+    .era-chip {
+      background: #1a1a3e; border: 1px solid #3a3a5a; color: #999;
+      padding: 3px 10px; border-radius: 12px; cursor: pointer;
+      font-size: 11px; transition: all 0.2s; white-space: nowrap;
+      flex-shrink: 0; user-select: none;
+    }
+    .era-chip:hover { background: #2a2a5a; color: #ddd; }
+    .era-chip.active {
+      color: #fff; border-color: currentColor;
+      box-shadow: 0 0 8px rgba(255,215,0,0.3);
     }
     #timeline-controls .timeline-btn {
       background: #2a2a4a; border: 1px solid #4a4a7a; color: #ccc;
@@ -174,7 +219,7 @@
   <div id="loading-overlay">
     <div style="text-align:center;">
       <div class="loader"></div>
-      <div class="loading-text">加载历史数据中...</div>
+      <div class="loading-text" id="loading-text">加载历史数据中...</div>
     </div>
   </div>
 
@@ -187,10 +232,15 @@
   </div>
 
   <div id="cesiumContainer"></div>
+  <div id="map-2d-container"></div>
   <div id="globe-year-label"></div>
   <div id="filter-bar"></div>
   <div id="timeline-panel">
     <div id="year-display">2025 AD</div>
+    <div id="era-display">
+      <span id="era-name">当代</span>
+      <span id="era-range">1949 — 2025</span>
+    </div>
     <div id="event-count"></div>
     <div id="timeline-controls">
       <button class="timeline-btn" id="btn-step-back" title="后退">◀</button>
@@ -202,10 +252,11 @@
         <button class="step-opt" data-step="5">5</button>
         <button class="step-opt" data-step="10">10</button>
       </span>
-      <input type="range" id="timeline-slider" min="-3100" max="2025" value="2025" step="1">
-      <span style="color:#888;font-size:11px;white-space:nowrap;">3100 BC</span>
-      <span style="color:#888;font-size:11px;white-space:nowrap;">2025 AD</span>
+      <input type="range" id="timeline-slider" min="0" max="10000" value="10000" step="1">
+      <span class="tl-range-label">3100 BC</span>
+      <span class="tl-range-label">2025 AD</span>
     </div>
+    <div id="era-bar"></div>
   </div>
   <div id="event-card">
     <div class="card-header">

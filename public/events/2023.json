@@ -1,72 +1,72 @@
 {
   "year": 2023,
-  "year_label": "2023 CE",
-  "era_context": "The early 2020s were defined by the aftermath of the COVID-19 pandemic, escalating great-power competition between the United States and China, the ongoing Russian invasion of Ukraine reshaping European security architecture, and the rapid emergence of large language models as a transformative technology. Climate change accelerated visibly with record global temperatures, while political instability spread across the Sahel and the Middle East erupted into a new major conflict.",
-  "documentation_level": "rich",
+  "year_label": "2023年",
+  "era_context": "2020年代初期以新冠疫情余波、中美大国竞争加剧、俄乌战争重塑欧洲安全架构以及大型语言模型作为变革性技术的迅速崛起为特征。气候变化明显加速，全球气温创下纪录，同时萨赫勒地区政治不稳定蔓延，中东爆发新的重大冲突。",
+  "documentation_level": "丰富",
   "geographic_coverage_gaps": [
-    "Central Asia (limited coverage of Tajikistan, Kyrgyzstan political developments)",
-    "Pacific Island nations (climate adaptation efforts underreported)",
-    "Central African Republic and eastern DRC conflict dynamics",
-    "Internal Chinese political and economic developments beyond headline events"
+    "中亚（对塔吉克斯坦、吉尔吉斯斯坦政治发展报道有限）",
+    "太平洋岛国（气候适应努力报道不足）",
+    "中非共和国和刚果民主共和国东部冲突动态",
+    "中国国内政治经济发展（除头条事件外）"
   ],
   "events": [
     {
       "id": "2023-001",
-      "title": "Turkey\u2013Syria earthquake kills over 59,000",
-      "region": "Turkey (T\u00fcrkiye) and Syria",
-      "coordinates_approx": "37.2\u00b0N, 37.0\u00b0E",
+      "title": "土耳其-叙利亚地震造成超过59,000人死亡",
+      "region": "土耳其和叙利亚",
+      "coordinates_approx": "37.2°N, 37.0°E",
       "category": "environmental",
-      "description": "On 6 February, a magnitude 7.8 earthquake struck southeastern Turkey and northern Syria, followed hours later by a magnitude 7.7 aftershock. The combined death toll exceeded 59,000, with over 50,000 dead in Turkey alone and at least 8,400 in Syria. Entire cities were flattened, displacing millions. The disaster exposed decades of lax building code enforcement in Turkey and highlighted the near-impossibility of delivering international aid to opposition-held northwestern Syria due to the ongoing civil war. It was the deadliest natural disaster globally since the 2010 Haiti earthquake.",
+      "description": "2月6日，土耳其东南部和叙利亚北部发生7.8级地震，数小时后发生7.7级余震。总死亡人数超过59,000人，仅土耳其就有超过50,000人死亡，叙利亚至少8,400人。整座城市被夷为平地，数百万人流离失所。这场灾难暴露了土耳其数十年来建筑法规执行不严的问题，并凸显了由于持续内战，向反对派控制的叙利亚西北部运送国际援助几乎不可能。这是自2010年海地地震以来全球最致命的自然灾害。",
       "key_figures": [
-        "Recep Tayyip Erdo\u011fan (President of Turkey)",
-        "Bashar al-Assad (President of Syria)"
+        "Recep Tayyip Erdoğan（土耳其总统）",
+        "Bashar al-Assad（叙利亚总统）"
       ],
       "sources": [
         {
-          "name": "USGS earthquake hazard reports and seismological data",
+          "name": "美国地质调查局地震危害报告和地震学数据",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "UN OCHA situation reports on Turkey-Syria earthquake response",
+          "name": "联合国人道主义事务协调厅关于土耳其-叙利亚地震响应的形势报告",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Turkish Disaster and Emergency Management Authority (AFAD) official casualty reports",
+          "name": "土耳其灾害与应急管理局官方伤亡报告",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented by seismological agencies, governments, and international organizations in real time. Final death tolls may have minor revisions but order of magnitude is firmly established.",
+      "certainty_note": "地震机构、政府和国际组织实时广泛记录。最终死亡人数可能有微小修正，但数量级已牢固确立。",
       "cross_references": []
     },
     {
       "id": "2023-002",
-      "title": "Finland joins NATO",
-      "region": "Finland / North Atlantic",
-      "coordinates_approx": "60.2\u00b0N, 24.9\u00b0E",
+      "title": "芬兰加入北约",
+      "region": "芬兰 / 北大西洋",
+      "coordinates_approx": "60.2°N, 24.9°E",
       "category": "political",
-      "description": "On 4 April, Finland officially became the 31st member of NATO, ending over seven decades of military non-alignment. Finland's application, submitted in May 2022 alongside Sweden's, was a direct response to Russia's full-scale invasion of Ukraine. Turkey and Hungary had delayed Sweden's accession but did not block Finland's. The accession roughly doubled NATO's land border with Russia and fundamentally altered the Baltic security landscape. Finland brought a well-equipped military of 280,000 wartime strength and extensive Arctic warfare capability to the alliance.",
+      "description": "4月4日，芬兰正式成为北约第31个成员国，结束了七十多年的军事不结盟状态。芬兰于2022年5月与瑞典一同提交申请，这是对俄罗斯全面入侵乌克兰的直接回应。土耳其和匈牙利推迟了瑞典的加入，但未阻止芬兰。芬兰的加入使北约与俄罗斯的陆地边界大约增加了一倍，并从根本上改变了波罗的海的安全格局。芬兰为联盟带来了28万战时兵力的装备精良军队和广泛的北极作战能力。",
       "key_figures": [
-        "Sauli Niinist\u00f6 (President of Finland)",
-        "Jens Stoltenberg (NATO Secretary General)"
+        "Sauli Niinistö（芬兰总统）",
+        "Jens Stoltenberg（北约秘书长）"
       ],
       "sources": [
         {
-          "name": "NATO accession protocol and official communiqu\u00e9s",
+          "name": "北约加入议定书和官方公报",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Finnish government press releases and parliamentary ratification records",
+          "name": "芬兰政府新闻稿和议会批准记录",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official treaty accession with full documentary record.",
+      "certainty_note": "官方条约加入，有完整的文件记录。",
       "cross_references": [
         "2022-xxx (Finland and Sweden apply to NATO)",
         "2024-xxx (Sweden joins NATO)"
@@ -74,247 +74,247 @@
     },
     {
       "id": "2023-003",
-      "title": "Battle of Bakhmut and continued Russia-Ukraine war",
-      "region": "Ukraine",
-      "coordinates_approx": "48.6\u00b0N, 38.0\u00b0E",
+      "title": "巴赫穆特战役与俄乌战争持续",
+      "region": "乌克兰",
+      "coordinates_approx": "48.6°N, 38.0°E",
       "category": "military",
-      "description": "The longest and bloodiest battle of the Russo-Ukrainian war culminated in Russian forces, spearheaded by the Wagner Group private military company, capturing the ruined city of Bakhmut in May after approximately ten months of grinding urban combat. Casualties on both sides were enormous, with estimates ranging from tens of thousands killed and wounded. The strategic value of Bakhmut was debated \u2014 Ukraine argued the defense attrited irreplaceable Russian forces, while critics questioned the cost. Ukraine subsequently launched a long-anticipated counteroffensive in June, which made limited territorial gains in Zaporizhzhia and Donetsk oblasts against dense Russian defensive lines through the autumn.",
+      "description": "俄乌战争中最漫长、最血腥的战役以俄罗斯军队（由瓦格纳集团私人军事公司带头）于5月占领被摧毁的巴赫穆特市而告终，这场城市攻坚战持续了大约十个月。双方伤亡惨重，估计有数万人死伤。巴赫穆特的战略价值存在争议——乌克兰认为防御战消耗了俄罗斯不可替代的部队，而批评者则质疑其代价。乌克兰随后于6月发动了期待已久的反攻，在扎波罗热和顿涅茨克州对抗俄罗斯密集防线，至秋季仅取得有限的领土收益。",
       "key_figures": [
-        "Volodymyr Zelenskyy (President of Ukraine)",
-        "Oleksandr Syrskyi (Ukrainian ground forces commander)",
-        "Yevgeny Prigozhin (Wagner Group leader)",
-        "Valery Gerasimov (Russian Chief of General Staff)"
+        "Volodymyr Zelenskyy（乌克兰总统）",
+        "Oleksandr Syrskyi（乌克兰地面部队指挥官）",
+        "Yevgeny Prigozhin（瓦格纳集团领导人）",
+        "Valery Gerasimov（俄罗斯总参谋长）"
       ],
       "sources": [
         {
-          "name": "Institute for the Study of War (ISW) daily campaign assessments",
+          "name": "战争研究所每日战役评估",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Ukrainian General Staff operational reports",
+          "name": "乌克兰总参谋部作战报告",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "OSINT analysis (satellite imagery, geolocated footage) from Bellingcat, DeepState, and others",
+          "name": "来自Bellingcat、DeepState等的开源情报分析（卫星图像、地理定位视频）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented through official reports, satellite imagery, and open-source intelligence. Precise casualty figures remain uncertain due to wartime censorship on both sides.",
+      "certainty_note": "通过官方报告、卫星图像和开源情报广泛记录。由于双方战时审查，确切伤亡数字仍不确定。",
       "cross_references": [
         "2022-xxx (Russian invasion of Ukraine)"
       ]
     },
     {
       "id": "2023-004",
-      "title": "Wagner Group mutiny",
-      "region": "Russia",
-      "coordinates_approx": "51.7\u00b0N, 39.2\u00b0E",
+      "title": "瓦格纳集团兵变",
+      "region": "俄罗斯",
+      "coordinates_approx": "51.7°N, 39.2°E",
       "category": "military",
-      "description": "On 23\u201324 June, Wagner Group leader Yevgeny Prigozhin launched an armed mutiny against Russian military leadership, seizing the Southern Military District headquarters in Rostov-on-Don and sending a column toward Moscow. The column advanced to within approximately 200 km of the capital before Prigozhin agreed to stand down following mediation by Belarusian President Alexander Lukashenko. The mutiny \u2014 the most serious challenge to Kremlin authority in decades \u2014 exposed deep fractures between the regular military and private military companies. Prigozhin and senior Wagner commanders were killed in a plane crash on 23 August, widely attributed to Russian state action.",
+      "description": "6月23日至24日，瓦格纳集团领导人叶夫根尼·普里戈任发动针对俄罗斯军事领导层的武装兵变，占领了顿河畔罗斯托夫的南部军区总部，并派遣一支纵队向莫斯科进发。该纵队推进至距首都约200公里处，普里戈任在白俄罗斯总统亚历山大·卢卡申科的调解下同意停止行动。这场兵变——数十年来对克里姆林宫权威最严重的挑战——暴露了正规军与私人军事公司之间的深刻裂痕。普里戈任和瓦格纳高级指挥官于8月23日在一场飞机失事中丧生，广泛认为系俄罗斯国家行为所致。",
       "key_figures": [
-        "Yevgeny Prigozhin (Wagner Group leader)",
-        "Vladimir Putin (President of Russia)",
-        "Alexander Lukashenko (President of Belarus)",
-        "Sergei Shoigu (Russian Defence Minister)"
+        "Yevgeny Prigozhin（瓦格纳集团领导人）",
+        "Vladimir Putin（俄罗斯总统）",
+        "Alexander Lukashenko（白俄罗斯总统）",
+        "Sergei Shoigu（俄罗斯国防部长）"
       ],
       "sources": [
         {
-          "name": "Prigozhin's public statements and Telegram posts",
+          "name": "普里戈任的公开声明和Telegram帖子",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Russian and international media reporting (Reuters, AP, TASS)",
+          "name": "俄罗斯和国际媒体报道（路透社、美联社、塔斯社）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Flight-tracking and crash investigation data for Prigozhin's aircraft",
+          "name": "普里戈任飞机的飞行跟踪和坠机调查数据",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The mutiny itself is confirmed. Attribution of Prigozhin's subsequent death is probable (no independent investigation permitted by Russian authorities) but widely accepted by Western intelligence agencies.",
+      "certainty_note": "兵变本身已确认。普里戈任随后死亡的归因是可能的（俄罗斯当局不允许独立调查），但被西方情报机构广泛接受。",
       "cross_references": [
         "2023-003"
       ]
     },
     {
       "id": "2023-005",
-      "title": "Sudan civil war erupts",
-      "region": "Sudan",
-      "coordinates_approx": "15.6\u00b0N, 32.5\u00b0E",
+      "title": "苏丹内战爆发",
+      "region": "苏丹",
+      "coordinates_approx": "15.6°N, 32.5°E",
       "category": "military",
-      "description": "On 15 April, armed conflict broke out in Khartoum between the Sudanese Armed Forces (SAF) under General Abdel Fattah al-Burhan and the Rapid Support Forces (RSF) paramilitary under General Mohamed Hamdan Dagalo ('Hemedti'). The two had jointly led the 2021 coup but fell out over integration of the RSF into the regular military as part of a planned transition to civilian rule. Fighting rapidly spread across the country, devastating Khartoum and triggering ethnic mass atrocities in Darfur. By year's end, the war had displaced over 7 million people internally and driven over 1.5 million as refugees into neighbouring states, creating one of the world's worst humanitarian crises.",
+      "description": "4月15日，喀土穆爆发武装冲突，交战双方为阿卜杜勒·法塔赫·布尔汉将军领导的苏丹武装部队和穆罕默德·哈姆丹·达加洛（“赫梅蒂”）将军领导的快速支援部队准军事组织。两者曾共同领导2021年政变，但在将快速支援部队纳入正规军作为向文官统治过渡计划的一部分问题上产生分歧。战斗迅速蔓延至全国，摧毁了喀土穆，并在达尔富尔引发了种族大规模暴行。到年底，战争已导致超过700万人在国内流离失所，超过150万人作为难民逃往邻国，造成了世界上最严重的人道主义危机之一。",
       "key_figures": [
-        "Abdel Fattah al-Burhan (SAF commander, de facto head of state)",
-        "Mohamed Hamdan Dagalo 'Hemedti' (RSF commander)"
+        "Abdel Fattah al-Burhan（苏丹武装部队指挥官、事实上的国家元首）",
+        "Mohamed Hamdan Dagalo 'Hemedti'（快速支援部队指挥官）"
       ],
       "sources": [
         {
-          "name": "UN OCHA Sudan crisis reports and displacement figures",
+          "name": "联合国人道主义事务协调厅苏丹危机报告和流离失所数据",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "International Crisis Group reporting on Sudan",
+          "name": "国际危机组织关于苏丹的报告",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "M\u00e9decins Sans Fronti\u00e8res field reports from Darfur and Khartoum",
+          "name": "无国界医生组织来自达尔富尔和喀土穆的实地报告",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Fully documented by international organizations, journalists, and satellite imagery. Precise casualty figures remain uncertain due to collapsed state infrastructure.",
+      "certainty_note": "国际组织、记者和卫星图像充分记录。由于国家基础设施崩溃，确切伤亡数字仍不确定。",
       "cross_references": [
         "2021-xxx (Sudan military coup)"
       ]
     },
     {
       "id": "2023-006",
-      "title": "Hamas attack on Israel and start of Gaza war",
-      "region": "Israel and Palestinian Territories (Gaza Strip)",
-      "coordinates_approx": "31.4\u00b0N, 34.4\u00b0E",
+      "title": "哈马斯袭击以色列与加沙战争开始",
+      "region": "以色列和巴勒斯坦领土（加沙地带）",
+      "coordinates_approx": "31.4°N, 34.4°E",
       "category": "military",
-      "description": "On 7 October, Hamas and affiliated Palestinian militant groups launched a large-scale surprise attack from the Gaza Strip into southern Israel, breaching the border barrier and attacking military bases, kibbutzim, and a music festival. Approximately 1,200 people were killed in Israel \u2014 the deadliest single day for Jewish people since the Holocaust \u2014 and around 250 were taken hostage into Gaza. Israel declared war and launched a massive aerial bombardment campaign followed by a ground invasion of Gaza. By year's end, the Gaza Health Ministry reported over 20,000 Palestinian deaths, with vast destruction of civilian infrastructure. The conflict triggered a broader regional escalation, including Houthi attacks on Red Sea shipping and exchanges of fire between Israel and Hezbollah along the Lebanese border.",
+      "description": "10月7日，哈马斯及其附属巴勒斯坦武装团体从加沙地带对以色列南部发动大规模突然袭击，突破边境屏障，袭击军事基地、基布兹和一个音乐节。以色列约有1,200人被杀——这是自大屠杀以来犹太人死亡最惨重的一天——约250人被劫持到加沙作为人质。以色列宣战并发动大规模空袭，随后对加沙进行地面入侵。到年底，加沙卫生部报告超过20,000名巴勒斯坦人死亡，民用基础设施遭到巨大破坏。冲突引发了更广泛的地区升级，包括胡塞武装对红海航运的袭击以及以色列与真主党在黎巴嫩边境的交火。",
       "key_figures": [
-        "Yahya Sinwar (Hamas leader in Gaza)",
-        "Benjamin Netanyahu (Prime Minister of Israel)",
-        "Yoav Gallant (Israeli Defence Minister)",
-        "Mohammed Deif (Hamas military commander)"
+        "Yahya Sinwar（哈马斯加沙领导人）",
+        "Benjamin Netanyahu（以色列总理）",
+        "Yoav Gallant（以色列国防部长）",
+        "Mohammed Deif（哈马斯军事指挥官）"
       ],
       "sources": [
         {
-          "name": "Israeli government and IDF official statements and casualty reports",
+          "name": "以色列政府和以色列国防军官方声明及伤亡报告",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Gaza Ministry of Health casualty reports (independently corroborated by WHO and international media)",
+          "name": "加沙卫生部伤亡报告（经世界卫生组织和国际媒体独立证实）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "UN fact-finding and OCHA reporting",
+          "name": "联合国实况调查和人道主义事务协调厅报告",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporaneous video and photographic evidence from both sides",
+          "name": "双方同时期的视频和照片证据",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The attack and subsequent war are extensively documented. Precise casualty figures, particularly in Gaza, are subject to ongoing debate regarding combatant/civilian ratios, but overall magnitude is corroborated by multiple independent sources.",
+      "certainty_note": "袭击及随后的战争有广泛记录。确切的伤亡数字，特别是加沙地带，关于战斗人员/平民比例的争论仍在继续，但总体规模已得到多个独立来源的证实。",
       "cross_references": [
         "2024-xxx (continuation of Gaza war)"
       ]
     },
     {
       "id": "2023-007",
-      "title": "GPT-4 released and AI regulatory efforts accelerate",
-      "region": "Global (United States-led)",
-      "coordinates_approx": "37.8\u00b0N, 122.4\u00b0W",
+      "title": "GPT-4发布与人工智能监管努力加速",
+      "region": "全球（美国主导）",
+      "coordinates_approx": "37.8°N, 122.4°W",
       "category": "technological",
-      "description": "OpenAI released GPT-4 on 14 March, a multimodal large language model demonstrating significant capability improvements over its predecessor. The release intensified a global AI race, with Google launching Bard (later Gemini), Meta releasing LLaMA open-weight models, and Anthropic expanding Claude. Generative AI became the dominant technology narrative, with massive corporate investment and widespread public adoption. Governments responded with regulatory initiatives: the EU advanced the AI Act toward final passage, the UK hosted the Bletchley Park AI Safety Summit in November, and US President Biden issued an executive order on AI safety in October. OpenAI itself underwent a dramatic leadership crisis in November when the board briefly fired CEO Sam Altman before reinstating him days later.",
+      "description": "OpenAI于3月14日发布了GPT-4，这是一个多模态大型语言模型，其能力较前代有显著提升。此次发布加剧了全球人工智能竞赛：谷歌推出了Bard（后更名为Gemini），Meta发布了LLaMA开放权重模型，Anthropic扩展了Claude。生成式人工智能成为主导的技术叙事，伴随着大规模企业投资和广泛的公众采用。各国政府以监管举措回应：欧盟推动《人工智能法案》走向最终通过，英国于11月举办了布莱切利公园人工智能安全峰会，美国总统拜登于10月发布了关于人工智能安全的行政命令。OpenAI本身在11月经历了一场戏剧性的领导层危机，董事会短暂解雇了首席执行官萨姆·奥尔特曼，几天后又恢复其职务。",
       "key_figures": [
-        "Sam Altman (OpenAI CEO)",
-        "Demis Hassabis (Google DeepMind CEO)",
-        "Dario Amodei (Anthropic CEO)",
-        "Rishi Sunak (UK Prime Minister, AI summit host)"
+        "Sam Altman（OpenAI首席执行官）",
+        "Demis Hassabis（谷歌DeepMind首席执行官）",
+        "Dario Amodei（Anthropic首席执行官）",
+        "Rishi Sunak（英国首相、人工智能峰会主办方）"
       ],
       "sources": [
         {
-          "name": "OpenAI GPT-4 technical report (March 2023)",
+          "name": "OpenAI GPT-4技术报告（2023年3月）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Executive Order 14110 on Safe, Secure, and Trustworthy AI (30 October 2023)",
+          "name": "关于安全、可靠和可信赖人工智能的第14110号行政命令（2023年10月30日）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Bletchley Declaration on AI Safety (1 November 2023)",
+          "name": "布莱切利人工智能安全宣言（2023年11月1日）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Product launches and policy actions are fully documented. Long-term significance of specific models versus the broader trend is a matter of ongoing assessment.",
+      "certainty_note": "产品发布和政策行动均有完整记录。特定模型相对于更广泛趋势的长期意义仍在持续评估中。",
       "cross_references": [
         "2022-xxx (ChatGPT launch, November 2022)"
       ]
     },
     {
       "id": "2023-008",
-      "title": "India becomes world's most populous country",
-      "region": "India",
-      "coordinates_approx": "20.6\u00b0N, 79.0\u00b0E",
+      "title": "印度成为世界第一人口大国",
+      "region": "印度",
+      "coordinates_approx": "20.6°N, 79.0°E",
       "category": "demographic",
-      "description": "In April, the United Nations Population Division estimated that India's population surpassed China's to become the world's most populous country, with approximately 1.4286 billion people versus China's 1.4257 billion. This demographic milestone reflected decades of diverging fertility trends: China's population had begun declining for the first time in 2022 following decades of the one-child policy, while India's continued to grow, though its fertility rate had also fallen below replacement level. The shift carried significant implications for global labour markets, economic growth patterns, and geopolitical weight.",
+      "description": "4月，联合国人口司估计印度人口已超过中国，成为世界第一人口大国，约为14.286亿，而中国为14.257亿。这一人口里程碑反映了数十年来生育率趋势的分化：中国人口在2022年因数十年的独生子女政策首次开始下降，而印度人口继续增长，尽管其生育率也已降至更替水平以下。这一转变对全球劳动力市场、经济增长模式和地缘政治权重具有重大影响。",
       "key_figures": [
-        "Narendra Modi (Prime Minister of India)"
+        "Narendra Modi（印度总理）"
       ],
       "sources": [
         {
-          "name": "United Nations World Population Prospects 2022 (revised estimates, April 2023 milestone)",
+          "name": "联合国《世界人口展望2022》（修订估计，2023年4月里程碑）",
           "type": "historiographic_consensus",
           "contemporary": true
         },
         {
-          "name": "China National Bureau of Statistics 2022 census data (reporting population decline)",
+          "name": "中国国家统计局2022年人口普查数据（报告人口下降）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Neither country conducts a real-time census; the crossover date is a UN estimate based on demographic modelling. The fact of India surpassing China is near-certain; the precise month is approximate.",
+      "certainty_note": "两国均未进行实时人口普查；交叉日期是基于人口统计模型的联合国估计。印度超过中国的事实几乎确定；具体月份是近似的。",
       "cross_references": [
         "2022-xxx (China's population begins declining)"
       ]
     },
     {
       "id": "2023-009",
-      "title": "Sahel coup wave: Niger and Gabon",
-      "region": "West and Central Africa (Niger, Gabon)",
-      "coordinates_approx": "13.5\u00b0N, 2.1\u00b0E",
+      "title": "萨赫勒政变浪潮：尼日尔和加蓬",
+      "region": "西非和中非（尼日尔、加蓬）",
+      "coordinates_approx": "13.5°N, 2.1°E",
       "category": "political",
-      "description": "On 26 July, Niger's presidential guard deposed President Mohamed Bazoum, extending a wave of military coups across the Sahel. The junta, led by General Abdourahamane Tchiani, ordered French troops to withdraw, ending France's last significant military presence in the Sahel anti-jihadist campaign. ECOWAS threatened military intervention but ultimately did not follow through. On 30 August, military officers in Gabon overthrew the Bongo dynasty that had ruled for 56 years, deposing President Ali Bongo Ondimba. These coups, following earlier ones in Mali (2020, 2021), Guinea (2021), Burkina Faso (2022), and Chad, signalled a broader collapse of post-colonial democratic governance frameworks in Francophone Africa and the effective end of French military influence in the region.",
+      "description": "7月26日，尼日尔总统卫队推翻了总统穆罕默德·巴祖姆，延续了萨赫勒地区的军事政变浪潮。由阿卜杜拉赫曼·奇亚尼将军领导的军政府命令法国军队撤出，结束了法国在萨赫勒反圣战运动中最后的重要军事存在。西非国家经济共同体威胁进行军事干预，但最终未付诸实施。8月30日，加蓬军官推翻了统治该国56年的邦戈王朝，罢免了总统阿里·邦戈·翁丁巴。这些政变——继马里（2020年、2021年）、几内亚（2021年）、布基纳法索（2022年）和乍得之前的政变之后——标志着法语非洲后殖民民主治理框架的广泛崩溃以及法国在该地区军事影响力的实际终结。",
       "key_figures": [
-        "Mohamed Bazoum (deposed President of Niger)",
-        "Abdourahamane Tchiani (Niger junta leader)",
-        "Ali Bongo Ondimba (deposed President of Gabon)",
-        "Brice Oligui Nguema (Gabon transitional leader)"
+        "Mohamed Bazoum（被罢免的尼日尔总统）",
+        "Abdourahamane Tchiani（尼日尔军政府领导人）",
+        "Ali Bongo Ondimba（被罢免的加蓬总统）",
+        "Brice Oligui Nguema（加蓬过渡期领导人）"
       ],
       "sources": [
         {
-          "name": "ECOWAS communiqu\u00e9s and emergency summit declarations",
+          "name": "西非国家经济共同体公报和紧急峰会宣言",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "French Ministry of Defence statements on troop withdrawal from Niger",
+          "name": "法国国防部关于从尼日尔撤军的声明",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "International Crisis Group Sahel reports",
+          "name": "国际危机组织萨赫勒报告",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Coups were broadcast on state television and acknowledged by all parties. Fully documented.",
+      "certainty_note": "政变在国家电视台上播出，并得到各方承认。有完整记录。",
       "cross_references": [
         "2022-xxx (Burkina Faso coup)",
         "2021-xxx (Guinea and Mali coups)"
@@ -322,94 +322,94 @@
     },
     {
       "id": "2023-010",
-      "title": "India's Chandrayaan-3 lands on lunar south pole",
-      "region": "India (space)",
-      "coordinates_approx": "69.4\u00b0S, 32.3\u00b0E (lunar surface)",
+      "title": "印度月船三号在月球南极着陆",
+      "region": "印度（太空）",
+      "coordinates_approx": "69.4°S, 32.3°E (lunar surface)",
       "category": "scientific",
-      "description": "On 23 August, India's Chandrayaan-3 mission successfully soft-landed on the Moon near the south pole, making India the fourth country to achieve a lunar soft landing (after the Soviet Union, the United States, and China) and the first to land near the lunar south pole. The Vikram lander and Pragyan rover conducted surface experiments for approximately two weeks before the lunar night rendered them inoperative. The success came days after Russia's Luna-25 mission crashed on the lunar surface, underscoring India's growing space capabilities and the broader renewed international interest in lunar exploration, particularly regarding south polar water ice deposits.",
+      "description": "8月23日，印度的月船三号任务成功在月球南极附近软着陆，使印度成为第四个实现月球软着陆的国家（继苏联、美国和中国之后），也是第一个在月球南极附近着陆的国家。维克拉姆着陆器和普拉吉安月球车进行了大约两周的表面实验，之后月夜使其停止运行。此次成功发生在俄罗斯的月球25号任务在月球表面坠毁几天后，突显了印度日益增长的太空能力以及国际上对月球探索（特别是关于南极水冰沉积物）重新燃起的更广泛兴趣。",
       "key_figures": [
-        "S. Somanath (ISRO Chairman)",
-        "Narendra Modi (Prime Minister of India)"
+        "S. Somanath（印度空间研究组织主席）",
+        "Narendra Modi（印度总理）"
       ],
       "sources": [
         {
-          "name": "ISRO mission telemetry and official press releases",
+          "name": "印度空间研究组织任务遥测数据和官方新闻稿",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Chandrayaan-3 scientific instrument data publications",
+          "name": "月船三号科学仪器数据出版物",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Landing confirmed by telemetry, imagery, and international tracking.",
+      "certainty_note": "通过遥测、图像和国际跟踪确认着陆。",
       "cross_references": [
         "2019-xxx (Chandrayaan-2 landing failure)"
       ]
     },
     {
       "id": "2023-011",
-      "title": "Maui wildfire devastates Lahaina",
-      "region": "United States (Hawaii)",
-      "coordinates_approx": "20.9\u00b0N, 156.7\u00b0W",
+      "title": "毛伊岛野火摧毁拉海纳",
+      "region": "美国（夏威夷）",
+      "coordinates_approx": "20.9°N, 156.7°W",
       "category": "environmental",
-      "description": "On 8 August, wind-driven wildfires fuelled by dry conditions and Hurricane Dora's distant effects destroyed the historic town of Lahaina on Maui, Hawaii. At least 101 people were killed, making it the deadliest US wildfire in over a century. The fire obliterated the town's historic core, including structures dating to the era of the Hawaiian Kingdom. Failures in the emergency warning system (sirens were not activated), inadequate water supply, and delayed evacuation drew intense criticism. The disaster highlighted the intersection of climate change, land management, infrastructure neglect, and housing vulnerability in island communities.",
+      "description": "8月8日，由干燥条件和飓风多拉的远距离效应助燃的风力野火摧毁了夏威夷毛伊岛的历史名镇拉海纳。至少101人遇难，使其成为美国一个多世纪以来最致命的野火。大火烧毁了该镇的历史核心区，包括可追溯到夏威夷王国时期的建筑。紧急警报系统失灵（警报器未启动）、供水不足以及疏散延迟引发了强烈批评。这场灾难凸显了气候变化、土地管理、基础设施疏忽和岛屿社区住房脆弱性的交织影响。",
       "key_figures": [
-        "Josh Green (Governor of Hawaii)"
+        "Josh Green（夏威夷州长）"
       ],
       "sources": [
         {
-          "name": "Hawaii Emergency Management Agency reports",
+          "name": "夏威夷紧急事务管理局报告",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Maui County official death toll and damage assessments",
+          "name": "毛伊县官方死亡人数和损失评估",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "NOAA weather data and post-disaster analysis",
+          "name": "美国国家海洋和大气管理局天气数据和灾后分析",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Fully documented with forensic analysis, satellite imagery, and official investigations.",
+      "certainty_note": "通过法医分析、卫星图像和官方调查充分记录。",
       "cross_references": []
     },
     {
       "id": "2023-012",
-      "title": "Record global temperatures and El Ni\u00f1o declaration",
-      "region": "Global",
+      "title": "全球气温创纪录与厄尔尼诺现象宣布",
+      "region": "全球",
       "coordinates_approx": null,
       "category": "environmental",
-      "description": "The World Meteorological Organization confirmed 2023 as the hottest year in instrumental records, with global mean surface temperature approximately 1.45\u00b0C above the pre-industrial baseline, approaching the Paris Agreement's 1.5\u00b0C threshold. The WMO declared the onset of El Ni\u00f1o conditions in July, compounding the long-term warming trend. Record-breaking heat waves struck multiple continents: southern Europe, China, the southwestern United States, and South America all experienced extreme temperatures. Canadian wildfire season was historically unprecedented, burning over 18 million hectares and sending smoke across North America and into Europe.",
+      "description": "世界气象组织确认2023年为有仪器记录以来最热的一年，全球平均地表温度比工业化前基线高出约1.45°C，接近《巴黎协定》的1.5°C阈值。世界气象组织于7月宣布厄尔尼诺条件开始，加剧了长期变暖趋势。破纪录的热浪袭击了多个大陆：南欧、中国、美国西南部和南美洲都经历了极端气温。加拿大野火季节在历史上史无前例，烧毁了超过1800万公顷，烟雾飘过北美并进入欧洲。",
       "key_figures": [
-        "Petteri Taalas (WMO Secretary-General)",
-        "Ant\u00f3nio Guterres (UN Secretary-General, declared 'era of global boiling')"
+        "Petteri Taalas（世界气象组织秘书长）",
+        "António Guterres（联合国秘书长，宣布“全球沸腾时代”）"
       ],
       "sources": [
         {
-          "name": "WMO provisional State of the Global Climate 2023 report",
+          "name": "世界气象组织2023年全球气候临时状况报告",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Copernicus Climate Change Service (C3S) ERA5 temperature analysis",
+          "name": "哥白尼气候变化服务ERA5温度分析",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Canadian Interagency Forest Fire Centre seasonal statistics",
+          "name": "加拿大机构间森林消防中心季节性统计数据",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Based on multiple independent global temperature datasets (NASA GISS, NOAA, HadCRUT, C3S) all in agreement.",
+      "certainty_note": "基于多个独立的全球温度数据集（NASA GISS、NOAA、HadCRUT、C3S），所有数据一致。",
       "cross_references": [
         "2015-xxx (Paris Agreement adopted)",
         "2016-xxx (previous hottest year record)"
@@ -417,368 +417,368 @@
     },
     {
       "id": "2023-013",
-      "title": "BRICS announces expansion to six new members",
-      "region": "Global (South Africa summit)",
-      "coordinates_approx": "25.7\u00b0S, 28.2\u00b0E",
+      "title": "金砖国家宣布扩员至六个新成员",
+      "region": "全球（南非峰会）",
+      "coordinates_approx": "25.7°S, 28.2°E",
       "category": "political",
-      "description": "At the 15th BRICS summit in Johannesburg (22\u201324 August), the bloc invited six new countries \u2014 Argentina, Egypt, Ethiopia, Iran, Saudi Arabia, and the UAE \u2014 to join from January 2024, doubling its membership. The expansion reflected a concerted effort by China and Russia to build a counterweight to Western-led international institutions, while Brazil and India balanced between autonomy and not antagonising Western partners. The inclusion of both Saudi Arabia and Iran was notable given their recent rapprochement brokered by China. Argentina's incoming president Javier Milei later declined membership.",
+      "description": "在约翰内斯堡举行的第十五次金砖国家峰会（8月22日至24日）上，该集团邀请六个新国家——阿根廷、埃及、埃塞俄比亚、伊朗、沙特阿拉伯和阿联酋——从2024年1月起加入，使其成员数量翻倍。此次扩员反映了中国和俄罗斯为建立西方主导国际机构的制衡力量所做的协同努力，而巴西和印度则在自主权与不激怒西方伙伴之间寻求平衡。沙特阿拉伯和伊朗同时被纳入引人注目，因为两国最近在中国斡旋下实现了和解。阿根廷当选总统哈维尔·米莱后来拒绝了成员资格。",
       "key_figures": [
-        "Xi Jinping (President of China)",
-        "Cyril Ramaphosa (President of South Africa, summit host)",
-        "Narendra Modi (Prime Minister of India)",
-        "Luiz In\u00e1cio Lula da Silva (President of Brazil)"
+        "Xi Jinping（中国国家主席）",
+        "Cyril Ramaphosa（南非总统、峰会主办方）",
+        "Narendra Modi（印度总理）",
+        "Luiz Inácio Lula da Silva（巴西总统）"
       ],
       "sources": [
         {
-          "name": "BRICS Johannesburg II Declaration (August 2023)",
+          "name": "金砖国家约翰内斯堡第二宣言（2023年8月）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "South African government summit documentation and press releases",
+          "name": "南非政府峰会文件和新闻稿",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official summit declaration with full documentation. Argentina's subsequent refusal is also documented.",
+      "certainty_note": "官方峰会宣言，有完整文件记录。阿根廷随后的拒绝也有记录。",
       "cross_references": [
         "2023-017 (Milei elected in Argentina)"
       ]
     },
     {
       "id": "2023-014",
-      "title": "COP28 in Dubai: first 'transitioning away from fossil fuels' agreement",
-      "region": "United Arab Emirates / Global",
-      "coordinates_approx": "25.2\u00b0N, 55.3\u00b0E",
+      "title": "迪拜COP28：首个“摆脱化石燃料”协议",
+      "region": "阿拉伯联合酋长国 / 全球",
+      "coordinates_approx": "25.2°N, 55.3°E",
       "category": "environmental",
-      "description": "The UN Climate Change Conference (COP28) took place in Dubai from 30 November to 13 December, presided over by Sultan Al Jaber, head of the UAE's national oil company ADNOC \u2014 a controversial appointment. The final agreement included, for the first time in COP history, language calling for 'transitioning away from fossil fuels in energy systems' and tripling renewable energy capacity by 2030. While hailed as a diplomatic breakthrough by some, climate activists and vulnerable nations criticised the text for falling short of an explicit 'phase-out' commitment and for including language favourable to carbon capture technologies. The first Global Stocktake confirmed that the world was not on track to meet Paris Agreement goals.",
+      "description": "联合国气候变化大会于11月30日至12月13日在迪拜举行，由阿联酋国家石油公司ADNOC负责人苏丹·阿尔·贾比尔主持——这一任命颇具争议。最终协议首次在联合国气候变化大会历史上包含了呼吁“在能源系统中摆脱化石燃料”以及到2030年将可再生能源容量增加两倍的语言。虽然一些人称赞其为外交突破，但气候活动家和脆弱国家批评该文本未能明确承诺“逐步淘汰”，并包含了有利于碳捕获技术的语言。首次全球盘点确认世界未能按计划实现《巴黎协定》目标。",
       "key_figures": [
-        "Sultan Al Jaber (COP28 President)",
-        "Simon Stiell (UNFCCC Executive Secretary)"
+        "Sultan Al Jaber（COP28主席）",
+        "Simon Stiell（联合国气候变化框架公约执行秘书）"
       ],
       "sources": [
         {
-          "name": "UNFCCC COP28 final agreement text (UAE Consensus)",
+          "name": "联合国气候变化框架公约COP28最终协议文本（阿联酋共识）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "First Global Stocktake technical synthesis report",
+          "name": "首次全球盘点技术综合报告",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official UN negotiated text, adopted by consensus.",
+      "certainty_note": "官方联合国谈判文本，以协商一致方式通过。",
       "cross_references": [
         "2015-xxx (Paris Agreement)"
       ]
     },
     {
       "id": "2023-015",
-      "title": "Titan submersible implosion kills five",
-      "region": "North Atlantic Ocean",
-      "coordinates_approx": "41.7\u00b0N, 49.9\u00b0W",
+      "title": "泰坦号潜水器内爆致五人死亡",
+      "region": "北大西洋",
+      "coordinates_approx": "41.7°N, 49.9°W",
       "category": "technological",
-      "description": "On 18 June, the Titan submersible operated by OceanGate lost contact during a descent to the wreck of the RMS Titanic. A multinational search operation captured global attention over five days before debris was found on the ocean floor, confirming a catastrophic implosion that killed all five occupants, including OceanGate CEO Stockton Rush. Subsequent investigations revealed extensive prior warnings about the vessel's unconventional carbon fibre hull design and lack of independent safety certification. The disaster raised fundamental questions about regulatory gaps in deep-sea tourism and private exploration ventures.",
+      "description": "6月18日，由海洋之门公司运营的泰坦号潜水器在下沉至泰坦尼克号残骸途中失去联系。一场多国搜索行动持续了五天，吸引了全球关注，之后在海底发现残骸，确认发生灾难性内爆，导致包括海洋之门首席执行官斯托克顿·拉什在内的五名乘员全部遇难。随后的调查揭示了关于该潜水器非常规碳纤维船体设计和缺乏独立安全认证的大量事先警告。这场灾难引发了关于深海旅游和私人探险事业监管空白的根本性问题。",
       "key_figures": [
-        "Stockton Rush (OceanGate CEO, killed)",
-        "Hamish Harding (British explorer, killed)",
-        "Paul-Henri Nargeolet (French Titanic expert, killed)"
+        "Stockton Rush（海洋之门首席执行官，遇难）",
+        "Hamish Harding（英国探险家，遇难）",
+        "Paul-Henri Nargeolet（法国泰坦尼克号专家，遇难）"
       ],
       "sources": [
         {
-          "name": "US Coast Guard Marine Board of Investigation hearings and findings",
+          "name": "美国海岸警卫队海事调查委员会的听证会和调查结果",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "US Navy acoustic detection data confirming implosion timing",
+          "name": "美国海军声学探测数据确认内爆时间",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Debris field located and documented. Implosion confirmed by acoustic and physical evidence.",
+      "certainty_note": "残骸区域已被定位并记录。内爆已通过声学和物理证据确认。",
       "cross_references": []
     },
     {
       "id": "2023-016",
-      "title": "Myanmar resistance forces launch Operation 1027",
-      "region": "Myanmar (northern Shan State)",
-      "coordinates_approx": "23.5\u00b0N, 98.5\u00b0E",
+      "title": "缅甸抵抗力量发动1027行动",
+      "region": "缅甸（掸邦北部）",
+      "coordinates_approx": "23.5°N, 98.5°E",
       "category": "military",
-      "description": "On 27 October, the Three Brotherhood Alliance \u2014 comprising the Myanmar National Democratic Alliance Army (MNDAA), Ta'ang National Liberation Army (TNLA), and Arakan Army (AA) \u2014 launched a coordinated offensive against the military junta in northern Shan State. Within weeks, resistance forces captured dozens of military outposts and several towns along the China-Myanmar border, including the strategic town of Laukkaing. It was the most significant military reversal for the junta since its 2021 coup and energised anti-junta resistance forces across the country. China brokered a ceasefire in January 2024 but the broader civil war continued to escalate.",
+      "description": "10月27日，由缅甸民族民主同盟军、德昂民族解放军和若开军组成的“三兄弟联盟”在掸邦北部对军政府发动了协调攻势。数周内，抵抗力量占领了数十个军事据点和中缅边境沿线的数个城镇，包括战略重镇老街。这是军政府自2021年政变以来遭受的最重大军事挫折，并激励了全国各地的反军政府抵抗力量。中国于2024年1月斡旋达成停火，但更广泛的内战继续升级。",
       "key_figures": [
-        "Peng Deren (MNDAA leader)",
-        "Min Aung Hlaing (Myanmar junta chief)"
+        "Peng Deren（缅甸民族民主同盟军领导人）",
+        "Min Aung Hlaing（缅甸军政府领导人）"
       ],
       "sources": [
         {
-          "name": "Myanmar press and exile media reporting (The Irrawaddy, Myanmar Now)",
+          "name": "缅甸媒体和流亡媒体报道（《伊洛瓦底》、缅甸现在）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "International Crisis Group Myanmar conflict updates",
+          "name": "国际危机组织缅甸冲突更新",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Territorial changes documented through local media, satellite imagery, and military communiqu\u00e9s from both sides. Precise casualty figures are uncertain.",
+      "certainty_note": "领土变化通过当地媒体、卫星图像和双方军事公报记录。确切伤亡数字不确定。",
       "cross_references": [
         "2021-xxx (Myanmar military coup)"
       ]
     },
     {
       "id": "2023-017",
-      "title": "Javier Milei elected President of Argentina",
-      "region": "Argentina",
-      "coordinates_approx": "34.6\u00b0S, 58.4\u00b0W",
+      "title": "哈维尔·米莱当选阿根廷总统",
+      "region": "阿根廷",
+      "coordinates_approx": "34.6°S, 58.4°W",
       "category": "political",
-      "description": "On 19 November, libertarian economist Javier Milei won Argentina's presidential runoff election with approximately 56% of the vote, defeating Peronist candidate Sergio Massa. Milei, a political outsider who campaigned with a chainsaw symbolising his promise to slash state spending, represented a dramatic break with Argentina's dominant Peronist political tradition. His platform included proposals to dollarise the economy, eliminate the central bank, and drastically cut government ministries. His election reflected deep public frustration with Argentina's chronic economic crisis, with annual inflation exceeding 140% at the time of the vote.",
+      "description": "11月19日，自由主义经济学家哈维尔·米莱以约56%的得票率赢得阿根廷总统决选，击败了庇隆主义候选人塞尔吉奥·马萨。米莱是一位政治局外人，其竞选活动以一把电锯为象征，代表他削减国家开支的承诺，这标志着与阿根廷占主导地位的庇隆主义政治传统的戏剧性决裂。他的政纲包括经济美元化、废除中央银行以及大幅削减政府部门的提议。他的当选反映了公众对阿根廷长期经济危机的深切不满，投票时年通胀率超过140%。",
       "key_figures": [
-        "Javier Milei (President-elect of Argentina)",
-        "Sergio Massa (defeated candidate, Economy Minister)"
+        "Javier Milei（阿根廷当选总统）",
+        "Sergio Massa（落选候选人、经济部长）"
       ],
       "sources": [
         {
-          "name": "Argentine National Electoral Chamber official results",
+          "name": "阿根廷国家选举委员会官方结果",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Argentine INDEC inflation statistics",
+          "name": "阿根廷国家统计与普查研究所通胀统计数据",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official election results with full documentation.",
+      "certainty_note": "官方选举结果，有完整文件记录。",
       "cross_references": [
-        "2023-013 (BRICS expansion \u2014 Argentina later declines)"
+        "2023-013 (BRICS expansion — Argentina later declines)"
       ]
     },
     {
       "id": "2023-018",
-      "title": "Japan begins releasing Fukushima treated water",
-      "region": "Japan / Pacific Ocean",
-      "coordinates_approx": "37.4\u00b0N, 141.0\u00b0E",
+      "title": "日本开始排放福岛处理水",
+      "region": "日本 / 太平洋",
+      "coordinates_approx": "37.4°N, 141.0°E",
       "category": "environmental",
-      "description": "On 24 August, Japan began the controlled release of treated radioactive wastewater from the damaged Fukushima Daiichi nuclear power plant into the Pacific Ocean, a process expected to take approximately 30 years. The water had been treated through the ALPS (Advanced Liquid Processing System) to remove most radionuclides except tritium, which was diluted to levels Japan and the IAEA stated were well below safety standards. The IAEA endorsed the plan after a two-year review. China and South Korea strongly objected, with China imposing a total ban on Japanese seafood imports. The dispute strained East Asian diplomatic relations.",
+      "description": "8月24日，日本开始将受损的福岛第一核电站经过处理的放射性废水受控排入太平洋，这一过程预计将持续约30年。这些水已通过先进液体处理系统进行处理，去除了除氚以外的大部分放射性核素，氚被稀释至日本和国际原子能机构声称远低于安全标准的水平。国际原子能机构在进行了为期两年的审查后认可了该计划。中国和韩国强烈反对，中国对日本海产品实施了全面禁令。这场争端使东亚外交关系紧张。",
       "key_figures": [
-        "Fumio Kishida (Prime Minister of Japan)",
-        "Rafael Grossi (IAEA Director General)"
+        "Fumio Kishida（日本首相）",
+        "Rafael Grossi（国际原子能机构总干事）"
       ],
       "sources": [
         {
-          "name": "IAEA comprehensive review report on Fukushima ALPS treated water discharge (July 2023)",
+          "name": "国际原子能机构关于福岛先进液体处理系统处理水排放的综合审查报告（2023年7月）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "TEPCO operational discharge data and monitoring reports",
+          "name": "东京电力公司运营排放数据和监测报告",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Chinese customs administration announcement on Japanese seafood ban",
+          "name": "中国海关总署关于日本海产品禁令的公告",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official IAEA endorsement and operational data fully documented. Scientific safety assessment is subject to ongoing monitoring but initial release data confirmed within stated parameters.",
+      "certainty_note": "国际原子能机构官方认可和运营数据有完整记录。科学安全评估需持续监测，但初始排放数据在所述参数范围内得到确认。",
       "cross_references": [
         "2011-xxx (Fukushima Daiichi nuclear disaster)"
       ]
     },
     {
       "id": "2023-019",
-      "title": "Houthi attacks on Red Sea shipping begin",
-      "region": "Yemen / Red Sea / Gulf of Aden",
-      "coordinates_approx": "13.0\u00b0N, 43.0\u00b0E",
+      "title": "胡塞武装开始袭击红海航运",
+      "region": "也门 / 红海 / 亚丁湾",
+      "coordinates_approx": "13.0°N, 43.0°E",
       "category": "military",
-      "description": "Beginning in November, Yemen's Houthi movement (Ansar Allah) launched a series of drone and missile attacks on commercial shipping in the Red Sea and Gulf of Aden, claiming solidarity with Palestinians in the Gaza conflict. The attacks targeted vessels with alleged Israeli links but rapidly expanded to broader commercial traffic. By late December, multiple major shipping lines had rerouted vessels around the Cape of Good Hope, adding significant time and cost to global trade routes. The disruption affected approximately 12% of global trade that normally transits the Suez Canal. The US announced a multinational naval coalition (Operation Prosperity Guardian) in December to protect shipping.",
+      "description": "自11月起，也门胡塞运动（安萨尔·安拉）对红海和亚丁湾的商业航运发动了一系列无人机和导弹袭击，声称声援加沙冲突中的巴勒斯坦人。袭击最初针对据称与以色列有联系的船只，但迅速扩大到更广泛的商业交通。到12月下旬，多家主要航运公司已将船只改道绕行好望角，给全球贸易路线增加了大量时间和成本。此次中断影响了通常通过苏伊士运河的全球贸易约12%。美国于12月宣布组建多国海军联盟（繁荣卫士行动）以保护航运。",
       "key_figures": [
-        "Abdul-Malik al-Houthi (Houthi leader)",
-        "Lloyd Austin (US Secretary of Defense)"
+        "Abdul-Malik al-Houthi（胡塞武装领导人）",
+        "Lloyd Austin（美国国防部长）"
       ],
       "sources": [
         {
-          "name": "US Central Command (CENTCOM) operational statements",
+          "name": "美国中央司令部作战声明",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "International Maritime Organization and shipping industry incident reports",
+          "name": "国际海事组织和航运业事件报告",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Attacks documented by military and shipping authorities with AIS tracking data, satellite imagery, and video evidence.",
+      "certainty_note": "袭击由军事和航运当局通过自动识别系统跟踪数据、卫星图像和视频证据记录。",
       "cross_references": [
         "2023-006 (Hamas attack and Gaza war)"
       ]
     },
     {
       "id": "2023-020",
-      "title": "China's economic slowdown and property crisis deepen",
-      "region": "China",
-      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E",
+      "title": "中国经济放缓与房地产危机加深",
+      "region": "中国",
+      "coordinates_approx": "39.9°N, 116.4°E",
       "category": "economic",
-      "description": "China's post-COVID economic recovery fell well short of expectations in 2023, with the property sector crisis intensifying as major developer Country Garden defaulted on bond payments in October, following Evergrande's 2021 collapse. Youth unemployment reached a record 21.3% in June before authorities stopped publishing the statistic, revising the methodology. Deflationary pressures mounted with consumer prices falling in several months. The crisis raised fundamental questions about China's growth model based on property investment and infrastructure spending. Foreign direct investment inflows turned negative for the first time since records began in 1998, reflecting both economic and geopolitical concerns.",
+      "description": "2023年，中国的新冠疫情后经济复苏远低于预期，房地产行业危机加剧，大型开发商碧桂园于10月发生债券违约，紧随恒大2021年崩盘之后。青年失业率在6月达到创纪录的21.3%，之后当局停止公布该统计数据并修订了方法。通缩压力加剧，消费者价格在数个月内下跌。这场危机引发了对中国基于房地产投资和基础设施支出的增长模式的根本性质疑。外国直接投资流入自1998年有记录以来首次转为负值，反映了经济和地缘政治两方面的担忧。",
       "key_figures": [
-        "Xi Jinping (President of China)",
-        "Li Qiang (Premier of China)"
+        "Xi Jinping（中国国家主席）",
+        "Li Qiang（中国国务院总理）"
       ],
       "sources": [
         {
-          "name": "China National Bureau of Statistics official economic data releases",
+          "name": "中国国家统计局官方经济数据发布",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Country Garden bond default filings and restructuring notices",
+          "name": "碧桂园债券违约申报和重组通知",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "IMF World Economic Outlook reports (2023 editions)",
+          "name": "国际货币基金组织《世界经济展望》报告（2023年版）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Based on official Chinese statistics (which carry known reliability concerns) corroborated by independent economic analysis, corporate filings, and international financial institution assessments.",
+      "certainty_note": "基于官方中国统计数据（存在已知的可靠性问题），并得到独立经济分析、公司申报和国际金融机构评估的证实。",
       "cross_references": [
         "2021-xxx (Evergrande crisis begins)"
       ]
     },
     {
       "id": "2023-021",
-      "title": "OpenAI leadership crisis",
-      "region": "United States",
-      "coordinates_approx": "37.8\u00b0N, 122.4\u00b0W",
+      "title": "OpenAI领导层危机",
+      "region": "美国",
+      "coordinates_approx": "37.8°N, 122.4°W",
       "category": "technological",
-      "description": "On 17 November, OpenAI's board of directors abruptly fired CEO Sam Altman, citing a loss of confidence in his leadership without public elaboration. The decision triggered a mass employee revolt, with over 700 of approximately 770 staff threatening to resign and follow Altman to Microsoft. After five days of turmoil, Altman was reinstated as CEO with a reconstituted board. The episode exposed the tensions in OpenAI's unusual corporate structure \u2014 a capped-profit company governed by a non-profit board with a safety-focused mission \u2014 and raised questions about the governance of organisations developing increasingly powerful AI systems.",
+      "description": "11月17日，OpenAI董事会突然解雇了首席执行官萨姆·奥尔特曼，称对其领导能力失去信心，但未公开详细说明。这一决定引发了大规模员工反抗，约770名员工中有超过700人威胁辞职并跟随奥尔特曼加入微软。经过五天的动荡，奥尔特曼在重组后的董事会支持下复职。这一事件暴露了OpenAI独特公司结构中的紧张关系——一家由以安全为使命的非营利董事会管理的利润上限公司——并引发了关于开发日益强大人工智能系统的组织治理问题。",
       "key_figures": [
-        "Sam Altman (OpenAI CEO)",
-        "Ilya Sutskever (OpenAI Chief Scientist, initially supported removal)",
-        "Satya Nadella (Microsoft CEO)",
-        "Mira Murati (OpenAI interim CEO)"
+        "Sam Altman（OpenAI首席执行官）",
+        "Ilya Sutskever（OpenAI首席科学家，最初支持解雇）",
+        "Satya Nadella（微软首席执行官）",
+        "Mira Murati（OpenAI临时首席执行官）"
       ],
       "sources": [
         {
-          "name": "OpenAI board statements (17 and 22 November 2023)",
+          "name": "OpenAI董事会声明（2023年11月17日和22日）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "OpenAI employee open letter (20 November 2023)",
+          "name": "OpenAI员工公开信（2023年11月20日）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "SEC filings and corporate governance documentation",
+          "name": "美国证券交易委员会申报文件和公司治理文件",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Events played out publicly in real time. The board's specific internal reasoning for the initial firing remains partially opaque.",
+      "certainty_note": "事件实时公开上演。董事会最初解雇的具体内部理由仍部分不透明。",
       "cross_references": [
         "2023-007 (GPT-4 and AI developments)"
       ]
     },
     {
       "id": "2023-022",
-      "title": "Morocco earthquake in the High Atlas",
-      "region": "Morocco",
-      "coordinates_approx": "31.1\u00b0N, 8.4\u00b0W",
+      "title": "摩洛哥高阿特拉斯山脉地震",
+      "region": "摩洛哥",
+      "coordinates_approx": "31.1°N, 8.4°W",
       "category": "environmental",
-      "description": "On 8 September, a magnitude 6.8 earthquake struck the High Atlas Mountains southwest of Marrakech, killing nearly 3,000 people and injuring over 5,500. It was the deadliest earthquake in Morocco since the 1960 Agadir earthquake. Remote mountain villages suffered the worst destruction, with traditional earthen buildings collapsing and access roads blocked by landslides, complicating rescue operations. Morocco's government was selective about accepting international aid, initially accepting offers from only four countries (Spain, UK, UAE, Qatar), which drew both criticism and support.",
+      "description": "9月8日，马拉喀什西南部的高阿特拉斯山脉发生6.8级地震，造成近3,000人死亡，超过5,500人受伤。这是自1960年阿加迪尔地震以来摩洛哥最致命的地震。偏远的山村遭受的破坏最为严重，传统土坯建筑倒塌，通道被山体滑坡阻断，使救援行动复杂化。摩洛哥政府在接受国际援助方面有所选择，最初只接受了四个国家（西班牙、英国、阿联酋、卡塔尔）的援助，这既招致批评也获得了支持。",
       "key_figures": [
-        "Mohammed VI (King of Morocco)"
+        "Mohammed VI（摩洛哥国王）"
       ],
       "sources": [
         {
-          "name": "Moroccan Interior Ministry official casualty and damage reports",
+          "name": "摩洛哥内政部官方伤亡和损失报告",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "USGS earthquake parameters and analysis",
+          "name": "美国地质调查局地震参数和分析",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Seismologically documented with official government casualty figures.",
+      "certainty_note": "地震学记录，并有官方政府伤亡数字。",
       "cross_references": [
         "2023-001 (Turkey-Syria earthquake, earlier in same year)"
       ]
     }
   ],
-  "disconfirming_evidence": "Several events listed carry contested elements. (1) Gaza casualty figures (2023-006): Israel and some Western analysts disputed Gaza Health Ministry death tolls as inflated or failing to distinguish combatants from civilians, while independent analyses (including from The Lancet and AP statistical reviews) found the Ministry's aggregate figures historically reliable, though combatant/civilian ratios remain genuinely uncertain. (2) Ukraine counteroffensive (2023-003): The characterisation of the 2023 counteroffensive as having 'limited gains' is itself contested \u2014 Ukrainian officials argued the offensive achieved important attrition and disruption of Russian logistics, while Western military analysts more commonly judged it as falling short of its territorial objectives. Both assessments have evidentiary support. (3) BRICS significance (2023-013): The expansion's geopolitical significance is actively debated; sceptics argue BRICS lacks institutional coherence and its members have deeply conflicting interests (India-China border tensions, Saudi-Iran rivalry), making it more a diplomatic forum than a genuine counterweight to Western institutions. (4) Fukushima water release (2023-018): While the IAEA endorsed the release as safe, some marine scientists argued that the long-term cumulative ecological effects of tritium and residual radionuclides over a 30-year release period are insufficiently studied, and that the IAEA's assessment focused on immediate radiological safety rather than marine ecosystem impacts. (5) India surpassing China (2023-008): The precise timing is a UN statistical estimate, not a census count; some demographers place the crossover in late 2022 or early 2024 depending on methodology.",
-  "historiographic_note": "2023 is among the best-documented years in human history, with real-time reporting from professional media, social media, satellite imagery, and government open data. However, significant biases shape the record: English-language and Western media dominate the accessible archive, meaning events in the Sahel, Myanmar, and Central Asia receive disproportionately less analytical depth. The Sudan civil war (2023-005), despite being one of the year's worst humanitarian catastrophes, received markedly less sustained international media attention than the Israel-Gaza conflict. Chinese internal economic and political dynamics are partially obscured by state information controls and the cessation of publishing certain inconvenient statistics (e.g., youth unemployment). Wartime fog affects casualty figures in Ukraine, Sudan, Gaza, and Myanmar. The AI industry narrative is dominated by company press releases and technology media that may overstate near-term significance relative to structural economic, demographic, and environmental trends.",
+  "disconfirming_evidence": "所列的若干事件存在争议要素。（1）加沙伤亡数字（2023-006）：以色列和一些西方分析人士质疑加沙卫生部的死亡人数被夸大或未能区分战斗人员和平民，而独立分析（包括《柳叶刀》和美联社的统计审查）发现该部的总体数字历来可靠，尽管战斗人员/平民比例确实不确定。（2）乌克兰反攻（2023-003）：将2023年反攻定性为“有限收益”本身存在争议——乌克兰官员认为反攻实现了对俄罗斯后勤的重要消耗和破坏，而西方军事分析人士更普遍地认为其未能实现领土目标。两种评估都有证据支持。（3）金砖国家意义（2023-013）：扩员的地缘政治意义正在积极辩论中；怀疑论者认为金砖国家缺乏制度凝聚力，其成员之间存在深刻冲突的利益（印中边界紧张、沙特-伊朗竞争），使其更像一个外交论坛而非西方机构的真正制衡力量。（4）福岛水排放（2023-018）：虽然国际原子能机构认可排放是安全的，但一些海洋科学家认为，在30年的排放期内，氚和残留放射性核素的长期累积生态效应研究不足，并且国际原子能机构的评估侧重于直接的放射学安全而非海洋生态系统影响。（5）印度超越中国（2023-008）：确切时间是联合国统计估计，而非人口普查计数；一些人口学家根据方法论将交叉点定在2022年底或2024年初。",
+  "historiographic_note": "2023年是人类历史上记录最充分的年份之一，有来自专业媒体、社交媒体、卫星图像和政府开放数据的实时报道。然而，显著的偏见塑造了记录：英语和西方媒体主导着可访问的档案，这意味着萨赫勒、缅甸和中亚的事件得到的分析深度不成比例地少。苏丹内战（2023-005）尽管是当年最严重的人道主义灾难之一，但获得的持续国际媒体关注度明显低于以色列-加沙冲突。中国国内经济和政治动态因国家信息管控以及停止发布某些不便的统计数据（如青年失业率）而部分模糊。战争迷雾影响了乌克兰、苏丹、加沙和缅甸的伤亡数字。人工智能行业叙事由公司新闻稿和技术媒体主导，可能相对于结构性经济、人口和环境趋势高估了近期意义。",
   "graph_edges": [
     {
       "from": "2023-006",
       "to": "2023-019",
       "relation": "caused_by",
-      "note": "Houthi Red Sea attacks were explicitly framed as response to the Gaza war"
+      "note": "胡塞武装红海袭击明确被表述为对加沙战争的回应"
     },
     {
       "from": "2023-003",
       "to": "2023-004",
       "relation": "caused_by",
-      "note": "Wagner mutiny arose from tensions within Russia's Ukraine war military command structure"
+      "note": "瓦格纳兵变源于俄罗斯乌克兰战争军事指挥结构内部的紧张关系"
     },
     {
       "from": "2023-002",
       "to": "2023-003",
       "relation": "part_of",
-      "note": "Finland's NATO accession and the Ukraine war are part of the broader post-2022 European security realignment"
+      "note": "芬兰加入北约和乌克兰战争是2022年后更广泛欧洲安全重组的一部分"
     },
     {
       "from": "2023-009",
       "to": "2023-005",
       "relation": "contemporary_with",
-      "note": "Sahel coups and Sudan civil war reflect concurrent institutional collapse across the broader region"
+      "note": "萨赫勒政变和苏丹内战反映了更广泛地区同时发生的制度崩溃"
     },
     {
       "from": "2023-012",
       "to": "2023-011",
       "relation": "caused_by",
-      "note": "Record temperatures and drought conditions contributed directly to the severity of the Maui and Canadian wildfires"
+      "note": "创纪录气温和干旱条件直接导致了毛伊岛和加拿大野火的严重程度"
     },
     {
       "from": "2023-012",
       "to": "2023-014",
       "relation": "led_to",
-      "note": "Record temperatures added urgency to COP28 negotiations and the Global Stocktake findings"
+      "note": "创纪录气温增加了COP28谈判和全球盘点结果的紧迫性"
     },
     {
       "from": "2023-007",
       "to": "2023-021",
       "relation": "part_of",
-      "note": "OpenAI leadership crisis was an internal consequence of the tensions created by rapid AI commercialisation"
+      "note": "OpenAI领导层危机是快速人工智能商业化所造成紧张关系的内部后果"
     },
     {
       "from": "2023-013",
       "to": "2023-017",
       "relation": "led_to",
-      "note": "Milei's election led Argentina to decline the BRICS membership invitation it had accepted months earlier"
+      "note": "米莱的当选导致阿根廷拒绝了数月前已接受的金砖国家成员邀请"
     },
     {
       "from": "2023-020",
       "to": "2023-008",
       "relation": "contemporary_with",
-      "note": "China's economic slowdown and India's population milestone reflect a broader shift in the global economic centre of gravity"
+      "note": "中国经济放缓和印度人口里程碑反映了全球经济重心更广泛的转移"
     }
   ],
   "_meta": {

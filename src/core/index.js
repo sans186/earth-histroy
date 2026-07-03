@@ -16,13 +16,13 @@ import * as Cesium from 'cesium';
 import { Store } from './state.js';
 import { EventBus } from './event-bus.js';
 import { createViewer } from './cesium-viewer.js';
-import { CESIUM_TOKEN, INITIAL_VIEW, YEAR_MAX, DEFAULT_ACTIVE_CATEGORIES, DEFAULT_STEP_SIZE } from '../config.js';
+import { CESIUM_TOKEN, INITIAL_VIEW, YEAR_MAX, DEFAULT_YEAR, DEFAULT_ACTIVE_CATEGORIES, DEFAULT_STEP_SIZE } from '../config.js';
 
 export class Core {
   constructor() {
     /** @type {Store} */
     this.state = new Store({
-      currentYear: YEAR_MAX,
+      currentYear: DEFAULT_YEAR,
       stepSize: DEFAULT_STEP_SIZE,
       activeFilters: new Set(DEFAULT_ACTIVE_CATEGORIES),
       isPlaying: false,

@@ -1,19 +1,188 @@
 {
   "year": 1893,
   "year_label": "公元1893年",
-  "era_context": "1890年代初，工业化迅速推进，帝国扩张加剧，国际紧张局势日益加剧。第二次工业革命正在改变全球经济；电力、钢铁生产和铁路正在重塑社会。欧洲列强正在加强在非洲和亚洲对殖民地的争夺。在美洲，美国正在巩固大陆主导地位并开始向海外投射力量。这是一个大规模移民、城市化和现代大众媒体兴起的时代。民族主义运动在欧洲和亚洲各地兴起。",
+  "era_context": "1893年是经济危机的一年——1893年大恐慌在美国引发了严重的长期萧条——也是文化和技术创新的重要年份。新西兰成为首个赋予妇女投票权的自治领。世界哥伦布博览会在芝加哥开幕，展示了电气时代的技术成就。",
   "documentation_level": "丰富",
   "geographic_coverage_gaps": [
     "殖民地行政记录之外的撒哈拉以南非洲内陆",
     "俄罗斯帝国统治下的中亚",
     "原住民视角（澳大利亚、美国、加拿大）",
-    "主要殖民港口以外的太平洋岛屿",
-    "正经历快速变化但记录有限的亚洲农村"
+    "主要殖民港口以外的太平洋岛屿"
   ],
-  "_meta": {
-    "processed_at": "2026-04-11T02:46:48.058012",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI"
-  }
+  "events": [
+    {
+      "id": "1893-001",
+      "title": "芝加哥世界哥伦布博览会开幕",
+      "region": "美国（伊利诺伊州芝加哥）",
+      "coordinates_approx": "41.8°N, 87.6°W",
+      "category": "cultural",
+      "description": "1893年5月1日，世界哥伦布博览会在芝加哥开幕，纪念哥伦布到达美洲400周年。博览会展示了交流电照明、摩天轮等新技术，吸引了超过2700万游客。其白城建筑群影响了美国的城市规划理念。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1893-002",
+      "title": "新西兰成为首个赋予妇女投票权的自治领",
+      "region": "新西兰",
+      "coordinates_approx": "41.3°S, 174.8°E",
+      "category": "political",
+      "description": "1893年9月19日，新西兰总督签署了选举法案，赋予妇女投票权，使新西兰成为世界上第一个赋予妇女投票权的自治领土。这一里程碑是凯特·谢泼德领导的长期妇女选举权运动的结果。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1893-003",
+      "title": "1893年大恐慌和严重经济萧条",
+      "region": "美国",
+      "coordinates_approx": "40.7°N, 74.0°W",
+      "category": "economic",
+      "description": "1893年，美国遭遇了19世纪最严重的经济危机。费城和雷丁铁路公司的破产引发了银行恐慌和股市崩盘。超过500家银行和15,000家企业倒闭，失业率高达18%，萧条持续到1897年。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1893-004",
+      "title": "弗雷德里克·杰克逊·特纳发表边疆假说",
+      "region": "美国（伊利诺伊州芝加哥）",
+      "coordinates_approx": "41.8°N, 87.6°W",
+      "category": "cultural",
+      "description": "1893年7月12日，历史学家弗雷德里克·杰克逊·特纳在芝加哥美国历史协会会议上发表了《边疆在美国历史中的意义》论文，提出美国的民主和民族性格是由边疆经历塑造的著名假说。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1893-005",
+      "title": "夏威夷王国被推翻",
+      "region": "夏威夷",
+      "coordinates_approx": "21.3°N, 157.9°W",
+      "category": "political",
+      "description": "1893年1月17日，由美国商业利益支持的安全委员会发动政变推翻夏威夷王国，利留卡拉尼女王被迫退位。美国海军陆战队登陆协助政变。尽管格罗弗·克利夫兰总统调查后认为政变非法，临时政府仍保持了控制。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1893-006",
+      "title": "第一次马塔贝莱战争爆发",
+      "region": "南部非洲（马塔贝莱兰）",
+      "coordinates_approx": "20.1°S, 28.6°E",
+      "category": "military",
+      "description": "1893年，英国南非公司与恩德贝莱王国之间的紧张关系升级为战争。塞西尔·罗兹的军队利用马克沁机枪的优势击败了恩德贝莱武士。战争导致恩德贝莱领土被英国南非公司吞并。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1893-007",
+      "title": "亨利·福特制造第一辆汽车",
+      "region": "美国（密歇根州底特律）",
+      "coordinates_approx": "42.3°N, 83.0°W",
+      "category": "technological",
+      "description": "1893年，亨利·福特在底特律的家中制造了他的第一辆汽油动力汽车——福特四轮车。虽然这辆车直到1896年才上路试验，但它标志着福特进入汽车制造业的开始。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1893-008",
+      "title": "印度开始实行卢比与白银脱钩",
+      "region": "英属印度",
+      "coordinates_approx": "20.0°N, 78.0°E",
+      "category": "economic",
+      "description": "1893年，英属印度政府关闭了公众自由铸造银币的权利，使卢比与白银脱钩，将其与黄金挂钩。这一货币改革旨在稳定汇率，反映了全球从银本位向金本位的转变。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1893-009",
+      "title": "法国巴拿马运河丑闻",
+      "region": "法国（巴黎）",
+      "coordinates_approx": "48.9°N, 2.3°E",
+      "category": "political",
+      "description": "1893年，法国巴拿马运河公司丑闻持续发酵，前公共工程部长等多名政界人士被指控受贿。公司因管理不善和腐败而破产，导致大量投资者损失惨重。丑闻削弱了公众对第三共和国的信任。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "以上事件基于广泛接受的历史记载。部分事件的精确日期和细节在学术研究中存在合理争议。",
+  "historiographic_note": "1890年代的历史记录以欧洲和北美资料为主。非洲、亚洲和太平洋岛民的视角在幸存记录中呈现不足。近年来的学术研究正在纠正这些偏见。",
+  "graph_edges": []
 }

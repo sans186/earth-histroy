@@ -1,196 +1,196 @@
 {
   "year": 2025,
-  "year_label": "2025 CE",
-  "era_context": "The mid-2020s mark a period of intensifying geopolitical fragmentation, accelerating AI development, climate-driven disasters, and the return of protectionist trade policies among major economies. The post-COVID global order is being reshaped by renewed great-power competition between the United States, China, and Russia, the ongoing Russia-Ukraine war entering its fourth year, and the aftershocks of the October 2023 Hamas attack on Israel reverberating across the Middle East. Rapid advances in large language models and generative AI are transforming industries while triggering regulatory debates worldwide.",
-  "documentation_level": "rich",
+  "year_label": "2025年",
+  "era_context": "2020年代中期标志着地缘政治碎片化加剧、人工智能加速发展、气候驱动灾害频发以及主要经济体间保护主义贸易政策回归的时期。后新冠全球秩序正被美国、中国和俄罗斯之间重新兴起的大国竞争、进入第四年的持续俄乌战争，以及2023年10月哈马斯袭击以色列后在非洲中东地区产生的余波所重塑。大语言模型和生成式人工智能的快速进步正在改变各行各业，同时引发全球范围内的监管辩论。",
+  "documentation_level": "丰富",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa beyond Sudan and the Sahel \u2014 significant political and economic developments likely underrepresented in Western-centric training data.",
-    "Central Asia and Pacific Island states \u2014 climate adaptation and geopolitical shifts in these regions are poorly covered.",
-    "Southeast Asian domestic politics beyond Myanmar.",
-    "Latin American events beyond US-facing diplomatic incidents."
+    "撒哈拉以南非洲（苏丹和萨赫勒地区以外）——重要的政治和经济发展在以西方为中心的培训数据中可能代表性不足。",
+    "中亚和太平洋岛国——这些地区的气候适应和地缘政治变化报道不足。",
+    "东南亚国内政治（缅甸以外）。",
+    "拉丁美洲事件（美国外交事件以外）。"
   ],
   "events": [
     {
       "id": "2025-001",
-      "title": "Inauguration of Donald Trump as 47th US President",
-      "region": "United States",
+      "title": "唐纳德·特朗普就任美国第47任总统",
+      "region": "美国",
       "coordinates_approx": "38.89, -77.01",
       "category": "political",
-      "description": "Donald Trump was inaugurated on January 20, 2025, beginning his second non-consecutive presidential term after defeating Vice President Kamala Harris in the November 2024 election. His return to office signalled a sharp shift in US domestic and foreign policy, with immediate executive orders on immigration, withdrawal from the Paris Climate Agreement (again), and federal workforce restructuring. The inauguration marked only the second time in US history a president served non-consecutive terms, after Grover Cleveland.",
+      "description": "唐纳德·特朗普于2025年1月20日宣誓就职，开始其第二个非连续总统任期，此前他在2024年11月的大选中击败副总统卡玛拉·哈里斯。他的重返白宫标志着美国国内外政策的急剧转变，立即发布了关于移民的行政命令、再次退出《巴黎气候协定》以及联邦劳动力重组。此次就职标志着美国历史上继格罗弗·克利夫兰之后第二次有总统担任非连续任期。",
       "key_figures": [
-        "Donald Trump (President of the United States)",
-        "J.D. Vance (Vice President)",
-        "Kamala Harris (outgoing Vice President)"
+        "Donald Trump（美国总统）",
+        "J.D. Vance（副总统）",
+        "Kamala Harris（即将离任的副总统）"
       ],
       "sources": [
         {
-          "name": "Official White House records and contemporaneous wire-service reporting (AP, Reuters)",
+          "name": "白宫官方记录及同时代通讯社报道（美联社、路透社）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Massively documented live event with global media coverage.",
+      "certainty_note": "全球媒体报道的大规模记录在案的现场活动。",
       "cross_references": []
     },
     {
       "id": "2025-002",
-      "title": "Los Angeles Palisades and Eaton wildfires",
-      "region": "United States \u2014 Southern California",
+      "title": "洛杉矶帕利塞兹和伊顿山火",
+      "region": "美国——南加州",
       "coordinates_approx": "34.05, -118.53",
       "category": "environmental",
-      "description": "In early January 2025, wind-driven wildfires devastated the Pacific Palisades and Altadena/Pasadena areas of Los Angeles County, becoming the most destructive fires in the city's modern history. The Palisades Fire and Eaton Fire together destroyed thousands of structures and caused dozens of deaths. The fires were fuelled by extreme Santa Ana winds and preceded by an unusually dry winter, reigniting debate about climate adaptation, urban planning in fire-prone zones, and water infrastructure readiness in Los Angeles.",
+      "description": "2025年1月初，风助山火肆虐洛杉矶县的太平洋帕利塞兹和阿尔塔迪纳/帕萨迪纳地区，成为该市现代历史上破坏性最强的火灾。帕利塞兹大火和伊顿大火共同摧毁了数千座建筑，并造成数十人死亡。火灾由极端圣安娜风助燃，且发生在异常干燥的冬季之后，重新引发了关于气候适应、火灾易发区城市规划以及洛杉矶水资源基础设施准备情况的辩论。",
       "key_figures": [
-        "Karen Bass (Mayor of Los Angeles)",
-        "Gavin Newsom (Governor of California)"
+        "Karen Bass（洛杉矶市长）",
+        "Gavin Newsom（加利福尼亚州州长）"
       ],
       "sources": [
         {
-          "name": "CAL FIRE incident reports, Los Angeles County Fire Department, contemporaneous media coverage (Los Angeles Times, AP)",
+          "name": "加州消防局事故报告、洛杉矶县消防局、同时代媒体报道（《洛杉矶时报》、美联社）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented disaster with real-time satellite imagery and official damage assessments.",
+      "certainty_note": "有实时卫星图像和官方损害评估的广泛记录的灾难。",
       "cross_references": []
     },
     {
       "id": "2025-003",
-      "title": "Gaza ceasefire agreement and hostage releases begin",
-      "region": "Middle East \u2014 Gaza Strip / Israel",
+      "title": "加沙停火协议达成并开始释放人质",
+      "region": "中东——加沙地带/以色列",
       "coordinates_approx": "31.35, 34.31",
       "category": "military",
-      "description": "In mid-January 2025, Israel and Hamas reached a phased ceasefire agreement mediated by Qatar, Egypt, and the United States, pausing the devastating military campaign that had followed the October 7, 2023 Hamas attack. The first phase involved a halt to major hostilities and the exchange of Israeli hostages for Palestinian prisoners. The agreement came after over 15 months of war that had caused massive civilian casualties and infrastructure destruction in Gaza and drawn global condemnation alongside ongoing debate over proportionality and international law.",
+      "description": "2025年1月中旬，以色列和哈马斯在卡塔尔、埃及和美国的斡旋下达成一项分阶段停火协议，暂停了自2023年10月7日哈马斯袭击以来毁灭性的军事行动。第一阶段涉及停止主要敌对行动以及用以色列人质交换巴勒斯坦囚犯。该协议是在超过15个月的战争之后达成的，这场战争在加沙造成了大量平民伤亡和基础设施破坏，并引发了全球谴责以及关于相称性和国际法的持续辩论。",
       "key_figures": [
-        "Benjamin Netanyahu (Prime Minister of Israel)",
-        "Yahya Sinwar (Hamas leader, killed October 2024)",
-        "Mohammed Sinwar (Hamas military leader)",
-        "Donald Trump (US President)",
-        "Joe Biden (outgoing US President)"
+        "Benjamin Netanyahu（以色列总理）",
+        "Yahya Sinwar（哈马斯领导人，2024年10月被杀）",
+        "Mohammed Sinwar（哈马斯军事领导人）",
+        "Donald Trump（美国总统）",
+        "Joe Biden（即将离任的美国总统）"
       ],
       "sources": [
         {
-          "name": "Contemporaneous reporting from AP, Reuters, Al Jazeera; official statements from Israeli government, Hamas, and Qatari mediators",
+          "name": "美联社、路透社、半岛电视台的同时代报道；以色列政府、哈马斯和卡塔尔调解人的官方声明",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Major internationally mediated agreement with extensive documentation. Subsequent phases and compliance remain subjects of ongoing dispute.",
+      "certainty_note": "具有广泛文件记录的重大国际调解协议。后续阶段和遵守情况仍是持续争议的主题。",
       "cross_references": []
     },
     {
       "id": "2025-004",
-      "title": "DeepSeek R1 release disrupts AI industry assumptions",
-      "region": "China / Global",
+      "title": "DeepSeek R1发布颠覆AI行业假设",
+      "region": "中国/全球",
       "coordinates_approx": "39.91, 116.39",
       "category": "technological",
-      "description": "In January 2025, Chinese AI lab DeepSeek released its R1 reasoning model, demonstrating performance competitive with leading US models at a fraction of the reported training cost. The release caused a significant sell-off in US technology stocks, particularly Nvidia, and challenged prevailing assumptions about the capital intensity required for frontier AI development. It intensified debate about the effectiveness of US semiconductor export controls aimed at China and demonstrated that algorithmic efficiency could partially compensate for hardware restrictions.",
+      "description": "2025年1月，中国AI实验室DeepSeek发布了其R1推理模型，展示了与领先美国模型相媲美的性能，而报告的训练成本仅为后者的一小部分。此次发布导致美国科技股（尤其是英伟达）大幅抛售，并挑战了关于前沿AI开发所需资本密集度的普遍假设。它加剧了关于美国针对中国的半导体出口管制有效性的辩论，并表明算法效率可以部分弥补硬件限制。",
       "key_figures": [
-        "Liang Wenfeng (DeepSeek founder)"
+        "Liang Wenfeng（DeepSeek创始人）"
       ],
       "sources": [
         {
-          "name": "DeepSeek R1 technical report; contemporaneous financial reporting (Bloomberg, Reuters, Financial Times); stock market data",
+          "name": "DeepSeek R1技术报告；同时代金融报道（彭博社、路透社、《金融时报》）；股市数据",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The release and market reaction are well-documented. Claims about exact training costs are self-reported and contested by some analysts.",
+      "certainty_note": "发布和市场反应均有充分记录。关于确切训练成本的说法是自我报告的，并受到一些分析师的质疑。",
       "cross_references": []
     },
     {
       "id": "2025-005",
-      "title": "DOGE federal workforce reduction campaign",
-      "region": "United States",
+      "title": "DOGE联邦劳动力削减运动",
+      "region": "美国",
       "coordinates_approx": "38.89, -77.01",
       "category": "political",
-      "description": "The Department of Government Efficiency (DOGE), an advisory body led by Elon Musk, undertook an aggressive campaign to reduce the US federal workforce beginning in early 2025. Mass layoffs and buyout offers affected agencies including USAID, the EPA, the Department of Education, and others. The initiative faced numerous legal challenges, with federal courts blocking several reductions. The effort was unprecedented in its speed and scope, raising constitutional questions about executive authority over congressionally mandated agencies and appropriated funds.",
+      "description": "由埃隆·马斯克领导的咨询机构——政府效率部（DOGE），从2025年初开始发起了一场激进的削减美国联邦劳动力的运动。大规模裁员和买断提议影响了包括美国国际开发署、环保局、教育部等在内的机构。该倡议面临众多法律挑战，联邦法院阻止了多项削减。这项努力在其速度和范围上是前所未有的，引发了关于行政权力对国会授权机构和拨款的宪法问题。",
       "key_figures": [
-        "Elon Musk (DOGE head)",
-        "Donald Trump (President)",
-        "Vivek Ramaswamy (initial DOGE co-lead, departed early)"
+        "Elon Musk（DOGE负责人）",
+        "Donald Trump（总统）",
+        "Vivek Ramaswamy（最初DOGE联合负责人，早期离职）"
       ],
       "sources": [
         {
-          "name": "Executive orders, federal court rulings, contemporaneous reporting (Washington Post, New York Times, Politico)",
+          "name": "行政命令、联邦法院裁决、同时代报道（《华盛顿邮报》、《纽约时报》、Politico）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Heavily documented in legal filings, government records, and media reporting. Exact headcount figures and cost savings are disputed.",
+      "certainty_note": "在法律文件、政府记录和媒体报道中有大量记录。确切的人员编制数字和成本节省存在争议。",
       "cross_references": [
         "2025-001"
       ]
     },
     {
       "id": "2025-006",
-      "title": "German federal election \u2014 CDU/CSU victory under Friedrich Merz",
-      "region": "Germany / European Union",
+      "title": "德国联邦选举——弗里德里希·默茨领导下的基民盟/基社盟获胜",
+      "region": "德国/欧盟",
       "coordinates_approx": "52.52, 13.38",
       "category": "political",
-      "description": "On February 23, 2025, Germany held snap federal elections following the collapse of Olaf Scholz's SPD-Greens-FDP coalition in late 2024. The CDU/CSU under Friedrich Merz won decisively, marking a return to centre-right governance. The far-right Alternative for Germany (AfD) achieved its strongest federal result to date, finishing second, reflecting growing anti-immigration sentiment and economic anxiety. Coalition negotiations proved complex given the fragmented Bundestag, with the CDU/CSU ultimately forming a coalition with the SPD.",
+      "description": "2025年2月23日，德国在奥拉夫·朔尔茨的社民党-绿党-自民党联盟于2024年底垮台后举行了提前联邦选举。弗里德里希·默茨领导下的基民盟/基社盟以决定性优势获胜，标志着中右翼治理的回归。极右翼的德国选择党取得了其联邦选举史上最强成绩，位居第二，反映了日益增长的反移民情绪和经济焦虑。鉴于联邦议院的分裂局面，联盟谈判被证明是复杂的，基民盟/基社盟最终与社民党组建了联盟。",
       "key_figures": [
-        "Friedrich Merz (CDU leader, incoming Chancellor)",
-        "Olaf Scholz (outgoing Chancellor, SPD)",
-        "Alice Weidel (AfD leader)"
+        "Friedrich Merz（基民盟领导人，即将上任的总理）",
+        "Olaf Scholz（即将离任的总理，社民党）",
+        "Alice Weidel（德国选择党领导人）"
       ],
       "sources": [
         {
-          "name": "Official Bundeswahlleiter (Federal Returning Officer) results; contemporaneous coverage (Der Spiegel, Frankfurter Allgemeine Zeitung, Reuters)",
+          "name": "联邦选举官官方结果；同时代报道（《明镜周刊》、《法兰克福汇报》、路透社）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official election results are definitive.",
+      "certainty_note": "官方选举结果是决定性的。",
       "cross_references": []
     },
     {
       "id": "2025-007",
-      "title": "Myanmar earthquake devastates Mandalay region",
-      "region": "Myanmar (Burma)",
+      "title": "缅甸地震摧毁曼德勒地区",
+      "region": "缅甸",
       "coordinates_approx": "21.88, 96.08",
       "category": "environmental",
-      "description": "On March 28, 2025, a magnitude 7.7 earthquake struck central Myanmar near Mandalay, causing catastrophic destruction. The earthquake killed over a thousand people and levelled buildings across multiple cities, with significant damage also reported in neighbouring Thailand, particularly in Bangkok where several buildings collapsed. The disaster struck a country already in crisis from ongoing civil war following the 2021 military coup, severely complicating rescue and aid operations as the military junta controlled access to affected areas.",
+      "description": "2025年3月28日，一场7.7级地震袭击了缅甸中部曼德勒附近，造成灾难性破坏。地震造成一千多人死亡，多个城市的建筑物被夷为平地，邻国泰国也报告了重大损失，特别是在曼谷，多栋建筑倒塌。这场灾难袭击了一个因2021年军事政变而陷入持续内战危机的国家，由于军政府控制着受灾地区的出入，救援和援助行动严重复杂化。",
       "key_figures": [
-        "Min Aung Hlaing (Myanmar junta leader)"
+        "Min Aung Hlaing（缅甸军政府领导人）"
       ],
       "sources": [
         {
-          "name": "USGS earthquake data; UN OCHA situation reports; contemporaneous media reporting (AP, Reuters, Myanmar Now)",
+          "name": "美国地质调查局地震数据；联合国人道主义事务协调办公室情况报告；同时代媒体报道（美联社、路透社、缅甸现在）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Seismic data is definitive. Casualty figures are likely undercounted due to junta information restrictions and ongoing conflict limiting access.",
+      "certainty_note": "地震数据是决定性的。由于军政府信息限制和持续的冲突限制了进入，伤亡数字可能被低估。",
       "cross_references": []
     },
     {
       "id": "2025-008",
-      "title": "US 'Liberation Day' tariffs trigger global trade upheaval",
-      "region": "United States / Global",
+      "title": "美国“解放日”关税引发全球贸易动荡",
+      "region": "美国/全球",
       "coordinates_approx": "38.89, -77.01",
       "category": "economic",
-      "description": "On April 2, 2025, President Trump announced sweeping reciprocal tariffs on nearly all US trading partners, dubbed 'Liberation Day.' The tariffs included a baseline 10% universal tariff with significantly higher rates for specific countries \u2014 notably 145% on Chinese goods after rapid escalation. Global stock markets experienced sharp declines, supply chains were thrown into uncertainty, and major trading partners announced retaliatory measures. The tariffs represented the most aggressive US trade action in nearly a century, drawing comparisons to the Smoot-Hawley Tariff Act of 1930. A 90-day pause on the highest tariffs for most countries (excluding China) was announced shortly after, but uncertainty persisted.",
+      "description": "2025年4月2日，特朗普总统宣布对几乎所有美国贸易伙伴征收全面的互惠关税，称为“解放日”。这些关税包括10%的基线普遍关税，并对特定国家征收显著更高的税率——特别是在快速升级后对中国商品征收145%的关税。全球股市大幅下跌，供应链陷入不确定性，主要贸易伙伴宣布了报复性措施。这些关税代表了近一个世纪以来美国最激进的贸易行动，被拿来与1930年的《斯穆特-霍利关税法》相提并论。不久后宣布对大多数国家（不包括中国）暂停最高关税90天，但不确定性依然存在。",
       "key_figures": [
-        "Donald Trump (President)",
-        "Scott Bessent (Treasury Secretary)",
-        "Howard Lutnick (Commerce Secretary)"
+        "Donald Trump（总统）",
+        "Scott Bessent（财政部长）",
+        "Howard Lutnick（商务部长）"
       ],
       "sources": [
         {
-          "name": "Executive orders and White House announcements; US Customs and Border Protection tariff schedules; stock market data; contemporaneous financial reporting (Wall Street Journal, Financial Times, Bloomberg)",
+          "name": "行政命令和白宫公告；美国海关和边境保护局关税表；股市数据；同时代金融报道（《华尔街日报》、《金融时报》、彭博社）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official government actions and market data. Exact tariff rates shifted rapidly through escalation and partial pauses, creating genuine ambiguity about which rates applied at any given moment.",
+      "certainty_note": "官方政府行动和市场数据。确切的关税税率通过升级和部分暂停迅速变化，造成了关于在任何特定时刻适用何种税率的真正模糊性。",
       "cross_references": [
         "2025-001",
         "2025-004"
@@ -198,250 +198,250 @@
     },
     {
       "id": "2025-009",
-      "title": "Death of Pope Francis",
-      "region": "Vatican City / Global",
+      "title": "教皇方济各去世",
+      "region": "梵蒂冈/全球",
       "coordinates_approx": "41.90, 12.45",
       "category": "religious",
-      "description": "Pope Francis (Jorge Mario Bergoglio), the first Latin American and first Jesuit pope, died on April 21, 2025, at the age of 88, after a period of declining health. His 12-year papacy had been marked by efforts to reform the Catholic Church's approach to social issues, pastoral outreach to marginalized communities, and the encyclical Laudato si' on climate change. He was a polarizing figure within the Church, admired by progressives for his emphasis on mercy and social justice while criticized by traditionalists for perceived doctrinal ambiguity. His death triggered a conclave to elect his successor.",
+      "description": "教皇方济各（豪尔赫·马里奥·贝尔戈利奥），第一位拉丁美洲和第一位耶稣会教皇，于2025年4月21日去世，享年88岁，此前健康状况持续下降。他12年的教皇任期以努力改革天主教会在社会问题上的方法、对边缘化社区的牧灵外展以及关于气候变化的通谕《愿你受赞颂》为标志。他在教会内部是一个两极分化的人物，受到进步派的钦佩，因为他强调慈悲和社会正义，同时因被认为教义模糊而受到传统主义者的批评。他的去世引发了选举其继任者的秘密会议。",
       "key_figures": [
-        "Pope Francis (Jorge Mario Bergoglio)",
-        "Pietro Parolin (Vatican Secretary of State, Camerlengo)"
+        "Pope Francis（豪尔赫·马里奥·贝尔戈利奥）",
+        "Pietro Parolin（梵蒂冈国务卿、宗座总管）"
       ],
       "sources": [
         {
-          "name": "Official Vatican statements; contemporaneous global media coverage (AP, Reuters, Vatican News)",
+          "name": "梵蒂冈官方声明；同时代全球媒体报道（美联社、路透社、梵蒂冈新闻）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Massively documented global event.",
+      "certainty_note": "大规模记录的全球事件。",
       "cross_references": []
     },
     {
       "id": "2025-010",
-      "title": "Mark Carney becomes Prime Minister of Canada",
-      "region": "Canada",
+      "title": "马克·卡尼成为加拿大总理",
+      "region": "加拿大",
       "coordinates_approx": "45.42, -75.70",
       "category": "political",
-      "description": "Mark Carney, former Governor of the Bank of Canada and the Bank of England, became Prime Minister of Canada in March 2025 after winning the Liberal Party leadership race following Justin Trudeau's resignation in January. Carney's ascent was driven by the need for a leader perceived as capable of navigating the escalating trade conflict with the United States under Trump's tariff regime. He called a snap federal election for April 28, framing it as a mandate to defend Canadian sovereignty and economic interests against US protectionism.",
+      "description": "马克·卡尼，前加拿大银行和英格兰银行行长，在贾斯汀·特鲁多于1月辞职后，于2025年3月赢得自由党领导权竞选，成为加拿大总理。卡尼的崛起是由需要一位被认为能够应对特朗普关税制度下与美国不断升级的贸易冲突的领导人驱动的。他于4月28日召集了提前联邦选举，将其定位为捍卫加拿大主权和经济利益以对抗美国保护主义的授权。",
       "key_figures": [
-        "Mark Carney (Prime Minister)",
-        "Justin Trudeau (outgoing Prime Minister)"
+        "Mark Carney（总理）",
+        "Justin Trudeau（即将离任的总理）"
       ],
       "sources": [
         {
-          "name": "Official Liberal Party of Canada records; contemporaneous Canadian media coverage (Globe and Mail, CBC, Canadian Press)",
+          "name": "加拿大自由党官方记录；同时代加拿大媒体报道（《环球邮报》、加拿大广播公司、加拿大通讯社）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official political transition with extensive documentation.",
+      "certainty_note": "具有广泛文件记录的官方政治过渡。",
       "cross_references": [
         "2025-008"
       ]
     },
     {
       "id": "2025-011",
-      "title": "Syria's post-Assad transitional government takes shape",
-      "region": "Syria / Middle East",
+      "title": "叙利亚后阿萨德过渡政府成形",
+      "region": "叙利亚/中东",
       "coordinates_approx": "33.51, 36.29",
       "category": "political",
-      "description": "Following the fall of Bashar al-Assad's regime in December 2024 after a rapid rebel offensive led by Hayat Tahrir al-Sham (HTS), Syria entered a turbulent transitional period in early 2025. Ahmed al-Sharaa (formerly Abu Mohammed al-Julani) led the transitional administration from Damascus, attempting to consolidate authority, manage competing armed factions, and gain international legitimacy. The transition was complicated by Kurdish autonomous governance in the northeast, Turkish military operations, Israeli strikes on Syrian military infrastructure, and the challenge of governing a war-shattered country after 13 years of civil war.",
+      "description": "在巴沙尔·阿萨德政权于2024年12月因沙姆解放组织领导的快速叛军攻势而倒台后，叙利亚于2025年初进入了一个动荡的过渡时期。艾哈迈德·沙拉（原名阿布·穆罕默德·朱拉尼）从大马士革领导过渡政府，试图巩固权力、管理相互竞争的武装派别并获得国际合法性。过渡因东北部的库尔德自治治理、土耳其军事行动、以色列对叙利亚军事基础设施的打击以及在13年内战后治理一个饱受战争蹂躏的国家的挑战而复杂化。",
       "key_figures": [
-        "Ahmed al-Sharaa / Abu Mohammed al-Julani (HTS leader, transitional leader)",
-        "Bashar al-Assad (deposed, exiled to Russia)"
+        "Ahmed al-Sharaa / Abu Mohammed al-Julani（沙姆解放组织领导人，过渡领导人）",
+        "Bashar al-Assad（被废黜，流亡俄罗斯）"
       ],
       "sources": [
         {
-          "name": "Contemporaneous reporting (AP, Reuters, Al Jazeera, Syria Direct); UN situation reports",
+          "name": "同时代报道（美联社、路透社、半岛电视台、叙利亚直接）；联合国情况报告",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The fall of Assad and transition are well-documented. The evolving political situation involves many competing narratives and rapid changes.",
+      "certainty_note": "阿萨德倒台和过渡有充分记录。不断变化的政治局势涉及许多相互竞争的叙述和快速变化。",
       "cross_references": []
     },
     {
       "id": "2025-012",
-      "title": "Sudan civil war famine and humanitarian catastrophe deepens",
-      "region": "Sudan / East Africa",
+      "title": "苏丹内战饥荒和人道主义灾难加深",
+      "region": "苏丹/东非",
       "coordinates_approx": "15.50, 32.56",
       "category": "demographic",
-      "description": "The civil war between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF), which began in April 2023, continued to produce one of the world's worst humanitarian crises through 2025. Famine conditions were confirmed in multiple areas, particularly in Darfur and Khartoum state. Over 10 million people were internally displaced, with millions more as refugees in neighbouring countries. Both sides faced credible accusations of atrocities, including ethnic cleansing in West Darfur. International attention remained limited relative to the scale of the crisis.",
+      "description": "苏丹武装部队与快速支援部队之间始于2023年4月的内战，到2025年继续产生世界上最严重的人道主义危机之一。多个地区确认出现饥荒状况，特别是在达尔富尔和喀土穆州。超过1000万人在国内流离失所，另有数百万人成为邻国的难民。双方都面临可信的暴行指控，包括西达尔富尔的种族清洗。相对于危机的规模，国际关注仍然有限。",
       "key_figures": [
-        "Abdel Fattah al-Burhan (SAF commander)",
-        "Mohamed Hamdan Dagalo / Hemedti (RSF commander)"
+        "Abdel Fattah al-Burhan（苏丹武装部队指挥官）",
+        "Mohamed Hamdan Dagalo / Hemedti（快速支援部队指挥官）"
       ],
       "sources": [
         {
-          "name": "UN OCHA situation reports; IPC (Integrated Food Security Phase Classification) famine assessments; M\u00e9decins Sans Fronti\u00e8res field reports; contemporaneous media coverage",
+          "name": "联合国人道主义事务协调办公室情况报告；综合粮食安全阶段分类饥荒评估；无国界医生实地报告；同时代媒体报道",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Humanitarian data is well-attested by multiple UN agencies. Exact casualty figures are likely significantly undercounted due to collapsed health infrastructure and restricted access.",
+      "certainty_note": "人道主义数据得到多个联合国机构的充分证实。由于卫生基础设施崩溃和准入受限，确切伤亡数字可能被严重低估。",
       "cross_references": []
     },
     {
       "id": "2025-013",
-      "title": "Russia-Ukraine war continues into fourth year",
-      "region": "Ukraine / Russia / Eastern Europe",
+      "title": "俄乌战争进入第四年",
+      "region": "乌克兰/俄罗斯/东欧",
       "coordinates_approx": "48.38, 35.04",
       "category": "military",
-      "description": "The Russia-Ukraine war, now in its fourth year following Russia's full-scale invasion in February 2022, continued with grinding attritional warfare along a largely static front in eastern and southern Ukraine. Russia made slow territorial gains in the Donbas region, particularly around Pokrovsk. The Trump administration signalled a push for negotiations, conditioning continued US military aid on Ukrainian willingness to engage in peace talks, creating significant diplomatic tension with Kyiv and European allies. North Korean troops deployed in Russia's Kursk region continued to participate in combat operations against Ukrainian forces.",
+      "description": "自2022年2月俄罗斯全面入侵以来已进入第四年的俄乌战争，继续在乌克兰东部和南部基本静态的前线进行消耗战。俄罗斯在顿巴斯地区取得了缓慢的领土进展，特别是在波克罗夫斯克附近。特朗普政府表示推动谈判，将美国继续军事援助的条件设定为乌克兰愿意参与和平谈判，这造成了与基辅和欧洲盟友的重大外交紧张。部署在俄罗斯库尔斯克地区的朝鲜军队继续参与针对乌克兰军队的战斗行动。",
       "key_figures": [
-        "Volodymyr Zelensky (President of Ukraine)",
-        "Vladimir Putin (President of Russia)",
-        "Donald Trump (US President)"
+        "Volodymyr Zelensky（乌克兰总统）",
+        "Vladimir Putin（俄罗斯总统）",
+        "Donald Trump（美国总统）"
       ],
       "sources": [
         {
-          "name": "Institute for the Study of War (ISW) daily assessments; Ukrainian and Russian military communiqu\u00e9s; contemporaneous media coverage (AP, Reuters, Kyiv Independent, TASS)",
+          "name": "战争研究所每日评估；乌克兰和俄罗斯军方公报；同时代媒体报道（美联社、路透社、基辅独立报、塔斯社）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented conflict with daily OSINT analysis, satellite imagery, and multi-source reporting. Fog of war affects tactical details but broad dynamics are well-established.",
+      "certainty_note": "有每日开源情报分析、卫星图像和多源报道的广泛记录的冲突。战争迷雾影响战术细节，但广泛动态已得到充分确认。",
       "cross_references": []
     },
     {
       "id": "2025-014",
-      "title": "US-Colombia diplomatic crisis over deportation flights",
-      "region": "United States / Colombia",
+      "title": "美哥驱逐航班外交危机",
+      "region": "美国/哥伦比亚",
       "coordinates_approx": "4.71, -74.07",
       "category": "political",
-      "description": "In late January 2025, a diplomatic confrontation erupted between the United States and Colombia after President Gustavo Petro refused to accept US military deportation flights, objecting to the treatment of deported migrants. President Trump responded with threats of sweeping tariffs, visa restrictions, and economic sanctions. The crisis was resolved within days when Colombia accepted the flights, but the episode demonstrated the Trump administration's willingness to use economic coercion as an immediate diplomatic tool and set a precedent for similar confrontations with other countries.",
+      "description": "2025年1月下旬，美国与哥伦比亚之间爆发外交对抗，此前总统古斯塔沃·佩特罗拒绝接受美国军事驱逐航班，反对对被驱逐移民的待遇。特朗普总统以威胁全面关税、签证限制和经济制裁作为回应。危机在几天内得到解决，哥伦比亚接受了航班，但这一事件表明特朗普政府愿意将经济胁迫作为直接外交工具，并为与其他国家的类似对抗开创了先例。",
       "key_figures": [
-        "Donald Trump (US President)",
-        "Gustavo Petro (President of Colombia)"
+        "Donald Trump（美国总统）",
+        "Gustavo Petro（哥伦比亚总统）"
       ],
       "sources": [
         {
-          "name": "Official White House and Colombian presidential statements; contemporaneous wire-service reporting (AP, Reuters, EFE)",
+          "name": "白宫和哥伦比亚总统官方声明；同时代通讯社报道（美联社、路透社、埃菲社）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Public diplomatic exchange documented through official statements and media.",
+      "certainty_note": "通过官方声明和媒体记录在案的公开外交交流。",
       "cross_references": [
         "2025-001"
       ]
     },
     {
       "id": "2025-015",
-      "title": "Anthropic, OpenAI, and Google advance frontier AI models",
-      "region": "United States / Global",
+      "title": "Anthropic、OpenAI和谷歌推进前沿AI模型",
+      "region": "美国/全球",
       "coordinates_approx": "37.77, -122.42",
       "category": "technological",
-      "description": "The first half of 2025 saw continued rapid advancement in AI capabilities, with Anthropic releasing Claude model updates with extended context and agentic capabilities, OpenAI advancing its reasoning models, and Google DeepMind developing Gemini further. The AI industry saw increasing focus on 'agentic' systems capable of multi-step autonomous task execution, raising new questions about safety, reliability, and economic displacement. Regulatory frameworks remained fragmented, with the EU AI Act implementation beginning while the US pursued a lighter-touch approach under the new administration.",
+      "description": "2025年上半年，AI能力持续快速进步，Anthropic发布了具有扩展上下文和代理能力的Claude模型更新，OpenAI推进了其推理模型，谷歌DeepMind进一步开发了Gemini。AI行业越来越关注能够执行多步骤自主任务的“代理”系统，引发了关于安全性、可靠性和经济替代的新问题。监管框架仍然支离破碎，欧盟AI法案开始实施，而美国在新政府下采取了更宽松的方法。",
       "key_figures": [
-        "Dario Amodei (Anthropic CEO)",
-        "Sam Altman (OpenAI CEO)",
-        "Demis Hassabis (Google DeepMind CEO)"
+        "Dario Amodei（Anthropic首席执行官）",
+        "Sam Altman（OpenAI首席执行官）",
+        "Demis Hassabis（谷歌DeepMind首席执行官）"
       ],
       "sources": [
         {
-          "name": "Company announcements and technical publications; contemporaneous technology reporting (The Information, Ars Technica, MIT Technology Review)",
+          "name": "公司公告和技术出版物；同时代技术报道（The Information、Ars Technica、《麻省理工科技评论》）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Product releases and corporate announcements are well-documented. Long-term significance and capability assessments are subject to ongoing debate.",
+      "certainty_note": "产品发布和公司公告有充分记录。长期意义和能力评估是持续辩论的主题。",
       "cross_references": [
         "2025-004"
       ]
     },
     {
       "id": "2025-016",
-      "title": "South Korea political crisis after Yoon Suk-yeol martial law attempt",
-      "region": "South Korea / East Asia",
+      "title": "尹锡悦戒严企图后的韩国政治危机",
+      "region": "韩国/东亚",
       "coordinates_approx": "37.57, 126.98",
       "category": "political",
-      "description": "South Korea continued to navigate a constitutional crisis in early 2025 following President Yoon Suk-yeol's brief and failed declaration of martial law in December 2024. Yoon was impeached by the National Assembly and subsequently arrested in January 2025 on charges of insurrection. The Constitutional Court upheld his impeachment, formally removing him from office. The crisis was the most serious challenge to South Korean democracy since the democratization of the late 1980s and led to a snap presidential election.",
+      "description": "韩国在2025年初继续应对一场宪法危机，此前总统尹锡悦在2024年12月短暂且失败的戒严令。尹锡悦被国会弹劾，随后于2025年1月因内乱罪被捕。宪法法院维持了弹劾，正式免去其职务。这场危机是自1980年代末民主化以来韩国民主面临的最严重挑战，并导致了提前总统选举。",
       "key_figures": [
-        "Yoon Suk-yeol (impeached President)",
-        "Han Duck-soo (acting President)"
+        "Yoon Suk-yeol（被弹劾的总统）",
+        "Han Duck-soo（代理总统）"
       ],
       "sources": [
         {
-          "name": "South Korean Constitutional Court rulings; National Assembly records; contemporaneous Korean and international media coverage (Yonhap, Korea Herald, AP)",
+          "name": "韩国宪法法院裁决；国会记录；同时代韩国和国际媒体报道（韩联社、《韩国先驱报》、美联社）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official legal proceedings and government records. Extensively documented political event.",
+      "certainty_note": "官方法律程序和政府记录。广泛记录在案的政治事件。",
       "cross_references": []
     },
     {
       "id": "2025-017",
-      "title": "Sahel military juntas consolidate post-French security architecture",
-      "region": "West Africa \u2014 Mali, Burkina Faso, Niger",
+      "title": "萨赫勒军政府巩固后法国安全架构",
+      "region": "西非——马里、布基纳法索、尼日尔",
       "coordinates_approx": "13.51, 2.11",
       "category": "political",
-      "description": "The Alliance of Sahel States (Mali, Burkina Faso, and Niger), all governed by military juntas that seized power between 2020 and 2023, continued to consolidate their break from French influence and ECOWAS in 2025. The three countries deepened security cooperation, turned increasingly toward Russia and Turkey for military partnerships, and formally withdrew from ECOWAS. Jihadist insurgencies continued to cause significant civilian casualties across the region despite \u2014 and sometimes because of \u2014 military operations. The realignment represented a fundamental shift in West African geopolitics.",
+      "description": "萨赫勒国家联盟（马里、布基纳法索和尼日尔），均由在2020年至2023年间夺取政权的军政府统治，在2025年继续巩固其脱离法国影响和西非国家经济共同体的进程。这三个国家深化了安全合作，越来越转向俄罗斯和土耳其寻求军事伙伴关系，并正式退出西非国家经济共同体。圣战叛乱继续在该地区造成大量平民伤亡，尽管——有时正是因为——军事行动。这种重新调整代表了西非地缘政治的根本性转变。",
       "key_figures": [
-        "Assimi Go\u00efta (Mali transitional president)",
-        "Ibrahim Traor\u00e9 (Burkina Faso transitional president)",
-        "Abdourahamane Tchiani (Niger military leader)"
+        "Assimi Goïta（马里过渡总统）",
+        "Ibrahim Traoré（布基纳法索过渡总统）",
+        "Abdourahamane Tchiani（尼日尔军事领导人）"
       ],
       "sources": [
         {
-          "name": "ECOWAS official communiqu\u00e9s; Alliance of Sahel States declarations; ACLED conflict data; contemporaneous reporting (RFI, Jeune Afrique, AP)",
+          "name": "西非国家经济共同体官方公报；萨赫勒国家联盟宣言；武装冲突地点与事件数据项目冲突数据；同时代报道（法国国际广播电台、《青年非洲》、美联社）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official government and organizational records. Granular conflict data from ACLED. Internal political dynamics within the juntas are less transparent.",
+      "certainty_note": "官方政府和组织记录。来自武装冲突地点与事件数据项目的精细冲突数据。军政府内部的政治动态不太透明。",
       "cross_references": []
     },
     {
       "id": "2025-018",
-      "title": "Global temperature records and accelerating climate indicators",
-      "region": "Global",
+      "title": "全球温度记录和加速的气候指标",
+      "region": "全球",
       "coordinates_approx": null,
       "category": "environmental",
-      "description": "2024 was confirmed as the hottest year on record by multiple agencies (NASA, NOAA, Copernicus), with the global mean temperature exceeding 1.5\u00b0C above pre-industrial levels for the first full calendar year. The trend continued into early 2025 with anomalous ocean heat content and accelerated Antarctic sea ice loss. The breach of the 1.5\u00b0C annual threshold \u2014 though distinct from the Paris Agreement's long-term target \u2014 had significant symbolic and political weight, intensifying debate over whether climate targets set in 2015 remained achievable.",
+      "description": "2024年被多个机构（美国国家航空航天局、美国国家海洋和大气管理局、哥白尼计划）确认为有记录以来最热的一年，全球平均温度首次在完整日历年内超过工业化前水平1.5°C。这一趋势持续到2025年初，出现了异常的海洋热含量和加速的南极海冰损失。年度1.5°C阈值的突破——尽管与《巴黎协定》的长期目标不同——具有重要的象征和政治意义，加剧了关于2015年设定的气候目标是否仍然可行的辩论。",
       "key_figures": [],
       "sources": [
         {
-          "name": "NASA GISS, NOAA NCEI, Copernicus Climate Change Service annual reports; WMO State of the Global Climate preliminary reports",
+          "name": "美国国家航空航天局戈达德空间研究所、美国国家海洋和大气管理局国家环境信息中心、哥白尼气候变化服务年度报告；世界气象组织全球气候状况初步报告",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Based on instrumental temperature records from multiple independent agencies. The 1.5\u00b0C annual exceedance is a measurement, not a projection.",
+      "certainty_note": "基于来自多个独立机构的仪器温度记录。1.5°C年度超标是一个测量值，而非预测。",
       "cross_references": []
     },
     {
       "id": "2025-019",
-      "title": "US federal government mass firings face judicial pushback",
-      "region": "United States",
+      "title": "美国联邦政府大规模解雇面临司法反击",
+      "region": "美国",
       "coordinates_approx": "38.89, -77.01",
       "category": "legal",
-      "description": "Throughout early 2025, federal courts issued numerous injunctions and restraining orders blocking Trump administration attempts to dismantle federal agencies, freeze congressionally appropriated funds, and terminate civil servants en masse. Judges across the political spectrum cited violations of the Administrative Procedure Act, the Impoundment Control Act, and constitutional separation of powers. The administration's response \u2014 at times defying or slow-walking court orders \u2014 created a constitutional confrontation over executive power and judicial authority unprecedented in modern American governance.",
+      "description": "在整个2025年初，联邦法院发布了大量禁令和限制令，阻止特朗普政府试图解散联邦机构、冻结国会拨款和大规模解雇公务员。跨政治派别的法官引用了违反《行政程序法》、《拨款控制法》和宪法三权分立原则的行为。政府的回应——有时违抗或拖延执行法院命令——造成了现代美国治理中前所未有的关于行政权力和司法权威的宪法对抗。",
       "key_figures": [
-        "Donald Trump (President)",
-        "Multiple federal judges across jurisdictions"
+        "Donald Trump（总统）",
+        "多个司法管辖区的联邦法官"
       ],
       "sources": [
         {
-          "name": "Federal court filings and orders (PACER); contemporaneous legal reporting (Law360, SCOTUSblog, major newspapers)",
+          "name": "联邦法院文件和命令（PACER）；同时代法律报道（Law360、SCOTUSblog、主要报纸）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Court filings are public record. The constitutional significance is a matter of contemporaneous legal analysis and debate.",
+      "certainty_note": "法院文件是公共记录。宪法意义是同时代法律分析和辩论的问题。",
       "cross_references": [
         "2025-001",
         "2025-005"
@@ -449,102 +449,102 @@
     },
     {
       "id": "2025-020",
-      "title": "India sustains rapid economic growth amid global turbulence",
-      "region": "India / South Asia",
+      "title": "印度在全球动荡中保持快速经济增长",
+      "region": "印度/南亚",
       "coordinates_approx": "28.61, 77.21",
       "category": "economic",
-      "description": "India continued as one of the world's fastest-growing major economies in 2025, with GDP growth above 6%, benefiting from manufacturing diversification away from China, a young demographic profile, and substantial infrastructure investment under the Modi government. India navigated the global tariff upheaval with relative agility, though its own trade surplus with the US made it a target for reciprocal tariffs. The country's growing geopolitical weight was reflected in active diplomacy across the Russia-Ukraine conflict and the Indo-Pacific security architecture.",
+      "description": "印度在2025年继续成为世界上增长最快的主要经济体之一，GDP增长率超过6%，受益于制造业从中国的多元化、年轻的人口结构以及莫迪政府领导下的大量基础设施投资。印度以相对灵活的方式应对了全球关税动荡，尽管其对美国的贸易顺差使其成为互惠关税的目标。该国日益增长的地缘政治分量体现在其在俄乌冲突和印太安全架构中的积极外交。",
       "key_figures": [
-        "Narendra Modi (Prime Minister of India)"
+        "Narendra Modi（印度总理）"
       ],
       "sources": [
         {
-          "name": "IMF World Economic Outlook; Reserve Bank of India data; contemporaneous economic reporting (Economic Times, Financial Times, Reuters)",
+          "name": "国际货币基金组织《世界经济展望》；印度储备银行数据；同时代经济报道（《经济时报》、《金融时报》、路透社）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "GDP figures from official statistics and international institutions. Growth trajectory is well-established though exact quarterly figures are subject to revision.",
+      "certainty_note": "来自官方统计和国际机构的GDP数据。增长轨迹已得到充分确认，尽管确切的季度数据可能会进行修订。",
       "cross_references": [
         "2025-008"
       ]
     }
   ],
-  "disconfirming_evidence": "Several commonly circulated narratives about 2025 events require qualification: (1) The claim that DeepSeek R1 was trained for only $5.6 million is based on self-reported figures for a single training run and does not account for prior research, failed runs, or infrastructure costs \u2014 several analysts argue the true cost was substantially higher. (2) DOGE's claimed savings figures (ranging from hundreds of billions) are disputed by independent analyses and the GAO; many 'savings' represent cancelled contracts that may need to be reinstated or frozen funds that courts have ordered released. (3) The Gaza ceasefire has been described as both a diplomatic triumph and a collapse depending on the source \u2014 its durability and implementation remain actively contested, and both sides accuse the other of violations. (4) The framing of the LA wildfires as primarily a climate change event, while supported by the broader trend data, is complicated by specific contributing factors including water management decisions, vegetation management failures, and urban development patterns in fire-prone areas \u2014 attributing any single event to climate change requires careful probabilistic framing. (5) The characterisation of the Sahel juntas as simply 'anti-French' oversimplifies complex internal politics where coups were also driven by public frustration with corruption and insecurity under civilian governments.",
-  "historiographic_note": "2025 benefits from an extraordinarily rich documentary record: real-time digital media, satellite imagery, financial market data, court filings, social media, and multiple independent wire services. However, significant biases shape coverage. US and European events receive disproportionate attention relative to their population share. The Sudan crisis \u2014 arguably the world's worst humanitarian disaster \u2014 received a fraction of the media attention given to the US tariff story. Chinese domestic politics and decision-making remain opaque behind state media. The speed of events (particularly the tariff escalation and DOGE actions) means that even contemporaneous reporting sometimes lags behind or contains errors corrected only later. AI-generated misinformation is an increasing factor in the information environment for 2025, making source verification more important than in prior years. This entry was compiled with knowledge through approximately May 2025; events from the second half of the year may be underrepresented or absent.",
+  "disconfirming_evidence": "关于2025年事件的几个普遍流传的说法需要限定：(1) DeepSeek R1仅以560万美元训练的说法基于单次训练运行的自我报告数字，并未考虑先前研究、失败运行或基础设施成本——几位分析师认为实际成本要高得多。(2) DOGE声称的节省数字（从数千亿不等）受到独立分析和政府问责局的质疑；许多“节省”代表可能需要恢复的取消合同或法院已命令释放的冻结资金。(3) 加沙停火被描述为外交胜利或崩溃，取决于消息来源——其持久性和实施仍然受到积极争议，双方都指责对方违反。(4) 将洛杉矶山火主要归因于气候变化事件的框架，虽然得到更广泛趋势数据的支持，但被具体促成因素复杂化，包括水资源管理决策、植被管理失败和火灾易发地区的城市发展模式——将任何单一事件归因于气候变化需要谨慎的概率框架。(5) 将萨赫勒军政府简单描述为“反法”过于简化了复杂的内部政治，其中政变也是由公众对文官政府下的腐败和不安全的不满所驱动的。",
+  "historiographic_note": "2025年受益于异常丰富的文献记录：实时数字媒体、卫星图像、金融市场数据、法院文件、社交媒体和多个独立通讯社。然而，显著的偏见塑造了报道。美国和欧洲事件相对于其人口比例获得了不成比例的关注。苏丹危机——可以说是世界上最严重的人道主义灾难——获得的媒体关注度仅为美国关税故事的一小部分。中国国内政治和决策在国家媒体背后仍然不透明。事件的速度（特别是关税升级和DOGE行动）意味着即使是同时代的报道有时也滞后或包含后来才纠正的错误。AI生成的错误信息是2025年信息环境中日益增长的因素，使得来源验证比前几年更加重要。此条目是在大约2025年5月的知识下编制的；下半年的事件可能代表性不足或缺失。",
   "graph_edges": [
     {
       "from": "2025-001",
       "to": "2025-005",
       "relation": "led_to",
-      "note": "Trump inauguration enabled DOGE creation and federal restructuring"
+      "note": "特朗普就职使DOGE创建和联邦重组成为可能"
     },
     {
       "from": "2025-001",
       "to": "2025-008",
       "relation": "led_to",
-      "note": "Trump administration initiated Liberation Day tariffs"
+      "note": "特朗普政府发起了解放日关税"
     },
     {
       "from": "2025-001",
       "to": "2025-014",
       "relation": "led_to",
-      "note": "Trump immigration enforcement triggered Colombia diplomatic crisis"
+      "note": "特朗普移民执法引发了哥伦比亚外交危机"
     },
     {
       "from": "2025-001",
       "to": "2025-019",
       "relation": "led_to",
-      "note": "Executive actions prompted judicial pushback"
+      "note": "行政行动引发了司法反击"
     },
     {
       "from": "2025-005",
       "to": "2025-019",
       "relation": "led_to",
-      "note": "DOGE workforce reductions were primary targets of federal court injunctions"
+      "note": "DOGE劳动力削减是联邦法院禁令的主要目标"
     },
     {
       "from": "2025-008",
       "to": "2025-010",
       "relation": "led_to",
-      "note": "US tariff threat accelerated Carney's election call and framed Canadian election"
+      "note": "美国关税威胁加速了卡尼的选举号召并框定了加拿大选举"
     },
     {
       "from": "2025-004",
       "to": "2025-015",
       "relation": "contemporary_with",
-      "note": "DeepSeek release was part of broader AI capability acceleration"
+      "note": "DeepSeek发布是更广泛AI能力加速的一部分"
     },
     {
       "from": "2025-003",
       "to": "2024-Gaza_War",
       "relation": "caused_by",
-      "note": "Ceasefire followed 15+ months of war triggered by October 7, 2023 attack"
+      "note": "停火是在2023年10月7日袭击引发的15个多月战争之后"
     },
     {
       "from": "2025-013",
       "to": "2022-Russia_Ukraine_Invasion",
       "relation": "part_of",
-      "note": "Continuation of war begun with Russia's full-scale invasion in February 2022"
+      "note": "延续自2022年2月俄罗斯全面入侵开始的战争"
     },
     {
       "from": "2025-016",
       "to": "2024-Yoon_Martial_Law",
       "relation": "caused_by",
-      "note": "Constitutional crisis followed Yoon's December 2024 martial law declaration"
+      "note": "宪法危机紧随尹锡悦2024年12月戒严宣言"
     },
     {
       "from": "2025-011",
       "to": "2024-Assad_Fall",
       "relation": "caused_by",
-      "note": "Transitional governance followed Assad regime collapse in December 2024"
+      "note": "过渡治理紧随阿萨德政权于2024年12月垮台"
     },
     {
       "from": "2025-008",
       "to": "1930-Smoot_Hawley",
       "relation": "contemporary_with",
-      "note": "Commentators drew direct parallels to the 1930 Smoot-Hawley tariff in scope and potential impact"
+      "note": "评论员直接将其与1930年斯穆特-霍利关税在范围和潜在影响上相提并论"
     }
   ],
   "_meta": {

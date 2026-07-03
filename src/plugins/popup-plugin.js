@@ -6,7 +6,8 @@
  */
 
 import { CATEGORIES } from '../config.js';
-import { formatYear } from '../utils.js';
+import { getDisplayCategory } from '../utils.js';
+import { t, getCategoryLabel, formatYearLocale } from '../locale.js';
 
 export default {
   name: 'popup-plugin',
@@ -36,13 +37,14 @@ export default {
 
     core.state.on('selectedEvent', (evt) => {
       if (!evt) { hide(); return; }
+      const locale = core.state.get('locale') ?? 'zh';
 
-      titleEl.textContent = evt.title ?? 'Untitled';
-      yearEl.textContent = formatYear(evt._year ?? evt.year);
+      titleEl.textContent = evt.title ?? t('popup.untitled', locale);
+      yearEl.textContent = formatYearLocale(evt._year ?? evt.year, locale);
 
-      const catCfg = CATEGORIES[evt.category];
+      const catCfg = CATEGORIES[getDisplayCategory(evt.category)];
       if (catCfg) {
-        catEl.textContent = catCfg.label;
+        catEl.textContent = getCategoryLabel(catCfg, locale);
         catEl.style.background = catCfg.color + '22';
         catEl.style.color = catCfg.color;
         catEl.style.border = '1px solid ' + catCfg.color + '44';
@@ -61,7 +63,7 @@ export default {
       // Sources as clickable links
       if (evt.sources?.length) {
         sourceEl.innerHTML =
-          '<div style="margin-top:4px;font-size:12px;color:#888;">来源</div>' +
+          `<div style="margin-top:4px;font-size:12px;color:#888;">${t('popup.sources', locale)}</div>` +
           evt.sources
             .slice(0, 3)
             .map((s) => {

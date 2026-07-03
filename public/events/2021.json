@@ -1,277 +1,277 @@
 {
   "year": 2021,
-  "year_label": "2021 CE",
-  "era_context": "The early 2020s were defined by the global COVID-19 pandemic, which reshaped public health systems, economies, and political landscapes worldwide. Great-power competition between the United States and China intensified across trade, technology, and geopolitics. Climate change dominated multilateral diplomacy, while democratic backsliding and authoritarian consolidation accelerated in multiple regions. The year 2021 specifically marked the transition from pandemic crisis to mass vaccination campaigns, alongside significant political upheavals from Washington to Kabul to Naypyidaw.",
-  "documentation_level": "rich",
+  "year_label": "2021年",
+  "era_context": "21世纪20年代初，全球新冠疫情重塑了世界各地的公共卫生体系、经济和政治格局。美中两国在贸易、科技和地缘政治领域的大国竞争愈演愈烈。气候变化主导了多边外交，同时多个地区的民主倒退和威权巩固加速。2021年具体标志着从疫情危机向大规模疫苗接种运动的过渡，同时从华盛顿到喀布尔再到内比都，发生了重大的政治动荡。",
+  "documentation_level": "丰富",
   "geographic_coverage_gaps": [
-    "Central Asia (limited coverage of domestic politics in Turkmenistan, Tajikistan, Uzbekistan)",
-    "Pacific Island nations beyond climate diplomacy framing",
-    "Francophone West Africa (multiple coups and security crises in the Sahel receive less Anglophone coverage)",
-    "Internal developments in North Korea beyond nuclear programme framing"
+    "中亚（对土库曼斯坦、塔吉克斯坦、乌兹别克斯坦国内政治的报道有限）",
+    "太平洋岛国（除气候外交框架外）",
+    "法语西非（萨赫勒地区的多次政变和安全危机获得的英语媒体报道较少）",
+    "朝鲜内部发展（除核计划框架外）"
   ],
   "events": [
     {
       "id": "2021-001",
-      "title": "Global COVID-19 vaccine rollout begins at scale",
-      "region": "Global",
+      "title": "全球新冠疫苗大规模接种启动",
+      "region": "全球",
       "coordinates_approx": null,
       "category": "scientific",
-      "description": "Mass vaccination campaigns using mRNA vaccines (Pfizer-BioNTech, Moderna), viral vector vaccines (AstraZeneca, Johnson & Johnson, Sputnik V), and inactivated virus vaccines (Sinopharm, Sinovac) were deployed worldwide throughout 2021. By year's end, approximately 9 billion doses had been administered globally, though distribution was profoundly unequal \u2014 wealthy nations achieved majority adult coverage while many low-income countries, particularly in sub-Saharan Africa, remained below 10%. The COVAX initiative, intended to ensure equitable access, fell far short of its targets. The Delta variant (identified in India, dominant by mid-year) and Omicron variant (identified in South Africa in November) drove successive waves that tested vaccine efficacy and prompted booster campaigns.",
+      "description": "2021年全年，使用mRNA疫苗（辉瑞-BioNTech、莫德纳）、病毒载体疫苗（阿斯利康、强生、卫星V）和灭活病毒疫苗（国药、科兴）的大规模接种活动在全球展开。到年底，全球已接种约90亿剂疫苗，但分配极不平等——富裕国家实现了大多数成年人的覆盖，而许多低收入国家，特别是撒哈拉以南非洲国家，覆盖率仍低于10%。旨在确保公平获取的COVAX倡议远未达到其目标。德尔塔变异株（在印度发现，年中成为主导毒株）和奥密克戎变异株（11月在南非发现）引发了接连的疫情浪潮，考验了疫苗效力并推动了加强针接种运动。",
       "key_figures": [
-        "Tedros Adhanom Ghebreyesus (WHO Director-General)",
-        "Albert Bourla (Pfizer CEO)",
-        "St\u00e9phane Bancel (Moderna CEO)",
-        "Sarah Gilbert (Oxford-AstraZeneca vaccine lead)"
+        "Tedros Adhanom Ghebreyesus（世卫组织总干事）",
+        "Albert Bourla（辉瑞CEO）",
+        "Stéphane Bancel（莫德纳CEO）",
+        "Sarah Gilbert（牛津-阿斯利康疫苗负责人）"
       ],
       "sources": [
         {
-          "name": "WHO COVID-19 Dashboard and situation reports (2021)",
+          "name": "世卫组织新冠仪表板和情况报告（2021年）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Our World in Data COVID-19 vaccination dataset (University of Oxford)",
+          "name": "《我们的数据世界》新冠疫苗接种数据集（牛津大学）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "The Lancet, peer-reviewed vaccine efficacy studies (multiple, 2021)",
+          "name": "《柳叶刀》同行评审疫苗效力研究（多篇，2021年）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in real-time by public health agencies, peer-reviewed literature, and global media. Dose counts are from official government reports aggregated by WHO and OWID.",
+      "certainty_note": "由公共卫生机构、同行评审文献和全球媒体实时广泛记录。接种剂量数据来自各国政府官方报告，由世卫组织和OWID汇总。",
       "cross_references": [
         "2020-COVID"
       ]
     },
     {
       "id": "2021-002",
-      "title": "Storming of the United States Capitol",
-      "region": "United States",
+      "title": "美国国会大厦遭冲击事件",
+      "region": "美国",
       "coordinates_approx": "38.89, -77.01",
       "category": "political",
-      "description": "On 6 January, supporters of outgoing President Donald Trump stormed the U.S. Capitol building in Washington, D.C., during the joint session of Congress convened to certify the Electoral College results of the 2020 presidential election. The breach forced lawmakers to evacuate, delayed certification for several hours, and resulted in five deaths on or shortly after that day, with additional later deaths among responding officers. The event led to Trump's second impeachment by the House of Representatives on 13 January (acquitted by the Senate on 13 February) and to hundreds of federal prosecutions. It represented the most significant breach of the Capitol since the War of 1812 and intensified global debate about democratic fragility in established democracies.",
+      "description": "1月6日，即将离任的总统唐纳德·特朗普的支持者冲击了位于华盛顿特区的美国国会大厦，当时国会正在召开联席会议认证2020年总统大选的选举人团结果。闯入事件迫使议员撤离，认证工作推迟数小时，并导致当天或之后不久五人死亡，随后还有更多应对事件的警官死亡。该事件导致特朗普于1月13日被众议院第二次弹劾（2月13日被参议院宣告无罪），并引发了数百起联邦起诉。这是自1812年战争以来国会大厦遭受的最严重破坏，加剧了全球关于成熟民主国家民主脆弱性的辩论。",
       "key_figures": [
-        "Donald Trump (outgoing President)",
-        "Mike Pence (Vice President, presiding over certification)",
-        "Nancy Pelosi (Speaker of the House)",
-        "Ashli Babbitt (protester killed during breach)"
+        "Donald Trump（即将离任的总统）",
+        "Mike Pence（副总统，主持认证）",
+        "Nancy Pelosi（众议院议长）",
+        "Ashli Babbitt（在闯入事件中被杀的支持者）"
       ],
       "sources": [
         {
-          "name": "U.S. House Select Committee to Investigate the January 6th Attack, final report (December 2022)",
+          "name": "美国众议院1月6日袭击事件特别调查委员会最终报告（2022年12月）",
           "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "Department of Justice case filings and press releases (2021\u20132023)",
+          "name": "司法部案件文件及新闻稿（2021-2023年）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary video footage, journalist accounts, and Congressional Record (6 January 2021)",
+          "name": "当代视频资料、记者报道及国会记录（2021年1月6日）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Exhaustively documented by live broadcast, tens of thousands of hours of security footage, social media posts from participants, and subsequent federal investigations.",
+      "certainty_note": "通过现场直播、数万小时安保录像、参与者的社交媒体帖子以及随后的联邦调查得到了详尽记录。",
       "cross_references": [
         "2020-US-ELECTION"
       ]
     },
     {
       "id": "2021-003",
-      "title": "Inauguration of Joe Biden as 46th U.S. President",
-      "region": "United States",
+      "title": "乔·拜登就任第46任美国总统",
+      "region": "美国",
       "coordinates_approx": "38.89, -77.01",
       "category": "political",
-      "description": "Joe Biden was inaugurated as the 46th President of the United States on 20 January, with Kamala Harris sworn in as Vice President \u2014 the first woman, first Black person, and first person of South Asian descent to hold the office. The inauguration took place under extraordinary security following the Capitol breach two weeks earlier, with 25,000 National Guard troops deployed in Washington. Biden's early executive actions reversed several Trump-era policies, including rejoining the Paris Climate Agreement and the WHO, halting the border wall construction, and mandating federal mask-wearing.",
+      "description": "乔·拜登于1月20日宣誓就任美国第46任总统，卡玛拉·哈里斯宣誓就任副总统——她是首位担任该职位的女性、非裔美国人和南亚裔美国人。就职典礼在两周前国会大厦遭冲击后采取了非同寻常的安全措施，2.5万名国民警卫队士兵部署在华盛顿。拜登早期的行政命令撤销了多项特朗普时期的政策，包括重新加入《巴黎气候协定》和世卫组织、停止修建边境墙以及强制联邦工作人员佩戴口罩。",
       "key_figures": [
-        "Joe Biden (President)",
-        "Kamala Harris (Vice President)",
-        "Amanda Gorman (inaugural poet)"
+        "Joe Biden（总统）",
+        "Kamala Harris（副总统）",
+        "Amanda Gorman（就职典礼诗人）"
       ],
       "sources": [
         {
-          "name": "White House official records and executive orders (January 2021)",
+          "name": "白宫官方记录及行政命令（2021年1月）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Associated Press, Reuters, contemporary news coverage (20 January 2021)",
+          "name": "美联社、路透社等当代新闻报道（2021年1月20日）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Televised ceremony with full official documentation.",
+      "certainty_note": "电视直播仪式，附有完整的官方文件记录。",
       "cross_references": [
         "2021-002"
       ]
     },
     {
       "id": "2021-004",
-      "title": "Myanmar military coup and mass protests",
-      "region": "Myanmar (Burma)",
+      "title": "缅甸军事政变及大规模抗议",
+      "region": "缅甸",
       "coordinates_approx": "19.76, 96.07",
       "category": "political",
-      "description": "On 1 February, the Myanmar military (Tatmadaw) seized power, detaining State Counsellor Aung San Suu Kyi, President Win Myint, and other civilian leaders, alleging fraud in the November 2020 elections. The coup triggered a massive civil disobedience movement and nationwide protests. The military responded with escalating violence, killing over 1,500 civilians by year's end according to the Assistance Association for Political Prisoners. A parallel National Unity Government was formed in exile, and armed resistance, including the People's Defence Force, emerged across the country, effectively initiating a civil war that expanded throughout the year.",
+      "description": "2月1日，缅甸军方（Tatmadaw）夺取政权，拘留了国务资政昂山素季、总统温敏及其他文职领导人，指控2020年11月大选存在舞弊。政变引发了大规模的公民抗命运动和全国性抗议。军方以不断升级的暴力回应，据政治犯援助协会统计，到年底已造成超过1500名平民死亡。一个平行的民族团结政府在流亡中成立，包括人民国防军在内的武装抵抗在全国各地涌现，实际上引发了一场持续扩大的内战。",
       "key_figures": [
-        "Min Aung Hlaing (Commander-in-Chief, coup leader)",
-        "Aung San Suu Kyi (deposed State Counsellor)",
-        "Mahn Win Khaing Than (acting vice president, NUG)"
+        "Min Aung Hlaing（总司令，政变领导人）",
+        "Aung San Suu Kyi（被废黜的国务资政）",
+        "Mahn Win Khaing Than（代理副总统，NUG）"
       ],
       "sources": [
         {
-          "name": "Assistance Association for Political Prisoners (Burma), daily documentation (2021)",
+          "name": "政治犯援助协会（缅甸）每日记录（2021年）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "UN Human Rights Council reports on Myanmar (2021)",
+          "name": "联合国人权理事会关于缅甸的报告（2021年）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "International Crisis Group reporting on Myanmar (2021)",
+          "name": "国际危机组织关于缅甸的报道（2021年）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented by domestic and international observers, though exact casualty figures are likely undercounts due to military information control.",
+      "certainty_note": "国内外观察员广泛记录，但由于军方信息管控，确切伤亡数字可能被低估。",
       "cross_references": []
     },
     {
       "id": "2021-005",
-      "title": "Suez Canal blocked by container ship Ever Given",
-      "region": "Egypt",
+      "title": "苏伊士运河被“长赐”号集装箱船堵塞",
+      "region": "埃及",
       "coordinates_approx": "30.02, 32.58",
       "category": "economic",
-      "description": "On 23 March, the 400-metre container ship Ever Given ran aground in the Suez Canal, completely blocking one of the world's most critical shipping chokepoints for six days. An estimated 12% of global trade passes through the canal, and the blockage held up over 400 vessels and an estimated $9.6 billion in trade per day. The ship was refloated on 29 March after dredging and tug operations. The incident exposed the fragility of global just-in-time supply chains already strained by the pandemic and became a viral cultural moment, with the image of a tiny excavator dwarfed by the massive hull capturing public imagination.",
+      "description": "3月23日，400米长的集装箱船“长赐”号在苏伊士运河搁浅，完全堵塞了这条全球最关键的航运咽喉之一长达六天。全球约12%的贸易通过该运河，堵塞导致400多艘船只滞留，每日贸易损失估计达96亿美元。该船于3月29日经过疏浚和拖船作业后重新浮起。该事件暴露了本已因疫情而紧张的全球即时供应链的脆弱性，并成为一个病毒式传播的文化时刻，一台小型挖掘机在巨大船体旁显得微不足道的画面抓住了公众的想象力。",
       "key_figures": [
-        "Osama Rabie (Suez Canal Authority chairman)"
+        "Osama Rabie（苏伊士运河管理局主席）"
       ],
       "sources": [
         {
-          "name": "Suez Canal Authority official statements (March 2021)",
+          "name": "苏伊士运河管理局官方声明（2021年3月）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Lloyd's List maritime trade analysis (March 2021)",
+          "name": "《劳氏日报》海事贸易分析（2021年3月）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Real-time satellite imagery, AIS ship tracking data, and official canal authority records.",
+      "certainty_note": "实时卫星图像、AIS船舶跟踪数据以及运河管理局官方记录。",
       "cross_references": []
     },
     {
       "id": "2021-006",
-      "title": "India's catastrophic Delta-variant COVID-19 wave",
-      "region": "India",
+      "title": "印度灾难性的德尔塔变异株新冠疫情",
+      "region": "印度",
       "coordinates_approx": "28.61, 77.21",
       "category": "demographic",
-      "description": "From April to June, India experienced a devastating second wave of COVID-19 driven by the B.1.617.2 (Delta) variant. Official daily death tolls exceeded 4,000 at the peak in May, though multiple retrospective analyses \u2014 including studies published in Science \u2014 estimated excess mortality at 3\u20135 million deaths during the period, making it one of the deadliest pandemic waves globally. Hospitals across northern and western India were overwhelmed, with widely documented shortages of oxygen, ICU beds, and cremation capacity. The crisis prompted international emergency aid and accelerated India's domestic vaccination campaign.",
+      "description": "从4月到6月，印度经历了由B.1.617.2（德尔塔）变异株驱动的毁灭性第二波疫情。官方每日死亡人数在5月高峰期超过4000人，但多项回顾性分析——包括发表在《科学》杂志上的研究——估计该期间超额死亡人数为300万至500万，使其成为全球最致命的新冠疫情浪潮之一。印度北部和西部各地的医院不堪重负，氧气、重症监护病床和火化能力普遍短缺的报道广泛流传。这场危机促使了国际紧急援助，并加速了印度的国内疫苗接种运动。",
       "key_figures": [
-        "Narendra Modi (Prime Minister)",
-        "Harsh Vardhan (Union Health Minister, resigned July 2021)"
+        "Narendra Modi（总理）",
+        "Harsh Vardhan（联邦卫生部长，2021年7月辞职）"
       ],
       "sources": [
         {
-          "name": "Indian Ministry of Health and Family Welfare daily bulletins (2021)",
+          "name": "印度卫生和家庭福利部每日公报（2021年）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Jha et al., 'COVID mortality in India: National survey data and health facility deaths,' Science, 2022",
+          "name": "Jha等人，《印度新冠死亡率：全国调查数据与医疗机构死亡人数》，《科学》，2022年",
           "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "Contemporary reporting by The Hindu, Indian Express, and wire agencies (April\u2013June 2021)",
+          "name": "《印度教徒报》、《印度快报》及通讯社的当代报道（2021年4月至6月）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Wave itself is undisputed; true mortality figures remain contested, with official counts widely regarded as substantial undercounts. Excess mortality studies provide the most reliable estimates.",
+      "certainty_note": "疫情浪潮本身无可争议；真实死亡人数仍存在争议，官方统计被广泛认为严重低估。超额死亡率研究提供了最可靠的估计。",
       "cross_references": [
         "2021-001"
       ]
     },
     {
       "id": "2021-007",
-      "title": "Israel\u2013Palestine conflict escalation (Gaza War of May 2021)",
-      "region": "Israel / Palestinian Territories",
+      "title": "以巴冲突升级（2021年5月加沙战争）",
+      "region": "以色列 / 巴勒斯坦领土",
       "coordinates_approx": "31.50, 34.47",
       "category": "military",
-      "description": "Tensions over the threatened eviction of Palestinian families in Sheikh Jarrah, East Jerusalem, and clashes at Al-Aqsa Mosque escalated into an 11-day military confrontation between Israel and Hamas from 10\u201321 May. Hamas and other militant groups fired over 4,300 rockets toward Israeli cities, while Israel conducted extensive airstrikes on Gaza, destroying several high-rise buildings including the al-Jalaa tower housing media offices. At least 256 Palestinians (including 66 children) and 13 Israelis were killed. An Egyptian-brokered ceasefire took effect on 21 May. The conflict prompted widespread global protests and reignited international debate about the Israeli-Palestinian conflict.",
+      "description": "东耶路撒冷谢赫贾拉地区巴勒斯坦家庭面临驱逐威胁以及阿克萨清真寺冲突引发的紧张局势，在5月10日至21日升级为以色列与哈马斯之间为期11天的军事对抗。哈马斯和其他武装组织向以色列城市发射了超过4300枚火箭弹，而以色列对加沙进行了大规模空袭，摧毁了包括容纳多家媒体办公室的贾拉塔在内的数座高层建筑。至少256名巴勒斯坦人（包括66名儿童）和13名以色列人丧生。埃及斡旋的停火协议于5月21日生效。这场冲突引发了全球范围的广泛抗议，并重新点燃了关于以巴冲突的国际辩论。",
       "key_figures": [
-        "Benjamin Netanyahu (Israeli Prime Minister)",
-        "Yahya Sinwar (Hamas leader in Gaza)",
-        "Mohammed Deif (Izz ad-Din al-Qassam Brigades commander)"
+        "Benjamin Netanyahu（以色列总理）",
+        "Yahya Sinwar（哈马斯加沙领导人）",
+        "Mohammed Deif（卡桑旅指挥官）"
       ],
       "sources": [
         {
-          "name": "UN Office for the Coordination of Humanitarian Affairs (OCHA) situation reports, May 2021",
+          "name": "联合国人道主义事务协调厅（OCHA）情况报告，2021年5月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Israel Defense Forces operational briefings (May 2021)",
+          "name": "以色列国防军作战简报（2021年5月）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "B'Tselem and Palestinian Centre for Human Rights documentation (2021)",
+          "name": "B'Tselem和巴勒斯坦人权中心记录（2021年）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented by all parties, international organisations, and media. Casualty figures from OCHA; combatant/civilian breakdown contested between parties.",
+      "certainty_note": "各方、国际组织和媒体广泛记录。伤亡数字来自OCHA；战斗人员/平民的划分在各方之间存在争议。",
       "cross_references": [
         "2023-GAZA"
       ]
     },
     {
       "id": "2021-008",
-      "title": "U.S. withdrawal from Afghanistan and Taliban takeover",
-      "region": "Afghanistan",
+      "title": "美国从阿富汗撤军及塔利班接管",
+      "region": "阿富汗",
       "coordinates_approx": "34.53, 69.17",
       "category": "military",
-      "description": "Following the February 2020 Doha Agreement, the United States completed its military withdrawal from Afghanistan by 31 August. The Afghan government and military collapsed with startling speed as the Taliban advanced across the country, entering Kabul on 15 August \u2014 weeks ahead of intelligence estimates. President Ashraf Ghani fled the country. A chaotic evacuation from Hamid Karzai International Airport airlifted over 124,000 people but left many Afghan allies behind. A suicide bombing by ISIS-K at Abbey Gate on 26 August killed 13 U.S. service members and at least 170 Afghan civilians. The Taliban declared the Islamic Emirate of Afghanistan, ending 20 years of U.S.-backed republican government.",
+      "description": "继2020年2月的《多哈协议》之后，美国于8月31日完成了从阿富汗的军事撤军。随着塔利班在全国推进，阿富汗政府和军队以惊人的速度崩溃，塔利班于8月15日进入喀布尔——比情报估计提前了数周。总统阿什拉夫·加尼逃离该国。从哈米德·卡尔扎伊国际机场进行的混乱撤离行动空运了超过12.4万人，但许多阿富汗盟友被遗弃。8月26日，ISIS-K在修道院门发动自杀式炸弹袭击，造成13名美军士兵和至少170名阿富汗平民死亡。塔利班宣布成立阿富汗伊斯兰酋长国，结束了美国支持的20年共和政府。",
       "key_figures": [
-        "Joe Biden (U.S. President)",
-        "Ashraf Ghani (deposed Afghan President)",
-        "Hibatullah Akhundzada (Taliban Supreme Leader)",
-        "Abdul Ghani Baradar (Taliban co-founder, deputy PM)"
+        "Joe Biden（美国总统）",
+        "Ashraf Ghani（被废黜的阿富汗总统）",
+        "Hibatullah Akhundzada（塔利班最高领袖）",
+        "Abdul Ghani Baradar（塔利班联合创始人，副总理）"
       ],
       "sources": [
         {
-          "name": "U.S. Department of Defense after-action reports and press briefings (August 2021)",
+          "name": "美国国防部行动后报告及新闻简报（2021年8月）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Special Inspector General for Afghanistan Reconstruction (SIGAR), 'Why the Afghan Security Forces Collapsed' (February 2022)",
+          "name": "阿富汗重建特别监察长（SIGAR），《阿富汗安全部队为何崩溃》（2022年2月）",
           "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "Al Jazeera, BBC, Reuters live coverage (August 2021)",
+          "name": "半岛电视台、BBC、路透社现场报道（2021年8月）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "One of the most heavily covered events of 2021. Evacuation figures from DoD; Afghan civilian casualty estimates vary by source.",
+      "certainty_note": "2021年报道最密集的事件之一。撤离人数来自国防部；阿富汗平民伤亡估计因来源而异。",
       "cross_references": [
         "2020-DOHA-AGREEMENT",
         "2001-AFGHANISTAN"
@@ -279,542 +279,542 @@
     },
     {
       "id": "2021-009",
-      "title": "NASA Perseverance rover lands on Mars; Ingenuity helicopter achieves powered flight",
-      "region": "Mars (launched from United States)",
+      "title": "NASA“毅力”号火星车登陆火星；“机智”号直升机实现动力飞行",
+      "region": "火星（从美国发射）",
       "coordinates_approx": "18.44, 77.45",
       "category": "scientific",
-      "description": "On 18 February, NASA's Perseverance rover successfully landed in Jezero Crater on Mars, beginning a mission to search for signs of ancient microbial life and collect rock samples for future return to Earth. On 19 April, the Ingenuity helicopter, carried aboard Perseverance, achieved the first powered, controlled flight on another planet \u2014 a 39-second hover at 3 metres altitude. Ingenuity far exceeded its planned five-flight demonstration, completing 18 flights by year's end. The mission represented a major milestone in planetary exploration and Mars sample return planning.",
+      "description": "2月18日，NASA的“毅力”号火星车成功着陆在火星的杰泽罗陨石坑，开始执行寻找古代微生物生命迹象并收集岩石样本以供未来返回地球的任务。4月19日，搭载在“毅力”号上的“机智”号直升机实现了在另一颗行星上的首次动力控制飞行——在3米高度悬停39秒。“机智”号远远超出了其计划的五次飞行演示，到年底共完成了18次飞行。该任务代表了行星探索和火星样本返回规划的一个重要里程碑。",
       "key_figures": [
-        "Thomas Zurbuchen (NASA Associate Administrator for Science)",
-        "MiMi Aung (Ingenuity project manager)"
+        "Thomas Zurbuchen（NASA科学任务理事会副局长）",
+        "MiMi Aung（“机智”号项目经理）"
       ],
       "sources": [
         {
-          "name": "NASA Jet Propulsion Laboratory mission reports and press releases (2021)",
+          "name": "NASA喷气推进实验室任务报告及新闻稿（2021年）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Balaram et al., 'The Ingenuity Helicopter on Mars,' various conference papers (2021)",
+          "name": "Balaram等人，《火星上的“机智”号直升机》，多篇会议论文（2021年）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Telemetry, imagery, and flight data transmitted from Mars and publicly released by NASA.",
+      "certainty_note": "从火星传回的遥测数据、图像和飞行数据，并由NASA公开发布。",
       "cross_references": []
     },
     {
       "id": "2021-010",
-      "title": "Tigray War escalation and humanitarian crisis in Ethiopia",
-      "region": "Ethiopia",
+      "title": "埃塞俄比亚提格雷战争升级及人道主义危机",
+      "region": "埃塞俄比亚",
       "coordinates_approx": "13.50, 39.47",
       "category": "military",
-      "description": "The conflict in Ethiopia's Tigray region, which began in November 2020, intensified dramatically in 2021. Tigrayan forces recaptured Mekelle in June after a federal withdrawal, then advanced into the Amhara and Afar regions by mid-year, at one point threatening to march on Addis Ababa. A de facto blockade of Tigray created famine conditions affecting hundreds of thousands. Reports of mass atrocities \u2014 including sexual violence, ethnic cleansing in western Tigray, and the Axum massacre \u2014 emerged from multiple investigations. The U.S. imposed sanctions, and Ethiopia expelled UN officials. By year's end, the conflict had displaced over 2 million people and killed thousands of civilians.",
+      "description": "始于2020年11月的埃塞俄比亚提格雷地区冲突在2021年急剧升级。提格雷部队在联邦军队撤出后于6月夺回默克莱，随后在年中推进到阿姆哈拉和阿法尔地区，一度威胁进军亚的斯亚贝巴。对提格雷的事实上的封锁造成了影响数十万人的饥荒状况。多项调查揭示了大规模暴行的报道——包括性暴力、西提格雷的种族清洗以及阿克苏姆大屠杀。美国实施了制裁，埃塞俄比亚驱逐了联合国官员。到年底，冲突已导致超过200万人流离失所，数千平民丧生。",
       "key_figures": [
-        "Abiy Ahmed (Prime Minister)",
-        "Debretsion Gebremichael (TPLF leader)",
-        "Isaias Afwerki (Eritrean President, allied with federal forces)"
+        "Abiy Ahmed（总理）",
+        "Debretsion Gebremichael（TPLF领导人）",
+        "Isaias Afwerki（厄立特里亚总统，与联邦部队结盟）"
       ],
       "sources": [
         {
-          "name": "UN Office of the High Commissioner for Human Rights / Ethiopian Human Rights Commission joint investigation (November 2021)",
+          "name": "联合国人权事务高级专员办事处/埃塞俄比亚人权委员会联合调查（2021年11月）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Amnesty International and Human Rights Watch reports on Tigray (2021)",
+          "name": "国际特赦组织和人权观察关于提格雷的报告（2021年）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "WFP/OCHA humanitarian situation reports on northern Ethiopia (2021)",
+          "name": "世界粮食计划署/OCHA关于埃塞俄比亚北部的人道主义局势报告（2021年）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Confirmed by multiple independent investigations, though full documentation was impeded by communications blackouts and access restrictions imposed by all parties.",
+      "certainty_note": "多项独立调查确认，但全面记录受到各方实施的通讯封锁和准入限制的阻碍。",
       "cross_references": []
     },
     {
       "id": "2021-011",
-      "title": "COP26 Climate Summit in Glasgow",
-      "region": "United Kingdom / Global",
+      "title": "格拉斯哥COP26气候峰会",
+      "region": "英国 / 全球",
       "coordinates_approx": "55.86, -4.25",
       "category": "environmental",
-      "description": "The 26th UN Climate Change Conference (COP26) was held in Glasgow from 31 October to 13 November, delayed one year by the pandemic. The Glasgow Climate Pact was the first COP decision to explicitly reference fossil fuels, calling for a 'phase-down' of unabated coal power (amended from 'phase-out' at India's insistence). Over 100 countries signed a Global Methane Pledge to reduce methane emissions 30% by 2030, and 141 countries signed the Glasgow Leaders' Declaration on Forests and Land Use. However, the commitments remained insufficient to limit warming to 1.5\u00b0C, with analyses projecting 2.4\u00b0C warming under announced pledges.",
+      "description": "第26届联合国气候变化大会（COP26）于10月31日至11月13日在格拉斯哥举行，因疫情推迟一年。《格拉斯哥气候公约》是首个明确提及化石燃料的COP决议，呼吁“逐步减少”未减排的煤电（应印度要求从“逐步淘汰”修改而来）。超过100个国家签署了《全球甲烷承诺》，承诺到2030年将甲烷排放量减少30%，141个国家签署了《格拉斯哥领导人森林和土地利用宣言》。然而，这些承诺仍不足以将升温限制在1.5°C以内，分析预测在已宣布的承诺下升温幅度为2.4°C。",
       "key_figures": [
-        "Alok Sharma (COP26 President)",
-        "John Kerry (U.S. Special Presidential Envoy for Climate)",
-        "Xie Zhenhua (China Special Envoy for Climate Change)"
+        "Alok Sharma（COP26主席）",
+        "John Kerry（美国总统气候问题特使）",
+        "Xie Zhenhua（中国气候变化事务特使）"
       ],
       "sources": [
         {
-          "name": "UNFCCC, Glasgow Climate Pact (decision 1/CMA.3), 13 November 2021",
+          "name": "UNFCCC，《格拉斯哥气候公约》（决定1/CMA.3），2021年11月13日",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Climate Action Tracker analysis of Glasgow pledges (November 2021)",
+          "name": "气候行动追踪组织对格拉斯哥承诺的分析（2021年11月）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official UNFCCC records and public commitments. Effectiveness of pledges is a matter of ongoing assessment.",
+      "certainty_note": "UNFCCC官方记录和公开承诺。承诺的有效性是一个持续评估的问题。",
       "cross_references": [
         "2015-PARIS"
       ]
     },
     {
       "id": "2021-012",
-      "title": "Chinese regulatory crackdown on technology sector",
-      "region": "China",
+      "title": "中国对科技行业的监管整顿",
+      "region": "中国",
       "coordinates_approx": "39.90, 116.40",
       "category": "economic",
-      "description": "Throughout 2021, the Chinese government implemented a sweeping regulatory campaign targeting major technology companies. The campaign began with the halted IPO of Ant Group in late 2020 and expanded to encompass antitrust actions against Alibaba (a record $2.8 billion fine in April), new data security regulations, restrictions on for-profit education tutoring (effectively destroying the $100 billion edtech sector), limits on minors' video gaming time, and increased scrutiny of ride-hailing platform Didi Chuxing (whose app was ordered removed from stores days after its NYSE IPO in July). The crackdown wiped over $1 trillion from Chinese tech stocks and signalled a major rebalancing of state-market relations under Xi Jinping's 'common prosperity' agenda.",
+      "description": "2021年全年，中国政府实施了一场针对主要科技公司的全面监管行动。这场运动始于2020年底蚂蚁集团IPO被叫停，并扩大到包括对阿里巴巴的反垄断行动（4月创纪录的28亿美元罚款）、新的数据安全法规、对营利性教育辅导的限制（实际上摧毁了价值1000亿美元的教育科技行业）、限制未成年人电子游戏时间，以及对网约车平台滴滴出行的加强审查（其应用程序在7月于纽交所IPO几天后被勒令下架）。这场整顿使中国科技股蒸发了超过1万亿美元，标志着在习近平“共同富裕”议程下国家与市场关系的重大调整。",
       "key_figures": [
-        "Xi Jinping (General Secretary, CPC)",
-        "Jack Ma (Alibaba founder, notably absent from public life)"
+        "Xi Jinping（中共中央总书记）",
+        "Jack Ma（阿里巴巴创始人，显著缺席公共生活）"
       ],
       "sources": [
         {
-          "name": "State Administration for Market Regulation (SAMR) rulings and published decisions (2021)",
+          "name": "国家市场监督管理总局（SAMR）裁决及已公布决定（2021年）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Cyberspace Administration of China published regulations (2021)",
+          "name": "国家互联网信息办公室已公布法规（2021年）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Financial Times, Caixin, and Reuters economic analysis (2021)",
+          "name": "《金融时报》、财新网和路透社经济分析（2021年）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Regulatory actions are matters of public record. Internal motivations are inferred from official statements and Party media commentary.",
+      "certainty_note": "监管行动属于公共记录。内部动机根据官方声明和党媒评论推断。",
       "cross_references": []
     },
     {
       "id": "2021-013",
-      "title": "Assassination of Haitian President Jovenel Mo\u00efse",
-      "region": "Haiti",
+      "title": "海地总统若弗内尔·莫伊兹遇刺",
+      "region": "海地",
       "coordinates_approx": "18.54, -72.34",
       "category": "political",
-      "description": "On 7 July, President Jovenel Mo\u00efse was assassinated at his private residence in P\u00e9tion-Ville by a group of gunmen, many of them Colombian mercenaries. His wife, Martine Mo\u00efse, was critically wounded. The assassination plunged Haiti deeper into political crisis: the country had no functioning parliament, no constitutional court, and disputed claims to the interim presidency. Ariel Henry, whom Mo\u00efse had designated as prime minister days before, assumed executive authority. Investigations revealed a complex web of Haitian-American intermediaries who had recruited the mercenaries, though the full chain of command remained murky. The assassination compounded existing crises of gang violence, economic collapse, and a 7.2-magnitude earthquake that struck southern Haiti on 14 August, killing over 2,200 people.",
+      "description": "7月7日，总统若弗内尔·莫伊兹在佩蒂翁维尔的私人住所被一群枪手刺杀，其中许多人是哥伦比亚雇佣兵。他的妻子玛蒂娜·莫伊兹受重伤。刺杀事件使海地陷入更深的政治危机：该国没有运作中的议会、没有宪法法院，对临时总统职位存在争议。莫伊兹在遇刺前几天任命的总理阿里埃尔·亨利接管了行政权力。调查揭示了一个复杂的海地裔美国中间人网络，他们招募了这些雇佣兵，但完整的指挥链仍然模糊不清。刺杀事件加剧了本已存在的帮派暴力、经济崩溃以及8月14日袭击海地南部、造成2200多人死亡的7.2级地震等危机。",
       "key_figures": [
-        "Jovenel Mo\u00efse (assassinated President)",
-        "Ariel Henry (acting Prime Minister)",
-        "Martine Mo\u00efse (First Lady, survivor)"
+        "Jovenel Moïse（被刺杀的总统）",
+        "Ariel Henry（代理总理）",
+        "Martine Moïse（第一夫人，幸存者）"
       ],
       "sources": [
         {
-          "name": "Haitian National Police investigation reports and press conferences (2021)",
+          "name": "海地国家警察调查报告及新闻发布会（2021年）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "U.S. Department of Justice indictments related to assassination (2022\u20132023)",
+          "name": "美国司法部与刺杀相关的起诉书（2022-2023年）",
           "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "Miami Herald investigative reporting (2021\u20132022)",
+          "name": "《迈阿密先驱报》调查报道（2021-2022年）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The assassination itself is undisputed. The full conspiracy and chain of responsibility remain under investigation with multiple competing theories.",
+      "certainty_note": "刺杀本身无可争议。完整的阴谋和责任链仍在调查中，存在多种相互竞争的理论。",
       "cross_references": []
     },
     {
       "id": "2021-014",
-      "title": "AUKUS security pact announced",
-      "region": "Australia / United Kingdom / United States / Indo-Pacific",
+      "title": "AUKUS安全协议宣布",
+      "region": "澳大利亚 / 英国 / 美国 / 印太地区",
       "coordinates_approx": null,
       "category": "political",
-      "description": "On 15 September, Australia, the United Kingdom, and the United States announced AUKUS, a trilateral security partnership whose centrepiece was the provision of nuclear-powered submarine technology to Australia \u2014 only the second time the U.S. had shared such technology (after the UK in 1958). Australia simultaneously cancelled a $90 billion conventional submarine contract with France's Naval Group, provoking a major diplomatic crisis with Paris, which recalled its ambassadors from Washington and Canberra. AUKUS was widely interpreted as a strategic counter to Chinese military expansion in the Indo-Pacific and represented a significant shift in the region's security architecture.",
+      "description": "9月15日，澳大利亚、英国和美国宣布了AUKUS，这是一个三边安全伙伴关系，其核心是向澳大利亚提供核动力潜艇技术——这是美国第二次分享此类技术（继1958年与英国之后）。澳大利亚同时取消了与法国海军集团价值900亿美元的常规潜艇合同，引发了与巴黎的重大外交危机，法国召回了驻华盛顿和堪培拉的大使。AUKUS被广泛解读为对中国在印太地区军事扩张的战略制衡，代表了该地区安全架构的重大转变。",
       "key_figures": [
-        "Joe Biden (U.S. President)",
-        "Boris Johnson (UK Prime Minister)",
-        "Scott Morrison (Australian Prime Minister)",
-        "Jean-Yves Le Drian (French Foreign Minister, condemned the pact)"
+        "Joe Biden（美国总统）",
+        "Boris Johnson（英国首相）",
+        "Scott Morrison（澳大利亚总理）",
+        "Jean-Yves Le Drian（法国外交部长，谴责该协议）"
       ],
       "sources": [
         {
-          "name": "Joint Leaders' Statement on AUKUS (15 September 2021), published by White House, PM.gov.au, gov.uk",
+          "name": "关于AUKUS的联合领导人声明（2021年9月15日），由白宫、pm.gov.au、gov.uk发布",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "International Institute for Strategic Studies (IISS) analysis of AUKUS implications (2021)",
+          "name": "国际战略研究所（IISS）对AUKUS影响的分析（2021年）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official trilateral announcement with published text. Submarine delivery timeline and technical details evolved in subsequent years.",
+      "certainty_note": "官方三边公告，附有已发布的文本。潜艇交付时间表和技术细节在随后的几年中有所演变。",
       "cross_references": []
     },
     {
       "id": "2021-015",
-      "title": "German federal election ends Merkel era",
-      "region": "Germany",
+      "title": "德国联邦大选结束默克尔时代",
+      "region": "德国",
       "coordinates_approx": "52.52, 13.41",
       "category": "political",
-      "description": "On 26 September, Germany held federal elections that ended Angela Merkel's 16-year chancellorship. The Social Democrats (SPD) under Olaf Scholz won a narrow plurality with 25.7% of the vote, ahead of the CDU/CSU's historic low of 24.1% under Armin Laschet. The Greens and FDP finished third and fourth respectively. After protracted coalition negotiations, Scholz was sworn in as Chancellor on 8 December leading a 'traffic light' coalition (SPD-Greens-FDP), marking the first three-party federal coalition in decades and the first governing participation for the FDP and Greens together. Merkel's departure ended the longest chancellorship since Helmut Kohl.",
+      "description": "9月26日，德国举行联邦大选，结束了安格拉·默克尔16年的总理任期。奥拉夫·朔尔茨领导的社会民主党（SPD）以25.7%的得票率赢得微弱多数，领先于阿明·拉舍特领导下得票率创历史新低（24.1%）的基民盟/基社盟（CDU/CSU）。绿党和自民党（FDP）分别位列第三和第四。经过漫长的联盟谈判，朔尔茨于12月8日宣誓就任总理，领导一个“交通灯”联盟（社民党-绿党-自民党），这是数十年来首个三方联邦联盟，也是自民党和绿党首次共同参与执政。默克尔的离任结束了自赫尔穆特·科尔以来最长的总理任期。",
       "key_figures": [
-        "Olaf Scholz (incoming Chancellor, SPD)",
-        "Angela Merkel (outgoing Chancellor, CDU)",
-        "Armin Laschet (CDU/CSU candidate)",
-        "Annalena Baerbock (Greens co-leader, became Foreign Minister)"
+        "Olaf Scholz（即将上任的总理，社民党）",
+        "Angela Merkel（即将离任的总理，基民盟）",
+        "Armin Laschet（基民盟/基社盟候选人）",
+        "Annalena Baerbock（绿党联合领导人，后任外交部长）"
       ],
       "sources": [
         {
-          "name": "Bundeswahlleiter (Federal Returning Officer) official election results (26 September 2021)",
+          "name": "联邦选举官（Bundeswahlleiter）官方选举结果（2021年9月26日）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Coalition Agreement 2021\u20132025 ('Mehr Fortschritt wagen'), published 24 November 2021",
+          "name": "2021-2025年联盟协议（《敢于更多进步》），2021年11月24日发布",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official election results certified by federal electoral authority.",
+      "certainty_note": "联邦选举机构认证的官方选举结果。",
       "cross_references": [
         "2005-MERKEL"
       ]
     },
     {
       "id": "2021-016",
-      "title": "Colonial Pipeline ransomware attack",
-      "region": "United States",
+      "title": "科洛尼尔管道勒索软件攻击",
+      "region": "美国",
       "coordinates_approx": "33.75, -84.39",
       "category": "technological",
-      "description": "On 7 May, Colonial Pipeline, which supplies roughly 45% of fuel to the U.S. East Coast, shut down operations after a ransomware attack by the DarkSide criminal group, believed to operate from Russia. The shutdown caused fuel shortages, panic buying, and emergency declarations across multiple southeastern states. Colonial paid a $4.4 million ransom in Bitcoin (the FBI later recovered approximately $2.3 million). The attack underscored the vulnerability of critical infrastructure to cyberattacks and prompted President Biden to issue an executive order on improving national cybersecurity, as well as raising the issue directly with Russian President Putin at the Geneva summit in June.",
+      "description": "5月7日，为美国东海岸供应约45%燃料的科洛尼尔管道公司，在遭到据信来自俄罗斯的DarkSide犯罪组织的勒索软件攻击后关闭运营。此次关闭导致多个东南部州出现燃料短缺、恐慌性购买和紧急状态声明。科洛尼尔公司支付了440万美元的比特币赎金（联邦调查局后来追回了约230万美元）。此次攻击凸显了关键基础设施面对网络攻击的脆弱性，并促使拜登总统发布了一项关于改善国家网络安全的行政命令，以及在6月的日内瓦峰会上直接向俄罗斯总统普京提出该问题。",
       "key_figures": [
-        "Joseph Blount (Colonial Pipeline CEO)",
-        "Joe Biden (U.S. President)"
+        "Joseph Blount（科洛尼尔管道公司CEO）",
+        "Joe Biden（美国总统）"
       ],
       "sources": [
         {
-          "name": "FBI and CISA joint advisory on DarkSide ransomware (May 2021)",
+          "name": "FBI和CISA关于DarkSide勒索软件的联合公告（2021年5月）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "U.S. Department of Justice press release on Bitcoin recovery (7 June 2021)",
+          "name": "美国司法部关于追回比特币的新闻稿（2021年6月7日）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Confirmed by FBI, Colonial Pipeline corporate statements, and DOJ proceedings.",
+      "certainty_note": "FBI、科洛尼尔管道公司声明和司法部程序确认。",
       "cross_references": []
     },
     {
       "id": "2021-017",
-      "title": "Barbados becomes a republic",
-      "region": "Barbados / Caribbean",
+      "title": "巴巴多斯成为共和国",
+      "region": "巴巴多斯 / 加勒比地区",
       "coordinates_approx": "13.10, -59.62",
       "category": "political",
-      "description": "On 30 November, Barbados transitioned from a constitutional monarchy to a parliamentary republic, removing Queen Elizabeth II as head of state and inaugurating Dame Sandra Mason as its first president. The ceremony in Bridgetown was attended by Prince Charles, who acknowledged the 'appalling atrocity of slavery.' The transition had been announced by Prime Minister Mia Mottley in September 2020 and was completed exactly 55 years after independence from Britain. Barbados remained a member of the Commonwealth of Nations. The move was part of a broader wave of republican sentiment across former British Caribbean colonies.",
+      "description": "11月30日，巴巴多斯从君主立宪制过渡为议会制共和国，取消了伊丽莎白二世女王的国家元首地位，并任命桑德拉·梅森女爵士为首任总统。在布里奇敦举行的仪式上，查尔斯王子出席并承认了“奴隶制的骇人暴行”。这一过渡由总理米娅·莫特利于2020年9月宣布，并在脱离英国独立整整55年后完成。巴巴多斯仍然是英联邦成员国。此举是前英国加勒比殖民地更广泛的共和情绪浪潮的一部分。",
       "key_figures": [
-        "Sandra Mason (first President of Barbados)",
-        "Mia Mottley (Prime Minister)",
-        "Prince Charles (representing the Queen)"
+        "Sandra Mason（巴巴多斯首任总统）",
+        "Mia Mottley（总理）",
+        "Prince Charles（代表女王）"
       ],
       "sources": [
         {
-          "name": "Constitution (Amendment) Act, 2021, Parliament of Barbados",
+          "name": "《宪法（修正）法案，2021年》，巴巴多斯议会",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "BBC, AP, Reuters coverage of inauguration ceremony (30 November 2021)",
+          "name": "BBC、美联社、路透社对就职仪式的报道（2021年11月30日）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Constitutional amendment and public ceremony fully documented.",
+      "certainty_note": "宪法修正案和公开仪式有完整记录。",
       "cross_references": [
         "1966-BARBADOS-INDEPENDENCE"
       ]
     },
     {
       "id": "2021-018",
-      "title": "Sahel military coups: Chad and Guinea",
-      "region": "West and Central Africa",
+      "title": "萨赫勒地区军事政变：乍得和几内亚",
+      "region": "西非和中非",
       "coordinates_approx": "12.10, -10.80",
       "category": "political",
-      "description": "2021 saw continued democratic backsliding in the Sahel and West Africa. In Chad, following the death of President Idriss D\u00e9by on 20 April (killed while visiting frontline troops fighting rebels, the day after his re-election was announced), a Transitional Military Council led by his son Mahamat Idriss D\u00e9by seized power, dissolving the constitution. In Guinea, on 5 September, Colonel Mamady Doumbouya led a military coup overthrowing President Alpha Cond\u00e9, who had controversially amended the constitution in 2020 to seek a third term. Both coups were condemned by the African Union and ECOWAS, though international responses were inconsistent \u2014 France maintained cooperative relations with Chad's junta given its role as a counterterrorism partner in the Sahel.",
+      "description": "2021年，萨赫勒和西非地区的民主继续倒退。在乍得，总统伊德里斯·代比于4月20日去世（在视察前线与叛军作战的部队时被杀，就在其连任消息宣布后的第二天）后，由其子马哈马特·伊德里斯·代比领导的过渡军事委员会夺取了政权，解散了宪法。在几内亚，9月5日，马马迪·敦布亚上校领导军事政变推翻了总统阿尔法·孔戴，后者曾在2020年有争议地修改宪法以寻求第三个任期。两次政变都受到非盟和西非国家经济共同体的谴责，但国际反应不一致——鉴于乍得军政府在萨赫勒地区作为反恐伙伴的角色，法国与其保持了合作关系。",
       "key_figures": [
-        "Mahamat Idriss D\u00e9by (Chad transitional leader)",
-        "Idriss D\u00e9by (killed President of Chad)",
-        "Mamady Doumbouya (Guinea coup leader)",
-        "Alpha Cond\u00e9 (deposed President of Guinea)"
+        "Mahamat Idriss Déby（乍得过渡领导人）",
+        "Idriss Déby（被杀的乍得总统）",
+        "Mamady Doumbouya（几内亚政变领导人）",
+        "Alpha Condé（被废黜的几内亚总统）"
       ],
       "sources": [
         {
-          "name": "African Union Peace and Security Council communiqu\u00e9s (April, September 2021)",
+          "name": "非洲联盟和平与安全理事会公报（2021年4月、9月）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "ECOWAS statements and sanctions decisions (2021)",
+          "name": "西非国家经济共同体声明及制裁决定（2021年）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "International Crisis Group reports on Chad and Guinea (2021)",
+          "name": "国际危机组织关于乍得和几内亚的报告（2021年）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Both coups publicly declared and internationally recognized. Circumstances of Idriss D\u00e9by's death carry some uncertainty, though the official account is not seriously contested.",
+      "certainty_note": "两次政变均公开宣布并得到国际承认。伊德里斯·代比死亡的具体情况存在一些不确定性，但官方说法未受到严重质疑。",
       "cross_references": [
         "2020-MALI-COUP"
       ]
     },
     {
       "id": "2021-019",
-      "title": "La Palma volcanic eruption (Cumbre Vieja)",
-      "region": "Canary Islands, Spain",
+      "title": "拉帕尔马岛火山喷发（坎布雷维耶哈火山）",
+      "region": "西班牙加那利群岛",
       "coordinates_approx": "28.57, -17.84",
       "category": "environmental",
-      "description": "On 19 September, the Cumbre Vieja volcanic ridge on La Palma in the Canary Islands began erupting, continuing for 85 days until 13 December \u2014 the longest recorded eruption on the island. Lava flows destroyed over 2,900 buildings and displaced approximately 7,000 residents. The eruption covered nearly 1,200 hectares of land and added new land to the coastline where lava entered the Atlantic Ocean. No direct fatalities were recorded thanks to timely evacuations, but the economic damage to the island's agricultural sector (particularly banana plantations) and infrastructure was severe.",
+      "description": "9月19日，加那利群岛拉帕尔马岛上的坎布雷维耶哈火山脊开始喷发，持续了85天，直到12月13日——是该岛有记录以来最长的喷发。熔岩流摧毁了超过2900座建筑物，约7000名居民被迫疏散。喷发覆盖了近1200公顷土地，并在熔岩流入大西洋的海岸线上增加了新的陆地。由于及时疏散，没有直接人员伤亡记录，但对岛上农业部门（特别是香蕉种植园）和基础设施的经济损失是严重的。",
       "key_figures": [
-        "Pedro S\u00e1nchez (Spanish Prime Minister, visited island multiple times)"
+        "Pedro Sánchez（西班牙首相，多次访问该岛）"
       ],
       "sources": [
         {
-          "name": "Instituto Geogr\u00e1fico Nacional (IGN) and INVOLCAN monitoring reports (September\u2013December 2021)",
+          "name": "西班牙国家地理研究所（IGN）和INVOLCAN监测报告（2021年9月至12月）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Copernicus Emergency Management Service satellite monitoring (2021)",
+          "name": "哥白尼应急管理服务卫星监测（2021年）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Continuously monitored by geological agencies with satellite and ground-based instrumentation.",
+      "certainty_note": "地质机构通过卫星和地面仪器持续监测。",
       "cross_references": []
     },
     {
       "id": "2021-020",
-      "title": "James Webb Space Telescope launched",
-      "region": "French Guiana (launch site) / Global collaboration",
+      "title": "詹姆斯·韦伯太空望远镜发射",
+      "region": "法属圭亚那（发射场）/ 全球合作",
       "coordinates_approx": "5.24, -52.77",
       "category": "scientific",
-      "description": "On 25 December, the James Webb Space Telescope (JWST) was launched aboard an Ariane 5 rocket from the Guiana Space Centre. A joint project of NASA, ESA, and CSA, the $10 billion infrared telescope was the most powerful space telescope ever built, with a 6.5-metre segmented primary mirror. After a month-long journey to the Sun-Earth L2 Lagrange point \u2014 during which its sunshield and mirrors deployed in a complex sequence involving 344 single points of failure \u2014 JWST reached its operational orbit and began commissioning. The telescope promised to revolutionize astronomy by observing the first galaxies, characterizing exoplanet atmospheres, and peering through cosmic dust.",
+      "description": "12月25日，詹姆斯·韦伯太空望远镜（JWST）搭乘阿丽亚娜5号火箭从圭亚那航天中心发射升空。作为NASA、ESA和CSA的联合项目，这个耗资100亿美元的红外望远镜是有史以来建造的最强大的太空望远镜，拥有一个6.5米的分段主镜。经过一个月的旅程到达日地L2拉格朗日点——在此期间其遮阳板和镜面以涉及344个单点故障的复杂序列展开——JWST到达其运行轨道并开始调试。该望远镜有望通过观测第一批星系、表征系外行星大气层以及穿透宇宙尘埃来彻底改变天文学。",
       "key_figures": [
-        "Bill Nelson (NASA Administrator)",
-        "Thomas Zurbuchen (NASA Associate Administrator for Science)",
-        "Gregory Robinson (JWST Program Director)"
+        "Bill Nelson（NASA局长）",
+        "Thomas Zurbuchen（NASA科学任务理事会副局长）",
+        "Gregory Robinson（JWST项目主任）"
       ],
       "sources": [
         {
-          "name": "NASA JWST mission updates and deployment reports (December 2021 \u2013 January 2022)",
+          "name": "NASA JWST任务更新及部署报告（2021年12月至2022年1月）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "ESA and CSA partner agency press releases (December 2021)",
+          "name": "ESA和CSA合作机构新闻稿（2021年12月）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Launch telemetry, deployment confirmation, and orbital insertion data all publicly documented by NASA.",
+      "certainty_note": "发射遥测数据、部署确认和轨道插入数据均由NASA公开记录。",
       "cross_references": []
     },
     {
       "id": "2021-021",
-      "title": "Chile elects Gabriel Boric; Constitutional Convention deliberates",
-      "region": "Chile",
+      "title": "智利选举加夫列尔·博里奇；制宪会议进行审议",
+      "region": "智利",
       "coordinates_approx": "-33.45, -70.67",
       "category": "political",
-      "description": "On 19 December, Gabriel Boric, a 35-year-old former student protest leader, was elected President of Chile with 55.9% of the vote, defeating far-right candidate Jos\u00e9 Antonio Kast. Boric became the youngest president in Chilean history. His election was part of a political transformation triggered by the 2019 mass protests: Chile's Constitutional Convention, elected in May 2021, had been deliberating since July on a new constitution to replace the 1980 Pinochet-era charter. The convention was notable for its gender parity, indigenous representation, and independent (non-party) delegates, though its work would prove controversial and the resulting draft would be rejected by voters in September 2022.",
+      "description": "12月19日，35岁的前学生抗议领袖加夫列尔·博里奇以55.9%的得票率当选智利总统，击败了极右翼候选人何塞·安东尼奥·卡斯特。博里奇成为智利历史上最年轻的总统。他的当选是2019年大规模抗议引发的政治转型的一部分：智利于2021年5月选出的制宪会议自7月以来一直在审议一部新宪法，以取代1980年皮诺切特时代的宪法。该制宪会议以其性别平等、土著代表性和独立（非政党）代表而著称，尽管其工作后来引发争议，最终草案于2022年9月被选民否决。",
       "key_figures": [
-        "Gabriel Boric (President-elect)",
-        "Jos\u00e9 Antonio Kast (defeated candidate)",
-        "Elisa Lonc\u00f3n (Constitutional Convention president, Mapuche linguist)"
+        "Gabriel Boric（当选总统）",
+        "José Antonio Kast（被击败的候选人）",
+        "Elisa Loncón（制宪会议主席，马普切语言学家）"
       ],
       "sources": [
         {
-          "name": "Servicio Electoral de Chile (SERVEL) official election results (December 2021)",
+          "name": "智利选举服务局（SERVEL）官方选举结果（2021年12月）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Constitutional Convention proceedings, published session records (2021)",
+          "name": "制宪会议议事录，已公布的会议记录（2021年）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official electoral authority results and public convention proceedings.",
+      "certainty_note": "官方选举机构结果和公开的会议记录。",
       "cross_references": [
         "2019-CHILE-PROTESTS"
       ]
     },
     {
       "id": "2021-022",
-      "title": "Deadly floods in Western Europe",
-      "region": "Germany, Belgium, Netherlands, Luxembourg",
+      "title": "西欧致命洪水",
+      "region": "德国、比利时、荷兰、卢森堡",
       "coordinates_approx": "50.77, 6.08",
       "category": "environmental",
-      "description": "In mid-July, extreme rainfall caused catastrophic flooding across western Germany (particularly the Ahr Valley in Rhineland-Palatinate and parts of North Rhine-Westphalia), eastern Belgium, and neighbouring regions. At least 243 people died (196 in Germany, 43 in Belgium), making it the deadliest natural disaster in Germany in decades. Entire villages were devastated, bridges and roads destroyed, and tens of thousands displaced. The disaster prompted intense debate about climate change adaptation, the adequacy of early warning systems (meteorologists had issued alerts that did not reach many local authorities in time), and infrastructure resilience. Damage was estimated at over \u20ac30 billion.",
+      "description": "7月中旬，极端降雨导致德国西部（特别是莱茵兰-普法尔茨州的阿尔河谷和北莱茵-威斯特法伦州部分地区）、比利时东部及邻近地区发生灾难性洪水。至少243人死亡（德国196人，比利时43人），使其成为德国数十年来最致命的自然灾害。整个村庄被摧毁，桥梁和道路被毁，数万人流离失所。这场灾难引发了关于气候变化适应、预警系统充分性（气象学家发布了警报，但未能及时送达许多地方当局）以及基础设施韧性的激烈辩论。损失估计超过300亿欧元。",
       "key_figures": [
-        "Angela Merkel (German Chancellor, visited affected areas)",
-        "Armin Laschet (NRW Minister-President, CDU chancellor candidate, criticized for laughing during a visit)"
+        "Angela Merkel（德国总理，视察受灾地区）",
+        "Armin Laschet（北威州州长，基民盟总理候选人，因在视察时大笑而受到批评）"
       ],
       "sources": [
         {
-          "name": "German Federal Agency for Technical Relief (THW) and state disaster reports (July 2021)",
+          "name": "德国联邦技术救援局（THW）及州灾害报告（2021年7月）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "World Weather Attribution rapid analysis on Western European floods (August 2021)",
+          "name": "世界天气归因组织对西欧洪水的快速分析（2021年8月）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Belgian crisis centre official reports (July 2021)",
+          "name": "比利时危机中心官方报告（2021年7月）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented by emergency services, meteorological agencies, and media. Attribution studies linked intensity to anthropogenic climate change.",
+      "certainty_note": "应急服务、气象机构和媒体广泛记录。归因研究将其强度与人为气候变化联系起来。",
       "cross_references": [
         "2021-011"
       ]
     },
     {
       "id": "2021-023",
-      "title": "Russian military buildup on Ukrainian border",
-      "region": "Russia / Ukraine",
+      "title": "俄罗斯在乌克兰边境的军事集结",
+      "region": "俄罗斯 / 乌克兰",
       "coordinates_approx": "51.50, 36.00",
       "category": "military",
-      "description": "Beginning in spring and accelerating from October onwards, Russia concentrated over 100,000 troops, heavy equipment, and logistics near the Ukrainian border and in annexed Crimea. By December, U.S. intelligence assessments warned of a potential full-scale invasion. Diplomatic efforts intensified, including Biden-Putin video calls and proposals for security guarantees, but Russia's demands \u2014 including a legally binding commitment that Ukraine would never join NATO and a rollback of NATO infrastructure in Eastern Europe \u2014 were rejected as non-starters by the U.S. and NATO. The buildup set the stage for Russia's full-scale invasion of Ukraine on 24 February 2022.",
+      "description": "从春季开始，并于10月起加速，俄罗斯在乌克兰边境附近和被吞并的克里米亚集结了超过10万军队、重型装备和后勤物资。到12月，美国情报评估警告可能发生全面入侵。外交努力加强，包括拜登-普京视频通话和关于安全保障的提议，但俄罗斯的要求——包括一项具有法律约束力的承诺，即乌克兰永远不会加入北约，以及北约在东欧基础设施的倒退——被美国和北约视为不可接受。此次集结为俄罗斯于2022年2月24日全面入侵乌克兰奠定了基础。",
       "key_figures": [
-        "Vladimir Putin (President of Russia)",
-        "Volodymyr Zelenskyy (President of Ukraine)",
-        "Joe Biden (U.S. President)",
-        "Antony Blinken (U.S. Secretary of State)"
+        "Vladimir Putin（俄罗斯总统）",
+        "Volodymyr Zelenskyy（乌克兰总统）",
+        "Joe Biden（美国总统）",
+        "Antony Blinken（美国国务卿）"
       ],
       "sources": [
         {
-          "name": "U.S. Intelligence Community assessments and declassified briefings (November\u2013December 2021)",
+          "name": "美国情报界评估及解密的简报（2021年11月至12月）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Satellite imagery analysis by Maxar Technologies and open-source intelligence (OSINT) communities (2021)",
+          "name": "Maxar Technologies卫星图像分析及开源情报（OSINT）社区（2021年）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Russian Ministry of Foreign Affairs published draft treaty proposals (December 2021)",
+          "name": "俄罗斯外交部公布的条约草案（2021年12月）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Troop concentrations confirmed by multiple satellite imagery providers and intelligence agencies. Intent was debated at the time but confirmed by the February 2022 invasion.",
+      "certainty_note": "多个卫星图像提供商和情报机构确认了部队集结。意图在当时存在争议，但被2022年2月的入侵所证实。",
       "cross_references": [
         "2022-RUSSIA-UKRAINE-INVASION",
         "2014-CRIMEA"
       ]
     }
   ],
-  "disconfirming_evidence": "Several nuances complicate the narrative of events listed above: (1) The January 6 Capitol breach: there is ongoing scholarly and legal debate about the degree of premeditation and coordination versus spontaneous mob action, and whether 'insurrection' or 'riot' is the appropriate characterization \u2014 the legal proceedings produced convictions primarily for obstruction and trespass rather than insurrection per se, with only a handful of seditious conspiracy convictions among Oath Keepers and Proud Boys leadership. (2) The Afghan collapse: the speed of the Taliban takeover challenged the prevailing assessment held by U.S. intelligence and military that the Afghan government would hold for months to years after withdrawal, raising questions about whether two decades of institutional assessments fundamentally misread the situation or whether the collapse was contingent on specific decisions (such as the Doha Agreement excluding the Afghan government from negotiations). SIGAR reports documented systemic problems including ghost soldiers and corruption that were known for years. (3) India's COVID death toll: India's official death count of approximately 480,000 by year's end is contested by excess mortality studies suggesting 3\u20135 million deaths. The Indian government has disputed these estimates. (4) The COP26 'phase-down' versus 'phase-out' language: some analyses argue the Glasgow Pact's reference to coal was a significant milestone, while others contend that the last-minute weakening from 'phase-out' to 'phase-down' (at India and China's insistence) rendered it largely symbolic. (5) The characterisation of China's tech crackdown as purely regulatory may understate the political dimensions \u2014 some analysts argue it was primarily about reasserting Party control over powerful private actors rather than consumer protection or market regulation.",
-  "historiographic_note": "2021 is one of the most extensively documented years in human history, with near-real-time coverage from global news agencies, social media, satellite imagery, government transparency requirements, and academic research. However, significant biases shape the record: English-language sources dominate, producing disproportionate coverage of Anglophone countries and events relevant to Western strategic interests. Coverage of sub-Saharan Africa, Central Asia, and the Pacific Islands is comparatively thin despite significant events in those regions. China's domestic dynamics are documented but filtered through both state media narratives and Western analytical frameworks, each with their own biases. Casualty figures in conflict zones (Ethiopia, Myanmar, Yemen) are systematically undercounted due to access restrictions. The pandemic created an additional documentary challenge: the sheer volume of data and the speed of developments meant that many early analyses were superseded by later evidence, and misinformation complicated the factual record. Official government statements, particularly regarding COVID-19 mortality and the Afghanistan withdrawal, must be read critically against independent assessments.",
+  "disconfirming_evidence": "有几个细微之处使上述事件的叙述复杂化：（1）1月6日国会大厦遭冲击事件：关于预谋和协调程度与自发暴民行动，以及“叛乱”或“骚乱”哪个是合适的定性，学术界和法律界存在持续争论——法律程序主要产生了妨碍公务和非法侵入的定罪，而非叛乱本身，只有少数“誓言守护者”和“骄傲男孩”领导层被判犯有煽动阴谋罪。（2）阿富汗崩溃：塔利班接管的速度挑战了美国情报和军方普遍持有的评估，即阿富汗政府将在撤军后维持数月到数年，这引发了一个问题：二十年的机构评估是根本上误判了形势，还是崩溃取决于特定的决策（例如将阿富汗政府排除在谈判之外的《多哈协议》）。SIGAR报告记录了多年已知的系统性问题，包括幽灵士兵和腐败。（3）印度新冠死亡人数：印度官方公布的年底约48万死亡人数受到超额死亡率研究的质疑，后者估计死亡人数为300万至500万。印度政府对这些估计提出了异议。（4）COP26的“逐步减少”与“逐步淘汰”措辞：一些分析认为《格拉斯哥公约》中对煤炭的提及是一个重要的里程碑，而另一些分析则认为，在印度和中国的坚持下，最后一刻从“逐步淘汰”弱化为“逐步减少”使其在很大程度上具有象征意义。（5）将中国的科技整顿定性为纯粹监管可能低估了政治层面——一些分析人士认为，这主要是关于重新确立党对强大私营行为体的控制，而非消费者保护或市场监管。",
+  "historiographic_note": "2021年是人类历史上记录最详尽的年份之一，全球新闻机构、社交媒体、卫星图像、政府透明度要求和学术研究提供了近乎实时的报道。然而，显著的偏见塑造了记录：英语来源占主导地位，导致对英语国家以及与西方战略利益相关的事件报道不成比例。对撒哈拉以南非洲、中亚和太平洋岛屿的报道相对薄弱，尽管这些地区发生了重大事件。中国的国内动态虽有记录，但通过国家媒体叙事和西方分析框架过滤，两者各有偏见。冲突地区（埃塞俄比亚、缅甸、也门）的伤亡数字因准入限制而被系统性低估。疫情带来了额外的记录挑战：数据量庞大且事态发展迅速，意味着许多早期分析被后来的证据所取代，而错误信息使事实记录复杂化。官方政府声明，特别是关于新冠死亡率和阿富汗撤军的声明，必须对照独立评估进行批判性解读。",
   "graph_edges": [
     {
       "from": "2021-001",
       "to": "2020-COVID",
       "relation": "caused_by",
-      "note": "Vaccine rollout was the direct response to the COVID-19 pandemic that began in 2019\u20132020"
+      "note": "疫苗推广是对始于2019-2020年的新冠疫情的直接回应"
     },
     {
       "from": "2021-002",
       "to": "2021-003",
       "relation": "led_to",
-      "note": "Capitol breach occurred two weeks before Biden's inauguration and shaped the security environment and political context of the transition"
+      "note": "国会大厦遭冲击事件发生在拜登就职典礼前两周，塑造了过渡期的安全环境和政治背景"
     },
     {
       "from": "2021-008",
       "to": "2022-AFGHANISTAN-HUMANITARIAN",
       "relation": "led_to",
-      "note": "Taliban takeover precipitated humanitarian and economic collapse, refugee crisis, and women's rights rollback in subsequent years"
+      "note": "塔利班接管在随后几年引发了人道主义和经济崩溃、难民危机以及妇女权利倒退"
     },
     {
       "from": "2021-023",
       "to": "2022-RUSSIA-UKRAINE-INVASION",
       "relation": "led_to",
-      "note": "The 2021 military buildup was the direct precursor to Russia's full-scale invasion of Ukraine on 24 February 2022"
+      "note": "2021年的军事集结是俄罗斯于2022年2月24日全面入侵乌克兰的直接前奏"
     },
     {
       "from": "2021-011",
       "to": "2015-PARIS",
       "relation": "part_of",
-      "note": "COP26 was a key milestone in the Paris Agreement process, intended to ratchet up commitments made in 2015"
+      "note": "COP26是《巴黎协定》进程中的一个关键里程碑，旨在提高2015年作出的承诺"
     },
     {
       "from": "2021-014",
       "to": "2022-AUKUS-SUBMARINE",
       "relation": "led_to",
-      "note": "AUKUS announcement initiated a multi-decade nuclear submarine acquisition programme for Australia"
+      "note": "AUKUS公告启动了澳大利亚为期数十年的核潜艇采购计划"
     },
     {
       "from": "2021-006",
       "to": "2021-001",
       "relation": "part_of",
-      "note": "India's Delta wave was both a consequence of the pandemic and a driver of global vaccination urgency"
+      "note": "印度的德尔塔疫情浪潮既是疫情的结果，也是全球疫苗接种紧迫性的驱动因素"
     },
     {
       "from": "2021-007",
       "to": "2023-GAZA",
       "relation": "led_to",
-      "note": "The May 2021 Gaza conflict was part of the recurring cycle of violence that escalated dramatically in October 2023"
+      "note": "2021年5月的加沙冲突是周期性暴力循环的一部分，该循环在2023年10月急剧升级"
     },
     {
       "from": "2021-018",
       "to": "2020-MALI-COUP",
       "relation": "part_of",
-      "note": "Chad and Guinea coups were part of a wave of military takeovers across the Sahel that began with Mali in 2020"
+      "note": "乍得和几内亚政变是始于2020年马里的萨赫勒地区军事接管浪潮的一部分"
     },
     {
       "from": "2021-021",
       "to": "2019-CHILE-PROTESTS",
       "relation": "caused_by",
-      "note": "Boric's election and the constitutional convention were direct consequences of the 2019 Chilean social uprising"
+      "note": "博里奇的当选和制宪会议是2019年智利社会起义的直接后果"
     },
     {
       "from": "2021-016",
       "to": "2021-023",
       "relation": "contemporary_with",
-      "note": "Critical infrastructure cyberattacks and Russian military buildup were concurrent dimensions of U.S.-Russia tensions in 2021"
+      "note": "关键基础设施网络攻击和俄罗斯军事集结是2021年美俄紧张关系的并行维度"
     },
     {
       "from": "2021-022",
       "to": "2021-011",
       "relation": "contemporary_with",
-      "note": "Western European floods strengthened the political urgency behind COP26 climate negotiations later that year"
+      "note": "西欧洪水增强了当年晚些时候COP26气候谈判背后的政治紧迫性"
     }
   ],
   "_meta": {

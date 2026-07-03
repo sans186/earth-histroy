@@ -1,874 +1,874 @@
 {
   "year": 2019,
-  "year_label": "2019 CE",
-  "era_context": "The late 2010s were defined by rising geopolitical multipolarity, intensifying climate crisis awareness, digital platform dominance, and populist-authoritarian politics across multiple continents. The United States under Trump, China under Xi Jinping, and a fragmenting European Union shaped a contested global order. Mass protest movements erupted worldwide, from Hong Kong to Sudan to Chile, while the final weeks of the year saw the emergence of a novel coronavirus in Wuhan that would reshape the entire subsequent decade.",
-  "documentation_level": "rich",
+  "year_label": "2019年",
+  "era_context": "2010年代末期以地缘政治多极化加剧、气候危机意识增强、数字平台主导地位确立以及多洲民粹威权政治的兴起为特征。特朗普领导下的美国、习近平领导下的中国以及日益分裂的欧盟共同塑造了一个充满争议的全球秩序。从香港到苏丹再到智利，大规模抗议运动在全球爆发，而该年最后几周，武汉出现了一种新型冠状病毒，将重塑整个接下来的十年。",
+  "documentation_level": "丰富",
   "geographic_coverage_gaps": [
-    "Central Asia (limited coverage of Turkmenistan, Tajikistan, Kyrgyzstan internal developments)",
-    "Pacific Island nations (climate vulnerability well-documented but political developments underrepresented)",
-    "Central Africa (DRC Ebola outbreak covered but broader regional dynamics less so)",
-    "Caribbean nations beyond major headlines"
+    "中亚（土库曼斯坦、塔吉克斯坦、吉尔吉斯斯坦内部发展报道有限）",
+    "太平洋岛国（气候脆弱性记录充分，但政治动态报道不足）",
+    "中非（刚果（金）埃博拉疫情有报道，但更广泛的区域动态报道较少）",
+    "加勒比国家（除重大头条新闻外）"
   ],
   "events": [
     {
       "id": "2019-001",
-      "title": "Overthrow of Omar al-Bashir in Sudan",
-      "region": "Sudan, Northeast Africa",
+      "title": "苏丹奥马尔·巴希尔被推翻",
+      "region": "苏丹，东北非",
       "coordinates_approx": "15.59, 32.53",
       "category": "political",
-      "description": "After months of mass civilian protests that began in December 2018 over bread prices and economic mismanagement, the Sudanese military removed President Omar al-Bashir from power on 11 April 2019, ending his nearly 30-year rule. A Transitional Military Council initially took power, but continued civilian protests \u2014 including a brutal dispersal of the Khartoum sit-in on 3 June that killed over 100 people \u2014 eventually forced negotiations. In August, a power-sharing agreement established a joint civilian-military Sovereign Council led by Abdalla Hamdok as Prime Minister. The revolution was notable for the prominent role of women and youth activists.",
+      "description": "在2018年12月因面包价格和经济管理不善引发的持续数月大规模平民抗议后，苏丹军方于2019年4月11日罢免了总统奥马尔·巴希尔，结束了他近30年的统治。过渡军事委员会最初接管权力，但持续的平民抗议——包括6月3日对喀土穆静坐示威的残酷驱散，造成100多人死亡——最终迫使各方进行谈判。8月，一项权力分享协议建立了由阿卜杜拉·汉姆多克担任总理的军民联合主权委员会。这场革命因妇女和青年活动人士的突出作用而引人注目。",
       "key_figures": [
-        "Omar al-Bashir (deposed President)",
-        "Abdel Fattah al-Burhan (head of Transitional Military Council)",
-        "Mohamed Hamdan Dagalo 'Hemedti' (RSF commander, TMC deputy)",
-        "Abdalla Hamdok (Prime Minister of transitional government)",
-        "Alaa Salah (iconic protest figure)"
+        "Omar al-Bashir（被废黜的总统）",
+        "Abdel Fattah al-Burhan（过渡军事委员会主席）",
+        "Mohamed Hamdan Dagalo 'Hemedti'（快速支援部队指挥官，过渡军事委员会副主席）",
+        "Abdalla Hamdok（过渡政府总理）",
+        "Alaa Salah（标志性抗议人物）"
       ],
       "sources": [
         {
-          "name": "Contemporary international press coverage (Reuters, AFP, Al Jazeera, BBC)",
+          "name": "当代国际媒体报道（路透社、法新社、半岛电视台、英国广播公司）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "African Union communiqu\u00e9s and UN Security Council statements, 2019",
+          "name": "非洲联盟公报和联合国安理会声明，2019年",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Sudanese Professionals Association communiqu\u00e9s",
+          "name": "苏丹专业人员协会公报",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in real-time by international media, diplomatic records, and social media. Casualty figures for the 3 June massacre remain disputed (estimates range from 100 to over 120).",
+      "certainty_note": "国际媒体、外交记录和社交媒体实时广泛记录。6月3日大屠杀的伤亡人数仍存在争议（估计在100至120多人之间）。",
       "cross_references": [
-        "2018-XXX (Sudan protests begin December 2018)",
-        "2021-XXX (October 2021 military coup dissolving transitional government)",
-        "2023-XXX (Sudan civil war between SAF and RSF)"
+        "2018-XXX (苏丹抗议活动始于2018年12月)",
+        "2021-XXX (2021年10月军事政变解散过渡政府)",
+        "2023-XXX (苏丹武装部队与快速支援部队之间的苏丹内战)"
       ]
     },
     {
       "id": "2019-002",
-      "title": "Hong Kong anti-extradition protests escalate into mass pro-democracy movement",
-      "region": "Hong Kong, China",
+      "title": "香港反引渡抗议升级为大规模民主运动",
+      "region": "香港，中国",
       "coordinates_approx": "22.32, 114.17",
       "category": "political",
-      "description": "Beginning in June 2019 in opposition to a proposed extradition bill that would have allowed suspects to be sent to mainland China for trial, protests in Hong Kong rapidly escalated into a broader pro-democracy movement challenging Beijing's authority. Demonstrations drew up to an estimated two million participants on 16 June. Protesters articulated five demands including full withdrawal of the bill, an independent investigation into police conduct, and universal suffrage. Tactics evolved from peaceful marches to occupation of the Legislative Council, airport shutdowns, and intense clashes with police through the autumn. The movement galvanised global attention to the question of Hong Kong's autonomy under the 'one country, two systems' framework.",
+      "description": "2019年6月，为反对一项允许将嫌疑人移交中国大陆审判的拟议引渡条例，香港的抗议活动迅速升级为一场挑战北京权威的更广泛的民主运动。6月16日的示威活动估计吸引了多达200万人参与。抗议者提出了五项诉求，包括完全撤回该条例、对警方行为进行独立调查以及普选。抗议策略从和平游行发展到占领立法会、关闭机场以及秋季与警方发生激烈冲突。这场运动引起了全球对香港在“一国两制”框架下自治问题的关注。",
       "key_figures": [
-        "Carrie Lam (Chief Executive of Hong Kong)",
-        "Joshua Wong (pro-democracy activist)",
-        "Jimmy Lai (media owner and protest supporter)"
+        "Carrie Lam（香港特别行政区行政长官）",
+        "Joshua Wong（民主活动人士）",
+        "Jimmy Lai（媒体所有者及抗议支持者）"
       ],
       "sources": [
         {
-          "name": "Contemporary reporting by South China Morning Post, Hong Kong Free Press, Reuters, BBC, New York Times",
+          "name": "《南华早报》、《香港自由报》、路透社、英国广播公司、《纽约时报》的当代报道",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Hong Kong government official statements and police press conferences, 2019",
+          "name": "香港政府官方声明及警方新闻发布会，2019年",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Exhaustively documented in real time. Participant numbers are estimates and vary by source (police vs. organiser counts differ significantly).",
+      "certainty_note": "实时详尽记录。参与人数为估计值，因来源不同（警方与组织者统计数字差异显著）而有所差异。",
       "cross_references": [
-        "2020-XXX (National Security Law imposed on Hong Kong)",
-        "2014-XXX (Umbrella Movement)"
+        "2020-XXX (香港国安法实施)",
+        "2014-XXX (雨伞运动)"
       ]
     },
     {
       "id": "2019-003",
-      "title": "First image of a black hole released by Event Horizon Telescope",
-      "region": "Global (observations from telescope array spanning multiple continents; target: M87 galaxy)",
+      "title": "事件视界望远镜发布首张黑洞图像",
+      "region": "全球（望远镜阵列观测覆盖多个大洲；目标：M87星系）",
       "coordinates_approx": null,
       "category": "scientific",
-      "description": "On 10 April 2019, the Event Horizon Telescope (EHT) collaboration released the first direct image of a black hole's shadow, located at the centre of the galaxy Messier 87 (M87*), approximately 55 million light-years from Earth. The image was constructed from data gathered in April 2017 by a global network of eight radio telescopes using very-long-baseline interferometry. The result confirmed key predictions of general relativity regarding black hole behaviour and represented a major milestone in astrophysics. The achievement involved over 200 scientists across 20 countries and required development of novel imaging algorithms.",
+      "description": "2019年4月10日，事件视界望远镜合作组织发布了首张黑洞阴影的直接图像，该黑洞位于距离地球约5500万光年的室女A星系（M87*）中心。该图像由2017年4月通过甚长基线干涉测量技术收集的全球八个射电望远镜网络数据构建而成。这一结果证实了广义相对论关于黑洞行为的关键预测，并代表了天体物理学的一个重大里程碑。这项成就涉及来自20个国家的200多名科学家，并需要开发新颖的成像算法。",
       "key_figures": [
-        "Sheperd Doeleman (EHT project director)",
-        "Katie Bouman (computer scientist, imaging algorithm development)",
-        "Heino Falcke (EHT Science Council chair)"
+        "Sheperd Doeleman（事件视界望远镜项目主任）",
+        "Katie Bouman（计算机科学家，成像算法开发）",
+        "Heino Falcke（事件视界望远镜科学委员会主席）"
       ],
       "sources": [
         {
-          "name": "Event Horizon Telescope Collaboration, 'First M87 Event Horizon Telescope Results' (series of six papers), The Astrophysical Journal Letters, Vol. 875, April 2019",
+          "name": "事件视界望远镜合作组织，《首个M87事件视界望远镜成果》（系列六篇论文），《天体物理学杂志快报》，第875卷，2019年4月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "EHT Collaboration press conference, National Press Club, Washington D.C., 10 April 2019",
+          "name": "事件视界望远镜合作组织新闻发布会，华盛顿特区国家新闻俱乐部，2019年4月10日",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Peer-reviewed scientific publication with data and methodology publicly available. The image itself is a processed reconstruction, not a photograph in the conventional sense, but this is standard practice and well-understood.",
+      "certainty_note": "经同行评审的科学出版物，数据和方法公开可用。该图像本身是经过处理的再现，而非传统意义上的照片，但这是标准做法且已被充分理解。",
       "cross_references": []
     },
     {
       "id": "2019-004",
-      "title": "Notre-Dame de Paris cathedral fire",
-      "region": "France, Western Europe",
+      "title": "巴黎圣母院大火",
+      "region": "法国，西欧",
       "coordinates_approx": "48.853, 2.349",
       "category": "cultural",
-      "description": "On 15 April 2019, a major fire broke out in the roof of Notre-Dame de Paris, the medieval Catholic cathedral on the \u00cele de la Cit\u00e9. The blaze destroyed the 19th-century spire designed by Viollet-le-Duc and most of the lead-and-timber roof structure dating from the 12th\u201313th centuries. The stone vaulting largely held, preventing total collapse, and firefighters saved the main structure, bell towers, and most significant relics and artworks. The fire, likely caused by an electrical fault or cigarette during renovation works, prompted an international outpouring and over \u20ac1 billion in pledged donations for reconstruction. The event sparked broader debates about cultural heritage preservation and the maintenance of historic structures.",
+      "description": "2019年4月15日，位于西岱岛上的中世纪天主教大教堂巴黎圣母院屋顶发生重大火灾。大火摧毁了由维欧勒·勒·杜克设计的19世纪尖塔以及大部分可追溯至12至13世纪的铅木屋顶结构。石质拱顶基本保持完好，防止了完全坍塌，消防员拯救了主体结构、钟楼以及大部分重要文物和艺术品。火灾可能由翻修工程期间的电气故障或烟头引起，引发了国际社会的广泛关注，并为重建认捐了超过10亿欧元。这一事件引发了关于文化遗产保护以及历史建筑维护的更广泛辩论。",
       "key_figures": [
-        "Emmanuel Macron (President of France)",
-        "Jean-Louis Georgelin (General, appointed to lead reconstruction)"
+        "Emmanuel Macron（法国总统）",
+        "Jean-Louis Georgelin（将军，被任命领导重建工作）"
       ],
       "sources": [
         {
-          "name": "Contemporary reporting by Le Monde, AFP, Reuters, BBC, New York Times",
+          "name": "《世界报》、法新社、路透社、英国广播公司、《纽约时报》的当代报道",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Paris prosecutor's office investigation reports, 2019",
+          "name": "巴黎检察官办公室调查报告，2019年",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in real time via live broadcast. The precise cause of ignition remained under investigation as of 2019; electrical fault was the leading hypothesis.",
+      "certainty_note": "通过现场直播实时广泛记录。截至2019年，确切的起火原因仍在调查中；电气故障是主要假设。",
       "cross_references": []
     },
     {
       "id": "2019-005",
-      "title": "Narendra Modi wins landslide second term in Indian general election",
-      "region": "India, South Asia",
+      "title": "纳伦德拉·莫迪在印度大选中赢得压倒性连任",
+      "region": "印度，南亚",
       "coordinates_approx": "28.61, 77.21",
       "category": "political",
-      "description": "India's general election, the largest democratic exercise in history with approximately 900 million eligible voters, was conducted in seven phases from 11 April to 19 May 2019. The Bharatiya Janata Party (BJP) under Prime Minister Narendra Modi won 303 seats, increasing its 2014 total and securing one of the most decisive mandates in decades. The Indian National Congress under Rahul Gandhi was reduced to 52 seats. The BJP campaign centred on national security (particularly the Balakot airstrikes against Pakistan in February), Hindu nationalism, and Modi's personal brand. The result consolidated the BJP's dominance and signalled the continued marginalisation of Congress as a national opposition force.",
+      "description": "印度大选是历史上规模最大的民主选举，约有9亿合格选民，于2019年4月11日至5月19日分七个阶段进行。总理纳伦德拉·莫迪领导的印度人民党赢得303个席位，增加了其2014年的总数，并获得了数十年来最具决定性的授权之一。拉胡尔·甘地领导的印度国民大会党仅获得52个席位。印度人民党的竞选活动围绕国家安全（特别是2月对巴基斯坦的巴拉科特空袭）、印度教民族主义和莫迪的个人品牌展开。这一结果巩固了印度人民党的主导地位，并标志着国大党作为全国性反对力量的持续边缘化。",
       "key_figures": [
-        "Narendra Modi (Prime Minister, BJP leader)",
-        "Amit Shah (BJP president)",
-        "Rahul Gandhi (Congress president)"
+        "Narendra Modi（总理，印度人民党领袖）",
+        "Amit Shah（印度人民党主席）",
+        "Rahul Gandhi（国大党主席）"
       ],
       "sources": [
         {
-          "name": "Election Commission of India official results, 23 May 2019",
+          "name": "印度选举委员会官方结果，2019年5月23日",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary reporting by The Hindu, Indian Express, Reuters, BBC",
+          "name": "《印度教徒报》、《印度快报》、路透社、英国广播公司的当代报道",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official election results from the Election Commission of India. Turnout was approximately 67%.",
+      "certainty_note": "来自印度选举委员会的官方选举结果。投票率约为67%。",
       "cross_references": [
-        "2019-006 (revocation of Article 370 follows from BJP's strengthened mandate)"
+        "2019-006 (印度人民党授权加强后废除第370条)"
       ]
     },
     {
       "id": "2019-006",
-      "title": "India revokes Article 370, ending Jammu and Kashmir's special status",
-      "region": "India / Jammu and Kashmir, South Asia",
+      "title": "印度废除第370条，结束查谟和克什米尔的特殊地位",
+      "region": "印度 / 查谟和克什米尔，南亚",
       "coordinates_approx": "34.08, 74.79",
       "category": "political",
-      "description": "On 5 August 2019, the Indian government revoked Article 370 of the Constitution, which had granted special autonomous status to the state of Jammu and Kashmir since 1949. The state was simultaneously bifurcated into two union territories: Jammu & Kashmir and Ladakh. The move was preceded by a massive military deployment, the detention of Kashmiri political leaders including former chief ministers, a near-total communications blackout (internet, phone, and media), and the imposition of curfew across the Kashmir Valley. The action fulfilled a long-standing BJP ideological commitment and was celebrated by Hindu nationalists but condemned by Pakistan, which downgraded diplomatic relations, and drew criticism from human rights organisations over the extended lockdown.",
+      "description": "2019年8月5日，印度政府废除了宪法第370条，该条款自1949年以来赋予查谟和克什米尔邦特殊自治地位。该邦同时被分拆为两个中央直辖区：查谟和克什米尔以及拉达克。此举之前进行了大规模军事部署、拘留了包括前首席部长在内的克什米尔政治领导人、实施了近乎完全的通讯封锁（互联网、电话和媒体），并在克什米尔谷地实施了宵禁。此举实现了印度人民党长期以来的意识形态承诺，受到印度教民族主义者的庆祝，但遭到巴基斯坦的谴责（巴基斯坦降低了外交关系级别），并因长期封锁而受到人权组织的批评。",
       "key_figures": [
-        "Narendra Modi (Prime Minister)",
-        "Amit Shah (Home Minister, introduced the resolution)",
-        "Mehbooba Mufti (detained former Chief Minister)",
-        "Omar Abdullah (detained former Chief Minister)"
+        "Narendra Modi（总理）",
+        "Amit Shah（内政部长，提出该决议）",
+        "Mehbooba Mufti（被拘留的前首席部长）",
+        "Omar Abdullah（被拘留的前首席部长）"
       ],
       "sources": [
         {
-          "name": "Presidential Order C.O. 272, Government of India Gazette, 5 August 2019",
+          "name": "总统令C.O. 272，印度政府公报，2019年8月5日",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Jammu and Kashmir Reorganisation Act, 2019 (Indian Parliament)",
+          "name": "《2019年查谟和克什米尔重组法》（印度议会）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "UN High Commissioner for Human Rights reports on Kashmir, 2019",
+          "name": "联合国人权事务高级专员关于克什米尔的报告，2019年",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official government action documented through legal instruments and parliamentary proceedings.",
+      "certainty_note": "通过法律文书和议会程序记录的官方政府行动。",
       "cross_references": [
-        "2019-005 (BJP election victory enabled this action)"
+        "2019-005 (印度人民党选举胜利使此行动成为可能)"
       ]
     },
     {
       "id": "2019-007",
-      "title": "Christchurch mosque shootings",
-      "region": "New Zealand, Oceania",
+      "title": "基督城清真寺枪击案",
+      "region": "新西兰，大洋洲",
       "coordinates_approx": "-43.53, 172.64",
       "category": "political",
-      "description": "On 15 March 2019, a white supremacist gunman attacked two mosques in Christchurch, New Zealand during Friday prayers, killing 51 people and injuring 40 others. The attacker, an Australian national, livestreamed part of the assault on social media and had published a manifesto espousing far-right, anti-immigrant ideology. The attack was the deadliest mass shooting in New Zealand's modern history. Prime Minister Jacinda Ardern's response \u2014 including swift gun law reform banning most semi-automatic weapons within weeks, and the 'Christchurch Call' initiative to combat online extremism \u2014 drew international attention. The attack highlighted the global threat of far-right terrorism and the role of online platforms in radicalisation.",
+      "description": "2019年3月15日，一名白人至上主义枪手在周五祈祷期间袭击了新西兰基督城的两座清真寺，造成51人死亡，40人受伤。袭击者是一名澳大利亚公民，他在社交媒体上直播了部分袭击过程，并发布了一份宣扬极右翼、反移民意识形态的宣言。这是新西兰现代历史上最致命的大规模枪击事件。总理杰辛达·阿德恩的回应——包括在数周内迅速通过枪支法改革禁止大多数半自动武器，以及旨在打击网络极端主义的“基督城呼吁”倡议——引起了国际关注。此次袭击凸显了极右翼恐怖主义的全球威胁以及在线平台在激进化中的作用。",
       "key_figures": [
-        "Jacinda Ardern (Prime Minister of New Zealand)",
-        "Brenton Tarrant (perpetrator, sentenced to life without parole in 2020)"
+        "Jacinda Ardern（新西兰总理）",
+        "Brenton Tarrant（行凶者，2020年被判处终身监禁不得假释）"
       ],
       "sources": [
         {
-          "name": "New Zealand Royal Commission of Inquiry into the Terrorist Attack on Christchurch Mosques (report published December 2020, covering 2019 events)",
+          "name": "新西兰基督城清真寺恐怖袭击皇家调查委员会（报告于2020年12月发布，涵盖2019年事件）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary reporting by NZ Herald, Stuff, Reuters, BBC, Al Jazeera",
+          "name": "《新西兰先驱报》、Stuff新闻网、路透社、英国广播公司、半岛电视台的当代报道",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented through police records, court proceedings, and the Royal Commission of Inquiry.",
+      "certainty_note": "通过警方记录、法庭程序和皇家调查委员会广泛记录。",
       "cross_references": []
     },
     {
       "id": "2019-008",
-      "title": "Sri Lanka Easter bombings",
-      "region": "Sri Lanka, South Asia",
+      "title": "斯里兰卡复活节爆炸案",
+      "region": "斯里兰卡，南亚",
       "coordinates_approx": "6.93, 79.84",
       "category": "military",
-      "description": "On 21 April 2019 (Easter Sunday), a series of coordinated suicide bombings struck three churches and three luxury hotels in Sri Lanka, killing 269 people (revised down from initial higher estimates) and injuring over 500. The attacks were carried out by members of National Thowheeth Jama'ath, a local Islamist extremist group with links to the Islamic State. The bombings were the deadliest terrorist attack in Sri Lanka since the civil war ended in 2009 and one of the deadliest IS-linked attacks outside the Middle East. Subsequent investigations revealed significant intelligence failures: Indian and US intelligence agencies had warned Sri Lankan authorities of the plot, but the warnings were not acted upon due to political dysfunction between President Sirisena and Prime Minister Wickremesinghe.",
+      "description": "2019年4月21日（复活节星期日），一系列协同自杀式爆炸袭击了斯里兰卡的三座教堂和三间豪华酒店，造成269人死亡（从最初较高的估计数字下调），500多人受伤。袭击由当地伊斯兰极端组织“全国认主学大会”成员实施，该组织与伊斯兰国有关联。这是自2009年内战结束以来斯里兰卡最致命的恐怖袭击，也是中东以外与伊斯兰国关联的最致命袭击之一。随后的调查揭示了重大的情报失误：印度和美国情报机构曾警告斯里兰卡当局有关该阴谋，但由于总统西里塞纳和总理维克勒马辛哈之间的政治不和，这些警告未被采纳。",
       "key_figures": [
-        "Maithripala Sirisena (President of Sri Lanka)",
-        "Ranil Wickremesinghe (Prime Minister)",
-        "Zahran Hashim (NTJ leader, died in the attacks)"
+        "Maithripala Sirisena（斯里兰卡总统）",
+        "Ranil Wickremesinghe（总理）",
+        "Zahran Hashim（全国认主学大会领导人，在袭击中死亡）"
       ],
       "sources": [
         {
-          "name": "Sri Lankan Parliamentary Select Committee report on the Easter attacks, 2019",
+          "name": "斯里兰卡议会关于复活节袭击的特别委员会报告，2019年",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary reporting by Daily Mirror (Sri Lanka), Reuters, BBC, Al Jazeera",
+          "name": "《每日镜报》（斯里兰卡）、路透社、英国广播公司、半岛电视台的当代报道",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Confirmed by multiple official investigations. Final death toll was revised downward from initial reports of 359 to 269 after forensic identification.",
+      "certainty_note": "经多项官方调查确认。最终死亡人数从最初报告的359人下调至法医鉴定后的269人。",
       "cross_references": []
     },
     {
       "id": "2019-009",
-      "title": "First impeachment of President Donald Trump",
-      "region": "United States, North America",
+      "title": "唐纳德·特朗普总统首次遭弹劾",
+      "region": "美国，北美洲",
       "coordinates_approx": "38.89, -77.01",
       "category": "political",
-      "description": "On 18 December 2019, the US House of Representatives impeached President Donald Trump on two articles: abuse of power and obstruction of Congress. The charges stemmed from Trump's efforts to pressure Ukraine's President Volodymyr Zelensky, during a July 2019 phone call, to announce investigations into political rival Joe Biden and his son Hunter Biden, while withholding congressionally approved military aid. The impeachment was largely party-line, with the House voting 230-197 on abuse of power and 229-198 on obstruction. The Senate trial, concluded in February 2020, acquitted Trump. The episode deepened partisan polarisation and centred Ukraine in American domestic politics.",
+      "description": "2019年12月18日，美国众议院以两项条款弹劾唐纳德·特朗普总统：滥用职权和妨碍国会。这些指控源于特朗普在2019年7月的一通电话中，施压乌克兰总统弗拉基米尔·泽连斯基宣布对政治对手乔·拜登及其子亨特·拜登进行调查，同时扣留国会批准的军事援助。弹劾基本按党派划线，众议院以230票对197票通过滥用职权条款，以229票对198票通过妨碍国会条款。2020年2月结束的参议院审判宣告特朗普无罪。这一事件加深了党派两极分化，并使乌克兰成为美国国内政治的中心。",
       "key_figures": [
-        "Donald Trump (President of the United States)",
-        "Nancy Pelosi (Speaker of the House)",
-        "Volodymyr Zelensky (President of Ukraine)",
-        "Adam Schiff (House Intelligence Committee chair)"
+        "Donald Trump（美国总统）",
+        "Nancy Pelosi（众议院议长）",
+        "Volodymyr Zelensky（乌克兰总统）",
+        "Adam Schiff（众议院情报委员会主席）"
       ],
       "sources": [
         {
-          "name": "H. Res. 755, Articles of Impeachment Against Donald John Trump, US House of Representatives, 18 December 2019",
+          "name": "H. Res. 755，《弹劾唐纳德·约翰·特朗普条款》，美国众议院，2019年12月18日",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Transcript of Trump-Zelensky phone call (declassified, released 25 September 2019)",
+          "name": "特朗普-泽连斯基通话记录（解密，2019年9月25日发布）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "House Intelligence Committee impeachment inquiry testimony transcripts, 2019",
+          "name": "众议院情报委员会弹劾调查证词记录，2019年",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official congressional records and public proceedings.",
+      "certainty_note": "官方国会记录和公开程序。",
       "cross_references": [
-        "2020-XXX (Senate acquittal, February 2020)",
-        "2022-XXX (Russia invades Ukraine \u2014 Zelensky connection)"
+        "2020-XXX (参议院宣告无罪，2020年2月)",
+        "2022-XXX (俄罗斯入侵乌克兰——泽连斯基关联)"
       ]
     },
     {
       "id": "2019-010",
-      "title": "Amazon rainforest fires draw global alarm",
-      "region": "Brazil, South America",
+      "title": "亚马逊雨林大火引发全球警报",
+      "region": "巴西，南美洲",
       "coordinates_approx": "-3.47, -62.22",
       "category": "environmental",
-      "description": "In August 2019, satellite data from Brazil's INPE (National Institute for Space Research) revealed a dramatic surge in fires across the Amazon rainforest, with an 84% increase over the same period in 2018. The fires were overwhelmingly linked to deliberate land clearing for cattle ranching and agriculture, enabled by the Bolsonaro government's weakening of environmental enforcement. The crisis provoked international condemnation, threats by European leaders to block the EU-Mercosur trade deal, and a diplomatic confrontation between Presidents Macron and Bolsonaro. Brazil eventually deployed military forces to combat the fires under intense pressure. The episode focused global attention on deforestation and the Amazon's role in climate regulation.",
+      "description": "2019年8月，巴西国家空间研究所的卫星数据显示，亚马逊雨林的火灾数量急剧增加，比2018年同期增长了84%。这些火灾绝大多数与为养牛和农业而进行的故意清理土地有关，而博索纳罗政府削弱环境执法为这种行为提供了便利。这场危机引发了国际谴责，欧洲领导人威胁要阻止欧盟-南方共同市场贸易协定，并导致了马克龙总统和博索纳罗总统之间的外交对抗。巴西最终在巨大压力下部署军队扑灭火灾。这一事件将全球注意力集中在森林砍伐和亚马逊在气候调节中的作用上。",
       "key_figures": [
-        "Jair Bolsonaro (President of Brazil)",
-        "Ricardo Salles (Environment Minister)",
-        "Emmanuel Macron (President of France, vocal critic)"
+        "Jair Bolsonaro（巴西总统）",
+        "Ricardo Salles（环境部长）",
+        "Emmanuel Macron（法国总统，直言不讳的批评者）"
       ],
       "sources": [
         {
-          "name": "INPE (Instituto Nacional de Pesquisas Espaciais) satellite fire monitoring data, August 2019",
+          "name": "巴西国家空间研究所卫星火灾监测数据，2019年8月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary reporting by Folha de S\u00e3o Paulo, O Globo, Reuters, BBC, The Guardian",
+          "name": "《圣保罗页报》、《环球报》、路透社、英国广播公司、《卫报》的当代报道",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Global Fire Emissions Database (GFED) data for 2019",
+          "name": "2019年全球火灾排放数据库数据",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Satellite data provides objective measurement. The 84% increase figure comes from INPE's comparison of January-August 2018 vs. 2019. Some debate exists over whether 2019 was historically anomalous versus returning to earlier deforestation-era norms.",
+      "certainty_note": "卫星数据提供了客观测量。84%的增长数字来自巴西国家空间研究所对2018年1月至8月与2019年同期的比较。关于2019年是否在历史上异常，还是回归到早期森林砍伐时代的常态，存在一些争论。",
       "cross_references": []
     },
     {
       "id": "2019-011",
-      "title": "Emperor Akihito abdicates; Reiwa era begins in Japan",
-      "region": "Japan, East Asia",
+      "title": "明仁天皇退位；日本令和时代开始",
+      "region": "日本，东亚",
       "coordinates_approx": "35.68, 139.75",
       "category": "political",
-      "description": "On 30 April 2019, Emperor Akihito of Japan formally abdicated the Chrysanthemum Throne, the first Japanese emperor to do so in over 200 years (since Emperor K\u014dkaku in 1817). His son Crown Prince Naruhito ascended the throne on 1 May, inaugurating the Reiwa era (meaning 'Beautiful Harmony'). The abdication required special legislation passed in 2017, as the Imperial Household Law did not provide for voluntary abdication. Akihito had cited declining health and his desire to ensure the continuity of imperial duties. The transition was marked by nationwide celebrations and a rare alignment of historical ceremony with modern constitutional monarchy.",
+      "description": "2019年4月30日，日本明仁天皇正式退位，这是200多年来（自1817年光格天皇以来）首位退位的日本天皇。其子皇太子德仁于5月1日即位，开启了令和时代（意为“美丽的和谐”）。退位需要2017年通过的特别立法，因为《皇室典范》未规定自愿退位。明仁曾以健康状况不佳以及希望确保皇室职责的连续性为由。这一过渡以全国性的庆祝活动和历史仪式与现代君主立宪制的罕见结合为标志。",
       "key_figures": [
-        "Akihito (Emperor, abdicated)",
-        "Naruhito (new Emperor)",
-        "Shinz\u014d Abe (Prime Minister)"
+        "Akihito（退位天皇）",
+        "Naruhito（新天皇）",
+        "Shinzō Abe（首相）"
       ],
       "sources": [
         {
-          "name": "Imperial Household Agency official statements and ceremony records, April\u2013May 2019",
+          "name": "宫内厅官方声明及仪式记录，2019年4月至5月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Special Measures Law on the Abdication of the Emperor, 2017",
+          "name": "《关于天皇退位的特别措施法》，2017年",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official state ceremony with full legal documentation.",
+      "certainty_note": "具有完整法律文件的官方国家仪式。",
       "cross_references": []
     },
     {
       "id": "2019-012",
-      "title": "Boris Johnson becomes UK Prime Minister; Brexit parliamentary crisis",
-      "region": "United Kingdom, Western Europe",
+      "title": "鲍里斯·约翰逊成为英国首相；脱欧议会危机",
+      "region": "英国，西欧",
       "coordinates_approx": "51.50, -0.12",
       "category": "political",
-      "description": "Following Theresa May's resignation over her failure to pass a Brexit withdrawal agreement through Parliament, Boris Johnson won the Conservative Party leadership contest and became Prime Minister on 24 July 2019. Johnson's attempt to prorogue Parliament in September was ruled unlawful by the UK Supreme Court (R (Miller) v The Prime Minister). After months of parliamentary deadlock, Johnson secured a revised withdrawal agreement with the EU and called a snap general election for 12 December, which the Conservatives won with an 80-seat majority \u2014 their largest since 1987. This result broke the Brexit impasse and set the UK on course to leave the EU on 31 January 2020.",
+      "description": "在特蕾莎·梅因未能使脱欧协议获得议会通过而辞职后，鲍里斯·约翰逊赢得了保守党领袖竞选，并于2019年7月24日成为首相。约翰逊9月试图让议会休会的做法被英国最高法院裁定为非法（R (Miller) 诉首相案）。经过数月的议会僵局，约翰逊与欧盟达成了一项修订后的脱欧协议，并呼吁于12月12日举行提前大选，保守党以80个席位的多数获胜——这是自1987年以来最大的胜利。这一结果打破了脱欧僵局，并使英国走上了于2020年1月31日脱离欧盟的道路。",
       "key_figures": [
-        "Boris Johnson (Prime Minister from July 2019)",
-        "Theresa May (Prime Minister until July 2019)",
-        "Jeremy Corbyn (Labour leader)",
-        "Lady Hale (Supreme Court president, prorogation ruling)"
+        "Boris Johnson（2019年7月起任首相）",
+        "Theresa May（2019年7月前首相）",
+        "Jeremy Corbyn（工党领袖）",
+        "Lady Hale（最高法院院长，休会裁决）"
       ],
       "sources": [
         {
-          "name": "R (Miller) v The Prime Minister [2019] UKSC 41, UK Supreme Court, 24 September 2019",
+          "name": "R (Miller) 诉首相案 [2019] UKSC 41，英国最高法院，2019年9月24日",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "UK general election results, 12 December 2019 (Electoral Commission)",
+          "name": "英国大选结果，2019年12月12日（选举委员会）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary reporting by BBC, The Guardian, Financial Times, Reuters",
+          "name": "英国广播公司、《卫报》、《金融时报》、路透社的当代报道",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official legal proceedings, election results, and parliamentary records.",
+      "certainty_note": "官方法律程序、选举结果和议会记录。",
       "cross_references": [
-        "2016-XXX (Brexit referendum)",
-        "2020-XXX (UK formally leaves the EU, 31 January 2020)"
+        "2016-XXX (脱欧公投)",
+        "2020-XXX (英国正式脱离欧盟，2020年1月31日)"
       ]
     },
     {
       "id": "2019-013",
-      "title": "Global climate strikes led by youth movements",
-      "region": "Global",
+      "title": "青年运动领导的全球气候罢工",
+      "region": "全球",
       "coordinates_approx": null,
       "category": "environmental",
-      "description": "Throughout 2019, youth-led climate strikes inspired by Swedish activist Greta Thunberg's 'Fridays for Future' movement grew into the largest climate demonstrations in history. The Global Climate Strike on 20 September 2019 drew an estimated 4 million participants across 163 countries, with major protests in New York, Berlin, Melbourne, Mumbai, Nairobi, and hundreds of other cities. A second wave on 27 September drew approximately 2 million more. Thunberg addressed the UN Climate Action Summit on 23 September with her 'How dare you' speech. The movement shifted public discourse on climate urgency and influenced corporate and political commitments, though critics noted the gap between protest energy and policy outcomes.",
+      "description": "在整个2019年，受瑞典活动家格蕾塔·通贝里“周五为未来”运动启发的青年领导的气候罢工，发展成为历史上规模最大的气候示威活动。2019年9月20日的全球气候罢工吸引了来自163个国家的约400万参与者，在纽约、柏林、墨尔本、孟买、内罗毕以及数百个其他城市举行了大规模抗议活动。9月27日的第二波浪潮又吸引了约200万人。通贝里于9月23日在联合国气候行动峰会上发表了“你们怎敢如此”的演讲。这场运动改变了关于气候紧迫性的公众话语，并影响了企业和政治承诺，尽管批评者指出抗议能量与政策成果之间存在差距。",
       "key_figures": [
-        "Greta Thunberg (Swedish climate activist, Fridays for Future founder)",
-        "Ant\u00f3nio Guterres (UN Secretary-General, convened Climate Action Summit)",
-        "Vanessa Nakate (Ugandan climate activist)"
+        "Greta Thunberg（瑞典气候活动家，“周五为未来”创始人）",
+        "António Guterres（联合国秘书长，召集气候行动峰会）",
+        "Vanessa Nakate（乌干达气候活动家）"
       ],
       "sources": [
         {
-          "name": "Fridays for Future organisational records and strike counts, 2019",
+          "name": "“周五为未来”组织记录和罢工统计，2019年",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "UN Climate Action Summit proceedings, 23 September 2019",
+          "name": "联合国气候行动峰会会议记录，2019年9月23日",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary reporting by The Guardian, Reuters, BBC, New York Times",
+          "name": "《卫报》、路透社、英国广播公司、《纽约时报》的当代报道",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Confirmed by extensive contemporaneous documentation. Participant estimates vary significantly by methodology (organisers consistently gave higher figures than police).",
+      "certainty_note": "经大量同期文献确认。参与者估计值因方法不同而差异显著（组织者给出的数字始终高于警方）。",
       "cross_references": [
-        "2018-XXX (Thunberg begins solo school strikes, August 2018)"
+        "2018-XXX (通贝里开始独自学校罢工，2018年8月)"
       ]
     },
     {
       "id": "2019-014",
-      "title": "US-China trade war escalation",
-      "region": "United States / China, global",
+      "title": "美中贸易战升级",
+      "region": "美国 / 中国，全球",
       "coordinates_approx": null,
       "category": "economic",
-      "description": "The trade conflict between the United States and China intensified dramatically in 2019. After negotiations broke down in May, the US raised tariffs on $200 billion of Chinese goods from 10% to 25%, and China retaliated with tariffs on $60 billion of US goods. Escalations continued through the summer with additional tariff rounds. The conflict expanded beyond trade to technology, with the US effectively banning Huawei from its supply chain in May via an Entity List designation. A tentative 'Phase One' trade deal was announced in December, in which China committed to increased purchases of US agricultural products in exchange for tariff rollbacks. The trade war disrupted global supply chains, slowed growth, and accelerated the decoupling of US and Chinese technology ecosystems.",
+      "description": "2019年，美国与中国之间的贸易冲突急剧升级。在5月谈判破裂后，美国将价值2000亿美元中国商品的关税从10%提高到25%，中国则对价值600亿美元的美国商品加征关税作为报复。整个夏季，随着更多关税轮次的实施，冲突持续升级。冲突从贸易扩展到科技领域，美国于5月通过实体清单指定，实质上将华为从其供应链中排除。12月宣布了一项 tentative 的“第一阶段”贸易协议，中国承诺增加购买美国农产品，以换取关税减免。贸易战扰乱了全球供应链，减缓了增长，并加速了美中技术生态系统的脱钩。",
       "key_figures": [
-        "Donald Trump (US President)",
-        "Xi Jinping (Chinese President)",
-        "Robert Lighthizer (US Trade Representative)",
-        "Liu He (Chinese Vice Premier, lead negotiator)"
+        "Donald Trump（美国总统）",
+        "Xi Jinping（中国国家主席）",
+        "Robert Lighthizer（美国贸易代表）",
+        "Liu He（中国副总理，首席谈判代表）"
       ],
       "sources": [
         {
-          "name": "US Trade Representative official tariff announcements and Federal Register notices, 2019",
+          "name": "美国贸易代表办公室官方关税公告和《联邦公报》通知，2019年",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "US Department of Commerce Bureau of Industry and Security, Entity List addition of Huawei, 15 May 2019",
+          "name": "美国商务部工业与安全局，将华为加入实体清单，2019年5月15日",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "IMF World Economic Outlook, October 2019 (documenting trade war impact on global growth)",
+          "name": "国际货币基金组织《世界经济展望》，2019年10月（记录贸易战对全球增长的影响）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official government records, tariff schedules, and economic data.",
+      "certainty_note": "官方政府记录、关税表和经济数据。",
       "cross_references": [
-        "2018-XXX (trade war begins with initial tariffs)",
-        "2020-XXX (Phase One deal signed January 2020)"
+        "2018-XXX (贸易战以初始关税开始)",
+        "2020-XXX (第一阶段协议于2020年1月签署)"
       ]
     },
     {
       "id": "2019-015",
-      "title": "Abiy Ahmed awarded Nobel Peace Prize",
-      "region": "Ethiopia / Eritrea, East Africa",
+      "title": "阿比·艾哈迈德获诺贝尔和平奖",
+      "region": "埃塞俄比亚 / 厄立特里亚，东非",
       "coordinates_approx": "9.02, 38.75",
       "category": "political",
-      "description": "Ethiopian Prime Minister Abiy Ahmed was awarded the 2019 Nobel Peace Prize for his efforts to resolve the long-running border conflict with Eritrea. After taking office in April 2018, Abiy had rapidly moved to end the 20-year military standoff, travelling to Asmara in July 2018 to sign a joint declaration of peace with Eritrean President Isaias Afwerki. He also released political prisoners, lifted media bans, and initiated domestic liberalisation. However, even at the time of the award, critics noted that the peace process had stalled, the Eritrean border remained largely closed, and ethnic violence within Ethiopia was escalating \u2014 concerns that would prove prescient with the outbreak of the Tigray War in 2020.",
+      "description": "埃塞俄比亚总理阿比·艾哈迈德因其为解决与厄立特里亚长期存在的边界冲突所做的努力而被授予2019年诺贝尔和平奖。阿比在2018年4月上任后，迅速采取行动结束了长达20年的军事对峙，于2018年7月前往阿斯马拉与厄立特里亚总统伊萨亚斯·阿费沃基签署了和平联合声明。他还释放了政治犯，解除了媒体禁令，并启动了国内自由化。然而，即使在获奖时，批评者也指出和平进程已经停滞，厄立特里亚边境基本仍处于关闭状态，埃塞俄比亚内部的种族暴力正在升级——这些担忧在2020年提格雷战争爆发时被证明是有先见之明的。",
       "key_figures": [
-        "Abiy Ahmed (Prime Minister of Ethiopia)",
-        "Isaias Afwerki (President of Eritrea)"
+        "Abiy Ahmed（埃塞俄比亚总理）",
+        "Isaias Afwerki（厄立特里亚总统）"
       ],
       "sources": [
         {
-          "name": "Norwegian Nobel Committee announcement, 11 October 2019",
+          "name": "挪威诺贝尔委员会公告，2019年10月11日",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary reporting by Reuters, BBC, Al Jazeera, The East African",
+          "name": "路透社、英国广播公司、半岛电视台、《东非人报》的当代报道",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official Nobel Committee documentation.",
+      "certainty_note": "诺贝尔委员会官方文件。",
       "cross_references": [
-        "2018-XXX (Ethiopia-Eritrea peace declaration, July 2018)",
-        "2020-XXX (Tigray War begins, November 2020)"
+        "2018-XXX (埃塞俄比亚-厄立特里亚和平宣言，2018年7月)",
+        "2020-XXX (提格雷战争开始，2020年11月)"
       ]
     },
     {
       "id": "2019-016",
-      "title": "Bolivian political crisis and ouster of Evo Morales",
-      "region": "Bolivia, South America",
+      "title": "玻利维亚政治危机与埃沃·莫拉莱斯下台",
+      "region": "玻利维亚，南美洲",
       "coordinates_approx": "-16.50, -68.15",
       "category": "political",
-      "description": "Bolivia's October 2019 general election triggered a political crisis when the opposition, backed by an OAS election monitoring report, alleged fraud in Evo Morales's claimed first-round victory. Weeks of protests and a police mutiny culminated in the military 'suggesting' Morales resign on 10 November. Morales fled to Mexico, then Argentina, calling it a coup. Opposition senator Jeanine \u00c1\u00f1ez declared herself interim president. The characterisation of these events remains deeply contested: supporters of Morales and much of the Latin American left described it as a right-wing coup against an indigenous leader, while opponents characterised it as a democratic correction of electoral fraud. Subsequent statistical analyses, including by researchers at MIT, found the OAS fraud claims were not supported by the data.",
+      "description": "玻利维亚2019年10月的大选引发了一场政治危机，当时反对派在美洲国家组织选举观察报告的支持下，指控莫拉莱斯声称的首轮获胜存在舞弊。数周的抗议和警察哗变最终导致军方于11月10日“建议”莫拉莱斯辞职。莫拉莱斯逃往墨西哥，随后前往阿根廷，并称这是一场政变。反对派参议员珍妮娜·阿涅斯宣布自己为临时总统。对这些事件的定性仍然存在深刻争议：莫拉莱斯的支持者和大部分拉丁美洲左翼将其描述为针对一位土著领导人的右翼政变，而反对者则将其定性为对选举舞弊的民主纠正。随后的统计分析，包括麻省理工学院研究人员进行的分析，发现美洲国家组织的舞弊指控缺乏数据支持。",
       "key_figures": [
-        "Evo Morales (President, ousted)",
-        "Jeanine \u00c1\u00f1ez (interim President)",
-        "Carlos Mesa (opposition candidate)",
-        "Luis Fernando Camacho (civic opposition leader)"
+        "Evo Morales（被罢免的总统）",
+        "Jeanine Áñez（临时总统）",
+        "Carlos Mesa（反对派候选人）",
+        "Luis Fernando Camacho（公民反对派领袖）"
       ],
       "sources": [
         {
-          "name": "OAS Electoral Observation Mission preliminary and final reports on Bolivia, 2019",
+          "name": "美洲国家组织玻利维亚选举观察团初步和最终报告，2019年",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary reporting by Reuters, BBC, La Raz\u00f3n (Bolivia), Al Jazeera",
+          "name": "路透社、英国广播公司、《理性报》（玻利维亚）、半岛电视台的当代报道",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Idrobo, Kronick, and Rodr\u00edguez, 'Do Shifts in Late-Counted Votes Signal Fraud? Evidence from Bolivia', Journal of Politics, 2020 (MIT/statistical analysis challenging OAS claims)",
+          "name": "Idrobo、Kronick和Rodríguez，《迟计选票的变动是否表明存在舞弊？来自玻利维亚的证据》，《政治学杂志》，2020年（麻省理工学院/挑战美洲国家组织主张的统计分析）",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The sequence of events is well-documented. The characterisation (coup vs. democratic correction) remains actively contested in scholarship and politics.",
+      "certainty_note": "事件顺序有充分记录。其定性（政变 vs. 民主纠正）在学术界和政治中仍存在积极争议。",
       "cross_references": [
-        "2020-XXX (Luis Arce wins Bolivian election, October 2020, restoring MAS to power)"
+        "2020-XXX (路易斯·阿尔塞赢得玻利维亚大选，2020年10月，使争取社会主义运动党重新执政)"
       ]
     },
     {
       "id": "2019-017",
-      "title": "SARS-CoV-2 emerges in Wuhan, China",
-      "region": "China, East Asia",
+      "title": "SARS-CoV-2在中国武汉出现",
+      "region": "中国，东亚",
       "coordinates_approx": "30.59, 114.30",
       "category": "scientific",
-      "description": "In December 2019, clusters of pneumonia of unknown cause were identified in Wuhan, Hubei Province, China, many linked to the Huanan Seafood Wholesale Market. Chinese authorities notified the WHO on 31 December. The pathogen was identified as a novel coronavirus (later named SARS-CoV-2) by early January 2020. While the full pandemic impact belongs to 2020 and beyond, the emergence of the virus in late 2019 represents one of the most consequential epidemiological events in modern history. The precise origin \u2014 whether zoonotic spillover at the market or a laboratory-related incident at the Wuhan Institute of Virology \u2014 remained a subject of intense scientific and political debate.",
+      "description": "2019年12月，中国湖北省武汉市发现不明原因肺炎聚集性病例，其中许多病例与华南海鲜批发市场有关。中国当局于12月31日通知了世界卫生组织。该病原体在2020年1月初被确认为一种新型冠状病毒（后来命名为SARS-CoV-2）。虽然全面的疫情影响属于2020年及以后，但该病毒在2019年底的出现代表了现代历史上最具后果的流行病学事件之一。其确切起源——无论是市场的动物源性溢出还是武汉病毒研究所的实验室相关事件——仍然是科学和政治激烈辩论的主题。",
       "key_figures": [
-        "Li Wenliang (Wuhan ophthalmologist who raised early alarm, died February 2020)",
-        "Zhang Yongzhen (virologist who published first genome sequence)",
-        "Tedros Adhanom Ghebreyesus (WHO Director-General)"
+        "Li Wenliang（武汉眼科医生，发出早期警报，2020年2月去世）",
+        "Zhang Yongzhen（发布首个基因组序列的病毒学家）",
+        "Tedros Adhanom Ghebreyesus（世界卫生组织总干事）"
       ],
       "sources": [
         {
-          "name": "WHO Disease Outbreak News, 'Pneumonia of unknown cause \u2013 China', 5 January 2020 (reporting December 2019 events)",
+          "name": "世界卫生组织疾病暴发新闻，《不明原因肺炎——中国》，2020年1月5日（报道2019年12月事件）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Wuhan Municipal Health Commission alerts, December 2019",
+          "name": "武汉市卫生健康委员会警报，2019年12月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Huang et al., 'Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China', The Lancet, 24 January 2020 (reporting on December 2019 cases)",
+          "name": "Huang等人，《2019年新型冠状病毒感染患者的临床特征》，《柳叶刀》，2020年1月24日（报道2019年12月病例）",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The emergence of SARS-CoV-2 in late 2019 is established. The earliest identified case dates to approximately 8 December 2019 (some analyses suggest earlier). The precise origin (natural spillover vs. lab-related) is unresolved as of 2025.",
+      "certainty_note": "SARS-CoV-2在2019年底的出现已确定。最早确定的病例日期约为2019年12月8日（一些分析表明更早）。确切起源（自然溢出 vs. 实验室相关）截至2025年尚未解决。",
       "cross_references": [
-        "2020-XXX (COVID-19 pandemic declared, global lockdowns)"
+        "2020-XXX (COVID-19大流行宣布，全球封锁)"
       ]
     },
     {
       "id": "2019-018",
-      "title": "Chilean social unrest (estallido social)",
-      "region": "Chile, South America",
+      "title": "智利社会动荡（estallido social）",
+      "region": "智利，南美洲",
       "coordinates_approx": "-33.45, -70.67",
       "category": "political",
-      "description": "Beginning on 18 October 2019 with student-led fare evasion protests against a metro price increase in Santiago, Chile erupted into its most severe social unrest since the Pinochet dictatorship. Protests rapidly expanded to encompass deep-seated grievances over inequality, pension inadequacy, healthcare costs, and the privatised economic model inherited from the Pinochet era. President Sebasti\u00e1n Pi\u00f1era declared a state of emergency and deployed the military to the streets for the first time since the return to democracy. Over 30 people died and thousands were injured, with documented cases of police and military human rights abuses. In November, political parties agreed to a process for drafting a new constitution, the central demand of the movement.",
+      "description": "2019年10月18日，以学生领导的反抗圣地亚哥地铁票价上涨的逃票抗议活动开始，智利爆发了自皮诺切特独裁以来最严重的社会动荡。抗议活动迅速扩大，涵盖了根深蒂固的不满情绪，涉及不平等、养老金不足、医疗成本以及皮诺切特时代遗留下来的私有化经济模式。塞巴斯蒂安·皮涅拉总统宣布进入紧急状态，并自恢复民主以来首次将军队部署到街头。超过30人死亡，数千人受伤，并有记录的警察和军队侵犯人权案件。11月，各政党同意启动起草新宪法的进程，这是运动的核心诉求。",
       "key_figures": [
-        "Sebasti\u00e1n Pi\u00f1era (President of Chile)"
+        "Sebastián Piñera（智利总统）"
       ],
       "sources": [
         {
-          "name": "Instituto Nacional de Derechos Humanos (INDH), reports on human rights violations during protests, 2019",
+          "name": "国家人权研究所关于抗议期间侵犯人权行为的报告，2019年",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary reporting by La Tercera, El Mercurio, Reuters, BBC, Al Jazeera",
+          "name": "《第三日报》、《信使报》、路透社、英国广播公司、半岛电视台的当代报道",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "UN Human Rights Office mission report on Chile, December 2019",
+          "name": "联合国人权事务高级专员办事处智利考察报告，2019年12月",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented by Chilean and international media, human rights organisations, and official investigations.",
+      "certainty_note": "智利和国际媒体、人权组织及官方调查广泛记录。",
       "cross_references": [
-        "2020-XXX (Chilean constitutional referendum, October 2020)",
-        "2022-XXX (new constitution rejected in referendum)"
+        "2020-XXX (智利宪法公投，2020年10月)",
+        "2022-XXX (新宪法在公投中被否决)"
       ]
     },
     {
       "id": "2019-019",
-      "title": "Iran\u2013US tensions: drone shootdown and tanker attacks in the Persian Gulf",
-      "region": "Iran / Persian Gulf / United States",
+      "title": "伊朗-美国紧张局势：无人机击落和波斯湾油轮袭击",
+      "region": "伊朗 / 波斯湾 / 美国",
       "coordinates_approx": "25.97, 56.27",
       "category": "military",
-      "description": "Tensions between the United States and Iran escalated sharply in 2019 following the US withdrawal from the JCPOA nuclear deal in 2018 and the imposition of 'maximum pressure' sanctions. In May and June, several oil tankers were attacked in the Gulf of Oman \u2014 the US and its allies attributed these to Iran, which denied responsibility. On 20 June, Iran shot down a US RQ-4A Global Hawk surveillance drone over the Strait of Hormuz. President Trump reportedly approved and then called off a retaliatory military strike minutes before execution. In September, drone and cruise missile attacks struck Saudi Aramco oil facilities at Abqaiq and Khurais, temporarily halving Saudi oil production. The Houthis claimed responsibility but the US and Saudi Arabia attributed the attack to Iran.",
+      "description": "继2018年美国退出《联合全面行动计划》核协议并实施“极限施压”制裁后，美国与伊朗之间的紧张局势在2019年急剧升级。5月和6月，数艘油轮在阿曼湾遭到袭击——美国及其盟友将其归咎于伊朗，伊朗否认责任。6月20日，伊朗在霍尔木兹海峡上空击落了一架美国RQ-4A“全球鹰”无人侦察机。据报道，特朗普总统批准了报复性军事打击，但在执行前几分钟取消了。9月，无人机和巡航导弹袭击了沙特阿美石油公司在阿布盖格和胡赖斯的设施，暂时使沙特石油产量减半。胡塞武装声称负责，但美国和沙特阿拉伯将此次袭击归咎于伊朗。",
       "key_figures": [
-        "Donald Trump (US President)",
-        "Hassan Rouhani (Iranian President)",
-        "Qasem Soleimani (IRGC Quds Force commander, killed January 2020)",
-        "Mohammad Javad Zarif (Iranian Foreign Minister)",
-        "Mike Pompeo (US Secretary of State)"
+        "Donald Trump（美国总统）",
+        "Hassan Rouhani（伊朗总统）",
+        "Qasem Soleimani（伊斯兰革命卫队圣城旅指挥官，2020年1月被杀）",
+        "Mohammad Javad Zarif（伊朗外交部长）",
+        "Mike Pompeo（美国国务卿）"
       ],
       "sources": [
         {
-          "name": "US Central Command official statements on drone shootdown and Gulf incidents, 2019",
+          "name": "美国中央司令部关于无人机击落和海湾事件的官方声明，2019年",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "UN Panel of Experts reports on Yemen (investigating Abqaiq attack attribution)",
+          "name": "联合国也门问题专家小组报告（调查阿布盖格袭击归因）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary reporting by Reuters, AP, BBC, Al Jazeera, New York Times",
+          "name": "路透社、美联社、英国广播公司、半岛电视台、《纽约时报》的当代报道",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The physical events are well-documented. Attribution of the tanker attacks and the Abqaiq strike to Iran is assessed as highly probable by Western intelligence but denied by Iran; independent verification is limited.",
+      "certainty_note": "物理事件有充分记录。西方情报机构评估油轮袭击和阿布盖格袭击归因于伊朗的可能性很高，但伊朗否认；独立核实有限。",
       "cross_references": [
-        "2018-XXX (US withdrawal from JCPOA)",
-        "2020-001 (US assassination of Qasem Soleimani, January 2020)"
+        "2018-XXX (美国退出《联合全面行动计划》)",
+        "2020-001 (美国刺杀卡西姆·苏莱曼尼，2020年1月)"
       ]
     },
     {
       "id": "2019-020",
-      "title": "Ebola outbreak in eastern Democratic Republic of the Congo",
-      "region": "Democratic Republic of the Congo, Central Africa",
+      "title": "刚果民主共和国东部埃博拉疫情",
+      "region": "刚果民主共和国，中非",
       "coordinates_approx": "0.31, 29.28",
       "category": "demographic",
-      "description": "The second-largest Ebola outbreak in history continued through 2019 in North Kivu and Ituri provinces of the DRC, having begun in August 2018. By the end of 2019, the outbreak had caused over 2,200 deaths and approximately 3,400 confirmed cases. Response efforts were severely complicated by armed conflict in the region, attacks on Ebola treatment centres, community mistrust, and the displacement of populations. The deployment of a new rVSV-ZEBOV vaccine (Merck) marked a significant advance in Ebola control, though access remained difficult. The WHO declared the outbreak a Public Health Emergency of International Concern (PHEIC) in July 2019.",
+      "description": "历史上第二大埃博拉疫情在2019年持续影响刚果（金）的北基伍省和伊图里省，该疫情始于2018年8月。截至2019年底，疫情已导致超过2200人死亡，约3400例确诊病例。该地区的武装冲突、对埃博拉治疗中心的袭击、社区不信任以及人口流离失所严重复杂化了应对工作。新型rVSV-ZEBOV疫苗（默克公司）的部署标志着埃博拉防控的重大进展，尽管获取仍然困难。世界卫生组织于2019年7月宣布该疫情为国际关注的突发公共卫生事件。",
       "key_figures": [
-        "Tedros Adhanom Ghebreyesus (WHO Director-General)",
-        "Oly Ilunga Kalenga (DRC Health Minister, resigned July 2019 over response disputes)"
+        "Tedros Adhanom Ghebreyesus（世界卫生组织总干事）",
+        "Oly Ilunga Kalenga（刚果（金）卫生部长，因应对争议于2019年7月辞职）"
       ],
       "sources": [
         {
-          "name": "WHO Ebola situation reports, Democratic Republic of the Congo, 2019",
+          "name": "世界卫生组织埃博拉疫情形势报告，刚果民主共和国，2019年",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "WHO PHEIC declaration, 17 July 2019",
+          "name": "世界卫生组织国际关注的突发公共卫生事件声明，2019年7月17日",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "M\u00e9decins Sans Fronti\u00e8res (MSF) field reports from North Kivu, 2019",
+          "name": "无国界医生组织北基伍实地报告，2019年",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "WHO epidemiological surveillance data. Case counts are confirmed through laboratory testing, though some cases in conflict-affected areas were likely missed.",
+      "certainty_note": "世界卫生组织流行病学监测数据。病例数通过实验室检测确认，但受冲突影响地区的一些病例可能被遗漏。",
       "cross_references": [
-        "2018-XXX (Ebola outbreak begins August 2018)",
-        "2020-XXX (outbreak declared over June 2020)"
+        "2018-XXX (埃博拉疫情始于2018年8月)",
+        "2020-XXX (疫情于2020年6月宣布结束)"
       ]
     },
     {
       "id": "2019-021",
-      "title": "Brunei implements Sharia Penal Code with stoning provisions",
-      "region": "Brunei, Southeast Asia",
+      "title": "文莱实施包含石刑的伊斯兰刑法典",
+      "region": "文莱，东南亚",
       "coordinates_approx": "4.93, 114.95",
       "category": "legal",
-      "description": "On 3 April 2019, Brunei implemented the final phase of its Sharia Penal Code, introducing punishments including death by stoning for homosexuality and adultery, and amputation for theft. The move, announced by Sultan Hassanal Bolkiah, drew widespread international condemnation, celebrity-led boycotts of Brunei-owned luxury hotels, and criticism from the UN. Faced with the backlash, the Sultan announced on 5 May that a de facto moratorium on the death penalty \u2014 already in place since 1957 \u2014 would extend to the new Sharia provisions. The episode highlighted tensions between international human rights norms and the assertion of Islamic legal codes in Southeast Asian states.",
+      "description": "2019年4月3日，文莱实施了其伊斯兰刑法典的最后阶段，引入了包括对同性恋和通奸处以石刑、对盗窃处以截肢等惩罚。苏丹哈桑纳尔·博尔基亚宣布的这一举动，引起了广泛的国际谴责、名人领导的对文莱拥有的豪华酒店的抵制以及联合国的批评。面对反弹，苏丹于5月5日宣布，自1957年以来已存在的死刑事实上的暂停将扩展到新的伊斯兰教法条款。这一事件凸显了国际人权规范与东南亚国家主张伊斯兰法典之间的紧张关系。",
       "key_figures": [
-        "Hassanal Bolkiah (Sultan of Brunei)"
+        "Hassanal Bolkiah（文莱苏丹）"
       ],
       "sources": [
         {
-          "name": "Brunei Sharia Penal Code Order, 2013 (Phase 3 implemented April 2019)",
+          "name": "文莱伊斯兰刑法典令，2013年（第三阶段于2019年4月实施）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "UN Human Rights Office statements on Brunei, April 2019",
+          "name": "联合国人权事务高级专员办事处关于文莱的声明，2019年4月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary reporting by Reuters, BBC, Straits Times",
+          "name": "路透社、英国广播公司、《海峡时报》的当代报道",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official legal promulgation. The distinction between law on the books and the moratorium on enforcement is important: no executions under these provisions have been carried out.",
+      "certainty_note": "官方法律颁布。成文法与暂停执行之间的区别很重要：尚未根据这些规定执行任何处决。",
       "cross_references": []
     },
     {
       "id": "2019-022",
-      "title": "Indonesian capital relocation announced",
-      "region": "Indonesia, Southeast Asia",
+      "title": "印度尼西亚宣布迁都",
+      "region": "印度尼西亚，东南亚",
       "coordinates_approx": "-1.24, 116.85",
       "category": "political",
-      "description": "On 26 August 2019, President Joko Widodo announced that Indonesia would relocate its capital from Jakarta to a new site in East Kalimantan on the island of Borneo, later named 'Nusantara'. The decision was driven by Jakarta's chronic problems: severe subsidence (parts of the city are sinking up to 25 cm per year), catastrophic flooding, extreme traffic congestion, and a population concentration of over 30 million in the greater metropolitan area. The move represented one of the most ambitious capital relocation projects in modern history. Environmental groups raised concerns about deforestation in Borneo.",
+      "description": "2019年8月26日，总统佐科·维多多宣布印度尼西亚将把首都从雅加达迁至婆罗洲岛东加里曼丹的一个新地点，后来命名为“努桑塔拉”。这一决定是由雅加达的长期问题驱动的：严重的地面沉降（该市部分地区每年下沉高达25厘米）、灾难性洪水、极端交通拥堵以及大都市区超过3000万的人口集中。此举是现代历史上最雄心勃勃的迁都项目之一。环保组织对婆罗洲的森林砍伐表示担忧。",
       "key_figures": [
-        "Joko Widodo (President of Indonesia)"
+        "Joko Widodo（印度尼西亚总统）"
       ],
       "sources": [
         {
-          "name": "Presidential announcement and Bappenas (National Development Planning Agency) presentation, 26 August 2019",
+          "name": "总统公告及国家发展规划署介绍，2019年8月26日",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary reporting by Jakarta Post, Kompas, Reuters, BBC",
+          "name": "《雅加达邮报》、《罗盘报》、路透社、英国广播公司的当代报道",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official government announcement. Whether and when the move would be fully realised remained uncertain at the time of announcement.",
+      "certainty_note": "官方政府公告。迁都是否以及何时完全实现，在公告时仍不确定。",
       "cross_references": []
     },
     {
       "id": "2019-023",
-      "title": "Turkish military offensive in northeastern Syria (Operation Peace Spring)",
-      "region": "Syria / Turkey / Kurdish regions, Middle East",
+      "title": "土耳其在叙利亚东北部的军事进攻（“和平之泉”行动）",
+      "region": "叙利亚 / 土耳其 / 库尔德地区，中东",
       "coordinates_approx": "36.63, 39.86",
       "category": "military",
-      "description": "On 9 October 2019, Turkey launched Operation Peace Spring, a military offensive into northeastern Syria targeting the Kurdish-led Syrian Democratic Forces (SDF), which Turkey considers a terrorist organisation linked to the PKK. The operation followed President Trump's abrupt announcement of US troop withdrawal from the border area, widely seen as abandoning the Kurdish forces who had been key US allies in the fight against ISIS. The offensive resulted in significant civilian displacement (estimated 300,000 people) and drew widespread international condemnation. A ceasefire brokered by the US and later a Russia-Turkey agreement in Sochi established a framework for Turkish control of a border strip, while Russian and Syrian government forces moved into previously SDF-held territory.",
+      "description": "2019年10月9日，土耳其发动“和平之泉”行动，对叙利亚东北部以库尔德人为主的叙利亚民主军发动军事进攻，土耳其认为该组织是与库尔德工人党有联系的恐怖组织。此次行动是在特朗普总统突然宣布美军从边境地区撤军之后进行的，此举被广泛视为抛弃了曾是美国在打击伊斯兰国斗争中关键盟友的库尔德武装。此次进攻导致大量平民流离失所（估计30万人），并引起了广泛的国际谴责。美国斡旋的停火以及随后在索契达成的俄罗斯-土耳其协议，为土耳其控制一条边境地带建立了框架，而俄罗斯和叙利亚政府军则进入了此前由叙利亚民主军控制的领土。",
       "key_figures": [
-        "Recep Tayyip Erdo\u011fan (President of Turkey)",
-        "Donald Trump (US President)",
-        "Mazloum Abdi (SDF commander)",
-        "Vladimir Putin (Russian President)"
+        "Recep Tayyip Erdoğan（土耳其总统）",
+        "Donald Trump（美国总统）",
+        "Mazloum Abdi（叙利亚民主军指挥官）",
+        "Vladimir Putin（俄罗斯总统）"
       ],
       "sources": [
         {
-          "name": "UN Office for the Coordination of Humanitarian Affairs (OCHA) situation reports on northeastern Syria, October 2019",
+          "name": "联合国人道主义事务协调厅叙利亚东北部局势报告，2019年10月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary reporting by Reuters, Al Jazeera, BBC, Rudaw, Daily Sabah",
+          "name": "路透社、半岛电视台、英国广播公司、Rudaw新闻网、《每日晨报》的当代报道",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented through military communications, satellite imagery, and international reporting. Casualty and displacement figures vary by source.",
+      "certainty_note": "通过军事通讯、卫星图像和国际报道广泛记录。伤亡和流离失所数字因来源而异。",
       "cross_references": [
-        "2014-XXX (rise of ISIS and US-Kurdish alliance in Syria)"
+        "2014-XXX (伊斯兰国的崛起及美国-库尔德在叙利亚的联盟)"
       ]
     },
     {
       "id": "2019-024",
-      "title": "Iraqi October Revolution (Tishreen protests)",
-      "region": "Iraq, Middle East",
+      "title": "伊拉克十月革命（Tishreen抗议）",
+      "region": "伊拉克，中东",
       "coordinates_approx": "33.31, 44.37",
       "category": "political",
-      "description": "Beginning on 1 October 2019, mass protests erupted across central and southern Iraq, particularly in Baghdad, Basra, Karbala, and Nasiriya. Predominantly young, Shia demonstrators protested against government corruption, unemployment, poor public services, and Iranian influence in Iraqi politics. Security forces and Iran-backed militias used live ammunition and tear gas against protesters, killing over 600 people and wounding thousands by end of year. The protests forced the resignation of Prime Minister Adel Abdul-Mahdi in November. The movement was notable for its rejection of the entire post-2003 sectarian political system (muhasasa) and the prominent role of young people born after the US invasion.",
+      "description": "2019年10月1日开始，伊拉克中部和南部，特别是巴格达、巴士拉、卡尔巴拉和纳西里耶爆发了大规模抗议活动。主要是年轻什叶派示威者抗议政府腐败、失业、公共服务差以及伊朗对伊拉克政治的影响。安全部队和伊朗支持的民兵使用实弹和催泪瓦斯对付抗议者，截至年底造成600多人死亡，数千人受伤。抗议活动迫使阿迪勒·阿卜杜勒-迈赫迪总理于11月辞职。这场运动值得注意的是，它拒绝整个2003年后的教派政治体系，以及在美国入侵后出生的年轻人发挥了突出作用。",
       "key_figures": [
-        "Adel Abdul-Mahdi (Prime Minister, resigned)",
-        "Muqtada al-Sadr (Shia cleric, ambiguous role in protests)",
-        "Grand Ayatollah Ali al-Sistani (called for government restraint)"
+        "Adel Abdul-Mahdi（辞职的总理）",
+        "Muqtada al-Sadr（什叶派神职人员，在抗议中角色模糊）",
+        "Grand Ayatollah Ali al-Sistani（呼吁政府克制）"
       ],
       "sources": [
         {
-          "name": "UN Assistance Mission for Iraq (UNAMI) human rights reports on protests, October\u2013December 2019",
+          "name": "联合国伊拉克援助团关于抗议的人权报告，2019年10月至12月",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Iraqi High Commission for Human Rights casualty reports, 2019",
+          "name": "伊拉克人权事务高级委员会伤亡报告，2019年",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary reporting by Al Jazeera, Reuters, BBC, Iraq Oil Report",
+          "name": "半岛电视台、路透社、英国广播公司、《伊拉克石油报告》的当代报道",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented. Exact death tolls are disputed \u2014 the figure of 600+ comes from IHCHR and medical sources; some estimates are higher.",
+      "certainty_note": "广泛记录。确切死亡人数存在争议——600多人的数字来自伊拉克人权事务高级委员会和医疗来源；一些估计更高。",
       "cross_references": [
-        "2020-XXX (Mustafa al-Kadhimi becomes PM, May 2020)"
+        "2020-XXX (穆斯塔法·卡迪米成为总理，2020年5月)"
       ]
     }
   ],
-  "disconfirming_evidence": "Several events listed above carry significant contested or complicating dimensions: (1) The Bolivia crisis (2019-016): The OAS fraud allegations that catalysed Morales's ouster have been substantially challenged by subsequent statistical analyses, including work by researchers at MIT and CEPR, which found no evidence of the systematic fraud the OAS claimed. This complicates narratives that frame the ouster as a democratic correction. (2) The Amazon fires (2019-010): While the 2019 fire season was severe and the increase over 2018 was dramatic, some scholars noted that fire levels were within historical ranges when compared to the high-deforestation years of the early 2000s, complicating the framing as unprecedented. The crisis was real but the 'unprecedented' framing requires qualification. (3) Abiy Ahmed's Nobel Prize (2019-015): Even at the time of the award, the Ethiopia-Eritrea peace process had largely stalled \u2014 the border remained mostly closed, and Eritrea had made no reciprocal democratic reforms. Rising ethnic violence within Ethiopia, including displacement of over 1 million people, was already evident in 2019. The Nobel Committee was criticised for premature recognition. (4) The characterisation of Hong Kong protest participation numbers (2019-002) is sharply disputed: organiser claims of 2 million participants on 16 June were based on extrapolation; police estimates were far lower (338,000 for the same march). Independent analyses suggested figures somewhere between. (5) COVID-19 origins (2019-017): The earliest case dating and the zoonotic-vs-laboratory-origin question remain unresolved. The initially dominant narrative of spillover from the Huanan market has been complicated by evidence of earlier cases with no market connection, though market-origin proponents point to spatial clustering and environmental sampling data.",
-  "historiographic_note": "2019 is among the most thoroughly documented years in human history, with real-time digital coverage, satellite imagery, social media archives, official government records, and extensive international journalism. The principal biases are not of scarcity but of attention: English-language media and Western-aligned outlets dominate the available record, which tends to foreground events in the US, Europe, and major geopolitical flashpoints while underrepresenting developments in sub-Saharan Africa, Central Asia, the Pacific, and the Caribbean. Social media documentation, while unprecedented in volume, introduces its own distortions \u2014 events that 'go viral' receive disproportionate attention regardless of historical significance, while slow-moving structural changes (demographic shifts, environmental degradation, institutional decay) are systematically underrepresented. The polarised media environment of 2019, particularly around US politics and Brexit, means that even 'factual' reporting often carries framing biases that future historians will need to calibrate for.",
+  "disconfirming_evidence": "上述几个事件带有重要的争议或复杂维度：(1) 玻利维亚危机（2019-016）：催化莫拉莱斯下台的美洲国家组织舞弊指控，已被随后的统计分析（包括麻省理工学院和CEPR研究人员的工作）实质性挑战，这些分析未发现美洲国家组织声称的系统性舞弊证据。这使将下台定性为民主纠正的叙事复杂化。(2) 亚马逊大火（2019-010）：虽然2019年火灾季节严重且比2018年增长显著，但一些学者指出，与21世纪初高森林砍伐年份相比，火灾水平处于历史范围内，这使将其定性为“前所未有”的叙事复杂化。危机是真实的，但“前所未有”的定性需要限定。(3) 阿比·艾哈迈德的诺贝尔奖（2019-015）：即使在获奖时，埃塞俄比亚-厄立特里亚和平进程也已基本停滞——边境大部分仍关闭，厄立特里亚未进行互惠的民主改革。埃塞俄比亚内部不断升级的种族暴力，包括超过100万人流离失所，在2019年已显而易见。诺贝尔委员会因过早认可而受到批评。(4) 香港抗议参与人数（2019-002）的定性存在尖锐争议：组织者声称6月16日有200万参与者是基于外推法；警方估计低得多（同一次游行33.8万人）。独立分析表明数字介于两者之间。(5) COVID-19起源（2019-017）：最早病例日期以及动物源性vs.实验室起源问题仍未解决。最初占主导地位的华南海鲜市场溢出叙事，因无市场关联的早期病例证据而复杂化，尽管市场起源支持者指出空间聚类和环境采样数据。",
+  "historiographic_note": "2019年是人类历史上记录最详尽的年份之一，拥有实时数字报道、卫星图像、社交媒体档案、官方政府记录和广泛的国际新闻业。主要偏见不在于稀缺性，而在于关注度：英语媒体和亲西方媒体在现有记录中占主导地位，这倾向于突出美国、欧洲和主要地缘政治热点的事件，而低估撒哈拉以南非洲、中亚、太平洋和加勒比地区的发展。社交媒体记录虽然数量空前，但也引入了自身的扭曲——无论历史意义如何，“病毒式传播”的事件获得不成比例的关注，而缓慢的结构性变化（人口结构转变、环境退化、制度衰败）则被系统性低估。2019年两极分化的媒体环境，特别是围绕美国政治和英国脱欧，意味着即使是“事实性”报道也常常带有未来历史学家需要校准的框架偏见。",
   "graph_edges": [
     {
       "from": "2019-001",
       "to": "2023-XXX",
       "relation": "led_to",
-      "note": "The TMC power structure from Sudan's 2019 revolution \u2014 particularly the Burhan/Hemedti rivalry \u2014 directly led to the 2023 Sudanese civil war between SAF and RSF"
+      "note": "苏丹2019年革命的过渡军事委员会权力结构——特别是布尔汉与赫梅蒂之间的竞争——直接导致了2023年苏丹武装部队与快速支援部队之间的苏丹内战"
     },
     {
       "from": "2019-002",
       "to": "2020-XXX",
       "relation": "led_to",
-      "note": "Hong Kong protests prompted Beijing to impose the National Security Law in June 2020, fundamentally transforming Hong Kong's legal and political system"
+      "note": "香港抗议活动促使北京于2020年6月实施香港国安法，从根本上改变了香港的法律和政治体系"
     },
     {
       "from": "2019-005",
       "to": "2019-006",
       "relation": "led_to",
-      "note": "BJP's landslide election victory provided the parliamentary supermajority needed to revoke Article 370"
+      "note": "印度人民党的压倒性选举胜利提供了废除第370条所需的议会绝对多数"
     },
     {
       "from": "2019-009",
       "to": "2020-XXX",
       "relation": "led_to",
-      "note": "House impeachment led to Senate trial and acquittal in February 2020"
+      "note": "众议院弹劾导致2020年2月参议院审判和宣告无罪"
     },
     {
       "from": "2019-012",
       "to": "2020-XXX",
       "relation": "led_to",
-      "note": "Johnson's December 2019 election victory enabled UK's formal departure from the EU on 31 January 2020"
+      "note": "约翰逊2019年12月的选举胜利使英国得以于2020年1月31日正式脱离欧盟"
     },
     {
       "from": "2019-014",
       "to": "2020-XXX",
       "relation": "led_to",
-      "note": "Phase One trade deal signed January 2020, though structural decoupling continued"
+      "note": "第一阶段贸易协议于2020年1月签署，尽管结构性脱钩仍在继续"
     },
     {
       "from": "2019-015",
       "to": "2020-XXX",
       "relation": "led_to",
-      "note": "Escalating ethnic tensions in Ethiopia despite Abiy's peace prize led to the Tigray War beginning November 2020"
+      "note": "尽管阿比获得和平奖，埃塞俄比亚内部种族紧张局势升级，导致2020年11月提格雷战争开始"
     },
     {
       "from": "2019-017",
       "to": "2020-XXX",
       "relation": "led_to",
-      "note": "SARS-CoV-2 emergence in December 2019 led directly to the global COVID-19 pandemic of 2020"
+      "note": "2019年12月SARS-CoV-2的出现直接导致了2020年的全球COVID-19大流行"
     },
     {
       "from": "2019-018",
       "to": "2020-XXX",
       "relation": "led_to",
-      "note": "Chilean social unrest led to the October 2020 constitutional referendum approving a new constitution drafting process"
+      "note": "智利社会动荡导致了2020年10月批准新宪法起草进程的宪法公投"
     },
     {
       "from": "2019-019",
       "to": "2020-XXX",
       "relation": "led_to",
-      "note": "Escalating Iran-US tensions culminated in the US assassination of Qasem Soleimani in January 2020"
+      "note": "不断升级的伊朗-美国紧张局势以2020年1月美国刺杀卡西姆·苏莱曼尼告终"
     },
     {
       "from": "2019-013",
       "to": "2019-010",
       "relation": "contemporary_with",
-      "note": "Global climate strikes and Amazon fire crisis reinforced each other in public discourse about climate emergency"
+      "note": "全球气候罢工和亚马逊火灾危机在关于气候紧急状态的公众话语中相互强化"
     },
     {
       "from": "2019-016",
       "to": "2020-XXX",
       "relation": "led_to",
-      "note": "Morales's ouster was reversed when his MAS party won the October 2020 election under Luis Arce"
+      "note": "莫拉莱斯的下台被逆转，其争取社会主义运动党在路易斯·阿尔塞领导下赢得了2020年10月的大选"
     }
   ],
   "_meta": {

@@ -8,7 +8,8 @@
 
 import * as Cesium from 'cesium';
 import { CATEGORIES } from '../config.js';
-import { parseCoords, formatYear } from '../utils.js';
+import { parseCoords, getDisplayCategory, isEventVisible } from '../utils.js';
+import { t, getCategoryLabel, formatYearLocale } from '../locale.js';
 
 export default {
   name: 'event-panel-plugin',
@@ -21,7 +22,7 @@ export default {
     const toggleBtn = document.createElement('button');
     toggleBtn.id = 'evt-toggle';
     toggleBtn.textContent = '☰';
-    toggleBtn.title = '事件列表';
+    toggleBtn.title = t('panel.events', 'zh');
 
     // ── Panel ──
     const panel = document.createElement('div');
@@ -34,7 +35,7 @@ export default {
         position: fixed; left: 10px; top: 60px; z-index: 110;
         background: rgba(10,10,26,0.88); border: 1px solid #3a3a5a; border-radius: 6px;
         color: #ccc; font-size: 18px; padding: 6px 10px; cursor: pointer;
-        transition: all 0.2s; line-height: 1;
+        transition: left 0.25s ease, background 0.2s, border-color 0.2s, color 0.2s; line-height: 1;
       }
       #evt-toggle:hover { background: #3a3a5a; color: #fff; }
       #evt-toggle.active { background: #4a60af; border-color: #6a80cf; color: #fff; }
@@ -104,6 +105,7 @@ export default {
       isOpen = !isOpen;
       panel.classList.toggle('open', isOpen);
       toggleBtn.classList.toggle('active', isOpen);
+      toggleBtn.style.left = isOpen ? '300px' : '10px';
     });
 
     // ── Close on Escape ──
@@ -112,6 +114,7 @@ export default {
         isOpen = false;
         panel.classList.remove('open');
         toggleBtn.classList.remove('active');
+        toggleBtn.style.left = '10px';
       }
     });
 
@@ -120,26 +123,30 @@ export default {
       const events = core.state.get('dataEvents') ?? [];
       const year = core.state.get('currentYear');
       const filters = core.state.get('activeFilters') ?? new Set();
+      const locale = core.state.get('locale') ?? 'zh';
 
       const yearEvents = events.filter(
-        (e) => e._year === year && filters.has(e.category),
+        (e) => e._year === year && isEventVisible(e.category, filters),
       );
 
-      // Sort by category then title
+      // Sort by display category then title
       yearEvents.sort(
-        (a, b) => a.category.localeCompare(b.category) || a.title.localeCompare(b.title),
+        (a, b) => getDisplayCategory(a.category).localeCompare(getDisplayCategory(b.category)) || a.title.localeCompare(b.title),
       );
+
+      // Update toggle tooltip
+      toggleBtn.title = t('panel.events', locale);
 
       // Header
       panel.innerHTML = `<div class="evt-header">
-        <h3>${formatYear(year)}</h3>
-        <div class="evt-sub">${yearEvents.length} 个事件</div>
+        <h3>${formatYearLocale(year, locale)}</h3>
+        <div class="evt-sub">${t('panel.events.count', locale, { n: String(yearEvents.length) })}</div>
       </div>`;
 
       if (yearEvents.length === 0) {
         const empty = document.createElement('div');
         empty.className = 'evt-empty';
-        empty.textContent = '暂无事件';
+        empty.textContent = t('panel.events.empty', locale);
         panel.appendChild(empty);
         return;
       }
@@ -153,7 +160,7 @@ export default {
         item.className = 'evt-item';
         item.dataset.eventId = evt.id;
 
-        const cfg = CATEGORIES[evt.category] || { color: '#888', label: evt.category };
+        const cfg = CATEGORIES[getDisplayCategory(evt.category)] || { color: '#888', label: evt.category };
 
         item.innerHTML = `<span class="evt-dot" style="background:${cfg.color}"></span>
           <span class="evt-title">${evt.title}</span>`;
@@ -166,19 +173,25 @@ export default {
           // Set selection (opens popup)
           core.state.set('selectedEvent', evt);
 
-          // Fly camera to event location (top-down view)
+          // Fly to event location
           const [lat, lon] = parseCoords(evt.coordinates_approx);
           if (lat !== 0 || lon !== 0) {
-            viewer.camera.flyTo({
-              destination: Cesium.Cartesian3.fromDegrees(lon, lat, 280000),
-              orientation: {
-                heading: Cesium.Math.toRadians(0),
-                pitch: Cesium.Math.toRadians(-80),
-                roll: 0,
-              },
-              duration: 1.0,
-              easingFunction: Cesium.EasingFunction.QUADRATIC_OUT,
-            });
+            const mode = core.state.get('mapMode') ?? '3d';
+            if (mode === '2d') {
+              const map2d = core.state.get('_map2d');
+              if (map2d) map2d.flyTo(lon, lat, 5);
+            } else {
+              viewer.camera.flyTo({
+                destination: Cesium.Cartesian3.fromDegrees(lon, lat, 500000),
+                orientation: {
+                  heading: Cesium.Math.toRadians(0),
+                  pitch: Cesium.Math.toRadians(-75),
+                  roll: 0,
+                },
+                duration: 1.0,
+                easingFunction: Cesium.EasingFunction.QUADRATIC_OUT,
+              });
+            }
           }
         });
 
@@ -192,5 +205,6 @@ export default {
     core.events.on('data:loaded', render);
     core.state.on('currentYear', render);
     core.state.on('activeFilters', render);
+    core.state.on('locale', render);
   },
 };

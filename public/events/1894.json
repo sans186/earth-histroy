@@ -1,18 +1,188 @@
 {
   "year": 1894,
   "year_label": "公元1894年",
-  "era_context": "1890年代中期，帝国竞争激烈，工业扩张加速，民族主义运动高涨。中日甲午战争（1894-1895年）标志着日本作为地区大国的崛起和中国传统权威的衰落。在欧洲，联盟体系正在巩固（法俄同盟，1894年）；在美洲，美国正在巩固大陆主导地位。德雷福斯事件在法国开始，暴露了深刻的社会分歧。这是第二次工业革命、大规模移民和现代大众媒体兴起的时代。",
+  "era_context": "1894年见证了中日甲午战争的爆发和德雷福斯事件在法国的开端。世界正快速走向二十世纪——帝国竞争加剧，社会主义运动壮大，大众政治兴起。法俄同盟正式确立，明确了欧洲的对立阵营格局。",
   "documentation_level": "丰富",
   "geographic_coverage_gaps": [
-    "欧洲殖民行政记录之外的撒哈拉以南非洲内陆",
+    "殖民地行政记录之外的撒哈拉以南非洲内陆",
     "俄罗斯帝国统治下的中亚",
-    "定居者-殖民地国家中的原住民视角（澳大利亚、美国、加拿大）",
-    "主要口岸以外的太平洋岛屿"
+    "原住民视角（澳大利亚、美国、加拿大）",
+    "主要殖民港口以外的太平洋岛屿"
   ],
-  "_meta": {
-    "processed_at": "2026-04-11T02:46:48.058012",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI"
-  }
+  "events": [
+    {
+      "id": "1894-001",
+      "title": "中日甲午战争爆发",
+      "region": "东亚（朝鲜半岛/黄海）",
+      "coordinates_approx": "37.0°N, 124.0°E",
+      "category": "military",
+      "description": "1894年7月，日本和中国因朝鲜半岛的控制权爆发战争。8月1日双方正式宣战。日本军队在陆地和海上均取得决定性优势，揭示了清朝军事现代化的失败和日本作为地区大国的崛起。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1894-002",
+      "title": "德雷福斯事件在法国开始",
+      "region": "法国（巴黎）",
+      "coordinates_approx": "48.9°N, 2.3°E",
+      "category": "political",
+      "description": "1894年，法国犹太裔军官阿尔弗雷德·德雷福斯上尉被错误指控向德国出售军事机密。他被军事法庭定罪并判处终身流放魔鬼岛。这一冤案暴露了法国的反犹太主义和军方司法不公，分裂法国社会长达十余年。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1894-003",
+      "title": "法俄同盟正式签署",
+      "region": "法国/俄罗斯",
+      "coordinates_approx": "48.9°N, 2.3°E",
+      "category": "political",
+      "description": "1894年1月4日，法国和俄罗斯正式签署军事同盟协议，规定在遭受三国同盟成员国攻击时互相支持。法俄同盟完成了欧洲分裂为两个敌对阵营的过程，为第一次世界大战的联盟体系奠定了基础。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1894-004",
+      "title": "普尔曼大罢工",
+      "region": "美国（伊利诺伊州芝加哥）",
+      "coordinates_approx": "41.7°N, 87.6°W",
+      "category": "economic",
+      "description": "1894年5月，普尔曼宫式客车公司的工人因工资削减而罢工，尤金·德布斯领导的美国铁路工会在全国范围内抵制普尔曼车厢。克利夫兰总统派遣联邦军队镇压罢工，德布斯因藐视法庭被捕。罢工是劳工运动史上的里程碑事件。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1894-005",
+      "title": "科克西失业请愿军进军华盛顿",
+      "region": "美国",
+      "coordinates_approx": "38.9°N, 77.0°W",
+      "category": "political",
+      "description": "1894年春季，俄亥俄州商人雅各布·科克西领导数千名失业工人向华盛顿进军，要求联邦政府创造就业机会。虽然请愿被镇压，但科克西的请愿军显示了经济萧条时期民众的苦难和抗议。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1894-006",
+      "title": "韩国东学农民起义",
+      "region": "朝鲜（全罗道）",
+      "coordinates_approx": "35.5°N, 127.5°E",
+      "category": "military",
+      "description": "1894年，东学农民起义在朝鲜全罗道爆发，反抗腐败的朝鲜政府和外国影响。朝鲜请求中国派遣军队援助镇压，日本也趁机派兵，直接触发了中日甲午战争。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1894-007",
+      "title": "西伯利亚大铁路东西端同时动工",
+      "region": "俄罗斯帝国",
+      "coordinates_approx": "55.0°N, 83.0°E",
+      "category": "technological",
+      "description": "1894年，跨西伯利亚铁路的东段（从符拉迪沃斯托克向西）和西段（从车里雅宾斯克向东）同时大规模施工。该铁路的建设速度和规模在当时是世界工程史上最大的项目之一。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1894-008",
+      "title": "法国总统萨迪·卡诺遇刺",
+      "region": "法国（里昂）",
+      "coordinates_approx": "45.8°N, 4.8°E",
+      "category": "political",
+      "description": "1894年6月24日，法国总统萨迪·卡诺在里昂被意大利无政府主义者桑特·卡塞里奥刺杀身亡。卡诺之死震动了欧洲，引发了各国对无政府主义恐怖活动的镇压。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1894-009",
+      "title": "曼彻斯特运河正式通航",
+      "region": "英国（曼彻斯特）",
+      "coordinates_approx": "53.5°N, 2.3°W",
+      "category": "technological",
+      "description": "1894年5月21日，曼彻斯特运河正式通航，使曼彻斯特成为内陆港口。这条58公里长的运河是当时世界上最大的工程之一，使曼彻斯特能够直接进口棉花，降低了纺织业的运输成本。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "以上事件基于广泛接受的历史记载。部分事件的精确日期和细节在学术研究中存在合理争议。",
+  "historiographic_note": "1890年代的历史记录以欧洲和北美资料为主。非洲、亚洲和太平洋岛民的视角在幸存记录中呈现不足。近年来的学术研究正在纠正这些偏见。",
+  "graph_edges": []
 }

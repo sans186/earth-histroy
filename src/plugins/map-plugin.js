@@ -10,7 +10,7 @@
 
 import * as Cesium from 'cesium';
 import { CATEGORIES } from '../config.js';
-import { parseCoords } from '../utils.js';
+import { parseCoords, getDisplayCategory, isEventVisible } from '../utils.js';
 
 // ── Marker canvas cache ──
 const markerCache = new Map();
@@ -83,10 +83,11 @@ export default {
       entityMap.clear();
 
       for (const evt of events) {
-        if (!activeFilters.has(evt.category)) continue;
+        if (!isEventVisible(evt.category, activeFilters)) continue;
 
         const [lat, lon] = parseCoords(evt.coordinates_approx);
-        const markerImg = getMarkerImage(evt.category);
+        const displayCat = getDisplayCategory(evt.category);
+        const markerImg = getMarkerImage(displayCat);
 
         const entity = viewer.entities.add({
           position: Cesium.Cartesian3.fromDegrees(lon, lat),
@@ -98,7 +99,7 @@ export default {
             // Phase 3: hide markers entirely when zoomed very far out
             distanceDisplayCondition: new Cesium.DistanceDisplayCondition(
               0,          // visible when closer than...
-              9.0e6,      // 9000 km (hide beyond this)
+              16.0e6,     // 16000 km
             ),
           },
           label: {
@@ -112,7 +113,7 @@ export default {
             pixelOffset: new Cesium.Cartesian2(0, -8),
             scaleByDistance: new Cesium.NearFarScalar(1.5e6, 1.2, 6.0e6, 0.0),
             disableDepthTestDistance: Number.POSITIVE_INFINITY,
-            distanceDisplayCondition: new Cesium.DistanceDisplayCondition(0, 7.5e6),
+            distanceDisplayCondition: new Cesium.DistanceDisplayCondition(0, 16.0e6),
             showBackground: true,
             backgroundColor: Cesium.Color.fromCssColorString('#0a0a1a').withAlpha(0.7),
             backgroundPadding: new Cesium.Cartesian2(6, 4),
@@ -122,6 +123,16 @@ export default {
 
         entityMap.set(evt.id, entity);
       }
+    }
+
+    /** Sync events to the 2D map renderer (if active). */
+    function refresh2D(events, filters) {
+      const map2d = core.state.get('_map2d');
+      if (!map2d) return;
+      const year = core.state.get('currentYear');
+      const yearEvents = events.filter((e) => e._year === year && isEventVisible(e.category, filters));
+      map2d.setEvents(yearEvents);
+      core.events.emit('markers:count', { visible: yearEvents.length, total: yearEvents.length });
     }
 
     // ── Click / hover on Cesium canvas ──
@@ -141,7 +152,7 @@ export default {
       if (evt) {
         core.state.set('selectedEvent', evt);
         viewer.flyTo(entity, {
-          offset: new Cesium.HeadingPitchRange(0, Cesium.Math.toRadians(-80), 280000),
+          offset: new Cesium.HeadingPitchRange(0, Cesium.Math.toRadians(-75), 500000),
           duration: 1.0,
         });
       }
@@ -159,11 +170,25 @@ export default {
       const year = core.state.get('currentYear');
       const filters = core.state.get('activeFilters') ?? new Set();
       const yearEvents = events.filter((e) => e._year === year);
-      rebuildEntities(yearEvents, filters);
-      const visible = entityMap.size;
-      core.events.emit('markers:count', { visible, total: yearEvents.length });
+      const mode = core.state.get('mapMode') ?? '3d';
+
+      if (mode === '2d') {
+        // Clear Cesium entities, delegate to MapLibre
+        for (const [, ent] of entityMap) viewer.entities.remove(ent);
+        entityMap.clear();
+        refresh2D(yearEvents, filters);
+      } else {
+        // Clear 2D markers, render with Cesium
+        const map2d = core.state.get('_map2d');
+        if (map2d) map2d.clearEvents();
+        rebuildEntities(yearEvents, filters);
+        const visible = entityMap.size;
+        core.events.emit('markers:count', { visible, total: yearEvents.length });
+      }
     }
 
+    // Also refresh when mode changes
+    core.state.on('mapMode', refresh);
     core.events.on('data:loaded', refresh);
     core.state.on('activeFilters', refresh);
     core.state.on('currentYear', refresh);

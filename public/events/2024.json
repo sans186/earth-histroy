@@ -1,109 +1,109 @@
 {
   "year": 2024,
-  "year_label": "2024 CE",
-  "era_context": "The mid-2020s are defined by geopolitical fragmentation, the acceleration of artificial intelligence, climate disruption, and the erosion of the post-Cold War liberal international order. Two major wars \u2014 Russia's invasion of Ukraine (2022\u2013) and the Israel-Hamas conflict (2023\u2013) \u2014 dominate global security discourse. A historic wave of national elections, covering roughly half the world's population, reshapes political leadership across democracies. The AI industry enters a phase of rapid commercial deployment following the transformer-model breakthroughs of 2022\u20132023.",
-  "documentation_level": "rich",
+  "year_label": "2024年",
+  "era_context": "2020年代中期以地缘政治碎片化、人工智能加速发展、气候破坏以及后冷战自由国际秩序的侵蚀为特征。两场重大战争——俄罗斯入侵乌克兰（2022年至今）和以色列-哈马斯冲突（2023年至今）——主导着全球安全话语。一场覆盖全球约一半人口的历史性全国选举浪潮重塑了各民主国家的政治领导层。继2022-2023年Transformer模型突破之后，AI行业进入快速商业部署阶段。",
+  "documentation_level": "丰富",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa beyond headline conflicts",
-    "Central Asia",
-    "Pacific Island states increasingly affected by climate change",
-    "Indigenous communities globally"
+    "撒哈拉以南非洲（除头条冲突外）",
+    "中亚",
+    "日益受气候变化影响的太平洋岛国",
+    "全球原住民社区"
   ],
   "events": [
     {
       "id": "2024-001",
-      "title": "Israel-Hamas war escalates into prolonged Gaza campaign",
-      "region": "Middle East \u2014 Gaza Strip, Israel, Lebanon, Yemen, Iraq, Syria",
+      "title": "以色列-哈马斯战争升级为长期加沙战役",
+      "region": "中东——加沙地带、以色列、黎巴嫩、也门、伊拉克、叙利亚",
       "coordinates_approx": "31.5, 34.47",
       "category": "military",
-      "description": "Following Hamas's October 7, 2023 attack, Israel's military campaign in Gaza intensified through 2024, producing catastrophic civilian casualties and a humanitarian crisis. The UN and ICJ became involved: in January, the ICJ ordered provisional measures in South Africa's genocide case against Israel, and in May, the ICC prosecutor sought arrest warrants for leaders on both sides. The war expanded regionally \u2014 Hezbollah engaged Israel from Lebanon, Houthi forces in Yemen attacked Red Sea shipping, and Iran launched a direct missile and drone strike on Israeli territory in April. By year's end, over 40,000 Palestinians had been killed according to Gaza health authorities, and large portions of Gaza's infrastructure were destroyed. A fragile ceasefire with Hezbollah was reached in November after Israel conducted a ground incursion into southern Lebanon.",
+      "description": "继哈马斯2023年10月7日袭击之后，以色列在加沙的军事行动在2024年加剧，造成灾难性的平民伤亡和人道主义危机。联合国和国际法院介入：1月，国际法院在南非诉以色列种族灭绝案中下令采取临时措施；5月，国际刑事法院检察官寻求对双方领导人发出逮捕令。战争在区域范围内扩大——真主党从黎巴嫩与以色列交战，也门胡塞武装袭击红海航运，伊朗于4月对以色列领土发动直接导弹和无人机袭击。到年底，据加沙卫生当局称，超过4万名巴勒斯坦人被杀，加沙大片基础设施被摧毁。11月，在以色列对黎巴嫩南部进行地面入侵后，与真主党达成了脆弱的停火协议。",
       "key_figures": [
-        "Benjamin Netanyahu (Prime Minister of Israel)",
-        "Yahya Sinwar (Hamas leader, killed October 2024)",
-        "Ismail Haniyeh (Hamas political chief, assassinated July 2024)",
-        "Hassan Nasrallah (Hezbollah leader, killed September 2024)",
-        "Karim Khan (ICC Prosecutor)"
+        "Benjamin Netanyahu（以色列总理）",
+        "Yahya Sinwar（哈马斯领导人，2024年10月被杀）",
+        "Ismail Haniyeh（哈马斯政治领袖，2024年7月被暗杀）",
+        "Hassan Nasrallah（真主党领导人，2024年9月被杀）",
+        "Karim Khan（国际刑事法院检察官）"
       ],
       "sources": [
         {
-          "name": "UN OCHA situation reports and casualty tracking; Gaza Ministry of Health bulletins",
+          "name": "联合国人道主义事务协调厅（OCHA）局势报告和伤亡追踪；加沙卫生部公报",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "ICJ, Application of the Convention on the Prevention and Punishment of the Crime of Genocide in the Gaza Strip (South Africa v. Israel), Order of 26 January 2024",
+          "name": "国际法院，《防止及惩治灭绝种族罪公约在加沙地带的适用（南非诉以色列）》，2024年1月26日命令",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "International media reporting (AP, Reuters, Al Jazeera, BBC, NYT)",
+          "name": "国际媒体报道（美联社、路透社、半岛电视台、BBC、纽约时报）",
           "type": "chronicle",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in real time by international media, satellite imagery, UN agencies, and legal proceedings. Casualty figures are contested between Israeli government and Gaza health authorities, but the scale of destruction is not in serious dispute.",
+      "certainty_note": "国际媒体、卫星图像、联合国机构和法律程序实时广泛记录。以色列政府和加沙卫生当局之间的伤亡数字存在争议，但破坏规模没有严重争议。",
       "cross_references": [
         "2023-XXX (Hamas October 7 attack)"
       ]
     },
     {
       "id": "2024-002",
-      "title": "Russia-Ukraine war grinds through third year",
-      "region": "Eastern Europe \u2014 Ukraine, Russia",
+      "title": "俄乌战争进入第三个年头",
+      "region": "东欧——乌克兰、俄罗斯",
       "coordinates_approx": "48.5, 37.5",
       "category": "military",
-      "description": "The war entered a phase of attritional fighting with incremental Russian territorial gains in eastern Ukraine, particularly around Avdiivka (captured February) and advances toward Pokrovsk. Ukraine conducted a surprising cross-border incursion into Russia's Kursk Oblast in August, briefly seizing territory. Russia intensified long-range strikes on Ukrainian energy infrastructure, causing rolling blackouts. Western military aid continued but faced political uncertainty, with a US aid package stalled in Congress for months before passing in April. North Korean troops were deployed to Russia's Kursk region late in the year, marking a significant escalation in international involvement.",
+      "description": "战争进入消耗战阶段，俄罗斯在乌克兰东部取得渐进式领土收益，特别是在阿夫迪夫卡（2月被占领）附近并向波克罗夫斯克推进。乌克兰于8月对俄罗斯库尔斯克州发动了一次出人意料的跨境入侵，短暂占领了领土。俄罗斯加强了对乌克兰能源基础设施的远程打击，导致轮流停电。西方军事援助继续但面临政治不确定性，美国援助计划在国会搁置数月后于4月通过。朝鲜军队于年底部署到俄罗斯库尔斯克地区，标志着国际介入的重大升级。",
       "key_figures": [
-        "Volodymyr Zelensky (President of Ukraine)",
-        "Vladimir Putin (President of Russia)",
-        "Oleksandr Syrskyi (Commander-in-Chief of Ukraine's Armed Forces)"
+        "Volodymyr Zelensky（乌克兰总统）",
+        "Vladimir Putin（俄罗斯总统）",
+        "Oleksandr Syrskyi（乌克兰武装部队总司令）"
       ],
       "sources": [
         {
-          "name": "Institute for the Study of War (ISW) daily campaign assessments",
+          "name": "战争研究所（ISW）每日战役评估",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Ukrainian and Russian government communiqu\u00e9s; international media reporting",
+          "name": "乌克兰和俄罗斯政府公报；国际媒体报道",
           "type": "chronicle",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Confirmed through satellite imagery, OSINT analysis, and extensive media coverage, though exact casualty figures on both sides remain classified or disputed.",
+      "certainty_note": "通过卫星图像、开源情报分析和广泛媒体报道确认，但双方确切伤亡数字仍属机密或存在争议。",
       "cross_references": [
         "2022-XXX (Russian invasion of Ukraine)"
       ]
     },
     {
       "id": "2024-003",
-      "title": "Donald Trump wins US presidential election",
-      "region": "United States of America",
+      "title": "唐纳德·特朗普赢得美国总统大选",
+      "region": "美利坚合众国",
       "coordinates_approx": "38.9, -77.0",
       "category": "political",
-      "description": "Donald Trump defeated incumbent Vice President Kamala Harris in the November 5 presidential election, winning both the Electoral College and the popular vote \u2014 a political comeback after his 2020 defeat and the January 6, 2021 Capitol breach. President Biden withdrew from the race in July, an extraordinarily late exit, endorsing Harris. Trump's campaign centred on immigration, inflation, and cultural grievances. He won despite facing 91 felony charges across four criminal indictments, including a May conviction in the New York hush-money case \u2014 making him the first convicted felon elected president. The Republican Party also secured majorities in both chambers of Congress.",
+      "description": "唐纳德·特朗普在11月5日的总统大选中击败现任副总统卡玛拉·哈里斯，赢得了选举人团和普选——这是他在2020年败选和2021年1月6日国会山骚乱后的政治复出。拜登总统于7月退出竞选，这是异常晚的退出，并支持哈里斯。特朗普的竞选活动以移民、通货膨胀和文化不满为中心。尽管面临四项刑事起诉中的91项重罪指控，包括5月在纽约封口费案中被定罪——使他成为首位当选总统的重罪犯，但他仍然获胜。共和党也赢得了国会两院的多数席位。",
       "key_figures": [
-        "Donald Trump (President-elect)",
-        "Kamala Harris (Vice President, Democratic nominee)",
-        "Joe Biden (President, withdrew July 2024)",
-        "J.D. Vance (Vice President-elect)"
+        "Donald Trump（当选总统）",
+        "Kamala Harris（副总统、民主党候选人）",
+        "Joe Biden（总统，2024年7月退出）",
+        "J.D. Vance（当选副总统）"
       ],
       "sources": [
         {
-          "name": "Associated Press election results; Federal Election Commission filings",
+          "name": "美联社选举结果；联邦选举委员会文件",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "New York County Supreme Court, People v. Trump, conviction May 30, 2024",
+          "name": "纽约县最高法院，人民诉特朗普案，2024年5月30日定罪",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Certified election results with full contemporary documentation.",
+      "certainty_note": "经认证的选举结果，有完整的当代文献记录。",
       "cross_references": [
         "2020-XXX (Biden defeats Trump)",
         "2021-XXX (January 6 Capitol breach)"
@@ -111,48 +111,48 @@
     },
     {
       "id": "2024-004",
-      "title": "Iran launches direct military strike on Israel",
-      "region": "Middle East \u2014 Iran, Israel",
+      "title": "伊朗对以色列发动直接军事打击",
+      "region": "中东——伊朗、以色列",
       "coordinates_approx": "32.0, 34.8",
       "category": "military",
-      "description": "On April 13\u201314, Iran launched over 300 drones, cruise missiles, and ballistic missiles directly at Israeli territory \u2014 the first direct Iranian attack on Israel from Iranian soil. The attack was in retaliation for an Israeli strike on the Iranian consulate in Damascus that killed senior IRGC commanders. The vast majority of projectiles were intercepted by Israeli, US, UK, Jordanian, and Saudi air defenses. Israel responded with a limited strike on Iranian air defenses near Isfahan on April 19. A larger Iranian barrage followed in October after the assassination of Hamas and Hezbollah leaders. The exchange marked a dangerous new phase in the decades-long shadow war between the two states.",
+      "description": "4月13日至14日，伊朗向以色列领土直接发射了超过300架无人机、巡航导弹和弹道导弹——这是伊朗首次从本土对以色列发动的直接攻击。此次袭击是为了报复以色列对大马士革伊朗领事馆的袭击，该袭击导致伊斯兰革命卫队高级指挥官死亡。绝大多数导弹被以色列、美国、英国、约旦和沙特阿拉伯的防空系统拦截。以色列于4月19日对伊斯法罕附近的伊朗防空系统进行了有限打击。在哈马斯和真主党领导人被暗杀后，10月又发生了一次更大规模的伊朗弹幕。这次交锋标志着两国之间长达数十年的影子战争进入了一个危险的新阶段。",
       "key_figures": [
-        "Ali Khamenei (Supreme Leader of Iran)",
-        "Benjamin Netanyahu (Prime Minister of Israel)"
+        "Ali Khamenei（伊朗最高领袖）",
+        "Benjamin Netanyahu（以色列总理）"
       ],
       "sources": [
         {
-          "name": "US Department of Defense statements; Israeli Defense Forces communiqu\u00e9s; international media",
+          "name": "美国国防部声明；以色列国防军公报；国际媒体",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Confirmed by multiple governments, radar tracking, and real-time media coverage.",
+      "certainty_note": "经多个政府、雷达追踪和实时媒体报道确认。",
       "cross_references": [
         "2024-001"
       ]
     },
     {
       "id": "2024-005",
-      "title": "Fall of the Assad regime in Syria",
-      "region": "Middle East \u2014 Syria",
+      "title": "叙利亚阿萨德政权垮台",
+      "region": "中东——叙利亚",
       "coordinates_approx": "33.5, 36.3",
       "category": "political",
-      "description": "In a rapid offensive beginning late November, a coalition led by Hayat Tahrir al-Sham (HTS) and allied rebel groups swept through northern and central Syria, capturing Aleppo, Hama, and Homs in quick succession. On December 8, rebel forces entered Damascus. President Bashar al-Assad fled to Russia, ending over five decades of Assad family rule and 13 years of civil war stalemate. The collapse was strikingly swift \u2014 Assad's military, weakened by years of attrition and the distraction of his key allies (Russia in Ukraine, Hezbollah degraded by Israel), offered little effective resistance. HTS leader Abu Mohammed al-Julani (Ahmed al-Sharaa) emerged as the dominant figure in post-Assad governance discussions.",
+      "description": "在11月下旬开始的快速攻势中，由沙姆解放组织（HTS）和盟军反叛团体领导的联盟迅速席卷了叙利亚北部和中部，先后占领了阿勒颇、哈马和霍姆斯。12月8日，反叛力量进入大马士革。总统巴沙尔·阿萨德逃往俄罗斯，结束了阿萨德家族超过五十年的统治和13年的内战僵局。垮台速度惊人——阿萨德的军队因多年消耗战及其关键盟友（俄罗斯深陷乌克兰、真主党被以色列削弱）分心而实力减弱，几乎没有进行有效抵抗。HTS领导人阿布·穆罕默德·朱拉尼（艾哈迈德·沙拉）成为后阿萨德治理讨论中的主导人物。",
       "key_figures": [
-        "Bashar al-Assad (President of Syria, deposed)",
-        "Abu Mohammed al-Julani / Ahmed al-Sharaa (HTS leader)"
+        "Bashar al-Assad（叙利亚总统，被废黜）",
+        "Abu Mohammed al-Julani / Ahmed al-Sharaa（HTS领导人）"
       ],
       "sources": [
         {
-          "name": "International media reporting (Reuters, AP, BBC, Al Jazeera); Syrian opposition and government communiqu\u00e9s",
+          "name": "国际媒体报道（路透社、美联社、BBC、半岛电视台）；叙利亚反对派和政府公报",
           "type": "chronicle",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Confirmed by extensive real-time media coverage, satellite imagery, and government confirmations.",
+      "certainty_note": "通过广泛的实时媒体报道、卫星图像和政府确认证实。",
       "cross_references": [
         "2011-XXX (Syrian civil war begins)",
         "2024-001",
@@ -161,54 +161,54 @@
     },
     {
       "id": "2024-006",
-      "title": "India holds largest democratic election in history",
-      "region": "South Asia \u2014 India",
+      "title": "印度举行史上最大规模民主选举",
+      "region": "南亚——印度",
       "coordinates_approx": "28.6, 77.2",
       "category": "political",
-      "description": "India's general election, conducted in seven phases from April 19 to June 1, saw approximately 642 million votes cast from an electorate of nearly 970 million \u2014 the largest democratic exercise in human history. Prime Minister Narendra Modi's BJP-led NDA coalition retained power but with a significantly reduced majority; the BJP itself fell short of a single-party majority for the first time since 2014, winning 240 of 543 seats. The opposition INDIA alliance performed better than expected, with the Indian National Congress nearly doubling its seat count. The result was interpreted as a check on Modi's consolidation of power.",
+      "description": "印度的全国大选于4月19日至6月1日分七个阶段进行，近9.7亿选民中约有6.42亿人投票——这是人类历史上规模最大的民主实践。总理纳伦德拉·莫迪领导的印人党（BJP）领导的全国民主联盟（NDA）保留了权力，但多数席位大幅减少；印人党自2014年以来首次未能获得单一政党多数席位，赢得了543个席位中的240个。反对派印度国家发展包容性联盟（INDIA）的表现好于预期，印度国民大会党（INC）的席位数量几乎翻了一番。这一结果被解读为对莫迪权力巩固的制约。",
       "key_figures": [
-        "Narendra Modi (Prime Minister)",
-        "Rahul Gandhi (Congress leader, Leader of the Opposition)"
+        "Narendra Modi（总理）",
+        "Rahul Gandhi（国大党领袖、反对党领袖）"
       ],
       "sources": [
         {
-          "name": "Election Commission of India official results",
+          "name": "印度选举委员会官方结果",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "International election observation reports; Indian and international media",
+          "name": "国际选举观察报告；印度和国际媒体",
           "type": "chronicle",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official election results with comprehensive documentation.",
+      "certainty_note": "官方选举结果，有全面文献记录。",
       "cross_references": [
         "2014-XXX (Modi first elected PM)"
       ]
     },
     {
       "id": "2024-007",
-      "title": "UK Labour Party wins landslide general election",
-      "region": "Western Europe \u2014 United Kingdom",
+      "title": "英国工党在大选中取得压倒性胜利",
+      "region": "西欧——英国",
       "coordinates_approx": "51.5, -0.13",
       "category": "political",
-      "description": "On July 4, the Labour Party under Keir Starmer won a commanding parliamentary majority of 174 seats, ending 14 years of Conservative rule. The Conservatives suffered their worst defeat in party history, reduced to 121 seats. The result reflected accumulated public frustration with post-Brexit economic stagnation, the cost-of-living crisis, and a sequence of Conservative leadership upheavals. Reform UK, led by Nigel Farage, won five seats and a significant vote share, splitting the right-wing vote. Starmer became Prime Minister the following day.",
+      "description": "7月4日，基尔·斯塔默领导的工党以174个席位的压倒性议会多数获胜，结束了保守党14年的统治。保守党遭遇了党史上最惨重的失败，仅剩121个席位。这一结果反映了公众对脱欧后经济停滞、生活成本危机以及一系列保守党领导层动荡的累积不满。奈杰尔·法拉奇领导的英国改革党赢得了五个席位和相当比例的选票，分裂了右翼选票。斯塔默于次日成为首相。",
       "key_figures": [
-        "Keir Starmer (Prime Minister)",
-        "Rishi Sunak (outgoing Prime Minister)",
-        "Nigel Farage (Reform UK leader)"
+        "Keir Starmer（首相）",
+        "Rishi Sunak（即将离任的首相）",
+        "Nigel Farage（英国改革党领袖）"
       ],
       "sources": [
         {
-          "name": "UK Electoral Commission official results; BBC election coverage",
+          "name": "英国选举委员会官方结果；BBC选举报道",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official certified election results.",
+      "certainty_note": "官方认证的选举结果。",
       "cross_references": [
         "2016-XXX (Brexit referendum)",
         "2019-XXX (Johnson Conservative landslide)"
@@ -216,122 +216,122 @@
     },
     {
       "id": "2024-008",
-      "title": "Taiwan elects Lai Ching-te amid cross-strait tensions",
-      "region": "East Asia \u2014 Taiwan",
+      "title": "台湾在两岸紧张局势中选举赖清德",
+      "region": "东亚——台湾",
       "coordinates_approx": "25.0, 121.5",
       "category": "political",
-      "description": "On January 13, Lai Ching-te of the Democratic Progressive Party (DPP) won Taiwan's presidential election with about 40% of the vote in a three-way race, succeeding Tsai Ing-wen and securing the DPP's third consecutive presidential term. Beijing, which considers Lai a 'separatist,' responded with condemnation and military exercises. The result was significant for cross-strait relations as the DPP has consistently rejected Beijing's 'one country, two systems' framework. However, the DPP lost its legislative majority, suggesting the public desired some political balance.",
+      "description": "1月13日，民主进步党（DPP）的赖清德在三方竞选中以约40%的得票率赢得台湾总统选举，接替蔡英文，确保民进党连续第三次赢得总统任期。北京将赖清德视为“分裂分子”，并以谴责和军事演习作为回应。这一结果对两岸关系意义重大，因为民进党一贯拒绝北京的“一国两制”框架。然而，民进党失去了立法机构多数席位，表明公众希望某种政治平衡。",
       "key_figures": [
-        "Lai Ching-te (President of Taiwan)",
-        "Hsiao Bi-khim (Vice President of Taiwan)"
+        "Lai Ching-te（台湾总统）",
+        "Hsiao Bi-khim（台湾副总统）"
       ],
       "sources": [
         {
-          "name": "Taiwan Central Election Commission official results; international media",
+          "name": "台湾中央选举委员会官方结果；国际媒体",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official certified election results.",
+      "certainty_note": "官方认证的选举结果。",
       "cross_references": []
     },
     {
       "id": "2024-009",
-      "title": "South Korea constitutional crisis: President Yoon declares martial law",
-      "region": "East Asia \u2014 South Korea",
+      "title": "韩国宪政危机：总统尹锡悦宣布戒严",
+      "region": "东亚——韩国",
       "coordinates_approx": "37.57, 126.98",
       "category": "political",
-      "description": "On December 3, President Yoon Suk-yeol declared martial law, citing threats from 'anti-state forces' \u2014 the first martial law declaration in South Korea since 1980. Troops were deployed to the National Assembly, but legislators physically entered the building and voted 190-0 to overturn the declaration within hours. Yoon rescinded the order but the crisis triggered immediate impeachment proceedings. The National Assembly voted to impeach him on December 14. The episode shook South Korean democracy and drew international alarm, demonstrating both the fragility and resilience of democratic institutions.",
+      "description": "12月3日，总统尹锡悦以“反国家势力”威胁为由宣布戒严——这是韩国自1980年以来首次宣布戒严。军队被部署到国会大厦，但议员们实际进入大楼并在数小时内以190票对0票投票推翻了戒严令。尹锡悦撤销了命令，但这场危机立即引发了弹劾程序。国会于12月14日投票弹劾他。这一事件震撼了韩国的民主制度，并引起了国际社会的警惕，展示了民主制度的脆弱性和韧性。",
       "key_figures": [
-        "Yoon Suk-yeol (President of South Korea, impeached)",
-        "Han Duck-soo (Acting President)"
+        "Yoon Suk-yeol（韩国总统，被弹劾）",
+        "Han Duck-soo（代总统）"
       ],
       "sources": [
         {
-          "name": "National Assembly of South Korea official proceedings; Korean and international media reporting",
+          "name": "韩国国会官方议事录；韩国和国际媒体报道",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Confirmed by official government records and extensive real-time media coverage.",
+      "certainty_note": "通过官方政府记录和广泛的实时媒体报道确认。",
       "cross_references": [
         "1980-XXX (Gwangju uprising and martial law)"
       ]
     },
     {
       "id": "2024-010",
-      "title": "Sheikh Hasina ousted in Bangladesh after mass protests",
-      "region": "South Asia \u2014 Bangladesh",
+      "title": "谢赫·哈西娜在孟加拉国大规模抗议后下台",
+      "region": "南亚——孟加拉国",
       "coordinates_approx": "23.8, 90.4",
       "category": "political",
-      "description": "Months of student-led protests against government job quotas escalated into a broader anti-government movement. Security forces killed hundreds of protesters. On August 5, Prime Minister Sheikh Hasina fled the country by helicopter to India after 15 years in power. An interim government led by Nobel laureate Muhammad Yunus was installed. The uprising reflected deep discontent with authoritarian governance, economic inequality, and political repression under Hasina's Awami League. It was the most significant political upheaval in Bangladesh since its 1971 independence.",
+      "description": "持续数月由学生领导的反对政府就业配额制的抗议活动升级为更广泛的反政府运动。安全部队杀害了数百名抗议者。8月5日，总理谢赫·哈西娜在执政15年后乘直升机逃往印度。由诺贝尔奖得主穆罕默德·尤努斯领导的临时政府成立。这场起义反映了民众对哈西娜人民联盟（Awami League）统治下的威权治理、经济不平等和政治镇压的深刻不满。这是孟加拉国自1971年独立以来最重大的政治动荡。",
       "key_figures": [
-        "Sheikh Hasina (Prime Minister, ousted)",
-        "Muhammad Yunus (Chief Adviser, interim government)"
+        "Sheikh Hasina（总理，被推翻）",
+        "Muhammad Yunus（临时政府首席顾问）"
       ],
       "sources": [
         {
-          "name": "Bangladeshi media (Daily Star, Prothom Alo); international media (Reuters, AP, BBC); UN human rights reports",
+          "name": "孟加拉国媒体（《每日星报》、《曙光报》）；国际媒体（路透社、美联社、BBC）；联合国人权报告",
           "type": "chronicle",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented through media coverage and international reporting.",
+      "certainty_note": "通过媒体报道和国际报道广泛记录。",
       "cross_references": []
     },
     {
       "id": "2024-011",
-      "title": "Venezuela disputed presidential election and political crisis",
-      "region": "South America \u2014 Venezuela",
+      "title": "委内瑞拉有争议的总统选举和政治危机",
+      "region": "南美洲——委内瑞拉",
       "coordinates_approx": "10.5, -66.9",
       "category": "political",
-      "description": "The July 28 presidential election pitted incumbent Nicol\u00e1s Maduro against opposition candidate Edmundo Gonz\u00e1lez Urrutia. The government-aligned National Electoral Council declared Maduro the winner, but the opposition published detailed tally sheets from polling stations showing Gonz\u00e1lez winning by a wide margin. Multiple independent analyses and international observers rejected the official result. Protests were met with mass arrests and repression. Gonz\u00e1lez fled to Spain. The Carter Center, the EU, and most Latin American democracies refused to recognize Maduro's claimed victory, while he proceeded to be inaugurated for a third term in January 2025.",
+      "description": "7月28日的总统选举由现任总统尼古拉斯·马杜罗对阵反对派候选人埃德蒙多·冈萨雷斯·乌鲁蒂亚。亲政府的全国选举委员会宣布马杜罗获胜，但反对派公布了来自投票站的详细计票表，显示冈萨雷斯以较大优势获胜。多项独立分析和国际观察员拒绝了官方结果。抗议活动遭到大规模逮捕和镇压。冈萨雷斯逃往西班牙。卡特中心、欧盟和大多数拉丁美洲民主国家拒绝承认马杜罗声称的胜利，而他于2025年1月继续就职第三个任期。",
       "key_figures": [
-        "Nicol\u00e1s Maduro (President)",
-        "Edmundo Gonz\u00e1lez Urrutia (opposition candidate)",
-        "Mar\u00eda Corina Machado (opposition leader)"
+        "Nicolás Maduro（总统）",
+        "Edmundo González Urrutia（反对派候选人）",
+        "María Corina Machado（反对派领袖）"
       ],
       "sources": [
         {
-          "name": "Carter Center election observation report; opposition-published actas (tally sheets); international media",
+          "name": "卡特中心选举观察报告；反对派公布的计票表；国际媒体",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The election itself is confirmed; the true result is disputed, with strong independent evidence contradicting official figures.",
+      "certainty_note": "选举本身已确认；真实结果存在争议，有强有力的独立证据与官方数据相矛盾。",
       "cross_references": []
     },
     {
       "id": "2024-012",
-      "title": "Rapid commercial deployment of large language models and generative AI",
-      "region": "Global (primarily USA, China, Europe)",
+      "title": "大型语言模型和生成式AI的快速商业部署",
+      "region": "全球（主要为美国、中国、欧洲）",
       "coordinates_approx": null,
       "category": "technological",
-      "description": "2024 saw the deployment of significantly more capable AI systems into mainstream commercial products. OpenAI released GPT-4o and later the o1 reasoning model series. Anthropic released Claude 3 and 3.5 model families. Google launched Gemini across its product suite. Meta released the open-weight Llama 3 models. AI integration expanded rapidly into search engines, office software, coding tools, and creative applications. Regulatory responses included the EU AI Act entering into force in August, making it the world's first comprehensive AI law. Debates intensified over AI's impact on employment, intellectual property, and safety.",
+      "description": "2024年，能力显著增强的AI系统被部署到主流商业产品中。OpenAI发布了GPT-4o以及后来的o1推理模型系列。Anthropic发布了Claude 3和3.5模型系列。Google在其产品套件中推出了Gemini。Meta发布了开源权重的Llama 3模型。AI集成迅速扩展到搜索引擎、办公软件、编码工具和创意应用。监管回应包括欧盟《人工智能法案》于8月生效，使其成为世界上第一部全面的AI法律。关于AI对就业、知识产权和安全影响的辩论愈演愈烈。",
       "key_figures": [
-        "Sam Altman (OpenAI CEO)",
-        "Dario Amodei (Anthropic CEO)",
-        "Sundar Pichai (Google CEO)",
-        "Mark Zuckerberg (Meta CEO)"
+        "Sam Altman（OpenAI首席执行官）",
+        "Dario Amodei（Anthropic首席执行官）",
+        "Sundar Pichai（Google首席执行官）",
+        "Mark Zuckerberg（Meta首席执行官）"
       ],
       "sources": [
         {
-          "name": "Company announcements and technical reports (OpenAI, Anthropic, Google DeepMind, Meta); EU Official Journal (AI Act regulation)",
+          "name": "公司公告和技术报告（OpenAI、Anthropic、Google DeepMind、Meta）；欧盟官方公报（AI法案法规）",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Technology press (Ars Technica, The Verge, MIT Technology Review); financial reporting",
+          "name": "科技媒体（Ars Technica、The Verge、MIT Technology Review）；财经报道",
           "type": "chronicle",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented through corporate disclosures, product launches, and regulatory filings.",
+      "certainty_note": "通过公司披露、产品发布和监管文件广泛记录。",
       "cross_references": [
         "2022-XXX (ChatGPT launch)",
         "2023-XXX (GPT-4 release)"
@@ -339,197 +339,197 @@
     },
     {
       "id": "2024-013",
-      "title": "Baltimore Francis Scott Key Bridge collapse",
-      "region": "North America \u2014 United States (Maryland)",
+      "title": "巴尔的摩弗朗西斯·斯科特·基大桥坍塌",
+      "region": "北美洲——美国（马里兰州）",
       "coordinates_approx": "39.22, -76.53",
       "category": "environmental",
-      "description": "On March 26, the container ship MV Dali lost power and struck a support column of the Francis Scott Key Bridge in Baltimore, causing the entire 2.6 km span to collapse into the Patapsco River. Six construction workers on the bridge were killed. The Port of Baltimore \u2014 one of the busiest on the US East Coast \u2014 was effectively closed for months, disrupting automotive and coal shipping. The collapse raised questions about infrastructure vulnerability to vessel strikes and the adequacy of bridge protection systems. A unified command conducted a complex debris removal operation to reopen the channel.",
+      "description": "3月26日，集装箱船“达利”号失去动力并撞上巴尔的摩弗朗西斯·斯科特·基大桥的支撑柱，导致全长2.6公里的大桥坍塌落入帕塔普斯科河。桥上的六名建筑工人遇难。巴尔的摩港——美国东海岸最繁忙的港口之一——实际上关闭了数月，扰乱了汽车和煤炭运输。此次坍塌引发了对基础设施易受船舶撞击以及桥梁防护系统充分性的质疑。一个联合指挥部进行了复杂的残骸清除作业以重新开放航道。",
       "key_figures": [],
       "sources": [
         {
-          "name": "NTSB preliminary and investigative reports; US Coast Guard communiqu\u00e9s; media reporting",
+          "name": "美国国家运输安全委员会（NTSB）初步和调查报告；美国海岸警卫队公报；媒体报道",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Confirmed by extensive video footage, government investigations, and media coverage.",
+      "certainty_note": "通过大量视频片段、政府调查和媒体报道确认。",
       "cross_references": []
     },
     {
       "id": "2024-014",
-      "title": "Paris 2024 Summer Olympic Games",
-      "region": "Western Europe \u2014 France",
+      "title": "巴黎2024年夏季奥运会",
+      "region": "西欧——法国",
       "coordinates_approx": "48.86, 2.35",
       "category": "cultural",
-      "description": "The Games of the XXXIII Olympiad were held in Paris from July 26 to August 11, with events staged at iconic venues including the Stade de France, the Ch\u00e2teau de Versailles, and beneath the Eiffel Tower. The opening ceremony took place along the Seine River. The United States topped the gold medal count (40), followed by China (40, fewer total medals) and Great Britain. Over 10,700 athletes from 206 nations competed. The Games were notable for their integration of venues with Parisian landmarks and the inclusion of breakdancing as a new Olympic sport.",
+      "description": "第三十三届奥林匹克运动会于7月26日至8月11日在巴黎举行，赛事在标志性场馆举行，包括法兰西体育场、凡尔赛宫和埃菲尔铁塔下。开幕式在塞纳河上举行。美国位居金牌榜首位（40枚），其次是中国（40枚，总奖牌数较少）和英国。来自206个国家的超过10,700名运动员参赛。本届奥运会以其场馆与巴黎地标建筑的融合以及将霹雳舞作为新奥运项目而著称。",
       "key_figures": [
-        "Thomas Bach (IOC President)",
-        "Emmanuel Macron (President of France)"
+        "Thomas Bach（国际奥委会主席）",
+        "Emmanuel Macron（法国总统）"
       ],
       "sources": [
         {
-          "name": "International Olympic Committee official results and reports; international media coverage",
+          "name": "国际奥委会官方结果和报告；国际媒体报道",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Fully documented official event.",
+      "certainty_note": "有完整文献记录的官方赛事。",
       "cross_references": [
         "2020-XXX (Tokyo Olympics, held 2021)"
       ]
     },
     {
       "id": "2024-015",
-      "title": "Noto Peninsula earthquake devastates central Japan",
-      "region": "East Asia \u2014 Japan",
+      "title": "能登半岛地震重创日本中部",
+      "region": "东亚——日本",
       "coordinates_approx": "37.5, 137.3",
       "category": "environmental",
-      "description": "On January 1, a magnitude 7.6 earthquake struck the Noto Peninsula in Ishikawa Prefecture, Japan. It was the strongest earthquake to hit the region in recorded history. At least 245 people were killed, thousands were injured, and widespread destruction affected the towns of Wajima and Suzu. Fires, landslides, and tsunami warnings compounded the disaster. Over 30,000 residents were displaced. The remote, mountainous terrain of the peninsula hampered rescue and relief operations. The disaster highlighted ongoing seismic vulnerability in Japan despite extensive preparedness infrastructure.",
+      "description": "1月1日，一场7.6级地震袭击了日本石川县的能登半岛。这是该地区有记录以来最强的地震。至少245人遇难，数千人受伤，轮岛市和珠洲市遭受广泛破坏。火灾、山体滑坡和海啸警报加剧了灾难。超过3万名居民流离失所。半岛偏远多山的地形阻碍了救援和救灾行动。这场灾难凸显了尽管日本拥有广泛的防灾基础设施，但仍面临持续的地震脆弱性。",
       "key_figures": [
-        "Fumio Kishida (Prime Minister of Japan)"
+        "Fumio Kishida（日本首相）"
       ],
       "sources": [
         {
-          "name": "Japan Meteorological Agency seismic reports; Japanese government disaster response reports; NHK and international media",
+          "name": "日本气象厅地震报告；日本政府灾害应对报告；NHK和国际媒体",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Seismically recorded and extensively documented.",
+      "certainty_note": "有地震记录并广泛记录。",
       "cross_references": []
     },
     {
       "id": "2024-016",
-      "title": "Hurricane Helene devastates southeastern United States",
-      "region": "North America \u2014 United States (Florida, Georgia, Carolinas, Tennessee)",
+      "title": "飓风海伦摧毁美国东南部",
+      "region": "北美洲——美国（佛罗里达州、佐治亚州、卡罗来纳州、田纳西州）",
       "coordinates_approx": "35.6, -82.6",
       "category": "environmental",
-      "description": "Hurricane Helene made landfall as a Category 4 hurricane on the Florida Big Bend on September 26, then tracked inland, bringing catastrophic flooding to the southern Appalachian region \u2014 areas not typically prepared for tropical cyclone impacts. Western North Carolina, particularly around Asheville, experienced devastating flash flooding and mudslides. Over 230 people were killed across multiple states, making it one of the deadliest US hurricanes in decades. Entire communities were isolated when roads and bridges were destroyed. The disaster intensified debate about climate change's role in strengthening hurricanes and expanding their inland impact.",
+      "description": "飓风海伦于9月26日以4级飓风强度在佛罗里达大弯地区登陆，随后向内陆移动，给南阿巴拉契亚地区带来了灾难性洪水——这些地区通常没有为热带气旋影响做好准备。北卡罗来纳州西部，特别是阿什维尔周边，经历了毁灭性的山洪暴发和泥石流。多个州超过230人遇难，使其成为美国数十年来最致命的飓风之一。当道路和桥梁被毁时，整个社区被孤立。这场灾难加剧了关于气候变化在增强飓风强度并扩大其内陆影响方面作用的辩论。",
       "key_figures": [],
       "sources": [
         {
-          "name": "National Hurricane Center advisories; FEMA reports; state emergency management agencies; media reporting",
+          "name": "国家飓风中心公告；联邦紧急事务管理局（FEMA）报告；州应急管理机构；媒体报道",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Confirmed by meteorological records, government disaster declarations, and media documentation.",
+      "certainty_note": "通过气象记录、政府灾害声明和媒体记录确认。",
       "cross_references": []
     },
     {
       "id": "2024-017",
-      "title": "Sudan civil war creates world's largest displacement crisis",
-      "region": "East Africa \u2014 Sudan",
+      "title": "苏丹内战造成全球最大流离失所危机",
+      "region": "东非——苏丹",
       "coordinates_approx": "15.6, 32.5",
       "category": "military",
-      "description": "The civil war between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF), which erupted in April 2023, escalated severely through 2024. The RSF committed widespread atrocities in Darfur, with the UN and human rights organizations documenting patterns consistent with ethnic cleansing. By mid-2024, Sudan had become the world's largest displacement crisis, with over 10 million internally displaced and millions more as refugees in Chad, South Sudan, and Egypt. Famine conditions were declared in parts of Darfur. International attention remained limited relative to the scale of the catastrophe, partly due to media focus on Gaza and Ukraine.",
+      "description": "苏丹武装部队（SAF）与快速支援部队（RSF）之间的内战于2023年4月爆发，并在2024年严重升级。RSF在达尔富尔犯下了广泛的暴行，联合国和人权组织记录的模式与种族清洗相符。到2024年中，苏丹已成为全球最大的流离失所危机，超过1000万人在国内流离失所，另有数百万人成为乍得、南苏丹和埃及的难民。达尔富尔部分地区宣布出现饥荒状况。相对于灾难的规模，国际关注仍然有限，部分原因是媒体聚焦于加沙和乌克兰。",
       "key_figures": [
-        "Abdel Fattah al-Burhan (SAF commander)",
-        "Mohamed Hamdan Dagalo / Hemedti (RSF commander)"
+        "Abdel Fattah al-Burhan（苏丹武装部队指挥官）",
+        "Mohamed Hamdan Dagalo / Hemedti（快速支援部队指挥官）"
       ],
       "sources": [
         {
-          "name": "UNHCR displacement tracking; UN OCHA situation reports; Human Rights Watch and Amnesty International field reports; IPC famine classification",
+          "name": "联合国难民署（UNHCR）流离失所追踪；联合国人道主义事务协调厅（OCHA）局势报告；人权观察和大赦国际实地报告；综合粮食安全阶段分类（IPC）饥荒分类",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Confirmed by UN agencies and humanitarian organizations, though access restrictions mean the full scale may be underreported.",
+      "certainty_note": "经联合国机构和人道主义组织确认，但由于准入限制，全部规模可能被低估。",
       "cross_references": [
         "2023-XXX (Sudan civil war begins)"
       ]
     },
     {
       "id": "2024-018",
-      "title": "Total solar eclipse crosses North America",
-      "region": "North America \u2014 Mexico, United States, Canada",
+      "title": "日全食穿越北美",
+      "region": "北美洲——墨西哥、美国、加拿大",
       "coordinates_approx": "32.0, -100.0",
       "category": "scientific",
-      "description": "On April 8, a total solar eclipse traced a path from Mexico's Pacific coast through Texas, the US Midwest, and into eastern Canada. The path of totality crossed major population centres, making it one of the most-observed total eclipses in history. Millions of people viewed the event directly; scientific teams conducted solar corona observations and atmospheric studies. The eclipse was significant for public science engagement and generated substantial tourism and economic activity along the totality path. It was the last total solar eclipse visible from the contiguous United States until 2044.",
+      "description": "4月8日，一次日全食从墨西哥太平洋沿岸穿过德克萨斯州、美国中西部进入加拿大东部。全食带穿过主要人口中心，使其成为历史上观测人数最多的日全食之一。数百万人直接观看了这一事件；科学团队进行了太阳日冕观测和大气研究。这次日食对于公众科学参与具有重要意义，并沿全食带产生了可观的旅游和经济活动。这是美国本土在2044年之前最后一次可见的日全食。",
       "key_figures": [],
       "sources": [
         {
-          "name": "NASA eclipse prediction data and observation reports; media coverage",
+          "name": "NASA日食预测数据和观测报告；媒体报道",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Astronomically predicted and universally observed.",
+      "certainty_note": "天文预测并普遍观测到。",
       "cross_references": []
     },
     {
       "id": "2024-019",
-      "title": "EU AI Act enters into force",
-      "region": "Europe \u2014 European Union",
+      "title": "欧盟《人工智能法案》生效",
+      "region": "欧洲——欧盟",
       "coordinates_approx": "50.85, 4.35",
       "category": "legal",
-      "description": "The European Union's Artificial Intelligence Act, adopted by the European Parliament in March and published in the Official Journal in July, became the world's first comprehensive legal framework for regulating AI systems. The law classifies AI applications by risk level, banning certain uses (such as social scoring and most real-time biometric surveillance) and imposing strict requirements on high-risk systems in areas like law enforcement, healthcare, and education. General-purpose AI models face transparency obligations. The act's extraterritorial provisions mean it affects AI developers globally. Full enforcement is phased over 2025\u20132027.",
+      "description": "欧盟的《人工智能法案》于3月由欧洲议会通过，7月在官方公报上公布，成为世界上第一个规范AI系统的全面法律框架。该法按风险级别对AI应用进行分类，禁止某些用途（如社会评分和大多数实时生物识别监控），并对执法、医疗保健和教育等领域的高风险系统施加严格要求。通用AI模型面临透明度义务。该法的域外条款意味着它影响全球的AI开发者。全面执行将在2025-2027年分阶段进行。",
       "key_figures": [
-        "Thierry Breton (EU Commissioner for Internal Market)",
-        "Dragos Tudorache (MEP, co-rapporteur)"
+        "Thierry Breton（欧盟内部市场专员）",
+        "Dragos Tudorache（欧洲议会议员、联合报告人）"
       ],
       "sources": [
         {
-          "name": "Official Journal of the European Union, Regulation (EU) 2024/1689; European Parliament legislative records",
+          "name": "《欧盟官方公报》，第2024/1689号条例；欧洲议会立法记录",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Published in the Official Journal with full legal force.",
+      "certainty_note": "在官方公报上公布，具有完全法律效力。",
       "cross_references": [
         "2024-012"
       ]
     },
     {
       "id": "2024-020",
-      "title": "Mpox outbreak declared Public Health Emergency of International Concern",
-      "region": "Central and East Africa, global",
+      "title": "猴痘疫情被宣布为国际关注的突发公共卫生事件",
+      "region": "中非和东非，全球",
       "coordinates_approx": "-1.7, 29.2",
       "category": "demographic",
-      "description": "In August, the WHO declared the mpox outbreak in the Democratic Republic of the Congo and neighbouring countries a Public Health Emergency of International Concern (PHEIC). A new clade (clade Ib) showed higher transmissibility and spread to previously unaffected countries including Burundi, Rwanda, Uganda, and Kenya. The DRC was hardest hit, with thousands of cases and hundreds of deaths, disproportionately affecting children. The crisis highlighted persistent inequities in vaccine access \u2014 vaccines available in wealthy countries were largely unavailable in affected African nations \u2014 and the risk of emerging infectious diseases in regions with limited surveillance capacity.",
+      "description": "8月，世界卫生组织（WHO）宣布刚果民主共和国及其邻国的猴痘疫情为国际关注的突发公共卫生事件（PHEIC）。一个新的分支（Ib分支）显示出更高的传播性，并传播到布隆迪、卢旺达、乌干达和肯尼亚等此前未受影响的国家。刚果（金）受灾最严重，有数千例病例和数百人死亡，儿童受影响尤为严重。这场危机凸显了疫苗获取方面持续存在的不平等——富裕国家可获得的疫苗在受影响的非洲国家基本无法获得——以及监测能力有限地区新发传染病的风险。",
       "key_figures": [
-        "Tedros Adhanom Ghebreyesus (WHO Director-General)"
+        "Tedros Adhanom Ghebreyesus（世界卫生组织总干事）"
       ],
       "sources": [
         {
-          "name": "WHO situation reports and PHEIC declaration; DRC Ministry of Health bulletins; CDC epidemiological reports",
+          "name": "WHO局势报告和PHEIC声明；刚果（金）卫生部公报；美国疾病控制与预防中心（CDC）流行病学报告",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Confirmed by WHO official declarations and epidemiological surveillance.",
+      "certainty_note": "经WHO官方声明和流行病学监测确认。",
       "cross_references": [
         "2022-XXX (initial global mpox outbreak)"
       ]
     },
     {
       "id": "2024-021",
-      "title": "Boeing safety crisis deepens after Alaska Airlines door plug blowout",
-      "region": "North America \u2014 United States",
+      "title": "阿拉斯加航空门塞爆裂后波音安全危机加深",
+      "region": "北美洲——美国",
       "coordinates_approx": "45.6, -122.6",
       "category": "technological",
-      "description": "On January 5, an Alaska Airlines Boeing 737 MAX 9 experienced a catastrophic mid-flight failure when a door plug blew out at 16,000 feet, leaving a gaping hole in the fuselage. No fatalities occurred, but the incident triggered a major safety crisis for Boeing. The FAA grounded all 737 MAX 9 aircraft for inspection and subsequently capped Boeing's MAX production rate. Investigations revealed systemic quality-control failures at Boeing's manufacturing facilities. Boeing's CEO Dave Calhoun announced his resignation. The DOJ opened a criminal fraud investigation, and Boeing ultimately agreed to plead guilty to conspiracy to defraud the US government.",
+      "description": "1月5日，阿拉斯加航空一架波音737 MAX 9飞机在16,000英尺高空发生灾难性空中故障，一个门塞爆裂，在机身上留下一个大洞。没有造成人员死亡，但该事件引发了波音的重大安全危机。美国联邦航空管理局（FAA）停飞了所有737 MAX 9飞机进行检查，随后限制了波音MAX的生产率。调查揭示了波音制造工厂的系统性质量控制失败。波音首席执行官戴夫·卡尔霍恩宣布辞职。美国司法部（DOJ）启动了刑事欺诈调查，波音最终同意承认共谋欺诈美国政府的罪名。",
       "key_figures": [
-        "Dave Calhoun (Boeing CEO, resigned)",
-        "Kelly Ortberg (incoming Boeing CEO)"
+        "Dave Calhoun（波音首席执行官，已辞职）",
+        "Kelly Ortberg（即将上任的波音首席执行官）"
       ],
       "sources": [
         {
-          "name": "NTSB investigation reports and hearings; FAA emergency airworthiness directives; DOJ legal proceedings; media reporting",
+          "name": "美国国家运输安全委员会（NTSB）调查报告和听证会；FAA紧急适航指令；DOJ法律程序；媒体报道",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Confirmed by federal investigation records and extensive documentation.",
+      "certainty_note": "通过联邦调查记录和广泛文献确认。",
       "cross_references": [
         "2018-XXX (Lion Air 737 MAX crash)",
         "2019-XXX (Ethiopian Airlines 737 MAX crash)"
@@ -537,147 +537,147 @@
     },
     {
       "id": "2024-022",
-      "title": "French snap election produces hung parliament",
-      "region": "Western Europe \u2014 France",
+      "title": "法国提前选举产生悬浮议会",
+      "region": "西欧——法国",
       "coordinates_approx": "48.86, 2.35",
       "category": "political",
-      "description": "After the far-right Rassemblement National (RN) achieved historic gains in June's European Parliament elections, President Macron dissolved the National Assembly and called snap legislative elections. In a dramatic two-round vote (June 30 and July 7), a left-wing alliance (Nouveau Front Populaire) unexpectedly won the most seats, followed by Macron's centrist coalition, then the RN. No bloc secured a majority. After weeks of political deadlock, Macron appointed Michel Barnier (a centre-right figure) as Prime Minister, who was then toppled by a no-confidence vote in December \u2014 France's first successful no-confidence motion since 1962.",
+      "description": "在极右翼的国民联盟（RN）于6月的欧洲议会选举中取得历史性进展后，马克龙总统解散了国民议会并呼吁提前举行立法选举。在戏剧性的两轮投票（6月30日和7月7日）中，左翼联盟（新人民阵线）出人意料地赢得了最多席位，其次是马克龙的中间派联盟，然后是国民联盟。没有阵营获得多数席位。经过数周的政治僵局，马克龙任命米歇尔·巴尼耶（一位中间偏右人物）为总理，他随后于12月被不信任投票推翻——这是法国自1962年以来首次成功的不信任动议。",
       "key_figures": [
-        "Emmanuel Macron (President)",
-        "Marine Le Pen (RN leader)",
-        "Jean-Luc M\u00e9lenchon (LFI leader)",
-        "Michel Barnier (Prime Minister, ousted)"
+        "Emmanuel Macron（总统）",
+        "Marine Le Pen（国民联盟领袖）",
+        "Jean-Luc Mélenchon（不屈法国领袖）",
+        "Michel Barnier（总理，被推翻）"
       ],
       "sources": [
         {
-          "name": "French Constitutional Council official election results; Assembl\u00e9e Nationale records; French and international media",
+          "name": "法国宪法委员会官方选举结果；国民议会记录；法国和国际媒体",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official certified election and parliamentary results.",
+      "certainty_note": "官方认证的选举和议会结果。",
       "cross_references": []
     },
     {
       "id": "2024-023",
-      "title": "Global temperature exceeds 1.5\u00b0C threshold for full calendar year",
-      "region": "Global",
+      "title": "全球温度在整个日历年超过1.5°C阈值",
+      "region": "全球",
       "coordinates_approx": null,
       "category": "environmental",
-      "description": "According to the EU's Copernicus Climate Change Service, 2024 became the first calendar year in which global average surface temperature exceeded 1.5\u00b0C above pre-industrial levels, reaching approximately 1.6\u00b0C above the 1850\u20131900 baseline. This symbolic threshold \u2014 the aspirational limit set in the 2015 Paris Agreement \u2014 was breached partly due to an ongoing El Ni\u00f1o event but primarily driven by long-term anthropogenic greenhouse gas accumulation. The milestone does not technically trigger the Paris Agreement's 1.5\u00b0C provision (which refers to multi-decadal averages), but it intensified scientific and political urgency around climate action.",
+      "description": "根据欧盟哥白尼气候变化服务局（C3S）的数据，2024年成为全球平均地表温度超过工业化前水平1.5°C的第一个日历年，比1850-1900年基线高出约1.6°C。这一象征性阈值——2015年《巴黎协定》中设定的理想目标——部分是由于持续的厄尔尼诺事件，但主要是由长期的人为温室气体积累驱动的。这一里程碑在技术上并未触发《巴黎协定》的1.5°C条款（该条款指的是数十年平均值），但它加剧了围绕气候行动的科学和政治紧迫性。",
       "key_figures": [],
       "sources": [
         {
-          "name": "Copernicus Climate Change Service (C3S) annual global temperature report; WMO State of the Global Climate 2024 provisional report",
+          "name": "哥白尼气候变化服务局（C3S）年度全球温度报告；世界气象组织（WMO）2024年全球气候状况临时报告",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Based on comprehensive satellite and surface temperature measurements from multiple independent datasets.",
+      "certainty_note": "基于来自多个独立数据集的综合卫星和地表温度测量。",
       "cross_references": [
         "2015-XXX (Paris Agreement)"
       ]
     },
     {
       "id": "2024-024",
-      "title": "Assassination attempts on Donald Trump",
-      "region": "North America \u2014 United States (Pennsylvania, Florida)",
+      "title": "针对唐纳德·特朗普的暗杀企图",
+      "region": "北美洲——美国（宾夕法尼亚州、佛罗里达州）",
       "coordinates_approx": "40.9, -79.9",
       "category": "political",
-      "description": "On July 13, during a campaign rally in Butler, Pennsylvania, a gunman fired at Donald Trump, wounding him in the ear and killing one attendee. The shooter, Thomas Matthew Crooks, was killed by Secret Service. The image of Trump, bloodied and raising his fist, became an iconic photograph of the 2024 campaign. A second apparent assassination attempt occurred on September 15 at Trump's golf course in West Palm Beach, Florida, where a man with a rifle was apprehended by Secret Service before firing at Trump. Both incidents prompted extensive review of Secret Service protective protocols.",
+      "description": "7月13日，在宾夕法尼亚州巴特勒的一场竞选集会上，一名枪手向唐纳德·特朗普开枪，打伤了他的耳朵，并杀死了一名与会者。枪手托马斯·马修·克鲁克斯被特勤局击毙。特朗普满脸是血、挥舞拳头的照片成为2024年竞选活动的标志性照片。9月15日，在佛罗里达州西棕榈滩特朗普的高尔夫球场发生了第二次明显的暗杀企图，一名持步枪的男子在向特朗普开枪前被特勤局逮捕。这两起事件都促使对特勤局保护协议进行广泛审查。",
       "key_figures": [
-        "Donald Trump (presidential candidate)"
+        "Donald Trump（总统候选人）"
       ],
       "sources": [
         {
-          "name": "FBI investigation reports; Secret Service after-action reviews; media reporting and photography",
+          "name": "联邦调查局（FBI）调查报告；特勤局事后审查；媒体报道和摄影",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Confirmed by law enforcement investigations and extensive video and photographic evidence.",
+      "certainty_note": "通过执法调查以及大量视频和照片证据确认。",
       "cross_references": [
         "2024-003"
       ]
     }
   ],
-  "disconfirming_evidence": "Several events listed above have contested or complicated narratives that merit acknowledgment: (1) Gaza casualty figures (2024-001): Israel has disputed the Gaza Ministry of Health's casualty counts, arguing they include combatants and may be inflated. However, the UN and independent analyses have generally found the ministry's historical figures to be broadly reliable, and the Lancet published analysis suggesting the true toll including indirect deaths could be substantially higher. (2) Venezuela election (2024-011): The Maduro government insists it won legitimately and alleges foreign interference. However, no credible independent body has validated the official results, and the opposition's published precinct-level data has been independently verified by statistical analysis. (3) 1.5\u00b0C threshold (2024-023): Some climate scientists caution against overinterpreting a single year's breach of the 1.5\u00b0C threshold, noting that natural variability (El Ni\u00f1o) contributed and that the Paris Agreement refers to sustained multi-decadal averages. The milestone is symbolically significant but not equivalent to permanent exceedance of the Paris target. (4) AI capabilities (2024-012): The significance attributed to 2024 AI advances is contested by some researchers who argue the field is hitting diminishing returns on scaling and that commercial hype outpaces demonstrable capability gains. Others maintain that reasoning-capable models represent a genuine qualitative advance. (5) Sudan (2024-017): Both the SAF and RSF have committed atrocities, but media coverage has disproportionately focused on RSF actions in Darfur. Some analysts argue the SAF's aerial bombardment of civilian areas deserves equal condemnation and scrutiny.",
-  "historiographic_note": "2024 is among the most comprehensively documented years in human history, with real-time satellite imagery, social media, institutional reporting, and professional journalism providing multiple overlapping records. However, significant biases shape coverage: Anglophone and European perspectives dominate international media; conflicts in Africa (particularly Sudan and the DRC) receive disproportionately less attention than those in the Middle East and Europe despite comparable or greater humanitarian impact. Social media provides unprecedented grassroots documentation but also enables disinformation at scale. State actors \u2014 particularly Russia, Israel, and Iran \u2014 actively shape narratives through information operations, making contemporaneous source evaluation unusually complex. The sheer volume of AI-generated content beginning to enter the information ecosystem in 2024 introduces a novel epistemic challenge for future historians attempting to distinguish authentic from synthetic sources.",
+  "disconfirming_evidence": "上述几个事件存在有争议或复杂的叙述，值得承认：（1）加沙伤亡数字（2024-001）：以色列质疑加沙卫生部的伤亡统计，认为其中包含战斗人员且可能被夸大。然而，联合国和独立分析普遍认为该部历史数据基本可靠，《柳叶刀》发表的分析表明，包括间接死亡在内的真实数字可能要高得多。（2）委内瑞拉选举（2024-011）：马杜罗政府坚称其合法获胜，并指控外国干涉。然而，没有可信的独立机构验证官方结果，反对派公布的选区级数据已通过统计分析得到独立验证。（3）1.5°C阈值（2024-023）：一些气候科学家警告不要过度解读单一年份突破1.5°C阈值，指出自然变率（厄尔尼诺）有所贡献，且《巴黎协定》指的是持续数十年的平均值。这一里程碑具有象征意义，但不等同于永久超过巴黎目标。（4）AI能力（2024-012）：一些研究人员对2024年AI进展的重要性提出质疑，认为该领域在规模化方面正面临收益递减，商业炒作超过了可证明的能力提升。其他人则认为，具备推理能力的模型代表了真正的质的进步。（5）苏丹（2024-017）：苏丹武装部队和快速支援部队都犯下了暴行，但媒体报道不成比例地聚焦于快速支援部队在达尔富尔的行为。一些分析人士认为，苏丹武装部队对平民区的空袭同样应受到谴责和审查。",
+  "historiographic_note": "2024年是人类历史上记录最全面的年份之一，实时卫星图像、社交媒体、机构报告和专业新闻提供了多重重叠记录。然而，显著的偏见塑造了报道：英语和欧洲视角主导国际媒体；非洲的冲突（特别是苏丹和刚果民主共和国）尽管人道主义影响相当或更大，但受到的关注远少于中东和欧洲的冲突。社交媒体提供了前所未有的基层记录，但也使大规模虚假信息成为可能。国家行为体——特别是俄罗斯、以色列和伊朗——通过信息行动积极塑造叙事，使得同时代来源评估异常复杂。2024年开始进入信息生态系统的AI生成内容的巨大数量，为未来历史学家试图区分真实来源和合成来源引入了一个全新的认识论挑战。",
   "graph_edges": [
     {
       "from": "2024-001",
       "to": "2023-XXX",
       "relation": "caused_by",
-      "note": "Continuation and escalation of conflict following Hamas's October 7, 2023 attack"
+      "note": "继哈马斯2023年10月7日袭击后冲突的延续和升级"
     },
     {
       "from": "2024-004",
       "to": "2024-001",
       "relation": "part_of",
-      "note": "Iranian strikes on Israel were direct retaliation for Israeli strike on Iranian consulate in Damascus, itself part of the broader Gaza-related regional escalation"
+      "note": "伊朗对以色列的打击是对以色列袭击大马士革伊朗领事馆的直接报复，其本身是更广泛的加沙相关地区升级的一部分"
     },
     {
       "from": "2024-005",
       "to": "2024-001",
       "relation": "caused_by",
-      "note": "Assad's fall enabled by degradation of his allies \u2014 Hezbollah weakened by Israel, Russia distracted by Ukraine"
+      "note": "阿萨德的垮台因其盟友实力削弱而成为可能——真主党被以色列削弱，俄罗斯被乌克兰分散精力"
     },
     {
       "from": "2024-005",
       "to": "2024-002",
       "relation": "caused_by",
-      "note": "Russia's commitment to Ukraine war reduced its capacity to support Assad militarily"
+      "note": "俄罗斯对乌克兰战争的投入降低了其军事支持阿萨德的能力"
     },
     {
       "from": "2024-005",
       "to": "2011-XXX",
       "relation": "led_to",
-      "note": "End of the Syrian civil war's stalemate phase, which began in 2011"
+      "note": "始于2011年的叙利亚内战僵局阶段的结束"
     },
     {
       "from": "2024-003",
       "to": "2024-024",
       "relation": "contemporary_with",
-      "note": "Assassination attempts occurred during and influenced the 2024 presidential campaign"
+      "note": "暗杀企图发生在2024年总统竞选期间并对其产生影响"
     },
     {
       "from": "2024-012",
       "to": "2024-019",
       "relation": "led_to",
-      "note": "Rapid AI deployment drove regulatory response, culminating in EU AI Act enforcement"
+      "note": "AI的快速部署推动了监管回应，最终导致欧盟AI法案的执行"
     },
     {
       "from": "2024-023",
       "to": "2015-XXX",
       "relation": "contradicts",
-      "note": "Breach of 1.5\u00b0C annual threshold contradicts the aspirational target of the Paris Agreement, though the formal provision refers to sustained averages"
+      "note": "年度1.5°C阈值的突破与《巴黎协定》的理想目标相矛盾，尽管正式条款指的是持续平均值"
     },
     {
       "from": "2024-002",
       "to": "2022-XXX",
       "relation": "part_of",
-      "note": "Third year of Russia's full-scale invasion of Ukraine"
+      "note": "俄罗斯全面入侵乌克兰的第三年"
     },
     {
       "from": "2024-017",
       "to": "2023-XXX",
       "relation": "part_of",
-      "note": "Escalation of Sudan civil war that began in April 2023"
+      "note": "始于2023年4月的苏丹内战的升级"
     },
     {
       "from": "2024-021",
       "to": "2018-XXX",
       "relation": "part_of",
-      "note": "Continuation of Boeing 737 MAX safety crisis that began with Lion Air crash in 2018"
+      "note": "始于2018年狮航坠机事件的波音737 MAX安全危机的延续"
     },
     {
       "from": "2024-009",
       "to": "1980-XXX",
       "relation": "contemporary_with",
-      "note": "First martial law in South Korea since 1980 Gwangju crisis; historical parallel explicitly invoked in public discourse"
+      "note": "韩国自1980年光州危机以来首次戒严；公众话语中明确援引历史类比"
     }
   ],
   "_meta": {

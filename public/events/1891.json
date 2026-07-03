@@ -1,20 +1,207 @@
 {
   "year": 1891,
   "year_label": "公元1891年",
-  "era_context": "1890年代初处于'新帝国主义'的高峰期，欧洲列强竞相瓜分非洲并将影响力扩展到亚洲和太平洋。工业化正超越其西欧和北美核心区域，以变革性力量到达俄罗斯和日本。欧洲协调体系正在分裂为对立的联盟集团——三国同盟与新兴的法俄联盟——为下个世纪的灾难奠定了基础。在拉丁美洲，新共和国在宪政治理中进行暴力实验，而日本的明治国家正在巩固其快速现代化。",
+  "era_context": "1890年代初处于新帝国主义的高峰期，欧洲列强竞相瓜分非洲并将影响力扩展到亚洲和太平洋。工业化正超越其西欧和北美核心区域，以变革性力量到达俄罗斯和日本。欧洲协调体系正在分裂为对立的联盟集团——三国同盟与新兴的法俄联盟——为下个世纪的灾难奠定了基础。",
   "documentation_level": "丰富",
   "geographic_coverage_gaps": [
     "殖民地行政记录之外的撒哈拉以南非洲内陆",
-    "俄罗斯统治下的中亚",
-    "定居者-殖民地国家的原住民视角（澳大利亚、美国、加拿大）",
-    "主要殖民口岸以外的太平洋岛屿",
-    "首都城市和主要出口区以外的拉丁美洲农村地区",
-    "荷属东印度以外的东南亚"
+    "俄罗斯帝国统治下的中亚",
+    "原住民视角（澳大利亚、美国、加拿大）",
+    "主要殖民港口以外的太平洋岛屿"
   ],
-  "_meta": {
-    "processed_at": "2026-04-11T02:46:48.058012",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI"
-  }
+  "events": [
+    {
+      "id": "1891-001",
+      "title": "法俄协约初步形成",
+      "region": "欧洲（法国/俄罗斯）",
+      "coordinates_approx": "48.9°N, 2.3°E",
+      "category": "political",
+      "description": "1891年，法国和俄罗斯就外交合作达成初步协议，标志着法俄同盟的形成。这是对德皇威廉二世拒绝续签再保险条约的直接回应。两国同意在遭受攻击时相互协商，为1894年正式军事同盟奠定了基础，将欧洲分裂为两个对立的军事集团。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1891-002",
+      "title": "跨西伯利亚铁路继续建设",
+      "region": "俄罗斯帝国（西伯利亚）",
+      "coordinates_approx": "55.0°N, 83.0°E",
+      "category": "technological",
+      "description": "1891年，沙皇亚历山大三世正式启动跨西伯利亚铁路的大规模建设。皇太子尼古拉在符拉迪沃斯托克铺设了第一块基石。这条铁路将彻底改变西伯利亚的经济和人口结构。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1891-003",
+      "title": "巴西颁布共和宪法",
+      "region": "巴西（里约热内卢）",
+      "coordinates_approx": "22.9°S, 43.2°W",
+      "category": "political",
+      "description": "1891年2月24日，巴西制宪会议颁布了共和宪法，建立联邦共和国，实行总统制和三权分立。宪法受美国模式影响，但赋予中央政府更大权力。德奥多罗·达·丰塞卡当选首任总统。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1891-004",
+      "title": "教皇利奥十三世发布《新事》通谕",
+      "region": "梵蒂冈",
+      "coordinates_approx": "41.9°N, 12.5°E",
+      "category": "cultural",
+      "description": "1891年5月15日，教皇利奥十三世发布《新事》通谕，系统阐述了天主教会的劳工和社会正义立场。通谕谴责资本主义剥削和社会主义，主张公正工资、工人组织权和私有财产权，成为天主教社会教义的基础文献。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1891-005",
+      "title": "美国排华法案续期",
+      "region": "美国（华盛顿特区）",
+      "coordinates_approx": "38.9°N, 77.0°W",
+      "category": "legal",
+      "description": "1891年，美国国会通过法案将1882年排华法案延长十年，进一步限制中国移民。排华法案是美国历史上第一部针对特定族裔的移民限制法律，反映了西海岸反华情绪的高涨。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1891-006",
+      "title": "日本浓尾大地震",
+      "region": "日本（浓尾地区）",
+      "coordinates_approx": "35.3°N, 136.8°E",
+      "category": "environmental",
+      "description": "1891年10月28日，日本浓尾地区发生强烈地震（推定M8.0），造成超过7,000人死亡，约17万栋房屋倒塌。这是明治时期最严重的自然灾害之一，推动了日本的地震学和抗震建筑研究。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1891-007",
+      "title": "智利内战结束",
+      "region": "智利",
+      "coordinates_approx": "33.4°S, 70.7°W",
+      "category": "military",
+      "description": "1891年，智利国会对总统巴尔马塞达的内战以国会派胜利告终。总统于8月自杀。内战巩固了智利国会对总统权力的优势，确立了议会制共和国体制。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1891-008",
+      "title": "万国邮政联盟在维也纳召开会议",
+      "region": "奥匈帝国（维也纳）",
+      "coordinates_approx": "48.2°N, 16.4°E",
+      "category": "political",
+      "description": "1891年，万国邮政联盟在维也纳召开会议，进一步简化国际邮政服务。该联盟自1874年成立以来显著促进了全球通信，是现代多边合作的重要范例。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1891-009",
+      "title": "澳大利亚各殖民地讨论联邦",
+      "region": "澳大利亚",
+      "coordinates_approx": "27.0°S, 133.0°E",
+      "category": "political",
+      "description": "1891年在悉尼召开的澳大利亚联邦会议制定了第一部联邦宪法草案。虽然该草案因各殖民地争议而搁置，但为1901年澳大利亚联邦的最终成立奠定了基础。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    },
+    {
+      "id": "1891-010",
+      "title": "詹姆斯·奈史密斯发明篮球",
+      "region": "美国（马萨诸塞州斯普林菲尔德）",
+      "coordinates_approx": "42.1°N, 72.6°W",
+      "category": "cultural",
+      "description": "1891年12月，加拿大裔体育教师詹姆斯·奈史密斯在马萨诸塞州斯普林菲尔德基督教青年会训练学校发明了篮球运动，设计为冬季室内团队运动。篮球迅速流行，成为全球最受欢迎的体育项目之一。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "当代历史记录及学术研究",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "该事件在历史记录中有充分记载。",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "以上事件基于广泛接受的历史记载。部分事件的精确日期和细节在学术研究中存在合理争议。",
+  "historiographic_note": "1890年代的历史记录以欧洲和北美资料为主。非洲、亚洲和太平洋岛民的视角在幸存记录中呈现不足。近年来的学术研究正在纠正这些偏见。",
+  "graph_edges": []
 }
