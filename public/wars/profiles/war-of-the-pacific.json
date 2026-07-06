@@ -1,0 +1,713 @@
+{
+  "warId": "war-of-the-pacific",
+  "name": "硝石战争",
+  "nameEn": "War of the Pacific",
+  "alternativeNames": [
+    "太平洋战争“, ”硝石战争"
+  ],
+  "startYear": 1879,
+  "endYear": 1884,
+  "type": "major",
+  "category": "殖民战争",
+  "theaters": [
+    "太平洋沿岸“, ”安第斯山脉"
+  ],
+  "summary": "智利与玻利维亚、秘鲁之间的战争，争夺硝石和鸟粪资源控制权。",
+  "background": {
+    "causes": "南太平洋沿岸丰富的硝石和鸟粪资源，以及智利对玻利维亚阿塔卡马地区的领土要求",
+    "immediateCause": "玻利维亚政府向智利硝石公司增税，智利军队占领玻利维亚港口安托法加斯塔",
+    "preWarSituation": "三国经济依赖硝石出口，智利军事力量最强，玻利维亚和秘鲁有秘密防御同盟",
+    "objectivesA": "智利：控制硝石产区，扩大领土范围，巩固地区霸权",
+    "objectivesB": "玻利维亚和秘鲁：保住硝石产区，维护国家主权和领土完整",
+    "precedingConflicts": []
+  },
+  "belligerents": {
+    "sideA": {
+      "name": "智利",
+      "nameEn": "Chile",
+      "countries": [
+        {
+          "name": "智利",
+          "entryYear": 1879,
+          "exitYear": 1884
+        }
+      ],
+      "commanders": [
+        {
+          "name": "巴托洛梅·米特雷",
+          "role": "陆军总司令",
+          "bio": "智利陆军将领，战争期间担任主要军事指挥官"
+        },
+        {
+          "name": "拉蒙·巴里奥斯·卢科",
+          "role": "海军司令",
+          "bio": "智利海军将领，指挥伊基克海战"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "阿尼瓦尔·平托",
+          "role": "总统",
+          "bio": "智利总统(1876-1881)，战争期间领导国家"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "志愿兵制与征兵制结合",
+        "organization": "师级编制，专业化军队",
+        "logistics": "铁路运输保障，海军控制海上补给线"
+      },
+      "preWarStrength": {
+        "army": "约3.1万人",
+        "navy": "2艘铁甲舰，6艘护卫舰",
+        "airForce": "无",
+        "armor": "无",
+        "specialForces": "少量精锐部队",
+        "reserves": "约1.5万人"
+      },
+      "equipment": [
+        {
+          "name": "夏塞波步枪",
+          "quantity": "约2万支",
+          "description": "法国制先进步枪，射程远精度高"
+        },
+        {
+          "name": "铁甲舰",
+          "quantity": "2艘",
+          "description": "智利海军主力舰，火力强大"
+        }
+      ],
+      "industrialCapacity": "南美洲最发达的工业体系，能生产武器装备",
+      "economicStrength": "经济稳定，财政充裕，战争资金充足",
+      "totalCasualties": {
+        "dead": "约8000人",
+        "wounded": "约1.5万人",
+        "captured": "约2000人",
+        "missing": "约500人",
+        "civilian": "约1000人"
+      },
+      "warCrimes": [],
+      "propaganda": {
+        "slogans": [
+          "为祖国而战“, ”捍卫智利利益"
+        ],
+        "themes": [
+          "民族主义“, ”资源保护"
+        ],
+        "methods": [
+          "报纸宣传“, ”公共集会"
+        ]
+      }
+    },
+    "sideB": {
+      "name": "玻利维亚-秘鲁联盟",
+      "nameEn": "Bolivia-Peru Alliance",
+      "countries": [
+        {
+          "name": "玻利维亚",
+          "entryYear": 1879,
+          "exitYear": 1880
+        },
+        {
+          "name": "秘鲁",
+          "entryYear": 1879,
+          "exitYear": 1884
+        }
+      ],
+      "commanders": [
+        {
+          "name": "马里亚诺·伊格莱西亚斯",
+          "role": "秘鲁陆军总司令",
+          "bio": "秘鲁军事领袖，战争初期指挥军队"
+        },
+        {
+          "name": "爱德华多·杜兰德",
+          "role": "秘鲁海军司令",
+          "bio": "秘鲁海军将领，指挥太平洋舰队"
+        },
+        {
+          "name": "希尔维亚·德尔卡斯蒂略",
+          "role": "玻利维亚陆军司令",
+          "bio": "玻利维亚军事领袖，指挥玻利维亚军队"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "伊拉里翁·达萨",
+          "role": "玻利维亚总统",
+          "bio": "玻利维亚总统(1876-1879)，战争爆发时在任"
+        },
+        {
+          "name": "马里亚诺·伊格莱西亚斯",
+          "role": "秘鲁总统",
+          "bio": "秘鲁总统(1876-1879,1881-1882)，战争期间领导国家"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "以志愿兵为主，征兵制为辅",
+        "organization": "旅级编制，军队训练不足",
+        "logistics": "陆路运输困难，海军力量薄弱"
+      },
+      "preWarStrength": {
+        "army": "玻利维亚约1.8万人，秘鲁约3万人",
+        "navy": "秘鲁有2艘铁甲舰，玻利维亚无海军",
+        "airForce": "无",
+        "armor": "无",
+        "specialForces": "少量精锐部队",
+        "reserves": "约2万人"
+      },
+      "equipment": [
+        {
+          "name": "步枪",
+          "quantity": "约4万支",
+          "description": "装备混杂，包括老旧步枪和部分先进武器"
+        },
+        {
+          "name": "铁甲舰",
+          "quantity": "2艘",
+          "description": "秘鲁海军主力舰，但舰况较差"
+        }
+      ],
+      "industrialCapacity": "工业基础薄弱，依赖进口武器装备",
+      "economicStrength": "经济依赖硝石出口，战争资金短缺",
+      "totalCasualties": {
+        "dead": "约1.4万人",
+        "wounded": "约2.5万人",
+        "captured": "约5000人",
+        "missing": "约1000人",
+        "civilian": "约3000人"
+      },
+      "warCrimes": [],
+      "propaganda": {
+        "slogans": [
+          "保卫家园“, ”团结对抗侵略"
+        ],
+        "themes": [
+          "民族主义“, ”反殖民主义"
+        ],
+        "methods": [
+          "报纸宣传“, ”宗教动员"
+        ]
+      }
+    }
+  },
+  "neutralParties": [
+    {
+      "name": "阿根廷",
+      "reason": "关注地区平衡但未直接介入"
+    },
+    {
+      "name": "巴西",
+      "reason": "关注地区稳定但未直接介入"
+    },
+    {
+      "name": "美国",
+      "reason": "关注商业利益但未直接介入"
+    }
+  ],
+  "outcome": {
+    "result": "智利胜利，获得硝石产区",
+    "victoryAnalysis": {
+      "winnerFactors": "军事组织完善，海军力量强大，后勤保障有力，指挥系统高效",
+      "loserFactors": "军事准备不足，联盟内部协调不畅，装备落后，后勤困难"
+    },
+    "treaty": {
+      "name": "安孔条约",
+      "date": "1883年10月20日",
+      "content": "秘鲁割让塔拉帕卡省，阿利卡省租借给智利10年；1884年玻利维亚签署停战协定，割让太平洋沿岸地区"
+    },
+    "territorialChanges": "智利获得玻利维亚全部太平洋沿岸领土和秘鲁塔拉帕卡省、阿利卡省",
+    "economicCost": "智利战争支出约2.5亿美元，玻利维亚和秘鲁经济遭受重创",
+    "demographicImpact": "约5万人死亡，大量平民流离失所，边境人口结构改变"
+  },
+  "legacy": {
+    "significance": "改变了南美洲地缘政治格局，确立智利地区强国地位，引发长期地区紧张关系",
+    "immediateConsequences": "玻利维亚失去出海口，成为内陆国；秘鲁经济严重受损；智利获得丰富资源",
+    "longTermImpact": {
+      "political": "智利成为南美洲军事强国，玻利维亚长期寻求出海口",
+      "military": "推动南美洲海军现代化，促进军事技术发展",
+      "economic": "智利经济迅速发展，成为世界最大硝石生产国",
+      "social": "引发民族主义情绪，影响地区国家间关系"
+    },
+    "culturalLegacy": {
+      "memorials": [
+        "智利战争纪念碑“, ”秘鲁抗战纪念馆"
+      ],
+      "observances": [
+        "智利胜利日(5月21日)",
+        "秘鲁抗战纪念日"
+      ],
+      "media": [
+        "硝石战争小说“, ”历史纪录片"
+      ]
+    }
+  },
+  "tags": {
+    "warfareType": [
+      "陆战“, ”海战"
+    ],
+    "geopolitical": [
+      "南美洲“, ”太平洋地区"
+    ],
+    "scale": "regional",
+    "cause": [
+      "资源争夺“, ”领土争端"
+    ]
+  },
+  "relatedWars": [],
+  "sources": [],
+  "warProcess": {
+    "phases": [
+      {
+        "name": "战争爆发",
+        "nameEn": "Outbreak of War",
+        "startYear": 1879,
+        "endYear": 1879,
+        "summary": "硝石战争初期，玻利维亚与秘鲁组成联盟对抗智利，战争从边境冲突迅速升级为全面战争。",
+        "battles": [
+          {
+            "battleId": "caldera-battle",
+            "name": "卡尔德拉战役",
+            "nameEn": "Battle of Caldera",
+            "startYear": 1879,
+            "endYear": 1879,
+            "coords": [
+              -70.9,
+              -27.15
+            ],
+            "theater": "太平洋沿岸",
+            "context": "智利海军在战争初期取得制海权后，派遣部队登陆玻利维亚海岸",
+            "description": "1879年3月，智利海军陆战队在卡尔德拉登陆，袭击了玻利维亚的军事设施。智利军队凭借海军火力支援迅速占领了该地区，切断了玻利维亚与外界的联系。",
+            "result": "智利胜利",
+            "significance": "确保了智利在太平洋沿岸的军事存在，为后续进攻安托法加斯塔奠定基础",
+            "casualties": {
+              "sideA": "约20人",
+              "sideB": "约50人"
+            },
+            "forces": {
+              "sideA": "约200名海军陆战队员",
+              "sideB": "约100名玻利维亚守军"
+            },
+            "commanders": [
+              {
+                "name": "埃拉拉",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "伊达尔戈",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "topater-battle",
+            "name": "托帕特战役",
+            "nameEn": "Battle of Topáter",
+            "startYear": 1879,
+            "endYear": 1879,
+            "coords": [
+              -69.15,
+              -23.5
+            ],
+            "theater": "安托法加斯塔地区",
+            "context": "玻利维亚试图夺回被智利占领的安托法加斯塔地区",
+            "description": "1879年3月23日，玻利维亚军队在托帕特地区向智利守军发起进攻。智利军队凭借坚固的防御工事和火力优势击退了玻利维亚的多次进攻。战斗持续数小时，最终玻利维亚军队被迫撤退。",
+            "result": "智利胜利",
+            "significance": "巩固了智利对安托法加斯塔地区的控制，标志着玻利维亚在战争初期的失败",
+            "casualties": {
+              "sideA": "约30人",
+              "sideB": "约80人"
+            },
+            "forces": {
+              "sideA": "约350名智利士兵",
+              "sideB": "约500名玻利维亚士兵"
+            },
+            "commanders": [
+              {
+                "name": "鲁伊斯",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "德尔卡斯蒂略",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "angamos-battle",
+            "name": "安加莫斯战役",
+            "nameEn": "Battle of Angamos",
+            "startYear": 1879,
+            "endYear": 1879,
+            "coords": [
+              -71.5,
+              -23.5
+            ],
+            "theater": "太平洋海域",
+            "context": "智利海军与秘鲁海军在太平洋海域的关键对决",
+            "description": "1879年10月8日，智利海军舰队在安加莫斯海域拦截了秘鲁海军旗舰“独立号”。经过激烈海战，秘鲁舰队遭受重创，旗舰被击沉。秘鲁海军几乎全军覆没，仅剩几艘小型舰艇。",
+            "result": "智利决定性胜利",
+            "significance": "智利取得太平洋制海权，为后续陆上行动创造了有利条件，战争形势发生根本性转变",
+            "casualties": {
+              "sideA": "约50人",
+              "sideB": "约100人"
+            },
+            "forces": {
+              "sideA": "智利海军舰队",
+              "sideB": "秘鲁海军舰队"
+            },
+            "commanders": [
+              {
+                "name": "威廉斯",
+                "role": "舰队司令",
+                "side": "sideA"
+              },
+              {
+                "name": "格拉乌",
+                "role": "舰队司令",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "pisagua-landing",
+            "name": "皮萨瓜登陆战",
+            "nameEn": "Landing at Pisagua",
+            "startYear": 1879,
+            "endYear": 1879,
+            "coords": [
+              -70.83,
+              -20.22
+            ],
+            "theater": "太平洋沿岸",
+            "context": "智利为扩大战争范围，在秘鲁北部实施两栖登陆",
+            "description": "1879年11月2日，智利军队在皮萨瓜实施大规模两栖登陆。秘鲁守军虽然进行了顽强抵抗，但智利军队凭借海军炮火优势和数量优势成功登陆并占领了该地区。",
+            "result": "智利胜利",
+            "significance": "智利军队首次在秘鲁领土上建立稳固据点，打开了通往秘鲁内陆的通道",
+            "casualties": {
+              "sideA": "约120人",
+              "sideB": "约200人"
+            },
+            "forces": {
+              "sideA": "约5,000名士兵",
+              "sideB": "约2,000名守军"
+            },
+            "commanders": [
+              {
+                "name": "巴里奥斯",
+                "role": "登陆部队指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "戈麦斯",
+                "role": "守军指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "dolores-battle",
+            "name": "多洛雷斯战役",
+            "nameEn": "Battle of Dolores",
+            "startYear": 1879,
+            "endYear": 1879,
+            "coords": [
+              -69.5,
+              -20.5
+            ],
+            "theater": "秘鲁-智利边境",
+            "context": "秘鲁军队试图阻止智利军队向秘鲁内陆推进",
+            "description": "1879年11月19日，秘鲁军队在多洛雷斯地区设防，试图阻止智利军队向秘鲁内陆推进。智利军队凭借炮火优势和战术机动性突破了秘鲁防线，迫使秘鲁军队撤退。",
+            "result": "智利胜利",
+            "significance": "智利军队成功突破秘鲁边境防御，为后续占领塔拉帕卡地区铺平道路",
+            "casualties": {
+              "sideA": "约80人",
+              "sideB": "约150人"
+            },
+            "forces": {
+              "sideA": "约3,000名士兵",
+              "sideB": "约2,500名士兵"
+            },
+            "commanders": [
+              {
+                "name": "鲁伊斯",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "卡瓦哈尔",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争进程",
+        "nameEn": "War Process",
+        "startYear": 1879,
+        "endYear": 1884,
+        "summary": "硝石战争期间，智利与玻利维亚、秘鲁联军展开了一系列关键战役，最终智利凭借军事优势和资源控制取得胜利",
+        "battles": [
+          {
+            "battleId": "battle-of-callejon-de-mayu",
+            "name": "卡莱翁-德马尤战役",
+            "nameEn": "Battle of Callejón de Mayu",
+            "startYear": 1879,
+            "endYear": 1879,
+            "coords": [
+              -69.15,
+              -17.5
+            ],
+            "theater": "玻利维亚战区",
+            "context": "战争初期，智利军队入侵玻利维亚北部地区",
+            "description": "1879年5月，智利军队在卡莱翁-德马尤地区与玻利维亚军队交战。智利凭借更好的训练和装备迅速击败了玻利维亚军队，控制了安托法加斯塔北部地区。这场战役是智利在陆战中的首次重大胜利，为后续军事行动奠定了基础。",
+            "result": "智利胜利",
+            "significance": "确立了智利在陆战中的初期优势，控制了硝石矿区",
+            "casualties": {
+              "sideA": "约50人",
+              "sideB": "约200人"
+            },
+            "forces": {
+              "sideA": "约1,000人",
+              "sideB": "约2,000人"
+            },
+            "commanders": [
+              {
+                "name": "埃拉拉",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "达萨",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-topater",
+            "name": "托帕特战役",
+            "nameEn": "Battle of Topáter",
+            "startYear": 1879,
+            "endYear": 1879,
+            "coords": [
+              -69.15,
+              -24.13
+            ],
+            "theater": "玻利维亚战区",
+            "context": "智利军队继续向玻利维亚内陆推进",
+            "description": "1879年3月，智利军队在托帕特地区与玻利维亚军队展开战斗。智利军队凭借火炮优势和更好的战术组织，迅速击败了玻利维亚守军。这场战役导致玻利维亚军队损失惨重，被迫撤出安托法加斯塔地区，智利完全控制了硝石矿区。",
+            "result": "智利胜利",
+            "significance": "智利完全控制了安托法加斯塔地区，玻利维亚退出战争",
+            "casualties": {
+              "sideA": "约30人",
+              "sideB": "约100人"
+            },
+            "forces": {
+              "sideA": "约500人",
+              "sideB": "约300人"
+            },
+            "commanders": [
+              {
+                "name": "埃拉拉",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "德尔卡斯蒂略",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of Pisagua",
+            "name": "皮萨瓜战役",
+            "nameEn": "Battle of Pisagua",
+            "startYear": 1879,
+            "endYear": 1879,
+            "coords": [
+              -70.333,
+              -20.716
+            ],
+            "theater": "秘鲁北部战区",
+            "context": "智利军队实施两栖登陆，进攻秘鲁北部",
+            "description": "1879年11月，智利军队在皮萨瓜实施大规模两栖登陆，攻击秘鲁守军。智利海军提供了火力支援，陆军迅速占领了滩头阵地并向内陆推进。秘鲁军队虽然进行了顽强抵抗，但最终被击败。这场战役是智利在太平洋战争中的关键胜利，打开了通往秘鲁内陆的道路。",
+            "result": "智利胜利",
+            "significance": "智利成功实施两栖登陆，控制了秘鲁北部沿海地区",
+            "casualties": {
+              "sideA": "约120人",
+              "sideB": "约200人"
+            },
+            "forces": {
+              "sideA": "约2,500人",
+              "sideB": "约1,800人"
+            },
+            "commanders": [
+              {
+                "name": "埃拉拉",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "布斯塔曼特",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-Arica",
+            "name": "阿里卡战役",
+            "nameEn": "Battle of Arica",
+            "startYear": 1880,
+            "endYear": 1880,
+            "coords": [
+              -70.335,
+              -18.476
+            ],
+            "theater": "秘鲁南部战区",
+            "context": "智利军队继续向南推进，围攻阿里卡要塞",
+            "description": "1880年6月，智利军队对秘鲁重要的阿里卡要塞发起总攻。经过激烈战斗，智利军队最终攻破了要塞防御。秘鲁守军进行了英勇抵抗，但最终不敌智利的兵力优势和火力。阿里卡的陷落使智利控制了秘鲁南部沿海地区，进一步巩固了其军事优势。",
+            "result": "智利胜利",
+            "significance": "智利控制了秘鲁南部沿海地区，战争局势向智利倾斜",
+            "casualties": {
+              "sideA": "约100人",
+              "sideB": "约300人"
+            },
+            "forces": {
+              "sideA": "约3,000人",
+              "sideB": "约1,600人"
+            },
+            "commanders": [
+              {
+                "name": "埃拉拉",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "布斯塔曼特",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-La-Paz",
+            "name": "拉巴斯战役",
+            "nameEn": "Battle of La Paz",
+            "startYear": 1880,
+            "endYear": 1880,
+            "coords": [
+              -68.15,
+              -16.5
+            ],
+            "theater": "玻利维亚战区",
+            "context": "智利军队深入玻利维亚内陆，进攻其首都",
+            "description": "1880年，智利军队深入玻利维亚内陆，向其首都拉巴斯推进。玻利维亚军队进行了顽强抵抗，但由于兵力不足和装备落后，最终无法阻止智利军队的攻势。智利军队虽然未能占领拉巴斯，但控制了玻利维亚大部分地区，迫使玻利维亚政府退出战争。",
+            "result": "智利战略胜利",
+            "significance": "玻利维亚退出战争，智利获得对安第斯山脉地区的控制",
+            "casualties": {
+              "sideA": "约150人",
+              "sideB": "约300人"
+            },
+            "forces": {
+              "sideA": "约2,000人",
+              "sideB": "约1,000人"
+            },
+            "commanders": [
+              {
+                "name": "埃拉拉",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "蒙特内格罗",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "majorBattles": []
+  },
+  "timeline": [
+    {
+      "year": 1866,
+      "event": "《秘密条约》签署",
+      "type": "diplomomy",
+      "description": "玻利维亚与秘鲁签署《秘密条约》，建立军事同盟",
+      "impact": "为硝石战争埋下伏笔，形成对抗智利的联盟"
+    },
+    {
+      "year": 1873,
+      "event": "硝石开采权争议",
+      "type": "crisis",
+      "description": "玻利维亚政府提高外国公司在阿塔卡马沙漠的硝石开采税",
+      "impact": "引发智利与玻利维亚之间的紧张关系，成为战争直接导火索"
+    },
+    {
+      "year": 1878,
+      "event": "玻利维亚征收重税",
+      "type": "crisis",
+      "description": "玻利维亚对智利公司帕加萨公司征收10000美元罚款并没收其资产",
+      "impact": "智利军队占领玻利维亚港口安托法加斯塔，两国关系破裂"
+    },
+    {
+      "year": 1879,
+      "event": "秘鲁介入冲突",
+      "type": "diplomomy",
+      "description": "秘鲁根据1866年《秘密条约》向智利发出最后通牒",
+      "impact": "导致智利向秘鲁和玻利维亚宣战，硝石战争正式爆发"
+    },
+    {
+      "year": 1879,
+      "event": "海上冲突升级",
+      "type": "crisis",
+      "description": "智利海军在伊基克海域击沉秘鲁战舰「华加依号」",
+      "impact": "战争从陆地扩展到海上，智利获得海上优势，控制太平洋海域"
+    },
+    {
+      "year": 1884,
+      "event": "签订《安孔条约》",
+      "type": "diplomacy",
+      "description": "智利与玻利维亚签署和平条约，正式结束硝石战争",
+      "impact": "确认智利对安第斯山脉太平洋沿岸地区的控制，玻利维亚失去出海口"
+    },
+    {
+      "year": 1904,
+      "event": "《友好条约与边界条约》签署",
+      "type": "diplomacy",
+      "description": "智利与玻利维亚签署新条约，部分解决战后争端",
+      "impact": "建立正式外交关系，但玻利维亚仍未获得太平洋出海口"
+    },
+    {
+      "year": 1920,
+      "event": "塔克纳-阿里卡移交",
+      "type": "decision",
+      "description": "智利将塔克纳和阿里卡地区移交给秘鲁",
+      "impact": "缓解与秘鲁的紧张关系，但智利仍保留对硝石矿区的控制"
+    },
+    {
+      "year": 1930,
+      "event": "查卡塔亚事件",
+      "type": "crisis",
+      "description": "玻利维亚军队占领查卡塔亚地区，引发与智利的军事对峙",
+      "impact": "加剧两国紧张关系，显示玻利维亚对出海口问题的持续关注"
+    },
+    {
+      "year": 1979,
+      "event": "多边谈判重启",
+      "type": "diplomacy",
+      "description": "在联合国调解下，智利、玻利维亚和秘鲁重启关于出海口问题的谈判",
+      "impact": "为解决玻利维亚出海口问题提供新途径，但最终未能达成实质性协议"
+    }
+  ]
+}

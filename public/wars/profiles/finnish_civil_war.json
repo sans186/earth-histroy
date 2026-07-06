@@ -1,0 +1,532 @@
+{
+  "warId": "finnish_civil_war",
+  "name": "芬兰内战",
+  "nameEn": "Finnish Civil War",
+  "alternativeNames": [
+    "芬兰革命战争"
+  ],
+  "startYear": 1918,
+  "endYear": 1918,
+  "type": "major",
+  "category": "内战",
+  "theaters": [
+    "芬兰"
+  ],
+  "summary": "1918年芬兰白军与红军之间的内战，导致芬兰独立并确立共和政体。",
+  "background": {
+    "causes": "俄国十月革命后芬兰独立运动兴起，社会阶级矛盾激化，政治分裂加剧",
+    "immediateCause": "1917年12月芬兰宣布独立后，社会民主党与保守派政府权力斗争白热化",
+    "preWarSituation": "芬兰社会分裂为支持独立的资产阶级白党和亲俄的社会主义红军",
+    "objectivesA": "白军：维护芬兰独立，建立保守派政府，保持社会秩序",
+    "objectivesB": "红军：建立社会主义政权，实现土地改革，与俄国布尔什维克保持联系",
+    "precedingConflicts": [
+      "1905年俄国革命芬兰总罢工",
+      "1917年芬兰十月罢工"
+    ]
+  },
+  "belligerents": {
+    "sideA": {
+      "name": "白军",
+      "nameEn": "Whites",
+      "countries": [
+        {
+          "name": "芬兰",
+          "entryYear": 1918,
+          "exitYear": 1918
+        }
+      ],
+      "commanders": [
+        {
+          "name": "卡尔·古斯塔夫·埃米尔·曼纳海姆",
+          "role": "总司令",
+          "bio": "芬兰军事家，后成为芬兰总统"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "佩尔·埃温德·斯文胡武德",
+          "role": "摄政",
+          "bio": "芬兰保守派政治家，白军支持者"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "志愿兵制",
+        "organization": "地方民兵组织",
+        "logistics": "依靠瑞典和德国援助"
+      },
+      "preWarStrength": {
+        "army": "约7万人",
+        "navy": "小型舰队",
+        "airForce": "无",
+        "armor": "无",
+        "specialForces": "约5000人",
+        "reserves": "约2万人"
+      },
+      "equipment": [
+        {
+          "name": "莫辛-纳甘步枪",
+          "quantity": "约3万支",
+          "description": "主要步兵武器"
+        },
+        {
+          "name": "马克沁机枪",
+          "quantity": "约200挺",
+          "description": "支援火力"
+        },
+        {
+          "name": "瑞典援助物资",
+          "quantity": "大量",
+          "description": "包括武器和弹药"
+        }
+      ],
+      "industrialCapacity": "有限，主要依靠进口",
+      "economicStrength": "较强，得到资产阶级和农民支持",
+      "totalCasualties": {
+        "dead": "约3000人",
+        "wounded": "约6000人",
+        "captured": "约1.1万人",
+        "missing": "约500人",
+        "civilian": "约2000人"
+      },
+      "warCrimes": [
+        "处决战俘和平民"
+      ],
+      "propaganda": {
+        "slogans": [
+          "为芬兰独立而战“, ”保卫家园"
+        ],
+        "themes": [
+          "爱国主义“, ”反共产主义“, ”秩序与稳定"
+        ],
+        "methods": [
+          "报纸宣传“, ”集会演讲“, ”宗教动员"
+        ]
+      }
+    },
+    "sideB": {
+      "name": "红军",
+      "nameEn": "Reds",
+      "countries": [
+        {
+          "name": "芬兰",
+          "entryYear": 1918,
+          "exitYear": 1918
+        },
+        {
+          "name": "苏俄",
+          "entryYear": 1918,
+          "exitYear": 1918
+        }
+      ],
+      "commanders": [
+        {
+          "name": "库约·库西宁",
+          "role": "红军总司令",
+          "bio": "芬兰共产主义领导人"
+        },
+        {
+          "name": "阿里·阿尔托",
+          "role": "军事指挥官",
+          "bio": "芬兰工人运动领袖"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "奥托·库西宁",
+          "role": "人民代表团主席",
+          "bio": "芬兰社会民主党左翼领袖"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "志愿兵制",
+        "organization": "工人卫队",
+        "logistics": "依靠苏俄援助"
+      },
+      "preWarStrength": {
+        "army": "约9万人",
+        "navy": "小型舰队",
+        "airForce": "无",
+        "armor": "无",
+        "specialForces": "约1万人",
+        "reserves": "约3万人"
+      },
+      "equipment": [
+        {
+          "name": "莫辛-纳甘步枪",
+          "quantity": "约4万支",
+          "description": "主要步兵武器"
+        },
+        {
+          "name": "马克沁机枪",
+          "quantity": "约300挺",
+          "description": "支援火力"
+        },
+        {
+          "name": "苏俄援助物资",
+          "quantity": "大量",
+          "description": "包括武器和弹药"
+        }
+      ],
+      "industrialCapacity": "有限，主要集中在赫尔辛基等大城市",
+      "economicStrength": "较弱，主要依靠工人和部分农民支持",
+      "totalCasualties": {
+        "dead": "约1万人",
+        "wounded": "约1.2万人",
+        "captured": "约8万人",
+        "missing": "约1万人",
+        "civilian": "约1万人"
+      },
+      "warCrimes": [
+        "处俘战俘和平民"
+      ],
+      "propaganda": {
+        "slogans": [
+          "无产阶级团结“, ”土地归农民“, ”推翻资产阶级"
+        ],
+        "themes": [
+          "社会主义“, ”阶级斗争“, ”国际主义"
+        ],
+        "methods": [
+          "报纸宣传“, ”集会演讲“, ”工人组织动员"
+        ]
+      }
+    }
+  },
+  "neutralParties": [
+    {
+      "name": "瑞典",
+      "role": "提供援助给白军"
+    },
+    {
+      "name": "德国",
+      "role": "军事顾问和武器援助给白军"
+    },
+    {
+      "name": "英国",
+      "role": "海军封锁芬兰海岸"
+    }
+  ],
+  "outcome": {
+    "result": "白军胜利，芬兰独立并确立共和政体",
+    "victoryAnalysis": {
+      "winnerFactors": "德国和瑞典的军事援助，曼纳海姆的军事才能，红军内部组织松散",
+      "loserFactors": "缺乏统一指挥，苏俄内战无法全力支持，内部派系斗争"
+    },
+    "treaty": {
+      "name": "图尔库条约",
+      "date": "1918年5月16日",
+      "content": "确认芬兰独立，结束内战，建立共和政府"
+    },
+    "territorialChanges": "芬兰保持独立，未丧失领土",
+    "economicCost": "国家经济严重受损，基础设施破坏严重",
+    "demographicImpact": "约3.7万人死亡，大量人口流亡，社会分裂加剧"
+  },
+  "legacy": {
+    "significance": "芬兰独立的关键战役，确立了芬兰的政治制度，但导致长期社会分裂",
+    "immediateConsequences": "芬兰成为独立共和国，白军主导政治，社会民主党被边缘化",
+    "longTermImpact": {
+      "political": "芬兰实行多党制，但右翼长期主导",
+      "military": "建立独立国防力量，保持中立政策",
+      "economic": "战后重建缓慢，但逐渐发展",
+      "social": "阶级矛盾长期存在，社会分裂持续数十年"
+    },
+    "culturalLegacy": {
+      "memorials": [
+        "曼纳海姆墓“, ”内战纪念碑"
+      ],
+      "observances": [
+        "内战纪念日"
+      ],
+      "media": [
+        "内战题材电影《冬日战争》"
+      ]
+    }
+  },
+  "tags": {
+    "warfareType": [
+      "内战“, ”革命战争"
+    ],
+    "geopolitical": [
+      "芬兰独立“, ”俄国革命影响"
+    ],
+    "scale": "regional",
+    "cause": [
+      "阶级斗争“, ”政治分裂“, ”民族独立"
+    ]
+  },
+  "relatedWars": [
+    {
+      "name": "继续战争",
+      "warId": "continuation_war"
+    },
+    {
+      "name": "冬季战争",
+      "warId": "winter_war"
+    }
+  ],
+  "sources": [
+    "《芬兰史》“,\n    ”《芬兰内战1918》“,\n    ”《曼纳海姆回忆录》"
+  ],
+  "warProcess": {
+    "phases": [
+      {
+        "name": "芬兰内战",
+        "nameEn": "Finnish Civil War",
+        "startYear": 1918,
+        "endYear": 1918,
+        "summary": "芬兰内战是1918年1月至5月间在芬兰爆发的内战，一方为芬兰社会民主党领导的赤卫队，另一方为保守派和资产阶级支持的白卫队。这场内战受到俄国十月革命的影响，是芬兰独立后第一次重大冲突。",
+        "battles": [
+          {
+            "battleId": "battle_of_tampere",
+            "name": "坦佩雷战役",
+            "nameEn": "Battle of Tampere",
+            "startYear": 1918,
+            "endYear": 1918,
+            "coords": [
+              23.7609,
+              61.4993
+            ],
+            "theater": "南部芬兰",
+            "context": "坦佩雷是芬兰重要的工业城市，也是赤卫队的主要据点之一。白卫军决定攻占这座城市以切断赤卫队的联系。",
+            "description": "1918年3月，白卫军开始围攻坦佩雷。经过数周的激烈战斗，白卫军最终在4月初攻占该市。这是芬兰内战中最血腥的战役之一，双方都遭受了重大伤亡。",
+            "result": "白卫军胜利",
+            "significance": "坦佩雷的陷落标志着赤卫军在南部的防线崩溃，战争局势向白卫军倾斜。",
+            "casualties": {
+              "sideA": "约3000人",
+              "sideB": "约2000人"
+            },
+            "forces": {
+              "sideA": "约8000名赤卫军",
+              "sideB": "约16000名白卫军"
+            },
+            "commanders": [
+              {
+                "name": "卡尔·古斯塔夫·埃米尔·曼纳海姆",
+                "role": "白卫军总司令",
+                "side": "sideB"
+              },
+              {
+                "name": "库约·科斯基",
+                "role": "赤卫军指挥官",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_viipuri",
+            "name": "维堡战役",
+            "nameEn": "Battle of Viipuri",
+            "startYear": 1918,
+            "endYear": 1918,
+            "coords": [
+              28.9059,
+              60.6975
+            ],
+            "theater": "东南芬兰",
+            "context": "维堡（今俄罗斯维堡）是芬兰第二大城市，也是赤卫军在东部的重要据点。白卫军计划攻占该市以切断赤卫队与俄国布尔什维克的联系。",
+            "description": "1918年4月，白卫军开始进攻维堡。赤卫军进行了顽强抵抗，但最终不敌白卫军的进攻。维堡的陷落使赤卫军失去了重要的后勤基地。",
+            "result": "白卫军胜利",
+            "significance": "维堡的陷落使赤卫军失去了与俄国联系的重要通道，进一步削弱了赤卫军的战斗力。",
+            "casualties": {
+              "sideA": "约1500人",
+              "sideB": "约1000人"
+            },
+            "forces": {
+              "sideA": "约5000名赤卫军",
+              "sideB": "约8000名白卫军"
+            },
+            "commanders": [
+              {
+                "name": "卡尔·古斯塔夫·埃米尔·曼纳海姆",
+                "role": "白卫军总司令",
+                "side": "sideB"
+              },
+              {
+                "name": "胡戈·萨尔姆ela",
+                "role": "赤卫军指挥官",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of拉赫蒂",
+            "name": "拉赫蒂战役",
+            "nameEn": "Battle of Lahti",
+            "startYear": 1918,
+            "endYear": 1918,
+            "coords": [
+              25.6493,
+              60.9847
+            ],
+            "theater": "南部芬兰",
+            "context": "拉赫蒂是连接赫尔辛基和坦佩雷的重要交通枢纽，赤卫军撤退时试图在此建立防线。",
+            "description": "1918年4月，白卫军攻占坦佩雷后，继续向拉赫蒂推进。赤卫军试图在此建立防线，但最终被白卫军突破。拉赫蒂的陷落使赤卫军的主要防线崩溃。",
+            "result": "白卫军胜利",
+            "significance": "拉赫蒂的陷落使赤卫军失去了最后的防线，导致赤卫军大规模投降或逃往俄国。",
+            "casualties": {
+              "sideA": "约2000人",
+              "sideB": "约1500人"
+            },
+            "forces": {
+              "sideA": "约6000名赤卫军",
+              "sideB": "约10000名白卫军"
+            },
+            "commanders": [
+              {
+                "name": "卡尔·古斯塔夫·埃米尔·曼纳海姆",
+                "role": "白卫军总司令",
+                "side": "sideB"
+              },
+              {
+                "name": "阿里斯蒂德·斯兰赫尔",
+                "role": "赤卫军指挥官",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of赫尔辛基",
+            "name": "赫尔辛基战役",
+            "nameEn": "Battle of Helsinki",
+            "startYear": 1918,
+            "endYear": 1918,
+            "coords": [
+              24.9384,
+              60.1699
+            ],
+            "theater": "南部芬兰",
+            "context": "赫尔辛基是芬兰首都，也是赤卫军最后的据点之一。白卫军决定攻占该市以结束战争。",
+            "description": "1918年4月，白卫军开始进攻赫尔辛基。赤卫军进行了短暂抵抗，但最终不敌白卫军的进攻。赫尔辛基的陷落标志着赤卫军在南部的主要据点全部失守。",
+            "result": "白卫军胜利",
+            "significance": "赫尔辛基的陷落标志着赤卫军在南部的主要据点全部失守，战争基本结束。",
+            "casualties": {
+              "sideA": "约1000人",
+              "sideB": "约500人"
+            },
+            "forces": {
+              "sideA": "约3000名赤卫军",
+              "sideB": "约5000名白卫军"
+            },
+            "commanders": [
+              {
+                "name": "卡尔·古斯塔夫·埃米尔·曼纳海姆",
+                "role": "白卫军总司令",
+                "side": "sideB"
+              },
+              {
+                "name": "库约·科斯基",
+                "role": "赤卫军指挥官",
+                "side": "sideA"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "majorBattles": [],
+    "geography": {
+      "keyObstacles": [
+        {
+          "name": "「曼纳海姆防线」",
+          "description": "芬兰南部由森林、湖泊和坚固工事组成的防御体系，有效阻挡了红军的进攻，为白军提供了战略优势，成为内战中的关键地理屏障。"
+        },
+        {
+          "name": "「森林与湖泊地形」",
+          "description": "芬兰境内密布的森林和湖泊形成天然障碍，限制了军队机动性，有利于防守方进行游击战，但也导致补给困难和通信不畅。"
+        },
+        {
+          "name": "「极夜现象」",
+          "description": "冬季极夜条件限制了军事行动时间，增加了行军难度，但也为突袭提供了掩护，双方都需适应这种特殊的光照条件。"
+        }
+      ],
+      "extremeWeather": [
+        {
+          "year": 1918,
+          "event": "「异常严冬」",
+          "description": "1917-1918年冬季异常寒冷，气温降至零下30-40摄氏度，导致大量非战斗减员，武器故障率上升，但也冻结了河流便于部队通行。"
+        }
+      ],
+      "nonCombatLosses": "「严寒导致的冻伤和疾病」是内战期间主要的非战斗减员因素，双方军队均面临严重的人员冻伤、肺炎和营养不良问题，特别是在缺乏适当冬季装备的情况下，非战斗损失远超战斗伤亡。"
+    },
+    "cognitiveWarfare": {
+      "psyOps": [
+        "白军将红军描绘为'布尔什维克侵略者'和'外国代理人'",
+        "红军宣传'阶级解放'和'无产阶级国际主义'",
+        "双方均使用极端暴力事件作为宣传材料，制造恐惧和仇恨“,\n    ”白军利用宗教符号和传统价值观动员支持“,\n    ”红军通过'革命正义'叙事争取工人和农民支持"
+      ],
+      "propagandaComparison": "白军宣传强调'保卫祖国'和'传统价值观'，将红军描绘为受外国势力(主要是俄国)操控的破坏者，利用芬兰民族主义情绪和反俄传统。红军则宣传'阶级斗争'和'无产阶级国际主义'，承诺土地改革和经济平等，试图吸引工人和贫苦农民。双方都使用极端暴力事件作为宣传材料，白军强调红军的'红色恐怖'，红军则宣传白军的'白色恐怖'。白军获得了中产阶级、农民和精英阶层的支持，而红军则主要依靠城市工人和部分农民。",
+      "collaborators": [
+        "德国支持的白军政府“, ”俄国支持的红军政权“, ”芬兰资产阶级临时政府“, ”芬兰人民代表团"
+      ],
+      "informationWarfare": "芬兰内战中的信息战表现为双方对媒体和通信渠道的争夺。白军控制了南部主要报纸和广播，传播反共宣传；红军则控制了北部工人报纸，宣传革命思想。双方都进行了严格的新闻审查，传播有利于自己的信息，同时散布关于敌方的虚假信息和谣言。外国势力(德国和俄国)通过提供资金、武器和宣传材料，深度介入了这场信息战，加剧了意识形态对抗。"
+    }
+  },
+  "timeline": [
+    {
+      "year": 1917,
+      "event": "俄国十月革命",
+      "type": "crisis",
+      "description": "布尔什维克革命推翻了临时政府，导致俄国陷入混乱",
+      "impact": "芬兰获得实际独立，但国内政治分歧加剧"
+    },
+    {
+      "year": 1917,
+      "event": "芬兰独立宣言",
+      "type": "diplomacy",
+      "description": "芬兰议会宣布国家独立，脱离俄国",
+      "impact": "为芬兰内战创造了政治前提，但未解决国内权力斗争"
+    },
+    {
+      "year": 1918,
+      "event": "斯德哥尔摩协议",
+      "type": "diplomacy",
+      "description": "德国与芬兰白卫军达成秘密军事援助协议",
+      "impact": "确保了白卫军获得外部支持，改变了战争力量对比"
+    },
+    {
+      "year": 1918,
+      "event": "赤卫队起义",
+      "type": "crisis",
+      "description": "芬兰赤卫队在首都赫尔辛基发动武装起义",
+      "impact": "标志着内战正式爆发，国家分裂为红白两派"
+    },
+    {
+      "year": 1918,
+      "event": "德国军队登陆",
+      "type": "decision",
+      "description": "德国军队应白卫军请求在芬兰南部登陆",
+      "impact": "直接导致赤卫军迅速溃败，内战局势逆转"
+    },
+    {
+      "year": 1918,
+      "event": "《图尔库和约》签署",
+      "type": "diplomacy",
+      "description": "1918年5月15日，芬兰内战结束后，芬兰政府与德国签署《图尔库和约》，正式结束战争状态",
+      "impact": "确立了芬兰的独立地位，但使芬兰在经济和政治上严重依赖德国"
+    },
+    {
+      "year": 1919,
+      "event": "芬兰共和国成立",
+      "type": "decision",
+      "description": "1919年7月17日，芬兰通过新宪法，宣布成立共和国，选举K.J.斯托尔贝里为第一任总统“,”影响“:”结束了芬兰的君主制尝试，确立了芬兰的共和政体"
+    },
+    {
+      "year": 1920,
+      "event": "《塔尔图和约》签署",
+      "type": "diplomacy",
+      "description": "1920年10月14日，芬兰与苏俄签署《塔尔图和约》，划定了两国边界“,”影响“:”解决了芬兰与苏俄之间的领土争端，使芬兰获得了佩察莫港和部分卡累利阿地区"
+    },
+    {
+      "year": 1921,
+      "event": "奥兰群岛危机解决",
+      "type": "crisis",
+      "description": "1921年，国际联盟介入解决奥兰群岛主权争端，最终确认该群岛归属芬兰“,”影响“:”巩固了芬兰的国际地位，避免了与瑞典的潜在冲突"
+    },
+    {
+      "year": 1929,
+      "event": "拉普阿运动兴起",
+      "type": "leadership",
+      "description": "1929年，极右翼组织拉普阿运动在芬兰兴起，反对社会主义和议会民主制“,”影响“:”导致1932年马尔科姆政变未遂，加剧了芬兰政治极化，为后来与纳粹德国合作埋下伏笔"
+    }
+  ]
+}

@@ -112,6 +112,7 @@ export default {
     let personList = [];
     let listOpen = false;
     let evalTab = 'supporter'; // current evaluation tab
+    let currentEra = ''; // active era filter, '' = all
 
     /** @type {{ path, posMarker, startMarker, endMarker, waypoints: [] }} */
     const ents = { path: null, posMarker: null, startMarker: null, endMarker: null, waypoints: [] };
@@ -156,6 +157,20 @@ export default {
       }
       #traj-list .tl-search:focus { border-color: var(--border-accent-hover); }
       #traj-list .tl-search::placeholder { color: var(--filter-dot-border); }
+
+      #traj-list .tl-filters {
+        display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px;
+      }
+      #traj-list .tl-filter-chip {
+        font-size: 10px; padding: 2px 8px; border-radius: 10px; cursor: pointer;
+        background: rgba(138,180,248,0.08); color: var(--text-faint);
+        border: 1px solid transparent; transition: all 0.15s; user-select: none;
+        white-space: nowrap;
+      }
+      #traj-list .tl-filter-chip:hover { background: rgba(138,180,248,0.18); color: #aaa; }
+      #traj-list .tl-filter-chip.active {
+        background: rgba(255,215,0,0.15); color: var(--accent-gold); border-color: rgba(255,215,0,0.33);
+      }
 
       #traj-list .tl-list {
         flex: 1; overflow-y: auto; padding: 6px 0;
@@ -347,6 +362,14 @@ export default {
       <div class="tl-header">
         <h3>⏳ 人物轨迹</h3>
         <div class="tl-sub" id="tl-sub"></div>
+        <div class="tl-filters" id="tl-filters">
+          <span class="tl-filter-chip active" data-era="">全部</span>
+          <span class="tl-filter-chip" data-era="古代">古代</span>
+          <span class="tl-filter-chip" data-era="中世纪">中世纪</span>
+          <span class="tl-filter-chip" data-era="近代早期">近代早期</span>
+          <span class="tl-filter-chip" data-era="19世纪">19世纪</span>
+          <span class="tl-filter-chip" data-era="20世纪">20世纪</span>
+        </div>
         <input class="tl-search" id="tl-search" type="text" placeholder="搜索人物姓名...">
       </div>
       <div class="tl-list" id="tl-list"></div>
@@ -658,12 +681,18 @@ export default {
       listEl.innerHTML = '';
       const q = (filter || '').toLowerCase();
       let filtered = personList;
+      // Era filter
+      if (currentEra) {
+        filtered = filtered.filter(p => (p.era || '未知') === currentEra);
+      }
+      // Text search
       if (q) {
         filtered = filtered.filter(p =>
           p.name.toLowerCase().includes(q) ||
           (p.nameEn && p.nameEn.toLowerCase().includes(q)) ||
           (p.nationality && p.nationality.includes(q)));
       }
+      filtered = [...filtered].sort((a, b) => (b.birth || 0) - (a.birth || 0));
       listSub.textContent = `${filtered.length}/${personList.length} 位人物`;
       for (const p of filtered) {
         const item = document.createElement('div');
@@ -689,6 +718,18 @@ export default {
           personList = list;
           listSub.textContent = `${list.length} 位人物`;
           searchInput.addEventListener('input', () => renderList(searchInput.value));
+          // Era filter chips
+          const filterContainer = listPanel.querySelector('#tl-filters');
+          if (filterContainer) {
+            filterContainer.addEventListener('click', (e) => {
+              const chip = e.target.closest('.tl-filter-chip');
+              if (!chip) return;
+              filterContainer.querySelectorAll('.tl-filter-chip').forEach(c => c.classList.remove('active'));
+              chip.classList.add('active');
+              currentEra = chip.dataset.era || '';
+              renderList(searchInput.value);
+            });
+          }
           renderList('');
         })
         .catch(e => console.warn('[traj] load list:', e));
@@ -734,11 +775,16 @@ export default {
     }
 
     // ── Toggle left list ──
+    const SIBLING_IDS = ['#evt-toggle', '#war-toggle'];
+    function showSiblings() { for (const id of SIBLING_IDS) { const el = document.querySelector(id); if (el) el.style.display = ''; } }
+    function hideSiblings() { for (const id of SIBLING_IDS) { const el = document.querySelector(id); if (el) el.style.display = 'none'; } }
+
     toggleBtn.addEventListener('click', () => {
       listOpen = !listOpen;
       listPanel.classList.toggle('open', listOpen);
       toggleBtn.classList.toggle('active', listOpen);
       toggleBtn.style.left = listOpen ? '300px' : '10px';
+      if (listOpen) hideSiblings(); else showSiblings();
     });
 
     // ── Nav buttons ──
@@ -782,6 +828,7 @@ export default {
           listPanel.classList.remove('open');
           toggleBtn.classList.remove('active');
           toggleBtn.style.left = '10px';
+          showSiblings();
         }
         card.classList.remove('visible');
       }

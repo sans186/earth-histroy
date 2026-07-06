@@ -1,0 +1,904 @@
+{
+  "warId": "cuban_revolution",
+  "name": "古巴革命",
+  "nameEn": "Cuban Revolution",
+  "alternativeNames": [
+    "古巴独立战争"
+  ],
+  "startYear": 1953,
+  "endYear": 1959,
+  "type": "major",
+  "category": "内战",
+  "theaters": [
+    "古巴"
+  ],
+  "summary": "菲德尔·卡斯特罗领导的革命武装推翻巴蒂斯塔独裁统治的革命战争。",
+  "background": {
+    "causes": "巴蒂斯塔独裁统治腐败，社会不公，经济依赖美国，贫富差距巨大",
+    "immediateCause": "1953年7月26日蒙卡达兵营袭击失败，卡斯特罗被捕后流亡墨西哥",
+    "preWarSituation": "古巴处于巴蒂斯塔军事独裁统治下，美国资本控制经济命脉，社会矛盾尖锐",
+    "objectivesA": "推翻巴蒂斯塔独裁统治，建立独立自主的古巴，进行社会改革",
+    "objectivesB": "维护巴蒂斯塔政权，保持与美国的经济联系，镇压反对派",
+    "precedingConflicts": []
+  },
+  "belligerents": {
+    "sideA": {
+      "name": "革命武装力量",
+      "nameEn": "Revolutionary Armed Forces",
+      "countries": [
+        {
+          "name": "古巴革命者",
+          "entryYear": 1953,
+          "exitYear": 1959
+        }
+      ],
+      "commanders": [
+        {
+          "name": "菲德尔·卡斯特罗",
+          "role": "革命总司令",
+          "bio": "革命领袖，律师出身，1953年领导蒙卡达兵营袭击失败后被捕，流亡墨西哥后返回古巴领导游击战"
+        },
+        {
+          "name": "切·格瓦拉",
+          "role": "游击队指挥官",
+          "bio": "阿根廷医生，革命家，卡斯特罗的亲密战友，负责指挥重要战役"
+        },
+        {
+          "name": "卡米洛·西恩富戈斯",
+          "role": "游击队指挥官",
+          "bio": "革命家，负责指挥对圣克拉拉市的决定性战役"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "菲德尔·卡斯特罗",
+          "role": "革命领袖",
+          "bio": "革命政治领袖，1959年革命胜利后成为古巴总理"
+        },
+        {
+          "name": "切·格瓦拉",
+          "role": "经济部长",
+          "bio": "革命胜利后担任古巴国家银行行长和工业部长"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "志愿兵制",
+        "organization": "游击队编制，以小分队形式活动",
+        "logistics": "依靠农村支持，缴获政府军装备"
+      },
+      "preWarStrength": {
+        "army": "约2000人",
+        "navy": "无",
+        "airForce": "无",
+        "armor": "无",
+        "specialForces": "约200人",
+        "reserves": "约1000人"
+      },
+      "equipment": [
+        {
+          "name": "步枪",
+          "quantity": "约1000支",
+          "description": "主要为缴获的政府军武器和从国外走私的武器"
+        },
+        {
+          "name": "手榴弹",
+          "quantity": "约500枚",
+          "description": "自制和缴获的武器"
+        },
+        {
+          "name": "迫击炮",
+          "quantity": "约10门",
+          "description": "缴获的政府军武器"
+        }
+      ],
+      "industrialCapacity": "几乎无工业生产能力，依靠缴获和外援",
+      "economicStrength": "经济基础薄弱，依靠农村支持",
+      "totalCasualties": {
+        "dead": "约2000人",
+        "wounded": "约3000人",
+        "captured": "约500人",
+        "missing": "约100人",
+        "civilian": "约5000人"
+      },
+      "warCrimes": [],
+      "propaganda": {
+        "slogans": [
+          "自由古巴“、”打倒独裁“、”土地归农民"
+        ],
+        "themes": [
+          "民族独立“、”社会正义“、”反美帝国主义"
+        ],
+        "methods": [
+          "农村宣传、散发传单、利用广播电台"
+        ]
+      }
+    },
+    "sideB": {
+      "name": "巴蒂斯塔政府军",
+      "nameEn": "Batista Government Forces",
+      "countries": [
+        {
+          "name": "古巴政府",
+          "entryYear": 1953,
+          "exitYear": 1959
+        }
+      ],
+      "commanders": [
+        {
+          "name": "富尔亨西奥·巴蒂斯塔",
+          "role": "古巴总统",
+          "bio": "前独裁者，1944年下台后通过1952年政变重新上台，实行独裁统治"
+        },
+        {
+          "name": "孔特·巴卡迪",
+          "role": "军队指挥官",
+          "bio": "政府军高级将领，负责镇压革命活动"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "富尔亨西奥·巴蒂斯塔",
+          "role": "古巴总统",
+          "bio": "古巴独裁者，得到美国支持，统治期间腐败严重"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "征兵制",
+        "organization": "正规军编制，有陆军、海军和空军",
+        "logistics": "依靠美国援助，装备精良"
+      },
+      "preWarStrength": {
+        "army": "约4万人",
+        "navy": "约3000人",
+        "airForce": "约2500人",
+        "armor": "约50辆坦克",
+        "specialForces": "约2000人",
+        "reserves": "约1万人"
+      },
+      "equipment": [
+        {
+          "name": "M1加兰德步枪",
+          "quantity": "约2万支",
+          "description": "美国援助的标准步兵武器"
+        },
+        {
+          "name": "坦克",
+          "quantity": "约50辆",
+          "description": "主要为美制轻型坦克"
+        },
+        {
+          "name": "战斗机",
+          "quantity": "约30架",
+          "description": "美制B-26轰炸机和F-86战斗机"
+        }
+      ],
+      "industrialCapacity": "有限的军事工业，主要依赖进口",
+      "economicStrength": "经济基础较好，但腐败严重，财富分配不均",
+      "totalCasualties": {
+        "dead": "约4000人",
+        "wounded": "约6000人",
+        "captured": "约3000人",
+        "missing": "约500人",
+        "civilian": "约5000人"
+      },
+      "warCrimes": [
+        "对平民的屠杀“,\n        ”酷刑“,\n        ”任意逮捕"
+      ],
+      "propaganda": {
+        "slogans": [
+          "稳定与繁荣“、”反共“、”亲美"
+        ],
+        "themes": [
+          "反共产主义“、”经济发展“、”社会秩序"
+        ],
+        "methods": [
+          "政府媒体宣传、压制反对声音"
+        ]
+      }
+    }
+  },
+  "neutralParties": [
+    {
+      "name": "美国",
+      "nameEn": "United States",
+      "stance": "初期支持巴蒂斯塔，后转为中立"
+    },
+    {
+      "name": "苏联",
+      "nameEn": "Soviet Union",
+      "stance": "暗中支持革命者，但未直接军事介入"
+    }
+  ],
+  "outcome": {
+    "result": "革命武装胜利，巴蒂斯塔政权被推翻",
+    "victoryAnalysis": {
+      "winnerFactors": "革命者得到农村广泛支持，游击战术有效，政府军士气低落，腐败严重",
+      "loserFactors": "政府军装备虽好但士气低落，指挥不力，失去民心，美国最终放弃支持"
+    },
+    "treaty": {
+      "name": "无正式条约",
+      "date": "1959年1月1日",
+      "content": "巴蒂斯塔政权垮台，革命武装接管政府"
+    },
+    "territorialChanges": "古巴完全独立，结束美国经济控制",
+    "economicCost": "经济基础设施受损，美国资本撤离",
+    "demographicImpact": "约1万人死亡，大量精英阶层移民国外"
+  },
+  "legacy": {
+    "significance": "拉丁美洲革命的重要里程碑，导致古巴成为社会主义国家，影响整个拉美地区",
+    "immediateConsequences": "古巴实行土地改革，美国关系恶化，古巴转向苏联阵营",
+    "longTermImpact": {
+      "political": "建立社会主义政权，与美国长期对立",
+      "military": "古巴军队现代化，参与国际冲突",
+      "economic": "实行计划经济，依赖苏联援助",
+      "social": "医疗和教育系统改革，社会不平等减少"
+    },
+    "culturalLegacy": {
+      "memorials": [
+        "革命广场“、”蒙卡达兵营纪念馆"
+      ],
+      "observances": [
+        "革命胜利日（1月1日）"
+      ],
+      "media": [
+        "切·格瓦拉传记电影“、”摩托车日记"
+      ]
+    }
+  },
+  "tags": {
+    "warfareType": [
+      "游击战“, ”内战"
+    ],
+    "geopolitical": [
+      "冷战“, ”美苏对抗"
+    ],
+    "scale": "regional",
+    "cause": [
+      "政治“, ”经济“, ”社会"
+    ]
+  },
+  "relatedWars": [
+    "古巴导弹危机“,\n    ”安哥拉内战“,\n    ”尼加拉瓜革命"
+  ],
+  "sources": [
+    "《古巴革命史》“,\n    ”《切·格瓦拉传》“,\n    ”《菲德尔·卡斯特罗传记》"
+  ],
+  "warProcess": {
+    "phases": [
+      {
+        "name": "战争初期",
+        "nameEn": "Early Phase",
+        "startYear": 1953,
+        "endYear": 1955,
+        "summary": "古巴革命战争初期阶段，主要从1953年7月26日卡斯特罗发动蒙卡达兵失败开始，到1955年卡斯特罗等人获释并流亡墨西哥结束。这一阶段主要是革命力量的组织、小规模武装斗争和战略撤退。",
+        "battles": [
+          {
+            "battleId": "moncada_attack",
+            "name": "蒙卡达兵营袭击",
+            "nameEn": "Moncada Barracks Attack",
+            "startYear": 1953,
+            "endYear": 1953,
+            "coords": [
+              -80.0208,
+              20.0167
+            ],
+            "theater": "古巴东部",
+            "context": "菲德尔·卡斯特罗率领约160名革命者试图攻击圣地亚哥的蒙卡达兵营，旨在推翻巴蒂斯塔政权。",
+            "description": "1953年7月26日，菲德尔·卡斯特罗率领约160名革命者对圣地亚哥的蒙卡达兵营发动袭击。由于计划不周和兵力悬殊，袭击迅速失败。大部分袭击者被俘或被杀，卡斯特罗等人被捕。这次失败虽然军事上不成功，但激发了古巴人民的反政府情绪，成为革命的重要象征。",
+            "result": "革命者惨败，卡斯特罗等人被捕",
+            "significance": "虽然军事失败，但成为古巴革命的象征，卡斯特罗在审判中发表的《历史将宣判我无罪》演讲成为革命宣言",
+            "casualties": {
+              "sideA": "约20人死亡",
+              "sideB": "约19人死亡"
+            },
+            "forces": {
+              "sideA": "约160名革命者",
+              "sideB": "约1000名政府军"
+            },
+            "commanders": [
+              {
+                "name": "菲德尔·卡斯特罗",
+                "role": "革命领袖",
+                "side": "sideA"
+              },
+              {
+                "name": "阿尔韦托·巴伊纳",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "富尔亨西奥·巴蒂斯塔",
+                "role": "古巴总统",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "granma_landing",
+            "name": "格拉玛号登陆",
+            "nameEn": "Granma Landing",
+            "startYear": 1956,
+            "endYear": 1956,
+            "coords": [
+              -77.5,
+              20
+            ],
+            "theater": "古巴东南部",
+            "context": "卡斯特罗等革命者从墨西哥乘格拉玛号返回古巴，试图继续革命斗争。",
+            "description": "1956年11月25日，菲德尔·卡斯特罗等82名革命者乘坐游艇格拉玛号从墨西哥出发，于12月2日在古巴东南部的Playa Colorada登陆。由于导航错误和政府军拦截，登陆后立即陷入困境，大部分人在初期战斗中牺牲或被俘。幸存的12人，包括卡斯特罗、切·格瓦拉和劳尔·卡斯特罗，逃入马埃斯特腊山区，开始了游击战争。",
+            "result": "革命者登陆后立即陷入困境，大部分人员损失",
+            "significance": "标志着古巴革命武装斗争的新阶段，幸存者在马埃斯特腊山区建立了革命根据地",
+            "casualties": {
+              "sideA": "约70人伤亡或被俘",
+              "sideB": "约20名政府军死亡"
+            },
+            "forces": {
+              "sideA": "82名革命者",
+              "sideB": "政府军部队"
+            },
+            "commanders": [
+              {
+                "name": "菲德尔·卡斯特罗",
+                "role": "革命领袖",
+                "side": "sideA"
+              },
+              {
+                "name": "切·格瓦拉",
+                "role": "革命者",
+                "side": "sideA"
+              },
+              {
+                "name": "劳尔·卡斯特罗",
+                "role": "革命者",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "la_guerra_de_los_pinos",
+            "name": "松树战争",
+            "nameEn": "War of the Pines",
+            "startYear": 1957,
+            "endYear": 1957,
+            "coords": [
+              -76.5,
+              20.5
+            ],
+            "theater": "马埃斯特腊山区",
+            "context": "革命游击队在马埃斯特腊山区与政府军展开的初期游击战。",
+            "description": "1957年初，卡斯特罗领导的革命游击队在马埃斯特腊山区与政府军展开了一系列小规模战斗，被称为松树战争。革命军利用山区地形优势，采用游击战术，不断袭扰政府军补给线和哨所。虽然规模不大，但这些战斗锻炼了革命军队，扩大了他们在山区的影响力，并开始获得当地农民的支持。",
+            "result": "革命军成功在山区站稳脚跟，建立了根据地",
+            "significance": "革命军从最初的溃败到建立根据地，为后续发展奠定基础",
+            "casualties": {
+              "sideA": "约20人",
+              "sideB": "约50人"
+            },
+            "forces": {
+              "sideA": "约20名革命者",
+              "sideB": "约200名政府军"
+            },
+            "commanders": [
+              {
+                "name": "菲德尔·卡斯特罗",
+                "role": "革命领袖",
+                "side": "sideA"
+              },
+              {
+                "name": "切·格瓦拉",
+                "role": "革命者",
+                "side": "sideA"
+              },
+              {
+                "name": "埃维亚将军",
+                "role": "政府军指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_alegría_de_pío",
+            "name": "阿莱格里亚德皮奥战役",
+            "nameEn": "Battle of Alegria de Pío",
+            "startYear": 1956,
+            "endYear": 1956,
+            "coords": [
+              -82.5,
+              22.5
+            ],
+            "theater": "古巴西部",
+            "context": "格拉玛号幸存者在前往马埃斯特腊山区途中与政府军的遭遇战。",
+            "description": "1956年12月5日，格拉玛号幸存者在前往马埃斯特腊山区的途中，在阿莱格里亚德皮奥地区与政府军遭遇。这是革命者登陆后首次大规模战斗，革命军因缺乏训练和装备而惨败，仅剩约15人突围。切·格瓦拉在战斗中胸部中弹，但因随身携带的雪茄盒挡住了子弹而幸存。这次战斗使革命力量遭受重大损失，但也坚定了幸存者继续斗争的决心。",
+            "result": "革命军惨败，仅少数人突围",
+            "significance": "虽然失败，但革命军幸存者成功到达马埃斯特腊山区，开始了游击战争",
+            "casualties": {
+              "sideA": "约60人伤亡或被俘",
+              "sideB": "约20名政府军死亡"
+            },
+            "forces": {
+              "sideA": "约60名革命者",
+              "sideB": "约200名政府军"
+            },
+            "commanders": [
+              {
+                "name": "菲德尔·卡斯特罗",
+                "role": "革命领袖",
+                "side": "sideA"
+              },
+              {
+                "name": "切·格瓦拉",
+                "role": "革命者",
+                "side": "sideA"
+              },
+              {
+                "name": "政府军指挥官",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "first_battle_of_pino_del_agua",
+            "name": "皮诺德尔阿瓜第一次战斗",
+            "nameEn": "First Battle of Pino del Agua",
+            "startYear": 1957,
+            "endYear": 1957,
+            "coords": [
+              -76,
+              20.3
+            ],
+            "theater": "马埃斯特腊山区",
+            "context": "革命游击队在山区建立的第一个根据地附近的战斗。",
+            "description": "1957年中期，革命游击队在马埃斯特腊山区建立了第一个根据地皮诺德尔阿瓜。政府军试图摧毁这个根据地，发动了第一次进攻。革命军利用地形优势，设置了伏击圈，成功击退了政府军的进攻。这是革命军首次取得战术胜利，缴获了武器和补给，大大提升了士气。这次胜利也吸引了更多农民加入革命队伍。",
+            "result": "革命军成功击退政府军进攻",
+            "significance": "革命军首次取得战术胜利，巩固了山区根据地，扩大了影响力",
+            "casualties": {
+              "sideA": "约5人",
+              "sideB": "约20人"
+            },
+            "forces": {
+              "sideA": "约25名革命者",
+              "sideB": "约100名政府军"
+            },
+            "commanders": [
+              {
+                "name": "菲德尔·卡斯特罗",
+                "role": "革命领袖",
+                "side": "sideA"
+              },
+              {
+                "name": "切·格瓦拉",
+                "role": "革命者",
+                "side": "sideA"
+              },
+              {
+                "name": "政府军指挥官",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争中期",
+        "nameEn": "Middle Phase",
+        "startYear": 1955,
+        "endYear": 1958,
+        "summary": "古巴革命战争中期，菲德尔·卡斯特罗领导的起义军从山区游击战逐步转向有组织的军事行动，扩大了控制区域，并开始对巴蒂斯塔政府军构成实质性威胁。",
+        "battles": [
+          {
+            "battleId": "la_rebelion_continua",
+            "name": "起义持续行动",
+            "nameEn": "La Rebelión Continúa",
+            "startYear": 1955,
+            "endYear": 1957,
+            "coords": [
+              -80,
+              21.5
+            ],
+            "theater": "马埃斯特腊山区",
+            "context": "起义军在马埃斯特腊山区巩固根据地，同时派遣小分队到其他地区开展游击活动，扩大革命影响力。",
+            "description": "卡斯特罗领导的起义军在马埃斯特腊山区建立了稳固的根据地，同时派遣小分队到古巴其他地区开展游击活动。这一时期，起义军采取打了就走的战术，不断袭扰政府军，同时争取当地农民支持，队伍逐渐壮大。政府军多次围剿均未能奏效，起义军的声望不断提高。",
+            "result": "起义军成功扩大控制区域，队伍从最初的几十人发展到数百人，并在全国范围内建立了支持网络。",
+            "significance": "起义军从最初的失败中恢复，建立了稳固的根据地，为后续的军事行动奠定了基础，同时提高了革命在全国的影响力。",
+            "casualties": {
+              "sideA": "约100人",
+              "sideB": "约300人"
+            },
+            "forces": {
+              "sideA": "约200人",
+              "sideB": "约2000人"
+            },
+            "commanders": [
+              {
+                "name": "菲德尔·卡斯特罗",
+                "role": "起义军总司令",
+                "side": "sideA"
+              },
+              {
+                "name": "切·格瓦拉",
+                "role": "起义军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "富尔亨西奥·巴蒂斯塔",
+                "role": "古巴总统",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_uya",
+            "name": "乌亚战役",
+            "nameEn": "Battle of Uya",
+            "startYear": 1957,
+            "endYear": 1957,
+            "coords": [
+              -76,
+              20.8
+            ],
+            "theater": "奥尔金省",
+            "context": "起义军试图扩大革命影响，向马埃斯特腊山区以外的地区发展，选择了政府军防守较弱的奥尔金省作为目标。",
+            "description": "1957年，卡斯特罗派遣一支由切·格瓦拉率领的起义军小分队离开马埃斯特腊山区，前往奥尔金省开展游击活动。在乌亚地区，起义军与政府军发生激烈交火。格瓦拉指挥的起义军凭借地形优势和灵活战术，成功击退了政府军的进攻，并缴获了大量武器弹药。",
+            "result": "起义军取得胜利，成功扩大了革命影响区域，并获得了急需的武器装备。",
+            "significance": "这是起义军首次在马埃斯特腊山区以外取得胜利，证明了革命思想的传播和起义军作战能力的提升，增强了全国其他地区人民对革命的信心。",
+            "casualties": {
+              "sideA": "约15人",
+              "sideB": "约50人"
+            },
+            "forces": {
+              "sideA": "约25人",
+              "sideB": "约100人"
+            },
+            "commanders": [
+              {
+                "name": "切·格瓦拉",
+                "role": "起义军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "卡洛斯·贝内特",
+                "role": "政府军指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_pino_del_agua",
+            "name": "皮诺德尔阿瓜战役",
+            "nameEn": "Battle of Pino del Agua",
+            "startYear": 1958,
+            "endYear": 1958,
+            "coords": [
+              -76.2,
+              20.9
+            ],
+            "theater": "奥尔金省",
+            "context": "起义军在奥尔金省的活动日益频繁，政府军决定派遣增援部队围剿起义军，双方在皮诺德尔阿瓜地区发生冲突。",
+            "description": "1958年初，政府军增派部队到奥尔金省，试图围剿格瓦拉领导的起义军。在皮诺德尔阿瓜地区，双方展开激烈战斗。起义军利用地形优势，设置了伏击圈，当政府军进入伏击圈后，起义军突然发动攻击，造成政府军重大伤亡。战斗持续了数天，最终政府军被迫撤退。",
+            "result": "起义军取得决定性胜利，缴获大量武器和物资，进一步巩固了在奥尔金省的地位。",
+            "significance": "此役标志着起义军已经具备与政府军正规部队抗衡的能力，为后续向中部省份进军奠定了基础，也切断了政府军对马埃斯特腊山区的补给线。",
+            "casualties": {
+              "sideA": "约20人",
+              "sideB": "约120人"
+            },
+            "forces": {
+              "sideA": "约60人",
+              "sideB": "约300人"
+            },
+            "commanders": [
+              {
+                "name": "切·格瓦拉",
+                "role": "起义军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "阿里斯蒂德斯·费尔南德斯",
+                "role": "政府军指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_plataea",
+            "name": "普拉亚战役",
+            "nameEn": "Battle of Plataea",
+            "startYear": 1958,
+            "endYear": 1958,
+            "coords": [
+              -77.5,
+              21.5
+            ],
+            "theater": "拉斯维利亚斯省",
+            "context": "起义军决定向中部省份扩展，卡斯特罗亲自率领一支队伍离开马埃斯特腊山区，目标是与格瓦拉在奥尔金省的起义军会师，并扩大革命区域。",
+            "description": "1958年中期，卡斯特罗率领起义军主力离开马埃斯特腊山区，向拉斯维利亚斯省进军。政府军察觉到起义军的意图，在普拉亚地区设下埋伏。双方展开激烈战斗，起义军凭借顽强意志和灵活战术，最终突破政府军的防线，成功与格瓦拉领导的起义军会师。",
+            "result": "起义军成功会师，控制了古巴中部大片地区，革命力量得到极大增强。",
+            "significance": "此役是起义军从游击战向运动战转变的关键战役，起义军控制了古巴中部地区，切断了政府军对东部的控制，为最终进攻哈瓦那创造了条件。",
+            "casualties": {
+              "sideA": "约30人",
+              "sideB": "约80人"
+            },
+            "forces": {
+              "sideA": "约300人",
+              "sideB": "约500人"
+            },
+            "commanders": [
+              {
+                "name": "菲德尔·卡斯特罗",
+                "role": "起义军总司令",
+                "side": "sideA"
+              },
+              {
+                "name": "埃瓦里斯托·莫拉莱斯",
+                "role": "政府军指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_yaguajay",
+            "name": "亚瓜海战役",
+            "nameEn": "Battle of Yaguajay",
+            "startYear": 1958,
+            "endYear": 1958,
+            "coords": [
+              -79.3,
+              22.8
+            ],
+            "theater": "比亚克拉拉省",
+            "context": "起义军控制中部地区后，决定向古巴北部海岸推进，目标是切断政府军的海上补给线，并为最终进攻哈瓦那做准备。",
+            "description": "1958年底，格瓦拉率领起义军向比亚克拉拉省的亚瓜海地区推进。政府军在亚瓜海的重要港口驻扎了精锐部队，试图阻止起义军北上。格瓦拉指挥起义军对政府军据点展开围攻，经过数天激烈战斗，起义军最终攻占亚瓜海，切断了政府军的海上补给线。",
+            "result": "起义军成功占领亚瓜海，控制了北部海岸线，为进攻哈瓦那创造了有利条件。",
+            "significance": "此役是起义军战争中期的重要胜利，切断了政府军的海上补给，使政府军在古巴中部和北部陷入孤立，为起义军最终取得胜利奠定了基础。",
+            "casualties": {
+              "sideA": "约25人",
+              "sideB": "约100人"
+            },
+            "forces": {
+              "sideA": "约300人",
+              "sideB": "约400人"
+            },
+            "commanders": [
+              {
+                "name": "切·格瓦拉",
+                "role": "起义军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "阿尔维托·德拉卡马",
+                "role": "政府军指挥官",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争后期",
+        "nameEn": "Late War",
+        "startYear": 1958,
+        "endYear": 1959,
+        "summary": "古巴革命战争后期，菲德尔·卡斯特罗领导的起义军从山区向平原地区推进，最终推翻巴蒂斯塔独裁政权，取得革命胜利。",
+        "battles": [
+          {
+            "battleId": "maestra_campaign",
+            "name": "马埃斯特腊山战役",
+            "nameEn": "Maestra Campaign",
+            "startYear": 1958,
+            "endYear": 1958,
+            "coords": [
+              -76.3,
+              20.1
+            ],
+            "theater": "古巴东部山区",
+            "context": "起义军从山区根据地向平原地区发起的战略进攻",
+            "description": "1958年7月，卡斯特罗指挥起义军向马埃斯特腊山周边地区发起进攻。起义军采取游击战术，逐步扩大控制区域，切断了巴蒂斯塔军队在古巴东部的补给线。经过数周战斗，起义军控制了整个山区，为向平原地区进军奠定了基础。",
+            "result": "起义军获胜，控制马埃斯特腊山及周边地区",
+            "significance": "标志着起义军从防御转向进攻，为最终胜利奠定基础",
+            "casualties": {
+              "sideA": "约200人",
+              "sideB": "约500人"
+            },
+            "forces": {
+              "sideA": "约800人",
+              "sideB": "约2000人"
+            },
+            "commanders": [
+              {
+                "name": "菲德尔·卡斯特罗",
+                "role": "起义军总司令",
+                "side": "sideA"
+              },
+              {
+                "name": "胡安·奥尔金",
+                "role": "起义军指挥官",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "las_villas_campaign",
+            "name": "拉斯维利亚斯战役",
+            "nameEn": "Las Villas Campaign",
+            "startYear": 1958,
+            "endYear": 1958,
+            "coords": [
+              -79.3,
+              21.9
+            ],
+            "theater": "古巴中部",
+            "context": "起义军向古巴中部省份拉斯维利亚斯推进的关键战役",
+            "description": "1958年12月，起义军向中部省份拉斯维利亚斯发起进攻。切·格瓦拉指挥的部队在圣克拉拉市与政府军展开激战。起义军切断连接哈瓦那和圣地亚哥的中央铁路，导致政府军补给线中断。经过激烈战斗，起义军占领圣克拉拉市，并向首都哈瓦那推进。",
+            "result": "起义军获胜，占领圣克拉拉市",
+            "significance": "切断了政府军的主要补给线，动摇了巴蒂斯塔政权的统治",
+            "casualties": {
+              "sideA": "约150人",
+              "sideB": "约300人"
+            },
+            "forces": {
+              "sideA": "约400人",
+              "sideB": "约1500人"
+            },
+            "commanders": [
+              {
+                "name": "切·格瓦拉",
+                "role": "起义军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "费尔南多·塔瓦雷斯",
+                "role": "政府军指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "santa_clara",
+            "name": "圣克拉拉战役",
+            "nameEn": "Battle of Santa Clara",
+            "startYear": 1958,
+            "endYear": 1958,
+            "coords": [
+              -79.9,
+              22
+            ],
+            "theater": "古巴中部",
+            "context": "起义军占领中部重要城市圣克拉拉的决定性战斗",
+            "description": "1958年12月21日至31日，切·格瓦拉指挥的起义军与政府军在圣克拉拉市展开激战。起义军利用装甲列车作为移动堡垒，与政府军展开巷战。经过10天战斗，起义军成功俘虏政府军指挥官，控制了整个城市。此战切断了哈瓦那与南方的联系，迫使巴蒂斯塔于次年1月1日逃离古巴。",
+            "result": "起义军获胜，占领圣克拉拉市",
+            "significance": "直接导致巴蒂斯塔政权崩溃，加速了革命胜利",
+            "casualties": {
+              "sideA": "约50人",
+              "sideB": "约150人"
+            },
+            "forces": {
+              "sideA": "约300人",
+              "sideB": "约800人"
+            },
+            "commanders": [
+              {
+                "name": "切·格瓦拉",
+                "role": "起义军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "佩里·罗德里格斯",
+                "role": "政府军指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "havana_revolution",
+            "name": "哈瓦那革命",
+            "nameEn": "Havana Revolution",
+            "startYear": 1959,
+            "endYear": 1959,
+            "coords": [
+              -82.4,
+              23.1
+            ],
+            "theater": "古巴首都",
+            "context": "巴蒂斯塔政权崩溃后，起义军进入首都哈瓦那",
+            "description": "1959年1月1日，巴蒂斯塔逃离古巴后，起义军于1月2日进入首都哈瓦那。卡斯特罗从圣地亚哥北上，于1月8日抵达哈瓦那，受到民众热烈欢迎。起义军未遇抵抗，顺利接管首都，标志着古巴革命取得最终胜利。新政府开始组建，卡斯特罗成为古巴领导人。",
+            "result": "起义军和平接管哈瓦那",
+            "significance": "古巴革命胜利，新政府成立",
+            "casualties": {
+              "sideA": "约10人",
+              "sideB": "约50人"
+            },
+            "forces": {
+              "sideA": "约3000人",
+              "sideB": "约1000人"
+            },
+            "commanders": [
+              {
+                "name": "菲德尔·卡斯特罗",
+                "role": "起义军总司令",
+                "side": "sideA"
+              },
+              {
+                "name": "胡安·阿尔梅达",
+                "role": "起义军指挥官",
+                "side": "sideA"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "majorBattles": []
+  },
+  "timeline": [
+    {
+      "year": 1953,
+      "event": "蒙卡达袭击",
+      "type": "crisis",
+      "description": "菲德尔·卡斯特罗率领约160名革命者袭击古巴圣地亚哥的蒙卡达兵营，试图推翻巴蒂斯塔政权",
+      "impact": "袭击失败，卡斯特罗被捕，但这一事件成为古巴革命的象征，激发了反巴蒂斯塔运动的兴起"
+    },
+    {
+      "year": 1955,
+      "event": "卡斯特罗获释",
+      "type": "diplomacy",
+      "description": "巴蒂斯塔特赦政治犯，卡斯特罗获释后前往墨西哥，在那里组建了“七二六运动”组织",
+      "impact": "卡斯特罗得以重新组织革命力量，为后来的古巴远征军奠定基础"
+    },
+    {
+      "year": 1956,
+      "event": "格拉玛号远征",
+      "type": "crisis",
+      "description": "卡斯特罗等82名革命者乘坐格拉玛号游艇从墨西哥出发，在古巴东部登陆",
+      "impact": "登陆后遭遇政府军伏击，幸存者包括卡斯特罗、切·格瓦拉等12人，随后进入马埃斯特腊山区开展游击战"
+    },
+    {
+      "year": 1957,
+      "type": "crisis",
+      "event": "马埃斯特腊山区游击战",
+      "description": "革命军在马埃斯特腊山区建立根据地，开展游击战，袭击政府军和甘蔗种植园",
+      "impact": "逐渐扩大控制区域，获得农民支持，革命力量不断壮大，开始影响全国局势"
+    },
+    {
+      "year": 1958,
+      "type": "decision",
+      "event": "总罢工",
+      "description": "卡斯特罗宣布全国总罢工，要求巴蒂斯塔下台",
+      "impact": "罢工导致古巴经济瘫痪，政府军士气低落，革命军趁机扩大控制区域，加速了巴蒂斯塔政权的崩溃"
+    },
+    {
+      "year": 1959,
+      "event": "菲德尔·卡斯特罗进入哈瓦那",
+      "type": "leadership",
+      "description": "「菲德尔·卡斯特罗领导的革命军成功推翻巴蒂斯塔政权，进入首都哈瓦那，标志着古巴革命的胜利」",
+      "impact": "「结束了古巴的独裁统治，卡斯特罗开始掌权，开启古巴社会主义革命时期」"
+    },
+    {
+      "year": 1960,
+      "event": "古巴与美国关系恶化",
+      "type": "diplomacy",
+      "description": "「卡斯特罗政府开始实施土地改革和国有化政策，没收美国在古巴的财产，导致美古关系急剧恶化」",
+      "impact": "「美国开始对古巴实施经济制裁，两国关系走向敌对，为后来的古巴导弹危机埋下伏笔」"
+    },
+    {
+      "year": 1961,
+      "event": "猪湾入侵事件",
+      "type": "crisis",
+      "description": "「美国中央情报局支持的古巴流亡分子在猪湾登陆，试图推翻卡斯特罗政府，但以失败告终」",
+      "impact": "「入侵失败使卡斯特罗更加坚定地与苏联结盟，加速了古巴向社会主义阵营靠拢」"
+    },
+    {
+      "year": 1962,
+      "event": "古巴导弹危机",
+      "type": "crisis",
+      "description": "「苏联在古巴部署导弹，引发美苏之间的严重对峙，世界一度处于核战争的边缘」",
+      "impact": "「危机后美苏达成秘密协议，苏联撤走导弹，美国承诺不入侵古巴，但两国关系长期紧张」"
+    },
+    {
+      "year": 1965,
+      "event": "古巴共产党正式成立",
+      "type": "decision",
+      "description": "「卡斯特罗宣布古巴是社会主义国家，古巴共产党成为唯一合法政党，古巴完全走上社会主义道路」",
+      "impact": "「古巴政治体制彻底改变，成为西半球第一个社会主义国家，长期处于美国的封锁和孤立中」"
+    }
+  ]
+}

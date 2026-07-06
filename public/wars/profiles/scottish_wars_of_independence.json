@@ -1,0 +1,1057 @@
+{
+  "warId": "scottish_wars_of_independence",
+  "name": "苏格兰独立战争",
+  "nameEn": "Scottish Wars of Independence",
+  "alternativeNames": [
+    "苏格兰独立战争"
+  ],
+  "startYear": 1296,
+  "endYear": 1357,
+  "type": "major",
+  "category": "独立战争",
+  "theaters": [
+    "苏格兰"
+  ],
+  "summary": "苏格兰人民为反抗英格兰统治、争取民族独立而进行的长期战争。",
+  "background": {
+    "causes": "英格兰长期觊觎苏格兰，两国因领土争端、王位继承问题和民族矛盾不断激化",
+    "immediateCause": "英格兰国王爱德华一世试图干涉苏格兰王位继承，扶植傀儡国王",
+    "preWarSituation": "苏格兰处于分裂状态，英格兰势力强大，苏格兰王位继承权存在争议",
+    "objectivesA": "英格兰吞并苏格兰，将其纳入英格兰版图，消除北方威胁",
+    "objectivesB": "摆脱英格兰统治，恢复苏格兰独立主权，维护民族尊严",
+    "precedingConflicts": [
+      "苏格兰-英格兰边境冲突"
+    ]
+  },
+  "belligerents": {
+    "sideA": {
+      "name": "英格兰",
+      "nameEn": "England",
+      "countries": [
+        {
+          "name": "英格兰王国",
+          "entryYear": 1296,
+          "exitYear": 1357
+        }
+      ],
+      "commanders": [
+        {
+          "name": "爱德华一世",
+          "role": "国王",
+          "bio": "英格兰国王，被称为'苏格兰锤子'，多次入侵苏格兰"
+        },
+        {
+          "name": "爱德华二世",
+          "role": "国王",
+          "bio": "爱德华一世之子，在班诺克本战役中惨败"
+        },
+        {
+          "name": "爱德华三世",
+          "role": "国王",
+          "bio": "爱德华二世之子，后期与苏格兰签订和约"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "爱德华一世",
+          "role": "英格兰国王",
+          "bio": "推行扩张政策，试图征服苏格兰"
+        },
+        {
+          "name": "爱德华二世",
+          "role": "英格兰国王",
+          "bio": "军事能力较弱，在苏格兰战场上屡次失败"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "封建征兵制与雇佣兵结合",
+        "organization": "以骑士为核心的封建军队",
+        "logistics": "依靠英格兰本土补给，远程作战后勤困难"
+      },
+      "preWarStrength": {
+        "army": "约3万人",
+        "navy": "较强",
+        "airForce": "无",
+        "armor": "重装骑兵优势",
+        "specialForces": "长弓手",
+        "reserves": "有限"
+      },
+      "equipment": [
+        {
+          "name": "长弓",
+          "quantity": "大量",
+          "description": "英格兰长弓手在战场上具有射程优势"
+        },
+        {
+          "name": "重装骑兵",
+          "quantity": "数千",
+          "description": "英格兰传统优势兵种"
+        },
+        {
+          "name": "攻城器械",
+          "quantity": "多",
+          "description": "用于攻占苏格兰城堡"
+        }
+      ],
+      "industrialCapacity": "较强，能够制造先进武器装备",
+      "economicStrength": "强大，为长期战争提供支持",
+      "totalCasualties": {
+        "dead": "约1万人",
+        "wounded": "约2万人",
+        "captured": "数千人",
+        "missing": "未知",
+        "civilian": "大量"
+      },
+      "warCrimes": [
+        "屠杀苏格兰平民“, ”破坏苏格兰乡村"
+      ],
+      "propaganda": {
+        "slogans": [
+          "苏格兰是英格兰的一部分“, ”野蛮的苏格兰人需要文明教化"
+        ],
+        "themes": [
+          "文明征服野蛮“, ”王权神授"
+        ],
+        "methods": [
+          "宣传画册“, ”教会布道"
+        ]
+      }
+    },
+    "sideB": {
+      "name": "苏格兰",
+      "nameEn": "Scotland",
+      "countries": [
+        {
+          "name": "苏格兰王国",
+          "entryYear": 1296,
+          "exitYear": 1357
+        }
+      ],
+      "commanders": [
+        {
+          "name": "威廉·华莱士",
+          "role": "起义领袖",
+          "bio": "苏格兰民族英雄，斯特灵桥战役大败英军"
+        },
+        {
+          "name": "罗伯特·布鲁斯",
+          "role": "国王",
+          "bio": "苏格兰国王，班诺克本战役大败英军，最终赢得独立"
+        },
+        {
+          "name": "安德鲁·莫雷",
+          "role": "将领",
+          "bio": "斯特灵桥战役与华莱士共同指挥"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "约翰·巴利奥尔",
+          "role": "傀儡国王",
+          "bio": "被英格兰扶植的苏格兰国王，后被废黜"
+        },
+        {
+          "name": "罗伯特·布鲁斯",
+          "role": "苏格兰国王",
+          "bio": "领导苏格兰长期抵抗，最终赢得独立"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "民兵与志愿兵结合",
+        "organization": "以氏族为基础的军队",
+        "logistics": "依靠本土补给，熟悉地形优势"
+      },
+      "preWarStrength": {
+        "army": "约1万人",
+        "navy": "弱",
+        "airForce": "无",
+        "armor": "轻装步兵为主",
+        "specialForces": "高地步兵",
+        "reserves": "有限"
+      },
+      "equipment": [
+        {
+          "name": "长矛",
+          "quantity": "大量",
+          "description": "苏格兰步兵主要武器，适合方阵作战"
+        },
+        {
+          "name": "剑",
+          "quantity": "中等",
+          "description": "贵族和军官武器"
+        },
+        {
+          "name": "标枪",
+          "quantity": "大量",
+          "description": "远程武器"
+        }
+      ],
+      "industrialCapacity": "较弱，武器主要依靠进口和缴获",
+      "economicStrength": "较弱，战争资源有限",
+      "totalCasualties": {
+        "dead": "约8千人",
+        "wounded": "约1.5万人",
+        "captured": "数千人",
+        "missing": "未知",
+        "civilian": "大量"
+      },
+      "warCrimes": [],
+      "propaganda": {
+        "slogans": [
+          "自由或死亡“, ”苏格兰独立万岁"
+        ],
+        "themes": [
+          "民族独立“, ”反抗压迫"
+        ],
+        "methods": [
+          "民间歌谣“, ”口头传颂"
+        ]
+      }
+    }
+  },
+  "neutralParties": [
+    "法国“, ”挪威"
+  ],
+  "outcome": {
+    "result": "苏格兰赢得事实独立，但未完全解决边界问题",
+    "victoryAnalysis": {
+      "winnerFactors": "苏格兰人民顽强抵抗，熟悉地形，罗伯特·布鲁斯有效游击战术，法国提供支持",
+      "loserFactors": "英格兰远程作战困难，内部政治不稳定，低估苏格兰抵抗意志"
+    },
+    "treaty": {
+      "name": "伯威克条约",
+      "date": "1357年",
+      "content": "英格兰承认苏格兰独立，苏格兰支付战争赔款，释放被俘的英格兰贵族"
+    },
+    "territorialChanges": "苏格兰保持独立地位，边界基本维持战前状态",
+    "economicCost": "苏格兰经济遭受严重破坏，英格兰战争开支巨大",
+    "demographicImpact": "苏格兰人口减少约15%，边境地区人口流失严重"
+  },
+  "legacy": {
+    "significance": "确立了苏格兰民族认同，成为苏格兰民族主义象征，影响后世苏格兰政治发展",
+    "immediateConsequences": "苏格兰获得事实独立，但两国关系长期紧张",
+    "longTermImpact": {
+      "political": "促进苏格兰民族国家形成，影响英苏关系数百年",
+      "military": "开创游击战成功先例，影响欧洲军事战术发展",
+      "economic": "苏格兰经济恢复缓慢，但促进了本土手工业发展",
+      "social": "强化苏格兰民族意识，形成独特文化认同"
+    },
+    "culturalLegacy": {
+      "memorials": [
+        "华莱士国家纪念碑“, ”班诺克古战场"
+      ],
+      "observances": [
+        "独立日纪念活动"
+      ],
+      "media": [
+        "勇敢的心电影“, ”苏格兰民间诗歌"
+      ]
+    }
+  },
+  "tags": {
+    "warfareType": [
+      "游击战“, ”民族解放战争"
+    ],
+    "geopolitical": [
+      "英伦三岛“, ”欧洲"
+    ],
+    "scale": "regional",
+    "cause": [
+      "民族自决“, ”领土争端"
+    ]
+  },
+  "relatedWars": [
+    "英格兰内战“, ”苏格兰宗教战争"
+  ],
+  "sources": [
+    "《苏格兰史》, T.C. Smout",
+    "《华莱士与布鲁斯》, Rosalind Mitchison",
+    "《苏格兰独立战争档案》, Barrow"
+  ],
+  "warProcess": {
+    "phases": [
+      {
+        "name": "早期战役",
+        "nameEn": "Early Battles",
+        "startYear": 1296,
+        "endYear": 1314,
+        "summary": "苏格兰独立战争初期阶段，英格兰军队入侵苏格兰，苏格兰人民在威廉·华莱士和罗伯特·布鲁斯的领导下展开抵抗。",
+        "battles": [
+          {
+            "battleId": "battle-of-dunbar",
+            "name": "邓巴战役",
+            "nameEn": "Battle of Dunbar",
+            "startYear": 1296,
+            "endYear": 1296,
+            "coords": [
+              -2.5,
+              56
+            ],
+            "theater": "东苏格兰",
+            "context": "英格兰国王爱德华一世入侵苏格兰，试图镇压苏格兰叛乱并确立英格兰统治。",
+            "description": "英格兰军队在邓巴堡附近击败苏格兰军队。苏格兰军队组织混乱，被英格兰骑兵轻易击溃。华莱士虽未直接参战，但此战激发了苏格兰人的反抗情绪。",
+            "result": "英格兰决定性胜利",
+            "significance": "苏格兰军队主力被摧毁，爱德华一世短暂控制苏格兰大部分地区。",
+            "casualties": {
+              "sideA": "约100人",
+              "sideB": "约10,000人"
+            },
+            "forces": {
+              "sideA": "约2,000名英格兰士兵",
+              "sideB": "约16,000名苏格兰士兵"
+            },
+            "commanders": [
+              {
+                "name": "爱德华一世",
+                "role": "英格兰国王",
+                "side": "sideA"
+              },
+              {
+                "name": "约翰·巴利奥尔",
+                "role": "苏格兰国王",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-stirling-bridge",
+            "name": "斯特灵桥战役",
+            "nameEn": "Battle of Stirling Bridge",
+            "startYear": 1297,
+            "endYear": 1297,
+            "coords": [
+              -3.9,
+              56.1
+            ],
+            "theater": "斯特灵地区",
+            "context": "威廉·华莱士成为苏格兰反抗运动的领袖，组织军队对抗英格兰占领军。",
+            "description": "华莱士率领的苏格兰军队在斯特灵桥附近伏击英格兰军队。英格兰军队被迫狭窄的桥上通过，遭受重大损失。苏格兰军队利用地形优势，击败了英格兰主力部队。",
+            "result": "苏格兰决定性胜利",
+            "significance": "苏格兰取得重大胜利，暂时夺回苏格兰南部控制权，威廉·华莱士被任命为苏格兰护国公。",
+            "casualties": {
+              "sideA": "约2,000人",
+              "sideB": "约100人"
+            },
+            "forces": {
+              "sideA": "约9,000名英格兰士兵",
+              "sideB": "约2,300名苏格兰士兵"
+            },
+            "commanders": [
+              {
+                "name": "威廉·华莱士",
+                "role": "苏格兰起义军领袖",
+                "side": "sideB"
+              },
+              {
+                "name": "约翰·沃勒夫",
+                "role": "英格兰指挥官",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-falkirk",
+            "name": "福尔柯克战役",
+            "nameEn": "Battle of Falkirk",
+            "startYear": 1298,
+            "endYear": 1298,
+            "coords": [
+              -3.8,
+              55.95
+            ],
+            "theater": "福尔柯克地区",
+            "context": "爱德华一世率军返回苏格兰，决心镇压苏格兰起义并报复斯特灵桥的失败。",
+            "description": "英格兰长弓手和骑兵协同作战，击败了苏格兰军队。华莱士的军队组织混乱，骑兵被英格兰骑兵击溃，步兵被长弓手射杀。苏格兰军队遭受重大损失，被迫撤退。",
+            "result": "英格兰决定性胜利",
+            "significance": "苏格兰军队遭受重创，威廉·华莱士辞去护国公职务。爱德华一世重新控制苏格兰大部分地区，但未能彻底消灭反抗力量。",
+            "casualties": {
+              "sideA": "约200人",
+              "sideB": "约1,000人"
+            },
+            "forces": {
+              "sideA": "约11,000名英格兰士兵",
+              "sideB": "约6,000名苏格兰士兵"
+            },
+            "commanders": [
+              {
+                "name": "爱德华一世",
+                "role": "英格兰国王",
+                "side": "sideA"
+              },
+              {
+                "name": "威廉·华莱士",
+                "role": "苏格兰起义军领袖",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-methven",
+            "name": "梅森战役",
+            "nameEn": "Battle of Methven",
+            "startYear": 1306,
+            "endYear": 1306,
+            "coords": [
+              -3.5,
+              56.4
+            ],
+            "theater": "珀斯郡",
+            "context": "罗伯特·布鲁斯加冕为苏格兰国王，开始领导反抗英格兰的斗争。",
+            "description": "罗伯特·布鲁斯的军队在梅森遭到英格兰军队的突袭。布鲁斯措手不及，军队被打散，他本人被迫逃亡。这是布鲁斯早期反抗的严重挫折。",
+            "result": "英格兰决定性胜利",
+            "significance": "布鲁斯的早期起义被镇压，他被迫转入地下活动。此战显示了英格兰在苏格兰的军事优势，但未能彻底消灭布鲁斯的抵抗力量。",
+            "casualties": {
+              "sideA": "约100人",
+              "sideB": "约约200人"
+            },
+            "forces": {
+              "sideA": "约3,000名英格兰士兵",
+              "sideB": "约4,000名苏格兰士兵"
+            },
+            "commanders": [
+              {
+                "name": "艾默·德·瓦伦",
+                "role": "英格兰指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "罗伯特·布鲁斯",
+                "role": "苏格兰国王",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-loudoun-hill",
+            "name": "劳登山战役",
+            "nameEn": "Battle of Loudoun Hill",
+            "startYear": 1307,
+            "endYear": 1307,
+            "coords": [
+              -4,
+              55.6
+            ],
+            "theater": "东艾尔郡",
+            "context": "罗伯特·布鲁斯从流亡中返回，重新组织反抗力量，采取游击战术对抗英格兰军队。",
+            "description": "布鲁斯选择在劳登山的有利地形设伏，利用狭窄的山谷限制英格兰骑兵的机动性。苏格兰军队击败了英格兰军队，取得了重要的战术胜利。",
+            "result": "苏格兰战术胜利",
+            "significance": "这是布鲁斯早期的重要胜利，展示了他的军事才能。此战鼓舞了苏格兰人的士气，为后续的胜利奠定了基础。布鲁斯开始采取更有效的游击战术对抗英格兰军队。",
+            "casualties": {
+              "sideA": "约200人",
+              "sideB": "约约30人"
+            },
+            "forces": {
+              "sideA": "约1,800名英格兰士兵",
+              "sideB": "约600名苏格兰士兵"
+            },
+            "commanders": [
+              {
+                "name": "艾默·德·瓦伦",
+                "role": "英格兰指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "罗伯特·布鲁斯",
+                "role": "苏格兰国王",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "中期战役",
+        "nameEn": "Middle Phase",
+        "startYear": 1314,
+        "endYear": 1333,
+        "summary": "苏格兰独立战争中期阶段，罗伯特·布鲁斯领导下的苏格兰军队取得了一系列关键胜利，巩固了苏格兰的独立地位。",
+        "battles": [
+          {
+            "battleId": "bannockburn",
+            "name": "班诺克本战役",
+            "nameEn": "Battle of Bannockburn",
+            "startYear": 1314,
+            "endYear": 1314,
+            "coords": [
+              -4.2715,
+              55.9769
+            ],
+            "theater": "苏格兰中部",
+            "context": "英格兰国王爱德华二世试图重新确立对苏格兰的统治",
+            "description": "罗伯特·布鲁斯率领的苏格兰军队在班诺克本附近击败英格兰军队。苏格兰军队利用地形优势，以少胜多，重创英格兰主力。此战是苏格兰独立战争的决定性战役，确立了罗伯特·布鲁斯的领导地位。",
+            "result": "苏格兰决定性胜利",
+            "significance": "确保了苏格兰的独立地位，使罗伯特·布鲁斯成为苏格兰国王",
+            "casualties": {
+              "sideA": "约100人",
+              "sideB": "约约10,000人"
+            },
+            "forces": {
+              "sideA": "约6,000-8,000人",
+              "sideB": "约20,000人"
+            },
+            "commanders": [
+              {
+                "name": "罗伯特·布鲁斯",
+                "role": "苏格兰国王",
+                "side": "sideA"
+              },
+              {
+                "name": "爱德华二世",
+                "role": "英格兰国王",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "medway",
+            "name": "梅德韦战役",
+            "nameEn": "Battle of Medway",
+            "startYear": 1317,
+            "endYear": 1317,
+            "coords": [
+              0.5,
+              51.4
+            ],
+            "theater": "英格兰东南部",
+            "context": "苏格兰军队入侵英格兰北部和中部地区进行报复",
+            "description": "苏格兰军队在詹姆斯·道格拉斯爵士的领导下，穿越英格兰边境，袭击肯特郡。苏格兰军队成功袭击了多座城镇和修道院，获取了大量战利品，并安全返回苏格兰。",
+            "result": "苏格兰战术胜利",
+            "significance": "展示了苏格兰军队的机动性和打击能力，进一步削弱了英格兰在边境地区的控制",
+            "casualties": {
+              "sideA": "约50人",
+              "sideB": "约数百人"
+            },
+            "forces": {
+              "sideA": "约600人",
+              "sideB": "约数千人"
+            },
+            "commanders": [
+              {
+                "name": "詹姆斯·道格拉斯",
+                "role": "苏格兰骑士",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "stanhope_park",
+            "name": "斯坦霍普公园战役",
+            "nameEn": "Battle of Stanhope Park",
+            "startYear": 1327,
+            "endYear": 1327,
+            "coords": [
+              -2.2,
+              54.9
+            ],
+            "theater": "英格兰北部",
+            "context": "英格兰内部政治动荡，爱德华三世年幼，由其母亲伊莎贝拉和情人莫蒂默摄政",
+            "description": "苏格兰军队在詹姆斯·道格拉斯爵士和托马斯·兰道夫伯爵的领导下，突袭英格兰北部。苏格兰军队在斯坦霍普公园伏击并击败了一支英格兰军队，随后继续深入英格兰境内进行掠夺。",
+            "result": "苏格兰决定性胜利",
+            "significance": "进一步削弱了英格兰的军事力量，迫使英格兰寻求和平",
+            "casualties": {
+              "sideA": "约数十人",
+              "sideB": "约数百人"
+            },
+            "forces": {
+              "sideA": "约1,000人",
+              "sideB": "约2,000人"
+            },
+            "commanders": [
+              {
+                "name": "詹姆斯·道格拉斯",
+                "role": "苏格兰骑士",
+                "side": "sideA"
+              },
+              {
+                "name": "托马斯·兰道夫",
+                "role": "苏格兰伯爵",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "berwick",
+            "name": "贝里克战役",
+            "nameEn": "Battle of Berwick",
+            "startYear": 1333,
+            "endYear": 1333,
+            "coords": [
+              -2.46,
+              55.96
+            ],
+            "theater": "苏格兰东部",
+            "context": "爱德华三世即位后试图重新征服苏格兰",
+            "description": "英格兰军队在爱德华三世亲自指挥下围攻并夺取了苏格兰边境重镇贝里克。苏格兰军队试图解围但被击败，贝里克落入英格兰手中。此战标志着英格兰对苏格兰新一轮入侵的开始。",
+            "result": "英格兰决定性胜利",
+            "significance": "英格兰重新获得对苏格兰边境地区的控制，苏格兰独立战争进入新的阶段",
+            "casualties": {
+              "sideA": "约数百人",
+              "sideB": "约数千人"
+            },
+            "forces": {
+              "sideA": "约10,000人",
+              "sideB": "约约2,000人"
+            },
+            "commanders": [
+              {
+                "name": "爱德华三世",
+                "role": "英格兰国王",
+                "side": "sideA"
+              },
+              {
+                "name": "阿奇博尔德·道格拉斯",
+                "role": "摄政",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "转折战役",
+        "nameEn": "Turning Point Battles",
+        "startYear": 1314,
+        "endYear": 1333,
+        "summary": "苏格兰独立战争中的关键转折点，这些战役改变了战争走向，使苏格兰从劣势逐渐转为优势，最终走向独立。",
+        "battles": [
+          {
+            "battleId": "bannockburn",
+            "name": "班诺克本战役",
+            "nameEn": "Battle of Bannockburn",
+            "startYear": 1314,
+            "endYear": 1314,
+            "coords": [
+              -3.9333,
+              56
+            ],
+            "theater": "苏格兰中部",
+            "context": "罗伯特·布鲁斯领导的苏格兰军队与爱德华二世率领的英格兰军队在斯特灵城堡附近展开的决定性战役。",
+            "description": "罗伯特·布鲁斯利用地形优势，以少胜多，击败了英格兰主力部队。苏格兰军队采用长矛方阵战术，有效对抗了英格兰骑兵的冲击。此战使苏格兰重获独立，布鲁斯被加冕为罗伯特一世。",
+            "result": "苏格兰胜利",
+            "significance": "苏格兰独立战争的转折点，确立了苏格兰的独立地位，使爱德华二世被迫承认苏格兰独立。",
+            "casualties": {
+              "sideA": "约100人",
+              "sideB": "约10,000人"
+            },
+            "forces": {
+              "sideA": "约6,000-8,000人",
+              "sideB": "约15,000-20,000人"
+            },
+            "commanders": [
+              {
+                "name": "罗伯特·布鲁斯",
+                "role": "苏格兰国王",
+                "side": "sideA"
+              },
+              {
+                "name": "爱德华二世",
+                "role": "英格兰国王",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "old_byland",
+            "name": "老比兰战役",
+            "nameEn": "Battle of Old Byland",
+            "startYear": 1322,
+            "endYear": 1322,
+            "coords": [
+              -1.2,
+              54.3
+            ],
+            "theater": "约克郡",
+            "context": "苏格兰军队入侵英格兰北部，与爱德华二世的军队在约克郡附近遭遇。",
+            "description": "苏格兰军队采用机动战术，突袭英格兰军队营地。爱德华二世措手不及，几乎被俘。苏格兰军队取得决定性胜利，进一步巩固了独立地位。",
+            "result": "苏格兰胜利",
+            "significance": "苏格兰军队深入英格兰腹地取胜，迫使英格兰再次承认苏格兰独立，巩固了班诺克本战役的成果。",
+            "casualties": {
+              "sideA": "约200人",
+              "sideB": "约几千人"
+            },
+            "forces": {
+              "sideA": "约5,000-6,000人",
+              "sideB": "约10,000人"
+            },
+            "commanders": [
+              {
+                "name": "詹姆斯·道格拉斯",
+                "role": "苏格兰将领",
+                "side": "sideA"
+              },
+              {
+                "name": "爱德华二世",
+                "role": "英格兰国王",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "stanhope_park",
+            "name": "斯坦霍普公园战役",
+            "nameEn": "Battle of Stanhope Park",
+            "startYear": 1327,
+            "endYear": 1327,
+            "coords": [
+              -2.2,
+              54.9
+            ],
+            "theater": "达勒姆郡",
+            "context": "苏格兰军队入侵英格兰北部，与摄政王莫蒂默和年轻的爱德华三世的军队交战。",
+            "description": "苏格兰军队采用游击战术，突袭英格兰军队营地。英格兰军队措手不及，损失惨重。苏格兰军队再次取得胜利，进一步巩固了独立地位。",
+            "result": "苏格兰胜利",
+            "significance": "苏格兰军队再次深入英格兰腹地取胜，迫使英格兰签订《爱丁堡-北安普顿条约》，正式承认苏格兰独立。",
+            "casualties": {
+              "sideA": "约100人",
+              "sideB": "约几千人"
+            },
+            "forces": {
+              "sideA": "约4,000-5,000人",
+              "sideB": "约8,000-10,000人"
+            },
+            "commanders": [
+              {
+                "name": "安德鲁·默里",
+                "role": "苏格兰将领",
+                "side": "sideA"
+              },
+              {
+                "name": "爱德华三世",
+                "role": "英格兰国王",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "halidon_hill",
+            "name": "哈利顿山战役",
+            "nameEn": "Battle of Halidon Hill",
+            "startYear": 1333,
+            "endYear": 1333,
+            "coords": [
+              -3,
+              55.9
+            ],
+            "theater": "苏格兰东部",
+            "context": "爱德华三世率领英格兰军队试图重新征服苏格兰，围攻贝里克镇。",
+            "description": "英格兰军队采用长弓战术，从高处向苏格兰军队射击。苏格兰军队损失惨重，指挥官阿奇博尔德·道格拉斯战死。此战使苏格兰陷入困境，独立战争一度受挫。",
+            "result": "英格兰胜利",
+            "significance": "英格兰军队取得重大胜利，使苏格兰独立战争陷入低谷，但最终苏格兰人民在罗伯特二世的领导下继续抵抗。",
+            "casualties": {
+              "sideA": "约几千人",
+              "sideB": "约约500人"
+            },
+            "forces": {
+              "sideA": "约12,000-15,000人",
+              "sideB": "约8,000-10,000人"
+            },
+            "commanders": [
+              {
+                "name": "爱德华三世",
+                "role": "英格兰国王",
+                "side": "sideA"
+              },
+              {
+                "name": "阿奇博尔德·道格拉斯",
+                "role": "摄政王",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "后期战役",
+        "nameEn": "Later Phase",
+        "startYear": 1314,
+        "endYear": 1357,
+        "summary": "苏格兰独立战争后期阶段，罗伯特·布鲁斯领导下的苏格兰军队取得了一系列决定性胜利，最终迫使英格兰承认苏格兰独立。",
+        "battles": [
+          {
+            "battleId": "bannockburn",
+            "name": "班诺克本战役",
+            "nameEn": "Battle of Bannockburn",
+            "startYear": 1314,
+            "endYear": 1314,
+            "coords": [
+              -3.9333,
+              56
+            ],
+            "theater": "苏格兰中部",
+            "context": "罗伯特·布鲁斯在斯特灵城堡围困期间，面对英格兰爱德华二世的援军。",
+            "description": "罗伯特·布鲁斯巧妙利用地形，以少胜多。苏格兰军队采用长矛方阵战术，击败了英格兰的重骑兵部队。此战是苏格兰独立战争的转折点，使布鲁斯巩固了对苏格兰的控制。",
+            "result": "苏格兰决定性胜利",
+            "significance": "确立了罗伯特·布鲁斯作为苏格兰国王的地位，极大提升了苏格兰的士气，为后续独立战争奠定基础。",
+            "casualties": {
+              "sideA": "约100人",
+              "sideB": "约10,000人"
+            },
+            "forces": {
+              "sideA": "约6,000-10,000人",
+              "sideB": "约15,000-20,000人"
+            },
+            "commanders": [
+              {
+                "name": "罗伯特·布鲁斯",
+                "role": "苏格兰国王",
+                "side": "sideA"
+              },
+              {
+                "name": "爱德华二世",
+                "role": "英格兰国王",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "byland",
+            "name": "拜兰战役",
+            "nameEn": "Battle of Byland",
+            "startYear": 1322,
+            "endYear": 1322,
+            "coords": [
+              -1.1,
+              54.3
+            ],
+            "theater": "约克郡",
+            "context": "罗伯特·布鲁斯入侵英格兰北部，报复英格兰对苏格兰的袭击。",
+            "description": "苏格兰骑兵采用机动战术，突袭英格兰军队。英格兰军队措手不及，溃不成军。爱德华二世本人险些被俘，被迫撤退。此战进一步巩固了苏格兰的独立地位。",
+            "result": "苏格兰决定性胜利",
+            "significance": "迫使英格兰承认无法通过军事手段征服苏格兰，为后来的《爱丁堡-北安普顿条约》铺平道路。",
+            "casualties": {
+              "sideA": "约100人",
+              "sideB": "约几千人"
+            },
+            "forces": {
+              "sideA": "约6,000人",
+              "sideB": "约3,000人"
+            },
+            "commanders": [
+              {
+                "name": "罗伯特·布鲁斯",
+                "role": "苏格兰国王",
+                "side": "sideA"
+              },
+              {
+                "name": "爱德华二世",
+                "role": "英格兰国王",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "dupplin_moore",
+            "name": "杜普林穆尔战役",
+            "nameEn": "Battle of Dupplin Moor",
+            "startYear": 1332,
+            "endYear": 1332,
+            "coords": [
+              -3.9,
+              56.2
+            ],
+            "theater": "苏格兰中部",
+            "context": "爱德华·巴里奥在英格兰支持下，试图夺取苏格兰王位。",
+            "description": "苏格兰军队数量占优但指挥混乱，被英格兰-苏格兰流亡者联军击败。苏格兰国王大卫二世被废黜，爱德华·巴里奥短暂成为苏格兰国王。此战是第二次苏格兰独立战争的开始。",
+            "result": "英格兰-流亡者联军胜利",
+            "significance": "导致苏格兰陷入内战，为英格兰干预提供了机会，但最终未能阻止苏格兰恢复独立。",
+            "casualties": {
+              "sideA": "约2,000人",
+              "sideB": "约几百人"
+            },
+            "forces": {
+              "sideA": "约15,000人",
+              "sideB": "约1,500人"
+            },
+            "commanders": [
+              {
+                "name": "唐纳德·马尔",
+                "role": "苏格兰摄政",
+                "side": "sideA"
+              },
+              {
+                "name": "爱德华·巴里奥",
+                "role": "英格兰支持的苏格兰王位宣称者",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "neil_s_tower",
+            "name": "尼尔塔战役",
+            "nameEn": "Battle of Neville's Cross",
+            "startYear": 1346,
+            "endYear": 1346,
+            "coords": [
+              -1.6,
+              54.9
+            ],
+            "theater": "达勒姆郡",
+            "context": "罗伯特·布鲁斯去世后，苏格兰军队入侵英格兰北部，试图减轻法国在百年战争中的压力。",
+            "description": "英格兰军队在数量上处于劣势，但凭借坚固的防御和弓箭手优势，击败了苏格兰军队。苏格兰国王大卫二世被俘，苏格兰陷入危机。然而，苏格兰最终通过外交手段渡过难关。",
+            "result": "英格兰胜利",
+            "significance": "导致苏格兰国王被俘，但未能摧毁苏格兰的独立意志，最终通过《伯威克条约》结束战争。",
+            "casualties": {
+              "sideA": "约7,000人",
+              "sideB": "约约100人"
+            },
+            "forces": {
+              "sideA": "约12,000人",
+              "sideB": "约6,000-12,000人"
+            },
+            "commanders": [
+              {
+                "name": "威廉·茨府爵士",
+                "role": "英格兰指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "大卫二世",
+                "role": "苏格兰国王",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "berwick_treaty",
+            "name": "《伯威克条约》签订",
+            "nameEn": "Treaty of Berwick",
+            "startYear": 1357,
+            "endYear": 1357,
+            "coords": [
+              -2,
+              55.96
+            ],
+            "theater": "外交",
+            "context": "经过数十年的战争，双方最终达成和平协议。",
+            "description": "《伯威克条约》正式结束了苏格兰独立战争。英格兰承认苏格兰独立，大卫二世获释。苏格兰需支付巨额赎金，但保留了政治独立。此条约标志着苏格兰独立战争的结束和苏格兰作为独立国家的确立。",
+            "result": "和平协议",
+            "significance": "正式承认苏格兰的独立地位，结束了长达数十年的战争，确立了苏格兰作为主权国家的地位。",
+            "casualties": {
+              "sideA": "无",
+              "sideB": "无"
+            },
+            "forces": {
+              "sideA": "外交代表团",
+              "sideB": "外交代表团"
+            },
+            "commanders": [
+              {
+                "name": "爱德华三世",
+                "role": "英格兰国王",
+                "side": "sideA"
+              },
+              {
+                "name": "大卫二世",
+                "role": "苏格兰国王",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "majorBattles": [],
+    "cognitiveWarfare": {
+      "psyOps": [
+        "英格兰利用骑士荣誉感宣传苏格兰人为「野蛮人」和「叛乱者」“,\n    ”苏格兰通过威廉·华莱士等英雄形象塑造民族抵抗叙事“,\n    ”英格兰王室散布苏格兰贵族合作可获得特权的谣言“,\n    ”苏格兰传播英格兰军队暴行以激发民众抵抗意志“,\n    ”双方均利用宗教宣传，将冲突神圣化为上帝意志的体现"
+      ],
+      "propagandaComparison": "英格兰宣传强调王权神授与国家统一，将苏格兰独立运动描绘为对合法权威的挑战，利用骑士文化优势塑造文明征服野蛮的叙事。苏格兰则通过民间歌谣和英雄传说构建民族认同，将英格兰描述为压迫者和侵略者，强调自由与独立的价值。英格兰宣传更具系统性，利用教会和贵族网络传播；苏格兰则依赖口头传统和地方领袖，虽覆盖面较窄但情感共鸣更强。双方均利用边境地区的文化混融现象进行宣传战，争夺民心。",
+      "collaborationists": [
+        "约翰·科明（苏格兰亲英贵族）“,\n    ”罗伯特·布鲁斯初期（曾向英格兰宣誓效忠）“,\n    ”苏格兰部分教会高层“,\n    ”边境地区的「骑马民族」(Riders the Marches)"
+      ],
+      "informationWarfare": "英格兰利用其更发达的行政系统控制信息传播，通过王室公告和教会渠道塑造官方叙事。苏格兰则依靠游击战中的信息优势，利用地形隐蔽和快速机动传递情报。双方均通过控制边境要道和城堡来阻断对方信息流通。苏格兰情报网络主要依赖地方氏族和民间支持者，而英格兰则依靠间谍系统和贿赂获取情报。战争后期，苏格兰成功利用法国盟友获得国际舆论支持，改变了信息战格局。"
+    },
+    "economics": {
+      "resourceDependency": {
+        "sideA": {
+          "summary": "英格兰王国依赖英格兰中部和南部地区的农业产出，以及从佛兰德地区进口的羊毛。战争期间，英格兰加强了税收体系，通过羊毛出口税和土地税增加战争资金。同时，英格兰控制了海上贸易路线，确保资源供应，但也面临苏格兰游击战对边境地区的经济破坏。"
+        },
+        "sideB": {
+          "summary": "苏格兰王国高度依赖本地农业和畜牧业，但战争导致耕地荒废和牲畜损失。苏格兰依靠山地游击战减少资源消耗，并通过与法国的盟约获得有限援助。苏格兰贵族通过劫掠英格兰边境补充资源，但长期战争导致苏格兰经济基础严重受损，人口减少，农业生产能力下降。"
+        }
+      },
+      "foreignAid": [
+        {
+          "from": "法国",
+          "to": "苏格兰",
+          "program": "爱丁堡条约援助",
+          "content": "法国向苏格兰提供军事顾问、武器装备和财政援助，以对抗英格兰，作为两国军事同盟的一部分"
+        },
+        {
+          "from": "教皇",
+          "to": "苏格兰",
+          "program": "宗教援助",
+          "content": "教皇提供精神支持和有限的财政援助，承认苏格兰的独立诉求，并对英格兰实施宗教制裁"
+        }
+      ],
+      "warBudget": "战争总开支估算：英格兰王国战争开支约为每年王国收入的30-40%，总计超过200万英镑（按当时价值计算），主要用于维持常备军、城堡建设和边境防御。苏格兰战争开支约为其年收入的50-60%，主要通过劫掠、税收和法国援助筹集，总计约50万英镑。",
+      "economicDisruption": "战争导致苏格兰边境地区农业生产力下降40%，城镇贸易减少60%。英格兰北部地区也遭受严重破坏，羊毛产业受损。苏格兰人口减少约20%，大量劳动力损失或逃亡。货币体系混乱，苏格兰货币贬值严重。战争结束后，两国经济恢复缓慢，苏格兰直到16世纪才恢复到战前经济水平。"
+    },
+    "geography": {
+      "keyObstacles": [
+        {
+          "name": "「高地与低地地形差异」",
+          "description": "苏格兰高地崎岖多山，提供了游击战的天然屏障，而低地相对平坦有利于英格兰军队机动，这种地形差异导致苏格兰难以形成统一战线，战争呈现南北割据状态。"
+        },
+        {
+          "name": "「边境沼泽与森林」",
+          "description": "英格兰-苏格兰边境地区遍布沼泽和茂密森林，成为双方军队行进和补给的重大障碍，限制了大规模军队的调动，也促进了小规模突袭和伏击战术的发展。"
+        },
+        {
+          "name": "「河流与湖泊系统」",
+          "description": "苏格兰境内众多河流和湖泊构成了天然防线，苏格兰军队利用这些水系进行防御和撤退，同时限制了英格兰军队的补给线和追击能力，成为战争中的重要地理因素。"
+        }
+      ],
+      "extremeWeather": [
+        {
+          "year": 1314,
+          "event": "「班诺克本战役暴雨」",
+          "description": "战役前夜的暴雨使英格兰重骑兵陷入泥泞，严重影响了其机动性，为苏格兰军队创造了有利条件，直接影响了这场决定性战役的结果，苏格兰取得重大胜利。"
+        },
+        {
+          "year": 1315,
+          "event": "「大饥荒与严冬」",
+          "description": "连续异常严冬和夏季暴雨导致农作物大面积歉收，引发大饥荒，双方军队都遭受严重非战斗减员，战争资源极度匮乏，迫使双方寻求暂时停战。"
+        }
+      ],
+      "nonCombatLosses": "苏格兰独立战争期间，恶劣的气候条件导致大量非战斗减员，包括严寒、暴雨和洪水造成的疾病与伤亡，高地地区的疟疾和伤寒流行，以及饥荒导致的营养不良，这些都严重削弱了双方军队的战斗力，尤其是苏格兰军队在资源匮乏的情况下损失更为严重。"
+    }
+  },
+  "timeline": [
+    {
+      "year": 1296,
+      "event": "英格兰入侵苏格兰",
+      "type": "crisis",
+      "description": "爱德华一世率领英格兰军队入侵苏格兰，占领了多个重要城镇，包括贝里克和邓迪",
+      "impact": "标志着苏格兰独立战争的开始，苏格兰王国面临被英格兰吞并的威胁"
+    },
+    {
+      "year": 1297,
+      "event": "威廉·华莱士起义",
+      "type": "leadership",
+      "description": "苏格兰民族英雄威廉·华莱士在斯特灵桥战役中击败英格兰军队，成为苏格兰抵抗运动的领袖",
+      "impact": "鼓舞了苏格兰人民的士气，建立了苏格兰独立运动的初步基础"
+    },
+    {
+      "year": 1305,
+      "event": "华莱士被捕处决",
+      "type": "leadership",
+      "description": "威廉·华莱士被英格兰俘虏，在伦敦被处以叛国罪",
+      "impact": "苏格兰抵抗运动暂时受挫，但激发了更多苏格兰人继续反抗英格兰统治"
+    },
+    {
+      "year": 1314,
+      "event": "班诺克本战役",
+      "type": "decision",
+      "description": "罗伯特·布鲁斯在班诺克本战役中击败英格兰军队，夺回爱丁堡城堡",
+      "impact": "苏格兰取得决定性胜利，迫使英格兰承认苏格兰的独立地位"
+    },
+    {
+      "year": 1328,
+      "event": "爱丁堡-北安普顿条约",
+      "type": "diplomacy",
+      "description": "英格兰和苏格兰签署爱丁堡-北安普顿条约，英格兰正式承认苏格兰为独立主权国家",
+      "impact": "结束了第一阶段战争，苏格兰获得独立，但两国关系仍然紧张"
+    }
+  ]
+}

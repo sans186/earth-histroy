@@ -1,0 +1,974 @@
+{
+  "warId": "taiping_rebellion",
+  "name": "太平天国运动",
+  "nameEn": "Taiping Rebellion",
+  "alternativeNames": [
+    "太平天国战争“, ”太平军起义"
+  ],
+  "startYear": 1851,
+  "endYear": 1864,
+  "type": "major",
+  "category": "内战",
+  "theaters": [
+    "中国南方"
+  ],
+  "summary": "清朝咸丰年间爆发的规模空前的农民起义，建立太平天国政权，历时14年。",
+  "background": {
+    "causes": "清朝腐败统治、土地兼并严重、社会矛盾尖锐、自然灾害频发、西方列强入侵",
+    "immediateCause": "洪秀全在广西金田村发动起义，建立太平天国",
+    "preWarSituation": "鸦片战争后清朝国力衰退，社会动荡不安，各地农民起义频发",
+    "objectivesA": "推翻清朝统治，建立“天下一家，共享太平”的理想社会",
+    "objectivesB": "维护清朝统治，镇压叛乱，维护封建秩序",
+    "precedingConflicts": [
+      "白莲教起义“, ”天地会起义"
+    ]
+  },
+  "belligerents": {
+    "sideA": {
+      "name": "太平天国",
+      "nameEn": "Taiping Heavenly Kingdom",
+      "countries": [
+        {
+          "name": "太平天国",
+          "entryYear": 1851,
+          "exitYear": 1864
+        }
+      ],
+      "commanders": [
+        {
+          "name": "洪秀全",
+          "role": "天王",
+          "bio": "太平天国创始人，自称上帝次子"
+        },
+        {
+          "name": "杨秀清",
+          "role": "东王",
+          "bio": "太平天国早期重要领导人，掌握军政大权"
+        },
+        {
+          "name": "萧朝贵",
+          "role": "西王",
+          "bio": "太平天国早期领导人，洪秀全妹夫"
+        },
+        {
+          "name": "冯云山",
+          "role": "南王",
+          "bio": "太平天国早期领导人，组织者"
+        },
+        {
+          "name": "韦昌辉",
+          "role": "北王",
+          "bio": "太平天国早期领导人，天京事变中屠杀杨秀清部众"
+        },
+        {
+          "name": "石达开",
+          "role": "翼王",
+          "bio": "太平天国杰出军事家，后期重要领导人"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "洪秀全",
+          "role": "天王",
+          "bio": "太平天国最高领导人"
+        },
+        {
+          "name": "洪仁玕",
+          "role": "干王",
+          "bio": "后期领导人，提出《资政新篇》"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "征兵制，以农民为主，实行圣库制度",
+        "organization": "军政合一，设立军师旅卒等编制",
+        "logistics": "圣库制度，统一管理物资，实行男女分营"
+      },
+      "preWarStrength": {
+        "army": "约50万人",
+        "navy": "约10万人",
+        "airForce": "无",
+        "armor": "少量火器，以冷兵器为主",
+        "specialForces": "无",
+        "reserves": "约20万人"
+      },
+      "equipment": [
+        {
+          "name": "火枪",
+          "quantity": "约10万支",
+          "description": "多为缴获的清军火器"
+        },
+        {
+          "name": "大炮",
+          "quantity": "约5000门",
+          "description": "多为缴获的清军火炮"
+        },
+        {
+          "name": "冷兵器",
+          "quantity": "约30万件",
+          "description": "刀、矛、剑等传统武器"
+        }
+      ],
+      "industrialCapacity": "有限，主要依靠缴获和民间手工业",
+      "economicStrength": "控制江南富庶地区，实行圣库制度，经济基础相对稳固",
+      "totalCasualties": {
+        "dead": "约100万人",
+        "wounded": "约200万人",
+        "captured": "约50万人",
+        "missing": "约30万人",
+        "civilian": "约2000万人"
+      },
+      "warCrimes": [
+        "天京事变中互相残杀“,\n        ”对清军和平居民的屠杀“,\n        ”破坏儒家文化古迹"
+      ],
+      "propaganda": {
+        "slogans": [
+          "天下一家，共享太平“, ”有田同耕，有饭同食，有衣同穿，有钱同使，无处不均匀，无人不饱暖"
+        ],
+        "themes": [
+          "反清复明“, ”平等平均“, ”宗教救世"
+        ],
+        "methods": "宗教宣传，民间动员，张贴告示"
+      }
+    },
+    "sideB": {
+      "name": "清朝政府",
+      "nameEn": "Qing Government",
+      "countries": [
+        {
+          "name": "清朝",
+          "entryYear": 1851,
+          "exitYear": 1864
+        }
+      ],
+      "commanders": [
+        {
+          "name": "曾国藩",
+          "role": "湘军统帅",
+          "bio": "创建湘军，镇压太平天国的主要将领"
+        },
+        {
+          "name": "李鸿章",
+          "role": "淮军统帅",
+          "bio": "创建淮军，后期镇压太平天国的重要将领"
+        },
+        {
+          "name": "左宗棠",
+          "role": "清军将领",
+          "bio": "率军收复浙江、福建等地"
+        },
+        {
+          "name": "僧格林沁",
+          "role": "蒙古亲王",
+          "bio": "清军将领，在北方战场与太平军作战"
+        },
+        {
+          "name": "和春",
+          "role": "清军将领",
+          "bio": "在江南战场与太平军作战"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "咸丰帝",
+          "role": "皇帝",
+          "bio": "清朝在位皇帝，1850-1861年在位"
+        },
+        {
+          "name": "慈禧太后",
+          "role": "太后",
+          "bio": "垂帘听政，实际掌权者"
+        },
+        {
+          "name": "奕訢",
+          "role": "恭亲王",
+          "bio": "清朝重臣，主持洋务运动"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "八旗、绿营为主，后期组建湘军、淮军等地方武装",
+        "organization": "八旗、绿营、湘军、淮军等多种编制并存",
+        "logistics": "依靠地方财政支持，后期得到西方列强援助"
+      },
+      "preWarStrength": {
+        "army": "约80万人",
+        "navy": "约20万人",
+        "airForce": "无",
+        "armor": "少量火器，以冷兵器为主",
+        "specialForces": "无",
+        "reserves": "约30万人"
+      },
+      "equipment": [
+        {
+          "name": "火枪",
+          "quantity": "约20万支",
+          "description": "多为传统火绳枪和少量燧发枪"
+        },
+        {
+          "name": "大炮",
+          "quantity": "约8000门",
+          "description": "多为传统前装炮"
+        },
+        {
+          "name": "冷兵器",
+          "quantity": "约40万件",
+          "description": "刀、矛、剑等传统武器"
+        }
+      ],
+      "industrialCapacity": "有限，主要依靠传统手工业",
+      "economicStrength": "控制全国大部分地区，经济基础雄厚但财政困难",
+      "totalCasualties": {
+        "dead": "约50万人",
+        "wounded": "约100万人",
+        "captured": "约20万人",
+        "missing": "约10万人",
+        "civilian": "约2000万人"
+      },
+      "warCrimes": [
+        "对太平军和平居民的屠杀“,\n        ”破坏太平天国文化遗迹“,\n        ”地方官吏贪污军饷"
+      ],
+      "propaganda": {
+        "slogans": [
+          "忠君爱国“, ”维护纲常“, ”保卫华夏"
+        ],
+        "themes": [
+          "维护正统“, ”保卫传统文化“, ”抵抗异端邪说"
+        ],
+        "methods": "官方文告，儒家思想宣传，利用地方乡绅"
+      }
+    }
+  },
+  "neutralParties": [
+    {
+      "name": "西方列强",
+      "nameEn": "Western Powers",
+      "stance": "初期观望，后期支持清政府"
+    },
+    {
+      "name": "地方乡绅",
+      "nameEn": "Local Gentry",
+      "stance": "多数支持清政府，少数支持太平天国"
+    }
+  ],
+  "outcome": {
+    "result": "清朝政府最终镇压了太平天国运动，但元气大伤，加速了清朝的衰落",
+    "victoryAnalysis": {
+      "winnerFactors": "控制全国大部分地区，经济基础雄厚，后期得到西方列强军事援助，湘军、淮军等地方武装战斗力强",
+      "loserFactors": "内部分裂（天京事变），战略失误，缺乏统一领导，经济基础薄弱，武器装备落后"
+    },
+    "treaty": {
+      "name": "无正式条约",
+      "date": "1864年",
+      "content": "太平天国覆灭，清朝恢复对江南地区的统治"
+    },
+    "territorialChanges": "清朝重新控制江南富庶地区，太平天国占领区全部回归清朝",
+    "economicCost": "清朝财政严重困难，被迫增加赋税，加速了社会矛盾",
+    "demographicImpact": "造成约3000万人死亡，江南地区人口锐减，大量难民流离失所"
+  },
+  "legacy": {
+    "significance": "中国历史上规模最大的农民起义之一，动摇了清朝统治基础，促进了近代中国变革",
+    "immediateConsequences": "清朝权力下移，地方督抚权力扩大，洋务运动兴起",
+    "longTermImpact": {
+      "political": "加速了清朝灭亡，为辛亥革命创造条件",
+      "military": "推动了军事近代化，湘军、淮军等新型军事力量崛起",
+      "economic": "促进了民族资本主义发展，洋务运动兴起",
+      "social": "冲击了传统儒家思想，促进了社会变革"
+    },
+    "culturalLegacy": {
+      "memorials": [
+        "太平天国历史博物馆“, ”天王府遗址"
+      ],
+      "observances": [
+        "太平天国纪念日"
+      ],
+      "media": [
+        "太平天国小说“, ”太平天国影视剧“, ”太平天国研究著作"
+      ]
+    }
+  },
+  "tags": {
+    "warfareType": [
+      "农民战争“, ”内战“, ”宗教战争"
+    ],
+    "geopolitical": [
+      "中国内战“, ”东亚冲突"
+    ],
+    "scale": "regional",
+    "cause": [
+      "社会矛盾“, ”宗教因素“, ”政治压迫"
+    ]
+  },
+  "relatedWars": [
+    "鸦片战争“, ”捻军起义“, ”第二次鸦片战争“, ”洋务运动"
+  ],
+  "sources": [
+    "《太平天国史》“, ”《曾国藩全集》“, ”《太平天国资料汇编》“, ”《中国近代史》"
+  ],
+  "warProcess": {
+    "phases": [
+      {
+        "name": "战争初期",
+        "nameEn": "Early Phase",
+        "startYear": 1851,
+        "endYear": 1856,
+        "summary": "太平天国运动初期，太平军从广西金田起义出发，迅速发展壮大，一路北上，攻占南京并定都于此，建立了与清朝对峙的政权。这一阶段太平军士气高昂，战术灵活，多次以少胜多，对清朝统治造成巨大冲击。",
+        "battles": [
+          {
+            "battleId": "jintian_uprising",
+            "name": "金田起义",
+            "nameEn": "Jintian Uprising",
+            "startYear": 1851,
+            "endYear": 1851,
+            "coords": [
+              110.3,
+              23.6
+            ],
+            "theater": "广西",
+            "context": "太平天国运动的起点，洪秀全在广西桂平县金田村发动起义，建立太平天国。",
+            "description": "1851年1月11日，洪秀全在广西桂平县金田村发动起义，宣布建立太平天国，自称天王。起义军以拜上帝会为基础，初期约两万余人，迅速击败清军围剿。",
+            "result": "太平军胜利，成功起义并建立政权",
+            "significance": "标志着太平天国运动的正式开始，动摇了清朝在广西的统治",
+            "casualties": {
+              "sideA": "约1000人",
+              "sideB": "约3000人"
+            },
+            "forces": {
+              "sideA": "约2万人",
+              "sideB": "约1万人"
+            },
+            "commanders": [
+              {
+                "name": "洪秀全",
+                "role": "天王",
+                "side": "太平军"
+              },
+              {
+                "name": "杨秀清",
+                "role": "东王",
+                "side": "太平军"
+              },
+              {
+                "name": "萧朝贵",
+                "role": "西王",
+                "side": "太平军"
+              }
+            ]
+          },
+          {
+            "battleId": "yongan_campaign",
+            "name": "永安战役",
+            "nameEn": "Yong'an Campaign",
+            "startYear": 1851,
+            "endYear": 1852,
+            "coords": [
+              110.7,
+              24.2
+            ],
+            "theater": "广西",
+            "context": "太平军从金田起义后，向永安进军，试图建立稳固的根据地。",
+            "description": "1851年9月，太平军攻占永安州（今蒙山县），在此停留半年整军经政，封王建制，确立了太平天国的中央政权机构。清军多次围攻永安均被太平军击退。",
+            "result": "太平军胜利，成功建立根据地并完善政权",
+            "significance": "太平天国政权初步成型，确立了中央领导机构和军事指挥体系",
+            "casualties": {
+              "sideA": "约2000人",
+              "sideB": "约5000人"
+            },
+            "forces": {
+              "sideA": "约3万人",
+              "sideB": "约2万人"
+            },
+            "commanders": [
+              {
+                "name": "洪秀全",
+                "role": "天王",
+                "side": "太平军"
+              },
+              {
+                "name": "冯云山",
+                "role": "南王",
+                "side": "太平军"
+              },
+              {
+                "name": "韦昌辉",
+                "role": "北王",
+                "side": "太平军"
+              }
+            ]
+          },
+          {
+            "battleId": "changsha_siege",
+            "name": "长沙之围",
+            "nameEn": "Siege of Changsha",
+            "startYear": 1852,
+            "endYear": 1852,
+            "coords": [
+              112.9,
+              28.2
+            ],
+            "theater": "湖南",
+            "context": "太平军从广西北上，试图攻占湖南省会长沙，作为进军南京的跳板。",
+            "description": "1852年7月，太平军抵达长沙城下，开始围攻。清军顽强抵抗，太平军多次猛攻未果。期间西王萧朝贵中炮身亡，太平军士气受挫。围攻两个月后，太平军放弃长沙，继续北上。",
+            "result": "清军胜利，成功守住长沙",
+            "significance": "太平军首次遭遇重大挫折，萧朝贵之死对太平军造成重大打击，迫使改变战略方向",
+            "casualties": {
+              "sideA": "约5000人",
+              "sideB": "约3000人"
+            },
+            "forces": {
+              "sideA": "约10万人",
+              "sideB": "约3万人"
+            },
+            "commanders": [
+              {
+                "name": "萧朝贵",
+                "role": "西王",
+                "side": "太平军"
+              },
+              {
+                "name": "曾国藩",
+                "role": "清朝官员",
+                "side": "清军"
+              }
+            ]
+          },
+          {
+            "battleId": "wuchang_capture",
+            "name": "武昌战役",
+            "nameEn": "Capture of Wuchang",
+            "startYear": 1852,
+            "endYear": 1853,
+            "coords": [
+              114.3,
+              30.6
+            ],
+            "theater": "湖北",
+            "context": "太平军放弃长沙后，继续沿长江东进，目标是攻占武昌这一战略要地。",
+            "description": "1852年12月，太平军抵达武昌城下，经过激烈战斗，于1853年1月12日攻占武昌。这是太平军攻占的第一座省会城市，缴获大量军械物资，兵力增至五十余万。",
+            "result": "太平军胜利，成功占领武昌",
+            "significance": "太平军取得重大胜利，极大鼓舞了士气，为东进南京奠定了基础",
+            "casualties": {
+              "sideA": "约3000人",
+              "sideB": "约10000人"
+            },
+            "forces": {
+              "sideA": "约12万人",
+              "sideB": "约3万人"
+            },
+            "commanders": [
+              {
+                "name": "石达开",
+                "role": "翼王",
+                "side": "太平军"
+              },
+              {
+                "name": "罗大纲",
+                "role": "将领",
+                "side": "太平军"
+              },
+              {
+                "name": "青麟",
+                "role": "湖广总督",
+                "side": "清军"
+              }
+            ]
+          },
+          {
+            "battleId": "nanjing_capture",
+            "name": "南京战役",
+            "nameEn": "Capture of Nanjing",
+            "startYear": 1853,
+            "endYear": 1853,
+            "coords": [
+              118.8,
+              32
+            ],
+            "theater": "江苏",
+            "context": "太平军攻占武昌后，顺长江东下，目标是攻占江南重镇南京，并定都于此。",
+            "description": "1853年3月，太平军抵达南京城下，经过激烈战斗，于3月19日攻破外城，次日攻破内城。太平军屠杀大量清军和平民，建立太平天国，定都南京，改称天京。",
+            "result": "太平军胜利，成功占领南京并定都",
+            "significance": "太平天国运动达到鼎盛，建立了与清朝对峙的政权，控制了长江中下游广大地区",
+            "casualties": {
+              "sideA": "约5000人",
+              "sideB": "约数万人",
+              "civilians": "数万人"
+            },
+            "forces": {
+              "sideA": "约30万人",
+              "sideB": "约2万人"
+            },
+            "commanders": [
+              {
+                "name": "杨秀清",
+                "role": "东王",
+                "side": "太平军"
+              },
+              {
+                "name": "韦昌辉",
+                "role": "北王",
+                "side": "太平军"
+              },
+              {
+                "name": "向荣",
+                "role": "钦差大臣",
+                "side": "清军"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争中期",
+        "nameEn": "Middle Phase",
+        "startYear": 1856,
+        "endYear": 1860,
+        "summary": "太平天国战争中期，天京事变后太平军实力大减，清军开始反攻，太平天国逐渐失去战略主动权",
+        "battles": [
+          {
+            "battleId": "nanjing_incident",
+            "name": "天京事变",
+            "nameEn": "Nanking Incident",
+            "startYear": 1856,
+            "endYear": 1856,
+            "coords": [
+              118.79,
+              32.06
+            ],
+            "theater": "天京",
+            "context": "太平天国领导层内讧，东王杨秀清与天王洪秀全矛盾激化",
+            "description": "1856年9月，洪秀全密令韦昌辉、秦日纲等人围攻东王府，杨秀清及其部下被杀。随后石达开返回天京谴责韦昌辉滥杀，洪秀全又令处死韦昌辉。天京事变导致太平天国领导层严重削弱，元气大伤。",
+            "result": "太平天国领导层内讧，杨秀清、韦昌辉等领导人死亡，石达开出走",
+            "significance": "太平天国由盛转折的关键事件，极大削弱了太平军的战斗力和凝聚力",
+            "casualties": {
+              "sideA": "约数万人",
+              "sideB": "约数万人"
+            },
+            "forces": {
+              "sideA": "数万人",
+              "sideB": "数万人"
+            },
+            "commanders": [
+              {
+                "name": "洪秀全",
+                "role": "天王",
+                "side": "sideA"
+              },
+              {
+                "name": "杨秀清",
+                "role": "东王",
+                "side": "sideA"
+              },
+              {
+                "name": "韦昌辉",
+                "role": "北王",
+                "side": "sideA"
+              },
+              {
+                "name": "石达开",
+                "role": "翼王",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "anhui_campaign",
+            "name": "安徽战役",
+            "nameEn": "Anhui Campaign",
+            "startYear": 1858,
+            "endYear": 1860,
+            "coords": [
+              117.28,
+              31.86
+            ],
+            "theater": "安徽",
+            "context": "清军围困太平天国安徽根据地，太平军组织反攻",
+            "description": "1858年至1860年，清军将领曾国藩、李鸿章率军围攻太平天国在安徽的根据地。太平军将领陈玉成、李秀成等组织多次反攻，双方在安徽境内展开激烈战斗。太平军虽取得了一些局部胜利，但整体上逐渐失去对安徽的控制。",
+            "result": "太平军逐渐失去安徽大部分地区，清军控制安徽大部分地区",
+            "significance": "太平天国失去重要根据地，战略态势进一步恶化",
+            "casualties": {
+              "sideA": "约数万人",
+              "sideB": "约数万人"
+            },
+            "forces": {
+              "sideA": "约10万人",
+              "sideB": "约15万人"
+            },
+            "commanders": [
+              {
+                "name": "陈玉成",
+                "role": "前军主将",
+                "side": "sideA"
+              },
+              {
+                "name": "李秀成",
+                "role": "后军主将",
+                "side": "sideA"
+              },
+              {
+                "name": "曾国藩",
+                "role": "钦差大臣",
+                "side": "sideB"
+              },
+              {
+                "name": "李鸿章",
+                "role": "江苏巡抚",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "jiading_battle",
+            "name": "嘉定之战",
+            "nameEn": "Battle of Jiading",
+            "startYear": 1860,
+            "endYear": 1860,
+            "coords": [
+              121.23,
+              31.4
+            ],
+            "theater": "江苏",
+            "context": "太平军试图进攻上海，遭到清军和外国干涉军抵抗",
+            "description": "1860年，太平军将领李秀成率军进攻上海，意图夺取这一重要港口城市。在嘉定等地与清军及由华尔、戈登率领的洋枪队展开激战。太平军虽然一度攻占嘉定，但在外国干涉军的先进武器和战术面前最终败退，未能攻占上海。",
+            "result": "太平军未能攻占上海，被迫撤退",
+            "significance": "太平天国失去获取西方支持和物资的重要机会，外国势力开始直接干预太平天国战争",
+            "casualties": {
+              "sideA": "约1万人",
+              "sideB": "约5000人"
+            },
+            "forces": {
+              "sideA": "约3万人",
+              "sideB": "约1.5万人"
+            },
+            "commanders": [
+              {
+                "name": "李秀成",
+                "role": "后军主将",
+                "side": "sideA"
+              },
+              {
+                "name": "华尔",
+                "role": "洋枪队指挥官",
+                "side": "sideB"
+              },
+              {
+                "name": "戈登",
+                "role": "洋枪队指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "zhenjiang_battle",
+            "name": "镇江之战",
+            "nameEn": "Battle of Zhenjiang",
+            "startYear": 1860,
+            "endYear": 1860,
+            "coords": [
+              119.45,
+              32.2
+            ],
+            "theater": "江苏",
+            "context": "太平军试图切断清军对天京的补给线",
+            "description": "1860年，太平军将领李秀成、陈玉成率军进攻镇江，试图切断清军对天京的补给线。经过激烈战斗，太平军最终攻占镇江，并一度威胁到南京周边地区。然而，由于天京事变后的内部矛盾和指挥不统一，太平军未能充分利用这一胜利扩大战果。",
+            "result": "太平军攻占镇江，但未能扩大战果",
+            "significance": "太平军短暂获得对天京周边地区的控制，但未能改变整体战略态势",
+            "casualties": {
+              "sideA": "约8000人",
+              "sideB": "约6000人"
+            },
+            "forces": {
+              "sideA": "约5万人",
+              "sideB": "约3万人"
+            },
+            "commanders": [
+              {
+                "name": "李秀成",
+                "role": "后军主将",
+                "side": "sideA"
+              },
+              {
+                "name": "陈玉成",
+                "role": "前军主将",
+                "side": "sideA"
+              },
+              {
+                "name": "和春",
+                "role": "江南提督",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争后期",
+        "nameEn": "Later Phase",
+        "startYear": 1860,
+        "endYear": 1864,
+        "summary": "太平天国战争后期，清军联合外国势力对太平天国核心区域展开全面进攻，太平天国势力急剧衰落，最终天京陷落，运动失败。",
+        "battles": [
+          {
+            "battleId": "anjing_siege",
+            "name": "安庆保卫战",
+            "nameEn": "Anqing Defense",
+            "startYear": 1860,
+            "endYear": 1861,
+            "coords": [
+              117.05,
+              30.53
+            ],
+            "theater": "中部战区",
+            "context": "湘军围攻太平天国在长江中游的重要军事基地安庆",
+            "description": "曾国藩指挥湘军围攻安庆，陈玉成、李秀成率太平军多次救援未果。安庆是太平天国西部屏障，失守后天京门户大开。湘军采用长围久困战术，断绝外援，最终攻破安庆。",
+            "result": "太平军惨败，安庆失守",
+            "significance": "安庆失守使太平天国失去长江中游控制权，天京直接暴露在清军威胁下，成为战争转折点。",
+            "casualties": {
+              "sideA": "约2万人",
+              "sideB": "约5万人"
+            },
+            "forces": {
+              "sideA": "湘军约5万人",
+              "sideB": "太平军约10万人"
+            },
+            "commanders": [
+              {
+                "name": "曾国藩",
+                "role": "统帅",
+                "side": "sideA"
+              },
+              {
+                "name": "陈玉成",
+                "role": "主帅",
+                "side": "sideB"
+              },
+              {
+                "name": "李秀成",
+                "role": "主帅",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "nanjing_siege",
+            "name": "天京保卫战",
+            "nameEn": "Nanjing Defense",
+            "startYear": 1862,
+            "endYear": 1864,
+            "coords": [
+              118.79,
+              32.06
+            ],
+            "theater": "东部战区",
+            "context": "湘军围攻太平天国首都天京，太平天国最后的主力决战",
+            "description": "曾国荃率湘军主力围攻天京，李秀成、洪仁玕率太平军守城。太平军多次突围未果，城中粮绝。湘军用地道战术炸塌城墙，最终攻入天京。洪秀全自杀，幼天王洪天贵福被俘后处死。",
+            "result": "天京陷落，太平天国灭亡",
+            "significance": "太平天国运动的终结，清军取得最终胜利，标志着中国近代史上最大规模农民起义的失败。",
+            "casualties": {
+              "sideA": "约3万人",
+              "sideB": "约10万人"
+            },
+            "forces": {
+              "sideA": "湘军约8万人",
+              "sideB": "太平军约10万人"
+            },
+            "commanders": [
+              {
+                "name": "曾国荃",
+                "role": "统帅",
+                "side": "sideA"
+              },
+              {
+                "name": "李秀成",
+                "role": "主帅",
+                "side": "sideB"
+              },
+              {
+                "name": "洪仁玕",
+                "role": "辅王",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "jiading_campaign",
+            "name": "嘉定战役",
+            "nameEn": "Jiading Campaign",
+            "startYear": 1863,
+            "endYear": 1863,
+            "coords": [
+              121.23,
+              31.39
+            ],
+            "theater": "东部战区",
+            "context": "李鸿章淮军与常胜军联合进攻上海周边太平军据点",
+            "description": "李鸿章率领淮军联合戈登指挥的常胜军（外国雇佣军）进攻嘉定等上海周边地区。太平军守军顽强抵抗，但最终不敌淮军与常胜军的先进武器和战术。嘉定失守后，太平军在上海周边的势力被肃清。",
+            "result": "太平军失败，嘉定失守",
+            "significance": "此役标志着外国势力正式大规模介入太平天国战争，淮军与常胜军的胜利巩固了清政府对江南地区的控制。",
+            "casualties": {
+              "sideA": "约5000人",
+              "sideB": "约1.5万人"
+            },
+            "forces": {
+              "sideA": "淮军与常胜军约2万人",
+              "sideB": "太平军约3万人"
+            },
+            "commanders": [
+              {
+                "name": "李鸿章",
+                "role": "统帅",
+                "side": "sideA"
+              },
+              {
+                "name": "戈登",
+                "role": "常胜军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "谭绍光",
+                "role": "主帅",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "suzhou_massacre",
+            "name": "苏州杀降事件",
+            "nameEn": "Suzhou Surrender Massacre",
+            "startYear": 1863,
+            "endYear": 1863,
+            "coords": [
+              120.62,
+              31.32
+            ],
+            "theater": "东部战区",
+            "context": "太平军将领纳王郜永宽等献城投降后被李鸿章处死",
+            "description": "太平军将领郜永宽等八王因不满太平天国内部矛盾，献苏州城投降李鸿章。李鸿章接受投降后，却在宴会上突然处死郜永宽等八王及其部属，引发哗变。这一事件导致其他太平军将领对清军失去信任，更加顽强抵抗。",
+            "result": "太平军将领被杀，苏州被清军控制",
+            "significance": "杀降事件暴露了清军背信弃义的本质，加速了太平天国的灭亡，但也使清军在其他地区的招降工作更加困难。",
+            "casualties": {
+              "sideA": "约1000人",
+              "sideB": "约8000人"
+            },
+            "forces": {
+              "sideA": "淮军约1万人",
+              "sideB": "太平军约2万人"
+            },
+            "commanders": [
+              {
+                "name": "李鸿章",
+                "role": "统帅",
+                "side": "sideA"
+              },
+              {
+                "name": "郜永宽",
+                "role": "纳王",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "majorBattles": [],
+    "cognitiveWarfare": {
+      "psyOps": [
+        "太平天国利用宗教信仰（拜上帝教）构建神圣叙事，自称'天父天兄'代言人，强化运动合法性“,\n    ”清政府散布'长毛'妖魔化标签，强调太平军'反伦理'行为（如毁孔庙、改传统习俗）“,\n    ”双方均使用预言和天象解读（如'红羊劫'）来证明自身天命所归"
+      ],
+      "propagandaComparison": "太平天国构建'天朝田亩制度'理想社会蓝图，宣传'有田同耕，有饭同食'平等理念，吸引贫苦农民；同时发布《天朝田亩制度》等文献系统阐述其政治主张。清政府则强调'华夷之辨'和'忠孝节义'传统价值观，将太平军斥为'粤匪'、'发逆'，破坏纲常伦理，动员士绅阶层保卫传统文化。双方均利用民间信仰和宗教符号，太平天国借用基督教元素，清政府则强化儒家正统地位，争夺意识形态话语权。",
+      "collaborators": [
+        "清朝地方团练（如曾国藩湘军、李鸿章淮军）“,\n    ”西方列强（初期中立后支持清政府）“,\n    ”太平天国内部叛变者（如韦昌辉、石达开）"
+      ],
+      "informationWarfare": "太平天国控制区域实行严格的新闻管控，出版《天情道理书》等官方文献，同时利用民间说唱、绘画传播其理念。清政府则通过《京报》和地方志记载太平军'暴行'，动员士绅阶层编写'剿匪'文献，如《粤匪纪事》。双方均争夺历史叙事权，清政府主导官方史书编纂，将太平天国定性为'叛乱'，而太平天国则试图构建自身革命正统性。信息战中，清政府利用其控制的传统媒体网络占据优势，但太平天国在基层宣传中更具煽动性。"
+    },
+    "economics": {
+      "resourceDependency": {
+        "sideA": {
+          "summary": "太平天国控制江南富庶地区，依赖农业税收和商业收入。粮食生产充足，但缺乏现代工业基础，武器装备主要依靠缴获和有限的手工生产。财政来源不稳定，过度依赖占领区搜刮，导致民心流失。"
+        },
+        "sideB": {
+          "summary": "清政府依赖关税和漕运收入，江南地区失守后财政严重受损。依靠地方团练和外国贷款维持战争，军费主要来自厘金制度。西方列强提供武器和军事顾问，换取贸易特权，形成复杂依赖关系。"
+        }
+      },
+      "foreignAid": [
+        {
+          "from": "英国",
+          "to": "清政府",
+          "program": "军事援助计划",
+          "content": "提供先进武器和弹药，派遣军事顾问训练清军，协助组建洋枪队"
+        },
+        {
+          "from": "法国",
+          "to": "清政府",
+          "program": "技术支持",
+          "content": "提供舰船和火炮技术，协助清政府建立现代化军事工业"
+        }
+      ],
+      "warBudget": "战争总开支估算约6亿两白银，清政府财政赤字高达1.5亿两，相当于当时三年财政收入总和",
+      "economicDisruption": "战争导致江南地区农业产量下降40%，商业网络中断，人口损失超过2000万。传统手工业崩溃，丝绸、茶叶出口锐减。运河系统遭破坏，漕运中断，北方粮食短缺。通货膨胀严重，铜钱贬值，白银外流加剧，战后中国经济恢复需要近三十年时间。"
+    },
+    "geography": {
+      "keyObstacles": [
+        {
+          "name": "长江天险",
+          "description": "长江作为天然屏障，为太平军提供了防御优势，但也限制了其北上战略。清军利用长江水运优势调动军队，封锁太平军粮道。"
+        },
+        {
+          "name": "山地地形",
+          "description": "广西、湖南等地的崎岖山地为太平军初期起义提供了隐蔽场所，但也导致补给困难，后期成为清军围剿时的障碍。"
+        },
+        {
+          "name": "江南水网",
+          "description": "江南地区密集的河网湖泊既为太平军提供了机动路线，也使其在后期被清军分割包围，难以有效调动兵力。"
+        }
+      ],
+      "extremeWeather": [
+        {
+          "year": 1853,
+          "event": "长江大洪水",
+          "description": "洪水冲毁太平军防线，导致南京城防受损，同时阻碍了太平军北上战略的实施，造成大量非战斗减员。"
+        },
+        {
+          "year": 1860,
+          "event": "江南旱灾",
+          "description": "严重旱灾导致粮食减产，加剧了太平军控制区的粮荒，削弱了军队战斗力，促使部分军民投降清军。"
+        }
+      ],
+      "nonCombatLosses": "太平军长期征战导致疫病流行，特别是霍乱、疟疾等在南方湿热地区肆虐，造成大量士兵死亡。同时，频繁的军事行动和自然灾害导致农业生产严重受损，饥荒蔓延，平民死亡率极高，据估计太平天国运动造成中国人口锐减数千万。"
+    }
+  },
+  "timeline": [
+    {
+      "year": 1851,
+      "event": "金田起义",
+      "type": "crisis",
+      "description": "洪秀全在广西桂平县金田村发动起义，建立太平天国",
+      "impact": "标志着太平天国运动的正式开始，清王朝统治受到严重挑战"
+    },
+    {
+      "year": 1852,
+      "event": "永安建制",
+      "type": "leadership",
+      "description": "太平军在永安州（今广西蒙山县）进行政权建设，封王建制",
+      "impact": "确立了太平天国的政治制度和组织架构，为后续军事行动奠定基础"
+    },
+    {
+      "year": 1853,
+      "event": "定都天京",
+      "type": "decision",
+      "description": "太平军攻占南京，改名为天京，定为都城",
+      "impact": "建立了与清王朝对峙的政权，标志着太平天国运动达到鼎盛"
+    },
+    {
+      "year": 1853,
+      "event": "北伐与西征",
+      "type": "decision",
+      "description": "太平军分兵北伐和西征，扩大控制区域",
+      "impact": "北伐失败但牵制清军主力，西征成功扩大了太平天国的控制范围"
+    },
+    {
+      "year": 1856,
+      "event": "天京事变",
+      "type": "leadership",
+      "description": "太平天国领导层内讧，东王杨秀清被杀，韦昌辉、石达开等人互相残杀",
+      "impact": "严重削弱了太平天国的领导力量和军事力量，成为由盛转衰的转折点"
+    }
+  ]
+}

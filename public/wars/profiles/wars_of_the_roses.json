@@ -1,0 +1,753 @@
+{
+  "warId": "wars_of_the_roses",
+  "name": "玫瑰战争",
+  "nameEn": "Wars of the Roses",
+  "alternativeNames": [
+    "蔷薇战争"
+  ],
+  "startYear": 1455,
+  "endYear": 1487,
+  "type": "major",
+  "category": "王朝战争",
+  "theaters": [
+    "英格兰"
+  ],
+  "summary": "兰开斯特家族与约克家族为争夺英格兰王位而进行的内战。",
+  "background": {
+    "causes": "英格兰百年战争后国内贵族势力膨胀，兰开斯特王朝统治合法性受质疑",
+    "immediateCause": "亨利六精神失常，约克公爵理查要求摄政权被拒",
+    "preWarSituation": "英格兰国内贵族派系林立，经济衰退，社会动荡",
+    "objectivesA": "兰开斯特家族：维护王位继承权，保住亨利六的王位",
+    "objectivesB": "约克家族：夺取王位，建立新的统治秩序",
+    "precedingConflicts": [
+      "百年战争"
+    ]
+  },
+  "belligerents": {
+    "sideA": {
+      "name": "兰开斯特家族",
+      "nameEn": "House of Lancaster",
+      "countries": [
+        {
+          "name": "英格兰",
+          "entryYear": 1455,
+          "exitYear": 1471
+        }
+      ],
+      "commanders": [
+        {
+          "name": "亨利六世",
+          "role": "国王",
+          "bio": "兰开斯特王朝国王，精神不稳定"
+        },
+        {
+          "name": "玛格丽特·安茹",
+          "role": "王后",
+          "bio": "亨利六世之妻，实际领导者"
+        },
+        {
+          "name": "沃里克伯爵",
+          "role": "军事指挥官",
+          "bio": "玫瑰战争中重要军事领袖"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "亨利六世",
+          "role": "国王",
+          "bio": "兰开斯特王朝国王"
+        },
+        {
+          "name": "玛格丽特·安茹",
+          "role": "王后",
+          "bio": "亨利六世之妻，实际掌权者"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "封建征兵制",
+        "organization": "封建军队，以贵族骑士为核心",
+        "logistics": "依靠封建领地供养，补给有限"
+      },
+      "preWarStrength": {
+        "army": "约2万人",
+        "navy": "小型舰队",
+        "airForce": "无",
+        "armor": "重装骑兵为主",
+        "specialForces": "无",
+        "reserves": "封建民兵"
+      },
+      "equipment": [
+        {
+          "name": "长弓",
+          "quantity": "大量",
+          "description": "英格兰传统武器，射程远"
+        },
+        {
+          "name": "板甲",
+          "quantity": "数千套",
+          "description": "贵族骑士标准装备"
+        },
+        {
+          "name": "长矛",
+          "quantity": "大量",
+          "description": "步兵主要武器"
+        }
+      ],
+      "industrialCapacity": "有限，以手工业为主",
+      "economicStrength": "较弱，依赖北方和威尔士地区",
+      "totalCasualties": {
+        "dead": "约5万人",
+        "wounded": "约10万人",
+        "captured": "数千人",
+        "missing": "数千人",
+        "civilian": "数万人"
+      },
+      "warCrimes": [
+        "屠杀平民“, ”破坏财产"
+      ],
+      "propaganda": {
+        "slogans": [
+          "上帝保佑兰开斯特"
+        ],
+        "themes": [
+          "正统性“, ”宗教虔诚"
+        ],
+        "methods": [
+          "宣传册“, ”布道"
+        ]
+      }
+    },
+    "sideB": {
+      "name": "约克家族",
+      "nameEn": "House of York",
+      "countries": [
+        {
+          "name": "英格兰",
+          "entryYear": 1455,
+          "exitYear": 1485
+        }
+      ],
+      "commanders": [
+        {
+          "name": "约克公爵理查",
+          "role": "领袖",
+          "bio": "约克家族领袖，宣称有王位继承权"
+        },
+        {
+          "name": "爱德华四世",
+          "role": "国王",
+          "bio": "约克公爵之子，后成为英格兰国王"
+        },
+        {
+          "name": "格洛斯特公爵理查",
+          "role": "军事指挥官",
+          "bio": "爱德华四世之弟，后成为理查三世"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "约克公爵理查",
+          "role": "领袖",
+          "bio": "约克家族领袖"
+        },
+        {
+          "name": "爱德华四世",
+          "role": "国王",
+          "bio": "约克家族最终胜利者"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "封建征兵制",
+        "organization": "封建军队，以贵族骑士为核心",
+        "logistics": "依靠南方和东部地区领地供养"
+      },
+      "preWarStrength": {
+        "army": "约1.8万人",
+        "navy": "小型舰队",
+        "airForce": "无",
+        "armor": "重装骑兵为主",
+        "specialForces": "无",
+        "reserves": "封建民兵"
+      },
+      "equipment": [
+        {
+          "name": "长弓",
+          "quantity": "大量",
+          "description": "英格兰传统武器，射程远"
+        },
+        {
+          "name": "板甲",
+          "quantity": "数千套",
+          "description": "贵族骑士标准装备"
+        },
+        {
+          "name": "长矛",
+          "quantity": "大量",
+          "description": "步兵主要武器"
+        }
+      ],
+      "industrialCapacity": "有限，以手工业为主",
+      "economicStrength": "较强，依赖南方和东部地区",
+      "totalCasualties": {
+        "dead": "约4万人",
+        "wounded": "约8万人",
+        "captured": "数千人",
+        "missing": "数千人",
+        "civilian": "数万人"
+      },
+      "warCrimes": [
+        "屠杀平民“, ”破坏财产"
+      ],
+      "propaganda": {
+        "slogans": [
+          "玫瑰与王冠"
+        ],
+        "themes": [
+          "改革“, ”正义"
+        ],
+        "methods": [
+          "宣传册“, ”布道"
+        ]
+      }
+    }
+  },
+  "neutralParties": [
+    "苏格兰“, ”法国“, ”勃艮第"
+  ],
+  "outcome": {
+    "result": "约克家族最终获胜，建立都铎王朝",
+    "victoryAnalysis": {
+      "winnerFactors": "军事优势，有效领导，贵族支持",
+      "loserFactors": "内部分裂，指挥不当，资源不足"
+    },
+    "treaty": {
+      "name": "博斯沃思原野战役后和解",
+      "date": "1485年",
+      "content": "亨利七世与约克家族联姻，结束内战"
+    },
+    "territorialChanges": "英格兰统一，领土无重大变更",
+    "economicCost": "经济严重衰退，人口减少，农业产出下降",
+    "demographicImpact": "贵族阶层大量减少，人口约减少20%"
+  },
+  "legacy": {
+    "significance": "结束英格兰封建制度，开启都铎王朝专制统治",
+    "immediateConsequences": "贵族势力削弱，王权加强，社会秩序重建",
+    "longTermImpact": {
+      "political": "中央集权加强，议会权力相对削弱",
+      "military": "封建军队逐渐被常备军取代",
+      "economic": "经济复苏，贸易发展",
+      "social": "社会结构重组，贵族阶层变化"
+    },
+    "culturalLegacy": {
+      "memorials": [
+        "博斯沃思原野战场遗址"
+      ],
+      "observances": [
+        "玫瑰战争纪念日"
+      ],
+      "media": [
+        "莎士比亚历史剧“, ”玫瑰战争相关小说和影视作品"
+      ]
+    }
+  },
+  "tags": {
+    "warfareType": [
+      "内战“, ”封建战争"
+    ],
+    "geopolitical": [
+      "英格兰“, ”欧洲"
+    ],
+    "scale": "regional",
+    "cause": [
+      "王位继承“, ”贵族争斗"
+    ]
+  },
+  "relatedWars": [
+    "百年战争“, ”英格兰内战"
+  ],
+  "sources": [
+    "《玫瑰战争史》, 《都铎王朝兴起》, 《英格兰中世纪史》"
+  ],
+  "warProcess": {
+    "phases": [
+      {
+        "name": "战争中期",
+        "nameEn": "Middle Phase",
+        "startYear": 1469,
+        "endYear": 1476,
+        "summary": "玫瑰战争中期，约克派和兰开斯特派争夺更加激烈，双方多次易手控制权，关键战役频繁发生，英格兰局势动荡不安。",
+        "battles": [
+          {
+            "battleId": "edgecote_moor",
+            "name": "埃奇科特沼泽战役",
+            "nameEn": "Battle of Edgecote Moor",
+            "startYear": 1469,
+            "endYear": 1469,
+            "coords": [
+              -1.5,
+              52.3
+            ],
+            "theater": "英格兰中部",
+            "context": "沃里克伯爵与爱德华四世关系恶化，沃里克联合爱德华的弟弟克拉伦斯公爵反对国王。",
+            "description": "沃里克伯爵和克拉伦斯公爵率领的叛军与爱德华四世的军队在埃奇科特沼泽遭遇。战斗初期，王军占据优势，但沃里克派骑兵侧击成功，导致王军溃败。爱德华四世被迫逃亡，沃里克控制了政府。",
+            "result": "沃里克伯爵和克拉伦斯公爵获胜，爱德华四世逃亡",
+            "significance": "此战标志着沃里克伯爵暂时控制了英格兰政局，爱德华四世权威受到严重挑战。",
+            "casualties": {
+              "sideA": "约1000人",
+              "sideB": "约2000人"
+            },
+            "forces": {
+              "sideA": "约5000人",
+              "sideB": "约10000人"
+            },
+            "commanders": [
+              {
+                "name": "威廉·内维尔",
+                "role": "指挥官",
+                "side": "sideB"
+              },
+              {
+                "name": "爱德华四世",
+                "role": "国王",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "losecoat_field",
+            "name": "洛斯科特原野战役",
+            "nameEn": "Battle of Losecoat Field",
+            "startYear": 1470,
+            "endYear": 1470,
+            "coords": [
+              -0.5,
+              52.7
+            ],
+            "theater": "英格兰东部",
+            "context": "沃里克伯爵失败后逃往法国，与兰开斯特派玛格丽特王后结盟，返回英格兰发动叛乱。",
+            "description": "沃里克伯爵率领的兰开斯特-法国联军与威廉·黑斯廷斯率领的约克派军队在林肯郡的洛斯科特原野交战。沃里克利用地形优势设下埋伏，约克派军队陷入包围，最终溃败。此战也被称为'布鲁特斯原野战役'。",
+            "result": "沃里克伯爵和兰开斯特派获胜",
+            "significance": "此战使沃里克重新控制了英格兰局势，迫使爱德华四世再次逃亡，短暂恢复了兰开斯特派的权力。",
+            "casualties": {
+              "sideA": "约3000人",
+              "sideB": "约1500人"
+            },
+            "forces": {
+              "sideA": "约12000人",
+              "sideB": "约6000人"
+            },
+            "commanders": [
+              {
+                "name": "威廉·内维尔",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "威廉·黑斯廷斯",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "barneet",
+            "name": "巴内特战役",
+            "nameEn": "Battle of Barnet",
+            "startYear": 1471,
+            "endYear": 1471,
+            "coords": [
+              -0.2,
+              51.9
+            ],
+            "theater": "英格兰南部",
+            "context": "爱德华四世从流亡中返回英格兰，试图夺回王位，与沃里克伯爵的军队在巴内特遭遇。",
+            "description": "1471年4月14日，爱德华四世率领的约克派军队与沃里克伯爵率领的兰开斯特派军队在巴内特附近展开激战。由于浓雾影响，双方军队位置混乱，沃里克军队误伤己方。爱德华抓住战机发动猛攻，沃里克军队溃败，沃里克本人战死。",
+            "result": "爱德华四世获胜，沃里克伯爵战死",
+            "significance": "巴内特战役是玫瑰战争的转折点之一，沃里克死亡后兰开斯特派失去重要领袖，爱德华四世重新稳固了王位。",
+            "casualties": {
+              "sideA": "约1000人",
+              "sideB": "约4000人"
+            },
+            "forces": {
+              "sideA": "约9000人",
+              "sideB": "约15000人"
+            },
+            "commanders": [
+              {
+                "name": "爱德华四世",
+                "role": "国王",
+                "side": "sideA"
+              },
+              {
+                "name": "威廉·内维尔",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "tewkesbury",
+            "name": "蒂克斯伯里战役",
+            "nameEn": "Battle of Tewkesbury",
+            "startYear": 1471,
+            "endYear": 1471,
+            "coords": [
+              -2.2,
+              51.9
+            ],
+            "theater": "英格兰西部",
+            "context": "兰开斯特派玛格丽特王后携威尔士亲王爱德华从法国返回，试图与沃里克残部会合，恢复兰开斯特派统治。",
+            "description": "1471年5月4日，爱德华四世率领的约克派军队在蒂克斯伯里拦截了玛格丽特王后的兰开斯特派军队。战斗异常激烈，兰开斯特派军队最终被击溃，威尔士亲王爱德华被杀，玛格丽特王后被俘。此战彻底摧毁了兰开斯特派的军事力量。",
+            "result": "爱德华四世获胜，兰开斯特派主力被歼灭",
+            "significance": "蒂克斯伯里战役结束了兰开斯特派对王位的主要威胁，爱德华四世统治得到巩固，玫瑰战争进入最后阶段。",
+            "casualties": {
+              "sideA": "约500人",
+              "sideB": "约2000人"
+            },
+            "forces": {
+              "sideA": "约5000人",
+              "sideB": "约6000人"
+            },
+            "commanders": [
+              {
+                "name": "爱德华四世",
+                "role": "国王",
+                "side": "sideA"
+              },
+              {
+                "name": "约翰·德·韦尔",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争后期",
+        "nameEn": "Later Phase",
+        "startYear": 1471,
+        "endYear": 1487,
+        "summary": "玫瑰战争后期，约克家族逐渐巩固优势，兰开斯特家族势力大幅削弱，战争主要围绕王位继承展开，最终都铎家族崛起。",
+        "battles": [
+          {
+            "battleId": "battle-of-terfield",
+            "name": "陶顿战役",
+            "nameEn": "Battle of Tewkesbury",
+            "startYear": 1471,
+            "endYear": 1471,
+            "coords": [
+              -2.2012,
+              51.9923
+            ],
+            "theater": "英格兰中部",
+            "context": "爱德华四世复位后，兰开斯特家族残余势力在玛格丽特王后带领下试图反攻。",
+            "description": "1471年5月4日，兰开斯特军队约6000人与约克军队约10000人在陶顿遭遇。战斗异常惨烈，双方在泥泞中激战数小时。约克军队凭借兵力优势和有利地形最终取得决定性胜利。",
+            "result": "约克党大胜，兰开斯特主力被歼灭",
+            "significance": "此战彻底摧毁了兰开斯特家族的军事力量，确立了约克家族对英格兰的统治。",
+            "casualties": {
+              "sideA": "约1000人",
+              "sideB": "约2000人"
+            },
+            "forces": {
+              "sideA": "约10000人",
+              "sideB": "约6000人"
+            },
+            "commanders": [
+              {
+                "name": "爱德华四世",
+                "role": "国王",
+                "side": "sideA"
+              },
+              {
+                "name": "乔治·内维尔",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "玛格丽特·安茹",
+                "role": "王后",
+                "side": "sideB"
+              },
+              {
+                "name": "威廉·诺福克公爵",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-bosworth-field",
+            "name": "博斯沃思原野战役",
+            "nameEn": "Battle of Bosworth Field",
+            "startYear": 1485,
+            "endYear": 1485,
+            "coords": [
+              -1.4167,
+              52.5167
+            ],
+            "theater": "英格兰中部",
+            "context": "理查三世统治期间，兰开斯特家族后裔亨利·都铎在法国支持下登陆英格兰，挑战王位。",
+            "description": "1485年8月22日，理查三世率领约8000人的军队与亨利·都铎约5000人的军队在博斯沃思原野相遇。战斗初期理查占据优势，但关键时刻斯坦利家族倒戈，导致理查三世阵亡，约克军队溃败。",
+            "result": "都铎党胜利，理查三世战死",
+            "significance": "此战结束了玫瑰战争，亨利·都铎登基为亨利七世，建立都铎王朝，开启英格兰和平稳定的新时代。",
+            "casualties": {
+              "sideA": "约1000人",
+              "sideB": "约500人"
+            },
+            "forces": {
+              "sideA": "约8000人",
+              "sideB": "约5000人"
+            },
+            "commanders": [
+              {
+                "name": "理查三世",
+                "role": "国王",
+                "side": "sideA"
+              },
+              {
+                "name": "亨利·都铎",
+                "role": "伯爵",
+                "side": "sideB"
+              },
+              {
+                "name": "约翰·德·维尔",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "托马斯·斯坦利",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-stoke-field",
+            "name": "斯托克战役",
+            "nameEn": "Battle of Stoke Field",
+            "startYear": 1487,
+            "endYear": 1487,
+            "coords": [
+              -0.9333,
+              53.0333
+            ],
+            "theater": "英格兰中部",
+            "context": "亨利七世登基后，兰开斯特和约克残余势力联合，支持 Lambert Simnel 冒充约克家族继承人爱德华·金雀花，挑战亨利七世统治。",
+            "description": "1487年6月16日，亨利七世率领约12000人的皇家军队与约8000人的叛军在斯托克附近遭遇。叛军虽然英勇抵抗，但最终被数量占优的皇家军队击败。Simnel 被俘后赦免，成为皇家厨房帮工。",
+            "result": "皇家军队胜利，叛军被歼灭",
+            "significance": "此战粉碎了玫瑰战争后期的最后一次大规模叛乱，巩固了都铎王朝的统治，标志着玫瑰战争的彻底结束。",
+            "casualties": {
+              "sideA": "约700人",
+              "sideB": "约7000人"
+            },
+            "forces": {
+              "sideA": "约12000人",
+              "sideB": "约8000人"
+            },
+            "commanders": [
+              {
+                "name": "亨利七世",
+                "role": "国王",
+                "side": "sideA"
+              },
+              {
+                "name": "约翰·德·维尔",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "约翰·德·拉·波尔",
+                "role": "指挥官",
+                "side": "sideB"
+              },
+              {
+                "name": "Lambert Simnel",
+                "role": "冒充者",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-edgecote-moor",
+            "name": "埃奇科特沼地战役",
+            "nameEn": "Battle of Edgecote Moor",
+            "startYear": 1469,
+            "endYear": 1469,
+            "coords": [
+              -1.5,
+              52.3333
+            ],
+            "theater": "英格兰中部",
+            "context": "沃里克伯爵与爱德华四世关系恶化，沃里克联合爱德华的弟弟乔治·克拉伦斯，共同反对国王政策。",
+            "description": "1469年7月26日，沃里克伯爵和克拉伦斯公爵率领的叛军约15000人与国王的军队约9000人在埃奇科特沼地遭遇。叛军利用骑兵优势击溃了国王军队，俘获了国王爱德华四世。",
+            "result": "叛军胜利，爱德华四世被俘",
+            "significance": "此战是沃里克伯爵反叛的高潮，暂时削弱了约克王权，但最终爱德华四世成功复位，沃里克逃亡法国。",
+            "casualties": {
+              "sideA": "约1000人",
+              "sideB": "约2000人"
+            },
+            "forces": {
+              "sideA": "约9000人",
+              "sideB": "约15000人"
+            },
+            "commanders": [
+              {
+                "name": "爱德华四世",
+                "role": "国王",
+                "side": "sideA"
+              },
+              {
+                "name": "沃里克伯爵",
+                "role": "指挥官",
+                "side": "sideB"
+              },
+              {
+                "name": "乔治·克拉伦斯",
+                "role": "公爵",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "majorBattles": [],
+    "cognitiveWarfare": {
+      "psyOps": [
+        "血统合法性宣称“, ”预言与占星术利用“, ”战场心理战术“, ”贵族忠诚度操控“, ”王室形象塑造"
+      ],
+      "propagandaComparison": "兰开斯特家族强调其血统的合法性，通过亨利六世的宗教正统性宣传，塑造'上帝的选民'形象。约克家族则利用'玫瑰'象征，宣称自己是更古老的王室血脉，并通过预言和占星术暗示天命所归。双方都利用教会宣传，兰开斯特强调虔诚与神圣，约克则强调改革与正义。贵族间的联姻与背叛成为宣传素材，双方都通过婚姻联盟宣传自己的正统性，同时贬低对方为篡夺者。",
+      "collaborationists": [
+        "沃里克伯爵'造王者'",
+        "牛津伯爵约翰·德·维尔“, ”斯坦利家族“, ”各地方领主与教会势力"
+      ],
+      "informationWarfare": "玫瑰战争中，信息战主要通过口头传播、贵族信件和教会布道进行。双方控制信息流通，散布有利于己方的战场消息，贬低对方将领能力。兰开斯特利用王室官方渠道发布公告，约克则通过沃里克伯爵的广泛人脉网络传播信息。战场上，旗帜和徽章成为识别敌我的关键信息，同时双方都通过展示战利品和俘虏来震慑对方。贵族间的情报网络和间谍活动在战争中扮演重要角色，影响战略决策。"
+    },
+    "economics": {
+      "resourceDependency": {
+        "sideA": {
+          "summary": "兰开斯特王朝依赖英格兰北部和威尔士地区的农业产出，以及从加莱港获得的税收。贵族阶层通过封建领地获取资源，但缺乏稳定的中央财政系统，战争资金主要依靠临时税收和贵族私人财富，导致资源供应不稳定且有限。"
+        },
+        "sideB": {
+          "summary": "约克王朝依赖英格兰南部和商业中心的财富，以及与勃艮第地区的贸易联系。约克家族拥有更多商业利益和城市资源，能够通过贸易网络获取资金，但仍受限于英格兰整体经济规模，长期战争导致财政压力逐渐增大。"
+        }
+      },
+      "foreignAid": [
+        {
+          "from": "勃艮第公国",
+          "to": "约克王朝",
+          "program": "军事援助计划",
+          "content": "提供雇佣兵、武器装备和财政支持，以换取英格兰市场特权和对法国的共同敌对立场"
+        },
+        {
+          "from": "法国",
+          "to": "兰开斯特王朝",
+          "program": "流亡者支持计划",
+          "content": "提供庇护所、少量资金和军事顾问，旨在削弱英格兰实力并转移英格兰对法国的军事压力"
+        }
+      ],
+      "warBudget": "战争总开支估算约200-300万英镑，相当于当时英格兰年收入的2-3倍，主要用于雇佣兵(约60%)、装备采购(25%)和要塞建设(15%)",
+      "economicDisruption": "战争导致英格兰农业产量下降30-40%，贸易路线中断，城市经济萎缩。贵族阶层大量消耗财富，土地所有权频繁变更，阻碍了长期投资。货币贬值严重，通货膨胀率达年均15%。战争结束后，英格兰经济需要近20年才能恢复到战前水平，但战争也加速了封建制度衰落和中央集权加强。"
+    },
+    "geography": {
+      "keyObstacles": [
+        {
+          "name": "「英格兰中部森林地带」",
+          "description": "茂密的森林和丘陵地形限制了军队的机动性，为兰开斯特和约克家族的军队提供了伏击和埋伏的理想场所，使得大规模正面交战变得困难，更多依赖小规模冲突和突袭。"
+        },
+        {
+          "name": "「泰晤士河与塞文河」",
+          "description": "这两条主要河流构成了英格兰南北的交通要道，控制河流渡口成为战略关键，军队需要渡河才能调动，限制了作战方向，也影响了补给线的安全。"
+        },
+        {
+          "name": "「城堡要塞网络」",
+          "description": "英格兰遍布的中世纪城堡是双方争夺的核心，控制城堡意味着控制周边地区，这些坚固据点提供了防御优势，但也容易成为围攻目标，消耗大量兵力。"
+        }
+      ],
+      "extremeWeather": [
+        {
+          "year": 1460,
+          "event": "「严冬」",
+          "description": "1460年的异常严寒导致河流冻结，影响了军队的补给线和机动性，使得约克军队在北部的行动受阻，同时也影响了平民的生活，加剧了社会动荡。"
+        },
+        {
+          "year": 1471,
+          "event": "「春季暴雨」",
+          "description": "1471年春季的暴雨导致道路泥泞，严重影响了军队的行军速度和后勤补给，使得双方在巴尼特战役和图克斯伯里战役中的部署受到干扰，影响了战斗结果。"
+        }
+      ],
+      "nonCombatLosses": "玫瑰战争期间，军队频繁调动和城堡围攻导致疾病传播加剧，特别是痢疾和斑疹伤寒在拥挤的军营中肆虐。恶劣的天气条件也导致大量非战斗减员，包括因严寒、饥饿和恶劣行军条件造成的伤亡，这些非战斗损失有时甚至超过了战斗伤亡，严重影响了双方的持续作战能力。"
+    }
+  },
+  "timeline": [
+    {
+      "year": 1399,
+      "event": "亨利四世废黜理查二世",
+      "type": "leadership",
+      "description": "「亨利·博林布鲁克」废黜并囚禁国王理查二世，自封为亨利四世，开创兰开斯特王朝",
+      "impact": "建立兰开斯特王朝，为约克家族与兰开斯特家族的世仇埋下伏笔"
+    },
+    {
+      "year": 1415,
+      "event": "阿金库尔战役",
+      "type": "crisis",
+      "description": "亨利五率军在法国阿金库尔以少胜多，击败法军，取得百年战争重大胜利",
+      "impact": "提升英格兰王室威望，强化兰开斯特王朝统治，但也加剧了与法国的矛盾"
+    },
+    {
+      "year": 1422,
+      "event": "亨利六继位",
+      "type": "leadership",
+      "description": "亨利五去世，其子亨利六年仅九个月大即位，由其叔父格洛斯特公爵摄政",
+      "impact": "幼主继位导致权力真空，贵族争权夺利，为玫瑰战争埋下祸根"
+    },
+    {
+      "year": 1453,
+      "event": "百年战争结束",
+      "type": "diplomacy",
+      "description": "英格兰在法国的领地几乎全部丧失，百年战争正式结束",
+      "impact": "英格兰贵族失去在法国的领地和军事目标，转而将精力投入国内权力斗争"
+    },
+    {
+      "year": 1455,
+      "event": "第一次圣奥尔本斯战役",
+      "type": "crisis",
+      "description": "约克公爵理查与兰开斯特家族军队在圣奥尔本斯爆发冲突，玫瑰战争正式开始",
+      "impact": "开启英格兰长达32年的内战，导致大量贵族死亡，王朝更迭，最终都铎王朝上台"
+    },
+    {
+      "year": 1485,
+      "event": "博斯沃思原野战役",
+      "type": "decision",
+      "description": "亨利·都铎在博斯沃思原野战役中击败并杀死理查三世，结束玫瑰战争",
+      "impact": "都铎王朝开始，英格兰进入相对和平与稳定的时期"
+    },
+    {
+      "year": 1486,
+      "event": "亨利七世与约克的伊丽莎白结婚",
+      "type": "diplomacy",
+      "description": "亨利七世与约克家族的伊丽莎白结婚，象征性地合并兰开斯特和约克两个家族“,”影响“:”巩固都铎王朝统治，结束玫瑰战争后的政治分裂"
+    },
+    {
+      "year": 1487,
+      "event": "斯托克战役",
+      "type": "crisis",
+      "description": "在斯托克战役中，亨利七世击败兰伯特·西姆内尔领导的约克派叛乱“,”影响“:”粉碎了约克派残余势力的最后抵抗，巩固都铎王朝统治"
+    },
+    {
+      "year": 1491,
+      "event": "珀金·沃贝克事件",
+      "type": "crisis",
+      "description": "珀金·沃贝克冒充约克王子爱德华，挑战亨利七世王位",
+      "impact": "亨利七世成功镇压叛乱，进一步加强王权，巩固都铎王朝统治"
+    },
+    {
+      "year": 1509,
+      "event": "亨利八世即位",
+      "type": "leadership",
+      "description": "亨利七世去世，其子亨利八世继承王位",
+      "impact": "开启都铎王朝最著名的君主统治时期，英格兰宗教改革和欧洲政治格局变化"
+    }
+  ]
+}

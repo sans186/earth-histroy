@@ -1,0 +1,122 @@
+{
+  "personId": "alan-turing",
+  "name": "艾伦·图灵",
+  "nameEn": "Alan Turing",
+  "birth": 1912,
+  "death": 1954,
+  "nationality": "英国",
+  "nationalityEn": "United Kingdom",
+  "totalPoints": 6,
+  "points": [
+    {
+      "year": 1912,
+      "yearEnd": 1931,
+      "place": "伦敦",
+      "placeEn": "London",
+      "coords": [
+        -0.127758,
+        51.507351
+      ],
+      "title": "早年教育",
+      "titleEn": "Early Education",
+      "description": "艾伦·图灵出生于伦敦帕丁顿，在多个寄宿学校接受教育。在舍伯恩学校期间，他对数学和科学展现出非凡天赋，同时也在体育方面表现优异。1926年，16岁的图灵遇到了克里斯托弗·莫科姆，这位同学成为他一生的挚友和情感寄托，尽管莫科姆在1930年因感染牛结核病去世，这一事件对图灵产生了深远影响。这段时期奠定了图灵对科学探索的热爱，以及他独特的思考方式。",
+      "descriptionEn": "Alan Turing was born in Paddington, London, and received education at several boarding schools. At Sherborne School, he showed exceptional talent in mathematics and science while also excelling in sports. In 1926, at age 16, Turing met Christopher Morcom, who became his lifelong friend and emotional inspiration. Although Morcom died of tuberculosis in 1930, this event profoundly affected Turing. This period established Turing's passion for scientific exploration and his unique thinking approach."
+    },
+    {
+      "year": 1931,
+      "yearEnd": 1934,
+      "place": "剑桥",
+      "placeEn": "Cambridge",
+      "coords": [
+        0.121817,
+        52.205337
+      ],
+      "title": "剑桥求学",
+      "titleEn": "Cambridge Studies",
+      "description": "图灵进入剑桥大学国王学院学习数学，师从著名数学家G.H.哈代。在这里，他接触到数理逻辑和量子力学的前沿理论，开始思考计算的本质问题。1936年，图灵发表了划时代的论文《论可计算数及其在判定问题上的应用》，提出了著名的'图灵机'概念，这一理论模型奠定了现代计算机科学的基础。尽管此时他已离开剑桥，但这段学术经历为他后来的密码破译工作和计算机设计提供了理论支撑。",
+      "descriptionEn": "Turing studied mathematics at King's College, Cambridge, under the renowned mathematician G.H. Hardy. Here, he was exposed to cutting-edge theories in mathematical logic and quantum mechanics, beginning to ponder the nature of computation. In 1936, Turing published his groundbreaking paper 'On Computable Numbers, with an Application to the Entscheidungsproblem,' introducing the famous concept of the 'Turing Machine,' a theoretical model that laid the foundation of modern computer science. Although he had left Cambridge by then, this academic experience provided the theoretical support for his later codebreaking work and computer design."
+    },
+    {
+      "year": 1939,
+      "yearEnd": 1945,
+      "place": "布莱切利园",
+      "placeEn": "Bletchley Park",
+      "coords": [
+        -0.7405,
+        52.0002
+      ],
+      "title": "密码破译",
+      "titleEn": "Codebreaking",
+      "description": "二战爆发后，图灵加入布莱切利园的政府密码学校，负责破解德国的恩尼格玛密码。他领导开发了'Bombe'密码破译机，极大地提高了破译效率，使盟军能够解读德军情报。图灵的贡献被广泛认为至少将战争缩短了两年，挽救了数百万生命。他还在这一时期提出了'图灵测试'的概念，为人工智能研究奠定了基础。然而，由于战时保密，这些成就直到战后多年才被公众所知，图灵也因此未能获得应有的认可和荣誉。",
+      "descriptionEn": "After WWII broke out, Turing joined the Government Code and Cypher School at Bletchley Park, responsible for breaking the German Enigma code. He led the development of the 'Bombe' codebreaking machine, significantly improving decryption efficiency and enabling the Allies to interpret German intelligence. Turing's contributions are widely believed to have shortened the war by at least two years and saved millions of lives. During this period, he also proposed the concept of the 'Turing Test,' laying the foundation for artificial intelligence research. However, due to wartime secrecy, these achievements were not known to the public until many years after the war, and Turing failed to receive the recognition and honors he deserved."
+    },
+    {
+      "year": 1945,
+      "yearEnd": 1948,
+      "place": "伦敦",
+      "placeEn": "London",
+      "coords": [
+        -0.127758,
+        51.507351
+      ],
+      "title": "计算机设计",
+      "titleEn": "Computer Design",
+      "description": "战后，图灵在伦敦的国家物理实验室工作，设计了'自动计算引擎'(ACE)，这是世界上第一个存储程序计算机的设计方案。尽管由于资金和技术限制，ACE未能完全实现，但它的设计理念对后来的计算机发展产生了深远影响。1947年，图灵撰写了《智能机器》的内部报告，探讨了机器学习和人工智能的可能性，这些思想在当时是极为超前的。图灵在这一时期还继续发展他的计算理论，为计算机科学的发展奠定了理论基础。",
+      "descriptionEn": "After the war, Turing worked at the National Physical Laboratory in London, designing the 'Automatic Computing Engine' (ACE), which was the design for the world's first stored-program computer. Although ACE was not fully realized due to funding and technical limitations, its design concepts had a profound impact on later computer development. In 1947, Turing wrote the internal report 'Intelligent Machinery,' exploring the possibilities of machine learning and artificial intelligence, ideas that were extremely advanced for the time. During this period, Turing continued to develop his computational theory, laying the theoretical foundation for the development of computer science."
+    },
+    {
+      "year": 1948,
+      "yearEnd": 1954,
+      "place": "曼彻斯特",
+      "placeEn": "Manchester",
+      "coords": [
+        -2.244644,
+        53.480759
+      ],
+      "title": "计算机先驱",
+      "titleEn": "Computer Pioneer",
+      "description": "1948年，图灵加入曼彻斯特大学，担任曼彻斯特马克一号计算机的副主管。他继续研究计算理论，同时开始探索生物学中的形态发生问题，试图用数学方法解释生物发育过程。1950年，他发表了著名论文《计算机器与智能》，正式提出了'图灵测试'，成为人工智能领域的奠基性文献。图灵还在这一时期编写了早期的计算机象棋程序，展示了计算机在游戏领域的应用潜力。然而，他的学术生涯因1952年的同性恋指控而受到严重打击，尽管他继续工作，但已无法获得重要的研究职位。",
+      "descriptionEn": "In 1948, Turing joined the University of Manchester as deputy director of the Manchester Mark 1 computer. He continued his research in computational theory while beginning to explore problems in morphogenesis in biology, attempting to explain biological development processes using mathematical methods. In 1950, he published the famous paper 'Computing Machinery and Intelligence,' formally proposing the 'Turing Test,' a foundational document in the field of artificial intelligence. During this period, Turing also wrote early computer chess programs, demonstrating the potential of computers in gaming. However, his academic career was severely impacted by his homosexuality conviction in 1952, and although he continued to work, he could no longer obtain important research positions."
+    },
+    {
+      "year": 1954,
+      "yearEnd": 1954,
+      "place": "威尔姆斯洛",
+      "placeEn": "Wilmslow",
+      "coords": [
+        -2.244644,
+        53.480759
+      ],
+      "title": "悲剧离世",
+      "titleEn": "Tragic Death",
+      "description": "1954年6月7日，图灵被发现死于家中，年仅41岁。官方结论是氰化物中毒自杀，据推测与他实验中使用的苹果有关。图灵的离世被视为科学界的巨大损失，他的贡献直到多年后才得到全面认可。2013年，英国女王伊丽莎白二世正式赦免图灵的'犯罪'记录，2017年，英国央行宣布将图灵肖像印在新版50英镑纸币上，以表彰他对计算机科学的杰出贡献。图灵的悲剧命运也成为了社会对LGBTQ+群体不公正待遇的象征，促使人们反思科学与社会的关系。",
+      "descriptionEn": "On June 7, 1954, Turing was found dead at his home at age 41. The official conclusion was cyanide poisoning, reportedly from an apple used in an experiment. Turing's death was seen as a great loss to the scientific community, and his contributions were not fully recognized until many years later. In 2013, Queen Elizabeth II officially pardoned Turing's 'criminal' record, and in 2017, the Bank of England announced that Turing's portrait would appear on the new £50 banknote to recognize his outstanding contributions to computer science. Turing's tragic fate also became a symbol of the unjust treatment of LGBTQ+ individuals, prompting reflection on the relationship between science and society."
+    }
+  ],
+  "evaluation": {
+    "supporter": {
+      "zh": "艾伦·图灵被誉为'计算机科学之父'和'人工智能之父'，他的理论贡献彻底改变了人类对计算和智能的理解。图灵机模型为现代计算机奠定了理论基础，而图灵测试则开创了人工智能研究的先河。在二战期间，他的密码破译工作被广泛认为缩短了战争，挽救了无数生命。图灵的远见卓识和科学精神激励着一代又一代的科学家和工程师，他的故事也成为了科学突破与社会偏见抗争的象征。",
+      "en": "Alan Turing is hailed as the 'father of computer science' and the 'father of artificial intelligence.' His theoretical contributions revolutionized human understanding of computation and intelligence. The Turing Machine model laid the theoretical foundation for modern computers, while the Turing Test pioneered artificial intelligence research. During WWII, his codebreaking work is widely believed to have shortened the war and saved countless lives. Turing's vision and scientific spirit continue to inspire generations of scientists and engineers, and his story has become a symbol of scientific breakthroughs fighting against social prejudice."
+    },
+    "critic": {
+      "zh": "批评者指出图灵在个人生活上的不成熟和社交困难，认为他缺乏处理人际关系的能力。此外，图灵的某些理论模型过于简化，忽视了现实世界中计算的复杂性和限制。还有人质疑图灵在战后未能充分利用他的才能和资源，未能将他的理论更有效地转化为实际应用。尽管图灵的密码破译工作至关重要，但批评者也指出，他未能充分认识到自己工作的伦理意义和潜在的社会影响，这反映了当时科学界普遍存在的伦理盲点。",
+      "en": "Critics point out Turing's immaturity and social difficulties in his personal life, suggesting he lacked the ability to handle interpersonal relationships. Additionally, some argue that Turing's theoretical models were overly simplistic, neglecting the complexity and limitations of computation in the real world. Others question Turing's failure to fully utilize his talents and resources after the war, and his inability to more effectively translate his theories into practical applications. Despite the importance of his codebreaking work, critics also note that Turing failed to fully recognize the ethical implications and potential social impacts of his work, reflecting the ethical blind spots common in the scientific community of his time."
+    },
+    "objective": {
+      "zh": "在历史学界和流行文化中，图灵被塑造为一个复杂而矛盾的天才形象。他既是科学革命的先驱，又是社会偏见的受害者；他的理论成就超越了时代，却未能完全实现其潜力。图灵的故事反映了20世纪科学发展的双重性：一方面是技术进步带来的巨大变革，另一方面是社会保守主义对个人自由的限制。近年来，随着LGBTQ+权利运动的兴起，图灵的形象进一步被重新解读，成为科学界多元包容性的象征。他的生平和遗产提醒我们，科学进步与社会公正密不可分。",
+      "en": "In historical scholarship and popular culture, Turing is portrayed as a complex and contradictory genius. He was both a pioneer of scientific revolution and a victim of social prejudice; his theoretical achievements transcended his time, yet he couldn't fully realize his potential. Turing's story reflects the duality of 20th-century scientific development: on one hand, the transformative changes brought by technological progress, on the other hand, the limitations imposed by social conservatism on individual freedom. In recent years, with the rise of LGBTQ+ rights movements, Turing's image has been further reinterpreted as a symbol of diversity and inclusion in the scientific community. His life and legacy remind us that scientific progress and social justice are inseparable."
+    }
+  },
+  "quotes": {
+    "self": {
+      "zh": "我们只能向前看，而不是向后看，否则我们会看到太多我们无法实现的事情。",
+      "en": "We can only see a short distance ahead, but we can see plenty there that needs to be done."
+    },
+    "others": {
+      "zh": "图灵是那种罕见的数学家，他不仅能够解决困难的问题，还能提出新的问题，这些问题将引领整个领域的发展方向。",
+      "en": "Turing was that rare mathematician who could not only solve difficult problems but also pose new problems that would lead the entire field in new directions."
+    }
+  },
+  "othersBy": "安德鲁·霍奇斯",
+  "othersByEn": "Andrew Hodges"
+}

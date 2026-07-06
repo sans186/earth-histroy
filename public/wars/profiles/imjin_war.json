@@ -1,0 +1,713 @@
+{
+  "warId": "imjin_war",
+  "name": "壬辰倭乱",
+  "nameEn": "Imjin War",
+  "alternativeNames": [
+    "万历朝鲜战争“, ”壬辰卫国战争"
+  ],
+  "startYear": 1592,
+  "endYear": 1598,
+  "type": "major",
+  "category": "殖民战争",
+  "theaters": [
+    "朝鲜半岛“, ”日本“, ”中国东南沿海"
+  ],
+  "summary": "日本丰臣秀吉入侵朝鲜，明朝出兵援助，最终联军击败日军。",
+  "background": {
+    "causes": "日本丰臣秀吉统一后寻求扩张，计划征服朝鲜、明朝乃至印度，建立亚洲霸权。",
+    "immediateCause": "1592年4月，丰臣秀吉以朝鲜拒绝借道进攻明朝为由，派遣大军入侵朝鲜。",
+    "preWarSituation": "朝鲜王朝军备废弛，政治腐败；日本完成统一，军事力量强大；明朝国力虽强但边防松懈。",
+    "objectivesA": "日本：征服朝鲜，进而进攻明朝，建立亚洲霸权；朝鲜：保卫国家独立；明朝：维护宗主国地位和地区稳定。",
+    "objectivesB": "日本：实现丰臣秀吉的大陆扩张计划；朝鲜：抵抗侵略，恢复国家主权；明朝：保护藩属国，维护东亚秩序。",
+    "precedingConflicts": [
+      "文禄之役(第一阶段)"
+    ]
+  },
+  "belligerents": {
+    "sideA": {
+      "name": "日本联军",
+      "nameEn": "Japanese Coalition",
+      "countries": [
+        {
+          "name": "日本",
+          "entryYear": 1592,
+          "exitYear": 1598
+        }
+      ],
+      "commanders": [
+        {
+          "name": "丰臣秀吉",
+          "role": "太阁",
+          "bio": "日本统一者，发动战争的总指挥"
+        },
+        {
+          "name": "小西行长",
+          "role": "军团指挥官",
+          "bio": "第一军团指挥，负责朝鲜东部战线"
+        },
+        {
+          "name": "加藤清正",
+          "role": "军团指挥官",
+          "bio": "第二军团指挥，负责朝鲜西部战线"
+        },
+        {
+          "name": "宇喜多秀家",
+          "role": "总司令",
+          "bio": "名义上的日军总司令"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "丰臣秀吉",
+          "role": "关白",
+          "bio": "日本实际统治者，战争决策者"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "武士阶级为主，辅以足轻",
+        "organization": "军团制，每军团约2万人",
+        "logistics": "海上补给为主，依赖日本本土运输"
+      },
+      "preWarStrength": {
+        "army": "约15万人",
+        "navy": "约900艘战船",
+        "airForce": "无",
+        "armor": "装备精良，武士盔甲",
+        "specialForces": "忍者部队",
+        "reserves": "约5万人"
+      },
+      "equipment": [
+        {
+          "name": "铁炮",
+          "quantity": "约3万支",
+          "description": "火绳枪，日军主要武器"
+        },
+        {
+          "name": "武士刀",
+          "quantity": "约10万把",
+          "description": "日本传统武器"
+        },
+        {
+          "name": "安宅船",
+          "quantity": "约100艘",
+          "description": "大型战船，装备火炮"
+        }
+      ],
+      "industrialCapacity": "铁炮制造技术先进，能够大规模生产火器",
+      "economicStrength": "日本统一后经济实力增强，但资源有限",
+      "totalCasualties": {
+        "dead": "约10万人",
+        "wounded": "约5万人",
+        "captured": "约1万人",
+        "missing": "约2万人",
+        "civilian": "约10万人"
+      },
+      "warCrimes": [
+        "屠杀朝鲜平民“, ”掠夺朝鲜资源"
+      ],
+      "propaganda": {
+        "slogans": [
+          "征服朝鲜“, ”进攻大明"
+        ],
+        "themes": [
+          "亚洲统一“, ”武士荣耀"
+        ],
+        "methods": [
+          "宣传战争必要性“, ”美化征服行为"
+        ]
+      }
+    },
+    "sideB": {
+      "name": "中朝联军",
+      "nameEn": "Chinese-Korean Coalition",
+      "countries": [
+        {
+          "name": "朝鲜王朝",
+          "entryYear": 1592,
+          "exitYear": 1598
+        },
+        {
+          "name": "明朝",
+          "entryYear": 1592,
+          "exitYear": 1598
+        }
+      ],
+      "commanders": [
+        {
+          "name": "李舜臣",
+          "role": "朝鲜海军统帅",
+          "bio": "朝鲜著名海军将领，龟船发明者"
+        },
+        {
+          "name": "郭再祐",
+          "role": "朝鲜义兵领袖",
+          "bio": "朝鲜民间抵抗运动领袖"
+        },
+        {
+          "name": "李如松",
+          "role": "明军主将",
+          "bio": "明朝名将，第一次反击战指挥官"
+        },
+        {
+          "name": "邢玠",
+          "role": "明军统帅",
+          "bio": "明朝后期将领，第二次反击战总指挥"
+        },
+        {
+          "name": "邓子龙",
+          "role": "明军将领",
+          "bio": "明朝海军将领，与李舜臣共同作战"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "宣祖",
+          "role": "朝鲜国王",
+          "bio": "朝鲜王朝第14代国王"
+        },
+        {
+          "name": "万历皇帝",
+          "role": "明朝皇帝",
+          "bio": "明朝第13位皇帝，决策出兵援朝"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "朝鲜：常备军加义兵；明朝：卫所制加募兵制",
+        "organization": "朝鲜：五军营制；明朝：卫所制",
+        "logistics": "陆路运输为主，依赖明朝补给"
+      },
+      "preWarStrength": {
+        "army": "朝鲜：约5万人；明朝：约10万人",
+        "navy": "朝鲜：约100艘战船；明朝：约300艘战船",
+        "airForce": "无",
+        "armor": "朝鲜：装备简陋；明朝：装备精良",
+        "specialForces": "朝鲜：义兵；明朝：边军",
+        "reserves": "朝鲜：约3万人；明朝：约20万人"
+      },
+      "equipment": [
+        {
+          "name": "朝鲜火铳",
+          "quantity": "约1万支",
+          "description": "朝鲜早期火器"
+        },
+        {
+          "name": "明朝火炮",
+          "quantity": "约500门",
+          "description": "明朝先进火炮"
+        },
+        {
+          "name": "龟船",
+          "quantity": "约10艘",
+          "description": "李舜臣发明的铁甲战船"
+        }
+      ],
+      "industrialCapacity": "明朝手工业发达，能够制造先进火器；朝鲜工业基础薄弱",
+      "economicStrength": "明朝经济实力雄厚；朝鲜经济遭受战争重创",
+      "totalCasualties": {
+        "dead": "朝鲜：约30万人；明朝：约5万人",
+        "wounded": "朝鲜：约10万人；明朝：约3万人",
+        "captured": "朝鲜：约5万人；明朝“: ”约1万人",
+        "missing": "朝鲜：约3万人；明朝“: ”约1万人",
+        "civilian": "朝鲜：约100万人"
+      },
+      "warCrimes": [],
+      "propaganda": {
+        "slogans": [
+          "卫国战争“, ”驱逐倭寇"
+        ],
+        "themes": [
+          "忠君爱国“, ”抵抗侵略"
+        ],
+        "methods": [
+          "宣扬民族英雄“, ”强调正义性"
+        ]
+      }
+    }
+  },
+  "neutralParties": [
+    "女真部落“, ”琉球王国"
+  ],
+  "outcome": {
+    "result": "中朝联军胜利，日军撤出朝鲜半岛",
+    "victoryAnalysis": {
+      "winnerFactors": "中朝联军兵力优势、李舜臣海军战术成功、明朝后勤保障有力、朝鲜义兵顽强抵抗",
+      "loserFactors": "日军补给线过长、瘟疫流行、丰臣秀吉去世导致军心涣散、海军力量不足"
+    },
+    "treaty": {
+      "name": "和平协议",
+      "date": "1598年",
+      "content": "日军完全撤出朝鲜半岛，恢复战前边界，朝鲜向明朝朝贡"
+    },
+    "territorialChanges": "无领土变更，恢复战前边界",
+    "economicCost": "朝鲜经济遭受严重破坏，人口锐减；明朝耗费大量军费",
+    "demographicImpact": "朝鲜人口从战前约200万减少至约100万，大量平民死亡或流离失所"
+  },
+  "legacy": {
+    "significance": "东亚格局重大转折点，延缓了日本对外扩张，巩固了明朝在东亚的宗主地位",
+    "immediateConsequences": "朝鲜王朝国力大衰，明朝财政困难，日本丰臣政权迅速衰落",
+    "longTermImpact": {
+      "political": "朝鲜加强与明朝关系，日本转向国内发展，明朝加速衰落",
+      "military": "推动东亚军事技术发展，特别是海军战术和火器应用",
+      "economic": "朝鲜经济长期衰退，明朝财政危机加剧",
+      "social": "朝鲜社会结构变化，义兵运动兴起，民族意识增强"
+    },
+    "culturalLegacy": {
+      "memorials": [
+        "显忠祠“, ”李舜臣铜像"
+      ],
+      "observances": [
+        "显忠日(10月26日)"
+      ],
+      "media": [
+        "小说《壬辰录》, 电影《鸣梁海战》"
+      ]
+    }
+  },
+  "tags": {
+    "warfareType": [
+      "陆战“, ”海战“, ”游击战"
+    ],
+    "geopolitical": [
+      "东亚格局“, ”宗藩关系"
+    ],
+    "scale": "regional",
+    "cause": [
+      "领土扩张“, ”民族矛盾“, ”政治野心"
+    ]
+  },
+  "relatedWars": [
+    "文禄之役“, ”丁酉再乱“, ”万历援朝战争"
+  ],
+  "sources": [
+    "《朝鲜王朝实录》, 《明史·外国列传》, 《日本战史》"
+  ],
+  "warProcess": {
+    "phases": [
+      {
+        "name": "战争初期",
+        "nameEn": "Early Phase",
+        "startYear": 1592,
+        "endYear": 1593,
+        "summary": "壬辰倭乱初期，日军迅速占领朝鲜半岛大部分地区，明朝援军开始介入，双方展开激烈交锋。",
+        "battles": [
+          {
+            "battleId": "battle_of_pusan",
+            "name": "釜山之战",
+            "nameEn": "Battle of Busan",
+            "startYear": 1592,
+            "endYear": 1592,
+            "coords": [
+              129.0361,
+              35.1006
+            ],
+            "theater": "朝鲜南部",
+            "context": "日军入侵朝鲜的第一战，作为日军登陆朝鲜的第一个据点",
+            "description": "1592年4月，日军小西行长部首先攻击釜山。朝鲜守军虽奋力抵抗，但装备和训练均不及日军，最终釜山陷落。此战标志着壬辰倭乱的正式开始，日军以此为据点向汉城推进。",
+            "result": "日军胜利",
+            "significance": "日军成功登陆朝鲜，为后续进军奠定基础",
+            "casualties": {
+              "sideA": "约3000人",
+              "sideB": "约1000人"
+            },
+            "forces": {
+              "sideA": "约1.8万日军",
+              "sideB": "约1万朝鲜军"
+            },
+            "commanders": [
+              {
+                "name": "小西行长",
+                "role": "日军指挥官",
+                "side": "sideB"
+              },
+              {
+                "name": "郑拨",
+                "role": "朝鲜守将",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_tongnae",
+            "name": "居昌之战",
+            "nameEn": "Battle of Tongnae",
+            "startYear": 1592,
+            "endYear": 1592,
+            "coords": [
+              128.8689,
+              35.5397
+            ],
+            "theater": "庆尚南道",
+            "context": "日军占领釜山后向内陆推进的关键战役",
+            "description": "1592年5月，日军继续向北推进，在居昌与朝鲜军队交战。朝鲜军队在此战中组织了有效抵抗，利用地形优势阻击日军，但最终因装备差距和战术劣势不敌日军，居昌失守。",
+            "result": "日军胜利",
+            "significance": "日军突破朝鲜南部防线，向汉城方向推进",
+            "casualties": {
+              "sideA": "约2000人",
+              "sideB": "约1500人"
+            },
+            "forces": {
+              "sideA": "约1.2万日军",
+              "sideB": "约8000朝鲜军"
+            },
+            "commanders": [
+              {
+                "name": "加藤清正",
+                "role": "日军指挥官",
+                "side": "sideB"
+              },
+              {
+                "name": "金时敏",
+                "role": "朝鲜将领",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_sachon",
+            "name": "泗川之战",
+            "nameEn": "Battle of Sachon",
+            "startYear": 1592,
+            "endYear": 1592,
+            "coords": [
+              128.0167,
+              35.1667
+            ],
+            "theater": "庆尚南道",
+            "context": "日军向全罗道进军途中的重要战役",
+            "description": "1592年6月，日军向全罗道进军途中在泗川与朝鲜军队交战。朝鲜军队在此战中采用了游击战术，利用地形优势骚扰日军，但最终还是不敌日军精锐部队，泗川失守，日军得以继续向全罗道推进。",
+            "result": "日军胜利",
+            "significance": "日军控制庆尚南道，威胁全罗道",
+            "casualties": {
+              "sideA": "约1800人",
+              "sideB": "约1200人"
+            },
+            "forces": {
+              "sideA": "约1万日军",
+              "sideB": "约6000朝鲜军"
+            },
+            "commanders": [
+              {
+                "name": "岛津义弘",
+                "role": "日军指挥官",
+                "side": "sideB"
+              },
+              {
+                "name": "黄进",
+                "role": "朝鲜将领",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_haengju",
+            "name": "幸州山城之战",
+            "nameEn": "Battle of Haengju",
+            "startYear": 1593,
+            "endYear": 1593,
+            "coords": [
+              126.9667,
+              37.6167
+            ],
+            "theater": "京畿道",
+            "context": "明朝援军抵达后，朝鲜军队在汉城附近的重要防御战",
+            "description": "1593年2月，日军进攻汉城附近的幸州山城。朝鲜名将权栗率领约3000守军，利用山城地形优势，多次击退日军进攻。日军伤亡惨重，最终被迫撤退，此战是朝鲜军队在战争初期取得的重大胜利。",
+            "result": "朝鲜胜利",
+            "significance": "朝鲜军队首次取得重大胜利，鼓舞了士气",
+            "casualties": {
+              "sideA": "约6000人",
+              "sideB": "约500人"
+            },
+            "forces": {
+              "sideA": "约2万日军",
+              "sideB": "约3000朝鲜军"
+            },
+            "commanders": [
+              {
+                "name": "宇喜多秀家",
+                "role": "日军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "权栗",
+                "role": "朝鲜守将",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_pyongyang",
+            "name": "平壤之战",
+            "nameEn": "Battle of Pyongyang",
+            "startYear": 1592,
+            "endYear": 1593,
+            "coords": [
+              125.7569,
+              39.0392
+            ],
+            "theater": "平安道",
+            "context": "明朝援军与日军在朝鲜北部的决定性战役",
+            "description": "1592年底至1593年初，明朝援军与日军在平壤展开激战。明朝将领李如松率领约4万明军与朝鲜联军，采用火器优势，经过激烈战斗收复平壤。此战是明朝援军首次大规模参战，标志着战争初期局势的转变。",
+            "result": "明朝-朝鲜联军胜利",
+            "significance": "明朝援军首次重大胜利，收复平壤，扭转战局",
+            "casualties": {
+              "sideA": "约1万人",
+              "sideB": "约8000人"
+            },
+            "forces": {
+              "sideA": "约2万日军",
+              "sideB": "约4万明军和朝鲜联军"
+            },
+            "commanders": [
+              {
+                "name": "小西行长",
+                "role": "日军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "李如松",
+                "role": "明军主将",
+                "side": "sideB"
+              },
+              {
+                "name": "李舜臣",
+                "role": "朝鲜海军支援",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争后期",
+        "nameEn": "Later Phase",
+        "startYear": 1597,
+        "endYear": 1598,
+        "summary": "1597年，日军再次入侵朝鲜，明朝增援部队与朝鲜军队联合抵抗。战争后期，联军逐渐掌握主动权，最终在露梁海战中决定性地击败了日本海军，迫使日军撤退，结束了长达七年的战争。",
+        "battles": [
+          {
+            "battleId": "siege-of-namwon",
+            "name": "南原之战",
+            "nameEn": "Siege of Namwon",
+            "startYear": 1597,
+            "endYear": 1597,
+            "coords": [
+              127.6667,
+              35.0333
+            ],
+            "theater": "全罗道",
+            "context": "日军第二次入侵朝鲜后，迅速占领南原城，作为进攻全罗道的基地。",
+            "description": "1597年7月，日军小西行长率军包围南原城。明军杨镐率军增援未果，城内守军包括明军和朝鲜军约3000人。日军发动猛烈攻势，守军顽强抵抗，最终城破。",
+            "result": "日军占领南原城",
+            "significance": "日军控制了全罗道门户，为后续进攻创造条件，但守军英勇抵抗延缓了日军攻势。",
+            "casualties": {
+              "sideA": "约2500人",
+              "sideB": "约1000人"
+            },
+            "forces": {
+              "sideA": "约3000人",
+              "sideB": "约20000人"
+            },
+            "commanders": [
+              {
+                "name": "杨镐",
+                "role": "明军将领",
+                "side": "sideA"
+              },
+              {
+                "name": "小西行长",
+                "role": "日军将领",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-haengju",
+            "name": "幸州山城之战",
+            "nameEn": "Battle of Haengju",
+            "startYear": 1597,
+            "endYear": 1597,
+            "coords": [
+              126.9333,
+              37.6333
+            ],
+            "theater": "京畿道",
+            "context": "日军占领汉城后，试图进一步扩大控制区域，进攻幸州山城。",
+            "description": "1597年2月，日军宇喜多秀家率军约2万人围攻幸州山城。朝鲜军队约3000人在权栗指挥下，利用地形优势，使用火器和滚木礌石顽强抵抗。日军多次进攻均被击退，最终撤退。",
+            "result": "朝鲜军成功防守",
+            "significance": "朝鲜军队以少胜多，极大鼓舞了士气，成为战争后期朝鲜军的重要胜利之一。",
+            "casualties": {
+              "sideA": "约100人",
+              "sideB": "约10000人"
+            },
+            "forces": {
+              "sideA": "约3000人",
+              "sideB": "约20000人"
+            },
+            "commanders": [
+              {
+                "name": "权栗",
+                "role": "朝鲜将领",
+                "side": "sideA"
+              },
+              {
+                "name": "宇喜多秀家",
+                "role": "日军将领",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-chilcheollyang",
+            "name": "稷仓里之战",
+            "nameEn": "Battle of Chilcheollyang",
+            "startYear": 1597,
+            "endYear": 1597,
+            "coords": [
+              126.5,
+              34.8333
+            ],
+            "theater": "全罗道",
+            "context": "明朝水师试图切断日军海上补给线，与日本水师在稷仓里海域展开激战。",
+            "description": "1597年8月，明朝水师陈璘率军与日本水师在稷仓里海域遭遇。日军利用火攻战术，击沉明军大量战船，明军损失惨重，被迫撤退。",
+            "result": "日军胜利",
+            "significance": "此战是日军在战争后期的重要海上胜利，暂时恢复了海上优势，但为后续露梁海战埋下伏笔。",
+            "casualties": {
+              "sideA": "约8000人",
+              "sideB": "约1000人"
+            },
+            "forces": {
+              "sideA": "约100艘战船",
+              "sideB": "约500艘战船"
+            },
+            "commanders": [
+              {
+                "name": "陈璘",
+                "role": "明军水师将领",
+                "side": "sideA"
+              },
+              {
+                "name": "藤堂高虎",
+                "role": "日军水师将领",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-noryang",
+            "name": "露梁海战",
+            "nameEn": "Battle of Noryang",
+            "startYear": 1598,
+            "endYear": 1598,
+            "coords": [
+              129.5,
+              34.8333
+            ],
+            "theater": "庆尚道",
+            "context": "日军决定撤出朝鲜，联合舰队掩护撤退，与中朝联军在露梁海域展开决战。",
+            "description": "1598年12月，明朝水师邓子龙和朝鲜水师李舜臣率联军与日本水师在露梁海域激战。联军利用火攻和夜战战术，击沉大量日军战船。李舜臣与邓子龙均在此战中牺牲，但日军遭受重创，被迫撤退。",
+            "result": "联军胜利",
+            "significance": "此战是壬辰倭乱的最后一次大规模战役，日军遭受毁灭性打击，被迫完全撤出朝鲜，战争结束。",
+            "casualties": {
+              "sideA": "约800人",
+              "sideB": "约12000人"
+            },
+            "forces": {
+              "sideA": "约150艘战船",
+              "sideB": "约500艘战船"
+            },
+            "commanders": [
+              {
+                "name": "李舜臣",
+                "role": "朝鲜水师将领",
+                "side": "sideA"
+              },
+              {
+                "name": "邓子龙",
+                "role": "明军水师将领",
+                "side": "sideA"
+              },
+              {
+                "name": "岛津义弘",
+                "role": "日军水师将领",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "majorBattles": []
+  },
+  "timeline": [
+    {
+      "year": 1589,
+      "event": "丰臣秀吉统一日本",
+      "type": "leadership",
+      "description": "丰臣秀吉完成日本统一，成为实际统治者，开始对外扩张计划",
+      "impact": "为壬辰倭乱奠定了军事基础，秀吉获得足够的资源和军队发动大规模对外战争"
+    },
+    {
+      "year": 1590,
+      "event": "小田原之战",
+      "type": "decision",
+      "description": "丰臣秀吉击败北条氏，完成日本全国统一",
+      "impact": "消除了国内反对势力，使秀吉能够集中全部力量准备对外战争"
+    },
+    {
+      "year": 1591,
+      "event": "秀吉提出征服朝鲜和明朝计划",
+      "type": "crisis",
+      "description": "丰臣秀吉提出“征韩计划”，计划先征服朝鲜，再进攻明朝",
+      "impact": "标志着日本正式准备发动对外侵略战争，朝鲜和明朝面临严重威胁"
+    },
+    {
+      "year": 1591,
+      "event": "朝鲜拒绝日本假道要求",
+      "type": "diplomacy",
+      "description": "日本要求朝鲜假道进攻明朝，朝鲜国王宣祖拒绝",
+      "impact": "导致日朝关系恶化，成为倭乱爆发的直接导火索"
+    },
+    {
+      "year": 1592,
+      "event": "日军釜山登陆",
+      "type": "decision",
+      "description": "丰臣秀吉命令日军在釜山登陆，正式入侵朝鲜",
+      "impact": "壬辰倭乱爆发，朝鲜军队猝不及防，汉城迅速陷落，朝鲜王朝面临存亡危机"
+    },
+    {
+      "year": 1598,
+      "event": "明朝援军撤退",
+      "type": "decision",
+      "description": "明朝在战争结束后撤回大部分援军，仅保留少量驻军",
+      "impact": "朝鲜防御能力大幅下降，为后金崛起创造条件"
+    },
+    {
+      "year": 1607,
+      "event": "光海君即位",
+      "type": "leadership",
+      "description": "朝鲜宣祖去世，光海君李珒即位",
+      "impact": "朝鲜开始调整对明政策，试图在明朝与后金之间寻求平衡"
+    },
+    {
+      "year": 1616,
+      "event": "后金建立",
+      "type": "crisis",
+      "description": "努尔哈赤建立后金政权，威胁明朝和朝鲜",
+      "impact": "朝鲜面临新的安全威胁，被迫重新评估与明朝的关系"
+    },
+    {
+      "year": 1623,
+      "event": "仁祖反正",
+      "type": "decision",
+      "description": "朝鲜发生政变，光海君被废，仁祖李倧即位",
+      "impact": "朝鲜重新亲明政策，加剧与后金的紧张关系"
+    },
+    {
+      "year": 1627,
+      "event": "丁卯胡乱",
+      "type": "crisis",
+      "description": "后金皇太极第一次入侵朝鲜",
+      "impact": "朝鲜被迫与后金结盟，接受后金的宗主权，但仍暗中保持与明朝的联系"
+    }
+  ]
+}

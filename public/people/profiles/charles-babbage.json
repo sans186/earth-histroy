@@ -1,0 +1,108 @@
+{
+  "personId": "charles-babbage",
+  "name": "查尔斯·巴贝奇",
+  "nameEn": "Charles Babbage",
+  "birth": 1791,
+  "death": 1871,
+  "nationality": "英国",
+  "nationalityEn": "United Kingdom",
+  "totalPoints": 5,
+  "points": [
+    {
+      "year": 1791,
+      "yearEnd": 1810,
+      "place": "伦敦",
+      "placeEn": "London",
+      "coords": [
+        -0.127758,
+        51.507351
+      ],
+      "title": "早期教育",
+      "titleEn": "Early Education",
+      "description": "查尔斯·巴贝奇出生于伦敦一个富裕银行家家庭。童年时期接受了良好的教育，在私人学校学习后进入恩菲尔德学院。1808年进入剑桥大学三一学院，后转至彼得豪斯学院。在剑桥期间，他对数学产生了浓厚兴趣，并发现了当时使用的数学教材存在错误，这促使他开始研究数学分析。这段教育经历奠定了他后来在数学和工程学领域的基础，培养了他对精确计算和机械设计的早期兴趣。",
+      "descriptionEn": "Charles Babbage was born in London to a wealthy banking family. He received an excellent education, first at private schools and then at the Enfield Academy. In 1808, he entered Trinity College, Cambridge, later transferring to Peterhouse. During his time at Cambridge, he developed a keen interest in mathematics and discovered errors in the mathematical textbooks of the time, which prompted him to begin studying mathematical analysis. This educational period laid the foundation for his later work in mathematics and engineering, nurturing his early interest in precise calculation and mechanical design."
+    },
+    {
+      "year": 1812,
+      "yearEnd": 1827,
+      "place": "剑桥",
+      "placeEn": "Cambridge",
+      "coords": [
+        0.0866,
+        52.2053
+      ],
+      "title": "学术生涯",
+      "titleEn": "Academic Career",
+      "description": "1812年，巴贝奇与几位同学创立了分析学会，致力于引入欧洲大陆的先进数学方法到英国。1816年成为英国皇家学会会员。1827年，在父亲去世后继承了大笔遗产，使他能够自由追求自己的研究兴趣。在剑桥期间，他开始构思差分机的设计，这是一种能够自动计算多项式函数的机械装置。他还发表了多篇关于微积分、函数理论和概率论的论文，在数学界建立了声誉。这一时期他开始将数学理论与机械工程相结合，为后来的计算机发明奠定了基础。",
+      "descriptionEn": "In 1812, Babbage founded the Analytical Society with several classmates, dedicated to introducing advanced European mathematical methods to Britain. He became a Fellow of the Royal Society in 1816. After his father's death in 1827, he inherited a substantial fortune that allowed him to freely pursue his research interests. During his time at Cambridge, he began conceiving the design of the Difference Engine, a mechanical device capable of automatically calculating polynomial functions. He also published numerous papers on calculus, function theory, and probability, establishing a reputation in the mathematical community. During this period, he began combining mathematical theory with mechanical engineering, laying the foundation for his later computer inventions."
+    },
+    {
+      "year": 1828,
+      "yearEnd": 1839,
+      "place": "伦敦",
+      "placeEn": "London",
+      "coords": [
+        -0.127758,
+        51.507351
+      ],
+      "title": "差分机研制",
+      "titleEn": "Difference Engine Development",
+      "description": "1828年，巴贝奇被任命为剑桥大学卢卡斯数学教授，但他大部分时间都在伦敦从事研究工作。1829年，他开始着手建造差分机，这是一种能够自动计算数学表格的机械装置。1833年，他获得了英国政府的资助，获得了17,000英镑的拨款（相当于今天的约150万英镑）。然而，由于当时精密制造技术的限制和项目成本不断上升，差分机最终未能完成。尽管如此，巴贝奇的设计理念是革命性的，他提出了使用打孔卡片输入数据、自动执行计算并打印结果的系统，这被认为是现代计算机的先驱。这一时期的工作虽然未能完全实现，但奠定了现代计算理论的基础。",
+      "descriptionEn": "In 1828, Babbage was appointed Lucasian Professor of Mathematics at Cambridge University, but he spent most of his time conducting research in London. In 1829, he began work on constructing the Difference Engine, a mechanical device capable of automatically calculating mathematical tables. In 1833, he secured funding from the British government, receiving a grant of £17,000 (equivalent to approximately £1.5 million today). However, due to limitations in precision manufacturing technology of the time and rising project costs, the Difference Engine was never completed. Despite this, Babbage's design concepts were revolutionary; he proposed using punched cards for data input, automatic execution of calculations, and printing of results, which is considered a precursor to modern computers. This period of work, though not fully realized, laid the foundation for modern computing theory."
+    },
+    {
+      "year": 1839,
+      "yearEnd": 1851,
+      "place": "伦敦",
+      "placeEn": "London",
+      "coords": [
+        -0.127758,
+        51.507351
+      ],
+      "title": "分析机构想",
+      "titleEn": "Analytical Engine Vision",
+      "description": "在差分机项目陷入困境后，巴贝奇转向了更具野心的分析机设计。分析机是一种通用计算机，能够执行各种计算任务，而不仅仅是特定函数的计算。他引入了现代计算机的许多核心概念，包括存储器、处理器、输入和输出设备。巴贝奇与助手艾达·洛夫莱斯密切合作，后者为分析机编写了第一个算法程序。1842年，巴贝奇出版了《一台用于计算天文和数学表格的机器的思考》，详细描述了他的设计理念。尽管分析机从未被完全建造出来，但它的设计包含了现代计算机的基本原理，包括编程、条件分支和循环等概念。这一时期的工作使巴贝奇被誉为'计算机之父'。",
+      "descriptionEn": "After the Difference Engine project encountered difficulties, Babbage turned to designing the more ambitious Analytical Engine. The Analytical Engine was a general-purpose computer capable of performing various computational tasks, not just calculating specific functions. He introduced many core concepts of modern computers, including memory, processor, input, and output devices. Babbage worked closely with his assistant Ada Lovelace, who wrote the first algorithmic programs for the Analytical Engine. In 1842, Babbage published 'Reflections on the Decline of Science in England,' in which he detailed his design concepts. Although the Analytical Engine was never fully constructed, its design contained the basic principles of modern computers, including programming, conditional branching, and loops. This period of work earned Babbage the title 'Father of Computing.'"
+    },
+    {
+      "year": 1852,
+      "yearEnd": 1871,
+      "place": "伦敦",
+      "placeEn": "London",
+      "coords": [
+        -0.127758,
+        51.507351
+      ],
+      "title": "晚年研究与遗产",
+      "titleEn": "Later Research and Legacy",
+      "description": "晚年时期，巴贝奇继续他的研究工作，同时参与多种社会活动。他撰写了大量关于科学、技术和经济的著作，包括《英国科学衰退的反思》和《哲学家的人生》。他还对密码学、铁路和灯塔设计等领域做出了贡献。巴贝奇还热衷于改革，包括反对街头音乐和科学欺诈。1871年，巴贝奇在伦敦逝世。在他去世后，他的设计理念逐渐被世人理解和重视。20世纪，随着电子计算机的发展，人们重新认识到巴贝奇工作的前瞻性。1991年，伦敦科学博物馆根据巴贝奇的设计成功建造了差分机，证明了他的设计是可行的。今天，巴贝奇被公认为计算机科学的先驱，他的思想和设计为现代计算机的发展奠定了基础。",
+      "descriptionEn": "In his later years, Babbage continued his research work while engaging in various social activities. He wrote extensively on science, technology, and economics, including works such as 'Reflections on the Decline of Science in England' and 'The Life of a Philosopher.' He also made contributions to fields such as cryptography, railway engineering, and lighthouse design. Babbage was also an advocate for reform, opposing street music and scientific fraud. Babbage passed away in London in 1871. After his death, his design concepts gradually gained understanding and recognition. In the 20th century, with the development of electronic computers, people rediscovered the forward-thinking nature of Babbage's work. In 1991, the Science Museum in London successfully constructed a Difference Engine based on Babbage's designs, proving that his designs were feasible. Today, Babbage is widely recognized as a pioneer of computer science, and his ideas and designs laid the foundation for the development of modern computers."
+    }
+  ],
+  "evaluation": {
+    "supporter": {
+      "zh": "查尔斯·巴贝奇被誉为'计算机之父'，他的前瞻性思维和创新能力彻底改变了计算技术的历史进程。支持者认为，巴贝奇设计的差分机和分析机包含了现代计算机的所有基本概念，包括存储、处理、输入输出和编程。他的工作不仅为后来的计算机科学奠定了理论基础，还展示了机械计算的可能性。巴贝奇还推动了科学方法的标准化和数据处理的自动化，这些理念对现代信息社会产生了深远影响。他的跨学科思维和对精确计算的追求，使他成为科技史上最具远见的人物之一。",
+      "en": "Charles Babbage is hailed as the 'Father of Computing,' and his forward-thinking and innovative approach revolutionized the course of computing history. Supporters argue that Babbage's Difference Engine and Analytical Engine contained all the fundamental concepts of modern computers, including memory, processing, input/output, and programming. His work not only laid the theoretical foundation for later computer science but also demonstrated the possibility of mechanical computation. Babbage also promoted the standardization of scientific methods and automation of data processing, concepts that have had a profound impact on modern information society. His interdisciplinary thinking and pursuit of precise calculation make him one of the most visionary figures in technological history."
+    },
+    "critic": {
+      "zh": "批评者指出，巴贝奇的项目存在严重的管理和执行问题。他的差分机项目耗费了大量政府资金却未能完成，反映了他在项目管理上的不足。此外，巴贝奇的性格也被描述为难以相处，他与工匠和资助者的关系紧张，导致项目进展受阻。批评者还认为，巴贝奇过于理想化，低估了制造精密机械的技术挑战，高估了当时工业能力能够达到的精度。他的分析机虽然概念先进，但在当时的技术条件下完全实现是不可能的。这些批评者认为，巴贝奇的名誉部分来自于后人的理想化，而非他实际完成的成就。",
+      "en": "Critics point out that Babbage's projects suffered from significant management and execution problems. His Difference Engine project consumed substantial government funds without completion, reflecting deficiencies in his project management. Additionally, Babbage's personality was described as difficult, and his tense relationships with craftsmen and funders hindered project progress. Critics also argue that Babbage was overly idealistic, underestimating the technical challenges of manufacturing precision machinery and overestimating the capabilities of contemporary industrial technology. While his Analytical Engine was conceptually advanced, it was impossible to fully realize with the technology of his time. These critics suggest that Babbage's reputation is partly due to idealization by later generations rather than his actual achievements."
+    },
+    "objective": {
+      "zh": "从历史和流行文化视角看，巴贝奇被定位为科技史上的关键过渡人物。他代表了从机械计算到电子计算的重要桥梁，其思想超前于时代近一个世纪。在学术界，巴贝奇被视为计算理论的开创者，他的工作影响了后来的计算机科学家如艾伦·图灵。在流行文化中，巴贝奇常被描绘为孤独的天才形象，与艾达·洛夫莱斯的故事成为科技史上的经典叙事。现代研究表明，巴贝奇的设计确实可行，1991年建造的差分机证明了这一点。巴贝奇的遗产不仅在于他的发明，更在于他展示的跨学科思维和对计算本质的深刻理解，这种思维方式至今仍影响着科技创新的方向。",
+      "en": "From historical and cultural perspectives, Babbage is positioned as a pivotal transitional figure in the history of technology. He represents an important bridge from mechanical to electronic computation, with his ideas being nearly a century ahead of his time. Academically, Babbage is regarded as a founder of computing theory, and his work influenced later computer scientists such as Alan Turing. In popular culture, Babbage is often depicted as a lonely genius figure, with his story alongside Ada Lovelace becoming a classic narrative in technological history. Modern research has shown that Babbage's designs were indeed feasible, as proven by the Difference Engine constructed in 1991. Babbage's legacy lies not only in his inventions but in his demonstration of interdisciplinary thinking and deep understanding of the nature of computation, a way of thinking that continues to influence the direction of technological innovation today."
+    }
+  },
+  "quotes": {
+    "self": {
+      "zh": "我发现错误比发现真理更容易，因为错误存在于各种形式中，而真理通常只有一个。",
+      "en": "I find that errors are easier to discover than truth, because errors exist in various forms, while truth is usually one."
+    },
+    "others": {
+      "zh": "巴贝奇先生设计的分析机包含了现代计算机的所有基本原理，除了电的使用外，它包含了巴贝奇时代之后的所有计算机的基本原理。",
+      "en": "Mr. Babbage's Analytical Engine contains the elementary principles of all modern computers, except for the use of electricity; it contains all the principles of the modern computer except that of electricity."
+    }
+  },
+  "othersBy": "艾伦·图灵",
+  "othersByEn": "Alan Turing"
+}

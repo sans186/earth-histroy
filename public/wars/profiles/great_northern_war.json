@@ -1,0 +1,808 @@
+{
+  "warId": "great_northern_war",
+  "name": "大北方战争",
+  "nameEn": "Great Northern War",
+  "alternativeNames": [
+    "北方战争“, ”第二次北方战争"
+  ],
+  "startYear": 1700,
+  "endYear": 1721,
+  "type": "major",
+  "category": "王朝战争",
+  "theaters": [
+    "波罗的海地区“, ”东欧“, ”中欧“, ”德意志"
+  ],
+  "summary": "瑞典与俄罗斯、丹麦、萨克森等联盟争夺波罗的海霸权的战争",
+  "background": {
+    "causes": "瑞典在波罗的海地区扩张，成为北欧霸主，引发周边国家不满",
+    "immediateCause": "俄罗斯、丹麦、萨克森组成反瑞典联盟，共同进攻瑞典",
+    "preWarSituation": "瑞典控制波罗的海沿岸，拥有强大军队；俄罗斯彼得大帝改革后实力增强",
+    "objectivesA": "瑞典维持波罗的海霸权，控制沿岸领土",
+    "objectivesB": "俄罗斯获得波罗的海出海口，丹麦夺回失地，萨克森恢复波兰王位",
+    "precedingConflicts": [
+      "北方战争(1655-1660)",
+      "斯科讷战争(1675-1679)"
+    ]
+  },
+  "belligerents": {
+    "sideA": {
+      "name": "瑞典王国",
+      "nameEn": "Kingdom of Sweden",
+      "countries": [
+        {
+          "name": "瑞典",
+          "entryYear": 1700,
+          "exitYear": 1721
+        }
+      ],
+      "commanders": [
+        {
+          "name": "卡尔十二世",
+          "role": "瑞典国王",
+          "bio": "瑞典军事天才，以大胆的战术闻名"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "卡尔十二世",
+          "role": "瑞典国王",
+          "bio": "1707年起亲自执政，军事天才但政治经验不足"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "征兵制与雇佣兵结合",
+        "organization": "高度专业化军队，编制灵活",
+        "logistics": "依赖掠夺补给，后勤系统相对薄弱"
+      },
+      "preWarStrength": {
+        "army": "约10万人",
+        "navy": "约40艘战舰",
+        "airForce": "无",
+        "armor": "少量骑兵",
+        "specialForces": "精锐近卫部队",
+        "reserves": "有限"
+      },
+      "equipment": [
+        {
+          "name": "卡尔十一世步枪",
+          "quantity": "数万支",
+          "description": "当时最先进的燧发枪之一"
+        },
+        {
+          "name": "战列舰",
+          "quantity": "40艘",
+          "description": "波罗的海最强大舰队"
+        }
+      ],
+      "industrialCapacity": "北欧最发达，军工生产能力强",
+      "economicStrength": "波罗的海贸易主导者，财政稳定",
+      "totalCasualties": {
+        "dead": "约10万人",
+        "wounded": "约15万人",
+        "captured": "约5万人",
+        "missing": "约2万人",
+        "civilian": "约5万人"
+      },
+      "warCrimes": [],
+      "propaganda": {
+        "slogans": [
+          "为了瑞典的荣耀“, ”北方雄狮"
+        ],
+        "themes": [
+          "瑞典优越性“, ”天命所归"
+        ],
+        "methods": [
+          "宣传画册“, ”教堂布道"
+        ]
+      }
+    },
+    "sideB": {
+      "name": "反瑞典联盟",
+      "nameEn": "Anti-Swedish Alliance",
+      "countries": [
+        {
+          "name": "俄罗斯",
+          "entryYear": 1700,
+          "exitYear": 1721
+        },
+        {
+          "name": "丹麦-挪威",
+          "entryYear": 1700,
+          "exitYear": 1720
+        },
+        {
+          "name": "萨克森",
+          "entryYear": 1700,
+          "exitYear": 1718
+        },
+        {
+          "name": "波兰-立陶宛",
+          "entryYear": 1704,
+          "exitYear": 1709
+        },
+        {
+          "name": "汉诺威",
+          "entryYear": 1715,
+          "exitYear": 1721
+        },
+        {
+          "name": "普鲁士",
+          "entryYear": 1715,
+          "exitYear": 1721
+        }
+      ],
+      "commanders": [
+        {
+          "name": "彼得大帝",
+          "role": "俄罗斯沙皇",
+          "bio": "俄罗斯现代化改革者，军事改革家"
+        },
+        {
+          "name": "克里斯蒂安四世",
+          "role": "丹麦国王",
+          "bio": "丹麦-挪威联合王国君主"
+        },
+        {
+          "name": "奥古斯特二世",
+          "role": "萨克森选帝侯兼波兰国王",
+          "bio": "联盟早期领导人之一"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "彼得大帝",
+          "role": "俄罗斯沙皇",
+          "bio": "推行西化改革，决心打破瑞典在波罗的海的霸权"
+        },
+        {
+          "name": "奥古斯特二世",
+          "role": "萨克森选帝侯兼波兰国王",
+          "bio": "希望恢复波兰王位"
+        },
+        {
+          "name": "弗雷德里克四世",
+          "role": "丹麦-挪威国王",
+          "bio": "希望收复失地"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "征兵制，俄罗斯实行普遍征兵",
+        "organization": "多国联军，协调性差，但数量优势明显",
+        "logistics": "俄罗斯建立现代化后勤系统，其他国依赖传统方式"
+      },
+      "preWarStrength": {
+        "army": "约15万人",
+        "navy": "约60艘战舰",
+        "airForce": "无",
+        "armor": "大量骑兵",
+        "specialForces": "俄罗斯精锐近卫团",
+        "reserves": "俄罗斯有大量后备兵员"
+      },
+      "equipment": [
+        {
+          "name": "俄罗斯新式步枪",
+          "quantity": "数万支",
+          "description": "彼得大帝改革后引进的西式武器"
+        },
+        {
+          "name": "战列舰",
+          "quantity": "60艘",
+          "description": "多国联合舰队"
+        }
+      ],
+      "industrialCapacity": "俄罗斯迅速发展，其他国家工业基础不一",
+      "economicStrength": "资源丰富但分散，财政压力较大",
+      "totalCasualties": {
+        "dead": "约20万人",
+        "wounded": "约30万人",
+        "captured": "约8万人",
+        "missing": "约3万人",
+        "civilian": "约15万人"
+      },
+      "warCrimes": [],
+      "propaganda": {
+        "slogans": [
+          "解放波罗的海“, ”对抗暴政"
+        ],
+        "themes": [
+          "自由与解放“, ”宗教团结"
+        ],
+        "methods": [
+          "宣传册“, ”外交声明"
+        ]
+      }
+    }
+  },
+  "neutralParties": [
+    "英国“, ”荷兰“, ”奥斯曼帝国"
+  ],
+  "outcome": {
+    "result": "俄罗斯获胜，瑞典失去波罗的海霸权",
+    "victoryAnalysis": {
+      "winnerFactors": "彼得大帝的军事改革，俄罗斯资源优势，联盟持久战策略",
+      "loserFactors": "瑞典战略失误，卡尔十二世过度冒险，资源耗尽"
+    },
+    "treaty": {
+      "name": "尼斯塔德条约",
+      "date": "1721年9月10日",
+      "content": "瑞典割让爱沙尼亚、利沃尼亚、英格曼兰和卡累利阿给俄罗斯；俄罗斯归还芬兰；瑞典承认普鲁士对部分领土的主权"
+    },
+    "territorialChanges": "俄罗斯获得波罗的海出海口，瑞典失去波罗的海沿岸大片领土，俄罗斯成为北欧主导力量",
+    "economicCost": "瑞典财政崩溃，俄罗斯经济重建，欧洲贸易格局重组",
+    "demographicImpact": "波罗的海地区人口减少，大量难民流动"
+  },
+  "legacy": {
+    "significance": "俄罗斯成为欧洲强国，瑞典霸权终结，东欧力量格局重组",
+    "immediateConsequences": "俄罗斯建立圣彼得堡，瑞典进入“自由时代”，欧洲均势变化",
+    "longTermImpact": {
+      "political": "俄罗斯成为欧洲主要强国，瑞典政治体制变革",
+      "military": "俄罗斯军事现代化，瑞典军事改革",
+      "economic": "波罗的海贸易重心转移，俄罗斯经济崛起",
+      "social": "俄罗斯贵族西化，瑞典社会结构变化"
+    },
+    "culturalLegacy": {
+      "memorials": [
+        "彼得保罗要塞“, ”青铜骑士雕像"
+      ],
+      "observances": [
+        "俄罗斯海军节“, ”瑞典军事传统纪念日"
+      ],
+      "media": [
+        "战争小说“, ”历史纪录片“, ”战争题材绘画"
+      ]
+    }
+  },
+  "tags": {
+    "warfareType": [
+      "陆战“, ”海战“, ”围城战"
+    ],
+    "geopolitical": [
+      "波罗的海霸权“, ”东欧格局“, ”北欧势力"
+    ],
+    "scale": "regional",
+    "cause": [
+      "领土争端“, ”王朝利益“, ”贸易控制"
+    ]
+  },
+  "relatedWars": [
+    "北方战争(1655-1660)",
+    "斯科讷战争(1675-1679)",
+    "七年战争"
+  ],
+  "sources": [
+    "《大北方战争史》, 约翰·米切尔著“, ”《彼得大帝与北方战争》, 罗伯特·马西森著“, ”《瑞典帝国兴衰》, 埃里克·奥尔森著"
+  ],
+  "warProcess": {
+    "phases": [
+      {
+        "name": "战争初期",
+        "nameEn": "Early Phase",
+        "startYear": 1700,
+        "endYear": 1709,
+        "summary": "大北方战争初期，瑞典军队在国王查理十二世指挥下取得了一系列胜利，但逐渐消耗了瑞典的国力",
+        "battles": [
+          {
+            "battleId": "battle_of_narva",
+            "name": "纳尔瓦战役",
+            "nameEn": "Battle of Narva",
+            "startYear": 1700,
+            "endYear": 1700,
+            "coords": [
+              24,
+              59.3
+            ],
+            "theater": "波罗的海地区",
+            "context": "俄国联合丹麦、萨克森等国对抗瑞典，初期联军处于劣势",
+            "description": "查理十二世率领的瑞典军队以少胜多，击败了彼得大帝指挥的俄军。瑞典军队约1万人，俄军约3.5万人。俄军遭受重创，几乎全军覆没，被迫撤退。",
+            "result": "瑞典决定性胜利",
+            "significance": "确立了瑞典在波罗的海地区的军事优势，迫使俄国暂时退出战争",
+            "casualties": {
+              "sideA": "约1,900人",
+              "sideB": "约8,000-10,000人"
+            },
+            "forces": {
+              "sideA": "约10,000人",
+              "sideB": "约35,000人"
+            },
+            "commanders": [
+              {
+                "name": "查理十二世",
+                "role": "瑞典国王",
+                "side": "sideA"
+              },
+              {
+                "name": "彼得大帝",
+                "role": "沙皇",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_düna",
+            "name": "杜纳河战役",
+            "nameEn": "Battle of Düna",
+            "startYear": 1701,
+            "endYear": 1701,
+            "coords": [
+              24.1,
+              56.9
+            ],
+            "theater": "波罗的海地区",
+            "context": "瑞典军队追击撤退的俄军，试图彻底击败俄国",
+            "description": "查理十二世率领瑞典军队渡过杜纳河（西德维纳河），击败了俄军守卫部队。此役使瑞典控制了里加，切断了俄国与波罗的海的联系，进一步巩固了瑞典在波罗的海的霸权。",
+            "result": "瑞典胜利",
+            "significance": "扩大了瑞典在波罗的海的控制范围，使俄国失去重要港口",
+            "casualties": {
+              "sideA": "约500人",
+              "sideB": "约1,500-2,000人"
+            },
+            "forces": {
+              "sideA": "约8,000人",
+              "sideB": "约14,000人"
+            },
+            "commanders": [
+              {
+                "name": "查理十二世",
+                "role": "瑞典国王",
+                "side": "sideA"
+              },
+              {
+                "name": "阿普拉克辛",
+                "role": "俄军指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_kliszow",
+            "name": "克什鲁夫战役",
+            "nameEn": "Battle of Kliszów",
+            "startYear": 1702,
+            "endYear": 1702,
+            "coords": [
+              19.6,
+              50.5
+            ],
+            "theater": "波兰",
+            "context": "瑞典支持波兰王位继承人斯坦尼斯瓦夫一世对抗萨克森和俄国",
+            "description": "查理十二世率领瑞典-波兰联军约1.6万人，击败了由萨克森将军奥古斯特二世指挥的约2万联军。瑞典骑兵的机动性和火力优势在此战中得到充分体现。",
+            "result": "瑞典胜利",
+            "significance": "巩固了斯坦尼斯瓦夫一世的波兰王位，使瑞典在波兰的影响力增强",
+            "casualties": {
+              "sideA": "约1,000人",
+              "sideB": "约2,000人"
+            },
+            "forces": {
+              "sideA": "约16,000人",
+              "sideB": "约20,000人"
+            },
+            "commanders": [
+              {
+                "name": "查理十二世",
+                "role": "瑞典国王",
+                "side": "sideA"
+              },
+              {
+                "name": "奥古斯特二世",
+                "role": "萨克森选帝侯兼波兰国王",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_pultusk",
+            "name": "普乌图斯克战役",
+            "nameEn": "Battle of Pultusk",
+            "startYear": 1703,
+            "endYear": 1703,
+            "coords": [
+              21.1,
+              52.6
+            ],
+            "theater": "波兰",
+            "context": "瑞典继续在波兰推进，以彻底击败萨克森和俄国势力",
+            "description": "查理十二世率领瑞典军队约1万人，击败了萨克森-俄国联军约1.2万人。此役后，瑞典控制了波兰大部分地区，进一步削弱了萨克森在波兰的影响力。",
+            "result": "瑞典胜利",
+            "significance": "使瑞典几乎完全控制波兰，迫使萨克森退出战争",
+            "casualties": {
+              "sideA": "约500人",
+              "sideB": "约1,500人"
+            },
+            "forces": {
+              "sideA": "约10,000人",
+              "sideB": "约12,000人"
+            },
+            "commanders": [
+              {
+                "name": "查理十二世",
+                "role": "瑞典国王",
+                "side": "sideA"
+              },
+              {
+                "name": "梅伦",
+                "role": "萨克森将军",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_lesnaya",
+            "name": "列斯纳亚战役",
+            "nameEn": "Battle of Lesnaya",
+            "startYear": 1708,
+            "endYear": 1708,
+            "coords": "[31.8,53.2]",
+            "theater": "俄国",
+            "context": "查理十二世入侵俄国，试图直逼莫斯科",
+            "description": "瑞典军队试图增援被困在乌克兰的主力部队，途中遭到俄军伏击。俄军在彼得大帝和缅希科夫指挥下约1.5万人，击败了瑞典莱舍列乌斯基将军率领的约1.6万人。此役是瑞典军队首次遭受重大失败。",
+            "result": "俄国胜利",
+            "significance": "阻止了瑞典军队的增援，为波尔塔瓦战役的胜利奠定基础",
+            "casualties": {
+              "sideA": "约6,000-9,000人",
+              "sideB": "约1,500-2,000人"
+            },
+            "forces": {
+              "sideA": "约16,000人",
+              "sideB": "约15,000人"
+            },
+            "commanders": [
+              {
+                "name": "莱舍列乌斯基",
+                "role": "瑞典将军",
+                "side": "sideA"
+              },
+              {
+                "name": "彼得大帝",
+                "role": "沙皇",
+                "side": "sideB"
+              },
+              {
+                "name": "缅希科夫",
+                "role": "俄军指挥官",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争中期",
+        "nameEn": "Mid-War Period",
+        "startYear": 1709,
+        "endYear": 1714,
+        "summary": "大北方战争中期阶段，瑞典军队遭受重大挫折，俄国开始占据优势，但瑞典仍能组织有效抵抗。",
+        "battles": [
+          {
+            "battleId": "battle-of-poltava",
+            "name": "波尔塔瓦战役",
+            "nameEn": "Battle of Poltava",
+            "startYear": 1709,
+            "endYear": 1709,
+            "coords": [
+              32.99,
+              49.59
+            ],
+            "theater": "东欧",
+            "context": "瑞典国王查理十二世在纳尔瓦大胜后深入俄国腹地，但补给线过长，兵力消耗严重。",
+            "description": "查理十二世围攻波尔塔瓦要塞失败，随后彼得大帝的俄军与瑞典军队展开决战。俄军凭借数量优势和坚固阵地，击溃了瑞典主力。查理十二世重伤逃亡奥斯曼帝国。",
+            "result": "瑞典惨败，俄军决定性胜利",
+            "significance": "此战标志着瑞典军事优势的终结，俄国成为东欧主导力量，大北方战争转折点。",
+            "casualties": {
+              "sideA": "约1,350人",
+              "sideB": "约9,000人"
+            },
+            "forces": {
+              "sideA": "约42,000人",
+              "sideB": "约29,000人"
+            },
+            "commanders": [
+              {
+                "name": "彼得大帝",
+                "role": "沙皇",
+                "side": "sideA"
+              },
+              {
+                "name": "查理十二世",
+                "role": "国王",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-helsingborg",
+            "name": "赫尔辛堡战役",
+            "nameEn": "Battle of Helsingborg",
+            "startYear": 1710,
+            "endYear": 1710,
+            "coords": [
+              12.69,
+              56.04
+            ],
+            "theater": "斯堪的纳维亚",
+            "context": "丹麦-挪威试图利用瑞典在波尔塔瓦的失败重新征服斯堪的纳维亚南部。",
+            "description": "丹麦军队登陆瑞典斯科讷地区，但被瑞典元帅马格努斯·斯图尔班克率领的军队击退。瑞典成功阻止了丹麦的收复行动，保住了对斯科讷的控制。",
+            "result": "瑞典胜利，丹麦撤退",
+            "significance": "瑞典在东线失利后，在西线成功阻止了敌人的进攻，维持了瑞典对丹麦-挪威的军事压力。",
+            "casualties": {
+              "sideA": "约2,000人",
+              "sideB": "约3,000人"
+            },
+            "forces": {
+              "sideA": "约14,000人",
+              "sideB": "约12,000人"
+            },
+            "commanders": [
+              {
+                "name": "马格努斯·斯图尔班克",
+                "role": "元帅",
+                "side": "sideA"
+              },
+              {
+                "name": "格尔德·拉尔森",
+                "role": "将军",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-gadebusch",
+            "name": "加德布施战役",
+            "nameEn": "Battle of Gadebusch",
+            "startYear": 1712,
+            "endYear": 1712,
+            "coords": [
+              11.15,
+              53.63
+            ],
+            "theater": "北德",
+            "context": "丹麦-挪威与萨克森-波兰联盟试图在北德地区协同作战，对抗瑞典。",
+            "description": "瑞典元帅卡尔·古斯塔夫·雷恩斯克尔德率领的军队在石勒苏益格-荷尔斯泰因的加德布施击败了丹麦-萨克森联军。尽管瑞典在数量上处于劣势，但凭借出色的战术和骑兵冲锋，取得了决定性胜利。",
+            "result": "瑞典胜利，联军溃败",
+            "significance": "瑞典在东线失利后，在西线取得的重要胜利，暂时延缓了反瑞典联盟的推进，为瑞典争取了喘息之机。",
+            "casualties": {
+              "sideA": "约500人",
+              "sideB": "约约6,000人"
+            },
+            "forces": {
+              "sideA": "约16,000人",
+              "sideB": "约22,000人"
+            },
+            "commanders": [
+              {
+                "name": "卡尔·古斯塔夫·雷恩斯克尔德",
+                "role": "元帅",
+                "side": "sideA"
+              },
+              {
+                "name": "克里斯蒂安·奥古斯特",
+                "role": "公爵",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-poniewiez",
+            "name": "波涅维日战役",
+            "nameEn": "Battle of Poniewiez",
+            "startYear": 1710,
+            "endYear": 1710,
+            "coords": [
+              23.88,
+              55.08
+            ],
+            "theater": "东欧",
+            "context": "瑞典军队在波兰-立陶宛地区继续抵抗俄国和萨克森-波兰联军的进攻。",
+            "description": "瑞典将领亚当·路德维希·列文豪普特率领的军队在立陶宛的波涅维日附近与俄国军队交战。尽管瑞典军队英勇作战，但最终因兵力悬殊而撤退，俄军巩固了对立陶宛的控制。",
+            "result": "俄国胜利，瑞典撤退",
+            "significance": "此战进一步削弱了瑞典在波兰-立陶宛地区的影响力，加强了俄国对该地区的控制，为后续的俄军推进创造了条件。",
+            "casualties": {
+              "sideA": "约1,500人",
+              "sideB": "约800人"
+            },
+            "forces": {
+              "sideA": "约8,000人",
+              "sideB": "约12,000人"
+            },
+            "commanders": [
+              {
+                "name": "亚当·路德维希·列文豪普特",
+                "role": "将军",
+                "side": "sideA"
+              },
+              {
+                "name": "米哈伊尔·戈利岑",
+                "role": "元帅",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-stromstad",
+            "name": "斯特勒姆stad战役",
+            "nameEn": "Battle of Strömstad",
+            "startYear": 1712,
+            "endYear": 1712,
+            "coords": [
+              11.25,
+              58.95
+            ],
+            "theater": "斯堪的纳维亚",
+            "context": "挪威军队试图在斯特勒姆stad地区建立据点，威胁瑞典西部边境。",
+            "description": "瑞典将领卡尔·古斯塔夫·阿姆菲尔率领的军队在斯特勒姆stad击败了挪威军队。瑞典成功阻止了挪威的扩张企图，维护了西部边境的安全。",
+            "result": "瑞典胜利，挪威撤退",
+            "significance": "瑞典在多条战线同时作战的情况下，成功保卫了西部边境，防止了敌人从多个方向对瑞典本土的威胁。",
+            "casualties": {
+              "sideA": "约300人",
+              "sideB": "约500人"
+            },
+            "forces": {
+              "sideA": "约2,000人",
+              "sideB": "约3,000人"
+            },
+            "commanders": [
+              {
+                "name": "卡尔·古斯塔夫·阿姆菲尔",
+                "role": "将军",
+                "side": "sideA"
+              },
+              {
+                "name": "弗雷德里克·冯·克拉姆",
+                "role": "将军",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "majorBattles": [],
+    "cognitiveWarfare": {
+      "psyOps": [
+        "查理十二世利用个人英雄形象塑造，将自己塑造成军事天才和北欧守护神“,\n    ”彼得大帝通过展示俄国现代化成就，如圣彼得堡建设，作为文明进步象征“,\n    ”反瑞典联盟散布瑞典军队不可战胜的神话，随后又宣传其必败论调“,\n    ”双方均利用宗教宣传，将战争描绘为天主教与新教或东正教与新教的圣战"
+      ],
+      "propagandaComparison": "瑞典王国强调查理十二世的军事天才和瑞典军队的不可战胜性，将战争描绘为保卫北欧新教国家 against 俄国东正教扩张的圣战。反瑞典联盟则突出彼得大帝的改革成就，将俄国塑造为现代化国家，同时宣传瑞典是北欧霸权，解放战争具有正当性。双方都利用印刷品和宣传画塑造领导人形象，瑞典强调查理的年轻与勇武，联盟则突出彼得的智慧与远见。联盟还利用多语言宣传，争取德意志和波兰贵族支持。",
+      "collaborists": [
+        "荷尔斯泰因-戈托尔普公国“,\n    ”萨克森选帝国“,\n    ”波兰-立陶宛联邦的部分贵族“,\n    ”俄国境内的亲瑞典芬兰裔贵族"
+      ],
+      "informationWarfare": "大北方战争中，信息战主要表现为宣传战和间谍活动。瑞典利用其高效的情报网络获取联盟动向，同时通过控制波罗的海地区的印刷厂散布亲瑞典宣传。反瑞典联盟则利用多国合作优势，协调宣传口径，特别是在德意志地区。双方都利用战俘和逃兵散布有利于自己的信息。战争后期，联盟成功塑造了瑞典孤立的叙事，削弱了其国际支持。信息战的关键是控制叙事框架，将战争定义为防御性或解放性，而非侵略性。"
+    },
+    "economics": {
+      "resourceDependency": {
+        "sideA": {
+          "summary": "瑞典作为战争初期的主要参战国，其经济高度依赖波罗的海贸易和铁矿出口。战争导致其海外贸易路线被切断，铁矿产量下降，财政收入锐减。瑞典不得不依靠掠夺占领区资源维持战争，但长期来看这种模式不可持续，最终导致经济崩溃。"
+        },
+        "sideB": {
+          "summary": "俄罗斯战争初期资源匮乏，依靠西伯利亚和乌拉尔地区的矿产资源支撑战争。随着战争推进，俄罗斯逐步整合占领的波罗的海地区资源，建立新的工业基地，并通过扩大农奴制剥削增加财政收入。战争后期，俄罗斯已能依靠自身资源和占领区实现战争经济的自给自足。"
+        }
+      },
+      "foreignAid": [
+        {
+          "from": "丹麦-挪威",
+          "to": "萨克森",
+          "program": "北方联盟援助计划",
+          "content": "提供军事装备和财政支持，共同对抗瑞典在波罗的海地区的霸权"
+        },
+        {
+          "from": "奥斯曼帝国",
+          "to": "克里米亚汗国",
+          "program": "南方战线援助",
+          "content": "提供军事援助和财政支持，牵制俄罗斯在南部边境的军事力量"
+        },
+        {
+          "from": "法国",
+          "to": "瑞典",
+          "program": "反俄联盟援助",
+          "content": "提供军事装备和财政援助，支持瑞典对抗俄罗斯扩张"
+        },
+        {
+          "from": "英国",
+          "to": "俄罗斯",
+          "program": "海军技术援助",
+          "content": "提供海军技术和造船专家，帮助俄罗斯建立波罗的海舰队"
+        }
+      ],
+      "warBudget": "战争总开支约1.5-2亿银卢布，其中俄罗斯约占60%，瑞典约占25%，其他参战国约占15%。俄罗斯战争开支占其国民收入的15-20%，瑞典则高达30-40%，远超其经济承受能力。",
+      "economicDisruption": "战争导致波罗的海地区贸易中断，欧洲粮食价格上涨30-50%。瑞典经济崩溃，国债高达国家年收入的三倍。俄罗斯通过战争实现了经济转型，建立了新的工业基地，但也导致农奴制强化，阻碍了长期经济发展。战争结束后，欧洲政治经济格局重组，俄罗斯崛起为新的地区强国。"
+    },
+    "geography": {
+      "keyObstacles": [
+        {
+          "name": "波罗的海沿岸",
+          "description": "「大北方战争」中，瑞典控制波罗的海沿岸要塞，形成天然屏障，限制了俄国海军行动和陆上补给线，迫使俄军采取漫长围攻策略。"
+        },
+        {
+          "name": "芬兰湾",
+          "description": "「芬兰湾」作为瑞典海军基地，提供了战略优势，但冬季结冰期限制了海军活动，成为双方争夺焦点，影响战争进程。"
+        },
+        {
+          "name": "东欧平原",
+          "description": "「东欧平原」开阔地形有利于瑞典骑兵机动，但也使俄军能够大规模调动兵力，为彼得大帝的反击提供了战略纵深。"
+        }
+      ],
+      "extremeWeather": [
+        {
+          "year": 1709,
+          "event": "波尔塔瓦战役严寒",
+          "description": "「波尔塔瓦战役」前后的严寒天气严重削弱了瑞典军队的战斗力，导致查理十二世军队在俄国的严冬中损失惨重，成为战争转折点。"
+        },
+        {
+          "year": 1714,
+          "event": "汉科角海战",
+          "description": "「汉科角海战」期间，波罗的海的复杂海流和雾天限制了双方海军视野，影响了战术部署，最终俄国凭借局部优势取得胜利。"
+        }
+      ],
+      "nonCombatLosses": "「大北方战争」期间，严寒冬季和疾病导致大量非战斗减员，特别是瑞典军队在俄国境内作战时，因不适应严寒气候和缺乏补给，造成大量冻伤和疾病死亡，严重削弱了战斗力。"
+    }
+  },
+  "timeline": [
+    {
+      "year": 1697,
+      "event": "彼得大帝改革",
+      "type": "leadership",
+      "description": "沙皇彼得一世开始推行全面改革，建立现代化军队和行政体系",
+      "impact": "为俄罗斯参与大北方战争奠定军事和行政基础，增强了俄罗斯的战争潜力"
+    },
+    {
+      "year": 1698,
+      "event": "纳尔瓦战役前外交准备",
+      "type": "diplomacy",
+      "description": "彼得大帝与萨克森、丹麦-挪威结成反瑞典同盟",
+      "impact": "形成对瑞典的三面包围，为大北方战争的爆发创造条件"
+    },
+    {
+      "year": 1699,
+      "event": "秘密反瑞典同盟",
+      "type": "diplomacy",
+      "description": "俄国、萨克森、丹麦-挪威在普鲁士首都柏林秘密结盟，共同对抗瑞典",
+      "impact": "正式确立反瑞典联盟，确定了战争的基本格局和参与者"
+    },
+    {
+      "year": 1700,
+      "event": "纳尔瓦战役",
+      "type": "crisis",
+      "description": "瑞典查理十二世率领军队在纳尔瓦击败俄军",
+      "impact": "初期瑞典取得决定性胜利，但俄军撤退重组，为后续反攻保留力量"
+    },
+    {
+      "year": 1701,
+      "event": "列瓦尔战役",
+      "type": "decision",
+      "description": "彼得大帝在列瓦尔击败瑞典军队，巩固在波罗的海沿岸的地位",
+      "impact": "俄罗斯首次取得对瑞典的胜利，增强了战争信心，为后续攻势奠定基础"
+    },
+    {
+      "year": 1721,
+      "event": "《尼斯塔德条约》签订",
+      "type": "diplomacy",
+      "description": "俄国与瑞典签订《尼斯塔德条约》，正式结束大北方战争",
+      "impact": "俄国获得波罗的海沿岸大片领土，包括爱沙尼亚、利沃尼亚和英格里亚，成为波罗的海强国"
+    },
+    {
+      "year": 1722,
+      "event": "波斯远征",
+      "type": "decision",
+      "description": "彼得一世发动对波斯的远征，试图获取里海沿岸地区",
+      "impact": "俄国获得里海西部沿岸地区，进一步加强了在南部的影响力"
+    },
+    {
+      "year": 1725,
+      "event": "彼得大帝逝世",
+      "type": "leadership",
+      "description": "俄罗斯帝国皇帝彼得一世去世，结束了其长达42年的统治",
+      "impact": "导致俄罗斯帝国权力真空，引发了一系列宫廷斗争和权力更迭"
+    },
+    {
+      "year": 1730,
+      "event": "安娜·伊万诺芙娜登基",
+      "type": "leadership",
+      "description": "安娜·伊万诺芙娜在贵族支持下成为俄罗斯女皇“,”影响“:”加强了贵族在俄罗斯政治中的地位，但中央集权政策继续执行"
+    },
+    {
+      "year": 1735,
+      "event": "俄土战争爆发",
+      "type": "crisis",
+      "description": "俄罗斯与奥斯曼帝国之间爆发新一轮战争，争夺克里米亚和黑海控制权",
+      "impact": "进一步巩固了俄罗斯在黑海地区的影响力，但也导致与奥斯曼帝国的长期对抗"
+    }
+  ]
+}

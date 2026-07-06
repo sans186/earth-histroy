@@ -1,0 +1,678 @@
+{
+  "warId": "turkish-war-of-independence",
+  "name": "土耳其独立战争",
+  "nameEn": "Turkish War of Independence",
+  "alternativeNames": [
+    "土耳其民族解放战争“, ”土耳其革命"
+  ],
+  "startYear": 1919,
+  "endYear": 1923,
+  "type": "major",
+  "category": "独立战争",
+  "theaters": [
+    "安纳托利亚“, ”色雷斯“, ”伊兹密尔"
+  ],
+  "summary": "土耳其人民反抗协约国占领和奥斯曼帝国分裂的民族解放战争。",
+  "background": {
+    "causes": "奥斯曼帝国在一战战败后面临被瓜分的危险，民族自决思潮兴起",
+    "immediateCause": "1919年5月15日希腊军队占领伊兹密尔",
+    "preWarSituation": "奥斯曼帝国政府已被协约国控制，安纳托利亚地区被多个国家占领",
+    "objectivesA": "建立独立的土耳其共和国，废除不平等条约，收复失地",
+    "objectivesB": "执行塞夫尔条约，瓜分奥斯曼帝国领土",
+    "precedingConflicts": [
+      "第一次世界大战"
+    ]
+  },
+  "belligerents": {
+    "sideA": {
+      "name": "土耳其民族主义者",
+      "nameEn": "Turkish Nationalists",
+      "countries": [
+        {
+          "name": "大国民议会政府",
+          "entryYear": 1919,
+          "exitYear": 1923
+        }
+      ],
+      "commanders": [
+        {
+          "name": "穆斯塔法·凯末尔",
+          "role": "总司令",
+          "bio": "土耳其共和国创始人，民族解放运动领袖"
+        },
+        {
+          "name": "伊斯梅特·伊诺努",
+          "role": "西部战线指挥官",
+          "bio": "土耳其军事家，后任第二任总统"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "穆斯塔法·凯末尔",
+          "role": "大国民议会主席",
+          "bio": "土耳其共和国创始人，民族解放运动领袖"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "志愿兵与征兵结合",
+        "organization": "建立正规军与游击队相结合的武装力量",
+        "logistics": "依靠民间支持与有限的外国援助"
+      },
+      "preWarStrength": {
+        "army": "约5万人",
+        "navy": "约5000人",
+        "airForce": "约200人",
+        "armor": "几乎无",
+        "specialForces": "约3000人",
+        "reserves": "约10万人"
+      },
+      "equipment": [
+        {
+          "name": "毛瑟步枪",
+          "quantity": "约10万支",
+          "description": "主要步兵武器"
+        },
+        {
+          "name": "山炮",
+          "quantity": "约200门",
+          "description": "主要火炮装备"
+        },
+        {
+          "name": "机枪",
+          "quantity": "约500挺",
+          "description": "防御与火力支援"
+        }
+      ],
+      "industrialCapacity": "有限，主要依靠小型兵工厂和缴获装备",
+      "economicStrength": "薄弱，依靠国内捐助和有限的外国援助",
+      "totalCasualties": {
+        "dead": "约2.5万人",
+        "wounded": "约6万人",
+        "captured": "约1万人",
+        "missing": "约5000人",
+        "civilian": "约3万人"
+      },
+      "warCrimes": [],
+      "propaganda": {
+        "slogans": [
+          "独立或死亡“, ”祖国是神圣的"
+        ],
+        "themes": [
+          "民族自决“, ”反对外国占领“, ”保卫家园"
+        ],
+        "methods": "报纸宣传、演讲集会、宗教领袖动员"
+      }
+    },
+    "sideB": {
+      "name": "协约国占领军",
+      "nameEn": "Allied Occupation Forces",
+      "countries": [
+        {
+          "name": "希腊王国",
+          "entryYear": 1919,
+          "exitYear": 1922
+        },
+        {
+          "name": "法兰西第三共和国",
+          "entryYear": 1919,
+          "exitYear": 1923
+        },
+        {
+          "name": "意大利王国",
+          "entryYear": 1919,
+          "exitYear": 1923
+        },
+        {
+          "name": "大英帝国",
+          "entryYear": 1919,
+          "exitYear": 1923
+        },
+        {
+          "name": "奥斯曼帝国苏丹政府",
+          "entryYear": 1919,
+          "exitYear": 1922
+        }
+      ],
+      "commanders": [
+        {
+          "name": "阿里·里萨·帕夏",
+          "role": "奥斯曼政府军总司令",
+          "bio": "效忠于苏丹的奥斯曼军队将领"
+        },
+        {
+          "name": "列奥尼达斯·帕拉斯基斯",
+          "role": "希腊军队指挥官",
+          "bio": "希腊军队将领，负责安纳托利亚西部军事行动"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "穆罕默德六世",
+          "role": "奥斯曼帝国苏丹",
+          "bio": "奥斯曼帝国最后一任苏丹，支持协约国"
+        },
+        {
+          "name": "埃莱夫塞里奥斯·韦尼泽洛斯",
+          "role": "希腊首相",
+          "bio": "希腊首相，主张扩大希腊领土"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "正规军",
+        "organization": "按照欧洲标准组织的军队",
+        "logistics": "依靠本国及协约国支持"
+      },
+      "preWarStrength": {
+        "army": "希腊约10万人，法军约5万人，意军约3万人",
+        "navy": "协约国联合舰队",
+        "airForce": "约1000人",
+        "armor": "少量坦克",
+        "specialForces": "约5000人",
+        "reserves": "约20万人"
+      },
+      "equipment": [
+        {
+          "name": "李-恩菲尔德步枪",
+          "quantity": "约15万支",
+          "description": "英制标准步枪"
+        },
+        {
+          "name": "施耐德火炮",
+          "quantity": "约500门",
+          "description": "法制火炮"
+        },
+        {
+          "name": "坦克",
+          "quantity": "约50辆",
+          "description": "主要用于突破防线"
+        }
+      ],
+      "industrialCapacity": "强大，欧洲主要工业国支持",
+      "economicStrength": "雄厚，协约国共同支持",
+      "totalCasualties": {
+        "dead": "约3万人",
+        "wounded": "约7万人",
+        "captured": "约2万人",
+        "missing": "约8000人",
+        "civilian": "约4万人"
+      },
+      "warCrimes": [
+        "希腊军队在伊兹密尔及周边地区的暴行“,\n        ”法国军队在安塔利亚地区的镇压行动"
+      ],
+      "propaganda": {
+        "slogans": [
+          "保护基督徒“, ”执行国际条约"
+        ],
+        "themes": [
+          "维护战后秩序“, ”保护少数民族权益"
+        ],
+        "methods": "国际宣传、媒体报道、宗教动员"
+      }
+    }
+  },
+  "neutralParties": [
+    {
+      "name": "苏维埃俄国",
+      "relationship": "初期提供有限援助，后建立外交关系"
+    },
+    {
+      "name": "美国",
+      "relationship": "持观望态度，未直接军事介入"
+    }
+  ],
+  "outcome": {
+    "result": "土耳其民族主义者获胜，土耳其共和国成立",
+    "victoryAnalysis": {
+      "winnerFactors": "民族凝聚力强，有效军事组织，凯末尔卓越领导，地形优势，国际局势变化",
+      "loserFactors": "内部分歧，战线过长，低估土耳其抵抗意志，国际支持不统一"
+    },
+    "treaty": {
+      "name": "洛桑条约",
+      "date": "1923年7月24日",
+      "content": "废除塞夫尔条约，承认土耳其独立主权，确定现代土耳其边界，解决少数民族问题，战争赔款问题"
+    },
+    "territorialChanges": "收回了伊兹密尔、东色雷斯等地区，确定了现代土耳其边界",
+    "economicCost": "土耳其经济遭受严重破坏，基础设施损毁严重",
+    "demographicImpact": "人口交换，约150万希腊人离开土耳其，约40万土耳其人离开希腊"
+  },
+  "legacy": {
+    "significance": "结束了奥斯曼帝国统治，建立了现代土耳其共和国，成为反殖民运动的典范",
+    "immediateConsequences": "奥斯曼帝国被废除，土耳其共和国成立，凯末尔推行现代化改革",
+    "longTermImpact": {
+      "political": "确立了土耳其世俗共和国体制，影响中东地区政治发展",
+      "military": "建立了现代化的土耳其国防力量",
+      "economic": "开始了土耳其工业化进程",
+      "social": "推动了土耳其社会世俗化改革，提高妇女地位"
+    },
+    "culturalLegacy": {
+      "memorials": [
+        "安卡拉凯末尔陵“, ”独立战争纪念碑"
+      ],
+      "observances": [
+        "8月30日胜利日",
+        "4月23日国家主权与儿童节"
+      ],
+      "media": [
+        "独立战争史诗电影《征服1453》“, ”多部历史小说与纪录片"
+      ]
+    }
+  },
+  "tags": {
+    "warfareType": [
+      "游击战“, ”正规战“, ”民族解放战争"
+    ],
+    "geopolitical": [
+      "奥斯曼帝国解体“, ”中东重组“, ”民族自决"
+    ],
+    "scale": "regional",
+    "cause": [
+      "民族主义“, ”反殖民“, ”领土争端"
+    ]
+  },
+  "relatedWars": [
+    "第一次世界大战“,\n    ”巴尔干战争“,\n    ”希土战争(1919-1922)"
+  ],
+  "sources": [
+    "《土耳其独立战争史》，威廉·舍尔默著“,\n    ”《凯末尔传》，安德鲁·曼戈著“,\n    ”《洛桑条约与土耳其共和国的建立》，土耳其历史档案"
+  ],
+  "warProcess": {
+    "phases": [
+      {
+        "name": "战争爆发",
+        "nameEn": "Outbreak of War",
+        "startYear": 1919,
+        "endYear": 1920,
+        "summary": "土耳其独立战争初期，土耳其民族主义者开始组织抵抗外国占领和奥斯曼帝国分裂的势力",
+        "battles": [
+          {
+            "battleId": "amasya-proclamation",
+            "name": "阿马西亚宣言",
+            "nameEn": "Amasya Proclamation",
+            "startYear": 1919,
+            "endYear": 1919,
+            "coords": [
+              35.8333,
+              40.65
+            ],
+            "theater": "安纳托利亚中部",
+            "context": "奥斯曼帝国战败后，协约国计划瓜分土耳其领土，穆斯塔法·凯末尔开始组织民族抵抗运动",
+            "description": "1919年6月22日，凯末尔在阿马西亚发表宣言，呼吁土耳其人民团结抵抗外国占领，宣布土耳其民族独立运动的开始，确立了民族抵抗的政治基础",
+            "result": "成功动员土耳其民族主义者，为后续抵抗运动奠定政治基础",
+            "significance": "标志着土耳其民族解放运动的正式开始，确立了凯末尔作为民族领袖的地位",
+            "casualties": {
+              "sideA": "无",
+              "sideB": "无"
+            },
+            "forces": {
+              "sideA": "无",
+              "sideB": "无"
+            },
+            "commanders": [
+              {
+                "name": "穆斯塔法·凯末尔",
+                "role": "民族领袖",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "erzurong-congress",
+            "name": "埃尔祖鲁姆大会",
+            "nameEn": "Erzurong Congress",
+            "startYear": 1919,
+            "endYear": 1919,
+            "coords": "[41.1689,39.9075]",
+            "theater": "东部安纳托利亚",
+            "context": "阿马西亚宣言后，凯末尔在东部地区组织民族代表大会，以协调抵抗力量",
+            "description": "1919年7月23日至8月4日，东部各省代表在埃尔祖鲁姆召开大会，通过了包括拒绝外国占领、维护土耳其领土完整等14项决议，确立了民族抵抗的基本原则",
+            "result": "成功组建东部地区民族抵抗组织，确立了民族独立的政治纲领",
+            "significance": "为安卡拉大国民议会的成立奠定了基础，确立了土耳其民族抵抗的政治方向",
+            "casualties": {
+              "sideA": "无",
+              "sideB": "无"
+            },
+            "forces": {
+              "sideA": "无",
+              "sideB": "无"
+            },
+            "commanders": [
+              {
+                "name": "穆斯塔法·凯末尔",
+                "role": "大会组织者",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "sivas-congress",
+            "name": "锡瓦斯大会",
+            "nameEn": "Sivas Congress",
+            "startYear": 1919,
+            "endYear": 1919,
+            "coords": [
+              37.015,
+              39.7489
+            ],
+            "theater": "中部安纳托利亚",
+            "context": "埃尔祖鲁姆大会后，凯末尔在锡瓦斯召开全国代表大会，以协调全国各地的抵抗力量",
+            "description": "1919年9月4日至11日，来自全国各地的代表在锡瓦斯召开大会，成立了代表委员会，选举凯末尔为主席，通过了维护土耳其领土完整和民族独立的决议",
+            "result": "成功组建全国性民族抵抗组织，确立了统一的领导机构",
+            "significance": "标志着土耳其民族抵抗运动从地区性发展为全国性运动，为安卡拉大国民议会的成立铺平了道路",
+            "casualties": {
+              "sideA": "无",
+              "sideB": "无"
+            },
+            "forces": {
+              "sideA": "无",
+              "sideB": "无"
+            },
+            "commanders": [
+              {
+                "name": "穆斯塔法·凯末尔",
+                "role": "大会主席",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-gaziantep",
+            "name": "加济安泰普战役",
+            "nameEn": "Battle of Gaziantep",
+            "startYear": 1920,
+            "endYear": 1921,
+            "coords": [
+              37.0661,
+              37.0661
+            ],
+            "theater": "南部安纳托利亚",
+            "context": "法国军队占领安纳托利亚东南部地区，当地土耳其居民展开抵抗",
+            "description": "1920年至1921年间，加济安泰普的土耳其居民在民族主义领袖领导下，抵抗法国军队的占领。经过长期围困和战斗，土耳其最终成功保卫了这座城市",
+            "result": "土耳其成功抵抗法国占领，保卫了加济安泰普",
+            "significance": "展现了土耳其人民抵抗外国占领的决心，是土耳其独立战争中的重要胜利",
+            "casualties": {
+              "sideA": "约500人",
+              "sideB": "约800人"
+            },
+            "forces": {
+              "sideA": "约3000人",
+              "sideB": "约5000人"
+            },
+            "commanders": [
+              {
+                "name": "阿里·费特希·奥克亚尔",
+                "role": "指挥官",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-kutahya-afyon",
+            "name": "屈塔希阿菲永战役",
+            "nameEn": "Battle of Kutahya-Afyon",
+            "startYear": 1920,
+            "endYear": 1921,
+            "coords": [
+              30.5383,
+              38.875
+            ],
+            "theater": "西部安纳托利亚",
+            "context": "希腊军队试图向安纳托利亚内陆推进，占领土耳其重要地区",
+            "description": "1920年至1921年间，希腊军队从伊兹密尔出发向安纳托利亚内陆推进，占领屈塔希和阿菲永等重要城市。土耳其民族主义军队进行了顽强抵抗，阻止了希腊军队的进一步扩张",
+            "result": "希腊军队占领屈塔希和阿菲永，但未能继续深入",
+            "significance": "虽然希腊军队取得战术胜利，但未能摧毁土耳其抵抗力量，为后续土耳其反攻创造了条件",
+            "casualties": {
+              "sideA": "约2000人",
+              "sideB": "约1500人"
+            },
+            "forces": {
+              "sideA": "约8000人",
+              "sideB": "约12000人"
+            },
+            "commanders": [
+              {
+                "name": "穆斯塔法·凯末尔",
+                "role": "总司令",
+                "side": "sideA"
+              },
+              {
+                "name": "伊斯梅特·伊诺努",
+                "role": "前线指挥官",
+                "side": "sideA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争进程",
+        "nameEn": "War Process",
+        "startYear": 1919,
+        "endYear": 1923,
+        "summary": "土耳其独立战争进程阶段，从希腊军队入侵到土耳其共和国成立的关键战役",
+        "battles": [
+          {
+            "battleId": "battle_of_ayn",
+            "name": "艾恩战役",
+            "nameEn": "Battle of Ayın",
+            "startYear": 1919,
+            "endYear": 1919,
+            "coords": [
+              42.5,
+              39.5
+            ],
+            "theater": "安纳托利亚西部",
+            "context": "希腊军队在士麦那登陆后向内陆推进，土耳其民族抵抗力量组织反击",
+            "description": "1919年6月，希腊军队向艾恩地区推进，凯末尔领导的土耳其民族力量在此设防。尽管装备简陋，土耳其民兵利用地形优势进行游击战，成功延缓了希腊军队的攻势。这场战役是土耳其民族抵抗力量早期的重要胜利，证明了组织抵抗的有效性。",
+            "result": "土耳其民族力量胜利，延缓希腊军队推进",
+            "significance": "早期抵抗力量的重要胜利，增强了民族信心",
+            "casualties": {
+              "sideA": "约200人",
+              "sideB": "约300人"
+            },
+            "forces": {
+              "sideA": "约1,500名民兵",
+              "sideB": "约3,000名希腊士兵"
+            },
+            "commanders": [
+              {
+                "name": "穆斯塔法·凯末尔",
+                "role": "民族抵抗领袖",
+                "side": "sideA"
+              },
+              {
+                "name": "尼科拉奥斯·佐塔基斯",
+                "role": "希腊指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_sakarya",
+            "name": "萨卡里亚战役",
+            "nameEn": "Battle of Sakarya",
+            "startYear": 1921,
+            "endYear": 1921,
+            "coords": [
+              31,
+              39.5
+            ],
+            "theater": "安纳托利亚中部",
+            "context": "希腊军队向安卡拉推进，试图摧毁土耳其临时政府",
+            "description": "1921年8月，希腊军队集结约10万人向安卡拉发起大规模进攻，土耳其大国民议会军队约8万人进行防御。凯末尔亲自指挥，采取纵深防御策略，在萨卡里亚河沿岸与希腊军队展开激烈战斗。经过22天的艰苦战斗，土耳其军队成功阻止了希腊军队的攻势，扭转了战争局势。",
+            "result": "土耳其军队胜利，阻止希腊军队进攻安卡拉",
+            "significance": "战争转折点，确立了土耳其军队的防御能力",
+            "casualties": {
+              "sideA": "约7,000人",
+              "sideB": "约9,000人"
+            },
+            "forces": {
+              "sideA": "约80,000人",
+              "sideB": "约100,000人"
+            },
+            "commanders": [
+              {
+                "name": "穆斯塔法·凯末尔",
+                "role": "总司令",
+                "side": "sideA"
+              },
+              {
+                "name": "乔治奥斯·哈吉安尼斯",
+                "role": "希腊军队总司令",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_dumlupinar",
+            "name": "杜姆卢皮纳尔战役",
+            "nameEn": "Battle of Dumlupınar",
+            "startYear": 1922,
+            "endYear": 1922,
+            "coords": [
+              29.5,
+              38.5
+            ],
+            "theater": "安纳托利亚西部",
+            "context": "土耳其军队发起反攻，目标是彻底击败希腊军队",
+            "description": "1922年8月，土耳其军队在凯末尔指挥下发起大规模反攻，目标是将希腊军队赶出安纳托利亚。8月30日，土耳其军队在杜姆卢皮纳尔地区包围并击溃了希腊军队主力。这场战役是土耳其独立战争的决定性胜利，导致希腊军队全面崩溃，被迫撤退至爱琴海沿岸。",
+            "result": "土耳其军队决定性胜利，希腊军队主力被歼灭",
+            "significance": "战争的决定性战役，导致希腊战败",
+            "casualties": {
+              "sideA": "约2,000人",
+              "sideB": "约15,000人"
+            },
+            "forces": {
+              "sideA": "约120,000人",
+              "sideB": "约80,000人"
+            },
+            "commanders": [
+              {
+                "name": "穆斯塔法·凯末尔",
+                "role": "总司令",
+                "side": "sideA"
+              },
+              {
+                "name": "尼科拉奥斯·特里库皮斯",
+                "role": "希腊军队总司令",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "great_offensive",
+            "name": "大进攻",
+            "nameEn": "Great Offensive",
+            "startYear": 1922,
+            "endYear": 1922,
+            "coords": [
+              27.5,
+              39
+            ],
+            "theater": "安纳托利亚西部",
+            "context": "土耳其军队收复伊兹密尔，结束希腊占领",
+            "description": "1922年9月，土耳其军队发起大进攻，目标是收复被希腊军队占领的伊兹密尔。凯末尔亲自指挥，土耳其军队迅速推进，9月9日收复伊兹密尔，9月18日完全将希腊军队赶出安纳托利亚。大进攻的胜利标志着土耳其独立战争的军事胜利阶段结束，为后续的洛桑和谈奠定了基础。",
+            "result": "土耳其军队完全收复安纳托利亚，希腊军队被赶出",
+            "significance": "结束了希腊对安纳托利亚的占领，战争军事阶段结束",
+            "casualties": {
+              "sideA": "约4,000人",
+              "sideB": "约20,000人"
+            },
+            "forces": {
+              "sideA": "约150,000人",
+              "sideB": "约60,000人"
+            },
+            "commanders": [
+              {
+                "name": "穆斯塔法·凯末尔",
+                "role": "总司令",
+                "side": "sideA"
+              },
+              {
+                "name": "阿西莱奥·帕帕拉斯",
+                "role": "希腊军队指挥官",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "majorBattles": [],
+    "cognitiveWarfare": {
+      "psyOps": [
+        "穆斯塔法·凯末尔利用民族主义情绪塑造「土耳其之父」形象“,\n    ”协约国散布土耳其民族主义者无法获胜的虚假信息“,\n    ”土耳其方面宣传外国占领者对穆斯林圣地的亵渎“,\n    ”协约国支持建立傀儡政权「安卡拉政府」以分裂土耳其“,\n    ”土耳其民族主义者通过宗教和民族双重身份认同动员民众"
+      ],
+      "propagandaComparison": "土耳其民族主义者强调国家主权和民族自决权，将战争描绘成圣战和解放运动，利用伊斯兰教团结民众，同时塑造凯末尔为民族英雄和救世主。协约国则将土耳其民族主义者描绘为破坏和平的极端分子，散布其无法战胜的谣言，支持分裂主义势力，并通过媒体渲染土耳其内部的宗教和民族矛盾，试图削弱民族主义者的凝聚力。双方都利用报纸、广播和宣传册等媒介，但土耳其方面更有效地利用了宗教和民族情感。",
+      "collaborationists": [
+        "苏丹穆罕默德六世政府“,\n    ”伊斯坦布尔傀儡政府“,\n    ”协约国支持的希腊傀儡政权“,\n    ”亚美尼亚民族主义合作者“,\n    ”库尔德部落首领与协约国合作者"
+      ],
+      "informationWarfare": "土耳其民族主义者通过建立独立的信息网络控制国内舆论，同时利用国际媒体争取国际同情。协约国则封锁信息，控制伊斯坦布尔地区的媒体，散布虚假情报削弱土耳其抵抗意志。土耳其方面成功塑造了抵抗外国侵略的正义形象，而协约国的信息战因内部利益分歧和过度依赖军事手段而效果有限。双方都利用地图、照片和统计数据支持各自叙事，但土耳其民族主义者更有效地将信息战与军事行动结合。"
+    },
+    "geography": {
+      "keyObstacles": [
+        {
+          "name": "安纳托利亚高原",
+          "description": "「安纳托利亚高原」地形复杂，山脉纵横，为土耳其军队提供了天然防御屏障，使协约国军队难以推进，同时也限制了奥斯曼军队的机动性。"
+        },
+        {
+          "name": "达达尼尔海峡",
+          "description": "「达达尼尔海峡」是连接黑海与地中海的战略水道，战争期间成为希腊军队入侵的主要通道，也是土耳其海军防御的重点区域。"
+        },
+        {
+          "name": "马尔马拉海沿岸",
+          "description": "「马尔马拉海沿岸」地区人口密集，经济发达，是双方争夺的焦点地带，其控制权直接影响战争物资运输和军队补给。"
+        }
+      ],
+      "extremeWeather": [
+        {
+          "year": 1920,
+          "event": "严冬",
+          "description": "「1920年严冬」导致高海拔地区气温骤降，造成大量非战斗减员，严重影响双方军队的作战能力和后勤补给，特别是对装备不足的土耳其游击队造成更大困难。"
+        },
+        {
+          "year": 1922,
+          "event": "夏季高温",
+          "description": "「1922年夏季高温」使希腊军队在推进过程中面临严重脱水和中暑问题，削弱了其战斗力，为土耳其军队的反攻创造了有利条件。"
+        }
+      ],
+      "nonCombatLosses": "「疾病和营养不良」是土耳其独立战争期间最主要的非战斗减员因素，战争导致的医疗资源匮乏和粮食短缺使伤寒、痢疾等疾病在军队和平民中广泛传播，造成大量人员伤亡，严重影响了战争进程。"
+    }
+  },
+  "timeline": [
+    {
+      "year": 1919,
+      "event": "穆德洛斯停战协定",
+      "type": "diplomacy",
+      "description": "「第一次世界大战」结束后，奥斯曼帝国与协约国签署停战协定，土耳其失去大量领土",
+      "impact": "导致土耳其民族主义情绪高涨，为独立战争埋下伏笔"
+    },
+    {
+      "year": 1919,
+      "event": "阿马西亚会议",
+      "type": "decision",
+      "description": "穆斯塔法·凯末尔在阿马西亚发布公告，宣布土耳其民族独立运动开始",
+      "impact": "标志着土耳其民族解放运动的正式开始，为后续的大国民议会奠定基础"
+    },
+    {
+      "year": 1919,
+      "event": "埃尔祖鲁姆大会",
+      "type": "crisis",
+      "description": "东部各省代表召开埃尔祖鲁姆大会，要求土耳其独立和领土完整",
+      "impact": "确立了土耳其民族主义的基本纲领，为安卡拉政府的成立提供了政治基础"
+    },
+    {
+      "year": 1920,
+      "event": "大国民议会成立",
+      "type": "leadership",
+      "description": "穆斯塔法·凯末尔在安卡拉召开大国民议会，成立新的土耳其政府",
+      "impact": "建立了与伊斯坦布尔苏丹政府对立的政权，成为独立战争的政治核心"
+    },
+    {
+      "year": 1920,
+      "event": "塞夫尔条约",
+      "type": "diplomacy",
+      "description": "协约国与奥斯曼帝国政府签署塞夫尔条约，进一步瓜分土耳其领土",
+      "impact": "激起了土耳其全国范围内的强烈反对，加速了民族解放战争的爆发"
+    }
+  ]
+}

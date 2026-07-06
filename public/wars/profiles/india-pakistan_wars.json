@@ -1,0 +1,1077 @@
+{
+  "warId": "india-pakistan_wars",
+  "name": "印巴战争",
+  "nameEn": "Indo-Pakistani Wars",
+  "startYear": 1947,
+  "endYear": 1999,
+  "type": "major",
+  "category": "领土战争",
+  "theaters": [
+    "克什米尔地区",
+    "旁遮普平原",
+    "拉贾斯坦沙漠",
+    "孟加拉湾"
+  ],
+  "summary": "印度与巴基斯坦因克什米尔地区归属问题爆发的多次武装冲突",
+  "background": {
+    "causes": "英国殖民统治结束后，印度次大陆的宗教分裂与领土争端，特别是克什米尔地区的归属问题",
+    "immediateCause": "1947年印巴分治后，克什米尔土邦王公选择加入印度，引发巴基斯坦不满",
+    "preWarSituation": "英国撤离印度次大陆，建立印度和巴基斯坦两个独立国家，宗教矛盾尖锐",
+    "objectivesA": "印度维护对克什米尔的主权，保持国家统一，打击分裂主义",
+    "objectivesB": "巴基斯坦争取克什米尔地区的穆斯林 majority 加入巴基斯坦，实现'两个民族理论'",
+    "precedingConflicts": [
+      "英印殖民战争",
+      "印度独立运动"
+    ]
+  },
+  "belligerents": {
+    "sideA": {
+      "name": "印度",
+      "nameEn": "India",
+      "countries": [
+        {
+          "name": "印度",
+          "entryYear": 1947,
+          "exitYear": 1999
+        }
+      ],
+      "commanders": [
+        {
+          "name": "贾瓦哈拉尔·尼赫鲁",
+          "role": "总理"
+        },
+        {
+          "name": "英迪拉·甘地",
+          "role": "总理"
+        },
+        {
+          "name": "拉吉夫·甘地",
+          "role": "总理"
+        },
+        {
+          "name": "K.M. 卡里亚帕",
+          "role": "陆军总司令"
+        },
+        {
+          "name": "萨姆·马尼克肖",
+          "role": "陆军总司令"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "贾瓦哈拉尔·尼赫鲁",
+          "role": "总理"
+        },
+        {
+          "name": "英迪拉·甘地",
+          "role": "总理"
+        },
+        {
+          "name": "拉吉夫·甘地",
+          "role": "总理"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "志愿兵役制",
+        "organization": "正规军与预备役结合",
+        "logistics": "国内工业支持，苏联/俄罗斯为主要军备来源"
+      },
+      "preWarStrength": {
+        "army": "约50万",
+        "navy": "约2万",
+        "airForce": "约2万"
+      },
+      "equipment": [
+        {
+          "name": "英制坦克",
+          "quantity": "约1000辆",
+          "description": "主要来自英国"
+        },
+        {
+          "name": "米格战斗机",
+          "quantity": "约300架",
+          "description": "苏联提供"
+        },
+        {
+          "name": "驱逐舰",
+          "quantity": "约10艘",
+          "description": "海军主力"
+        }
+      ],
+      "industrialCapacity": "南亚最大工业国，能够生产部分武器装备",
+      "economicStrength": "经济规模较大，但发展不平衡",
+      "totalCasualties": {
+        "dead": "约1.5万",
+        "wounded": "约3万",
+        "captured": "约5000",
+        "missing": "约1000",
+        "civilian": "约2万"
+      },
+      "warCrimes": [],
+      "propaganda": {
+        "slogans": [
+          "印度统一",
+          "世俗主义"
+        ],
+        "themes": [
+          "国家统一",
+          "世俗价值观"
+        ],
+        "methods": [
+          "媒体宣传",
+          "教育系统"
+        ]
+      }
+    },
+    "sideB": {
+      "name": "巴基斯坦",
+      "nameEn": "Pakistan",
+      "countries": [
+        {
+          "name": "巴基斯坦",
+          "entryYear": 1947,
+          "exitYear": 1999
+        }
+      ],
+      "commanders": [
+        {
+          "name": "穆罕默德·阿里·真纳",
+          "role": "总督"
+        },
+        {
+          "name": "阿尤布·汗",
+          "role": "总统"
+        },
+        {
+          "name": "佐勒菲卡尔·阿里·布托",
+          "role": "总统"
+        },
+        {
+          "name": "穆罕默德·齐亚·哈克",
+          "role": "总统"
+        },
+        {
+          "name": "阿什拉夫·帕尔维兹·卡亚尼",
+          "role": "陆军总司令"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "穆罕默德·阿里·真纳",
+          "role": "总督"
+        },
+        {
+          "name": "阿尤布·汗",
+          "role": "总统"
+        },
+        {
+          "name": "佐勒菲卡尔·阿里·布托",
+          "role": "总统"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "志愿兵役制",
+        "organization": "正规军与预备役结合",
+        "logistics": "依赖外国军援，美国和中国为主要军备来源"
+      },
+      "preWarStrength": {
+        "army": "约30万",
+        "navy": "约1.5万",
+        "airForce": "约1.5万"
+      },
+      "equipment": [
+        {
+          "name": "美制坦克",
+          "quantity": "约800辆",
+          "description": "主要来自美国"
+        },
+        {
+          "name": "F-16战斗机",
+          "quantity": "约40架",
+          "description": "美国提供"
+        },
+        {
+          "name": "潜艇",
+          "quantity": "约5艘",
+          "description": "海军主力"
+        }
+      ],
+      "industrialCapacity": "工业基础较弱，依赖进口武器",
+      "economicStrength": "经济规模较小，发展受限",
+      "totalCasualties": {
+        "dead": "约1.2万",
+        "wounded": "约2.5万",
+        "captured": "约4000",
+        "missing": "约800",
+        "civilian": "约1.5万"
+      },
+      "warCrimes": [],
+      "propaganda": {
+        "slogans": [
+          "巴基斯坦万岁",
+          "两个民族理论"
+        ],
+        "themes": [
+          "伊斯兰认同",
+          "民族自决"
+        ],
+        "methods": [
+          "宗教宣传",
+          "媒体宣传"
+        ]
+      }
+    }
+  },
+  "neutralParties": [
+    {
+      "name": "联合国",
+      "role": "调停者"
+    },
+    {
+      "name": "苏联",
+      "role": "印度支持者"
+    },
+    {
+      "name": "美国",
+      "role": "巴基斯坦支持者"
+    },
+    {
+      "name": "中国",
+      "role": "巴基斯坦支持者"
+    }
+  ],
+  "outcome": {
+    "result": "多次战争未解决克什米尔问题，形成实际控制线，双方均未获得决定性胜利",
+    "victoryAnalysis": {
+      "winnerFactors": "印度在兵力规模和工业基础方面占优势，巴基斯坦在战术灵活性和国际支持方面有优势",
+      "loserFactors": "印度未能完全控制克什米尔，巴基斯坦未能实现将克什米尔并入巴基斯坦的目标"
+    },
+    "treaty": {
+      "name": "《塔什干宣言》",
+      "date": "1966年1月10日",
+      "content": "双方同意撤军，恢复战前边界，和平解决争端"
+    },
+    "territorialChanges": "克什米尔地区被实际分割为印度控制的查谟和克什米尔、拉达克以及巴基斯坦控制的自由克什米尔和吉尔吉特-巴尔蒂斯坦",
+    "economicCost": "印度损失约50亿美元，巴基斯坦损失约30亿美元",
+    "demographicImpact": "约1000万难民流离失所，大量人口迁移"
+  },
+  "legacy": {
+    "significance": "塑造了南亚地缘政治格局，导致核军备竞赛，影响区域稳定",
+    "immediateConsequences": "1971年孟加拉国独立，印巴关系持续紧张，克什米尔问题持续存在",
+    "longTermImpact": {
+      "political": "导致印巴长期对立，影响南亚区域合作",
+      "military": "双方大力发展核武器，成为核武国家",
+      "economic": "军备竞赛消耗大量资源，影响经济发展",
+      "social": "强化两国民族主义情绪，加剧宗教对立"
+    }
+  },
+  "tags": {
+    "warfareType": [
+      "常规战争",
+      "局部战争"
+    ],
+    "geopolitical": [
+      "南亚",
+      "克什米尔冲突"
+    ],
+    "scale": "regional",
+    "cause": [
+      "领土争端",
+      "宗教冲突",
+      "民族自决"
+    ]
+  },
+  "relatedWars": [
+    "第三次印巴战争",
+    "卡吉尔冲突",
+    "孟加拉国独立战争"
+  ],
+  "sources": [
+    "《印巴战争史》",
+    "《克什米尔冲突研究》",
+    "《南亚地缘政治分析》"
+  ],
+  "warProcess": {
+    "phases": [
+      {
+        "name": "早期战役",
+        "nameEn": "Early Battles",
+        "startYear": 1947,
+        "endYear": 1971,
+        "summary": "印巴战争初期的关键冲突，包括第一次印巴战争和卡吉尔战争等重大战役，奠定了两国长期对峙的基础",
+        "battles": [
+          {
+            "battleId": "first_kashmir_war",
+            "name": "第一次克什米尔战争",
+            "nameEn": "First Kashmir War",
+            "startYear": 1947,
+            "endYear": 1948,
+            "coords": [
+              74,
+              34
+            ],
+            "theater": "克什米尔地区",
+            "context": "印巴分治后，克什米尔土邦王哈里·辛格选择加入印度，引发巴基斯坦部落武装和巴基斯坦军队的干预",
+            "description": "1947年10月，巴基斯坦支持的部落武装入侵克什米尔，印度军队空降斯利那加进行防御。战争持续至1948年底，联合国促成停火。双方在控制线上形成对峙，克什米尔问题成为印巴争端的核心",
+            "result": "联合国调解停火，印度控制克什米尔谷地和查谟，巴基斯坦控制北部和西部地区",
+            "significance": "确立了印巴在克什米尔的实际控制线，为后续冲突埋下伏笔",
+            "casualties": {
+              "sideA": "约6000人",
+              "sideB": "约6000人"
+            },
+            "forces": {
+              "sideA": "约20,000人",
+              "sideB": "约15,000人"
+            },
+            "commanders": [
+              {
+                "name": "库马辛格",
+                "role": "总司令",
+                "side": "sideA"
+              },
+              {
+                "name": "道拉特·辛格",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "阿克巴尔·汗",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "operation_vijay",
+            "name": "胜利行动",
+            "nameEn": "Operation Vijay",
+            "startYear": 1965,
+            "endYear": 1965,
+            "coords": [
+              72,
+              24
+            ],
+            "theater": "拉贾斯坦邦",
+            "context": "巴基斯坦试图通过“直布罗陀行动”在克什米尔挑起叛乱，失败后转向印度境内发动大规模进攻",
+            "description": "1965年9月，巴基斯坦军队越过印巴边界，向印度拉贾斯坦邦的查莫-达德-克什米尔地区发动进攻。印度军队迅速反应，发动反击。双方在沙漠地区展开激烈战斗，印度最终成功击退巴基斯坦进攻",
+            "result": "印度成功防御巴基斯坦进攻，双方在联合国斡旋下停火",
+            "significance": "第二次印巴战争的主要战役之一，展示了印度军队的防御能力",
+            "casualties": {
+              "sideA": "约3000人",
+              "sideB": "约3800人"
+            },
+            "forces": {
+              "sideA": "约1个师",
+              "sideB": "约1个师"
+            },
+            "commanders": [
+              {
+                "name": "萨姆·马内克肖",
+                "role": "东部军区司令",
+                "side": "sideA"
+              },
+              {
+                "name": "阿尤布·汗",
+                "role": "总统兼军队总司令",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_asal_uttar",
+            "name": "阿萨尔-乌塔尔战役",
+            "nameEn": "Battle of Asal Uttar",
+            "startYear": 1965,
+            "endYear": 1965,
+            "coords": [
+              75,
+              30
+            ],
+            "theater": "旁遮普邦",
+            "context": "巴基斯坦在第二次印巴战争中发动“大满贯行动”，试图向旁遮普邦的阿姆利则发动进攻",
+            "description": "1965年9月，巴基斯坦装甲部队向印度旁遮普邦的阿萨尔-乌塔尔地区推进。印度军队巧妙设下陷阱，利用地形优势摧毁了大量巴基斯坦坦克。这场战役被称为“坦克墓地”，是印巴战争中装甲作战的经典战役",
+            "result": "印度决定性胜利，摧毁大量巴基斯坦装甲装备",
+            "significance": "扭转了战争局势，展示了印度军队的战术创新和装备优势",
+            "casualties": {
+              "sideA": "约70人",
+              "sideB": "约100人"
+            },
+            "forces": {
+              "sideA": "约1个旅",
+              "sideB": "约1个装甲团"
+            },
+            "commanders": [
+              {
+                "name": "哈里·辛格",
+                "role": "旅长",
+                "side": "sideA"
+              },
+              {
+                "name": "纳西尔·阿赫塔尔·汗",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_chhamb",
+            "name": "昌布战役",
+            "nameEn": "Battle of Chhamb",
+            "startYear": 1965,
+            "endYear": 1965,
+            "coords": [
+              74,
+              32.5
+            ],
+            "theater": "查谟-克什米尔",
+            "context": "巴基斯坦在第二次印巴战争中试图夺取查谟-克什米尔的战略要地昌布",
+            "description": "1965年9月，巴基斯坦军队向印度控制的昌布地区发动大规模进攻。经过激烈战斗，巴基斯坦军队成功夺取了昌布及其周边地区，这是巴基斯坦在战争中取得的主要领土收获",
+            "result": "巴基斯坦成功占领昌布地区",
+            "significance": "巴基斯坦在第二次印巴战争中最成功的军事行动之一",
+            "casualties": {
+              "sideA": "约1000人",
+              "sideB": "约800人"
+            },
+            "forces": {
+              "sideA": "约1个师",
+              "sideB": "约1个师"
+            },
+            "commanders": [
+              {
+                "name": "乔蒂·普拉卡什",
+                "role": "师长",
+                "side": "sideA"
+              },
+              {
+                "name": "阿卜杜勒·哈米德",
+                "role": "师长",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "third_kashmir_war",
+            "name": "第三次克什米尔战争",
+            "nameEn": "Third Kashmir War",
+            "startYear": 1971,
+            "endYear": 1971,
+            "coords": [
+              74,
+              34
+            ],
+            "theater": "东巴基斯坦(今孟加拉国)",
+            "context": "东巴基斯坦独立运动引发印度干预，第三次印巴战争爆发",
+            "description": "1971年12月，印度军队在东巴基斯坦(今孟加拉国)发动大规模军事行动，与东巴基斯坦独立力量“ Mukti Bahini”协同作战。战争迅速推进，巴基斯坦军队在东巴基斯坦的抵抗迅速崩溃",
+            "result": "印度军队迅速占领东巴基斯坦，巴基斯坦投降，孟加拉国独立",
+            "significance": "导致巴基斯坦分裂，孟加拉国成立，改变了南亚地缘政治格局",
+            "casualties": {
+              "sideA": "约3000人",
+              "sideB": "约6000人"
+            },
+            "forces": {
+              "sideA": "约3个军",
+              "sideB": "约4个师"
+            },
+            "commanders": [
+              {
+                "name": "贾吉特·辛格·阿罗拉",
+                "role": "东部军区司令",
+                "side": "sideA"
+              },
+              {
+                "name": "阿米尔·阿卜杜拉·汗·尼亚齐",
+                "role": "东巴司令",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "转折战役",
+        "nameEn": "Turning Point Battles",
+        "startYear": 1947,
+        "endYear": 1999,
+        "summary": "印巴战争中的关键转折点战役，这些战役对战争进程产生了决定性影响，改变了双方的战略态势和战争走向。",
+        "battles": [
+          {
+            "battleId": "battle_of_asal_uttar",
+            "name": "阿萨尔-乌塔尔战役",
+            "nameEn": "Battle of Asal Uttar",
+            "startYear": 1965,
+            "endYear": 1965,
+            "coords": [
+              75.5,
+              30.8
+            ],
+            "theater": "旁遮普战区",
+            "context": "第二次印巴战争期间，巴基斯坦军队向印度旁遮普地区发起大规模进攻，试图夺取克什米尔地区。",
+            "description": "1965年9月，巴基斯坦装甲部队向印度阿萨尔-乌塔尔地区发起进攻。印度军队巧妙利用地形和反坦克武器，设下伏击圈。经过激烈战斗，印度军队摧毁了巴基斯坦第1装甲师的大量坦克，取得了决定性胜利。",
+            "result": "印度取得决定性胜利，重创巴基斯坦装甲部队",
+            "significance": "此役被称为“坦克墓地”，彻底粉碎了巴基斯坦的进攻计划，扭转了战争局势，迫使巴基斯坦转入防御。",
+            "casualties": {
+              "sideA": "约200人",
+              "sideB": "约3000人"
+            },
+            "forces": {
+              "sideA": "第1装甲师等",
+              "sideB": "第1装甲师"
+            },
+            "commanders": [
+              {
+                "name": "普雷姆·纳特·乔汗",
+                "role": "印度西部军区司令",
+                "side": "sideA"
+              },
+              {
+                "name": "阿尤布·汗",
+                "role": "巴基斯坦陆军总司令",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_longewala",
+            "name": "隆格瓦拉战役",
+            "nameEn": "Battle of Longewala",
+            "startYear": 1971,
+            "endYear": 1971,
+            "coords": [
+              71.1,
+              24.6
+            ],
+            "theater": "拉贾斯坦战区",
+            "context": "第三次印巴战争期间，巴基斯坦军队计划向印度拉贾斯坦邦发起进攻，分散印度在东巴的兵力。",
+            "description": "1971年12月5日，巴基斯坦第18骑兵团约2000人及45辆坦克向印军驻守的隆格瓦拉哨所发起进攻。印军仅120人及1辆坦克顽强抵抗，利用反坦克导弹和机枪设下伏击。经过长达12小时的激战，巴军被迫撤退，印军以极小代价取得胜利。",
+            "result": "印度以极小代价取得决定性胜利",
+            "significance": "此役成为印巴战争中的经典防御战，极大提升了印度军队士气，展示了印度军队的作战能力，对战争进程产生重大影响。",
+            "casualties": {
+              "sideA": "约5人",
+              "sideB": "约200人"
+            },
+            "forces": {
+              "sideA": "第23步兵营",
+              "sideB": "巴基斯坦第18骑兵团"
+            },
+            "commanders": [
+              {
+                "name": "贾特·辛格",
+                "role": "印军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "阿米尔·阿卜杜拉·汗·尼亚齐",
+                "role": "东巴军区司令",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "operation_meghdoot",
+            "name": "梅格杜特行动",
+            "nameEn": "Operation Meghdoot",
+            "startYear": 1984,
+            "endYear": 1984,
+            "coords": "[77.3,34.4]",
+            "theater": "锡亚琴冰川战区",
+            "context": "印度和巴基斯坦对具有战略价值的锡亚琴冰川地区提出主权要求，该地区海拔极高，气候恶劣。",
+            "description": "1984年4月，印度军队发起“梅格杜特行动”，迅速占领了锡亚琴冰川的战略要地。印度伞兵部队在恶劣气候条件下空降到冰川地区，成功控制了制高点。巴基斯坦军队试图反击，但未能夺回失地。双方在此地区展开了长达数十年的对峙。",
+            "result": "印度成功控制锡亚琴冰川大部分地区",
+            "significance": "此役使印度控制了具有战略价值的锡亚琴冰川，改变了印巴在克什米尔地区的力量对比，成为两国长期对峙的焦点。",
+            "casualties": {
+              "sideA": "约80人",
+              "sideB": "约200人"
+            },
+            "forces": {
+              "sideA": "印军第3伞兵营",
+              "sideB": "巴基斯坦军队"
+            },
+            "commanders": [
+              {
+                "name": "桑贾伊·库马尔",
+                "role": "印军行动指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "穆罕默德·齐亚·哈克",
+                "role": "巴基斯坦总统",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "kargil_war",
+            "name": "卡吉尔战争",
+            "nameEn": "Kargil War",
+            "startYear": 1999,
+            "endYear": 1999,
+            "coords": "[76.7,34.5]",
+            "theater": "卡吉尔地区",
+            "context": "1999年5月，巴基斯坦军队渗透到印度控制的卡吉尔地区，试图切断连接锡亚琴和列城的战略公路。",
+            "description": "1999年5月，巴基斯坦军队和武装分子占领了卡吉尔地区的战略高地。印度军队发起大规模反击，在恶劣地形和气候条件下，经过艰苦的高山作战，逐步收复失地。印度空军也首次在实战中使用了高海拔作战。经过两个多月的战斗，印度成功收复了所有被占领的高地。",
+            "result": "印度成功收复所有被占领地区",
+            "significance": "卡吉尔战争是印巴两国在核武器时代爆发的直接军事冲突，展示了印度的高山作战能力和决心，促使两国重新审视核威慑下的冲突管理。",
+            "casualties": {
+              "sideA": "约527人",
+              "sideB": "约453人"
+            },
+            "forces": {
+              "sideA": "印军第8山地师等",
+              "sideB": "巴基斯坦军队和武装分子"
+            },
+            "commanders": [
+              {
+                "name": "维克托·马拉特",
+                "role": "印军北方军区司令",
+                "side": "sideA"
+              },
+              {
+                "name": "佩尔韦兹·穆沙拉夫",
+                "role": "巴基斯坦陆军参谋长",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "中期战役",
+        "nameEn": "Middle Phase Battles",
+        "startYear": 1971,
+        "endYear": 1999,
+        "summary": "印巴战争中期的关键冲突，包括第三次印巴战争、卡吉尔战争等重要战役，这一时期冲突规模较大，涉及领土争夺和战略要点的控制。",
+        "battles": [
+          {
+            "battleId": "third-indo-pak-war",
+            "name": "第三次印巴战争",
+            "nameEn": "Third Indo-Pak War",
+            "startYear": 1971,
+            "endYear": 1971,
+            "coords": [
+              88.3639,
+              22.5469
+            ],
+            "theater": "东巴基斯坦",
+            "context": "东巴基斯坦独立运动引发印度介入，导致全面战争",
+            "description": "1971年12月，印度军队介入东巴基斯坦的独立运动，与巴基斯坦军队展开激战。印度迅速控制东巴基斯坦地区，12月16日，巴基斯坦在东巴的军队投降，孟加拉国成立。战争持续仅13天，但改变了南亚政治格局。",
+            "result": "巴基斯坦战败，东巴基斯坦独立为孟加拉国",
+            "significance": "导致巴基斯坦分裂，孟加拉国诞生；印度成为南亚主导力量",
+            "casualties": {
+              "sideA": "约3000人",
+              "sideB": "约9000人"
+            },
+            "forces": {
+              "sideA": "约30万",
+              "sideB": "约9万"
+            },
+            "commanders": [
+              {
+                "name": "萨姆·马尼克肖",
+                "role": "印度陆军总司令",
+                "side": "sideA"
+              },
+              {
+                "name": "阿克坦·拉赫曼·汗",
+                "role": "东巴巴基斯坦军司令",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "siachen-conflict",
+            "name": "锡亚琴冰川冲突",
+            "nameEn": "Siachen Conflict",
+            "startYear": 1984,
+            "endYear": 2003,
+            "coords": [
+              77.0962,
+              35.4292
+            ],
+            "theater": "克什米尔",
+            "context": "双方对无人居住的锡亚琴冰川地区的主权争议",
+            "description": "1984年4月，印度军队“行动梅格多”夺取了锡亚琴冰川的战略制高点。巴基斯坦随后试图反击，但未能成功。双方在极端恶劣的高山环境中展开了长达数十年的对峙，成为世界上海拔最高的军事冲突。",
+            "result": "印度控制锡亚琴冰川大部分地区",
+            "significance": "创造了世界上海拔最高的军事对峙；双方耗费巨资维持驻军",
+            "casualties": {
+              "sideA": "约1400人",
+              "sideB": "约4000人"
+            },
+            "forces": {
+              "sideA": "约5000人",
+              "sideB": "约3000人"
+            },
+            "commanders": [
+              {
+                "name": "桑贾伊·库马尔",
+                "role": "印度山地师指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "佩尔韦兹·穆沙拉夫",
+                "role": "巴基斯坦特种部队指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "kargil-war",
+            "name": "卡吉尔战争",
+            "nameEn": "Kargil War",
+            "startYear": 1999,
+            "endYear": 1999,
+            "coords": null,
+            "theater": "卡吉尔地区",
+            "context": "巴基斯坦军队渗透到印度控制的卡吉尔地区",
+            "description": "1999年5月，巴基斯坦军队和武装分子渗透到印度控制的卡吉尔地区，占领了战略高地。印度军队发动大规模反击，在艰苦的高山作战中逐步收复失地。7月26日，巴基斯坦军队撤出，印度宣布胜利。",
+            "result": "印度收复失地，巴基斯坦撤军",
+            "significance": "两国核国家之间的直接军事冲突；国际社会介入调停",
+            "casualties": {
+              "sideA": "约527人",
+              "sideB": "约453人"
+            },
+            "forces": {
+              "sideA": "约3万",
+              "sideB": "约5000-8000人"
+            },
+            "commanders": [
+              {
+                "name": "维克托·马拉克",
+                "role": "印度北方军区司令",
+                "side": "sideA"
+              },
+              {
+                "name": "阿什拉夫·拉希德",
+                "role": "巴基斯坦北方军区司令",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "operation-python",
+            "name": "蟒蛇行动",
+            "nameEn": "Operation Python",
+            "startYear": 1999,
+            "endYear": 1999,
+            "coords": null,
+            "theater": "卡吉尔地区",
+            "context": "印度军队收复穆尔达山口的行动",
+            "description": "1999年7月，在卡吉尔战争中，印度军队发动“蟒蛇行动”，旨在收复被巴基斯坦军队占领的穆尔达山口。印度空军首次在战区使用热成像导弹，配合地面部队行动。经过激烈战斗，印度成功收复了这一战略要地。",
+            "result": "印度成功收复穆尔达山口",
+            "significance": "卡吉尔战争中的关键转折点；展示了印度空地协同作战能力",
+            "casualties": {
+              "sideA": "约100人",
+              "sideB": "约200人"
+            },
+            "forces": {
+              "sideA": "约2000人",
+              "sideB": "约500人"
+            },
+            "commanders": [
+              {
+                "name": "洛坎德·辛格",
+                "role": "印度第11军团指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "谢里夫",
+                "role": "巴基斯坦武装分子指挥官",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "后期战役",
+        "nameEn": "Later Phase",
+        "startYear": 1971,
+        "endYear": 1999,
+        "summary": "印巴战争后期阶段包括1971年印巴战争、卡吉尔战争等重要冲突，这些战役对南亚地缘政治格局产生了深远影响。",
+        "battles": [
+          {
+            "battleId": "bangladesh_liberation_war",
+            "name": "孟加拉解放战争",
+            "nameEn": "Bangladesh Liberation War",
+            "startYear": 1971,
+            "endYear": 1971,
+            "coords": [
+              90.4168,
+              23.7306
+            ],
+            "theater": "东巴基斯坦",
+            "context": "东巴基斯坦(今孟加拉国)寻求独立，印度支持孟加拉独立运动",
+            "description": "1971年，东巴基斯坦爆发独立运动，印度支持孟加拉解放军。战争持续两周，印度军队迅速占领达卡，巴基斯坦军队投降。这场战争导致东巴基斯坦独立为孟加拉国。",
+            "result": "巴基斯坦战败，东巴基斯坦独立为孟加拉国",
+            "significance": "导致巴基斯坦分裂，印度取得战略优势，改变南亚地缘政治格局",
+            "casualties": {
+              "sideA": "约3000人",
+              "sideB": "约8000人"
+            },
+            "forces": {
+              "sideA": "约30万",
+              "sideB": "约9万"
+            },
+            "commanders": [
+              {
+                "name": "辛格",
+                "role": "印度东部军区司令",
+                "side": "sideA"
+              },
+              {
+                "name": "蒂卡·汗",
+                "role": "东巴基斯坦军区司令",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "siachen_conflict",
+            "name": "锡亚琴冰川冲突",
+            "nameEn": "Siachen Conflict",
+            "startYear": 1984,
+            "endYear": 1984,
+            "coords": [
+              77.0981,
+              35.4281
+            ],
+            "theater": "克什米尔北部",
+            "context": "双方对无人居住的锡亚琴冰川地区主权主张冲突",
+            "description": "1984年，印度发动“ Operation Meghdoot”行动，占领锡亚琴冰川战略要地。双方在极端恶劣环境下展开高海拔军事对峙，持续多年。这场冲突被称为“世界最高战场”。",
+            "result": "印度控制锡亚琴冰川大部分地区",
+            "significance": "建立了世界上最高的军事哨所，双方付出巨大代价但战略意义有限",
+            "casualties": {
+              "sideA": "约1000人",
+              "sideB": "约2000人"
+            },
+            "forces": {
+              "sideA": "约5000人",
+              "sideB": "约3000人"
+            },
+            "commanders": [
+              {
+                "name": "桑达吉",
+                "role": "印度陆军参谋长",
+                "side": "sideA"
+              },
+              {
+                "name": "阿克拉姆",
+                "role": "巴基斯坦陆军参谋长",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "kargil_war",
+            "name": "卡吉尔战争",
+            "nameEn": "Kargil War",
+            "startYear": 1999,
+            "endYear": 1999,
+            "coords": null,
+            "theater": "卡吉尔地区",
+            "context": "巴基斯坦军队渗透到印度控制的卡吉尔地区",
+            "description": "1999年5月，巴基斯坦军队渗透到印控克什米尔的卡吉尔地区。印度发动“ Operation Vijay”反击战，在空地协同作战下，经过近两个月战斗，最终将巴基斯坦军队驱逐出该地区。",
+            "result": "印度成功收复卡吉尔地区",
+            "significance": "印巴两国首次在核时代进行直接军事冲突，国际社会介入调停",
+            "casualties": {
+              "sideA": "约527人",
+              "sideB": "约453人"
+            },
+            "forces": {
+              "sideA": "约2万",
+              "sideB": "约5000-8000"
+            },
+            "commanders": [
+              {
+                "name": "瓦帕伊",
+                "role": "印度总理",
+                "side": "sideA"
+              },
+              {
+                "name": "穆沙拉夫",
+                "role": "巴基斯坦陆军参谋长",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "operation_parakram",
+            "name": "帕拉克拉姆行动",
+            "nameEn": "Operation Parakram",
+            "startYear": 2001,
+            "endYear": 2002,
+            "coords": null,
+            "theater": "印巴边境",
+            "context": "印度议会袭击事件后的大规模军事对峙",
+            "description": "2001年12月，印度议会遭袭击，印度指责巴基斯坦支持恐怖分子。印度发动“ Operation Parakram”军事行动，在印巴边境部署大量军队，持续近一年的军事对峙。",
+            "result": "双方在国际调停下撤军，未发生大规模战斗",
+            "significance": "印巴两国历史上最大规模的军事对峙，核战争风险达到高峰",
+            "casualties": {
+              "sideA": "约500人",
+              "sideB": "约300人"
+            },
+            "forces": {
+              "sideA": "约80万",
+              "sideB": "约50万"
+            },
+            "commanders": [
+              {
+                "name": "瓦杰帕伊",
+                "role": "印度总理",
+                "side": "sideA"
+              },
+              {
+                "name": "穆沙拉夫",
+                "role": "巴基斯坦总统",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "majorBattles": [],
+    "cognitiveWarfare": {
+      "psyOps": [
+        "利用宗教差异煽动对立情绪“, ”通过边境冲突制造民族主义狂热“, ”散布虚假情报误导对方军事决策“, ”利用国际舆论争取外交支持“, ”通过媒体渲染对方军队暴行"
+      ],
+      "propagandaComparison": "印度宣传强调世俗民主价值观，将巴基斯坦描绘为支持恐怖主义的伊斯兰极端主义国家，利用其民主制度优势塑造正面国际形象。巴基斯坦则宣传印度教徒压迫穆斯林 minorities，将克什米尔问题描绘为宗教自由斗争，利用伊斯兰团结争取国际穆斯林社区支持。双方均通过历史叙事强化领土主张，印度强调世俗统一性，巴基斯坦突出宗教自决权。",
+      "collaborationists": [
+        "查谟-克什米尔邦亲印政府“, ”巴控克什米尔亲巴政治团体“, ”印控克什米尔分离主义组织“, ”边境地区部落领袖"
+      ],
+      "informationWarfare": "印巴信息战围绕克什米尔主权展开，双方通过控制媒体叙事塑造国际舆论。印度利用其民主制度和媒体自由度赢得西方支持，巴基斯坦则利用伊斯兰网络和海外侨民社区扩大影响力。双方均进行网络攻击和虚假信息传播，干扰对方通信系统并散布恐慌。信息战与实际军事行动紧密结合，形成认知-军事复合打击模式。"
+    },
+    "economics": {
+      "resourceDependency": {
+        "sideA": {
+          "summary": "印度作为资源相对丰富的国家，战争期间主要依赖国内工业基础和农业产出。其军事工业体系能够生产大部分武器装备，但仍需进口石油、先进电子元件和特种钢材。长期战争导致国防开支占GDP比重高达6-8%，挤压了基础设施和民生投入。"
+        },
+        "sideB": {
+          "summary": "巴基斯坦资源相对匮乏，高度依赖进口满足军事需求。战争期间严重依赖美国、中国和沙特等国的军事和经济援助。外汇储备紧张，农业受战事影响产量波动大，工业基础薄弱导致武器生产能力有限，长期依赖外部供应维持军事平衡。"
+        }
+      },
+      "foreignAid": [
+        {
+          "from": "美国",
+          "to": "巴基斯坦",
+          "program": "共同防御计划",
+          "content": "提供军事装备和经济援助，包括F-16战斗机、坦克和财政支持，以对抗苏联在阿富汗的影响"
+        },
+        {
+          "from": "苏联",
+          "to": "印度",
+          "program": "印苏友好合作条约",
+          "content": "提供军事装备、技术和经济援助，包括T-72坦克、米格战斗机和重工业设备支持"
+        },
+        {
+          "from": "中国",
+          "to": "巴基斯坦",
+          "program": "经济合作计划",
+          "content": "提供军事装备和经济援助，包括战斗机、导弹技术和基础设施贷款"
+        }
+      ],
+      "warBudget": "印巴战争总开支估计超过1000亿美元，其中印度约占60%，巴基斯坦占40%。印度国防开支长期保持在GDP的3-4%，而巴基斯坦在战争高峰期达到GDP的6-8%。双方军费开支占政府财政支出的30-40%，严重挤压了教育、医疗和基础设施建设投入。",
+      "economicDisruption": "印巴冲突导致两国边境地区经济活动停滞，基础设施频繁被毁，贸易中断。克什米尔地区农业产出下降40%，工业设施受损严重。双方军备竞赛导致通货膨胀率上升2-3个百分点，外债增加。长期冲突阻碍了南亚区域经济合作，限制了两国经济发展潜力，估计累计造成GDP损失超过5%。"
+    },
+    "geography": {
+      "keyObstacles": [
+        {
+          "name": "「克什米尔山区」",
+          "description": "印巴争夺的核心区域，地形崎岖复杂，高山峡谷遍布，严重影响部队机动和后勤补给，为防御方提供天然屏障，进攻方需付出巨大代价"
+        },
+        {
+          "name": "「塔尔沙漠」",
+          "description": "位于印巴边境的干旱沙漠地区，夏季高温可达50℃，水源稀缺，沙尘暴频发，严重影响部队行军、装备维护和士兵健康"
+        },
+        {
+          "name": "「印度河平原」",
+          "description": "巴基斯坦主要农业区和人口密集区，河流纵横，水系复杂，既是经济命脉也是战略要地，控制该区域对战争胜负至关重要"
+        }
+      ],
+      "extremeWeather": [
+        {
+          "year": 1965,
+          "event": "「季风洪水」",
+          "description": "1965年战争期间遭遇异常强季风，导致印度河流域发生严重洪水，淹没大量农田和军事设施，严重影响双方后勤和部队部署"
+        },
+        {
+          "year": 1999,
+          "event": "「卡吉尔冬季严寒」",
+          "description": "卡吉尔冲突期间，海拔5000米以上的阵地遭遇极端严寒，气温降至零下30℃，士兵面临冻伤、高山病和装备失灵风险，严重影响作战能力"
+        }
+      ],
+      "nonCombatLosses": "印巴边境地区常年高温、严寒、高原反应等恶劣气候条件导致大量非战斗减员，包括中暑、冻伤、高原病、水源污染引发的疾病等。特别是在克什米尔高海拔地区，非战斗减员率有时可达总伤亡的30%以上，严重影响部队持续作战能力"
+    }
+  },
+  "timeline": [
+    {
+      "year": 1947,
+      "event": "印巴分治",
+      "type": "decision",
+      "description": "英国结束在印度次大陆的殖民统治，根据宗教信仰将英属印度分为印度和巴基斯坦两个独立国家",
+      "impact": "导致了大规模人口迁移和宗教暴力冲突，埋下了印巴长期冲突的根源"
+    },
+    {
+      "year": 1947,
+      "event": "第一次克什米尔战争",
+      "type": "crisis",
+      "description": "克什米尔土邦在印巴分治后选择加入印度，引发巴基斯坦支持的部落武装入侵",
+      "impact": "导致克什米尔地区长期争端，联合国介入并停火，但问题至今未解决"
+    },
+    {
+      "year": 1947,
+      "event": "印巴分治与第一次印巴战争",
+      "type": "crisis",
+      "description": "英国殖民统治结束后，印度和巴基斯坦因克什米尔地区归属问题爆发第一次战争",
+      "impact": "导致克什米尔争端成为两国长期冲突的核心，奠定了印巴关系敌对的基础"
+    },
+    {
+      "year": 1965,
+      "event": "第二次印巴战争",
+      "type": "crisis",
+      "description": "巴基斯坦试图通过“直布罗陀行动”在克什米尔地区挑起叛乱，印度反击并扩大战争规模",
+      "impact": "战争以塔什干宣言结束，双方恢复战前边界，但关系进一步恶化"
+    },
+    {
+      "year": 1971,
+      "event": "第三次印巴战争",
+      "type": "crisis",
+      "description": "东巴基斯坦(孟加拉)寻求独立，印度支持东巴独立运动并介入冲突",
+      "impact": "导致巴基斯坦分裂，孟加拉国独立，印度在战略上取得重大优势"
+    },
+    {
+      "year": 1971,
+      "event": "第三次印巴战争与孟加拉国独立",
+      "type": "crisis",
+      "description": "印度支持东巴基斯坦独立运动，与巴基斯坦爆发全面战争",
+      "impact": "导致巴基斯坦分裂，孟加拉国成立；印度在军事上取得决定性胜利"
+    },
+    {
+      "year": 1984,
+      "event": "锡亚琴冰川冲突",
+      "type": "crisis",
+      "description": "印巴两国为争夺具有战略意义的锡亚琴冰川地区爆发军事冲突",
+      "impact": "导致双方在海拔极高的冰川地区长期对峙，消耗大量军事资源"
+    },
+    {
+      "year": 1998,
+      "event": "印巴核试验",
+      "type": "crisis",
+      "description": "印度进行多次核试验后，巴基斯坦回应进行核试验",
+      "impact": "南亚地区核军备竞赛升级，增加了地区不稳定性和冲突风险"
+    },
+    {
+      "year": 1998,
+      "event": "印巴核试验竞赛",
+      "type": "crisis",
+      "description": "两国相继进行核试验，成为公开的核武器国家",
+      "impact": "南亚地区核军备竞赛升级，增加了地区冲突的风险和复杂性"
+    },
+    {
+      "year": 1999,
+      "event": "卡吉尔冲突",
+      "type": "crisis",
+      "description": "巴基斯坦军队渗透到印度控制的克什米尔卡吉尔地区引发军事冲突",
+      "impact": "导致国际社会对巴基斯坦施压，印巴关系进一步恶化，但避免了全面战争"
+    }
+  ]
+}

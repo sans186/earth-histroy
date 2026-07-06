@@ -1,0 +1,108 @@
+{
+  "personId": "john-snow",
+  "name": "约翰·斯诺",
+  "nameEn": "John Snow",
+  "birth": 1813,
+  "death": 1858,
+  "nationality": "英国",
+  "nationalityEn": "United Kingdom",
+  "totalPoints": 5,
+  "points": [
+    {
+      "year": 1813,
+      "yearEnd": 1827,
+      "place": "约克",
+      "placeEn": "York",
+      "coords": [
+        -1.0833,
+        53.9575
+      ],
+      "title": "早年成长",
+      "titleEn": "Early Life",
+      "description": "约翰·斯诺于1813年3月15日出生于英国约克的一个工人阶级家庭。他的父亲是劳工，母亲在当地一家煤矿工作。斯诺在约克接受了基础教育，展现出对科学的浓厚兴趣。尽管家境贫寒，但通过勤奋工作和奖学金支持，他完成了学业。这段经历培养了他严谨的科学态度和对社会底层民众的同情心，这些特质后来影响了他的医学研究方法和公共卫生理念。",
+      "descriptionEn": "John Snow was born on March 15, 1813, in York, England, to a working-class family. His father was a laborer and his mother worked at a local coal mine. Snow received his basic education in York and showed a keen interest in science. Despite financial difficulties, he completed his education through hard work and scholarship support. This period fostered his rigorous scientific attitude and compassion for the working class, which later influenced his medical research methods and public health philosophy."
+    },
+    {
+      "year": 1827,
+      "yearEnd": 1836,
+      "place": "伦敦",
+      "placeEn": "London",
+      "coords": [
+        -0.1278,
+        51.5074
+      ],
+      "title": "医学教育",
+      "titleEn": "Medical Education",
+      "description": "1827年，斯诺前往伦敦，在著名的威斯敏斯特医院医学院学习医学。在那里，他接受了系统的医学训练，特别专注于化学和药理学。1836年，他获得伦敦大学医学院的医学学位。在伦敦学习期间，斯诺接触到了当时最新的医学理论，包括体液学说和瘴气理论，这些理论后来被他挑战和修正。这段医学教育为他日后开创性的流行病学研究奠定了坚实基础。",
+      "descriptionEn": "In 1827, Snow moved to London to study medicine at the prestigious Westminster Hospital Medical School. There, he received systematic medical training with a focus on chemistry and pharmacology. In 1836, he earned his medical degree from the University of London Medical School. During his studies in London, Snow was exposed to contemporary medical theories, including humoral theory and miasma theory, which he would later challenge and revise. This medical education laid a solid foundation for his pioneering epidemiological research later in life."
+    },
+    {
+      "year": 1836,
+      "yearEnd": 1849,
+      "place": "伦敦",
+      "placeEn": "London",
+      "coords": [
+        -0.1278,
+        51.5074
+      ],
+      "title": "医学实践与研究",
+      "titleEn": "Medical Practice and Research",
+      "description": "获得医学学位后，斯诺在伦敦开始了他的医学实践，专注于麻醉学和公共卫生。1846年，他成为英国第一位系统使用乙醚作为麻醉剂的医生，并在1847年成功将氯仿应用于分娩麻醉。斯诺发明了专门的吸入装置，使麻醉剂能够更安全有效地输送给患者。同时，他开始研究霍乱等传染病的传播机制，质疑当时主流的瘴气理论。这一时期，斯诺通过临床实践和科学观察，逐渐形成了自己的流行病学方法论，为日后破解霍乱之谜奠定了基础。",
+      "descriptionEn": "After earning his medical degree, Snow began his medical practice in London, focusing on anesthesiology and public health. In 1846, he became the first doctor in Britain to systematically use ether as an anesthetic, and in 1847, he successfully applied chloroform in childbirth anesthesia. Snow invented specialized inhalation devices that allowed anesthetics to be delivered more safely and effectively to patients. Concurrently, he began researching the transmission mechanisms of infectious diseases like cholera, challenging the dominant miasma theory of the time. During this period, through clinical practice and scientific observation, Snow gradually developed his own epidemiological methodology, laying the foundation for his later breakthrough in solving the cholera mystery."
+    },
+    {
+      "year": 1849,
+      "yearEnd": 1854,
+      "place": "伦敦宽街",
+      "placeEn": "Broad Street, London",
+      "coords": [
+        -0.1388,
+        51.5155
+      ],
+      "title": "霍乱研究突破",
+      "titleEn": "Cholera Research Breakthrough",
+      "description": "1849年，斯诺发表《论霍乱的传播模式》，首次提出霍乱是通过受污染的水源传播，而非当时普遍认为的瘴气。1854年伦敦爆发严重霍乱疫情时，斯诺通过详细的病例地图绘制，发现大多数病例集中在宽街的一个水泵周围。他移除了水泵的手柄，有效阻止了疫情的进一步扩散。斯诺还进行了详细的统计分析，证明饮用该水泵水的居民感染率显著高于其他地区。这一研究不仅证明了水源污染是霍乱传播的主要途径，还开创了现代流行病学研究方法，包括病例对照研究和空间分析。",
+      "descriptionEn": "In 1849, Snow published 'On the Mode of Communication of Cholera,' proposing for the first time that cholera was transmitted through contaminated water rather than the prevailing miasma theory. When a severe cholera outbreak hit London in 1854, Snow created detailed maps of cases and discovered that most cases clustered around a water pump on Broad Street. He had the pump handle removed, effectively stopping the further spread of the epidemic. Snow also conducted detailed statistical analysis, showing that residents who drank water from the pump had significantly higher infection rates than other areas. This research not only proved that contaminated water was the primary route of cholera transmission but also pioneered modern epidemiological methods, including case-control studies and spatial analysis."
+    },
+    {
+      "year": 1854,
+      "yearEnd": 1858,
+      "place": "伦敦",
+      "placeEn": "London",
+      "coords": [
+        -0.1278,
+        51.5074
+      ],
+      "title": "科学遗产与影响",
+      "titleEn": "Scientific Legacy and Impact",
+      "description": "1854年后，斯诺继续完善他的霍乱理论，尽管当时医学界仍普遍接受瘴气理论。他的研究方法和数据收集技术为现代流行病学奠定了基础。1858年6月16日，斯诺因中风在伦敦去世，年仅45岁。尽管生前他的理论未被完全接受，但后来约翰·亨利·格林等人的研究证实了斯诺的发现。随着细菌学的发展，斯诺的理论最终被科学界接受。今天，他被尊为'现代流行病学之父'，他的研究方法成为公共卫生调查的黄金标准。伦敦宽街水泵遗址被标记为历史地标，每年都有人纪念他的科学贡献。",
+      "descriptionEn": "After 1854, Snow continued to refine his cholera theory, although the medical community still generally accepted the miasma theory. His research methods and data collection techniques laid the foundation for modern epidemiology. On June 16, 1858, Snow died of a stroke in London at the age of 45. Although his theories were not fully accepted during his lifetime, later research by John Henry Green and others confirmed Snow's findings. With the development of bacteriology, Snow's theories were eventually accepted by the scientific community. Today, he is revered as the 'father of modern epidemiology,' and his research methods have become the gold standard for public health investigations. The site of the Broad Street pump in London is marked as a historical landmark, and people commemorate his scientific contributions annually."
+    }
+  ],
+  "evaluation": {
+    "supporter": {
+      "zh": "约翰·斯诺被视为现代流行病学的奠基人和公共卫生的先驱。他通过严谨的科学方法和创新的数据可视化技术，成功证明了霍乱的水源传播理论，挑战了当时主流的瘴气学说。斯诺的工作不仅挽救了无数生命，还开创了基于证据的医学研究方法，强调实地调查和统计分析的重要性。他的科学精神和人文关怀相结合，使他成为医学史上最具影响力的科学家之一，为现代公共卫生体系奠定了基础。",
+      "en": "John Snow is regarded as the founder of modern epidemiology and a pioneer in public health. Through rigorous scientific methods and innovative data visualization techniques, he successfully proved the waterborne transmission theory of cholera, challenging the dominant miasma theory of his time. Snow's work not only saved countless lives but also pioneered evidence-based medical research methods, emphasizing the importance of field investigation and statistical analysis. His combination of scientific rigor and human compassion makes him one of the most influential figures in medical history, laying the foundation for modern public health systems."
+    },
+    "critic": {
+      "zh": "批评者指出斯诺的研究存在局限性，如样本量相对较小，研究范围局限于特定地区，且未能完全解释所有病例。此外，斯诺的理论在生前未被广泛接受，反映了科学进步的缓慢性和保守性。一些历史学家认为，斯诺可能过度强调了单一因素（水源）在疾病传播中的作用，而忽视了其他可能的传播途径。他的研究方法虽然开创性，但在当时的技术条件下，缺乏微生物学证据支持，这也是其理论受到质疑的原因之一。",
+      "en": "Critics point out that Snow's research had limitations, such as relatively small sample sizes, a focus on specific geographic areas, and an inability to fully explain all cases. Additionally, his theories were not widely accepted during his lifetime, reflecting the slow pace and conservatism of scientific progress. Some historians argue that Snow may have overemphasized a single factor (water source) in disease transmission while neglecting other possible routes. Although his research methods were pioneering, they lacked microbiological evidence under the technological constraints of the time, which was one reason his theories were questioned."
+    },
+    "objective": {
+      "zh": "在历史学界和流行文化中，约翰·斯诺被定义为科学方法论的典范和公共卫生革命的先驱。他的'宽街水泵'研究案例已成为流行病学教学的经典案例，展示了如何通过地理空间分析揭示疾病传播模式。斯诺的形象超越了单纯的医学研究者，成为理性思维对抗迷信和传统观念的象征。在流行文化中，他的故事被多次改编，包括书籍、纪录片和电视剧，使他的科学贡献广为人知。斯诺的遗产不仅体现在他的科学发现上，更体现在他开创的研究方法和思维模式上，这些方法至今仍在全球公共卫生调查中发挥着重要作用。",
+      "en": "In historical scholarship and popular culture, John Snow is defined as a paradigm of scientific methodology and a pioneer of the public health revolution. His 'Broad Street pump' case study has become a classic in epidemiology education, demonstrating how geographic spatial analysis can reveal disease transmission patterns. Snow's image transcends that of a mere medical researcher, becoming a symbol of rational thinking challenging superstition and conventional wisdom. In popular culture, his story has been adapted multiple times in books, documentaries, and television shows, making his scientific contributions widely known. Snow's legacy lies not only in his scientific discoveries but in the research methods and thinking patterns he pioneered, which continue to play a vital role in global public health investigations today."
+    }
+  },
+  "quotes": {
+    "self": {
+      "zh": "我毫不犹豫地得出结论，霍乱是由一种存在于肠道中的活的生物体引起的，这种生物体在患者的排泄物中大量存在，并通过被污染的水源传播给他人。",
+      "en": "I had no hesitation in coming to the conclusion that cholera was caused by a living organism in the evacuations of the patient which, entering the water, was propagated to others."
+    },
+    "others": {
+      "zh": "约翰·斯诺是流行病学史上最伟大的思想家之一，他不仅发现了霍乱的传播途径，更重要的是，他开创了基于证据的医学研究方法，这种方法至今仍是公共卫生调查的黄金标准。",
+      "en": "John Snow was one of the greatest thinkers in the history of epidemiology. Not only did he discover the mode of transmission of cholera, but more importantly, he pioneered evidence-based medical research methods that remain the gold standard for public health investigations to this day."
+    }
+  },
+  "othersBy": "乔治·罗森",
+  "othersByEn": "George Rosen"
+}

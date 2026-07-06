@@ -1,0 +1,944 @@
+{
+  "warId": "angolan_civil_war",
+  "name": "安哥拉内战",
+  "nameEn": "Angolan Civil War",
+  "alternativeNames": [
+    "安哥拉解放战争"
+  ],
+  "startYear": 1975,
+  "endYear": 2002,
+  "type": "major",
+  "category": "内战",
+  "theaters": [
+    "安哥拉全境"
+  ],
+  "summary": "安哥拉独立后，人民解放运动与争取安哥拉彻底独立全国联盟之间的长期内战。",
+  "background": {
+    "causes": "葡萄牙殖民统治结束后，各解放组织间意识形态分歧和权力争夺",
+    "immediateCause": "1975年葡萄牙撤军，各派争夺国家控制权",
+    "preWarSituation": "葡萄牙殖民统治结束，安哥拉三大解放组织（安人运、安盟、安解阵）争夺政权",
+    "objectivesA": "安人运：建立马克思主义一党制国家，获得国际认可",
+    "objectivesB": "安盟：推翻安人运政府，建立资本主义制度",
+    "precedingConflicts": [
+      "安哥拉独立战争"
+    ]
+  },
+  "belligerents": {
+    "sideA": {
+      "name": "安哥拉人民解放运动",
+      "nameEn": "MPLA",
+      "countries": [
+        {
+          "name": "安哥拉",
+          "entryYear": 1975,
+          "exitYear": 2002
+        },
+        {
+          "name": "苏联",
+          "entryYear": 1975,
+          "exitYear": 1991
+        },
+        {
+          "name": "古巴",
+          "entryYear": 1975,
+          "exitYear": 1991
+        }
+      ],
+      "commanders": [
+        {
+          "name": "阿戈什蒂纽·内图",
+          "role": "总统",
+          "bio": "安哥拉首任总统，安人运领导人"
+        },
+        {
+          "name": "若泽·爱德华多·多斯桑托斯",
+          "role": "总统",
+          "bio": "安哥拉第二任总统，长期执政"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "阿戈什蒂纽·内图",
+          "role": "安人运主席",
+          "bio": "安哥拉独立运动领袖"
+        },
+        {
+          "name": "若泽·爱德华多·多斯桑托斯",
+          "role": "安人运主席",
+          "bio": "安哥拉长期执政者"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "义务兵役制与志愿兵结合",
+        "organization": "正规军与民兵相结合",
+        "logistics": "依靠苏联和古巴援助"
+      },
+      "preWarStrength": {
+        "army": "约10万人",
+        "navy": "约2000人",
+        "airForce": "约5000人",
+        "armor": "约300辆坦克",
+        "specialForces": "约5000人",
+        "reserves": "约5万人"
+      },
+      "equipment": [
+        {
+          "name": "T-54/55坦克",
+          "quantity": "约300辆",
+          "description": "苏联主战坦克"
+        },
+        {
+          "name": "米格-21战斗机",
+          "quantity": "约30架",
+          "description": "苏联制战斗机"
+        },
+        {
+          "name": "BTR-60装甲车",
+          "quantity": "约200辆",
+          "description": "苏联制装甲运兵车"
+        }
+      ],
+      "industrialCapacity": "有限，依赖苏联援助",
+      "economicStrength": "中等，依靠石油出口",
+      "totalCasualties": {
+        "dead": "约10万人",
+        "wounded": "约20万人",
+        "captured": "约5万人",
+        "missing": "约3万人",
+        "civilian": "约50万人"
+      },
+      "warCrimes": [
+        "针对安盟支持者的屠杀"
+      ],
+      "propaganda": {
+        "slogans": [
+          "和平、独立、进步"
+        ],
+        "themes": [
+          "反殖民主义“, ”社会主义建设"
+        ],
+        "methods": [
+          "国家媒体宣传“, ”政治教育"
+        ]
+      }
+    },
+    "sideB": {
+      "name": "争取安哥拉彻底独立全国联盟",
+      "nameEn": "UNITA",
+      "countries": [
+        {
+          "name": "安哥拉",
+          "entryYear": 1975,
+          "exitYear": 2002
+        },
+        {
+          "name": "南非",
+          "entryYear": 1975,
+          "exitYear": 1988
+        },
+        {
+          "name": "美国",
+          "entryYear": 1976,
+          "exitYear": 1992
+        },
+        {
+          "name": "扎伊尔",
+          "entryYear": 1977,
+          "exitYear": 1979
+        }
+      ],
+      "commanders": [
+        {
+          "name": "若纳斯·萨文比",
+          "role": "领袖",
+          "bio": "安盟创始人，长期领导人"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "若纳斯·萨文比",
+          "role": "安盟主席",
+          "bio": "安哥拉反对派领袖"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "志愿兵为主，部落民兵",
+        "organization": "游击战与正规战结合",
+        "logistics": "依靠南非和美国援助"
+      },
+      "preWarStrength": {
+        "army": "约6万人",
+        "navy": "约500人",
+        "airForce": "约1000人",
+        "armor": "约100辆坦克",
+        "specialForces": "约3000人",
+        "reserves": "约2万人"
+      },
+      "equipment": [
+        {
+          "name": "RPG-7火箭筒",
+          "quantity": "约5000具",
+          "description": "反坦克武器"
+        },
+        {
+          "name": "FN FAL步枪",
+          "quantity": "约3万支",
+          "description": "比利时制步枪"
+        },
+        {
+          "name": "豹式坦克",
+          "quantity": "约50辆",
+          "description": "南非援助坦克"
+        }
+      ],
+      "industrialCapacity": "有限，依赖外援",
+      "economicStrength": "较弱，依靠钻石贸易",
+      "totalCasualties": {
+        "dead": "约8万人",
+        "wounded": "约15万人",
+        "captured": "约3万人",
+        "missing": "约2万人",
+        "civilian": "约40万人"
+      },
+      "warCrimes": [
+        "针对平民的袭击“, ”绑架儿童兵"
+      ],
+      "propaganda": {
+        "slogans": [
+          "自由、民主、公正"
+        ],
+        "themes": [
+          "反共产主义“, ”民族自决"
+        ],
+        "methods": [
+          "广播宣传“, ”游击战宣传"
+        ]
+      }
+    }
+  },
+  "neutralParties": [
+    {
+      "name": "葡萄牙",
+      "role": "前殖民宗主国"
+    },
+    {
+      "name": "联合国",
+      "role": "调停者"
+    }
+  ],
+  "outcome": {
+    "result": "安人获胜，安盟接受和平协议",
+    "victoryAnalysis": {
+      "winnerFactors": "国际支持、石油资源、正规军优势",
+      "loserFactors": "外部援助减少、领导人被杀、游击战术失效"
+    },
+    "treaty": {
+      "name": "《卢萨卡和平协议》",
+      "date": "1994年11月20日",
+      "content": "停火、多党民主选举、安盟融入政治进程"
+    },
+    "territorialChanges": "安人控制全国领土",
+    "economicCost": "约300亿美元损失，基础设施严重破坏",
+    "demographicImpact": "约100万人死亡，400万人流离失所"
+  },
+  "legacy": {
+    "significance": "非洲持续时间最长的内战之一，冷战代理人战争典型",
+    "immediateConsequences": "安哥拉重建开始，但贫困和地雷问题严重",
+    "longTermImpact": {
+      "political": "一党制统治延续，民主进程缓慢",
+      "military": "地雷污染严重，影响农业发展",
+      "economic": "石油经济主导，贫富差距大",
+      "social": "社会分裂严重，儿童兵问题长期存在"
+    },
+    "culturalLegacy": {
+      "memorials": [
+        "内战纪念碑“, ”和平广场"
+      ],
+      "observances": [
+        "和平纪念日"
+      ],
+      "media": [
+        "《血钻》电影反映战争背景"
+      ]
+    }
+  },
+  "tags": {
+    "warfareType": [
+      "游击战“, ”内战“, ”代理人战争"
+    ],
+    "geopolitical": [
+      "冷战“, ”非洲冲突"
+    ],
+    "scale": "regional",
+    "cause": [
+      "意识形态“, ”权力争夺“, ”资源控制"
+    ]
+  },
+  "relatedWars": [
+    "刚果战争“, ”莫桑比克内战"
+  ],
+  "sources": [],
+  "warProcess": {
+    "phases": [
+      {
+        "name": "战争初期",
+        "nameEn": "Early Phase",
+        "startYear": 1975,
+        "endYear": 1980,
+        "summary": "安哥拉内战初期，安哥拉人民解放运动(MPLA)、安哥拉民族解放阵线(FNLA)和争取安哥拉彻底独立全国联盟(UNITA)三方争夺控制权，古巴和苏联支持MPLA，南非和美国支持UNITA和FNLA。",
+        "battles": [
+          {
+            "battleId": "battle_of_cuito_cuanavale",
+            "name": "奎托夸纳瓦尔战役",
+            "nameEn": "Battle of Cuito Cuanavale",
+            "startYear": 1975,
+            "endYear": 1976,
+            "coords": [
+              20.5878,
+              -17.4563
+            ],
+            "theater": "东部战区",
+            "context": "内战爆发初期，MPLA在古巴军队支持下试图控制安哥拉东部战略要地奎托夸纳瓦尔。",
+            "description": "MPLA与古巴联军在奎托夸纳瓦尔地区与FNLA及其盟友展开激烈战斗。古巴军队提供了关键火力支援，帮助MPLA稳固了对该地区的控制。",
+            "result": "MPLA与古巴联军获胜，巩固了对东部地区的控制",
+            "significance": "确立了MPLA在内战初期的军事优势，为后续控制首都罗安达奠定基础",
+            "casualties": {
+              "sideA": "约500人",
+              "sideB": "约1200人"
+            },
+            "forces": {
+              "sideA": "MPLA军队约3000人，古巴军队约1000人",
+              "sideB": "FNLA军队约2000人，雇佣兵约500人"
+            },
+            "commanders": [
+              {
+                "name": "阿戈什蒂纽·内托",
+                "role": "MPLA领导人",
+                "side": "sideA"
+              },
+              {
+                "name": "若纳斯·萨文比",
+                "role": "FNLA领导人",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_for_luanda",
+            "name": "罗安达争夺战",
+            "nameEn": "Battle for Luanda",
+            "startYear": 1975,
+            "endYear": 1976,
+            "coords": [
+              13.2344,
+              -8.8382
+            ],
+            "theater": "中部战区",
+            "context": "安哥拉独立后，三大解放组织围绕首都罗安达的控制权展开激烈争夺。",
+            "description": "MPLA在古巴军队的直接支援下，与FNLA和UNITA争夺首都罗安达的控制权。战斗主要集中在城市周边地区，MPLA凭借古巴的空中优势和火力支援逐渐占据上风。",
+            "result": "MPLA成功控制首都罗安达，获得国际承认",
+            "significance": "MPLA控制首都使其获得国际合法性，成为安哥拉合法政府",
+            "casualties": {
+              "sideA": "约800人",
+              "sideB": "约1500人"
+            },
+            "forces": {
+              "sideA": "MPLA军队约4000人，古巴军队约1500人",
+              "sideB": "FNLA和UNITA联军约3000人"
+            },
+            "commanders": [
+              {
+                "name": "阿戈什蒂纽·内托",
+                "role": "MPLA领导人",
+                "side": "sideA"
+              },
+              {
+                "name": "若纳斯·萨文比",
+                "role": "UNITA领导人",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_cabinda",
+            "name": "卡宾达战役",
+            "nameEn": "Battle of Cabinda",
+            "startYear": 1975,
+            "endYear": 1976,
+            "coords": [
+              12.1869,
+              -5.9195
+            ],
+            "theater": "卡宾达飞地",
+            "context": "卡宾达作为安哥拉的飞地，拥有丰富石油资源，成为各方争夺的焦点。",
+            "description": "FNLA在卡宾达地区发动攻势，试图控制这一战略要地。MPLA派遣部队与古巴顾问联合行动，经过数周战斗，最终将FNLA势力驱逐出卡宾达。",
+            "result": "MPLA重新控制卡宾达地区",
+            "significance": "确保了安哥拉最重要的石油产区控制在政府手中，为MPLA提供了经济基础",
+            "casualties": {
+              "sideA": "约300人",
+              "sideB": "约600人"
+            },
+            "forces": {
+              "sideA": "MPLA军队约1500人，古巴顾问约200人",
+              "sideB": "FNLA军队约1000人"
+            },
+            "commanders": [
+              {
+                "name": "阿戈什蒂纽·内托",
+                "role": "MPLA领导人",
+                "side": "sideA"
+              },
+              {
+                "name": "霍尔顿·罗伯托",
+                "role": "FNLA领导人",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_nova_lisboa",
+            "name": "新里斯本战役",
+            "nameEn": "Battle of Nova Lisboa",
+            "startYear": 1976,
+            "endYear": 1977,
+            "coords": [
+              15.5473,
+              -12.7839
+            ],
+            "theater": "中部高原",
+            "context": "UNITA在南部和中部高原地区建立势力范围，威胁MPLA对中部地区的控制。",
+            "description": "UNITA军队在新里斯本(现称万博)地区与MPLA军队展开激烈战斗。UNITA利用游击战术和当地支持，一度控制该地区，但MPLA在古巴军队支援下发动反攻，重新夺回控制权。",
+            "result": "MPLA重新控制新里斯本地区",
+            "significance": "MPLA巩固了对中部高原地区的控制，切断了UNITA南北联系",
+            "casualties": {
+              "sideA": "约600人",
+              "sideB": "约800人"
+            },
+            "forces": {
+              "sideA": "MPLA军队约2500人，古巴军队约500人",
+              "sideB": "UNITA军队约2000人"
+            },
+            "commanders": [
+              {
+                "name": "洛佩斯·里贝罗",
+                "role": "MPLA军事指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "若纳斯·萨文比",
+                "role": "UNITA领导人",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争中期",
+        "nameEn": "Middle Phase",
+        "startYear": 1986,
+        "endYear": 1991,
+        "summary": "安哥拉内战中期，随着冷战背景下的外部支持持续，安人运政府军与安盟武装力量在安哥拉各地展开激烈争夺，双方控制区域相对稳定，但冲突不断升级。",
+        "battles": [
+          {
+            "battleId": "cuito-cuanavale",
+            "name": "奎托夸纳韦战役",
+            "nameEn": "Battle of Cuito Cuanavale",
+            "startYear": 1987,
+            "endYear": 1988,
+            "coords": [
+              20.3472,
+              -14.7333
+            ],
+            "theater": "东部战区",
+            "context": "古巴支持的安人运政府军与南非支持的安盟军队在安哥拉东部展开的战略决战",
+            "description": "1987年至1988年间，古巴军队和安人运政府军与南非国防军和安盟武装在奎托夸纳韦地区展开激烈战斗。战役从安盟对奎托夸纳韦的围攻开始，最终演变为大规模的地面和空中对抗。古巴投入大量兵力，包括坦克和火炮系统，最终成功击退安盟进攻。",
+            "result": "安人运政府军成功守住奎托夸纳韦，安盟进攻失败",
+            "significance": "被视为非洲现代史上最大的陆地战役之一，对安哥拉内战和南非边境局势产生重大影响，间接加速了纳米比亚独立和南非种族隔离制度的终结",
+            "casualties": {
+              "sideA": "约3000人",
+              "sideB": "约4500人"
+            },
+            "forces": {
+              "sideA": "约5万人（古巴+安人运）",
+              "sideB": "约8000人（南非+安盟）"
+            },
+            "commanders": [
+              {
+                "name": "阿纳尔多·奥乔亚",
+                "role": "古巴军队指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "乔纳斯·萨文比",
+                "role": "安盟领导人",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "mavinga-offensive",
+            "name": "马文加攻势",
+            "nameEn": "Mavinga Offensive",
+            "startYear": 1985,
+            "endYear": 1986,
+            "coords": [
+              21.5,
+              -15.5
+            ],
+            "theater": "东南部战区",
+            "context": "安盟在南非支持下对安哥拉东南部地区发起的大规模军事行动",
+            "description": "1985年至1986年间，安盟在南非军队的支持下，对安哥拉东南部的马文加省发动大规模攻势。安盟武装利用南非提供的装备和训练，深入政府军控制区，占领多个城镇和战略要地。此次攻势使安盟控制了安哥拉南部大片地区，并威胁到重要城市库安达的供应线。",
+            "result": "安盟成功占领马文加及周边地区，扩大控制区域",
+            "significance": "增强了安盟在安哥拉南部的影响力，迫使安人运政府重新调整战略，寻求更多外部支持",
+            "casualties": {
+              "sideA": "约2000人",
+              "sideB": "约1500人"
+            },
+            "forces": {
+              "sideA": "约1.2万人",
+              "sideB": "约8000人（含南非顾问）"
+            },
+            "commanders": [
+              {
+                "name": "乔纳斯·萨文比",
+                "role": "安盟领导人",
+                "side": "sideB"
+              },
+              {
+                "name": "佩德罗·范·登·贝赫",
+                "role": "南非顾问",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "batalha-de-caala",
+            "name": "卡拉拉战役",
+            "nameEn": "Battle of Cacula",
+            "startYear": 1987,
+            "endYear": 1987,
+            "coords": [
+              15.7333,
+              -12.6333
+            ],
+            "theater": "中部战区",
+            "context": "安盟对安哥拉中部重要城镇卡拉拉的进攻",
+            "description": "1987年，安盟武装对安哥拉比耶省的重要城镇卡拉拉发动进攻。安盟试图切断连接首都罗安达与东部前线的交通要道。政府军在当地驻军和古巴顾问的指挥下进行了顽强抵抗，最终成功击退安盟进攻，保卫了这一战略要地。",
+            "result": "政府军成功保卫卡拉拉，击退安盟进攻",
+            "significance": "巩固了政府军在中部地区的控制，保护了连接首都与前线的补给线",
+            "casualties": {
+              "sideA": "约800人",
+              "sideB": "约1200人"
+            },
+            "forces": {
+              "sideA": "约3000人",
+              "sideB": "约2500人"
+            },
+            "commanders": [
+              {
+                "name": "利奥波尔多·辛坦巴",
+                "role": "政府军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "杰里·穆坎加",
+                "role": "安盟指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-luena",
+            "name": "卢埃纳战役",
+            "nameEn": "Battle of Luena",
+            "startYear": 1988,
+            "endYear": 1989,
+            "coords": [
+              20.2333,
+              -11.7833
+            ],
+            "theater": "东部战区",
+            "context": "安盟对莫希科省省会卢埃纳的进攻",
+            "description": "1988年至1989年间，安盟武装对安哥拉东部莫希科省的省会卢埃纳发动多次进攻。卢埃纳作为东部地区的重要行政和军事中心，具有重要的战略价值。政府军在当地驻军和古巴军队的支援下进行了顽强抵抗，多次击退安盟的进攻，保持了对该地区的控制。",
+            "result": "政府军成功保卫卢埃纳，维持对东部地区的控制",
+            "significance": "确保了政府军对东部莫希科省的控制，保护了该地区的经济资源",
+            "casualties": {
+              "sideA": "约1500人",
+              "sideB": "约2000人"
+            },
+            "forces": {
+              "sideA": "约4000人",
+              "sideB": "约3500人"
+            },
+            "commanders": [
+              {
+                "name": "安东尼奥·多斯桑托斯",
+                "role": "政府军东部战区指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "保罗·卢坎巴",
+                "role": "安盟东部指挥官",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争后期",
+        "nameEn": "Late War Phase",
+        "startYear": 1992,
+        "endYear": 2002,
+        "summary": "安哥拉内战后期阶段，随着冷战结束，外部支持减少，安盟与安人阵政府之间的冲突持续，但国际调停增加，最终导致2002年停火。",
+        "battles": [
+          {
+            "battleId": "battle_of_cuito-cuanavale",
+            "name": "奎托夸纳瓦尔战役",
+            "nameEn": "Battle of Cuito Cuanavale",
+            "startYear": 1987,
+            "endYear": 1988,
+            "coords": [
+              20.3472,
+              -14.7167
+            ],
+            "theater": "东南部战区",
+            "context": "冷战末期，古巴和苏联支持安人阵政府，美国和南非支持安盟，奎托夸纳瓦尔成为决定性战场。",
+            "description": "1987年至1988年，安盟军队围攻奎托夸纳瓦尔要塞，古巴和安人阵政府军队顽强抵抗。古巴派遣大量军队和装备支援，最终击退安盟进攻。这场战役是安哥拉内战中最血腥的战役之一，也是非洲现代史上规模最大的陆战之一。",
+            "result": "安人阵政府军胜利，安盟攻势被挫败",
+            "significance": "改变了南部非洲战略格局，加速了纳米比亚独立和南非种族隔离制度的终结",
+            "casualties": {
+              "sideA": "约3000人",
+              "sideB": "约8000人"
+            },
+            "forces": {
+              "sideA": "安人阵政府军、古巴军约5万人",
+              "sideB": "安盟军、南非军约1.5万人"
+            },
+            "commanders": [
+              {
+                "name": "若纳斯·萨文比",
+                "role": "安盟领导人",
+                "side": "sideB"
+              },
+              {
+                "name": "康斯坦丁诺·内韦斯",
+                "role": "安人阵总司令",
+                "side": "sideA"
+              },
+              {
+                "name": "阿纳尔多·奥乔亚",
+                "role": "古巴军司令",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_luanda_1992",
+            "name": "1992年罗安达战役",
+            "nameEn": "1992 Battle of Luanda",
+            "startYear": 1992,
+            "endYear": 1992,
+            "coords": [
+              13.2344,
+              -8.8383
+            ],
+            "theater": "罗安达战区",
+            "context": "1992年安哥拉首次多党选举，安盟领导人萨文比拒绝选举结果，重新发动内战，进攻首都罗安达。",
+            "description": "1992年10月至11月，安盟军队突袭罗安达，与政府军展开激烈巷战。政府军在国际支持下击退安盟进攻，但战斗造成数千平民死亡。这场战役标志着和平进程的彻底失败，内战进入更加血腥的阶段。",
+            "result": "安人阵政府军胜利，安盟被逐出罗安达",
+            "significance": "结束了短暂的和平进程，导致内战升级，造成更多平民伤亡",
+            "casualties": {
+              "sideA": "约1000人",
+              "sideB": "约2000人",
+              "civilians": "约5000人"
+            },
+            "forces": {
+              "sideA": "安人阵政府军约1.5万人",
+              "sideB": "安盟军约8000人"
+            },
+            "commanders": [
+              {
+                "name": "若纳斯·萨文比",
+                "role": "安盟领导人",
+                "side": "sideB"
+              },
+              {
+                "name": "费尔南多·何塞·范杜嫩",
+                "role": "安人阵国防部长",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_huambo_1993",
+            "name": "1993年万博战役",
+            "nameEn": "1993 Battle of Huambo",
+            "startYear": 1993,
+            "endYear": 1994,
+            "coords": [
+              15.7499,
+              -12.7767
+            ],
+            "theater": "中部战区",
+            "context": "1992年罗安达战役后，安盟转向控制安哥拉中部重要城市万博，作为临时首都。",
+            "description": "1993年至1994年，安盟军队围攻万博，政府军顽强抵抗。战斗异常激烈，城市几乎被完全摧毁。安盟最终控制了万博及周边地区，但未能完全消灭政府军。这场战役导致数万平民流离失所，是内战中最惨烈的围城战之一。",
+            "result": "安盟控制万博，但政府军仍控制部分城区",
+            "significance": "安盟获得重要战略据点，但未能取得决定性胜利",
+            "casualties": {
+              "sideA": "约2000人",
+              "sideB": "约3000人",
+              "civilians": "约1万人"
+            },
+            "forces": {
+              "sideA": "安人阵政府军约1万人",
+              "sideB": "安盟军约1.2万人"
+            },
+            "commanders": [
+              {
+                "name": "若纳斯·萨文比",
+                "role": "安盟领导人",
+                "side": "sideB"
+              },
+              {
+                "name": "佩德罗·范·敦克",
+                "role": "安人阵中部军区司令",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_bailundo_1998",
+            "name": "1998年巴温多战役",
+            "nameEn": "1998 Battle of Bailundo",
+            "startYear": 1998,
+            "endYear": 1999,
+            "coords": [
+              15.5,
+              -12.6333
+            ],
+            "theater": "中部战区",
+            "context": "1994年《卢萨卡协议》签署后，和平进程再次失败，安盟与政府军重新开战，安盟总部所在地巴温多成为目标。",
+            "description": "1998年至1999年，政府军发动大规模攻势，目标是摧毁安盟在巴温多的总部和后勤基地。政府军获得大量武器装备和外国顾问支持，最终攻占巴温多，安盟总部被迫迁移。这场战役标志着安盟军事力量的显著削弱。",
+            "result": "安人阵政府军胜利，安盟总部被摧毁",
+            "significance": "安盟军事力量严重削弱，为最终失败奠定基础",
+            "casualties": {
+              "sideA": "约1500人",
+              "sideB": "约4000人"
+            },
+            "forces": {
+              "sideA": "安人阵政府军约2万人",
+              "sideB": "安盟军约8000人"
+            },
+            "commanders": [
+              {
+                "name": "若纳斯·萨文比",
+                "role": "安盟领导人",
+                "side": "sideB"
+              },
+              {
+                "name": "若昂·德·洛伦索",
+                "role": "安人阵总司令",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_muxito_2002",
+            "name": "2002年穆希托战役",
+            "nameEn": "2002 Battle of Muxito",
+            "startYear": 2002,
+            "endYear": 2002,
+            "coords": [
+              16.3,
+              -11.9667
+            ],
+            "theater": "东部战区",
+            "context": "2002年初，安盟领导人萨文比拒绝接受和平谈判，政府军发动最后攻势，目标是消灭萨文比本人。",
+            "description": "2002年2月，政府军在穆希伏击萨文比及其随行人员。经过短暂交火，萨文比被击毙。安盟领导层随即崩溃，残余力量接受停火。这场战役标志着长达27年的安哥拉内战正式结束。",
+            "result": "安人阵政府军胜利，安盟领导人萨文比被击毙",
+            "significance": "安哥拉内战结束，国家开始和平重建进程",
+            "casualties": {
+              "sideA": "约30人",
+              "sideB": "萨文比及约70名随从"
+            },
+            "forces": {
+              "sideA": "安人阵政府军约500人",
+              "sideB": "萨文比卫队约80人"
+            },
+            "commanders": [
+              {
+                "name": "若昂·德·洛伦索",
+                "role": "安人阵总司令",
+                "side": "sideA"
+              },
+              {
+                "name": "若纳斯·萨文比",
+                "role": "安盟领导人",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "majorBattles": [],
+    "cognitiveWarfare": {
+      "psyOps": [
+        " MPLA利用苏联和古巴支持塑造自身为合法政府形象，将UNITA描绘成美国和南非代理人",
+        " UNITA通过控制地区电台传播反共宣传，强调MPLA的马克思主义意识形态威胁传统价值观",
+        " 双方均利用部落分裂心理，MPLA强调姆本杜族多数优势，UNITA则利用奥文本杜族不满情绪",
+        " 战争期间双方均散布对方屠杀平民的谣言，制造恐惧和仇恨",
+        " UNITA领导人萨文比利用个人魅力宣传，塑造自己为民族解放英雄形象"
+      ],
+      "propagandaComparison": "MPLA获得苏联和古巴支持，其宣传强调反殖民斗争和社会主义建设，将自身定位为国际认可的合法政府，通过国家媒体网络系统传播官方叙事。UNITA则依赖南非和美国支持，宣传重点反共反马克思主义，强调部落传统价值观，通过游击区电台和传单传播信息。双方均利用殖民历史记忆，MPLA强调葡萄牙殖民统治的共同敌人，UNITA则指责MPLA成为苏联新殖民主义工具。宣传内容均包含对对方领导人的个人攻击，MPLA将萨文比描绘为血腥独裁者，UNITA则将多斯桑托斯刻画为傀儡领导人。",
+      "collaborationists": [
+        " 南非支持的UNITA武装力量",
+        " 美国中央情报局支持的UNITA特工网络",
+        " 葡萄牙殖民时期的当地合作者",
+        " 扎伊尔(现刚果民主共和国)对UNITA的军事支持者",
+        " 古巴派遣的MPLA支持者"
+      ],
+      "informationWarfare": "安哥拉内战期间的信息战表现为双方对国际舆论的争夺。MPLA通过控制首都和主要媒体机构，构建官方叙事体系，获得联合国承认。UNITA则利用游击区电台和边境广播，向农村地区和国际社会传播反MPLA信息。双方均利用国际盟友的媒体资源，MPLA通过苏联宣传机器，UNITA通过美国和南非的媒体渠道。战争后期，UNITA利用互联网等新兴技术传播信息，但效果有限。信息战的核心是争夺国际社会支持，特别是非洲邻国和西方国家的立场，直接影响战争资源和外交支持。"
+    },
+    "economics": {
+      "resourceDependency": {
+        "sideA": {
+          "summary": "安哥拉解放人民运动(安人运)依赖苏联和古巴的军事和经济援助，石油资源成为其重要财政来源，通过出口石油获取外汇购买武器和维持政府运作，但过度依赖单一资源使其经济脆弱。"
+        },
+        "sideB": {
+          "summary": "安哥拉彻底民族主义联盟(安盟)依赖南非和美国的支持，通过控制钻石矿区获取资金，钻石走私成为其主要经济来源，但资源收入不稳定且受国际制裁影响，经济基础薄弱。"
+        }
+      },
+      "foreignAid": [
+        {
+          "from": "苏联",
+          "to": "安人运",
+          "program": "军事援助计划",
+          "content": "提供武器装备、军事顾问和财政支持，价值超过30亿美元"
+        },
+        {
+          "from": "古巴",
+          "to": "安人运",
+          "program": "军事干预行动",
+          "content": "派遣超过5万名士兵参战，提供军事训练和直接战斗支持"
+        },
+        {
+          "from": "南非",
+          "to": "安盟",
+          "program": "秘密行动支持",
+          "content": "提供军事装备、资金支持和训练基地，协助安盟对抗安人运"
+        },
+        {
+          "from": "美国",
+          "to": "安盟",
+          "program": "科罗拉多计划",
+          "content": "通过中情局提供资金和武器，价值约3.5亿美元"
+        }
+      ],
+      "warBudget": "战争总开支估计超过150亿美元，安人运依靠石油收入和苏联援助维持，安盟依赖钻石收入和南非支持，双方军费开支占国家预算的60-80%，导致基础设施严重落后。"
+    },
+    "geography": {
+      "keyObstacles": [
+        {
+          "name": "「宽扎河」",
+          "description": "安哥拉最大的河流，成为内战期间政府军与反政府武装之间的天然分界线，限制了双方部队的机动性，也成为了重要的补给和运输障碍。"
+        },
+        {
+          "name": "「纳米布沙漠」",
+          "description": "位于安哥拉西南部，极端干旱的沙漠地形为军事行动带来巨大困难，限制了部队的机动能力，增加了后勤补给压力，也成为了隐蔽和伏击的理想场所。"
+        },
+        {
+          "name": "「马兰热高原」",
+          "description": "位于安哥拉北部的高原地区，地形复杂，植被茂密，为反政府武装提供了良好的隐蔽和游击战条件，政府军在此地区的军事行动常受到地形限制。"
+        }
+      ],
+      "extremeWeather": [
+        {
+          "year": 1983,
+          "event": "「严重旱灾」",
+          "description": "持续干旱导致农作物大面积减产，引发严重饥荒，大量平民死亡，削弱了双方兵源和后勤补给能力，迫使部分军队放弃阵地寻找食物。"
+        },
+        {
+          "year": 1994,
+          "event": "「暴雨洪水」",
+          "description": "季风带来的暴雨引发洪水，冲毁了道路和桥梁，严重阻碍了军事行动和物资运输，导致前线部队补给困难，加剧了人道主义危机。"
+        }
+      ],
+      "nonCombatLosses": "安哥拉内战期间，恶劣的气候条件和地形因素导致大量非战斗减员，包括因疾病（如疟疾、霍乱）、营养不良、交通事故和恶劣天气条件造成的伤亡。据估计，非战斗减员占总伤亡人数的相当比例，特别是在雨季和旱季交替时期，疾病和营养不良导致的死亡率显著上升。"
+    }
+  },
+  "timeline": [
+    {
+      "year": 1961,
+      "event": "安哥拉独立战争开始",
+      "type": "crisis",
+      "description": "安哥拉人民解放运动(安人运)、安哥拉民族解放阵线(安解阵)和争取安哥拉彻底独立全国联盟(安盟)开始反抗葡萄牙殖民统治",
+      "impact": "标志着安哥拉长达14年的独立战争开始，为后来的内战埋下伏笔"
+    },
+    {
+      "year": 1974,
+      "event": "葡萄牙康乃馨革命",
+      "type": "decision",
+      "description": "葡萄牙发生军事政变，推翻萨拉查独裁政权，开始非殖民化进程",
+      "impact": "加速了安哥拉等葡萄牙殖民地的独立进程，导致各大解放组织为争夺权力而冲突加剧"
+    },
+    {
+      "year": 1975,
+      "event": "阿尔沃协议签署",
+      "type": "diplomacy",
+      "description": "葡萄牙与安哥拉三大解放组织签署协议，规定安哥拉将于11月11日正式独立",
+      "impact": "为安哥拉独立提供了法律框架，但未能解决各派别间的权力争端，内战一触即发"
+    },
+    {
+      "year": 1975,
+      "event": "苏联和古巴介入",
+      "type": "diplomacy",
+      "description": "苏联开始支持安人运，古巴派遣军队帮助安人运对抗安解阵和安盟",
+      "impact": "将安哥拉内战国际化，使其成为冷战代理人战争，大大延长了战争时间并增加了伤亡"
+    },
+    {
+      "year": 1975,
+      "event": "安哥拉独立",
+      "type": "crisis",
+      "description": "安哥拉在葡萄牙殖民统治结束后宣布独立，引发内战",
+      "impact": "标志着安哥拉内战的开始，导致多个政治派别争夺国家控制权"
+    },
+    {
+      "year": 1976,
+      "event": "安人运控制首都罗安达",
+      "type": "decision",
+      "description": "在古巴军队支持下，安人运击败安解阵和安盟，控制首都和大部分地区",
+      "impact": "导致安哥拉分裂为安人运政府控制区和安盟控制区，内战正式全面爆发，持续近27年"
+    },
+    {
+      "year": 1976,
+      "event": "古巴军事介入",
+      "type": "diplomacy",
+      "description": "古巴派遣大量军队支持安哥拉人民解放运动(MPLA)政府",
+      "impact": "改变了内战力量对比，使MPLA获得军事优势，巩固了其政府地位"
+    },
+    {
+      "year": 1987,
+      "event": "库伊托-库安巴拉战役",
+      "type": "crisis",
+      "description": "南非支持的安盟(UNITA)与古巴支持的MPLA政府军在库伊托-库安巴拉地区展开大规模战斗",
+      "impact": "标志着冷战时期非洲代理人战争的巅峰，最终导致双方走向谈判"
+    },
+    {
+      "year": 1991,
+      "event": "比塞和平协议",
+      "type": "diplomacy",
+      "description": "安哥拉政府与安盟签署和平协议，结束内战第一阶段",
+      "impact": "建立了联合政府，规定了多党制选举和军队整合，但和平短暂"
+    },
+    {
+      "year": 2002,
+      "event": "乔纳斯·萨文比死亡",
+      "type": "leadership",
+      "description": "安盟领导人乔纳斯·萨文比在战斗中被击毙",
+      "impact": "导致安盟领导层崩溃，最终促成内战结束，开启了安哥拉和平重建进程"
+    }
+  ]
+}

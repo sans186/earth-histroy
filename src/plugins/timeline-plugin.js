@@ -4,6 +4,8 @@
  * Owns the #timeline-panel DOM tree.  Reads/writes core.state (currentYear,
  * isPlaying, stepSize).  Other plugins react to state changes without
  * knowing about slider internals.
+ *
+ * Dual mode: manages separate left + right timeline controls.
  */
 
 import {
@@ -26,7 +28,7 @@ export default {
 
   /** @param {import('../core/index.js').Core} core */
   install(core) {
-    // ── DOM ──
+    // ── Left (primary) DOM ──
     const slider    = /** @type {HTMLInputElement} */ (document.getElementById('timeline-slider'));
     const yearDisp  = document.getElementById('year-display');
     const eraName   = document.getElementById('era-name');
@@ -39,75 +41,93 @@ export default {
     const stepSelector = document.getElementById('step-selector');
     const eraBar     = document.getElementById('era-bar');
 
+    // ── Right (dual mode) DOM ──
+    const sliderR    = /** @type {HTMLInputElement} */ (document.getElementById('timeline-slider-right'));
+    const yearDispR  = document.getElementById('year-display-right');
+    const eraNameR   = document.getElementById('era-name-right');
+    const eraRangeR  = document.getElementById('era-range-right');
+    const countDispR = document.getElementById('event-count-right');
+    const globeLblR  = document.getElementById('globe-year-label-right');
+    const btnPlayR   = document.getElementById('btn-play-right');
+    const btnStepBackR = document.getElementById('btn-step-back-right');
+    const btnStepFwdR  = document.getElementById('btn-step-fwd-right');
+
     let timer = null;
+    let timerR = null;
 
     // ── Helpers ──
-    function stop() {
-      if (timer) clearInterval(timer);
-      timer = null;
-      core.state.set('isPlaying', false);
+    function stop(side) {
+      if (side === 'right') {
+        if (timerR) clearInterval(timerR);
+        timerR = null;
+      } else {
+        if (timer) clearInterval(timer);
+        timer = null;
+        core.state.set('isPlaying', false);
+      }
     }
 
-    function start() {
-      core.state.set('isPlaying', true);
-      timer = setInterval(() => {
-        const curYear = core.state.get('currentYear') ?? YEAR_MAX;
-        const curSlider = yearToSlider(curYear);
-        const stepSlider = core.state.get('stepSize') ?? DEFAULT_STEP_SIZE;
-        const nextSlider = curSlider + stepSlider;
-        if (nextSlider > SLIDER_MAX) {
-          stop();
-          return;
-        }
-        core.state.set('currentYear', sliderToYear(nextSlider));
-      }, PLAYBACK_INTERVAL_MS);
+    function start(side) {
+      if (side === 'right') {
+        timerR = setInterval(() => {
+          const curYear = core.state.get('rightYear') ?? YEAR_MAX;
+          const curSlider = yearToSlider(curYear);
+          const step = core.state.get('stepSize') ?? DEFAULT_STEP_SIZE;
+          const nextSlider = curSlider + step;
+          if (nextSlider > SLIDER_MAX) {
+            stop('right');
+            return;
+          }
+          core.state.set('rightYear', sliderToYear(nextSlider));
+        }, PLAYBACK_INTERVAL_MS);
+      } else {
+        core.state.set('isPlaying', true);
+        timer = setInterval(() => {
+          const curYear = core.state.get('currentYear') ?? YEAR_MAX;
+          const curSlider = yearToSlider(curYear);
+          const step = core.state.get('stepSize') ?? DEFAULT_STEP_SIZE;
+          const nextSlider = curSlider + step;
+          if (nextSlider > SLIDER_MAX) {
+            stop('left');
+            return;
+          }
+          core.state.set('currentYear', sliderToYear(nextSlider));
+        }, PLAYBACK_INTERVAL_MS);
+      }
     }
 
-    function stepYear(delta) {
-      stop();
-      const cur = core.state.get('currentYear') ?? YEAR_MAX;
-      core.state.set('currentYear', Math.max(YEAR_MIN, Math.min(YEAR_MAX, cur + delta)));
+    function stepYear(delta, side) {
+      if (side === 'right') {
+        stop('right');
+        const cur = core.state.get('rightYear') ?? YEAR_MAX;
+        core.state.set('rightYear', Math.max(YEAR_MIN, Math.min(YEAR_MAX, cur + delta)));
+      } else {
+        stop('left');
+        const cur = core.state.get('currentYear') ?? YEAR_MAX;
+        core.state.set('currentYear', Math.max(YEAR_MIN, Math.min(YEAR_MAX, cur + delta)));
+      }
     }
 
-    /** Format a year for era range display (uses BC/AD format, cleaner short form). */
+    /** Format a year for era range display. */
     function fmtEraYear(y) {
       if (y < 0) return `${Math.abs(y)} BC`;
       return `${y} AD`;
     }
 
-    /** Update era indicator and active chip for a given year. */
-    function updateEra(year) {
+    /** Update era indicator elements for a given year. */
+    function updateEra(year, nameEl, rangeEl) {
       const era = getEra(year);
       const locale = core.state.get('locale') ?? 'zh';
       if (!era) return;
 
-      // Era name badge
-      if (eraName) {
-        eraName.textContent = getEraName(era, locale);
-        eraName.style.background = era.color + '33'; // 20% opacity bg
-        eraName.style.color = era.color;
+      if (nameEl) {
+        nameEl.textContent = getEraName(era, locale);
+        nameEl.style.background = era.color + '33';
+        nameEl.style.color = era.color;
       }
 
-      // Era range text
-      if (eraRange) {
-        eraRange.textContent = `${fmtEraYear(era.start)} — ${fmtEraYear(era.end)}`;
-      }
-
-      // Active chip
-      if (eraBar) {
-        eraBar.querySelectorAll('.era-chip').forEach((chip) => {
-          const isActive = chip.dataset.eraId === era.id;
-          chip.classList.toggle('active', isActive);
-          if (isActive) {
-            chip.style.borderColor = era.color;
-            chip.style.background = era.color + '22';
-            chip.style.color = era.color;
-          } else {
-            chip.style.borderColor = '';
-            chip.style.background = '';
-            chip.style.color = '';
-          }
-        });
+      if (rangeEl) {
+        rangeEl.textContent = `${fmtEraYear(era.start)} — ${fmtEraYear(era.end)}`;
       }
     }
 
@@ -155,7 +175,7 @@ export default {
         chip.dataset.eraId = era.id;
         chip.textContent = getEraName(era, locale);
         chip.addEventListener('click', () => {
-          stop();
+          stop('left');
           core.state.set('currentYear', era.start);
         });
         eraBar.appendChild(chip);
@@ -165,49 +185,118 @@ export default {
     core.state.on('locale', buildEraBar);
 
     // ── Slider gradient ──
-    slider.style.background = buildSliderGradient();
+    const gradient = buildSliderGradient();
+    slider.style.background = gradient;
+    if (sliderR) sliderR.style.background = gradient;
 
-    // ── Slider → state (non-linear: slider position → real year) ──
+    // ── Left slider → state ──
     slider.addEventListener('input', () => {
       core.state.set('currentYear', sliderToYear(parseInt(slider.value, 10)));
     });
 
-    // ── State → DOM (non-linear: real year → slider position) ──
+    // ── Right slider → state ──
+    if (sliderR) {
+      sliderR.addEventListener('input', () => {
+        core.state.set('rightYear', sliderToYear(parseInt(sliderR.value, 10)));
+      });
+    }
+
+    // ── State → left DOM ──
     core.state.on('currentYear', (year) => {
       const locale = core.state.get('locale') ?? 'zh';
       slider.value = yearToSlider(year);
-      yearDisp.textContent = formatYearLocale(year, locale);
+      if (yearDisp) yearDisp.textContent = formatYearLocale(year, locale);
       if (globeLbl) globeLbl.textContent = formatYearLocale(year, locale);
-      updateEra(year);
+      updateEra(year, eraName, eraRange);
     });
 
+    // ── State → right DOM ──
+    core.state.on('rightYear', (year) => {
+      const locale = core.state.get('locale') ?? 'zh';
+      if (sliderR) sliderR.value = yearToSlider(year);
+      if (yearDispR) yearDispR.textContent = formatYearLocale(year, locale);
+      if (globeLblR) globeLblR.textContent = formatYearLocale(year, locale);
+      updateEra(year, eraNameR, eraRangeR);
+    });
+
+    // ── Left play state ──
     core.state.on('isPlaying', (playing) => {
-      btnPlay.textContent = playing ? '⏸' : '▶';
-      btnPlay.classList.toggle('playing', playing);
+      if (btnPlay) {
+        btnPlay.textContent = playing ? '⏸' : '▶';
+        btnPlay.classList.toggle('playing', playing);
+      }
     });
 
-    // ── Event count (updated by main orchestration) ──
+    // ── Event count (left) ──
     core.events.on('markers:count', ({ visible, total }) => {
       const locale = core.state.get('locale') ?? 'zh';
       if (countDisp) countDisp.textContent = t('timeline.event.count', locale, { v: String(visible), t: String(total) });
     });
 
-    // ── Buttons ──
-    btnPlay.addEventListener('click', () => {
-      core.state.get('isPlaying') ? stop() : start();
+    // ── Dual mode: update right event count when data changes ──
+    core.events.on('data:loaded', (events) => {
+      if (!core.state.get('dualMode')) return;
+      const rightYear = core.state.get('rightYear');
+      const filters = core.state.get('activeFilters') ?? new Set();
+      // Simple count for display – getDisplayCategory requires import, skip for prototype
+      const rightEvents = events.filter((e) => e._year === rightYear);
+      const locale = core.state.get('locale') ?? 'zh';
+      if (countDispR) countDispR.textContent = t('timeline.event.count', locale, { v: String(rightEvents.length), t: String(rightEvents.length) });
     });
+
+    // ── Left buttons ──
+    if (btnPlay) {
+      btnPlay.addEventListener('click', () => {
+        core.state.get('isPlaying') ? stop('left') : start('left');
+      });
+    }
 
     if (btnStepBack) {
       btnStepBack.addEventListener('click', () => {
-        stepYear(-(core.state.get('stepSize') ?? DEFAULT_STEP_SIZE));
+        stepYear(-(core.state.get('stepSize') ?? DEFAULT_STEP_SIZE), 'left');
       });
     }
 
     if (btnStepFwd) {
       btnStepFwd.addEventListener('click', () => {
-        stepYear(core.state.get('stepSize') ?? DEFAULT_STEP_SIZE);
+        stepYear(core.state.get('stepSize') ?? DEFAULT_STEP_SIZE, 'left');
       });
     }
+
+    // ── Right buttons ──
+    if (btnPlayR) {
+      btnPlayR.addEventListener('click', () => {
+        timerR ? stop('right') : start('right');
+        if (btnPlayR) {
+          btnPlayR.textContent = timerR ? '▶' : '⏸';
+          btnPlayR.classList.toggle('playing', !!timerR);
+        }
+      });
+    }
+
+    if (btnStepBackR) {
+      btnStepBackR.addEventListener('click', () => {
+        stepYear(-(core.state.get('stepSize') ?? DEFAULT_STEP_SIZE), 'right');
+      });
+    }
+
+    if (btnStepFwdR) {
+      btnStepFwdR.addEventListener('click', () => {
+        stepYear(core.state.get('stepSize') ?? DEFAULT_STEP_SIZE, 'right');
+      });
+    }
+
+    // ── Dual mode enter/exit: init right display ──
+    core.state.on('dualMode', (active) => {
+      if (active) {
+        const locale = core.state.get('locale') ?? 'zh';
+        const rightYear = core.state.get('rightYear') ?? YEAR_MAX;
+        if (sliderR) sliderR.value = yearToSlider(rightYear);
+        if (yearDispR) yearDispR.textContent = formatYearLocale(rightYear, locale);
+        if (globeLblR) globeLblR.textContent = formatYearLocale(rightYear, locale);
+        updateEra(rightYear, eraNameR, eraRangeR);
+      }
+    });
 
     // ── Keyboard ──
     document.addEventListener('keydown', (e) => {
@@ -215,14 +304,14 @@ export default {
       const step = core.state.get('stepSize') ?? DEFAULT_STEP_SIZE;
       switch (e.key) {
         case 'ArrowLeft':
-          stepYear(-step);
+          stepYear(-step, 'left');
           break;
         case 'ArrowRight':
-          stepYear(step);
+          stepYear(step, 'left');
           break;
         case ' ':
           e.preventDefault();
-          btnPlay.click();
+          if (btnPlay) btnPlay.click();
           break;
         case 'Escape':
           core.state.set('selectedEvent', null);
@@ -231,6 +320,6 @@ export default {
     });
 
     // ── Initial era display ──
-    updateEra(core.state.get('currentYear') ?? YEAR_MAX);
+    updateEra(core.state.get('currentYear') ?? YEAR_MAX, eraName, eraRange);
   },
 };

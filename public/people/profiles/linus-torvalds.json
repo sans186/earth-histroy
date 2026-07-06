@@ -1,0 +1,108 @@
+{
+  "personId": "linus-torvalds",
+  "name": "林纳斯·托瓦兹",
+  "nameEn": "Linus Torvalds",
+  "birth": 1969,
+  "death": null,
+  "nationality": "芬兰/美国",
+  "nationalityEn": "Finland/United States",
+  "totalPoints": 5,
+  "points": [
+    {
+      "year": 1969,
+      "yearEnd": 1988,
+      "place": "赫尔辛基",
+      "placeEn": "Helsinki",
+      "coords": [
+        24.9384,
+        60.1699
+      ],
+      "title": "童年与启蒙",
+      "titleEn": "Childhood and启蒙",
+      "description": "林纳斯·托瓦兹1969年出生于赫尔辛基，父母都是记者。他的外祖父是赫尔辛基大学的统计学教授，对计算机科学有浓厚兴趣。托瓦兹在赫尔辛基度过童年和青少年时期，1988年从赫尔辛基大学预科毕业。这一时期，他接触到了早期计算机，尤其是祖父的Commodore VIC-20，这激发了他对编程的兴趣。他自学了汇编语言和BASIC，为日后开发Linux奠定了基础。",
+      "descriptionEn": "Linus Torvalds was born in Helsinki in 1969 to journalist parents. His maternal grandfather was a statistics professor at the University of Helsinki with a strong interest in computer science. Torvalds spent his childhood and teenage years in Helsinki, graduating from high school in 1988. During this period, he was exposed to early computers, particularly his grandfather's Commodore VIC-20, which sparked his interest in programming. He taught himself assembly language and BASIC, laying the foundation for his future development of Linux."
+    },
+    {
+      "year": 1988,
+      "yearEnd": 1996,
+      "place": "赫尔辛基",
+      "placeEn": "Helsinki",
+      "coords": [
+        24.9384,
+        60.1699
+      ],
+      "title": "大学与Linux诞生",
+      "titleEn": "University and Linux Birth",
+      "description": "1988年，托瓦兹进入赫尔辛基大学学习计算机科学。1991年，他购买了第一台基于Intel 386处理器的PC，并开始使用Minix操作系统。由于对Minix的限制不满，他决定自己开发一个操作系统内核。1991年8月25日，他在新闻组发布了著名的消息，宣布开始开发'免费操作系统(just a hobby, won't be big and professional like gnu)'，这标志着Linux项目的诞生。最初几个月，他通过Usenet与全球开发者合作，不断完善内核。1992年，他采用GNU通用公共许可证(GPL)发布Linux，使其成为自由软件运动的重要组成部分。",
+      "descriptionEn": "In 1988, Torvalds entered the University of Helsinki to study computer science. In 1991, he purchased his first PC based on an Intel 386 processor and began using the Minix operating system. Dissatisfied with Minix's limitations, he decided to develop his own operating system kernel. On August 25, 1991, he posted his famous message on a newsgroup announcing he was starting to develop 'a free operating system (just a hobby, won't be big and professional like gnu)', marking the birth of the Linux project. In the following months, he collaborated with developers worldwide via Usenet to continuously improve the kernel. In 1992, he released Linux under the GNU General Public License (GPL), making it an important part of the free software movement."
+    },
+    {
+      "year": 1997,
+      "yearEnd": 2003,
+      "place": "圣克拉拉",
+      "placeEn": "Santa Clara",
+      "coords": [
+        -121.955,
+        37.354
+      ],
+      "title": "硅谷发展",
+      "titleEn": "Silicon Valley Development",
+      "description": "1997年，托瓦兹移居美国加州圣克拉拉，加入Transmeta公司工作。在Transmeta期间，他继续领导Linux内核的开发工作，同时参与开发了Crusoe处理器。这一时期，Linux开始获得商业认可，红帽、SuSE等商业Linux发行版兴起。2001年，他出版了自传《只是为了乐趣》，讲述了自己开发Linux的经历。2003年，Transmeta公司转型，托瓦兹离开并全职投入Linux内核开发。在圣克拉拉的六年，Linux从个人项目发展成为全球最大的开源项目之一，托瓦兹也确立了作为Linux项目终身维护者的地位。",
+      "descriptionEn": "In 1997, Torvalds moved to Santa Clara, California, and joined Transmeta Corporation. During his time at Transmeta, he continued leading the development of the Linux kernel while also working on the Crusoe processor. During this period, Linux began to gain commercial recognition, with commercial distributions like Red Hat and SuSE emerging. In 2001, he published his autobiography 'Just for Fun,' recounting his experiences developing Linux. In 2003, Transmeta underwent a major shift, and Torvalds left to focus full-time on Linux kernel development. His six years in Santa Clara saw Linux evolve from a personal project into one of the world's largest open-source projects, with Torvalds establishing himself as the project's lifelong maintainer."
+    },
+    {
+      "year": 2003,
+      "yearEnd": 2012,
+      "place": "波特兰",
+      "placeEn": "Portland",
+      "coords": [
+        -122.676,
+        45.515
+      ],
+      "title": "开源领袖",
+      "titleEn": "Open Source Leader",
+      "description": "2003年，托瓦兹加入开源开发实验室(后更名为Linux基金会)，全职负责Linux内核的开发和维护。他搬到俄勒冈州波特兰，成为开源社区的标志性人物。这一时期，Linux广泛应用于服务器、嵌入式系统和移动设备。2005年，他创建了版本控制系统Git，解决了Linux内核开发中的协作问题。2008年，他获得计算机领域的最高荣誉之一——IEEE计算机先驱奖。2010年，托瓦兹加入开源软件公司Linux基金会，继续领导Linux内核开发。在波特兰的近十年间，他塑造了现代开源软件的开发模式，影响了全球无数开发者和企业。",
+      "descriptionEn": "In 2003, Torvalds joined the Open Source Development Laboratory (later renamed the Linux Foundation) to work full-time on the development and maintenance of the Linux kernel. He moved to Portland, Oregon, becoming a figurehead in the open-source community. During this period, Linux saw widespread adoption in servers, embedded systems, and mobile devices. In 2005, he created the version control system Git to address collaboration challenges in Linux kernel development. In 2008, he received one of the highest honors in computing, the IEEE Computer Society's Computer Pioneer Award. In 2010, Torvalds joined the Linux Foundation as a fellow, continuing to lead Linux kernel development. His nearly decade in Portland shaped modern open-source software development practices, influencing countless developers and companies worldwide."
+    },
+    {
+      "year": 2012,
+      "yearEnd": null,
+      "place": "波特兰",
+      "placeEn": "Portland",
+      "coords": [
+        -122.676,
+        45.515
+      ],
+      "title": "持续创新",
+      "titleEn": "Continuous Innovation",
+      "description": "2012年后，托瓦兹继续担任Linux内核的主要维护者，同时参与其他开源项目。2013年，他获得技术界的另一项重要荣誉——千禧年技术奖。2014年，他开始尝试使用GitHub平台管理Linux内核开发，进一步推动开源协作。2015年，他创建了Subsurface项目，一个开源的潜水日志软件。2018年，他获得美国计算机协会(ACM)软件系统奖。2020年，Linux内核发展到5.0版本，标志着这一项目30年的持续发展。托瓦兹继续以务实、直接的管理风格领导Linux内核开发，拒绝过度复杂化，坚持'足够好'的设计哲学，影响了整个软件行业的发展方向。",
+      "descriptionEn": "After 2012, Torvalds continued serving as the principal maintainer of the Linux kernel while also participating in other open-source projects. In 2013, he received another major technology honor, the Millennium Technology Prize. In 2014, he began using GitHub to manage Linux kernel development, further advancing open-source collaboration. In 2015, he created Subsurface, an open-source dive logging software. In 2018, he received the ACM Software System Award from the Association for Computing Machinery. By 2020, the Linux kernel had reached version 5.0, marking 30 years of continuous development. Torvalds continues to lead Linux kernel development with his pragmatic, direct management style, rejecting over-engineering and adhering to a 'good enough' design philosophy that has influenced the direction of the entire software industry."
+    }
+  ],
+  "evaluation": {
+    "supporter": {
+      "zh": "林纳斯·托瓦兹被视为开源运动的先驱和英雄。他通过创建Linux内核，彻底改变了软件开发的模式，证明了协作开发的强大力量。他的'足够好'设计哲学影响了整个软件行业，使实用主义战胜了过度工程化。托瓦兹的贡献不仅在于技术本身，更在于他建立了一种新的软件开发文化，让全球开发者能够共同创造价值。他坚持开放、透明、协作的原则，成为自由软件精神的象征，激励了无数人投身开源事业。",
+      "en": "Linus Torvalds is regarded as a pioneer and hero of the open-source movement. By creating the Linux kernel, he revolutionized software development and demonstrated the power of collaborative development. His 'good enough' design philosophy has influenced the entire software industry, prioritizing practicality over over-engineering. Torvalds' contributions extend beyond technology to establishing a new software development culture that enables global developers to create value together. He embodies the principles of openness, transparency, and collaboration, becoming a symbol of the free software spirit and inspiring countless individuals to contribute to open-source projects."
+    },
+    "critic": {
+      "zh": "批评者指出托瓦兹的管理风格有时过于专断和粗暴，他在Linux邮件列表中的严厉言论曾引发争议。有人认为他对开源社区的控制过于集中，违背了分布式开发的初衷。此外，Linux内核的开发模式虽然高效，但也被认为存在技术债务问题，长期来看可能影响系统的可维护性。批评者还指出，托瓦兹对知识产权的态度虽然推动了开源发展，但也与某些商业利益产生冲突，影响了开源软件的商业化进程。",
+      "en": "Critics point out that Torvalds' management style can be overly autocratic and abrasive, with his harsh comments on Linux mailing lists sparking controversy. Some argue that his centralized control over the open-source community contradicts the principles of distributed development. Additionally, while the Linux kernel's development model is efficient, it's also criticized for accumulating technical debt that may impact long-term maintainability. Critics also note that Torvalds' stance on intellectual property, while advancing open-source development, has created conflicts with certain commercial interests, affecting the commercialization process of open-source software."
+    },
+    "objective": {
+      "zh": "在历史和流行文化视角下，托瓦兹被视为技术民主化的象征人物。他代表了从个人创新到全球协作的转变，体现了开源运动如何挑战传统软件开发的封闭模式。在流行文化中，他常被描绘为反传统的技术天才，以实用主义和直接沟通著称。历史学界认为，托瓦兹的贡献不仅在于技术层面，更在于他建立了一种新的软件开发范式，影响了整个IT行业的发展轨迹。他的故事成为技术创新与社区协作的典型案例，被写入多部科技史著作中。",
+      "en": "From historical and pop culture perspectives, Torvalds is seen as a symbol of technological democratization. He represents the transition from individual innovation to global collaboration, embodying how the open-source movement challenged traditional closed software development models. In popular culture, he's often portrayed as an unconventional tech genius known for pragmatism and direct communication. Historians view Torvalds' contributions not just technically but as establishing a new software development paradigm that influenced the trajectory of the entire IT industry. His story has become a典型案例 of technological innovation and community collaboration, featured in numerous works on technology history."
+    }
+  },
+  "quotes": {
+    "self": {
+      "zh": "软件就像性一样，应该免费。但是，软件开发者需要吃饭，所以软件需要有人为之付费。",
+      "en": "Software is like sex: it's better when it's free. But developers need to eat, so software needs to be paid for by someone."
+    },
+    "others": {
+      "zh": "林纳斯是历史上最伟大的程序员之一，他不仅创造了Linux，还改变了整个软件行业的运作方式。",
+      "en": "Linus is one of the greatest programmers in history; not only did he create Linux, but he changed the way the entire software industry operates."
+    }
+  },
+  "othersBy": "埃里克·雷蒙德",
+  "othersByEn": "Eric Raymond"
+}

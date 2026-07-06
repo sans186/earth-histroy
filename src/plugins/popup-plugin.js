@@ -29,7 +29,7 @@ export default {
     document.addEventListener('click', (e) => {
       // Don't close when clicking globe or panels
       const target = /** @type {HTMLElement} */ (e.target);
-      if (target.closest('#cesiumContainer') || target.closest('#evt-panel') || target.closest('#layers-panel')) return;
+      if (target.closest('#cesiumContainer') || target.closest('#cesiumContainerRight') || target.closest('#evt-panel') || target.closest('#layers-panel')) return;
       if (card.classList.contains('visible') && !card.contains(target)) {
         core.state.set('selectedEvent', null);
       }

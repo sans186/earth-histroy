@@ -75,28 +75,6 @@
     }
     .maplibregl-popup-tip { border-top-color: var(--bg-panel-solid) !important; }
 
-    /* ── Filter Bar ── */
-    #filter-bar {
-      position: fixed; top: 10px; left: 50%; transform: translateX(-50%);
-      display: flex; gap: 16px; z-index: 100;
-      background: var(--bg-panel); border: 1px solid var(--border-secondary); border-radius: 24px;
-      padding: 8px 24px;
-    }
-    #filter-bar .filter-item {
-      display: flex; align-items: center; gap: 6px; cursor: pointer;
-      color: #bbb; font-size: 13px; user-select: none;
-    }
-    #filter-bar .filter-item .filter-dot {
-      width: 10px; height: 10px; border-radius: 50%; display: inline-block;
-    }
-    #filter-bar .filter-item .filter-check {
-      width: 16px; height: 16px; border-radius: 3px; border: 2px solid var(--filter-dot-border);
-      display: flex; align-items: center; justify-content: center;
-    }
-    #filter-bar .filter-item.active .filter-check { background: var(--accent-blue); border-color: var(--border-accent-hover); }
-    #filter-bar .filter-item.active .filter-check::after { content: '✓'; color: var(--text-white); font-size: 11px; }
-    #filter-bar .filter-item.active { color: var(--text-white); }
-
     /* ── Timeline Panel ── */
     #timeline-panel {
       width: 100%; height: 200px;
@@ -263,6 +241,143 @@
       #event-card { width: 300px; }
       #evt-panel.open { width: 240px; }
     }
+
+    /* ═══════════════════════════════════════════
+       Dual Time Comparison Mode
+       ═══════════════════════════════════════════ */
+    #toggle-compare-btn {
+      position: fixed; top: 6px; right: 48px; z-index: 100;
+      background: var(--btn-bg); border: 1px solid var(--btn-border);
+      color: var(--btn-text); padding: 6px 12px; border-radius: 6px;
+      cursor: pointer; font-size: 12px; transition: all 0.2s;
+      user-select: none;
+    }
+    #toggle-compare-btn:hover { background: var(--btn-hover); color: var(--text-white); }
+    #toggle-compare-btn.active {
+      background: var(--accent-blue); border-color: var(--border-accent); color: var(--text-white);
+    }
+
+    #cesiumContainerRight { display: none; }
+    #globe-year-label-right { display: none; }
+
+    /* Left timeline wrapper – fills panel in both single and dual mode */
+    #timeline-left {
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      width: 100%; height: 100%;
+    }
+
+    body.dual-mode #cesiumContainer {
+      position: fixed; top: 0; left: 0; width: 50%; height: calc(100% - 200px);
+    }
+    body.dual-mode #cesiumContainerRight {
+      display: block; position: fixed; top: 0; right: 0; width: 50%; height: calc(100% - 200px);
+    }
+    body.dual-mode #globe-year-label {
+      right: calc(50% + 20px); bottom: 200px; font-size: 48px;
+    }
+    body.dual-mode #globe-year-label-right {
+      display: block; position: fixed; left: auto; right: 20px; bottom: 200px;
+      color: rgba(255,255,255,0.25); font-size: 48px; font-weight: bold;
+      z-index: 5; pointer-events: none; font-family: 'Georgia', serif;
+      text-shadow: 0 0 30px rgba(255,215,0,0.12);
+    }
+    body.dual-mode #map-2d-container { width: 50%; }
+
+    /* Split divider */
+    body.dual-mode::after {
+      content: ''; position: fixed; top: 0; left: 50%; width: 2px; height: calc(100% - 200px);
+      background: var(--border-accent); z-index: 10; pointer-events: none;
+      box-shadow: 0 0 8px var(--card-glow);
+    }
+
+    /* Dual timeline layout */
+    #timeline-right { display: none; }
+    body.dual-mode #timeline-panel {
+      flex-direction: row; justify-content: center; gap: 0;
+      padding: 0 10px;
+    }
+    body.dual-mode #timeline-left,
+    body.dual-mode #timeline-right {
+      flex: 1; display: flex; flex-direction: column; align-items: center;
+      justify-content: center; padding: 0 20px;
+    }
+    body.dual-mode #timeline-right { display: flex; }
+    body.dual-mode #timeline-left {
+      border-right: 1px solid var(--divider);
+      width: auto; /* override base width: 100% for flex row */
+    }
+    body.dual-mode #timeline-divider {
+      width: 2px; background: var(--border-accent); align-self: stretch;
+    }
+    body.dual-mode #year-display { font-size: 32px; }
+    body.dual-mode .dual-year-display {
+      color: var(--accent-gold); font-size: 32px; font-weight: bold;
+      letter-spacing: 3px;
+      text-shadow: 0 0 20px var(--accent-gold-glow);
+      user-select: none; font-family: 'Georgia', 'Microsoft YaHei', serif;
+    }
+    body.dual-mode .dual-era-name {
+      color: var(--text-white); font-size: 13px; font-weight: 600; letter-spacing: 1px;
+      padding: 2px 12px; border-radius: 10px; user-select: none;
+    }
+    body.dual-mode .dual-era-range {
+      color: var(--text-muted); font-size: 11px; user-select: none;
+    }
+    body.dual-mode .dual-event-count {
+      color: var(--text-faint); font-size: 11px; margin-bottom: 4px; user-select: none;
+    }
+    body.dual-mode .dual-timeline-controls {
+      display: flex; align-items: center; gap: 8px; width: 100%; max-width: 440px;
+    }
+    body.dual-mode .dual-timeline-controls .timeline-btn {
+      background: var(--btn-bg); border: 1px solid var(--btn-border); color: var(--btn-text);
+      padding: 4px 10px; border-radius: 5px; cursor: pointer; font-size: 13px;
+      transition: all 0.2s;
+    }
+    body.dual-mode .dual-timeline-controls .timeline-btn:hover { background: var(--btn-hover); color: var(--text-white); }
+    body.dual-mode .dual-timeline-controls .timeline-btn.playing { background: var(--accent-red); border-color: var(--accent-red-border); color: var(--text-white); }
+    body.dual-mode .dual-timeline-slider {
+      flex: 1; -webkit-appearance: none; appearance: none;
+      height: 6px; border-radius: 3px;
+      background: linear-gradient(to right, #2a1a4a 0%, #4a3060 30%, #6a5080 50%, #5a4070 70%, #3a2050 100%);
+      outline: none; cursor: pointer;
+    }
+    body.dual-mode .dual-timeline-slider::-webkit-slider-thumb {
+      -webkit-appearance: none; appearance: none;
+      width: 20px; height: 20px; border-radius: 50%;
+      background: var(--accent-gold); border: 2px solid var(--text-white);
+      box-shadow: 0 0 12px rgba(255,215,0,0.7); cursor: pointer;
+    }
+    body.dual-mode #era-bar,
+    body.dual-mode #step-selector,
+    body.dual-mode #step-label { display: none; }
+    body.dual-mode #timeline-controls {
+      gap: 6px; max-width: 420px;
+    }
+    body.dual-mode #timeline-controls .timeline-btn {
+      padding: 4px 8px; font-size: 12px;
+    }
+    body.dual-mode #timeline-controls .tl-range-label {
+      font-size: 9px;
+    }
+    body.dual-mode #timeline-slider {
+      height: 6px;
+    }
+    body.dual-mode #timeline-slider::-webkit-slider-thumb {
+      width: 18px; height: 18px;
+    }
+    body.dual-mode #era-display {
+      margin-bottom: 2px;
+    }
+    body.dual-mode #event-count {
+      font-size: 10px; margin-bottom: 2px;
+    }
+    body.dual-mode #era-range {
+      font-size: 10px;
+    }
+    body.dual-mode #era-name {
+      font-size: 12px; padding: 1px 8px;
+    }
   </style>
 </head>
 <body>
@@ -284,31 +399,54 @@
   </div>
 
   <div id="cesiumContainer"></div>
+  <div id="cesiumContainerRight"></div>
   <div id="map-2d-container"></div>
   <div id="globe-year-label"></div>
-  <div id="filter-bar"></div>
+  <div id="globe-year-label-right"></div>
+
+  <button id="toggle-compare-btn" title="双时间对比模式">◫ 对比</button>
   <div id="timeline-panel">
-    <div id="year-display">2025 AD</div>
-    <div id="era-display">
-      <span id="era-name">当代</span>
-      <span id="era-range">1949 — 2025</span>
+    <!-- Single mode (default) -->
+    <div id="timeline-left">
+      <div id="year-display">2025 AD</div>
+      <div id="era-display">
+        <span id="era-name">当代</span>
+        <span id="era-range">1949 — 2025</span>
+      </div>
+      <div id="event-count"></div>
+      <div id="timeline-controls">
+        <button class="timeline-btn" id="btn-step-back" title="后退">◀</button>
+        <button class="timeline-btn" id="btn-play" title="播放/暂停">▶</button>
+        <button class="timeline-btn" id="btn-step-fwd" title="前进">▶</button>
+        <span id="step-label">步长</span>
+        <span id="step-selector">
+          <button class="step-opt" data-step="1">1</button>
+          <button class="step-opt" data-step="5">5</button>
+          <button class="step-opt" data-step="10">10</button>
+        </span>
+        <input type="range" id="timeline-slider" min="0" max="10000" value="10000" step="1">
+        <span class="tl-range-label">3100 BC</span>
+        <span class="tl-range-label">2025 AD</span>
+      </div>
+      <div id="era-bar"></div>
     </div>
-    <div id="event-count"></div>
-    <div id="timeline-controls">
-      <button class="timeline-btn" id="btn-step-back" title="后退">◀</button>
-      <button class="timeline-btn" id="btn-play" title="播放/暂停">▶</button>
-      <button class="timeline-btn" id="btn-step-fwd" title="前进">▶</button>
-      <span id="step-label">步长</span>
-      <span id="step-selector">
-        <button class="step-opt" data-step="1">1</button>
-        <button class="step-opt" data-step="5">5</button>
-        <button class="step-opt" data-step="10">10</button>
-      </span>
-      <input type="range" id="timeline-slider" min="0" max="10000" value="10000" step="1">
-      <span class="tl-range-label">3100 BC</span>
-      <span class="tl-range-label">2025 AD</span>
+    <!-- Right side (dual mode) -->
+    <div id="timeline-right">
+      <span class="dual-year-display" id="year-display-right">2025 AD</span>
+      <div>
+        <span class="dual-era-name" id="era-name-right">当代</span>
+        <span class="dual-era-range" id="era-range-right"></span>
+      </div>
+      <div class="dual-event-count" id="event-count-right"></div>
+      <div class="dual-timeline-controls" id="timeline-controls-right">
+        <button class="timeline-btn" id="btn-step-back-right" title="后退">◀</button>
+        <button class="timeline-btn" id="btn-play-right" title="播放/暂停">▶</button>
+        <button class="timeline-btn" id="btn-step-fwd-right" title="前进">▶</button>
+        <input type="range" class="dual-timeline-slider" id="timeline-slider-right" min="0" max="10000" value="10000" step="1">
+        <span class="tl-range-label" style="font-size:10px;color:var(--text-dim);">3100 BC</span>
+        <span class="tl-range-label" style="font-size:10px;color:var(--text-dim);">2025 AD</span>
+      </div>
     </div>
-    <div id="era-bar"></div>
   </div>
   <div id="event-card">
     <div class="card-header">

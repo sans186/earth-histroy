@@ -1,0 +1,734 @@
+{
+  "warId": "american-civil-war",
+  "name": "美国南北战争",
+  "nameEn": "American Civil War",
+  "alternativeNames": [
+    "War of the Rebellion",
+    "War Between the States"
+  ],
+  "startYear": 1861,
+  "endYear": 1865,
+  "type": "major",
+  "category": "civil war",
+  "summary": "A brutal conflict between the Union and Confederacy over slavery, states' rights, and preservation of the United States.",
+  "background": {
+    "causes": "Economic and social divisions between Northern industrial states and Southern agrarian slave states.",
+    "immediateCause": "Secession of Southern states following Abraham Lincoln's election in 1860.",
+    "preWarSituation": "Tensions escalated over slavery expansion, with compromises failing to prevent conflict.",
+    "objectivesA": "Preserve the Union and abolish slavery.",
+    "objectivesB": "Secure independence and maintain slavery-based economy."
+  },
+  "belligerents": {
+    "sideA": {
+      "name": "Union",
+      "nameEn": "Union",
+      "countries": [
+        "United States"
+      ],
+      "commanders": [
+        "Ulysses S. Grant",
+        "William T. Sherman"
+      ],
+      "politicalLeaders": [
+        "Abraham Lincoln",
+        "Andrew Johnson"
+      ],
+      "militarySystem": "Volunteer army with conscription later imposed.",
+      "preWarStrength": "16,000 regular troops, 25,000 militia.",
+      "equipment": "Industrial capacity for advanced weapons and railroads.",
+      "totalCasualties": "360,000 killed, 275,000 wounded.",
+      "propaganda": "Emphasized preserving the Union and ending slavery."
+    },
+    "sideB": {
+      "name": "Confederacy",
+      "nameEn": "Confederate States",
+      "countries": [
+        "Confederate States of America"
+      ],
+      "commanders": [
+        "Robert E. Lee",
+        "Stonewall Jackson"
+      ],
+      "politicalLeaders": [
+        "Jefferson Davis",
+        "Alexander Stephens"
+      ],
+      "militarySystem": "Primarily volunteer army with limited conscription.",
+      "preWarStrength": "6,000 regular troops, 100,000 militia.",
+      "equipment": "Relied on imports and captured weapons; weaker industry.",
+      "totalCasualties": "260,000 killed, 137,000 wounded.",
+      "propaganda": "Fought for states' rights and independence."
+    }
+  },
+  "outcome": {
+    "result": "北方联邦胜利，南方邦联失败",
+    "victoryAnalysis": {
+      "winnerFactors": "北方联邦拥有更强大的工业基础和人口优势，能够生产更多的武器装备和物资。北方控制了海军，实施了有效的海上封锁，切断了南方的对外贸易和物资供应。北方政府组织能力更强，能够有效动员全国资源，而南方则面临严重的财政困难和物资短缺。林肯的领导能力和解放黑奴的政策也增强了北方的道德优势和人力资源。",
+      "loserFactors": "南方邦联在经济上严重依赖单一作物棉花出口，战争导致其经济崩溃。南方人口较少，兵源有限，且缺乏工业基础，无法生产足够的武器装备。南方内部存在严重的政治分歧，各州权利意识强烈，难以形成统一战略。南方军队虽然英勇善战，但整体战略失误，如未能有效利用防御优势，以及在战争后期采取冒险的进攻策略。"
+    },
+    "treaty": {
+      "name": "无正式和平条约",
+      "date": "1865年4月9日",
+      "content": "南方邦联总司令罗伯特·李将军在阿波马托克斯法院向北方联邦总司令格兰特将军投降，标志着战争的结束。投降条件相对宽松，允许邦联士兵保留个人武器和马匹，并承诺不追究战争责任。"
+    },
+    "territorialChanges": "南方邦联解体，各州重新加入联邦。联邦政府加强对各州的控制，中央集权得到加强。奴隶制度被废除，但种族隔离和歧视问题仍然存在。",
+    "economicCost": "战争造成约62亿美元的直接经济损失，相当于当时美国GDP的数倍。北方经济虽然受损但迅速恢复，而南方经济几乎完全崩溃，基础设施遭到严重破坏，农业产出大幅下降，战后经济重建持续数十年。",
+    "demographicImpact": "战争造成约62万士兵死亡，超过美国参与的所有其他战争死亡人数的总和。南方人口损失尤为严重，约四分之一的适龄男性死亡或伤残。战争导致大量人口流离失所，南方经济重建面临严重劳动力短缺。"
+  },
+  "legacy": {
+    "significance": "美国南北战争是美国历史上最重大的转折点之一，它维护了国家统一，废除了奴隶制度，为美国成为工业化强国奠定了基础。战争强化了联邦政府的权力，确立了联邦法律高于州法律的原则。同时，战争也加速了美国工业化和西进运动，改变了美国的社会结构和经济格局。然而，战争未能彻底解决种族问题，为后来的民权运动埋下了伏笔。",
+    "immediateConsequences": "奴隶制度被废除，超过400万非裔美国人获得自由。南方实行重建时期，联邦军队占领南方各州，实施政治和社会改革。林肯总统在战争结束后不久遇刺，由安德鲁·约翰逊继任总统，开始南方重建计划。",
+    "longTermImpact": {
+      "political": "强化了联邦政府的权力，确立了'不可分割的联邦'原则。改变了美国政治格局，共和党在战后长期主导政治。",
+      "military": "推动了军事技术和战术的发展，包括铁甲舰、步枪和战地医疗的进步。建立了现代征兵制度和总参谋部。",
+      "economic": "加速了美国工业化进程，北方工业迅速崛起，南方经济转型困难。确立了美元作为国家货币的基础。",
+      "social": "废除了奴隶制度，但种族歧视和隔离问题持续存在。促进了美国社会流动性和城市化进程。"
+    },
+    "culturalLegacy": {
+      "memorials": [
+        "阿波马托克斯国家历史公园",
+        "葛底斯堡国家军事公园",
+        "林肯纪念堂",
+        "美国内战纪念碑"
+      ],
+      "observances": [
+        "阵亡将士纪念日（原为纪念内战阵亡将士）",
+        "美国内战重建时期纪念活动"
+      ],
+      "media": [
+        "《乱世佳人》",
+        "《为自由而战》",
+        "《林肯》",
+        "《光荣战役》"
+      ]
+    }
+  },
+  "tags": {
+    "warfareType": [
+      "内战",
+      "工业化战争",
+      "总体战"
+    ],
+    "geopolitical": [
+      "美国",
+      "联邦制",
+      "奴隶制"
+    ],
+    "scale": "国家内战",
+    "cause": [
+      "奴隶制存废",
+      "州权与联邦权力",
+      "经济差异",
+      "文化分歧"
+    ]
+  },
+  "warProcess": {
+    "phases": [
+      {
+        "name": "战争初期阶段",
+        "nameEn": "Early War Phase",
+        "startYear": 1861,
+        "endYear": 1862,
+        "summary": "战争爆发初期，南方邦联军队取得初期胜利，北方联邦军队组织防御并开始反击。",
+        "battles": [
+          {
+            "battleId": "fort-sumter",
+            "name": "萨姆特堡战役",
+            "nameEn": "Battle of Fort Sumter",
+            "startYear": 1861,
+            "endYear": 1861,
+            "coords": [
+              -79.876,
+              32.752
+            ],
+            "theater": "东部战区",
+            "context": "战争爆发的导火索，南方邦联军队向萨姆特堡联邦驻军发起进攻。",
+            "description": "1861年4月12日，南卡罗来纳州军队向萨姆特堡开火，经过34小时炮击，驻守的联邦军队投降。这场战役标志着美国内战的正式开始。",
+            "result": "南方邦联胜利，联邦军队撤离萨姆特堡",
+            "significance": "标志着美国内战的正式爆发，促使北方各州支持林肯政府进行战争",
+            "casualties": {
+              "sideA": "0人",
+              "sideB": "0人"
+            },
+            "forces": {
+              "sideA": "85名联邦守军",
+              "sideB": "约4,000名南方邦联军队"
+            },
+            "commanders": [
+              {
+                "name": "安德森",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "博雷加德",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "first-bull-run",
+            "name": "第一次布尔朗战役",
+            "nameEn": "First Battle of Bull Run",
+            "startYear": 1861,
+            "endYear": 1861,
+            "coords": [
+              -77.46,
+              38.78
+            ],
+            "theater": "东部战区",
+            "context": "北方联邦军队试图向南方首都里士满发起进攻，南方邦联军队进行防御。",
+            "description": "1861年7月21日，联邦军队在麦克道尔将军指挥下向布尔朗河附近的南方军队发起进攻。初期联邦军队取得优势，但南方援军赶到后，联邦军队陷入混乱并撤退。",
+            "result": "南方邦联胜利",
+            "significance": "打破了北方速战速决的幻想，表明战争将持续较长时间",
+            "casualties": {
+              "sideA": "约2,896人",
+              "sideB": "约1,982人"
+            },
+            "forces": {
+              "sideA": "约28,000名联邦军队",
+              "sideB": "约32,000名南方邦联军队"
+            },
+            "commanders": [
+              {
+                "name": "麦克道尔",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "博雷加德",
+                "role": "指挥官",
+                "side": "sideB"
+              },
+              {
+                "name": "杰克逊",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "wilson-creek",
+            "name": "威尔逊溪战役",
+            "nameEn": "Battle of Wilson's Creek",
+            "startYear": 1861,
+            "endYear": 1861,
+            "coords": [
+              -93.25,
+              37.22
+            ],
+            "theater": "西部战区",
+            "context": "西部战区的重要战役，南方邦联试图控制密苏里州。",
+            "description": "1861年8月10日，南方邦联军队在斯特林·普莱斯和本杰明·麦卡洛克的指挥下，对联邦军队发起突袭。联邦军队在莱昂将军的指挥下顽强抵抗，但最终被击败。",
+            "result": "南方邦联胜利",
+            "significance": "巩固了南方在密苏里州的控制权，使该州大部分地区处于南方控制之下",
+            "casualties": {
+              "sideA": "约1,235人",
+              "sideB": "约1,095人"
+            },
+            "forces": {
+              "sideA": "约5,400名联邦军队",
+              "sideB": "约12,000名南方邦联军队"
+            },
+            "commanders": [
+              {
+                "name": "莱昂",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "普莱斯",
+                "role": "指挥官",
+                "side": "sideB"
+              },
+              {
+                "name": "麦卡洛克",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争中期阶段",
+        "nameEn": "Mid-War Phase",
+        "startYear": 1862,
+        "endYear": 1863,
+        "summary": "北方联邦军队开始采取攻势，在西部取得重大进展，东部战区陷入僵局。",
+        "battles": [
+          {
+            "battleId": "shiloh",
+            "name": "夏洛战役",
+            "nameEn": "Battle of Shiloh",
+            "startYear": 1862,
+            "endYear": 1862,
+            "coords": [
+              -88.2,
+              35.15
+            ],
+            "theater": "西部战区",
+            "context": "格兰特将军率领联邦军队向田纳西州推进，南方军队试图阻止。",
+            "description": "1862年4月6日至7日，南方邦联军队在阿尔伯特·约翰斯顿和P.G.T.博雷加德的指挥下对格兰特的军队发起突袭。第一天南方军队取得优势，但第二天联邦援军赶到后发起反攻，最终击败南方军队。",
+            "result": "联邦胜利",
+            "significance": "西部战区的转折点，联邦控制了田纳西州中部，为后续进攻南方腹地奠定基础",
+            "casualties": {
+              "sideA": "约13,047人",
+              "sideB": "约10,699人"
+            },
+            "forces": {
+              "sideA": "约65,000名联邦军队",
+              "sideB": "约44,000名南方邦联军队"
+            },
+            "commanders": [
+              {
+                "name": "格兰特",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "谢尔曼",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "约翰斯顿",
+                "role": "指挥官",
+                "side": "sideB"
+              },
+              {
+                "name": "博雷加德",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "antietam",
+            "name": "安提塔姆战役",
+            "nameEn": "Battle of Antietam",
+            "startYear": 1862,
+            "endYear": 1862,
+            "coords": [
+              -77.75,
+              39.45
+            ],
+            "theater": "东部战区",
+            "context": "李将军率领南方军队入侵北方，试图迫使林肯政府谈判结束战争。",
+            "description": "1862年9月17日，李将军的北弗吉尼亚军团与麦克莱伦的波托马克军团在马里兰州的安提塔姆溪交战。这是美国历史上单日伤亡最惨重的战役，双方在血腥的战斗中陷入僵局。",
+            "result": "战术上无明确胜负，战略上联邦胜利",
+            "significance": "阻止了南方军队对北方的进一步入侵，为林肯发布《解放黑人奴隶宣言》创造条件",
+            "casualties": {
+              "sideA": "约12,401人",
+              "sideB": "约10,316人"
+            },
+            "forces": {
+              "sideA": "约75,000名联邦军队",
+              "sideB": "约38,000名南方邦联军队"
+            },
+            "commanders": [
+              {
+                "name": "麦克莱伦",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "李",
+                "role": "指挥官",
+                "side": "sideB"
+              },
+              {
+                "name": "杰克逊",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "fredericksburg",
+            "name": "弗雷德里克斯堡战役",
+            "nameEn": "Battle of Fredericksburg",
+            "startYear": 1862,
+            "endYear": 1862,
+            "coords": [
+              -77.2,
+              38.3
+            ],
+            "theater": "东部战区",
+            "context": "伯恩赛德接替麦克莱伦指挥联邦军队，试图进攻南方首都里士满。",
+            "description": "1862年12月11日至15日，联邦军队试图渡过拉帕汉诺克河进攻弗雷德里克斯堡。南方军队在李将军的指挥下占据有利地形，联邦军队在多次冲锋后遭受重大损失，被迫撤退。",
+            "result": "南方邦联胜利",
+            "significance": "联邦军队遭受重大损失，北方士气受挫，战争陷入僵局",
+            "casualties": {
+              "sideA": "约13,353人",
+              "sideB": "约5,377人"
+            },
+            "forces": {
+              "sideA": "约120,000名联邦军队",
+              "sideB": "约78,500名南方邦联军队"
+            },
+            "commanders": [
+              {
+                "name": "伯恩赛德",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "李",
+                "role": "指挥官",
+                "side": "sideB"
+              },
+              {
+                "name": "杰克逊",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "chancellorsville",
+            "name": "钱瑟勒斯维尔战役",
+            "nameEn": "Battle of Chancellorsville",
+            "startYear": 1863,
+            "endYear": 1863,
+            "coords": [
+              -77.46,
+              38.3
+            ],
+            "theater": "东部战区",
+            "context": "胡克接替伯恩赛德指挥联邦军队，再次试图进攻南方首都。",
+            "description": "1863年4月30日至5月6日，李将军以少胜多，采用分兵战术对抗胡克的联邦军队。杰克逊将军的侧翼突袭是战役的关键，但杰克逊在战斗中意外被己方士兵击伤后去世。",
+            "result": "南方邦联胜利",
+            "significance": "南方军队取得重大胜利，但损失了杰克逊这一重要将领，为后续葛底斯堡战役埋下伏笔",
+            "casualties": {
+              "sideA": "约17,278人",
+              "sideB": "约13,348人"
+            },
+            "forces": {
+              "sideA": "约133,000名联邦军队",
+              "sideB": "约60,000名南方邦联军队"
+            },
+            "commanders": [
+              {
+                "name": "胡克",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "李",
+                "role": "指挥官",
+                "side": "sideB"
+              },
+              {
+                "name": "杰克逊",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争后期阶段",
+        "nameEn": "Late War Phase",
+        "startYear": 1863,
+        "endYear": 1865,
+        "summary": "北方联邦军队采取总体战略，在东西两线同时进攻，最终取得决定性胜利。",
+        "battles": [
+          {
+            "battleId": "gettysburg",
+            "name": "葛底斯堡战役",
+            "nameEn": "Battle of Gettysburg",
+            "startYear": 1863,
+            "endYear": 1863,
+            "coords": [
+              -77.23,
+              39.81
+            ],
+            "theater": "东部战区",
+            "context": "李将军再次入侵北方，试图通过胜利迫使北方结束战争。",
+            "description": "1863年7月1日至3日，李将军的北弗吉尼亚军团与米德的波托马克军团在宾夕法尼亚州的葛底斯堡交战。战斗持续三天，皮克特冲锋成为高潮，南方军队遭受重大损失后被迫撤退。",
+            "result": "联邦胜利",
+            "significance": "战争的转折点，南方军队从此转入战略防御，无法再对北方构成重大威胁",
+            "casualties": {
+              "sideA": "约23,049人",
+              "sideB": "约28,302人"
+            },
+            "forces": {
+              "sideA": "约93,921名联邦军队",
+              "sideB": "约75,054名南方邦联军队"
+            },
+            "commanders": [
+              {
+                "name": "米德",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "李",
+                "role": "指挥官",
+                "side": "sideB"
+              },
+              {
+                "name": "朗斯特里特",
+                "role": "指挥官",
+                "side": "sideB"
+              },
+              {
+                "name": "皮克特",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "vicksburg",
+            "name": "维克斯堡战役",
+            "nameEn": "Siege of Vicksburg",
+            "startYear": 1863,
+            "endYear": 1863,
+            "coords": [
+              -90.87,
+              32.35
+            ],
+            "theater": "西部战区",
+            "context": "格兰特试图控制密西西比河，切断南方邦联的联系。",
+            "description": "1863年5月18日至7月4日，格兰特率领联邦军队对维克斯堡发起围攻。经过长时间的围困和多次进攻，南方军队在补给耗尽后投降。这场战役使北方控制了整个密西西比河。",
+            "result": "联邦胜利",
+            "significance": "北方控制密西西比河，将南方邦联分为东西两部分，战争的战略转折点",
+            "casualties": {
+              "sideA": "约4,835人",
+              "sideB": "约32,687人"
+            },
+            "forces": {
+              "sideA": "约77,000名联邦军队",
+              "sideB": "约31,600名南方邦联军队"
+            },
+            "commanders": [
+              {
+                "name": "格兰特",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "彭伯顿",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "atlanta",
+            "name": "亚特兰大战役",
+            "nameEn": "Atlanta Campaign",
+            "startYear": 1864,
+            "endYear": 1864,
+            "coords": [
+              -84.39,
+              33.75
+            ],
+            "theater": "西部战区",
+            "context": "谢尔曼将军率领联邦军队向南方重要工业城市亚特兰大推进。",
+            "description": "1864年5月7日至9月2日，谢尔曼率领联邦军队对亚特兰大发起进攻。经过一系列战斗，谢尔曼采用包围战术，最终迫使南方军队撤离亚特兰大。占领亚特兰大对北方士气和选举产生重大影响。",
+            "result": "联邦胜利",
+            "significance": "北方控制南方重要工业中心，为谢尔曼向海洋进军创造条件，加速了战争结束",
+            "casualties": {
+              "sideA": "约37,000人",
+              "sideB": "约34,000人"
+            },
+            "forces": {
+              "sideA": "约100,000名联邦军队",
+              "sideB": "约65,000名南方邦联军队"
+            },
+            "commanders": [
+              {
+                "name": "谢尔曼",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "胡德",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "appomattox",
+            "name": "阿波马托克斯战役",
+            "nameEn": "Battle of Appomattox Court House",
+            "startYear": 1865,
+            "endYear": 1865,
+            "coords": [
+              -78.49,
+              37.38
+            ],
+            "theater": "东部战区",
+            "context": "李将军的军队被联邦军队包围，南方邦联面临崩溃。",
+            "description": "1865年4月9日，李将军率领的北弗吉尼亚军团被格兰特率领的联邦军队包围在阿波马托克斯法院附近。经过谈判，李将军同意投降，标志着南方邦联的主要军事力量被消灭。",
+            "result": "联邦胜利",
+            "significance": "标志着美国内战的实质性结束，南方邦联投降，国家开始重建",
+            "casualties": {
+              "sideA": "约169人",
+              "sideB": "约285人"
+            },
+            "forces": {
+              "sideA": "约101,000名联邦军队",
+              "sideB": "约28,000名南方邦联军队"
+            },
+            "commanders": [
+              {
+                "name": "格兰特",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "李",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "majorBattles": [],
+    "cognitiveWarfare": {
+      "psyOps": [
+        "北方通过封锁南方港口制造物资短缺心理压力“, ”南方利用'州权'和'独立'理念激发民族主义情绪“, ”双方均使用报纸和宣传画强化己方正义性“, ”南方将战争描绘为'北方侵略'以争取国际同情“, ”北方强调解放奴隶的道德高度"
+      ],
+      "propagandaComparison": "北方宣传强调维护国家统一和解放奴隶的道德使命，将南方描绘为分裂国家的叛乱者。通过《解放奴隶宣言》将战争目标提升至道德高度，争取国际舆论支持。南方则宣传'州权'理念和'南方生活方式'，将战争定义为北方对南方生活方式的侵略，强调奴隶制作为南方经济基础的重要性，试图争取欧洲列强干预以打破北方封锁。双方均大量使用政治漫画、报纸社论和宣传画强化己方立场，丑化对方领导人。",
+      "collaborationists": [
+        "肯塔ucky州临时政府“, ”密苏里州亲南方政府“, ”西弗吉尼亚州分离政府"
+      ],
+      "informationWarfare": "北方控制了大部分报纸印刷设施和电报网络，实施严格的信息审查制度，封锁南方新闻传播。南方则通过'棉花外交'试图影响欧洲舆论，利用英国对棉花的依赖争取支持。双方均建立情报机构收集敌方信息，北方设立'美国陆军情报局'，南方则依靠'秘密情报局'。战争期间，双方均散布虚假情报误导敌方决策，如北方散布南方内部不和的谣言，南方则夸大北方反战情绪。"
+    },
+    "economics": {
+      "resourceDependency": {
+        "sideA": {
+          "summary": "北方联邦拥有发达的工业基础和完善的铁路网络，能够大规模生产武器装备和军需物资。通过发行国债、提高税收和通货膨胀等方式筹集战争资金，同时依靠强大的金融体系和工业生产能力维持战争机器运转。"
+        },
+        "sideB": {
+          "summary": "南方邦联农业为主，工业基础薄弱，主要依赖棉花出口换取资金和物资。通过发行债券、征收关税和通货膨胀筹集资金，但面临严重的物资短缺和通货膨胀问题，战争后期经济濒临崩溃。"
+        }
+      },
+      "foreignAid": [
+        {
+          "from": "英国",
+          "to": "南方邦联",
+          "program": "棉花换武器计划",
+          "content": "英国通过棉花进口换取南方邦联的棉花，同时向南方提供武器和物资支持"
+        },
+        {
+          "from": "法国",
+          "to": "南方邦联",
+          "program": "墨西哥干预计划",
+          "content": "法国在墨西哥建立傀儡政权，试图从南方获得经济利益并间接支持南方"
+        },
+        {
+          "from": "北方支持者",
+          "to": "北方联邦",
+          "program": "私人资金援助",
+          "content": "北方富商和银行家通过购买国债和提供贷款支持北方战争 effort"
+        }
+      ],
+      "warBudget": "北方联邦战争总开支约30亿美元（相当于当时美国GDP的40%），南方邦联约10亿美元（相当于其GDP的150%）",
+      "economicDisruption": "战争导致美国GDP下降约30%，南方经济遭受毁灭性打击，基础设施被大规模破坏，奴隶制经济体系瓦解，北方工业则因战争需求而快速发展，战后美国经济结构发生根本性转变，工业化进程加速"
+    },
+    "geography": {
+      "keyObstacles": [
+        {
+          "name": "阿巴拉契亚山脉",
+          "description": "这道东西走向的山脉成为南北双方军事行动的自然屏障，限制了部队的机动性，迫使军队选择有限的几条通道进行穿越，影响了战争的整体战略布局。"
+        },
+        {
+          "name": "密西西比河",
+          "description": "这条美国最大的河流成为战争的关键战略要道，控制河流意味着控制了重要的运输线和补给线，双方围绕河上的堡垒和港口展开了激烈争夺，尤其是维克斯堡战役成为战争转折点。"
+        },
+        {
+          "name": "沼泽与湿地",
+          "description": "东南部的沼泽和湿地地区为南方军队提供了理想的防御和伏击场所，严重阻碍了北方军队的推进，尤其是在弗吉尼亚和卡罗来纳州的沿海地区，使北方军队的机动性大打折扣。"
+        }
+      ],
+      "extremeWeather": [
+        {
+          "year": 1862,
+          "event": "严冬",
+          "description": "1862年冬季异常寒冷，导致弗吉尼亚战场上的士兵面临极端寒冷条件，影响了军队的补给线和作战能力，特别是在弗雷德里克斯堡战役中，寒冷天气加剧了北方军队的伤亡和困境。"
+        },
+        {
+          "year": 1863,
+          "event": "暴雨与洪水",
+          "description": "1863年春夏之交，密西西比河流域遭遇暴雨和洪水，严重影响了维克斯堡围城战，使北方军队的补给线受阻，同时也影响了南方军队的撤退和增援行动。"
+        }
+      ],
+      "nonCombatLosses": "南北战争中，疾病造成的非战斗减员极为严重，据估计约有40万士兵死于疾病，远超战斗死亡人数。疟疾、痢疾、伤寒、肺炎等疾病在军营中肆虐，尤其是南方军队由于资源匮乏和卫生条件恶劣，疾病死亡率更高。此外，严寒、酷热等极端天气条件也导致大量非战斗减员，特别是在缺乏适当衣物和庇护所的情况下。"
+    }
+  },
+  "timeline": [
+    {
+      "year": 1860,
+      "event": "林肯当选总统",
+      "type": "leadership",
+      "description": "亚伯拉罕·林肯当选美国第16任总统，他的反对奴隶制立场引发南方各州担忧，成为南方各州宣布脱离联邦的直接导火索。",
+      "impact": "直接导致南方七个州宣布脱离联邦，成立美利坚联盟国，为南北战争爆发奠定基础。"
+    },
+    {
+      "year": 1861,
+      "event": "萨姆特堡战役",
+      "type": "crisis",
+      "description": "南方军队炮击南卡罗来纳州萨姆特堡联邦驻军，林肯政府随后宣布南方各州叛乱，征召志愿军，战争正式爆发。",
+      "impact": "战争正式开始，促使更多北方州支持联邦政府，同时促使南方四个州加入邦联，扩大了战争规模。"
+    },
+    {
+      "year": 1862,
+      "event": "《解放奴隶宣言》",
+      "type": "decision",
+      "description": "林肯发布《解放奴隶宣言》，宣布叛乱州的所有奴隶从此获得自由，并允许黑人加入联邦军队。",
+      "impact": "将战争目标从维护联邦统一扩展到废除奴隶制，削弱南方经济基础，增强北方道德优势，并为联邦军队提供新兵源。"
+    },
+    {
+      "year": 1862,
+      "event": "安提塔姆战役",
+      "type": "crisis",
+      "description": "罗伯特·李将军首次入侵北方，在马里兰州安提塔姆与麦克莱伦将军指挥的联邦军队交战，成为美国历史上最血腥的单日战斗。",
+      "impact": "战役迫使李将军撤回南方，为林肯发布《解放奴隶宣言》提供了军事胜利背景，阻止了欧洲国家承认南方邦联。"
+    },
+    {
+      "year": 1863,
+      "event": "葛底斯堡战役",
+      "type": "crisis",
+      "description": "李将军再次入侵北方，在宾夕法尼亚州葛底斯堡与联邦军队展开三天激战，成为战争转折点。",
+      "impact": "联邦军队取得决定性胜利，阻止了南方入侵北方的企图，极大提升了北方士气，标志着南方从战略进攻转为战略防御。"
+    },
+    {
+      "year": 1863,
+      "event": "维克斯堡战役",
+      "type": "decision",
+      "description": "格兰特将军指挥联邦军队经过长期围困，最终攻占密西西比河上的维克斯堡，控制了这条关键水道。",
+      "impact": "将南方邦联分割为东西两部分，切断了南方与西部的联系，使联邦完全控制密西西比河，对南方经济造成致命打击。"
+    },
+    {
+      "year": 1864,
+      "event": "谢尔曼向大海进军",
+      "type": "decision",
+      "description": "谢尔曼将军率领联邦军队从亚特兰大出发，向佐治亚州沿海地区进行毁灭性进军，实施'焦土政策'。",
+      "impact": "摧毁了南方战争潜力和民众抵抗意志，加速了战争结束，展示了北方军事优势，对战后南方重建产生深远影响。"
+    },
+    {
+      "year": 1865,
+      "event": "李将军投降",
+      "type": "decision",
+      "description": "罗伯特·李将军在弗吉尼亚州阿波马托克斯法院向格兰特将军投降，标志着南方主要军事力量的终结。",
+      "impact": "实际上结束了战争，促使其他南方军队相继投降，保留了南方军队的尊严，为战后重建奠定了基础。"
+    },
+    {
+      "year": 1865,
+      "event": "林肯遇刺",
+      "type": "crisis",
+      "description": "林肯在战争结束后不久遇刺身亡，由安德鲁·约翰逊继任总统，南方重建政策因此转向温和。",
+      "impact": "改变了战后重建进程，导致对南方邦联成员的惩罚减轻，种族关系问题未能得到妥善解决，为日后种族冲突埋下伏笔。"
+    }
+  ]
+}

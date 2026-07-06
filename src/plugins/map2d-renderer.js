@@ -7,22 +7,34 @@
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { CATEGORIES } from '../config.js';
-import { getDisplayCategory } from '../utils.js';
+import { getDisplayCategory, simplifyCoords } from '../utils.js';
 const GOLDEN_ANGLE = 0.618033988749895;
+const _colorCache = new Map();
+const _strokeCache = new Map();
 function hashStr(str) {
   let h = 0;
   for (let i = 0; i < str.length; i++) { h = ((h << 5) - h) + str.charCodeAt(i); h = h & h; }
   return Math.abs(h);
 }
 function polityCSSColor(name) {
-  const hash = hashStr(name || 'unknown');
+  const n = name || 'unknown';
+  let c = _colorCache.get(n);
+  if (c) return c;
+  const hash = hashStr(n);
   const hue = ((hash * GOLDEN_ANGLE) % 1) * 360;
-  return `hsl(${hue}, ${50 + (hash % 3) * 4}%, ${55 + (hash % 2) * 6}%)`;
+  c = `hsl(${hue}, ${50 + (hash % 3) * 4}%, ${55 + (hash % 2) * 6}%)`;
+  _colorCache.set(n, c);
+  return c;
 }
 function polityStrokeCSS(name) {
-  const hash = hashStr(name || 'unknown');
+  const n = name || 'unknown';
+  let c = _strokeCache.get(n);
+  if (c) return c;
+  const hash = hashStr(n);
   const hue = ((hash * GOLDEN_ANGLE) % 1) * 360;
-  return `hsl(${hue}, 60%, 40%)`;
+  c = `hsl(${hue}, 60%, 40%)`;
+  _strokeCache.set(n, c);
+  return c;
 }
 
 /** Dark basemap style matching the overall dark UI theme */
@@ -85,7 +97,7 @@ export function createMap2DRenderer(core) {
         id: 'polities-fill',
         type: 'fill',
         source: POLITY_SOURCE,
-        paint: { 'fill-color': ['get', 'fill'], 'fill-opacity': 0.25 },
+        paint: { 'fill-color': ['get', 'fill'], 'fill-opacity': 0.40 },
       });
       map.addLayer({
         id: 'polities-outline',
@@ -325,7 +337,7 @@ export function createMap2DRenderer(core) {
 
   /* ---- polity boundaries ---- */
 
-  /** Max vertices per polygon ring for 2D rendering (reduces MapLibre load) */
+  /** Max vertices per polygon ring for 2D rendering */
   const MAX_RING_VERTICES = 250;
 
   function setPolities(features) {
@@ -333,23 +345,24 @@ export function createMap2DRenderer(core) {
     try {
       const locale = core.state.get('locale') ?? 'zh';
       const nameMap = core._polityNameMap;
-      // Assign visual properties + simplified geometry to each feature
       const fc = { type: 'FeatureCollection', features: features.map(f => {
         const name = f.properties?.Name || '';
         const displayName = locale === 'zh' && nameMap
           ? (nameMap[name] || nameMap[name.replace(/^\(|\)$/g, '')] || name)
           : name;
         const shortName = displayName.split(/[,（(]/)[0].trim();
+        const coords = f._simplified
+          ? f.geometry.coordinates
+          : simplifyCoords(f.geometry.coordinates, MAX_RING_VERTICES);
+        const fill = f._fill ?? polityCSSColor(name);
+        const stroke = f._stroke ?? polityStrokeCSS(name);
         return {
           type: 'Feature',
-          geometry: {
-            type: f.geometry.type,
-            coordinates: simplifyCoords(f.geometry.coordinates, MAX_RING_VERTICES),
-          },
+          geometry: { type: f.geometry.type, coordinates: coords },
           properties: {
             label: shortName,
-            fill: polityCSSColor(name),
-            stroke: polityStrokeCSS(name),
+            fill,
+            stroke,
             _name: displayName,
             _wiki: f.properties?.Wikipedia,
             _from: f.properties?.FromYear,
@@ -486,33 +499,3 @@ function parseCoords(s) {
   return [pc(p[0], 'N', 'S'), pc(p[1], 'E', 'W')];
 }
 
-/**
- * Recursively simplify coordinate arrays for Polygon/MultiPolygon.
- * Returns new arrays — does NOT mutate input.
- */
-function simplifyCoords(coords, maxVerts) {
-  // If this is a ring (array of [lon, lat] pairs)
-  if (Array.isArray(coords[0]) && typeof coords[0][0] === 'number') {
-    return simplifyRing(coords, maxVerts);
-  }
-  return coords.map((c) => simplifyCoords(c, maxVerts));
-}
-
-/**
- * Reduce vertices in a closed ring using uniform stride sampling.
- * Preserves the closure (first === last).
- */
-function simplifyRing(ring, maxVerts) {
-  if (ring.length <= maxVerts + 1) return ring; // +1 for closure point
-  const closed = ring[0][0] === ring[ring.length - 1][0] &&
-                 ring[0][1] === ring[ring.length - 1][1];
-  const interior = closed ? ring.slice(0, -1) : ring;
-  const step = interior.length / maxVerts;
-  const result = [];
-  for (let i = 0; i < interior.length; i += step) {
-    result.push(interior[Math.floor(i)]);
-  }
-  // Re-close if needed
-  if (closed && result.length > 0) result.push(result[0]);
-  return result;
-}

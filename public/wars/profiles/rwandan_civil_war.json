@@ -1,0 +1,775 @@
+{
+  "warId": "rwandan_civil_war",
+  "name": "卢旺达内战",
+  "nameEn": "Rwandan Civil War",
+  "alternativeNames": [
+    "卢旺达爱国战争"
+  ],
+  "startYear": 1990,
+  "endYear": 1994,
+  "type": "major",
+  "category": "内战",
+  "theaters": [
+    "卢旺达"
+  ],
+  "summary": "胡图族政府与图西族叛军卢旺达爱国阵线之间的内战，最终导致卢旺达大屠杀。",
+  "background": {
+    "causes": "殖民时期遗留的胡图族与图西族族群矛盾，以及资源争夺",
+    "immediateCause": "卢旺达爱国阵线从乌干达入侵卢旺达",
+    "preWarSituation": "胡图族主导政府与图西族少数族群之间的紧张关系加剧",
+    "objectivesA": "胡图族政府维持政权，限制图西族权力",
+    "objectivesB": "卢旺达爱国阵线推翻胡图族政府，建立包容性政府",
+    "precedingConflicts": [
+      "1959年卢旺达革命"
+    ]
+  },
+  "belligerents": {
+    "sideA": {
+      "name": "胡图族政府军",
+      "nameEn": "Rwandan Armed Forces",
+      "countries": [
+        {
+          "name": "卢旺达",
+          "entryYear": 1990,
+          "exitYear": 1994
+        }
+      ],
+      "commanders": [
+        {
+          "name": "朱韦纳尔·哈比亚利马纳",
+          "role": "总统",
+          "bio": "卢旺达总统，胡图族领导人"
+        },
+        {
+          "name": "奥古斯丁·比齐蒙古",
+          "role": "总理",
+          "bio": "卢旺达总理，胡图族领导人"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "朱韦纳尔·哈比亚利马纳",
+          "role": "总统",
+          "bio": "卢旺达总统，胡图族领导人"
+        },
+        {
+          "name": "西普里安·卡伊班达",
+          "role": "胡图族极端派领导人",
+          "bio": "胡图族极端派领导人"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "志愿兵与征兵制",
+        "organization": "常规军与民兵组织",
+        "logistics": "依赖外国援助，尤其是法国"
+      },
+      "preWarStrength": {
+        "army": "约4万人",
+        "navy": "无",
+        "airForce": "约200人",
+        "armor": "少量坦克",
+        "specialForces": "约1000人",
+        "reserves": "约2万人"
+      },
+      "equipment": [
+        {
+          "name": "AK-47步枪",
+          "quantity": "数万支",
+          "description": "主要步兵武器"
+        },
+        {
+          "name": "T-54/55坦克",
+          "quantity": "约20辆",
+          "description": "主要装甲车辆"
+        },
+        {
+          "name": "米格-21战斗机",
+          "quantity": "约5架",
+          "description": "主要作战飞机"
+        }
+      ],
+      "industrialCapacity": "有限，主要依赖进口武器",
+      "economicStrength": "较弱，依赖农业和外国援助",
+      "totalCasualties": {
+        "dead": "约10万人",
+        "wounded": "约20万人",
+        "captured": "约1万人",
+        "missing": "约5千人",
+        "civilian": "约8万人"
+      },
+      "warCrimes": [
+        "针对图西族平民的大规模屠杀"
+      ],
+      "propaganda": {
+        "slogans": [
+          "消灭蟑螂(图西族)"
+        ],
+        "themes": [
+          "胡图族民族主义“, ”反图西族宣传"
+        ],
+        "methods": [
+          "广播宣传“, ”报纸宣传“, ”集会演讲"
+        ]
+      }
+    },
+    "sideB": {
+      "name": "卢旺达爱国阵线",
+      "nameEn": "Rwandan Patriotic Front",
+      "countries": [
+        {
+          "name": "卢旺达",
+          "entryYear": 1990,
+          "exitYear": 1994
+        },
+        {
+          "name": "乌干达",
+          "entryYear": 1987,
+          "exitYear": 1994
+        }
+      ],
+      "commanders": [
+        {
+          "name": "保罗·卡加梅",
+          "role": "军事指挥官",
+          "bio": "卢旺达爱国阵线军事领导人"
+        },
+        {
+          "name": "弗雷德·鲁维吉耶马",
+          "role": "政治领导人",
+          "bio": "卢旺达爱国阵线政治领导人"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "保罗·卡加梅",
+          "role": "军事领导人",
+          "bio": "卢旺达爱国阵线军事领导人"
+        },
+        {
+          "name": "弗雷德·鲁维吉耶马",
+          "role": "政治领导人",
+          "bio": "卢旺达爱国阵线政治领导人"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "志愿兵",
+        "organization": "游击队组织",
+        "logistics": "依赖乌干达支持"
+      },
+      "preWarStrength": {
+        "army": "约1.5万人",
+        "navy": "无",
+        "airForce": "无",
+        "armor": "少量装甲车",
+        "specialForces": "约2000人",
+        "reserves": "约5000人"
+      },
+      "equipment": [
+        {
+          "name": "AK-47步枪",
+          "quantity": "约1万支",
+          "description": "主要步兵武器"
+        },
+        {
+          "name": "RPG火箭筒",
+          "quantity": "约500具",
+          "description": "反坦克武器"
+        },
+        {
+          "name": "迫击炮",
+          "quantity": "约100门",
+          "description": "支援火力"
+        }
+      ],
+      "industrialCapacity": "几乎无，依赖外国援助",
+      "economicStrength": "较弱，依赖乌干达支持",
+      "totalCasualties": {
+        "dead": "约2万人",
+        "wounded": "约3万人",
+        "captured": "约5000人",
+        "missing": "约3000人",
+        "civilian": "约1千人"
+      },
+      "warCrimes": [
+        "部分针对胡图族平民的报复行动"
+      ],
+      "propaganda": {
+        "slogans": [
+          "民族团结“, ”结束种族歧视"
+        ],
+        "themes": [
+          "民族团结“, ”民主改革“, ”难民回归"
+        ],
+        "methods": [
+          "广播宣传“, ”传单“, ”国际宣传"
+        ]
+      }
+    }
+  },
+  "neutralParties": [
+    {
+      "name": "联合国",
+      "role": "观察员"
+    },
+    {
+      "name": "法国",
+      "role": "支持胡图族政府"
+    },
+    {
+      "name": "比利时",
+      "role": "早期支持胡图族政府，后转为中立"
+    },
+    {
+      "name": "坦桑尼亚",
+      "role": "支持卢旺达爱国阵线"
+    }
+  ],
+  "outcome": {
+    "result": "卢旺达爱国阵线获胜，结束内战，但导致卢旺达大屠杀",
+    "victoryAnalysis": {
+      "winnerFactors": "更好的军事组织，国际支持，以及胡图族政府的腐败和分裂",
+      "loserFactors": "内部腐败，军事训练不足，国际孤立，以及极端派系的干扰"
+    },
+    "treaty": {
+      "name": "阿鲁沙和平协议",
+      "date": "1993年8月4日",
+      "content": "结束内战，建立民族团结政府，难民回归，以及权力分享安排"
+    },
+    "territorialChanges": "无重大领土变更，但卢旺达爱国阵线控制全国",
+    "economicCost": "估计损失超过10亿美元，基础设施严重破坏",
+    "demographicImpact": "约80-100万人死亡，200万人流离失所，人口结构剧变"
+  },
+  "legacy": {
+    "significance": "标志着非洲最严重种族灭绝事件之一，改变了卢旺达政治格局",
+    "immediateConsequences": "卢旺达大屠杀，刚果战争爆发，难民危机",
+    "longTermImpact": {
+      "political": "图西族主导政府，权力集中，政治改革",
+      "military": "军队重组，区域军事影响力增强",
+      "economic": "经济重建，农业恢复，国际援助依赖",
+      "social": "社会和解进程，种族关系重建，真相与和解委员会"
+    },
+    "culturalLegacy": {
+      "memorials": [
+        "基加利种族灭绝纪念馆“, ”教堂大屠杀纪念地"
+      ],
+      "observances": [
+        "种族灭绝纪念周(4月7日-14日)"
+      ],
+      "media": [
+        "卢旺达电影《卢旺达饭店》“, ”纪录片《与敌人同眠》"
+      ]
+    }
+  },
+  "tags": {
+    "warfareType": [
+      "内战“, ”种族冲突“, ”游击战"
+    ],
+    "geopolitical": [
+      "非洲冲突“, ”大湖地区危机"
+    ],
+    "scale": "regional",
+    "cause": [
+      "种族矛盾“, ”政治权力争夺“, ”殖民遗产"
+    ]
+  },
+  "relatedWars": [
+    "卢旺达大屠杀“, ”第一次刚果战争“, ”布隆迪内战"
+  ],
+  "sources": [
+    "联合国报告“, ”卢旺达法庭记录“, ”学术研究“, ”目击者证词"
+  ],
+  "warProcess": {
+    "phases": [
+      {
+        "name": "战争爆发",
+        "nameEn": "Outbreak of War",
+        "startYear": 1990,
+        "endYear": 1994,
+        "summary": "卢旺达内战始于1990年卢旺达爱国阵线(RPF)从乌干达入侵卢旺达，试图推翻胡图族政府。初期RPF取得进展，但在法国和比利时等国的干预下被击退。1993年《阿鲁沙协议》签署，但和平进程脆弱，最终在1994年4月6日总统哈比亚利马纳遇刺后，内战升级为种族灭绝。",
+        "battles": [
+          {
+            "battleId": "rf_invasion",
+            "name": "RPF入侵战役",
+            "nameEn": "RPF Invasion",
+            "startYear": 1990,
+            "endYear": 1990,
+            "coords": [
+              30.0419,
+              -1.9403
+            ],
+            "theater": "北部前线",
+            "context": "卢旺达爱国阵线(RPF)由图西族难民组成，在乌干达军队支持下从北部入侵卢旺达，试图推翻由胡图族主导的政府。",
+            "description": "1990年10月1日，RPF约2500名士兵从乌干达边境入侵卢旺达，迅速占领了边境城镇。政府军措手不及，RPF迅速推进至基加利以北仅30公里的地方。然而，法国和比利时向卢旺达政府提供军事援助，政府军获得增援后开始反击。",
+            "result": "RPF初期取得重大进展，但在外国干预和政府军反攻下被迫撤退至北部山区。",
+            "significance": "标志着卢旺达内战的正式开始，暴露了卢旺达政府军的脆弱性，也预示了图西族与胡图族之间冲突的加剧。",
+            "casualties": {
+              "sideA": "约500人",
+              "sideB": "约2000人"
+            },
+            "forces": {
+              "sideA": "约2500人",
+              "sideB": "约5000人"
+            },
+            "commanders": [
+              {
+                "name": "保罗·卡加梅",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "朱韦纳尔·哈比亚利马纳",
+                "role": "总统",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "birunga_offensive",
+            "name": "比伦加攻势",
+            "nameEn": "Birunga Offensive",
+            "startYear": 1991,
+            "endYear": 1991,
+            "coords": [
+              29.5678,
+              -1.5234
+            ],
+            "theater": "北部山区",
+            "context": "RPF在1990年入侵受挫后，退至北部山区进行重组和训练，1991年初再次发动攻势。",
+            "description": "1991年2月，RPF从其在鲁亨盖里附近的基地发动新的攻势，目标是占领比伦加火山地区。RPF采用游击战术，避开政府军主力，袭击孤立据点。政府军虽然人数占优，但训练和装备不足，难以应对RPF的灵活战术。",
+            "result": "RPF成功控制了比伦加火山地区的大部分区域，建立了相对安全的根据地。",
+            "significance": "RPF巩固了在北部的控制区，为后续行动提供了基地，同时也展示了其军事能力的提升。",
+            "casualties": {
+              "sideA": "约300人",
+              "sideB": "约800人"
+            },
+            "forces": {
+              "sideA": "约4000人",
+              "sideB": "约6000人"
+            },
+            "commanders": [
+              {
+                "name": "保罗·卡加梅",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "奥古斯丁·比齐蒙古",
+                "role": "国防部长",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "kabuye_offensive",
+            "name": "卡布耶攻势",
+            "nameEn": "Kabuye Offensive",
+            "startYear": 1992,
+            "endYear": 1992,
+            "coords": [
+              30.0617,
+              -1.9403
+            ],
+            "theater": "中部地区",
+            "context": "随着RPF在北部站稳脚跟，1992年初向中部地区扩展，试图威胁首都基加利。",
+            "description": "1992年1月，RPF从北部基地向南推进，目标是占领卡布耶地区和通往基加利的战略要道。政府军加强防御，在关键城镇和交通要道部署重兵。RPF采用声东击西战术，主力部队迂回至政府军防线薄弱处，成功突破政府军防线，占领了卡布耶及周边地区。",
+            "result": "RPF成功占领卡布耶地区，威胁到政府军控制的中部地区。",
+            "significance": "RPF的攻势扩大到中部地区，对政府军构成更大压力，促使政府寻求和平解决方案。",
+            "casualties": {
+              "sideA": "约400人",
+              "sideB": "约1200人"
+            },
+            "forces": {
+              "sideA": "约6000人",
+              "sideB": "约8000人"
+            },
+            "commanders": [
+              {
+                "name": "保罗·卡加梅",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "马塞尔·比齐曼迪",
+                "role": "军队参谋长",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "arusha_accords",
+            "name": "阿鲁沙协议谈判",
+            "nameEn": "Arusha Accords Negotiations",
+            "startYear": 1992,
+            "endYear": 1993,
+            "coords": [
+              35.6875,
+              -3.3841
+            ],
+            "theater": "坦桑尼亚阿鲁沙",
+            "context": "在RPF军事压力下，卢旺达政府同意在坦桑尼亚阿鲁沙进行和平谈判，寻求结束内战。",
+            "description": "1992年7月，卢旺达政府和RPF在坦桑尼亚阿鲁沙开始和平谈判。经过多轮艰难谈判，双方于1993年8月4日签署《阿鲁沙和平协议》，内容包括权力分享、军队整合、难民返回等条款。协议规定成立过渡政府，RPF获得内阁职位，并组建联合军队。",
+            "result": "双方签署《阿鲁沙和平协议》，理论上结束了内战，为卢旺达建立了和平框架。",
+            "significance": "为卢旺达提供了和平解决冲突的机会，但协议执行过程中面临诸多挑战，最终未能阻止种族冲突的升级。",
+            "casualties": {
+              "sideA": "谈判期间零星冲突约200人",
+              "sideB": "谈判期间零星冲突约300人"
+            },
+            "forces": {
+              "sideA": "谈判代表",
+              "sideB": "谈判代表"
+            },
+            "commanders": [
+              {
+                "name": "费德里克·比齐曼迪",
+                "role": "政府代表团团长",
+                "side": "sideA"
+              },
+              {
+                "name": "福斯坦·恩加约",
+                "role": "RPF代表团团长",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "kibeho_massacre",
+            "name": "基贝霍大屠杀",
+            "nameEn": "Kibeho Massacre",
+            "startYear": 1993,
+            "endYear": 1993,
+            "coords": [
+              29.7333,
+              -2.5333
+            ],
+            "theater": "南部基贝霍",
+            "context": "《阿鲁沙协议》签署后，联合国卢旺达援助团(UNAMIR)进驻，但胡图族极端分子对协议不满，在难民营制造事端。",
+            "description": "1993年12月，联合国维和部队在南部基贝霍难民营进行疏散行动时，与胡图族极端分子发生冲突。极端分子袭击维和部队和平民，导致大规模混乱。政府军介入后，不分青红皂白地开枪，造成大量平民死亡。据估计，此次事件导致约4000-8000人死亡。",
+            "result": "维和部队被迫撤离，大屠杀加剧了图西族与胡图族之间的紧张关系。",
+            "significance": "暴露了和平协议的脆弱性，预示了即将到来的种族暴力，加速了冲突的恶化。",
+            "casualties": {
+              "sideA": "约50人",
+              "sideB": "约4000-8000人"
+            },
+            "forces": {
+              "sideA": "联合国维和部队约500人",
+              "sideB": "胡图族极端分子及政府军约2000人"
+            },
+            "commanders": [
+              {
+                "name": "罗密欧·达莱尔",
+                "role": "UNAMIR指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "未明确",
+                "role": "极端分子首领",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争进程",
+        "nameEn": "War Process",
+        "startYear": 1990,
+        "endYear": 1994,
+        "summary": "卢旺达内战分为多个阶段，从1990年卢旺达爱国阵线(RPF)入侵开始，经过1993年《阿鲁沙协议》，到1994年种族灭绝爆发和RPF最终胜利。",
+        "battles": [
+          {
+            "battleId": "liberation_war_invasion",
+            "name": "解放战争入侵",
+            "nameEn": "Liberation War Invasion",
+            "startYear": 1990,
+            "endYear": 1990,
+            "coords": [
+              30.0444,
+              -1.9403
+            ],
+            "theater": "北部战区",
+            "context": "1990年10月1日，主要由图西族组成的卢旺达爱国阵线(RPF)从乌干达入侵卢旺达，试图推翻由胡图族主导的政府。",
+            "description": "RPF军队迅速推进至卢旺达北部边境城镇，但政府军得到法国和比利时的支持，成功组织防御。经过数周战斗，RPF被击退，但冲突升级为全面内战。这场战役标志着卢旺达内战的正式开始。",
+            "result": "政府军成功击退RPF入侵，但RPF转入游击战",
+            "significance": "开启了卢旺达内战，导致数万人流离失所，为后续种族冲突埋下伏笔",
+            "casualties": {
+              "sideA": "约2000人",
+              "sideB": "约3000人"
+            },
+            "forces": {
+              "sideA": "5000人",
+              "sideB": "约10000人"
+            },
+            "commanders": [
+              {
+                "name": "弗雷德·鲁维吉耶马",
+                "role": "RPF总司令",
+                "side": "sideA"
+              },
+              {
+                "name": "朱韦纳尔·哈比亚利马纳",
+                "role": "卢旺达总统",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "vumba_campaign",
+            "name": "温巴战役",
+            "nameEn": "Vumba Campaign",
+            "startYear": 1991,
+            "endYear": 1992,
+            "coords": [
+              30.5,
+              -1.7
+            ],
+            "theater": "东部战区",
+            "context": "1991年，RPF在东部地区发动新的攻势，目标是控制基加利以东的战略要地。",
+            "description": "RPF部队从乌干达边境出发，向东推进至基加利以东的温巴山区。政府军试图阻止RPF的推进，但RPF利用山地地形进行游击战。经过数月战斗，RPF控制了东部部分地区，并建立了临时基地。",
+            "result": "RPF控制东部部分地区，政府军未能完全阻止RPF扩张",
+            "significance": "RPF获得立足点，为后续进攻创造条件，同时导致更多平民流离失所",
+            "casualties": {
+              "sideA": "约1500人",
+              "sideB": "约2500人"
+            },
+            "forces": {
+              "sideA": "约4000人",
+              "sideB": "约8000人"
+            },
+            "commanders": [
+              {
+                "name": "保罗·卡加梅",
+                "role": "RPF军事指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "奥古斯丁·比齐蒙古",
+                "role": "政府军总司令",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "kabuye_offensive",
+            "name": "卡布耶攻势",
+            "nameEn": "Kabuye Offensive",
+            "startYear": 1992,
+            "endYear": 1993,
+            "coords": [
+              30.1,
+              -1.95
+            ],
+            "theater": "中部战区",
+            "context": "1992年，RPF发动新的攻势，目标是向首都基加利推进，迫使政府谈判。",
+            "description": "RPF从中部地区发动进攻，向基加利方向推进。政府军加强防御，并在法国军队支持下进行反击。战斗持续数月，双方在基加利周边地区展开激烈交火。最终在国际社会斡旋下，双方同意停火并开始和平谈判。",
+            "result": "双方达成停火，开始《阿鲁沙协议》谈判",
+            "significance": "促使双方走向和平谈判，但未能解决根本矛盾，为后续种族屠杀埋下伏笔",
+            "casualties": {
+              "sideA": "约3000人",
+              "sideB": "约4000人"
+            },
+            "forces": {
+              "sideA": "约7000人",
+              "sideB": "约12000人"
+            },
+            "commanders": [
+              {
+                "name": "保罗·卡加梅",
+                "role": "RPF军事指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "奥古斯丁·比齐蒙古",
+                "role": "政府军总司令",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "kigali_campaign",
+            "name": "基加利战役",
+            "nameEn": "Kigali Campaign",
+            "startYear": 1994,
+            "endYear": 1994,
+            "coords": [
+              30.0619,
+              -1.9444
+            ],
+            "theater": "中部战区",
+            "context": "1994年4月6日，哈比亚利马纳总统遇刺后，卢旺达爆发种族大屠杀，RPF趁机发动全面进攻。",
+            "description": "在种族大屠杀期间，RPF从北部和东部向首都基加利推进。政府军和极端胡图族民兵对图西族进行大规模屠杀，而RPF则迅速推进，试图阻止屠杀并推翻政府。经过约100天战斗，RPF于7月控制基加利，结束种族大屠杀，并最终赢得内战。",
+            "result": "RPF控制基加利，结束种族大屠杀，赢得内战",
+            "significance": "结束卢旺达内战和种族大屠杀，导致胡图族政府垮台，RPF上台执政",
+            "casualties": {
+              "sideA": "约5000人",
+              "sideB": "约10000人"
+            },
+            "forces": {
+              "sideA": "约15000人",
+              "sideB": "约20000人"
+            },
+            "commanders": [
+              {
+                "name": "保罗·卡加梅",
+                "role": "RPF军事指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "奥古斯丁·比齐蒙古",
+                "role": "政府军总司令",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "majorBattles": [],
+    "cognitiveWarfare": {
+      "psyOps": [
+        "利用种族仇恨广播煽动暴力“, ”散布图西族计划灭绝胡图族的虚假信息“, ”通过地方领导人进行面对面恐吓和宣传"
+      ],
+      "propagandaComparison": "胡图族政府控制国家广播电台，持续传播极端种族主义言论，将图西族描述为'敌人'和'蟑螂'，煽动民众暴力。RTPF则通过国际媒体和自身广播，强调自己是流亡卢旺达人回归的权利代表，谴责种族灭绝，呼吁民族团结。政府宣传更直接煽动暴力，而RTPF宣传更侧重政治诉求和国际形象塑造。双方都利用历史叙事强化各自立场，但政府宣传更具煽动性和即时性。",
+      "collaborationists": [
+        "胡图族极端民兵组织'Interahamwe'",
+        "部分地方官员和宗教领袖“, ”媒体如'RTLM电台'"
+      ],
+      "informationWarfare": "胡图族政府完全掌控国内信息渠道，利用广播和报纸系统散布仇恨言论和虚假信息，制造恐慌氛围。RTPF则通过国际媒体和自身广播网络争取国际支持，揭露政府暴行。政府信息战更注重国内煽动，而RTPF更侧重国际舆论塑造。双方都利用信息不对称优势，政府封锁外部信息，RTPF则试图打破信息封锁，但最终政府的信息操控手段更为致命，直接导致了种族灭绝。"
+    },
+    "geography": {
+      "keyObstacles": [
+        {
+          "name": "「基伍湖」",
+          "description": "卢旺达与刚果民主共和国之间的天然边界，为胡图族和图西族叛军提供了天然屏障和跨境通道，影响军事部署和人员流动"
+        },
+        {
+          "name": "「卢旺达高原」",
+          "description": "占国土大部分的高海拔地区，崎岖地形限制了机械化部队的行动，有利于游击战和防御作战"
+        },
+        {
+          "name": "「尼永扎河」",
+          "description": "贯穿卢旺达的重要河流，成为军事行动的自然障碍，影响部队快速机动和补给运输"
+        }
+      ],
+      "extremeWeather": [
+        {
+          "year": 1993,
+          "event": "「暴雨季节」",
+          "description": "连续暴雨导致道路泥泞，河流水位上涨，严重阻碍了政府军和叛军的军事行动，延长了内战时间"
+        },
+        {
+          "year": 1994,
+          "event": "「干旱」",
+          "description": "内战期间部分地区遭遇严重干旱，加剧了资源短缺，影响了军队后勤补给和民众生存状况"
+        }
+      ],
+      "nonCombatLosses": "「高原地区疟疾流行」和「雨季道路中断导致的医疗物资短缺」造成大量非战斗减员，特别是在1993-1994年间，恶劣气候条件导致疾病传播加剧，军队战斗力下降"
+    },
+    "economics": {
+      "resourceDependency": {
+        "sideA": {
+          "summary": "卢旺达爱国阵线(RPF)依赖外部支持，主要来自乌干达的军事基地和训练设施。武器装备多来自埃塞俄比亚和东欧国家，资金部分来自海外卢旺达侨民捐款。粮食和燃料依赖当地缴获和有限的外部补给，整体资源约束较大。"
+        },
+        "sideB": {
+          "summary": "胡图族政府军依赖国内资源控制，包括国家财政、法国和比利时的军事援助。武器装备主要来自法国和南非，资金来自国际援助和国内税收。粮食和燃料主要来自国内生产，但后期因经济崩溃而严重短缺。"
+        }
+      },
+      "foreignAid": [
+        {
+          "from": "法国",
+          "to": "卢旺达政府",
+          "program": "军事援助计划",
+          "content": "提供武器装备、军事训练和顾问支持，价值约数千万美元"
+        },
+        {
+          "from": "比利时",
+          "to": "卢旺达政府",
+          "program": "安全合作项目",
+          "content": "提供军事装备和训练，特别是在内战初期"
+        },
+        {
+          "from": "乌干达",
+          "to": "卢旺达爱国阵线",
+          "program": "后勤支持计划",
+          "content": "提供军事基地、训练设施和部分武器装备"
+        },
+        {
+          "from": "国际社会",
+          "to": "卢旺达难民",
+          "program": "人道主义援助",
+          "content": "内战后提供食品、医疗和避难所援助，总额超过10亿美元"
+        }
+      ],
+      "warBudget": "战争总开支估算约5-8亿美元，包括军事装备采购、军队维持、基础设施破坏和后期人道主义成本。相当于卢旺达GDP的30-50%，导致国家财政崩溃。",
+      "economicDisruption": "内战导致卢旺达经济全面崩溃，GDP下降40%以上，农业产出减少60%，工业设施损毁严重。通货膨胀率超过100%，货币贬值90%。约200万人死亡，大量劳动力丧失，农田荒废。基础设施被大规模破坏，道路、桥梁和通信系统损毁率达70%。战后重建成本超过30亿美元，需要国际社会长期援助支持。"
+    }
+  },
+  "timeline": [
+    {
+      "year": 1986,
+      "event": "卢旺达爱国阵线成立",
+      "type": "leadership",
+      "description": "主要由卢旺达图西族难民组成的卢旺达爱国阵线在乌干达成立，旨在返回卢旺达并结束胡图族主导的政府",
+      "impact": "为后来的内战埋下伏笔，成为反对派的主要力量"
+    },
+    {
+      "year": 1990,
+      "event": "卢旺达内战爆发",
+      "type": "crisis",
+      "description": "卢旺达爱国阵线从乌干达入侵卢旺达北部，试图推翻胡图族政府，引发长达四年的内战“,”影响“:”导致数万人死亡，数十万人流离失所，加剧了图西族和胡图族之间的紧张关系"
+    },
+    {
+      "year": 1991,
+      "event": "多党制改革",
+      "type": "decision",
+      "description": "在国际压力下，卢旺达总统哈比亚利马纳同意实行多党制，允许反对党存在“,”影响“:”政治环境更加复杂，民族主义情绪上升，为后来的种族冲突创造条件"
+    },
+    {
+      "year": 1992,
+      "event": "《阿鲁沙和平协议》签署",
+      "type": "diplomacy",
+      "description": "卢旺达政府与卢旺达爱国阵线在坦桑尼亚阿鲁沙签署和平协议，同意停火并组建联合政府“,”影响“:”短暂缓解了冲突，但协议执行不力，双方互不信任"
+    },
+    {
+      "year": 1993,
+      "event": "联合国卢旺达援助团成立",
+      "type": "diplomatic",
+      "description": "联合国通过第872号决议，成立联合国卢旺达援助团，监督停火和和平协议执行",
+      "impact": "国际社会介入但力度不足，未能阻止即将到来的种族灭绝"
+    },
+    {
+      "year": 1994,
+      "event": "卢旺达大屠杀开始",
+      "type": "crisis",
+      "description": "1994年4月6日，卢旺达总统哈比亚利马纳的飞机被击落后，胡图族极端分子开始对图西族和温和派胡图族进行系统性屠杀",
+      "impact": "约80万至100万人在100天内被杀，是20世纪最严重的种族灭绝事件之一"
+    },
+    {
+      "year": 1994,
+      "event": "卢旺达爱国阵线取得胜利",
+      "type": "decision",
+      "description": "在卢旺达内战中，由图西族组成的卢旺达爱国阵线击败了胡图族政府军",
+      "impact": "结束了内战，但也导致大量胡图族难民逃往邻国，引发区域不稳定"
+    },
+    {
+      "year": 1994,
+      "event": "联合国卢旺达援助团成立",
+      "type": "diplomacy",
+      "description": "联合国成立UNAMIR以应对卢旺达危机，但初期授权和资源严重不足",
+      "impact": "未能有效阻止大屠杀，后来扩大规模并授权使用武力保护平民"
+    },
+    {
+      "year": 1996,
+      "event": "第一次刚果战争爆发",
+      "type": "crisis",
+      "description": "卢旺达爱国阵线支持刚果的反叛势力，推翻了蒙博托政权",
+      "impact": "导致区域冲突扩大，卢旺达与乌干达等国介入刚果内战，造成数百万人死亡"
+    },
+    {
+      "year": 2000,
+      "event": "保罗·卡加梅成为卢旺达总统",
+      "type": "leadership",
+      "description": "卢旺达爱国阵线领导人保罗·卡加梅正式就任卢旺达总统",
+      "impact": "结束了卢旺达的动荡时期，国家开始重建，但也面临威权统治和人权问题的批评"
+    }
+  ]
+}

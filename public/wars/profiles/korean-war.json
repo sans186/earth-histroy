@@ -1,0 +1,935 @@
+{
+  "warId": "korean-war",
+  "name": "朝鲜战争",
+  "nameEn": "Korean War",
+  "alternativeNames": [
+    "韩战",
+    "朝鲜半岛冲突"
+  ],
+  "startYear": 1950,
+  "endYear": 1953,
+  "type": "major",
+  "category": "ideological war",
+  "theaters": [
+    "Korean Peninsula"
+  ],
+  "summary": "A military conflict between North Korea and South Korea, with China and the Soviet Union supporting the North and the United Nations, primarily the United States, supporting the South.",
+  "background": {
+    "causes": "The Korean War was primarily caused by the ideological divide between communism and capitalism following World War II, as well as the division of Korea into two separate zones of occupation by the Soviet Union and the United States.",
+    "immediateCause": "The North Korean invasion of South Korea on June 25, 1950, which marked the beginning of open hostilities.",
+    "preWarSituation": "After World War II, Korea was divided at the 38th parallel, with the Soviet Union occupying the north and the United States occupying the south. Both sides established separate governments, with Kim Il-sung leading the communist North and Syngman Rhee leading the anti-communist South.",
+    "objectivesA": "The United Nations and South Korea aimed to repel the North Korean invasion, unify Korea under a democratic government, and prevent the spread of communism in the region.",
+    "objectivesB": "North Korea, supported by China and the Soviet Union, sought to unify Korea under communist rule and expand the influence of communism in East Asia.",
+    "precedingConflicts": []
+  },
+  "belligerents": {
+    "sideA": {
+      "name": "联合国军",
+      "nameEn": "United Nations Command",
+      "countries": [
+        {
+          "name": "美国",
+          "entryYear": 1950,
+          "exitYear": 1953
+        },
+        {
+          "name": "韩国",
+          "entryYear": 1950,
+          "exitYear": 1953
+        },
+        {
+          "name": "英国",
+          "entryYear": 1950,
+          "exitYear": 1953
+        },
+        {
+          "name": "加拿大",
+          "entryYear": 1950,
+          "exitYear": 1953
+        },
+        {
+          "name": "澳大利亚",
+          "entryYear": 1950,
+          "exitYear": 1953
+        },
+        {
+          "name": "法国",
+          "entryYear": 1950,
+          "exitYear": 1953
+        },
+        {
+          "name": "土耳其",
+          "entryYear": 1950,
+          "exitYear": 1953
+        },
+        {
+          "name": "泰国",
+          "entryYear": 1950,
+          "exitYear": 1953
+        },
+        {
+          "name": "菲律宾",
+          "entryYear": 1950,
+          "exitYear": 1953
+        },
+        {
+          "name": "荷兰",
+          "entryYear": 1950,
+          "exitYear": 1953
+        },
+        {
+          "name": "比利时",
+          "entryYear": 1950,
+          "exitYear": 1953
+        },
+        {
+          "name": "卢森堡",
+          "entryYear": 1950,
+          "exitYear": 1953
+        },
+        {
+          "name": "哥伦比亚",
+          "entryYear": 1951,
+          "exitYear": 1953
+        },
+        {
+          "name": "埃塞俄比亚",
+          "entryYear": 1951,
+          "exitYear": 1953
+        },
+        {
+          "name": "新西兰",
+          "entryYear": 1951,
+          "exitYear": 1953
+        },
+        {
+          "name": "希腊",
+          "entryYear": 1951,
+          "exitYear": 1953
+        },
+        {
+          "name": "南非",
+          "entryYear": 1951,
+          "exitYear": 1953
+        },
+        {
+          "name": "挪威",
+          "entryYear": 1951,
+          "exitYear": 1953
+        }
+      ],
+      "commanders": [
+        {
+          "name": "道格拉斯·麦克阿瑟",
+          "role": "总司令",
+          "bio": "美国五星上将，担任联合国军总司令，后被杜鲁门总统解职"
+        },
+        {
+          "name": "马修·李奇微",
+          "role": "总司令",
+          "bio": "美国上将，接替麦克阿瑟担任联合国军总司令"
+        },
+        {
+          "name": "马克·克拉克",
+          "role": "总司令",
+          "bio": "美国上将，李奇微之后的联合国军总司令"
+        },
+        {
+          "name": "白善烨",
+          "role": "韩国军队总司令",
+          "bio": "韩国陆军上将，韩国军队总司令"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "哈里·杜鲁门",
+          "role": "美国总统",
+          "bio": "美国总统，决定介入朝鲜战争并派遣美军"
+        },
+        {
+          "name": "李承晚",
+          "role": "韩国总统",
+          "bio": "韩国第一任总统，主张武力统一朝鲜半岛"
+        }
+      ],
+      "keyFigures": [],
+      "militarySystem": {
+        "recruitment": "以志愿兵为主，辅以征兵制，美国军队实行职业军人制度，韩国军队则依靠征兵和志愿兵相结合",
+        "organization": "高度组织化的联合军事体系，以美国军队为核心，整合多国部队，采用现代化指挥结构",
+        "logistics": "依靠强大的海上运输能力和空中补给系统，美国提供了绝大部分后勤支持"
+      },
+      "preWarStrength": {
+        "army": "韩国军队约98,000人，美国军队在战争初期约30,000人",
+        "navy": "美国海军拥有约200艘战舰，包括多艘航空母舰",
+        "airForce": "美国空军拥有约1,000架作战飞机",
+        "armor": "美国军队拥有约600辆坦克",
+        "specialForces": "美国特种部队规模有限，主要执行侦察和破坏任务",
+        "reserves": "美国拥有庞大的后备力量，可在短时间内动员大量兵力"
+      },
+      "equipment": [
+        {
+          "name": "M1加兰德步枪",
+          "quantity": "约300,000支",
+          "description": "美军标准步兵武器，半自动步枪"
+        },
+        {
+          "name": "巴祖卡火箭筒",
+          "quantity": "约10,000具",
+          "description": "反坦克武器，可有效摧毁朝鲜坦克"
+        },
+        {
+          "name": "M26潘兴坦克",
+          "quantity": "约300辆",
+          "description": "美军主力坦克，优于朝鲜T-34坦克"
+        },
+        {
+          "name": "F-86佩刀战斗机",
+          "quantity": "约1,500架",
+          "description": "美军主力战斗机，在空战中占有优势"
+        },
+        {
+          "name": "B-29轰炸机",
+          "quantity": "约100架",
+          "description": "美军战略轰炸机，用于轰炸朝鲜目标"
+        }
+      ],
+      "industrialCapacity": "美国拥有世界上最强大的工业生产能力，能够迅速生产和补充战争所需的大量装备和物资",
+      "economicStrength": "美国经济占全球近一半，拥有充足的财政资源支持长期战争",
+      "totalCasualties": {
+        "dead": "约36,000名美军士兵死亡",
+        "wounded": "约92,000名美军士兵受伤",
+        "captured": "约8,000名联合国军士兵被俘",
+        "missing": "约4,000名联合国军士兵失踪",
+        "civilian": "韩国平民死亡约50万人"
+      },
+      "warCrimes": [],
+      "propaganda": {
+        "slogans": [
+          "为自由而战",
+          "阻止共产主义扩张"
+        ],
+        "themes": [
+          "捍卫自由民主",
+          "保护韩国人民",
+          "防止共产主义蔓延"
+        ],
+        "methods": [
+          "利用媒体宣传联合国军的正义性",
+          "强调共产主义的威胁",
+          "展示战争胜利的必要性"
+        ]
+      }
+    },
+    "sideB": {
+      "name": "中朝联军",
+      "nameEn": "Chinese-North Korean Forces",
+      "countries": [
+        {
+          "name": "朝鲜",
+          "entryYear": 1950,
+          "exitYear": 1953
+        },
+        {
+          "name": "中国",
+          "entryYear": 1950,
+          "exitYear": 1953
+        }
+      ],
+      "commanders": [
+        {
+          "name": "金日成",
+          "role": "朝鲜人民军总司令",
+          "bio": "朝鲜领导人，朝鲜人民军最高指挥官"
+        },
+        {
+          "name": "彭德怀",
+          "role": "中国人民志愿军总司令",
+          "bio": "中国元帅，中国人民志愿军总司令"
+        },
+        {
+          "name": "崔庸健",
+          "role": "朝鲜人民军总参谋长",
+          "bio": "朝鲜人民军总参谋长"
+        },
+        {
+          "name": "陈赓",
+          "role": "中国人民志愿军副司令",
+          "bio": "中国将领，中国人民志愿军副司令"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "金日成",
+          "role": "朝鲜领导人",
+          "bio": "朝鲜劳动党总书记和国家元首，主导朝鲜战争"
+        },
+        {
+          "name": "毛泽东",
+          "role": "中国领导人",
+          "bio": "中国共产党主席，决定派遣中国人民志愿军介入朝鲜战争"
+        },
+        {
+          "name": "斯大林",
+          "role": "苏联领导人",
+          "bio": "苏联共产党总书记，提供军事援助但避免直接参战"
+        }
+      ],
+      "keyFigures": [],
+      "militarySystem": {
+        "recruitment": "朝鲜实行普遍兵役制，中国以志愿兵为主，辅以征兵制",
+        "organization": "朝鲜人民军采用苏式组织结构，中国人民志愿军采用解放军的组织模式",
+        "logistics": "主要依靠陆路运输，中国通过鸭绿江和图们江向朝鲜运送物资和人员"
+      },
+      "preWarStrength": {
+        "army": "朝鲜人民军约135,000人，中国人民志愿军初期约260,000人",
+        "navy": "朝鲜海军规模较小，约40艘舰艇，中国海军规模有限",
+        "airForce": "朝鲜空军约180架飞机，中国空军初期约200架飞机",
+        "armor": "朝鲜拥有约120辆T-34坦克，中国装甲力量有限",
+        "specialForces": "朝鲜和中国都拥有特种部队，执行渗透和破坏任务",
+        "reserves": "中国拥有庞大的后备力量，可在短时间内动员大量兵力"
+      },
+      "equipment": [
+        {
+          "name": "T-34坦克",
+          "quantity": "约120辆",
+          "description": "苏联提供的坦克，朝鲜战争初期占优势"
+        },
+        {
+          "name": "波波沙冲锋枪",
+          "quantity": "约50,000挺",
+          "description": "苏联提供的冲锋枪，火力强大"
+        },
+        {
+          "name": "米格-15战斗机",
+          "quantity": "约500架",
+          "description": "苏联提供的战斗机，在朝鲜空战中与美军F-86对抗"
+        },
+        {
+          "name": "喀秋莎火箭炮",
+          "quantity": "约200门",
+          "description": "苏联提供的多管火箭炮，火力强大"
+        },
+        {
+          "name": "PPSh-41冲锋枪",
+          "quantity": "约100,000挺",
+          "description": "苏联提供的冲锋枪，广泛装备中朝军队"
+        }
+      ],
+      "industrialCapacity": "苏联提供大量军事装备和物资，中国依靠自身工业生产能力补充部分装备",
+      "economicStrength": "苏联提供经济援助，中国动员全国资源支持战争，但经济基础相对薄弱",
+      "totalCasualties": {
+        "dead": "朝鲜军队约215,000人死亡，中国军队约148,000人死亡",
+        "wounded": "朝鲜军队约303,000人受伤，中国军队约486,000人受伤",
+        "captured": "约92,000名中朝士兵被俘",
+        "missing": "约45,000名中朝士兵失踪",
+        "civilian": "朝鲜平民死亡约900,000人"
+      },
+      "warCrimes": [],
+      "propaganda": {
+        "slogans": [
+          "抗美援朝，保家卫国",
+          "美帝国主义纸老虎"
+        ],
+        "themes": [
+          "抵抗美国侵略",
+          "保卫祖国安全",
+          "国际主义精神"
+        ],
+        "methods": [
+          "利用广播和宣传册宣传战争正义性",
+          "强调美国侵略的威胁",
+          "展示战争胜利的必然性"
+        ]
+      }
+    }
+  },
+  "outcome": {
+    "result": "结果：战争以停战协议结束，朝鲜半岛分裂状态持续至今",
+    "victoryAnalysis": {
+      "winnerFactors": "胜方分析：中国志愿军在装备劣势的情况下，凭借顽强的战斗意志、灵活的战术运用和有力的后勤保障，成功将联合国军从鸭绿江边击退，保卫了国家安全。苏联提供了大量军事援助和空中掩护，对中国胜利起到了关键作用。朝鲜人民军虽然初期受挫，但与中国军队协同作战，最终守住了北方领土。",
+      "loserFactors": "败方分析：联合国军（主要是美军）拥有绝对的装备和火力优势，空中力量和后勤保障远超中朝军队。然而，低估了中国出兵的决心和能力，战略判断失误。在山地作战中，机械化部队优势难以发挥，且未能有效应对志愿军的游击战术和夜战能力。最终在巨大伤亡和无法达成全面统一朝鲜的目标后，选择停战。"
+    },
+    "treaty": {
+      "name": "《朝鲜停战协定》",
+      "date": "1953年7月27日",
+      "content": "协定规定在朝鲜半岛停止敌对行动，建立非军事区，设立军事停战委员会和中立国监察委员会，战俘遣返问题得到解决。但协定仅为停战而非和平条约，朝鲜半岛 technically 仍处于战争状态。"
+    },
+    "territorialChanges": "领土变更：战争结束后，朝鲜半岛恢复到战前大致的分界线，三八线附近建立了非军事区。韩国控制了原朝鲜半岛约45%的领土，朝鲜控制了约55%的领土，包括首都平壤。",
+    "economicCost": "经济代价：战争造成巨大经济损失，朝鲜和韩国的基础设施几乎完全被毁。美国军费开支约400亿美元，中国军费开支约100亿元人民币。韩国战后经济重建得到大量美国援助，而朝鲜则依赖苏联和中国的支持。",
+    "demographicImpact": "人口影响：战争造成约300-400万人死亡，其中平民伤亡比例极高。约1000万人流离失所，大量家庭分离。战争导致朝鲜半岛人口性别比例严重失衡，尤其是韩国男性人口大幅减少。战后出现了大量战争孤儿和寡妇。"
+  },
+  "legacy": {
+    "significance": "历史意义：朝鲜战争是冷战时期第一次大规模热战，标志着冷战的正式形成和东西方阵营的对抗。战争强化了美国在亚太地区的军事存在，促成了美日、美韩同盟的形成。中国通过此战提升了国际地位，打破了美国不可战胜的神话，增强了民族自信心。战争导致朝鲜半岛永久分裂，成为东亚地区长期不稳定因素。",
+    "immediateConsequences": "直接后果：朝鲜半岛分裂固化，形成两个对立政权。美国在亚太地区建立军事基地网络，组建东北亚条约组织。中国与西方关系进一步恶化，加强与苏联的联盟。韩国在美国支持下开始重建，朝鲜在苏联援助下恢复经济。",
+    "longTermImpact": {
+      "political": "政治上，朝鲜战争强化了美苏两极格局，促使亚洲国家在冷战中选择阵营。韩国和朝鲜分别建立了不同的政治体制，半岛问题成为国际政治焦点。",
+      "military": "军事上，战争推动了军事技术和战术的发展，特别是空中力量和机械化作战。美国增加了在亚太的军事部署，中国军队经历了现代化改革。",
+      "economic": "经济上，战争加速了日本和西德的战后经济复苏，美国军工产业蓬勃发展。韩国在美国援助下开始经济起飞，而朝鲜则实行计划经济，与韩国经济发展差距逐渐扩大。",
+      "social": "社会上，战争造成的历史创伤持续影响几代人，朝鲜半岛民族分裂成为民族心理创伤。战争记忆在各国政治叙事中占据重要位置，影响当代东亚政治格局。"
+    },
+    "culturalLegacy": {
+      "memorials": [
+        "中国人民志愿军烈士陵园（沈阳、丹东等地）",
+        "朝鲜战争纪念碑（华盛顿特区）",
+        "战争纪念馆（首尔、平壤）"
+      ],
+      "observances": [
+        "中国人民志愿军出国作战纪念日（10月25日）",
+        "韩国战争退伍军人日（6月25日）",
+        "朝鲜祖国解放战争胜利纪念日（7月27日）"
+      ],
+      "media": [
+        "电影《上甘岭》《英雄儿女》（中国）",
+        "电影《太极旗飘扬》（韩国）",
+        "电影《猪排山》（美国）",
+        "电视剧《兄弟连》相关章节"
+      ]
+    }
+  },
+  "tags": {
+    "warfareType": [
+      "常规战争",
+      "有限战争",
+      "代理人战争"
+    ],
+    "geopolitical": [
+      "冷战",
+      "东西方对抗",
+      "亚太地区冲突"
+    ],
+    "scale": "大规模国际冲突",
+    "cause": [
+      "朝鲜半岛分裂",
+      "美苏冷战对抗",
+      "意识形态对立",
+      "地缘政治竞争"
+    ]
+  },
+  "relatedWars": [
+    "Chinese Civil War",
+    "Vietnam War",
+    "First Indochina War"
+  ],
+  "sources": [
+    {
+      "name": "This Kind of War: The Classic Korean War History",
+      "type": "historiographic",
+      "url": null
+    },
+    {
+      "name": "The Korean War: A History",
+      "type": "historiographic",
+      "url": null
+    },
+    {
+      "name": "Korean War: The Outbreak (June 1950) and the Escalation (1950-1951)",
+      "type": "historiographic",
+      "url": null
+    }
+  ],
+  "warProcess": {
+    "phases": [
+      {
+        "name": "战争初期",
+        "nameEn": "Early War Phase",
+        "startYear": 1950,
+        "endYear": 1950,
+        "summary": "朝鲜战争爆发，朝鲜人民军迅速占领朝鲜半岛大部分地区，联合国军介入后扭转战局",
+        "battles": [
+          {
+            "battleId": "seoul-battle",
+            "name": "汉城战役",
+            "nameEn": "Battle of Seoul",
+            "startYear": 1950,
+            "endYear": 1950,
+            "coords": [
+              126.9774,
+              37.5665
+            ],
+            "theater": "朝鲜半岛南部",
+            "context": "朝鲜战争爆发后，朝鲜人民军迅速向汉城推进",
+            "description": "1950年6月25日战争爆发后，朝鲜人民军凭借苏制T-34坦克优势迅速突破韩军防线，6月28日占领汉城。韩军溃退，联合国军决定介入朝鲜半岛事务。",
+            "result": "朝鲜人民军占领汉城",
+            "significance": "标志着朝鲜战争全面爆发，联合国安理会通过决议组建联合国军",
+            "casualties": {
+              "sideA": "约3000人",
+              "sideB": "约1000人"
+            },
+            "forces": {
+              "sideA": "朝鲜人民军第3、第4、第6师约4万人",
+              "sideB": "韩国陆军第1、第7师约1.5万人"
+            },
+            "commanders": [
+              {
+                "name": "金日成",
+                "role": "朝鲜人民军最高司令官",
+                "side": "sideA"
+              },
+              {
+                "name": "李承晚",
+                "role": "韩国总统兼武装部队总司令",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "pusan-perimeter",
+            "name": "釜山环形防御",
+            "nameEn": "Battle of Pusan Perimeter",
+            "startYear": 1950,
+            "endYear": 1950,
+            "coords": [
+              129.0337,
+              35.1796
+            ],
+            "theater": "朝鲜半岛东南部",
+            "context": "联合国军退守釜山地区建立防御圈",
+            "description": "1950年7月，朝鲜人民军占领朝鲜半岛大部分地区，联合国军退守釜山地区建立环形防御。8月，朝鲜人民军多次试图突破防御圈，但被美军第8集团军和韩国军队击退。",
+            "result": "联合国军成功守住釜山防御圈",
+            "significance": "为仁川登陆创造了条件，扭转了战争初期的不利局面",
+            "casualties": {
+              "sideA": "约1.2万人",
+              "sideB": "约3万人"
+            },
+            "forces": {
+              "sideA": "联合国军约4.5万人（含美军第8集团军）",
+              "sideB": "朝鲜人民军约7万人"
+            },
+            "commanders": [
+              {
+                "name": "沃克",
+                "role": "美军第8集团军司令",
+                "side": "sideA"
+              },
+              {
+                "name": "金策",
+                "role": "朝鲜人民军前线司令官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "inchon-landing",
+            "name": "仁川登陆",
+            "nameEn": "Battle of Inchon",
+            "startYear": 1950,
+            "endYear": 1950,
+            "coords": [
+              126.6286,
+              37.4563
+            ],
+            "theater": "朝鲜半岛西部",
+            "context": "麦克阿瑟策划的仁川登陆行动",
+            "description": "1950年9月15日，美军第10军在仁川实施登陆，成功突破朝鲜人民军防线。登陆部队迅速向汉城推进，9月28日收复汉城。这一行动切断了朝鲜人民军后路，导致其在南部的部队陷入包围。",
+            "result": "联合国军成功收复汉城，扭转战局",
+            "significance": "朝鲜战争的重要转折点，改变了战争态势",
+            "casualties": {
+              "sideA": "约543人",
+              "sideB": "约1.37万人"
+            },
+            "forces": {
+              "sideA": "美军第10军约7万人",
+              "sideB": "朝鲜人民军约1.8万人"
+            },
+            "commanders": [
+              {
+                "name": "麦克阿瑟",
+                "role": "联合国军总司令",
+                "side": "sideA"
+              },
+              {
+                "name": "崔庸健",
+                "role": "朝鲜人民军前线指挥官",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争中期",
+        "nameEn": "Mid-War Phase",
+        "startYear": 1950,
+        "endYear": 1951,
+        "summary": "联合国军越过三八北进，中国人民志愿军参战，战线稳定在三八线附近",
+        "battles": [
+          {
+            "battleId": "chosin-reservoir",
+            "name": "长津湖战役",
+            "nameEn": "Battle of Chosin Reservoir",
+            "startYear": 1950,
+            "endYear": 1950,
+            "coords": [
+              126.5333,
+              40.3333
+            ],
+            "theater": "朝鲜东北部",
+            "context": "美军第10军向鸭绿江推进，遭遇中国人民志愿军",
+            "description": "1950年11月底，美军第10军向鸭绿江推进，在长津湖地区遭遇中国人民志愿军第9兵团。志愿军利用严寒和地形优势，对美军形成包围。美军在艰苦条件下突破包围，向南撤退。",
+            "result": "美军成功突围但损失惨重，志愿军未能全歼美军",
+            "significance": "标志着中国人民志愿军参战的重大影响，美军被迫放弃北进计划",
+            "casualties": {
+              "sideA": "约1.5万人",
+              "sideB": "约2.5万人"
+            },
+            "forces": {
+              "sideA": "美军陆战1师、第7师约3万人",
+              "sideB": "中国人民志愿军第9兵团约15万人"
+            },
+            "commanders": [
+              {
+                "name": "史密斯",
+                "role": "美军第10军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "宋时轮",
+                "role": "中国人民志愿军第9兵团司令员",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "un-north-korean-offensive",
+            "name": "联合国军北进",
+            "nameEn": "UN North Korean Offensive",
+            "startYear": 1950,
+            "endYear": 1950,
+            "coords": [
+              39.0333,
+              39.9167
+            ],
+            "theater": "朝鲜半岛北部",
+            "context": "联合国军越过三八线向鸭绿江推进",
+            "description": "1950年10月，联合国军越过三八线向北推进，目标是统一朝鲜半岛。美军第8集团军和第10军分别从西线和东线向鸭绿江推进，但在中国人民志愿军参战后遭遇顽强抵抗，被迫撤退。",
+            "result": "联合国军被迫撤退至三八线以南",
+            "significance": "标志着中国人民志愿军参战对战争的重大影响",
+            "casualties": {
+              "sideA": "约1.6万人",
+              "sideB": "约3万人"
+            },
+            "forces": {
+              "sideA": "联合国军约20万人",
+              "sideB": "中国人民志愿军约30万人"
+            },
+            "commanders": [
+              {
+                "name": "麦克阿瑟",
+                "role": "联合国军总司令",
+                "side": "sideA"
+              },
+              {
+                "name": "彭德怀",
+                "role": "中国人民志愿军司令员",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "third-battle-of-seoul",
+            "name": "第三次汉城战役",
+            "nameEn": "Third Battle of Seoul",
+            "startYear": 1951,
+            "endYear": 1951,
+            "coords": [
+              126.9774,
+              37.5665
+            ],
+            "theater": "朝鲜半岛中部",
+            "context": "中国人民志愿军和朝鲜人民军联合进攻汉城",
+            "description": "1951年1月，中国人民志愿军和朝鲜人民军发起大规模攻势，突破联合国军防线。1月4日，联军占领汉城，这是汉城第三次易手。联合国军撤退至三八线以南建立新防线。",
+            "result": "中国人民志愿军和朝鲜人民军占领汉城",
+            "significance": "联军取得重大胜利，但未能彻底击败联合国军",
+            "casualties": {
+              "sideA": "约1.7万人",
+              "sideB": "约2.3万人"
+            },
+            "forces": {
+              "sideA": "联合国军约15万人",
+              "sideB": "中国人民志愿军和朝鲜人民军约35万人"
+            },
+            "commanders": [
+              {
+                "name": "李奇微",
+                "role": "联合国军总司令",
+                "side": "sideA"
+              },
+              {
+                "name": "彭德怀",
+                "role": "中国人民志愿军司令员",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争后期",
+        "nameEn": "Late War Phase",
+        "startYear": 1951,
+        "endYear": 1953,
+        "summary": "战线在三八线附近僵持，双方展开拉锯战，最终达成停战协议",
+        "battles": [
+          {
+            "battleId": "battle-of-the-imjin-river",
+            "name": "临津江战役",
+            "nameEn": "Battle of the Imjin River",
+            "startYear": 1951,
+            "endYear": 1951,
+            "coords": [
+              127.0333,
+              37.9167
+            ],
+            "theater": "朝鲜半岛中部",
+            "context": "中国人民志愿军试图突破联合国军防线",
+            "description": "1951年4月，中国人民志愿军第63军和第64军对英军第29旅和比利时营防守的临津江地区发起进攻。英军和比利时军队顽强抵抗，最终击退志愿军攻势，但损失惨重。",
+            "result": "联合国军成功守住防线，但损失惨重",
+            "significance": "标志着双方在三八线附近形成僵持局面",
+            "casualties": {
+              "sideA": "约1.9万人",
+              "sideB": "约5000人"
+            },
+            "forces": {
+              "sideA": "中国人民志愿军第63、64军约8万人",
+              "sideB": "英军第29旅、比利时营等约1.5万人"
+            },
+            "commanders": [
+              {
+                "name": "杨得志",
+                "role": "中国人民志愿军第19兵团司令员",
+                "side": "sideA"
+              },
+              {
+                "name": "卡恩",
+                "role": "英军第29旅旅长",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-heartbreak-ridge",
+            "name": "伤心岭战役",
+            "nameEn": "Battle of Heartbreak Ridge",
+            "startYear": 1951,
+            "endYear": 1951,
+            "coords": [
+              127.8333,
+              38.0833
+            ],
+            "theater": "朝鲜半岛中部",
+            "context": "美军试图夺取志愿军控制的战略高地",
+            "description": "1951年9月，美军第2师和法国营对中国人民志愿军第15军防守的伤心岭地区发起进攻。经过一个月的激烈战斗，美军最终占领高地，但付出了巨大代价。战役期间双方展开了残酷的阵地战和炮战。",
+            "result": "美军最终占领伤心岭高地",
+            "significance": "体现了朝鲜战争后期阵地战的残酷性和僵持状态",
+            "casualties": {
+              "sideA": "约3700人",
+              "sideB": "约2.5万人"
+            },
+            "forces": {
+              "sideA": "美军第2师、法国营等约2万人",
+              "sideB": "中国人民志愿军第15军约3万人"
+            },
+            "commanders": [
+              {
+                "name": "范弗里特",
+                "role": "美军第8集团军司令",
+                "side": "sideA"
+              },
+              {
+                "name": "秦基伟",
+                "role": "中国人民志愿军第15军军长",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-pork-chop-hill",
+            "name": "猪肉岭战役",
+            "nameEn": "Battle of Pork Chop Hill",
+            "startYear": 1953,
+            "endYear": 1953,
+            "coords": [
+              127.6667,
+              38.1667
+            ],
+            "theater": "朝鲜半岛中部",
+            "context": "战争接近尾声时的激烈争夺",
+            "description": "1953年7月，战争接近尾声，中国人民志愿军对美军第7师防守的猪肉岭发起进攻。美军多次发动反击，双方为争夺这个小山头展开了激烈战斗。战役持续到7月27日停战协议生效，双方最终达成停火。",
+            "result": "双方在停战协议生效前停止战斗",
+            "significance": "标志着朝鲜战争的结束，是最后一场大规模战斗",
+            "casualties": {
+              "sideA": "约1900人",
+              "sideB": "约2500人"
+            },
+            "forces": {
+              "sideA": "美军第7师约1.5万人",
+              "sideB": "中国人民志愿军第46军约2万人"
+            },
+            "commanders": [
+              {
+                "name": "史密斯",
+                "role": "美军第7师师长",
+                "side": "sideA"
+              },
+              {
+                "name": "肖全夫",
+                "role": "中国人民志愿军第46军军长",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "majorBattles": [],
+    "economics": {
+      "resourceDependency": {
+        "sideA": {
+          "summary": "朝鲜战争初期，朝鲜依靠苏联提供的军事装备和物资支持，包括坦克、飞机和弹药。战争后期，由于联合国军切断陆路供应，朝鲜转向海上运输，但仍面临严重物资短缺。朝鲜动员国内工业生产，但基础设施受损严重，资源获取能力大幅下降。"
+        },
+        "sideB": {
+          "summary": "韩国初期资源匮乏，严重依赖美国军事和经济援助。美国提供武器装备、粮食和石油等战略物资。韩国通过征兵和动员国内工业支持战争，但生产能力有限。韩国经济在战争期间遭受严重破坏，基础设施损失惨重。"
+        }
+      },
+      "foreignAid": [
+        {
+          "from": "美国",
+          "to": "韩国",
+          "program": "军事援助计划",
+          "content": "提供价值数十亿美元的武器装备、弹药和军事技术支持"
+        },
+        {
+          "from": "苏联",
+          "to": "朝鲜",
+          "program": "军事装备供应",
+          "content": "提供坦克、飞机、火炮等重型武器装备和弹药"
+        },
+        {
+          "from": "中国",
+          "to": "朝鲜",
+          "program": "人民志愿军后勤",
+          "content": "提供粮食、燃料和医疗物资，并派遣后勤人员"
+        },
+        {
+          "from": "联合国",
+          "to": "韩国",
+          "program": "经济重建援助",
+          "content": "提供资金和技术支持用于战后重建"
+        }
+      ],
+      "warBudget": "朝鲜战争总开支估计超过300亿美元，其中美国承担约200亿美元，苏联约50亿美元，中国约30亿美元，韩国及其他国家约20亿美元。战争消耗相当于参战国GDP的10-15%，是当时历史上最昂贵的局部战争之一。",
+      "economicDisruption": "朝鲜战争造成朝鲜半岛经济全面崩溃，工业设施损毁率达80%，农业产量下降60%，约300万人死亡，大量基础设施被毁。韩国GDP下降40%，通货膨胀率高达500%。朝鲜战争导致朝鲜半岛分裂，南北经济体系完全割裂，长期影响区域经济发展格局。战争还导致全球军费开支增加，冷战军备竞赛加剧。"
+    },
+    "geography": {
+      "keyObstacles": [
+        {
+          "name": "三八线",
+          "description": "作为朝韩分界线，三八线成为双方反复争夺的战略要地，其山地地形为防守方提供了天然屏障，但也限制了部队机动性，导致战线长期僵持。"
+        },
+        {
+          "name": "朝鲜半岛山地",
+          "description": "朝鲜半岛多山地形限制了大规模部队的机动和补给，山地战成为常态，有利于防守方阻击进攻，但也增加了后勤保障难度，使战争陷入消耗战。"
+        },
+        {
+          "name": "长津湖地区",
+          "description": "位于朝鲜东北部的长津湖地区高山峻岭，冬季严寒，1950年冬志愿军在此伏击美军陆战一师，极端天气和复杂地形成为美军重大损失的重要因素。"
+        }
+      ],
+      "extremeWeather": [
+        {
+          "year": 1950,
+          "event": "朝鲜冬季严寒",
+          "description": "1950-1951年冬季异常寒冷，气温降至零下30度，导致大量非战斗减员，武器装备失灵，双方都面临严峻的生存挑战，影响了军事行动的节奏和效果。"
+        },
+        {
+          "year": 1951,
+          "event": "春季泥泞期",
+          "description": "春季冰雪融化导致朝鲜半岛道路泥泞，严重影响部队机动和后勤补给，限制了双方发动大规模进攻的能力，使战争进入相持阶段。"
+        }
+      ],
+      "nonCombatLosses": "朝鲜战争中，非战斗减员极为严重。据估计，双方因严寒、疾病、营养不良等非战斗因素造成的减员占总伤亡的30%以上。特别是1950-1951年冬季，极端寒冷导致大量冻伤和冻死病例，武器装备也因低温失灵，严重影响了战斗力。"
+    },
+    "cognitiveWarfare": {
+      "psyOps": [
+        "联合国军使用心理战广播向中朝军队散播投降信息“, ”中朝联军通过宣传强调'抗美援朝，保家卫国'激发民族主义情绪“, ”联合国军散播'细菌战'指控以削弱国际社会对中朝联军的支持“, ”中朝联军展示战俘待遇良好以瓦解敌方抵抗意志“, ”双方均使用传单、广播和扩音器进行前线心理战"
+      ],
+      "propagandaComparison": "联合国军宣传强调'自由世界对抗共产主义扩张'，将战争描绘为维护国际秩序的正义行动，突出中朝军队的'侵略'性质。宣传材料多聚焦于'联合国军'的'解放'使命，淡化战争伤亡。中朝联军则宣传'抗美援朝，保家卫国'，将战争定义为抵抗帝国主义侵略的正义之战，强调'美国侵略者'的暴行，如使用细菌战、轰炸平民区等。双方均通过战俘、平民证词和'证据'材料支持自身叙事，塑造道德高地。",
+      "collaborationists": [
+        "韩国李承晚政权“, ”朝鲜人民共和国“, ”中国人民志愿军“, ”联合国军中的南韩部队"
+      ],
+      "informationWarfare": "朝鲜战争中，信息战表现为双方对战争叙事的争夺。联合国军控制国际舆论，强调'联合国'合法性，利用西方媒体优势塑造中朝为'侵略者'形象。中朝联军则通过宣传展示美国'侵略本质'，争取国际同情。双方均进行严格的新闻审查，控制信息流动。战场信息操控包括夸大战果、隐瞒损失、散布虚假情报等。战争期间，'联合国军'与'中朝联军'各自建立宣传机构，如美国的'美国之音'与中朝的'对敌广播'，进行持续的信息对抗。"
+    }
+  },
+  "timeline": [
+    {
+      "year": 1950,
+      "event": "朝鲜战争爆发",
+      "type": "crisis",
+      "description": "1950年6月25日，朝鲜人民军越过三八线南侵，朝鲜战争正式爆发",
+      "impact": "战争开始，朝鲜人民军迅速占领汉城，韩国军队节节败退"
+    },
+    {
+      "year": 1950,
+      "event": "联合国军介入",
+      "type": "diplomacy",
+      "description": "1950年6月27日，联合国通过决议，组成以美军为首的联合国军介入朝鲜战争",
+      "impact": "美国主导的联合国军参战，战争规模扩大，扭转了战局"
+    },
+    {
+      "year": 1950,
+      "event": "仁川登陆",
+      "type": "decision",
+      "description": "1950年9月15日，麦克阿瑟指挥美军在仁川实施登陆作战",
+      "影响": "成功切断朝鲜人民军后方补给线，扭转战局，收复汉城"
+    },
+    {
+      "year": 1950,
+      "event": "中国参战",
+      "type": "decision",
+      " description": "1950年10月，中国人民志愿军跨过鸭绿江入朝作战",
+      "影响": "中国军队参战使联合国军被迫撤退，战争陷入僵持"
+    },
+    {
+      "year": 1951,
+      "event": "第五次战役",
+      "type": "crisis",
+      "description": "1951年4月至5月，中国人民志愿军发动第五次战役",
+      "影响": "双方在三八线附近形成对峙，战线相对稳定"
+    },
+    {
+      "year": 1951,
+      "event": "停战谈判开始",
+      "type": "diplomacy",
+      "description": "1951年7月，朝鲜停战谈判在开城开始",
+      "影响": "战争进入边打边谈阶段，但谈判过程艰难曲折"
+    },
+    {
+      "year": 1952,
+      "event": "上甘岭战役",
+      "type": "crisis",
+      "description": "1952年10月至11月，联合国军与志愿军在上甘岭展开激烈战斗",
+      "影响": "双方伤亡惨重，但战线未发生重大变化"
+    },
+    {
+      "year": 1953,
+      "event": "斯大林去世",
+      "type": "leadership",
+      "description": "1953年3月5日，苏联领导人斯大林去世",
+      "影响": "苏联新领导层倾向于结束战争，为停战创造了条件"
+    },
+    {
+      "year": 1953,
+      "event": "停战协定签署",
+      "type": "diplomacy",
+      " description": "1953年7月27日，朝鲜停战协定在板门店签署",
+      "影响": "战争正式结束，但朝鲜半岛分裂状态持续至今"
+    },
+    {
+      "year": 1953,
+      "event": "战俘遣返问题",
+      "type": "diplomacy",
+      "description": "停战协定中包含战俘遣返条款，但存在争议",
+      "影响": "战俘问题成为战后长期争议点，影响朝鲜半岛局势"
+    }
+  ]
+}

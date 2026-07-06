@@ -1,0 +1,745 @@
+{
+  "warId": "mexican-revolution",
+  "name": "墨西哥革命",
+  "nameEn": "Mexican Revolution",
+  "alternativeNames": [
+    "墨西哥内战"
+  ],
+  "startYear": 1910,
+  "endYear": 1920,
+  "type": "major",
+  "category": "内战",
+  "theaters": [
+    "墨西哥"
+  ],
+  "summary": "墨西哥人民推翻波费里奥·迪亚斯独裁统治，经历多次政权更迭的社会革命战争。",
+  "background": {
+    "causes": "长期的政治腐败、土地集中、贫富差距扩大、外国经济控制",
+    "immediateCause": "1910年总统选举中波费里奥·迪亚斯操纵选举，反对派弗朗西斯科·马德罗呼吁起义",
+    "preWarSituation": "迪亚斯统治墨西哥长达30年，实行独裁统治，土地集中在少数人手中，农民生活困苦",
+    "objectivesA": "推翻迪亚斯独裁，实现政治民主，进行土地改革，改善农民生活",
+    "objectivesB": "维护迪亚斯政权，保持现有政治经济秩序，保护外国投资和地主利益",
+    "precedingConflicts": [
+      "改革战争(1858-1861)",
+      "法国干涉(1861-1867)"
+    ]
+  },
+  "belligerents": {
+    "sideA": {
+      "name": "革命力量",
+      "nameEn": "Revolutionary Forces",
+      "countries": [
+        {
+          "name": "自由派",
+          "entryYear": 1910,
+          "exitYear": 1911
+        },
+        {
+          "name": "马德罗支持者",
+          "entryYear": 1910,
+          "exitYear": 1913
+        },
+        {
+          "name": "萨帕塔农民军",
+          "entryYear": 1911,
+          "exitYear": 1920
+        },
+        {
+          "name": "比利亚北方军",
+          "entryYear": 1913,
+          "exitYear": 1920
+        },
+        {
+          "name": "卡兰萨宪法军",
+          "entryYear": 1913,
+          "exitYear": 1920
+        }
+      ],
+      "commanders": [
+        {
+          "name": "弗朗西斯科·马德罗",
+          "role": "革命领袖",
+          "bio": "墨西哥总统候选人，领导推翻迪亚斯的革命"
+        },
+        {
+          "name": "埃米利阿诺·萨帕塔",
+          "role": "农民军领袖",
+          "bio": "南部农民起义领袖，主张土地改革"
+        },
+        {
+          "name": "潘乔·比利亚",
+          "role": "北方军领袖",
+          "bio": "北方农民起义领袖，游击战术专家"
+        },
+        {
+          "name": "贝努斯蒂亚诺·卡兰萨",
+          "role": "宪法军领袖",
+          "bio": "革命后期领袖，最终成为总统"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "弗朗西斯科·马德罗",
+          "role": "临时总统",
+          "bio": "1911年推翻迪亚斯后成为总统"
+        },
+        {
+          "name": "贝努斯蒂亚诺·卡兰萨",
+          "role": "宪法总统",
+          "bio": "1917年宪法制定者，革命后期领袖"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "志愿兵与征兵混合",
+        "organization": "地方性游击队与正规军并存",
+        "logistics": "依靠地方支持与缴获"
+      },
+      "preWarStrength": {
+        "army": "约5万人",
+        "navy": "弱小",
+        "airForce": "无",
+        "armor": "无",
+        "specialForces": "游击队",
+        "reserves": "农民民兵"
+      },
+      "equipment": [
+        {
+          "name": "步枪",
+          "quantity": "数万支",
+          "description": "主要为莫辛-纳甘和美国春田步枪"
+        },
+        {
+          "name": "机枪",
+          "quantity": "数百挺",
+          "description": "马克沁机枪等"
+        },
+        {
+          "name": "火炮",
+          "quantity": "数十门",
+          "description": "轻型野战炮"
+        }
+      ],
+      "industrialCapacity": "有限，主要依靠外国武器进口",
+      "economicStrength": "薄弱，依靠农村支持",
+      "totalCasualties": {
+        "dead": "约100万",
+        "wounded": "约200万",
+        "captured": "数万",
+        "missing": "数万",
+        "civilian": "约90万"
+      },
+      "warCrimes": [
+        "大规模处决、村庄焚烧、平民屠杀"
+      ],
+      "propaganda": {
+        "slogans": [
+          "土地与自由!",
+          "打倒独裁!",
+          "墨西哥人的墨西哥!"
+        ],
+        "themes": [
+          "民主、土地改革、民族主义"
+        ],
+        "methods": [
+          "传单、报纸、演讲"
+        ]
+      }
+    },
+    "sideB": {
+      "name": "政府军",
+      "nameEn": "Federal Forces",
+      "countries": [
+        {
+          "name": "墨西哥联邦军",
+          "entryYear": 1910,
+          "exitYear": 1913
+        },
+        {
+          "name": "韦尔塔军政府",
+          "entryYear": 1913,
+          "exitYear": 1914
+        }
+      ],
+      "commanders": [
+        {
+          "name": "波费里奥·迪亚斯",
+          "role": "总统兼总司令",
+          "bio": "墨西哥独裁者，统治墨西哥30年"
+        },
+        {
+          "name": "维克托里亚诺·韦尔塔",
+          "role": "军政府首脑",
+          "bio": "1913年发动政变推翻马德罗的将军"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "波费里奥·迪亚斯",
+          "role": "总统",
+          "bio": "墨西哥长期独裁者"
+        },
+        {
+          "name": "维克托里亚诺·韦尔塔",
+          "role": "临时总统",
+          "bio": "1913年政变后上台的军政府首脑"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "职业军队与征兵",
+        "organization": "中央集权式军队",
+        "logistics": "国家财政支持"
+      },
+      "preWarStrength": {
+        "army": "约3万人",
+        "navy": "小型舰队",
+        "airForce": "无",
+        "armor": "无",
+        "specialForces": "宪兵队",
+        "reserves": "国民警卫队"
+      },
+      "equipment": [
+        {
+          "name": "步枪",
+          "quantity": "2万余支",
+          "description": "德国毛瑟步枪和美国步枪"
+        },
+        {
+          "name": "机枪",
+          "quantity": "数百挺",
+          "description": "德国马克沁机枪"
+        },
+        {
+          "name": "火炮",
+          "quantity": "百余门",
+          "description": "克虏伯火炮"
+        }
+      ],
+      "industrialCapacity": "有限，主要依靠外国进口",
+      "economicStrength": "较强，控制国家财政",
+      "totalCasualties": {
+        "dead": "约20万",
+        "wounded": "约30万",
+        "captured": "数万",
+        "missing": "数千",
+        "civilian": "较少"
+      },
+      "warCrimes": [
+        "镇压起义、处决战俘、政治迫害"
+      ],
+      "propaganda": {
+        "slogans": [
+          "秩序与进步!",
+          "反对叛乱!",
+          "维护国家统一!"
+        ],
+        "themes": [
+          "稳定、现代化、外国投资"
+        ],
+        "methods": [
+          "官方报纸、公共集会、宣传画"
+        ]
+      }
+    }
+  },
+  "neutralParties": [
+    {
+      "name": "美国",
+      "position": "初期支持迪亚斯，后支持革命，最后干预比利亚"
+    },
+    {
+      "name": "德国",
+      "position": "支持迪亚斯政府"
+    },
+    {
+      "name": "英国",
+      "position": "保持中立但关注经济利益"
+    },
+    {
+      "name": "西班牙",
+      "position": "关注侨民安全"
+    }
+  ],
+  "outcome": {
+    "result": "革命力量最终获胜，但墨西哥陷入长期政治不稳定，1917年新宪法确立",
+    "victoryAnalysis": {
+      "winnerFactors": "农民广泛支持、游击战术优势、外国干预有限、革命目标深入人心",
+      "loserFactors": "腐败严重、军队士气低落、过度依赖外国支持、脱离民众"
+    },
+    "treaty": {
+      "name": "1917年墨西哥宪法",
+      "date": "1917年2月5日",
+      "content": "确立土地改革、劳工权利、政教分离、总统权力限制等原则"
+    },
+    "territorialChanges": "无重大领土变更，但土地所有权重新分配",
+    "economicCost": "国家经济严重受损，基础设施破坏，外国投资减少",
+    "demographicImpact": "人口大量减少，约100万人死亡，数百万人流离失所"
+  },
+  "legacy": {
+    "significance": "20世纪重要社会革命之一，影响拉丁美洲政治发展",
+    "immediateConsequences": "结束迪亚斯独裁，建立新宪法，但政治不稳定持续",
+    "longTermImpact": {
+      "political": "确立现代墨西哥政治制度，但腐败问题持续",
+      "military": "军队政治影响力增强，多次干预政治",
+      "economic": "土地改革开始，但进展缓慢，经济依赖美国",
+      "social": "农民地位改善，社会不平等依然存在"
+    },
+    "culturalLegacy": {
+      "memorials": [
+        "革命博物馆、英雄纪念碑"
+      ],
+      "observances": [
+        "革命纪念日(11月20日)"
+      ],
+      "media": [
+        "电影《革命》(1933)、文学作品《在墨西哥的阴影下》"
+      ]
+    }
+  },
+  "tags": {
+    "warfareType": [
+      "游击战“, ”内战“, ”人民战争"
+    ],
+    "geopolitical": [
+      "拉丁美洲“, ”美国干预"
+    ],
+    "scale": "regional",
+    "cause": [
+      "政治革命“, ”社会改革“, ”土地改革"
+    ]
+  },
+  "relatedWars": [
+    "墨西哥与美国战争(1846-1848)",
+    "改革战争(1858-1861)",
+    "恰帕斯冲突(1994-)"
+  ],
+  "sources": [
+    "墨西哥革命历史档案“, ”革命人物回忆录“, ”国际历史期刊研究"
+  ],
+  "warProcess": {
+    "phases": [
+      {
+        "name": "战争中期",
+        "nameEn": "Middle Phase",
+        "startYear": 1913,
+        "endYear": 1916,
+        "summary": "墨西哥革命中期，维多利亚诺·韦尔塔政权被推翻，但各派系之间继续争夺权力，导致国家陷入更深的内战。",
+        "battles": [
+          {
+            "battleId": "battle-of-zacatecas",
+            "name": "萨卡特卡斯战役",
+            "nameEn": "Battle of Zacatecas",
+            "startYear": 1914,
+            "endYear": 1914,
+            "coords": [
+              -102.5825,
+              22.7708
+            ],
+            "theater": "中部战区",
+            "context": "潘乔·维拉和阿尔瓦罗·奥布雷贡领导的革命军联合进攻韦尔塔政府控制的重要城市萨卡特卡斯。",
+            "description": "1914年6月23日，维拉和奥布雷贡的革命军包围了萨卡特卡斯。经过激烈战斗，革命军于6月24日攻占该市，缴获大量武器和物资。此役是革命军对韦尔塔政府的最重大胜利之一。",
+            "result": "革命军胜利，韦尔塔政府崩溃",
+            "significance": "标志着韦尔塔政权的终结，革命军控制了墨西哥大部分地区，但各派系间的矛盾开始激化。",
+            "casualties": {
+              "sideA": "约2000人",
+              "sideB": "约7000人"
+            },
+            "forces": {
+              "sideA": "约1.5万人",
+              "sideB": "约1.2万人"
+            },
+            "commanders": [
+              {
+                "name": "潘乔·维拉",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "阿尔瓦罗·奥布雷贡",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "路易斯·梅迪纳·巴里奥内斯",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-celaya",
+            "name": "塞拉亚战役",
+            "nameEn": "Battle of Celaya",
+            "startYear": 1915,
+            "endYear": 1915,
+            "coords": [
+              -100.7833,
+              20.5167
+            ],
+            "theater": "中部战区",
+            "context": "潘乔·维拉与阿尔瓦罗·奥布雷贡之间的权力斗争，双方争夺对墨西哥的控制权。",
+            "description": "1915年4月6日至7日，维拉率领的北方革命军与奥布雷贡的宪法军展开激战。奥布雷贡巧妙运用防御战术和机枪火力，击败了人数占优的维拉军队。随后在4月13日至15日的第二次塞拉亚战役中，奥布雷贡再次击败维拉。",
+            "result": "宪法军胜利，维拉势力被削弱",
+            "significance": "奥布雷贡确立了对革命的主导地位，维拉从此失去政治影响力，墨西哥革命进入新阶段。",
+            "casualties": {
+              "sideA": "约5000人",
+              "sideB": "约2000人"
+            },
+            "forces": {
+              "sideA": "约2.5万人",
+              "sideB": "约1.6万人"
+            },
+            "commanders": [
+              {
+                "name": "潘乔·维拉",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "阿尔瓦罗·奥布雷贡",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-veracruz",
+            "name": "韦拉克鲁斯战役",
+            "nameEn": "Battle of Veracruz",
+            "startYear": 1914,
+            "endYear": 1914,
+            "coords": [
+              -96.9233,
+              19.1778
+            ],
+            "theater": "沿海战区",
+            "context": "美国因塔马约拉事件对墨西哥韦拉克鲁斯港进行军事干预，支持反对韦尔塔的势力。",
+            "description": "1914年4月21日，美国海军陆战队在韦拉克鲁斯登陆，占领该市并控制海关。墨西哥军队和市民进行了有限抵抗。美国随后扩大占领范围，直到11月韦尔塔下台后撤军。",
+            "result": "美国胜利，墨西哥被迫接受美国条件",
+            "significance": "显示了美国对墨西哥事务的干预，加剧了墨西哥民族主义情绪，但也加速了韦尔塔政权的垮台。",
+            "casualties": {
+              "sideA": "约19人死亡",
+              "sideB": "约126人死亡"
+            },
+            "forces": {
+              "sideA": "约2500名海军陆战队员",
+              "sideB": "约2000名士兵和民兵"
+            },
+            "commanders": [
+              {
+                "name": "弗雷德里克·芬斯顿",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "胡安·加西亚",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-cuautla",
+            "name": "夸特拉战役",
+            "nameEn": "Battle of Cuautla",
+            "startYear": 1914,
+            "endYear": 1914,
+            "coords": [
+              -98.9167,
+              18.9167
+            ],
+            "theater": "南部战区",
+            "context": "埃米利阿诺·萨帕塔的解放军与联邦政府军之间的战斗，萨帕塔试图扩大其控制区域。",
+            "description": "1914年5月11日至24日，萨帕塔的军队包围了联邦政府军驻守的夸特拉镇。经过13天的激烈围攻，萨帕塔军队最终攻占该镇，击败了政府军。此役是萨帕塔军队的重要胜利。",
+            "result": "萨帕塔军队胜利",
+            "significance": "巩固了萨帕塔在莫雷洛斯州的统治，扩大了其解放区的范围，为后续的土地改革奠定了基础。",
+            "casualties": {
+              "sideA": "约400人",
+              "sideB": "约1000人"
+            },
+            "forces": {
+              "sideA": "约5000人",
+              "sideB": "约3000人"
+            },
+            "commanders": [
+              {
+                "name": "埃米利阿诺·萨帕塔",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "路易斯·梅迪纳·巴里奥内斯",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争后期",
+        "nameEn": "Later Phase",
+        "startYear": 1914,
+        "endYear": 1920,
+        "summary": "墨西哥革命后期，各派系争夺中央政权，最终由卡兰萨主导并建立宪法政府。",
+        "battles": [
+          {
+            "battleId": "battle-of-zacatecas",
+            "name": "萨卡特卡斯战役",
+            "nameEn": "Battle of Zacatecas",
+            "startYear": 1914,
+            "endYear": 1914,
+            "coords": [
+              -102.5825,
+              22.765
+            ],
+            "theater": "中部战区",
+            "context": "潘乔·维拉与卡兰萨之间的权力斗争，维拉试图控制墨西哥中部地区。",
+            "description": "1914年6月23日至7月8日，维拉率领北方革命军约1.5万人进攻由联邦政府军防守的萨卡特卡斯。经过激烈战斗，维拉军队最终攻占该战略要地，缴获大量武器装备，控制了通往首都的门户。",
+            "result": "维拉军队获胜，联邦政府军溃败。",
+            "significance": "此战使维拉控制了墨西哥中部，为随后进军墨西哥城奠定了基础，但也加剧了革命阵营内部的分裂。",
+            "casualties": {
+              "sideA": "约2000人",
+              "sideB": "约7000人"
+            },
+            "forces": {
+              "sideA": "约1.5万人",
+              "sideB": "约1.2万人"
+            },
+            "commanders": [
+              {
+                "name": "潘乔·维拉",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "路易斯·莫雷特",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-celaya",
+            "name": "塞拉亚战役",
+            "nameEn": "Battle of Celaya",
+            "startYear": 1915,
+            "endYear": 1915,
+            "coords": [
+              -100.7892,
+              20.5258
+            ],
+            "theater": "中部战区",
+            "context": "维拉与卡兰萨之间的决定性战役，双方争夺对墨西哥的控制权。",
+            "description": "1915年4月6日至15日，维拉率领约1.2万北方革命军与卡兰萨的宪法军约1.5万人在瓜纳华托州的塞拉亚展开激战。卡兰萨采用堑壕战术和机枪火力，成功击退维拉的多次冲锋。此战是墨西哥革命中规模最大的战役之一。",
+            "result": "卡兰萨的宪法军获得决定性胜利。",
+            "significance": "此战标志着维拉军事力量的衰落，卡兰萨确立了在革命中的主导地位，为后续建立宪法政府铺平了道路。",
+            "casualties": {
+              "sideA": "约5000人",
+              "sideB": "约2000人"
+            },
+            "forces": {
+              "sideA": "约1.2万人",
+              "sideB": "约1.5万人"
+            },
+            "commanders": [
+              {
+                "name": "潘乔·维拉",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "阿尔瓦罗·奥布雷贡",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-agua-prleta",
+            "name": "阿瓜普列塔战役",
+            "nameEn": "Battle of Agua Prieta",
+            "startYear": 1915,
+            "endYear": 1915,
+            "coords": [
+              -109.9167,
+              30.9667
+            ],
+            "theater": "北部战区",
+            "context": "维拉与美国边境地区的冲突，维拉试图报复美国对卡兰萨的支持。",
+            "description": "1915年10月2日至10月10日，维拉率领约5000人袭击索诺拉州的阿瓜普列塔镇。美国边防军与卡兰萨的军队联手防守，利用机枪和铁丝网等防御工事，成功击退维拉的进攻。",
+            "result": "维拉军队被击退，遭受重大损失。",
+            "significance": "此战进一步削弱了维拉的军事力量，巩固了卡兰萨的地位，也显示了美国对墨西哥革命的影响。",
+            "casualties": {
+              "sideA": "约300人",
+              "sideB": "约50人"
+            },
+            "forces": {
+              "sideA": "约5000人",
+              "sideB": "约2000人(含美军)"
+            },
+            "commanders": [
+              {
+                "name": "潘乔·维拉",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "阿尔瓦罗·奥布雷贡",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle-of-veracruz",
+            "name": "韦拉克鲁斯战役",
+            "nameEn": "Battle of Veracruz",
+            "startYear": 1914,
+            "endYear": 1914,
+            "coords": [
+              -96.9239,
+              19.1774
+            ],
+            "theater": "沿海战区",
+            "context": "美国为维护其利益对墨西哥的军事干预，卡兰萨政府与美国之间的冲突。",
+            "description": "1914年4月21日，美国海军陆战队在韦拉克鲁斯登陆，占领该港口城市。墨西哥军队进行了有限抵抗，但最终不敌美军火力。美军占领城市数周后撤出，但事件加剧了美墨之间的紧张关系。",
+            "result": "美军获胜，占领韦拉克鲁斯。",
+            "significance": "此战显示了美国对墨西哥事务的干预程度，也促使墨西哥革命各派系暂时团结一致对抗外国干涉。",
+            "casualties": {
+              "sideA": "约200人",
+              "sideB": "约100人"
+            },
+            "forces": {
+              "sideA": "约2500名美军",
+              "sideB": "约3000名墨西哥军"
+            },
+            "commanders": [
+              {
+                "name": "弗雷德里克·芬斯顿",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "加布里埃尔·埃尔南德斯",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "majorBattles": [],
+    "cognitiveWarfare": {
+      "psyOps": [
+        "革命力量利用民间歌曲和故事传播革命理念，塑造英雄形象如潘乔·维拉和埃米利阿诺·萨帕塔“,\n    ”政府军通过控制报纸和官方通讯渠道，将革命者描绘成无政府主义者和土匪“,\n    ”双方都利用宗教符号和民族主义情感来争取民众支持，革命者将斗争神圣化，政府军则强调秩序和稳定“,\n    ”革命力量通过建立流动印刷所，在各地散布革命宣言和政府腐败证据“,\n    ”政府军实施新闻审查，封锁革命消息，同时散布关于革命军暴行的虚假报道"
+      ],
+      "propagandaComparison": "革命力量采用草根宣传策略，利用通俗语言和民间艺术形式，直接面向农民和工人阶层，强调土地改革和社会正义。他们的宣传更具情感共鸣，通过个人英雄故事激发民众参与。相比之下，政府军宣传更加正式和精英导向，强调法律秩序、外国投资和现代化，试图将革命描绘为对国家稳定的威胁。政府控制了主要城市媒体，而革命力量则依靠口头传播和地下出版物，形成了城乡之间的信息割裂。",
+      "collaborators": [
+        "波费里奥·迪亚斯政权的支持者“,\n    ”地方地主和庄园主“,\n    ”与美国有利益联系的商人“,\n    ”政府军中的高级军官“,\n    ”天主教会的保守派"
+      ],
+      "informationWarfare": "革命力量建立了灵活的信息网络，利用电报和铁路传递情报，同时通过控制部分地区来建立宣传据点。政府军则依赖传统军事通讯和官方媒体垄断，但难以应对革命力量的游击战术和流动宣传。双方都试图控制叙事框架，革命者强调腐败和压迫，政府则强调稳定和进步。这场信息战塑造了现代墨西哥的民族认同，也影响了后来拉丁美洲的革命宣传模式。"
+    },
+    "geography": {
+      "keyObstacles": [
+        {
+          "name": "马德雷山脉",
+          "description": "纵贯墨西哥的崎岖山脉为革命军提供了天然屏障和隐蔽处，便于游击战术实施，但也限制了大规模军队调动和补给运输。"
+        },
+        {
+          "name": "奇瓦瓦沙漠",
+          "description": "广袤的沙漠地形使革命军难以维持持久补给线，但也使政府军难以追击，革命军可利用熟悉地形进行伏击和快速机动。"
+        },
+        {
+          "name": "尤卡坦半岛丛林",
+          "description": "茂密的丛林地区为当地起义力量提供了理想藏身之处，政府军难以有效控制，形成革命力量的持久抵抗区域。"
+        }
+      ],
+      "extremeWeather": [
+        {
+          "year": 1915,
+          "event": "严重干旱",
+          "description": "全国范围内的大旱导致农作物歉收，加剧了农村贫困和不满情绪，促使更多农民加入革命队伍，同时也限制了双方军队的粮食供应。"
+        },
+        {
+          "year": 1913,
+          "event": "飓风袭击",
+          "description": "沿海地区遭受强飓风袭击，破坏了港口设施和交通线路，影响了政府军的补给线和武器运输，为革命军创造了有利条件。"
+        }
+      ],
+      "nonCombatLosses": "墨西哥革命期间，恶劣的气候条件和艰苦的地形环境导致大量非战斗减员，包括因脱水、疾病、迷路和恶劣天气条件造成的伤亡，革命军尤其因缺乏医疗资源和补给而遭受严重损失。"
+    }
+  },
+  "timeline": [
+    {
+      "year": 1910,
+      "event": "波费里奥·迪亚斯的独裁统治",
+      "type": "leadership",
+      "description": "「波费里奥·迪亚斯」连续统治墨西哥长达35年，通过选举舞弊和威权手段维持权力",
+      "impact": "导致社会不满加剧，为革命爆发埋下伏笔"
+    },
+    {
+      "year": 1910,
+      "event": "弗朗西斯科·马德罗的竞选",
+      "type": "crisis",
+      "description": "「弗朗西斯科·马德罗」参加总统选举并挑战迪亚斯，随后被监禁",
+      "impact": "激发了民众对改革的需求，成为革命导火索"
+    },
+    {
+      "year": 1911,
+      "event": "马德罗革命爆发",
+      "type": "crisis",
+      "description": "「马德罗」越狱后发表「圣路易斯波托西计划」，号召人民起义",
+      "impact": "革命迅速蔓延，迪亚斯被迫辞职并流亡国外"
+    },
+    {
+      "year": 1911,
+      "event": "马德罗就任总统",
+      "type": "decision",
+      "description": "「弗朗西斯科·马德罗」当选墨西哥总统，承诺进行社会改革",
+      "impact": "未能满足革命各方期望，导致内部矛盾激化"
+    },
+    {
+      "year": 1913,
+      "event": "韦尔塔政变",
+      "type": "crisis",
+      "description": "「维克托里亚诺·韦尔塔」发动政变推翻马德罗政府并暗杀马德罗",
+      "impact": "墨西哥陷入内战，各派系争夺权力，革命进一步复杂化"
+    },
+    {
+      "year": 1920,
+      "event": "阿瓜斯卡连特斯协定",
+      "type": "diplomacy",
+      "description": "各方革命领导人在阿瓜斯卡连特斯召开会议，试图结束内战并建立临时政府",
+      "impact": "标志着革命战争阶段的结束，为墨西哥政治重建奠定了基础"
+    },
+    {
+      "year": 1920,
+      "event": "阿韦拉内多就任总统",
+      "type": "leadership",
+      "description": "阿韦拉内多作为革命领袖当选为墨西哥总统，开始实施土地改革政策",
+      "impact": "推动了土地改革和教育现代化，但政治腐败问题依然严重"
+    },
+    {
+      "year": 1923,
+      "event": "德拉埃拉起义",
+      "type": "crisis",
+      "description": "前革命将领德拉埃拉发动叛乱，反对中央集权政策",
+      "impact": "导致政府加强军事控制，并促使革命党(后来的革命制度党)强化权力集中"
+    },
+    {
+      "year": 1926,
+      "event": "基督战争爆发",
+      "type": "crisis",
+      "description": "政府限制宗教活动引发天主教徒武装反抗",
+      "impact": "造成数千人死亡，加剧了社会分裂，直到1939年才基本平息"
+    },
+    {
+      "year": 1929,
+      "type": "decision",
+      "event": "国民革命党成立",
+      "description": "卡德纳斯总统将各革命团体整合为单一政党",
+      "impact": "奠定了墨西哥革命制度党的基础，实现了政治稳定和长达71年的连续统治"
+    }
+  ]
+}

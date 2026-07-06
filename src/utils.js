@@ -122,3 +122,31 @@ export function debounce(fn, delay) {
     timer = setTimeout(() => fn(...args), delay);
   };
 }
+
+/**
+ * Reduce vertices in a closed ring using uniform stride sampling.
+ * Preserves the closure (first === last). Input: array of [lon, lat] pairs.
+ */
+export function simplifyRing(ring, maxVerts) {
+  if (ring.length <= maxVerts + 1) return ring;
+  const closed = ring[0][0] === ring[ring.length - 1][0] &&
+                 ring[0][1] === ring[ring.length - 1][1];
+  const interior = closed ? ring.slice(0, -1) : ring;
+  const step = interior.length / maxVerts;
+  const result = [];
+  for (let i = 0; i < interior.length; i += step) {
+    result.push(interior[Math.floor(i)]);
+  }
+  if (closed && result.length > 0) result.push(result[0].slice());
+  return result;
+}
+
+/**
+ * Recursively simplify coordinate arrays for Polygon/MultiPolygon.
+ */
+export function simplifyCoords(coords, maxVerts) {
+  if (Array.isArray(coords[0]) && typeof coords[0][0] === 'number') {
+    return simplifyRing(coords, maxVerts);
+  }
+  return coords.map((c) => simplifyCoords(c, maxVerts));
+}

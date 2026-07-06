@@ -76,6 +76,9 @@ export function yearToSlider(year) {
   return SLIDER_MAX;
 }
 
+/** Initial right-view year for dual-comparison mode. */
+export const DEFAULT_RIGHT_YEAR = -600;
+
 /** How many years around the current slider position to load & display. */
 export const YEAR_WINDOW = 20;
 
@@ -113,7 +116,7 @@ export const DATA_CACHE_SIZE = 120;
 
 /** Base path for year JSON files (relative to Vite public dir). */
 export const DATA_BASE_URL_ZH = '/events/';
-export const DATA_BASE_URL_EN = '/英文event/';
+export const DATA_BASE_URL_EN = '/en-events/';
 
 // ── Categories ──
 /**

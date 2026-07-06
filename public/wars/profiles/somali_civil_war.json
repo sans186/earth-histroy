@@ -1,0 +1,875 @@
+{
+  "warId": "somali_civil_war",
+  "name": "索马里内战",
+  "nameEn": "Somali Civil War",
+  "alternativeNames": [
+    "索马里内乱"
+  ],
+  "startYear": 1991,
+  "endYear": 2000,
+  "type": "major",
+  "category": "内战",
+  "theaters": [
+    "索马里全境"
+  ],
+  "summary": "索马里政府垮台后各派系为争夺控制权爆发的长期内战。",
+  "background": {
+    "causes": "部族矛盾、殖民历史遗留问题、资源争夺、政治腐败",
+    "immediateCause": "穆罕默德·西亚德·巴雷政权被推翻",
+    "preWarSituation": "巴雷独裁统治引发不满，部族矛盾激化",
+    "objectivesA": "建立统一稳定的中央政府",
+    "objectivesB": "各派系争夺地区控制权和政治权力",
+    "precedingConflicts": [
+      "欧加登战争"
+    ]
+  },
+  "belligerents": {
+    "sideA": {
+      "name": "索马里过渡政府",
+      "nameEn": "Transitional National Government",
+      "countries": [
+        {
+          "name": "索马里过渡政府",
+          "entryYear": 2000,
+          "exitYear": 2004
+        }
+      ],
+      "commanders": [
+        {
+          "name": "阿卜杜拉希·优素福·艾哈迈德",
+          "role": "总统",
+          "bio": "索马里过渡政府首任总统"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "阿卜杜拉希·优素福·艾哈迈德",
+          "role": "总统",
+          "bio": "前邦特兰领导人"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "志愿兵",
+        "organization": "松散的地方武装",
+        "logistics": "依赖外部援助"
+      },
+      "preWarStrength": {
+        "army": "约1万人",
+        "navy": "无",
+        "airForce": "无",
+        "armor": "少量",
+        "specialForces": "无",
+        "reserves": "无"
+      },
+      "equipment": [
+        {
+          "name": "轻武器",
+          "quantity": "大量",
+          "description": "AK-47等步枪"
+        },
+        {
+          "name": "火箭筒",
+          "quantity": "数百",
+          "description": "RPG-7等"
+        }
+      ],
+      "industrialCapacity": "几乎为零",
+      "economicStrength": "极度依赖外援",
+      "totalCasualties": {
+        "dead": "约30万",
+        "wounded": "数十万",
+        "captured": "数千",
+        "missing": "数千",
+        "civilian": "约30万"
+      },
+      "warCrimes": [
+        "无组织性，难以追究"
+      ],
+      "propaganda": {
+        "slogans": [
+          "统一索马里“, ”恢复和平"
+        ],
+        "themes": [
+          "国家统一“, ”民族和解"
+        ],
+        "methods": [
+          "广播宣传“, ”集会演讲"
+        ]
+      }
+    },
+    "sideB": {
+      "name": "各派系武装",
+      "nameEn": "Various Factional Militias",
+      "countries": [
+        {
+          "name": "联合索马里大会",
+          "entryYear": 1991,
+          "exitYear": 1992
+        },
+        {
+          "name": "索马里民族运动",
+          "entryYear": 1991,
+          "exitYear": 1994
+        },
+        {
+          "name": "索马里救国联盟",
+          "entryYear": 1991,
+          "exitYear": 1996
+        },
+        {
+          "name": "伊斯兰法院联盟",
+          "entryYear": 2004,
+          "exitYear": 2006
+        }
+      ],
+      "commanders": [
+        {
+          "name": "穆罕默德·法拉·艾迪德",
+          "role": "USC领导人",
+          "bio": "摩加迪沙军阀"
+        },
+        {
+          "name": "侯赛因·穆罕默德·法拉",
+          "role": "SSDF领导人",
+          "bio": "邦特兰地区领导人"
+        },
+        {
+          "name": "谢赫谢里夫·谢赫·艾哈迈德",
+          "role": "伊斯兰法院联盟领导人",
+          "bio": "伊斯兰教法学者"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "穆罕默德·法拉·艾迪德",
+          "role": "USC领导人",
+          "bio": "反对过渡政府"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "部族成员",
+        "organization": "部族武装",
+        "logistics": "依靠掠夺和走私"
+      },
+      "preWarStrength": {
+        "army": "约5-15万人",
+        "navy": "无",
+        "airForce": "无",
+        "armor": "少量",
+        "specialForces": "无",
+        "reserves": "无"
+      },
+      "equipment": [
+        {
+          "name": "轻武器",
+          "quantity": "大量",
+          "description": "AK-47等步枪"
+        },
+        {
+          "name": "火箭筒",
+          "quantity": "数千",
+          "description": "RPG-7等"
+        },
+        {
+          "name": "迫击炮",
+          "quantity": "数百",
+          "description": "82mm和120mm"
+        }
+      ],
+      "industrialCapacity": "无",
+      "economicStrength": "依靠走私和掠夺",
+      "totalCasualties": {
+        "dead": "约20万",
+        "wounded": "数十万",
+        "captured": "数千",
+        "missing": "数千",
+        "civilian": "约30万"
+      },
+      "warCrimes": [
+        "屠杀平民、抢劫、强奸"
+      ],
+      "propaganda": {
+        "slogans": [
+          "部族独立“, ”伊斯兰统治"
+        ],
+        "themes": [
+          "部族传统“, ”伊斯兰教法"
+        ],
+        "methods": [
+          "宗教宣传“, ”武装示威"
+        ]
+      }
+    }
+  },
+  "neutralParties": [
+    {
+      "name": "联合国",
+      "role": "调停与维和"
+    },
+    {
+      "name": "非洲联盟",
+      "role": "和平斡旋"
+    },
+    {
+      "name": "美国",
+      "role": "早期干预"
+    }
+  ],
+  "outcome": {
+    "result": "过渡政府成立，但内战持续",
+    "victoryAnalysis": {
+      "winnerFactors": "国际社会支持、部族间妥协",
+      "loserFactors": "部族分裂严重、武装派系林立"
+    },
+    "treaty": {
+      "name": "阿尔及尔协议",
+      "date": "2000年8月",
+      "content": "成立索马里过渡政府，承诺权力分享"
+    },
+    "territorialChanges": "索马里分裂为多个事实上的独立区域",
+    "economicCost": "GDP下降80%，基础设施几乎完全损毁",
+    "demographicImpact": "约150万人流离失所，大量难民涌入邻国"
+  },
+  "legacy": {
+    "significance": "非洲最严重的国家崩溃案例之一",
+    "immediateConsequences": "无政府状态持续、海盗活动猖獗",
+    "longTermImpact": {
+      "political": "长期分裂、联邦制建立",
+      "military": "军阀割据、武装派系林立",
+      "economic": "经济崩溃、依赖国际援助",
+      "social": "部族矛盾加剧、社会结构破坏"
+    },
+    "culturalLegacy": {
+      "memorials": [
+        "战争纪念碑"
+      ],
+      "observances": [
+        "和平纪念日"
+      ],
+      "media": [
+        "黑鹰坠落电影反映摩加迪沙战役"
+      ]
+    }
+  },
+  "tags": {
+    "warfareType": [
+      "游击战“, ”内战“, ”部族冲突"
+    ],
+    "geopolitical": [
+      "非洲冲突“, ”资源争夺"
+    ],
+    "scale": "regional",
+    "cause": [
+      "政治“, ”部族“, ”宗教"
+    ]
+  },
+  "relatedWars": [
+    "欧加登战争“,\n    ”索马里干预行动“,\n    ”索马里战争"
+  ],
+  "sources": [
+    "联合国报告“,\n    ”国际危机组织研究“,\n    ”索马里内战历史文献"
+  ],
+  "warProcess": {
+    "phases": [
+      {
+        "name": "战争初期",
+        "nameEn": "Early Phase",
+        "startYear": 1991,
+        "endYear": 1993,
+        "summary": "索马里内战初期，西亚德·巴雷政权被推翻后，各派系为争夺权力爆发武装冲突，国家陷入无政府状态。",
+        "battles": [
+          {
+            "battleId": "fall_of_mogadishu",
+            "name": "摩加迪沙陷落",
+            "nameEn": "Fall of Mogadishu",
+            "startYear": 1991,
+            "endYear": 1991,
+            "coords": [
+              45.34,
+              2.04
+            ],
+            "theater": "摩加迪沙",
+            "context": "反对派联合部队进攻首都，推翻西亚德·巴雷政权",
+            "description": "1991年1月，联合索马里大会(USC)等反对派武装向摩加迪沙发起进攻。经过激烈战斗，1月26日，巴雷政权垮台，总统逃离摩加迪沙。然而，胜利的反对派内部很快分裂为以穆罕默德·法拉赫·艾迪德为首的USC派系和以阿里·马哈迪·穆罕默德为首的USC派系，双方开始争夺控制权。",
+            "result": "巴雷政权被推翻，摩加迪沙陷入各派系混战",
+            "significance": "结束了西亚德·巴雷22年的统治，开启了索马里内战的序幕",
+            "casualties": {
+              "sideA": "约1000人",
+              "sideB": "约2000人"
+            },
+            "forces": {
+              "sideA": "反对派联军约15000人",
+              "sideB": "政府军约20000人"
+            },
+            "commanders": [
+              {
+                "name": "穆罕默德·法拉赫·艾迪德",
+                "role": "USC军事领导人",
+                "side": "sideA"
+              },
+              {
+                "name": "阿里·马哈迪·穆罕默德",
+                "role": "USC领导人",
+                "side": "sideA"
+              },
+              {
+                "name": "西亚德·巴雷",
+                "role": "索马里总统",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_mogadishu_1991",
+            "name": "第一次摩加迪沙战役",
+            "nameEn": "First Battle of Mogadishu",
+            "startYear": 1991,
+            "endYear": 1992,
+            "coords": [
+              45.34,
+              2.04
+            ],
+            "theater": "摩加迪沙",
+            "context": "艾迪德派系与马哈迪派系为争夺首都控制权爆发冲突",
+            "description": "1991年11月，艾迪德的USC派系与马哈迪的USC派系在摩加迪沙爆发激烈冲突。双方在首都各区域展开巷战，造成大量平民伤亡。战斗持续数周，最终马哈迪派系控制了摩加迪沙的大部分地区，包括总统府和机场，而艾迪德则控制了城市北部。这场战斗标志着索马里完全陷入分裂，中央政府名存实亡。",
+            "result": "马哈迪派系控制摩加迪沙大部分地区，艾迪德控制北部",
+            "significance": "确立了索马里分裂为南北两大派系的格局，中央政府功能瘫痪",
+            "casualties": {
+              "sideA": "约3000人",
+              "sideB": "约2000人"
+            },
+            "forces": {
+              "sideA": "艾迪德武装约5000人",
+              "sideB": "马哈迪武装约8000人"
+            },
+            "commanders": [
+              {
+                "name": "穆罕默德·法拉赫·艾迪德",
+                "role": "USC派领导人",
+                "side": "sideA"
+              },
+              {
+                "name": "阿里·马哈迪·穆罕默德",
+                "role": "临时总统",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_baidoa",
+            "name": "拜多阿战役",
+            "nameEn": "Battle of Baidoa",
+            "startYear": 1992,
+            "endYear": 1992,
+            "coords": [
+              43.65,
+              3.15
+            ],
+            "theater": "拜多阿",
+            "context": "艾迪德派系与马哈迪派系在索马里中部争夺控制权",
+            "description": "1992年3月，艾迪德的武装力量向马哈迪控制下的拜多阿市发动进攻。拜多阿是索马里中部的重要城市，具有战略意义。战斗持续数日，艾迪德部队最终占领了该市。这场战役是内战初期规模较大的战斗之一，显示了艾迪德派系的军事优势，并进一步巩固了他在索马里南部的控制区域。",
+            "result": "艾迪德派系占领拜多阿市",
+            "significance": "扩大了艾迪德派系在索马里中部的控制范围，加剧了地区分裂",
+            "casualties": {
+              "sideA": "约500人",
+              "sideB": "约800人"
+            },
+            "forces": {
+              "sideA": "艾迪德武装约3000人",
+              "sideB": "马哈迪武装约2500人"
+            },
+            "commanders": [
+              {
+                "name": "穆罕默德·法拉赫·艾迪德",
+                "role": "USC派领导人",
+                "side": "sideA"
+              },
+              {
+                "name": "阿里·马哈迪·穆罕默德",
+                "role": "临时总统",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "operation_provide_relief",
+            "name": "提供救济行动",
+            "nameEn": "Operation Provide Relief",
+            "startYear": 1992,
+            "endYear": 1993,
+            "coords": [
+              45.34,
+              2.04
+            ],
+            "theater": "摩加迪沙",
+            "context": "国际社会应对索马里饥荒和人道主义危机",
+            "description": "1992年4月，联合国发起提供救济行动，由美国主导，向索马里提供人道主义援助。由于内战导致食物分发困难，美国派遣军事力量保护援助物资运输。行动初期取得一定成效，但随着局势恶化，援助工作受阻。1992年12月，联合国决定启动联合行动，由美军主导，强制保障人道主义援助通道，这为后来的 Restore Hope 行动铺平了道路。",
+            "result": "人道主义援助部分送达，但受内战影响效果有限",
+            "significance": "标志着国际社会开始大规模介入索马里内战",
+            "casualties": {
+              "sideA": "约30人",
+              "sideB": "约100人"
+            },
+            "forces": {
+              "sideA": "美军及多国部队约5000人",
+              "sideB": "各派系武装约10000人"
+            },
+            "commanders": [
+              {
+                "name": "罗伯特·约翰斯顿",
+                "role": "美军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "穆罕默德·法拉赫·艾迪德",
+                "role": "USC派领导人",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_kismayo",
+            "name": "基斯马尤战役",
+            "nameEn": "Battle of Kismayo",
+            "startYear": 1992,
+            "endYear": 1993,
+            "coords": [
+              42.54,
+              0.36
+            ],
+            "theater": "基斯马尤",
+            "context": "艾迪德派系与其他派系争夺南部重要港口城市",
+            "description": "1992年9月，艾迪德的武装力量向南部港口城市基斯马尤发动进攻。该城是索马里南部的重要港口，具有经济和战略价值。战斗持续数周，艾迪德部队最终在1993年初占领了该市。在占领过程中，发生了针对当地部族的暴力事件，造成大量平民伤亡。基斯马尤的陷落使艾迪德控制了索马里南部的大部分地区，进一步巩固了他的势力范围。",
+            "result": "艾迪德派系占领基斯马尤市",
+            "significance": "确立了艾迪德在索马里南部的统治地位，加剧了地区冲突",
+            "casualties": {
+              "sideA": "约800人",
+              "sideB": "约1200人"
+            },
+            "forces": {
+              "sideA": "艾迪德武装约4000人",
+              "sideB": "其他派系武装约3000人"
+            },
+            "commanders": [
+              {
+                "name": "穆罕默德·法拉赫·艾迪德",
+                "role": "USC派领导人",
+                "side": "sideA"
+              },
+              {
+                "name": "穆罕默德·萨努西",
+                "role": "当地武装领导人",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争中期",
+        "nameEn": "Middle Phase",
+        "startYear": 1995,
+        "endYear": 2000,
+        "summary": "索马里内战中期，各派系争夺首都摩加迪沙控制权，国际干预力量撤离，国家陷入长期军阀割据状态。",
+        "battles": [
+          {
+            "battleId": "battle_of_mogadishu_1993",
+            "name": "摩加迪沙战役",
+            "nameEn": "Battle of Mogadishu",
+            "startYear": 1993,
+            "endYear": 1993,
+            "coords": [
+              45.34,
+              2.04
+            ],
+            "theater": "摩加迪沙",
+            "context": "联合国维和部队与艾迪德派武装之间的冲突升级",
+            "description": "1993年10月3日，美军特种部队在摩加迪沙执行抓捕艾迪德高级助手任务时陷入重围。激烈交战导致美军两架直升机被击落，19名美军士兵死亡，73人受伤。索马里方面死亡数百人。这场战斗被称为「黑鹰坠落」",
+            "result": "美军战术失败，被迫调整索马里政策",
+            "significance": "导致美国从索马里撤军，联合国维和行动受挫",
+            "casualties": {
+              "sideA": "约19人",
+              "sideB": "约500-1000人"
+            },
+            "forces": {
+              "sideA": "约160名美军特种部队",
+              "sideB": "艾迪德派武装约2000-4000人"
+            },
+            "commanders": [
+              {
+                "name": "威廉·加里森",
+                "role": "美军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "穆罕默德·艾哈迈德·法拉赫·艾迪德",
+                "role": "索马里派别领导人",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "ethiopian_intervention_1996",
+            "name": "埃塞俄比亚干预战役",
+            "nameEn": "Ethiopian Intervention",
+            "startYear": 1996,
+            "endYear": 1997,
+            "coords": [
+              42.54,
+              9.55
+            ],
+            "theater": "索马里南部",
+            "context": "埃塞俄比亚支持索马里过渡政府对抗艾迪德派",
+            "description": "埃塞俄比亚军队越过边境进入索马里，支持反对艾迪德的武装力量。埃塞俄比亚军队使用重型武器对艾迪德控制区进行轰炸和地面进攻。这场干预改变了索马里内战的力量平衡",
+            "result": "埃塞俄比亚暂时控制了部分索马里领土",
+            "significance": "首次外国大规模军事干预，改变了内战格局",
+            "casualties": {
+              "sideA": "约数百人",
+              "sideB": "约数百人"
+            },
+            "forces": {
+              "sideA": "埃塞俄比亚军队约1-2万人",
+              "sideB": "艾迪德派武装约5000-8000人"
+            },
+            "commanders": [
+              {
+                "name": "梅莱斯·泽纳维",
+                "role": "埃塞俄比亚总理",
+                "side": "sideA"
+              },
+              {
+                "name": "穆罕默德·艾哈迈德·法拉赫·艾迪德",
+                "role": "索马里派别领导人",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "capture_of_baidoa_1999",
+            "name": "拜多阿争夺战",
+            "nameEn": "Capture of Baidoa",
+            "startYear": 1999,
+            "endYear": 1999,
+            "coords": [
+              42.54,
+              3.15
+            ],
+            "theater": "拜多阿",
+            "context": "伊斯兰法院联盟与其他派系争夺战略城市控制权",
+            "description": "1999年，伊斯兰法院联盟对拜多阿发动进攻，经过数周激烈战斗，最终控制了这座城市。拜多阿是索马里中西部的重要战略城市，控制该城对伊斯兰法院联盟扩大影响力至关重要",
+            "result": "伊斯兰法院联盟控制拜多阿",
+            "significance": "伊斯兰法院联盟势力扩张，为后来控制摩加迪沙奠定基础",
+            "casualties": {
+              "sideA": "约200-300人",
+              "sideB": "约150-250人"
+            },
+            "forces": {
+              "sideA": "伊斯兰法院联盟约3000-4000人",
+              "sideB": "当地军阀武装约2000-3000人"
+            },
+            "commanders": [
+              {
+                "name": "谢赫·谢里夫·谢赫·艾哈迈德",
+                "role": "伊斯兰法院联盟领导人",
+                "side": "sideA"
+              },
+              {
+                "name": "穆罕默德·哈桑·图尔基",
+                "role": "当地军阀首领",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_kismayo_1999",
+            "name": "基斯马尤战役",
+            "nameEn": "Battle of Kismayo",
+            "startYear": 1999,
+            "endYear": 1999,
+            "coords": [
+              42.54,
+              0.35
+            ],
+            "theater": "基斯马尤",
+            "context": "奥马尔·哈桑·艾哈迈德·巴雷（艾迪德）与阿里·马哈迪·穆罕默德争夺港口城市",
+            "description": "1999年，艾迪德派与阿里·马哈迪派为争夺索马里南部重要港口城市基斯马尤展开激战。经过数周战斗，艾迪德派最终控制了这座城市。基斯马尤是索马里第二大港口，具有重要的经济和战略价值",
+            "result": "艾迪德派控制基斯马尤",
+            "significance": "艾迪德派巩固了对索马里南部的控制",
+            "casualties": {
+              "sideA": "约300-400人",
+              "sideB": "约250-350人"
+            },
+            "forces": {
+              "sideA": "艾迪德派武装约5000-6000人",
+              "sideB": "阿里·马哈迪派武装约4000-5000人"
+            },
+            "commanders": [
+              {
+                "name": "穆罕默德·艾哈迈德·法拉赫·艾迪德",
+                "role": "艾迪德派领导人",
+                "side": "sideA"
+              },
+              {
+                "name": "阿里·马哈迪·穆罕默德",
+                "role": "阿里·马哈迪派领导人",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争后期",
+        "nameEn": "Later Phase",
+        "startYear": 1996,
+        "endYear": 2000,
+        "summary": "索马里内战后期，各派系继续争夺控制权，同时国际社会尝试介入和平进程。这一时期的主要冲突集中在首都摩加迪沙及其周边地区，军阀之间的权力斗争更加激烈，同时也出现了新兴的伊斯兰势力。",
+        "battles": [
+          {
+            "battleId": "battle_of_mogadishu_1996",
+            "name": "第一次摩加迪沙战役",
+            "nameEn": "First Battle of Mogadishu",
+            "startYear": 1996,
+            "endYear": 1996,
+            "coords": [
+              45.34,
+              2.04
+            ],
+            "theater": "摩加迪沙",
+            "context": "艾迪德派系与阿里·马哈迪派系之间的冲突加剧，双方为争夺首都控制权而战。",
+            "description": "1996年3月，穆罕默德·法拉·艾迪德的部队与阿里·马哈迪的军队在摩加迪沙爆发激烈战斗。艾迪德在战斗中受伤，并于不久后去世。这场战斗导致数百名平民死亡，城市基础设施遭到严重破坏。",
+            "result": "艾迪德派系取得战术胜利，但双方均遭受重大损失",
+            "significance": "标志着艾迪德派系在摩加迪沙的短暂优势，但未能结束内战",
+            "casualties": {
+              "sideA": "约300人",
+              "sideB": "约400人"
+            },
+            "forces": {
+              "sideA": "约2000人",
+              "sideB": "约2500人"
+            },
+            "commanders": [
+              {
+                "name": "穆罕默德·法拉·艾迪德",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "阿里·马哈迪",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_baidoa_1996",
+            "name": "拜多阿战役",
+            "nameEn": "Battle of Baidoa",
+            "startYear": 1996,
+            "endYear": 1996,
+            "coords": [
+              42.54,
+              3.15
+            ],
+            "theater": "拜多阿",
+            "context": "艾迪德死后，其子侯赛因·艾迪德试图继承父亲的位置，但面临其他派系的挑战。",
+            "description": "1996年8月，侯赛因·艾迪德的部队与由奥斯曼·哈桑·阿里领导的联合派系在拜多阿地区展开战斗。这场战斗持续了数周，最终侯赛因的部队被迫撤退，失去了对这一重要地区的控制。",
+            "result": "联合派系获胜，侯赛因·艾迪德暂时失去影响力",
+            "significance": "显示了艾迪德家族权力的衰落，以及索马里军阀联盟的复杂性",
+            "casualties": {
+              "sideA": "约200人",
+              "sideB": "约150人"
+            },
+            "forces": {
+              "sideA": "约1500人",
+              "sideB": "约1200人"
+            },
+            "commanders": [
+              {
+                "name": "侯赛因·艾迪德",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "奥斯曼·哈桑·阿里",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_kismayo_1998",
+            "name": "基斯马尤战役",
+            "nameEn": "Battle of Kismayo",
+            "startYear": 1998,
+            "endYear": 1998,
+            "coords": [
+              42.54,
+              0.36
+            ],
+            "theater": "基斯马尤",
+            "context": "索马里南部重要港口城市基斯马尤的控制权争夺，涉及多个派系和新兴的伊斯兰组织。",
+            "description": "1998年9月，由奥马尔·杰斯领导的“索马里救国联盟”与艾哈迈德·哈桑·穆罕默德的“索马里爱国运动”为争夺基斯马尤而战。战斗持续了数周，最终奥马尔·杰斯的部队控制了该市，并宣布成立“索马里西南州”。",
+            "result": "奥马尔·杰斯派系获胜，控制基斯马尤",
+            "significance": "导致索马里南部进一步分裂，形成事实上的独立区域",
+            "casualties": {
+              "sideA": "约250人",
+              "sideB": "约300人"
+            },
+            "forces": {
+              "sideA": "约2000人",
+              "sideB": "约1800人"
+            },
+            "commanders": [
+              {
+                "name": "奥马尔·杰斯",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "艾哈迈德·哈桑·穆罕默德",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_mogadishu_1999",
+            "name": "第二次摩加迪沙战役",
+            "nameEn": "Second Battle of Mogadishu",
+            "startYear": 1999,
+            "endYear": 1999,
+            "coords": [
+              45.34,
+              2.04
+            ],
+            "theater": "摩加迪沙",
+            "context": "侯赛因·艾迪德试图重新夺回对首都的控制权，与控制该市的阿里·马哈迪派系发生冲突。",
+            "description": "1999年4月，侯赛因·艾迪德的部队与阿里·马哈迪的军队在摩加迪沙爆发新一轮战斗。这次战斗比1996年的更加激烈，使用了重型武器，导致大量平民流离失所。最终，双方达成停火协议，但摩加迪沙仍然处于分裂状态。",
+            "result": "战术上未分胜负，达成停火协议",
+            "significance": "显示了索马里内战的持久性和复杂性，以及和平进程的脆弱性",
+            "casualties": {
+              "sideA": "约400人",
+              "sideB": "约350人"
+            },
+            "forces": {
+              "sideA": "约2500人",
+              "sideB": "约2200人"
+            },
+            "commanders": [
+              {
+                "name": "侯赛因·艾迪德",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "阿里·马哈迪",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_jowhar_2000",
+            "name": "乔哈尔战役",
+            "nameEn": "Battle of Jowhar",
+            "startYear": 2000,
+            "endYear": 2000,
+            "coords": [
+              45.67,
+              2.76
+            ],
+            "theater": "乔哈尔",
+            "context": "在过渡政府成立前夕，各派系为争夺这一战略要地而战，该地位于摩加迪沙以北，是重要的交通枢纽。",
+            "description": "2000年7月，在亚的斯亚贝巴和平谈判期间，侯赛因·艾迪德的部队与由阿里·卡西姆领导的联合派系在乔哈尔地区爆发战斗。这场战斗持续了约一周，最终联合派系控制了该市，为即将成立的过渡政府创造了有利条件。",
+            "result": "联合派系获胜，为过渡政府铺平道路",
+            "significance": "为2000年8月索马里过渡政府的成立创造了条件，标志着国际和平努力的初步成果",
+            "casualties": {
+              "sideA": "约180人",
+              "sideB": "约150人"
+            },
+            "forces": {
+              "sideA": "约1500人",
+              "sideB": "约1300人"
+            },
+            "commanders": [
+              {
+                "name": "侯赛因·艾迪德",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "阿里·卡西姆",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "majorBattles": [],
+    "cognitiveWarfare": {
+      "psyOps": [
+        "利用部落仇恨煽动内部分裂“, ”散布虚假情报误导敌军行动“, ”通过控制广播电台传播政治宣传“, ”绑架平民并嫁祸给敌对派系“, ”利用宗教口号招募极端分子"
+      ],
+      "propagandaComparison": "索马里过渡政府主要强调国家统一和主权完整，试图建立合法政府形象，但实际控制力有限，宣传效果不佳。各派系武装则利用部落传统和宗教情感，通过简单直接的口号争取支持，如「恢复部落荣耀」或「建立伊斯兰国家」。过渡政府依赖西方媒体和国际组织支持，而派系武装则利用本地语言和传统媒介，更贴近普通民众，信息传播更有效。双方都大量使用暴力作为信息传播手段，通过恐吓和展示武力来传递政治信息。",
+      "collaborationists": [
+        "索马里全国联盟(艾迪德派)",
+        "索马里救国阵线“, ”索马里民族运动“, ”索马里爱国运动“, ”临时政府合作军阀"
+      ],
+      "informationWarfare": "索马里内战中的信息战呈现碎片化特点，各派系争夺对本地广播站的控制权，将其作为主要宣传工具。过渡政府缺乏系统性信息战能力，而派系武装则更擅长利用谣言和虚假信息制造混乱。国际媒体成为双方争夺的战场，各派系试图通过向国际媒体提供有利于自己的叙事来争取外部支持。战争期间，信息传播与实际暴力行动紧密结合，形成「信息-暴力」复合体，使信息战与军事行动难以区分。"
+    }
+  },
+  "timeline": [
+    {
+      "year": 1991,
+      "event": "西亚德·巴雷政权被推翻",
+      "type": "leadership",
+      "description": "索马里长期统治者穆罕默德·西亚德·巴雷的政权被反叛势力推翻，导致国家陷入无政府状态",
+      "impact": "标志着索马里内战的正式开始，国家陷入军阀割据的混乱局面"
+    },
+    {
+      "year": 1992,
+      "event": "联合国介入索马里",
+      "type": "diplomacy",
+      "description": "联合国通过第794号决议，授权组建“联合特遣部队”（UNITAF）在索马里开展人道主义救援行动",
+      "impact": "国际社会首次大规模介入索马里内战，旨在缓解饥荒和保护人道主义援助物资"
+    },
+    {
+      "year": 1993,
+      "event": "摩加迪沙战役",
+      "type": "crisis",
+      "description": "美军在摩加迪沙与艾迪德派系武装发生激烈交火，导致19名美军士兵死亡",
+      "impact": "促使美国调整对索政策，最终从索马里撤军，削弱了国际干预的决心"
+    },
+    {
+      "year": 1995,
+      "event": "联合国维和部队撤离",
+      "type": "decision",
+      "description": "联合国维和部队在完成初步任务后开始撤离索马里",
+      "impact": "国际干预力量撤离后，索马里内战进一步恶化，各派系争夺控制权的斗争加剧"
+    },
+    {
+      "year": 1998,
+      "event": "索兰德和邦特兰宣布独立",
+      "type": "decision",
+      "description": "索马里北部地区索兰德和邦特兰宣布自治或独立，寻求脱离中央政府控制",
+      "impact": "进一步加剧了索马里的分裂局面，形成了事实上的多个政治实体，使国家统一更加困难"
+    },
+    {
+      "year": 1998,
+      "event": "索兰尼亚和邦特兰宣布独立",
+      "type": "decision",
+      "description": "索马里北部地区索兰尼亚和邦特兰宣布独立，寻求自治",
+      "impact": "进一步加剧索马里分裂，形成多个事实上的独立政治实体"
+    },
+    {
+      "year": 2000,
+      "event": "阿尔塔和平会议",
+      "type": "diplomatic",
+      "description": "在吉布提阿尔塔举行的和平会议上，成立过渡国民政府",
+      "impact": "首次尝试建立全国性政府，为后续和平进程奠定基础，但实际控制力有限"
+    }
+  ]
+}

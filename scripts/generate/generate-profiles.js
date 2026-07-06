@@ -2,11 +2,12 @@
 /**
  * generate-profiles.js
  *
- * Batch-generates historical person profiles using Zhipu (智谱) & Qwen (千问) APIs.
+ * Batch-generates historical person profiles using Zhipu (智谱) APIs.
  * Reads names from people_list.txt, calls AI with the standard prompt, and
  * outputs structured JSON to public/people/profiles/.
  *
  * Resumable — skips profiles that already exist.
+ * Uses ZHIPU_API_KEY_1 through ZHIPU_API_KEY_5 concurrently (5-key pool).
  *
  * Usage:  node scripts/generate-profiles.js [--force] [--concurrency N]
  */
@@ -16,7 +17,7 @@ import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const ROOT = resolve(__dirname, '..');
+const ROOT = resolve(__dirname, '../..');
 
 // ── Load .env ──
 const ENV_PATH = resolve(ROOT, '.env');
@@ -32,40 +33,32 @@ const PROFILES_DIR = resolve(ROOT, 'public/people/profiles');
 const INDEX_PATH = resolve(PROFILES_DIR, 'index.json');
 const NAMES_FILE = resolve(ROOT, 'people_list.txt');
 const FORCE = process.argv.includes('--force');
-const CONCURRENCY = parseInt(process.argv.find((_, i, a) => a[i - 1] === '--concurrency') || '4', 10);
+const CONCURRENCY = parseInt(process.argv.find((_, i, a) => a[i - 1] === '--concurrency') || '5', 10);
 const LIMIT = parseInt(process.argv.find((_, i, a) => a[i - 1] === '--limit') || '0', 10) || Infinity;
 const DRY_RUN = process.argv.includes('--dry-run');
 
 // ── API pool ──
 const API_POOL = [];
 
-// Zhipu (智谱) — 3 keys
-if (process.env.ZHIPU_API_KEY) {
-  API_POOL.push({
-    name: 'zhipu-1',
-    url: 'https://open.bigmodel.cn/api/paas/v4/chat/completions',
-    key: process.env.ZHIPU_API_KEY,
-    model: 'glm-4.5-air',
-  });
-}
-if (process.env.ZHIPU_API_KEY_2) {
-  API_POOL.push({
-    name: 'zhipu-2',
-    url: 'https://open.bigmodel.cn/api/paas/v4/chat/completions',
-    key: process.env.ZHIPU_API_KEY_2,
-    model: 'glm-4-plus',
-  });
-}
-if (process.env.ZHIPU_API_KEY_3) {
-  API_POOL.push({
-    name: 'zhipu-3',
-    url: 'https://open.bigmodel.cn/api/paas/v4/chat/completions',
-    key: process.env.ZHIPU_API_KEY_3,
-    model: 'glm-4-plus',
-  });
+// Zhipu (智谱) — 5 keys, glm-4-plus for keys 2-5, glm-4-flash for key 1
+for (const [key, model] of [
+  ['ZHIPU_API_KEY_1', 'glm-4-flash'],
+  ['ZHIPU_API_KEY_2', 'glm-4-plus'],
+  ['ZHIPU_API_KEY_3', 'glm-4-plus'],
+  ['ZHIPU_API_KEY_4', 'glm-4-plus'],
+  ['ZHIPU_API_KEY_5', 'glm-4-plus'],
+]) {
+  if (process.env[key]) {
+    API_POOL.push({
+      name: key.toLowerCase().replace('_', '-'),
+      url: 'https://open.bigmodel.cn/api/paas/v4/chat/completions',
+      key: process.env[key],
+      model,
+    });
+  }
 }
 
-// Qwen (千问)
+// Qwen (千问) — bonus
 if (process.env.QWEN_API_KEY) {
   API_POOL.push({
     name: 'qwen',
@@ -76,7 +69,7 @@ if (process.env.QWEN_API_KEY) {
 }
 
 if (API_POOL.length === 0) {
-  console.error('No API keys found. Set ZHIPU_API_KEY, ZHIPU_API_KEY_2, or QWEN_API_KEY in .env');
+  console.error('No API keys found. Set ZHIPU_API_KEY_1 through ZHIPU_API_KEY_5 in .env');
   process.exit(1);
 }
 
@@ -91,8 +84,8 @@ function parseNames(text) {
   const raw = text.split(/[、,\n\r]+/);
   for (let name of raw) {
     name = name.trim();
-    // Skip empty, parenthetical notes, section headers
-    if (!name || name.startsWith('（') || name.startsWith('(')) continue;
+    // Skip empty, parenthetical notes, section headers, comments
+    if (!name || name.startsWith('（') || name.startsWith('(') || name.startsWith('#') || name.startsWith('-')) continue;
     // Remove trailing parenthetical notes but keep the name
     name = name.replace(/[（(][^)）]*[)）]/g, '').trim();
     if (!name || name.length < 2) continue;

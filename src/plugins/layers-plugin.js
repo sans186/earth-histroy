@@ -11,6 +11,9 @@
 import * as Cesium from 'cesium';
 import { createMap2DRenderer } from './map2d-renderer.js';
 import { t } from '../locale.js';
+import { simplifyCoords } from '../utils.js';
+
+const MAX_RING_VERTICES_3D = 300; // vertices per ring in 3D Cesium polygons
 
 // ═══════════════════════════════════════════
 //  Imagery providers  (2 layers only: standard + satellite)
@@ -39,10 +42,10 @@ const BASE_LAYERS = [
   },
 ];
 
-const DEFAULT_BASE_LAYER = 'satellite';
+const DEFAULT_BASE_LAYER = 'standard';
 const POLITIES_BASE = '/ne/polities/';
 const CENTURY_WINDOW = 100;
-const MAX_POLITIES = 800; // safety cap – prevents Cesium entity overflow
+const MAX_POLITIES = 2000; // safety cap – prevents Cesium entity overflow
 
 // ── GeoJSON → Cesium entities (no GeoJsonDataSource) ──
 
@@ -103,6 +106,18 @@ function polityStrokeColor(name) {
   return Cesium.Color.fromHsl(hue / 360, 0.60, 0.40, 1.0);
 }
 
+// CSS-string versions for 2D renderer pre-caching
+function polityFillColorCSS(name) {
+  const hash = hashStr(name || 'unknown');
+  const hue = ((hash * GOLDEN_ANGLE) % 1) * 360;
+  return `hsl(${hue}, ${50 + (hash % 3) * 4}%, ${55 + (hash % 2) * 6}%)`;
+}
+function polityStrokeColorCSS(name) {
+  const hash = hashStr(name || 'unknown');
+  const hue = ((hash * GOLDEN_ANGLE) % 1) * 360;
+  return `hsl(${hue}, 60%, 40%)`;
+}
+
 // ═══════════════════════════════════════════
 //  Panel
 // ═══════════════════════════════════════════
@@ -143,6 +158,16 @@ export default {
     const viewer = core.viewer;
     const panel = createPanel();
     document.body.appendChild(panel);
+
+    // Inject hover styles for interactive elements in this panel
+    const layersStyle = document.createElement('style');
+    layersStyle.textContent = `
+      .baselayer-btn:hover { background: var(--btn-hover) !important; color: var(--text-white) !important; }
+      #layers-settings-header:hover { color: var(--text-white) !important; }
+      .layers-toggle-btn:hover { filter: brightness(1.2); }
+      #polity-card-close:hover { color: var(--text-white) !important; }
+    `;
+    document.head.appendChild(layersStyle);
 
     // ── Base Layer Section ──
     const baseTitle = document.createElement('div');
@@ -268,6 +293,7 @@ export default {
 
     // ── Settings Dropdown ──
     const settingsHeader = document.createElement('div');
+    settingsHeader.id = 'layers-settings-header';
     settingsHeader.style.cssText = 'color:var(--accent-gold);font-weight:bold;margin-bottom:4px;margin-top:4px;cursor:pointer;user-select:none;';
     settingsHeader.textContent = '▶ ' + t('panel.layers.settings', 'zh');
     panel.appendChild(settingsHeader);
@@ -325,6 +351,7 @@ export default {
       polToggle.textContent = t(polOn ? 'panel.layers.historical.on' : 'panel.layers.historical.off', loc);
       const modOn = modernVisible;
       modernToggle.textContent = t(modOn ? 'panel.layers.modern.on' : 'panel.layers.modern.off', loc);
+      updateWarMarkerToggle();
     }
 
     core.state.on('locale', (val) => {
@@ -398,7 +425,7 @@ export default {
     /** @type {Map<import('cesium').Entity, { fill: import('cesium').Color, stroke: import('cesium').Color }>} */
     const polityOriginalMaterials = new Map();
 
-    /** Create Cesium entities from filtered features. */
+    /** Create Cesium entities from filtered features (batched for performance). */
     function renderCesiumPolities(features) {
       removeCesiumPolities();
       polityOriginalMaterials.clear();
@@ -407,63 +434,68 @@ export default {
       const locale = core.state.get('locale') ?? 'zh';
       const nameMap = core._polityNameMap;
 
-      for (const feature of features) {
-        const name = feature.properties?.Name || '';
-        if (!name) continue;
+      viewer.entities.suspendEvents();
+      try {
+        for (const feature of features) {
+          const name = feature.properties?.Name || '';
+          if (!name) continue;
 
-        const color = polityFillColor(name);
-        const stroke = polityStrokeColor(name);
-        // Localized name
-        const displayName = locale === 'zh' && nameMap
-          ? (nameMap[name] || nameMap[name.replace(/^\(|\)$/g, '')] || name)
-          : name;
-        const shortName = displayName.split(/[,（(]/)[0].trim();
-        const [clon, clat] = geoCentroid(feature.geometry);
-        const position = Cesium.Cartesian3.fromDegrees(clon, clat);
+          const color = polityFillColor(name);
+          const stroke = polityStrokeColor(name);
+          const displayName = locale === 'zh' && nameMap
+            ? (nameMap[name] || nameMap[name.replace(/^\(|\)$/g, '')] || name)
+            : name;
+          const shortName = displayName.split(/[,（(]/)[0].trim();
+          const [clon, clat] = geoCentroid(feature.geometry);
+          const position = Cesium.Cartesian3.fromDegrees(clon, clat);
 
-        function addEntity(polyCoords) {
-          const ent = viewer.entities.add({
-            position,
-            polygon: {
-              hierarchy: geoPolyToHierarchy(polyCoords),
-              material: color,
-              outlineColor: stroke,
-              outlineWidth: 1.5,
-            },
-            label: {
-              text: shortName,
-              font: locale === 'zh' ? 'bold 15px "Microsoft YaHei", "Noto Sans SC", sans-serif' : 'bold 13px "Microsoft YaHei", "Noto Sans SC", sans-serif',
-              fillColor: Cesium.Color.fromCssColorString('#f0e8d8'),
-              outlineColor: Cesium.Color.fromCssColorString('#0a0a1a'),
-              outlineWidth: 3,
-              style: Cesium.LabelStyle.FILL_AND_OUTLINE,
-              scaleByDistance: new Cesium.NearFarScalar(5e5, 1.6, 18e6, 0.3),
-              distanceDisplayCondition: new Cesium.DistanceDisplayCondition(0, 25e6),
-              disableDepthTestDistance: Number.POSITIVE_INFINITY,
-              pixelOffset: new Cesium.Cartesian2(0, -6),
-            },
-            properties: {
-              _polityName: name,
-              _polityDisplayName: displayName,
-              _polityFrom: feature.properties?.FromYear,
-              _polityTo: feature.properties?.ToYear,
-              _polityWiki: feature.properties?.Wikipedia,
-            },
-          });
-          polityOriginalMaterials.set(ent, {
-            fill: Cesium.Color.clone(color),
-            stroke: Cesium.Color.clone(stroke),
-          });
-          newEntities.add(ent);
-        }
+          function addEntity(polyCoords, showLabel) {
+            const ent = viewer.entities.add({
+              position,
+              polygon: {
+                hierarchy: geoPolyToHierarchy(polyCoords),
+                material: color,
+                outlineColor: stroke,
+                outlineWidth: 1.5,
+              },
+              label: showLabel ? {
+                text: shortName,
+                font: locale === 'zh' ? 'bold 15px "Microsoft YaHei", "Noto Sans SC", sans-serif' : 'bold 13px "Microsoft YaHei", "Noto Sans SC", sans-serif',
+                fillColor: Cesium.Color.fromCssColorString('#f0e8d8'),
+                outlineColor: Cesium.Color.fromCssColorString('#0a0a1a'),
+                outlineWidth: 3,
+                style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+                scaleByDistance: new Cesium.NearFarScalar(5e5, 1.6, 18e6, 0.3),
+                distanceDisplayCondition: new Cesium.DistanceDisplayCondition(0, 25e6),
+                disableDepthTestDistance: Number.POSITIVE_INFINITY,
+                pixelOffset: new Cesium.Cartesian2(0, -6),
+              } : undefined,
+              properties: {
+                _polityName: name,
+                _polityDisplayName: displayName,
+                _polityFrom: feature.properties?.FromYear,
+                _polityTo: feature.properties?.ToYear,
+                _polityWiki: feature.properties?.Wikipedia,
+              },
+            });
+            polityOriginalMaterials.set(ent, {
+              fill: Cesium.Color.clone(color),
+              stroke: Cesium.Color.clone(stroke),
+            });
+            newEntities.add(ent);
+          }
 
-        if (feature.geometry.type === 'Polygon') {
-          addEntity(feature.geometry.coordinates);
-        } else if (feature.geometry.type === 'MultiPolygon') {
-          for (const polyCoords of feature.geometry.coordinates) {
-            addEntity(polyCoords);
+          if (feature.geometry.type === 'Polygon') {
+            addEntity(feature.geometry.coordinates, true);
+          } else if (feature.geometry.type === 'MultiPolygon') {
+            const polys = feature.geometry.coordinates;
+            for (let i = 0; i < polys.length; i++) {
+              addEntity(polys[i], i === 0);
+            }
           }
         }
+      } finally {
+        viewer.entities.resumeEvents();
       }
 
       politiesEntities = newEntities;
@@ -486,6 +518,8 @@ export default {
 
     /**
      * Fetch and cache raw feature array for a century file.
+     * Pre-simplifies geometry and pre-computes fill/stroke on first load
+     * so subsequent year changes reuse cached lightweight features.
      */
     async function loadCenturyFeatures(key) {
       if (centuryCache.has(key)) return centuryCache.get(key);
@@ -499,6 +533,14 @@ export default {
         if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
         const geojson = await resp.json();
         const features = geojson.features || [];
+        // Pre-simplify geometry and pre-compute colors once
+        for (const f of features) {
+          const name = f.properties?.Name || '';
+          f.geometry.coordinates = simplifyCoords(f.geometry.coordinates, MAX_RING_VERTICES_3D);
+          f._simplified = true;
+          f._fill = polityFillColorCSS(name);
+          f._stroke = polityStrokeColorCSS(name);
+        }
         centuryCache.set(key, features);
         return features;
       } catch (err) {
@@ -712,6 +754,7 @@ export default {
 
     // ── Toggle: Historical Polities ──
     const polToggle = document.createElement('button');
+    polToggle.className = 'layers-toggle-btn';
     Object.assign(polToggle.style, {
       background: 'var(--accent-green)',
       border: '1px solid var(--accent-green-border)',
@@ -749,6 +792,7 @@ export default {
 
     // ── Toggle: Modern Borders ──
     const modernToggle = document.createElement('button');
+    modernToggle.className = 'layers-toggle-btn';
     Object.assign(modernToggle.style, {
       background: 'var(--btn-bg)',
       border: '1px solid var(--btn-border)',
@@ -778,6 +822,53 @@ export default {
       hideFarSideLabels();
     });
     polBtns.appendChild(modernToggle);
+
+    // ── Toggle: War Markers ──
+    const warMarkerTitle = document.createElement('div');
+    warMarkerTitle.style.cssText = 'color:var(--accent-gold);font-weight:bold;margin-bottom:4px;margin-top:8px;';
+    panel.appendChild(warMarkerTitle);
+
+    const warMarkerBtns = document.createElement('div');
+    warMarkerBtns.style.cssText = 'display:flex;flex-direction:column;gap:3px;margin-bottom:12px;';
+    panel.appendChild(warMarkerBtns);
+
+    let warMarkersVisible = false;
+
+    const warMarkerToggle = document.createElement('button');
+    warMarkerToggle.className = 'layers-toggle-btn';
+    Object.assign(warMarkerToggle.style, {
+      background: 'var(--btn-bg)',
+      border: '1px solid var(--btn-border)',
+      color: 'var(--btn-text)',
+      padding: '4px 8px',
+      borderRadius: '4px',
+      cursor: 'pointer',
+      fontSize: '12px',
+      textAlign: 'left',
+    });
+
+    function updateWarMarkerToggle() {
+      const loc = core.state.get('locale') ?? 'zh';
+      warMarkerTitle.textContent = loc === 'zh' ? '战争标记' : 'War Markers';
+      if (warMarkersVisible) {
+        warMarkerToggle.textContent = loc === 'zh' ? '⚔ 战争标记: 开' : '⚔ War Markers: ON';
+        warMarkerToggle.style.background = 'var(--accent-green)';
+        warMarkerToggle.style.borderColor = 'var(--accent-green-border)';
+      } else {
+        warMarkerToggle.textContent = loc === 'zh' ? '⚔ 战争标记: 关' : '⚔ War Markers: OFF';
+        warMarkerToggle.style.background = 'var(--btn-bg)';
+        warMarkerToggle.style.borderColor = 'var(--btn-border)';
+      }
+    }
+
+    warMarkerToggle.addEventListener('click', () => {
+      warMarkersVisible = !warMarkersVisible;
+      core.state.set('showWarMarkers', warMarkersVisible);
+      updateWarMarkerToggle();
+    });
+
+    warMarkerBtns.appendChild(warMarkerToggle);
+    updateWarMarkerToggle();
 
     // ── Polity info card ──
     const polityCard = document.createElement('div');
@@ -1048,7 +1139,7 @@ export default {
 
     // ── React to timeline (throttled – polities are expensive to reload) ──
     // Use longer throttle for 2D mode where GeoJSON parsing is heavier
-    function getPolityThrottle() { return currentMode === '2d' ? 500 : 150; }
+    function getPolityThrottle() { return currentMode === '2d' ? 300 : 120; }
     let polityTimer = null;
     let polityPending = null;
     function onYearChange(year) {

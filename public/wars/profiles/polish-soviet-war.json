@@ -1,0 +1,509 @@
+{
+  "warId": "polish-soviet-war",
+  "name": "波苏战争",
+  "nameEn": "Polish–Soviet War",
+  "alternativeNames": [
+    "苏波战争“, ”波俄战争"
+  ],
+  "startYear": 1919,
+  "endYear": 1921,
+  "type": "major",
+  "category": "领土战争",
+  "theaters": [
+    "东欧“, ”白俄罗斯“, ”乌克兰“, ”立陶宛"
+  ],
+  "summary": "新生的波兰第二共和国与苏俄为争夺乌克兰和白俄罗斯领土而爆发的战争。",
+  "background": {
+    "causes": "一战后东欧地缘政治重组，波兰寻求恢复1772年瓜分前的领土，苏俄希望向西扩张革命",
+    "immediateCause": "波兰军队向东推进，占领明斯克和基辅，与苏红军发生冲突",
+    "preWarSituation": "沙皇俄国崩溃后，波兰独立，苏俄陷入内战，双方在边境地区形成权力真空",
+    "objectivesA": "恢复波兰立陶宛联邦历史疆域，建立从波罗的海到黑海的强大国家",
+    "objectivesB": "输出革命到欧洲，建立苏维埃政权，控制乌克兰和白俄罗斯",
+    "precedingConflicts": [
+      "一战“, ”俄国内战"
+    ]
+  },
+  "belligerents": {
+    "sideA": {
+      "name": "波兰",
+      "nameEn": "Poland",
+      "countries": [
+        {
+          "name": "波兰第二共和国",
+          "entryYear": 1919,
+          "exitYear": 1921
+        }
+      ],
+      "commanders": [
+        {
+          "name": "约瑟夫·毕苏斯基",
+          "role": "国家元首",
+          "bio": "波兰独立运动领袖，波兰第二共和国创建者"
+        },
+        {
+          "name": "爱德华·雷兹-希米格维",
+          "role": "陆军总司令",
+          "bio": "波兰军事领导人"
+        },
+        {
+          "name": "瓦迪斯瓦夫·西科尔斯基",
+          "role": "军队指挥官",
+          "bio": "波兰将军，后成为流亡政府总理"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "约瑟夫·毕苏斯基",
+          "role": "国家元首",
+          "bio": "波兰实际领导人"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "志愿兵与征兵混合制",
+        "organization": "师级单位编制",
+        "logistics": "依赖铁路运输，后勤补给有限"
+      },
+      "preWarStrength": {
+        "army": "约10万人",
+        "navy": "小型舰队",
+        "airForce": "约100架飞机",
+        "armor": "少量装甲列车",
+        "specialForces": "精英骑兵部队",
+        "reserves": "约5万人"
+      },
+      "equipment": [
+        {
+          "name": "曼licher步枪",
+          "quantity": "约15万支",
+          "description": "波兰陆军主要步兵武器"
+        },
+        {
+          "name": "施耐德火炮",
+          "quantity": "约500门",
+          "description": "主要野战火炮"
+        },
+        {
+          "name": "装甲列车",
+          "quantity": "约20列",
+          "description": "机动火力支援平台"
+        }
+      ],
+      "industrialCapacity": "中等，主要依靠西里西亚工业区",
+      "economicStrength": "较弱，战后经济重建中",
+      "totalCasualties": {
+        "dead": "约4.5万人",
+        "wounded": "约10万人",
+        "captured": "约2万人",
+        "missing": "约5000人",
+        "civilian": "约1万人"
+      },
+      "warCrimes": [],
+      "propaganda": {
+        "slogans": [
+          "为独立而战“, ”收复失地"
+        ],
+        "themes": [
+          "民族独立“, ”抵御布尔什维克威胁"
+        ],
+        "methods": [
+          "报纸宣传“, ”海报宣传"
+        ]
+      }
+    },
+    "sideB": {
+      "name": "苏俄",
+      "nameEn": "Soviet Russia",
+      "countries": [
+        {
+          "name": "苏维埃俄国",
+          "entryYear": 1919,
+          "exitYear": 1921
+        }
+      ],
+      "commanders": [
+        {
+          "name": "米哈伊尔·图哈切夫斯基",
+          "role": "西方面军司令",
+          "bio": "苏俄红军高级指挥官"
+        },
+        {
+          "name": "谢苗·布琼尼",
+          "role": "骑兵集团军司令",
+          "bio": "著名骑兵指挥官"
+        },
+        {
+          "name": "叶戈罗夫",
+          "role": "西南方面军司令",
+          "bio": "苏俄军事领导人"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "弗拉基米尔·列宁",
+          "role": "人民委员会主席",
+          "bio": "苏俄领导人"
+        },
+        {
+          "name": "列夫·托洛茨基",
+          "role": "军事人民委员",
+          "bio": "红军创建者"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "征兵制，大量动员",
+        "organization": "集团军编制",
+        "logistics": "依靠铁路运输，但系统受损"
+      },
+      "preWarStrength": {
+        "army": "约50万人",
+        "navy": "波罗的海舰队",
+        "airForce": "约300架飞机",
+        "armor": "少量装甲车",
+        "specialForces": "契卡部队",
+        "reserves": "约100万人"
+      },
+      "equipment": [
+        {
+          "name": "莫辛-纳甘步枪",
+          "quantity": "约100万支",
+          "description": "苏俄红军主要步兵武器"
+        },
+        {
+          "name": "马克沁机枪",
+          "quantity": "约5000挺",
+          "description": "主要支援武器"
+        },
+        {
+          "name": "装甲列车",
+          "quantity": "约30列",
+          "description": "机动火力平台"
+        }
+      ],
+      "industrialCapacity": "大型但受内战破坏",
+      "economicStrength": "较弱，内战导致经济崩溃",
+      "totalCasualties": {
+        "dead": "约10万人",
+        "wounded": "约20万人",
+        "captured": "约6万人",
+        "missing": "约1.5万人",
+        "civilian": "约3万人"
+      },
+      "warCrimes": [],
+      "propaganda": {
+        "slogans": [
+          "无产阶级革命“, ”解放欧洲"
+        ],
+        "themes": [
+          "阶级斗争“, ”世界革命"
+        ],
+        "methods": [
+          "报纸宣传“, ”集会演讲"
+        ]
+      }
+    }
+  },
+  "neutralParties": [
+    {
+      "name": "立陶宛",
+      "role": "与波兰有领土争端"
+    },
+    {
+      "name": "爱沙尼亚",
+      "role": "与苏俄有边界冲突"
+    },
+    {
+      "name": "拉脱维亚",
+      "role": "与苏俄有边界冲突"
+    },
+    {
+      "name": "罗马尼亚",
+      "role": "短暂参与对苏俄作战"
+    }
+  ],
+  "outcome": {
+    "result": "波兰胜利，双方签订里加条约",
+    "victoryAnalysis": {
+      "winnerFactors": "波兰军队机动性强，毕苏斯基战略眼光独到，苏俄内战未完全结束",
+      "loserFactors": "苏俄战线过长，补给困难，内部政治斗争"
+    },
+    "treaty": {
+      "name": "里加条约",
+      "date": "1921年3月18日",
+      "content": "波兰获得西乌克兰和白俄罗斯的大部分地区，苏俄承认波兰独立"
+    },
+    "territorialChanges": "波兰获得维尔纽斯、利沃夫等城市，以及西乌克兰和白西部地区",
+    "economicCost": "双方经济均遭受严重破坏，波兰获得更多工业资源",
+    "demographicImpact": "约100万人因战争改变国籍，大量难民流动"
+  },
+  "legacy": {
+    "significance": "确立了波兰独立地位，阻止了西欧革命蔓延，改变了东欧政治格局",
+    "immediateConsequences": "波兰获得大量领土，苏俄转向国内建设，国际联盟承认波兰边界",
+    "longTermImpact": {
+      "political": "波兰成为东欧强国，但与苏联关系恶化",
+      "military": "发展出独特的混合战争理论，骑兵与机械化部队结合",
+      "economic": "获得丰富资源但面临整合挑战",
+      "social": "民族主义高涨，少数民族问题加剧"
+    },
+    "culturalLegacy": {
+      "memorials": [
+        "华沙毕苏斯基广场“, ”战争博物馆"
+      ],
+      "observances": [
+        "独立日纪念活动"
+      ],
+      "media": [
+        "维斯瓦河奇迹电影“, ”战争文学作品"
+      ]
+    }
+  },
+  "tags": {
+    "warfareType": [
+      "常规战争“, ”运动战"
+    ],
+    "geopolitical": [
+      "东欧“, ”民族独立“, ”领土争端"
+    ],
+    "scale": "regional",
+    "cause": [
+      "民族主义“, ”领土争端“, ”意识形态冲突"
+    ]
+  },
+  "relatedWars": [
+    "第一次世界大战“,\n    ”俄国内战“,\n    ”苏芬战争“,\n    ”第二次世界大战"
+  ],
+  "sources": [
+    "Norman Davies, 'White Eagle, Red Star: The Polish-Soviet War, 1919-1921'",
+    "Richard M. Watt, 'Bitter Glory: Poland and Its Fate, 1918-1939'",
+    "Piotr Wandycz, 'The Lands of Partitioned Poland, 1795-1918'"
+  ],
+  "warProcess": {
+    "phases": [
+      {
+        "name": "战争进程",
+        "nameEn": "War Progress",
+        "startYear": 1919,
+        "endYear": 1921,
+        "summary": "波苏战争分为初期冲突、大规模战役和最终决战三个阶段，波兰军队从防御转向反攻，最终取得胜利",
+        "battles": [
+          {
+            "battleId": "vilna_offensive",
+            "name": "维尔纳攻势",
+            "nameEn": "Vilna Offensive",
+            "startYear": 1919,
+            "endYear": 1919,
+            "coords": [
+              25.28,
+              54.68
+            ],
+            "theater": "东部战线",
+            "context": "波兰独立后，苏俄红军与波兰军队在立陶宛-白俄罗斯地区争夺控制权",
+            "description": "1919年4月，波兰军队发动攻势，目标是夺取维尔纳（今维尔纽斯）。波军利用苏俄红军忙于内战的机会，迅速推进，4月21日占领维尔纳。这一行动使波兰获得了对立陶宛部分地区的主权要求，加剧了与立陶宛的紧张关系。",
+            "result": "波兰胜利，占领维尔纳",
+            "significance": "波兰获得战略要地，巩固了西部防线，但也导致与立陶宛关系恶化",
+            "casualties": {
+              "sideA": "约500人",
+              "sideB": "约2000人"
+            },
+            "forces": {
+              "sideA": "约8000人",
+              "sideB": "约12000人"
+            },
+            "commanders": [
+              {
+                "name": "爱德华·雷兹-希米格维",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "米哈伊尔·图哈切夫斯基",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_warsaw",
+            "name": "华沙战役",
+            "nameEn": "Battle of Warsaw",
+            "startYear": 1920,
+            "endYear": 1920,
+            "coords": [
+              21.01,
+              52.23
+            ],
+            "theater": "中部战线",
+            "context": "苏俄红军在东线取得胜利后，决定向波兰发动大规模进攻，目标是直捣华沙",
+            "description": "1920年8月，苏俄西南方面军和西方方面军共约12万人向华沙推进。波兰军队在约瑟夫·毕苏斯基指挥下，采用“华沙奇迹”战术，在维斯拉河一线设防，并从侧翼反击苏军。8月15日，波军发动反攻，苏军措手不及，陷入混乱并被迫撤退。",
+            "result": "波兰决定性胜利",
+            "significance": "扭转了整个战争局势，被称为“华沙奇迹”，阻止了苏俄向西欧革命的推进",
+            "casualties": {
+              "sideA": "约4500人",
+              "sideB": "约10000人"
+            },
+            "forces": {
+              "sideA": "约11万人",
+              "sideB": "约12万人"
+            },
+            "commanders": [
+              {
+                "name": "约瑟夫·毕苏斯基",
+                "role": "总司令",
+                "side": "sideA"
+              },
+              {
+                "name": "米哈伊尔·图哈切夫斯基",
+                "role": "总司令",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_narva",
+            "name": "纳尔瓦战役",
+            "nameEn": "Battle of Narva",
+            "startYear": 1919,
+            "endYear": 1919,
+            "coords": [
+              28.21,
+              59.37
+            ],
+            "theater": "北部战线",
+            "context": "爱沙尼亚独立战争期间，波兰军队与爱沙尼亚军队协同作战，对抗苏俄红军",
+            "description": "1919年6月，波兰-爱沙联军对驻守纳尔瓦地区的苏军发动进攻。波军由爱德华·雷兹-希米格维指挥，爱沙军队由约翰·拉伊多内指挥。联军成功突破苏军防线，占领纳尔瓦，迫使苏军撤退至拉多加湖一线。此役是波苏战争中北部战线的重要转折点。",
+            "result": "波兰-爱沙尼亚联军胜利",
+            "significance": "巩固了波兰北部边境，为后续进攻创造了条件",
+            "casualties": {
+              "sideA": "约300人",
+              "sideB": "约1500人"
+            },
+            "forces": {
+              "sideA": "约4000人",
+              "sideB": "约8000人"
+            },
+            "commanders": [
+              {
+                "name": "爱德华·雷兹-希米格维",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "帕维尔·巴甫洛夫",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_zelowa",
+            "name": "泽沃瓦战役",
+            "nameEn": "Battle of Zelowa",
+            "startYear": 1920,
+            "endYear": 1920,
+            "coords": [
+              23.02,
+              50.15
+            ],
+            "theater": "南部战线",
+            "context": "苏俄西南方面军在乌克兰地区取得胜利后，继续向波兰南部推进",
+            "description": "1920年7月，苏军第1骑兵集团军在谢苗·布琼尼指挥下向卢布林地区推进。波兰军队在斯坦尼斯瓦夫·马切耶夫斯基指挥下，在泽沃瓦地区组织防御。波军利用地形优势，构筑坚固防线，成功阻止了苏军的进一步推进，为华沙战役的胜利创造了条件。",
+            "result": "波兰胜利，阻止苏军推进",
+            "significance": "保卫了波兰南部边境，为华沙战役的胜利提供了战略支持",
+            "casualties": {
+              "sideA": "约800人",
+              "sideB": "约1200人"
+            },
+            "forces": {
+              "sideA": "约6000人",
+              "sideB": "约10000人"
+            },
+            "commanders": [
+              {
+                "name": "斯坦尼斯瓦夫·马切耶夫斯基",
+                "role": "指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "谢苗·布琼尼",
+                "role": "指挥官",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "majorBattles": []
+  },
+  "timeline": [
+    {
+      "year": 1918,
+      "event": "第一次世界大战结束",
+      "type": "crisis",
+      "description": "德国投降，奥匈帝国解体，波兰和乌克兰等国家宣布独立",
+      "impact": "为波兰和苏联之间的领土争端创造了条件，双方都声称拥有西乌克兰和白俄罗斯的控制权"
+    },
+    {
+      "year": 1918,
+      "event": "德国军队撤离波兰",
+      "type": "crisis",
+      "description": "德国军队从波兰领土撤离，留下权力真空",
+      "impact": "波兰开始组建自己的军队，同时苏联红军也开始向西推进，双方在边境地区发生小规模冲突"
+    },
+    {
+      "year": 1919,
+      "event": "波兰军队进攻立陶宛",
+      "type": "decision",
+      "description": "波兰军队占领维尔纽斯，立陶宛首都",
+      "impact": "加剧了波兰与立陶宛的紧张关系，同时也分散了波兰在东部边境对抗苏联的军事力量"
+    },
+    {
+      "year": 1919,
+      "event": "波兰与乌克兰签订军事同盟",
+      "type": "diplomacy",
+      "description": "波兰与乌克兰人民共和国签订军事同盟，共同对抗苏联",
+      "impact": "增强了波兰在东部边境的军事力量，但乌克兰很快被苏联红军击败，同盟瓦解"
+    },
+    {
+      "year": 1919,
+      "event": "波兰军队进攻明斯克",
+      "type": "decision",
+      "description": "波兰军队发动春季攻势，占领明斯克和白俄罗斯部分地区",
+      "impact": "标志着波苏战争正式爆发，双方开始大规模军事对抗，波兰暂时取得优势"
+    },
+    {
+      "year": 1921,
+      "event": "里加条约签署",
+      "type": "diplomacy",
+      "description": "「波苏战争」结束后，波兰与苏俄在里加签署和平条约，正式结束战争状态",
+      "impact": "波兰获得了西乌克兰和白俄罗斯的大部分领土，苏俄失去了这些地区，但保留了乌克兰和白俄罗斯东部，为后来的领土争端埋下伏笔"
+    },
+    {
+      "year": 1922,
+      "event": "苏联成立",
+      "type": "crisis",
+      "description": "苏俄与乌克兰、白俄罗斯和外高加索联邦签署条约，成立苏维埃社会主义共和国联盟（苏联）",
+      "impact": "苏联的成立改变了东欧地缘政治格局，使波兰与苏联的关系更加复杂，两国之间的紧张关系持续存在"
+    },
+    {
+      "year": 1926,
+      "event": "毕苏茨基政变",
+      "type": "leadership",
+      "description": "波兰约瑟夫·毕苏茨基发动五月政变，建立萨纳齐亚政权",
+      "impact": "波兰政治体制从民主制转向威权制，国内政治不稳定，对外政策更加亲西方，与苏联关系持续紧张"
+    },
+    {
+      "year": 1932,
+      "event": "波苏互不侵犯条约",
+      "type": "diplomacy",
+      "description": "波兰与苏联签署为期十年的互不侵犯条约",
+      "impact": "暂时缓和了波苏之间的紧张关系，但两国之间的互信基础薄弱，条约未能阻止后来的冲突"
+    },
+    {
+      "year": 1939,
+      "event": "苏德互不侵犯条约",
+      "type": "decision",
+      "description": "苏联与纳粹德国签署《苏德互不侵犯条约》，并附有秘密议定书划分势力范围",
+      "impact": "条约导致波兰被瓜分，苏联占领了根据里加条约划归波兰的西乌克兰和白俄罗斯地区，直接导致第二次世界大战爆发"
+    }
+  ]
+}
