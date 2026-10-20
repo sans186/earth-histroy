@@ -12,6 +12,13 @@
  *
  * Skips already-generated wars. Uses ZHIPU_API_KEY_2-5 concurrently.
  * All content in Chinese.
+ *
+ * @deprecated Superseded by generate-wars.mjs. Two reasons:
+ *   - it matches wars by their Chinese display name, so a renamed war is
+ *     regenerated and overwrites an existing profile;
+ *   - its phase 3 / phase 4 JSON extraction never parsed, so timelines and deep
+ *     analysis were silently never written (see war_issue.md).
+ *   Kept only as a reference for the 4-phase layout. Do not extend it.
  */
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'fs';
 import { resolve, dirname } from 'path';

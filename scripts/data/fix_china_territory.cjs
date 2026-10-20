@@ -11,7 +11,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const POLITIES_DIR = 'public/ne/polities';
+/** Override to patch an archive copy instead of the shipped directory. */
+const POLITIES_DIR = process.env.POLITIES_DIR || 'public/ne/polities';
 const TARGET_FILES = ['polities_1900_2000.json', 'polities_2000_2100.json'];
 const BACKUP_SUFFIX = '.backup_before_taiwan_fix';
 

@@ -11,8 +11,22 @@
 const fs = require('fs');
 const path = require('path');
 
-const INPUT = path.join(__dirname, '..', 'data', 'cliopatria_polities_only.json');
-const OUT_DIR = path.join(__dirname, '..', 'public', 'ne', 'polities');
+/**
+ * Two levels up: this script sits in scripts/data/, while the raw export lives
+ * in <repo>/data/. The single `..` here was left over from when the file lived
+ * directly in scripts/, and made the script un-runnable from its current home.
+ */
+const INPUT = path.join(__dirname, '..', '..', 'data', 'cliopatria_polities_only.json');
+/**
+ * Output directory.
+ *
+ * Nothing here is destructive — every file is written fresh — but the default
+ * target is the shipped directory, so rebuilding the *archive* copy means
+ * pointing OUT_DIR at `data/polities-original` rather than clearing public/.
+ */
+const OUT_DIR = path.resolve(
+  process.env.OUT_DIR || path.join(__dirname, '..', 'public', 'ne', 'polities'),
+);
 
 // ── Config ──
 const WINDOW = 100; // years per chunk (century)

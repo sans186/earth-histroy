@@ -3,6 +3,7 @@ node_modules/
 
 # Build output
 dist/
+dist__stale/
 
 # Vite
 .vite/
@@ -42,6 +43,11 @@ __pycache__/
 
 # Local-only files
 SERVER.md
+vite-dev.log
+vite-dev.err.log
+
+# Generation logs (scripts/generate/*)
+.wars-generation.log
 
 # Translation progress tracking
 translate_progress.txt
