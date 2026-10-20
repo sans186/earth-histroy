@@ -1,28 +1,33 @@
 {
   "name": "earth-historical-timeline",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "prebuild": "node scripts/data/validate-data.mjs --quiet",
     "preview": "vite preview",
-    "lint": "eslint src/",
-    "lint:fix": "eslint src/ --fix",
-    "format": "prettier --write \"src/**/*.{js,css}\" \"*.html\""
+    "typecheck": "vue-tsc --noEmit -p tsconfig.json",
+    "validate:data": "node scripts/data/validate-data.mjs",
+    "repair:data": "node scripts/data/repair-data.mjs",
+    "report:data": "node scripts/data/report-assets.mjs",
+    "audit:polities": "node scripts/data/analyze-polities.mjs",
+    "simplify:polities": "node scripts/data/simplify-polities.mjs"
   },
   "dependencies": {
     "@turf/turf": "^7.3.5",
     "cesium": "^1.123.0",
-    "maplibre-gl": "^5.24.0"
+    "maplibre-gl": "^5.24.0",
+    "pinia": "^2.2.6",
+    "vue": "^3.5.13"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "eslint": "^10.6.0",
-    "globals": "^17.7.0",
-    "prettier": "^3.9.1",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "^5.7.2",
     "vite": "^6.0.0",
     "vite-plugin-compression": "^0.5.1",
-    "vite-plugin-static-copy": "^2.2.0"
+    "vite-plugin-static-copy": "^2.2.0",
+    "vue-tsc": "^2.1.10"
   }
 }

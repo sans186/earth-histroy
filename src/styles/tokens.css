@@ -1,0 +1,103 @@
+/**
+ * Daylight design tokens.
+ *
+ * Direction: "日光图册" — an open printed atlas. Paper stock, hairline rules,
+ * serif display against sans body, a single ink accent per role.
+ *
+ * Every visual value lives here. Components never hard-code a colour, so
+ * re-skinning means editing this file only.
+ */
+
+:root,
+:root[data-theme='light'] {
+  /* ── surfaces ─────────────────────────────────────────────────---------- */
+  --paper: #f7f5f0;
+  --paper-2: #efece4;
+  --paper-3: #e6e2d7;
+  --card: #fdfcf9;
+  --veil: rgba(247, 245, 240, 0.88);
+
+  /* ── ink ──────────────────────────────────────────────────────────────── */
+  --ink: #1a1c20;
+  --ink-2: #4c4f56;
+  --ink-3: #8d8c86;
+  --ink-4: #b4b0a7;
+
+  /* ── rules ────────────────────────────────────────────────────────────── */
+  --rule: #e2ddd1;
+  --rule-2: #c9c2b3;
+  --rule-3: #a89f8d;
+
+  /* ── accents ──────────────────────────────────────────────────────────── */
+  --indigo: #26406b;
+  --indigo-soft: rgba(38, 64, 107, 0.1);
+  --rust: #b0522d;
+  --rust-soft: rgba(176, 82, 45, 0.1);
+  --olive: #7d8a6a;
+  --ochre: #9a7434;
+  --teal: #3f6a78;
+  --violet: #8a6fa8;
+
+  /* role assignment — swap these to re-accent the whole app */
+  --accent: var(--rust);
+  --accent-soft: var(--rust-soft);
+  --accent-ink: #fdfcf9;
+
+  /* ── event categories ─────────────────────────────────────────────────── */
+  --cat-political: #26406b;
+  --cat-military: #b0522d;
+  --cat-economic: #5f8a63;
+  --cat-cultural: #9a7434;
+  --cat-technological: #4a7d8c;
+  --cat-exploration: #8a6fa8;
+
+  /* ── globe (shared with the Cesium canvas) ────────────────────────────── */
+  --globe-land: #9aa78f;
+  --globe-grid: #9a917f;
+  --globe-marker-ring: #fdfcf9;
+  --globe-boundary: #b0522d;
+  --globe-border: #8d8c86;
+
+  /* imagery tuning so the standard basemap reads as printed paper */
+  --imagery-brightness: 1.06;
+  --imagery-saturation: 0.34;
+  --imagery-contrast: 0.94;
+  --imagery-gamma: 1.02;
+
+  /* ── type ─────────────────────────────────────────────────────────────── */
+  --font-display: 'Fraunces', 'Noto Serif SC', Georgia, 'Songti SC', serif;
+  --font-sans: 'Inter', 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Consolas, monospace;
+
+  --fs-display: 40px;
+  --fs-h1: 22px;
+  --fs-h2: 18px;
+  --fs-h3: 14.5px;
+  --fs-body: 13px;
+  --fs-sm: 12px;
+  --fs-label: 9.5px;
+
+  --track-label: 0.2em;
+
+  /* ── space ────────────────────────────────────────────────────────────── */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 22px;
+  --sp-6: 30px;
+  --sp-7: 44px;
+
+  /* ── geometry ─────────────────────────────────────────────────────────── */
+  --radius: 0px;
+  --radius-pill: 999px;
+
+  --shadow-1: 0 10px 24px rgba(70, 58, 40, 0.1);
+  --shadow-2: 0 22px 48px rgba(70, 58, 40, 0.16);
+
+  /* ── layout ───────────────────────────────────────────────────────────── */
+  --head-h: 46px;
+  --foot-h: 78px;
+  --ease: cubic-bezier(0.2, 0.7, 0.3, 1);
+  --dur: 180ms;
+}

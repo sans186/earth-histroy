@@ -1,468 +1,138 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Earth Historical Timeline</title>
+  <title>寰宇纪年 · 全球历史时空可视化平台</title>
+  <meta name="description" content="在三维地球上穿越人类文明史，横向对比不同文明在同一时刻的处境。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
   <style>
-    /* ═══════════════════════════════════════════
-       CSS Custom Properties (theme variables)
-       Default: blue-purple theme
-       ═══════════════════════════════════════════ */
-    :root {
-      --bg-primary: #0a0a0a;
-      --bg-secondary: #1a1a2e;
-      --bg-tertiary: #0f0f1a;
-      --bg-panel: rgba(10,10,26,0.88);
-      --bg-panel-solid: rgba(10,10,26,0.92);
-      --bg-card-start: #1a1a2e;
-      --bg-card-end: #16213e;
-      --bg-card-solid: #16213e;
-      --bg-input: #1a1a3e;
-      --bg-overlay: rgba(5,5,15,0.92);
-      --bg-timeline-start: #1a1a2e;
-      --bg-timeline-end: #0f0f1a;
-      --border-primary: #2a2a4a;
-      --border-secondary: #3a3a5a;
-      --border-accent: #4a60af;
-      --border-accent-hover: #6a80cf;
-      --border-input: #4a4a7a;
-      --text-primary: #e0e0e0;
-      --text-secondary: #cccccc;
-      --text-muted: #999999;
-      --text-dim: #888888;
-      --text-faint: #777777;
-      --text-very-faint: #666666;
-      --text-link: #8ab4f8;
-      --text-white: #ffffff;
-      --accent-gold: #ffd700;
-      --accent-gold-glow: rgba(255,215,0,0.5);
-      --accent-blue: #4a60af;
-      --accent-blue-hover: #5a70bf;
-      --accent-blue-bg: rgba(74,96,175,0.12);
-      --accent-green: #2c6e49;
-      --accent-green-border: #40916c;
-      --accent-red: #c0392b;
-      --accent-red-border: #e74c3c;
-      --btn-bg: #2a2a4a;
-      --btn-border: #4a4a7a;
-      --btn-hover: #3a3a5a;
-      --btn-text: #cccccc;
-      --card-glow: rgba(74,96,175,0.3);
-      --card-shadow: rgba(0,0,0,0.8);
-      --scrollbar-thumb: #4a4a7a;
-      --globe-ocean: #1a6080;
-      --filter-dot-border: #555555;
-      --track-glow: rgba(74,96,175,0.3);
-      --divider: #2a2a4a;
+    /* Boot guard styling. Inline on purpose: it must render even if the
+       stylesheet pipeline is what failed. */
+    #boot-guard {
+      position: fixed;
+      inset: 0;
+      display: grid;
+      place-content: center;
+      gap: 14px;
+      text-align: center;
+      background: #f7f5f0;
+      color: #1a1c20;
+      font-family: 'Inter', 'Noto Sans SC', system-ui, sans-serif;
+      padding: 32px;
     }
-
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    html, body { width: 100%; height: 100%; overflow: hidden; font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif; background: var(--bg-primary); }
-
-    #cesiumContainer { width: 100%; height: calc(100% - 200px); }
-
-    #map-2d-container {
-      position: fixed; top: 0; left: 0; width: 100%;
-      height: calc(100% - 200px); display: none; z-index: 2;
+    #boot-guard[hidden] {
+      display: none;
     }
-    #map-2d-container .maplibregl-ctrl-attrib { font-size: 10px; background: rgba(0,0,0,0.5); color: var(--text-dim); }
-    #map-2d-container .maplibregl-ctrl-attrib a { color: var(--text-link); }
-    .maplibregl-popup-content {
-      background: var(--bg-panel-solid) !important; color: #ddd !important;
-      border: 1px solid var(--border-accent) !important; border-radius: 8px !important;
-      padding: 10px 14px !important; font: 13px 'Microsoft YaHei',sans-serif !important;
+    #boot-guard .mark {
+      width: 34px;
+      height: 2px;
+      background: #b0522d;
+      margin: 0 auto;
     }
-    .maplibregl-popup-tip { border-top-color: var(--bg-panel-solid) !important; }
-
-    /* ── Timeline Panel ── */
-    #timeline-panel {
-      width: 100%; height: 200px;
-      background: linear-gradient(180deg, var(--bg-timeline-start) 0%, var(--bg-timeline-end) 100%);
-      border-top: 2px solid var(--border-primary);
-      display: flex; flex-direction: column;
-      align-items: center; justify-content: center;
-      padding: 0 30px;
+    #boot-guard h1 {
+      font-family: 'Fraunces', 'Noto Serif SC', Georgia, serif;
+      font-size: 20px;
+      font-weight: 600;
+      margin: 0;
     }
-    #year-display {
-      color: var(--accent-gold); font-size: 44px; font-weight: bold;
-      letter-spacing: 3px;
-      text-shadow: 0 0 20px var(--accent-gold-glow);
-      user-select: none; font-family: 'Georgia', 'Microsoft YaHei', serif;
+    #boot-guard p {
+      margin: 0;
+      font-size: 13px;
+      line-height: 1.8;
+      color: #4c4f56;
+      max-width: 520px;
     }
-    #era-display {
-      display: flex; align-items: center; gap: 10px; margin-bottom: 2px;
+    #boot-guard code {
+      font-family: 'IBM Plex Mono', ui-monospace, monospace;
+      font-size: 12px;
+      color: #b0522d;
+      word-break: break-all;
     }
-    #era-name {
-      color: var(--text-white); font-size: 15px; font-weight: 600; letter-spacing: 1px;
-      padding: 2px 12px; border-radius: 10px; user-select: none;
+    #boot-guard button {
+      justify-self: center;
+      border: 1px solid #c9c2b3;
+      background: transparent;
+      padding: 7px 18px;
+      font: inherit;
+      font-size: 13px;
+      cursor: pointer;
     }
-    #era-range {
-      color: var(--text-muted); font-size: 12px; user-select: none;
-    }
-    #event-count {
-      color: var(--text-faint); font-size: 12px; margin-bottom: 6px; user-select: none;
-    }
-    #timeline-controls {
-      display: flex; align-items: center; gap: 10px; width: 100%; max-width: 900px;
-    }
-    #timeline-controls .tl-range-label {
-      color: var(--text-dim); font-size: 11px; white-space: nowrap; user-select: none;
-    }
-
-    /* ── Era Quick-Nav Bar ── */
-    #era-bar {
-      display: flex; gap: 4px; width: 100%; max-width: 900px;
-      margin-top: 6px; flex-wrap: nowrap; overflow-x: auto;
-      scrollbar-width: none; justify-content: center;
-    }
-    #era-bar::-webkit-scrollbar { display: none; }
-    .era-chip {
-      background: var(--bg-input); border: 1px solid var(--border-secondary); color: var(--text-muted);
-      padding: 3px 10px; border-radius: 12px; cursor: pointer;
-      font-size: 11px; transition: all 0.2s; white-space: nowrap;
-      flex-shrink: 0; user-select: none;
-    }
-    .era-chip:hover { background: var(--btn-hover); color: #ddd; }
-    .era-chip.active {
-      color: var(--text-white); border-color: currentColor;
-      box-shadow: 0 0 8px rgba(255,215,0,0.3);
-    }
-    #timeline-controls .timeline-btn {
-      background: var(--btn-bg); border: 1px solid var(--btn-border); color: var(--btn-text);
-      padding: 5px 12px; border-radius: 5px; cursor: pointer; font-size: 14px;
-      transition: all 0.2s;
-    }
-    #timeline-controls .timeline-btn:hover { background: var(--btn-hover); color: var(--text-white); }
-    #timeline-controls .timeline-btn.playing { background: var(--accent-red); border-color: var(--accent-red-border); color: var(--text-white); }
-
-    /* ── Step Selector ── */
-    #step-selector {
-      display: flex; background: var(--bg-input); border: 1px solid var(--btn-border); border-radius: 5px; overflow: hidden;
-    }
-    #step-selector .step-opt {
-      background: transparent; border: none; border-right: 1px solid var(--btn-border);
-      color: var(--text-dim); padding: 5px 10px; cursor: pointer; font-size: 12px;
-      transition: all 0.2s;
-    }
-    #step-selector .step-opt:last-child { border-right: none; }
-    #step-selector .step-opt.active { background: var(--accent-blue); color: var(--text-white); }
-    #step-selector .step-opt:hover:not(.active) { background: var(--btn-hover); color: var(--btn-text); }
-    #step-label { color: var(--text-dim); font-size: 11px; margin-right: 4px; user-select: none; }
-    #timeline-slider {
-      flex: 1; -webkit-appearance: none; appearance: none;
-      height: 8px; border-radius: 4px;
-      background: linear-gradient(to right, #2a1a4a 0%, #4a3060 30%, #6a5080 50%, #5a4070 70%, #3a2050 100%);
-      outline: none; cursor: pointer;
-    }
-    #timeline-slider::-webkit-slider-thumb {
-      -webkit-appearance: none; appearance: none;
-      width: 24px; height: 24px; border-radius: 50%;
-      background: var(--accent-gold); border: 2px solid var(--text-white);
-      box-shadow: 0 0 14px rgba(255,215,0,0.7); cursor: pointer;
-    }
-
-    /* ── Event Card Popup ── */
-    #event-card {
-      position: fixed; top: 50%; right: 20px; transform: translateY(-50%);
-      background: linear-gradient(145deg, var(--bg-card-start) 0%, var(--bg-card-end) 100%);
-      border: 1px solid var(--border-accent); border-radius: 14px;
-      z-index: 1000; width: 420px; max-width: 90vw;
-      box-shadow: 0 12px 50px var(--card-shadow), 0 0 40px var(--card-glow);
-      display: none; color: var(--text-primary); overflow: hidden;
-    }
-    #event-card.visible { display: block; animation: cardFadeIn 0.25s ease-out; }
-    @keyframes cardFadeIn { from { opacity: 0; transform: translateY(-50%) translateX(20px); } to { opacity: 1; transform: translateY(-50%) translateX(0); } }
-    #event-card .card-header {
-      padding: 16px 20px 12px;
-      border-bottom: 1px solid var(--divider);
-      display: flex; justify-content: space-between; align-items: flex-start;
-    }
-    #event-card .card-header h3 { color: var(--accent-gold); font-size: 19px; margin: 0; padding-right: 20px; }
-    #event-card .card-header .close-btn {
-      background: none; border: none; color: var(--text-faint); font-size: 18px;
-      cursor: pointer; padding: 0; line-height: 1;
-    }
-    #event-card .card-header .close-btn:hover { color: var(--text-white); }
-    #event-card .card-body { padding: 12px 20px 18px; max-height: 55vh; overflow-y: auto; }
-    #event-card .card-body::-webkit-scrollbar { width: 4px; }
-    #event-card .card-body::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 2px; }
-    #event-card .event-meta { display: flex; gap: 12px; margin-bottom: 10px; align-items: center; }
-    #event-card .event-year-badge {
-      color: var(--text-link); font-size: 14px; font-weight: bold;
-      background: var(--accent-blue-bg); padding: 2px 10px; border-radius: 10px;
-    }
-    #event-card .event-category {
-      font-size: 12px; padding: 2px 10px; border-radius: 10px;
-    }
-    #event-card .event-desc { font-size: 14px; line-height: 1.7; color: #bbb; margin-bottom: 10px; }
-    #event-card .event-source { font-size: 12px; color: var(--text-very-faint); }
-    #event-card .event-source a { color: var(--text-link); text-decoration: none; }
-    #event-card .event-source a:hover { text-decoration: underline; }
-
-    /* ── Globe Year Label ── */
-    #globe-year-label {
-      position: fixed; right: 20px; bottom: 200px;
-      color: rgba(255,255,255,0.25); font-size: 72px; font-weight: bold;
-      z-index: 5; pointer-events: none; font-family: 'Georgia', serif;
-      text-shadow: 0 0 30px rgba(255,215,0,0.12);
-    }
-
-    /* ── Loading / Error Overlay ── */
-    #loading-overlay, #error-overlay {
-      position: fixed; inset: 0; z-index: 9999;
-      display: flex; align-items: center; justify-content: center;
-      background: var(--bg-overlay);
-    }
-    #loading-overlay { display: flex; }
-    #error-overlay { display: none; }
-    .loader {
-      width: 48px; height: 48px; border-radius: 50%;
-      border: 3px solid rgba(255,215,0,0.2);
-      border-top-color: var(--accent-gold);
-      animation: spin 0.8s linear infinite;
-    }
-    @keyframes spin { to { transform: rotate(360deg); } }
-    .loading-text { color: var(--text-dim); font-size: 14px; margin-top: 16px; text-align: center; }
-    #error-msg {
-      color: var(--accent-red-border); font-size: 16px; text-align: center; max-width: 400px; margin-bottom: 16px;
-    }
-    #retry-btn {
-      background: var(--accent-blue); border: none; color: var(--text-white); padding: 10px 28px;
-      border-radius: 6px; cursor: pointer; font-size: 14px;
-    }
-    #retry-btn:hover { background: var(--accent-blue-hover); }
-
-    @media (max-width: 768px) {
-      #filter-bar { gap: 8px; padding: 6px 14px; }
-      #filter-bar .filter-item { font-size: 11px; }
-      #timeline-panel { height: 160px; padding: 0 15px; }
-      #year-display { font-size: 32px; }
-      #event-card { width: 300px; }
-      #evt-panel.open { width: 240px; }
-    }
-
-    /* ═══════════════════════════════════════════
-       Dual Time Comparison Mode
-       ═══════════════════════════════════════════ */
-    #toggle-compare-btn {
-      position: fixed; top: 6px; right: 48px; z-index: 100;
-      background: var(--btn-bg); border: 1px solid var(--btn-border);
-      color: var(--btn-text); padding: 6px 12px; border-radius: 6px;
-      cursor: pointer; font-size: 12px; transition: all 0.2s;
-      user-select: none;
-    }
-    #toggle-compare-btn:hover { background: var(--btn-hover); color: var(--text-white); }
-    #toggle-compare-btn.active {
-      background: var(--accent-blue); border-color: var(--border-accent); color: var(--text-white);
-    }
-
-    #cesiumContainerRight { display: none; }
-    #globe-year-label-right { display: none; }
-
-    /* Left timeline wrapper – fills panel in both single and dual mode */
-    #timeline-left {
-      display: flex; flex-direction: column; align-items: center; justify-content: center;
-      width: 100%; height: 100%;
-    }
-
-    body.dual-mode #cesiumContainer {
-      position: fixed; top: 0; left: 0; width: 50%; height: calc(100% - 200px);
-    }
-    body.dual-mode #cesiumContainerRight {
-      display: block; position: fixed; top: 0; right: 0; width: 50%; height: calc(100% - 200px);
-    }
-    body.dual-mode #globe-year-label {
-      right: calc(50% + 20px); bottom: 200px; font-size: 48px;
-    }
-    body.dual-mode #globe-year-label-right {
-      display: block; position: fixed; left: auto; right: 20px; bottom: 200px;
-      color: rgba(255,255,255,0.25); font-size: 48px; font-weight: bold;
-      z-index: 5; pointer-events: none; font-family: 'Georgia', serif;
-      text-shadow: 0 0 30px rgba(255,215,0,0.12);
-    }
-    body.dual-mode #map-2d-container { width: 50%; }
-
-    /* Split divider */
-    body.dual-mode::after {
-      content: ''; position: fixed; top: 0; left: 50%; width: 2px; height: calc(100% - 200px);
-      background: var(--border-accent); z-index: 10; pointer-events: none;
-      box-shadow: 0 0 8px var(--card-glow);
-    }
-
-    /* Dual timeline layout */
-    #timeline-right { display: none; }
-    body.dual-mode #timeline-panel {
-      flex-direction: row; justify-content: center; gap: 0;
-      padding: 0 10px;
-    }
-    body.dual-mode #timeline-left,
-    body.dual-mode #timeline-right {
-      flex: 1; display: flex; flex-direction: column; align-items: center;
-      justify-content: center; padding: 0 20px;
-    }
-    body.dual-mode #timeline-right { display: flex; }
-    body.dual-mode #timeline-left {
-      border-right: 1px solid var(--divider);
-      width: auto; /* override base width: 100% for flex row */
-    }
-    body.dual-mode #timeline-divider {
-      width: 2px; background: var(--border-accent); align-self: stretch;
-    }
-    body.dual-mode #year-display { font-size: 32px; }
-    body.dual-mode .dual-year-display {
-      color: var(--accent-gold); font-size: 32px; font-weight: bold;
-      letter-spacing: 3px;
-      text-shadow: 0 0 20px var(--accent-gold-glow);
-      user-select: none; font-family: 'Georgia', 'Microsoft YaHei', serif;
-    }
-    body.dual-mode .dual-era-name {
-      color: var(--text-white); font-size: 13px; font-weight: 600; letter-spacing: 1px;
-      padding: 2px 12px; border-radius: 10px; user-select: none;
-    }
-    body.dual-mode .dual-era-range {
-      color: var(--text-muted); font-size: 11px; user-select: none;
-    }
-    body.dual-mode .dual-event-count {
-      color: var(--text-faint); font-size: 11px; margin-bottom: 4px; user-select: none;
-    }
-    body.dual-mode .dual-timeline-controls {
-      display: flex; align-items: center; gap: 8px; width: 100%; max-width: 440px;
-    }
-    body.dual-mode .dual-timeline-controls .timeline-btn {
-      background: var(--btn-bg); border: 1px solid var(--btn-border); color: var(--btn-text);
-      padding: 4px 10px; border-radius: 5px; cursor: pointer; font-size: 13px;
-      transition: all 0.2s;
-    }
-    body.dual-mode .dual-timeline-controls .timeline-btn:hover { background: var(--btn-hover); color: var(--text-white); }
-    body.dual-mode .dual-timeline-controls .timeline-btn.playing { background: var(--accent-red); border-color: var(--accent-red-border); color: var(--text-white); }
-    body.dual-mode .dual-timeline-slider {
-      flex: 1; -webkit-appearance: none; appearance: none;
-      height: 6px; border-radius: 3px;
-      background: linear-gradient(to right, #2a1a4a 0%, #4a3060 30%, #6a5080 50%, #5a4070 70%, #3a2050 100%);
-      outline: none; cursor: pointer;
-    }
-    body.dual-mode .dual-timeline-slider::-webkit-slider-thumb {
-      -webkit-appearance: none; appearance: none;
-      width: 20px; height: 20px; border-radius: 50%;
-      background: var(--accent-gold); border: 2px solid var(--text-white);
-      box-shadow: 0 0 12px rgba(255,215,0,0.7); cursor: pointer;
-    }
-    body.dual-mode #era-bar,
-    body.dual-mode #step-selector,
-    body.dual-mode #step-label { display: none; }
-    body.dual-mode #timeline-controls {
-      gap: 6px; max-width: 420px;
-    }
-    body.dual-mode #timeline-controls .timeline-btn {
-      padding: 4px 8px; font-size: 12px;
-    }
-    body.dual-mode #timeline-controls .tl-range-label {
-      font-size: 9px;
-    }
-    body.dual-mode #timeline-slider {
-      height: 6px;
-    }
-    body.dual-mode #timeline-slider::-webkit-slider-thumb {
-      width: 18px; height: 18px;
-    }
-    body.dual-mode #era-display {
-      margin-bottom: 2px;
-    }
-    body.dual-mode #event-count {
-      font-size: 10px; margin-bottom: 2px;
-    }
-    body.dual-mode #era-range {
-      font-size: 10px;
-    }
-    body.dual-mode #era-name {
-      font-size: 12px; padding: 1px 8px;
+    #boot-guard button:hover {
+      border-color: #a89f8d;
     }
   </style>
 </head>
 <body>
+  <div id="app"></div>
 
-  <!-- Loading overlay -->
-  <div id="loading-overlay">
-    <div style="text-align:center;">
-      <div class="loader"></div>
-      <div class="loading-text" id="loading-text">加载历史数据中...</div>
-    </div>
+  <!--
+    Boot guard.
+    A module that fails to parse or evaluate leaves #app empty and the screen
+    completely blank, with the reason buried in the console. This turns that
+    silence into an explainable message instead.
+  -->
+  <div id="boot-guard" hidden>
+    <div class="mark"></div>
+    <h1>页面未能启动</h1>
+    <p id="boot-guard-msg">正在初始化…</p>
+    <p><code id="boot-guard-detail"></code></p>
+    <button type="button" onclick="location.reload()">重新加载</button>
   </div>
 
-  <!-- Error overlay -->
-  <div id="error-overlay">
-    <div style="text-align:center;">
-      <div id="error-msg">加载失败，请检查网络连接后重试。</div>
-      <button id="retry-btn">重试</button>
-    </div>
-  </div>
+  <script>
+    (function () {
+      var firstError = '';
 
-  <div id="cesiumContainer"></div>
-  <div id="cesiumContainerRight"></div>
-  <div id="map-2d-container"></div>
-  <div id="globe-year-label"></div>
-  <div id="globe-year-label-right"></div>
+      window.addEventListener('error', function (event) {
+        if (firstError) return;
+        firstError =
+          (event && (event.message || (event.error && event.error.message))) || 'Script error';
+      });
 
-  <button id="toggle-compare-btn" title="双时间对比模式">◫ 对比</button>
-  <div id="timeline-panel">
-    <!-- Single mode (default) -->
-    <div id="timeline-left">
-      <div id="year-display">2025 AD</div>
-      <div id="era-display">
-        <span id="era-name">当代</span>
-        <span id="era-range">1949 — 2025</span>
-      </div>
-      <div id="event-count"></div>
-      <div id="timeline-controls">
-        <button class="timeline-btn" id="btn-step-back" title="后退">◀</button>
-        <button class="timeline-btn" id="btn-play" title="播放/暂停">▶</button>
-        <button class="timeline-btn" id="btn-step-fwd" title="前进">▶</button>
-        <span id="step-label">步长</span>
-        <span id="step-selector">
-          <button class="step-opt" data-step="1">1</button>
-          <button class="step-opt" data-step="5">5</button>
-          <button class="step-opt" data-step="10">10</button>
-        </span>
-        <input type="range" id="timeline-slider" min="0" max="10000" value="10000" step="1">
-        <span class="tl-range-label">3100 BC</span>
-        <span class="tl-range-label">2025 AD</span>
-      </div>
-      <div id="era-bar"></div>
-    </div>
-    <!-- Right side (dual mode) -->
-    <div id="timeline-right">
-      <span class="dual-year-display" id="year-display-right">2025 AD</span>
-      <div>
-        <span class="dual-era-name" id="era-name-right">当代</span>
-        <span class="dual-era-range" id="era-range-right"></span>
-      </div>
-      <div class="dual-event-count" id="event-count-right"></div>
-      <div class="dual-timeline-controls" id="timeline-controls-right">
-        <button class="timeline-btn" id="btn-step-back-right" title="后退">◀</button>
-        <button class="timeline-btn" id="btn-play-right" title="播放/暂停">▶</button>
-        <button class="timeline-btn" id="btn-step-fwd-right" title="前进">▶</button>
-        <input type="range" class="dual-timeline-slider" id="timeline-slider-right" min="0" max="10000" value="10000" step="1">
-        <span class="tl-range-label" style="font-size:10px;color:var(--text-dim);">3100 BC</span>
-        <span class="tl-range-label" style="font-size:10px;color:var(--text-dim);">2025 AD</span>
-      </div>
-    </div>
-  </div>
-  <div id="event-card">
-    <div class="card-header">
-      <h3 id="event-title"></h3>
-      <button class="close-btn" id="card-close-btn">✕</button>
-    </div>
-    <div class="card-body">
-      <div class="event-meta">
-        <span class="event-year-badge" id="event-year"></span>
-        <span class="event-category" id="event-category"></span>
-      </div>
-      <div class="event-desc" id="event-desc"></div>
-      <div class="event-source" id="event-source"></div>
-    </div>
-  </div>
+      window.addEventListener('unhandledrejection', function (event) {
+        if (firstError) return;
+        var reason = event && event.reason;
+        firstError = String((reason && (reason.message || reason)) || 'Unhandled rejection');
+      });
 
-  <script type="module" src="/src/main.js"></script>
+      function reveal(msg, detail) {
+        var guard = document.getElementById('boot-guard');
+        if (!guard) return;
+        var text = document.getElementById('boot-guard-msg');
+        var extra = document.getElementById('boot-guard-detail');
+        if (text && msg) text.textContent = msg;
+        if (extra) extra.textContent = detail || '';
+        guard.hidden = false;
+      }
+
+      var started = Date.now();
+      var poll = window.setInterval(function () {
+        var app = document.getElementById('app');
+        if (app && app.children.length > 0) {
+          window.clearInterval(poll);
+          var guard = document.getElementById('boot-guard');
+          if (guard) guard.hidden = true;
+          return;
+        }
+        if (Date.now() - started < 10000) return;
+
+        window.clearInterval(poll);
+        reveal(
+          firstError
+            ? '应用启动时抛出异常，界面未能挂载。'
+            : '应用未能在 10 秒内启动。',
+          firstError || '请查看浏览器控制台（F12）与开发服务器输出以定位原因。',
+        );
+      }, 400);
+    })();
+  </script>
+
+  <script type="module" src="/src/main.ts"></script>
 </body>
 </html>
