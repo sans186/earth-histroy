@@ -180,6 +180,42 @@
       "certainty": "confirmed",
       "certainty_note": "该事件在历史记录中有充分记载。",
       "cross_references": []
+    },
+    {
+      "id": "1892-010",
+      "title": "中日韩半岛紧张局势升级",
+      "region": "东亚（朝鲜、中国、日本）",
+      "coordinates_approx": "37.0, 128.0",
+      "category": "political",
+      "description": "1892年，中国与日本在朝鲜控制权上的紧张局势持续升级。两国都寻求扩大在朝鲜的影响力，朝鲜名义上独立，但越来越受到外国压力。这些紧张局势反映了日本日益增长的帝国主义野心和中国在东亚传统势力范围内维持能力下降。不断升级的紧张局势最终导致1894年爆发的第一次中日战争。对朝鲜的冲突将成为几十年东亚地缘政治的反复主题。",
+      "key_figures": [
+        "日本明治天皇（君主）",
+        "中国光绪皇帝（君主）",
+        "朝鲜高宗（名义君主，受外国压力）"
+      ],
+      "sources": [
+        {
+          "name": "日本和中国政府记录及外交通信",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "韩国政府记录及通信",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "当代报纸报道",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "1892年紧张局势升级在外交记录中有记载，但该年度事件的确切时间线不如1894年战争爆发时记录得精确。",
+      "cross_references": [
+        "Related to 1893-005 (tensions escalate further)",
+        "Leads to 1894-001 (First Sino-Japanese War)"
+      ]
     }
   ],
   "disconfirming_evidence": "以上事件基于广泛接受的历史记载。部分事件的精确日期和细节在学术研究中存在合理争议。",

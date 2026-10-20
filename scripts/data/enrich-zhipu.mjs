@@ -544,11 +544,119 @@ async function people(limitCount) {
   console.log(`people: created ${num(created)} profiles`);
 }
 
+/* ── task: translate english-only events ────────────────────────────────── */
+
+/**
+ * Fills the Chinese tree for entries that only exist in English.
+ *
+ * Translation is a rewrite, not a factual claim: the source text already
+ * exists and the job is to carry it across, so the hallucination risk that
+ * made the bibliography task unusable does not apply here. Structure is copied
+ * verbatim and validated against the source, so a bad answer is rejected
+ * rather than written.
+ */
+function validateTranslation(raw, source) {
+  if (!raw || typeof raw !== 'object') throw new Error('not an object');
+  if (String(raw.id) !== String(source.id)) throw new Error('id mismatch');
+  if (!raw.title || !raw.description) throw new Error('missing title/description');
+  if (String(raw.description).length < 60) throw new Error('description too short');
+  if (!Array.isArray(raw.sources) || raw.sources.length !== (source.sources ?? []).length) {
+    throw new Error('source count mismatch');
+  }
+
+  return {
+    id: source.id,
+    title: String(raw.title).trim(),
+    region: String(raw.region ?? source.region ?? '').trim(),
+    coordinates_approx: source.coordinates_approx ?? null,
+    category: source.category,
+    description: String(raw.description).trim(),
+    key_figures: (Array.isArray(raw.key_figures) ? raw.key_figures : [])
+      .map((v) => String(v).trim())
+      .filter(Boolean),
+    sources: (source.sources ?? []).map((src, i) => ({
+      name: String(raw.sources[i]?.name ?? '').trim(),
+      type: src.type,
+      contemporary: src.contemporary,
+    })),
+    certainty: source.certainty,
+    certainty_note: String(raw.certainty_note ?? '').trim(),
+    cross_references: Array.isArray(source.cross_references)
+      ? source.cross_references
+      : [],
+  };
+}
+
+async function translateEvents() {
+  const zhDir = P('public/events');
+  const enDir = P('public/en-events');
+  const docs = new Map();
+  const todo = [];
+
+  for (const file of readdirSync(enDir).filter((f) => f.endsWith('.json'))) {
+    const zhDoc = readDoc(join(zhDir, file));
+    const enDoc = readDoc(join(enDir, file));
+    if (!zhDoc || !enDoc) continue;
+    const zhIds = new Set((zhDoc.data.events ?? []).map((e) => String(e.id)));
+    for (const ev of enDoc.data.events ?? []) {
+      if (!zhIds.has(String(ev.id))) todo.push({ file, ev });
+    }
+    docs.set(file, zhDoc);
+  }
+
+  const batch = todo.slice(0, limit);
+  console.log(`translate: ${num(todo.length)} english-only entries, handling ${num(batch.length)}`);
+
+  const touched = new Set();
+  let written = 0;
+
+  await pool(batch, async ({ file, ev }) => {
+    const prompt = [
+      '你是历史编辑。把下面这条英文历史事件条目翻译成简体中文，信息不得增删。',
+      '硬性要求：',
+      '- 只翻译文字内容；id、coordinates_approx、category、sources[].type、sources[].contemporary 原样保留',
+      '- title 为简洁中文标题（30 字以内）',
+      '- description 为通顺的 200-400 字中文，保留年份、地名、人名与因果链',
+      '- key_figures 每项形如「人名（身份，时间）」，括号内说明一并译出',
+      '- sources[].name 全部译为中文；人名用通行译名，机构名用通用译名，年份保留数字',
+      '- certainty_note 若有内容则译为中文，没有就留空字符串',
+      '只输出 JSON 对象，不要解释。',
+      '',
+      JSON.stringify(ev),
+    ].join('\n');
+
+    try {
+      const reply = await chat([{ role: 'user', content: prompt }], { temperature: 0.15 });
+      const zh = validateTranslation(parseJson(reply), ev);
+      if (dryRun) {
+        console.log(`  ~ ${file} ${zh.id} ${zh.title}`);
+        return;
+      }
+      docs.get(file).data.events.push(zh);
+      touched.add(file);
+      written += 1;
+      console.log(`  + ${file} ${zh.id} ${zh.title}`);
+    } catch (err) {
+      console.warn(`  ! ${file} ${ev.id}: ${err.message}`);
+    }
+  });
+
+  if (!dryRun) {
+    for (const file of touched) {
+      const doc = docs.get(file);
+      doc.data.events.sort((a, b) => String(a.id).localeCompare(String(b.id)));
+      writeDoc(doc);
+    }
+  }
+  console.log(`translate: wrote ${num(written)}`);
+}
+
 /* ── entry ──────────────────────────────────────────────────────────────── */
 
 const tasks = {
   'battle-coords': battleCoords,
   'event-coords': eventCoords,
+  'translate-events': translateEvents,
   people: () => people(Number.isFinite(limit) ? limit : 12),
 };
 
