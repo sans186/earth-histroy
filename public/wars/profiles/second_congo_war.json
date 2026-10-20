@@ -1,0 +1,764 @@
+{
+  "warId": "second_congo_war",
+  "name": "第二次刚果战争",
+  "nameEn": "Second Congo War",
+  "alternativeNames": [
+    "非洲世界大战"
+  ],
+  "startYear": 1998,
+  "endYear": 2003,
+  "type": "major",
+  "category": "内战/代理人战争",
+  "theaters": [
+    "刚果民主共和国"
+  ],
+  "summary": "非洲历史上最致命的冲突之一，涉及九个国家及二十多个武装团体。",
+  "background": {
+    "causes": "卢旺达种族屠杀后的难民危机，刚果内部权力斗争，以及地区资源争夺",
+    "immediateCause": "1998年8月刚果政府军入侵东部地区，驱逐卢旺达支持的叛军",
+    "preWarSituation": "刚果民主共和国刚结束第一次刚果战争，蒙博托政权崩溃，卡比拉上台，但国内局势不稳",
+    "objectivesA": "刚果政府军维护国家统一，驱逐外国势力",
+    "objectivesB": "卢旺达和乌干达推翻卡比拉政权，保护边境安全，获取资源",
+    "precedingConflicts": [
+      "第一次刚果战争",
+      "卢旺达内战",
+      "布隆迪内战"
+    ]
+  },
+  "belligerents": {
+    "sideA": {
+      "name": "刚果民主共和国政府军",
+      "nameEn": "Armed Forces of the Democratic Republic of the Congo",
+      "countries": [
+        {
+          "name": "刚果民主共和国",
+          "entryYear": 1998,
+          "exitYear": 2003
+        }
+      ],
+      "commanders": [
+        {
+          "name": "洛朗-德西雷·卡比拉",
+          "role": "总司令",
+          "bio": "刚果总统，战争初期领导人"
+        },
+        {
+          "name": "约瑟夫·卡比拉",
+          "role": "总司令",
+          "bio": "洛朗-德西雷·卡比拉之子，继任总统"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "洛朗-德西雷·卡比拉",
+          "role": "总统",
+          "bio": "刚果民主共和国总统，1997年推翻蒙博托政权"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "征兵制与志愿兵结合",
+        "organization": "正规军与民兵混合",
+        "logistics": "依赖外国援助，后勤系统混乱"
+      },
+      "preWarStrength": {
+        "army": "约10万人",
+        "navy": "约1000人",
+        "airForce": "约2000人",
+        "armor": "约100辆坦克",
+        "specialForces": "约5000人",
+        "reserves": "约2万人"
+      },
+      "equipment": [
+        {
+          "name": "T-54/55坦克",
+          "quantity": "约50辆",
+          "description": "老旧苏联制坦克"
+        },
+        {
+          "name": "米格-21战斗机",
+          "quantity": "约10架",
+          "description": "苏联制战斗机"
+        },
+        {
+          "name": "AK-47步枪",
+          "quantity": "数万支",
+          "description": "主要步兵武器"
+        }
+      ],
+      "industrialCapacity": "有限，主要依赖进口武器",
+      "economicStrength": "极度贫困，战争期间经济崩溃",
+      "totalCasualties": {
+        "dead": "约100万人",
+        "wounded": "数百万人",
+        "captured": "数万人",
+        "missing": "数万人",
+        "civilian": "约540万人死亡"
+      },
+      "warCrimes": [
+        "大规模屠杀、强奸、强迫征兵"
+      ],
+      "propaganda": {
+        "slogans": [
+          "刚果属于刚果人",
+          "驱逐外国侵略者"
+        ],
+        "themes": [
+          "民族主义",
+          "反殖民主义"
+        ],
+        "methods": [
+          "广播宣传",
+          "海报宣传"
+        ]
+      }
+    },
+    "sideB": {
+      "name": "刚果解放民主力量联盟",
+      "nameEn": "Alliance of Democratic Forces for the Congo",
+      "countries": [
+        {
+          "name": "卢旺达",
+          "entryYear": 1998,
+          "exitYear": 2002
+        },
+        {
+          "name": "乌干达",
+          "entryYear": 1998,
+          "exitYear": 2002
+        },
+        {
+          "name": "布隆迪",
+          "entryYear": 1998,
+          "exitYear": 2001
+        }
+      ],
+      "commanders": [
+        {
+          "name": "保罗·卡加梅",
+          "role": "总司令",
+          "bio": "卢旺达总统，军事行动指挥者"
+        },
+        {
+          "name": "约韦里·穆塞韦尼",
+          "role": "总司令",
+          "bio": "乌干达总统，提供军事支持"
+        },
+        {
+          "name": "埃米尔·恩贡达",
+          "role": "前线指挥官",
+          "bio": "刚果反叛军领导人"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "埃米尔·恩贡达",
+          "role": "领导人",
+          "bio": "刚果反叛军领导人，反对卡比拉政权"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "志愿兵与强迫征兵",
+        "organization": "游击战术，高度机动",
+        "logistics": "依赖地区盟友和资源掠夺"
+      },
+      "preWarStrength": {
+        "army": "约4万人",
+        "navy": "约500人",
+        "airForce": "约500人",
+        "armor": "约30辆坦克",
+        "specialForces": "约3000人",
+        "reserves": "约1万人"
+      },
+      "equipment": [
+        {
+          "name": "AK-47步枪",
+          "quantity": "数万支",
+          "description": "主要步兵武器"
+        },
+        {
+          "name": "RPG火箭筒",
+          "quantity": "数千具",
+          "description": "反坦克武器"
+        },
+        {
+          "name": "T-55坦克",
+          "quantity": "约20辆",
+          "description": "卢旺达提供"
+        }
+      ],
+      "industrialCapacity": "几乎无，依赖外国援助",
+      "economicStrength": "依赖掠夺资源，战争经济",
+      "totalCasualties": {
+        "dead": "约20万人",
+        "wounded": "数十万人",
+        "captured": "数万人",
+        "missing": "数万人",
+        "civilian": "大量平民伤亡"
+      },
+      "warCrimes": [
+        "屠杀平民、掠夺资源、强迫征兵"
+      ],
+      "propaganda": {
+        "slogans": [
+          "推翻卡比拉独裁",
+          "建立民主刚果"
+        ],
+        "themes": [
+          "民主化",
+          "地区安全"
+        ],
+        "methods": [
+          "广播宣传",
+          "传单"
+        ]
+      }
+    }
+  },
+  "neutralParties": [
+    {
+      "name": "南非",
+      "role": "调停方"
+    },
+    {
+      "name": "安哥拉",
+      "role": "支持刚果政府"
+    },
+    {
+      "name": "津巴布韦",
+      "role": "支持刚果政府"
+    },
+    {
+      "name": "纳米比亚",
+      "role": "支持刚果政府"
+    }
+  ],
+  "outcome": {
+    "result": "停火协议达成，但冲突持续",
+    "victoryAnalysis": {
+      "winnerFactors": "国际压力促使各方停火，联合国维和部队介入",
+      "loserFactors": "所有参战方均未实现主要目标，地区局势持续动荡"
+    },
+    "treaty": {
+      "name": "比勒陀利亚协议",
+      "date": "2002年12月",
+      "content": "建立过渡政府，部署联合国维和部队，外国军队撤出刚果"
+    },
+    "territorialChanges": "领土无重大变更，但东部地区实际控制权分散",
+    "economicCost": "估计损失超过1000亿美元，基础设施严重破坏",
+    "demographicImpact": "约540万人死亡，数百万人流离失所"
+  },
+  "legacy": {
+    "significance": "非洲历史上最致命的冲突之一，展示了地区冲突的复杂性",
+    "immediateConsequences": "过渡政府成立，但东部地区持续冲突",
+    "longTermImpact": {
+      "political": "刚果民主共和国政治不稳定，腐败问题严重",
+      "military": "多个武装团体继续控制东部地区",
+      "economic": "资源掠夺持续，经济发展受阻",
+      "social": "社会结构破坏，性别暴力问题严重"
+    },
+    "culturalLegacy": {
+      "memorials": [
+        "金沙萨战争纪念碑"
+      ],
+      "observances": [
+        "国际和平日纪念活动"
+      ],
+      "media": [
+        "战争纪录片《血色刚果》"
+      ]
+    }
+  },
+  "tags": {
+    "warfareType": [
+      "游击战",
+      "内战",
+      "资源战争"
+    ],
+    "geopolitical": [
+      "非洲冲突",
+      "地区霸权",
+      "资源争夺"
+    ],
+    "scale": "regional",
+    "cause": [
+      "种族冲突",
+      "资源争夺",
+      "政治不稳定"
+    ]
+  },
+  "relatedWars": [
+    "第一次刚果战争",
+    "卢旺达内战",
+    "布隆迪内战",
+    "基伍冲突"
+  ],
+  "sources": [
+    "联合国刚果特派团报告",
+    "国际危机组织研究",
+    "人权观察报告",
+    "《第二次刚果战争》学术著作"
+  ],
+  "warProcess": {
+    "phases": [
+      {
+        "name": "战争爆发",
+        "nameEn": "Outbreak",
+        "startYear": 1998,
+        "endYear": 1999,
+        "summary": "第二次刚果战争爆发阶段，多方势力介入，冲突迅速升级",
+        "battles": [
+          {
+            "battleId": "first_congo_war_kinshasa",
+            "name": "金沙萨战役",
+            "nameEn": "Battle of Kinshasa",
+            "startYear": 1998,
+            "endYear": 1998,
+            "coords": [
+              -15.2861,
+              -4.3514
+            ],
+            "theater": "刚果盆地",
+            "context": "战争初期，刚果政府军与叛军在首都金沙萨爆发冲突",
+            "description": "1998年8月，刚果民主联盟叛军逼近首都金沙萨。政府军在津巴布韦和安哥拉军队支援下，成功击退叛军进攻，保卫了首都安全。",
+            "result": "政府军胜利",
+            "significance": "确保了政府控制权，但战争已全面爆发",
+            "casualties": {
+              "sideA": "约500人",
+              "sideB": "约800人"
+            },
+            "forces": {
+              "sideA": "约3000人政府军及盟友",
+              "sideB": "约1500名叛军"
+            },
+            "commanders": [
+              {
+                "name": "洛朗-德西雷·卡比拉",
+                "role": "总统",
+                "side": "sideA"
+              },
+              {
+                "name": "埃米尔·伊伦加",
+                "role": "叛军指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "kisangani_fighting",
+            "name": "基桑加尼战役",
+            "nameEn": "Battle of Kisangani",
+            "startYear": 1998,
+            "endYear": 1999,
+            "coords": [
+              25.1883,
+              0.1917
+            ],
+            "theater": "东部战区",
+            "context": "乌干达和卢旺达军队争夺战略要地基桑加尼",
+            "description": "1998年，乌干达和卢旺达军队在基桑加尼发生冲突，双方争夺这一重要城市和周边资源。战斗持续数月，造成大量平民伤亡，城市基础设施严重破坏。",
+            "result": "乌干达控制部分城区，卢旺达控制其他区域",
+            "significance": "揭示了外国干预者之间的利益冲突，战争复杂化",
+            "casualties": {
+              "sideA": "约300人",
+              "sideB": "约400人"
+            },
+            "forces": {
+              "sideA": "约2000名乌干达士兵",
+              "sideB": "约2500名卢旺达士兵"
+            },
+            "commanders": [
+              {
+                "name": "约韦里·穆塞韦尼",
+                "role": "乌干达总统",
+                "side": "sideA"
+              },
+              {
+                "name": "保罗·卡加梅",
+                "role": "卢旺达总统",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "kivu_offensive",
+            "name": "基伍攻势",
+            "nameEn": "Kivu Offensive",
+            "startYear": 1998,
+            "endYear": 1998,
+            "coords": [
+              28.8667,
+              -1.6667
+            ],
+            "theater": "东部战区",
+            "context": "卢旺达支持的刚果民主联盟对基伍地区发动大规模进攻",
+            "description": "1998年8月，卢旺达支持的刚果民主联盟对北基伍和南基伍地区发动全面进攻，迅速控制了东部大片领土。政府军无力抵抗，节节败退。",
+            "result": "叛军控制东部大部分地区",
+            "significance": "战争扩大化，外国势力直接参战",
+            "casualties": {
+              "sideA": "约1000人",
+              "sideB": "约600人"
+            },
+            "forces": {
+              "sideA": "约5000名政府军",
+              "sideB": "约8000名叛军及卢旺达盟友"
+            },
+            "commanders": [
+              {
+                "name": "马塞尔·勒邦",
+                "role": "叛军指挥官",
+                "side": "sideB"
+              },
+              {
+                "name": "奥利维耶·卡姆班杜",
+                "role": "政府军指挥官",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "moba_battle",
+            "name": "莫巴战役",
+            "nameEn": "Battle of Moba",
+            "startYear": 1998,
+            "endYear": 1998,
+            "coords": [
+              26.7167,
+              -3.05
+            ],
+            "theater": "坦噶尼喀湖",
+            "context": "津巴布韦军队支持政府军夺回战略要地莫巴",
+            "description": "1998年10月，津巴布韦军队协助刚果政府军对莫巴港发动进攻。经过激烈战斗，成功从叛军手中夺回这一战略要地，重新打通了通往坦噶尼喀湖的通道。",
+            "result": "政府军胜利",
+            "significance": "恢复了政府军对部分东部地区的控制",
+            "casualties": {
+              "sideA": "约200人",
+              "sideB": "约300人"
+            },
+            "forces": {
+              "sideA": "约1500名政府军及津巴布韦盟友",
+              "sideB": "约1000名叛军"
+            },
+            "commanders": [
+              {
+                "name": "陈文浩",
+                "role": "津巴布韦军队指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "让-皮埃尔·本巴",
+                "role": "叛军指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "lubumbashi_clashes",
+            "name": "卢本巴希冲突",
+            "nameEn": "Lubumbashi Clashes",
+            "startYear": 1998,
+            "endYear": 1999,
+            "coords": [
+              27.4767,
+              -11.6833
+            ],
+            "theater": "南部战区",
+            "context": "安哥拉军队介入，协助政府军稳定南部局势",
+            "description": "1998年底至1999年初，安哥拉军队介入南部战事，协助政府军与叛军在刚果第二大城市卢本巴希及其周边地区展开激烈战斗。安哥拉军队的介入有效遏制了叛军扩张。",
+            "result": "政府军及安哥拉盟军胜利",
+            "significance": "阻止了叛军向南扩张，稳定了南部战线",
+            "casualties": {
+              "sideA": "约400人",
+              "sideB": "约600人"
+            },
+            "forces": {
+              "sideA": "约3000名政府军及安哥拉盟友",
+              "sideB": "约2000名叛军"
+            },
+            "commanders": [
+              {
+                "name": "若泽·爱德华多·多斯桑托斯",
+                "role": "安哥拉总统",
+                "side": "sideA"
+              },
+              {
+                "name": "阿瑟·恩赞比",
+                "role": "叛军指挥官",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争进程",
+        "nameEn": "War Process",
+        "startYear": 1998,
+        "endYear": 2003,
+        "summary": "第二次刚果战争是非洲历史上最致命的冲突之一，涉及多个国家和武装派别，主要围绕刚果民主共和国东部地区的控制权展开。",
+        "battles": [
+          {
+            "battleId": "first_congo_war_kinshasa",
+            "name": "金沙萨战役",
+            "nameEn": "Battle of Kinshasa",
+            "startYear": 1998,
+            "endYear": 1998,
+            "coords": [
+              15.2833,
+              -4.3583
+            ],
+            "theater": "刚果盆地",
+            "context": "战争初期，卢旺达支持的叛军向首都金沙萨推进",
+            "description": "1998年8月，刚果解放民主力量联盟在卢旺达和乌干达的支持下向金沙萨推进。政府军在津巴布韦、安哥拉和纳米比亚的支援下进行了顽强抵抗。战斗持续数周，最终政府军成功击退了叛军的进攻，保卫了首都。",
+            "result": "政府军成功保卫金沙萨",
+            "significance": "阻止了叛军迅速推翻政府的企图，战争陷入长期僵持",
+            "casualties": {
+              "sideA": "约2000人",
+              "sideB": "约1500人"
+            },
+            "forces": {
+              "sideA": "约15000人(包括外国援军)",
+              "sideB": "约8000人"
+            },
+            "commanders": [
+              {
+                "name": "洛朗-德西雷·卡比拉",
+                "role": "总统",
+                "side": "sideA"
+              },
+              {
+                "name": "詹姆斯·卡巴雷",
+                "role": "叛军指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "kisangani_fighting",
+            "name": "基桑加尼战役",
+            "nameEn": "Battle of Kisangani",
+            "startYear": 1999,
+            "endYear": 2000,
+            "coords": [
+              25.1883,
+              0.1933
+            ],
+            "theater": "东部战区",
+            "context": "乌干达和卢旺达军队在刚果东部争夺控制权",
+            "description": "1999年至2000年间，基桑加尼成为乌干达和卢旺达军队争夺的焦点。两支外国军队在刚果领土上直接交战，导致城市遭受严重破坏。战斗中，双方使用了重武器，造成大量平民伤亡。最终，乌干达军队暂时控制了该市。",
+            "result": "乌干达军队控制基桑加尼",
+            "significance": "揭示了外国干预者之间的利益冲突，战争进一步复杂化",
+            "casualties": {
+              "sideA": "约1000人",
+              "sideB": "约800人"
+            },
+            "forces": {
+              "sideA": "约5000人",
+              "sideB": "约4500人"
+            },
+            "commanders": [
+              {
+                "name": "伊格纳蒂乌斯·穆加贝",
+                "role": "乌干达指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "保罗·卡加梅",
+                "role": "卢旺达指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "bunia_conflict",
+            "name": "布尼亚冲突",
+            "nameEn": "Bunia Conflict",
+            "startYear": 2002,
+            "endYear": 2003,
+            "coords": [
+              30.2466,
+              1.5433
+            ],
+            "theater": "伊图里省",
+            "context": "当地民兵与外国军队之间的冲突",
+            "description": "2002年至2003年间，伊图里省的布尼亚地区成为刚果爱国联盟与刚果解放运动等民兵组织争夺的焦点。冲突中，各方犯下了严重侵犯人权的行为，包括种族屠杀。联合国派遣维和部队试图稳定局势，但战斗持续不断。",
+            "result": "联合国维和部队介入，局势暂时稳定",
+            "significance": "凸显了战争中的种族冲突和人道主义危机",
+            "casualties": {
+              "sideA": "约3000人",
+              "sideB": "约2500人"
+            },
+            "forces": {
+              "sideA": "约2000人",
+              "sideB": "约1800人"
+            },
+            "commanders": [
+              {
+                "name": "托马斯·卢班加",
+                "role": "民兵领袖",
+                "side": "sideA"
+              },
+              {
+                "name": "让-皮埃尔·本巴",
+                "role": "民兵领袖",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "operation_protection_falcon",
+            "name": "猎鹰保护行动",
+            "nameEn": "Operation Protection Falcon",
+            "startYear": 2003,
+            "endYear": 2003,
+            "coords": [
+              29.8833,
+              -1.5333
+            ],
+            "theater": "伊图里省",
+            "context": "联合国维和部队试图恢复和平",
+            "description": "2003年，联合国刚果特派发起了“猎鹰保护行动”，旨在解除伊图里省的民兵武装，保护平民安全。法国领导的欧盟部队也参与了行动。行动成功解除了部分民兵的武装，并逮捕了主要领导人，为和平进程创造了条件。",
+            "result": "联合国行动成功解除部分民兵武装",
+            "significance": "标志着国际社会对刚果冲突的干预加强",
+            "casualties": {
+              "sideA": "约50人",
+              "sideB": "约200人"
+            },
+            "forces": {
+              "sideA": "约4000人(多国部队)",
+              "sideB": "约1500人"
+            },
+            "commanders": [
+              {
+                "name": "阿米努·塔姆卜",
+                "role": "联合国指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "托马斯·卢班加",
+                "role": "民兵领袖",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "majorBattles": [],
+    "cognitiveWarfare": {
+      "psyOps": [
+        "利用种族仇恨煽动暴力，将冲突描绘为'图西族与胡图族'的种族战争",
+        "散布虚假信息指控对方犯有种族灭绝罪行，激发民众恐惧与愤怒",
+        "通过控制广播电台传播极端民族主义言论，煽动针对特定族群的暴力",
+        "利用儿童兵宣传，将未成年人塑造成'英雄'和'解放者'",
+        "散布政府军或反叛军即将投降的虚假信息，瓦解对方士气"
+      ],
+      "propagandaComparison": "刚果政府军强调国家主权和领土完整，将反叛军描绘为外国侵略者和分裂分子，利用国家媒体宣传'保卫祖国'的爱国主义叙事。而刚果解放民主力量联盟则将自己定位为'解放者'，指责政府腐败无能，承诺结束种族压迫，通过控制地区广播电台传播'解放刚果'的叙事。双方都利用卢旺达和乌干达的介入作为宣传点，政府军称其为'外国占领'，而反叛军则称其为'盟友支持'。双方宣传都大量使用种族符号和语言，将复杂冲突简化为种族对立叙事。",
+      "collaborators": [
+        "卢旺达支持的刚果解放民主力量联盟",
+        "乌干达支持的刚果解放运动",
+        "安哥拉政府军（支持刚果政府）",
+        "津巴布韦军队（支持刚果政府）",
+        "纳米比亚军队（支持刚果政府）",
+        "苏丹支持的民兵组织"
+      ],
+      "informationWarfare": "第二次刚果战争中，信息战成为关键战略工具。双方通过控制广播电台传播相互矛盾的叙事，制造混乱和分裂。反叛军利用边境电台煽动东部地区分离主义情绪，而政府军则控制国家广播系统强化中央权威。外国干预力量通过资助媒体和传播虚假信息影响战局，如卢旺达支持的反叛媒体系统性地传播针对政府军的种族仇恨内容。国际媒体被双方利用，选择性报道以获取国际同情和支持。信息污染导致平民难以辨别真相，加剧了人道主义危机。"
+    },
+    "economics": {
+      "resourceDependency": {
+        "sideA": {
+          "summary": "刚果民主共和国依赖其丰富的钴、铜、钻石和黄金资源，战争期间这些资源被多方势力控制，政府失去对资源区的管理权，导致国家收入锐减，经济崩溃，无法维持基本公共服务和军队开支。"
+        },
+        "sideB": {
+          "summary": "入侵的乌干达和卢旺达通过控制刚果东部资源区获取经济利益，包括钽、钴和黄金，这些资源被用于资助军事行动，形成'资源换武器'的循环，同时外国公司从资源掠夺中获利，加剧了冲突。"
+        }
+      },
+      "foreignAid": [
+        {
+          "from": "联合国",
+          "to": "刚果民主共和国",
+          "program": "联刚特派团",
+          "content": "提供人道主义援助，包括食品、医疗和避难所，支持和平进程和重建工作"
+        },
+        {
+          "from": "世界银行",
+          "to": "刚果民主共和国",
+          "program": "刚果重建基金",
+          "content": "提供资金支持基础设施重建和经济恢复，帮助政府恢复公共服务"
+        },
+        {
+          "from": "欧盟",
+          "to": "地区国家",
+          "program": " Great Lakes地区计划",
+          "content": "资助难民安置、冲突调解和区域经济发展项目，促进地区稳定"
+        }
+      ],
+      "warBudget": "战争总开支估计超过60亿美元，直接军事开支和间接经济损失使刚果GDP下降超过40%，地区贸易中断导致周边国家损失数十亿美元",
+      "economicDisruption": "战争导致刚果基础设施被毁，矿业生产中断，农业系统崩溃，通货膨胀率飙升至500%以上，超过500万人死亡，主要是饥荒和疾病，地区贸易网络被摧毁，邻国经济受到难民潮和资源争夺的严重影响，刚果从战前略有盈余的国家预算转变为巨额赤字，公共债务急剧增加"
+    },
+    "geography": {
+      "keyObstacles": [
+        {
+          "name": "刚果盆地雨林",
+          "description": "「刚果盆地雨林」覆盖了该国大部分地区，茂密的植被和复杂地形严重限制了部队机动性，为游击战提供了理想掩护，同时增加了后勤补给难度和疾病传播风险。"
+        },
+        {
+          "name": "刚果河及其支流",
+          "description": "「刚果河及其支流」构成天然屏障，限制了部队的快速部署和物资运输，特别是在雨季时水位上涨，使得河流成为难以逾越的障碍，影响了军事行动的连贯性。"
+        },
+        {
+          "name": "东部高原地形",
+          "description": "「东部高原地形」崎岖不平，为卢旺达、乌干达等邻国提供了入侵通道，同时创造了众多天然防御点，使得冲突各方能够利用地形优势进行持久战和伏击战。"
+        }
+      ],
+      "extremeWeather": [
+        {
+          "year": 1999,
+          "event": "雨季洪水",
+          "description": "「1999年雨季洪水」导致刚果河流域水位暴涨，淹没大量道路和桥梁，严重阻碍了军事后勤补给线，使部队机动性大幅下降，加剧了人道主义危机。"
+        },
+        {
+          "year": 2002,
+          "event": "严重干旱",
+          "description": "「2002年严重干旱」导致水源短缺，影响了军队和当地居民的饮水供应，同时降低了农业产量，加剧了资源争夺，使冲突各方在资源匮乏地区发生更多摩擦。"
+        }
+      ],
+      "nonCombatLosses": "「疾病和恶劣环境导致的非战斗减员极为严重」，疟疾、黄热病、霍乱等热带疾病在雨季和旱季交替期间爆发，加上营养不良和缺乏医疗设施，导致大量士兵和平民死亡，估计非战斗减员人数超过战斗死亡人数，成为冲突中主要的死亡原因。"
+    }
+  },
+  "timeline": [
+    {
+      "year": 2003,
+      "event": "《比勒陀利亚协议》签署",
+      "type": "diplomacy",
+      "description": "刚果政府与主要叛军组织签署和平协议，正式结束第二次刚果战争",
+      "impact": "标志着长达五年的冲突正式结束，为刚果的重建和民主过渡创造了条件"
+    },
+    {
+      "year": 2006,
+      "event": "刚果民主共和国首次民主选举",
+      "type": "decision",
+      "description": "刚果举行首次多党制民主选举，约瑟夫·卡比拉当选总统",
+      "impact": "结束了过渡时期，建立了民选政府，为国家的长期稳定奠定了基础"
+    },
+    {
+      "year": 2009,
+      "event": "卢旺达与刚果联合军事行动",
+      "type": "crisis",
+      "description": "卢旺达与刚果政府联合行动，打击刚果东部地区的FDLR武装",
+      "impact": "导致地区紧张局势升级，但也促使卢旺达从刚果撤军，减少了外部干预"
+    },
+    {
+      "year": 2013,
+      "event": "刚果东部冲突升级",
+      "type": "crisis",
+      "description": "M23叛军占领戈马，引发国际社会关注",
+      "impact": "促使联合国部署干预旅，加强了对刚果东部地区的维和力度"
+    },
+    {
+      "year": 2021,
+      "event": "刚果政府与M23重启和平谈判",
+      "type": "diplomacy",
+      "description": "为解决刚果东部长期冲突提供了新希望，但和平进程仍面临挑战"
+    }
+  ]
+}

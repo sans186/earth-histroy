@@ -1,0 +1,775 @@
+{
+  "warId": "haitian_revolution",
+  "name": "海地革命",
+  "nameEn": "Haitian Revolution",
+  "alternativeNames": [
+    "圣多明各革命"
+  ],
+  "startYear": 1791,
+  "endYear": 1804,
+  "type": "major",
+  "category": "独立战争",
+  "theaters": [
+    "圣多明各"
+  ],
+  "summary": "海地奴隶起义成功推翻法国殖民统治，建立首个黑人共和国。",
+  "background": {
+    "causes": "法国殖民统治下的奴隶制度残酷压迫，种族歧视严重，经济剥削深重",
+    "immediateCause": "自由有色人种争取平等权利的斗争升级，奴隶起义爆发",
+    "preWarSituation": "圣多明各是法国最富庶的殖民地，依靠奴隶制种植园经济，人口中90%是奴隶",
+    "objectivesA": "法国维持殖民统治和奴隶制度",
+    "objectivesB": "推翻法国殖民统治，废除奴隶制，建立独立国家",
+    "precedingConflicts": [
+      "法国大革命"
+    ]
+  },
+  "belligerents": {
+    "sideA": {
+      "name": "法国殖民势力",
+      "nameEn": "French Colonial Forces",
+      "countries": [
+        {
+          "name": "法兰西殖民帝国",
+          "entryYear": 1791,
+          "exitYear": 1804
+        }
+      ],
+      "commanders": [
+        {
+          "name": "查尔斯·勒克莱尔",
+          "role": "总司令",
+          "bio": "拿破仑派往海地的镇压军司令"
+        },
+        {
+          "name": "罗尚博伯爵",
+          "role": "早期指挥官",
+          "bio": "法国革命战争将领，初期负责镇压起义"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "拿破仑·波拿巴",
+          "role": "法国第一执政",
+          "bio": "法国统治者，决定派遣军队镇压起义"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "职业军队与殖民地民兵",
+        "organization": "欧洲正规军编制",
+        "logistics": "依靠海上补给，但受英国封锁影响"
+      },
+      "preWarStrength": {
+        "army": "约3万人",
+        "navy": "有限舰队",
+        "airForce": "无",
+        "armor": "无",
+        "specialForces": "无",
+        "reserves": "有限"
+      },
+      "equipment": [
+        {
+          "name": "滑膛枪",
+          "quantity": "充足",
+          "description": "标准步兵武器"
+        },
+        {
+          "name": "野战炮",
+          "quantity": "数百门",
+          "description": "支援火炮"
+        }
+      ],
+      "industrialCapacity": "欧洲先进工业支持",
+      "economicStrength": "强大，但战争消耗巨大",
+      "totalCasualties": {
+        "dead": "约2万人",
+        "wounded": "约1万人",
+        "captured": "数千人",
+        "missing": "未知",
+        "civilian": "大量"
+      },
+      "warCrimes": [
+        "使用黄热病作为生物武器"
+      ],
+      "propaganda": {
+        "slogans": [
+          "恢复秩序",
+          "维护文明"
+        ],
+        "themes": [
+          "文明与野蛮的对立",
+          "白人优越论"
+        ],
+        "methods": [
+          "宣传起义者残暴形象"
+        ]
+      }
+    },
+    "sideB": {
+      "name": "海地起义军",
+      "nameEn": "Haitian Revolutionaries",
+      "countries": [
+        {
+          "name": "海地起义力量",
+          "entryYear": 1791,
+          "exitYear": 1804
+        }
+      ],
+      "commanders": [
+        {
+          "name": "杜桑·卢维杜尔",
+          "role": "起义军领袖",
+          "bio": "前奴隶，成为起义军领袖，军事天才"
+        },
+        {
+          "name": "让-雅克·德萨林",
+          "role": "军事指挥官",
+          "bio": "起义军重要将领，后成为海地皇帝"
+        },
+        {
+          "name": "弗朗索瓦·多米尼克·托伊桑",
+          "role": "早期领袖",
+          "bio": "起义初期重要领袖"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "杜桑·卢维杜尔",
+          "role": "起义领袖",
+          "bio": "实际领导起义并建立临时政府"
+        },
+        {
+          "name": "亚历山大·佩蒂翁",
+          "role": "南方领袖",
+          "bio": "南方起义领袖，后成为海地总统"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "奴隶起义军与自由人志愿兵",
+        "organization": "游击战与正规战结合",
+        "logistics": "依靠缴获和当地资源"
+      },
+      "preWarStrength": {
+        "army": "初期约1万人，后期约2万人",
+        "navy": "无正规海军",
+        "airForce": "无",
+        "armor": "无",
+        "specialForces": "游击队",
+        "reserves": "民兵"
+      },
+      "equipment": [
+        {
+          "name": "缴获武器",
+          "quantity": "不固定",
+          "description": "从法军缴获的武器"
+        },
+        {
+          "name": "农具改造武器",
+          "quantity": "大量",
+          "description": "起义初期使用的简易武器"
+        }
+      ],
+      "industrialCapacity": "几乎无工业能力",
+      "economicStrength": "薄弱，依靠农业和缴获",
+      "totalCasualties": {
+        "dead": "约10万人",
+        "wounded": "约5万人",
+        "captured": "数千人",
+        "missing": "大量",
+        "civilian": "数十万"
+      },
+      "warCrimes": [],
+      "propaganda": {
+        "slogans": [
+          "自由或死亡",
+          "平等博爱"
+        ],
+        "themes": [
+          "自由平等",
+          "民族独立"
+        ],
+        "methods": [
+          "口头宣传，利用宗教仪式"
+        ]
+      }
+    }
+  },
+  "neutralParties": [
+    {
+      "name": "西班牙",
+      "role": "初期支持起义军对抗法国"
+    },
+    {
+      "name": "英国",
+      "role": "后期试图占领海地，后撤军"
+    }
+  ],
+  "outcome": {
+    "result": "海地革命成功，法国殖民统治被推翻，海地独立",
+    "victoryAnalysis": {
+      "winnerFactors": "起义军熟悉地形，游击战术有效，领导力强，黄热病削弱法军",
+      "loserFactors": "法军疾病困扰，补给困难，拿破仑战略失误，兵力分散"
+    },
+    "treaty": {
+      "name": "法兰西共和国与海地和平条约",
+      "date": "1803年12月",
+      "content": "法国承认海地独立，海地支付赔偿金"
+    },
+    "territorialChanges": "海地从法国殖民地变为独立国家",
+    "economicCost": "法国损失最富庶殖民地，海地经济遭受严重破坏",
+    "demographicImpact": "人口锐减，约30-40万人在战争中死亡"
+  },
+  "legacy": {
+    "significance": "世界上成功的奴隶起义，首个黑人共和国，打击了奴隶制度",
+    "immediateConsequences": "法国损失殖民地，海地独立但面临国际孤立",
+    "longTermImpact": {
+      "political": "激励其他殖民地独立运动，改变美洲政治格局",
+      "military": "证明非正规军可以战胜欧洲正规军",
+      "economic": "海地经济长期依赖单一作物，国际关系受影响",
+      "social": "挑战种族主义观念，但新政权仍存在社会不平等"
+    },
+    "culturalLegacy": {
+      "memorials": [
+        "国家英雄纪念碑",
+        "杜桑·卢维杜尔陵墓"
+      ],
+      "observances": [
+        "独立日庆典",
+        "废除奴隶制纪念日"
+      ],
+      "media": [
+        "《杜桑》电影",
+        "《海地革命》文学作品"
+      ]
+    }
+  },
+  "tags": {
+    "warfareType": [
+      "游击战",
+      "独立战争",
+      "奴隶起义"
+    ],
+    "geopolitical": [
+      "加勒比地区",
+      "美洲独立运动"
+    ],
+    "scale": "regional",
+    "cause": [
+      "种族压迫",
+      "经济剥削",
+      "政治压迫"
+    ]
+  },
+  "relatedWars": [
+    "法国大革命",
+    "拉丁美洲独立战争"
+  ],
+  "sources": [],
+  "warProcess": {
+    "phases": [
+      {
+        "name": "战争初期",
+        "nameEn": "Early War Phase",
+        "startYear": 1791,
+        "endYear": 1794,
+        "summary": "海地革命初期，奴隶起义爆发并迅速扩大，法国殖民当局试图镇压但效果有限，革命力量开始形成组织并取得初步胜利。",
+        "battles": [
+          {
+            "battleId": "bois_caiman",
+            "name": "博凯曼会议",
+            "nameEn": "Bois Caïman Ceremony",
+            "startYear": 1791,
+            "endYear": 1791,
+            "coords": [
+              -72.3667,
+              18.5333
+            ],
+            "theater": "北部平原",
+            "context": "革命前夕，海地奴隶在秘密集会上决定起义",
+            "description": "1791年8月14日，在北部平原的博凯曼沼泽地，奴隶领袖举行了著名的伏都教仪式，由 Dutty Boukman 领导，宣誓反抗法国殖民统治。这次集会标志着有组织的奴隶起义的开始，两周后即爆发了大规模起义。",
+            "result": "成功点燃奴隶起义的导火索",
+            "significance": "标志着海地革命正式开始，奴隶们从被动反抗转向有组织的武装斗争",
+            "casualties": {
+              "sideA": "无",
+              "sideB": "无"
+            },
+            "forces": {
+              "sideA": "约数百名奴隶代表",
+              "sideB": "无"
+            },
+            "commanders": [
+              {
+                "name": "杜蒂·布克曼",
+                "role": "起义领袖",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "cap_francais",
+            "name": "法兰西角战役",
+            "nameEn": "Battle of Cap-Français",
+            "startYear": 1791,
+            "endYear": 1791,
+            "coords": [
+              -72.2039,
+              19.7194
+            ],
+            "theater": "北部沿海",
+            "context": "起义爆发后，奴隶军队向殖民重镇法兰西角进发",
+            "description": "1791年9月，由让-弗朗索瓦、乔治·比阿苏和杜蒂·布克曼领导的奴隶起义军向北部最重要的殖民城市法兰西角进发。起义军人数众多，但缺乏训练和装备。经过激烈战斗，起义军一度占领了城市部分地区，但最终被法国殖民军和忠于法国的自由有色人击退。",
+            "result": "起义军未能占领城市，但展示了强大力量",
+            "significance": "表明奴隶起义已形成规模，能够威胁殖民统治中心，促使法国政府重视局势",
+            "casualties": {
+              "sideA": "约1000人",
+              "sideB": "约500人"
+            },
+            "forces": {
+              "sideA": "约20000名奴隶",
+              "sideB": "约3000名法军和自由有色人"
+            },
+            "commanders": [
+              {
+                "name": "让-弗朗索瓦",
+                "role": "起义领袖",
+                "side": "sideA"
+              },
+              {
+                "name": "乔治·比阿苏",
+                "role": "起义领袖",
+                "side": "sideA"
+              },
+              {
+                "name": "菲利普·热格",
+                "role": "法军指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "la_tierre",
+            "name": "拉蒂尔战役",
+            "nameEn": "Battle of La Tannerre",
+            "startYear": 1792,
+            "endYear": 1792,
+            "coords": [
+              -72.6,
+              18.8
+            ],
+            "theater": "北部平原",
+            "context": "起义军继续扩大控制区域，与法军展开拉锯战",
+            "description": "1792年初，起义军在北部平原地区继续扩大控制范围。在拉蒂尔地区，由让-弗朗索瓦和比阿苏领导的起义军与法军展开激战。起义军利用地形优势，采用游击战术，多次击败法军的进攻。此役中，起义军展现了出色的组织能力和战术灵活性。",
+            "result": "起义军取得胜利，扩大了控制区域",
+            "significance": "起义军开始形成有效的军事组织，证明他们有能力对抗正规军",
+            "casualties": {
+              "sideA": "约300人",
+              "sideB": "约500人"
+            },
+            "forces": {
+              "sideA": "约5000名起义军",
+              "sideB": "约2000名法军"
+            },
+            "commanders": [
+              {
+                "name": "让-弗朗索瓦",
+                "role": "起义军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "乔治·比阿苏",
+                "role": "起义军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "马丁·德·拉吉拉德",
+                "role": "法军指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "trois_rivieres",
+            "name": "三河战役",
+            "nameEn": "Battle of Trois-Rivières",
+            "startYear": 1793,
+            "endYear": 1793,
+            "coords": [
+              -72.5333,
+              19.4333
+            ],
+            "theater": "北部沿海",
+            "context": "法国大革命后，局势复杂化，各方势力争夺控制权",
+            "description": "1793年，随着法国大革命爆发，海地局势更加复杂。起义军在三河地区与法军展开战斗。此时，西班牙和英国也介入海地局势，支持不同派别。起义军在这场战役中与西班牙支持的起义军合作，共同对抗法军。战斗持续数日，最终起义军成功控制了这一战略要地。",
+            "result": "起义军与西班牙支持的盟军共同取得胜利",
+            "significance": "标志着起义军开始获得外国支持，革命力量进一步壮大",
+            "casualties": {
+              "sideA": "约400人",
+              "sideB": "约600人"
+            },
+            "forces": {
+              "sideA": "约3000名起义军和西班牙盟军",
+              "sideB": "约2000名法军"
+            },
+            "commanders": [
+              {
+                "name": "乔治·比阿苏",
+                "role": "起义军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "亚历杭德罗·德·圣多明各",
+                "role": "西班牙盟军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "埃利·勒菲弗",
+                "role": "法军指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "plaisance",
+            "name": "普莱桑斯战役",
+            "nameEn": "Battle of Plaisance",
+            "startYear": 1794,
+            "endYear": 1794,
+            "coords": [
+              -72.2833,
+              19.3
+            ],
+            "theater": "北部沿海",
+            "context": "法国宣布废除奴隶制后，起义军与法军关系复杂化",
+            "description": "1794年2月，法国国民公会宣布废除殖民地奴隶制，这一决定改变了海地局势。在普莱桑斯地区，起义军与法军之间的关系变得复杂。一方面，法军宣布解放奴隶；另一方面，起义军对法国仍持怀疑态度。在此背景下，双方爆发冲突。起义军由杜桑·卢维杜尔领导，展现了卓越的军事才能，最终击败了法军。",
+            "result": "起义军取得胜利，巩固了对北部地区的控制",
+            "significance": "杜桑·卢维杜尔崛起为起义军主要领袖，革命力量开始统一领导",
+            "casualties": {
+              "sideA": "约200人",
+              "sideB": "约400人"
+            },
+            "forces": {
+              "sideA": "约1500名起义军",
+              "sideB": "约1000名法军"
+            },
+            "commanders": [
+              {
+                "name": "杜桑·卢维杜尔",
+                "role": "起义军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "伊萨克·尚邦",
+                "role": "法军指挥官",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争中期",
+        "nameEn": "Middle Phase",
+        "startYear": 1793,
+        "endYear": 1798,
+        "summary": "海地革命中期，法国大革命爆发后，英国和西班牙介入战争，杜桑·卢维杜尔成为革命领袖，开始统一反抗力量，并逐渐摆脱外国控制。",
+        "battles": [
+          {
+            "battleId": "battle_of_trois_rivieres",
+            "name": "三河战役",
+            "nameEn": "Battle of Trois-Rivières",
+            "startYear": 1793,
+            "endYear": 1793,
+            "coords": [
+              -72.7347,
+              19.4544
+            ],
+            "theater": "北部平原",
+            "context": "英国军队入侵海地北部，试图从法国手中夺取殖民地控制权。",
+            "description": "1793年6月，英国军队在海军支援下进攻三河地区。法军指挥官拉斐特率领约2000名士兵抵抗，但面对英军优势兵力被迫撤退。起义军趁机袭击英军补给线，使英军行动受阻。",
+            "result": "英军占领三河，但未能扩大战果，起义军持续骚扰英军后方。",
+            "significance": "标志着英国正式介入海地革命，战争范围扩大，起义军开始成为重要力量。",
+            "casualties": {
+              "sideA": "约300人",
+              "sideB": "约200人"
+            },
+            "forces": {
+              "sideA": "英军约3000人",
+              "sideB": "法军约2000人，起义军约1000人"
+            },
+            "commanders": [
+              {
+                "name": "查尔斯·格雷",
+                "role": "英军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "拉斐特",
+                "role": "法军指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_cap",
+            "name": "角堡战役",
+            "nameEn": "Battle of Cap-Français",
+            "startYear": 1793,
+            "endYear": 1794,
+            "coords": [
+              -72.2057,
+              19.7249
+            ],
+            "theater": "北部海岸",
+            "context": "西班牙支持的起义军与法国殖民军争夺北部重要港口城市角堡。",
+            "description": "1793年底，西班牙支持的起义军围攻法国殖民统治中心角堡。杜桑·卢维杜尔领导起义军采取灵活战术，切断法军补给线。经过数周围攻，法军投降，起义军获得大量武器和物资。",
+            "result": "起义军占领角堡，控制北部沿海地区。",
+            "significance": "杜桑·卢维杜尔展现军事才能，起义军开始统一领导，为后续反法斗争奠定基础。",
+            "casualties": {
+              "sideA": "约500人",
+              "sideB": "约800人"
+            },
+            "forces": {
+              "sideA": "起义军约3000人",
+              "sideB": "法军约2000人"
+            },
+            "commanders": [
+              {
+                "name": "杜桑·卢维杜尔",
+                "role": "起义军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "让-巴蒂斯特·瓦蒂埃",
+                "role": "法军指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_thermos",
+            "name": "特莫斯战役",
+            "nameEn": "Battle of Thermos",
+            "startYear": 1794,
+            "endYear": 1794,
+            "coords": [
+              -72.3167,
+              18.9333
+            ],
+            "theater": "中部山区",
+            "context": "杜桑·卢维杜尔与西班牙军队决裂，转而与法国共和国政府结盟，共同对抗西班牙殖民军。",
+            "description": "1794年4月，杜桑·卢维杜尔率领约5000名起义军，在法国共和国军队支援下，进攻西班牙支持的殖民军。起义军利用地形优势，在特莫斯山谷设伏，击败西班牙军队主力。",
+            "result": "起义军和法军获胜，西班牙军队被迫撤退。",
+            "significance": "杜桑·卢维杜尔与法国共和国结盟，获得国际承认，起义军力量大增。",
+            "casualties": {
+              "sideA": "约300人",
+              "sideB": "约600人"
+            },
+            "forces": {
+              "sideA": "起义军约5000人，法军约2000人",
+              "sideB": "西班牙殖民军约4000人"
+            },
+            "commanders": [
+              {
+                "name": "杜桑·卢维杜尔",
+                "role": "起义军总指挥",
+                "side": "sideA"
+              },
+              {
+                "name": "伊格纳西奥·玛丽亚·德·阿尔enza",
+                "role": "西班牙军队指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_acul",
+            "name": "阿库尔战役",
+            "nameEn": "Battle of Acul",
+            "startYear": 1795,
+            "endYear": 1795,
+            "coords": [
+              -72.4167,
+              19.5833
+            ],
+            "theater": "北部平原",
+            "context": "英国军队再次进攻北部地区，试图切断起义军与法军的联系。",
+            "description": "1795年3月，英军约6000人在海军支援下进攻阿库尔地区。杜桑·卢维杜尔率领起义军约4000人，与法军协同作战。起义军采用游击战术，切断英军补给线，最终迫使英军撤退。",
+            "result": "起义军和法军成功击退英军进攻。",
+            "significance": "起义军成功保卫北部地区，展示出强大的组织能力和军事才能。",
+            "casualties": {
+              "sideA": "约400人",
+              "sideB": "约800人"
+            },
+            "forces": {
+              "sideA": "起义军约4000人，法军约2000人",
+              "sideB": "英军约6000人"
+            },
+            "commanders": [
+              {
+                "name": "杜桑·卢维杜尔",
+                "role": "起义军总指挥",
+                "side": "sideA"
+              },
+              {
+                "name": "托马斯·梅特兰",
+                "role": "英军指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_crayennes",
+            "name": "克兰耶斯战役",
+            "nameEn": "Battle of Crayennes",
+            "startYear": 1798,
+            "endYear": 1798,
+            "coords": [
+              -72.05,
+              18.8333
+            ],
+            "theater": "中部山区",
+            "context": "杜桑·卢维杜尔与法国共和国政府关系恶化，开始独立领导起义军，对抗法国殖民军。",
+            "description": "1798年10月，杜桑·卢维杜尔率领约8000名起义军，在克兰耶斯地区与法国殖民军约6000人交战。起义军利用地形优势，采取分割包围战术，击败法军主力，迫使法军撤退。",
+            "result": "起义军获胜，完全控制中部地区。",
+            "significance": "杜桑·卢维杜尔完全掌握起义军领导权，开始独立领导海地革命，为最终独立奠定基础。",
+            "casualties": {
+              "sideA": "约500人",
+              "sideB": "约1000人"
+            },
+            "forces": {
+              "sideA": "起义军约8000人",
+              "sideB": "法军约6000人"
+            },
+            "commanders": [
+              {
+                "name": "杜桑·卢维杜尔",
+                "role": "起义军总指挥",
+                "side": "sideA"
+              },
+              {
+                "name": "加斯帕德·罗尚博",
+                "role": "法军指挥官",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "majorBattles": [],
+    "cognitiveWarfare": {
+      "psyOps": [
+        "法国殖民者散布起义军是野蛮食人族的谣言，以妖魔化革命",
+        "起义军利用伏都教信仰作为心理武器，制造殖民者恐惧",
+        "法国方面承诺给予自由人以平等权利以分化起义军内部",
+        "起义军传播法国大革命理念，争取国际舆论支持",
+        "双方均使用处决和公开处决作为心理威慑手段"
+      ],
+      "propagandaComparison": "法国殖民势力将起义描绘为野蛮人对文明世界的威胁，强调奴隶制对黑人的'保护'作用，并利用当时欧洲种族主义思想为其辩护。起义军则借用法国大革命'自由、平等、博爱'理念，将自身定位为争取基本人权的解放者，通过宣传法国革命理念的虚伪性来揭露殖民者的双重标准。双方都利用宗教符号：法国强调基督教文明，起义军则利用伏都教作为精神纽带和抵抗象征。起义军的信息战更为成功，成功将革命塑造为正义事业，而法国的宣传逐渐失去国际支持。",
+      "collaborators": [
+        "法国殖民政府中的自由黑人精英",
+        "被殖民者收买的'国王'亨利·克里斯托夫早期合作者",
+        "部分与殖民者合作的种植园主",
+        "法国革命后试图维持殖民秩序的地方官员"
+      ],
+      "informationWarfare": "海地革命中，起义军通过口头传播、秘密信使和起义报纸等方式构建信息网络，有效协调分散的起义行动。法国则控制官方媒体，发布虚假信息分化起义军。起义军成功利用国际舆论，特别是美国和英国废奴主义者支持，削弱法国殖民合法性。双方都使用情报收集和反间谍手段，起义军通过渗透殖民政府获取关键信息，而法国则试图截获起义军通讯。最终，起义军的信息战更为成功，成功塑造了革命正义形象，获得国际同情，加速了法国殖民统治的崩溃。"
+    },
+    "economics": {
+      "resourceDependency": {
+        "sideA": {
+          "summary": "海地革命中的奴隶起义者依赖当地农业资源，特别是甘蔗、咖啡和棉花种植园的产出。他们夺取了种植园的粮食和工具，利用当地自然资源维持战争，但缺乏外部资源支持，主要依靠游击战术和内部资源循环。"
+        },
+        "sideB": {
+          "summary": "法国殖民者依赖从欧洲进口的武器、弹药和军事装备，同时依靠奴隶劳动维持种植园经济。他们的经济基础建立在奴隶制之上，革命导致劳动力大量流失，经济崩溃，无法维持长期战争投入。"
+        }
+      },
+      "foreignAid": [
+        {
+          "from": "西班牙",
+          "to": "海地起义者",
+          "program": "军事援助计划",
+          "content": "提供武器、弹药和军事训练，以对抗法国殖民者"
+        },
+        {
+          "from": "英国",
+          "to": "法国殖民者",
+          "program": "封锁援助",
+          "content": "试图通过海上封锁削弱革命力量，但最终失败"
+        }
+      ],
+      "warBudget": "战争总开支估算约1.2亿法郎，包括军事装备、雇佣军费用和重建成本",
+      "economicDisruption": "革命导致海地经济完全崩溃，90%以上的种植园被毁，出口贸易中断，基础设施严重损毁。法国失去其最富有的殖民地，加勒比地区贸易格局重组，奴隶制经济模式受到根本性冲击，海地成为第一个黑人共和国，但长期陷入贫困和国际孤立。"
+    }
+  },
+  "timeline": [
+    {
+      "year": 1791,
+      "event": "奴隶起义爆发",
+      "type": "crisis",
+      "description": "在法国大革命思想影响下，海地北部爆发大规模奴隶起义，由杜桑·卢维杜尔领导",
+      "impact": "标志着海地革命正式开始，动摇了法国殖民统治基础"
+    },
+    {
+      "year": 1793,
+      "event": "法国废除奴隶制",
+      "type": "diplomacy",
+      "description": "法国国民公会宣布废除海地奴隶制，试图争取自由黑人支持",
+      "impact": "暂时分化了革命力量，但未能阻止独立运动发展"
+    },
+    {
+      "year": 1794,
+      "event": "西班牙与英国介入",
+      "type": "crisis",
+      "description": "西班牙和英国分别支持不同派别介入海地冲突，企图削弱法国势力",
+      "impact": "使海地革命局势复杂化，但也为革命者提供了利用列强矛盾的机会"
+    },
+    {
+      "year": 1797,
+      "event": "杜桑·卢维杜尔统一领导",
+      "type": "leadership",
+      "description": "杜桑·卢维杜尔成为革命统一领袖，击败多个对手并控制大部分海地领土",
+      "impact": "确立了革命领导核心，为独立建国奠定了基础"
+    },
+    {
+      "year": 1801,
+      "event": "颁布宪法宣布自治",
+      "type": "decision",
+      "description": "杜桑·卢维杜尔颁布宪法，宣布海地为自治共和国，并任终身总督",
+      "impact": "实质上宣告了海地独立，直接导致拿破仑派遣军队镇压"
+    },
+    {
+      "year": 1804,
+      "event": "海地共和国成立",
+      "type": "decision",
+      "description": "让-雅克·德萨林宣布海地独立，成为世界上第一个黑人共和国",
+      "impact": "结束了法国殖民统治，开创了黑人自主国家的历史先河"
+    },
+    {
+      "year": 1806,
+      "event": "德萨林遇刺",
+      "type": "leadership",
+      "description": "海地第一位总统德萨林被暗杀，国家陷入政治动荡",
+      "impact": "导致海地分裂为北方和南方两个政权，国家长期不稳定"
+    },
+    {
+      "year": 1818,
+      "event": "亨利·克里斯托夫称王",
+      "type": "leadership",
+      "description": "北方领导人亨利·克里斯托夫自立为亨利一世国王",
+      "impact": "建立了海地王国，实行专制统治，但促进了北方地区的发展"
+    },
+    {
+      "year": 1820,
+      "event": "亚历山大·佩蒂翁去世",
+      "type": "leadership",
+      "description": "南方领导人亚历山大·佩蒂翁去世，继任者让-皮埃尔·布瓦耶统一全国",
+      "impact": "结束了海地南北分裂局面，布瓦耶成为国家统一者"
+    },
+    {
+      "year": 1825,
+      "event": "法国承认海地独立",
+      "type": "diplomacy",
+      "description": "法国与海地签订条约，正式承认海地独立",
+      "impact": "海地被迫向法国支付巨额赔款，相当于独立后数十年的国家收入，严重影响经济发展"
+    }
+  ]
+}

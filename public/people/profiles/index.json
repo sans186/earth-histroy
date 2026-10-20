@@ -1,5 +1,38 @@
 [
   {
+    "personId": "naramsin",
+    "name": "纳拉姆辛",
+    "nameEn": "Naramsin",
+    "birth": -2254,
+    "death": -2218,
+    "nationality": "阿卡德",
+    "nationalityEn": "Akkadian",
+    "totalPoints": 3,
+    "era": "古代"
+  },
+  {
+    "personId": "thutmose-iii",
+    "name": "图特摩斯三世",
+    "nameEn": "Thutmose III",
+    "birth": -1470,
+    "death": -1425,
+    "nationality": "埃及",
+    "nationalityEn": "Egyptian",
+    "totalPoints": 3,
+    "era": "古代"
+  },
+  {
+    "personId": "ramses-ii",
+    "name": "拉美西斯二世",
+    "nameEn": "Ramses II",
+    "birth": -1275,
+    "death": -1213,
+    "nationality": "古埃及",
+    "nationalityEn": "Ancient Egypt",
+    "totalPoints": 3,
+    "era": "古代"
+  },
+  {
     "personId": "homer",
     "name": "荷马",
     "nameEn": "Homer",
@@ -41,6 +74,17 @@
     "nationality": "中国",
     "nationalityEn": "China",
     "totalPoints": 5,
+    "era": "古代"
+  },
+  {
+    "personId": "pericles",
+    "name": "伯里克利",
+    "nameEn": "Pericles",
+    "birth": -495,
+    "death": -429,
+    "nationality": "古希腊",
+    "nationalityEn": "Ancient Greek",
+    "totalPoints": 3,
     "era": "古代"
   },
   {
@@ -825,17 +869,6 @@
     "era": "近代早期"
   },
   {
-    "personId": "bloody-mary",
-    "name": "血腥玛丽",
-    "nameEn": "Mary I of England",
-    "birth": 1516,
-    "death": 1558,
-    "nationality": "英格兰",
-    "nationalityEn": "English",
-    "totalPoints": 5,
-    "era": "近代早期"
-  },
-  {
     "personId": "mary-i-england",
     "name": "玛丽一世",
     "nameEn": "Mary I of England",
@@ -849,6 +882,17 @@
   {
     "personId": "mary-i-of-england",
     "name": "玛丽一世",
+    "nameEn": "Mary I of England",
+    "birth": 1516,
+    "death": 1558,
+    "nationality": "英格兰",
+    "nationalityEn": "English",
+    "totalPoints": 5,
+    "era": "近代早期"
+  },
+  {
+    "personId": "bloody-mary",
+    "name": "血腥玛丽",
     "nameEn": "Mary I of England",
     "birth": 1516,
     "death": 1558,
@@ -1166,17 +1210,6 @@
     "era": "近代早期"
   },
   {
-    "personId": "jan-vermeer",
-    "name": "约翰内斯·维米尔",
-    "nameEn": "Johannes Vermeer",
-    "birth": 1632,
-    "death": 1675,
-    "nationality": "荷兰",
-    "nationalityEn": "Dutch Republic",
-    "totalPoints": 4,
-    "era": "近代早期"
-  },
-  {
     "personId": "john-locke",
     "name": "约翰·洛克",
     "nameEn": "John Locke",
@@ -1185,6 +1218,17 @@
     "nationality": "英国",
     "nationalityEn": "United Kingdom",
     "totalPoints": 5,
+    "era": "近代早期"
+  },
+  {
+    "personId": "jan-vermeer",
+    "name": "约翰内斯·维米尔",
+    "nameEn": "Johannes Vermeer",
+    "birth": 1632,
+    "death": 1675,
+    "nationality": "荷兰",
+    "nationalityEn": "Dutch Republic",
+    "totalPoints": 4,
     "era": "近代早期"
   },
   {
@@ -1265,17 +1309,6 @@
     "era": "近代早期"
   },
   {
-    "personId": "george-berkeley",
-    "name": "乔治·贝克莱",
-    "nameEn": "George Berkeley",
-    "birth": 1685,
-    "death": 1753,
-    "nationality": "爱尔兰",
-    "nationalityEn": "Irish",
-    "totalPoints": 5,
-    "era": "近代早期"
-  },
-  {
     "personId": "handel-handel",
     "name": "亨德尔",
     "nameEn": "George Frideric Handel",
@@ -1283,6 +1316,17 @@
     "death": 1759,
     "nationality": "德国",
     "nationalityEn": "German",
+    "totalPoints": 5,
+    "era": "近代早期"
+  },
+  {
+    "personId": "george-berkeley",
+    "name": "乔治·贝克莱",
+    "nameEn": "George Berkeley",
+    "birth": 1685,
+    "death": 1753,
+    "nationality": "爱尔兰",
+    "nationalityEn": "Irish",
     "totalPoints": 5,
     "era": "近代早期"
   },
@@ -1463,17 +1507,6 @@
     "era": "近代早期"
   },
   {
-    "personId": "george-washington",
-    "name": "乔治·华盛顿",
-    "nameEn": "George Washington",
-    "birth": 1732,
-    "death": 1799,
-    "nationality": "美国",
-    "nationalityEn": "United States",
-    "totalPoints": 6,
-    "era": "近代早期"
-  },
-  {
     "personId": "joseph-haydn",
     "name": "海顿",
     "nameEn": "Joseph Haydn",
@@ -1482,6 +1515,17 @@
     "nationality": "奥地利",
     "nationalityEn": "Austria",
     "totalPoints": 5,
+    "era": "近代早期"
+  },
+  {
+    "personId": "george-washington",
+    "name": "乔治·华盛顿",
+    "nameEn": "George Washington",
+    "birth": 1732,
+    "death": 1799,
+    "nationality": "美国",
+    "nationalityEn": "United States",
+    "totalPoints": 6,
     "era": "近代早期"
   },
   {
@@ -1529,17 +1573,6 @@
     "era": "近代早期"
   },
   {
-    "personId": "alessandro-volta",
-    "name": "亚历山德罗·伏打",
-    "nameEn": "Alessandro Giuseppe Antonio Anastasio Volta",
-    "birth": 1749,
-    "death": 1827,
-    "nationality": "意大利",
-    "nationalityEn": "Italy",
-    "totalPoints": 5,
-    "era": "近代早期"
-  },
-  {
     "personId": "edward-jenner",
     "name": "爱德华·詹纳",
     "nameEn": "Edward Jenner",
@@ -1569,6 +1602,17 @@
     "death": 1827,
     "nationality": "法国",
     "nationalityEn": "France",
+    "totalPoints": 5,
+    "era": "近代早期"
+  },
+  {
+    "personId": "alessandro-volta",
+    "name": "亚历山德罗·伏打",
+    "nameEn": "Alessandro Giuseppe Antonio Anastasio Volta",
+    "birth": 1749,
+    "death": 1827,
+    "nationality": "意大利",
+    "nationalityEn": "Italy",
     "totalPoints": 5,
     "era": "近代早期"
   },
@@ -1617,17 +1661,6 @@
     "era": "近代早期"
   },
   {
-    "personId": "duke-of-wellington",
-    "name": "威灵顿公爵",
-    "nameEn": "Arthur Wellesley, 1st Duke of Wellington",
-    "birth": 1769,
-    "death": 1852,
-    "nationality": "英国",
-    "nationalityEn": "United Kingdom",
-    "totalPoints": 6,
-    "era": "近代早期"
-  },
-  {
     "personId": "napoleon-bonaparte",
     "name": "拿破仑·波拿巴",
     "nameEn": "Napoleon Bonaparte",
@@ -1635,6 +1668,17 @@
     "death": 1821,
     "nationality": "法国",
     "nationalityEn": "France",
+    "totalPoints": 6,
+    "era": "近代早期"
+  },
+  {
+    "personId": "duke-of-wellington",
+    "name": "威灵顿公爵",
+    "nameEn": "Arthur Wellesley, 1st Duke of Wellington",
+    "birth": 1769,
+    "death": 1852,
+    "nationality": "英国",
+    "nationalityEn": "United Kingdom",
     "totalPoints": 6,
     "era": "近代早期"
   },
@@ -1683,17 +1727,6 @@
     "era": "近代早期"
   },
   {
-    "personId": "arthur-schopenhauer",
-    "name": "叔本华",
-    "nameEn": "Arthur Schopenhauer",
-    "birth": 1788,
-    "death": 1860,
-    "nationality": "德国",
-    "nationalityEn": "Germany",
-    "totalPoints": 5,
-    "era": "近代早期"
-  },
-  {
     "personId": "lord-byron",
     "name": "拜伦",
     "nameEn": "George Gordon Byron, 6th Baron Byron",
@@ -1701,6 +1734,17 @@
     "death": 1824,
     "nationality": "英国",
     "nationalityEn": "United Kingdom",
+    "totalPoints": 5,
+    "era": "近代早期"
+  },
+  {
+    "personId": "arthur-schopenhauer",
+    "name": "叔本华",
+    "nameEn": "Arthur Schopenhauer",
+    "birth": 1788,
+    "death": 1860,
+    "nationality": "德国",
+    "nationalityEn": "Germany",
     "totalPoints": 5,
     "era": "近代早期"
   },
@@ -1771,17 +1815,6 @@
     "era": "近代早期"
   },
   {
-    "personId": "alexander-pushkin",
-    "name": "普希金",
-    "nameEn": "Alexander Sergeyevich Pushkin",
-    "birth": 1799,
-    "death": 1837,
-    "nationality": "俄罗斯",
-    "nationalityEn": "Russian Empire",
-    "totalPoints": 5,
-    "era": "近代早期"
-  },
-  {
     "personId": "honore-de-balzac",
     "name": "巴尔扎克",
     "nameEn": "Honoré de Balzac",
@@ -1800,6 +1833,17 @@
     "death": 1847,
     "nationality": "英国",
     "nationalityEn": "United Kingdom",
+    "totalPoints": 5,
+    "era": "近代早期"
+  },
+  {
+    "personId": "alexander-pushkin",
+    "name": "普希金",
+    "nameEn": "Alexander Sergeyevich Pushkin",
+    "birth": 1799,
+    "death": 1837,
+    "nationality": "俄罗斯",
+    "nationalityEn": "Russian Empire",
     "totalPoints": 5,
     "era": "近代早期"
   },
@@ -1848,14 +1892,14 @@
     "era": "19世纪"
   },
   {
-    "personId": "abraham-lincoln",
-    "name": "亚伯拉罕·林肯",
-    "nameEn": "Abraham Lincoln",
+    "personId": "edgar-allan-poe",
+    "name": "爱伦·坡",
+    "nameEn": "Edgar Allan Poe",
     "birth": 1809,
-    "death": 1865,
+    "death": 1849,
     "nationality": "美国",
     "nationalityEn": "United States",
-    "totalPoints": 5,
+    "totalPoints": 6,
     "era": "19世纪"
   },
   {
@@ -1867,17 +1911,6 @@
     "nationality": "英国",
     "nationalityEn": "United Kingdom",
     "totalPoints": 5,
-    "era": "19世纪"
-  },
-  {
-    "personId": "edgar-allan-poe",
-    "name": "爱伦·坡",
-    "nameEn": "Edgar Allan Poe",
-    "birth": 1809,
-    "death": 1849,
-    "nationality": "美国",
-    "nationalityEn": "United States",
-    "totalPoints": 6,
     "era": "19世纪"
   },
   {
@@ -1914,13 +1947,13 @@
     "era": "19世纪"
   },
   {
-    "personId": "camillo-di-cavour",
-    "name": "加富尔",
-    "nameEn": "Camillo Benso, Count of Cavour",
-    "birth": 1810,
-    "death": 1861,
-    "nationality": "意大利",
-    "nationalityEn": "Italy",
+    "personId": "abraham-lincoln",
+    "name": "亚伯拉罕·林肯",
+    "nameEn": "Abraham Lincoln",
+    "birth": 1809,
+    "death": 1865,
+    "nationality": "美国",
+    "nationalityEn": "United States",
     "totalPoints": 5,
     "era": "19世纪"
   },
@@ -1932,6 +1965,17 @@
     "death": 1849,
     "nationality": "波兰/法国",
     "nationalityEn": "Poland/France",
+    "totalPoints": 5,
+    "era": "19世纪"
+  },
+  {
+    "personId": "camillo-di-cavour",
+    "name": "加富尔",
+    "nameEn": "Camillo Benso, Count of Cavour",
+    "birth": 1810,
+    "death": 1861,
+    "nationality": "意大利",
+    "nationalityEn": "Italy",
     "totalPoints": 5,
     "era": "19世纪"
   },
@@ -1958,28 +2002,6 @@
     "era": "19世纪"
   },
   {
-    "personId": "giuseppe-verdi",
-    "name": "朱塞佩·威尔第",
-    "nameEn": "Giuseppe Verdi",
-    "birth": 1813,
-    "death": 1901,
-    "nationality": "意大利",
-    "nationalityEn": "Italy",
-    "totalPoints": 5,
-    "era": "19世纪"
-  },
-  {
-    "personId": "john-snow",
-    "name": "约翰·斯诺",
-    "nameEn": "John Snow",
-    "birth": 1813,
-    "death": 1858,
-    "nationality": "英国",
-    "nationalityEn": "United Kingdom",
-    "totalPoints": 5,
-    "era": "19世纪"
-  },
-  {
     "personId": "richard-wagner",
     "name": "理查德·瓦格纳",
     "nameEn": "Richard Wagner",
@@ -1998,6 +2020,28 @@
     "death": 1855,
     "nationality": "丹麦",
     "nationalityEn": "Denmark",
+    "totalPoints": 5,
+    "era": "19世纪"
+  },
+  {
+    "personId": "john-snow",
+    "name": "约翰·斯诺",
+    "nameEn": "John Snow",
+    "birth": 1813,
+    "death": 1858,
+    "nationality": "英国",
+    "nationalityEn": "United Kingdom",
+    "totalPoints": 5,
+    "era": "19世纪"
+  },
+  {
+    "personId": "giuseppe-verdi",
+    "name": "朱塞佩·威尔第",
+    "nameEn": "Giuseppe Verdi",
+    "birth": 1813,
+    "death": 1901,
+    "nationality": "意大利",
+    "nationalityEn": "Italy",
     "totalPoints": 5,
     "era": "19世纪"
   },
@@ -2046,17 +2090,6 @@
     "era": "19世纪"
   },
   {
-    "personId": "ivan-turgenev",
-    "name": "屠格涅夫",
-    "nameEn": "Ivan Sergeyevich Turgenev",
-    "birth": 1818,
-    "death": 1883,
-    "nationality": "俄罗斯",
-    "nationalityEn": "Russian",
-    "totalPoints": 6,
-    "era": "19世纪"
-  },
-  {
     "personId": "karl-marx",
     "name": "卡尔·马克思",
     "nameEn": "Karl Marx",
@@ -2064,6 +2097,17 @@
     "death": 1883,
     "nationality": "德国",
     "nationalityEn": "German",
+    "totalPoints": 6,
+    "era": "19世纪"
+  },
+  {
+    "personId": "ivan-turgenev",
+    "name": "屠格涅夫",
+    "nameEn": "Ivan Sergeyevich Turgenev",
+    "birth": 1818,
+    "death": 1883,
+    "nationality": "俄罗斯",
+    "nationalityEn": "Russian",
     "totalPoints": 6,
     "era": "19世纪"
   },
@@ -2090,17 +2134,6 @@
     "era": "19世纪"
   },
   {
-    "personId": "florence-nightingale",
-    "name": "弗洛伦斯·南丁格尔",
-    "nameEn": "Florence Nightingale",
-    "birth": 1820,
-    "death": 1910,
-    "nationality": "英国",
-    "nationalityEn": "United Kingdom",
-    "totalPoints": 5,
-    "era": "19世纪"
-  },
-  {
     "personId": "friedrich-engels",
     "name": "弗里德里希·恩格斯",
     "nameEn": "Friedrich Engels",
@@ -2112,6 +2145,17 @@
     "era": "19世纪"
   },
   {
+    "personId": "florence-nightingale",
+    "name": "弗洛伦斯·南丁格尔",
+    "nameEn": "Florence Nightingale",
+    "birth": 1820,
+    "death": 1910,
+    "nationality": "英国",
+    "nationalityEn": "United Kingdom",
+    "totalPoints": 5,
+    "era": "19世纪"
+  },
+  {
     "personId": "herbert-spencer",
     "name": "赫伯特·斯宾塞",
     "nameEn": "Herbert Spencer",
@@ -2119,17 +2163,6 @@
     "death": 1903,
     "nationality": "英国",
     "nationalityEn": "United Kingdom",
-    "totalPoints": 5,
-    "era": "19世纪"
-  },
-  {
-    "personId": "charles-baudelaire",
-    "name": "夏尔·波德莱尔",
-    "nameEn": "Charles Baudelaire",
-    "birth": 1821,
-    "death": 1867,
-    "nationality": "法国",
-    "nationalityEn": "France",
     "totalPoints": 5,
     "era": "19世纪"
   },
@@ -2156,13 +2189,13 @@
     "era": "19世纪"
   },
   {
-    "personId": "gregor-mendel",
-    "name": "孟德尔",
-    "nameEn": "Gregor Mendel",
-    "birth": 1822,
-    "death": 1884,
-    "nationality": "奥地利",
-    "nationalityEn": "Austrian",
+    "personId": "charles-baudelaire",
+    "name": "夏尔·波德莱尔",
+    "nameEn": "Charles Baudelaire",
+    "birth": 1821,
+    "death": 1867,
+    "nationality": "法国",
+    "nationalityEn": "France",
     "totalPoints": 5,
     "era": "19世纪"
   },
@@ -2174,6 +2207,17 @@
     "death": 1895,
     "nationality": "法国",
     "nationalityEn": "France",
+    "totalPoints": 5,
+    "era": "19世纪"
+  },
+  {
+    "personId": "gregor-mendel",
+    "name": "孟德尔",
+    "nameEn": "Gregor Mendel",
+    "birth": 1822,
+    "death": 1884,
+    "nationality": "奥地利",
+    "nationalityEn": "Austrian",
     "totalPoints": 5,
     "era": "19世纪"
   },
@@ -2277,17 +2321,6 @@
     "era": "19世纪"
   },
   {
-    "personId": "dmitrii-mendeleev",
-    "name": "德米特里·门捷列夫",
-    "nameEn": "Dmitrii Mendeleev",
-    "birth": 1834,
-    "death": 1907,
-    "nationality": "俄罗斯",
-    "nationalityEn": "Russian",
-    "totalPoints": 4,
-    "era": "19世纪"
-  },
-  {
     "personId": "edgar-degas",
     "name": "埃德加·德加",
     "nameEn": "Edgar Degas",
@@ -2299,11 +2332,33 @@
     "era": "19世纪"
   },
   {
+    "personId": "dmitrii-mendeleev",
+    "name": "德米特里·门捷列夫",
+    "nameEn": "Dmitrii Mendeleev",
+    "birth": 1834,
+    "death": 1907,
+    "nationality": "俄罗斯",
+    "nationalityEn": "Russian",
+    "totalPoints": 4,
+    "era": "19世纪"
+  },
+  {
     "personId": "paul-cezanne",
     "name": "保罗·塞尚",
     "nameEn": "Paul Cézanne",
     "birth": 1839,
     "death": 1906,
+    "nationality": "法国",
+    "nationalityEn": "France",
+    "totalPoints": 5,
+    "era": "19世纪"
+  },
+  {
+    "personId": "emile-zola",
+    "name": "埃米尔·左拉",
+    "nameEn": "Émile Zola",
+    "birth": 1840,
+    "death": 1902,
     "nationality": "法国",
     "nationalityEn": "France",
     "totalPoints": 5,
@@ -2321,28 +2376,6 @@
     "era": "19世纪"
   },
   {
-    "personId": "claude-monet",
-    "name": "克劳德·莫奈",
-    "nameEn": "Claude Monet",
-    "birth": 1840,
-    "death": 1926,
-    "nationality": "法国",
-    "nationalityEn": "France",
-    "totalPoints": 6,
-    "era": "19世纪"
-  },
-  {
-    "personId": "emile-zola",
-    "name": "埃米尔·左拉",
-    "nameEn": "Émile Zola",
-    "birth": 1840,
-    "death": 1902,
-    "nationality": "法国",
-    "nationalityEn": "France",
-    "totalPoints": 5,
-    "era": "19世纪"
-  },
-  {
     "personId": "pyotr-ilyich-tchaikovsky",
     "name": "彼得·伊里奇·柴可夫斯基",
     "nameEn": "Pyotr Ilyich Tchaikovsky",
@@ -2350,6 +2383,17 @@
     "death": 1893,
     "nationality": "俄罗斯",
     "nationalityEn": "Russian Empire",
+    "totalPoints": 6,
+    "era": "19世纪"
+  },
+  {
+    "personId": "claude-monet",
+    "name": "克劳德·莫奈",
+    "nameEn": "Claude Monet",
+    "birth": 1840,
+    "death": 1926,
+    "nationality": "法国",
+    "nationalityEn": "France",
     "totalPoints": 6,
     "era": "19世纪"
   },
@@ -2552,17 +2596,6 @@
     "era": "19世纪"
   },
   {
-    "personId": "alphonse-mucha",
-    "name": "穆夏",
-    "nameEn": "Alphonse Mucha",
-    "birth": 1860,
-    "death": 1939,
-    "nationality": "捷克",
-    "nationalityEn": "Czech",
-    "totalPoints": 6,
-    "era": "19世纪"
-  },
-  {
     "personId": "anton-chekhov",
     "name": "安东·契诃夫",
     "nameEn": "Anton Pavlovich Chekhov",
@@ -2585,6 +2618,17 @@
     "era": "19世纪"
   },
   {
+    "personId": "alphonse-mucha",
+    "name": "穆夏",
+    "nameEn": "Alphonse Mucha",
+    "birth": 1860,
+    "death": 1939,
+    "nationality": "捷克",
+    "nationalityEn": "Czech",
+    "totalPoints": 6,
+    "era": "19世纪"
+  },
+  {
     "personId": "rabindranath-tagore",
     "name": "泰戈尔",
     "nameEn": "Rabindranath Tagore",
@@ -2596,17 +2640,6 @@
     "era": "19世纪"
   },
   {
-    "personId": "claude-debussy",
-    "name": "克洛德·德彪西",
-    "nameEn": "Claude Debussy",
-    "birth": 1862,
-    "death": 1918,
-    "nationality": "法国",
-    "nationalityEn": "France",
-    "totalPoints": 5,
-    "era": "19世纪"
-  },
-  {
     "personId": "gustav-klimt",
     "name": "古斯塔夫·克里姆特",
     "nameEn": "Gustav Klimt",
@@ -2614,6 +2647,17 @@
     "death": 1918,
     "nationality": "奥地利",
     "nationalityEn": "Austria",
+    "totalPoints": 5,
+    "era": "19世纪"
+  },
+  {
+    "personId": "claude-debussy",
+    "name": "克洛德·德彪西",
+    "nameEn": "Claude Debussy",
+    "birth": 1862,
+    "death": 1918,
+    "nationality": "法国",
+    "nationalityEn": "France",
     "totalPoints": 5,
     "era": "19世纪"
   },
@@ -2673,17 +2717,6 @@
     "era": "19世纪"
   },
   {
-    "personId": "mahatma-gandhi",
-    "name": "圣雄甘地",
-    "nameEn": "Mahatma Mohandas Karamchand Gandhi",
-    "birth": 1869,
-    "death": 1948,
-    "nationality": "印度",
-    "nationalityEn": "India",
-    "totalPoints": 6,
-    "era": "19世纪"
-  },
-  {
     "personId": "neville-chamberlain",
     "name": "内维尔·张伯伦",
     "nameEn": "Neville Chamberlain",
@@ -2692,6 +2725,17 @@
     "nationality": "英国",
     "nationalityEn": "United Kingdom",
     "totalPoints": 5,
+    "era": "19世纪"
+  },
+  {
+    "personId": "mahatma-gandhi",
+    "name": "圣雄甘地",
+    "nameEn": "Mahatma Mohandas Karamchand Gandhi",
+    "birth": 1869,
+    "death": 1948,
+    "nationality": "印度",
+    "nationalityEn": "India",
+    "totalPoints": 6,
     "era": "19世纪"
   },
   {
@@ -2706,13 +2750,13 @@
     "era": "19世纪"
   },
   {
-    "personId": "ernest-rutherford",
-    "name": "欧内斯特·卢瑟福",
-    "nameEn": "Ernest Rutherford",
+    "personId": "rosa-luxemburg",
+    "name": "罗莎·卢森堡",
+    "nameEn": "Rosa Luxemburg",
     "birth": 1871,
-    "death": 1937,
-    "nationality": "新西兰",
-    "nationalityEn": "New Zealand",
+    "death": 1919,
+    "nationality": "波兰/德国",
+    "nationalityEn": "Poland/Germany",
     "totalPoints": 5,
     "era": "19世纪"
   },
@@ -2728,13 +2772,13 @@
     "era": "19世纪"
   },
   {
-    "personId": "rosa-luxemburg",
-    "name": "罗莎·卢森堡",
-    "nameEn": "Rosa Luxemburg",
+    "personId": "ernest-rutherford",
+    "name": "欧内斯特·卢瑟福",
+    "nameEn": "Ernest Rutherford",
     "birth": 1871,
-    "death": 1919,
-    "nationality": "波兰/德国",
-    "nationalityEn": "Poland/Germany",
+    "death": 1937,
+    "nationality": "新西兰",
+    "nationalityEn": "New Zealand",
     "totalPoints": 5,
     "era": "19世纪"
   },
@@ -2871,25 +2915,14 @@
     "era": "19世纪"
   },
   {
-    "personId": "alexander-fleming",
-    "name": "亚历山大·弗莱明",
-    "nameEn": "Alexander Fleming",
+    "personId": "picasso",
+    "name": "巴勃罗·毕加索",
+    "nameEn": "Pablo Picasso",
     "birth": 1881,
-    "death": 1955,
-    "nationality": "英国",
-    "nationalityEn": "United Kingdom",
-    "totalPoints": 5,
-    "era": "19世纪"
-  },
-  {
-    "personId": "lu-xun",
-    "name": "鲁迅",
-    "nameEn": "Lu Xun",
-    "birth": 1881,
-    "death": 1936,
-    "nationality": "中国",
-    "nationalityEn": "China",
-    "totalPoints": 5,
+    "death": 1973,
+    "nationality": "西班牙/法国",
+    "nationalityEn": "Spain/France",
+    "totalPoints": 6,
     "era": "19世纪"
   },
   {
@@ -2904,14 +2937,25 @@
     "era": "19世纪"
   },
   {
-    "personId": "picasso",
-    "name": "巴勃罗·毕加索",
-    "nameEn": "Pablo Picasso",
+    "personId": "lu-xun",
+    "name": "鲁迅",
+    "nameEn": "Lu Xun",
     "birth": 1881,
-    "death": 1973,
-    "nationality": "西班牙/法国",
-    "nationalityEn": "Spain/France",
-    "totalPoints": 6,
+    "death": 1936,
+    "nationality": "中国",
+    "nationalityEn": "China",
+    "totalPoints": 5,
+    "era": "19世纪"
+  },
+  {
+    "personId": "alexander-fleming",
+    "name": "亚历山大·弗莱明",
+    "nameEn": "Alexander Fleming",
+    "birth": 1881,
+    "death": 1955,
+    "nationality": "英国",
+    "nationalityEn": "United Kingdom",
+    "totalPoints": 5,
     "era": "19世纪"
   },
   {
@@ -2970,17 +3014,6 @@
     "era": "19世纪"
   },
   {
-    "personId": "coco-chanel",
-    "name": "可可·香奈儿",
-    "nameEn": "Coco Chanel",
-    "birth": 1883,
-    "death": 1971,
-    "nationality": "法国",
-    "nationalityEn": "France",
-    "totalPoints": 6,
-    "era": "19世纪"
-  },
-  {
     "personId": "franz-kafka",
     "name": "弗兰兹·卡夫卡",
     "nameEn": "Franz Kafka",
@@ -3003,6 +3036,17 @@
     "era": "19世纪"
   },
   {
+    "personId": "coco-chanel",
+    "name": "可可·香奈儿",
+    "nameEn": "Coco Chanel",
+    "birth": 1883,
+    "death": 1971,
+    "nationality": "法国",
+    "nationalityEn": "France",
+    "totalPoints": 6,
+    "era": "19世纪"
+  },
+  {
     "personId": "john-maynard-keynes",
     "name": "约翰·梅纳德·凯恩斯",
     "nameEn": "John Maynard Keynes",
@@ -3010,17 +3054,6 @@
     "death": 1946,
     "nationality": "英国",
     "nationalityEn": "United Kingdom",
-    "totalPoints": 5,
-    "era": "19世纪"
-  },
-  {
-    "personId": "harry-truman",
-    "name": "哈里·杜鲁门",
-    "nameEn": "Harry S. Truman",
-    "birth": 1884,
-    "death": 1972,
-    "nationality": "美国",
-    "nationalityEn": "United States",
     "totalPoints": 5,
     "era": "19世纪"
   },
@@ -3033,6 +3066,17 @@
     "nationality": "日本",
     "nationalityEn": "Japan",
     "totalPoints": 6,
+    "era": "19世纪"
+  },
+  {
+    "personId": "harry-truman",
+    "name": "哈里·杜鲁门",
+    "nameEn": "Harry S. Truman",
+    "birth": 1884,
+    "death": 1972,
+    "nationality": "美国",
+    "nationalityEn": "United States",
+    "totalPoints": 5,
     "era": "19世纪"
   },
   {
@@ -3069,28 +3113,6 @@
     "era": "19世纪"
   },
   {
-    "personId": "georgia-okeeffe",
-    "name": "乔治亚·欧姬芙",
-    "nameEn": "Georgia O'Keeffe",
-    "birth": 1887,
-    "death": 1986,
-    "nationality": "美国",
-    "nationalityEn": "United States",
-    "totalPoints": 6,
-    "era": "19世纪"
-  },
-  {
-    "personId": "heitor-villa-lobos",
-    "name": "维拉-罗伯斯",
-    "nameEn": "Heitor Villa-Lobos",
-    "birth": 1887,
-    "death": 1959,
-    "nationality": "巴西",
-    "nationalityEn": "Brazil",
-    "totalPoints": 5,
-    "era": "19世纪"
-  },
-  {
     "personId": "le-corbusier",
     "name": "勒·柯布西耶",
     "nameEn": "Le Corbusier",
@@ -3113,14 +3135,25 @@
     "era": "19世纪"
   },
   {
-    "personId": "heinz-guderian",
-    "name": "海因茨·古德里安",
-    "nameEn": "Heinz Wilhelm Guderian",
-    "birth": 1888,
-    "death": 1954,
-    "nationality": "德国",
-    "nationalityEn": "Germany",
+    "personId": "georgia-okeeffe",
+    "name": "乔治亚·欧姬芙",
+    "nameEn": "Georgia O'Keeffe",
+    "birth": 1887,
+    "death": 1986,
+    "nationality": "美国",
+    "nationalityEn": "United States",
     "totalPoints": 6,
+    "era": "19世纪"
+  },
+  {
+    "personId": "heitor-villa-lobos",
+    "name": "维拉-罗伯斯",
+    "nameEn": "Heitor Villa-Lobos",
+    "birth": 1887,
+    "death": 1959,
+    "nationality": "巴西",
+    "nationalityEn": "Brazil",
+    "totalPoints": 5,
     "era": "19世纪"
   },
   {
@@ -3131,6 +3164,17 @@
     "death": 1938,
     "nationality": "俄罗斯",
     "nationalityEn": "Russian",
+    "totalPoints": 6,
+    "era": "19世纪"
+  },
+  {
+    "personId": "heinz-guderian",
+    "name": "海因茨·古德里安",
+    "nameEn": "Heinz Wilhelm Guderian",
+    "birth": 1888,
+    "death": 1954,
+    "nationality": "德国",
+    "nationalityEn": "Germany",
     "totalPoints": 6,
     "era": "19世纪"
   },
@@ -3157,17 +3201,6 @@
     "era": "19世纪"
   },
   {
-    "personId": "charlie-chaplin",
-    "name": "查理·卓别林",
-    "nameEn": "Charlie Chaplin",
-    "birth": 1889,
-    "death": 1977,
-    "nationality": "英国/美国",
-    "nationalityEn": "British/American",
-    "totalPoints": 5,
-    "era": "19世纪"
-  },
-  {
     "personId": "edwin-hubble",
     "name": "埃德温·哈勃",
     "nameEn": "Edwin Powell Hubble",
@@ -3176,6 +3209,17 @@
     "nationality": "美国",
     "nationalityEn": "United States",
     "totalPoints": 4,
+    "era": "19世纪"
+  },
+  {
+    "personId": "charlie-chaplin",
+    "name": "查理·卓别林",
+    "nameEn": "Charlie Chaplin",
+    "birth": 1889,
+    "death": 1977,
+    "nationality": "英国/美国",
+    "nationalityEn": "British/American",
+    "totalPoints": 5,
     "era": "19世纪"
   },
   {
@@ -3198,6 +3242,17 @@
     "nationality": "奥地利/英国",
     "nationalityEn": "Austria/United Kingdom",
     "totalPoints": 6,
+    "era": "19世纪"
+  },
+  {
+    "personId": "henry-norman-bethune",
+    "name": "白求恩",
+    "nameEn": "Henry Norman Bethune",
+    "birth": 1890,
+    "death": 1939,
+    "nationality": "加拿大",
+    "nationalityEn": "Canada",
+    "totalPoints": 5,
     "era": "19世纪"
   },
   {
@@ -3230,17 +3285,6 @@
     "death": 1957,
     "nationality": "德国",
     "nationalityEn": "Germany",
-    "totalPoints": 5,
-    "era": "19世纪"
-  },
-  {
-    "personId": "henry-norman-bethune",
-    "name": "白求恩",
-    "nameEn": "Henry Norman Bethune",
-    "birth": 1890,
-    "death": 1939,
-    "nationality": "加拿大",
-    "nationalityEn": "Canada",
     "totalPoints": 5,
     "era": "19世纪"
   },
@@ -3300,17 +3344,6 @@
     "era": "19世纪"
   },
   {
-    "personId": "j-r-r-tolkien",
-    "name": "约翰·罗纳德·瑞尔·托尔金",
-    "nameEn": "John Ronald Reuel Tolkien",
-    "birth": 1892,
-    "death": 1973,
-    "nationality": "英国",
-    "nationalityEn": "United Kingdom",
-    "totalPoints": 5,
-    "era": "19世纪"
-  },
-  {
     "personId": "tito",
     "name": "铁托",
     "nameEn": "Josip Broz Tito",
@@ -3319,6 +3352,17 @@
     "nationality": "南斯拉夫",
     "nationalityEn": "Yugoslavia",
     "totalPoints": 6,
+    "era": "19世纪"
+  },
+  {
+    "personId": "j-r-r-tolkien",
+    "name": "约翰·罗纳德·瑞尔·托尔金",
+    "nameEn": "John Ronald Reuel Tolkien",
+    "birth": 1892,
+    "death": 1973,
+    "nationality": "英国",
+    "nationalityEn": "United Kingdom",
+    "totalPoints": 5,
     "era": "19世纪"
   },
   {
@@ -3377,13 +3421,13 @@
     "era": "19世纪"
   },
   {
-    "personId": "georgy-zhukov",
-    "name": "朱可夫",
-    "nameEn": "Georgy Konstantinovich Zhukov",
+    "personId": "mao-dun",
+    "name": "茅盾",
+    "nameEn": "Mao Dun",
     "birth": 1896,
-    "death": 1974,
-    "nationality": "苏联",
-    "nationalityEn": "Soviet Union",
+    "death": 1981,
+    "nationality": "中国",
+    "nationalityEn": "China",
     "totalPoints": 6,
     "era": "19世纪"
   },
@@ -3399,14 +3443,25 @@
     "era": "19世纪"
   },
   {
-    "personId": "mao-dun",
-    "name": "茅盾",
-    "nameEn": "Mao Dun",
+    "personId": "georgy-zhukov",
+    "name": "朱可夫",
+    "nameEn": "Georgy Konstantinovich Zhukov",
     "birth": 1896,
-    "death": 1981,
-    "nationality": "中国",
-    "nationalityEn": "China",
+    "death": 1974,
+    "nationality": "苏联",
+    "nationalityEn": "Soviet Union",
     "totalPoints": 6,
+    "era": "19世纪"
+  },
+  {
+    "personId": "william-faulkner",
+    "name": "威廉·福克纳",
+    "nameEn": "William Faulkner",
+    "birth": 1897,
+    "death": 1962,
+    "nationality": "美国",
+    "nationalityEn": "United States",
+    "totalPoints": 5,
     "era": "19世纪"
   },
   {
@@ -3421,11 +3476,22 @@
     "era": "19世纪"
   },
   {
-    "personId": "william-faulkner",
-    "name": "威廉·福克纳",
-    "nameEn": "William Faulkner",
-    "birth": 1897,
-    "death": 1962,
+    "personId": "peng-dehuai",
+    "name": "彭德怀",
+    "nameEn": "Peng Dehuai",
+    "birth": 1898,
+    "death": 1974,
+    "nationality": "中国",
+    "nationalityEn": "China",
+    "totalPoints": 5,
+    "era": "19世纪"
+  },
+  {
+    "personId": "george-gershwin",
+    "name": "乔治·格什温",
+    "nameEn": "George Gershwin",
+    "birth": 1898,
+    "death": 1937,
     "nationality": "美国",
     "nationalityEn": "United States",
     "totalPoints": 5,
@@ -3443,28 +3509,6 @@
     "era": "19世纪"
   },
   {
-    "personId": "george-gershwin",
-    "name": "乔治·格什温",
-    "nameEn": "George Gershwin",
-    "birth": 1898,
-    "death": 1937,
-    "nationality": "美国",
-    "nationalityEn": "United States",
-    "totalPoints": 5,
-    "era": "19世纪"
-  },
-  {
-    "personId": "peng-dehuai",
-    "name": "彭德怀",
-    "nameEn": "Peng Dehuai",
-    "birth": 1898,
-    "death": 1974,
-    "nationality": "中国",
-    "nationalityEn": "China",
-    "totalPoints": 5,
-    "era": "19世纪"
-  },
-  {
     "personId": "alfred-hitchcock",
     "name": "阿尔弗雷德·希区柯克",
     "nameEn": "Alfred Hitchcock",
@@ -3472,6 +3516,17 @@
     "death": 1980,
     "nationality": "英国/美国",
     "nationalityEn": "British/American",
+    "totalPoints": 6,
+    "era": "19世纪"
+  },
+  {
+    "personId": "kawabata-yasunari",
+    "name": "川端康成",
+    "nameEn": "Yasunari Kawabata",
+    "birth": 1899,
+    "death": 1972,
+    "nationality": "日本",
+    "nationalityEn": "Japan",
     "totalPoints": 6,
     "era": "19世纪"
   },
@@ -3487,13 +3542,13 @@
     "era": "19世纪"
   },
   {
-    "personId": "ernest-hemingway",
-    "name": "欧内斯特·海明威",
-    "nameEn": "Ernest Hemingway",
+    "personId": "vladimir-nabokov",
+    "name": "弗拉基米尔·纳博科夫",
+    "nameEn": "Vladimir Vladimirovich Nabokov",
     "birth": 1899,
-    "death": 1961,
-    "nationality": "美国",
-    "nationalityEn": "United States",
+    "death": 1977,
+    "nationality": "俄罗斯/美国",
+    "nationalityEn": "Russian/American",
     "totalPoints": 6,
     "era": "19世纪"
   },
@@ -3509,14 +3564,14 @@
     "era": "19世纪"
   },
   {
-    "personId": "kawabata-yasunari",
-    "name": "川端康成",
-    "nameEn": "Yasunari Kawabata",
+    "personId": "lavrentiy-beria",
+    "name": "拉夫连季·贝利亚",
+    "nameEn": "Lavrentiy Beria",
     "birth": 1899,
-    "death": 1972,
-    "nationality": "日本",
-    "nationalityEn": "Japan",
-    "totalPoints": 6,
+    "death": 1953,
+    "nationality": "苏联",
+    "nationalityEn": "Soviet Union",
+    "totalPoints": 5,
     "era": "19世纪"
   },
   {
@@ -3531,24 +3586,13 @@
     "era": "19世纪"
   },
   {
-    "personId": "lavrentiy-beria",
-    "name": "拉夫连季·贝利亚",
-    "nameEn": "Lavrentiy Beria",
+    "personId": "ernest-hemingway",
+    "name": "欧内斯特·海明威",
+    "nameEn": "Ernest Hemingway",
     "birth": 1899,
-    "death": 1953,
-    "nationality": "苏联",
-    "nationalityEn": "Soviet Union",
-    "totalPoints": 5,
-    "era": "19世纪"
-  },
-  {
-    "personId": "vladimir-nabokov",
-    "name": "弗拉基米尔·纳博科夫",
-    "nameEn": "Vladimir Vladimirovich Nabokov",
-    "birth": 1899,
-    "death": 1977,
-    "nationality": "俄罗斯/美国",
-    "nationalityEn": "Russian/American",
+    "death": 1961,
+    "nationality": "美国",
+    "nationalityEn": "United States",
     "totalPoints": 6,
     "era": "19世纪"
   },
@@ -3564,14 +3608,14 @@
     "era": "19世纪"
   },
   {
-    "personId": "jacques-lacan",
-    "name": "雅克·拉康",
-    "nameEn": "Jacques Marie Émile Lacan",
+    "personId": "walt-disney",
+    "name": "华特·迪士尼",
+    "nameEn": "Walt Disney",
     "birth": 1901,
-    "death": 1981,
-    "nationality": "法国",
-    "nationalityEn": "France",
-    "totalPoints": 5,
+    "death": 1966,
+    "nationality": "美国",
+    "nationalityEn": "United States",
+    "totalPoints": 6,
     "era": "20世纪"
   },
   {
@@ -3586,17 +3630,6 @@
     "era": "20世纪"
   },
   {
-    "personId": "walt-disney",
-    "name": "华特·迪士尼",
-    "nameEn": "Walt Disney",
-    "birth": 1901,
-    "death": 1966,
-    "nationality": "美国",
-    "nationalityEn": "United States",
-    "totalPoints": 6,
-    "era": "20世纪"
-  },
-  {
     "personId": "werner-heisenberg",
     "name": "维尔纳·海森堡",
     "nameEn": "Werner Heisenberg",
@@ -3604,6 +3637,17 @@
     "death": 1976,
     "nationality": "德国",
     "nationalityEn": "Germany",
+    "totalPoints": 5,
+    "era": "20世纪"
+  },
+  {
+    "personId": "jacques-lacan",
+    "name": "雅克·拉康",
+    "nameEn": "Jacques Marie Émile Lacan",
+    "birth": 1901,
+    "death": 1981,
+    "nationality": "法国",
+    "nationalityEn": "France",
     "totalPoints": 5,
     "era": "20世纪"
   },
@@ -3663,17 +3707,6 @@
     "era": "20世纪"
   },
   {
-    "personId": "ba-jin",
-    "name": "巴金",
-    "nameEn": "Ba Jin",
-    "birth": 1904,
-    "death": 2005,
-    "nationality": "中国",
-    "nationalityEn": "China",
-    "totalPoints": 5,
-    "era": "20世纪"
-  },
-  {
     "personId": "pablo-neruda",
     "name": "巴勃罗·聂鲁达",
     "nameEn": "Pablo Neruda",
@@ -3682,6 +3715,17 @@
     "nationality": "智利",
     "nationalityEn": "Chile",
     "totalPoints": 6,
+    "era": "20世纪"
+  },
+  {
+    "personId": "ba-jin",
+    "name": "巴金",
+    "nameEn": "Ba Jin",
+    "birth": 1904,
+    "death": 2005,
+    "nationality": "中国",
+    "nationalityEn": "China",
+    "totalPoints": 5,
     "era": "20世纪"
   },
   {
@@ -3806,17 +3850,6 @@
     "era": "20世纪"
   },
   {
-    "personId": "naguib-mahfouz",
-    "name": "纳吉布·马哈福兹",
-    "nameEn": "Naguib Mahfouz",
-    "birth": 1911,
-    "death": 2006,
-    "nationality": "埃及",
-    "nationalityEn": "Egypt",
-    "totalPoints": 5,
-    "era": "20世纪"
-  },
-  {
     "personId": "ronald-reagan",
     "name": "罗纳德·里根",
     "nameEn": "Ronald Wilson Reagan",
@@ -3828,14 +3861,14 @@
     "era": "20世纪"
   },
   {
-    "personId": "alan-turing",
-    "name": "艾伦·图灵",
-    "nameEn": "Alan Turing",
-    "birth": 1912,
-    "death": 1954,
-    "nationality": "英国",
-    "nationalityEn": "United Kingdom",
-    "totalPoints": 6,
+    "personId": "naguib-mahfouz",
+    "name": "纳吉布·马哈福兹",
+    "nameEn": "Naguib Mahfouz",
+    "birth": 1911,
+    "death": 2006,
+    "nationality": "埃及",
+    "nationalityEn": "Egypt",
+    "totalPoints": 5,
     "era": "20世纪"
   },
   {
@@ -3846,6 +3879,17 @@
     "death": 1994,
     "nationality": "德国",
     "nationalityEn": "Germany",
+    "totalPoints": 6,
+    "era": "20世纪"
+  },
+  {
+    "personId": "alan-turing",
+    "name": "艾伦·图灵",
+    "nameEn": "Alan Turing",
+    "birth": 1912,
+    "death": 1954,
+    "nationality": "英国",
+    "nationalityEn": "United Kingdom",
     "totalPoints": 6,
     "era": "20世纪"
   },
@@ -3916,17 +3960,6 @@
     "era": "20世纪"
   },
   {
-    "personId": "jonas-salk",
-    "name": "乔纳斯·索尔克",
-    "nameEn": "Jonas Salk",
-    "birth": 1914,
-    "death": 1995,
-    "nationality": "美国",
-    "nationalityEn": "United States",
-    "totalPoints": 5,
-    "era": "20世纪"
-  },
-  {
     "personId": "octavio-paz",
     "name": "奥克塔维奥·帕斯",
     "nameEn": "Octavio Paz",
@@ -3934,6 +3967,17 @@
     "death": 1998,
     "nationality": "墨西哥",
     "nationalityEn": "Mexico",
+    "totalPoints": 5,
+    "era": "20世纪"
+  },
+  {
+    "personId": "jonas-salk",
+    "name": "乔纳斯·索尔克",
+    "nameEn": "Jonas Salk",
+    "birth": 1914,
+    "death": 1995,
+    "nationality": "美国",
+    "nationalityEn": "United States",
     "totalPoints": 5,
     "era": "20世纪"
   },
@@ -3960,17 +4004,6 @@
     "era": "20世纪"
   },
   {
-    "personId": "clayton-kohler",
-    "name": "克劳德·香农",
-    "nameEn": "Claude Shannon",
-    "birth": 1916,
-    "death": 2001,
-    "nationality": "美国",
-    "nationalityEn": "American",
-    "totalPoints": 4,
-    "era": "20世纪"
-  },
-  {
     "personId": "francois-mitterrand",
     "name": "弗朗索瓦·密特朗",
     "nameEn": "François Mitterrand",
@@ -3982,14 +4015,14 @@
     "era": "20世纪"
   },
   {
-    "personId": "john-f-kennedy",
-    "name": "约翰·肯尼迪",
-    "nameEn": "John Fitzgerald Kennedy",
-    "birth": 1917,
-    "death": 1963,
+    "personId": "clayton-kohler",
+    "name": "克劳德·香农",
+    "nameEn": "Claude Shannon",
+    "birth": 1916,
+    "death": 2001,
     "nationality": "美国",
-    "nationalityEn": "United States",
-    "totalPoints": 6,
+    "nationalityEn": "American",
+    "totalPoints": 4,
     "era": "20世纪"
   },
   {
@@ -4004,13 +4037,13 @@
     "era": "20世纪"
   },
   {
-    "personId": "anwar-sadat",
-    "name": "穆罕默德·安瓦尔·萨达特",
-    "nameEn": "Muhammad Anwar Sadat",
-    "birth": 1918,
-    "death": 1981,
-    "nationality": "埃及",
-    "nationalityEn": "Egypt",
+    "personId": "john-f-kennedy",
+    "name": "约翰·肯尼迪",
+    "nameEn": "John Fitzgerald Kennedy",
+    "birth": 1917,
+    "death": 1963,
+    "nationality": "美国",
+    "nationalityEn": "United States",
     "totalPoints": 6,
     "era": "20世纪"
   },
@@ -4020,6 +4053,28 @@
     "nameEn": "Gamal Abdel Nasser",
     "birth": 1918,
     "death": 1970,
+    "nationality": "埃及",
+    "nationalityEn": "Egypt",
+    "totalPoints": 6,
+    "era": "20世纪"
+  },
+  {
+    "personId": "richard-feynman",
+    "name": "理查德·费曼",
+    "nameEn": "Richard Feynman",
+    "birth": 1918,
+    "death": 1988,
+    "nationality": "美国",
+    "nationalityEn": "United States",
+    "totalPoints": 5,
+    "era": "20世纪"
+  },
+  {
+    "personId": "anwar-sadat",
+    "name": "穆罕默德·安瓦尔·萨达特",
+    "nameEn": "Muhammad Anwar Sadat",
+    "birth": 1918,
+    "death": 1981,
     "nationality": "埃及",
     "nationalityEn": "Egypt",
     "totalPoints": 6,
@@ -4037,13 +4092,13 @@
     "era": "20世纪"
   },
   {
-    "personId": "richard-feynman",
-    "name": "理查德·费曼",
-    "nameEn": "Richard Feynman",
-    "birth": 1918,
-    "death": 1988,
-    "nationality": "美国",
-    "nationalityEn": "United States",
+    "personId": "fellini-federico",
+    "name": "费德里科·费里尼",
+    "nameEn": "Federico Fellini",
+    "birth": 1920,
+    "death": 1993,
+    "nationality": "意大利",
+    "nationalityEn": "Italy",
     "totalPoints": 5,
     "era": "20世纪"
   },
@@ -4056,17 +4111,6 @@
     "nationality": "中国",
     "nationalityEn": "China",
     "totalPoints": 6,
-    "era": "20世纪"
-  },
-  {
-    "personId": "fellini-federico",
-    "name": "费德里科·费里尼",
-    "nameEn": "Federico Fellini",
-    "birth": 1920,
-    "death": 1993,
-    "nationality": "意大利",
-    "nationalityEn": "Italy",
-    "totalPoints": 5,
     "era": "20世纪"
   },
   {
@@ -4158,17 +4202,6 @@
     "era": "20世纪"
   },
   {
-    "personId": "che-guevara",
-    "name": "切·格瓦拉",
-    "nameEn": "Che Guevara",
-    "birth": 1928,
-    "death": 1967,
-    "nationality": "阿根廷",
-    "nationalityEn": "Argentina",
-    "totalPoints": 6,
-    "era": "20世纪"
-  },
-  {
     "personId": "maya-angelou",
     "name": "玛雅·安吉罗",
     "nameEn": "Maya Angelou",
@@ -4188,6 +4221,17 @@
     "nationality": "美国",
     "nationalityEn": "United States",
     "totalPoints": 5,
+    "era": "20世纪"
+  },
+  {
+    "personId": "che-guevara",
+    "name": "切·格瓦拉",
+    "nameEn": "Che Guevara",
+    "birth": 1928,
+    "death": 1967,
+    "nationality": "阿根廷",
+    "nationalityEn": "Argentina",
+    "totalPoints": 6,
     "era": "20世纪"
   },
   {
@@ -4235,13 +4279,13 @@
     "era": "20世纪"
   },
   {
-    "personId": "boris-yeltsin",
-    "name": "叶利钦",
-    "nameEn": "Boris Yeltsin",
+    "personId": "mikhail-gorbachev",
+    "name": "米哈伊尔·戈尔巴乔夫",
+    "nameEn": "Mikhail Gorbachev",
     "birth": 1931,
-    "death": 2007,
-    "nationality": "俄罗斯",
-    "nationalityEn": "Russia",
+    "death": null,
+    "nationality": "苏联/俄罗斯",
+    "nationalityEn": "Soviet Union/Russia",
     "totalPoints": 6,
     "era": "20世纪"
   },
@@ -4257,17 +4301,6 @@
     "era": "20世纪"
   },
   {
-    "personId": "mikhail-gorbachev",
-    "name": "米哈伊尔·戈尔巴乔夫",
-    "nameEn": "Mikhail Gorbachev",
-    "birth": 1931,
-    "death": null,
-    "nationality": "苏联/俄罗斯",
-    "nationalityEn": "Soviet Union/Russia",
-    "totalPoints": 6,
-    "era": "20世纪"
-  },
-  {
     "personId": "toni-morrison",
     "name": "托妮·莫里森",
     "nameEn": "Toni Morrison",
@@ -4276,6 +4309,17 @@
     "nationality": "美国",
     "nationalityEn": "United States",
     "totalPoints": 5,
+    "era": "20世纪"
+  },
+  {
+    "personId": "boris-yeltsin",
+    "name": "叶利钦",
+    "nameEn": "Boris Yeltsin",
+    "birth": 1931,
+    "death": 2007,
+    "nationality": "俄罗斯",
+    "nationalityEn": "Russia",
+    "totalPoints": 6,
     "era": "20世纪"
   },
   {
@@ -4297,17 +4341,6 @@
     "death": 1963,
     "nationality": "美国",
     "nationalityEn": "United States",
-    "totalPoints": 5,
-    "era": "20世纪"
-  },
-  {
-    "personId": "jane-goodall",
-    "name": "珍·古道尔",
-    "nameEn": "Jane Goodall",
-    "birth": 1934,
-    "death": null,
-    "nationality": "英国",
-    "nationalityEn": "United Kingdom",
     "totalPoints": 5,
     "era": "20世纪"
   },
@@ -4334,14 +4367,14 @@
     "era": "20世纪"
   },
   {
-    "personId": "elvis-presley",
-    "name": "猫王",
-    "nameEn": "Elvis Aaron Presley",
-    "birth": 1935,
-    "death": 1977,
-    "nationality": "美国",
-    "nationalityEn": "United States",
-    "totalPoints": 6,
+    "personId": "jane-goodall",
+    "name": "珍·古道尔",
+    "nameEn": "Jane Goodall",
+    "birth": 1934,
+    "death": null,
+    "nationality": "英国",
+    "nationalityEn": "United Kingdom",
+    "totalPoints": 5,
     "era": "20世纪"
   },
   {
@@ -4353,6 +4386,17 @@
     "nationality": "日本",
     "nationalityEn": "Japan",
     "totalPoints": 5,
+    "era": "20世纪"
+  },
+  {
+    "personId": "elvis-presley",
+    "name": "猫王",
+    "nameEn": "Elvis Aaron Presley",
+    "birth": 1935,
+    "death": 1977,
+    "nationality": "美国",
+    "nationalityEn": "United States",
+    "totalPoints": 6,
     "era": "20世纪"
   },
   {
@@ -4444,6 +4488,17 @@
     "era": "20世纪"
   },
   {
+    "personId": "tim-berners-lee",
+    "name": "蒂姆·伯纳斯-李",
+    "nameEn": "Tim Berners-Lee",
+    "birth": 1955,
+    "death": null,
+    "nationality": "英国",
+    "nationalityEn": "United Kingdom",
+    "totalPoints": 5,
+    "era": "20世纪"
+  },
+  {
     "personId": "mo-yan",
     "name": "莫言",
     "nameEn": "Mo Yan",
@@ -4474,17 +4529,6 @@
     "nationality": "美国",
     "nationalityEn": "United States",
     "totalPoints": 6,
-    "era": "20世纪"
-  },
-  {
-    "personId": "tim-berners-lee",
-    "name": "蒂姆·伯纳斯-李",
-    "nameEn": "Tim Berners-Lee",
-    "birth": 1955,
-    "death": null,
-    "nationality": "英国",
-    "nationalityEn": "United Kingdom",
-    "totalPoints": 5,
     "era": "20世纪"
   },
   {

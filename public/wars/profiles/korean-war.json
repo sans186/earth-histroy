@@ -9,18 +9,21 @@
   "startYear": 1950,
   "endYear": 1953,
   "type": "major",
-  "category": "ideological war",
+  "category": "意识形态战争",
   "theaters": [
-    "Korean Peninsula"
+    "朝鲜半岛"
   ],
-  "summary": "A military conflict between North Korea and South Korea, with China and the Soviet Union supporting the North and the United Nations, primarily the United States, supporting the South.",
+  "summary": "朝鲜半岛南北双方之间的军事冲突，中苏支持北方，联合国军（以美国为首）支持南方，最终以停战协定结束，朝鲜半岛维持分裂状态。",
   "background": {
-    "causes": "The Korean War was primarily caused by the ideological divide between communism and capitalism following World War II, as well as the division of Korea into two separate zones of occupation by the Soviet Union and the United States.",
-    "immediateCause": "The North Korean invasion of South Korea on June 25, 1950, which marked the beginning of open hostilities.",
-    "preWarSituation": "After World War II, Korea was divided at the 38th parallel, with the Soviet Union occupying the north and the United States occupying the south. Both sides established separate governments, with Kim Il-sung leading the communist North and Syngman Rhee leading the anti-communist South.",
-    "objectivesA": "The United Nations and South Korea aimed to repel the North Korean invasion, unify Korea under a democratic government, and prevent the spread of communism in the region.",
-    "objectivesB": "North Korea, supported by China and the Soviet Union, sought to unify Korea under communist rule and expand the influence of communism in East Asia.",
-    "precedingConflicts": []
+    "causes": "二战后朝鲜半岛以北纬38度线为界分裂为两个政权，美苏冷战加剧了意识形态对立，南北双方均宣称对整个半岛的主权。",
+    "immediateCause": "1950年6月25日，朝鲜军队越过三八线向南进攻，迅速占领首尔，引发联合国授权对朝军事干预。",
+    "preWarSituation": "二战后朝鲜半岛被美苏分区占领，1948年南方成立大韩民国（李承晚），北方成立朝鲜民主主义人民共和国（金日成）。双方在边境地区不断发生武装冲突，局势持续紧张。",
+    "objectivesA": "联合国军与大韩民国旨在击退朝鲜入侵，恢复三八线以南的领土完整，遏制共产主义在东亚的扩张。",
+    "objectivesB": "朝鲜在苏联和中国支持下，试图以武力统一朝鲜半岛，建立共产主义政权，扩大共产主义在东亚的影响力。",
+    "precedingConflicts": [
+      "朝鲜半岛分治",
+      "丽水-顺天事件"
+    ]
   },
   "belligerents": {
     "sideA": {
@@ -851,11 +854,18 @@
     },
     "cognitiveWarfare": {
       "psyOps": [
-        "联合国军使用心理战广播向中朝军队散播投降信息“, ”中朝联军通过宣传强调'抗美援朝，保家卫国'激发民族主义情绪“, ”联合国军散播'细菌战'指控以削弱国际社会对中朝联军的支持“, ”中朝联军展示战俘待遇良好以瓦解敌方抵抗意志“, ”双方均使用传单、广播和扩音器进行前线心理战"
+        "联合国军使用心理战广播向中朝军队散播投降信息",
+        "中朝联军通过宣传强调'抗美援朝，保家卫国'激发民族主义情绪",
+        "联合国军散播'细菌战'指控以削弱国际社会对中朝联军的支持",
+        "中朝联军展示战俘待遇良好以瓦解敌方抵抗意志",
+        "双方均使用传单、广播和扩音器进行前线心理战"
       ],
       "propagandaComparison": "联合国军宣传强调'自由世界对抗共产主义扩张'，将战争描绘为维护国际秩序的正义行动，突出中朝军队的'侵略'性质。宣传材料多聚焦于'联合国军'的'解放'使命，淡化战争伤亡。中朝联军则宣传'抗美援朝，保家卫国'，将战争定义为抵抗帝国主义侵略的正义之战，强调'美国侵略者'的暴行，如使用细菌战、轰炸平民区等。双方均通过战俘、平民证词和'证据'材料支持自身叙事，塑造道德高地。",
       "collaborationists": [
-        "韩国李承晚政权“, ”朝鲜人民共和国“, ”中国人民志愿军“, ”联合国军中的南韩部队"
+        "韩国李承晚政权",
+        "朝鲜人民共和国",
+        "中国人民志愿军",
+        "联合国军中的南韩部队"
       ],
       "informationWarfare": "朝鲜战争中，信息战表现为双方对战争叙事的争夺。联合国军控制国际舆论，强调'联合国'合法性，利用西方媒体优势塑造中朝为'侵略者'形象。中朝联军则通过宣传展示美国'侵略本质'，争取国际同情。双方均进行严格的新闻审查，控制信息流动。战场信息操控包括夸大战果、隐瞒损失、散布虚假情报等。战争期间，'联合国军'与'中朝联军'各自建立宣传机构，如美国的'美国之音'与中朝的'对敌广播'，进行持续的信息对抗。"
     }

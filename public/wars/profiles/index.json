@@ -1,7 +1,264 @@
 [
   {
-    "tags": {},
-    "totalBattles": 0
+    "warId": "greco-persian-wars",
+    "name": "希波战争",
+    "nameEn": "Greco-Persian Wars",
+    "startYear": -499,
+    "endYear": -449,
+    "type": "major",
+    "category": "殖民战争",
+    "tags": {
+      "warfareType": [
+        "陆战",
+        "海战",
+        "围城战"
+      ],
+      "geopolitical": [
+        "东西方冲突",
+        "文明冲突"
+      ],
+      "scale": "regional",
+      "cause": [
+        "民族主义",
+        "领土扩张",
+        "文化差异"
+      ]
+    },
+    "summary": "古希腊城邦联盟与波斯帝国之间的战争，希腊最终击败了波斯入侵。",
+    "totalBattles": 4
+  },
+  {
+    "warId": "peloponnesian-war",
+    "name": "伯罗奔尼撒战争",
+    "nameEn": "Pelopon撒 War",
+    "startYear": -431,
+    "endYear": -404,
+    "type": "major",
+    "category": "领土战争",
+    "tags": {
+      "warfareType": [
+        "围城战",
+        "海战",
+        "消耗战"
+      ],
+      "geopolitical": [
+        "霸权转移",
+        "同盟对抗",
+        "帝国解体"
+      ],
+      "scale": "regional",
+      "cause": [
+        "霸权争夺",
+        "经济竞争",
+        "同盟义务"
+      ]
+    },
+    "summary": "伯罗奔尼撒战争是古希腊世界两大霸权雅典与斯巴达及其各自领导的提洛同盟与伯罗奔尼撒同盟之间的大规模冲突。战争分为三个阶段，最终斯巴达在波斯支持下获胜，雅典霸权终结，希腊城邦普遍衰落。",
+    "totalBattles": 7
+  },
+  {
+    "warId": "alexanders-conquests",
+    "name": "亚历山大东征",
+    "nameEn": "Alexander's Conquests",
+    "startYear": -334,
+    "endYear": -323,
+    "type": "major",
+    "category": "领土战争",
+    "tags": {
+      "warfareType": [
+        "征服战争",
+        "步兵方阵战术",
+        "骑兵突击",
+        "攻城战"
+      ],
+      "geopolitical": [
+        "帝国争霸",
+        "文明碰撞",
+        "欧亚大陆",
+        "文化传播"
+      ],
+      "scale": "regional",
+      "cause": [
+        "领土扩张",
+        "王朝野心",
+        "经济掠夺",
+        "复仇主义"
+      ]
+    },
+    "summary": "马其顿国王亚历山大大帝率领希腊联军，对波斯阿契美尼德帝国及其以东地区进行的一系列大规模军事征服。十年间，他击败大流士三世，灭亡波斯帝国，兵锋远至印度河流域，建立了横跨欧亚非的庞大帝国。",
+    "totalBattles": 8
+  },
+  {
+    "warId": "punic_wars",
+    "name": "布匿战争",
+    "nameEn": "Punic Wars",
+    "startYear": -264,
+    "endYear": -146,
+    "type": "major",
+    "category": "殖民战争",
+    "tags": {
+      "warfareType": [
+        "陆战",
+        "海战",
+        "围城战"
+      ],
+      "geopolitical": [
+        "地中海霸权",
+        "罗马扩张",
+        "迦太基衰落"
+      ],
+      "scale": "regional",
+      "cause": [
+        "领土争端",
+        "贸易冲突",
+        "政治对抗"
+      ]
+    },
+    "summary": "罗马与迦太基为争夺地中海霸权进行的三次大规模战争，最终罗马彻底摧毁迦太基。",
+    "totalBattles": 10
+  },
+  {
+    "warId": "roman_civil_wars",
+    "name": "罗马内战",
+    "nameEn": "Roman Civil Wars",
+    "startYear": -49,
+    "endYear": 31,
+    "type": "major",
+    "category": "内战",
+    "tags": {
+      "warfareType": [
+        "内战",
+        "政治战争",
+        "军事政变"
+      ],
+      "geopolitical": [
+        "罗马扩张",
+        "权力斗争",
+        "制度变革"
+      ],
+      "scale": "regional",
+      "cause": [
+        "政治",
+        "社会",
+        "军事"
+      ]
+    },
+    "summary": "罗马共和国末期多次内战，最终导致共和国灭亡和罗马帝国建立。",
+    "totalBattles": 4
+  },
+  {
+    "warId": "byzantine-sasanian_war",
+    "name": "拜占庭-萨珊战争",
+    "nameEn": "Byzantine-Sasanian War",
+    "startYear": 602,
+    "endYear": 628,
+    "type": "major",
+    "category": "领土战争",
+    "tags": {
+      "warfareType": [
+        "常规战争",
+        "围城战",
+        "骑兵战"
+      ],
+      "geopolitical": [
+        "中东争霸",
+        "帝国冲突"
+      ],
+      "scale": "regional",
+      "cause": [
+        "领土争端",
+        "宗教冲突",
+        "王朝更替"
+      ]
+    },
+    "summary": "拜占庭帝国与萨珊波斯帝国为争夺中东控制权进行的长期战争，最终双方均精疲力竭。",
+    "totalBattles": 12
+  },
+  {
+    "warId": "arab-conquests",
+    "name": "阿拉伯大征服",
+    "nameEn": "Arab Conquests",
+    "startYear": 632,
+    "endYear": 750,
+    "type": "major",
+    "category": "宗教战争/领土战争",
+    "tags": {
+      "warfareType": [
+        "宗教战争",
+        "征服战争",
+        "骑兵战争"
+      ],
+      "geopolitical": [
+        "伊斯兰崛起",
+        "拜占庭衰落",
+        "波斯灭亡"
+      ],
+      "scale": "global",
+      "cause": [
+        "宗教",
+        "领土扩张",
+        "经济利益"
+      ]
+    },
+    "summary": "伊斯兰教兴起后，阿拉伯穆斯林军队在数十年内征服了从西班牙到印度的广大地区。",
+    "totalBattles": 17
+  },
+  {
+    "warId": "reconquista",
+    "name": "收复失地运动",
+    "nameEn": "Reconquista",
+    "startYear": 718,
+    "endYear": 1492,
+    "type": "major",
+    "category": "宗教战争",
+    "tags": {
+      "warfareType": [
+        "宗教战争",
+        "领土战争",
+        "民族解放战争"
+      ],
+      "geopolitical": [
+        "伊比利亚半岛",
+        "地中海",
+        "欧洲"
+      ],
+      "scale": "regional",
+      "cause": [
+        "宗教",
+        "领土",
+        "民族"
+      ]
+    },
+    "summary": "持续近800年的基督教王国与穆斯林政权争夺伊比利亚半岛的战争。",
+    "totalBattles": 8
+  },
+  {
+    "warId": "norman-conquest-england",
+    "name": "诺曼征服英格兰",
+    "nameEn": "Norman Conquest of England",
+    "startYear": 1066,
+    "endYear": 1071,
+    "type": "major",
+    "category": "王朝战争",
+    "tags": {
+      "warfareType": [
+        "骑兵战",
+        "攻城战",
+        "王朝战争"
+      ],
+      "geopolitical": [
+        "欧洲中世纪",
+        "英格兰历史",
+        "诺曼底历史"
+      ],
+      "scale": "regional",
+      "cause": [
+        "王位继承",
+        "领土扩张"
+      ]
+    },
+    "summary": "诺曼底公爵威廉征服英格兰，建立诺曼王朝的历史性事件。",
+    "totalBattles": 10
   },
   {
     "warId": "crusades",
@@ -44,18 +301,53 @@
     "category": "殖民战争",
     "tags": {
       "warfareType": [
-        "骑兵战“, ”围城战“, ”闪电战"
+        "骑兵战",
+        "围城战",
+        "闪电战"
       ],
       "geopolitical": [
-        "欧亚大陆“, ”丝绸之路“, ”草原帝国"
+        "欧亚大陆",
+        "丝绸之路",
+        "草原帝国"
       ],
       "scale": "global",
       "cause": [
-        "领土扩张“, ”贸易控制“, ”资源掠夺"
+        "领土扩张",
+        "贸易控制",
+        "资源掠夺"
       ]
     },
     "summary": "蒙古帝国向西扩张，征服中亚、波斯、东欧和中东地区的一系列军事行动。",
     "totalBattles": 9
+  },
+  {
+    "warId": "byzantine-ottoman-wars",
+    "name": "拜占庭-奥斯曼战争",
+    "nameEn": "Byzantine-Ottoman Wars",
+    "startYear": 1265,
+    "endYear": 1453,
+    "type": "major",
+    "category": "领土战争",
+    "tags": {
+      "warfareType": [
+        "围城战",
+        "海战",
+        "陆战"
+      ],
+      "geopolitical": [
+        "东地中海",
+        "巴尔干",
+        "近东"
+      ],
+      "scale": "regional",
+      "cause": [
+        "宗教冲突",
+        "领土扩张",
+        "民族矛盾"
+      ]
+    },
+    "summary": "持续近两个世纪的战争，最终导致拜占庭帝国灭亡和奥斯曼帝国崛起。",
+    "totalBattles": 14
   },
   {
     "warId": "scottish_wars_of_independence",
@@ -67,14 +359,17 @@
     "category": "独立战争",
     "tags": {
       "warfareType": [
-        "游击战“, ”民族解放战争"
+        "游击战",
+        "民族解放战争"
       ],
       "geopolitical": [
-        "英伦三岛“, ”欧洲"
+        "英伦三岛",
+        "欧洲"
       ],
       "scale": "regional",
       "cause": [
-        "民族自决“, ”领土争端"
+        "民族自决",
+        "领土争端"
       ]
     },
     "summary": "苏格兰人民为反抗英格兰统治、争取民族独立而进行的长期战争。",
@@ -112,6 +407,33 @@
     "totalBattles": 17
   },
   {
+    "warId": "hussite_wars",
+    "name": "胡斯战争",
+    "nameEn": "Hussite Wars",
+    "startYear": 1419,
+    "endYear": 1434,
+    "type": "major",
+    "category": "宗教战争",
+    "tags": {
+      "warfareType": [
+        "宗教战争",
+        "民族解放战争"
+      ],
+      "geopolitical": [
+        "中欧",
+        "神圣罗马帝国"
+      ],
+      "scale": "regional",
+      "cause": [
+        "宗教",
+        "民族",
+        "社会"
+      ]
+    },
+    "summary": "胡斯派信徒反抗神圣罗马帝国和天主教会压迫的宗教战争。",
+    "totalBattles": 14
+  },
+  {
     "warId": "wars_of_the_roses",
     "name": "玫瑰战争",
     "nameEn": "Wars of the Roses",
@@ -121,14 +443,17 @@
     "category": "王朝战争",
     "tags": {
       "warfareType": [
-        "内战“, ”封建战争"
+        "内战",
+        "封建战争"
       ],
       "geopolitical": [
-        "英格兰“, ”欧洲"
+        "英格兰",
+        "欧洲"
       ],
       "scale": "regional",
       "cause": [
-        "王位继承“, ”贵族争斗"
+        "王位继承",
+        "贵族争斗"
       ]
     },
     "summary": "兰开斯特家族与约克家族为争夺英格兰王位而进行的内战。",
@@ -144,14 +469,19 @@
     "category": "宗教战争",
     "tags": {
       "warfareType": [
-        "宗教战争“, ”内战“, ”王朝战争"
+        "宗教战争",
+        "内战",
+        "王朝战争"
       ],
       "geopolitical": [
-        "法国“, ”欧洲宗教改革"
+        "法国",
+        "欧洲宗教改革"
       ],
       "scale": "regional",
       "cause": [
-        "宗教“, ”政治“, ”社会"
+        "宗教",
+        "政治",
+        "社会"
       ]
     },
     "summary": "法国天主教与新教胡格诺派之间长达36年的宗教内战，最终以南特敕令告终。",
@@ -167,14 +497,20 @@
     "category": "独立战争",
     "tags": {
       "warfareType": [
-        "海战“, ”围城战“, ”游击战"
+        "海战",
+        "围城战",
+        "游击战"
       ],
       "geopolitical": [
-        "欧洲霸权“, ”宗教改革“, ”民族独立"
+        "欧洲霸权",
+        "宗教改革",
+        "民族独立"
       ],
       "scale": "regional",
       "cause": [
-        "宗教“, ”政治“, ”经济"
+        "宗教",
+        "政治",
+        "经济"
       ]
     },
     "summary": "荷兰反抗西班牙统治的独立战争，最终获得独立并建立荷兰共和国。",
@@ -190,14 +526,19 @@
     "category": "殖民战争",
     "tags": {
       "warfareType": [
-        "陆战“, ”海战“, ”游击战"
+        "陆战",
+        "海战",
+        "游击战"
       ],
       "geopolitical": [
-        "东亚格局“, ”宗藩关系"
+        "东亚格局",
+        "宗藩关系"
       ],
       "scale": "regional",
       "cause": [
-        "领土扩张“, ”民族矛盾“, ”政治野心"
+        "领土扩张",
+        "民族矛盾",
+        "政治野心"
       ]
     },
     "summary": "日本丰臣秀吉入侵朝鲜，明朝出兵援助，最终联军击败日军。",
@@ -234,6 +575,67 @@
     "totalBattles": 18
   },
   {
+    "warId": "english-civil-war",
+    "name": "英国内战",
+    "nameEn": "English Civil War",
+    "startYear": 1642,
+    "endYear": 1651,
+    "type": "major",
+    "category": "内战",
+    "tags": {
+      "warfareType": [
+        "步兵战",
+        "骑兵战",
+        "围城战",
+        "线性战术"
+      ],
+      "geopolitical": [
+        "王权与议会",
+        "宗教冲突",
+        "三国关系",
+        "宪政变革"
+      ],
+      "scale": "regional",
+      "cause": [
+        "专制王权",
+        "宗教矛盾",
+        "财政危机",
+        "宪政冲突"
+      ]
+    },
+    "summary": "英国内战是英格兰王国国会派与保皇派之间的一系列武装冲突。其核心矛盾是国王查理一世与议会就国家主权和宗教政策产生的深刻分歧。战争最终以议会军胜利、查理一世被处决和英格兰共和国建立告终。",
+    "totalBattles": 8
+  },
+  {
+    "warId": "anglo-dutch-wars",
+    "name": "英荷战争",
+    "nameEn": "Anglo-Dutch Wars",
+    "startYear": 1652,
+    "endYear": 1784,
+    "type": "major",
+    "category": "殖民战争",
+    "tags": {
+      "warfareType": [
+        "海战",
+        "贸易战争",
+        "殖民战争"
+      ],
+      "geopolitical": [
+        "欧洲霸权",
+        "殖民扩张",
+        "海上贸易"
+      ],
+      "scale": "global",
+      "cause": [
+        "贸易争端",
+        "殖民竞争",
+        "海上霸权"
+      ]
+    },
+    "summary": "17-18世纪英国与荷兰为争夺海上霸权和贸易利益进行的一系列战争。",
+    "totalBattles": 18
+  },
+  {
     "warId": "great_northern_war",
     "name": "大北方战争",
     "nameEn": "Great Northern War",
@@ -243,14 +645,20 @@
     "category": "王朝战争",
     "tags": {
       "warfareType": [
-        "陆战“, ”海战“, ”围城战"
+        "陆战",
+        "海战",
+        "围城战"
       ],
       "geopolitical": [
-        "波罗的海霸权“, ”东欧格局“, ”北欧势力"
+        "波罗的海霸权",
+        "东欧格局",
+        "北欧势力"
       ],
       "scale": "regional",
       "cause": [
-        "领土争端“, ”王朝利益“, ”贸易控制"
+        "领土争端",
+        "王朝利益",
+        "贸易控制"
       ]
     },
     "summary": "瑞典与俄罗斯、丹麦、萨克森等联盟争夺波罗的海霸权的战争",
@@ -293,14 +701,20 @@
     "category": "王朝战争",
     "tags": {
       "warfareType": [
-        "王朝战争“, ”领土战争“, ”欧洲战争"
+        "王朝战争",
+        "领土战争",
+        "欧洲战争"
       ],
       "geopolitical": [
-        "哈布斯堡王朝“, ”普鲁士崛起“, ”欧洲均势"
+        "哈布斯堡王朝",
+        "普鲁士崛起",
+        "欧洲均势"
       ],
       "scale": "regional",
       "cause": [
-        "王位继承“, ”领土争端“, ”大国博弈"
+        "王位继承",
+        "领土争端",
+        "大国博弈"
       ]
     },
     "summary": "为争夺奥地利哈布斯堡王朝继承权而爆发的欧洲大战，涉及多国利益争夺。",
@@ -316,14 +730,22 @@
     "category": "全球战争",
     "tags": {
       "warfareType": [
-        "陆战“, ”海战“, ”殖民战争“, ”王朝战争"
+        "陆战",
+        "海战",
+        "殖民战争",
+        "王朝战争"
       ],
       "geopolitical": [
-        "欧洲列强争霸“, ”殖民扩张“, ”全球冲突"
+        "欧洲列强争霸",
+        "殖民扩张",
+        "全球冲突"
       ],
       "scale": "全球性战争",
       "cause": [
-        "领土争端“, ”殖民利益“, ”权力平衡“, ”王朝继承"
+        "领土争端",
+        "殖民利益",
+        "权力平衡",
+        "王朝继承"
       ]
     },
     "summary": "七年战争是18中期的一场全球性冲突，主要在欧洲、北美、印度等地展开，涉及几乎所有欧洲主要国家及其殖民地。这场战争重塑了全球政治格局，导致英国获得大量殖民地，法国失去北美和印度的大部分领土，普鲁士崛起成为欧洲强国。",
@@ -362,6 +784,34 @@
     "totalBattles": 9
   },
   {
+    "warId": "haitian_revolution",
+    "name": "海地革命",
+    "nameEn": "Haitian Revolution",
+    "startYear": 1791,
+    "endYear": 1804,
+    "type": "major",
+    "category": "独立战争",
+    "tags": {
+      "warfareType": [
+        "游击战",
+        "独立战争",
+        "奴隶起义"
+      ],
+      "geopolitical": [
+        "加勒比地区",
+        "美洲独立运动"
+      ],
+      "scale": "regional",
+      "cause": [
+        "种族压迫",
+        "经济剥削",
+        "政治压迫"
+      ]
+    },
+    "summary": "海地奴隶起义成功推翻法国殖民统治，建立首个黑人共和国。",
+    "totalBattles": 10
+  },
+  {
     "warId": "napoleonic-wars",
     "name": "拿破仑战争",
     "nameEn": "Napoleonic Wars",
@@ -391,6 +841,38 @@
     "totalBattles": 12
   },
   {
+    "warId": "war-of-1812",
+    "name": "1812年战争",
+    "nameEn": "War of 1812",
+    "startYear": 1812,
+    "endYear": 1815,
+    "type": "major",
+    "category": "领土战争",
+    "tags": {
+      "warfareType": [
+        "海战",
+        "陆战",
+        "两栖作战",
+        "游击战"
+      ],
+      "geopolitical": [
+        "北美霸权",
+        "殖民遗产",
+        "中立国权利",
+        "印第安人命运"
+      ],
+      "scale": "regional",
+      "cause": [
+        "海上权利",
+        "经济制裁",
+        "领土扩张",
+        "民族主义"
+      ]
+    },
+    "summary": "1812至1815年间，美国与英国及其北美原住民盟友之间的战争。起因包括英国强征美国海员、贸易限制及美国扩张主义。战事主要围绕加拿大边境、大西洋海战及新奥尔良战役展开，最终恢复战前状态。",
+    "totalBattles": 9
+  },
+  {
     "warId": "mexican-american-war",
     "name": "美墨战争",
     "nameEn": "Mexican-American War",
@@ -400,14 +882,18 @@
     "category": "领土战争",
     "tags": {
       "warfareType": [
-        "常规战争“, ”领土战争"
+        "常规战争",
+        "领土战争"
       ],
       "geopolitical": [
-        "美国扩张“, ”拉丁美洲"
+        "美国扩张",
+        "拉丁美洲"
       ],
       "scale": "regional",
       "cause": [
-        "领土争端“, ”民族主义“, ”扩张主义"
+        "领土争端",
+        "民族主义",
+        "扩张主义"
       ]
     },
     "summary": "美国为扩张领土与墨西哥进行的战争，结果美国获得大片土地。",
@@ -423,14 +909,18 @@
     "category": "独立战争",
     "tags": {
       "warfareType": [
-        "常规战争“, ”民族解放战争"
+        "常规战争",
+        "民族解放战争"
       ],
       "geopolitical": [
-        "欧洲“, ”意大利半岛"
+        "欧洲",
+        "意大利半岛"
       ],
       "scale": "regional",
       "cause": [
-        "民族主义“, ”独立运动“, ”领土争端"
+        "民族主义",
+        "独立运动",
+        "领土争端"
       ]
     },
     "summary": "意大利各邦国为摆脱奥地利统治、实现国家统一而进行的一系列战争。",
@@ -446,14 +936,19 @@
     "category": "内战",
     "tags": {
       "warfareType": [
-        "农民战争“, ”内战“, ”宗教战争"
+        "农民战争",
+        "内战",
+        "宗教战争"
       ],
       "geopolitical": [
-        "中国内战“, ”东亚冲突"
+        "中国内战",
+        "东亚冲突"
       ],
       "scale": "regional",
       "cause": [
-        "社会矛盾“, ”宗教因素“, ”政治压迫"
+        "社会矛盾",
+        "宗教因素",
+        "政治压迫"
       ]
     },
     "summary": "清朝咸丰年间爆发的规模空前的农民起义，建立太平天国政权，历时14年。",
@@ -531,14 +1026,19 @@
     "category": "领土战争",
     "tags": {
       "warfareType": [
-        "常规战争“, ”陆战“, ”海战"
+        "常规战争",
+        "陆战",
+        "海战"
       ],
       "geopolitical": [
-        "南美“, ”地区冲突"
+        "南美",
+        "地区冲突"
       ],
       "scale": "regional",
       "cause": [
-        "领土争端“, ”政治冲突“, ”民族主义"
+        "领土争端",
+        "政治冲突",
+        "民族主义"
       ]
     },
     "summary": "巴拉圭与巴西、阿根廷、乌拉圭三国同盟之间的战争，导致巴拉圭人口锐减。",
@@ -554,17 +1054,55 @@
     "category": "领土战争",
     "tags": {
       "warfareType": [
-        "常规战争“, ”民族战争“, ”统一战争"
+        "常规战争",
+        "民族战争",
+        "统一战争"
       ],
       "geopolitical": [
-        "欧洲“, ”德意志统一“, ”民族主义"
+        "欧洲",
+        "德意志统一",
+        "民族主义"
       ],
       "scale": "大规模",
       "cause": [
-        "领土争端“, ”民族统一“, ”历史矛盾"
+        "领土争端",
+        "民族统一",
+        "历史矛盾"
       ]
     },
     "summary": "普法战争是1870年至1871年间法兰西第二帝国与普鲁士王国及其德意志盟友之间的一场战争，最终导致普鲁士胜利，德意志统一，法兰西第二帝国崩溃，法兰西第三共和国成立。",
+    "totalBattles": 4
+  },
+  {
+    "warId": "anglo-zulu-war",
+    "name": "祖鲁战争",
+    "nameEn": "Anglo-Zulu War",
+    "startYear": 1879,
+    "endYear": 1879,
+    "type": "major",
+    "category": "殖民战争",
+    "tags": {
+      "warfareType": [
+        "殖民战争",
+        "步兵战术",
+        "不对称战争",
+        "阵地战"
+      ],
+      "geopolitical": [
+        "大英帝国",
+        "南非",
+        "殖民主义",
+        "帝国扩张"
+      ],
+      "scale": "regional",
+      "cause": [
+        "领土扩张",
+        "资源争夺",
+        "意识形态冲突",
+        "霸权主义"
+      ]
+    },
+    "summary": "1879年，大英帝国与南非祖鲁王国之间爆发的战争。战争初期祖鲁军队取得伊桑德尔瓦纳战役大捷，但最终因军事技术差距和内部问题战败，祖鲁王国被英国吞并。",
     "totalBattles": 4
   },
   {
@@ -577,14 +1115,17 @@
     "category": "殖民战争",
     "tags": {
       "warfareType": [
-        "陆战“, ”海战"
+        "陆战",
+        "海战"
       ],
       "geopolitical": [
-        "南美洲“, ”太平洋地区"
+        "南美洲",
+        "太平洋地区"
       ],
       "scale": "regional",
       "cause": [
-        "资源争夺“, ”领土争端"
+        "资源争夺",
+        "领土争端"
       ]
     },
     "summary": "智利、秘鲁与玻利维亚之间的领土与资源争夺战，智利获胜并夺取硝石产地。",
@@ -600,14 +1141,17 @@
     "category": "殖民战争",
     "tags": {
       "warfareType": [
-        "陆战“, ”海战"
+        "陆战",
+        "海战"
       ],
       "geopolitical": [
-        "南美洲“, ”太平洋地区"
+        "南美洲",
+        "太平洋地区"
       ],
       "scale": "regional",
       "cause": [
-        "资源争夺“, ”领土争端"
+        "资源争夺",
+        "领土争端"
       ]
     },
     "summary": "智利与玻利维亚、秘鲁之间的战争，争夺硝石和鸟粪资源控制权。",
@@ -700,13 +1244,61 @@
     "totalBattles": 5
   },
   {
+    "warId": "philippine-american-war",
+    "name": "美菲战争",
+    "nameEn": "Philippine-American War",
+    "startYear": 1899,
+    "endYear": 1902,
+    "type": "major",
+    "category": "殖民战争",
+    "tags": {
+      "warfareType": [
+        "游击战",
+        "殖民战争",
+        "不对称战争"
+      ],
+      "geopolitical": [
+        "美国扩张",
+        "亚洲殖民",
+        "民族独立"
+      ],
+      "scale": "regional",
+      "cause": [
+        "民族自决",
+        "殖民统治",
+        "资源争夺"
+      ]
+    },
+    "summary": "菲律宾反抗美国殖民统治的战争，最终美国获胜并确立了对菲律宾的殖民统治。",
+    "totalBattles": 9
+  },
+  {
     "warId": "八国联军侵华战争",
     "name": "八国联军侵华战争",
     "nameEn": "Eight-Nation Alliance Invasion",
     "startYear": 1900,
     "endYear": 1901,
     "type": "major",
-    "tags": {},
+    "category": "入侵战争",
+    "tags": {
+      "warfareType": [
+        "殖民战争",
+        "围城战",
+        "联军作战"
+      ],
+      "geopolitical": [
+        "列强侵华",
+        "义和团运动",
+        "清末危机"
+      ],
+      "scale": "regional",
+      "cause": [
+        "帝国主义",
+        "排外冲突",
+        "殖民扩张"
+      ]
+    },
+    "summary": "1900年八国联军以镇压义和团、保护在华外国人为由入侵中国，攻占北京，迫使清政府签订《辛丑条约》，赔偿白银4.5亿两。",
     "totalBattles": 5
   },
   {
@@ -750,18 +1342,51 @@
     "category": "内战",
     "tags": {
       "warfareType": [
-        "游击战“, ”内战“, ”人民战争"
+        "游击战",
+        "内战",
+        "人民战争"
       ],
       "geopolitical": [
-        "拉丁美洲“, ”美国干预"
+        "拉丁美洲",
+        "美国干预"
       ],
       "scale": "regional",
       "cause": [
-        "政治革命“, ”社会改革“, ”土地改革"
+        "政治革命",
+        "社会改革",
+        "土地改革"
       ]
     },
     "summary": "墨西哥人民推翻波费里奥·迪亚斯独裁统治，经历多次政权更迭的社会革命战争。",
     "totalBattles": 8
+  },
+  {
+    "warId": "italian-turkish_war",
+    "name": "意土战争",
+    "nameEn": "Italo-Turkish War",
+    "startYear": 1911,
+    "endYear": 1912,
+    "type": "minor",
+    "category": "殖民战争",
+    "tags": {
+      "warfareType": [
+        "殖民战争",
+        "海战",
+        "空战"
+      ],
+      "geopolitical": [
+        "欧洲列强扩张",
+        "奥斯曼衰落"
+      ],
+      "scale": "regional",
+      "cause": [
+        "殖民扩张",
+        "民族主义",
+        "资源争夺"
+      ]
+    },
+    "summary": "意大利为夺取奥斯曼帝国在北非的殖民地而发动的战争",
+    "totalBattles": 5
   },
   {
     "warId": "first-balkan-war",
@@ -773,14 +1398,20 @@
     "category": "领土战争",
     "tags": {
       "warfareType": [
-        "常规战争“, ”民族解放战争“, ”领土战争"
+        "常规战争",
+        "民族解放战争",
+        "领土战争"
       ],
       "geopolitical": [
-        "巴尔干问题“, ”奥斯曼衰落“, ”民族主义"
+        "巴尔干问题",
+        "奥斯曼衰落",
+        "民族主义"
       ],
       "scale": "regional",
       "cause": [
-        "民族主义“, ”领土争端“, ”帝国衰落"
+        "民族主义",
+        "领土争端",
+        "帝国衰落"
       ]
     },
     "summary": "巴尔干同盟国家奥斯曼帝国，结束奥斯曼在欧洲近500年的统治。",
@@ -796,14 +1427,18 @@
     "category": "领土战争",
     "tags": {
       "warfareType": [
-        "常规战争“, ”领土战争"
+        "常规战争",
+        "领土战争"
       ],
       "geopolitical": [
-        "巴尔干问题“, ”奥斯曼帝国衰落"
+        "巴尔干问题",
+        "奥斯曼帝国衰落"
       ],
       "scale": "regional",
       "cause": [
-        "领土争端“, ”民族矛盾“, ”大国干预"
+        "领土争端",
+        "民族矛盾",
+        "大国干预"
       ]
     },
     "summary": "第一次巴尔干战争后，原同盟国因领土分配不均而爆发的新冲突",
@@ -852,14 +1487,21 @@
     "category": "内战",
     "tags": {
       "warfareType": [
-        "内战“, ”革命战争“, ”意识形态战争"
+        "内战",
+        "革命战争",
+        "意识形态战争"
       ],
       "geopolitical": [
-        "俄国革命“, ”苏联建立“, ”冷战前奏"
+        "俄国革命",
+        "苏联建立",
+        "冷战前奏"
       ],
       "scale": "regional",
       "cause": [
-        "政治“, ”经济“, ”社会“, ”意识形态"
+        "政治",
+        "经济",
+        "社会",
+        "意识形态"
       ]
     },
     "summary": "1917年十月革命后，布尔什维克与各种反布尔什维克势力之间的武装冲突。",
@@ -875,14 +1517,18 @@
     "category": "内战",
     "tags": {
       "warfareType": [
-        "内战“, ”革命战争"
+        "内战",
+        "革命战争"
       ],
       "geopolitical": [
-        "芬兰独立“, ”俄国革命影响"
+        "芬兰独立",
+        "俄国革命影响"
       ],
       "scale": "regional",
       "cause": [
-        "阶级斗争“, ”政治分裂“, ”民族独立"
+        "阶级斗争",
+        "政治分裂",
+        "民族独立"
       ]
     },
     "summary": "1918年芬兰白军与红军之间的内战，导致芬兰独立并确立共和政体。",
@@ -898,18 +1544,24 @@
     "category": "领土战争",
     "tags": {
       "warfareType": [
-        "常规战争“, ”运动战"
+        "常规战争",
+        "骑兵战争",
+        "早期坦克战"
       ],
       "geopolitical": [
-        "东欧“, ”民族独立“, ”领土争端"
+        "东欧",
+        "苏联扩张",
+        "波兰独立"
       ],
       "scale": "regional",
       "cause": [
-        "民族主义“, ”领土争端“, ”意识形态冲突"
+        "领土争端",
+        "意识形态冲突",
+        "民族自决"
       ]
     },
-    "summary": "新生的波兰第二共和国与苏俄为争夺乌克兰和白俄罗斯领土而爆发的战争。",
-    "totalBattles": 4
+    "summary": "波兰与苏俄为争夺乌克兰和白俄罗斯领土而爆发的战争，最终波兰获胜。",
+    "totalBattles": 10
   },
   {
     "warId": "turkish-war-of-independence",
@@ -921,18 +1573,80 @@
     "category": "独立战争",
     "tags": {
       "warfareType": [
-        "游击战“, ”正规战“, ”民族解放战争"
+        "游击战",
+        "正规战",
+        "民族解放战争"
       ],
       "geopolitical": [
-        "奥斯曼帝国解体“, ”中东重组“, ”民族自决"
+        "奥斯曼帝国解体",
+        "中东重组",
+        "民族自决"
       ],
       "scale": "regional",
       "cause": [
-        "民族主义“, ”反殖民“, ”领土争端"
+        "民族主义",
+        "反殖民",
+        "领土争端"
       ]
     },
     "summary": "土耳其人民反抗协约国占领和奥斯曼帝国分裂的民族解放战争。",
     "totalBattles": 9
+  },
+  {
+    "warId": "chaco_war",
+    "name": "查科战争",
+    "nameEn": "Chaco War",
+    "startYear": 1932,
+    "endYear": 1935,
+    "type": "major",
+    "category": "领土战争",
+    "tags": {
+      "warfareType": [
+        "阵地战",
+        "游击战",
+        "化学战"
+      ],
+      "geopolitical": [
+        "南美",
+        "领土争端",
+        "资源争夺"
+      ],
+      "scale": "regional",
+      "cause": [
+        "领土",
+        "资源",
+        "民族主义"
+      ]
+    },
+    "summary": "玻利维亚与巴拉圭为争夺查科地区石油资源而爆发的战争",
+    "totalBattles": 9
+  },
+  {
+    "warId": "ethiopian_wars",
+    "name": "埃塞俄比亚战争",
+    "nameEn": "Ethiopian Wars",
+    "startYear": 1935,
+    "endYear": 1941,
+    "type": "major",
+    "category": "殖民战争",
+    "tags": {
+      "warfareType": [
+        "常规战争",
+        "游击战"
+      ],
+      "geopolitical": [
+        "殖民主义",
+        "法西斯扩张"
+      ],
+      "scale": "regional",
+      "cause": [
+        "领土争端",
+        "民族矛盾",
+        "资源争夺"
+      ]
+    },
+    "summary": "意大利入侵埃塞俄比亚的战争，最终埃塞俄比亚在盟军帮助下复国。",
+    "totalBattles": 10
   },
   {
     "warId": "spanish-civil-war",
@@ -944,14 +1658,22 @@
     "category": "内战",
     "tags": {
       "warfareType": [
-        "内战“,”意识形态战争“,”代理战争"
+        "内战",
+        "意识形态战争",
+        "代理战争"
       ],
       "geopolitical": [
-        "欧洲“,”西班牙“,”法西斯主义“,”共产主义"
+        "欧洲",
+        "西班牙",
+        "法西斯主义",
+        "共产主义"
       ],
       "scale": "全国性",
       "cause": [
-        "政治极化“,”阶级冲突“,”宗教矛盾“,”地区自治"
+        "政治极化",
+        "阶级冲突",
+        "宗教矛盾",
+        "地区自治"
       ]
     },
     "summary": "西班牙内战是1936年至1939年间发生在西班牙的一场内战，主要由左翼共和政府军与右翼民族主义叛军之间的冲突构成。这场战争成为第二次世界大战前欧洲的重要预演，吸引了众多国际志愿者参与，并对西班牙的政治格局产生了深远影响。",
@@ -967,14 +1689,20 @@
     "category": "领土战争",
     "tags": {
       "warfareType": [
-        "常规战争“, ”冬季战争“, ”阵地战"
+        "常规战争",
+        "冬季战争",
+        "阵地战"
       ],
       "geopolitical": [
-        "苏联扩张“, ”北欧安全“, ”冷战前奏"
+        "苏联扩张",
+        "北欧安全",
+        "冷战前奏"
       ],
       "scale": "regional",
       "cause": [
-        "领土争端“, ”战略安全“, ”大国扩张"
+        "领土争端",
+        "战略安全",
+        "大国扩张"
       ]
     },
     "summary": "苏联为获取芬兰领土而发动的侵略战争，最终芬兰被迫割让部分领土。",
@@ -1011,7 +1739,7 @@
       ]
     },
     "summary": "1939年至1945年全球性战争，由轴心国与同盟国之间的冲突引发，是人类历史上最大规模的战争。",
-    "totalBattles": 35
+    "totalBattles": 33
   },
   {
     "warId": "pacific_war",
@@ -1053,14 +1781,21 @@
     "category": "世界大战",
     "tags": {
       "warfareType": [
-        "坦克战“, ”空战“, ”城市战“, ”冬季作战"
+        "坦克战",
+        "空战",
+        "城市战",
+        "冬季作战"
       ],
       "geopolitical": [
-        "东欧“, ”苏联“, ”纳粹德国"
+        "东欧",
+        "苏联",
+        "纳粹德国"
       ],
       "scale": "global",
       "cause": [
-        "意识形态“, ”领土扩张“, ”资源争夺"
+        "意识形态",
+        "领土扩张",
+        "资源争夺"
       ]
     },
     "summary": "纳粹德国入侵苏联及其反攻的战争，是第二次世界大战的重要组成部分。",
@@ -1096,6 +1831,35 @@
     "totalBattles": 4
   },
   {
+    "warId": "indonesian-national-revolution",
+    "name": "印尼独立革命",
+    "nameEn": "Indonesian National Revolution",
+    "startYear": 1945,
+    "endYear": 1949,
+    "type": "major",
+    "category": "独立战争",
+    "tags": {
+      "warfareType": [
+        "游击战",
+        "非对称战争",
+        "独立战争"
+      ],
+      "geopolitical": [
+        "非殖民化",
+        "冷战初期",
+        "亚洲民族主义"
+      ],
+      "scale": "regional",
+      "cause": [
+        "民族自决",
+        "反殖民主义",
+        "政治独立"
+      ]
+    },
+    "summary": "印度尼西亚为摆脱荷兰殖民统治而进行的独立战争，最终获得国际承认。",
+    "totalBattles": 9
+  },
+  {
     "warId": "greek_civil_war",
     "name": "希腊内战",
     "nameEn": "Greek Civil War",
@@ -1105,14 +1869,20 @@
     "category": "内战",
     "tags": {
       "warfareType": [
-        "游击战“, ”内战“, ”代理人战争"
+        "游击战",
+        "内战",
+        "代理人战争"
       ],
       "geopolitical": [
-        "冷战“, ”巴尔干“, ”欧洲"
+        "冷战",
+        "巴尔干",
+        "欧洲"
       ],
       "scale": "regional",
       "cause": [
-        "意识形态“, ”政治“, ”阶级"
+        "意识形态",
+        "政治",
+        "阶级"
       ]
     },
     "summary": "希腊共产党与政府军之间的内战，是冷战初期东西方阵营在希腊的代理人战争。",
@@ -1152,7 +1922,7 @@
     "startYear": 1950,
     "endYear": 1953,
     "type": "major",
-    "category": "ideological war",
+    "category": "意识形态战争",
     "tags": {
       "warfareType": [
         "常规战争",
@@ -1172,7 +1942,7 @@
         "地缘政治竞争"
       ]
     },
-    "summary": "A military conflict between North Korea and South Korea, with China and the Soviet Union supporting the North and the United Nations, primarily the United States, supporting the South.",
+    "summary": "朝鲜半岛南北双方之间的军事冲突，中苏支持北方，联合国军（以美国为首）支持南方，最终以停战协定结束，朝鲜半岛维持分裂状态。",
     "totalBattles": 9
   },
   {
@@ -1185,14 +1955,18 @@
     "category": "内战",
     "tags": {
       "warfareType": [
-        "游击战“, ”内战"
+        "游击战",
+        "内战"
       ],
       "geopolitical": [
-        "冷战“, ”美苏对抗"
+        "冷战",
+        "美苏对抗"
       ],
       "scale": "regional",
       "cause": [
-        "政治“, ”经济“, ”社会"
+        "政治",
+        "经济",
+        "社会"
       ]
     },
     "summary": "菲德尔·卡斯特罗领导的革命武装推翻巴蒂斯塔独裁统治的革命战争。",
@@ -1208,14 +1982,20 @@
     "category": "独立战争/殖民战争",
     "tags": {
       "warfareType": [
-        "游击战“, ”反殖民战争“, ”民族解放战争"
+        "游击战",
+        "反殖民战争",
+        "民族解放战争"
       ],
       "geopolitical": [
-        "非殖民化“, ”冷战背景“, ”地中海冲突"
+        "非殖民化",
+        "冷战背景",
+        "地中海冲突"
       ],
       "scale": "regional",
       "cause": [
-        "民族自决“, ”反殖民主义“, ”种族冲突"
+        "民族自决",
+        "反殖民主义",
+        "种族冲突"
       ]
     },
     "summary": "阿尔及利亚人民为摆脱法国殖民统治而进行的民族解放战争。",
@@ -1254,13 +2034,91 @@
     "totalBattles": 7
   },
   {
+    "warId": "nigerian-civil-war",
+    "name": "尼日利亚内战",
+    "nameEn": "Nigerian Civil War",
+    "startYear": 1967,
+    "endYear": 1970,
+    "type": "major",
+    "category": "内战",
+    "tags": {
+      "warfareType": [
+        "围困战",
+        "常规战争",
+        "游击战"
+      ],
+      "geopolitical": [
+        "后殖民冲突",
+        "民族分裂主义",
+        "非洲之角"
+      ],
+      "scale": "regional",
+      "cause": [
+        "民族矛盾",
+        "资源争夺",
+        "政治权力斗争"
+      ]
+    },
+    "summary": "尼日利亚内战，又称比夫拉战争，是尼日利亚联邦政府与寻求独立的比夫拉共和国之间于1967年至1970年进行的武装冲突。战争源于民族、经济和政治矛盾，以联邦政府军事胜利告终，造成大规模人道主义灾难。",
+    "totalBattles": 7
+  },
+  {
     "warId": "六日战争",
     "name": "六日战争",
     "nameEn": "Six-Day War",
     "startYear": 1967,
     "endYear": 1967,
     "type": "minor",
-    "tags": {},
+    "category": "地区冲突",
+    "tags": {
+      "warfareType": [
+        "闪电战",
+        "空袭战",
+        "装甲战"
+      ],
+      "geopolitical": [
+        "中东冲突",
+        "阿以冲突",
+        "领土争端"
+      ],
+      "scale": "regional",
+      "cause": [
+        "领土争端",
+        "民族矛盾",
+        "宗教冲突",
+        "地缘政治"
+      ]
+    },
+    "summary": "1967年以色列对埃及、约旦、叙利亚发动的先发制人战争，六天内取得决定性胜利，占领西奈半岛、戈兰高地等大片领土。",
+    "totalBattles": 4
+  },
+  {
+    "warId": "bangladesh-independence-war",
+    "name": "孟加拉国独立战争",
+    "nameEn": "Bangladesh Liberation War",
+    "startYear": 1971,
+    "endYear": 1971,
+    "type": "major",
+    "category": "独立战争",
+    "tags": {
+      "warfareType": [
+        "游击战",
+        "常规战争",
+        "民族解放战争"
+      ],
+      "geopolitical": [
+        "南亚",
+        "冷战",
+        "后殖民时代"
+      ],
+      "scale": "regional",
+      "cause": [
+        "民族自决",
+        "政治压迫",
+        "经济不平等"
+      ]
+    },
+    "summary": "东巴基斯坦(孟加拉)反抗巴基斯坦统治的独立战争，最终获得独立并建立孟加拉国。",
     "totalBattles": 4
   },
   {
@@ -1273,18 +2131,51 @@
     "category": "内战",
     "tags": {
       "warfareType": [
-        "游击战“, ”内战“, ”代理人战争"
+        "游击战",
+        "内战",
+        "代理人战争"
       ],
       "geopolitical": [
-        "冷战“, ”非洲冲突"
+        "冷战",
+        "非洲冲突"
       ],
       "scale": "regional",
       "cause": [
-        "意识形态“, ”权力争夺“, ”资源控制"
+        "意识形态",
+        "权力争夺",
+        "资源控制"
       ]
     },
     "summary": "安哥拉独立后，人民解放运动与争取安哥拉彻底独立全国联盟之间的长期内战。",
     "totalBattles": 13
+  },
+  {
+    "warId": "uganda-tanzania-war",
+    "name": "乌干达-坦桑尼亚战争",
+    "nameEn": "Uganda–Tanzania War",
+    "startYear": 1978,
+    "endYear": 1979,
+    "type": "major",
+    "category": "代理人战争",
+    "tags": {
+      "warfareType": [
+        "常规战争",
+        "陆地战"
+      ],
+      "geopolitical": [
+        "东非",
+        "政权更迭",
+        "非洲之角"
+      ],
+      "scale": "regional",
+      "cause": [
+        "领土争端",
+        "意识形态",
+        "政权颠覆"
+      ]
+    },
+    "summary": "1978年，乌干达独裁者伊迪·阿明为转移国内矛盾，入侵坦桑尼亚。坦桑尼亚军队在乌干达反政府武装配合下反击，最终攻占乌干达首都坎帕拉，推翻了阿明政权。",
+    "totalBattles": 4
   },
   {
     "warId": "soviet-afghan-war",
@@ -1296,14 +2187,20 @@
     "category": "代理人战争",
     "tags": {
       "warfareType": [
-        "游击战“, ”不对称战争“, ”代理人战争"
+        "游击战",
+        "不对称战争",
+        "代理人战争"
       ],
       "geopolitical": [
-        "冷战“, ”苏联扩张“, ”伊斯兰复兴"
+        "冷战",
+        "苏联扩张",
+        "伊斯兰复兴"
       ],
       "scale": "regional",
       "cause": [
-        "意识形态冲突“, ”地缘政治“, ”民族解放"
+        "意识形态冲突",
+        "地缘政治",
+        "民族解放"
       ]
     },
     "summary": "苏联为支持阿富汗政府而进行的军事干预，最终陷入长达十年的游击战泥潭。",
@@ -1316,7 +2213,26 @@
     "startYear": 1979,
     "endYear": 1979,
     "type": "minor",
-    "tags": {},
+    "category": "边境战争",
+    "tags": {
+      "warfareType": [
+        "常规战争",
+        "边境冲突",
+        "山地战"
+      ],
+      "geopolitical": [
+        "冷战",
+        "中越关系",
+        "东南亚"
+      ],
+      "scale": "regional",
+      "cause": [
+        "领土争端",
+        "地缘政治",
+        "民族矛盾"
+      ]
+    },
+    "summary": "1979年中国与越南之间爆发的短暂边境战争，中国军队在达成惩罚性目标后主动撤军。",
     "totalBattles": 5
   },
   {
@@ -1329,14 +2245,19 @@
     "category": "领土战争",
     "tags": {
       "warfareType": [
-        "常规战争“, ”化学战“, ”导弹战"
+        "常规战争",
+        "化学战",
+        "导弹战"
       ],
       "geopolitical": [
-        "中东冲突“, ”石油资源争端"
+        "中东冲突",
+        "石油资源争端"
       ],
       "scale": "regional",
       "cause": [
-        "领土争端“, ”宗教冲突“, ”地区霸权"
+        "领土争端",
+        "宗教冲突",
+        "地区霸权"
       ]
     },
     "summary": "伊拉克与伊朗之间因边界争端、宗教分歧和地区霸权争夺引发的全面战争。",
@@ -1381,14 +2302,21 @@
     "category": "内战",
     "tags": {
       "warfareType": [
-        "游击战“, ”恐怖主义“, ”城市战“, ”丛林战"
+        "游击战",
+        "恐怖主义",
+        "城市战",
+        "丛林战"
       ],
       "geopolitical": [
-        "南亚冲突“, ”民族自决“, ”分离主义"
+        "南亚冲突",
+        "民族自决",
+        "分离主义"
       ],
       "scale": "regional",
       "cause": [
-        "民族冲突“, ”政治压迫“, ”经济不平等"
+        "民族冲突",
+        "政治压迫",
+        "经济不平等"
       ]
     },
     "summary": "斯里兰卡政府军与泰米尔伊拉姆猛虎解放组织之间的长期武装冲突",
@@ -1404,18 +2332,22 @@
     "category": "领土战争",
     "tags": {
       "warfareType": [
-        "常规战争“, ”民族冲突“, ”领土争端"
+        "常规战争",
+        "领土战争",
+        "民族战争"
       ],
       "geopolitical": [
-        "后苏联空间“, ”高加索地区“, ”俄罗斯影响区"
+        "后苏联冲突",
+        "高加索地区"
       ],
       "scale": "regional",
       "cause": [
-        "民族矛盾“, ”领土争端“, ”历史遗留问题"
+        "民族矛盾",
+        "领土争端"
       ]
     },
     "summary": "亚美尼亚与阿塞拜疆为争夺纳戈尔诺-卡拉巴赫地区爆发的武装冲突",
-    "totalBattles": 14
+    "totalBattles": 9
   },
   {
     "warId": "gulf-war",
@@ -1458,18 +2390,52 @@
     "category": "内战",
     "tags": {
       "warfareType": [
-        "内战“, ”种族冲突“, ”游击战"
+        "内战",
+        "种族冲突",
+        "游击战"
       ],
       "geopolitical": [
-        "非洲冲突“, ”大湖地区危机"
+        "非洲冲突",
+        "大湖地区危机"
       ],
       "scale": "regional",
       "cause": [
-        "种族矛盾“, ”政治权力争夺“, ”殖民遗产"
+        "种族矛盾",
+        "政治权力争夺",
+        "殖民遗产"
       ]
     },
     "summary": "胡图族政府与图西族叛军卢旺达爱国阵线之间的内战，最终导致卢旺达大屠杀。",
     "totalBattles": 9
+  },
+  {
+    "warId": "croatian-war-of-independence",
+    "name": "克罗地亚独立战争",
+    "nameEn": "Croatian War of Independence",
+    "startYear": 1991,
+    "endYear": 1995,
+    "type": "major",
+    "category": "独立战争",
+    "tags": {
+      "warfareType": [
+        "常规战争",
+        "城市战",
+        "游击战"
+      ],
+      "geopolitical": [
+        "巴尔干",
+        "东欧",
+        "后冷战"
+      ],
+      "scale": "regional",
+      "cause": [
+        "民族主义",
+        "独立运动",
+        "领土争端"
+      ]
+    },
+    "summary": "克罗地亚脱离南斯拉夫的战争，与南斯拉夫人民军及塞尔维亚族武装冲突。",
+    "totalBattles": 5
   },
   {
     "warId": "somali_civil_war",
@@ -1481,14 +2447,19 @@
     "category": "内战",
     "tags": {
       "warfareType": [
-        "游击战“, ”内战“, ”部族冲突"
+        "游击战",
+        "内战",
+        "部族冲突"
       ],
       "geopolitical": [
-        "非洲冲突“, ”资源争夺"
+        "非洲冲突",
+        "资源争夺"
       ],
       "scale": "regional",
       "cause": [
-        "政治“, ”部族“, ”宗教"
+        "政治",
+        "部族",
+        "宗教"
       ]
     },
     "summary": "索马里政府垮台后各派系为争夺控制权爆发的长期内战。",
@@ -1523,13 +2494,61 @@
     "totalBattles": 9
   },
   {
+    "warId": "second_congo_war",
+    "name": "第二次刚果战争",
+    "nameEn": "Second Congo War",
+    "startYear": 1998,
+    "endYear": 2003,
+    "type": "major",
+    "category": "内战/代理人战争",
+    "tags": {
+      "warfareType": [
+        "游击战",
+        "内战",
+        "资源战争"
+      ],
+      "geopolitical": [
+        "非洲冲突",
+        "地区霸权",
+        "资源争夺"
+      ],
+      "scale": "regional",
+      "cause": [
+        "种族冲突",
+        "资源争夺",
+        "政治不稳定"
+      ]
+    },
+    "summary": "非洲历史上最致命的冲突之一，涉及九个国家及二十多个武装团体。",
+    "totalBattles": 9
+  },
+  {
     "warId": "科索沃战争",
     "name": "科索沃战争",
     "nameEn": "Kosovo War",
     "startYear": 1998,
     "endYear": 1999,
     "type": "minor",
-    "tags": {},
+    "category": "地区冲突",
+    "tags": {
+      "warfareType": [
+        "空袭战",
+        "游击战",
+        "干预战争"
+      ],
+      "geopolitical": [
+        "巴尔干",
+        "北约干预",
+        "南斯拉夫解体"
+      ],
+      "scale": "regional",
+      "cause": [
+        "民族矛盾",
+        "领土争端",
+        "人道主义危机"
+      ]
+    },
+    "summary": "1998-1999年科索沃阿尔巴尼亚族与塞尔维亚政府之间的武装冲突，北约对南联盟实施空袭干预，科索沃事实独立。",
     "totalBattles": 5
   },
   {
@@ -1542,14 +2561,21 @@
     "category": "反恐战争",
     "tags": {
       "warfareType": [
-        "反恐战争“, ”游击战“, ”不对称战争“, ”反叛乱"
+        "反恐战争",
+        "游击战",
+        "不对称战争",
+        "反叛乱"
       ],
       "geopolitical": [
-        "美国霸权“, ”中亚战略“, ”伊斯兰极端主义"
+        "美国霸权",
+        "中亚战略",
+        "伊斯兰极端主义"
       ],
       "scale": "大规模",
       "cause": [
-        "恐怖主义“, ”宗教冲突“, ”地缘政治"
+        "恐怖主义",
+        "宗教冲突",
+        "地缘政治"
       ]
     },
     "summary": "阿富汗战争是美国及其盟友于2001年发动的军事行动，旨在推翻塔利班政权并打击基地组织，最终在2021年以美军撤离和塔利班重新掌权结束。",
@@ -1565,14 +2591,22 @@
     "category": "中东战争",
     "tags": {
       "warfareType": [
-        "常规战争“,”反叛乱战争“,”不对称战争"
+        "常规战争",
+        "反叛乱战争",
+        "不对称战争"
       ],
       "geopolitical": [
-        "中东冲突“,”石油资源“,”反恐战争“,”政权更迭"
+        "中东冲突",
+        "石油资源",
+        "反恐战争",
+        "政权更迭"
       ],
       "scale": "大规模",
       "cause": [
-        "大规模杀伤性武器“,”恐怖主义“,”政权更迭“,”石油资源"
+        "大规模杀伤性武器",
+        "恐怖主义",
+        "政权更迭",
+        "石油资源"
       ]
     },
     "summary": "伊拉克战争是美国领导的联军于2003年发动的针对伊拉克的军事行动，旨在推翻萨达姆·侯赛因政权并消除其大规模杀伤性武器。战争导致萨达姆政权被推翻，但并未发现大规模杀伤性武器，随后陷入长期叛乱和内战。",
@@ -1616,14 +2650,20 @@
     "category": "内战",
     "tags": {
       "warfareType": [
-        "内战“, ”混合战争“, ”代理人战争"
+        "内战",
+        "混合战争",
+        "代理人战争"
       ],
       "geopolitical": [
-        "阿拉伯之春“, ”北非不稳定“, ”石油资源争夺"
+        "阿拉伯之春",
+        "北非不稳定",
+        "石油资源争夺"
       ],
       "scale": "regional",
       "cause": [
-        "政治“, ”民族“, ”资源"
+        "政治",
+        "民族",
+        "资源"
       ]
     },
     "summary": "卡扎菲政权被推翻后，利陷入长期内战，多方势力争夺控制权。",
@@ -1636,31 +2676,52 @@
     "startYear": 2011,
     "endYear": 2023,
     "type": "major",
-    "tags": {},
+    "category": "内战",
+    "tags": {
+      "warfareType": [
+        "内战",
+        "城市战",
+        "非对称战争",
+        "代理人战争"
+      ],
+      "geopolitical": [
+        "中东冲突",
+        "阿拉伯之春",
+        "大国博弈"
+      ],
+      "scale": "regional",
+      "cause": [
+        "政治压迫",
+        "教派矛盾",
+        "外部干预",
+        "社会不满"
+      ]
+    },
+    "summary": "2011年叙利亚爆发反政府抗议后演变为全面内战，多方势力介入，导致严重人道主义灾难和地区动荡。",
     "totalBattles": 12
   },
   {
     "warId": "yemen_civil_war_houthi_conflict",
-    "name": "也门内战",
-    "nameEn": "Yemeni Civil War",
+    "name": "也门内战（胡塞武装冲突）",
+    "nameEn": "Yemeni Civil War (Houthi Conflict)",
     "startYear": 2014,
     "endYear": 2023,
     "type": "major",
-    "category": "内战",
+    "category": "内战/代理人战争",
     "tags": {
       "warfareType": [
-        "内战“, ”代理人战争“, ”非对称战争“, ”城市战"
+        "游击战“、”空袭战“、”代理人战争"
       ],
       "geopolitical": [
-        "中东冲突“, ”沙特-伊朗对抗“, ”红海战略"
+        "沙特-伊朗对抗“、”地区霸权争夺"
       ],
       "scale": "regional",
       "cause": [
-        "宗教冲突“, ”资源争夺“, ”政治不稳定“, ”外部干预"
+        "宗教冲突“、”政治不稳定"
       ]
     },
-    "summary": "胡塞武装与也门政府军及多国联军之间的持续冲突，导致严重人道主义危机。",
-    "totalBattles": 9
+    "summary": "胡塞武装与也门政府及多国联盟之间的武装冲突，导致严重人道主义危机。",
+    "totalBattles": 13
   },
   {
     "warId": "israel-gaza-conflict",
@@ -1672,14 +2733,21 @@
     "category": "领土战争",
     "tags": {
       "warfareType": [
-        "非对称战争“, ”城市战“, ”游击战“, ”混合战争"
+        "非对称战争",
+        "城市战",
+        "游击战",
+        "混合战争"
       ],
       "geopolitical": [
-        "中东冲突“, ”巴以问题“, ”宗教冲突"
+        "中东冲突",
+        "巴以问题",
+        "宗教冲突"
       ],
       "scale": "regional",
       "cause": [
-        "领土争端“, ”民族矛盾“, ”宗教冲突"
+        "领土争端",
+        "民族矛盾",
+        "宗教冲突"
       ]
     },
     "summary": "以色列与巴勒斯坦哈马斯武装组织之间爆发的军事冲突，导致大量人员伤亡和人道主义危机。",

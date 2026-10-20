@@ -1,0 +1,782 @@
+{
+  "warId": "ethiopian_wars",
+  "name": "埃塞俄比亚战争",
+  "nameEn": "Ethiopian Wars",
+  "alternativeNames": [
+    "阿比西尼亚战争"
+  ],
+  "startYear": 1935,
+  "endYear": 1941,
+  "type": "major",
+  "category": "殖民战争",
+  "theaters": [
+    "东非"
+  ],
+  "summary": "意大利入侵埃塞俄比亚的战争，最终埃塞俄比亚在盟军帮助下复国。",
+  "background": {
+    "causes": "意大利法西斯政权寻求建立殖民帝国，报复1896年阿杜瓦战役失败",
+    "immediateCause": "1935年10月墨索里尼下令入侵埃塞俄比亚",
+    "preWarSituation": "埃塞俄利亚孤立无援，意大利已在厄立特里亚和索马里兰建立殖民地",
+    "objectivesA": "吞并埃塞俄比亚，建立东非殖民帝国",
+    "objectivesB": "保卫国家独立，抵抗意大利侵略",
+    "precedingConflicts": [
+      "第一次意埃战争(1895-1896)"
+    ]
+  },
+  "belligerents": {
+    "sideA": {
+      "name": "意大利",
+      "nameEn": "Italy",
+      "countries": [
+        {
+          "name": "意大利王国",
+          "entryYear": 1935,
+          "exitYear": 1941
+        }
+      ],
+      "commanders": [
+        {
+          "name": "皮埃特罗·巴多格里奥",
+          "role": "总司令",
+          "bio": "意大利陆军元帅，指挥初期军事行动"
+        },
+        {
+          "name": "罗德里戈·法尔基内利",
+          "role": "东非军司令",
+          "bio": "指挥东非战场意军"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "贝尼托·墨索里尼",
+          "role": "意大利首相",
+          "bio": "法西斯领袖，发动战争的主要决策者"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "义务兵役制",
+        "organization": "集团军编制",
+        "logistics": "依赖海运补给，东非基地补给困难"
+      },
+      "preWarStrength": {
+        "army": "约40万人",
+        "navy": "地中海舰队",
+        "airForce": "约1000架飞机",
+        "armor": "约300辆坦克",
+        "specialForces": "精锐步兵师",
+        "reserves": "约200万人"
+      },
+      "equipment": [
+        {
+          "name": "菲亚特L3坦克",
+          "quantity": "约100辆",
+          "description": "轻型坦克，机动性强但装甲薄弱"
+        },
+        {
+          "name": "菲亚特CR.32战斗机",
+          "quantity": "约200架",
+          "description": "双翼战斗机，性能优于埃塞俄比亚空军"
+        },
+        {
+          "name": "布雷达机枪",
+          "quantity": "数千挺",
+          "description": "标准步兵武器"
+        }
+      ],
+      "industrialCapacity": "欧洲主要工业国之一，能生产先进武器",
+      "economicStrength": "欧洲第五大经济体",
+      "totalCasualties": {
+        "dead": "约1.5万人",
+        "wounded": "约3万人",
+        "captured": "约5万人",
+        "missing": "约1万人",
+        "civilian": "约1万人"
+      },
+      "warCrimes": [
+        "使用芥子气等化学武器",
+        "屠杀平民"
+      ],
+      "propaganda": {
+        "slogans": [
+          "为罗马帝国复仇",
+          "重建东非帝国"
+        ],
+        "themes": [
+          "种族优越论",
+          "法西斯扩张"
+        ],
+        "methods": [
+          "报纸宣传",
+          "电影纪录片",
+          "广播演讲"
+        ]
+      }
+    },
+    "sideB": {
+      "name": "埃塞俄比亚",
+      "nameEn": "Ethiopia",
+      "countries": [
+        {
+          "name": "埃塞俄比亚帝国",
+          "entryYear": 1935,
+          "exitYear": 1941
+        }
+      ],
+      "commanders": [
+        {
+          "name": "海尔·塞拉西一世",
+          "role": "皇帝兼总司令",
+          "bio": "埃塞俄比亚皇帝，领导抵抗运动"
+        },
+        {
+          "name": "拉斯·伊姆鲁",
+          "role": "北方军区司令",
+          "bio": "经验丰富的军事指挥官"
+        }
+      ],
+      "politicalLeaders": [
+        {
+          "name": "海尔·塞拉西一世",
+          "role": "皇帝",
+          "bio": "埃塞俄比亚国家元首，流亡期间领导抵抗"
+        }
+      ],
+      "militarySystem": {
+        "recruitment": "部落民兵制",
+        "organization": "地区性军队编制",
+        "logistics": "依赖本土资源，补给困难"
+      },
+      "preWarStrength": {
+        "army": "约40万人",
+        "navy": "无",
+        "airForce": "约12架飞机",
+        "armor": "无",
+        "specialForces": "皇家卫队",
+        "reserves": "约20万人"
+      },
+      "equipment": [
+        {
+          "name": "李-恩菲尔德步枪",
+          "quantity": "约10万支",
+          "description": "英国援助的制式步枪"
+        },
+        {
+          "name": "马克沁机枪",
+          "quantity": "约500挺",
+          "description": "重机枪，火力强大但数量有限"
+        },
+        {
+          "name": "长矛和盾牌",
+          "quantity": "数万件",
+          "description": "传统冷兵器，用于近战"
+        }
+      ],
+      "industrialCapacity": "几乎没有现代工业",
+      "economicStrength": "农业为主，经济落后",
+      "totalCasualties": {
+        "dead": "约27.5万人",
+        "wounded": "约50万人",
+        "captured": "约2万人",
+        "missing": "约5万人",
+        "civilian": "约60万人"
+      },
+      "warCrimes": [],
+      "propaganda": {
+        "slogans": [
+          "为独立而战",
+          "上帝与我们同在"
+        ],
+        "themes": [
+          "民族独立",
+          "抵抗侵略"
+        ],
+        "methods": [
+          "宗教动员",
+          "部落首领演讲"
+        ]
+      }
+    }
+  },
+  "neutralParties": [
+    {
+      "name": "英国",
+      "role": "后期支持埃塞俄比亚"
+    },
+    {
+      "name": "法国",
+      "role": "初期中立"
+    },
+    {
+      "name": "国联",
+      "role": "谴责意大利侵略但未采取有效行动"
+    }
+  ],
+  "outcome": {
+    "result": "埃塞俄比亚复国，意大利战败",
+    "victoryAnalysis": {
+      "winnerFactors": "游击战持续抵抗，盟军军事介入，意大利补给线过长",
+      "loserFactors": "低估埃塞俄比亚抵抗意志，分散兵力，后勤困难"
+    },
+    "treaty": {
+      "name": "1947年巴黎和平条约",
+      "date": "1947年2月10日",
+      "content": "意大利放弃对埃塞俄比亚的所有权利，支付战争赔偿"
+    },
+    "territorialChanges": "埃塞俄比亚恢复独立，意大利失去所有东非殖民地",
+    "economicCost": "意大利损失约40亿美元，埃塞俄比亚基础设施严重破坏",
+    "demographicImpact": "埃塞俄比亚人口减少约15%，大量平民死亡或流离失所"
+  },
+  "legacy": {
+    "significance": "非洲反殖民斗争的重要胜利，暴露国联无力阻止侵略",
+    "immediateConsequences": "意大利与英法关系恶化，墨索里尼转向德国",
+    "longTermImpact": {
+      "political": "加速了非洲独立运动，增强了民族自决意识",
+      "military": "证明了游击战在特定条件下的有效性",
+      "economic": "埃塞俄比亚经济长期恢复困难",
+      "social": "强化了埃塞俄比亚民族认同，海尔·塞拉西成为民族英雄"
+    },
+    "culturalLegacy": {
+      "memorials": [
+        "阿杜瓦战役纪念碑",
+        "抵抗战士纪念馆"
+      ],
+      "observances": [
+        "解放日纪念活动"
+      ],
+      "media": [
+        "《最后的皇帝》电影",
+        "多部历史纪录片"
+      ]
+    }
+  },
+  "tags": {
+    "warfareType": [
+      "常规战争",
+      "游击战"
+    ],
+    "geopolitical": [
+      "殖民主义",
+      "法西斯扩张"
+    ],
+    "scale": "regional",
+    "cause": [
+      "领土争端",
+      "民族矛盾",
+      "资源争夺"
+    ]
+  },
+  "relatedWars": [
+    "第一次意埃战争",
+    "第二次世界大战东非战役"
+  ],
+  "sources": [],
+  "warProcess": {
+    "phases": [
+      {
+        "name": "战争初期",
+        "nameEn": "Early War",
+        "startYear": 1935,
+        "endYear": 1936,
+        "summary": "意大利军队入侵埃塞俄比亚初期，凭借现代化武器和空中优势迅速推进，埃塞俄比亚军队虽然英勇抵抗但装备落后，难以有效抵抗意军的攻势。",
+        "battles": [
+          {
+            "battleId": "walwal_incident",
+            "name": "瓦尔瓦尔事件",
+            "nameEn": "Walwal Incident",
+            "startYear": 1935,
+            "endYear": 1935,
+            "coords": [
+              42.5833,
+              8.5
+            ],
+            "theater": "奥加登地区",
+            "context": "意大利与埃塞俄比亚边境争端，意大利以瓦尔瓦尔事件为借口发动全面入侵",
+            "description": "1935年12月5日，意大利军队与埃塞俄比亚边防军在瓦尔瓦尔地区发生武装冲突。意大利以此为由要求埃塞俄比亚赔礼道歉并赔偿，遭到拒绝后，墨索里尼以此为借口发动全面入侵。",
+            "result": "意大利以此为借口发动全面战争",
+            "significance": "成为意大利入侵埃塞俄比亚的直接导火索",
+            "casualties": {
+              "sideA": "约100人",
+              "sideB": "约150人"
+            },
+            "forces": {
+              "sideA": "约1000人",
+              "sideB": "约1500人"
+            },
+            "commanders": [
+              {
+                "name": "格拉齐亚尼",
+                "role": "意军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "海尔·塞拉西",
+                "role": "埃塞俄比亚皇帝",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_awa",
+            "name": "阿瓦战役",
+            "nameEn": "Battle of Awa",
+            "startYear": 1935,
+            "endYear": 1935,
+            "coords": [
+              43.5,
+              8.8333
+            ],
+            "theater": "哈勒尔省",
+            "context": "埃塞俄比亚军队试图阻止意军向内陆推进",
+            "description": "1935年11月初，埃塞俄比亚军队在阿瓦地区集结约2万人，试图阻止意军向内陆推进。意军凭借机枪、火炮和空中优势，轻松击溃了装备落后的埃塞俄比亚军队，打开了通往埃塞俄比亚腹地的道路。",
+            "result": "意军获胜，埃塞俄比亚军队撤退",
+            "significance": "埃塞俄比亚军队首次大规模抵抗被击溃，意军取得决定性胜利",
+            "casualties": {
+              "sideA": "约500人",
+              "sideB": "约2000人"
+            },
+            "forces": {
+              "sideA": "约2万人",
+              "sideB": "约1.5万人"
+            },
+            "commanders": [
+              {
+                "name": "格拉齐亚尼",
+                "role": "意军指挥官",
+                "side": "sideA"
+              },
+              {
+                "name": "德斯塔·达姆图",
+                "role": "埃塞俄比亚指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_tembien",
+            "name": "特姆本战役",
+            "nameEn": "Battle of Tembien",
+            "startYear": 1936,
+            "endYear": 1936,
+            "coords": [
+              38.5,
+              13.5
+            ],
+            "theater": "提格雷省",
+            "context": "埃塞俄比亚军队在北部战线集结主力试图阻止意军",
+            "description": "1936年1-2月，埃塞俄比亚军队在提格雷省的特姆本地区集结约10万兵力，试图阻止意军向亚的斯亚贝巴推进。意军凭借空中轰炸和机械化部队的优势，击溃了埃塞俄比亚军队的防线，埃军损失惨重，被迫撤退。",
+            "result": "意军获胜，埃塞俄比亚军队遭受重大损失",
+            "significance": "埃塞俄比亚北方战线崩溃，意军获得通往首都的通道",
+            "casualties": {
+              "sideA": "约8000人",
+              "sideB": "约5000人"
+            },
+            "forces": {
+              "sideA": "约10万人",
+              "sideB": "约8万人"
+            },
+            "commanders": [
+              {
+                "name": "皮耶罗·巴多利奥",
+                "role": "意军总司令",
+                "side": "sideA"
+              },
+              {
+                "name": "拉斯·伊姆鲁",
+                "role": "埃塞俄比亚指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_shire",
+            "name": "希雷战役",
+            "nameEn": "Battle of Shire",
+            "startYear": 1936,
+            "endYear": 1936,
+            "coords": [
+              37.6667,
+              14.3333
+            ],
+            "theater": "提格雷省",
+            "context": "埃塞俄比亚军队试图阻止意军向亚的斯亚贝巴推进",
+            "description": "1936年2月底，埃塞俄比亚军队在希雷地区集结约5万人，试图阻止意军向亚的斯亚贝巴推进。意军凭借空中优势和机械化部队，再次击溃了埃塞俄比亚军队的防线，埃军损失惨重，被迫撤退。",
+            "result": "意军获胜，埃塞俄比亚军队再次遭受重大损失",
+            "significance": "埃塞俄比亚北方防线彻底崩溃，意军获得通往首都的通道",
+            "casualties": {
+              "sideA": "约5000人",
+              "sideB": "约3000人"
+            },
+            "forces": {
+              "sideA": "约5万人",
+              "sideB": "约6万人"
+            },
+            "commanders": [
+              {
+                "name": "皮耶罗·巴多利奥",
+                "role": "意军总司令",
+                "side": "sideA"
+              },
+              {
+                "name": "拉斯·伊姆鲁",
+                "role": "埃塞俄比亚指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "battle_of_maichew",
+            "name": "迈切乌战役",
+            "nameEn": "Battle of Maichew",
+            "startYear": 1936,
+            "endYear": 1936,
+            "coords": [
+              39.5,
+              9.5
+            ],
+            "theater": "奥罗米亚省",
+            "context": "埃塞俄比亚军队在亚的斯亚贝巴以南的最后防线",
+            "description": "1936年3月31日，埃塞俄比亚军队在迈切乌地区集结约3万人，试图阻止意军向首都亚的斯亚贝巴推进。意军凭借空中轰炸和机械化部队的优势，轻松击溃了埃塞俄比亚军队的防线，埃军损失惨重，被迫撤退。",
+            "result": "意军获胜，埃塞俄比亚军队崩溃",
+            "significance": "埃塞俄比亚军队主力被歼灭，首都亚的斯亚贝巴门户大开",
+            "casualties": {
+              "sideA": "约1.1万人",
+              "sideB": "约2000人"
+            },
+            "forces": {
+              "sideA": "约3万人",
+              "sideB": "约4万人"
+            },
+            "commanders": [
+              {
+                "name": "皮耶罗·巴多利奥",
+                "role": "意军总司令",
+                "side": "sideA"
+              },
+              {
+                "name": "海尔·塞拉西",
+                "role": "埃塞俄比亚皇帝",
+                "side": "sideB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "战争中期",
+        "nameEn": "Mid-War Period",
+        "startYear": 1936,
+        "endYear": 1940,
+        "summary": "埃塞俄比亚战争中期，意大利军队继续推进，占领埃塞俄比亚大部分地区，而埃塞俄比亚抵抗力量则采取游击战术进行抵抗。这一阶段，意大利巩固了对已占领地区的控制，同时埃塞俄比亚爱国者在部分地区组织了有效的抵抗。",
+        "battles": [
+          {
+            "battleId": "addis_ababa_capture",
+            "name": "亚的斯亚贝巴战役",
+            "nameEn": "Battle of Addis Ababa",
+            "startYear": 1936,
+            "endYear": 1936,
+            "coords": [
+              38.76,
+              9.03
+            ],
+            "theater": "中部战区",
+            "context": "意大利军队在梅姆非战役胜利后，继续向埃塞俄比亚首都亚的斯亚贝巴推进，海尔·塞拉西皇帝已流亡国外。",
+            "description": "1936年5月5日，意大利军队由皮埃特罗·巴多格里奥元帅指挥，未经激烈战斗就占领了亚的斯亚贝巴。埃塞俄比亚正规军已经瓦解，皇帝流亡英国。意大利宣布埃塞俄比亚并入意大利王国，结束了正规战争阶段。",
+            "result": "意大利占领亚的斯亚贝巴，埃塞俄比亚政府垮台",
+            "significance": "标志着埃塞俄比亚正规战争的结束，意大利控制了埃塞俄比亚的主要城市和交通线，但抵抗运动转入地下",
+            "casualties": {
+              "sideA": "约500人",
+              "sideB": "约200人"
+            },
+            "forces": {
+              "sideA": "约10万人",
+              "sideB": "约2万人"
+            },
+            "commanders": [
+              {
+                "name": "皮埃特罗·巴多格里奥",
+                "role": "总司令",
+                "side": "sideA"
+              },
+              {
+                "name": "海尔·塞拉西一世",
+                "role": "皇帝",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "gondar_resistance",
+            "name": "贡达尔抵抗战役",
+            "nameEn": "Gondar Resistance",
+            "startYear": 1936,
+            "endYear": 1940,
+            "coords": [
+              37.46,
+              12.58
+            ],
+            "theater": "北部战区",
+            "context": "意大利占领亚的斯亚贝巴后，埃塞俄比亚北部地区特别是贡达尔地区成为抵抗运动的重要中心，由当地贵族和爱国者领导。",
+            "description": "在意大利占领期间，贡达尔地区成为埃塞俄比亚抵抗运动的重要据点。由阿布纳·耶沙克、阿夫沃克·格布雷和伊姆鲁·海尔·塞拉西等领导的爱国者组织了有效的抵抗活动，多次袭击意大利驻军和补给线，使意大利难以完全控制该地区。",
+            "result": "埃塞俄比亚爱国者成功维持抵抗，意大利未能完全控制贡达尔地区",
+            "significance": "为1941年盟军反攻提供了重要基地，保存了埃塞俄比亚的抵抗力量",
+            "casualties": {
+              "sideA": "约3000人",
+              "sideB": "约2000人"
+            },
+            "forces": {
+              "sideA": "约2万人",
+              "sideB": "约5000人"
+            },
+            "commanders": [
+              {
+                "name": "阿布纳·耶沙克",
+                "role": "精神领袖",
+                "side": "sideB"
+              },
+              {
+                "name": "阿夫沃克·格布雷",
+                "role": "军事指挥官",
+                "side": "sideB"
+              }
+            ]
+          },
+          {
+            "battleId": "ogaden_campaign",
+            "name": "欧加登战役",
+            "nameEn": "Ogaden Campaign",
+            "startYear": 1937,
+            "endYear": 1939,
+            "coords": [
+              42.58,
+              6.57
+            ],
+            "theater": "东部战区",
+            "context": "欧加登地区是埃塞俄比亚东部的重要区域，与索马里接壤，当地部落对意大利统治持抵抗态度。",
+            "description": "意大利军队在欧加登地区展开清剿行动，试图消灭当地的抵抗力量。由奥马尔·萨马特领导的索马里族和埃塞俄比亚族联合抵抗力量利用熟悉地形的优势，对意大利军队进行伏击和游击战，使意大利难以完全控制该地区。",
+            "result": "意大利部分控制欧加登地区，但抵抗活动持续",
+            "significance": "展示了埃塞俄比亚与当地部落的联合抵抗，为后来的反攻奠定了基础",
+            "casualties": {
+              "sideA": "约1500人",
+              "sideB": "约1000人"
+            },
+            "forces": {
+              "sideA": "约8000人",
+              "sideB": "约3000人"
+            },
+            "commanders": [
+              {
+                "name": "奥马尔·萨马特",
+                "role": "抵抗领袖",
+                "side": "sideB"
+              },
+              {
+                "name": "阿基莱·斯塔拉切",
+                "role": "总督",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "debra_sina_uprising",
+            "name": "德布拉·西纳起义",
+            "nameEn": "Debra Sina Uprising",
+            "startYear": 1938,
+            "endYear": 1938,
+            "coords": [
+              39.05,
+              10.37
+            ],
+            "theater": "中部战区",
+            "context": "德布拉·西纳是埃塞俄比亚中部的一个地区，距离亚的斯亚贝巴不远，当地人民对意大利统治不满，起义时机成熟。",
+            "description": "1938年，德布拉·西纳地区爆发大规模起义，由当地贵族和爱国者领导。起义者袭击意大利行政中心和军事设施，一度控制了该地区。意大利军队进行了残酷镇压，但起义表明埃塞俄比亚人民抵抗意志依然强烈。",
+            "result": "意大利镇压起义，但付出了巨大代价，抵抗活动持续",
+            "significance": "显示了埃塞俄比亚人民抵抗的决心，打击了意大利统治的稳定性",
+            "casualties": {
+              "sideA": "约800人",
+              "sideB": "约1200人"
+            },
+            "forces": {
+              "sideA": "约3000人",
+              "sideB": "约5000人"
+            },
+            "commanders": [
+              {
+                "name": "沃尔马·马里亚姆",
+                "role": "起义领袖",
+                "side": "sideB"
+              },
+              {
+                "name": "鲁道夫·格拉齐亚尼",
+                "role": "总督",
+                "side": "sideA"
+              }
+            ]
+          },
+          {
+            "battleId": "harar_guerrilla_warfare",
+            "name": "哈拉尔游击战",
+            "nameEn": "Harar Guerrilla Warfare",
+            "startYear": 1939,
+            "endYear": 1940,
+            "coords": [
+              42.45,
+              9.31
+            ],
+            "theater": "东部战区",
+            "context": "哈拉尔是埃塞俄比亚东部的重要城市，也是战略要地，意大利占领后，当地爱国者组织了持续的游击战。",
+            "description": "在哈拉尔地区，埃塞俄比亚爱国者由塔法里·贝内沃尔基领导，对意大利军队进行游击战。他们袭击交通线、孤立哨所，并收集情报，为1941年的盟军反攻做准备。意大利军队虽然控制了城市，但难以控制周边乡村地区。",
+            "result": "意大利控制哈拉尔城市，但周边地区成为抵抗运动据点",
+            "significance": "为1941年盟军东非战役提供了重要情报和后勤支持",
+            "casualties": {
+              "sideA": "约1000人",
+              "sideB": "约800人"
+            },
+            "forces": {
+              "sideA": "约5000人",
+              "sideB": "约2000人"
+            },
+            "commanders": [
+              {
+                "name": "塔法里·贝内沃尔基",
+                "role": "游击队指挥官",
+                "side": "sideB"
+              },
+              {
+                "name": "路易吉·弗鲁斯基",
+                "role": "总督",
+                "side": "sideA"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "majorBattles": [],
+    "economics": {
+      "resourceDependency": {
+        "sideA": {
+          "summary": "意大利对埃塞俄比亚的战争严重依赖进口资源，包括石油、钢铁和机械。墨索里尼政府通过国家控制的经济体系动员资源，但国内生产能力有限，需要从德国和美国进口大量战争物资。埃塞俄比亚的自然资源如黄金、象牙和牲畜成为意大利的主要目标。"
+        },
+        "sideB": {
+          "summary": "埃塞俄比亚经济以农业为基础，工业基础薄弱，战争资源极度匮乏。武器装备几乎完全依赖进口，主要来自意大利和法国。战争期间，埃塞俄比亚依靠传统经济体系和有限的外国援助维持抵抗，但无法满足现代战争的需求，导致资源迅速耗尽。"
+        }
+      },
+      "foreignAid": [
+        {
+          "from": "法国",
+          "to": "埃塞俄比亚",
+          "program": "军事援助计划",
+          "content": "提供少量武器弹药和军事顾问"
+        },
+        {
+          "from": "英国",
+          "to": "埃塞俄比亚",
+          "program": "秘密援助",
+          "content": "通过苏丹提供少量武器和资金支持"
+        },
+        {
+          "from": "德国",
+          "to": "意大利",
+          "program": "经济合作",
+          "content": "提供石油、钢铁和其他战略物资支持"
+        }
+      ],
+      "warBudget": "意大利战争开支约400亿里拉（相当于当时意大利GDP的40%），埃塞俄比亚战争开支约占其国民收入的30%",
+      "economicDisruption": "战争导致埃塞俄比亚农业产量下降40%，基础设施严重损毁，国际贸易中断。意大利国内经济因战争开支导致通货膨胀加剧，工业生产转向军事用途，民用消费品短缺。战争结束后，埃塞俄比亚经济需要十年时间才能恢复到战前水平，而意大利则因战争消耗陷入经济困境。"
+    },
+    "geography": {
+      "keyObstacles": [
+        {
+          "name": "「东非大裂谷」",
+          "description": "这条巨大的地质构造带贯穿埃塞俄比亚全境，形成天然屏障，为防守方提供了有利地形，限制了机械化部队的机动性，同时提供了伏击和游击战的理想场所。"
+        },
+        {
+          "name": "「高原山地地形」",
+          "description": "埃塞俄比亚平均海拔超过1500米的高原山地地形，导致氧气稀薄，对意大利军队的适应能力构成挑战，同时崎岖地形限制了重型装备的运输和使用，有利于防守方。"
+        },
+        {
+          "name": "「尼罗河上游地区」",
+          "description": "作为战略水源地，尼罗河上游地区控制着埃塞俄比亚的水资源，对双方都至关重要，意大利军队需要控制这些水源以确保补给线畅通，而埃塞俄比亚军队则可以利用这一地形进行游击战。"
+        }
+      ],
+      "extremeWeather": [
+        {
+          "year": 1935,
+          "event": "「雨季洪水」",
+          "description": "1935年的雨季导致道路泥泞、河流泛滥，严重阻碍了意大利军队的推进速度，补给线延长，后勤压力增大，为埃塞俄比亚军队提供了宝贵的防御和重组时间。"
+        },
+        {
+          "year": 1940,
+          "event": "「旱季高温」",
+          "description": "1940年的极端高温导致水源短缺，增加了双方的非战斗减员，特别是对缺乏适应热带气候经验的意大利士兵造成严重影响，同时加剧了后勤困难。"
+        }
+      ],
+      "nonCombatLosses": "埃塞俄比亚战争中，非战斗减员主要由疾病、营养不良和恶劣气候条件造成。意大利军队因缺乏对当地热带疾病的免疫力，疟疾、痢疾和伤寒等疾病导致大量士兵伤亡，同时高原地区的缺氧环境也影响了士兵的作战效能。埃塞俄比亚军队则长期面临粮食短缺和医疗资源匮乏的问题，导致非战斗减员持续增加。"
+    }
+  },
+  "timeline": [
+    {
+      "year": 1935,
+      "event": "意大利入侵埃塞俄比亚",
+      "type": "crisis",
+      "description": "1935年10月，墨索里尼领导的意大利王国对埃塞俄比亚帝国发动全面入侵",
+      "impact": "标志着第二次意埃战争的开始，也是法西斯意大利扩张主义的重要一步"
+    },
+    {
+      "year": 1936,
+      "event": "意大利占领亚的斯亚贝巴",
+      "type": "decision",
+      "description": "1936年5月5日，意大利军队占领埃塞俄比亚首都亚的斯亚贝巴",
+      "impact": "导致埃塞俄比亚皇帝海尔·塞拉西流亡，意大利宣布埃塞俄比亚成为意大利殖民地"
+    },
+    {
+      "year": 1936,
+      "event": "国际联盟对意大利实施制裁",
+      "type": "diplomacy",
+      "description": "国际联盟对意大利实施经济制裁，包括武器禁运和关键原材料出口限制",
+      "impact": "制裁效果有限，未能阻止意大利继续战争，暴露国际联盟的软弱"
+    },
+    {
+      "year": 1936,
+      "event": "埃塞俄比亚首都亚的斯亚贝巴沦陷",
+      "type": "decision",
+      "description": "意大利军队占领埃塞俄比亚首都，海尔·塞拉西皇帝流亡",
+      "impact": "埃塞俄比亚被意大利吞并，成为意大利东非殖民地的一部分"
+    },
+    {
+      "year": 1937,
+      "event": "海尔·塞拉西在国联演讲",
+      "type": "leadership",
+      "description": "流亡的埃塞俄比亚皇帝海尔·塞拉西在国际联盟发表演讲，谴责意大利的侵略行为",
+      "impact": "提高了国际对埃塞俄比亚困境的关注，但未能改变战争局势"
+    },
+    {
+      "year": 1937,
+      "event": "意大利使用化学武器",
+      "type": "crisis",
+      "description": "意大利军队在埃塞俄比亚战争中大量使用芥子气和毒气",
+      "impact": "违反国际法，引发国际社会谴责，但未采取有效制裁措施"
+    },
+    {
+      "year": 1940,
+      "event": "埃塞俄比亚爱国者起义",
+      "type": "crisis",
+      "description": "随着意大利加入二战，埃塞俄比亚爱国者在英国支持下发动起义",
+      "impact": "标志着埃塞俄比亚抵抗运动的复兴，最终导致1941年意大利军队被驱逐"
+    },
+    {
+      "year": 1940,
+      "event": "埃塞俄比亚加入同盟国",
+      "type": "diplomacy",
+      "description": "随着意大利加入轴心国，流亡的海尔·塞拉西皇帝在英国支持下宣布对意大利开战",
+      "impact": "埃塞俄比亚成为二战中非洲战场的重要盟友，获得英国支持"
+    },
+    {
+      "year": 1941,
+      "event": "埃塞俄比亚解放",
+      "type": "decision",
+      "description": "英国和埃塞俄比亚联军击败意大利军队，海尔·塞拉西皇帝重返首都",
+      "impact": "埃塞俄比亚重新获得独立，意大利在东非的殖民统治终结"
+    }
+  ]
+}
