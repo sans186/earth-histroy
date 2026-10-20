@@ -23,6 +23,22 @@ const current = computed(() =>
   props.events.filter((e) => e.year === timeline.year).length,
 );
 
+/**
+ * The panel receives the whole time-scale window (current year ±20), so the
+ * raw order is chronological: at 1911 the first rows were 1891 entries and the
+ * year's own 13 events sat in the middle of 535, which reads as "the list is
+ * stuck on the wrong year". Nearest year first keeps the current year on top.
+ */
+const ordered = computed(() => {
+  const year = timeline.year;
+  return [...props.events].sort((a, b) => {
+    const da = Math.abs(a.year - year);
+    const db = Math.abs(b.year - year);
+    if (da !== db) return da - db;
+    return a.year - b.year || a.title.localeCompare(b.title, 'zh');
+  });
+});
+
 function catLabel(ev: TimelineEvent) {
   const meta = CATEGORIES[ev.category];
   return ui.locale === 'zh' ? meta.zh : meta.en;
@@ -42,7 +58,7 @@ function certMark(ev: TimelineEvent) {
       </div>
       <div class="sub">
         <span>{{ ui.locale === 'zh' ? timeline.era.name : timeline.era.nameEn }}</span>
-        <span class="mono">{{ props.events.length }} {{ ui.t('status.events') }}</span>
+        <span class="mono">{{ current }} {{ ui.t('status.events') }}</span>
       </div>
 
       <!--
@@ -67,7 +83,7 @@ function certMark(ev: TimelineEvent) {
 
     <ol v-else class="list">
       <li
-        v-for="(ev, i) in props.events"
+        v-for="(ev, i) in ordered"
         :key="ev.key"
         :class="{ on: ev.key === selectedKey, now: ev.year === timeline.year }"
         @click="emit('select', ev)"
