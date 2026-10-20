@@ -543,6 +543,66 @@ function validateReference() {
 
 /* ── report ──────────────────────────────────────────────────────────────── */
 
+/**
+ * The two event trees are edited separately, so an entry can be added on one
+ * side only. Nothing downstream notices — the reader just sees a year that is
+ * richer in one language — so the drift has to be caught here.
+ *
+ * Full list: `node scripts/data/compare-locales.mjs --detail`
+ */
+function collectEventIds(dirName) {
+  const dir = join(ROOT, 'public', dirName);
+  const out = new Map();
+  if (!existsSync(dir)) return out;
+  for (const file of readdirSync(dir).filter((f) => f.endsWith('.json'))) {
+    const parsed = readJson(join(dir, file));
+    if (!parsed.ok) continue;
+    const doc = parsed.value;
+    const list = Array.isArray(doc) ? doc : (doc.events ?? []);
+    out.set(file, new Set(list.map((event) => String(event.id))));
+  }
+  return out;
+}
+
+function validateLocaleParity() {
+  section('中英事件对齐');
+  const zh = collectEventIds('events');
+  const en = collectEventIds('en-events');
+
+  const onlyZh = [];
+  const onlyEn = [];
+  let shared = 0;
+
+  for (const [file, ids] of zh) {
+    for (const id of ids) {
+      if (en.get(file)?.has(id)) shared += 1;
+      else onlyZh.push(`${file} ${id}`);
+    }
+  }
+  for (const [file, ids] of en) {
+    for (const id of ids) {
+      if (!zh.get(file)?.has(id)) onlyEn.push(`${file} ${id}`);
+    }
+  }
+
+  line(`共有 ${shared} 条，仅中文 ${onlyZh.length} 条，仅英文 ${onlyEn.length} 条`);
+
+  if (onlyZh.length) {
+    err(
+      '中英对齐',
+      `${onlyZh.length} 条只有中文`,
+      `${onlyZh.slice(0, MAX_EXAMPLES).join('; ')}${onlyZh.length > MAX_EXAMPLES ? ' …' : ''}（明细: node scripts/data/compare-locales.mjs --detail）`,
+    );
+  }
+  if (onlyEn.length) {
+    err(
+      '中英对齐',
+      `${onlyEn.length} 条只有英文`,
+      `${onlyEn.slice(0, MAX_EXAMPLES).join('; ')}${onlyEn.length > MAX_EXAMPLES ? ' …' : ''}（明细: node scripts/data/compare-locales.mjs --detail）`,
+    );
+  }
+}
+
 function report() {
   console.log('\n' + '─'.repeat(64));
   console.log(`  ERROR ${errors.length}   WARNING ${warnings.length}`);
@@ -586,6 +646,7 @@ validateIndexedProfiles({
 });
 validatePolities();
 validateReference();
+validateLocaleParity();
 report();
 
 console.log(`耗时 ${((Date.now() - started) / 1000).toFixed(1)}s`);

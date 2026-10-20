@@ -12,6 +12,7 @@
     "validate:data": "node scripts/data/validate-data.mjs",
     "repair:data": "node scripts/data/repair-data.mjs",
     "report:data": "node scripts/data/report-assets.mjs",
+    "compare:locales": "node scripts/data/compare-locales.mjs",
     "audit:polities": "node scripts/data/analyze-polities.mjs",
     "simplify:polities": "node scripts/data/simplify-polities.mjs"
   },
