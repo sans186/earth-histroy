@@ -6,7 +6,12 @@ import {
   scopeOverlapsYears,
   type PolityScope,
 } from '@/lib/polityScope';
-import { loadPeopleCoords, loadPeopleIndex, loadPersonProfile } from '@/services/data';
+import {
+  clearPeopleCache,
+  loadPeopleCoords,
+  loadPeopleIndex,
+  loadPersonProfile,
+} from '@/services/data';
 import { useUiStore } from '@/stores/ui';
 import type { PersonIndexItem, PersonProfile } from '@/types';
 
@@ -227,6 +232,16 @@ export const usePeopleStore = defineStore('people', () => {
     aliveYear.value = year;
   }
 
+  /** Re-fetch the index after a failed load; see the shared data error banner. */
+  function resetForRetry() {
+    clearPeopleCache();
+    indexLoaded.value = false;
+    indexTask = null;
+    index.value = [];
+    coords.value = {};
+    void ensureIndex();
+  }
+
   return {
     index,
     indexing,
@@ -245,6 +260,7 @@ export const usePeopleStore = defineStore('people', () => {
     findByName,
     countInScope,
     ensureIndex,
+    resetForRetry,
     openPerson,
     openByName,
     closePerson,

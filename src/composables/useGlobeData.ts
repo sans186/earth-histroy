@@ -1,9 +1,11 @@
-import { computed, ref, watch } from 'vue';
+import { computed, onScopeDispose, ref, watch } from 'vue';
 import { YEAR_WINDOW } from '@/config';
+import { dataError, unexpectedError } from '@/lib/appError';
 import { scopeHasPoint, scopeOverlapsYears } from '@/lib/polityScope';
 import {
   clearEventCache,
   clearPolityCache,
+  clearReferenceCaches,
   loadEventWindow,
   loadPolityFile,
   loadPolityIndex,
@@ -12,9 +14,12 @@ import {
   type PolityTier,
 } from '@/services/data';
 import { filterPolities, globe, prepareFeature } from '@/services/globe';
+import { currentFailures, onFailuresChanged, resetFailures } from '@/services/http';
 import { useLayersStore } from '@/stores/layers';
+import { usePeopleStore } from '@/stores/people';
 import { useTimelineStore } from '@/stores/timeline';
 import { useUiStore } from '@/stores/ui';
+import { useWarsStore } from '@/stores/wars';
 import type { CenturyEntry, PreparedPolity, TimelineEvent } from '@/types';
 
 /**
@@ -62,6 +67,28 @@ export function useGlobeData() {
   const timeline = useTimelineStore();
   const layers = useLayersStore();
   const ui = useUiStore();
+  const wars = useWarsStore();
+  const people = usePeopleStore();
+
+  /*
+   * The request layer is the single source of truth for data failures. A
+   * successful request removes its own entry, so a retry that works clears
+   * this banner by itself — no separate "recovery" path to drift out of sync.
+   */
+  const stopFailureWatch = onFailuresChanged((records) => {
+    // A dead renderer is fatal; a data warning must not mask it.
+    if (ui.error?.kind === 'renderer') return;
+    ui.setError(dataError(ui.locale, records));
+  });
+  onScopeDispose(stopFailureWatch);
+
+  // The banner is built from localised strings, so rebuild it on a locale swap.
+  watch(
+    () => ui.locale,
+    () => {
+      if (ui.error?.kind === 'data') ui.setError(dataError(ui.locale, currentFailures()));
+    },
+  );
 
   const windowEvents = ref<TimelineEvent[]>([]);
   const polityNames = ref<Record<string, string>>({});
@@ -143,13 +170,21 @@ export function useGlobeData() {
         controller.signal,
       );
       if (gen !== eventGen) return;
-      windowEvents.value = result.events;
+
+      /*
+       * A total outage must not replace the last good window with an empty
+       * list — that was the original "silent blank page" symptom. A partial
+       * loss keeps the years that did arrive; the banner names the rest.
+       */
+      const totalLoss = result.failedYears.length === result.requested && eventsLoadedOnce;
+      if (!totalLoss) windowEvents.value = result.events;
       eventsLoadedOnce = true;
-      ui.setError(null);
+      // Do not clear ui.error here: the failure bus owns it, and clearing on
+      // any successful event load would hide a polity or war failure.
     } catch (err) {
       if ((err as Error)?.name === 'AbortError') return;
       if (gen !== eventGen) return;
-      ui.setError((err as Error).message || String(err));
+      if (!ui.error) ui.setError(unexpectedError(ui.locale, err));
     } finally {
       // Always released: each call incremented its own task counter, so gating
       // this on the generation leaked one blocking task per superseded reload
@@ -292,7 +327,9 @@ export function useGlobeData() {
     } catch (err) {
       if (gen !== polityGen) return;
       // Polities are an enhancement: report the failure, keep events alive.
-      ui.setError((err as Error).message || String(err));
+      // The request layer has normally already set a precise data error; only
+      // fall back to a generic one for exceptions thrown by our own code.
+      if (!ui.error) ui.setError(unexpectedError(ui.locale, err));
       layers.polityStatus = { ...layers.polityStatus, loading: false, ready: false };
     } finally {
       if (gen === polityGen) done();
@@ -321,6 +358,36 @@ export function useGlobeData() {
     paintPolities(pool, timeline.year);
   }
 
+  /**
+   * The shared error banner's Retry action.
+   *
+   * The request layer never caches a failure, but successful caches and the
+   * stores' `loaded` flags would still short-circuit a re-read. Reset both,
+   * then re-issue the primary loads; the renderer stages watch `retryToken`
+   * and re-run their own enhancement loads. The last good event window stays
+   * on screen throughout, so a retry never blanks the page.
+   */
+  async function retryData() {
+    resetFailures();
+    ui.setError(null);
+    clearEventCache();
+    clearPolityCache();
+    clearReferenceCaches();
+    preparedByFile.clear();
+    activeTier = null;
+    lastEventSignature = '';
+    lastPolitySignature = '';
+
+    ui.bumpRetryToken();
+    await refreshEvents();
+    if (ui.stage === '3d') {
+      paintEvents();
+      if (layers.showPolities) void refreshPolities();
+    }
+    void wars.resetForRetry();
+    people.resetForRetry();
+  }
+
   function resetCaches() {
     clearEventCache();
     clearPolityCache();
@@ -347,6 +414,7 @@ export function useGlobeData() {
     polityNames,
     refreshEvents,
     refreshPolities,
+    retryData,
     paintEvents,
     onViewSettled,
     resetCaches,

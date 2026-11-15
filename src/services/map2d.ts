@@ -3,6 +3,7 @@ import * as maplibregl from 'maplibre-gl';
 import { BASEMAPS, INITIAL_VIEW, type BaseKind } from '@/config';
 import { labelAnchor } from '@/lib/polityScope';
 import type { HoverInfo, WarMarker } from '@/services/globe';
+import { fetchOptionalJson } from '@/services/http';
 import type { Locale, PolityFeature, TimelineEvent } from '@/types';
 
 /**
@@ -821,13 +822,8 @@ export class Map2D {
 }
 
 async function fetchCollection(url: string): Promise<FeatureCollection | null> {
-  try {
-    const res = await fetch(url);
-    if (!res.ok) return null;
-    return (await res.json()) as FeatureCollection;
-  } catch {
-    return null;
-  }
+  const { data, ok } = await fetchOptionalJson<FeatureCollection | null>(url, null);
+  return ok ? data : null;
 }
 
 function hashString(input: string): number {

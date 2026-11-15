@@ -77,6 +77,23 @@
 | 过程中发现并修复 | ① `war_list.txt` 已删但 `generate-wars.mjs` 仍硬读它，脚本必然抛错；② `public/_review/` 被复制进生产产物；③ `strip-non-shippable` 写死 `dist`，自定义 `--outDir` 时护栏静默失效 |
 | 未解决 | 线上部署未执行（需用户确认）；2026 事件仅 6 条且只收录已排定日程，2025 仍 20 条；`test` / `lint` 脚本仍缺失；`dist.stale-*` 历史快照未清理（本地约 1.2 GB，可自行删除） |
 
+## 2026-11-15 · P0 可靠性与错误呈现（非需求）
+
+依据 [生产级成熟度评估](./生产级成熟度评估.md) 的 P0 路线，完成前两项。不占 R 编号。
+
+| 项目 | 结果 |
+|---|---|
+| 统一请求层 | 新增 `src/services/http.ts`：12 s / 30 s 超时、2 次重试 + 指数退避与抖动、`Retry-After`、8 路并发上限、结构化 `DataFetchError`；可恢复失败才重试，年份与档案 404 视为「无此数据」不误报。参数集中在 `src/config/index.ts` 的 `NETWORK` |
+| 覆盖到的 loader | `data.ts`（年份 / 政区 / 参考数据 / 人物）、`war-data.ts`、`people-images.ts`、`globe.ts` 的 Natural Earth 清理、`map2d.ts` 的底图集合——原先 12 处各自 `fetch` 且各自 `catch {}` 全部收敛 |
+| 失败不污染缓存 | 降级空值只返回不缓存；请求成功后自动清除对应失败记录，横幅自愈。此前一次断网会把 `{}` 永久写入缓存 |
+| 错误状态真正可见 | 新增 `ErrorNotice.vue` + `lib/appError.ts`；`stores/ui.ts` 的 `error` 由裸字符串改为结构化 `AppError`（标题 / 可执行提示 / 脱敏诊断 JSON / 失败数）。数据失败为非阻塞横幅，渲染器失败为阻塞卡片，同一套机制 |
+| 重试真的会重试 | `useGlobeData.retryData()` 清失败表、各级缓存与 wars/people 的 `loaded` 标志，重发事件/政区/参考数据，`retryToken` 通知 2D 视图重绘；全窗口失败时保留上一次成功的时间窗口，不清空页面 |
+| 删掉的死代码 | `GlobeStage` / `MapStage` 各自的 `failed` 覆盖层：前者与 `ui.error` 重复，后者 `failed` 从未被置真、「重试」只是把提示藏起来。现统一由 `AppError` 驱动 |
+| 可复现验证 | 新增 `npm run verify:smoke`（`scripts/verify/smoke-data-failure.mjs`）：注入两个 503 断言横幅/重试次数/降级，再断言正常加载不误报，实测 **5/5 通过** |
+| 文档 | README 补「数据加载与故障处理」与降级约定；成熟度报告补 §0.1 复核（10/33 → **15/33**，仍未达生产） |
+| 验证 | `npm run typecheck` EXIT=0；`npm run build` ERROR 0 / WARNING 0，1,549 模块 / 1m5s；`npm run verify:smoke` 5/5 |
+| 未解决 | 部署版本化 + 一键回滚、CI 门禁、单测/契约测试、指标与告警、完整降级矩阵演练、24h 长稳——见成熟度报告 §6 P0 第 2–5 项 |
+
 ## 2026-10-17 · 第一批（稳定性/数据）
 
 | 编号 | 需求原文要点 | 状态 |

@@ -2,6 +2,7 @@
 import { computed, onBeforeUnmount, onMounted, ref, shallowRef, watch } from 'vue';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { CATEGORIES } from '@/config';
+import { rendererError } from '@/lib/appError';
 import { NE_FILES, loadPolityFile, loadPolityIndex, pickCenturyFiles } from '@/services/data';
 import type { HoverInfo } from '@/services/globe';
 import { map2d } from '@/services/map2d';
@@ -33,7 +34,6 @@ const wars = useWarsStore();
 
 const host = ref<HTMLElement | null>(null);
 const hover = shallowRef<HoverInfo | null>(null);
-const failed = ref(false);
 
 const yearText = computed(() => String(timeline.absYear));
 const eraText = computed(() => (ui.locale === 'zh' ? timeline.era.name : timeline.era.nameEn));
@@ -147,15 +147,20 @@ function paintWars() {
 
 onMounted(() => {
   if (!host.value) return;
-  map2d.init(host.value, {
-    onPickEvent: (ev) => emit('pickEvent', ev ?? null),
-    onHoverEvent: (info) => {
-      hover.value = info;
-    },
-    onPickPolity: (feature) => emit('pickPolity', feature),
-    onPickWar: (warId) => emit('pickWar', warId),
-    onViewChange: () => emit('viewSettled'),
-  });
+  try {
+    map2d.init(host.value, {
+      onPickEvent: (ev) => emit('pickEvent', ev ?? null),
+      onHoverEvent: (info) => {
+        hover.value = info;
+      },
+      onPickPolity: (feature) => emit('pickPolity', feature),
+      onPickWar: (warId) => emit('pickWar', warId),
+      onViewChange: () => emit('viewSettled'),
+    });
+  } catch (err) {
+    ui.setError(rendererError(ui.locale, (err as Error)?.message ?? err));
+    return;
+  }
   map2d.renderEvents(props.events, { labels: true });
   emit('ready');
   void paintPolities();
@@ -180,6 +185,14 @@ watch(() => layers.showPolities, schedulePolities);
 watch(() => layers.showPolityNames, (on) => map2d.setPolityLabels(on));
 // The language switch changes the text itself, so the labels are rebuilt.
 watch(() => ui.locale, schedulePolities);
+/** The shared banner's Retry action re-issues this view's own enhancement loads. */
+watch(
+  () => ui.retryToken,
+  () => {
+    void paintPolities();
+    void paintBorders();
+  },
+);
 watch(
   () => layers.base,
   (kind) => map2d.setBase(kind),
@@ -242,11 +255,6 @@ watch(
       <i :style="{ background: `var(${hover.categoryVar})` }" />
       <span class="t">{{ hover.title }}</span>
       <span v-if="hover.subtitle" class="s">{{ hover.subtitle }}</span>
-    </div>
-
-    <div v-if="failed" class="failed">
-      <p>{{ ui.t('error.title') }}</p>
-      <button @click="failed = false">{{ ui.t('error.retry') }}</button>
     </div>
 
     <LoadingVeil />
@@ -373,19 +381,5 @@ watch(
 .tip .s {
   font-size: 12px;
   color: var(--ink-3);
-}
-.failed {
-  position: absolute;
-  inset: 0;
-  display: grid;
-  place-content: center;
-  gap: 10px;
-  text-align: center;
-  background: color-mix(in srgb, var(--paper) 92%, transparent);
-}
-.failed button {
-  border: 1px solid var(--rule-2);
-  padding: 6px 14px;
-  background: var(--card);
 }
 </style>

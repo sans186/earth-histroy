@@ -131,6 +131,24 @@ export function eraSpan(era: Era): { left: number; width: number } {
   return { left: (left / SCALE_MAX) * 100, width: ((right - left) / SCALE_MAX) * 100 };
 }
 
+// ── Network ───────────────────────────────────────────────────────────────
+/**
+ * Every shipped JSON is read through `services/http.ts`. These are the only
+ * knobs: a bounded timeout, a bounded retry with exponential backoff, and a
+ * global concurrency ceiling so a timeline scrub cannot fan out into hundreds
+ * of simultaneous requests.
+ *
+ * Century files are up to ~18 MB, so they get their own longer budget.
+ */
+export const NETWORK = {
+  timeoutMs: 12_000,
+  largeFileTimeoutMs: 30_000,
+  retries: 2,
+  backoffBaseMs: 350,
+  backoffMaxMs: 4_000,
+  maxConcurrent: 8,
+} as const;
+
 // ── Data ───────────────────────────────────────────────────────────────────
 export const DATA_BASE_ZH = '/events/';
 export const DATA_BASE_EN = '/en-events/';

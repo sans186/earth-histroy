@@ -9,6 +9,7 @@
     "prebuild": "node scripts/data/validate-data.mjs --quiet",
     "preview": "vite preview",
     "typecheck": "vue-tsc --noEmit -p tsconfig.json",
+    "verify:smoke": "node scripts/verify/smoke-data-failure.mjs",
     "validate:data": "node scripts/data/validate-data.mjs",
     "repair:data": "node scripts/data/repair-data.mjs",
     "report:data": "node scripts/data/report-assets.mjs",

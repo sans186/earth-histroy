@@ -22,6 +22,7 @@ import type { PolityFeature, TimelineEvent } from '@/types';
 import AppHead from './components/AppHead.vue';
 import CompareBoard from './components/CompareBoard.vue';
 import EventCard from './components/EventCard.vue';
+import ErrorNotice from './components/ErrorNotice.vue';
 import GlobeStage from './components/GlobeStage.vue';
 import MapStage from './components/MapStage.vue';
 import PersonCard from './components/PersonCard.vue';
@@ -151,6 +152,11 @@ function onViewSettled() {
 function resetStage() {
   if (ui.stage === '3d') globe.resetView();
   else map2d.resetView();
+}
+
+/** The shared error banner's Retry action. */
+function onDataRetry() {
+  void data.retryData();
 }
 
 function flyTo(lon: number, lat: number, height: number) {
@@ -637,6 +643,8 @@ onBeforeUnmount(() => {
         />
 
         <YearCard v-if="yearOpen" @close="yearOpen = false" />
+
+        <ErrorNotice @retry="onDataRetry" />
       </div>
 
       <SidePanel

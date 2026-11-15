@@ -1,6 +1,7 @@
 import { defineStore } from 'pinia';
 import { computed, ref } from 'vue';
 import { translate, type MessageKey } from '@/lib/i18n';
+import type { AppError } from '@/lib/appError';
 import type { PolityScope } from '@/lib/polityScope';
 import type { Locale, StageMode, TimelineEvent, ViewMode } from '@/types';
 
@@ -21,7 +22,18 @@ export const useUiStore = defineStore('ui', () => {
   const blockingTasks = ref(0);
   const backgroundTasks = ref(0);
   const loadingLabel = ref<MessageKey>('loading.events');
-  const error = ref<string | null>(null);
+
+  /**
+   * The single user-visible failure state, shared by the data layer and both
+   * renderers. `AppError` carries the wording, the next step and a sanitized
+   * diagnostics payload, so the banner never has to interpret a raw message.
+   */
+  const error = ref<AppError | null>(null);
+  /**
+   * Bumped by the shared Retry action. Renderer stages that own their own
+   * enhancement loads watch it so one button re-issues everything.
+   */
+  const retryToken = ref(0);
 
   const selectedEvent = ref<TimelineEvent | null>(null);
 
@@ -56,6 +68,15 @@ export const useUiStore = defineStore('ui', () => {
     return translate(locale.value, key);
   }
 
+  /** Like `t`, with `{name}` placeholders — used for counts in error messages. */
+  function tf(key: MessageKey, vars: Record<string, string | number> = {}) {
+    let text = translate(locale.value, key);
+    for (const [name, value] of Object.entries(vars)) {
+      text = text.replaceAll(`{${name}}`, String(value));
+    }
+    return text;
+  }
+
   /**
    * Register a task and get its completion callback.
    * `blocking: false` keeps the globe interactive while a heavy layer loads.
@@ -70,8 +91,17 @@ export const useUiStore = defineStore('ui', () => {
     };
   }
 
-  function setError(message: string | null) {
-    error.value = message;
+  function setError(next: AppError | null) {
+    error.value = next;
+  }
+
+  /** Dismiss without pretending the underlying data has recovered. */
+  function dismissError() {
+    error.value = null;
+  }
+
+  function bumpRetryToken() {
+    retryToken.value += 1;
   }
 
   function setLocale(next: Locale) {
@@ -112,14 +142,18 @@ export const useUiStore = defineStore('ui', () => {
     busy,
     loadingLabel,
     error,
+    retryToken,
     selectedEvent,
     polityScope,
     scopeToPolity,
     setPolityScope,
     toggleScopeToPolity,
     t,
+    tf,
     beginTask,
     setError,
+    dismissError,
+    bumpRetryToken,
     setLocale,
     toggleLocale,
     setView,

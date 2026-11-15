@@ -5,7 +5,11 @@
  * `scripts/data/fetch-people-images.mjs`. It is loaded once per session and
  * cached, because a card must never wait on the network to render its text —
  * and most sessions never open a person whose portrait exists.
+ *
+ * A failed load is *not* cached: the old version stored `{}` forever, so one
+ * dropped request silently removed every portrait for the rest of the session.
  */
+import { fetchOptionalJson } from '@/services/http';
 
 interface PortraitRecord {
   url: string | null;
@@ -17,13 +21,19 @@ interface PortraitRecord {
 
 const IMAGES_URL = '/people/images.json';
 
+let cache: Record<string, PortraitRecord> | null = null;
 let pending: Promise<Record<string, PortraitRecord>> | null = null;
 
 function loadAll(): Promise<Record<string, PortraitRecord>> {
+  if (cache) return Promise.resolve(cache);
   if (!pending) {
-    pending = fetch(IMAGES_URL)
-      .then((res) => (res.ok ? res.json() : {}))
-      .catch(() => ({}));
+    pending = fetchOptionalJson<Record<string, PortraitRecord>>(IMAGES_URL, {}, {
+      allowMissing: true,
+    }).then(({ data, ok }) => {
+      if (ok) cache = data;
+      pending = null;
+      return data;
+    });
   }
   return pending;
 }

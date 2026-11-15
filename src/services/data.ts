@@ -3,6 +3,7 @@ import {
   DATA_BASE_ZH,
   DATA_CACHE_SIZE,
   NE_BASE,
+  NETWORK,
   PEOPLE_BASE,
   PEOPLE_COORDS,
   POLITIES_BASE,
@@ -11,6 +12,7 @@ import {
 } from '@/config';
 import { yearOfEventId } from '@/lib/eventLinks';
 import { parseCoordinates } from '@/lib/geo';
+import { DataFetchError, fetchJson, fetchOptionalJson } from '@/services/http';
 import type {
   CenturyEntry,
   Locale,
@@ -54,7 +56,9 @@ function abortError(): Error {
  * `fetch` meant that aborting it (the next timeline tick) rejected the promise
  * for *every* waiter — the following window then failed with AbortError and the
  * panel kept showing the previous year. Here the request always runs to
- * completion and lands in the cache; only the wait is cancelled.
+ * completion and lands in the cache; only the wait is cancelled. The request
+ * layer uses a separate AbortController for its own timeout, so the two do not
+ * interfere.
  */
 function abortable<T>(task: Promise<T>, signal?: AbortSignal): Promise<T> {
   if (!signal) return task;
@@ -91,17 +95,22 @@ async function fetchYearFile(
 
   const task = (async () => {
     try {
-      const res = await fetch(`${base}${year}.json`);
-      if (!res.ok) {
+      const json = await fetchJson<YearFile>(`${base}${year}.json`, {
+        allowMissing: true,
+      });
+      cachePut(key, json);
+      return json;
+    } catch (err) {
+      if (err instanceof DataFetchError && err.record.status === 404) {
+        // A year with no shipped file is a fact about the dataset, not an
+        // incident. Cache the miss so every timeline tick does not re-404.
         cachePut(key, null);
         return null;
       }
-      const json = (await res.json()) as YearFile;
-      cachePut(key, json);
-      return json;
-    } catch {
-      cachePut(key, null);
-      return null;
+      // A real failure is deliberately NOT cached. Caching the old `null`
+      // meant a dropped connection looked like "no events this year" forever,
+      // and Retry could not possibly recover it.
+      throw err;
     } finally {
       inflight.delete(key);
     }
@@ -169,11 +178,22 @@ function metaFrom(file: YearFile | null | undefined): YearMeta {
 
 export interface WindowResult {
   events: TimelineEvent[];
-  /** Years that returned no records, so the UI can say so honestly. */
+  /** Years whose file does not exist (HTTP 404) — an honest "no records". */
   missingYears: number[];
+  /** Years that failed after all retries — a very different thing. */
+  failedYears: number[];
+  /** Files requested, so the caller can tell a partial loss from a total one. */
+  requested: number;
 }
 
-/** Load the year window around `year` and flatten it into a sorted list. */
+/**
+ * Load the year window around `year` and flatten it into a sorted list.
+ *
+ * Years settle independently: one 503 must not throw away the ten files that
+ * did arrive. Their failures have already been reported by the request layer,
+ * and are also returned here so the caller can keep the last good window
+ * instead of replacing it with a blank list.
+ */
 export async function loadEventWindow(
   year: number,
   locale: Locale,
@@ -183,25 +203,33 @@ export async function loadEventWindow(
   const years: number[] = [];
   for (let y = year - window; y <= year + window; y += 1) years.push(y);
 
-  const files = await Promise.all(
+  const settled = await Promise.allSettled(
     years.map(async (y) => ({ y, file: await fetchYearFile(y, locale, signal) })),
   );
 
   const events: TimelineEvent[] = [];
   const missingYears: number[] = [];
+  const failedYears: number[] = [];
 
-  for (const { y, file } of files) {
+  settled.forEach((result, i) => {
+    const y = years[i];
+    if (result.status === 'rejected') {
+      // A cancelled *wait* is a superseded timeline tick, not an incident.
+      if ((result.reason as Error)?.name !== 'AbortError') failedYears.push(y);
+      return;
+    }
+    const file = result.value.file;
     if (!file || !Array.isArray(file.events)) {
       missingYears.push(y);
-      continue;
+      return;
     }
     const meta = metaFrom(file);
-    file.events.forEach((raw, i) => events.push(normalise(raw, y, i, meta)));
-  }
+    file.events.forEach((raw, j) => events.push(normalise(raw, y, j, meta)));
+  });
 
   events.sort((a, b) => a.year - b.year || a.title.localeCompare(b.title));
 
-  return { events, missingYears };
+  return { events, missingYears, failedYears, requested: years.length };
 }
 
 /**
@@ -218,16 +246,22 @@ export async function findEventById(
   const year = yearOfEventId(id);
   if (year === null) return null;
 
-  const file = await fetchYearFile(year, locale);
-  const raw = file?.events?.find((e) => (e.id ?? '') === id);
-  if (!raw) return null;
-
-  const index = file!.events!.indexOf(raw);
-  return normalise(raw, year, index, metaFrom(file));
+  try {
+    const file = await fetchYearFile(year, locale);
+    const raw = file?.events?.find((e) => (e.id ?? '') === id);
+    if (!raw) return null;
+    const index = file!.events!.indexOf(raw);
+    return normalise(raw, year, index, metaFrom(file));
+  } catch {
+    // A cross reference is a convenience. The request layer has already
+    // recorded the failure; do not cache a miss here either.
+    return null;
+  }
 }
 
 export function clearEventCache() {
   yearCache.clear();
+  contextCache.clear();
   inflight.clear();
 }
 
@@ -265,23 +299,29 @@ export async function loadYearContext(
   if (cached !== undefined) return cached;
 
   // Shares the event cache, so opening a year the globe already loaded is free.
-  const file = await fetchYearFile(year, locale, signal);
-  if (!file) {
-    contextCache.set(key, null);
+  try {
+    const file = await fetchYearFile(year, locale, signal);
+    if (!file) {
+      contextCache.set(key, null);
+      return null;
+    }
+    const meta = metaFrom(file);
+    const context: YearContext = {
+      year,
+      eraContext: meta.eraContext,
+      documentationLevel: meta.documentationLevel,
+      historiographicNote: meta.historiographicNote,
+      disconfirmingEvidence: meta.disconfirmingEvidence,
+      coverageGaps: meta.coverageGaps,
+      eventCount: Array.isArray(file.events) ? file.events.length : 0,
+    };
+    contextCache.set(key, context);
+    return context;
+  } catch {
+    // The year card is optional. Do not cache the failure — closing and
+    // reopening the card, or pressing Retry, must issue a real request.
     return null;
   }
-  const meta = metaFrom(file);
-  const context: YearContext = {
-    year,
-    eraContext: meta.eraContext,
-    documentationLevel: meta.documentationLevel,
-    historiographicNote: meta.historiographicNote,
-    disconfirmingEvidence: meta.disconfirmingEvidence,
-    coverageGaps: meta.coverageGaps,
-    eventCount: Array.isArray(file.events) ? file.events.length : 0,
-  };
-  contextCache.set(key, context);
-  return context;
 }
 
 /* ══════════════════════════════════════════════════════════════════════════
@@ -292,9 +332,9 @@ let polityIndexCache: CenturyEntry[] | null = null;
 
 export async function loadPolityIndex(): Promise<CenturyEntry[]> {
   if (polityIndexCache) return polityIndexCache;
-  const res = await fetch(`${POLITIES_BASE}index.json`);
-  if (!res.ok) throw new Error(`polity index ${res.status}`);
-  const json = (await res.json()) as PolityFileIndex | CenturyEntry[] | RawCentury[];
+  const json = await fetchJson<PolityFileIndex | CenturyEntry[] | RawCentury[]>(
+    `${POLITIES_BASE}index.json`,
+  );
   const raw = Array.isArray(json) ? json : (json.centuries ?? []);
   // The shipped index only carries start/end/count; the file name is derived.
   polityIndexCache = raw.map((entry) => ({
@@ -348,17 +388,33 @@ export async function loadPolityFile(
   const name = polityFileName(entry, tier);
   if (polityCache.has(name)) return polityCache.get(name) ?? null;
 
-  const res = await fetch(`${POLITIES_BASE}${name}`);
-  // A missing LOD file must not blank the layer — fall back to the full tier,
-  // which is what the client loaded before the tiers existed. The miss is
-  // cached so the 404 is not repeated on every refresh.
-  if (!res.ok) {
-    const fallback = tier === 'lod' ? await loadPolityFile(entry, 'full') : null;
-    polityCache.set(name, fallback);
-    return fallback;
+  let json: PolityCollection;
+  try {
+    json = await fetchJson<PolityCollection>(`${POLITIES_BASE}${name}`, {
+      // A full century file is up to ~18 MB; the default 12 s is too tight.
+      timeoutMs: NETWORK.largeFileTimeoutMs,
+      // A missing LOD sibling is expected on older centuries and is not news.
+      allowMissing: tier === 'lod',
+    });
+  } catch (err) {
+    if (!(err instanceof DataFetchError)) throw err;
+    if (tier === 'lod') {
+      // A missing or failing LOD file must not blank the layer — fall back to
+      // the full tier, which is what the client loaded before the tiers
+      // existed. The failure is still reported by the request layer. The miss
+      // is cached so it is not repeated on every refresh.
+      const fallback = await loadPolityFile(entry, 'full');
+      polityCache.set(name, fallback);
+      return fallback;
+    }
+    if (err.record.status === 404) {
+      // A missing full file is a shipped-data problem, already reported by the
+      // request layer. Degrade the layer, and leave it uncached so Retry works.
+      return null;
+    }
+    throw err;
   }
 
-  const json = (await res.json()) as PolityCollection;
   polityCache.set(name, json);
   // Keep the cache small: a full-tier file is tens of megabytes.
   while (polityCache.size > 6) {
@@ -383,13 +439,14 @@ let nameMapCache: Record<string, string> | null = null;
 /** English -> Chinese polity names. */
 export async function loadPolityNames(): Promise<Record<string, string>> {
   if (nameMapCache) return nameMapCache;
-  try {
-    const res = await fetch(`${NE_BASE}polity_names_zh.json`);
-    nameMapCache = res.ok ? ((await res.json()) as Record<string, string>) : {};
-  } catch {
-    nameMapCache = {};
-  }
-  return nameMapCache;
+  const { data, ok } = await fetchOptionalJson<Record<string, string>>(
+    `${NE_BASE}polity_names_zh.json`,
+    {},
+  );
+  // Only a successful load is cached. Otherwise the first failed request used
+  // to poison the cache with `{}` and every later attempt was a no-op.
+  if (ok) nameMapCache = data;
+  return data;
 }
 
 export const NE_FILES = {
@@ -492,20 +549,23 @@ export async function loadPolityAreaOverrides(): Promise<Record<string, PolityAr
   if (polityAreaInflight) return polityAreaInflight;
   polityAreaInflight = (async () => {
     try {
-      const res = await fetch(`${NE_BASE}polity_area_overrides.json`);
-      const json = res.ok ? ((await res.json()) as Record<string, unknown>) : {};
+      const { data, ok } = await fetchOptionalJson<Record<string, unknown>>(
+        `${NE_BASE}polity_area_overrides.json`,
+        {},
+      );
       const clean: Record<string, PolityAreaOverride> = {};
-      for (const [key, value] of Object.entries(json)) {
-        if (key.startsWith('_')) continue;
-        const item = value as PolityAreaOverride;
-        if (item && Number.isFinite(item.area)) clean[key] = item;
+      if (ok) {
+        for (const [key, value] of Object.entries(data)) {
+          if (key.startsWith('_')) continue;
+          const item = value as PolityAreaOverride;
+          if (item && Number.isFinite(item.area)) clean[key] = item;
+        }
+        polityAreaCache = clean;
       }
-      polityAreaCache = clean;
-    } catch {
-      polityAreaCache = {};
+      return clean;
+    } finally {
+      polityAreaInflight = null;
     }
-    polityAreaInflight = null;
-    return polityAreaCache;
   })();
   return polityAreaInflight;
 }
@@ -525,16 +585,16 @@ export async function loadPolityFlags(): Promise<Record<string, string>> {
   if (polityFlagsInflight) return polityFlagsInflight;
   polityFlagsInflight = (async () => {
     try {
-      const res = await fetch(`${NE_BASE}polity_flags.json`);
-      const json = res.ok ? ((await res.json()) as Record<string, string>) : {};
-      polityFlagsCache = Object.fromEntries(
-        Object.entries(json).filter(([key]) => !key.startsWith('_')),
+      const { data, ok } = await fetchOptionalJson<Record<string, string>>(
+        `${NE_BASE}polity_flags.json`,
+        {},
       );
-    } catch {
-      polityFlagsCache = {};
+      const clean = Object.fromEntries(Object.entries(data).filter(([key]) => !key.startsWith('_')));
+      if (ok) polityFlagsCache = clean;
+      return clean;
+    } finally {
+      polityFlagsInflight = null;
     }
-    polityFlagsInflight = null;
-    return polityFlagsCache;
   })();
   return polityFlagsInflight;
 }
@@ -547,13 +607,15 @@ export async function loadPolityAssets(): Promise<Record<string, PolityAsset>> {
   if (polityAssetsInflight) return polityAssetsInflight;
   polityAssetsInflight = (async () => {
     try {
-      const res = await fetch(`${NE_BASE}polity_assets.json`);
-      polityAssetsCache = res.ok ? ((await res.json()) as Record<string, PolityAsset>) : {};
-    } catch {
-      polityAssetsCache = {};
+      const { data, ok } = await fetchOptionalJson<Record<string, PolityAsset>>(
+        `${NE_BASE}polity_assets.json`,
+        {},
+      );
+      if (ok) polityAssetsCache = data;
+      return data;
+    } finally {
+      polityAssetsInflight = null;
     }
-    polityAssetsInflight = null;
-    return polityAssetsCache;
   })();
   return polityAssetsInflight;
 }
@@ -566,13 +628,15 @@ export async function loadPolityDescriptions(): Promise<Record<string, PolityDes
   if (polityDescInflight) return polityDescInflight;
   polityDescInflight = (async () => {
     try {
-      const res = await fetch(`${NE_BASE}polity_descriptions.json`);
-      polityDescCache = res.ok ? ((await res.json()) as Record<string, PolityDescription>) : {};
-    } catch {
-      polityDescCache = {};
+      const { data, ok } = await fetchOptionalJson<Record<string, PolityDescription>>(
+        `${NE_BASE}polity_descriptions.json`,
+        {},
+      );
+      if (ok) polityDescCache = data;
+      return data;
+    } finally {
+      polityDescInflight = null;
     }
-    polityDescInflight = null;
-    return polityDescCache;
   })();
   return polityDescInflight;
 }
@@ -703,13 +767,15 @@ export async function loadPolityFacts(): Promise<Record<string, PolityFacts>> {
   if (polityFactsInflight) return polityFactsInflight;
   polityFactsInflight = (async () => {
     try {
-      const res = await fetch(`${NE_BASE}polity_facts.json`);
-      polityFactsCache = res.ok ? ((await res.json()) as Record<string, PolityFacts>) : {};
-    } catch {
-      polityFactsCache = {};
+      const { data, ok } = await fetchOptionalJson<Record<string, PolityFacts>>(
+        `${NE_BASE}polity_facts.json`,
+        {},
+      );
+      if (ok) polityFactsCache = data;
+      return data;
+    } finally {
+      polityFactsInflight = null;
     }
-    polityFactsInflight = null;
-    return polityFactsCache;
   })();
   return polityFactsInflight;
 }
@@ -765,13 +831,13 @@ export async function loadPeopleCoords(): Promise<Record<string, [number, number
   if (peopleCoordsInflight) return peopleCoordsInflight;
   peopleCoordsInflight = (async () => {
     try {
-      const res = await fetch(`${PEOPLE_COORDS}`);
-      if (!res.ok) return {};
-      const json = (await res.json()) as Record<string, [number, number][]>;
-      peopleCoordsCache = json && typeof json === 'object' ? json : {};
-      return peopleCoordsCache;
-    } catch {
-      return {};
+      const { data, ok } = await fetchOptionalJson<Record<string, [number, number][]>>(
+        PEOPLE_COORDS,
+        {},
+      );
+      const clean = data && typeof data === 'object' ? data : {};
+      if (ok) peopleCoordsCache = clean;
+      return clean;
     } finally {
       peopleCoordsInflight = null;
     }
@@ -784,14 +850,13 @@ export async function loadPeopleIndex(): Promise<PersonIndexItem[]> {
   if (peopleIndexInflight) return peopleIndexInflight;
   peopleIndexInflight = (async () => {
     try {
-      const res = await fetch(`${PEOPLE_BASE}index.json`);
-      if (!res.ok) return [];
-      const json = (await res.json()) as PersonIndexItem[];
-      const list = Array.isArray(json) ? json : [];
-      peopleIndexCache = list;
+      const { data, ok } = await fetchOptionalJson<PersonIndexItem[]>(
+        `${PEOPLE_BASE}index.json`,
+        [],
+      );
+      const list = Array.isArray(data) ? data : [];
+      if (ok) peopleIndexCache = list;
       return list;
-    } catch {
-      return [];
     } finally {
       peopleIndexInflight = null;
     }
@@ -805,17 +870,47 @@ export async function loadPersonProfile(personId: string): Promise<PersonProfile
   const cached = profileCache.get(personId);
   if (cached !== undefined) return cached;
   try {
-    const res = await fetch(`${PEOPLE_BASE}${encodeURIComponent(personId)}.json`);
-    const json = res.ok ? ((await res.json()) as PersonProfile) : null;
+    const json = await fetchJson<PersonProfile>(
+      `${PEOPLE_BASE}${encodeURIComponent(personId)}.json`,
+      { allowMissing: true },
+    );
     profileCache.set(personId, json);
     return json;
-  } catch {
-    profileCache.set(personId, null);
+  } catch (err) {
+    if (err instanceof DataFetchError && err.record.status === 404) {
+      profileCache.set(personId, null);
+      return null;
+    }
+    // Transient failures are left uncached so reopening the card retries.
     return null;
   }
 }
 
 export function clearPeopleCache() {
   peopleIndexCache = null;
+  peopleCoordsCache = null;
   profileCache.clear();
+}
+
+/**
+ * Drop every cache for reference/enhancement data.
+ *
+ * Called by Retry: a failed optional load returns an empty fallback without
+ * caching it, but the *successful* caches may still hold stale content from
+ * before a deployment. Clearing them makes one button re-fetch everything the
+ * page depends on, without wiping the year cache that keeps the globe usable.
+ */
+export function clearReferenceCaches() {
+  nameMapCache = null;
+  polityAreaCache = null;
+  polityFlagsCache = null;
+  polityAssetsCache = null;
+  polityDescCache = null;
+  polityFactsCache = null;
+  polityAreaInflight = null;
+  polityFlagsInflight = null;
+  polityAssetsInflight = null;
+  polityDescInflight = null;
+  polityFactsInflight = null;
+  contextCache.clear();
 }

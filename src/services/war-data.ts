@@ -1,4 +1,5 @@
 import type { FlatBattle, WarIndexItem, WarLocation, WarProfile } from '@/types';
+import { DataFetchError, fetchJson, fetchOptionalJson } from '@/services/http';
 
 /**
  * War module data access.
@@ -9,6 +10,11 @@ import type { FlatBattle, WarIndexItem, WarLocation, WarProfile } from '@/types'
  *   {warId}.json       the full profile, fetched only when a war is opened
  *
  * Profiles run 20-80 KB each, so they are never prefetched.
+ *
+ * All three go through the shared request layer. A failed load degrades the
+ * panel to an empty list but is reported to the diagnostics banner, and the
+ * empty result is NOT cached — otherwise the first network hiccup permanently
+ * erased the war layer for the rest of the session.
  */
 
 const BASE = '/wars/profiles/';
@@ -27,16 +33,13 @@ export async function loadWarIndex(): Promise<WarIndexItem[]> {
 
   indexPromise = (async () => {
     try {
-      const res = await fetch(`${BASE}index.json`);
-      if (!res.ok) throw new Error(`index.json ${res.status}`);
-      const json = (await res.json()) as WarIndexItem[];
-      indexCache = Array.isArray(json) ? json.filter((w) => w?.warId && w?.name) : [];
-    } catch {
-      indexCache = [];
+      const { data, ok } = await fetchOptionalJson<WarIndexItem[]>(`${BASE}index.json`, []);
+      const list = Array.isArray(data) ? data.filter((w) => w?.warId && w?.name) : [];
+      if (ok) indexCache = list;
+      return list;
     } finally {
       indexPromise = null;
     }
-    return indexCache ?? [];
   })();
 
   return indexPromise;
@@ -48,17 +51,16 @@ export async function loadWarLocations(): Promise<Record<string, WarLocation>> {
 
   locationsPromise = (async () => {
     try {
-      const res = await fetch(`${BASE}war_locations.json`);
-      if (!res.ok) throw new Error(`war_locations.json ${res.status}`);
-      const json = (await res.json()) as Record<string, WarLocation>;
-      locationsCache =
-        json && typeof json === 'object' && !Array.isArray(json) ? json : {};
-    } catch {
-      locationsCache = {};
+      const { data, ok } = await fetchOptionalJson<Record<string, WarLocation>>(
+        `${BASE}war_locations.json`,
+        {},
+      );
+      const list = data && typeof data === 'object' && !Array.isArray(data) ? data : {};
+      if (ok) locationsCache = list;
+      return list;
     } finally {
       locationsPromise = null;
     }
-    return locationsCache ?? {};
   })();
 
   return locationsPromise;
@@ -68,16 +70,14 @@ export async function loadWarProfile(warId: string): Promise<WarProfile | null> 
   if (profileCache.has(warId)) return profileCache.get(warId) ?? null;
 
   try {
-    const res = await fetch(`${BASE}${warId}.json`);
-    if (!res.ok) {
-      profileCache.set(warId, null);
-      return null;
-    }
-    const json = (await res.json()) as WarProfile;
+    const json = await fetchJson<WarProfile>(`${BASE}${warId}.json`, { allowMissing: true });
     profileCache.set(warId, json);
     return json;
-  } catch {
-    profileCache.set(warId, null);
+  } catch (err) {
+    if (err instanceof DataFetchError && err.record.status === 404) {
+      profileCache.set(warId, null);
+    }
+    // A transient failure is left uncached so reopening the card retries.
     return null;
   }
 }
@@ -104,5 +104,7 @@ export function battleList(profile: WarProfile | null): FlatBattle[] {
 export function clearWarCache() {
   indexCache = null;
   locationsCache = null;
+  indexPromise = null;
+  locationsPromise = null;
   profileCache.clear();
 }

@@ -2,6 +2,7 @@
 import { computed, onBeforeUnmount, onMounted, ref, shallowRef } from 'vue';
 import { globe, type HoverInfo } from '@/services/globe';
 import { CATEGORIES } from '@/config';
+import { rendererError } from '@/lib/appError';
 import { useLayersStore } from '@/stores/layers';
 import { useTimelineStore } from '@/stores/timeline';
 import { useUiStore } from '@/stores/ui';
@@ -16,10 +17,6 @@ const emit = defineEmits<{
   pickWar: [string];
 }>();
 
-function reloadApp() {
-  window.location.reload();
-}
-
 const ui = useUiStore();
 const layers = useLayersStore();
 const timeline = useTimelineStore();
@@ -27,7 +24,6 @@ const timeline = useTimelineStore();
 const host = ref<HTMLElement | null>(null);
 /** Hover state is shallow: it is swapped on every mouse move frame. */
 const hover = shallowRef<HoverInfo | null>(null);
-const failed = ref(false);
 
 const yearText = computed(() => String(timeline.absYear));
 const cats = computed(() =>
@@ -52,8 +48,9 @@ onMounted(async () => {
     });
     emit('ready');
   } catch (err) {
-    failed.value = true;
-    ui.setError((err as Error).message || String(err));
+    // One shared error state for both renderers; ErrorNotice renders it with
+    // a real "reload" action instead of this component's local overlay.
+    ui.setError(rendererError(ui.locale, (err as Error)?.message ?? err));
   }
 });
 
@@ -102,11 +99,6 @@ onBeforeUnmount(() => globe.destroy());
       <i :style="{ background: `var(${hover.categoryVar})` }" />
       <span class="t">{{ hover.title }}</span>
       <span v-if="hover.subtitle" class="s">{{ hover.subtitle }}</span>
-    </div>
-
-    <div v-if="failed" class="failed">
-      <p>{{ ui.t('error.title') }}</p>
-      <button @click="reloadApp">{{ ui.t('error.retry') }}</button>
     </div>
 
     <LoadingVeil />
@@ -242,22 +234,4 @@ onBeforeUnmount(() => globe.destroy());
   color: var(--ink-3);
 }
 
-.failed {
-  position: absolute;
-  inset: 0;
-  display: grid;
-  place-content: center;
-  gap: 12px;
-  text-align: center;
-  background: var(--veil);
-}
-.failed p {
-  font-family: var(--font-display);
-  font-size: var(--fs-h2);
-}
-.failed button {
-  border: 1px solid var(--rule-3);
-  padding: 6px 16px;
-  font-size: var(--fs-sm);
-}
 </style>

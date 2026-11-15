@@ -9,6 +9,7 @@ import {
 } from '@/config';
 import { bboxIntersects } from '@/lib/geo';
 import { labelAnchor } from '@/lib/polityScope';
+import { fetchJson } from '@/services/http';
 import type { Locale, PolityFeature, PreparedPolity, TimelineEvent } from '@/types';
 
 /**
@@ -1355,11 +1356,9 @@ function clampPolarGeometry(geometry: GeoJsonGeometry | null | undefined) {
  * here rather than in the shipped data — a future download stays compatible.
  */
 async function sanitizeCountries(url: string): Promise<unknown> {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`${res.status} ${url}`);
-  const json = (await res.json()) as {
+  const json = await fetchJson<{
     features?: Array<{ geometry?: GeoJsonGeometry | null }>;
-  };
+  }>(url);
   return {
     ...json,
     features: (json.features ?? []).map((feature) => ({

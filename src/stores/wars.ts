@@ -2,7 +2,7 @@ import { defineStore } from 'pinia';
 import { computed, ref } from 'vue';
 import { getEra } from '@/config';
 import { scopeHasPoint, scopeOverlapsYears, type PolityScope } from '@/lib/polityScope';
-import { battleList, loadWarIndex, loadWarLocations, loadWarProfile } from '@/services/war-data';
+import { battleList, clearWarCache, loadWarIndex, loadWarLocations, loadWarProfile } from '@/services/war-data';
 import { useTimelineStore } from '@/stores/timeline';
 import { useUiStore } from '@/stores/ui';
 import type { WarIndexItem, WarLocation, WarProfile } from '@/types';
@@ -153,6 +153,19 @@ export const useWarsStore = defineStore('wars', () => {
     query.value = '';
   }
 
+  /**
+   * Re-issue the two index requests after a failed load. `ensureIndex` gates on
+   * `loaded`, which used to stay false but with an empty cache: without this,
+   * Retry could not bring the war layer back at all.
+   */
+  async function resetForRetry() {
+    clearWarCache();
+    loaded.value = false;
+    index.value = [];
+    locations.value = {};
+    await ensureIndex();
+  }
+
   return {
     index,
     locations,
@@ -170,6 +183,7 @@ export const useWarsStore = defineStore('wars', () => {
     countInScope,
     located,
     ensureIndex,
+    resetForRetry,
     select,
     clear,
   };
