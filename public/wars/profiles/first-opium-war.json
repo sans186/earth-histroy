@@ -1,0 +1,269 @@
+{
+  "warId": "first-opium-war",
+  "name": "鸦片战争",
+  "nameEn": "First Opium War",
+  "alternativeNames": [
+    "第一次鸦片战争",
+    "英中战争",
+    "通商战争"
+  ],
+  "startYear": 1839,
+  "endYear": 1842,
+  "type": "major",
+  "category": "殖民战争",
+  "theaters": [
+    "广东珠江口",
+    "浙江沿海",
+    "江苏长江口"
+  ],
+  "summary": "鸦片战争是1839年至1842年英国与清朝之间因鸦片贸易争端而爆发的战争。英国以武力迫使清朝开放通商口岸并割让香港岛，战争以《南京条约》的签订告终，通常被视为中国近代史的开端。",
+  "background": {
+    "causes": "英国为扭转对华贸易逆差而大量向中国输入鸦片，清朝为维护社会秩序与财政而厉行禁烟，双方在贸易体制、外交礼仪与司法管辖权等问题上长期存在冲突。",
+    "immediateCause": "1839年林则徐在虎门销烟，英国以此为借口发动战争。",
+    "preWarSituation": "清朝实行广州一口通商制度，英国东印度公司垄断对华贸易；鸦片走私导致白银外流，清朝内部禁烟呼声高涨。",
+    "objectivesA": "英国旨在迫使清朝开放更多通商口岸、割让岛屿、赔偿烟价并建立平等外交关系。",
+    "objectivesB": "清朝旨在禁止鸦片输入、维护闭关贸易体制与国家主权。",
+    "precedingConflicts": [
+      "律劳卑事件（1834）",
+      "义律与清朝的贸易冲突（1836–1839）"
+    ]
+  },
+  "belligerents": {
+    "sideA": {
+      "name": "英国",
+      "nameEn": "United Kingdom",
+      "commanders": [
+        {
+          "name": "查理·义律",
+          "role": "驻华商务总监",
+          "bio": "英国驻华商务总监，战争初期负责英国对华交涉与军事行动。"
+        },
+        {
+          "name": "乔治·懿律",
+          "role": "远征军总司令",
+          "bio": "英国海军将领，1840年率远征军抵达中国。"
+        },
+        {
+          "name": "亨利·璞鼎查",
+          "role": "全权代表",
+          "bio": "1841年接任全权代表，主持《南京条约》谈判。"
+        }
+      ],
+      "politicalLeaders": [
+        "巴麦尊",
+        "墨尔本"
+      ],
+      "preWarStrength": {
+        "army": "约数千至一万余人，配备近代火器",
+        "navy": "拥有蒸汽战舰与风帆战舰，海上优势明显"
+      }
+    },
+    "sideB": {
+      "name": "清朝",
+      "nameEn": "Qing Dynasty",
+      "commanders": [
+        {
+          "name": "林则徐",
+          "role": "钦差大臣",
+          "bio": "主持虎门销烟，战争初期负责广东防务。"
+        },
+        {
+          "name": "琦善",
+          "role": "钦差大臣",
+          "bio": "接替林则徐与英方谈判，后因擅自割让香港岛被革职。"
+        },
+        {
+          "name": "奕山",
+          "role": "靖逆将军",
+          "bio": "主持广东军事，1841年与英方签订《广州和约》。"
+        }
+      ],
+      "politicalLeaders": [
+        "道光帝"
+      ],
+      "preWarStrength": {
+        "army": "八旗与绿营兵员众多，但装备陈旧、分散驻防",
+        "navy": "水师以传统帆船为主，缺乏近代战舰"
+      }
+    }
+  },
+  "outcome": {
+    "result": "英国获胜，清朝战败，双方签订《南京条约》。",
+    "victoryAnalysis": {
+      "winnerFactors": "英国拥有近代化海军与火器、统一指挥与海上机动能力，可沿海岸线选择攻击点。",
+      "loserFactors": "清朝军事装备落后、海防分散、指挥体系僵化，对近代战争缺乏认识。"
+    }
+  },
+  "legacy": {
+    "significance": "鸦片战争是中国近代史的重要转折点，标志着西方列强以武力打开中国门户的开始。",
+    "immediateConsequences": "清朝割让香港岛、开放五口通商、赔款并丧失关税自主权。",
+    "longTermEffects": "战后不平等条约体系逐步形成，中国社会与对外关系发生深刻变化，催生近代改革与民族意识。"
+  },
+  "tags": {
+    "warfareType": [
+      "海陆联合作战",
+      "殖民远征"
+    ],
+    "geopolitical": [
+      "东亚",
+      "清朝",
+      "大英帝国"
+    ],
+    "scale": "区域性战争",
+    "cause": [
+      "鸦片贸易",
+      "贸易逆差",
+      "闭关政策"
+    ]
+  },
+  "relatedWars": [
+    "第二次鸦片战争"
+  ],
+  "sources": [
+    "《清史稿》",
+    "《筹办夷务始末》",
+    "《剑桥中国晚清史》",
+    "《中国近代史》"
+  ],
+  "warProcess": {
+    "phases": [
+      {
+        "name": "广东禁烟与冲突",
+        "nameEn": "Canton and the Opium Crisis",
+        "startYear": 1839,
+        "endYear": 1840,
+        "summary": "林则徐在广东禁烟并于虎门销烟，英方以此为借口调集兵力，双方在珠江口发生初步冲突。",
+        "battles": [
+          {
+            "battleId": "battle-humen-1839",
+            "name": "虎门销烟",
+            "nameEn": "Destruction of Opium at Humen",
+            "startYear": 1839,
+            "endYear": 1839,
+            "coords": [
+              113.67,
+              22.81
+            ],
+            "theater": "广东珠江口",
+            "context": "林则徐奉命禁烟，收缴英商鸦片。",
+            "description": "1839年6月，林则徐在虎门海滩当众销毁收缴的鸦片。",
+            "result": "清朝禁烟行动取得阶段性成果。",
+            "significance": "成为英国发动战争的直接借口。"
+          },
+          {
+            "battleId": "battle-chuenpi-1840",
+            "name": "穿鼻之战",
+            "nameEn": "Battle of Chuenpi",
+            "startYear": 1840,
+            "endYear": 1840,
+            "coords": [
+              113.62,
+              22.75
+            ],
+            "theater": "广东珠江口",
+            "context": "英军封锁珠江口，与清军水师发生交火。",
+            "description": "1840年初，英国舰队在穿鼻洋面与清朝水师交战。",
+            "result": "英军小胜，清军水师受挫。",
+            "significance": "战争初期海上冲突的标志性事件。"
+          }
+        ]
+      },
+      {
+        "name": "英军北犯与沿海作战",
+        "nameEn": "British Expedition Northward",
+        "startYear": 1840,
+        "endYear": 1841,
+        "summary": "英军北上攻占定海，进逼天津，后南下攻占虎门、广州，清廷被迫议和。",
+        "battles": [
+          {
+            "battleId": "battle-dinghai-1840",
+            "name": "定海之战",
+            "nameEn": "Battle of Dinghai",
+            "startYear": 1840,
+            "endYear": 1840,
+            "coords": [
+              122.1,
+              30.02
+            ],
+            "theater": "浙江沿海",
+            "context": "英军北上寻找攻击目标，定海为浙江海防要地。",
+            "description": "1840年7月，英军攻占定海。",
+            "result": "英军占领定海。",
+            "significance": "英军首次占领中国沿海城市，震动清廷。"
+          },
+          {
+            "battleId": "battle-humen-1841",
+            "name": "虎门之战",
+            "nameEn": "Battle of the Bogue",
+            "startYear": 1841,
+            "endYear": 1841,
+            "coords": [
+              113.67,
+              22.81
+            ],
+            "theater": "广东珠江口",
+            "context": "英军南下进攻虎门要塞。",
+            "description": "1841年2月，英军进攻虎门炮台，清军抵抗后失守。",
+            "result": "英军攻占虎门。",
+            "significance": "广州门户洞开，清军海防体系崩溃。"
+          }
+        ]
+      },
+      {
+        "name": "长江战役与战争结束",
+        "nameEn": "Yangtze Campaign and End of War",
+        "startYear": 1841,
+        "endYear": 1842,
+        "summary": "英军攻占厦门、定海、镇海、宁波，后沿长江攻陷镇江，兵临南京，清朝被迫签订《南京条约》。",
+        "battles": [
+          {
+            "battleId": "battle-zhenjiang-1842",
+            "name": "镇江之战",
+            "nameEn": "Battle of Zhenjiang",
+            "startYear": 1842,
+            "endYear": 1842,
+            "coords": [
+              119.45,
+              32.2
+            ],
+            "theater": "江苏长江口",
+            "context": "英军沿长江推进，镇江为南京门户。",
+            "description": "1842年7月，英军进攻镇江，清军顽强抵抗后失守。",
+            "result": "英军攻占镇江。",
+            "significance": "英军兵临南京，直接促成《南京条约》的签订。"
+          }
+        ]
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "year": 1839,
+      "event": "虎门销烟",
+      "type": "禁烟",
+      "description": "林则徐在虎门销毁收缴的鸦片。",
+      "impact": "英国以此为借口发动战争。"
+    },
+    {
+      "year": 1840,
+      "event": "英军远征舰队抵达中国",
+      "type": "军事",
+      "description": "英国远征军封锁珠江口并北上。",
+      "impact": "战争全面爆发。"
+    },
+    {
+      "year": 1841,
+      "event": "英军攻占虎门",
+      "type": "战役",
+      "description": "英军攻破虎门要塞，广州门户洞开。",
+      "impact": "清廷被迫议和，签订《广州和约》。"
+    },
+    {
+      "year": 1842,
+      "event": "《南京条约》签订",
+      "type": "条约",
+      "description": "清朝与英国签订《南京条约》，战争结束。",
+      "impact": "中国开始沦为半殖民地半封建社会。"
+    }
+  ]
+}

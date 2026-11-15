@@ -1,37 +1,81 @@
 {
   "personId": "dan-dong",
   "name": "丹东",
-  "nameEn": "Dandong",
-  "birth": null,
-  "death": null,
-  "nationality": "中国",
-  "nationalityEn": "China",
-  "totalPoints": 0,
-  "points": [],
+  "nameEn": "Georges Danton",
+  "birth": 1759,
+  "death": 1794,
+  "nationality": "法国",
+  "nationalityEn": "French",
+  "totalPoints": 3,
+  "era": "近世",
+  "points": [
+    {
+      "year": 1759,
+      "yearEnd": 1789,
+      "place": "奥布河畔阿尔西",
+      "placeEn": "Arcis-sur-Aube",
+      "coords": [
+        4.14,
+        48.53
+      ],
+      "title": "早年",
+      "titleEn": "Early life",
+      "description": "乔治·雅克·丹东出生于香槟地区奥布河畔阿尔西的一个中等富裕家庭，早年接受法律教育，后在巴黎担任律师，并逐渐接触启蒙思想与革命前的政治讨论。",
+      "descriptionEn": "Georges Jacques Danton was born in Arcis-sur-Aube in Champagne to a moderately prosperous family. He studied law, later practiced as a lawyer in Paris, and gradually engaged with Enlightenment ideas and pre-revolutionary political debates."
+    },
+    {
+      "year": 1789,
+      "yearEnd": 1792,
+      "place": "巴黎",
+      "placeEn": "Paris",
+      "coords": [
+        2.35,
+        48.86
+      ],
+      "title": "革命初期与科德利埃俱乐部",
+      "titleEn": "Early Revolution and the Cordeliers Club",
+      "description": "法国大革命爆发后，丹东在巴黎积极参与公共事务，成为科德利埃俱乐部的重要人物，以其雄辩和动员能力在激进革命派中崭露头角，并于1792年出任司法部长。",
+      "descriptionEn": "After the outbreak of the French Revolution, Danton became active in Parisian public affairs and emerged as a leading figure in the Cordeliers Club. Known for his eloquence and mobilizing ability, he rose among the radical revolutionaries and became Minister of Justice in 1792."
+    },
+    {
+      "year": 1792,
+      "yearEnd": 1794,
+      "place": "巴黎",
+      "placeEn": "Paris",
+      "coords": [
+        2.35,
+        48.86
+      ],
+      "title": "国民公会与恐怖时期",
+      "titleEn": "National Convention and the Terror",
+      "description": "丹东当选国民公会代表，参与建立共和国并投票赞成处决路易十六。他后来主张缓和恐怖政策、寻求对外和平，与罗伯斯庇尔派发生冲突，最终于1794年被革命法庭判处死刑。",
+      "descriptionEn": "Danton was elected to the National Convention, participated in founding the Republic, and voted for the execution of Louis XVI. He later advocated moderation of the Terror and sought peace abroad, came into conflict with Robespierre's faction, and was ultimately sentenced to death by the Revolutionary Tribunal in 1794."
+    }
+  ],
   "evaluation": {
     "supporter": {
-      "zh": "丹东被视为中国近代史上的一位重要政治家，他的主要贡献在于推动了中国近代化的进程，尤其是在外交和军事方面。",
-      "en": "Dandong is regarded as an important politician in the history of modern China, known for his contributions to the process of modernization, particularly in diplomacy and military affairs."
+      "zh": "支持者视丹东为大革命中具有感召力的务实政治家，认为他在共和国存亡关头展现出果断与妥协并用的能力，并肯定其后期主张缓和恐怖、推动和解的尝试。",
+      "en": "Supporters view Danton as a charismatic and pragmatic statesman of the Revolution, crediting him with decisive yet flexible leadership at critical moments of the Republic and praising his later attempts to moderate the Terror and promote reconciliation."
     },
     "critic": {
-      "zh": "丹东的一些决策和行动受到了批评，特别是在中日甲午战争期间，他的某些决策被认为导致了中国的失败。",
-      "en": "Dandong's decisions and actions have been criticized, especially during the Sino-Japanese War, with some of his decisions being seen as contributing to China's defeat."
+      "zh": "批评者指出丹东在革命暴力中并非旁观者，他参与并支持了包括处决国王在内的激进措施，其财政与政治操守也长期受到质疑，后期转向缓和被部分人视为机会主义。",
+      "en": "Critics note that Danton was no bystander to revolutionary violence, having participated in and supported radical measures including the king's execution, while his financial and political conduct has long been questioned; his later turn toward moderation is seen by some as opportunism."
     },
     "objective": {
-      "zh": "在历史学界，丹东被定义为一位具有复杂历史形象的人物，他的贡献和争议并存，是中国近代史上的一个重要节点。",
-      "en": "In the historical academia, Dandong is defined as a person with a complex historical image, with both contributions and controversies, representing an important node in the history of modern China."
+      "zh": "通行史学认为丹东是法国大革命中最具影响力的演说家和政治人物之一，其生涯交织着革命动员、暴力政治与寻求缓和的复杂面向，历史评价因立场与时代而显著分化。",
+      "en": "Mainstream historiography regards Danton as one of the most influential orators and political figures of the French Revolution, whose career combined revolutionary mobilization, violent politics, and attempts at moderation; historical assessments vary markedly with perspective and era."
     }
   },
   "quotes": {
     "self": {
-      "zh": "无具体原话记录。",
-      "en": "No specific quotes recorded."
+      "zh": "丹东在革命法庭上的著名陈述强调自己不会屈服于恐惧，但具体措辞在不同史料中有所差异，引用时需注明版本。",
+      "en": "Danton's famous statement before the Revolutionary Tribunal emphasizes that he would not yield to fear, though the exact wording varies across sources and should be cited with attention to version."
     },
     "others": {
-      "zh": "无具体评价记录。",
-      "en": "No specific quotes recorded."
+      "zh": "同时代人与后世史家对丹东的评价两极分化：有人称他为革命的巨人，也有人批评其手段与操守，相关引语需结合具体文献语境使用。",
+      "en": "Contemporaries and later historians have assessed Danton in sharply divergent terms: some called him a giant of the Revolution, while others criticized his methods and conduct; such quotations should be used with attention to their specific documentary context."
     }
   },
-  "othersBy": "无",
-  "othersByEn": "No"
+  "othersBy": "丹东研究主要依据大革命时期的议会记录、报刊、回忆录与书信，以及后世传记与史学论著；具体引语与评价应核对原始文献与权威版本。",
+  "othersByEn": "Research on Danton relies primarily on revolutionary-era parliamentary records, newspapers, memoirs, and correspondence, as well as later biographies and historical scholarship; specific quotations and assessments should be checked against primary sources and authoritative editions."
 }

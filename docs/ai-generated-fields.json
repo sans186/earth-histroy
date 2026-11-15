@@ -1,0 +1,169 @@
+{
+  "note": "由大模型生成的字段清单；这些字段未逐条人工核验",
+  "model": "deepseek-v4.1-flash",
+  "wars": {
+    "american-civil-war": [
+      "sources",
+      "theaters"
+    ],
+    "anglo-boer-war": [
+      "sources",
+      "alternativeNames"
+    ],
+    "angolan_civil_war": [
+      "sources"
+    ],
+    "bosnian_war": [
+      "sources",
+      "alternativeNames"
+    ],
+    "chaco_war": [
+      "sources"
+    ],
+    "english-civil-war": [
+      "relatedWars"
+    ],
+    "ethiopian_wars": [
+      "sources"
+    ],
+    "falklands-war": [
+      "sources",
+      "alternativeNames"
+    ],
+    "haitian_revolution": [
+      "sources"
+    ],
+    "hussite_wars": [
+      "sources"
+    ],
+    "india-pakistan_wars": [
+      "alternativeNames"
+    ],
+    "iran-iraq-war": [
+      "sources"
+    ],
+    "iraq-war": [
+      "sources",
+      "alternativeNames",
+      "relatedWars"
+    ],
+    "israel-gaza-conflict": [
+      "sources"
+    ],
+    "nagorno-karabakh-war": [
+      "sources"
+    ],
+    "northern-burma-campaign": [
+      "sources",
+      "alternativeNames"
+    ],
+    "pacific_war": [
+      "sources",
+      "alternativeNames"
+    ],
+    "paraguayan-war": [
+      "sources",
+      "relatedWars"
+    ],
+    "peloponnesian-war": [
+      "relatedWars"
+    ],
+    "russian-georgian-war": [
+      "sources",
+      "alternativeNames"
+    ],
+    "second-balkan-war": [
+      "sources"
+    ],
+    "soviet-german-war": [
+      "sources"
+    ],
+    "spanish-civil-war": [
+      "sources",
+      "alternativeNames",
+      "relatedWars"
+    ],
+    "sri_lankan_civil_war": [
+      "sources"
+    ],
+    "war-of-1812": [
+      "relatedWars"
+    ],
+    "war-of-spanish-succession": [
+      "alternativeNames"
+    ],
+    "war-of-the-pacific": [
+      "sources"
+    ],
+    "中越战争": [
+      "alternativeNames",
+      "relatedWars"
+    ],
+    "八国联军侵华战争": [
+      "sources",
+      "alternativeNames",
+      "relatedWars"
+    ],
+    "六日战争": [
+      "alternativeNames",
+      "relatedWars"
+    ],
+    "叙利亚内战": [
+      "alternativeNames",
+      "relatedWars"
+    ],
+    "科索沃战争": [
+      "alternativeNames",
+      "relatedWars"
+    ]
+  },
+  "people": {
+    "dan-dong": [
+      "(整份档案重写：修正实体错认)"
+    ]
+  },
+  "files": [
+    "public/events/1327.json",
+    "public/events/1328.json",
+    "public/events/1334.json",
+    "public/ne/polity_descriptions.json"
+  ],
+  "deterministic": [
+    "era (按 birth 年份机械推导，非模型生成)",
+    "era (按 birth 年份机械推导，非模型生成)"
+  ],
+  "updatedAt": "2026-11-15",
+  "fixes": [
+    {
+      "date": "2026-11-15",
+      "id": "dan-dong",
+      "issue": "原档案把法国大革命的丹东误写为中国近代政治家并编造甲午战争关联",
+      "action": "按通行史实重写"
+    }
+  ],
+  "newProfiles": {
+    "people": [
+      "han-wudi",
+      "tang-taizong",
+      "zhu-yuanzhang",
+      "kangxi"
+    ],
+    "wars": [
+      "first-opium-war",
+      "second-opium-war"
+    ]
+  },
+  "unverified": true,
+  "disclaimer": "C 级内容：由大模型生成、未逐条人工核验，不得作为史实引用依据。详见 docs/开源说明.md §5/§7。",
+  "mojibakeFixed": {
+    "strategy": "连续 U+FFFD 视为一个损坏汉字",
+    "count": 5
+  },
+  "summary": {
+    "generatedWarFieldEntries": 32,
+    "generatedPeopleEntries": 1,
+    "newPeople": 4,
+    "newWars": 2,
+    "eraFilledByRule": 410
+  }
+}
