@@ -40,6 +40,9 @@ __pycache__/
 # Backup files
 *.backup_*
 *_backup.*
+# Audit backups live outside public/ so they are never deployed, and outside git so
+# they do not cost a commit each run.
+scripts/.backups/
 
 # Local-only files
 SERVER.md
@@ -56,3 +59,17 @@ translate_progress.txt
 public/ne/cliopatria_polities_only.json
 public/ne/*.backup_*
 public/ne/*_backup.*
+
+# Local working material (kept on disk, never committed)
+# Old pre-Vue source is already in git history; no need for a second copy.
+.archive/
+.omo/
+.playwright-cli/
+.tmp-verify/
+dist.stale-*/
+public/_review/
+.dev-run.log
+.dev-server*.log
+.dev-server.err
+.devlog.txt
+.preview.log

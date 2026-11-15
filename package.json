@@ -14,7 +14,9 @@
     "report:data": "node scripts/data/report-assets.mjs",
     "compare:locales": "node scripts/data/compare-locales.mjs",
     "audit:polities": "node scripts/data/analyze-polities.mjs",
-    "simplify:polities": "node scripts/data/simplify-polities.mjs"
+    "simplify:polities": "node scripts/data/simplify-polities.mjs",
+    "build:people-coords": "node scripts/data/build-people-coords.mjs",
+    "enrich:polity-facts": "node scripts/data/enrich-polity-facts.mjs"
   },
   "dependencies": {
     "@turf/turf": "^7.3.5",
