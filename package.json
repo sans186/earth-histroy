@@ -17,7 +17,10 @@
     "audit:polities": "node scripts/data/analyze-polities.mjs",
     "simplify:polities": "node scripts/data/simplify-polities.mjs",
     "build:people-coords": "node scripts/data/build-people-coords.mjs",
-    "enrich:polity-facts": "node scripts/data/enrich-polity-facts.mjs"
+    "enrich:polity-facts": "node scripts/data/enrich-polity-facts.mjs",
+    "audit:profiles": "node scripts/data/audit-profiles.mjs",
+    "enrich:profiles": "node scripts/data/enrich-profiles-opencode.mjs",
+    "generate:profiles": "node scripts/data/generate-new-profiles.mjs"
   },
   "dependencies": {
     "@turf/turf": "^7.3.5",
