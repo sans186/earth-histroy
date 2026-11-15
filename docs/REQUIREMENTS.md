@@ -75,8 +75,8 @@
 | 实质修正 | `dan-dong` 实体错认（把法国大革命的丹东写成中国近代政治家）整份重写；4 个文件 5 处 U+FFFD 字节损坏修复 |
 | 可追溯 | `docs/ai-generated-fields.json` 记录所有模型生成字段、新增档案与勘误；C 级内容标 `unverified` |
 | 边界决策 | 不自动生成近现代政治人物评价、在世人物、宗教创始人、进行中冲突结论；不补在世人物卒年与史料不详者生卒年 |
-| 验证 | `typecheck` 0 错误；`validate:data` ERROR 0 / WARNING 0；`audit:profiles` 战争 96/96、人物 418/418、孤儿 0 |
-| 未做 | 界面 CC BY 署名、CHANGELOG 与首个 git tag、CI 门禁、生产构建复核（本轮执行中）；未 push、未部署 |
+| 验证 | `typecheck` 0 错误；`validate:data` ERROR 0 / WARNING 0；`audit:profiles` 战争 96/96、人物 418/418、孤儿 0；`npm run build` 1,549 模块通过 |
+| 未做 | 界面 CC BY 署名、CHANGELOG 与首个 git tag、CI 门禁；未 push、未部署 |
 
 ## 2026-11-15 · 状态校准与工程收尾（非需求）
 
