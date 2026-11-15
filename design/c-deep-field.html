@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>风格 C · DEEP FIELD 深空观测</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&family=Noto+Sans+SC:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#060a11; --panel:#0a1018; --panel-2:#0d141d;
+  --line:#16212c; --line-2:#22323f;
+  --text:#d7e4ee; --text-2:#8398ab; --text-3:#4e6274;
+  --cyan:#4fd1c5; --amber:#f0a04b; --coral:#ef6b5a;
+  --mono:'IBM Plex Mono',ui-monospace,monospace;
+  --sans:'Space Grotesk','Noto Sans SC',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:13px;
+  overflow:hidden;line-height:1.55;-webkit-font-smoothing:antialiased}
+.m{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.cap{font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--text-3)}
+
+.app{display:grid;grid-template-rows:44px 1fr 96px;height:100vh}
+main{display:grid;grid-template-columns:288px minmax(0,1fr) 260px;min-height:0}
+
+/* status bar */
+.topbar{display:flex;align-items:center;gap:0;border-bottom:1px solid var(--line);background:var(--panel);
+  padding:0 16px;font-family:var(--mono);font-size:11px}
+.brand{display:flex;align-items:center;gap:9px;padding-right:18px;border-right:1px solid var(--line);height:100%}
+.brand .pulse{width:6px;height:6px;border-radius:50%;background:var(--cyan);box-shadow:0 0 8px var(--cyan)}
+.brand b{font-family:var(--sans);font-size:13px;font-weight:600;letter-spacing:.06em}
+.brand span{color:var(--text-3);font-size:9.5px;letter-spacing:.16em}
+.readouts{display:flex;gap:0;height:100%;margin-left:4px}
+.ro{display:flex;flex-direction:column;justify-content:center;padding:0 15px;border-right:1px solid var(--line)}
+.ro .k{font-size:9px;letter-spacing:.16em;color:var(--text-3)}
+.ro .v{font-size:11.5px;color:var(--cyan);margin-top:1px}
+.ro .v.amb{color:var(--amber)}
+.ro .v.txt{color:var(--text-2)}
+.top-right{margin-left:auto;display:flex;align-items:center;gap:8px}
+.btn{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;padding:5px 11px;border:1px solid var(--line-2);
+  background:transparent;color:var(--text-2);cursor:pointer;border-radius:4px}
+.btn:hover{border-color:var(--cyan);color:var(--cyan)}
+.btn.solid{background:rgba(79,209,197,.14);border-color:rgba(79,209,197,.5);color:var(--cyan)}
+
+/* left log */
+.panel-l{border-right:1px solid var(--line);background:var(--panel);display:flex;flex-direction:column;min-height:0}
+.panel-hd{padding:14px 16px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:flex-end}
+.year-big{font-family:var(--mono);font-size:30px;font-weight:500;letter-spacing:-.02em;line-height:1;color:var(--text)}
+.year-big .bc{color:var(--amber);font-size:13px;margin-right:3px}
+.era-chip{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;color:var(--cyan);
+  border:1px solid rgba(79,209,197,.35);border-radius:3px;padding:3px 7px;background:rgba(79,209,197,.08)}
+.log{overflow:auto;flex:1;padding:4px 0}
+.evt{display:grid;grid-template-columns:52px 1fr;gap:10px;padding:9px 16px;cursor:pointer;
+  border-left:2px solid transparent;position:relative}
+.evt:hover{background:var(--panel-2)}
+.evt.on{background:var(--panel-2);border-left-color:var(--cyan)}
+.evt .ts{font-family:var(--mono);font-size:10px;color:var(--text-3);padding-top:2px}
+.evt h4{font-size:12.5px;font-weight:500;color:var(--text);line-height:1.4}
+.evt .meta{font-family:var(--mono);font-size:9.5px;color:var(--text-3);margin-top:3px;letter-spacing:.05em}
+.evt .dot{position:absolute;right:14px;top:12px;width:6px;height:6px;border-radius:50%}
+.d-pol{background:var(--coral)}
+.d-war{background:var(--amber)}
+.d-sci{background:var(--cyan)}
+
+/* stage */
+.stage{position:relative;overflow:hidden;background:
+  radial-gradient(95% 70% at 50% 46%,#0b1220 0%,#070b12 60%,#04070c 100%)}
+.stage::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.35;
+  background-image:linear-gradient(rgba(79,209,197,.055) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(79,209,197,.055) 1px,transparent 1px);
+  background-size:44px 44px;
+  mask-image:radial-gradient(circle at 50% 50%,#000 30%,transparent 76%)}
+.globe-wrap{position:absolute;inset:0;display:grid;place-items:center}
+.globe{width:min(70vh,72%);filter:drop-shadow(0 0 70px rgba(79,209,197,.16))}
+.corner{position:absolute;width:22px;height:22px;border-color:rgba(79,209,197,.4);border-style:solid;border-width:0}
+.corner.tl{left:18px;top:18px;border-left-width:1px;border-top-width:1px}
+.corner.tr{right:18px;top:18px;border-right-width:1px;border-top-width:1px}
+.corner.bl{left:18px;bottom:18px;border-left-width:1px;border-bottom-width:1px}
+.corner.br{right:18px;bottom:18px;border-right-width:1px;border-bottom-width:1px}
+.hud{position:absolute;left:40px;top:40px}
+.hud .big{font-family:var(--mono);font-size:13px;color:var(--cyan);letter-spacing:.06em}
+.hud .list{margin-top:10px;display:flex;flex-direction:column;gap:6px}
+.hud .list div{font-family:var(--mono);font-size:10px;color:var(--text-3);letter-spacing:.05em}
+.hud .list b{color:var(--text-2);font-weight:400}
+.chipbar{position:absolute;right:40px;top:40px;display:flex;gap:7px}
+.chip{font-family:var(--mono);font-size:10px;letter-spacing:.12em;padding:5px 11px;border-radius:4px;
+  border:1px solid var(--line-2);color:var(--text-3);cursor:pointer;background:rgba(10,16,24,.7)}
+.chip.on{border-color:rgba(79,209,197,.55);color:var(--cyan);background:rgba(79,209,197,.1)}
+.coords{position:absolute;right:40px;bottom:40px;text-align:right;font-family:var(--mono);font-size:10px;
+  color:var(--text-3);line-height:1.9;letter-spacing:.05em}
+.coords b{color:var(--text-2);font-weight:400}
+
+/* right */
+.panel-r{border-left:1px solid var(--line);background:var(--panel);overflow:auto}
+.sec{padding:14px 16px;border-bottom:1px solid var(--line)}
+.sec .cap{display:block;margin-bottom:10px}
+.toggle{display:flex;align-items:center;justify-content:space-between;padding:6px 0;cursor:pointer}
+.toggle span{font-size:12px;color:var(--text-2)}
+.sw{width:26px;height:13px;border-radius:7px;border:1px solid var(--line-2);position:relative;transition:.18s;display:block}
+.sw::after{content:"";position:absolute;top:1px;left:1px;width:9px;height:9px;border-radius:50%;background:var(--text-3);transition:.18s}
+.toggle input{display:none}
+.toggle input:checked + .sw{border-color:rgba(79,209,197,.6);background:rgba(79,209,197,.16)}
+.toggle input:checked + .sw::after{left:14px;background:var(--cyan);box-shadow:0 0 7px rgba(79,209,197,.8)}
+.meter{margin-top:4px}
+.meter .lbl{display:flex;justify-content:space-between;font-family:var(--mono);font-size:10px;color:var(--text-3);margin-bottom:5px}
+.bar{height:4px;border-radius:2px;background:var(--line);overflow:hidden}
+.bar i{display:block;height:100%;border-radius:2px}
+.base-item{display:flex;align-items:center;gap:9px;padding:6px 0;cursor:pointer;font-size:12px;color:var(--text-3)}
+.base-item .th{width:32px;height:20px;border-radius:3px;border:1px solid var(--line-2)}
+.base-item.on{color:var(--text)}
+.base-item.on .th{border-color:rgba(79,209,197,.55)}
+.b1{background:linear-gradient(135deg,#1d2f2a,#2c4a42 60%,#22404f)}
+.b2{background:linear-gradient(135deg,#131f2b,#22404f 60%,#0c141c)}
+
+/* timeline */
+.timeline{border-top:1px solid var(--line);background:var(--panel);padding:0 16px}
+.eras{display:flex;height:22px;align-items:center;gap:1px;margin:0 -16px;padding:0 16px;border-bottom:1px solid var(--line)}
+.era-seg{height:5px;border-radius:1px;flex-grow:1}
+.tl-body{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:22px;height:calc(100% - 23px)}
+.play{display:flex;gap:6px}
+.play button{width:30px;height:30px;border-radius:4px;border:1px solid var(--line-2);background:transparent;
+  color:var(--text-2);cursor:pointer;font-size:11px;font-family:var(--mono)}
+.play button:hover{border-color:var(--cyan);color:var(--cyan)}
+.play button.main{background:rgba(79,209,197,.14);border-color:rgba(79,209,197,.5);color:var(--cyan)}
+.scan{position:relative;height:38px}
+.scan .wave{position:absolute;inset:0;display:flex;align-items:flex-end;gap:2px;opacity:.5}
+.scan .wave i{flex:1;background:var(--line-2);border-radius:1px}
+.scan .rail{position:absolute;left:0;right:0;top:50%;height:1px;background:var(--line-2)}
+.scan .fill{position:absolute;left:0;top:50%;height:1px;width:78%;background:var(--cyan);box-shadow:0 0 8px rgba(79,209,197,.55)}
+.scan .cursor{position:absolute;left:78%;top:50%;transform:translate(-50%,-50%);width:9px;height:9px;
+  border-radius:2px;background:var(--cyan);box-shadow:0 0 10px rgba(79,209,197,.9)}
+.scan .ruler{position:absolute;left:0;right:0;bottom:-2px;display:flex;justify-content:space-between}
+.scan .ruler i{width:1px;height:5px;background:var(--line-2)}
+.readout{text-align:right}
+.readout .big{font-family:var(--mono);font-size:21px;font-weight:500;color:var(--text)}
+.readout .sm{font-family:var(--mono);font-size:9.5px;color:var(--text-3);letter-spacing:.14em;margin-top:3px}
+
+/* card */
+.card{position:absolute;left:40px;bottom:40px;width:390px;background:rgba(10,16,24,.94);
+  border:1px solid var(--line-2);border-radius:6px;box-shadow:0 30px 70px rgba(0,0,0,.75);
+  backdrop-filter:blur(10px)}
+.card-hd{display:flex;align-items:center;gap:9px;padding:10px 14px;border-bottom:1px solid var(--line)}
+.card-hd .d{width:7px;height:7px;border-radius:50%;background:var(--coral)}
+.card-hd .t{font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--text-3)}
+.card-hd .x{margin-left:auto;color:var(--text-3);cursor:pointer;font-family:var(--mono);font-size:11px}
+.card-hd .x:hover{color:var(--coral)}
+.card-bd{padding:15px 16px}
+.card-bd h3{font-size:15px;font-weight:600;margin-bottom:9px}
+.card-bd p{font-size:12px;color:var(--text-2);line-height:1.75}
+.kv{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);margin-top:15px;border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.kv div{background:var(--panel-2);padding:9px 11px}
+.kv .k{font-family:var(--mono);font-size:9px;letter-spacing:.14em;color:var(--text-3)}
+.kv .v{font-family:var(--mono);font-size:12px;color:var(--cyan);margin-top:3px}
+.note{position:fixed;right:14px;bottom:10px;font-family:var(--mono);font-size:9.5px;color:var(--text-3);letter-spacing:.14em;z-index:9}
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <div class="brand">
+      <span class="pulse"></span>
+      <b>DEEP FIELD</b>
+      <span>EARTH OBSERVATORY v2</span>
+    </div>
+    <div class="readouts">
+      <div class="ro"><span class="k">YEAR</span><span class="v amb m">1911</span></div>
+      <div class="ro"><span class="k">ERA</span><span class="v txt m">MODERN</span></div>
+      <div class="ro"><span class="k">ENTITIES</span><span class="v m">1,284</span></div>
+      <div class="ro"><span class="k">FPS</span><span class="v m">60</span></div>
+      <div class="ro"><span class="k">LATENCY</span><span class="v txt m">42 ms</span></div>
+    </div>
+    <div class="top-right">
+      <button class="btn">中 / EN</button>
+      <button class="btn">⌘K 搜索</button>
+      <button class="btn solid">图层</button>
+    </div>
+  </header>
+
+  <main>
+    <aside class="panel-l">
+      <div class="panel-hd">
+        <div>
+          <div class="cap" style="margin-bottom:6px">CURRENT YEAR</div>
+          <div class="year-big"><span class="bc">AD</span>1911</div>
+        </div>
+        <span class="era-chip">近代 MODERN</span>
+      </div>
+      <div class="log">
+        <div class="evt on">
+          <span class="ts">10-10</span>
+          <div><h4>辛亥革命爆发</h4><div class="meta">CHN · WUCHANG · 30.5N 114.3E</div></div>
+          <span class="dot d-pol"></span>
+        </div>
+        <div class="evt">
+          <span class="ts">11-20</span>
+          <div><h4>墨西哥革命开始</h4><div class="meta">MEX · CHIHUAHUA · 28.6N 106.1W</div></div>
+          <span class="dot d-war"></span>
+        </div>
+        <div class="evt">
+          <span class="ts">12-14</span>
+          <div><h4>阿蒙森抵达南极点</h4><div class="meta">ATA · 90.0S</div></div>
+          <span class="dot d-sci"></span>
+        </div>
+        <div class="evt">
+          <span class="ts">05-23</span>
+          <div><h4>纽约公共图书馆落成</h4><div class="meta">USA · NEW YORK · 40.7N 74.0W</div></div>
+          <span class="dot d-pol"></span>
+        </div>
+        <div class="evt">
+          <span class="ts">04-08</span>
+          <div><h4>超导现象首次发现</h4><div class="meta">NLD · LEIDEN · 52.1N 4.5E</div></div>
+          <span class="dot d-sci"></span>
+        </div>
+      </div>
+    </aside>
+
+    <section class="stage">
+      <span class="corner tl"></span><span class="corner tr"></span>
+      <span class="corner bl"></span><span class="corner br"></span>
+      <div class="chipbar">
+        <div class="chip on">STANDARD</div>
+        <div class="chip">SATELLITE</div>
+        <div class="chip">2D</div>
+        <div class="chip">POLITY</div>
+      </div>
+      <div class="globe-wrap">
+        <svg class="globe" viewBox="0 0 600 600" aria-label="地球示意">
+          <defs>
+            <radialGradient id="sph3" cx="35%" cy="28%" r="84%">
+              <stop offset="0%" stop-color="#16303a"/>
+              <stop offset="45%" stop-color="#0b1a24"/>
+              <stop offset="100%" stop-color="#03070d"/>
+            </radialGradient>
+            <clipPath id="cl3"><circle cx="300" cy="300" r="218"/></clipPath>
+          </defs>
+          <circle cx="300" cy="300" r="218" fill="url(#sph3)"/>
+          <g clip-path="url(#cl3)" fill="#12403f" opacity=".72">
+            <path d="M300 152c40-10 80 10 94 46 13 33 3 68-11 103-11 30-16 64-36 94-15 25-36 38-50 28-15-10-10-44-15-80-7-45-15-82-10-120 5-34 10-61 28-71z"/>
+            <path d="M180 174c20-10 34 6 29 31-5 25-20 41-25 72-5 30 5 61 0 90-4 24-18 39-28 29-10-10-4-38-7-69-4-35 5-68 7-99 2-25 10-44 24-54z"/>
+            <path d="M420 376c20-10 42 0 48 20 6 17-8 33-26 31-18-2-29-17-27-33 1-8 3-15 5-18z"/>
+          </g>
+          <g clip-path="url(#cl3)" fill="none" stroke="#1d4a4d" stroke-width="1" opacity=".85">
+            <ellipse cx="300" cy="300" rx="218" ry="59"/>
+            <ellipse cx="300" cy="300" rx="218" ry="119"/>
+            <ellipse cx="300" cy="300" rx="218" ry="178"/>
+            <ellipse cx="300" cy="300" rx="60" ry="218"/>
+            <ellipse cx="300" cy="300" rx="119" ry="218"/>
+            <ellipse cx="300" cy="300" rx="178" ry="218"/>
+            <line x1="82" y1="300" x2="518" y2="300"/>
+            <line x1="300" y1="82" x2="300" y2="518"/>
+          </g>
+          <g clip-path="url(#cl3)">
+            <polygon points="298,192 346,206 368,260 336,298 294,284 280,232" fill="#4fd1c5" opacity=".16" stroke="#4fd1c5" stroke-width="1.4"/>
+            <circle cx="318" cy="242" r="4" fill="#ef6b5a"/>
+            <circle cx="318" cy="242" r="12" fill="none" stroke="#ef6b5a" stroke-width="1" opacity=".45"/>
+            <circle cx="318" cy="242" r="20" fill="none" stroke="#ef6b5a" stroke-width="1" opacity=".18"/>
+            <circle cx="206" cy="254" r="3" fill="#f0a04b"/>
+            <circle cx="414" cy="396" r="3" fill="#f0a04b"/>
+            <circle cx="258" cy="350" r="3" fill="#4fd1c5"/>
+            <circle cx="392" cy="196" r="3" fill="#4fd1c5"/>
+          </g>
+          <circle cx="300" cy="300" r="218" fill="none" stroke="#2a5a5e" stroke-width="1.2"/>
+        </svg>
+      </div>
+      <div class="hud">
+        <div class="big">▎ OBSERVATION 1911.10.10</div>
+        <div class="list">
+          <div>LON <b>114.30 E</b> &nbsp; LAT <b>30.55 N</b></div>
+          <div>ALT <b>12,000 KM</b> &nbsp; TILT <b>0.0°</b></div>
+          <div>POLITY <b>QING DYNASTY</b></div>
+        </div>
+      </div>
+      <div class="coords">
+        GRS80 ELLIPSOID<br>
+        <b>MODE</b> 3D GLOBE &nbsp; <b>SOURCE</b> CLIOPATRIA
+      </div>
+
+      <div class="card">
+        <div class="card-hd">
+          <span class="d"></span>
+          <span class="t">EVENT DETAIL · 1911-10-10</span>
+          <span class="x">✕</span>
+        </div>
+        <div class="card-bd">
+          <h3>辛亥革命爆发</h3>
+          <p>武昌新军起义，各省相继响应。延续两千余年的帝制在数月内瓦解，亚洲第一个共和国自此建立。</p>
+          <div class="kv">
+            <div><div class="k">DATE</div><div class="v">1911.10.10</div></div>
+            <div><div class="k">PLACE</div><div class="v">武昌</div></div>
+            <div><div class="k">TYPE</div><div class="v">政治</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <aside class="panel-r">
+      <div class="sec">
+        <span class="cap">底图 / BASE</span>
+        <div class="base-item on"><span class="th b1"></span>标准地图</div>
+        <div class="base-item"><span class="th b2"></span>卫星影像</div>
+      </div>
+      <div class="sec">
+        <span class="cap">图层 / LAYERS</span>
+        <label class="toggle"><span>历史政区</span><input type="checkbox" checked><i class="sw"></i></label>
+        <label class="toggle"><span>现代国界</span><input type="checkbox" checked><i class="sw"></i></label>
+        <label class="toggle"><span>事件标记</span><input type="checkbox" checked><i class="sw"></i></label>
+        <label class="toggle"><span>人物轨迹</span><input type="checkbox"><i class="sw"></i></label>
+        <label class="toggle"><span>战争进程</span><input type="checkbox"><i class="sw"></i></label>
+      </div>
+      <div class="sec">
+        <span class="cap">性能 / PERFORMANCE</span>
+        <div class="meter">
+          <div class="lbl"><span>RENDER</span><span>16.7 ms</span></div>
+          <div class="bar"><i style="width:58%;background:var(--cyan)"></i></div>
+        </div>
+        <div class="meter" style="margin-top:10px">
+          <div class="lbl"><span>GEOMETRY</span><span>1.2 MB</span></div>
+          <div class="bar"><i style="width:34%;background:var(--amber)"></i></div>
+        </div>
+        <div class="meter" style="margin-top:10px">
+          <div class="lbl"><span>CACHE</span><span>72 %</span></div>
+          <div class="bar"><i style="width:72%;background:var(--cyan)"></i></div>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="timeline">
+    <div class="eras">
+      <div class="era-seg" style="background:#5a4a24;flex:26"></div>
+      <div class="era-seg" style="background:#3c4a5a;flex:10"></div>
+      <div class="era-seg" style="background:#2f5346;flex:10"></div>
+      <div class="era-seg" style="background:#57402a;flex:10"></div>
+      <div class="era-seg" style="background:#34506b;flex:8"></div>
+      <div class="era-seg" style="background:#6b3448;flex:6"></div>
+      <div class="era-seg" style="background:#7a2f26;flex:8"></div>
+    </div>
+    <div class="tl-body">
+      <div class="play">
+        <button>◀◀</button>
+        <button class="main">▶</button>
+        <button>▶▶</button>
+      </div>
+      <div class="scan">
+        <div class="wave">
+          <i style="height:30%"></i><i style="height:55%"></i><i style="height:22%"></i><i style="height:70%"></i>
+          <i style="height:40%"></i><i style="height:85%"></i><i style="height:35%"></i><i style="height:62%"></i>
+          <i style="height:25%"></i><i style="height:78%"></i><i style="height:48%"></i><i style="height:30%"></i>
+          <i style="height:66%"></i><i style="height:38%"></i><i style="height:92%"></i><i style="height:44%"></i>
+          <i style="height:28%"></i><i style="height:58%"></i><i style="height:36%"></i><i style="height:74%"></i>
+          <i style="height:32%"></i><i style="height:50%"></i><i style="height:26%"></i><i style="height:64%"></i>
+          <i style="height:42%"></i><i style="height:88%"></i><i style="height:30%"></i><i style="height:52%"></i>
+        </div>
+        <div class="rail"></div>
+        <div class="fill"></div>
+        <div class="cursor"></div>
+        <div class="ruler"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </div>
+      <div class="readout">
+        <div class="big">1911</div>
+        <div class="sm">STEP 5Y · WINDOW ±20Y</div>
+      </div>
+    </div>
+  </footer>
+</div>
+<div class="note">STYLE C · DEEP FIELD</div>
+</body>
+</html>

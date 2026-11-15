@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日光 02 · 对比账册 Compare Ledger</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+/* ══════════════════════════════════════════════════════════════════════════
+   日光 02 · 对比账册
+   结构：这不是"看一个地方的界面"，而是"并置两个地方的界面"。
+        顶部一把共享的年份尺，中间两栏账册式事件流，中轴是共享的地球视窗，
+        底部是本期对照数。主轴是横向比较，不是浏览。
+   ══════════════════════════════════════════════════════════════════════════ */
+:root{
+  --paper:#f2ede2;
+  --paper-2:#eae3d4;
+  --card:#faf7f0;
+  --ink:#211d1a;
+  --ink-2:#57514a;
+  --ink-3:#948b7d;
+  --rule:#dbd2c0;
+  --rule-2:#c2b7a1;
+  --rust:#a8471f;
+  --olive:#6f7a5a;
+  --indigo:#31456b;
+
+  --serif:'Fraunces','Noto Serif SC',Georgia,serif;
+  --sans:'Inter','Noto Sans SC',system-ui,sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:13px;line-height:1.55;
+  overflow:hidden;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:99;
+  background:radial-gradient(130% 100% at 50% -10%,rgba(255,255,255,.55),transparent 62%)}
+.n{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.cap{font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;font-weight:500;color:var(--ink-3)}
+
+.app{height:100vh;display:grid;grid-template-rows:auto auto 1fr auto}
+
+/* ── head ──────────────────────────────────────────────────────────────── */
+.head{display:flex;align-items:center;gap:20px;padding:14px 28px 12px;border-bottom:1px solid var(--rule-2)}
+.head h1{font-family:var(--serif);font-size:17px;font-weight:600;letter-spacing:.02em}
+.head .tag{font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);border-left:1px solid var(--rule-2);padding-left:12px}
+.pair{margin-left:auto;display:flex;align-items:center;gap:0;border:1px solid var(--rule-2);background:var(--card)}
+.pair span{padding:6px 15px;font-family:var(--serif);font-size:13px;border-right:1px solid var(--rule);
+  cursor:pointer;color:var(--ink-2);white-space:nowrap}
+.pair span:last-child{border-right:0}
+.pair span.on{background:var(--rust);color:#f7f2e8;border-color:var(--rust)}
+.pair i{align-self:center;padding:0 6px;color:var(--ink-3);font-family:var(--serif)}
+.head .act{display:flex;gap:8px;margin-left:14px}
+.head .act button{width:30px;height:30px;border:1px solid var(--rule);background:var(--card);display:grid;place-items:center;color:var(--ink-2)}
+.head .act button:hover{border-color:var(--ink-3);color:var(--ink)}
+.head .act svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:1.4}
+
+/* ── shared year ruler ─────────────────────────────────────────────────── */
+.ruler-band{padding:12px 28px 10px;border-bottom:1px solid var(--rule-2);background:var(--card)}
+.eras{position:relative;height:15px}
+.eras span{position:absolute;font-size:8.5px;letter-spacing:.18em;color:var(--ink-3);
+  border-left:1px solid var(--rule-2);padding-left:5px;line-height:1}
+.eras span.hot{color:var(--rust)}
+.ruler{position:relative;height:46px;margin-top:2px}
+.ruler .rail{position:absolute;left:0;right:0;top:22px;height:1px;background:var(--rule-2)}
+.ruler .done{position:absolute;left:0;top:22px;height:1px;background:var(--ink);width:71%}
+.ruler .dens{position:absolute;left:0;right:0;top:28px;height:14px;display:flex;align-items:flex-end;gap:1px}
+.ruler .dens i{flex:1;background:var(--rule-2);border-radius:.5px}
+.ruler .ticks i{position:absolute;top:22px;width:1px;background:var(--rule-2);transform:translateY(-50%)}
+.ruler .names{position:absolute;left:0;right:0;top:44px;font-family:var(--mono);font-size:8.5px;color:var(--ink-3)}
+.ruler .names span{position:absolute;transform:translateX(-50%);white-space:nowrap}
+.ruler .handle{position:absolute;left:71%;top:22px;transform:translate(-50%,-50%);
+  width:13px;height:13px;border-radius:50%;background:var(--rust);border:2.5px solid var(--card);
+  box-shadow:0 0 0 1px var(--rust)}
+.ruler .flag{position:absolute;left:71%;top:-3px;transform:translateX(-50%);
+  font-family:var(--mono);font-size:10.5px;color:var(--rust);white-space:nowrap}
+.ruler-band .foot{display:flex;align-items:center;gap:18px;margin-top:4px}
+.ruler-band .foot .lock{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--ink-2)}
+.ruler-band .foot .lock .box{width:13px;height:13px;border:1px solid var(--rule-2);background:var(--card);
+  display:grid;place-items:center;font-size:9px;color:var(--rust)}
+.ruler-band .foot .sp{margin-left:auto;font-size:10.5px;color:var(--ink-3);font-family:var(--mono)}
+
+/* ── three-column body ─────────────────────────────────────────────────── */
+.body{display:grid;grid-template-columns:1fr 300px 1fr;min-height:0;gap:0}
+
+.col{display:flex;flex-direction:column;min-height:0}
+.col.left{border-right:1px solid var(--rule)}
+.col.right{border-left:1px solid var(--rule)}
+
+.col-head{padding:16px 22px 12px;border-bottom:1px solid var(--rule-2);display:flex;align-items:baseline;gap:10px}
+.col-head h2{font-family:var(--serif);font-size:19px;font-weight:600}
+.col-head .en{font-family:var(--serif);font-style:italic;font-size:11px;color:var(--ink-3)}
+.col-head .cnt{margin-left:auto;font-family:var(--mono);font-size:10.5px;color:var(--ink-3)}
+
+.stream{overflow:auto;flex:1}
+.ev{display:grid;grid-template-columns:54px 1fr;gap:12px;padding:11px 22px;border-bottom:1px solid var(--rule);
+  cursor:pointer;position:relative;background:transparent}
+.ev:nth-child(even){background:rgba(255,255,255,.5)}
+.ev:hover{background:var(--card)}
+.ev.on{background:var(--card)}
+.ev.on::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--rust)}
+.ev .y{font-family:var(--mono);font-size:10.5px;color:var(--ink-3);padding-top:2px}
+.ev h4{font-family:var(--serif);font-size:13.5px;font-weight:600;line-height:1.4}
+.ev .meta{margin-top:3px;font-size:10.5px;color:var(--ink-3);letter-spacing:.04em}
+.ev .kind{position:absolute;right:20px;top:12px;width:6px;height:6px;border-radius:50%}
+.k-pol{background:var(--indigo)}.k-war{background:var(--rust)}.k-sci{background:var(--olive)}
+
+/* ── centre porthole ───────────────────────────────────────────────────── */
+.centre{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;
+  padding:18px 16px;background:linear-gradient(180deg,var(--paper) 0%,var(--paper-2) 100%)}
+.porthole{position:relative;width:196px;height:196px;border-radius:50%;overflow:hidden;
+  box-shadow:0 18px 40px rgba(70,55,35,.18),inset 0 0 0 1px rgba(255,255,255,.6)}
+.porthole::after{content:"";position:absolute;inset:0;border-radius:50%;border:1px solid rgba(80,65,45,.28)}
+.porthole svg{display:block;width:100%;height:100%}
+.centre .yr{text-align:center;line-height:1}
+.centre .yr .b{font-family:var(--serif);font-size:40px;font-weight:600;letter-spacing:-.01em}
+.centre .yr .s{margin-top:7px;font-size:9.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--ink-3)}
+.centre .divider{width:44px;height:1px;background:var(--rule-2)}
+.centre .pair-note{text-align:center;font-size:11px;color:var(--ink-2);line-height:1.7;max-width:200px}
+.centre .pair-note b{font-family:var(--serif);color:var(--rust)}
+
+/* ── bottom comparison strip ───────────────────────────────────────────── */
+.strip{border-top:1px solid var(--rule-2);background:var(--card);padding:0}
+.strip .title{padding:9px 28px;border-bottom:1px solid var(--rule);display:flex;align-items:center;gap:12px}
+.strip .title .cap{color:var(--ink-2)}
+.strip .title .note{margin-left:auto;font-size:10.5px;color:var(--ink-3);font-family:var(--mono)}
+table{width:100%;border-collapse:collapse}
+th,td{padding:8px 22px;text-align:left;font-size:12.5px;border-bottom:1px solid var(--rule)}
+thead th{font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);font-weight:500;
+  background:var(--paper-2);padding-top:7px;padding-bottom:7px}
+tbody tr:last-child td{border-bottom:0}
+tbody td:first-child{color:var(--ink-3);font-size:11.5px;width:150px}
+td .v{font-family:var(--mono);font-size:13px;font-variant-numeric:tabular-nums}
+td .v.a{color:var(--indigo)}
+td .v.b{color:var(--rust)}
+td .delta{font-size:10px;color:var(--ink-3);margin-left:6px}
+td .bar{display:inline-block;height:5px;border-radius:2.5px;vertical-align:middle;margin-left:8px;opacity:.55}
+.note-fixed{position:fixed;right:12px;bottom:8px;font-family:var(--mono);font-size:9px;color:var(--ink-3);opacity:.7;letter-spacing:.1em;z-index:100}
+</style>
+</head>
+<body>
+<div class="app">
+
+  <header class="head">
+    <h1>寰宇纪年</h1>
+    <span class="tag">横向对比</span>
+    <div class="pair">
+      <span class="on">东亚</span>
+      <i>⟷</i>
+      <span class="on">地中海</span>
+      <i>+</i>
+    </div>
+    <div class="act">
+      <button title="切换为纵向时间对比"><svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="8"/><rect x="4" y="13" width="16" height="8"/></svg></button>
+      <button title="导出对照表"><svg viewBox="0 0 24 24"><path d="M12 15V4"/><path d="m8 8 4-4 4 4"/><path d="M5 15v4h14v-4"/></svg></button>
+      <button title="检索"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="M15.5 15.5 21 21"/></svg></button>
+    </div>
+  </header>
+
+  <section class="ruler-band">
+    <div class="eras">
+      <span style="left:1%">青铜</span><span style="left:24%">铁器</span><span style="left:37%">古典</span>
+      <span style="left:49%">中古</span><span style="left:61%">近世</span>
+      <span class="hot" style="left:71%">近代</span><span style="left:84%">当代</span>
+    </div>
+    <div class="ruler">
+      <div class="rail"></div>
+      <div class="done"></div>
+      <div class="dens">
+        <i style="height:22%"></i><i style="height:34%"></i><i style="height:18%"></i><i style="height:40%"></i>
+        <i style="height:28%"></i><i style="height:36%"></i><i style="height:24%"></i><i style="height:46%"></i>
+        <i style="height:32%"></i><i style="height:20%"></i><i style="height:38%"></i><i style="height:26%"></i>
+        <i style="height:44%"></i><i style="height:30%"></i><i style="height:52%"></i><i style="height:36%"></i>
+        <i style="height:22%"></i><i style="height:48%"></i><i style="height:34%"></i><i style="height:60%"></i>
+        <i style="height:40%"></i><i style="height:28%"></i><i style="height:54%"></i><i style="height:44%"></i>
+        <i style="height:32%"></i><i style="height:66%"></i><i style="height:50%"></i><i style="height:38%"></i>
+        <i style="height:26%"></i><i style="height:44%"></i>
+      </div>
+      <div class="ticks">
+        <i style="left:3%;height:11px"></i><i style="left:12%;height:6px"></i><i style="left:24%;height:11px"></i>
+        <i style="left:37%;height:6px"></i><i style="left:49%;height:11px"></i><i style="left:61%;height:6px"></i>
+        <i style="left:71%;height:11px"></i><i style="left:84%;height:6px"></i><i style="left:93%;height:11px"></i>
+      </div>
+      <div class="names">
+        <span style="left:3%">-3100</span><span style="left:24%">-1046</span><span style="left:49%">581</span>
+        <span style="left:61%">1368</span><span style="left:71%">1840</span><span style="left:93%">1949</span>
+      </div>
+      <div class="flag">1911</div>
+      <div class="handle"></div>
+    </div>
+    <div class="foot">
+      <span class="lock"><span class="box">✓</span>锁定年份，横向切换区域</span>
+      <span class="sp">窗口 ±20 年 · 收录 5236 年</span>
+    </div>
+  </section>
+
+  <div class="body">
+
+    <section class="col left">
+      <div class="col-head">
+        <h2>东亚</h2><span class="en">East Asia</span>
+        <span class="cnt">政权 12 · 事件 7</span>
+      </div>
+      <div class="stream">
+        <div class="ev on">
+          <span class="y">10-10</span>
+          <div><h4>辛亥革命爆发</h4><div class="meta">中国 · 武昌 · 大清国</div></div>
+          <span class="kind k-pol"></span>
+        </div>
+        <div class="ev">
+          <span class="y">05-08</span>
+          <div><h4>清廷成立皇族内阁</h4><div class="meta">中国 · 北京</div></div>
+          <span class="kind k-pol"></span>
+        </div>
+        <div class="ev">
+          <span class="y">07-10</span>
+          <div><h4>日韩合并条约后续镇压</h4><div class="meta">朝鲜 · 汉城</div></div>
+          <span class="kind k-war"></span>
+        </div>
+        <div class="ev">
+          <span class="y">08-30</span>
+          <div><h4>大隈重信内阁成立</h4><div class="meta">日本 · 东京</div></div>
+          <span class="kind k-pol"></span>
+        </div>
+        <div class="ev">
+          <span class="y">10-25</span>
+          <div><h4>京张铁路竣工通车</h4><div class="meta">中国 · 张家口</div></div>
+          <span class="kind k-sci"></span>
+        </div>
+        <div class="ev">
+          <span class="y">12-29</span>
+          <div><h4>十七省代表选举临时大总统</h4><div class="meta">中国 · 南京</div></div>
+          <span class="kind k-pol"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="centre">
+      <div class="porthole">
+        <svg viewBox="0 0 200 200" aria-label="共享地球视窗">
+          <defs>
+            <radialGradient id="sph2" cx="34%" cy="27%" r="80%">
+              <stop offset="0%" stop-color="#fefdfa"/>
+              <stop offset="58%" stop-color="#e6e0d2"/>
+              <stop offset="100%" stop-color="#bdb5a2"/>
+            </radialGradient>
+            <clipPath id="cl2"><circle cx="100" cy="100" r="100"/></clipPath>
+          </defs>
+          <circle cx="100" cy="100" r="100" fill="url(#sph2)"/>
+          <g clip-path="url(#cl2)" fill="#9aa78f" opacity=".62">
+            <path d="M100 34c17-5 34 4 40 20 5 15 1 30-5 45-5 13-7 28-16 41-6 11-15 17-22 12-6-4-4-19-6-35-3-19-6-35-5-52 2-15 5-27 14-31z"/>
+            <path d="M50 46c9-5 15 3 13 14-2 11-9 18-11 32-2 13 2 27 0 40-2 10-8 17-12 12-4-4-2-17-3-30-2-15 2-30 3-44 1-11 4-19 10-24z"/>
+            <path d="M152 130c9-5 18 0 21 9 3 7-4 15-12 14-8-1-13-7-12-14 0-4 1-7 3-9z"/>
+          </g>
+          <g clip-path="url(#cl2)" fill="none" stroke="#9a917f" stroke-width=".6" opacity=".6">
+            <ellipse cx="100" cy="100" rx="100" ry="27"/>
+            <ellipse cx="100" cy="100" rx="100" ry="55"/>
+            <ellipse cx="100" cy="100" rx="100" ry="82"/>
+            <ellipse cx="100" cy="100" rx="27" ry="100"/>
+            <ellipse cx="100" cy="100" rx="55" ry="100"/>
+            <ellipse cx="100" cy="100" rx="82" ry="100"/>
+          </g>
+          <g clip-path="url(#cl2)">
+            <polygon points="99,72 121,79 131,103 116,120 96,113 89,90" fill="#31456b" opacity=".16" stroke="#31456b" stroke-width="1.1"/>
+            <polygon points="46,58 60,62 66,76 56,88 42,84 37,70" fill="#a8471f" opacity=".15" stroke="#a8471f" stroke-width="1.1"/>
+            <circle cx="109" cy="96" r="3.4" fill="#a8471f"/>
+            <circle cx="53" cy="73" r="3" fill="#31456b"/>
+          </g>
+          <circle cx="100" cy="100" r="99.5" fill="none" stroke="rgba(80,65,45,.3)" stroke-width="1"/>
+        </svg>
+      </div>
+      <div class="yr">
+        <div class="b">1911</div>
+        <div class="s">同 一 时 刻</div>
+      </div>
+      <div class="divider"></div>
+      <p class="pair-note">
+        两地相隔 <b>约 8,400 km</b><br>
+        东亚正处于王朝更替的断点，<br>地中海沿岸则处在殖民扩张的尾声。
+      </p>
+    </section>
+
+    <section class="col right">
+      <div class="col-head">
+        <h2>地中海</h2><span class="en">Mediterranean</span>
+        <span class="cnt">政权 21 · 事件 5</span>
+      </div>
+      <div class="stream">
+        <div class="ev">
+          <span class="y">07-01</span>
+          <div><h4>第二次摩洛哥危机</h4><div class="meta">摩洛哥 · 阿加迪尔</div></div>
+          <span class="kind k-pol"></span>
+        </div>
+        <div class="ev">
+          <span class="y">09-29</span>
+          <div><h4>意土战争爆发</h4><div class="meta">利比亚 · 的黎波里</div></div>
+          <span class="kind k-war"></span>
+        </div>
+        <div class="ev">
+          <span class="y">03-14</span>
+          <div><h4>巴尔干同盟秘密磋商</h4><div class="meta">塞尔维亚 · 贝尔格莱德</div></div>
+          <span class="kind k-pol"></span>
+        </div>
+        <div class="ev">
+          <span class="y">11-04</span>
+          <div><h4>法德摩洛哥协定签订</h4><div class="meta">法国 · 巴黎</div></div>
+          <span class="kind k-pol"></span>
+        </div>
+        <div class="ev">
+          <span class="y">06-18</span>
+          <div><h4>威尼斯双年展设立</h4><div class="meta">意大利 · 威尼斯</div></div>
+          <span class="kind k-sci"></span>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="strip">
+    <div class="title">
+      <span class="cap">1911 年 · 对照数</span>
+      <span class="note">数据来源：Cliopatria · 本项目整理</span>
+    </div>
+    <table>
+      <thead>
+        <tr><th>指标</th><th>东亚</th><th>地中海</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>政治实体数</td>
+          <td><span class="v a">12</span><span class="bar" style="width:58px;background:#31456b"></span></td>
+          <td><span class="v b">21</span><span class="bar" style="width:92px;background:#a8471f"></span><span class="delta">+9</span></td>
+        </tr>
+        <tr>
+          <td>当年事件数</td>
+          <td><span class="v a">7</span><span class="bar" style="width:70px;background:#31456b"></span></td>
+          <td><span class="v b">5</span><span class="bar" style="width:50px;background:#a8471f"></span><span class="delta">-2</span></td>
+        </tr>
+        <tr>
+          <td>政权更替</td>
+          <td><span class="v a">2 起</span><span class="delta">清 · 中华民国</span></td>
+          <td><span class="v b">0 起</span><span class="delta">边界调整为主</span></td>
+        </tr>
+        <tr>
+          <td>冲突事件占比</td>
+          <td><span class="v a">29%</span></td>
+          <td><span class="v b">40%</span><span class="delta">殖民战争</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</div>
+<div class="note-fixed">DAYLIGHT 02 · COMPARE LEDGER</div>
+</body>
+</html>

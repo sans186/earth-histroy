@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日光 03 · 编年长卷 Chronicle Scroll</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+/* ══════════════════════════════════════════════════════════════════════════
+   日光 03 · 编年长卷
+   结构：主界面不是"地球 + 控制面板"，而是一卷横向展开的编年。
+        上方拱窗是地球视窗（时间的插图），下方长卷是主角——
+        每一年占一列，事件作为刻痕落在年份列里，中央有一道固定的读经线。
+        移动时间＝横向滚动长卷，而不是拖一根滑块。
+   ══════════════════════════════════════════════════════════════════════════ */
+:root{
+  --paper:#eef0ef;
+  --paper-2:#e5e8e6;
+  --card:#f7f9f8;
+  --ink:#15262a;
+  --ink-2:#4e5f61;
+  --ink-3:#8b9a99;
+  --rule:#d3d8d5;
+  --rule-2:#b6bfbb;
+  --teal:#1d3a3f;
+  --vermilion:#b4472a;
+  --moss:#7b8d80;
+
+  --serif:'Fraunces','Noto Serif SC',Georgia,serif;
+  --sans:'Inter','Noto Sans SC',system-ui,sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:13px;line-height:1.55;
+  overflow:hidden;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:99;
+  background:radial-gradient(120% 80% at 50% -5%,rgba(255,255,255,.6),transparent 60%)}
+.n{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.cap{font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;font-weight:500;color:var(--ink-3)}
+
+.app{height:100vh;display:grid;grid-template-rows:44px 1fr auto}
+
+/* ── running head ──────────────────────────────────────────────────────── */
+.head{display:flex;align-items:center;gap:18px;padding:0 26px;border-bottom:1px solid var(--rule)}
+.head h1{font-family:var(--serif);font-size:14.5px;font-weight:600;letter-spacing:.04em}
+.head .sep{width:1px;height:14px;background:var(--rule-2)}
+.head .path{font-family:var(--mono);font-size:10px;color:var(--ink-3);letter-spacing:.1em}
+.head .sp{margin-left:auto;display:flex;align-items:center;gap:16px}
+.head .sp a{font-size:11.5px;color:var(--ink-2);letter-spacing:.08em}
+.head .sp a.on{color:var(--vermilion)}
+.iconbtn{width:28px;height:28px;display:grid;place-items:center;color:var(--ink-2);border:1px solid var(--rule)}
+.iconbtn:hover{border-color:var(--rule-2);color:var(--ink)}
+.iconbtn svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:1.4}
+
+/* ── arch window with the globe ────────────────────────────────────────── */
+.stage{position:relative;display:grid;place-items:center;overflow:hidden;padding:18px 0 0}
+.stage .watermark{
+  position:absolute;left:50%;bottom:-34px;transform:translateX(-50%);
+  font-family:var(--serif);font-weight:700;font-size:210px;line-height:.75;
+  letter-spacing:-.04em;color:var(--teal);opacity:.05;user-select:none;pointer-events:none;
+}
+.arch{
+  position:relative;width:min(52vh,46vw);height:min(52vh,46vw);
+  border-radius:50% 50% 4px 4px / 46% 46% 4px 4px;
+  overflow:hidden;background:linear-gradient(180deg,#f6f8f7 0%,#dfe4e2 68%,#cdd4d1 100%);
+  box-shadow:0 26px 54px rgba(30,50,50,.16),inset 0 0 0 1px rgba(255,255,255,.7);
+}
+.arch::after{content:"";position:absolute;inset:0;border-radius:50% 50% 4px 4px / 46% 46% 4px 4px;
+  border:1px solid rgba(29,58,63,.22);pointer-events:none}
+.arch .horizon{position:absolute;left:0;right:0;top:64%;height:1px;background:rgba(29,58,63,.14)}
+.arch svg{position:absolute;left:50%;top:52%;transform:translate(-50%,-50%);width:86%;height:86%}
+.arch .plate{
+  position:absolute;left:0;right:0;bottom:0;padding:7px 14px;display:flex;align-items:center;gap:10px;
+  background:linear-gradient(180deg,transparent,rgba(240,243,242,.92) 42%);
+  border-top:1px solid rgba(29,58,63,.12);
+}
+.arch .plate .no{font-family:var(--serif);font-size:10px;letter-spacing:.18em;color:var(--vermilion)}
+.arch .plate .ti{font-family:var(--serif);font-size:11.5px}
+.arch .plate .sc{margin-left:auto;font-family:var(--mono);font-size:9px;color:var(--ink-3)}
+
+/* side apparatus */
+.aside-v{
+  position:absolute;left:30px;top:50%;transform:translateY(-50%);
+  writing-mode:vertical-rl;font-family:var(--serif);font-size:13px;letter-spacing:.44em;color:var(--ink-2);
+}
+.aside-v b{color:var(--vermilion);font-weight:400}
+.aside-r{position:absolute;right:30px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:14px;text-align:right}
+.aside-r .row{display:flex;flex-direction:column;gap:2px;align-items:flex-end}
+.aside-r .row .v{font-family:var(--mono);font-size:12px;color:var(--ink-2)}
+.aside-r .row .k{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)}
+
+.issues{position:absolute;left:50%;bottom:14px;transform:translateX(-50%);display:flex;gap:0;
+  border:1px solid var(--rule-2);background:rgba(247,249,248,.9)}
+.issues div{padding:6px 14px;font-size:11px;color:var(--ink-2);border-right:1px solid var(--rule);white-space:nowrap}
+.issues div:last-child{border-right:0}
+.issues div.on{background:var(--teal);color:#eef0ef}
+
+/* ── the chronicle ─────────────────────────────────────────────────────── */
+.chronicle{border-top:1px solid var(--rule-2);background:var(--card);position:relative}
+.chronicle-head{display:flex;align-items:center;gap:14px;padding:8px 26px;border-bottom:1px solid var(--rule)}
+.chronicle-head .cap{color:var(--ink-2)}
+.chronicle-head .hint{margin-left:auto;font-family:var(--mono);font-size:9.5px;color:var(--ink-3)}
+
+.strip{position:relative;padding:0 26px 14px}
+.era-track{position:relative;height:20px;margin:0 -26px;padding:0 26px}
+.era-track span{position:absolute;top:6px;font-size:9px;letter-spacing:.2em;color:var(--ink-3);
+  border-left:1px solid var(--rule-2);padding-left:6px;line-height:1}
+.era-track span.hot{color:var(--vermilion)}
+
+/* the scrolling band */
+.band{position:relative;height:132px;overflow:hidden;margin:0 -26px;padding:0 26px}
+.band-rail{position:absolute;left:0;right:0;top:40px;height:1px;background:var(--rule-2)}
+.years{display:flex;position:relative;height:100%}
+.yr{width:66px;flex:none;position:relative;border-left:1px solid var(--rule);padding-top:0}
+.yr:first-child{border-left:0}
+.yr .num{
+  position:absolute;left:0;right:0;top:6px;text-align:center;
+  font-family:var(--mono);font-size:10px;color:var(--ink-3);
+}
+.yr .marks{position:absolute;left:0;right:0;top:22px;height:22px;
+  display:flex;flex-direction:column;align-items:center;gap:2px}
+.yr .marks i{display:block;height:3px;border-radius:1.5px}
+.yr .evs{position:absolute;left:6px;right:6px;top:48px;display:flex;flex-direction:column;gap:4px}
+.yr .ev{font-size:9.5px;line-height:1.35;color:var(--ink-2);
+  overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.yr .ev::before{content:"▪ ";color:var(--rule-2)}
+.yr.on{background:rgba(29,58,63,.05)}
+.yr.on .num{color:var(--vermilion);font-weight:500}
+.yr.on .ev{color:var(--ink)}
+.yr.on::before{content:"";position:absolute;left:-1px;top:0;bottom:0;width:1px;background:var(--vermilion)}
+
+/* fixed reading line */
+.readline{position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--vermilion);z-index:3}
+.readline::before{content:"";position:absolute;top:-1px;left:-4px;width:9px;height:9px;background:var(--vermilion)}
+.readline::after{
+  content:"读 经 线";position:absolute;bottom:6px;left:8px;font-size:8.5px;letter-spacing:.24em;
+  color:var(--vermilion);white-space:nowrap;
+}
+.chronicle-foot{display:flex;align-items:center;gap:16px;padding:0 26px 12px}
+.ctrl{display:flex;border:1px solid var(--rule-2);background:var(--card)}
+.ctrl button{width:32px;height:32px;display:grid;place-items:center;border-right:1px solid var(--rule);
+  color:var(--ink-2);font-family:var(--mono);font-size:11px}
+.ctrl button:last-child{border-right:0}
+.ctrl button:hover{background:var(--paper-2);color:var(--ink)}
+.ctrl button.main{background:var(--teal);color:#eef0ef}
+.chronicle-foot .read{display:flex;align-items:baseline;gap:10px}
+.chronicle-foot .read .y{font-family:var(--serif);font-size:26px;font-weight:600}
+.chronicle-foot .read .e{font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)}
+.chronicle-foot .right{margin-left:auto;display:flex;gap:22px;align-items:center}
+.chronicle-foot .stat{display:flex;flex-direction:column;gap:1px;align-items:flex-end}
+.chronicle-foot .stat .k{font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3)}
+.chronicle-foot .stat .v{font-family:var(--mono);font-size:12px;color:var(--ink-2)}
+.note-fixed{position:fixed;right:12px;bottom:6px;font-family:var(--mono);font-size:9px;color:var(--ink-3);opacity:.7;letter-spacing:.1em;z-index:100}
+</style>
+</head>
+<body>
+<div class="app">
+
+  <header class="head">
+    <h1>寰宇纪年</h1>
+    <span class="sep"></span>
+    <span class="path">/ 编年 / 近代 / 1911</span>
+    <div class="sp">
+      <a href="#" class="on">长卷</a>
+      <a href="#">对照</a>
+      <a href="#">人物</a>
+      <a href="#">战争</a>
+      <button class="iconbtn" title="检索"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="M15.5 15.5 21 21"/></svg></button>
+      <button class="iconbtn" title="设置"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1"/></svg></button>
+    </div>
+  </header>
+
+  <section class="stage">
+    <div class="watermark">1911</div>
+
+    <span class="aside-v">近 代 · M O D E R N</span>
+
+    <div class="arch">
+      <div class="horizon"></div>
+      <svg viewBox="0 0 400 400" aria-label="地球视窗">
+        <defs>
+          <radialGradient id="sph3" cx="34%" cy="26%" r="80%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="55%" stop-color="#e7ebe9"/>
+            <stop offset="100%" stop-color="#c0c9c6"/>
+          </radialGradient>
+          <clipPath id="cl3"><circle cx="200" cy="200" r="152"/></clipPath>
+        </defs>
+        <circle cx="200" cy="200" r="152" fill="url(#sph3)"/>
+        <g clip-path="url(#cl3)" fill="#94a69b" opacity=".62">
+          <path d="M200 96c27-7 55 6 65 32 9 23 2 47-8 71-7 21-11 45-25 65-10 17-24 27-34 20-10-7-7-31-10-55-5-31-10-57-7-83 4-24 7-43 19-50z"/>
+          <path d="M112 110c14-7 24 4 20 21-4 17-14 28-17 50-4 21 3 42 0 62-3 16-12 27-19 20-7-7-3-27-5-48-3-24 3-47 5-68 1-17 7-30 16-37z"/>
+          <path d="M278 256c14-7 29 0 33 14 4 12-5 23-18 21-13-1-20-11-19-22 1-6 2-11 4-13z"/>
+        </g>
+        <g clip-path="url(#cl3)" fill="none" stroke="#9aa8a2" stroke-width=".7" opacity=".6">
+          <ellipse cx="200" cy="200" rx="152" ry="41"/>
+          <ellipse cx="200" cy="200" rx="152" ry="83"/>
+          <ellipse cx="200" cy="200" rx="152" ry="124"/>
+          <ellipse cx="200" cy="200" rx="41" ry="152"/>
+          <ellipse cx="200" cy="200" rx="83" ry="152"/>
+          <ellipse cx="200" cy="200" rx="124" ry="152"/>
+          <line x1="48" y1="200" x2="352" y2="200"/>
+          <line x1="200" y1="48" x2="200" y2="352"/>
+        </g>
+        <g clip-path="url(#cl3)">
+          <polygon points="198,128 232,138 246,174 224,202 194,192 184,156" fill="#1d3a3f" opacity=".16" stroke="#1d3a3f" stroke-width="1.2"/>
+          <circle cx="214" cy="164" r="3.6" fill="#b4472a"/>
+          <circle cx="214" cy="164" r="8.5" fill="none" stroke="#b4472a" stroke-width="1" opacity=".5"/>
+          <circle cx="136" cy="172" r="2.6" fill="#1d3a3f"/>
+          <circle cx="278" cy="272" r="2.6" fill="#1d3a3f"/>
+          <circle cx="172" cy="238" r="2.6" fill="#7b8d80"/>
+          <circle cx="262" cy="132" r="2.6" fill="#7b8d80"/>
+        </g>
+        <circle cx="200" cy="200" r="152" fill="none" stroke="#8b9a99" stroke-width="1"/>
+      </svg>
+      <div class="plate">
+        <span class="no">PL. 03</span>
+        <span class="ti">东亚 · 宣统三年</span>
+        <span class="sc">2,000 km · 等距圆柱</span>
+      </div>
+    </div>
+
+    <div class="aside-r">
+      <div class="row"><span class="k">政权</span><span class="v">12</span></div>
+      <div class="row"><span class="k">事件</span><span class="v">7</span></div>
+      <div class="row"><span class="k">有坐标</span><span class="v">5</span></div>
+      <div class="row"><span class="k">可信度</span><span class="v">高 3 · 中 4</span></div>
+    </div>
+
+    <div class="issues">
+      <div class="on">政治</div><div class="on">军事</div><div class="on">经济</div>
+      <div class="on">文化</div><div class="on">科技</div><div>人物</div><div>战争</div>
+    </div>
+  </section>
+
+  <section class="chronicle">
+    <div class="chronicle-head">
+      <span class="cap">编 年 长 卷</span>
+      <span class="hint">横向滚动移动时间 · 读经线为当前年份</span>
+    </div>
+
+    <div class="strip">
+      <div class="era-track">
+        <span style="left:1%">青铜</span><span style="left:23%">铁器</span><span style="left:35%">古典</span>
+        <span style="left:47%">中古</span><span style="left:58%">近世</span>
+        <span class="hot" style="left:69%">近代</span><span style="left:83%">当代</span>
+      </div>
+
+      <div class="band">
+        <div class="band-rail"></div>
+        <div class="years">
+          <div class="yr"><span class="num">1903</span><div class="marks"><i style="width:4px;background:#1d3a3f"></i></div><div class="evs"><span class="ev">莱特兄弟首飞</span></div></div>
+          <div class="yr"><span class="num">1904</span><div class="marks"><i style="width:9px;background:#b4472a"></i></div><div class="evs"><span class="ev">日俄战争爆发</span></div></div>
+          <div class="yr"><span class="num">1905</span><div class="marks"><i style="width:12px;background:#1d3a3f"></i></div><div class="evs"><span class="ev">同盟会成立</span><span class="ev">爱因斯坦奇迹年</span></div></div>
+          <div class="yr"><span class="num">1906</span><div class="marks"><i style="width:5px;background:#7b8d80"></i></div><div class="evs"><span class="ev">清末新政预备立宪</span></div></div>
+          <div class="yr"><span class="num">1907</span><div class="marks"><i style="width:7px;background:#1d3a3f"></i></div><div class="evs"><span class="ev">英俄协约签订</span></div></div>
+          <div class="yr"><span class="num">1908</span><div class="marks"><i style="width:6px;background:#1d3a3f"></i></div><div class="evs"><span class="ev">光绪与慈禧相继去世</span></div></div>
+          <div class="yr"><span class="num">1909</span><div class="marks"><i style="width:4px;background:#7b8d80"></i></div><div class="evs"><span class="ev">京张铁路动工</span></div></div>
+          <div class="yr"><span class="num">1910</span><div class="marks"><i style="width:8px;background:#b4472a"></i></div><div class="evs"><span class="ev">日韩合并</span></div></div>
+          <div class="yr on"><span class="num">1911</span>
+            <div class="marks">
+              <i style="width:13px;background:#b4472a"></i>
+              <i style="width:8px;background:#1d3a3f"></i>
+            </div>
+            <div class="evs"><span class="ev">辛亥革命爆发</span><span class="ev">墨西哥革命</span><span class="ev">阿蒙森抵南极点</span></div>
+          </div>
+          <div class="yr"><span class="num">1912</span><div class="marks"><i style="width:11px;background:#1d3a3f"></i></div><div class="evs"><span class="ev">中华民国成立</span><span class="ev">泰坦尼克号沉没</span></div></div>
+          <div class="yr"><span class="num">1913</span><div class="marks"><i style="width:6px;background:#b4472a"></i></div><div class="evs"><span class="ev">第二次巴尔干战争</span></div></div>
+          <div class="yr"><span class="num">1914</span><div class="marks"><i style="width:15px;background:#b4472a"></i></div><div class="evs"><span class="ev">第一次世界大战爆发</span></div></div>
+          <div class="yr"><span class="num">1915</span><div class="marks"><i style="width:7px;background:#b4472a"></i></div><div class="evs"><span class="ev">日本提出二十一条</span></div></div>
+          <div class="yr"><span class="num">1916</span><div class="marks"><i style="width:9px;background:#b4472a"></i></div><div class="evs"><span class="ev">凡尔登战役</span></div></div>
+          <div class="yr"><span class="num">1917</span><div class="marks"><i style="width:12px;background:#1d3a3f"></i></div><div class="evs"><span class="ev">俄国十月革命</span></div></div>
+          <div class="yr"><span class="num">1918</span><div class="marks"><i style="width:10px;background:#b4472a"></i></div><div class="evs"><span class="ev">一战结束</span><span class="ev">大流感蔓延</span></div></div>
+          <div class="yr"><span class="num">1919</span><div class="marks"><i style="width:9px;background:#1d3a3f"></i></div><div class="evs"><span class="ev">五四运动</span><span class="ev">巴黎和会</span></div></div>
+          <div class="yr"><span class="num">1920</span><div class="marks"><i style="width:5px;background:#1d3a3f"></i></div><div class="evs"><span class="ev">国际联盟成立</span></div></div>
+          <div class="yr"><span class="num">1921</span><div class="marks"><i style="width:6px;background:#1d3a3f"></i></div><div class="evs"><span class="ev">中共一大召开</span></div></div>
+        </div>
+        <div class="readline"></div>
+      </div>
+    </div>
+
+    <div class="chronicle-foot">
+      <div class="ctrl">
+        <button title="后退十年">«</button>
+        <button title="后退一年">‹</button>
+        <button class="main" title="播放">▶</button>
+        <button title="前进一年">›</button>
+        <button title="前进十年">»</button>
+      </div>
+      <div class="read">
+        <span class="y">1911</span>
+        <span class="e">近代 · 宣统三年 · 辛亥</span>
+      </div>
+      <div class="right">
+        <div class="stat"><span class="k">本卷跨度</span><span class="v">1903 – 1921</span></div>
+        <div class="stat"><span class="k">本卷事件</span><span class="v">31</span></div>
+        <div class="stat"><span class="k">缩放</span><span class="v">1 年 / 66 px</span></div>
+      </div>
+    </div>
+  </section>
+</div>
+<div class="note-fixed">DAYLIGHT 03 · CHRONICLE SCROLL</div>
+</body>
+</html>

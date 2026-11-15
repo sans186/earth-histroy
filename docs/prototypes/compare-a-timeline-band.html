@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>对照原型 A · 时间带</title>
+<style>
+  :root{
+    --paper:#f7f5f0; --paper-2:#efece4; --card:#fdfcf9;
+    --ink:#1a1c20; --ink-2:#4c4f56; --ink-3:#8d8c86; --ink-4:#b0aa9c;
+    --rule:#ded8cb; --rule-2:#c9c2b3;
+    --rust:#b0522d; --indigo:#26406b; --olive:#5f8a63; --ochre:#9a7434; --teal:#3f7d7d; --violet:#6b4a7a;
+    --political:#26406b; --military:#b0522d; --economic:#5f8a63; --cultural:#9a7434;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font:15px/1.6 "Inter","Noto Sans SC",system-ui,-apple-system,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .serif{font-family:"Fraunces","Noto Serif SC","Songti SC",Georgia,serif}
+  .mono{font-family:"IBM Plex Mono",ui-monospace,Consolas,monospace;font-variant-numeric:tabular-nums}
+
+  /* ── 顶栏 ───────────────────────────────────────────── */
+  header{
+    display:flex;align-items:flex-end;gap:22px;flex-wrap:wrap;
+    padding:20px 26px 16px;border-bottom:1px solid var(--rule-2);
+    background:linear-gradient(180deg,var(--card),var(--paper));
+  }
+  .kicker{font-size:11.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3)}
+  h1{margin:2px 0 0;font-size:28px;font-weight:600;letter-spacing:.01em}
+  h1 small{font-size:13px;font-weight:400;color:var(--ink-3);letter-spacing:.06em;margin-left:10px}
+  .ctrl{margin-left:auto;display:flex;align-items:center;gap:8px;font-size:13px;color:var(--ink-2)}
+  .ctrl input{
+    width:74px;padding:6px 8px;border:1px solid var(--rule-2);background:var(--card);
+    font:inherit;font-size:13.5px;color:var(--ink);text-align:center;
+    font-family:"IBM Plex Mono",monospace;
+  }
+  .ctrl input:focus{outline:2px solid var(--indigo);outline-offset:1px}
+  .ctrl .dash{color:var(--ink-4)}
+
+  /* ── 主体 ───────────────────────────────────────────── */
+  main{padding:18px 26px 26px;max-width:1360px;margin:0 auto}
+  .cast{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:14px}
+  .cast .who{display:flex;align-items:baseline;gap:8px}
+  .cast b{font-size:19px;font-weight:600}
+  .cast span{font-size:12.5px;color:var(--ink-3)}
+  .cast .vs{color:var(--ink-4);font-size:12px;letter-spacing:.2em}
+
+  .band{
+    position:relative;height:320px;margin-top:6px;
+    border:1px solid var(--rule);background:var(--card);
+    box-shadow:0 1px 0 rgba(0,0,0,.03);
+  }
+  .lane-label{
+    position:absolute;left:10px;font-size:11px;letter-spacing:.18em;
+    text-transform:uppercase;color:var(--ink-4);z-index:3;
+  }
+  .axis{
+    position:absolute;left:0;right:0;top:50%;height:1px;background:var(--rule-2);
+  }
+  .tick{position:absolute;top:0;bottom:0;width:1px;background:var(--rule)}
+  .tick span{
+    position:absolute;top:50%;transform:translateY(9px);
+    font-size:11px;color:var(--ink-4);padding-left:4px;
+    font-family:"IBM Plex Mono",monospace;
+  }
+  .tick.major{background:var(--rule-2)}
+  .tick.major span{color:var(--ink-3)}
+
+  .mark{
+    position:absolute;transform:translate(-50%,-50%);
+    display:flex;align-items:center;cursor:pointer;z-index:2;
+  }
+  .mark .dot{
+    width:9px;height:9px;flex:none;border:1.5px solid var(--card);
+    box-shadow:0 0 0 1px rgba(26,28,32,.18);
+    transition:transform .12s ease;
+  }
+  .mark:hover .dot{transform:scale(1.5)}
+  .mark .txt{
+    position:absolute;left:13px;font-size:12.5px;color:var(--ink-2);white-space:nowrap;
+    max-width:172px;overflow:hidden;text-overflow:ellipsis;
+    background:color-mix(in srgb, var(--card) 86%, transparent);
+    padding:1px 5px;pointer-events:none;
+  }
+  .mark.flip .txt{left:auto;right:13px;text-align:right}
+  .mark:hover .txt{color:var(--ink);background:var(--card);z-index:4}
+  .tie{
+    position:absolute;top:0;bottom:0;width:1px;
+    background:repeating-linear-gradient(180deg,var(--ochre) 0 4px,transparent 4px 8px);
+    opacity:.7;z-index:1;
+  }
+  .tie span{
+    position:absolute;left:50%;top:6px;transform:translateX(-50%);
+    background:var(--card);color:var(--ochre);font-size:10.5px;letter-spacing:.08em;
+    white-space:nowrap;padding:1px 4px;border:1px solid color-mix(in srgb,var(--ochre) 40%,transparent);
+  }
+
+  /* ── 底部统计 ──────────────────────────────────────── */
+  .stats{margin-top:18px;display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rule)}
+  .stat{background:var(--card);padding:12px 14px}
+  .stat .lab{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-4)}
+  .stat .val{display:flex;align-items:baseline;gap:10px;margin-top:5px}
+  .stat b{font-size:24px;font-weight:600;font-variant-numeric:tabular-nums}
+  .stat i{font-size:12.5px;font-style:normal;color:var(--ink-3)}
+  .stat .pair{display:flex;align-items:center;gap:7px;margin-top:6px;font-size:12.5px;color:var(--ink-3)}
+  .stat .swatch{width:8px;height:8px}
+  .legend{display:flex;gap:16px;flex-wrap:wrap;margin-top:14px;font-size:12.5px;color:var(--ink-3)}
+  .legend i{display:inline-block;width:8px;height:8px;margin-right:6px}
+
+  footer{max-width:1360px;margin:0 auto;padding:0 26px 30px;font-size:12.5px;color:var(--ink-4);line-height:1.7}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <div class="kicker">原型 A · Timeline band</div>
+    <h1 class="serif">时间带<small>同一条年代轴上，看两边各自在做什么</small></h1>
+  </div>
+  <div class="ctrl">
+    <label for="from">区间</label>
+    <input id="from" class="mono" value="1790" inputmode="numeric">
+    <span class="dash">—</span>
+    <input id="to" class="mono" value="1900" inputmode="numeric">
+  </div>
+</header>
+
+<main>
+  <div class="cast">
+    <div class="who"><b class="serif" id="nameA">清朝</b><span>1636–1912 · 东亚</span></div>
+    <span class="vs">对照</span>
+    <div class="who"><b class="serif" id="nameB">大英帝国</b><span>1707–1997 · 欧洲</span></div>
+  </div>
+
+  <div class="band" id="band">
+    <div class="lane-label" style="top:12px">A · 清朝</div>
+    <div class="lane-label" style="bottom:12px">B · 大英帝国</div>
+    <div class="axis" id="axis"></div>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="legend">
+    <span><i style="background:var(--political)"></i>政治</span>
+    <span><i style="background:var(--military)"></i>军事</span>
+    <span><i style="background:var(--economic)"></i>经济</span>
+    <span><i style="background:var(--cultural)"></i>文化</span>
+    <span><i style="background:var(--ochre);opacity:.7"></i>竖虚线＝同年两侧都有事件（同期）</span>
+  </div>
+</main>
+
+<footer>
+  原型说明：横轴为区间内年份，A 的事件落在轴上方、B 在轴下方；同一年两边都有条目时连一条竖虚线。
+  鼠标悬停任一标记显示标题。此文件为静态原型，数据为示例，用于判断版式与信息密度。
+</footer>
+
+<script>
+const CAT = { political:'政治', military:'军事', economic:'经济', cultural:'文化' };
+const DATA = {
+  A: [
+    { y:1793, t:'马戛尔尼使团抵华', c:'political' },
+    { y:1839, t:'虎门销烟', c:'political' },
+    { y:1840, t:'鸦片战争爆发', c:'military' },
+    { y:1842, t:'南京条约签订', c:'political' },
+    { y:1851, t:'太平天国起事', c:'military' },
+    { y:1856, t:'第二次鸦片战争', c:'military' },
+    { y:1861, t:'洋务运动起步', c:'economic' },
+    { y:1864, t:'太平天国败亡', c:'military' },
+    { y:1894, t:'甲午战争', c:'military' },
+    { y:1898, t:'戊戌变法', c:'political' }
+  ],
+  B: [
+    { y:1801, t:'联合王国成立', c:'political' },
+    { y:1815, t:'滑铁卢战役', c:'military' },
+    { y:1833, t:'废除奴隶制法案', c:'political' },
+    { y:1837, t:'维多利亚登基', c:'political' },
+    { y:1851, t:'万国工业博览会', c:'economic' },
+    { y:1857, t:'印度民族起义', c:'military' },
+    { y:1867, t:'加拿大自治领成立', c:'political' },
+    { y:1884, t:'费边社成立', c:'cultural' },
+    { y:1899, t:'第二次布尔战争', c:'military' }
+  ]
+};
+
+const band = document.getElementById('band');
+const axis = document.getElementById('axis');
+const statsEl = document.getElementById('stats');
+const fromEl = document.getElementById('from');
+const toEl = document.getElementById('to');
+
+function inRange(e, a, b){ return e.y >= a && e.y <= b; }
+
+function render(){
+  let a = Number(fromEl.value) || 1790;
+  let b = Number(toEl.value) || 1900;
+  if (b <= a) { b = a + 10; toEl.value = b; }
+
+  const span = b - a;
+  const pos = (y) => ((y - a) / span) * 100;
+  const sideA = DATA.A.filter(e => inRange(e, a, b));
+  const sideB = DATA.B.filter(e => inRange(e, a, b));
+
+  band.querySelectorAll('.tick, .mark, .tie').forEach(n => n.remove());
+
+  // 刻度：区间超过 80 年用 25 年一格，否则 10 年一格
+  const step = span > 80 ? 25 : 10;
+  const first = Math.ceil(a / step) * step;
+  for (let y = first; y <= b; y += step) {
+    const major = y % (step * 2) === 0;
+    const tick = document.createElement('div');
+    tick.className = 'tick' + (major ? ' major' : '');
+    tick.style.left = pos(y) + '%';
+    tick.innerHTML = '<span>' + y + '</span>';
+    band.appendChild(tick);
+  }
+
+  // 上下各三条 lane；同一 lane 内相邻标记至少间隔 7% 才允许复用，否则换道。
+  const UP = [30, 18, 7];
+  const DOWN = [70, 82, 93];
+  const laneState = { A: [undefined, undefined, undefined], B: [undefined, undefined, undefined] };
+
+  function laneFor(side, x){
+    const arr = laneState[side];
+    for (let i = 0; i < arr.length; i += 1) {
+      if (arr[i] === undefined || x - arr[i] > 10) { arr[i] = x; return i; }
+    }
+    let pick = 0;
+    for (let i = 1; i < arr.length; i += 1) if (arr[i] < arr[pick]) pick = i;
+    arr[pick] = x;
+    return pick;
+  }
+
+  function place(side, list, dir){
+    list.slice().sort((p, q) => p.y - q.y).forEach((e) => {
+      const x = pos(e.y);
+      const lane = laneFor(side, x);
+      const mark = document.createElement('div');
+      mark.className = 'mark' + (side === 'A' ? ' up' : ' down') + (x > 76 ? ' flip' : '');
+      mark.style.left = x + '%';
+      mark.style.top = (side === 'A' ? UP[lane] : DOWN[lane]) + '%';
+      mark.innerHTML =
+        '<i class="dot" style="background:var(--' + e.c + ')"></i>' +
+        '<span class="txt">' + e.t + '</span>';
+      band.appendChild(mark);
+    });
+  }
+  place('A', sideA, 'up');
+  place('B', sideB, 'down');
+
+  // 同期连线
+  const yearsA = new Set(sideA.map(e => e.y));
+  const ties = new Set(sideB.filter(e => yearsA.has(e.y)).map(e => e.y));
+  ties.forEach((y) => {
+    const tie = document.createElement('div');
+    tie.className = 'tie';
+    tie.style.left = pos(y) + '%';
+    tie.innerHTML = '<span>同期</span>';
+    band.appendChild(tie);
+  });
+
+  // 统计
+  const count = (list, cat) => list.filter(e => e.c === cat).length;
+  const card = (lab, valA, valB, extra) => {
+    const total = valA + valB;
+    return '<div class="stat"><div class="lab">' + lab + '</div>' +
+      '<div class="val"><b>' + total + '</b><i>' + (extra || '') + '</i></div>' +
+      '<div class="pair"><span class="swatch" style="background:var(--indigo)"></span>A ' + valA +
+      ' <span class="swatch" style="background:var(--rust);margin-left:8px"></span>B ' + valB + '</div></div>';
+  };
+  statsEl.innerHTML =
+    card('收录条目', sideA.length, sideB.length, '共 ' + (sideA.length + sideB.length) + ' 条') +
+    card('军事', count(sideA,'military'), count(sideB,'military'), '冲突密度') +
+    card('政治', count(sideA,'political'), count(sideB,'political'), '制度变动') +
+    '<div class="stat"><div class="lab">同期年份</div><div class="val"><b>' + ties.size +
+      '</b><i>年两侧均有事件</i></div><div class="pair">区间跨度 ' + span + ' 年</div></div>';
+}
+
+let timer = null;
+function debounce(){ clearTimeout(timer); timer = setTimeout(render, 220); }
+fromEl.addEventListener('input', debounce);
+toEl.addEventListener('input', debounce);
+render();
+</script>
+</body>
+</html>

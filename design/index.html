@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>寰宇纪年 · 前端风格样稿对比</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&family=Noto+Sans+SC:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fbfaf7; --card:#ffffff; --line:#e6e2d9; --line-2:#cfc9bc;
+  --ink:#16181c; --ink-2:#5a5e66; --ink-3:#93958f;
+  --serif:'Fraunces','Noto Serif SC',Georgia,serif;
+  --sans:'Inter','Noto Sans SC',system-ui,sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.6;
+  -webkit-font-smoothing:antialiased;padding:0 0 80px}
+.wrap{max-width:1240px;margin:0 auto;padding:0 32px}
+.lbl{font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3)}
+
+header{padding:72px 0 40px;border-bottom:1px solid var(--line)}
+header h1{font-family:var(--serif);font-size:44px;font-weight:600;letter-spacing:-.01em;line-height:1.15}
+header .en{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-3);margin-top:8px}
+header .lead{margin-top:26px;max-width:760px;color:var(--ink-2);font-size:14.5px;line-height:1.9}
+header .meta{margin-top:30px;display:flex;gap:34px;flex-wrap:wrap}
+header .meta div b{display:block;font-family:var(--mono);font-size:20px;font-weight:500;margin-top:5px}
+
+.warn{margin:44px 0 0;border:1px solid var(--line-2);background:#fff;padding:20px 24px;
+  display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:start}
+.warn .n{font-family:var(--serif);font-size:30px;line-height:1;color:#b4552b;font-weight:600}
+.warn p{font-size:13.5px;color:var(--ink-2);line-height:1.85}
+.warn p b{color:var(--ink)}
+
+h2.sect{font-family:var(--serif);font-size:24px;font-weight:600;margin:64px 0 6px}
+h2.sect + .sub{color:var(--ink-3);font-size:13px;margin-bottom:26px}
+
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:26px}
+.card{background:var(--card);border:1px solid var(--line);display:flex;flex-direction:column;
+  transition:.2s;text-decoration:none;color:inherit}
+.card:hover{border-color:var(--ink);box-shadow:0 18px 40px rgba(20,20,20,.09);transform:translateY(-2px)}
+
+.card .prev{height:172px;position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+.card .prev .bar{position:absolute;left:0;right:0;top:0;height:26px;display:flex;align-items:center;
+  gap:7px;padding:0 12px;border-bottom:1px solid rgba(255,255,255,.09)}
+.card .prev .bar i{width:6px;height:6px;border-radius:50%}
+.card .prev .bar span{font-family:var(--mono);font-size:9px;letter-spacing:.16em;opacity:.6}
+.card .prev .gl{position:absolute;right:-24px;top:40px;width:150px;height:150px;border-radius:50%}
+.card .prev .txt{position:absolute;left:14px;bottom:16px;right:150px}
+.card .prev .txt .t{font-size:15px;font-weight:600;line-height:1.35}
+.card .prev .txt .s{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;opacity:.55;margin-top:6px}
+.card .prev .chip{position:absolute;right:14px;bottom:16px;font-size:9.5px;letter-spacing:.14em;
+  text-transform:uppercase;padding:3px 8px;border:1px solid currentColor;opacity:.75}
+
+/* A */
+.pa{background:#0e0e0d;color:#e9e6df}
+.pa .gl{background:radial-gradient(circle at 34% 30%,#2a3436,#0b0e0f 70%);border:1px solid #3b4a4e}
+.pa .x{color:#cf4a2b}
+/* B */
+.pb{background:#161311;color:#e6ddcd}
+.pb .gl{background:radial-gradient(circle at 36% 30%,#4a4034,#0d0a08 70%);border:1px solid #6a5c4a}
+.pb .x{color:#b8362a}
+/* C */
+.pc{background:#060a11;color:#d7e4ee}
+.pc .gl{background:radial-gradient(circle at 35% 28%,#16303a,#03070d 72%);border:1px solid #2a5a5e;
+  box-shadow:0 0 44px rgba(79,209,197,.22)}
+.pc .x{color:#4fd1c5}
+/* D */
+.pd{background:#f4f1ea;color:#15171b}
+.pd .gl{background:radial-gradient(circle at 34% 28%,#fdfcf8,#b9b2a1 78%);border:1px solid #8b8c84}
+.pd .x{color:#1b3a6b}
+
+.card .body{padding:22px 24px 24px;display:flex;flex-direction:column;gap:16px;flex:1}
+.card .head{display:flex;align-items:baseline;gap:12px}
+.card .head .code{font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--ink-3)}
+.card .head h3{font-family:var(--serif);font-size:20px;font-weight:600}
+.card .desc{color:var(--ink-2);font-size:13px;line-height:1.8}
+.swatches{display:flex;gap:0;border:1px solid var(--line)}
+.swatches i{flex:1;height:30px}
+.rows{display:flex;flex-direction:column;gap:8px;border-top:1px solid var(--line);padding-top:14px}
+.rows .r{display:grid;grid-template-columns:74px 1fr;gap:12px;font-size:12.5px}
+.rows .r dt{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);padding-top:3px}
+.rows .r dd{color:var(--ink-2)}
+.open{margin-top:auto;display:flex;align-items:center;justify-content:space-between;
+  padding-top:16px;border-top:1px solid var(--line)}
+.open .go{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+.open .arrow{font-size:15px;transition:.2s}
+.card:hover .open .arrow{transform:translateX(4px)}
+
+table{width:100%;border-collapse:collapse;margin-top:22px;font-size:13px;background:#fff;border:1px solid var(--line)}
+th,td{text-align:left;padding:13px 18px;border-bottom:1px solid var(--line)}
+th{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);
+  font-weight:500;background:#f7f5f0}
+td:first-child{font-weight:500}
+tr:last-child td{border-bottom:0}
+.yes{color:#2f6b3f} .no{color:#a1402c}
+footer{margin-top:70px;padding-top:26px;border-top:1px solid var(--line);color:var(--ink-3);font-size:12.5px}
+@media(max-width:900px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="lbl">Earth Historical Timeline · Front-end Direction</div>
+    <h1>寰宇纪年 前端风格样稿</h1>
+    <div class="en">Four directions for a 3D globe of human history</div>
+    <p class="lead">
+      四套方向基于同一套页面结构绘制：顶部导航 / 左侧事件编年 / 中央地球 / 右侧图层控制 / 底部时间轴 / 事件详情卡。
+      结构与配色分离，便于横向比较。四套均针对"长时间沉浸浏览历史时空数据"这一使用场景设计，而非通用后台模板。
+    </p>
+    <div class="meta">
+      <div><span class="lbl">Directions</span><b>4</b></div>
+      <div><span class="lbl">Screens</span><b>App Shell</b></div>
+      <div><span class="lbl">Accent</span><b>单色强调</b></div>
+      <div><span class="lbl">Radius</span><b>0 – 6 px</b></div>
+    </div>
+  </header>
+
+  <div class="warn">
+    <div class="n">!</div>
+    <p>
+      <b>已废弃的旧风格：</b>项目原有三套主题（蓝紫科技感、暖色古典羊皮纸、水墨中国）已确认全部淘汰，不作为参考。
+      新方向刻意规避了常见 AI 生成界面的特征：<b>不使用紫色渐变、不使用全屏玻璃拟态、不使用霓虹发光、不使用渐变大标题、不使用圆角卡片堆叠</b>。
+      强调色一律收敛为单色，靠版式与字重建立层级，而非靠光效。
+    </p>
+  </div>
+
+  <h2 class="sect">四套方向</h2>
+  <div class="sub">点击任意卡片打开完整页面（1440 × 900 全屏效果）</div>
+
+  <div class="grid">
+    <a class="card" href="a-atlas-noir.html">
+      <div class="prev pa x">
+        <div class="bar"><i style="background:#cf4a2b"></i><span>ATLAS NOIR</span></div>
+        <div class="gl"></div>
+        <div class="txt"><div class="t">辛亥革命爆发</div><div class="s">1911 · 武昌 · 政治</div></div>
+        <span class="chip">VIEW</span>
+      </div>
+      <div class="body">
+        <div class="head"><span class="code">A</span><h3>墨黑图册</h3></div>
+        <p class="desc">印刷图册的冷峻感。直角、发丝级 1px 线框、衬线标题配等宽数字，砖红作唯一强调色。没有圆角与阴影，靠留白与细线划分层级。</p>
+        <div class="swatches">
+          <i style="background:#0e0e0d"></i><i style="background:#151514"></i><i style="background:#2b2b27"></i>
+          <i style="background:#e9e6df"></i><i style="background:#cf4a2b"></i><i style="background:#c9a227"></i>
+        </div>
+        <dl class="rows">
+          <div class="r"><dt>字体</dt><dd>Fraunces 衬线 + Inter + IBM Plex Mono</dd></div>
+          <div class="r"><dt>气质</dt><dd>克制的学术感、印刷品质感</dd></div>
+          <div class="r"><dt>适配</dt><dd>桌面优先，长时间阅读不疲劳</dd></div>
+        </dl>
+        <div class="open"><span class="go">打开样稿</span><span class="arrow">→</span></div>
+      </div>
+    </a>
+
+    <a class="card" href="b-vermilion-archive.html">
+      <div class="prev pb x">
+        <div class="bar"><i style="background:#b8362a"></i><span>VERMILION ARCHIVE</span></div>
+        <div class="gl"></div>
+        <div class="txt"><div class="t">辛亥革命爆发</div><div class="s">辛亥 · 武昌 · 十月</div></div>
+        <span class="chip">VIEW</span>
+      </div>
+      <div class="body">
+        <div class="head"><span class="code">B</span><h3>朱砂卷宗</h3></div>
+        <p class="desc">东方档案与博物馆展陈的仪式感。暖墨底配宣纸质文字，宋体标题、竖排分类标签、印章式年份与干支纪年。朱砂仅用于"当前"与"强调"。</p>
+        <div class="swatches">
+          <i style="background:#161311"></i><i style="background:#241f1b"></i><i style="background:#e6ddcd"></i>
+          <i style="background:#b8362a"></i><i style="background:#a8873f"></i><i style="background:#8d857a"></i>
+        </div>
+        <dl class="rows">
+          <div class="r"><dt>字体</dt><dd>思源宋体 + Noto Sans SC + Cormorant</dd></div>
+          <div class="r"><dt>气质</dt><dd>庄重、叙事性强、文化辨识度高</dd></div>
+          <div class="r"><dt>适配</dt><dd>中文史地内容契合度最高</dd></div>
+        </dl>
+        <div class="open"><span class="go">打开样稿</span><span class="arrow">→</span></div>
+      </div>
+    </a>
+
+    <a class="card" href="c-deep-field.html">
+      <div class="prev pc x">
+        <div class="bar"><i style="background:#4fd1c5"></i><span>DEEP FIELD</span></div>
+        <div class="gl"></div>
+        <div class="txt"><div class="t">辛亥革命爆发</div><div class="s">10-10 · 30.5N 114.3E</div></div>
+        <span class="chip">VIEW</span>
+      </div>
+      <div class="body">
+        <div class="head"><span class="code">C</span><h3>深空观测</h3></div>
+        <p class="desc">天文台与飞行仪表的仪器感。深空蓝黑底、等宽字体主导、顶部状态读数栏、实时性能仪表。事件按经纬度日志格式列出，强调"观测"这一动作。</p>
+        <div class="swatches">
+          <i style="background:#060a11"></i><i style="background:#0a1018"></i><i style="background:#16212c"></i>
+          <i style="background:#d7e4ee"></i><i style="background:#4fd1c5"></i><i style="background:#f0a04b"></i>
+        </div>
+        <dl class="rows">
+          <div class="r"><dt>字体</dt><dd>IBM Plex Mono + Space Grotesk</dd></div>
+          <div class="r"><dt>气质</dt><dd>专业、精密、数据驱动</dd></div>
+          <div class="r"><dt>适配</dt><dd>暗光环境、大屏与二次开发面板</dd></div>
+        </dl>
+        <div class="open"><span class="go">打开样稿</span><span class="arrow">→</span></div>
+      </div>
+    </a>
+
+    <a class="card" href="d-daylight-atlas.html">
+      <div class="prev pd x">
+        <div class="bar"><i style="background:#1b3a6b"></i><span>DAYLIGHT ATLAS</span></div>
+        <div class="gl"></div>
+        <div class="txt"><div class="t">辛亥革命爆发</div><div class="s">FIG.01 · 1911 · MODERN</div></div>
+        <span class="chip">VIEW</span>
+      </div>
+      <div class="body">
+        <div class="head"><span class="code">D</span><h3>日光图册</h3></div>
+        <p class="desc">浅色版本，模拟纸质地图集与学术期刊内页。纸白底、深靛强调、图表编号与比例尺、首字下沉的图注式详情卡。适合白天与投影演示。</p>
+        <div class="swatches">
+          <i style="background:#f4f1ea"></i><i style="background:#eae5db"></i><i style="background:#d5cec1"></i>
+          <i style="background:#15171b"></i><i style="background:#1b3a6b"></i><i style="background:#b4552b"></i>
+        </div>
+        <dl class="rows">
+          <div class="r"><dt>字体</dt><dd>Fraunces + Inter + IBM Plex Mono</dd></div>
+          <div class="r"><dt>气质</dt><dd>出版物质感、明亮、易截图引用</dd></div>
+          <div class="r"><dt>适配</dt><dd>教学演示、论文配图、日间使用</dd></div>
+        </dl>
+        <div class="open"><span class="go">打开样稿</span><span class="arrow">→</span></div>
+      </div>
+    </a>
+  </div>
+
+  <h2 class="sect">横向对比</h2>
+  <div class="sub">用于快速判断取舍</div>
+  <table>
+    <thead>
+      <tr><th>维度</th><th>A · 墨黑图册</th><th>B · 朱砂卷宗</th><th>C · 深空观测</th><th>D · 日光图册</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>明暗</td><td>深色</td><td>深色</td><td>深色</td><td class="yes">浅色</td></tr>
+      <tr><td>视觉主角</td><td>版式与细线</td><td>文字与留白</td><td>数据与读数</td><td>地球与图注</td></tr>
+      <tr><td>中式文化感</td><td>弱</td><td class="yes">强</td><td>弱</td><td>中</td></tr>
+      <tr><td>科技数据感</td><td>中</td><td>弱</td><td class="yes">强</td><td>中</td></tr>
+      <tr><td>长时间浏览</td><td class="yes">优</td><td class="yes">优</td><td>良</td><td>良（白天）</td></tr>
+      <tr><td>截图可引用性</td><td>中</td><td>中</td><td>中</td><td class="yes">强</td></tr>
+      <tr><td>实现成本</td><td>低</td><td>中</td><td>中</td><td>低</td></tr>
+      <tr><td>主要风险</td><td>偏冷、易显单调</td><td>宋体在小字号下清晰度</td><td>信息密度过高</td><td>地球对比度需调</td></tr>
+    </tbody>
+  </table>
+
+  <footer>
+    样稿仅用于风格方向确认，不含真实数据与三维渲染，地球为 SVG 示意。<br>
+    确认方向后进入设计规范与组件库阶段，再接入 CesiumJS 与 Vue 3。
+  </footer>
+</div>
+</body>
+</html>

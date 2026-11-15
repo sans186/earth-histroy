@@ -1,5 +1,11 @@
 /**
- * Generate war profiles for the names declared in war_list.txt.
+ * Generate war profiles for the wars declared in a name list.
+ *
+ * The list is `war_list.txt` at the repo root when present (pass
+ * `--war-list <path>` to point at another one), otherwise the names in
+ * `public/wars/profiles/index.json`. The root list is no longer in the repo:
+ * an index-derived list cannot reveal a war that has no profile yet, so adding
+ * a new war requires an explicit list file.
  *
  * Replaces two earlier scripts
  * ---------------------------
@@ -64,6 +70,7 @@ const DRY_RUN = has('--dry-run');
 const REBUILD_ONLY = has('--rebuild-index');
 const BACKFILL_LOCATIONS = has('--backfill-locations');
 const ONLY = valueOf('--only');
+const WAR_LIST_OVERRIDE = valueOf('--war-list');
 const LIMIT = Number(valueOf('--limit') ?? Number.POSITIVE_INFINITY);
 
 /* ── credentials (never hard-coded) ──────────────────────────────────────── */
@@ -141,7 +148,9 @@ if (!API_POOL.length && !REBUILD_ONLY) {
 
 const PROFILES_DIR = resolve(ROOT, 'public', 'wars', 'profiles');
 const INDEX_PATH = resolve(PROFILES_DIR, 'index.json');
-const WAR_LIST_PATH = resolve(ROOT, 'war_list.txt');
+const WAR_LIST_PATH = WAR_LIST_OVERRIDE
+  ? resolve(ROOT, WAR_LIST_OVERRIDE)
+  : resolve(ROOT, 'war_list.txt');
 const NON_PROFILE = new Set(['index.json', 'war_locations.json']);
 
 mkdirSync(PROFILES_DIR, { recursive: true });
@@ -174,10 +183,33 @@ for (const [method, bound] of [
 /* ── coverage ────────────────────────────────────────────────────────────── */
 
 function declaredNames() {
-  return readFileSync(WAR_LIST_PATH, 'utf8')
-    .split(/\r?\n/)
-    .map((s) => s.trim())
+  if (existsSync(WAR_LIST_PATH)) {
+    return readFileSync(WAR_LIST_PATH, 'utf8')
+      .split(/\r?\n/)
+      .map((s) => s.trim())
+      .filter(Boolean);
+  }
+
+  // The root list was removed from the repository. Falling back to the index
+  // keeps --rebuild-index / --backfill-locations / --dry-run usable without
+  // resurrecting a file that only ever described wars that already exist.
+  if (!existsSync(INDEX_PATH)) {
+    throw new Error(
+      `No declared war list: ${WAR_LIST_PATH} and ${INDEX_PATH} are both missing. ` +
+        'Pass --war-list <path> with one war name per line.',
+    );
+  }
+  const names = JSON.parse(readFileSync(INDEX_PATH, 'utf8'))
+    .map((war) => (typeof war?.name === 'string' ? war.name.trim() : ''))
     .filter(Boolean);
+  if (!names.length) {
+    throw new Error(`Declared war list is empty (${INDEX_PATH}); pass --war-list <path>.`);
+  }
+  return names;
+}
+
+function declaredSource() {
+  return existsSync(WAR_LIST_PATH) ? WAR_LIST_PATH : `${INDEX_PATH} (index fallback)`;
 }
 
 function existingProfiles() {
@@ -581,7 +613,10 @@ async function main() {
   if (ONLY) missing = missing.filter((name) => name === ONLY);
   if (missing.length > LIMIT) missing = missing.slice(0, LIMIT);
 
-  console.log(`\nwar_list.txt 声明 ${declared.length} 个，已有档案 ${profiles.length} 个`);
+  console.log(`\n声明清单（${declaredSource()}）${declared.length} 个，已有档案 ${profiles.length} 个`);
+  if (!existsSync(WAR_LIST_PATH)) {
+    console.log('清单来自 index.json：只能发现档案缺失，无法发现尚未建档的战争；补新战争请用 --war-list <名单文件>。');
+  }
   console.log(`待生成 ${missing.length} 个：${missing.join('、') || '（无）'}\n`);
 
   if (!missing.length) {

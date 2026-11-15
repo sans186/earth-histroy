@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>对照原型 C · 台账</title>
+<style>
+  :root{
+    --paper:#f7f5f0; --paper-2:#efece4; --card:#fdfcf9;
+    --ink:#1a1c20; --ink-2:#4c4f56; --ink-3:#8d8c86; --ink-4:#b0aa9c;
+    --rule:#ded8cb; --rule-2:#c9c2b3;
+    --rust:#b0522d; --indigo:#26406b; --ochre:#9a7434;
+    --political:#26406b; --military:#b0522d; --economic:#5f8a63; --cultural:#9a7434;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font:15px/1.6 "Inter","Noto Sans SC",system-ui,-apple-system,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .serif{font-family:"Fraunces","Noto Serif SC","Songti SC",Georgia,serif}
+  .mono{font-family:"IBM Plex Mono",ui-monospace,Consolas,monospace;font-variant-numeric:tabular-nums}
+
+  /* ── 工具栏 ─────────────────────────────────────────── */
+  .toolbar{
+    position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--paper) 94%,transparent);
+    backdrop-filter:blur(6px);border-bottom:1px solid var(--rule-2);
+    padding:13px 24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;
+  }
+  .toolbar .title{display:flex;flex-direction:column;gap:1px;margin-right:6px}
+  .toolbar .title b{font-size:19px;font-weight:600;letter-spacing:.02em}
+  .toolbar .title span{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)}
+  .field{display:flex;align-items:center;gap:7px;font-size:12.5px;color:var(--ink-3)}
+  .field input{
+    width:70px;padding:5px 7px;border:1px solid var(--rule-2);background:var(--card);
+    font:inherit;font-family:"IBM Plex Mono",monospace;font-size:13px;text-align:center;color:var(--ink);
+  }
+  select{
+    padding:5px 7px;border:1px solid var(--rule-2);background:var(--card);
+    font:inherit;font-size:13px;color:var(--ink);
+  }
+  .seg{display:flex;border:1px solid var(--rule-2);background:var(--card)}
+  .seg button{
+    border:0;background:transparent;font:inherit;font-size:12.5px;color:var(--ink-2);
+    padding:5px 11px;cursor:pointer;border-right:1px solid var(--rule);
+  }
+  .seg button:last-child{border-right:none}
+  .seg button.on{background:var(--ink);color:var(--card)}
+  .spacer{flex:1}
+
+  /* ── 表体 ───────────────────────────────────────────── */
+  .wrap{max-width:1280px;margin:0 auto;padding:16px 24px 96px}
+  .thead, .row{
+    display:grid;grid-template-columns:88px 1fr 92px 1fr;align-items:stretch;
+  }
+  .thead{
+    position:sticky;top:60px;z-index:9;background:var(--paper);
+    border-bottom:1px solid var(--ink-3);font-size:11px;letter-spacing:.18em;
+    text-transform:uppercase;color:var(--ink-3);
+  }
+  .thead > div{padding:8px 12px}
+  .thead .mid{text-align:center}
+  .row{border-bottom:1px solid var(--rule);cursor:pointer}
+  .row:hover{background:color-mix(in srgb,var(--card) 70%,transparent)}
+  .row > .yr{
+    padding:13px 12px;font-family:"IBM Plex Mono",monospace;font-size:13px;
+    color:var(--ink-2);border-right:1px solid var(--rule);
+  }
+  .cell{padding:11px 12px}
+  .cell.mid{
+    display:flex;align-items:center;justify-content:center;
+    border-left:1px solid var(--rule);border-right:1px solid var(--rule);
+  }
+  .cell.empty::before{
+    content:"—";color:var(--ink-4);font-size:13px;
+  }
+  .ev{display:flex;gap:8px;align-items:baseline;padding:2px 0}
+  .ev i{width:7px;height:7px;flex:none;transform:translateY(-2px)}
+  .ev .t{font-size:14.5px;line-height:1.45}
+  .ev .c{font-size:10.5px;letter-spacing:.1em;color:var(--ink-4);margin-left:auto;flex:none}
+  .badge{
+    font-size:10.5px;letter-spacing:.12em;padding:2px 7px;border:1px solid var(--rule-2);
+    color:var(--ink-3);white-space:nowrap;
+  }
+  .badge.tie{color:var(--ochre);border-color:color-mix(in srgb,var(--ochre) 45%,transparent)}
+  .badge.a{color:var(--indigo);border-color:color-mix(in srgb,var(--indigo) 30%,transparent)}
+  .badge.b{color:var(--rust);border-color:color-mix(in srgb,var(--rust) 30%,transparent)}
+  .detail{
+    grid-column:1 / -1;padding:0 12px 14px 100px;font-size:13.5px;line-height:1.75;color:var(--ink-2);
+    display:none;
+  }
+  .row.open{background:var(--card)}
+  .row.open .detail{display:block}
+  .row.open .yr{color:var(--ink)}
+
+  /* ── 汇总条 ─────────────────────────────────────────── */
+  .footbar{
+    position:fixed;left:0;right:0;bottom:0;z-index:11;
+    background:var(--card);border-top:1px solid var(--ink-3);
+    box-shadow:0 -8px 24px rgba(26,28,32,.06);
+  }
+  .footbar .inner{
+    max-width:1280px;margin:0 auto;padding:9px 24px;display:flex;gap:26px;flex-wrap:wrap;align-items:center;
+  }
+  .sum{display:flex;align-items:baseline;gap:7px}
+  .sum .k{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-4)}
+  .sum .v{font-size:16px;font-weight:600;font-variant-numeric:tabular-nums}
+  .sum .v small{font-size:11.5px;font-weight:400;color:var(--ink-3);margin-left:3px}
+  .footbar .hint{margin-left:auto;font-size:11.5px;color:var(--ink-4)}
+  .swatch{width:8px;height:8px;display:inline-block;margin-right:4px}
+</style>
+</head>
+<body>
+<div class="toolbar">
+  <div class="title"><b class="serif">对照台账</b><span>原型 C · Ledger</span></div>
+
+  <div class="field">
+    <select id="whoA">
+      <option value="qing">A · 清朝</option>
+      <option value="britain">A · 大英帝国</option>
+    </select>
+  </div>
+  <div class="field">
+    <select id="whoB">
+      <option value="britain">B · 大英帝国</option>
+      <option value="qing">B · 清朝</option>
+    </select>
+  </div>
+
+  <div class="field"><label for="from">区间</label>
+    <input id="from" class="mono" value="1790" inputmode="numeric">
+    <span>—</span>
+    <input id="to" class="mono" value="1900" inputmode="numeric">
+  </div>
+
+  <div class="seg" id="filter">
+    <button data-f="all" class="on">全部</button>
+    <button data-f="tie">仅同期</button>
+    <button data-f="a">仅 A 独有</button>
+    <button data-f="b">仅 B 独有</button>
+  </div>
+
+  <div class="spacer"></div>
+  <div class="field">
+    <select id="sort">
+      <option value="asc">年代升序</option>
+      <option value="desc">年代降序</option>
+    </select>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="thead">
+    <div>年代</div>
+    <div id="headA"><span class="swatch" style="background:var(--indigo)"></span>A · 清朝</div>
+    <div class="mid">判定</div>
+    <div id="headB"><span class="swatch" style="background:var(--rust)"></span>B · 大英帝国</div>
+  </div>
+  <div id="rows"></div>
+</div>
+
+<div class="footbar">
+  <div class="inner" id="sum"></div>
+</div>
+
+<script>
+const CAT = { political:'政治', military:'军事', economic:'经济', cultural:'文化' };
+const SIDES = {
+  qing: {
+    name:'清朝', span:'1636–1912',
+    items:[
+      { y:1793, t:'马戛尔尼使团抵华', c:'political', d:'礼仪之争让通商请求全部落空，双方对彼此的位置判断从此错位。' },
+      { y:1839, t:'虎门销烟', c:'political', d:'林则徐在虎门海滩当众销毁鸦片两万余箱，成为随后冲突的直接导火索。' },
+      { y:1840, t:'鸦片战争爆发', c:'military', d:'英舰北上定海、直逼天津，沿海防务无法应对蒸汽舰队的机动。' },
+      { y:1842, t:'南京条约签订', c:'political', d:'割让香港岛、开放五口、赔款两千一百万银元，条约体系由此开始。' },
+      { y:1851, t:'太平天国起事', c:'military', d:'金田起义后两年内席卷长江中下游，常备军与财政同时被拖入长期消耗。' },
+      { y:1856, t:'第二次鸦片战争', c:'military', d:'亚罗号事件与马神甫事件后英法联军北上，圆明园于 1860 年被焚。' },
+      { y:1861, t:'洋务运动起步', c:'economic', d:'总理衙门设立，江南制造总局、福州船政局相继开办，以官办工业回应军事失利。' },
+      { y:1894, t:'甲午战争', c:'military', d:'黄海海战与威海卫之役后北洋水师覆没，洋务三十年的成果在一年内被重新估价。' },
+      { y:1898, t:'戊戌变法', c:'political', d:'百日之内诏令频出，触及科举、官制与军制，九月即被中止。' }
+    ]
+  },
+  britain: {
+    name:'大英帝国', span:'1707–1997',
+    items:[
+      { y:1801, t:'联合王国成立', c:'political', d:'英格兰与爱尔兰合并，议会席位重组，帝国的人力与市场底盘进一步扩大。' },
+      { y:1815, t:'滑铁卢战役', c:'military', d:'拿破仑战争终结，英国取得海上与殖民优势，随后进入近四十年的工业扩张期。' },
+      { y:1833, t:'废除奴隶制法案', c:'political', d:'帝国境内奴隶制被立法废除，政府以两千万英镑补偿奴隶主。' },
+      { y:1837, t:'维多利亚登基', c:'political', d:'在位六十三年，帝国扩张、铁路铺设与城市人口膨胀都在这一时期完成。' },
+      { y:1851, t:'万国工业博览会', c:'economic', d:'水晶宫展出各国机器与制品，英国以"世界工场"的身份自居。' },
+      { y:1857, t:'印度民族起义', c:'military', d:'兵变蔓延至北印度，事后东印度公司被撤销，印度改由王室直接统治。' },
+      { y:1867, t:'加拿大自治领成立', c:'political', d:'联邦制在白人殖民地先行落地，成为后来自治领体系的模板。' },
+      { y:1884, t:'费边社成立', c:'cultural', d:'一批知识分子主张以渐进方式改良社会，其观点后来成为工党的思想来源之一。' },
+      { y:1899, t:'第二次布尔战争', c:'military', d:'游击战与集中营政策引发国内舆论反弹，帝国扩张的道德叙事第一次受到质疑。' }
+    ]
+  }
+};
+
+const rowsEl = document.getElementById('rows');
+const sumEl = document.getElementById('sum');
+const fromEl = document.getElementById('from');
+const toEl = document.getElementById('to');
+const sortEl = document.getElementById('sort');
+const whoA = document.getElementById('whoA');
+const whoB = document.getElementById('whoB');
+let filter = 'all';
+
+function inRange(e, a, b){ return e.y >= a && e.y <= b; }
+
+function render(){
+  const a = Number(fromEl.value) || 1790;
+  const b = Number(toEl.value) || 1900;
+  const A = SIDES[whoA.value], B = SIDES[whoB.value];
+
+  document.getElementById('headA').innerHTML = '<span class="swatch" style="background:var(--indigo)"></span>A · ' + A.name;
+  document.getElementById('headB').innerHTML = '<span class="swatch" style="background:var(--rust)"></span>B · ' + B.name;
+
+  const listA = A.items.filter(e => inRange(e, a, b));
+  const listB = B.items.filter(e => inRange(e, a, b));
+
+  // 以年份为并集，同年合并成一行
+  const years = [...new Set([...listA.map(e => e.y), ...listB.map(e => e.y)])]
+    .sort((x, y) => sortEl.value === 'desc' ? y - x : x - y);
+
+  const rows = years.map((y) => {
+    const ea = listA.filter(e => e.y === y);
+    const eb = listB.filter(e => e.y === y);
+    const kind = ea.length && eb.length ? 'tie' : (ea.length ? 'a' : 'b');
+    return { y, ea, eb, kind };
+  }).filter((r) => filter === 'all' || r.kind === filter);
+
+  rowsEl.innerHTML = rows.map((r) => {
+    const cell = (list) => list.length
+      ? list.map(e => '<div class="ev"><i style="background:var(--' + e.c + ')"></i>' +
+          '<span class="t">' + e.t + '</span><span class="c">' + CAT[e.c] + '</span></div>').join('')
+      : '';
+    const detail = [...r.ea, ...r.eb]
+      .map(e => '<div><b>' + e.t + '</b>　' + e.d + '</div>').join('');
+    const label = r.kind === 'tie' ? '同期' : (r.kind === 'a' ? 'A 独有' : 'B 独有');
+    return '<div class="row" data-y="' + r.y + '">' +
+      '<div class="yr">' + r.y + '</div>' +
+      '<div class="cell' + (r.ea.length ? '' : ' empty') + '">' + cell(r.ea) + '</div>' +
+      '<div class="cell mid"><span class="badge ' + r.kind + '">' + label + '</span></div>' +
+      '<div class="cell' + (r.eb.length ? '' : ' empty') + '">' + cell(r.eb) + '</div>' +
+      '<div class="detail">' + detail + '</div>' +
+    '</div>';
+  }).join('') || '<div style="padding:40px 12px;color:var(--ink-3)">该区间与该筛选下没有条目。</div>';
+
+  rowsEl.querySelectorAll('.row').forEach((row) => {
+    row.addEventListener('click', () => row.classList.toggle('open'));
+  });
+
+  const tieCount = years.filter(y => listA.some(e => e.y === y) && listB.some(e => e.y === y)).length;
+  const cat = (l, c) => l.filter(e => e.c === c).length;
+  const sum = (k, v, unit) => '<div class="sum"><span class="k">' + k + '</span><span class="v">' + v +
+    (unit ? '<small>' + unit + '</small>' : '') + '</span></div>';
+  sumEl.innerHTML =
+    sum('条目', listA.length + listB.length, '条') +
+    sum(A.name, listA.length, '') +
+    sum(B.name, listB.length, '') +
+    sum('同期', tieCount, '年') +
+    sum('军事', cat(listA,'military') + cat(listB,'military'), '') +
+    sum('政治', cat(listA,'political') + cat(listB,'political'), '') +
+    sum('经济', cat(listA,'economic') + cat(listB,'economic'), '') +
+    sum('文化', cat(listA,'cultural') + cat(listB,'cultural'), '') +
+    '<span class="hint">点击任一行展开该条目的记述　·　区间 ' + a + '–' + b + '</span>';
+}
+
+document.getElementById('filter').addEventListener('click', (ev) => {
+  const btn = ev.target.closest('button');
+  if (!btn) return;
+  filter = btn.dataset.f;
+  [...document.querySelectorAll('#filter button')].forEach(b => b.classList.toggle('on', b === btn));
+  render();
+});
+
+let timer = null;
+function debounce(){ clearTimeout(timer); timer = setTimeout(render, 220); }
+fromEl.addEventListener('input', debounce);
+toEl.addEventListener('input', debounce);
+sortEl.addEventListener('change', render);
+whoA.addEventListener('change', render);
+whoB.addEventListener('change', render);
+render();
+</script>
+</body>
+</html>

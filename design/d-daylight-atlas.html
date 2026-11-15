@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>风格 D · DAYLIGHT ATLAS 日光图册</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f4f1ea; --paper-2:#eae5db; --paper-3:#e0dacd;
+  --line:#d5cec1; --line-2:#bcb3a2;
+  --ink:#15171b; --ink-2:#4a4d54; --ink-3:#8b8a84;
+  --navy:#1b3a6b; --rust:#b4552b;
+  --serif:'Fraunces','Noto Serif SC',Georgia,serif;
+  --sans:'Inter','Noto Sans SC',system-ui,sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:13px;
+  overflow:hidden;line-height:1.55;-webkit-font-smoothing:antialiased}
+.lbl{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);font-weight:500}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+
+.app{display:grid;grid-template-rows:76px 1fr 100px;height:100vh}
+main{display:grid;grid-template-columns:304px minmax(0,1fr) 264px;min-height:0}
+
+/* masthead */
+.topbar{padding:0 24px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;justify-content:center;position:relative}
+.topbar::after{content:"";position:absolute;left:0;right:0;bottom:-4px;height:1px;background:var(--paper-3)}
+.mast-row{display:flex;align-items:baseline;gap:16px}
+.mast-row .date{font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--ink-3);white-space:nowrap}
+.mast-row h1{font-family:var(--serif);font-size:26px;font-weight:600;letter-spacing:.02em;line-height:1}
+.mast-row .en{font-family:var(--serif);font-style:italic;font-size:12px;color:var(--ink-3);letter-spacing:.06em}
+.mast-row .spacer{flex:1}
+.mast-row nav{display:flex;gap:20px}
+.mast-row nav a{color:var(--ink-2);text-decoration:none;font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  padding-bottom:2px;border-bottom:1px solid transparent}
+.mast-row nav a.on{color:var(--navy);border-bottom-color:var(--navy)}
+.mast-row nav a:hover{color:var(--ink)}
+.mast-sub{margin-top:7px;font-size:10.5px;color:var(--ink-3);letter-spacing:.06em;display:flex;gap:18px}
+.mast-sub b{color:var(--rust);font-weight:500}
+
+/* left */
+.panel-l{border-right:1px solid var(--line);display:flex;flex-direction:column;min-height:0;background:var(--paper-2)}
+.panel-hd{padding:20px 22px 16px;border-bottom:1px solid var(--line)}
+.year-big{font-family:var(--serif);font-size:40px;font-weight:600;line-height:1;letter-spacing:-.01em}
+.year-big .bc{font-family:var(--mono);font-size:12px;color:var(--rust);letter-spacing:.1em;display:block;margin-bottom:4px}
+.era-row{margin-top:12px;display:flex;align-items:center;gap:9px;padding-top:12px;border-top:1px solid var(--line)}
+.era-row .dot{width:8px;height:8px;background:var(--navy)}
+.evt-list{overflow:auto;flex:1;background:var(--paper)}
+.evt{padding:14px 22px;border-bottom:1px solid var(--line);cursor:pointer;position:relative}
+.evt:hover{background:var(--paper-2)}
+.evt.on{background:#fff}
+.evt.on::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--rust)}
+.evt h4{font-family:var(--serif);font-size:15px;font-weight:600;line-height:1.35}
+.evt .meta{margin-top:5px;font-size:10.5px;color:var(--ink-3);letter-spacing:.06em;text-transform:uppercase}
+.evt .cat{display:inline-block;margin-top:8px;font-size:10px;letter-spacing:.12em;text-transform:uppercase;
+  padding:2px 7px;border:1px solid var(--line-2);color:var(--ink-2);background:var(--paper)}
+.cat.pol{border-color:#243f6e;color:var(--navy)}
+.cat.war{border-color:#c4a68f;color:var(--rust)}
+.cat.sci{border-color:#9fb4bd;color:#3f6a78}
+
+/* stage */
+.stage{position:relative;overflow:hidden;background:var(--paper);
+  border-right:1px solid var(--line)}
+.stage::before{content:"";position:absolute;inset:-20%;
+  background:repeating-radial-gradient(circle at 62% 46%,rgba(27,58,107,.045) 0 1px,transparent 1px 46px);
+  pointer-events:none}
+.globe-wrap{position:absolute;inset:0;display:grid;place-items:center}
+.globe{width:min(70vh,72%);filter:drop-shadow(0 26px 46px rgba(30,30,30,.18))}
+.fig-no{position:absolute;left:26px;top:20px;font-family:var(--mono);font-size:10px;letter-spacing:.18em;color:var(--ink-3)}
+.fig-no b{color:var(--rust);font-weight:500}
+.chipbar{position:absolute;right:24px;top:20px;display:flex;border:1px solid var(--line-2);background:var(--paper)}
+.chip{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;padding:6px 12px;color:var(--ink-3);
+  border-right:1px solid var(--line);cursor:pointer}
+.chip:last-child{border-right:0}
+.chip.on{background:var(--navy);color:#f2efe7}
+.legend{position:absolute;left:26px;bottom:22px;display:flex;flex-direction:column;gap:7px}
+.legend .row{display:flex;align-items:center;gap:9px;font-size:11px;color:var(--ink-2)}
+.legend i{width:16px;height:3px;display:block}
+.scalebar{position:absolute;right:24px;bottom:22px;text-align:right}
+.scalebar .bar{display:flex;justify-content:flex-end;align-items:center;gap:6px;font-family:var(--mono);font-size:10px;color:var(--ink-3)}
+.scalebar .bar .ln{width:70px;height:7px;border:1px solid var(--ink-3);border-top:0;position:relative}
+.scalebar .cap{font-family:var(--mono);font-size:10px;color:var(--ink-3);margin-top:6px;letter-spacing:.1em}
+
+/* right */
+.panel-r{border-left:1px solid var(--line);background:var(--paper-2);overflow:auto}
+.sec{padding:18px 20px;border-bottom:1px solid var(--line)}
+.sec .lbl{display:block;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.toggle{display:flex;align-items:center;gap:10px;padding:6px 0;cursor:pointer}
+.box{width:14px;height:14px;border:1px solid var(--line-2);background:var(--paper);position:relative;flex:none}
+.toggle input{display:none}
+.toggle input:checked + .box{background:var(--navy);border-color:var(--navy)}
+.toggle input:checked + .box::after{content:"";position:absolute;left:4px;top:1px;width:4px;height:8px;
+  border:solid #f2efe7;border-width:0 1.5px 1.5px 0;transform:rotate(42deg)}
+.toggle span{font-size:12px;color:var(--ink-2)}
+.base-item{display:flex;align-items:center;gap:10px;padding:7px 0;cursor:pointer;font-size:12px;color:var(--ink-3)}
+.base-item .th{width:36px;height:24px;border:1px solid var(--line-2)}
+.base-item.on{color:var(--ink)}
+.base-item.on .th{border-color:var(--navy);box-shadow:0 0 0 2px rgba(27,58,107,.14)}
+.b1{background:linear-gradient(135deg,#c9d3c0,#a8b79c 60%,#b6c3cc)}
+.b2{background:linear-gradient(135deg,#7f96a8,#a7bac7 60%,#5f7688)}
+.src-note{margin-top:11px;padding-top:11px;border-top:1px dashed var(--line-2);
+  font-size:10.5px;color:var(--ink-3);line-height:1.7}
+
+/* timeline */
+.timeline{background:var(--paper-2);border-top:1px solid var(--line);padding:0 24px;position:relative}
+.timeline::before{content:"";position:absolute;left:0;right:0;top:3px;height:1px;background:var(--paper-3)}
+.eras{display:flex;height:28px;align-items:flex-end;gap:0;margin:0 -24px;padding:0 24px 6px}
+.era-seg{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;color:var(--ink-3);
+  border-left:1px solid var(--line);padding-left:7px;line-height:1;border-top:3px solid transparent}
+.era-seg.hot{color:var(--navy);border-top-color:var(--navy);font-weight:500}
+.tl-body{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:24px;height:calc(100% - 29px)}
+.play{display:flex;border:1px solid var(--line-2);background:var(--paper)}
+.play button{width:32px;height:32px;background:transparent;border:0;border-right:1px solid var(--line);
+  color:var(--ink-2);cursor:pointer;font-size:11px}
+.play button:last-child{border-right:0}
+.play button:hover{background:var(--paper-3)}
+.play button.main{background:var(--navy);color:#f2efe7}
+.ruler{position:relative;height:40px}
+.ruler .rail{position:absolute;left:0;right:0;top:56%;height:1px;background:var(--line-2)}
+.ruler .done{position:absolute;left:0;top:56%;height:1px;width:78%;background:var(--navy)}
+.ruler .ticks{position:absolute;left:0;right:0;top:56%}
+.ruler .ticks i{position:absolute;width:1px;height:6px;background:var(--line-2);
+  transform:translate(-50%,-50%);top:0}
+.ruler .ticks i.mj{height:11px;background:var(--ink-3)}
+.ruler .labels{position:absolute;left:0;right:0;top:calc(56% + 12px);font-family:var(--mono);
+  font-size:9px;color:var(--ink-3)}
+.ruler .labels span{position:absolute;transform:translateX(-50%)}
+.ruler .knob{position:absolute;left:78%;top:56%;transform:translate(-50%,-50%);width:14px;height:14px;
+  background:var(--rust);border:2px solid var(--paper);box-shadow:0 0 0 1px var(--rust)}
+.ruler .flag{position:absolute;left:78%;top:calc(56% - 26px);transform:translateX(-50%);
+  font-family:var(--mono);font-size:10px;color:var(--rust);white-space:nowrap}
+.readout{text-align:right}
+.readout .big{font-family:var(--serif);font-size:23px;font-weight:600}
+.readout .sm{font-family:var(--mono);font-size:9.5px;color:var(--ink-3);letter-spacing:.14em;margin-top:3px}
+
+/* card */
+.card{position:absolute;left:26px;bottom:24px;width:386px;background:#fff;border:1px solid var(--line-2);
+  box-shadow:0 22px 46px rgba(30,30,30,.16)}
+.card-hd{padding:16px 18px 12px;display:flex;justify-content:space-between;align-items:flex-start;gap:14px;border-bottom:1px solid var(--line)}
+.card-hd .no{font-family:var(--mono);font-size:10px;color:var(--rust);letter-spacing:.14em}
+.card-hd h3{font-family:var(--serif);font-size:19px;font-weight:600;line-height:1.3;margin-top:5px}
+.card-hd .x{color:var(--ink-3);cursor:pointer;font-size:13px}
+.card-bd{padding:14px 18px}
+.card-bd p{font-size:12.5px;color:var(--ink-2);line-height:1.85}
+.card-bd .drop{float:left;font-family:var(--serif);font-size:44px;line-height:.86;font-weight:600;
+  color:var(--navy);margin:2px 9px 0 0}
+.card-ft{display:flex;border-top:1px solid var(--line);background:var(--paper-2)}
+.card-ft div{flex:1;padding:10px 14px;border-right:1px solid var(--line)}
+.card-ft div:last-child{border-right:0}
+.card-ft .k{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3)}
+.card-ft .v{font-family:var(--mono);font-size:12px;color:var(--ink);margin-top:3px}
+.note{position:fixed;right:14px;bottom:10px;font-family:var(--mono);font-size:9.5px;color:var(--ink-3);letter-spacing:.14em;z-index:9}
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <div class="mast-row">
+      <span class="date">2026 · 10 · 11</span>
+      <h1>寰宇纪年</h1>
+      <span class="en">Atlas of Human History</span>
+      <span class="spacer"></span>
+      <nav>
+        <a href="#" class="on">时间轴</a>
+        <a href="#">事件</a>
+        <a href="#">人物</a>
+        <a href="#">战争</a>
+        <a href="#">政区</a>
+      </nav>
+    </div>
+    <div class="mast-sub">
+      <span>第 <b>1911</b> 号 · 近代卷</span>
+      <span>收录事件 5,236 条</span>
+      <span>政区 15,690 幅</span>
+      <span style="margin-left:auto">Ctrl+K 检索</span>
+    </div>
+  </header>
+
+  <main>
+    <aside class="panel-l">
+      <div class="panel-hd">
+        <div class="year-big"><span class="bc">公元</span>1911</div>
+        <div class="era-row"><span class="dot"></span><span class="lbl">近代 · Modern Era</span></div>
+      </div>
+      <div class="evt-list">
+        <div class="evt on">
+          <h4>辛亥革命爆发</h4>
+          <div class="meta">十月十日 · 中国武昌</div>
+          <span class="cat pol">政治</span>
+        </div>
+        <div class="evt">
+          <h4>墨西哥革命开始</h4>
+          <div class="meta">十一月二十日 · 奇瓦瓦</div>
+          <span class="cat war">军事</span>
+        </div>
+        <div class="evt">
+          <h4>阿蒙森抵达南极点</h4>
+          <div class="meta">十二月十四日 · 罗斯冰架</div>
+          <span class="cat sci">探索</span>
+        </div>
+        <div class="evt">
+          <h4>纽约公共图书馆落成</h4>
+          <div class="meta">五月二十三日 · 纽约</div>
+          <span class="cat">文化</span>
+        </div>
+        <div class="evt">
+          <h4>超导现象首次发现</h4>
+          <div class="meta">四月八日 · 莱顿</div>
+          <span class="cat sci">科技</span>
+        </div>
+      </div>
+    </aside>
+
+    <section class="stage">
+      <div class="fig-no">F I G . <b>01</b> — 1911 年 · 东亚政区</div>
+      <div class="chipbar">
+        <div class="chip on">标准</div>
+        <div class="chip">卫星</div>
+        <div class="chip">平面</div>
+        <div class="chip">政区</div>
+      </div>
+      <div class="globe-wrap">
+        <svg class="globe" viewBox="0 0 600 600" aria-label="地球示意">
+          <defs>
+            <radialGradient id="sph4" cx="34%" cy="28%" r="80%">
+              <stop offset="0%" stop-color="#fdfcf8"/>
+              <stop offset="58%" stop-color="#e4ded0"/>
+              <stop offset="100%" stop-color="#b9b2a1"/>
+            </radialGradient>
+            <clipPath id="cl4"><circle cx="300" cy="300" r="220"/></clipPath>
+          </defs>
+          <circle cx="300" cy="300" r="220" fill="url(#sph4)"/>
+          <g clip-path="url(#cl4)" fill="#9aa894" opacity=".78">
+            <path d="M300 150c40-10 80 10 94 46 13 34 3 69-11 104-11 30-16 65-36 95-15 25-36 39-50 29-15-10-10-45-15-81-7-45-15-83-10-121 5-35 10-62 28-72z"/>
+            <path d="M180 174c20-10 34 6 29 31-5 25-20 41-25 72-5 30 5 61 0 90-4 24-18 39-28 29-10-10-4-38-7-69-4-35 5-68 7-99 2-25 10-44 24-54z"/>
+            <path d="M420 376c20-10 42 0 48 20 6 17-8 33-26 31-18-2-29-17-27-33 1-8 3-15 5-18z"/>
+          </g>
+          <g clip-path="url(#cl4)" fill="none" stroke="#8b8c84" stroke-width="1" opacity=".7">
+            <ellipse cx="300" cy="300" rx="220" ry="60"/>
+            <ellipse cx="300" cy="300" rx="220" ry="121"/>
+            <ellipse cx="300" cy="300" rx="220" ry="180"/>
+            <ellipse cx="300" cy="300" rx="61" ry="220"/>
+            <ellipse cx="300" cy="300" rx="121" ry="220"/>
+            <ellipse cx="300" cy="300" rx="180" ry="220"/>
+            <line x1="80" y1="300" x2="520" y2="300"/>
+            <line x1="300" y1="80" x2="300" y2="520"/>
+          </g>
+          <g clip-path="url(#cl4)">
+            <polygon points="298,192 348,206 370,262 338,300 294,286 280,232" fill="#1b3a6b" opacity=".14" stroke="#1b3a6b" stroke-width="1.5"/>
+            <circle cx="320" cy="243" r="5" fill="#b4552b"/>
+            <circle cx="320" cy="243" r="11" fill="none" stroke="#b4552b" stroke-width="1" opacity=".5"/>
+            <circle cx="205" cy="255" r="3.4" fill="#1b3a6b"/>
+            <circle cx="415" cy="398" r="3.4" fill="#1b3a6b"/>
+            <circle cx="258" cy="352" r="3.4" fill="#3f6a78"/>
+            <circle cx="392" cy="196" r="3.4" fill="#3f6a78"/>
+          </g>
+          <circle cx="300" cy="300" r="220" fill="none" stroke="#8b8c84" stroke-width="1.3"/>
+          <ellipse cx="300" cy="300" rx="220" ry="220" fill="none" stroke="#b4552b" stroke-width=".8" opacity=".3"/>
+        </svg>
+      </div>
+      <div class="legend">
+        <div class="row"><i style="background:#1b3a6b"></i>政治</div>
+        <div class="row"><i style="background:#b4552b"></i>军事</div>
+        <div class="row"><i style="background:#3f6a78"></i>科技 · 文化</div>
+      </div>
+      <div class="scalebar">
+        <div class="bar"><span>2,000</span><span class="ln"></span><span>km</span></div>
+        <div class="cap">投影 EQUIRECTANGULAR · 比例 1:48,000,000</div>
+      </div>
+
+      <div class="card">
+        <div class="card-hd">
+          <div>
+            <div class="no">E V E N T · 01</div>
+            <h3>辛亥革命爆发</h3>
+          </div>
+          <span class="x">✕</span>
+        </div>
+        <div class="card-bd">
+          <p><span class="drop">辛</span>亥年十月十日，武昌新军举义，各省次第响应。延续两千余年的帝制于数月内瓦解，亚洲第一个共和国自此肇建，中国历史由此转入共和纪元。</p>
+        </div>
+        <div class="card-ft">
+          <div><div class="k">日期</div><div class="v">1911.10.10</div></div>
+          <div><div class="k">地域</div><div class="v">武昌</div></div>
+          <div><div class="k">类别</div><div class="v">政治</div></div>
+        </div>
+      </div>
+    </section>
+
+    <aside class="panel-r">
+      <div class="sec">
+        <span class="lbl">底图</span>
+        <div class="base-item on"><span class="th b1"></span>标准地图</div>
+        <div class="base-item"><span class="th b2"></span>卫星影像</div>
+      </div>
+      <div class="sec">
+        <span class="lbl">图层</span>
+        <label class="toggle"><input type="checkbox" checked><i class="box"></i><span>历史政区</span></label>
+        <label class="toggle"><input type="checkbox" checked><i class="box"></i><span>现代国界</span></label>
+        <label class="toggle"><input type="checkbox" checked><i class="box"></i><span>事件标记</span></label>
+        <label class="toggle"><input type="checkbox"><i class="box"></i><span>人物轨迹</span></label>
+        <label class="toggle"><input type="checkbox"><i class="box"></i><span>战争进程</span></label>
+        <div class="src-note">数据来源：Cliopatria · Natural Earth · Human History According to AI（CC BY 4.0）</div>
+      </div>
+      <div class="sec">
+        <span class="lbl">分类筛选</span>
+        <label class="toggle"><input type="checkbox" checked><i class="box"></i><span>政治</span></label>
+        <label class="toggle"><input type="checkbox" checked><i class="box"></i><span>军事</span></label>
+        <label class="toggle"><input type="checkbox" checked><i class="box"></i><span>经济</span></label>
+        <label class="toggle"><input type="checkbox" checked><i class="box"></i><span>文化</span></label>
+        <label class="toggle"><input type="checkbox" checked><i class="box"></i><span>科技</span></label>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="timeline">
+    <div class="eras">
+      <div class="era-seg" style="flex:26">青铜</div>
+      <div class="era-seg" style="flex:10">铁器</div>
+      <div class="era-seg" style="flex:10">古典</div>
+      <div class="era-seg" style="flex:10">中古</div>
+      <div class="era-seg" style="flex:8">近世</div>
+      <div class="era-seg hot" style="flex:6">近代</div>
+      <div class="era-seg" style="flex:8">当代</div>
+    </div>
+    <div class="tl-body">
+      <div class="play">
+        <button>⏮</button>
+        <button class="main">▶</button>
+        <button>⏭</button>
+      </div>
+      <div class="ruler">
+        <div class="rail"></div>
+        <div class="done"></div>
+        <div class="ticks">
+          <i class="mj" style="left:6%"></i><i style="left:12%"></i><i style="left:18%"></i>
+          <i class="mj" style="left:26%"></i><i style="left:34%"></i><i class="mj" style="left:42%"></i>
+          <i style="left:50%"></i><i class="mj" style="left:58%"></i><i style="left:66%"></i><i class="mj" style="left:88%"></i>
+        </div>
+        <div class="labels">
+          <span style="left:6%">-3100</span>
+          <span style="left:26%">-500</span>
+          <span style="left:42%">500</span>
+          <span style="left:58%">1500</span>
+          <span style="left:88%">1950</span>
+        </div>
+        <div class="flag">1911</div>
+        <div class="knob"></div>
+      </div>
+      <div class="readout">
+        <div class="big">1911</div>
+        <div class="sm">步长 5 年 · 窗口 ±20 年</div>
+      </div>
+    </div>
+  </footer>
+</div>
+<div class="note">STYLE D · DAYLIGHT ATLAS</div>
+</body>
+</html>

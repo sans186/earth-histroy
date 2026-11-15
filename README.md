@@ -1,258 +1,178 @@
-# Earth Historical Timeline — 全球历史时空可视化平台
+# 寰宇纪年 · Earth Historical Timeline
 
-基于 CesiumJS 的 3D 地球历史时间轴，在三维地球上穿越人类文明史。
+基于 CesiumJS 与 MapLibre GL 的全球历史时空可视化平台：在 3D 地球或 2D 地图上按年份浏览历史事件、历史政区、人物足迹与战争，并对同一时期的不同文明做横向对照。
 
-> 在线演示：**[earth.tazume-sans.cn](https://earth.tazume-sans.cn/)**
+> 在线演示：<https://earth.tazume-sans.cn/>
+>
+> 当前版本：2.0.0。2026-10-20 完成 Vue 3 + TypeScript + Pinia 重写，旧的「微内核 + 插件 + 手写 DOM」架构已退场。需求与进度以 [docs/REQUIREMENTS.md](./docs/REQUIREMENTS.md) 为唯一账本。
 
 ## 快速开始
 
 ```bash
 npm install
-npm run dev     # → http://localhost:3000
-npm run build   # 生产构建
-npm run preview # 预览构建产物
+npm run dev        # → http://localhost:3000
+npm run build      # prebuild 会先跑数据校验
+npm run preview    # 预览 dist 产物
+npm run typecheck  # vue-tsc --noEmit
 ```
 
-开发者模式：访问 `http://localhost:3000/?dev=true` 打开可视化设置面板。
+| 命令 | 用途 |
+|------|------|
+| `npm run validate:data` | 全量校验数据资产（中英事件对齐、政区分片、备份残留等），输出 ERROR/WARNING 计数 |
+| `npm run report:data` | 清点数据资产：有哪些数据、覆盖率、缺口 |
+| `npm run repair:data` | 修复取值无歧义的机械缺陷（默认试运行） |
+| `npm run compare:locales` | 比对中英事件条目差异 |
+| `npm run audit:polities` | 审计政区体积、顶点数与坐标精度 |
+| `npm run simplify:polities` | 几何简化、坐标量化、生成 `.gz` 与 LOD 副本 |
+| `npm run build:people-coords` | 从人物档案聚合生平足迹坐标 → `people/coords.json` |
+| `npm run enrich:polity-facts` | 生成政区事实字段 → `ne/polity_facts.json` |
+
+生产构建前会自动执行 `validate-data.mjs --quiet`；数据不通过则构建中止。
 
 ## 功能总览
 
-### 核心功能
+### 浏览与导航
 
-- **3D 地球** — CesiumJS 1.123，卫星/标准底图，鼠标拖拽旋转 + 滚轮缩放
-- **时间轴** — 非线性分段滑块（公元前压缩、近现代拉伸）、步进按钮（1/5/10 年）、空格播放/暂停、方向键快进快退
-- **8 时代导航** — 青铜时代→当代，分色导航条，一键跳转
-- **历史事件标记** — 5236 个按年 JSON 文件，彩色 billboard 标记 + 名称标签
-- **多维筛选** — 6 类事件（政治/军事/经济/文化/科技/探索），实时过滤
-- **事件详情弹窗** — 点击标记显示标题、年份、分类、描述、来源链接
-- **左侧事件面板** — 当前年份事件列表，点击飞向地点
-- **历史政区边界** — Cliopatria 数据集（15690 政区），按世纪分片，随年份实时切换
-- **政区信息卡片** — 点击政区显示国旗、首都、人口、面积、Wikipedia 摘要
-- **现代国家边界** — Natural Earth 110m 国家面 + 50m 边界线
-- **人物轨迹** — 历史人物生平路径可视化，步进导航 + 自动播放 + 详情卡片（含评价、语录）
-- **2D/3D 视图切换** — MapLibre GL 平面视图，状态同步
-- **中英文双语** — 政区名称、事件数据、UI 界面语言切换
-- **地球背面标签剔除** — 点积判断，隐藏不可见面标签
+- **3D 地球 / 2D 地图双视图** —— CesiumJS 与 MapLibre 各自独立渲染，事件、政区、底图、点选、卡片行为一致，切换时状态同步
+- **时间轴** —— 非线性分段滑块（公元前压缩、近现代拉伸），年份范围 -3100 ~ 2026；轨道两侧 `-5 / -1 / +1 / +5` 四个步进按钮；输入框可直接跳年
+- **右栏事件索引** —— 只显示当前年份前后 5 年（±5），拖动期间不发请求，松手后一次性加载并缓存
+- **语言切换** —— 中 / 英双语，含政区名称映射（1,640 键）与事件数据
 
-### 主题系统
+### 数据层展示
 
-3 套内置主题，开发者可在设置面板中实时切换：
-
-| 主题 | 风格 | 色调 |
-|------|------|------|
-| 蓝紫色 | 科技感深色科幻风 | 深蓝紫底 + 金色高亮 |
-| 暖色古典 | 羊皮纸/古卷轴感 | 暖棕底 + 暗金/古铜点缀 |
-| 水墨中国 | 黑白灰墨色极简 | 近黑底 + 灰白文字 + 淡色高亮 |
-
-### 开发者设置面板
-
-通过 `?dev=true` 参数启用，右下角齿轮按钮打开。7 大类别 35+ 可调参数：
-
-| 类别 | 可调参数 |
-|------|---------|
-| 主题风格 | 3 套主题切换，实时预览 |
-| 性能调试 | FPS 显示、Entity 计数、目标帧率、缓存大小、请求并发数 |
-| 视觉效果 | 标记缩放、标签显隐、大气层、光照、太阳/月亮、星空、线框模式、抗锯齿、海洋颜色 |
-| 时间线参数 | 播放速度、年份窗口、防抖延迟、默认步长、年份上下限 |
-| 相机控制 | 默认经纬度/高度、飞行时长 |
-| 数据源 | 中/英文数据路径、清除缓存 |
-| 功能开关 | 历史政区、现代边界、人物轨迹、2D 默认、自动播放 |
-
-**事务机制**：修改暂存，点击"保存"统一提交到 localStorage。`Ctrl+Shift+D` 开关面板，`Escape` 关闭。
-
-## 操作方式
-
-| 操作 | 效果 |
+| 模块 | 内容 |
 |------|------|
-| 拖动滑块 | 穿越时间线（-3100 ~ 2025） |
-| 步进按钮 / ← → 方向键 | 快退 / 快进 |
-| 空格键 | 播放 / 暂停自动巡航 |
-| 点击地球彩色标记 | 弹出事件详情卡片 |
-| 点击政区多边形 | 弹出政区信息卡片 |
-| 点击卡片外 / Esc | 关闭卡片 |
-| 顶部筛选栏 | 按分类显示/隐藏事件 |
-| 右侧面板 | 底图切换 / 历史政区 / 现代边界 / 2D3D切换 / 语言切换 |
-| 左侧人物按钮 | 打开人物轨迹列表 |
+| 历史事件 | 中英各 17,998 条，5,227 个逐年 JSON（-3200 ~ 2026）；卡片含分类、描述、来源、同期徽标、按 id 定位的关联条目与 `graph_edges` 关系 |
+| 历史政区 | Cliopatria 18,069 个要素，按世纪分片；随年份过滤并涂色，卫星底图下改为红色边界线；点击弹出卡片 |
+| 政区卡片 | 国旗、首都、人口、面积、中文简介、政体形式、语言/族群/宗教/文字/货币、前身与后继、今属、范围内战争与人物数；1850 年前的政区不套用现代国家资产 |
+| 政区名称 | 2D 用 DOM 标签层（按面积分级 + 矩形碰撞避让），3D 用 LabelCollection（按面积排名给可见距离） |
+| 人物 | 档案卡片含生平、评价与语录；打开卡片时在球面绘制生平足迹折线与站点 |
+| 战争 | 94 场档案：概况、战前兵力对比、指挥官与角色、阶段与战役、战区坐标标记 |
+| 横向对照 | 报纸版对照界面（CompareBoard），A/B 两列可选政区，支持指定年代区间（最宽 300 年）汇总统计 |
+| 按政区筛选 | 事件 / 人物 / 战争三处面板均可「仅当前政区」，按坐标或战区圆心与政区存续期求交 |
+
+### 图层管理
+
+事件标记、事件标签、历史政区、政区名称、载入相邻世纪、现代国界、战争地点七个开关；底图为 Esri ArcGIS World Topo（标准）与 World Imagery（卫星），集中配置在 `src/config/index.ts` 的 `BASEMAPS`。
+
+### 已知交互限制
+
+- 时间轴**没有自动播放/暂停**，也不支持空格键播放；方向键左右步进，其余靠轨道按钮。
+- UI 面向桌面设计，移动端未适配。
 
 ## 技术栈
 
-| 层面 | 选型 | 说明 |
-|------|------|------|
-| 3D 地球 | CesiumJS 1.123 | 开源 3D 地图引擎 |
-| 2D 地图 | MapLibre GL 5.24 | Mapbox GL 开源分支，WebGL 渲染 |
-| 构建工具 | Vite 6 | 原生 ES 模块 |
-| 状态管理 | 自研 Store（pub/sub） | 轻量响应式状态容器 |
-| 主题系统 | CSS Custom Properties | `var(--name)` 变量，:root 切换 |
-| 代码规范 | ESLint 9 + Prettier 3 | |
-| 事件数据 | 5236 个 JSON | 按年索引（-3100 ~ 2025） |
-| 政区数据 | Cliopatria | 15690 政区，按世纪分片，坐标抽稀 |
-| 现代国界 | Natural Earth | 110m 国家面 + 50m 边界线 |
+| 层面 | 选型 |
+|------|------|
+| UI 框架 | Vue 3（Composition API + `<script setup>`） |
+| 类型 | TypeScript + `vue-tsc` |
+| 状态 | Pinia（`stores/ui` `timeline` `layers` `people` `wars`） |
+| 3D | CesiumJS 1.123（**命令式 Service，绝不进入 Vue 响应式体系**） |
+| 2D | MapLibre GL 5.24 |
+| 几何 | @turf/turf 7 |
+| 构建 | Vite 6 + `@vitejs/plugin-vue` + `vite-plugin-static-copy` + `vite-plugin-compression` |
+| 样式 | 原生 CSS + CSS Custom Properties（`styles/tokens.css`） |
+
+**分层红线**：Cesium / MapLibre 实例与 Entity 由 `src/services/` 中的单例命令式管理，Vue 只负责界面与状态。把这些对象交给 `reactive()` / `ref()` 代理会导致性能雪崩或运行时异常。
 
 ## 项目结构
 
 ```
 Earth/
-├── index.html                    # 入口 HTML + CSS 变量 + UI 骨架
-├── package.json
-├── vite.config.js
-├── eslint.config.js
-├── .prettierrc
-├── .env                          # Cesium Token 等环境变量
-├── .gitignore
-├── people_list.txt               # 人物轨迹生成用姓名列表
-├── data/                         # 原始 Cliopatria 数据（仅预处理用，gitignored）
+├── index.html                 # 入口 + 启动保护样式
+├── vite.config.js             # Cesium 静态拷贝、gzip 预压缩、非发布文件拦截
+├── src/
+│   ├── App.vue                # 布局与全局编排
+│   ├── main.ts
+│   ├── components/            # 17 个界面组件（AppHead / GlobeStage / MapStage /
+│   │                          #   CompareBoard / EventCard / PolityCard / WarCard /
+│   │                          #   PersonCard / TimeScale / LayerPanel / SidePanel ...）
+│   ├── composables/           # useGlobeData：年份/相机/图层联动
+│   ├── services/              # globe.ts / map2d.ts / data.ts / war-data.ts
+│   ├── stores/                # Pinia 5 个 store
+│   ├── lib/                   # i18n / format / compare / geo / names / regions /
+│   │                          #   eventLinks / polityScope / wiki
+│   ├── types/index.ts         # 共享数据模型
+│   ├── config/index.ts        # 年份范围、底图、路径、阈值常量
+│   └── styles/                # tokens.css + base.css
 ├── public/
-│   ├── events/                   # 5236 份中文事件 JSON
-│   ├── 英文event/                # 英文源文件
-│   ├── ne/
-│   │   ├── polities/             # 按世纪分片 GeoJSON
-│   │   ├── ne_110m_admin_0_countries.json
-│   │   ├── ne_50m_admin_0_boundary_lines_land.json
-│   │   ├── polity_names_zh.json  # 政区中英文名映射
-│   │   ├── polity_descriptions.json  # 政区描述（AI 生成）
-│   │   └── polity_assets.json    # 国旗/首都/人口等资产
-│   └── people/
-│       └── profiles/             # 人物轨迹数据（AI 生成）
-├── scripts/                      # 数据处理脚本（详见下方）
-│   ├── data/                     # 数据预处理 & 修复
-│   ├── fetch/                    # 外部数据抓取
-│   ├── translate/                # 翻译脚本
-│   └── generate/                 # AI 内容生成
-└── src/
-    ├── main.js                   # 应用入口（引导 Core + 注册插件）
-    ├── config.js                 # 全局常量
-    ├── utils.js                  # 工具函数
-    ├── locale.js                 # i18n 字符串表
-    ├── core/                     # 微内核
-    │   ├── index.js              # Core 类
-    │   ├── state.js              # 响应式 Store
-    │   ├── event-bus.js          # 事件总线
-    │   └── cesium-viewer.js      # Cesium Viewer 工厂
-    ├── data/
-    │   └── data-loader.js        # 数据加载器（LRU + 并发 + AbortController）
-    ├── themes/
-    │   └── themes.js             # 主题引擎（3 套主题 + CSS 变量管理）
-    └── plugins/
-        ├── map-plugin.js         # 事件标记实体管理
-        ├── timeline-plugin.js    # 时间轴 UI
-        ├── filters-plugin.js     # 分类筛选
-        ├── popup-plugin.js       # 事件详情弹窗
-        ├── event-panel-plugin.js # 左侧事件列表
-        ├── layers-plugin.js      # 底图/政区/2D3D/语言
-        ├── trajectory-plugin.js  # 人物轨迹可视化
-        ├── map2d-renderer.js     # MapLibre 2D 渲染器
-        └── dev-settings-plugin.js # 开发者设置面板
+│   ├── events/  en-events/    # 逐年事件（中 / 英）
+│   ├── ne/polities/           # 政区世纪分片 + .lod.json + .json.gz
+│   ├── ne/                    # 国界、名称映射、描述、资产、事实、旗帜
+│   ├── people/profiles/       # 人物档案 + coords.json
+│   └── wars/profiles/         # 战争档案 + index.json + war_locations.json
+├── scripts/                   # 数据流水线（见 scripts/README.md）
+├── docs/                      # 需求账本、项目设计文档、原型 HTML
+└── design/                    # 视觉风格原型（单 HTML）
 ```
 
-## 数据处理脚本
+## 数据资产
 
-所有脚本位于 `scripts/` 目录，按用途分 4 类：
+`npm run validate:data` 当前结果：**ERROR 0 / WARNING 0**。
 
-### data/ — 数据预处理 & 修复
+| 数据集 | 规模 | 说明 |
+|--------|------|------|
+| 事件（中 / 英） | 各 17,998 条，5,227 个年份文件 | 差异 0，纳入构建前校验 |
+| 历史政区 | 55 个世纪文件、18,069 要素、472 万顶点 | 55 个 LOD 分片 + 110 个预压缩副本；最大单文件 18.4 MB |
+| 政区参考数据 | `polity_descriptions` 1,971 键、`polity_facts` 1,970 条、`polity_names_zh` 1,640 键、`polity_assets` 201 键 | 含中文简介、事实字段、国旗标记 |
+| 人物 | 415 个文件 | 档案 + 足迹坐标聚合表 |
+| 战争 | 94 场档案 | 坐标由战役坐标中位数推导，重复的硝石战争档案已删除 |
+| 现代国界 | Natural Earth 110m 面（177 要素）+ 50m 线（390 要素） | |
 
-| 脚本 | 说明 |
-|------|------|
-| `split-cliopatria.cjs` | 将 182MB 原始 Cliopatria JSON 按世纪切分为小块 GeoJSON，并做坐标抽稀 |
-| `gen_name_zh.cjs` | 从 Natural Earth 数据 + 手工映射表生成政区中英文名对照 |
-| `fix_china_territory.cjs` | 修复中国领土数据：移除 1950 年后台湾的独立政区条目，合并台湾几何到 PRC |
-| `fix_zangnan.cjs` | 修复藏南（Arunachal Pradesh）领土数据，使用 turf.js 从印度多边形中提取并合并到 PRC |
+**几何双档**：相机高度超过 `POLITY_LOD_HEIGHT`（9,000,000 m）时用 `.lod.json`（0.25° / 2 位小数），近景用全精度（0.01° / 4 位小数）。两档都常驻缓存，缺 LOD 时静默回退全精度，校验脚本会报告缺失分片。
 
-### fetch/ — 外部数据抓取
+`public/` 总量约 272 MB（含 `.gz` 副本）。原始 182 MB Cliopatria 导出只在 `data/` 本地保留，构建插件 `strip-non-shippable` 会阻止它和所有 `*.backup_*` / `*_backup.*` 文件进入 `dist`。
 
-| 脚本 | 说明 |
-|------|------|
-| `fetch_polity_descriptions.cjs` | 从 Wikipedia REST API 批量抓取政区摘要（英文 + 中文），输出 `polity_descriptions.json` |
-| `fetch_country_assets.cjs` | 从 mledoze/countries 抓取现代国家资产（国旗 CDN URL、首都、人口、面积、货币等），输出 `polity_assets.json` |
+## 数据流水线与可复现性
 
-### translate/ — 翻译
+全部脚本的用途、输入、输出、前置条件与可复现状态见 [scripts/README.md](./scripts/README.md)。要点：
 
-| 脚本 | 说明 |
-|------|------|
-| `translate_events.py` | 通过 DeepSeek API 将英文事件 JSON 翻译为中文，按年批量处理 5236 个文件 |
-| `translate_names.cjs` | 翻译政区名称（Wikipedia 页面名 → 中文名），结合 NE 数据 + 手工映射 + 规则推导 |
+- 构建期脚本不依赖外部 API；翻译与内容生成脚本需要 `.env` 中的模型凭据，且本机可用的智谱型号为 `glm-4-flash-250414`。
+- `translate_names.cjs` 的输入 `scripts/_missing_names.json` 缺失，目前**不可复现**；其产物 `polity_names_zh.json` 数据完整并通过校验。
+- `build_final_descriptions.cjs` 依赖不存在的 `/tmp/reusable_descs.json`，会静默降级。
+- 生成类脚本的凭据一律从 `.env` 读取，源码中不含密钥。`.env` 已 gitignore。
 
-### generate/ — AI 内容生成
+## 部署
 
-| 脚本 | 说明 |
-|------|------|
-| `build_final_descriptions.cjs` | 生成政区中文描述（含详细/简短两层），合并 Wikipedia 摘要 + AI 内容 + 规则生成 |
-| `generate-profiles.js` | 通过智谱（GLM-4）和千问（Qwen）API 批量生成历史人物生平轨迹 JSON，读取 `people_list.txt`，支持断点续传 |
-| `enrich-trajectories.js` | 通过 DeepSeek API 丰富人物轨迹数据：为每个轨迹点生成介绍、著作、关联人物、历史背景 |
+线上为阿里云轻量服务器（Ubuntu 22.04 + Nginx），静态托管 `dist/`。服务器地址、SSH 与更新步骤记录在本地 `SERVER.md`（含凭据信息，不入库）。标准流程：
 
-## 架构设计
-
-### 微内核 + 插件模式
-
-Core 持有 Store（响应式状态）+ EventBus（瞬时事件）+ Cesium Viewer。所有功能通过 `{ name, install(core) }` 接口注册为插件，彼此不直接引用，仅通过 Store/EventBus 通信。
-
-### 数据流
-
-```
-用户操作（拖动滑块 / 步进 / 键盘）
-  → core.state.set('currentYear', year)
-    ├─ main.js 监听（debounced 100ms）
-    │   → dataLoader.loadWindow(year, ±20)
-    │     → 并发 fetch JSON（6 并发，LRU 缓存 120 份）
-    │     → core.state.set('dataEvents', events)
-    │     → map-plugin 重建 Cesium 标记实体
-    │
-    └─ layers-plugin（throttled 150ms）
-        → 加载当前世纪 + 相邻世纪 GeoJSON
-        → 过滤 FromYear ≤ year ≤ ToYear
-        → 按面积排序取前 250 → 渲染为 Cesium 多边形 + 标签
+```bash
+git pull && npm run build
 ```
 
-### 主题系统
+**注意**：部署前请确认 `dist/` 已由最新源码重建，且本地改动已提交——服务器只能拉到已提交的内容。
 
-```
-主题引擎 (src/themes/themes.js)
-  → 定义 3 套 CSS 变量方案（blue / warm / ink）
-  → applyTheme(id) → document.documentElement.style.setProperty(...)
-  → 所有 UI 组件通过 var(--bg-primary) 等引用变量
-  → 主题切换实时生效，无需刷新
-  → localStorage 持久化当前选择
-```
+## 文档索引
+
+| 文件 | 内容 | 状态说明 |
+|------|------|----------|
+| [docs/REQUIREMENTS.md](./docs/REQUIREMENTS.md) | 需求账本 R00a–R37、状态与决策记录 | 进行中的权威进度表 |
+| [docs/项目设计文档.md](./docs/项目设计文档.md) | 视觉/交互设计系统与**规划中**的技术选型 | 设计提案，其中后端 Java 栈、Vitest、Playwright 等尚未落地，勿当现状读 |
+| [改造方案.md](./改造方案.md) | 2026-10 月对旧架构的诊断与分阶段路线图 | 历史诊断文档，Phase 0–2 已基本完成，文首有状态对照 |
+| [scripts/README.md](./scripts/README.md) | 数据流水线可复现性清单 | 现行 |
+| `docs/prototypes/`、`design/` | 对照界面与视觉风格的单 HTML 原型 | 参考稿 |
+
+## 待办
+
+按 `docs/REQUIREMENTS.md`，仍悬空的需求：
+
+- **R08** 弹出卡片之外的事件呈现形式（四种方案已列，未选型）
+- **R29** 后续扩展性评估（新增人物/战争数据与新功能的架构层面改造）
+- **R37** 项目备选名待选
+- **R05** 智谱补全人物档案（进行中；事件坐标、战争书目、人物照片经评估放弃，原因见账本决策记录）
+
+工程层面尚未落地：全局搜索（`Ctrl+K`）、事件热力图、UGC 提交、自动播放、移动端适配、单元测试与 CI、后端/PostGIS（仅在设计文档里规划）。`package.json` 目前没有 `test` 或 `lint` 脚本。
 
 ## 数据来源
 
-| 数据集 | 来源 | 协议 | 覆盖范围 |
-|--------|------|------|---------|
-| 历史事件（英文源） | [Human History According to AI](https://github.com/Magnussmari/Human_history_Acording_to_AI) by Magnús Smári Smárason | CC BY 4.0 | -3100 ~ 2025，5236 年 |
-| 历史事件（中文翻译） | 本项目通过 DeepSeek API 自行翻译 | CC BY 4.0（继承） | -3100 ~ 2025 |
-| 历史政区 | [Cliopatria](https://github.com/Seshat-Global-History-Databank/cliopatria) | CC BY 4.0 | -3400 ~ 2024，15690 政区 |
-| 政区中文描述 | 本项目通过 AI 生成 | — | ~15000 政区 |
-| 人物轨迹 | 本项目通过 AI 生成 | — | ~300 历史人物 |
-| 现代国界 | [Natural Earth](https://www.naturalearthdata.com/) | Public Domain | 当代，110m + 50m 分辨率 |
-| 政区 Wikipedia 摘要 | [Wikipedia REST API](https://en.wikipedia.org/api/rest_v1/) | CC BY-SA 3.0 | 1452 政区中英文摘要 |
-| 现代国家资产 | [mledoze/countries](https://github.com/mledoze/countries) + [FlagCDN](https://flagcdn.com/) | MIT / Public Domain | 201 现代国家国旗/首都等 |
+| 数据集 | 来源 | 协议 |
+|--------|------|------|
+| 历史事件（英文源） | [Human History According to AI](https://github.com/Magnussmari/Human_history_Acording_to_AI) by Magnús Smári Smárason | CC BY 4.0 |
+| 历史事件（中文） | 本项目经 DeepSeek API 翻译 | CC BY 4.0（继承） |
+| 历史政区 | [Cliopatria](https://github.com/Seshat-Global-History-Databank/cliopatria)（Seshat Global History Databank） | CC BY 4.0 |
+| 政区简介 / 事实 / 人物 / 战争 | 本项目经 Wikipedia REST API 与大模型生成 | 摘要部分 CC BY-SA 3.0；生成内容长尾条目偶有史实偏差，需逐条复核 |
+| 现代国界 | [Natural Earth](https://www.naturalearthdata.com/) | Public Domain |
+| 现代国家资产 | [mledoze/countries](https://github.com/mledoze/countries) + FlagCDN | MIT / Public Domain |
+| 底图瓦片 | Esri ArcGIS World Topo / World Imagery | 见 Esri 使用条款 |
 
-> **署名要求**：历史事件数据（CC BY 4.0）使用时需注明原作者 Magnús Smári Smárason 及项目链接。
-
-## 性能优化体系
-
-| 问题 | 方案 |
-|------|------|
-| 5236 个事件 JSON | 按需窗口加载（±20 年），LRU 缓存 120 份 |
-| 15690 个政区几何 | 按世纪分片 + 按年过滤 + 坐标抽稀 75% + 上限 250 实体 |
-| MultiPolygon 实体溢出 | 按面积降序取前 250，Generation 计数器防止竞态 |
-| 滑块快速拖动 | debounce 100ms + AbortController 取消 |
-| 标记过密 | DistanceDisplayCondition 隐藏远距离标记 |
-| 标签过密 | scaleByDistance 远处渐隐 + 密度预算动态裁剪 |
-| Cesium 属性枚举溢出 | 坐标抽稀 + 实体上限 + Blob URL 加载 |
-| 播放模式预加载 | preloadRange() 后台静默预热 |
-
-## 待实现
-
-1. **后端 + 数据库** — 引入 API 和 PostgreSQL，支持复杂时空查询
-2. **对比模式** — 同屏两个年份分屏对比
-3. **全局搜索** — `Ctrl+K` 跨事件/人物/地点搜索
-4. **事件热力图** — 3D 地球上叠加空间密度可视化
-5. **UGC 内容提交** — 用户补充/修正历史事件数据
-6. **单元测试 / CI/CD** — 核心工具函数覆盖，自动构建部署
-
-## 参考文档
-
-- [Human History According to AI](https://github.com/Magnussmari/Human_history_Acording_to_AI) — 事件数据源
-- [全球历史时空可视化平台技术可行性分析报告](./docx_output.txt) — 项目规划依据
-- CesiumJS 官方文档
-- MapLibre GL 官方文档
+> **署名要求**：历史事件数据（CC BY 4.0）使用时须注明原作者 Magnús Smári Smárason 及项目链接；发布界面中亦应体现。

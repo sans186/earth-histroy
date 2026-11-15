@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>对照原型 B · 报纸版面</title>
+<style>
+  :root{
+    --paper:#f7f5f0; --paper-2:#efece4; --card:#fdfcf9;
+    --ink:#1a1c20; --ink-2:#4c4f56; --ink-3:#8d8c86; --ink-4:#b0aa9c;
+    --rule:#ded8cb; --rule-2:#c9c2b3;
+    --rust:#b0522d; --indigo:#26406b; --olive:#5f8a63; --ochre:#9a7434; --teal:#3f7d7d;
+    --political:#26406b; --military:#b0522d; --economic:#5f8a63; --cultural:#9a7434;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font:15px/1.65 "Inter","Noto Sans SC",system-ui,-apple-system,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .serif{font-family:"Fraunces","Noto Serif SC","Songti SC",Georgia,serif}
+  .mono{font-family:"IBM Plex Mono",ui-monospace,Consolas,monospace;font-variant-numeric:tabular-nums}
+  .sheet{max-width:1180px;margin:0 auto;padding:26px 30px 40px}
+
+  /* ── 报头 ───────────────────────────────────────────── */
+  .masthead{border-bottom:3px double var(--ink-3);padding-bottom:12px}
+  .masthead .top{display:flex;justify-content:space-between;align-items:baseline;
+    font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)}
+  .masthead h1{
+    margin:6px 0 3px;text-align:center;font-size:40px;line-height:1.1;
+    font-weight:600;letter-spacing:.22em;text-indent:.22em;
+  }
+  .masthead .sub{
+    text-align:center;font-size:13px;color:var(--ink-2);letter-spacing:.14em;
+    padding-bottom:2px;
+  }
+  .dateline{
+    display:flex;justify-content:center;gap:14px;align-items:center;
+    margin-top:10px;padding-top:9px;border-top:1px solid var(--rule);font-size:13px;color:var(--ink-2);
+  }
+  .dateline input{
+    width:70px;padding:4px 6px;border:1px solid var(--rule-2);background:var(--card);
+    font:inherit;font-family:"IBM Plex Mono",monospace;font-size:13px;text-align:center;color:var(--ink);
+  }
+  .dateline b{font-weight:600}
+
+  /* ── 双栏 ───────────────────────────────────────────── */
+  .spread{display:grid;grid-template-columns:1fr 1px 1fr;gap:0;margin-top:18px}
+  .gutter{background:var(--rule-2)}
+  .col{padding:0 26px}
+  .col:first-child{padding-left:0}
+  .col:last-child{padding-right:0}
+
+  .colhead{border-bottom:1px solid var(--ink-3);padding-bottom:8px;margin-bottom:4px}
+  .colhead .kicker{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)}
+  .colhead h2{margin:3px 0 2px;font-size:30px;font-weight:600;line-height:1.15}
+  .colhead .meta{font-size:12.5px;color:var(--ink-3)}
+  .colhead .meta b{color:var(--ink-2);font-weight:600}
+
+  .yeargroup{margin-top:16px}
+  .yeargroup > .yr{
+    display:flex;align-items:center;gap:9px;font-size:12px;letter-spacing:.16em;
+    color:var(--ink-3);font-family:"IBM Plex Mono",monospace;
+  }
+  .yeargroup > .yr::after{content:"";flex:1;height:1px;background:var(--rule)}
+  .yeargroup > .yr .tie{
+    color:var(--ochre);border:1px solid color-mix(in srgb,var(--ochre) 45%,transparent);
+    padding:0 4px;font-size:10px;letter-spacing:.08em;
+  }
+
+  .entry{padding:9px 0 10px;border-bottom:1px dotted var(--rule);cursor:default}
+  .entry:last-child{border-bottom:none}
+  .entry h3{
+    margin:0;font-size:18px;line-height:1.35;font-weight:600;
+    font-family:"Fraunces","Noto Serif SC","Songti SC",Georgia,serif;
+  }
+  .entry .lead{
+    margin:5px 0 0;font-size:14px;line-height:1.7;color:var(--ink-2);
+    display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+  }
+  .entry .foot{
+    margin-top:6px;display:flex;align-items:center;gap:8px;
+    font-size:11.5px;letter-spacing:.08em;color:var(--ink-3);
+  }
+  .entry .cat{display:inline-flex;align-items:center;gap:5px}
+  .entry .cat i{width:7px;height:7px;display:inline-block}
+  .entry.pull h3::first-letter{font-size:1.05em;color:var(--rust)}
+
+  /* ── 数据栏 ─────────────────────────────────────────── */
+  .figures{
+    grid-column:1 / -1;margin-top:22px;border-top:1px solid var(--ink-3);border-bottom:1px solid var(--ink-3);
+    display:grid;grid-template-columns:repeat(5,1fr);
+  }
+  .fig{padding:11px 14px;border-right:1px solid var(--rule)}
+  .fig:last-child{border-right:none}
+  .fig .k{font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-4)}
+  .fig .v{margin-top:4px;font-size:21px;font-weight:600;font-variant-numeric:tabular-nums}
+  .fig .v small{font-size:11.5px;font-weight:400;color:var(--ink-3);margin-left:4px}
+  .bars{margin-top:7px;display:flex;flex-direction:column;gap:3px}
+  .bars .row{display:flex;align-items:center;gap:5px;font-size:10.5px;color:var(--ink-3)}
+  .bars .track{flex:1;height:3px;background:var(--paper-2);position:relative}
+  .bars .track i{position:absolute;left:0;top:0;bottom:0;display:block}
+
+  footer{margin-top:16px;font-size:12px;color:var(--ink-4);line-height:1.7}
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="masthead">
+    <div class="top">
+      <span>寰宇纪年 · 同期对照</span>
+      <span>原型 B · Broadsheet</span>
+    </div>
+    <h1 class="serif">同 期 对 照</h1>
+    <div class="sub">两栏并读 · 按年代归并 · 一眼看出同一时期谁在做什么</div>
+    <div class="dateline">
+      <span>区间</span>
+      <input id="from" class="mono" value="1790" inputmode="numeric">
+      <span>—</span>
+      <input id="to" class="mono" value="1900" inputmode="numeric">
+      <span>·</span>
+      <b>清朝</b><span>对</span><b>大英帝国</b>
+    </div>
+  </div>
+
+  <div class="spread">
+    <section class="col" id="colA"></section>
+    <div class="gutter"></div>
+    <section class="col" id="colB"></section>
+    <div class="figures" id="figures"></div>
+  </div>
+
+  <footer>
+    原型说明：版式取报纸双栏，年代作为分组小标题，条目按时间自上而下。同一年两侧都有事件时，年份行标注"同期"。
+    把鼠标放到条目上可展开完整导语（此原型用两行截断模拟）。数据为示例。
+  </footer>
+</div>
+
+<script>
+const CAT = { political:'政治', military:'军事', economic:'经济', cultural:'文化' };
+const DATA = {
+  A: {
+    name:'清朝', span:'1636–1912 · 东亚',
+    items:[
+      { y:1793, t:'马戛尔尼使团抵华', c:'political', d:'英使以祝寿为名抵热河，礼仪之争使通商请求全部落空，双方对彼此的位置判断从此错位。' },
+      { y:1839, t:'虎门销烟', c:'political', d:'钦差大臣林则徐在虎门海滩当众销毁鸦片两万余箱，成为随后冲突的直接导火索。' },
+      { y:1840, t:'鸦片战争爆发', c:'military', d:'英舰北上定海、直逼天津，沿海防务在数月内被证明无法应对蒸汽舰队的机动。' },
+      { y:1842, t:'南京条约签订', c:'political', d:'割让香港岛、开放五口、赔款两千一百万银元，条约体系由此开始。' },
+      { y:1851, t:'太平天国起事', c:'military', d:'金田起义后两年内席卷长江中下游，清廷的常备军与财政同时被拖入长期消耗。' },
+      { y:1861, t:'洋务运动起步', c:'economic', d:'总理衙门设立，江南制造总局、福州船政局相继开办，以官办工业回应军事失利。' },
+      { y:1894, t:'甲午战争', c:'military', d:'黄海海战与威海卫之役后北洋水师覆没，洋务三十年的成果在一年内被重新估价。' },
+      { y:1898, t:'戊戌变法', c:'political', d:'百日之内诏令频出，触及科举、官制与军制，九月即被中止。' }
+    ]
+  },
+  B: {
+    name:'大英帝国', span:'1707–1997 · 欧洲',
+    items:[
+      { y:1801, t:'联合王国成立', c:'political', d:'英格兰与爱尔兰合并，议会席位重组，帝国的人力与市场底盘进一步扩大。' },
+      { y:1815, t:'滑铁卢战役', c:'military', d:'拿破仑战争终结，英国取得海上与殖民优势，随后进入近四十年的工业扩张期。' },
+      { y:1833, t:'废除奴隶制法案', c:'political', d:'帝国境内奴隶制被立法废除，政府以两千万英镑补偿奴隶主，为加勒比殖民地转轨付出代价。' },
+      { y:1837, t:'维多利亚登基', c:'political', d:'在位六十三年，帝国扩张、铁路铺设与城市人口膨胀都在这一时期完成。' },
+      { y:1851, t:'万国工业博览会', c:'economic', d:'水晶宫展出各国机器与制品，英国以"世界工场"的身份自居，自由贸易论调达到顶点。' },
+      { y:1857, t:'印度民族起义', c:'military', d:'兵变蔓延至北印度，事后东印度公司被撤销，印度改由王室直接统治。' },
+      { y:1884, t:'费边社成立', c:'cultural', d:'一批知识分子主张以渐进方式改良社会，其观点后来成为英国工党的思想来源之一。' },
+      { y:1899, t:'第二次布尔战争', c:'military', d:'游击战与集中营政策引发国内舆论反弹，帝国扩张的道德叙事第一次受到系统性质疑。' }
+    ]
+  }
+};
+
+const colA = document.getElementById('colA');
+const colB = document.getElementById('colB');
+const figEl = document.getElementById('figures');
+const fromEl = document.getElementById('from');
+const toEl = document.getElementById('to');
+
+function renderColumn(el, side, data, tieYears){
+  const a = Number(fromEl.value) || 1790;
+  const b = Number(toEl.value) || 1900;
+  const items = data.items.filter(e => e.y >= a && e.y <= b).sort((x, y) => x.y - y.y);
+
+  let html = '<div class="colhead">' +
+    '<div class="kicker">' + side + ' 方</div>' +
+    '<h2 class="serif">' + data.name + '</h2>' +
+    '<div class="meta">' + data.span + ' · 区间内 <b>' + items.length + '</b> 条</div></div>';
+
+  // 先按年分组，再逐组渲染；直接在字符串尾部拼接会在同一年多条目时闭合错位。
+  const groups = new Map();
+  for (const e of items) {
+    if (!groups.has(e.y)) groups.set(e.y, []);
+    groups.get(e.y).push(e);
+  }
+  for (const [year, list] of groups) {
+    html += '<div class="yeargroup"><div class="yr">' + year +
+      (tieYears.has(year) ? '<span class="tie">同期</span>' : '') + '</div>' +
+      list.map(renderEntry).join('') + '</div>';
+  }
+  if (!items.length) html += '<p style="color:var(--ink-3);font-size:13.5px">该区间内无收录条目。</p>';
+  el.innerHTML = html;
+}
+
+function renderEntry(e){
+  return '<article class="entry">' +
+    '<h3>' + e.t + '</h3>' +
+    '<p class="lead">' + e.d + '</p>' +
+    '<div class="foot">' +
+      '<span class="cat"><i style="background:var(--' + e.c + ')"></i>' + CAT[e.c] + '</span>' +
+      '<span>·</span><span class="mono">' + e.y + '</span>' +
+    '</div></article>';
+}
+
+function renderFigures(){
+  const a = Number(fromEl.value) || 1790;
+  const b = Number(toEl.value) || 1900;
+  const pick = (side) => DATA[side].items.filter(e => e.y >= a && e.y <= b);
+  const A = pick('A'), B = pick('B');
+  const catCount = (list, c) => list.filter(e => e.c === c).length;
+  const maxCat = Math.max(1, ...['political','military','economic','cultural']
+    .map(c => Math.max(catCount(A, c), catCount(B, c))));
+
+  const catBlock = (c) =>
+    '<div class="row"><span>' + CAT[c] + '</span>' +
+      '<span class="track"><i style="width:' + (catCount(A, c) / maxCat * 100) + '%;background:var(--indigo)"></i></span>' +
+      '<span class="mono">' + catCount(A, c) + '</span></div>' +
+    '<div class="row"><span></span>' +
+      '<span class="track"><i style="width:' + (catCount(B, c) / maxCat * 100) + '%;background:var(--rust)"></i></span>' +
+      '<span class="mono">' + catCount(B, c) + '</span></div>';
+
+  const tieYears = new Set(A.map(e => e.y).filter(y => B.some(e => e.y === y)));
+  figEl.innerHTML =
+    '<div class="fig"><div class="k">条目合计</div><div class="v">' + (A.length + B.length) +
+      '<small>条</small></div><div class="bars"><div class="row"><span>清</span><span class="track"><i style="width:' +
+      (A.length / Math.max(A.length + B.length, 1) * 100) + '%;background:var(--indigo)"></i></span><span class="mono">' +
+      A.length + '</span></div><div class="row"><span>英</span><span class="track"><i style="width:' +
+      (B.length / Math.max(A.length + B.length, 1) * 100) + '%;background:var(--rust)"></i></span><span class="mono">' +
+      B.length + '</span></div></div></div>' +
+    '<div class="fig"><div class="k">同期年份</div><div class="v">' + tieYears.size +
+      '<small>年</small></div><div class="bars"><div class="row">两侧同年均有条目</div></div></div>' +
+    '<div class="fig"><div class="k">政治 / 军事</div><div class="v">' +
+      (catCount(A,'political') + catCount(B,'political')) + ' / ' +
+      (catCount(A,'military') + catCount(B,'military')) + '</div>' +
+      '<div class="bars">' + catBlock('political') + catBlock('military') + '</div></div>' +
+    '<div class="fig"><div class="k">经济 / 文化</div><div class="v">' +
+      (catCount(A,'economic') + catCount(B,'economic')) + ' / ' +
+      (catCount(A,'cultural') + catCount(B,'cultural')) + '</div>' +
+      '<div class="bars">' + catBlock('economic') + catBlock('cultural') + '</div></div>' +
+    '<div class="fig"><div class="k">区间</div><div class="v">' + a + '–' + b +
+      '<small>年</small></div><div class="bars"><div class="row">跨度 ' + (b - a) + ' 年</div></div></div>';
+}
+
+function render(){
+  const a = Number(fromEl.value) || 1790;
+  const b = Number(toEl.value) || 1900;
+  const setA = new Set(DATA.A.items.filter(e => e.y >= a && e.y <= b).map(e => e.y));
+  const tieYears = new Set(DATA.B.items.filter(e => e.y >= a && e.y <= b && setA.has(e.y)).map(e => e.y));
+  renderColumn(colA, 'A', DATA.A, tieYears);
+  renderColumn(colB, 'B', DATA.B, tieYears);
+  renderFigures();
+}
+
+let timer = null;
+function debounce(){ clearTimeout(timer); timer = setTimeout(render, 220); }
+fromEl.addEventListener('input', debounce);
+toEl.addEventListener('input', debounce);
+render();
+</script>
+</body>
+</html>

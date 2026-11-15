@@ -17,9 +17,15 @@ import { readdirSync, unlinkSync } from 'fs';
  */
 function stripNonShippable() {
   const BLOCKED = [/cliopatria_polities_only/, /\.backup_/, /_backup\./];
+  let outDir = resolve('dist');
   return {
     name: 'strip-non-shippable',
     apply: 'build',
+    configResolved(config) {
+      // Follow --outDir: a hard-coded 'dist' would silently skip the guard on
+      // a custom output directory, which is exactly when it matters most.
+      outDir = resolve(config.root, config.build.outDir);
+    },
     closeBundle() {
       const rm = (dir) => {
         try {
@@ -39,7 +45,7 @@ function stripNonShippable() {
           /* ignore */
         }
       };
-      rm('dist');
+      rm(outDir);
     },
   };
 }

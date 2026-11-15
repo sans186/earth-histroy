@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日光 01 · 图册跨页 Atlas Spread</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+/* ══════════════════════════════════════════════════════════════════════════
+   日光 01 · 图册跨页
+   结构：这本"书"没有导航栏。上缘是书眉（running head），
+        左右页边是释文与索引，中间是图版，下缘是比例尺带。
+        时间轴不是滑块，而是印刷在页面下缘的一把刻度尺。
+   ══════════════════════════════════════════════════════════════════════════ */
+:root{
+  --paper:#f7f5f0;
+  --paper-2:#efece4;
+  --paper-3:#e6e2d7;
+  --ink:#1a1c20;
+  --ink-2:#4c4f56;
+  --ink-3:#8d8c86;
+  --rule:#dcd7cb;
+  --rule-2:#c3bcac;
+  --indigo:#26406b;
+  --rust:#b0522d;
+  --olive:#7d8a6a;
+
+  --serif:'Fraunces','Noto Serif SC',Georgia,serif;
+  --sans:'Inter','Noto Sans SC',system-ui,sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{
+  background:var(--paper);color:var(--ink);font-family:var(--sans);
+  font-size:13px;line-height:1.55;overflow:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+/* paper grain — two very faint layers, never visible as "texture" */
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:99;
+  background:
+    repeating-linear-gradient(0deg,rgba(120,110,90,.022) 0 1px,transparent 1px 3px),
+    radial-gradient(120% 100% at 50% 0%,rgba(255,255,255,.5),transparent 60%);
+}
+.n{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.cap{font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;font-weight:500;color:var(--ink-3)}
+
+/* ── shell ─────────────────────────────────────────────────────────────── */
+.page{
+  height:100vh;display:grid;
+  grid-template-rows:auto auto 1fr auto;
+  padding:0 34px;
+}
+
+/* running head */
+.head{display:flex;align-items:baseline;padding:16px 0 9px}
+.head .l,.head .r{flex:1;font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3)}
+.head .r{text-align:right}
+.head .c{font-family:var(--serif);font-size:12px;letter-spacing:.5em;color:var(--ink-2);text-indent:.5em}
+.dbl{border-top:1px solid var(--rule-2);border-bottom:1px solid var(--rule);height:3px;margin-bottom:2px}
+
+/* ── spread ────────────────────────────────────────────────────────────── */
+.spread{
+  display:grid;
+  grid-template-columns:52px minmax(0,1fr) 258px;
+  gap:0;min-height:0;position:relative;
+}
+
+/* left rail: tools, vertical */
+.rail{
+  border-right:1px solid var(--rule);
+  display:flex;flex-direction:column;align-items:center;
+  padding:18px 0;gap:22px;
+}
+.rail button{
+  width:30px;height:30px;display:grid;place-items:center;
+  color:var(--ink-3);border-radius:50%;transition:.18s;position:relative;
+}
+.rail button:hover{color:var(--ink);background:var(--paper-2)}
+.rail button.on{color:var(--indigo)}
+.rail button.on::after{
+  content:"";position:absolute;left:-11px;top:50%;transform:translateY(-50%);
+  width:2px;height:16px;background:var(--indigo);
+}
+.rail .sep{width:16px;height:1px;background:var(--rule)}
+.rail svg{width:15px;height:15px;stroke:currentColor;fill:none;stroke-width:1.4}
+
+/* ── plate ─────────────────────────────────────────────────────────────── */
+.plate-area{position:relative;min-width:0;display:grid;place-items:center;padding:0 26px}
+.ghost{
+  position:absolute;right:38px;top:6px;font-family:var(--serif);font-weight:700;
+  font-size:132px;line-height:.8;color:var(--ink);opacity:.045;letter-spacing:-.02em;
+  pointer-events:none;user-select:none;
+}
+figure.plate{position:relative;display:flex;flex-direction:column;align-items:center;gap:14px;max-width:100%}
+.plate-frame{
+  position:relative;padding:22px;border:1px solid var(--rule);
+}
+.plate-frame::after{
+  content:"";position:absolute;inset:5px;border:1px solid var(--rule);pointer-events:none;
+}
+.plate-frame svg{display:block;width:min(52vh,58vw);height:auto;filter:drop-shadow(0 14px 30px rgba(60,50,35,.13))}
+figcaption{
+  display:flex;align-items:baseline;gap:14px;width:100%;
+  padding-top:12px;border-top:1px solid var(--rule);
+}
+figcaption .no{font-family:var(--serif);font-size:11px;letter-spacing:.2em;color:var(--rust)}
+figcaption .ti{font-family:var(--serif);font-size:13.5px;color:var(--ink)}
+figcaption .sc{margin-left:auto;display:flex;align-items:center;gap:7px;font-size:9.5px;color:var(--ink-3);letter-spacing:.1em}
+figcaption .sc i{display:block;width:58px;height:6px;border:1px solid var(--rule-2);border-top:0}
+
+/* callouts with leader lines */
+.callout{position:absolute;display:flex;align-items:center;gap:0;font-size:10.5px;color:var(--ink-2);pointer-events:none}
+.callout .dot{width:5px;height:5px;border-radius:50%;background:var(--rust);flex:none}
+.callout .lead{width:44px;height:1px;background:var(--rule-2)}
+.callout .tag{
+  background:var(--paper);border:1px solid var(--rule);padding:2px 7px;
+  font-family:var(--serif);font-size:11px;white-space:nowrap;
+}
+.c1{left:14%;top:26%}
+.c1 .lead{width:34px}
+.c2{right:8%;bottom:30%;flex-direction:row-reverse}
+.c2 .lead{margin-right:0}
+
+/* ── index column ──────────────────────────────────────────────────────── */
+.index-col{border-left:1px solid var(--rule);padding:20px 0 0 22px;display:flex;flex-direction:column;min-height:0}
+.index-col h2{
+  font-family:var(--serif);font-size:12px;font-weight:600;letter-spacing:.3em;
+  color:var(--ink-2);padding-bottom:9px;border-bottom:1px solid var(--rule-2);
+}
+ol.idx{list-style:none;overflow:auto;flex:1;margin:0 -8px 0 0;padding-right:6px}
+ol.idx li{
+  display:flex;align-items:baseline;gap:8px;
+  padding:9px 0;border-bottom:1px dotted var(--rule-2);cursor:pointer;
+}
+ol.idx li:hover .t{color:var(--rust)}
+ol.idx .no{font-family:var(--mono);font-size:9.5px;color:var(--ink-3);flex:none;width:16px}
+ol.idx .t{font-size:12.5px;line-height:1.35;color:var(--ink);flex:1}
+ol.idx .dots{flex:1;border-bottom:1px dotted var(--rule-2);margin:0 2px;transform:translateY(-3px);min-width:8px}
+ol.idx .pg{font-family:var(--mono);font-size:9.5px;color:var(--ink-3);flex:none}
+.idx-foot{padding:14px 0 4px;border-top:1px solid var(--rule-2);margin-top:6px}
+.idx-foot .row{display:flex;align-items:center;gap:9px;font-size:11px;color:var(--ink-2);padding:3px 0}
+.idx-foot .row i{width:14px;height:2.5px;display:block;flex:none}
+
+/* ── scale band (the "timeline") ───────────────────────────────────────── */
+.band{border-top:1px solid var(--rule-2);padding:9px 0 14px}
+.band-inner{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:24px}
+.folio{font-family:var(--mono);font-size:10px;color:var(--ink-3);letter-spacing:.1em}
+.scale{position:relative;height:44px}
+.scale .rail{position:absolute;left:0;right:0;top:20px;height:1px;background:var(--rule-2)}
+.scale .done{position:absolute;left:0;top:20px;height:1px;background:var(--ink);width:72%}
+.scale .ticks i{position:absolute;top:20px;width:1px;background:var(--rule-2);transform:translateY(-50%)}
+.scale .ticks i.mj{height:13px}
+.scale .ticks i.mn{height:6px}
+.scale .names{position:absolute;left:0;right:0;top:24px;font-family:var(--mono);font-size:8.5px;color:var(--ink-3);letter-spacing:.04em}
+.scale .names span{position:absolute;transform:translateX(-50%);white-space:nowrap}
+.scale .eras{position:absolute;left:0;right:0;top:0;height:14px}
+.scale .eras span{position:absolute;font-size:9px;letter-spacing:.16em;color:var(--ink-3);border-left:1px solid var(--rule-2);padding-left:6px;line-height:1}
+.scale .eras span.hot{color:var(--rust)}
+.scale .knob{position:absolute;left:72%;top:20px;transform:translate(-50%,-50%);width:11px;height:11px;background:var(--rust);border:2px solid var(--paper);box-shadow:0 0 0 1px var(--rust)}
+.scale .flag{position:absolute;left:72%;top:-16px;transform:translateX(-50%);font-family:var(--mono);font-size:10px;color:var(--rust);white-space:nowrap}
+.readout{text-align:right;display:flex;align-items:baseline;gap:9px}
+.readout .y{font-family:var(--serif);font-size:24px;font-weight:600;letter-spacing:.02em}
+.readout .e{font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)}
+.note{position:fixed;right:12px;bottom:8px;font-family:var(--mono);font-size:9px;color:var(--ink-3);opacity:.7;letter-spacing:.1em;z-index:100}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="head">
+    <span class="l">寰宇纪年 · 图版集</span>
+    <span class="c">A T L A S</span>
+    <span class="r">卷二 · 近代 &nbsp;|&nbsp; PL. XLII</span>
+  </header>
+  <div class="dbl"></div>
+
+  <div class="spread">
+
+    <nav class="rail">
+      <button class="on" title="地球"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></svg></button>
+      <button title="对比"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="7" height="16"/><rect x="14" y="4" width="7" height="16"/></svg></button>
+      <button title="检索"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="M15.5 15.5 21 21"/></svg></button>
+      <span class="sep"></span>
+      <button title="图层"><svg viewBox="0 0 24 24"><path d="M12 3 3 8l9 5 9-5z"/><path d="m3 13 9 5 9-5"/></svg></button>
+      <button title="史料"><svg viewBox="0 0 24 24"><path d="M5 4h9l5 5v11H5z"/><path d="M14 4v5h5"/></svg></button>
+      <span class="sep"></span>
+      <button title="导出"><svg viewBox="0 0 24 24"><path d="M12 15V4"/><path d="m8 8 4-4 4 4"/><path d="M5 15v4h14v-4"/></svg></button>
+    </nav>
+
+    <main class="plate-area">
+      <div class="ghost">1911</div>
+
+      <figure class="plate">
+        <div class="plate-frame">
+          <svg viewBox="0 0 560 560" aria-label="地球图版">
+            <defs>
+              <radialGradient id="sph" cx="33%" cy="26%" r="82%">
+                <stop offset="0%" stop-color="#fefdfa"/>
+                <stop offset="55%" stop-color="#e9e3d6"/>
+                <stop offset="100%" stop-color="#c2baa8"/>
+              </radialGradient>
+              <clipPath id="cl"><circle cx="280" cy="280" r="212"/></clipPath>
+            </defs>
+            <circle cx="280" cy="280" r="212" fill="url(#sph)"/>
+            <g clip-path="url(#cl)" fill="#9aa78f" opacity=".72">
+              <path d="M280 138c38-10 76 9 90 44 12 32 3 66-11 100-10 29-15 62-34 91-14 24-34 37-48 27-14-9-9-42-14-77-7-43-14-79-10-116 5-33 10-59 27-69z"/>
+              <path d="M164 162c19-10 33 6 28 30-5 24-19 39-24 69-5 29 5 59 0 87-4 23-17 37-27 27-9-9-4-37-6-66-4-33 4-65 6-95 2-24 10-42 23-52z"/>
+              <path d="M392 356c19-10 40 0 46 19 6 16-8 32-25 30-17-2-28-16-26-31 1-8 3-15 5-18z"/>
+            </g>
+            <g clip-path="url(#cl)" fill="none" stroke="#9a917f" stroke-width=".9" opacity=".62">
+              <ellipse cx="280" cy="280" rx="212" ry="58"/>
+              <ellipse cx="280" cy="280" rx="212" ry="116"/>
+              <ellipse cx="280" cy="280" rx="212" ry="172"/>
+              <ellipse cx="280" cy="280" rx="58" ry="212"/>
+              <ellipse cx="280" cy="280" rx="116" ry="212"/>
+              <ellipse cx="280" cy="280" rx="172" ry="212"/>
+              <line x1="68" y1="280" x2="492" y2="280"/>
+              <line x1="280" y1="68" x2="280" y2="492"/>
+            </g>
+            <g clip-path="url(#cl)">
+              <polygon points="278,178 326,192 348,244 316,282 274,268 260,218" fill="#26406b" opacity=".13" stroke="#26406b" stroke-width="1.4"/>
+              <circle cx="300" cy="228" r="4.6" fill="#b0522d"/>
+              <circle cx="300" cy="228" r="10" fill="none" stroke="#b0522d" stroke-width="1" opacity=".5"/>
+              <circle cx="190" cy="240" r="3.2" fill="#26406b"/>
+              <circle cx="388" cy="378" r="3.2" fill="#26406b"/>
+              <circle cx="240" cy="332" r="3.2" fill="#7d8a6a"/>
+              <circle cx="366" cy="184" r="3.2" fill="#7d8a6a"/>
+            </g>
+            <circle cx="280" cy="280" r="212" fill="none" stroke="#8d8c86" stroke-width="1.2"/>
+          </svg>
+
+          <div class="callout c1"><span class="dot"></span><span class="lead"></span><span class="tag">武昌</span></div>
+          <div class="callout c2"><span class="dot"></span><span class="lead"></span><span class="tag">阿加迪尔</span></div>
+        </div>
+
+        <figcaption>
+          <span class="no">图版 XLII</span>
+          <span class="ti">东亚 · 公元 1911 年</span>
+          <span class="sc">比例尺 <i></i> 2,000 km &nbsp;·&nbsp; 等距圆柱投影</span>
+        </figcaption>
+      </figure>
+    </main>
+
+    <aside class="index-col">
+      <h2>本 年 条 目</h2>
+      <ol class="idx">
+        <li><span class="no">01</span><span class="t">辛亥革命爆发</span><span class="dots"></span><span class="pg">10</span></li>
+        <li><span class="no">02</span><span class="t">墨西哥革命开始</span><span class="dots"></span><span class="pg">11</span></li>
+        <li><span class="no">03</span><span class="t">阿蒙森抵达南极点</span><span class="dots"></span><span class="pg">12</span></li>
+        <li><span class="no">04</span><span class="t">纽约公共图书馆落成</span><span class="dots"></span><span class="pg">5</span></li>
+        <li><span class="no">05</span><span class="t">超导现象首次发现</span><span class="dots"></span><span class="pg">4</span></li>
+        <li><span class="no">06</span><span class="t">第二次摩洛哥危机</span><span class="dots"></span><span class="pg">7</span></li>
+        <li><span class="no">07</span><span class="t">南极点科考竞赛</span><span class="dots"></span><span class="pg">12</span></li>
+      </ol>
+      <div class="idx-foot">
+        <div class="cap" style="margin-bottom:8px">图 例</div>
+        <div class="row"><i style="background:#26406b"></i>政治</div>
+        <div class="row"><i style="background:#b0522d"></i>军事</div>
+        <div class="row"><i style="background:#7d8a6a"></i>科技 · 文化</div>
+        <div class="row" style="color:var(--ink-3);margin-top:6px">共 7 条 · 5 条有坐标</div>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="band">
+    <div class="band-inner">
+      <span class="folio">FOL. 1911</span>
+
+      <div class="scale">
+        <div class="eras">
+          <span style="left:2%">青铜</span>
+          <span style="left:24%">铁器</span>
+          <span style="left:38%">古典</span>
+          <span style="left:50%">中古</span>
+          <span style="left:62%">近世</span>
+          <span class="hot" style="left:72%">近代</span>
+          <span style="left:84%">当代</span>
+        </div>
+        <div class="rail"></div>
+        <div class="done"></div>
+        <div class="ticks">
+          <i class="mj" style="left:4%;height:13px"></i><i class="mn" style="left:10%;height:6px"></i>
+          <i class="mn" style="left:16%;height:6px"></i><i class="mj" style="left:24%;height:13px"></i>
+          <i class="mn" style="left:31%;height:6px"></i><i class="mn" style="left:38%;height:6px"></i>
+          <i class="mj" style="left:46%;height:13px"></i><i class="mn" style="left:54%;height:6px"></i>
+          <i class="mn" style="left:62%;height:6px"></i><i class="mj" style="left:72%;height:13px"></i>
+          <i class="mn" style="left:80%;height:6px"></i><i class="mj" style="left:90%;height:13px"></i>
+        </div>
+        <div class="names">
+          <span style="left:4%">-3100</span>
+          <span style="left:24%">-1046</span>
+          <span style="left:46%">581</span>
+          <span style="left:62%">1368</span>
+          <span style="left:72%">1840</span>
+          <span style="left:90%">1949</span>
+        </div>
+        <div class="flag">1911</div>
+        <div class="knob"></div>
+      </div>
+
+      <div class="readout">
+        <span class="e">近代<br>MODERN</span>
+        <span class="y">1911</span>
+      </div>
+    </div>
+  </footer>
+</div>
+<div class="note">DAYLIGHT 01 · ATLAS SPREAD</div>
+</body>
+</html>
