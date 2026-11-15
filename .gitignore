@@ -61,6 +61,8 @@ public/ne/*.backup_*
 public/ne/*_backup.*
 
 # Local working material (kept on disk, never committed)
+# Workspace agent memory is session-local, not project source.
+.workbuddy/memory/
 # Old pre-Vue source is already in git history; no need for a second copy.
 .archive/
 .omo/
