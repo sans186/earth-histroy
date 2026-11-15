@@ -36,6 +36,17 @@ const eraText = computed(() => (ui.locale === 'zh' ? timeline.era.name : timelin
       </button>
     </nav>
 
+    <!-- Renderer switch: only meaningful while exploring, since the comparison
+         board has no 3D/2D distinction. -->
+    <div v-if="ui.view === 'explore'" class="stages" role="group">
+      <button :class="{ on: ui.stage === '3d' }" @click="ui.setStage('3d')">
+        {{ ui.t('stage.3d') }}
+      </button>
+      <button :class="{ on: ui.stage === '2d' }" @click="ui.setStage('2d')">
+        {{ ui.t('stage.2d') }}
+      </button>
+    </div>
+
     <div class="right">
       <span class="folio cap">{{ ui.t('head.folio') }} {{ yearText }}</span>
       <span class="era">{{ eraText }}</span>
@@ -88,7 +99,7 @@ const eraText = computed(() => (ui.locale === 'zh' ? timeline.era.name : timelin
   letter-spacing: 0.06em;
 }
 .tag {
-  font-size: 9.5px;
+  font-size: 11.5px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--ink-3);
@@ -114,6 +125,29 @@ nav button:hover {
 nav button.on {
   color: var(--ink);
   border-bottom-color: var(--rust);
+}
+
+.stages {
+  display: flex;
+  border: 1px solid var(--rule-2);
+  margin-left: -8px;
+}
+.stages button {
+  font-size: 11.5px;
+  letter-spacing: 0.08em;
+  padding: 3px 9px;
+  color: var(--ink-3);
+  border-right: 1px solid var(--rule);
+}
+.stages button:last-child {
+  border-right: none;
+}
+.stages button:hover {
+  color: var(--ink);
+}
+.stages button.on {
+  background: var(--ink);
+  color: var(--card);
 }
 
 .right {
@@ -157,7 +191,7 @@ nav button.on {
 }
 .lang {
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.08em;
 }
 </style>

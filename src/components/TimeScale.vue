@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue';
 import { ERAS, SCALE_MAX, YEAR_MAX, YEAR_MIN, eraSpan } from '@/config';
+import { formatYearCompact } from '@/lib/format';
 import { useTimelineStore } from '@/stores/timeline';
 import { useUiStore } from '@/stores/ui';
 
@@ -36,7 +37,7 @@ const ticks = computed(() => {
 const names = computed(() =>
   ERAS.map((era) => ({
     left: `${eraSpan(era).left}%`,
-    label: era.start < 0 ? `${-era.start} BCE` : `${era.start}`,
+    label: formatYearCompact(era.start, ui.locale),
   })),
 );
 
@@ -50,6 +51,9 @@ function scaleFromEvent(clientX: number) {
 
 function onPointerDown(event: PointerEvent) {
   dragging.value = true;
+  // Down here, not in the store watcher: subscribers use it to defer their
+  // loads until the reader lets go of the scale.
+  timeline.setScrubbing(true);
   (event.currentTarget as HTMLElement).setPointerCapture(event.pointerId);
   scaleFromEvent(event.clientX);
 }
@@ -60,7 +64,9 @@ function onPointerMove(event: PointerEvent) {
 }
 
 function onPointerUp(event: PointerEvent) {
+  if (!dragging.value) return;
   dragging.value = false;
+  timeline.setScrubbing(false);
   (event.currentTarget as HTMLElement).releasePointerCapture(event.pointerId);
 }
 
@@ -73,6 +79,17 @@ function onKey(event: KeyboardEvent) {
     timeline.setScale(Math.min(SCALE_MAX, timeline.scale + big));
     event.preventDefault();
   }
+}
+
+/**
+ * Move the clock by a fixed number of years.
+ *
+ * Buttons are the only ±1 year control — the arrow keys are a coarser stride on
+ * purpose (`ARROW_STRIDE`). Holding a button down is safe: App debounces the
+ * reload, so a burst of clicks produces one window of requests.
+ */
+function step(years: number) {
+  timeline.setYear(timeline.year + years);
 }
 
 const yearInput = ref('');
@@ -111,6 +128,23 @@ function applyJump() {
           />
           <button @click="applyJump">{{ ui.t('scale.go') }}</button>
         </div>
+      </div>
+
+      <div class="steps">
+        <button
+          :title="ui.t('scale.prev5')"
+          :aria-label="ui.t('scale.prev5')"
+          @click="step(-5)"
+        >
+          −5
+        </button>
+        <button
+          :title="ui.t('scale.prev1')"
+          :aria-label="ui.t('scale.prev1')"
+          @click="step(-1)"
+        >
+          −1
+        </button>
       </div>
 
       <div
@@ -160,9 +194,26 @@ function applyJump() {
         <div class="knob" :style="{ left: handleLeft }" />
       </div>
 
+      <div class="steps">
+        <button
+          :title="ui.t('scale.next1')"
+          :aria-label="ui.t('scale.next1')"
+          @click="step(1)"
+        >
+          +1
+        </button>
+        <button
+          :title="ui.t('scale.next5')"
+          :aria-label="ui.t('scale.next5')"
+          @click="step(5)"
+        >
+          +5
+        </button>
+      </div>
+
       <div class="readout">
         <div class="year serif">
-          <small v-if="timeline.isBCE">BCE</small>{{ timeline.absYear }}
+          <small v-if="timeline.isBCE">{{ ui.t('unit.bce') }}</small>{{ timeline.absYear }}
         </div>
         <div class="meta">
           <span>{{ ui.locale === 'zh' ? timeline.era.name : timeline.era.nameEn }}</span>
@@ -181,10 +232,33 @@ function applyJump() {
 }
 .grid {
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-columns: auto auto minmax(0, 1fr) auto auto;
   align-items: center;
-  gap: 26px;
+  gap: 14px;
   height: 100%;
+}
+
+/* Step buttons sit on both sides of the rail, reading like a transport bar. */
+.steps {
+  display: flex;
+  border: 1px solid var(--rule);
+}
+.steps button {
+  width: 34px;
+  height: 26px;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--ink-2);
+}
+.steps button + button {
+  border-left: 1px solid var(--rule);
+}
+.steps button:hover {
+  background: var(--paper-2);
+  color: var(--ink);
+}
+.steps button:active {
+  background: var(--paper-3, var(--paper-2));
 }
 
 .left {
@@ -200,7 +274,7 @@ function applyJump() {
   width: 82px;
   height: 24px;
   padding: 0 7px;
-  font-size: 11px;
+  font-size: 13px;
   color: var(--ink);
   background: var(--paper);
   border: 0;
@@ -212,7 +286,7 @@ function applyJump() {
 .jump button {
   height: 24px;
   padding: 0 10px;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.12em;
   color: var(--ink-2);
 }
@@ -242,7 +316,7 @@ function applyJump() {
 .era {
   position: absolute;
   top: 0;
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.16em;
   color: var(--ink-4);
   border-left: 1px solid var(--rule-2);
@@ -294,7 +368,7 @@ function applyJump() {
   right: 0;
   top: 40px;
   font-family: var(--font-mono);
-  font-size: 8.5px;
+  font-size: 9.5px;
   color: var(--ink-4);
 }
 .names span {
@@ -329,7 +403,7 @@ function applyJump() {
 }
 .year small {
   font-family: var(--font-sans);
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.16em;
   color: var(--ink-3);
   margin-right: 5px;
@@ -337,7 +411,7 @@ function applyJump() {
 .meta {
   display: flex;
   gap: 10px;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--ink-3);

@@ -135,6 +135,37 @@ export function formatYearShort(year: number): string {
   return year < 0 ? `${-year} BCE` : `${year}`;
 }
 
+/**
+ * The same compact year, but localised — "前500" rather than "500 BCE".
+ *
+ * `formatYear` spells the era out ("公元前 500 年"), which is too long for a
+ * column header or a card's metadata row; this keeps the terse form that
+ * timelines actually use, and leaves positive years bare in both languages.
+ */
+export function formatYearCompact(year: number, locale: Locale): string {
+  return year < 0 ? (locale === 'zh' ? `前${-year}` : `${-year} BCE`) : `${year}`;
+}
+
+/**
+ * A start–end span for polities and wars.
+ *
+ * Both the comparison header and the polity/war cards read the same two fields,
+ * so the wording lives here instead of being re-derived at each site; unknown
+ * ends print "?" and a one-year span collapses to a single value.
+ */
+export function formatYearRange(
+  from: number | null | undefined,
+  to: number | null | undefined,
+  locale: Locale,
+): string {
+  const known = (v: number | null | undefined) => v !== null && v !== undefined;
+  const fmt = (v: number | null | undefined) =>
+    v === null || v === undefined ? '?' : formatYearCompact(v, locale);
+  if (!known(from) && !known(to)) return '—';
+  if (from === to) return fmt(from);
+  return `${fmt(from)} – ${fmt(to)}`;
+}
+
 export function formatArea(km2: number | null | undefined, locale: Locale): string {
   if (!km2 || !Number.isFinite(km2)) return '—';
   if (km2 >= 1_000_000) {

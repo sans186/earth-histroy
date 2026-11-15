@@ -60,7 +60,7 @@ const ui = useUiStore();
   color: var(--ink);
 }
 .hint {
-  font-size: 10.5px;
+  font-size: 12.5px;
   color: var(--ink-3);
 }
 .veil-enter-active,

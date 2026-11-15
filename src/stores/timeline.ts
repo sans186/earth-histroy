@@ -17,6 +17,15 @@ export const useTimelineStore = defineStore('timeline', () => {
   const year = ref(DEFAULT_YEAR);
   const scale = ref(yearToScale(DEFAULT_YEAR));
 
+  /**
+   * True while the scale is being dragged.
+   *
+   * A drag changes `year` on every pointer move, so anything that loads data on
+   * that signal fires dozens of times a second. Subscribers check this and wait
+   * for the release instead.
+   */
+  const scrubbing = ref(false);
+
   const era = computed(() => getEra(year.value));
   const isBCE = computed(() => year.value < 0);
   const absYear = computed(() => Math.abs(year.value));
@@ -32,6 +41,10 @@ export const useTimelineStore = defineStore('timeline', () => {
     scale.value = next;
     const v = scaleToYear(next);
     if (v !== year.value) year.value = v;
+  }
+
+  function setScrubbing(next: boolean) {
+    scrubbing.value = next;
   }
 
   function stepBy(delta: number) {
@@ -50,11 +63,13 @@ export const useTimelineStore = defineStore('timeline', () => {
   return {
     year,
     scale,
+    scrubbing,
     era,
     isBCE,
     absYear,
     setYear,
     setScale,
+    setScrubbing,
     stepBy,
     nudge,
     goToEra,

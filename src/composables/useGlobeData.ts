@@ -1,5 +1,6 @@
-import { computed, ref } from 'vue';
+import { computed, ref, watch } from 'vue';
 import { YEAR_WINDOW } from '@/config';
+import { scopeHasPoint, scopeOverlapsYears } from '@/lib/polityScope';
 import {
   clearEventCache,
   clearPolityCache,
@@ -65,6 +66,15 @@ export function useGlobeData() {
   const windowEvents = ref<TimelineEvent[]>([]);
   const polityNames = ref<Record<string, string>>({});
 
+  /*
+   * Pull the English→Chinese name map at start-up, not from the polity render
+   * path. It used to be fetched only inside `refreshPolities`, so anything that
+   * needed Chinese polity names before the layer had painted — the comparison
+   * column headers above all — fell back to the English original and stayed
+   * there, which is exactly the "still English in Chinese mode" bug.
+   */
+  void ensurePolityNames();
+
   /**
    * Prepared geometry, keyed by tier and century file, shared across renders.
    *
@@ -77,6 +87,8 @@ export function useGlobeData() {
   let eventGen = 0;
   let polityGen = 0;
   let eventAbort: AbortController | null = null;
+  /** Set once a window has landed, so later loads stop veiling the interface. */
+  let eventsLoadedOnce = false;
   /** Tier currently drawn; `null` until the first polity load finishes. */
   let activeTier: PolityTier | null = null;
   /**
@@ -89,9 +101,21 @@ export function useGlobeData() {
   let lastEventSignature = '';
   let lastPolitySignature = '';
 
-  const filteredEvents = computed(() =>
-    windowEvents.value.filter((e) => layers.isActive(e.category)),
-  );
+  const filteredEvents = computed(() => {
+    const list = windowEvents.value.filter((e) => layers.isActive(e.category));
+
+    /*
+     * Filtering by the open polity also trims the globe, not just the sidebar:
+     * a reader who scopes the panel to one empire expects the map to agree with
+     * it. Events carry coordinates, so this is the one list where the spatial
+     * test is exact rather than a name guess.
+     */
+    const scope = ui.scopeToPolity ? ui.polityScope : null;
+    if (!scope) return list;
+    return list.filter(
+      (e) => scopeHasPoint(scope, e.lon, e.lat) && scopeOverlapsYears(scope, e.year, e.year),
+    );
+  });
 
   const locatedCount = computed(
     () => filteredEvents.value.filter((e) => e.lon !== null && e.lat !== null).length,
@@ -105,7 +129,12 @@ export function useGlobeData() {
     const controller = new AbortController();
     eventAbort = controller;
 
-    const done = ui.beginTask('loading.events');
+    /*
+     * Only the first load is allowed to veil the interface. Later ones happen
+     * on every timeline move; blocking there is what made a drag feel like a
+     * page reload rather than a scrub.
+     */
+    const done = ui.beginTask('loading.events', !eventsLoadedOnce);
     try {
       const result = await loadEventWindow(
         timeline.year,
@@ -115,13 +144,17 @@ export function useGlobeData() {
       );
       if (gen !== eventGen) return;
       windowEvents.value = result.events;
+      eventsLoadedOnce = true;
       ui.setError(null);
     } catch (err) {
       if ((err as Error)?.name === 'AbortError') return;
       if (gen !== eventGen) return;
       ui.setError((err as Error).message || String(err));
     } finally {
-      if (gen === eventGen) done();
+      // Always released: each call incremented its own task counter, so gating
+      // this on the generation leaked one blocking task per superseded reload
+      // and left the veil up for good.
+      done();
     }
   }
 
@@ -169,9 +202,14 @@ export function useGlobeData() {
 
     // The tier belongs in the identity: one feature carries different geometry
     // in each tier, so a tier switch must never be mistaken for a no-op.
-    const signature = `${activeTier ?? ''}|${fingerprint(shown, polityKey)}`;
+    // The tier and the language both change what the layer must draw; the label
+    // switch does not, since names are toggled in place.
+    const signature = `${activeTier ?? ''}|${ui.locale}|${fingerprint(shown, polityKey)}`;
     if (signature !== lastPolitySignature) {
-      globe.renderPolities(shown.map((s) => s.feature), polityNames.value);
+      globe.renderPolities(shown.map((s) => s.feature), polityNames.value, {
+        labels: layers.showPolityNames,
+        locale: ui.locale,
+      });
       lastPolitySignature = signature;
     }
 
@@ -293,7 +331,14 @@ export function useGlobeData() {
     lastEventSignature = '';
     lastPolitySignature = '';
     windowEvents.value = [];
+    eventsLoadedOnce = false;
   }
+
+  // Toggling names is a visibility change, not new geometry.
+  watch(
+    () => layers.showPolityNames,
+    (on) => globe.setPolityLabelsVisible(on),
+  );
 
   return {
     windowEvents,

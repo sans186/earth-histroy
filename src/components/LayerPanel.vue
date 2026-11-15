@@ -45,6 +45,12 @@ function catLabel(key: CategoryKey) {
       />
       <ToggleRow v-model="layers.showPolities" :label="ui.t('layer.polities')" />
       <ToggleRow
+        v-model="layers.showPolityNames"
+        :label="ui.t('layer.polityNames')"
+        :hint="ui.t('layer.polityNamesHint')"
+        :disabled="!layers.showPolities"
+      />
+      <ToggleRow
         v-model="layers.adjacentCenturies"
         :label="ui.t('layer.adjacent')"
         :hint="ui.t('layer.slow')"
@@ -123,7 +129,7 @@ h4 {
 }
 .all {
   margin-left: auto;
-  font-size: 9.5px;
+  font-size: 11.5px;
   letter-spacing: 0.14em;
   color: var(--ink-3);
   border: 1px solid var(--rule-2);
@@ -179,7 +185,7 @@ h4 {
   align-items: center;
   gap: 7px;
   padding: 5px 8px;
-  font-size: 11.5px;
+  font-size: 13.5px;
   border: 1px solid var(--rule);
   color: var(--ink-3);
   background: var(--paper);
@@ -215,7 +221,7 @@ h4 {
   gap: 8px;
 }
 .stats dt {
-  font-size: 11.5px;
+  font-size: 13.5px;
   color: var(--ink-3);
 }
 .stats dd {
@@ -225,7 +231,7 @@ h4 {
 }
 .note {
   margin-top: 10px;
-  font-size: 10.5px;
+  font-size: 12.5px;
   line-height: 1.7;
   color: var(--ink-4);
   padding-top: 9px;

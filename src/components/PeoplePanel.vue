@@ -68,6 +68,16 @@ function eraColor(person: PersonIndexItem): string {
           <span>{{ ui.t('people.aliveOnly') }}</span>
         </label>
       </div>
+      <button
+        v-if="ui.polityScope"
+        class="scope-chip"
+        :class="{ on: ui.scopeToPolity }"
+        :title="ui.t('filter.polityHint')"
+        @click="ui.toggleScopeToPolity()"
+      >
+        <i v-if="ui.scopeToPolity">✓</i>
+        <span>{{ ui.t('filter.polity') }} · {{ ui.polityScope.label }}</span>
+      </button>
       <div v-if="people.eras.length" class="eras">
         <button :class="{ on: people.era === 'all' }" @click="people.era = 'all'">
           {{ ui.t('people.all') }}
@@ -156,7 +166,7 @@ function eraColor(person: PersonIndexItem): string {
 }
 .sorts button {
   padding: 3px 8px;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--ink-3);
   border-right: 1px solid var(--rule);
 }
@@ -171,7 +181,7 @@ function eraColor(person: PersonIndexItem): string {
   display: flex;
   align-items: center;
   gap: 5px;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--ink-3);
   cursor: pointer;
 }
@@ -185,7 +195,7 @@ function eraColor(person: PersonIndexItem): string {
   gap: 4px;
 }
 .eras button {
-  font-size: 10px;
+  font-size: 12px;
   padding: 2px 7px;
   color: var(--ink-3);
   border: 1px solid var(--rule);
@@ -234,7 +244,7 @@ function eraColor(person: PersonIndexItem): string {
 }
 .name {
   font-family: var(--font-display);
-  font-size: 12.5px;
+  font-size: 13.5px;
   line-height: 1.4;
   color: var(--ink);
   overflow: hidden;
@@ -244,14 +254,14 @@ function eraColor(person: PersonIndexItem): string {
 .span {
   margin-left: auto;
   flex: none;
-  font-size: 9.5px;
+  font-size: 11.5px;
   color: var(--ink-4);
 }
 .meta {
   display: flex;
   align-items: baseline;
   gap: 8px;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--ink-3);
 }
 .nat {
@@ -280,7 +290,7 @@ function eraColor(person: PersonIndexItem): string {
   justify-content: space-between;
   padding: 8px 18px;
   border-top: 1px solid var(--rule-2);
-  font-size: 9.5px;
+  font-size: 11.5px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--ink-4);

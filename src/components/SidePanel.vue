@@ -91,7 +91,7 @@ function openTab(next: Tab) {
 .tabs button {
   flex: 1;
   padding: 9px 0;
-  font-size: 10.5px;
+  font-size: 12.5px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--ink-3);
@@ -109,7 +109,7 @@ function openTab(next: Tab) {
 .tabs .collapse {
   flex: none;
   width: 24px;
-  font-size: 13px;
+  font-size: 14.5px;
   letter-spacing: 0;
   color: var(--ink-3);
   border-left: 1px solid var(--rule-2);

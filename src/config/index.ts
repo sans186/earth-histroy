@@ -13,11 +13,53 @@ export const CESIUM_TOKEN = (import.meta.env.VITE_CESIUM_TOKEN as string | undef
 export const INITIAL_VIEW = { lon: 105, lat: 32, height: 13_000_000 };
 export const MAX_ZOOM_DISTANCE = 20_000_000;
 
+// ── Basemaps ───────────────────────────────────────────────────────────────
+export type BaseKind = 'standard' | 'satellite';
+
+/**
+ * Raster basemaps, shared by the globe and the flat map.
+ *
+ * The OSM tile server is not reachable from mainland networks — every request
+ * hangs until it times out, which left both views showing nothing but paper.
+ * Esri's ArcGIS endpoints answer from the same networks and serve Web-Mercator
+ * tiles in {z}/{y}/{x} order, so a single template works for MapLibre's raster
+ * source and Cesium's UrlTemplateImageryProvider alike.
+ */
+export const BASEMAPS: Record<
+  BaseKind,
+  { url: string; attribution: string; maxzoom: number }
+> = {
+  standard: {
+    url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',
+    attribution: 'Esri World Topo Map',
+    maxzoom: 18,
+  },
+  satellite: {
+    url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+    attribution: 'Esri World Imagery',
+    maxzoom: 18,
+  },
+};
+
 // ── Timeline ───────────────────────────────────────────────────────────────
 export const YEAR_MIN = -3100;
-export const YEAR_MAX = 2025;
+/**
+ * The last year with a shipped event file.
+ *
+ * Raising this without adding `public/events/<year>.json` (and its English
+ * counterpart) leaves the scale pointing at a year that resolves to nothing,
+ * which is why 2025 sat at the end for so long after the data had moved on.
+ */
+export const YEAR_MAX = 2026;
 export const DEFAULT_YEAR = 1911;
-export const YEAR_WINDOW = 20;
+/**
+ * Half-width, in years, of the event window around the timeline cursor.
+ *
+ * Was 20, which meant 41 year files per refresh: a drag across the scale queued
+ * hundreds of requests and the panel sat "loading" for seconds. Five years is
+ * also what the list actually reads like — a neighbourhood, not an era.
+ */
+export const YEAR_WINDOW = 5;
 
 /**
  * Piecewise-linear mapping between the time scale position (0–10000) and real
@@ -30,7 +72,7 @@ const SEGMENTS: ReadonlyArray<readonly [number, number, number, number]> = [
   [500, 1500, 2500, 4500],
   [1500, 1800, 4500, 6000],
   [1800, 1950, 6000, 8000],
-  [1950, 2025, 8000, 10000],
+  [1950, 2026, 8000, 10000],
 ];
 
 export const SCALE_MIN = 0;
@@ -75,7 +117,7 @@ export const ERAS: readonly Era[] = [
   { id: 'medieval', name: '中古', nameEn: 'Medieval', start: 581, end: 1368, color: '#8a6a4a' },
   { id: 'earlyModern', name: '近世', nameEn: 'Early Modern', start: 1368, end: 1840, color: '#6b7fa0' },
   { id: 'modern', name: '近代', nameEn: 'Modern', start: 1840, end: 1949, color: '#96637a' },
-  { id: 'contemporary', name: '当代', nameEn: 'Contemporary', start: 1949, end: 2026, color: '#b0522d' },
+  { id: 'contemporary', name: '当代', nameEn: 'Contemporary', start: 1949, end: 2027, color: '#b0522d' },
 ];
 
 export function getEra(year: number): Era {
@@ -95,6 +137,14 @@ export const DATA_BASE_EN = '/en-events/';
 export const POLITIES_BASE = '/ne/polities/';
 export const NE_BASE = '/ne/';
 export const PEOPLE_BASE = '/people/profiles/';
+/**
+ * Coordinate summary for every person, kept one level above the profile files.
+ *
+ * It used to sit inside `profiles/`, where the data validator counted it as a
+ * person missing from the index, and where any future "one file per person"
+ * assumption would trip over it again.
+ */
+export const PEOPLE_COORDS = '/people/coords.json';
 export const WARS_BASE = '/wars/profiles/';
 
 /** Parsed year files retained in memory. */

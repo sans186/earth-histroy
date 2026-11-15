@@ -2,9 +2,17 @@
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue';
 import { YEAR_MIN, YEAR_MAX } from '@/config';
 import type { CompareSubject } from '@/lib/compare';
+import type { EventRef } from '@/lib/eventLinks';
+import { makePolityScope, withLifespan, type PolityScope } from '@/lib/polityScope';
 import { useGlobeData } from '@/composables/useGlobeData';
-import { NE_FILES } from '@/services/data';
+import {
+  findEventById,
+  findPolityDescription,
+  loadPolityDescriptions,
+  NE_FILES,
+} from '@/services/data';
 import { globe } from '@/services/globe';
+import { map2d } from '@/services/map2d';
 import { useLayersStore } from '@/stores/layers';
 import { usePeopleStore } from '@/stores/people';
 import { useTimelineStore } from '@/stores/timeline';
@@ -15,6 +23,7 @@ import AppHead from './components/AppHead.vue';
 import CompareBoard from './components/CompareBoard.vue';
 import EventCard from './components/EventCard.vue';
 import GlobeStage from './components/GlobeStage.vue';
+import MapStage from './components/MapStage.vue';
 import PersonCard from './components/PersonCard.vue';
 import PolityCard from './components/PolityCard.vue';
 import SidePanel from './components/SidePanel.vue';
@@ -36,11 +45,64 @@ const presentation = ref(false);
 const yearOpen = ref(false);
 /** The side panel can be folded away to give the globe the full width. */
 const panelCollapsed = ref(false);
-const selectedPolity = ref<PolityFeature | null>(null);
+/**
+ * The open polity, kept in the UI store.
+ *
+ * Three list panels filter by it now, so a component-local ref would have meant
+ * threading the feature through every path that can select one. This computed
+ * keeps the existing template and handlers working unchanged.
+ */
+const selectedPolity = computed({
+  get: () => ui.polityScope?.feature ?? null,
+  set: (feature: PolityFeature | null) => {
+    if (!feature) {
+      ui.setPolityScope(null);
+      return;
+    }
+    const scope = makePolityScope(feature, data.polityNames.value);
+    ui.setPolityScope(scope);
+    void widenPolityLifespan(scope);
+  },
+});
+
+/**
+ * Give the scope the polity's real dates.
+ *
+ * A tile in `polities_*.json` covers one century, so its FromYear/ToYear are the
+ * slice's bounds — the 1911 tile of the Qing dynasty reads 1911–1911. Filtering
+ * on that would hide every earlier war and person, so the span comes from
+ * `polity_descriptions.json`, which holds the polity's whole lifetime.
+ */
+async function widenPolityLifespan(scope: PolityScope) {
+  const raw = scope.feature.properties?.Name ?? '';
+  if (!raw) return;
+  const descriptions = await loadPolityDescriptions();
+  const desc = findPolityDescription(raw, descriptions);
+  if (!desc) return;
+  // The reader may have picked another polity while this was loading.
+  if (ui.polityScope?.key !== scope.key) return;
+  ui.setPolityScope(withLifespan(scope, desc.from, desc.to));
+}
 /** Either column can hold a region or a polity pinned from the map. */
 const subjectA = ref<CompareSubject>({ kind: 'region', id: 'eastAsia' });
 const subjectB = ref<CompareSubject>({ kind: 'region', id: 'mediterranean' });
 const bordersLoaded = ref(false);
+
+/**
+ * Which comparison column already holds the open polity.
+ *
+ * The card's two buttons used to look like a mode switch; showing "already in
+ * column A" is what makes them read as "put this polity there".
+ */
+const pinnedSide = computed<'A' | 'B' | null>(() => {
+  const name = selectedPolity.value?.properties?.Name;
+  if (!name) return null;
+  const holds = (subject: CompareSubject) =>
+    subject.kind === 'polity' && subject.feature.properties?.Name === name;
+  if (holds(subjectA.value)) return 'A';
+  if (holds(subjectB.value)) return 'B';
+  return null;
+});
 
 /* ── derived ───────────────────────────────────────────────────────────── */
 
@@ -65,19 +127,45 @@ function debounce<T extends (...args: never[]) => void>(fn: T, wait: number) {
 
 /* ── globe wiring ──────────────────────────────────────────────────────── */
 
-function onGlobeReady() {
+function onStageReady() {
   globeReady.value = true;
   void (async () => {
-    // Events first so the globe is useful immediately; the heavy polity files
+    // Events first so the map is useful immediately; the heavy polity files
     // follow on their own without competing for the same bandwidth.
     await data.refreshEvents();
-    data.paintEvents();
-    await data.refreshPolities();
+    // The flat map loads its own polity geometry as a GeoJSON source, so this
+    // 3D-only pass would be pure waste there.
+    if (ui.stage === '3d') {
+      data.paintEvents();
+      await data.refreshPolities();
+    }
   })();
 }
 
 function onViewSettled() {
-  data.onViewSettled();
+  // Culling is a 3D concern; the flat map draws every feature it has.
+  if (ui.stage === '3d') data.onViewSettled();
+}
+
+/** One entry point for both renderers. */
+function resetStage() {
+  if (ui.stage === '3d') globe.resetView();
+  else map2d.resetView();
+}
+
+function flyTo(lon: number, lat: number, height: number) {
+  if (ui.stage === '3d') globe.flyTo(lon, lat, height);
+  else map2d.flyTo(lon, lat);
+}
+
+/* The flat map subscribes to the stores directly, so these 3D-only passes are
+ * gated in one place instead of at every call site. */
+function paintEvents3d() {
+  if (ui.stage === '3d' && globeReady.value) data.paintEvents();
+}
+
+function refreshPolities3d() {
+  if (ui.stage === '3d' && globeReady.value) void data.refreshPolities();
 }
 
 function onPickEvent(event: TimelineEvent | null) {
@@ -101,11 +189,31 @@ function onPickPolity(feature: PolityFeature | null) {
 
 function flyToEvent(event: TimelineEvent) {
   if (event.lon === null || event.lat === null) return;
-  globe.flyTo(event.lon, event.lat, 1_200_000);
+  flyTo(event.lon, event.lat, 1_200_000);
 }
 
 function jumpToYear(year: number) {
   timeline.setYear(Math.min(YEAR_MAX, Math.max(YEAR_MIN, year)));
+}
+
+/**
+ * Follow a cross reference to the entry it names.
+ *
+ * The reference carries the target's id ("1912-001"), whose prefix is the year
+ * the entry is filed under, so the card can open exactly that event instead of
+ * only moving the clock to its year. Falls back to the year when the entry is
+ * not in the shipped data.
+ */
+async function openEventRef(ref: EventRef) {
+  if (ref.id) {
+    const found = await findEventById(ref.id, ui.locale);
+    if (found) {
+      jumpToYear(found.year);
+      onPickEvent(found);
+      return;
+    }
+  }
+  if (ref.year !== null) jumpToYear(ref.year);
 }
 
 /**
@@ -127,6 +235,18 @@ function openYearCard() {
  * at all. The target side is explicit rather than guessed, because guessing
  * meant a second pin silently overwrote the first column.
  */
+/**
+ * Filter the three lists (and the globe's events) by the open polity.
+ *
+ * Turning it on also unfolds the side panel: the switch lives on the card, but
+ * what it changes is only visible in the lists.
+ */
+function onScopeToPolity() {
+  if (!ui.polityScope) return;
+  ui.toggleScopeToPolity();
+  if (ui.scopeToPolity) panelCollapsed.value = false;
+}
+
 function onPinPolity(side: 'A' | 'B') {
   const feature = selectedPolity.value;
   if (!feature) return;
@@ -181,41 +301,86 @@ function onPickWar(warId: string) {
 function flyToTheatre(warId: string) {
   const loc = wars.locations[warId];
   if (!loc) return;
-  globe.flyTo(loc.lon, loc.lat, 3_200_000);
+  flyTo(loc.lon, loc.lat, 3_200_000);
 }
 
 /** Fly to a life stage of the open person. */
 function flyToStage(at: { lon: number; lat: number }) {
-  globe.flyTo(at.lon, at.lat, 900_000);
+  flyTo(at.lon, at.lat, 900_000);
+}
+
+/**
+ * Draw the open person's route.
+ *
+ * The coordinates were always in the profile; nothing drew them, so "轨迹" meant
+ * a list of places the card could fly to one at a time. Consecutive stages often
+ * share a city (Ada Lovelace never left London), so repeats are collapsed before
+ * drawing — otherwise the line has no shape and the nodes pile up.
+ */
+function paintTrajectory() {
+  const points = [...(people.profile?.points ?? [])].sort((a, b) => a.year - b.year);
+  const stops: Array<{ lon: number; lat: number }> = [];
+  let last = '';
+  for (const point of points) {
+    if (!point.coords) continue;
+    const [lon, lat] = point.coords;
+    const key = `${lon.toFixed(2)},${lat.toFixed(2)}`;
+    if (key === last) continue;
+    stops.push({ lon, lat });
+    last = key;
+  }
+
+  if (!stops.length) {
+    globe.clearTrajectory();
+    map2d.clearTrajectory();
+    return;
+  }
+  if (ui.stage === '3d') globe.renderTrajectory(stops);
+  else map2d.renderTrajectory(stops);
 }
 
 /* ── watchers ──────────────────────────────────────────────────────────── */
 
 const refreshForYear = debounce(() => {
-  void data.refreshEvents().then(() => data.paintEvents());
-  void data.refreshPolities();
+  /*
+   * A drag on the scale rewrites `year` on every pointer move, so this debounce
+   * never gets its quiet period and each tick queues another window of files.
+   * Nothing is loaded until the reader lets go; the release watcher below runs
+   * the single refresh that matters.
+   */
+  if (timeline.scrubbing) return;
+  void data.refreshEvents().then(() => paintEvents3d());
+  refreshPolities3d();
 }, 140);
 
 watch(() => timeline.year, refreshForYear);
 
 watch(
+  () => timeline.scrubbing,
+  (scrubbing) => {
+    if (scrubbing) return;
+    refreshForYear();
+  },
+);
+
+watch(
   () => data.filteredEvents.value,
   () => {
-    if (globeReady.value) data.paintEvents();
+    paintEvents3d();
   },
 );
 
 watch(
   () => [layers.showEvents, layers.showLabels] as const,
   () => {
-    if (globeReady.value) data.paintEvents();
+    paintEvents3d();
   },
 );
 
 watch(
   () => layers.showPolities,
   () => {
-    if (globeReady.value) void data.refreshPolities();
+    refreshPolities3d();
   },
 );
 
@@ -317,11 +482,19 @@ watch(yearOpen, (open) => {
   void wars.select(null);
 });
 
+/*
+ * The route follows the open profile, and is redrawn when the reader swaps
+ * between the globe and the flat map — the two renderers keep separate scenes,
+ * so a route painted in one is invisible in the other.
+ */
+watch(() => people.profile, paintTrajectory);
+watch(() => ui.stage, paintTrajectory);
+
 watch(
   () => ui.locale,
   () => {
     data.resetCaches();
-    void data.refreshEvents().then(() => data.paintEvents());
+    void data.refreshEvents().then(() => paintEvents3d());
   },
 );
 
@@ -397,13 +570,25 @@ onBeforeUnmount(() => {
 
 <template>
   <div class="app" :class="{ presentation }">
-    <AppHead v-if="!presentation" @reset-view="globe.resetView()" />
+    <AppHead v-if="!presentation" @reset-view="resetStage" />
 
     <main :class="{ 'panel-closed': panelCollapsed }">
       <div class="slot">
         <GlobeStage
+          v-if="ui.stage === '3d'"
           v-show="ui.view === 'explore'"
-          @ready="onGlobeReady"
+          @ready="onStageReady"
+          @view-settled="onViewSettled"
+          @pick-event="onPickEvent"
+          @pick-polity="onPickPolity"
+          @pick-war="onPickWar"
+        />
+        <MapStage
+          v-else
+          v-show="ui.view === 'explore'"
+          :events="data.filteredEvents.value"
+          :names="data.polityNames.value"
+          @ready="onStageReady"
           @view-settled="onViewSettled"
           @pick-event="onPickEvent"
           @pick-polity="onPickPolity"
@@ -414,6 +599,7 @@ onBeforeUnmount(() => {
           v-model:subject-a="subjectA"
           v-model:subject-b="subjectB"
           :events="data.filteredEvents.value"
+          :names="data.polityNames.value"
           @select="onPickEvent"
         />
 
@@ -425,14 +611,17 @@ onBeforeUnmount(() => {
           @close="ui.selectedEvent = null"
           @fly-to="flyToEvent"
           @jump-to-year="jumpToYear"
+          @open-ref="openEventRef"
         />
 
         <PolityCard
           v-if="selectedPolity && !people.selectedId"
           :feature="selectedPolity"
           :names="data.polityNames.value"
+          :pinned="pinnedSide"
           @close="selectedPolity = null"
           @pin="onPinPolity"
+          @scope="onScopeToPolity"
         />
 
         <WarCard
@@ -494,7 +683,9 @@ onBeforeUnmount(() => {
 
 main {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 304px;
+  /* The side column carries the tab strip, the year heading and full event
+   * titles; 304px clipped two-line titles and squeezed the tab labels. */
+  grid-template-columns: minmax(0, 1fr) 348px;
   min-height: 0;
 }
 .app.presentation main {

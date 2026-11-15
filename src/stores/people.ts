@@ -1,6 +1,13 @@
 import { defineStore } from 'pinia';
-import { computed, ref } from 'vue';
-import { loadPeopleIndex, loadPersonProfile } from '@/services/data';
+import { computed, ref, watch } from 'vue';
+import {
+  scopeHasPoint,
+  scopeMentions,
+  scopeOverlapsYears,
+  type PolityScope,
+} from '@/lib/polityScope';
+import { loadPeopleCoords, loadPeopleIndex, loadPersonProfile } from '@/services/data';
+import { useUiStore } from '@/stores/ui';
 import type { PersonIndexItem, PersonProfile } from '@/types';
 
 export type PeopleSort = 'birth' | 'stages' | 'name';
@@ -24,6 +31,7 @@ export function tightName(raw: string): string {
 }
 
 export const usePeopleStore = defineStore('people', () => {
+  const ui = useUiStore();
   const index = ref<PersonIndexItem[]>([]);
   const indexing = ref(false);
   const indexLoaded = ref(false);
@@ -70,12 +78,51 @@ export const usePeopleStore = defineStore('people', () => {
     return true;
   }
 
+  /** personId → life-stage points; fetched the first time a polity is scoped. */
+  const coords = ref<Record<string, [number, number][]>>({});
+
+  async function ensureCoords() {
+    if (Object.keys(coords.value).length) return;
+    coords.value = await loadPeopleCoords();
+  }
+
+  watch(
+    () => (ui.scopeToPolity ? (ui.polityScope?.key ?? null) : null),
+    (key) => {
+      if (key) void ensureCoords();
+    },
+    { immediate: true },
+  );
+
+  /**
+   * Two ways to belong to a polity. The nationality string is the cheap one, but
+   * the datasets disagree on epoch ("中国" for a Qing official), so the tie-breaker
+   * is where the person actually lived: `coords.json` holds every life stage's
+   * point, generated from the profiles by `build-people-coords.mjs`.
+   */
+  function matchesScope(person: PersonIndexItem, scope: PolityScope): boolean {
+    if (!scopeOverlapsYears(scope, person.birth, person.death)) return false;
+    if (scopeMentions(scope, person.nationality, person.nationalityEn)) return true;
+    const points = coords.value[person.personId];
+    return Boolean(points?.some(([lon, lat]) => scopeHasPoint(scope, lon, lat)));
+  }
+
+  /** How many people belong to a polity — used by the card's related counts. */
+  async function countInScope(scope: PolityScope): Promise<number> {
+    await ensureIndex();
+    await ensureCoords();
+    return index.value.filter((person) => matchesScope(person, scope)).length;
+  }
+
   const filtered = computed(() => {
     const needle = query.value.trim().toLowerCase();
     let list = index.value;
 
     if (era.value !== 'all') list = list.filter((p) => p.era === era.value);
     if (aliveOnly.value) list = list.filter((p) => aliveIn(p, aliveYear.value));
+
+    const scope = ui.scopeToPolity ? ui.polityScope : null;
+    if (scope) list = list.filter((p) => matchesScope(p, scope));
     if (needle) {
       list = list.filter(
         (p) =>
@@ -196,6 +243,7 @@ export const usePeopleStore = defineStore('people', () => {
     filtered,
     aliveIn,
     findByName,
+    countInScope,
     ensureIndex,
     openPerson,
     openByName,

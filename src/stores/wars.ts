@@ -1,14 +1,17 @@
 import { defineStore } from 'pinia';
 import { computed, ref } from 'vue';
 import { getEra } from '@/config';
+import { scopeHasPoint, scopeOverlapsYears, type PolityScope } from '@/lib/polityScope';
 import { battleList, loadWarIndex, loadWarLocations, loadWarProfile } from '@/services/war-data';
 import { useTimelineStore } from '@/stores/timeline';
+import { useUiStore } from '@/stores/ui';
 import type { WarIndexItem, WarLocation, WarProfile } from '@/types';
 
 export type WarSort = 'start' | 'battles' | 'name';
 
 export const useWarsStore = defineStore('wars', () => {
   const timeline = useTimelineStore();
+  const ui = useUiStore();
 
   const index = ref<WarIndexItem[]>([]);
   const locations = ref<Record<string, WarLocation>>({});
@@ -30,6 +33,26 @@ export const useWarsStore = defineStore('wars', () => {
   );
 
   const battles = computed(() => battleList(profile.value));
+
+  /**
+   * A war is attached to a polity by its theatre centroid plus its span. The
+   * index has no geography of its own, but `war_locations.json` gives every war
+   * one point — the same point the map draws.
+   */
+  function matchesScope(war: WarIndexItem, scope: PolityScope): boolean {
+    const loc = locations.value[war.warId];
+    if (!loc) return false;
+    return (
+      scopeHasPoint(scope, loc.lon, loc.lat) &&
+      scopeOverlapsYears(scope, war.startYear ?? null, war.endYear ?? null)
+    );
+  }
+
+  /** How many wars fall inside a polity — used by the card's related counts. */
+  async function countInScope(scope: PolityScope): Promise<number> {
+    await ensureIndex();
+    return index.value.filter((war) => matchesScope(war, scope)).length;
+  }
 
   const filtered = computed(() => {
     const q = query.value.trim().toLowerCase();
@@ -55,6 +78,9 @@ export const useWarsStore = defineStore('wars', () => {
       // Never leave the panel inexplicably empty: fall back to the full list.
       if (overlapping.length) list = overlapping;
     }
+
+    const scope = ui.scopeToPolity ? ui.polityScope : null;
+    if (scope) list = list.filter((war) => matchesScope(war, scope));
 
     const sorted = [...list];
     if (sort.value === 'start') {
@@ -141,6 +167,7 @@ export const useWarsStore = defineStore('wars', () => {
     loadingIndex,
     loadingProfile,
     filtered,
+    countInScope,
     located,
     ensureIndex,
     select,

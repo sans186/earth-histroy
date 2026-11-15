@@ -123,6 +123,80 @@ input {
   border: 0;
 }
 
+/* ── polity names over the flat map ────────────────────────────────────── */
+
+/*
+ * Positioned by Map2D.paintLabels in screen space rather than painted by
+ * MapLibre: a symbol layer would need a glyph server, and CJK glyph packs are
+ * far too large to ship. The host sits above the canvas and ignores the pointer
+ * so picking still works.
+ */
+.polity-labels {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 1;
+}
+.polity-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 4px;
+  white-space: nowrap;
+  /* The basemap already prints its own place names ("CHINA", "RUSSIA") in the
+   * same spots, so the label carries a paper wash — an atlas plate over the
+   * imagery rather than another line of type competing with it. */
+  background: color-mix(in srgb, var(--paper) 62%, transparent);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-shadow:
+    0 0 3px var(--paper),
+    0 1px 0 var(--paper);
+  will-change: transform;
+}
+
+/* ── polity scope chip ─────────────────────────────────────────────────── */
+
+/*
+ * One control shared by the three list panels (events, wars, people): narrow
+ * the list to whatever falls inside the polity whose card is open. Defined here
+ * rather than three times over because the panels are otherwise unrelated.
+ */
+.scope-chip {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: 6px;
+  max-width: 100%;
+  padding: 3px 9px;
+  font-size: 12.5px;
+  color: var(--ink-3);
+  border: 1px solid var(--rule-2);
+  background: transparent;
+  text-align: left;
+}
+.scope-chip span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.scope-chip:hover {
+  color: var(--ink);
+  border-color: var(--rule-3);
+}
+.scope-chip.on {
+  color: var(--ink);
+  border-color: var(--indigo);
+  background: var(--indigo-soft);
+}
+.scope-chip i {
+  font-style: normal;
+  color: var(--rust);
+}
+
 /* ── Cesium chrome ─────────────────────────────────────────────────────── */
 
 .cesium-viewer-bottom,

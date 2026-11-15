@@ -2,6 +2,8 @@ import type { CategoryKey } from '@/config';
 
 export type Locale = 'zh' | 'en';
 export type ViewMode = 'explore' | 'compare';
+/** How the explore view is drawn: the globe, or the flat map. */
+export type StageMode = '3d' | '2d';
 
 export interface RawSource {
   name?: string;
@@ -219,7 +221,14 @@ export interface WarSide {
   nameEn?: string;
   countries?: string[];
   commanders?: WarCommander[];
-  totalCasualties?: Record<string, string>;
+  /** How the force was raised — volunteers, conscription, feudal levy… */
+  militarySystem?: string;
+  /** Order of battle before the shooting started; often a prose figure. */
+  preWarStrength?: string;
+  equipment?: string;
+  totalCasualties?: string | Record<string, string>;
+  propaganda?: string;
+  politicalLeaders?: (string | WarCommander)[];
 }
 
 /** Full profile from `public/wars/profiles/{warId}.json`. */

@@ -136,13 +136,13 @@ header .left {
   gap: 5px;
 }
 header h3 {
-  font-size: 20px;
+  font-size: 21.5px;
   line-height: 1.3;
 }
 .close {
   margin-left: auto;
   color: var(--ink-3);
-  font-size: 13px;
+  font-size: 14.5px;
   line-height: 1;
   padding: 3px;
 }
@@ -171,16 +171,16 @@ header h3 {
   background: var(--paper-2);
 }
 .row .k {
-  font-size: 11.5px;
+  font-size: 13.5px;
   color: var(--ink-3);
 }
 .row .count {
   margin-left: auto;
-  font-size: 10.5px;
+  font-size: 12.5px;
   color: var(--ink-4);
 }
 .row b {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
 }
 .row b.rich {
@@ -221,7 +221,7 @@ section p {
   gap: 6px;
 }
 .gaps span {
-  font-size: 10.5px;
+  font-size: 12.5px;
   color: var(--ink-3);
   border: 1px dashed var(--rule-2);
   padding: 3px 8px;
@@ -230,7 +230,7 @@ section p {
 .disclaimer {
   flex: none;
   padding: 10px 18px;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.7;
   color: var(--ink-4);
   border-top: 1px solid var(--rule-2);

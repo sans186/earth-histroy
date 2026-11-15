@@ -169,7 +169,7 @@ onBeforeUnmount(() => globe.destroy());
   color: var(--ink);
 }
 .dim {
-  font-size: 10.5px;
+  font-size: 12.5px;
   color: var(--ink-4);
 }
 
@@ -194,7 +194,7 @@ onBeforeUnmount(() => globe.destroy());
   display: flex;
   align-items: center;
   gap: 7px;
-  font-size: 10.5px;
+  font-size: 12.5px;
   color: var(--ink-2);
 }
 .legend i {
@@ -238,7 +238,7 @@ onBeforeUnmount(() => globe.destroy());
   text-overflow: ellipsis;
 }
 .tip .s {
-  font-size: 10.5px;
+  font-size: 12.5px;
   color: var(--ink-3);
 }
 

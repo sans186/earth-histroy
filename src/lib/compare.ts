@@ -1,3 +1,5 @@
+import { formatYearRange } from '@/lib/format';
+import { zhPolityName } from '@/lib/names';
 import { findRegion, regionLabel, regionOf } from '@/lib/regions';
 import type { Locale, PolityFeature, TimelineEvent } from '@/types';
 
@@ -55,12 +57,22 @@ export function bboxOfFeature(feature: PolityFeature): BBox | null {
   return Number.isFinite(west) ? { west, south, east, north } : null;
 }
 
-export function subjectLabel(subject: CompareSubject, locale: Locale): string {
+/**
+ * `names` is the English → Chinese polity map. Cliopatria stores only English
+ * names, so without it a Chinese interface still printed "Song dynasty" in the
+ * comparison header — the polity card had been localised, the board had not.
+ */
+export function subjectLabel(
+  subject: CompareSubject,
+  locale: Locale,
+  names?: Record<string, string>,
+): string {
   if (subject.kind === 'region') {
     const region = findRegion(subject.id);
     return region ? regionLabel(region, locale) : subject.id;
   }
-  return subject.feature.properties?.Name ?? '—';
+  const raw = subject.feature.properties?.Name ?? '—';
+  return locale === 'zh' ? (zhPolityName(raw, names) ?? raw) : raw;
 }
 
 /** Events that fall inside the subject: region box, or the polity's own extent. */
@@ -89,6 +101,5 @@ export function subjectSpan(subject: CompareSubject, locale: Locale): string | n
   const from = subject.feature.properties?.FromYear;
   const to = subject.feature.properties?.ToYear;
   if (from === undefined && to === undefined) return null;
-  const fmt = (v?: number) => (v === undefined ? '?' : v < 0 ? `${-v} BCE` : `${v}`);
-  return locale === 'zh' ? `${fmt(from)} – ${fmt(to)}` : `${fmt(from)} – ${fmt(to)}`;
+  return formatYearRange(from, to, locale);
 }

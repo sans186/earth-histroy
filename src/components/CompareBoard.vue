@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import { computed } from 'vue';
-import { CATEGORIES } from '@/config';
+import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue';
+import { CATEGORIES, YEAR_WINDOW } from '@/config';
 import { subjectEvents, subjectLabel, subjectSpan, type CompareSubject } from '@/lib/compare';
-import { certaintyInfo, formatYear } from '@/lib/format';
+import { formatYearRange, truncate } from '@/lib/format';
 import { REGIONS, findRegion, regionDistanceKm, regionLabel } from '@/lib/regions';
+import { loadEventWindow } from '@/services/data';
+import { useLayersStore } from '@/stores/layers';
 import { useTimelineStore } from '@/stores/timeline';
 import { useUiStore } from '@/stores/ui';
 import type { TimelineEvent } from '@/types';
@@ -12,6 +14,8 @@ const props = defineProps<{
   events: TimelineEvent[];
   subjectA: CompareSubject;
   subjectB: CompareSubject;
+  /** English → Chinese polity names, so a column header is not stuck in English. */
+  names?: Record<string, string>;
 }>();
 
 const emit = defineEmits<{
@@ -22,8 +26,38 @@ const emit = defineEmits<{
 
 const ui = useUiStore();
 const timeline = useTimelineStore();
+const layers = useLayersStore();
 
 type CategoryKey = keyof typeof CATEGORIES;
+
+/**
+ * The comparison used to read whatever twenty-year window the globe had loaded,
+ * which made "compare these two polities" mean "compare them in this one year".
+ * The range below is explicit: it starts as that same window (so nothing extra
+ * is fetched) and grows only when the reader asks for more.
+ */
+const MAX_RANGE = 300;
+const rangeFrom = ref(timeline.year - YEAR_WINDOW);
+const rangeTo = ref(timeline.year + YEAR_WINDOW);
+const tooWide = ref(false);
+const loading = ref(false);
+/** Raw events for a widened range; null means "the globe's own window is enough". */
+const rangePool = ref<TimelineEvent[] | null>(null);
+
+let rangeAbort: AbortController | null = null;
+let rangeTimer: ReturnType<typeof setTimeout> | undefined;
+
+const pool = computed(() =>
+  rangePool.value
+    ? rangePool.value.filter((e) => layers.isActive(e.category))
+    : props.events,
+);
+
+const ranged = computed(() => {
+  const a = Math.min(rangeFrom.value, rangeTo.value);
+  const b = Math.max(rangeFrom.value, rangeTo.value);
+  return pool.value.filter((e) => e.year >= a && e.year <= b);
+});
 
 interface ColumnStats {
   subject: CompareSubject;
@@ -31,28 +65,59 @@ interface ColumnStats {
   /** A polity knows its own dates; a region does not. */
   span: string | null;
   events: TimelineEvent[];
+  groups: { year: number; events: TimelineEvent[] }[];
   military: number;
+  political: number;
+  economic: number;
+  cultural: number;
   figures: number;
-  high: number;
+}
+
+function groupByYear(list: TimelineEvent[]) {
+  const map = new Map<number, TimelineEvent[]>();
+  for (const e of list) {
+    const bucket = map.get(e.year);
+    if (bucket) bucket.push(e);
+    else map.set(e.year, [e]);
+  }
+  return [...map.entries()]
+    .sort((x, y) => x[0] - y[0])
+    .map(([year, events]) => ({ year, events }));
 }
 
 function statsFor(subject: CompareSubject): ColumnStats {
-  const events = subjectEvents(props.events, subject).sort((a, b) => a.year - b.year);
+  const events = subjectEvents(ranged.value, subject).sort((a, b) => a.year - b.year);
   const figures = new Set<string>();
   for (const e of events) for (const f of e.figures) figures.add(f);
+  const count = (c: CategoryKey) => events.filter((e) => e.category === c).length;
   return {
     subject,
-    label: subjectLabel(subject, ui.locale),
+    label: subjectLabel(subject, ui.locale, props.names),
     span: subjectSpan(subject, ui.locale),
     events,
-    military: events.filter((e) => e.category === 'military').length,
+    groups: groupByYear(events),
+    military: count('military'),
+    political: count('political'),
+    economic: count('economic'),
+    cultural: count('cultural'),
     figures: figures.size,
-    high: events.filter((e) => certaintyInfo(e.certainty, ui.locale).level === 'high').length,
   };
 }
 
 const a = computed(() => statsFor(props.subjectA));
 const b = computed(() => statsFor(props.subjectB));
+
+/** Years where both columns have something: the actual point of a comparison. */
+const tiedYears = computed(() => {
+  const yearsA = new Set(a.value.events.map((e) => e.year));
+  return new Set(b.value.events.filter((e) => yearsA.has(e.year)).map((e) => e.year));
+});
+
+const spanLabel = computed(() => {
+  const from = Math.min(rangeFrom.value, rangeTo.value);
+  const to = Math.max(rangeFrom.value, rangeTo.value);
+  return { from, to, width: to - from };
+});
 
 /** Only meaningful when both columns are regions with a known centre. */
 const distance = computed(() => {
@@ -63,67 +128,17 @@ const distance = computed(() => {
   return regionDistanceKm(ra, rb);
 });
 
-const rows = computed(() => [
-  {
-    key: 'events',
-    label: ui.locale === 'zh' ? '收录事件' : 'Events',
-    a: a.value.events.length,
-    b: b.value.events.length,
-  },
-  {
-    key: 'military',
-    label: ui.locale === 'zh' ? '军事事件' : 'Military',
-    a: a.value.military,
-    b: b.value.military,
-  },
-  {
-    key: 'figures',
-    label: ui.locale === 'zh' ? '涉及人物' : 'Figures',
-    a: a.value.figures,
-    b: b.value.figures,
-  },
-  {
-    key: 'certainty',
-    label: ui.locale === 'zh' ? '高可信条目' : 'Well attested',
-    a: a.value.high,
-    b: b.value.high,
-  },
-]);
-
-/**
- * Category structure, which the four headline numbers cannot show.
- *
- * Two regions with the same event count can be having very different centuries:
- * one all battles, the other all institutions. This is that difference.
- */
-const categories = computed(() => {
-  const tally = (list: TimelineEvent[]) => {
-    const map = new Map<string, number>();
-    for (const e of list) map.set(e.category, (map.get(e.category) ?? 0) + 1);
-    return map;
-  };
-  const tallyA = tally(a.value.events);
-  const tallyB = tally(b.value.events);
-  const keys = new Set([...tallyA.keys(), ...tallyB.keys()]);
-  return [...keys]
-    .map((key) => {
-      const meta = CATEGORIES[key as CategoryKey];
-      return {
-        key,
-        label: meta ? (ui.locale === 'zh' ? meta.zh : meta.en) : key,
-        cssVar: meta ? meta.cssVar : '--ink-3',
-        a: tallyA.get(key) ?? 0,
-        b: tallyB.get(key) ?? 0,
-      };
-    })
-    .filter((row) => row.a || row.b)
-    .sort((x, y) => y.a + y.b - (x.a + x.b))
-    .slice(0, 4);
-});
-
 const available = computed(() =>
   REGIONS.map((r) => ({ id: r.id, label: regionLabel(r, ui.locale) })),
 );
+
+const totals = computed(() => ({
+  all: a.value.events.length + b.value.events.length,
+  military: a.value.military + b.value.military,
+  political: a.value.political + b.value.political,
+  economic: a.value.economic + b.value.economic,
+  cultural: a.value.cultural + b.value.cultural,
+}));
 
 function setRegion(side: 'A' | 'B', id: string) {
   if (!id) return;
@@ -142,24 +157,110 @@ function swap() {
   emit('update:subjectB', props.subjectA);
 }
 
-function barWidth(value: number, max: number) {
-  return `${Math.round((value / Math.max(1, max)) * 82)}px`;
-}
-
 function catOf(ev: TimelineEvent) {
   const meta = CATEGORIES[ev.category as CategoryKey];
   return `var(${meta ? meta.cssVar : '--ink-3'})`;
 }
+
+function catLabel(ev: TimelineEvent) {
+  const meta = CATEGORIES[ev.category as CategoryKey];
+  return meta ? (ui.locale === 'zh' ? meta.zh : meta.en) : ev.category;
+}
+
+function barWidth(value: number, max: number) {
+  return `${Math.min(100, Math.round((value / Math.max(1, max)) * 100))}%`;
+}
+
+/**
+ * Fetch the widened range.
+ *
+ * `loadEventWindow` takes a centre and a half-width, so the request is the
+ * smallest window that still contains [from, to]; anything it returns outside
+ * the requested range is filtered out afterwards.
+ */
+async function syncRange() {
+  // `v-model.number` yields an empty string while a field is being cleared.
+  const rawFrom = Number(rangeFrom.value);
+  const rawTo = Number(rangeTo.value);
+  if (!Number.isFinite(rawFrom) || !Number.isFinite(rawTo)) return;
+  const from = Math.min(rawFrom, rawTo);
+  const to = Math.max(rawFrom, rawTo);
+  if (to - from < 1) return;
+
+  tooWide.value = to - from > MAX_RANGE;
+  if (tooWide.value) return;
+
+  // The globe already holds this window, so the comparison can start instantly.
+  if (from >= timeline.year - YEAR_WINDOW && to <= timeline.year + YEAR_WINDOW) {
+    rangeAbort?.abort();
+    rangeAbort = null;
+    rangePool.value = null;
+    loading.value = false;
+    return;
+  }
+
+  rangeAbort?.abort();
+  const controller = new AbortController();
+  rangeAbort = controller;
+  loading.value = true;
+
+  try {
+    const half = Math.ceil((to - from) / 2);
+    const centre = Math.round((from + to) / 2);
+    const result = await loadEventWindow(centre, ui.locale, half, controller.signal);
+    if (controller.signal.aborted) return;
+    rangePool.value = result.events;
+  } catch (err) {
+    if ((err as Error)?.name === 'AbortError') return;
+    rangePool.value = [];
+  } finally {
+    if (!controller.signal.aborted) loading.value = false;
+  }
+}
+
+function scheduleRange() {
+  if (rangeTimer) clearTimeout(rangeTimer);
+  rangeTimer = setTimeout(() => void syncRange(), 420);
+}
+
+watch([rangeFrom, rangeTo], scheduleRange);
+// A locale switch changes descriptions, so the widened pool has to be re-read.
+watch(() => ui.locale, scheduleRange);
+// The watchers only fire on edits; a range that already sits outside the
+// globe's window on first paint has to be fetched here.
+onMounted(() => void syncRange());
+onBeforeUnmount(() => {
+  if (rangeTimer) clearTimeout(rangeTimer);
+  rangeAbort?.abort();
+});
 </script>
 
 <template>
   <section class="board">
-    <header class="bar">
-      <span class="cap">{{ ui.t('compare.title') }}</span>
-      <div class="pickers">
+    <!-- Broadsheet masthead: one headline, one dateline, everything else below. -->
+    <header class="masthead">
+      <div class="mast-top">
+        <span class="kicker">
+          {{ ui.t('head.folio') }} {{ timeline.year }} ·
+          {{ ui.locale === 'zh' ? timeline.era.name : timeline.era.nameEn }}
+        </span>
+        <span class="edition">{{ ui.t('compare.edition') }}</span>
+      </div>
+      <h1 class="serif">{{ ui.t('compare.headline') }}</h1>
+      <p class="standfirst">{{ ui.t('compare.standfirst') }}</p>
+
+      <div class="dateline">
+        <label class="range">
+          <span>{{ ui.t('compare.range') }}</span>
+          <input v-model.number="rangeFrom" class="mono" inputmode="numeric" />
+          <i>—</i>
+          <input v-model.number="rangeTo" class="mono" inputmode="numeric" />
+        </label>
+        <span class="sep">·</span>
+
         <template v-if="props.subjectA.kind === 'polity'">
           <span class="chip" :title="a.label">{{ a.label }}</span>
-          <button class="clear" :title="ui.t('compare.clear')" @click="clearToRegion('A')">✕</button>
+          <button class="mini" :title="ui.t('compare.clear')" @click="clearToRegion('A')">✕</button>
         </template>
         <select
           v-else
@@ -169,11 +270,11 @@ function catOf(ev: TimelineEvent) {
           <option v-for="r in available" :key="r.id" :value="r.id">{{ r.label }}</option>
         </select>
 
-        <button class="swap" :title="ui.t('compare.swap')" @click="swap">⟷</button>
+        <button class="mini" :title="ui.t('compare.swap')" @click="swap">⟷</button>
 
         <template v-if="props.subjectB.kind === 'polity'">
           <span class="chip" :title="b.label">{{ b.label }}</span>
-          <button class="clear" :title="ui.t('compare.clear')" @click="clearToRegion('B')">✕</button>
+          <button class="mini" :title="ui.t('compare.clear')" @click="clearToRegion('B')">✕</button>
         </template>
         <select
           v-else
@@ -182,137 +283,112 @@ function catOf(ev: TimelineEvent) {
         >
           <option v-for="r in available" :key="r.id" :value="r.id">{{ r.label }}</option>
         </select>
+
+        <span v-if="distance" class="aside mono">{{ distance.toLocaleString() }} km</span>
+        <span class="lock"><i class="box" aria-hidden="true">✓</i>{{ ui.t('compare.lock') }}</span>
       </div>
-      <span class="lock">
-        <i class="box" aria-hidden="true">✓</i>
-        {{ ui.t('compare.lock') }}
-      </span>
+
+      <p v-if="tooWide" class="warn">{{ ui.t('compare.tooWide') }}</p>
+      <p v-else-if="loading" class="warn loading">{{ ui.t('compare.loading') }}</p>
     </header>
 
-    <div class="columns">
-      <div class="col">
-        <div class="col-head">
+    <div class="spread">
+      <section class="col">
+        <div class="colhead">
+          <span class="side">A</span>
           <h2 class="serif">{{ a.label }}</h2>
-          <span v-if="a.span" class="span mono">{{ a.span }}</span>
-          <span class="cnt mono">{{ a.events.length }} {{ ui.t('status.events') }}</span>
+          <p class="meta">
+            <template v-if="a.span">{{ a.span }} · </template>
+            {{ a.events.length }} {{ ui.t('compare.entries') }}
+          </p>
         </div>
-        <ul class="stream">
-          <li v-for="ev in a.events" :key="ev.key" @click="emit('select', ev)">
-            <span class="dot" :style="{ background: catOf(ev) }" />
-            <span class="y mono">{{ ev.year }}</span>
-            <span class="t">{{ ev.title }}</span>
-            <span class="reg">{{ ev.region }}</span>
-          </li>
-          <li v-if="!a.events.length" class="none">{{ ui.t('empty.year') }}</li>
-        </ul>
-      </div>
 
-      <div class="centre">
-        <div class="porthole">
-          <svg viewBox="0 0 200 200" aria-hidden="true">
-            <defs>
-              <radialGradient id="cmpSph" cx="34%" cy="27%" r="80%">
-                <stop offset="0%" stop-color="#fefdfa" />
-                <stop offset="58%" stop-color="#e6e0d2" />
-                <stop offset="100%" stop-color="#bdb5a2" />
-              </radialGradient>
-              <clipPath id="cmpClip"><circle cx="100" cy="100" r="100" /></clipPath>
-            </defs>
-            <circle cx="100" cy="100" r="100" fill="url(#cmpSph)" />
-            <g clip-path="url(#cmpClip)" fill="var(--globe-land)" opacity=".62">
-              <path d="M100 34c17-5 34 4 40 20 5 15 1 30-5 45-5 13-7 28-16 41-6 11-15 17-22 12-6-4-4-19-6-35-3-19-6-35-5-52 2-15 5-27 14-31z" />
-              <path d="M50 46c9-5 15 3 13 14-2 11-9 18-11 32-2 13 2 27 0 40-2 10-8 17-12 12-4-4-2-17-3-30-2-15 2-30 3-44 1-11 4-19 10-24z" />
-              <path d="M152 130c9-5 18 0 21 9 3 7-4 15-12 14-8-1-13-7-12-14 0-4 1-7 3-9z" />
-            </g>
-            <g clip-path="url(#cmpClip)" fill="none" stroke="var(--globe-grid)" stroke-width=".6" opacity=".55">
-              <ellipse cx="100" cy="100" rx="100" ry="27" />
-              <ellipse cx="100" cy="100" rx="100" ry="55" />
-              <ellipse cx="100" cy="100" rx="100" ry="82" />
-              <ellipse cx="100" cy="100" rx="27" ry="100" />
-              <ellipse cx="100" cy="100" rx="55" ry="100" />
-              <ellipse cx="100" cy="100" rx="82" ry="100" />
-            </g>
-            <circle cx="100" cy="100" r="99.5" fill="none" stroke="var(--rule-3)" stroke-width="1" />
-          </svg>
+        <div v-for="group in a.groups" :key="`a-${group.year}`" class="yeargroup">
+          <div class="yr">
+            <span class="mono">{{ group.year }}</span>
+            <i v-if="tiedYears.has(group.year)" class="tie">{{ ui.t('compare.sameYear') }}</i>
+          </div>
+          <article v-for="ev in group.events" :key="ev.key" class="entry" @click="emit('select', ev)">
+            <h3 class="serif">{{ ev.title }}</h3>
+            <p v-if="ev.description" class="lead">{{ truncate(ev.description, 96) }}</p>
+            <div class="foot">
+              <span class="cat"><i :style="{ background: catOf(ev) }" />{{ catLabel(ev) }}</span>
+              <span class="reg">{{ ev.region }}</span>
+            </div>
+          </article>
         </div>
-        <div class="year">
-          <span class="b serif"><small v-if="timeline.isBCE">BCE</small>{{ timeline.absYear }}</span>
-          <span class="s cap">{{ formatYear(timeline.year, ui.locale) }}</span>
-        </div>
-        <div class="divider" />
-        <p v-if="distance" class="dist">
-          {{ ui.locale === 'zh' ? '两地相距' : 'Regions are' }}
-          <b class="mono">{{ distance.toLocaleString() }} km</b>
-        </p>
-        <p class="hint">{{ ui.t('compare.hint') }}</p>
-      </div>
 
-      <div class="col">
-        <div class="col-head">
+        <p v-if="!a.events.length" class="none">{{ ui.t('compare.emptyRange') }}</p>
+      </section>
+
+      <div class="gutter" />
+
+      <section class="col">
+        <div class="colhead">
+          <span class="side">B</span>
           <h2 class="serif">{{ b.label }}</h2>
-          <span v-if="b.span" class="span mono">{{ b.span }}</span>
-          <span class="cnt mono">{{ b.events.length }} {{ ui.t('status.events') }}</span>
+          <p class="meta">
+            <template v-if="b.span">{{ b.span }} · </template>
+            {{ b.events.length }} {{ ui.t('compare.entries') }}
+          </p>
         </div>
-        <ul class="stream">
-          <li v-for="ev in b.events" :key="ev.key" @click="emit('select', ev)">
-            <span class="dot" :style="{ background: catOf(ev) }" />
-            <span class="y mono">{{ ev.year }}</span>
-            <span class="t">{{ ev.title }}</span>
-            <span class="reg">{{ ev.region }}</span>
-          </li>
-          <li v-if="!b.events.length" class="none">{{ ui.t('empty.year') }}</li>
-        </ul>
-      </div>
+
+        <div v-for="group in b.groups" :key="`b-${group.year}`" class="yeargroup">
+          <div class="yr">
+            <span class="mono">{{ group.year }}</span>
+            <i v-if="tiedYears.has(group.year)" class="tie">{{ ui.t('compare.sameYear') }}</i>
+          </div>
+          <article v-for="ev in group.events" :key="ev.key" class="entry" @click="emit('select', ev)">
+            <h3 class="serif">{{ ev.title }}</h3>
+            <p v-if="ev.description" class="lead">{{ truncate(ev.description, 96) }}</p>
+            <div class="foot">
+              <span class="cat"><i :style="{ background: catOf(ev) }" />{{ catLabel(ev) }}</span>
+              <span class="reg">{{ ev.region }}</span>
+            </div>
+          </article>
+        </div>
+
+        <p v-if="!b.events.length" class="none">{{ ui.t('compare.emptyRange') }}</p>
+      </section>
     </div>
 
-    <footer class="strip">
-      <div class="strip-head">
-        <span class="cap">{{ ui.t('compare.metrics') }}</span>
-        <span class="dim mono">{{ formatYear(timeline.year, ui.locale) }}</span>
+    <footer class="figures">
+      <div class="fig">
+        <span class="k">{{ ui.t('compare.total') }}</span>
+        <span class="v">{{ totals.all }}<small>{{ ui.t('compare.entries') }}</small></span>
+        <div class="pair">
+          <span><i class="sw a" />{{ a.label }} {{ a.events.length }}</span>
+          <span><i class="sw b" />{{ b.label }} {{ b.events.length }}</span>
+        </div>
       </div>
-      <table>
-        <tbody>
-          <tr v-for="row in rows" :key="row.key">
-            <td class="lbl">{{ row.label }}</td>
-            <td>
-              <span class="v mono">{{ row.a }}</span>
-              <span
-                class="bar-fill"
-                :style="{ width: barWidth(row.a, Math.max(row.a, row.b)), background: 'var(--indigo)' }"
-              />
-            </td>
-            <td>
-              <span class="v mono">{{ row.b }}</span>
-              <span
-                class="bar-fill"
-                :style="{ width: barWidth(row.b, Math.max(row.a, row.b)), background: 'var(--rust)' }"
-              />
-            </td>
-          </tr>
-          <tr v-if="categories.length" class="sep">
-            <td class="lbl" colspan="3">{{ ui.t('compare.breakdown') }}</td>
-          </tr>
-          <tr v-for="row in categories" :key="`cat-${row.key}`">
-            <td class="lbl">
-              <span class="swatch" :style="{ background: `var(${row.cssVar})` }" />{{ row.label }}
-            </td>
-            <td>
-              <span class="v mono">{{ row.a }}</span>
-              <span
-                class="bar-fill"
-                :style="{ width: barWidth(row.a, Math.max(row.a, row.b)), background: `var(${row.cssVar})` }"
-              />
-            </td>
-            <td>
-              <span class="v mono">{{ row.b }}</span>
-              <span
-                class="bar-fill"
-                :style="{ width: barWidth(row.b, Math.max(row.a, row.b)), background: `var(${row.cssVar})` }"
-              />
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="fig">
+        <span class="k">{{ ui.t('compare.tieYears') }}</span>
+        <span class="v">{{ tiedYears.size }}<small>{{ ui.t('compare.years') }}</small></span>
+        <div class="pair">
+          <span>{{ ui.t('compare.pointOfIt') }}</span>
+        </div>
+      </div>
+      <div class="fig">
+        <span class="k">{{ ui.t('compare.politicsMilitary') }}</span>
+        <span class="v">{{ totals.political }} / {{ totals.military }}</span>
+        <div class="bars">
+          <span class="track"><i :style="{ width: barWidth(totals.political, Math.max(totals.political, totals.military)), background: 'var(--indigo)' }" /></span>
+          <span class="track"><i :style="{ width: barWidth(totals.military, Math.max(totals.political, totals.military)), background: 'var(--rust)' }" /></span>
+        </div>
+      </div>
+      <div class="fig">
+        <span class="k">{{ ui.t('compare.economyCulture') }}</span>
+        <span class="v">{{ totals.economic }} / {{ totals.cultural }}</span>
+        <div class="bars">
+          <span class="track"><i :style="{ width: barWidth(totals.economic, Math.max(totals.economic, totals.cultural)), background: 'var(--olive)' }" /></span>
+          <span class="track"><i :style="{ width: barWidth(totals.cultural, Math.max(totals.economic, totals.cultural)), background: 'var(--ochre)' }" /></span>
+        </div>
+      </div>
+      <div class="fig">
+        <span class="k">{{ ui.t('compare.span') }}</span>
+        <span class="v">{{ spanLabel.width }}<small>{{ ui.t('compare.years') }}</small></span>
+        <div class="pair mono">{{ formatYearRange(spanLabel.from, spanLabel.to, ui.locale) }}</div>
+      </div>
     </footer>
   </section>
 </template>
@@ -323,29 +399,82 @@ function catOf(ev: TimelineEvent) {
   flex-direction: column;
   min-width: 0;
   min-height: 0;
-  background: var(--paper-2);
-}
-
-.bar {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  padding: 10px 20px;
-  border-bottom: 1px solid var(--rule-2);
   background: var(--paper);
 }
-.pickers {
+
+/* ── masthead ──────────────────────────────────────────────────────────── */
+.masthead {
+  padding: 16px 22px 12px;
+  border-bottom: 3px double var(--ink-3);
+  background: var(--paper);
+}
+.mast-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.masthead h1 {
+  margin: 6px 0 2px;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-indent: 0.22em;
+  line-height: 1.15;
+}
+.standfirst {
+  margin: 0 0 4px;
+  text-align: center;
+  font-size: 12.5px;
+  letter-spacing: 0.08em;
+  color: var(--ink-2);
+}
+.dateline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 9px;
+  padding-top: 9px;
+  border-top: 1px solid var(--rule);
+  font-size: 12.5px;
+  color: var(--ink-2);
+}
+.range {
   display: flex;
   align-items: center;
   gap: 6px;
+}
+.range i {
+  font-style: normal;
+  color: var(--ink-4);
+}
+.range input {
+  width: 64px;
+  padding: 3px 5px;
+  border: 1px solid var(--rule-2);
+  background: var(--card);
+  color: var(--ink);
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  text-align: center;
+}
+.sep {
+  color: var(--ink-4);
 }
 select {
   border: 1px solid var(--rule-2);
   background: var(--card);
   font-family: var(--font-display);
   font-size: 13px;
-  padding: 4px 8px;
+  padding: 3px 6px;
   color: var(--ink);
+  max-width: 150px;
 }
 /* A polity column narrows the whole point of the picker, so it gets a chip
    rather than a select that would silently drop the polity. */
@@ -354,268 +483,245 @@ select {
   background: var(--card);
   font-family: var(--font-display);
   font-size: 13px;
-  padding: 4px 8px;
+  padding: 3px 7px;
   color: var(--ink);
-  max-width: 160px;
+  max-width: 170px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.pickers .clear {
+.mini {
   border: 1px solid var(--rule-2);
-  width: 26px;
-  height: 27px;
+  width: 24px;
+  height: 24px;
   color: var(--ink-3);
   background: var(--card);
+  line-height: 1;
 }
-.pickers .clear:hover {
+.mini:hover {
   color: var(--rust);
 }
-.swap {
-  border: 1px solid var(--rule-2);
-  width: 26px;
-  height: 27px;
+.aside {
   color: var(--ink-3);
-  background: var(--card);
-}
-.swap:hover {
-  color: var(--rust);
+  font-size: 11.5px;
 }
 .lock {
-  margin-left: auto;
+  margin-left: 6px;
   display: flex;
   align-items: center;
-  gap: 7px;
-  font-size: 10.5px;
+  gap: 6px;
+  font-size: 11.5px;
   color: var(--ink-3);
 }
 .lock .box {
-  width: 13px;
-  height: 13px;
+  width: 12px;
+  height: 12px;
   border: 1px solid var(--rule-3);
   display: grid;
   place-items: center;
-  font-size: 9px;
+  font-size: 10px;
   font-style: normal;
   color: var(--rust);
 }
-
-.columns {
-  flex: 1;
-  min-height: 0;
-  display: grid;
-  grid-template-columns: 1fr 272px 1fr;
-}
-.col {
-  display: flex;
-  flex-direction: column;
-  min-height: 0;
-}
-.col:first-child {
-  border-right: 1px solid var(--rule);
-}
-.col:last-child {
-  border-left: 1px solid var(--rule);
-}
-.col-head {
-  display: flex;
-  align-items: baseline;
-  gap: 10px;
-  padding: 13px 20px 11px;
-  border-bottom: 1px solid var(--rule-2);
-}
-.col-head h2 {
-  font-size: 19px;
-}
-.col-head .span {
-  font-size: 10px;
-  color: var(--ink-3);
-}
-.col-head .cnt {
-  margin-left: auto;
-  font-size: 10px;
-  color: var(--ink-3);
-}
-
-.stream {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  overflow: auto;
-  flex: 1;
-}
-.stream li {
-  display: grid;
-  grid-template-columns: 8px 46px 1fr;
-  gap: 10px;
-  align-items: baseline;
-  padding: 9px 20px;
-  border-bottom: 1px solid var(--rule);
-  cursor: pointer;
-}
-.stream li:hover {
-  background: var(--card);
-}
-.stream .dot {
-  width: 7px;
-  height: 7px;
-  display: block;
-  transform: translateY(-1px);
-}
-.stream .y {
-  font-size: 10px;
-  color: var(--ink-4);
-}
-.stream .t {
-  font-size: var(--fs-sm);
-  line-height: 1.5;
-  color: var(--ink);
-}
-.stream .reg {
-  grid-column: 3;
-  font-size: 10px;
-  color: var(--ink-4);
-}
-.stream .none {
-  display: block;
-  padding: 26px 20px;
-  font-size: var(--fs-sm);
-  color: var(--ink-4);
-  cursor: default;
-}
-.stream .none:hover {
-  background: transparent;
-}
-
-.centre {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  padding: 22px 18px;
-  background: var(--paper);
-}
-.porthole {
-  position: relative;
-  width: 168px;
-  height: 168px;
-  border-radius: 50%;
-  overflow: hidden;
-  box-shadow: var(--shadow-1);
-}
-.porthole svg {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.year {
+.warn {
+  margin: 7px 0 0;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-.year .b {
-  font-size: 34px;
-  font-weight: 600;
-  line-height: 1;
-}
-.year .b small {
-  font-family: var(--font-sans);
-  font-size: 10px;
-  letter-spacing: 0.18em;
-  color: var(--ink-3);
-  margin-right: 4px;
-}
-.year .s {
-  color: var(--ink-3);
-}
-.divider {
-  width: 40px;
-  height: 1px;
-  background: var(--rule-2);
-}
-.dist {
-  font-size: 11px;
-  color: var(--ink-2);
-  text-align: center;
-}
-.dist b {
+  font-size: 12px;
   color: var(--rust);
 }
-.hint {
-  font-size: 10px;
-  line-height: 1.7;
-  color: var(--ink-4);
-  text-align: center;
-  max-width: 190px;
+.warn.loading {
+  color: var(--ink-3);
 }
 
-.strip {
-  border-top: 1px solid var(--rule-2);
-  background: var(--card);
-  max-height: 40%;
-  overflow: auto;
+/* ── spread ────────────────────────────────────────────────────────────── */
+.spread {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+  overflow: hidden;
 }
-.strip-head {
-  display: flex;
-  align-items: center;
-  padding: 8px 20px;
-  border-bottom: 1px solid var(--rule);
+.gutter {
+  background: var(--rule-2);
 }
-.strip-head .dim {
-  margin-left: auto;
+.col {
+  min-height: 0;
+  overflow-y: auto;
+  padding: 0 20px 18px;
+}
+.colhead {
+  padding: 14px 0 8px;
+  border-bottom: 1px solid var(--ink-3);
+  position: sticky;
+  top: 0;
+  background: var(--paper);
+  z-index: 2;
+}
+.colhead .side {
   font-size: 10.5px;
+  letter-spacing: 0.2em;
   color: var(--ink-4);
 }
-table {
-  width: 100%;
-  border-collapse: collapse;
+.colhead h2 {
+  margin: 1px 0 2px;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.2;
 }
-td {
-  padding: 7px 20px;
-  border-bottom: 1px solid var(--rule);
-  vertical-align: middle;
-}
-tr:last-child td {
-  border-bottom: 0;
-}
-td.lbl {
-  font-size: 11px;
+.colhead .meta {
+  margin: 0;
+  font-size: 12px;
   color: var(--ink-3);
-  width: 120px;
 }
-/* Hairline between the headline numbers and the category breakdown. */
-tr.sep td {
-  padding-top: 11px;
-  padding-bottom: 4px;
-  font-size: 9.5px;
+
+.yeargroup {
+  margin-top: 12px;
+}
+.yr {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11.5px;
+  letter-spacing: 0.14em;
+  color: var(--ink-3);
+}
+.yr::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--rule);
+}
+.yr .tie {
+  font-style: normal;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  color: var(--ochre);
+  border: 1px solid color-mix(in srgb, var(--ochre) 45%, transparent);
+  padding: 0 4px;
+}
+
+.entry {
+  padding: 9px 0 10px;
+  border-bottom: 1px dotted var(--rule);
+  cursor: pointer;
+}
+.entry:hover h3 {
+  color: var(--accent);
+}
+.entry h3 {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.35;
+  font-weight: 600;
+}
+.lead {
+  margin: 4px 0 0;
+  font-size: 13px;
+  line-height: 1.68;
+  color: var(--ink-2);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.foot {
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: var(--ink-3);
+}
+.foot .cat {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.foot .cat i {
+  width: 7px;
+  height: 7px;
+}
+.none {
+  margin: 18px 0;
+  font-size: 13px;
+  color: var(--ink-3);
+}
+
+/* ── figures ───────────────────────────────────────────────────────────── */
+.figures {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border-top: 2px solid var(--ink-3);
+  background: var(--paper-2);
+}
+.fig {
+  padding: 9px 14px 10px;
+  border-right: 1px solid var(--rule);
+  min-width: 0;
+}
+.fig:last-child {
+  border-right: none;
+}
+.fig .k {
+  display: block;
+  font-size: 10px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--ink-4);
-  background: var(--paper-2);
-  border-bottom: 1px solid var(--rule-2);
 }
-.swatch {
+.fig .v {
+  display: block;
+  margin-top: 2px;
+  font-family: var(--font-mono);
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.fig .v small {
+  font-size: 10.5px;
+  font-weight: 400;
+  color: var(--ink-3);
+  margin-left: 3px;
+}
+.pair {
+  display: flex;
+  gap: 10px;
+  margin-top: 4px;
+  font-size: 11px;
+  color: var(--ink-3);
+  flex-wrap: wrap;
+}
+.pair .sw {
   display: inline-block;
   width: 7px;
   height: 7px;
-  margin-right: 6px;
-  vertical-align: middle;
+  margin-right: 4px;
 }
-.v {
-  font-size: 13px;
-  color: var(--ink-2);
-  display: inline-block;
-  min-width: 22px;
+.pair .sw.a {
+  background: var(--indigo);
 }
-/* Was `.bar`, the same class as the header row above — the second declaration
-   won and flattened the header to a 5px strip. */
-.bar-fill {
-  display: inline-block;
-  height: 5px;
-  vertical-align: middle;
-  margin-left: 8px;
-  opacity: 0.5;
+.pair .sw.b {
+  background: var(--rust);
+}
+.bars {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.bars .track {
+  height: 3px;
+  background: var(--paper-3);
+  position: relative;
+  display: block;
+}
+.bars .track i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: block;
 }
 </style>

@@ -69,13 +69,20 @@
   --font-sans: 'Inter', 'Noto Sans SC', system-ui, -apple-system, sans-serif;
   --font-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Consolas, monospace;
 
-  --fs-display: 40px;
-  --fs-h1: 22px;
-  --fs-h2: 18px;
-  --fs-h3: 14.5px;
-  --fs-body: 13px;
-  --fs-sm: 12px;
-  --fs-label: 9.5px;
+  /*
+   * Body sizes were 11-13px across the cards, which is below a comfortable
+   * reading size on a 1280px-wide layout. Everything gains roughly a step;
+   * labels gain less than body text so the hierarchy stays readable. A second
+   * pass lifted the whole scale again — the introduction cards were still the
+   * smallest text on screen, and they are the part people actually read.
+   */
+  --fs-display: 46px;
+  --fs-h1: 26px;
+  --fs-h2: 22px;
+  --fs-h3: 17.5px;
+  --fs-body: 15.5px;
+  --fs-sm: 14px;
+  --fs-label: 11.5px;
 
   --track-label: 0.2em;
 

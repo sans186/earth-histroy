@@ -1,5 +1,6 @@
 import * as Cesium from 'cesium';
 import {
+  BASEMAPS,
   BOUNDARY_ALTITUDE,
   INITIAL_VIEW,
   MAX_ZOOM_DISTANCE,
@@ -7,7 +8,8 @@ import {
   polityCapForHeight,
 } from '@/config';
 import { bboxIntersects } from '@/lib/geo';
-import type { PolityFeature, PreparedPolity, TimelineEvent } from '@/types';
+import { labelAnchor } from '@/lib/polityScope';
+import type { Locale, PolityFeature, PreparedPolity, TimelineEvent } from '@/types';
 
 /**
  * Globe engine.
@@ -21,6 +23,16 @@ import type { PolityFeature, PreparedPolity, TimelineEvent } from '@/types';
  */
 
 const PALETTE = ['--indigo', '--olive', '--ochre', '--teal', '--violet', '--rust'];
+
+/**
+ * Render scale while the camera is moving.
+ *
+ * Dragging re-draws the whole scene every frame, and at a 2x device pixel ratio
+ * that is four times the pixels of a CSS-resolution frame. Dropping to 70% for
+ * the duration of the gesture is the usual trade: the picture is briefly soft
+ * while moving and snaps back to full detail on pointer-up.
+ */
+const INTERACTIVE_SCALE = 0.7;
 
 function css(name: string, fallback: string): string {
   const v = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
@@ -66,29 +78,45 @@ export interface WarMarker {
 }
 
 /**
- * Wars are drawn as hollow diamonds rather than dots, so they read as a
- * different kind of thing from the round event markers without needing a legend
- * entry to explain them.
+ * Wars are drawn as solid, outlined diamonds rather than dots, so they read as
+ * a different kind of thing from the round event markers without needing a
+ * legend entry to explain them. The light rim keeps the silhouette crisp against
+ * dark imagery, and the soft drop shadow lifts the marker off the paper map.
  */
-function diamondTexture(fill: string, stroke: string, size = 24): HTMLCanvasElement {
+function diamondTexture(fill: string, stroke: string, size = 32): HTMLCanvasElement {
   const canvas = document.createElement('canvas');
   canvas.width = size;
   canvas.height = size;
   const ctx = canvas.getContext('2d');
   if (!ctx) return canvas;
+
+  // Leave room inside the bitmap for the outline and the shadow blur.
+  const inset = size / 8;
   const c = size / 2;
-  ctx.beginPath();
-  ctx.moveTo(c, 1.5);
-  ctx.lineTo(size - 1.5, c);
-  ctx.lineTo(c, size - 1.5);
-  ctx.lineTo(1.5, c);
-  ctx.closePath();
+  const outline = () => {
+    ctx.beginPath();
+    ctx.moveTo(c, inset);
+    ctx.lineTo(size - inset, c);
+    ctx.lineTo(c, size - inset);
+    ctx.lineTo(inset, c);
+    ctx.closePath();
+  };
+
   if (fill !== 'none') {
+    ctx.save();
+    ctx.shadowColor = 'rgba(18, 20, 24, 0.42)';
+    ctx.shadowBlur = size / 9;
+    ctx.shadowOffsetY = size / 18;
+    outline();
     ctx.fillStyle = fill;
     ctx.fill();
+    ctx.restore();
   }
+
+  outline();
   ctx.strokeStyle = stroke;
-  ctx.lineWidth = 2;
+  ctx.lineWidth = Math.max(2, size / 12);
+  ctx.lineJoin = 'miter';
   ctx.stroke();
   return canvas;
 }
@@ -120,7 +148,12 @@ class GlobeEngine {
   private warLabels: Cesium.LabelCollection | null = null;
   private warTextures: { idle: HTMLCanvasElement; active: HTMLCanvasElement } | null = null;
 
+  /** Entities of the open person's route; empty whenever no person is open. */
+  private trajectory: Cesium.Entity[] = [];
+
   private polityLayer = new Cesium.CustomDataSource('polities');
+  /** Name entities of the last render, so the layer switch avoids a redraw. */
+  private polityLabels: Cesium.Entity[] = [];
   private handles: PolityHandle[] = [];
   private sceneHandles = new Map<string, PolityHandle>();
   private hovered: PolityHandle | null = null;
@@ -147,6 +180,10 @@ class GlobeEngine {
   private grid: Cesium.ImageryLayer | null = null;
   private base: 'standard' | 'satellite' = 'standard';
   private eventIndex: TimelineEvent[] = [];
+  /** True between camera `moveStart` and `moveEnd`, i.e. during a drag or zoom. */
+  private interacting = false;
+  /** Pending "camera settled" callback, coalesced across one gesture. */
+  private settleTimer: ReturnType<typeof setTimeout> | null = null;
 
   /* ── lifecycle ───────────────────────────────────────────────────────── */
 
@@ -185,6 +222,12 @@ class GlobeEngine {
     scene.globe.enableLighting = false;
     scene.fog.enabled = false;
     scene.highDynamicRange = false;
+    /*
+     * Multi-sample anti-aliasing is the most expensive default left on this
+     * canvas: the map is mostly flat fills and thin outlines, so the extra
+     * samples cost fill rate without changing what the reader sees.
+     */
+    scene.msaaSamples = 1;
     // Printed-map look: no tile fade flicker, no bright sun glare.
     scene.globe.depthTestAgainstTerrain = false;
 
@@ -205,7 +248,14 @@ class GlobeEngine {
     this.addLayerDataSources();
     this.installPickPipeline();
 
-    viewer.camera.moveEnd.addEventListener(() => this.callbacks.onViewChange?.());
+    viewer.camera.moveStart.addEventListener(() => {
+      this.cancelSettle();
+      this.beginInteraction();
+    });
+    viewer.camera.moveEnd.addEventListener(() => {
+      this.endInteraction();
+      this.scheduleSettle();
+    });
 
     /*
      * Cesium stops its render loop on the first exception thrown while drawing.
@@ -242,8 +292,63 @@ class GlobeEngine {
     });
   }
 
+  /**
+   * Cheapen the frames that are drawn while the camera moves.
+   *
+   * Two things made dragging stutter. Every camera change redraws the whole
+   * scene, and the hover pipeline drew it a *second* time into the pick buffer
+   * roughly twelve times a second — the pointer is always moving during a drag,
+   * so the 80 ms hover throttle never got a chance to idle. Skipping the pick
+   * and dropping the render scale for the duration of the gesture fixes both.
+   */
+  private beginInteraction() {
+    const viewer = this.viewer;
+    if (!viewer) return;
+    this.interacting = true;
+    if (viewer.resolutionScale !== INTERACTIVE_SCALE) {
+      viewer.resolutionScale = INTERACTIVE_SCALE;
+    }
+    // A tooltip resolved mid-drag would describe a place the camera has already
+    // left, so clear it instead of letting it lag behind.
+    this.callbacks.onHoverEvent?.(null);
+    this.callbacks.onHoverPolity?.(null);
+    viewer.scene.canvas.style.cursor = 'default';
+    this.clearHighlight();
+    this.hovered = null;
+  }
+
+  private endInteraction() {
+    const viewer = this.viewer;
+    if (!viewer) return;
+    this.interacting = false;
+    if (viewer.resolutionScale !== 1) viewer.resolutionScale = 1;
+  }
+
+  /**
+   * Coalesces the "camera settled" signal.
+   *
+   * `moveEnd` fires at every pause inside one gesture — a drag with a little
+   * inertia produces several, and each one used to walk the whole polity set
+   * again and rebuild every polygon entity. That rebuild is the stutter at the
+   * end of a drag, so it now runs once, after the camera has actually stopped.
+   */
+  private scheduleSettle() {
+    this.cancelSettle();
+    this.settleTimer = setTimeout(() => {
+      this.settleTimer = null;
+      this.callbacks.onViewChange?.();
+    }, 260);
+  }
+
+  private cancelSettle() {
+    if (!this.settleTimer) return;
+    clearTimeout(this.settleTimer);
+    this.settleTimer = null;
+  }
+
   destroy(): void {
     this.abort.abort();
+    this.cancelSettle();
     for (const h of this.handlers) {
       if (!h.isDestroyed()) h.destroy();
     }
@@ -316,21 +421,15 @@ class GlobeEngine {
 
     if (this.imagery) viewer.imageryLayers.remove(this.imagery, true);
 
-    const provider =
-      kind === 'standard'
-        ? new Cesium.UrlTemplateImageryProvider({
-            url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-            credit: '© OpenStreetMap contributors',
-            maximumLevel: 18,
-          })
-        : new Cesium.UrlTemplateImageryProvider({
-            url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-            credit: 'Esri World Imagery',
-            maximumLevel: 18,
-          });
+    const base = BASEMAPS[kind];
+    const provider = new Cesium.UrlTemplateImageryProvider({
+      url: base.url,
+      credit: base.attribution,
+      maximumLevel: base.maxzoom,
+    });
 
     const layer = viewer.imageryLayers.addImageryProvider(provider);
-    // Standard OSM is toned down towards paper; satellite keeps more body.
+    // The standard basemap is toned down towards paper; satellite keeps more body.
     layer.brightness = Number(css('--imagery-brightness', '1.06'));
     layer.saturation = kind === 'standard'
       ? Number(css('--imagery-saturation', '0.34'))
@@ -341,6 +440,9 @@ class GlobeEngine {
     // raiseToTop lives on the collection, not on the layer — calling it on the
     // layer would throw the first time the basemap is switched.
     if (this.grid) viewer.imageryLayers.raiseToTop(this.grid);
+    // Polities are tinted on paper and boundary-only over imagery, so a switch
+    // has to restyle whatever is already on the globe.
+    this.restylePolities();
   }
 
   private addGraticule() {
@@ -398,6 +500,9 @@ class GlobeEngine {
     let pickedAt = 0;
     const move = new Cesium.ScreenSpaceEventHandler(canvas);
     move.setInputAction((movement: Cesium.ScreenSpaceEventHandler.MotionEvent) => {
+      // No hover work while the camera moves: a pick is an extra full render of
+      // a scene that is already being redrawn every frame.
+      if (this.interacting) return;
       last = movement.endPosition;
       if (queued) return;
       queued = true;
@@ -471,6 +576,8 @@ class GlobeEngine {
   private handleHover(position: Cesium.Cartesian2) {
     const viewer = this.viewer;
     if (!viewer) return;
+    // A frame queued by requestAnimationFrame can land after the drag began.
+    if (this.interacting) return;
 
     /*
      * One pick, not six.
@@ -515,13 +622,24 @@ class GlobeEngine {
   private applyHighlight(handle: PolityHandle) {
     const { entity } = handle;
     if (!this.polityLayer.entities.contains(entity)) return;
-    const brighter = handle.fill.withAlpha(Math.min(1, handle.fill.alpha + 0.32));
-    if (entity.polygon) {
-      entity.polygon.material = new Cesium.ColorMaterialProperty(brighter);
-      entity.polygon.outlineColor = new Cesium.ConstantProperty(
-        Cesium.Color.fromCssColorString(css('--accent', '#b0522d')).withAlpha(0.95),
+    const polygon = entity.polygon;
+    if (!polygon) return;
+    const accent = Cesium.Color.fromCssColorString(css('--accent', '#b0522d')).withAlpha(0.95);
+    /*
+     * Boundary-only polities have no wash to brighten, so their hover cue has to
+     * live on the outline: it switches to a lifted red instead. That is the only
+     * lever a 1 px Cesium polygon outline offers, but against a rust red line
+     * the change still reads as "this one, right here".
+     */
+    const borderOnly = handle.fill.alpha === 0;
+    if (!borderOnly) {
+      polygon.material = new Cesium.ColorMaterialProperty(
+        handle.fill.withAlpha(Math.min(1, handle.fill.alpha + 0.32)),
       );
     }
+    polygon.outlineColor = new Cesium.ConstantProperty(
+      borderOnly ? accent.brighten(0.55, new Cesium.Color()).withAlpha(1) : accent,
+    );
   }
 
   private clearHighlight() {
@@ -645,11 +763,78 @@ class GlobeEngine {
     this.eventIndex = [];
   }
 
+  /* ── person trajectory ────────────────────────────────────────────────── */
+
+  /**
+   * The path of one life, drawn only while that person's card is open.
+   *
+   * The coordinates were already in `people/profiles/*.json` and summarised into
+   * `coords.json`; nothing ever drew them, so a "轨迹" was a list of places the
+   * reader had to fly to one at a time. Consecutive stages frequently share a
+   * city (Ada Lovelace never left London), so the caller collapses duplicates
+   * and the line only spans the stages that actually moved.
+   */
+  renderTrajectory(stops: Array<{ lon: number; lat: number }>) {
+    const viewer = this.viewer;
+    if (!viewer) return;
+    this.clearTrajectory();
+    if (!stops.length) return;
+
+    const accent = Cesium.Color.fromCssColorString(css('--rust', '#b0522d'));
+    const paper = Cesium.Color.fromCssColorString(css('--paper', '#f7f5f0'));
+
+    if (stops.length > 1) {
+      const flat: number[] = [];
+      for (const stop of stops) flat.push(stop.lon, stop.lat, BOUNDARY_ALTITUDE);
+      this.trajectory.push(
+        viewer.entities.add({
+          polyline: {
+            positions: Cesium.Cartesian3.fromDegreesArrayHeights(flat),
+            width: 2,
+            material: new Cesium.PolylineGlowMaterialProperty({
+              color: accent.withAlpha(0.8),
+              glowPower: 0.1,
+            }),
+            /*
+             * Not clamped to the ground: at grazing angles a clamped line is
+             * hidden by the polity fills and the imagery, which is the same trap
+             * the historical borders fell into.
+             */
+            clampToGround: false,
+          },
+        }),
+      );
+    }
+
+    for (const stop of stops) {
+      this.trajectory.push(
+        viewer.entities.add({
+          position: Cesium.Cartesian3.fromDegrees(stop.lon, stop.lat, BOUNDARY_ALTITUDE),
+          point: {
+            pixelSize: 7,
+            color: accent,
+            outlineColor: paper,
+            outlineWidth: 2,
+            disableDepthTestDistance: Number.POSITIVE_INFINITY,
+          },
+        }),
+      );
+    }
+  }
+
+  clearTrajectory() {
+    const viewer = this.viewer;
+    if (!viewer) return;
+    for (const entity of this.trajectory) viewer.entities.remove(entity);
+    this.trajectory = [];
+  }
+
   /* ── wars ────────────────────────────────────────────────────────────── */
 
   /**
-   * One diamond per war theatre. The selected war is drawn filled and slightly
-   * larger so it stays findable among a few hundred hollow outlines.
+   * One diamond per war theatre. Every marker is a solid ink diamond with a pale
+   * rim; the selected war swaps to the rust accent and grows slightly so it
+   * stays findable among a few hundred others.
    */
   renderWars(wars: WarMarker[], activeId: string | null, showLabels: boolean) {
     const viewer = this.viewer;
@@ -662,8 +847,8 @@ class GlobeEngine {
 
     if (!this.warTextures) {
       this.warTextures = {
-        idle: diamondTexture('none', css('--ink', '#1a1c20')),
-        active: diamondTexture(css('--rust', '#b0522d'), css('--rust', '#b0522d')),
+        idle: diamondTexture(css('--ink', '#1a1c20'), css('--paper', '#f7f5f0')),
+        active: diamondTexture(css('--rust', '#b0522d'), css('--paper', '#f7f5f0')),
       };
     }
     const textures = this.warTextures;
@@ -678,8 +863,8 @@ class GlobeEngine {
       billboards.add({
         position,
         image: isActive ? textures.active : textures.idle,
-        width: isActive ? 26 : 18,
-        height: isActive ? 26 : 18,
+        width: isActive ? 34 : 22,
+        height: isActive ? 34 : 22,
         id: war,
         scaleByDistance: new Cesium.NearFarScalar(1.0e6, 1.2, 2.0e7, 0.55),
         translucencyByDistance: new Cesium.NearFarScalar(1.0e6, 1, 2.0e7, 0.4),
@@ -695,7 +880,8 @@ class GlobeEngine {
           outlineColor: Cesium.Color.fromCssColorString(css('--paper', '#f7f5f0')).withAlpha(0.9),
           outlineWidth: 3,
           style: Cesium.LabelStyle.FILL_AND_OUTLINE,
-          pixelOffset: new Cesium.Cartesian2(0, -17),
+          // Clears the diamond itself, which grew from 18px to 22px.
+          pixelOffset: new Cesium.Cartesian2(0, -22),
           horizontalOrigin: Cesium.HorizontalOrigin.CENTER,
           scaleByDistance: new Cesium.NearFarScalar(8.0e5, 1, 5.0e6, 0.6),
           distanceDisplayCondition: new Cesium.DistanceDisplayCondition(0, 6.0e6),
@@ -713,6 +899,50 @@ class GlobeEngine {
   /* ── historical polities ─────────────────────────────────────────────── */
 
   /**
+   * Fill and outline for one polity — both depend on the basemap.
+   *
+   * On the toned-down paper basemap the tinted wash is what separates a polity
+   * from its neighbours: a single-pixel outline nearly disappears against it.
+   * Satellite imagery already carries its own colour and texture, so a wash on
+   * top of it just hazes over the terrain the basemap is there to show — there
+   * the polity is its boundary only, drawn in the rust accent as a red line.
+   */
+  private polityStyle(name: string): { fill: Cesium.Color; stroke: Cesium.Color } {
+    if (this.base === 'satellite') {
+      const red = Cesium.Color.fromCssColorString(css('--rust', '#b0522d'));
+      // Alpha 0 rather than a missing material: the fill has to stay pickable so
+      // hovering the interior still raises the hover card.
+      return { fill: red.withAlpha(0), stroke: red.withAlpha(0.92) };
+    }
+    return {
+      fill: Cesium.Color.fromCssColorString(
+        css(PALETTE[hashString(name) % PALETTE.length], '#26406b'),
+      ).withAlpha(0.42),
+      stroke: Cesium.Color.fromCssColorString(css('--rule-3', '#a89f8d')).withAlpha(0.85),
+    };
+  }
+
+  /**
+   * Re-apply polity styling after a basemap switch.
+   *
+   * Only the material and the outline change, so nothing has to be re-picked or
+   * re-culled: colour is a rendering concern, not a data one.
+   */
+  private restylePolities() {
+    for (const handle of this.handles) {
+      const style = this.polityStyle(handle.feature.properties?.Name ?? '');
+      handle.fill = style.fill;
+      handle.stroke = style.stroke;
+      const polygon = handle.entity.polygon;
+      if (!polygon) continue;
+      polygon.material = new Cesium.ColorMaterialProperty(style.fill);
+      polygon.outlineColor = new Cesium.ConstantProperty(style.stroke);
+    }
+    // The loop above just reset the hovered entity to its resting style.
+    if (this.hovered) this.applyHighlight(this.hovered);
+  }
+
+  /**
    * Render the polities active in `year`.
    *
    * Two behaviours differ from the previous implementation on purpose:
@@ -720,17 +950,47 @@ class GlobeEngine {
    *      and the layer reports how many were withheld instead of dropping them
    *      silently;
    *   2. boundaries are the polygon outline itself, so they can never be
-   *      occluded by the surface the way a ground-hugging polyline was.
+   *      occluded by the surface the way a ground-hugging polyline was;
+   *   3. styling comes from `polityStyle`, which drops the fill entirely over
+   *      satellite imagery and leaves only the red boundary.
    */
-  renderPolities(features: PolityFeature[], names: Record<string, string>) {
+  renderPolities(
+    features: PolityFeature[],
+    names: Record<string, string>,
+    opts: { labels?: boolean; locale?: Locale } = {},
+  ) {
     const viewer = this.viewer;
     if (!viewer) return;
+
+    /*
+     * Names on the globe.
+     *
+     * Cesium has no collision engine for labels, so importance is decided up
+     * front: only the largest polities by area get a name, and the distance at
+     * which each name survives is tied to that rank. Pulling the camera in adds
+     * names the way a paper atlas does, with no per-frame layout pass.
+     */
+    const labelTiers = new Map<string, number>();
+    features
+      .map((feature) => ({ feature, area: Number(feature.properties?.Area) || 0 }))
+      .sort((a, b) => b.area - a.area)
+      .slice(0, 80)
+      .forEach((item, index) => {
+        const props = item.feature.properties ?? {};
+        labelTiers.set(
+          `${props.Name ?? ''}|${props.FromYear ?? ''}|${props.ToYear ?? ''}`,
+          index < 12 ? 2 : index < 30 ? 1 : 0,
+        );
+      });
+    const locale: Locale = opts.locale ?? 'zh';
+    const labelsOn = opts.labels !== false;
 
     this.clearHighlight();
     this.hovered = null;
     const entities = this.renewPolityLayer(viewer).entities;
     this.handles = [];
     this.sceneHandles.clear();
+    this.polityLabels = [];
 
     entities.suspendEvents();
     let withheldParts = 0;
@@ -741,10 +1001,7 @@ class GlobeEngine {
         const name = props.Name ?? '';
         if (!name) continue;
 
-        const fill = Cesium.Color.fromCssColorString(
-          css(PALETTE[hashString(name) % PALETTE.length], '#26406b'),
-        ).withAlpha(0.42);
-        const stroke = Cesium.Color.fromCssColorString(css('--rule-3', '#a89f8d')).withAlpha(0.85);
+        const { fill, stroke } = this.polityStyle(name);
 
         const polygons: number[][][][] =
           feature.geometry.type === 'Polygon'
@@ -808,15 +1065,48 @@ class GlobeEngine {
             // A single malformed ring must not abort the whole layer.
           }
         }
+
+        const tier = labelTiers.get(`${name}|${props.FromYear ?? ''}|${props.ToYear ?? ''}`);
+        const anchor = tier === undefined ? null : labelAnchor(feature);
+        if (tier !== undefined && anchor) {
+          const text = locale === 'en' ? name : (names[name] ?? '').trim() || name;
+          // The globe opens at ~2e7 m, so the top rank has to survive the whole
+          // view or the layer looks broken from the default camera.
+          const far = tier === 2 ? 26_000_000 : tier === 1 ? 9_000_000 : 3_000_000;
+          const labelEntity = entities.add({
+            show: labelsOn,
+            position: Cesium.Cartesian3.fromDegrees(anchor[0], anchor[1], 0),
+            label: {
+              text,
+              font: '600 15px "Noto Sans SC", "PingFang SC", system-ui, sans-serif',
+              fillColor: Cesium.Color.fromCssColorString('#2a2724'),
+              outlineColor: Cesium.Color.fromCssColorString('#f6f1e7'),
+              outlineWidth: 4,
+              style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+              // Same paper wash as the flat map: the imagery prints its own
+              // place names underneath.
+              showBackground: true,
+              backgroundColor: Cesium.Color.fromCssColorString('#f6f1e7').withAlpha(0.62),
+              backgroundPadding: new Cesium.Cartesian2(4, 2),
+              horizontalOrigin: Cesium.HorizontalOrigin.CENTER,
+              verticalOrigin: Cesium.VerticalOrigin.CENTER,
+              // Depth testing stays on: names on the far side of the globe must
+              // be hidden by the globe itself.
+              // Rank decides how far out the name survives; no per-frame layout.
+              distanceDisplayCondition: new Cesium.DistanceDisplayCondition(0, far),
+              // Barely shrinks with distance: at the default globe altitude a
+              // 0.75 scale made the names unreadable against the imagery.
+              scaleByDistance: new Cesium.NearFarScalar(2_000_000, 1.1, far, 0.95),
+            },
+          });
+          this.polityLabels.push(labelEntity);
+        }
       }
     } finally {
       entities.resumeEvents();
     }
 
     this.withheld = withheldParts;
-
-    const zh = names;
-    void zh;
   }
 
   /** Polygon parts not drawn in the last render because of the camera budget. */
@@ -830,6 +1120,12 @@ class GlobeEngine {
     this.polityLayer.entities.removeAll();
     this.handles = [];
     this.sceneHandles.clear();
+    this.polityLabels = [];
+  }
+
+  /** Show or hide the polity names without rebuilding the polygons. */
+  setPolityLabelsVisible(on: boolean) {
+    for (const entity of this.polityLabels) entity.show = on;
   }
 
   /** Zoom-aware cap for the current camera altitude. */
@@ -872,7 +1168,7 @@ class GlobeEngine {
 
     /*
      * Modern borders used to be `--rule-3` (#a89f8d) at 1 px, which is almost
-     * exactly the value of the toned-down OSM basemap underneath — so the layer
+     * exactly the value of the toned-down basemap underneath — so the layer
      * was on but invisible. A darker stroke at 2 px reads on both basemaps;
      * Cesium draws polyline width as a screen-space ribbon, so 2 px survives.
      */

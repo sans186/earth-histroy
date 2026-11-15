@@ -24,9 +24,9 @@ const current = computed(() =>
 );
 
 /**
- * The panel receives the whole time-scale window (current year ±20), so the
- * raw order is chronological: at 1911 the first rows were 1891 entries and the
- * year's own 13 events sat in the middle of 535, which reads as "the list is
+ * The panel receives the whole time-scale window (current year ±5), so the raw
+ * order is chronological: at 1911 the first rows were 1906 entries and the
+ * year's own events sat in the middle of the list, which reads as "the list is
  * stuck on the wrong year". Nearest year first keeps the current year on top.
  */
 const ordered = computed(() => {
@@ -54,11 +54,17 @@ function certMark(ev: TimelineEvent) {
   <div class="wrap">
     <div class="year-head">
       <div class="y serif">
-        <small v-if="timeline.isBCE">BCE</small>{{ timeline.absYear }}
+        <small v-if="timeline.isBCE">{{ ui.t('unit.bce') }}</small>{{ timeline.absYear }}
       </div>
       <div class="sub">
         <span>{{ ui.locale === 'zh' ? timeline.era.name : timeline.era.nameEn }}</span>
-        <span class="mono">{{ current }} {{ ui.t('status.events') }}</span>
+        <!--
+          While the scale is being dragged the year runs ahead of the loaded
+          list, so the count would read zero next to a full list. Say what is
+          actually happening instead.
+        -->
+        <span v-if="timeline.scrubbing" class="mono drag-hint">{{ ui.t('loading.events') }}…</span>
+        <span v-else class="mono">{{ current }} {{ ui.t('status.events') }}</span>
       </div>
 
       <!--
@@ -69,6 +75,18 @@ function certMark(ev: TimelineEvent) {
       <button class="year-open" @click="emit('openYear')">
         <span class="lbl">{{ ui.t('year.open') }}</span>
         <em>{{ ui.t('year.hint') }}</em>
+      </button>
+    </div>
+
+    <div v-if="ui.polityScope" class="scope-row">
+      <button
+        class="scope-chip"
+        :class="{ on: ui.scopeToPolity }"
+        :title="ui.t('filter.polityHint')"
+        @click="ui.toggleScopeToPolity()"
+      >
+        <i v-if="ui.scopeToPolity">✓</i>
+        <span>{{ ui.t('filter.polity') }} · {{ ui.polityScope.label }}</span>
       </button>
     </div>
 
@@ -124,13 +142,13 @@ function certMark(ev: TimelineEvent) {
   border-bottom: 1px solid var(--rule-2);
 }
 .year-head .y {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 600;
   line-height: 1;
 }
 .year-head .y small {
   font-family: var(--font-sans);
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.18em;
   color: var(--ink-3);
   margin-right: 5px;
@@ -140,13 +158,24 @@ function certMark(ev: TimelineEvent) {
   display: flex;
   align-items: baseline;
   gap: 10px;
-  font-size: 10.5px;
+  font-size: 12.5px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--ink-3);
 }
 .year-head .sub .mono {
   margin-left: auto;
+}
+.year-head .sub .drag-hint {
+  color: var(--rust);
+  letter-spacing: 0.06em;
+  text-transform: none;
+}
+
+/* The polity scope sits under the year heading, above the list it filters. */
+.scope-row {
+  padding: 9px 18px;
+  border-bottom: 1px solid var(--rule);
 }
 
 .year-open {
@@ -170,7 +199,7 @@ function certMark(ev: TimelineEvent) {
 }
 .year-open em {
   font-style: normal;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.5;
   color: var(--ink-4);
 }
@@ -209,7 +238,7 @@ function certMark(ev: TimelineEvent) {
   background: var(--rust);
 }
 .idx {
-  font-size: 9.5px;
+  font-size: 11.5px;
   color: var(--ink-4);
   padding-top: 3px;
 }
@@ -232,7 +261,7 @@ function certMark(ev: TimelineEvent) {
   display: flex;
   align-items: center;
   gap: 7px;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--ink-3);
   letter-spacing: 0.06em;
 }
@@ -252,7 +281,7 @@ function certMark(ev: TimelineEvent) {
   color: var(--ink-4);
 }
 .cert {
-  font-size: 9.5px;
+  font-size: 11.5px;
   color: var(--ink-4);
   border: 1px solid var(--rule-2);
   padding: 0 4px;
@@ -287,7 +316,7 @@ function certMark(ev: TimelineEvent) {
   color: var(--ink-2);
 }
 .empty .h {
-  font-size: 10.5px;
+  font-size: 12.5px;
   color: var(--ink-4);
   line-height: 1.7;
 }
@@ -297,7 +326,7 @@ function certMark(ev: TimelineEvent) {
   justify-content: space-between;
   padding: 8px 18px;
   border-top: 1px solid var(--rule-2);
-  font-size: 9.5px;
+  font-size: 11.5px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--ink-4);

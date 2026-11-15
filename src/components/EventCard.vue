@@ -1,8 +1,10 @@
 <script setup lang="ts">
-import { computed, onMounted, ref } from 'vue';
+import { computed, onMounted, ref, watch } from 'vue';
 import { CATEGORIES } from '@/config';
-import { certaintyInfo, sourceTypeLabel, truncate } from '@/lib/format';
+import { edgeLinksOf, parseEventRef, type EventEdgeLink, type EventRef } from '@/lib/eventLinks';
+import { certaintyInfo, relationLabel, sourceTypeLabel, truncate } from '@/lib/format';
 import { wikiSearchUrl } from '@/lib/wiki';
+import { findEventById } from '@/services/data';
 import { usePeopleStore } from '@/stores/people';
 import { useUiStore } from '@/stores/ui';
 import type { TimelineEvent } from '@/types';
@@ -17,6 +19,7 @@ const emit = defineEmits<{
   close: [];
   flyTo: [TimelineEvent];
   jumpToYear: [number];
+  openRef: [EventRef];
 }>();
 
 const ui = useUiStore();
@@ -82,14 +85,48 @@ const shownText = computed(() =>
 );
 
 /** Cross references look like "1912-001（中华民国宣告成立）". */
-const crossRefs = computed(() =>
-  props.event.crossReferences.map((raw) => {
-    const match = String(raw).match(/-?\d{1,4}/);
-    const year = match ? Number.parseInt(match[0], 10) : null;
-    const label = String(raw).replace(/^\s*-?\d{1,4}(-\d+)?\s*/, '') || String(raw);
-    return { raw: String(raw), year, label };
-  }),
+const crossRefs = computed(() => props.event.crossReferences.map(parseEventRef));
+
+const refsOpen = ref(false);
+const refsShown = computed(() =>
+  refsOpen.value ? crossRefs.value : crossRefs.value.slice(0, 6),
 );
+
+/**
+ * Relation edges that touch this event, with the other end resolved to a title.
+ *
+ * A year file records edges in both directions and the other end may sit in a
+ * different year, so each edge needs one lookup — cheap, because the window
+ * around the open year is normally already in the event cache.
+ */
+const edges = ref<(EventEdgeLink & { title: string })[]>([]);
+
+async function loadEdges() {
+  const links = edgeLinksOf(props.event);
+  if (!links.length) {
+    edges.value = [];
+    return;
+  }
+  const titled = await Promise.all(
+    links.map(async (link) => {
+      const doc = await findEventById(link.id, ui.locale);
+      return { ...link, title: doc?.title ?? '' };
+    }),
+  );
+  edges.value = titled.filter((link) => link.title);
+}
+
+watch(
+  () => [props.event.key, ui.locale] as const,
+  () => {
+    void loadEdges();
+  },
+  { immediate: true },
+);
+
+function openRef(ref: EventRef) {
+  emit('openRef', ref);
+}
 </script>
 
 <template>
@@ -176,18 +213,40 @@ const crossRefs = computed(() =>
     </section>
 
     <section v-if="crossRefs.length" class="xref">
-      <h5 class="cap">{{ ui.t('card.crossRef') }}</h5>
+      <h5 class="cap">
+        {{ ui.t('card.crossRef') }}
+        <em class="hint">{{ ui.t('card.crossRefHint') }}</em>
+      </h5>
       <div class="links">
         <button
-          v-for="ref in crossRefs.slice(0, 6)"
+          v-for="ref in refsShown"
           :key="ref.raw"
-          :disabled="ref.year === null"
-          @click="ref.year !== null && emit('jumpToYear', ref.year)"
+          :disabled="!ref.id && ref.year === null"
+          @click="openRef(ref)"
         >
           <span class="mono" v-if="ref.year !== null">{{ ref.year }}</span>
-          {{ truncate(ref.label, 26) }}
+          {{ truncate(ref.title, 26) }}
         </button>
       </div>
+      <button v-if="crossRefs.length > 6" class="more" @click="refsOpen = !refsOpen">
+        {{ refsOpen ? ui.t('card.less') : ui.t('card.more') }}
+      </button>
+    </section>
+
+    <section v-if="edges.length" class="xref relations">
+      <h5 class="cap">{{ ui.t('card.relations') }}</h5>
+      <ul>
+        <li v-for="edge in edges" :key="`${edge.id}:${edge.relation}`">
+          <span class="rel">{{ relationLabel(edge.relation, ui.locale) }}</span>
+          <button
+            class="to"
+            @click="openRef({ raw: edge.id, id: edge.id, year: edge.year, title: edge.title })"
+          >
+            {{ edge.title }}
+          </button>
+          <span v-if="edge.note" class="note">{{ truncate(edge.note, 46) }}</span>
+        </li>
+      </ul>
     </section>
 
     <p class="disclaimer">{{ ui.t('card.aiNotice') }}</p>
@@ -261,13 +320,13 @@ header .left {
   min-width: 0;
 }
 header h3 {
-  font-size: 18px;
+  font-size: 19.5px;
   line-height: 1.32;
 }
 .close {
   margin-left: auto;
   color: var(--ink-3);
-  font-size: 13px;
+  font-size: 14.5px;
   line-height: 1;
   padding: 3px;
 }
@@ -286,12 +345,12 @@ header h3 {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 11.5px;
+  font-size: 13.5px;
   color: var(--ink-2);
 }
 .kv em {
   font-style: normal;
-  font-size: 9.5px;
+  font-size: 11.5px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--ink-4);
@@ -316,7 +375,7 @@ header h3 {
   height: 17px;
   display: grid;
   place-items: center;
-  font-size: 9.5px;
+  font-size: 11.5px;
   border: 1px solid var(--rule-3);
   color: var(--ink-2);
 }
@@ -335,7 +394,7 @@ header h3 {
   background: var(--rust-soft);
 }
 .cert .txt {
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.6;
   color: var(--ink-2);
 }
@@ -363,7 +422,7 @@ section p {
 }
 .more {
   margin-top: 6px;
-  font-size: 10.5px;
+  font-size: 12.5px;
   color: var(--rust);
   letter-spacing: 0.08em;
 }
@@ -374,7 +433,7 @@ section p {
   gap: 5px;
 }
 .tags .tag {
-  font-size: 10.5px;
+  font-size: 12.5px;
   color: var(--ink-2);
   border: 1px solid var(--rule-2);
   padding: 2px 7px;
@@ -394,7 +453,7 @@ section p {
 }
 .hint {
   font-style: normal;
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.06em;
   text-transform: none;
   color: var(--ink-4);
@@ -415,7 +474,7 @@ ol li {
   gap: 8px;
 }
 ol .n {
-  font-size: 9.5px;
+  font-size: 11.5px;
   color: var(--rust);
   padding-top: 2px;
 }
@@ -426,14 +485,14 @@ ol .n {
   min-width: 0;
 }
 .nm {
-  font-size: 11.5px;
+  font-size: 13.5px;
   line-height: 1.5;
   color: var(--ink-2);
 }
 .ty {
   display: flex;
   gap: 8px;
-  font-size: 9.5px;
+  font-size: 11.5px;
   letter-spacing: 0.08em;
   color: var(--ink-4);
 }
@@ -450,7 +509,7 @@ ol .n {
   color: var(--ink-4);
 }
 .none {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--ink-4);
 }
 
@@ -464,7 +523,7 @@ ol .n {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 11px;
+  font-size: 13px;
   color: var(--indigo);
   border-bottom: 1px dotted var(--rule-2);
   padding-bottom: 1px;
@@ -476,12 +535,48 @@ ol .n {
   cursor: default;
 }
 .links button .mono {
-  font-size: 9.5px;
+  font-size: 11.5px;
   color: var(--ink-4);
 }
 
+/* Relation edges recorded for the year, filtered down to the open event. */
+.relations ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.relations li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 8px;
+  padding-left: 9px;
+  border-left: 2px solid var(--rule-2);
+}
+.relations .rel {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: var(--rust);
+}
+.relations .to {
+  font-size: 13px;
+  color: var(--indigo);
+  border-bottom: 1px dotted var(--rule-2);
+  padding-bottom: 1px;
+  text-align: left;
+}
+.relations .note {
+  flex: 1 0 100%;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--ink-3);
+}
+
 .lin-hint {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.65;
   color: var(--ink-4);
   margin-bottom: 8px;
@@ -489,7 +584,7 @@ ol .n {
 
 .disclaimer {
   padding: 9px 16px;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.7;
   color: var(--ink-4);
   border-bottom: 1px solid var(--rule);
@@ -514,7 +609,7 @@ footer .ghost {
   text-align: center;
   text-decoration: none;
   border: 1px solid var(--rule-2);
-  font-size: 11px;
+  font-size: 13px;
   color: var(--ink-2);
 }
 footer .ghost:hover {

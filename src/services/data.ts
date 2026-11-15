@@ -4,10 +4,12 @@ import {
   DATA_CACHE_SIZE,
   NE_BASE,
   PEOPLE_BASE,
+  PEOPLE_COORDS,
   POLITIES_BASE,
   YEAR_WINDOW,
   resolveCategory,
 } from '@/config';
+import { yearOfEventId } from '@/lib/eventLinks';
 import { parseCoordinates } from '@/lib/geo';
 import type {
   CenturyEntry,
@@ -38,6 +40,41 @@ function cachePut(key: string, value: YearFile | null) {
   }
 }
 
+function abortError(): Error {
+  const err = new Error('aborted');
+  err.name = 'AbortError';
+  return err;
+}
+
+/**
+ * Lets one caller stop waiting without cancelling the shared request.
+ *
+ * The fetch itself is deliberately not abortable. Every caller within a time
+ * window awaits the same in-flight promise, so passing one caller's signal into
+ * `fetch` meant that aborting it (the next timeline tick) rejected the promise
+ * for *every* waiter — the following window then failed with AbortError and the
+ * panel kept showing the previous year. Here the request always runs to
+ * completion and lands in the cache; only the wait is cancelled.
+ */
+function abortable<T>(task: Promise<T>, signal?: AbortSignal): Promise<T> {
+  if (!signal) return task;
+  if (signal.aborted) return Promise.reject(abortError());
+  return new Promise<T>((resolve, reject) => {
+    const onAbort = () => reject(abortError());
+    signal.addEventListener('abort', onAbort, { once: true });
+    task.then(
+      (value) => {
+        signal.removeEventListener('abort', onAbort);
+        resolve(value);
+      },
+      (err) => {
+        signal.removeEventListener('abort', onAbort);
+        reject(err);
+      },
+    );
+  });
+}
+
 async function fetchYearFile(
   year: number,
   locale: Locale,
@@ -46,13 +83,15 @@ async function fetchYearFile(
   const base = locale === 'zh' ? DATA_BASE_ZH : DATA_BASE_EN;
   const key = `${locale}:${year}`;
 
-  if (yearCache.has(key)) return yearCache.get(key) ?? null;
+  const cached = yearCache.get(key);
+  if (cached !== undefined) return cached;
+
   const pending = inflight.get(key);
-  if (pending) return pending;
+  if (pending) return abortable(pending, signal);
 
   const task = (async () => {
     try {
-      const res = await fetch(`${base}${year}.json`, { signal });
+      const res = await fetch(`${base}${year}.json`);
       if (!res.ok) {
         cachePut(key, null);
         return null;
@@ -60,8 +99,7 @@ async function fetchYearFile(
       const json = (await res.json()) as YearFile;
       cachePut(key, json);
       return json;
-    } catch (err) {
-      if ((err as Error)?.name === 'AbortError') throw err;
+    } catch {
       cachePut(key, null);
       return null;
     } finally {
@@ -70,7 +108,7 @@ async function fetchYearFile(
   })();
 
   inflight.set(key, task);
-  return task;
+  return abortable(task, signal);
 }
 
 function normalise(raw: RawEvent, year: number, index: number, meta: YearMeta): TimelineEvent {
@@ -164,6 +202,28 @@ export async function loadEventWindow(
   events.sort((a, b) => a.year - b.year || a.title.localeCompare(b.title));
 
   return { events, missingYears };
+}
+
+/**
+ * Resolve one event by its id.
+ *
+ * Cross references and relation edges address entries as "1912-001", and the id
+ * carries its year, so a single year file answers the lookup. That file is
+ * usually already cached — the globe loads the whole window around the clock.
+ */
+export async function findEventById(
+  id: string,
+  locale: Locale,
+): Promise<TimelineEvent | null> {
+  const year = yearOfEventId(id);
+  if (year === null) return null;
+
+  const file = await fetchYearFile(year, locale);
+  const raw = file?.events?.find((e) => (e.id ?? '') === id);
+  if (!raw) return null;
+
+  const index = file!.events!.indexOf(raw);
+  return normalise(raw, year, index, metaFrom(file));
 }
 
 export function clearEventCache() {
@@ -338,6 +398,348 @@ export const NE_FILES = {
 };
 
 /* ══════════════════════════════════════════════════════════════════════════
+   Polity reference card data
+   ══════════════════════════════════════════════════════════════════════════ */
+
+/**
+ * Flag / capital / population for a *modern* country, keyed by its English
+ * name in `polity_assets.json`.
+ *
+ * Cliopatria itself carries no such fields — this file was fetched separately
+ * from mledoze's country list. Historical polities (Song dynasty, Achaemenid
+ * Empire) simply have no entry, so every field is optional and the card hides
+ * what is missing.
+ */
+export interface PolityAsset {
+  flag: string | null;
+  flagSvg: string | null;
+  shield: string | null;
+  capital: string | null;
+  population: number | null;
+  area: number | null;
+  currencies: string[];
+  languages: string[];
+  cca2: string | null;
+  /** Long form ("People's Republic of China"); the map between tile and asset. */
+  nameOfficial?: string | null;
+  nameZh: string | null;
+  continent: string | null;
+}
+
+/** A Chinese Wikipedia extract for one polity, keyed by the Cliopatria name. */
+export interface PolityDescription {
+  name: string;
+  from: number;
+  to: number;
+  zh: { title: string; extract: string; thumbnail: string | null };
+}
+
+/**
+ * Generated social profile of one polity — `public/ne/polity_facts.json`.
+ *
+ * Nothing in the source data has these fields, so every value is a model's
+ * reading of the same Wikipedia extract the card already shows. The card labels
+ * the block accordingly; `generatedBy` records which model wrote it.
+ *
+ * No percentages anywhere, by design: ethnic or language shares do not exist in
+ * the record for most of these polities, and a generated 62% would be fiction
+ * dressed as a statistic.
+ */
+export interface PolityFacts {
+  government: string | null;
+  structure: string | null;
+  capital: string | null;
+  languages: {
+    official: string | null;
+    spoken: string[];
+    family: string | null;
+  };
+  ethnicGroups: string[];
+  religion: string | null;
+  script: string | null;
+  currency: string | null;
+  population: string | null;
+  modernCountries: string[];
+  predecessors: string[];
+  successors: string[];
+  /**
+   * Why there is no `religion`.
+   *
+   * The first generation run filled this field with party ideology for 21
+   * states ("马克思主义/共产主义"). The audit moved that text here instead of
+   * deleting it, so the card can say what the state actually claims without
+   * calling it a faith.
+   */
+  religionNote?: string | null;
+  /** Wikipedia pages the record was written from; empty means unverified. */
+  sources?: { title: string; url: string }[];
+  confidence?: 'high' | 'medium' | 'low';
+  generatedBy?: string;
+}
+
+/** Official published area, used where the tile's geometry disagrees. */
+export interface PolityAreaOverride {
+  area: number;
+  source: string;
+  note?: string;
+}
+
+let polityAreaCache: Record<string, PolityAreaOverride> | null = null;
+let polityAreaInflight: Promise<Record<string, PolityAreaOverride>> | null = null;
+
+export async function loadPolityAreaOverrides(): Promise<Record<string, PolityAreaOverride>> {
+  if (polityAreaCache) return polityAreaCache;
+  if (polityAreaInflight) return polityAreaInflight;
+  polityAreaInflight = (async () => {
+    try {
+      const res = await fetch(`${NE_BASE}polity_area_overrides.json`);
+      const json = res.ok ? ((await res.json()) as Record<string, unknown>) : {};
+      const clean: Record<string, PolityAreaOverride> = {};
+      for (const [key, value] of Object.entries(json)) {
+        if (key.startsWith('_')) continue;
+        const item = value as PolityAreaOverride;
+        if (item && Number.isFinite(item.area)) clean[key] = item;
+      }
+      polityAreaCache = clean;
+    } catch {
+      polityAreaCache = {};
+    }
+    polityAreaInflight = null;
+    return polityAreaCache;
+  })();
+  return polityAreaInflight;
+}
+
+/**
+ * Flags for historical polities — `public/ne/polity_flags.json`.
+ *
+ * Ancient and medieval polities generally had no flag; only a handful adopted a
+ * documented one before the modern era. This file therefore holds a short,
+ * explicit list rather than pretending every polity can be illustrated.
+ */
+let polityFlagsCache: Record<string, string> | null = null;
+let polityFlagsInflight: Promise<Record<string, string>> | null = null;
+
+export async function loadPolityFlags(): Promise<Record<string, string>> {
+  if (polityFlagsCache) return polityFlagsCache;
+  if (polityFlagsInflight) return polityFlagsInflight;
+  polityFlagsInflight = (async () => {
+    try {
+      const res = await fetch(`${NE_BASE}polity_flags.json`);
+      const json = res.ok ? ((await res.json()) as Record<string, string>) : {};
+      polityFlagsCache = Object.fromEntries(
+        Object.entries(json).filter(([key]) => !key.startsWith('_')),
+      );
+    } catch {
+      polityFlagsCache = {};
+    }
+    polityFlagsInflight = null;
+    return polityFlagsCache;
+  })();
+  return polityFlagsInflight;
+}
+
+let polityAssetsCache: Record<string, PolityAsset> | null = null;
+let polityAssetsInflight: Promise<Record<string, PolityAsset>> | null = null;
+
+export async function loadPolityAssets(): Promise<Record<string, PolityAsset>> {
+  if (polityAssetsCache) return polityAssetsCache;
+  if (polityAssetsInflight) return polityAssetsInflight;
+  polityAssetsInflight = (async () => {
+    try {
+      const res = await fetch(`${NE_BASE}polity_assets.json`);
+      polityAssetsCache = res.ok ? ((await res.json()) as Record<string, PolityAsset>) : {};
+    } catch {
+      polityAssetsCache = {};
+    }
+    polityAssetsInflight = null;
+    return polityAssetsCache;
+  })();
+  return polityAssetsInflight;
+}
+
+let polityDescCache: Record<string, PolityDescription> | null = null;
+let polityDescInflight: Promise<Record<string, PolityDescription>> | null = null;
+
+export async function loadPolityDescriptions(): Promise<Record<string, PolityDescription>> {
+  if (polityDescCache) return polityDescCache;
+  if (polityDescInflight) return polityDescInflight;
+  polityDescInflight = (async () => {
+    try {
+      const res = await fetch(`${NE_BASE}polity_descriptions.json`);
+      polityDescCache = res.ok ? ((await res.json()) as Record<string, PolityDescription>) : {};
+    } catch {
+      polityDescCache = {};
+    }
+    polityDescInflight = null;
+    return polityDescCache;
+  })();
+  return polityDescInflight;
+}
+
+/**
+ * Tile names that no stripping rule can reach, mapped to the asset key.
+ *
+ * Each entry is a name that differs from the modern state's common name by more
+ * than a political form: a typo in the source data, an obsolete official name, or
+ * a partial name. Keeping them in one table is honest about what they are —
+ * exceptions, not a rule.
+ */
+const ASSET_ALIASES: Record<string, string> = {
+  'argentine republic': 'Argentina',
+  'former yugoslav republic of macedonia': 'North Macedonia',
+  'iragi republic': 'Iraq',
+  'libyan arab republic': 'Libya',
+  'saint kitts': 'Saint Kitts and Nevis',
+  'saint vincent': 'Saint Vincent and the Grenadines',
+  'turkish republic of northern cyprus': 'Cyprus',
+};
+
+/**
+ * The name itself, the same name without a trailing parenthetical, and the same
+ * name with its political form stripped.
+ *
+ * "People's Republic of China" used to survive untouched because the old rule
+ * only accepted a bare "Republic of ..." at the start — which is why the PRC
+ * card had no flag. The forms below cover the long official names that the
+ * modern tiles actually use.
+ */
+const FORM_PREFIX =
+  "(people's|socialist|federal|federated|democratic|islamic|arab|oriental|argentine|united|communist|second|first|state|sultanate|grand)";
+const BODY =
+  '(republic|kingdom|empire|sultanate|state|union|federation|confederation|commonwealth|emirate|khanate|caliphate|principality|duchy|tsardom)';
+
+function stripForm(raw: string): string {
+  return raw
+    .trim()
+    .replace(/^the\s+/i, '')
+    .replace(new RegExp(`^${FORM_PREFIX}\\s+${BODY}\\s+of\\s+(the\\s+)?`, 'i'), '')
+    .replace(new RegExp(`^${BODY}\\s+of\\s+(the\\s+)?`, 'i'), '')
+    .replace(/^communist\s+/i, '')
+    .replace(/\s+(dynasty|empire|kingdom|republic|caliphate|sultanate|khanate)$/i, '')
+    .trim();
+}
+
+function nameCores(raw: string): string[] {
+  const base = raw.trim();
+  /*
+   * Two shapes appear in the tiles: a trailing qualifier — "Republic of China
+   * (1912-1949)" — and a fully wrapped name — "(Kingdom of Sweden)". The first
+   * strip handles the second shape, the second strip the first; without both,
+   * 14 modern states lost their flag for no better reason than a pair of
+   * brackets.
+   */
+  const unwrapped = base
+    .replace(/^\s*[（(]\s*/, '')
+    .replace(/\s*[）)]\s*$/, '')
+    .replace(/\s*[（(][^）)]*[）)]\s*$/, '')
+    .trim();
+  return [
+    ...new Set([base, unwrapped, stripForm(base), stripForm(unwrapped)].filter(Boolean)),
+  ];
+}
+
+/**
+ * Lookups are fuzzy on purpose: the asset file indexes "Ecuador" while the
+ * polity is called "Republic of Ecuador", and the description file indexes
+ * "Zhou dynasty" while the same polity may be "Zhou Dynasty" (case differs
+ * between the two datasets — the JSON even holds both spellings).
+ */
+export function findPolityAsset(
+  name: string,
+  assets: Record<string, PolityAsset>,
+): PolityAsset | null {
+  for (const core of nameCores(name)) {
+    const hit = assets[core];
+    if (hit) return hit;
+  }
+  const lowered = nameCores(name).map((c) => c.toLowerCase());
+
+  for (const core of lowered) {
+    const alias = ASSET_ALIASES[core];
+    if (alias && assets[alias]) return assets[alias];
+  }
+
+  for (const [key, value] of Object.entries(assets)) {
+    if (lowered.includes(key.toLowerCase())) return value;
+  }
+
+  /*
+   * Official long names.
+   *
+   * The tiles call the state "People's Republic of China" while the asset file
+   * indexes it under "China", and `nameCores` cannot bridge that: it only strips
+   * a leading "Republic of ...". Every modern state therefore lost its flag and
+   * capital unless the two names happened to coincide — which is why the PRC card
+   * showed no flag at all. `nameOfficial` is the field that maps one to the other.
+   */
+  for (const value of Object.values(assets)) {
+    const official = (value.nameOfficial ?? '').toLowerCase().trim();
+    if (official && lowered.includes(official)) return value;
+  }
+  return null;
+}
+
+export function findPolityDescription(
+  name: string,
+  descriptions: Record<string, PolityDescription>,
+): PolityDescription | null {
+  for (const core of nameCores(name)) {
+    const hit = descriptions[core];
+    if (hit) return hit;
+  }
+  const lowered = nameCores(name).map((c) => c.toLowerCase());
+  for (const [key, value] of Object.entries(descriptions)) {
+    if (lowered.includes(key.toLowerCase())) return value;
+  }
+  return null;
+}
+
+let polityFactsCache: Record<string, PolityFacts> | null = null;
+let polityFactsInflight: Promise<Record<string, PolityFacts>> | null = null;
+
+export async function loadPolityFacts(): Promise<Record<string, PolityFacts>> {
+  if (polityFactsCache) return polityFactsCache;
+  if (polityFactsInflight) return polityFactsInflight;
+  polityFactsInflight = (async () => {
+    try {
+      const res = await fetch(`${NE_BASE}polity_facts.json`);
+      polityFactsCache = res.ok ? ((await res.json()) as Record<string, PolityFacts>) : {};
+    } catch {
+      polityFactsCache = {};
+    }
+    polityFactsInflight = null;
+    return polityFactsCache;
+  })();
+  return polityFactsInflight;
+}
+
+/**
+ * Same fuzzy lookup as the descriptions, plus one extra step.
+ *
+ * The tiles label a polity "(Qing Dynasty)" while the fact file may hold
+ * "Qing dynasty"; the parentheses come from the upstream data and mean nothing,
+ * so they are stripped before comparing.
+ */
+const withoutParens = (value: string) => value.replace(/[()]/g, '').toLowerCase().trim();
+
+export function findPolityFacts(
+  name: string,
+  facts: Record<string, PolityFacts>,
+): PolityFacts | null {
+  for (const core of nameCores(name)) {
+    const hit = facts[core];
+    if (hit) return hit;
+  }
+  const wanted = nameCores(name).flatMap((core) => [core.toLowerCase(), withoutParens(core)]);
+  for (const [key, value] of Object.entries(facts)) {
+    const candidate = key.toLowerCase();
+    if (wanted.includes(candidate) || wanted.includes(withoutParens(key))) return value;
+  }
+  return null;
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
    People
    ══════════════════════════════════════════════════════════════════════════ */
 
@@ -348,6 +750,35 @@ let peopleIndexInflight: Promise<PersonIndexItem[]> | null = null;
  * The 410-row index ships as one ~100 KB file, so it is fetched whole and
  * filtered in memory. Individual profiles are only fetched when one is opened.
  */
+/**
+ * Life-stage coordinates for every person, keyed by id.
+ *
+ * Generated by `scripts/data/build-people-coords.mjs` from the profiles: the
+ * index itself has no geography, and fetching 414 profiles just to answer "who
+ * lived inside this empire" would cost megabytes for one checkbox.
+ */
+let peopleCoordsCache: Record<string, [number, number][]> | null = null;
+let peopleCoordsInflight: Promise<Record<string, [number, number][]>> | null = null;
+
+export async function loadPeopleCoords(): Promise<Record<string, [number, number][]>> {
+  if (peopleCoordsCache) return peopleCoordsCache;
+  if (peopleCoordsInflight) return peopleCoordsInflight;
+  peopleCoordsInflight = (async () => {
+    try {
+      const res = await fetch(`${PEOPLE_COORDS}`);
+      if (!res.ok) return {};
+      const json = (await res.json()) as Record<string, [number, number][]>;
+      peopleCoordsCache = json && typeof json === 'object' ? json : {};
+      return peopleCoordsCache;
+    } catch {
+      return {};
+    } finally {
+      peopleCoordsInflight = null;
+    }
+  })();
+  return peopleCoordsInflight;
+}
+
 export async function loadPeopleIndex(): Promise<PersonIndexItem[]> {
   if (peopleIndexCache) return peopleIndexCache;
   if (peopleIndexInflight) return peopleIndexInflight;

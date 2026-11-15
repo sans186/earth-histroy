@@ -1,8 +1,11 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue';
+import { formatYearRange } from '@/lib/format';
 import { wikiSearchUrl } from '@/lib/wiki';
+import type { MessageKey } from '@/lib/i18n';
 import { useUiStore } from '@/stores/ui';
 import { useWarsStore } from '@/stores/wars';
+import type { WarSide } from '@/types';
 
 const emit = defineEmits<{ close: []; flyToTheatre: [string] }>();
 
@@ -32,14 +35,9 @@ watch(
   },
 );
 
-const span = computed(() => {
-  const from = war.value?.startYear;
-  const to = war.value?.endYear;
-  const fmt = (v?: number | null) =>
-    v === undefined || v === null ? '?' : v < 0 ? `${-v} BCE` : `${v}`;
-  if (from === undefined || from === null) return '—';
-  return from === to ? fmt(from) : `${fmt(from)} – ${fmt(to)}`;
-});
+const span = computed(() =>
+  formatYearRange(war.value?.startYear, war.value?.endYear, ui.locale),
+);
 
 /**
  * Flatten a profile field to displayable text.
@@ -65,6 +63,54 @@ function toText(value: unknown): string {
   return '';
 }
 
+/**
+ * Fields the schema calls a string, but that the profiles spell as an object of
+ * named parts — `preWarStrength` and `totalCasualties`.
+ *
+ * Joining such an object blind produced "约10万人；约400艘战舰；无；…", where the
+ * bare "无" has lost the thing it refers to, so each part keeps its label.
+ */
+type Part = { key: string; label: MessageKey };
+
+/** Order of battle, in the order a battle order is read. */
+const STRENGTH_PARTS: Part[] = [
+  { key: 'army', label: 'war.st.army' },
+  { key: 'navy', label: 'war.st.navy' },
+  { key: 'airForce', label: 'war.st.airForce' },
+  { key: 'armor', label: 'war.st.armor' },
+  { key: 'specialForces', label: 'war.st.specialForces' },
+  { key: 'reserves', label: 'war.st.reserves' },
+];
+
+const CASUALTY_PARTS: Part[] = [
+  { key: 'dead', label: 'war.cs.dead' },
+  { key: 'wounded', label: 'war.cs.wounded' },
+  { key: 'captured', label: 'war.cs.captured' },
+  { key: 'missing', label: 'war.cs.missing' },
+  { key: 'civilian', label: 'war.cs.civilian' },
+];
+
+/** Values that say "this arm did not exist", which is noise in a comparison. */
+const NONE_VALUES = new Set(['无', '無', '没有', 'none', 'n/a', '—', '-']);
+
+function labelledText(value: unknown, parts: Part[]): string {
+  if (!value || typeof value !== 'object' || Array.isArray(value)) return toText(value);
+  const record = value as Record<string, unknown>;
+  const usable = (text: string) => Boolean(text) && !NONE_VALUES.has(text.toLowerCase());
+  const known = parts.map(({ key, label }) => {
+    const text = toText(record[key]).trim();
+    return usable(text) ? `${ui.t(label)} ${text}` : '';
+  });
+  // Parts the schema does not name still deserve to be read.
+  const extra = Object.entries(record)
+    .filter(([key]) => !parts.some((part) => part.key === key))
+    .map(([, part]) => toText(part).trim());
+  return [...known, ...extra].filter(usable).join('；');
+}
+
+const strengthText = (value: unknown) => labelledText(value, STRENGTH_PARTS);
+const casualtyText = (value: unknown) => labelledText(value, CASUALTY_PARTS);
+
 const background = computed(() => {
   const b = doc.value?.background ?? {};
   return [
@@ -83,6 +129,38 @@ const sides = computed(() => {
     { side: b?.sideB, tag: 'B' },
   ].filter((x) => x.side && (x.side.name || x.side.commanders?.length));
 });
+
+/**
+ * Order of battle before the war, side by side.
+ *
+ * The source spells it as prose ("16,000 regular troops, 25,000 militia"), not
+ * as numbers, so this compares the two statements rather than drawing a bar —
+ * a chart would have to invent a parser for every phrasing in 95 profiles.
+ */
+const strengths = computed(() => {
+  const b = doc.value?.belligerents;
+  const rows = [
+    { tag: 'A', name: b?.sideA?.name ?? '', value: strengthText(b?.sideA?.preWarStrength) },
+    { tag: 'B', name: b?.sideB?.name ?? '', value: strengthText(b?.sideB?.preWarStrength) },
+  ];
+  return rows.some((row) => row.value) ? rows : [];
+});
+
+/** Everything else the profile records about one belligerent. */
+function sideDetails(side: WarSide | undefined): { k: string; v: string }[] {
+  if (!side) return [];
+  return [
+    { k: ui.t('war.militarySystem'), v: toText(side.militarySystem) },
+    { k: ui.t('war.strength'), v: strengthText(side.preWarStrength) },
+    { k: ui.t('war.equipment'), v: toText(side.equipment) },
+    {
+      k: ui.t('war.politicalLeaders'),
+      v: (side.politicalLeaders ?? []).map((leader) => toText(leader)).filter(Boolean).join('、'),
+    },
+    { k: ui.t('war.casualties'), v: casualtyText(side.totalCasualties) },
+    { k: ui.t('war.propaganda'), v: toText(side.propaganda) },
+  ].filter((row) => row.v);
+}
 
 const outcome = computed(() => {
   const o = doc.value?.outcome;
@@ -184,6 +262,18 @@ const tabCounts = computed<Record<Tab, number>>(() => ({
             <span v-for="t in doc.theaters" :key="String(t)">{{ toText(t) }}</span>
           </div>
         </section>
+        <section v-if="strengths.length" class="strength">
+          <h5 class="cap">{{ ui.t('war.strengthCompare') }}</h5>
+          <div class="pairs">
+            <div v-for="s in strengths" :key="s.tag" class="pair">
+              <span class="badge" :class="s.tag === 'A' ? 'a' : 'b'">{{ s.tag }}</span>
+              <div class="pt">
+                <span class="pn">{{ s.name }}</span>
+                <span class="pv">{{ s.value || '—' }}</span>
+              </div>
+            </div>
+          </div>
+        </section>
         <section v-if="outcome.length">
           <h5 class="cap">{{ ui.t('war.outcome') }}</h5>
           <dl>
@@ -222,6 +312,12 @@ const tabCounts = computed<Record<Tab, number>>(() => ({
               <span v-if="cm.bio" class="bio">{{ toText(cm.bio) }}</span>
             </li>
           </ul>
+          <dl v-if="sideDetails(entry.side).length" class="facts">
+            <div v-for="row in sideDetails(entry.side)" :key="row.k">
+              <dt>{{ row.k }}</dt>
+              <dd>{{ row.v }}</dd>
+            </div>
+          </dl>
         </section>
       </template>
 
@@ -324,17 +420,17 @@ header .left {
   min-width: 0;
 }
 header h3 {
-  font-size: 19px;
+  font-size: 20.5px;
   line-height: 1.3;
 }
 .alt {
-  font-size: 10.5px;
+  font-size: 12.5px;
   color: var(--ink-3);
 }
 .close {
   margin-left: auto;
   color: var(--ink-3);
-  font-size: 13px;
+  font-size: 14.5px;
   padding: 3px;
 }
 .close:hover {
@@ -352,12 +448,12 @@ header h3 {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 11.5px;
+  font-size: 13.5px;
   color: var(--ink-2);
 }
 .kv em {
   font-style: normal;
-  font-size: 9.5px;
+  font-size: 11.5px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--ink-4);
@@ -371,7 +467,7 @@ header h3 {
 .tabs button {
   flex: 1;
   padding: 8px 4px;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.1em;
   color: var(--ink-3);
   border-bottom: 2px solid transparent;
@@ -389,7 +485,7 @@ header h3 {
   background: var(--card);
 }
 .tabs .n {
-  font-size: 9px;
+  font-size: 11px;
   color: var(--ink-4);
 }
 
@@ -408,7 +504,7 @@ header h3 {
 }
 .lead {
   padding: 12px 16px;
-  font-size: 12.5px;
+  font-size: 13.5px;
   line-height: 1.85;
   color: var(--ink-2);
   border-bottom: 1px solid var(--rule);
@@ -423,8 +519,41 @@ section h5 {
 }
 section h5 .years {
   margin-left: auto;
-  font-size: 9.5px;
+  font-size: 11.5px;
   color: var(--ink-4);
+}
+
+/* Order of battle, A over B: prose strengths compared, not a chart. */
+.strength .pairs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.strength .pair {
+  display: grid;
+  grid-template-columns: 18px 1fr;
+  gap: 8px;
+  align-items: start;
+  padding: 7px 9px;
+  border-left: 2px solid var(--rule-2);
+  background: color-mix(in srgb, var(--paper-2) 55%, transparent);
+}
+.strength .pt {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.strength .pn {
+  font-size: 12.5px;
+  color: var(--ink-3);
+}
+.strength .pv {
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--ink);
+}
+.facts {
+  margin-top: 10px;
 }
 
 dl {
@@ -439,13 +568,13 @@ dl > div {
   gap: 10px;
 }
 dt {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--ink-4);
   padding-top: 2px;
 }
 dd {
   margin: 0;
-  font-size: 11.5px;
+  font-size: 13.5px;
   line-height: 1.7;
   color: var(--ink-2);
 }
@@ -456,7 +585,7 @@ dd {
   gap: 5px;
 }
 .tags span {
-  font-size: 10.5px;
+  font-size: 12.5px;
   color: var(--ink-2);
   border: 1px solid var(--rule-2);
   padding: 1px 7px;
@@ -467,7 +596,7 @@ dd {
   height: 15px;
   display: grid;
   place-items: center;
-  font-size: 9px;
+  font-size: 11px;
   color: var(--card);
 }
 .badge.a {
@@ -477,7 +606,7 @@ dd {
   background: var(--rust);
 }
 .side .en {
-  font-size: 10.5px;
+  font-size: 12.5px;
   color: var(--ink-4);
   margin-bottom: 6px;
 }
@@ -497,21 +626,21 @@ dd {
   border-left: 2px solid var(--rule-2);
 }
 .commanders .nm {
-  font-size: 11.5px;
+  font-size: 13.5px;
   color: var(--ink);
 }
 .commanders .role {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--ink-3);
 }
 .commanders .bio {
-  font-size: 10.5px;
+  font-size: 12.5px;
   color: var(--ink-3);
   line-height: 1.6;
 }
 
 .phase .desc {
-  font-size: 11.5px;
+  font-size: 13.5px;
   line-height: 1.7;
   color: var(--ink-2);
   margin-bottom: 6px;
@@ -530,7 +659,7 @@ dd {
   gap: 9px;
 }
 .battles .by {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--ink-4);
   padding-top: 2px;
 }
@@ -540,20 +669,20 @@ dd {
   gap: 2px;
 }
 .bn {
-  font-size: 11.5px;
+  font-size: 13.5px;
   color: var(--ink);
 }
 .bl {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--ink-4);
 }
 .bd {
-  font-size: 10.5px;
+  font-size: 12.5px;
   color: var(--ink-3);
   line-height: 1.6;
 }
 .bo {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--rust);
 }
 
@@ -570,7 +699,7 @@ dd {
   border-bottom: 1px solid var(--rule);
 }
 .timeline .ty {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--ink-4);
   padding-top: 2px;
 }
@@ -580,22 +709,22 @@ dd {
   gap: 3px;
 }
 .te {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--ink);
 }
 .tt {
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--ink-4);
 }
 .td {
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.65;
   color: var(--ink-2);
 }
 .ti {
-  font-size: 10.5px;
+  font-size: 12.5px;
   line-height: 1.6;
   color: var(--ink-3);
 }
@@ -627,7 +756,7 @@ footer .ghost {
   text-align: center;
   text-decoration: none;
   border: 1px solid var(--rule-2);
-  font-size: 11px;
+  font-size: 13px;
   color: var(--ink-2);
 }
 footer .ghost:hover {
@@ -649,7 +778,7 @@ footer .ghost:hover {
   cursor: not-allowed;
 }
 .nohint {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--ink-4);
 }
 </style>

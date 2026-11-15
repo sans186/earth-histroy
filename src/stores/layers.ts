@@ -13,6 +13,9 @@ export const useLayersStore = defineStore('layers', () => {
   const showEvents = ref(true);
   const showLabels = ref(true);
 
+  /** Names of the polities themselves, as opposed to the event titles. */
+  const showPolityNames = ref(true);
+
   /** War theatre markers. Off by default — a separate reading mode. */
   const showWars = ref(false);
 
@@ -62,6 +65,7 @@ export const useLayersStore = defineStore('layers', () => {
     showBorders,
     showEvents,
     showLabels,
+    showPolityNames,
     showWars,
     adjacentCenturies,
     activeCategories,

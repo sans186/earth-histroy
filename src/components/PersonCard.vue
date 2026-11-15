@@ -293,17 +293,17 @@ header .left {
   min-width: 0;
 }
 header h3 {
-  font-size: 19px;
+  font-size: 20.5px;
   line-height: 1.3;
 }
 header .en {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--ink-3);
 }
 .close {
   margin-left: auto;
   color: var(--ink-3);
-  font-size: 13px;
+  font-size: 14.5px;
   line-height: 1;
   padding: 3px;
 }
@@ -322,12 +322,12 @@ header .en {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 11.5px;
+  font-size: 13.5px;
   color: var(--ink-2);
 }
 .kv em {
   font-style: normal;
-  font-size: 9.5px;
+  font-size: 11.5px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--ink-4);
@@ -349,7 +349,7 @@ footer .ghost {
   text-align: center;
   text-decoration: none;
   border: 1px solid var(--rule-2);
-  font-size: 11px;
+  font-size: 13px;
   color: var(--ink-2);
 }
 footer .ghost:hover {
@@ -389,7 +389,7 @@ ol li {
 }
 .n {
   flex: none;
-  font-size: 9.5px;
+  font-size: 11.5px;
   color: var(--rust);
 }
 .stage-body {
@@ -400,19 +400,19 @@ ol li {
 }
 .stage-title {
   font-family: var(--font-display);
-  font-size: 12.5px;
+  font-size: 13.5px;
   color: var(--ink);
 }
 .stage-meta {
   display: flex;
   gap: 8px;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--ink-4);
 }
 .fly {
   margin-left: auto;
   flex: none;
-  font-size: 12px;
+  font-size: 13px;
   color: var(--ink-4);
   padding: 0 2px;
 }
@@ -420,7 +420,7 @@ ol li {
   color: var(--rust);
 }
 .stage-text {
-  font-size: 11.5px;
+  font-size: 13.5px;
   line-height: 1.8;
   color: var(--ink-2);
   text-align: justify;
@@ -428,7 +428,7 @@ ol li {
 }
 .more {
   margin-left: 4px;
-  font-size: 10.5px;
+  font-size: 12.5px;
   color: var(--rust);
 }
 
@@ -440,7 +440,7 @@ ol li {
 .tabs button {
   flex: 1;
   padding: 4px 0;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--ink-3);
   border-right: 1px solid var(--rule);
 }
@@ -464,13 +464,13 @@ ol li {
   display: block;
   margin-top: 5px;
   font-style: normal;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.08em;
   color: var(--ink-4);
 }
 
 .none {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--ink-4);
 }
 .state {

@@ -58,6 +58,16 @@ defineExpose({ select: (id: string) => wars.select(id) });
           <span>{{ ui.t('war.near') }}</span>
         </label>
       </div>
+      <button
+        v-if="ui.polityScope"
+        class="scope-chip"
+        :class="{ on: ui.scopeToPolity }"
+        :title="ui.t('filter.polityHint')"
+        @click="ui.toggleScopeToPolity()"
+      >
+        <i v-if="ui.scopeToPolity">✓</i>
+        <span>{{ ui.t('filter.polity') }} · {{ ui.polityScope.label }}</span>
+      </button>
     </div>
 
     <div v-if="wars.loadingIndex" class="state">{{ ui.t('loading.wars') }}</div>
@@ -129,7 +139,7 @@ defineExpose({ select: (id: string) => wars.select(id) });
 }
 .sorts button {
   padding: 3px 8px;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--ink-3);
   border-right: 1px solid var(--rule);
 }
@@ -144,7 +154,7 @@ defineExpose({ select: (id: string) => wars.select(id) });
   display: flex;
   align-items: center;
   gap: 5px;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--ink-3);
   cursor: pointer;
 }
@@ -185,7 +195,7 @@ defineExpose({ select: (id: string) => wars.select(id) });
 }
 .name {
   font-family: var(--font-display);
-  font-size: 12.5px;
+  font-size: 13.5px;
   line-height: 1.4;
   color: var(--ink);
   overflow: hidden;
@@ -196,7 +206,7 @@ defineExpose({ select: (id: string) => wars.select(id) });
   display: flex;
   align-items: baseline;
   gap: 8px;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--ink-3);
 }
 .span {
@@ -227,7 +237,7 @@ defineExpose({ select: (id: string) => wars.select(id) });
   justify-content: space-between;
   padding: 8px 18px;
   border-top: 1px solid var(--rule-2);
-  font-size: 9.5px;
+  font-size: 11.5px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--ink-4);
