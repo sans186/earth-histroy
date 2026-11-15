@@ -40,6 +40,10 @@
 | `simplify-polities.mjs` | 几何简化（绝对容差）+ 坐标量化 + 产出 `.gz`；`--tier=lod` 另出低精度副本 | 世纪文件 | `full` 就地写入并备份至 `data/polities-original/`；`lod` 只新增 `.lod.json`，不覆盖既有文件 | — | 可复现 |
 | `validate-data.mjs` | 全量校验所有数据资产 | `public/` 全部 | 标准输出 + 退出码 | — | 可复现 |
 | `repair-data.mjs` | 修复取值无歧义的机械缺陷（默认试运行） | `public/` 部分 | 就地写入 + 备份 | — | 可复现 |
+| `audit-profiles.mjs` | 只读审计战争 / 人物档案：必需与可选字段、索引一致性、通识覆盖 | `public/{wars,people}/profiles/` | 标准输出或 `--json` | — | 可复现 |
+| `_opencode-client.mjs` | 共用模型客户端：经系统 curl 调用 OpenAI 兼容端点，凭据只从 `OPENCODE_API_KEY` 读取 | — | `chat()` / `parseJsonLoose()` | `curl`、`OPENCODE_API_KEY` | 内部模块 |
+| `enrich-profiles-opencode.mjs` | 补战争空字段、修正实体错认档案、修 U+FFFD、机械补 `era` | 现有档案 | 就地补空字段 + `docs/ai-generated-fields.json` | `OPENCODE_API_KEY`（`era` 任务不需要） | **需自备额度，且模型版本会变，不承诺逐字复现** |
+| `generate-new-profiles.mjs` | 按固定白名单新增人物 / 战争档案，同步索引与坐标表 | 内置 4 人 + 2 战争白名单 | 新档案、`index.json`、`coords.json`、`war_locations.json` | `OPENCODE_API_KEY` | **需自备额度，不承诺逐字复现** |
 
 **推荐顺序**（首次重建或调整精度时）：
 
@@ -155,6 +159,7 @@ node scripts/generate/generate-wars.mjs --war-list <名单文件>    # 指定新
 | `OPEN_API_KEY` / `OPEN_BASE_URL` | OpenAI 兼容的备用通道 | 与智谱二选一 |
 | `DEEPSEEK_API_KEY` | DeepSeek 官方，翻译与描述生成 | 翻译脚本需要 |
 | `QWEN_API_KEY` | 通义千问，人物生成的补充通道 | 可选 |
+| `OPENCODE_API_KEY` | OpenCode Go 的 OpenAI 兼容端点，供 `enrich-profiles-opencode.mjs` / `generate-new-profiles.mjs` 使用 | **只经环境变量传入，不写 `.env`、不入库**；可用 `OPENCODE_BASE_URL` / `OPENCODE_MODEL` 覆盖 |
 | `VITE_CESIUM_TOKEN` | Cesium Ion（当前实现不依赖 Ion，可不填） | 可选 |
 
 > 注意：`.env` 中的现有键名是 `cesium_token`，而前端读取的是 `VITE_CESIUM_TOKEN`，两者对不上。当前前端不加载 Ion 资源，所以无影响；若将来需要 Ion 地形或影像，需要改成 `VITE_CESIUM_TOKEN`。
@@ -172,3 +177,16 @@ node scripts/generate/generate-wars.mjs --war-list <名单文件>    # 指定新
 | `.failed_core.txt`、`.failed_profiles.txt`、`.failed_wars.txt` | 历史失败记录 |
 
 确认无用后可整目录删除。
+
+---
+
+## AI 生成内容的标注要求
+
+`enrich-profiles-opencode.mjs` 与 `generate-new-profiles.mjs` 每次写盘都会更新 `docs/ai-generated-fields.json`，记录哪些字段由模型生成、哪些档案是整份新增、哪些是勘误修复。它与 `docs/开源说明.md` 的可信度分级配套，是开源后解释「数据有误」的依据。
+
+- **只补空字段**，不覆盖已有值；档案已存在则跳过（幂等，索引缺失时自愈补回）。
+- **新增档案走固定白名单**，不做自由扩展；边界见 `docs/数据完整性审计.md` §4.3。
+- 生成结果一律视为未核验 draft，清单里保留 `unverified: true`。
+- **凭据不落盘**：脚本不创建或改写 `.env`，不打印请求头，密钥只存在于进程环境变量。
+
+模型版本与额度会变，因此这些脚本**不承诺逐字复现**；产物本身入库，可审计、可回滚。

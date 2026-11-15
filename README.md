@@ -6,6 +6,8 @@
 >
 > 当前版本：2.0.0。2026-10-20 完成 Vue 3 + TypeScript + Pinia 重写，旧的「微内核 + 插件 + 手写 DOM」架构已退场。需求与进度以 [docs/REQUIREMENTS.md](./docs/REQUIREMENTS.md) 为唯一账本。
 
+> **定位与免责**：这是一个**个人学习用的可视化实验**，不是史料数据库、不是学术工具。数据来自公开数据集与大模型生成，**不保证史实准确性，不要用于论文引用、事实核查或商业决策**。许可分层、争议处理口径与已知错误见 [docs/开源说明.md](./docs/开源说明.md)；第三方署名见 [NOTICE](./NOTICE)；勘误请按 [CONTRIBUTING.md](./CONTRIBUTING.md) 提 Issue。
+
 ## 快速开始
 
 ```bash
@@ -21,6 +23,7 @@ npm run typecheck  # vue-tsc --noEmit
 | `npm run typecheck` | `vue-tsc --noEmit` 类型检查 |
 | `npm run verify:smoke` | 故障注入冒烟：构建后启动本地静态服务，注入两个 503，用无头 Chromium 验证错误横幅、重试次数与降级；再验证正常加载不误报（需 Chromium 系浏览器，可用 `EDGE_PATH` / `CHROME_PATH` 指定） |
 | `npm run validate:data` | 全量校验数据资产（中英事件对齐、政区分片、备份残留等），输出 ERROR/WARNING 计数 |
+| `npm run audit:profiles` | 只读审计战争 / 人物档案的字段完整度、索引一致性与通识覆盖 |
 | `npm run report:data` | 清点数据资产：有哪些数据、覆盖率、缺口 |
 | `npm run repair:data` | 修复取值无歧义的机械缺陷（默认试运行） |
 | `npm run compare:locales` | 比对中英事件条目差异 |
@@ -49,7 +52,7 @@ npm run typecheck  # vue-tsc --noEmit
 | 政区卡片 | 国旗、首都、人口、面积、中文简介、政体形式、语言/族群/宗教/文字/货币、前身与后继、今属、范围内战争与人物数；1850 年前的政区不套用现代国家资产 |
 | 政区名称 | 2D 用 DOM 标签层（按面积分级 + 矩形碰撞避让），3D 用 LabelCollection（按面积排名给可见距离） |
 | 人物 | 档案卡片含生平、评价与语录；打开卡片时在球面绘制生平足迹折线与站点 |
-| 战争 | 94 场档案：概况、战前兵力对比、指挥官与角色、阶段与战役、战区坐标标记 |
+| 战争 | 96 场档案：概况、战前兵力对比、指挥官与角色、阶段与战役、战区坐标标记 |
 | 横向对照 | 报纸版对照界面（CompareBoard），A/B 两列可选政区，支持指定年代区间（最宽 300 年）汇总统计 |
 | 按政区筛选 | 事件 / 人物 / 战争三处面板均可「仅当前政区」，按坐标或战区圆心与政区存续期求交 |
 
@@ -132,8 +135,8 @@ Earth/
 | 事件（中 / 英） | 各 17,998 条，5,227 个年份文件 | 差异 0，纳入构建前校验 |
 | 历史政区 | 55 个世纪文件、18,069 要素、472 万顶点 | 55 个 LOD 分片 + 110 个预压缩副本；最大单文件 18.4 MB |
 | 政区参考数据 | `polity_descriptions` 1,971 键、`polity_facts` 1,970 条、`polity_names_zh` 1,640 键、`polity_assets` 201 键 | 含中文简介、事实字段、国旗标记 |
-| 人物 | 415 个文件 | 档案 + 足迹坐标聚合表 |
-| 战争 | 94 场档案 | 坐标由战役坐标中位数推导，重复的硝石战争档案已删除 |
+| 人物 | 418 份档案 + 足迹坐标聚合表（2,186 个生平站点，中英描述 100% 齐全） |
+| 战争 | 96 场档案 | 坐标由战役坐标中位数推导，重复的硝石战争档案已删除 |
 | 现代国界 | Natural Earth 110m 面（177 要素）+ 50m 线（390 要素） | |
 
 **几何双档**：相机高度超过 `POLITY_LOD_HEIGHT`（9,000,000 m）时用 `.lod.json`（0.25° / 2 位小数），近景用全精度（0.01° / 4 位小数）。两档都常驻缓存，缺 LOD 时静默回退全精度，校验脚本会报告缺失分片。
@@ -165,6 +168,9 @@ git pull && npm run build
 |------|------|----------|
 | [docs/REQUIREMENTS.md](./docs/REQUIREMENTS.md) | 需求账本 R00a–R37、状态与决策记录 | 进行中的权威进度表 |
 | [docs/生产级成熟度评估.md](./docs/生产级成熟度评估.md) | 12 维度成熟度评分、评分表、12 条最小生产门槛核对与改进路线 | 2026-11-15 基线 **10/33**；同日 P0 修复后复核见文首 §0.1，仍未达生产门槛 |
+| [docs/开源说明.md](./docs/开源说明.md) | 开源定位、非目标、数据许可分层、争议与勘误处理、AI 生成内容声明 | 公开到 GitHub 前必读 |
+| [docs/数据完整性审计.md](./docs/数据完整性审计.md) | 战争 / 人物档案完整性审计、本轮补充内容与可复跑命令 | 2026-11-15 |
+| [docs/ai-generated-fields.json](./docs/ai-generated-fields.json) | 机器可读的 AI 生成字段 / 新增档案 / 勘误记录清单 | 每次生成后同步更新 |
 | [docs/项目设计文档.md](./docs/项目设计文档.md) | 视觉/交互设计系统与**规划中**的技术选型 | 设计提案，其中后端 Java 栈、Vitest、Playwright 等尚未落地，勿当现状读 |
 | [改造方案.md](./改造方案.md) | 2026-10 月对旧架构的诊断与分阶段路线图 | 历史诊断文档，Phase 0–2 已基本完成，文首有状态对照 |
 | [scripts/README.md](./scripts/README.md) | 数据流水线可复现性清单 | 现行 |
@@ -193,4 +199,8 @@ git pull && npm run build
 | 现代国家资产 | [mledoze/countries](https://github.com/mledoze/countries) + FlagCDN | MIT / Public Domain |
 | 底图瓦片 | Esri ArcGIS World Topo / World Imagery | 见 Esri 使用条款 |
 
-> **署名要求**：历史事件数据（CC BY 4.0）使用时须注明原作者 Magnús Smári Smárason 及项目链接；发布界面中亦应体现。
+> **署名要求**：历史事件数据（CC BY 4.0）使用时须注明原作者 Magnús Smári Smárason 及项目链接；发布界面中亦应体现（**目前尚未落地，见开源说明 §10 检查清单**）。
+>
+> **许可分层**：`LICENSE` 的 MIT 只覆盖本项目代码与文档，`public/` 下的数据各有上游许可，完整汇总见 [NOTICE](./NOTICE)。政区简介 / 事实 / 人物 / 战争中的大模型生成内容**未逐条核验**，清单见 [docs/ai-generated-fields.json](./docs/ai-generated-fields.json)，不得作为史实引用依据。
+>
+> 历史边界是学术数据集的近似记录，**不代表对当代主权归属的立场**；台湾、香港、澳门是中国的一部分。争议处理口径见 [docs/开源说明.md](./docs/开源说明.md) §6.2。
