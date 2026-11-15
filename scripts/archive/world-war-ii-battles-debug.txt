@@ -1,0 +1,520 @@
+finish=length
+len=20827
+---
+```json
+{
+  "phases": [
+    {
+      "name": "战争爆发",
+      "nameEn": "Outbreak of War",
+      "startYear": 1939,
+      "endYear": 1940,
+      "summary": "德国入侵波兰，战争全面爆发",
+      "battles": [
+        {
+          "battleId": "invasion-of-poland",
+          "name": "波兰战役",
+          "nameEn": "Invasion of Poland",
+          "startYear": 1939,
+          "endYear": 1939,
+          "coords": [19.944, 52.23],
+          "theater": "东欧",
+          "context": "德国以"闪击战"战术入侵波兰，英法对德宣战",
+          "description": "1939年9月1日，德国军队采用"闪电战"战术，迅速突破波兰防线。德军凭借机械化部队和空中优势，仅用28天就占领波兰全境。苏联随后从东部入侵，9月17日波兰被瓜分。波兰军队虽英勇抵抗，但无法抵挡德苏两国的夹击。",
+          "result": "德国和苏联瓜分波兰，波兰政府流亡",
+          "significance": "标志着第二次世界大战在欧洲全面爆发，"闪电战"战术首次大规模应用",
+          "casualties": {"sideA": "约6.6万人", "sideB": "约2.4万人"},
+          "forces": {"sideA": "德国约150万人", "sideB": "波兰约100万人"},
+          "commanders": [
+            {"name": "格尔德·冯·伦德施泰特", "role": "德军总司令", "side": "sideA"},
+            {"name": "爱德华·雷兹-斯米格维", "role": "波兰总司令", "side": "sideB"}
+          ]
+        },
+        {
+          "battleId": "battle-of-france",
+          "name": "法国战役",
+          "nameEn": "Battle of France",
+          "startYear": 1940,
+          "endYear": 1940,
+          "coords": [4.833, 46.227],
+          "theater": "西欧",
+          "context": "德国在西线发动攻势，英法联军面临威胁",
+          "description": "1940年5月10日，德军发动"黄色方案"，绕过马奇诺防线，通过阿登山脉突入法国。德军装甲部队迅速推进，英法联军被分割包围。敦刻尔克大撤退后，德军继续南下，6月14日占领巴黎。6月22日，法国签署停战协定，维希政府成立。",
+          "result": "法国战败，被分为占领区和维希法国",
+          "significance": "德军"闪电战"战术取得决定性胜利，法国投降，英国单独对抗德国",
+          "casualties": {"sideA": "约3.7万人", "sideB": "约8.5万人"},
+          "forces": {"sideA": "德国约380万人", "sideB": "约230万人"},
+          "commanders": [
+            {"name": "格尔德·冯·伦德施泰特", "role": "A集团军群司令", "side": "sideA"},
+            {"name": "马克西姆·魏刚", "role": "法军总司令", "side": "sideB"}
+          ]
+        },
+        {
+          "battleId": "battle-of-britain",
+          "name": "不列颠之战",
+          "nameEn": "Battle of Britain",
+          "startYear": 1940,
+          "endYear": 1940,
+          "coords": [-0.127, 51.507],
+          "theater": "西欧",
+          "context": "德国计划入侵英国，需先夺取制空权",
+          "description": "1940年7月至10月，德国空军对英国发动大规模空袭，目标是摧毁英国皇家空军和军事设施。英国皇家战斗机司令部顽强抵抗，利用雷达系统和本土优势进行防御。德国最终未能取得制空权，"海狮计划"被迫取消。",
+          "result": "英国成功抵御德国空袭，保持独立",
+          "significance": "德国首次遭遇重大失败，英国保持战争能力，为后续反攻提供基地",
+          "casualties": {"sideA": "约2.7万人", "sideB": "约9.2万人"},
+          "forces": {"sideA": "德国约2500架飞机", "sideB": "英国约2000架飞机"},
+          "commanders": [
+            {"name": "赫尔曼·戈林", "role": "德国空军总司令", "side": "sideA"},
+            {"name": "休·道丁", "role": "英国战斗机司令", "side": "sideB"}
+          ]
+        },
+        {
+          "battleId": "battle-of-atlantic",
+          "name": "大西洋海战",
+          "nameEn": "Battle of the Atlantic",
+          "startYear": 1939,
+          "endYear": 1940,
+          "coords": [-30, 45],
+          "theater": "大西洋",
+          "context": "德国潜艇战与英国海上生命线的争夺",
+          "description": "战争初期，德国U型潜艇在大西洋袭击英国商船，试图切断英国的海上补给线。英国实施护航制度，并利用破译的德军密码进行反潜作战。1940年，德国潜艇击沉大量英国船只，英国海上补给面临严重威胁。",
+          "result": "德国潜艇取得初步胜利，英国海上补给线受到威胁",
+          "significance": "大西洋海战贯穿整个二战，是决定英国生存的关键战役",
+          "casualties": {"sideA": "约500艘船只", "sideB": "约40艘潜艇"},
+          "forces": {"sideA": "德国约57艘潜艇", "sideB": "英国护航舰队"},
+          "commanders": [
+            {"name": "卡尔·邓尼茨", "role": "德国潜艇部队司令", "side": "sideA"},
+            {"name": "珀西·贝利-斯科特", "role": "英国护航部队司令", "side": "sideB"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "战争扩大",
+      "nameEn": "Widening of War",
+      "startYear": 1941,
+      "endYear": 1941,
+      "summary": "德国入侵苏联，日本偷袭珍珠港",
+      "battles": [
+        {
+          "battleId": "operation-barbarossa",
+          "name": "巴巴罗萨行动",
+          "nameEn": "Operation Barbarossa",
+          "startYear": 1941,
+          "endYear": 1941,
+          "coords": [37.617, 55.755],
+          "theater": "东欧",
+          "context": "德国撕毁《苏德互不侵犯条约》，入侵苏联",
+          "description": "1941年6月22日，德国发动"巴巴罗萨行动"，集结约300万军队入侵苏联。德军采用"闪电战"战术，迅速推进至斯摩棱斯克和基辅。苏联初期遭受重大损失，但凭借广阔领土和顽强抵抗，逐步阻止德军攻势。",
+          "result": "德军初期取得重大胜利，但未能迅速击败苏联",
+          "significance": "战争规模空前扩大，形成两线作战，德国陷入持久战",
+          "casualties": {"sideA": "约80万人", "sideB": "约250万人"},
+          "forces": {"sideA": "德国约300万人", "sideB": "苏联约500万人"},
+          "commanders": [
+            {"name": "阿道夫·希特勒", "role": "德军最高统帅", "side": "sideA"},
+            {"name": "约瑟夫·斯大林", "role": "苏联最高统帅", "side": "sideB"}
+          ]
+        },
+        {
+          "battleId": "battle-of-moscow",
+          "name": "莫斯科战役",
+          "nameEn": "Battle of Moscow",
+          "startYear": 1941,
+          "endYear": 1941,
+          "coords": [37.617, 55.755],
+          "theater": "东欧",
+          "context": "德军进攻苏联首都莫斯科",
+          "description": "1941年9月底，德军发动"台风行动"，企图占领莫斯科。苏联军队在朱可夫指挥下顽强抵抗，并得到西伯利亚援军增援。11月，德军推进至莫斯科郊外，但遭遇严寒和苏军反攻，最终被迫撤退。",
+          "result": "苏军成功保卫莫斯科，德军首次遭遇重大失败",
+          "significance": "粉碎德军"闪电战"不可战胜的神话，苏联战争信心大增",
+          "casualties": {"sideA": "约40万人", "sideB": "约65万人"},
+          "forces": {"sideA": "德军约200万人", "sideB": "苏军约125万人"},
+          "commanders": [
+            {"name": "费多尔·冯·博克", "role": "德军中央集团军群司令", "side": "sideA"},
+            {"name": "格奥尔基·朱可夫", "role": "苏军西方方面军司令", "side": "sideB"}
+          ]
+        },
+        {
+          "battleId": "pearl-harbor",
+          "name": "珍珠港事件",
+          "nameEn": "Attack on Pearl Harbor",
+          "startYear": 1941,
+          "endYear": 1941,
+          "coords": [-157.923, 21.368],
+          "theater": "太平洋",
+          "context": "日本为获取东南亚资源，袭击美国太平洋舰队",
+          "description": "1941年12月7日，日本海军联合舰队偷袭美国夏威夷珍珠港海军基地。日军出动6艘航母约350架飞机，击沉或重创多艘美国战舰。美国太平洋舰队遭受重创，但航空母舰因出海训练而幸免。次日，美国对日宣战，太平洋战争爆发。",
+          "result": "日本取得战术胜利，但导致美国全面参战",
+          "significance": "美国正式加入二战，战争规模进一步扩大，日本战略失误",
+          "casualties": {"sideA": "约2400人", "sideB": "约64人"},
+          "forces": {"sideA": "日本约350架飞机", "sideB": "美国约100架飞机"},
+          "commanders": [
+            {"name": "山本五十六", "role": "日本联合舰队司令", "side": "sideA"},
+            {"name": "赫伯特·威尔逊", "role": "珍珠港基地司令", "side": "sideB"}
+          ]
+        },
+        {
+          "battleId": "battle-of-hong-kong",
+          "name": "香港战役",
+          "nameEn": "Battle of Hong Kong",
+          "startYear": 1941,
+          "endYear": 1941,
+          "coords": [114.169, 22.319],
+          "theater": "东亚",
+          "context": "日本进攻香港殖民地",
+          "description": "1941年12月8日，日本进攻香港。英军约1.5万人与日军约3.3万人展开战斗。尽管英军顽强抵抗，但日军凭借兵力优势和空中支援，于12月25日占领香港。香港总督杨慕琦投降，香港进入日占时期。",
+          "result": "日本占领香港，英国失去远东重要据点",
+          "significance": "日本在太平洋战争初期取得胜利，扩大了其在亚洲的势力范围",
+          "casualties": {"sideA": "约2700人", "sideB": "约800人"},
+          "forces": {"sideA": "日本约3.3万人", "sideB": "英军约1.5万人"},
+          "commanders": [
+            {"name": "酒井隆", "role": "日军第23军司令", "side": "sideA"},
+            {"name": "杨慕琦", "role": "香港总督", "side": "sideB"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "战争转折",
+      "nameEn": "Turning Point",
+      "startYear": 1942,
+      "endYear": 1943,
+      "summary": "盟军开始反攻，轴心国战略受挫",
+      "battles": [
+        {
+          "battleId": "battle-of-midway",
+          "name": "中途岛海战",
+          "nameEn": "Battle of Midway",
+          "startYear": 1942,
+          "endYear": 1942,
+          "coords": [-177.4, 25.4],
+          "theater": "太平洋",
+          "context": "日本计划占领中途岛，诱歼美国航母舰队",
+          "description": "1942年6月4-7日，日本联合舰队进攻中途岛，企图诱歼美国航母舰队。美军破译日军密码，提前设下埋伏。日军损失4艘航母，而美军仅损失1艘。此战扭转了太平洋战局，日本海军从此失去战略主动权。",
+          "result": "美国取得决定性胜利，日本海军遭受重创",
+          "significance": "太平洋战争转折点，日本开始丧失战略主动权",
+          "casualties": {"sideA": "约307人", "sideB": "约2480人"},
+          "forces": {"sideA": "美国约150架飞机", "sideB": "日本约248架飞机"},
+          "commanders": [
+            {"name": "山本五十六", "role": "日本联合舰队司令", "side": "sideA"},
+            {"name": "切斯特·尼米兹", "role": "美国太平洋舰队司令", "side": "sideB"}
+          ]
+        },
+        {
+          "battleId": "battle-of-stalingrad",
+          "name": "斯大林格勒战役",
+          "nameEn": "Battle of Stalingrad",
+          "startYear": 192,
+          "endYear": 1943,
+          "coords": [44.007, 48.707],
+          "theater": "东欧",
+          "context": "德军进攻斯大林格勒，争夺伏尔加河畔战略要地",
+          "description": "1942年8月，德军进攻斯大林格勒。苏军与德军在市区展开残酷巷战。11月，苏军发动"天王星行动"，包围德军第6集团军。1943年2月，德军投降。此役是二战中最血腥的战役之一，双方伤亡约200万人。",
+          "result": "苏军取得决定性胜利，德军遭受重大损失",
+          "significance": "东线战场转折点，德军从此在东线转为战略防御",
+          "casualties": {"sideA": "约80万人", "sideB": "约110万人"},
+          "forces": {"sideA": "德军约100万人", "sideB": "苏军约120万人"},
+          "commanders": [
+            {"name": "弗里德里希·保卢斯", "role": "德军第6集团军司令", "side": "sideA"},
+            {"name": "瓦西里·崔可夫", "role": "苏军第62集团军司令", "side": "sideB"}
+          ]
+        },
+        {
+          "battleId": "battle-of-el-alamein",
+          "name": "阿拉曼战役",
+          "nameEn": "Battle of El Alamein",
+          "startYear": 1942,
+          "endYear": 1942,
+          "coords": [28.9, 30.7],
+          "theater": "北非",
+          "context": "英军与德意军在北非争夺战略主动权",
+          "description": "1942年10月23日至11月4日，英军在蒙哥马利指挥下，在埃及阿拉曼地区对隆美尔指挥的德意联军发动进攻。英军凭借兵力优势和充足的补给，突破德意防线，迫使德意军队撤退。此役是北非战场转折点。",
+          "result": "英军取得决定性胜利，德意军队撤退",
+          "significance": "北非战场转折点，盟军开始反攻，轴心国失去北非控制权",
+          "casualties": {"sideA": "约2.2万人", "sideB": "约3.7万人"},
+          "forces": {"sideA": "英军约23万人", "sideB": "德意军约10万人"},
+          "commanders": [
+            {"name": "伯纳德·蒙哥马利", "role": "英军第8集团军司令", "side": "sideA"},
+            {"name": "埃尔温·隆美尔", "role": "德意军非洲装甲集团军司令", "side": "sideB"}
+          ]
+        },
+        {
+          "battleId": "guadalcanal-campaign",
+          "name": "瓜达尔卡纳尔岛战役",
+          "nameEn": "Guadalcanal Campaign",
+          "startYear": 1942,
+          "endYear": 1943,
+          "coords": [160.15, -9.5],
+          "theater": "太平洋",
+          "context": "盟军反攻太平洋，夺取日军战略要地",
+          "description": "1942年8月至1943年2月，美军与日军在瓜达尔卡纳尔岛展开激烈争夺。美军登陆后，日军多次组织反攻，双方在陆地、海上和空中展开激烈战斗。最终美军成功占领该岛，这是盟军在太平洋战场首次战略反攻。",
+          "result": "美军取得胜利，盟军开始太平洋反攻",
+          "significance": "盟军在太平洋战场首次战略反攻，开始收复失地",
+          "casualties": {"sideA": "约7000人", "sideB": "约2.5万人"},
+          "forces": {"sideA": "美军约6万人", "sideB": "日军约3.6万人"},
+          "commanders": [
+            {"name": "亚历山大·帕奇", "role": "美军地面部队司令", "side": "sideA"},
+            {"name": "百武晴吉", "role": "日军第17军司令", "side": "sideB"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "盟军反攻",
+      "nameEn": "Allied Counteroffensive",
+      "startYear": 1943,
+      "endYear": 1944,
+      "summary": "盟军在各大战场展开全面反攻",
+      "battles": [
+        {
+          "battleId": "battle-of-kursk",
+          "name": "库尔斯克会战",
+          "nameEn": "Battle of Kursk",
+          "startYear": 1943,
+          "endYear": 1943,
+          "coords": [36.65, 51.25],
+          "theater": "东欧",
+          "context": "德军最后一次大规模东线攻势",
+          "description": "1943年7月，德军发动"堡垒行动"，企图包围库尔斯克地区的苏军。苏军预先构筑防御工事，并集结大量预备队。德军在库尔斯克突出部展开激战，但未能突破苏军防线。苏军随后发动反攻，收复奥廖尔和别尔哥罗德。",
+          "result": "苏军取得胜利，德军东线战略主动权彻底丧失",
+          "significance": "东线战场最后一次大规模德军攻势，苏军开始全面反攻",
+          "casualties": {"sideA": "约36万人", "sideB": "约20万人"},
+          "forces": {"sideA": "德军约80万人", "sideB": "苏军约130万人"},
+          "commanders": [
+            {"name": "瓦尔特·莫德尔", "role": "德军中央集团军群司令", "side": "sideA"},
+            {"name": "格奥尔基·朱可夫", "role": "苏军总参谋长", "side": "sideB"}
+          ]
+        },
+        {
+          "battleId": "d-day",
+          "name": "诺曼底登陆",
+          "nameEn": "D-Day",
+          "startYear": 1944,
+          "endYear": 1944,
+          "coords": [-1.25, 49.38],
+          "theater": "西欧",
+          "context": "盟军在法国北部开辟第二战场",
+          "description": "1944年6月6日，盟军在诺曼底地区实施"霸王行动"，开辟第二战场。美军、英军、加拿大军等组成联军，在艾森豪威尔指挥下登陆法国。德军顽强抵抗，但盟军凭借制空权和兵力优势，逐步扩大登陆场。7月，诺曼底战役结束，盟军成功建立滩头阵地。",
+          "result": "盟军成功登陆法国，开辟第二战场",
+          "significance": "西欧战场转折点，德国陷入两线作战，加速了纳粹德国的崩溃",
+          "casualties": {"sideA": "约1万人", "sideB": "约1万人"},
+          "forces": {"sideA": "盟军约156万人", "sideB": "德军约5万人"},
+          "commanders": [
+            {"name": "德怀特·艾森豪威尔", "role": "盟军远征军最高司令", "side": "sideA"},
+            {"name": "埃尔温·隆美尔", "role": "德军B集团军群司令", "side": "sideB"}
+          ]
+        },
+        {
+          "battleId": "battle-of-philippines",
+          "name": "菲律宾战役",
+          "nameEn": "Battle of the Philippines",
+          "startYear": 1944,
+          "endYear": 1945,
+          "coords": [121.774, 14.599],
+          "theater": "太平洋",
+          "context": "美军反攻菲律宾，收复日军占领区",
+          "description": "1944年10月，美军在麦克阿瑟指挥下开始菲律宾战役。莱特湾海战中，日本联合舰队遭受重创。1945年3月，美军占领马尼拉。日军在吕宋岛和菲律宾其他岛屿继续顽抗，直到战争结束。此役是太平洋战争中规模最大的战役之一。",
+          "result": "美军收复菲律宾，日军遭受重大损失",
+          "significance": "太平洋战争重要转折点，日本海军力量被彻底摧毁",
+          "casualties": {"sideA": "约1万人", "sideB": "约25万人"},
+          "forces": {"sideA": "美军约50万人", "sideB": "日军约50万人"},
+          "commanders": [
+            {"name": "道格拉斯·麦克阿瑟", "role": "盟军西南太平洋战区司令", "side": "sideA"},
+            {"name": "山下奉文", "role": "日军菲律宾方面军司令", "side": "sideB"}
+          ]
+        },
+        {
+          "battleId": "battle-of-burma",
+          "name": "缅甸战役",
+          "nameEn": "Battle of Burma",
+          "startYear": 1944,
+          "endYear": 1945,
+          "coords": [96.15, 21.916],
+          "theater": "东南亚",
+          "context": "盟军与日军在缅甸展开争夺",
+          "description": "1944年，英军和中国远征军在缅甸对日军展开反攻。日军发动"一号作战"，试图夺取英帕尔，但遭到失败。盟军随后收复缅甸北部，1945年5月收复仰光。此役打通了中缅公路，支援了中国抗战。",
+          "result": "盟军收复缅甸，日军在东南亚战败",
+          "significance": "盟军在东南亚战场取得胜利，支援了中国抗战",
+          "casualties": {"sideA": "约2.7万人", "sideB": "约15.5万人"},
+          "forces": {"sideA": "盟军约70万人", "sideB": "日军约30万人"},
+          "commanders": [
+            {"name": "威廉·斯利姆", "role": "英军第14集团军司令", "side": "sideA"},
+            {"name": "田中新一", "role": "日军缅甸方面军司令", "side": "sideB"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "轴心国崩溃",
+      "nameEn": "Axis Collapse",
+      "startYear": 1944,
+      "endYear": 1945,
+      "summary": "盟军全面进攻，轴心国接连投降",
+      "battles": [
+        {
+          "battleId": "battle-of-bulge",
+          "name": "突出部战役",
+          "nameEn": "Battle of the Bulge",
+          "startYear": 1944,
+          "endYear": 1945,
+          "coords": [6.064, 50.0],
+          "theater": "西欧",
+          "context": "德军在西线发动最后一次大规模攻势",
+          "description": "1944年12月，德军在阿登地区发动"守望莱茵"攻势，企图分割盟军。德军初期取得进展，形成突出部，但天气转好后，盟军空中力量发挥优势。1945年1月，盟军发动反攻，德军被迫撤退。此役是西线战场最后一次大规模德军攻势。",
+          "result": "盟军取得胜利，德军遭受重大损失",
+          "significance": "德军最后一次大规模攻势失败，加速了德国的崩溃",
+          "casualties": {"sideA": "约7.7万人", "sideB": "约12.5万人"},
+          "forces": {"sideA": "盟军约60万人", "sideB": "德军约50万人"},
+          "commanders": [
+            {"name": "德怀特·艾森豪威尔", "role": "盟军最高司令", "side": "sideA"},
+            {"name": "格尔德·冯·伦德施泰特", "role": "德军西线总司令", "side": "sideB"}
+          ]
+        },
+        {
+          "battleId": "battle-of-berlin",
+          "name": "柏林战役",
+          "nameEn": "Battle of Berlin",
+          "startYear": 1945,
+          "endYear": 1945,
+          "coords": [13.405, 52.52],
+          "theater": "东欧",
+          "context": "苏军进攻德国首都，纳粹德国最后抵抗",
+          "description": "1945年4月16日，苏军发动柏林战役，向德国首都发起进攻。苏军投入250万兵力，与德军展开激烈战斗。4月30日，希特勒在总理府自杀。5月2日，德军投降。5月8日，德国无条件投降，欧洲战争结束。",
+          "result": "苏军占领柏林，德国投降",
+          "significance": "欧洲战争结束，纳粹德国彻底崩溃",
+          "casualties": {"sideA": "约8万人", "sideB": "约10万人"},
+          "forces": {"sideA": "苏军约250万人", "sideB": "德军约100万人"},
+          "commanders": [
+            {"name": "格奥尔基·朱可夫", "role": "苏白俄罗斯第1方面军司令", "side": "sideA"},
+            {"name": "海因里希·希姆莱", "role": "德军柏林卫戍司令", "side": "sideB"}
+          ]
+        },
+        {
+          "battleId": "battle-of-okinawa",
+          "name": "冲绳战役",
+          "nameEn": "Battle of Okinawa",
+          "startYear": 1945,
+          "endYear": 1945,
+          "coords": [127.717, 26.212],
+          "theater": "太平洋",
+          "context": "美军进攻日本本土最后的屏障",
+          "description": "1945年4月1日至6月22日，美军进攻冲绳岛。日军组织顽强抵抗，发动"神风"特攻战术。美军付出巨大代价，最终占领冲绳。此役是太平洋战争中伤亡最多、最血腥的战役之一，双方伤亡超过20万人。",
+          "result": "美军占领冲绳，为进攻日本本土做准备",
+          "significance": "太平洋战争最后一场大规模战役，为原子弹使用和日本投降奠定基础",
+          "casualties": {"sideA": "约1.2万人", "sideB": "约10万人"},
+          "forces": {"sideA": "美军约54万人", "sideB": "日军约10万人"},
+          "commanders": [
+            {"name": "西蒙·玻利瓦尔·巴克纳", "role": "美军第10集团军司令", "side": "sideA"},
+            {"name": "牛岛满", "role": "日军第32军司令", "side": "sideB"}
+          ]
+        },
+        {
+          "battleId": "battle-of-iwo-jima",
+          "name": "硫磺岛战役",
+          "nameEn": "Battle of Iwo Jima",
+          "startYear": 1945,
+          "endYear": 1945,
+          "coords": [142.717, 24.783],
+          "theater": "太平洋",
+          "context": "美军夺取硫磺岛，为轰炸日本本土做准备",
+          "description": "1945年2月19日至3月26日，美军进攻硫磺岛。日军依托坚固工事顽强抵抗，战斗异常惨烈。美军最终占领该岛，但付出了巨大代价。硫磺岛成为美军轰炸日本本土的重要基地，也为后来的登陆作战提供了经验。",
+          "result": "美军占领硫磺岛，但伤亡惨重",
+          "significance": "太平洋战争中最血腥的战役之一，为轰炸日本本土提供了基地",
+          "casualties": {"sideA": "约6800人", "sideB": "约2.1万人"},
+          "forces": {"sideA": "美军约7万人", "sideB": "日军约2.3万人"},
+          "commanders": [
+            {"name": "霍兰德·史密斯", "role": "美军第5两栖军司令", "side": "sideA"},
+            {"name": "栗林忠道", "role": "日军第109师团司令", "side": "sideB"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "太平洋战争结束",
+      "nameEn": "End of Pacific War",
+      "startYear": 1945,
+      "endYear": 1945,
+      "summary": "日本投降，第二次世界大战结束",
+      "battles": [
+        {
+          "battleId": "atomic-bombings",
+          "name": "原子弹轰炸",
+          "nameEn": "Atomic Bombings",
+          "startYear": 1945,
+          "endYear": 1945,
+          "coords": [139.692, 35.689],
+          "theater": "太平洋",
+          "context": "美国在日本投下原子弹，迫使其投降",
+          "description": "1945年8月6日，美国在广岛投下第一颗原子弹"小男孩"，造成约14万人死亡。8月9日，美国在长崎投下第二颗原子弹"胖子"，造成约7万人死亡。8月15日，日本宣布无条件投降，9月2日正式签署投降书，第二次世界大战结束。",
+          "result": "日本投降，第二次世界大战结束",
+          "significance": "人类首次使用核武器，加速了日本投降，改变了战争形态",
+          "casualties": {"sideA": "约0人", "sideB": "约21万人"},
+          "forces": {"sideA": "美国B-29轰炸机", "sideB": "日本平民"},
+          "commanders": [
+            {"name": "卡尔·斯帕茨", "role": "美国战略空军司令", "side": "sideA"},
+            {"name": "裕仁天皇", "role": "日本天皇", "side": "sideB"}
+          ]
+        },
+        {
+          "battleId": "soviet-invasion-of-manchuria",
+          "name": "苏联入侵满洲",
+          "nameEn": "Soviet Invasion of Manchuria",
+          "startYear": 1945,
+          "endYear": 1945,
+          "coords": [126.565, 43.825],
+          "theater": "东亚",
+          "context": "苏联对日宣战，进攻日本关东军",
+          "description": "1945年8月9日，苏联对日宣战，出兵中国东北。苏联红军以压倒性优势迅速击败日本关东军，仅用20多天就占领满洲。此役加速了日本投降，也改变了东亚政治格局，为中国共产党在东北的发展创造了条件。",
+          "result": "苏联迅速击败日本关东军，占领满洲",
+          "significance": "加速了日本投降，改变了东亚政治格局",
+          "casualties": {"sideA": "约1.2万人", "sideB": "约8.4万人"},
+          "forces": {"sideA": "苏军约150万人", "sideB": "日军约70万人"},
+          "commanders": [
+            {"name": "亚历山大·华西列夫斯基", "role": "苏军远东总司令", "side": "sideA"},
+            {"name": "山田乙三", "role": "日本关东军总司令", "side": "sideB"}
+          ]
+        },
+        {
+          "battleId": "battle-of-seoul",
+          "name": "汉城战役",
+          "nameEn": "Battle of Seoul",
+          "startYear": 1945,
+          "endYear": 1945,
+          "coords": [126.978, 37.566],
+          "theater": "东亚",
+          "context": "朝鲜半岛解放与政治权力交接",
+          "description": "1945年8月，随着日本投降，朝鲜半岛获得解放。美军从南部登陆，苏军从北部进驻。双方在汉城展开政治争夺，最终以三八线为界形成南北分治。汉城成为韩国首都，见证了朝鲜半岛分裂的历史时刻。",
+          "result": "朝鲜半岛分裂，形成南北两个政权",
+          "significance": "朝鲜半岛分裂的开始，为朝鲜战争埋下伏笔",
+          "casualties": {"sideA": "约0人", "sideB": "约0人"},
+          "forces": {"sideA": "美军", "sideB": "苏军"},
+          "commanders": [
+            {"name": "约翰·霍奇", "role": "美军驻韩司令", "side": "sideA"},
+            {"name": "基里尔·梅列茨科夫", "role": "苏军远东司令", "side": "sideB"}
+          ]
+        },
+        {
+          "battleId": "surrender-of-japan",
+          "name": "日本投降",
+          "nameEn": "Surrender of Japan",
+          "startYear": 1945,
+          "endYear": 1945,
+          "coords": [139.692, 35.689],
+          "theater": "太平洋",
+          "context": "日本正式投降，第二次世界大战结束",
+          "description": "1945年8月15日，日本天皇裕仁宣布无条件投降。9月2日，日本外务大臣重光葵和陆军参谋总长梅津美治郎在停泊于东京湾的美国密苏里号战列舰上签署投降书。第二次世界大战正式结束，人类历史上最大规模的战争告一段落。",
+          "result": "日本正式投降，第二次世界大战结束",
+          "significance": "第二次世界大战结束，世界进入新的政治格局",
+          "casualties": {"sideA": "约0人", "sideB": "约0人"},
+          "forces": {"sideA": "盟军", "sideB": "日本"},
+          "commanders": [
+            {"name": "道格拉斯·麦克阿瑟", "role": "盟军最高司令", "side": "sideA"},
+            {"name": "重光葵", "role": "日本外务大臣", "side": "sideB"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "战后处理",
+      "nameEn": "Post-War Settlement",
+      "

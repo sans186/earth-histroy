@@ -1,0 +1,3792 @@
+{
+  "generatedAt": "2026-10-25T03:20:46.097Z",
+  "total": 1970,
+  "findings": [
+    {
+      "key": "(Abbasid Caliphate)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "(Afsharid Iran)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "(Allegiance of Ayyubid Sultanate to Abbasid Caliphate)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "库尔德语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "(Brythonic Kingdoms)",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "(Carthage)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "(Delhi Sultanate)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "(Duchies of Poland)",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "(Eighteen Kingdoms)",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "(Kingdom of Hungary)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「印欧语系」"
+    },
+    {
+      "key": "(Mahajanapadas)",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "(Ottoman Empire)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "(Ottoman Empire)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「突厥语族」"
+    },
+    {
+      "key": "(Personal union of Kingdom of Hungary with Kingdom of Bohemia)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「印欧语系」"
+    },
+    {
+      "key": "(Personal union of Kingdom of Poland with Kingdom of Hungary)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「斯拉夫语族」"
+    },
+    {
+      "key": "(Personal union of Polish-Lithuania Kingdom with Kingdom of Hungary)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「印欧语系」"
+    },
+    {
+      "key": "(Qing Dynasty)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「通古斯语族」"
+    },
+    {
+      "key": "(Qing Dynasty)",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "蒙古语 的语系有争议，当前写「通古斯语族」"
+    },
+    {
+      "key": "(Sasanian Empire)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉姆语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "(Seleucid Empire)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉姆语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "(Spanish Empire)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "(Spring and Autumn States)",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "(Taifa of Valencia)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "(Taifas of Iberia)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "西班牙语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "(Timurid Empire)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "(Tümed)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "(Western Göktürks)",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "(Yuan Dynasty)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Abbasid Caliphate/Buyid Dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Adiabene",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Afsharid Iran",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "土库曼语 应为「突厥语族」，当前「印欧语系」"
+    },
+    {
+      "key": "Afsharid Iran",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Ahis",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "土耳其语 应为「突厥语族」，当前「印欧语系」"
+    },
+    {
+      "key": "Alamannia",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Alans",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Algeria",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "法语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Alid dynasties of northern Iran",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Ancient Carthage",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Ancient Carthage",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Angles",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Anglo-Saxon England",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Anti-Kuomintang Coalition",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Anurādhapura",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Anushtegin dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Aq Qoyunlu",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "土库曼语 应为「突厥语族」，当前「印欧语系、闪含语系」"
+    },
+    {
+      "key": "Assyrian conquest of Egypt",
+      "rule": "duplicate-record",
+      "severity": "warn",
+      "detail": "与 Assyria 完全相同"
+    },
+    {
+      "key": "Austria-Hungary",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "德语 应为「印欧语系」，当前「乌拉尔语系」"
+    },
+    {
+      "key": "Austrian Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Ava Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "缅甸语 应为「汉藏语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Ava Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "孟语 应为「南亚语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Avar Khaganate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Avar Khaganate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Aydinids",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Ayutthaya Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "高棉语 应为「南亚语系」，当前「壮侗语系」"
+    },
+    {
+      "key": "Ayutthaya Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "马来语 应为「南岛语系」，当前「壮侗语系」"
+    },
+    {
+      "key": "Ayyubid dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "库尔德语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Azerbaijan",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "俄语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Azerbaijan",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "亚美尼亚语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Azerbaijan Democratic Republic",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "俄语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Aztec Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "西班牙语 应为「印欧语系」，当前「犹他-阿兹特克语系」"
+    },
+    {
+      "key": "Baekje",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "韩语 的语系有争议，当前写「汉藏语系」"
+    },
+    {
+      "key": "Bali Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "爪哇语 应为「南岛语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Banate of Bosnia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Barghawata Conference",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「」"
+    },
+    {
+      "key": "Barghawata Conference",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "柏柏尔语 应为「亚非语系」，当前「」"
+    },
+    {
+      "key": "Barghawata Conference",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Benin",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "约鲁巴语 应为「尼日尔-刚果语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Benin",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "伊博语 应为「尼日尔-刚果语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Beylik of Aydin",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Beylik of Aydin",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "亚美尼亚语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Beylik of Hamid",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Beylik of Isfendiyar",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "土耳其语 应为「突厥语族」，当前「印欧语系」"
+    },
+    {
+      "key": "Beylik of Saruhan",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Beylik of Saruhan",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Beylik of Teke",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Bima Sultanate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "马来语 应为「南岛语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Bima Sultanate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "爪哇语 应为「南岛语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Blambangan Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "爪哇语 应为「南岛语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Bolivia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "克丘亚语 应为「克丘亚语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Breton Kingdoms",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "British Ceylon",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "British East Africa",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "斯瓦希里语 应为「尼日尔-刚果语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Brythons",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Burma",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「汉藏语系」"
+    },
+    {
+      "key": "Buyid dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Buyid dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "库尔德语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Byeonhan confederacy",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "朝鲜语 的语系有争议，当前写「」"
+    },
+    {
+      "key": "Byeonhan confederacy",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「」"
+    },
+    {
+      "key": "Byeonhan confederacy",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Caliphate of Córdoba",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Carnatic Sultanate",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Carthage",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Carthage",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Caucasian Iberia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "格鲁吉亚语 应为「南高加索语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Celtic Britons",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Ceylon",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Chagatai Khanate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Chámpa",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "梵语 应为「印欧语系」，当前「南亚语系」"
+    },
+    {
+      "key": "Champasak",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "老挝语 应为「壮侗语系」，当前「南亚语系」"
+    },
+    {
+      "key": "Chechen Republic",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "车臣语 应为「东北高加索语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Chechnya",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "车臣语 应为「东北高加索语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Chenla",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "梵语 应为「印欧语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Chera dynasty",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Chera dynasty",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Chimor",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "克丘亚语 应为「克丘亚语系」，当前「南美原住民语系」"
+    },
+    {
+      "key": "Chimu Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "克丘亚语 应为「克丘亚语系」，当前「南美印第安语系」"
+    },
+    {
+      "key": "Chobanids",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系、阿尔泰语系」"
+    },
+    {
+      "key": "Chūzan",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Chüzan",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "日语 的语系有争议，当前写「南岛语系」"
+    },
+    {
+      "key": "Chüzan",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Classic Veracruz culture",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "纳瓦特尔语 应为「犹他-阿兹特克语系」，当前「」"
+    },
+    {
+      "key": "Classic Veracruz culture",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Colonies in antiquity",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Commonwealth of Nations",
+      "rule": "population-magnitude",
+      "severity": "error",
+      "detail": "人口 2.50e+9 超过全球人口量级"
+    },
+    {
+      "key": "Communist Laos",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "法语 应为「印欧语系」，当前「壮侗语系」"
+    },
+    {
+      "key": "Communist Laos",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「壮侗语系」"
+    },
+    {
+      "key": "County of Aragon",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「罗曼语族」"
+    },
+    {
+      "key": "County of Barcelona",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「罗曼语族」"
+    },
+    {
+      "key": "Crown of Castile",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「罗曼语族」"
+    },
+    {
+      "key": "Cuban Nationalists",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Cuman-Kipchak Confederation",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Cumania",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Cyprus",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "土耳其语 应为「突厥语族」，当前「印欧语系」"
+    },
+    {
+      "key": "Danish India",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Dong-okjeo",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Duchies of Poland",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Duchy of Gascony",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "巴斯克语 的语系有争议，当前写「罗曼语族」"
+    },
+    {
+      "key": "Dunoding",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Dutch Ceylon",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Dutch East Indies",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "马来语 应为「南岛语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Dutch East Indies",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "爪哇语 应为「南岛语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Dzungar Khanate",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "蒙古语 的语系有争议，当前写「突厥语族」"
+    },
+    {
+      "key": "Early Cheras",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「南亚语系」"
+    },
+    {
+      "key": "Early Cheras",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Early Cholas",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「南亚语系」"
+    },
+    {
+      "key": "Early Cholas",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「南亚语系」"
+    },
+    {
+      "key": "Early Pandyas",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印度-雅利安语系」"
+    },
+    {
+      "key": "Early Pandyas",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印度-雅利安语系」"
+    },
+    {
+      "key": "East Africa Protectorate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "斯瓦希里语 应为「尼日尔-刚果语系」，当前「印欧语系」"
+    },
+    {
+      "key": "East Turkestan",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Eastern Chagatai Khanate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Eastern Göktürks",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Eastern Hungarian Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Eastern Kara-Khanids",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Emirate of Bukhara",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Emirate of Córdoba",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Emirate of Crete",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Emirate of Granada",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "西班牙语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Emirate of Sicily",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Emirate of Sicily",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Empire of China (1915–1916)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "满语 应为「通古斯语族」，当前「汉藏语系」"
+    },
+    {
+      "key": "Empire of China (1915–1916)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「汉藏语系」"
+    },
+    {
+      "key": "Empire of Japan",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "日语 的语系有争议，当前写「汉藏语系」"
+    },
+    {
+      "key": "Empire of Japan",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "日语 的语系有争议，当前写「汉藏语系」"
+    },
+    {
+      "key": "Empire of Japan",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "朝鲜语 的语系有争议，当前写「汉藏语系」"
+    },
+    {
+      "key": "Estonia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "德语 应为「印欧语系」，当前「乌拉尔语系」"
+    },
+    {
+      "key": "Estonia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "俄语 应为「印欧语系」，当前「乌拉尔语系」"
+    },
+    {
+      "key": "Federal Republic of Nigeria",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "豪萨语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Federal Republic of Nigeria",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "约鲁巴语 应为「尼日尔-刚果语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Federal Republic of Nigeria",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "伊博语 应为「尼日尔-刚果语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Federal Republic of Somalia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Federation of Malaya",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Fiji",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Finland",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "瑞典语 应为「印欧语系」，当前「乌拉尔语系」"
+    },
+    {
+      "key": "First Mexican Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "纳瓦特尔语 应为「犹他-阿兹特克语系」，当前「印欧语系」"
+    },
+    {
+      "key": "First Spanish Republic",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "巴斯克语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "First Toungoo Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "泰语 应为「壮侗语系」，当前「汉藏语系」"
+    },
+    {
+      "key": "First Toungoo Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "高棉语 应为「南亚语系」，当前「汉藏语系」"
+    },
+    {
+      "key": "First Turkic Khaganate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「突厥语系」"
+    },
+    {
+      "key": "First Turkic Khaganate",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Four Oirats",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "蒙古语 的语系有争议，当前写「蒙古语族」"
+    },
+    {
+      "key": "Four Oirats",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "蒙古语 的语系有争议，当前写「蒙古语族」"
+    },
+    {
+      "key": "Four Oirats",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "France Antarctique",
+      "rule": "population-magnitude",
+      "severity": "warn",
+      "detail": "人口仅 600，疑似单位错误：「约 600 人（1556 年估计）」"
+    },
+    {
+      "key": "Francoist Spain",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "巴斯克语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Frederick II, Holy Roman Emperor",
+      "rule": "duplicate-record",
+      "severity": "warn",
+      "detail": "与 Foreign relations of the Eastern Roman Empire 完全相同"
+    },
+    {
+      "key": "Freetown",
+      "rule": "population-magnitude",
+      "severity": "warn",
+      "detail": "人口仅 400，疑似单位错误：「约 400（1788年估计）」"
+    },
+    {
+      "key": "French Africa",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "French Colonial Vietnam",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "越南语 应为「南亚语系」，当前「印欧语系」"
+    },
+    {
+      "key": "French India",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "French Indochina",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "越南语 应为「南亚语系」，当前「印欧语系」"
+    },
+    {
+      "key": "French Mandate for Syria and Lebanon",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Frisians",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Galuh Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "梵语 应为「印欧语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Ganzhou Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Ganzhou Uyghur Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「突厥语族」"
+    },
+    {
+      "key": "German Africa",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "German colonization of Africa",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "斯瓦希里语 应为「尼日尔-刚果语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Germiyanids",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Ghassanids",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Ghassanids",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉姆语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Goguryeo",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Göktürk Khaganate",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Göktürks",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「突厥语系」"
+    },
+    {
+      "key": "Göktürks",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Golden Horde",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Goryeo",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「阿尔泰语系-朝鲜语族」"
+    },
+    {
+      "key": "Gothia",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Goths",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Great Jin",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Great Mongol State",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "蒙古语 的语系有争议，当前写「蒙古语族」"
+    },
+    {
+      "key": "Great Mongol State",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "蒙古语 的语系有争议，当前写「蒙古语族」"
+    },
+    {
+      "key": "Great Mongol State",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「蒙古语族」"
+    },
+    {
+      "key": "Great Mongol State",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "俄语 应为「印欧语系」，当前「蒙古语族」"
+    },
+    {
+      "key": "Great Seljuk Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Great Yuan",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Great Yuan",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Greek Colonies",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Greek colonisation",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "government 为空"
+    },
+    {
+      "key": "Greek colonisation",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Greek Dark Ages",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Greenland",
+      "rule": "population-magnitude",
+      "severity": "warn",
+      "detail": "人口仅 300，疑似单位错误：「约 300（1737年估计）」"
+    },
+    {
+      "key": "Gurkha",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "藏语 应为「汉藏语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Gutian Dynasty",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Habbari dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Habsburg monarchy",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Hamidids",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Hamidids",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Haudenosaunee",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Hawaiian Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Heian period",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「日本语系」"
+    },
+    {
+      "key": "History of Egypt under the Muhammad Ali dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "意大利语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "History of Qatar",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "History of Spain (1808–1874)",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "巴斯克语 的语系有争议，当前写「罗曼语族」"
+    },
+    {
+      "key": "Holy Roman Empire",
+      "rule": "duplicate-record",
+      "severity": "warn",
+      "detail": "与 Foreign relations of the Eastern Roman Empire 完全相同"
+    },
+    {
+      "key": "Holy Roman Empire Minor States",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Hubaekje",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Hungarian Nationalists",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「」"
+    },
+    {
+      "key": "Hungarian Nationalists",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Hungarian People's Republic",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "俄语 应为「印欧语系」，当前「乌拉尔语系」"
+    },
+    {
+      "key": "Hungarians",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Hunnic Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Hunnic Empire",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Huns",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「突厥语系」"
+    },
+    {
+      "key": "Huns",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Hussain Shahi dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Iraq",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "库尔德语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Iraq",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "库尔德语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Iroquois",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Islamic Republic of Iran",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Israel",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Italian Africa",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Italian Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿姆哈拉语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Italian nationalism",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Italian Nationalists",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Itza people",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "西班牙语 应为「印欧语系」，当前「玛雅语系」"
+    },
+    {
+      "key": "Jaemtland",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Jaffna kingdom",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印度-雅利安语族」"
+    },
+    {
+      "key": "Jaffna kingdom",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印度-雅利安语族」"
+    },
+    {
+      "key": "Jalayirid Sultanate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Jalayirid Sultanate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "库尔德语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Janapada of Aśmaka",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Janapada of Cedī",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Janapada of Kamboja",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Janapada of Malla",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Janapada of Matsya",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Janapada of Pañcāla",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Janapada of Surasena",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Jesuit missions among the Guaraní",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "西班牙语 应为「印欧语系」，当前「图皮-瓜拉尼语系」"
+    },
+    {
+      "key": "Jesuit Reducciones",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Jin dynasty (1115-1234)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Jinhan confederacy",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Joseon",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "朝鲜语 的语系有争议，当前写「汉藏语系」"
+    },
+    {
+      "key": "Jugurtha",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Kambojas",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Kara-Khitans",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Kara-Khitans",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "藏语 应为「汉藏语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Karamanids",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "亚美尼亚语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Karasids",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Kastamonu",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Kazakh Khanate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Kazakhstan",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "俄语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Kenmu Restoration",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「日本语系」"
+    },
+    {
+      "key": "Kenya",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "斯瓦希里语 应为「尼日尔-刚果语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Khanate of Bukhara",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Khanate of Khiva",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "土库曼语 应为「突厥语族」，当前「闪含语系」"
+    },
+    {
+      "key": "Khanate of Khiva",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "乌兹别克语 应为「突厥语族」，当前「闪含语系」"
+    },
+    {
+      "key": "Khanate of Kokand",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Khanates of the Caucasus",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿塞拜疆语 应为「突厥语族」，当前「印欧语系」"
+    },
+    {
+      "key": "Khanates of the Caucasus",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "格鲁吉亚语 应为「南高加索语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Khanates of the Caucasus",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Khazaria",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Khazars",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Khedivate of Egypt",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "法语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Khedivate of Egypt",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Khmer Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "梵语 应为「印欧语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Khwarazmian Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Khwarezmid Dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Khwarezmid Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Kimek-Kipchak confederation",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Kingdom of Africa",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Kingdom of Africa",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "柏柏尔语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Kingdom of Castile",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「罗曼语族」"
+    },
+    {
+      "key": "Kingdom of Dambadaneiya",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Kingdom of Dunoting",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Kingdom of Egypt",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Kingdom of Georgia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "亚美尼亚语 应为「印欧语系」，当前「高加索语系」"
+    },
+    {
+      "key": "Kingdom of Georgia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿塞拜疆语 应为「突厥语族」，当前「高加索语系」"
+    },
+    {
+      "key": "Kingdom of Gordyene",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Kingdom of Hawaï'i",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Kingdom of Hungary",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Kingdom of Iberia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「高加索语系」"
+    },
+    {
+      "key": "Kingdom of Khotan",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Kingdom of Laos",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "法语 应为「印欧语系」，当前「壮侗语系」"
+    },
+    {
+      "key": "Kingdom of Lunda",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "斯瓦希里语 应为「尼日尔-刚果语系」，当前「尼罗-撒哈拉语系」"
+    },
+    {
+      "key": "Kingdom of Mrauk U",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "缅甸语 应为「汉藏语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Kingdom of Mrauk U",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Kingdom of Numidia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "柏柏尔语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Kingdom of Pamplona",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "巴斯克语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Kingdom of Pinya",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "缅甸语 应为「汉藏语系」，当前「南亚语系」"
+    },
+    {
+      "key": "Kingdom of Polonnaruwa",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Kingdom of Sarawak",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Kingdom of Sicily",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Kingdom of Singapura",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Kingdom of Singapura",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「南岛语系」"
+    },
+    {
+      "key": "Kingdom of Sobrarbe",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "巴斯克语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Kingdom of the Gepids",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Kingdom of Thuringia",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Konbaung dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "孟语 应为「南亚语系」，当前「汉藏语系」"
+    },
+    {
+      "key": "Korean Empire",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "韩语 的语系有争议，当前写「朝鲜语族」"
+    },
+    {
+      "key": "Korean Empire",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "韩语 的语系有争议，当前写「朝鲜语族」"
+    },
+    {
+      "key": "Korean Jin",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Kuomintang",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「汉藏语系」"
+    },
+    {
+      "key": "Kyrgyzstan",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "俄语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Lan Xang",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "老挝语 应为「壮侗语系」，当前「南亚语系」"
+    },
+    {
+      "key": "Lan Xang",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "泰语 应为「壮侗语系」，当前「南亚语系」"
+    },
+    {
+      "key": "Laos",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "法语 应为「印欧语系」，当前「壮侗语系」"
+    },
+    {
+      "key": "Late Pallava Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "梵语 应为「印欧语系」，当前「南亚语系」"
+    },
+    {
+      "key": "Later Jin Dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「通古斯语族」"
+    },
+    {
+      "key": "Later Jin Dynasty",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "蒙古语 的语系有争议，当前写「通古斯语族」"
+    },
+    {
+      "key": "Later Mayan City-States",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "西班牙语 应为「印欧语系」，当前「玛雅语系」"
+    },
+    {
+      "key": "Later Mayan City-States",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Lavo Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "孟语 应为「南亚语系」，当前「汉藏语系」"
+    },
+    {
+      "key": "Lazica",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "格鲁吉亚语 应为「南高加索语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Lebanon",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "法语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Lesotho",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「南索托语支」"
+    },
+    {
+      "key": "Li Zicheng",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "蒙古语 的语系有争议，当前写「汉藏语系」"
+    },
+    {
+      "key": "Liao dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Liaodong",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Louis II of Hungary",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Madagascar",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "马达加斯加语 应为「南岛语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Madurai Nayak dynasty",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Madurai Nayak dynasty",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Magna Frisia",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Magyars",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Mahan",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Majapahit",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "梵语 应为「印欧语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Malacca Sultanate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Malaysia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Mamluk Dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Mamluk dynasty (Delhi)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Mandate for Syria and the Lebanon",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Mataram Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "梵语 应为「印欧语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Mataram Sultanate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "爪哇语 应为「南岛语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Mataram Sultanate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "马来语 应为「南岛语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Mauretania",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "柏柏尔语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Maya civilization",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "西班牙语 应为「印欧语系」，当前「玛雅语系」"
+    },
+    {
+      "key": "Maya civilization",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Mayan City-States",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "西班牙语 应为「印欧语系」，当前「玛雅语系」"
+    },
+    {
+      "key": "Mayan City-States",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Maynila",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "他加禄语 应为「南岛语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Menteshe",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Mexicans",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "纳瓦特尔语 应为「犹他-阿兹特克语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Ming dynasty",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "蒙古语 的语系有争议，当前写「汉藏语系」"
+    },
+    {
+      "key": "Ming dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "维吾尔语 应为「突厥语族」，当前「汉藏语系」"
+    },
+    {
+      "key": "Moghulistan",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Moldavia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「罗曼语族」"
+    },
+    {
+      "key": "Mongol Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Mongolia",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "蒙古语 的语系有争议，当前写「蒙古语族」"
+    },
+    {
+      "key": "Mongolia",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "蒙古语 的语系有争议，当前写「蒙古语族」"
+    },
+    {
+      "key": "Mongolian People's Republic",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "蒙古语 的语系有争议，当前写「蒙古语族」"
+    },
+    {
+      "key": "Mongolian People's Republic",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "蒙古语 的语系有争议，当前写「蒙古语族」"
+    },
+    {
+      "key": "Mongolian People's Republic",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "俄语 应为「印欧语系」，当前「蒙古语族」"
+    },
+    {
+      "key": "Mozambique",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "斯瓦希里语 应为「尼日尔-刚果语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Muhammad Ali dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "土耳其语 应为「突厥语族」，当前「亚非语系」"
+    },
+    {
+      "key": "Muhammad Ali dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "法语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Mujahideen",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Myanmar",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "缅甸语 应为「汉藏语系」，当前「南亚语系」"
+    },
+    {
+      "key": "Nabataeans",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Nalyvaiko Uprising",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Nanzan",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Napoleonic Batavia Republic",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "爪哇语 应为「南岛语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Napoleonic Batavia Republic",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "马来语 应为「南岛语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Natalia Republic",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "祖鲁语 应为「尼日尔-刚果语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Nayaks of Madurai",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Nayaks of Madurai",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Nayaks of Thanjavur",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Nayaks of Thanjavur",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Neo-Assyrian Empire",
+      "rule": "duplicate-record",
+      "severity": "warn",
+      "detail": "与 Assyria 完全相同"
+    },
+    {
+      "key": "Neo-Babylonian Empire",
+      "rule": "duplicate-record",
+      "severity": "warn",
+      "detail": "与 Babylonia 完全相同"
+    },
+    {
+      "key": "New Sweden",
+      "rule": "population-magnitude",
+      "severity": "warn",
+      "detail": "人口仅 500，疑似单位错误：「约 500 人（1640年估计）」"
+    },
+    {
+      "key": "New Zealand",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "毛利语 应为「南岛语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Nguyễn lords",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "越南语 应为「南亚语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Nieuwe Republiek",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "祖鲁语 应为「尼日尔-刚果语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Niger",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "豪萨语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Niger",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Nigeria",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "豪萨语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Nigeria",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "约鲁巴语 应为「尼日尔-刚果语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Nigeria",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "伊博语 应为「尼日尔-刚果语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Norse",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Northern Cyprus",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Northern Cyprus",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Obotrites",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Oghuz Khagan",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Oghuz Turks",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Oirat Confederation",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "蒙古语 的语系有争议，当前写「蒙古语族」"
+    },
+    {
+      "key": "Oirat Confederation",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "蒙古语 的语系有争议，当前写「蒙古语族」"
+    },
+    {
+      "key": "Oirat Confederation",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Okjeo",
+      "rule": "population-magnitude",
+      "severity": "warn",
+      "detail": "人口仅 36，疑似单位错误：「约 数万（36 年估计）」"
+    },
+    {
+      "key": "Okjeo",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Old Great Bulgaria",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Omani Slave Coast",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "斯瓦希里语 应为「尼日尔-刚果语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Omanis",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "斯瓦希里语 应为「尼日尔-刚果语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Osroene",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Ottoman Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Ottoman Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉姆语 应为「亚非语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Ottoman Tripolitania",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Ottoman Tripolitania",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉姆语 应为「亚非语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Ottoman Tripolitania",
+      "rule": "duplicate-record",
+      "severity": "warn",
+      "detail": "与 Ottoman Empire 完全相同"
+    },
+    {
+      "key": "Oyo Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "豪萨语 应为「亚非语系」，当前「尼日尔-刚果语系」"
+    },
+    {
+      "key": "Pagan Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "缅甸语 应为「汉藏语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Pagan Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "孟语 应为「南亚语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Palestinians",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Palmyrene Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉姆语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Pandya dynasty",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Pandya dynasty",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Pandya Empire",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Pandya Empire",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Pannonian Avars",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Parthian Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Patani Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「南岛语系」"
+    },
+    {
+      "key": "People's Democratic Republic of Algeria",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "法语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Phayao Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "老挝语 应为「壮侗语系」，当前「壮侗语族」"
+    },
+    {
+      "key": "Philippines",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "他加禄语 应为「南岛语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Philistia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Phoenicia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Phoenicia",
+      "rule": "duplicate-record",
+      "severity": "warn",
+      "detail": "与 Colonies in antiquity 完全相同"
+    },
+    {
+      "key": "Phoenician Colonies",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Phoenician Colonies",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Pinya Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Pontianak Sultanate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Portuguese Africa",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Portuguese Ceylon",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Portuguese Colonies",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "马来语 应为「南岛语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Portuguese Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Powys Fadog",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Principality of Antioch",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Principality of Iberia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "亚美尼亚语 应为「印欧语系」，当前「高加索语系」"
+    },
+    {
+      "key": "Principality of Iberia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「高加索语系」"
+    },
+    {
+      "key": "Principality of Mingrelia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "亚美尼亚语 应为「印欧语系」，当前「高加索语系」"
+    },
+    {
+      "key": "Principality of Transylvania",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「罗曼语族」"
+    },
+    {
+      "key": "Principality of Transylvania (1570-1711)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Principality of Upper Hungary",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Provisional Priamurye Government",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "日语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Qajar dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Qara Khitai",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Qara Qoyunlu",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "土库曼语 应为「突厥语族」，当前「印欧语系」"
+    },
+    {
+      "key": "Qara Qoyunlu",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Qarlugs",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Qasim Khanate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "俄语 应为「印欧语系」，当前「突厥语系」"
+    },
+    {
+      "key": "Qing dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「通古斯语族」"
+    },
+    {
+      "key": "Qing dynasty",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "蒙古语 的语系有争议，当前写「通古斯语族」"
+    },
+    {
+      "key": "Qocho",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「突厥语系」"
+    },
+    {
+      "key": "Raj of Sarawak",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "马来语 应为「南岛语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Rajahnate of Cebu",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "西班牙语 应为「印欧语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Ramadanid Emirate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "土库曼语 应为「突厥语族」，当前「闪含语系」"
+    },
+    {
+      "key": "Ramadanid Emirate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Regency of Algiers",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "法语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Regency of Algiers",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "意大利语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Republic of China (1912-1949)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「汉藏语系」"
+    },
+    {
+      "key": "Republic of Hawai'i",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "夏威夷语 应为「南岛语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Republic of Hawai'i",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "日语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Republic of Hawaii",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "夏威夷语 应为「南岛语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Republic of Korea",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "韩语 的语系有争议，当前写「汉藏语系」"
+    },
+    {
+      "key": "Republic of Korea",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "韩语 的语系有争议，当前写「汉藏语系」"
+    },
+    {
+      "key": "Republic of the Niger",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "豪萨语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Republic of the Niger",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Republic of the Philippines",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "他加禄语 应为「南岛语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Republic of Uryankhay",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "蒙古语 的语系有争议，当前写「蒙古语族」"
+    },
+    {
+      "key": "Republic of Uryankhay",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "蒙古语 的语系有争议，当前写「蒙古语族」"
+    },
+    {
+      "key": "Rouran Khaganate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Rouran Khaganate",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Rugiland",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Rwanda",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "法语 应为「印欧语系」，当前「尼罗-撒哈拉语系」"
+    },
+    {
+      "key": "Ryukyu Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Ryukyu Kingdom",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "日语 的语系有争议，当前写「南岛语系」"
+    },
+    {
+      "key": "Saffarid dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Sagaing Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "缅甸语 应为「汉藏语系」，当前「南亚语系」"
+    },
+    {
+      "key": "Sajid dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Sajid dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "亚美尼亚语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Samtskhe-Saatabago",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "亚美尼亚语 应为「印欧语系」，当前「高加索语系」"
+    },
+    {
+      "key": "Samtskhe-Saatabago",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "土耳其语 应为「突厥语族」，当前「高加索语系」"
+    },
+    {
+      "key": "Samudera Pasai Sultanate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "马来语 应为「南岛语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Samudera Pasai Sultanate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "爪哇语 应为「南岛语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Sarukhanids",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Sarukhanids",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Sasanian Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉姆语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Saxons",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Scramble for Africa",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Scythia",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Scythians",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Seleucid dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉姆语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Seleucid Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉姆语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Seljuk dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Seljuk Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Sengoku period",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "日语 的语系有争议，当前写「汉藏语系」"
+    },
+    {
+      "key": "Sengoku period",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "日语 的语系有争议，当前写「汉藏语系」"
+    },
+    {
+      "key": "Shaybanids",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Shaybanids",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Shunten dynasty",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "日语 的语系有争议，当前写「南岛语系」"
+    },
+    {
+      "key": "Sigismund, Holy Roman Emperor",
+      "rule": "duplicate-record",
+      "severity": "warn",
+      "detail": "与 Charles V, Holy Roman Emperor 完全相同"
+    },
+    {
+      "key": "Singhasari",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "梵语 应为「印欧语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Slovakia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「斯拉夫语族」"
+    },
+    {
+      "key": "Small Horde",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Song dynasty",
+      "rule": "duplicate-record",
+      "severity": "warn",
+      "detail": "与 Liu Song dynasty 完全相同"
+    },
+    {
+      "key": "South Africa",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "祖鲁语 应为「尼日尔-刚果语系」，当前「印欧语系」"
+    },
+    {
+      "key": "South Korea",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "韩语 的语系有争议，当前写「汉藏语系」"
+    },
+    {
+      "key": "South Korea",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "韩语 的语系有争议，当前写「汉藏语系」"
+    },
+    {
+      "key": "South Vietnam",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「南亚语系」"
+    },
+    {
+      "key": "Southern Xiongnu",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Spanish Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Spanish Nationalists",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Sri Lanka",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Srivijaya",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "马来语 应为「南岛语系」，当前「印欧语系」"
+    },
+    {
+      "key": "State of Israel",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Sudan",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Sukhothai Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "高棉语 应为「南亚语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Sultan",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "马来语 应为「南岛语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Sultan of Yogyakarta",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "爪哇语 应为「南岛语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Sultanate of Banjar",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "马来语 应为「南岛语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Sultanate of Banjar",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "爪哇语 应为「南岛语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Sultanate of Banten",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "马来语 应为「南岛语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Sultanate of Bengal",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Sultanate of Bima",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "马来语 应为「南岛语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Sultanate of Bima",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "爪哇语 应为「南岛语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Sultanate of Cirebon",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "爪哇语 应为「南岛语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Sultanate of Cirebon",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "马来语 应为「南岛语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Sultanate of Gowa",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "马来语 应为「南岛语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Sultanate of Gowa",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "爪哇语 应为「南岛语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Sultanate of Maguindanao",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "马来语 应为「南岛语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Sultanate of Malacca",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Sultanate of Rum",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Sultanate of Sambaliung",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "马来语 应为「南岛语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Sultanate of Sulu",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "马来语 应为「南岛语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Sultanate of Zanzibar",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "斯瓦希里语 应为「尼日尔-刚果语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Swaziland",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "祖鲁语 应为「尼日尔-刚果语系」，当前「南索托语族」"
+    },
+    {
+      "key": "Switzerland",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "德语 应为「印欧语系」，当前「」"
+    },
+    {
+      "key": "Switzerland",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "法语 应为「印欧语系」，当前「」"
+    },
+    {
+      "key": "Switzerland",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "意大利语 应为「印欧语系」，当前「」"
+    },
+    {
+      "key": "Syrmia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Taebong",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Taifa",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "西班牙语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Taifa of Algeciras",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "西班牙语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Taifa of Almería",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Taifa of Badajoz",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Taifa of Córdoba",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "西班牙语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Taifa of Dénia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Taifa of Niebla",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "西班牙语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Taifa of Ronda",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "西班牙语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Taifa of Seville",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "西班牙语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Taifa of Silves",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Taifa of Toledo",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Taifa of Toledo",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "西班牙语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Taifa of Valencia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Taifa of Zaragoza",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Tamna",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Tangier International Zone",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Tanjungpura Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Tanjungpura Kingdom",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Tanzania",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "斯瓦希里语 应为「尼日尔-刚果语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Tây Sơn dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "越南语 应为「南亚语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Tây Sơn dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Tây Sơn dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "高棉语 应为「南亚语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Teotihuacan",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "纳瓦特尔语 应为「犹他-阿兹特克语系」，当前「美洲原住民语系」"
+    },
+    {
+      "key": "Thanjavur Maratha Kingdom",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Thanjavur Maratha Kingdom",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印欧语系」"
+    },
+    {
+      "key": "Thanjavur Nayak kingdom",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印度-雅利安语系」"
+    },
+    {
+      "key": "Thanjavur Nayak kingdom",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "泰米尔语 的语系有争议，当前写「印度-雅利安语系」"
+    },
+    {
+      "key": "Thuringian states",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Tibet",
+      "rule": "duplicate-record",
+      "severity": "warn",
+      "detail": "与 History of Tibet 完全相同"
+    },
+    {
+      "key": "Tibetan Empire",
+      "rule": "duplicate-record",
+      "severity": "warn",
+      "detail": "与 History of Tibet 完全相同"
+    },
+    {
+      "key": "Tibetan people",
+      "rule": "duplicate-record",
+      "severity": "warn",
+      "detail": "与 History of Tibet 完全相同"
+    },
+    {
+      "key": "Tibetans",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "梵语 应为「印欧语系」，当前「汉藏语系」"
+    },
+    {
+      "key": "Timurid Empire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系、阿尔泰语系」"
+    },
+    {
+      "key": "Toltec",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "玛雅语 应为「玛雅语系」，当前「犹他-阿兹特克语系」"
+    },
+    {
+      "key": "Trucial States",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Tumed",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Tumed",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "藏语 应为「汉藏语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Tümed",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Turk",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Turk Shahis",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「突厥语系」"
+    },
+    {
+      "key": "Turkish Republic of Northern Cyprus",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Turkish Republic of Northern Cyprus",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "希腊语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Turkmenistan",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "俄语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Turks",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Uganda",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "斯瓦希里语 应为「尼日尔-刚果语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Umayyad Caliphate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "拉丁语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Umayyad Caliphate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "Unified Silla",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Union of Hungary and Poland",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Union of Myanmar",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「汉藏语系」"
+    },
+    {
+      "key": "United Arab Emirates",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "英语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "United Arab Emirates",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「亚非语系」"
+    },
+    {
+      "key": "United Principalities of Moldavia and Wallachia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「罗曼语族」"
+    },
+    {
+      "key": "Uryankhay Republic",
+      "rule": "language-family-contested",
+      "severity": "warn",
+      "detail": "蒙古语 的语系有争议，当前写「蒙古语族」"
+    },
+    {
+      "key": "Uryankhay Republic",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "俄语 应为「印欧语系」，当前「蒙古语族」"
+    },
+    {
+      "key": "Uyghur Khaganate",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「突厥语系」"
+    },
+    {
+      "key": "Uzbekistan",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "俄语 应为「印欧语系」，当前「突厥语族」"
+    },
+    {
+      "key": "Vientiane",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「壮侗语系」"
+    },
+    {
+      "key": "Vietnam",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Vietnam",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "泰语 应为「壮侗语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Viking City-States",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Vladislaus II of Hungary",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Wallachia",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "匈牙利语 应为「乌拉尔语系」，当前「罗曼语族」"
+    },
+    {
+      "key": "Water Chenla",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "梵语 应为「印欧语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Western Göktürks",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Western Moghulistan",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「突厥语系」"
+    },
+    {
+      "key": "Western Roman Empire",
+      "rule": "duplicate-record",
+      "severity": "warn",
+      "detail": "与 Foreign relations of the Eastern Roman Empire 完全相同"
+    },
+    {
+      "key": "White Huns",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Xianbei",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Xiongnu",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Xionites",
+      "rule": "missing-field",
+      "severity": "warn",
+      "detail": "capital 为空"
+    },
+    {
+      "key": "Yenisei Kyrgyz",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Yuan dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Yuan dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「阿尔泰语系」"
+    },
+    {
+      "key": "Yue (state)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "汉语 应为「汉藏语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Yue (state)",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "吴语 应为「汉藏语系」，当前「南岛语系」"
+    },
+    {
+      "key": "Zaire",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "斯瓦希里语 应为「尼日尔-刚果语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Zand dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "阿拉伯语 应为「亚非语系」，当前「印欧语系」"
+    },
+    {
+      "key": "Zapotec civilization",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "纳瓦特尔语 应为「犹他-阿兹特克语系」，当前「美洲原住民语系」"
+    },
+    {
+      "key": "Zaydi Alid dynasties",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "波斯语 应为「印欧语系」，当前「闪含语系」"
+    },
+    {
+      "key": "Zengid dynasty",
+      "rule": "language-family-wrong",
+      "severity": "warn",
+      "detail": "库尔德语 应为「印欧语系」，当前「亚非语系」"
+    }
+  ]
+}

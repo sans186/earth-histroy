@@ -1,22 +1,51 @@
 """
-Translate remaining English event JSON files to Chinese using DeepSeek API.
-Uses environment variable ANTHROPIC_API_KEY (routes through DeepSeek).
-Uses deepseek-chat model ("flash", not pro).
+Translate the English event JSON files to Chinese using the DeepSeek API.
+
+Credentials come from the repository `.env` file (`DEEPSEEK_API_KEY`).
+
+They are deliberately NOT read from the ambient environment. An earlier version
+used ANTHROPIC_API_KEY, which in this workspace belongs to the IDE rather than
+to the project — so the script only ever ran on the machine that happened to
+have that variable set, and would silently fail everywhere else.
+
+Usage:
+    python scripts/translate/translate_events.py
 """
 
 import os
 import sys
 import json
 import time
+from pathlib import Path
+
 import requests
 
-API_KEY = os.environ.get("ANTHROPIC_API_KEY")
+
+def load_env():
+    """Populate os.environ from the repository .env, without overwriting."""
+    env_path = Path(__file__).resolve().parents[2] / ".env"
+    if not env_path.exists():
+        return
+    for raw in env_path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, value = line.partition("=")
+        key = key.strip()
+        value = value.strip().strip('"').strip("'")
+        if key and key not in os.environ:
+            os.environ[key] = value
+
+
+load_env()
+
+API_KEY = os.environ.get("DEEPSEEK_API_KEY")
 if not API_KEY:
-    print("ERROR: ANTHROPIC_API_KEY environment variable not set")
+    print("ERROR: DEEPSEEK_API_KEY is not set. Add it to .env (see .env.example).")
     sys.exit(1)
 
-API_BASE = "https://api.deepseek.com/v1"
-MODEL = "deepseek-chat"  # "flash" equivalent
+API_BASE = os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com/v1")
+MODEL = os.environ.get("TRANSLATE_MODEL", "deepseek-chat")
 
 def translate_json(filepath):
     with open(filepath, "r", encoding="utf-8") as f:

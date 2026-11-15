@@ -23,7 +23,6 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
 const P = (...parts) => join(ROOT, ...parts);
 
 const API = 'https://open.bigmodel.cn/api/paas/v4/chat/completions';
-const MODEL = 'glm-4-flash';
 
 const args = new Map(
   process.argv.slice(2).map((arg) => {
@@ -35,6 +34,8 @@ const task = args.get('task');
 const limit = Number(args.get('limit') ?? 0) || Infinity;
 const dryRun = args.get('dry-run') === 'true';
 const concurrency = Math.max(1, Number(args.get('concurrency') ?? 3) || 3);
+/** Long-form overviews need a model that actually writes them; flash is terse. */
+const MODEL = args.get('model') ?? 'glm-4-flash';
 
 /* ── plumbing ───────────────────────────────────────────────────────────── */
 
@@ -651,6 +652,250 @@ async function translateEvents() {
   console.log(`translate: wrote ${num(written)}`);
 }
 
+/* ── task: polity overviews ─────────────────────────────────────────────── */
+
+/**
+ * Fills `polity_descriptions.json` for polities that have no Chinese overview.
+ *
+ * The card renders nothing at all when a polity is missing here, and about a
+ * third of the Cliopatria names are (mostly the small Warring-States and
+ * dynastic fragments). Writes are additive: an existing non-empty extract is
+ * never replaced, so a bad batch can only add, never damage.
+ */
+function nameCores(raw) {
+  const base = String(raw).trim();
+  const stripped = base
+    .replace(/^the\s+/i, '')
+    .replace(
+      /^(republic|kingdom|empire|sultanate|khanate|caliphate|principality|duchy|grand duchy|tsardom|confederation|commonwealth)\s+of\s+/i,
+      '',
+    )
+    .replace(/\s+(dynasty|empire|kingdom|republic|caliphate|sultanate|khanate)$/i, '');
+  return [...new Set([base, stripped].filter(Boolean))];
+}
+
+/** Pushes every coordinate pair of a geometry into `box`. */
+function growBox(box, geometry) {
+  if (!geometry) return;
+  const walk = (node) => {
+    if (typeof node[0] === 'number') {
+      const [lon, lat] = node;
+      if (!Number.isFinite(lon) || !Number.isFinite(lat)) return;
+      box.minLon = Math.min(box.minLon, lon);
+      box.maxLon = Math.max(box.maxLon, lon);
+      box.minLat = Math.min(box.minLat, lat);
+      box.maxLat = Math.max(box.maxLat, lat);
+      return;
+    }
+    for (const child of node) walk(child);
+  };
+  if (geometry.coordinates) walk(geometry.coordinates);
+}
+
+/** Every distinct polity name in the century files, with span and rough centre. */
+function collectPolities() {
+  const dir = P('public/ne/polities');
+  const seen = new Map();
+  for (const file of readdirSync(dir).filter((f) => f.endsWith('.json') && f !== 'index.json')) {
+    const doc = JSON.parse(readFileSync(join(dir, file), 'utf8'));
+    for (const feature of doc.features ?? []) {
+      const props = feature.properties ?? {};
+      const name = String(props.Name ?? '').trim();
+      if (!name) continue;
+      const from = Number(props.FromYear);
+      const to = Number(props.ToYear);
+      const entry = seen.get(name) ?? {
+        name,
+        from: null,
+        to: null,
+        box: { minLon: 180, maxLon: -180, minLat: 90, maxLat: -90 },
+        wikipedia: String(props.Wikipedia ?? '').trim(),
+      };
+      if (Number.isFinite(from) && (entry.from === null || from < entry.from)) entry.from = from;
+      if (Number.isFinite(to) && (entry.to === null || to > entry.to)) entry.to = to;
+      growBox(entry.box, feature.geometry);
+      seen.set(name, entry);
+    }
+  }
+  return [...seen.values()];
+}
+
+/**
+ * A coarse location hint. Without one the model happily moves a small Indian
+ * dynasty to Sumatra — the name alone is not enough for it.
+ */
+function locate(polity) {
+  const { box } = polity;
+  if (box.minLon > box.maxLon) return '';
+  const lon = (box.minLon + box.maxLon) / 2;
+  const lat = (box.minLat + box.maxLat) / 2;
+  const latText = `${lat >= 0 ? '北纬' : '南纬'}${Math.abs(lat).toFixed(0)}°`;
+  const lonText = `${lon >= 0 ? '东经' : '西经'}${Math.abs(lon).toFixed(0)}°`;
+  return `${latText}${lonText}`;
+}
+
+/** Mirrors `findPolityDescription` in `src/services/data.ts`. */
+function hasDescription(descriptions, name) {
+  const cores = nameCores(name);
+  for (const core of cores) if (descriptions[core]?.zh?.extract) return true;
+  const lowered = new Set(cores.map((c) => c.toLowerCase()));
+  return Object.entries(descriptions).some(
+    ([key, value]) => lowered.has(key.toLowerCase()) && value?.zh?.extract,
+  );
+}
+
+/**
+ * The example is deliberately fictional.
+ *
+ * A real one ("Han" → 汉朝) was copied verbatim into unrelated entries — the
+ * model happily described an 11th-century Indian dynasty as the Han dynasty —
+ * and it also made the Warring-States state 韩 look like 汉. A made-up polity
+ * teaches length and structure without planting a name to leak.
+ */
+const POLITY_PROMPT = `你是历史地理百科编辑。为下列历史政体各写一段"总体介绍"，供地图卡片显示。
+
+下面是一个虚构示例，仅示范篇幅与写法。禁止照抄，禁止把示例里的名称、地点、事件写进任何条目：
+{"1":{"title":"示例国","extract":"示例国（前300—前120年）位于示例半岛东岸，是当地若干城邦联合而成的商业政权，以港口贸易与海上转运为经济基础。其政体为贵族共和，由长老会议推举执政，军事上依赖雇佣舰队，与周边帝国长期维持朝贡与互市并存的关系。前150年前后因内乱与外部入侵而分裂，最终被邻国吞并。它留下的海商法与度量衡体系被后来的地方王朝沿用。"}}
+
+硬性要求：
+- 每段 140-200 个汉字，篇幅必须接近示例，短于 140 字视为不合格
+- 单段连续文字，不分段、不用 Markdown、不用列表
+- 依次写清：存在时间与大致地域、政体性质与统治形态、关键事件或兴衰脉络、历史影响
+- 开头直接写该政体的中文名，不要用英文名开头，也不要复述坐标、"维基条目"这类提示信息
+- 年代与括号内给出的起止年一致，不要写成别的时代
+- 地名以括号内的坐标为准，不要把地理位置挪到别的地区
+- 若对该名称所指的政权没有把握，就按坐标与年代写其地域、经济与政体形态的一般描述，绝不套用另一个已知王朝的名字
+- 只写通行史实；不确定的细节宁可省略，不要编造人口、面积、兵力等具体数字
+- 不要出现"本条目""以下""总之"这类编辑口吻，直接从史实写起
+- title 写该政体的通行中文名（如 "(Chu)" 写"楚国"）
+
+输出 JSON 对象（键用条目编号，不要回写政体名称）：
+{"1": {"title":"中文名","extract":"介绍文字"}, "2": null}
+确实无法确定的政体，该编号返回 null，不要猜测。`;
+
+/** `-291` → `前291`, for the span hint handed to the model. */
+const fmtYear = (year) => (year === null ? '?' : year < 0 ? `前${-year}` : String(year));
+
+function cleanExtract(value) {
+  return String(value ?? '')
+    // The prompt's own hints ("…年，势力范围中心约在…"、"英文维基条目 …") come
+    // back inside the text often enough that stripping them is part of parsing.
+    .replace(/，势力范围中心约在[^）]*/g, '')
+    .replace(/势力范围中心约在[^，。]*，/g, '')
+    .replace(/势力范围中心约在[^，。]*/g, '')
+    .replace(/，?英文维基条目[^）]*/g, '')
+    .replace(/，?通行中文名[^）]*/g, '')
+    .replace(/（\s*）/, '')
+    .replace(/\s+/g, ' ')
+    .replace(/^["“]|["”]$/g, '')
+    .trim();
+}
+
+async function polityDescriptions() {
+  const doc = readDoc(P('public/ne/polity_descriptions.json'));
+  // The project already ships a Chinese name for almost every polity; handing
+  // it over is what keeps 弁韩 from being answered as 百济.
+  const namesZh = JSON.parse(readFileSync(P('public/ne/polity_names_zh.json'), 'utf8'));
+  const all = collectPolities();
+  const only = (args.get('only') ?? '')
+    .split(',')
+    .map((s) => s.trim())
+    .filter(Boolean);
+  const missing = all.filter(
+    (polity) =>
+      !hasDescription(doc.data, polity.name) &&
+      (!only.length || only.some((needle) => polity.name.includes(needle))),
+  );
+  console.log(
+    `polity descriptions: ${num(all.length)} polities, ${num(missing.length)} to write`,
+  );
+
+  const batchSize = Math.max(1, Number(args.get('batch') ?? 4) || 4);
+  const batches = [];
+  for (let i = 0; i < missing.length; i += batchSize) {
+    batches.push(missing.slice(i, i + batchSize));
+  }
+
+  let budget = limit;
+  let written = 0;
+
+  await pool(batches, async (batch) => {
+    if (budget <= 0) return;
+    budget -= batch.length;
+
+    const lines = batch.map((polity, i) => {
+      const span =
+        polity.from === null && polity.to === null
+          ? '年代不详'
+          : `${fmtYear(polity.from)}—${fmtYear(polity.to)}年`;
+      const where = locate(polity);
+      /*
+       * Two disambiguation hints. The geometry stops the model relocating a
+       * polity to another continent; the Wikipedia article title is what tells
+       * a Warring-States 韩 apart from 汉 or from the Korean 韩.
+       */
+      const hint = where ? `，势力范围中心约在${where}` : '';
+      const article =
+        polity.wikipedia && polity.wikipedia.toLowerCase() !== polity.name.toLowerCase()
+          ? `，英文维基条目 “${polity.wikipedia}”`
+          : '';
+      const zhName = namesZh[polity.name];
+      const nameHint = zhName ? `，通行中文名“${zhName}”` : '';
+      return `${i + 1}. ${polity.name}（${span}${hint}${article}${nameHint}）`;
+    });
+    const prompt = `${POLITY_PROMPT}\n\n${lines.join('\n')}`;
+
+    try {
+      const reply = await chat([{ role: 'user', content: prompt }], { temperature: 0.3 });
+      const parsed = parseJson(reply);
+      const touched = [];
+
+      /*
+       * Answers come back keyed by list number, not by name: the leftover names
+       * are long compound ones ("(Personal union of Kingdom of Poland with
+       * Kingdom of Hungary)"), and echoing them produced malformed JSON that
+       * lost the whole batch.
+       */
+      for (const [key, value] of Object.entries(parsed ?? {})) {
+        const polity = batch[Number(key) - 1];
+        if (!polity || !value) continue;
+        const rawName = polity.name;
+        const extract = cleanExtract(value.extract);
+        if (dryRun) console.log(`    ${rawName} (${extract.length}): ${extract.slice(0, 70)}…`);
+        // A short answer is a refusal dressed up as content; skip it rather than
+        // writing a one-line stub into the card.
+        if (extract.length < 110) continue;
+        if (!/[\u4e00-\u9fa5]/.test(extract)) continue;
+        // Example text leaking into an entry means the model ignored the source
+        // line, so the rest of that answer cannot be trusted either.
+        if (/示例|Exampleia/.test(extract)) continue;
+
+        doc.data[rawName] = {
+          name: rawName,
+          from: polity.from ?? 0,
+          to: polity.to ?? 0,
+          zh: {
+            title: String(value.title ?? rawName).trim() || rawName,
+            extract,
+            thumbnail: null,
+          },
+        };
+        touched.push(`${rawName} (${extract.length})`);
+      }
+
+      if (touched.length) {
+        console.log(`  + ${touched.join(', ')}`);
+        written += touched.length;
+        if (!dryRun) writeDoc(doc);
+      }
+    } catch (err) {
+      console.warn(`  ! batch "${batch[0].name}…": ${err.message}`);
+    }
+  });
+
+  console.log(`polity descriptions: filled ${num(written)}`);
+}
+
 /* ── entry ──────────────────────────────────────────────────────────────── */
 
 const tasks = {
@@ -658,6 +903,7 @@ const tasks = {
   'event-coords': eventCoords,
   'translate-events': translateEvents,
   people: () => people(Number.isFinite(limit) ? limit : 12),
+  'polity-desc': polityDescriptions,
 };
 
 if (!tasks[task]) {

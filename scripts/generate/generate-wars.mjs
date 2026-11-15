@@ -27,11 +27,16 @@
  *   node scripts/generate/generate-wars.mjs --only 祖鲁战争
  *   node scripts/generate/generate-wars.mjs --limit 2
  *   node scripts/generate/generate-wars.mjs                 # all missing
- *   node scripts/generate/generate-wars.mjs --rebuild-index  # index only
+ *   node scripts/generate/generate-wars.mjs --rebuild-index
+ *       Rebuild the index from the profiles, and recompute every theatre
+ *       centroid from that profile's recorded battle coordinates.
  *   node scripts/generate/generate-wars.mjs --backfill-locations
- *       Ask the model for a theatre centroid for every war that lacks one.
- *       war_locations.json predates this script and only covered the modern
- *       wars, so about half the index had no position until this runs.
+ *       Ask the model for a theatre centroid for the wars that have neither
+ *       battle coordinates nor a stored position. Only useful for the handful
+ *       of profiles whose battles carry no coordinates.
+ *
+ *   ZHIPU_MODEL=glm-4-flash-250414 sets the Zhipu model; without it the script
+ *   asks for glm-4-plus, which the free-tier keys reject with code 1113.
  */
 
 import {
@@ -81,6 +86,14 @@ if (existsSync(ENV_PATH)) {
  */
 const API_POOL = [];
 
+/**
+ * Zhipu's paid models are routinely out of credit (code 1113) on these keys,
+ * which takes every one of them out of the rotation on the first call. The
+ * model is therefore overridable — `ZHIPU_MODEL=glm-4-flash-250414` for the
+ * accounts that only have the free tier.
+ */
+const ZHIPU_MODEL = process.env.ZHIPU_MODEL || 'glm-4-plus';
+
 for (const key of [
   'ZHIPU_API_KEY_1',
   'ZHIPU_API_KEY_2',
@@ -93,7 +106,7 @@ for (const key of [
       name: key,
       url: 'https://open.bigmodel.cn/api/paas/v4/chat/completions',
       key: process.env[key],
-      model: 'glm-4-plus',
+      model: ZHIPU_MODEL,
       disabled: false,
     });
   }
@@ -219,17 +232,49 @@ function battleCountOf(doc) {
 }
 
 /**
- * `war_locations.json` predates this script and only covers the modern wars
- * (48 of 89). It is therefore treated as additive: existing entries are kept,
- * anything a profile declares is layered on top, and battle counts are refreshed
- * from the profiles so the two files cannot drift.
+ * Theatre centroid derived from the battles the profile records.
+ *
+ * Battle coordinates are the only positions in this dataset that came from a
+ * record rather than a guess, and 84 of 94 profiles carry them. The median is
+ * taken per axis so that one far-flung naval engagement cannot drag a land
+ * campaign into the sea.
+ */
+function centroidFromBattles(doc) {
+  const battles = [
+    ...(doc.warProcess?.phases ?? []).flatMap((phase) => phase.battles ?? []),
+    ...(Array.isArray(doc.warProcess?.majorBattles) ? doc.warProcess.majorBattles : []),
+  ];
+  const points = battles
+    .filter((b) => Array.isArray(b.coords) && b.coords.length >= 2)
+    .map((b) => ({ lon: Number(b.coords[0]), lat: Number(b.coords[1]) }))
+    .filter((p) => validCentroid(p));
+
+  if (!points.length) return null;
+
+  const median = (values) => {
+    const sorted = [...values].sort((a, b) => a - b);
+    const mid = sorted.length >> 1;
+    return sorted.length % 2 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
+  };
+  return {
+    lon: Number(median(points.map((p) => p.lon)).toFixed(4)),
+    lat: Number(median(points.map((p) => p.lat)).toFixed(4)),
+  };
+}
+
+/**
+ * `war_locations.json` predates this script; its 48 original entries were model
+ * guesses and several sat in open ocean (the Pacific War's was off Yemen). A
+ * centroid derived from recorded battles therefore wins over anything already
+ * stored or declared. Only wars with no battle coordinates keep their value,
+ * and only those need `--backfill-locations`.
  */
 function rebuildLocations() {
   const existing = readLocations();
   const next = { ...existing };
 
   for (const doc of existingProfiles()) {
-    const centroid = validCentroid(doc.theatreCentroid);
+    const centroid = centroidFromBattles(doc) ?? validCentroid(doc.theatreCentroid);
     const battles = battleCountOf(doc);
     if (centroid) {
       next[doc.warId] = { lon: centroid.lon, lat: centroid.lat, battles };

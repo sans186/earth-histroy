@@ -1,0 +1,8 @@
+{
+  "_readme": "官方公布面积（km²）覆盖值。展出的 Area 默认来自 Cliopatria 边界多边形的几何面积，它与各国官方数字并不一致（中国：几何 939.98 万，官方 959.7 万）。此处按政体名（tile 里的 Name）覆盖，并记录来源；没有列出的政体继续用几何面积并在界面上注明。",
+  "People's Republic of China": {
+    "area": 9596961,
+    "source": "https://zh.wikipedia.org/wiki/中华人民共和国",
+    "note": "官方公布的陆地面积约 960 万平方公里；Cliopatria 多边形因边界争议区与制图综合偏小"
+  }
+}

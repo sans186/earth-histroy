@@ -1,242 +1,472 @@
 {
-  "afghan_war": {
-    "lon": 64.7,
-    "lat": 32.2,
+  "八国联军侵华战争": {
+    "lon": 116.7,
+    "lat": 39.5,
+    "battles": 5
+  },
+  "科索沃战争": {
+    "lon": 21.05,
+    "lat": 42.67,
+    "battles": 5
+  },
+  "六日战争": {
+    "lon": 35,
+    "lat": 31.85,
     "battles": 4
   },
+  "叙利亚内战": {
+    "lon": 37.5335,
+    "lat": 35.9533,
+    "battles": 12
+  },
+  "中越战争": {
+    "lon": 106.2,
+    "lat": 22.1,
+    "battles": 5
+  },
+  "afghan_war": {
+    "lon": 63.95,
+    "lat": 31.6,
+    "battles": 4
+  },
+  "alexanders-conquests": {
+    "lon": 44.5,
+    "lat": 34.5,
+    "battles": 8
+  },
   "algerian-war-of-independence": {
-    "lon": 3.58,
-    "lat": 36.94,
+    "lon": 3.0588,
+    "lat": 36.7333,
     "battles": 15
   },
   "american-civil-war": {
-    "lon": -82.02,
-    "lat": 36.66,
+    "lon": -78.49,
+    "lat": 37.38,
     "battles": 11
   },
   "american-revolutionary-war": {
-    "lon": -61.76,
-    "lat": 28.03,
+    "lon": -73.629,
+    "lat": 40.357,
     "battles": 9
   },
   "anglo-boer-war": {
-    "lon": 28.06,
-    "lat": -28.69,
+    "lon": 29.7667,
+    "lat": -28.5333,
     "battles": 5
   },
+  "anglo-dutch-wars": {
+    "lon": 1.8665,
+    "lat": 52.05,
+    "battles": 18
+  },
   "anglo-french-hundred-years-war": {
-    "lon": 1.66,
-    "lat": 48.9,
-    "battles": 15
+    "lon": 1.86,
+    "lat": 48.6,
+    "battles": 17
+  },
+  "anglo-zulu-war": {
+    "lon": 30.45,
+    "lat": -28.52,
+    "battles": 4
+  },
+  "angolan_civil_war": {
+    "lon": 15.7499,
+    "lat": -12.6333,
+    "battles": 13
+  },
+  "arab-conquests": {
+    "lon": 35.85,
+    "lat": 32.95,
+    "battles": 17
+  },
+  "bangladesh-independence-war": {
+    "lon": 90.3563,
+    "lat": 23.685,
+    "battles": 4
   },
   "bosnian_war": {
-    "lon": 18.37,
-    "lat": 44.21,
+    "lon": 18.4131,
+    "lat": 44.2667,
+    "battles": 9
+  },
+  "byzantine-ottoman-wars": {
+    "lon": 29.0833,
+    "lat": 40.8167,
+    "battles": 14
+  },
+  "byzantine-sasanian_war": {
+    "lon": 35.7176,
+    "lat": 35.8284,
+    "battles": 12
+  },
+  "chaco_war": {
+    "lon": -62.3,
+    "lat": -22,
     "battles": 9
   },
   "crimean_war": {
-    "lon": 29.99,
-    "lat": 45.0,
+    "lon": 33.4525,
+    "lat": 44.505,
     "battles": 8
   },
+  "croatian-war-of-independence": {
+    "lon": 18.4064,
+    "lat": 45.3333,
+    "battles": 5
+  },
   "crusades": {
-    "lon": 34.1,
-    "lat": 34.18,
+    "lon": 35.3833,
+    "lat": 32.9306,
+    "battles": 10
+  },
+  "cuban_revolution": {
+    "lon": -78.4,
+    "lat": 21.2,
+    "battles": 14
+  },
+  "eighty-years-war": {
+    "lon": 4.65,
+    "lat": 52.16,
+    "battles": 5
+  },
+  "english-civil-war": {
+    "lon": -1.9583,
+    "lat": 52.6583,
+    "battles": 8
+  },
+  "ethiopian_wars": {
+    "lon": 39.275,
+    "lat": 9.405,
     "battles": 10
   },
   "falklands-war": {
     "lon": -57.85,
-    "lat": -51.63,
+    "lat": -51.65,
     "battles": 5
   },
+  "finnish_civil_war": {
+    "lon": 25.2938,
+    "lat": 60.8411,
+    "battles": 4
+  },
   "first-balkan-war": {
-    "lon": 23.88,
-    "lat": 41.61,
+    "lon": 22.2,
+    "lat": 41.9,
     "battles": 5
   },
   "franco-prussian-war": {
-    "lon": 7.33,
-    "lat": 49.08,
+    "lon": 7.35,
+    "lat": 49.1,
+    "battles": 4
+  },
+  "french_wars_of_religion": {
+    "lon": 2.3,
+    "lat": 48.856,
+    "battles": 13
+  },
+  "great_northern_war": {
+    "lon": 21.1,
+    "lat": 55.08,
+    "battles": 10
+  },
+  "greco-persian-wars": {
+    "lon": 23.325,
+    "lat": 38.2083,
     "battles": 4
   },
   "greek_civil_war": {
-    "lon": 22.11,
-    "lat": 39.92,
+    "lon": 21.85,
+    "lat": 40.2,
     "battles": 8
   },
   "gulf-war": {
-    "lon": 42.89,
-    "lat": 34.14,
+    "lon": 47.3916,
+    "lat": 29.8,
     "battles": 12
   },
+  "haitian_revolution": {
+    "lon": -72.3417,
+    "lat": 19.3666,
+    "battles": 10
+  },
+  "hussite_wars": {
+    "lon": 14.925,
+    "lat": 50.0627,
+    "battles": 14
+  },
+  "imjin_war": {
+    "lon": 127.6667,
+    "lat": 35.1667,
+    "battles": 9
+  },
   "india-pakistan_wars": {
-    "lon": 77.14,
-    "lat": 29.73,
-    "battles": 11
+    "lon": 75,
+    "lat": 30.8,
+    "battles": 17
+  },
+  "indonesian-national-revolution": {
+    "lon": 110,
+    "lat": -7,
+    "battles": 9
   },
   "iran-iraq-war": {
-    "lon": 47.5,
-    "lat": 32.5,
+    "lon": 47.8,
+    "lat": 31.5,
     "battles": 15
   },
   "iraq-war": {
-    "lon": 43.05,
-    "lat": 35.01,
+    "lon": 44.04,
+    "lat": 33.35,
     "battles": 13
   },
   "israel-gaza-conflict": {
-    "lon": 34.43,
-    "lat": 31.38,
+    "lon": 34.4705,
+    "lat": 31.3547,
     "battles": 4
   },
+  "italian-turkish_war": {
+    "lon": 12.1333,
+    "lat": 32.8752,
+    "battles": 5
+  },
+  "italian-wars-of-independence": {
+    "lon": 10.75,
+    "lat": 45.3333,
+    "battles": 14
+  },
   "korean-war": {
-    "lon": 117.52,
-    "lat": 38.02,
+    "lon": 126.9774,
+    "lat": 37.9167,
     "battles": 9
   },
   "libyan-civil-war": {
-    "lon": 14.45,
-    "lat": 31.59,
+    "lon": 14.0435,
+    "lat": 32.55,
     "battles": 10
   },
+  "mexican-american-war": {
+    "lon": -99.1332,
+    "lat": 19.4326,
+    "battles": 5
+  },
+  "mexican-revolution": {
+    "lon": -100.7862,
+    "lat": 20.5213,
+    "battles": 8
+  },
   "mongol_western_campaigns": {
-    "lon": 65.0,
-    "lat": 42.0,
+    "lon": 44.3661,
+    "lat": 34.7333,
     "battles": 9
   },
   "nagorno-karabakh-war": {
-    "lon": 45.43,
-    "lat": 39.87,
-    "battles": 14
+    "lon": 47.08,
+    "lat": 39.79,
+    "battles": 9
   },
   "napoleonic-wars": {
-    "lon": 14.21,
-    "lat": 46.03,
+    "lon": 11.979,
+    "lat": 49.5375,
     "battles": 12
   },
+  "nigerian-civil-war": {
+    "lon": 7.5,
+    "lat": 6.5,
+    "battles": 7
+  },
+  "norman-conquest-england": {
+    "lon": -0.8599,
+    "lat": 51.7216,
+    "battles": 10
+  },
   "northern-burma-campaign": {
-    "lon": 97.15,
-    "lat": 24.48,
+    "lon": 97.2,
+    "lat": 24.85,
     "battles": 4
   },
   "pacific_war": {
-    "lon": 46.77,
-    "lat": 15.3,
+    "lon": 124.7541,
+    "lat": 17.1411,
     "battles": 10
   },
+  "paraguayan-war": {
+    "lon": -57.65,
+    "lat": -25.53,
+    "battles": 9
+  },
+  "peloponnesian-war": {
+    "lon": 22.92446,
+    "lat": 37.98381,
+    "battles": 7
+  },
+  "philippine-american-war": {
+    "lon": 120.9797,
+    "lat": 14.875,
+    "battles": 9
+  },
+  "polish-soviet-war": {
+    "lon": 24.705,
+    "lat": 53.665,
+    "battles": 10
+  },
+  "punic_wars": {
+    "lon": 11.9875,
+    "lat": 37.5166,
+    "battles": 10
+  },
+  "reconquista": {
+    "lon": -3.4645,
+    "lat": 38.6365,
+    "battles": 8
+  },
+  "roman_civil_wars": {
+    "lon": 10.14,
+    "lat": 38.915,
+    "battles": 4
+  },
   "russian-civil-war": {
-    "lon": 41.97,
-    "lat": 51.87,
+    "lon": 36.2304,
+    "lat": 53.7271,
     "battles": 15
   },
   "russian-georgian-war": {
-    "lon": 42.4,
-    "lat": 42.45,
+    "lon": 42.05,
+    "lat": 42.3,
     "battles": 4
   },
   "russian-japanese-war": {
-    "lon": 122.66,
-    "lat": 40.86,
+    "lon": 123.1,
+    "lat": 41.385,
     "battles": 4
   },
+  "rwandan_civil_war": {
+    "lon": 30.0617,
+    "lat": -1.9403,
+    "battles": 9
+  },
+  "scottish_wars_of_independence": {
+    "lon": -2.75,
+    "lat": 55.955,
+    "battles": 18
+  },
+  "second_congo_war": {
+    "lon": 26.7167,
+    "lat": -1.6667,
+    "battles": 9
+  },
   "second-balkan-war": {
-    "lon": 23.75,
-    "lat": 41.42,
+    "lon": 22.75,
+    "lat": 41.43,
     "battles": 5
   },
   "seven-years-war": {
-    "lon": -13.68,
-    "lat": 44.13,
+    "lon": 11.62,
+    "lat": 50.08,
     "battles": 13
   },
   "sino-japanese-war-1894": {
-    "lon": 124.48,
-    "lat": 38,
+    "lon": 124.5,
+    "lat": 37.65,
     "battles": 4
   },
   "somali_civil_war": {
-    "lon": 44.04,
-    "lat": 2.5,
+    "lon": 44.495,
+    "lat": 2.04,
     "battles": 14
   },
   "soviet-afghan-war": {
-    "lon": 69.45,
-    "lat": 34.42,
+    "lon": 69.34,
+    "lat": 34.53,
     "battles": 4
   },
   "soviet-german-war": {
-    "lon": 31.74,
-    "lat": 52.45,
+    "lon": 36.2,
+    "lat": 52.5,
     "battles": 5
   },
   "spanish-american-war": {
-    "lon": 26.38,
-    "lat": 17.08,
+    "lon": 20.485,
+    "lat": 17.35,
     "battles": 4
   },
   "spanish-civil-war": {
-    "lon": -2.38,
-    "lat": 40.21,
+    "lon": -3.21,
+    "lat": 40.55,
     "battles": 14
   },
+  "sri_lankan_civil_war": {
+    "lon": 80.2,
+    "lat": 9.7,
+    "battles": 13
+  },
+  "taiping_rebellion": {
+    "lon": 118.79,
+    "lat": 31.39,
+    "battles": 13
+  },
   "thirty-years-war": {
-    "lon": 10.81,
-    "lat": 50.5,
+    "lon": 10.89,
+    "lat": 50.3,
     "battles": 18
   },
+  "turkish-war-of-independence": {
+    "lon": 33.4167,
+    "lat": 39.25,
+    "battles": 9
+  },
+  "uganda-tanzania-war": {
+    "lon": 33.2045,
+    "lat": -1.2827,
+    "battles": 4
+  },
   "vietnam-war": {
-    "lon": 93.55,
-    "lat": 28.16,
+    "lon": 106.7917,
+    "lat": 15.4819,
     "battles": 7
   },
+  "war-of-1812": {
+    "lon": -79.5,
+    "lat": 43,
+    "battles": 9
+  },
+  "war-of-austrian-succession": {
+    "lon": 9.925,
+    "lat": 50.35,
+    "battles": 12
+  },
   "war-of-spanish-succession": {
-    "lon": 5.88,
-    "lat": 45.29,
+    "lon": 7.68,
+    "lat": 45.0703,
     "battles": 15
   },
+  "war-of-the-pacific": {
+    "lon": -69.9165,
+    "lat": -20.608,
+    "battles": 10
+  },
+  "wars_of_the_roses": {
+    "lon": -1.4584,
+    "lat": 52.3166,
+    "battles": 8
+  },
   "winter-war": {
-    "lon": 28.3,
-    "lat": 61.98,
+    "lon": 28.5,
+    "lat": 60.9,
     "battles": 5
   },
   "world-war-i": {
-    "lon": 11.55,
-    "lat": 50.53,
+    "lon": 5.41,
+    "lat": 50.1,
     "battles": 17
   },
   "world-war-ii": {
-    "lon": 27.01,
-    "lat": 38.21,
-    "battles": 35
+    "lon": 24.8093,
+    "lat": 44.0165,
+    "battles": 33
   },
   "yemen_civil_war_houthi_conflict": {
-    "lon": 44.34,
-    "lat": 14.61,
-    "battles": 9
-  },
-  "中越战争": {
-    "lon": 105.94,
-    "lat": 22.14,
-    "battles": 5
-  },
-  "八国联军侵华战争": {
-    "lon": 117.62,
-    "lat": 37.92,
-    "battles": 5
-  },
-  "六日战争": {
-    "lon": 34.8,
-    "lat": 31.58,
-    "battles": 4
-  },
-  "叙利亚内战": {
-    "lon": 36.17,
-    "lat": 35.53,
-    "battles": 12
-  },
-  "科索沃战争": {
-    "lon": 20.9,
-    "lat": 42.86,
-    "battles": 5
+    "lon": 43.7667,
+    "lat": 15.3544,
+    "battles": 13
   }
 }

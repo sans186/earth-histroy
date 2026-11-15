@@ -30,7 +30,10 @@ function loadEnv(filePath) {
 }
 loadEnv(path.join(__dirname, '..', '.env'));
 
-const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY || process.env.ANTHROPIC_API_KEY;
+// Only the project's own credentials. An earlier version also accepted
+// ANTHROPIC_API_KEY, which in this workspace belongs to the IDE rather than to
+// the project — a project script must not silently spend the host tool's quota.
+const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY;
 const MODEL = 'deepseek-chat';
 const API_HOST = 'api.deepseek.com';
 const API_PATH = '/v1/chat/completions';
