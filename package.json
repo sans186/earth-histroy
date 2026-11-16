@@ -20,7 +20,8 @@
     "enrich:polity-facts": "node scripts/data/enrich-polity-facts.mjs",
     "audit:profiles": "node scripts/data/audit-profiles.mjs",
     "enrich:profiles": "node scripts/data/enrich-profiles-opencode.mjs",
-    "generate:profiles": "node scripts/data/generate-new-profiles.mjs"
+    "generate:profiles": "node scripts/data/generate-new-profiles.mjs",
+    "deploy:cf": "node scripts/deploy/cloudflare-pages.mjs --strip-gz"
   },
   "dependencies": {
     "@turf/turf": "^7.3.5",

@@ -199,6 +199,14 @@ npm run build
 # 把 dist/ 发布到静态托管
 ```
 
+**Cloudflare Pages（推荐）**：本地构建好后用 Direct Upload 直接传 `dist/`，跳过云端构建；完整步骤见 [docs/部署-Cloudflare-Pages.md](./docs/部署-Cloudflare-Pages.md)。
+
+```bash
+EARTH_GZIP=0 npm run build      # 跳过仅 Nginx gzip_static 需要的 .gz
+npm run deploy:cf -- --dry-run  # 发布前检查（文件数 / 单文件体积 / 敏感文件）
+npm run deploy:cf               # 上传；首次需先 npx wrangler login 授权
+```
+
 注意事项：
 
 - **不要直接发布仓库根目录**：`public/` 里的 `.gz` 预压缩副本需要服务端正确配置 `Content-Encoding`，且 `dist/` 才是经过构建与裁剪的产物。
@@ -235,6 +243,7 @@ npm run build
 | [docs/生产级成熟度评估.md](./docs/生产级成熟度评估.md) | 12 维度成熟度评分、12 条最小生产门槛核对与改进路线 | 2026-11-15 基线 10/33；同日 P0 修复后复核见文首 §0.1，仍未达生产门槛 |
 | [docs/项目设计文档.md](./docs/项目设计文档.md) | 视觉/交互设计系统与**规划中**的技术选型 | 设计提案，其中后端 Java 栈、Vitest、Playwright 等尚未落地，勿当现状读 |
 | [改造方案.md](./改造方案.md) | 2026-10 月对旧架构的诊断与分阶段路线图 | 历史诊断文档，Phase 0–2 已基本完成，文首有状态对照 |
+| [docs/部署-Cloudflare-Pages.md](./docs/部署-Cloudflare-Pages.md) | Cloudflare Pages 授权、Direct Upload 步骤、`_headers` 响应头与限额说明 | 现行；含发布前检查脚本 |
 | [scripts/README.md](./scripts/README.md) | 数据流水线可复现性清单 | 现行 |
 | `docs/prototypes/`、`design/` | 对照界面与视觉风格的单 HTML 原型 | 参考稿 |
 

@@ -12,6 +12,9 @@ dist__stale/
 .env
 .env.local
 .env.*.local
+.dev.vars
+.wrangler/
+.cloudflare/
 
 # IDE
 .idea/

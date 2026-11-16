@@ -62,13 +62,18 @@ export default defineConfig({
       ],
     }),
     stripNonShippable(),
-    compression({
-      algorithm: 'gzip',
-      ext: '.gz',
-      threshold: 10240,
-      deleteOriginFile: false,
-      filter: /\.(json|js|css|html)$/,
-    }),
+    // The .gz copies only help nginx's gzip_static. Hosted platforms such as
+    // Cloudflare Pages compress responses themselves, so they are dead weight
+    // there (and consume the 20,000-file quota). EARTH_GZIP=0 omits them.
+    ...(process.env.EARTH_GZIP === '0'
+      ? []
+      : [compression({
+          algorithm: 'gzip',
+          ext: '.gz',
+          threshold: 10240,
+          deleteOriginFile: false,
+          filter: /\.(json|js|css|html)$/,
+        })]),
   ],
   define: {
     CESIUM_BASE_URL: JSON.stringify('/cesium/'),
