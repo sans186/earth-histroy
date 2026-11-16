@@ -204,7 +204,7 @@ npm run build
 ```bash
 EARTH_GZIP=0 npm run build      # 跳过仅 Nginx gzip_static 需要的 .gz
 npm run deploy:cf -- --dry-run  # 发布前检查（文件数 / 单文件体积 / 敏感文件）
-npm run deploy:cf               # 上传；首次需先 npx wrangler login 授权
+npm run deploy:cf               # 上传（首次需先 wrangler login 并创建项目，见部署文档）
 ```
 
 注意事项：

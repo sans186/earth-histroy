@@ -42,10 +42,14 @@ GitHub Pages 也能跑（绑自定义域名后即为根路径），但它不支�
 
 ```bash
 npm ci
+npx wrangler login                                                        # 首次：浏览器授权，只需一次
+npx wrangler pages project create earth-histroy --production-branch main  # 首次：创建项目
 EARTH_GZIP=0 npm run build        # prebuild 先跑数据校验；跳过仅 nginx 需要的 .gz
 npm run deploy:cf -- --dry-run    # 只做发布前检查，不上传
 npm run deploy:cf                 # 正式上传
 ```
+
+第 2、3 步只在首次部署时执行。**Wrangler 4 起不会自动创建 Pages 项目**，漏掉第 3 步会报 `The Pages project "earth-histroy" does not exist`；项目已存在时不要重复创建。
 
 `EARTH_GZIP=0` 是 Git Bash / macOS / Linux 写法；PowerShell 用 `$env:EARTH_GZIP = '0'; npm run build`，CMD 用 `set EARTH_GZIP=0 && npm run build`。不设这个变量，`dist/` 会多出 2,644 个用不到的 `.gz`（约 49 MB），仍在免费档限额内。此外 `public/` 里原本存有 110 个预压缩政区文件（自建 Nginx 的 `gzip_static` 需要它们），构建时也会复制进 `dist/`，因此 `deploy:cf` 命令已默认带上 `--strip-gz` 把它们一并清掉。
 

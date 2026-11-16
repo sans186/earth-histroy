@@ -175,7 +175,9 @@ function deploy() {
   if (result.status !== 0) {
     console.error('\n[deploy] Wrangler failed. If this is an auth error, run:');
     console.error('  npx wrangler login');
-    console.error('or put CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID in .dev.vars.\n');
+    console.error('or put CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID in .dev.vars.');
+    console.error('First deploy? Wrangler 4 does not create Pages projects automatically:');
+    console.error('  npx wrangler pages project create ' + project + ' --production-branch ' + branch + '\n');
     process.exit(result.status || 1);
   }
   console.log('\n[deploy] Done. Check the deployment URL printed above.\n');
