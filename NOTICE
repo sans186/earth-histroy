@@ -9,12 +9,22 @@ Nothing here is legal advice; consult the upstream license text when in doubt.
 
 
 1. Historical events (English source)
-   Human History According to AI
-   by Magnús Smári Smárason
-   https://github.com/Magnussmari/Human_history_Acording_to_AI
+   Chronograph — Human History According to AI
+   by Magnús Smári Smárason, 2026
+   https://github.com/Magnussmari/chronograph
+   (formerly https://github.com/Magnussmari/Human_history_Acording_to_AI,
+    which now redirects to the address above)
    License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+            https://creativecommons.org/licenses/by/4.0/
+            Upstream code is MIT; only the corpus data is CC BY 4.0
+            (see the upstream NOTICE and README "License" section).
    Used in: public/events/, public/en-events/ (translated derivative)
-   Attribution requirement: author name + project link + license notice.
+   Attribution (exact wording specified by the upstream NOTICE):
+     "Chronograph — Human History According to AI,
+      Magnús Smári Smárason, 2026" + a link to the repository.
+   Modifications in this project: machine-translated into Chinese,
+     re-split into per-year JSON files, extended with a 2026 year file,
+     and adapted field shapes for this application.
 
 2. Historical polities
    Cliopatria, Seshat Global History Databank

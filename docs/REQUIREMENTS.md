@@ -109,6 +109,19 @@
 | 验证 | `npm run typecheck` EXIT=0；`npm run build` ERROR 0 / WARNING 0，1,549 模块 / 1m5s；`npm run verify:smoke` 5/5 |
 | 未解决 | 部署版本化 + 一键回滚、CI 门禁、单测/契约测试、指标与告警、完整降级矩阵演练、24h 长稳——见成熟度报告 §6 P0 第 2–5 项 |
 
+## 2026-11-16 · README 重写、GitHub 推送与署名核定（非需求）
+
+| 项目 | 结果 |
+|---|---|
+| README | 重写为 270 行面向 GitHub 开源：定位与免责前置、目录、仓库地址与环境要求、贡献与勘误入口；部署章节由「本地服务器 + `SERVER.md` 凭据」改为通用静态托管说明。12 个相对链接校验通过 |
+| 推送 | `master:main` 推至 [sans186/earth-histroy](https://github.com/sans186/earth-histroy)（新空仓库，默认分支 `main`）；12,292 objects / 114.41 MiB / 25 commits，远端 SHA 与本地 HEAD 一致；远端 11,333 blobs 与本地一致，无敏感文件 |
+| 远程 | 旧 `origin`（`history-earth`）保留为 `github-legacy`；`gitee` 不变；设 `remote.origin.push = refs/heads/master:refs/heads/main`，本地分支名不改 |
+| 网络 | 代理对 `github.com:443` 的 CONNECT 返回 502；清掉代理环境变量后**直连可正常 push**，`api.github.com` 走代理正常 |
+| 署名核定 | 上游 `Human_history_Acording_to_AI` 已 301 改名为 [chronograph](https://github.com/Magnussmari/chronograph)；核实其 `NOTICE`：代码 MIT、**语料 CC BY 4.0**，指定署名字符串 `Chronograph — Human History According to AI, Magnús Smári Smárason, 2026` + 仓库链接。项目原记录「CC BY 4.0 须署名」正确，但链接过时、措辞不完整 |
+| 数据性质 | 上游是 AI 生成的实验性语料（5,226 年 / 17,991 条，99.85% 带来源字段），作者为 AI 治理研究者而非历史学家；本地是其翻译 + 补 2026 年的派生版（5,227 文件 / 17,998 条）。支撑 README 的免责口径 |
+| 修正 | `NOTICE` 第 1 节按上游指定措辞重写（含许可链接、许可分层、翻译/切片/补 2026 年的修改声明）；README、`docs/开源说明.md`、`docs/项目设计文档.md` 的链接与署名要求同步更新；旧仓库名仅作历史说明保留 |
+| 未做 | 界面内「关于 / 数据来源」署名入口、CHANGELOG 与首个 tag、CI 门禁、CC BY-SA 单独标注 |
+
 ## 2026-10-17 · 第一批（稳定性/数据）
 
 | 编号 | 需求原文要点 | 状态 |

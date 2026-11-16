@@ -22,7 +22,7 @@
 - 长尾条目（人物、战争、政区简介、事实字段）含 AI 生成内容，**未逐条人工核验**；机器可读清单见 [docs/ai-generated-fields.json](./docs/ai-generated-fields.json)，审计结论见 [docs/数据完整性审计.md](./docs/数据完整性审计.md)。
 - 历史边界是学术数据集的近似记录，**不代表对当代主权归属的立场**；台湾、香港、澳门是中国的一部分。
 - **发现数据错误或有争议的表述怎么办**：按 [CONTRIBUTING.md](./CONTRIBUTING.md) 提 `[数据勘误]` Issue，写明文件与字段、现状与应改为、以及可核验来源。没有来源的争议不会被直接裁定——我们没有能力裁定史实争议。分级标准与处理口径见 [docs/开源说明.md](./docs/开源说明.md) §5（数据可信度分级）与 §6（争议的分类处理，含 §6.2 边界与主权表述）。
-- **二次分发请保留署名**：历史事件数据（CC BY 4.0）须注明原作者 Magnús Smári Smárason 及项目链接；Wikipedia 摘要部分为 CC BY-SA 3.0。完整上游清单见 [NOTICE](./NOTICE)。
+- **二次分发请保留署名**：历史事件数据（CC BY 4.0）须按上游要求注明作品名、原作者 Magnús Smári Smárason 与年份，并附上游仓库链接（确切措辞见 [NOTICE](./NOTICE)）；Wikipedia 摘要部分为 CC BY-SA 3.0。
 
 > 本 README 描述的是**当前代码现状**。`docs/项目设计文档.md` 与 [改造方案.md](./改造方案.md) 含规划中或历史诊断的内容，请勿当作现状阅读。需求与进度以 [docs/REQUIREMENTS.md](./docs/REQUIREMENTS.md) 为唯一账本。
 
@@ -256,7 +256,7 @@ npm run build
 
 | 数据集 | 来源 | 协议 |
 |--------|------|------|
-| 历史事件（英文源） | [Human History According to AI](https://github.com/Magnussmari/Human_history_Acording_to_AI) by Magnús Smári Smárason | CC BY 4.0 |
+| 历史事件（英文源） | [Chronograph — Human History According to AI](https://github.com/Magnussmari/chronograph) by Magnús Smári Smárason, 2026 | CC BY 4.0（仅语料；上游代码为 MIT） |
 | 历史事件（中文） | 本项目经 DeepSeek API 翻译 | CC BY 4.0（继承） |
 | 历史政区 | [Cliopatria](https://github.com/Seshat-Global-History-Databank/cliopatria)（Seshat Global History Databank） | CC BY 4.0 |
 | 政区简介 / 事实 / 人物 / 战争 | 本项目经 Wikipedia REST API 与大模型生成 | 摘要部分 CC BY-SA 3.0；生成内容长尾条目偶有史实偏差，需逐条复核 |
@@ -264,6 +264,6 @@ npm run build
 | 现代国家资产 | [mledoze/countries](https://github.com/mledoze/countries) + FlagCDN | MIT / Public Domain |
 | 底图瓦片 | Esri ArcGIS World Topo / World Imagery | 见 Esri 使用条款 |
 
-> **署名要求**：历史事件数据（CC BY 4.0）使用时须注明原作者 Magnús Smári Smárason 及项目链接；发布界面中亦应体现（**目前尚未落地**，见 [开源说明 §10](./docs/开源说明.md)）。
+> **署名要求**：按上游 NOTICE 指定，历史事件数据（CC BY 4.0）须注明 `Chronograph — Human History According to AI, Magnús Smári Smárason, 2026`、附 [上游仓库链接](https://github.com/Magnussmari/chronograph) 与 [CC BY 4.0 许可链接](https://creativecommons.org/licenses/by/4.0/)，并说明本项目做了翻译与格式改造；发布界面中亦应体现（**目前尚未落地**，见 [开源说明 §10](./docs/开源说明.md)）。上游仓库原名 `Human_history_Acording_to_AI`，现已改名为 `chronograph`，旧地址会 301 跳转。
 >
 > 政区简介 / 事实 / 人物 / 战争中的大模型生成内容**未逐条核验**，清单见 [docs/ai-generated-fields.json](./docs/ai-generated-fields.json)，不得作为史实引用依据。历史边界是学术数据集的近似记录，**不代表对当代主权归属的立场**；台湾、香港、澳门是中国的一部分。
