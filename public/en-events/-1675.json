@@ -15,7 +15,7 @@
       "id": "-1675-001",
       "title": "Hittite Empire faces internal and external crises",
       "region": "Anatolia, Hittite Empire",
-      "coordinates_approx": "35.4\u00b0N, 33.9\u00b0E",
+      "coordinates_approx": "35.4°N, 33.9°E",
       "category": "political",
       "description": "The Hittite Empire under Suppiluliuma II faces mounting pressures from external enemies and internal instability. Cuneiform texts document military campaigns, diplomatic correspondence, and administrative challenges. The empire is struggling to maintain control over its territories and trade routes. Within a few years, the empire will collapse entirely, marking the end of the Hittite Great Kingdom.",
       "key_figures": [
@@ -23,7 +23,7 @@
       ],
       "sources": [
         {
-          "name": "Hittite cuneiform texts from Bo\u011fazk\u00f6y archives",
+          "name": "Hittite cuneiform texts from Boğazköy archives",
           "type": "primary_text",
           "contemporary": true
         },
@@ -41,7 +41,7 @@
       "id": "-1675-002",
       "title": "Ugarit destroyed (traditional dating)",
       "region": "Levant, Ugarit (modern Syria)",
-      "coordinates_approx": "35.6\u00b0N, 35.8\u00b0E",
+      "coordinates_approx": "35.6°N, 35.8°E",
       "category": "military",
       "description": "Ugarit is destroyed, likely by a combination of naval attack and internal collapse. The destruction is sudden and complete; the city is abandoned and not resettled. The destruction of Ugarit is one of the most dramatic events of the Bronze Age collapse and marks the end of a major international trade centre. The causes of the destruction are debated: invasion by the Sea Peoples, internal conflict, or a combination of factors.",
       "key_figures": [],
@@ -67,7 +67,7 @@
       "id": "-1675-003",
       "title": "Ramesses III faces the first major Sea Peoples invasion",
       "region": "Egypt, Eastern Mediterranean",
-      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "coordinates_approx": "25.7°N, 32.6°E",
       "category": "military",
       "description": "Ramesses III faces the first major invasion by the Sea Peoples, a confederation of maritime raiders from the Eastern Mediterranean. The invasion is repelled, and Ramesses III commemorates the victory in temple reliefs at Medinet Habu. The Sea Peoples invasions are a major feature of the Late Bronze Age collapse and represent a significant military and political challenge to established powers.",
       "key_figures": [
@@ -94,24 +94,5 @@
   ],
   "disconfirming_evidence": "The destruction of Ugarit is traditionally attributed to the Sea Peoples, but recent scholarship suggests a more complex picture. Some scholars argue that internal instability and economic collapse were primary factors, with external invasion as a secondary or contributing cause. The Sea Peoples themselves are sometimes presented as a unified military force, but they may have been a diverse group of maritime raiders and migrants. The extent of their role in the Bronze Age collapse is debated.",
   "historiographic_note": "This year falls at the cusp of the Bronze Age collapse, one of the most dramatic transitions in ancient history. The historical record is dominated by Egyptian sources (temple reliefs and administrative texts) and archaeological evidence from destroyed cities. The perspective is heavily weighted toward the viewpoint of established powers like Egypt and the Hittite Empire; the perspective of the Sea Peoples and other marginal groups is largely absent. The causes of the collapse remain debated among scholars, with competing theories emphasising invasion, climate change, economic failure, and systemic instability.",
-  "graph_edges": [
-    {
-      "from": "-1675-001",
-      "to": "-1674-002",
-      "relation": "led_to",
-      "note": "Hittite crisis leads to the empire's final collapse"
-    },
-    {
-      "from": "-1675-002",
-      "to": "-1674-001",
-      "relation": "contemporary_with",
-      "note": "Destruction of Ugarit is part of the broader Sea Peoples invasions"
-    },
-    {
-      "from": "-1675-003",
-      "to": "-1674-001",
-      "relation": "led_to",
-      "note": "First Sea Peoples invasion is followed by further invasions"
-    }
-  ]
+  "graph_edges": []
 }

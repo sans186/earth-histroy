@@ -19,7 +19,7 @@
       "region": "Egypt, Nile Valley",
       "coordinates_approx": "26.0, 31.0",
       "category": "political",
-      "description": "The First Dynasty of Egypt (c. 3100\u20132890 BCE) is in its later phase. The pharaohs have successfully consolidated centralised control over Upper and Lower Egypt and developed an administrative system for taxation, labour organisation, and religious ritual. Large-scale tomb construction continues at Abydos and Saqqara, reflecting the pharaoh's continued ability to mobilise resources. The transition to the Second Dynasty is approaching.",
+      "description": "The First Dynasty of Egypt (c. 3100–2890 BCE) is in its later phase. The pharaohs have successfully consolidated centralised control over Upper and Lower Egypt and developed an administrative system for taxation, labour organisation, and religious ritual. Large-scale tomb construction continues at Abydos and Saqqara, reflecting the pharaoh's continued ability to mobilise resources. The transition to the Second Dynasty is approaching.",
       "key_figures": [
         "First Dynasty pharaoh (identity uncertain, possibly Qa'a or predecessor)"
       ],
@@ -70,7 +70,7 @@
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The general pattern of Uruk's dominance and trade networks is well-attested, but the precise dating of individual events and reigns is uncertain. Stratigraphic and textual evidence suggests this period, but \u00b110\u201320 year uncertainty is typical.",
+      "certainty_note": "The general pattern of Uruk's dominance and trade networks is well-attested, but the precise dating of individual events and reigns is uncertain. Stratigraphic and textual evidence suggests this period, but ±10–20 year uncertainty is typical.",
       "cross_references": [
         "-3199-002",
         "-3198-002",
@@ -80,19 +80,6 @@
     }
   ],
   "disconfirming_evidence": "The traditional narrative of a linear progression from Early Dynastic I to II to III in Mesopotamia is increasingly questioned by scholars who argue for more complex patterns of development and decline. The extent of Uruk's trade networks is debated; some scholars argue that long-distance trade was less extensive than cuneiform records suggest. The Sumerian King List's account of early Mesopotamian history is now understood to be largely legendary.",
-  "historiographic_note": "Documentation remains extremely sparse. The historical record is based on archaeological evidence (tombs, fortifications, pottery, architectural remains) and early administrative records (cuneiform tablets, Egyptian inscriptions). These sources are biased toward elite activities, monumental construction, and economic transactions. The vast majority of human activity is invisible in the written record. Regional coverage is heavily skewed toward Egypt and Mesopotamia; other regions are known only through archaeology, which is incomplete and subject to interpretation. The dating of events in this period is uncertain by \u00b110\u201350 years.",
-  "graph_edges": [
-    {
-      "from": "-3195-001",
-      "to": "-3194-001",
-      "relation": "led_to",
-      "note": "Transition to Second Dynasty Egypt (c. 2890 BCE)"
-    },
-    {
-      "from": "-3195-002",
-      "to": "-3194-002",
-      "relation": "part_of",
-      "note": "Continuation of Mesopotamian city-state competition and trade"
-    }
-  ]
+  "historiographic_note": "Documentation remains extremely sparse. The historical record is based on archaeological evidence (tombs, fortifications, pottery, architectural remains) and early administrative records (cuneiform tablets, Egyptian inscriptions). These sources are biased toward elite activities, monumental construction, and economic transactions. The vast majority of human activity is invisible in the written record. Regional coverage is heavily skewed toward Egypt and Mesopotamia; other regions are known only through archaeology, which is incomplete and subject to interpretation. The dating of events in this period is uncertain by ±10–50 years.",
+  "graph_edges": []
 }

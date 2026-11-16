@@ -16,7 +16,7 @@
       "region": "Mesopotamia (Sumer)",
       "coordinates_approx": "30.96, 46.10",
       "category": "political",
-      "description": "Shulgi, the second king of the Ur III dynasty, continues his extensive reign (c. 2094\u20132047 BCE). He consolidates Sumerian power through military campaigns against the Zagros highlands and Elamite territories, and implements sweeping administrative reforms that standardize weights, measures, and bureaucratic procedures across his realm. His reign represents the apex of Sumerian centralized administration, with thousands of cuneiform tablets documenting state management of agriculture, textiles, and labor. However, external pressure from Amorite groups intensifies during this period.",
+      "description": "Shulgi, the second king of the Ur III dynasty, continues his extensive reign (c. 2094–2047 BCE). He consolidates Sumerian power through military campaigns against the Zagros highlands and Elamite territories, and implements sweeping administrative reforms that standardize weights, measures, and bureaucratic procedures across his realm. His reign represents the apex of Sumerian centralized administration, with thousands of cuneiform tablets documenting state management of agriculture, textiles, and labor. However, external pressure from Amorite groups intensifies during this period.",
       "key_figures": [
         "Shulgi (King of Ur III)"
       ],
@@ -33,7 +33,7 @@
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Shulgi's reign is extensively documented in contemporary cuneiform records. Dating within \u00b12 years is standard for this period.",
+      "certainty_note": "Shulgi's reign is extensively documented in contemporary cuneiform records. Dating within ±2 years is standard for this period.",
       "cross_references": []
     },
     {
@@ -42,7 +42,7 @@
       "region": "Egypt",
       "coordinates_approx": "26.5, 31.0",
       "category": "political",
-      "description": "Amenemhat III (r. c. 1860\u20131814 BCE in conventional chronology, though some scholars place him earlier) is in his reign during this period. He represents the height of Middle Kingdom Egyptian power, undertaking extensive building projects including the Labyrinth at Hawara and expanding control over Nubia. His administration is characterized by strong centralized authority, extensive trade networks, and sophisticated irrigation management in the Fayum region. His reign marks the last period of strong pharaonic control before the Second Intermediate Period.",
+      "description": "Amenemhat III (r. c. 1860–1814 BCE in conventional chronology, though some scholars place him earlier) is in his reign during this period. He represents the height of Middle Kingdom Egyptian power, undertaking extensive building projects including the Labyrinth at Hawara and expanding control over Nubia. His administration is characterized by strong centralized authority, extensive trade networks, and sophisticated irrigation management in the Fayum region. His reign marks the last period of strong pharaonic control before the Second Intermediate Period.",
       "key_figures": [
         "Amenemhat III (Pharaoh of Egypt)"
       ],
@@ -59,7 +59,7 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Egyptian chronology for the Middle Kingdom remains debated. Conventional dating places Amenemhat III's reign c. 1860\u20131814 BCE, but some scholars argue for dates up to 150 years earlier. Assignment to -2100 is approximate.",
+      "certainty_note": "Egyptian chronology for the Middle Kingdom remains debated. Conventional dating places Amenemhat III's reign c. 1860–1814 BCE, but some scholars argue for dates up to 150 years earlier. Assignment to -2100 is approximate.",
       "cross_references": []
     },
     {
@@ -68,7 +68,7 @@
       "region": "Indus Valley (modern Pakistan and northwest India)",
       "coordinates_approx": "27.0, 71.0",
       "category": "cultural",
-      "description": "The Indus Valley Civilization (c. 2600\u20131900 BCE) is at or near its peak around 2100 BCE. Major cities like Harappa and Mohenjo-daro exhibit sophisticated urban planning with standardized brick sizes, drainage systems, and evidence of long-distance trade. The civilization is characterized by undeciphered script, standardized weights and measures, and apparent absence of monumental religious architecture. Trade networks extend to Mesopotamia, the Persian Gulf, and Central Asia. The reasons for the civilization's eventual decline remain debated.",
+      "description": "The Indus Valley Civilization (c. 2600–1900 BCE) is at or near its peak around 2100 BCE. Major cities like Harappa and Mohenjo-daro exhibit sophisticated urban planning with standardized brick sizes, drainage systems, and evidence of long-distance trade. The civilization is characterized by undeciphered script, standardized weights and measures, and apparent absence of monumental religious architecture. Trade networks extend to Mesopotamia, the Persian Gulf, and Central Asia. The reasons for the civilization's eventual decline remain debated.",
       "key_figures": [],
       "sources": [
         {
@@ -87,8 +87,8 @@
       "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The conventional dating of Amenemhat III has been challenged by some scholars who argue for earlier dates based on astronomical calculations and revised radiocarbon chronologies. This would shift Egyptian Middle Kingdom chronology by up to 150 years, affecting synchronizations with Mesopotamian and Levantine chronologies. The causes of Ur III's eventual collapse (c. 2004 BCE) are debated: while Amorite invasion is traditionally cited, some scholars emphasize internal administrative strain and climate change (the 4.2 kya event). The Indus Valley Civilization's decline is similarly contested\u2014theories range from environmental change (river course shifts, drought) to invasion to internal collapse, with no scholarly consensus.",
-  "historiographic_note": "Documentation for Mesopotamia and Egypt is rich but chronologically contested. Ur III cuneiform tablets provide exceptional administrative detail but are concentrated in specific archives. Egyptian records are biased toward royal and temple activities. The Indus Valley Civilization is known almost entirely through archaeology; the undeciphered script limits understanding of political structure and ideology. Sub-Saharan Africa, northern Europe, and most of Asia are poorly documented for this period, creating a false impression of civilization distribution. Chronological synchronization between regions remains uncertain by \u00b150\u2013100 years.",
+  "disconfirming_evidence": "The conventional dating of Amenemhat III has been challenged by some scholars who argue for earlier dates based on astronomical calculations and revised radiocarbon chronologies. This would shift Egyptian Middle Kingdom chronology by up to 150 years, affecting synchronizations with Mesopotamian and Levantine chronologies. The causes of Ur III's eventual collapse (c. 2004 BCE) are debated: while Amorite invasion is traditionally cited, some scholars emphasize internal administrative strain and climate change (the 4.2 kya event). The Indus Valley Civilization's decline is similarly contested—theories range from environmental change (river course shifts, drought) to invasion to internal collapse, with no scholarly consensus.",
+  "historiographic_note": "Documentation for Mesopotamia and Egypt is rich but chronologically contested. Ur III cuneiform tablets provide exceptional administrative detail but are concentrated in specific archives. Egyptian records are biased toward royal and temple activities. The Indus Valley Civilization is known almost entirely through archaeology; the undeciphered script limits understanding of political structure and ideology. Sub-Saharan Africa, northern Europe, and most of Asia are poorly documented for this period, creating a false impression of civilization distribution. Chronological synchronization between regions remains uncertain by ±50–100 years.",
   "graph_edges": [
     {
       "from": "-2100-001",
@@ -101,12 +101,6 @@
       "to": "-2050-002",
       "relation": "led_to",
       "note": "Amenemhat III's reign transitions to the Second Intermediate Period within a few decades"
-    },
-    {
-      "from": "-2100-003",
-      "to": "-2050-003",
-      "relation": "led_to",
-      "note": "Indus Valley Civilization begins decline phase c. 2050 BCE"
     }
   ]
 }

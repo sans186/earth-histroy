@@ -1,7 +1,7 @@
 {
   "year": -2465,
   "year_label": "2465 BCE",
-  "era_context": "The First Intermediate Period in Egypt (c. 2181\u20132055 BCE) is in its early phase, with regional dynasties competing for power. The Gutian period in Mesopotamia (c. 2154\u20132112 BCE) is established, though poorly documented. The Harappan civilization in the Indus Valley continues its gradual transformation. This period is characterized by political fragmentation and the decline of centralized authority across the Old World.",
+  "era_context": "The First Intermediate Period in Egypt (c. 2181–2055 BCE) is in its early phase, with regional dynasties competing for power. The Gutian period in Mesopotamia (c. 2154–2112 BCE) is established, though poorly documented. The Harappan civilization in the Indus Valley continues its gradual transformation. This period is characterized by political fragmentation and the decline of centralized authority across the Old World.",
   "documentation_level": "minimal",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
@@ -19,7 +19,7 @@
       "category": "political",
       "description": "The First Intermediate Period is well underway. Multiple regional dynasties (Heracleopolitan Dynasty IX and X in Lower Egypt; Theban Dynasty XI in Upper Egypt) are competing for control of the Nile Valley. Central authority has fragmented, and local elites have consolidated power. This period is characterized by political instability, regional conflicts, and the absence of a unified Egyptian state. The period will eventually end with the reunification of Egypt under the Middle Kingdom (c. 2055 BCE).",
       "key_figures": [
-        "Kheti I (Wahkare) \u2014 Possible ruler of Heracleopolitan Dynasty IX (dates uncertain)"
+        "Kheti I (Wahkare) — Possible ruler of Heracleopolitan Dynasty IX (dates uncertain)"
       ],
       "sources": [
         {
@@ -39,7 +39,7 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "The First Intermediate Period is well-attested, but the precise dating of individual years and the identification of specific rulers are highly uncertain. The year 2465 BCE is assigned by convention with \u00b150-year uncertainty.",
+      "certainty_note": "The First Intermediate Period is well-attested, but the precise dating of individual years and the identification of specific rulers are highly uncertain. The year 2465 BCE is assigned by convention with ±50-year uncertainty.",
       "cross_references": [
         "-2466-001"
       ]
@@ -65,7 +65,7 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "The Gutian period is attested, but contemporary documentation is sparse. Most information comes from later Sumerian sources that are hostile to Gutian rule. The year 2465 BCE is assigned by convention with \u00b150-year uncertainty.",
+      "certainty_note": "The Gutian period is attested, but contemporary documentation is sparse. Most information comes from later Sumerian sources that are hostile to Gutian rule. The year 2465 BCE is assigned by convention with ±50-year uncertainty.",
       "cross_references": [
         "-2466-002"
       ]
@@ -76,7 +76,7 @@
       "region": "Indus Valley, South Asia",
       "coordinates_approx": "27.0, 72.0",
       "category": "cultural",
-      "description": "The Harappan civilization continues to exist, but archaeological evidence suggests that major urban centers are beginning to show signs of decline. Population may be shifting from large cities to smaller settlements. Trade networks may be contracting. However, the civilization remains materially intact and continues to function. The causes of this transition are debated: climate change, resource depletion, or internal social change. The process of decline will continue over the next 400\u2013500 years, culminating in the civilization's collapse around 1900 BCE.",
+      "description": "The Harappan civilization continues to exist, but archaeological evidence suggests that major urban centers are beginning to show signs of decline. Population may be shifting from large cities to smaller settlements. Trade networks may be contracting. However, the civilization remains materially intact and continues to function. The causes of this transition are debated: climate change, resource depletion, or internal social change. The process of decline will continue over the next 400–500 years, culminating in the civilization's collapse around 1900 BCE.",
       "key_figures": [],
       "sources": [
         {
@@ -98,7 +98,7 @@
     }
   ],
   "disconfirming_evidence": "The Gutian period is traditionally portrayed as a period of chaos and destruction, but modern scholarship suggests that this characterization is exaggerated and reflects Sumerian bias. The Gutians may have been more integrated into Mesopotamian society than later sources suggest. The Harappan decline is similarly debated; some scholars argue that the civilization's transformation was more gradual and less catastrophic than earlier models suggested.",
-  "historiographic_note": "The year 2465 BCE falls within a period of significant historical transition, but the documentation is sparse and heavily dependent on later sources. The Gutian period is particularly poorly documented, with most information coming from hostile Sumerian sources written centuries later. The First Intermediate Period in Egypt is better documented through administrative records and inscriptions, but the precise dating of individual years remains uncertain. The Harappan civilization is known only through archaeology, with no written historical narrative. The dating of events to this specific year carries significant uncertainty (\u00b150 years). This period represents a major gap in the historical record, with simultaneous political upheavals across the Old World but limited contemporary documentation.",
+  "historiographic_note": "The year 2465 BCE falls within a period of significant historical transition, but the documentation is sparse and heavily dependent on later sources. The Gutian period is particularly poorly documented, with most information coming from hostile Sumerian sources written centuries later. The First Intermediate Period in Egypt is better documented through administrative records and inscriptions, but the precise dating of individual years remains uncertain. The Harappan civilization is known only through archaeology, with no written historical narrative. The dating of events to this specific year carries significant uncertainty (±50 years). This period represents a major gap in the historical record, with simultaneous political upheavals across the Old World but limited contemporary documentation.",
   "graph_edges": [
     {
       "from": "-2465-001",
@@ -111,12 +111,6 @@
       "to": "-2464-002",
       "relation": "led_to",
       "note": "Gutian period continues; Mesopotamia remains fragmented"
-    },
-    {
-      "from": "-2465-003",
-      "to": "-2464-003",
-      "relation": "led_to",
-      "note": "Harappan decline continues; urban centers continue to contract"
     }
   ]
 }

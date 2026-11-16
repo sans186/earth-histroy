@@ -14,194 +14,389 @@
       "id": "1895-001",
       "title": "中日签订《马关条约》",
       "region": "日本（马关）/东亚",
-      "coordinates_approx": "34.0°N, 131.0°E",
-      "category": "political",
+      "coordinates_approx": "34.27, 131.98",
+      "category": "military",
       "description": "1895年4月17日，清朝与日本签订《马关条约》，结束了中日甲午战争。中国承认朝鲜独立，割让台湾和辽东半岛，并支付巨额赔款。条约标志日本成为亚洲主要强国，中国国际地位进一步衰落。",
       "key_figures": [],
       "sources": [
         {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Treaty of Shimonoseki (primary text)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Japanese and Chinese government records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary diplomatic correspondence and newspaper accounts",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
+      "certainty_note": "Treaty signing date (April 17, 1895) is definitively documented. The treaty's terms and immediate consequences are well-attested.",
+      "cross_references": [
+        "Related to 1896-007 (treaty ratification and implementation)"
+      ]
     },
     {
       "id": "1895-002",
-      "title": "伦琴发现X射线",
-      "region": "德国（维尔茨堡）",
-      "coordinates_approx": "49.8°N, 9.9°E",
-      "category": "scientific",
-      "description": "1895年11月8日，德国物理学家威廉·伦琴在维尔茨堡大学实验中发现了X射线。他拍摄的伦琴夫人手部X光照片成为轰动世界的科学图像。伦琴于1901年获得首届诺贝尔物理学奖。",
-      "key_figures": [],
+      "title": "三国干涉还辽：俄法德迫使日本归还辽东半岛",
+      "region": "东亚（外交干涉）",
+      "coordinates_approx": "41.0, 123.0",
+      "category": "political",
+      "description": "1895年5月，俄国、法国与德国联合外交施压，迫使日本把《马关条约》中取得的辽东半岛归还清朝。干涉源于列强在华利益与对日本扩张的戒心，尤其俄国意图阻止日本染指满洲，此事深刻影响了此后东亚国际关系。",
+      "key_figures": [
+        "俄国沙皇尼古拉二世",
+        "法国总统费利克斯·福尔",
+        "德皇威廉二世",
+        "日本首相伊藤博文（干涉对象）"
+      ],
       "sources": [
         {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Russian, French, and German diplomatic records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Japanese government records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper accounts",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
+      "certainty_note": "The May 1895 intervention is well-documented in diplomatic records. The exact sequence of events and motivations are confirmed by multiple sources.",
+      "cross_references": [
+        "Related to 1904-001 (Russo-Japanese War, consequence of tensions from Triple Intervention)"
+      ]
     },
     {
       "id": "1895-003",
-      "title": "马可尼发明无线电通信",
-      "region": "意大利（博洛尼亚）/英国",
-      "coordinates_approx": "44.5°N, 11.3°E",
-      "category": "technological",
-      "description": "1895年，意大利发明家古列尔莫·马可尼成功进行了无线电信号的远距离传输实验。基于赫兹和麦克斯韦的理论，马可尼开发了实用的无线电报系统，开创了现代无线通信时代。",
-      "key_figures": [],
-      "sources": [
-        {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
-    },
-    {
-      "id": "1895-004",
-      "title": "古巴独立战争爆发",
-      "region": "古巴",
-      "coordinates_approx": "22.0°N, 79.0°W",
-      "category": "military",
-      "description": "1895年2月24日，古巴独立战争重新爆发，何塞·马蒂和马克西莫·戈麦斯领导反抗西班牙殖民统治的起义。马蒂在5月的多斯里奥斯战役中阵亡，成为古巴民族英雄。战争最终导致美国干预和1898年的美西战争。",
-      "key_figures": [],
-      "sources": [
-        {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
-    },
-    {
-      "id": "1895-005",
       "title": "詹姆斯森突袭",
       "region": "南部非洲（德兰士瓦）",
-      "coordinates_approx": "25.7°S, 27.2°E",
+      "coordinates_approx": "-25.5, 28.0",
       "category": "military",
       "description": "1895年12月29日，利安德·斯塔尔·詹姆斯森博士率领约500名武装人员从贝专纳兰入侵德兰士瓦共和国，企图煽动外侨起义。突袭失败，加剧了英德之间在南部非洲的紧张关系。",
       "key_figures": [],
       "sources": [
         {
-          "name": "当代历史记录及学术研究",
+          "name": "British government records and parliamentary inquiries",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jameson's personal accounts and trial records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper coverage",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Pakenham, Thomas. The Boer War (1979) — historiographic synthesis",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
+      "certainty_note": "The raid's launch date (December 29, 1895) and basic facts are well-documented. The extent of British government involvement remains debated by historians.",
+      "cross_references": [
+        "Related to 1896-002 (Jameson's trial and aftermath)",
+        "Leads to 1899-001 (Second Boer War)"
+      ]
+    },
+    {
+      "id": "1895-004",
+      "title": "古巴独立战争爆发",
+      "region": "古巴",
+      "coordinates_approx": "21.52, -77.78",
+      "category": "military",
+      "description": "1895年2月24日，古巴独立战争重新爆发，何塞·马蒂和马克西莫·戈麦斯领导反抗西班牙殖民统治的起义。马蒂在5月的多斯里奥斯战役中阵亡，成为古巴民族英雄。战争最终导致美国干预和1898年的美西战争。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Spanish military records and colonial administration documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cuban nationalist correspondence and manifestos",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary American and European newspaper coverage",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Martí, José. Selected writings and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The February 1895 start of the war and the May 1895 death of Martí are well-documented. The war's progression and key events are confirmed by multiple sources.",
+      "cross_references": [
+        "Leads to 1898-001 (Spanish-American War)"
+      ]
+    },
+    {
+      "id": "1895-005",
+      "title": "伦琴发现X射线",
+      "region": "德国（维尔茨堡）",
+      "coordinates_approx": "49.79, 9.93",
+      "category": "scientific",
+      "description": "1895年11月8日，德国物理学家威廉·伦琴在维尔茨堡大学实验中发现了X射线。他拍摄的伦琴夫人手部X光照片成为轰动世界的科学图像。伦琴于1901年获得首届诺贝尔物理学奖。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Röntgen, Wilhelm. 'On a New Kind of Rays' (Sitzungsberichte der Würzburger Physikalisch-Medizinischen Gesellschaft, December 1895)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Röntgen's laboratory notebooks and experimental records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary scientific journal publications",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The discovery date (November 8, 1895) is definitively documented. Röntgen's experimental work and the announcement in December 1895 are well-attested.",
       "cross_references": []
     },
     {
       "id": "1895-006",
-      "title": "列宁被捕流放西伯利亚",
-      "region": "俄罗斯帝国",
-      "coordinates_approx": "55.0°N, 83.0°E",
-      "category": "political",
-      "description": "1895年12月，弗拉基米尔·列宁因组织革命活动在圣彼得堡被捕，后被流放西伯利亚三年。流放期间他撰写了多部著作，巩固了马克思主义革命理论。",
-      "key_figures": [],
+      "title": "卢米埃尔兄弟在巴黎首映电影机",
+      "region": "法国（巴黎）",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "technological",
+      "description": "1895年12月28日，奥古斯特与路易·卢米埃尔在巴黎大咖啡馆举行电影机（cinématographe）首次公开售票放映，放映十部短片，包括《火车进站》。这一日期通常被视为电影公开放映的起点。",
+      "key_figures": [
+        "奥古斯特·卢米埃尔（发明人）",
+        "路易·卢米埃尔（发明人）",
+        "托马斯·爱迪生（同期开发活动电影放映机）"
+      ],
       "sources": [
         {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Lumière brothers' patent records and technical documentation",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper accounts of the December 28, 1895 screening",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Lumière company records and film catalogues",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
+      "certainty_note": "The December 28, 1895 premiere date is definitively documented. The event is extensively recorded in contemporary sources and later film histories.",
       "cross_references": []
     },
     {
       "id": "1895-007",
-      "title": "法国总工会成立",
-      "region": "法国（利摩日）",
-      "coordinates_approx": "45.8°N, 1.3°E",
-      "category": "economic",
-      "description": "1895年9月，法国各工会联合会在利摩日召开大会，正式成立法国总工会。总工会成为法国劳工运动的核心组织，采用无政府工团主义路线，倡导总罢工作为斗争手段。",
-      "key_figures": [],
+      "title": "奥斯卡·王尔德因「严重猥亵罪」入狱",
+      "region": "英国（伦敦）",
+      "coordinates_approx": "51.51, -0.13",
+      "category": "legal",
+      "description": "1895年4月3日，爱尔兰剧作家奥斯卡·王尔德依1885年《刑法修正案》被捕并受审，指控源于他与阿尔弗雷德·道格拉斯勋爵等人的关系。5月25日被判有罪，处两年苦役，事业与声名就此崩塌。",
+      "key_figures": [
+        "奥斯卡·王尔德（被告）",
+        "阿尔弗雷德·道格拉斯勋爵",
+        "昆斯伯里侯爵（道格拉斯之父，提起诉讼）",
+        "爱德华·卡森（控方律师）"
+      ],
       "sources": [
         {
-          "name": "当代历史记录及学术研究",
+          "name": "Trial records and court documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper coverage (The Times, Daily Telegraph, etc.)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Wilde, Oscar. Letters and autobiographical writings (compiled later)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Holland, Merlin. The Real Trial of Oscar Wilde (2003) — historiographic synthesis",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
+      "certainty_note": "Arrest date (April 3, 1895), trial dates, and conviction (May 25, 1895) are definitively documented in court records and contemporary sources.",
       "cross_references": []
     },
     {
       "id": "1895-008",
-      "title": "《乌合之众》出版",
-      "region": "法国（巴黎）",
-      "coordinates_approx": "48.9°N, 2.3°E",
-      "category": "cultural",
-      "description": "1895年，法国社会心理学家古斯塔夫·勒庞出版了《乌合之众：大众心理研究》，分析了群体行为和心理机制。这部著作影响深远，成为大众心理学和社会学的经典之作。",
+      "title": "马可尼发明无线电通信",
+      "region": "意大利（博洛尼亚）/英国",
+      "coordinates_approx": "44.49, 11.34",
+      "category": "technological",
+      "description": "1895年，意大利发明家古列尔莫·马可尼成功进行了无线电信号的远距离传输实验。基于赫兹和麦克斯韦的理论，马可尼开发了实用的无线电报系统，开创了现代无线通信时代。",
       "key_figures": [],
       "sources": [
         {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
+          "name": "Marconi's laboratory notebooks and experimental records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Marconi, Guglielmo. Wireless Telegraphy and Wireless Telephony (1922) — autobiographical",
+          "type": "primary_text",
           "contemporary": false
+        },
+        {
+          "name": "Contemporary scientific journals and correspondence",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
+      "certainty": "probable",
+      "certainty_note": "The 1895 experiments are documented in Marconi's later accounts and scientific literature, but exact dates within 1895 are less precisely recorded than the 1896 patent filing.",
+      "cross_references": [
+        "Related to 1896-006 (Marconi patents wireless telegraphy)"
+      ]
     },
     {
       "id": "1895-009",
-      "title": "康斯坦丁宫举办俄国首届自行车展",
-      "region": "俄罗斯帝国（圣彼得堡）",
-      "coordinates_approx": "59.9°N, 30.3°E",
-      "category": "cultural",
-      "description": "1895年，自行车在俄罗斯开始流行，圣彼得堡举办了首届自行车展览。自行车热席卷全球，成为19世纪末重要的交通工具和休闲活动。",
-      "key_figures": [],
+      "title": "德雷福斯事件：德雷福斯上尉被判间谍罪",
+      "region": "法国",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "legal",
+      "description": "犹太裔法国炮兵上尉阿尔弗雷德·德雷福斯于1894年10月被捕，12月22日以向德国出卖军事机密罪被判终身监禁、流放魔鬼岛。案件在1895年及其后持续发酵：皮卡尔上校发现真凶另有其人，最终促成重审与平反，并撕裂了法国社会。",
+      "key_figures": [
+        "阿尔弗雷德·德雷福斯上尉（被告）",
+        "于贝尔·亨利少校",
+        "埃斯特拉齐少校（真正间谍，1895年尚未公开）",
+        "皮卡尔上校（发现无罪证据）"
+      ],
       "sources": [
         {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
+          "name": "French military records and court documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary French newspaper coverage",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Dreyfus, Alfred. Diaries and memoirs (compiled later)",
+          "type": "primary_text",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
+      "certainty_note": "The December 1894 conviction is definitively documented. The 1895 developments and emergence of evidence of innocence are well-attested in military records and contemporary sources.",
+      "cross_references": [
+        "Related to 1896-009 (Dreyfus Affair intensifies)"
+      ]
     },
     {
       "id": "1895-010",
-      "title": "塞西尔·罗兹的英国南非公司扩张领土",
-      "region": "南部非洲",
-      "coordinates_approx": "17.8°S, 31.0°E",
-      "category": "political",
-      "description": "1895年，塞西尔·罗兹的英国南非公司继续在赞比西河以北扩张领土。公司管理的罗得西亚领土不断扩大，英国殖民统治在南部非洲内陆进一步巩固。",
-      "key_figures": [],
+      "title": "甲午战争：威海卫战役",
+      "region": "东亚（中国，山东半岛）",
+      "coordinates_approx": "37.51, 122.11",
+      "category": "military",
+      "description": "1895年1—2月，日军围攻清朝北洋水师基地威海卫并攻陷之，北洋舰队主力尽失，丁汝昌自尽。此役基本终结了清朝的海上抵抗，直接推动《马关条约》的签订。",
+      "key_figures": [
+        "伊东祐亨（日本联合舰队司令）",
+        "丁汝昌（北洋水师提督，战役中自尽）"
+      ],
       "sources": [
         {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Japanese military records and official histories",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese military records and accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper accounts",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
+      "certainty_note": "The battle dates (January–February 1895) and basic facts are well-documented in military records from both Japan and China.",
+      "cross_references": [
+        "Related to 1895-001 (Treaty of Shimonoseki, which concluded the war)"
+      ]
     }
   ],
   "disconfirming_evidence": "以上事件基于广泛接受的历史记载。部分事件的精确日期和细节在学术研究中存在合理争议。",
   "historiographic_note": "1890年代的历史记录以欧洲和北美资料为主。非洲、亚洲和太平洋岛民的视角在幸存记录中呈现不足。近年来的学术研究正在纠正这些偏见。",
-  "graph_edges": []
+  "graph_edges": [
+    {
+      "from": "1895-001",
+      "to": "1895-002",
+      "relation": "led_to",
+      "note": "《马关条约》招致欧洲列强的三国干涉"
+    },
+    {
+      "from": "1895-002",
+      "to": "1904-001",
+      "relation": "led_to",
+      "note": "三国干涉与被迫归还辽东半岛，累积成日俄战争爆发的紧张局势"
+    },
+    {
+      "from": "1895-003",
+      "to": "1896-002",
+      "relation": "led_to",
+      "note": "詹姆斯森突袭失败导致1896年詹姆森受审入狱"
+    },
+    {
+      "from": "1895-003",
+      "to": "1899-001",
+      "relation": "led_to",
+      "note": "詹姆斯森突袭及其后果助长了第二次布尔战争爆发的紧张局势"
+    },
+    {
+      "from": "1895-004",
+      "to": "1898-001",
+      "relation": "led_to",
+      "note": "古巴独立战争引来1898年美国的干涉"
+    },
+    {
+      "from": "1895-005",
+      "to": "1895-006",
+      "relation": "contemporary_with",
+      "note": "伦琴发现X射线与卢米埃尔兄弟首映电影机同在1895年末，是重大的科学与科技突破"
+    },
+    {
+      "from": "1895-009",
+      "to": "1896-009",
+      "relation": "led_to",
+      "note": "德雷福斯事件在1895年的进展导致1896年进一步激化"
+    }
+  ]
 }

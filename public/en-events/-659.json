@@ -33,7 +33,7 @@
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Ashurbanipal's reign is well-documented (668\u2013627 BCE), but the precise year of specific campaigns into Egypt is debated. Dating to 659 BCE is approximate based on Assyrian chronology.",
+      "certainty_note": "Ashurbanipal's reign is well-documented (668–627 BCE), but the precise year of specific campaigns into Egypt is debated. Dating to 659 BCE is approximate based on Assyrian chronology.",
       "cross_references": [
         "-660-001 (Ashurbanipal's earlier campaigns)",
         "-650-001 (Later Assyrian-Egyptian relations)"
@@ -52,12 +52,12 @@
       ],
       "sources": [
         {
-          "name": "Herodotus, Histories IV.150\u2013159",
+          "name": "Herodotus, Histories IV.150–159",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Pindar, Pythian Odes IV\u2013V",
+          "name": "Pindar, Pythian Odes IV–V",
           "type": "later_compilation",
           "contemporary": false
         },
@@ -68,10 +68,8 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "The traditional date of 631 BCE is widely cited, but archaeological evidence suggests settlement may have begun in the 660s\u2013650s BCE. Assignment to 659 BCE is conventional; the actual founding may span a decade.",
-      "cross_references": [
-        "-631-001 (Alternative traditional dating for Cyrene's founding)"
-      ]
+      "certainty_note": "The traditional date of 631 BCE is widely cited, but archaeological evidence suggests settlement may have begun in the 660s–650s BCE. Assignment to 659 BCE is conventional; the actual founding may span a decade.",
+      "cross_references": []
     },
     {
       "id": "-659-003",
@@ -79,9 +77,9 @@
       "region": "China (State of Qi)",
       "coordinates_approx": "36.5, 118.0",
       "category": "political",
-      "description": "Duke Huan of Qi (r. 685\u2013643 BCE), with the assistance of his minister Guan Zhong, consolidated power and established Qi as the dominant state in the Chinese Spring and Autumn period. By 659 BCE, Huan was at the height of his influence, having defeated rival states and established a system of interstate alliances. His reign marked the beginning of the 'Five Hegemons' era in Chinese history, where powerful states competed for supremacy while nominally respecting the Zhou king.",
+      "description": "Duke Huan of Qi (r. 685–643 BCE), with the assistance of his minister Guan Zhong, consolidated power and established Qi as the dominant state in the Chinese Spring and Autumn period. By 659 BCE, Huan was at the height of his influence, having defeated rival states and established a system of interstate alliances. His reign marked the beginning of the 'Five Hegemons' era in Chinese history, where powerful states competed for supremacy while nominally respecting the Zhou king.",
       "key_figures": [
-        "Duke Huan of Qi (r. 685\u2013643 BCE)",
+        "Duke Huan of Qi (r. 685–643 BCE)",
         "Guan Zhong (Prime Minister of Qi)"
       ],
       "sources": [
@@ -97,13 +95,13 @@
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Duke Huan's reign dates are well-established in Chinese historiography (685\u2013643 BCE). The year 659 BCE falls within his period of maximum influence, though no specific event is recorded for this exact year.",
+      "certainty_note": "Duke Huan's reign dates are well-established in Chinese historiography (685–643 BCE). The year 659 BCE falls within his period of maximum influence, though no specific event is recorded for this exact year.",
       "cross_references": [
         "-643-001 (Death of Duke Huan)"
       ]
     }
   ],
-  "disconfirming_evidence": "The dating of Cyrene's founding is disputed: while Herodotus and tradition place it around 631 BCE, some modern scholars argue for a date in the 660s\u2013650s BCE based on archaeological stratigraphy. The assignment to 659 BCE is therefore approximate and conventional rather than confirmed. Additionally, the precise year of Ashurbanipal's Egyptian campaigns is uncertain; some scholars place major campaigns earlier (665 BCE) or later (655 BCE).",
+  "disconfirming_evidence": "The dating of Cyrene's founding is disputed: while Herodotus and tradition place it around 631 BCE, some modern scholars argue for a date in the 660s–650s BCE based on archaeological stratigraphy. The assignment to 659 BCE is therefore approximate and conventional rather than confirmed. Additionally, the precise year of Ashurbanipal's Egyptian campaigns is uncertain; some scholars place major campaigns earlier (665 BCE) or later (655 BCE).",
   "historiographic_note": "The 7th century BCE is well-documented for the Near East (Assyrian records, Egyptian inscriptions) and moderately documented for Greece (later literary sources, some contemporary inscriptions). Chinese history relies heavily on later compilations (Shiji, Zuozhuan) written centuries after events, introducing potential anachronism and legendary elements. African and European history outside the Mediterranean is largely absent from written records for this period. Assyrian sources are court-sponsored and emphasise military victories; Egyptian sources reflect the perspective of the Saite dynasty; Greek sources are often written generations later and may conflate or misdate events.",
   "graph_edges": [
     {
@@ -111,12 +109,6 @@
       "to": "-650-001",
       "relation": "led_to",
       "note": "Ashurbanipal's campaigns set the stage for later Assyrian-Egyptian conflicts and the eventual reassertion of Egyptian independence"
-    },
-    {
-      "from": "-659-002",
-      "to": "-631-001",
-      "relation": "contemporary_with",
-      "note": "Cyrene's founding may have occurred over a decade; 659 BCE and 631 BCE represent different scholarly datings of the same event"
     },
     {
       "from": "-659-003",

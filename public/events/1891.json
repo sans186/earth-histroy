@@ -12,6 +12,193 @@
   "events": [
     {
       "id": "1891-001",
+      "title": "1891—1892年俄国大饥荒开始",
+      "region": "俄罗斯帝国（伏尔加河流域、中部黑土省份）",
+      "coordinates_approx": "53.2°N, 50.1°E",
+      "category": "demographic",
+      "description": "伏尔加河与中部省份的严重歉收引发饥荒，到1892年影响约1700万人、造成约37.5万至40万人超额死亡。干旱叠加农奴制改革后农民经济的结构性脆弱，耗尽了粮食储备；托尔斯泰等知识分子参与赈济，政府的粮食出口政策则加剧了危机。",
+      "key_figures": [
+        "亚历山大三世（俄国沙皇）",
+        "列夫·托尔斯泰（作家，组织赈灾）",
+        "伊万·维什涅格拉茨基（财政大臣，其粮食出口政策加重危机）"
+      ],
+      "sources": [
+        {
+          "name": "Richard G. Robbins Jr., Famine in Russia, 1891–1892 (1975)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Leo Tolstoy, 'On the Famine' (articles in Russkie Vedomosti and foreign press, 1891–92)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Zemstvo reports and appeals from affected provinces, 1891",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented by Russian and foreign observers. Death toll estimates vary depending on methodology (direct starvation vs. famine-related disease).",
+      "cross_references": [
+        "1892-FAMINE_CONTINUES",
+        "1905-RUSSIAN_REVOLUTION"
+      ]
+    },
+    {
+      "id": "1891-002",
+      "title": "跨西伯利亚铁路继续建设",
+      "region": "俄罗斯帝国（西伯利亚）",
+      "coordinates_approx": "43.1°N, 131.9°E",
+      "category": "technological",
+      "description": "1891年，沙皇亚历山大三世正式启动跨西伯利亚铁路的大规模建设。皇太子尼古拉在符拉迪沃斯托克铺设了第一块基石。这条铁路将彻底改变西伯利亚的经济和人口结构。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Imperial Rescript of Alexander III on the Trans-Siberian Railway, March 1891",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Steven G. Marks, Road to Power: The Trans-Siberian Railroad and the Colonization of Asian Russia, 1850–1917 (1991)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in Russian state archives and contemporary press.",
+      "cross_references": [
+        "1904-RUSSO_JAPANESE_WAR",
+        "1903-TRANS_SIBERIAN_PARTIAL_OPENING"
+      ]
+    },
+    {
+      "id": "1891-003",
+      "title": "智利内战结束",
+      "region": "智利",
+      "coordinates_approx": "33.4°S, 70.7°W",
+      "category": "political",
+      "description": "1891年，智利国会对总统巴尔马塞达的内战以国会派胜利告终。总统于8月自杀。内战巩固了智利国会对总统权力的优势，确立了议会制共和国体制。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Harold Blakemore, British Nitrates and Chilean Politics, 1886–1896 (1974)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "British diplomatic dispatches from Santiago, 1891 (Foreign Office records)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Chilean press accounts (El Ferrocarril, La Época)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Thoroughly documented from Chilean, British, and American sources.",
+      "cross_references": [
+        "1879-WAR_OF_THE_PACIFIC"
+      ]
+    },
+    {
+      "id": "1891-004",
+      "title": "教皇利奥十三世发布《新事》通谕",
+      "region": "梵蒂冈",
+      "coordinates_approx": "41.9°N, 12.5°E",
+      "category": "religious",
+      "description": "1891年5月15日，教皇利奥十三世发布《新事》通谕，系统阐述了天主教会的劳工和社会正义立场。通谕谴责资本主义剥削和社会主义，主张公正工资、工人组织权和私有财产权，成为天主教社会教义的基础文献。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Leo XIII, Rerum Novarum (encyclical text, 15 May 1891)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Paul Misner, Social Catholicism in Europe: From the Onset of Industrialization to the First World War (1991)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Primary document is the papal text itself, widely distributed and preserved.",
+      "cross_references": [
+        "1931-QUADRAGESIMO_ANNO"
+      ]
+    },
+    {
+      "id": "1891-005",
+      "title": "大津事件：俄国皇太子在日本遇刺受伤",
+      "region": "日本（滋贺县大津）",
+      "coordinates_approx": "35.0°N, 135.9°E",
+      "category": "political",
+      "description": "1891年5月11日，俄国皇太子尼古拉·亚历山德罗维奇（后来的尼古拉二世）在东方之旅访日期间，于京都附近大津被随行警护津田三藏持军刀击伤头部，两处刀伤但无生命危险。事件引发日俄外交危机，明治天皇亲自探视。",
+      "key_figures": [
+        "尼古拉·亚历山德罗维奇皇太子（后来的尼古拉二世）",
+        "津田三藏（巡查，行刺者）",
+        "明治天皇（亲自探视尼古拉）",
+        "儿岛惟谦（大审院长）"
+      ],
+      "sources": [
+        {
+          "name": "Nicholas II's personal diary entries, May 1891",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Japanese Foreign Ministry records and court case documents, 1891",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ian Nish, Japanese Foreign Policy, 1869–1942 (1977)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Documented from both Russian and Japanese primary sources. The legal proceedings are well-preserved.",
+      "cross_references": [
+        "1904-RUSSO_JAPANESE_WAR"
+      ]
+    },
+    {
+      "id": "1891-006",
+      "title": "日本浓尾大地震",
+      "region": "日本（浓尾地区）",
+      "coordinates_approx": "35.6°N, 136.6°E",
+      "category": "environmental",
+      "description": "1891年10月28日，日本浓尾地区发生强烈地震（推定M8.0），造成超过7,000人死亡，约17万栋房屋倒塌。这是明治时期最严重的自然灾害之一，推动了日本的地震学和抗震建筑研究。",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Reports of the Imperial Earthquake Investigation Committee (established 1892, retrospective analysis of 1891 event)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "John Milne, reports in Seismological Journal of Japan (1891–92)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Gregory Clancey, Earthquake Nation: The Cultural Politics of Japanese Seismicity, 1868–1930 (2006)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented by contemporary seismologists, press, and government records. Magnitude estimates vary slightly by method (7.9–8.0).",
+      "cross_references": [
+        "1923-GREAT_KANTO_EARTHQUAKE"
+      ]
+    },
+    {
+      "id": "1891-007",
       "title": "法俄协约初步形成",
       "region": "欧洲（法国/俄罗斯）",
       "coordinates_approx": "48.9°N, 2.3°E",
@@ -20,185 +207,118 @@
       "key_figures": [],
       "sources": [
         {
-          "name": "当代历史记录及学术研究",
+          "name": "Diplomatic correspondence between Paris and St Petersburg, 1891 (published in Documents diplomatiques français)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "George F. Kennan, The Fateful Alliance: France, Russia, and the Coming of the First World War (1984)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
+      "certainty_note": "Diplomatic records well-preserved in both French and Russian archives. The Kronstadt visit was widely reported in contemporary press.",
+      "cross_references": [
+        "1894-FRANCO_RUSSIAN_ALLIANCE",
+        "1907-TRIPLE_ENTENTE",
+        "1914-WORLD_WAR_I"
+      ]
     },
     {
-      "id": "1891-002",
-      "title": "跨西伯利亚铁路继续建设",
-      "region": "俄罗斯帝国（西伯利亚）",
-      "coordinates_approx": "55.0°N, 83.0°E",
-      "category": "technological",
-      "description": "1891年，沙皇亚历山大三世正式启动跨西伯利亚铁路的大规模建设。皇太子尼古拉在符拉迪沃斯托克铺设了第一块基石。这条铁路将彻底改变西伯利亚的经济和人口结构。",
-      "key_figures": [],
+      "id": "1891-008",
+      "title": "英国南非公司开始治理南罗得西亚",
+      "region": "南部非洲（马绍纳兰，今津巴布韦）",
+      "coordinates_approx": "17.8°S, 31.0°E",
+      "category": "political",
+      "description": "1890年先锋纵队抵达后，塞西尔·罗兹领导的英国南非公司在1891年巩固对马绍纳兰的占领，建立索尔兹伯里堡（今哈拉雷）作为行政中心，并开始从绍纳族手中夺取土地与牲畜，系统性削弱恩德贝莱国王洛本古拉的主权。",
+      "key_figures": [
+        "塞西尔·罗兹（开普殖民地总理、公司创办人）",
+        "利安德·斯塔尔·詹姆森（公司驻马绍纳兰行政官）",
+        "洛本古拉（恩德贝莱国王）"
+      ],
       "sources": [
         {
-          "name": "当代历史记录及学术研究",
+          "name": "BSAC charter and administrative correspondence, 1889–91 (National Archives of Zimbabwe)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Robert I. Rotberg, The Founder: Cecil Rhodes and the Pursuit of Power (1988)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
+      "certainty_note": "Well-documented in BSAC records and British colonial archives. Indigenous perspectives from this period are largely reconstructed from later oral histories.",
+      "cross_references": [
+        "1890-PIONEER_COLUMN",
+        "1893-FIRST_MATABELE_WAR",
+        "1896-CHIMURENGA"
+      ]
     },
     {
-      "id": "1891-003",
+      "id": "1891-009",
+      "title": "英属印度与曼尼普尔王国战争",
+      "region": "英属印度／曼尼普尔（印度东北部）",
+      "coordinates_approx": "24.8°N, 93.9°E",
+      "category": "military",
+      "description": "1891年3—4月，曼尼普尔王国与英属印度政府爆发短暂而激烈的冲突。1890年9月宫廷政变拥立新王，英国政治专员弗兰克·格里姆伍德试图逮捕摄政提肯德拉吉特·辛格时激战爆发，英方随后发动惩罚性远征并最终控制该土邦。",
+      "key_figures": [
+        "提肯德拉吉特·辛格（摄政，后被处决）",
+        "弗兰克·格里姆伍德（英国政治专员，被杀）",
+        "埃塞尔·格里姆伍德（其妻，记述影响英国舆论）",
+        "H·科利特将军（主力讨伐部队指挥官）"
+      ],
+      "sources": [
+        {
+          "name": "Ethel Grimwood, My Three Years in Manipur (1891)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British Parliamentary Papers on Manipur, 1891",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Gangmumei Kamei, History of Manipur (various editions)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Documented from both British official records and Manipuri sources, though the latter are more limited for this period.",
+      "cross_references": [
+        "1826-TREATY_OF_YANDABO"
+      ]
+    },
+    {
+      "id": "1891-010",
       "title": "巴西颁布共和宪法",
       "region": "巴西（里约热内卢）",
-      "coordinates_approx": "22.9°S, 43.2°W",
+      "coordinates_approx": "15.8°S, 47.9°W",
       "category": "political",
       "description": "1891年2月24日，巴西制宪会议颁布了共和宪法，建立联邦共和国，实行总统制和三权分立。宪法受美国模式影响，但赋予中央政府更大权力。德奥多罗·达·丰塞卡当选首任总统。",
       "key_figures": [],
       "sources": [
         {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
-    },
-    {
-      "id": "1891-004",
-      "title": "教皇利奥十三世发布《新事》通谕",
-      "region": "梵蒂冈",
-      "coordinates_approx": "41.9°N, 12.5°E",
-      "category": "cultural",
-      "description": "1891年5月15日，教皇利奥十三世发布《新事》通谕，系统阐述了天主教会的劳工和社会正义立场。通谕谴责资本主义剥削和社会主义，主张公正工资、工人组织权和私有财产权，成为天主教社会教义的基础文献。",
-      "key_figures": [],
-      "sources": [
+          "name": "Constituição da República dos Estados Unidos do Brasil (24 February 1891)",
+          "type": "primary_text",
+          "contemporary": true
+        },
         {
-          "name": "当代历史记录及学术研究",
+          "name": "José Murilo de Carvalho, Os Bestializados: O Rio de Janeiro e a República que não foi (1987)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
-    },
-    {
-      "id": "1891-005",
-      "title": "美国排华法案续期",
-      "region": "美国（华盛顿特区）",
-      "coordinates_approx": "38.9°N, 77.0°W",
-      "category": "legal",
-      "description": "1891年，美国国会通过法案将1882年排华法案延长十年，进一步限制中国移民。排华法案是美国历史上第一部针对特定族裔的移民限制法律，反映了西海岸反华情绪的高涨。",
-      "key_figures": [],
-      "sources": [
-        {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
-    },
-    {
-      "id": "1891-006",
-      "title": "日本浓尾大地震",
-      "region": "日本（浓尾地区）",
-      "coordinates_approx": "35.3°N, 136.8°E",
-      "category": "environmental",
-      "description": "1891年10月28日，日本浓尾地区发生强烈地震（推定M8.0），造成超过7,000人死亡，约17万栋房屋倒塌。这是明治时期最严重的自然灾害之一，推动了日本的地震学和抗震建筑研究。",
-      "key_figures": [],
-      "sources": [
-        {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
-    },
-    {
-      "id": "1891-007",
-      "title": "智利内战结束",
-      "region": "智利",
-      "coordinates_approx": "33.4°S, 70.7°W",
-      "category": "military",
-      "description": "1891年，智利国会对总统巴尔马塞达的内战以国会派胜利告终。总统于8月自杀。内战巩固了智利国会对总统权力的优势，确立了议会制共和国体制。",
-      "key_figures": [],
-      "sources": [
-        {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
-    },
-    {
-      "id": "1891-008",
-      "title": "万国邮政联盟在维也纳召开会议",
-      "region": "奥匈帝国（维也纳）",
-      "coordinates_approx": "48.2°N, 16.4°E",
-      "category": "political",
-      "description": "1891年，万国邮政联盟在维也纳召开会议，进一步简化国际邮政服务。该联盟自1874年成立以来显著促进了全球通信，是现代多边合作的重要范例。",
-      "key_figures": [],
-      "sources": [
-        {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
-    },
-    {
-      "id": "1891-009",
-      "title": "澳大利亚各殖民地讨论联邦",
-      "region": "澳大利亚",
-      "coordinates_approx": "27.0°S, 133.0°E",
-      "category": "political",
-      "description": "1891年在悉尼召开的澳大利亚联邦会议制定了第一部联邦宪法草案。虽然该草案因各殖民地争议而搁置，但为1901年澳大利亚联邦的最终成立奠定了基础。",
-      "key_figures": [],
-      "sources": [
-        {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
-    },
-    {
-      "id": "1891-010",
-      "title": "詹姆斯·奈史密斯发明篮球",
-      "region": "美国（马萨诸塞州斯普林菲尔德）",
-      "coordinates_approx": "42.1°N, 72.6°W",
-      "category": "cultural",
-      "description": "1891年12月，加拿大裔体育教师詹姆斯·奈史密斯在马萨诸塞州斯普林菲尔德基督教青年会训练学校发明了篮球运动，设计为冬季室内团队运动。篮球迅速流行，成为全球最受欢迎的体育项目之一。",
-      "key_figures": [],
-      "sources": [
-        {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
+      "certainty_note": "The constitutional text and convention proceedings are fully preserved.",
+      "cross_references": [
+        "1889-BRAZILIAN_REPUBLIC_PROCLAIMED",
+        "1930-BRAZILIAN_REVOLUTION"
+      ]
     },
     {
       "id": "1891-011",
@@ -214,18 +334,18 @@
       ],
       "sources": [
         {
-          "name": "美国修订法第60卷第3章关于版权的法案（第51届国会，1891年3月3日）",
+          "name": "An Act to Amend Title Sixty, Chapter Three, of the Revised Statutes of the United States, Relating to Copyrights (51st Congress, 3 March 1891)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "凯瑟琳·塞维尔，《版权法的国际化：书籍、海盗和19世纪的黑旗》（2006年）",
+          "name": "Catherine Seville, The Internationalisation of Copyright Law: Books, Buccaneers and the Black Flag in the Nineteenth Century (2006)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "立法文本和国会辩论记录已完整保存。",
+      "certainty_note": "Legislative text and congressional debate records fully preserved.",
       "cross_references": [
         "1886-BERNE_CONVENTION"
       ]
@@ -244,23 +364,23 @@
       ],
       "sources": [
         {
-          "name": "斯图尔特·斯文森，《剪羊毛战争：1891年剪羊毛罢工的故事》（1989年）",
+          "name": "Stuart Svensen, The Shearers' War: The Story of the 1891 Shearers' Strike (1989)",
           "type": "historiographic_consensus",
           "contemporary": false
         },
         {
-          "name": "昆士兰议会文件和法院记录，1891年",
+          "name": "Queensland Parliamentary Papers and court records, 1891",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "《工人》（布里斯班），1891年问题",
+          "name": "The Worker (Brisbane), 1891 issues",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "在昆士兰档案、报纸和法院记录中有详细记载。",
+      "certainty_note": "Well-documented in Queensland archives, press, and court records.",
       "cross_references": [
         "1890-MARITIME_STRIKE_AUSTRALIA",
         "1901-AUSTRALIAN_FEDERATION"
@@ -279,18 +399,18 @@
       ],
       "sources": [
         {
-          "name": "《废除林业文化法及其他目的法案》（第51届国会，第24节，1891年3月3日）",
+          "name": "An Act to Repeal Timber-Culture Laws, and for Other Purposes (51st Congress, Section 24, 3 March 1891)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "卡尔·雅各比，《自然之罪：占地者、偷猎者、盗贼和美国保护运动的隐藏历史》（2001年）",
+          "name": "Karl Jacoby, Crimes Against Nature: Squatters, Poachers, Thieves, and the Hidden History of American Conservation (2001)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "立法和行政记录完整保存。",
+      "certainty_note": "Legislative and executive records fully preserved.",
       "cross_references": [
         "1872-YELLOWSTONE_NATIONAL_PARK",
         "1905-US_FOREST_SERVICE"
@@ -309,18 +429,18 @@
       ],
       "sources": [
         {
-          "name": "美国专利589,168（1891年8月24日提交，1897年批准）——电影摄影机专利",
+          "name": "US Patent 589,168 (filed 24 August 1891, granted 1897) for Kinetoscopic Camera",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "查尔斯·穆瑟，《电影的出现：1907年前的美国银幕》（1990年）",
+          "name": "Charles Musser, The Emergence of Cinema: The American Screen to 1907 (1990)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "专利记录保存。爱迪生与迪克森之间的优先权争议已得到深入研究。爱迪生与迪克森各自的贡献仍有争议，大多数学者认为迪克森在技术工作方面贡献更大。",
+      "certainty_note": "Patent records preserved. Priority disputes between Edison and Dickson well-studied. The exact contributions of Edison vs. Dickson remain debated, with most scholars crediting Dickson with the bulk of the technical work.",
       "cross_references": [
         "1895-LUMIERE_CINEMATOGRAPH"
       ]
@@ -338,18 +458,18 @@
       ],
       "sources": [
         {
-          "name": "詹姆斯·奈史密斯，《篮球》（首次发表规则，三角洲，1892年1月）",
+          "name": "James Naismith, 'Basket Ball' (first published rules, The Triangle, January 1892)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "罗布·雷恩斯，《发明篮球的人：詹姆斯·奈史密斯》（2009年）",
+          "name": "Rob Rains, James Naismith: The Man Who Invented Basketball (2009)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "1891年12月首场比赛的确切日期没有确切记录；月份是从奈史密斯的个人叙述中确立的。",
+      "certainty_note": "The exact date in December 1891 of the first game is not precisely documented; the month is well-established from Naismith's own accounts.",
       "cross_references": []
     },
     {
@@ -366,18 +486,18 @@
       ],
       "sources": [
         {
-          "name": "阿尔弗雷德·弗朗西斯·普里布拉姆，《奥匈帝国秘密条约，1879-1914年》（1920年）",
+          "name": "Treaty texts reproduced in Alfred Francis Pribram, The Secret Treaties of Austria-Hungary, 1879–1914 (1920)",
           "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "威廉·L·兰格，《帝国主义外交，1890-1902年》（1935年，修订于1951年）",
+          "name": "William L. Langer, The Diplomacy of Imperialism, 1890–1902 (1935, revised 1951)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "保存在奥地利、德国和意大利档案馆中的条约文本和外交信函。",
+      "certainty_note": "Treaty texts and diplomatic correspondence preserved in Austrian, German, and Italian archives.",
       "cross_references": [
         "1882-TRIPLE_ALLIANCE_FORMED",
         "1915-ITALY_JOINS_ENTENTE"
@@ -397,23 +517,23 @@
       ],
       "sources": [
         {
-          "name": "亚历山大·德科蒙，《非洲二十年生活》（1922年）",
+          "name": "Alexandre Delcommune, Vingt Années de Vie Africaine (1922)",
           "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "亚当·霍奇希尔德，《利奥波德国王的幽灵》（1998年）",
+          "name": "Adam Hochschild, King Leopold's Ghost (1998)",
           "type": "historiographic_consensus",
           "contemporary": false
         },
         {
-          "name": "罗伯特·哈姆斯，《红橡胶的终结：再评估》，非洲历史杂志（1975年）",
+          "name": "Robert Harms, 'The End of Red Rubber: A Reassessment,' Journal of African History (1975)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "在比利时殖民档案和探险报告中有所记载，尽管原住民的观点在文献记录中基本缺失。",
+      "certainty_note": "Documented in Belgian colonial archives and expedition reports, though indigenous perspectives are largely absent from the documentary record.",
       "cross_references": [
         "1885-BERLIN_CONFERENCE",
         "1892-MSIRI_KILLED"
@@ -433,18 +553,18 @@
       ],
       "sources": [
         {
-          "name": "爱尔福特纲领文本（1891年10月通过，广泛重印）",
+          "name": "Erfurt Programme text (adopted October 1891, widely reprinted)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "卡尔·E·肖尔斯基，《德国社会民主主义1905-1917》（1955年）",
+          "name": "Carl E. Schorske, German Social Democracy 1905–1917 (1955)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "党大会记录和纲领文本完整保存。",
+      "certainty_note": "Party congress proceedings and programme text fully preserved.",
       "cross_references": [
         "1875-GOTHA_PROGRAMME",
         "1899-BERNSTEIN_REVISIONISM"
@@ -464,23 +584,23 @@
       ],
       "sources": [
         {
-          "name": "关于乌契阿莱条约（1889年）的意大利和埃塞俄比亚外交通信",
+          "name": "Italian and Ethiopian diplomatic correspondence regarding the Treaty of Wuchale, 1889–93",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "哈罗德·G·马库斯，《孟尼利克二世的一生与时代：埃塞俄比亚1844-1913》（1975年）",
+          "name": "Harold G. Marcus, The Life and Times of Menelik II: Ethiopia 1844–1913 (1975)",
           "type": "historiographic_consensus",
           "contemporary": false
         },
         {
-          "name": "雷蒙德·约纳斯，《阿杜瓦战役：帝国时代的非洲胜利》（2011年）",
+          "name": "Raymond Jonas, The Battle of Adwa: African Victory in the Age of Empire (2011)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "外交记录保存完好。南部战役的确切时间表有时是近似的，因为埃塞俄比亚使用不同的日历系统，而欧洲资料有限。",
+      "certainty_note": "Diplomatic records well-preserved. The exact chronology of southern campaigns is sometimes approximate, as Ethiopian records used different calendar systems and European sources had limited access.",
       "cross_references": [
         "1889-TREATY_OF_WUCHALE",
         "1896-BATTLE_OF_ADWA"
@@ -501,18 +621,18 @@
       ],
       "sources": [
         {
-          "name": "美国国会记录和总统信息，1891-92",
+          "name": "US Congressional Record and presidential messages, 1891–92",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Joyce S. Goldberg，《巴尔的摩事件》（1986）",
+          "name": "Joyce S. Goldberg, The 'Baltimore' Affair (1986)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "在美国和智利外交及新闻来源中广泛记录。",
+      "certainty_note": "Extensively documented in American and Chilean diplomatic and press sources.",
       "cross_references": [
         "1891-003"
       ]
@@ -531,23 +651,23 @@
       ],
       "sources": [
         {
-          "name": "美国驻莫斯科和圣彼得堡领事报告，1891年（美国国务院档案）",
+          "name": "Reports of the American consul in Moscow and St Petersburg, 1891 (US State Department records)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "约翰·D·克莱尔和什洛莫·兰布罗萨（编），《大屠杀：现代俄罗斯历史上的反犹暴力》（1992年）",
+          "name": "John D. Klier and Shlomo Lambroza (eds.), Pogroms: Anti-Jewish Violence in Modern Russian History (1992)",
           "type": "historiographic_consensus",
           "contemporary": false
         },
         {
-          "name": "西蒙·库兹涅茨，《俄罗斯犹太人移民美国》，美国历史视角（1975年）",
+          "name": "Simon Kuznets, 'Immigration of Russian Jews to the United States,' Perspectives in American History (1975)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "在俄罗斯行政记录、美国领事报告和移民统计中均有记载。莫斯科驱逐者的确切人数因来源而异（估计在14,000至30,000人之间）。",
+      "certainty_note": "Documented in Russian administrative records, American consular reports, and emigration statistics. Exact numbers of Moscow expellees vary by source (estimates range from 14,000 to 30,000).",
       "cross_references": [
         "1882-MAY_LAWS",
         "1903-KISHINEV_POGROM",
@@ -557,5 +677,78 @@
   ],
   "disconfirming_evidence": "以上事件基于广泛接受的历史记载。部分事件的精确日期和细节在学术研究中存在合理争议。",
   "historiographic_note": "1890年代的历史记录以欧洲和北美资料为主。非洲、亚洲和太平洋岛民的视角在幸存记录中呈现不足。近年来的学术研究正在纠正这些偏见。",
-  "graph_edges": []
+  "graph_edges": [
+    {
+      "from": "1891-001",
+      "to": "1905-RUSSIAN_REVOLUTION",
+      "relation": "led_to",
+      "note": "饥荒暴露专制政权的无能，助长俄国社会的激进化"
+    },
+    {
+      "from": "1891-002",
+      "to": "1904-RUSSO_JAPANESE_WAR",
+      "relation": "led_to",
+      "note": "跨西伯利亚铁路把俄国势力投射到东亚，直接促成与日本的冲突"
+    },
+    {
+      "from": "1891-003",
+      "to": "1891-020",
+      "relation": "caused_by",
+      "note": "巴尔的摩事件是智利内战及美国被认为偏袒一方的直接后果"
+    },
+    {
+      "from": "1891-007",
+      "to": "1894-FRANCO_RUSSIAN_ALLIANCE",
+      "relation": "led_to",
+      "note": "1891年喀琅施塔得访问与外交接触是正式军事同盟的基础"
+    },
+    {
+      "from": "1891-007",
+      "to": "1914-WORLD_WAR_I",
+      "relation": "part_of",
+      "note": "法俄接近是导向第一次世界大战的同盟体系中的关键一环"
+    },
+    {
+      "from": "1891-008",
+      "to": "1893-FIRST_MATABELE_WAR",
+      "relation": "led_to",
+      "note": "公司治理与移民夺地激起恩德贝莱人的抵抗"
+    },
+    {
+      "from": "1891-012",
+      "to": "1901-AUSTRALIAN_FEDERATION",
+      "relation": "led_to",
+      "note": "罢工失败推动澳大利亚工党成立，进而影响联邦政治"
+    },
+    {
+      "from": "1891-016",
+      "to": "1891-007",
+      "relation": "contemporary_with",
+      "note": "三国同盟续签与法俄接近是同一轮同盟重组中的对冲动作"
+    },
+    {
+      "from": "1891-019",
+      "to": "1896-BATTLE_OF_ADWA",
+      "relation": "led_to",
+      "note": "孟尼利克二世的国家建设与《乌查利条约》争议使意埃走向军事对抗"
+    },
+    {
+      "from": "1891-021",
+      "to": "1897-FIRST_ZIONIST_CONGRESS",
+      "relation": "led_to",
+      "note": "俄国的迫害与大规模驱逐加速了包括锡安主义在内的犹太人政治组织化"
+    },
+    {
+      "from": "1891-018",
+      "to": "1914-SPD_WAR_VOTE",
+      "relation": "led_to",
+      "note": "《爱尔福特纲领》中理论与实践的张力预示了1914年社民党在战争拨款问题上的危机"
+    },
+    {
+      "from": "1891-017",
+      "to": "1892-MSIRI_KILLED",
+      "relation": "led_to",
+      "note": "刚果自由邦向加丹加的远征以杀死姆西里、彻底征服该地区告终"
+    }
+  ]
 }

@@ -54,6 +54,10 @@ for (const file of files) {
   for (const stage of doc.points ?? []) {
     const coords = stage?.coords;
     if (!Array.isArray(coords) || coords.length < 2) continue;
+    // Number(null) === 0 and Number('') === 0, so a "no coordinates" pair used
+    // to be written as [0, 0] and drawn in the Gulf of Guinea. Reject any
+    // non-numeric entry before converting.
+    if (coords[0] === null || coords[1] === null || coords[0] === '' || coords[1] === '') continue;
     const lon = Number(coords[0]);
     const lat = Number(coords[1]);
     if (!Number.isFinite(lon) || !Number.isFinite(lat)) continue;

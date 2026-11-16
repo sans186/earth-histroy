@@ -1,7 +1,7 @@
 {
   "year": 1508,
   "year_label": "1508 CE",
-  "era_context": "The early 16th century saw the Portuguese maritime empire expanding under Manuel I, the Ottoman Empire under Bayezid II, the Ming Dynasty in China under the Zhengde Emperor, and the Mughal Empire emerging under Babur. The Italian Renaissance was at its height, with Michelangelo beginning work on the Sistine Chapel ceiling (1508\u20131512). In the Americas, the Aztec and Inca empires remained at their territorial peaks. This was a period of significant global transformation, with European expansion beginning to reshape trade networks.",
+  "era_context": "The early 16th century saw the Portuguese maritime empire expanding under Manuel I, the Ottoman Empire under Bayezid II, the Ming Dynasty in China under the Zhengde Emperor, and the Mughal Empire emerging under Babur. The Italian Renaissance was at its height, with Michelangelo beginning work on the Sistine Chapel ceiling (1508–1512). In the Americas, the Aztec and Inca empires remained at their territorial peaks. This was a period of significant global transformation, with European expansion beginning to reshape trade networks.",
   "documentation_level": "rich",
   "geographic_coverage_gaps": [],
   "events": [
@@ -9,9 +9,9 @@
       "id": "1508-001",
       "title": "Michelangelo begins painting the Sistine Chapel ceiling",
       "region": "Papal States (Vatican, Rome)",
-      "coordinates_approx": "41.90\u00b0N, 12.46\u00b0E",
+      "coordinates_approx": "41.90°N, 12.46°E",
       "category": "cultural",
-      "description": "Michelangelo Buonarroti began work on the ceiling of the Sistine Chapel in the Vatican, commissioned by Pope Julius II. The project would take approximately four years to complete (1508\u20131512) and would become one of the most iconic works of the Italian Renaissance. The ceiling features the famous 'Creation of Adam' and numerous other biblical scenes. The work required Michelangelo to develop innovative techniques for painting on the curved vault and demonstrated his mastery of human anatomy and composition. The Sistine Chapel ceiling remains one of the most celebrated artistic achievements in human history.",
+      "description": "Michelangelo Buonarroti began work on the ceiling of the Sistine Chapel in the Vatican, commissioned by Pope Julius II. The project would take approximately four years to complete (1508–1512) and would become one of the most iconic works of the Italian Renaissance. The ceiling features the famous 'Creation of Adam' and numerous other biblical scenes. The work required Michelangelo to develop innovative techniques for painting on the curved vault and demonstrated his mastery of human anatomy and composition. The Sistine Chapel ceiling remains one of the most celebrated artistic achievements in human history.",
       "key_figures": [
         "Michelangelo Buonarroti (artist)",
         "Pope Julius II (patron)"
@@ -43,16 +43,16 @@
       "id": "1508-002",
       "title": "Portuguese expansion in Indian Ocean under Afonso de Albuquerque",
       "region": "Indian Ocean and coastal regions",
-      "coordinates_approx": "0.00\u00b0N, 70.00\u00b0E",
+      "coordinates_approx": "0.00°N, 70.00°E",
       "category": "military",
-      "description": "Afonso de Albuquerque continued his campaigns to establish Portuguese dominance in the Indian Ocean. In 1508, he was consolidating Portuguese control over key ports and trade routes. Albuquerque's strategy involved capturing strategic coastal cities and establishing fortified trading posts. His campaigns were characterized by aggressive naval tactics and the use of superior European naval technology. By 1508, Albuquerque had become the dominant Portuguese military figure in Asia and was laying the groundwork for the Portuguese Estado da \u00cdndia.",
+      "description": "Afonso de Albuquerque continued his campaigns to establish Portuguese dominance in the Indian Ocean. In 1508, he was consolidating Portuguese control over key ports and trade routes. Albuquerque's strategy involved capturing strategic coastal cities and establishing fortified trading posts. His campaigns were characterized by aggressive naval tactics and the use of superior European naval technology. By 1508, Albuquerque had become the dominant Portuguese military figure in Asia and was laying the groundwork for the Portuguese Estado da Índia.",
       "key_figures": [
         "Afonso de Albuquerque (Portuguese Governor-General)",
         "Francisco de Almeida (previous Portuguese Governor-General)"
       ],
       "sources": [
         {
-          "name": "Comment\u00e1rios do Grande Afonso Dalboquerque",
+          "name": "Commentários do Grande Afonso Dalboquerque",
           "type": "primary_text",
           "contemporary": false
         },
@@ -72,7 +72,7 @@
       "id": "1508-003",
       "title": "League of Cambrai formed against Venice",
       "region": "Italy and Europe",
-      "coordinates_approx": "45.44\u00b0N, 12.34\u00b0E",
+      "coordinates_approx": "45.44°N, 12.34°E",
       "category": "political",
       "description": "The League of Cambrai was formed in December 1508, uniting Pope Julius II, the Holy Roman Emperor Maximilian I, King Louis XII of France, and King Ferdinand of Spain against the Republic of Venice. The league was motivated by Venice's territorial expansion and its control of Mediterranean trade. The formation of the league marked a significant shift in Italian and European politics, as traditional rivals united against Venetian power. The league would wage war against Venice in the following years, significantly weakening Venetian power and influence.",
       "key_figures": [
@@ -96,15 +96,13 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "The formation of the League of Cambrai in December 1508 is well-documented in diplomatic records.",
-      "cross_references": [
-        "1509-006 (War of the League of Cambrai)"
-      ]
+      "cross_references": []
     },
     {
       "id": "1508-004",
       "title": "Zhengde Emperor's reign in Ming China",
       "region": "Ming Dynasty China",
-      "coordinates_approx": "39.90\u00b0N, 116.41\u00b0E",
+      "coordinates_approx": "39.90°N, 116.41°E",
       "category": "political",
       "description": "The Zhengde Emperor continued his reign, characterized by increasing eunuch influence and the emperor's personal indulgence. The eunuch Liu Jin wielded enormous power over state affairs. Despite governance issues, the Ming Dynasty maintained economic prosperity and cultural vitality. The period saw continued artistic and literary achievements, though political stability was compromised by the emperor's disinterest in traditional governance.",
       "key_figures": [
@@ -126,7 +124,7 @@
       "id": "1508-005",
       "title": "Babur's military campaigns in Central Asia",
       "region": "Central Asia",
-      "coordinates_approx": "37.77\u00b0N, 72.50\u00b0E",
+      "coordinates_approx": "37.77°N, 72.50°E",
       "category": "military",
       "description": "Babur, the future founder of the Mughal Empire, was engaged in military campaigns to expand his territory in Central Asia. He was consolidating power and eliminating rival sultanates. Babur's military innovations, including the use of gunpowder artillery and cavalry tactics, were beginning to reshape warfare in the region. His campaigns in this period laid the groundwork for his eventual conquest of northern India.",
       "key_figures": [
@@ -152,12 +150,6 @@
       "to": "1512-003",
       "relation": "led_to",
       "note": "Michelangelo's work on the Sistine Chapel ceiling continued until 1512"
-    },
-    {
-      "from": "1508-003",
-      "to": "1509-006",
-      "relation": "led_to",
-      "note": "The League of Cambrai led to war against Venice in 1509"
     }
   ]
 }

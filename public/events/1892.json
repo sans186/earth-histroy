@@ -12,174 +12,298 @@
   "events": [
     {
       "id": "1892-001",
-      "title": "纽约州禁止卡南代瓜湖商业捕捞",
-      "region": "美国（纽约州）",
-      "coordinates_approx": "42.9°N, 77.3°W",
-      "category": "environmental",
-      "description": "1892年纽约州通过立法限制卡南代瓜湖的商业捕捞，标志早期环境保护努力。",
-      "key_figures": [],
+      "title": "埃利斯岛移民检查站启用",
+      "region": "美国（纽约）",
+      "coordinates_approx": "40.70, -74.04",
+      "category": "political",
+      "description": "1892年1月1日，纽约港的埃利斯岛移民检查站正式启用，用以处理主要来自南欧与东欧的大规模移民潮。此后它成为美国最主要的移民入境门户，数十年间接待数百万人。",
+      "key_figures": [
+        "本杰明·哈里森（美国总统）",
+        "约翰·B·韦伯上校（首任站长）"
+      ],
       "sources": [
         {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "U.S. government records and immigration documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper coverage",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ellis Island Immigration Station records and archives",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
+      "certainty_note": "The January 1, 1892 opening date is definitively documented in U.S. government records.",
       "cross_references": []
     },
     {
       "id": "1892-002",
+      "title": "宾夕法尼亚霍姆斯特德钢铁大罢工",
+      "region": "美国（宾夕法尼亚州）",
+      "coordinates_approx": "40.37, -79.86",
+      "category": "economic",
+      "description": "1892年6月30日，卡内基钢铁公司霍姆斯特德工厂工人因减薪与恶劣劳动条件罢工，由钢铁工人联合会领导。资方亨利·克莱·弗里克雇用平克顿侦探护厂并引发武装冲突，罢工最终失败，成为美国劳工史上最激烈的冲突之一。",
+      "key_figures": [
+        "亨利·克莱·弗里克（卡内基钢铁经理）",
+        "安德鲁·卡内基（公司所有者）",
+        "休·奥唐奈（罢工领袖）",
+        "亚历山大·伯克曼（无政府主义者，刺杀弗里克未遂）"
+      ],
+      "sources": [
+        {
+          "name": "U.S. government records and congressional reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Carnegie Steel Company records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper coverage",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Strikers' correspondence and union records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The strike's start date (June 30, 1892), the July 6 clash, and the November 1892 conclusion are definitively documented in government records and contemporary sources.",
+      "cross_references": []
+    },
+    {
+      "id": "1892-003",
+      "title": "美国人民党（平民党）召开首次全国代表大会",
+      "region": "美国（内布拉斯加州奥马哈）",
+      "coordinates_approx": "41.26, -95.94",
+      "category": "political",
+      "description": "1892年7月4日，代表农民与工人利益、反对工业资本与东部金融势力的人民党在奥马哈召开首次全国代表大会，提出包括白银自由铸造、铁路国有化等主张的《奥马哈纲领》，深刻影响了此后美国进步主义政治。",
+      "key_figures": [
+        "詹姆斯·B·韦弗（总统候选人）",
+        "玛丽·伊丽莎白·利斯（平民党活动家）",
+        "威廉·詹宁斯·布赖恩（后受平民主义影响的民主党候选人）"
+      ],
+      "sources": [
+        {
+          "name": "Populist Party records and convention proceedings",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper coverage",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Populist Party platform and manifestos",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The July 4, 1892 convention date and basic facts are definitively documented in party records and contemporary sources.",
+      "cross_references": [
+        "Related to 1896-008 (William McKinley elected president, defeating Populist-influenced candidate)"
+      ]
+    },
+    {
+      "id": "1892-004",
+      "title": "莉齐·波登被判谋杀罪不成立",
+      "region": "美国（马萨诸塞州）",
+      "coordinates_approx": "41.76, -71.16",
+      "category": "legal",
+      "description": "1892年6月，莉齐·波登因涉嫌在福尔里弗杀害父亲与继母受审，成为十九世纪最轰动的谋杀案之一。尽管存在指向她的间接证据，陪审团仍于6月20日裁定无罪，案件至今未有定论。",
+      "key_figures": [
+        "莉齐·波登（被告）",
+        "安德鲁·波登（被害人，父亲）",
+        "艾比·杜菲·格雷·波登（被害人，继母）"
+      ],
+      "sources": [
+        {
+          "name": "Trial records and court documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper coverage",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Borden, Lizzie. Autobiography (compiled later)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The trial dates and June 20, 1892 acquittal are definitively documented in court records and contemporary sources.",
+      "cross_references": []
+    },
+    {
+      "id": "1892-005",
+      "title": "芝加哥世界哥伦布博览会继续施工",
+      "region": "美国（伊利诺伊州芝加哥）",
+      "coordinates_approx": "41.81, -87.63",
+      "category": "cultural",
+      "description": "为纪念哥伦布抵达美洲四百周年，博览会原定1892年开幕，因工期延误推迟至1893年5月1日。1892年全年园区建筑与景观快速成形，由丹尼尔·伯纳姆主持设计、奥姆斯特德负责园林。",
+      "key_figures": [
+        "丹尼尔·伯纳姆（总建筑师）",
+        "弗雷德里克·劳·奥姆斯特德（园林设计师）"
+      ],
+      "sources": [
+        {
+          "name": "World's Columbian Exposition construction records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper coverage and photographs",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The ongoing construction of the exposition in 1892 is documented in construction records and contemporary sources.",
+      "cross_references": [
+        "Related to 1893-001 (World's Columbian Exposition opens)"
+      ]
+    },
+    {
+      "id": "1892-006",
+      "title": "鲁道夫·狄塞尔取得柴油机专利",
+      "region": "德国（奥格斯堡）",
+      "coordinates_approx": "48.37, 10.90",
+      "category": "technological",
+      "description": "1892年，德国工程师鲁道夫·狄塞尔为其压燃式内燃机申请并获得专利（2月23日）。与汽油机原理不同，新机热效率更高、可用更廉价燃料，后来成为重型运输与工业动力的基础。",
+      "key_figures": [
+        "鲁道夫·狄塞尔（发明人）",
+        "尼古劳斯·奥托（早期内燃机发明人）"
+      ],
+      "sources": [
+        {
+          "name": "German patent records and documentation",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Diesel, Rudolf. Theory and Construction of a Rational Heat Motor (1897) — technical publication",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary scientific journals and technical publications",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The February 23, 1892 patent date is definitively documented in German patent records.",
+      "cross_references": []
+    },
+    {
+      "id": "1892-007",
+      "title": "弗朗西斯·贝拉米撰写《效忠誓词》",
+      "region": "美国（马萨诸塞州波士顿）",
+      "coordinates_approx": "42.36, -71.06",
+      "category": "cultural",
+      "description": "1892年，浸礼会牧师兼作家弗朗西斯·贝拉米为《青年之友》杂志撰写《效忠誓词》，用于纪念哥伦布抵达美洲四百周年，原拟由学童在哥伦布博览会开幕仪式上诵读，此后成为美国学校日常仪式。",
+      "key_figures": [
+        "弗朗西斯·贝拉米（作者）"
+      ],
+      "sources": [
+        {
+          "name": "Youth's Companion magazine (September 8, 1892)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Bellamy, Francis. Writings and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper coverage",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The 1892 composition of the Pledge of Allegiance by Francis Bellamy is definitively documented in the Youth's Companion magazine.",
+      "cross_references": [
+        "Related to 1893-001 (World's Columbian Exposition, for which the pledge was written)"
+      ]
+    },
+    {
+      "id": "1892-008",
       "title": "法国-达荷美战争：贝汉津被俘",
       "region": "西非（达荷美）",
-      "coordinates_approx": "6.5°N, 2.6°E",
+      "coordinates_approx": "9.31, 2.63",
       "category": "military",
       "description": "1892年，法国对达荷美王国发动全面军事进攻，最终击败贝汉津国王的军队。贝汉津逃往北部，法国建立了对达荷美的保护国统治。",
       "key_figures": [],
       "sources": [
         {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
-    },
-    {
-      "id": "1892-003",
-      "title": "洛克菲勒的标准石油公司重组为信托",
-      "region": "美国（俄亥俄州克利夫兰）",
-      "coordinates_approx": "41.5°N, 81.7°W",
-      "category": "economic",
-      "description": "1892年，标准石油公司因应俄亥俄州最高法院的反垄断裁决进行重组，将业务转移到新泽西州的标准石油信托旗下。这一重组展示了早期反垄断执法的局限性。",
-      "key_figures": [],
-      "sources": [
+          "name": "French military records and official reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
         {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
-    },
-    {
-      "id": "1892-004",
-      "title": "诗人沃尔特·惠特曼去世",
-      "region": "美国（新泽西州卡姆登）",
-      "coordinates_approx": "39.9°N, 75.1°W",
-      "category": "cultural",
-      "description": "1892年3月26日，美国著名诗人沃尔特·惠特曼去世，享年72岁。惠特曼的《草叶集》是美国文学的里程碑作品，以其自由诗体和民主主题深远影响了后世文学。",
-      "key_figures": [],
-      "sources": [
+          "name": "Contemporary newspaper coverage",
+          "type": "primary_text",
+          "contemporary": true
+        },
         {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
+          "name": "Dahomey oral traditions and later compilations",
+          "type": "oral_tradition",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
+      "certainty": "probable",
+      "certainty_note": "The 1892 phase of the Dahomey Expedition is documented in French military records, though the exact timeline of events within the year is less precisely recorded than the overall campaign.",
+      "cross_references": [
+        "Related to 1894-008 (capture of Abomey, conclusion of the campaign)"
+      ]
     },
     {
-      "id": "1892-005",
-      "title": "格罗弗·克利夫兰赢得总统大选",
-      "region": "美国",
-      "coordinates_approx": "38.9°N, 77.0°W",
-      "category": "political",
-      "description": "1892年11月，民主党人格罗弗·克利夫兰击败在任总统本杰明·哈里森，赢得总统选举。克利夫兰成为美国历史上唯一一位在两个非连续任期担任总统的人。",
-      "key_figures": [],
-      "sources": [
-        {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
-    },
-    {
-      "id": "1892-006",
+      "id": "1892-009",
       "title": "英国独立工党在布拉德福德成立",
       "region": "英国（布拉德福德）",
-      "coordinates_approx": "53.8°N, 1.8°W",
+      "coordinates_approx": "55.86, -3.43",
       "category": "political",
       "description": "1892年1月，英国独立工党在布拉德福德成立，由凯尔·哈迪领导。独立工党致力于推动议会社会主义，为1900年工党的成立奠定了基础。",
       "key_figures": [],
       "sources": [
         {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
-    },
-    {
-      "id": "1892-007",
-      "title": "阿根廷经济危机",
-      "region": "阿根廷",
-      "coordinates_approx": "34.6°S, 58.4°W",
-      "category": "economic",
-      "description": "1892年，阿根廷经历严重经济危机，巴林银行因对阿根廷过度贷款而面临崩溃。英国央行组织了救援行动，但危机揭示了新兴市场金融的脆弱性。",
-      "key_figures": [],
-      "sources": [
+          "name": "British parliamentary records and election documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
         {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
-    },
-    {
-      "id": "1892-008",
-      "title": "俄罗斯大饥荒蔓延",
-      "region": "俄罗斯帝国（伏尔加河流域）",
-      "coordinates_approx": "52.0°N, 48.0°E",
-      "category": "demographic",
-      "description": "1891-1892年的俄罗斯大饥荒持续蔓延，影响了伏尔加河流域和乌拉尔地区约2000万人，估计造成超过40万人死亡。饥荒暴露了沙皇政府的行政无能，促使托尔斯泰和契诃夫等知识分子组织民间救济。",
-      "key_figures": [],
-      "sources": [
+          "name": "Contemporary newspaper coverage",
+          "type": "primary_text",
+          "contemporary": true
+        },
         {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Hardie, Keir. Writings and correspondence",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
-    },
-    {
-      "id": "1892-009",
-      "title": "霍乱疫情袭击汉堡",
-      "region": "德国（汉堡）",
-      "coordinates_approx": "53.6°N, 10.0°E",
-      "category": "demographic",
-      "description": "1892年，霍乱疫情在德国汉堡爆发，造成约8,600人死亡。疫情暴露了城市卫生设施的不足，促使汉堡改革供水系统。",
-      "key_figures": [],
-      "sources": [
-        {
-          "name": "当代历史记录及学术研究",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "该事件在历史记录中有充分记载。",
-      "cross_references": []
+      "certainty_note": "Keir Hardie's election to Parliament in 1892 is definitively documented in parliamentary records.",
+      "cross_references": [
+        "Related to 1893-002 (Independent Labour Party founded)"
+      ]
     },
     {
       "id": "1892-010",
@@ -195,23 +319,23 @@
       ],
       "sources": [
         {
-          "name": "日本和中国政府记录及外交通信",
+          "name": "Japanese and Chinese government records and diplomatic correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "韩国政府记录及通信",
+          "name": "Korean government records and correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "当代报纸报道",
+          "name": "Contemporary newspaper accounts",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "1892年紧张局势升级在外交记录中有记载，但该年度事件的确切时间线不如1894年战争爆发时记录得精确。",
+      "certainty_note": "The escalation of tensions in 1892 is documented in diplomatic records, though the exact timeline of events within the year is less precisely recorded than the outbreak of war in 1894.",
       "cross_references": [
         "Related to 1893-005 (tensions escalate further)",
         "Leads to 1894-001 (First Sino-Japanese War)"
@@ -220,5 +344,42 @@
   ],
   "disconfirming_evidence": "以上事件基于广泛接受的历史记载。部分事件的精确日期和细节在学术研究中存在合理争议。",
   "historiographic_note": "1890年代的历史记录以欧洲和北美资料为主。非洲、亚洲和太平洋岛民的视角在幸存记录中呈现不足。近年来的学术研究正在纠正这些偏见。",
-  "graph_edges": []
+  "graph_edges": [
+    {
+      "from": "1892-002",
+      "to": "1894-004",
+      "relation": "contemporary_with",
+      "note": "1892年霍姆斯特德罢工与1894年普尔曼罢工同属镀金时代的重大劳资冲突"
+    },
+    {
+      "from": "1892-003",
+      "to": "1896-008",
+      "relation": "led_to",
+      "note": "平民党1892年大会及其纲领影响了1896年总统选举"
+    },
+    {
+      "from": "1892-005",
+      "to": "1893-001",
+      "relation": "led_to",
+      "note": "1892年的施工使世界哥伦布博览会得以在1893年开幕"
+    },
+    {
+      "from": "1892-007",
+      "to": "1893-001",
+      "relation": "led_to",
+      "note": "1892年撰写的《效忠誓词》在1893年博览会开幕式上诵读"
+    },
+    {
+      "from": "1892-009",
+      "to": "1893-002",
+      "relation": "led_to",
+      "note": "凯尔·哈迪1892年当选议员，促成他1893年创建独立工党"
+    },
+    {
+      "from": "1892-010",
+      "to": "1893-005",
+      "relation": "led_to",
+      "note": "1892年中日围绕朝鲜的紧张在1893年进一步升级"
+    }
+  ]
 }

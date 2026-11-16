@@ -15,9 +15,9 @@
       "id": "-1676-001",
       "title": "Mycenaean palatial culture at its height",
       "region": "Aegean, Mainland Greece",
-      "coordinates_approx": "37.7\u00b0N, 23.4\u00b0E",
+      "coordinates_approx": "37.7°N, 23.4°E",
       "category": "cultural",
-      "description": "The Mycenaean palatial centres of mainland Greece\u2014Mycenae, Tiryns, Pylos, and others\u2014are at the height of their power and influence. Linear B texts document a complex administrative system, military organisation, and religious practices. The palaces are centres of craft production, trade, and political authority. This is the Late Helladic IIIB period, characterised by monumental architecture, sophisticated pottery, and extensive trade networks. Within a generation, these palaces will be destroyed and the palatial system will collapse.",
+      "description": "The Mycenaean palatial centres of mainland Greece—Mycenae, Tiryns, Pylos, and others—are at the height of their power and influence. Linear B texts document a complex administrative system, military organisation, and religious practices. The palaces are centres of craft production, trade, and political authority. This is the Late Helladic IIIB period, characterised by monumental architecture, sophisticated pottery, and extensive trade networks. Within a generation, these palaces will be destroyed and the palatial system will collapse.",
       "key_figures": [],
       "sources": [
         {
@@ -41,7 +41,7 @@
       "id": "-1676-002",
       "title": "Shang dynasty in China continues under late Shang rule",
       "region": "China, Yellow River valley",
-      "coordinates_approx": "34.3\u00b0N, 114.5\u00b0E",
+      "coordinates_approx": "34.3°N, 114.5°E",
       "category": "political",
       "description": "The Shang dynasty continues its rule in China, with the late Shang period characterised by increasingly elaborate bronze-working, oracle bone divination, and complex administrative structures. The Shang kings maintain control over the Yellow River valley and surrounding regions. This period is well-documented through oracle bones, bronze inscriptions, and archaeological evidence. The Shang dynasty will fall to the Zhou conquest within a few decades.",
       "key_figures": [],
@@ -69,12 +69,5 @@
   ],
   "disconfirming_evidence": "The Mycenaean palatial system is sometimes presented as stable and prosperous in this period, but evidence suggests underlying stress: Linear B texts document military preparations, resource management problems, and possibly labour unrest. The collapse of the palaces may have been triggered by external invasion (the traditional 'Dorian invasion' hypothesis), but modern scholarship emphasises systemic failure, climate change, and internal instability. The Shang dynasty's dating is highly contested; some scholars place the Shang-Zhou transition as early as 1050 BCE, while others argue for dates as late as 1000 BCE or even later.",
   "historiographic_note": "The Mycenaean period is well-documented through Linear B texts and archaeology, but the texts are primarily administrative and do not provide narrative history. The perspective is that of the palatial elite; the lives of ordinary people are largely invisible. For the Shang dynasty, oracle bones provide a window into religious and political concerns, but they are fragmentary and often difficult to interpret. The absolute chronology of the Shang is one of the most debated issues in Chinese history, with implications for synchronising Chinese and Near Eastern chronologies.",
-  "graph_edges": [
-    {
-      "from": "-1676-001",
-      "to": "-1674-003",
-      "relation": "led_to",
-      "note": "Mycenaean palatial prosperity precedes the collapse of the palace system"
-    }
-  ]
+  "graph_edges": []
 }

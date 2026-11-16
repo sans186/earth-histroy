@@ -29,7 +29,7 @@
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Shalmaneser III's annals document his campaigns, but the precise year-by-year sequence is reconstructed from regnal chronology. The dating is secure within \u00b11\u20132 years based on Assyrian king lists.",
+      "certainty_note": "Shalmaneser III's annals document his campaigns, but the precise year-by-year sequence is reconstructed from regnal chronology. The dating is secure within ±1–2 years based on Assyrian king lists.",
       "cross_references": [
         "Part of series of campaigns documented in -844-001 through -841-002"
       ]
@@ -46,7 +46,7 @@
       ],
       "sources": [
         {
-          "name": "Hebrew Bible (2 Kings 10\u201313)",
+          "name": "Hebrew Bible (2 Kings 10–13)",
           "type": "later_compilation",
           "contemporary": false
         },
@@ -64,19 +64,13 @@
     }
   ],
   "disconfirming_evidence": "The dating of Jehu's reign is disputed, with some scholars placing it several years earlier or later. The biblical account is not contemporary and may be legendary or heavily stylized. Archaeological evidence for the events described is limited. The significance of Jehu's reign may be overstated in biblical sources, which are written from a particular religious perspective. Some scholars question whether Jehu's religious reforms were as extensive as biblical sources suggest.",
-  "historiographic_note": "The historical record for 840 BCE is extremely sparse and relies on correlation between Assyrian and biblical sources. The Assyrian sources are contemporary but propagandistic and focused on military achievements. The biblical sources are much later (written 200\u2013400 years after the events) and shaped by religious agendas. Archaeological evidence is sparse and difficult to date precisely. The record is heavily weighted toward political-military events; economic, social, and cultural developments are almost entirely absent. The perspective of the common people is entirely absent.",
+  "historiographic_note": "The historical record for 840 BCE is extremely sparse and relies on correlation between Assyrian and biblical sources. The Assyrian sources are contemporary but propagandistic and focused on military achievements. The biblical sources are much later (written 200–400 years after the events) and shaped by religious agendas. Archaeological evidence is sparse and difficult to date precisely. The record is heavily weighted toward political-military events; economic, social, and cultural developments are almost entirely absent. The perspective of the common people is entirely absent.",
   "graph_edges": [
     {
       "from": "-840-001",
       "to": "-839-001",
       "relation": "led_to",
       "note": "Continuation of Assyrian campaign strategy in subsequent years"
-    },
-    {
-      "from": "-840-002",
-      "to": "-835-001",
-      "relation": "led_to",
-      "note": "Jehu's dynasty continues for several more decades"
     }
   ]
 }
