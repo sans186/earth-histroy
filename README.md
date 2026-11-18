@@ -1,12 +1,20 @@
 # 寰宇纪年 · Earth Historical Timeline
 
-> *A personal-learning static visualisation of world history across time and space — built with CesiumJS, MapLibre GL and Vue 3.*
+**把 18,000 条历史事件、96 场战争、418 位人物，钉在一颗能按年份拖动的 3D 地球上。**
 
-在 3D 地球或 2D 地图上按年份浏览历史事件、历史政区、人物足迹与战争，并对同一时期的不同文明做横向对照。
+拖动时间轴，公元前 3200 年到 2026 年的政区边界、历史事件、人物足迹与战争会跟着一起重绘。纯静态站点，没有后端，数据按年份切片，浏览器用到哪一年才取哪一年。
+
+[**在线体验 →**](https://earth-histroy.pages.dev)　·　[MIT 许可](./LICENSE)　·　Vue 3 + TypeScript + CesiumJS + MapLibre
+
+> *An interactive 3D globe of world history — 18k events, 96 wars, 418 figures, scrubbed by year.*
+
+> 个人学习用的静态历史时空可视化实验，**不是史料数据库，不是学术工具**。数据可信度、争议与勘误口径见下方[定位与免责](#定位与免责)。
+
+![界面示意：3D 地球、年份时间轴与事件列表](./docs/images/hero.svg)
 
 | | |
 |------|------|
-| 在线演示 | <https://earth.tazume-sans.cn/> |
+| 在线演示 | <https://earth-histroy.pages.dev> |
 | 仓库 | <https://github.com/sans186/earth-histroy> |
 | 代码许可 | [MIT](./LICENSE) |
 | 数据许可 | 分层，见 [NOTICE](./NOTICE) 与 [开源说明 §3](./docs/开源说明.md) |

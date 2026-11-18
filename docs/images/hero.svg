@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-labelledby="title desc">
+  <title id="title">寰宇纪年界面示意</title>
+  <desc id="desc">示意图：左侧 3D 地球与事件标记，右侧当期事件列表，底部为公元前 3200 年至 2026 年的时间轴。非实际截图。</desc>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1b4b78" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#0d2136" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0a0f18" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12314f"/>
+      <stop offset="100%" stop-color="#0a1c2e"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3d7fb5"/>
+      <stop offset="100%" stop-color="#7fc4a8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="#0a0f18"/>
+
+  <text x="64" y="72" fill="#e8eef6" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="30" font-weight="600" letter-spacing="1">寰宇纪年</text>
+  <text x="64" y="102" fill="#6d8aa8" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="15" letter-spacing="3">EARTH HISTORICAL TIMELINE</text>
+
+  <circle cx="470" cy="352" r="300" fill="url(#glow)"/>
+  <circle cx="470" cy="352" r="232" fill="url(#ocean)" stroke="#2b5b86" stroke-width="1.2"/>
+
+  <g stroke="#28506f" stroke-width="0.8" fill="none" opacity="0.65">
+    <ellipse cx="470" cy="352" rx="232" ry="70"/>
+    <ellipse cx="470" cy="352" rx="232" ry="140"/>
+    <ellipse cx="470" cy="352" rx="232" ry="196"/>
+    <ellipse cx="470" cy="352" rx="70" ry="232"/>
+    <ellipse cx="470" cy="352" rx="140" ry="232"/>
+    <ellipse cx="470" cy="352" rx="196" ry="232"/>
+    <line x1="238" y1="352" x2="702" y2="352"/>
+    <line x1="470" y1="120" x2="470" y2="584"/>
+  </g>
+
+  <g fill="#2f6b52" opacity="0.85">
+    <path d="M352 214c46-16 92-8 120 14 20 16 10 40-6 58-22 26-58 34-86 20-26-14-38-44-28-92z"/>
+    <path d="M392 348c34-6 58 16 60 46 2 34-18 64-44 92-18 20-40 16-46-10-8-38 2-78 30-128z"/>
+    <path d="M520 232c30-4 54 16 52 40-2 22-20 32-42 30-24-2-38-22-32-44 4-14 10-24 22-26z"/>
+    <path d="M540 300c40-8 74 10 84 40 8 26-8 44-34 44-34 0-62-24-64-56-1-14 4-24 14-28z"/>
+    <path d="M604 366c22-4 38 10 36 30-2 24-18 40-38 38-18-2-26-20-22-40 4-16 10-26 24-28z"/>
+  </g>
+
+  <g fill="#7fc4a8">
+    <circle cx="404" cy="286" r="3.4" opacity="0.95"/>
+    <circle cx="452" cy="330" r="3.4" opacity="0.95"/>
+    <circle cx="512" cy="268" r="3.4" opacity="0.95"/>
+    <circle cx="566" cy="330" r="3.4" opacity="0.95"/>
+    <circle cx="610" cy="386" r="3.4" opacity="0.95"/>
+    <circle cx="372" cy="420" r="3.4" opacity="0.95"/>
+  </g>
+  <g fill="none" stroke="#7fc4a8" stroke-width="1" opacity="0.35">
+    <circle cx="404" cy="286" r="9"/>
+    <circle cx="566" cy="330" r="9"/>
+    <circle cx="610" cy="386" r="9"/>
+  </g>
+
+  <g font-family="system-ui,-apple-system,'Segoe UI',sans-serif">
+    <text x="800" y="188" fill="#7fa6c9" font-size="14" letter-spacing="2">YEAR</text>
+    <text x="800" y="240" fill="#f2f6fb" font-size="44" font-weight="600">1911</text>
+    <text x="914" y="240" fill="#8aa8c4" font-size="16">辛亥革命</text>
+    <line x1="800" y1="264" x2="1200" y2="264" stroke="#22405c" stroke-width="1"/>
+
+    <g>
+      <rect x="800" y="288" width="400" height="92" rx="10" fill="#101b28" stroke="#1f3448" stroke-width="1"/>
+      <rect x="800" y="288" width="4" height="92" rx="2" fill="#7fc4a8"/>
+      <text x="824" y="316" fill="#dce8f4" font-size="15" font-weight="500">武昌起义爆发</text>
+      <text x="824" y="340" fill="#7d97af" font-size="12.5">1911-10-10 · 政治 · 中国</text>
+      <rect x="824" y="354" width="320" height="6" rx="3" fill="#233a4f"/>
+      <rect x="824" y="354" width="236" height="6" rx="3" fill="#2f5c7c"/>
+    </g>
+
+    <g>
+      <rect x="800" y="396" width="400" height="92" rx="10" fill="#101b28" stroke="#1f3448" stroke-width="1"/>
+      <rect x="800" y="396" width="4" height="92" rx="2" fill="#5f9ed1"/>
+      <text x="824" y="424" fill="#dce8f4" font-size="15" font-weight="500">墨西哥革命进入新阶段</text>
+      <text x="824" y="448" fill="#7d97af" font-size="12.5">1911-11-20 · 政治 · 美洲</text>
+      <rect x="824" y="462" width="320" height="6" rx="3" fill="#233a4f"/>
+      <rect x="824" y="462" width="168" height="6" rx="3" fill="#2f5c7c"/>
+    </g>
+
+    <g>
+      <rect x="800" y="504" width="400" height="92" rx="10" fill="#101b28" stroke="#1f3448" stroke-width="1"/>
+      <rect x="800" y="504" width="4" height="92" rx="2" fill="#c9a66b"/>
+      <text x="824" y="532" fill="#dce8f4" font-size="15" font-weight="500">南极探险队抵达南极点</text>
+      <text x="824" y="556" fill="#7d97af" font-size="12.5">1911-12-14 · 科学 · 南极洲</text>
+      <rect x="824" y="570" width="320" height="6" rx="3" fill="#233a4f"/>
+      <rect x="824" y="570" width="286" height="6" rx="3" fill="#2f5c7c"/>
+    </g>
+  </g>
+
+  <g font-family="system-ui,-apple-system,'Segoe UI',sans-serif">
+    <line x1="64" y1="646" x2="1216" y2="646" stroke="#1c2f42" stroke-width="2"/>
+    <line x1="64" y1="646" x2="884" y2="646" stroke="url(#bar)" stroke-width="2.5"/>
+
+    <g fill="#5f7791" font-size="12">
+      <text x="64" y="678" text-anchor="start">前 3200</text>
+      <text x="196" y="678" text-anchor="middle">前 2000</text>
+      <text x="328" y="678" text-anchor="middle">前 1000</text>
+      <text x="460" y="678" text-anchor="middle">公元 1</text>
+      <text x="592" y="678" text-anchor="middle">1000</text>
+      <text x="724" y="678" text-anchor="middle">1500</text>
+      <text x="856" y="678" text-anchor="middle">1900</text>
+      <text x="988" y="678" text-anchor="middle">1950</text>
+      <text x="1120" y="678" text-anchor="middle">2000</text>
+      <text x="1216" y="678" text-anchor="end">2026</text>
+    </g>
+
+    <g stroke="#3d566e" stroke-width="1">
+      <line x1="196" y1="638" x2="196" y2="650"/>
+      <line x1="328" y1="638" x2="328" y2="650"/>
+      <line x1="460" y1="638" x2="460" y2="650"/>
+      <line x1="592" y1="638" x2="592" y2="650"/>
+      <line x1="724" y1="638" x2="724" y2="650"/>
+      <line x1="856" y1="638" x2="856" y2="650"/>
+      <line x1="988" y1="638" x2="988" y2="650"/>
+      <line x1="1120" y1="638" x2="1120" y2="650"/>
+    </g>
+
+    <circle cx="874" cy="646" r="8" fill="#0a0f18" stroke="#7fc4a8" stroke-width="2.5"/>
+    <rect x="856" y="600" width="66" height="26" rx="6" fill="#132436" stroke="#2c5878" stroke-width="1"/>
+    <text x="889" y="618" text-anchor="middle" fill="#a9cbe4" font-size="13">1911</text>
+  </g>
+
+  <text x="1216" y="704" text-anchor="end" fill="#3f556b" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11">界面示意 · 非实际截图</text>
+</svg>
