@@ -5,7 +5,7 @@ import { STORIES } from '@/data/stories';
 import type { CompareSubject } from '@/lib/compare';
 import type { EventRef } from '@/lib/eventLinks';
 import { makePolityScope, withLifespan, type PolityScope } from '@/lib/polityScope';
-import type { StoryStep } from '@/types/story';
+import type { StoryStep, Story } from '@/types/story';
 import { useGlobeData } from '@/composables/useGlobeData';
 import {
   findEventById,
@@ -30,6 +30,7 @@ import MapStage from './components/MapStage.vue';
 import PersonCard from './components/PersonCard.vue';
 import PolityCard from './components/PolityCard.vue';
 import SidePanel from './components/SidePanel.vue';
+import StoryPicker from './components/StoryPicker.vue';
 import StoryPlayer from './components/StoryPlayer.vue';
 import TimeScale from './components/TimeScale.vue';
 import WarCard from './components/WarCard.vue';
@@ -47,7 +48,9 @@ const globeReady = ref(false);
 const presentation = ref(false);
 /** Guided story mode: a scripted tour with the sidebar folded away. */
 const storyOpen = ref(false);
-const story = STORIES[0];
+/** The chooser appears first; the player opens only once a story is picked. */
+const storyPickerOpen = ref(false);
+const story = ref<Story>(STORIES[0]);
 /** Year and camera to put back when the story closes. */
 let storyReturn: {
   year: number;
@@ -183,8 +186,20 @@ function currentCamera() {
 
 /* ── story mode ────────────────────────────────────────────────────────── */
 
-function openStory() {
+function openStoryPicker() {
+  // The chooser replaces a running tour rather than stacking on top of it.
+  if (storyOpen.value) closeStory();
+  storyPickerOpen.value = true;
+}
+
+function startStory(next: Story) {
+  storyPickerOpen.value = false;
+  openStory(next);
+}
+
+function openStory(next: Story = STORIES[0]) {
   if (storyOpen.value) return;
+  story.value = next;
   storyReturn = { year: timeline.year, camera: currentCamera() };
   storyOpen.value = true;
 
@@ -635,7 +650,7 @@ onBeforeUnmount(() => {
 
 <template>
   <div class="app" :class="{ presentation, 'story-mode': storyOpen }">
-    <AppHead v-if="!presentation" @reset-view="resetStage" @open-story="openStory" />
+    <AppHead v-if="!presentation" @reset-view="resetStage" @open-story="openStoryPicker" />
 
     <main :class="{ 'panel-closed': panelCollapsed }">
       <div class="slot">
@@ -727,6 +742,13 @@ onBeforeUnmount(() => {
     </main>
 
     <TimeScale v-if="!presentation" />
+
+    <StoryPicker
+      v-if="storyPickerOpen"
+      :stories="STORIES"
+      @select="startStory"
+      @close="storyPickerOpen = false"
+    />
 
     <StoryPlayer v-if="storyOpen" :story="story" @step="onStoryStep" @close="closeStory" />
 

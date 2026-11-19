@@ -66,6 +66,8 @@ const MESSAGES = {
     'story.pause': '暂停',
     'story.next': '下一步',
     'story.close': '关闭',
+    'story.pick': '选择故事',
+    'story.steps': '{count} 步',
 
     'loading.wars': '正在加载战争档案',
     'loading.war': '正在读取战争档案',
@@ -357,6 +359,8 @@ const MESSAGES = {
     'story.pause': 'Pause',
     'story.next': 'Next',
     'story.close': 'Close',
+    'story.pick': 'Choose a story',
+    'story.steps': '{count} steps',
 
     'loading.wars': 'Loading war records',
     'loading.war': 'Opening war record',
