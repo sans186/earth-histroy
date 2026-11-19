@@ -55,6 +55,10 @@ const MESSAGES = {
     'certainty.high': '史料充分',
     'certainty.mid': '细节存疑',
     'certainty.low': '存在争议',
+    'certainty.short.high': '高',
+    'certainty.short.mid': '中',
+    'certainty.short.low': '低',
+    'overview.certainty': '本年可信度',
 
     'loading.wars': '正在加载战争档案',
     'loading.war': '正在读取战争档案',
@@ -335,6 +339,10 @@ const MESSAGES = {
     'certainty.high': 'Well attested',
     'certainty.mid': 'Partly attested',
     'certainty.low': 'Disputed',
+    'certainty.short.high': 'High',
+    'certainty.short.mid': 'Mid',
+    'certainty.short.low': 'Low',
+    'overview.certainty': 'Certainty this year',
 
     'loading.wars': 'Loading war records',
     'loading.war': 'Opening war record',

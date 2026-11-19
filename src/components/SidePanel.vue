@@ -66,6 +66,7 @@ function openTab(next: Tab) {
         v-show="tab === 'index'"
         :events="props.events"
         :total-before-filter="props.totalBeforeFilter"
+        :certainty-counts="props.certaintyCounts"
         @select="emit('select', $event)"
         @open-year="emit('openYear')"
       />

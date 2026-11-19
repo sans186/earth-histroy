@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { CATEGORIES } from '@/config';
-import { certaintyInfo } from '@/lib/format';
+import { certaintyInfo, type CertaintyLevel } from '@/lib/format';
+import { useLayersStore } from '@/stores/layers';
 import { useTimelineStore } from '@/stores/timeline';
 import { useUiStore } from '@/stores/ui';
 import type { TimelineEvent } from '@/types';
@@ -10,12 +11,21 @@ const props = defineProps<{
   events: TimelineEvent[];
   /** total matched before filtering, to explain an empty list honestly */
   totalBeforeFilter: number;
+  /** per-level counts of the window after the category/scope gates */
+  certaintyCounts: Record<CertaintyLevel, number>;
 }>();
 
 const emit = defineEmits<{ select: [TimelineEvent]; openYear: [] }>();
 
 const ui = useUiStore();
 const timeline = useTimelineStore();
+const layers = useLayersStore();
+
+const certaintyOptions = [
+  { level: 'high' as const, key: 'certainty.short.high' as const },
+  { level: 'mid' as const, key: 'certainty.short.mid' as const },
+  { level: 'low' as const, key: 'certainty.short.low' as const },
+];
 
 const selectedKey = computed(() => ui.selectedEvent?.key ?? null);
 
@@ -76,6 +86,30 @@ function certMark(ev: TimelineEvent) {
         <span class="lbl">{{ ui.t('year.open') }}</span>
         <em>{{ ui.t('year.hint') }}</em>
       </button>
+    </div>
+
+    <!--
+      Same certainty/gating as the layer panel, surfaced next to the list it
+      filters. Counts ignore the certainty gate itself so a level can always be
+      switched back on from here.
+    -->
+    <div class="cert-bar cap">
+      <span class="cert-title">{{ ui.t('overview.certainty') }}</span>
+      <template v-for="(opt, i) in certaintyOptions" :key="opt.level">
+        <span v-if="i > 0" class="sep" aria-hidden="true">·</span>
+        <button
+          class="cert-btn"
+          :class="{
+            off: !layers.isCertaintyActive(opt.level),
+            zero: props.certaintyCounts[opt.level] === 0,
+          }"
+          :aria-pressed="layers.isCertaintyActive(opt.level)"
+          @click="layers.toggleCertainty(opt.level)"
+        >
+          {{ ui.t(opt.key) }}
+          <span class="num mono">{{ props.certaintyCounts[opt.level] }}</span>
+        </button>
+      </template>
     </div>
 
     <div v-if="ui.polityScope" class="scope-row">
@@ -170,6 +204,49 @@ function certMark(ev: TimelineEvent) {
   color: var(--rust);
   letter-spacing: 0.06em;
   text-transform: none;
+}
+
+/* Same type scale as the panel's `.cap` headings; the row never wraps and
+   scrolls sideways instead when the sidebar is narrow. */
+.cert-bar {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  flex: none;
+  padding: 8px 18px;
+  border-bottom: 1px solid var(--rule);
+  white-space: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.cert-bar::-webkit-scrollbar {
+  display: none;
+}
+.cert-title {
+  margin-right: 3px;
+}
+.cert-btn {
+  flex: none;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: var(--ink-2);
+  transition: color var(--dur) var(--ease);
+}
+.cert-btn:hover {
+  color: var(--ink);
+}
+.cert-btn.off {
+  opacity: 0.45;
+}
+.cert-btn.zero {
+  color: var(--ink-4);
+}
+.cert-btn .num {
+  margin-left: 2px;
+  letter-spacing: 0.04em;
+}
+.sep {
+  color: var(--ink-4);
 }
 
 /* The polity scope sits under the year heading, above the list it filters. */
