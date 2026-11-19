@@ -3,9 +3,10 @@ import type { Locale, TimelineEvent } from '@/types';
 /**
  * Regions used by the comparison view.
  *
- * Assignment is coordinate-first (the dataset supplies approximate lat/lon for
- * most rows) and falls back to keyword matching on the free-text `region`
- * field for rows without coordinates.
+ * Assignment is keyword-first where it matters: when the coarse boxes overlap,
+ * the free-text `region` / title decides which one the event belongs to.
+ * Coordinates remain the positional fallback (and the only signal for rows
+ * that name no region).
  */
 export interface Region {
   id: string;
@@ -82,17 +83,32 @@ export function findRegion(id: string): Region | undefined {
   return REGIONS.find((r) => r.id === id);
 }
 
-/** Coordinate first, free-text second, null if neither can place it. */
+/**
+ * Keyword first, coordinates second, null if neither can place it.
+ *
+ * The boxes overlap at the edges of Europe: the Mediterranean box reaches
+ * 45°E / 48°N, which swallows Crimea's 33.8°E / 44.5°N. When several boxes fit,
+ * the free-text region therefore decides first ("克里米亚，俄罗斯帝国" names
+ * Russia, so the event is European); the first box is only the tie-break. This
+ * also keeps Italy and Spain in the Mediterranean, since their own names are
+ * Mediterranean keywords. Rows outside every box still fall back to keywords.
+ */
 export function regionOf(event: TimelineEvent): string | null {
+  const haystack = `${event.region} ${event.title}`.toLowerCase();
+
   if (event.lon !== null && event.lat !== null) {
-    for (const region of REGIONS) {
+    const lon = event.lon;
+    const lat = event.lat;
+    const boxes = REGIONS.filter((region) => {
       const { west, south, east, north } = region.bbox;
-      if (event.lon >= west && event.lon <= east && event.lat >= south && event.lat <= north) {
-        return region.id;
-      }
+      return lon >= west && lon <= east && lat >= south && lat <= north;
+    });
+    if (boxes.length) {
+      const named = boxes.find((region) => region.keywords.some((k) => haystack.includes(k)));
+      return (named ?? boxes[0]).id;
     }
   }
-  const haystack = `${event.region} ${event.title}`.toLowerCase();
+
   for (const region of REGIONS) {
     if (region.keywords.some((k) => haystack.includes(k))) return region.id;
   }
