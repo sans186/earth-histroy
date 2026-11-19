@@ -20,6 +20,24 @@ const step = computed(() => props.story.steps[index.value]);
 const atStart = computed(() => index.value === 0);
 const atEnd = computed(() => index.value >= props.story.steps.length - 1);
 
+/* Chinese is the original copy; English falls back to it when untranslated. */
+const title = computed(() =>
+  ui.locale === 'zh' ? props.story.title : (props.story.titleEn ?? props.story.title),
+);
+const subtitle = computed(() =>
+  ui.locale === 'zh' ? props.story.subtitle : (props.story.subtitleEn ?? props.story.subtitle),
+);
+const stepTitle = computed(() => {
+  const current = step.value;
+  if (!current) return '';
+  return ui.locale === 'zh' ? current.title : (current.titleEn ?? current.title);
+});
+const stepCaption = computed(() => {
+  const current = step.value;
+  if (!current) return '';
+  return ui.locale === 'zh' ? current.caption : (current.captionEn ?? current.caption);
+});
+
 let raf = 0;
 let last = 0;
 /** Milliseconds already spent on the current step — preserved while paused. */
@@ -137,19 +155,19 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <section v-if="step" class="player" role="region" :aria-label="story.title">
+  <section v-if="step" class="player" role="region" :aria-label="title">
     <header class="head">
       <div class="titles">
-        <h3>{{ story.title }}</h3>
-        <p>{{ story.subtitle }}</p>
+        <h3>{{ title }}</h3>
+        <p>{{ subtitle }}</p>
       </div>
       <button class="close" :aria-label="ui.t('story.close')" @click="close">×</button>
     </header>
 
     <Transition name="fade" mode="out-in">
       <p :key="index" class="caption">
-        <span class="stop">{{ step.title }}</span>
-        {{ step.caption }}
+        <span class="stop">{{ stepTitle }}</span>
+        {{ stepCaption }}
       </p>
     </Transition>
 

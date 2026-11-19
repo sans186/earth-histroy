@@ -4,7 +4,7 @@ import { useTimelineStore } from '@/stores/timeline';
 import { useUiStore } from '@/stores/ui';
 import type { ViewMode } from '@/types';
 
-const emit = defineEmits<{ resetView: [] }>();
+const emit = defineEmits<{ resetView: []; openStory: [] }>();
 
 const ui = useUiStore();
 const timeline = useTimelineStore();
@@ -34,6 +34,7 @@ const eraText = computed(() => (ui.locale === 'zh' ? timeline.era.name : timelin
       >
         {{ ui.t(v.key) }}
       </button>
+      <button class="story" @click="emit('openStory')">{{ ui.t('nav.story') }}</button>
     </nav>
 
     <!-- Renderer switch: only meaningful while exploring, since the comparison

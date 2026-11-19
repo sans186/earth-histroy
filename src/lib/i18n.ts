@@ -8,6 +8,7 @@ const MESSAGES = {
     'nav.compare': '对比',
     'nav.atlas': '图版',
     'nav.about': '关于',
+    'nav.story': '故事',
 
     'head.plate': '图版',
     'head.folio': '卷次',
@@ -298,6 +299,7 @@ const MESSAGES = {
     'nav.compare': 'Compare',
     'nav.atlas': 'Plates',
     'nav.about': 'About',
+    'nav.story': 'Story',
 
     'head.plate': 'PLATE',
     'head.folio': 'FOLIO',

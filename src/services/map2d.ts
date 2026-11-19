@@ -724,6 +724,14 @@ export class Map2D {
     map.flyTo({ center: [lon, lat], zoom: zoom ?? Math.max(map.getZoom(), 5) });
   }
 
+  /** Flat-map centre and zoom, so a story can restore the reader's view. */
+  cameraView(): { lon: number; lat: number; zoom: number } | null {
+    const map = this.map;
+    if (!map) return null;
+    const center = map.getCenter();
+    return { lon: center.lng, lat: center.lat, zoom: map.getZoom() };
+  }
+
   private handleClick(e: maplibregl.MapMouseEvent) {
     const map = this.map;
     if (!map) return;

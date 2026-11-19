@@ -1255,6 +1255,36 @@ class GlobeEngine {
     });
   }
 
+  /** Current camera as lon/lat/height, so a story can restore the reader's view. */
+  cameraView(): { lon: number; lat: number; height: number } {
+    const viewer = this.viewer;
+    if (!viewer) {
+      return { lon: INITIAL_VIEW.lon, lat: INITIAL_VIEW.lat, height: INITIAL_VIEW.height };
+    }
+    const carto = viewer.camera.positionCartographic;
+    return {
+      lon: Cesium.Math.toDegrees(carto.longitude),
+      lat: Cesium.Math.toDegrees(carto.latitude),
+      height: carto.height,
+    };
+  }
+
+  /**
+   * Inertia keeps the camera gliding after a drag. A guided story owns the
+   * camera, and that drift would fight the next flyTo, so it is paused while
+   * the story plays and restored afterwards.
+   */
+  setCameraInertia(enabled: boolean) {
+    const viewer = this.viewer;
+    if (!viewer) return;
+    const controller = viewer.scene.screenSpaceCameraController;
+    // Cesium expresses inertia as a 0–1 damping factor, not a boolean.
+    const factor = enabled ? 1 : 0;
+    controller.inertiaSpin = factor;
+    controller.inertiaTranslate = factor;
+    controller.inertiaZoom = factor;
+  }
+
   resetView() {
     const viewer = this.viewer;
     if (!viewer) return;
