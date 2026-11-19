@@ -4,7 +4,7 @@ import { useTimelineStore } from '@/stores/timeline';
 import { useUiStore } from '@/stores/ui';
 import type { ViewMode } from '@/types';
 
-const emit = defineEmits<{ resetView: []; openStory: [] }>();
+const emit = defineEmits<{ resetView: []; openStory: []; openAbout: [] }>();
 
 const ui = useUiStore();
 const timeline = useTimelineStore();
@@ -52,6 +52,7 @@ const eraText = computed(() => (ui.locale === 'zh' ? timeline.era.name : timelin
       <span class="folio cap">{{ ui.t('head.folio') }} {{ yearText }}</span>
       <span class="era">{{ eraText }}</span>
       <span class="rule" />
+      <button class="about" @click="emit('openAbout')">{{ ui.t('nav.about') }}</button>
       <button class="ghost" :title="ui.t('card.flyTo')" @click="emit('resetView')">
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <circle cx="12" cy="12" r="9" />
@@ -169,6 +170,18 @@ nav button.on {
   width: 1px;
   height: 15px;
   background: var(--rule-2);
+}
+.about {
+  padding: 4px 9px;
+  font-size: 12.5px;
+  letter-spacing: 0.08em;
+  color: var(--ink-2);
+  border: 1px solid var(--rule);
+  transition: color var(--dur) var(--ease), border-color var(--dur) var(--ease);
+}
+.about:hover {
+  color: var(--ink);
+  border-color: var(--rule-3);
 }
 .ghost {
   width: 28px;

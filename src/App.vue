@@ -21,6 +21,7 @@ import { useTimelineStore } from '@/stores/timeline';
 import { useUiStore } from '@/stores/ui';
 import { useWarsStore } from '@/stores/wars';
 import type { PolityFeature, TimelineEvent } from '@/types';
+import AboutSheet from './components/AboutSheet.vue';
 import AppHead from './components/AppHead.vue';
 import CompareBoard from './components/CompareBoard.vue';
 import EventCard from './components/EventCard.vue';
@@ -51,6 +52,8 @@ const storyOpen = ref(false);
 /** The chooser appears first; the player opens only once a story is picked. */
 const storyPickerOpen = ref(false);
 const story = ref<Story>(STORIES[0]);
+/** Data sources, licences and the AI-content disclaimer. */
+const aboutOpen = ref(false);
 /** Year and camera to put back when the story closes. */
 let storyReturn: {
   year: number;
@@ -650,7 +653,12 @@ onBeforeUnmount(() => {
 
 <template>
   <div class="app" :class="{ presentation, 'story-mode': storyOpen }">
-    <AppHead v-if="!presentation" @reset-view="resetStage" @open-story="openStoryPicker" />
+    <AppHead
+      v-if="!presentation"
+      @reset-view="resetStage"
+      @open-story="openStoryPicker"
+      @open-about="aboutOpen = true"
+    />
 
     <main :class="{ 'panel-closed': panelCollapsed }">
       <div class="slot">
@@ -742,6 +750,8 @@ onBeforeUnmount(() => {
     </main>
 
     <TimeScale v-if="!presentation" />
+
+    <AboutSheet v-if="aboutOpen" @close="aboutOpen = false" />
 
     <StoryPicker
       v-if="storyPickerOpen"

@@ -69,6 +69,25 @@ const MESSAGES = {
     'story.pick': '选择故事',
     'story.steps': '{count} 步',
 
+    'about.title': '数据与合规',
+    'about.data.title': '数据来源与许可',
+    'about.data.body':
+      '事件语料来自 Chronograph（CC BY 4.0），历史政区来自 Seshat / Cliopatria（CC BY 4.0），现代国界来自 Natural Earth（公有领域），人物与政区摘要派生自 Wikipedia（CC BY-SA 3.0）。',
+    'about.ai.title': 'AI 生成说明',
+    'about.ai.body':
+      '政区简介与事实、人物档案、战争叙述及部分中英互译由大模型生成，逐字段范围见 docs/ai-generated-fields.json。这类内容一律标注为“AI 生成、待核验”，不得作为史实引用依据。',
+    'about.map.title': '地图与合规',
+    'about.map.body':
+      '底图为 Esri World Topo / World Imagery，运行时按需请求，不随仓库分发。本站是教学演示，不是地图服务；未申领审图号，如未来对外提供地图服务，审图号应标注在地图右下角，并依法完成地图审核与 ICP 备案。',
+    'about.errata.title': '争议与勘误',
+    'about.errata.body':
+      '发现史实、年份、人名或坐标错误，请在 GitHub Issues 提交，标题以“[数据勘误]”开头，并附可核验来源。处理流程：核对来源 → 修正数据 → 在勘误清单留痕，详见 docs/开源说明.md。',
+    'about.thanks.title': '致谢与联系方式',
+    'about.thanks.body':
+      '感谢 Chronograph、Seshat / Cliopatria、Natural Earth、Wikipedia 以及所有开源工具的作者。反馈与联系请使用 GitHub Issues；个人项目，不承诺响应时限。',
+    'about.credit': '数据署名',
+    'about.repo': 'GitHub 仓库',
+
     'loading.wars': '正在加载战争档案',
     'loading.war': '正在读取战争档案',
 
@@ -361,6 +380,25 @@ const MESSAGES = {
     'story.close': 'Close',
     'story.pick': 'Choose a story',
     'story.steps': '{count} steps',
+
+    'about.title': 'Data & Compliance',
+    'about.data.title': 'Data sources & licences',
+    'about.data.body':
+      'Event texts come from Chronograph (CC BY 4.0), historical polities from Seshat / Cliopatria (CC BY 4.0), modern borders from Natural Earth (public domain), and profile or polity summaries derived from Wikipedia (CC BY-SA 3.0).',
+    'about.ai.title': 'AI-generated content',
+    'about.ai.body':
+      'Polity summaries and facts, people profiles, war narratives and some Chinese–English translations were produced by large language models; the per-field scope is listed in docs/ai-generated-fields.json. Such content is marked “AI-generated, unverified” and must not be cited as historical fact.',
+    'about.map.title': 'Maps & compliance',
+    'about.map.body':
+      'The basemap is Esri World Topo / World Imagery, requested at runtime and not distributed with the repository. This site is a teaching demo, not a mapping service. It has no map approval number (审图号); should it ever offer map services publicly, that number must appear at the lower right of the map, with map review and ICP filing completed as required.',
+    'about.errata.title': 'Disputes & corrections',
+    'about.errata.body':
+      'If you find an error in a fact, date, name or coordinate, open a GitHub Issue titled “[data correction]” with a verifiable source. Process: verify the source → fix the data → record it in the errata list; see docs/开源说明.md.',
+    'about.thanks.title': 'Credits & contact',
+    'about.thanks.body':
+      'Thanks to Chronograph, Seshat / Cliopatria, Natural Earth, Wikipedia and the authors of every open-source tool used here. For feedback, use GitHub Issues; this is a personal project with no guaranteed response time.',
+    'about.credit': 'Data attribution',
+    'about.repo': 'GitHub repository',
 
     'loading.wars': 'Loading war records',
     'loading.war': 'Opening war record',
