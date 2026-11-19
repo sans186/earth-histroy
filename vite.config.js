@@ -87,6 +87,9 @@ export default defineConfig({
     port: 3000,
     strictPort: false,
     open: false,
+    // Bind every local interface: `localhost` resolves to ::1 on Windows, so an
+    // IPv4-only default makes http://127.0.0.1:3000 look like "refused".
+    host: true,
     /*
      * `public/` holds the dataset: 5,226 year files plus the century slices.
      * Watching them recursively saturates the fs thread pool on Windows —
@@ -98,6 +101,7 @@ export default defineConfig({
     watch: {
       ignored: [
         '**/public/events/**',
+        '**/public/en-events/**',
         '**/public/ne/**',
         '**/public/_review/**',
         '**/public/cesium/**',
