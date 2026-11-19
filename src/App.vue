@@ -4,13 +4,14 @@ import { INITIAL_VIEW, YEAR_MIN, YEAR_MAX } from '@/config';
 import { STORIES } from '@/data/stories';
 import type { CompareSubject } from '@/lib/compare';
 import type { EventRef } from '@/lib/eventLinks';
-import { makePolityScope, withLifespan, type PolityScope } from '@/lib/polityScope';
+import { makePolityScope, withRecordedSpan, type PolityScope } from '@/lib/polityScope';
 import type { StoryStep, Story } from '@/types/story';
 import { useGlobeData } from '@/composables/useGlobeData';
 import {
   findEventById,
-  findPolityDescription,
-  loadPolityDescriptions,
+  findPolityLifecycle,
+  loadPlaceHistory,
+  loadPolityLifecycles,
   NE_FILES,
 } from '@/services/data';
 import { globe } from '@/services/globe';
@@ -23,6 +24,7 @@ import { useWarsStore } from '@/stores/wars';
 import type { PolityFeature, TimelineEvent } from '@/types';
 import AppHead from './components/AppHead.vue';
 import AboutPage from './components/AboutPage.vue';
+import AtlasBoard from './components/AtlasBoard.vue';
 import CompareBoard from './components/CompareBoard.vue';
 import EventCard from './components/EventCard.vue';
 import ErrorNotice from './components/ErrorNotice.vue';
@@ -79,32 +81,38 @@ const selectedPolity = computed({
     }
     const scope = makePolityScope(feature, data.polityNames.value);
     ui.setPolityScope(scope);
-    void widenPolityLifespan(scope);
+    void widenPolitySpan(scope);
   },
 });
 
 /**
- * Give the scope the polity's real dates.
+ * Give the scope the polity's recorded span.
  *
  * A tile in `polities_*.json` covers one century, so its FromYear/ToYear are the
  * slice's bounds — the 1911 tile of the Qing dynasty reads 1911–1911. Filtering
  * on that would hide every earlier war and person, so the span comes from
- * `polity_descriptions.json`, which holds the polity's whole lifetime.
+ * `polity_lifecycles.json`, which aggregates every slice the polity appears in.
  */
-async function widenPolityLifespan(scope: PolityScope) {
+async function widenPolitySpan(scope: PolityScope) {
   const raw = scope.feature.properties?.Name ?? '';
   if (!raw) return;
-  const descriptions = await loadPolityDescriptions();
-  const desc = findPolityDescription(raw, descriptions);
-  if (!desc) return;
+  const lifecycles = await loadPolityLifecycles();
+  const life = findPolityLifecycle(raw, lifecycles);
+  if (!life) return;
   // The reader may have picked another polity while this was loading.
   if (ui.polityScope?.key !== scope.key) return;
-  ui.setPolityScope(withLifespan(scope, desc.from, desc.to));
+  ui.setPolityScope(withRecordedSpan(scope, life.firstYear, life.lastYear));
 }
 /** Either column can hold a region or a polity pinned from the map. */
 const subjectA = ref<CompareSubject>({ kind: 'region', id: 'eastAsia' });
 const subjectB = ref<CompareSubject>({ kind: 'region', id: 'mediterranean' });
 const bordersLoaded = ref(false);
+
+/**
+ * A `?place=` link can arrive before the renderer exists. The coordinate is
+ * parked here and flown to once the stage reports ready.
+ */
+let deepLinkCamera: { lon: number; lat: number } | null = null;
 
 /**
  * Which comparison column already holds the open polity.
@@ -151,6 +159,11 @@ function onStageReady() {
     // Events first so the map is useful immediately; the heavy polity files
     // follow on their own without competing for the same bandwidth.
     await data.refreshEvents();
+    // A ?place= link asked for a camera move before the renderer existed.
+    if (deepLinkCamera) {
+      flyTo(deepLinkCamera.lon, deepLinkCamera.lat, 1_200_000);
+      deepLinkCamera = null;
+    }
     // The flat map loads its own polity geometry as a GeoJSON source, so this
     // 3D-only pass would be pure waste there.
     if (ui.stage === '3d') {
@@ -658,9 +671,50 @@ function onGlobalPointerDown(event: PointerEvent) {
   yearOpen.value = false;
 }
 
+/* ── places ────────────────────────────────────────────────────────────── */
+
+/** The「地点」tab asked to frame a place. */
+function onPlaceLocate(at: { lon: number; lat: number }) {
+  flyTo(at.lon, at.lat, 900_000);
+}
+
+/**
+ * `?place=<id>&year=<year>` — the shareable form of "this place, this year".
+ *
+ * The place list is the authority on coordinates, so the id is resolved there
+ * rather than duplicated in the URL.
+ */
+async function applyDeepLink() {
+  const params = new URLSearchParams(window.location.search);
+  const yearRaw = params.get('year');
+  if (yearRaw && /^-?\d+$/.test(yearRaw)) jumpToYear(Number(yearRaw));
+
+  const id = params.get('place');
+  if (!id) return;
+  const history = await loadPlaceHistory();
+  const city = history?.cities.find((c) => c.id === id);
+  if (!city) return;
+
+  ui.setPlaceFocus({ id: city.id, lon: city.lon, lat: city.lat });
+  if (globeReady.value) flyTo(city.lon, city.lat, 900_000);
+  else deepLinkCamera = { lon: city.lon, lat: city.lat };
+}
+
+// Keep the address bar shareable without adding a router for two parameters.
+watch(
+  () => ui.placeFocus,
+  (focus) => {
+    const url = new URL(window.location.href);
+    if (focus) url.searchParams.set('place', focus.id);
+    else url.searchParams.delete('place');
+    window.history.replaceState(null, '', url);
+  },
+);
+
 onMounted(() => {
   window.addEventListener('keydown', onKeydown);
   window.addEventListener('pointerdown', onGlobalPointerDown, true);
+  void applyDeepLink();
 });
 onBeforeUnmount(() => {
   window.removeEventListener('keydown', onKeydown);
@@ -706,6 +760,12 @@ onBeforeUnmount(() => {
           :events="data.filteredEvents.value"
           :names="data.polityNames.value"
           @select="onPickEvent"
+        />
+        <AtlasBoard
+          v-if="ui.view === 'atlas'"
+          :names="data.polityNames.value"
+          @pick-polity="onPickPolity"
+          @pick-war="onPickWar"
         />
 
         <EventCard
@@ -754,6 +814,8 @@ onBeforeUnmount(() => {
         @select="onPickEvent"
         @open-year="openYearCard"
         @collapse="panelCollapsed = true"
+        @locate="onPlaceLocate"
+        @polity="onPickPolity"
       />
       <button
         v-else-if="!presentation && !storyOpen"

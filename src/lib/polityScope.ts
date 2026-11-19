@@ -1,5 +1,6 @@
 import { bboxOfFeature, type BBox } from '@/lib/compare';
 import { zhPolityName } from '@/lib/names';
+import { polityKey } from '@/lib/polityKey';
 import type { PolityFeature } from '@/types';
 
 /**
@@ -30,7 +31,10 @@ function coreOf(name: string): string {
 
 export interface PolityScope {
   feature: PolityFeature;
-  /** Polities have no id, so name + lifespan is what identifies one. */
+  /**
+   * Polities have no id. The name is the identity: every slice files the same
+   * polity under the same name, brackets aside (see lib/polityKey.ts).
+   */
   key: string;
   /** Localised name, for the chip that says what is being filtered. */
   label: string;
@@ -52,7 +56,7 @@ export function makePolityScope(
 
   return {
     feature,
-    key: `${raw}:${props.FromYear ?? ''}-${props.ToYear ?? ''}`,
+    key: polityKey(raw),
     label: zh || raw || '—',
     from: typeof props.FromYear === 'number' ? props.FromYear : null,
     to: typeof props.ToYear === 'number' ? props.ToYear : null,
@@ -93,16 +97,19 @@ export function labelAnchor(feature: PolityFeature): [number, number] | null {
 }
 
 /**
- * Replace the dates with the polity's real lifespan.
+ * Replace the dates with the polity's recorded span.
  *
  * A tile in `polities_*.json` is cut per century, so its `FromYear`/`ToYear`
  * describe only the slice it belongs to: the 1911 tile of the Qing dynasty says
  * 1911–1911, not 1645–1911. Filtering on that would hide every earlier war and
- * person, so the caller widens the scope once `polity_descriptions.json` — which
- * carries the true span — has loaded.
+ * person, so the caller widens the scope once `polity_lifecycles.json` — which
+ * aggregates every slice — has loaded.
+ *
+ * The span is what the slices record, not what historians date the polity's
+ * founding and fall; the card labels it accordingly.
  */
-export function withLifespan(scope: PolityScope, from: number, to: number): PolityScope {
-  if (!Number.isFinite(from) || !Number.isFinite(to)) return scope;
+export function withRecordedSpan(scope: PolityScope, from: number, to: number): PolityScope {
+  if (!Number.isFinite(from) || !Number.isFinite(to) || from > to) return scope;
   return { ...scope, from, to };
 }
 

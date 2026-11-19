@@ -494,6 +494,237 @@ function validatePolities() {
   line(`预压缩文件 ${gz} 个`);
 }
 
+/* ── polity lifecycles ───────────────────────────────────────────────────── */
+
+/**
+ * `polity_lifecycles.json` is derived, so the risks are arithmetic and
+ * staleness, not editorial mistakes: a peak index pointing at nothing, a span
+ * that excludes its own snapshots, or a table built before the last slice
+ * rebuild. The card and the "only this polity" filter both trust it.
+ */
+function validatePolityLifecycles() {
+  section('政区兴衰  (public/ne/polity_lifecycles.json)');
+  const path = join(ROOT, 'public', 'ne', 'polity_lifecycles.json');
+  if (!existsSync(path)) {
+    err('lifecycles', '缺少文件: public/ne/polity_lifecycles.json', 'node scripts/data/build-polity-lifecycles.mjs');
+    return;
+  }
+  const parsed = readJson(path);
+  if (!parsed.ok) {
+    err('lifecycles', 'polity_lifecycles.json 解析失败', parsed.error);
+    return;
+  }
+  const doc = parsed.value;
+  const polities = doc?.polities;
+  if (!polities || typeof polities !== 'object' || Array.isArray(polities)) {
+    err('lifecycles', '缺少 polities 对象映射');
+    return;
+  }
+  if (doc.version !== 1) warn('lifecycles', `未知版本 ${doc.version}`, '期望 1');
+
+  let badSpan = 0;
+  let badPeak = 0;
+  let badSeries = 0;
+  let badGap = 0;
+  let bracketed = 0;
+  let points = 0;
+  let featured = 0;
+  let withZh = 0;
+
+  for (const [key, raw] of Object.entries(polities)) {
+    // The key must match canonicalPolityName() — a wrapped name means the
+    // builder and src/lib/polityKey.ts have drifted apart.
+    if (/^\([^()]*\)$/.test(key)) bracketed += 1;
+    if (raw?.featured) featured += 1;
+    if (raw?.nameZh) withZh += 1;
+
+    const series = raw?.series;
+    if (
+      !Number.isFinite(raw?.first) ||
+      !Number.isFinite(raw?.last) ||
+      raw.first > raw.last ||
+      !Array.isArray(series) ||
+      !series.length
+    ) {
+      badSpan += 1;
+      continue;
+    }
+
+    points += series.length;
+    let prevFrom = -Infinity;
+    let seriesOk = true;
+    for (const point of series) {
+      if (
+        !Array.isArray(point) ||
+        point.length !== 3 ||
+        !point.every((v) => Number.isFinite(v)) ||
+        point[0] > point[1] ||
+        point[0] < prevFrom ||
+        point[2] <= 0
+      ) {
+        seriesOk = false;
+        break;
+      }
+      prevFrom = point[0];
+    }
+    if (!seriesOk) {
+      badSeries += 1;
+      continue;
+    }
+
+    if (series[0][0] !== raw.first || series[series.length - 1][1] !== raw.last) {
+      badSpan += 1;
+    }
+    if (!Number.isInteger(raw.peak) || raw.peak < 0 || raw.peak >= series.length) {
+      badPeak += 1;
+    }
+    for (const gap of raw.gaps ?? []) {
+      if (
+        !Array.isArray(gap) ||
+        gap.length !== 2 ||
+        gap[0] > gap[1] ||
+        gap[0] < raw.first ||
+        gap[1] > raw.last
+      ) {
+        badGap += 1;
+        break;
+      }
+    }
+  }
+
+  const count = Object.keys(polities).length;
+  const size = (statSync(path).size / 1024).toFixed(0);
+  line(`政区 ${count.toLocaleString()}，面积点 ${points.toLocaleString()}，featured ${featured}，${size} KB`);
+  line(`有中文名 ${withZh.toLocaleString()} (${((withZh / count) * 100).toFixed(1)}%)`);
+
+  if (bracketed) err('lifecycles', `${bracketed} 个键仍带括号，与 polityKey.ts 不一致`);
+  if (badSpan) err('lifecycles', `${badSpan} 个政区的 first/last 与 series 不符`);
+  if (badSeries) err('lifecycles', `${badSeries} 个政区的 series 非升序、含非法值或面积非正`);
+  if (badPeak) err('lifecycles', `${badPeak} 个政区的 peak 索引越界`);
+  if (badGap) err('lifecycles', `${badGap} 个政区的 gaps 越界或反向`);
+  if (!featured) warn('lifecycles', '没有任何 featured 政区');
+}
+
+/* ── places ──────────────────────────────────────────────────────────────── */
+
+/**
+ * `place_history.json` is derived from the polity slices, so the risks are the
+ * same arithmetic ones as the lifecycle table, plus a gazetteer risk: a wrong
+ * coordinate silently puts a city inside the wrong polity for centuries.
+ */
+function validatePlaceHistory() {
+  section('地点编年  (public/places/place_history.json)');
+  const path = join(ROOT, 'public', 'places', 'place_history.json');
+  if (!existsSync(path)) {
+    warn('places', '缺少文件: public/places/place_history.json', 'node scripts/data/build-place-history.mjs');
+    return;
+  }
+  const parsed = readJson(path);
+  if (!parsed.ok) {
+    err('places', 'place_history.json 解析失败', parsed.error);
+    return;
+  }
+  const doc = parsed.value;
+  if (doc.version !== 1) warn('places', `未知版本 ${doc.version}`, '期望 1');
+  // The provenance note is a product requirement, not decoration.
+  if (typeof doc.note !== 'string' || doc.note.trim().length < 10) {
+    err('places', '缺少数据来源说明 note');
+  }
+  const range = doc.dataRange;
+  if (!Array.isArray(range) || range.length !== 2 || !range.every(Number.isFinite)) {
+    err('places', 'dataRange 缺失或非法');
+    return;
+  }
+  const [dataFrom, dataTo] = range;
+  if (dataFrom >= dataTo) err('places', `dataRange 反向: ${dataFrom}–${dataTo}`);
+
+  const cities = doc.cities;
+  if (!Array.isArray(cities) || !cities.length) {
+    err('places', '缺少 cities 数组');
+    return;
+  }
+
+  const ids = new Set();
+  let badId = 0;
+  let badCoord = 0;
+  let badSpan = 0;
+  let badRatio = 0;
+  let bracketed = 0;
+  let empty = 0;
+  let spans = 0;
+
+  for (const city of cities) {
+    const id = city?.id;
+    if (typeof id !== 'string' || !id) badId += 1;
+    else if (ids.has(id)) badId += 1;
+    else ids.add(id);
+
+    if (
+      !Number.isFinite(city?.lon) ||
+      !Number.isFinite(city?.lat) ||
+      Math.abs(city.lon) > 180 ||
+      Math.abs(city.lat) > 90
+    ) {
+      badCoord += 1;
+    }
+
+    const polities = city?.polities;
+    if (!Array.isArray(polities)) {
+      badSpan += 1;
+      continue;
+    }
+    if (!polities.length) empty += 1;
+
+    let prevFrom = -Infinity;
+    for (const polity of polities) {
+      if (typeof polity?.name !== 'string' || !polity.name.trim()) {
+        badSpan += 1;
+        break;
+      }
+      // A wrapped name means the builder drifted from polityKey.ts.
+      if (/^\([^()]*\)$/.test(polity.name)) bracketed += 1;
+      const citySpans = polity.spans;
+      if (!Array.isArray(citySpans) || !citySpans.length) {
+        badSpan += 1;
+        break;
+      }
+      let ok = true;
+      for (const span of citySpans) {
+        if (
+          !Array.isArray(span) ||
+          span.length !== 2 ||
+          !span.every(Number.isFinite) ||
+          span[0] > span[1] ||
+          span[0] < dataFrom ||
+          span[1] > dataTo
+        ) {
+          ok = false;
+          break;
+        }
+        spans += 1;
+      }
+      if (!ok || citySpans[0][0] < prevFrom) {
+        badSpan += 1;
+        break;
+      }
+      prevFrom = citySpans[0][0];
+    }
+
+    const ratio = city?.coverage?.ratio;
+    if (!Number.isFinite(ratio) || ratio < 0 || ratio > 1) badRatio += 1;
+  }
+
+  const size = (statSync(path).size / 1024).toFixed(0);
+  line(`城市 ${cities.length}，政区区间 ${spans.toLocaleString()}，${size} KB`);
+
+  if (badId) err('places', `${badId} 个城市的 id 缺失或重复`);
+  if (badCoord) err('places', `${badCoord} 个城市的坐标缺失或越界`);
+  if (badSpan) err('places', `${badSpan} 个城市的政区区间非法或越界`);
+  if (badRatio) err('places', `${badRatio} 个城市的 coverage.ratio 不在 0–1`);
+  if (bracketed) err('places', `${bracketed} 个政区名仍带括号，与 polityKey.ts 不一致`);
+  if (empty) warn('places', `${empty} 个城市在全部年代中无政区命中`);
+}
+
 /* ── reference files ─────────────────────────────────────────────────────── */
 
 function validateReference() {
@@ -645,6 +876,8 @@ validateIndexedProfiles({
   requiredFields: ['name'],
 });
 validatePolities();
+validatePolityLifecycles();
+validatePlaceHistory();
 validateReference();
 validateLocaleParity();
 report();

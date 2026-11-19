@@ -3,19 +3,22 @@ import { computed, ref, watch } from 'vue';
 import { formatArea, formatYearRange } from '@/lib/format';
 import { zhPolityName } from '@/lib/names';
 import { wikiArticleUrl } from '@/lib/wiki';
-import { makePolityScope, withLifespan } from '@/lib/polityScope';
+import { makePolityScope, withRecordedSpan } from '@/lib/polityScope';
 import {
   findPolityAsset,
   findPolityDescription,
   findPolityFacts,
+  findPolityLifecycle,
   loadPolityAreaOverrides,
   loadPolityAssets,
   loadPolityDescriptions,
   loadPolityFacts,
   loadPolityFlags,
+  loadPolityLifecycles,
   type PolityAreaOverride,
   type PolityAsset,
   type PolityFacts,
+  type PolityLifecycle,
 } from '@/services/data';
 import { usePeopleStore } from '@/stores/people';
 import { useUiStore } from '@/stores/ui';
@@ -54,14 +57,16 @@ const altName = computed(() => {
 /**
  * The tiles are point-in-time snapshots — the Qing feature under 1911 carries
  * FromYear = ToYear = 1911 — so the card read "存续 1911" for a 266-year dynasty.
- * The description file holds the real span (1645–1911) and wins when present.
+ * `polity_lifecycles.json` aggregates every slice the polity appears in, and its
+ * first/last years are what the card shows. They are the recorded span, not the
+ * historical founding and fall, which is why the label says "收录".
  */
-const lifespan = ref<{ from: number; to: number } | null>(null);
+const lifecycle = ref<PolityLifecycle | null>(null);
 
 const years = computed(() =>
   formatYearRange(
-    lifespan.value?.from ?? props.feature.properties?.FromYear,
-    lifespan.value?.to ?? props.feature.properties?.ToYear,
+    lifecycle.value?.firstYear ?? props.feature.properties?.FromYear,
+    lifecycle.value?.lastYear ?? props.feature.properties?.ToYear,
     ui.locale,
   ),
 );
@@ -136,17 +141,18 @@ watch(
     flagBroken.value = false;
     extract.value = '';
     facts.value = null;
-    lifespan.value = null;
+    lifecycle.value = null;
     relatedWars.value = null;
     relatedPeople.value = null;
     if (!target) return;
 
-    const [assets, descriptions, factsMap, areaOverrides, flags] = await Promise.all([
+    const [assets, descriptions, factsMap, areaOverrides, flags, lifecycles] = await Promise.all([
       loadPolityAssets(),
       loadPolityDescriptions(),
       loadPolityFacts(),
       loadPolityAreaOverrides(),
       loadPolityFlags(),
+      loadPolityLifecycles(),
     ]);
     // The card may have been re-pointed while the files were in flight.
     if (props.feature.properties?.Name !== target) return;
@@ -157,12 +163,14 @@ watch(
     facts.value = findPolityFacts(target, factsMap);
     const description = findPolityDescription(target, descriptions);
     extract.value = description?.zh.extract ?? '';
-    lifespan.value = description ? { from: description.from, to: description.to } : null;
+    lifecycle.value = findPolityLifecycle(target, lifecycles);
 
     // The same scope the lists filter by, so the counts match what clicking
     // "filter to this polity" will actually show.
     let scope = makePolityScope(props.feature, props.names);
-    if (description) scope = withLifespan(scope, description.from, description.to);
+    if (lifecycle.value) {
+      scope = withRecordedSpan(scope, lifecycle.value.firstYear, lifecycle.value.lastYear);
+    }
     const [warTotal, peopleTotal] = await Promise.all([
       wars.countInScope(scope).catch(() => null),
       people.countInScope(scope).catch(() => null),
@@ -246,7 +254,7 @@ const wikiUrl = computed(() => {
     </button>
     <dl>
       <div>
-        <dt>{{ ui.t('polity.years') }}</dt>
+        <dt :title="ui.t('polity.recordedHint')">{{ ui.t('polity.recordedYears') }}</dt>
         <dd class="mono">{{ years }}</dd>
       </div>
       <div v-if="capital">

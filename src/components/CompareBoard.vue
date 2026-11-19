@@ -1,7 +1,13 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue';
 import { CATEGORIES, YEAR_WINDOW } from '@/config';
-import { subjectEvents, subjectLabel, subjectSpan, type CompareSubject } from '@/lib/compare';
+import {
+  dedupeRestatements,
+  subjectEvents,
+  subjectLabel,
+  subjectSpan,
+  type CompareSubject,
+} from '@/lib/compare';
 import { formatYearRange, truncate } from '@/lib/format';
 import { REGIONS, findRegion, regionDistanceKm, regionLabel } from '@/lib/regions';
 import { loadEventWindow } from '@/services/data';
@@ -86,7 +92,9 @@ function groupByYear(list: TimelineEvent[]) {
 }
 
 function statsFor(subject: CompareSubject): ColumnStats {
-  const events = subjectEvents(ranged.value, subject).sort((a, b) => a.year - b.year);
+  const events = dedupeRestatements(
+    subjectEvents(ranged.value, subject).sort((a, b) => a.year - b.year),
+  );
   const figures = new Set<string>();
   for (const e of events) for (const f of e.figures) figures.add(f);
   const count = (c: CategoryKey) => events.filter((e) => e.category === c).length;

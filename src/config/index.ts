@@ -164,6 +164,7 @@ export const PEOPLE_BASE = '/people/profiles/';
  */
 export const PEOPLE_COORDS = '/people/coords.json';
 export const WARS_BASE = '/wars/profiles/';
+export const PLACES_BASE = '/places/';
 
 /** Parsed year files retained in memory. */
 export const DATA_CACHE_SIZE = 260;

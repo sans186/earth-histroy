@@ -1,11 +1,20 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue';
 import { formatYearShort, truncate } from '@/lib/format';
+import {
+  appraisalItems,
+  isLivingPerson,
+  lifespanStatus,
+  personProvenance,
+  type AppraisalStance,
+} from '@/lib/provenance';
 import { wikiSearchUrl } from '@/lib/wiki';
 import { personImageUrl } from '@/services/people-images';
 import { usePeopleStore } from '@/stores/people';
 import { useUiStore } from '@/stores/ui';
 import type { LocalisedText, PersonPoint } from '@/types';
+import ProvenanceBadge from '@/components/ui/ProvenanceBadge.vue';
+import ToggleRow from '@/components/ui/ToggleRow.vue';
 
 const emit = defineEmits<{
   close: [];
@@ -15,15 +24,13 @@ const emit = defineEmits<{
 const ui = useUiStore();
 const people = usePeopleStore();
 
-type EvalKey = 'objective' | 'supporter' | 'critic';
-const evalTab = ref<EvalKey>('objective');
 const openStages = ref<Set<number>>(new Set());
 
-const evalTabs: { id: EvalKey; key: 'people.objective' | 'people.supporter' | 'people.critic' }[] = [
-  { id: 'objective', key: 'people.objective' },
-  { id: 'supporter', key: 'people.supporter' },
-  { id: 'critic', key: 'people.critic' },
-];
+const stanceKeys: Record<AppraisalStance, 'people.supporter' | 'people.critic' | 'people.objective'> = {
+  supporter: 'people.supporter',
+  critic: 'people.critic',
+  objective: 'people.objective',
+};
 
 const profile = computed(() => people.profile);
 
@@ -50,11 +57,10 @@ watch(
  */
 const wikiUrl = computed(() => (profile.value?.name ? wikiSearchUrl(profile.value.name) : ''));
 
-/** A new person resets the reading state — otherwise the tabs look stale. */
+/** A new person resets the reading state — otherwise open stages look stale. */
 watch(
   () => people.selectedId,
   () => {
-    evalTab.value = 'objective';
     openStages.value = new Set();
   },
 );
@@ -65,24 +71,34 @@ function localized(value?: LocalisedText): string {
   return preferred || value.zh || value.en || '';
 }
 
-const evaluationText = computed(() => {
-  const ev = profile.value?.evaluation;
-  if (!ev) return '';
-  return localized(ev[evalTab.value]);
+/**
+ * Appraisal is model-generated and unsourced throughout the shipped dataset,
+ * so only entries that carry a source may show without the opt-in switch.
+ * Living people get no appraisal or quotes at all — just the factual timeline.
+ */
+const status = computed(() => lifespanStatus(profile.value));
+const prov = computed(() => personProvenance(profile.value));
+const appraisals = computed(() => appraisalItems(profile.value));
+const appraisalVisible = computed(() => {
+  if (isLivingPerson(profile.value)) return [];
+  return ui.showUnverified ? appraisals.value : appraisals.value.filter((item) => item.sourced);
 });
-
-const evalAvailable = computed(() => {
-  const ev = profile.value?.evaluation;
-  if (!ev) return [];
-  return evalTabs.filter((tab) => Boolean(localized(ev[tab.id])));
+const hasQuotes = computed(() => {
+  const quotes = profile.value?.quotes;
+  return Boolean(quotes && (localized(quotes.self) || localized(quotes.others)));
 });
+const quotesVisible = computed(
+  () => hasQuotes.value && ui.showUnverified && !isLivingPerson(profile.value),
+);
 
 /** Bare dates only — the row supplies the "lifespan" label. */
 const lifespan = computed(() => {
   const p = profile.value;
   if (!p) return '';
   const born = p.birth === null ? ui.t('people.unknown') : formatYearShort(p.birth);
-  if (p.death === null) return `${born} ·`;
+  if (p.death === null) {
+    return status.value === 'living' ? `${born} · ${ui.t('people.alive')}` : `${born} ·`;
+  }
   return `${born} · ${formatYearShort(p.death)}`;
 });
 
@@ -148,6 +164,7 @@ function flyToPoint(point: PersonPoint) {
         <em>{{ ui.t('people.lifespan') }}</em>
         <span class="mono">{{ lifespan }}</span>
       </span>
+      <ProvenanceBadge :evidence="prov.evidence" :dispute="prov.dispute" />
     </div>
 
     <div v-if="people.loadingProfile" class="state">{{ ui.t('people.loading') }}</div>
@@ -190,37 +207,52 @@ function flyToPoint(point: PersonPoint) {
         </ol>
       </section>
 
-      <section v-if="evalAvailable.length" class="eval">
-        <h5 class="cap">{{ ui.t('people.evaluation') }}</h5>
-        <div class="tabs">
-          <button
-            v-for="tab in evalAvailable"
-            :key="tab.id"
-            :class="{ on: evalTab === tab.id }"
-            @click="evalTab = tab.id"
-          >
-            {{ ui.t(tab.key) }}
-          </button>
-        </div>
-        <p>{{ evaluationText }}</p>
+      <section v-if="profile.evaluation" class="eval">
+        <h5 class="cap">{{ ui.t('people.appraisal') }}</h5>
+        <p v-if="status === 'living'" class="notice">{{ ui.t('people.livingNote') }}</p>
+        <template v-else>
+          <p class="notice">
+            {{ ui.t('people.appraisalNote') }}
+            {{ ui.t('people.appraisalSourced') }}
+          </p>
+          <ToggleRow v-model="ui.showUnverified" :label="ui.t('people.showUnverified')" />
+          <ul v-if="appraisalVisible.length" class="appraisal">
+            <li v-for="item in appraisalVisible" :key="item.stance">
+              <span class="stance">{{ ui.t(stanceKeys[item.stance]) }}</span>
+              <p class="appraisal-text">{{ localized(item.text) }}</p>
+              <span v-if="!item.sourced" class="flag">{{ ui.t('prov.unverified') }}</span>
+            </li>
+          </ul>
+          <p v-else class="none">{{ ui.t('people.appraisalEmpty') }}</p>
+        </template>
       </section>
 
-      <section v-if="profile.quotes" class="quotes">
-        <h5 class="cap">{{ ui.t('people.quotes') }}</h5>
-        <blockquote v-if="localized(profile.quotes.self)">
-          <p>{{ localized(profile.quotes.self) }}</p>
-          <cite>{{ ui.t('people.self') }}</cite>
-        </blockquote>
-        <blockquote v-if="localized(profile.quotes.others)">
-          <p>{{ localized(profile.quotes.others) }}</p>
-          <cite>
-            {{ ui.t('people.others') }}
-            <template v-if="profile.othersBy">
-              · {{ ui.t('people.by') }}
-              {{ ui.locale === 'zh' ? profile.othersBy : profile.othersByEn || profile.othersBy }}
-            </template>
-          </cite>
-        </blockquote>
+      <section v-if="hasQuotes" class="quotes">
+        <h5 class="cap">
+          {{ ui.t('people.quotes') }}
+          <span class="flag">{{ ui.t('prov.unverified') }}</span>
+        </h5>
+        <p v-if="status === 'living'" class="notice">{{ ui.t('people.livingNote') }}</p>
+        <template v-else>
+          <p class="notice">{{ ui.t('people.quotesNote') }}</p>
+          <ToggleRow v-model="ui.showUnverified" :label="ui.t('people.showUnverified')" />
+          <template v-if="quotesVisible">
+            <blockquote v-if="localized(profile.quotes?.self)">
+              <p>{{ localized(profile.quotes?.self) }}</p>
+              <cite>{{ ui.t('people.self') }}</cite>
+            </blockquote>
+            <blockquote v-if="localized(profile.quotes?.others)">
+              <p>{{ localized(profile.quotes?.others) }}</p>
+              <cite>
+                {{ ui.t('people.others') }}
+                <template v-if="profile.othersBy">
+                  · {{ ui.t('people.by') }}
+                  {{ ui.locale === 'zh' ? profile.othersBy : profile.othersByEn || profile.othersBy }}
+                </template>
+              </cite>
+            </blockquote>
+          </template>
+        </template>
       </section>
 
       <footer>
@@ -432,24 +464,43 @@ ol li {
   color: var(--rust);
 }
 
-.tabs {
+.notice {
+  font-size: 12.5px;
+  line-height: 1.75;
+  color: var(--ink-4);
+}
+.flag {
+  flex: none;
+  padding: 0 4px;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--rust);
+  border: 1px solid currentColor;
+}
+.appraisal {
+  list-style: none;
+  margin: 9px 0 0;
+  padding: 0;
   display: flex;
-  border: 1px solid var(--rule);
-  margin-bottom: 9px;
+  flex-direction: column;
+  gap: 12px;
 }
-.tabs button {
-  flex: 1;
-  padding: 4px 0;
-  font-size: 12px;
-  color: var(--ink-3);
-  border-right: 1px solid var(--rule);
+.appraisal li {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: flex-start;
 }
-.tabs button:last-child {
-  border-right: 0;
+.stance {
+  font-size: 11.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-4);
 }
-.tabs button.on {
-  background: var(--ink-3);
-  color: var(--card);
+.appraisal-text {
+  padding-left: 0;
 }
 
 .quotes blockquote {

@@ -1,7 +1,7 @@
 import type { CategoryKey } from '@/config';
 
 export type Locale = 'zh' | 'en';
-export type ViewMode = 'explore' | 'compare';
+export type ViewMode = 'explore' | 'compare' | 'atlas';
 /** How the explore view is drawn: the globe, or the flat map. */
 export type StageMode = '3d' | '2d';
 
@@ -360,4 +360,53 @@ export interface PersonProfile {
   othersBy?: string;
   othersByEn?: string;
   image?: string;
+}
+
+// ── Places ─────────────────────────────────────────────────────────────────
+
+/** One polity and the spans during which its polygon contained the place. */
+export interface PlacePolitySpan {
+  /** Canonical English polity name (brackets stripped, see lib/polityKey.ts). */
+  name: string;
+  /** Merged, ascending `[from, to]` year spans, both ends inclusive. */
+  spans: [number, number][];
+}
+
+/** What the build could and could not answer for one place. */
+export interface PlaceCoverage {
+  from: number;
+  to: number;
+  coveredYears: number;
+  /** Years where more than one polity polygon contained the point. */
+  contestedYears: number;
+  ratio: number;
+  firstYear: number | null;
+  lastYear: number | null;
+}
+
+/** A curated place and its polity history. */
+export interface PlaceCity {
+  id: string;
+  zh: string;
+  en: string;
+  lon: number;
+  lat: number;
+  polities: PlacePolitySpan[];
+  coverage: PlaceCoverage;
+}
+
+/** `public/places/place_history.json`. Derived from the polity slices, no AI. */
+export interface PlaceHistoryFile {
+  version: number;
+  note: string;
+  source: { polities: string; cities: string };
+  dataRange: [number, number];
+  cities: PlaceCity[];
+}
+
+/** The place the reader is looking at. */
+export interface PlaceFocus {
+  id: string;
+  lon: number;
+  lat: number;
 }

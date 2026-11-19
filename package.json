@@ -15,6 +15,8 @@
     "report:data": "node scripts/data/report-assets.mjs",
     "compare:locales": "node scripts/data/compare-locales.mjs",
     "audit:polities": "node scripts/data/analyze-polities.mjs",
+    "build:polity-lifecycles": "node scripts/data/build-polity-lifecycles.mjs",
+    "build:place-history": "node scripts/data/build-place-history.mjs",
     "simplify:polities": "node scripts/data/simplify-polities.mjs",
     "build:people-coords": "node scripts/data/build-people-coords.mjs",
     "enrich:polity-facts": "node scripts/data/enrich-polity-facts.mjs",

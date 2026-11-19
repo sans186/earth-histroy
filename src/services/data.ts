@@ -6,18 +6,21 @@ import {
   NETWORK,
   PEOPLE_BASE,
   PEOPLE_COORDS,
+  PLACES_BASE,
   POLITIES_BASE,
   YEAR_WINDOW,
   resolveCategory,
 } from '@/config';
 import { yearOfEventId } from '@/lib/eventLinks';
 import { parseCoordinates } from '@/lib/geo';
+import { polityKey } from '@/lib/polityKey';
 import { DataFetchError, fetchJson, fetchOptionalJson } from '@/services/http';
 import type {
   CenturyEntry,
   Locale,
   PersonIndexItem,
   PersonProfile,
+  PlaceHistoryFile,
   PolityCollection,
   PolityFileIndex,
   RawEvent,
@@ -641,6 +644,148 @@ export async function loadPolityDescriptions(): Promise<Record<string, PolityDes
   return polityDescInflight;
 }
 
+/* ── Polity lifecycles ───────────────────────────────────────────────────── */
+
+/** One area reading: the snapshot a century slice holds for this polity. */
+export interface PolityAreaPoint {
+  from: number;
+  to: number;
+  area: number;
+}
+
+/** A stretch of years with no snapshot at all. */
+export interface PolityGap {
+  from: number;
+  to: number;
+}
+
+/**
+ * What the slices record about one polity — `public/ne/polity_lifecycles.json`.
+ *
+ * Derived at build time from the shipped geometry, not generated: `firstYear`
+ * and `lastYear` are the earliest and latest years any slice files the polity
+ * under, and `series` is the area of each snapshot. This is what the card means
+ * by "收录", and what the "only this polity" filter uses as its date window.
+ *
+ * It replaces `PolityDescription.from/to`, which are the bounds of a single
+ * snapshot: the Ottoman entry reads 1305–1325 against a recorded 1305–1923.
+ */
+export interface PolityLifecycle {
+  key: string;
+  name: string;
+  nameZh: string | null;
+  firstYear: number;
+  lastYear: number;
+  /** The snapshot with the largest area; always an element of `series`. */
+  peak: PolityAreaPoint;
+  /** Ascending by start year. */
+  series: PolityAreaPoint[];
+  gaps: PolityGap[];
+  /** Raw spellings seen in the slices, brackets included. */
+  variants: string[];
+  /** Top 100 by peak area — the ones that get a full dossier. */
+  featured: boolean;
+}
+
+/** On-disk shape: `series` entries are `[from, to, area]` to keep the file small. */
+interface RawLifecycle {
+  nameZh: string | null;
+  first: number;
+  last: number;
+  peak: number;
+  series: [number, number, number][];
+  gaps: [number, number][];
+  variants: string[];
+  featured?: boolean;
+}
+
+interface RawLifecycleFile {
+  version?: number;
+  polities?: Record<string, RawLifecycle>;
+}
+
+let polityLifecycleCache: Record<string, PolityLifecycle> | null = null;
+let polityLifecycleInflight: Promise<Record<string, PolityLifecycle>> | null = null;
+
+export async function loadPolityLifecycles(): Promise<Record<string, PolityLifecycle>> {
+  if (polityLifecycleCache) return polityLifecycleCache;
+  if (polityLifecycleInflight) return polityLifecycleInflight;
+  polityLifecycleInflight = (async () => {
+    try {
+      const { data, ok } = await fetchOptionalJson<RawLifecycleFile>(
+        `${NE_BASE}polity_lifecycles.json`,
+        {},
+      );
+      const clean: Record<string, PolityLifecycle> = {};
+      if (ok && data?.polities) {
+        for (const [key, raw] of Object.entries(data.polities)) {
+          const series = (raw.series ?? [])
+            .filter((point) => Array.isArray(point) && point.length === 3)
+            .map(([from, to, area]) => ({ from, to, area }));
+          if (!series.length) continue;
+          const peakIndex =
+            Number.isInteger(raw.peak) && raw.peak >= 0 && raw.peak < series.length ? raw.peak : 0;
+          clean[key] = {
+            key,
+            name: key,
+            nameZh: raw.nameZh ?? null,
+            firstYear: raw.first,
+            lastYear: raw.last,
+            peak: series[peakIndex],
+            series,
+            gaps: (raw.gaps ?? []).map(([from, to]) => ({ from, to })),
+            variants: raw.variants ?? [key],
+            featured: Boolean(raw.featured),
+          };
+        }
+        polityLifecycleCache = clean;
+      }
+      return clean;
+    } finally {
+      polityLifecycleInflight = null;
+    }
+  })();
+  return polityLifecycleInflight;
+}
+
+/** The lifecycle of the polity a tile names, or null when the table has none. */
+export function findPolityLifecycle(
+  name: string,
+  lifecycles: Record<string, PolityLifecycle>,
+): PolityLifecycle | null {
+  return lifecycles[polityKey(name)] ?? null;
+}
+
+/* ── Places ─────────────────────────────────────────────────────────────── */
+
+let placeHistoryCache: PlaceHistoryFile | null = null;
+let placeHistoryInflight: Promise<PlaceHistoryFile | null> | null = null;
+
+/**
+ * The curated places and the polities that contained them.
+ *
+ * Optional: the「地点」tab is one of four ways into the app, and a missing
+ * file must degrade to the tab's empty state rather than the global error
+ * banner. 41 KB, so it is fetched once and kept for the session.
+ */
+export async function loadPlaceHistory(): Promise<PlaceHistoryFile | null> {
+  if (placeHistoryCache) return placeHistoryCache;
+  if (placeHistoryInflight) return placeHistoryInflight;
+  placeHistoryInflight = (async () => {
+    try {
+      const { data, ok } = await fetchOptionalJson<PlaceHistoryFile | null>(
+        `${PLACES_BASE}place_history.json`,
+        null,
+      );
+      if (ok && data?.cities?.length) placeHistoryCache = data;
+      return placeHistoryCache;
+    } finally {
+      placeHistoryInflight = null;
+    }
+  })();
+  return placeHistoryInflight;
+}
+
 /**
  * Tile names that no stripping rule can reach, mapped to the asset key.
  *
@@ -907,10 +1052,14 @@ export function clearReferenceCaches() {
   polityAssetsCache = null;
   polityDescCache = null;
   polityFactsCache = null;
+  polityLifecycleCache = null;
+  placeHistoryCache = null;
   polityAreaInflight = null;
   polityFlagsInflight = null;
   polityAssetsInflight = null;
   polityDescInflight = null;
   polityFactsInflight = null;
+  polityLifecycleInflight = null;
+  placeHistoryInflight = null;
   contextCache.clear();
 }

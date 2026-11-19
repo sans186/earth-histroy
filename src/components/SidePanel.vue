@@ -1,13 +1,14 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, watch } from 'vue';
 import type { CertaintyLevel } from '@/lib/format';
 import { usePeopleStore } from '@/stores/people';
 import { useUiStore } from '@/stores/ui';
 import { useWarsStore } from '@/stores/wars';
-import type { TimelineEvent } from '@/types';
+import type { PolityFeature, TimelineEvent } from '@/types';
 import EventIndex from './EventIndex.vue';
 import LayerPanel from './LayerPanel.vue';
 import PeoplePanel from './PeoplePanel.vue';
+import PlacePanel from './PlacePanel.vue';
 import WarPanel from './WarPanel.vue';
 
 const props = defineProps<{
@@ -20,13 +21,15 @@ const emit = defineEmits<{
   select: [TimelineEvent];
   openYear: [];
   collapse: [];
+  locate: [at: { lon: number; lat: number }];
+  polity: [feature: PolityFeature];
 }>();
 
 const ui = useUiStore();
 const wars = useWarsStore();
 const people = usePeopleStore();
 
-type Tab = 'index' | 'wars' | 'people' | 'layers';
+type Tab = 'index' | 'wars' | 'people' | 'layers' | 'place';
 const tab = ref<Tab>('index');
 
 /** Both indexes are small; fetch each once, on first use of its tab. */
@@ -35,6 +38,14 @@ function openTab(next: Tab) {
   if (next === 'wars') void wars.ensureIndex();
   if (next === 'people') void people.ensureIndex();
 }
+
+// A deep link or a place picked elsewhere should reveal the tab that shows it.
+watch(
+  () => ui.placeFocus,
+  (focus) => {
+    if (focus) tab.value = 'place';
+  },
+);
 </script>
 
 <template>
@@ -51,6 +62,9 @@ function openTab(next: Tab) {
       </button>
       <button :class="{ on: tab === 'layers' }" @click="openTab('layers')">
         {{ ui.t('panel.layers') }}
+      </button>
+      <button :class="{ on: tab === 'place' }" @click="openTab('place')">
+        {{ ui.t('panel.place') }}
       </button>
       <button
         class="collapse"
@@ -73,6 +87,12 @@ function openTab(next: Tab) {
       <WarPanel v-show="tab === 'wars'" />
       <PeoplePanel v-show="tab === 'people'" />
       <LayerPanel v-show="tab === 'layers'" :certainty-counts="props.certaintyCounts" />
+      <PlacePanel
+        v-show="tab === 'place'"
+        :active="tab === 'place'"
+        @locate="emit('locate', $event)"
+        @polity="emit('polity', $event)"
+      />
     </div>
   </aside>
 </template>

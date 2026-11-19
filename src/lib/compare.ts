@@ -95,6 +95,52 @@ export function subjectEvents(
   );
 }
 
+/**
+ * Dedupe key for the yearly restatements that fill the corpus.
+ *
+ * The same event is often repeated in consecutive year files (Taiping forces
+ * taking Yangzhou appear in 1852, 1853 and 1854). Those repeats belong in the
+ * timeline, but counting each one inflates the comparison's intensity, so the
+ * statistics collapse titles that differ only in spacing, case or punctuation.
+ */
+export function eventTitleKey(title: string): string {
+  return title
+    .toLowerCase()
+    .replace(/\s+/g, '')
+    .replace(/[：:；;，,。.、！!？?（）()《》〈〉「」『』“”"'‘’\-—_·]/g, '');
+}
+
+/**
+ * Stable identity for an event row, used only by the comparison statistics.
+ *
+ * The same event is often repeated in consecutive year files (Taiping forces
+ * taking Yangzhou appear in 1852, 1853 and 1854). Those repeats belong in the
+ * timeline, but counting each one inflates the comparison's intensity. The key
+ * is the normalised title plus category and rounded coordinates: title alone
+ * would merge genuinely different battles that happen to share a name
+ * (Fontenoy 841 and 1745), while coordinates alone would merge different
+ * events at the same place.
+ */
+export function eventKey(event: TimelineEvent): string {
+  const lon = event.lon === null ? '' : event.lon.toFixed(2);
+  const lat = event.lat === null ? '' : event.lat.toFixed(2);
+  return `${eventTitleKey(event.title)}|${event.category}|${lon},${lat}`;
+}
+
+/**
+ * Collapse yearly restatements before comparison statistics run.
+ * The earliest occurrence wins; event files themselves stay untouched.
+ */
+export function dedupeRestatements(events: TimelineEvent[]): TimelineEvent[] {
+  const seen = new Set<string>();
+  return events.filter((event) => {
+    const key = eventKey(event);
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
 /** The polity's own dates, which a region column simply does not have. */
 export function subjectSpan(subject: CompareSubject, locale: Locale): string | null {
   if (subject.kind !== 'polity') return null;

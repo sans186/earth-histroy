@@ -9,9 +9,10 @@ const emit = defineEmits<{ resetView: []; openStory: []; openAbout: [] }>();
 const ui = useUiStore();
 const timeline = useTimelineStore();
 
-const views: { id: ViewMode; key: 'nav.explore' | 'nav.compare' }[] = [
+const views: { id: ViewMode; key: 'nav.explore' | 'nav.compare' | 'nav.atlas' }[] = [
   { id: 'explore', key: 'nav.explore' },
   { id: 'compare', key: 'nav.compare' },
+  { id: 'atlas', key: 'nav.atlas' },
 ];
 
 const yearText = computed(() => `${timeline.absYear}`);
