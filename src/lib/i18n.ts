@@ -271,6 +271,34 @@ const MESSAGES = {
     'people.noProfile': '未找到该人物的档案',
     'people.notFound': '此人物暂无档案',
     'people.hint': '点击姓名可查看人物档案',
+    'people.appraisal': '史学评价',
+    'people.appraisalNote': '评价与无出处语录由模型生成，默认隐藏。',
+    'people.appraisalSourced': '带来源的条目始终显示。',
+    'people.appraisalEmpty': '暂无带来源的评价。',
+    'people.showUnverified': '显示未核验内容',
+    'people.quotesNote': '语录暂无出处，默认隐藏。',
+    'people.livingNote': '在世人物仅保留事实时间线，不展示评价与语录。',
+    'people.alive': '在世',
+
+    // ── Provenance ────────────────────────────────────────────────────────
+    'prov.ai': 'AI 生成',
+    'prov.unverified': '未核验',
+    'prov.levels': '证据与争议等级',
+    'prov.evidence': '证据',
+    'prov.dispute': '争议',
+    'prov.r0': 'R0 · 两个以上可点击核实的外链来源',
+    'prov.r1': 'R1 · 一个可点击核实的外链来源',
+    'prov.r2': 'R2 · 仅有文献名称，无可核实链接',
+    'prov.r3': 'R3 · 无来源，模型生成',
+    'prov.c0': 'C0 · 不含立场性内容',
+    'prov.c1': 'C1 · 含未核验或模型生成内容',
+    'prov.c2': 'C2 · 涉及在世人物',
+    'prov.c3': 'C3 · 涉及进行中的冲突',
+
+    'war.ongoing': '进行中的冲突',
+    'war.ongoingNote': '该冲突仍在进行，仅呈现已发生的事实，不展示结局、胜负与评价。',
+
+    'about.close': '关闭',
 
     // ── Layer status ──────────────────────────────────────────────────────
     'status.partsHidden': '个多边形未绘制',
@@ -545,6 +573,34 @@ const MESSAGES = {
     'people.noProfile': 'No profile found for this person',
     'people.notFound': 'No profile for this figure',
     'people.hint': 'Click a name to open a profile',
+    'people.appraisal': 'Historiography',
+    'people.appraisalNote': 'Appraisals and unsourced quotes are model-generated and hidden by default.',
+    'people.appraisalSourced': 'Entries with sources are always shown.',
+    'people.appraisalEmpty': 'No sourced appraisal yet.',
+    'people.showUnverified': 'Show unverified content',
+    'people.quotesNote': 'Quotes carry no source and are hidden by default.',
+    'people.livingNote': 'For living people only the factual timeline is shown; no appraisals or quotes.',
+    'people.alive': 'living',
+
+    // ── Provenance ────────────────────────────────────────────────────────
+    'prov.ai': 'AI-generated',
+    'prov.unverified': 'Unverified',
+    'prov.levels': 'Evidence & dispute levels',
+    'prov.evidence': 'Evidence',
+    'prov.dispute': 'Dispute',
+    'prov.r0': 'R0 · two or more clickable external sources',
+    'prov.r1': 'R1 · one clickable external source',
+    'prov.r2': 'R2 · named sources only, no clickable link',
+    'prov.r3': 'R3 · no sources, model-generated',
+    'prov.c0': 'C0 · no stance-dependent content',
+    'prov.c1': 'C1 · contains unverified or model-generated content',
+    'prov.c2': 'C2 · concerns a living person',
+    'prov.c3': 'C3 · concerns an ongoing conflict',
+
+    'war.ongoing': 'Ongoing conflict',
+    'war.ongoingNote': 'This conflict is ongoing: only events that have happened are shown, with no outcome, victory or appraisal.',
+
+    'about.close': 'Close',
 
     // ── Layer status ──────────────────────────────────────────────────────
     'status.partsHidden': 'polygon parts not drawn',

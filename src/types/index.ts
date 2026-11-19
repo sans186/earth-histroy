@@ -303,6 +303,12 @@ export interface PersonEvaluation {
   supporter?: LocalisedText;
   critic?: LocalisedText;
   objective?: LocalisedText;
+  /**
+   * Optional per-view sources. The shipped profiles do not carry any yet, so
+   * every appraisal is treated as unsourced and hidden by default. Adding a
+   * list here is enough to make that view eligible for display again.
+   */
+  sources?: Partial<Record<'supporter' | 'critic' | 'objective', RawSource[]>>;
 }
 
 export interface PersonQuotes {
