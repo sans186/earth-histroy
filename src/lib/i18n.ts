@@ -60,6 +60,12 @@ const MESSAGES = {
     'certainty.short.low': '低',
     'overview.certainty': '本年可信度',
 
+    'story.prev': '上一步',
+    'story.play': '播放',
+    'story.pause': '暂停',
+    'story.next': '下一步',
+    'story.close': '关闭',
+
     'loading.wars': '正在加载战争档案',
     'loading.war': '正在读取战争档案',
 
@@ -343,6 +349,12 @@ const MESSAGES = {
     'certainty.short.mid': 'Mid',
     'certainty.short.low': 'Low',
     'overview.certainty': 'Certainty this year',
+
+    'story.prev': 'Previous',
+    'story.play': 'Play',
+    'story.pause': 'Pause',
+    'story.next': 'Next',
+    'story.close': 'Close',
 
     'loading.wars': 'Loading war records',
     'loading.war': 'Opening war record',
