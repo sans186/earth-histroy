@@ -20,6 +20,7 @@ import { useUiStore } from '@/stores/ui';
 import { useWarsStore } from '@/stores/wars';
 import type { PolityFeature, TimelineEvent } from '@/types';
 import AppHead from './components/AppHead.vue';
+import AboutPage from './components/AboutPage.vue';
 import CompareBoard from './components/CompareBoard.vue';
 import EventCard from './components/EventCard.vue';
 import ErrorNotice from './components/ErrorNotice.vue';
@@ -44,6 +45,8 @@ const globeReady = ref(false);
 const presentation = ref(false);
 /** The year's own appraisal, opened from the index heading. */
 const yearOpen = ref(false);
+/** Attribution, licence and disclaimer overlay. */
+const aboutOpen = ref(false);
 /** The side panel can be folded away to give the globe the full width. */
 const panelCollapsed = ref(false);
 /**
@@ -488,6 +491,15 @@ watch(yearOpen, (open) => {
   void wars.select(null);
 });
 
+watch(aboutOpen, (open) => {
+  if (!open) return;
+  ui.selectedEvent = null;
+  selectedPolity.value = null;
+  people.closePerson();
+  void wars.select(null);
+  yearOpen.value = false;
+});
+
 /*
  * The route follows the open profile, and is redrawn when the reader swaps
  * between the globe and the flat map — the two renderers keep separate scenes,
@@ -509,6 +521,12 @@ watch(
 function onKeydown(event: KeyboardEvent) {
   const target = event.target as HTMLElement | null;
   if (target && (target.tagName === 'INPUT' || target.tagName === 'SELECT')) return;
+
+  // The About overlay owns the keyboard while it is open.
+  if (aboutOpen.value) {
+    if (event.key === 'Escape') aboutOpen.value = false;
+    return;
+  }
 
   switch (event.key) {
     case 'ArrowLeft':
@@ -546,6 +564,8 @@ function onKeydown(event: KeyboardEvent) {
 function onGlobalPointerDown(event: PointerEvent) {
   const target = event.target as HTMLElement | null;
   if (!target) return;
+  // The About overlay has its own close affordances.
+  if (aboutOpen.value) return;
   // A click inside a card belongs to that card.
   if (target.closest('.card')) return;
 
@@ -576,7 +596,7 @@ onBeforeUnmount(() => {
 
 <template>
   <div class="app" :class="{ presentation }">
-    <AppHead v-if="!presentation" @reset-view="resetStage" />
+    <AppHead v-if="!presentation" @reset-view="resetStage" @about="aboutOpen = true" />
 
     <main :class="{ 'panel-closed': panelCollapsed }">
       <div class="slot">
@@ -667,6 +687,8 @@ onBeforeUnmount(() => {
     </main>
 
     <TimeScale v-if="!presentation" />
+
+    <AboutPage v-if="aboutOpen" @close="aboutOpen = false" />
 
     <button
       v-if="presentation"

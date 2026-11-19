@@ -4,7 +4,7 @@ import { useTimelineStore } from '@/stores/timeline';
 import { useUiStore } from '@/stores/ui';
 import type { ViewMode } from '@/types';
 
-const emit = defineEmits<{ resetView: [] }>();
+const emit = defineEmits<{ resetView: []; about: [] }>();
 
 const ui = useUiStore();
 const timeline = useTimelineStore();
@@ -34,6 +34,8 @@ const eraText = computed(() => (ui.locale === 'zh' ? timeline.era.name : timelin
       >
         {{ ui.t(v.key) }}
       </button>
+      <!-- Not a view: opens the attribution / disclaimer overlay. -->
+      <button class="about" @click="emit('about')">{{ ui.t('nav.about') }}</button>
     </nav>
 
     <!-- Renderer switch: only meaningful while exploring, since the comparison
@@ -125,6 +127,12 @@ nav button:hover {
 nav button.on {
   color: var(--ink);
   border-bottom-color: var(--rust);
+}
+nav button.about {
+  color: var(--ink-3);
+  border-left: 1px solid var(--rule-2);
+  margin-left: 4px;
+  padding-left: 13px;
 }
 
 .stages {
