@@ -1,6 +1,7 @@
 import { computed, onScopeDispose, ref, watch } from 'vue';
 import { YEAR_WINDOW } from '@/config';
 import { dataError, unexpectedError } from '@/lib/appError';
+import { certaintyInfo, type CertaintyLevel } from '@/lib/format';
 import { scopeHasPoint, scopeOverlapsYears } from '@/lib/polityScope';
 import {
   clearEventCache,
@@ -128,7 +129,14 @@ export function useGlobeData() {
   let lastEventSignature = '';
   let lastPolitySignature = '';
 
-  const filteredEvents = computed(() => {
+  /**
+   * The window after the category and map-scope gates, before certainty.
+   *
+   * LayerPanel draws its per-level counts from this list, so unchecking a
+   * level does not zero its own badge; the certainty gate is applied on top
+   * for everything the reader actually sees.
+   */
+  const scopedEvents = computed(() => {
     const list = windowEvents.value.filter((e) => layers.isActive(e.category));
 
     /*
@@ -142,6 +150,20 @@ export function useGlobeData() {
     return list.filter(
       (e) => scopeHasPoint(scope, e.lon, e.lat) && scopeOverlapsYears(scope, e.year, e.year),
     );
+  });
+
+  const filteredEvents = computed(() =>
+    scopedEvents.value.filter((e) =>
+      layers.isCertaintyActive(certaintyInfo(e.certainty, 'zh').level),
+    ),
+  );
+
+  const certaintyCounts = computed(() => {
+    const counts: Record<CertaintyLevel, number> = { high: 0, mid: 0, low: 0 };
+    for (const e of scopedEvents.value) {
+      counts[certaintyInfo(e.certainty, 'zh').level] += 1;
+    }
+    return counts;
   });
 
   const locatedCount = computed(
@@ -410,6 +432,7 @@ export function useGlobeData() {
   return {
     windowEvents,
     filteredEvents,
+    certaintyCounts,
     locatedCount,
     polityNames,
     refreshEvents,

@@ -1,9 +1,13 @@
 import { defineStore } from 'pinia';
 import { computed, ref } from 'vue';
 import { CATEGORY_KEYS, type CategoryKey } from '@/config';
+import type { CertaintyLevel } from '@/lib/format';
 import type { PolityStatus } from '@/types';
 
 export type BaseLayerId = 'standard' | 'satellite';
+
+/** Strongest first, so filter chips keep a stable order. */
+const CERTAINTY_LEVELS: CertaintyLevel[] = ['high', 'mid', 'low'];
 
 export const useLayersStore = defineStore('layers', () => {
   const base = ref<BaseLayerId>('standard');
@@ -26,6 +30,8 @@ export const useLayersStore = defineStore('layers', () => {
   const adjacentCenturies = ref(false);
 
   const activeCategories = ref<CategoryKey[]>([...CATEGORY_KEYS]);
+
+  const certaintyLevels = ref<CertaintyLevel[]>([...CERTAINTY_LEVELS]);
 
   const eventCount = ref(0);
   const locatedCount = ref(0);
@@ -59,6 +65,17 @@ export const useLayersStore = defineStore('layers', () => {
     activeCategories.value = allActive.value ? [] : [...CATEGORY_KEYS];
   }
 
+  function isCertaintyActive(level: CertaintyLevel) {
+    return certaintyLevels.value.includes(level);
+  }
+
+  function toggleCertainty(level: CertaintyLevel) {
+    const set = new Set(certaintyLevels.value);
+    if (set.has(level)) set.delete(level);
+    else set.add(level);
+    certaintyLevels.value = CERTAINTY_LEVELS.filter((l) => set.has(l));
+  }
+
   return {
     base,
     showPolities,
@@ -69,6 +86,7 @@ export const useLayersStore = defineStore('layers', () => {
     showWars,
     adjacentCenturies,
     activeCategories,
+    certaintyLevels,
     eventCount,
     locatedCount,
     polityStatus,
@@ -76,5 +94,7 @@ export const useLayersStore = defineStore('layers', () => {
     isActive,
     toggleCategory,
     toggleAllCategories,
+    isCertaintyActive,
+    toggleCertainty,
   };
 });

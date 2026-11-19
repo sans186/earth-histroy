@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue';
-import { YEAR_MIN, YEAR_MAX } from '@/config';
+import { INITIAL_VIEW, YEAR_MIN, YEAR_MAX } from '@/config';
+import { STORIES } from '@/data/stories';
 import type { CompareSubject } from '@/lib/compare';
 import type { EventRef } from '@/lib/eventLinks';
 import { makePolityScope, withLifespan, type PolityScope } from '@/lib/polityScope';
+import type { StoryStep, Story } from '@/types/story';
 import { useGlobeData } from '@/composables/useGlobeData';
 import {
   findEventById,
@@ -29,6 +31,8 @@ import MapStage from './components/MapStage.vue';
 import PersonCard from './components/PersonCard.vue';
 import PolityCard from './components/PolityCard.vue';
 import SidePanel from './components/SidePanel.vue';
+import StoryPicker from './components/StoryPicker.vue';
+import StoryPlayer from './components/StoryPlayer.vue';
 import TimeScale from './components/TimeScale.vue';
 import WarCard from './components/WarCard.vue';
 import YearCard from './components/YearCard.vue';
@@ -43,10 +47,20 @@ const data = useGlobeData();
 
 const globeReady = ref(false);
 const presentation = ref(false);
+/** Guided story mode: a scripted tour with the sidebar folded away. */
+const storyOpen = ref(false);
+/** The chooser appears first; the player opens only once a story is picked. */
+const storyPickerOpen = ref(false);
+const story = ref<Story>(STORIES[0]);
+/** Data sources, licences and the AI-content disclaimer. */
+const aboutOpen = ref(false);
+/** Year and camera to put back when the story closes. */
+let storyReturn: {
+  year: number;
+  camera: { lon: number; lat: number; height?: number; zoom?: number };
+} | null = null;
 /** The year's own appraisal, opened from the index heading. */
 const yearOpen = ref(false);
-/** Attribution, licence and disclaimer overlay. */
-const aboutOpen = ref(false);
 /** The side panel can be folded away to give the globe the full width. */
 const panelCollapsed = ref(false);
 /**
@@ -165,6 +179,66 @@ function onDataRetry() {
 function flyTo(lon: number, lat: number, height: number) {
   if (ui.stage === '3d') globe.flyTo(lon, lat, height);
   else map2d.flyTo(lon, lat);
+}
+
+/** The current camera, in whichever renderer is mounted. */
+function currentCamera() {
+  if (ui.stage === '3d') return globe.cameraView();
+  return map2d.cameraView() ?? { lon: INITIAL_VIEW.lon, lat: INITIAL_VIEW.lat, zoom: 2 };
+}
+
+/* ── story mode ────────────────────────────────────────────────────────── */
+
+function openStoryPicker() {
+  // The chooser replaces a running tour rather than stacking on top of it.
+  if (storyOpen.value) closeStory();
+  storyPickerOpen.value = true;
+}
+
+function startStory(next: Story) {
+  storyPickerOpen.value = false;
+  openStory(next);
+}
+
+function openStory(next: Story = STORIES[0]) {
+  if (storyOpen.value) return;
+  story.value = next;
+  storyReturn = { year: timeline.year, camera: currentCamera() };
+  storyOpen.value = true;
+
+  // The tour owns the screen: no detail card, and the map must be visible.
+  ui.selectedEvent = null;
+  selectedPolity.value = null;
+  people.closePerson();
+  void wars.select(null);
+  yearOpen.value = false;
+  ui.view = 'explore';
+
+  // Camera inertia would keep drifting against the next scripted flyTo.
+  if (ui.stage === '3d') globe.setCameraInertia(false);
+}
+
+function onStoryStep(step: StoryStep) {
+  timeline.setYear(step.year);
+  flyTo(step.lon, step.lat, step.height ?? 1_200_000);
+}
+
+function closeStory() {
+  if (!storyOpen.value) return;
+  storyOpen.value = false;
+  if (ui.stage === '3d') globe.setCameraInertia(true);
+
+  const back = storyReturn;
+  storyReturn = null;
+  if (!back) return;
+
+  // Restore the cursor first, then the camera that framed it.
+  timeline.setYear(back.year);
+  if (ui.stage === '3d') {
+    globe.flyTo(back.camera.lon, back.camera.lat, back.camera.height ?? 1_200_000);
+  } else {
+    map2d.flyTo(back.camera.lon, back.camera.lat, back.camera.zoom);
+  }
 }
 
 /* The flat map subscribes to the stores directly, so these 3D-only passes are
@@ -595,8 +669,13 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="app" :class="{ presentation }">
-    <AppHead v-if="!presentation" @reset-view="resetStage" @about="aboutOpen = true" />
+  <div class="app" :class="{ presentation, 'story-mode': storyOpen }">
+    <AppHead
+      v-if="!presentation"
+      @reset-view="resetStage"
+      @open-story="openStoryPicker"
+      @open-about="aboutOpen = true"
+    />
 
     <main :class="{ 'panel-closed': panelCollapsed }">
       <div class="slot">
@@ -668,15 +747,16 @@ onBeforeUnmount(() => {
       </div>
 
       <SidePanel
-        v-if="!presentation && !panelCollapsed"
+        v-if="!presentation && !storyOpen && !panelCollapsed"
         :events="data.filteredEvents.value"
         :total-before-filter="borderCount"
+        :certainty-counts="data.certaintyCounts.value"
         @select="onPickEvent"
         @open-year="openYearCard"
         @collapse="panelCollapsed = true"
       />
       <button
-        v-else-if="!presentation"
+        v-else-if="!presentation && !storyOpen"
         class="panel-open"
         :title="ui.t('panel.expand')"
         :aria-label="ui.t('panel.expand')"
@@ -689,6 +769,15 @@ onBeforeUnmount(() => {
     <TimeScale v-if="!presentation" />
 
     <AboutPage v-if="aboutOpen" @close="aboutOpen = false" />
+
+    <StoryPicker
+      v-if="storyPickerOpen"
+      :stories="STORIES"
+      @select="startStory"
+      @close="storyPickerOpen = false"
+    />
+
+    <StoryPlayer v-if="storyOpen" :story="story" @step="onStoryStep" @close="closeStory" />
 
     <button
       v-if="presentation"
@@ -709,6 +798,15 @@ onBeforeUnmount(() => {
 }
 .app.presentation {
   grid-template-rows: minmax(0, 1fr);
+}
+
+/* Story mode gives the map the full width. The panel is also unmounted in the
+   template; this keeps the grid honest for the transition frame. */
+.app.story-mode main {
+  grid-template-columns: minmax(0, 1fr);
+}
+.app.story-mode :deep(.player) {
+  bottom: calc(var(--foot-h) + 16px);
 }
 
 main {
