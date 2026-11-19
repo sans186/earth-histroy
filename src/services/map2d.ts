@@ -1,6 +1,7 @@
 import type { Feature, FeatureCollection } from 'geojson';
 import * as maplibregl from 'maplibre-gl';
 import { BASEMAPS, INITIAL_VIEW, type BaseKind } from '@/config';
+import { neutralizeModernBoundaries, normalizeModernCountries } from '@/lib/modernBorders';
 import { labelAnchor } from '@/lib/polityScope';
 import type { HoverInfo, WarMarker } from '@/services/globe';
 import { fetchOptionalJson } from '@/services/http';
@@ -662,11 +663,17 @@ export class Map2D {
    * failure forever.
    */
   async loadModernBorders(countriesUrl: string, bordersUrl: string): Promise<boolean> {
-    const [countries, lines] = await Promise.all([
+    const [rawCountries, rawLines] = await Promise.all([
       fetchCollection(countriesUrl),
       fetchCollection(bordersUrl),
     ]);
-    if (!countries || !lines) return false;
+    if (!rawCountries || !rawLines) return false;
+
+    // Same policy as the globe: Taiwan is folded into China, and disputed /
+    // line-of-control / indefinite stretches are withheld (see
+    // `lib/modernBorders`). The shipped files stay untouched.
+    const countries = normalizeModernCountries(rawCountries);
+    const lines = neutralizeModernBoundaries(rawLines);
 
     this.borderCountries = countries;
     this.borderLines = lines;

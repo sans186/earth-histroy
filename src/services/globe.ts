@@ -1,4 +1,5 @@
 import * as Cesium from 'cesium';
+import type { Feature, FeatureCollection } from 'geojson';
 import {
   BASEMAPS,
   BOUNDARY_ALTITUDE,
@@ -8,6 +9,7 @@ import {
   polityCapForHeight,
 } from '@/config';
 import { bboxIntersects } from '@/lib/geo';
+import { neutralizeModernBoundaries, normalizeModernCountries } from '@/lib/modernBorders';
 import { labelAnchor } from '@/lib/polityScope';
 import { fetchJson } from '@/services/http';
 import type { Locale, PolityFeature, PreparedPolity, TimelineEvent } from '@/types';
@@ -1208,11 +1210,14 @@ class GlobeEngine {
 
     if (!this.bordersDS) {
       try {
-        const source = await Cesium.GeoJsonDataSource.load(bordersUrl, {
-          stroke,
-          strokeWidth: 2,
-          clampToGround: false,
-        });
+        const source = await Cesium.GeoJsonDataSource.load(
+          await sanitizeBoundaries(bordersUrl),
+          {
+            stroke,
+            strokeWidth: 2,
+            clampToGround: false,
+          },
+        );
         if (this.abort.signal.aborted) return false;
         viewer.dataSources.add(source);
         source.show = this.bordersWanted;
@@ -1354,18 +1359,27 @@ function clampPolarGeometry(geometry: GeoJsonGeometry | null | undefined) {
 /**
  * Reference layers are third-party Natural Earth files, so the repair happens
  * here rather than in the shipped data — a future download stays compatible.
+ * The same pass folds Taiwan into the China feature (see `lib/modernBorders`).
  */
-async function sanitizeCountries(url: string): Promise<unknown> {
-  const json = await fetchJson<{
-    features?: Array<{ geometry?: GeoJsonGeometry | null }>;
-  }>(url);
+async function sanitizeCountries(url: string): Promise<FeatureCollection> {
+  const json = await fetchJson<FeatureCollection>(url);
+  const normalized = normalizeModernCountries(json);
   return {
-    ...json,
-    features: (json.features ?? []).map((feature) => ({
+    ...normalized,
+    features: normalized.features.map((feature) => ({
       ...feature,
-      geometry: clampPolarGeometry(feature.geometry),
+      geometry: clampPolarGeometry(feature.geometry as GeoJsonGeometry | null) as Feature['geometry'],
     })),
   };
+}
+
+/**
+ * Disputed / line-of-control / indefinite stretches are withheld from the
+ * reference layer instead of being drawn as settled borders.
+ */
+async function sanitizeBoundaries(url: string): Promise<FeatureCollection> {
+  const json = await fetchJson<FeatureCollection>(url);
+  return neutralizeModernBoundaries(json);
 }
 
 /**
