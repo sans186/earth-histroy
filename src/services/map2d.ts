@@ -119,6 +119,9 @@ function baseStyle(kind: BaseKind): maplibregl.StyleSpecification {
 
 const EMPTY: FeatureCollection = { type: 'FeatureCollection', features: [] };
 
+/** Screen-space box of one placed name, used for the overlap test. */
+type LabelBox = { x1: number; y1: number; x2: number; y2: number };
+
 export class Map2D {
   private map: maplibregl.Map | null = null;
   private callbacks: Map2DCallbacks = {};
@@ -158,6 +161,8 @@ export class Map2D {
   private labelHost: HTMLDivElement | null = null;
   private labelPool: HTMLDivElement[] = [];
   private labelItems: { text: string; lon: number; lat: number; weight: number }[] = [];
+  /** War names, gated by the labels switch like the globe's war labels. */
+  private warLabelItems: { text: string; lon: number; lat: number }[] = [];
   private labelsOn = true;
   private labelLocale: Locale = 'zh';
   private labelFrame = 0;
@@ -595,7 +600,7 @@ export class Map2D {
     const host = this.ensureLabelHost();
     if (!map || !host) return;
 
-    if (!this.labelsOn) {
+    if (!this.labelsOn && !this.warLabelItems.length) {
       host.style.display = 'none';
       return;
     }
@@ -603,44 +608,74 @@ export class Map2D {
 
     const zoom = map.getZoom();
     const limit = zoom < 2.5 ? 10 : zoom < 4 ? 26 : zoom < 6 ? 60 : 120;
-    const width = host.clientWidth;
-    const height = host.clientHeight;
 
-    const placed: { x1: number; y1: number; x2: number; y2: number }[] = [];
+    const placed: LabelBox[] = [];
     let used = 0;
 
-    for (const item of this.labelItems) {
-      if (used >= limit) break;
+    if (this.labelsOn) {
+      for (const item of this.labelItems) {
+        if (used >= limit) break;
+        if (this.placeLabel(item, used, placed, 0, 'polity-label')) used += 1;
+      }
+    }
 
-      const point = map.project([item.lon, item.lat]);
-      if (point.x < 6 || point.y < 6 || point.x > width - 6 || point.y > height - 6) continue;
-
-      const text = item.text.length > 14 ? `${item.text.slice(0, 13)}…` : item.text;
-      const fontSize = zoom < 3 ? 11 : zoom < 5 ? 12 : 13;
-      const boxW = text.length * fontSize * 1.02;
-      const boxH = fontSize * 1.6;
-      const box = {
-        x1: point.x - boxW / 2,
-        x2: point.x + boxW / 2,
-        y1: point.y - boxH / 2,
-        y2: point.y + boxH / 2,
-      };
-
-      const collides = placed.some(
-        (other) => box.x1 < other.x2 && box.x2 > other.x1 && box.y1 < other.y2 && box.y2 > other.y1,
-      );
-      if (collides) continue;
-      placed.push(box);
-
-      const el = this.labelElement(used);
-      el.textContent = text;
-      el.style.fontSize = `${fontSize}px`;
-      el.style.transform = `translate3d(${Math.round(point.x)}px, ${Math.round(point.y)}px, 0) translate(-50%, -50%)`;
-      el.style.display = '';
-      used += 1;
+    // Up to 18 theatres, the same cap as the globe; the active war sorts first.
+    const warLimit = Math.min(this.warLabelItems.length, 18);
+    for (let i = 0; i < warLimit; i += 1) {
+      if (this.placeLabel(this.warLabelItems[i], used, placed, -18, 'polity-label war-label')) {
+        used += 1;
+      }
     }
 
     for (let i = used; i < this.labelPool.length; i += 1) this.labelPool[i].style.display = 'none';
+  }
+
+  /**
+   * Place one name if it is on screen and does not overlap an earlier one.
+   * `dy` lifts war names clear of their diamond.
+   */
+  private placeLabel(
+    item: { text: string; lon: number; lat: number },
+    index: number,
+    placed: LabelBox[],
+    dy: number,
+    className: string,
+  ): boolean {
+    const map = this.map;
+    const host = this.labelHost;
+    if (!map || !host) return false;
+
+    const point = map.project([item.lon, item.lat]);
+    const width = host.clientWidth;
+    const height = host.clientHeight;
+    if (point.x < 6 || point.y < 6 || point.x > width - 6 || point.y > height - 6) return false;
+
+    const zoom = map.getZoom();
+    const fontSize = zoom < 3 ? 11 : zoom < 5 ? 12 : 13;
+    const text = item.text.length > 14 ? `${item.text.slice(0, 13)}…` : item.text;
+    const boxW = text.length * fontSize * 1.02;
+    const boxH = fontSize * 1.6;
+    const y = point.y + dy;
+    const box = {
+      x1: point.x - boxW / 2,
+      x2: point.x + boxW / 2,
+      y1: y - boxH / 2,
+      y2: y + boxH / 2,
+    };
+
+    const collides = placed.some(
+      (other) => box.x1 < other.x2 && box.x2 > other.x1 && box.y1 < other.y2 && box.y2 > other.y1,
+    );
+    if (collides) return false;
+    placed.push(box);
+
+    const el = this.labelElement(index);
+    el.className = className;
+    el.textContent = text;
+    el.style.fontSize = `${fontSize}px`;
+    el.style.transform = `translate3d(${Math.round(point.x)}px, ${Math.round(y)}px, 0) translate(-50%, -50%)`;
+    el.style.display = '';
+    return true;
   }
 
   private labelElement(index: number): HTMLDivElement {
@@ -698,18 +733,32 @@ export class Map2D {
 
   /* ── wars ────────────────────────────────────────────────────────────── */
 
-  renderWars(wars: WarMarker[], activeId: string | null, _showLabels: boolean) {
+  renderWars(wars: WarMarker[], activeId: string | null, showLabels: boolean) {
     this.warFeatures = wars.map((war) => ({
       type: 'Feature' as const,
       geometry: { type: 'Point' as const, coordinates: [war.lon, war.lat] },
       properties: { warId: war.warId, name: war.name, active: war.warId === activeId },
     }));
+    // MapLibre text needs a glyph server, which this app deliberately does not
+    // host (CJK packs are tens of megabytes). The DOM label layer already solves
+    // that for polity names, so war names ride on it instead.
+    this.warLabelItems = showLabels
+      ? [...wars]
+          .sort(
+            (a, b) => Number(b.warId === activeId) - Number(a.warId === activeId),
+          )
+          .slice(0, 18)
+          .map((war) => ({ text: war.name, lon: war.lon, lat: war.lat }))
+      : [];
     this.repaintWars();
+    this.queueLabels();
   }
 
   clearWars() {
     this.warFeatures = [];
+    this.warLabelItems = [];
     this.repaintWars();
+    this.queueLabels();
   }
 
   private repaintWars() {

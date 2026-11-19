@@ -188,16 +188,44 @@ export interface WarLocation {
 }
 
 export interface WarBattle {
+  battleId?: string;
   name?: string;
+  nameEn?: string;
+  /** Current schema: the battle's first year. Profiles before it used `year`. */
+  startYear?: number;
+  endYear?: number;
+  /** Legacy single-year field, still present in a handful of profiles. */
   year?: number;
+  /** One profile stores its first year under this misspelt key. */
+  nameYear?: number;
+  /**
+   * Approximate `[lon, lat]` centroid. A few profiles store it as a string or a
+   * bare number, so it stays untyped instead of claiming an array it is not.
+   */
+  coords?: unknown;
+  /** Current schema: the theatre/place name. Older profiles used `location`. */
+  theater?: string;
   location?: string;
+  context?: string;
   description?: string;
+  /** Current schema: battle result. Older profiles used `outcome`. */
+  result?: string;
   outcome?: string;
+  significance?: string;
+  casualties?: Record<string, string>;
+  forces?: Record<string, string>;
+  commanders?: { name?: string; role?: string; side?: string }[];
 }
 
 export interface WarPhase {
   name?: string;
+  nameEn?: string;
+  startYear?: number;
+  endYear?: number;
+  /** Legacy display range, e.g. "-334--333". */
   years?: string;
+  summary?: string;
+  /** Legacy prose field, used by the phases that predate `summary`. */
   description?: string;
   battles?: WarBattle[];
 }

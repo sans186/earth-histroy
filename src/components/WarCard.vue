@@ -1,11 +1,14 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue';
 import { formatYearRange } from '@/lib/format';
+import { isOngoingWar, warProvenance } from '@/lib/provenance';
 import { wikiSearchUrl } from '@/lib/wiki';
 import type { MessageKey } from '@/lib/i18n';
+import { battlePlace, battleResult, battleYear } from '@/services/war-data';
 import { useUiStore } from '@/stores/ui';
 import { useWarsStore } from '@/stores/wars';
-import type { WarSide } from '@/types';
+import type { WarPhase, WarSide } from '@/types';
+import ProvenanceBadge from '@/components/ui/ProvenanceBadge.vue';
 
 const emit = defineEmits<{ close: []; flyToTheatre: [string] }>();
 
@@ -17,6 +20,13 @@ const tab = ref<Tab>('overview');
 
 const war = computed(() => wars.selected);
 const doc = computed(() => wars.profile);
+
+/**
+ * Ongoing conflicts only keep what has already happened: outcome, victory
+ * analysis and legacy are withheld until the conflict has a real end state.
+ */
+const ongoing = computed(() => isOngoingWar(war.value));
+const prov = computed(() => warProvenance(war.value, doc.value));
 
 /**
  * War profiles list their sources but carry no Wikipedia article title, so this
@@ -38,6 +48,14 @@ watch(
 const span = computed(() =>
   formatYearRange(war.value?.startYear, war.value?.endYear, ui.locale),
 );
+
+/** Phase date line: current profiles store years as numbers, older ones as text. */
+function phaseSpan(phase: WarPhase): string {
+  if (typeof phase.startYear === 'number' || typeof phase.endYear === 'number') {
+    return formatYearRange(phase.startYear, phase.endYear, ui.locale);
+  }
+  return phase.years ?? '';
+}
 
 /**
  * Flatten a profile field to displayable text.
@@ -163,6 +181,7 @@ function sideDetails(side: WarSide | undefined): { k: string; v: string }[] {
 }
 
 const outcome = computed(() => {
+  if (ongoing.value) return [];
   const o = doc.value?.outcome;
   if (!o) return [];
   return [
@@ -177,6 +196,7 @@ const outcome = computed(() => {
 });
 
 const legacy = computed(() => {
+  if (ongoing.value) return [];
   const l = doc.value?.legacy;
   if (!l) return [];
   return [
@@ -227,6 +247,7 @@ const tabCounts = computed<Record<Tab, number>>(() => ({
       <span v-if="war?.totalBattles" class="kv">
         <em>{{ ui.t('war.battles') }}</em><span class="mono">{{ war.totalBattles }}</span>
       </span>
+      <ProvenanceBadge :evidence="prov.evidence" :dispute="prov.dispute" />
     </div>
 
     <nav class="tabs">
@@ -246,6 +267,10 @@ const tabCounts = computed<Record<Tab, number>>(() => ({
     <div v-else class="body">
       <!-- 概况 -->
       <template v-if="tab === 'overview'">
+        <p v-if="ongoing" class="ongoing">
+          <strong>{{ ui.t('war.ongoing') }}</strong>
+          {{ ui.t('war.ongoingNote') }}
+        </p>
         <p v-if="doc?.summary" class="lead">{{ doc.summary }}</p>
         <section v-if="background.length">
           <h5 class="cap">{{ ui.t('war.background') }}</h5>
@@ -328,17 +353,19 @@ const tabCounts = computed<Record<Tab, number>>(() => ({
           <section v-for="(phase, pi) in doc?.warProcess?.phases ?? []" :key="pi" class="phase">
             <h5 class="cap">
               {{ phase.name }}
-              <span v-if="phase.years" class="years mono">{{ phase.years }}</span>
+              <span v-if="phaseSpan(phase)" class="years mono">{{ phaseSpan(phase) }}</span>
             </h5>
-            <p v-if="phase.description" class="desc">{{ phase.description }}</p>
+            <p v-if="phase.summary || phase.description" class="desc">
+              {{ phase.summary || phase.description }}
+            </p>
             <ol v-if="phase.battles?.length" class="battles">
               <li v-for="(b, bi) in phase.battles" :key="bi">
-                <span class="by mono">{{ b.year ?? '—' }}</span>
+                <span class="by mono">{{ battleYear(b) ?? '—' }}</span>
                 <span class="bb">
                   <span class="bn">{{ b.name }}</span>
-                  <span v-if="b.location" class="bl">· {{ toText(b.location) }}</span>
+                  <span v-if="battlePlace(b)" class="bl">· {{ toText(battlePlace(b)) }}</span>
                   <span v-if="b.description" class="bd">{{ toText(b.description) }}</span>
-                  <span v-if="b.outcome" class="bo">{{ toText(b.outcome) }}</span>
+                  <span v-if="battleResult(b)" class="bo">{{ toText(battleResult(b)) }}</span>
                 </span>
               </li>
             </ol>
@@ -509,6 +536,19 @@ header h3 {
   color: var(--ink-2);
   border-bottom: 1px solid var(--rule);
   text-align: justify;
+}
+.ongoing {
+  padding: 10px 16px;
+  font-size: 12.5px;
+  line-height: 1.75;
+  color: var(--ink-2);
+  background: color-mix(in srgb, var(--rust) 6%, transparent);
+  border-bottom: 1px solid var(--rule);
+}
+.ongoing strong {
+  color: var(--rust);
+  font-weight: 500;
+  margin-right: 6px;
 }
 
 section h5 {

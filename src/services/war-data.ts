@@ -1,4 +1,4 @@
-import type { FlatBattle, WarIndexItem, WarLocation, WarProfile } from '@/types';
+import type { FlatBattle, WarBattle, WarIndexItem, WarLocation, WarProfile } from '@/types';
 import { DataFetchError, fetchJson, fetchOptionalJson } from '@/services/http';
 
 /**
@@ -82,6 +82,27 @@ export async function loadWarProfile(warId: string): Promise<WarProfile | null> 
   }
 }
 
+/**
+ * Read a battle's date, place and result across both schema generations.
+ *
+ * Current profiles use `startYear` / `theater` / `result`; seven older ones
+ * still use `year` / `location` / `outcome`. The UI used to read only the old
+ * spelling, which blanked ~95% of the 894 battles.
+ */
+export function battleYear(battle: WarBattle): number | null {
+  if (typeof battle.startYear === 'number') return battle.startYear;
+  if (typeof battle.nameYear === 'number') return battle.nameYear;
+  return typeof battle.year === 'number' ? battle.year : null;
+}
+
+export function battlePlace(battle: WarBattle): string {
+  return battle.theater || battle.location || '';
+}
+
+export function battleResult(battle: WarBattle): string {
+  return battle.result || battle.outcome || '';
+}
+
 /** Every battle across all phases, flattened and sorted by year. */
 export function battleList(profile: WarProfile | null): FlatBattle[] {
   const out: FlatBattle[] = [];
@@ -89,10 +110,10 @@ export function battleList(profile: WarProfile | null): FlatBattle[] {
     for (const battle of phase.battles ?? []) {
       out.push({
         name: battle.name ?? '',
-        year: typeof battle.year === 'number' ? battle.year : null,
-        location: battle.location ?? '',
+        year: battleYear(battle),
+        location: battlePlace(battle),
         description: battle.description ?? '',
-        outcome: battle.outcome ?? '',
+        outcome: battleResult(battle),
         phase: phase.name ?? '',
       });
     }
