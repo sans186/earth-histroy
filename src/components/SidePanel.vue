@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
+import type { CertaintyLevel } from '@/lib/format';
 import { usePeopleStore } from '@/stores/people';
 import { useUiStore } from '@/stores/ui';
 import { useWarsStore } from '@/stores/wars';
@@ -12,6 +13,7 @@ import WarPanel from './WarPanel.vue';
 const props = defineProps<{
   events: TimelineEvent[];
   totalBeforeFilter: number;
+  certaintyCounts: Record<CertaintyLevel, number>;
 }>();
 
 const emit = defineEmits<{
@@ -69,7 +71,7 @@ function openTab(next: Tab) {
       />
       <WarPanel v-show="tab === 'wars'" />
       <PeoplePanel v-show="tab === 'people'" />
-      <LayerPanel v-show="tab === 'layers'" />
+      <LayerPanel v-show="tab === 'layers'" :certainty-counts="props.certaintyCounts" />
     </div>
   </aside>
 </template>

@@ -651,6 +651,7 @@ onBeforeUnmount(() => {
         v-if="!presentation && !panelCollapsed"
         :events="data.filteredEvents.value"
         :total-before-filter="borderCount"
+        :certainty-counts="data.certaintyCounts.value"
         @select="onPickEvent"
         @open-year="openYearCard"
         @collapse="panelCollapsed = true"

@@ -19,6 +19,7 @@ const MESSAGES = {
     'panel.legend': '图例',
     'panel.layers': '图层',
     'panel.categories': '分类',
+    'panel.certainty': '可信度',
     'panel.base': '底图',
     'panel.polity': '历史政区',
     'panel.stats': '数据',
@@ -50,6 +51,10 @@ const MESSAGES = {
 
     'cat.all': '全部',
     'cat.none': '无',
+
+    'certainty.high': '史料充分',
+    'certainty.mid': '细节存疑',
+    'certainty.low': '存在争议',
 
     'loading.wars': '正在加载战争档案',
     'loading.war': '正在读取战争档案',
@@ -294,6 +299,7 @@ const MESSAGES = {
     'panel.legend': 'Legend',
     'panel.layers': 'Layers',
     'panel.categories': 'Categories',
+    'panel.certainty': 'Certainty',
     'panel.base': 'Basemap',
     'panel.polity': 'Historical polities',
     'panel.stats': 'Data',
@@ -325,6 +331,10 @@ const MESSAGES = {
 
     'cat.all': 'All',
     'cat.none': 'None',
+
+    'certainty.high': 'Well attested',
+    'certainty.mid': 'Partly attested',
+    'certainty.low': 'Disputed',
 
     'loading.wars': 'Loading war records',
     'loading.war': 'Opening war record',

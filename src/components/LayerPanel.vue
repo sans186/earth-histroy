@@ -1,8 +1,11 @@
 <script setup lang="ts">
 import { CATEGORY_KEYS, CATEGORIES, type CategoryKey } from '@/config';
+import type { CertaintyLevel } from '@/lib/format';
 import { useLayersStore } from '@/stores/layers';
 import { useUiStore } from '@/stores/ui';
 import ToggleRow from './ui/ToggleRow.vue';
+
+defineProps<{ certaintyCounts: Record<CertaintyLevel, number> }>();
 
 const ui = useUiStore();
 const layers = useLayersStore();
@@ -10,6 +13,12 @@ const layers = useLayersStore();
 const baseOptions = [
   { id: 'standard' as const, key: 'base.standard' as const },
   { id: 'satellite' as const, key: 'base.satellite' as const },
+];
+
+const certaintyOptions = [
+  { level: 'high' as const, key: 'certainty.high' as const },
+  { level: 'mid' as const, key: 'certainty.mid' as const },
+  { level: 'low' as const, key: 'certainty.low' as const },
 ];
 
 function catLabel(key: CategoryKey) {
@@ -79,6 +88,18 @@ function catLabel(key: CategoryKey) {
           {{ catLabel(key) }}
         </button>
       </div>
+    </section>
+
+    <section>
+      <h4 class="cap">{{ ui.t('panel.certainty') }}</h4>
+      <ToggleRow
+        v-for="opt in certaintyOptions"
+        :key="opt.level"
+        :model-value="layers.isCertaintyActive(opt.level)"
+        :label="ui.t(opt.key)"
+        :hint="String(certaintyCounts[opt.level])"
+        @update:model-value="layers.toggleCertainty(opt.level)"
+      />
     </section>
 
     <section class="stats">
