@@ -1173,7 +1173,7 @@ const KM_PER_DEG_LAT = 110.574;
 const KM_PER_DEG_LON = 111.32;
 
 /** Story region circles were oversized; scale down the authored radius. */
-const STORY_RADIUS_SCALE = 0.3;
+const STORY_RADIUS_SCALE = 0.2;
 
 /** A 64-gon circle of `radiusKm` around a point, round on the globe. */
 function circleRing(
