@@ -58,6 +58,9 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown));
 
 .dialog {
   width: min(440px, 100%);
+  max-height: calc(100vh - 48px);
+  display: flex;
+  flex-direction: column;
   padding: 18px 20px 20px;
   background: var(--card);
   border: 1px solid var(--rule-2);
@@ -94,14 +97,18 @@ header h2 {
 ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0 4px 0 0;
   display: flex;
   flex-direction: column;
   gap: 8px;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 
 .item {
   width: 100%;
+  flex: 0 0 auto;
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 3px 12px;

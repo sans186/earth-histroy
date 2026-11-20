@@ -41,6 +41,7 @@ const stepCaption = computed(() => {
   if (!current) return '';
   return ui.locale === 'zh' ? current.caption : (current.captionEn ?? current.caption);
 });
+const stepRegion = computed(() => step.value?.regionLabel ?? '');
 
 let raf = 0;
 let last = 0;
@@ -189,10 +190,16 @@ onBeforeUnmount(() => {
     </header>
 
     <Transition name="fade" mode="out-in">
-      <p :key="index" class="caption">
-        <span class="stop">{{ stepTitle }}</span>
-        {{ stepCaption }}
-      </p>
+      <div :key="index" class="step">
+        <p v-if="stepRegion" class="region">
+          <span class="region-tag">{{ ui.t('story.region') }}</span>
+          {{ stepRegion }}
+        </p>
+        <p class="caption">
+          <span class="stop">{{ stepTitle }}</span>
+          {{ stepCaption }}
+        </p>
+      </div>
     </Transition>
 
     <div
@@ -282,6 +289,25 @@ onBeforeUnmount(() => {
   line-height: 1.7;
   color: var(--ink-2);
   text-shadow: 0 1px 2px rgba(255, 255, 255, 0.55);
+}
+.region {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+  font-size: 11.5px;
+  letter-spacing: 0.06em;
+  color: var(--ink-3);
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.55);
+}
+.region-tag {
+  flex: none;
+  padding: 0 5px;
+  font-size: 10px;
+  line-height: 1.6;
+  letter-spacing: 0.12em;
+  color: var(--rust);
+  border: 1px solid color-mix(in srgb, var(--rust) 38%, transparent);
 }
 .caption .stop {
   margin-right: 6px;

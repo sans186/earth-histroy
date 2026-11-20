@@ -95,4 +95,22 @@ export const PLACES: Record<string, { name: string; lon: number; lat: number }> 
   valmy: { name: '瓦尔密', lon: 4.5, lat: 49.1 },
   varennes: { name: '瓦雷讷', lon: 5.0, lat: 49.2 },
   toulon: { name: '土伦', lon: 5.9, lat: 43.1 },
+
+  // World War I
+  belgrade: { name: '贝尔格莱德', lon: 20.5, lat: 44.8 },
+  marne: { name: '马恩河', lon: 3.0, lat: 49.0 },
+  verdun: { name: '凡尔登', lon: 5.4, lat: 49.2 },
+  somme: { name: '索姆河', lon: 2.7, lat: 50.0 },
+
+  // World War II, European theatre
+  warsaw: { name: '华沙', lon: 21.0, lat: 52.2 },
+  dunkirk: { name: '敦刻尔克', lon: 2.4, lat: 51.0 },
+
+  // World War II, Pacific theatre
+  guadalcanal: { name: '瓜达尔卡纳尔', lon: 160.0, lat: -9.4 },
+  okinawa: { name: '冲绳', lon: 127.7, lat: 26.3 },
+
+  // The Cold War
+  yalta: { name: '雅尔塔', lon: 34.2, lat: 44.5 },
+  havana: { name: '哈瓦那', lon: -82.4, lat: 23.1 },
 };

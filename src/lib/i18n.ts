@@ -68,6 +68,7 @@ const MESSAGES = {
     'story.close': '关闭',
     'story.pick': '选择故事',
     'story.steps': '{count} 步',
+    'story.region': '区域',
 
     'about.title': '数据与合规',
     'about.data.title': '数据来源与许可',
@@ -473,6 +474,7 @@ const MESSAGES = {
     'story.close': 'Close',
     'story.pick': 'Choose a story',
     'story.steps': '{count} steps',
+    'story.region': 'Region',
 
     'about.title': 'Data & Compliance',
     'about.data.title': 'Data sources & licences',
