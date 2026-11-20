@@ -667,6 +667,7 @@ export const STORIES: Story[] = [
         height: 1300000,
         title: PLACES.indus.name,
         route: 'land',
+        view: { headingOffset: 30 },
         caption:
           '公元前 326 年，马其顿军队抵达印度河，在希达斯皮斯河战胜波罗斯，因士卒疲惫而停止继续东进。',
         // Rough footprint of the Indus valley around the Hydaspes crossing.
@@ -705,6 +706,7 @@ export const STORIES: Story[] = [
         height: 1200000,
         title: PLACES.samarkand.name,
         route: 'land',
+        view: { headingOffset: 30 },
         caption:
           '1220 年，蒙古军围攻并攻陷撒马尔罕，花剌子模的重要城市被毁，河中地区被纳入蒙古统治。',
         radiusKm: 300,
@@ -1129,6 +1131,7 @@ export const STORIES: Story[] = [
         height: 1100000,
         title: PLACES.lexington.name,
         route: 'land',
+        view: { rangeScale: 0.8, headingOffset: 15 },
         caption:
           '1775 年，莱克星顿与康科德打响独立战争第一枪，北美殖民地与英国的武装冲突开始。',
         // Rough footprint of the Lexington and Concord battle area.
@@ -1214,7 +1217,6 @@ export const STORIES: Story[] = [
         year: 1789,
         lon: PLACES.versailles.lon,
         lat: PLACES.versailles.lat,
-        height: 1100000,
         title: PLACES.versailles.name,
         route: 'land',
         caption:
@@ -1226,9 +1228,9 @@ export const STORIES: Story[] = [
         year: 1789,
         lon: PLACES.paris.lon,
         lat: PLACES.paris.lat,
-        height: 1100000,
         title: PLACES.paris.name,
         route: 'land',
+        view: { rangeScale: 0.8, headingOffset: 15 },
         caption:
           '1789 年 7 月，巴黎民众攻占巴士底狱，大革命爆发，随后《人权宣言》宣布自由平等原则。',
         radiusKm: 250,
@@ -1238,7 +1240,6 @@ export const STORIES: Story[] = [
         year: 1791,
         lon: PLACES.varennes.lon,
         lat: PLACES.varennes.lat,
-        height: 1100000,
         title: PLACES.varennes.name,
         route: 'land',
         caption:
@@ -1250,9 +1251,9 @@ export const STORIES: Story[] = [
         year: 1792,
         lon: PLACES.valmy.lon,
         lat: PLACES.valmy.lat,
-        height: 1150000,
         title: PLACES.valmy.name,
         route: 'land',
+        view: { rangeScale: 0.8, headingOffset: 15 },
         caption:
           '1792 年，法国革命军在瓦尔密击退普鲁士军队，共和国由此转危为安，得以继续存在。',
         // Rough footprint of the Valmy battlefield.
@@ -1269,7 +1270,6 @@ export const STORIES: Story[] = [
         year: 1793,
         lon: PLACES.paris.lon,
         lat: PLACES.paris.lat,
-        height: 1100000,
         title: PLACES.paris.name,
         route: 'land',
         caption:
@@ -1281,7 +1281,6 @@ export const STORIES: Story[] = [
         year: 1793,
         lon: PLACES.toulon.lon,
         lat: PLACES.toulon.lat,
-        height: 1150000,
         title: PLACES.toulon.name,
         route: 'land',
         caption:
@@ -1453,6 +1452,7 @@ export const STORIES: Story[] = [
         height: 1150000,
         title: PLACES.stalingrad.name,
         route: 'land',
+        view: { headingOffset: 30 },
         caption:
           '1942 至 1943 年，斯大林格勒战役以德军失败告终，成为欧洲战场的转折点。',
         radiusKm: 250,

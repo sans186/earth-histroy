@@ -18,6 +18,11 @@ export interface StoryStep {
   duration: number;
   /** How this step is reached from the previous one: over land, by air, or by sea. Defaults to air. */
   route?: 'land' | 'air' | 'sea';
+  /**
+   * Optional nudge to the camera that frames the leg arriving at this step.
+   * `pitch` is in degrees (negative looks down); heading/range adjust the defaults.
+   */
+  view?: { headingOffset?: number; pitch?: number; rangeScale?: number };
   /** Polygon ring as `[lon, lat]`; the first and last point need not match. */
   region?: [number, number][];
   /** Name shown on the region's marker, e.g. "帕提亚帝国". */

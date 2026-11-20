@@ -58,6 +58,12 @@ const story = ref<Story>(STORIES[0]);
 const storyStep = ref<StoryStep | null>(null);
 /** The story player instance, so App can hand control back after a route animation. */
 const playerRef = ref<InstanceType<typeof StoryPlayer> | null>(null);
+/**
+ * True while a route transition is handing the finished leg back to the player.
+ * The step's own camera move would undo the framing that just landed, so it is
+ * skipped for that one step.
+ */
+let arrivingFromTransition = false;
 /** Data sources, licences and the AI-content disclaimer. */
 const aboutOpen = ref(false);
 /** Year and camera to put back when the story closes. */
@@ -275,6 +281,13 @@ async function onStoryStep(step: StoryStep) {
   // Tear down the previous highlight before the camera leaves, then draw the
   // new one only once the flight has arrived.
   clearStoryRegion();
+  // A transition has already framed and flown to this step; flying again would
+  // yank the camera back out and undo that framing.
+  if (arrivingFromTransition) {
+    arrivingFromTransition = false;
+    showStoryRegion(step);
+    return;
+  }
   await flyTo(step.lon, step.lat, step.height ?? 1_200_000);
   // The story may have closed or moved on while the camera was flying.
   if (!storyOpen.value || storyStep.value !== step) return;
@@ -295,7 +308,11 @@ async function onStoryTransition({ from, to }: { from: StoryStep; to: StoryStep 
   } else {
     await map2d.animateStoryRoute(from, to, mode);
   }
+
+  // Flag the handoff so the step's own camera move is skipped for this one step.
+  arrivingFromTransition = true;
   playerRef.value?.finishTransition();
+  arrivingFromTransition = false;
 }
 
 function closeStory() {

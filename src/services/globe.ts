@@ -61,6 +61,16 @@ function clamp(value: number, min: number, max: number): number {
   return Math.min(max, Math.max(min, value));
 }
 
+/** Initial great-circle bearing from one step to the next, in degrees 0–360. */
+function initialBearing(from: StoryStep, to: StoryStep): number {
+  const lat1 = Cesium.Math.toRadians(from.lat);
+  const lat2 = Cesium.Math.toRadians(to.lat);
+  const dLon = Cesium.Math.toRadians(to.lon - from.lon);
+  const y = Math.sin(dLon) * Math.cos(lat2);
+  const x = Math.cos(lat1) * Math.sin(lat2) - Math.sin(lat1) * Math.cos(lat2) * Math.cos(dLon);
+  return (Cesium.Math.toDegrees(Math.atan2(y, x)) + 360) % 360;
+}
+
 export interface HoverInfo {
   x: number;
   y: number;
@@ -940,11 +950,10 @@ class GlobeEngine {
    * Animate a route growing from one story step to the next, then push the
    * camera in on the destination.
    *
-   * The camera first frames both ends of the leg (a bounding sphere that just
-   * encloses the two surface points), then a two-layer glowing line — a wide
-   * soft halo under a thin bright core, with a dot at its head — grows along the
-   * great circle (a high arc for air/sea, a ground-hugging swell for land).
-   * Finally the camera flies to the destination. Resolves when the whole leg
+   * The camera first frames the whole leg with a bounding sphere — rotated to
+   * the leg's bearing so a long crossing runs across the screen — then a
+   * two-layer glowing line grows along the great circle, arcing to the leg's own
+   * scale, and the camera finishes on the destination. Resolves when the leg
    * finishes, and on any cancellation or error, so a closed story never stalls.
    */
   animateStoryRoute(
@@ -959,15 +968,20 @@ class GlobeEngine {
     this.cancelStoryRoute();
 
     let positions: Cesium.Cartesian3[];
-    let sphere: Cesium.BoundingSphere;
+    let profile: {
+      sphere: Cesium.BoundingSphere;
+      range: number;
+      heading: number;
+      pitch: number;
+      d: number;
+      arc: number;
+    };
     let color: Cesium.Color;
     let paper: Cesium.Color;
 
     try {
+      profile = this.storyCameraProfile(from, to, mode);
       positions = this.sampleStoryRoute(from, to, mode);
-      const start = Cesium.Cartesian3.fromDegrees(from.lon, from.lat, 0);
-      const end = Cesium.Cartesian3.fromDegrees(to.lon, to.lat, 0);
-      sphere = Cesium.BoundingSphere.fromPoints([start, end]);
       const isLand = mode === 'land';
       color = Cesium.Color.fromCssColorString(isLand ? '#c0392b' : '#2e86c1');
       paper = Cesium.Color.fromCssColorString(css('--paper', '#f7f5f0'));
@@ -975,6 +989,9 @@ class GlobeEngine {
       // A malformed leg must never stall the player: treat it as "already done".
       return Promise.resolve();
     }
+
+    // Close in proportionally to the leg, so a short hop is not shot from orbit.
+    const destinationHeight = to.height ?? clamp(profile.d * 0.8 + 50_000, 80_000, 1_200_000);
 
     return new Promise<void>((resolve) => {
       let done = false;
@@ -1015,13 +1032,18 @@ class GlobeEngine {
 
       this.storyRouteCancel = cancel;
 
-      // Frame both ends before the line starts: look down on the sphere that
-      // just encloses the two surface points.
-      const pitch = Cesium.Math.toRadians(-55);
+      // A leg shorter than this has no arc worth drawing; just land on it.
+      if (profile.d < 3_000) {
+        this.flyTo(to.lon, to.lat, destinationHeight, 1.2).then(() => settle());
+        return;
+      }
+
+      // Frame the whole leg first, looking along the leg's bearing.
       new Promise<boolean>((res) => {
-        viewer.camera.flyToBoundingSphere(sphere, {
-          offset: new Cesium.HeadingPitchRange(0, pitch, sphere.radius * 3.2),
-          duration: 1.0,
+        viewer.camera.flyToBoundingSphere(profile.sphere, {
+          offset: new Cesium.HeadingPitchRange(profile.heading, profile.pitch, profile.range),
+          duration: 1.1,
+          easingFunction: Cesium.EasingFunction.QUADRATIC_IN_OUT,
           complete: () => res(true),
           cancel: () => res(false),
         });
@@ -1078,7 +1100,7 @@ class GlobeEngine {
             progress = 1;
             viewer.scene.requestRender();
             // Leg drawn: push in on the destination, then tear the line down.
-            this.flyTo(to.lon, to.lat, to.height ?? 1_200_000, 1.2).then(() => settle());
+            this.flyTo(to.lon, to.lat, destinationHeight, 1.2).then(() => settle());
           };
           rafId = requestAnimationFrame(frame);
         })
@@ -1093,11 +1115,68 @@ class GlobeEngine {
   }
 
   /**
-   * 128 points along the great circle between two steps.
+   * Peak height of a route's arc, in metres, for a leg `d` metres long.
    *
-   * Air and sea legs arc up to ~12% of the great-circle distance (never under
-   * 400 km) so a long crossing reads as a flight; land legs stay at a fixed
-   * 30 km, hugging the ground.
+   * Proportional to distance, with floors and ceilings that keep a short hop
+   * visible and a cross-ocean flight from leaving the atmosphere.
+   */
+  private storyArcHeight(d: number, mode: 'land' | 'air' | 'sea'): number {
+    if (mode === 'land') return clamp(d * 0.06, 1_500, 120_000);
+    if (mode === 'sea') return clamp(d * 0.12, 4_000, 6_000_000);
+    return clamp(d * 0.15, 5_000, 8_000_000);
+  }
+
+  /**
+   * The camera framing for a leg: a sphere enclosing both ends and the arc's
+   * apex, plus the heading/pitch/range that keeps the whole route on screen.
+   */
+  private storyCameraProfile(
+    from: StoryStep,
+    to: StoryStep,
+    mode: 'land' | 'air' | 'sea',
+  ): {
+    sphere: Cesium.BoundingSphere;
+    range: number;
+    heading: number;
+    pitch: number;
+    d: number;
+    arc: number;
+  } {
+    const start = Cesium.Cartographic.fromDegrees(from.lon, from.lat);
+    const end = Cesium.Cartographic.fromDegrees(to.lon, to.lat);
+    const geodesic = new Cesium.EllipsoidGeodesic(start, end);
+    const d = geodesic.surfaceDistance;
+    const arc = this.storyArcHeight(d, mode);
+
+    const mid = geodesic.interpolateUsingFraction(0.5, new Cesium.Cartographic());
+    const p1 = Cesium.Cartesian3.fromDegrees(from.lon, from.lat, 0);
+    const p2 = Cesium.Cartesian3.fromDegrees(to.lon, to.lat, 0);
+    const apex = Cesium.Cartesian3.fromRadians(mid.longitude, mid.latitude, arc);
+    const sphere = Cesium.BoundingSphere.fromPoints([p1, apex, p2]);
+
+    let range = Math.max(sphere.radius * 3.0, 30_000);
+    // Head across the route rather than always looking north up the screen.
+    let heading = Cesium.Math.toRadians((initialBearing(from, to) - 90 + 360) % 360);
+
+    // Steeper for short legs, shallower for long ones where the horizon matters.
+    let pitchDeg: number;
+    if (d < 50_000) pitchDeg = -62;
+    else if (d < 300_000) pitchDeg = -56;
+    else if (d < 2_000_000) pitchDeg = -50;
+    else pitchDeg = -45;
+
+    // A step may nudge its own arrival framing; absent, the defaults stand.
+    const view = to.view;
+    if (view?.pitch !== undefined) pitchDeg = view.pitch;
+    if (view?.headingOffset) heading += Cesium.Math.toRadians(view.headingOffset);
+    if (view?.rangeScale) range *= view.rangeScale;
+
+    return { sphere, range, heading, pitch: Cesium.Math.toRadians(pitchDeg), d, arc };
+  }
+
+  /**
+   * 128 points along the great circle between two steps, lifted onto the arc
+   * that `storyArcHeight` scales to the leg.
    */
   private sampleStoryRoute(
     from: StoryStep,
@@ -1107,29 +1186,16 @@ class GlobeEngine {
     const start = Cesium.Cartographic.fromDegrees(from.lon, from.lat);
     const end = Cesium.Cartographic.fromDegrees(to.lon, to.lat);
     const geodesic = new Cesium.EllipsoidGeodesic(start, end);
-    const distance = geodesic.surfaceDistance;
+    const arc = this.storyArcHeight(geodesic.surfaceDistance, mode);
 
     const N = 128;
-    const isLand = mode === 'land';
-    // Base height + amplitude above the surface, by leg kind. Air and sea arc
-    // high enough to read as a flight; land hugs the ground with a gentle swell.
-    let base = 0;
-    let amplitude: number;
-    if (isLand) {
-      base = 40_000;
-      amplitude = Math.min(distance * 0.02, 80_000);
-    } else if (mode === 'sea') {
-      amplitude = clamp(distance * 0.14, 500_000, 6_000_000);
-    } else {
-      amplitude = clamp(distance * 0.18, 600_000, 8_000_000);
-    }
-
     const positions: Cesium.Cartesian3[] = [];
     const carto = new Cesium.Cartographic();
     for (let i = 0; i < N; i += 1) {
       const fraction = i / (N - 1);
       geodesic.interpolateUsingFraction(fraction, carto);
-      const height = base + amplitude * Math.sin(Math.PI * fraction);
+      // A half-sine hump: zero at both ends, the peak at the midpoint.
+      const height = arc * Math.sin(Math.PI * fraction);
       positions.push(Cesium.Cartesian3.fromRadians(carto.longitude, carto.latitude, height));
     }
     return positions;
