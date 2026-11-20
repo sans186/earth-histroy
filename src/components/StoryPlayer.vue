@@ -221,7 +221,7 @@ onBeforeUnmount(() => {
       <span class="pos mono">{{ index + 1 }} / {{ story.steps.length }}</span>
     </div>
 
-    <p class="credit">AI 辅助生成 · 已人工校对</p>
+    <p class="credit">已人工校对</p>
   </section>
 </template>
 

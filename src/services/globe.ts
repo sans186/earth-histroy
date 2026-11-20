@@ -982,9 +982,6 @@ class GlobeEngine {
     try {
       profile = this.storyCameraProfile(from, to, mode);
       positions = this.sampleStoryRoute(from, to, mode);
-      const start = Cesium.Cartesian3.fromDegrees(from.lon, from.lat, 0);
-      const end = Cesium.Cartesian3.fromDegrees(to.lon, to.lat, 0);
-      sphere = Cesium.BoundingSphere.fromPoints([start, end]);
       const isLand = mode === 'land';
       color = Cesium.Color.fromCssColorString(isLand ? '#c0392b' : '#2e86c1');
       paper = Cesium.Color.fromCssColorString(css('--paper', '#f7f5f0'));
