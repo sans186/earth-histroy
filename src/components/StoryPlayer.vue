@@ -237,10 +237,10 @@ onBeforeUnmount(() => {
   flex-direction: column;
   gap: 12px;
   padding: 16px 18px 14px;
-  background: color-mix(in srgb, var(--card) 76%, transparent);
+  background: color-mix(in srgb, var(--card) 23%, transparent);
   backdrop-filter: blur(14px) saturate(1.05);
   -webkit-backdrop-filter: blur(14px) saturate(1.05);
-  border: 1px solid color-mix(in srgb, var(--rule-2) 70%, transparent);
+  border: 1px solid color-mix(in srgb, var(--rule-2) 55%, transparent);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
 }
 

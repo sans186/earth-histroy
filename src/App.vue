@@ -21,7 +21,7 @@ import { usePeopleStore } from '@/stores/people';
 import { useTimelineStore } from '@/stores/timeline';
 import { useUiStore } from '@/stores/ui';
 import { useWarsStore } from '@/stores/wars';
-import type { PolityFeature, TimelineEvent } from '@/types';
+import type { PolityFeature, StageMode, TimelineEvent } from '@/types';
 import AppHead from './components/AppHead.vue';
 import AboutPage from './components/AboutPage.vue';
 import AtlasBoard from './components/AtlasBoard.vue';
@@ -65,6 +65,8 @@ let storyReturn: {
   year: number;
   camera: { lon: number; lat: number; height?: number; zoom?: number };
 } | null = null;
+/** The renderer the reader was on before a story forced 3D, restored on close. */
+let prevStage: StageMode | null = null;
 /** The year's own appraisal, opened from the index heading. */
 const yearOpen = ref(false);
 /** The side panel can be folded away to give the globe the full width. */
@@ -119,6 +121,13 @@ const bordersLoaded = ref(false);
 let deepLinkCamera: { lon: number; lat: number } | null = null;
 
 /**
+ * The reader's camera, parked when a story closed across a stage switch (2D →
+ * forced 3D → back to 2D). The remounted renderer isn't ready yet, so it is
+ * flown to from `onStageReady`.
+ */
+let restoreCamera: { lon: number; lat: number; height?: number; zoom?: number } | null = null;
+
+/**
  * Which comparison column already holds the open polity.
  *
  * The card's two buttons used to look like a mode switch; showing "already in
@@ -162,6 +171,13 @@ function onStageReady() {
   // A stage switch remounts the renderer, which drops any plotted story region;
   // re-plot it now that the new renderer is up.
   if (storyOpen.value && storyStep.value) showStoryRegion(storyStep.value);
+  // A story that closed across a stage switch parked the reader's camera here.
+  if (restoreCamera) {
+    const c = restoreCamera;
+    restoreCamera = null;
+    if (ui.stage === '3d') globe.flyTo(c.lon, c.lat, c.height ?? 1_200_000);
+    else map2d.flyTo(c.lon, c.lat, c.zoom);
+  }
   void (async () => {
     // Events first so the map is useful immediately; the heavy polity files
     // follow on their own without competing for the same bandwidth.
@@ -224,7 +240,11 @@ function openStory(next: Story = STORIES[0]) {
   if (storyOpen.value) return;
   story.value = next;
   storyReturn = { year: timeline.year, camera: currentCamera() };
+  // The route arcs only read as flights on the globe, so pin the story to 3D
+  // and remember where the reader was so closing puts them back.
+  prevStage = ui.stage;
   storyOpen.value = true;
+  if (ui.stage !== '3d') ui.setStage('3d');
 
   // The tour owns the screen: no detail card, and the map must be visible.
   ui.selectedEvent = null;
@@ -288,13 +308,22 @@ function closeStory() {
   storyOpen.value = false;
   if (ui.stage === '3d') globe.setCameraInertia(true);
 
+  // Put the reader back on their original renderer, unless they switched it
+  // themselves while the tour was open.
+  const switchedStage = prevStage !== null && prevStage !== '3d' && ui.stage === '3d';
+  if (switchedStage) ui.setStage(prevStage!);
+  prevStage = null;
+
   const back = storyReturn;
   storyReturn = null;
   if (!back) return;
 
   // Restore the cursor first, then the camera that framed it.
   timeline.setYear(back.year);
-  if (ui.stage === '3d') {
+  if (switchedStage) {
+    // The remounted renderer isn't ready yet; onStageReady flies it.
+    restoreCamera = { lon: back.camera.lon, lat: back.camera.lat, zoom: back.camera.zoom };
+  } else if (ui.stage === '3d') {
     globe.flyTo(back.camera.lon, back.camera.lat, back.camera.height ?? 1_200_000);
   } else {
     map2d.flyTo(back.camera.lon, back.camera.lat, back.camera.zoom);

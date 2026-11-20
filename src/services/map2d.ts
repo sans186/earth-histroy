@@ -1172,6 +1172,9 @@ function hashString(input: string): number {
 const KM_PER_DEG_LAT = 110.574;
 const KM_PER_DEG_LON = 111.32;
 
+/** Story region circles were oversized; scale down the authored radius. */
+const STORY_RADIUS_SCALE = 0.3;
+
 /** A 64-gon circle of `radiusKm` around a point, round on the globe. */
 function circleRing(
   lon: number,
@@ -1203,7 +1206,7 @@ function storyRegionFeature(step: StoryStep): FeatureCollection {
   const ring = closedRing(
     step.region && step.region.length >= 3
       ? step.region
-      : circleRing(step.lon, step.lat, step.radiusKm ?? 260),
+      : circleRing(step.lon, step.lat, (step.radiusKm ?? 260) * STORY_RADIUS_SCALE),
   );
   return {
     type: 'FeatureCollection',

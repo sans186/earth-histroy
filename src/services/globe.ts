@@ -57,6 +57,10 @@ function easeInOutCubic(t: number): number {
   return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
 }
 
+function clamp(value: number, min: number, max: number): number {
+  return Math.min(max, Math.max(min, value));
+}
+
 export interface HoverInfo {
   x: number;
   y: number;
@@ -866,7 +870,7 @@ class GlobeEngine {
     const ring = closedRing(
       step.region && step.region.length >= 3
         ? step.region
-        : circleRing(step.lon, step.lat, step.radiusKm ?? 260),
+        : circleRing(step.lon, step.lat, (step.radiusKm ?? 260) * STORY_RADIUS_SCALE),
     );
 
     const flat: number[] = [];
@@ -933,14 +937,15 @@ class GlobeEngine {
   /* ── story route transition ──────────────────────────────────────────── */
 
   /**
-   * Animate a line growing from one story step to the next, then push the
+   * Animate a route growing from one story step to the next, then push the
    * camera in on the destination.
    *
-   * The camera first pulls back to frame both ends of the leg, a glowing
-   * polyline grows along the great circle (an arc for air/sea, a ground-hugging
-   * 30 km line for land), and finally the camera flies to the destination.
-   * Resolves when the whole leg finishes, and on any cancellation or error, so
-   * a closed story can never stall the player.
+   * The camera first frames both ends of the leg (a bounding sphere that just
+   * encloses the two surface points), then a two-layer glowing line — a wide
+   * soft halo under a thin bright core, with a dot at its head — grows along the
+   * great circle (a high arc for air/sea, a ground-hugging swell for land).
+   * Finally the camera flies to the destination. Resolves when the whole leg
+   * finishes, and on any cancellation or error, so a closed story never stalls.
    */
   animateStoryRoute(
     from: StoryStep,
@@ -953,27 +958,19 @@ class GlobeEngine {
     // A new leg (or a close) supersedes whichever one is already in flight.
     this.cancelStoryRoute();
 
-    let midLon: number;
-    let midLat: number;
-    let midHeight: number;
     let positions: Cesium.Cartesian3[];
+    let sphere: Cesium.BoundingSphere;
     let color: Cesium.Color;
-    let glowPower: number;
+    let paper: Cesium.Color;
 
     try {
-      const start = Cesium.Cartographic.fromDegrees(from.lon, from.lat);
-      const end = Cesium.Cartographic.fromDegrees(to.lon, to.lat);
-      const geodesic = new Cesium.EllipsoidGeodesic(start, end);
-      const mid = geodesic.interpolateUsingFraction(0.5, new Cesium.Cartographic());
-      midLon = Cesium.Math.toDegrees(mid.longitude);
-      midLat = Cesium.Math.toDegrees(mid.latitude);
-      // Frame both ends: higher the further apart they are, never below 2,000 km.
-      midHeight = Math.max(geodesic.surfaceDistance * 1.15, 2_000_000);
-
       positions = this.sampleStoryRoute(from, to, mode);
+      const start = Cesium.Cartesian3.fromDegrees(from.lon, from.lat, 0);
+      const end = Cesium.Cartesian3.fromDegrees(to.lon, to.lat, 0);
+      sphere = Cesium.BoundingSphere.fromPoints([start, end]);
       const isLand = mode === 'land';
       color = Cesium.Color.fromCssColorString(isLand ? '#c0392b' : '#2e86c1');
-      glowPower = isLand ? 0.22 : 0.28;
+      paper = Cesium.Color.fromCssColorString(css('--paper', '#f7f5f0'));
     } catch {
       // A malformed leg must never stall the player: treat it as "already done".
       return Promise.resolve();
@@ -982,16 +979,28 @@ class GlobeEngine {
     return new Promise<void>((resolve) => {
       let done = false;
       let rafId = 0;
-      let entity: Cesium.Entity | null = null;
-      /** Already-eased 0–1 growth, read by the polyline's CallbackProperty. */
+      let entities: Cesium.Entity[] = [];
+      /** Already-eased 0–1 growth, read by the line and head CallbackProperties. */
       let progress = 0;
+
+      const growCount = () =>
+        Math.max(2, Math.min(positions.length, Math.ceil(progress * positions.length)));
+
+      const positionsProp = new Cesium.CallbackProperty(
+        () => positions.slice(0, growCount()),
+        false,
+      );
+      const headProp = new Cesium.CallbackPositionProperty(
+        () => positions[growCount() - 1],
+        false,
+      );
 
       const cleanup = () => {
         cancelAnimationFrame(rafId);
-        if (entity) {
-          viewer.entities.remove(entity);
-          entity = null;
-        }
+        // Abort whichever scripted camera move is still running.
+        if (!viewer.isDestroyed()) viewer.camera.cancelFlight();
+        for (const entity of entities) viewer.entities.remove(entity);
+        entities = [];
       };
 
       const settle = () => {
@@ -1006,24 +1015,49 @@ class GlobeEngine {
 
       this.storyRouteCancel = cancel;
 
-      void this.flyTo(midLon, midLat, midHeight, 1.0)
+      // Frame both ends before the line starts: look down on the sphere that
+      // just encloses the two surface points.
+      const pitch = Cesium.Math.toRadians(-55);
+      new Promise<boolean>((res) => {
+        viewer.camera.flyToBoundingSphere(sphere, {
+          offset: new Cesium.HeadingPitchRange(0, pitch, sphere.radius * 3.2),
+          duration: 1.0,
+          complete: () => res(true),
+          cancel: () => res(false),
+        });
+      })
         .then(() => {
           if (done) return;
 
           try {
-            entity = viewer.entities.add({
-              polyline: {
-                positions: new Cesium.CallbackProperty(() => {
-                  const count = Math.max(
-                    2,
-                    Math.min(positions.length, Math.ceil(progress * positions.length)),
-                  );
-                  return positions.slice(0, count);
-                }, false),
-                width: 5,
-                material: new Cesium.PolylineGlowMaterialProperty({ color, glowPower }),
-              },
-            });
+            entities = [
+              viewer.entities.add({
+                polyline: {
+                  positions: positionsProp,
+                  width: 14,
+                  material: new Cesium.ColorMaterialProperty(color.withAlpha(0.16)),
+                  clampToGround: false,
+                },
+              }),
+              viewer.entities.add({
+                polyline: {
+                  positions: positionsProp,
+                  width: 4,
+                  material: new Cesium.PolylineGlowMaterialProperty({ color, glowPower: 0.35 }),
+                  clampToGround: false,
+                },
+              }),
+              viewer.entities.add({
+                position: headProp,
+                point: {
+                  pixelSize: 9,
+                  color,
+                  outlineColor: paper,
+                  outlineWidth: 2,
+                  disableDepthTestDistance: Number.POSITIVE_INFINITY,
+                },
+              }),
+            ];
           } catch {
             settle();
             return;
@@ -1032,6 +1066,9 @@ class GlobeEngine {
           const t0 = performance.now();
           const frame = (now: number) => {
             if (done) return;
+            // With `requestRenderMode` the render loop does not run on its own;
+            // nudge it every frame so the growing line actually appears.
+            viewer.scene.requestRender();
             const t = Math.min(1, (now - t0) / durationMs);
             progress = easeInOutCubic(t);
             if (t < 1) {
@@ -1039,8 +1076,9 @@ class GlobeEngine {
               return;
             }
             progress = 1;
+            viewer.scene.requestRender();
             // Leg drawn: push in on the destination, then tear the line down.
-            void this.flyTo(to.lon, to.lat, to.height ?? 1_200_000, 1.2).then(() => settle());
+            this.flyTo(to.lon, to.lat, to.height ?? 1_200_000, 1.2).then(() => settle());
           };
           rafId = requestAnimationFrame(frame);
         })
@@ -1069,17 +1107,29 @@ class GlobeEngine {
     const start = Cesium.Cartographic.fromDegrees(from.lon, from.lat);
     const end = Cesium.Cartographic.fromDegrees(to.lon, to.lat);
     const geodesic = new Cesium.EllipsoidGeodesic(start, end);
+    const distance = geodesic.surfaceDistance;
 
     const N = 128;
     const isLand = mode === 'land';
-    const arcHeight = isLand ? 30_000 : Math.max(geodesic.surfaceDistance * 0.12, 400_000);
+    // Base height + amplitude above the surface, by leg kind. Air and sea arc
+    // high enough to read as a flight; land hugs the ground with a gentle swell.
+    let base = 0;
+    let amplitude: number;
+    if (isLand) {
+      base = 40_000;
+      amplitude = Math.min(distance * 0.02, 80_000);
+    } else if (mode === 'sea') {
+      amplitude = clamp(distance * 0.14, 500_000, 6_000_000);
+    } else {
+      amplitude = clamp(distance * 0.18, 600_000, 8_000_000);
+    }
 
     const positions: Cesium.Cartesian3[] = [];
     const carto = new Cesium.Cartographic();
     for (let i = 0; i < N; i += 1) {
       const fraction = i / (N - 1);
       geodesic.interpolateUsingFraction(fraction, carto);
-      const height = isLand ? 30_000 : arcHeight * Math.sin(Math.PI * fraction);
+      const height = base + amplitude * Math.sin(Math.PI * fraction);
       positions.push(Cesium.Cartesian3.fromRadians(carto.longitude, carto.latitude, height));
     }
     return positions;
@@ -1688,6 +1738,9 @@ function ringArea(ring: number[][] | undefined): number {
 /** Kilometres per degree of latitude/longitude at the equator (mean Earth). */
 const KM_PER_DEG_LAT = 110.574;
 const KM_PER_DEG_LON = 111.32;
+
+/** Story region circles were oversized; scale down the authored radius. */
+const STORY_RADIUS_SCALE = 0.3;
 
 /**
  * A regular polygon approximating a circle of `radiusKm` around a point.
