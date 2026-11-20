@@ -56,6 +56,8 @@ const storyPickerOpen = ref(false);
 const story = ref<Story>(STORIES[0]);
 /** The step the story player is currently showing, so the region can be re-plotted. */
 const storyStep = ref<StoryStep | null>(null);
+/** The story player instance, so App can hand control back after a route animation. */
+const playerRef = ref<InstanceType<typeof StoryPlayer> | null>(null);
 /** Data sources, licences and the AI-content disclaimer. */
 const aboutOpen = ref(false);
 /** Year and camera to put back when the story closes. */
@@ -259,8 +261,28 @@ async function onStoryStep(step: StoryStep) {
   showStoryRegion(step);
 }
 
+/**
+ * Animate the route from one step to the next, then hand the player back.
+ *
+ * The route mode belongs to the step being reached, so a sea leg reads as a sea
+ * leg in both directions. The map call owns every camera move and the route
+ * line; the player only resumes its clock once the flight has landed.
+ */
+async function onStoryTransition({ from, to }: { from: StoryStep; to: StoryStep }) {
+  const mode = to.route ?? 'air';
+  if (ui.stage === '3d') {
+    await globe.animateStoryRoute(from, to, mode);
+  } else {
+    await map2d.animateStoryRoute(from, to, mode);
+  }
+  playerRef.value?.finishTransition();
+}
+
 function closeStory() {
   if (!storyOpen.value) return;
+  // Any route line still growing must be torn down before the view resets.
+  globe.cancelStoryRoute();
+  map2d.cancelStoryRoute();
   clearStoryRegion();
   storyStep.value = null;
   storyOpen.value = false;
@@ -864,7 +886,14 @@ onBeforeUnmount(() => {
       @close="storyPickerOpen = false"
     />
 
-    <StoryPlayer v-if="storyOpen" :story="story" @step="onStoryStep" @close="closeStory" />
+    <StoryPlayer
+      v-if="storyOpen"
+      ref="playerRef"
+      :story="story"
+      @step="onStoryStep"
+      @transition="onStoryTransition"
+      @close="closeStory"
+    />
 
     <button
       v-if="presentation"

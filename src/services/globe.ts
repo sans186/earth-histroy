@@ -52,6 +52,11 @@ function hashString(input: string): number {
   return Math.abs(h);
 }
 
+/** Smooth start-and-stop easing for the story route growth. */
+function easeInOutCubic(t: number): number {
+  return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+}
+
 export interface HoverInfo {
   x: number;
   y: number;
@@ -157,6 +162,9 @@ class GlobeEngine {
 
   /** Entities of the story step's region highlight; removed together on clear. */
   private storyRegionEntities: Cesium.Entity[] = [];
+
+  /** Cancels the in-flight story route transition, if any. */
+  private storyRouteCancel: (() => void) | null = null;
 
   private polityLayer = new Cesium.CustomDataSource('polities');
   /** Name entities of the last render, so the layer switch avoids a redraw. */
@@ -356,6 +364,7 @@ class GlobeEngine {
   destroy(): void {
     this.abort.abort();
     this.cancelSettle();
+    this.cancelStoryRoute();
     for (const h of this.handlers) {
       if (!h.isDestroyed()) h.destroy();
     }
@@ -919,6 +928,161 @@ class GlobeEngine {
       for (const entity of this.storyRegionEntities) viewer.entities.remove(entity);
     }
     this.storyRegionEntities = [];
+  }
+
+  /* ── story route transition ──────────────────────────────────────────── */
+
+  /**
+   * Animate a line growing from one story step to the next, then push the
+   * camera in on the destination.
+   *
+   * The camera first pulls back to frame both ends of the leg, a glowing
+   * polyline grows along the great circle (an arc for air/sea, a ground-hugging
+   * 30 km line for land), and finally the camera flies to the destination.
+   * Resolves when the whole leg finishes, and on any cancellation or error, so
+   * a closed story can never stall the player.
+   */
+  animateStoryRoute(
+    from: StoryStep,
+    to: StoryStep,
+    mode: 'land' | 'air' | 'sea',
+    durationMs = 2400,
+  ): Promise<void> {
+    const viewer = this.viewer;
+    if (!viewer) return Promise.resolve();
+    // A new leg (or a close) supersedes whichever one is already in flight.
+    this.cancelStoryRoute();
+
+    let midLon: number;
+    let midLat: number;
+    let midHeight: number;
+    let positions: Cesium.Cartesian3[];
+    let color: Cesium.Color;
+    let glowPower: number;
+
+    try {
+      const start = Cesium.Cartographic.fromDegrees(from.lon, from.lat);
+      const end = Cesium.Cartographic.fromDegrees(to.lon, to.lat);
+      const geodesic = new Cesium.EllipsoidGeodesic(start, end);
+      const mid = geodesic.interpolateUsingFraction(0.5, new Cesium.Cartographic());
+      midLon = Cesium.Math.toDegrees(mid.longitude);
+      midLat = Cesium.Math.toDegrees(mid.latitude);
+      // Frame both ends: higher the further apart they are, never below 2,000 km.
+      midHeight = Math.max(geodesic.surfaceDistance * 1.15, 2_000_000);
+
+      positions = this.sampleStoryRoute(from, to, mode);
+      const isLand = mode === 'land';
+      color = Cesium.Color.fromCssColorString(isLand ? '#c0392b' : '#2e86c1');
+      glowPower = isLand ? 0.22 : 0.28;
+    } catch {
+      // A malformed leg must never stall the player: treat it as "already done".
+      return Promise.resolve();
+    }
+
+    return new Promise<void>((resolve) => {
+      let done = false;
+      let rafId = 0;
+      let entity: Cesium.Entity | null = null;
+      /** Already-eased 0–1 growth, read by the polyline's CallbackProperty. */
+      let progress = 0;
+
+      const cleanup = () => {
+        cancelAnimationFrame(rafId);
+        if (entity) {
+          viewer.entities.remove(entity);
+          entity = null;
+        }
+      };
+
+      const settle = () => {
+        if (done) return;
+        done = true;
+        if (this.storyRouteCancel === cancel) this.storyRouteCancel = null;
+        cleanup();
+        resolve();
+      };
+
+      const cancel = () => settle();
+
+      this.storyRouteCancel = cancel;
+
+      void this.flyTo(midLon, midLat, midHeight, 1.0)
+        .then(() => {
+          if (done) return;
+
+          try {
+            entity = viewer.entities.add({
+              polyline: {
+                positions: new Cesium.CallbackProperty(() => {
+                  const count = Math.max(
+                    2,
+                    Math.min(positions.length, Math.ceil(progress * positions.length)),
+                  );
+                  return positions.slice(0, count);
+                }, false),
+                width: 5,
+                material: new Cesium.PolylineGlowMaterialProperty({ color, glowPower }),
+              },
+            });
+          } catch {
+            settle();
+            return;
+          }
+
+          const t0 = performance.now();
+          const frame = (now: number) => {
+            if (done) return;
+            const t = Math.min(1, (now - t0) / durationMs);
+            progress = easeInOutCubic(t);
+            if (t < 1) {
+              rafId = requestAnimationFrame(frame);
+              return;
+            }
+            progress = 1;
+            // Leg drawn: push in on the destination, then tear the line down.
+            void this.flyTo(to.lon, to.lat, to.height ?? 1_200_000, 1.2).then(() => settle());
+          };
+          rafId = requestAnimationFrame(frame);
+        })
+        .catch(() => settle());
+    });
+  }
+
+  /** Stop an in-flight story route transition and clear its line. */
+  cancelStoryRoute() {
+    this.storyRouteCancel?.();
+    this.storyRouteCancel = null;
+  }
+
+  /**
+   * 128 points along the great circle between two steps.
+   *
+   * Air and sea legs arc up to ~12% of the great-circle distance (never under
+   * 400 km) so a long crossing reads as a flight; land legs stay at a fixed
+   * 30 km, hugging the ground.
+   */
+  private sampleStoryRoute(
+    from: StoryStep,
+    to: StoryStep,
+    mode: 'land' | 'air' | 'sea',
+  ): Cesium.Cartesian3[] {
+    const start = Cesium.Cartographic.fromDegrees(from.lon, from.lat);
+    const end = Cesium.Cartographic.fromDegrees(to.lon, to.lat);
+    const geodesic = new Cesium.EllipsoidGeodesic(start, end);
+
+    const N = 128;
+    const isLand = mode === 'land';
+    const arcHeight = isLand ? 30_000 : Math.max(geodesic.surfaceDistance * 0.12, 400_000);
+
+    const positions: Cesium.Cartesian3[] = [];
+    const carto = new Cesium.Cartographic();
+    for (let i = 0; i < N; i += 1) {
+      const fraction = i / (N - 1);
+      geodesic.interpolateUsingFraction(fraction, carto);
+      const height = isLand ? 30_000 : arcHeight * Math.sin(Math.PI * fraction);
+      positions.push(Cesium.Cartesian3.fromRadians(carto.longitude, carto.latitude, height));
+    }
+    return positions;
   }
 
   /* ── wars ────────────────────────────────────────────────────────────── */

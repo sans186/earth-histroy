@@ -4,7 +4,11 @@ import type { Story, StoryStep } from '@/types/story';
 import { useUiStore } from '@/stores/ui';
 
 const props = defineProps<{ story: Story }>();
-const emit = defineEmits<{ step: [StoryStep]; close: [] }>();
+const emit = defineEmits<{
+  step: [StoryStep];
+  close: [];
+  transition: [{ from: StoryStep; to: StoryStep }];
+}>();
 
 const ui = useUiStore();
 
@@ -13,8 +17,8 @@ const playing = ref(false);
 /** 0–1 on the current step, driven by requestAnimationFrame. */
 const progress = ref(0);
 
-/** Short guard so a burst of clicks cannot stack several flights at once. */
-const isTransitioning = ref(false);
+/** True while App animates the route to the next/previous step. */
+const transitioning = ref(false);
 
 const step = computed(() => props.story.steps[index.value]);
 const atStart = computed(() => index.value === 0);
@@ -42,7 +46,8 @@ let raf = 0;
 let last = 0;
 /** Milliseconds already spent on the current step — preserved while paused. */
 let elapsed = 0;
-let lock = 0;
+/** The step index to land on once `finishTransition` runs. */
+let pendingIndex = -1;
 
 function stepDuration() {
   return Math.max(1, step.value?.duration ?? 1);
@@ -53,7 +58,7 @@ function emitStep() {
 }
 
 function tick(ts: number) {
-  if (!playing.value) return;
+  if (!playing.value || transitioning.value) return;
   if (!last) last = ts;
   elapsed += ts - last;
   last = ts;
@@ -68,7 +73,8 @@ function tick(ts: number) {
       raf = 0;
       return;
     }
-    goTo(index.value + 1);
+    beginTransition(index.value + 1);
+    return;
   }
 
   raf = window.requestAnimationFrame(tick);
@@ -80,23 +86,42 @@ function startLoop() {
   raf = window.requestAnimationFrame(tick);
 }
 
-function goTo(next: number) {
-  if (isTransitioning.value) return;
+/**
+ * Hand a step change to App so it can animate the route first.
+ *
+ * The index is not advanced here: `finishTransition` does that once the route
+ * animation has landed, so the caption and map always move together.
+ */
+function beginTransition(next: number) {
+  if (transitioning.value) return;
   const clamped = Math.max(0, Math.min(props.story.steps.length - 1, next));
   if (clamped === index.value) return;
 
-  isTransitioning.value = true;
-  window.clearTimeout(lock);
-  lock = window.setTimeout(() => {
-    isTransitioning.value = false;
-  }, 320);
+  pendingIndex = clamped;
+  transitioning.value = true;
+  window.cancelAnimationFrame(raf);
+  raf = 0;
+  last = 0;
+  emit('transition', { from: step.value, to: props.story.steps[clamped] });
+}
 
-  index.value = clamped;
+/**
+ * Called by App once the route animation has finished: commit the pending step
+ * and keep the timer running.
+ */
+function finishTransition() {
+  if (!transitioning.value) return;
+  index.value = pendingIndex;
+  pendingIndex = -1;
+  transitioning.value = false;
   elapsed = 0;
   progress.value = 0;
   last = 0;
   emitStep();
+  if (playing.value) startLoop();
 }
+
+defineExpose({ finishTransition });
 
 function play() {
   if (playing.value) return;
@@ -125,12 +150,12 @@ function toggle() {
 
 function next() {
   if (atEnd.value) return;
-  goTo(index.value + 1);
+  beginTransition(index.value + 1);
 }
 
 function prev() {
   if (atStart.value) return;
-  goTo(index.value - 1);
+  beginTransition(index.value - 1);
 }
 
 function close() {
@@ -150,7 +175,6 @@ onMounted(() => {
 onBeforeUnmount(() => {
   window.removeEventListener('keydown', onKeydown);
   window.cancelAnimationFrame(raf);
-  window.clearTimeout(lock);
 });
 </script>
 

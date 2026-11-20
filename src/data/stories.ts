@@ -20,6 +20,7 @@ export const STORIES: Story[] = [
         height: 1200000,
         title: '长安',
         titleEn: "Chang'an",
+        route: 'land',
         caption:
           '公元前 138 年，张骞自长安出发西行。此后这里成为丝路东端的起点，丝绸、漆器与文书由此流向河西。',
         captionEn:
@@ -33,6 +34,7 @@ export const STORIES: Story[] = [
         height: 1150000,
         title: '敦煌',
         titleEn: 'Dunhuang',
+        route: 'land',
         caption:
           '汉武帝设敦煌郡，玉门关与阳关扼守西域门户。商队与僧侣在此补给、译经，莫高窟的灯火延续千年。',
         captionEn:
@@ -57,6 +59,7 @@ export const STORIES: Story[] = [
         height: 1200000,
         title: '撒马尔罕',
         titleEn: 'Samarkand',
+        route: 'land',
         caption:
           '张骞的副使抵达粟特城邦。撒马尔罕的市集上，中国的丝绸与印度的香料、波斯的银器汇于一处。',
         captionEn:
@@ -70,6 +73,7 @@ export const STORIES: Story[] = [
         height: 1200000,
         title: '巴格达',
         titleEn: 'Baghdad',
+        route: 'land',
         caption:
           '阿拔斯王朝营建巴格达，底格里斯河畔的圆形之城成为西段商路枢纽，东方货物经波斯湾与陆路在此集散。',
         captionEn:
@@ -84,6 +88,7 @@ export const STORIES: Story[] = [
         height: 1150000,
         title: '君士坦丁堡',
         titleEn: 'Constantinople',
+        route: 'land',
         caption:
           '君士坦丁堡成为罗马帝国的新都。博斯普鲁斯海峡扼守欧亚之间，丝绸在此转运，并被课以重税。',
         captionEn:
@@ -97,6 +102,7 @@ export const STORIES: Story[] = [
         height: 1100000,
         title: '罗马',
         titleEn: 'Rome',
+        route: 'land',
         caption:
           '图拉真时代的罗马帝国臻于极盛。东方的丝绸被视作奢侈品，元老院曾屡次下令限制其消费。',
         captionEn:
@@ -111,6 +117,7 @@ export const STORIES: Story[] = [
         height: 1200000,
         title: '威尼斯',
         titleEn: 'Venice',
+        route: 'land',
         caption:
           '马可·波罗自威尼斯启程东行。这座潟湖城邦凭借舰队与商站网络，将丝路贸易推向后世的高峰。',
         captionEn:
@@ -124,6 +131,7 @@ export const STORIES: Story[] = [
         height: 1250000,
         title: '大马士革',
         titleEn: 'Damascus',
+        route: 'land',
         caption:
           '倭马亚王朝定都大马士革。商队从这里出发，连接地中海港口与两河流域，再向东通往中亚与长安。',
         captionEn:
@@ -146,6 +154,7 @@ export const STORIES: Story[] = [
         height: 1200000,
         title: '里斯本',
         titleEn: 'Lisbon',
+        route: 'sea',
         caption:
           '15 世纪初，葡萄牙以里斯本为基地探索非洲西岸，恩里克王子资助航海，积累风向与海图知识。',
         captionEn:
@@ -159,6 +168,7 @@ export const STORIES: Story[] = [
         height: 1000000,
         title: '休达',
         titleEn: 'Ceuta',
+        route: 'sea',
         caption:
           '1415 年葡萄牙攻占休达，控制直布罗陀海峡南岸，第一次把扩张目光投向大西洋与非洲。',
         captionEn:
@@ -172,6 +182,7 @@ export const STORIES: Story[] = [
         height: 1000000,
         title: '马德拉',
         titleEn: 'Madeira',
+        route: 'sea',
         caption:
           '葡萄牙殖民马德拉群岛，甘蔗种植与航海补给让这座大西洋岛屿成为远洋探索的试验场。',
         captionEn:
@@ -185,6 +196,7 @@ export const STORIES: Story[] = [
         height: 1300000,
         title: '佛得角',
         titleEn: 'Cape Verde',
+        route: 'sea',
         caption:
           '船队抵达佛得角群岛，大西洋航线继续向南延伸，奴隶贸易与糖业由此进入跨洋体系。',
         captionEn:
@@ -198,6 +210,7 @@ export const STORIES: Story[] = [
         height: 1500000,
         title: '好望角',
         titleEn: 'Cape of Good Hope',
+        route: 'sea',
         caption:
           '1488 年迪亚士绕过好望角，证明大西洋与印度洋相通，为直达印度的航线扫清最后障碍。',
         captionEn:
@@ -211,6 +224,7 @@ export const STORIES: Story[] = [
         height: 1800000,
         title: '圣萨尔瓦多',
         titleEn: 'San Salvador',
+        route: 'sea',
         caption:
           '1492 年哥伦布横渡大西洋，在巴哈马群岛登陆，欧洲与美洲自此被纳入同一贸易网络。',
         captionEn:
@@ -224,6 +238,7 @@ export const STORIES: Story[] = [
         height: 1400000,
         title: '卡利卡特',
         titleEn: 'Calicut',
+        route: 'sea',
         caption:
           '1498 年达伽马抵达印度西海岸的卡利卡特，绕开地中海中间商，香料贸易改由海路直达欧洲。',
         captionEn:
@@ -237,6 +252,7 @@ export const STORIES: Story[] = [
         height: 1200000,
         title: '马六甲',
         titleEn: 'Malacca',
+        route: 'sea',
         caption:
           '1511 年葡萄牙攻占马六甲，扼住东西方海上咽喉，印度洋与南海的商路被连成一体。',
         captionEn:
@@ -250,6 +266,7 @@ export const STORIES: Story[] = [
         height: 1200000,
         title: '塞维利亚',
         titleEn: 'Seville',
+        route: 'sea',
         caption:
           '1519 年麦哲伦船队自塞维利亚出航，向西寻找香料群岛，最终完成人类首次环球航行。',
         captionEn:
@@ -263,6 +280,7 @@ export const STORIES: Story[] = [
         height: 1600000,
         title: '马尼拉',
         titleEn: 'Manila',
+        route: 'sea',
         caption:
           '1571 年西班牙建立马尼拉，大帆船把美洲白银运往中国，跨太平洋贸易网由此成形。',
         captionEn:
@@ -402,6 +420,7 @@ export const STORIES: Story[] = [
         height: 2500000,
         title: '珍珠港',
         titleEn: 'Pearl Harbor',
+        route: 'sea',
         caption:
           '1941 年日本偷袭珍珠港，美国对日宣战，太平洋战争爆发，反法西斯同盟正式形成。',
         captionEn:

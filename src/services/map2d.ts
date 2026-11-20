@@ -42,6 +42,11 @@ function lighten(hex: string, amount: number): string {
   return `rgb(${r}, ${g}, ${b})`;
 }
 
+/** Smooth start-and-stop easing for the story route growth. */
+function easeInOutCubic(t: number): number {
+  return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+}
+
 /**
  * War theatres are solid ink diamonds with a pale rim, exactly like the Cesium
  * billboards, so a war never reads as just another round event dot.
@@ -140,6 +145,8 @@ export class Map2D {
   private storyStep: StoryStep | null = null;
   private pendingStoryRegion: FeatureCollection | null = null;
   private storyMarker: maplibregl.Marker | null = null;
+  /** Cancels the in-flight story route transition, if any. */
+  private storyRouteCancel: (() => void) | null = null;
   /**
    * Lookup tables, so a rendered feature only carries a short key instead of a
    * whole record. MapLibre serialises every property value, and pushing full
@@ -344,6 +351,22 @@ export class Map2D {
       paint: { 'line-color': '#c0392b', 'line-width': 2, 'line-opacity': 0.75 },
     });
 
+    // The growing route line between two story steps. The colour is set per
+    // leg (warm for land, cold for air/sea); dashes convey direction of travel.
+    map.addSource('story-route', { type: 'geojson', data: EMPTY });
+    map.addLayer({
+      id: 'story-route-line',
+      type: 'line',
+      source: 'story-route',
+      layout: { 'line-cap': 'round', 'line-join': 'round' },
+      paint: {
+        'line-color': '#2e86c1',
+        'line-width': 3,
+        'line-dasharray': [2, 1.5],
+        'line-opacity': 0.9,
+      },
+    });
+
     // War markers. Images are re-added here because `setStyle` drops them along
     // with every non-base source.
     if (!map.hasImage('war-idle')) {
@@ -533,6 +556,120 @@ export class Map2D {
     if (map && this.ready) {
       (map.getSource('story-region') as maplibregl.GeoJSONSource | undefined)?.setData(EMPTY);
     }
+  }
+
+  /* ── story route transition ──────────────────────────────────────────── */
+
+  /**
+   * Animate a straight, dashed line growing between two story steps.
+   *
+   * No vertical arc here — the flat map keeps the leg as a straight line, its
+   * dashes implying direction. The camera flies to the midpoint at zoom 3 while
+   * the line grows, then to the destination at zoom 6. Resolves when done, and
+   * on cancellation, so the player never stalls.
+   */
+  animateStoryRoute(
+    from: StoryStep,
+    to: StoryStep,
+    mode: 'land' | 'air' | 'sea',
+    durationMs = 2400,
+  ): Promise<void> {
+    const map = this.map;
+    if (!map || !this.ready) return Promise.resolve();
+    this.cancelStoryRoute();
+
+    const coords = this.sampleStoryRoute2d(from, to);
+    const mid = coords[Math.floor(coords.length / 2)];
+    const isLand = mode === 'land';
+    const color = isLand ? '#c0392b' : '#2e86c1';
+
+    return new Promise<void>((resolve) => {
+      let done = false;
+      let rafId = 0;
+      let count = 0;
+
+      const settle = () => {
+        if (done) return;
+        done = true;
+        cancelAnimationFrame(rafId);
+        if (this.storyRouteCancel === cancel) this.storyRouteCancel = null;
+        this.clearStoryRouteLine();
+        resolve();
+      };
+
+      const cancel = () => settle();
+
+      this.storyRouteCancel = cancel;
+
+      try {
+        map.setPaintProperty('story-route-line', 'line-color', color);
+      } catch {
+        settle();
+        return;
+      }
+
+      void this.flyTo(mid[0], mid[1], 3)
+        .then(() => {
+          if (done) return;
+
+          const source = map.getSource('story-route') as maplibregl.GeoJSONSource | undefined;
+          const t0 = performance.now();
+          const frame = (now: number) => {
+            if (done) return;
+            const t = Math.min(1, (now - t0) / durationMs);
+            const target = Math.max(2, Math.ceil(easeInOutCubic(t) * coords.length));
+            if (target !== count) {
+              count = target;
+              try {
+                source?.setData({
+                  type: 'FeatureCollection',
+                  features: [
+                    {
+                      type: 'Feature',
+                      geometry: { type: 'LineString', coordinates: coords.slice(0, count) },
+                      properties: {},
+                    },
+                  ],
+                });
+              } catch {
+                settle();
+                return;
+              }
+            }
+            if (t < 1) {
+              rafId = requestAnimationFrame(frame);
+              return;
+            }
+            // Leg drawn: fly to the destination, then tear the line down.
+            void this.flyTo(to.lon, to.lat, 6).then(() => settle());
+          };
+          rafId = requestAnimationFrame(frame);
+        })
+        .catch(() => settle());
+    });
+  }
+
+  /** Stop an in-flight story route transition and clear its line. */
+  cancelStoryRoute() {
+    this.storyRouteCancel?.();
+    this.storyRouteCancel = null;
+  }
+
+  private clearStoryRouteLine() {
+    const map = this.map;
+    if (!map || !this.ready) return;
+    (map.getSource('story-route') as maplibregl.GeoJSONSource | undefined)?.setData(EMPTY);
+  }
+
+  /** 128 linearly interpolated `[lon, lat]` points between two steps. */
+  private sampleStoryRoute2d(from: StoryStep, to: StoryStep): Array<[number, number]> {
+    const N = 128;
+    const coords: Array<[number, number]> = [];
+    for (let i = 0; i < N; i += 1) {
+      const f = i / (N - 1);
+      coords.push([from.lon + (to.lon - from.lon) * f, from.lat + (to.lat - from.lat) * f]);
+    }
+    return coords;
   }
 
   private repaintStoryRegion() {
@@ -1002,6 +1139,7 @@ export class Map2D {
     this.resizeObserver = null;
     if (this.labelFrame) cancelAnimationFrame(this.labelFrame);
     this.labelFrame = 0;
+    this.cancelStoryRoute();
     // The host is a sibling of the canvas, so `map.remove()` does not take it.
     this.labelHost?.remove();
     this.labelHost = null;

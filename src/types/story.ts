@@ -16,6 +16,8 @@ export interface StoryStep {
   caption: string;
   captionEn?: string;
   duration: number;
+  /** How this step is reached from the previous one: over land, by air, or by sea. Defaults to air. */
+  route?: 'land' | 'air' | 'sea';
   /** Polygon ring as `[lon, lat]`; the first and last point need not match. */
   region?: [number, number][];
   /** Name shown on the region's marker, e.g. "帕提亚帝国". */
