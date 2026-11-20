@@ -16,6 +16,12 @@ export interface StoryStep {
   caption: string;
   captionEn?: string;
   duration: number;
+  /** Polygon ring as `[lon, lat]`; the first and last point need not match. */
+  region?: [number, number][];
+  /** Name shown on the region's marker, e.g. "帕提亚帝国". */
+  regionLabel?: string;
+  /** Radius (km) of a circular region when `region` is absent; defaults to 260. */
+  radiusKm?: number;
 }
 
 export interface Story {

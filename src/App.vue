@@ -54,6 +54,8 @@ const storyOpen = ref(false);
 /** The chooser appears first; the player opens only once a story is picked. */
 const storyPickerOpen = ref(false);
 const story = ref<Story>(STORIES[0]);
+/** The step the story player is currently showing, so the region can be re-plotted. */
+const storyStep = ref<StoryStep | null>(null);
 /** Data sources, licences and the AI-content disclaimer. */
 const aboutOpen = ref(false);
 /** Year and camera to put back when the story closes. */
@@ -155,6 +157,9 @@ function debounce<T extends (...args: never[]) => void>(fn: T, wait: number) {
 
 function onStageReady() {
   globeReady.value = true;
+  // A stage switch remounts the renderer, which drops any plotted story region;
+  // re-plot it now that the new renderer is up.
+  if (storyOpen.value && storyStep.value) showStoryRegion(storyStep.value);
   void (async () => {
     // Events first so the map is useful immediately; the heavy polity files
     // follow on their own without competing for the same bandwidth.
@@ -190,8 +195,8 @@ function onDataRetry() {
 }
 
 function flyTo(lon: number, lat: number, height: number) {
-  if (ui.stage === '3d') globe.flyTo(lon, lat, height);
-  else map2d.flyTo(lon, lat);
+  if (ui.stage === '3d') return globe.flyTo(lon, lat, height);
+  return map2d.flyTo(lon, lat);
 }
 
 /** The current camera, in whichever renderer is mounted. */
@@ -231,13 +236,33 @@ function openStory(next: Story = STORIES[0]) {
   if (ui.stage === '3d') globe.setCameraInertia(false);
 }
 
-function onStoryStep(step: StoryStep) {
+/** Highlight the story step's region in whichever renderer is mounted. */
+function showStoryRegion(step: StoryStep) {
+  if (ui.stage === '3d') globe.showStoryRegion(step);
+  else map2d.showStoryRegion(step);
+}
+
+function clearStoryRegion() {
+  if (ui.stage === '3d') globe.clearStoryRegion();
+  else map2d.clearStoryRegion();
+}
+
+async function onStoryStep(step: StoryStep) {
+  storyStep.value = step;
   timeline.setYear(step.year);
-  flyTo(step.lon, step.lat, step.height ?? 1_200_000);
+  // Tear down the previous highlight before the camera leaves, then draw the
+  // new one only once the flight has arrived.
+  clearStoryRegion();
+  await flyTo(step.lon, step.lat, step.height ?? 1_200_000);
+  // The story may have closed or moved on while the camera was flying.
+  if (!storyOpen.value || storyStep.value !== step) return;
+  showStoryRegion(step);
 }
 
 function closeStory() {
   if (!storyOpen.value) return;
+  clearStoryRegion();
+  storyStep.value = null;
   storyOpen.value = false;
   if (ui.stage === '3d') globe.setCameraInertia(true);
 

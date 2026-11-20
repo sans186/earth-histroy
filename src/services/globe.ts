@@ -12,6 +12,7 @@ import { bboxIntersects } from '@/lib/geo';
 import { neutralizeModernBoundaries, normalizeModernCountries } from '@/lib/modernBorders';
 import { labelAnchor } from '@/lib/polityScope';
 import { fetchJson } from '@/services/http';
+import type { StoryStep } from '@/types/story';
 import type { Locale, PolityFeature, PreparedPolity, TimelineEvent } from '@/types';
 
 /**
@@ -153,6 +154,9 @@ class GlobeEngine {
 
   /** Entities of the open person's route; empty whenever no person is open. */
   private trajectory: Cesium.Entity[] = [];
+
+  /** Entities of the story step's region highlight; removed together on clear. */
+  private storyRegionEntities: Cesium.Entity[] = [];
 
   private polityLayer = new Cesium.CustomDataSource('polities');
   /** Name entities of the last render, so the layer switch avoids a redraw. */
@@ -359,6 +363,7 @@ class GlobeEngine {
     this.handles = [];
     this.sceneHandles.clear();
     this.hovered = null;
+    this.storyRegionEntities = [];
     if (this.viewer && !this.viewer.isDestroyed()) this.viewer.destroy();
     this.viewer = null;
     this.points = null;
@@ -832,6 +837,90 @@ class GlobeEngine {
     this.trajectory = [];
   }
 
+  /* ── story region ─────────────────────────────────────────────────────── */
+
+  /**
+   * Highlight the region the current story step is talking about.
+   *
+   * A step may carry an explicit polygon (`region`) or just a centre and a
+   * radius; with neither it falls back to a circle 260 km across, so every
+   * step still leaves a visible footprint. The polygon, marker point and name
+   * label are all kept in one list so a step change can tear them down in a
+   * single pass.
+   */
+  showStoryRegion(step: StoryStep) {
+    const viewer = this.viewer;
+    if (!viewer) return;
+    this.clearStoryRegion();
+
+    const warm = Cesium.Color.fromCssColorString('#c0392b');
+    const ring = closedRing(
+      step.region && step.region.length >= 3
+        ? step.region
+        : circleRing(step.lon, step.lat, step.radiusKm ?? 260),
+    );
+
+    const flat: number[] = [];
+    for (const [lon, lat] of ring) flat.push(lon, lat);
+    this.storyRegionEntities.push(
+      viewer.entities.add({
+        polygon: {
+          hierarchy: new Cesium.PolygonHierarchy(Cesium.Cartesian3.fromDegreesArray(flat)),
+          material: new Cesium.ColorMaterialProperty(warm.withAlpha(0.16)),
+          outline: true,
+          outlineColor: new Cesium.ConstantProperty(warm.withAlpha(0.75)),
+          outlineWidth: 2,
+          height: 0,
+          perPositionHeight: false,
+          arcType: Cesium.ArcType.GEODESIC,
+        },
+      }),
+    );
+
+    const position = Cesium.Cartesian3.fromDegrees(step.lon, step.lat, BOUNDARY_ALTITUDE);
+    this.storyRegionEntities.push(
+      viewer.entities.add({
+        position,
+        point: {
+          pixelSize: 8,
+          color: warm,
+          outlineColor: Cesium.Color.fromCssColorString('#f7f5f0'),
+          outlineWidth: 1.5,
+          disableDepthTestDistance: Number.POSITIVE_INFINITY,
+        },
+      }),
+    );
+
+    this.storyRegionEntities.push(
+      viewer.entities.add({
+        position,
+        label: {
+          text: step.regionLabel ?? step.title,
+          font: '600 12px "Noto Sans SC", "PingFang SC", system-ui, sans-serif',
+          fillColor: Cesium.Color.fromCssColorString('#1a1c20'),
+          outlineColor: Cesium.Color.fromCssColorString('#f7f5f0').withAlpha(0.9),
+          outlineWidth: 3,
+          style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+          showBackground: true,
+          backgroundColor: Cesium.Color.fromCssColorString('#f7f5f0').withAlpha(0.6),
+          backgroundPadding: new Cesium.Cartesian2(5, 3),
+          pixelOffset: new Cesium.Cartesian2(0, -18),
+          horizontalOrigin: Cesium.HorizontalOrigin.CENTER,
+          verticalOrigin: Cesium.VerticalOrigin.CENTER,
+          disableDepthTestDistance: Number.POSITIVE_INFINITY,
+        },
+      }),
+    );
+  }
+
+  clearStoryRegion() {
+    const viewer = this.viewer;
+    if (viewer) {
+      for (const entity of this.storyRegionEntities) viewer.entities.remove(entity);
+    }
+    this.storyRegionEntities = [];
+  }
+
   /* ── wars ────────────────────────────────────────────────────────────── */
 
   /**
@@ -1251,12 +1340,17 @@ class GlobeEngine {
 
   /* ── camera ──────────────────────────────────────────────────────────── */
 
-  flyTo(lon: number, lat: number, height = 1_800_000, duration = 1.4) {
+  flyTo(lon: number, lat: number, height = 1_800_000, duration = 1.4): Promise<boolean> {
     const viewer = this.viewer;
-    if (!viewer) return;
-    viewer.camera.flyTo({
-      destination: Cesium.Cartesian3.fromDegrees(lon, lat, height),
-      duration,
+    if (!viewer) return Promise.resolve(false);
+    // `camera.flyTo` is callback-based; wrap it so the story can await arrival.
+    return new Promise<boolean>((resolve) => {
+      viewer.camera.flyTo({
+        destination: Cesium.Cartesian3.fromDegrees(lon, lat, height),
+        duration,
+        complete: () => resolve(true),
+        cancel: () => resolve(false),
+      });
     });
   }
 
@@ -1425,6 +1519,40 @@ function ringArea(ring: number[][] | undefined): number {
     sum += ring[j][0] * ring[i][1] - ring[i][0] * ring[j][1];
   }
   return Math.abs(sum) / 2;
+}
+
+/** Kilometres per degree of latitude/longitude at the equator (mean Earth). */
+const KM_PER_DEG_LAT = 110.574;
+const KM_PER_DEG_LON = 111.32;
+
+/**
+ * A regular polygon approximating a circle of `radiusKm` around a point.
+ * Longitude is scaled by `cos(lat)` so the circle is round on the globe, not
+ * only in raw degrees.
+ */
+function circleRing(
+  lon: number,
+  lat: number,
+  radiusKm: number,
+  segments = 64,
+): [number, number][] {
+  const dLat = radiusKm / KM_PER_DEG_LAT;
+  const dLon = radiusKm / (KM_PER_DEG_LON * Math.max(Math.cos((lat * Math.PI) / 180), 1e-3));
+  const ring: [number, number][] = [];
+  for (let i = 0; i < segments; i += 1) {
+    const a = (i / segments) * Math.PI * 2;
+    ring.push([lon + Math.cos(a) * dLon, lat + Math.sin(a) * dLat]);
+  }
+  return ring;
+}
+
+/** Close a ring if the author left it open, so polygon renderers are happy. */
+function closedRing(points: [number, number][]): [number, number][] {
+  if (points.length < 3) return points;
+  const first = points[0];
+  const last = points[points.length - 1];
+  if (first[0] === last[0] && first[1] === last[1]) return points;
+  return [...points, first];
 }
 
 /**

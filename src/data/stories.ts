@@ -37,6 +37,17 @@ export const STORIES: Story[] = [
           '汉武帝设敦煌郡，玉门关与阳关扼守西域门户。商队与僧侣在此补给、译经，莫高窟的灯火延续千年。',
         captionEn:
           'Emperor Wu of Han established Dunhuang Commandery; the Yumen and Yangguan passes guarded the gateway to the Western Regions. Caravans and monks resupplied and translated sutras here, and the lamps of Mogao burned for a thousand years.',
+        // Rough footprint of the Hexi Corridor between the Qilian mountains and the desert.
+        region: [
+          [103.5, 38.8],
+          [101.5, 36.5],
+          [96.0, 37.5],
+          [94.0, 39.0],
+          [93.5, 40.5],
+          [99.0, 41.8],
+          [103.0, 40.0],
+        ],
+        regionLabel: '河西走廊',
         duration: 4200,
       },
       {
@@ -63,6 +74,7 @@ export const STORIES: Story[] = [
           '阿拔斯王朝营建巴格达，底格里斯河畔的圆形之城成为西段商路枢纽，东方货物经波斯湾与陆路在此集散。',
         captionEn:
           'The Abbasids founded Baghdad; the Round City on the Tigris became the hub of the western route, gathering eastern goods via the Persian Gulf and the overland roads.',
+        radiusKm: 320,
         duration: 4400,
       },
       {
@@ -89,6 +101,7 @@ export const STORIES: Story[] = [
           '图拉真时代的罗马帝国臻于极盛。东方的丝绸被视作奢侈品，元老院曾屡次下令限制其消费。',
         captionEn:
           'Under Trajan the Roman Empire reached its height. Eastern silk was a luxury in Rome, and the Senate repeatedly tried to restrict its consumption.',
+        radiusKm: 320,
         duration: 4200,
       },
       {
@@ -393,6 +406,7 @@ export const STORIES: Story[] = [
           '1941 年日本偷袭珍珠港，美国对日宣战，太平洋战争爆发，反法西斯同盟正式形成。',
         captionEn:
           'In 1941 Japan attacked Pearl Harbor; the United States declared war, the Pacific War began and the anti-fascist alliance took shape.',
+        radiusKm: 180,
         duration: 4500,
       },
       {
@@ -406,6 +420,15 @@ export const STORIES: Story[] = [
           '1944 年盟军在诺曼底登陆，开辟欧洲第二战场，德军陷入东西两线夹击的困境。',
         captionEn:
           'In 1944 the Allies landed in Normandy, opening a second front in Europe and trapping Germany between east and west.',
+        // Rough footprint of the Normandy coast where the landings took place.
+        region: [
+          [-1.9, 49.75],
+          [0.6, 49.9],
+          [1.6, 49.3],
+          [-0.1, 48.5],
+          [-1.7, 48.4],
+        ],
+        regionLabel: '诺曼底',
         duration: 4300,
       },
       {

@@ -6,6 +6,7 @@ import { labelAnchor } from '@/lib/polityScope';
 import type { HoverInfo, WarMarker } from '@/services/globe';
 import { fetchOptionalJson } from '@/services/http';
 import type { Locale, PolityFeature, TimelineEvent } from '@/types';
+import type { StoryStep } from '@/types/story';
 
 /**
  * Flat map, same layers as the globe.
@@ -131,6 +132,14 @@ export class Map2D {
   private pendingPolities: PolityFeature[] = [];
   /** Stops of the open person's route, kept so a style swap can redraw them. */
   private pendingTrajectory: Array<{ lon: number; lat: number }> = [];
+  /**
+   * The story region stays pending for the same reason: the map may be re-created
+   * by a stage or basemap switch before its style is ready, so the region is
+   * re-applied once the `story-region` source exists again.
+   */
+  private storyStep: StoryStep | null = null;
+  private pendingStoryRegion: FeatureCollection | null = null;
+  private storyMarker: maplibregl.Marker | null = null;
   /**
    * Lookup tables, so a rendered feature only carries a short key instead of a
    * whole record. MapLibre serialises every property value, and pushing full
@@ -318,6 +327,23 @@ export class Map2D {
       },
     });
 
+    // Story region highlight: a fill under a line, so the outline stays crisp
+    // even where the wash overlaps neighbouring fills. The source is empty until
+    // a story step asks for it.
+    map.addSource('story-region', { type: 'geojson', data: EMPTY });
+    map.addLayer({
+      id: 'story-region-fill',
+      type: 'fill',
+      source: 'story-region',
+      paint: { 'fill-color': '#c0392b', 'fill-opacity': 0.16 },
+    });
+    map.addLayer({
+      id: 'story-region-line',
+      type: 'line',
+      source: 'story-region',
+      paint: { 'line-color': '#c0392b', 'line-width': 2, 'line-opacity': 0.75 },
+    });
+
     // War markers. Images are re-added here because `setStyle` drops them along
     // with every non-base source.
     if (!map.hasImage('war-idle')) {
@@ -351,6 +377,9 @@ export class Map2D {
         'icon-ignore-placement': true,
       },
     });
+
+    // The story region may have been requested before the style finished loading.
+    this.repaintStoryRegion();
   }
 
   /** Basemap and polity paint, which both depend on standard vs satellite. */
@@ -477,6 +506,97 @@ export class Map2D {
     const map = this.map;
     if (!map || !this.ready) return;
     (map.getSource('person-route') as maplibregl.GeoJSONSource | undefined)?.setData(EMPTY);
+  }
+
+  /* ── story region ────────────────────────────────────────────────────── */
+
+  /**
+   * Highlight the region the current story step is talking about.
+   *
+   * Mirrors `globe.showStoryRegion`: an explicit polygon when the step carries
+   * one, otherwise a circle of `radiusKm` (default 260). The pointer is a DOM
+   * marker — MapLibre text needs a glyph server, which this app does not host —
+   * with a simple SVG pin and the region name above it.
+   */
+  showStoryRegion(step: StoryStep) {
+    this.storyStep = step;
+    this.pendingStoryRegion = storyRegionFeature(step);
+    this.repaintStoryRegion();
+  }
+
+  clearStoryRegion() {
+    this.storyStep = null;
+    this.pendingStoryRegion = null;
+    this.storyMarker?.remove();
+    this.storyMarker = null;
+    const map = this.map;
+    if (map && this.ready) {
+      (map.getSource('story-region') as maplibregl.GeoJSONSource | undefined)?.setData(EMPTY);
+    }
+  }
+
+  private repaintStoryRegion() {
+    const map = this.map;
+    if (!map || !this.ready) return;
+
+    (map.getSource('story-region') as maplibregl.GeoJSONSource | undefined)?.setData(
+      this.pendingStoryRegion ?? EMPTY,
+    );
+
+    this.storyMarker?.remove();
+    this.storyMarker = null;
+    if (this.storyStep) {
+      this.storyMarker = new maplibregl.Marker({
+        element: this.storyPinElement(this.storyStep.regionLabel ?? this.storyStep.title),
+        anchor: 'bottom',
+      })
+        .setLngLat([this.storyStep.lon, this.storyStep.lat])
+        .addTo(map);
+    }
+  }
+
+  /** A tiny teardrop pin with the region name floating above it. */
+  private storyPinElement(text: string): HTMLDivElement {
+    const wrap = document.createElement('div');
+    wrap.style.display = 'flex';
+    wrap.style.flexDirection = 'column';
+    wrap.style.alignItems = 'center';
+    wrap.style.gap = '3px';
+
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.setAttribute('width', '20');
+    svg.setAttribute('height', '24');
+    svg.setAttribute('viewBox', '0 0 20 24');
+    svg.style.filter = 'drop-shadow(0 1px 2px rgba(0, 0, 0, 0.32))';
+
+    const body = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    body.setAttribute('d', 'M10 0C5.6 0 2.5 4 2.5 8.5c0 5.6 7.5 13 7.5 13s7.5-7.4 7.5-13C17.5 4 14.4 0 10 0z');
+    body.setAttribute('fill', '#c0392b');
+    body.setAttribute('stroke', '#f7f5f0');
+    body.setAttribute('stroke-width', '1.4');
+
+    const dot = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    dot.setAttribute('cx', '10');
+    dot.setAttribute('cy', '8.5');
+    dot.setAttribute('r', '2.6');
+    dot.setAttribute('fill', '#f7f5f0');
+
+    svg.appendChild(body);
+    svg.appendChild(dot);
+
+    const label = document.createElement('span');
+    label.textContent = text;
+    label.style.font = '600 12px Inter, "Noto Sans SC", sans-serif';
+    label.style.color = '#1a1c20';
+    label.style.background = 'rgba(247, 245, 240, 0.82)';
+    label.style.padding = '2px 6px';
+    label.style.borderRadius = '3px';
+    label.style.whiteSpace = 'nowrap';
+    label.style.boxShadow = '0 1px 3px rgba(0, 0, 0, 0.22)';
+
+    wrap.appendChild(svg);
+    wrap.appendChild(label);
+    return wrap;
   }
 
   renderPolities(
@@ -774,10 +894,19 @@ export class Map2D {
     this.map?.flyTo({ center: [INITIAL_VIEW.lon, INITIAL_VIEW.lat], zoom: 2 });
   }
 
-  flyTo(lon: number, lat: number, zoom?: number) {
+  flyTo(lon: number, lat: number, zoom?: number): Promise<void> {
     const map = this.map;
-    if (!map) return;
-    map.flyTo({ center: [lon, lat], zoom: zoom ?? Math.max(map.getZoom(), 5) });
+    if (!map) return Promise.resolve();
+    return new Promise<void>((resolve) => {
+      // MapLibre's `flyTo` returns the map, not a promise; `moveend` is the
+      // signal the story uses to know the camera has arrived.
+      const settle = () => {
+        map.off('moveend', settle);
+        resolve();
+      };
+      map.on('moveend', settle);
+      map.flyTo({ center: [lon, lat], zoom: zoom ?? Math.max(map.getZoom(), 5) });
+    });
   }
 
   /** Flat-map centre and zoom, so a story can restore the reader's view. */
@@ -878,6 +1007,8 @@ export class Map2D {
     this.labelHost = null;
     this.labelPool = [];
     this.labelItems = [];
+    this.storyMarker?.remove();
+    this.storyMarker = null;
     this.map?.remove();
     this.map = null;
     this.ready = false;
@@ -897,6 +1028,55 @@ function hashString(input: string): number {
     h = Math.imul(h, 16777619);
   }
   return Math.abs(h);
+}
+
+/** Kilometres per degree of latitude/longitude at the equator (mean Earth). */
+const KM_PER_DEG_LAT = 110.574;
+const KM_PER_DEG_LON = 111.32;
+
+/** A 64-gon circle of `radiusKm` around a point, round on the globe. */
+function circleRing(
+  lon: number,
+  lat: number,
+  radiusKm: number,
+  segments = 64,
+): [number, number][] {
+  const dLat = radiusKm / KM_PER_DEG_LAT;
+  const dLon = radiusKm / (KM_PER_DEG_LON * Math.max(Math.cos((lat * Math.PI) / 180), 1e-3));
+  const ring: [number, number][] = [];
+  for (let i = 0; i < segments; i += 1) {
+    const a = (i / segments) * Math.PI * 2;
+    ring.push([lon + Math.cos(a) * dLon, lat + Math.sin(a) * dLat]);
+  }
+  return ring;
+}
+
+/** Close a ring if the author left it open. */
+function closedRing(points: [number, number][]): [number, number][] {
+  if (points.length < 3) return points;
+  const first = points[0];
+  const last = points[points.length - 1];
+  if (first[0] === last[0] && first[1] === last[1]) return points;
+  return [...points, first];
+}
+
+/** The story region as a GeoJSON feature, ready for the `story-region` source. */
+function storyRegionFeature(step: StoryStep): FeatureCollection {
+  const ring = closedRing(
+    step.region && step.region.length >= 3
+      ? step.region
+      : circleRing(step.lon, step.lat, step.radiusKm ?? 260),
+  );
+  return {
+    type: 'FeatureCollection',
+    features: [
+      {
+        type: 'Feature',
+        geometry: { type: 'Polygon', coordinates: [ring] },
+        properties: {},
+      },
+    ],
+  };
 }
 
 export const map2d = new Map2D();
