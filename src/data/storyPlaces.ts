@@ -73,4 +73,26 @@ export const PLACES: Record<string, { name: string; lon: number; lat: number }> 
 
   // North Africa & the Middle East
   cairo: { name: '开罗', lon: 31.2, lat: 30.0 },
+
+  // The Renaissance
+  florence: { name: '佛罗伦萨', lon: 11.3, lat: 43.8 },
+  milan: { name: '米兰', lon: 9.2, lat: 45.5 },
+
+  // The Industrial Revolution
+  manchester: { name: '曼彻斯特', lon: -2.2, lat: 53.5 },
+  liverpool: { name: '利物浦', lon: -3.0, lat: 53.4 },
+  essen: { name: '埃森', lon: 7.0, lat: 51.45 },
+
+  // The American Revolutionary War
+  boston: { name: '波士顿', lon: -71.1, lat: 42.4 },
+  lexington: { name: '莱克星顿', lon: -71.2, lat: 42.45 },
+  philadelphia: { name: '费城', lon: -75.2, lat: 39.9 },
+  saratoga: { name: '萨拉托加', lon: -73.8, lat: 43.0 },
+  yorktown: { name: '约克镇', lon: -76.5, lat: 37.2 },
+
+  // The French Revolution
+  versailles: { name: '凡尔赛', lon: 2.1, lat: 48.8 },
+  valmy: { name: '瓦尔密', lon: 4.5, lat: 49.1 },
+  varennes: { name: '瓦雷讷', lon: 5.0, lat: 49.2 },
+  toulon: { name: '土伦', lon: 5.9, lat: 43.1 },
 };
