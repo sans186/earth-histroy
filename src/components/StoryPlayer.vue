@@ -189,6 +189,8 @@ onBeforeUnmount(() => {
       <button class="btn" :disabled="atEnd" @click="next">{{ ui.t('story.next') }}</button>
       <span class="pos mono">{{ index + 1 }} / {{ story.steps.length }}</span>
     </div>
+
+    <p class="credit">AI 辅助生成 · 已人工校对</p>
   </section>
 </template>
 
@@ -204,9 +206,11 @@ onBeforeUnmount(() => {
   flex-direction: column;
   gap: 12px;
   padding: 16px 18px 14px;
-  background: var(--card);
-  border: 1px solid var(--rule-2);
-  box-shadow: var(--shadow-2);
+  background: color-mix(in srgb, var(--card) 76%, transparent);
+  backdrop-filter: blur(14px) saturate(1.05);
+  -webkit-backdrop-filter: blur(14px) saturate(1.05);
+  border: 1px solid color-mix(in srgb, var(--rule-2) 70%, transparent);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
 }
 
 .head {
@@ -222,12 +226,14 @@ onBeforeUnmount(() => {
   font-size: var(--fs-h3);
   line-height: 1.25;
   color: var(--ink);
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.55);
 }
 .titles p {
   margin-top: 3px;
   font-size: 12.5px;
   letter-spacing: 0.06em;
-  color: var(--ink-3);
+  color: var(--ink-2);
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.55);
 }
 .close {
   flex: none;
@@ -251,11 +257,13 @@ onBeforeUnmount(() => {
   font-size: var(--fs-sm);
   line-height: 1.7;
   color: var(--ink-2);
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.55);
 }
 .caption .stop {
   margin-right: 6px;
   font-family: var(--font-display);
   color: var(--ink);
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.55);
 }
 
 .track {
@@ -303,6 +311,12 @@ onBeforeUnmount(() => {
   font-size: 11.5px;
   letter-spacing: 0.12em;
   color: var(--ink-4);
+}
+
+.credit {
+  font-size: 11px;
+  color: var(--ink-3);
+  text-align: right;
 }
 
 .fade-enter-active,

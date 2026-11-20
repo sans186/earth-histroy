@@ -21,9 +21,9 @@ export const STORIES: Story[] = [
         title: '长安',
         titleEn: "Chang'an",
         caption:
-          '公元前 138 年，张骞自长安出发西行。此后这里成为丝路东端的起点，丝绸、漆器与文书由此流向河西。（AI 辅助生成，已人工校对）',
+          '公元前 138 年，张骞自长安出发西行。此后这里成为丝路东端的起点，丝绸、漆器与文书由此流向河西。',
         captionEn:
-          "In 138 BCE Zhang Qian set out west from Chang'an. The city became the eastern terminus of the Silk Road, sending silk, lacquerware and documents into the Hexi Corridor. (AI-assisted, human-reviewed)",
+          "In 138 BCE Zhang Qian set out west from Chang'an. The city became the eastern terminus of the Silk Road, sending silk, lacquerware and documents into the Hexi Corridor.",
         duration: 4500,
       },
       {
@@ -34,9 +34,9 @@ export const STORIES: Story[] = [
         title: '敦煌',
         titleEn: 'Dunhuang',
         caption:
-          '汉武帝设敦煌郡，玉门关与阳关扼守西域门户。商队与僧侣在此补给、译经，莫高窟的灯火延续千年。（AI 辅助生成，已人工校对）',
+          '汉武帝设敦煌郡，玉门关与阳关扼守西域门户。商队与僧侣在此补给、译经，莫高窟的灯火延续千年。',
         captionEn:
-          'Emperor Wu of Han established Dunhuang Commandery; the Yumen and Yangguan passes guarded the gateway to the Western Regions. Caravans and monks resupplied and translated sutras here, and the lamps of Mogao burned for a thousand years. (AI-assisted, human-reviewed)',
+          'Emperor Wu of Han established Dunhuang Commandery; the Yumen and Yangguan passes guarded the gateway to the Western Regions. Caravans and monks resupplied and translated sutras here, and the lamps of Mogao burned for a thousand years.',
         duration: 4200,
       },
       {
@@ -47,9 +47,9 @@ export const STORIES: Story[] = [
         title: '撒马尔罕',
         titleEn: 'Samarkand',
         caption:
-          '张骞的副使抵达粟特城邦。撒马尔罕的市集上，中国的丝绸与印度的香料、波斯的银器汇于一处。（AI 辅助生成，已人工校对）',
+          '张骞的副使抵达粟特城邦。撒马尔罕的市集上，中国的丝绸与印度的香料、波斯的银器汇于一处。',
         captionEn:
-          "Zhang Qian's envoys reached the Sogdian city-states. In Samarkand's bazaar, Chinese silk met Indian spices and Persian silverwork. (AI-assisted, human-reviewed)",
+          "Zhang Qian's envoys reached the Sogdian city-states. In Samarkand's bazaar, Chinese silk met Indian spices and Persian silverwork.",
         duration: 4300,
       },
       {
@@ -60,9 +60,9 @@ export const STORIES: Story[] = [
         title: '巴格达',
         titleEn: 'Baghdad',
         caption:
-          '阿拔斯王朝营建巴格达，底格里斯河畔的圆形之城成为西段商路枢纽，东方货物经波斯湾与陆路在此集散。（AI 辅助生成，已人工校对）',
+          '阿拔斯王朝营建巴格达，底格里斯河畔的圆形之城成为西段商路枢纽，东方货物经波斯湾与陆路在此集散。',
         captionEn:
-          'The Abbasids founded Baghdad; the Round City on the Tigris became the hub of the western route, gathering eastern goods via the Persian Gulf and the overland roads. (AI-assisted, human-reviewed)',
+          'The Abbasids founded Baghdad; the Round City on the Tigris became the hub of the western route, gathering eastern goods via the Persian Gulf and the overland roads.',
         duration: 4400,
       },
       {
@@ -73,9 +73,9 @@ export const STORIES: Story[] = [
         title: '君士坦丁堡',
         titleEn: 'Constantinople',
         caption:
-          '君士坦丁堡成为罗马帝国的新都。博斯普鲁斯海峡扼守欧亚之间，丝绸在此转运，并被课以重税。（AI 辅助生成，已人工校对）',
+          '君士坦丁堡成为罗马帝国的新都。博斯普鲁斯海峡扼守欧亚之间，丝绸在此转运，并被课以重税。',
         captionEn:
-          'Constantinople became the new capital of the Roman Empire. The Bosphorus held the passage between Europe and Asia, and silk was transshipped here under heavy tariffs. (AI-assisted, human-reviewed)',
+          'Constantinople became the new capital of the Roman Empire. The Bosphorus held the passage between Europe and Asia, and silk was transshipped here under heavy tariffs.',
         duration: 4300,
       },
       {
@@ -86,9 +86,9 @@ export const STORIES: Story[] = [
         title: '罗马',
         titleEn: 'Rome',
         caption:
-          '图拉真时代的罗马帝国臻于极盛。东方的丝绸被视作奢侈品，元老院曾屡次下令限制其消费。（AI 辅助生成，已人工校对）',
+          '图拉真时代的罗马帝国臻于极盛。东方的丝绸被视作奢侈品，元老院曾屡次下令限制其消费。',
         captionEn:
-          'Under Trajan the Roman Empire reached its height. Eastern silk was a luxury in Rome, and the Senate repeatedly tried to restrict its consumption. (AI-assisted, human-reviewed)',
+          'Under Trajan the Roman Empire reached its height. Eastern silk was a luxury in Rome, and the Senate repeatedly tried to restrict its consumption.',
         duration: 4200,
       },
       {
@@ -99,9 +99,9 @@ export const STORIES: Story[] = [
         title: '威尼斯',
         titleEn: 'Venice',
         caption:
-          '马可·波罗自威尼斯启程东行。这座潟湖城邦凭借舰队与商站网络，将丝路贸易推向后世的高峰。（AI 辅助生成，已人工校对）',
+          '马可·波罗自威尼斯启程东行。这座潟湖城邦凭借舰队与商站网络，将丝路贸易推向后世的高峰。',
         captionEn:
-          'Marco Polo set out east from Venice. With its fleet and trading stations, the lagoon city carried Silk Road commerce toward its later peak. (AI-assisted, human-reviewed)',
+          'Marco Polo set out east from Venice. With its fleet and trading stations, the lagoon city carried Silk Road commerce toward its later peak.',
         duration: 4300,
       },
       {
@@ -112,9 +112,9 @@ export const STORIES: Story[] = [
         title: '大马士革',
         titleEn: 'Damascus',
         caption:
-          '倭马亚王朝定都大马士革。商队从这里出发，连接地中海港口与两河流域，再向东通往中亚与长安。（AI 辅助生成，已人工校对）',
+          '倭马亚王朝定都大马士革。商队从这里出发，连接地中海港口与两河流域，再向东通往中亚与长安。',
         captionEn:
-          "The Umayyads made Damascus their capital. Caravans left here to link Mediterranean ports with Mesopotamia, and onward to Central Asia and Chang'an. (AI-assisted, human-reviewed)",
+          "The Umayyads made Damascus their capital. Caravans left here to link Mediterranean ports with Mesopotamia, and onward to Central Asia and Chang'an.",
         duration: 4500,
       },
     ],
@@ -134,9 +134,9 @@ export const STORIES: Story[] = [
         title: '里斯本',
         titleEn: 'Lisbon',
         caption:
-          '15 世纪初，葡萄牙以里斯本为基地探索非洲西岸，恩里克王子资助航海，积累风向与海图知识。（AI 辅助生成，已人工校对）',
+          '15 世纪初，葡萄牙以里斯本为基地探索非洲西岸，恩里克王子资助航海，积累风向与海图知识。',
         captionEn:
-          'In the early 15th century Portugal explored West Africa from Lisbon; Prince Henry funded voyages that built up knowledge of winds and sea charts. (AI-assisted, human-reviewed)',
+          'In the early 15th century Portugal explored West Africa from Lisbon; Prince Henry funded voyages that built up knowledge of winds and sea charts.',
         duration: 4200,
       },
       {
@@ -147,9 +147,9 @@ export const STORIES: Story[] = [
         title: '休达',
         titleEn: 'Ceuta',
         caption:
-          '1415 年葡萄牙攻占休达，控制直布罗陀海峡南岸，第一次把扩张目光投向大西洋与非洲。（AI 辅助生成，已人工校对）',
+          '1415 年葡萄牙攻占休达，控制直布罗陀海峡南岸，第一次把扩张目光投向大西洋与非洲。',
         captionEn:
-          'In 1415 Portugal seized Ceuta, controlling the southern shore of the Strait of Gibraltar and turning its ambitions toward the Atlantic and Africa. (AI-assisted, human-reviewed)',
+          'In 1415 Portugal seized Ceuta, controlling the southern shore of the Strait of Gibraltar and turning its ambitions toward the Atlantic and Africa.',
         duration: 4000,
       },
       {
@@ -160,9 +160,9 @@ export const STORIES: Story[] = [
         title: '马德拉',
         titleEn: 'Madeira',
         caption:
-          '葡萄牙殖民马德拉群岛，甘蔗种植与航海补给让这座大西洋岛屿成为远洋探索的试验场。（AI 辅助生成，已人工校对）',
+          '葡萄牙殖民马德拉群岛，甘蔗种植与航海补给让这座大西洋岛屿成为远洋探索的试验场。',
         captionEn:
-          'Portugal settled Madeira; sugar planting and victualling turned the Atlantic island into a testing ground for ocean voyages. (AI-assisted, human-reviewed)',
+          'Portugal settled Madeira; sugar planting and victualling turned the Atlantic island into a testing ground for ocean voyages.',
         duration: 4000,
       },
       {
@@ -173,9 +173,9 @@ export const STORIES: Story[] = [
         title: '佛得角',
         titleEn: 'Cape Verde',
         caption:
-          '船队抵达佛得角群岛，大西洋航线继续向南延伸，奴隶贸易与糖业由此进入跨洋体系。（AI 辅助生成，已人工校对）',
+          '船队抵达佛得角群岛，大西洋航线继续向南延伸，奴隶贸易与糖业由此进入跨洋体系。',
         captionEn:
-          'The fleet reached the Cape Verde Islands, pushing the Atlantic route further south and drawing the slave trade and sugar into a transoceanic system. (AI-assisted, human-reviewed)',
+          'The fleet reached the Cape Verde Islands, pushing the Atlantic route further south and drawing the slave trade and sugar into a transoceanic system.',
         duration: 4100,
       },
       {
@@ -186,9 +186,9 @@ export const STORIES: Story[] = [
         title: '好望角',
         titleEn: 'Cape of Good Hope',
         caption:
-          '1488 年迪亚士绕过好望角，证明大西洋与印度洋相通，为直达印度的航线扫清最后障碍。（AI 辅助生成，已人工校对）',
+          '1488 年迪亚士绕过好望角，证明大西洋与印度洋相通，为直达印度的航线扫清最后障碍。',
         captionEn:
-          'In 1488 Dias rounded the Cape of Good Hope, proving the Atlantic and Indian Oceans connect and clearing the last obstacle to a sea route to India. (AI-assisted, human-reviewed)',
+          'In 1488 Dias rounded the Cape of Good Hope, proving the Atlantic and Indian Oceans connect and clearing the last obstacle to a sea route to India.',
         duration: 4300,
       },
       {
@@ -199,9 +199,9 @@ export const STORIES: Story[] = [
         title: '圣萨尔瓦多',
         titleEn: 'San Salvador',
         caption:
-          '1492 年哥伦布横渡大西洋，在巴哈马群岛登陆，欧洲与美洲自此被纳入同一贸易网络。（AI 辅助生成，已人工校对）',
+          '1492 年哥伦布横渡大西洋，在巴哈马群岛登陆，欧洲与美洲自此被纳入同一贸易网络。',
         captionEn:
-          'In 1492 Columbus crossed the Atlantic and landed in the Bahamas, binding Europe and the Americas into one trading network. (AI-assisted, human-reviewed)',
+          'In 1492 Columbus crossed the Atlantic and landed in the Bahamas, binding Europe and the Americas into one trading network.',
         duration: 4500,
       },
       {
@@ -212,9 +212,9 @@ export const STORIES: Story[] = [
         title: '卡利卡特',
         titleEn: 'Calicut',
         caption:
-          '1498 年达伽马抵达印度西海岸的卡利卡特，绕开地中海中间商，香料贸易改由海路直达欧洲。（AI 辅助生成，已人工校对）',
+          '1498 年达伽马抵达印度西海岸的卡利卡特，绕开地中海中间商，香料贸易改由海路直达欧洲。',
         captionEn:
-          "In 1498 Vasco da Gama reached Calicut on India's west coast, bypassing Mediterranean middlemen and bringing the spice trade to Europe by sea. (AI-assisted, human-reviewed)",
+          "In 1498 Vasco da Gama reached Calicut on India's west coast, bypassing Mediterranean middlemen and bringing the spice trade to Europe by sea.",
         duration: 4400,
       },
       {
@@ -225,9 +225,9 @@ export const STORIES: Story[] = [
         title: '马六甲',
         titleEn: 'Malacca',
         caption:
-          '1511 年葡萄牙攻占马六甲，扼住东西方海上咽喉，印度洋与南海的商路被连成一体。（AI 辅助生成，已人工校对）',
+          '1511 年葡萄牙攻占马六甲，扼住东西方海上咽喉，印度洋与南海的商路被连成一体。',
         captionEn:
-          'In 1511 Portugal took Malacca, seizing the maritime choke point between East and West and linking the Indian Ocean and South China Sea routes. (AI-assisted, human-reviewed)',
+          'In 1511 Portugal took Malacca, seizing the maritime choke point between East and West and linking the Indian Ocean and South China Sea routes.',
         duration: 4300,
       },
       {
@@ -238,9 +238,9 @@ export const STORIES: Story[] = [
         title: '塞维利亚',
         titleEn: 'Seville',
         caption:
-          '1519 年麦哲伦船队自塞维利亚出航，向西寻找香料群岛，最终完成人类首次环球航行。（AI 辅助生成，已人工校对）',
+          '1519 年麦哲伦船队自塞维利亚出航，向西寻找香料群岛，最终完成人类首次环球航行。',
         captionEn:
-          "In 1519 Magellan's fleet sailed from Seville westward for the Spice Islands, completing the first circumnavigation of the globe. (AI-assisted, human-reviewed)",
+          "In 1519 Magellan's fleet sailed from Seville westward for the Spice Islands, completing the first circumnavigation of the globe.",
         duration: 4300,
       },
       {
@@ -251,9 +251,9 @@ export const STORIES: Story[] = [
         title: '马尼拉',
         titleEn: 'Manila',
         caption:
-          '1571 年西班牙建立马尼拉，大帆船把美洲白银运往中国，跨太平洋贸易网由此成形。（AI 辅助生成，已人工校对）',
+          '1571 年西班牙建立马尼拉，大帆船把美洲白银运往中国，跨太平洋贸易网由此成形。',
         captionEn:
-          'In 1571 Spain founded Manila; the galleons carried American silver to China, bringing a trans-Pacific trade network into being. (AI-assisted, human-reviewed)',
+          'In 1571 Spain founded Manila; the galleons carried American silver to China, bringing a trans-Pacific trade network into being.',
         duration: 4500,
       },
     ],
@@ -273,9 +273,9 @@ export const STORIES: Story[] = [
         title: '萨拉热窝',
         titleEn: 'Sarajevo',
         caption:
-          '1914 年斐迪南大公在萨拉热窝遇刺，同盟体系连锁启动，欧洲在数周内滑入第一次世界大战。（AI 辅助生成，已人工校对）',
+          '1914 年斐迪南大公在萨拉热窝遇刺，同盟体系连锁启动，欧洲在数周内滑入第一次世界大战。',
         captionEn:
-          'In 1914 Archduke Franz Ferdinand was assassinated in Sarajevo; alliance commitments cascaded and Europe slid into the First World War within weeks. (AI-assisted, human-reviewed)',
+          'In 1914 Archduke Franz Ferdinand was assassinated in Sarajevo; alliance commitments cascaded and Europe slid into the First World War within weeks.',
         duration: 4400,
       },
       {
@@ -286,9 +286,9 @@ export const STORIES: Story[] = [
         title: '列日',
         titleEn: 'Liège',
         caption:
-          '德军进攻列日要塞，执行施里芬计划借道比利时，英国的参战使战火迅速蔓延为全欧战争。（AI 辅助生成，已人工校对）',
+          '德军进攻列日要塞，执行施里芬计划借道比利时，英国的参战使战火迅速蔓延为全欧战争。',
         captionEn:
-          "Germany attacked the Liège forts, executing the Schlieffen Plan through Belgium; Britain's entry quickly widened the war into a European conflict. (AI-assisted, human-reviewed)",
+          "Germany attacked the Liège forts, executing the Schlieffen Plan through Belgium; Britain's entry quickly widened the war into a European conflict.",
         duration: 4200,
       },
       {
@@ -299,9 +299,9 @@ export const STORIES: Story[] = [
         title: '马恩河',
         titleEn: 'Marne',
         caption:
-          '1914 年马恩河战役阻止德军逼近巴黎，施里芬计划破产，西线从此转入漫长的堑壕战。（AI 辅助生成，已人工校对）',
+          '1914 年马恩河战役阻止德军逼近巴黎，施里芬计划破产，西线从此转入漫长的堑壕战。',
         captionEn:
-          'The 1914 Battle of the Marne stopped the German advance on Paris, ruined the Schlieffen Plan and turned the Western Front into long trench warfare. (AI-assisted, human-reviewed)',
+          'The 1914 Battle of the Marne stopped the German advance on Paris, ruined the Schlieffen Plan and turned the Western Front into long trench warfare.',
         duration: 4300,
       },
       {
@@ -312,9 +312,9 @@ export const STORIES: Story[] = [
         title: '凡尔登',
         titleEn: 'Verdun',
         caption:
-          '1916 年凡尔登战役以“绞肉机”闻名，双方伤亡惨重，却未能改变西线的僵持格局。（AI 辅助生成，已人工校对）',
+          '1916 年凡尔登战役以“绞肉机”闻名，双方伤亡惨重，却未能改变西线的僵持格局。',
         captionEn:
-          "Verdun in 1916 became a 'meat grinder'; both sides suffered enormous casualties without changing the stalemate on the Western Front. (AI-assisted, human-reviewed)",
+          "Verdun in 1916 became a 'meat grinder'; both sides suffered enormous casualties without changing the stalemate on the Western Front.",
         duration: 4300,
       },
       {
@@ -325,9 +325,9 @@ export const STORIES: Story[] = [
         title: '索姆河',
         titleEn: 'Somme',
         caption:
-          '索姆河战役中坦克首次投入战场，密集炮火与巨大伤亡暴露出工业化战争的残酷。（AI 辅助生成，已人工校对）',
+          '索姆河战役中坦克首次投入战场，密集炮火与巨大伤亡暴露出工业化战争的残酷。',
         captionEn:
-          'Tanks first went into battle on the Somme, where massed artillery and huge losses exposed the brutality of industrial warfare. (AI-assisted, human-reviewed)',
+          'Tanks first went into battle on the Somme, where massed artillery and huge losses exposed the brutality of industrial warfare.',
         duration: 4200,
       },
       {
@@ -338,9 +338,9 @@ export const STORIES: Story[] = [
         title: '凡尔赛',
         titleEn: 'Versailles',
         caption:
-          '1919 年《凡尔赛条约》在凡尔赛宫签署，重划欧洲版图并严惩德国，埋下新的冲突种子。（AI 辅助生成，已人工校对）',
+          '1919 年《凡尔赛条约》在凡尔赛宫签署，重划欧洲版图并严惩德国，埋下新的冲突种子。',
         captionEn:
-          'The Treaty of Versailles was signed in 1919, redrawing Europe and punishing Germany, and sowing the seeds of a new conflict. (AI-assisted, human-reviewed)',
+          'The Treaty of Versailles was signed in 1919, redrawing Europe and punishing Germany, and sowing the seeds of a new conflict.',
         duration: 4400,
       },
       {
@@ -351,9 +351,9 @@ export const STORIES: Story[] = [
         title: '格但斯克',
         titleEn: 'Gdańsk',
         caption:
-          '1939 年德国进攻波兰，英法对德宣战，第二次世界大战全面爆发，欧洲再次陷入战火。（AI 辅助生成，已人工校对）',
+          '1939 年德国进攻波兰，英法对德宣战，第二次世界大战全面爆发，欧洲再次陷入战火。',
         captionEn:
-          'In 1939 Germany invaded Poland and Britain and France declared war, beginning the Second World War across Europe. (AI-assisted, human-reviewed)',
+          'In 1939 Germany invaded Poland and Britain and France declared war, beginning the Second World War across Europe.',
         duration: 4400,
       },
       {
@@ -364,9 +364,9 @@ export const STORIES: Story[] = [
         title: '敦刻尔克',
         titleEn: 'Dunkirk',
         caption:
-          '1940 年英法联军从敦刻尔克撤往英国，虽丢弃重装备，却保住了日后反攻的骨干力量。（AI 辅助生成，已人工校对）',
+          '1940 年英法联军从敦刻尔克撤往英国，虽丢弃重装备，却保住了日后反攻的骨干力量。',
         captionEn:
-          'In 1940 the British and French armies withdrew from Dunkirk to Britain; they abandoned heavy equipment but saved the core of a future counter-offensive. (AI-assisted, human-reviewed)',
+          'In 1940 the British and French armies withdrew from Dunkirk to Britain; they abandoned heavy equipment but saved the core of a future counter-offensive.',
         duration: 4300,
       },
       {
@@ -377,9 +377,9 @@ export const STORIES: Story[] = [
         title: '莫斯科',
         titleEn: 'Moscow',
         caption:
-          '1941 年德军进攻莫斯科受挫，闪电战首次遭遇战略失败，东线战局由此转向长期消耗。（AI 辅助生成，已人工校对）',
+          '1941 年德军进攻莫斯科受挫，闪电战首次遭遇战略失败，东线战局由此转向长期消耗。',
         captionEn:
-          'The German drive on Moscow faltered in 1941, the first strategic failure of blitzkrieg, and the Eastern Front settled into a war of attrition. (AI-assisted, human-reviewed)',
+          'The German drive on Moscow faltered in 1941, the first strategic failure of blitzkrieg, and the Eastern Front settled into a war of attrition.',
         duration: 4400,
       },
       {
@@ -390,9 +390,9 @@ export const STORIES: Story[] = [
         title: '珍珠港',
         titleEn: 'Pearl Harbor',
         caption:
-          '1941 年日本偷袭珍珠港，美国对日宣战，太平洋战争爆发，反法西斯同盟正式形成。（AI 辅助生成，已人工校对）',
+          '1941 年日本偷袭珍珠港，美国对日宣战，太平洋战争爆发，反法西斯同盟正式形成。',
         captionEn:
-          'In 1941 Japan attacked Pearl Harbor; the United States declared war, the Pacific War began and the anti-fascist alliance took shape. (AI-assisted, human-reviewed)',
+          'In 1941 Japan attacked Pearl Harbor; the United States declared war, the Pacific War began and the anti-fascist alliance took shape.',
         duration: 4500,
       },
       {
@@ -403,9 +403,9 @@ export const STORIES: Story[] = [
         title: '诺曼底',
         titleEn: 'Normandy',
         caption:
-          '1944 年盟军在诺曼底登陆，开辟欧洲第二战场，德军陷入东西两线夹击的困境。（AI 辅助生成，已人工校对）',
+          '1944 年盟军在诺曼底登陆，开辟欧洲第二战场，德军陷入东西两线夹击的困境。',
         captionEn:
-          'In 1944 the Allies landed in Normandy, opening a second front in Europe and trapping Germany between east and west. (AI-assisted, human-reviewed)',
+          'In 1944 the Allies landed in Normandy, opening a second front in Europe and trapping Germany between east and west.',
         duration: 4300,
       },
       {
@@ -416,9 +416,9 @@ export const STORIES: Story[] = [
         title: '柏林',
         titleEn: 'Berlin',
         caption:
-          '1945 年苏军攻克柏林，希特勒自杀，德国无条件投降，欧洲战场的战争宣告结束。（AI 辅助生成，已人工校对）',
+          '1945 年苏军攻克柏林，希特勒自杀，德国无条件投降，欧洲战场的战争宣告结束。',
         captionEn:
-          'In 1945 Soviet forces took Berlin, Hitler took his own life and Germany surrendered unconditionally, ending the war in Europe. (AI-assisted, human-reviewed)',
+          'In 1945 Soviet forces took Berlin, Hitler took his own life and Germany surrendered unconditionally, ending the war in Europe.',
         duration: 4500,
       },
     ],
