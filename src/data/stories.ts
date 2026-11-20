@@ -1,4 +1,5 @@
 import type { Story } from '@/types/story';
+import { PLACES } from '@/data/storyPlaces';
 
 /**
  * Guided stories. Coordinates are real city centres; durations are in
@@ -465,6 +466,320 @@ export const STORIES: Story[] = [
       },
     ],
   },
+  {
+    id: 'alexander-conquest',
+    title: '亚历山大东征',
+    subtitle: '从马其顿到印度河，十年间建立横跨三洲的帝国',
+    steps: [
+      {
+        year: -336,
+        lon: PLACES.pella.lon,
+        lat: PLACES.pella.lat,
+        height: 1200000,
+        title: PLACES.pella.name,
+        route: 'land',
+        caption:
+          '公元前 336 年，亚历山大在马其顿首都佩拉即位，随即平定希腊各邦，着手筹划东征波斯。',
+        duration: 4500,
+      },
+      {
+        year: -334,
+        lon: PLACES.troy.lon,
+        lat: PLACES.troy.lat,
+        height: 1150000,
+        title: PLACES.troy.name,
+        route: 'land',
+        caption:
+          '公元前 334 年，亚历山大率军渡过赫勒斯滂海峡登陆小亚细亚，在格拉尼库斯河首战击败波斯军队。',
+        duration: 4400,
+      },
+      {
+        year: -333,
+        lon: PLACES.issus.lon,
+        lat: PLACES.issus.lat,
+        height: 1200000,
+        title: PLACES.issus.name,
+        route: 'land',
+        caption:
+          '公元前 333 年伊苏斯战役，马其顿军队击败大流士三世，波斯国王弃阵而逃，通往叙利亚与埃及的道路洞开。',
+        radiusKm: 250,
+        duration: 4500,
+      },
+      {
+        year: -332,
+        lon: PLACES.tyre.lon,
+        lat: PLACES.tyre.lat,
+        height: 1200000,
+        title: PLACES.tyre.name,
+        route: 'land',
+        caption:
+          '公元前 332 年，亚历山大围攻坚城推罗七个月后破城，控制腓尼基海港，切断波斯海军在地中海的补给。',
+        duration: 4400,
+      },
+      {
+        year: -331,
+        lon: PLACES.alexandria.lon,
+        lat: PLACES.alexandria.lat,
+        height: 1200000,
+        title: PLACES.alexandria.name,
+        route: 'land',
+        caption:
+          '公元前 331 年，亚历山大在尼罗河口建立亚历山大港，这座以他命名的城市日后成为地中海东部的学术与商贸中心。',
+        duration: 4500,
+      },
+      {
+        year: -331,
+        lon: PLACES.babylon.lon,
+        lat: PLACES.babylon.lat,
+        height: 1200000,
+        title: PLACES.babylon.name,
+        route: 'land',
+        caption:
+          '公元前 331 年高加米拉战役后，亚历山大进入巴比伦，波斯帝国的核心区域被纳入马其顿的版图。',
+        radiusKm: 320,
+        duration: 4500,
+      },
+      {
+        year: -326,
+        lon: PLACES.indus.lon,
+        lat: PLACES.indus.lat,
+        height: 1300000,
+        title: PLACES.indus.name,
+        route: 'land',
+        caption:
+          '公元前 326 年，马其顿军队抵达印度河，在希达斯皮斯河战胜波罗斯，因士卒疲惫而停止继续东进。',
+        radiusKm: 400,
+        duration: 4500,
+      },
+    ],
+  },
+  {
+    id: 'mongol-westward',
+    title: '蒙古西征',
+    subtitle: '从蒙古高原到中欧，三次西征震撼欧亚大陆',
+    steps: [
+      {
+        year: 1219,
+        lon: PLACES.karakorum.lon,
+        lat: PLACES.karakorum.lat,
+        height: 1200000,
+        title: PLACES.karakorum.name,
+        route: 'land',
+        caption:
+          '1219 年，成吉思汗以蒙古高原为基地兴兵西征，讨伐中亚的花剌子模，蒙古铁骑开始踏入西方。',
+        duration: 4500,
+      },
+      {
+        year: 1220,
+        lon: PLACES.samarkand.lon,
+        lat: PLACES.samarkand.lat,
+        height: 1200000,
+        title: PLACES.samarkand.name,
+        route: 'land',
+        caption:
+          '1220 年，蒙古军围攻并攻陷撒马尔罕，花剌子模的重要城市被毁，河中地区被纳入蒙古统治。',
+        radiusKm: 300,
+        duration: 4400,
+      },
+      {
+        year: 1258,
+        lon: PLACES.baghdad.lon,
+        lat: PLACES.baghdad.lat,
+        height: 1200000,
+        title: PLACES.baghdad.name,
+        route: 'land',
+        caption:
+          '1258 年，旭烈兀率蒙古军攻陷巴格达，阿拔斯哈里发政权灭亡，两河流域遭到严重破坏。',
+        radiusKm: 300,
+        duration: 4500,
+      },
+      {
+        year: 1240,
+        lon: PLACES.kyiv.lon,
+        lat: PLACES.kyiv.lat,
+        height: 1200000,
+        title: PLACES.kyiv.name,
+        route: 'land',
+        caption:
+          '1240 年，拔都率蒙古军攻陷基辅，基辅罗斯的核心城市被毁，东欧进入蒙古统治的时代。',
+        duration: 4400,
+      },
+      {
+        year: 1241,
+        lon: PLACES.legnica.lon,
+        lat: PLACES.legnica.lat,
+        height: 1100000,
+        title: PLACES.legnica.name,
+        route: 'land',
+        caption:
+          '1241 年莱格尼察战役，蒙古军击败波兰与德意志联军，西欧直面来自东方的军事压力。',
+        radiusKm: 250,
+        duration: 4400,
+      },
+      {
+        year: 1242,
+        lon: PLACES.vienna.lon,
+        lat: PLACES.vienna.lat,
+        height: 1100000,
+        title: PLACES.vienna.name,
+        route: 'land',
+        caption:
+          '1242 年，蒙古军进抵维也纳附近，因窝阔台汗去世的消息传来而回师，中欧暂避兵锋。',
+        duration: 4400,
+      },
+    ],
+  },
+  {
+    id: 'crusades',
+    title: '十字军东征',
+    subtitle: '从克莱蒙到阿卡，两百年间东征与十字军国家',
+    steps: [
+      {
+        year: 1095,
+        lon: PLACES.clermont.lon,
+        lat: PLACES.clermont.lat,
+        height: 1200000,
+        title: PLACES.clermont.name,
+        route: 'air',
+        caption:
+          '1095 年，教宗乌尔班二世在克莱蒙号召十字军东征，欧洲贵族与民众响应，踏上前往圣地的道路。',
+        duration: 4500,
+      },
+      {
+        year: 1097,
+        lon: PLACES.constantinople.lon,
+        lat: PLACES.constantinople.lat,
+        height: 1150000,
+        title: PLACES.constantinople.name,
+        route: 'air',
+        caption:
+          '1097 年，各路十字军陆续抵达君士坦丁堡，随后渡过博斯普鲁斯海峡，进入小亚细亚腹地。',
+        duration: 4400,
+      },
+      {
+        year: 1097,
+        lon: PLACES.nicaea.lon,
+        lat: PLACES.nicaea.lat,
+        height: 1150000,
+        title: PLACES.nicaea.name,
+        route: 'air',
+        caption:
+          '1097 年，十字军围攻尼西亚，塞尔柱守军投降，拜占庭重新控制这座小亚细亚重镇。',
+        radiusKm: 200,
+        duration: 4400,
+      },
+      {
+        year: 1098,
+        lon: PLACES.antioch.lon,
+        lat: PLACES.antioch.lat,
+        height: 1200000,
+        title: PLACES.antioch.name,
+        route: 'land',
+        caption:
+          '1098 年，十字军经长期围困攻占安条克，建立第一次东征中的主要据点，继续向圣地推进。',
+        duration: 4400,
+      },
+      {
+        year: 1099,
+        lon: PLACES.jerusalem.lon,
+        lat: PLACES.jerusalem.lat,
+        height: 1150000,
+        title: PLACES.jerusalem.name,
+        route: 'land',
+        caption:
+          '1099 年，十字军攻陷耶路撒冷，建立耶路撒冷王国，地中海东岸出现一系列十字军国家。',
+        radiusKm: 250,
+        duration: 4500,
+      },
+      {
+        year: 1191,
+        lon: PLACES.acre.lon,
+        lat: PLACES.acre.lat,
+        height: 1100000,
+        title: PLACES.acre.name,
+        route: 'land',
+        caption:
+          '1191 年，第三次十字军攻占阿卡，这座港口成为十字军国家在黎凡特的主要据点。',
+        duration: 4400,
+      },
+    ],
+  },
+  {
+    id: 'islamic-expansion',
+    title: '伊斯兰扩张',
+    subtitle: '从麦地那到科尔多瓦，阿拉伯帝国横跨亚非欧',
+    steps: [
+      {
+        year: 622,
+        lon: PLACES.medina.lon,
+        lat: PLACES.medina.lat,
+        height: 1200000,
+        title: PLACES.medina.name,
+        route: 'land',
+        caption:
+          '622 年，穆罕默德自麦加迁往麦地那，建立最早的穆斯林社群，伊斯兰历由此纪元。',
+        duration: 4400,
+      },
+      {
+        year: 635,
+        lon: PLACES.damascus.lon,
+        lat: PLACES.damascus.lat,
+        height: 1200000,
+        title: PLACES.damascus.name,
+        route: 'land',
+        caption:
+          '635 年，穆斯林军队攻占大马士革，叙利亚大部分地区随之纳入阿拉伯帝国的版图。',
+        radiusKm: 280,
+        duration: 4400,
+      },
+      {
+        year: 638,
+        lon: PLACES.jerusalem.lon,
+        lat: PLACES.jerusalem.lat,
+        height: 1200000,
+        title: PLACES.jerusalem.name,
+        route: 'land',
+        caption:
+          '638 年，穆斯林军队攻占耶路撒冷，这座城市此后成为伊斯兰教的重要圣地。',
+        duration: 4400,
+      },
+      {
+        year: 641,
+        lon: PLACES.cairo.lon,
+        lat: PLACES.cairo.lat,
+        height: 1200000,
+        title: PLACES.cairo.name,
+        route: 'land',
+        caption:
+          '641 年，阿拉伯军队征服埃及并建立福斯塔特，开罗一带由此成为阿拉伯帝国的重要行省。',
+        duration: 4400,
+      },
+      {
+        year: 698,
+        lon: PLACES.carthage.lon,
+        lat: PLACES.carthage.lat,
+        height: 1200000,
+        title: PLACES.carthage.name,
+        route: 'land',
+        caption:
+          '698 年，阿拉伯军队攻占迦太基，罗马在北非的统治终结，北非沿岸被纳入帝国。',
+        radiusKm: 250,
+        duration: 4400,
+      },
+      {
+        year: 711,
+        lon: PLACES.cordoba.lon,
+        lat: PLACES.cordoba.lat,
+        height: 1200000,
+        title: PLACES.cordoba.name,
+        route: 'air',
+        caption:
+          '711 年，阿拉伯军队渡过直布罗陀海峡进入伊比利亚，科尔多瓦成为安达卢斯的统治中心。',
+        radiusKm: 300,
+        duration: 4500,
+      },
+    ],
+  },
 ];
 
 /**
@@ -480,8 +795,8 @@ export function validateStories(stories: Story[] = STORIES): boolean {
   };
 
   for (const story of stories) {
-    if (!story.steps.length) {
-      fail(`"${story.id}" has no steps`);
+    if (story.steps.length < 6) {
+      fail(`"${story.id}" has only ${story.steps.length} steps (need at least 6)`);
       continue;
     }
     story.steps.forEach((step, i) => {
@@ -494,6 +809,9 @@ export function validateStories(stories: Story[] = STORIES): boolean {
       }
       if (!Number.isFinite(step.lat) || step.lat < -90 || step.lat > 90) {
         fail(`${where}: latitude ${step.lat} is invalid`);
+      }
+      if (step.route !== undefined && !['land', 'air', 'sea'].includes(step.route)) {
+        fail(`${where}: route "${step.route}" is invalid`);
       }
     });
   }
