@@ -220,8 +220,6 @@ onBeforeUnmount(() => {
       <button class="btn" :disabled="atEnd" @click="next">{{ ui.t('story.next') }}</button>
       <span class="pos mono">{{ index + 1 }} / {{ story.steps.length }}</span>
     </div>
-
-    <p class="credit">AI 辅助生成 · 已人工校对</p>
   </section>
 </template>
 
@@ -237,12 +235,13 @@ onBeforeUnmount(() => {
   z-index: 60;
   display: flex;
   flex-direction: column;
-  gap: 7px;
-  padding: 8px 20px 6px;
+  gap: 5px;
+  padding: 6px 20px 4px;
   background: color-mix(in srgb, var(--card) 23%, transparent);
   backdrop-filter: blur(14px) saturate(1.05);
   -webkit-backdrop-filter: blur(14px) saturate(1.05);
   border: 1px solid color-mix(in srgb, var(--rule-2) 55%, transparent);
+  border-radius: 10px;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
 }
 
@@ -256,14 +255,14 @@ onBeforeUnmount(() => {
 }
 .titles h3 {
   font-family: var(--font-display);
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.2;
   color: var(--ink);
   text-shadow: 0 1px 2px rgba(255, 255, 255, 0.55);
 }
 .titles p {
-  margin-top: 1px;
-  font-size: 12px;
+  margin-top: 0;
+  font-size: 11.5px;
   letter-spacing: 0.06em;
   color: var(--ink-2);
   text-shadow: 0 1px 2px rgba(255, 255, 255, 0.55);
@@ -332,7 +331,7 @@ onBeforeUnmount(() => {
 }
 
 .track {
-  height: 3px;
+  height: 2px;
   background: var(--rule);
   overflow: hidden;
 }
@@ -348,7 +347,7 @@ onBeforeUnmount(() => {
   gap: 8px;
 }
 .btn {
-  padding: 2px 11px;
+  padding: 1px 10px;
   font-size: 12.5px;
   letter-spacing: 0.08em;
   color: var(--ink-2);
@@ -378,17 +377,10 @@ onBeforeUnmount(() => {
   color: var(--ink-4);
 }
 
-.credit {
-  margin-top: -4px;
-  font-size: 10px;
-  color: var(--ink-3);
-  text-align: right;
-}
-
 @media (max-width: 767px) {
   .player {
     width: 92vw;
-    padding: 8px 13px 6px;
+    padding: 6px 13px 4px;
   }
   .caption {
     font-size: max(13px, var(--fs-sm));
