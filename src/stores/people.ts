@@ -51,6 +51,14 @@ export const usePeopleStore = defineStore('people', () => {
   const selectedId = ref<string | null>(null);
   const profile = ref<PersonProfile | null>(null);
   const loadingProfile = ref(false);
+  /**
+   * Extra people drawn alongside the open profile on the main map.
+   *
+   * Lives in the store rather than in the drawer because the map paints it:
+   * the drawer only edits the list, `App.vue` reads it to build one scene.
+   * Two is the ceiling — three lines on one lifeline is the readable limit.
+   */
+  const trailCompare = ref<PersonProfile[]>([]);
 
   let indexTask: Promise<void> | null = null;
 
@@ -204,6 +212,8 @@ export const usePeopleStore = defineStore('people', () => {
   }
 
   async function openPerson(personId: string): Promise<void> {
+    // A different primary starts a fresh comparison.
+    if (personId !== selectedId.value) trailCompare.value = [];
     selectedId.value = personId;
     profile.value = null;
     loadingProfile.value = true;
@@ -226,6 +236,19 @@ export const usePeopleStore = defineStore('people', () => {
     selectedId.value = null;
     profile.value = null;
     loadingProfile.value = false;
+    trailCompare.value = [];
+  }
+
+  function addTrailCompare(person: PersonProfile) {
+    const next = trailCompare.value.filter((p) => p.personId !== person.personId);
+    next.push(person);
+    // The oldest comparison leaves once a third would make the lifeline crowded.
+    while (next.length > 2) next.shift();
+    trailCompare.value = next;
+  }
+
+  function removeTrailCompare(personId: string) {
+    trailCompare.value = trailCompare.value.filter((p) => p.personId !== personId);
   }
 
   function setAliveYear(year: number) {
@@ -254,6 +277,7 @@ export const usePeopleStore = defineStore('people', () => {
     selectedId,
     profile,
     loadingProfile,
+    trailCompare,
     eras,
     filtered,
     aliveIn,
@@ -264,6 +288,8 @@ export const usePeopleStore = defineStore('people', () => {
     openPerson,
     openByName,
     closePerson,
+    addTrailCompare,
+    removeTrailCompare,
     setAliveYear,
   };
 });

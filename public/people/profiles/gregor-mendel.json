@@ -81,7 +81,11 @@
       "descriptionEn": "In 1868, Mendel was elected abbot of the monastery, and administrative duties consumed most of his time. Despite this, he continued scientific research but failed to replicate the success of his pea experiments. His genetic theories were not understood or accepted by the scientific community until their rediscovery in 1900. In his later years, his health declined due to heart and kidney disease, and he died in 1884. As abbot, he promoted economic development in the Brünn region, including constructing a power plant and improving roads. His scientific achievements were not widely recognized until many years after his death, earning him the title 'Father of Genetics.'"
     }
   ],
-  "evaluation": {
+  "evaluation": {
+    "appraisal": {
+      "zh": "孟德尔被公认为现代遗传学之父，他以豌豆杂交实验和数学分析发现遗传的基本规律，为分子生物学、基因工程及农业育种与医学研究奠定基础，其工作被视为科学方法的典范。也有研究者指出，他所选性状过于简单，数据或有修饰，且未能与当时的细胞学知识结合，发表后长期被忽视；他的理论直到1900年被三位科学家独立重新发现，才印证了其超前性。",
+      "en": "Mendel is widely acknowledged as the father of modern genetics: his pea hybridization experiments and mathematical analysis uncovered the fundamental laws of inheritance, laying foundations for molecular biology, genetic engineering, agricultural breeding, and medical research, and his work is taken as a model of scientific method. Some researchers note that the traits he chose were overly simple, that his data may have been cleaned, and that he failed to link his findings with contemporary cytology; neglected for decades, his theories were only independently rediscovered in 1900 by three scientists, confirming how far ahead of his time he was."
+    },
     "supporter": {
       "zh": "孟德尔被誉为现代遗传学之父，他的豌豆杂交实验开创了科学遗传学研究的新纪元。他通过严谨的实验设计和数学分析方法，发现了遗传的基本规律，为后来的分子生物学和基因工程奠定了基础。他的工作体现了科学方法的精髓：精确观察、量化分析和大胆假设。孟德尔的研究不仅改变了生物学的发展方向，也为农业育种和医学研究提供了理论支持。",
       "en": "Mendel is hailed as the father of modern genetics. His pea hybridization experiments pioneered the scientific study of heredity. Through rigorous experimental design and mathematical analysis, he discovered the fundamental laws of inheritance, laying the foundation for later molecular biology and genetic engineering. His work embodies the essence of the scientific method: precise observation, quantitative analysis, and bold hypotheses. Mendel's research not only transformed the direction of biological development but also provided theoretical support for agricultural breeding and medical research."
@@ -99,12 +103,6 @@
     "self": {
       "zh": "我的实验表明，在植物杂交中，性状的传递遵循数学规律。",
       "en": "My experiments have shown that in plant hybrids, the transmission of traits follows mathematical laws."
-    },
-    "others": {
-      "zh": "孟德尔的工作是生物学史上最重要的成就之一，他发现了遗传的基本规律，为整个现代生物学奠定了基础。",
-      "en": "Mendel's work is one of the most important achievements in the history of biology; he discovered the fundamental laws of heredity, laying the foundation for all modern biology."
     }
-  },
-  "othersBy": "恩斯特·迈尔",
-  "othersByEn": "Ernst Mayr"
+  }
 }

@@ -95,7 +95,11 @@
       "descriptionEn": "Caesar was granted honors such as dictator for life and 'Father of the Fatherland,' with increasingly concentrated power, which aroused fear and dissatisfaction among republican aristocrats. On March 15, 44 BC, Caesar was assassinated in the Senate by a group of republican nobles, including Brutus and Cassius, who had once been his allies. The assassins claimed to act to restore the Republic, but Caesar's death instead led to larger-scale civil wars in Rome, ultimately resulting in the establishment of the Roman Empire by his adopted son Octavian (later Augustus). Caesar's assassination became one of the most famous political assassinations in Western history, marking the end of the Roman Republic and the beginning of the Roman Empire."
     }
   ],
-  "evaluation": {
+  "evaluation": {
+    "appraisal": {
+      "zh": "凯撒通常被视为罗马最伟大的军事家与政治家之一，他终结了长达一个世纪的内战，历法、土地与公民权改革为罗马社会奠定基础，军事征服既拓展疆域也带来财富与文化交流。但另一种看法认为他是共和国的破坏者：以军事力量与政治手腕攫取权力，开专制先例，征服高卢造成大量死亡，个人野心最终招致遇刺与更多动荡。学界因此将他定义为改革者与独裁者的矛盾复合体，其名也成为个人权力与共和传统冲突的象征。",
+      "en": "Caesar is generally seen as one of Rome's greatest commanders and statesmen: he ended a century of civil war, his calendar, land and citizenship reforms laid foundations for Roman society, and his conquests expanded the empire while bringing wealth and cultural exchange. Another view holds him a destroyer of the Republic, seizing power through military force and political maneuvering, setting a precedent for autocracy, causing mass Gallic deaths, and letting personal ambition provoke his assassination and further turmoil. Scholarship thus defines him as a contradictory blend of reformer and dictator, his name a symbol of the conflict between personal power and republican tradition."
+    },
     "supporter": {
       "zh": "凯撒被视为罗马历史上最伟大的军事家和政治家之一。他结束了罗马长达一个世纪的内战，为罗马带来了和平与繁荣。他的改革措施，包括历法改革、土地改革和扩大公民权，为罗马社会的发展奠定了基础。凯撒的领导才能和远见卓识使他能够应对复杂的政治局势，为罗马从共和国向帝国的平稳过渡做出了重要贡献。他的军事征服不仅扩大了罗马的疆域，也为罗马带来了巨大的财富和文化交流。",
       "en": "Caesar is regarded as one of the greatest military commanders and statesmen in Roman history. He ended Rome's century-long civil wars, bringing peace and prosperity to the empire. His reform measures, including calendar reform, land reform, and expanded citizenship rights, laid the foundation for Roman social development. Caesar's leadership and vision enabled him to navigate complex political situations, making significant contributions to the smooth transition from Republic to Empire. His military conquests not only expanded Rome's territories but also brought immense wealth and cultural exchange to the Roman world."
@@ -110,15 +114,12 @@
     }
   },
   "quotes": {
+    "sources": {
+      "self": {"text":"苏维托尼乌斯《凯撒传》"}
+    },
     "self": {
       "zh": "骰子已经掷下。",
       "en": "The die is cast."
-    },
-    "others": {
-      "zh": "凯撒的敌人很少，但他的朋友几乎都背叛了他。",
-      "en": "Caesar had few enemies, but almost all of his friends betrayed him."
     }
-  },
-  "othersBy": "普鲁塔克",
-  "othersByEn": "Plutarch"
+  }
 }

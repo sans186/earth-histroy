@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue';
+import { YEAR_MAX } from '@/config';
 import { formatArea, formatYearRange } from '@/lib/format';
 import { zhPolityName } from '@/lib/names';
 import { wikiArticleUrl } from '@/lib/wiki';
@@ -17,6 +18,7 @@ import {
   loadPolityLifecycles,
   type PolityAreaOverride,
   type PolityAsset,
+  type PolityDescription,
   type PolityFacts,
   type PolityLifecycle,
 } from '@/services/data';
@@ -29,10 +31,8 @@ const props = defineProps<{
   feature: PolityFeature;
   /** English → Chinese name map; Cliopatria ships English names only. */
   names?: Record<string, string>;
-  /** Which comparison column this polity already occupies, if either. */
-  pinned?: 'A' | 'B' | null;
 }>();
-const emit = defineEmits<{ close: []; pin: [side: 'A' | 'B']; scope: [] }>();
+const emit = defineEmits<{ close: []; scope: [] }>();
 
 const ui = useUiStore();
 
@@ -63,13 +63,17 @@ const altName = computed(() => {
  */
 const lifecycle = ref<PolityLifecycle | null>(null);
 
-const years = computed(() =>
-  formatYearRange(
+const years = computed(() => {
+  const last = lifecycle.value?.lastYear ?? props.feature.properties?.ToYear;
+  return formatYearRange(
     lifecycle.value?.firstYear ?? props.feature.properties?.FromYear,
-    lifecycle.value?.lastYear ?? props.feature.properties?.ToYear,
+    last,
     ui.locale,
-  ),
-);
+    // The last snapshot is carried forward to the timeline's present, so a
+    // span that reaches `YEAR_MAX` has no recorded end — do not print it.
+    { openEnd: typeof last === 'number' && last >= YEAR_MAX },
+  );
+});
 
 /**
  * Area comes from three places, in this order.
@@ -162,7 +166,8 @@ watch(
     historicalFlag.value = flags[target] ?? '';
     facts.value = findPolityFacts(target, factsMap);
     const description = findPolityDescription(target, descriptions);
-    extract.value = description?.zh.extract ?? '';
+    extract.value =
+      description && describesThisTile(description) ? description.zh.extract : '';
     lifecycle.value = findPolityLifecycle(target, lifecycles);
 
     // The same scope the lists filter by, so the counts match what clicking
@@ -215,6 +220,21 @@ const population = computed(() => {
 
 /** The extracts are Chinese-only, so an English interface shows none. */
 const about = computed(() => (ui.locale === 'zh' ? extract.value : ''));
+
+/**
+ * `polity_descriptions.json` holds one entry per name, written from whichever
+ * century slice first introduced that name — "Norway" carries the 990–1002
+ * Viking kingdom, "Honduras" its 1840s republic. A tile in 2026 must not inherit
+ * that prose as its own profile, so the text is only shown when the snapshot it
+ * was written for reaches the end of the tile's span. Old tiles keep their
+ * period text; present-day states show nothing rather than a life that stopped
+ * a century ago.
+ */
+function describesThisTile(description: PolityDescription): boolean {
+  const last = props.feature.properties?.ToYear;
+  if (typeof last !== 'number') return true;
+  return description.to >= last - 10;
+}
 
 /**
  * Cliopatria records a Wikipedia article title on every feature, so this is a
@@ -343,31 +363,6 @@ const wikiUrl = computed(() => {
     </div>
 
     <footer>
-      <!--
-        Each side gets its own button: guessing which column to fill made the
-        second pin silently overwrite the first. The hint below says what the
-        buttons actually do, because "对照 A" on its own reads like a mode
-        toggle rather than "put this polity in column A".
-      -->
-      <div class="pin-row">
-        <button
-          class="ghost"
-          :class="{ on: pinned === 'A' }"
-          :disabled="pinned === 'A'"
-          @click="emit('pin', 'A')"
-        >
-          {{ pinned === 'A' ? ui.t('compare.inA') : ui.t('compare.setA') }}
-        </button>
-        <button
-          class="ghost"
-          :class="{ on: pinned === 'B' }"
-          :disabled="pinned === 'B'"
-          @click="emit('pin', 'B')"
-        >
-          {{ pinned === 'B' ? ui.t('compare.inB') : ui.t('compare.setB') }}
-        </button>
-      </div>
-      <p class="pin-hint">{{ ui.t('compare.pinHint') }}</p>
       <button class="ghost scope-btn" :class="{ on: ui.scopeToPolity }" @click="emit('scope')">
         {{ ui.scopeToPolity ? ui.t('filter.polityClear') : ui.t('filter.polityUse') }}
       </button>
@@ -544,12 +539,6 @@ footer {
   flex-direction: column;
   gap: 7px;
 }
-.pin-hint {
-  margin: 0;
-  font-size: 13px;
-  line-height: 1.55;
-  color: var(--ink-3);
-}
 .ghost {
   width: 100%;
   border: 1px solid var(--rule-2);
@@ -579,12 +568,5 @@ a.ghost {
 .scope-btn {
   display: block;
   text-align: center;
-}
-.pin-row {
-  display: flex;
-  gap: 6px;
-}
-.pin-row .ghost {
-  flex: 1;
 }
 </style>

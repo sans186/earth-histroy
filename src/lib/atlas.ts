@@ -43,21 +43,73 @@ function midCos(rect: AtlasRect): number {
  * The smallest region therefore leaves more paper around it — that is the
  * visible, honest cost of a shared scale, and the plate says so in its dateline.
  */
+export function fitScale(rect: AtlasRect, width: number, height: number, pad: number): number {
+  const innerW = Math.max(40, width - pad * 2);
+  const innerH = Math.max(40, height - pad * 2);
+  const sx = Math.max(1e-4, (rect.east - rect.west) * midCos(rect));
+  const sy = Math.max(1e-4, rect.north - rect.south);
+  return Math.min(innerW / sx, innerH / sy);
+}
+
 export function sharedScale(
   rects: AtlasRect[],
   width: number,
   height: number,
   pad: number,
 ): number {
-  const innerW = Math.max(40, width - pad * 2);
   const innerH = Math.max(40, height - pad * 2);
   let k = Infinity;
-  for (const rect of rects) {
-    const sx = Math.max(1e-4, (rect.east - rect.west) * midCos(rect));
-    const sy = Math.max(1e-4, rect.north - rect.south);
-    k = Math.min(k, innerW / sx, innerH / sy);
-  }
+  for (const rect of rects) k = Math.min(k, fitScale(rect, width, height, pad));
   return Number.isFinite(k) ? k : innerH / 30;
+}
+
+/** Smallest box containing every input box. Used by the shared-window framing. */
+export function unionRect(rects: AtlasRect[]): AtlasRect {
+  return {
+    west: Math.min(...rects.map((r) => r.west)),
+    south: Math.min(...rects.map((r) => r.south)),
+    east: Math.max(...rects.map((r) => r.east)),
+    north: Math.max(...rects.map((r) => r.north)),
+  };
+}
+
+export function lerpRect(a: AtlasRect, b: AtlasRect, t: number): AtlasRect {
+  const at = (x: number, y: number) => x + (y - x) * t;
+  return {
+    west: at(a.west, b.west),
+    south: at(a.south, b.south),
+    east: at(a.east, b.east),
+    north: at(a.north, b.north),
+  };
+}
+
+/**
+ * SVG matrix that carries points projected under one framing onto another.
+ *
+ * Both framings share the same projection family (`makeProjection`), so the
+ * change is affine: a scale plus a translation. Animating this matrix lets the
+ * geometry that is already cached stay untouched for the whole transition — only
+ * the wrapper `<g>` moves — and the real paths are rebuilt once at the end.
+ */
+export function rectMatrix(
+  from: AtlasRect,
+  kFrom: number,
+  to: AtlasRect,
+  kTo: number,
+  width: number,
+  height: number,
+): string {
+  const cosFrom = midCos(from);
+  const cosTo = midCos(to);
+  const sx = (cosTo * kTo) / (cosFrom * kFrom);
+  const sy = kTo / kFrom;
+  const cxFrom = (from.west + from.east) / 2;
+  const cyFrom = (from.south + from.north) / 2;
+  const cxTo = (to.west + to.east) / 2;
+  const cyTo = (to.south + to.north) / 2;
+  const tx = (width / 2) * (1 - sx) + (cxFrom - cxTo) * cosTo * kTo;
+  const ty = (height / 2) * (1 - sy) + (cyTo - cyFrom) * kTo;
+  return `matrix(${sx.toFixed(5)} 0 0 ${sy.toFixed(5)} ${tx.toFixed(2)} ${ty.toFixed(2)})`;
 }
 
 export function makeProjection(
@@ -152,6 +204,28 @@ export interface AtlasBattle {
 }
 
 /**
+ * Battle coordinates, read as `[longitude, latitude]`.
+ *
+ * The war archive stores `coords` as a two-number array in lon/lat order —
+ * `[4.9, 50.3]` is 4.9°E / 50.3°N (the Battle of the Frontiers) — while the
+ * event dataset writes strings in lat/lon order. `parseCoordinates` resolves the
+ * ambiguity by preferring lat/lon, which put every European battle in the
+ * Indian Ocean, so war rows get their own reader: arrays are always lon first,
+ * and anything out of range is dropped rather than guessed at. String and
+ * object forms keep the shared parser.
+ */
+function battleCoords(raw: unknown): LonLat | null {
+  if (Array.isArray(raw)) {
+    const lon = Number(raw[0]);
+    const lat = Number(raw[1]);
+    if (!Number.isFinite(lon) || !Number.isFinite(lat)) return null;
+    if (lon < -180 || lon > 180 || lat < -90 || lat > 90) return null;
+    return { lon, lat };
+  }
+  return parseCoordinates(raw);
+}
+
+/**
  * Battles recorded inside a year window.
  *
  * These are archive positions, not a front line: a battle only appears if the
@@ -169,7 +243,7 @@ export function battlesInWindow(
     for (const battle of phase.battles ?? []) {
       const year = battleYear(battle);
       if (year === null || year < from || year > to) continue;
-      const at = parseCoordinates(battle.coords);
+      const at = battleCoords(battle.coords);
       if (!at) continue;
       out.push({
         lon: at.lon,

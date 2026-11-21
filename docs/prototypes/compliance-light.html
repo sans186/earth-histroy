@@ -1,0 +1,721 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>合规呈现轻量化 · 原型（UR-019 / UB-004）</title>
+<style>
+  :root {
+    --paper: #f7f5f0;
+    --paper-2: #efece4;
+    --paper-3: #e6e2d7;
+    --card: #fdfcf9;
+    --ink: #1a1c20;
+    --ink-2: #4c4f56;
+    --ink-3: #8d8c86;
+    --ink-4: #b4b0a7;
+    --rule: #e2ddd1;
+    --rule-2: #c9c2b3;
+    --rule-3: #a89f8d;
+    --indigo: #26406b;
+    --indigo-soft: rgba(38, 64, 107, 0.08);
+    --rust: #b0522d;
+    --rust-soft: rgba(176, 82, 45, 0.09);
+    --olive: #7d8a6a;
+    --ochre: #9a7434;
+    --font-display: 'Fraunces', 'Noto Serif SC', Georgia, 'Songti SC', serif;
+    --font-sans: 'Inter', 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+    --font-mono: 'IBM Plex Mono', ui-monospace, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 14px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  button { font: inherit; color: inherit; cursor: pointer; }
+
+  .topbar {
+    display: flex; align-items: center; gap: 18px;
+    padding: 12px 22px;
+    border-bottom: 1px solid var(--rule);
+    background: var(--card);
+    position: sticky; top: 0; z-index: 20;
+  }
+  .brand { font-family: var(--font-display); font-size: 16px; letter-spacing: .01em; }
+  .brand span { font-family: var(--font-mono); font-size: 10px; color: var(--ink-3); margin-left: 8px; letter-spacing: .04em; }
+  .seg { display: flex; border: 1px solid var(--rule-2); border-radius: 999px; overflow: hidden; background: var(--paper); }
+  .seg button {
+    border: 0; background: transparent; padding: 5px 16px; font-size: 13px; color: var(--ink-3);
+  }
+  .seg button.on { background: var(--ink); color: var(--card); }
+  .topbar .spacer { flex: 1; }
+  .ghost {
+    border: 1px solid var(--rule-2); background: transparent; border-radius: 999px;
+    padding: 5px 14px; font-size: 12px; color: var(--ink-2);
+  }
+  .ghost:hover { border-color: var(--ink-3); }
+
+  main {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 330px;
+    gap: 26px;
+    padding: 22px 26px 40px;
+    max-width: 1320px;
+    margin: 0 auto;
+    align-items: start;
+  }
+  .stage { min-width: 0; }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+  .chip {
+    border: 1px solid var(--rule); background: var(--card); border-radius: 4px;
+    padding: 4px 11px; font-size: 12px; color: var(--ink-2);
+  }
+  .chip small { color: var(--ink-4); font-family: var(--font-mono); font-size: 10px; margin-left: 6px; }
+  .chip.on { border-color: var(--ink); color: var(--ink); box-shadow: inset 0 -2px 0 var(--rust); }
+
+  /* ── card shell ─────────────────────────────────────────────── */
+  .card {
+    width: 100%; max-width: 560px;
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    box-shadow: 0 1px 0 rgba(26, 28, 32, .03), 0 18px 40px -32px rgba(26, 28, 32, .5);
+    max-height: calc(100vh - 190px);
+    overflow: auto;
+    margin: 0 auto;
+  }
+  .card-inner { padding: 22px 24px 18px; }
+  .card-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+  .name { font-family: var(--font-display); font-size: 25px; line-height: 1.25; margin: 0; font-weight: 600; letter-spacing: .01em; }
+  .name small { display: block; font-family: var(--font-sans); font-size: 11px; font-weight: 400; color: var(--ink-3); letter-spacing: .06em; text-transform: uppercase; margin-top: 3px; }
+  .sub { color: var(--ink-3); font-size: 12px; margin: 8px 0 0; }
+  .sub .dot { margin: 0 6px; color: var(--ink-4); }
+
+  /* badges — 现状 */
+  .badges { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; align-items: center; }
+  .badge {
+    font-size: 10px; letter-spacing: .04em; padding: 2px 7px; border-radius: 3px;
+    border: 1px solid var(--rule-2); color: var(--ink-2); background: var(--paper);
+    font-family: var(--font-mono);
+  }
+  .badge.warn { border-color: rgba(176, 82, 45, .35); color: var(--rust); background: var(--rust-soft); }
+  .badge.r { border-color: rgba(38, 64, 107, .3); color: var(--indigo); background: var(--indigo-soft); }
+  .badge.c2 { border-color: rgba(154, 116, 52, .35); color: var(--ochre); background: rgba(154, 116, 52, .08); }
+  .prov-details { font-size: 11px; color: var(--ink-3); }
+  .prov-details summary { cursor: pointer; list-style: none; }
+  .prov-details summary::-webkit-details-marker { display: none; }
+  .prov-details summary::after { content: ' ▾'; font-size: 9px; }
+  .prov-details p { margin: 6px 0 0; color: var(--ink-3); font-size: 11px; line-height: 1.6; max-width: 460px; }
+
+  /* basis — 改后 */
+  .basis { display: flex; align-items: center; gap: 8px; margin: 2px 0 10px; }
+  .basis-chip {
+    border: 0; background: transparent; padding: 0;
+    font-size: 11.5px; color: var(--ink-3); border-bottom: 1px dotted var(--rule-3);
+  }
+  .basis-chip:hover { color: var(--ink-2); border-bottom-color: var(--ink-3); }
+  .basis-chip::after { content: ' ›'; color: var(--ink-4); }
+  .basis-note { font-size: 10.5px; color: var(--ink-4); }
+
+  .hintline {
+    display: inline-block; margin: 10px 0 0; padding: 3px 9px;
+    font-size: 11px; color: var(--ink-2);
+    background: var(--paper-2); border-left: 2px solid var(--rule-3); border-radius: 2px;
+  }
+
+  section.block { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--rule); }
+  section.block:first-of-type { border-top: 0; padding-top: 0; }
+  .sec-title {
+    font-size: 11px; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--ink-3); margin: 0 0 10px; font-weight: 600;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .sec-title .flag {
+    font-size: 9.5px; letter-spacing: .06em; text-transform: none;
+    color: var(--rust); border: 1px solid rgba(176, 82, 45, .3);
+    background: var(--rust-soft); padding: 0 5px; border-radius: 2px;
+    font-family: var(--font-mono); font-weight: 400;
+  }
+  .notice {
+    font-size: 11.5px; color: var(--ink-3); background: var(--paper);
+    border: 1px dashed var(--rule-2); border-radius: 4px;
+    padding: 8px 10px; margin-bottom: 10px; line-height: 1.6;
+  }
+  .empty { font-size: 12px; color: var(--ink-4); margin: 8px 0 0; }
+  .switch {
+    display: inline-flex; align-items: center; gap: 7px;
+    font-size: 11.5px; color: var(--ink-2); user-select: none; cursor: pointer;
+  }
+  .switch input { accent-color: var(--rust); }
+  .body-text { font-size: 13px; line-height: 1.78; color: var(--ink-2); margin: 0 0 10px; }
+  .body-text strong { color: var(--ink); font-weight: 600; }
+  .stance { font-size: 10.5px; color: var(--ink-4); letter-spacing: .05em; display: block; margin: 12px 0 2px; }
+
+  .timeline { list-style: none; padding: 0; margin: 0; }
+  .timeline li { display: grid; grid-template-columns: 74px 1fr; gap: 10px; padding: 7px 0; border-bottom: 1px dotted var(--rule); }
+  .timeline li:last-child { border-bottom: 0; }
+  .timeline .yr { font-family: var(--font-mono); font-size: 11px; color: var(--ink-3); padding-top: 2px; }
+  .timeline .tt { font-size: 12.5px; color: var(--ink); margin: 0; }
+  .timeline .pl { font-size: 11px; color: var(--ink-4); margin: 1px 0 0; }
+
+  /* 语录折叠 */
+  details.quotes { margin-top: 12px; border-top: 1px dotted var(--rule-2); padding-top: 10px; }
+  details.quotes summary {
+    list-style: none; cursor: pointer; font-size: 11.5px; color: var(--ink-3);
+    display: flex; align-items: center; gap: 8px;
+  }
+  details.quotes summary::-webkit-details-marker { display: none; }
+  details.quotes summary::before { content: '＋'; font-size: 10px; color: var(--ink-4); }
+  details.quotes[open] summary::before { content: '－'; }
+  details.quotes .srcgap {
+    font-size: 10.5px; color: var(--ochre); font-family: var(--font-mono);
+    margin: 10px 0 6px; letter-spacing: .02em;
+  }
+  blockquote {
+    margin: 0 0 8px; padding-left: 12px; border-left: 2px solid var(--rule-2);
+    font-family: var(--font-display); font-size: 13px; color: var(--ink-2); line-height: 1.7;
+  }
+  blockquote span { display: block; font-family: var(--font-sans); font-size: 11px; color: var(--ink-4); margin-top: 3px; }
+
+  /* 证据列表 */
+  .evidence {
+    margin-top: 14px; border: 1px solid var(--rule);
+    background: var(--paper); border-radius: 5px; padding: 12px 14px;
+  }
+  .evidence[hidden] { display: none; }
+  .evidence h5 { margin: 0 0 4px; font-size: 11px; letter-spacing: .1em; color: var(--ink-3); font-weight: 600; text-transform: uppercase; }
+  .evidence .lead { font-size: 11.5px; color: var(--ink-3); margin: 0 0 10px; }
+  .ev-row { display: grid; grid-template-columns: 62px 1fr; gap: 10px; padding: 7px 0; border-top: 1px dotted var(--rule-2); }
+  .ev-row:first-of-type { border-top: 0; }
+  .ev-kind { font-family: var(--font-mono); font-size: 9.5px; letter-spacing: .04em; color: var(--ink-4); padding-top: 2px; text-transform: uppercase; }
+  .ev-main a { font-size: 12.5px; color: var(--indigo); text-decoration: none; border-bottom: 1px solid rgba(38, 64, 107, .25); }
+  .ev-main a:hover { border-bottom-color: var(--indigo); }
+  .ev-main .supports { display: block; font-size: 11px; color: var(--ink-3); margin-top: 2px; }
+  .ev-main .nourl { font-size: 12.5px; color: var(--ink-2); }
+  .ev-foot { margin: 10px 0 0; padding-top: 9px; border-top: 1px dotted var(--rule-2); display: flex; justify-content: space-between; gap: 10px; align-items: center; }
+  .ev-foot .caveat { font-size: 10.5px; color: var(--ink-4); }
+  .link-btn { border: 0; background: transparent; padding: 0; font-size: 11px; color: var(--indigo); border-bottom: 1px dotted rgba(38, 64, 107, .4); }
+  .link-btn:hover { border-bottom-style: solid; }
+
+  .card-foot {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-top: 20px; padding-top: 12px; border-top: 1px solid var(--rule);
+    font-size: 11px; color: var(--ink-3);
+  }
+  .card-foot a { color: var(--ink-3); text-decoration: none; border-bottom: 1px dotted var(--rule-2); }
+  .card-foot a:hover { color: var(--ink-2); }
+
+  /* 战争卡 */
+  .tabs { display: flex; gap: 14px; margin: 14px 0 4px; border-bottom: 1px solid var(--rule); }
+  .tabs span { font-size: 11.5px; color: var(--ink-4); padding-bottom: 6px; }
+  .tabs span.on { color: var(--ink); box-shadow: inset 0 -2px 0 var(--rust); }
+
+  /* 右栏 */
+  .rail { position: sticky; top: 76px; display: grid; gap: 16px; }
+  .panel { background: var(--card); border: 1px solid var(--rule); border-radius: 5px; padding: 14px 16px; }
+  .panel h4 { margin: 0 0 10px; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); font-weight: 600; }
+  .rules { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; }
+  .rules li { font-size: 12px; color: var(--ink-2); display: grid; grid-template-columns: 16px 1fr; gap: 7px; line-height: 1.5; }
+  .rules b { color: var(--ink); font-weight: 600; }
+  .rules .n { font-family: var(--font-mono); font-size: 10px; color: var(--ink-4); padding-top: 2px; }
+  .rules em { font-style: normal; color: var(--ink-4); }
+
+  .list-mock { border-top: 1px solid var(--rule); }
+  .list-mock .row { display: flex; gap: 10px; padding: 6px 0; border-bottom: 1px solid var(--rule); font-size: 12px; color: var(--ink-2); }
+  .list-mock .row .yr { font-family: var(--font-mono); font-size: 10px; color: var(--ink-4); padding-top: 2px; min-width: 34px; }
+  .list-mock .cap { font-size: 10.5px; color: var(--ink-4); margin: 9px 0 0; }
+
+  .judge { display: flex; gap: 6px; }
+  .judge button { flex: 1; border: 1px solid var(--rule-2); background: transparent; border-radius: 4px; padding: 5px 0; font-size: 11.5px; color: var(--ink-2); }
+  .judge button.on { border-color: var(--ink); color: var(--ink); background: var(--paper-2); }
+  .judge-note { font-size: 10.5px; color: var(--ink-4); margin: 8px 0 0; }
+
+  /* 关于页弹层 */
+  .modal { position: fixed; inset: 0; display: none; align-items: center; justify-content: center; z-index: 50; }
+  .modal.open { display: flex; }
+  .modal .scrim { position: absolute; inset: 0; background: rgba(26, 28, 32, .38); }
+  .sheet {
+    position: relative; width: min(680px, calc(100vw - 40px)); max-height: 82vh; overflow: auto;
+    background: var(--card); border: 1px solid var(--rule-2); border-radius: 6px;
+    box-shadow: 0 30px 80px -40px rgba(0, 0, 0, .6); padding: 26px 30px 24px;
+  }
+  .sheet .kicker { font-family: var(--font-mono); font-size: 10px; letter-spacing: .12em; color: var(--ink-4); text-transform: uppercase; }
+  .sheet h3 { font-family: var(--font-display); font-size: 22px; margin: 6px 0 14px; }
+  .sheet h6 { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); margin: 18px 0 6px; }
+  .sheet p { font-size: 12.5px; color: var(--ink-2); line-height: 1.75; margin: 0 0 8px; }
+  .sheet ul { margin: 0 0 8px; padding-left: 18px; font-size: 12.5px; color: var(--ink-2); line-height: 1.75; }
+  .sheet .close { position: absolute; top: 14px; right: 16px; border: 0; background: transparent; font-size: 18px; color: var(--ink-3); }
+
+  @media (max-width: 1020px) {
+    main { grid-template-columns: 1fr; }
+    .rail { position: static; }
+    .card { max-height: none; }
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">合规呈现轻量化 · 原型<span>UR-019 / UB-004</span></div>
+  <div class="seg" id="modeSeg">
+    <button data-mode="now">现在的样子</button>
+    <button data-mode="after" class="on">改后</button>
+  </div>
+  <div class="spacer"></div>
+  <button class="ghost" id="openAbout">关于页完整声明</button>
+</header>
+
+<main>
+  <section class="stage">
+    <div class="chips" id="chips"></div>
+    <div id="cardHost"></div>
+  </section>
+
+  <aside class="rail">
+    <div class="panel">
+      <h4>这版改了什么</h4>
+      <ul class="rules">
+        <li><span class="n">01</span><span>徽标改为一行 <b>依据：模型整理 / 文献 N 项</b>，不再常驻「AI 生成」「未核验」。</span></li>
+        <li><span class="n">02</span><span>三层：卡片一行小字 → 点开依据列表 → 关于页完整声明。</span></li>
+        <li><span class="n">03</span><span>只保留两句场景提示：在世人物「仅列生平事实」、进行中冲突「以已发生事实为限」。</span></li>
+        <li><span class="n">04</span><span>列表页 <b>零标注</b>，现状已如此，改后保持。</span></li>
+        <li><span class="n">05</span><span>语录折叠进「他人评述」，展开只有一行 <b>出处待补</b>。</span></li>
+      </ul>
+    </div>
+
+    <div class="panel">
+      <h4>列表页（本年条目）</h4>
+      <div class="list-mock">
+        <div class="row"><span class="yr">1865</span><span>林肯遇刺身亡</span></div>
+        <div class="row"><span class="yr">1868</span><span>明治维新开始</span></div>
+        <div class="row"><span class="yr">2001</span><span>阿富汗战争爆发</span></div>
+        <div class="row"><span class="yr">2023</span><span>加沙战争爆发</span></div>
+        <div class="row"><span class="yr">2024</span><span>叙利亚阿萨德政权垮台</span></div>
+      </div>
+      <p class="cap">两种情况都不出现任何徽标、等级或提示。</p>
+    </div>
+
+    <div class="panel">
+      <h4>这版对我来说</h4>
+      <div class="judge" id="judge">
+        <button data-v="light">偏轻</button>
+        <button data-v="ok">合适</button>
+        <button data-v="heavy">偏重</button>
+      </div>
+      <p class="judge-note">只是原型的评价按钮，不保存、不提交。</p>
+    </div>
+  </aside>
+</main>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="scrim" data-close></div>
+  <div class="sheet" role="dialog" aria-modal="true" aria-label="关于与数据声明">
+    <button class="close" data-close aria-label="关闭">×</button>
+    <div class="kicker">About · 数据与署名</div>
+    <h3>关于本站</h3>
+
+    <h6>这是什么</h6>
+    <p>一个按年份浏览世界历史的地图册：左侧时间轴、地图上的政区与事件、点开的人物与战争卡片。纯静态站点，无账号、无追踪。</p>
+
+    <h6>「依据：模型整理」是什么意思</h6>
+    <p>人物生平、人物评价、语录、战争进程与分析、政区事实，由语言模型依据公开资料整理，未经逐条核验。卡片上显示「依据：模型整理」即指此类内容；它表示"内容是整理的，不是从某一本书里逐字摘出来的"。</p>
+
+    <h6>「依据：文献 N 项」是什么意思</h6>
+    <p>该卡片有 N 项具名来源，可在卡片内的「依据」列表中逐项展开。能点开的给链接；只能给书名的标明"仅有文献名"。其中属于研究者观点转述的，会单独标注「转述」。</p>
+
+    <h6>哪些地方仍然缺出处</h6>
+    <ul>
+      <li>语录与他人评价的逐条出处仍在补全，未补全的展开时显示「出处待补」。</li>
+      <li>政区的人口、族群、语言等数值为估算，标「约」，不作为统计引用。</li>
+      <li>事件卡暂未挂条目级链接，只保留文献名。</li>
+    </ul>
+
+    <h6>署名与许可</h6>
+    <ul>
+      <li>历史事件文本参考 Chronograph，依 <b>CC BY 4.0</b> 使用并署名。</li>
+      <li>政区与边界数据来自 Cliopatria、Natural Earth（CC BY 4.0）。</li>
+      <li>引用的维基百科条目依 <b>CC BY-SA 4.0</b> 使用，依据列表中逐条给出条目名。</li>
+    </ul>
+
+    <h6>AI 生成声明</h6>
+    <p>本站部分文本由 AI 生成或整理，已按上口径在界面标注；模型整理的内容可能存在事实错误，请以原始文献为准。本站不作为学术引用依据。</p>
+
+    <h6>免责</h6>
+    <p>边境与政区按项目声明的口径绘制，不代表对任何现实争议的裁决。发现错误欢迎提 issue。</p>
+  </div>
+</div>
+
+<script>
+/* ── 真实数据（摘自 public/people/profiles、public/wars/profiles） ──────── */
+const PEOPLE = {
+  lincoln: {
+    id: 'abraham-lincoln',
+    name: '亚伯拉罕·林肯', en: 'Abraham Lincoln',
+    nation: '美国', life: '1809–1865', living: false,
+    points: [
+      { y: '1809–1831', t: '早年成长', p: '肯塔基州哈丁县（今拉鲁县）' },
+      { y: '1831–1849', t: '法律与政治起步', p: '伊利诺伊州新塞勒姆和斯普林菲尔德' },
+      { y: '1854–1860', t: '重返政坛与废奴运动', p: '伊利诺伊州斯普林菲尔德' },
+      { y: '1861–1865', t: '总统任期与内战', p: '华盛顿特区' },
+      { y: '1865', t: '身后影响', p: '伊利诺伊州斯普林菲尔德' }
+    ],
+    evaluation: {
+      supporter: '林肯被赞誉为美国最伟大的总统之一，他领导国家度过了最严重的分裂危机，维护了国家统一，并废除了奴隶制，为美国的民主和自由奠定了基础。他的《解放黑人奴隶宣言》和葛底斯堡演说成为美国民主精神的经典表达。',
+      critic: '批评者指出林肯在内战期间暂停人身保护令、限制言论自由和军事征兵，构成对宪法的侵犯。一些历史学家认为他对奴隶制的立场存在矛盾，早期主要关注限制奴隶制扩张而非立即废除；也有人认为其重建计划过于宽容。',
+      objective: '历史学家普遍认可他在维护国家统一和废除奴隶制方面的贡献，同时客观分析其政策的历史局限。当代研究呈现出更复杂的林肯形象，承认他在种族问题上的矛盾立场。'
+    },
+    quotes: {
+      self: { zh: '民有、民治、民享的政府永世长存。', en: 'Government of the people, by the people, for the people, shall not perish from the earth.' },
+      others: { zh: '林肯是美国历史上最伟大的道德领袖之一，他不仅改变了美国的政治进程，还重塑了美国人的道德想象。', by: '埃里克·方纳' }
+    },
+    sources: [
+      { kind: 'wikipedia', title: 'Abraham Lincoln', url: 'https://en.wikipedia.org/wiki/Abraham_Lincoln', supports: '生平 5 个节点（1809–1865）' },
+      { kind: 'britannica', title: 'Abraham Lincoln', url: 'https://www.britannica.com/biography/Abraham-Lincoln', supports: '总统任期与遇刺' },
+      { kind: 'wikiquote', title: 'Abraham Lincoln', url: 'https://en.wikiquote.org/wiki/Abraham_Lincoln', supports: '葛底斯堡演说引文' }
+    ]
+  },
+  putin: {
+    id: 'vladimir-putin',
+    name: '弗拉基米尔·普京', en: 'Vladimir Putin',
+    nation: '俄罗斯', life: '1952– ', living: true,
+    points: [
+      { y: '1952–1970', t: '童年成长', p: '圣彼得堡' },
+      { y: '1970–1975', t: '法律学习', p: '圣彼得堡' },
+      { y: '1975–1990', t: '克格勃生涯', p: '德累斯顿' },
+      { y: '1990–1996', t: '市政工作', p: '圣彼得堡' },
+      { y: '1996–1999', t: '联邦政府崛起', p: '莫斯科' },
+      { y: '1999–', t: '国家领导人', p: '莫斯科' }
+    ],
+    evaluation: { supporter: '支持者视普京为俄罗斯国家复兴的强人领袖，认为他结束了叶利钦时代的混乱与动荡，恢复了国家稳定与尊严。' },
+    quotes: { self: { zh: '', en: '' }, others: { zh: '', by: '' } },
+    sources: []
+  }
+};
+
+const WARS = {
+  afghan: {
+    id: 'afghan_war',
+    name: '阿富汗战争', en: 'War in Afghanistan',
+    years: '2001–2021', ongoing: false,
+    summary: '阿富汗战争是美国及其盟友于2001年发动的军事行动，旨在推翻塔利班政权并打击基地组织，最终在2021年以美军撤离和塔利班重新掌权结束。',
+    causes: '9·11恐怖袭击事件后，美国认定基地组织藏匿于阿富汗，并得到塔利班政权的支持。',
+    trigger: '2001年9月11日，基地组织对美国发动恐怖袭击，造成大量平民伤亡。',
+    outcome: '塔利班重新控制阿富汗全境。',
+    analysis: '熟悉地形、游击战术有效、民众对腐败政府的不满、美国国内反战情绪高涨；长期战争消耗巨大、战略目标不明确、未能建立稳定政府。',
+    legacy: '美国历史上最长的战争，未能实现稳定阿富汗的目标，反恐战略受挫。',
+    timeline: [
+      { y: '2001', d: '基地组织对美国发动恐怖袭击，造成近 3000 人死亡。' },
+      { y: '2001', d: '美国发动阿富汗战争，推翻塔利班政权。' },
+      { y: '2021', d: '美军撤离，塔利班重新掌权。' }
+    ],
+    sources: [
+      { kind: 'institution', title: '美国国防部报告', supports: '战时兵力与伤亡' },
+      { kind: 'institution', title: '联合国阿富汗援助团报告', supports: '平民伤亡与援助进程' },
+      { kind: 'institution', title: '国际危机组织报告', supports: '政治进程与地方治理' },
+      { kind: 'institution', title: '布鲁金斯学会研究', supports: '战略评估与撤军' }
+    ]
+  },
+  gaza: {
+    id: 'israel-gaza-conflict',
+    name: '巴以冲突（加沙战争）', en: 'Israel-Gaza Conflict',
+    years: '2023– ', ongoing: true,
+    summary: '以色列与巴勒斯坦哈马斯武装组织之间爆发的军事冲突，导致大量人员伤亡和人道主义危机。',
+    causes: '巴以长期领土争端、耶路撒冷地位问题、巴勒斯坦难民回归权、以色列定居点扩张、巴勒斯坦内部分裂等历史遗留问题。',
+    trigger: '2023年10月7日哈马斯对以色列发动突然袭击，造成大量以色列平民和士兵伤亡，并绑架人质。',
+    outcome: '以色列重新控制加沙周边地区，但加沙地带仍由哈马斯实际控制。',
+    analysis: '以色列拥有军事技术优势与更完善的军事体系；哈马斯通过游击战和地道网络持续抵抗。',
+    legacy: '重新引发国际社会对巴以问题的关注，导致加沙人道主义危机。',
+    timeline: [
+      { y: '2023', d: '哈马斯对以色列发动大规模袭击，造成重大人员伤亡。' },
+      { y: '2023', d: '以色列宣布对加沙地带实施全面围困，切断水电、燃料和食品供应。' },
+      { y: '2023', d: '以色列对加沙地带进行大规模空袭，造成大量平民伤亡。' }
+    ],
+    sources: [
+      { kind: 'scholarly', title: 'The Cambridge History of the Modern Middle East', supports: '历史背景与领土争端' },
+      { kind: 'scholarly', title: 'A History of the Modern Middle East', supports: '地区政治脉络' },
+      { kind: 'scholarly', title: 'The Routledge Handbook on the Israeli-Palestinian Conflict', supports: '冲突结构与关键议题' }
+    ]
+  }
+};
+
+const SAMPLES = [
+  { id: 'lincoln', label: '林肯', tag: '人物 · 已故', kind: 'person' },
+  { id: 'putin', label: '普京', tag: '人物 · 在世', kind: 'person' },
+  { id: 'afghan', label: '阿富汗战争', tag: '战争 · 已结束', kind: 'war' },
+  { id: 'gaza', label: '加沙战争', tag: '战争 · 进行中', kind: 'war' }
+];
+
+let mode = 'after';
+let sample = SAMPLES[0];
+
+/* ── 渲染 ──────────────────────────────────────────────────────────────── */
+const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+function badges(entity, isWar) {
+  const level = isWar ? 'R2 · 争议 C1' : (entity.living ? 'R3 · 争议 C2' : 'R3 · 争议 C1');
+  return `<div class="badges">
+    <span class="badge r">${isWar ? '证据 R2' : '证据 R3'}</span>
+    <span class="badge ${entity.living || (isWar && entity.ongoing) ? 'c2' : ''}">${level.split(' · ')[1]}</span>
+    <span class="badge warn">AI 生成</span>
+    <span class="badge warn">未核验</span>
+    <details class="prov-details"><summary>证据与争议等级</summary>
+      <p>证据等级按来源可追溯程度判定：R0 两条以上可核验链接、R1 单条链接、R2 仅文献名、R3 无来源。争议等级：C0 事实共识、C1 细节存疑、C2 立场分歧、C3 定性争议。</p>
+    </details>
+  </div>`;
+}
+
+function basisLine(sources, opts = {}) {
+  const n = sources.length;
+  const label = n ? `依据：文献 ${n} 项` : '依据：模型整理';
+  return `<div class="basis">
+    <button class="basis-chip" data-evidence>${label}</button>
+    ${opts.note ? `<span class="basis-note">${opts.note}</span>` : ''}
+  </div>`;
+}
+
+function evidencePanel(sources, caveat) {
+  const rows = sources.map(s => `
+    <div class="ev-row">
+      <div class="ev-kind">${esc(s.kind)}</div>
+      <div class="ev-main">
+        ${s.url
+          ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a>`
+          : `<span class="nourl">${esc(s.title)}</span>`}
+        <span class="supports">支撑：${esc(s.supports)}</span>
+      </div>
+    </div>`).join('');
+  return `<div class="evidence" hidden>
+    <h5>依据</h5>
+    <p class="lead">${sources.length ? `本卡可回溯到 ${sources.length} 项来源。` : '本卡暂无逐条出处。'}</p>
+    ${rows || ''}
+    <div class="ev-foot">
+      <span class="caveat">${esc(caveat)}</span>
+      <button class="link-btn" data-about>关于页完整声明</button>
+    </div>
+  </div>`;
+}
+
+function personNow(p) {
+  const sections = [];
+  if (p.living) {
+    sections.push(`<section class="block">
+      <h3 class="sec-title">史学评价</h3>
+      <div class="notice">在世人物仅保留事实时间线，不展示评价与语录。</div>
+    </section>
+    <section class="block"><h3 class="sec-title">言论</h3>
+      <div class="notice">在世人物不展示语录。</div></section>`);
+  } else {
+    sections.push(`<section class="block">
+      <h3 class="sec-title">史学评价</h3>
+      <div class="notice">评价与无出处语录由模型生成，默认隐藏。带来源的条目始终显示。</div>
+      <label class="switch"><input type="checkbox" data-reveal="eval" /> 显示未核验内容</label>
+      <p class="empty" data-empty="eval">暂无带来源的评价。</p>
+      <div data-unverified="eval" hidden>
+        <span class="stance">支持者视角</span><p class="body-text">${esc(p.evaluation.supporter)}</p>
+        ${p.evaluation.critic ? `<span class="stance">批评者视角</span><p class="body-text">${esc(p.evaluation.critic)}</p>` : ''}
+        ${p.evaluation.objective ? `<span class="stance">客观评价</span><p class="body-text">${esc(p.evaluation.objective)}</p>` : ''}
+      </div>
+    </section>
+    <section class="block">
+      <h3 class="sec-title">言论<span class="flag">未核验</span></h3>
+      <div class="notice">语录暂无出处，默认隐藏。</div>
+      <label class="switch"><input type="checkbox" data-reveal="quotes" /> 显示未核验内容</label>
+      <div data-unverified="quotes" hidden>
+        ${p.quotes.self.zh ? `<blockquote>${esc(p.quotes.self.zh)}<span>本人语录</span></blockquote>` : ''}
+        ${p.quotes.others.zh ? `<blockquote>${esc(p.quotes.others.zh)}<span>${esc(p.quotes.others.by || '他人评价')}</span></blockquote>` : ''}
+      </div>
+    </section>`);
+  }
+  return `<div class="card"><div class="card-inner">
+    ${badges(p, false)}
+    <p class="name">${esc(p.name)}<small>${esc(p.en)}</small></p>
+    <p class="sub">${esc(p.nation)}<span class="dot">·</span>${esc(p.life)}<span class="dot">·</span>生平 ${p.points.length} 段</p>
+    ${sections.join('')}
+    <div class="card-foot">
+      <span>数据：模型整理</span>
+      <a href="https://zh.wikipedia.org/w/index.php?search=${encodeURIComponent(p.name)}" target="_blank" rel="noopener noreferrer">搜索 Wikipedia ↗</a>
+    </div>
+  </div></div>`;
+}
+
+function personAfter(p) {
+  const hasSources = p.sources.length > 0;
+  const hint = p.living ? `<div class="hintline">仅列生平事实</div>` : '';
+  const appraisals = [p.evaluation.supporter, p.evaluation.critic, p.evaluation.objective].filter(Boolean);
+  const appraisalBlock = p.living ? '' : `<section class="block">
+      <h3 class="sec-title">他人评述</h3>
+      ${appraisals.map(t => `<p class="body-text">${esc(t)}</p>`).join('')}
+      <details class="quotes">
+        <summary>言论（${[p.quotes.self.zh, p.quotes.others.zh].filter(Boolean).length} 则）</summary>
+        <p class="srcgap">出处待补</p>
+        ${p.quotes.self.zh ? `<blockquote>${esc(p.quotes.self.zh)}<span>本人语录</span></blockquote>` : ''}
+        ${p.quotes.others.zh ? `<blockquote>${esc(p.quotes.others.zh)}<span>${esc(p.quotes.others.by || '他人评价')}</span></blockquote>` : ''}
+      </details>
+    </section>`;
+
+  return `<div class="card"><div class="card-inner">
+    ${basisLine(p.sources, { note: hasSources ? '' : '暂无逐条出处' })}
+    <p class="name">${esc(p.name)}<small>${esc(p.en)}</small></p>
+    <p class="sub">${esc(p.nation)}<span class="dot">·</span>${esc(p.life)}<span class="dot">·</span>生平 ${p.points.length} 段</p>
+    ${hint}
+    <section class="block">
+      <h3 class="sec-title">生平</h3>
+      <ol class="timeline">
+        ${p.points.map(x => `<li><span class="yr">${esc(x.y)}</span><div><p class="tt">${esc(x.t)}</p><p class="pl">${esc(x.p)}</p></div></li>`).join('')}
+      </ol>
+    </section>
+    ${appraisalBlock}
+    ${evidencePanel(p.sources, hasSources ? '评价与语录为模型整理，不是逐字引文。' : '该档案尚未挂条目级出处，生平可对照上方条目。')}
+    <div class="card-foot">
+      <span>整理：语言模型</span>
+      <a href="https://zh.wikipedia.org/w/index.php?search=${encodeURIComponent(p.name)}" target="_blank" rel="noopener noreferrer">Wikipedia ↗</a>
+    </div>
+  </div></div>`;
+}
+
+function warNow(w) {
+  const ongoingNote = w.ongoing
+    ? `<div class="notice">进行中的冲突仅呈现已发生事实，不展示结局与胜负分析。</div>` : '';
+  return `<div class="card"><div class="card-inner">
+    ${badges(w, true)}
+    <p class="name">${esc(w.name)}<small>${esc(w.en)}</small></p>
+    <p class="sub">${esc(w.years)}<span class="dot">·</span>${w.ongoing ? '进行中' : '已结束'}</p>
+    <div class="tabs"><span class="on">概况</span><span>进程</span><span>双方</span><span>年表</span></div>
+    ${ongoingNote}
+    <section class="block">
+      <h3 class="sec-title">概述</h3>
+      <p class="body-text">${esc(w.summary)}</p>
+    </section>
+    <section class="block">
+      <h3 class="sec-title">背景</h3>
+      <p class="body-text">${esc(w.causes)}</p>
+      <p class="body-text">${esc(w.trigger)}</p>
+    </section>
+    ${w.ongoing ? '' : `<section class="block">
+      <h3 class="sec-title">结果</h3>
+      <p class="body-text">${esc(w.outcome)}</p>
+      <span class="stance">胜负因素</span><p class="body-text">${esc(w.analysis)}</p>
+    </section>
+    <section class="block">
+      <h3 class="sec-title">历史意义</h3>
+      <p class="body-text">${esc(w.legacy)}</p>
+    </section>`}
+    <div class="card-foot">
+      <span>数据：模型整理</span>
+      <a href="https://zh.wikipedia.org/w/index.php?search=${encodeURIComponent(w.name)}" target="_blank" rel="noopener noreferrer">搜索 Wikipedia ↗</a>
+    </div>
+  </div></div>`;
+}
+
+function warAfter(w) {
+  const hint = w.ongoing ? `<div class="hintline">以已发生事实为限</div>` : '';
+  return `<div class="card"><div class="card-inner">
+    ${basisLine(w.sources)}
+    <p class="name">${esc(w.name)}<small>${esc(w.en)}</small></p>
+    <p class="sub">${esc(w.years)}<span class="dot">·</span>${w.ongoing ? '进行中' : '已结束'}</p>
+    ${hint}
+    <section class="block">
+      <h3 class="sec-title">概述</h3>
+      <p class="body-text">${esc(w.summary)}</p>
+    </section>
+    <section class="block">
+      <h3 class="sec-title">背景</h3>
+      <p class="body-text">${esc(w.causes)}</p>
+      <p class="body-text">${esc(w.trigger)}</p>
+    </section>
+    <section class="block">
+      <h3 class="sec-title">已发生事实</h3>
+      <ol class="timeline">
+        ${w.timeline.map(t => `<li><span class="yr">${esc(t.y)}</span><div><p class="tt">${esc(t.d)}</p></div></li>`).join('')}
+      </ol>
+    </section>
+    ${w.ongoing ? '' : `<section class="block">
+      <h3 class="sec-title">结果<span class="flag">分析</span></h3>
+      <p class="body-text">${esc(w.outcome)}</p>
+      <p class="body-text">${esc(w.legacy)}</p>
+    </section>`}
+    ${evidencePanel(w.sources, w.ongoing ? '结局与胜负判断不在引用范围内。' : '胜负归因为模型分析，不挂单一来源。')}
+    <div class="card-foot">
+      <span>整理：语言模型</span>
+      <a href="https://zh.wikipedia.org/w/index.php?search=${encodeURIComponent(w.name)}" target="_blank" rel="noopener noreferrer">Wikipedia ↗</a>
+    </div>
+  </div></div>`;
+}
+
+function render() {
+  const host = document.getElementById('cardHost');
+  const s = sample;
+  if (s.kind === 'person') {
+    const p = PEOPLE[s.id];
+    host.innerHTML = mode === 'now' ? personNow(p) : personAfter(p);
+  } else {
+    const w = WARS[s.id];
+    host.innerHTML = mode === 'now' ? warNow(w) : warAfter(w);
+  }
+  bindCard();
+}
+
+function bindCard() {
+  document.querySelectorAll('[data-reveal]').forEach(cb => {
+    cb.addEventListener('change', () => {
+      const key = cb.dataset.reveal;
+      const box = document.querySelector(`[data-unverified="${key}"]`);
+      const empty = document.querySelector(`[data-empty="${key}"]`);
+      if (box) box.hidden = !cb.checked;
+      if (empty) empty.hidden = cb.checked;
+    });
+  });
+  document.querySelectorAll('[data-evidence]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const panel = document.querySelector('.evidence');
+      if (panel) panel.hidden = !panel.hidden;
+    });
+  });
+  document.querySelectorAll('[data-about]').forEach(btn => btn.addEventListener('click', openAbout));
+}
+
+/* ── 交互 ──────────────────────────────────────────────────────────────── */
+const chips = document.getElementById('chips');
+SAMPLES.forEach(s => {
+  const b = document.createElement('button');
+  b.className = 'chip';
+  b.dataset.id = s.id;
+  b.innerHTML = `${s.label}<small>${s.tag}</small>`;
+  b.onclick = () => {
+    sample = s;
+    [...chips.children].forEach(c => c.classList.toggle('on', c.dataset.id === s.id));
+    render();
+  };
+  chips.appendChild(b);
+});
+chips.children[0].classList.add('on');
+
+document.querySelectorAll('#modeSeg button').forEach(b => {
+  b.onclick = () => {
+    mode = b.dataset.mode;
+    document.querySelectorAll('#modeSeg button').forEach(x => x.classList.toggle('on', x === b));
+    render();
+  };
+});
+
+const modal = document.getElementById('modal');
+function openAbout() { modal.classList.add('open'); modal.setAttribute('aria-hidden', 'false'); }
+function closeAbout() { modal.classList.remove('open'); modal.setAttribute('aria-hidden', 'true'); }
+document.getElementById('openAbout').onclick = openAbout;
+modal.querySelectorAll('[data-close]').forEach(el => el.onclick = closeAbout);
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeAbout(); });
+
+document.querySelectorAll('#judge button').forEach(b => {
+  b.onclick = () => document.querySelectorAll('#judge button').forEach(x => x.classList.toggle('on', x === b));
+});
+
+render();
+</script>
+</body>
+</html>

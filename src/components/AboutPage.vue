@@ -244,6 +244,7 @@ const sourceLinks = [
         <section>
           <h3 class="cap">{{ c.aiTitle }}</h3>
           <p>{{ c.aiText }}</p>
+          <p>{{ ui.t('about.unreviewedNote') }}</p>
         </section>
 
         <section>

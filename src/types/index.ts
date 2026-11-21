@@ -1,7 +1,7 @@
 import type { CategoryKey } from '@/config';
 
 export type Locale = 'zh' | 'en';
-export type ViewMode = 'explore' | 'compare' | 'atlas';
+export type ViewMode = 'explore' | 'atlas';
 /** How the explore view is drawn: the globe, or the flat map. */
 export type StageMode = '3d' | '2d';
 
@@ -332,6 +332,12 @@ export interface PersonEvaluation {
   critic?: LocalisedText;
   objective?: LocalisedText;
   /**
+   * The three stances above, rewritten as one continuous paragraph. Generated
+   * offline; the three originals are kept so the merge can be checked against
+   * them. Cards prefer this and fall back to the stances when it is absent.
+   */
+  appraisal?: LocalisedText;
+  /**
    * Optional per-view sources. The shipped profiles do not carry any yet, so
    * every appraisal is treated as unsourced and hidden by default. Adding a
    * list here is enough to make that view eligible for display again.
@@ -339,9 +345,16 @@ export interface PersonEvaluation {
   sources?: Partial<Record<'supporter' | 'critic' | 'objective', RawSource[]>>;
 }
 
+/** Where one quote comes from. `paraphrase` marks an editorial rendering. */
+export interface QuoteSource {
+  text: string;
+  url?: string;
+  paraphrase?: boolean;
+}
+
 export interface PersonQuotes {
   self?: LocalisedText;
-  others?: LocalisedText;
+  sources?: { self?: QuoteSource };
 }
 
 /** Full profile from `public/people/profiles/{personId}.json`. */
@@ -357,8 +370,6 @@ export interface PersonProfile {
   points: PersonPoint[];
   evaluation?: PersonEvaluation;
   quotes?: PersonQuotes;
-  othersBy?: string;
-  othersByEn?: string;
   image?: string;
 }
 

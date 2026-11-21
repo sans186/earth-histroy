@@ -151,17 +151,21 @@ export function formatYearCompact(year: number, locale: Locale): string {
  *
  * Both the comparison header and the polity/war cards read the same two fields,
  * so the wording lives here instead of being re-derived at each site; unknown
- * ends print "?" and a one-year span collapses to a single value.
+ * ends print "?" and a one-year span collapses to a single value. `openEnd`
+ * marks a span that runs to the dataset's present, so a modern state reads
+ * "1776 – …" instead of pretending it dissolved in the last recorded year.
  */
 export function formatYearRange(
   from: number | null | undefined,
   to: number | null | undefined,
   locale: Locale,
+  options: { openEnd?: boolean } = {},
 ): string {
   const known = (v: number | null | undefined) => v !== null && v !== undefined;
   const fmt = (v: number | null | undefined) =>
     v === null || v === undefined ? '?' : formatYearCompact(v, locale);
   if (!known(from) && !known(to)) return '—';
+  if (options.openEnd) return `${fmt(from)} – …`;
   if (from === to) return fmt(from);
   return `${fmt(from)} – ${fmt(to)}`;
 }

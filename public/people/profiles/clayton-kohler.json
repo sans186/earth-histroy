@@ -64,7 +64,11 @@
       "descriptionEn": "Shannon lived and worked in various locations across the United States, continuing his research in information theory. His theories have been widely applied in fields such as communication, computer science, biology, and economics. Shannon's work not only transformed the technical field but also had a profound impact on society as a whole."
     }
   ],
-  "evaluation": {
+  "evaluation": {
+    "appraisal": {
+      "zh": "香农被公认为信息论与通信理论的先驱、信息时代的奠基人，其理论为数字通信与存储技术奠定了基础，学界普遍视他为二十世纪最伟大的科学家之一。也有研究者指出，他的理论过于抽象，应用于实际问题时存在困难，并可能导致对技术的过度依赖而忽视人在信息处理中的角色；大众文化则常把他简化为天才科学家的形象。",
+      "en": "Shannon is widely regarded as the pioneer of information theory and communication theory and the founder of the information age, his work laying the foundation for digital communication and storage and earning him recognition as one of the twentieth century's greatest scientists. Some researchers nonetheless note that his theories are highly abstract and hard to apply to practical problems, and may encourage over-reliance on technology while overlooking the human role in information processing; popular culture, meanwhile, tends to simplify him into a genius-scientist image."
+    },
     "supporter": {
       "zh": "香农被誉为信息时代的奠基人，他的信息论工作对现代通信和计算机科学的发展产生了深远的影响。他的理论为数字通信和存储技术的发展奠定了基础，被广泛认为是20世纪最伟大的科学家之一。",
       "en": "Claude Shannon is hailed as the founder of the information age, with his work in information theory having a profound impact on the development of modern communication and computer science. His theories laid the foundation for the development of digital communication and storage technology and are widely considered one of the greatest scientists of the 20th century."
@@ -82,12 +86,6 @@
     "self": {
       "zh": "信息就是差异。",
       "en": "Information is difference."
-    },
-    "others": {
-      "zh": "香农的工作是数学和工程学的完美结合，他对我们理解信息世界的贡献是无法估量的。",
-      "en": "Shannon's work is a perfect blend of mathematics and engineering, and his contribution to our understanding of the information world is immeasurable."
     }
-  },
-  "othersBy": "爱德华·泰勒",
-  "othersByEn": "Edward Taylor"
+  }
 }

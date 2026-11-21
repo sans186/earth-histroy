@@ -95,7 +95,11 @@
       "descriptionEn": "In 1637, Descartes published his important work 'Discourse on Method' (full title 'Discourse on the Method of Rightly Conducting One's Reason and of Seeking Truth in the Sciences') in Leiden, Netherlands. The book included three appendices: 'Geometry,' 'Dioptrics,' and 'Meteorology,' with the 'Geometry' section systematically expounding the ideas of analytic geometry for the first time. In the 'Discourse on Method,' Descartes proposed his famous four methodological principles: 1) Only accept what is clearly and distinctly presented to the mind; 2) Divide complex problems into simple parts; 3) Reason from simple to complex; 4) Examine the reasoning process thoroughly to ensure nothing is omitted. These methods not only influenced philosophy but also profoundly changed the paradigm of scientific research, seen as an important driving force of the Scientific Revolution."
     }
   ],
-  "evaluation": {
+  "evaluation": {
+    "appraisal": {
+      "zh": "笛卡尔被尊为近代哲学之父，其理性主义体系为西方哲学奠定新基础，「我思故我在」确立了主体性在认识论中的核心地位，方法论原则为科学研究提供系统框架，解析几何则推动了数学发展。不过也有研究者指出，其二元论难以解释心物如何相互作用，方法论偏重理性演绎而轻视经验观察，机械论宇宙观后来被牛顿力学与量子力学超越；亦有看法认为其思想并非全然原创，而是融合经院哲学、古代怀疑论与新兴科学方法而成。",
+      "en": "Descartes is honored as the father of modern philosophy: his rationalist system laid a new foundation for Western thought, 'I think, therefore I am' established subjectivity at the center of epistemology, his methodological principles gave scientific inquiry a systematic framework, and analytic geometry advanced mathematics. Yet researchers also point out that his dualism struggles to explain mind-body interaction, that his method favors rational deduction over empirical observation, and that his mechanistic cosmos was later surpassed by Newtonian and quantum mechanics; another view holds that his thought was not wholly original but fused scholastic philosophy, ancient skepticism and the new science."
+    },
     "supporter": {
       "zh": "笛卡尔被誉为'近代哲学之父'，他的理性主义哲学体系为西方哲学奠定了新基础。他提出的'我思故我在'确立了主体性在认识论中的核心地位，开创了以理性为基础的哲学传统。笛卡尔的方法论原则为科学研究提供了系统框架，他的解析几何将代数与几何结合，推动了数学的发展。他的二元论思想虽然受到批评，但启发了后世对心物关系问题的深入探讨。笛卡尔的思想遗产不仅限于哲学领域，还深刻影响了科学、数学和现代认知科学的发展。",
       "en": "Descartes is hailed as the 'father of modern philosophy,' and his rationalist philosophical system laid a new foundation for Western philosophy. His proposition 'I think, therefore I am' established the central position of subjectivity in epistemology,开创ing a philosophical tradition based on reason. Descartes' methodological principles provided a systematic framework for scientific research, and his analytic geometry combined algebra and geometry, advancing mathematical development. Although his dualism has been criticized, it inspired later in-depth explorations of the mind-body problem. Descartes' intellectual legacy extends beyond philosophy, profoundly influencing the development of science, mathematics, and modern cognitive science."
@@ -110,15 +114,12 @@
     }
   },
   "quotes": {
+    "sources": {
+      "self": {"text":"《谈谈方法》第四部分，1637 年"}
+    },
     "self": {
       "zh": "我思故我在。",
       "en": "I think, therefore I am."
-    },
-    "others": {
-      "zh": "笛卡尔是所有现代哲学的源泉，从他的思想中，要么直接产生，要么间接地，我们找到了后来所有哲学体系的元素。",
-      "en": "Descartes is the father of modern philosophy, and all subsequent philosophy is merely a footnote to his work."
     }
-  },
-  "othersBy": "黑格尔",
-  "othersByEn": "Hegel"
+  }
 }

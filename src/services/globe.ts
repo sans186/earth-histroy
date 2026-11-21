@@ -9,8 +9,10 @@ import {
   polityCapForHeight,
 } from '@/config';
 import { bboxIntersects } from '@/lib/geo';
+import { formatYearCompact } from '@/lib/format';
 import { neutralizeModernBoundaries, normalizeModernCountries } from '@/lib/modernBorders';
 import { labelAnchor } from '@/lib/polityScope';
+import type { TrailNode, TrailScene } from '@/lib/trajectory';
 import { fetchJson } from '@/services/http';
 import type { StoryStep } from '@/types/story';
 import type { Locale, PolityFeature, PreparedPolity, TimelineEvent } from '@/types';
@@ -173,6 +175,13 @@ class GlobeEngine {
 
   /** Entities of the open person's route; empty whenever no person is open. */
   private trajectory: Cesium.Entity[] = [];
+  /** Stop record per trail entity id, so a click can open its account card. */
+  private trailNodeIndex = new Map<string, TrailNode>();
+  private trailPopup: HTMLDivElement | null = null;
+  private trailPopupAnchor: Cesium.Cartesian3 | null = null;
+  /** `postRender` listener that keeps the open card on its stop as the camera moves. */
+  private trailPopupTick: (() => void) | null = null;
+  private trailLocale: Locale = 'zh';
 
   /** Entities of the story step's region highlight; removed together on clear. */
   private storyRegionEntities: Cesium.Entity[] = [];
@@ -387,6 +396,9 @@ class GlobeEngine {
     this.sceneHandles.clear();
     this.hovered = null;
     this.storyRegionEntities = [];
+    this.removeTrailPopup();
+    this.trajectory = [];
+    this.trailNodeIndex.clear();
     if (this.viewer && !this.viewer.isDestroyed()) this.viewer.destroy();
     this.viewer = null;
     this.points = null;
@@ -503,6 +515,14 @@ class GlobeEngine {
     click.setInputAction((movement: Cesium.ScreenSpaceEventHandler.PositionedEvent) => {
       const picks = viewer.scene.drillPick(movement.position, 6);
       for (const pick of picks) {
+        // The open route owns the click, exactly as on the flat map.
+        const stop = this.trailNodeFromPick(pick);
+        if (stop) {
+          this.showTrailPopup(stop, movement.position);
+          return;
+        }
+        // Any other target dismisses the open account card.
+        this.removeTrailPopup();
         const ev = this.eventFromPick(pick);
         if (ev) {
           this.callbacks.onPickEvent?.(ev);
@@ -520,6 +540,7 @@ class GlobeEngine {
         }
       }
       // Nothing hit: clear the selection.
+      this.removeTrailPopup();
       this.callbacks.onPickEvent?.(null as unknown as TimelineEvent);
     }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
     this.handlers.push(click);
@@ -583,6 +604,20 @@ class GlobeEngine {
     return null;
   }
 
+  /**
+   * A trail stop, resolved by entity id.
+   *
+   * The stop's record lives in a side table rather than on the entity: Cesium
+   * only hands back the entity from the pick buffer, and a map lookup is cheaper
+   * than custom properties the entity machinery would clone per frame.
+   */
+  private trailNodeFromPick(pick: PickResult | undefined): TrailNode | null {
+    const hit = (pick as { id?: unknown } | undefined)?.id;
+    const key = hit instanceof Cesium.Entity ? String(hit.id) : hit;
+    if (typeof key !== 'string') return null;
+    return this.trailNodeIndex.get(key) ?? null;
+  }
+
   private polityFromPick(pick: PickResult | undefined): PolityHandle | null {
     if (!pick) return null;
     const entity = (pick as { id?: unknown }).id;
@@ -622,7 +657,8 @@ class GlobeEngine {
      */
     const pick = viewer.scene.pick(position) as PickResult | undefined;
 
-    const event = this.eventFromPick(pick);
+    const stop = this.trailNodeFromPick(pick);
+    const event = stop ? null : this.eventFromPick(pick);
     const polity = event ? null : this.polityFromPick(pick);
     const warId = event || polity ? null : this.warFromPick(pick);
 
@@ -637,7 +673,7 @@ class GlobeEngine {
         categoryVar: `--cat-${event.category}`,
       });
     } else {
-      viewer.scene.canvas.style.cursor = polity || warId ? 'pointer' : 'default';
+      viewer.scene.canvas.style.cursor = stop || polity || warId ? 'pointer' : 'default';
       this.callbacks.onHoverEvent?.(null);
     }
 
@@ -799,31 +835,36 @@ class GlobeEngine {
   /**
    * The path of one life, drawn only while that person's card is open.
    *
-   * The coordinates were already in `people/profiles/*.json` and summarised into
-   * `coords.json`; nothing ever drew them, so a "轨迹" was a list of places the
-   * reader had to fly to one at a time. Consecutive stages frequently share a
-   * city (Ada Lovelace never left London), so the caller collapses duplicates
-   * and the line only spans the stages that actually moved.
+   * The model has already applied the time cursor, so a leg that started before
+   * the cursor and ends after it arrives shortened. Colour and node size travel
+   * on each item, which is what lets a single life ramp from early to late and a
+   * comparison give each person their own colour.
    */
-  renderTrajectory(stops: Array<{ lon: number; lat: number }>) {
+  renderTrajectory(scene: TrailScene | null, locale: Locale = 'zh') {
+    this.trailLocale = locale;
     const viewer = this.viewer;
     if (!viewer) return;
     this.clearTrajectory();
-    if (!stops.length) return;
+    if (!scene) return;
 
-    const accent = Cesium.Color.fromCssColorString(css('--rust', '#b0522d'));
     const paper = Cesium.Color.fromCssColorString(css('--paper', '#f7f5f0'));
 
-    if (stops.length > 1) {
-      const flat: number[] = [];
-      for (const stop of stops) flat.push(stop.lon, stop.lat, BOUNDARY_ALTITUDE);
+    for (const segment of scene.segments) {
+      const color = Cesium.Color.fromCssColorString(segment.color).withAlpha(0.85);
       this.trajectory.push(
         viewer.entities.add({
           polyline: {
-            positions: Cesium.Cartesian3.fromDegreesArrayHeights(flat),
-            width: 2,
+            positions: Cesium.Cartesian3.fromDegreesArrayHeights([
+              segment.coords[0][0],
+              segment.coords[0][1],
+              BOUNDARY_ALTITUDE,
+              segment.coords[1][0],
+              segment.coords[1][1],
+              BOUNDARY_ALTITUDE,
+            ]),
+            width: 2.4,
             material: new Cesium.PolylineGlowMaterialProperty({
-              color: accent.withAlpha(0.8),
+              color,
               glowPower: 0.1,
             }),
             /*
@@ -837,14 +878,34 @@ class GlobeEngine {
       );
     }
 
-    for (const stop of stops) {
+    for (const node of scene.nodes) {
+      const id = `trail:${node.personId}:${node.index}:${node.year}`;
+      this.trailNodeIndex.set(id, node);
       this.trajectory.push(
         viewer.entities.add({
-          position: Cesium.Cartesian3.fromDegrees(stop.lon, stop.lat, BOUNDARY_ALTITUDE),
+          id,
+          position: Cesium.Cartesian3.fromDegrees(node.lon, node.lat, BOUNDARY_ALTITUDE),
           point: {
-            pixelSize: 7,
-            color: accent,
+            pixelSize: Math.round(node.radius * 1.2),
+            color: Cesium.Color.fromCssColorString(node.color),
+            // Heavier rim than an event dot, so a station never reads as one.
             outlineColor: paper,
+            outlineWidth: 3,
+            disableDepthTestDistance: Number.POSITIVE_INFINITY,
+          },
+        }),
+      );
+    }
+
+    for (const head of scene.heads) {
+      const color = Cesium.Color.fromCssColorString(head.color);
+      this.trajectory.push(
+        viewer.entities.add({
+          position: Cesium.Cartesian3.fromDegrees(head.lon, head.lat, BOUNDARY_ALTITUDE),
+          point: {
+            pixelSize: 14,
+            color: color.withAlpha(0.28),
+            outlineColor: color,
             outlineWidth: 2,
             disableDepthTestDistance: Number.POSITIVE_INFINITY,
           },
@@ -854,10 +915,123 @@ class GlobeEngine {
   }
 
   clearTrajectory() {
+    this.removeTrailPopup();
+    this.trailNodeIndex.clear();
     const viewer = this.viewer;
     if (!viewer) return;
     for (const entity of this.trajectory) viewer.entities.remove(entity);
     this.trajectory = [];
+  }
+
+  /**
+   * The account card for a clicked stop.
+   *
+   * A DOM node over the canvas rather than a Cesium `InfoBox`: the viewer runs
+   * without one, and this card has to look like the flat map's popup and the
+   * lifeline's tooltip. `postRender` re-projects the stop every frame, so the
+   * card stays pinned to it while the camera turns.
+   */
+  private showTrailPopup(node: TrailNode, screen?: Cesium.Cartesian2) {
+    const viewer = this.viewer;
+    if (!viewer) return;
+    this.removeTrailPopup();
+
+    const en = this.trailLocale === 'en';
+    const who = en ? node.personNameEn || node.personName : node.personName;
+    const place = en ? node.placeEn || node.place : node.place;
+    const title = en ? node.titleEn || node.title : node.title;
+    const from = formatYearCompact(node.year, this.trailLocale);
+    const years =
+      node.yearEnd === node.year ? from : `${from} – ${formatYearCompact(node.yearEnd, this.trailLocale)}`;
+    const span = Math.max(0, node.yearEnd - node.year);
+    const meta = span > 0 ? `${years} · ${en ? `${span} yr` : `停留 ${span} 年`}` : years;
+
+    const card = document.createElement('div');
+    card.className = 'globe-trail-popup';
+    card.style.cssText = [
+      'position:absolute',
+      'transform:translate(-50%,-100%)',
+      'z-index:6',
+      'max-width:270px',
+      'padding:8px 26px 9px 10px',
+      'background:var(--card,#fdfcf9)',
+      'border:1px solid var(--rule-2,#cfc6b4)',
+      'box-shadow:0 8px 22px rgba(20,20,20,.18)',
+      'font-size:12px',
+      'line-height:1.55',
+      'color:var(--ink-2,#3f4145)',
+    ].join(';');
+
+    const line = (text: string | undefined, style: string) => {
+      if (!text) return;
+      const el = document.createElement('div');
+      el.style.cssText = style;
+      el.textContent = text;
+      card.append(el);
+    };
+    line(meta, 'font-size:11px;letter-spacing:.05em;color:#8a7a5c');
+    line(who, `font-size:11px;margin-top:2px;color:${node.color}`);
+    line(place, 'font-weight:600;font-size:13px;margin:2px 0 3px;color:var(--ink,#1a1c20)');
+    line(title, 'color:#63666b');
+
+    const close = document.createElement('button');
+    close.type = 'button';
+    close.textContent = '×';
+    close.setAttribute('aria-label', en ? 'Close' : '关闭');
+    close.style.cssText =
+      'position:absolute;top:2px;right:4px;padding:0 4px;font-size:15px;line-height:1.4;color:#8a7a5c;background:transparent;border:0;cursor:pointer';
+    close.addEventListener('click', () => this.removeTrailPopup());
+    card.append(close);
+
+    viewer.container.append(card);
+    this.trailPopup = card;
+    this.trailPopupAnchor = Cesium.Cartesian3.fromDegrees(node.lon, node.lat, BOUNDARY_ALTITUDE);
+    this.positionTrailPopup(screen);
+
+    const tick = () => this.positionTrailPopup();
+    this.trailPopupTick = tick;
+    viewer.scene.postRender.addEventListener(tick);
+  }
+
+  private positionTrailPopup(fallback?: Cesium.Cartesian2) {
+    const card = this.trailPopup;
+    if (!card) return;
+    const viewer = this.viewer;
+    const at =
+      viewer && this.trailPopupAnchor
+        ? Cesium.SceneTransforms.worldToWindowCoordinates(viewer.scene, this.trailPopupAnchor)
+        : fallback;
+    if (!at) {
+      card.style.display = 'none';
+      return;
+    }
+    card.style.display = '';
+    card.style.left = `${Math.round(at.x)}px`;
+    card.style.top = `${Math.round(at.y - 14)}px`;
+  }
+
+  private removeTrailPopup() {
+    const viewer = this.viewer;
+    if (this.trailPopupTick && viewer && !viewer.isDestroyed()) {
+      viewer.scene.postRender.removeEventListener(this.trailPopupTick);
+    }
+    this.trailPopupTick = null;
+    this.trailPopup?.remove();
+    this.trailPopup = null;
+    this.trailPopupAnchor = null;
+  }
+
+  /**
+   * Frame the walked ground. Heights are a rough fit: a life that crossed an
+   * ocean needs a globe-wide view, one that stayed in a city needs a regional one.
+   */
+  fitTrail(bounds: [[number, number], [number, number]]) {
+    const [[west, south], [east, north]] = bounds;
+    const lon = (west + east) / 2;
+    const lat = (south + north) / 2;
+    const span = Math.max(6, Math.abs(east - west), Math.abs(north - south));
+    const height = Math.min(12_000_000, Math.max(700_000, span * 111_000 * 2.4));
+    this.flyTo(lon, lat, height);
   }
 
   /* ── story region ─────────────────────────────────────────────────────── */

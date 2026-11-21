@@ -58,8 +58,7 @@ const PERSON_TEMPLATE = {
     title: '…', titleEn: '…', description: '…', descriptionEn: '…',
   }],
   evaluation: { supporter: { zh: '…', en: '…' }, critic: { zh: '…', en: '…' }, objective: { zh: '…', en: '…' } },
-  quotes: { self: { zh: '…', en: '…' }, others: { zh: '…', en: '…' } },
-  othersBy: '…', othersByEn: '…',
+  quotes: { self: { zh: '…', en: '…' } },
 };
 
 const WAR_TEMPLATE = {
@@ -122,14 +121,12 @@ function normalisePerson(p, spec) {
   p.era ||= (p.birth < 500 ? '古代' : p.birth < 1500 ? '中古' : p.birth < 1800 ? '近世' : '近现代');
   for (const section of ['evaluation', 'quotes']) {
     p[section] ||= {};
-    for (const k of section === 'evaluation' ? ['supporter', 'critic', 'objective'] : ['self', 'others']) {
+    for (const k of section === 'evaluation' ? ['supporter', 'critic', 'objective'] : ['self']) {
       p[section][k] ||= { zh: '', en: '' };
       p[section][k].zh ||= '';
       p[section][k].en ||= '';
     }
   }
-  p.othersBy ||= '';
-  p.othersByEn ||= '';
   return p;
 }
 

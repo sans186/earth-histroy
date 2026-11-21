@@ -81,7 +81,11 @@
       "descriptionEn": "In 1696, Newton moved to London to become Warden of the Royal Mint, and was promoted to Master in 1699. In this position, he reformed England's currency system, oversaw the recoinage of currency, and vigorously prosecuted counterfeiters. In 1703, Newton was elected President of the Royal Society, a position he held for 24 years until his death, profoundly influencing the society. In his later years, Newton devoted more energy to theological and alchemical research, writing numerous works on these subjects. On March 31, 1727, Newton died in Kensington, London, and was given a state funeral at Westminster Abbey, becoming the first scientist to receive such honor. Although Newton's public service took him away from scientific research, his contributions to British science and the monetary system were equally significant."
     }
   ],
-  "evaluation": {
+  "evaluation": {
+    "appraisal": {
+      "zh": "牛顿被公认为科学史上最伟大的人物之一，三大运动定律与万有引力定律重塑了人类对宇宙的理解，他作为微积分创始人之一提供了描述自然的数学工具，《自然哲学的数学原理》的影响延续三个多世纪，其强调实验验证与数学推理结合的方法为现代科学奠定基础。不过也有研究者指出，他大量投入炼金术与神学研究，在光学上坚持粒子说而反对波动说后被证明有误，与胡克、莱布尼茨的优先权之争也显出不够宽容的一面，在铸币厂任上对伪币制造者的镇压亦被一些人视为过严。总体而言，他既是科学革命的象征与理性主义的文化偶像，其复杂性也折射出科学发展的曲折。",
+      "en": "Newton is widely acknowledged as one of the greatest figures in the history of science: his three laws of motion and law of universal gravitation reshaped humanity's understanding of the universe, his co-founding of calculus supplied the mathematical tools for describing nature, and the influence of the Principia has lasted more than three centuries, while his method combining experimental verification with mathematical reasoning laid the groundwork for modern science. Yet some researchers note that he devoted much time to alchemy and theology, that his insistence on the particle theory of light against the wave theory was later shown to be mistaken, that his priority disputes with Hooke and Leibniz revealed a less generous side, and that his harsh suppression of counterfeiters at the Mint has been seen by some as excessive. On the whole he stands as a symbol of the Scientific Revolution and a cultural icon of rationalism, whose complexity also reflects the twists and turns of scientific progress."
+    },
     "supporter": {
       "zh": "牛顿被科学界誉为最伟大的科学家之一，他的三大运动定律和万有引力定律彻底改变了人类对宇宙的理解。作为微积分的创始人之一，他提供了描述自然现象的数学工具。牛顿的科学方法强调实验验证和数学推理的结合，为现代科学奠定了方法论基础。他的《自然哲学的数学原理》被视为科学史上最具影响力的著作之一，其影响力持续了三个多世纪。牛顿不仅是一位科学家，还是一位杰出的实验家和理论家，他的工作代表了人类理性思维的巅峰。",
       "en": "Newton is regarded by the scientific community as one of the greatest scientists in history. His three laws of motion and law of universal gravitation revolutionized humanity's understanding of the universe. As a co-inventor of calculus, he provided mathematical tools for describing natural phenomena. Newton's scientific method, emphasizing the combination of experimental verification and mathematical reasoning, laid the foundation for modern scientific methodology. His 'Principia Mathematica' stands as one of the most influential works in scientific history, with its impact lasting over three centuries. Newton was not only a scientist but also an exceptional experimentalist and theoretician, whose work represents the pinnacle of human rational thought."
@@ -96,15 +100,12 @@
     }
   },
   "quotes": {
+    "sources": {
+      "self": {"text":"致罗伯特·胡克信，1675 年 2 月 5 日"}
+    },
     "self": {
       "zh": "如果我看得更远，那是因为我站在巨人的肩膀上。",
       "en": "If I have seen further, it is by standing on the shoulders of giants."
-    },
-    "others": {
-      "zh": "自然与自然规律都隐藏在黑暗之中，上帝说：让牛顿来吧！于是一切光明。",
-      "en": "Nature and nature's laws lay hid in night; God said, Let Newton be! and all was light."
     }
-  },
-  "othersBy": "亚历山大·蒲柏",
-  "othersByEn": "Alexander Pope"
+  }
 }

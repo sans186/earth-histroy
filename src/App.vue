@@ -2,18 +2,25 @@
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue';
 import { INITIAL_VIEW, YEAR_MIN, YEAR_MAX } from '@/config';
 import { STORIES } from '@/data/stories';
-import type { CompareSubject } from '@/lib/compare';
 import type { EventRef } from '@/lib/eventLinks';
 import { makePolityScope, withRecordedSpan, type PolityScope } from '@/lib/polityScope';
+import { buildTrailScene, recordedSpan } from '@/lib/trajectory';
+import { MOBILE_NOTICE_QUERY } from '@/lib/viewport';
 import type { StoryStep, Story } from '@/types/story';
 import { useGlobeData } from '@/composables/useGlobeData';
 import {
   findEventById,
   findPolityLifecycle,
   loadPlaceHistory,
+  loadPolityFile,
+  loadPolityIndex,
   loadPolityLifecycles,
+  loadPolityNames,
   NE_FILES,
+  pickCenturyFiles,
 } from '@/services/data';
+import { polityKey } from '@/lib/polityKey';
+import type { SearchHit } from '@/lib/search';
 import { globe } from '@/services/globe';
 import { map2d } from '@/services/map2d';
 import { useLayersStore } from '@/stores/layers';
@@ -25,14 +32,17 @@ import type { PolityFeature, StageMode, TimelineEvent } from '@/types';
 import AppHead from './components/AppHead.vue';
 import AboutPage from './components/AboutPage.vue';
 import AtlasBoard from './components/AtlasBoard.vue';
-import CompareBoard from './components/CompareBoard.vue';
 import EventCard from './components/EventCard.vue';
 import ErrorNotice from './components/ErrorNotice.vue';
 import GlobeStage from './components/GlobeStage.vue';
 import MapStage from './components/MapStage.vue';
+import MobileNotice from './components/MobileNotice.vue';
 import PersonCard from './components/PersonCard.vue';
+import PersonTrajectory from './components/PersonTrajectory.vue';
 import PolityCard from './components/PolityCard.vue';
+import SearchPanel from './components/SearchPanel.vue';
 import SidePanel from './components/SidePanel.vue';
+import SettingsDrawer from './components/SettingsDrawer.vue';
 import StoryPicker from './components/StoryPicker.vue';
 import StoryPlayer from './components/StoryPlayer.vue';
 import TimeScale from './components/TimeScale.vue';
@@ -66,6 +76,31 @@ const playerRef = ref<InstanceType<typeof StoryPlayer> | null>(null);
 let arrivingFromTransition = false;
 /** Data sources, licences and the AI-content disclaimer. */
 const aboutOpen = ref(false);
+/** The full-screen life-trail overlay, opened from the person card. */
+const trailOpen = ref(false);
+/** The unified settings drawer; it replaced the side panel's「图层」tab. */
+const settingsOpen = ref(false);
+/** The site-wide search palette, opened from the header. */
+const searchOpen = ref(false);
+
+/**
+ * Narrow touch screens get a notice instead of the atlas.
+ *
+ * A desktop window may be just as narrow but still has a fine pointer, so the
+ * query requires both — see `lib/viewport.ts`.
+ */
+const mobileNotice = ref(false);
+let mobileQuery: MediaQueryList | null = null;
+
+function onMobileQueryChange(event: MediaQueryListEvent) {
+  mobileNotice.value = event.matches;
+}
+
+/** About now lives inside the drawer, so opening it puts the drawer away first. */
+function openAboutFromSettings() {
+  settingsOpen.value = false;
+  aboutOpen.value = true;
+}
 /** Year and camera to put back when the story closes. */
 let storyReturn: {
   year: number;
@@ -115,9 +150,6 @@ async function widenPolitySpan(scope: PolityScope) {
   if (ui.polityScope?.key !== scope.key) return;
   ui.setPolityScope(withRecordedSpan(scope, life.firstYear, life.lastYear));
 }
-/** Either column can hold a region or a polity pinned from the map. */
-const subjectA = ref<CompareSubject>({ kind: 'region', id: 'eastAsia' });
-const subjectB = ref<CompareSubject>({ kind: 'region', id: 'mediterranean' });
 const bordersLoaded = ref(false);
 
 /**
@@ -132,22 +164,6 @@ let deepLinkCamera: { lon: number; lat: number } | null = null;
  * flown to from `onStageReady`.
  */
 let restoreCamera: { lon: number; lat: number; height?: number; zoom?: number } | null = null;
-
-/**
- * Which comparison column already holds the open polity.
- *
- * The card's two buttons used to look like a mode switch; showing "already in
- * column A" is what makes them read as "put this polity there".
- */
-const pinnedSide = computed<'A' | 'B' | null>(() => {
-  const name = selectedPolity.value?.properties?.Name;
-  if (!name) return null;
-  const holds = (subject: CompareSubject) =>
-    subject.kind === 'polity' && subject.feature.properties?.Name === name;
-  if (holds(subjectA.value)) return 'A';
-  if (holds(subjectB.value)) return 'B';
-  return null;
-});
 
 /* ── derived ───────────────────────────────────────────────────────────── */
 
@@ -436,16 +452,6 @@ function onScopeToPolity() {
   if (ui.scopeToPolity) panelCollapsed.value = false;
 }
 
-function onPinPolity(side: 'A' | 'B') {
-  const feature = selectedPolity.value;
-  if (!feature) return;
-  const subject: CompareSubject = { kind: 'polity', feature };
-  if (side === 'A') subjectA.value = subject;
-  else subjectB.value = subject;
-  selectedPolity.value = null;
-  ui.view = 'compare';
-}
-
 /**
  * Load the modern borders on first use, then apply the current switch state.
  *
@@ -467,12 +473,13 @@ async function ensureBorders() {
 
 function paintWars() {
   if (!globeReady.value) return;
-  const all = wars.located;
-  // With the layer off, the war the reader is currently looking at still stays
-  // plotted — otherwise opening a war would show a card with no marker.
-  const list = layers.showWars
-    ? all
-    : all.filter((w) => w.warId === wars.selectedId);
+  // Only the wars running in the current year are plotted; the open war is
+  // always kept, so opening one from the panel never shows a card with no
+  // marker after the year has moved past its span. With the layer off, the
+  // open war is the only thing that stays.
+  const list = layers.showWars ? [...wars.locatedThisYear] : [];
+  const open = wars.located.find((w) => w.warId === wars.selectedId);
+  if (open && !list.some((w) => w.warId === open.warId)) list.push(open);
   if (!list.length) {
     globe.clearWars();
     return;
@@ -493,6 +500,76 @@ function flyToTheatre(warId: string) {
   flyTo(loc.lon, loc.lat, 3_200_000);
 }
 
+/* ── search results ────────────────────────────────────────────────────── */
+
+/** Open an event by id, reusing the card's normal entry point. */
+async function openSearchEvent(id: string) {
+  const found = await findEventById(id, ui.locale);
+  if (!found) return;
+  jumpToYear(found.year);
+  onPickEvent(found);
+}
+
+/** Open a person, dismissing the card when the id is not in the shipped data. */
+async function openSearchPerson(id: string) {
+  await people.openPerson(id);
+  if (!people.profile) people.closePerson();
+}
+
+/** Open a war, after checking the id against the war index. */
+async function openSearchWar(id: string) {
+  await wars.ensureIndex();
+  if (!wars.index.some((war) => war.warId === id)) return;
+  onPickWar(id);
+}
+
+/**
+ * Open a polity card by its lifecycle key.
+ *
+ * The tile that owns the requested year carries the geometry, so the century
+ * file for that year is searched for a feature with the same normalised name.
+ * Lifecycle keys and feature names come from the same source, so this is a
+ * lookup rather than a fuzzy match.
+ */
+async function openSearchPolity(name: string, year: number): Promise<boolean> {
+  if (!Object.keys(data.polityNames.value).length) {
+    try {
+      data.polityNames.value = await loadPolityNames();
+    } catch {
+      // Names are decorative; the English key still identifies the polity.
+    }
+  }
+  const target = polityKey(name);
+  const index = await loadPolityIndex();
+  const candidates = pickCenturyFiles(index, year);
+  const current = candidates.find((entry) => year >= entry.start && year < entry.end);
+  const ordered = current
+    ? [current, ...candidates.filter((entry) => entry !== current)]
+    : candidates;
+  for (const entry of ordered) {
+    const collection = await loadPolityFile(entry, 'lod');
+    const feature = collection?.features.find(
+      (candidate) => polityKey(candidate.properties?.Name ?? '') === target,
+    );
+    if (!feature) continue;
+    jumpToYear(year);
+    onPickPolity(feature);
+    return true;
+  }
+  return false;
+}
+
+/** The search palette picked a row: move the clock, then open its card. */
+async function onSearchSelect(hit: SearchHit) {
+  searchOpen.value = false;
+  const { id, type, year } = hit.item;
+  if (year !== null) jumpToYear(year);
+  if (type === 'event') await openSearchEvent(id);
+  else if (type === 'person') await openSearchPerson(id);
+  else if (type === 'war') await openSearchWar(id);
+  else await openSearchPolity(id, year ?? timeline.year);
+}
+
 /** Fly to a life stage of the open person. */
 function flyToStage(at: { lon: number; lat: number }) {
   flyTo(at.lon, at.lat, 900_000);
@@ -501,32 +578,58 @@ function flyToStage(at: { lon: number; lat: number }) {
 /**
  * Draw the open person's route.
  *
- * The coordinates were always in the profile; nothing drew them, so "轨迹" meant
- * a list of places the card could fly to one at a time. Consecutive stages often
- * share a city (Ada Lovelace never left London), so repeats are collapsed before
- * drawing — otherwise the line has no shape and the nodes pile up.
+ * The year is the app's own cursor: the route grows as the reader drags the
+ * scale, so borders, events and footprints are always from the same moment.
+ * A leg that straddles the cursor is drawn halfway rather than hidden.
  */
-function paintTrajectory() {
-  const points = [...(people.profile?.points ?? [])].sort((a, b) => a.year - b.year);
-  const stops: Array<{ lon: number; lat: number }> = [];
-  let last = '';
-  for (const point of points) {
-    if (!point.coords) continue;
-    const [lon, lat] = point.coords;
-    const key = `${lon.toFixed(2)},${lat.toFixed(2)}`;
-    if (key === last) continue;
-    stops.push({ lon, lat });
-    last = key;
-  }
+function paintTrajectory(focus = false) {
+  const profile = people.profile;
+  const subjects = profile
+    ? [
+        {
+          personId: profile.personId,
+          points: profile.points,
+          name: profile.name,
+          nameEn: profile.nameEn,
+        },
+        ...people.trailCompare.map((person) => ({
+          personId: person.personId,
+          points: person.points,
+          name: person.name,
+          nameEn: person.nameEn,
+        })),
+      ]
+    : [];
+  const scene = subjects.length ? buildTrailScene(subjects, timeline.year) : null;
 
-  if (!stops.length) {
-    globe.clearTrajectory();
-    map2d.clearTrajectory();
+  if (ui.stage === '3d') globe.renderTrajectory(scene, ui.locale);
+  else map2d.renderTrajectory(scene);
+
+  if (!scene?.bounds) {
+    framedTrail = null;
     return;
   }
-  if (ui.stage === '3d') globe.renderTrajectory(stops);
-  else map2d.renderTrajectory(stops);
+
+  const trailKey = subjects.map((subject) => subject.personId).join('|');
+  const isNew = focus || framedTrail !== trailKey;
+  if (!isNew) return;
+  framedTrail = trailKey;
+
+  if (ui.stage === '3d') {
+    globe.fitTrail(scene.bounds);
+  } else {
+    map2d.fitTrail(scene.bounds, {
+      top: 90,
+      // Leave the drawer and the time scale clear of the framed ground.
+      bottom: Math.round(window.innerHeight * (trailOpen.value ? 0.46 : 0.1)),
+      left: 376,
+      right: 90,
+    });
+  }
 }
+
+/** Person whose route the camera was last framed for. */
+let framedTrail: string | null = null;
 
 /* ── watchers ──────────────────────────────────────────────────────────── */
 
@@ -606,7 +709,7 @@ watch(
 );
 
 watch(
-  () => wars.located,
+  () => wars.locatedThisYear,
   () => paintWars(),
 );
 
@@ -685,8 +788,42 @@ watch(aboutOpen, (open) => {
  * between the globe and the flat map — the two renderers keep separate scenes,
  * so a route painted in one is invisible in the other.
  */
-watch(() => people.profile, paintTrajectory);
-watch(() => ui.stage, paintTrajectory);
+watch(
+  () => people.profile,
+  (profile) => {
+    if (profile) {
+      const [first, last] = recordedSpan(profile.points);
+      // A life that has not started yet at the current year would draw nothing.
+      if (last !== 0 && (timeline.year < first || timeline.year > last)) {
+        timeline.setYear(last);
+      }
+    }
+    framedTrail = null;
+    paintTrajectory(true);
+  },
+);
+watch(
+  () => people.trailCompare.map((person) => person.personId).join('|'),
+  () => {
+    // A comparison the current year predates would draw nothing; show its end.
+    const lasts = people.trailCompare
+      .map((person) => recordedSpan(person.points)[1])
+      .filter((year) => year !== 0);
+    if (lasts.length && timeline.year < Math.min(...lasts)) {
+      timeline.setYear(Math.max(...lasts));
+    }
+    framedTrail = null;
+    paintTrajectory(true);
+  },
+);
+watch(
+  () => ui.stage,
+  () => paintTrajectory(true),
+);
+// The trail grows with the shared year, like the borders and the events.
+watch(() => timeline.year, () => paintTrajectory());
+// The drawer changes how much of the viewport the route has to stay above.
+watch(trailOpen, () => paintTrajectory(true));
 
 watch(
   () => ui.locale,
@@ -702,9 +839,21 @@ function onKeydown(event: KeyboardEvent) {
   const target = event.target as HTMLElement | null;
   if (target && (target.tagName === 'INPUT' || target.tagName === 'SELECT')) return;
 
+  // The search palette owns the keyboard while it is open.
+  if (searchOpen.value) {
+    if (event.key === 'Escape') searchOpen.value = false;
+    return;
+  }
+
   // The About overlay owns the keyboard while it is open.
   if (aboutOpen.value) {
     if (event.key === 'Escape') aboutOpen.value = false;
+    return;
+  }
+
+  // The settings drawer closes on Escape before anything else reacts.
+  if (settingsOpen.value) {
+    if (event.key === 'Escape') settingsOpen.value = false;
     return;
   }
 
@@ -746,6 +895,13 @@ function onGlobalPointerDown(event: PointerEvent) {
   if (!target) return;
   // The About overlay has its own close affordances.
   if (aboutOpen.value) return;
+  // The trail overlay covers the whole viewport and has its own dismissals;
+  // letting this run would close the card underneath it and take the trail with it.
+  if (trailOpen.value) return;
+  // The settings drawer sits above the cards; a click inside it is not a dismissal.
+  if (settingsOpen.value) return;
+  // The search palette has its own veil and dismissal.
+  if (searchOpen.value) return;
   // A click inside a card belongs to that card.
   if (target.closest('.card')) return;
 
@@ -772,15 +928,34 @@ function onPlaceLocate(at: { lon: number; lat: number }) {
 }
 
 /**
- * `?place=<id>&year=<year>` — the shareable form of "this place, this year".
+ * Restore a shared state from the URL.
  *
- * The place list is the authority on coordinates, so the id is resolved there
- * rather than duplicated in the URL.
+ * Parameters: `year`, `view` (explore/atlas), `stage` (3d/2d), `event`,
+ * `person`, `war`, `polity`, `place`. Unknown values are ignored, so a broken
+ * link still lands on the default view. Cards open only after the year is set.
  */
 async function applyDeepLink() {
   const params = new URLSearchParams(window.location.search);
+
+  const view = params.get('view');
+  if (view === 'explore' || view === 'atlas') ui.setView(view);
+  const stage = params.get('stage');
+  if (stage === '3d' || stage === '2d') ui.setStage(stage);
+
   const yearRaw = params.get('year');
   if (yearRaw && /^-?\d+$/.test(yearRaw)) jumpToYear(Number(yearRaw));
+
+  const eventId = params.get('event');
+  if (eventId) await openSearchEvent(eventId);
+
+  const personId = params.get('person');
+  if (personId) await openSearchPerson(personId);
+
+  const warId = params.get('war');
+  if (warId) await openSearchWar(warId);
+
+  const polity = params.get('polity');
+  if (polity) await openSearchPolity(polity, timeline.year);
 
   const id = params.get('place');
   if (!id) return;
@@ -793,36 +968,90 @@ async function applyDeepLink() {
   else deepLinkCamera = { lon: city.lon, lat: city.lat };
 }
 
-// Keep the address bar shareable without adding a router for two parameters.
+/**
+ * Mirror the shareable state into the address bar.
+ *
+ * `replaceState`, never `pushState`: scrubbing the timeline or opening a card
+ * should not fill the back button with intermediate frames.
+ */
+function syncUrl() {
+  const url = new URL(window.location.href);
+  const params = url.searchParams;
+  params.set('year', String(timeline.year));
+  params.set('view', ui.view);
+  params.set('stage', ui.stage);
+
+  const eventId = ui.selectedEvent?.key ?? null;
+  if (eventId) params.set('event', eventId);
+  else params.delete('event');
+
+  if (people.selectedId) params.set('person', people.selectedId);
+  else params.delete('person');
+
+  if (wars.selectedId) params.set('war', wars.selectedId);
+  else params.delete('war');
+
+  const polity = ui.polityScope?.key ?? null;
+  if (polity) params.set('polity', polity);
+  else params.delete('polity');
+
+  if (ui.placeFocus) params.set('place', ui.placeFocus.id);
+  else params.delete('place');
+
+  window.history.replaceState(null, '', url);
+}
+
+/** URL mirroring waits until the incoming link has been applied. */
+let urlSyncReady = false;
+
 watch(
-  () => ui.placeFocus,
-  (focus) => {
-    const url = new URL(window.location.href);
-    if (focus) url.searchParams.set('place', focus.id);
-    else url.searchParams.delete('place');
-    window.history.replaceState(null, '', url);
+  () => [
+    timeline.year,
+    ui.view,
+    ui.stage,
+    ui.selectedEvent?.key ?? null,
+    people.selectedId,
+    wars.selectedId,
+    ui.polityScope?.key ?? null,
+    ui.placeFocus?.id ?? null,
+  ] as const,
+  () => {
+    if (urlSyncReady) syncUrl();
   },
 );
 
 onMounted(() => {
   window.addEventListener('keydown', onKeydown);
   window.addEventListener('pointerdown', onGlobalPointerDown, true);
-  void applyDeepLink();
+  mobileQuery = window.matchMedia(MOBILE_NOTICE_QUERY);
+  mobileNotice.value = mobileQuery.matches;
+  mobileQuery.addEventListener('change', onMobileQueryChange);
+  void applyDeepLink()
+    .catch(() => undefined)
+    .finally(() => {
+      urlSyncReady = true;
+      syncUrl();
+    });
 });
 onBeforeUnmount(() => {
   window.removeEventListener('keydown', onKeydown);
   window.removeEventListener('pointerdown', onGlobalPointerDown, true);
+  mobileQuery?.removeEventListener('change', onMobileQueryChange);
+  mobileQuery = null;
 });
 </script>
 
 <template>
-  <div class="app" :class="{ presentation, 'story-mode': storyOpen }">
+  <MobileNotice v-if="mobileNotice" />
+  <div v-else class="app" :class="{ presentation, 'story-mode': storyOpen }">
     <AppHead
       v-if="!presentation"
       @reset-view="resetStage"
       @open-story="openStoryPicker"
-      @open-about="aboutOpen = true"
+      @open-settings="settingsOpen = true"
+      @open-search="searchOpen = true"
     />
+    <SearchPanel :open="searchOpen" @close="searchOpen = false" @select="onSearchSelect" />
 
     <main :class="{ 'panel-closed': panelCollapsed }">
       <div class="slot">
@@ -846,19 +1075,12 @@ onBeforeUnmount(() => {
           @pick-polity="onPickPolity"
           @pick-war="onPickWar"
         />
-        <CompareBoard
-          v-if="ui.view === 'compare'"
-          v-model:subject-a="subjectA"
-          v-model:subject-b="subjectB"
-          :events="data.filteredEvents.value"
-          :names="data.polityNames.value"
-          @select="onPickEvent"
-        />
         <AtlasBoard
           v-if="ui.view === 'atlas'"
           :names="data.polityNames.value"
           @pick-polity="onPickPolity"
           @pick-war="onPickWar"
+          @pick-event="onPickEvent"
         />
 
         <EventCard
@@ -876,9 +1098,7 @@ onBeforeUnmount(() => {
           v-if="selectedPolity && !people.selectedId"
           :feature="selectedPolity"
           :names="data.polityNames.value"
-          :pinned="pinnedSide"
           @close="selectedPolity = null"
-          @pin="onPinPolity"
           @scope="onScopeToPolity"
         />
 
@@ -889,9 +1109,10 @@ onBeforeUnmount(() => {
         />
 
         <PersonCard
-          v-if="people.selectedId"
+          v-if="people.selectedId && !trailOpen"
           @close="people.closePerson()"
           @fly-to="flyToStage"
+          @open-trail="trailOpen = true"
         />
 
         <YearCard v-if="yearOpen" @close="yearOpen = false" />
@@ -924,6 +1145,15 @@ onBeforeUnmount(() => {
     <TimeScale v-if="!presentation" />
 
     <AboutPage v-if="aboutOpen" @close="aboutOpen = false" />
+
+    <PersonTrajectory v-if="trailOpen" @close="trailOpen = false" />
+
+    <SettingsDrawer
+      :open="settingsOpen"
+      :certainty-counts="data.certaintyCounts.value"
+      @open-about="openAboutFromSettings"
+      @close="settingsOpen = false"
+    />
 
     <StoryPicker
       v-if="storyPickerOpen"

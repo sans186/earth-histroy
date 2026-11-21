@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>原型 · 设置中心（三种形态）</title>
+<style>
+  :root{
+    --paper:#f7f5f0; --paper-2:#efece4; --paper-3:#e6e2d7; --card:#fdfcf9;
+    --ink:#1a1c20; --ink-2:#4c4f56; --ink-3:#8d8c86; --ink-4:#b4b0a7;
+    --rule:#e2ddd1; --rule-2:#c9c2b3; --rule-3:#a89f8d;
+    --rust:#b0522d; --indigo:#26406b; --ochre:#9a7434;
+    --globe-land:#9aa78f; --globe-border:#8d8c86;
+    --head-h:46px; --ease:cubic-bezier(.2,.7,.3,1);
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font:15px/1.6 "Inter","Noto Sans SC",system-ui,-apple-system,sans-serif;
+    -webkit-font-smoothing:antialiased;overflow:hidden;
+  }
+  .serif{font-family:"Fraunces","Noto Serif SC","Songti SC",Georgia,serif}
+  .mono{font-family:"IBM Plex Mono",ui-monospace,Consolas,monospace;font-variant-numeric:tabular-nums}
+  .cap{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)}
+
+  /* ── 原型工具条 ─────────────────────────────────────── */
+  .toolbar{
+    height:56px;display:flex;align-items:center;gap:18px;padding:0 22px;
+    border-bottom:1px solid var(--rule-2);background:var(--paper);position:relative;z-index:60;
+  }
+  .toolbar .tt{display:flex;flex-direction:column;line-height:1.25}
+  .toolbar .tt b{font-size:15px;font-weight:600;letter-spacing:.04em}
+  .toolbar .tt span{font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3)}
+  .seg{display:flex;border:1px solid var(--rule-2);background:var(--card);flex:none}
+  .seg button{
+    border:0;background:transparent;font:inherit;font-size:12.5px;letter-spacing:.04em;
+    color:var(--ink-2);padding:5px 13px;cursor:pointer;border-right:1px solid var(--rule);
+    transition:color .15s var(--ease),background .15s var(--ease);
+  }
+  .seg button:last-child{border-right:none}
+  .seg button:hover{color:var(--ink)}
+  .seg button.on{background:var(--ink);color:var(--card)}
+  .vnote{font-size:12.5px;color:var(--ink-2);line-height:1.5;max-width:640px}
+  .vnote b{color:var(--ink);font-weight:600}
+  .toolbar .spacer{flex:1}
+
+  /* ── 应用外壳 ───────────────────────────────────────── */
+  .app{height:calc(100vh - 56px);display:grid;grid-template-rows:var(--head-h) 1fr}
+  .head{
+    display:flex;align-items:center;gap:20px;padding:0 22px;
+    border-bottom:1px solid var(--rule-2);background:var(--paper);position:relative;z-index:30;
+  }
+  .head::after{content:"";position:absolute;left:0;right:0;bottom:-3px;height:1px;background:var(--rule)}
+  .brand{display:flex;align-items:baseline;gap:10px}
+  .brand h1{margin:0;font-family:"Fraunces","Noto Serif SC",serif;font-size:15px;font-weight:600;letter-spacing:.06em}
+  .brand em{font-style:normal;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);padding-left:10px;border-left:1px solid var(--rule-2)}
+  .nav{display:flex;gap:2px}
+  .nav button{border:0;background:transparent;font:inherit;font-size:14px;letter-spacing:.08em;color:var(--ink-2);padding:5px 11px;cursor:pointer;border-bottom:1px solid transparent}
+  .nav button.on{color:var(--ink);border-bottom-color:var(--rust)}
+  .stages{display:flex;border:1px solid var(--rule-2);margin-left:-6px}
+  .stages button{border:0;background:transparent;font:inherit;font-size:11.5px;letter-spacing:.08em;padding:3px 9px;color:var(--ink-3);cursor:pointer;border-right:1px solid var(--rule)}
+  .stages button:last-child{border-right:none}
+  .stages button.on{background:var(--ink);color:var(--card)}
+  .head .right{margin-left:auto;display:flex;align-items:center;gap:14px}
+  .folio{color:var(--ink-4)}
+  .head .about{border:1px solid var(--rule);background:transparent;font:inherit;font-size:12.5px;letter-spacing:.08em;color:var(--ink-2);padding:4px 9px;cursor:pointer}
+  .ghost{width:28px;height:28px;display:grid;place-items:center;border:1px solid var(--rule);background:transparent;color:var(--ink-2);cursor:pointer}
+  .ghost.on{border-color:var(--ink);color:var(--ink);background:var(--paper-3)}
+  .ghost svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:1.4}
+  .lang{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.08em}
+
+  .main{position:relative;display:grid;grid-template-columns:minmax(0,1fr) 348px;min-height:0}
+
+  /* ── 地图占位 ───────────────────────────────────────── */
+  .map{position:relative;overflow:hidden;background:
+    radial-gradient(120% 90% at 40% 45%, #fbf9f4 0%, var(--paper) 55%, #efece4 100%);}
+  .map svg{position:absolute;inset:0;width:100%;height:100%}
+  .map .mapnote{position:absolute;left:20px;bottom:18px;color:var(--ink-4)}
+
+  /* ── 右侧栏 ─────────────────────────────────────────── */
+  .panel{display:flex;flex-direction:column;min-height:0;border-left:1px solid var(--rule-2);background:var(--paper-2);z-index:20}
+  .tabs{display:flex;border-bottom:1px solid var(--rule-2);background:var(--paper);flex:none}
+  .tabs button{
+    flex:1;padding:9px 0;border:0;background:transparent;font:inherit;font-size:12.5px;
+    letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);cursor:pointer;
+    border-bottom:2px solid transparent;
+  }
+  .tabs button.on{color:var(--ink);border-bottom-color:var(--rust);background:var(--paper-2)}
+  .tabs .collapse{flex:none;width:24px;font-size:14.5px;letter-spacing:0;border-left:1px solid var(--rule-2)}
+  .panel-body{flex:1;min-height:0;overflow:auto}
+  body[data-variant="b"] .tab-layers{display:none}
+  body:not([data-variant="b"]) .tab-settings{display:none}
+  body:not([data-variant="b"]) .panel-settings{display:none}
+  body[data-variant="b"] .panel-events{display:none}
+
+  /* 事件索引示意 */
+  .dummy{padding:12px 16px}
+  .dummy .yr{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--ink-3);margin:14px 0 6px;letter-spacing:.06em}
+  .dummy p{margin:0 0 8px;font-size:14px;color:var(--ink-2);display:flex;gap:8px;align-items:baseline}
+  .dummy p i{width:6px;height:6px;flex:none;transform:translateY(-2px);background:var(--indigo)}
+  .dummy p.m i{background:var(--rust)}
+
+  /* ── 设置内容通用 ───────────────────────────────────── */
+  .settings{font-size:13.5px}
+  .sect{padding:16px 18px 18px;border-bottom:1px solid var(--rule)}
+  .sect:last-child{border-bottom:none}
+  .sect-h{display:flex;align-items:baseline;gap:9px;margin-bottom:12px}
+  .sect-h b{font-family:"Fraunces","Noto Serif SC",serif;font-size:15px;font-weight:600;letter-spacing:.03em}
+  .sect-h span{font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-4)}
+  .row{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:7px 0}
+  .row.wrap{align-items:flex-start;flex-direction:column;gap:7px}
+  .row .lab{color:var(--ink-2);line-height:1.4}
+  .row .lab small{display:block;font-size:11.5px;color:var(--ink-4);margin-top:2px;line-height:1.45}
+  .row .seg button{padding:3px 9px;font-size:11.5px}
+  .chips{display:flex;flex-wrap:wrap;gap:6px}
+  .chip{
+    display:inline-flex;align-items:center;gap:5px;border:1px solid var(--rule-2);background:var(--card);
+    color:var(--ink-3);font:inherit;font-size:11.5px;padding:3px 8px;cursor:pointer;
+    transition:color .15s var(--ease),border-color .15s var(--ease);
+  }
+  .chip i{width:6px;height:6px;background:currentColor;opacity:.65}
+  .chip.on{color:var(--ink);border-color:var(--rule-3);box-shadow:inset 0 -2px 0 var(--rust)}
+  .chip.on i{opacity:1}
+  .sw{width:34px;height:18px;border:1px solid var(--rule-2);background:var(--paper);position:relative;cursor:pointer;flex:none;transition:background .18s var(--ease),border-color .18s var(--ease)}
+  .sw::after{content:"";position:absolute;top:2px;left:2px;width:12px;height:12px;background:var(--ink-4);transition:left .18s var(--ease),background .18s var(--ease)}
+  .sw.on{background:var(--ink);border-color:var(--ink)}
+  .sw.on::after{left:18px;background:var(--card)}
+  .note{font-size:11.5px;line-height:1.55;color:var(--ink-4)}
+  .btn-line{
+    border:1px solid var(--rule-2);background:var(--card);font:inherit;font-size:12.5px;
+    color:var(--ink-2);padding:5px 12px;cursor:pointer;letter-spacing:.04em;
+  }
+  .btn-line:hover{border-color:var(--rule-3);color:var(--ink)}
+  .linklist{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:8px}
+  .linklist a{font-size:12px;color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--rule-2);padding-bottom:1px}
+  .linklist a:hover{color:var(--ink);border-color:var(--ink-3)}
+  details.legal{border:1px solid var(--rule);background:var(--paper);padding:0}
+  details.legal summary{
+    list-style:none;cursor:pointer;padding:8px 11px;font-size:12px;color:var(--ink-2);
+    display:flex;align-items:center;justify-content:space-between;gap:8px;
+  }
+  details.legal summary::-webkit-details-marker{display:none}
+  details.legal summary::after{content:"+";font-family:"IBM Plex Mono",monospace;color:var(--ink-4)}
+  details.legal[open] summary::after{content:"–"}
+  details.legal ul{margin:0;padding:0 14px 10px 26px}
+  details.legal li{font-size:11.5px;line-height:1.65;color:var(--ink-3)}
+
+  /* ── 甲：右侧抽屉 ───────────────────────────────────── */
+  .drawer{
+    position:absolute;top:0;right:0;bottom:0;width:420px;z-index:40;
+    background:var(--card);border-left:1px solid var(--rule-2);
+    box-shadow:-22px 0 48px rgba(70,58,40,.16);
+    display:flex;flex-direction:column;
+  }
+  .drawer-h{display:flex;align-items:center;gap:10px;padding:13px 18px;border-bottom:1px solid var(--rule-2);flex:none;background:var(--paper)}
+  .drawer-h b{font-family:"Fraunces","Noto Serif SC",serif;font-size:17px;font-weight:600;letter-spacing:.04em}
+  .drawer-h .cap{margin-left:2px}
+  .drawer-h .x{margin-left:auto;border:1px solid var(--rule);background:transparent;width:26px;height:26px;cursor:pointer;color:var(--ink-3);font-size:15px;line-height:1}
+  .drawer-body{flex:1;min-height:0;overflow:auto}
+  body:not([data-variant="a"]) .drawer{display:none}
+
+  /* ── 丙：居中模态 ───────────────────────────────────── */
+  .veil{position:absolute;inset:0;z-index:40;background:rgba(26,28,32,.3);display:grid;place-items:center}
+  .modal{width:840px;max-width:calc(100% - 64px);height:580px;max-height:calc(100% - 64px);background:var(--card);box-shadow:0 30px 70px rgba(40,32,20,.28);display:flex;flex-direction:column}
+  .modal-h{display:flex;align-items:center;gap:10px;padding:14px 20px;border-bottom:1px solid var(--rule-2);flex:none}
+  .modal-h b{font-family:"Fraunces","Noto Serif SC",serif;font-size:18px;font-weight:600;letter-spacing:.04em}
+  .modal-h .x{margin-left:auto;border:1px solid var(--rule);background:transparent;width:26px;height:26px;cursor:pointer;color:var(--ink-3);font-size:15px;line-height:1}
+  .modal-b{flex:1;min-height:0;display:grid;grid-template-columns:196px 1fr}
+  .mnav{border-right:1px solid var(--rule-2);background:var(--paper-2);padding:12px 0}
+  .mnav button{display:block;width:100%;text-align:left;border:0;background:transparent;font:inherit;font-size:13px;color:var(--ink-3);padding:8px 20px;cursor:pointer;border-left:2px solid transparent}
+  .mnav button:hover{color:var(--ink-2)}
+  .mnav button.on{color:var(--ink);border-left-color:var(--rust);background:var(--paper)}
+  .mbody{overflow:auto}
+  .mbody .sect{padding-left:26px;padding-right:26px}
+  .mbody .row{max-width:520px}
+  body:not([data-variant="c"]) .veil{display:none}
+
+  /* ── 图例 ───────────────────────────────────────────── */
+  .legend{position:absolute;left:20px;top:16px;z-index:5;background:color-mix(in srgb,var(--paper) 90%,transparent);border:1px solid var(--rule);padding:8px 12px;max-width:330px}
+  .legend b{display:block;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);margin-bottom:4px}
+  .legend p{margin:0;font-size:12px;line-height:1.55;color:var(--ink-2)}
+</style>
+</head>
+<body data-variant="a">
+
+<div class="toolbar">
+  <div class="tt"><b>设置中心 · 形态原型</b><span>Settings Center</span></div>
+  <div class="seg" id="variant-seg">
+    <button data-v="a" class="on">甲 · 右侧抽屉</button>
+    <button data-v="b">乙 · 侧栏页签</button>
+    <button data-v="c">丙 · 居中模态</button>
+  </div>
+  <div class="vnote" id="vnote"></div>
+  <div class="spacer"></div>
+</div>
+
+<div class="app">
+  <header class="head">
+    <div class="brand"><h1>Earth</h1><em>Atlas of History</em></div>
+    <nav class="nav">
+      <button class="on">探索</button><button>对比</button><button>图册</button><button>故事</button>
+    </nav>
+    <div class="stages"><button>三维</button><button class="on">二维</button></div>
+    <div class="right">
+      <span class="folio cap">1911</span>
+      <button class="about">关于</button>
+      <button class="ghost on" title="设置">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="3.2"/>
+          <path d="M12 2.6v2.6M12 18.8v2.6M2.6 12h2.6M18.8 12h2.6M5.4 5.4l1.8 1.8M16.8 16.8l1.8 1.8M18.6 5.4l-1.8 1.8M7.2 16.8l-1.8 1.8"/>
+        </svg>
+      </button>
+      <button class="ghost lang">EN</button>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="map">
+      <svg viewBox="0 0 1000 700" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <g stroke="#c9c2b3" fill="none" opacity=".45">
+          <ellipse cx="500" cy="350" rx="330" ry="330"/>
+          <ellipse cx="500" cy="350" rx="330" ry="240"/>
+          <ellipse cx="500" cy="350" rx="330" ry="140"/>
+          <ellipse cx="500" cy="350" rx="120" ry="330"/>
+          <ellipse cx="500" cy="350" rx="240" ry="330"/>
+        </g>
+        <g fill="#9aa78f" stroke="#8d8c86" stroke-width="1" opacity=".22">
+          <path d="M330 210c40-26 92-36 126-18 26 14 20 40 44 52 28 14 62 4 78 24 18 22-8 46-34 52-40 10-58-8-88-6-34 2-54 22-84 12-32-11-46-45-58-70-10-21-18-30 16-46z"/>
+          <path d="M560 400c30-18 70-14 92 4 20 16 16 44-4 58-26 18-64 16-84 0-18-15-24-48-4-62z"/>
+          <path d="M700 300c26-12 54-4 62 12 8 18-10 34-32 38-24 4-46-6-46-22 0-12 4-22 16-28z"/>
+        </g>
+        <g fill="#b0522d" opacity=".75">
+          <circle cx="392" cy="246" r="3"/>
+          <circle cx="470" cy="230" r="3"/>
+          <circle cx="610" cy="292" r="3"/>
+          <circle cx="664" cy="356" r="3"/>
+        </g>
+      </svg>
+      <div class="legend">
+        <b>原型说明</b>
+        <p id="legend-text"></p>
+      </div>
+      <div class="mapnote cap">地图区域 · 示意</div>
+    </section>
+
+    <aside class="panel">
+      <div class="tabs">
+        <button class="on">事件</button>
+        <button>战争</button>
+        <button>人物</button>
+        <button class="tab-layers">图层</button>
+        <button class="tab-settings">设置</button>
+        <button>地点</button>
+        <button class="collapse">›</button>
+      </div>
+      <div class="panel-body">
+        <div class="panel-events dummy">
+          <div class="yr">1911</div>
+          <p><i></i>武昌起义爆发</p>
+          <p class="m"><i></i>辛亥革命蔓延各省</p>
+          <div class="yr">1912</div>
+          <p><i></i>中华民国临时政府成立</p>
+          <p><i></i>清帝退位</p>
+          <div class="yr">1914</div>
+          <p class="m"><i></i>第一次世界大战爆发</p>
+          <p><i></i>巴拿马运河通航</p>
+        </div>
+        <div class="panel-settings settings" data-settings="panel"></div>
+      </div>
+    </aside>
+
+    <!-- 甲：右侧抽屉 -->
+    <div class="drawer">
+      <div class="drawer-h">
+        <b>设置</b><span class="cap">Preferences</span>
+        <button class="x" aria-label="关闭">×</button>
+      </div>
+      <div class="drawer-body settings" data-settings="drawer"></div>
+    </div>
+
+    <!-- 丙：居中模态 -->
+    <div class="veil">
+      <div class="modal">
+        <div class="modal-h">
+          <b>设置</b><span class="cap">Preferences</span>
+          <button class="x" aria-label="关闭">×</button>
+        </div>
+        <div class="modal-b">
+          <nav class="mnav">
+            <button data-target="ui" class="on">界面与语言</button>
+            <button data-target="map">地图与显示</button>
+            <button data-target="content">内容与可信度</button>
+            <button data-target="data">数据与关于</button>
+            <button data-target="legal">数据口径说明</button>
+          </nav>
+          <div class="mbody settings" data-settings="modal"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script>
+const VARIANTS = {
+  a: {
+    note: '<b>甲 · 右侧抽屉 420px。</b>齿轮入口；【图层】页签移除并入抽屉，抽屉盖住侧栏、不遮地图。代价：调图层多一次开抽屉。',
+    legend: '抽屉从右侧覆盖侧栏，地图仍保持可见，适合边改边看渲染效果。'
+  },
+  b: {
+    note: '<b>乙 · 侧栏页签原位。</b>【图层】页签替换为【设置】，不新开浮层，零跳转。代价：348px 窄栏，分组需要折叠与滚动。',
+    legend: '设置直接住在右侧栏里，与原【图层】页签同一位置，切换成本为零。'
+  },
+  c: {
+    note: '<b>丙 · 居中模态 840×580。</b>左分组导航 + 右内容；【图层】页签保留，与设置中心同源双入口。代价：完全遮住地图。',
+    legend: '模态完全覆盖地图，信息密度最高，适合一次性配置；高频图层仍可从侧栏调整。'
+  }
+};
+
+/* ── 设置内容（P0 范围） ───────────────────────────── */
+const SECTIONS = [
+  {
+    id: 'ui', title: '界面与语言', en: 'Interface',
+    rows: [
+      { t: 'seg', label: '界面语言', hint: '切换后文案立即更新，并记住选择', opts: ['中文', 'EN'], on: 0 }
+    ]
+  },
+  {
+    id: 'map', title: '地图与显示', en: 'Map',
+    rows: [
+      { t: 'seg', label: '渲染模式', opts: ['三维地球', '二维平面'], on: 1 },
+      { t: 'seg', label: '底图', opts: ['标准地形', '卫星影像'], on: 0 },
+      { t: 'sub', label: '图层', items: [
+        { label: '政区面', on: true },
+        { label: '现代国界', on: false },
+        { label: '事件点', on: true },
+        { label: '地图标签', on: true },
+        { label: '政区名', on: true },
+        { label: '战争地点', on: false },
+        { label: '相邻世纪数据', on: false, hint: '单文件数十 MB，载入较慢' }
+      ]}
+    ]
+  },
+  {
+    id: 'content', title: '内容与可信度', en: 'Content',
+    rows: [
+      { t: 'sw', label: '显示未核验内容', hint: '史学评价与语录；仅本次会话有效，不记忆', on: false },
+      { t: 'chips', label: '可信度筛选', items: [
+        { label: '高', on: true }, { label: '中', on: true }, { label: '低', on: true }
+      ]},
+      { t: 'chips', label: '事件分类', items: [
+        { label: '政治', color: '#26406b', on: true },
+        { label: '军事', color: '#b0522d', on: true },
+        { label: '经济', color: '#5f8a63', on: true },
+        { label: '文化', color: '#9a7434', on: true },
+        { label: '科技', color: '#4a7d8c', on: true },
+        { label: '探索', color: '#8a6fa8', on: true }
+      ]}
+    ]
+  },
+  {
+    id: 'data', title: '数据与关于', en: 'Data',
+    rows: [
+      { t: 'note', text: '设置仅保存在本机浏览器，无账号、无追踪。' },
+      { t: 'btn', label: '重置全部设置', hint: '恢复默认，包括界面语言' },
+      { t: 'kv', label: '版本', value: 'v0.x.x · commit 3e4638a' },
+      { t: 'links', links: ['CC BY 4.0 署名', 'AI 生成声明', '免责声明', '数据来源', '仓库 / 反馈'] }
+    ]
+  },
+  {
+    id: 'legal', title: '数据口径说明', en: 'Read-only',
+    rows: [
+      { t: 'note', text: '以下为项目的数据口径，不可在设置中关闭。' },
+      { t: 'legal', items: [
+        '现代国界图层：台湾要素并入中国要素',
+        '争议边界按中性斜线处理，不作立场判断',
+        '在世人物仅保留时间线，不提供评价与语录',
+        '进行中冲突不提供结局与胜负分析',
+        'AI 生成与未核验标识不可关闭'
+      ]}
+    ]
+  }
+];
+
+function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+
+function rowHtml(r) {
+  if (r.t === 'seg') {
+    return `<div class="row"><span class="lab">${esc(r.label)}${r.hint ? `<small>${esc(r.hint)}</small>` : ''}</span>
+      <div class="seg">${r.opts.map((o, i) => `<button class="${i === r.on ? 'on' : ''}">${esc(o)}</button>`).join('')}</div></div>`;
+  }
+  if (r.t === 'sw') {
+    return `<div class="row"><span class="lab">${esc(r.label)}${r.hint ? `<small>${esc(r.hint)}</small>` : ''}</span>
+      <button class="sw ${r.on ? 'on' : ''}" role="switch" aria-checked="${r.on}"></button></div>`;
+  }
+  if (r.t === 'chips') {
+    return `<div class="row wrap"><span class="lab">${esc(r.label)}</span><div class="chips">
+      ${r.items.map(i => `<button class="chip ${i.on ? 'on' : ''}"${i.color ? ` style="color:${i.color}"` : ''}><i></i>${esc(i.label)}</button>`).join('')}
+    </div></div>`;
+  }
+  if (r.t === 'sub') {
+    return `<div class="row" style="padding-bottom:4px"><span class="lab" style="font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3)">${esc(r.label)}</span></div>
+      ${r.items.map(i => `<div class="row"><span class="lab">${esc(i.label)}${i.hint ? `<small>${esc(i.hint)}</small>` : ''}</span>
+        <button class="sw ${i.on ? 'on' : ''}" role="switch" aria-checked="${i.on}"></button></div>`).join('')}`;
+  }
+  if (r.t === 'note') return `<p class="note" style="margin:4px 0 10px">${esc(r.text)}</p>`;
+  if (r.t === 'btn') {
+    return `<div class="row"><span class="lab">${esc(r.label)}${r.hint ? `<small>${esc(r.hint)}</small>` : ''}</span>
+      <button class="btn-line">重置…</button></div>`;
+  }
+  if (r.t === 'kv') {
+    return `<div class="row"><span class="lab">${esc(r.label)}</span><span class="mono" style="font-size:12px;color:var(--ink-3)">${esc(r.value)}</span></div>`;
+  }
+  if (r.t === 'links') {
+    return `<div class="linklist">${r.links.map(l => `<a href="#">${esc(l)}</a>`).join('')}</div>`;
+  }
+  if (r.t === 'legal') {
+    return `<details class="legal"><summary>展开查看 ${r.items.length} 条口径</summary>
+      <ul>${r.items.map(i => `<li>${esc(i)}</li>`).join('')}</ul></details>`;
+  }
+  return '';
+}
+
+function sectionHtml(s) {
+  return `<section class="sect" id="s-${s.id}">
+    <div class="sect-h"><b>${esc(s.title)}</b><span>${esc(s.en)}</span></div>
+    ${s.rows.map(rowHtml).join('')}
+  </section>`;
+}
+
+document.querySelectorAll('[data-settings]').forEach(el => {
+  el.innerHTML = SECTIONS.map(sectionHtml).join('');
+});
+
+/* ── 交互 ───────────────────────────────────────────── */
+document.addEventListener('click', e => {
+  const segBtn = e.target.closest('.seg button');
+  if (segBtn) {
+    segBtn.parentElement.querySelectorAll('button').forEach(b => b.classList.remove('on'));
+    segBtn.classList.add('on');
+    return;
+  }
+  const sw = e.target.closest('.sw');
+  if (sw) {
+    sw.classList.toggle('on');
+    sw.setAttribute('aria-checked', String(sw.classList.contains('on')));
+    return;
+  }
+  const chip = e.target.closest('.chip');
+  if (chip) { chip.classList.toggle('on'); return; }
+});
+
+/* 形态切换 */
+const vnote = document.getElementById('vnote');
+const legend = document.getElementById('legend-text');
+function applyVariant(v) {
+  document.body.dataset.variant = v;
+  vnote.innerHTML = VARIANTS[v].note;
+  legend.textContent = VARIANTS[v].legend;
+  document.querySelectorAll('#variant-seg button').forEach(b => b.classList.toggle('on', b.dataset.v === v));
+}
+document.getElementById('variant-seg').addEventListener('click', e => {
+  const b = e.target.closest('button');
+  if (b) applyVariant(b.dataset.v);
+});
+
+/* 模态左导航 */
+document.querySelector('.mnav').addEventListener('click', e => {
+  const b = e.target.closest('button');
+  if (!b) return;
+  document.querySelectorAll('.mnav button').forEach(x => x.classList.toggle('on', x === b));
+  const target = document.querySelector(`.mbody #s-${b.dataset.target}`);
+  if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+});
+
+applyVariant('a');
+</script>
+</body>
+</html>

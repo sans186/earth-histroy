@@ -83,7 +83,11 @@
       "coords": null
     }
   ],
-  "evaluation": {
+  "evaluation": {
+    "appraisal": {
+      "zh": "爱因斯坦被公认为20世纪最伟大的科学家之一，相对论彻底改变了人类对宇宙的理解，他也被视为科学探索精神的化身，并以和平与正义的倡导体现科学家的社会责任。不过他并非无懈可击：他在量子力学上的保守立场使他错失了参与这一领域革命的机会，对第一任妻子米列娃·马里奇在相对论研究中贡献的认可不足，在核武器问题上从建议美国研发到后来强烈反对的转变也被一些人视为政治机会主义，其统一场论则被批评为过于固守经典物理学的框架。学界如今更强调他的复杂性：他既是革命性的思想家，也是20世纪动荡历史的产物。",
+      "en": "Einstein is widely regarded as one of the greatest scientists of the 20th century, whose theories of relativity transformed humanity's understanding of the universe; he is also seen as the embodiment of scientific exploration and, through his advocacy of peace and justice, of the scientist's social responsibility. Yet he was not without flaws: his conservative stance on quantum mechanics cost him a part in that field's revolution, he gave insufficient recognition to Mileva Marić's contributions to his relativity research, and his shift from urging the U.S. to build atomic weapons to strongly opposing them has been read by some as political opportunism, while his unified field theory has been criticized as too bound to classical physics. Historians now stress his complexity—a revolutionary thinker and a product of his turbulent century."
+    },
     "supporter": {
       "zh": "爱因斯坦被誉为20世纪最伟大的科学家之一，他的相对论彻底改变了人类对宇宙的理解。支持者认为他代表了科学探索的最高精神，他的好奇心、想象力和批判性思维为后世科学家树立了典范。爱因斯坦不仅推动了科学革命，还积极倡导和平与正义，体现了科学家的社会责任感。他的名言'想象力比知识更重要'激励着无数创新者，而他对统一理论的追求则体现了科学探索的终极目标。",
       "en": "Einstein is celebrated as one of the greatest scientists of the 20th century, whose theories of relativity revolutionized humanity's understanding of the universe. Supporters view him as embodying the highest ideals of scientific exploration, with his curiosity, imagination, and critical thinking setting a standard for future generations. Beyond his scientific contributions, Einstein actively advocated for peace and justice, demonstrating the social responsibility of scientists. His famous quote 'Imagination is more important than knowledge' continues to inspire innovators, while his pursuit of a unified theory represents the ultimate goal of scientific inquiry."
@@ -98,15 +102,12 @@
     }
   },
   "quotes": {
+    "sources": {
+      "self": {"text":"1929 年《星期六晚邮报》访谈","paraphrase":true}
+    },
     "self": {
       "zh": "想象力比知识更重要，因为知识是有限的，而想象力概括着世界上的一切，推动着进步，并且是知识进化的源泉。",
       "en": "Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution."
-    },
-    "others": {
-      "zh": "我们这个时代最伟大的天才，一位思想家，他改变了我们关于宇宙本质的观念。",
-      "en": "The greatest genius of our time, a thinker who changed our conception of the nature of the universe."
     }
-  },
-  "othersBy": "尼尔斯·玻尔",
-  "othersByEn": "Niels Bohr"
+  }
 }

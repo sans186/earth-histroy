@@ -1,0 +1,3347 @@
+{
+  "_meta": {
+    "removedAt": "2026-11-21",
+    "reason": "删除「他人评述」功能：先做数据备份，备日后可能需要回滚或转作史料。原始字段：quotes.others、quotes.sources.others、othersBy、othersByEn。",
+    "fields": [
+      "quotes.others",
+      "quotes.sources.others",
+      "othersBy",
+      "othersByEn"
+    ],
+    "count": 415
+  },
+  "people": {
+    "abraham-lincoln": {
+      "others": {
+        "zh": "林肯是美国历史上最伟大的道德领袖之一，他不仅改变了美国的政治进程，还重塑了美国人的道德想象。",
+        "en": "Lincoln was one of the greatest moral leaders in American history, who not only changed the course of American politics but also reshaped the moral imagination of the American people."
+      },
+      "othersBy": "埃里克·方纳",
+      "othersByEn": "Eric Foner"
+    },
+    "ada-lovelace-slug": {
+      "others": {
+        "zh": "“艾达·洛夫莱斯不仅是数学家，也是一位诗人，她的心灵充满了数学的韵律。”",
+        "en": "\"Ada Lovelace is not only a mathematician but also a poet; her mind is filled with the rhythm of mathematics.\""
+      },
+      "othersBy": "查尔斯·巴贝奇",
+      "othersByEn": "Charles Babbage"
+    },
+    "adam-smith": {
+      "others": {
+        "zh": "亚当·斯密是历史上最伟大的经济学家，他的《国富论》是经济学领域的里程碑，为现代资本主义提供了理论基础。",
+        "en": "Adam Smith was the greatest economist in history, and his 'Wealth of Nations' is a milestone in the field of economics, providing the theoretical foundation for modern capitalism."
+      },
+      "othersBy": "米尔顿·弗里德曼",
+      "othersByEn": "Milton Friedman"
+    },
+    "adolf-hitler": {
+      "others": {
+        "zh": "希特勒是历史上最邪恶的人物之一，他的意识形态和行为导致了人类历史上最黑暗的篇章。",
+        "en": "Hitler is one of the most evil figures in history, his ideology and actions led to the darkest chapter in human history."
+      },
+      "othersBy": "温斯顿·丘吉尔",
+      "othersByEn": "Winston Churchill"
+    },
+    "akbar-the-great": {
+      "others": {
+        "zh": "阿克巴是历史上最伟大的君主之一，他不仅征服了领土，更征服了人心。",
+        "en": "Akbar was one of the greatest monarchs in history, who not only conquered territories but also conquered hearts."
+      },
+      "othersBy": "托马斯·罗",
+      "othersByEn": "Thomas Roe"
+    },
+    "akio-morita": {
+      "others": {
+        "zh": "盛田昭夫是一位真正的全球公民，他不仅创造了索尼，更创造了一种新的商业哲学，改变了世界对日本产品的看法。",
+        "en": "Akio Morita was a true global citizen who not only created Sony but also developed a new business philosophy that changed the world's perception of Japanese products."
+      },
+      "othersBy": "约翰·内夫",
+      "othersByEn": "John Neff"
+    },
+    "akira-kurosawa": {
+      "others": {
+        "zh": "黑泽明是电影界的莎士比亚，他的作品将东方哲学与西方叙事完美融合，创造了永恒的艺术杰作。",
+        "en": "Akira Kurosawa is the Shakespeare of cinema; his works perfectly blend Eastern philosophy with Western narrative to create timeless artistic masterpieces."
+      },
+      "othersBy": "史蒂文·斯皮尔伯格",
+      "othersByEn": "Steven Spielberg"
+    },
+    "alan-turing": {
+      "others": {
+        "zh": "图灵是那种罕见的数学家，他不仅能够解决困难的问题，还能提出新的问题，这些问题将引领整个领域的发展方向。",
+        "en": "Turing was that rare mathematician who could not only solve difficult problems but also pose new problems that would lead the entire field in new directions."
+      },
+      "othersBy": "安德鲁·霍奇斯",
+      "othersByEn": "Andrew Hodges"
+    },
+    "albert-camus": {
+      "others": {
+        "zh": "加缪是唯一一位让我感到自己不是孤独地面对荒谬的人。",
+        "en": "Camus is the only one who made me feel I was not alone in facing the absurd."
+      },
+      "othersBy": "让-保罗·萨特",
+      "othersByEn": "Jean-Paul Sartre"
+    },
+    "albert-einstein": {
+      "others": {
+        "zh": "我们这个时代最伟大的天才，一位思想家，他改变了我们关于宇宙本质的观念。",
+        "en": "The greatest genius of our time, a thinker who changed our conception of the nature of the universe."
+      },
+      "othersBy": "尼尔斯·玻尔",
+      "othersByEn": "Niels Bohr"
+    },
+    "albrecht-durer": {
+      "others": {
+        "zh": "丢勒是德国艺术的最高典范，他的作品完美地融合了北方严谨的精确性与南方优雅的流畅性。",
+        "en": "Dürer is the highest exemplar of German art, whose works perfectly combine the rigor of the North with the elegance of the South."
+      },
+      "othersBy": "约翰·沃尔夫冈·冯·歌德",
+      "othersByEn": "Johann Wolfgang von Goethe"
+    },
+    "alessandro-volta": {
+      "others": {
+        "zh": "伏打先生的发明将永远是人类智慧的纪念碑，它照亮了科学的道路，并为人类福祉开辟了新的领域。",
+        "en": "Mr. Volta's invention will forever be a monument to human genius, illuminating the path of science and opening new fields for human welfare."
+      },
+      "othersBy": "拿破仑·波拿巴",
+      "othersByEn": "Napoleon Bonaparte"
+    },
+    "alexander-fleming": {
+      "others": {
+        "zh": "弗莱明的发现是医学史上最伟大的事件之一，它使人类的平均寿命增加了约十年。",
+        "en": "Fleming's discovery is one of the greatest events in medical history; it has added about ten years to the average human life span."
+      },
+      "othersBy": "罗伯特·胡伯",
+      "othersByEn": "Robert Hooke"
+    },
+    "alexander-hamilton": {
+      "others": {
+        "zh": "汉密尔是美国历史上最伟大的财政天才，他不仅建立了美国的财政体系，还塑造了美国的经济未来。",
+        "en": "Hamilton was the greatest financial genius in American history; he not only established America's financial system but also shaped the nation's economic future."
+      },
+      "othersBy": "伍德罗·威尔逊",
+      "othersByEn": "Woodrow Wilson"
+    },
+    "alexander-i-of-russia": {
+      "others": {
+        "zh": "亚历山大一世是历史上最矛盾的人物之一，他既是自由的倡导者，又是专制的维护者；既是欧洲的解放者，又是保守秩序的捍卫者。",
+        "en": "Alexander I was one of the most contradictory figures in history, both a champion of liberty and a defender of autocracy; both a liberator of Europe and a guardian of conservative order."
+      },
+      "othersBy": "爱德华·克兰兹",
+      "othersByEn": "Edward Cranz"
+    },
+    "alexander-pushkin": {
+      "others": {
+        "zh": "普希金是俄罗斯一切开端和终结的诗人。他是俄罗斯文学的太阳，没有他，我们今天所知道的一切都将不存在。",
+        "en": "Pushkin is the poet of all beginnings and endings in Russia. He is the sun of Russian literature; without him, everything we know today would not exist."
+      },
+      "othersBy": "费奥多尔·陀思妥耶夫斯基",
+      "othersByEn": "Fyodor Dostoevsky"
+    },
+    "alexander-the-great": {
+      "others": {
+        "zh": "亚历山大是一位伟大的国王，但他也是一位悲剧人物，因为他没有留下一个能够继承他事业的儿子。",
+        "en": "Alexander was a great king, but he was also a tragic figure because he left no son capable of continuing his work."
+      },
+      "othersBy": "普鲁塔克",
+      "othersByEn": "Plutarch"
+    },
+    "alfred-hitchcock": {
+      "others": {
+        "zh": "希区柯克是电影界的莎士比亚，他创造了我们这个时代最持久的神话。",
+        "en": "Hitchcock is the Shakespeare of the cinema, he has created the most enduring myths of our time."
+      },
+      "othersBy": "弗朗索瓦·特吕弗",
+      "othersByEn": "François Truffaut"
+    },
+    "alfred-nobel": {
+      "others": {
+        "zh": "诺贝尔是一位将科学天才与商业头脑完美结合的人物，他的发明改变了世界，而他的遗产则将继续改变世界。",
+        "en": "Nobel was a man who perfectly combined scientific genius with business acumen; his inventions changed the world, and his legacy continues to change it."
+      },
+      "othersBy": "约翰·埃克尔斯",
+      "othersByEn": "John Eccles"
+    },
+    "alphonse-mucha": {
+      "others": {
+        "zh": "穆夏是第一位将艺术带入日常生活的艺术家，他的作品使美成为每个人都能享受的东西。",
+        "en": "Mucha was the first artist to bring art into everyday life, making beauty something that everyone could enjoy."
+      },
+      "othersBy": "让·穆罗",
+      "othersByEn": "Jean Mouroux"
+    },
+    "andrej-tarkovsky": {
+      "others": {
+        "zh": "塔可夫斯基的电影是灵魂的镜子，它们不仅反映现实，还揭示我们内心最深处的渴望和恐惧。",
+        "en": "Tarkovsky's films are mirrors of the soul; they not only reflect reality but reveal our deepest desires and fears."
+      },
+      "othersBy": "电影评论家罗杰·艾伯特",
+      "othersByEn": "Film critic Roger Ebert"
+    },
+    "andy-warhol": {
+      "others": {
+        "zh": "安迪·沃霍尔是艺术界的罗莎·帕克斯，他拒绝接受艺术应该是什么的既定观念，并为我们所有人开辟了新的可能性。",
+        "en": "Andy Warhol is the Rosa Parks of the art world. He refused to accept the preconceived notions of what art should be and opened up new possibilities for all of us."
+      },
+      "othersBy": "艺术家村上隆",
+      "othersByEn": "Takashi Murakami"
+    },
+    "antoine-lavoisier": {
+      "others": {
+        "zh": "砍下他的头只需要一瞬间，但法国需要一个世纪才能再长出这样一颗头。",
+        "en": "It took them only an instant to cut off his head, but France may not produce another such head in a century."
+      },
+      "othersBy": "约瑟夫·路易·拉格朗日",
+      "othersByEn": "Joseph Louis Lagrange"
+    },
+    "anton-chekhov": {
+      "others": {
+        "zh": "契诃夫是俄罗斯文学中最伟大的艺术家，他教会了我们如何用最少的文字表达最多的意义。",
+        "en": "Chekhov is the greatest artist in Russian literature; he taught us how to say the most with the least."
+      },
+      "othersBy": "弗拉基米尔·纳博科夫",
+      "othersByEn": "Vladimir Nabokov"
+    },
+    "antonin-dvorak": {
+      "others": {
+        "zh": "德沃夏克是一位真正的音乐天才，他的作品充满了原创性和力量，是当代最伟大的作曲家之一。",
+        "en": "Dvořák is a true musical genius whose works are filled with originality and power, one of the greatest composers of our time."
+      },
+      "othersBy": "约翰内尼斯·勃拉姆斯",
+      "othersByEn": "Johannes Brahms"
+    },
+    "antonio-vivaldi": {
+      "others": {
+        "zh": "维瓦尔第的音乐就像春天的花朵，充满了活力和色彩，即使在三个世纪后，他的作品依然能触动我们的心灵。",
+        "en": "Vivaldi's music is like the flowers of spring, full of vitality and color; even three centuries later, his works still touch our souls."
+      },
+      "othersBy": "音乐评论家阿尔弗雷德·爱因斯坦",
+      "othersByEn": "Music critic Alfred Einstein"
+    },
+    "anwar-sadat": {
+      "others": {
+        "zh": "萨达特是一位勇敢的领导人，他愿意冒着一切风险来实现和平，即使这意味着与自己的同胞对抗。",
+        "en": "Sadat was a courageous leader who was willing to risk everything to achieve peace, even if it meant going against his own people."
+      },
+      "othersBy": "亨利·基辛格",
+      "othersByEn": "Henry Kissinger"
+    },
+    "archimedes": {
+      "others": {
+        "zh": "阿基米德是古代最伟大的数学家，他的智慧超越了时代，为后世科学发展奠定了基础。",
+        "en": "Archimedes was the greatest mathematician of antiquity, whose wisdom transcended his time and laid the foundation for future scientific development."
+      },
+      "othersBy": "普卢塔克",
+      "othersByEn": "Plutarch"
+    },
+    "aristotle": {
+      "others": {
+        "zh": "亚里士多德是古代知识的集大成者，他的著作构成了一个完整的体系，涵盖了人类思想的几乎所有领域。",
+        "en": "Aristotle was the master of those who know. His works constitute a complete system that covers almost every field of human thought."
+      },
+      "othersBy": "托马斯·阿奎那",
+      "othersByEn": "Thomas Aquinas"
+    },
+    "arnold-schoenberg": {
+      "others": {
+        "zh": "勋伯格是音乐史上最伟大的革命者，他摧毁了旧世界，却未能创造一个新世界。",
+        "en": "Schoenberg was the greatest revolutionary in music history; he destroyed the old world but failed to create a new one."
+      },
+      "othersBy": "皮埃尔·布列兹",
+      "othersByEn": "Pierre Boulez"
+    },
+    "arthur-rimbaud": {
+      "others": {
+        "zh": "兰波是现代诗歌中最伟大的心灵，他比任何人更早地看到了现代性的本质。",
+        "en": "Rimbaud is the greatest mind in modern poetry, who saw the essence of modernity earlier than anyone else."
+      },
+      "othersBy": "安德烈·布勒东",
+      "othersByEn": "André Breton"
+    },
+    "arthur-schopenhauer": {
+      "others": {
+        "zh": "叔本华是第一个真正理解康德并超越他的哲学家。他打开了一扇门，尼采后来从中走了出去。",
+        "en": "Schopenhauer was the first philosopher who really understood Kant and went beyond him. He opened a door through which Nietzsche later walked."
+      },
+      "othersBy": "弗里德里希·尼采",
+      "othersByEn": "Friedrich Nietzsche"
+    },
+    "auguste-rodin": {
+      "others": {
+        "zh": "罗丹是雕塑界的莎士比亚，他不仅创造了形式，还创造了思想。",
+        "en": "Rodin is the Shakespeare of sculpture; he not only created forms but also created thought."
+      },
+      "othersBy": "保罗·瓦雷里",
+      "othersByEn": "Paul Valéry"
+    },
+    "augustus": {
+      "others": {
+        "zh": "奥古斯都改变了罗马，但罗马也改变了奥古斯都。他从共和国的毁灭者变成了帝国的创建者，从冷酷的政客变成了仁慈的统治者。",
+        "en": "Augustus changed Rome, but Rome also changed Augustus. He went from being the destroyer of the Republic to the creator of the Empire, from a cold politician to a benevolent ruler."
+      },
+      "othersBy": "卡西乌斯·狄奥",
+      "othersByEn": "Cassius Dio"
+    },
+    "aurangzeb": {
+      "others": {
+        "zh": "奥朗则布是一位伟大的君主，但他也是一位悲剧人物。他摧毁了莫卧儿帝国，因为他试图将它变成一个纯粹的伊斯兰国家，而莫卧儿帝国的力量恰恰在于它的多元性。",
+        "en": "Aurangzeb was a great emperor, but he was also a tragic figure. He destroyed the Mughal Empire because he tried to turn it into a purely Islamic state, while the strength of the Mughal Empire lay precisely in its pluralism."
+      },
+      "othersBy": "斯坦利·沃尔波特",
+      "othersByEn": "Stanney Wolpert"
+    },
+    "ba-jin": {
+      "others": {
+        "zh": "巴金是中国文学的良心，他的《随想录》是中国知识分子自我反思的里程碑。",
+        "en": "Ba Jin is the conscience of Chinese literature, and his 'Random Thoughts' is a milestone in the self-reflection of Chinese intellectuals."
+      },
+      "othersBy": "余秋雨",
+      "othersByEn": "Yu Qiuyu"
+    },
+    "bai-juyi": {
+      "others": {
+        "zh": "白乐天诗，老妪能解，然失之浅近。",
+        "en": "Bai Letian's poetry can be understood by old women, but it lacks depth and subtlety."
+      },
+      "othersBy": "苏轼",
+      "othersByEn": "Su Shi"
+    },
+    "barbara-mcclintock": {
+      "others": {
+        "zh": "麦克林托克的工作是20世纪生物学中最伟大的成就之一，它彻底改变了我们对基因如何运作的理解。",
+        "en": "McClintock's work is one of the greatest achievements in 20th-century biology; it revolutionized our understanding of how genes work."
+      },
+      "othersBy": "诺贝尔委员会",
+      "othersByEn": "Nobel Committee"
+    },
+    "baruch-spinoza": {
+      "others": {
+        "zh": "斯宾诺莎是所有现代思想家中最伟大的，也是最被误解的。",
+        "en": "Spinoza is the greatest and most misunderstood of all modern philosophers."
+      },
+      "othersBy": "弗里德里希·尼采",
+      "othersByEn": "Friedrich Nietzsche"
+    },
+    "benito-mussolini": {
+      "others": {
+        "zh": "墨索里尼是一个没有原则的冒险家，他的唯一原则就是权力。",
+        "en": "Mussolini was a man without principles, his only principle was power."
+      },
+      "othersBy": "温斯顿·丘吉尔",
+      "othersByEn": "Winston Churchill"
+    },
+    "benjamin-disraeli": {
+      "others": {
+        "zh": "迪斯雷利是一位伟大的政治家，他理解并热爱人民，他的一生是为了国家的利益而奋斗。",
+        "en": "Disraeli was a great statesman who understood and loved the people, and his life was a struggle for the interests of the nation."
+      },
+      "othersBy": "威廉·格拉德斯通",
+      "othersByEn": "William Gladstone"
+    },
+    "benjamin-franklin": {
+      "others": {
+        "zh": "富兰克林是第一位伟大的美国人，他集美国人所有特质于一身。",
+        "en": "Franklin was the first great American, he contained all the traits of Americans."
+      },
+      "othersBy": "亨利·斯蒂尔·康马格",
+      "othersByEn": "Henry Steele Commager"
+    },
+    "bertrand-russell": {
+      "others": {
+        "zh": "罗素是20世纪最伟大的智者之一，他的思想照亮了人类理性的道路，即使在最黑暗的时代。",
+        "en": "Russell was one of the greatest intellects of the 20th century, whose mind illuminated the path of human reason even in the darkest of times."
+      },
+      "othersBy": "艾萨克·阿西莫夫",
+      "othersByEn": "Isaac Asimov"
+    },
+    "bill-gates": {
+      "others": {
+        "zh": "比尔·盖茨可能是这个时代最了解软件的人，也是最了解如何通过软件赚钱的人。",
+        "en": "Bill Gates may be the person who understands software better than anyone else in this era, and also understands best how to make money through software."
+      },
+      "othersBy": "史蒂夫·乔布斯",
+      "othersByEn": "Steve Jobs"
+    },
+    "billie-holliday": {
+      "others": {
+        "zh": "比莉·哈乐黛的声音就像夜空中最亮的星星，照亮了爵士乐的天空。",
+        "en": "Billie Holiday's voice is like the brightest star in the night sky, illuminating the sky of jazz."
+      },
+      "othersBy": "爵士乐评论家",
+      "othersByEn": "Jazz critic"
+    },
+    "bob-dylan": {
+      "others": {
+        "zh": "迪伦是我们这个时代的荷马，一位用美国语言歌唱的诗人。",
+        "en": "Dylan is the Homer of our time, a poet who sings in the American language."
+      },
+      "othersBy": "约翰·列侬",
+      "othersByEn": "John Lennon"
+    },
+    "boris-yeltsin": {
+      "others": {
+        "zh": "叶利钦是俄罗斯历史上最伟大的民主主义者，他勇敢地对抗了共产主义体制，为俄罗斯带来了自由。",
+        "en": "Yeltsin was Russia's greatest democrat, who bravely fought against the communist system and brought freedom to Russia."
+      },
+      "othersBy": "米哈伊尔·戈尔巴乔夫",
+      "othersByEn": "Mikhail Gorbachev"
+    },
+    "bronte-sisters": {
+      "others": {
+        "zh": "艾米莉·勃朗特是一位隐藏在云层中的火山，平静的外表下燃烧着炽热的激情。",
+        "en": "Emily Bronte was a volcano hidden behind clouds of snow; the apparent tranquillity of her exterior concealed the glowing fires of her nature."
+      },
+      "othersBy": "伊丽莎白·盖斯凯尔",
+      "othersByEn": "Elizabeth Gaskell"
+    },
+    "c-s-lewis": {
+      "others": {
+        "zh": "刘易斯是一位能够将神学思想转化为生动故事的罕见天才，他的作品既有深度又有广度，能够同时满足儿童和成人的精神需求。",
+        "en": "Lewis was a rare genius who could translate theological ideas into vivid stories, his works possessing both depth and breadth, capable of satisfying the spiritual needs of both children and adults."
+      },
+      "othersBy": "菲利普·普尔曼",
+      "othersByEn": "Philip Pullman"
+    },
+    "cai-lun": {
+      "others": {
+        "zh": "蔡伦之纸，天下通用，自是莫不从用，天下咸称蔡侯纸。",
+        "en": "Cai Lun's paper was used throughout the world, and from then on, everyone used it. The world came to call it 'Caihou paper'."
+      },
+      "othersBy": "《后汉书》",
+      "othersByEn": "Book of the Later Han"
+    },
+    "camillo-di-cavour": {
+      "others": {
+        "zh": "加富尔是意大利统一运动中最具远见和才智的政治家，他懂得何时应该前进，何时应该等待，何时应该妥协。",
+        "en": "Cavour was the most far-sighted and intelligent statesman in the Italian unification movement; he knew when to advance, when to wait, and when to compromise."
+      },
+      "othersBy": "朱塞佩·马志尼",
+      "othersByEn": "Giuseppe Mazzini"
+    },
+    "cao-cao": {
+      "others": {
+        "zh": "治世之能臣，乱世之奸雄。",
+        "en": "A capable official in times of order, a treacherous hero in times of chaos."
+      },
+      "othersBy": "许劭",
+      "othersByEn": "Xu Shao"
+    },
+    "cao-xueqin": {
+      "others": {
+        "zh": "《红楼梦》是一部伟大的社会百科全书，它不仅是中国古典小说的巅峰之作，也是世界文学宝库中的瑰宝。",
+        "en": "'Dream of the the Red Chamber' is a great social encyclopedia. It is not only the pinnacle of Chinese classical fiction but also a treasure in the world's literary treasure house."
+      },
+      "othersBy": "鲁迅",
+      "othersByEn": "Lu Xun"
+    },
+    "caravaggio-caravaggio": {
+      "others": {
+        "zh": "卡拉瓦乔是绘画史上最伟大的画家之一，他的作品具有革命性的力量。",
+        "en": "Caravaggio is one of the greatest painters in the history of art, whose works have revolutionary power."
+      },
+      "othersBy": "温克尔曼",
+      "othersByEn": "Winckelmann"
+    },
+    "cardinal-mazarin": {
+      "others": {
+        "zh": "马扎然是法国历史上最伟大的政治家之一，他不仅延续了黎塞留的事业，还为法国的辉煌未来奠定了基础。",
+        "en": "Mazarin was one of the greatest statesmen in French history; not only did he continue Richelieu's work, but he also laid the foundation for France's glorious future."
+      },
+      "othersBy": "伏尔泰",
+      "othersByEn": "Voltaire"
+    },
+    "cardinal-richelieu": {
+      "others": {
+        "zh": "黎塞留是法国历史上最伟大的政治家，他不仅改变了法国的命运，也改变了欧洲的命运。",
+        "en": "Richelieu was the greatest statesman in French history; he not only changed the destiny of France but also the destiny of Europe."
+      },
+      "othersBy": "伏尔泰",
+      "othersByEn": "Voltaire"
+    },
+    "carl-jung": {
+      "others": {
+        "zh": "荣格是弗洛伊德最伟大的发现，也是他最大的错误。",
+        "en": "Jung was Freud's greatest discovery and his greatest mistake."
+      },
+      "othersBy": "安娜·弗洛伊德",
+      "othersByEn": "Anna Freud"
+    },
+    "carolus-linnaeus": {
+      "others": {
+        "zh": "林奈是植物学领域的牛顿，他发现了植物界的秩序，正如牛顿发现了天体运动的规律。",
+        "en": "Linnaeus was the Newton of botany; he discovered the order in the plant world just as Newton discovered the laws of celestial motion."
+      },
+      "othersBy": "让-巴蒂斯特·拉马克",
+      "othersByEn": "Jean-Baptiste Lamarck"
+    },
+    "catherine-the-great": {
+      "others": {
+        "zh": "叶卡捷琳娜是坐在王位上的伏尔泰。",
+        "en": "Catherine was Voltaire sitting on a throne."
+      },
+      "othersBy": "德·梅斯特尔",
+      "othersByEn": "Joseph de Maistre"
+    },
+    "charlemagne": {
+      "others": {
+        "zh": "查理曼的统治如此伟大，以至于他几乎可以被称为欧洲的第二个创始人。",
+        "en": "Charlemagne's rule was so great that he might almost be called a second founder of Europe."
+      },
+      "othersBy": "爱因哈德",
+      "othersByEn": "Einhard"
+    },
+    "charles-babbage": {
+      "others": {
+        "zh": "巴贝奇先生设计的分析机包含了现代计算机的所有基本原理，除了电的使用外，它包含了巴贝奇时代之后的所有计算机的基本原理。",
+        "en": "Mr. Babbage's Analytical Engine contains the elementary principles of all modern computers, except for the use of electricity; it contains all the principles of the modern computer except that of electricity."
+      },
+      "othersBy": "艾伦·图灵",
+      "othersByEn": "Alan Turing"
+    },
+    "charles-baudelaire": {
+      "others": {
+        "zh": "波德莱尔是第一位真正的现代诗人，他发现了大都市中的孤独，并教会了人们如何在这种孤独中生活。",
+        "en": "Baudelaire was the first truly modern poet; he discovered the loneliness in the great city and taught people how to live in that loneliness."
+      },
+      "othersBy": "沃尔特·本雅明",
+      "othersByEn": "Walter Benjamin"
+    },
+    "charles-darwin": {
+      "others": {
+        "zh": "达尔文的著作是生物学史上最伟大的成就之一，它彻底改变了我们对自己在自然界中位置的理解。",
+        "en": "Darwin's work is one of the greatest achievements in the history of biology, which completely changed our understanding of our place in the natural world."
+      },
+      "othersBy": "恩斯特·迈尔",
+      "othersByEn": "Ernst Mayr"
+    },
+    "charles-de-gaulle": {
+      "others": {
+        "zh": "戴高乐将军是法国历史上最伟大的爱国者，他使法国重新获得了在世界上的地位和尊严。",
+        "en": "General de Gaulle was the greatest patriot in French history, he restored France's position and dignity in the world."
+      },
+      "othersBy": "法国前总统弗朗索瓦·密特朗",
+      "othersByEn": "François Mitterrand, former President of France"
+    },
+    "charles-dickens": {
+      "others": {
+        "zh": "狄更斯是英国文学史上最伟大的创造者，他创造了比莎士比亚更多的鲜活人物，比任何人都更深刻地描绘了英国社会的全景。",
+        "en": "Dickens is the greatest creator in the history of English literature; he created more living characters than Shakespeare and depicted the panorama of British society more profoundly than anyone else."
+      },
+      "othersBy": "乔治·吉辛",
+      "othersByEn": "George Gissing"
+    },
+    "charles-v": {
+      "others": {
+        "zh": "查理五世是历史上唯一一位能够说'我的语言是西班牙语，我的帝国是太阳永不落下'的君主。",
+        "en": "Charles V was the only monarch in history who could say 'My language is Spanish, and my empire is where the sun never sets.'"
+      },
+      "othersBy": "弗朗西斯科·洛佩斯·德·戈麦拉",
+      "othersByEn": "Francisco López de Gómara"
+    },
+    "charlie-chaplin": {
+      "others": {
+        "zh": "卓别林不需要台词，他的表情就是整个世界。",
+        "en": "Chaplin doesn't need dialogue; his face is the whole world."
+      },
+      "othersBy": "法国导演让·雷诺阿",
+      "othersByEn": "French director Jean Renoir"
+    },
+    "che-guevara": {
+      "others": {
+        "zh": "他们以为杀了他就能令他停止战斗……但今天，他无处不在，只要有正义要维护。",
+        "en": "They thought that by killing him he would cease to fight... but today he is everywhere, wherever there is a just cause to defend."
+      },
+      "othersBy": "菲德尔·卡斯特罗",
+      "othersByEn": "Fidel Castro"
+    },
+    "chinua-achebe": {
+      "others": {
+        "zh": "钦努阿·阿契贝是非洲文学的巨匠，他的作品将非洲的声音带到了世界。",
+        "en": "Chinua Achebe is a master of African literature, and his works have brought the voice of Africa to the world."
+      },
+      "othersBy": "Wole Soyinka",
+      "othersByEn": "Wole Soyinka"
+    },
+    "christiaan-huygens": {
+      "others": {
+        "zh": "惠更斯是那个时代最伟大的几何学家之一，他的头脑如此清晰，如此有条理，以至于他能够解决最困难的问题。",
+        "en": "Huygens was one of the greatest geometers of his time, his mind was so clear and so orderly that he was able to solve the most difficult problems."
+      },
+      "othersBy": "莱布尼茨",
+      "othersByEn": "Gottfried Wilhelm Leibniz"
+    },
+    "christopher-columbus": {
+      "others": {
+        "zh": "哥伦布的航行是人类历史上最重大的事件之一，它不仅改变了世界地图，还彻底改变了人类的历史进程。",
+        "en": "Columbus's voyages were among the most significant events in human history, not only changing the map of the world but fundamentally altering the course of human history."
+      },
+      "othersBy": "萨缪尔·埃利奥特·莫里森",
+      "othersByEn": "Samuel Eliot Morison"
+    },
+    "cicero": {
+      "others": {
+        "zh": "西塞罗的舌头比他的剑更令罗马元老院恐惧。",
+        "en": "Cicero's tongue was more feared in the Roman Senate than any sword."
+      },
+      "othersBy": "普鲁塔克",
+      "othersByEn": "Plutarch"
+    },
+    "claude-debussy": {
+      "others": {
+        "zh": "德彪西的音乐就像月光下的花园，神秘而美丽，每一刻都在变化，却又保持着永恒的魅力。",
+        "en": "Debussy's music is like a garden in moonlight, mysterious and beautiful, changing with every moment yet retaining eternal charm."
+      },
+      "othersBy": "皮埃尔·布列兹",
+      "othersByEn": "Pierre Boulez"
+    },
+    "claude-monet": {
+      "others": {
+        "zh": "莫奈是唯一一位用眼睛看世界，然后用画笔将其呈现出来的画家。他教会了我们如何真正地观看。",
+        "en": "Monet is the only one of us who has painted the face of the world as it is at this moment in history. He has taught us to see."
+      },
+      "othersBy": "安德烈·纪德",
+      "othersByEn": "André Gide"
+    },
+    "clayton-kohler": {
+      "others": {
+        "zh": "香农的工作是数学和工程学的完美结合，他对我们理解信息世界的贡献是无法估量的。",
+        "en": "Shannon's work is a perfect blend of mathematics and engineering, and his contribution to our understanding of the information world is immeasurable."
+      },
+      "othersBy": "爱德华·泰勒",
+      "othersByEn": "Edward Taylor"
+    },
+    "cleopatra-vii": {
+      "others": {
+        "zh": "她拥有超越美貌的智慧，她的魅力不仅在于外表，更在于她的才智和雄辩。",
+        "en": "She possessed wisdom beyond her beauty; her charm lay not just in her appearance, but in her intellect and eloquence."
+      },
+      "othersBy": "普鲁塔克",
+      "othersByEn": "Plutarch"
+    },
+    "coco-chanel": {
+      "others": {
+        "zh": "香奈儿不是简单地创造了时尚，她创造了女性穿着的方式。",
+        "en": "Chanel didn't just create fashion; she created the way women dress."
+      },
+      "othersBy": "安德烈·莫罗亚",
+      "othersByEn": "André Maurois"
+    },
+    "confucius": {
+      "others": {
+        "zh": "天不生仲尼，万古如长夜。",
+        "en": "If Heaven had not sent forth Confucius, the ages would have been like a long night."
+      },
+      "othersBy": "朱熹",
+      "othersByEn": "Zhu Xi"
+    },
+    "dan-dong": {
+      "others": {
+        "zh": "同时代人与后世史家对丹东的评价两极分化：有人称他为革命的巨人，也有人批评其手段与操守，相关引语需结合具体文献语境使用。",
+        "en": "Contemporaries and later historians have assessed Danton in sharply divergent terms: some called him a giant of the Revolution, while others criticized his methods and conduct; such quotations should be used with attention to their specific documentary context."
+      },
+      "othersBy": "丹东研究主要依据大革命时期的议会记录、报刊、回忆录与书信，以及后世传记与史学论著；具体引语与评价应核对原始文献与权威版本。",
+      "othersByEn": "Research on Danton relies primarily on revolutionary-era parliamentary records, newspapers, memoirs, and correspondence, as well as later biographies and historical scholarship; specific quotations and assessments should be checked against primary sources and authoritative editions."
+    },
+    "daniel-daniels-bonneti": {
+      "others": {
+        "zh": "伯努利是数学史上最伟大的数学家之一，他的工作对整个科学界都产生了深远的影响。",
+        "en": "Bernoulli is one of the greatest mathematicians in the history of mathematics, and his work has had a profound impact on the entire scientific community."
+      },
+      "othersBy": "恩斯特·马赫",
+      "othersByEn": "Ernst Mach"
+    },
+    "dante-alighieri": {
+      "others": {
+        "zh": "但丁是所有诗人的导师，是所有文学的光荣。",
+        "en": "Dante is the master of all poets, the glory of all literature."
+      },
+      "othersBy": "乔万尼·薄伽丘",
+      "othersByEn": "Giovanni Boccaccio"
+    },
+    "david-hume": {
+      "others": {
+        "zh": "休谟是我们民族最卓越的天才之一，他的著作几乎涵盖了人类知识的所有领域，并以罕见的清晰和优雅表达出来。",
+        "en": "Hume was one of the greatest geniuses that Great Britain has ever produced, whose writings cover nearly all the branches of human knowledge, and are expressed with a rare degree of clearness and elegance."
+      },
+      "othersBy": "亚当·斯密",
+      "othersByEn": "Adam Smith"
+    },
+    "denis-diderot": {
+      "others": {
+        "zh": "狄德罗是法国最伟大的作家，他拥有最丰富的思想、最生动的想象力和最自由的灵魂。",
+        "en": "Diderot was the greatest writer France has ever produced; he had the richest mind, the liveliest imagination, and the freest soul."
+      },
+      "othersBy": "维克多·雨果",
+      "othersByEn": "Victor Hugo"
+    },
+    "dmitri-shostakovich": {
+      "others": {
+        "zh": "肖斯塔科维奇的音乐是20世纪最伟大的悲剧性作品，它们不仅记录了一个时代的苦难，更超越了时代，成为全人类共同的精神财富。",
+        "en": "Shostakovich's music represents the greatest tragic works of the 20th century; they not only record the suffering of an era but transcend it to become a common spiritual treasure for all humanity."
+      },
+      "othersBy": "瓦列里·格吉耶夫",
+      "othersByEn": "Valery Gergiev"
+    },
+    "dmitrii-mendeleev": {
+      "others": {
+        "zh": "门捷列夫的元素周期表是化学史上最伟大的发现之一。",
+        "en": "Mendeleev's periodic table is one of the greatest discoveries in the history of chemistry."
+      },
+      "othersBy": "亨利·莫斯利",
+      "othersByEn": "Henry Moseley"
+    },
+    "du-fu": {
+      "others": {
+        "zh": "杜甫的诗，如泰山北斗，照耀千古。",
+        "en": "Du Fu's poetry is like the Taihang Mountains and the North Star, shining through the ages."
+      },
+      "othersBy": "鲁迅",
+      "othersByEn": "Lu Xun"
+    },
+    "duhwan-cho": {
+      "others": {
+        "zh": "全斗焕是韩国民主史上最黑暗的一页，他的统治是对韩国人民尊严的践踏。",
+        "en": "Chun Doo-hwan represents the darkest page in South Korea's democratic history; his rule was a trampling on the dignity of the Korean people."
+      },
+      "othersBy": "金大中",
+      "othersByEn": "Kim Dae-jung"
+    },
+    "duke-ellington": {
+      "others": {
+        "zh": "杜克·艾灵顿是美国音乐史上最伟大的作曲家之一，他的音乐超越了爵士乐的范畴，成为美国文化遗产不可或缺的一部分。",
+        "en": "Duke Ellington was one of the greatest composers in American music history; his music transcended the boundaries of jazz to become an indispensable part of America's cultural heritage."
+      },
+      "othersBy": "约翰·F·肯尼迪",
+      "othersByEn": "John F. Kennedy"
+    },
+    "duke-of-wellington": {
+      "others": {
+        "zh": "滑铁卢战役是在伊顿公学的操场上打赢的。",
+        "en": "The Battle of Waterloo was won on the playing fields of Eton.",
+        "zhSource": "通常被认为出自威灵顿公爵，但实际起源有争议",
+        "enSource": "Often attributed to Wellington, but its actual origin is disputed"
+      },
+      "othersBy": "威灵顿公爵",
+      "othersByEn": "Duke of Wellington"
+    },
+    "dwight-eisenhower": {
+      "others": {
+        "zh": "艾森豪威尔是一位伟大的将军，但更是一位伟大的总统。他理解权力的本质，并知道如何使用它。",
+        "en": "Eisenhower was a great general, but he was an even greater president. He understood the nature of power and knew how to use it."
+      },
+      "othersBy": "约翰·肯尼迪",
+      "othersByEn": "John F. Kennedy"
+    },
+    "edgar-allan-poe": {
+      "others": {
+        "zh": "坡的天才在于他能够将最平凡的事物转化为恐怖，将最熟悉的场景变成噩梦，将最普通的词语变成魔咒。",
+        "en": "Poe's genius lay in his ability to transform the most ordinary things into terror, the most familiar scenes into nightmares, and the most common words into spells."
+      },
+      "othersBy": "安德烈·纪德",
+      "othersByEn": "André Gide"
+    },
+    "edgar-degas": {
+      "others": {
+        "zh": "德加是唯一一位真正理解美的画家，他能够从最平凡的事物中发现诗意。",
+        "en": "Degas was the only painter who truly understood beauty; he could find poetry in the most ordinary things."
+      },
+      "othersBy": "克劳德·莫奈",
+      "othersByEn": "Claude Monet"
+    },
+    "edouard-manet": {
+      "others": {
+        "zh": "马奈是一位伟大的画家，他教会了我们如何用眼睛去看，而不是用头脑去思考。",
+        "en": "Manet was a great painter who taught us how to see with our eyes, not with our minds."
+      },
+      "othersBy": "埃米尔·左拉",
+      "othersByEn": "Émile Zola"
+    },
+    "edward-jenner": {
+      "others": {
+        "zh": "詹纳的发现是人类历史上最伟大的福祉之一，它拯救了比任何其他发现都更多的人类生命。",
+        "en": "Jenner's discovery is one of the greatest blessings in human history; it has saved more human lives than any other discovery."
+      },
+      "othersBy": "托马斯·赫胥黎",
+      "othersByEn": "Thomas Huxley"
+    },
+    "edwin-hubble": {
+      "others": {
+        "zh": "哈勃是20世纪最伟大的科学家之一，他的工作改变了我们对宇宙的认识。",
+        "en": "Hubble is one of the greatest scientists of the 20th century, whose work changed our understanding of the universe."
+      },
+      "othersBy": "乔治·伽莫夫",
+      "othersByEn": "George Gamow"
+    },
+    "eileen-chang": {
+      "others": {
+        "zh": "张爱玲是中国现代文学史上最富才华的作家之一，她的作品以独特的女性视角和对人性的深刻洞察而著称。",
+        "en": "Eileen Chang is one of the most talented writers in the history of modern Chinese literature, known for her unique female perspective and profound insights into human nature."
+      },
+      "othersBy": "夏志清",
+      "othersByEn": "C.T. Hsia"
+    },
+    "elizabeth-i": {
+      "others": {
+        "zh": "她统治的时期是英国历史上最辉煌的时代之一，她本人是那个时代最杰出的人物。",
+        "en": "The period of her reign was one of the most glorious in English history, and she herself was the most remarkable figure of that era."
+      },
+      "othersBy": "约翰·尼尔",
+      "othersByEn": "John Neale"
+    },
+    "elvis-presley": {
+      "others": {
+        "zh": "他拥有上帝赐予的声音，但从未真正理解自己创造的文化革命。",
+        "en": "He had a voice given by God, but never truly understood the cultural revolution he created."
+      },
+      "othersBy": "鲍勃·迪伦",
+      "othersByEn": "Bob Dylan"
+    },
+    "emile-zola": {
+      "others": {
+        "zh": "左拉是法国文学中最重要的名字之一，他不仅是一位伟大的小说家，更是一位伟大的社会改革者，他的作品照亮了无数黑暗的角落。",
+        "en": "Zola is one of the most important names in French literature; he was not only a great novelist but also a great social reformer whose works illuminated countless dark corners."
+      },
+      "othersBy": "安德烈·纪德",
+      "othersByEn": "André Gide"
+    },
+    "emily-dickinson": {
+      "others": {
+        "zh": "狄金森的诗歌是如此独特，以至于它们似乎来自另一个星球，但它们又如此深刻地扎根于人类经验。",
+        "en": "Dickinson's poetry is so unique that it seems as if it came from another planet, yet it is so deeply rooted in human experience."
+      },
+      "othersBy": "哈罗德·布鲁姆",
+      "othersByEn": "Harold Bloom"
+    },
+    "emme-noether": {
+      "others": {
+        "zh": "根据当代数学家们的普遍意见，诺特小姐是自女性高等教育开始以来，最富有创造力的数学天才。",
+        "en": "In the judgment of the most competent living mathematicians, Fräulein Noether was the most significant creative mathematical genius thus far produced since the higher education of women began."
+      },
+      "othersBy": "赫尔曼·外尔",
+      "othersByEn": "Hermann Weyl"
+    },
+    "erasmus-of-rotterdam": {
+      "others": {
+        "zh": "伊拉斯谟是欧洲最博学的人，他使整个欧洲都变得更有智慧。",
+        "en": "Erasmus was the most learned man in Europe, he made the whole of Europe wiser."
+      },
+      "othersBy": "约翰·科利特",
+      "othersByEn": "John Colet"
+    },
+    "erich-honecker": {
+      "others": {
+        "zh": "昂纳克是20世纪最成功的独裁者之一，他成功地让一个国家相信，没有自由也能有尊严。",
+        "en": "Honecker was one of the most successful dictators of the 20th century, who succeeded in making a country believe that one could have dignity without freedom."
+      },
+      "othersBy": "历史学家蒂姆·沃特莫尔",
+      "othersByEn": "Historian Tim Watermoor"
+    },
+    "ernest-hemingway": {
+      "others": {
+        "zh": "海明威是一位真正的艺术家，他的作品简洁而有力，每一个词都经过精心选择，每一个句子都充满力量。",
+        "en": "Hemingway was a true artist, whose work was both simple and powerful, with every word carefully chosen and every sentence filled with strength."
+      },
+      "othersBy": "马尔科姆·考利",
+      "othersByEn": "Malcolm Cowley"
+    },
+    "ernest-rutherford": {
+      "others": {
+        "zh": "卢瑟福是一位具有非凡直觉的物理学家，他能够从最复杂的实验数据中提炼出最简单的真理。",
+        "en": "Rutherford was a physicist of extraordinary intuition who could distill the simplest truths from the most complex experimental data."
+      },
+      "othersBy": "马克·奥利弗·奥尔",
+      "othersByEn": "Mark Oliver Oliphant"
+    },
+    "erwin-rommel": {
+      "others": {
+        "zh": "隆美尔是一位伟大的将领，一位勇敢的战士，一位真正的军人。他赢得了我们的尊重，即使他是我们的敌人。",
+        "en": "Rommel was a great commander, a brave soldier, and a true military man. He earned our respect, even though he was our enemy.",
+        "othersBy": "乔治·巴顿",
+        "othersByEn": "George Patton"
+      },
+      "othersBy": "",
+      "othersByEn": ""
+    },
+    "erwin-schrodinger": {
+      "others": {
+        "zh": "薛定谔的工作是量子力学中最优美的数学形式之一，它以一种令人惊讶的方式揭示了微观世界的本质。",
+        "en": "Schrödinger's work is one of the most elegant mathematical formulations in quantum mechanics, revealing the nature of the microscopic world in a surprising way."
+      },
+      "othersBy": "马克斯·普朗克",
+      "othersByEn": "Max Planck"
+    },
+    "euclid-euclid": {
+      "others": {
+        "zh": "欧几里得是数学的化身，他的《几何原本》是数学的圣经。",
+        "en": "Euclid is the embodiment of mathematics, and his 'Elements' is the Bible of mathematics."
+      },
+      "othersBy": "阿基米德",
+      "othersByEn": "Archimedes"
+    },
+    "f-scott-fitzgerald": {
+      "others": {
+        "zh": "菲茨杰拉德是一位才华横溢但被自己才华所累的作家，他拥有一种罕见的品质——能够将个人经历转化为具有普遍意义的艺术。",
+        "en": "Fitzgerald was a writer of extraordinary talent who was both blessed and burdened by that talent, possessing the rare quality of being able to transform personal experience into art of universal significance."
+      },
+      "othersBy": "马修·布鲁科利",
+      "othersByEn": "Matthew Bruccoli"
+    },
+    "fellini-federico": {
+      "others": {
+        "zh": "费里尼是电影史上最伟大的视觉诗人，他的作品超越了语言和文化的界限，成为全人类共同的精神财富。",
+        "en": "Fellini is the greatest visual poet in the history of cinema, whose works transcend linguistic and cultural boundaries to become a common spiritual treasure for all humanity."
+      },
+      "othersBy": "马丁·斯科塞斯",
+      "othersByEn": "Martin Scorsese"
+    },
+    "ferdinand-magellan": {
+      "others": {
+        "zh": "“麦哲伦是一位真正的英雄，他的勇气和决心将永远被铭记。”",
+        "en": "\"Ferdinand Magellan is a true hero; his courage and determination will be remembered forever.\""
+      },
+      "othersBy": "历史学家",
+      "othersByEn": "Historians"
+    },
+    "fidel-castro": {
+      "others": {
+        "zh": "菲德尔·卡斯特罗是20世纪最持久、最复杂的政治人物之一，他既是革命者又是独裁者，既是理想主义者又是实用主义者，既是民族英雄又是国际争议人物。",
+        "en": "Fidel Castro was one of the most enduring and complex political figures of the 20th century - at once revolutionary and dictator, idealist and pragmatist, national hero and international controversial figure."
+      },
+      "othersBy": "历史学家尤尔根·布赫瓦尔德",
+      "othersByEn": "Historian Jürgen Buchwald"
+    },
+    "florence-nightingale": {
+      "others": {
+        "zh": "南丁格尔小姐是一位真正的天才，她将统计学应用于人类福祉，这是前所未有的。她不仅是一位伟大的护士，更是一位伟大的社会改革家和统计学家。",
+        "en": "Miss Nightingale is a true genius who applied statistics to human welfare in a way never before seen. She was not only a great nurse but also a great social reformer and statistician."
+      },
+      "othersBy": "托马斯·赫胥黎",
+      "othersByEn": "Thomas Huxley"
+    },
+    "francis-bacon": {
+      "others": {
+        "zh": "培根是科学的哥伦布，他发现了新大陆，不是地理上的，而是思想上的。",
+        "en": "Bacon is the Columbus of science; he discovered a new world, not in geography, but in thought."
+      },
+      "othersBy": "威廉·哈维",
+      "othersByEn": "William Harvey"
+    },
+    "francisco-franco": {
+      "others": {
+        "zh": "佛朗哥是20世纪最长寿的独裁者之一，他的统治既带来了稳定，也留下了深刻的伤痕。",
+        "en": "Franco was one of the longest-lasting dictators of the 20th century; his rule brought stability but also left deep scars."
+      },
+      "othersBy": "历史学家保罗·普雷斯顿",
+      "othersByEn": "Historian Paul Preston"
+    },
+    "francois-mitterrand": {
+      "others": {
+        "zh": "密特朗是一位伟大的演员，他扮演了总统的角色，但从未成为总统本人。",
+        "en": "Mitterrand was a great actor who played the role of president but never became the president himself."
+      },
+      "othersBy": "菲利普·德莱奥",
+      "othersByEn": "Philippe Deleo"
+    },
+    "frank-lloyd-wright": {
+      "others": {
+        "zh": "赖特是建筑界的摩西，他带领人们走出传统建筑的荒野，进入现代建筑的应许之地。",
+        "en": "Wright was the Moses of modern architecture, leading his people out of the wilderness of traditional design into the promised land of modernism."
+      },
+      "othersBy": "菲利普·约翰逊",
+      "othersByEn": "Philip Johnson"
+    },
+    "franklin-roosevelt": {
+      "others": {
+        "zh": "他是一位战争中的领袖，一位和平中的领袖，一位经济危机中的领袖，一位精神危机中的领袖。",
+        "en": "He was a war leader, a peace leader, a leader in economic crisis, a leader in spiritual crisis."
+      },
+      "othersBy": "亨利·华莱士",
+      "othersByEn": "Henry Wallace"
+    },
+    "franz-kafka": {
+      "others": {
+        "zh": "卡夫卡是我们这个时代最伟大的作家之一，他的作品揭示了人类存在的根本困境。",
+        "en": "Kafka is one of the greatest writers of our time, his works reveal the fundamental predicament of human existence."
+      },
+      "othersBy": "瓦尔特·本雅明",
+      "othersByEn": "Walter Benjamin"
+    },
+    "franz-liszt": {
+      "others": {
+        "zh": "李斯特是钢琴的帕格尼尼，他不仅演奏钢琴，他本身就是钢琴。",
+        "en": "Liszt is the Paganini of the piano, he doesn't just play the piano, he is the piano."
+      },
+      "othersBy": "汉斯·冯·彪罗",
+      "othersByEn": "Hans von Bülow"
+    },
+    "franz-schubert": {
+      "others": {
+        "zh": "舒伯特的音乐是上帝赐予的礼物，他的旋律直接来自天堂。",
+        "en": "Schubert's music is a gift from God, his melodies come directly from heaven."
+      },
+      "othersBy": "罗伯特·舒曼",
+      "othersByEn": "Robert Schumann"
+    },
+    "frederic-chopin": {
+      "others": {
+        "zh": "肖邦的音乐是隐藏在花丛中的大炮。",
+        "en": "Chopin's music is a cannon concealed in flowers."
+      },
+      "othersBy": "舒曼",
+      "othersByEn": "Robert Schumann"
+    },
+    "frederick-the-great": {
+      "others": {
+        "zh": "腓特烈大帝是欧洲历史上最伟大的君主之一，他既是军事天才，也是开明哲学家，将普鲁士从一个边陲小国转变为欧洲强国。",
+        "en": "Frederick the Great was one of the greatest monarchs in European history, both a military genius and an enlightened philosopher who transformed Prussia from a marginal state into a European great power."
+      },
+      "othersBy": "威廉二世",
+      "othersByEn": "Kaiser Wilhelm II"
+    },
+    "frida-kahlo": {
+      "others": {
+        "zh": "弗里达·卡罗是一位伟大的画家，她用她的生命和痛苦创作了令人难以置信的艺术。",
+        "en": "Frida Kahlo was a great painter who created incredible art from her life and suffering."
+      },
+      "othersBy": "迭戈·里维拉",
+      "othersByEn": "Diego Rivera"
+    },
+    "friedrich-engels": {
+      "others": {
+        "zh": "恩格斯是马克思的第二个自我，没有他，马克思可能永远无法完成《资本论》，而马克思主义也永远不会达到它所达到的完善程度。",
+        "en": "Engels was Marx's second self; without him, Marx might never have completed 'Capital,' and Marxism would never have reached the degree of perfection it attained."
+      },
+      "othersBy": "爱德华·伯恩施坦",
+      "othersByEn": "Eduard Bernstein"
+    },
+    "friedrich-nietzsche": {
+      "others": {
+        "zh": "尼采是一位伟大的心理学家，他的哲学是对人类灵魂的深刻探索。",
+        "en": "Nietzsche was a great psychologist, and his philosophy is a profound exploration of the human soul."
+      },
+      "othersBy": "卡尔·雅斯贝尔斯",
+      "othersByEn": "Karl Jaspers"
+    },
+    "friedrich-paulus": {
+      "others": {
+        "zh": "保卢斯是德国军队中唯一一个有勇气说'不'的人。",
+        "en": "Paulus was the only man in the German army who had the courage to say 'no'."
+      },
+      "othersBy": "康拉德·阿登纳",
+      "othersByEn": "Konrad Adenauer"
+    },
+    "friedrich-schiller": {
+      "others": {
+        "zh": "席勒是德国历史上最伟大的诗人之一，他的作品充满了对自由的热爱和对人类尊严的坚定信念。",
+        "en": "Schiller is one of the greatest poets in German history, whose works are filled with a love for freedom and a firm belief in human dignity."
+      },
+      "othersBy": "托马斯·曼",
+      "othersByEn": "Thomas Mann"
+    },
+    "fyodor-dostoevsky": {
+      "others": {
+        "zh": "陀思妥耶夫斯基是唯一一个让我感到自卑的作家，因为他的才华如此巨大，以至于我有时会想，如果上帝不存在，那么陀思妥耶夫斯基就是上帝。",
+        "en": "Dostoevsky is the only writer who ever made me feel inferior, because his talent was so immense that I sometimes thought that if God didn't exist, Dostoevsky would be God."
+      },
+      "othersBy": "阿尔贝·加缪",
+      "othersByEn": "Albert Camus"
+    },
+    "gabriel-garcia-marquez": {
+      "others": {
+        "zh": "马尔克斯是拉丁美洲的荷马，他的《百年孤独》是我们时代的《伊利亚特》。",
+        "en": "García Márquez is the Homer of Latin America, and 'One Hundred Years of Solitude' is our 'Iliad'."
+      },
+      "othersBy": "马里奥·巴尔加斯·略萨",
+      "othersByEn": "Mario Vargas Llosa"
+    },
+    "galileo-galilei": {
+      "others": {
+        "zh": "伽利略是现代科学之父，他教会了我们如何思考，而不是思考什么。",
+        "en": "Galileo is the father of modern science; he taught us how to think, not what to think."
+      },
+      "othersBy": "阿尔伯特·爱因斯坦",
+      "othersByEn": "Albert Einstein"
+    },
+    "gamal-abdel-nasser": {
+      "others": {
+        "zh": "纳赛尔是阿拉伯世界最伟大的领导人，他给了阿拉伯民族尊严和希望。",
+        "en": "Nasser was the greatest leader in the Arab world, he gave the Arab nation dignity and hope."
+      },
+      "othersBy": "哈菲兹·阿萨德",
+      "othersByEn": "Hafez al-Assad"
+    },
+    "genghis-khan": {
+      "others": {
+        "zh": "成吉思汗是历史上最伟大的军事天才，他创建的帝国和制度对世界历史产生了深远影响。",
+        "en": "Genghis Khan was the greatest military genius in history, and the empire and systems he created had a profound impact on world history."
+      },
+      "othersBy": "杰克·威泽弗德",
+      "othersByEn": "Jack Weatherford"
+    },
+    "george-berkeley": {
+      "others": {
+        "zh": "贝克莱主教是一位才华横溢、思想敏锐的人，但他的哲学体系建立在一个根本性的谬误之上，即认为物质实体依赖于心灵的存在。",
+        "en": "Bishop Berkeley was a man of great talent and sharp intellect, but his philosophical system is built upon a fundamental error, namely that material substances depend on the existence of minds."
+      },
+      "othersBy": "大卫·休谟",
+      "othersByEn": "David Hume"
+    },
+    "george-gershwin": {
+      "others": {
+        "zh": "格什温是唯一能够将爵士乐提升到艺术高度而不失去其本质的作曲家。",
+        "en": "Gershwin is the only composer who could elevate jazz to an art form without losing its essence."
+      },
+      "othersBy": "伦纳德·伯恩斯坦",
+      "othersByEn": "Leonard Bernstein"
+    },
+    "george-orwell": {
+      "others": {
+        "zh": "奥威尔是我们这个时代最伟大的道德声音之一，他的作品提醒我们，自由不是理所当然的，需要我们永远为之奋斗。",
+        "en": "Orwell was one of the great moral voices of our time, whose work reminds us that freedom is not something to be taken for granted but must be fought for, generation after generation."
+      },
+      "othersBy": "克里斯托弗·希钦斯",
+      "othersByEn": "Christopher Hitchens"
+    },
+    "george-washington": {
+      "others": {
+        "zh": "华盛顿将军的品格和才能使他成为这个国家最伟大的人物。他的智慧、勇气和无私使他赢得了所有人的尊敬。",
+        "en": "General Washington's character and abilities have made him the greatest man of this country. His wisdom, courage, and selflessness have earned him the respect of all."
+      },
+      "othersBy": "托马斯·潘恩",
+      "othersByEn": "Thomas Paine"
+    },
+    "georgia-okeeffe": {
+      "others": {
+        "zh": "她将我们熟悉的事物变得陌生，又将陌生的事物变得熟悉，这种能力使她成为最伟大的美国画家之一。",
+        "en": "She took the familiar and made it unfamiliar, and the unfamiliar and made it familiar—an ability that makes her one of the greatest American painters."
+      },
+      "othersBy": "艺术评论家罗莎琳德·克劳斯",
+      "othersByEn": "Art critic Rosalind Krauss"
+    },
+    "georgy-zhukov": {
+      "others": {
+        "zh": "朱可夫是苏联最伟大的军事天才，没有他，我们不可能赢得这场战争。",
+        "en": "Zhukov was the greatest military genius the Soviet Union ever produced. Without him, we could not have won this war."
+      },
+      "othersBy": "约瑟夫·斯大林",
+      "othersByEn": "Joseph Stalin"
+    },
+    "giacomo-puccini": {
+      "others": {
+        "zh": "普契尼的音乐就像一把小刀，能精准地刺入人心最柔软的地方。",
+        "en": "Puccini's music is like a small knife that can precisely pierce the softest parts of the heart."
+      },
+      "othersBy": "阿图罗·托斯卡尼尼",
+      "othersByEn": "Arturo Toscanini"
+    },
+    "giuseppe-garibaldi": {
+      "others": {
+        "zh": "加里波第是历史上最伟大的战士之一，他的名字与自由和独立紧密相连。",
+        "en": "Garibaldi was one of the greatest warriors in history, his name being inseparably linked with freedom and independence."
+      },
+      "othersBy": "朱塞佩·马志尼",
+      "othersByEn": "Giuseppe Mazzini"
+    },
+    "giuseppe-verdi": {
+      "others": {
+        "zh": "威尔第的音乐是意大利的灵魂，他的旋律比任何政治宣言都更能团结这个国家。",
+        "en": "Verdi's music is the soul of Italy; his melodies united the country more than any political declaration."
+      },
+      "othersBy": "朱塞佩·威尔第协会",
+      "othersByEn": "Giuseppe Verdi Institute"
+    },
+    "goethe": {
+      "others": {
+        "zh": "歌德是最后一个能够全面掌握所有知识领域的人。",
+        "en": "Goethe was the last man who was able to encompass all knowledge within his field of vision."
+      },
+      "othersBy": "托马斯·曼",
+      "othersByEn": "Thomas Mann"
+    },
+    "gottfried-leibniz": {
+      "others": {
+        "zh": "莱布尼茨是如此罕见的天才，他在如此多的领域都达到了第一流的水平，以至于我们几乎可以称他为超人的。",
+        "en": "Leibniz was such a rare genius that he reached the first rank in so many fields that we can almost call him superhuman."
+      },
+      "othersBy": "伏尔泰",
+      "othersByEn": "Voltaire"
+    },
+    "gregor-mendel": {
+      "others": {
+        "zh": "孟德尔的工作是生物学史上最重要的成就之一，他发现了遗传的基本规律，为整个现代生物学奠定了基础。",
+        "en": "Mendel's work is one of the most important achievements in the history of biology; he discovered the fundamental laws of heredity, laying the foundation for all modern biology."
+      },
+      "othersBy": "恩斯特·迈尔",
+      "othersByEn": "Ernst Mayr"
+    },
+    "grigory-zinoviev": {
+      "others": {
+        "zh": "季诺维也夫是一个聪明但缺乏原则的人，他总是能够找到最符合自己利益的政治立场，无论这立场与他的过去有多么矛盾。",
+        "en": "Zinoviev was a clever but unprincipled man who could always find the political position most advantageous to himself, no matter how contradictory it was to his past."
+      },
+      "othersBy": "罗伯特·康奎斯特",
+      "othersByEn": "Robert Conquest"
+    },
+    "gu-kaizhi": {
+      "others": {
+        "zh": "顾恺之之画，神气超迈，古今独步。",
+        "en": "Gu Kaizhi's paintings excel in spirit and transcendence, unmatched by ancient or modern artists."
+      },
+      "othersBy": "谢赫",
+      "othersByEn": "Xie He"
+    },
+    "guan-hanchun": {
+      "others": {
+        "zh": "“关汉卿之才，盖世无双。”",
+        "en": "‘Guan Hanqing's talent is unparalleled in the world.’"
+      },
+      "othersBy": "鲁迅",
+      "othersByEn": "Lu Xun"
+    },
+    "gustav-klimt": {
+      "others": {
+        "zh": "克里姆特是一位伟大的色彩大师，他的作品充满了生命的活力和激情。",
+        "en": "Klimt was a great master of color, his works filled with the vitality and passion of life."
+      },
+      "othersBy": "埃贡·席勒",
+      "othersByEn": "Egon Schiele"
+    },
+    "gustav-mahler": {
+      "others": {
+        "zh": "马勒的音乐是灵魂的镜子，它反映了我们内心最深处的恐惧和渴望。",
+        "en": "Mahler's music is a mirror of the soul, reflecting our deepest fears and desires."
+      },
+      "othersBy": "伦纳德·伯恩斯坦",
+      "othersByEn": "Leonard Bernstein"
+    },
+    "gustave-flaubert": {
+      "others": {
+        "zh": "福楼拜是法国小说家中最伟大的艺术家，他的作品如同精美的镶嵌画，每一个细节都经过精心雕琢。",
+        "en": "Flaubert is the greatest artist among French novelists; his works are like exquisite mosaics, with every detail carefully crafted."
+      },
+      "othersBy": "爱弥尔·左拉",
+      "othersByEn": "Émile Zola"
+    },
+    "han-wudi": {
+      "others": {
+        "zh": "班固《汉书》评曰：「汉承百王之弊，高祖拨乱反正，文景务在养民，至于稽古礼文之事，犹多阙焉。孝武初立，卓然罢黜百家，表章《六经》。」",
+        "en": "Ban Gu in the Book of Han commented: 'The Han inherited the defects of a hundred kings; Emperor Gaozu restored order, Emperors Wen and Jing focused on nurturing the people, yet matters of antiquity and ritual remained largely neglected. When Emperor Wu ascended, he decisively dismissed the Hundred Schools and honored the Six Classics.'"
+      },
+      "othersBy": "班固《汉书》",
+      "othersByEn": "Ban Gu, Book of Han"
+    },
+    "handel-handel": {
+      "others": {
+        "zh": "亨德尔是音乐史上最伟大的作曲家之一。",
+        "en": "Handel is one of the greatest composers in the history of music."
+      },
+      "othersBy": "瓦格纳",
+      "othersByEn": "Wagner"
+    },
+    "hannibal-barca": {
+      "others": {
+        "zh": "汉尼拔是所有将军中最伟大的，亚历山大之后无人能及，西庇阿本人也承认这一点。",
+        "en": "Hannibal was the greatest of all generals, and second to none after Alexander; Scipio himself acknowledged this."
+      },
+      "othersBy": "西庇阿·纳西卡",
+      "othersByEn": "Scipio Nasica"
+    },
+    "harry-truman": {
+      "others": {
+        "zh": "杜鲁门是美国历史上最被低估的总统之一，他做出了艰难但必要的决定，塑造了我们今天生活的世界。",
+        "en": "Truman is one of the most underrated presidents in American history; he made difficult but necessary decisions that shaped the world we live in today."
+      },
+      "othersBy": "历史学家大卫·麦卡洛",
+      "othersByEn": "Historian David McCullough"
+    },
+    "heinrich-heine": {
+      "others": {
+        "zh": "海涅是德国最伟大的抒情诗人，他的诗歌将德国浪漫主义的精华与法国启蒙思想的理性完美结合。",
+        "en": "Heine is Germany's greatest lyric poet, whose poetry perfectly combines the essence of German Romanticism with the rationality of French Enlightenment thought."
+      },
+      "othersBy": "托马斯·曼",
+      "othersByEn": "Thomas Mann"
+    },
+    "heinz-guderian": {
+      "others": {
+        "zh": "古德里安是德国装甲部队的创造者，他的理论改变了战争的形态，但他也是纳粹战争机器中一个不可或缺的齿轮。",
+        "en": "Guderian was the creator of Germany's armored forces, and his theories transformed the nature of warfare, yet he was also an indispensable cog in the Nazi war machine."
+      },
+      "othersBy": "军事历史学家约翰·基根",
+      "othersByEn": "Military historian John Keegan"
+    },
+    "heitor-villa-lobos": {
+      "others": {
+        "zh": "维拉-罗伯斯是巴西音乐的灵魂，他让世界听到了巴西的心跳。",
+        "en": "Villa-Lobos is the soul of Brazilian music, he let the world hear the heartbeat of Brazil."
+      },
+      "othersBy": "作曲家、指挥家塞尔吉奥·德·席尔瓦",
+      "othersByEn": "Composer and conductor Sergio de Silva"
+    },
+    "henri-matisse": {
+      "others": {
+        "zh": "马蒂斯是色彩的大师，他教会我们如何用眼睛去感受，而不是用头脑去分析。",
+        "en": "Matisse was a master of color, he taught us how to see with our eyes rather than analyze with our minds."
+      },
+      "othersBy": "巴勃罗·毕加索",
+      "othersByEn": "Pablo Picasso"
+    },
+    "henri-philippe-petain": {
+      "others": {
+        "zh": "贝当元帅是法国历史上最伟大的军人之一，也是最可悲的悲剧人物之一。",
+        "en": "Marshal Pétain is one of the greatest soldiers in French history, and also one of its most tragic figures."
+      },
+      "othersBy": "查尔斯·戴高乐",
+      "othersByEn": "Charles de Gaulle"
+    },
+    "henry-norman-bethune": {
+      "others": {
+        "zh": "一个高尚的人，一个纯粹的人，一个有道德的人，一个脱离了低级趣味的人，一个有益于人民的人。",
+        "en": "A man of noble character, a pure man, a man of moral integrity, a man who has freed himself from vulgar interests, a man who is beneficial to the people."
+      },
+      "othersBy": "毛泽东",
+      "othersByEn": "Mao Zedong"
+    },
+    "henry-viii": {
+      "others": {
+        "zh": "他是一位伟大而可怕的君主，其统治时期对英格兰历史产生了深远影响。",
+        "en": "He was a great and terrible king whose reign had a profound impact on English history."
+      },
+      "othersBy": "历史学家",
+      "othersByEn": "Historian"
+    },
+    "herbert-spencer": {
+      "others": {
+        "zh": "斯宾塞是一位伟大的体系构建者，但他的体系就像一座宏伟但摇摇欲坠的建筑，每一块砖石都经过精心挑选，但整体结构却缺乏坚实的基础。",
+        "en": "Spencer was a great system-builder, but his system is like a magnificent yet precarious edifice, where every stone has been carefully selected, but the whole structure lacks a solid foundation."
+      },
+      "othersBy": "伯特兰·罗素",
+      "othersByEn": "Bertrand Russell"
+    },
+    "hermann-hesse": {
+      "others": {
+        "zh": "黑塞的作品是德国文学中最具个人色彩和最真诚的成就之一，它们不仅是对个人命运的探索，也是对人类普遍困境的深刻思考。",
+        "en": "Hesse's works are among the most personal and sincere achievements in German literature; they are not only explorations of individual destiny but also profound reflections on the universal human condition."
+      },
+      "othersBy": "托马斯·曼",
+      "othersByEn": "Thomas Mann"
+    },
+    "herodotus-herodotus": {
+      "others": {
+        "zh": "历史之父希罗多德，他的《历史》是西方世界的宝贵财富。",
+        "en": "Herodotus, the father of history, his 'The Histories' is a precious treasure of the Western world."
+      },
+      "othersBy": "柏拉图",
+      "othersByEn": "Plato"
+    },
+    "hideki-tojo": {
+      "others": {
+        "zh": "东条英机是日本历史上最黑暗篇章的主要责任人，他的名字将与战争罪行永远联系在一起。",
+        "en": "Hideki Tojo was primarily responsible for one of the darkest chapters in Japanese history, and his name will be forever linked with war crimes."
+      },
+      "othersBy": "罗伯特·杰克逊",
+      "othersByEn": "Robert Jackson"
+    },
+    "ho-chi-minh": {
+      "others": {
+        "zh": "胡志明是一位伟大的爱国者，他毕生致力于越南的独立和统一。他的思想和遗产将继续激励越南人民为实现国家的繁荣和人民的幸福而奋斗。",
+        "en": "Ho Chi Minh was a great patriot who dedicated his entire life to the independence and unity of Vietnam. His thoughts and legacy will continue to inspire the Vietnamese people to strive for the prosperity of the country and the happiness of the people."
+      },
+      "othersBy": "越南共产党中央委员会",
+      "othersByEn": "Central Committee of the Communist Party of Vietnam"
+    },
+    "homer": {
+      "others": {
+        "zh": "荷马是所有诗人的老师，也是所有骗子的祖师爷。",
+        "en": "Homer is the teacher of all poets and the father of all liars."
+      },
+      "othersBy": "柏拉图",
+      "othersByEn": "Plato"
+    },
+    "honore-de-balzac": {
+      "others": {
+        "zh": "巴尔扎克是文学中的拿破仑，他征服了文学世界，就像拿破仑征服了物质世界一样。",
+        "en": "Balzac is Napoleon of literature; he has conquered the world of literature just as Napoleon conquered the world of matter."
+      },
+      "othersBy": "维克多·雨果",
+      "othersByEn": "Victor Hugo"
+    },
+    "hu-bi-yue": {
+      "others": {
+        "zh": "忽必烈是蒙古帝国最伟大的征服者之一，他不仅统一了中国，还推动了文化的融合和交流。",
+        "en": "Kublai Khan is one of the greatest conquerors of the Mongol Empire, not only unifying China but also promoting cultural integration and exchange."
+      },
+      "othersBy": "鲁迅",
+      "othersByEn": "Lu Xun"
+    },
+    "hua-tuo": {
+      "others": {
+        "zh": "华佗之术，妙绝天下，然其志在济世，不在富贵。",
+        "en": "Hua Tuo's medical skills were unparalleled under heaven, yet his ambition was to help the world, not to seek wealth and honor."
+      },
+      "othersBy": "陈寿",
+      "othersByEn": "Chen Shou"
+    },
+    "ibn-battuta": {
+      "others": {
+        "zh": "伊本·白图泰是中世纪最伟大的旅行家，他的足迹比马可·波罗更远，记录更详尽。",
+        "en": "Ibn Battuta was the greatest traveler of the Middle Ages, whose journeys were more extensive and whose accounts were more detailed than those of Marco Polo."
+      },
+      "othersBy": "英国历史学家",
+      "othersByEn": "British historian"
+    },
+    "ibn-khaldun": {
+      "others": {
+        "zh": "伊本·赫勒敦是所有时代中最伟大的历史学家，他独自创建了历史哲学这门学科。",
+        "en": "Ibn Khaldun was the greatest historian of any time, who created alone the science of philosophy of history."
+      },
+      "othersBy": "约瑟夫·熊彼特",
+      "othersByEn": "Joseph Schumpeter"
+    },
+    "igor-stravinsky": {
+      "others": {
+        "zh": "斯特拉文斯基是音乐界的哥伦布，他发现了新大陆，而我们所有人都跟随他航行。",
+        "en": "Stravinsky is the Columbus of music, who discovered a new continent, and we all follow him on his voyages."
+      },
+      "othersBy": "皮埃尔·布列兹",
+      "othersByEn": "Pierre Boulez"
+    },
+    "immanuel-kant": {
+      "others": {
+        "zh": "康德是第一个真正批判性的哲学家，也是最后一个体系构建者。他摧毁了旧的形而上学，却为未来的形而上学奠定了基础。",
+        "en": "Kant was the first truly critical philosopher and the last system-builder. He destroyed the old metaphysics yet laid the foundation for future metaphysics."
+      },
+      "othersBy": "弗里德里希·席勒",
+      "othersByEn": "Friedrich Schiller"
+    },
+    "isaac-newton": {
+      "others": {
+        "zh": "自然与自然规律都隐藏在黑暗之中，上帝说：让牛顿来吧！于是一切光明。",
+        "en": "Nature and nature's laws lay hid in night; God said, Let Newton be! and all was light."
+      },
+      "othersSource": {
+        "text": "亚历山大·蒲柏为牛顿所拟墓志铭，1735 年"
+      },
+      "othersBy": "亚历山大·蒲柏",
+      "othersByEn": "Alexander Pope"
+    },
+    "ivan-terrible": {
+      "others": {
+        "zh": "伊凡雷帝是俄罗斯历史上最伟大也最矛盾的统治者之一，他既创造了俄罗斯帝国，也摧毁了无数生命。",
+        "en": "Ivan the Terrible was one of the greatest and most contradictory rulers in Russian history, who both created the Russian Empire and destroyed countless lives."
+      },
+      "othersBy": "尼古拉·科兹洛夫",
+      "othersByEn": "Nikolai Kozlov"
+    },
+    "ivan-turgenev": {
+      "others": {
+        "zh": "屠格涅夫是俄罗斯文学中最具欧洲气质的作家，他像一位优雅的欧洲绅士，用精致的笔触描绘了俄罗斯的灵魂。",
+        "en": "Turgenev is the most European of Russian writers, like an elegant European gentleman who depicted the Russian soul with exquisite brushstrokes."
+      },
+      "othersBy": "陀思妥耶夫斯基",
+      "othersByEn": "Fyodor Dostoevsky"
+    },
+    "j-r-r-tolkien": {
+      "others": {
+        "zh": "托尔金创造了一个世界，并赋予它一种语言，从而使其成为真实。这是所有伟大作家所做的，但很少有人能做到如此彻底。",
+        "en": "Tolkien created a world and gave it a language, thereby making it real. This is what all great writers do, but few have done it so completely."
+      },
+      "othersBy": "W.H.奥登",
+      "othersByEn": "W.H. Auden"
+    },
+    "jackson-pollock": {
+      "others": {
+        "zh": "波洛克是唯一一位真正改变了绘画方式，并改变了我们看待绘画方式的艺术家。",
+        "en": "Pollock is the only artist who has really changed the way we look at painting and the way we paint."
+      },
+      "othersBy": "威廉·德·库宁",
+      "othersByEn": "Willem de Kooning"
+    },
+    "jacques-derrida": {
+      "others": {
+        "zh": "德里达是那个时代最伟大的哲学家之一，他彻底改变了我们思考语言、文本和意义的方式。",
+        "en": "Derrida was one of the greatest philosophers of his time, who fundamentally changed the way we think about language, text, and meaning."
+      },
+      "othersBy": "希利斯·米勒",
+      "othersByEn": "J. Hillis Miller"
+    },
+    "jacques-lacan": {
+      "others": {
+        "zh": "拉康是弗洛伊德以来最具原创性的精神分析师，也是最难以理解的理论家之一。",
+        "en": "Lacan is the most original psychoanalyst since Freud and one of the most difficult theorists to understand."
+      },
+      "othersBy": "朱迪斯·巴特勒",
+      "othersByEn": "Judith Butler"
+    },
+    "james-clerk-maxwell": {
+      "others": {
+        "zh": "麦克斯韦的工作是自牛顿以来物理学中最深刻、最富有成果的工作。",
+        "en": "Maxwell's work is the most profound and fruitful in physics since Newton."
+      },
+      "othersBy": "阿尔伯特·爱因斯坦",
+      "othersByEn": "Albert Einstein"
+    },
+    "james-joyce": {
+      "others": {
+        "zh": "乔伊斯是文学界的哥伦布，他发现了意识的未知大陆。",
+        "en": "Joyce is the Columbus of the inner world. He discovered continents of consciousness that no one had ever seen before."
+      },
+      "othersBy": "T.S.艾略特",
+      "othersByEn": "T.S. Eliot"
+    },
+    "jan-vermeer": {
+      "others": {
+        "zh": "维米尔是一位用光作画的诗人，他的每一幅作品都是对日常生活的神圣化。",
+        "en": "Vermeer is a poet who paints with light, each of his works is a sanctification of everyday life."
+      },
+      "othersBy": "艺术评论家约翰·拉斯金",
+      "othersByEn": "Art critic John Ruskin"
+    },
+    "jane-austen": {
+      "others": {
+        "zh": "奥斯汀小姐的作品中最卓越的品质是，她对人物性格的描绘如此真实，以至于读者似乎在现实生活中认识这些人。",
+        "en": "The most wonderful quality in Miss Austen's works is that her portraits of character are so true that the reader seems to know these people in real life."
+      },
+      "othersBy": "沃尔特·司各特",
+      "othersByEn": "Walter Scott"
+    },
+    "jane-goodall": {
+      "others": {
+        "zh": "珍·古道尔的工作改变了我们看待动物的方式，也改变了我们看待自己的方式。她向我们展示了，科学不仅是关于事实的，也是关于关怀和责任的。",
+        "en": "Jane Goodall's work has changed the way we look at animals and the way we look at ourselves. She has shown us that science is not just about facts, but also about compassion and responsibility."
+      },
+      "othersBy": "尤瓦尔·赫拉利",
+      "othersByEn": "Yuval Noah Harari"
+    },
+    "jawaharlal-nehru": {
+      "others": {
+        "zh": "尼赫鲁是一位具有非凡才能的政治家，他能够将理想主义与现实政治完美结合，为印度独立后的发展道路奠定了基础。",
+        "en": "Nehru was a statesman of extraordinary ability who could perfectly combine idealism with practical politics, laying the foundation for India's path after independence."
+      },
+      "othersBy": "萨达尔·瓦拉巴伊·帕特尔",
+      "othersByEn": "Sardar Vallabhbhai Patel"
+    },
+    "jean-baptiste-colbert": {
+      "others": {
+        "zh": "科尔贝尔是法国历史上最伟大的财政大臣，他不仅挽救了濒临崩溃的法国财政，还通过系统性的改革使法国成为欧洲最强大的国家之一。",
+        "en": "Colbert was the greatest finance minister in French history; not only did he save France's collapsing finances, but through systematic reforms he made France one of the most powerful nations in Europe."
+      },
+      "othersBy": "伏尔泰",
+      "othersByEn": "Voltaire"
+    },
+    "jean-jacques-rousseau": {
+      "others": {
+        "zh": "卢梭是第一个真正意义上的现代人，他发现了人的内心，并教会了人们如何感受自己。",
+        "en": "Rousseau was the first truly modern man; he discovered the inner man and taught people how to feel themselves."
+      },
+      "othersBy": "伊萨克·迪斯雷利",
+      "othersByEn": "Isaac Disraeli"
+    },
+    "jean-paul-marat": {
+      "others": {
+        "zh": "马拉之死对共和国来说比胜利更有价值。",
+        "en": "The death of Marat is more valuable to the Republic than a victory."
+      },
+      "othersBy": "马克西米连·罗伯斯庇尔",
+      "othersByEn": "Maximilien Robespierre"
+    },
+    "jean-paul-sartre": {
+      "others": {
+        "zh": "萨特是我们这个时代最伟大的道德哲学家，他重新定义了知识分子的角色和责任。",
+        "en": "Sartre was the greatest moral philosopher of our time, who redefined the role and responsibility of the intellectual."
+      },
+      "othersBy": "西蒙娜·德·波伏娃",
+      "othersByEn": "Simone de Beauvoir"
+    },
+    "jean-piaget": {
+      "others": {
+        "zh": "皮亚杰的工作是发展心理学史上最伟大的成就之一，它彻底改变了我们对儿童如何思考的理解。",
+        "en": "Piaget's work is one of the greatest achievements in the history of developmental psychology; it completely changed our understanding of how children think."
+      },
+      "othersBy": "杰罗姆·布鲁纳",
+      "othersByEn": "Jerome Bruner"
+    },
+    "jean-racine": {
+      "others": {
+        "zh": "拉辛是法国最伟大的悲剧诗人，他的作品以其纯粹的美和深刻的情感而超越时代。",
+        "en": "Racine is France's greatest tragic poet, whose works transcend time through their pure beauty and profound emotion."
+      },
+      "othersBy": "伏尔泰",
+      "othersByEn": "Voltaire"
+    },
+    "jianzhen": {
+      "others": {
+        "zh": "鉴真和尚东渡日本，不仅传播了佛教戒律，更带去了大唐的文化精髓，是中日文化交流史上不可磨灭的一页。",
+        "en": "Master Jianzhen's journey to Japan not only transmitted Buddhist monastic discipline but also brought the essence of Tang Dynasty culture, leaving an indelible mark in the history of Sino-Japanese cultural exchange."
+      },
+      "othersBy": "日本历史学家",
+      "othersByEn": "Japanese Historian"
+    },
+    "joan-of-arc": {
+      "others": {
+        "zh": "她是历史上最伟大的战士之一，她的勇气和信念超越了时代。",
+        "en": "She was one of the greatest warriors in history, whose courage and faith transcended her time."
+      },
+      "othersBy": "马克·吐温",
+      "othersByEn": "Mark Twain"
+    },
+    "johann-sebastian-bach": {
+      "others": {
+        "zh": "巴赫的音乐不是为我们的耳朵，而是为上帝的耳朵而创作的。",
+        "en": "Bach's music was not written for our ears, but for the ears of God."
+      },
+      "othersBy": "费利克斯·门德尔松",
+      "othersByEn": "Felix Mendelssohn"
+    },
+    "johannes-brahms": {
+      "others": {
+        "zh": "勃拉姆斯的音乐是德意志精神的最高体现，它既深刻又崇高，既充满力量又无比温柔。",
+        "en": "Brahms' music is the highest expression of the German spirit—it is both profound and sublime, both powerful and infinitely tender."
+      },
+      "othersBy": "汉斯·冯·彪罗",
+      "othersByEn": "Hans von Bülow"
+    },
+    "johannes-gutenberg": {
+      "others": {
+        "zh": "古腾堡的发明比火药、指南针和印刷术的任何其他组合都更接近现代文明的本质。",
+        "en": "Gutenberg's invention is closer to the essence of modern civilization than any other combination of gunpowder, the compass, and printing."
+      },
+      "othersBy": "马克·吐温",
+      "othersByEn": "Mark Twain"
+    },
+    "johannes-kepler": {
+      "others": {
+        "zh": "开普勒是第一个真正理解天空的人，他不仅看到了行星的运动，还理解了支配这些运动的数学规律。",
+        "en": "Kepler was the first man to understand the sky, not only seeing the motion of the planets but understanding the mathematical laws that governed them."
+      },
+      "othersBy": "阿尔伯特·爱因斯坦",
+      "othersByEn": "Albert Einstein"
+    },
+    "john-calvin": {
+      "others": {
+        "zh": "加尔文是所有改革家中最伟大的，因为他建立了最完善的体系。",
+        "en": "Calvin was the greatest of all the reformers because he established the most perfect system."
+      },
+      "othersBy": "亚历山大·韦斯利",
+      "othersByEn": "Alexander Welsh"
+    },
+    "john-donne": {
+      "others": {
+        "zh": "多恩是英国文学中最具原创性和智性深度的诗人之一，他的作品将哲学思考与情感体验完美融合，开创了独特的玄学风格。",
+        "en": "Donne is one of the most original and intellectually profound poets in English literature, whose works perfectly merge philosophical thought with emotional experience, pioneering a distinctive metaphysical style."
+      },
+      "othersBy": "T.S.艾略特",
+      "othersByEn": "T.S. Eliot"
+    },
+    "john-f-kennedy": {
+      "others": {
+        "zh": "他是一个有远见的领袖，他的理想主义激励了一代人，但他的政策也留下了复杂的遗产。",
+        "en": "He was a leader with vision whose idealism inspired a generation, yet his policies also left a complex legacy."
+      },
+      "othersBy": "历史学家阿瑟·施莱辛格",
+      "othersByEn": "Historian Arthur Schlesinger Jr."
+    },
+    "john-keats": {
+      "others": {
+        "zh": "济慈拥有一种天赋，能够将最平凡的景象转化为最崇高的思想。",
+        "en": "Keats had a genius for turning the most commonplace things into the highest thoughts."
+      },
+      "othersBy": "马修·阿诺德",
+      "othersByEn": "Matthew Arnold"
+    },
+    "john-lennon": {
+      "others": {
+        "zh": "列侬是披头士的灵魂，是那个时代的声音，是那个时代的诗人。",
+        "en": "Lennon was the soul of the Beatles, the voice of the era, the poet of the age."
+      },
+      "othersBy": "乔治·马丁",
+      "othersByEn": "George Martin"
+    },
+    "john-locke": {
+      "others": {
+        "zh": "洛克是自由主义之父，他的思想塑造了现代世界的政治面貌。",
+        "en": "Locke is the father of liberalism, and his ideas have shaped the political landscape of the modern world."
+      },
+      "othersBy": "以赛亚·伯林",
+      "othersByEn": "Isaiah Berlin"
+    },
+    "john-maynard-keynes": {
+      "others": {
+        "zh": "凯恩斯不仅是本世纪最伟大的经济学家，而且可能是自亚当·斯密以来最伟大的经济学家。",
+        "en": "Keynes was not only the greatest economist of the century but perhaps the greatest since Adam Smith."
+      },
+      "othersBy": "米尔顿·弗里德曼",
+      "othersByEn": "Milton Friedman"
+    },
+    "john-milton": {
+      "others": {
+        "zh": "弥尔顿是英语文学中最伟大的风格大师，他的语言庄严而崇高，思想深刻而富有诗意。",
+        "en": "Milton is the greatest master of style in English literature; his language is majestic and sublime, his thoughts profound and poetic."
+      },
+      "othersBy": "威廉·哈兹里特",
+      "othersByEn": "William Hazlitt"
+    },
+    "john-snow": {
+      "others": {
+        "zh": "约翰·斯诺是流行病学史上最伟大的思想家之一，他不仅发现了霍乱的传播途径，更重要的是，他开创了基于证据的医学研究方法，这种方法至今仍是公共卫生调查的黄金标准。",
+        "en": "John Snow was one of the greatest thinkers in the history of epidemiology. Not only did he discover the mode of transmission of cholera, but more importantly, he pioneered evidence-based medical research methods that remain the gold standard for public health investigations to this day."
+      },
+      "othersBy": "乔治·罗森",
+      "othersByEn": "George Rosen"
+    },
+    "john-stuart-mill": {
+      "others": {
+        "zh": "穆勒是功利主义传统的伟大修正者，他试图将功利主义与自由主义原则相结合，为现代自由主义奠定了基础。",
+        "en": "Mill was the great reviser of the utilitarian tradition, attempting to combine utilitarianism with liberal principles and laying the foundation for modern liberalism."
+      },
+      "othersBy": "以赛亚·伯林",
+      "othersByEn": "Isaiah Berlin"
+    },
+    "john-von-neumann": {
+      "others": {
+        "zh": "冯·诺依曼的大脑是人类历史上最强大的计算器官之一。",
+        "en": "Johnny was the cleverest man I ever met. He was a genius in the mathematical sense. He had a tremendous memory and a great facility with languages. But his most remarkable quality was his ability to see through complicated problems to their essential core."
+      },
+      "othersBy": "尤金·维格纳",
+      "othersByEn": "Eugene Wigner"
+    },
+    "jonas-salk": {
+      "others": {
+        "zh": "乔纳斯·索尔克是医学史上最伟大的成就之一，他不仅改变了医学，还改变了世界。",
+        "en": "Jonas Salk's work represents one of the greatest achievements in medical history, not only changing medicine but changing the world."
+      },
+      "othersBy": "美国前总统德怀特·艾森豪威尔",
+      "othersByEn": "Dwight D. Eisenhower, 34th President of the United States"
+    },
+    "jorge-luis-borges": {
+      "others": {
+        "zh": "博尔赫斯创造了一种新的文学语言，它既是哲学的，又是诗的，既是抽象的，又是具体的，既是理性的，又是神秘的。",
+        "en": "Borges created a new literary language that is at once philosophical and poetic, abstract and concrete, rational and mysterious."
+      },
+      "othersBy": "苏珊·桑塔格",
+      "othersByEn": "Susan Sontag"
+    },
+    "joseph-goebbels": {
+      "others": {
+        "zh": "戈培尔是纳粹政权中最具才华、最危险的人物。他不仅能够理解群众心理，还能够操纵它，使其服务于纳粹的目的。",
+        "en": "Goebbels was the most talented and dangerous man in the Nazi regime. He not only understood the psychology of the masses but could manipulate it to serve Nazi purposes."
+      },
+      "othersBy": "历史学家威廉·夏伊勒",
+      "othersByEn": "Historian William L. Shirer"
+    },
+    "joseph-haydn": {
+      "others": {
+        "zh": "海顿是我们时代最伟大的作曲家，他拥有最丰富的发明才能和最深刻的音乐知识。",
+        "en": "Haydn is the greatest composer of our time; he possesses the most fertile invention and the most profound knowledge of music."
+      },
+      "othersBy": "莫扎特",
+      "othersByEn": "Mozart"
+    },
+    "joseph-louis-lagrange": {
+      "others": {
+        "zh": "拉格朗日是数学科学中最高尚的典范，他将分析提升到前所未有的高度，并赋予它前所未有的优雅。",
+        "en": "Lagrange is the loftiest prototype in the science of mathematics; he raised analysis to a higher power and gave it a new elegance."
+      },
+      "othersBy": "皮埃尔-西蒙·拉普拉斯",
+      "othersByEn": "Pierre-Simon Laplace"
+    },
+    "joseph-stalin": {
+      "others": {
+        "zh": "斯大林是历史上最接近上帝的人，他统治的领土比任何沙皇都广阔，他奴役的人民比任何暴君都多。",
+        "en": "Stalin was the closest thing to God in human history. He ruled over a territory greater than any tsar and enslaved more people than any tyrant."
+      },
+      "othersBy": "赫鲁晓夫",
+      "othersByEn": "Nikita Khrushchev"
+    },
+    "julius-caesar": {
+      "others": {
+        "zh": "凯撒的敌人很少，但他的朋友几乎都背叛了他。",
+        "en": "Caesar had few enemies, but almost all of his friends betrayed him."
+      },
+      "othersBy": "普鲁塔克",
+      "othersByEn": "Plutarch"
+    },
+    "kangxi": {
+      "others": {
+        "zh": "同时代法国传教士白晋称康熙帝为「伟大而仁慈的君主」，但此类评价带有个人观察色彩。",
+        "en": "The contemporary French missionary Joachim Bouvet described the Kangxi Emperor as 'a great and benevolent monarch,' though such assessments reflect personal observation."
+      },
+      "othersBy": "白晋（Joachim Bouvet）",
+      "othersByEn": "Joachim Bouvet"
+    },
+    "karl-marx": {
+      "others": {
+        "zh": "马克思是达尔文以来最伟大的社会科学家，他的思想对现代世界的影响无人能及。",
+        "en": "Marx was the greatest social scientist since Darwin, and his influence on the modern world is unparalleled."
+      },
+      "othersBy": "埃里克·霍布斯鲍姆",
+      "othersByEn": "Eric Hobsbawm"
+    },
+    "kawabata-yasunari": {
+      "others": {
+        "zh": "川端康成的作品以其独特的日本美学和深刻的人性洞察力，为我们打开了一扇了解日本文化的窗口。",
+        "en": "Kawabata's works, with their unique Japanese aesthetics and profound insight into human nature, open a window for us to understand Japanese culture."
+      },
+      "othersBy": "埃德蒙·威尔逊",
+      "othersByEn": "Edmund Wilson"
+    },
+    "kenzaburo-oe": {
+      "others": {
+        "zh": "大江健三郎是日本战后文学的良心，他以非凡的勇气和深刻的洞察力，揭示了日本社会的创伤与矛盾，为人类提供了面对困境的智慧。",
+        "en": "Kenzaburo Oe is the conscience of post-war Japanese literature. With extraordinary courage and profound insight, he has revealed the traumas and contradictions of Japanese society, providing wisdom for humanity to face its predicaments."
+      },
+      "othersBy": "村上春树",
+      "othersByEn": "Haruki Murakami"
+    },
+    "klemens-von-metternich": {
+      "others": {
+        "zh": "梅特涅是欧洲历史上最伟大的外交家，他懂得如何将权力转化为影响力，将影响力转化为持久的影响力。",
+        "en": "Metternich was the greatest diplomat in European history; he knew how to transform power into influence, and influence into lasting impact."
+      },
+      "othersBy": "亨利·基辛格",
+      "othersByEn": "Henry Kissinger"
+    },
+    "konrad-adenauer": {
+      "others": {
+        "zh": "阿登纳是一位伟大的政治家，他不仅重建了德国，还重新定义了德国在欧洲和世界中的位置。",
+        "en": "Adenauer was a great statesman who not only rebuilt Germany but also redefined Germany's place in Europe and the world."
+      },
+      "othersBy": "威利·勃兰特",
+      "othersByEn": "Willy Brandt"
+    },
+    "lao-she": {
+      "others": {
+        "zh": "老舍的作品是中国现代文学的一座丰碑，他用北京方言描绘了普通人的命运，展现了中国社会的变迁。",
+        "en": "Lao She's works are a monument of modern Chinese literature. He used Beijing dialect to depict the fate of ordinary people and showcase the changes in Chinese society."
+      },
+      "othersBy": "巴金",
+      "othersByEn": "Ba Jin"
+    },
+    "laozi-laozi": {
+      "others": {
+        "zh": "庄子曾评价老子：‘吾师有古人之风，其言约而指远，其志高而意深。’",
+        "en": "Zhuangzi once commented on Laozi: 'My teacher has the style of the ancients, his words are concise yet profound, his aspirations are lofty yet profound in meaning.'"
+      },
+      "othersBy": "庄子",
+      "othersByEn": "Zhuangzi"
+    },
+    "lavrentiy-beria": {
+      "others": {
+        "zh": "贝利亚是斯大林最忠诚的狗，也是最危险的刽子手。",
+        "en": "Beria was Stalin's most loyal dog and the most dangerous executioner."
+      },
+      "othersBy": "尼基塔·赫鲁晓夫",
+      "othersByEn": "Nikita Khrushchev"
+    },
+    "le-corbusier": {
+      "others": {
+        "zh": "勒·柯布西耶是20世纪最具影响力但也最具争议的建筑师之一，他既是一位梦想家，也是一位独裁者，他的作品既体现了对人类未来的美好愿景，也反映了现代主义的冷酷无情。",
+        "en": "Le Corbusier was one of the most influential yet controversial architects of the 20th century—both a dreamer and a dictator, whose works embodied both a beautiful vision for humanity's future and the cold indifference of modernism."
+      },
+      "othersBy": "历史学家",
+      "othersByEn": "Historian"
+    },
+    "lee-kuan-yew": {
+      "others": {
+        "zh": "李光耀是一位实用主义者，他明白新加坡必须依靠自己的才能和努力才能生存。他建立了高效、廉洁的政府，创造了经济奇迹，但也限制了政治自由。",
+        "en": "Lee Kuan Yew was a pragmatist who understood that Singapore had to rely on its own talents and efforts to survive. He built an efficient, incorruptible government and created an economic miracle, but at the cost of political liberties."
+      },
+      "othersBy": "《经济学人》",
+      "othersByEn": "The Economist"
+    },
+    "leo-tolstoy": {
+      "others": {
+        "zh": "托尔斯泰是俄罗斯的一面镜子，他照出了俄罗斯的灵魂，也照出了俄罗斯的全部矛盾。",
+        "en": "Tolstoy is a mirror for Russia, reflecting its soul as well as all its contradictions."
+      },
+      "othersBy": "伊萨克·巴别尔",
+      "othersByEn": "Isaac Babel"
+    },
+    "leonardo-da-vinci": {
+      "others": {
+        "zh": "他是一位天生的天才，在所有艺术和科学领域都表现出非凡的能力。",
+        "en": "He was a man of transcendent genius who showed exceptional ability in all arts and sciences."
+      },
+      "othersBy": "乔治·瓦萨里",
+      "othersByEn": "Giorgio Vasari"
+    },
+    "leonhard-euler": {
+      "others": {
+        "zh": "欧拉的计算就像呼吸一样自然，没有任何努力。",
+        "en": "Euler's calculations are as natural as breathing, without any effort."
+      },
+      "othersBy": "皮埃尔-西蒙·拉普拉斯",
+      "othersByEn": "Pierre-Simon Laplace"
+    },
+    "leonid-brezhnev": {
+      "others": {
+        "zh": "勃列日涅夫是一位懂得如何保持权力的人，但他不知道如何使用权力。",
+        "en": "Brezhnev was a man who knew how to keep power, but he did not know how to use it."
+      },
+      "othersBy": "安德烈·萨哈罗夫",
+      "othersByEn": "Andrei Sakharov"
+    },
+    "li-bai": {
+      "others": {
+        "zh": "李白斗酒诗百篇，长安市上酒家眠。天子呼来不上船，自称臣是酒中仙。",
+        "en": "Li Bai with a measure of wine composes a hundred poems; he sleeps drunk in taverns on the streets of Chang'an. When the emperor summons him, he won't board the boat, calling himself the immortal among wine drinkers."
+      },
+      "othersBy": "杜甫",
+      "othersByEn": "Du Fu"
+    },
+    "li-dao-yuan": {
+      "others": {
+        "zh": "郦道元之《水经注》，实为地理学之宝。",
+        "en": "Li Dao Yuan's 'Comprehensive Treatise on Waterways' is truly a treasure of geography."
+      },
+      "othersBy": "赵翼",
+      "othersByEn": "Zhao Yi"
+    },
+    "li-shizhen": {
+      "others": {
+        "zh": "李时珍的《本草纲目》是中国医药学史上的不朽丰碑，它不仅是中国古代医药学的集大成者，也是世界药物学发展史上的重要里程碑。",
+        "en": "Li Shizhen's 'Bencao Gangmu' is an immortal monument in the history of Chinese medicine. It is not only the culmination of ancient Chinese pharmacology but also an important milestone in the development of world pharmacology."
+      },
+      "othersBy": "中国科学院院士",
+      "othersByEn": "Academician of the Chinese Academy of Sciences"
+    },
+    "linus-torvalds": {
+      "others": {
+        "zh": "林纳斯是历史上最伟大的程序员之一，他不仅创造了Linux，还改变了整个软件行业的运作方式。",
+        "en": "Linus is one of the greatest programmers in history; not only did he create Linux, but he changed the way the entire software industry operates."
+      },
+      "othersBy": "埃里克·雷蒙德",
+      "othersByEn": "Eric Raymond"
+    },
+    "lord-byron": {
+      "others": {
+        "zh": "拜伦是英国文学史上最伟大的天才之一，他的诗歌如同一面镜子，映照出人类灵魂的深度与复杂性。",
+        "en": "Byron was one of the greatest geniuses in English literary history; his poetry, like a mirror, reflects the depth and complexity of the human soul."
+      },
+      "othersBy": "马修·阿诺德",
+      "othersByEn": "Matthew Arnold"
+    },
+    "lord-kelvin": {
+      "others": {
+        "zh": "开尔文勋爵是19世纪物理学界的巨人，他的工作为现代物理学奠定了基础，尽管他未能预见即将到来的革命性变化。",
+        "en": "Lord Kelvin was a giant of 19th-century physics whose work laid the foundation for modern physics, though he failed to foresee the revolutionary changes that were about to come."
+      },
+      "othersBy": "马克斯·普朗克",
+      "othersByEn": "Max Planck"
+    },
+    "louis-armstrong": {
+      "others": {
+        "zh": "路易斯·阿姆斯特朗是爵士乐的莫扎特，他不仅改变了音乐，还改变了世界。",
+        "en": "Louis Armstrong is the Mozart of jazz, who not only changed music but changed the world."
+      },
+      "othersBy": "杜克·埃灵顿",
+      "othersByEn": "Duke Ellington"
+    },
+    "louis-pasteur": {
+      "others": {
+        "zh": "巴斯德的发现比所有军队都更能保护人类。",
+        "en": "Pasteur's discoveries have protected humanity more than all the armies."
+      },
+      "othersBy": "路易·巴斯德研究所",
+      "othersByEn": "Pasteur Institute"
+    },
+    "louis-xiv": {
+      "others": {
+        "zh": "他统治的时间如此之长，以至于人们开始认为君主制是永恒的。",
+        "en": "He reigned so long that people began to think monarchy was eternal."
+      },
+      "othersBy": "伏尔泰",
+      "othersByEn": "Voltaire"
+    },
+    "lu-xun": {
+      "others": {
+        "zh": "鲁迅的骨头是最硬的，他没有丝毫的奴颜和媚骨，这是殖民地半殖民地人民最可宝贵的性格。",
+        "en": "Lu Xun's bones were the hardest; he had not the slightest servile expression or fawning attitude. This is the most precious character of the people in colonial and semi-colonial countries."
+      },
+      "othersBy": "毛泽东",
+      "othersByEn": "Mao Zedong"
+    },
+    "ludwig-van-beethoven": {
+      "others": {
+        "zh": "贝多芬的音乐是建筑在人类痛苦之上的欢乐殿堂。",
+        "en": "Beethoven's music is a temple of joy built upon human suffering."
+      },
+      "othersBy": "费利克斯·门德尔松",
+      "othersByEn": "Felix Mendelssohn"
+    },
+    "ludwig-wittgenstein": {
+      "others": {
+        "zh": "维特根斯坦是唯一一位我认为真正是个天才的哲学家。他的思想深度和原创性无人能及。",
+        "en": "Wittgenstein is the only philosopher I would call a genius. The depth and originality of his thought are unparalleled."
+      },
+      "othersBy": "吉尔伯特·赖尔",
+      "othersByEn": "Gilbert Ryle"
+    },
+    "luo-guanzhong": {
+      "others": {
+        "zh": "罗贯中的《三国演义》是一部伟大的历史小说，它不仅讲述了一个精彩的故事，更展现了中国人的智慧和价值观。",
+        "en": "Luo Guanzhong's 'Romance of the Three Kingdoms' is a great historical novel that not only tells a wonderful story but also displays the wisdom and values of the Chinese people."
+      },
+      "othersBy": "鲁迅",
+      "othersByEn": "Lu Xun"
+    },
+    "mahatma-gandhi": {
+      "others": {
+        "zh": "后来，我们记住了他的话语，却忘记了他是如何活出这些话语的。他活出了他的信念，他的生活就是他的信息。",
+        "en": "Later, we remembered his words, but forgot how he lived them. He lived his beliefs, his life was his message."
+      },
+      "othersBy": "马丁·路德·金",
+      "othersByEn": "Martin Luther King Jr."
+    },
+    "mao-dun": {
+      "others": {
+        "zh": "茅盾是中国现代文学史上的一座丰碑，他的作品不仅记录了一个时代的变迁，更展现了中国知识分子在历史洪流中的精神探索。",
+        "en": "Mao Dun is a monumental figure in the history of modern Chinese literature; his works not only recorded the changes of an era but also showcased the spiritual exploration of Chinese intellectuals in the torrent of history."
+      },
+      "othersBy": "巴金",
+      "othersByEn": "Ba Jin"
+    },
+    "marcel-duchamp": {
+      "others": {
+        "zh": "杜尚是唯一一位真正改变了艺术进程的艺术家，他解放了艺术家的思想，使其能够超越绘画和雕塑的传统限制。",
+        "en": "Duchamp is the only artist who really changed the course of art history; he freed the artist's mind to go beyond the traditional limits of painting and sculpture."
+      },
+      "othersBy": "艺术评论家哈罗德·罗森伯格",
+      "othersByEn": "Art critic Harold Rosenberg"
+    },
+    "marcel-proust": {
+      "others": {
+        "zh": "普鲁斯特是文学界的哥伦布，他发现了人类心灵的整个新大陆。",
+        "en": "Proust is the Columbus of the literary world, he discovered a whole new continent of the human soul."
+      },
+      "othersBy": "安德烈·莫洛亚",
+      "othersByEn": "André Maurois"
+    },
+    "marco-polo": {
+      "others": {
+        "zh": "马可·波罗是第一位向西方系统介绍中国的旅行家，他的游记是中世纪欧洲最重要的地理著作之一。",
+        "en": "Marco Polo was the first traveler to systematically introduce China to the West, and his travelogue is one of the most important geographical works in medieval Europe."
+      },
+      "othersBy": "李约瑟",
+      "othersByEn": "Joseph Needham"
+    },
+    "marcus-aurelius": {
+      "others": {
+        "zh": "马可·奥勒留是罗马帝国最后一位伟大的皇帝，他的统治标志着古典时代的终结。",
+        "en": "Marcus Aurelius was the last of the great emperors of Rome; his reign marked the end of the classical era."
+      },
+      "othersBy": "爱德华·吉本",
+      "othersByEn": "Edward Gibbon"
+    },
+    "margaret-thatcher": {
+      "others": {
+        "zh": "玛格丽特·撒切尔是20世纪最具变革性的政治家之一，她改变了英国的政治和经济方向，其影响将持续数十年。",
+        "en": "Margaret Thatcher was one of the most transformative politicians of the 20th century; she changed the direction of British politics and economics, and her influence will be felt for decades to come."
+      },
+      "othersBy": "托尼·布莱尔",
+      "othersByEn": "Tony Blair"
+    },
+    "maria-theresa": {
+      "others": {
+        "zh": "她是一位伟大的女王，拥有男人的头脑和女人的心。",
+        "en": "She was a great queen, possessing a man's mind and a woman's heart."
+      },
+      "othersBy": "伏尔泰",
+      "othersByEn": "Voltaire"
+    },
+    "martin-luther-king-jr": {
+      "others": {
+        "zh": "暴力只会产生更多暴力，而爱能治愈一切创伤。黑暗不能驱散黑暗，只有光明才能做到。仇恨不能驱散仇恨，只有爱才能做到。",
+        "en": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that."
+      },
+      "othersBy": "马丁·路德·金",
+      "othersByEn": "Martin Luther King Jr."
+    },
+    "mary-anning": {
+      "others": {
+        "zh": "她拥有非凡的才能和毅力，在地质学领域做出了重要贡献，尽管她是一位没有受过教育的女性。",
+        "en": "She possessed extraordinary talent and perseverance and made important contributions to the science of geology, though she was an uneducated woman."
+      },
+      "othersBy": "威廉·巴克兰",
+      "othersByEn": "William Buckland"
+    },
+    "mary-i-england": {
+      "others": {
+        "zh": "玛丽女王是一位虔诚但不幸的女性，她被自己的热情和时代的悲剧所吞噬。她的统治短暂而充满冲突，但她作为英格兰第一位正式女王的地位永远改变了历史的进程。",
+        "en": "Queen Mary was a devout but unfortunate woman, consumed by her own passions and the tragedies of her time. Her reign was brief and fraught with conflict, but her status as England's first officially crowned queen forever altered the course of history."
+      },
+      "othersBy": "历史学家卡罗琳·埃里克森",
+      "othersByEn": "Historian Carolyn Erickson"
+    },
+    "mary-stuart": {
+      "others": {
+        "zh": "她拥有所有能够使一个女人成为伟大统治者的品质，除了那些使她能够保持统治的品质。",
+        "en": "She had all the qualities which make a woman a great queen, except those which make a great queen able to keep her throne."
+      },
+      "othersBy": "沃尔特·斯科特",
+      "othersByEn": "Walter Scott"
+    },
+    "maurice-ravel": {
+      "others": {
+        "zh": "拉威尔是一位完美的工匠，他的音乐就像瑞士手表一样精确、优雅且无可挑剔。",
+        "en": "Ravel was a perfect craftsman; his music was as precise, elegant, and flawless as a Swiss watch."
+      },
+      "othersBy": "作曲家阿诺尔德·勋伯格",
+      "othersByEn": "Composer Arnold Schoenberg"
+    },
+    "max-planck": {
+      "others": {
+        "zh": "普朗克的发现标志着物理学革命的开始，他打开了通往全新世界的大门，这个世界与我们日常经验中的世界截然不同。",
+        "en": "Planck's discovery marked the beginning of a revolution in physics. He opened the door to a new world, a world vastly different from the world of our everyday experience."
+      },
+      "othersBy": "阿尔伯特·爱因斯坦",
+      "othersByEn": "Albert Einstein"
+    },
+    "maximilien-robespierre": {
+      "others": {
+        "zh": "罗伯斯庇尔是历史上最纯粹的革命者之一，也是最可怕的暴君之一。他既无私又残忍，既崇高又卑鄙。",
+        "en": "Robespierre was one of the purest revolutionaries in history and one of the most terrible tyrants. He was both selfless and cruel, both sublime and base."
+      },
+      "othersBy": "埃德蒙·伯克",
+      "othersByEn": "Edmund Burke"
+    },
+    "maya-angelou": {
+      "others": {
+        "zh": "玛雅·安吉罗是一位真正的诗人，她的作品充满了力量和智慧。",
+        "en": "Maya Angelou is a true poet, whose work is filled with power and wisdom."
+      },
+      "othersBy": "阿诺德·施瓦辛格",
+      "othersByEn": "Arnold Schwarzenegger"
+    },
+    "mei-lanfang": {
+      "others": {
+        "zh": "梅兰芳是中国戏曲史上的一座丰碑，他的艺术成就不仅属于中国，也属于世界。",
+        "en": "Mei Lanfang is a monumental figure in the history of Chinese opera. His artistic achievements belong not only to China but to the world."
+      },
+      "othersBy": "田汉",
+      "othersByEn": "Tian Han"
+    },
+    "michael-faraday": {
+      "others": {
+        "zh": "法拉第是历史上最伟大的实验哲学家之一，他的发现构成了现代电学的基础。",
+        "en": "Faraday was one of the greatest experimental philosophers the world has ever produced; his discoveries form the foundation of modern electrical science."
+      },
+      "othersBy": "詹姆斯·克拉克·麦克斯韦",
+      "othersByEn": "James Clerk Maxwell"
+    },
+    "michael-jackson": {
+      "others": {
+        "zh": "迈克尔·杰克逊是过去25年来最伟大的艺术家，他重新定义了流行音乐录影带，将其提升为艺术形式。",
+        "en": "Michael Jackson is the greatest artist of the last 25 years. He redefined the pop music video, elevating it to an art form."
+      },
+      "othersBy": "昆西·琼斯",
+      "othersByEn": "Quincy Jones"
+    },
+    "michel-foucault": {
+      "others": {
+        "zh": "福柯是一位真正的思想探险家，他重新定义了我们思考权力、知识和主体性的方式，他的著作是20世纪思想地图上不可忽视的坐标。",
+        "en": "Foucault was a true intellectual explorer who redefined how we think about power, knowledge, and subjectivity; his works are indispensable coordinates on the intellectual map of the 20th century."
+      },
+      "othersBy": "朱迪斯·巴特勒",
+      "othersByEn": "Judith Butler"
+    },
+    "michelangelo-buonarroti": {
+      "others": {
+        "zh": "米开朗基罗是如此的天才，以至于他可以同时成为雕塑家、画家和建筑师。",
+        "en": "Michelangelo was so talented that he could be a sculptor, painter, and architect all at once."
+      },
+      "othersBy": "莱昂纳多·达·芬奇",
+      "othersByEn": "Leonardo da Vinci"
+    },
+    "miguel-de-cervantes": {
+      "others": {
+        "zh": "塞万提斯、莎士比亚和歌德是世界文学的三大柱石，他们各自用自己的语言创造了不朽的文学世界。",
+        "en": "Cervantes, Shakespeare, and Goethe are the three pillars of world literature, each creating an immortal literary world in their own language."
+      },
+      "othersBy": "费德里戈·加西亚·洛尔卡",
+      "othersByEn": "Federico García Lorca"
+    },
+    "mikhail-bakunin": {
+      "others": {
+        "zh": "巴枯宁是无政府主义运动的先知，他的思想像一把双刃剑，既解放了人们的思想，也带来了混乱和破坏。",
+        "en": "Bakunin was the prophet of the anarchist movement; his ideas were like a double-edged sword, liberating minds while also bringing chaos and destruction."
+      },
+      "othersBy": "爱德华·卡彭特",
+      "othersByEn": "Edward Carpenter"
+    },
+    "mikhail-gorbachev": {
+      "others": {
+        "zh": "戈尔巴乔夫是一位伟大的改革者，他结束了冷战，但没有能够拯救苏联。",
+        "en": "Gorbachev was a great reformer who ended the Cold War but was not able to save the Soviet Union."
+      },
+      "othersBy": "弗拉基米尔·普京",
+      "othersByEn": "Vladimir Putin"
+    },
+    "mikhail-tukhachevsky": {
+      "others": {
+        "zh": "图哈切夫斯基的处决是斯大林犯下的最严重错误之一，它使我们的军队失去了最优秀的军事头脑之一。",
+        "en": "The execution of Tukhachevsky was one of Stalin's most serious mistakes; it deprived our army of one of its finest military minds."
+      },
+      "othersBy": "格奥尔基·朱可夫",
+      "othersByEn": "Georgy Zhukov"
+    },
+    "milton-friedman": {
+      "others": {
+        "zh": "米尔顿·弗里德曼是20世纪后半叶最具影响力的经济学家，他重新塑造了人们对政府在经济中角色的理解。",
+        "en": "Milton Friedman was the most influential economist of the second half of the 20th century; he reshaped people's understanding of the role of government in the economy."
+      },
+      "othersBy": "保罗·克鲁格曼",
+      "othersByEn": "Paul Krugman"
+    },
+    "mo-yan": {
+      "others": {
+        "zh": "莫言用他那充满魔幻色彩的语言，讲述了一个关于中国农村的宏大故事，他的作品既有中国传统文化的底蕴，又有现代文学的技巧。",
+        "en": "Mo Yan, with his magically colored language, tells a grand story about rural China. His works possess both the depth of traditional Chinese culture and the techniques of modern literature."
+      },
+      "othersBy": "瑞典文学院",
+      "othersByEn": "Swedish Academy"
+    },
+    "moliere": {
+      "others": {
+        "zh": "莫里哀是法国最伟大的天才，他比任何人都更懂得如何取悦观众，同时又教育他们。",
+        "en": "Molière is the greatest genius France has produced; he knew better than anyone else how to please the public while at the same time instructing them."
+      },
+      "othersBy": "伏尔泰",
+      "othersByEn": "Voltaire"
+    },
+    "molotov": {
+      "others": {
+        "zh": "莫洛托夫是斯大林最忠诚的仆人，也是最危险的工具。",
+        "en": "Molotov was Stalin's most loyal servant and his most dangerous instrument."
+      },
+      "othersBy": "赫鲁晓夫",
+      "othersByEn": "Nikita Khrushchev"
+    },
+    "montesquieu": {
+      "others": {
+        "zh": "孟德斯鸠是第一个认识到政府形式必须与人民性格、气候、宗教、人口、贸易、道德和风俗相适应的人。",
+        "en": "Montesquieu was the first to recognize that forms of government must be adapted to the character of the people, climate, religion, population, trade, morals, and manners."
+      },
+      "othersBy": "爱德华·吉本",
+      "othersByEn": "Edward Gibbon"
+    },
+    "mozi": {
+      "others": {
+        "zh": "墨子兼爱，摩顶放踵利天下，为之。",
+        "en": "Mozi practiced universal love, even to the point of wearing out his heels and balding his head for the benefit of the world."
+      },
+      "othersBy": "孟子",
+      "othersByEn": "Mencius"
+    },
+    "muhammad-ali-jinnah": {
+      "others": {
+        "zh": "真纳是印度历史上最伟大的律师之一，他拥有非凡的政治才能和坚定的决心。他是一位真正的国家缔造者，他的智慧和远见将继续指引巴基斯坦的未来。",
+        "en": "Jinnah was one of the greatest lawyers in Indian history, possessing extraordinary political talent and unwavering determination. He was a true nation-builder, and his wisdom and foresight will continue to guide Pakistan's future."
+      },
+      "othersBy": "利雅得·侯赛因",
+      "othersByEn": "Riaz Hussain"
+    },
+    "mustafa-kemal-ataturk": {
+      "others": {
+        "zh": "阿塔图尔克是20世纪最伟大的政治家之一，他不仅解放了自己的国家，还为整个东方世界指明了一条通往现代化的道路。",
+        "en": "Atatürk was one of the greatest statesmen of the 20th century; he not only liberated his country but also showed the way to modernization for the entire Eastern world."
+      },
+      "othersBy": "贾瓦哈拉尔·尼赫鲁",
+      "othersByEn": "Jawaharlal Nehru"
+    },
+    "naguib-mahfouz": {
+      "others": {
+        "zh": "马哈福兹用阿拉伯语写作，却让整个世界听到了他的声音。他不仅是埃及的，也是全人类的作家。",
+        "en": "Mahfouz wrote in Arabic but made the whole world hear his voice. He is not only Egypt's but the writer of all humanity."
+      },
+      "othersBy": "埃及作家阿卜杜勒-拉赫曼·穆尼夫",
+      "othersByEn": "Abdulrahman Munif, Egyptian writer"
+    },
+    "napoleon-bonaparte": {
+      "others": {
+        "zh": "他是一位来自地平线的巨人，改变了我们世界地图的轮廓。",
+        "en": "He was a giant from the horizon who changed the contours of our world map."
+      },
+      "othersBy": "维克多·雨果",
+      "othersByEn": "Victor Hugo"
+    },
+    "naramsin": {
+      "others": {
+        "zh": "纳拉姆辛是一位真正的英雄，他的事迹将永远被人们铭记。",
+        "en": "Naramsin was a true hero, whose deeds will be remembered forever."
+      },
+      "othersBy": "未知",
+      "othersByEn": "Unknown"
+    },
+    "nelson-mandela": {
+      "others": {
+        "zh": "曼德拉不是圣人，但他是一位伟大的政治家，他懂得何时坚持原则，何时妥协，以及何时宽恕。",
+        "en": "Mandela was not a saint, but he was a great politician who knew when to stand firm, when to compromise, and when to forgive."
+      },
+      "othersBy": "德斯蒙德·图图",
+      "othersByEn": "Desmond Tutu"
+    },
+    "neville-chamberlain": {
+      "others": {
+        "zh": "他为国家服务直到最后一刻。",
+        "en": "He served his country to the last moment."
+      },
+      "othersBy": "温斯顿·丘吉尔",
+      "othersByEn": "Winston Churchill"
+    },
+    "niccolo-machiavelli": {
+      "others": {
+        "zh": "马基雅维利是政治学中的伽利略，他首次将政治从道德神学中解放出来，使其成为一门独立的科学。",
+        "en": "Machiavelli is the Galileo of politics; he was the first to liberate politics from moral theology and make it an independent science."
+      },
+      "othersBy": "伯特兰·罗素",
+      "othersByEn": "Bertrand Russell"
+    },
+    "nicolaus-copernicus": {
+      "others": {
+        "zh": "哥白尼是第一个将宇宙从人类手中夺走的人，他将人类从宇宙中心的位置上驱逐出去。",
+        "en": "Copernicus was the first to deprive humanity of the universe by removing Earth from the center of the cosmos."
+      },
+      "othersBy": "亚瑟·叔本华",
+      "othersByEn": "Arthur Schopenhauer"
+    },
+    "nie-er": {
+      "others": {
+        "zh": "聂耳虽然只活了23岁，但他用音乐点燃了民族的火焰，他的歌声永远回荡在人民心中。",
+        "en": "Although Nie Er lived only 23 years, he ignited the flame of the nation with his music, and his songs will forever echo in the hearts of the people."
+      },
+      "othersBy": "冼星海",
+      "othersByEn": "Xian Xinghai"
+    },
+    "niels-bohr": {
+      "others": {
+        "zh": "玻尔的思想如此深刻，以至于人们需要很长时间才能完全理解其含义。他不仅是一位伟大的物理学家，也是一位伟大的思想家。",
+        "en": "Bohr's thoughts were so profound that it took a long time for people to fully grasp their implications. He was not only a great physicist but also a great thinker."
+      },
+      "othersBy": "维尔纳·海森堡",
+      "othersByEn": "Werner Heisenberg"
+    },
+    "nikita-khrushchev": {
+      "others": {
+        "zh": "赫鲁晓夫是一个矛盾的人物：他既是一个残酷的斯大林主义者，又是一个真诚的改革者；他既是一个粗鲁的暴君，又是一个有魅力的人民领袖。",
+        "en": "Khrushchev was a contradictory figure: he was both a cruel Stalinist and a sincere reformer; both a crude tyrant and a charismatic populist leader."
+      },
+      "othersBy": "历史学家罗伯特·康奎斯特",
+      "othersByEn": "Historian Robert Conquest"
+    },
+    "nikola-tesla": {
+      "others": {
+        "zh": "如果特斯拉的成就被完全理解，那么当今世界将视他为比托马斯·爱迪生更伟大的发明家，比亚历山大·格雷厄姆·贝尔更重要的通信先驱。",
+        "en": "If Tesla's achievements were fully understood, the world today would view him as a greater inventor than Thomas Edison and a more important pioneer in communications than Alexander Graham Bell."
+      },
+      "othersBy": "伯纳德·卡尔森",
+      "othersByEn": "Bernard Carlson"
+    },
+    "nikolai-bukharin": {
+      "others": {
+        "zh": "布哈林是党最喜爱的理论家，他像水晶一样透明，像鲜花一样芬芳，像孩子一样天真。",
+        "en": "Bukharin was the party's favorite theoretician, as transparent as crystal, as fragrant as a flower, as innocent as a child."
+      },
+      "othersBy": "斯大林",
+      "othersByEn": "Stalin"
+    },
+    "nikolai-gogol": {
+      "others": {
+        "zh": "果戈理是俄罗斯文学中第一个真正意义上的俄罗斯人，他教会了我们如何用俄罗斯的眼睛看世界。",
+        "en": "Gogol was the first truly Russian in Russian literature; he taught us how to see the world with Russian eyes."
+      },
+      "othersBy": "费奥多尔·陀思妥耶夫斯基",
+      "othersByEn": "Fyodor Dostoevsky"
+    },
+    "noam-chomsky": {
+      "others": {
+        "zh": "乔姆斯基是我们这个时代最伟大的知识分子之一，他不仅改变了我们对语言的理解，也改变了我们思考政治的方式。",
+        "en": "Chomsky is one of the greatest intellectuals of our time, who has not only changed our understanding of language but also the way we think about politics."
+      },
+      "othersBy": "斯蒂芬·平克",
+      "othersByEn": "Steven Pinker"
+    },
+    "octavio-paz": {
+      "others": {
+        "zh": "帕斯是一位真正的世界公民，他的诗歌超越了地理和政治边界，探索人类共同的经验和情感。",
+        "en": "Paz was a true citizen of the world; his poetry transcended geographical and political boundaries to explore the common experiences and emotions of humanity."
+      },
+      "othersBy": "卡洛斯·富恩特斯",
+      "othersByEn": "Carlos Fuentes"
+    },
+    "orhan-pamuk": {
+      "others": {
+        "zh": "帕慕克以令人惊叹的叙事技巧，将东方与西方、过去与现在、个人与历史编织在一起，创造出一种独特的文学世界。",
+        "en": "With astonishing narrative skill, Pamuk weaves together East and West, past and present, individual and history, creating a unique literary world."
+      },
+      "othersBy": "诺贝尔文学奖评委会",
+      "othersByEn": "Nobel Prize Committee"
+    },
+    "otto-von-bismarck": {
+      "others": {
+        "zh": "俾斯麦是欧洲历史上最伟大的政治家之一，他不仅改变了德国的命运，也重塑了欧洲的政治格局。",
+        "en": "Bismarck was one of the greatest statesmen in European history; he not only changed the destiny of Germany but also reshaped the political landscape of Europe."
+      },
+      "othersBy": "英国历史学家A.J.P.泰勒",
+      "othersByEn": "British historian A.J.P. Taylor"
+    },
+    "pablo-neruda": {
+      "others": {
+        "zh": "聂鲁达的诗歌具有自然元素的品质，使他的名字成为渴望与希望的象征。",
+        "en": "Neruda's poetry with the action of elemental force brings alive a continent's destiny and dreams."
+      },
+      "othersBy": "瑞典学院",
+      "othersByEn": "The Swedish Academy"
+    },
+    "park-chung-hee": {
+      "others": {
+        "zh": "“朴正熙是韩国历史上最伟大的领导人之一，他的贡献无可争议。”",
+        "en": "'Park Chung Hee is one of the greatest leaders in Korean history, and his contributions are uncontroversial.'"
+      },
+      "othersBy": "评价者姓名（中文）",
+      "othersByEn": "评价者姓名（英文）"
+    },
+    "paul-cezanne": {
+      "others": {
+        "zh": "塞尚是我们所有人的父亲，一位艺术上的父亲。",
+        "en": "Cézanne is the father of us all, a father in terms of art."
+      },
+      "othersBy": "毕加索",
+      "othersByEn": "Pablo Picasso"
+    },
+    "paul-gauguin": {
+      "others": {
+        "zh": "高更是一位伟大的色彩大师，他的作品充满了原始的力量和神秘的美感。",
+        "en": "Gauguin was a master of color, his works filled with primitive power and mystical beauty."
+      },
+      "othersBy": "安德烈·纪德",
+      "othersByEn": "André Gide"
+    },
+    "paul-mccartney": {
+      "others": {
+        "zh": "保罗·麦卡特尼可能是我们这个时代最伟大的作曲家，他拥有无与伦比的旋律天赋。",
+        "en": "Paul McCartney may be the greatest composer of our time, with a melodic genius that is unparalleled."
+      },
+      "othersBy": "约翰·列侬",
+      "othersByEn": "John Lennon"
+    },
+    "paul-von-hindenburg": {
+      "others": {
+        "zh": "兴登堡是一位伟大的将军，但作为政治家，他完全不适合担任国家元首。",
+        "en": "Hindenburg was a great general, but as a statesman, he was completely unsuitable for the office of head of state."
+      },
+      "othersBy": "特奥多尔·豪斯",
+      "othersByEn": "Theodor Heuss"
+    },
+    "peng-dehuai": {
+      "others": {
+        "zh": "彭德怀同志是中国共产党的优秀党员，是中国人民解放军的杰出将领，是伟大的无产阶级革命家、军事家。",
+        "en": "Comrade Peng Dehuai was an outstanding member of the Communist Party of China, an outstanding commander of the Chinese People's Liberation Army, and a great proletarian revolutionary and military strategist."
+      },
+      "othersBy": "中共中央",
+      "othersByEn": "Central Committee of the Communist Party of China"
+    },
+    "percy-bysshe-shelley": {
+      "others": {
+        "zh": "雪莱是我们这个时代最富诗意的灵魂之一，他的想象力如火焰般燃烧，照亮了黑暗的角落。",
+        "en": "Shelley is one of the most poetic souls of our age, whose imagination burns like a flame, illuminating the darkest corners."
+      },
+      "othersBy": "马修·阿诺德",
+      "othersByEn": "Matthew Arnold"
+    },
+    "pericles": {
+      "others": {
+        "zh": "他是雅典的荣耀。",
+        "en": "He was the glory of Athens."
+      },
+      "othersBy": "修昔底德",
+      "othersByEn": "Thucydides"
+    },
+    "peter-the-great": {
+      "others": {
+        "zh": "彼得大帝是一位将俄罗斯从野蛮状态提升到文明水平的君主，他使俄罗斯成为欧洲强国，尽管手段有时是野蛮的。",
+        "en": "Peter the Great was a monarch who raised Russia from a state of barbarism to civilization, making it a European power, though his methods were sometimes barbarous."
+      },
+      "othersBy": "伏尔泰",
+      "othersByEn": "Voltaire"
+    },
+    "philip-ii-of-macedon": {
+      "others": {
+        "zh": "腓力二世是一位真正的君主，他不仅征服了希腊，还教会了希腊人如何被征服。",
+        "en": "Philip was a true king; he not only conquered the Greeks, but he also taught them how to be conquered."
+      },
+      "othersBy": "狄摩西尼",
+      "othersByEn": "Demosthenes"
+    },
+    "picasso": {
+      "others": {
+        "zh": "毕加索是我们这个时代最伟大的画家，他不仅是一位艺术家，更是一位创造者，他重新定义了艺术的本质。",
+        "en": "Picasso is the greatest painter of our time. He is not only an artist but a creator who redefined the very essence of art."
+      },
+      "othersBy": "安德烈·马尔罗",
+      "othersByEn": "André Malraux"
+    },
+    "pierre-auguste-renoir": {
+      "others": {
+        "zh": "雷诺阿是唯一一位能将阳光画得如此温暖，以至于你能感受到它的人。",
+        "en": "Renoir is the only one who could paint sunlight so warm that you could feel it."
+      },
+      "othersBy": "亨利·马蒂斯",
+      "othersByEn": "Henri Matisse"
+    },
+    "pierre-joseph-proudhon": {
+      "others": {
+        "zh": "蒲鲁东是无政府主义的理论奠基人，但他也是一位充满矛盾的思想家。他既反对国家，又反对资本主义；既主张自由，又反对无政府状态下的混乱。这种矛盾性使他成为历史上最具争议的思想家之一。",
+        "en": "Proudhon was the theoretical founder of anarchism, but he was also a thinker full of contradictions. He opposed both the state and capitalism; he advocated for freedom but opposed the chaos that might follow anarchy. This contradictory nature makes him one of the most controversial figures in history."
+      },
+      "othersBy": "埃里克·霍布斯鲍姆",
+      "othersByEn": "Eric Hobsbawm"
+    },
+    "pierre-simon-laplace": {
+      "others": {
+        "zh": "拉普拉斯是法国科学界的牛顿，他的《天体力学》是科学史上最伟大的著作之一。",
+        "en": "Laplace is the Newton of French science, and his 'Mécanique Céleste' is one of the greatest works in the history of science."
+      },
+      "othersBy": "弗朗索瓦·阿拉戈",
+      "othersByEn": "François Arago"
+    },
+    "piet-mondrian": {
+      "others": {
+        "zh": "蒙德里安的艺术是如此纯粹，以至于它成为了我们这个时代最伟大的视觉成就之一。",
+        "en": "Mondrian's art is so pure that it has become one of the greatest visual achievements of our time."
+      },
+      "othersBy": "阿尔弗雷德·巴尔",
+      "othersByEn": "Alfred H. Barr"
+    },
+    "plato": {
+      "others": {
+        "zh": "整个西方哲学传统不过是柏拉图的一系列注脚。",
+        "en": "The entire Western tradition of philosophy is but a series of footnotes to Plato."
+      },
+      "othersBy": "怀特海",
+      "othersByEn": "Alfred North Whitehead"
+    },
+    "pu-songling": {
+      "others": {
+        "zh": "蒲松龄以鬼狐为镜，照见人间百态；以笔墨为剑，刺破社会黑暗。",
+        "en": "Pu Songling used ghosts and foxes as mirrors to reflect the myriad aspects of human society, and used his pen as a sword to pierce through the darkness of society."
+      },
+      "othersBy": "鲁迅",
+      "othersByEn": "Lu Xun"
+    },
+    "pyotr-ilyich-tchaikovsky": {
+      "others": {
+        "zh": "柴可夫斯基的音乐是俄罗斯灵魂的镜子，它既反映了俄罗斯人民的苦难，也展现了他们对美的永恒追求。",
+        "en": "Tchaikovsky's music is a mirror of the Russian soul, reflecting both the suffering of the Russian people and their eternal pursuit of beauty."
+      },
+      "othersBy": "谢尔盖·拉赫玛尼诺夫",
+      "othersByEn": "Sergei Rachmaninoff"
+    },
+    "qi-bai-shi": {
+      "others": {
+        "zh": "齐白石是中国画坛的一座高峰，他的艺术成就无人能及。",
+        "en": "Qi Baishi is a peak in the Chinese art world, and his artistic achievements are unmatched."
+      },
+      "othersBy": "徐悲鸿",
+      "othersByEn": "Xu Beihong"
+    },
+    "qian-zhongshu": {
+      "others": {
+        "zh": "钱钟书的学问，如大海之渊，如高山之峻，如星空之远，如日月之明，如珠玉之润，如金石之声。",
+        "en": "Qian Zhongshu's scholarship is as deep as the ocean, as lofty as mountains, as vast as the starry sky, as bright as the sun and moon, as smooth as pearls and jade, and as resonant as metal and stone."
+      },
+      "othersBy": "杨绛",
+      "othersByEn": "Yang Jiang"
+    },
+    "qin-shi-huang": {
+      "others": {
+        "zh": "始皇奋六世之余烈，振长策而御宇内，吞二周而亡诸侯，履至尊而制六合，执敲扑而鞭笞天下，威振四海。",
+        "en": "The First Emperor, building on the achievements of six generations of predecessors, wielded his whip to control the universe, swallowed the two Zhou states and conquered the feudal lords, treaded upon the highest position and ruled the six directions, and used his power to whip the entire world, his might shaking the four seas."
+      },
+      "othersBy": "贾谊",
+      "othersByEn": "Jia Yi"
+    },
+    "rabindranath-tagore": {
+      "others": {
+        "zh": "泰戈尔的诗歌以其深刻的情感和优美的形式，揭示了人类灵魂的普遍真理。",
+        "en": "Tagore's poetry, with its profound emotion and beautiful form, reveals the universal truths of the human soul."
+      },
+      "othersBy": "威廉·巴特勒·叶芝",
+      "othersByEn": "William Butler Yeats"
+    },
+    "rachel-carson": {
+      "others": {
+        "zh": "她将科学家的严谨与诗人的敏感完美结合，唤醒了一个沉睡的世界。",
+        "en": "She combined the scientist's rigorous mind with the poet's sensitivity, awakening a sleeping world."
+      },
+      "othersBy": "美国前副总统阿尔·戈尔",
+      "othersByEn": "Al Gore, former Vice President of the United States"
+    },
+    "ramses-ii": {
+      "others": {
+        "zh": "拉美西斯二世是埃及的骄傲。",
+        "en": "Ramses II is the pride of Egypt."
+      },
+      "othersBy": "埃及人民",
+      "othersByEn": "The Egyptian people"
+    },
+    "raphael-sanzio": {
+      "others": {
+        "zh": "拉斐尔死后，罗马失去了最伟大的光芒。",
+        "en": "After Raphael's death, Rome lost its greatest light."
+      },
+      "othersBy": "乔尔乔·瓦萨里",
+      "othersByEn": "Giorgio Vasari"
+    },
+    "ray-kroc": {
+      "others": {
+        "zh": "“雷·克洛克是麦当劳的真正灵魂，没有他，麦当劳可能只是一个普通的快餐店。”",
+        "en": "\"Ray Kroc is the true soul of McDonald's; without him, McDonald's might have just been an ordinary fast-food restaurant.\""
+      },
+      "othersBy": "迈克尔·E·波特",
+      "othersByEn": "Michael E. Porter"
+    },
+    "rembrandt-harmenszoon-van-rijn": {
+      "others": {
+        "zh": "伦勃朗是所有时代中最伟大的画家，因为他懂得如何将灵魂注入到他的作品中。",
+        "en": "Rembrandt is the greatest of all painters, because he knew how to infuse his works with soul."
+      },
+      "othersBy": "欧仁·德拉克洛瓦",
+      "othersByEn": "Eugène Delacroix"
+    },
+    "rene-descartes": {
+      "others": {
+        "zh": "笛卡尔是所有现代哲学的源泉，从他的思想中，要么直接产生，要么间接地，我们找到了后来所有哲学体系的元素。",
+        "en": "Descartes is the father of modern philosophy, and all subsequent philosophy is merely a footnote to his work."
+      },
+      "othersBy": "黑格尔",
+      "othersByEn": "Hegel"
+    },
+    "richard-feynman": {
+      "others": {
+        "zh": "费曼是一位真正的天才，他能够将最深奥的物理概念转化为任何人都能理解的语言。他不仅改变了物理学，还改变了我们思考科学的方式。",
+        "en": "Feynman was a true genius who could translate the most profound physics concepts into language anyone could understand. He not only changed physics but also changed the way we think about science."
+      },
+      "othersBy": "物理学家弗里曼·戴森",
+      "othersByEn": "Physicist Freeman Dyson"
+    },
+    "richard-nixon": {
+      "others": {
+        "zh": "评价者姓名：历史学家小阿瑟·施莱辛格",
+        "en": "By: Historian Arthur Schlesinger Jr."
+      },
+      "othersBy": "小阿瑟·施莱辛格",
+      "othersByEn": "Arthur Schlesinger Jr."
+    },
+    "richard-wagner": {
+      "others": {
+        "zh": "瓦格纳的音乐是如此丰富，以至于它包含了整个宇宙。",
+        "en": "Wagner's music is so rich that it contains the whole universe."
+      },
+      "othersBy": "古斯塔夫·马勒",
+      "othersByEn": "Gustav Mahler"
+    },
+    "robert-boyle": {
+      "others": {
+        "zh": "波义耳是实验哲学的真正创始人，他通过实验而非权威来探索自然。",
+        "en": "Boyle was the true founder of experimental philosophy, who explored nature through experiments rather than authority."
+      },
+      "othersBy": "约翰·洛克",
+      "othersByEn": "John Locke"
+    },
+    "robert-koch": {
+      "others": {
+        "zh": "科赫的工作为医学科学开辟了全新的道路，他不仅发现了疾病的微生物原因，还建立了研究这些微生物的方法。",
+        "en": "Koch's work opened up entirely new paths for medical science; he not only discovered the microbial causes of diseases but also established methods for studying these microorganisms."
+      },
+      "othersBy": "马克斯·佩鲁茨",
+      "othersByEn": "Max Perutz"
+    },
+    "ronald-reagan": {
+      "others": {
+        "zh": "里根不是一位普通的总统，他是一位改变了世界的人。",
+        "en": "Reagan was no ordinary president; he was a man who changed the world."
+      },
+      "othersBy": "米哈伊尔·戈尔巴乔夫",
+      "othersByEn": "Mikhail Gorbachev"
+    },
+    "rosa-luxemburg": {
+      "others": {
+        "zh": "罗莎·卢森堡是鹰，不是夜莺。她用锐利的目光观察世界，用尖锐的语言表达思想，她的生命和思想都充满了力量。",
+        "en": "Rosa Luxemburg was an eagle, not a nightingale. She observed the world with sharp eyes and expressed her thoughts with sharp words; her life and thought were full of strength."
+      },
+      "othersBy": "克拉拉·蔡特金",
+      "othersByEn": "Clara Zetkin"
+    },
+    "saladin": {
+      "others": {
+        "zh": "萨拉丁是一位伟大的君主，他既勇敢又慷慨，既虔诚又公正，他值得我们所有人的赞美。",
+        "en": "Saladin was a great prince, valiant and generous, pious and just, worthy of all praise.",
+        "othersBy": "贝内迪克特修士",
+        "othersByEn": "Friar Benedict"
+      },
+      "othersBy": "",
+      "othersByEn": ""
+    },
+    "salvador-dali": {
+      "others": {
+        "zh": "达利是一位伟大的画家，但更是一位伟大的演员。他扮演达利这个角色比任何人都要出色。",
+        "en": "Dalí was a great painter, but even more so a great actor. He played the role of Dalí better than anyone else."
+      },
+      "othersBy": "安德烈·布勒东",
+      "othersByEn": "André Breton"
+    },
+    "samuel-beckett": {
+      "others": {
+        "zh": "贝克特是唯一一位能够同时用英语和法语写作，且两种语言都达到同等高度的作家。他的作品是对人类处境最深刻的探索之一。",
+        "en": "Beckett is the only writer who could write equally well in both English and French, reaching the same heights in both languages. His work is one of the most profound explorations of the human condition."
+      },
+      "othersBy": "埃德蒙·怀特",
+      "othersByEn": "Edmund White"
+    },
+    "sandro-botticelli": {
+      "others": {
+        "zh": "波提切利的作品展现了优雅与忧郁的独特结合，他的线条如同音乐般流动，创造出一种超越时代的诗意美感。",
+        "en": "Botticelli's works demonstrate a unique combination of elegance and melancholy; his lines flow like music, creating a poetic beauty that transcends time."
+      },
+      "othersBy": "瓦萨里",
+      "othersByEn": "Giorgio Vasari"
+    },
+    "selim-i": {
+      "others": {
+        "zh": "塞利姆是一位伟大的征服者，他使奥斯曼帝国成为伊斯兰世界的领袖，但也以他的残酷手段留下了黑暗的遗产。",
+        "en": "Selim was a great conqueror who made the Ottoman Empire the leader of the Islamic world, but he also left a dark legacy with his ruthless methods."
+      },
+      "othersBy": "奥斯曼历史学家",
+      "othersByEn": "Ottoman historian"
+    },
+    "sergei-prokofiev": {
+      "others": {
+        "zh": "普罗科菲耶夫的音乐就像一个精致的俄罗斯玩偶，外表简单朴素，但打开后却展现出无限复杂和美丽。",
+        "en": "Prokofiev's music is like a delicate Russian doll—simple and unassuming on the outside, but infinitely complex and beautiful when opened."
+      },
+      "othersBy": "尼古拉·梅特纳",
+      "othersByEn": "Nikolai Medtner"
+    },
+    "shah-jahan": {
+      "others": {
+        "zh": "沙贾汗是一位伟大的建筑师，却是一位糟糕的统治者。他建造了世界上最美丽的陵墓，却无法为自己的帝国建造稳固的未来。",
+        "en": "Shah Jahan was a great architect but a poor ruler. He built the world's most beautiful tomb, yet could not build a secure future for his empire."
+      },
+      "othersBy": "英国历史学家威廉·达尔林普尔",
+      "othersByEn": "British historian William Dalrymple"
+    },
+    "shen-congwen": {
+      "others": {
+        "zh": "沈从文的文字如清水洗过一般，透明而纯净，他笔下的人物和故事，仿佛湘西的山水一样，自然而又动人。",
+        "en": "Shen Congwen's words are as clear as water, transparent and pure. The characters and stories he depicts are as natural and moving as the landscapes of Western Hunan."
+      },
+      "othersBy": "汪曾祺",
+      "othersByEn": "Wang Zengqi"
+    },
+    "shi-nai-an": {
+      "others": {
+        "zh": "“施耐庵笔下的英雄，既有豪情壮志，又有悲欢离合，令人感慨万千。”",
+        "en": "The heroes depicted by Shi Nai'an have both heroic ambitions and the joys and sorrows of life and separation, which makes people feel deeply moved."
+      },
+      "othersBy": "鲁迅",
+      "othersByEn": "Lu Xun"
+    },
+    "sibelius-jean": {
+      "others": {
+        "zh": "西贝柳斯的音乐是芬兰的骄傲，他的作品将永远流传。",
+        "en": "Sibelius's music is the pride of Finland, and his works will be passed down forever."
+      },
+      "othersBy": "阿诺·霍尔姆",
+      "othersByEn": "Arno Holm"
+    },
+    "sigmund-freud": {
+      "others": {
+        "zh": "弗洛伊德是那种罕见的人物，他不仅改变了他所研究的学科，还改变了西方文明的思维方式。",
+        "en": "Freud is one of those rare individuals who not only changed the discipline he studied but also changed the way Western civilization thinks."
+      },
+      "othersBy": "彼得·盖伊",
+      "othersByEn": "Peter Gay"
+    },
+    "silvia-plath": {
+      "others": {
+        "zh": "普拉斯的诗歌是如此强烈、如此个人化，以至于它们几乎无法被阅读而不感到某种程度的痛苦或恐惧。",
+        "en": "Plath's poetry is so intense, so personal, that it is almost impossible to read without feeling some degree of pain or terror."
+      },
+      "othersBy": "罗伯特·洛威尔",
+      "othersByEn": "Robert Lowell"
+    },
+    "sima-qian": {
+      "others": {
+        "zh": "自谓究天人之际，通古今之变，成一家之言。其文直，其事核，不虚美，不隐恶，故谓之实录。",
+        "en": "He claimed to have investigated the relationship between heaven and man, understood the changes through time, and established a unique scholarly perspective. His writing is straightforward, his accounts are factual, he does not praise without merit nor conceal evil, thus it is called a true record."
+      },
+      "othersBy": "班固",
+      "othersByEn": "Ban Gu"
+    },
+    "simone-de-beauvoir": {
+      "others": {
+        "zh": "波伏娃是20世纪最伟大的头脑之一，她不仅改变了女性思考自己的方式，也改变了世界思考女性的方式。",
+        "en": "Beauvoir was one of the greatest minds of the 20th century; she changed not only the way women think about themselves but also the way the world thinks about women."
+      },
+      "othersBy": "贝尔·胡克斯",
+      "othersByEn": "bell hooks"
+    },
+    "socrates-socrates": {
+      "others": {
+        "zh": "苏格拉底是如此智慧，以至于他知道自己一无所知。",
+        "en": "Socrates was so wise that he knew he knew nothing."
+      },
+      "othersBy": "柏拉图",
+      "othersByEn": "Plato"
+    },
+    "sofia-kovalevskaya": {
+      "others": {
+        "zh": "科瓦列夫斯卡娅是数学界的明星，她的工作对整个科学界都产生了深远的影响。",
+        "en": "Kovalevskaya is a star in the mathematical world, her work has had a profound impact on the entire scientific community."
+      },
+      "othersBy": "亨利·庞加莱",
+      "othersByEn": "Henri Poincaré"
+    },
+    "soren-kierkegaard": {
+      "others": {
+        "zh": "克尔凯郭尔是所有现代思想家中最伟大的心理学家。",
+        "en": "Kierkegaard is the greatest psychologist of all modern thinkers."
+      },
+      "othersBy": "索伦·克尔凯郭尔",
+      "othersByEn": "Søren Kierkegaard"
+    },
+    "stanley-kubrick": {
+      "others": {
+        "zh": "库布里克是电影史上最伟大的导演之一，他的每一部作品都是对电影艺术的重新定义。",
+        "en": "Kubrick was one of the greatest directors in film history; each of his films redefined the art of cinema."
+      },
+      "othersBy": "史蒂文·斯皮尔伯格",
+      "othersByEn": "Steven Spielberg"
+    },
+    "stephane-mallarme": {
+      "others": {
+        "zh": "马拉美是法国文学中最纯粹的诗人，他通过语言创造了一个全新的世界。",
+        "en": "Mallarmé is the purest poet in French literature; he created a new world through language."
+      },
+      "othersBy": "保罗·瓦莱里",
+      "othersByEn": "Paul Valéry"
+    },
+    "stephen-hawking": {
+      "others": {
+        "zh": "他不仅是一位伟大的科学家，也是一位非凡的人。他的成就和勇气将继续激励世界各地的科学家和普通人。",
+        "en": "He was not only a great scientist but also an extraordinary human being. His achievements and courage will continue to inspire scientists and ordinary people around the world."
+      },
+      "othersBy": "英国首相特蕾莎·梅",
+      "othersByEn": "Prime Minister Theresa May"
+    },
+    "steve-jobs": {
+      "others": {
+        "zh": "他拥有一种非凡的能力，能够理解人类心理学，并将这种理解融入到他创造的产品中。他不是简单地满足需求，而是创造需求。",
+        "en": "He had an extraordinary ability to understand human psychology and incorporate that understanding into the products he created. He didn't just satisfy needs, he created them."
+      },
+      "othersBy": "比尔·盖茨",
+      "othersByEn": "Bill Gates"
+    },
+    "su-shi": {
+      "others": {
+        "zh": "苏轼之文，如万斛泉源，不择地皆可出，在平地滔滔汩汩，虽一日千里无难。",
+        "en": "Su Shi's writing is like a spring of ten thousand measures of water, which can flow out anywhere. On level ground, it rushes forth abundantly, covering a thousand miles in a day without difficulty."
+      },
+      "othersBy": "欧阳修",
+      "othersByEn": "Ouyang Xiu"
+    },
+    "suleiman-the-magnificent": {
+      "others": {
+        "zh": "苏莱曼是奥斯曼帝国最伟大的君主，他的统治使帝国达到了前所未有的辉煌。",
+        "en": "Suleiman was the greatest sovereign of the Ottoman Empire, his reign brought the empire to unprecedented glory."
+      },
+      "othersBy": "奥斯曼历史学家",
+      "othersByEn": "Ottoman Historian"
+    },
+    "sun-tzu": {
+      "others": {
+        "zh": "孙子兵法，不仅是军事著作，更是哲学经典，它教导我们如何在复杂环境中做出最佳决策。",
+        "en": "The Art of War is not just a military work but a philosophical classic that teaches us how to make the best decisions in complex environments."
+      },
+      "othersBy": "毛泽东",
+      "othersByEn": "Mao Zedong"
+    },
+    "tang-taizong": {
+      "others": {
+        "zh": "《旧唐书》称其“听断不惑，从善如流”。",
+        "en": "The Old Book of Tang describes him as 'decisive in judgment and readily following good advice.'"
+      },
+      "othersBy": "《旧唐书》等史籍",
+      "othersByEn": "Old Book of Tang and other historical records"
+    },
+    "tang-xianzu": {
+      "others": {
+        "zh": "汤显祖是中国文学史上的一颗明珠，他的戏剧作品不仅艺术成就极高，而且思想深刻，影响深远。",
+        "en": "Tang Xianzu is a pearl in the history of Chinese literature. His dramatic works not only possess extremely high artistic achievements but also profound thought and far-reaching influence."
+      },
+      "othersBy": "王国维",
+      "othersByEn": "Wang Guowei"
+    },
+    "thomas-aquinas": {
+      "others": {
+        "zh": "阿奎那是所有基督教哲学家中最伟大的，也是所有哲学家中最基督教的。",
+        "en": "Aquinas is the greatest of all Christian philosophers and the most Christian of all philosophers."
+      },
+      "othersBy": "若瑟·皮珀",
+      "othersByEn": "Josef Pieper"
+    },
+    "thomas-edison": {
+      "others": {
+        "zh": "爱迪生是历史上最伟大的实用主义者，他不仅发明了东西，还发明了发明东西的方法。",
+        "en": "Edison was the greatest pragmatist in history; he not only invented things, but he also invented the method of inventing things."
+      },
+      "othersBy": "尼古拉·特斯拉",
+      "othersByEn": "Nikola Tesla"
+    },
+    "thomas-hardy": {
+      "others": {
+        "zh": "哈代是英国文学中最伟大的悲剧作家，他的作品展现了人类在命运面前的挣扎与无奈。",
+        "en": "Hardy is the greatest tragic writer in English literature, whose works show the struggle and helplessness of humanity in the face of fate."
+      },
+      "othersBy": "弗吉尼亚·伍尔夫",
+      "othersByEn": "Virginia Woolf"
+    },
+    "thomas-hobbes": {
+      "others": {
+        "zh": "霍布斯是第一个将政治哲学建立在人类本性而非神意基础上的思想家，他使政治学成为一门科学。",
+        "en": "Hobbes was the first thinker to base political philosophy on human nature rather than divine will, making politics a science."
+      },
+      "othersBy": "莱布尼茨",
+      "othersByEn": "Gottfried Wilhelm Leibniz"
+    },
+    "thomas-huxley": {
+      "others": {
+        "zh": "赫胥黎是达尔文进化论最杰出的捍卫者，他的工作为科学理性战胜宗教蒙昧铺平了道路。",
+        "en": "Huxley was the most distinguished champion of Darwin's theory of evolution, and his work paved the way for scientific rationality to overcome religious obscurantism."
+      },
+      "othersBy": "理查德·道金斯",
+      "othersByEn": "Richard Dawkins"
+    },
+    "thomas-jefferson": {
+      "others": {
+        "zh": "杰斐逊是美国的摩西，他带领人民走出奴役的埃及，进入应许之地，在那里每个人都能自由地追求自己的幸福。",
+        "en": "Jefferson is America's Moses, leading his people out of the Egypt of slavery into the promised land where each man might be free to pursue his own happiness."
+      },
+      "othersBy": "约翰·菲斯克",
+      "othersByEn": "John Fiske"
+    },
+    "thomas-mann": {
+      "others": {
+        "zh": "托马斯·曼是德国文学的伟大继承者，也是德国传统的伟大背叛者。他既保持了德国文化的深度，又超越了它的狭隘。",
+        "en": "Thomas Mann was the great heir of German literature and also its great betrayer. He preserved the depth of German culture while transcending its narrowness."
+      },
+      "othersBy": "君特·格拉斯",
+      "othersByEn": "Günter Grass"
+    },
+    "thomas-sankara": {
+      "others": {
+        "zh": "桑卡拉是非洲唯一真正理解革命的人，他不仅谈论革命，还实践革命。",
+        "en": "Sankara was the only African who truly understood revolution; he not only talked about it but practiced it."
+      },
+      "othersBy": "恩斯特·切·格瓦拉",
+      "othersByEn": "Ernesto 'Che' Guevara"
+    },
+    "thutmose-iii": {
+      "others": {
+        "zh": "他是一位伟大的征服者，他的名字将永远被铭记。",
+        "en": "He was a great conqueror, and his name will be remembered forever."
+      },
+      "othersBy": "埃及历史学家",
+      "othersByEn": "Egyptian historians"
+    },
+    "tim-berners-lee": {
+      "others": {
+        "zh": "他创造了互联网，却没有从中获利一美分，这可能是历史上最伟大的慈善行为。",
+        "en": "He created the internet and didn't make a dime from it. That might be the greatest act of charity in history."
+      },
+      "othersBy": "史蒂夫·沃兹尼亚克",
+      "othersByEn": "Steve Wozniak"
+    },
+    "titian-vecellio": {
+      "others": {
+        "zh": "提香是所有时代的画家中最伟大的，因为他拥有最丰富的色彩天赋和最完美的技巧。",
+        "en": "Titian is the greatest of all painters of all ages, for he had the most rich color talent and the most perfect technique."
+      },
+      "othersBy": "保罗·韦罗内塞",
+      "othersByEn": "Paolo Veronese"
+    },
+    "tito": {
+      "others": {
+        "zh": "铁托是20世纪最伟大的政治家之一，他不仅解放了自己的国家，还给了世界一个新的选择。",
+        "en": "Tito was one of the greatest statesmen of the 20th century; he not only liberated his own country but also gave the world a new choice."
+      },
+      "othersBy": "印度总理贾瓦哈拉尔·尼赫鲁",
+      "othersByEn": "Indian Prime Minister Jawaharlal Nehru"
+    },
+    "toni-morrison": {
+      "others": {
+        "zh": "托妮·莫里森的语言如此丰富，如此充满诗意，如此充满力量，以至于我们无法想象美国文学没有她会是什么样子。",
+        "en": "Toni Morrison's language is so rich, so poetic, so powerful that it's impossible to imagine American literature without her."
+      },
+      "othersBy": "奥普拉·温弗瑞",
+      "othersByEn": "Oprah Winfrey"
+    },
+    "ts-eliot": {
+      "others": {
+        "zh": "艾略特是我们这个时代最伟大的诗人，也是最具有影响力的文学批评家之一。他的作品不仅改变了诗歌的面貌，也改变了我们思考世界的方式。",
+        "en": "Eliot is the greatest poet of our time and one of the most influential literary critics. His work has not only changed the face of poetry but also the way we think about the world."
+      },
+      "othersBy": "海伦·加德纳",
+      "othersByEn": "Helen Gardner"
+    },
+    "ulysses-s-grant": {
+      "others": {
+        "zh": "格兰特将军是战争中最了不起的人。他沉默寡言，行动迅速，一旦下定决心，就坚定不移。",
+        "en": "General Grant is the greatest man of the age. He is silent and quick, and once he makes up his mind, nothing can turn him from his purpose."
+      },
+      "othersBy": "亚伯拉罕·林肯",
+      "othersByEn": "Abraham Lincoln"
+    },
+    "vasco-da-gama": {
+      "others": {
+        "zh": "达·伽马是历史上最伟大的航海家之一，他不仅开辟了新航线，更开启了欧洲与亚洲直接交流的时代。",
+        "en": "Da Gama was one of the greatest navigators in history, not only opening new sea routes but also initiating an era of direct European-Asian interaction."
+      },
+      "othersBy": "葡萄牙历史学家若泽·萨拉查",
+      "othersByEn": "Portuguese historian José萨拉查"
+    },
+    "vasili-chuikov": {
+      "others": {
+        "zh": "崔可夫是苏联最优秀的城市战指挥官，他懂得如何在废墟中战斗并取得胜利。",
+        "en": "Chuikov was the Soviet Union's finest commander of urban warfare; he knew how to fight and win in the ruins."
+      },
+      "othersBy": "格奥尔基·朱可夫",
+      "othersByEn": "Georgy Zhukov"
+    },
+    "victor-hugo": {
+      "others": {
+        "zh": "维克多·雨果是法国文学的火山，他喷发出的火焰照亮了整个世界。",
+        "en": "Victor Hugo is a volcano of French literature, whose flames illuminate the entire world."
+      },
+      "othersBy": "安德烈·纪德",
+      "othersByEn": "André Gide"
+    },
+    "victoria-of-the-united-kingdom": {
+      "others": {
+        "zh": "维多利亚女王是历史上最伟大的君主之一，她的统治见证了英国从一个欧洲强国转变为世界帝国的辉煌历程。",
+        "en": "Queen Victoria was one of the greatest monarchs in history; her reign witnessed the glorious transformation of Britain from a European power into a world empire."
+      },
+      "othersBy": "温斯顿·丘吉尔",
+      "othersByEn": "Winston Churchill"
+    },
+    "vincent-van-gogh": {
+      "others": {
+        "zh": "梵高是一位伟大的画家，他比我们任何人都要更深刻地理解色彩。",
+        "en": "Van Gogh was a great painter who understood color more profoundly than any of us."
+      },
+      "othersBy": "保罗·高更",
+      "othersByEn": "Paul Gauguin"
+    },
+    "vladimir-lenin": {
+      "others": {
+        "zh": "列宁是历史上最伟大的实践家之一，他不仅改变了俄罗斯的命运，也改变了整个世界的进程。",
+        "en": "Lenin was one of the greatest practical statesmen in history; he changed not only the destiny of Russia but the course of the entire world."
+      },
+      "othersBy": "爱德华·卡尔",
+      "othersByEn": "Edward H. Carr"
+    },
+    "vladimir-nabokov": {
+      "others": {
+        "zh": "纳博科夫是一位语言魔术师，他的句子像蝴蝶一样美丽而精确，每一个词都经过精心挑选，每一个逗号都恰到好处。",
+        "en": "Nabokov was a magician of language, whose sentences were as beautiful and precise as butterflies, every word carefully chosen, every comma perfectly placed."
+      },
+      "othersBy": "苏珊·桑塔格",
+      "othersByEn": "Susan Sontag"
+    },
+    "vladimir-putin": {
+      "others": {
+        "zh": "普京是一个复杂的人物，他既是俄罗斯传统价值观的捍卫者，也是现代政治的实用主义者。他能够在不同场合展现出截然不同的面貌，这使他成为一个难以预测但又极具影响力的领导人。",
+        "en": "Putin is a complex figure who is both a defender of traditional Russian values and a modern political pragmatist. He is capable of presenting vastly different faces in different situations, making him a difficult-to-predict yet highly influential leader."
+      },
+      "othersBy": "亨利·基辛格",
+      "othersByEn": "Henry Kissinger"
+    },
+    "voltaire": {
+      "others": {
+        "zh": "伏尔泰是所有时代中最伟大的智者之一，他点燃了理性的火炬，照亮了人类前进的道路。",
+        "en": "Voltaire was one of the greatest intellects of all time, who kindled the torch of reason and illuminated the path of humanity."
+      },
+      "othersBy": "伊曼努尔·康德",
+      "othersByEn": "Immanuel Kant"
+    },
+    "walt-disney": {
+      "others": {
+        "zh": "华特·迪士尼是20世纪最具创造力的人物之一，他不仅改变了动画艺术，还重新定义了家庭娱乐的概念。",
+        "en": "Walt Disney was one of the most creative figures of the 20th century; he not only transformed animation but redefined the concept of family entertainment."
+      },
+      "othersBy": "史蒂文·斯皮尔伯格",
+      "othersByEn": "Steven Spielberg"
+    },
+    "walt-whitman": {
+      "others": {
+        "zh": "惠特曼是美国迄今为止最才智横溢的才华展现。我发现它无与伦比，令人欣喜若狂。",
+        "en": "The most extraordinary piece of wit and wisdom that America has yet contributed. I find it unparalleled, and I am very much delighted with it."
+      },
+      "othersBy": "拉尔夫·沃尔多·爱默生",
+      "othersByEn": "Ralph Waldo Emerson"
+    },
+    "wang-wei": {
+      "others": {
+        "zh": "味摩诘之诗，诗中有画；观摩诘之画，画中有诗。",
+        "en": "In Wang Wei's poetry, there is painting; in Wang Wei's painting, there is poetry."
+      },
+      "othersBy": "苏轼",
+      "othersByEn": "Su Shi"
+    },
+    "wang-xi-zhi": {
+      "others": {
+        "zh": "王羲之书法，如龙跃于渊，虎卧于山，神采飞扬，气韵生动。",
+        "en": "Wang Xizhi's calligraphy is like a dragon leaping from the deep, a tiger lying on the mountain, full of vitality and spirit."
+      },
+      "othersBy": "颜真卿",
+      "othersByEn": "Yan Zhenqing"
+    },
+    "wang-yangming": {
+      "others": {
+        "zh": "阳明先生之学，始而疑，中而信，终而化。其学之精微，其行之笃实，可谓千古一人。",
+        "en": "Master Yangming's learning began with doubt, progressed to belief, and culminated in transformation. The subtlety of his learning and the sincerity of his practice can be called unique through the ages."
+      },
+      "othersBy": "黄宗羲",
+      "othersByEn": "Huang Zongxi"
+    },
+    "wassily-kandinsky": {
+      "others": {
+        "zh": "康定斯基是第一个理解并创造纯粹抽象形式的人，他解放了色彩，使其不再依附于物体。",
+        "en": "Kandinsky was the first person to understand and create pure abstract forms, he liberated color, making it no longer dependent on objects."
+      },
+      "othersBy": "罗伯特·休斯",
+      "othersByEn": "Robert Hughes"
+    },
+    "werner-heisenberg": {
+      "others": {
+        "zh": "海森堡的测不准原理不仅是一个物理定律，它也是人类认知能力的根本限制。",
+        "en": "Heisenberg's uncertainty principle is not merely a physical law; it is a fundamental limitation of human cognition itself."
+      },
+      "othersBy": "尼尔斯·玻尔",
+      "othersByEn": "Niels Bohr"
+    },
+    "william-faulkner": {
+      "others": {
+        "zh": "福克纳是我们这个时代最伟大的作家，他重新发明了小说这种艺术形式。",
+        "en": "Faulkner is the greatest writer of our time, he reinvented the art of the novel."
+      },
+      "othersBy": "让-保罗·萨特",
+      "othersByEn": "Jean-Paul Sartre"
+    },
+    "william-gladstone": {
+      "others": {
+        "zh": "格莱斯顿是英国历史上最伟大的政治家，他不仅改变了英国的政治，还改变了英国人的思想。",
+        "en": "Gladstone was the greatest statesman in English history; he changed not only the politics of England but the minds of the English people."
+      },
+      "othersBy": "本杰明·迪斯雷利",
+      "othersByEn": "Benjamin Disraeli"
+    },
+    "william-harvey": {
+      "others": {
+        "zh": "哈维的发现是如此重要和基本，以至于它构成了整个现代生理学的基础。",
+        "en": "Harvey's discovery was so important and fundamental that it formed the basis of all modern physiology."
+      },
+      "othersBy": "约翰·赫胥黎",
+      "othersByEn": "John Huxley"
+    },
+    "william-i-of-england": {
+      "others": {
+        "zh": "威廉是一位伟大的君主，他征服了一个王国，并统治它如同他自己的财产一般。",
+        "en": "William was a great prince who conquered a kingdom and ruled it as if it were his own property."
+      },
+      "othersBy": "奥德里克·维塔利斯",
+      "othersByEn": "Orderic Vitalis"
+    },
+    "william-james": {
+      "others": {
+        "zh": "威廉·詹姆斯是美国思想史上最伟大的原创思想家之一，他的实用主义哲学为美国提供了独特的思想遗产，至今仍在影响着我们的思维方式。",
+        "en": "William James was one of the most original thinkers in American intellectual history, and his pragmatic philosophy provided a distinctive intellectual legacy for America that continues to influence our ways of thinking today."
+      },
+      "othersBy": "康奈尔·韦斯特",
+      "othersByEn": "Cornel West"
+    },
+    "william-shakespeare": {
+      "others": {
+        "zh": "他不属于一个时代，而属于所有时代。",
+        "en": "He was not of an age, but for all time."
+      },
+      "othersSource": {
+        "text": "本·琼森《致我敬爱的莎士比亚先生》，1623 年"
+      },
+      "othersBy": "本·琼森",
+      "othersByEn": "Ben Jonson"
+    },
+    "willy-brandt": {
+      "others": {
+        "zh": "维利·勃兰特的东方政策是德国战后历史上最伟大的外交成就之一，它不仅改变了德国在欧洲的地位，也为整个欧洲的和平与和解铺平了道路。",
+        "en": "Willy Brandt's Ostpolitik was one of the greatest diplomatic achievements in German post-war history; it not only changed Germany's position in Europe but also paved the way for peace and reconciliation throughout the continent."
+      },
+      "othersBy": "赫尔穆特·施密特",
+      "othersByEn": "Helmut Schmidt"
+    },
+    "winston-churchill": {
+      "others": {
+        "zh": "丘吉尔是20世纪最伟大的政治家，他不仅拯救了英国，也拯救了西方文明。",
+        "en": "Churchill was the greatest statesman of the 20th century; he not only saved Britain but also Western civilization."
+      },
+      "othersBy": "美国总统约翰·肯尼迪",
+      "othersByEn": "John F. Kennedy, President of the United States"
+    },
+    "wole-soyinka": {
+      "others": {
+        "zh": "索因卡用他的笔和声音，为被压迫者发声，他的作品不仅是文学杰作，更是人类尊严的宣言。",
+        "en": "With his pen and voice, Soyinka speaks for the oppressed; his works are not only literary masterpieces but declarations of human dignity."
+      },
+      "othersBy": "联合国教科文组织",
+      "othersByEn": "UNESCO"
+    },
+    "wolfgang-amadeus-mozart": {
+      "others": {
+        "zh": "莫扎特是音乐的神圣火焰，我们其他人不过是凡人。",
+        "en": "Mozart is the divine flame of music; the rest of us are merely mortals."
+      },
+      "othersBy": "路德维希·范·贝多芬",
+      "othersByEn": "Ludwig van Beethoven"
+    },
+    "wu-chengen": {
+      "others": {
+        "zh": "《西游记》是中国小说中的一部杰作，它以神话的形式反映了明代社会的现实，同时又超越了时代，成为永恒的经典。",
+        "en": "'Journey to the West' is a masterpiece in Chinese novels, reflecting the reality of Ming Dynasty society in mythical form while transcending its time to become an eternal classic."
+      },
+      "othersBy": "鲁迅",
+      "othersByEn": "Lu Xun"
+    },
+    "xian-xinghai": {
+      "others": {
+        "zh": "冼星海的音乐是中华民族的精神象征。",
+        "en": "Xian Xinghai's music is a symbol of the spirit of the Chinese nation."
+      },
+      "othersBy": "茅盾",
+      "othersByEn": "Mao Dun"
+    },
+    "xin-ji-ji": {
+      "others": {
+        "zh": "辛弃疾，心系国家，志在恢复，而才气纵横，议论英发，笔势浩荡，有不可一世之概。",
+        "en": "Xin Qiji's heart was always with the nation, his ambition aimed at restoration. His talent was boundless, his arguments brilliant, his writing style magnificent, possessing an unparalleled spirit of his time."
+      },
+      "othersBy": "刘熙载",
+      "othersByEn": "Liu Xizai"
+    },
+    "xu-beihong": {
+      "others": {
+        "zh": "徐悲鸿是中国现代美术教育的奠基人，他的艺术成就和教育贡献对中国美术事业产生了深远影响。",
+        "en": "Xu Beihong is the founder of modern Chinese art education, and his artistic achievements and educational contributions have had a profound impact on China's art cause."
+      },
+      "othersBy": "中国美术史学家",
+      "othersByEn": "Chinese Art Historian"
+    },
+    "xu-xiake": {
+      "others": {
+        "zh": "徐霞客足迹所至，几遍天下，其游记之详，考据之精，前无古人，后无来者。",
+        "en": "Wherever Xu Xiake's footsteps reached, he covered almost the entire world. The detail of his travelogue and the precision of his research have no predecessors and no successors."
+      },
+      "othersBy": "清代地理学家顾炎武",
+      "othersByEn": "Gu Yanwu, Qing Dynasty geographer"
+    },
+    "xuanzang": {
+      "others": {
+        "zh": "玄奘法师，是中国佛教史上的一座丰碑，他以毕生精力翻译佛经，传播佛法，其功绩可与鸠摩罗什媲美。",
+        "en": "Master Xuanzang is a monumental figure in the history of Chinese Buddhism. With his lifelong dedication to translating Buddhist scriptures and spreading the Dharma, his achievements can be compared to those of Kumarajiva."
+      },
+      "othersBy": "近代佛学家欧阳渐",
+      "othersByEn": "Ouyang Jian, modern Buddhist scholar"
+    },
+    "yamamoto-isoroku": {
+      "others": {
+        "zh": "山本五十六是一位卓越的海军战略家，他理解现代海战的本质，但不幸的是，他为错误的事业服务。",
+        "en": "Isoroku Yamamoto was an outstanding naval strategist who understood the nature of modern naval warfare, but unfortunately, he served the wrong cause."
+      },
+      "othersBy": "美国海军历史学家",
+      "othersByEn": "US Naval Historian"
+    },
+    "yukio-mishima": {
+      "others": {
+        "zh": "三岛由纪夫是日本战后最伟大的作家，也是最令人困惑的人物。他的作品和死亡都是对战后日本社会的深刻批判。",
+        "en": "Yukio Mishima was the greatest writer of post-war Japan and also the most perplexing figure. His works and death were profound critiques of post-war Japanese society."
+      },
+      "othersBy": "文学评论家唐纳德·基恩",
+      "othersByEn": "Donald Keene, literary critic"
+    },
+    "yuri-andropov": {
+      "others": {
+        "zh": "安德罗波夫是一位被低估的苏联领导人，他的短暂统治本可能改变苏联的命运，但历史没有给他足够的时间。",
+        "en": "Andropov was an underestimated Soviet leader whose brief rule could have changed the fate of the Soviet Union, but history did not give him enough time."
+      },
+      "othersBy": "历史学家罗伯特·服务",
+      "othersByEn": "Historian Robert Service"
+    },
+    "yuri-gagarin": {
+      "others": {
+        "zh": "加加林的飞行是人类历史上最伟大的成就之一，它不仅改变了我们对宇宙的看法，也改变了我们对自己的看法。",
+        "en": "Gagarin's flight was one of the greatest achievements in human history, not only changing our view of the universe but also changing our view of ourselves."
+      },
+      "othersBy": "阿列克谢·列昂诺夫",
+      "othersByEn": "Alexei Leonov"
+    },
+    "zhang-heng": {
+      "others": {
+        "zh": "张衡之才，盖世无双。",
+        "en": "Zhang Heng's talent is unparalleled in the world."
+      },
+      "othersBy": "班固",
+      "othersByEn": "Ban Gu"
+    },
+    "zheng-he": {
+      "others": {
+        "zh": "郑和下西洋，是明朝国力强盛的象征，也是中国古代航海技术的巅峰之作。他的船队规模之大，航行范围之广，在15世纪初的世界无人能及。",
+        "en": "Zheng He's voyages to the Western Oceans were a symbol of Ming Dynasty's power and the pinnacle of ancient Chinese navigation technology. The scale and reach of his fleet were unmatched in the early 15th century."
+      },
+      "othersBy": "李约瑟",
+      "othersByEn": "Joseph Needham"
+    },
+    "zhu-xi": {
+      "others": {
+        "zh": "自朱子后，圣人之道复明，如日之升，如天之开。",
+        "en": "After Master Zhu, the Way of the sages was once again illuminated, like the rising sun, like the opening sky."
+      },
+      "othersBy": "黄宗羲",
+      "othersByEn": "Huang Zongxi"
+    },
+    "zhu-yuanzhang": {
+      "others": {
+        "zh": "同时代及后世文献对其评价分歧明显，既有称颂其统一与恢复之功，也有批评其刑戮过严者；因缺乏可确证的一手直接引语，此处不列具体引文。",
+        "en": "Contemporary and later sources differ markedly, praising his unification and restoration while criticizing excessive severity; as no verifiable first-hand direct quotations are available, no specific quotation is given here."
+      },
+      "othersBy": "无可靠传世直接评语",
+      "othersByEn": "No reliable extant direct quotations"
+    },
+    "zhuge-liang": {
+      "others": {
+        "zh": "孔明之才，管、乐之亚匹也。然性骄矜，恃才放旷，此其所以取祸也。",
+        "en": "Zhuge Liang's talent is second only to that of Guan Zhong and Yue Yi. However, his arrogant nature and reliance on his talent led to his downfall."
+      },
+      "othersBy": "陈寿",
+      "othersByEn": "Chen Shou"
+    },
+    "zu-chongzhi": {
+      "others": {
+        "zh": "祖冲之的圆周率计算，是中国古代数学的骄傲，也是世界数学史上的光辉一页。",
+        "en": "Zu Chongzhi's calculation of pi is a source of pride in ancient Chinese mathematics and a brilliant page in the history of world mathematics."
+      },
+      "othersBy": "李约瑟",
+      "othersByEn": "Joseph Needham"
+    }
+  }
+}

@@ -6,11 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "prebuild": "node scripts/data/validate-data.mjs --quiet",
+    "prebuild": "node scripts/data/validate-data.mjs --quiet && node scripts/data/build-search-index.mjs",
     "preview": "vite preview",
     "typecheck": "vue-tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "verify:smoke": "node scripts/verify/smoke-data-failure.mjs",
     "validate:data": "node scripts/data/validate-data.mjs",
+    "validate:trust": "node scripts/data/validate-trust.mjs",
     "repair:data": "node scripts/data/repair-data.mjs",
     "report:data": "node scripts/data/report-assets.mjs",
     "compare:locales": "node scripts/data/compare-locales.mjs",
@@ -19,6 +22,7 @@
     "build:place-history": "node scripts/data/build-place-history.mjs",
     "simplify:polities": "node scripts/data/simplify-polities.mjs",
     "build:people-coords": "node scripts/data/build-people-coords.mjs",
+    "build:search": "node scripts/data/build-search-index.mjs",
     "enrich:polity-facts": "node scripts/data/enrich-polity-facts.mjs",
     "audit:profiles": "node scripts/data/audit-profiles.mjs",
     "enrich:profiles": "node scripts/data/enrich-profiles-opencode.mjs",
@@ -38,6 +42,7 @@
     "vite": "^6.0.0",
     "vite-plugin-compression": "^0.5.1",
     "vite-plugin-static-copy": "^2.2.0",
+    "vitest": "^5.1.1",
     "vue-tsc": "^2.1.10"
   }
 }

@@ -6,7 +6,6 @@ import { useUiStore } from '@/stores/ui';
 import { useWarsStore } from '@/stores/wars';
 import type { PolityFeature, TimelineEvent } from '@/types';
 import EventIndex from './EventIndex.vue';
-import LayerPanel from './LayerPanel.vue';
 import PeoplePanel from './PeoplePanel.vue';
 import PlacePanel from './PlacePanel.vue';
 import WarPanel from './WarPanel.vue';
@@ -29,7 +28,7 @@ const ui = useUiStore();
 const wars = useWarsStore();
 const people = usePeopleStore();
 
-type Tab = 'index' | 'wars' | 'people' | 'layers' | 'place';
+type Tab = 'index' | 'wars' | 'people' | 'place';
 const tab = ref<Tab>('index');
 
 /** Both indexes are small; fetch each once, on first use of its tab. */
@@ -60,9 +59,6 @@ watch(
       <button :class="{ on: tab === 'people' }" @click="openTab('people')">
         {{ ui.t('panel.people') }}
       </button>
-      <button :class="{ on: tab === 'layers' }" @click="openTab('layers')">
-        {{ ui.t('panel.layers') }}
-      </button>
       <button :class="{ on: tab === 'place' }" @click="openTab('place')">
         {{ ui.t('panel.place') }}
       </button>
@@ -86,7 +82,6 @@ watch(
       />
       <WarPanel v-show="tab === 'wars'" />
       <PeoplePanel v-show="tab === 'people'" />
-      <LayerPanel v-show="tab === 'layers'" :certainty-counts="props.certaintyCounts" />
       <PlacePanel
         v-show="tab === 'place'"
         :active="tab === 'place'"

@@ -40,7 +40,7 @@ const personFiles = files(PEOPLE).filter((f) => f !== 'index.json');
 const WAR_REQUIRED = ['sources', 'warProcess', 'timeline', 'outcome', 'legacy', 'tags'];
 const WAR_OPTIONAL = ['alternativeNames', 'theaters', 'neutralParties', 'relatedWars'];
 const WAR_EXPECTED = [...WAR_REQUIRED, ...WAR_OPTIONAL];
-const PERSON_EXPECTED = ['birth', 'death', 'points', 'evaluation', 'quotes', 'othersBy', 'era'];
+const PERSON_EXPECTED = ['birth', 'death', 'points', 'evaluation', 'quotes', 'era'];
 
 const warGaps = {};
 const personGaps = {};

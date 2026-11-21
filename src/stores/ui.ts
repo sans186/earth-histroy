@@ -60,13 +60,6 @@ export const useUiStore = defineStore('ui', () => {
     placeFocus.value = next;
   }
 
-  /**
-   * Opt-in switch for model-generated, unsourced detail (appraisal text and
-   * quotes). Deliberately not persisted: every session starts with the
-   * degraded view, and the switch is only reachable inside the cards.
-   */
-  const showUnverified = ref(false);
-
   function setPolityScope(scope: PolityScope | null) {
     polityScope.value = scope;
     // Losing the polity must not leave the lists silently filtered.
@@ -170,7 +163,6 @@ export const useUiStore = defineStore('ui', () => {
     toggleScopeToPolity,
     placeFocus,
     setPlaceFocus,
-    showUnverified,
     t,
     tf,
     beginTask,

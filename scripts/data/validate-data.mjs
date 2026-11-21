@@ -377,6 +377,56 @@ function validateIndexedProfiles({
 
 /* ── polities ────────────────────────────────────────────────────────────── */
 
+/**
+ * 环的外接框、面积与质心。
+ * 与 scripts/data/fix_china_territory.cjs 的近似重复口径保持一致：
+ * 同一要素内，外接框相同且面积误差 ≤2%、质心距离 ≤0.1° 的环视为重复。
+ */
+function ringFingerprint(ring) {
+  let minLon = Infinity;
+  let minLat = Infinity;
+  let maxLon = -Infinity;
+  let maxLat = -Infinity;
+  let sumLon = 0;
+  let sumLat = 0;
+  let area2 = 0;
+
+  for (let i = 0; i < ring.length; i += 1) {
+    const [lon, lat] = ring[i];
+    const [nextLon, nextLat] = ring[(i + 1) % ring.length];
+    minLon = Math.min(minLon, lon);
+    minLat = Math.min(minLat, lat);
+    maxLon = Math.max(maxLon, lon);
+    maxLat = Math.max(maxLat, lat);
+    sumLon += lon;
+    sumLat += lat;
+    area2 += lon * nextLat - nextLon * lat;
+  }
+
+  return {
+    key: `${minLon.toFixed(3)},${minLat.toFixed(3)},${maxLon.toFixed(3)},${maxLat.toFixed(3)}`,
+    area: Math.abs(area2) / 2,
+    cx: sumLon / ring.length,
+    cy: sumLat / ring.length,
+  };
+}
+
+function isDuplicateRing(ring, groups) {
+  const stats = ringFingerprint(ring);
+  const bucket = groups.get(stats.key) || [];
+  const duplicate = bucket.some((prev) => {
+    const scale = Math.max(prev.area, stats.area);
+    if (scale <= 0) return false;
+    return (
+      Math.abs(prev.area - stats.area) / scale <= 0.02 &&
+      Math.hypot(prev.cx - stats.cx, prev.cy - stats.cy) <= 0.1
+    );
+  });
+  bucket.push(stats);
+  groups.set(stats.key, bucket);
+  return duplicate;
+}
+
 function validatePolities() {
   const dir = join(ROOT, 'public', 'ne', 'polities');
   section('历史政区  (public/ne/polities)');
@@ -404,6 +454,7 @@ function validatePolities() {
   let lodFiles = 0;
   let countMismatch = 0;
   let geometryProblems = 0;
+  let duplicateRings = 0;
   let totalFeatures = 0;
   let totalVertices = 0;
 
@@ -456,7 +507,8 @@ function validatePolities() {
         geometryProblems += 1;
         if (geometryProblems <= MAX_EXAMPLES) warn('polities', `要素缺少 Name: ${entry.start}_${entry.end}`);
       }
-      const rings = geom.type === 'Polygon' ? geom.coordinates : geom.coordinates.flat(1);
+      const parts = geom.type === 'Polygon' ? [geom.coordinates] : geom.coordinates;
+      const rings = parts.flat(1);
       for (const ring of rings) {
         totalVertices += ring.length;
         if (ring.length < 4) {
@@ -471,6 +523,25 @@ function validatePolities() {
           if (geometryProblems <= MAX_EXAMPLES) warn('polities', `环未闭合: ${entry.start}_${entry.end}`);
         }
       }
+
+      // 同一要素内重复的环会被 3D 逐部件叠加、2D 单批次填充，导致同地不同色。
+      const outerRings = new Map();
+      let featureHasDuplicate = false;
+      for (let partIndex = 0; partIndex < parts.length; partIndex += 1) {
+        const outer = parts[partIndex]?.[0];
+        if (!Array.isArray(outer) || outer.length < 4) continue;
+        if (!isDuplicateRing(outer, outerRings)) continue;
+        duplicateRings += 1;
+        if (featureHasDuplicate) continue;
+        featureHasDuplicate = true;
+        if (duplicateRings <= MAX_EXAMPLES) {
+          err(
+            'polities',
+            `要素内存在重复几何环: ${stem}`,
+            `${feature.properties?.Name ?? '未命名'} 第 ${partIndex} 个多边形与同要素已有环重合`,
+          );
+        }
+      }
     }
   }
 
@@ -478,6 +549,7 @@ function validatePolities() {
   line(`LOD 分片 ${lodFiles} 个${missingLod ? `，缺 ${missingLod} 个` : ''}`);
   if (badEntry) err('polities', `${badEntry} 个索引条目缺少 start/end`);
   if (missingFile) err('polities', `${missingFile} 个世纪文件缺失`);
+  if (duplicateRings) err('polities', `${duplicateRings} 个要素存在重复几何环`);
   if (missingLod) {
     warn('polities', `${missingLod} 个世纪分片缺少 .lod.json（客户端会退回全精度，首屏明显变慢）`);
   }

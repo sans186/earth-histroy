@@ -81,7 +81,11 @@
       "descriptionEn": "In his later years, Babbage continued his research work while engaging in various social activities. He wrote extensively on science, technology, and economics, including works such as 'Reflections on the Decline of Science in England' and 'The Life of a Philosopher.' He also made contributions to fields such as cryptography, railway engineering, and lighthouse design. Babbage was also an advocate for reform, opposing street music and scientific fraud. Babbage passed away in London in 1871. After his death, his design concepts gradually gained understanding and recognition. In the 20th century, with the development of electronic computers, people rediscovered the forward-thinking nature of Babbage's work. In 1991, the Science Museum in London successfully constructed a Difference Engine based on Babbage's designs, proving that his designs were feasible. Today, Babbage is widely recognized as a pioneer of computer science, and his ideas and designs laid the foundation for the development of modern computers."
     }
   ],
-  "evaluation": {
+  "evaluation": {
+    "appraisal": {
+      "zh": "巴贝奇常被誉为“计算机之父”：他设计的差分机与分析机已包含存储、处理、输入输出与编程等现代计算机的基本概念，他还推动科学方法标准化与数据处理自动化，其跨学科思维与对精确计算的追求使他成为科技史上最具远见的人物之一。也有研究者指出，他的差分机耗费大量政府资金却未能完成，暴露出项目管理上的不足，他性格难与工匠、资助者相处，且低估了制造精密机械的技术难度，其声誉部分来自后人的理想化。学界一般认为他是由机械计算通向电子计算的关键过渡人物，其思想超前时代近一个世纪，1991年建成的差分机也证明其设计可行。",
+      "en": "Babbage is often hailed as the father of computing: his Difference Engine and Analytical Engine already embodied the basic concepts of modern computers—memory, processing, input/output and programming—and he pressed for standardized scientific methods and automated data processing, his interdisciplinary thinking and pursuit of precise calculation making him one of technology's most visionary figures. Researchers also note that his Difference Engine consumed large sums of public money without being completed, revealing weak project management, that he was difficult in dealings with craftsmen and funders, and that he underestimated the technical difficulty of precision machinery, his reputation owing something to later idealization. He is generally regarded as a pivotal transitional figure from mechanical to electronic computation, his ideas nearly a century ahead of their time, and the Difference Engine built in 1991 showed his designs were feasible."
+    },
     "supporter": {
       "zh": "查尔斯·巴贝奇被誉为'计算机之父'，他的前瞻性思维和创新能力彻底改变了计算技术的历史进程。支持者认为，巴贝奇设计的差分机和分析机包含了现代计算机的所有基本概念，包括存储、处理、输入输出和编程。他的工作不仅为后来的计算机科学奠定了理论基础，还展示了机械计算的可能性。巴贝奇还推动了科学方法的标准化和数据处理的自动化，这些理念对现代信息社会产生了深远影响。他的跨学科思维和对精确计算的追求，使他成为科技史上最具远见的人物之一。",
       "en": "Charles Babbage is hailed as the 'Father of Computing,' and his forward-thinking and innovative approach revolutionized the course of computing history. Supporters argue that Babbage's Difference Engine and Analytical Engine contained all the fundamental concepts of modern computers, including memory, processing, input/output, and programming. His work not only laid the theoretical foundation for later computer science but also demonstrated the possibility of mechanical computation. Babbage also promoted the standardization of scientific methods and automation of data processing, concepts that have had a profound impact on modern information society. His interdisciplinary thinking and pursuit of precise calculation make him one of the most visionary figures in technological history."
@@ -99,12 +103,6 @@
     "self": {
       "zh": "我发现错误比发现真理更容易，因为错误存在于各种形式中，而真理通常只有一个。",
       "en": "I find that errors are easier to discover than truth, because errors exist in various forms, while truth is usually one."
-    },
-    "others": {
-      "zh": "巴贝奇先生设计的分析机包含了现代计算机的所有基本原理，除了电的使用外，它包含了巴贝奇时代之后的所有计算机的基本原理。",
-      "en": "Mr. Babbage's Analytical Engine contains the elementary principles of all modern computers, except for the use of electricity; it contains all the principles of the modern computer except that of electricity."
     }
-  },
-  "othersBy": "艾伦·图灵",
-  "othersByEn": "Alan Turing"
+  }
 }

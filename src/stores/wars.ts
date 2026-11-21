@@ -127,9 +127,9 @@ export const useWarsStore = defineStore('wars', () => {
     }
   }
 
-  /** Wars with a known theatre centroid, for the globe layer. */
-  const located = computed(() =>
-    index.value
+  /** Wars with a known theatre centroid, for the map layers. */
+  const located = computed(() => {
+    return index.value
       .map((w) => {
         const loc = locations.value[w.warId];
         if (!loc || typeof loc.lon !== 'number' || typeof loc.lat !== 'number') return null;
@@ -144,8 +144,24 @@ export const useWarsStore = defineStore('wars', () => {
           eraColor: getEra(w.startYear ?? 0).color,
         };
       })
-      .filter((x): x is NonNullable<typeof x> => x !== null),
-  );
+      .filter((x): x is NonNullable<typeof x> => x !== null);
+  });
+
+  /**
+   * The wars running in the current year, for the map layers.
+   *
+   * `startYear` and `endYear` are both inclusive (the same rule the atlas board
+   * uses), so a war appears from its first to its last year and disappears
+   * afterwards. Wars with no year are left out: they cannot be placed on the
+   * timeline at all.
+   */
+  const locatedThisYear = computed(() => {
+    const year = timeline.year;
+    return located.value.filter(
+      (w) =>
+        w.startYear !== null && w.endYear !== null && year >= w.startYear && year <= w.endYear,
+    );
+  });
 
   function clear() {
     selectedId.value = null;
@@ -182,6 +198,7 @@ export const useWarsStore = defineStore('wars', () => {
     filtered,
     countInScope,
     located,
+    locatedThisYear,
     ensureIndex,
     resetForRetry,
     select,

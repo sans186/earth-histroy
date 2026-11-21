@@ -53,7 +53,11 @@
       "descriptionEn": "Socrates was tried by the Athenian court for impiety and corrupting the youth and was sentenced to death. He spent his final days in prison, steadfast in his beliefs, and ultimately died by drinking a poison. Socrates' death became an important event in the history of philosophy, and his ideas and pursuit of truth continue to influence posterity."
     }
   ],
-  "evaluation": {
+  "evaluation": {
+    "appraisal": {
+      "zh": "苏格拉底被公认为西方哲学的奠基人之一，其道德哲学与批判性思维对后世影响深远，对真理的追求和对人性的洞察构成其精神遗产。学界视他为复杂人物，大众文化则多描绘其为智慧、正直而勇敢的哲学家。也有研究者指出，他对雅典民主的批评和对传统宗教的质疑招致非议，其哲学被一些人认为过于抽象、缺乏实用价值。",
+      "en": "Socrates is widely regarded as one of the founders of Western philosophy, whose moral philosophy and critical method left a deep mark on later thought, with his pursuit of truth and insight into human nature forming his legacy. Scholars see him as a complex figure, while popular culture portrays him as a wise, upright, and brave philosopher. Yet some researchers note that his criticism of Athenian democracy and questioning of traditional religion drew reproach, and his philosophy has been called too abstract to be of practical use."
+    },
     "supporter": {
       "zh": "苏格拉底被视为西方哲学的奠基人之一，他的道德哲学和批判性思维方法对后世产生了深远的影响。他的精神遗产包括对真理的追求、对知识的热爱和对人性的深刻洞察。",
       "en": "Socrates is regarded as one of the founders of Western philosophy, with his moral philosophy and critical thinking methods having a profound impact on posterity. His legacy includes the pursuit of truth, love of knowledge, and profound insight into human nature."
@@ -68,15 +72,12 @@
     }
   },
   "quotes": {
+    "sources": {
+      "self": {"text":"柏拉图《申辩篇》"}
+    },
     "self": {
       "zh": "未经审视的生活不值得过。",
       "en": "An unexamined life is not worth living."
-    },
-    "others": {
-      "zh": "苏格拉底是如此智慧，以至于他知道自己一无所知。",
-      "en": "Socrates was so wise that he knew he knew nothing."
     }
-  },
-  "othersBy": "柏拉图",
-  "othersByEn": "Plato"
+  }
 }

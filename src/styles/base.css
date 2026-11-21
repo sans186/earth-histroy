@@ -162,6 +162,11 @@ input {
   color: var(--ink-2);
   font-weight: 500;
 }
+/* Event titles are captions rather than place names: quieter than both. */
+.event-label {
+  color: var(--ink-3);
+  font-weight: 500;
+}
 
 /* ── polity scope chip ─────────────────────────────────────────────────── */
 

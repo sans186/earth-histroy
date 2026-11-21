@@ -194,7 +194,6 @@ function peopleStats() {
   let pointsLocated = 0;
   let evaluated = 0;
   let quoted = 0;
-  let othersBy = 0;
   let withEn = 0;
 
   for (const entry of index) {
@@ -205,7 +204,6 @@ function peopleStats() {
     pointsLocated += list.filter((p) => Array.isArray(p.coords) && p.coords.length === 2).length;
     if (profile.evaluation && Object.keys(profile.evaluation).length) evaluated += 1;
     if (profile.quotes && Object.keys(profile.quotes).length) quoted += 1;
-    if (profile.othersBy && Object.keys(profile.othersBy).length) othersBy += 1;
     if (profile.nameEn) withEn += 1;
   }
 
@@ -218,7 +216,6 @@ function peopleStats() {
     pointsLocated,
     evaluated,
     quoted,
-    othersBy,
     withEn,
     photos,
     reviewPhotos,
@@ -364,7 +361,6 @@ console.log(`  档案          ${num(people.count)}   体积 ${mb(people.bytes)}
 console.log(`  生平节点      ${num(people.points)}  带坐标 ${num(people.pointsLocated)} (${pct(people.pointsLocated, people.points)})`);
 console.log(`  有评价        ${num(people.evaluated)}  (${pct(people.evaluated, people.count)})`);
 console.log(`  有引语        ${num(people.quoted)}  (${pct(people.quoted, people.count)})`);
-console.log(`  有他人评述    ${num(people.othersBy)}  (${pct(people.othersBy, people.count)})`);
 console.log(`  有英文名      ${num(people.withEn)}  (${pct(people.withEn, people.count)})`);
 console.log(`  有照片        ${num(people.photos)}  (${pct(people.photos, people.count)})  复核表 ${num(people.reviewSize)} 条，其中可用 ${num(people.reviewPhotos)}`);
 

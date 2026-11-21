@@ -53,7 +53,11 @@
       "descriptionEn": "Ada Lovelace died in London at the age of 37. Her death was a great loss to the scientific community, but her legacy and contributions were rediscovered and highly valued in later centuries."
     }
   ],
-  "evaluation": {
+  "evaluation": {
+    "appraisal": {
+      "zh": "艾达·洛夫莱斯通常被视为计算机科学的先驱，其算法被看作现代编程的基石，她超越了当时对机械计算的既有理解，预见了计算机的潜力，是富有前瞻性的思想家，其工作对后世计算机科学影响深远，大众文化更常将她塑造成象征女性科技潜力的天才。也有研究者指出，她的工作很大程度上建立在查尔斯·巴贝奇的研究之上，贡献或许被高估，且生前并未获得足够认可。",
+      "en": "Ada Lovelace is generally regarded as a pioneer of computer science, her algorithm seen as a foundation of modern programming; she went beyond the mechanical computation of her time and foresaw the potential of computers, and her work deeply influenced later computer science, while popular culture often portrays her as a genius symbolizing women's potential in technology. Yet some researchers note that her work drew heavily on Charles Babbage's research, that her contribution may be overestimated, and that she received little recognition in her own time."
+    },
     "supporter": {
       "zh": "艾达·洛夫莱斯被视为计算机科学的先驱，她的算法被认为是现代计算机编程的基石。她的贡献在于她超越了当时对机械计算的理解，预见了计算机的潜力。",
       "en": "Ada Lovelace is regarded as a pioneer of computer science, with her algorithm considered to be the foundation of modern computer programming. Her contribution lies in her surpassing the understanding of mechanical computation of her time and foreseeing the potential of computers."
@@ -71,12 +75,6 @@
     "self": {
       "zh": "“我确信，一旦机器被发明出来，它将能够执行任何数学运算。”",
       "en": "\"I anticipate that the machine will be able to execute any mathematical operation.\""
-    },
-    "others": {
-      "zh": "“艾达·洛夫莱斯不仅是数学家，也是一位诗人，她的心灵充满了数学的韵律。”",
-      "en": "\"Ada Lovelace is not only a mathematician but also a poet; her mind is filled with the rhythm of mathematics.\""
     }
-  },
-  "othersBy": "查尔斯·巴贝奇",
-  "othersByEn": "Charles Babbage"
+  }
 }

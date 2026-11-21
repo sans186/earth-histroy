@@ -175,14 +175,8 @@ function buildSystemPrompt() {
     "self": {
       "zh": "该人物的一句经典原话（中文翻译）",
       "en": "该人物的一句经典原话（英文原文或翻译）"
-    },
-    "others": {
-      "zh": "他人对该人物的经典评价（中文翻译）",
-      "en": "他人对该人物的经典评价（英文原文或翻译）"
     }
-  },
-  "othersBy": "评价者姓名（中文）",
-  "othersByEn": "评价者姓名（英文）"
+  }
 }
 
 重要要求：
@@ -212,7 +206,7 @@ function buildUserPrompt(name) {
 
 请确保内容具有历史事实依据，分析深入，不局限于单一神话或刻板印象。
 
-引用一段该人物的经典原话，再引用一段他人的经典评价原话。
+引用一段该人物的经典原话。
 
 请直接返回JSON，不要包含任何markdown代码块或其他文字。`;
 }
@@ -355,9 +349,6 @@ function validateAndFix(data) {
   // Ensure quotes exist
   if (!data.quotes) data.quotes = {};
   if (!data.quotes.self) data.quotes.self = { zh: '', en: '' };
-  if (!data.quotes.others) data.quotes.others = { zh: '', en: '' };
-  if (!data.othersBy) data.othersBy = '';
-  if (!data.othersByEn) data.othersByEn = '';
 
   return data;
 }

@@ -4,17 +4,22 @@ import { CATEGORIES, YEAR_MAX, YEAR_MIN, type CategoryKey } from '@/config';
 import {
   battlesInWindow,
   featurePath,
+  fitScale,
   hullPath,
+  lerpRect,
   makeProjection,
   median,
-  sharedScale,
+  rectMatrix,
+  unionRect,
   type AtlasBattle,
   type AtlasProjection,
+  type AtlasRect,
 } from '@/lib/atlas';
 import { bboxIntersects } from '@/lib/geo';
+import { dedupeRestatements } from '@/lib/compare';
 import { formatArea, formatYearCompact, formatYearRange } from '@/lib/format';
 import { zhPolityName } from '@/lib/names';
-import { labelAnchor } from '@/lib/polityScope';
+import { pointInPolity } from '@/lib/polityScope';
 import { REGIONS, findRegion, regionLabel, type Region } from '@/lib/regions';
 import { loadEventWindow, loadPolityFile, loadPolityIndex } from '@/services/data';
 import { prepareFeature } from '@/services/globe';
@@ -44,6 +49,7 @@ const props = defineProps<{
 const emit = defineEmits<{
   'pick-polity': [PolityFeature];
   'pick-war': [string];
+  'pick-event': [TimelineEvent];
 }>();
 
 const ui = useUiStore();
@@ -55,6 +61,8 @@ const layers = useLayersStore();
 const VIEW_W = 520;
 const VIEW_H = 404;
 const PAD = 26;
+/** Framing swap duration; the prototype used 520 ms and it reads as a "zoom out". */
+const FRAME_MS = 520;
 
 const LAYERS = [
   { id: 'all', key: 'atlas.layer.all', hint: 'atlas.layer.all.hint' },
@@ -68,6 +76,18 @@ const layer = ref<LayerKey>('all');
 const regionA = ref('eastAsia');
 const regionB = ref('europe');
 
+/**
+ * Framing convention, taken from the scale prototype (its "C" variant):
+ *
+ *   B — one pixels-per-degree for both panels, each panel framed on its own
+ *       region. Comparing the two outlines answers "which is larger".
+ *   A — both panels lock to the same centre and zoom (the union window).
+ *       Answers "where is one relative to the other", at the cost of detail.
+ *
+ * B is the default; switching is animated rather than a jump cut.
+ */
+const scaleMode = ref<'A' | 'B'>('B');
+
 const regions = computed(() => [
   findRegion(regionA.value) ?? REGIONS[0],
   findRegion(regionB.value) ?? REGIONS[1],
@@ -77,13 +97,116 @@ const regionOptions = computed(() =>
   REGIONS.map((r) => ({ id: r.id, label: regionLabel(r, ui.locale) })),
 );
 
-const projections = computed(() => {
-  const rects = regions.value.map((r) => r.bbox);
-  const k = sharedScale(rects, VIEW_W, VIEW_H, PAD);
-  return rects.map((rect) => makeProjection(rect, k, VIEW_W, VIEW_H));
+interface Frame {
+  /** Pixels per degree of latitude, shared by both panels. */
+  k: number;
+  windows: [AtlasRect, AtlasRect];
+}
+
+function frameFor(mode: 'A' | 'B'): Frame {
+  let windows: [AtlasRect, AtlasRect];
+  if (mode === 'A') {
+    const union = unionRect(regions.value.map((r) => r.bbox));
+    windows = [union, union];
+  } else {
+    windows = [regions.value[0].bbox, regions.value[1].bbox];
+  }
+  const k = Math.min(...windows.map((w) => fitScale(w, VIEW_W, VIEW_H, PAD)));
+  return { k, windows };
+}
+
+const frame = ref<Frame>(frameFor('B'));
+const anim = ref<{ from: Frame; to: Frame; t: number } | null>(null);
+let raf = 0;
+
+function easeInOutCubic(t: number) {
+  return t < 0.5 ? 4 * t * t * t : 1 - (-2 * t + 2) ** 3 / 2;
+}
+
+function lerpFrame(from: Frame, to: Frame, t: number): Frame {
+  return {
+    k: from.k + (to.k - from.k) * t,
+    windows: [
+      lerpRect(from.windows[0], to.windows[0], t),
+      lerpRect(from.windows[1], to.windows[1], t),
+    ],
+  };
+}
+
+function settle(next: Frame) {
+  frame.value = next;
+  pathCaches[0].clear();
+  pathCaches[1].clear();
+  // Anchors choose the largest piece inside the *current* window, so a new
+  // framing can pick a different one.
+  anchorCaches[0].clear();
+  anchorCaches[1].clear();
+}
+
+/** Whatever is on screen right now — the animation's midpoint if one is running. */
+function shownFrame(): Frame {
+  const a = anim.value;
+  return a ? lerpFrame(a.from, a.to, easeInOutCubic(a.t)) : frame.value;
+}
+
+function stopAnim() {
+  if (raf) cancelAnimationFrame(raf);
+  raf = 0;
+  anim.value = null;
+}
+
+function setScaleMode(mode: 'A' | 'B') {
+  if (mode === scaleMode.value) return;
+  scaleMode.value = mode;
+  stopAnim();
+  // Freeze the current framing, then animate away from it; the matrix starts at
+  // identity, so there is no visible jump even when interrupting a swap.
+  const from = shownFrame();
+  settle(from);
+  const to = frameFor(mode);
+  const start = performance.now();
+  const step = (now: number) => {
+    const t = Math.min(1, (now - start) / FRAME_MS);
+    if (t < 1) {
+      anim.value = { from, to, t };
+      raf = requestAnimationFrame(step);
+    } else {
+      stopAnim();
+      settle(to);
+    }
+  };
+  anim.value = { from, to, t: 0 };
+  raf = requestAnimationFrame(step);
+}
+
+const projections = computed(() =>
+  frame.value.windows.map((w) => makeProjection(w, frame.value.k, VIEW_W, VIEW_H)),
+);
+
+/**
+ * Per-panel matrix for the in-flight framing change. The geometry stays cached
+ * in the old framing; only the wrapper group is transformed, and the paths are
+ * rebuilt once when the animation lands.
+ */
+const animMatrices = computed(() => {
+  const a = anim.value;
+  if (!a) return ['', ''];
+  const e = easeInOutCubic(a.t);
+  const k = a.from.k + (a.to.k - a.from.k) * e;
+  return [0, 1].map((i) =>
+    rectMatrix(
+      a.from.windows[i],
+      a.from.k,
+      lerpRect(a.from.windows[i], a.to.windows[i], e),
+      k,
+      VIEW_W,
+      VIEW_H,
+    ),
+  );
 });
 
 const decade = computed(() => Math.floor(timeline.year / 10) * 10);
+const decadeEnd = computed(() => decade.value + 9);
 
 /* ── polity slices ─────────────────────────────────────────────────────── */
 
@@ -117,18 +240,43 @@ async function ensurePolities() {
   }
 }
 
+/* The source dump carries the same polity twice, once wrapped in parentheses
+ * (`Qing Dynasty` / `(Qing Dynasty)`). Left alone both are counted and both are
+ * drawn, which double-counts area and darkens the overlap. */
+function bareName(name: string) {
+  return name.replace(/^\((.*)\)$/, '$1').trim();
+}
+
+function dedupe(items: PreparedPolity[]): PreparedPolity[] {
+  const kept = new Map<string, PreparedPolity>();
+  for (const item of items) {
+    const key = bareName(item.name).toLowerCase();
+    const prev = kept.get(key);
+    if (!prev) {
+      kept.set(key, item);
+      continue;
+    }
+    const prevBare = prev.name === bareName(prev.name);
+    const itemBare = item.name === bareName(item.name);
+    // Prefer the unwrapped spelling, then the larger slice of the same polity.
+    if (itemBare !== prevBare ? itemBare : item.area > prev.area) kept.set(key, item);
+  }
+  return [...kept.values()];
+}
+
 const slices = computed(() => {
   const year = timeline.year;
   return regions.value.map((region) =>
-    prepared.value.filter(
-      (p) =>
-        year >= p.fromYear && year <= p.toYear && bboxIntersects(p.bbox, region.bbox),
+    dedupe(
+      prepared.value.filter(
+        (p) => year >= p.fromYear && year <= p.toYear && bboxIntersects(p.bbox, region.bbox),
+      ),
     ),
   );
 });
 
-/* Paths depend on the projection, not the year: cache per pane so scrubbing
- * the scale does not re-serialise the same geometry every step. */
+/* Paths depend on the projection and the framing, not the year: cache per pane
+ * so scrubbing the scale does not re-serialise the same geometry every step. */
 const pathCaches = [new Map<PolityFeature, string>(), new Map<PolityFeature, string>()];
 const anchorCache = new Map<PolityFeature, [number, number] | null>();
 
@@ -141,66 +289,241 @@ function pathFor(feature: PolityFeature, pane: number): string {
   return d;
 }
 
-function anchorFor(feature: PolityFeature): [number, number] | null {
-  if (anchorCache.has(feature)) return anchorCache.get(feature) ?? null;
-  const at = labelAnchor(feature);
-  anchorCache.set(feature, at);
+const anchorCaches = [
+  new Map<PolityFeature, PlatePin | null>(),
+  new Map<PolityFeature, PlatePin | null>(),
+];
+
+/**
+ * Where to pin a name, preferring the piece of the polity this plate shows.
+ *
+ * `labelAnchor` samples the whole outline, which works for a compact state but
+ * fails for anything with colonies: France, Britain and Germany all own land in
+ * Africa or Asia, so their boxes span oceans, every sample lands in the sea, and
+ * the three most important names on a European plate silently disappear. Each
+ * polygon is therefore projected first, the largest on-screen piece wins, and
+ * only that piece is sampled.
+ */
+type Pt = [number, number];
+
+/** Sutherland–Hodgman against one edge; the plate is a plain rectangle. */
+function clipHalf(points: Pt[], inside: (p: Pt) => boolean, cross: (a: Pt, b: Pt) => Pt): Pt[] {
+  const out: Pt[] = [];
+  for (let i = 0; i < points.length; i += 1) {
+    const cur = points[i];
+    const prev = points[(i + points.length - 1) % points.length];
+    const curIn = inside(cur);
+    const prevIn = inside(prev);
+    if (curIn) {
+      if (!prevIn) out.push(cross(prev, cur));
+      out.push(cur);
+    } else if (prevIn) {
+      out.push(cross(prev, cur));
+    }
+  }
+  return out;
+}
+
+function clipAtX(axis: number): [(p: Pt) => boolean, (a: Pt, b: Pt) => Pt] {
+  return [
+    (p) => p[0] >= axis,
+    (a, b) => {
+      const t = (axis - a[0]) / (b[0] - a[0]);
+      return [axis, a[1] + t * (b[1] - a[1])];
+    },
+  ];
+}
+
+function clipAtY(axis: number): [(p: Pt) => boolean, (a: Pt, b: Pt) => Pt] {
+  return [
+    (p) => p[1] >= axis,
+    (a, b) => {
+      const t = (axis - a[1]) / (b[1] - a[1]);
+      return [a[0] + t * (b[0] - a[0]), axis];
+    },
+  ];
+}
+
+function clipMaxX(points: Pt[], axis: number): Pt[] {
+  return clipHalf(
+    points,
+    (p) => p[0] <= axis,
+    (a, b) => {
+      const t = (axis - a[0]) / (b[0] - a[0]);
+      return [axis, a[1] + t * (b[1] - a[1])];
+    },
+  );
+}
+
+function clipMaxY(points: Pt[], axis: number): Pt[] {
+  return clipHalf(
+    points,
+    (p) => p[1] <= axis,
+    (a, b) => {
+      const t = (axis - a[1]) / (b[1] - a[1]);
+      return [a[0] + t * (b[0] - a[0]), axis];
+    },
+  );
+}
+
+function ringArea(points: Pt[]): number {
+  if (points.length < 3) return 0;
+  let sum = 0;
+  for (let i = 0, j = points.length - 1; i < points.length; j = i, i += 1) {
+    sum += points[j][0] * points[i][1] - points[i][0] * points[j][1];
+  }
+  return Math.abs(sum) / 2;
+}
+
+/** Pixels of this ring that actually fall on the plate. */
+function visibleArea(ring: number[][], proj: AtlasProjection): number {
+  const pts: Pt[] = [];
+  for (const point of ring) {
+    const lon = Number(point[0]);
+    const lat = Number(point[1]);
+    if (!Number.isFinite(lon) || !Number.isFinite(lat)) continue;
+    pts.push([proj.x(lon), proj.y(lat)]);
+  }
+  if (pts.length < 3) return 0;
+  let clip = clipHalf(pts, ...clipAtX(0));
+  clip = clipMaxX(clip, VIEW_W);
+  clip = clipHalf(clip, ...clipAtY(0));
+  clip = clipMaxY(clip, VIEW_H);
+  return ringArea(clip);
+}
+
+function plateAnchor(feature: PolityFeature, proj: AtlasProjection): PlatePin | null {
+  const geometry = feature.geometry as unknown as {
+    type?: string;
+    coordinates?: number[][][][] | number[][][];
+  };
+  if (!geometry?.coordinates) return null;
+  const polys: number[][][][] =
+    geometry.type === 'Polygon'
+      ? [geometry.coordinates as number[][][]]
+      : (geometry.coordinates as number[][][][]);
+
+  let best: PlatePin | null = null;
+  for (const poly of polys) {
+    const ring = poly[0];
+    if (!ring || ring.length < 3) continue;
+    let w = Infinity;
+    let s = Infinity;
+    let e = -Infinity;
+    let n = -Infinity;
+    for (const point of ring) {
+      const lon = point[0];
+      const lat = point[1];
+      if (typeof lon !== 'number' || typeof lat !== 'number') continue;
+      if (lon < w) w = lon;
+      if (lon > e) e = lon;
+      if (lat < s) s = lat;
+      if (lat > n) n = lat;
+    }
+    if (!Number.isFinite(w)) continue;
+    // True clipped area, not the box: a long thin state (Norway) has a fat box
+    // and little land, and ranking by the box put it above France.
+    const visible = visibleArea(ring, proj);
+    // A colony outside the frame contributes nothing, which is the point: the
+    // anchor must describe the land the reader can see.
+    if (visible <= 0 || (best && visible <= best.visible)) continue;
+
+    const spanX = e - w;
+    const spanY = n - s;
+    const midX = (w + e) / 2;
+    const midY = (s + n) / 2;
+    const samples: [number, number][] = [
+      [midX, midY],
+      [w + spanX * 0.3, midY],
+      [w + spanX * 0.7, midY],
+      [midX, s + spanY * 0.35],
+      [midX, s + spanY * 0.65],
+      [w + spanX * 0.35, s + spanY * 0.35],
+    ];
+    for (const [lon, lat] of samples) {
+      if (pointInPolity(feature, lon, lat)) {
+        best = { at: [lon, lat], visible };
+        break;
+      }
+    }
+  }
+  return best;
+}
+
+function anchorFor(feature: PolityFeature, pane: number): PlatePin | null {
+  const cache = anchorCaches[pane];
+  if (cache.has(feature)) return cache.get(feature) ?? null;
+  const at = plateAnchor(feature, projections.value[pane]);
+  cache.set(feature, at);
   return at;
 }
 
-watch(regionA, () => pathCaches[0].clear());
-watch(regionB, () => pathCaches[1].clear());
+// A different region means a different framing: re-fit instantly, no animation.
+watch([regionA, regionB], () => {
+  stopAnim();
+  settle(frameFor(scaleMode.value));
+});
 
 function polityLabel(p: PreparedPolity): string {
-  return ui.locale === 'zh' ? (zhPolityName(p.name, props.names) ?? p.name) : p.name;
+  const name = bareName(p.name);
+  return ui.locale === 'zh' ? (zhPolityName(name, props.names) ?? name) : name;
 }
 
-/* ── war records for the decade ────────────────────────────────────────── */
+/* ── war records for the year on the plate ─────────────────────────────── */
 
 const battles = ref<AtlasBattle[]>([]);
 const warLoading = ref(false);
 let warLoaded = Number.NaN;
 let warPending = Number.NaN;
-const warDecadeCache = new Map<number, AtlasBattle[]>();
+const warYearCache = new Map<number, AtlasBattle[]>();
 
+/**
+ * All battles fought up to the year in the header, not only that year's.
+ *
+ * Each archive lists 10–18 key engagements for a war that can run a decade, so
+ * the strict one-year window left most years blank and made a war in progress
+ * look finished. Earlier battles stay on the plate as hollow dots and the year's
+ * own engagements are filled, which reads as a front moving rather than as
+ * battles blinking in and out.
+ */
 async function ensureWars() {
-  const d = decade.value;
-  if (warLoaded === d || warPending === d) return;
-  const cached = warDecadeCache.get(d);
+  const year = timeline.year;
+  if (warLoaded === year || warPending === year) return;
+  const cached = warYearCache.get(year);
   if (cached) {
     battles.value = cached;
-    warLoaded = d;
+    warLoaded = year;
     return;
   }
 
-  warPending = d;
+  warPending = year;
   warLoading.value = true;
   try {
     const index = await loadWarIndex();
     const candidates = index
       .filter((w) => Number.isFinite(w.startYear) && Number.isFinite(w.endYear))
-      .filter((w) => (w.startYear as number) <= d + 9 && (w.endYear as number) >= d)
+      .filter((w) => (w.startYear as number) <= year && (w.endYear as number) >= year)
       .sort((a, b) => (b.totalBattles ?? 0) - (a.totalBattles ?? 0))
       .slice(0, 18);
 
     const profiles = await Promise.all(candidates.map((w) => loadWarProfile(w.warId)));
-    const out = profiles.flatMap((p) => battlesInWindow(p, d, d + 9));
-    warDecadeCache.set(d, out);
-    if (warPending === d) {
+    const out = profiles.flatMap((p) => battlesInWindow(p, Number.NEGATIVE_INFINITY, year));
+    warYearCache.set(year, out);
+    if (warPending === year) {
       battles.value = out;
-      warLoaded = d;
+      warLoaded = year;
     }
   } catch {
-    // A failed profile load leaves the previous decade's marks in place.
+    // A failed profile load leaves the previous year's marks in place.
   } finally {
-    if (warPending === d) {
+    if (warPending === year) {
       warPending = Number.NaN;
       warLoading.value = false;
     }
   }
 }
 
-/* ── entries for the decade ────────────────────────────────────────────── */
+/* ── entries ───────────────────────────────────────────────────────────── */
 
 const decadeEvents = ref<TimelineEvent[]>([]);
 const eventLoading = ref(false);
@@ -211,7 +534,8 @@ function inRect(rect: Region['bbox'], lon: number, lat: number) {
   return lon >= rect.west && lon <= rect.east && lat >= rect.south && lat <= rect.north;
 }
 
-const paneEvents = computed(() =>
+/** The decade is still fetched: the rhythm strip reads all ten years. */
+const paneDecadeEvents = computed(() =>
   regions.value.map((region) =>
     decadeEvents.value.filter(
       (e) =>
@@ -222,6 +546,42 @@ const paneEvents = computed(() =>
     ),
   ),
 );
+
+/** The plate itself only marks the year in the header. */
+const paneYearEvents = computed(() =>
+  paneDecadeEvents.value.map((list) => list.filter((e) => e.year === timeline.year)),
+);
+
+const yearEventTotal = computed(
+  () => decadeEvents.value.filter((e) => e.year === timeline.year).length,
+);
+
+interface BandRow {
+  year: number;
+  a: TimelineEvent[];
+  b: TimelineEvent[];
+  /** Both panels have something to say about this year. */
+  tied: boolean;
+}
+
+/**
+ * 同一十年、同一条年份轴上的双栏事件对照。
+ *
+ * 两块图版各自只看一个区域，只有并排按年对齐，才能一眼看出"两边同一年
+ * 都在发生什么"；两侧都有条目的年份标「同年」。条目与图版上的点同源，
+ * 点击即打开卡片。
+ */
+const eventBand = computed<BandRow[]>(() => {
+  const [left, right] = paneDecadeEvents.value.map((list) =>
+    dedupeRestatements([...list].sort((x, y) => x.year - y.year)),
+  );
+  const years = [...new Set([...left, ...right].map((e) => e.year))].sort((x, y) => x - y);
+  return years.map((year) => {
+    const a = left.filter((e) => e.year === year);
+    const b = right.filter((e) => e.year === year);
+    return { year, a, b, tied: a.length > 0 && b.length > 0 };
+  });
+});
 
 async function ensureEvents() {
   const key = `${ui.locale}:${decade.value}`;
@@ -249,15 +609,23 @@ async function ensureEvents() {
   }
 }
 
-const warVisible = computed(() => layer.value === 'all' || layer.value === 'war');
+/** Battle marks on top of the overview layer, switchable; the war layer is
+ *  itself the switch, so it always draws them. */
+const showWars = ref(true);
+const warVisible = computed(
+  () => layer.value === 'war' || (layer.value === 'all' && showWars.value),
+);
 const recordsVisible = computed(() => layer.value === 'all' || layer.value === 'records');
 
 function refreshLayers() {
   if (warVisible.value) void ensureWars();
-  if (recordsVisible.value) void ensureEvents();
+  // 两块图版下方的对照带每一层都在，所以本十年事件始终取；只有图上的点
+  // 才受 `recordsVisible` 控制。
+  void ensureEvents();
 }
 
-watch([layer, decade, () => ui.locale], refreshLayers, { immediate: true });
+watch([layer, showWars, () => timeline.year], refreshLayers, { immediate: true });
+watch([() => decade.value, () => ui.locale], refreshLayers);
 
 watch(
   () => timeline.year,
@@ -294,13 +662,18 @@ interface BattleDot {
   x: number;
   y: number;
   year: number;
+  /** Fought this year; earlier engagements stay as hollow dots. */
+  current: boolean;
 }
 
 interface WarRow {
   warId: string;
   name: string;
   nameEn: string;
+  /** Engagements so far, i.e. all dots the war has on the plate. */
   count: number;
+  /** Engagements dated to the year in the header. */
+  yearCount: number;
 }
 
 interface RecordDot {
@@ -316,13 +689,45 @@ interface GridLine {
   label: string;
 }
 
+/** Screen box `[left, top, right, bottom]` used to keep plate labels apart. */
+type Box = [number, number, number, number];
+
+/** A label that survived the threshold, before collision removal. */
+interface LabelCandidate {
+  feature: PolityFeature;
+  text: string;
+  w: number;
+  x: number;
+  y: number;
+  /** Projected area of the visible piece, used to rank names on the plate. */
+  weight: number;
+  /** True when the anchor itself projects inside the plate. */
+  inside: boolean;
+}
+
+interface PlatePin {
+  at: [number, number];
+  /** Projected area of the polygon the anchor came from. */
+  visible: number;
+}
+
+/** Rough width of the 14px label face: CJK is full-width, Latin is not. */
+function labelWidth(text: string): number {
+  let w = 0;
+  for (const ch of text) w += /[\u3000-\u9fff\uff00-\uffef]/.test(ch) ? 14 : 7.6;
+  return w;
+}
+
+function boxesOverlap(a: Box, b: Box): boolean {
+  return a[0] < b[2] && a[2] > b[0] && a[1] < b[3] && a[3] > b[1];
+}
+
 interface Pane {
   region: Region;
   shapes: PlateShape[];
   labels: PlateLabel[];
   battleDots: BattleDot[];
   hulls: string[];
-  campaigns: string[];
   warLabels: PlateLabel[];
   wars: WarRow[];
   records: RecordDot[];
@@ -385,23 +790,77 @@ const panes = computed<Pane[]>(() => {
       .filter((s) => s.d.length > 0);
 
     const labels: PlateLabel[] = [];
-    for (const p of ranked.slice(0, 8)) {
-      const at = anchorFor(p.feature);
-      if (!at) continue;
-      const x = proj.x(at[0]);
-      const y = proj.y(at[1]);
-      if (x < 6 || x > VIEW_W - 6 || y < 12 || y > VIEW_H - 12) continue;
-      labels.push({ x, y, text: polityLabel(p), feature: p.feature });
-      if (labels.length >= 4) break;
-    }
+    const boxes: Box[] = [];
+    const candidates = ranked
+      .slice(0, 30)
+      .map((p): LabelCandidate | null => {
+        const pin = anchorFor(p.feature, i);
+        if (!pin) return null;
+        const text = polityLabel(p);
+        if (!text) return null;
+        const rawX = proj.x(pin.at[0]);
+        const rawY = proj.y(pin.at[1]);
+        const w = labelWidth(text);
+        // The source splits a realm into a metropolitan outline and a
+        // parenthesised colonial one. Both cover the same land here, so the
+        // plain spelling wins and 1914 Europe reads "法国", not "第二帝国".
+        const weight = pin.visible * (p.name === bareName(p.name) ? 1 : 0.85);
+        return {
+          feature: p.feature,
+          text,
+          w,
+          weight,
+          // Anchors near the edge are pulled inside rather than dropped; the old
+          // rule silently lost every name whose centre sat outside the frame.
+          x: Math.max(8, Math.min(VIEW_W - 8 - w, rawX)),
+          y: Math.max(16, Math.min(VIEW_H - 10, rawY)),
+          inside: rawX >= 0 && rawX <= VIEW_W && rawY >= 0 && rawY <= VIEW_H,
+        };
+      })
+      .filter((c): c is LabelCandidate => c !== null)
+      // Rank by the land this plate actually shows: Scandinavia is big and empty
+      // but still deserves a name, while a Portuguese sliver does not.
+      .sort((a, b) => b.weight - a.weight);
+
+    const maxWeight = candidates[0]?.weight ?? 0;
+    const pick = candidates.filter((c) => maxWeight === 0 || c.weight >= maxWeight * 0.004);
+
+    // One name per patch of land. The source lists the same realm twice under
+    // different labels ("西班牙王国" and "西班牙帝国"), and both would otherwise
+    // take a seat and print on top of each other.
+    const anchorsPlaced: [number, number][] = [];
+
+    const place = (list: LabelCandidate[]) => {
+      for (const c of list) {
+        if (labels.length >= 10) return;
+        if (anchorsPlaced.some(([x, y]) => Math.hypot(x - c.x, y - c.y) < 26)) continue;
+        // One nudge up or down beats losing the name: neighbouring states sit a
+        // few pixels apart on a plate this small.
+        const box = [0, -18, 18, -34, 34]
+          .map((dy): Box => [c.x - 2, c.y + dy - 13, c.x + c.w + 2, c.y + dy + 4])
+          .find((b) => b[1] >= 2 && b[3] <= VIEW_H - 2 && !boxes.some((o) => boxesOverlap(o, b)));
+        if (!box) continue;
+        boxes.push(box);
+        anchorsPlaced.push([c.x, c.y]);
+        labels.push({ x: c.x, y: box[3] - 4, text: c.text, feature: c.feature });
+      }
+    };
+
+    // Strictly by the land shown. Russia's European half reaches in from the
+    // edge and still outranks every Balkan duchy, which is the correct order;
+    // splitting the queue into "inside" and "edge" let ten small states fill
+    // the plate while Russia and the Ottomans never got a turn.
+    place(pick);
 
     const regionBattles = warVisible.value
       ? battles.value.filter((b) => inRect(region.bbox, b.lon, b.lat))
       : [];
+    const year = timeline.year;
     const battleDots: BattleDot[] = regionBattles.map((b) => ({
       x: proj.x(b.lon),
       y: proj.y(b.lat),
       year: b.year,
+      current: b.year === year,
     }));
 
     const groups = new Map<string, { row: WarRow; list: AtlasBattle[] }>();
@@ -410,9 +869,16 @@ const panes = computed<Pane[]>(() => {
       if (hit) {
         hit.list.push(b);
         hit.row.count += 1;
+        if (b.year === year) hit.row.yearCount += 1;
       } else {
         groups.set(b.warId, {
-          row: { warId: b.warId, name: b.name, nameEn: b.nameEn, count: 1 },
+          row: {
+            warId: b.warId,
+            name: b.name,
+            nameEn: b.nameEn,
+            count: 1,
+            yearCount: b.year === year ? 1 : 0,
+          },
           list: [b],
         });
       }
@@ -420,34 +886,44 @@ const panes = computed<Pane[]>(() => {
     const ordered = [...groups.values()].sort((a, b) => b.row.count - a.row.count);
     const wars = ordered.map((g) => g.row);
 
+    // Hulls trace this year's front, not the decade's; a hull around every
+    // engagement ever recorded would shade the whole war instead of its line.
     const hulls = ordered
-      .filter((g) => g.list.length >= 4)
-      .map((g) => hullPath(g.list, proj))
+      .map((g) => g.list.filter((b) => b.year === year))
+      .filter((list) => list.length >= 4)
+      .map((list) => hullPath(list, proj))
       .filter(Boolean)
-      .slice(0, 6);
-
-    const campaigns = ordered
-      .filter((g) => g.list.length >= 2)
-      .map((g) =>
-        [...g.list]
-          .sort((a, b) => a.year - b.year)
-          .map((b) => `${proj.x(b.lon).toFixed(1)},${proj.y(b.lat).toFixed(1)}`)
-          .join(' '),
-      )
       .slice(0, 6);
 
     const warLabels: PlateLabel[] = [];
     for (const g of ordered) {
       if (g.list.length < 2) continue;
-      const x = g.list.reduce((sum, b) => sum + proj.x(b.lon), 0) / g.list.length;
-      const y = g.list.reduce((sum, b) => sum + proj.y(b.lat), 0) / g.list.length;
-      if (x < 18 || x > VIEW_W - 18 || y < 14 || y > VIEW_H - 14) continue;
-      warLabels.push({ x, y, text: warName(g.row), warId: g.row.warId });
+      // Anchor on the year's engagements when the war has any, so the caption
+      // follows the front instead of drifting to the middle of the whole archive.
+      const current = g.list.filter((b) => b.year === year);
+      const anchorList = current.length ? current : g.list;
+      const cx = anchorList.reduce((sum, b) => sum + proj.x(b.lon), 0) / anchorList.length;
+      const cy = anchorList.reduce((sum, b) => sum + proj.y(b.lat), 0) / anchorList.length;
+      if (cx < 18 || cx > VIEW_W - 18 || cy < 14 || cy > VIEW_H - 14) continue;
+      const text = warName(g.row);
+      const w = labelWidth(text);
+      // The centre of a war's battles is often the centre of an empire
+      // ("第一次世界大战" landed on top of "德意志帝国"), so step away from any
+      // name already on the plate. If every offset is taken the caption is still
+      // drawn — a listed war may not look like it has vanished from the map; the
+      // text carries a paper-coloured halo instead.
+      const dy =
+        [0, -16, 16, -30].find((d) => {
+          const b: Box = [cx - 4, cy + d - 12, cx + w + 4, cy + d + 4];
+          return b[1] >= 2 && b[3] <= VIEW_H - 2 && !boxes.some((o) => boxesOverlap(o, b));
+        }) ?? 0;
+      boxes.push([cx - 4, cy + dy - 12, cx + w + 4, cy + dy + 4]);
+      warLabels.push({ x: cx, y: cy + dy, text, warId: g.row.warId });
       if (warLabels.length >= 3) break;
     }
 
     const records: RecordDot[] = recordsVisible.value
-      ? paneEvents.value[i].map((e) => ({
+      ? paneYearEvents.value[i].map((e) => ({
           x: proj.x(e.lon as number),
           y: proj.y(e.lat as number),
           css: eventCss(e),
@@ -457,9 +933,10 @@ const panes = computed<Pane[]>(() => {
       : [];
 
     const { lonLines, latLines } = gridFor(proj, region.bbox);
+    const yearDots = battleDots.filter((d) => d.current).length;
     const headline =
       layer.value === 'war'
-        ? `${battleDots.length} ${ui.t('atlas.battles')}`
+        ? ui.tf('atlas.battleHeadline', { n: yearDots, total: battleDots.length })
         : layer.value === 'records'
           ? `${records.length} ${ui.t('atlas.records')}`
           : layer.value === 'units'
@@ -472,7 +949,6 @@ const panes = computed<Pane[]>(() => {
       labels,
       battleDots,
       hulls,
-      campaigns,
       warLabels,
       wars,
       records,
@@ -488,13 +964,30 @@ const panes = computed<Pane[]>(() => {
 
 /* ── figures and rhythm ────────────────────────────────────────────────── */
 
-const plateItems = computed(() => [...slices.value[0], ...slices.value[1]]);
+interface FigureRow {
+  k: string;
+  a: string;
+  b: string;
+}
 
-const plateBattles = computed(() =>
-  battles.value.filter((b) => regions.value.some((r) => inRect(r.bbox, b.lon, b.lat))),
+/** Per-pane battle lists; every figure below is read off these, never off a merge. */
+const paneBattles = computed(() =>
+  regions.value.map((region) => battles.value.filter((b) => inRect(region.bbox, b.lon, b.lat))),
 );
 
-const plateRecords = computed(() => [...paneEvents.value[0], ...paneEvents.value[1]]);
+function tally(items: PreparedPolity[]) {
+  const areas = items.map((p) => p.area).filter((a) => a > 0);
+  const largest = items.reduce<PreparedPolity | null>(
+    (best, p) => (p.area > (best?.area ?? 0) ? p : best),
+    null,
+  );
+  return {
+    count: items.length,
+    area: areas.reduce((sum, a) => sum + a, 0),
+    median: median(areas),
+    largest: largest ? polityLabel(largest) : '—',
+  };
+}
 
 function busiest(items: { year: number }[]): number | null {
   if (!items.length) return null;
@@ -511,75 +1004,137 @@ function busiest(items: { year: number }[]): number | null {
   return bestYear;
 }
 
-const figures = computed(() => {
-  const items = plateItems.value;
-  const areas = items.map((p) => p.area).filter((a) => a > 0);
-  const largest = items.reduce<PreparedPolity | null>(
-    (best, p) => (p.area > (best?.area ?? 0) ? p : best),
-    null,
-  );
+function ratio(part: number, whole: number) {
+  if (whole <= 0) return '—';
+  return `${Math.round((part / whole) * 100)}%`;
+}
+
+/**
+ * Reads: one column per pane, two panes, no merged total. A sum across the two
+ * columns would double-count any polity (and any battle) that both frames
+ * cover, so the plate shows the two readings side by side and stops there.
+ */
+const figureRows = computed<FigureRow[]>(() => {
+  const [itemsA, itemsB] = slices.value;
 
   if (layer.value === 'war') {
-    const years = plateBattles.value.map((b) => b.year);
-    const peak = busiest(plateBattles.value);
+    const year = timeline.year;
+    const per = paneBattles.value.map((list) => {
+      const groups = new Map<string, { name: string; count: number; yearCount: number }>();
+      for (const b of list) {
+        const hit = groups.get(b.warId);
+        const yearHit = b.year === year ? 1 : 0;
+        if (hit) {
+          hit.count += 1;
+          hit.yearCount += yearHit;
+        } else {
+          groups.set(b.warId, {
+            name: warName({ warId: b.warId, name: b.name, nameEn: b.nameEn, count: 1, yearCount: yearHit }),
+            count: 1,
+            yearCount: yearHit,
+          });
+        }
+      }
+      const wars = [...groups.values()].sort((x, y) => y.count - x.count);
+      return {
+        count: list.length,
+        yearCount: list.filter((b) => b.year === year).length,
+        wars,
+        top: wars[0]?.name ?? '—',
+      };
+    });
     return [
-      { k: ui.t('atlas.battles'), v: String(plateBattles.value.length) },
-      {
-        k: ui.t('atlas.wars'),
-        v: String(new Set(plateBattles.value.map((b) => b.warId)).size),
-      },
-      {
-        k: ui.t('atlas.warSpan'),
-        v: years.length
-          ? formatYearRange(Math.min(...years), Math.max(...years), ui.locale)
-          : '—',
-      },
-      {
-        k: ui.t('atlas.peakYear'),
-        v: peak === null ? '—' : formatYearCompact(peak, ui.locale),
-      },
+      { k: ui.t('atlas.battles'), a: String(per[0].yearCount), b: String(per[1].yearCount) },
+      { k: ui.t('atlas.battlesTotal'), a: String(per[0].count), b: String(per[1].count) },
+      { k: ui.t('atlas.wars'), a: String(per[0].wars.length), b: String(per[1].wars.length) },
+      { k: ui.t('atlas.topWar'), a: per[0].top, b: per[1].top },
+      { k: ui.t('atlas.avgPerWar'), a: per[0].wars.length ? (per[0].count / per[0].wars.length).toFixed(1) : '—', b: per[1].wars.length ? (per[1].count / per[1].wars.length).toFixed(1) : '—' },
     ];
   }
 
   if (layer.value === 'records') {
-    const events = plateRecords.value;
-    const peak = busiest(events);
+    const yearPer = paneYearEvents.value.map((list) => list.length);
+    const decadePer = paneDecadeEvents.value.map((list) => list.length);
+    const peakPer = paneDecadeEvents.value.map((list) => busiest(list));
     return [
-      { k: ui.t('atlas.records'), v: String(events.length) },
       {
-        k: ui.t('atlas.located'),
-        v: `${events.length} / ${decadeEvents.value.length}`,
+        k: ui.t('atlas.recordsYear'),
+        a: String(yearPer[0]),
+        b: String(yearPer[1]),
       },
-      { k: ui.t('atlas.peakYear'), v: peak === null ? '—' : formatYearCompact(peak, ui.locale) },
-      { k: ui.t('atlas.polities'), v: String(items.length) },
+      {
+        k: ui.t('atlas.share'),
+        a: ratio(yearPer[0], yearEventTotal.value),
+        b: ratio(yearPer[1], yearEventTotal.value),
+      },
+      {
+        k: ui.t('atlas.decadeTotal'),
+        a: String(decadePer[0]),
+        b: String(decadePer[1]),
+      },
+      {
+        k: ui.t('atlas.peakYearDecade'),
+        a: peakPer[0] === null ? '—' : formatYearCompact(peakPer[0], ui.locale),
+        b: peakPer[1] === null ? '—' : formatYearCompact(peakPer[1], ui.locale),
+      },
     ];
   }
 
   if (layer.value === 'units') {
-    const parts = items.reduce(
-      (sum, p) =>
-        sum +
-        (p.feature.geometry.type === 'MultiPolygon'
-          ? (p.feature.geometry.coordinates as number[][][][]).length
-          : 1),
-      0,
-    );
+    const parts = (items: PreparedPolity[]) =>
+      items.reduce(
+        (sum, p) =>
+          sum +
+          (p.feature.geometry.type === 'MultiPolygon'
+            ? (p.feature.geometry.coordinates as number[][][][]).length
+            : 1),
+        0,
+      );
+    const statA = tally(itemsA);
+    const statB = tally(itemsB);
     return [
-      { k: ui.t('atlas.units'), v: String(items.length) },
-      { k: ui.t('atlas.parts'), v: String(parts) },
-      { k: ui.t('atlas.smallUnits'), v: String(items.filter((p) => p.area < 1_000_000).length) },
-      { k: ui.t('atlas.medianArea'), v: formatArea(median(areas), ui.locale) },
+      {
+        k: ui.t('atlas.units'),
+        a: String(statA.count),
+        b: String(statB.count),
+      },
+      {
+        k: ui.t('atlas.parts'),
+        a: String(parts(itemsA)),
+        b: String(parts(itemsB)),
+      },
+      {
+        k: ui.t('atlas.smallUnits'),
+        a: String(itemsA.filter((p) => p.area < 1_000_000).length),
+        b: String(itemsB.filter((p) => p.area < 1_000_000).length),
+      },
+      {
+        k: ui.t('atlas.medianArea'),
+        a: formatArea(statA.median, ui.locale),
+        b: formatArea(statB.median, ui.locale),
+      },
     ];
   }
 
+  const statA = tally(itemsA);
+  const statB = tally(itemsB);
   return [
-    { k: ui.t('atlas.polities'), v: String(items.length) },
+    {
+      k: ui.t('atlas.polities'),
+      a: String(statA.count),
+      b: String(statB.count),
+    },
     {
       k: ui.t('atlas.totalArea'),
-      v: formatArea(areas.reduce((sum, a) => sum + a, 0), ui.locale),
+      a: formatArea(statA.area, ui.locale),
+      b: formatArea(statB.area, ui.locale),
     },
-    { k: ui.t('atlas.largest'), v: largest ? polityLabel(largest) : '—', name: true },
-    { k: ui.t('atlas.medianArea'), v: formatArea(median(areas), ui.locale) },
+    { k: ui.t('atlas.largest'), a: statA.largest, b: statB.largest },
+    {
+      k: ui.t('atlas.medianArea'),
+      a: formatArea(statA.median, ui.locale),
+      b: formatArea(statB.median, ui.locale),
+    },
   ];
 });
 
@@ -588,7 +1143,7 @@ const rhythm = computed(() => {
     tag: regionLabel(regions.value[i], ui.locale),
     bars: Array.from({ length: 10 }, (_, step) => {
       const year = decade.value + step;
-      return { year, count: paneEvents.value[i].filter((e) => e.year === year).length };
+      return { year, count: paneDecadeEvents.value[i].filter((e) => e.year === year).length };
     }),
   }));
   const max = Math.max(
@@ -600,6 +1155,17 @@ const rhythm = computed(() => {
 
 const loading = computed(
   () => polityLoading.value || warLoading.value || eventLoading.value,
+);
+
+/** War and record layers read one year only; say so next to the layer switch. */
+const layerHint = computed(() => {
+  const base = ui.t(LAYERS.find((l) => l.id === layer.value)?.hint ?? 'atlas.layer.all.hint');
+  if (layer.value !== 'war' && layer.value !== 'records') return base;
+  return `${ui.tf('atlas.windowOnly', { year: formatYearCompact(timeline.year, ui.locale) })} · ${base}`;
+});
+
+const scaleNote = computed(() =>
+  ui.t(scaleMode.value === 'A' ? 'atlas.scaleNoteA' : 'atlas.scaleNoteB'),
 );
 
 /* ── interactions ──────────────────────────────────────────────────────── */
@@ -629,11 +1195,18 @@ function pickWar(warId: string) {
   emit('pick-war', warId);
 }
 
+/** 对照带条目 → 先跳到它的年份，再打开卡片，两屏同时定位。 */
+function selectEvent(event: TimelineEvent) {
+  goYear(event.year);
+  emit('pick-event', event);
+}
+
 onMounted(() => {
   void ensurePolities();
 });
 
 onBeforeUnmount(() => {
+  stopAnim();
   pathCaches[0].clear();
   pathCaches[1].clear();
   anchorCache.clear();
@@ -653,9 +1226,7 @@ onBeforeUnmount(() => {
       <h1 class="serif">{{ ui.t('atlas.headline') }}</h1>
       <p class="standfirst">{{ ui.t('atlas.standfirst') }}</p>
       <div class="dateline">
-        <span class="lock"><span class="box">=</span>{{ ui.t('atlas.sameScale') }}</span>
-        <span class="sep">·</span>
-        <span class="note">{{ ui.t('atlas.scaleNote') }}</span>
+        <span class="note">{{ scaleNote }}</span>
       </div>
     </header>
 
@@ -668,7 +1239,33 @@ onBeforeUnmount(() => {
       >
         {{ ui.t(item.key) }}
       </button>
-      <span class="layer-hint">{{ ui.t(LAYERS.find((l) => l.id === layer)?.hint ?? 'atlas.layer.all.hint') }}</span>
+      <span class="layer-hint">{{ layerHint }}</span>
+      <button
+        v-if="layer === 'all'"
+        class="war-toggle"
+        :class="{ on: showWars }"
+        :aria-pressed="showWars"
+        :title="ui.t(showWars ? 'atlas.warMarks.hide' : 'atlas.warMarks.show')"
+        @click="showWars = !showWars"
+      >
+        <span class="dot" aria-hidden="true"></span>{{ ui.t('atlas.warMarks') }}
+      </button>
+      <div class="frame-switch" role="group" :aria-label="ui.t('atlas.modeLabel')">
+        <button
+          :class="{ on: scaleMode === 'B' }"
+          :title="`${ui.t('atlas.mode.b')} · ${ui.t('atlas.mode.bSub')}`"
+          @click="setScaleMode('B')"
+        >
+          {{ ui.t('atlas.frame.own') }}
+        </button>
+        <button
+          :class="{ on: scaleMode === 'A' }"
+          :title="`${ui.t('atlas.mode.a')} · ${ui.t('atlas.mode.aSub')}`"
+          @click="setScaleMode('A')"
+        >
+          {{ ui.t('atlas.frame.shared') }}
+        </button>
+      </div>
     </div>
 
     <div class="spread">
@@ -684,6 +1281,7 @@ onBeforeUnmount(() => {
             </option>
           </select>
           <button class="swap" :title="ui.t('atlas.sameScale')" @click="swapRegions">⇄</button>
+          <span class="plate-frame">{{ scaleMode === 'A' ? ui.t('atlas.frame.shared') : ui.t('atlas.frame.own') }}</span>
           <span class="plate-metric mono">{{ pane.headline }}</span>
         </figcaption>
 
@@ -699,7 +1297,10 @@ onBeforeUnmount(() => {
 
             <rect class="sea" x="0" y="0" :width="VIEW_W" :height="VIEW_H" />
 
-            <g class="graticule">
+            <!-- Framing swaps animate this wrapper, so cached geometry is never
+                 re-serialised frame by frame. -->
+            <g :transform="animMatrices[index] || undefined">
+              <g class="graticule">
               <g v-for="line in pane.lonLines" :key="`lon-${line.label}`">
                 <line :x1="line.p" y1="0" :x2="line.p" :y2="VIEW_H" />
                 <text :x="line.p" :y="VIEW_H - 5">{{ line.label }}</text>
@@ -722,16 +1323,13 @@ onBeforeUnmount(() => {
             <g v-if="warVisible" class="wash">
               <circle
                 v-for="(dot, bi) in pane.battleDots"
+                v-show="dot.current"
                 :key="`wash-${bi}`"
                 :cx="dot.x"
                 :cy="dot.y"
-                :r="index === 0 ? 26 : 26"
+                :r="26"
                 :fill="`url(#atlas-wash-${index})`"
               />
-            </g>
-
-            <g v-if="warVisible" class="campaigns">
-              <polyline v-for="(line, ci) in pane.campaigns" :key="`campaign-${ci}`" :points="line" />
             </g>
 
             <g v-if="warVisible" class="hulls">
@@ -744,7 +1342,8 @@ onBeforeUnmount(() => {
                 :key="`battle-${bi}`"
                 :cx="dot.x"
                 :cy="dot.y"
-                :r="2.1"
+                :class="{ old: !dot.current }"
+                :r="dot.current ? 2.1 : 1.6"
               />
             </g>
 
@@ -795,6 +1394,7 @@ onBeforeUnmount(() => {
               <line :x1="pane.ruler" y1="-4" :x2="pane.ruler" y2="4" />
               <text :x="pane.ruler + 7" y="3">1000 km</text>
             </g>
+            </g>
           </svg>
 
           <p v-if="pane.empty" class="empty-note">{{ ui.t('atlas.noPolity') }}</p>
@@ -805,7 +1405,7 @@ onBeforeUnmount(() => {
           <li v-for="row in pane.wars.slice(0, 4)" :key="row.warId">
             <button @click="pickWar(row.warId)">
               <span class="war-name">{{ warName(row) }}</span>
-              <span class="war-count mono">{{ ui.tf('atlas.battleCount', { n: row.count }) }}</span>
+              <span class="war-count mono">{{ ui.tf('atlas.battleCountSplit', { n: row.yearCount, total: row.count }) }}</span>
             </button>
           </li>
         </ul>
@@ -813,10 +1413,65 @@ onBeforeUnmount(() => {
       </figure>
     </div>
 
+    <div v-if="eventBand.length" class="event-band">
+      <div class="band-head">
+        <span class="cap">{{ ui.t('atlas.eventCompare') }}</span>
+        <span class="band-range mono">
+          {{ formatYearCompact(decade, ui.locale) }}–{{ formatYearCompact(decadeEnd, ui.locale) }}
+        </span>
+        <span class="band-hint">{{ ui.t('atlas.eventCompareHint') }}</span>
+      </div>
+      <div class="band-body">
+        <div
+          v-for="row in eventBand"
+          :key="row.year"
+          class="band-row"
+          :class="{ tied: row.tied, on: row.year === timeline.year }"
+        >
+          <div class="band-side a">
+            <button
+              v-for="ev in row.a"
+              :key="ev.key"
+              class="band-ev"
+              :title="ev.title"
+              @click="selectEvent(ev)"
+            >
+              <i :style="{ background: eventCss(ev) }" aria-hidden="true" />
+              <span>{{ ev.title }}</span>
+            </button>
+          </div>
+          <div class="band-year">
+            <button class="mono" :title="String(row.year)" @click="goYear(row.year)">
+              {{ formatYearCompact(row.year, ui.locale) }}
+            </button>
+            <i v-if="row.tied" class="tie">{{ ui.t('compare.sameYear') }}</i>
+          </div>
+          <div class="band-side b">
+            <button
+              v-for="ev in row.b"
+              :key="ev.key"
+              class="band-ev"
+              :title="ev.title"
+              @click="selectEvent(ev)"
+            >
+              <i :style="{ background: eventCss(ev) }" aria-hidden="true" />
+              <span>{{ ev.title }}</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div v-if="recordsVisible" class="rhythm">
       <div class="rhythm-head">
         <span class="cap">{{ ui.t('atlas.rhythm') }}</span>
-        <span class="rhythm-hint">{{ ui.t('atlas.rhythmHint') }}</span>
+        <span class="rhythm-range mono">
+          {{ formatYearCompact(decade, ui.locale) }}–{{ formatYearCompact(decadeEnd, ui.locale) }}
+        </span>
+        <span class="rhythm-unit">{{ ui.t('atlas.rhythmUnit') }}</span>
+        <span class="rhythm-hint">
+          {{ ui.tf('atlas.rhythmMax', { n: rhythm.max }) }} · {{ ui.t('atlas.rhythmHint') }}
+        </span>
       </div>
       <div v-for="row in rhythm.rows" :key="row.tag" class="rhythm-row">
         <span class="rhythm-tag">{{ row.tag }}</span>
@@ -840,12 +1495,23 @@ onBeforeUnmount(() => {
       </div>
     </div>
 
-    <div class="figures">
-      <div v-for="(figure, fi) in figures" :key="fi" class="fig">
-        <span class="k">{{ figure.k }}</span>
-        <span class="v mono" :class="{ name: 'name' in figure && figure.name }">{{ figure.v }}</span>
-      </div>
-    </div>
+    <table class="figures">
+      <thead>
+        <tr>
+          <th scope="col" class="fig-key">{{ ui.t('atlas.figures') }}</th>
+          <th scope="col">{{ ui.t('atlas.plateA') }}</th>
+          <th scope="col">{{ ui.t('atlas.plateB') }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="row in figureRows" :key="row.k">
+          <th scope="row">{{ row.k }}</th>
+          <td class="mono">{{ row.a }}</td>
+          <td class="mono">{{ row.b }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="fig-note">{{ ui.t('atlas.areaCaveat') }}</p>
 
     <p class="disclaimer">{{ ui.t('atlas.disclaimer') }}</p>
     <p v-if="loading" class="loading">{{ ui.t('atlas.loading') }}</p>
@@ -966,10 +1632,73 @@ onBeforeUnmount(() => {
 }
 .layer-hint {
   margin-left: auto;
-  padding: 10px 0 10px 16px;
+  padding: 10px 12px 10px 16px;
   font-size: 11.5px;
   color: var(--ink-3);
   white-space: nowrap;
+}
+
+/* Framing is a setting, not a headline: two quiet words in the strip rather
+   than a bordered block taking a whole row above the plates. */
+.frame-switch {
+  display: inline-flex;
+  align-items: center;
+  align-self: center;
+  margin-left: 2px;
+  border-left: 1px solid var(--rule);
+}
+.frame-switch button {
+  padding: 4px 6px;
+  border-bottom: 0;
+  font-family: var(--font-sans);
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  color: var(--ink-4);
+  white-space: nowrap;
+}
+.frame-switch button + button {
+  border-left: 1px solid var(--rule);
+}
+.frame-switch button:hover {
+  color: var(--ink-2);
+}
+.frame-switch button.on {
+  color: var(--ink-2);
+  border-bottom-color: transparent;
+  background: var(--paper-3);
+}
+
+/* Battle marks can sit on top of the overview without becoming a layer of
+   their own; the dot is the state, the word stays quiet. */
+.war-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  align-self: center;
+  margin-left: 2px;
+  padding: 4px 7px;
+  border-bottom: 0;
+  font-family: var(--font-sans);
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  color: var(--ink-4);
+  white-space: nowrap;
+}
+.war-toggle:hover {
+  color: var(--ink-2);
+}
+.war-toggle .dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: 1px solid var(--ink-4);
+}
+.war-toggle.on {
+  color: var(--ink-2);
+}
+.war-toggle.on .dot {
+  border-color: var(--rust);
+  background: var(--rust);
 }
 
 /* ── the plate ─────────────────────────────────────────────────────────── */
@@ -1012,6 +1741,14 @@ onBeforeUnmount(() => {
 }
 .swap:hover {
   color: var(--rust);
+}
+.plate-frame {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  color: var(--ink-4);
+  border: 1px solid var(--rule-2);
+  padding: 1px 4px;
+  white-space: nowrap;
 }
 .plate-metric {
   margin-left: auto;
@@ -1105,6 +1842,12 @@ onBeforeUnmount(() => {
   stroke: var(--paper);
   stroke-width: 1;
 }
+/* Earlier engagements of a war still in progress: a ring, not a fresh mark. */
+.battle-dots circle.old {
+  fill: none;
+  stroke: var(--rust);
+  stroke-opacity: 0.5;
+}
 .records circle {
   stroke: var(--paper);
   stroke-width: 0.9;
@@ -1188,6 +1931,117 @@ onBeforeUnmount(() => {
   color: var(--ink-3);
 }
 
+/* ── event comparison band ─────────────────────────────────────────────── */
+
+.event-band {
+  padding: 9px 22px 12px;
+  border-top: 3px double var(--ink-3);
+}
+.band-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+.band-range {
+  font-size: 11px;
+  color: var(--ink-2);
+  letter-spacing: 0.04em;
+}
+.band-hint {
+  font-size: 11px;
+  color: var(--ink-3);
+}
+.band-body {
+  display: flex;
+  flex-direction: column;
+  /* 是一条「带」而不是第二张清单：欧洲十年的条目能排到几十行。 */
+  max-height: 216px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+.band-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 74px minmax(0, 1fr);
+  align-items: start;
+  gap: 8px;
+  padding: 3px 0;
+  border-top: 1px solid var(--rule);
+}
+.band-row:first-child {
+  border-top: 0;
+}
+.band-row.on {
+  background: var(--paper-2);
+}
+.band-side {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+.band-side.a {
+  align-items: flex-end;
+}
+.band-ev {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  max-width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-family: var(--font-sans);
+  font-size: 11.5px;
+  color: var(--ink-2);
+  cursor: pointer;
+}
+.band-side.a .band-ev {
+  flex-direction: row-reverse;
+}
+.band-ev span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.band-ev:hover span {
+  color: var(--rust);
+}
+.band-ev i {
+  flex: none;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+.band-year {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+}
+.band-year button {
+  border: 0;
+  background: none;
+  padding: 0;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--ink-3);
+  cursor: pointer;
+}
+.band-year button:hover {
+  color: var(--rust);
+}
+.band-year .tie {
+  font-style: normal;
+  font-size: 9px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--rust);
+  border: 1px solid currentColor;
+  padding: 0 2px;
+}
+
 /* ── rhythm ────────────────────────────────────────────────────────────── */
 
 .rhythm {
@@ -1197,8 +2051,20 @@ onBeforeUnmount(() => {
 .rhythm-head {
   display: flex;
   align-items: baseline;
-  gap: 12px;
+  gap: 10px;
   margin-bottom: 5px;
+  flex-wrap: wrap;
+}
+.rhythm-range {
+  font-size: 11px;
+  color: var(--ink-2);
+  letter-spacing: 0.04em;
+}
+.rhythm-unit {
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-4);
 }
 .rhythm-hint {
   font-size: 11px;
@@ -1257,39 +2123,52 @@ onBeforeUnmount(() => {
 /* ── figures ───────────────────────────────────────────────────────────── */
 
 .figures {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  width: 100%;
   border-top: 2px solid var(--ink-3);
+  border-collapse: collapse;
   background: var(--paper-2);
+  font-size: 12px;
 }
-.fig {
-  padding: 7px 12px 8px;
-  border-right: 1px solid var(--rule);
-  min-width: 0;
+.figures th,
+.figures td {
+  padding: 6px 12px 7px;
+  text-align: left;
+  font-weight: 400;
 }
-.fig:last-child {
-  border-right: 0;
-}
-.fig .k {
-  display: block;
+.figures thead th {
   font-size: 10px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--ink-4);
+  color: var(--ink-3);
+  border-bottom: 1px solid var(--rule-2);
 }
-.fig .v {
-  display: block;
-  font-size: 17px;
-  font-weight: 600;
-  line-height: 1.35;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.figures tbody th {
+  color: var(--ink-3);
+  letter-spacing: 0.04em;
 }
-.fig .v.name {
-  font-family: var(--font-sans);
+.figures tbody tr + tr th,
+.figures tbody tr + tr td {
+  border-top: 1px solid var(--rule);
+}
+.figures td {
   font-size: 13.5px;
-  font-weight: 600;
+  color: var(--ink);
+}
+.figures td.mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+.figures .fig-key {
+  width: 34%;
+}
+.fig-note {
+  margin: 0;
+  padding: 6px 12px 8px;
+  border-top: 1px solid var(--rule);
+  background: var(--paper-2);
+  font-size: 11px;
+  line-height: 1.6;
+  color: var(--ink-3);
 }
 
 .disclaimer {

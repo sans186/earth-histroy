@@ -1,11 +1,5 @@
 import { YEAR_MAX } from '@/config';
-import type {
-  LocalisedText,
-  PersonEvaluation,
-  PersonProfile,
-  WarIndexItem,
-  WarProfile,
-} from '@/types';
+import type { PersonProfile, WarIndexItem, WarProfile } from '@/types';
 
 /**
  * Runtime degradation policy for model-generated content.
@@ -56,13 +50,6 @@ export const LIVING_PERSON_IDS: ReadonlySet<string> = new Set([
 /** Conflicts still running in the dataset year. */
 export const ONGOING_WAR_IDS: ReadonlySet<string> = new Set(['israel-gaza-conflict']);
 
-export interface AppraisalItem {
-  stance: AppraisalStance;
-  text: LocalisedText;
-  /** False for every shipped profile: the dataset carries no appraisal sources. */
-  sourced: boolean;
-}
-
 function countSources(sources: unknown): { total: number; linked: number } {
   if (!Array.isArray(sources)) return { total: 0, linked: 0 };
   let linked = 0;
@@ -106,23 +93,6 @@ export function isOngoingWar(
   if (!war) return false;
   if (war.warId && ONGOING_WAR_IDS.has(war.warId)) return true;
   return typeof war.endYear === 'number' && war.endYear >= YEAR_MAX;
-}
-
-/** Collapse supporter / critic / objective into one appraisal list. */
-export function appraisalItems(profile: PersonProfile | null): AppraisalItem[] {
-  const evaluation: PersonEvaluation | undefined = profile?.evaluation;
-  if (!evaluation) return [];
-  return APPRAISAL_STANCES.flatMap((stance) => {
-    const text = evaluation[stance];
-    if (!text?.zh && !text?.en) return [];
-    return [
-      {
-        stance,
-        text,
-        sourced: (evaluation.sources?.[stance]?.length ?? 0) > 0,
-      },
-    ];
-  });
 }
 
 export function personProvenance(profile: PersonProfile | null): Provenance {

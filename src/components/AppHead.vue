@@ -4,14 +4,13 @@ import { useTimelineStore } from '@/stores/timeline';
 import { useUiStore } from '@/stores/ui';
 import type { ViewMode } from '@/types';
 
-const emit = defineEmits<{ resetView: []; openStory: []; openAbout: [] }>();
+const emit = defineEmits<{ resetView: []; openStory: []; openSettings: []; openSearch: [] }>();
 
 const ui = useUiStore();
 const timeline = useTimelineStore();
 
-const views: { id: ViewMode; key: 'nav.explore' | 'nav.compare' | 'nav.atlas' }[] = [
+const views: { id: ViewMode; key: 'nav.explore' | 'nav.atlas' }[] = [
   { id: 'explore', key: 'nav.explore' },
-  { id: 'compare', key: 'nav.compare' },
   { id: 'atlas', key: 'nav.atlas' },
 ];
 
@@ -39,7 +38,7 @@ const eraText = computed(() => (ui.locale === 'zh' ? timeline.era.name : timelin
     </nav>
 
     <!-- Renderer switch: only meaningful while exploring, since the comparison
-         board has no 3D/2D distinction. -->
+         view is a fixed flat plate. -->
     <div v-if="ui.view === 'explore'" class="stages" role="group">
       <button :class="{ on: ui.stage === '3d' }" @click="ui.setStage('3d')">
         {{ ui.t('stage.3d') }}
@@ -53,8 +52,36 @@ const eraText = computed(() => (ui.locale === 'zh' ? timeline.era.name : timelin
       <span class="folio cap">{{ ui.t('head.folio') }} {{ yearText }}</span>
       <span class="era">{{ eraText }}</span>
       <span class="rule" />
-      <button class="about" @click="emit('openAbout')">{{ ui.t('nav.about') }}</button>
-      <button class="ghost" :title="ui.t('card.flyTo')" @click="emit('resetView')">
+      <button
+        class="ghost"
+        :title="ui.t('search.open')"
+        :aria-label="ui.t('search.open')"
+        @click="emit('openSearch')"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="10.5" cy="10.5" r="6.2" />
+          <path d="m15.2 15.2 4.8 4.8" />
+        </svg>
+      </button>
+      <button
+        class="ghost"
+        :title="ui.t('settings.open')"
+        :aria-label="ui.t('settings.open')"
+        @click="emit('openSettings')"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="3.2" />
+          <path
+            d="M12 2.6v2.6M12 18.8v2.6M2.6 12h2.6M18.8 12h2.6M5.4 5.4l1.8 1.8M16.8 16.8l1.8 1.8M18.6 5.4l-1.8 1.8M7.2 16.8l-1.8 1.8"
+          />
+        </svg>
+      </button>
+      <button
+        class="ghost"
+        :title="ui.t('head.resetView')"
+        :aria-label="ui.t('head.resetView')"
+        @click="emit('resetView')"
+      >
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <circle cx="12" cy="12" r="9" />
           <ellipse cx="12" cy="12" rx="4" ry="9" />
@@ -129,12 +156,6 @@ nav button.on {
   color: var(--ink);
   border-bottom-color: var(--rust);
 }
-nav button.about {
-  color: var(--ink-3);
-  border-left: 1px solid var(--rule-2);
-  margin-left: 4px;
-  padding-left: 13px;
-}
 
 .stages {
   display: flex;
@@ -177,18 +198,6 @@ nav button.about {
   width: 1px;
   height: 15px;
   background: var(--rule-2);
-}
-.about {
-  padding: 4px 9px;
-  font-size: 12.5px;
-  letter-spacing: 0.08em;
-  color: var(--ink-2);
-  border: 1px solid var(--rule);
-  transition: color var(--dur) var(--ease), border-color var(--dur) var(--ease);
-}
-.about:hover {
-  color: var(--ink);
-  border-color: var(--rule-3);
 }
 .ghost {
   width: 28px;

@@ -1,8 +1,10 @@
 import type { Feature, FeatureCollection } from 'geojson';
 import * as maplibregl from 'maplibre-gl';
 import { BASEMAPS, INITIAL_VIEW, type BaseKind } from '@/config';
+import { formatYearCompact } from '@/lib/format';
 import { neutralizeModernBoundaries, normalizeModernCountries } from '@/lib/modernBorders';
 import { labelAnchor } from '@/lib/polityScope';
+import type { TrailScene } from '@/lib/trajectory';
 import type { HoverInfo, WarMarker } from '@/services/globe';
 import { fetchOptionalJson } from '@/services/http';
 import type { Locale, PolityFeature, TimelineEvent } from '@/types';
@@ -136,7 +138,14 @@ export class Map2D {
   private pendingEvents: TimelineEvent[] = [];
   private pendingPolities: PolityFeature[] = [];
   /** Stops of the open person's route, kept so a style swap can redraw them. */
-  private pendingTrajectory: Array<{ lon: number; lat: number }> = [];
+  private pendingTrajectory: TrailScene | null = null;
+  /** The small account card for a clicked trail stop. */
+  private trailPopup: maplibregl.Popup | null = null;
+  /** A frame request that arrived before the style was ready. */
+  private pendingFit: {
+    bounds: [[number, number], [number, number]];
+    padding: maplibregl.PaddingOptions;
+  } | null = null;
   /**
    * The story region stays pending for the same reason: the map may be re-created
    * by a stage or basemap switch before its style is ready, so the region is
@@ -179,6 +188,9 @@ export class Map2D {
   private labelItems: { text: string; lon: number; lat: number; weight: number }[] = [];
   /** War names, gated by the labels switch like the globe's war labels. */
   private warLabelItems: { text: string; lon: number; lat: number }[] = [];
+  /** Event titles, gated by the same switch as the globe's event captions. */
+  private eventLabelItems: { text: string; lon: number; lat: number }[] = [];
+  private eventLabelsOn = true;
   private labelsOn = true;
   private labelLocale: Locale = 'zh';
   private labelFrame = 0;
@@ -216,9 +228,10 @@ export class Map2D {
       this.ready = true;
       this.addLayers();
       this.applyStyle();
-      this.renderEvents(this.pendingEvents, { labels: true });
+      this.renderEvents(this.pendingEvents, { labels: this.eventLabelsOn });
       this.renderPolities(this.pendingPolities, {});
       this.renderTrajectory(this.pendingTrajectory);
+      if (this.pendingFit) this.fitTrail(this.pendingFit.bounds, this.pendingFit.padding);
       this.repaintWars();
       callbacks.onViewChange?.();
     });
@@ -305,32 +318,90 @@ export class Map2D {
     });
 
     /*
-     * One person's life path, above the events so the route is never buried.
-     * Line and nodes share a source and are separated by geometry type.
+     * The open life path, above the events so the route is never buried.
+     *
+     * One source, three feature kinds. Colour and radius travel on each feature
+     * so a single life can ramp from early to late and a comparison can colour
+     * each person differently without adding a source per person.
      */
     map.addSource('person-route', { type: 'geojson', data: EMPTY });
+    map.addLayer({
+      id: 'person-route-casing',
+      type: 'line',
+      source: 'person-route',
+      filter: ['==', ['get', 'kind'], 'segment'],
+      layout: { 'line-cap': 'round', 'line-join': 'round' },
+      paint: {
+        'line-color': css('--paper', '#f7f5f0'),
+        'line-width': 5,
+        'line-opacity': 0.7,
+      },
+    });
     map.addLayer({
       id: 'person-route-line',
       type: 'line',
       source: 'person-route',
-      filter: ['==', ['geometry-type'], 'LineString'],
+      filter: ['==', ['get', 'kind'], 'segment'],
+      layout: { 'line-cap': 'round', 'line-join': 'round' },
       paint: {
-        'line-color': css('--rust', '#b0522d'),
-        'line-width': 2,
-        'line-dasharray': [2, 1.5],
-        'line-opacity': 0.85,
+        'line-color': ['get', 'color'],
+        'line-width': 2.2,
+        'line-opacity': 0.92,
+      },
+    });
+    /*
+     * Station markers have to read differently from ordinary event dots, which
+     * are small flat circles in the same palette. The trail draws a soft paper
+     * halo, a thick rim and a pale centre, so it looks struck into the map
+     * rather than plotted on it.
+     */
+    map.addLayer({
+      id: 'person-route-node-halo',
+      type: 'circle',
+      source: 'person-route',
+      filter: ['==', ['get', 'kind'], 'node'],
+      paint: {
+        'circle-radius': ['+', ['get', 'radius'], 4.5],
+        'circle-color': css('--paper', '#f7f5f0'),
+        'circle-opacity': 0.55,
+        'circle-blur': 0.6,
       },
     });
     map.addLayer({
       id: 'person-route-node',
       type: 'circle',
       source: 'person-route',
-      filter: ['==', ['geometry-type'], 'Point'],
+      filter: ['==', ['get', 'kind'], 'node'],
       paint: {
-        'circle-radius': 4.5,
-        'circle-color': css('--rust', '#b0522d'),
+        'circle-radius': ['get', 'radius'],
+        'circle-color': ['get', 'color'],
         'circle-stroke-color': css('--paper', '#f7f5f0'),
-        'circle-stroke-width': 1.6,
+        'circle-stroke-width': 2.2,
+        'circle-opacity': 0.96,
+      },
+    });
+    map.addLayer({
+      id: 'person-route-node-core',
+      type: 'circle',
+      source: 'person-route',
+      filter: ['==', ['get', 'kind'], 'node'],
+      paint: {
+        'circle-radius': 2.2,
+        'circle-color': css('--paper', '#f7f5f0'),
+        'circle-opacity': 0.95,
+      },
+    });
+    map.addLayer({
+      id: 'person-route-head',
+      type: 'circle',
+      source: 'person-route',
+      filter: ['==', ['get', 'kind'], 'head'],
+      paint: {
+        'circle-radius': 10,
+        'circle-color': ['get', 'color'],
+        'circle-opacity': 0.25,
+        'circle-stroke-color': ['get', 'color'],
+        'circle-stroke-width': 2,
       },
     });
 
@@ -461,16 +532,30 @@ export class Map2D {
       this.ready = true;
       this.addLayers();
       this.applyStyle();
-      this.renderEvents(this.pendingEvents, { labels: true });
+      this.renderEvents(this.pendingEvents, { labels: this.eventLabelsOn });
       this.renderPolities(this.pendingPolities, {});
       this.renderTrajectory(this.pendingTrajectory);
     });
     map.setStyle(baseStyle(kind));
   }
 
-  renderEvents(events: TimelineEvent[], _opts: { labels: boolean }) {
+  renderEvents(events: TimelineEvent[], opts: { labels: boolean }) {
     this.pendingEvents = events;
+    this.eventLabelsOn = opts.labels;
     this.eventIndex.clear();
+
+    // Same cap as the globe: a busy year would otherwise bury the map in text.
+    const labelItems: { text: string; lon: number; lat: number }[] = [];
+    if (opts.labels) {
+      for (const ev of events) {
+        if (labelItems.length >= 10) break;
+        if (ev.lon === null || ev.lat === null) continue;
+        labelItems.push({ text: ev.title, lon: ev.lon, lat: ev.lat });
+      }
+    }
+    this.eventLabelItems = labelItems;
+    this.queueLabels();
+
     const map = this.map;
     if (!map || !this.ready) return;
     const features: GeoJSON.Feature[] = [];
@@ -492,43 +577,88 @@ export class Map2D {
   }
 
   /**
-   * Draw one person's life path.
+   * Draw the open life path as the scene the model produced.
    *
-   * The same stops already feed the 3D globe; on the flat map they are a dashed
-   * line through the life stages, because a solid line at this scale competes
-   * with the polity borders it runs across.
+   * The scene already applied the time cursor, so this is a straight conversion
+   * to GeoJSON; a leg cut at the cursor arrives as a shorter segment.
    */
-  renderTrajectory(stops: Array<{ lon: number; lat: number }>) {
-    this.pendingTrajectory = stops;
+  renderTrajectory(scene: TrailScene | null) {
+    this.pendingTrajectory = scene;
     const map = this.map;
     if (!map || !this.ready) return;
+    const source = map.getSource('person-route') as maplibregl.GeoJSONSource | undefined;
+    if (!scene) {
+      source?.setData(EMPTY);
+      return;
+    }
 
-    const features: GeoJSON.Feature[] = stops.map((stop) => ({
-      type: 'Feature',
-      geometry: { type: 'Point', coordinates: [stop.lon, stop.lat] },
-      properties: {},
-    }));
-
-    if (stops.length > 1) {
-      features.unshift({
+    const features: Feature[] = [];
+    for (const segment of scene.segments) {
+      features.push({
         type: 'Feature',
-        geometry: {
-          type: 'LineString',
-          coordinates: stops.map((stop) => [stop.lon, stop.lat]),
+        geometry: { type: 'LineString', coordinates: segment.coords },
+        properties: { kind: 'segment', color: segment.color, personId: segment.personId },
+      });
+    }
+    for (const node of scene.nodes) {
+      features.push({
+        type: 'Feature',
+        geometry: { type: 'Point', coordinates: [node.lon, node.lat] },
+        properties: {
+          kind: 'node',
+          color: node.color,
+          radius: node.radius,
+          personId: node.personId,
+          personName: node.personName,
+          personNameEn: node.personNameEn,
+          index: node.index,
+          year: node.year,
+          yearEnd: node.yearEnd,
+          place: node.place,
+          placeEn: node.placeEn,
+          title: node.title,
+          titleEn: node.titleEn,
         },
-        properties: {},
+      });
+    }
+    for (const head of scene.heads) {
+      features.push({
+        type: 'Feature',
+        geometry: { type: 'Point', coordinates: [head.lon, head.lat] },
+        properties: { kind: 'head', color: head.color, personId: head.personId },
       });
     }
 
-    const source = map.getSource('person-route') as maplibregl.GeoJSONSource | undefined;
-    source?.setData({ type: 'FeatureCollection', features });
+    source?.setData({ type: 'FeatureCollection', features } as FeatureCollection);
   }
 
   clearTrajectory() {
-    this.pendingTrajectory = [];
+    this.pendingTrajectory = null;
+    this.pendingFit = null;
+    this.trailPopup?.remove();
+    this.trailPopup = null;
     const map = this.map;
     if (!map || !this.ready) return;
     (map.getSource('person-route') as maplibregl.GeoJSONSource | undefined)?.setData(EMPTY);
+  }
+
+  /**
+   * Frame the ground the person actually walked.
+   *
+   * `padding` keeps the route clear of the person card on the left and the
+   * lifeline drawer at the bottom.
+   */
+  fitTrail(
+    bounds: [[number, number], [number, number]],
+    padding: maplibregl.PaddingOptions = { top: 90, bottom: 300, left: 360, right: 90 },
+  ) {
+    const map = this.map;
+    if (!map || !this.ready) {
+      this.pendingFit = { bounds, padding };
+      return;
+    }
+    this.pendingFit = null;
+    map.fitBounds(bounds, { padding, duration: 700, maxZoom: 6.5 });
   }
 
   /* ── story region ────────────────────────────────────────────────────── */
@@ -857,7 +987,7 @@ export class Map2D {
     const host = this.ensureLabelHost();
     if (!map || !host) return;
 
-    if (!this.labelsOn && !this.warLabelItems.length) {
+    if (!this.labelsOn && !this.eventLabelItems.length && !this.warLabelItems.length) {
       host.style.display = 'none';
       return;
     }
@@ -874,6 +1004,11 @@ export class Map2D {
         if (used >= limit) break;
         if (this.placeLabel(item, used, placed, 0, 'polity-label')) used += 1;
       }
+    }
+
+    // Event titles: the same ten captions the globe draws, lifted off their dot.
+    for (const item of this.eventLabelItems) {
+      if (this.placeLabel(item, used, placed, -14, 'polity-label event-label')) used += 1;
     }
 
     // Up to 18 theatres, the same cap as the globe; the active war sorts first.
@@ -1054,9 +1189,64 @@ export class Map2D {
     return { lon: center.lng, lat: center.lat, zoom: map.getZoom() };
   }
 
+  /** A clicked stop: the year, the place and what happened there. */
+  private showTrailPopup(hit: maplibregl.MapGeoJSONFeature, at: maplibregl.LngLat) {
+    const map = this.map;
+    if (!map) return;
+    const props = hit.properties ?? {};
+    const en = this.labelLocale === 'en';
+    const who = String((en ? props.personNameEn : props.personName) || props.personName || '');
+    const place = String((en ? props.placeEn : props.place) || props.place || '');
+    const title = String((en ? props.titleEn : props.title) || props.title || '');
+    const year = Number(props.year);
+    const yearEnd = Number(props.yearEnd ?? props.year);
+    const years = Number.isFinite(year)
+      ? `${formatYearCompact(year, this.labelLocale)}${
+          yearEnd !== year ? ` – ${formatYearCompact(yearEnd, this.labelLocale)}` : ''
+        }`
+      : '';
+    const stay =
+      Number.isFinite(year) && yearEnd > year
+        ? en
+          ? `${yearEnd - year} yr`
+          : `停留 ${yearEnd - year} 年`
+        : '';
+    const meta = stay ? `${years} · ${stay}` : years;
+
+    this.trailPopup?.remove();
+    this.trailPopup = new maplibregl.Popup({
+      closeButton: true,
+      closeOnClick: false,
+      offset: 12,
+      maxWidth: '280px',
+    })
+      .setLngLat(at)
+      .setHTML(
+        `<div style="font-family:inherit;color:#3f4145">
+          <div style="font-size:11px;letter-spacing:.05em;color:#8a7a5c">${escapeHtml(meta)}</div>
+          ${who ? `<div style="font-size:11px;color:${escapeHtml(String(props.color || '#8a7a5c'))};margin-top:2px">${escapeHtml(who)}</div>` : ''}
+          <div style="font-weight:600;font-size:13px;margin:2px 0 3px">${escapeHtml(place)}</div>
+          <div style="font-size:12px;line-height:1.55;color:#63666b">${escapeHtml(title)}</div>
+        </div>`,
+      )
+      .addTo(map);
+  }
+
   private handleClick(e: maplibregl.MapMouseEvent) {
     const map = this.map;
     if (!map) return;
+
+    // The open route owns the click: a stop is a specific place in a life.
+    if (map.getLayer('person-route-node')) {
+      const stop = map.queryRenderedFeatures(e.point, { layers: ['person-route-node'] })[0];
+      if (stop) {
+        this.showTrailPopup(stop, e.lngLat);
+        return;
+      }
+    }
+    this.trailPopup?.remove();
+    this.trailPopup = null;
+
     const hits = map.queryRenderedFeatures(e.point, {
       layers: ['events', 'wars', 'polities-fill'],
     });
@@ -1094,6 +1284,15 @@ export class Map2D {
   private handleHover(e: maplibregl.MapMouseEvent) {
     const map = this.map;
     if (!map) return;
+    if (
+      map.getLayer('person-route-node') &&
+      map.queryRenderedFeatures(e.point, { layers: ['person-route-node'] }).length
+    ) {
+      this.setPolityHover(null);
+      this.callbacks.onHoverEvent?.(null);
+      map.getCanvas().style.cursor = 'pointer';
+      return;
+    }
     const hits = map.queryRenderedFeatures(e.point, {
       layers: ['events', 'wars', 'polities-fill'],
     });
@@ -1137,6 +1336,8 @@ export class Map2D {
   destroy() {
     this.resizeObserver?.disconnect();
     this.resizeObserver = null;
+    this.trailPopup?.remove();
+    this.trailPopup = null;
     if (this.labelFrame) cancelAnimationFrame(this.labelFrame);
     this.labelFrame = 0;
     this.cancelStoryRoute();
@@ -1152,6 +1353,15 @@ export class Map2D {
     this.ready = false;
     this.hoveredPolityId = null;
   }
+}
+
+/** Popup bodies are assembled as HTML, so every dataset string is escaped. */
+function escapeHtml(value: string): string {
+  return value.replace(
+    /[&<>"']/g,
+    (char) =>
+      ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char] ?? char,
+  );
 }
 
 async function fetchCollection(url: string): Promise<FeatureCollection | null> {

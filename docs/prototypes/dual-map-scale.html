@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>双地图尺度口径原型 · A/B/C</title>
+<style>
+  :root {
+    --paper: #f7f5f0;
+    --paper-2: #f1ede4;
+    --card: #fffdf8;
+    --ink: #1a1c20;
+    --ink-2: #4c4f56;
+    --ink-3: #7c7a72;
+    --ink-4: #a9a396;
+    --rule: #ddd6c8;
+    --rule-2: #cdc4b2;
+    --rust: #b0522d;
+    --indigo: #26406b;
+    --olive: #5d6b3a;
+    --ochre: #b1842c;
+    --teal: #2f6b63;
+    --violet: #6a4a78;
+    --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    --serif: "Songti SC", "Noto Serif SC", "Source Han Serif SC", Georgia, serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font: 13px/1.6 "Inter", "Noto Sans SC", "PingFang SC", system-ui, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  button, select { font: inherit; color: inherit; }
+
+  /* ── 顶栏 ─────────────────────────────────────────────── */
+  header.top {
+    padding: 14px 20px 12px;
+    border-bottom: 2px solid var(--ink);
+    background: var(--paper);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 10px 18px;
+  }
+  .title { margin-right: auto; }
+  .title h1 {
+    margin: 0;
+    font-family: var(--serif);
+    font-size: 21px;
+    letter-spacing: 0.06em;
+    font-weight: 600;
+  }
+  .title p { margin: 2px 0 0; font-size: 11.5px; color: var(--ink-3); letter-spacing: 0.04em; }
+  .modes { display: flex; gap: 0; border: 1px solid var(--ink); }
+  .modes button {
+    border: 0;
+    background: var(--card);
+    padding: 7px 12px;
+    cursor: pointer;
+    border-right: 1px solid var(--ink);
+    font-size: 12.5px;
+    letter-spacing: 0.02em;
+  }
+  .modes button:last-child { border-right: 0; }
+  .modes button.on { background: var(--ink); color: var(--paper); }
+  .modes button small { display: block; font-size: 10px; opacity: 0.72; letter-spacing: 0.06em; }
+  .ctl { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--ink-2); }
+  .ctl select {
+    border: 1px solid var(--rule-2);
+    background: var(--card);
+    padding: 4px 6px;
+    font-size: 12.5px;
+  }
+  .ghostbtn {
+    border: 1px solid var(--rule-2);
+    background: var(--card);
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  .ghostbtn:hover { border-color: var(--ink); }
+  .submodes { display: none; gap: 0; border: 1px solid var(--ink); }
+  .submodes.show { display: flex; }
+  .submodes button {
+    border: 0; border-right: 1px solid var(--ink);
+    background: var(--card); padding: 6px 10px; cursor: pointer; font-size: 12px;
+  }
+  .submodes button:last-child { border-right: 0; }
+  .submodes button.on { background: var(--rust); color: var(--paper); }
+
+  /* ── 地图区 ───────────────────────────────────────────── */
+  main { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+  .maps {
+    flex: 1;
+    min-height: 380px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    border-bottom: 1px solid var(--ink);
+  }
+  .maps > * + * { border-left: 1px solid var(--ink); }
+  .panel { display: flex; flex-direction: column; min-width: 0; min-height: 0; background: var(--paper); }
+  .phead {
+    display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;
+    padding: 8px 12px 7px;
+    border-bottom: 1px solid var(--rule-2);
+    background: var(--paper-2);
+  }
+  .phead .side {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em; color: var(--ink-4);
+  }
+  .phead h2 { margin: 0; font-family: var(--serif); font-size: 16px; font-weight: 600; }
+  .phead .yr { font-family: var(--mono); font-size: 12px; color: var(--ink-2); }
+  .phead .grow { flex: 1; }
+  .badge {
+    font-size: 10.5px; letter-spacing: 0.06em;
+    border: 1px solid var(--rule-2);
+    padding: 1px 6px;
+    color: var(--ink-3);
+    background: var(--card);
+  }
+  .badge.on { border-color: var(--olive); color: var(--olive); }
+  .badge.off { border-color: var(--rust); color: var(--rust); }
+  .canvaswrap { position: relative; flex: 1; min-height: 0; overflow: hidden; }
+  canvas { display: block; width: 100%; height: 100%; cursor: grab; }
+  canvas.dragging { cursor: grabbing; }
+  .overlay {
+    position: absolute; left: 10px; bottom: 10px;
+    display: flex; flex-direction: column; gap: 4px;
+    font-size: 10.5px; color: var(--ink-3);
+    pointer-events: none;
+    max-width: 62%;
+  }
+  .overlay .bar {
+    display: flex; align-items: center; gap: 6px;
+    background: color-mix(in srgb, var(--card) 82%, transparent);
+    border: 1px solid var(--rule);
+    padding: 3px 7px;
+    width: fit-content;
+  }
+  .overlay .bar i { display: block; height: 5px; border-left: 1px solid var(--ink); border-right: 1px solid var(--ink); }
+  .overlay .warcap {
+    font-size: 10.5px; color: var(--rust);
+    background: color-mix(in srgb, var(--card) 82%, transparent);
+    border: 1px solid color-mix(in srgb, var(--rust) 30%, transparent);
+    padding: 2px 6px;
+    width: fit-content;
+  }
+  .overlay .warcap:empty { display: none; }
+  .resetview {
+    position: absolute; right: 10px; top: 10px;
+    font-size: 10.5px; padding: 3px 7px;
+    border: 1px solid var(--rule-2); background: var(--card); cursor: pointer;
+    display: none;
+  }
+  .resetview.show { display: block; }
+  .loading {
+    position: absolute; inset: 0; display: grid; place-items: center;
+    background: color-mix(in srgb, var(--paper) 76%, transparent);
+    font-size: 12px; color: var(--ink-3); letter-spacing: 0.08em;
+  }
+
+  /* ── 读数与说明 ───────────────────────────────────────── */
+  .south {
+    display: grid;
+    grid-template-columns: 1.05fr 1fr;
+    background: var(--paper-2);
+  }
+  .south > * + * { border-left: 1px solid var(--rule-2); }
+  .readout { padding: 10px 16px 12px; }
+  .readout h3, .notes h3 {
+    margin: 0 0 6px;
+    font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-4);
+  }
+  table.figs { width: 100%; border-collapse: collapse; font-size: 11.5px; }
+  table.figs td { padding: 2px 0; border-bottom: 1px dotted var(--rule); }
+  table.figs td.k { color: var(--ink-3); }
+  table.figs td.v { text-align: right; font-family: var(--mono); color: var(--ink); }
+  table.figs td.v em { font-style: normal; color: var(--rust); }
+  .notes { padding: 10px 16px 12px; display: grid; grid-template-columns: 1fr 1fr; gap: 0 14px; }
+  .notes h3 { grid-column: 1 / -1; }
+  .notes .col h4 {
+    margin: 0 0 3px; font-size: 11.5px; letter-spacing: 0.06em;
+    display: flex; align-items: center; gap: 5px;
+  }
+  .notes .col h4 i { width: 7px; height: 7px; display: block; }
+  .notes .col.yes h4 { color: var(--olive); }
+  .notes .col.yes h4 i { background: var(--olive); }
+  .notes .col.no h4 { color: var(--rust); }
+  .notes .col.no h4 i { background: var(--rust); }
+  .notes ul { margin: 0; padding-left: 15px; font-size: 11.5px; color: var(--ink-2); }
+  .notes li { margin: 1px 0; }
+  .caveat {
+    grid-column: 1 / -1;
+    margin-top: 8px; padding-top: 6px; border-top: 1px dotted var(--rule);
+    font-size: 11px; color: var(--ink-3);
+  }
+  footer.foot {
+    padding: 7px 16px 9px; border-top: 1px solid var(--rule);
+    font-size: 11px; color: var(--ink-3);
+    display: flex; gap: 14px; flex-wrap: wrap;
+  }
+  footer.foot code { font-family: var(--mono); background: var(--paper-2); padding: 0 4px; }
+  .fatal {
+    position: fixed; inset: 0; display: grid; place-items: center;
+    background: color-mix(in srgb, var(--paper) 94%, transparent);
+    padding: 40px; text-align: center; z-index: 50;
+  }
+  .fatal .box { max-width: 620px; border: 1px solid var(--rust); background: var(--card); padding: 22px 26px; }
+  .fatal h2 { margin: 0 0 8px; font-family: var(--serif); font-size: 19px; color: var(--rust); }
+  .fatal p { margin: 6px 0; font-size: 12.5px; color: var(--ink-2); }
+  .fatal code { font-family: var(--mono); background: var(--paper-2); padding: 2px 5px; }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="title">
+    <h1>双地图尺度口径 · 原型</h1>
+    <p>同一份真实政区与战争数据 · A 锁定同窗 / B 同比例尺各自取景 / C 可切换</p>
+  </div>
+
+  <div class="modes" role="group" aria-label="尺度口径">
+    <button data-mode="A" class="on">A 锁定同窗<small>同中心 · 同缩放</small></button>
+    <button data-mode="B">B 同比例尺<small>各自取景到主体</small></button>
+    <button data-mode="C">C 可切换<small>两种互相切换</small></button>
+  </div>
+
+  <div class="submodes" id="submodes" role="group" aria-label="C 的子口径">
+    <button data-sub="A" class="on">C→A 同窗</button>
+    <button data-sub="B">C→B 各自</button>
+  </div>
+
+  <div class="ctl">
+    <label>左 <select id="yearA"></select></label>
+    <label>右 <select id="yearB"></select></label>
+  </div>
+
+  <label class="ctl"><input type="checkbox" id="wars" checked /> 战争</label>
+  <button class="ghostbtn" id="reset">重置取景</button>
+</header>
+
+<main>
+  <div class="maps">
+    <section class="panel" id="panel-A">
+      <div class="phead">
+        <span class="side">A</span>
+        <h2 id="name-A">—</h2>
+        <span class="yr" id="yearLabel-A"></span>
+        <span class="grow"></span>
+        <span class="badge" id="frame-A">取景：同窗</span>
+        <span class="badge on" id="scale-A">比例尺同步</span>
+      </div>
+      <div class="canvaswrap">
+        <canvas id="cv-A"></canvas>
+        <button class="resetview" id="recenter-A">回到主体取景</button>
+        <div class="overlay">
+          <span class="bar"><i id="bar-A"></i><span id="barText-A">—</span></span>
+          <span id="warText-A" class="warcap"></span>
+          <span id="hint-A">拖动平移 · 滚轮缩放</span>
+        </div>
+        <div class="loading" id="loading-A">载入政区…</div>
+      </div>
+    </section>
+
+    <section class="panel" id="panel-B">
+      <div class="phead">
+        <span class="side">B</span>
+        <h2 id="name-B">—</h2>
+        <span class="yr" id="yearLabel-B"></span>
+        <span class="grow"></span>
+        <span class="badge" id="frame-B">取景：同窗</span>
+        <span class="badge on" id="scale-B">比例尺同步</span>
+      </div>
+      <div class="canvaswrap">
+        <canvas id="cv-B"></canvas>
+        <button class="resetview" id="recenter-B">回到主体取景</button>
+        <div class="overlay">
+          <span class="bar"><i id="bar-B"></i><span id="barText-B">—</span></span>
+          <span id="warText-B" class="warcap"></span>
+          <span id="hint-B">拖动平移 · 滚轮缩放</span>
+        </div>
+        <div class="loading" id="loading-B">载入政区…</div>
+      </div>
+    </section>
+  </div>
+
+  <div class="south">
+    <section class="readout">
+      <h3>本屏读数（同一次渲染）</h3>
+      <table class="figs">
+        <tr><td class="k">比例尺</td><td class="v" id="fig-scale">—</td></tr>
+        <tr><td class="k">本屏东西宽（赤道口径）</td><td class="v" id="fig-width">—</td></tr>
+        <tr><td class="k">左主体占屏宽 / 右主体占屏宽</td><td class="v" id="fig-occupy">—</td></tr>
+        <tr><td class="k">左主体在屏内中心 / 右主体在屏内中心</td><td class="v" id="fig-screen">—</td></tr>
+        <tr><td class="k">两主体中心实际相距</td><td class="v" id="fig-distance">—</td></tr>
+        <tr><td class="k">主体完整入屏</td><td class="v" id="fig-fit">—</td></tr>
+        <tr><td class="k">左主体纬度处 1°经度实际长</td><td class="v" id="fig-lonkm">—</td></tr>
+      </table>
+    </section>
+
+    <section class="notes" id="notes">
+      <h3 id="notesTitle">口径 A 能回答什么</h3>
+      <div class="col yes"><h4><i></i>适合回答</h4><ul id="suit"></ul></div>
+      <div class="col no"><h4><i></i>不适合回答</h4><ul id="unsuit"></ul></div>
+      <p class="caveat" id="caveat"></p>
+    </section>
+  </div>
+
+  <footer class="foot">
+    <span>数据：<code>public/ne/polities/*.lod.json</code>（政区）、<code>public/wars/profiles/*</code>（战争点位与战役坐标）</span>
+    <span>投影：等距圆柱（同像素/度）；高纬度经度被拉伸，读数按主体纬度换算</span>
+    <span>快捷键 1 / 2 / 3 切换口径，空格切换 C 的子口径</span>
+  </footer>
+</main>
+
+<script>
+/* ══════════════════════════════════════════════════════════════════════
+   配置与数据
+   ══════════════════════════════════════════════════════════════════════ */
+const POLITIES = '/public/ne/polities/';
+const NAMES_URL = '/public/ne/polity_names_zh.json';
+const WARS = '/public/wars/profiles/';
+
+const YEAR_OPTIONS = [1200, 1300, 1400, 1500, 1600, 1650, 1700, 1800, 1850, 1900];
+const PAD = 54;                 // 取景内边距（px）
+const KM_PER_DEG = 111.32;      // 赤道口径
+const MIN_PX_DEG = 0.32;
+const MAX_PX_DEG = 160;
+
+const state = {
+  mode: 'A',
+  sub: 'A',
+  pxDeg: 6,
+  viewA: { lon: 30, lat: 34 },
+  viewB: { lon: 30, lat: 34 },
+  years: { A: 1650, B: 1850 },
+  subjects: { A: null, B: null },
+  loadedYears: { A: null, B: null },
+  showWars: true,
+  anim: null,
+};
+
+let namesZh = {};
+const centuryIndex = [];
+const centuryCache = new Map();   // file -> prepared features (all years)
+const yearCache = new Map();      // `${file}|${year}` -> filtered prepared
+const warIndexCache = { list: null, locations: null };
+const warProfileCache = new Map();
+
+const panels = {
+  A: {
+    canvas: document.getElementById('cv-A'),
+    loading: document.getElementById('loading-A'),
+    view: state.viewA,
+  },
+  B: {
+    canvas: document.getElementById('cv-B'),
+    loading: document.getElementById('loading-B'),
+    view: state.viewB,
+  },
+};
+
+/* ══════════════════════════════════════════════════════════════════════
+   小工具
+   ══════════════════════════════════════════════════════════════════════ */
+const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+const lerp = (a, b, t) => a + (b - a) * t;
+const easeInOutCubic = (t) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);
+
+function fmt(n, digits = 0) {
+  if (!Number.isFinite(n)) return '—';
+  return n.toLocaleString('zh-CN', { maximumFractionDigits: digits, minimumFractionDigits: digits });
+}
+
+async function loadJSON(url) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`${res.status} ${url}`);
+  return res.json();
+}
+
+function hashString(input) {
+  let h = 2166136261;
+  for (let i = 0; i < input.length; i += 1) {
+    h ^= input.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return Math.abs(h);
+}
+
+const PALETTE = ['#26406b', '#5d6b3a', '#b1842c', '#2f6b63', '#6a4a78', '#b0522d'];
+const fillOf = (name) => PALETTE[hashString(name) % PALETTE.length];
+
+function haversineKm(a, b) {
+  const R = 6371;
+  const toRad = (d) => (d * Math.PI) / 180;
+  const dLat = toRad(b.lat - a.lat);
+  const dLon = toRad(b.lon - a.lon);
+  const s =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(toRad(a.lat)) * Math.cos(toRad(b.lat)) * Math.sin(dLon / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(s));
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   政区数据
+   ══════════════════════════════════════════════════════════════════════ */
+async function loadCenturyIndex() {
+  const raw = await loadJSON(`${POLITIES}index.json`);
+  const list = Array.isArray(raw) ? raw : raw.centuries ?? [];
+  centuryIndex.length = 0;
+  for (const entry of list) {
+    centuryIndex.push({
+      start: entry.start,
+      end: entry.end,
+      file: `${POLITIES}polities_${entry.start}_${entry.end}.lod.json`,
+    });
+  }
+  centuryIndex.sort((a, b) => a.start - b.start);
+}
+
+function centuryFor(year) {
+  return centuryIndex.find((c) => year >= c.start && year < c.end) ?? centuryIndex[centuryIndex.length - 1];
+}
+
+/** 把 GeoJSON 展开成环数组，并预先算好 bbox 与面积（用于选默认主体与标签）。 */
+function prepareFeature(feature) {
+  const props = feature.properties ?? {};
+  const polyType = feature.geometry?.type;
+  if (polyType !== 'Polygon' && polyType !== 'MultiPolygon') return null;
+  const rawRings = polyType === 'Polygon' ? [feature.geometry.coordinates] : feature.geometry.coordinates;
+
+  const rings = [];
+  let west = Infinity;
+  let south = Infinity;
+  let east = -Infinity;
+  let north = -Infinity;
+  for (const poly of rawRings) {
+    if (!Array.isArray(poly)) continue;
+    for (const ring of poly) {
+      if (!Array.isArray(ring) || ring.length < 3) continue;
+      const pts = new Float64Array(ring.length * 2);
+      for (let i = 0; i < ring.length; i += 1) {
+        const lon = ring[i][0];
+        const lat = ring[i][1];
+        pts[i * 2] = lon;
+        pts[i * 2 + 1] = lat;
+        if (lon < west) west = lon;
+        if (lon > east) east = lon;
+        if (lat < south) south = lat;
+        if (lat > north) north = lat;
+      }
+      rings.push(pts);
+    }
+  }
+  if (!rings.length || !Number.isFinite(west)) return null;
+
+  const name = String(props.Name ?? '').trim();
+  return {
+    name,
+    label: namesZh[name] || name,
+    rings,
+    bbox: { west, south, east, north },
+    area: Number(props.Area) || 0,
+    from: props.FromYear,
+    to: props.ToYear,
+  };
+}
+
+async function featuresFor(side) {
+  const year = state.years[side];
+  const century = centuryFor(year);
+  if (!century) return [];
+  const cached = yearCache.get(`${century.file}|${year}`);
+  if (cached) return cached;
+
+  let preparedAll = centuryCache.get(century.file);
+  if (!preparedAll) {
+    const collection = await loadJSON(century.file);
+    preparedAll = [];
+    for (const feature of collection.features ?? []) {
+      const item = prepareFeature(feature);
+      if (item) preparedAll.push(item);
+    }
+    centuryCache.set(century.file, preparedAll);
+  }
+
+  const filtered = preparedAll.filter((f) => {
+    if (f.from !== undefined && f.from > year) return false;
+    if (f.to !== undefined && f.to < year) return false;
+    return true;
+  });
+  yearCache.set(`${century.file}|${year}`, filtered);
+  return filtered;
+}
+
+function bboxCenter(bbox) {
+  return { lon: (bbox.west + bbox.east) / 2, lat: (bbox.south + bbox.north) / 2 };
+}
+
+function unionBBox(list) {
+  let west = Infinity;
+  let south = Infinity;
+  let east = -Infinity;
+  let north = -Infinity;
+  for (const b of list) {
+    if (!b) continue;
+    west = Math.min(west, b.west);
+    south = Math.min(south, b.south);
+    east = Math.max(east, b.east);
+    north = Math.max(north, b.north);
+  }
+  if (!Number.isFinite(west)) return null;
+  return { west, south, east, north };
+}
+
+/** 让 bbox 完整落进画布所需的 px/度。 */
+function fitScale(bbox, w, h) {
+  const spanLon = Math.max(0.4, bbox.east - bbox.west);
+  const spanLat = Math.max(0.4, bbox.north - bbox.south);
+  return Math.min((w - PAD * 2) / spanLon, (h - PAD * 2) / spanLat);
+}
+
+const REGION_BOXES = {
+  A: { west: 100, south: 20, east: 126, north: 45 },   // 东亚
+  B: { west: -10, south: 42, east: 12, north: 56 },    // 西欧
+};
+
+function pickDefaultSubject(features, region) {
+  const center = bboxCenter(region);
+  let best = null;
+  let bestScore = -Infinity;
+  for (const f of features) {
+    const c = bboxCenter(f.bbox);
+    const inside = c.lon >= region.west && c.lon <= region.east && c.lat >= region.south && c.lat <= region.north;
+    const dist = haversineKm(center, c);
+    // 区域内优先，其次面积大，再其次离区域中心近
+    const score = (inside ? 1e9 : 0) + Math.log10(Math.max(1, f.area)) * 1e5 - dist;
+    if (score > bestScore) {
+      bestScore = score;
+      best = f;
+    }
+  }
+  return best;
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   战争数据
+   ══════════════════════════════════════════════════════════════════════ */
+function parseCoords(raw) {
+  if (Array.isArray(raw)) {
+    const a = Number(raw[0]);
+    const b = Number(raw[1]);
+    if (!Number.isFinite(a) || !Number.isFinite(b)) return null;
+    // 与 src/lib/geo.ts 同一规则：超过 90 的一侧是经度，否则纬在前
+    if (Math.abs(a) > 90 && Math.abs(b) <= 90) return { lon: a, lat: b };
+    return { lon: b, lat: a };
+  }
+  if (raw && typeof raw === 'object') {
+    const lat = Number(raw.lat ?? raw.latitude ?? raw.Lat);
+    const lon = Number(raw.lon ?? raw.lng ?? raw.long ?? raw.longitude ?? raw.Lon);
+    if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
+    return { lon, lat };
+  }
+  if (typeof raw !== 'string') return null;
+  const nums = raw.match(/-?\d+(?:\.\d+)?/g);
+  if (!nums || nums.length < 2) return null;
+  const a = Number.parseFloat(nums[0]);
+  const b = Number.parseFloat(nums[1]);
+  if (!Number.isFinite(a) || !Number.isFinite(b)) return null;
+  if (Math.abs(a) > 90 && Math.abs(b) <= 90) return { lon: a, lat: b };
+  if (Math.abs(b) > 90 && Math.abs(a) <= 90) return { lon: b, lat: a };
+  return { lon: b, lat: a };
+}
+
+async function ensureWarIndex() {
+  if (warIndexCache.list) return warIndexCache;
+  const [list, locations] = await Promise.all([
+    loadJSON(`${WARS}index.json`),
+    loadJSON(`${WARS}war_locations.json`),
+  ]);
+  warIndexCache.list = list;
+  warIndexCache.locations = locations;
+  return warIndexCache;
+}
+
+async function warForYear(year) {
+  const { list, locations } = await ensureWarIndex();
+  const active = list
+    .filter((w) => locations[w.warId] && Number.isFinite(w.startYear) && Number.isFinite(w.endYear))
+    .filter((w) => year >= w.startYear && year <= w.endYear)
+    .sort((a, b) => (b.totalBattles ?? 0) - (a.totalBattles ?? 0));
+
+  // 不是每个档案都带坐标：逐个试，取第一个至少 3 个战役点的
+  for (const meta of active) {
+    let profile = warProfileCache.get(meta.warId);
+    if (!profile) {
+      try {
+        profile = await loadJSON(`${WARS}${encodeURIComponent(meta.warId)}.json`);
+        warProfileCache.set(meta.warId, profile);
+      } catch {
+        continue;
+      }
+    }
+    const points = [];
+    const pushBattle = (battle, phase) => {
+      const at = parseCoords(battle.coords);
+      if (!at) return;
+      const y = Number(battle.startYear ?? battle.year ?? phase?.startYear ?? 0);
+      points.push({ lon: at.lon, lat: at.lat, year: y, name: battle.name ?? '' });
+    };
+    for (const phase of profile.warProcess?.phases ?? []) {
+      for (const battle of phase.battles ?? []) pushBattle(battle, phase);
+    }
+    for (const battle of profile.battles ?? []) pushBattle(battle, null);
+    if (points.length < 3) continue;
+    return { meta, centre: locations[meta.warId], points };
+  }
+  return null;
+}
+
+/** 单调链凸包；点少于 3 个返回空。 */
+function convexHull(points) {
+  if (points.length < 3) return [];
+  const pts = [...points].sort((p, q) => (p.lon === q.lon ? p.lat - q.lat : p.lon - q.lon));
+  const cross = (o, a, b) => (a.lon - o.lon) * (b.lat - o.lat) - (a.lat - o.lat) * (b.lon - o.lon);
+  const lower = [];
+  for (const p of pts) {
+    while (lower.length >= 2 && cross(lower[lower.length - 2], lower[lower.length - 1], p) <= 0) lower.pop();
+    lower.push(p);
+  }
+  const upper = [];
+  for (let i = pts.length - 1; i >= 0; i -= 1) {
+    const p = pts[i];
+    while (upper.length >= 2 && cross(upper[upper.length - 2], upper[upper.length - 1], p) <= 0) upper.pop();
+    upper.push(p);
+  }
+  lower.pop();
+  upper.pop();
+  const hull = [...lower, ...upper];
+  return hull.length >= 3 ? hull : [];
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   取景计算与过渡
+   ══════════════════════════════════════════════════════════════════════ */
+function canvasSize(side) {
+  const canvas = panels[side].canvas;
+  const rect = canvas.getBoundingClientRect();
+  return { w: Math.max(320, Math.round(rect.width)), h: Math.max(240, Math.round(rect.height)) };
+}
+
+function targetViews(mode) {
+  const { w, h } = canvasSize('A');
+  const a = state.subjects.A;
+  const b = state.subjects.B;
+  const centerA = a ? bboxCenter(a.bbox) : { lon: 20, lat: 30 };
+  const centerB = b ? bboxCenter(b.bbox) : { lon: 20, lat: 30 };
+
+  if (mode === 'A') {
+    const union = unionBBox([a?.bbox, b?.bbox]);
+    if (!union) return { pxDeg: 4, A: centerA, B: centerA };
+    const c = bboxCenter(union);
+    return { pxDeg: clamp(fitScale(union, w, h), MIN_PX_DEG, MAX_PX_DEG), A: c, B: c };
+  }
+
+  const sA = a ? fitScale(a.bbox, w, h) : 4;
+  const sB = b ? fitScale(b.bbox, w, h) : 4;
+  return {
+    pxDeg: clamp(Math.min(sA, sB), MIN_PX_DEG, MAX_PX_DEG),
+    A: centerA,
+    B: centerB,
+  };
+}
+
+function applyTarget(animate = true) {
+  const target = targetViews(state.mode === 'C' ? state.sub : state.mode);
+  if (!animate) {
+    state.pxDeg = target.pxDeg;
+    state.viewA = { ...target.A };
+    state.viewB = { ...target.B };
+    panels.A.view = state.viewA;
+    panels.B.view = state.viewB;
+    requestDraw();
+    return;
+  }
+  const from = {
+    pxDeg: state.pxDeg,
+    A: { ...state.viewA },
+    B: { ...state.viewB },
+  };
+  const start = performance.now();
+  const dur = 520;
+  if (state.anim) cancelAnimationFrame(state.anim.raf);
+
+  const step = (now) => {
+    const t = clamp((now - start) / dur, 0, 1);
+    const e = easeInOutCubic(t);
+    state.pxDeg = lerp(from.pxDeg, target.pxDeg, e);
+    if (state.mode !== 'B' && !(state.mode === 'C' && state.sub === 'B')) {
+      const lon = lerp(from.A.lon, target.A.lon, e);
+      const lat = lerp(from.A.lat, target.A.lat, e);
+      state.viewA = { lon, lat };
+      state.viewB = { lon, lat };
+    } else {
+      state.viewA = { lon: lerp(from.A.lon, target.A.lon, e), lat: lerp(from.A.lat, target.A.lat, e) };
+      state.viewB = { lon: lerp(from.B.lon, target.B.lon, e), lat: lerp(from.B.lat, target.B.lat, e) };
+    }
+    panels.A.view = state.viewA;
+    panels.B.view = state.viewB;
+    draw();
+    if (t < 1) state.anim = { raf: requestAnimationFrame(step) };
+    else {
+      state.anim = null;
+      updateHud();
+    }
+  };
+  state.anim = { raf: requestAnimationFrame(step) };
+}
+
+function isLockedMode() {
+  return state.mode === 'A' || (state.mode === 'C' && state.sub === 'A');
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   渲染
+   ══════════════════════════════════════════════════════════════════════ */
+const renderState = {
+  A: { features: [], war: null },
+  B: { features: [], war: null },
+};
+
+let drawQueued = false;
+function requestDraw() {
+  if (drawQueued) return;
+  drawQueued = true;
+  requestAnimationFrame(() => {
+    drawQueued = false;
+    draw();
+  });
+}
+
+function draw() {
+  for (const side of ['A', 'B']) drawPanel(side);
+  updateHud();
+}
+
+function project(view, pxDeg, w, h, lon, lat) {
+  return [w / 2 + (lon - view.lon) * pxDeg, h / 2 - (lat - view.lat) * pxDeg];
+}
+
+const lonLabel = (v) => `${Math.abs(v)}°${v < 0 ? 'W' : 'E'}`;
+const latLabel = (v) => `${Math.abs(v)}°${v < 0 ? 'S' : 'N'}`;
+
+function drawPanel(side) {
+  const { canvas, view } = panels[side];
+  const { w, h } = canvasSize(side);
+  const dpr = Math.min(2, window.devicePixelRatio || 1);
+  if (canvas.width !== Math.round(w * dpr) || canvas.height !== Math.round(h * dpr)) {
+    canvas.width = Math.round(w * dpr);
+    canvas.height = Math.round(h * dpr);
+  }
+  const ctx = canvas.getContext('2d');
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.clearRect(0, 0, w, h);
+
+  // 纸底色
+  ctx.fillStyle = '#f7f5f0';
+  ctx.fillRect(0, 0, w, h);
+
+  const px = state.pxDeg;
+
+  // 经纬网：每 20°，A 两屏完全一致，B 两屏的取景不同
+  const step = px > 40 ? 5 : px > 12 ? 10 : px > 4 ? 20 : 45;
+  ctx.strokeStyle = 'rgba(26,28,32,0.10)';
+  ctx.fillStyle = 'rgba(26,28,32,0.42)';
+  ctx.lineWidth = 1;
+  ctx.font = '10px ui-monospace, monospace';
+  const lonMin = view.lon - w / 2 / px;
+  const lonMax = view.lon + w / 2 / px;
+  const latMin = view.lat - h / 2 / px;
+  const latMax = view.lat + h / 2 / px;
+  for (let lon = Math.ceil(lonMin / step) * step; lon <= lonMax; lon += step) {
+    const [x] = project(view, px, w, h, lon, view.lat);
+    ctx.beginPath();
+    ctx.moveTo(x, 0);
+    ctx.lineTo(x, h);
+    ctx.stroke();
+    ctx.fillText(lonLabel(lon), x + 3, h - 6);
+  }
+  for (let lat = Math.ceil(latMin / step) * step; lat <= latMax; lat += step) {
+    const [, y] = project(view, px, w, h, view.lon, lat);
+    ctx.beginPath();
+    ctx.moveTo(0, y);
+    ctx.lineTo(w, y);
+    ctx.stroke();
+    ctx.fillText(latLabel(lat), 5, y - 3);
+  }
+
+  // 政区：主体最后画，避免被相邻政区的填充盖住
+  const features = renderState[side].features;
+  const subject = state.subjects[side];
+  const ordered = subject
+    ? [...features.filter((f) => !(f.name === subject.name && f.from === subject.from)), subject]
+    : features;
+  for (const f of ordered) {
+    const b = f.bbox;
+    if (b.east < lonMin || b.west > lonMax || b.north < latMin || b.south > latMax) continue;
+    const isSubject = subject && f.name === subject.name && f.from === subject.from;
+    ctx.beginPath();
+    for (const ring of f.rings) {
+      let lastX = Infinity;
+      let lastY = Infinity;
+      let started = false;
+      for (let i = 0; i < ring.length; i += 2) {
+        const [x, y] = project(view, px, w, h, ring[i], ring[i + 1]);
+        if (!started) {
+          ctx.moveTo(x, y);
+          started = true;
+        } else if (Math.abs(x - lastX) + Math.abs(y - lastY) > 0.9) {
+          ctx.lineTo(x, y);
+        }
+        lastX = x;
+        lastY = y;
+      }
+      ctx.closePath();
+    }
+    ctx.globalAlpha = isSubject ? 0.34 : 0.16;
+    ctx.fillStyle = isSubject ? '#b0522d' : fillOf(f.name);
+    ctx.fill('evenodd');
+    ctx.globalAlpha = isSubject ? 0.95 : 0.5;
+    ctx.strokeStyle = isSubject ? '#8f3d1f' : 'rgba(26,28,32,0.34)';
+    ctx.lineWidth = isSubject ? 1.9 : 0.8;
+    ctx.stroke();
+  }
+  ctx.globalAlpha = 1;
+
+  // 战争：点位 + 凸包
+  const war = renderState[side].war;
+  if (war && state.showWars) {
+    const pts = war.points.filter((p) => p.year <= state.years[side] + 1);
+    const use = pts.length >= 3 ? pts : war.points;
+    const hull = convexHull(use);
+    if (hull.length >= 3) {
+      ctx.beginPath();
+      hull.forEach((p, i) => {
+        const [x, y] = project(view, px, w, h, p.lon, p.lat);
+        if (i === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+      });
+      ctx.closePath();
+      ctx.strokeStyle = 'rgba(176,82,45,0.72)';
+      ctx.lineWidth = 1.6;
+      ctx.setLineDash([5, 4]);
+      ctx.stroke();
+      ctx.setLineDash([]);
+      ctx.fillStyle = 'rgba(176,82,45,0.10)';
+      ctx.fill();
+    }
+    for (const p of use) {
+      const [x, y] = project(view, px, w, h, p.lon, p.lat);
+      if (x < -20 || y < -20 || x > w + 20 || y > h + 20) continue;
+      ctx.beginPath();
+      ctx.moveTo(x, y - 3.4);
+      ctx.lineTo(x + 3.4, y);
+      ctx.lineTo(x, y + 3.4);
+      ctx.lineTo(x - 3.4, y);
+      ctx.closePath();
+      ctx.fillStyle = '#b0522d';
+      ctx.fill();
+      ctx.strokeStyle = '#f7f5f0';
+      ctx.lineWidth = 1;
+      ctx.stroke();
+    }
+  }
+
+  // 主体标签：面积最大的前几个 + 主体本身
+  ctx.font = '600 11px "Noto Sans SC", system-ui, sans-serif';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  const labelled = new Set();
+  const shown = features
+    .filter((f) => f.bbox.east >= lonMin && f.bbox.west <= lonMax && f.bbox.north >= latMin && f.bbox.south <= latMax)
+    .sort((a, b) => b.area - a.area)
+    .slice(0, 9);
+  if (subject) shown.unshift(subject);
+  for (const f of shown) {
+    if (labelled.has(f.name)) continue;
+    labelled.add(f.name);
+    const c = bboxCenter(f.bbox);
+    const [x, y] = project(view, px, w, h, c.lon, c.lat);
+    if (x < 24 || y < 18 || x > w - 24 || y > h - 18) continue;
+    const text = f.label.length > 12 ? `${f.label.slice(0, 11)}…` : f.label;
+    ctx.lineWidth = 3;
+    ctx.strokeStyle = 'rgba(247,245,240,0.86)';
+    ctx.strokeText(text, x, y);
+    ctx.fillStyle = '#1a1c20';
+    ctx.fillText(text, x, y);
+  }
+  ctx.textAlign = 'left';
+  ctx.textBaseline = 'alphabetic';
+
+  // 取景中心十字
+  if (!isLockedMode()) {
+    ctx.strokeStyle = 'rgba(26,28,32,0.45)';
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(w / 2 - 7, h / 2);
+    ctx.lineTo(w / 2 + 7, h / 2);
+    ctx.moveTo(w / 2, h / 2 - 7);
+    ctx.lineTo(w / 2, h / 2 + 7);
+    ctx.stroke();
+  }
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   HUD / 读数 / 说明
+   ══════════════════════════════════════════════════════════════════════ */
+const MODE_NOTES = {
+  A: {
+    title: '口径 A：两边锁死同一中心与缩放',
+    suit: [
+      '两个对象在真实空间里的相对位置：谁在谁的东边、相隔多远',
+      '同一窗口内的相邻关系：接壤、夹在谁与谁之间',
+      '把“同一块地方”的两个年份叠在一起比（同屏同尺度）',
+    ],
+    unsuit: [
+      '相隔很远的两个文明：为了同时装下，两边都缩成小块，细节丢失',
+      '主体本身的疆域形状与内部边界（往往只占屏宽的一小部分）',
+      '单个主体占满屏幕做细读',
+    ],
+  },
+  B: {
+    title: '口径 B：同比例尺，各自取景到主体',
+    suit: [
+      '直接比大小：两侧像素/度相同，屏上面积比就是疆域面积比',
+      '主体形状、边界细节与战区范围（各自都能占满屏幕）',
+      '“谁更大、大多少倍”这类读数',
+    ],
+    unsuit: [
+      '两者的相对位置与距离：两屏窗口不同，方位关系不可见',
+      '跨区域的空间关系（谁挡在谁前面、中间隔着谁）',
+      '把两屏当作同一张地图来读（经纬网已经不同）',
+    ],
+  },
+  C: {
+    title: '口径 C：两种互相切换',
+    suit: [
+      '先 B 看规模，再 A 看位置：同一组主体两种读法互相校验',
+      '给读者演示“为什么只并排两张地图会产生错觉”',
+      '需要临时切换取景的讲述型场景',
+    ],
+    unsuit: [
+      '一眼定论：切换本身需要读者理解正在发生什么',
+      '静态截图：脱离交互后，两种口径的区别看不出来',
+      '对“同尺度”有严格定义要求的学术引用',
+    ],
+  },
+};
+
+function updateModeUi() {
+  document.querySelectorAll('.modes button').forEach((b) => {
+    b.classList.toggle('on', b.dataset.mode === state.mode);
+  });
+  document.getElementById('submodes').classList.toggle('show', state.mode === 'C');
+  document.querySelectorAll('.submodes button').forEach((b) => {
+    b.classList.toggle('on', b.dataset.sub === state.sub);
+  });
+  const effective = state.mode === 'C' ? state.sub : state.mode;
+  const notes = MODE_NOTES[state.mode];
+  document.getElementById('notesTitle').textContent = notes.title;
+  document.getElementById('suit').innerHTML = notes.suit.map((t) => `<li>${t}</li>`).join('');
+  document.getElementById('unsuit').innerHTML = notes.unsuit.map((t) => `<li>${t}</li>`).join('');
+  document.getElementById('caveat').textContent =
+    effective === 'A'
+      ? 'A 的代价是“共同窗口”：两个主体相距越远，两边能看到的细节越少；窗口由两主体的合并范围决定。'
+      : 'B 的代价是“窗口不同”：比例尺一致，但两屏看到的不是同一块地方，经纬网读数也不再对齐。';
+
+  for (const side of ['A', 'B']) {
+    document.getElementById('frame-' + side).textContent = effective === 'A' ? '取景：同窗锁定' : '取景：各自主体';
+    document.getElementById('frame-' + side).classList.toggle('off', effective === 'B');
+    document.getElementById('hint-' + side).textContent =
+      effective === 'A' ? '拖动：两屏一起平移' : '拖动：只移动本屏';
+    document.getElementById('recenter-' + side).classList.toggle('show', effective === 'B');
+  }
+}
+
+function updateHud() {
+  const { w, h } = canvasSize('A');
+  const px = state.pxDeg;
+  const kmPerPx = KM_PER_DEG / px;
+
+  document.getElementById('fig-scale').innerHTML = `${fmt(px, 2)} px/度 · ${fmt(kmPerPx, 2)} km/px<em>（赤道）</em>`;
+  document.getElementById('fig-width').textContent = `${fmt(w / px * KM_PER_DEG)} km × ${fmt(h / px * KM_PER_DEG)} km`;
+
+  const a = state.subjects.A;
+  const b = state.subjects.B;
+  const occ = (s) => {
+    if (!s) return '—';
+    return `${fmt(((s.bbox.east - s.bbox.west) * px) / w * 100)}%`;
+  };
+  document.getElementById('fig-occupy').textContent = `${occ(a)} / ${occ(b)}`;
+
+  const onScreen = (side, s) => {
+    if (!s) return '—';
+    const view = side === 'A' ? state.viewA : state.viewB;
+    const c = bboxCenter(s.bbox);
+    const [x, y] = project(view, px, w, h, c.lon, c.lat);
+    return `${fmt((x / w - 0.5) * 100)}% / ${fmt((y / h - 0.5) * 100)}%`;
+  };
+  document.getElementById('fig-screen').textContent = `${onScreen('A', a)} · ${onScreen('B', b)}`;
+
+  document.getElementById('fig-distance').textContent =
+    a && b ? `${fmt(haversineKm(bboxCenter(a.bbox), bboxCenter(b.bbox)))} km` : '—';
+
+  const fits = (side, s) => {
+    if (!s) return '—';
+    const view = side === 'A' ? state.viewA : state.viewB;
+    const [x1, y1] = project(view, px, w, h, s.bbox.west, s.bbox.north);
+    const [x2, y2] = project(view, px, w, h, s.bbox.east, s.bbox.south);
+    return x1 >= 0 && y1 >= 0 && x2 <= w && y2 <= h ? '是' : '否';
+  };
+  document.getElementById('fig-fit').innerHTML =
+    `${fits('A', a)} / ${fits('B', b)}` +
+    (fits('A', a) === '否' || fits('B', b) === '否' ? ' <em>（被窗口裁掉）</em>' : '');
+
+  const latA = a ? bboxCenter(a.bbox).lat : 0;
+  const kmLon = KM_PER_DEG * Math.cos((latA * Math.PI) / 180);
+  document.getElementById('fig-lonkm').innerHTML =
+    `${fmt(kmLon, 2)} km <em>（纬 ${fmt(latA)}°）</em>`;
+
+  // 比例尺条：取一个整齐的公里数，画成对应像素长
+  for (const side of ['A', 'B']) {
+    const targetPx = Math.min(150, w * 0.32);
+    const km = Math.max(1, Math.round((targetPx * kmPerPx) / 500) * 500);
+    const barPx = (km / KM_PER_DEG) * px;
+    const bar = document.getElementById('bar-' + side);
+    bar.style.width = `${barPx}px`;
+    document.getElementById('barText-' + side).textContent = `${fmt(km)} km`;
+
+    // 战争层：标出这一屏画的是哪场战争、多少个战役点
+    const war = renderState[side].war;
+    document.getElementById('warText-' + side).textContent = !state.showWars
+      ? ''
+      : war
+        ? `战争层：${war.meta.name} · ${war.points.length} 个战役点（凸包仅示意，非实际战线）`
+        : `战争层：${state.years[side]} 年没有带战役坐标的档案`;
+  }
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   交互
+   ══════════════════════════════════════════════════════════════════════ */
+function setMode(mode) {
+  state.mode = mode;
+  updateModeUi();
+  applyTarget(true);
+}
+
+function setSub(sub) {
+  state.sub = sub;
+  updateModeUi();
+  applyTarget(true);
+}
+
+async function refreshSide(side) {
+  const loading = panels[side].loading;
+  loading.style.display = 'grid';
+  try {
+    const features = await featuresFor(side);
+    renderState[side].features = features;
+    state.loadedYears[side] = state.years[side];
+
+    const prev = state.subjects[side];
+    const stillThere = prev && features.some((f) => f.name === prev.name && f.from === prev.from);
+    if (!stillThere) state.subjects[side] = pickDefaultSubject(features, REGION_BOXES[side]);
+
+    try {
+      renderState[side].war = state.showWars ? await warForYear(state.years[side]) : null;
+    } catch {
+      renderState[side].war = null;
+    }
+
+    document.getElementById('name-' + side).textContent = state.subjects[side]?.label ?? '无匹配政区';
+    document.getElementById('yearLabel-' + side).textContent = `${state.years[side]}`;
+  } catch (err) {
+    loading.textContent = `载入失败：${err.message}`;
+    loading.style.display = 'grid';
+    return;
+  }
+  loading.style.display = 'none';
+  requestDraw();
+}
+
+function onWheel(side, e) {
+  e.preventDefault();
+  const before = state.pxDeg;
+  const factor = Math.exp(-e.deltaY * 0.0016);
+  const after = clamp(before * factor, MIN_PX_DEG, MAX_PX_DEG);
+  if (after === before) return;
+
+  // 以鼠标位置为锚点缩放；A 两屏共同缩放并共同平移，B 只动本屏中心
+  const { w, h } = canvasSize(side);
+  const rect = panels[side].canvas.getBoundingClientRect();
+  const mx = e.clientX - rect.left;
+  const my = e.clientY - rect.top;
+  const view = side === 'A' ? state.viewA : state.viewB;
+  const lonAt = view.lon + (mx - w / 2) / before;
+  const latAt = view.lat - (my - h / 2) / before;
+  state.pxDeg = after;
+
+  if (isLockedMode()) {
+    state.viewA = { lon: lonAt - (mx - w / 2) / after, lat: latAt + (my - h / 2) / after };
+    state.viewB = { ...state.viewA };
+  } else {
+    const v = { lon: lonAt - (mx - w / 2) / after, lat: latAt + (my - h / 2) / after };
+    if (side === 'A') state.viewA = v;
+    else state.viewB = v;
+  }
+  panels.A.view = state.viewA;
+  panels.B.view = state.viewB;
+  requestDraw();
+}
+
+function attachPanel(side) {
+  const canvas = panels[side].canvas;
+  let dragging = false;
+  let last = null;
+  let start = null;
+  let moved = 0;
+
+  canvas.addEventListener('wheel', (e) => onWheel(side, e), { passive: false });
+
+  canvas.addEventListener('pointerdown', (e) => {
+    dragging = true;
+    last = { x: e.clientX, y: e.clientY };
+    start = { ...last };
+    moved = 0;
+    canvas.classList.add('dragging');
+    canvas.setPointerCapture(e.pointerId);
+  });
+
+  canvas.addEventListener('pointermove', (e) => {
+    if (!dragging || !last) return;
+    const dx = e.clientX - last.x;
+    const dy = e.clientY - last.y;
+    moved += Math.abs(dx) + Math.abs(dy);
+    last = { x: e.clientX, y: e.clientY };
+    const dLon = -dx / state.pxDeg;
+    const dLat = dy / state.pxDeg;
+    if (isLockedMode()) {
+      state.viewA = { lon: state.viewA.lon + dLon, lat: state.viewA.lat + dLat };
+      state.viewB = { ...state.viewA };
+    } else if (side === 'A') {
+      state.viewA = { lon: state.viewA.lon + dLon, lat: state.viewA.lat + dLat };
+    } else {
+      state.viewB = { lon: state.viewB.lon + dLon, lat: state.viewB.lat + dLat };
+    }
+    panels.A.view = state.viewA;
+    panels.B.view = state.viewB;
+    requestDraw();
+  });
+
+  const end = (e) => {
+    if (!dragging) return;
+    dragging = false;
+    last = null;
+    canvas.classList.remove('dragging');
+    if (canvas.hasPointerCapture(e.pointerId)) canvas.releasePointerCapture(e.pointerId);
+    // 位移很小才算点击，否则一次拖拽结束会顺手把主体换掉
+    if (moved > 6 || !start) return;
+    const rect = canvas.getBoundingClientRect();
+    pickAt(side, e.clientX - rect.left, e.clientY - rect.top);
+  };
+  canvas.addEventListener('pointerup', end);
+  canvas.addEventListener('pointercancel', () => {
+    dragging = false;
+    last = null;
+    canvas.classList.remove('dragging');
+  });
+
+  document.getElementById('recenter-' + side).addEventListener('click', () => {
+    const subject = state.subjects[side];
+    if (!subject) return;
+    const { w, h } = canvasSize(side);
+    const target = { lon: bboxCenter(subject.bbox).lon, lat: bboxCenter(subject.bbox).lat };
+    const scale = fitScale(subject.bbox, w, h);
+    state.pxDeg = scale;
+    if (side === 'A') state.viewA = target;
+    else state.viewB = target;
+    panels.A.view = state.viewA;
+    panels.B.view = state.viewB;
+    requestDraw();
+  });
+}
+
+function pickAt(side, x, y) {
+  const { w, h } = canvasSize(side);
+  const view = side === 'A' ? state.viewA : state.viewB;
+  const lon = view.lon + (x - w / 2) / state.pxDeg;
+  const lat = view.lat - (y - h / 2) / state.pxDeg;
+  const features = renderState[side].features;
+
+  let hit = null;
+  let bestArea = Infinity;
+  for (const f of features) {
+    const b = f.bbox;
+    if (lon < b.west || lon > b.east || lat < b.south || lat > b.north) continue;
+    if (!pointInFeature(f, lon, lat)) continue;
+    if (f.area < bestArea) {
+      bestArea = f.area;
+      hit = f;
+    }
+  }
+  if (!hit) return;
+
+  state.subjects[side] = hit;
+  document.getElementById('name-' + side).textContent = hit.label;
+
+  // A 模式下换主体，窗口跟着两主体的合并范围重算；B 模式只把本侧重新取景到它
+  if (isLockedMode()) {
+    applyTarget(true);
+    return;
+  }
+  const { w: cw, h: ch } = canvasSize(side);
+  state.pxDeg = clamp(fitScale(hit.bbox, cw, ch), MIN_PX_DEG, MAX_PX_DEG);
+  const c = bboxCenter(hit.bbox);
+  if (side === 'A') state.viewA = c;
+  else state.viewB = c;
+  panels.A.view = state.viewA;
+  panels.B.view = state.viewB;
+  requestDraw();
+}
+
+function pointInFeature(feature, lon, lat) {
+  let inside = false;
+  for (const ring of feature.rings) {
+    for (let i = 0, j = ring.length - 2; i < ring.length; j = i, i += 2) {
+      const xi = ring[i];
+      const yi = ring[i + 1];
+      const xj = ring[j];
+      const yj = ring[j + 1];
+      const intersects = yi > lat !== yj > lat && lon < ((xj - xi) * (lat - yi)) / (yj - yi) + xi;
+      if (intersects) inside = !inside;
+    }
+  }
+  return inside;
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   启动
+   ══════════════════════════════════════════════════════════════════════ */
+function fillYearSelects() {
+  for (const id of ['yearA', 'yearB']) {
+    const select = document.getElementById(id);
+    select.innerHTML = YEAR_OPTIONS.map((y) => `<option value="${y}">${y}</option>`).join('');
+  }
+  document.getElementById('yearA').value = String(state.years.A);
+  document.getElementById('yearB').value = String(state.years.B);
+}
+
+async function bootstrap() {
+  // ?mode=A|B|C 与 ?sub=A|B，便于截图核对或直接分享某一种口径
+  const params = new URLSearchParams(location.search);
+  const initialMode = (params.get('mode') || '').toUpperCase();
+  if (['A', 'B', 'C'].includes(initialMode)) state.mode = initialMode;
+  const initialSub = (params.get('sub') || '').toUpperCase();
+  if (['A', 'B'].includes(initialSub)) state.sub = initialSub;
+
+  fillYearSelects();
+  updateModeUi();
+
+  try {
+    namesZh = await loadJSON(NAMES_URL);
+  } catch {
+    namesZh = {};
+  }
+
+  try {
+    await loadCenturyIndex();
+  } catch (err) {
+    showFatal(err);
+    return;
+  }
+
+  document.querySelectorAll('.modes button').forEach((b) => {
+    b.addEventListener('click', () => setMode(b.dataset.mode));
+  });
+  document.querySelectorAll('.submodes button').forEach((b) => {
+    b.addEventListener('click', () => setSub(b.dataset.sub));
+  });
+  document.getElementById('yearA').addEventListener('change', async (e) => {
+    state.years.A = Number(e.target.value);
+    await refreshSide('A');
+    applyTarget(true);
+  });
+  document.getElementById('yearB').addEventListener('change', async (e) => {
+    state.years.B = Number(e.target.value);
+    await refreshSide('B');
+    applyTarget(true);
+  });
+  document.getElementById('wars').addEventListener('change', async (e) => {
+    state.showWars = e.target.checked;
+    for (const side of ['A', 'B']) {
+      try {
+        renderState[side].war = state.showWars ? await warForYear(state.years[side]) : null;
+      } catch {
+        renderState[side].war = null;
+      }
+    }
+    requestDraw();
+  });
+  document.getElementById('reset').addEventListener('click', () => applyTarget(true));
+
+  attachPanel('A');
+  attachPanel('B');
+
+  window.addEventListener('keydown', (e) => {
+    if (e.key === '1') setMode('A');
+    else if (e.key === '2') setMode('B');
+    else if (e.key === '3') setMode('C');
+    else if (e.code === 'Space' && state.mode === 'C') {
+      e.preventDefault();
+      setSub(state.sub === 'A' ? 'B' : 'A');
+    }
+  });
+
+  const ro = new ResizeObserver(() => requestDraw());
+  ro.observe(document.querySelector('.maps'));
+
+  await Promise.all([refreshSide('A'), refreshSide('B')]);
+  applyTarget(false);
+  requestDraw();
+}
+
+function showFatal(err) {
+  const div = document.createElement('div');
+  div.className = 'fatal';
+  div.innerHTML = `
+    <div class="box">
+      <h2>数据没取到</h2>
+      <p>原型需要用本地静态服务器打开，直接双击 HTML 时浏览器会拦掉 <code>fetch</code>。</p>
+      <p>在仓库根目录运行：<code>python -m http.server 8787</code></p>
+      <p>再访问：<code>http://localhost:8787/docs/prototypes/dual-map-scale.html</code></p>
+      <p style="color:var(--ink-3);font-size:11.5px">错误：${String(err && err.message ? err.message : err)}</p>
+    </div>`;
+  document.body.appendChild(div);
+}
+
+bootstrap();
+</script>
+</body>
+</html>

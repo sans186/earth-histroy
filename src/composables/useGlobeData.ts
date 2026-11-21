@@ -132,7 +132,7 @@ export function useGlobeData() {
   /**
    * The window after the category and map-scope gates, before certainty.
    *
-   * LayerPanel draws its per-level counts from this list, so unchecking a
+   * The settings drawer draws its per-level counts from this list, so unchecking a
    * level does not zero its own badge; the certainty gate is applied on top
    * for everything the reader actually sees.
    */

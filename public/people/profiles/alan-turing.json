@@ -95,7 +95,11 @@
       "descriptionEn": "On June 7, 1954, Turing was found dead at his home at age 41. The official conclusion was cyanide poisoning, reportedly from an apple used in an experiment. Turing's death was seen as a great loss to the scientific community, and his contributions were not fully recognized until many years later. In 2013, Queen Elizabeth II officially pardoned Turing's 'criminal' record, and in 2017, the Bank of England announced that Turing's portrait would appear on the new £50 banknote to recognize his outstanding contributions to computer science. Turing's tragic fate also became a symbol of the unjust treatment of LGBTQ+ individuals, prompting reflection on the relationship between science and society."
     }
   ],
-  "evaluation": {
+  "evaluation": {
+    "appraisal": {
+      "zh": "图灵被公认为计算机科学与人工智能的奠基者，图灵机模型为现代计算机提供了理论基础，图灵测试则开启了人工智能研究的先河；二战期间他的密码破译工作被广泛认为缩短了战争、挽救了无数生命。也有研究者指出，他的理论模型对现实计算的复杂性有所简化，战后才能未能充分转化为实际应用，且对自身工作的伦理意涵认识不足。他既是科学革命的先驱，又是社会偏见的受害者，其生平已成为科学进步与社会公正不可分割的象征。",
+      "en": "Turing is widely regarded as the founder of computer science and artificial intelligence: the Turing Machine gave modern computing its theoretical basis and the Turing Test opened the field of AI research, while his wartime codebreaking is widely believed to have shortened the war and saved countless lives. Some researchers note that his models simplified the complexity of real-world computation, that his postwar talents were not fully translated into practical applications, and that he gave little attention to the ethical implications of his work. At once a pioneer of a scientific revolution and a victim of social prejudice, his life has become a symbol that scientific progress and social justice are inseparable."
+    },
     "supporter": {
       "zh": "艾伦·图灵被誉为'计算机科学之父'和'人工智能之父'，他的理论贡献彻底改变了人类对计算和智能的理解。图灵机模型为现代计算机奠定了理论基础，而图灵测试则开创了人工智能研究的先河。在二战期间，他的密码破译工作被广泛认为缩短了战争，挽救了无数生命。图灵的远见卓识和科学精神激励着一代又一代的科学家和工程师，他的故事也成为了科学突破与社会偏见抗争的象征。",
       "en": "Alan Turing is hailed as the 'father of computer science' and the 'father of artificial intelligence.' His theoretical contributions revolutionized human understanding of computation and intelligence. The Turing Machine model laid the theoretical foundation for modern computers, while the Turing Test pioneered artificial intelligence research. During WWII, his codebreaking work is widely believed to have shortened the war and saved countless lives. Turing's vision and scientific spirit continue to inspire generations of scientists and engineers, and his story has become a symbol of scientific breakthroughs fighting against social prejudice."
@@ -113,12 +117,6 @@
     "self": {
       "zh": "我们只能向前看，而不是向后看，否则我们会看到太多我们无法实现的事情。",
       "en": "We can only see a short distance ahead, but we can see plenty there that needs to be done."
-    },
-    "others": {
-      "zh": "图灵是那种罕见的数学家，他不仅能够解决困难的问题，还能提出新的问题，这些问题将引领整个领域的发展方向。",
-      "en": "Turing was that rare mathematician who could not only solve difficult problems but also pose new problems that would lead the entire field in new directions."
     }
-  },
-  "othersBy": "安德鲁·霍奇斯",
-  "othersByEn": "Andrew Hodges"
+  }
 }

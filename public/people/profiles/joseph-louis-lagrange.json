@@ -72,7 +72,11 @@
       "coords": null
     }
   ],
-  "evaluation": {
+  "evaluation": {
+    "appraisal": {
+      "zh": "拉格朗日被公认为18世纪最伟大的数学家之一，其变分法、分析力学与数论工作深刻改变了数学与物理学的走向，《分析力学》以纯数学方法推演整个力学体系，被视为理性主义的巅峰，并为拉普拉斯、哈密顿等人铺平道路。不过也有研究者指出，他早期工作依赖欧拉成果，风格偏于形式化与抽象，对几何学相对忽视，政治上也过于顺从权威。总体而言，他仍是连接启蒙时代与19世纪数学发展的关键桥梁。",
+      "en": "Lagrange is widely regarded as one of the greatest mathematicians of the 18th century, whose work on the calculus of variations, analytical mechanics and number theory profoundly reshaped mathematics and physics; his Mécanique Analytique, deriving mechanics by purely mathematical means, is seen as the pinnacle of rationalism and paved the way for Laplace and Hamilton. Yet some researchers note his early dependence on Euler, an overly formal and abstract style, relative neglect of geometry, and excessive compliance with authority. On balance he remains a crucial bridge between the Enlightenment and 19th-century mathematics."
+    },
     "supporter": {
       "zh": "拉格朗日被视为18世纪最伟大的数学家之一，他的变分法、分析力学和数论工作彻底改变了数学和物理学的发展轨迹。支持者认为他代表了理性主义的巅峰，将数学的严谨性与物理直觉完美结合。他的《分析力学》被誉为'科学诗篇'，通过纯数学方法推导出整个力学体系，展示了数学的强大力量。拉格朗日的工作为后来的拉普拉斯、哈密顿等科学家铺平了道路，成为现代理论物理和数学分析的基石。",
       "en": "Lagrange is regarded as one of the greatest mathematicians of the 18th century, whose work on calculus of variations, analytical mechanics, and number theory revolutionized the development of mathematics and physics. Supporters see him as representing the pinnacle of rationalism, perfectly combining mathematical rigor with physical intuition. His 'Mécanique Analytique' is hailed as a 'scientific poem,' deriving the entire system of mechanics through pure mathematical methods, demonstrating the power of mathematics. Lagrange's work paved the way for later scientists like Laplace and Hamilton, becoming the foundation of modern theoretical physics and mathematical analysis."
@@ -90,12 +94,6 @@
     "self": {
       "zh": "代数不过是写出来的几何，几何不过是画出来的代数。",
       "en": "Algebra is written geometry, geometry is drawn algebra."
-    },
-    "others": {
-      "zh": "拉格朗日是数学科学中最高尚的典范，他将分析提升到前所未有的高度，并赋予它前所未有的优雅。",
-      "en": "Lagrange is the loftiest prototype in the science of mathematics; he raised analysis to a higher power and gave it a new elegance."
     }
-  },
-  "othersBy": "皮埃尔-西蒙·拉普拉斯",
-  "othersByEn": "Pierre-Simon Laplace"
+  }
 }

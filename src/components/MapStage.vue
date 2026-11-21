@@ -133,11 +133,19 @@ async function paintBorders() {
   map2d.setModernBordersVisible(layers.showBorders);
 }
 
+/** Event dots and their titles, both driven by the layer switches. */
+function paintEvents() {
+  // An empty list clears the markers; the label switch only drops the text.
+  map2d.renderEvents(layers.showEvents ? props.events : [], { labels: layers.showLabels });
+}
+
 function paintWars() {
-  const all = wars.located;
-  // Same rule as the globe: the open war stays plotted even with the layer off,
-  // otherwise opening one would show a card with no marker.
-  const list = layers.showWars ? all : all.filter((w) => w.warId === wars.selectedId);
+  // Only the wars running in the current year are plotted; the open war is
+  // always kept, so opening one from the panel never shows a card with no
+  // marker after the year has moved past its span.
+  const list = layers.showWars ? [...wars.locatedThisYear] : [];
+  const open = wars.located.find((w) => w.warId === wars.selectedId);
+  if (open && !list.some((w) => w.warId === open.warId)) list.push(open);
   if (!list.length) {
     map2d.clearWars();
     return;
@@ -161,7 +169,7 @@ onMounted(() => {
     ui.setError(rendererError(ui.locale, (err as Error)?.message ?? err));
     return;
   }
-  map2d.renderEvents(props.events, { labels: true });
+  paintEvents();
   emit('ready');
   void paintPolities();
   void paintBorders();
@@ -174,10 +182,8 @@ onBeforeUnmount(() => {
   map2d.destroy();
 });
 
-watch(
-  () => props.events,
-  (list) => map2d.renderEvents(list, { labels: true }),
-);
+watch(() => props.events, paintEvents);
+watch(() => [layers.showEvents, layers.showLabels] as const, paintEvents);
 watch(() => props.names, schedulePolities);
 watch(() => timeline.year, schedulePolities);
 watch(() => layers.showPolities, schedulePolities);
@@ -208,7 +214,7 @@ watch(
   },
 );
 watch(() => [layers.showLabels, wars.selectedId] as const, paintWars);
-watch(() => wars.located, paintWars);
+watch(() => wars.locatedThisYear, paintWars);
 watch(
   () => timeline.scrubbing,
   (scrubbing) => {

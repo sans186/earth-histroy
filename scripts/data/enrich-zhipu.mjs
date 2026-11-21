@@ -393,15 +393,13 @@ const PROFILE_PROMPT = `你是历史人物资料编辑。为给定人物输出�
 - points 必须是 3 个生平阶段，按时间先后，覆盖早期/鼎盛/晚年；coords 是 [经度, 纬度]。
 - 每段 description 约 80-120 个汉字，descriptionEn 为其英文对应，信息量一致。
 - evaluation 分 supporter（正面评价）、critic（批评）、objective（中性史学定位）三段，各 60-90 字，均有中英。
-- quotes.self 是本人名言（确实无可靠名言时给最广为流传的一句并保持简短）；quotes.others 是他人对其评价。
-- othersBy/othersByEn 是 quotes.others 的出处人物。
+- quotes.self 是本人名言（确实无可靠名言时给最广为流传的一句并保持简短）。
 - 不确定的内容宁可写得保守，不要编造具体数字。
 只输出 JSON，结构如下：
 {"name":"","nameEn":"","birth":-100,"death":-44,"nationality":"","nationalityEn":"",
  "points":[{"year":-100,"yearEnd":-80,"place":"","placeEn":"","coords":[12.5,41.9],"title":"","titleEn":"","description":"","descriptionEn":""}],
  "evaluation":{"supporter":{"zh":"","en":""},"critic":{"zh":"","en":""},"objective":{"zh":"","en":""}},
- "quotes":{"self":{"zh":"","en":""},"others":{"zh":"","en":""}},
- "othersBy":"","othersByEn":""}`;
+ "quotes":{"self":{"zh":"","en":""}}}`;
 
 function validateProfile(raw, fallbackName) {
   const name = String(raw?.name ?? '').trim();
@@ -464,10 +462,7 @@ function validateProfile(raw, fallbackName) {
     evaluation,
     quotes: {
       self: bilingual(raw.quotes?.self),
-      others: bilingual(raw.quotes?.others),
     },
-    othersBy: String(raw.othersBy ?? '').trim(),
-    othersByEn: String(raw.othersByEn ?? '').trim(),
   };
 }
 
@@ -524,7 +519,7 @@ async function people(limitCount) {
       }
 
       writeDoc({
-        data: { ...entry, points: profile.points, evaluation: profile.evaluation, quotes: profile.quotes, othersBy: profile.othersBy, othersByEn: profile.othersByEn },
+        data: { ...entry, points: profile.points, evaluation: profile.evaluation, quotes: profile.quotes },
         eol: '\n',
         trailingNewline: false,
         file: join(dir, `${personId}.json`),

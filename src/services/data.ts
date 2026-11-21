@@ -14,6 +14,7 @@ import {
 import { yearOfEventId } from '@/lib/eventLinks';
 import { parseCoordinates } from '@/lib/geo';
 import { polityKey } from '@/lib/polityKey';
+import { countriesToPath } from '@/lib/trajectory';
 import { DataFetchError, fetchJson, fetchOptionalJson } from '@/services/http';
 import type {
   CenturyEntry,
@@ -456,6 +457,26 @@ export const NE_FILES = {
   countries110m: `${NE_BASE}ne_110m_admin_0_countries.json`,
   borders50m: `${NE_BASE}ne_50m_admin_0_boundary_lines_land.json`,
 };
+
+let countriesPathCache: string | null = null;
+
+/**
+ * The 110m landmass as one SVG path, for the static trajectory overlay.
+ *
+ * Cached for the session: the file is ~1 MB and the overlay may be opened many
+ * times. A failure returns an empty string instead of throwing — the trail is
+ * still readable without a basemap.
+ */
+export async function loadCountriesPath(): Promise<string> {
+  if (countriesPathCache !== null) return countriesPathCache;
+  try {
+    const json = await fetchJson<unknown>(NE_FILES.countries110m, { allowMissing: true });
+    countriesPathCache = countriesToPath(json);
+  } catch {
+    return '';
+  }
+  return countriesPathCache;
+}
 
 /* ══════════════════════════════════════════════════════════════════════════
    Polity reference card data

@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>战争记录：两种读法（乙方案原型）</title>
+<style>
+  :root {
+    --paper: #f7f5f0;
+    --paper-2: #efece4;
+    --card: #fdfcf9;
+    --ink: #1a1c20;
+    --ink-2: #4c4f56;
+    --ink-3: #8d8c86;
+    --rule: #e2ddd1;
+    --rust: #b0522d;
+    --ochre: #9a7434;
+    --font-display: 'Fraunces', 'Noto Serif SC', Georgia, 'Songti SC', serif;
+    --font-sans: 'Inter', 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+    --font-mono: 'IBM Plex Mono', ui-monospace, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--font-sans); }
+  .page { max-width: 1180px; margin: 0 auto; padding: 40px 32px 56px; }
+  .eyebrow {
+    font-family: var(--font-mono); font-size: 11.5px; letter-spacing: .2em;
+    text-transform: uppercase; color: var(--ink-3); margin-bottom: 10px;
+  }
+  h1 {
+    font-family: var(--font-display); font-size: 34px; font-weight: 500;
+    letter-spacing: .01em; margin: 0 0 10px;
+  }
+  .lead { max-width: 62ch; margin: 0 0 24px; font-size: 15px; line-height: 1.7; color: var(--ink-2); }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
+  .chip {
+    font-family: var(--font-sans); font-size: 13.5px; color: var(--ink-2);
+    background: var(--card); border: 1px solid var(--rule); padding: 7px 13px;
+    cursor: pointer; transition: border-color .15s, color .15s, background .15s;
+  }
+  .chip:hover { border-color: var(--ink-3); }
+  .chip.on { background: var(--ink); border-color: var(--ink); color: var(--card); }
+  .chip span { font-family: var(--font-mono); font-size: 11px; opacity: .65; margin-left: 6px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 20px; }
+  .card { background: var(--card); border: 1px solid var(--rule); padding: 20px 20px 18px; }
+  .card-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 4px; }
+  .card-head b { font-family: var(--font-display); font-size: 19px; font-weight: 500; }
+  .meta { font-family: var(--font-mono); font-size: 11px; color: var(--ink-3); letter-spacing: .04em; }
+  .card-sub { font-size: 13px; color: var(--ink-2); margin: 0 0 12px; }
+  svg { display: block; width: 100%; height: auto; }
+  .frame { fill: none; stroke: var(--rule); stroke-width: 1; }
+  .hull { stroke: var(--rust); stroke-width: 1.4; fill: rgba(176, 82, 45, .1); }
+  .vertex { fill: var(--card); stroke: var(--rust); stroke-width: 1.3; }
+  .dot { fill: var(--ink); opacity: .5; }
+  .trace { fill: none; stroke: var(--rust); stroke-width: 1.1; opacity: .32; stroke-linecap: round; }
+  .pt { stroke: var(--card); stroke-width: 1.2; }
+  .lbl {
+    font-family: var(--font-sans); font-size: 10.5px; fill: var(--ink-2);
+    paint-order: stroke; stroke: var(--card); stroke-width: 3px; stroke-linejoin: round;
+  }
+  .caption { font-size: 13px; line-height: 1.65; color: var(--ink-2); margin: 12px 0 0; }
+  .legend { display: flex; align-items: center; gap: 10px; margin-top: 10px; }
+  .legend .bar { height: 8px; width: 140px; border-radius: 0; }
+  .legend .t { font-family: var(--font-mono); font-size: 11px; color: var(--ink-3); }
+  .notes { margin-top: 26px; border-top: 1px solid var(--rule); padding-top: 16px; }
+  .notes p { font-size: 12.5px; line-height: 1.7; color: var(--ink-3); margin: 0 0 6px; }
+  .notes b { color: var(--ink-2); font-weight: 500; }
+  @media (max-width: 520px) {
+    .page { padding: 28px 18px 40px; }
+    h1 { font-size: 27px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="eyebrow">UR-017 原型 · 乙方案：点阵 + 年份推进线</div>
+  <h1>战争记录，两种读法</h1>
+  <p class="lead">
+    同一批档案战役，左边按现在的做法画凸包，右边改画点阵：颜色由浅到深表示年代，细线把相邻且相距 900 km 内的记录按年份连起来。
+    两边用同一个投影、同一批点，只改表达方式。
+  </p>
+
+  <div class="chips" id="chips"></div>
+
+  <div class="grid">
+    <div class="card">
+      <div class="card-head">
+        <b>甲 · 凸包</b>
+        <span class="meta" id="metaA"></span>
+      </div>
+      <p class="card-sub">现在的做法：把最外圈的战役连成一个闭合面。</p>
+      <svg id="svgA" viewBox="0 0 520 380" role="img" aria-label="凸包视图"></svg>
+      <p class="caption">闭合面让人以为看到了战区边界，其实所有边界只由那几个角决定。</p>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <b>乙 · 点阵 + 年份推进线</b>
+        <span class="meta" id="metaB"></span>
+      </div>
+      <p class="card-sub">改法：不画边界，只画记录位置与局部先后。</p>
+      <svg id="svgB" viewBox="0 0 520 380" role="img" aria-label="点阵视图"></svg>
+      <div class="legend">
+        <span class="t" id="yearFrom"></span>
+        <span class="bar" id="bar"></span>
+        <span class="t" id="yearTo"></span>
+      </div>
+      <p class="caption">深浅是年代，短线是相邻记录的先后；悬停圆点可看名称与年份。没有面，也就不会凭空造出一个“范围”。</p>
+    </div>
+  </div>
+
+  <div class="notes">
+    <p><b>数据</b>：直接取自 <code>public/wars/profiles/</code> 的档案战役坐标与年份，没有新增字段，也没有外部数据。</p>
+    <p><b>原型里的临时纠正</b>：二战档案有 3 条经纬度写反（波兰入侵、苏芬战争、大西洋战役开始），这里按位置纠正后绘制；正式实现应在档案层修复。</p>
+    <p><b>另一处档案问题</b>：同一战役存在重复条目（一战里坦能堡、布鲁希洛夫、凡尔登、索姆河各两条），点阵会显示为重影——这比凸包更诚实，但也说明档案本身需要清理。</p>
+  </div>
+</div>
+
+<script>
+const DATA = [{"id":"thirty-years-war","name":"三十年战争","from":1618,"to":1648,"pts":[{"n":"白山战役","x":16.6,"y":50.1,"t":1620,"g":0},{"n":"普拉斯伦堡围攻战","x":11.6,"y":50,"t":1620,"g":0},{"n":"维斯拉赫战役","x":8.6,"y":49.2,"t":1622,"g":0},{"n":"弗勒吕斯战役","x":4.9,"y":50.5,"t":1622,"g":0},{"n":"斯特勒姆斯塔德战役","x":11.2,"y":58.9,"t":1629,"g":0},{"n":"布里德霍夫茨战役","x":11.58,"y":54.09,"t":1631,"g":2},{"n":"布莱滕费尔德战役","x":12.38,"y":51.33,"t":1631,"g":2},{"n":"利希滕费尔德战役","x":15.35,"y":51.33,"t":1632,"g":2},{"n":"施泰恩福特战役","x":7.63,"y":52.2,"t":1633,"g":1},{"n":"奥尔多恩多夫战役","x":9.2,"y":52.3,"t":1633,"g":1},{"n":"科尔马战役","x":7.36,"y":48.48,"t":1633,"g":1},{"n":"奥尔多恩夫战役","x":9.18,"y":52.26,"t":1633,"g":2},{"n":"诺德lingen战役","x":10.2,"y":48.5,"t":1634,"g":1},{"n":"布拉格和约","x":14.44,"y":50.07,"t":1635,"g":2},{"n":"维特斯洛克战役","x":14.15,"y":59.25,"t":1636,"g":3},{"n":"罗克鲁瓦战役","x":4.83,"y":49.85,"t":1643,"g":3},{"n":"扬考战役","x":14.75,"y":49.75,"t":1645,"g":3},{"n":"泽纳战役","x":10.58,"y":48.42,"t":1648,"g":3}]},{"id":"american-civil-war","name":"美国南北战争","from":1861,"to":1865,"pts":[{"n":"萨姆特堡战役","x":-79.88,"y":32.75,"t":1861,"g":0},{"n":"第一次布尔朗战役","x":-77.46,"y":38.78,"t":1861,"g":0},{"n":"威尔逊溪战役","x":-93.25,"y":37.22,"t":1861,"g":0},{"n":"夏洛战役","x":-88.2,"y":35.15,"t":1862,"g":1},{"n":"安提塔姆战役","x":-77.75,"y":39.45,"t":1862,"g":1},{"n":"弗雷德里克斯堡战役","x":-77.2,"y":38.3,"t":1862,"g":1},{"n":"钱瑟勒斯维尔战役","x":-77.46,"y":38.3,"t":1863,"g":1},{"n":"葛底斯堡战役","x":-77.23,"y":39.81,"t":1863,"g":2},{"n":"维克斯堡战役","x":-90.87,"y":32.35,"t":1863,"g":2},{"n":"亚特兰大战役","x":-84.39,"y":33.75,"t":1864,"g":2},{"n":"阿波马托克斯战役","x":-78.49,"y":37.38,"t":1865,"g":2}]},{"id":"world-war-i","name":"第一次世界大战","from":1914,"to":1918,"pts":[{"n":"边境战役","x":4.9,"y":50.3,"t":1914,"g":0},{"n":"坦能堡战役","x":20.5,"y":53.9,"t":1914,"g":0},{"n":"加利西亚战役","x":24,"y":49.5,"t":1914,"g":0},{"n":"坦能堡战役","x":21,"y":54,"t":1914,"g":1},{"n":"马祖里湖战役","x":22,"y":54,"t":1914,"g":1},{"n":"戈尔利采-塔尔洛夫战役","x":21,"y":50,"t":1915,"g":1},{"n":"第二次伊普尔战役","x":2.88,"y":50.85,"t":1915,"g":3},{"n":"布鲁西洛夫攻势","x":25,"y":49,"t":1916,"g":1},{"n":"凡尔登战役","x":5.2,"y":49.2,"t":1916,"g":2},{"n":"索姆河战役","x":2.7,"y":50.1,"t":1916,"g":2},{"n":"布鲁西洛夫攻势","x":25.3,"y":49.2,"t":1916,"g":2},{"n":"凡尔登战役","x":5.41,"y":49.16,"t":1916,"g":3},{"n":"索姆河战役","x":2.71,"y":50.19,"t":1916,"g":3},{"n":"凡尔登-索姆河战役","x":5.41,"y":49.16,"t":1916,"g":3},{"n":"康布雷战役","x":3,"y":50.2,"t":1917,"g":4},{"n":"德军春季攻势","x":2.7,"y":50.1,"t":1918,"g":4},{"n":"百日攻势","x":2.7,"y":50.1,"t":1918,"g":4}]},{"id":"world-war-ii","name":"第二次世界大战","from":1939,"to":1945,"pts":[{"n":"波兰入侵","x":52,"y":19,"t":1939,"g":0},{"n":"布祖拉战役","x":52.2,"y":19.5,"t":1939,"g":0},{"n":"华沙保卫战","x":52.2,"y":21,"t":1939,"g":0},{"n":"大西洋战役开始","x":50,"y":-30,"t":1939,"g":0},{"n":"苏芬战争","x":63,"y":27,"t":1939,"g":0},{"n":"丹麦与挪威战役","x":10,"y":60,"t":1940,"g":1},{"n":"法国战役","x":4,"y":47,"t":1940,"g":1},{"n":"荷兰战役","x":5.2,"y":52.2,"t":1940,"g":1},{"n":"不列颠空战","x":-0.13,"y":51.51,"t":1940,"g":2},{"n":"希腊战役","x":23.73,"y":38.04,"t":1941,"g":2},{"n":"克里特岛战役","x":24.81,"y":35.24,"t":1941,"g":2},{"n":"南斯拉夫战役","x":21.01,"y":44.02,"t":1941,"g":2},{"n":"巴巴罗萨计划","x":24,"y":55.5,"t":1941,"g":3},{"n":"斯摩棱斯克战役","x":32,"y":54.8,"t":1941,"g":3},{"n":"基辅战役","x":30.5,"y":50.5,"t":1941,"g":3},{"n":"莫斯科战役","x":37.6,"y":55.8,"t":1941,"g":3},{"n":"梁赞防御战","x":39.7,"y":54.6,"t":1941,"g":3},{"n":"珍珠港事件","x":-157.95,"y":21.37,"t":1941,"g":4},{"n":"马来亚战役","x":101.98,"y":3.14,"t":1941,"g":4},{"n":"菲律宾战役","x":121.77,"y":14.6,"t":1941,"g":4},{"n":"新加坡战役","x":103.82,"y":1.28,"t":1942,"g":4},{"n":"斯大林格勒战役","x":44,"y":48.7,"t":1942,"g":5},{"n":"阿拉曼战役","x":28.9,"y":30.3,"t":1942,"g":5},{"n":"突尼斯战役","x":9.8,"y":36.8,"t":1942,"g":5},{"n":"库尔斯克会战","x":36.06,"y":51.35,"t":1943,"g":6},{"n":"第四次哈尔科夫战役","x":36.23,"y":49.58,"t":1943,"g":6},{"n":"盟军意大利登陆战役","x":15.11,"y":38.11,"t":1943,"g":6},{"n":"卡西诺战役","x":13.78,"y":41.48,"t":1944,"g":6},{"n":"安齐奥战役","x":12.63,"y":41.44,"t":1944,"g":6},{"n":"诺曼底登陆","x":-0.5,"y":49.3,"t":1944,"g":7},{"n":"突出部战役","x":6,"y":50,"t":1944,"g":7},{"n":"巴黎解放","x":2.3,"y":48.9,"t":1944,"g":7},{"n":"柏林战役","x":13.4,"y":52.5,"t":1945,"g":7}]}];
+
+const W = 520, H = 380, PAD = 30;
+const FIX = {
+  '波兰入侵': [19, 52],
+  '苏芬战争': [27, 63],
+  '大西洋战役开始': [-30, 50],
+};
+
+const hullOf = (pts) => {
+  const p = pts.slice().sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+  const cross = (o, a, b) => (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0]);
+  const lo = [];
+  for (const q of p) {
+    while (lo.length >= 2 && cross(lo[lo.length - 2], lo[lo.length - 1], q) <= 0) lo.pop();
+    lo.push(q);
+  }
+  const up = [];
+  for (let i = p.length - 1; i >= 0; i -= 1) {
+    const q = p[i];
+    while (up.length >= 2 && cross(up[up.length - 2], up[up.length - 1], q) <= 0) up.pop();
+    up.push(q);
+  }
+  lo.pop(); up.pop();
+  return lo.concat(up);
+};
+
+const lerp = (a, b, t) => a + (b - a) * t;
+const yearColor = (t) => {
+  const u = Math.pow(Math.max(0, Math.min(1, t)), 0.8);
+  const c1 = [201, 163, 106], c2 = [142, 42, 24];
+  return `rgb(${Math.round(lerp(c1[0], c2[0], u))},${Math.round(lerp(c1[1], c2[1], u))},${Math.round(lerp(c1[2], c2[2], u))})`;
+};
+
+function project(pts) {
+  const xs = pts.map((p) => p.x), ys = pts.map((p) => p.y);
+  const w = Math.min(...xs), e = Math.max(...xs);
+  const s = Math.min(...ys), n = Math.max(...ys);
+  const cos = Math.cos(((s + n) / 2) * Math.PI / 180);
+  const k = Math.min((W - PAD * 2) / Math.max((e - w) * cos, 1e-6), (H - PAD * 2) / Math.max(n - s, 1e-6));
+  const wpx = (e - w) * cos * k, hpx = (n - s) * k;
+  const ox = (W - wpx) / 2, oy = (H - hpx) / 2;
+  return {
+    x: (lon) => ox + (lon - w) * cos * k,
+    y: (lat) => H - oy - (lat - s) * k,
+  };
+}
+
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+function draw(war) {
+  const pts = war.pts.map((p) => {
+    const fix = FIX[p.n];
+    return { ...p, lon: fix ? fix[0] : p.x, lat: fix ? fix[1] : p.y };
+  });
+  const proj = project(pts);
+  const P = pts.map((p) => [proj.x(p.lon), proj.y(p.lat)]);
+  const hull = hullOf(P);
+
+  // 甲：凸包
+  const hullD = hull.length >= 3 ? `M${hull.map((p) => `${p[0].toFixed(1)} ${p[1].toFixed(1)}`).join('L')}Z` : '';
+  const svgA = [
+    `<rect class="frame" x="0.5" y="0.5" width="${W - 1}" height="${H - 1}"></rect>`,
+    hullD ? `<path class="hull" d="${hullD}"></path>` : '',
+    ...P.map(([x, y], i) => `<circle class="dot" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="2.6"><title>${esc(pts[i].n)} · ${pts[i].t}</title></circle>`),
+    ...hull.map(([x, y]) => `<circle class="vertex" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="3.6"></circle>`),
+  ].join('');
+  document.getElementById('svgA').innerHTML = svgA;
+  document.getElementById('metaA').textContent = `${pts.length} 点 → ${hull.length} 个顶点`;
+
+  // 乙：点阵 + 相邻记录的短连线（只连 900 km 内的先后两条，避免跨洲长线）
+  const t0 = Math.min(...pts.map((p) => p.t)), t1 = Math.max(...pts.map((p) => p.t));
+  const km = (a, b) => {
+    const r = Math.PI / 180;
+    const dLat = (b.lat - a.lat) * r, dLon = (b.lon - a.lon) * r;
+    const h = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * r) * Math.cos(b.lat * r) * Math.sin(dLon / 2) ** 2;
+    return 12742 * Math.asin(Math.sqrt(h));
+  };
+  const traces = [];
+  for (let i = 1; i < pts.length; i += 1) {
+    if (km(pts[i - 1], pts[i]) <= 900) {
+      traces.push(`M${P[i - 1][0].toFixed(1)} ${P[i - 1][1].toFixed(1)}L${P[i][0].toFixed(1)} ${P[i][1].toFixed(1)}`);
+    }
+  }
+  const placed = [];
+  const labels = [];
+  const order = pts.map((p, i) => ({ i, x: P[i][0], y: P[i][1], t: p.t })).sort((a, b) => a.t - b.t);
+  const want = pts.length > 18 ? [] : [order[0], order[order.length - 1]];
+
+  for (const o of want) {
+    const text = pts[o.i].n.replace(/战役$|会战$|事件$|进攻$/, '');
+    const w = text.length * 11 + 6, h = 13;
+    const spots = [[7, -7], [7, 15], [-w - 7, -7], [-w - 7, 15]];
+    for (const [dx, dy] of spots) {
+      const lx = o.x + dx, ly = o.y + dy;
+      const box = { x: lx - 2, y: ly - h, w, h };
+      if (box.x < 2 || box.x + box.w > W - 2 || box.y < 14 || box.y > H - 4) continue;
+      if (placed.some((b) => box.x < b.x + b.w && box.x + box.w > b.x && box.y < b.y + b.h && box.y + box.h > b.y)) continue;
+      placed.push(box);
+      labels.push(`<text class="lbl" x="${lx.toFixed(1)}" y="${ly.toFixed(1)}">${esc(text)}</text>`);
+      break;
+    }
+  }
+
+  const svgB = [
+    `<rect class="frame" x="0.5" y="0.5" width="${W - 1}" height="${H - 1}"></rect>`,
+    ...traces.map((d) => `<path class="trace" d="${d}"></path>`),
+    ...P.map(([x, y], i) => {
+      const t = t1 === t0 ? 0.5 : (pts[i].t - t0) / (t1 - t0);
+      return `<circle class="pt" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="4.2" fill="${yearColor(t)}"><title>${esc(pts[i].n)} · ${pts[i].t}</title></circle>`;
+    }),
+    ...labels,
+  ].join('');
+  document.getElementById('svgB').innerHTML = svgB;
+
+  const dup = pts.length - new Set(pts.map((p) => p.n)).size;
+  document.getElementById('metaB').textContent = `${pts.length} 点 · ${t0}–${t1}${dup ? ` · ${dup} 条重名` : ''}`;
+  document.getElementById('yearFrom').textContent = t0;
+  document.getElementById('yearTo').textContent = t1;
+  document.getElementById('bar').style.background =
+    `linear-gradient(90deg, ${yearColor(0)}, ${yearColor(1)})`;
+}
+
+const chips = document.getElementById('chips');
+let current = DATA[0].id;
+DATA.forEach((w) => {
+  const b = document.createElement('button');
+  b.className = 'chip';
+  b.dataset.war = w.id;
+  b.innerHTML = `${esc(w.name)}<span>${w.pts.length}</span>`;
+  b.addEventListener('click', () => {
+    current = w.id;
+    document.querySelectorAll('.chip').forEach((c) => c.classList.toggle('on', c.dataset.war === current));
+    draw(DATA.find((x) => x.id === current));
+  });
+  chips.appendChild(b);
+});
+
+document.querySelector('.chip').classList.add('on');
+draw(DATA[0]);
+</script>
+</body>
+</html>

@@ -81,7 +81,11 @@
       "descriptionEn": "In 1736, Euler solved the famous Seven Bridges of Königsberg problem, considered the beginning of graph theory. The problem involved seven bridges in the Prussian city of Königsberg, requiring finding a route that crossed each bridge exactly once. Euler used an abstract approach, representing landmasses as points and bridges as lines, proving that such a path was impossible. This pioneering work not only solved the specific problem but also established the foundations of graph theory, profoundly influencing later network theory and topology. Euler's method demonstrated how mathematics could transform practical problems into abstract models, showcasing the universality and power of mathematics."
     }
   ],
-  "evaluation": {
+  "evaluation": {
+    "appraisal": {
+      "zh": "欧拉被公认为18世纪数学的中心人物，其工作连接了牛顿、莱布尼茨的微积分与后世发展，所确立的符号系统成为现代数学的标准语言，欧拉公式更被视作数学之美的象征，失明后仍坚持研究的事迹也广为传颂。另一种看法认为，他早期著作常依赖直觉与计算而欠严格证明，卷帙浩繁中亦有后来被纠正的错误，在柏林时还因迁就腓特烈大帝而调整研究方向。",
+      "en": "Euler is widely regarded as the central figure of eighteenth-century mathematics, linking the calculus of Newton and Leibniz to later developments; his notation became the standard language of modern mathematics, his formula is celebrated as a symbol of mathematical beauty, and his perseverance in research after going blind is widely admired. Another view holds that his early work often relied on intuition and computation rather than rigorous proof, that his vast output contained errors later corrected, and that in Berlin he adjusted his research to accommodate Frederick the Great."
+    },
     "supporter": {
       "zh": "欧拉被公认为历史上最伟大的数学家之一，他的贡献遍及数学的各个领域。支持者赞誉他无与伦比的生产力，一生发表了800多篇论文和书籍，即使在失明后仍保持惊人的研究能力。欧拉公式e^(iπ) + 1 = 0被数学家称为'最美的数学公式'，完美连接了数学中最重要的五个常数。他的工作不仅推动了纯数学发展，还解决了大量实际问题，体现了数学的实用价值。欧拉的严谨思维和创造性方法为后世数学家树立了典范。",
       "en": "Euler is widely regarded as one of the greatest mathematicians in history, with contributions spanning virtually every area of mathematics. Supporters praise his unparalleled productivity, publishing over 800 papers and books during his lifetime and maintaining remarkable research capabilities even after becoming blind. Euler's formula e^(iπ) + 1 = 0, described by mathematicians as 'the most beautiful formula in mathematics,' perfectly connects five of the most important constants in mathematics. His work not only advanced pure mathematics but also solved numerous practical problems, demonstrating the practical value of mathematics. Euler's rigorous thinking and creative methods set an example for future mathematicians."
@@ -99,12 +103,6 @@
     "self": {
       "zh": "数学家们如果不想被外行人看作是空想家，就必须避免这种肤浅的看法。",
       "en": "Mathematicians should avoid this superficial view if they do not want to be regarded as dreamers by outsiders."
-    },
-    "others": {
-      "zh": "欧拉的计算就像呼吸一样自然，没有任何努力。",
-      "en": "Euler's calculations are as natural as breathing, without any effort."
     }
-  },
-  "othersBy": "皮埃尔-西蒙·拉普拉斯",
-  "othersByEn": "Pierre-Simon Laplace"
+  }
 }
