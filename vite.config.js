@@ -100,11 +100,10 @@ export default defineConfig({
      */
     watch: {
       ignored: [
-        '**/public/events/**',
-        '**/public/en-events/**',
-        '**/public/ne/**',
-        '**/public/_review/**',
-        '**/public/cesium/**',
+        '**/public/**',
+        '**/dist/**',
+        '**/docs/**',
+        '**/scripts/**',
         '**/.playwright-cli/**',
         '**/.tmp*/**',
       ],

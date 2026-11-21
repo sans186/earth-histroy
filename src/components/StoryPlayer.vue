@@ -231,12 +231,14 @@ onBeforeUnmount(() => {
   left: 50%;
   bottom: 24px;
   transform: translateX(-50%);
-  width: min(640px, calc(100vw - 32px));
+  width: min(920px, 94vw);
+  max-height: 36vh;
+  overflow: hidden;
   z-index: 60;
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  padding: 16px 18px 14px;
+  gap: 7px;
+  padding: 8px 20px 6px;
   background: color-mix(in srgb, var(--card) 23%, transparent);
   backdrop-filter: blur(14px) saturate(1.05);
   -webkit-backdrop-filter: blur(14px) saturate(1.05);
@@ -254,14 +256,14 @@ onBeforeUnmount(() => {
 }
 .titles h3 {
   font-family: var(--font-display);
-  font-size: var(--fs-h3);
-  line-height: 1.25;
+  font-size: 16px;
+  line-height: 1.2;
   color: var(--ink);
   text-shadow: 0 1px 2px rgba(255, 255, 255, 0.55);
 }
 .titles p {
-  margin-top: 3px;
-  font-size: 12.5px;
+  margin-top: 1px;
+  font-size: 12px;
   letter-spacing: 0.06em;
   color: var(--ink-2);
   text-shadow: 0 1px 2px rgba(255, 255, 255, 0.55);
@@ -282,11 +284,24 @@ onBeforeUnmount(() => {
   border-color: var(--rule-2);
 }
 
+/* Only the text area shrinks and scrolls; controls stay visible. */
+.step {
+  flex: 0 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+}
+
 .caption {
-  /* Two lines of room, so the panel does not jump between steps. */
-  min-height: 3.4em;
-  font-size: var(--fs-sm);
-  line-height: 1.7;
+  /* Three lines of room, so the panel does not jump between steps. */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  /* Two lines of room; wider card keeps most captions to two lines. */
+  min-height: 3.5em;
+  overflow: hidden;
+  font-size: max(13px, var(--fs-sm));
+  line-height: 1.75;
   color: var(--ink-2);
   text-shadow: 0 1px 2px rgba(255, 255, 255, 0.55);
 }
@@ -333,7 +348,7 @@ onBeforeUnmount(() => {
   gap: 8px;
 }
 .btn {
-  padding: 4px 12px;
+  padding: 2px 11px;
   font-size: 12.5px;
   letter-spacing: 0.08em;
   color: var(--ink-2);
@@ -364,9 +379,20 @@ onBeforeUnmount(() => {
 }
 
 .credit {
-  font-size: 11px;
+  margin-top: -4px;
+  font-size: 10px;
   color: var(--ink-3);
   text-align: right;
+}
+
+@media (max-width: 767px) {
+  .player {
+    width: 92vw;
+    padding: 8px 13px 6px;
+  }
+  .caption {
+    font-size: max(13px, var(--fs-sm));
+  }
 }
 
 .fade-enter-active,
