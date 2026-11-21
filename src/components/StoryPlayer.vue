@@ -219,7 +219,6 @@ onBeforeUnmount(() => {
       </button>
       <button class="btn" :disabled="atEnd" @click="next">{{ ui.t('story.next') }}</button>
       <span class="pos mono">{{ index + 1 }} / {{ story.steps.length }}</span>
-      <span class="credit">已人工校对</span>
     </div>
   </section>
 </template>
@@ -376,14 +375,6 @@ onBeforeUnmount(() => {
   font-size: 11.5px;
   letter-spacing: 0.12em;
   color: var(--ink-4);
-}
-
-.credit {
-  flex: none;
-  margin-left: 8px;
-  font-size: 10px;
-  color: var(--ink-3);
-  white-space: nowrap;
 }
 
 @media (max-width: 767px) {
