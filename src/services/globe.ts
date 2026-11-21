@@ -144,6 +144,51 @@ function diamondTexture(fill: string, stroke: string, size = 32): HTMLCanvasElem
   return canvas;
 }
 
+/**
+ * The 2D map marks a story stop with a teardrop pin carrying a paper-coloured
+ * dot, and the label sits under it. The globe draws the same shape from a
+ * canvas texture, so a stop looks identical in both modes.
+ */
+function storyPinTexture(): HTMLCanvasElement {
+  const scale = 2;
+  const canvas = document.createElement('canvas');
+  canvas.width = 20 * scale;
+  canvas.height = 24 * scale;
+  const ctx = canvas.getContext('2d');
+  if (!ctx) return canvas;
+  ctx.scale(scale, scale);
+
+  const path = new Path2D(
+    'M10 0C5.6 0 2.5 4 2.5 8.5c0 5.6 7.5 13 7.5 13s7.5-7.4 7.5-13C17.5 4 14.4 0 10 0z',
+  );
+
+  ctx.save();
+  ctx.shadowColor = 'rgba(0, 0, 0, 0.32)';
+  ctx.shadowBlur = 2;
+  ctx.shadowOffsetY = 1;
+  ctx.fillStyle = '#c0392b';
+  ctx.fill(path);
+  ctx.restore();
+
+  ctx.strokeStyle = '#f7f5f0';
+  ctx.lineWidth = 1.4;
+  ctx.stroke(path);
+
+  ctx.beginPath();
+  ctx.arc(10, 8.5, 2.6, 0, Math.PI * 2);
+  ctx.fillStyle = '#f7f5f0';
+  ctx.fill();
+
+  return canvas;
+}
+
+/** One shared pin bitmap: the texture never changes, so build it once. */
+let storyPinBitmap: HTMLCanvasElement | null = null;
+function storyPinImage(): HTMLCanvasElement {
+  if (!storyPinBitmap) storyPinBitmap = storyPinTexture();
+  return storyPinBitmap;
+}
+
 interface PolityHandle {
   entity: Cesium.Entity;
   feature: PolityFeature;
@@ -904,11 +949,11 @@ class GlobeEngine {
     this.storyRegionEntities.push(
       viewer.entities.add({
         position,
-        point: {
-          pixelSize: 8,
-          color: warm,
-          outlineColor: Cesium.Color.fromCssColorString('#f7f5f0'),
-          outlineWidth: 1.5,
+        billboard: {
+          image: storyPinImage(),
+          width: 20,
+          height: 24,
+          verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
           disableDepthTestDistance: Number.POSITIVE_INFINITY,
         },
       }),
@@ -919,17 +964,18 @@ class GlobeEngine {
         position,
         label: {
           text: step.regionLabel ?? step.title,
-          font: '600 12px "Noto Sans SC", "PingFang SC", system-ui, sans-serif',
+          font: '600 12px Inter, "Noto Sans SC", "PingFang SC", system-ui, sans-serif',
           fillColor: Cesium.Color.fromCssColorString('#1a1c20'),
           outlineColor: Cesium.Color.fromCssColorString('#f7f5f0').withAlpha(0.9),
           outlineWidth: 3,
           style: Cesium.LabelStyle.FILL_AND_OUTLINE,
           showBackground: true,
-          backgroundColor: Cesium.Color.fromCssColorString('#f7f5f0').withAlpha(0.6),
+          backgroundColor: Cesium.Color.fromCssColorString('#f7f5f0').withAlpha(0.82),
           backgroundPadding: new Cesium.Cartesian2(5, 3),
-          pixelOffset: new Cesium.Cartesian2(0, -18),
+          // Below the pin, mirroring the 2D marker layout.
+          pixelOffset: new Cesium.Cartesian2(0, 6),
           horizontalOrigin: Cesium.HorizontalOrigin.CENTER,
-          verticalOrigin: Cesium.VerticalOrigin.CENTER,
+          verticalOrigin: Cesium.VerticalOrigin.TOP,
           disableDepthTestDistance: Number.POSITIVE_INFINITY,
         },
       }),
