@@ -43,7 +43,31 @@ async function load() {
   }
 }
 
-watch(() => [timeline.year, ui.locale] as const, load, { immediate: true });
+/*
+ * A drag rewrites the year on every pointer move and the year files cannot be
+ * cancelled once requested, so a request per move only piles up behind the
+ * others. Nothing loads during the drag; the release below reloads once.
+ */
+watch(
+  () => [timeline.year, ui.locale] as const,
+  () => {
+    if (timeline.scrubbing) {
+      // The heading has already moved, so the previous year's account would be
+      // read as the new one's.
+      loading.value = true;
+      return;
+    }
+    void load();
+  },
+  { immediate: true },
+);
+
+watch(
+  () => timeline.scrubbing,
+  (scrubbing) => {
+    if (!scrubbing) void load();
+  },
+);
 
 onBeforeUnmount(() => abort?.abort());
 </script>

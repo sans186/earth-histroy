@@ -88,6 +88,11 @@ export interface GlobeCallbacks {
   onHoverPolity?: (feature: PolityFeature | null) => void;
   onPickWar?: (warId: string) => void;
   onViewChange?: () => void;
+  /**
+   * The scene threw while drawing. Reported once per rate-limit window so the
+   * reader learns the globe is degraded instead of finding it silently frozen.
+   */
+  onRenderError?: (error: Error) => void;
 }
 
 /** One war theatre, as plotted on the globe. */
@@ -234,7 +239,8 @@ class GlobeEngine {
   /** Cancels the in-flight story route transition, if any. */
   private storyRouteCancel: (() => void) | null = null;
 
-  private polityLayer = new Cesium.CustomDataSource('polities');
+  /** Created per viewer; null between `destroy()` and the next `init()`. */
+  private polityLayer: Cesium.CustomDataSource | null = null;
   /** Name entities of the last render, so the layer switch avoids a redraw. */
   private polityLabels: Cesium.Entity[] = [];
   private handles: PolityHandle[] = [];
@@ -326,7 +332,9 @@ class GlobeEngine {
       ),
     });
 
-    this.applyImagery('standard');
+    // Keep the basemap the reader picked: a rebuilt viewer starts from the
+    // stored choice rather than resetting the picture under the layers state.
+    this.applyImagery(this.base);
     this.addGraticule();
     this.addLayerDataSources();
     this.installPickPipeline();
@@ -362,6 +370,12 @@ class GlobeEngine {
        */
       const now = Date.now();
       this.renderErrorTimes = this.renderErrorTimes.filter((at) => now - at < 5_000);
+      /*
+       * Surface the first fault of a window, not every frame. A fault that
+       * repeats is already visible in the console, and a toast per frame would
+       * bury the UI it is meant to warn about.
+       */
+      if (this.renderErrorTimes.length === 0) this.callbacks.onRenderError?.(error);
       if (this.renderErrorTimes.length >= 3) return;
       this.renderErrorTimes.push(now);
 
@@ -464,6 +478,16 @@ class GlobeEngine {
     this.bordersWanted = false;
     this.imagery = null;
     this.grid = null;
+    /*
+     * The callbacks close over the unmounting component. Keeping them on this
+     * singleton would hold that component's graph alive for as long as the app
+     * runs, and could call into it after teardown.
+     */
+    this.callbacks = {};
+    // The viewer destroyed its data sources with it; this would otherwise be a
+    // dangling reference into Cesium's destroyed objects.
+    this.polityLayer = null;
+    // `base` is deliberately kept: it is the reader's choice, restored by init.
   }
 
   /**
@@ -484,8 +508,9 @@ class GlobeEngine {
   private addLayerDataSources() {
     const viewer = this.viewer;
     if (!viewer) return;
-    this.polityLayer = new Cesium.CustomDataSource('polities');
-    viewer.dataSources.add(this.polityLayer);
+    const layer = new Cesium.CustomDataSource('polities');
+    this.polityLayer = layer;
+    viewer.dataSources.add(layer);
   }
 
   /** Moves the polity layer onto a new data source, dropping the old batches. */
@@ -494,7 +519,7 @@ class GlobeEngine {
     viewer.dataSources.add(next);
     const previous = this.polityLayer;
     this.polityLayer = next;
-    if (viewer.dataSources.contains(previous)) {
+    if (previous && viewer.dataSources.contains(previous)) {
       viewer.dataSources.remove(previous, true);
     }
     return next;
@@ -733,7 +758,7 @@ class GlobeEngine {
 
   private applyHighlight(handle: PolityHandle) {
     const { entity } = handle;
-    if (!this.polityLayer.entities.contains(entity)) return;
+    if (!this.polityLayer?.entities.contains(entity)) return;
     const polygon = entity.polygon;
     if (!polygon) return;
     const accent = Cesium.Color.fromCssColorString(css('--accent', '#b0522d')).withAlpha(0.95);
@@ -758,7 +783,7 @@ class GlobeEngine {
     const handle = this.hovered;
     if (!handle) return;
     // Only touch the entity if it still belongs to the current render.
-    if (this.polityLayer.entities.contains(handle.entity) && handle.entity.polygon) {
+    if (this.polityLayer?.entities.contains(handle.entity) && handle.entity.polygon) {
       handle.entity.polygon.material = new Cesium.ColorMaterialProperty(handle.fill);
       handle.entity.polygon.outlineColor = new Cesium.ConstantProperty(handle.stroke);
     }
@@ -1709,7 +1734,7 @@ class GlobeEngine {
   clearPolities() {
     this.clearHighlight();
     this.hovered = null;
-    this.polityLayer.entities.removeAll();
+    this.polityLayer?.entities.removeAll();
     this.handles = [];
     this.sceneHandles.clear();
     this.polityLabels = [];

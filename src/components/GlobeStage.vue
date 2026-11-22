@@ -50,7 +50,11 @@ onMounted(async () => {
   } catch (err) {
     // One shared error state for both renderers; ErrorNotice renders it with
     // a real "reload" action instead of this component's local overlay.
-    ui.setError(rendererError(ui.locale, (err as Error)?.message ?? err));
+    // The stack is what identifies which Cesium call failed; the banner clips
+    // it to 300 characters on its way into the diagnostics blob.
+    ui.setError(
+      rendererError(ui.locale, err instanceof Error ? (err.stack ?? err.message) : err),
+    );
   }
 });
 

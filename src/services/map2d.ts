@@ -157,6 +157,14 @@ export class Map2D {
   /** Cancels the in-flight story route transition, if any. */
   private storyRouteCancel: (() => void) | null = null;
   /**
+   * Pending `flyTo` promises, one settle function each.
+   *
+   * They resolve on `moveend`, which a removed map never fires: a view switch
+   * mid-flight used to leave the promise pending forever, and the story step
+   * chained on it never ran. `destroy()` settles them explicitly.
+   */
+  private flyToPending = new Set<() => void>();
+  /**
    * Lookup tables, so a rendered feature only carries a short key instead of a
    * whole record. MapLibre serialises every property value, and pushing full
    * event objects through the tile pipeline doubles the work for no gain.
@@ -1174,11 +1182,20 @@ export class Map2D {
       // signal the story uses to know the camera has arrived.
       const settle = () => {
         map.off('moveend', settle);
+        this.flyToPending.delete(settle);
         resolve();
       };
+      this.flyToPending.add(settle);
       map.on('moveend', settle);
       map.flyTo({ center: [lon, lat], zoom: zoom ?? Math.max(map.getZoom(), 5) });
     });
+  }
+
+  /** Resolves every in-flight `flyTo`; the camera will never move again. */
+  private settleFlights() {
+    const pending = [...this.flyToPending];
+    this.flyToPending.clear();
+    for (const settle of pending) settle();
   }
 
   /** Flat-map centre and zoom, so a story can restore the reader's view. */
@@ -1341,6 +1358,9 @@ export class Map2D {
     if (this.labelFrame) cancelAnimationFrame(this.labelFrame);
     this.labelFrame = 0;
     this.cancelStoryRoute();
+    // A flight still waiting on `moveend` would never settle once the map is
+    // removed, so its continuation (the story step) would be dropped silently.
+    this.settleFlights();
     // The host is a sibling of the canvas, so `map.remove()` does not take it.
     this.labelHost?.remove();
     this.labelHost = null;

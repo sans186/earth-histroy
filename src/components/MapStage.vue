@@ -55,9 +55,17 @@ const cats = computed(() =>
  * cheap to reuse.
  */
 let polityGen = 0;
+/**
+ * Set when the century file for the current year is missing or unusable.
+ * The status pill would otherwise read "0 polities" — indistinguishable from a
+ * century that genuinely has none, and after a failed load it could also sit on
+ * "loading" forever because nothing else resets the flag.
+ */
+const polityUnavailable = ref(false);
 async function paintPolities() {
   const gen = ++polityGen;
   if (!layers.showPolities) {
+    polityUnavailable.value = false;
     map2d.clearPolities();
     return;
   }
@@ -68,10 +76,36 @@ async function paintPolities() {
     const own = entries.find((e) => timeline.year >= e.start && timeline.year < e.end) ?? entries[0];
     if (!own) {
       map2d.clearPolities();
+      polityUnavailable.value = true;
+      layers.polityStatus = {
+        ...layers.polityStatus,
+        year: timeline.year,
+        shown: 0,
+        matched: 0,
+        loading: false,
+        ready: true,
+      };
       return;
     }
     const collection = await loadPolityFile(own, 'lod');
-    if (gen !== polityGen || !collection) return;
+    if (gen !== polityGen) return;
+    if (!collection) {
+      // A missing or structurally broken century file degrades this layer only:
+      // clear the stale polygons, settle the status, and tell the reader instead
+      // of leaving "loading" up or claiming a successful empty load.
+      map2d.clearPolities();
+      polityUnavailable.value = true;
+      layers.polityStatus = {
+        ...layers.polityStatus,
+        year: timeline.year,
+        shown: 0,
+        matched: 0,
+        loading: false,
+        ready: true,
+      };
+      return;
+    }
+    polityUnavailable.value = false;
 
     const year = timeline.year;
     const features = collection.features.filter((feature) => {
@@ -96,6 +130,9 @@ async function paintPolities() {
     };
   } catch {
     // The 2D map is an enhancement; a failed polity load must not blank it.
+    // Settle the status all the same, so the pill cannot stay on "loading".
+    polityUnavailable.value = true;
+    layers.polityStatus = { ...layers.polityStatus, loading: false, ready: true };
   }
 }
 
@@ -179,6 +216,9 @@ onMounted(() => {
 
 onBeforeUnmount(() => {
   if (yearTimer) clearTimeout(yearTimer);
+  // Drop the generation so a century file that lands after teardown cannot
+  // write `layers.polityStatus` for a renderer that no longer exists.
+  polityGen += 1;
   map2d.destroy();
 });
 
@@ -231,7 +271,10 @@ watch(
     <span class="era-v">{{ eraText }}</span>
 
     <div v-if="layers.showPolities" class="status">
-      <template v-if="layers.polityStatus.ready">
+      <template v-if="polityUnavailable">
+        <span class="cap">{{ ui.t('polity.unavailable') }}</span>
+      </template>
+      <template v-else-if="layers.polityStatus.ready">
         <span class="mono">{{ layers.polityStatus.shown }}</span>
         <span class="cap">{{ ui.t('status.polities') }}</span>
       </template>

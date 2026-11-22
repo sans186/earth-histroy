@@ -323,6 +323,18 @@ export function useGlobeData() {
       if (!entries.length) {
         lastPolitySignature = '';
         globe.clearPolities();
+        // An unreadable or empty index is a data problem, not a pending load:
+        // settle the status so the pill does not spin forever.
+        layers.polityStatus = {
+          ...layers.polityStatus,
+          shown: 0,
+          matched: 0,
+          hidden: 0,
+          partsHidden: 0,
+          loading: false,
+          ready: true,
+        };
+        done();
         return;
       }
 
@@ -410,6 +422,21 @@ export function useGlobeData() {
     people.resetForRetry();
   }
 
+  /**
+   * Forget what the current renderer was told to draw.
+   *
+   * A stage switch destroys the viewer and builds an empty one, but the
+   * fingerprints above outlive it: every repaint would compare equal and return
+   * without drawing, so events, polities and labels stayed blank after a 2D
+   * detour until their inputs happened to change. Only those fingerprints are
+   * dropped here — `resetCaches` also drops the parsed geometry and the event
+   * window, which the new viewer can still reuse.
+   */
+  function invalidateRenderCache() {
+    lastEventSignature = '';
+    lastPolitySignature = '';
+  }
+
   function resetCaches() {
     clearEventCache();
     clearPolityCache();
@@ -440,6 +467,7 @@ export function useGlobeData() {
     retryData,
     paintEvents,
     onViewSettled,
+    invalidateRenderCache,
     resetCaches,
   };
 }
