@@ -12,6 +12,11 @@
  *   - Latin runs are lower-cased words.
  * The runtime repeats this algorithm on the query, so the two cannot drift.
  *
+ * The output is committed, so it must be a pure function of the input files: the
+ * same data has to produce the same bytes, or every `npm run prebuild` shows up
+ * as a dirty file in `git status`. That is why there is no build timestamp in
+ * the document and why the year files are sorted before being read.
+ *
  * Usage: node scripts/data/build-search-index.mjs
  */
 
@@ -127,7 +132,12 @@ const items = [];
 
 const eventsDir = resolve(PUBLIC, 'events');
 const enEventsDir = resolve(PUBLIC, 'en-events');
-const eventFiles = readdirSync(eventsDir).filter((f) => /^-?\d+\.json$/.test(f));
+// readdirSync order is filesystem-dependent; sorting keeps the item order (and
+// therefore every token's postings) stable across machines and rebuilds. Numeric
+// so that negative (BCE) years come first instead of sorting as text.
+const eventFiles = readdirSync(eventsDir)
+  .filter((f) => /^-?\d+\.json$/.test(f))
+  .sort((a, b) => Number.parseInt(a, 10) - Number.parseInt(b, 10));
 
 for (const file of eventFiles) {
   const year = Number(file.replace(/\.json$/, ''));
@@ -236,9 +246,10 @@ items.forEach((item, index) => {
   }
 });
 
+// No timestamp here: the document is tracked by git, and a fresh one on every
+// prebuild rewrote the file with no information the client ever reads.
 const output = {
   version: 1,
-  generatedAt: new Date().toISOString(),
   items,
   tokens,
 };
