@@ -37,13 +37,18 @@ import type {
 const yearCache = new Map<string, YearFile | null>();
 const inflight = new Map<string, Promise<YearFile | null>>();
 
-function cachePut(key: string, value: YearFile | null) {
-  yearCache.set(key, value);
-  while (yearCache.size > DATA_CACHE_SIZE) {
-    const oldest = yearCache.keys().next().value;
+/** Keep a parsed-file cache bounded: the oldest insertion is dropped first. */
+function putBounded<K, V>(cache: Map<K, V>, key: K, value: V, limit: number) {
+  cache.set(key, value);
+  while (cache.size > limit) {
+    const oldest = cache.keys().next().value;
     if (oldest === undefined) break;
-    yearCache.delete(oldest);
+    cache.delete(oldest);
   }
+}
+
+function cachePut(key: string, value: YearFile | null) {
+  putBounded(yearCache, key, value, DATA_CACHE_SIZE);
 }
 
 function abortError(): Error {
@@ -97,7 +102,10 @@ async function fetchYearFile(
   const pending = inflight.get(key);
   if (pending) return abortable(pending, signal);
 
-  const task = (async () => {
+  // Assigned before the task's first `await` can settle, which is what lets the
+  // finally block below compare it with the entry currently registered.
+  let task!: Promise<YearFile | null>;
+  task = (async () => {
     try {
       const json = await fetchJson<YearFile>(`${base}${year}.json`, {
         allowMissing: true,
@@ -116,7 +124,10 @@ async function fetchYearFile(
       // and Retry could not possibly recover it.
       throw err;
     } finally {
-      inflight.delete(key);
+      // clearEventCache() may have dropped this entry and a newer task may have
+      // registered the same key since; deleting that one would break the
+      // deduplication and issue a second request for the same file.
+      if (inflight.get(key) === task) inflight.delete(key);
     }
   })();
 
@@ -293,6 +304,15 @@ export interface YearContext {
 
 const contextCache = new Map<string, YearContext | null>();
 
+/*
+ * This is a per-year view of the same files the year cache holds, so it gets the
+ * same ceiling. Unbounded, it kept one entry per year visited for the whole
+ * session — every scrub across a thousand years pinned another record.
+ */
+function cacheContext(key: string, value: YearContext | null) {
+  putBounded(contextCache, key, value, DATA_CACHE_SIZE);
+}
+
 export async function loadYearContext(
   year: number,
   locale: Locale,
@@ -306,7 +326,7 @@ export async function loadYearContext(
   try {
     const file = await fetchYearFile(year, locale, signal);
     if (!file) {
-      contextCache.set(key, null);
+      cacheContext(key, null);
       return null;
     }
     const meta = metaFrom(file);
@@ -319,7 +339,7 @@ export async function loadYearContext(
       coverageGaps: meta.coverageGaps,
       eventCount: Array.isArray(file.events) ? file.events.length : 0,
     };
-    contextCache.set(key, context);
+    cacheContext(key, context);
     return context;
   } catch {
     // The year card is optional. Do not cache the failure — closing and
@@ -340,13 +360,23 @@ export async function loadPolityIndex(): Promise<CenturyEntry[]> {
     `${POLITIES_BASE}index.json`,
   );
   const raw = Array.isArray(json) ? json : (json.centuries ?? []);
+  /*
+   * The index is read before every polity paint. A file that parsed but has the
+   * wrong shape — an object where the array belongs, a row without numeric
+   * bounds — used to throw inside `.map` or sort to a NaN century, and both
+   * reached the fatal full-screen notice. Drop the unusable rows instead: the
+   * layer stays empty and the rest of the interface keeps working.
+   */
+  const entries = Array.isArray(raw) ? raw : [];
   // The shipped index only carries start/end/count; the file name is derived.
-  polityIndexCache = raw.map((entry) => ({
-    start: entry.start,
-    end: entry.end,
-    count: entry.count ?? 0,
-    file: (entry as CenturyEntry).file ?? `polities_${entry.start}_${entry.end}.json`,
-  }));
+  polityIndexCache = entries
+    .filter((entry) => Number.isFinite(entry.start) && Number.isFinite(entry.end))
+    .map((entry) => ({
+      start: entry.start,
+      end: entry.end,
+      count: entry.count ?? 0,
+      file: (entry as CenturyEntry).file ?? `polities_${entry.start}_${entry.end}.json`,
+    }));
   return polityIndexCache;
 }
 
@@ -372,6 +402,36 @@ export function polityFileName(entry: CenturyEntry, tier: PolityTier): string {
 /** Keyed by file name, so the two tiers of one century coexist. A `null` value
  *  records a known miss and stops a missing LOD file being re-fetched. */
 const polityCache = new Map<string, PolityCollection | null>();
+
+/** A full-tier file is tens of megabytes, so only the most recent few are kept. */
+const POLITY_CACHE_SIZE = 6;
+
+function cachePolity(name: string, value: PolityCollection | null) {
+  putBounded(polityCache, name, value, POLITY_CACHE_SIZE);
+}
+
+/**
+ * Whether a century file is safe to hand to the renderers.
+ *
+ * A file can parse as JSON and still be unusable: a truncated export leaves
+ * `features` null, and a half-written feature has no geometry or no coordinate
+ * array. Both render paths walk `features` and read `geometry.type` without a
+ * guard, so letting such a file through turns a shipped-data defect into an
+ * uncaught exception that takes the whole interface down — the polity layer is
+ * an enhancement, so degrading it is the correct outcome, not blanking the app.
+ */
+function isPolityCollection(value: unknown): value is PolityCollection {
+  if (typeof value !== 'object' || value === null) return false;
+  const { features } = value as { features?: unknown };
+  if (!Array.isArray(features)) return false;
+  return features.every((feature: unknown) => {
+    if (typeof feature !== 'object' || feature === null) return false;
+    const { geometry } = feature as { geometry?: unknown };
+    if (typeof geometry !== 'object' || geometry === null) return false;
+    const { type, coordinates } = geometry as { type?: unknown; coordinates?: unknown };
+    return (type === 'Polygon' || type === 'MultiPolygon') && Array.isArray(coordinates);
+  });
+}
 
 /** The century file that contains `year`, plus its neighbours. */
 export function pickCenturyFiles(index: CenturyEntry[], year: number): CenturyEntry[] {
@@ -402,30 +462,34 @@ export async function loadPolityFile(
     });
   } catch (err) {
     if (!(err instanceof DataFetchError)) throw err;
-    if (tier === 'lod') {
-      // A missing or failing LOD file must not blank the layer — fall back to
-      // the full tier, which is what the client loaded before the tiers
-      // existed. The failure is still reported by the request layer. The miss
-      // is cached so it is not repeated on every refresh.
-      const fallback = await loadPolityFile(entry, 'full');
-      polityCache.set(name, fallback);
-      return fallback;
-    }
     if (err.record.status === 404) {
-      // A missing full file is a shipped-data problem, already reported by the
-      // request layer. Degrade the layer, and leave it uncached so Retry works.
-      return null;
+      if (tier !== 'lod') {
+        // A missing full file is a shipped-data problem, already reported by the
+        // request layer. Degrade the layer, and leave it uncached so Retry works.
+        return null;
+      }
+      /*
+       * Only a definitively missing LOD sibling falls back to the full tier.
+       * Every failure used to do it — a timeout included — which pulled the 18 MB
+       * full file into the cache and pinned a transient network fault for the
+       * whole session, where nothing would retry the LOD file again. The miss is
+       * cached so it is not repeated on every refresh.
+       */
+      const fallback = await loadPolityFile(entry, 'full');
+      cachePolity(name, fallback);
+      return fallback;
     }
     throw err;
   }
 
-  polityCache.set(name, json);
-  // Keep the cache small: a full-tier file is tens of megabytes.
-  while (polityCache.size > 6) {
-    const oldest = polityCache.keys().next().value;
-    if (oldest === undefined) break;
-    polityCache.delete(oldest);
+  if (!isPolityCollection(json)) {
+    // A malformed full or LOD file is a shipped-data problem, not a request
+    // failure. Return the same empty result a missing file produces, so callers
+    // paint an empty century; leave it uncached so Retry re-reads a fixed file.
+    return null;
   }
+
+  cachePolity(name, json);
   return json;
 }
 
@@ -969,6 +1033,88 @@ export function findPolityFacts(
     if (wanted.includes(candidate) || wanted.includes(withoutParens(key))) return value;
   }
   return null;
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   Capitals
+   ══════════════════════════════════════════════════════════════════════════ */
+
+/** Shared gazetteer record for one capital city. */
+export interface CapitalInfo {
+  name: string;
+  nameEn: string;
+  aliases: string[];
+  lon: number;
+  lat: number;
+  modernCountry: string;
+  intro: string;
+  source: string;
+  generatedBy: string;
+  reviewed: boolean;
+}
+
+/** One capital period of a polity; `from`/`to` may be unknown. */
+export interface PolityCapitalEntry {
+  capital: string;
+  from?: number | null;
+  to?: number | null;
+  yearsUnknown?: boolean;
+}
+
+/** `public/ne/polity_capitals.json`. */
+export interface PolityCapitalsFile {
+  version: number;
+  note: string;
+  generatedAt: string;
+  capitals: Record<string, CapitalInfo>;
+  polities: Record<string, { entries: PolityCapitalEntry[] }>;
+}
+
+let polityCapitalsCache: PolityCapitalsFile | null = null;
+let polityCapitalsInflight: Promise<PolityCapitalsFile | null> | null = null;
+
+/**
+ * Capital gazetteer and polity-to-capital periods.
+ *
+ * Optional: the polity card is useful without it, so a missing file degrades to
+ * the plain `facts.capital` line rather than an error.
+ */
+export async function loadPolityCapitals(): Promise<PolityCapitalsFile | null> {
+  if (polityCapitalsCache) return polityCapitalsCache;
+  if (polityCapitalsInflight) return polityCapitalsInflight;
+  polityCapitalsInflight = (async () => {
+    try {
+      const { data, ok } = await fetchOptionalJson<PolityCapitalsFile | null>(
+        `${NE_BASE}polity_capitals.json`,
+        null,
+      );
+      if (ok && data?.capitals && data?.polities) polityCapitalsCache = data;
+      return polityCapitalsCache;
+    } finally {
+      polityCapitalsInflight = null;
+    }
+  })();
+  return polityCapitalsInflight;
+}
+
+/** The capital periods recorded for one polity, in source order. */
+export function findPolityCapitals(
+  name: string,
+  file: PolityCapitalsFile | null,
+): PolityCapitalEntry[] {
+  if (!file) return [];
+  for (const core of nameCores(name)) {
+    const hit = file.polities[core];
+    if (hit?.entries?.length) return hit.entries;
+  }
+  const wanted = nameCores(name).flatMap((core) => [core.toLowerCase(), withoutParens(core)]);
+  for (const [key, value] of Object.entries(file.polities)) {
+    if (!value?.entries?.length) continue;
+    if (wanted.includes(key.toLowerCase()) || wanted.includes(withoutParens(key))) {
+      return value.entries;
+    }
+  }
+  return [];
 }
 
 /* ══════════════════════════════════════════════════════════════════════════
