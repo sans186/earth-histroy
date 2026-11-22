@@ -27,7 +27,7 @@ import { usePeopleStore } from '@/stores/people';
 import { useTimelineStore } from '@/stores/timeline';
 import { useUiStore } from '@/stores/ui';
 import { useWarsStore } from '@/stores/wars';
-import type { PolityFeature, StageMode, TimelineEvent } from '@/types';
+import type { PolityFeature, TimelineEvent } from '@/types';
 import AppHead from './components/AppHead.vue';
 import AboutPage from './components/AboutPage.vue';
 import AtlasBoard from './components/AtlasBoard.vue';
@@ -105,8 +105,18 @@ let storyReturn: {
   year: number;
   camera: { lon: number; lat: number; height?: number; zoom?: number };
 } | null = null;
-/** The renderer the reader was on before a story forced 3D, restored on close. */
-let prevStage: StageMode | null = null;
+/**
+ * Monotonic token for the running story route animation.
+ *
+ * Switching renderer destroys the viewer the animation runs on; the cancelled
+ * flight then resolves like a finished one. Bumping the token makes that stale
+ * result a no-op instead of advancing the player with the camera at its origin.
+ */
+let storyTransitionToken = 0;
+/** A route animation was interrupted by a stage switch and awaits hand-back. */
+let storyHandoffPending = false;
+/** True between the start and end of a route animation. */
+let transitioningStory = false;
 /** The year's own appraisal, opened from the index heading. */
 const yearOpen = ref(false);
 /** The side panel can be folded away to give the globe the full width. */
@@ -151,13 +161,6 @@ async function widenPolitySpan(scope: PolityScope) {
 }
 const bordersLoaded = ref(false);
 
-/**
- * The reader's camera, parked when a story closed across a stage switch (2D →
- * forced 3D → back to 2D). The remounted renderer isn't ready yet, so it is
- * flown to from `onStageReady`.
- */
-let restoreCamera: { lon: number; lat: number; height?: number; zoom?: number } | null = null;
-
 /* ── derived ───────────────────────────────────────────────────────────── */
 
 const selectedOrder = computed(() => {
@@ -171,27 +174,75 @@ const borderCount = computed(() => data.windowEvents.value.length);
 
 /* ── helpers ───────────────────────────────────────────────────────────── */
 
+/**
+ * A debounced call that can also be dropped.
+ *
+ * The timeline rewrites `year` on every pointer move, so the refresh is always
+ * delayed; without a way to cancel it, a refresh is still issued after the app
+ * has been torn down.
+ */
 function debounce<T extends (...args: never[]) => void>(fn: T, wait: number) {
   let timer: number | null = null;
-  return (...args: Parameters<T>) => {
-    if (timer !== null) window.clearTimeout(timer);
-    timer = window.setTimeout(() => fn(...args), wait);
+  return {
+    run(...args: Parameters<T>) {
+      if (timer !== null) window.clearTimeout(timer);
+      timer = window.setTimeout(() => {
+        timer = null;
+        fn(...args);
+      }, wait);
+    },
+    cancel() {
+      if (timer === null) return;
+      window.clearTimeout(timer);
+      timer = null;
+    },
   };
 }
 
 /* ── globe wiring ──────────────────────────────────────────────────────── */
 
 function onStageReady() {
+  // A repeated ready means the renderer was remounted: the stores still describe
+  // what was on the old one, but the new viewer has drawn nothing yet.
+  const rebuilding = globeReady.value;
   globeReady.value = true;
-  // A stage switch remounts the renderer, which drops any plotted story region;
-  // re-plot it now that the new renderer is up.
-  if (storyOpen.value && storyStep.value) showStoryRegion(storyStep.value);
-  // A story that closed across a stage switch parked the reader's camera here.
-  if (restoreCamera) {
-    const c = restoreCamera;
-    restoreCamera = null;
-    if (ui.stage === '3d') globe.flyTo(c.lon, c.lat, c.height ?? 1_200_000);
-    else map2d.flyTo(c.lon, c.lat, c.zoom);
+
+  if (ui.stage === '3d') {
+    /*
+     * The fingerprints kept by `useGlobeData` describe the destroyed viewer.
+     * Left in place, every repaint below compares equal and returns without
+     * drawing, which is what kept the events, polities and war markers blank
+     * after a trip through 2D.
+     */
+    data.invalidateRenderCache();
+    // The new viewer starts with no border sources attached; the switch flag
+    // alone cannot bring them back, the files have to be loaded again.
+    bordersLoaded.value = false;
+    if (layers.showBorders) void ensureBorders();
+  }
+
+  // A stage switch remounts the renderer, which drops any plotted story region
+  // and resets the camera; put the tour back where it was.
+  if (storyOpen.value && storyStep.value) {
+    if (storyHandoffPending) {
+      // The interruption cut a route animation short. Let the player advance to
+      // the step it was heading for; its own `onStoryStep` reframes the camera.
+      storyHandoffPending = false;
+      playerRef.value?.finishTransition();
+    } else {
+      void flyTo(storyStep.value.lon, storyStep.value.lat, storyStep.value.height ?? 1_200_000);
+      showStoryRegion(storyStep.value);
+    }
+  }
+  if (rebuilding && ui.stage === '3d') {
+    // Paint from memory first, so the rebuilt globe is not blank while the
+    // refresh below re-reads the current window.
+    if (data.windowEvents.value.length) data.paintEvents();
+    paintWars();
+    // The route is not covered by a fingerprint: a remount dropped it like the
+    // rest, and repainting it here does not refit the camera (`framedTrail` is
+    // unchanged, so `paintTrajectory` only redraws).
+    paintTrajectory();
   }
   void (async () => {
     // Events first so the map is useful immediately; the heavy polity files
@@ -250,11 +301,8 @@ function openStory(next: Story = STORIES[0]) {
   if (storyOpen.value) return;
   story.value = next;
   storyReturn = { year: timeline.year, camera: currentCamera() };
-  // The route arcs only read as flights on the globe, so pin the story to 3D
-  // and remember where the reader was so closing puts them back.
-  prevStage = ui.stage;
+  // The tour plays on whichever renderer the reader is already using.
   storyOpen.value = true;
-  if (ui.stage !== '3d') ui.setStage('3d');
 
   // The tour owns the screen: no detail card, and the map must be visible.
   ui.selectedEvent = null;
@@ -307,11 +355,20 @@ async function onStoryStep(step: StoryStep) {
  */
 async function onStoryTransition({ from, to }: { from: StoryStep; to: StoryStep }) {
   const mode = to.route ?? 'air';
-  if (ui.stage === '3d') {
-    await globe.animateStoryRoute(from, to, mode);
-  } else {
-    await map2d.animateStoryRoute(from, to, mode);
+  const token = ++storyTransitionToken;
+  transitioningStory = true;
+  try {
+    if (ui.stage === '3d') {
+      await globe.animateStoryRoute(from, to, mode);
+    } else {
+      await map2d.animateStoryRoute(from, to, mode);
+    }
+  } finally {
+    transitioningStory = false;
   }
+  // A stage switch happened mid-flight: that animation died with the old
+  // renderer, and `onStageReady` hands the player back on the new one.
+  if (token !== storyTransitionToken) return;
 
   // Flag the handoff so the step's own camera move is skipped for this one step.
   arrivingFromTransition = true;
@@ -324,32 +381,43 @@ function closeStory() {
   // Any route line still growing must be torn down before the view resets.
   globe.cancelStoryRoute();
   map2d.cancelStoryRoute();
+  // An animation cut off here must not resolve later and advance a closed tour.
+  storyTransitionToken += 1;
+  storyHandoffPending = false;
+  transitioningStory = false;
   clearStoryRegion();
   storyStep.value = null;
   storyOpen.value = false;
   if (ui.stage === '3d') globe.setCameraInertia(true);
 
-  // Put the reader back on their original renderer, unless they switched it
-  // themselves while the tour was open.
-  const switchedStage = prevStage !== null && prevStage !== '3d' && ui.stage === '3d';
-  if (switchedStage) ui.setStage(prevStage!);
-  prevStage = null;
-
   const back = storyReturn;
   storyReturn = null;
   if (!back) return;
 
-  // Restore the cursor first, then the camera that framed it.
+  // Restore the cursor first, then the camera that framed it. The reader may
+  // have switched renderer during the tour, so the matching field is used.
   timeline.setYear(back.year);
-  if (switchedStage) {
-    // The remounted renderer isn't ready yet; onStageReady flies it.
-    restoreCamera = { lon: back.camera.lon, lat: back.camera.lat, zoom: back.camera.zoom };
-  } else if (ui.stage === '3d') {
+  if (ui.stage === '3d') {
     globe.flyTo(back.camera.lon, back.camera.lat, back.camera.height ?? 1_200_000);
   } else {
     map2d.flyTo(back.camera.lon, back.camera.lat, back.camera.zoom);
   }
 }
+
+/*
+ * A story now plays in whichever renderer is mounted, so a stage switch is
+ * allowed. The route animation, however, owns the camera for the length of a
+ * transition and its flight dies with the old viewer; invalidate that animation
+ * and let `onStageReady` hand the player back on the new renderer.
+ */
+watch(
+  () => ui.stage,
+  () => {
+    if (!storyOpen.value) return;
+    storyTransitionToken += 1;
+    if (transitioningStory) storyHandoffPending = true;
+  },
+);
 
 /* The flat map subscribes to the stores directly, so these 3D-only passes are
  * gated in one place instead of at every call site. */
@@ -1118,7 +1186,7 @@ onBeforeUnmount(() => {
       </button>
     </main>
 
-    <TimeScale v-if="!presentation" />
+    <TimeScale v-if="!presentation && !storyOpen" />
 
     <AboutPage v-if="aboutOpen" @close="aboutOpen = false" />
 
@@ -1164,17 +1232,22 @@ onBeforeUnmount(() => {
   display: grid;
   grid-template-rows: var(--head-h) minmax(0, 1fr) var(--foot-h);
 }
+/* Story mode gives the map the full width and drops the time scale, so the
+   footer row goes with it. The panel is also unmounted in the template; this
+   keeps the grid honest for the transition frame. */
+.app.story-mode {
+  grid-template-rows: var(--head-h) minmax(0, 1fr);
+}
+/* Declared after `story-mode` so the full-screen mode still wins when both. */
 .app.presentation {
   grid-template-rows: minmax(0, 1fr);
 }
 
-/* Story mode gives the map the full width. The panel is also unmounted in the
-   template; this keeps the grid honest for the transition frame. */
 .app.story-mode main {
   grid-template-columns: minmax(0, 1fr);
 }
 .app.story-mode :deep(.player) {
-  bottom: calc(var(--foot-h) + 16px);
+  bottom: 16px;
 }
 
 main {
