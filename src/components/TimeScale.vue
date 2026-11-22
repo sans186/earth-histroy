@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue';
-import { ERAS, SCALE_MAX, YEAR_MAX, YEAR_MIN, eraSpan } from '@/config';
+import { ERAS, SCALE_MAX, SCALE_MIN, eraSpan } from '@/config';
 import { formatYearCompact } from '@/lib/format';
 import { useTimelineStore } from '@/stores/timeline';
 import { useUiStore } from '@/stores/ui';
@@ -25,6 +25,10 @@ const eras = computed(() =>
 );
 
 const handleLeft = computed(() => `${(timeline.scale / SCALE_MAX) * 100}%`);
+
+const zoomText = computed(() =>
+  ui.tf('scale.zoom', { value: Math.round((timeline.scale / SCALE_MAX) * 100) }),
+);
 
 const ticks = computed(() => {
   const out: { left: string; major: boolean }[] = [];
@@ -72,13 +76,19 @@ function onPointerUp(event: PointerEvent) {
 
 function onKey(event: KeyboardEvent) {
   const big = event.shiftKey ? 100 : 25;
+  let handled = false;
   if (event.key === 'ArrowLeft') {
     timeline.setScale(Math.max(0, timeline.scale - big));
-    event.preventDefault();
+    handled = true;
   } else if (event.key === 'ArrowRight') {
     timeline.setScale(Math.min(SCALE_MAX, timeline.scale + big));
-    event.preventDefault();
+    handled = true;
   }
+  if (!handled) return;
+  // App binds arrow keys to the year on window; keep them from crossing scopes.
+  // Everything else (Escape closing a card, Tab leaving the slider) must bubble.
+  event.preventDefault();
+  event.stopPropagation();
 }
 
 /**
@@ -152,10 +162,11 @@ function applyJump() {
         class="track"
         role="slider"
         tabindex="0"
-        :aria-valuemin="YEAR_MIN"
-        :aria-valuemax="YEAR_MAX"
-        :aria-valuenow="timeline.year"
-        :aria-valuetext="`${timeline.year}`"
+        :aria-label="ui.t('scale.zoomLabel')"
+        :aria-valuemin="SCALE_MIN"
+        :aria-valuemax="SCALE_MAX"
+        :aria-valuenow="timeline.scale"
+        :aria-valuetext="zoomText"
         @pointerdown="onPointerDown"
         @pointermove="onPointerMove"
         @pointerup="onPointerUp"

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue';
+import { formatYearCompact } from '@/lib/format';
 import { useTimelineStore } from '@/stores/timeline';
 import { useUiStore } from '@/stores/ui';
 import type { ViewMode } from '@/types';
@@ -14,7 +15,7 @@ const views: { id: ViewMode; key: 'nav.explore' | 'nav.atlas' }[] = [
   { id: 'atlas', key: 'nav.atlas' },
 ];
 
-const yearText = computed(() => `${timeline.absYear}`);
+const yearText = computed(() => formatYearCompact(timeline.year, ui.locale));
 const eraText = computed(() => (ui.locale === 'zh' ? timeline.era.name : timeline.era.nameEn));
 </script>
 
@@ -54,6 +55,7 @@ const eraText = computed(() => (ui.locale === 'zh' ? timeline.era.name : timelin
       <span class="rule" />
       <button
         class="ghost"
+        data-search-trigger
         :title="ui.t('search.open')"
         :aria-label="ui.t('search.open')"
         @click="emit('openSearch')"

@@ -2,6 +2,7 @@
 import { computed, onMounted, watch } from 'vue';
 import { getEra } from '@/config';
 import { formatYearShort } from '@/lib/format';
+import type { MessageKey } from '@/lib/i18n';
 import { usePeopleStore, type PeopleSort } from '@/stores/people';
 import { useTimelineStore } from '@/stores/timeline';
 import { useUiStore } from '@/stores/ui';
@@ -21,6 +22,39 @@ const sorts: {
 ];
 
 const total = computed(() => people.index.length);
+
+/**
+ * The index stores era as one of ten Chinese literals, which is also the filter
+ * value. Rendering the literal would leak Chinese into the English UI, so the
+ * labels are translated here while the stored values stay untouched.
+ */
+const ERA_KEYS: Record<string, MessageKey> = {
+  古代: 'people.era.ancient',
+  未知: 'people.era.unknown',
+  中世纪: 'people.era.medieval',
+  近代早期: 'people.era.earlyModern',
+  '19世纪': 'people.era.c19',
+  '20世纪': 'people.era.c20',
+  西汉: 'people.era.westernHan',
+  唐朝初期: 'people.era.earlyTang',
+  元末明初: 'people.era.lateYuanEarlyMing',
+  清朝: 'people.era.qing',
+};
+
+function eraLabel(era: string): string {
+  const key = ERA_KEYS[era];
+  return key ? ui.t(key) : era;
+}
+
+function personName(person: PersonIndexItem): string {
+  return ui.locale === 'zh' ? person.name || person.nameEn : person.nameEn || person.name;
+}
+
+function personNationality(person: PersonIndexItem): string {
+  return ui.locale === 'zh'
+    ? person.nationality || person.nationalityEn
+    : person.nationalityEn || person.nationality;
+}
 
 /** The "alive in this year" filter tracks the timeline, not a private field. */
 watch(
@@ -88,7 +122,7 @@ function eraColor(person: PersonIndexItem): string {
           :class="{ on: people.era === e }"
           @click="people.era = e"
         >
-          {{ e }}
+          {{ eraLabel(e) }}
         </button>
       </div>
     </div>
@@ -100,16 +134,21 @@ function eraColor(person: PersonIndexItem): string {
         v-for="person in people.filtered"
         :key="person.personId"
         :class="{ on: person.personId === people.selectedId }"
+        role="button"
+        tabindex="0"
+        :aria-current="person.personId === people.selectedId ? 'true' : undefined"
         @click="people.openPerson(person.personId)"
+        @keydown.enter.prevent="people.openPerson(person.personId)"
+        @keydown.space.prevent="people.openPerson(person.personId)"
       >
         <span class="spine" :style="{ background: eraColor(person) }" />
         <span class="body">
           <span class="row">
-            <span class="name">{{ person.name }}</span>
+            <span class="name">{{ personName(person) }}</span>
             <span class="span mono">{{ lifespan(person) }}</span>
           </span>
           <span class="meta">
-            <span class="nat">{{ person.nationality || person.nationalityEn }}</span>
+            <span class="nat">{{ personNationality(person) }}</span>
             <span class="stages mono">
               {{ person.totalPoints }} {{ ui.t('people.stages') }}
             </span>
@@ -223,6 +262,10 @@ function eraColor(person: PersonIndexItem): string {
 }
 .list li:hover {
   background: var(--paper-2);
+}
+.list li:focus-visible {
+  outline: 2px solid var(--rust);
+  outline-offset: -2px;
 }
 .list li.on {
   background: var(--card);

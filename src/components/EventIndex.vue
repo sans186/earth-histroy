@@ -138,7 +138,12 @@ function certMark(ev: TimelineEvent) {
         v-for="(ev, i) in ordered"
         :key="ev.key"
         :class="{ on: ev.key === selectedKey, now: ev.year === timeline.year }"
+        role="button"
+        tabindex="0"
+        :aria-current="ev.key === selectedKey ? 'true' : undefined"
         @click="emit('select', ev)"
+        @keydown.enter.prevent="emit('select', ev)"
+        @keydown.space.prevent="emit('select', ev)"
       >
         <span class="idx mono">{{ String(i + 1).padStart(2, '0') }}</span>
         <span class="body">
@@ -301,6 +306,10 @@ function certMark(ev: TimelineEvent) {
 }
 .list li:hover {
   background: var(--paper-2);
+}
+.list li:focus-visible {
+  outline: 2px solid var(--rust);
+  outline-offset: -2px;
 }
 .list li.on {
   background: var(--card);

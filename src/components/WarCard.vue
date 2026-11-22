@@ -57,6 +57,14 @@ function phaseSpan(phase: WarPhase): string {
   return phase.years ?? '';
 }
 
+function clauseSep(): string {
+  return ui.locale === 'zh' ? '；' : '; ';
+}
+
+function itemSep(): string {
+  return ui.locale === 'zh' ? '、' : ', ';
+}
+
 /**
  * Flatten a profile field to displayable text.
  *
@@ -69,14 +77,14 @@ function toText(value: unknown): string {
   if (value === null || value === undefined) return '';
   if (typeof value === 'string') return value;
   if (typeof value === 'number' || typeof value === 'boolean') return String(value);
-  if (Array.isArray(value)) return value.map(toText).filter(Boolean).join('；');
+  if (Array.isArray(value)) return value.map(toText).filter(Boolean).join(clauseSep());
   if (typeof value === 'object') {
     const record = value as Record<string, unknown>;
     // Prefer a conventional text field before falling back to the values.
     for (const key of ['zh', 'text', 'name', 'value', 'description']) {
       if (typeof record[key] === 'string') return record[key] as string;
     }
-    return Object.values(record).map(toText).filter(Boolean).join('；');
+    return Object.values(record).map(toText).filter(Boolean).join(clauseSep());
   }
   return '';
 }
@@ -123,7 +131,7 @@ function labelledText(value: unknown, parts: Part[]): string {
   const extra = Object.entries(record)
     .filter(([key]) => !parts.some((part) => part.key === key))
     .map(([, part]) => toText(part).trim());
-  return [...known, ...extra].filter(usable).join('；');
+  return [...known, ...extra].filter(usable).join(clauseSep());
 }
 
 const strengthText = (value: unknown) => labelledText(value, STRENGTH_PARTS);
@@ -132,11 +140,11 @@ const casualtyText = (value: unknown) => labelledText(value, CASUALTY_PARTS);
 const background = computed(() => {
   const b = doc.value?.background ?? {};
   return [
-    { k: ui.locale === 'zh' ? '根本原因' : 'Causes', v: toText(b.causes) },
-    { k: ui.locale === 'zh' ? '直接导火索' : 'Trigger', v: toText(b.immediateCause) },
-    { k: ui.locale === 'zh' ? '战前局势' : 'Pre-war', v: toText(b.preWarSituation) },
-    { k: ui.locale === 'zh' ? '甲方目标' : 'Aims A', v: toText(b.objectivesA) },
-    { k: ui.locale === 'zh' ? '乙方目标' : 'Aims B', v: toText(b.objectivesB) },
+    { k: ui.t('war.field.causes'), v: toText(b.causes) },
+    { k: ui.t('war.field.trigger'), v: toText(b.immediateCause) },
+    { k: ui.t('war.field.preWarSituation'), v: toText(b.preWarSituation) },
+    { k: ui.t('war.field.objectivesA'), v: toText(b.objectivesA) },
+    { k: ui.t('war.field.objectivesB'), v: toText(b.objectivesB) },
   ].filter((row) => row.v);
 });
 
@@ -173,7 +181,7 @@ function sideDetails(side: WarSide | undefined): { k: string; v: string }[] {
     { k: ui.t('war.equipment'), v: toText(side.equipment) },
     {
       k: ui.t('war.politicalLeaders'),
-      v: (side.politicalLeaders ?? []).map((leader) => toText(leader)).filter(Boolean).join('、'),
+      v: (side.politicalLeaders ?? []).map((leader) => toText(leader)).filter(Boolean).join(itemSep()),
     },
     { k: ui.t('war.casualties'), v: casualtyText(side.totalCasualties) },
     { k: ui.t('war.propaganda'), v: toText(side.propaganda) },
@@ -185,12 +193,20 @@ const outcome = computed(() => {
   const o = doc.value?.outcome;
   if (!o) return [];
   return [
-    { k: ui.locale === 'zh' ? '结果' : 'Result', v: toText(o.result) },
-    { k: ui.locale === 'zh' ? '领土变化' : 'Territory', v: toText(o.territorialChanges) },
-    { k: ui.locale === 'zh' ? '人口影响' : 'Demography', v: toText(o.demographicImpact) },
+    { k: ui.t('war.field.result'), v: toText(o.result) },
+    { k: ui.t('war.field.territorialChanges'), v: toText(o.territorialChanges) },
+    { k: ui.t('war.field.demographicImpact'), v: toText(o.demographicImpact) },
     {
-      k: ui.locale === 'zh' ? '条约' : 'Treaty',
-      v: o.treaty?.name ? `${o.treaty.name}${o.treaty.date ? `（${o.treaty.date}）` : ''}` : '',
+      k: ui.t('war.field.treaty'),
+      v: o.treaty?.name
+        ? `${o.treaty.name}${
+            o.treaty.date
+              ? ui.locale === 'zh'
+                ? `（${o.treaty.date}）`
+                : ` (${o.treaty.date})`
+              : ''
+          }`
+        : '',
     },
   ].filter((row) => row.v);
 });
@@ -200,8 +216,8 @@ const legacy = computed(() => {
   const l = doc.value?.legacy;
   if (!l) return [];
   return [
-    { k: ui.locale === 'zh' ? '历史意义' : 'Significance', v: toText(l.significance) },
-    { k: ui.locale === 'zh' ? '直接影响' : 'Immediate', v: toText(l.immediateConsequences) },
+    { k: ui.t('war.field.significance'), v: toText(l.significance) },
+    { k: ui.t('war.field.immediateConsequences'), v: toText(l.immediateConsequences) },
   ].filter((row) => row.v);
 });
 
@@ -384,7 +400,7 @@ const tabCounts = computed<Record<Tab, number>>(() => ({
               <span v-if="entry.type" class="tt">{{ toText(entry.type) }}</span>
               <span v-if="entry.description" class="td">{{ toText(entry.description) }}</span>
               <span v-if="entry.impact" class="ti">
-                <em>{{ ui.locale === 'zh' ? '影响' : 'Impact' }}</em>{{ toText(entry.impact) }}
+                <em>{{ ui.t('war.field.impact') }}</em>{{ toText(entry.impact) }}
               </span>
             </span>
           </li>

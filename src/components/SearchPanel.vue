@@ -31,6 +31,10 @@ const hits = ref<SearchHit[]>([]);
 const status = ref<'idle' | 'loading' | 'ready' | 'error'>('idle');
 const active = ref(0);
 const input = ref<HTMLInputElement | null>(null);
+const panel = ref<HTMLElement | null>(null);
+
+const RESULTS_ID = 'search-results';
+const optionId = (index: number) => `search-option-${index}`;
 
 const KIND_KEY: Record<SearchKind, MessageKey> = {
   event: 'search.kind.event',
@@ -49,6 +53,10 @@ const groups = computed(() => {
 });
 
 const flat = computed(() => groups.value.flatMap((group) => group.items.map((entry) => entry.hit)));
+
+const activeDescendant = computed(() =>
+  flat.value.length ? optionId(active.value) : undefined,
+);
 
 async function ensureIndex() {
   if (index.value || status.value === 'loading') return;
@@ -76,10 +84,39 @@ function move(delta: number) {
   active.value = (active.value + delta + count) % count;
 }
 
+/**
+ * Keep Tab inside the modal.
+ *
+ * Only the edges are intercepted, so the browser's natural order still runs
+ * between the query field, the close button and the retry action.
+ */
+function trapTab(event: KeyboardEvent) {
+  const root = panel.value;
+  if (!root) return;
+  const items = Array.from(
+    root.querySelectorAll<HTMLElement>(
+      'button:not([disabled]):not([tabindex="-1"]), input:not([disabled]), a[href], [tabindex]:not([tabindex="-1"])',
+    ),
+  ).filter((el) => el.offsetParent !== null);
+  if (!items.length) return;
+  const first = items[0];
+  const last = items[items.length - 1];
+  const current = document.activeElement as HTMLElement | null;
+  if (!event.shiftKey && (current === last || !root.contains(current))) {
+    event.preventDefault();
+    first.focus();
+  } else if (event.shiftKey && (current === first || !root.contains(current))) {
+    event.preventDefault();
+    last.focus();
+  }
+}
+
 function onKeydown(event: KeyboardEvent) {
   if (event.key === 'Escape') {
     event.preventDefault();
     emit('close');
+  } else if (event.key === 'Tab') {
+    trapTab(event);
   } else if (event.key === 'ArrowDown') {
     event.preventDefault();
     move(1);
@@ -95,7 +132,11 @@ function onKeydown(event: KeyboardEvent) {
 watch(
   () => props.open,
   async (open) => {
-    if (!open) return;
+    if (!open) {
+      await nextTick();
+      document.querySelector<HTMLElement>('[data-search-trigger]')?.focus();
+      return;
+    }
     query.value = '';
     hits.value = [];
     active.value = 0;
@@ -129,6 +170,7 @@ function yearText(hit: SearchHit): string {
   <Transition name="search">
     <div v-if="open" class="veil" @pointerdown.self="emit('close')">
       <section
+        ref="panel"
         class="panel"
         role="dialog"
         aria-modal="true"
@@ -156,6 +198,8 @@ function yearText(hit: SearchHit): string {
           spellcheck="false"
           :placeholder="ui.t('search.placeholder')"
           :aria-label="ui.t('search.placeholder')"
+          :aria-controls="RESULTS_ID"
+          :aria-activedescendant="activeDescendant"
         />
 
         <p v-if="status === 'loading'" class="state">{{ ui.t('search.loading') }}</p>
@@ -166,13 +210,23 @@ function yearText(hit: SearchHit): string {
         <p v-else-if="!query.trim()" class="state">{{ ui.t('search.empty') }}</p>
         <p v-else-if="!flat.length" class="state">{{ ui.t('search.none') }}</p>
 
-        <div v-else class="results">
-          <section v-for="group in groups" :key="group.kind" class="group">
-            <h3 class="cap">{{ ui.t(KIND_KEY[group.kind]) }}</h3>
+        <div v-else :id="RESULTS_ID" class="results" role="listbox" :aria-label="ui.t('search.title')">
+          <section
+            v-for="group in groups"
+            :key="group.kind"
+            class="group"
+            role="group"
+            :aria-labelledby="`search-group-${group.kind}`"
+          >
+            <h3 :id="`search-group-${group.kind}`" class="cap">{{ ui.t(KIND_KEY[group.kind]) }}</h3>
             <button
               v-for="entry in group.items"
+              :id="optionId(entry.index)"
               :key="entry.hit.item.id"
               class="row"
+              role="option"
+              tabindex="-1"
+              :aria-selected="entry.index === active"
               :class="{ on: entry.index === active }"
               @pointermove="active = entry.index"
               @click="choose(entry.hit)"
