@@ -1,6 +1,5 @@
 {
   "personId": "rene-descartes",
-
   "era": "近世",
   "name": "勒内·笛卡尔",
   "nameEn": "René Descartes",
@@ -67,20 +66,6 @@
       "descriptionEn": "In 1628, Descartes moved to the Netherlands, where he spent 20 years, the most active and fruitful period of his thought. He lived successively in The Hague, Delft, Eindhoven, and Leiden. In the Netherlands, Descartes could think and write freely without fear of religious and political persecution. He completed important works such as 'Discourse on Method,' 'Meditations on First Philosophy,' and 'Principles of Philosophy,' systematically expounding his philosophical system of rationalism. He also maintained correspondence with many important European scholars of the time, including Huygens, Hobbes, and Galileo. The Dutch period was the golden age of Descartes' academic career, where his philosophical ideas were fully developed and perfected."
     },
     {
-      "year": 1649,
-      "yearEnd": 1650,
-      "place": "瑞典斯德哥尔摩",
-      "placeEn": "Stockholm, Sweden",
-      "coords": [
-        18.0686,
-        59.3293
-      ],
-      "title": "晚年岁月",
-      "titleEn": "Final Years",
-      "description": "1649年，笛卡尔应瑞典女王克里斯蒂娜的邀请前往斯德哥尔摩，担任她的哲学导师。然而，北欧严寒的气候和女王要求每天清晨五点在寒冷的城堡里授课，严重损害了笛卡尔本已虚弱的健康。1650年2月，笛卡尔因肺炎去世，享年53岁。尽管在瑞典的时间短暂，但笛卡尔仍然完成了《论灵魂的激情》等著作。他的去世被视为哲学界的重大损失，他的思想却继续影响着后世哲学和科学的发展。",
-      "descriptionEn": "In 1649, Descartes was invited to Stockholm by Queen Christina of Sweden to serve as her philosophy tutor. However, the harsh Nordic climate and the queen's requirement of teaching at 5 AM in the cold castle seriously damaged Descartes' already fragile health. On February 1650, Descartes died of pneumonia at the age of 53. Despite the short time in Sweden, Descartes still completed works such as 'The Passions of the Soul.' His death was seen as a great loss to the philosophical community, but his ideas continued to influence the development of later philosophy and science."
-    },
-    {
       "year": 1637,
       "yearEnd": 1637,
       "place": "法国莱顿",
@@ -93,9 +78,23 @@
       "titleEn": "Methodological Revolution",
       "description": "1637年，笛卡尔在荷兰莱顿出版了他的重要著作《方法论》（全名为《关于正确引导理性在科学中探索真理的方法论》）。这本书包括三个附录：《几何学》、《折光学》和《气象学》，其中《几何学》部分首次系统阐述了解析几何的思想。笛卡尔在《方法论》中提出了著名的四条方法论原则：1) 只接受清楚明白地呈现到心灵中的事物；2) 将复杂问题分解为简单部分；3) 从简单到复杂进行推理；4) 全面检查推理过程，确保没有遗漏。这些方法不仅影响了哲学，也深刻改变了科学研究的范式，被视为科学革命的重要推动力。",
       "descriptionEn": "In 1637, Descartes published his important work 'Discourse on Method' (full title 'Discourse on the Method of Rightly Conducting One's Reason and of Seeking Truth in the Sciences') in Leiden, Netherlands. The book included three appendices: 'Geometry,' 'Dioptrics,' and 'Meteorology,' with the 'Geometry' section systematically expounding the ideas of analytic geometry for the first time. In the 'Discourse on Method,' Descartes proposed his famous four methodological principles: 1) Only accept what is clearly and distinctly presented to the mind; 2) Divide complex problems into simple parts; 3) Reason from simple to complex; 4) Examine the reasoning process thoroughly to ensure nothing is omitted. These methods not only influenced philosophy but also profoundly changed the paradigm of scientific research, seen as an important driving force of the Scientific Revolution."
+    },
+    {
+      "year": 1649,
+      "yearEnd": 1650,
+      "place": "瑞典斯德哥尔摩",
+      "placeEn": "Stockholm, Sweden",
+      "coords": [
+        18.0686,
+        59.3293
+      ],
+      "title": "晚年岁月",
+      "titleEn": "Final Years",
+      "description": "1649年，笛卡尔应瑞典女王克里斯蒂娜的邀请前往斯德哥尔摩，担任她的哲学导师。然而，北欧严寒的气候和女王要求每天清晨五点在寒冷的城堡里授课，严重损害了笛卡尔本已虚弱的健康。1650年2月，笛卡尔因肺炎去世，享年53岁。尽管在瑞典的时间短暂，但笛卡尔仍然完成了《论灵魂的激情》等著作。他的去世被视为哲学界的重大损失，他的思想却继续影响着后世哲学和科学的发展。",
+      "descriptionEn": "In 1649, Descartes was invited to Stockholm by Queen Christina of Sweden to serve as her philosophy tutor. However, the harsh Nordic climate and the queen's requirement of teaching at 5 AM in the cold castle seriously damaged Descartes' already fragile health. On February 1650, Descartes died of pneumonia at the age of 53. Despite the short time in Sweden, Descartes still completed works such as 'The Passions of the Soul.' His death was seen as a great loss to the philosophical community, but his ideas continued to influence the development of later philosophy and science."
     }
   ],
-  "evaluation": {
+  "evaluation": {
     "appraisal": {
       "zh": "笛卡尔被尊为近代哲学之父，其理性主义体系为西方哲学奠定新基础，「我思故我在」确立了主体性在认识论中的核心地位，方法论原则为科学研究提供系统框架，解析几何则推动了数学发展。不过也有研究者指出，其二元论难以解释心物如何相互作用，方法论偏重理性演绎而轻视经验观察，机械论宇宙观后来被牛顿力学与量子力学超越；亦有看法认为其思想并非全然原创，而是融合经院哲学、古代怀疑论与新兴科学方法而成。",
       "en": "Descartes is honored as the father of modern philosophy: his rationalist system laid a new foundation for Western thought, 'I think, therefore I am' established subjectivity at the center of epistemology, his methodological principles gave scientific inquiry a systematic framework, and analytic geometry advanced mathematics. Yet researchers also point out that his dualism struggles to explain mind-body interaction, that his method favors rational deduction over empirical observation, and that his mechanistic cosmos was later surpassed by Newtonian and quantum mechanics; another view holds that his thought was not wholly original but fused scholastic philosophy, ancient skepticism and the new science."
@@ -115,7 +114,9 @@
   },
   "quotes": {
     "sources": {
-      "self": {"text":"《谈谈方法》第四部分，1637 年"}
+      "self": {
+        "text": "《谈谈方法》第四部分，1637 年"
+      }
     },
     "self": {
       "zh": "我思故我在。",

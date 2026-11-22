@@ -1,6 +1,5 @@
 {
   "personId": "leonhard-euler",
-
   "era": "近世",
   "name": "莱昂哈德·欧拉",
   "nameEn": "Leonhard Euler",
@@ -39,6 +38,20 @@
       "descriptionEn": "In 1727, Euler accepted an invitation to work at the St. Petersburg Academy of Sciences in Russia. There, he quickly rose to prominence, being promoted to professor of physics within two years. In 1733, he succeeded Daniel Bernoulli as professor of mathematics. During his time in St. Petersburg, Euler completed extensive important research, including solving the famous Basel problem (finding the sum of the reciprocals of the squares of all natural numbers), publishing pioneering work on calculus of variations, and beginning his deep studies in number theory and graph theory. In 1735, he severely damaged the sight in his right eye due to overwork, a period of intense work that would later affect his health."
     },
     {
+      "year": 1736,
+      "yearEnd": 1736,
+      "place": "哥尼斯堡",
+      "placeEn": "Königsberg",
+      "coords": [
+        20.5109,
+        54.7066
+      ],
+      "title": "七桥问题",
+      "titleEn": "Seven Bridges Problem",
+      "description": "1736年，欧拉解决了著名的哥尼斯堡七桥问题，这被认为是图论的开端。问题涉及普鲁士城市哥尼斯堡的七座桥梁，要求找出一条路线，走过每座桥恰好一次。欧拉通过抽象化方法，将陆地表示为点，桥梁表示为线，证明了这样的路径不存在。这一开创性工作不仅解决了具体问题，还建立了图论的基础，对后来的网络理论和拓扑学产生了深远影响。欧拉的方法展示了数学如何将实际问题转化为抽象模型，体现了数学的普适性和力量。",
+      "descriptionEn": "In 1736, Euler solved the famous Seven Bridges of Königsberg problem, considered the beginning of graph theory. The problem involved seven bridges in the Prussian city of Königsberg, requiring finding a route that crossed each bridge exactly once. Euler used an abstract approach, representing landmasses as points and bridges as lines, proving that such a path was impossible. This pioneering work not only solved the specific problem but also established the foundations of graph theory, profoundly influencing later network theory and topology. Euler's method demonstrated how mathematics could transform practical problems into abstract models, showcasing the universality and power of mathematics."
+    },
+    {
       "year": 1741,
       "yearEnd": 1766,
       "place": "柏林",
@@ -65,23 +78,9 @@
       "titleEn": "Return to Russia",
       "description": "1766年，欧拉回到圣彼得堡，被任命为科学院数学部主任。此时他的视力已经严重恶化，几乎完全失明。然而，这并未阻止他的研究工作。在助手们的帮助下，欧拉继续进行数学研究，甚至比失明前更加多产。他发展了月球运动理论，改进了望远镜和显微镜的设计，并继续在数论、分析和力学领域做出贡献。1783年9月18日，欧拉在圣彼得堡去世，享年76岁。在他生命的最后一天，他还在计算气球上升的轨道问题，体现了他对数学的终身热爱。",
       "descriptionEn": "In 1766, Euler returned to St. Petersburg, appointed as head of the mathematics department at the Academy of Sciences. By this time, his vision had severely deteriorated, and he was almost completely blind. However, this did not stop his research work. With the help of assistants, Euler continued his mathematical research, becoming even more productive than before his blindness. He developed theories of lunar motion, improved designs for telescopes and microscopes, and continued to make contributions in number theory, analysis, and mechanics. On September 18, 1783, Euler died in St. Petersburg at the age of 76. On the last day of his life, he was calculating the trajectory of a rising balloon, demonstrating his lifelong love for mathematics."
-    },
-    {
-      "year": 1736,
-      "yearEnd": 1736,
-      "place": "哥尼斯堡",
-      "placeEn": "Königsberg",
-      "coords": [
-        20.5109,
-        54.7066
-      ],
-      "title": "七桥问题",
-      "titleEn": "Seven Bridges Problem",
-      "description": "1736年，欧拉解决了著名的哥尼斯堡七桥问题，这被认为是图论的开端。问题涉及普鲁士城市哥尼斯堡的七座桥梁，要求找出一条路线，走过每座桥恰好一次。欧拉通过抽象化方法，将陆地表示为点，桥梁表示为线，证明了这样的路径不存在。这一开创性工作不仅解决了具体问题，还建立了图论的基础，对后来的网络理论和拓扑学产生了深远影响。欧拉的方法展示了数学如何将实际问题转化为抽象模型，体现了数学的普适性和力量。",
-      "descriptionEn": "In 1736, Euler solved the famous Seven Bridges of Königsberg problem, considered the beginning of graph theory. The problem involved seven bridges in the Prussian city of Königsberg, requiring finding a route that crossed each bridge exactly once. Euler used an abstract approach, representing landmasses as points and bridges as lines, proving that such a path was impossible. This pioneering work not only solved the specific problem but also established the foundations of graph theory, profoundly influencing later network theory and topology. Euler's method demonstrated how mathematics could transform practical problems into abstract models, showcasing the universality and power of mathematics."
     }
   ],
-  "evaluation": {
+  "evaluation": {
     "appraisal": {
       "zh": "欧拉被公认为18世纪数学的中心人物，其工作连接了牛顿、莱布尼茨的微积分与后世发展，所确立的符号系统成为现代数学的标准语言，欧拉公式更被视作数学之美的象征，失明后仍坚持研究的事迹也广为传颂。另一种看法认为，他早期著作常依赖直觉与计算而欠严格证明，卷帙浩繁中亦有后来被纠正的错误，在柏林时还因迁就腓特烈大帝而调整研究方向。",
       "en": "Euler is widely regarded as the central figure of eighteenth-century mathematics, linking the calculus of Newton and Leibniz to later developments; his notation became the standard language of modern mathematics, his formula is celebrated as a symbol of mathematical beauty, and his perseverance in research after going blind is widely admired. Another view holds that his early work often relied on intuition and computation rather than rigorous proof, that his vast output contained errors later corrected, and that in Berlin he adjusted his research to accommodate Frederick the Great."
