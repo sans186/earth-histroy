@@ -1333,8 +1333,14 @@
     "era (按 birth 年份机械推导，非模型生成)",
     "era (按 birth 年份机械推导，非模型生成)"
   ],
-  "updatedAt": "2026-11-21",
+  "updatedAt": "2026-11-22",
   "fixes": [
+    {
+      "date": "2026-11-22",
+      "id": "public/wars/profiles/korean-war.json",
+      "issue": "战争别名沿用韩国/西方口径「韩战」，与项目对中国相关表述按中华人民共和国官方立场处理的合规口径冲突",
+      "action": "alternativeNames 中的「韩战」改为「抗美援朝战争」；name（朝鲜战争）与 nameEn（Korean War）保持不变"
+    },
     {
       "date": "2026-11-15",
       "id": "dan-dong",
@@ -1352,6 +1358,18 @@
       "id": "public/events/-1895.json",
       "issue": "孤儿事件补录时在中文界面混入大量英文段落，且描述与史学注释存在重复段落",
       "action": "整份中文化并去重"
+    },
+    {
+      "date": "2026-11-22",
+      "id": "public/events + public/en-events",
+      "issue": "上游 Chronograph 语料按年份分片独立生成，同一人物或王朝在多个分片里重复出现且年份各异：汉朝分片出现康熙帝（-204..-199）、郑和死后仍在十处被写去世、孔子诞生被提前到前559/前585、纳拉姆辛事件被复制到前2260-前3044、90 个公元分片装着公元前内容。中英文侧均受影响。",
+      "action": "删除约 740 条错年、镜像与重复条目（事件总数 17,998 降到 17,256），并移动 2 条错置讣告到正确年份（纳拉姆辛到前2218、征服者威廉到1087）；清理 90 个公元分片中的公元前镜像内容、409 条指向已删事件的 cross_references、397 条英文孤儿条目与 248 个分片的残留时代背景。逐条依据见 .tmp-audit 下的修复台账与对应提交说明。"
+    },
+    {
+      "date": "2026-11-22",
+      "id": "public/people/profiles",
+      "issue": "人物档案存在生卒年偏差与轨迹点越界：荷马生辰早于出生年、达伽马档案含 1880 年轨迹点、拉美西斯二世与图特摩斯三世生辰偏差数十年，部分档案轨迹点未按年份排序，dan-dong 档案混入中国丹东身份。",
+      "action": "修正 32 处：生卒年按通行纪年校正、删除人物身后与 year 为 null 的轨迹点、12 个档案按年份重排、dan-dong 归位为法国大革命时期的丹东。中国 53 个档案生卒年复核后未改。"
     }
   ],
   "events": {
@@ -1418,6 +1436,49 @@
       "first-opium-war",
       "second-opium-war"
     ]
+  },
+  "capitals": {
+    "file": "public/ne/polity_capitals.json",
+    "generated": [
+      "capitals[*].intro",
+      "capitals[*].aliases",
+      "capitals[*].modernCountry"
+    ],
+    "derived": [
+      "capitals[*].lon / lat（城市通行坐标；少数古都经平台检索核验，未经维基 API 逐条比对）",
+      "polities[*].entries 的首都名与年份区间（源自 polity_facts.capital 与政区档案）"
+    ],
+    "note": "一期收录 95 个政区、73 个首都、104 条时段。首都介绍由模型撰写，未逐条人工核验；坐标取自城市通行坐标，未取得可靠坐标的首都整条剔除。年份缺失标为待考，不做插值或编造。现代争议地区（如克什米尔）与档案记载与史实明显冲突的条目（如塞琉古、帕提亚）不收录。"
+  },
+  "stories": {
+    "file": "src/data/stories.ancient.ts, src/data/stories.medieval.ts, src/data/stories.modern.ts, src/data/storyCovers.ts",
+    "generated": [
+      "stories[*].title / titleEn",
+      "stories[*].subtitle / subtitleEn",
+      "stories[*].steps[*].caption / captionEn",
+      "storyCovers[*].intro / introEn"
+    ],
+    "ids": [
+      "mesopotamia",
+      "ancient-egypt",
+      "persian-empire",
+      "rome",
+      "india-classical",
+      "buddhist-path",
+      "byzantium",
+      "viking-age",
+      "islamic-golden-age",
+      "black-death",
+      "ottoman-rise",
+      "indian-ocean",
+      "reformation",
+      "napoleon",
+      "latin-america",
+      "meiji",
+      "scramble-africa",
+      "decolonization"
+    ],
+    "note": "18 个新增故事，每条 6 站。中文文案为模型撰写，英文为对应译文，均未逐条人工核验；年份、坐标与地名按通行说法取值，争议地区只写事实时间线，不作主权或胜负判断。"
   },
   "unverified": true,
   "disclaimer": "C 级内容：由大模型生成、未逐条人工核验，不得作为史实引用依据。详见 docs/开源说明.md §5/§7。",
