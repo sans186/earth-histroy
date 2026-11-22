@@ -1,0 +1,1945 @@
+{
+  "version": 1,
+  "note": "政区首都档案。首都名与归属来自 polity_facts.json，坐标与介绍为 AI 辅助整理，未核验。现代争议地区与无法定位的首都不收录。",
+  "generatedAt": "2026-11-22",
+  "capitals": {
+    "阿姆斯特丹": {
+      "name": "阿姆斯特丹",
+      "nameEn": "Amsterdam",
+      "aliases": [],
+      "lon": 4.9041,
+      "lat": 52.3676,
+      "modernCountry": "荷兰",
+      "intro": "阿姆斯特丹13世纪因阿姆斯特尔河筑坝而兴起，17世纪荷兰黄金时代成为世界贸易与金融中心，运河带与东印度公司总部均建于此时。它长期是荷兰共和国的实际首都，但政府与王宫设在海牙。1814年后成为荷兰王国法定首都。",
+      "source": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%A7%86%E6%96%AF%E7%89%B9%E4%B8%B9",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "阿维尼翁": {
+      "name": "阿维尼翁",
+      "nameEn": "Avignon",
+      "aliases": [],
+      "lon": 4.8055,
+      "lat": 43.9493,
+      "modernCountry": "法国",
+      "intro": "阿维尼翁13世纪属普罗旺斯伯爵领，1309年起教廷迁至此地，先后有七位教宗驻跸。教宗宫与断桥构成城市天际线，教廷于1377年迁回罗马。此后城市归属教宗国，直到1791年被法国吞并。",
+      "source": "https://zh.wikipedia.org/wiki/%E9%98%BF%E7%BB%B4%E5%B0%BC%E7%BF%81",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "奥斯陆": {
+      "name": "奥斯陆",
+      "nameEn": "Oslo",
+      "aliases": [
+        "克里斯蒂安尼亚"
+      ],
+      "lon": 10.7522,
+      "lat": 59.9139,
+      "modernCountry": "挪威",
+      "intro": "奥斯陆约建于11世纪，13世纪起为挪威王国都城，阿克斯胡斯城堡扼守峡湾。14世纪挪威与丹麦联合后王宫迁往哥本哈根，城市地位下降。1814年挪威重新独立后逐步恢复首都职能，1925年恢复旧名奥斯陆。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E6%96%AF%E9%99%86",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "巴格达": {
+      "name": "巴格达",
+      "nameEn": "Baghdad",
+      "aliases": [],
+      "lon": 44.3661,
+      "lat": 33.3152,
+      "modernCountry": "伊拉克",
+      "intro": "762年阿拔斯王朝哈里发曼苏尔在此建城，称圆城，作为帝国都城。8至9世纪城市是伊斯兰世界的学术与贸易中心，智慧宫聚集各地学者。1258年蒙古军攻陷巴格达，城市遭到严重破坏，此后地位下降。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E6%A0%BC%E8%BE%BE",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "巴黎": {
+      "name": "巴黎",
+      "nameEn": "Paris",
+      "aliases": [],
+      "lon": 2.3522,
+      "lat": 48.8566,
+      "modernCountry": "法国",
+      "intro": "自公元6世纪起，巴黎多次成为法兰克人与法国王国的都城，10世纪后长期是卡佩王朝的统治中心。塞纳河两岸集中了王宫、教堂与大学，巴黎圣母院与卢浮宫先后营建。近代它仍是法国历次共和国的首都。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E9%BB%8E",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "北京": {
+      "name": "北京",
+      "nameEn": "Beijing",
+      "aliases": [
+        "北平",
+        "燕京"
+      ],
+      "lon": 116.4074,
+      "lat": 39.9042,
+      "modernCountry": "中国",
+      "intro": "北京自金代起成为都城，元代称大都，明永乐年间营建紫禁城并迁都于此，清代沿为京师。城市以中轴线布局，紫禁城、天坛与城墙构成典型的帝都格局。民国时期一度改称北平，1949年后再度成为首都。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%8C%97%E4%BA%AC",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "本地治里": {
+      "name": "本地治里",
+      "nameEn": "Pondicherry",
+      "aliases": [],
+      "lon": 79.8083,
+      "lat": 11.9416,
+      "modernCountry": "印度",
+      "intro": "本地治里位于印度东南海岸，1674年由法国东印度公司建立，成为法属印度的首府。城市以网格状街区与法式建筑著称，与英国控制的马德拉斯长期竞争。1954年法国将其移交印度，现为本地治里中央直辖区的首府。",
+      "source": "https://zh.wikipedia.org/wiki/%E6%9C%AC%E5%9C%B0%E6%B2%BB%E9%87%8C",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "波尔多": {
+      "name": "波尔多",
+      "nameEn": "Bordeaux",
+      "aliases": [],
+      "lon": -0.5792,
+      "lat": 44.8378,
+      "modernCountry": "法国",
+      "intro": "波尔多在罗马时代称布尔迪加拉，中世纪先后属阿基坦公爵与英格兰王室，葡萄酒贸易使其繁荣。18世纪城市在启蒙时代扩建，剧院与广场构成典雅的城市面貌。阿基坦地区并入法国后，波尔多成为吉伦特省的中心。",
+      "source": "https://zh.wikipedia.org/wiki/%E6%B3%A2%E5%B0%94%E5%A4%9A",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "波兹南": {
+      "name": "波兹南",
+      "nameEn": "Poznań",
+      "aliases": [],
+      "lon": 16.9252,
+      "lat": 52.4064,
+      "modernCountry": "波兰",
+      "intro": "波兹南是波兰最早的主教区与皮亚斯特王朝早期都城之一，10世纪的大教堂建在瓦尔塔河中的岛上。城市在中世纪是贸易与手工业中心，后因战争与瓜分而衰落。1919年归还波兰后重建为西部重要城市。",
+      "source": "https://zh.wikipedia.org/wiki/%E6%B3%A2%E5%85%B9%E5%8D%97",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "伯尔尼": {
+      "name": "伯尔尼",
+      "nameEn": "Bern",
+      "aliases": [],
+      "lon": 7.4474,
+      "lat": 46.948,
+      "modernCountry": "瑞士",
+      "intro": "伯尔尼12世纪末建城，1353年加入瑞士联邦，此后逐渐成为联邦中最有影响力的城邦。1848年瑞士联邦宪法通过后，伯尔尼被定为联邦首都，联邦议会与政府设于此。老城沿阿勒河弯曲而建，中世纪拱廊街道保存完好。",
+      "source": "https://zh.wikipedia.org/wiki/%E4%BC%AF%E5%B0%94%E5%B0%BC",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "布达佩斯": {
+      "name": "布达佩斯",
+      "nameEn": "Budapest",
+      "aliases": [
+        "佩斯",
+        "布达"
+      ],
+      "lon": 19.0402,
+      "lat": 47.4979,
+      "modernCountry": "匈牙利",
+      "intro": "布达佩斯由多瑙河两岸的布达与佩斯合并而成，布达城堡自13世纪起是匈牙利王国的王宫所在。奥斯曼占领后城市一度衰落，18世纪在哈布斯堡治下重建。1873年三城合并，成为匈牙利王国的首都。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%B8%83%E8%BE%BE%E4%BD%A9%E6%96%AF",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "布拉格": {
+      "name": "布拉格",
+      "nameEn": "Prague",
+      "aliases": [],
+      "lon": 14.4378,
+      "lat": 50.0755,
+      "modernCountry": "捷克",
+      "intro": "布拉格9世纪起以布拉格城堡为核心发展，14世纪查理四世在此建立中欧第一所大学并营建新城。它是波希米亚王国的都城，也曾是神圣罗马帝国皇帝的驻地。哈布斯堡统治后仍为波希米亚首府，1918年成为捷克斯洛伐克首都。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%B8%83%E6%8B%89%E6%A0%BC",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "大马士革": {
+      "name": "大马士革",
+      "nameEn": "Damascus",
+      "aliases": [],
+      "lon": 36.2765,
+      "lat": 33.5138,
+      "modernCountry": "叙利亚",
+      "intro": "大马士革是世界上最古老的连续有人居住的城市之一，罗马时代为叙利亚行省重镇。661年倭马亚王朝定都于此，倭马亚大清真寺在此期间建成。阿拔斯王朝迁都巴格达后，大马士革仍是区域中心，现为叙利亚首都。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E9%A9%AC%E5%A3%AB%E9%9D%A9",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "德累斯顿": {
+      "name": "德累斯顿",
+      "nameEn": "Dresden",
+      "aliases": [],
+      "lon": 13.7373,
+      "lat": 51.0504,
+      "modernCountry": "德国",
+      "intro": "德累斯顿自15世纪起为萨克森选侯国驻地，18世纪奥古斯特二世时期营建茨温格宫与大量巴洛克建筑。城市因瓷器制造闻名，迈森瓷厂设于附近。二战中遭大规模轰炸，战后重建，现为萨克森州首府。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%BE%B7%E7%B4%AF%E6%96%AF%E9%A1%BF",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "德里": {
+      "name": "德里",
+      "nameEn": "Delhi",
+      "aliases": [
+        "德里 (Delhi)"
+      ],
+      "lon": 77.209,
+      "lat": 28.6139,
+      "modernCountry": "印度",
+      "intro": "德里地处恒河与亚穆纳河之间的通道，自13世纪德里苏丹国起屡次成为北印度王朝的都城，图格拉克堡与顾特卜塔留存至今。莫卧儿帝国在此营建红堡与贾玛清真寺。英国统治时期加尔各答先为首都，1911年迁回德里，新德里于1931年启用。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%BE%B7%E9%87%8C",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "第比利斯": {
+      "name": "第比利斯",
+      "nameEn": "Tbilisi",
+      "aliases": [],
+      "lon": 44.8271,
+      "lat": 41.7151,
+      "modernCountry": "格鲁吉亚",
+      "intro": "第比利斯5世纪建城，因温泉得名，6世纪起成为格鲁吉亚王国的都城。城市位于高加索商路交汇处，曾多次被波斯、蒙古与奥斯曼军队占领。19世纪在俄国统治下扩建，现为格鲁吉亚首都。",
+      "source": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E6%AF%94%E5%88%A9%E6%96%AF",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "东京": {
+      "name": "东京",
+      "nameEn": "Tokyo",
+      "aliases": [
+        "江户"
+      ],
+      "lon": 139.6503,
+      "lat": 35.6762,
+      "modernCountry": "日本",
+      "intro": "东京旧称江户，1603年德川家康在此开设幕府，城市作为幕府政治中心迅速扩大。1868年明治维新后天皇迁居于此，改称东京，成为日本近代首都。城市在关东大地震与二战空袭中两度被毁，随后重建为巨大都市圈。",
+      "source": "https://zh.wikipedia.org/wiki/%E4%B8%9C%E4%BA%AC",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "都灵": {
+      "name": "都灵",
+      "nameEn": "Turin",
+      "aliases": [],
+      "lon": 7.6869,
+      "lat": 45.0703,
+      "modernCountry": "意大利",
+      "intro": "都灵自16世纪起为萨伏依公国都城，18世纪成为撒丁王国首都。1861年意大利王国在此宣告成立，都灵短暂担任王国首都。随着政治中心南移，其工业地位上升，菲亚特汽车公司使城市成为意大利制造业重镇。",
+      "source": "https://zh.wikipedia.org/wiki/%E9%83%BD%E7%81%B5",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "佛罗伦萨": {
+      "name": "佛罗伦萨",
+      "nameEn": "Florence",
+      "aliases": [
+        "翡冷翠"
+      ],
+      "lon": 11.2558,
+      "lat": 43.7696,
+      "modernCountry": "意大利",
+      "intro": "佛罗伦萨在中世纪是自治共和国，15世纪由美第奇家族实际统治，成为文艺复兴的中心。圣母百花大教堂穹顶与乌菲齐宫见证了当时的艺术与金融繁荣。1865年至1871年间曾为意大利王国临时首都，后让位于罗马。",
+      "source": "https://zh.wikipedia.org/wiki/%E4%BD%9B%E7%BD%97%E4%BC%A6%E8%90%A8",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "哥本哈根": {
+      "name": "哥本哈根",
+      "nameEn": "Copenhagen",
+      "aliases": [],
+      "lon": 12.5683,
+      "lat": 55.6761,
+      "modernCountry": "丹麦",
+      "intro": "哥本哈根原是渔村，12世纪建城堡，15世纪成为丹麦王国都城。它扼守厄勒海峡，靠海峡通行税与波罗的海贸易繁荣，克里斯蒂安堡宫为王室与政府所在。19世纪城市拆除城墙向外扩张，现为丹麦首都。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%93%A5%E6%9C%AC%E5%93%88%E6%A0%B9",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "国内城": {
+      "name": "国内城",
+      "nameEn": "Gungnae",
+      "aliases": [
+        "集安"
+      ],
+      "lon": 126.1786,
+      "lat": 41.1208,
+      "modernCountry": "中国",
+      "intro": "国内城位于今吉林集安，是高句丽早期都城，公元3年至427年间为王都。城址依鸭绿江而建，周边分布大量高句丽王陵与壁画墓。427年高句丽迁都平壤后，国内城仍作为别都使用。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%9B%BD%E5%86%85%E5%9F%8E",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "赫拉特": {
+      "name": "赫拉特",
+      "nameEn": "Herat",
+      "aliases": [],
+      "lon": 62.204,
+      "lat": 34.3529,
+      "modernCountry": "阿富汗",
+      "intro": "赫拉特位于阿富汗西部哈里河绿洲，是波斯、中亚与印度之间的商路要地，曾为帖木儿帝国的重要城市。15世纪沙哈鲁与贝松古尔在此营建城堡与清真寺，形成帖木儿文艺复兴的中心。此后它长期是地方政权的争夺对象。",
+      "source": "https://zh.wikipedia.org/wiki/%E8%B5%AB%E6%8B%89%E7%89%B9",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "华沙": {
+      "name": "华沙",
+      "nameEn": "Warsaw",
+      "aliases": [],
+      "lon": 21.0122,
+      "lat": 52.2297,
+      "modernCountry": "波兰",
+      "intro": "华沙13世纪建城，16世纪末成为波兰-立陶宛联邦的议会与王室驻地，1596年首都由克拉科夫迁来。18世纪城市在瓜分中衰落，19世纪成为反抗俄国统治的中心。二战中几乎被夷平，战后依原貌重建老城。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%8D%8E%E6%B2%99",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "华盛顿": {
+      "name": "华盛顿",
+      "nameEn": "Washington, D.C.",
+      "aliases": [
+        "华盛顿哥伦比亚特区",
+        "华盛顿特区"
+      ],
+      "lon": -77.0369,
+      "lat": 38.9072,
+      "modernCountry": "美国",
+      "intro": "1790年美国国会决定在波托马克河畔新建首都，1800年联邦政府迁入，城市以首任总统华盛顿命名。它不属于任何州，以国会大厦、白宫与林肯纪念堂为标志。作为联邦制国家的政治中心，其人口与职能长期以政务为主。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%8D%8E%E7%9B%9B%E9%A1%BF%E5%93%A5%E4%BC%A6%E6%AF%94%E4%BA%9A%E7%89%B9%E5%8C%BA",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "加德满都": {
+      "name": "加德满都",
+      "nameEn": "Kathmandu",
+      "aliases": [],
+      "lon": 85.324,
+      "lat": 27.7172,
+      "modernCountry": "尼泊尔",
+      "intro": "加德满都谷地自公元1世纪起有城邦兴起，12世纪起马拉王朝在此建都。杜巴广场的王宫、寺庙与木雕窗棂体现了尼瓦尔建筑传统，城市因印度与西藏之间的贸易而繁荣。1768年廓尔喀王朝攻占谷地，加德满都成为尼泊尔首都。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E5%BE%B7%E6%BB%A1%E9%83%BD",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "迦太基": {
+      "name": "迦太基",
+      "nameEn": "Carthage",
+      "aliases": [],
+      "lon": 10.3233,
+      "lat": 36.8528,
+      "modernCountry": "突尼斯",
+      "intro": "迦太基由腓尼基人在公元前9世纪建立，凭海上贸易与西西里争夺成为西地中海强国，与罗马爆发三次布匿战争。公元前146年被罗马摧毁后重建为罗马行省城市，留下安东尼浴场等遗迹。7世纪阿拉伯征服后逐渐废弃。",
+      "source": "https://zh.wikipedia.org/wiki/%E8%BF%A6%E5%A4%AA%E5%9F%BA",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "江布尔": {
+      "name": "江布尔",
+      "nameEn": "Taraz",
+      "aliases": [
+        "塔拉兹",
+        "怛罗斯"
+      ],
+      "lon": 71.3667,
+      "lat": 42.9,
+      "modernCountry": "哈萨克斯坦",
+      "intro": "塔拉兹是丝路北道上的古城，唐代称怛罗斯，751年唐朝与阿拔斯王朝在此交战。城市先后属喀喇汗王朝与哈萨克汗国，是草原与河中地区的贸易节点。1938年改名江布尔，1997年恢复旧名塔拉兹。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%A1%94%E6%8B%89%E5%85%B9",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "君士坦丁堡": {
+      "name": "君士坦丁堡",
+      "nameEn": "Constantinople",
+      "aliases": [
+        "伊斯坦布尔",
+        "拜占庭"
+      ],
+      "lon": 28.9784,
+      "lat": 41.0082,
+      "modernCountry": "土耳其",
+      "intro": "公元330年君士坦丁大帝在此建都，称新罗马，此后近千年为东罗马帝国都城。城市扼守博斯普鲁斯海峡，是欧亚贸易枢纽，圣索菲亚大教堂为其地标。1453年奥斯曼军队攻陷该城，东罗马帝国在此终结，城市逐渐改称伊斯坦布尔。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%90%9B%E5%A3%AB%E5%9D%A6%E4%B8%81%E5%A0%A1",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "卡尔马": {
+      "name": "卡尔马",
+      "nameEn": "Kalmar",
+      "aliases": [],
+      "lon": 16.3566,
+      "lat": 56.6634,
+      "modernCountry": "瑞典",
+      "intro": "卡尔马位于瑞典东南海岸，13世纪起建有城堡，扼守波罗的海贸易航线。1397年丹麦、挪威与瑞典在此结成卡尔马联盟，三国共主持续至1523年。联盟解体后城市仍是地区港口，城堡现为保存较好的中世纪要塞。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E5%B0%94%E9%A9%AC",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "开普敦": {
+      "name": "开普敦",
+      "nameEn": "Cape Town",
+      "aliases": [],
+      "lon": 18.4241,
+      "lat": -33.9249,
+      "modernCountry": "南非",
+      "intro": "开普敦1652年由荷兰东印度公司设立补给站，为往来亚洲的船只提供淡水与食物，后发展为开普殖民地的首府。桌山与好望角构成其地理标志，城市在19世纪随殖民扩张而成长。1910年南非联邦成立后为立法首都。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%BC%80%E6%99%AE%E6%95%A6",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "柯尼斯堡": {
+      "name": "柯尼斯堡",
+      "nameEn": "Königsberg",
+      "aliases": [
+        "加里宁格勒"
+      ],
+      "lon": 20.4522,
+      "lat": 54.7104,
+      "modernCountry": "俄罗斯",
+      "intro": "柯尼斯堡1255年由条顿骑士团建立，后成为普鲁士公国的都城，哲学家康德长期在此任教。18世纪城市是东普鲁士的行政与商业中心，1945年被苏军攻占后划归苏联。1946年改名加里宁格勒，德国居民被迁走，城市按苏联规划重建。",
+      "source": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%B0%BC%E6%96%AF%E5%A0%A1",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "克拉科夫": {
+      "name": "克拉科夫",
+      "nameEn": "Kraków",
+      "aliases": [],
+      "lon": 19.945,
+      "lat": 50.0647,
+      "modernCountry": "波兰",
+      "intro": "克拉科夫10世纪起为波兰王国都城，瓦维尔城堡长期是国王加冕与安葬之地。14世纪建立的雅盖隆大学使城市成为中欧学术中心。1596年首都迁往华沙，克拉科夫仍保留加冕与传统仪式的功能。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%85%8B%E6%8B%89%E7%A7%91%E5%A4%AB",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "库马西": {
+      "name": "库马西",
+      "nameEn": "Kumasi",
+      "aliases": [
+        "奥塞库姆弗奥"
+      ],
+      "lon": -1.6244,
+      "lat": 6.6885,
+      "modernCountry": "加纳",
+      "intro": "库马西约在17世纪由阿散蒂人建立，随后成为阿散蒂帝国的都城。城市以金凳与阿散蒂王的宫廷礼仪为中心，周边控制黄金与可乐果贸易。19世纪末英国多次进攻后并入黄金海岸，库马西现为加纳阿散蒂地区首府。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%BA%93%E9%A9%AC%E8%A5%BF",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "魁北克城": {
+      "name": "魁北克城",
+      "nameEn": "Quebec City",
+      "aliases": [
+        "魁北克"
+      ],
+      "lon": -71.208,
+      "lat": 46.8139,
+      "modernCountry": "加拿大",
+      "intro": "魁北克城1608年由法国探险家尚普兰建立，是新法兰西的行政与军事中心，城墙与城堡俯瞰圣劳伦斯河。1759年英军攻占该城，法属加拿大随后易手。1867年联邦成立后成为魁北克省省会。",
+      "source": "https://zh.wikipedia.org/wiki/%E9%AD%81%E5%8C%97%E5%85%8B%E5%B8%82",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "拉萨": {
+      "name": "拉萨",
+      "nameEn": "Lhasa",
+      "aliases": [
+        "逻些",
+        "逻娑"
+      ],
+      "lon": 91.1721,
+      "lat": 29.652,
+      "modernCountry": "中国",
+      "intro": "拉萨位于雅鲁藏布江支流拉萨河谷，7世纪吐蕃赞普松赞干布迁都于此，称逻些。大昭寺与布达拉宫在随后几个世纪陆续兴建，城市成为藏传佛教的宗教中心。清代设驻藏大臣，拉萨一直是西藏地方的政教中心。",
+      "source": "https://zh.wikipedia.org/wiki/%E6%8B%89%E8%90%A8",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "里昂": {
+      "name": "里昂",
+      "nameEn": "Lyon",
+      "aliases": [],
+      "lon": 4.8357,
+      "lat": 45.764,
+      "modernCountry": "法国",
+      "intro": "里昂由罗马人建立，称卢格杜努姆，是罗马高卢地区的行政中心。中世纪它成为大主教领与商业城市，文艺复兴时期银行业与印刷业兴盛。城市位于罗讷河与索恩河汇合处，现为法国东南部的经济与文化中心。",
+      "source": "https://zh.wikipedia.org/wiki/%E9%87%8C%E6%98%82",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "里斯本": {
+      "name": "里斯本",
+      "nameEn": "Lisbon",
+      "aliases": [],
+      "lon": -9.1393,
+      "lat": 38.7223,
+      "modernCountry": "葡萄牙",
+      "intro": "里斯本在12世纪被葡萄牙王国收复后成为都城，大航海时代是欧洲通往非洲与印度的航运起点。贝伦塔与热罗尼莫斯修道院见证了15至16世纪的海外扩张。1755年大地震后城市重建为规整的方格街区，至今仍是葡萄牙首都。",
+      "source": "https://zh.wikipedia.org/wiki/%E9%87%8C%E6%96%AF%E6%9C%AC",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "伦敦": {
+      "name": "伦敦",
+      "nameEn": "London",
+      "aliases": [],
+      "lon": -0.1278,
+      "lat": 51.5074,
+      "modernCountry": "英国",
+      "intro": "伦敦在罗马时代称伦蒂尼恩，11世纪起成为英格兰王国都城，威斯敏斯特宫与伦敦塔相继建成。它凭泰晤士河与海外贸易成长为帝国时代的世界金融中心。19世纪人口激增，成为近代首个百万人口城市，至今仍是英国首都。",
+      "source": "https://zh.wikipedia.org/wiki/%E4%BC%A6%E6%95%A6",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "罗马": {
+      "name": "罗马",
+      "nameEn": "Rome",
+      "aliases": [],
+      "lon": 12.4964,
+      "lat": 41.9028,
+      "modernCountry": "意大利",
+      "intro": "罗马是古罗马共和国与帝国的都城，公元前1世纪已拥有百万人口，斗兽场与万神殿建于帝国盛期。西罗马灭亡后城市萎缩，但教宗驻于此地，使其仍是西方基督教中心。1871年意大利统一后再次成为王国首都。",
+      "source": "https://zh.wikipedia.org/wiki/%E7%BD%97%E9%A9%AC",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "马德里": {
+      "name": "马德里",
+      "nameEn": "Madrid",
+      "aliases": [],
+      "lon": -3.7038,
+      "lat": 40.4168,
+      "modernCountry": "西班牙",
+      "intro": "1561年腓力二世将宫廷迁至马德里，使其取代托莱多成为西班牙帝国的事实首都，此后除短暂例外一直是西班牙的政治中心。城市位于卡斯蒂利亚高原，马德里王宫与普拉多博物馆是代表性建筑。19世纪后随铁路与工业扩张成为大都市。",
+      "source": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%BE%B7%E9%87%8C",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "马六甲": {
+      "name": "马六甲",
+      "nameEn": "Malacca",
+      "aliases": [],
+      "lon": 102.2501,
+      "lat": 2.1896,
+      "modernCountry": "马来西亚",
+      "intro": "马六甲15世纪初由拜里米苏拉建立，成为马六甲苏丹国的都城，扼守马六甲海峡的香料贸易。1511年葡萄牙人攻占后建城堡与教堂，1641年又转归荷兰。1824年归属英国，城中的三宝山与红屋保留多元历史层次。",
+      "source": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%85%AD%E7%94%B2",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "莫斯科": {
+      "name": "莫斯科",
+      "nameEn": "Moscow",
+      "aliases": [],
+      "lon": 37.6173,
+      "lat": 55.7558,
+      "modernCountry": "俄罗斯",
+      "intro": "莫斯科12世纪见于记载，14世纪起成为莫斯科大公国的中心，克里姆林宫与红场逐渐成形。15世纪末摆脱蒙古统治后，城市成为俄罗斯统一国家的都城。1712年彼得大帝迁都圣彼得堡，1918年苏维埃政府又将首都迁回莫斯科。",
+      "source": "https://zh.wikipedia.org/wiki/%E8%8E%AB%E6%96%AF%E7%A7%91",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "墨西哥城": {
+      "name": "墨西哥城",
+      "nameEn": "Mexico City",
+      "aliases": [],
+      "lon": -99.1332,
+      "lat": 19.4326,
+      "modernCountry": "墨西哥",
+      "intro": "墨西哥城建于阿兹特克都城特诺奇蒂特兰的遗址上，14世纪阿兹特克人在湖中岛屿建城。1521年西班牙人攻陷后，在废墟上营建殖民城市，主教座堂与宪法广场沿用至今。1821年墨西哥独立后成为首都。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%A2%A8%E8%A5%BF%E5%93%A5%E5%9F%8E",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "慕尼黑": {
+      "name": "慕尼黑",
+      "nameEn": "Munich",
+      "aliases": [
+        "明兴"
+      ],
+      "lon": 11.582,
+      "lat": 48.1351,
+      "modernCountry": "德国",
+      "intro": "慕尼黑12世纪因盐税与桥渡而兴起，13世纪起为巴伐利亚公国都城，宁芬堡宫与圣母教堂相继建成。城市在19世纪成为艺术与啤酒酿造中心，二战中遭严重轰炸后重建。现为巴伐利亚州首府。",
+      "source": "https://zh.wikipedia.org/wiki/%E6%85%95%E5%B0%BC%E9%BB%91",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "南锡": {
+      "name": "南锡",
+      "nameEn": "Nancy",
+      "aliases": [],
+      "lon": 6.1844,
+      "lat": 48.6921,
+      "modernCountry": "法国",
+      "intro": "南锡12世纪因盐业与市集兴起，16世纪起为洛林公国的都城。斯坦尼斯拉斯广场与公爵宫体现了启蒙时代的城市设计，广场于1983年列入世界遗产。1766年洛林并入法国后，南锡成为默尔特-摩泽尔省的重要城市。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%8D%97%E9%94%A1",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "努克": {
+      "name": "努克",
+      "nameEn": "Nuuk",
+      "aliases": [],
+      "lon": -51.6941,
+      "lat": 64.1814,
+      "modernCountry": "格陵兰（丹麦）",
+      "intro": "努克由丹麦-挪威传教士汉斯·埃格德于1728年建立，旧称戈特霍布，是格陵兰西岸的殖民与传教据点。城市位于峡湾口，渔业与行政职能构成其经济基础。1979年格陵兰实行自治，努克成为首府并恢复格陵兰语名称。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%8A%AA%E5%85%8B",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "诺夫哥罗德": {
+      "name": "诺夫哥罗德",
+      "nameEn": "Novgorod",
+      "aliases": [
+        "大诺夫哥罗德"
+      ],
+      "lon": 31.2755,
+      "lat": 58.5215,
+      "modernCountry": "俄罗斯",
+      "intro": "诺夫哥罗德9世纪起是东斯拉夫的重要城市，罗斯受洗后成为北方的宗教与贸易中心。12至15世纪它以共和政体运作，市民议会与商会管理城市，与汉萨同盟往来密切。1478年被莫斯科大公国吞并，政治地位下降。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%AF%BA%E5%A4%AB%E5%93%A5%E7%BD%97%E5%BE%B7",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "佩拉": {
+      "name": "佩拉",
+      "nameEn": "Pella",
+      "aliases": [],
+      "lon": 22.5267,
+      "lat": 40.7617,
+      "modernCountry": "希腊",
+      "intro": "佩拉是马其顿王国的都城，公元前4世纪由阿基拉斯一世迁都于此。腓力二世与亚历山大大帝在此宫廷成长，城市以方格街道与马赛克地面著称。罗马征服后佩拉逐渐衰落，其遗址在20世纪被系统发掘。",
+      "source": "https://zh.wikipedia.org/wiki/%E4%BD%A9%E6%8B%89",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "浦那": {
+      "name": "浦那",
+      "nameEn": "Pune",
+      "aliases": [],
+      "lon": 73.8567,
+      "lat": 18.5204,
+      "modernCountry": "印度",
+      "intro": "浦那17世纪起为马拉塔联盟的政治中心，佩什瓦在此主持联盟事务，城市成为18世纪印度中部的权力枢纽。帕塔莱什瓦尔洞穴与沙尼瓦尔瓦达宫留存至今。1817年英国占领后成为孟买管区的重要驻军与教育城市。",
+      "source": "https://zh.wikipedia.org/wiki/%E6%B5%A6%E9%82%A3",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "普利斯卡": {
+      "name": "普利斯卡",
+      "nameEn": "Pliska",
+      "aliases": [],
+      "lon": 27.1254,
+      "lat": 43.362,
+      "modernCountry": "保加利亚",
+      "intro": "普利斯卡7世纪末起为第一保加利亚帝国的都城，是巴尔干最早的斯拉夫国家政治中心之一。城外的大马达拉骑士浮雕与宫殿遗址反映了帝国早期的权力象征。9世纪末都城迁往普雷斯拉夫，普利斯卡逐渐废弃。",
+      "source": "https://zh.wikipedia.org/wiki/%E6%99%AE%E5%88%A9%E6%96%AF%E5%8D%A1",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "热那亚": {
+      "name": "热那亚",
+      "nameEn": "Genoa",
+      "aliases": [],
+      "lon": 8.9463,
+      "lat": 44.4056,
+      "modernCountry": "意大利",
+      "intro": "热那亚是地中海重要港口，10世纪起以海上共和国身份与威尼斯竞争，控制西地中海与黑海贸易。圣洛伦佐大教堂与总督宫体现其商业财富。1797年共和国被拿破仑废除，此后并入撒丁王国与意大利。",
+      "source": "https://zh.wikipedia.org/wiki/%E7%83%AD%E9%82%A3%E4%BA%9A",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "撒马尔罕": {
+      "name": "撒马尔罕",
+      "nameEn": "Samarkand",
+      "aliases": [],
+      "lon": 66.975,
+      "lat": 39.627,
+      "modernCountry": "乌兹别克斯坦",
+      "intro": "撒马尔罕是河中地区最古老的城市之一，公元前4世纪已见于记载，先后属波斯、希腊化王国与突厥政权。帖木儿帝国定都于此，营建雷吉斯坦广场与大量蓝色穹顶建筑。16世纪后随布哈拉汗国兴起而地位下降。",
+      "source": "https://zh.wikipedia.org/wiki/%E6%92%92%E9%A9%AC%E5%B0%94%E7%BD%95",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "萨拉戈萨": {
+      "name": "萨拉戈萨",
+      "nameEn": "Zaragoza",
+      "aliases": [],
+      "lon": -0.8891,
+      "lat": 41.6488,
+      "modernCountry": "西班牙",
+      "intro": "萨拉戈萨在罗马时代称萨尔杜巴，是埃布罗河谷的交通枢纽。8世纪起为伊斯兰政权的重要城市，1118年被阿拉贡王国收复后成为王国都城，阿拉贡王冠在此加冕。城市此后仍是阿拉贡地区的中心，以皮拉尔圣母圣殿闻名。",
+      "source": "https://zh.wikipedia.org/wiki/%E8%90%A8%E6%8B%89%E6%88%88%E8%90%A8",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "圣彼得堡": {
+      "name": "圣彼得堡",
+      "nameEn": "Saint Petersburg",
+      "aliases": [
+        "彼得格勒",
+        "列宁格勒"
+      ],
+      "lon": 30.3609,
+      "lat": 59.9311,
+      "modernCountry": "俄罗斯",
+      "intro": "圣彼得堡由彼得大帝于1703年在涅瓦河口建立，1712年迁都于此，作为面向欧洲的窗口。城市以涅瓦河、冬宫与彼得保罗要塞为骨架，18至19世纪是俄罗斯帝国的政治与文化中心。1918年首都迁回莫斯科。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E5%BD%BC%E5%BE%97%E5%A0%A1",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "斯德哥尔摩": {
+      "name": "斯德哥尔摩",
+      "nameEn": "Stockholm",
+      "aliases": [],
+      "lon": 18.0686,
+      "lat": 59.3293,
+      "modernCountry": "瑞典",
+      "intro": "斯德哥尔摩建在波罗的海入海口的群岛上，13世纪起成为瑞典王国的政治中心，王宫与老城位于斯塔丹岛。17世纪瑞典帝国时期城市迅速扩张，成为波罗的海贸易枢纽。19世纪后工业化推动城市向外围扩展。",
+      "source": "https://zh.wikipedia.org/wiki/%E6%96%AF%E5%BE%B7%E5%93%A5%E5%B0%94%E6%91%A9",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "斯里巴加湾市": {
+      "name": "斯里巴加湾市",
+      "nameEn": "Bandar Seri Begawan",
+      "aliases": [],
+      "lon": 114.9398,
+      "lat": 4.9031,
+      "modernCountry": "文莱",
+      "intro": "斯里巴加湾市旧称文莱城，是文莱苏丹国的都城，15至16世纪因香料与海上贸易而兴盛。城中的水上村落甘榜亚逸延续数百年，苏丹奥马尔·阿里·赛义夫丁清真寺为现代地标。1970年城市改为现名。",
+      "source": "https://zh.wikipedia.org/wiki/%E6%96%AF%E9%87%8C%E5%B7%B4%E5%8A%A0%E6%B9%BE%E5%B8%82",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "泰西封": {
+      "name": "泰西封",
+      "nameEn": "Ctesiphon",
+      "aliases": [],
+      "lon": 44.5814,
+      "lat": 33.0934,
+      "modernCountry": "伊拉克",
+      "intro": "泰西封位于底格里斯河东岸，是帕提亚与萨珊王朝的都城，帝国在此统辖美索不达米亚。城中塔克基斯拉宫的巨大拱顶是现存最著名的萨珊建筑遗迹。7世纪阿拉伯征服后城市逐渐废弃，其址在今巴格达东南。",
+      "source": "https://zh.wikipedia.org/wiki/%E6%B3%B0%E8%A5%BF%E5%B0%81",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "坦贾武尔": {
+      "name": "坦贾武尔",
+      "nameEn": "Thanjavur",
+      "aliases": [],
+      "lon": 79.1378,
+      "lat": 10.787,
+      "modernCountry": "印度",
+      "intro": "坦贾武尔是朱罗王朝的都城，11世纪拉贾拉贾一世在此营建布里哈迪斯瓦拉神庙，成为南印度印度教建筑的典范。城市凭高韦里河三角洲的农业与海上贸易繁荣，后来先后由纳亚克与马拉塔人统治。现为泰米尔纳德邦的文化城市。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%9D%A6%E8%B4%BE%E6%AD%A6%E5%B0%94",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "图卢兹": {
+      "name": "图卢兹",
+      "nameEn": "Toulouse",
+      "aliases": [],
+      "lon": 1.4442,
+      "lat": 43.6047,
+      "modernCountry": "法国",
+      "intro": "图卢兹在罗马时代已是阿基坦地区的重要城市，5世纪起为西哥特王国的都城。中世纪它是朗格多克伯爵领的中心，圣塞尔南大教堂为朝圣路上的地标。1271年并入法国王室领地，此后成为法国西南的行政中心。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%9B%BE%E5%8D%A2%E5%85%B9",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "托莱多": {
+      "name": "托莱多",
+      "nameEn": "Toledo",
+      "aliases": [],
+      "lon": -4.0273,
+      "lat": 39.8628,
+      "modernCountry": "西班牙",
+      "intro": "托莱多在西哥特王国时期已是都城，8世纪后成为伊斯兰与基督教政权争夺的要地。1085年被卡斯蒂利亚收复后，长期作为王国首都与宗教中心，大教堂与阿尔卡萨尔城堡为其地标。1561年宫廷迁往马德里后地位下降。",
+      "source": "https://zh.wikipedia.org/wiki/%E6%89%98%E8%8E%B1%E5%A4%9A",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "威尼斯": {
+      "name": "威尼斯",
+      "nameEn": "Venice",
+      "aliases": [],
+      "lon": 12.3155,
+      "lat": 45.4408,
+      "modernCountry": "意大利",
+      "intro": "威尼斯建于潟湖岛屿之上，7世纪后逐渐形成自治政权，9世纪起以圣马可为守护神。共和国凭海军与地中海贸易称霸，总督府与圣马可大教堂象征其财富。1797年共和国被拿破仑终结，城市此后成为奥地利与意大利的一部分。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%A8%81%E5%B0%BC%E6%96%AF",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "维尔纽斯": {
+      "name": "维尔纽斯",
+      "nameEn": "Vilnius",
+      "aliases": [],
+      "lon": 25.2797,
+      "lat": 54.6872,
+      "modernCountry": "立陶宛",
+      "intro": "维尔纽斯14世纪起为立陶宛大公国都城，格迪米纳斯塔与主教座堂见证了公国的扩张。1569年卢布林合并后，它与华沙共同构成波兰-立陶宛联邦的政治中心。1795年俄国吞并后成为省城，1918年成为立陶宛首都。",
+      "source": "https://zh.wikipedia.org/wiki/%E7%BB%B4%E5%B0%94%E7%BA%BD%E6%96%AF",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "维也纳": {
+      "name": "维也纳",
+      "nameEn": "Vienna",
+      "aliases": [],
+      "lon": 16.3738,
+      "lat": 48.2082,
+      "modernCountry": "奥地利",
+      "intro": "维也纳自13世纪起是哈布斯堡家族的驻地，长期作为神圣罗马帝国与奥地利帝国的宫廷所在。城市以音乐传统著称，美泉宫与圣斯蒂芬大教堂是其地标。第一次世界大战后帝国解体，维也纳成为奥地利共和国首都。",
+      "source": "https://zh.wikipedia.org/wiki/%E7%BB%B4%E4%B9%9F%E7%BA%B3",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "乌赫尔城": {
+      "name": "乌赫尔城",
+      "nameEn": "La Seu d'Urgell",
+      "aliases": [
+        "塞乌德乌赫尔"
+      ],
+      "lon": 1.456,
+      "lat": 42.3576,
+      "modernCountry": "西班牙",
+      "intro": "乌赫尔城位于比利牛斯山南麓，是乌赫尔伯爵领与乌赫尔教区的中心，主教座堂建于12世纪。伯爵领在中世纪夹在法国与阿拉贡之间，逐渐失去独立地位。20世纪起城市因河谷农业与旅游而维持小镇规模。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%A1%9E%E4%B9%8C%E5%BE%B7%E4%B9%8C%E8%B5%AB%E5%B0%94",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "吴哥": {
+      "name": "吴哥",
+      "nameEn": "Angkor",
+      "aliases": [],
+      "lon": 103.867,
+      "lat": 13.4125,
+      "modernCountry": "柬埔寨",
+      "intro": "吴哥是高棉帝国的都城，9至13世纪在此陆续营建吴哥窟与巴戎寺等大型石构建筑。城市以水利系统支撑庞大人口，是前工业时代东南亚最大的城市之一。15世纪暹罗入侵后都城南迁，吴哥逐渐被丛林覆盖。",
+      "source": "https://zh.wikipedia.org/wiki/%E5%90%B4%E5%93%A5",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "新阿姆斯特丹": {
+      "name": "新阿姆斯特丹",
+      "nameEn": "New Amsterdam",
+      "aliases": [
+        "纽约"
+      ],
+      "lon": -74.006,
+      "lat": 40.7128,
+      "modernCountry": "美国",
+      "intro": "新阿姆斯特丹是荷兰西印度公司1625年在曼哈顿岛南端建立的殖民城镇，作为新尼德兰的行政中心。它凭港口与毛皮贸易发展，城墙后来演变为华尔街。1664年被英国夺取并改名纽约，此后成为北美重要商港。",
+      "source": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%98%BF%E5%A7%86%E6%96%AF%E7%89%B9%E4%B8%B9",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "雅加达": {
+      "name": "雅加达",
+      "nameEn": "Jakarta",
+      "aliases": [
+        "巴达维亚"
+      ],
+      "lon": 106.8456,
+      "lat": -6.2088,
+      "modernCountry": "印度尼西亚",
+      "intro": "雅加达旧称巴达维亚，17世纪由荷兰东印度公司建设，作为其在亚洲的贸易与行政总部。城市位于爪哇岛西北海岸，运河与港口构成殖民城市格局。1945年印尼独立后成为首都，2019年起部分行政职能迁往努山塔拉。",
+      "source": "https://zh.wikipedia.org/wiki/%E9%9B%85%E5%8A%A0%E8%BE%BE",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "雅西": {
+      "name": "雅西",
+      "nameEn": "Iași",
+      "aliases": [],
+      "lon": 27.6014,
+      "lat": 47.1585,
+      "modernCountry": "罗马尼亚",
+      "intro": "雅西在16世纪成为摩尔多瓦公国的都城，公国在此抵御奥斯曼与波兰的影响。城中的三圣主教座堂与文化学院使其成为罗马尼亚东部的重要文化中心。1859年摩尔多瓦与瓦拉几亚合并后，首都先后迁往布加勒斯特。",
+      "source": "https://zh.wikipedia.org/wiki/%E9%9B%85%E8%A5%BF",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "亚琛": {
+      "name": "亚琛",
+      "nameEn": "Aachen",
+      "aliases": [
+        "阿亨"
+      ],
+      "lon": 6.0839,
+      "lat": 50.7753,
+      "modernCountry": "德国",
+      "intro": "亚琛因查理曼的宫廷而兴起，8世纪末至9世纪初是加洛林帝国的政治中心，其宫殿礼拜堂保存至今。帝国分裂后，这里仍是神圣罗马帝国皇帝加冕之地，前后有数十位君主在此加冕。城市后来衰落为边境小城，以温泉疗养闻名。",
+      "source": "https://zh.wikipedia.org/wiki/%E4%BA%9A%E7%90%9B",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "亚历山大港": {
+      "name": "亚历山大港",
+      "nameEn": "Alexandria",
+      "aliases": [
+        "亚历山大城"
+      ],
+      "lon": 29.9187,
+      "lat": 31.2001,
+      "modernCountry": "埃及",
+      "intro": "亚历山大港由亚历山大大帝于公元前4世纪建立，托勒密王朝以此为都城，城中图书馆与灯塔在古代地中海世界闻名。罗马时代它仍是埃及的行政与粮食转运中心。7世纪阿拉伯征服后地位下降，但港口延续至今。",
+      "source": "https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7%E6%B8%AF",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "郢": {
+      "name": "郢",
+      "nameEn": "Ying",
+      "aliases": [
+        "纪南城"
+      ],
+      "lon": 112.1762,
+      "lat": 30.4031,
+      "modernCountry": "中国",
+      "intro": "郢是楚国都城，位于今湖北荆州城北的纪南城遗址，春秋战国时期楚国在此建都数百年。城址有夯土城墙与宫殿台基，周边出土大量楚简与漆器。公元前278年秦军攻陷郢都，楚国被迫迁都。",
+      "source": "https://zh.wikipedia.org/wiki/%E9%83%A2",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "约克": {
+      "name": "约克",
+      "nameEn": "York",
+      "aliases": [],
+      "lon": -1.0815,
+      "lat": 53.959,
+      "modernCountry": "英国",
+      "intro": "约克由罗马人建立，称埃博拉库姆，7世纪起为诺森布里亚王国的宗教与政治中心。9世纪维京人占领后成为斯堪的纳维亚人的贸易城市，约克大教堂是英格兰北部教会中心。中世纪后期其地位逐渐被伦敦取代。",
+      "source": "https://zh.wikipedia.org/wiki/%E7%BA%A6%E5%85%8B",
+      "generatedBy": "ai",
+      "reviewed": false
+    },
+    "长安": {
+      "name": "长安",
+      "nameEn": "Chang'an",
+      "aliases": [
+        "西安",
+        "京兆"
+      ],
+      "lon": 108.9398,
+      "lat": 34.3416,
+      "modernCountry": "中国",
+      "intro": "长安是西汉与隋唐的都城，隋代营建大兴城，唐代改称长安，城市以棋盘式街道与东西两市著称。唐长安人口众多，是丝绸之路的东端起点，大雁塔为玄奘译经所建。唐末战乱后都城东移，长安逐渐改称西安。",
+      "source": "https://zh.wikipedia.org/wiki/%E9%95%BF%E5%AE%89",
+      "generatedBy": "ai",
+      "reviewed": false
+    }
+  },
+  "polities": {
+    "Abbasid Caliphate": {
+      "entries": [
+        {
+          "capital": "巴格达",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Anglo-Saxon England": {
+      "entries": [
+        {
+          "capital": "约克",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Aquitaine": {
+      "entries": [
+        {
+          "capital": "波尔多",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        },
+        {
+          "capital": "图卢兹",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Ashanti Empire": {
+      "entries": [
+        {
+          "capital": "库马西",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "British Cape Colony": {
+      "entries": [
+        {
+          "capital": "开普敦",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "British Colonial Empire": {
+      "entries": [
+        {
+          "capital": "伦敦",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "British Empire": {
+      "entries": [
+        {
+          "capital": "伦敦",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "British Raj": {
+      "entries": [
+        {
+          "capital": "德里",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Burgundian Kingdom": {
+      "entries": [
+        {
+          "capital": "里昂",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Byzantine Empire": {
+      "entries": [
+        {
+          "capital": "君士坦丁堡",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Carolingian Empire": {
+      "entries": [
+        {
+          "capital": "亚琛",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Carthage": {
+      "entries": [
+        {
+          "capital": "迦太基",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Chola Empire": {
+      "entries": [
+        {
+          "capital": "坦贾武尔",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Chu": {
+      "entries": [
+        {
+          "capital": "郢",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Comtat Venaissin": {
+      "entries": [
+        {
+          "capital": "阿维尼翁",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "County of Urgell": {
+      "entries": [
+        {
+          "capital": "乌赫尔城",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Crown of Aragon": {
+      "entries": [
+        {
+          "capital": "萨拉戈萨",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Crown of Castile": {
+      "entries": [
+        {
+          "capital": "马德里",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Delhi Sultanate": {
+      "entries": [
+        {
+          "capital": "德里",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Denmark-Norway": {
+      "entries": [
+        {
+          "capital": "哥本哈根",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Duchy of Bavaria": {
+      "entries": [
+        {
+          "capital": "慕尼黑",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Duchy of Lorraine": {
+      "entries": [
+        {
+          "capital": "南锡",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Dutch East Indies": {
+      "entries": [
+        {
+          "capital": "雅加达",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Dutch Republic": {
+      "entries": [
+        {
+          "capital": "阿姆斯特丹",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Eastern Roman Empire": {
+      "entries": [
+        {
+          "capital": "君士坦丁堡",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Electorate of Saxony": {
+      "entries": [
+        {
+          "capital": "德累斯顿",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Empire of Japan": {
+      "entries": [
+        {
+          "capital": "东京",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "English Colonial Empire": {
+      "entries": [
+        {
+          "capital": "伦敦",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "First Bulgarian Empire": {
+      "entries": [
+        {
+          "capital": "普利斯卡",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "French Africa": {
+      "entries": [
+        {
+          "capital": "巴黎",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "French India": {
+      "entries": [
+        {
+          "capital": "本地治里",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "French Third Republic": {
+      "entries": [
+        {
+          "capital": "巴黎",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Goguryeo": {
+      "entries": [
+        {
+          "capital": "国内城",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Grand Principality of Moscow": {
+      "entries": [
+        {
+          "capital": "莫斯科",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Greenland": {
+      "entries": [
+        {
+          "capital": "努克",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Habsburg Monarchy": {
+      "entries": [
+        {
+          "capital": "维也纳",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Han Dynasty": {
+      "entries": [
+        {
+          "capital": "长安",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Holy Roman Empire": {
+      "entries": [
+        {
+          "capital": "亚琛",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        },
+        {
+          "capital": "罗马",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "House of Habsburg": {
+      "entries": [
+        {
+          "capital": "维也纳",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Kalmar Union": {
+      "entries": [
+        {
+          "capital": "哥本哈根",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        },
+        {
+          "capital": "卡尔马",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Kazakh Khanate": {
+      "entries": [
+        {
+          "capital": "江布尔",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Khmer Empire": {
+      "entries": [
+        {
+          "capital": "吴哥",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Kingdom of Bohemia": {
+      "entries": [
+        {
+          "capital": "布拉格",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Kingdom of Denmark": {
+      "entries": [
+        {
+          "capital": "哥本哈根",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Kingdom of England": {
+      "entries": [
+        {
+          "capital": "伦敦",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Kingdom of France": {
+      "entries": [
+        {
+          "capital": "巴黎",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Kingdom of Georgia": {
+      "entries": [
+        {
+          "capital": "第比利斯",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Kingdom of Hungary": {
+      "entries": [
+        {
+          "capital": "布达佩斯",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Kingdom of Italy": {
+      "entries": [
+        {
+          "capital": "罗马",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        },
+        {
+          "capital": "都灵",
+          "from": 1862,
+          "to": 1865,
+          "yearsUnknown": false
+        },
+        {
+          "capital": "佛罗伦萨",
+          "from": 1865,
+          "to": null,
+          "yearsUnknown": false
+        }
+      ]
+    },
+    "Kingdom of Poland": {
+      "entries": [
+        {
+          "capital": "克拉科夫",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        },
+        {
+          "capital": "波兹南",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Kingdom of Portugal": {
+      "entries": [
+        {
+          "capital": "里斯本",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Kingdom of Prussia": {
+      "entries": [
+        {
+          "capital": "柯尼斯堡",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Kingdom of Spain": {
+      "entries": [
+        {
+          "capital": "马德里",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Kingdom of Sweden": {
+      "entries": [
+        {
+          "capital": "斯德哥尔摩",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Kingdom of the Franks": {
+      "entries": [
+        {
+          "capital": "巴黎",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Macedonian Empire": {
+      "entries": [
+        {
+          "capital": "佩拉",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Maratha Empire": {
+      "entries": [
+        {
+          "capital": "浦那",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Merovingian Empire": {
+      "entries": [
+        {
+          "capital": "巴黎",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Mexico": {
+      "entries": [
+        {
+          "capital": "墨西哥城",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Mughal Empire": {
+      "entries": [
+        {
+          "capital": "德里",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Nepal": {
+      "entries": [
+        {
+          "capital": "加德满都",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Netherlands": {
+      "entries": [
+        {
+          "capital": "阿姆斯特丹",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "New France": {
+      "entries": [
+        {
+          "capital": "魁北克城",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "New Netherland": {
+      "entries": [
+        {
+          "capital": "新阿姆斯特丹",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Novgorod Republic": {
+      "entries": [
+        {
+          "capital": "诺夫哥罗德",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Old Kingdom of Norway": {
+      "entries": [
+        {
+          "capital": "奥斯陆",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Ottoman Empire": {
+      "entries": [
+        {
+          "capital": "君士坦丁堡",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Papal States": {
+      "entries": [
+        {
+          "capital": "罗马",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Polish-Lithuanian Commonwealth": {
+      "entries": [
+        {
+          "capital": "华沙",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        },
+        {
+          "capital": "维尔纽斯",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Portuguese Colonies": {
+      "entries": [
+        {
+          "capital": "里斯本",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Portuguese Empire": {
+      "entries": [
+        {
+          "capital": "里斯本",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Principality of Moldavia": {
+      "entries": [
+        {
+          "capital": "雅西",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Ptolemaic Kingdom": {
+      "entries": [
+        {
+          "capital": "亚历山大港",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Qing Dynasty": {
+      "entries": [
+        {
+          "capital": "北京",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Republic of Florence": {
+      "entries": [
+        {
+          "capital": "佛罗伦萨",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Republic of Genoa": {
+      "entries": [
+        {
+          "capital": "热那亚",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Republic of Venice": {
+      "entries": [
+        {
+          "capital": "威尼斯",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Roman Empire": {
+      "entries": [
+        {
+          "capital": "罗马",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Roman Republic": {
+      "entries": [
+        {
+          "capital": "罗马",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Russian Empire": {
+      "entries": [
+        {
+          "capital": "圣彼得堡",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Sasanian Empire": {
+      "entries": [
+        {
+          "capital": "泰西封",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Second French Empire": {
+      "entries": [
+        {
+          "capital": "巴黎",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Spanish Empire": {
+      "entries": [
+        {
+          "capital": "马德里",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Sultanate of Brunei": {
+      "entries": [
+        {
+          "capital": "斯里巴加湾市",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Sultanate of Malacca": {
+      "entries": [
+        {
+          "capital": "马六甲",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Swedish Empire": {
+      "entries": [
+        {
+          "capital": "斯德哥尔摩",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Swiss Confederation": {
+      "entries": [
+        {
+          "capital": "伯尔尼",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Tang Dynasty": {
+      "entries": [
+        {
+          "capital": "长安",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Tibet": {
+      "entries": [
+        {
+          "capital": "拉萨",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Timurid Empire": {
+      "entries": [
+        {
+          "capital": "撒马尔罕",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        },
+        {
+          "capital": "赫拉特",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Tsardom of Russia": {
+      "entries": [
+        {
+          "capital": "莫斯科",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Umayyad Caliphate": {
+      "entries": [
+        {
+          "capital": "大马士革",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "United States of America": {
+      "entries": [
+        {
+          "capital": "华盛顿",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "Visigothic Kingdom": {
+      "entries": [
+        {
+          "capital": "托莱多",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        },
+        {
+          "capital": "图卢兹",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    },
+    "West Franks": {
+      "entries": [
+        {
+          "capital": "巴黎",
+          "from": null,
+          "to": null,
+          "yearsUnknown": true
+        }
+      ]
+    }
+  }
+}

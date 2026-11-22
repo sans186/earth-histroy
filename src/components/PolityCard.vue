@@ -7,17 +7,21 @@ import { wikiArticleUrl } from '@/lib/wiki';
 import { makePolityScope, withRecordedSpan } from '@/lib/polityScope';
 import {
   findPolityAsset,
+  findPolityCapitals,
   findPolityDescription,
   findPolityFacts,
   findPolityLifecycle,
   loadPolityAreaOverrides,
   loadPolityAssets,
+  loadPolityCapitals,
   loadPolityDescriptions,
   loadPolityFacts,
   loadPolityFlags,
   loadPolityLifecycles,
+  type CapitalInfo,
   type PolityAreaOverride,
   type PolityAsset,
+  type PolityCapitalEntry,
   type PolityDescription,
   type PolityFacts,
   type PolityLifecycle,
@@ -32,7 +36,11 @@ const props = defineProps<{
   /** English → Chinese name map; Cliopatria ships English names only. */
   names?: Record<string, string>;
 }>();
-const emit = defineEmits<{ close: []; scope: [] }>();
+const emit = defineEmits<{
+  close: [];
+  scope: [];
+  locate: [at: { lon: number; lat: number }];
+}>();
 
 const ui = useUiStore();
 
@@ -135,6 +143,11 @@ const wars = useWarsStore();
 const relatedWars = ref<number | null>(null);
 const relatedPeople = ref<number | null>(null);
 
+/** Capital periods with their gazetteer record, in source order. */
+type CapitalItem = { info: CapitalInfo; entry: PolityCapitalEntry };
+const capitalEntries = ref<CapitalItem[]>([]);
+const openCapital = ref<string | null>(null);
+
 watch(
   () => props.feature.properties?.Name,
   async (target) => {
@@ -146,18 +159,22 @@ watch(
     extract.value = '';
     facts.value = null;
     lifecycle.value = null;
+    capitalEntries.value = [];
+    openCapital.value = null;
     relatedWars.value = null;
     relatedPeople.value = null;
     if (!target) return;
 
-    const [assets, descriptions, factsMap, areaOverrides, flags, lifecycles] = await Promise.all([
-      loadPolityAssets(),
-      loadPolityDescriptions(),
-      loadPolityFacts(),
-      loadPolityAreaOverrides(),
-      loadPolityFlags(),
-      loadPolityLifecycles(),
-    ]);
+    const [assets, descriptions, factsMap, areaOverrides, flags, lifecycles, capitalFile] =
+      await Promise.all([
+        loadPolityAssets(),
+        loadPolityDescriptions(),
+        loadPolityFacts(),
+        loadPolityAreaOverrides(),
+        loadPolityFlags(),
+        loadPolityLifecycles(),
+        loadPolityCapitals(),
+      ]);
     // The card may have been re-pointed while the files were in flight.
     if (props.feature.properties?.Name !== target) return;
 
@@ -169,6 +186,10 @@ watch(
     extract.value =
       description && describesThisTile(description) ? description.zh.extract : '';
     lifecycle.value = findPolityLifecycle(target, lifecycles);
+    capitalEntries.value = findPolityCapitals(target, capitalFile).flatMap((entry) => {
+      const info = capitalFile?.capitals[entry.capital];
+      return info ? [{ info, entry }] : [];
+    });
 
     // The same scope the lists filter by, so the counts match what clicking
     // "filter to this polity" will actually show.
@@ -217,6 +238,21 @@ const population = computed(() => {
   if (facts.value?.population) return facts.value.population;
   return modern.value && asset.value?.population ? asset.value.population.toLocaleString() : '';
 });
+
+function toggleCapital(key: string) {
+  openCapital.value = openCapital.value === key ? null : key;
+}
+
+/** Years are optional: show whichever end the archive records. */
+function capitalYears(entry: PolityCapitalEntry): string {
+  const { from, to } = entry;
+  if (typeof from === 'number' && typeof to === 'number') {
+    return formatYearRange(from, to, ui.locale);
+  }
+  if (typeof from === 'number') return `${formatYearRange(from, from, ui.locale)}–`;
+  if (typeof to === 'number') return `–${formatYearRange(to, to, ui.locale)}`;
+  return ui.t('capital.yearsUnknown');
+}
 
 /** The extracts are Chinese-only, so an English interface shows none. */
 const about = computed(() => (ui.locale === 'zh' ? extract.value : ''));
@@ -277,7 +313,7 @@ const wikiUrl = computed(() => {
         <dt :title="ui.t('polity.recordedHint')">{{ ui.t('polity.recordedYears') }}</dt>
         <dd class="mono">{{ years }}</dd>
       </div>
-      <div v-if="capital">
+      <div v-if="capital && !capitalEntries.length">
         <dt>{{ ui.t('polity.capital') }}</dt>
         <dd>{{ capital }}</dd>
       </div>
@@ -296,6 +332,52 @@ const wikiUrl = computed(() => {
         <dd>{{ type }}</dd>
       </div>
     </dl>
+
+    <!-- Capital periods. The archive records a name, not a yearly switch, so
+         unknown years stay visibly unknown instead of being interpolated. -->
+    <section v-if="capitalEntries.length" class="capitals">
+      <h4>{{ ui.t('capital.title') }}</h4>
+      <div
+        v-for="(item, index) in capitalEntries"
+        :key="`${item.entry.capital}-${index}`"
+        class="capital"
+      >
+        <button
+          class="capital-head"
+          :aria-expanded="openCapital === item.entry.capital"
+          @click="toggleCapital(item.entry.capital)"
+        >
+          <span class="capital-name">
+            {{ item.info.name }}
+            <span v-if="item.info.nameEn" class="capital-en">{{ item.info.nameEn }}</span>
+          </span>
+          <span class="capital-years mono">{{ capitalYears(item.entry) }}</span>
+        </button>
+        <div v-if="openCapital === item.entry.capital" class="capital-body">
+          <p>{{ item.info.intro }}</p>
+          <div class="capital-meta">
+            <span v-if="item.info.modernCountry">
+              {{ ui.t('capital.modern') }}{{ item.info.modernCountry }}
+            </span>
+            <a
+              v-if="item.info.source"
+              :href="item.info.source"
+              target="_blank"
+              rel="noopener noreferrer"
+              >{{ ui.t('capital.source') }} ↗</a
+            >
+          </div>
+          <div class="capital-foot">
+            <button
+              class="ghost"
+              @click="emit('locate', { lon: item.info.lon, lat: item.info.lat })"
+            >
+              {{ ui.t('capital.locate') }}
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!--
       The generated profile. Values the model could not establish are absent
@@ -531,6 +613,86 @@ dd {
 .related b {
   color: var(--ink);
   font-weight: 500;
+}
+.capitals {
+  padding: 11px 16px;
+  border-top: 1px solid var(--rule);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.capitals h4 {
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-4);
+  font-weight: 500;
+}
+.capital-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--ink-2);
+  font: inherit;
+  font-size: 13.5px;
+  text-align: left;
+  cursor: pointer;
+}
+.capital-head:hover .capital-name {
+  color: var(--ink);
+}
+.capital-en {
+  margin-left: 6px;
+  font-size: 11px;
+  color: var(--ink-4);
+}
+.capital-years {
+  font-size: 11px;
+  color: var(--ink-4);
+  white-space: nowrap;
+}
+.capital-body {
+  margin: 4px 0;
+  padding: 8px 10px;
+  border-left: 2px solid var(--rule-2);
+  background: var(--paper-2, transparent);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.capital-body p {
+  margin: 0;
+  font-size: 12.5px;
+  line-height: 1.7;
+  color: var(--ink-3);
+}
+.capital-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 11px;
+  color: var(--ink-4);
+}
+.capital-meta a {
+  color: var(--ink-3);
+}
+.capital-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+/* The shared .ghost is full-width, not what this footer wants. */
+.capital-foot .ghost {
+  width: auto;
+  padding: 4px 10px;
+  font-size: 12px;
 }
 footer {
   padding: 11px 16px;

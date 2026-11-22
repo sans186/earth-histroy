@@ -11,7 +11,6 @@ import { useGlobeData } from '@/composables/useGlobeData';
 import {
   findEventById,
   findPolityLifecycle,
-  loadPlaceHistory,
   loadPolityFile,
   loadPolityIndex,
   loadPolityLifecycles,
@@ -153,12 +152,6 @@ async function widenPolitySpan(scope: PolityScope) {
 const bordersLoaded = ref(false);
 
 /**
- * A `?place=` link can arrive before the renderer exists. The coordinate is
- * parked here and flown to once the stage reports ready.
- */
-let deepLinkCamera: { lon: number; lat: number } | null = null;
-
-/**
  * The reader's camera, parked when a story closed across a stage switch (2D →
  * forced 3D → back to 2D). The remounted renderer isn't ready yet, so it is
  * flown to from `onStageReady`.
@@ -204,11 +197,6 @@ function onStageReady() {
     // Events first so the map is useful immediately; the heavy polity files
     // follow on their own without competing for the same bandwidth.
     await data.refreshEvents();
-    // A ?place= link asked for a camera move before the renderer existed.
-    if (deepLinkCamera) {
-      flyTo(deepLinkCamera.lon, deepLinkCamera.lat, 1_200_000);
-      deepLinkCamera = null;
-    }
     // The flat map loads its own polity geometry as a GeoJSON source, so this
     // 3D-only pass would be pure waste there.
     if (ui.stage === '3d') {
@@ -925,18 +913,13 @@ function onGlobalPointerDown(event: PointerEvent) {
   yearOpen.value = false;
 }
 
-/* ── places ────────────────────────────────────────────────────────────── */
-
-/** The「地点」tab asked to frame a place. */
-function onPlaceLocate(at: { lon: number; lat: number }) {
-  flyTo(at.lon, at.lat, 900_000);
-}
+/* ── deep links ────────────────────────────────────────────────────────── */
 
 /**
  * Restore a shared state from the URL.
  *
  * Parameters: `year`, `view` (explore/atlas), `stage` (3d/2d), `event`,
- * `person`, `war`, `polity`, `place`. Unknown values are ignored, so a broken
+ * `person`, `war`, `polity`. Unknown values are ignored, so a broken
  * link still lands on the default view. Cards open only after the year is set.
  */
 async function applyDeepLink() {
@@ -961,16 +944,6 @@ async function applyDeepLink() {
 
   const polity = params.get('polity');
   if (polity) await openSearchPolity(polity, timeline.year);
-
-  const id = params.get('place');
-  if (!id) return;
-  const history = await loadPlaceHistory();
-  const city = history?.cities.find((c) => c.id === id);
-  if (!city) return;
-
-  ui.setPlaceFocus({ id: city.id, lon: city.lon, lat: city.lat });
-  if (globeReady.value) flyTo(city.lon, city.lat, 900_000);
-  else deepLinkCamera = { lon: city.lon, lat: city.lat };
 }
 
 /**
@@ -1000,9 +973,6 @@ function syncUrl() {
   if (polity) params.set('polity', polity);
   else params.delete('polity');
 
-  if (ui.placeFocus) params.set('place', ui.placeFocus.id);
-  else params.delete('place');
-
   window.history.replaceState(null, '', url);
 }
 
@@ -1018,7 +988,6 @@ watch(
     people.selectedId,
     wars.selectedId,
     ui.polityScope?.key ?? null,
-    ui.placeFocus?.id ?? null,
   ] as const,
   () => {
     if (urlSyncReady) syncUrl();
@@ -1136,7 +1105,6 @@ onBeforeUnmount(() => {
         @select="onPickEvent"
         @open-year="openYearCard"
         @collapse="panelCollapsed = true"
-        @locate="onPlaceLocate"
         @polity="onPickPolity"
       />
       <button

@@ -272,6 +272,7 @@ function catLabel(key: CategoryKey) {
           <!-- 数据概况（只读） -->
           <section v-show="group === 'data'">
             <p class="note">{{ ui.t('settings.statsHint') }}</p>
+            <p class="note">{{ ui.t('settings.aiHint') }}</p>
             <dl class="stats">
               <div>
                 <dt>{{ ui.t('layer.events') }}</dt>

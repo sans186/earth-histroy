@@ -3,7 +3,7 @@ import { computed, ref } from 'vue';
 import { translate, type MessageKey } from '@/lib/i18n';
 import type { AppError } from '@/lib/appError';
 import type { PolityScope } from '@/lib/polityScope';
-import type { Locale, PlaceFocus, StageMode, TimelineEvent, ViewMode } from '@/types';
+import type { Locale, StageMode, TimelineEvent, ViewMode } from '@/types';
 
 function readStored<T extends string>(key: string, allowed: readonly T[], fallback: T): T {
   try {
@@ -58,18 +58,6 @@ export const useUiStore = defineStore('ui', () => {
   const polityScope = ref<PolityScope | null>(null);
   /** Whether the lists show only what falls inside `polityScope`. */
   const scopeToPolity = ref(false);
-
-  /**
-   * The place whose chronicle is open in the「地点」tab.
-   *
-   * Kept here rather than in the panel because the deep link and the map's
-   * blank-space click both need to set it without reaching into a component.
-   */
-  const placeFocus = ref<PlaceFocus | null>(null);
-
-  function setPlaceFocus(next: PlaceFocus | null) {
-    placeFocus.value = next;
-  }
 
   function setPolityScope(scope: PolityScope | null) {
     polityScope.value = scope;
@@ -144,7 +132,6 @@ export const useUiStore = defineStore('ui', () => {
   function setView(next: ViewMode) {
     view.value = next;
     selectedEvent.value = null;
-    placeFocus.value = null;
   }
 
   /**
@@ -173,8 +160,6 @@ export const useUiStore = defineStore('ui', () => {
     scopeToPolity,
     setPolityScope,
     toggleScopeToPolity,
-    placeFocus,
-    setPlaceFocus,
     t,
     tf,
     beginTask,

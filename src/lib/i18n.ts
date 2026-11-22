@@ -44,6 +44,8 @@ const MESSAGES = {
     'settings.language': '界面语言',
     'settings.languageHint': '切换后文案立即更新，并记住选择。',
     'settings.statsHint': '只读，随当前年份变化。',
+    'settings.aiHint':
+      '部分内容（政区简介与事实、人物档案、战争叙述、首都介绍等）由 AI 生成或辅助整理，未逐条核验，不作为史实依据；逐字段范围见「关于」页。',
     'settings.aboutHint': '数据来源、许可协议与 AI 生成声明',
 
     'view.explore': '探索视图',
@@ -397,7 +399,6 @@ const MESSAGES = {
     'capital.modern': '今所在国家或地区：',
     'capital.source': '维基百科',
     'capital.locate': '在地图上查看',
-    'capital.generated': 'AI 生成 · 未核验',
 
     'hint.keys': '← → 移动时间 · Esc 关闭',
     'hint.map2d': '拖拽平移 · 滚轮缩放 · 点击条目打开',
@@ -598,6 +599,8 @@ const MESSAGES = {
     'settings.language': 'Language',
     'settings.languageHint': 'Applies immediately and is remembered.',
     'settings.statsHint': 'Read-only; follows the current year.',
+    'settings.aiHint':
+      'Some content (polity summaries and facts, people profiles, war narratives, capital entries and more) is AI-generated or AI-assisted and has not been individually verified; it must not be cited as historical fact. Per-field scope is on the About page.',
     'settings.aboutHint': 'Sources, licences and AI disclosure',
 
     'view.explore': 'Explore',
@@ -954,7 +957,6 @@ const MESSAGES = {
     'capital.modern': 'Present-day country or region: ',
     'capital.source': 'Wikipedia',
     'capital.locate': 'Show on map',
-    'capital.generated': 'AI-generated · unverified',
 
     'hint.keys': '← → time · Esc close',
     'hint.map2d': 'Drag to pan · scroll to zoom · click to open',

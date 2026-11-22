@@ -6,7 +6,6 @@ import {
   NETWORK,
   PEOPLE_BASE,
   PEOPLE_COORDS,
-  PLACES_BASE,
   POLITIES_BASE,
   YEAR_WINDOW,
   resolveCategory,
@@ -21,7 +20,6 @@ import type {
   Locale,
   PersonIndexItem,
   PersonProfile,
-  PlaceHistoryFile,
   PolityCollection,
   PolityFileIndex,
   RawEvent,
@@ -841,36 +839,6 @@ export function findPolityLifecycle(
   return lifecycles[polityKey(name)] ?? null;
 }
 
-/* ── Places ─────────────────────────────────────────────────────────────── */
-
-let placeHistoryCache: PlaceHistoryFile | null = null;
-let placeHistoryInflight: Promise<PlaceHistoryFile | null> | null = null;
-
-/**
- * The curated places and the polities that contained them.
- *
- * Optional: the「地点」tab is one of four ways into the app, and a missing
- * file must degrade to the tab's empty state rather than the global error
- * banner. 41 KB, so it is fetched once and kept for the session.
- */
-export async function loadPlaceHistory(): Promise<PlaceHistoryFile | null> {
-  if (placeHistoryCache) return placeHistoryCache;
-  if (placeHistoryInflight) return placeHistoryInflight;
-  placeHistoryInflight = (async () => {
-    try {
-      const { data, ok } = await fetchOptionalJson<PlaceHistoryFile | null>(
-        `${PLACES_BASE}place_history.json`,
-        null,
-      );
-      if (ok && data?.cities?.length) placeHistoryCache = data;
-      return placeHistoryCache;
-    } finally {
-      placeHistoryInflight = null;
-    }
-  })();
-  return placeHistoryInflight;
-}
-
 /**
  * Tile names that no stripping rule can reach, mapped to the asset key.
  *
@@ -1219,14 +1187,14 @@ export function clearReferenceCaches() {
   polityAssetsCache = null;
   polityDescCache = null;
   polityFactsCache = null;
+  polityCapitalsCache = null;
+  polityCapitalsInflight = null;
   polityLifecycleCache = null;
-  placeHistoryCache = null;
   polityAreaInflight = null;
   polityFlagsInflight = null;
   polityAssetsInflight = null;
   polityDescInflight = null;
   polityFactsInflight = null;
   polityLifecycleInflight = null;
-  placeHistoryInflight = null;
   contextCache.clear();
 }

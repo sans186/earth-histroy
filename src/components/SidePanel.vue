@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, watch } from 'vue';
+import { ref } from 'vue';
 import type { CertaintyLevel } from '@/lib/format';
 import { usePeopleStore } from '@/stores/people';
 import { useUiStore } from '@/stores/ui';
@@ -7,7 +7,6 @@ import { useWarsStore } from '@/stores/wars';
 import type { PolityFeature, TimelineEvent } from '@/types';
 import EventIndex from './EventIndex.vue';
 import PeoplePanel from './PeoplePanel.vue';
-import PlacePanel from './PlacePanel.vue';
 import WarPanel from './WarPanel.vue';
 
 const props = defineProps<{
@@ -20,7 +19,6 @@ const emit = defineEmits<{
   select: [TimelineEvent];
   openYear: [];
   collapse: [];
-  locate: [at: { lon: number; lat: number }];
   polity: [feature: PolityFeature];
 }>();
 
@@ -28,7 +26,7 @@ const ui = useUiStore();
 const wars = useWarsStore();
 const people = usePeopleStore();
 
-type Tab = 'index' | 'wars' | 'people' | 'place';
+type Tab = 'index' | 'wars' | 'people';
 const tab = ref<Tab>('index');
 
 /** Both indexes are small; fetch each once, on first use of its tab. */
@@ -37,14 +35,6 @@ function openTab(next: Tab) {
   if (next === 'wars') void wars.ensureIndex();
   if (next === 'people') void people.ensureIndex();
 }
-
-// A deep link or a place picked elsewhere should reveal the tab that shows it.
-watch(
-  () => ui.placeFocus,
-  (focus) => {
-    if (focus) tab.value = 'place';
-  },
-);
 </script>
 
 <template>
@@ -58,9 +48,6 @@ watch(
       </button>
       <button :class="{ on: tab === 'people' }" @click="openTab('people')">
         {{ ui.t('panel.people') }}
-      </button>
-      <button :class="{ on: tab === 'place' }" @click="openTab('place')">
-        {{ ui.t('panel.place') }}
       </button>
       <button
         class="collapse"
@@ -82,12 +69,6 @@ watch(
       />
       <WarPanel v-show="tab === 'wars'" />
       <PeoplePanel v-show="tab === 'people'" />
-      <PlacePanel
-        v-show="tab === 'place'"
-        :active="tab === 'place'"
-        @locate="emit('locate', $event)"
-        @polity="emit('polity', $event)"
-      />
     </div>
   </aside>
 </template>

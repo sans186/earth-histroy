@@ -677,124 +677,102 @@ function validatePolityLifecycles() {
   if (!featured) warn('lifecycles', '没有任何 featured 政区');
 }
 
-/* ── places ──────────────────────────────────────────────────────────────── */
+/* ── polity capitals ─────────────────────────────────────────────────────── */
 
 /**
- * `place_history.json` is derived from the polity slices, so the risks are the
- * same arithmetic ones as the lifecycle table, plus a gazetteer risk: a wrong
- * coordinate silently puts a city inside the wrong polity for centuries.
+ * `polity_capitals.json` is optional: without it the card simply shows no
+ * capital block. When it is present, a bad coordinate would fly the camera to
+ * nowhere and a dangling capital key would silently drop a period, so both are
+ * errors. The introductions are model-written; only the hard shape is checked
+ * here, not their prose.
  */
-function validatePlaceHistory() {
-  section('地点编年  (public/places/place_history.json)');
-  const path = join(ROOT, 'public', 'places', 'place_history.json');
+function validatePolityCapitals() {
+  section('政区首都  (public/ne/polity_capitals.json)');
+  const path = join(ROOT, 'public', 'ne', 'polity_capitals.json');
   if (!existsSync(path)) {
-    warn('places', '缺少文件: public/places/place_history.json', 'node scripts/data/build-place-history.mjs');
+    line('未提供，跳过（卡片不显示首都区块）');
     return;
   }
   const parsed = readJson(path);
   if (!parsed.ok) {
-    err('places', 'place_history.json 解析失败', parsed.error);
+    err('capitals', 'polity_capitals.json 解析失败', parsed.error);
     return;
   }
   const doc = parsed.value;
-  if (doc.version !== 1) warn('places', `未知版本 ${doc.version}`, '期望 1');
-  // The provenance note is a product requirement, not decoration.
-  if (typeof doc.note !== 'string' || doc.note.trim().length < 10) {
-    err('places', '缺少数据来源说明 note');
-  }
-  const range = doc.dataRange;
-  if (!Array.isArray(range) || range.length !== 2 || !range.every(Number.isFinite)) {
-    err('places', 'dataRange 缺失或非法');
+  if (doc?.version !== 1) warn('capitals', `未知版本 ${doc?.version}`, '期望 1');
+
+  const capitals = doc?.capitals;
+  if (!capitals || typeof capitals !== 'object' || Array.isArray(capitals)) {
+    err('capitals', '缺少 capitals 对象映射');
     return;
   }
-  const [dataFrom, dataTo] = range;
-  if (dataFrom >= dataTo) err('places', `dataRange 反向: ${dataFrom}–${dataTo}`);
-
-  const cities = doc.cities;
-  if (!Array.isArray(cities) || !cities.length) {
-    err('places', '缺少 cities 数组');
+  const polities = doc?.polities;
+  if (!polities || typeof polities !== 'object' || Array.isArray(polities)) {
+    err('capitals', '缺少 polities 对象映射');
     return;
   }
 
-  const ids = new Set();
-  let badId = 0;
-  let badCoord = 0;
-  let badSpan = 0;
-  let badRatio = 0;
-  let bracketed = 0;
-  let empty = 0;
-  let spans = 0;
-
-  for (const city of cities) {
-    const id = city?.id;
-    if (typeof id !== 'string' || !id) badId += 1;
-    else if (ids.has(id)) badId += 1;
-    else ids.add(id);
-
-    if (
-      !Number.isFinite(city?.lon) ||
-      !Number.isFinite(city?.lat) ||
-      Math.abs(city.lon) > 180 ||
-      Math.abs(city.lat) > 90
-    ) {
-      badCoord += 1;
-    }
-
-    const polities = city?.polities;
-    if (!Array.isArray(polities)) {
-      badSpan += 1;
+  let badCapital = 0;
+  for (const [key, info] of Object.entries(capitals)) {
+    if (!info || typeof info.name !== 'string' || !info.name.trim()) {
+      badCapital += 1;
+      if (badCapital <= MAX_EXAMPLES) err('capitals', `首都缺少名称: ${key}`);
       continue;
     }
-    if (!polities.length) empty += 1;
-
-    let prevFrom = -Infinity;
-    for (const polity of polities) {
-      if (typeof polity?.name !== 'string' || !polity.name.trim()) {
-        badSpan += 1;
-        break;
+    if (
+      !Number.isFinite(info.lon) ||
+      !Number.isFinite(info.lat) ||
+      Math.abs(info.lon) > 180 ||
+      Math.abs(info.lat) > 90
+    ) {
+      badCapital += 1;
+      if (badCapital <= MAX_EXAMPLES) {
+        err('capitals', `坐标无效: ${key}`, `${info.lon}, ${info.lat}`);
       }
-      // A wrapped name means the builder drifted from polityKey.ts.
-      if (/^\([^()]*\)$/.test(polity.name)) bracketed += 1;
-      const citySpans = polity.spans;
-      if (!Array.isArray(citySpans) || !citySpans.length) {
-        badSpan += 1;
-        break;
-      }
-      let ok = true;
-      for (const span of citySpans) {
-        if (
-          !Array.isArray(span) ||
-          span.length !== 2 ||
-          !span.every(Number.isFinite) ||
-          span[0] > span[1] ||
-          span[0] < dataFrom ||
-          span[1] > dataTo
-        ) {
-          ok = false;
-          break;
-        }
-        spans += 1;
-      }
-      if (!ok || citySpans[0][0] < prevFrom) {
-        badSpan += 1;
-        break;
-      }
-      prevFrom = citySpans[0][0];
     }
+  }
 
-    const ratio = city?.coverage?.ratio;
-    if (!Number.isFinite(ratio) || ratio < 0 || ratio > 1) badRatio += 1;
+  let periods = 0;
+  let badPeriod = 0;
+  let dangling = 0;
+  for (const [polity, raw] of Object.entries(polities)) {
+    const entries = raw?.entries;
+    if (!Array.isArray(entries) || !entries.length) {
+      badPeriod += 1;
+      if (badPeriod <= MAX_EXAMPLES) err('capitals', `政区没有首都条目: ${polity}`);
+      continue;
+    }
+    for (const entry of entries) {
+      periods += 1;
+      if (typeof entry?.capital !== 'string' || !capitals[entry.capital]) {
+        dangling += 1;
+        if (dangling <= MAX_EXAMPLES) {
+          err('capitals', `引用了不存在的首都: ${polity}`, String(entry?.capital));
+        }
+        continue;
+      }
+      // The file writes `null` for an unrecorded end, which means the same as
+      // omitting the key.
+      const from = entry.from ?? undefined;
+      const to = entry.to ?? undefined;
+      if (
+        (from !== undefined && !Number.isFinite(from)) ||
+        (to !== undefined && !Number.isFinite(to)) ||
+        (Number.isFinite(from) && Number.isFinite(to) && from > to)
+      ) {
+        badPeriod += 1;
+        if (badPeriod <= MAX_EXAMPLES) {
+          err('capitals', `年份区间异常: ${polity}/${entry.capital}`, `${from}–${to}`);
+        }
+      }
+    }
   }
 
   const size = (statSync(path).size / 1024).toFixed(0);
-  line(`城市 ${cities.length}，政区区间 ${spans.toLocaleString()}，${size} KB`);
-
-  if (badId) err('places', `${badId} 个城市的 id 缺失或重复`);
-  if (badCoord) err('places', `${badCoord} 个城市的坐标缺失或越界`);
-  if (badSpan) err('places', `${badSpan} 个城市的政区区间非法或越界`);
-  if (badRatio) err('places', `${badRatio} 个城市的 coverage.ratio 不在 0–1`);
-  if (bracketed) err('places', `${bracketed} 个政区名仍带括号，与 polityKey.ts 不一致`);
-  if (empty) warn('places', `${empty} 个城市在全部年代中无政区命中`);
+  line(
+    `首都 ${Object.keys(capitals).length} 个 · 政区 ${Object.keys(polities).length} 个 · 时段 ${periods} 条 · ${size} KB`,
+  );
+  if (badCapital) err('capitals', `${badCapital} 个首都条目不可用`);
 }
 
 /* ── reference files ─────────────────────────────────────────────────────── */
@@ -949,7 +927,7 @@ validateIndexedProfiles({
 });
 validatePolities();
 validatePolityLifecycles();
-validatePlaceHistory();
+validatePolityCapitals();
 validateReference();
 validateLocaleParity();
 report();
