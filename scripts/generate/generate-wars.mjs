@@ -18,6 +18,9 @@
  * Design decisions
  * ----------------
  *   - Credentials come from .env only. Nothing is written into source.
+ *   - No fallback API endpoint. A key is only used against a host that the
+ *     environment names explicitly (OPEN_BASE_URL), so a half-configured .env
+ *     cannot ship the key to a third party.
  *   - The index is never edited directly. It is always rebuilt from the profile
  *     files, so the index and the data cannot drift apart.
  *   - Coverage is computed by war *name* against the declared list, and the
@@ -120,26 +123,39 @@ for (const key of [
 }
 
 /** Accepts a bare host, a base path, or a full endpoint. */
-function chatEndpoint(base, fallback) {
-  const value = (base ?? '').trim();
-  if (!value) return fallback;
-  if (/\/chat\/completions\/?$/.test(value)) return value.replace(/\/$/, '');
-  return `${value.replace(/\/$/, '')}/v1/chat/completions`;
+function chatEndpoint(base) {
+  const value = String(base ?? '').trim().replace(/\/$/, '');
+  if (/\/chat\/completions$/.test(value)) return value;
+  return `${value}/v1/chat/completions`;
 }
 
 if (process.env.OPEN_API_KEY) {
-  API_POOL.push({
-    name: 'OPEN_API_KEY',
-    url: chatEndpoint(process.env.OPEN_BASE_URL, 'https://njusehub.info/v1/chat/completions'),
-    key: process.env.OPEN_API_KEY,
-    model: process.env.OPEN_MODEL || 'DeepSeek-V3',
-    disabled: false,
-  });
+  /*
+   * There is deliberately no default endpoint. The channel used to fall back to
+   * a hard-coded third-party host, so a machine with OPEN_API_KEY but without
+   * OPEN_BASE_URL sent its bearer token to a service this repository does not
+   * control. Without an explicit base URL the channel is skipped instead.
+   */
+  const base = (process.env.OPEN_BASE_URL ?? '').trim();
+  if (base) {
+    API_POOL.push({
+      name: 'OPEN_API_KEY',
+      url: chatEndpoint(base),
+      key: process.env.OPEN_API_KEY,
+      model: process.env.OPEN_MODEL || 'DeepSeek-V3',
+      disabled: false,
+    });
+  } else {
+    console.warn(
+      '已设置 OPEN_API_KEY 但未设置 OPEN_BASE_URL：备用通道已跳过，' +
+        '不会向任何硬编码的第三方地址发送密钥。需要该通道请同时配置 OPEN_BASE_URL。',
+    );
+  }
 }
 
 if (!API_POOL.length && !REBUILD_ONLY) {
   console.error(
-    '未找到可用凭据。请在 .env 中设置 ZHIPU_API_KEY_1..5，或配置 OPEN_API_KEY / OPEN_BASE_URL 作为备用通道。',
+    '未找到可用凭据。请在 .env 中设置 ZHIPU_API_KEY_1..5，或同时配置 OPEN_API_KEY 与 OPEN_BASE_URL 作为备用通道。',
   );
   process.exit(1);
 }

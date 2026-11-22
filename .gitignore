@@ -9,9 +9,12 @@ dist__stale/
 .vite/
 
 # Environment
+# Every Vite mode file (.env.production, .env.development, ...) holds real keys.
+# Listing only .env / .env.local / .env.*.local left the rest tracked.
 .env
-.env.local
-.env.*.local
+.env.*
+# The template documents the variables and has no secrets.
+!.env.example
 .dev.vars
 .wrangler/
 .cloudflare/

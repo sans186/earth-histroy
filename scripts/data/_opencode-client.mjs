@@ -8,6 +8,10 @@
  *
  * Credentials are read ONLY from OPENCODE_API_KEY. Never write them to disk,
  * never print them, never put them in generated data.
+ *
+ * The bearer token is handed to curl on stdin via `--config -`: anything passed
+ * as a command-line argument is visible in the process list to every local user
+ * for the whole duration of the request.
  */
 
 import { spawnSync } from 'node:child_process';
@@ -24,6 +28,18 @@ function key() {
   const k = process.env.OPENCODE_API_KEY;
   if (!k) throw new Error('缺少 OPENCODE_API_KEY 环境变量（不要写进仓库）');
   return k;
+}
+
+/**
+ * Render one curl config line carrying a header.
+ *
+ * curl parses `header = "Name: value"` from its config file; a literal quote or
+ * backslash in the value has to be escaped or the line is truncated at the
+ * wrong place, which would send a half-written token.
+ */
+function headerConfig(name, value) {
+  const escaped = String(value).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+  return `header = "${name}: ${escaped}"\n`;
 }
 
 /** Strip markdown fences / leading prose and parse the first JSON value. */
@@ -68,13 +84,18 @@ export function chat({ system, user, maxTokens = 4096, temperature = 0.2, tries 
         'curl',
         [
           '-sS', '--max-time', '150',
+          // The authorization header arrives on stdin, not in argv.
+          '--config', '-',
           '-X', 'POST', ENDPOINT,
           '-H', 'Content-Type: application/json',
-          '-H', `Authorization: Bearer ${key()}`,
           '-H', `x-opencode-session: ${randomUUID()}`,
           '-d', `@${bodyFile}`,
         ],
-        { encoding: 'utf8', maxBuffer: 16 * 1024 * 1024 },
+        {
+          encoding: 'utf8',
+          maxBuffer: 16 * 1024 * 1024,
+          input: headerConfig('Authorization', `Bearer ${key()}`),
+        },
       );
       if (r.error) throw new Error(`curl 无法启动: ${r.error.message}`);
       const raw = r.stdout || '';

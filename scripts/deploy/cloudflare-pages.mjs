@@ -8,6 +8,8 @@
  *   npm run deploy:cf -- --project <name>      override project name
  *   npm run deploy:cf -- --branch <branch>     override production branch
  *   npm run deploy:cf -- --strip-gz            remove leftover .gz copies
+ *                                              (only after every check passed;
+ *                                              --dry-run never removes anything)
  *
  * Build for Pages with `EARTH_GZIP=0 npm run build`: Vite then omits the .gz
  * copies that only nginx's gzip_static can use. Cloudflare compresses on its
@@ -108,47 +110,42 @@ function preflight() {
     fail('dist/_headers not found. Rebuild so that public/_headers is copied.');
   }
 
-  let removed = 0;
-  let freed = 0;
-  if (stripGz) {
-    for (const f of listFiles(DIST)) {
-      if (!f.path.endsWith('.gz')) continue;
-      try {
-        freed += f.size;
-        unlinkSync(f.path);
-        removed += 1;
-      } catch (err) {
-        // Another process may already have removed it; that is fine.
-        if (err.code !== 'ENOENT') throw err;
-      }
-    }
-  }
+  const all = listFiles(DIST);
+  const gzFiles = all.filter((f) => f.path.endsWith('.gz'));
+  /*
+   * Check the set that would actually be uploaded. --strip-gz only removes the
+   * .gz sidecars, so the limits are evaluated without them. Removing first and
+   * validating afterwards (the previous order) wiped those copies from dist/
+   * even when the run then aborted, and --dry-run wiped them too.
+   */
+  const upload = stripGz ? all.filter((f) => !f.path.endsWith('.gz')) : all;
 
-  const files = listFiles(DIST);
-  const totalBytes = files.reduce((sum, f) => sum + f.size, 0);
-  const largest = files.reduce((a, b) => (b.size > a.size ? b : a), files[0]);
-  const oversized = files.filter((f) => f.size > SIZE_LIMIT);
-  const gzFiles = files.filter((f) => f.path.endsWith('.gz'));
-  const sensitive = files.filter((f) => {
+  const totalBytes = upload.reduce((sum, f) => sum + f.size, 0);
+  const largest = upload.reduce((a, b) => (b.size > a.size ? b : a), upload[0]);
+  const oversized = upload.filter((f) => f.size > SIZE_LIMIT);
+  const sensitive = upload.filter((f) => {
     const rel = relative(DIST, f.path).replace(/\\/g, '/');
     return SENSITIVE.some((re) => re.test(rel)) || rel.startsWith('.workbuddy/');
   });
+  const gzBytes = gzFiles.reduce((s, f) => s + f.size, 0);
 
   console.log('\n[deploy] Preflight');
   console.log(`  project        : ${project} (branch: ${branch})`);
-  console.log(`  files          : ${files.length.toLocaleString()} / ${FILE_LIMIT.toLocaleString()}`);
+  console.log(`  files          : ${upload.length.toLocaleString()} / ${FILE_LIMIT.toLocaleString()}`);
   console.log(`  total size     : ${prettyBytes(totalBytes)}`);
   console.log(`  largest file   : ${prettyBytes(largest.size)}  ${relative(DIST, largest.path)}`);
-  console.log(`  .gz copies     : ${gzFiles.length} (${prettyBytes(gzFiles.reduce((s, f) => s + f.size, 0))})`);
-  if (removed) console.log(`  .gz removed    : ${removed} files, ${prettyBytes(freed)} freed`);
+  console.log(`  .gz copies     : ${gzFiles.length} (${prettyBytes(gzBytes)})`);
+  if (gzFiles.length && stripGz) {
+    console.log('  .gz handling   : removed after the checks below pass, never on --dry-run');
+  }
   console.log(`  oversized      : ${oversized.length}`);
   console.log(`  sensitive      : ${sensitive.length}`);
 
   if (gzFiles.length && !stripGz) {
     console.log('  note           : build with EARTH_GZIP=0 to omit .gz, or pass --strip-gz');
   }
-  if (files.length > FILE_LIMIT) {
-    fail(`dist/ has ${files.length} files, above the ${FILE_LIMIT} free-tier limit.`);
+  if (upload.length > FILE_LIMIT) {
+    fail(`dist/ would upload ${upload.length} files, above the ${FILE_LIMIT} free-tier limit.`);
   }
   if (oversized.length) {
     fail(`${oversized.length} file(s) exceed 25 MiB: ${oversized.slice(0, 3).map((f) => relative(DIST, f.path)).join(', ')}`);
@@ -157,11 +154,33 @@ function preflight() {
     fail(`sensitive/working files found: ${sensitive.slice(0, 5).map((f) => relative(DIST, f.path)).join(', ')}`);
   }
   console.log('  result         : OK\n');
+
+  return { toStrip: stripGz ? gzFiles : [] };
+}
+
+/** Runs only when every check passed, so a failed deploy cannot eat dist/. */
+function stripGzFiles(targets) {
+  let removed = 0;
+  let freed = 0;
+  for (const f of targets) {
+    try {
+      unlinkSync(f.path);
+      freed += f.size;
+      removed += 1;
+    } catch (err) {
+      // Another process may already have removed it; that is fine.
+      if (err.code !== 'ENOENT') throw err;
+    }
+  }
+  if (removed) console.log(`[deploy] removed ${removed} .gz file(s), ${prettyBytes(freed)} freed`);
 }
 
 function deploy() {
+  // Pinned to the v4 major on purpose: bare `npx --yes wrangler` resolves to
+  // whatever npm currently tags as latest, so an unrelated major release could
+  // change upload behaviour in the middle of a deploy. Bump this line by hand.
   const args = [
-    '--yes', 'wrangler', 'pages', 'deploy', 'dist',
+    '--yes', 'wrangler@4', 'pages', 'deploy', 'dist',
     '--project-name', project,
     '--branch', branch,
   ];
@@ -184,9 +203,12 @@ function deploy() {
 }
 
 loadDevVars();
-preflight();
+const plan = preflight();
+
 if (dryRun) {
-  console.log('[deploy] --dry-run: stopping before upload.\n');
-} else {
-  deploy();
+  console.log('[deploy] --dry-run: nothing was removed, nothing was uploaded.\n');
+  process.exit(0);
 }
+
+stripGzFiles(plan.toStrip);
+deploy();
