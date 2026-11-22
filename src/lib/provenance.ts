@@ -47,8 +47,18 @@ export const LIVING_PERSON_IDS: ReadonlySet<string> = new Set([
   'linus-torvalds',
 ]);
 
-/** Conflicts still running in the dataset year. */
-export const ONGOING_WAR_IDS: ReadonlySet<string> = new Set(['israel-gaza-conflict']);
+/**
+ * Conflicts still running in the dataset year.
+ *
+ * The shipped index pins these to 2023, short of `YEAR_MAX`, so the year test
+ * below cannot catch them. One entry is a Chinese literal because that is what
+ * the index carries; renaming it would mean touching `public/`.
+ */
+export const ONGOING_WAR_IDS: ReadonlySet<string> = new Set([
+  'israel-gaza-conflict',
+  'yemen_civil_war_houthi_conflict',
+  '叙利亚内战',
+]);
 
 function countSources(sources: unknown): { total: number; linked: number } {
   if (!Array.isArray(sources)) return { total: 0, linked: 0 };

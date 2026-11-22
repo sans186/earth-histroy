@@ -189,6 +189,8 @@ const COPY = {
 
 const c = computed(() => COPY[ui.locale]);
 
+const ccByUrl = 'https://creativecommons.org/licenses/by/4.0/';
+
 const sourceLinks = [
   'https://github.com/Magnussmari/chronograph',
   'https://github.com/Seshat-Global-History-Databank/cliopatria',
@@ -227,14 +229,18 @@ const sourceLinks = [
               <a :href="sourceLinks[0]" target="_blank" rel="noopener noreferrer">
                 {{ c.attribution }}
               </a>
-              <span class="lic">CC BY 4.0</span>
+              <span class="lic">
+                <a :href="ccByUrl" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>
+              </span>
               <p>{{ c.chronographNote }}</p>
             </li>
             <li>
               <a :href="sourceLinks[1]" target="_blank" rel="noopener noreferrer">
                 Cliopatria · Seshat Global History Databank
               </a>
-              <span class="lic">CC BY 4.0</span>
+              <span class="lic">
+                <a :href="ccByUrl" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>
+              </span>
               <p>{{ c.cliopatriaNote }}</p>
             </li>
           </ul>
@@ -244,6 +250,10 @@ const sourceLinks = [
         <section>
           <h3 class="cap">{{ c.aiTitle }}</h3>
           <p>{{ c.aiText }}</p>
+          <p class="badges">
+            <span class="lic">{{ ui.t('prov.ai') }}</span>
+            <span class="lic">{{ ui.t('prov.unverified') }}</span>
+          </p>
           <p>{{ ui.t('about.unreviewedNote') }}</p>
         </section>
 
@@ -297,7 +307,17 @@ const sourceLinks = [
                     </a>
                     <template v-else>{{ row[1] }}</template>
                   </td>
-                  <td class="mono lic">{{ row[2] }}</td>
+                  <td class="mono lic">
+                    <a
+                      v-if="row[2] === 'CC BY 4.0'"
+                      :href="ccByUrl"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {{ row[2] }}
+                    </a>
+                    <template v-else>{{ row[2] }}</template>
+                  </td>
                   <td>{{ row[3] }}</td>
                 </tr>
               </tbody>
@@ -427,6 +447,17 @@ section p {
   color: var(--ink-4);
   border: 1px solid var(--rule-2);
   padding: 0 4px;
+}
+.lic a {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.badges {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
 }
 .tail {
   margin-top: 10px;
