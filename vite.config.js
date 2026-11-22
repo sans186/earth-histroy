@@ -110,6 +110,28 @@ export default defineConfig({
     },
   },
   build: {
-    chunkSizeWarningLimit: 4096,
+    /*
+     * Cesium minifies to about 4.8 MB on its own, so this sits just above the
+     * largest chunk the split below actually produces. It is a real per-chunk
+     * ceiling, not the old 4096 that the 5.5 MB single bundle could never meet.
+     */
+    chunkSizeWarningLimit: 5500,
+    rollupOptions: {
+      output: {
+        /*
+         * The default output is one entry chunk of about 5.5 MB holding the app
+         * shell, Cesium and MapLibre together, so shipping a one-line UI change
+         * invalidates every megabyte of it. These vendors change only on a
+         * dependency upgrade and then stay cached across releases.
+         */
+        manualChunks(id) {
+          if (!id.includes('node_modules')) return undefined;
+          if (id.includes('cesium')) return 'cesium';
+          if (id.includes('maplibre')) return 'maplibre';
+          if (id.includes('@turf/')) return 'turf';
+          return undefined;
+        },
+      },
+    },
   },
 });
