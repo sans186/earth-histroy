@@ -10,9 +10,15 @@
  * Only the last-viewed group is persisted. The settings themselves stay in
  * memory, matching how the rest of the interface behaves in a session.
  */
-import { ref } from 'vue';
+import { onBeforeUnmount, onMounted, ref } from 'vue';
 import { CATEGORY_KEYS, CATEGORIES, type CategoryKey } from '@/config';
 import type { CertaintyLevel } from '@/lib/format';
+import {
+  currentFailures,
+  diagnosticSnapshot,
+  onFailuresChanged,
+  type FailureRecord,
+} from '@/services/http';
 import { useLayersStore } from '@/stores/layers';
 import { useUiStore } from '@/stores/ui';
 import ToggleRow from './ui/ToggleRow.vue';
@@ -28,6 +34,59 @@ const emit = defineEmits<{ close: []; openAbout: [] }>();
 
 const ui = useUiStore();
 const layers = useLayersStore();
+
+/**
+ * Diagnostics outlive the banner.
+ *
+ * Dismissing ErrorNotice clears both its message and the active failure set, so
+ * without a second copy here the export would be unreachable for the rest of
+ * the session. The bounded history still holds the records, and the snapshot is
+ * built on demand rather than stored, so nothing is captured while idle.
+ */
+const failures = ref<FailureRecord[]>([]);
+const diagnosticsText = ref('');
+const copied = ref(false);
+const copyFailed = ref(false);
+const showText = ref(false);
+let stopFailures: (() => void) | null = null;
+
+onMounted(() => {
+  failures.value = currentFailures();
+  stopFailures = onFailuresChanged((records) => {
+    failures.value = records;
+  });
+});
+onBeforeUnmount(() => stopFailures?.());
+
+function shortUrl(url: string): string {
+  return url.length > 46 ? `…${url.slice(-43)}` : url;
+}
+
+async function copyDiagnostics() {
+  const text = JSON.stringify(diagnosticSnapshot(), null, 2);
+  diagnosticsText.value = text;
+  try {
+    await navigator.clipboard.writeText(text);
+    copied.value = true;
+    copyFailed.value = false;
+    showText.value = false;
+  } catch {
+    // Clipboard access is unavailable on file:// and plain HTTP in some
+    // browsers. Showing the text read-only keeps a manual copy possible.
+    copied.value = false;
+    copyFailed.value = true;
+    showText.value = true;
+  }
+  window.setTimeout(() => {
+    copied.value = false;
+    copyFailed.value = false;
+  }, 2500);
+}
+
+function selectAll(event: Event) {
+  const el = event.target as HTMLTextAreaElement | null;
+  el?.select();
+}
 
 const GROUPS: { id: Group; key: 'settings.group.map' | 'settings.group.content' | 'settings.group.ui' | 'settings.group.data' }[] = [
   { id: 'map', key: 'settings.group.map' },
@@ -242,6 +301,38 @@ function catLabel(key: CategoryKey) {
               {{ layers.polityStatus.partsHidden }} {{ ui.t('status.partsHidden') }}.
               {{ ui.t('status.zoomIn') }}
             </p>
+
+            <!-- 诊断：横幅被忽略后仍可导出 -->
+            <h3 class="cap diag-head">
+              {{ ui.t('error.partial') }}
+              <span class="mono diag-count">{{ failures.length }}</span>
+            </h3>
+            <ul v-if="failures.length" class="fails">
+              <li v-for="f in failures.slice(0, 5)" :key="f.url">
+                <span class="mono">{{ shortUrl(f.url) }}</span>
+                <span class="fail-kind">
+                  {{ ui.tf('error.failure', { kind: f.kind, status: f.status ?? '-', attempts: f.attempts }) }}
+                </span>
+              </li>
+              <li v-if="failures.length > 5" class="fail-kind">
+                … +{{ failures.length - 5 }}
+              </li>
+            </ul>
+            <div class="diag-actions">
+              <button class="diag-copy" type="button" @click="copyDiagnostics">
+                {{ copied ? ui.t('error.copied') : copyFailed ? ui.t('error.copyFailed') : ui.t('error.copy') }}
+              </button>
+              <p class="note">{{ ui.t('error.diagnosticsHint') }}</p>
+            </div>
+            <textarea
+              v-if="showText"
+              class="diag-text mono"
+              readonly
+              rows="7"
+              :aria-label="ui.t('error.details')"
+              :value="diagnosticsText"
+              @focus="selectAll"
+            ></textarea>
 
             <button class="about" @click="emit('openAbout')">
               <span class="about-main">{{ ui.t('nav.about') }}</span>
@@ -462,6 +553,68 @@ h3.cap {
   margin: 0 0 0 auto;
   font-size: var(--fs-sm);
   color: var(--ink-2);
+}
+
+/* Diagnostics: one entry point that survives dismissing the banner. */
+h3.diag-head {
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid var(--rule-2);
+}
+.diag-count {
+  margin-left: auto;
+  font-size: var(--fs-sm);
+  color: var(--ink-2);
+}
+.fails {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+}
+.fails li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 10px;
+  justify-content: space-between;
+  padding: 3px 0;
+  border-bottom: 1px dashed var(--rule);
+}
+.fails li .mono {
+  color: var(--ink-2);
+  word-break: break-all;
+}
+.fail-kind {
+  color: var(--ink-3);
+}
+.diag-actions {
+  margin-top: 10px;
+}
+.diag-copy {
+  border: 1px solid var(--rule-2);
+  background: var(--card);
+  color: var(--ink-2);
+  padding: 5px 12px;
+  font-size: var(--fs-sm);
+}
+.diag-copy:hover {
+  border-color: var(--rule-3);
+  color: var(--ink);
+}
+.diag-actions .note {
+  margin-top: 6px;
+}
+.diag-text {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 8px;
+  padding: 8px;
+  border: 1px solid var(--rule);
+  background: var(--paper-2);
+  color: var(--ink-2);
+  font-size: 11.5px;
+  line-height: 1.5;
+  resize: vertical;
 }
 
 .about {

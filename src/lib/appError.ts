@@ -37,9 +37,49 @@ function t(locale: Locale, key: MessageKey, vars: Record<string, string | number
   return interpolate(translate(locale, key), vars);
 }
 
-/** Clip untrusted exception text before it ever reaches the diagnostics blob. */
+/**
+ * First call site in a stack, which is what tells two failures of the same kind
+ * apart. V8 prefixes frames with "at "; SpiderMonkey writes "fn@url" / "@url".
+ */
+function firstFrame(stack: string): string {
+  for (const line of stack.split('\n')) {
+    const text = line.trim();
+    if (text.startsWith('at ') || /^\S*@\S+/.test(text)) return text;
+  }
+  return '';
+}
+
+/**
+ * Errors cross realms (iframes, workers, thrown plain objects), so `instanceof`
+ * is not enough; a string `message` is the one field every error-like value has.
+ */
+function errorParts(detail: unknown): { name: string; message: string; stack: string } | null {
+  if (typeof detail !== 'object' || detail === null) return null;
+  const { name, message, stack } = detail as { name?: unknown; message?: unknown; stack?: unknown };
+  if (typeof message !== 'string') return null;
+  return {
+    name: typeof name === 'string' ? name : 'Error',
+    message,
+    stack: typeof stack === 'string' ? stack : '',
+  };
+}
+
+/**
+ * Clip untrusted exception text before it ever reaches the diagnostics blob.
+ *
+ * The message alone rarely says where it happened, so the name and the first
+ * stack frame are kept; the rest of the stack is noise in a one-line field.
+ */
 function safeDetail(detail: unknown): string {
-  return String(detail ?? '').replace(/[\r\n]+/g, ' ').slice(0, 300);
+  const error = errorParts(detail);
+  let raw: string;
+  if (error) {
+    const frame = firstFrame(error.stack);
+    raw = `${error.name}: ${error.message}${frame ? ` (${frame})` : ''}`;
+  } else {
+    raw = String(detail ?? '');
+  }
+  return raw.replace(/\s+/g, ' ').trim().slice(0, 300);
 }
 
 export function dataError(locale: Locale, records: FailureRecord[]): AppError | null {
