@@ -12,32 +12,6 @@
   ],
   "events": [
     {
-      "id": "-1306-001",
-      "title": "Continuation of Ramesses II's building programs",
-      "region": "Egypt",
-      "coordinates_approx": "25.0,32.0",
-      "category": "cultural",
-      "description": "Ramesses II continues his massive building program, constructing temples, monuments, and administrative structures throughout Egypt. The construction of Abu Simbel and other major temples represents both religious devotion and political propaganda. These building projects employed thousands of workers and demonstrated Egypt's wealth and organizational capacity. The monuments served to perpetuate the pharaoh's name and power across generations.",
-      "key_figures": [
-        "Ramesses II (Pharaoh of Egypt)"
-      ],
-      "sources": [
-        {
-          "name": "Archaeological remains of temples and monuments",
-          "type": "archaeological",
-          "contemporary": true
-        },
-        {
-          "name": "Administrative records from Deir el-Medina documenting worker organization",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The building programs are extensively documented through surviving structures and administrative records. However, precise dating of individual projects within Ramesses II's reign is often uncertain.",
-      "cross_references": []
-    },
-    {
       "id": "-1306-002",
       "title": "Hittite internal succession tensions",
       "region": "Anatolia",
@@ -49,7 +23,7 @@
       ],
       "sources": [
         {
-          "name": "Hittite royal inscriptions and administrative texts from Bo\u011fazk\u00f6y",
+          "name": "Hittite royal inscriptions and administrative texts from Boğazköy",
           "type": "epigraphic",
           "contemporary": true
         },
@@ -91,12 +65,6 @@
   "disconfirming_evidence": "The precise chronology of Mursili III's reign and the nature of succession tensions remain debated. Some scholars question whether the internal conflicts described in later sources accurately reflect conditions in 1306 BCE or represent later reinterpretations. The dating of Mycenaean settlement expansion is based on pottery chronology, which has a margin of error of several decades.",
   "historiographic_note": "The historical record for 1306 BCE remains dominated by Egyptian and Hittite elite sources. Mycenaean evidence is primarily archaeological. The record reflects the perspectives of imperial courts and administrative centers. Economic and social history must be reconstructed from material culture. Large regions of the world remain undocumented in written sources.",
   "graph_edges": [
-    {
-      "from": "-1306-001",
-      "to": "-1305-001",
-      "relation": "contemporary_with",
-      "note": "Building programs and military campaigns were concurrent aspects of Ramesses II's reign"
-    },
     {
       "from": "-1306-003",
       "to": "-1200-late_bronze_age_collapse",

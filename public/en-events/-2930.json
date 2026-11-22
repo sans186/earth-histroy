@@ -12,32 +12,6 @@
   ],
   "events": [
     {
-      "id": "-2930-001",
-      "title": "Akkadian Empire in final phase of Naram-Sin's reign",
-      "region": "Mesopotamia",
-      "coordinates_approx": "34.5, 44.0",
-      "category": "political",
-      "description": "Naram-Sin's reign is in its final years (he died c. 2218 BCE, so this year is approximately 12 years before his death, though the exact chronology is uncertain). The Akkadian Empire remains territorially extensive but is under increasing pressure from nomadic groups and internal fragmentation. Military campaigns continue, but the empire's resources are strained. Administrative texts show evidence of economic stress. The succession crisis that will follow Naram-Sin's death is not yet evident in contemporary records.",
-      "key_figures": [
-        "Naram-Sin (Akkadian emperor, r. c. 2254\u20132218 BCE)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian administrative texts and inscriptions",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Sumerian King List (later compilation)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "Naram-Sin's reign is well-attested in contemporary sources. This year is assigned by convention within his reign; specific events for this year are not documented.",
-      "cross_references": []
-    },
-    {
       "id": "-2930-002",
       "title": "Egyptian Old Kingdom Dynasty VI in final years",
       "region": "Egypt",
@@ -45,7 +19,7 @@
       "category": "political",
       "description": "Dynasty VI of Egypt is in its final years. Royal authority has fragmented; provincial governors exercise near-autonomous power. The pyramid-building program has ceased entirely. Economic resources are severely strained. Within a few years, the Old Kingdom will collapse entirely, giving way to the First Intermediate Period. This year represents the very end of centralized Old Kingdom rule.",
       "key_figures": [
-        "Pepi II (traditional reign c. 2278\u20132184 BCE)"
+        "Pepi II (traditional reign c. 2278–2184 BCE)"
       ],
       "sources": [
         {
@@ -91,12 +65,6 @@
   "disconfirming_evidence": "The traditional narrative of the 'collapse' of the Akkadian Empire and Egyptian Old Kingdom in this period is increasingly questioned by modern scholarship. Some scholars argue that the transitions were more gradual and less catastrophic than older accounts suggest. The Akkadian Empire may have fragmented over several decades rather than collapsing suddenly. Similarly, the Old Kingdom's decline may have been less uniform across Egypt; some regions may have maintained prosperity and autonomy. The Indus Valley Civilization's later decline (c. 1900 BCE) is also debated; some scholars argue for gradual abandonment rather than sudden collapse.",
   "historiographic_note": "For this year, no specific documented events are known. The narrative is inferred from broader patterns in the archaeological and epigraphic record. The historical record for this year is essentially non-existent; we are reconstructing a plausible context based on what we know of the broader period. The record remains heavily skewed toward Mesopotamia and Egypt; other regions are absent from written history at this date. The sources we have are court-sponsored and elite-focused; the perspectives of common people, farmers, and laborers are largely invisible.",
   "graph_edges": [
-    {
-      "from": "-2930-001",
-      "to": "-2918-001",
-      "relation": "led_to",
-      "note": "Naram-Sin's death and the succession crisis that followed led to the rapid fragmentation of the Akkadian Empire."
-    },
     {
       "from": "-2930-002",
       "to": "-2181-001",

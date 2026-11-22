@@ -11,34 +11,6 @@
   ],
   "events": [
     {
-      "id": "-3043-001",
-      "title": "Naram-Sin's reign and Akkadian imperial consolidation",
-      "region": "Mesopotamia, Levant, Anatolia, Zagros Mountains",
-      "coordinates_approx": "33.3, 44.4",
-      "category": "political",
-      "description": "Naram-Sin continues his reign as the fourth king of the Akkadian Empire, consolidating control over vast territories. His military campaigns against the Lullubi, Martu, and other groups are ongoing. He establishes administrative centers and implements a centralized bureaucratic system. His deification and adoption of the title 'King of the Four Quarters' represent the apex of Akkadian imperial ideology. The empire's reach extends from the Persian Gulf to the Mediterranean and into Anatolia. However, maintaining this empire requires constant military campaigns and resource extraction.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Naram-Sin inscriptions and administrative texts",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Archaeological evidence from Akkadian sites",
-          "type": "archaeological",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's reign is well-attested in contemporary sources. However, absolute dating and the precise extent of control remain debated.",
-      "cross_references": [
-        "Related to -3042-001 and -3041-001"
-      ]
-    },
-    {
       "id": "-3043-002",
       "title": "Indus Valley Civilization mature phase",
       "region": "Indus Valley (modern Pakistan and northwest India)",
@@ -67,12 +39,5 @@
   ],
   "disconfirming_evidence": "The extent of Akkadian territorial control claimed in inscriptions is disputed by some scholars, who argue that actual administrative control was more limited than inscriptions suggest. The Indus Valley Civilization's governance structure and the reasons for its eventual decline remain poorly understood.",
   "historiographic_note": "Sources are limited to royal inscriptions, administrative texts, and archaeological evidence. The record is heavily biased toward elite political and military history. Akkadian sources are propagandistic. The Indus Valley Civilization is known primarily through archaeology; its script remains undeciphered. Absolute dating relies on conventional chronological frameworks that are debated.",
-  "graph_edges": [
-    {
-      "from": "-3043-001",
-      "to": "-3042-001",
-      "relation": "contemporary_with",
-      "note": "Naram-Sin's reign continued"
-    }
-  ]
+  "graph_edges": []
 }

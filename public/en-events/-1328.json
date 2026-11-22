@@ -12,34 +12,6 @@
   ],
   "events": [
     {
-      "id": "-1328-001",
-      "title": "Continuation of Abu Simbel temple construction under Ramesses II",
-      "region": "Nubia, Egypt",
-      "coordinates_approx": "22.3, 31.6",
-      "category": "cultural",
-      "description": "The Abu Simbel temples, begun c. 1264 BCE, were under active construction and decoration. The Great Temple, dedicated to Ramesses II and the gods Ra-Horakhty, Ptah, and Amun, served both as a religious monument and as a statement of Egyptian imperial power in Nubia. The temple's construction required significant labor mobilization and resource allocation, reflecting Egypt's economic capacity and organizational sophistication.",
-      "key_figures": [
-        "Ramesses II (Pharaoh of Egypt)"
-      ],
-      "sources": [
-        {
-          "name": "Abu Simbel temple inscriptions and architectural analysis",
-          "type": "archaeological",
-          "contemporary": true
-        },
-        {
-          "name": "Ramesseum administrative records",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The temple's construction spanned multiple decades (c. 1264\u20131244 BCE). The specific year -1328 is assigned by convention as a midpoint in the construction sequence, but the exact chronology of individual phases is uncertain.",
-      "cross_references": [
-        "-1329-001"
-      ]
-    },
-    {
       "id": "-1328-002",
       "title": "Hittite vassal state tensions in Syria and Canaan",
       "region": "Hittite vassal territories (Syria, Canaan)",
@@ -52,7 +24,7 @@
       ],
       "sources": [
         {
-          "name": "Hittite diplomatic correspondence and vassal treaties (clay tablets from Bo\u011fazk\u00f6y)",
+          "name": "Hittite diplomatic correspondence and vassal treaties (clay tablets from Boğazköy)",
           "type": "epigraphic",
           "contemporary": true
         },
@@ -63,7 +35,7 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Vassal tensions are documented in Hittite correspondence, but precise dating to -1328 is uncertain. These tensions likely occurred during the succession period (c. 1330\u20131320 BCE) but cannot be pinpointed to a specific year.",
+      "certainty_note": "Vassal tensions are documented in Hittite correspondence, but precise dating to -1328 is uncertain. These tensions likely occurred during the succession period (c. 1330–1320 BCE) but cannot be pinpointed to a specific year.",
       "cross_references": [
         "-1329-002"
       ]
@@ -89,21 +61,15 @@
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Mycenaean pottery in the central Mediterranean is well-attested archaeologically. Stratigraphic dating places this expansion in the LH IIIB period (c. 1330\u20131190 BCE).",
+      "certainty_note": "Mycenaean pottery in the central Mediterranean is well-attested archaeologically. Stratigraphic dating places this expansion in the LH IIIB period (c. 1330–1190 BCE).",
       "cross_references": [
         "-1329-003"
       ]
     }
   ],
   "disconfirming_evidence": "The assignment of specific events to -1328 rather than adjacent years is largely arbitrary. The Abu Simbel temple construction, Hittite vassal tensions, and Mycenaean trade expansion were all ongoing processes spanning decades, not discrete events occurring in a single year. No primary source documents a specific event dated to -1328 as opposed to -1329 or -1327. The year is included for completeness in the chronological sequence, but it represents a continuation of trends rather than a turning point.",
-  "historiographic_note": "The historical record for -1328 is sparse in terms of discrete events. Most evidence comes from administrative texts, temple inscriptions, and archaeological context rather than narrative sources. The record is biased toward elite activities (royal construction, diplomatic correspondence, trade by palace-affiliated merchants). The perspectives of non-elite populations, local communities, and peripheral regions are largely absent. The dating of events to specific years within the late Bronze Age is often uncertain by \u00b15\u201310 years.",
+  "historiographic_note": "The historical record for -1328 is sparse in terms of discrete events. Most evidence comes from administrative texts, temple inscriptions, and archaeological context rather than narrative sources. The record is biased toward elite activities (royal construction, diplomatic correspondence, trade by palace-affiliated merchants). The perspectives of non-elite populations, local communities, and peripheral regions are largely absent. The dating of events to specific years within the late Bronze Age is often uncertain by ±5–10 years.",
   "graph_edges": [
-    {
-      "from": "-1328-001",
-      "to": "-1329-001",
-      "relation": "contemporary_with",
-      "note": "Abu Simbel construction and Nubian campaigns were concurrent aspects of Ramesses II's imperial strategy"
-    },
     {
       "from": "-1328-002",
       "to": "-1320-001",

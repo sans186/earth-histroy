@@ -12,32 +12,6 @@
   ],
   "events": [
     {
-      "id": "-2454-001",
-      "title": "Naram-Sin's Early Military Campaigns",
-      "region": "Mesopotamia, Upper Mesopotamia",
-      "coordinates_approx": "36.0, 41.0",
-      "category": "military",
-      "description": "Naram-Sin conducted military campaigns in Upper Mesopotamia and the Taurus Mountains, consolidating Akkadian control over the northern regions. These campaigns were directed against local rulers and tribal groups that resisted Akkadian expansion. The campaigns were part of a broader strategy to secure trade routes, access to timber and metals, and to establish Akkadian hegemony over the entire Mesopotamian region.",
-      "key_figures": [
-        "Naram-Sin (Akkadian king)"
-      ],
-      "sources": [
-        {
-          "name": "Naram-Sin inscriptions describing military campaigns",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Archaeological evidence of destruction and Akkadian settlement",
-          "type": "archaeological",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "Naram-Sin's military campaigns are well-attested, but specific year-by-year sequencing is not possible. This event is assigned to -2454 as a representative point within his reign.",
-      "cross_references": []
-    },
-    {
       "id": "-2454-002",
       "title": "Indus Valley Civilization Continued Urban Development",
       "region": "Indus Valley, South Asia",
@@ -58,7 +32,7 @@
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The Indus Valley Civilization's mature phase is well-established archaeologically, dated c. 2600\u20131900 BCE. The year -2454 falls within this period, though specific events within individual years cannot be identified.",
+      "certainty_note": "The Indus Valley Civilization's mature phase is well-established archaeologically, dated c. 2600–1900 BCE. The year -2454 falls within this period, though specific events within individual years cannot be identified.",
       "cross_references": []
     },
     {
@@ -93,15 +67,9 @@
       "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The traditional narrative of the Old Kingdom 'collapse' has been challenged by recent scholarship, which emphasizes continuities in culture, religion, and administration across the Old Kingdom\u2013First Intermediate Period transition. Some scholars argue that the 'decline' was more gradual and less catastrophic than earlier accounts suggested. Similarly, the extent and nature of Naram-Sin's military conquests are debated, with some scholars arguing that his inscriptions exaggerate his achievements.",
+  "disconfirming_evidence": "The traditional narrative of the Old Kingdom 'collapse' has been challenged by recent scholarship, which emphasizes continuities in culture, religion, and administration across the Old Kingdom–First Intermediate Period transition. Some scholars argue that the 'decline' was more gradual and less catastrophic than earlier accounts suggested. Similarly, the extent and nature of Naram-Sin's military conquests are debated, with some scholars arguing that his inscriptions exaggerate his achievements.",
   "historiographic_note": "The year -2454 is not individually documented in surviving sources. The historical record for this period consists of inscriptions, administrative texts, and archaeological evidence that provide a general picture of the era but cannot be resolved to specific years. The record is heavily weighted toward Mesopotamia and Egypt, with the Indus Valley known primarily through archaeology.",
   "graph_edges": [
-    {
-      "from": "-2454-001",
-      "to": "-2450-001",
-      "relation": "part_of",
-      "note": "Early campaigns were part of Naram-Sin's broader military strategy."
-    },
     {
       "from": "-2454-003",
       "to": "-2150-FIRST_INTERMEDIATE_PERIOD",

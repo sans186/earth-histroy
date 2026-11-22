@@ -1,7 +1,7 @@
 {
   "year": -1220,
   "year_label": "1220 BCE",
-  "era_context": "Late Bronze Age, final decades before systemic collapse. The Hittite Empire is fragmenting; Egypt under Ramesses II is in its final years; Mycenaean Greece is in its terminal palatial phase; the Shang Dynasty in China is in its final century; the Levantine city-states are experiencing increasing economic and military pressure. This year falls within the critical period (c. 1225\u20131175 BCE) when multiple civilizations simultaneously experience severe stress, though the full collapse has not yet occurred.",
+  "era_context": "Late Bronze Age, final decades before systemic collapse. The Hittite Empire is fragmenting; Egypt under Ramesses II is in its final years; Mycenaean Greece is in its terminal palatial phase; the Shang Dynasty in China is in its final century; the Levantine city-states are experiencing increasing economic and military pressure. This year falls within the critical period (c. 1225–1175 BCE) when multiple civilizations simultaneously experience severe stress, though the full collapse has not yet occurred.",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
@@ -24,7 +24,7 @@
       ],
       "sources": [
         {
-          "name": "Hittite royal inscriptions from Bo\u011fazk\u00f6y",
+          "name": "Hittite royal inscriptions from Boğazköy",
           "type": "epigraphic",
           "contemporary": true
         },
@@ -37,35 +37,6 @@
       "certainty": "probable",
       "certainty_note": "The general trajectory of Hittite collapse is well-established; specific events of 1220 BCE are not individually documented in surviving sources. The collapse is dated c. 1180 BCE, but the process was gradual, with severe stress evident by 1220 BCE.",
       "cross_references": []
-    },
-    {
-      "id": "-1220-002",
-      "title": "Ramesses II dies and Merenptah succeeds to Egyptian throne",
-      "region": "Egypt",
-      "coordinates_approx": "26.0, 30.5",
-      "category": "political",
-      "description": "Ramesses II, one of Egypt's greatest pharaohs, dies after a reign of approximately 66 years (c. 1279\u20131213 BCE). He is succeeded by his 13th son, Merenptah, who is already in his 60s. Merenptah inherits a kingdom that is still powerful and prosperous but faces increasing external pressures from the Sea Peoples and internal challenges from the priesthood of Amun. Merenptah's reign will be marked by military campaigns against the Sea Peoples and efforts to maintain Egyptian dominance in the Levant.",
-      "key_figures": [
-        "Ramesses II (Pharaoh of Egypt, died)",
-        "Merenptah (Pharaoh of Egypt, acceded)"
-      ],
-      "sources": [
-        {
-          "name": "Egyptian temple inscriptions and administrative records",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Turin King List",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Ramesses II's death and Merenptah's succession are well-established through Egyptian chronology. The exact year is traditionally dated c. 1213 BCE, but there is some uncertainty of \u00b12\u20133 years.",
-      "cross_references": [
-        "-1213-001"
-      ]
     },
     {
       "id": "-1220-003",
@@ -88,7 +59,7 @@
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The general chronology of Late Helladic IIIB is established through pottery sequences and radiocarbon dating (c. 1225\u20131125 BCE); specific events of 1220 BCE are not documented.",
+      "certainty_note": "The general chronology of Late Helladic IIIB is established through pottery sequences and radiocarbon dating (c. 1225–1125 BCE); specific events of 1220 BCE are not documented.",
       "cross_references": []
     },
     {
@@ -112,11 +83,11 @@
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The intensification of Sea Peoples activity is archaeologically attested; precise dating to individual years is difficult. The period c. 1225\u20131175 BCE shows increasing evidence of disruption, with major escalation c. 1200 BCE.",
+      "certainty_note": "The intensification of Sea Peoples activity is archaeologically attested; precise dating to individual years is difficult. The period c. 1225–1175 BCE shows increasing evidence of disruption, with major escalation c. 1200 BCE.",
       "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The traditional narrative of the Late Bronze Age collapse as a sudden, catastrophic event driven by external invasion (the Sea Peoples) has been substantially revised by modern scholarship. Current consensus emphasizes that the collapse was a gradual process involving multiple interacting factors: (1) climate change\u2014evidence from ice cores, tree rings, and lake sediments indicates a cooling period and severe drought c. 1200\u20131150 BCE, which would have disrupted agriculture across the Mediterranean and Near East; (2) systemic economic fragility\u2014the interconnected trade networks of the Bronze Age were vulnerable to disruption; (3) internal conflicts and political instability; (4) the Sea Peoples themselves may have been displaced populations driven by the same pressures that caused the collapse, rather than external invaders. Additionally, the collapse was not simultaneous or uniform\u2014Egypt and parts of the Levant experienced disruption but recovered; Greece and Anatolia experienced more severe and lasting collapse. The year 1220 BCE is assigned to the 'pre-collapse' phase, but this is somewhat artificial\u2014the collapse was already underway in multiple regions.",
+  "disconfirming_evidence": "The traditional narrative of the Late Bronze Age collapse as a sudden, catastrophic event driven by external invasion (the Sea Peoples) has been substantially revised by modern scholarship. Current consensus emphasizes that the collapse was a gradual process involving multiple interacting factors: (1) climate change—evidence from ice cores, tree rings, and lake sediments indicates a cooling period and severe drought c. 1200–1150 BCE, which would have disrupted agriculture across the Mediterranean and Near East; (2) systemic economic fragility—the interconnected trade networks of the Bronze Age were vulnerable to disruption; (3) internal conflicts and political instability; (4) the Sea Peoples themselves may have been displaced populations driven by the same pressures that caused the collapse, rather than external invaders. Additionally, the collapse was not simultaneous or uniform—Egypt and parts of the Levant experienced disruption but recovered; Greece and Anatolia experienced more severe and lasting collapse. The year 1220 BCE is assigned to the 'pre-collapse' phase, but this is somewhat artificial—the collapse was already underway in multiple regions.",
   "historiographic_note": "The historical record for 1220 BCE is sparse and heavily biased toward the Near East and Mediterranean. Egyptian sources (temple inscriptions, administrative records) provide the most detailed information about this year, particularly regarding Ramesses II's death and Merenptah's succession. Hittite sources are fragmentary and emphasize the empire's military struggles. Archaeological evidence (destruction layers, settlement patterns, environmental proxies) is crucial for understanding the broader context of collapse but is difficult to date precisely to individual years. The Mycenaean record is limited to Linear B tablets and archaeological evidence; the Sea Peoples are known primarily through Egyptian records and archaeological destruction layers. Large regions of the world (Africa, Europe, Asia, the Americas) are essentially absent from the historical record for this year.",
   "graph_edges": [
     {
@@ -129,7 +100,7 @@
       "from": "-1220-002",
       "to": "-1208-001",
       "relation": "led_to",
-      "note": "Merenptah's reign (c. 1213\u20131203 BCE) is marked by military campaigns against the Sea Peoples"
+      "note": "Merenptah's reign (c. 1213–1203 BCE) is marked by military campaigns against the Sea Peoples"
     },
     {
       "from": "-1220-003",

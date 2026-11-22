@@ -11,34 +11,6 @@
   ],
   "events": [
     {
-      "id": "-2371-001",
-      "title": "Akkadian military campaigns against the Lullubi and mountain peoples",
-      "region": "Akkadian Empire and Zagros Mountains",
-      "coordinates_approx": "35.0, 46.0",
-      "category": "military",
-      "description": "Naram-Sin continues military campaigns against the Lullubi and other mountain peoples in the Zagros region. These campaigns are documented in rock reliefs (e.g., at Darbandikhan) showing Naram-Sin in divine form leading his army. The campaigns aim to secure trade routes, access to mountain resources, and territorial control. These military successes reinforce Naram-Sin's prestige and power within the empire.",
-      "key_figures": [
-        "Naram-Sin (Akkadian king)"
-      ],
-      "sources": [
-        {
-          "name": "Rock reliefs of Naram-Sin's campaigns (Darbandikhan, Sar Anlandah)",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Akkadian inscriptions describing military victories",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's campaigns against mountain peoples are well-attested in rock reliefs and inscriptions. Precise dating within his reign is uncertain.",
-      "cross_references": [
-        "-2374-001"
-      ]
-    },
-    {
       "id": "-2371-002",
       "title": "Indus Valley Civilization urban planning and public works",
       "region": "Indus Valley",
@@ -82,7 +54,7 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Egyptian administrative records are well-preserved but chronologically uncertain by \u00b150\u2013100 years.",
+      "certainty_note": "Egyptian administrative records are well-preserved but chronologically uncertain by ±50–100 years.",
       "cross_references": [
         "-2372-003"
       ]
@@ -90,12 +62,5 @@
   ],
   "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the narrative of Akkadian military dominance is complicated by evidence that military campaigns may have been increasingly costly and difficult to sustain, foreshadowing the empire's collapse.",
   "historiographic_note": "Sources for this year are similar to previous years. The historical record is dominated by elite perspectives from Mesopotamia and Egypt. Absolute chronology remains uncertain. The Indus Valley Civilization's internal structures remain largely unknown.",
-  "graph_edges": [
-    {
-      "from": "-2371-001",
-      "to": "-2370-001",
-      "relation": "led_to",
-      "note": "Akkadian military campaigns continued to expand the empire but may have overextended resources."
-    }
-  ]
+  "graph_edges": []
 }

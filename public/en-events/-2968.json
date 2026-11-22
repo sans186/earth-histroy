@@ -11,34 +11,6 @@
   ],
   "events": [
     {
-      "id": "-2968-001",
-      "title": "Akkadian Administrative and Military Consolidation",
-      "region": "Mesopotamia",
-      "coordinates_approx": "32.5, 44.5",
-      "category": "political",
-      "description": "Naram-Sin's administration continues to centralize power and standardize administrative practices across the Akkadian Empire. Akkadian language is increasingly used in official documents, gradually displacing Sumerian in administrative contexts. Military campaigns continue against rebellious cities and external enemies. The empire's trade networks extend from the Persian Gulf to Anatolia and the Levant. However, evidence from administrative texts suggests growing strain on resources and increasing difficulty in maintaining control over distant provinces.",
-      "key_figures": [
-        "Naram-Sin (Akkadian king)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian administrative tablets and royal inscriptions",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Sumerian King List",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The general trajectory of Akkadian consolidation is well-attested. Specific events within a single year are difficult to pinpoint; this entry describes the broader context of Naram-Sin's reign.",
-      "cross_references": [
-        "Part of Akkadian Empire consolidation phase"
-      ]
-    },
-    {
       "id": "-2968-002",
       "title": "Egyptian Old Kingdom: Continued Decentralization",
       "region": "Egypt",
@@ -96,12 +68,6 @@
   "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the interpretation of Akkadian administrative efficiency is contested; some scholars argue that the empire was more fragile and decentralized than royal inscriptions suggest, with local governors maintaining significant autonomy despite nominal Akkadian control.",
   "historiographic_note": "The historical record for 2969 BCE is sparse and dependent on fragmentary sources. For Mesopotamia and Egypt, we rely on administrative texts and inscriptions that are often propagandistic. For the Indus Valley, we have only archaeological evidence. The year-to-year narrative is largely a reconstruction based on broader patterns rather than specific documented events. Biases in the surviving record favor monumental and administrative activities over daily life, economic activities, or social structures.",
   "graph_edges": [
-    {
-      "from": "-2968-001",
-      "to": "-2969-001",
-      "relation": "contemporary_with",
-      "note": "Continuation of Akkadian consolidation from previous year"
-    },
     {
       "from": "-2968-002",
       "to": "-2969-002",

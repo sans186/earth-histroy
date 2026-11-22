@@ -12,27 +12,6 @@
   ],
   "events": [
     {
-      "id": "-2332-001",
-      "title": "Naram-Sin's military campaigns in Anatolia",
-      "region": "Anatolia and Upper Mesopotamia",
-      "coordinates_approx": "38.0, 35.0",
-      "category": "military",
-      "description": "Naram-Sin campaigns in Anatolia, particularly against the Lullubi and other highland peoples. These campaigns are documented in inscriptions and represent an attempt to extend Akkadian control beyond Mesopotamia proper. The campaigns are militarily successful but logistically challenging and contribute to the strain on Akkadian resources. The Victory Stele of Naram-Sin, though not dated to a specific year, commemorates such campaigns.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad, r. 2254\u20132218 BCE)"
-      ],
-      "sources": [
-        {
-          "name": "Naram-Sin's inscriptions and the Victory Stele of Naram-Sin",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's Anatolian campaigns are well-attested in inscriptions. The specific year -2332 is assigned as a representative year within his reign; individual campaigns are not dated to specific years.",
-      "cross_references": []
-    },
-    {
       "id": "-2332-002",
       "title": "Pepi II's reign: Continued administrative decentralization",
       "region": "Egypt",
@@ -74,13 +53,6 @@
     }
   ],
   "disconfirming_evidence": "The extent of Naram-Sin's Anatolian conquests is debated; some scholars argue that his inscriptions exaggerate the permanence and extent of his control. The Indus Valley Civilization's political organization and the nature of its governance remain speculative due to the undeciphered script.",
-  "historiographic_note": "The historical record for -2332 is sparse. For Mesopotamia and Egypt, inscriptions and administrative documents provide the primary evidence. For the Indus Valley, the record is archaeological. The record is heavily weighted toward literate civilizations; non-literate societies are underrepresented. Dating precision is limited to \u00b15\u201310 years for this period.",
-  "graph_edges": [
-    {
-      "from": "-2332-001",
-      "to": "-2330-001",
-      "relation": "part_of",
-      "note": "Anatolian campaigns are part of Naram-Sin's broader expansion"
-    }
-  ]
+  "historiographic_note": "The historical record for -2332 is sparse. For Mesopotamia and Egypt, inscriptions and administrative documents provide the primary evidence. For the Indus Valley, the record is archaeological. The record is heavily weighted toward literate civilizations; non-literate societies are underrepresented. Dating precision is limited to ±5–10 years for this period.",
+  "graph_edges": []
 }

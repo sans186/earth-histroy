@@ -11,34 +11,6 @@
   ],
   "events": [
     {
-      "id": "-1631-001",
-      "title": "Continuation of 18th Dynasty rule in Egypt",
-      "region": "Egypt, Nile Valley",
-      "coordinates_approx": "26.0, 31.0",
-      "category": "political",
-      "description": "The 18th Dynasty continues its imperial administration. This year likely falls within the reign of Thutmose III or his successor. The pharaonic state maintains control over Nubia, the Levant, and the Nile Valley through a combination of military force, diplomatic marriages, and administrative bureaucracy. Temple construction and maintenance continue as expressions of royal power and religious devotion.",
-      "key_figures": [
-        "Thutmose III or Amenhotep II (Pharaoh)"
-      ],
-      "sources": [
-        {
-          "name": "Egyptian temple inscriptions and administrative papyri",
-          "type": "epigraphic",
-          "contemporary": false
-        },
-        {
-          "name": "Archaeological evidence from temple sites",
-          "type": "archaeological",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "Same chronological uncertainty as -1630; \u00b15\u201310 years.",
-      "cross_references": [
-        "-1630-001"
-      ]
-    },
-    {
       "id": "-1631-002",
       "title": "Hittite military and diplomatic activities",
       "region": "Anatolia, Hittite Empire",
@@ -55,13 +27,13 @@
           "contemporary": false
         },
         {
-          "name": "Archaeological evidence from Bo\u011fazk\u00f6y",
+          "name": "Archaeological evidence from Boğazköy",
           "type": "archaeological",
           "contemporary": false
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Chronological uncertainty \u00b120\u201330 years.",
+      "certainty_note": "Chronological uncertainty ±20–30 years.",
       "cross_references": [
         "-1630-002"
       ]
@@ -98,12 +70,6 @@
   "disconfirming_evidence": "No specific disconfirming evidence for -1631 distinct from -1630. The same chronological debates apply.",
   "historiographic_note": "The historical record for -1631 is essentially identical to -1630: sparse, regionally fragmented, and heavily dependent on palace and temple sources. Individual years in this period are difficult to distinguish archaeologically or textually; the significance of -1631 versus -1630 is minimal.",
   "graph_edges": [
-    {
-      "from": "-1631-001",
-      "to": "-1630-001",
-      "relation": "contemporary_with",
-      "note": "Same reign period"
-    },
     {
       "from": "-1631-002",
       "to": "-1630-002",

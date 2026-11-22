@@ -1,7 +1,7 @@
 {
   "year": -2312,
   "year_label": "2312 BCE",
-  "era_context": "The Old Kingdom of Egypt is in terminal decline; the Sixth Dynasty (c. 2278\u20132184 BCE) is fragmenting into regional power bases. Simultaneously, the Akkadian Empire under Naram-Sin (r. 2254\u20132218 BCE) is at its territorial zenith in Mesopotamia, controlling trade routes from the Persian Gulf to the Levantine coast. In the Indus Valley, the Mature Harappan civilization (c. 2600\u20131900 BCE) is flourishing with established urban centres and long-distance trade networks. The Early Bronze Age continues across the Levant and Anatolia.",
+  "era_context": "The Old Kingdom of Egypt is in terminal decline; the Sixth Dynasty (c. 2278–2184 BCE) is fragmenting into regional power bases. Simultaneously, the Akkadian Empire under Naram-Sin (r. 2254–2218 BCE) is at its territorial zenith in Mesopotamia, controlling trade routes from the Persian Gulf to the Levantine coast. In the Indus Valley, the Mature Harappan civilization (c. 2600–1900 BCE) is flourishing with established urban centres and long-distance trade networks. The Early Bronze Age continues across the Levant and Anatolia.",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa (limited archaeological record for this period)",
@@ -10,32 +10,6 @@
     "Oceania and the Pacific (no written records; archaeological dating uncertain)"
   ],
   "events": [
-    {
-      "id": "-2312-001",
-      "title": "Naram-Sin's campaigns in the Levant and Syria",
-      "region": "Levant, Syria, Upper Mesopotamia",
-      "coordinates_approx": "35.0, 37.0",
-      "category": "military",
-      "description": "Naram-Sin extends Akkadian military control into the Levant and Syria, consolidating Akkadian hegemony over trade routes and resource-rich regions. Inscriptions document these campaigns and the subjugation of local rulers. The military expansion is part of Naram-Sin's broader strategy to create a unified empire under centralized control. However, the sustainability of this expansion is questioned by modern scholars, who note that maintaining such a vast empire stretched Akkadian administrative and military resources.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad, r. 2254\u20132218 BCE)"
-      ],
-      "sources": [
-        {
-          "name": "Naram-Sin royal inscriptions and victory stelae",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Historiographic consensus from cuneiform studies",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's campaigns in the Levant are attested in inscriptions. The specific year -2312 falls within his reign, but individual campaigns cannot be precisely dated to a single year. Dating is approximate within \u00b15 years.",
-      "cross_references": []
-    },
     {
       "id": "-2312-002",
       "title": "Harappan urban centres maintain standardized administrative systems",
@@ -87,15 +61,9 @@
       "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The dating of events in -2312 is highly uncertain. Egyptian chronology for the Sixth Dynasty remains contested. The causes of Old Kingdom decline\u2014climate stress vs. administrative failure\u2014remain disputed, with recent paleoclimate studies suggesting Nile flood variability but not catastrophic failure. The significance of individual years in this period is difficult to establish with confidence; the events listed represent broader trends rather than precisely dated occurrences.",
+  "disconfirming_evidence": "The dating of events in -2312 is highly uncertain. Egyptian chronology for the Sixth Dynasty remains contested. The causes of Old Kingdom decline—climate stress vs. administrative failure—remain disputed, with recent paleoclimate studies suggesting Nile flood variability but not catastrophic failure. The significance of individual years in this period is difficult to establish with confidence; the events listed represent broader trends rather than precisely dated occurrences.",
   "historiographic_note": "Documentation for -2312 is sparse and relies heavily on royal inscriptions and administrative texts. Egyptian chronology is particularly uncertain for this period. The archaeological record is unevenly distributed geographically. Surviving sources are biased toward elite activities and neglect the lives of ordinary people.",
   "graph_edges": [
-    {
-      "from": "-2312-001",
-      "to": "-2310-001",
-      "relation": "part_of",
-      "note": "Naram-Sin's campaigns continue throughout his reign"
-    },
     {
       "from": "-2312-003",
       "to": "-2180-001",

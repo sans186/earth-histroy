@@ -1,51 +1,20 @@
 {
   "year": 1726,
   "year_label": "1726 CE",
-  "era_context": "The early 18th century, dominated by the aftermath of the War of Spanish Succession and the emergence of new European power balances. The Russian Empire under Peter the Great was consolidating territorial gains and modernizing institutions. The Qing Dynasty in China was at its height under the Kangxi Emperor's reign (to 1722) and his successor Yongzheng (1722\u20131735). The Ottoman Empire remained a major Mediterranean and Middle Eastern power, though beginning a long relative decline. European colonial expansion in the Americas, Africa, and Asia was accelerating.",
+  "era_context": "The early 18th century, dominated by the aftermath of the War of Spanish Succession and the emergence of new European power balances. The Russian Empire under Peter the Great was consolidating territorial gains and modernizing institutions. The Qing Dynasty in China was at its height under the Kangxi Emperor's reign (to 1722) and his successor Yongzheng (1722–1735). The Ottoman Empire remained a major Mediterranean and Middle Eastern power, though beginning a long relative decline. European colonial expansion in the Americas, Africa, and Asia was accelerating.",
   "documentation_level": "rich",
   "geographic_coverage_gaps": [],
   "events": [
-    {
-      "id": "1726-001",
-      "title": "Death of Peter the Great; Catherine I assumes Russian throne",
-      "region": "Russian Empire",
-      "coordinates_approx": "55.75, 37.62",
-      "category": "political",
-      "description": "Peter the Great died on 28 January 1725 (8 February 1726 in the Gregorian calendar used here). His widow, Catherine I, assumed the throne with the backing of the military and nobility, particularly through the influence of Alexander Menshikov. This marked a significant transition in Russian governance, as Catherine I was the first woman to rule Russia in her own right. Her reign (1725\u20131727) was characterized by the continued consolidation of Peter's reforms and the rise of court factionalism. The succession was contested and unstable, setting the stage for decades of palace intrigue.",
-      "key_figures": [
-        "Catherine I (Empress of Russia)",
-        "Alexander Menshikov (court favourite and power broker)",
-        "Peter the Great (deceased)"
-      ],
-      "sources": [
-        {
-          "name": "Contemporary court records and diplomatic correspondence from European ambassadors in St. Petersburg",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Polnoe sobranie zakonov Rossiiskoi imperii (Complete Collection of Laws of the Russian Empire)",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The date of Peter's death and Catherine's accession are well-documented in contemporary diplomatic records and Russian state archives. The Gregorian calendar date is certain.",
-      "cross_references": [
-        "1725-001 (Peter the Great's death in Julian calendar)",
-        "1727-001 (Peter II's accession)"
-      ]
-    },
     {
       "id": "1726-002",
       "title": "Yongzheng Emperor consolidates power in Qing China; purges rivals",
       "region": "Qing Dynasty, China",
       "coordinates_approx": "39.90, 116.41",
       "category": "political",
-      "description": "The Yongzheng Emperor (r. 1722\u20131735), who had assumed the throne in 1722 following his father Kangxi's death, continued aggressive consolidation of power in 1726. He purged rivals and potential challengers, including his brothers and court officials suspected of disloyalty. The Yongzheng Emperor implemented administrative reforms, including the creation of the Grand Council (Junjichu) to centralize decision-making and reduce the power of the traditional imperial bureaucracy. These measures strengthened imperial authority but also created resentment among the literati and nobility. His reign marked a shift toward more autocratic governance within the Confucian framework.",
+      "description": "The Yongzheng Emperor (r. 1722–1735), who had assumed the throne in 1722 following his father Kangxi's death, continued aggressive consolidation of power in 1726. He purged rivals and potential challengers, including his brothers and court officials suspected of disloyalty. The Yongzheng Emperor implemented administrative reforms, including the creation of the Grand Council (Junjichu) to centralize decision-making and reduce the power of the traditional imperial bureaucracy. These measures strengthened imperial authority but also created resentment among the literati and nobility. His reign marked a shift toward more autocratic governance within the Confucian framework.",
       "key_figures": [
-        "Yongzheng Emperor (r. 1722\u20131735)",
-        "Kangxi Emperor (deceased, r. 1661\u20131722)"
+        "Yongzheng Emperor (r. 1722–1735)",
+        "Kangxi Emperor (deceased, r. 1661–1722)"
       ],
       "sources": [
         {
@@ -85,7 +54,7 @@
           "contemporary": true
         },
         {
-          "name": "Recueil des trait\u00e9s de paix, d'alliance, de commerce, etc. (Collection of Treaties)",
+          "name": "Recueil des traités de paix, d'alliance, de commerce, etc. (Collection of Treaties)",
           "type": "chronicle",
           "contemporary": false
         }
@@ -103,7 +72,7 @@
       "region": "Kingdom of Great Britain and Ireland",
       "coordinates_approx": "51.51, -0.13",
       "category": "cultural",
-      "description": "Jonathan Swift's satirical novel Gulliver's Travels was published in October 1726 in London. The work, presented as a travel narrative, contained sharp political and social satire directed at contemporary British politics, the Royal Society, and human nature itself. The novel was an immediate success and became one of the most influential works of English literature. Its four voyages\u2014to Lilliput, Brobdingnag, Laputa, and the land of the Houyhnhnms\u2014allowed Swift to critique everything from political factionalism to scientific pretension. The work's enduring popularity reflects both its literary merit and the universality of its satirical targets.",
+      "description": "Jonathan Swift's satirical novel Gulliver's Travels was published in October 1726 in London. The work, presented as a travel narrative, contained sharp political and social satire directed at contemporary British politics, the Royal Society, and human nature itself. The novel was an immediate success and became one of the most influential works of English literature. Its four voyages—to Lilliput, Brobdingnag, Laputa, and the land of the Houyhnhnms—allowed Swift to critique everything from political factionalism to scientific pretension. The work's enduring popularity reflects both its literary merit and the universality of its satirical targets.",
       "key_figures": [
         "Jonathan Swift (author)",
         "Benjamin Motte (publisher)"
@@ -171,7 +140,7 @@
       "from": "1726-002",
       "to": "1735-001",
       "relation": "part_of",
-      "note": "Yongzheng's consolidation of power in 1726 was part of his broader reign of administrative reform (1722\u20131735)"
+      "note": "Yongzheng's consolidation of power in 1726 was part of his broader reign of administrative reform (1722–1735)"
     },
     {
       "from": "1726-003",
@@ -189,7 +158,7 @@
       "from": "1726-005",
       "to": "1741-001",
       "relation": "part_of",
-      "note": "Bering's 1726 explorations were part of the larger Second Kamchatka Expedition (1725\u20131730)"
+      "note": "Bering's 1726 explorations were part of the larger Second Kamchatka Expedition (1725–1730)"
     }
   ]
 }

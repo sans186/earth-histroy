@@ -12,32 +12,6 @@
   ],
   "events": [
     {
-      "id": "-2306-001",
-      "title": "Final years of Naram-Sin's reign",
-      "region": "Mesopotamia",
-      "coordinates_approx": "33.0, 44.0",
-      "category": "political",
-      "description": "Naram-Sin's reign is approaching its end (he dies c. 2218 BCE). His inscriptions continue to document military campaigns and administrative consolidation, but evidence from later texts suggests that the empire is facing increasing internal and external pressures. The cost of maintaining the vast Akkadian state is becoming unsustainable. Naram-Sin's successor will inherit an empire in crisis.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad, r. 2254\u20132218 BCE)"
-      ],
-      "sources": [
-        {
-          "name": "Royal inscriptions of Naram-Sin",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "The Curse of Akkad (later literary composition)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's reign is well-attested, but the specific year -2306 is not independently confirmed.",
-      "cross_references": []
-    },
-    {
       "id": "-2306-002",
       "title": "End of Dynasty VI in Egypt",
       "region": "Egypt",
@@ -96,12 +70,6 @@
   "disconfirming_evidence": "The traditional dating of the end of Dynasty VI (2184 BCE) is based on the Sumerian King List and later Egyptian chronologies, which are subject to ongoing scholarly debate. Some scholars propose that Pepi II's reign was much shorter than traditionally believed, which would shift the end of Dynasty VI to an earlier date. The causes of the Old Kingdom's collapse are debated; climate change (reduced Nile floods) is one hypothesis, but internal political fragmentation may have been equally or more important.",
   "historiographic_note": "Sources for this year are limited to royal inscriptions, administrative texts, and archaeological evidence. The transition from the Old Kingdom to the First Intermediate Period is one of the best-documented political transformations in ancient history, yet the specific causes and timeline remain debated. The perspective of non-elite populations is largely absent from the historical record.",
   "graph_edges": [
-    {
-      "from": "-2306-001",
-      "to": "-2305-001",
-      "relation": "led_to",
-      "note": "Naram-Sin's reign ends; the Akkadian Empire collapses shortly after"
-    },
     {
       "from": "-2306-002",
       "to": "-2305-002",

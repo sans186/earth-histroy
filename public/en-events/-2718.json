@@ -12,29 +12,6 @@
   ],
   "events": [
     {
-      "id": "-2718-001",
-      "title": "Naram-Sin's military campaigns continue; Gutian pressure increases",
-      "region": "Mesopotamia and surrounding regions",
-      "coordinates_approx": "34.5, 43.0",
-      "category": "military",
-      "description": "Naram-Sin continues military consolidation of the Akkadian Empire. However, by this period, pressure from the Gutians (a highland people from the Zagros Mountains) is increasing. Akkadian inscriptions record military campaigns against various enemies, including the Gutians, Lullubi, and others. The empire's military resources are increasingly stretched, foreshadowing the collapse that will occur within a generation.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian royal inscriptions and administrative records",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's military campaigns are well-documented in contemporary inscriptions. The specific year -2718 is approximate within his reign (c. 2254\u20132218 BCE).",
-      "cross_references": [
-        "-2719-001"
-      ]
-    },
-    {
       "id": "-2718-002",
       "title": "Egyptian provincial authority consolidates during Dynasty VI decline",
       "region": "Egypt",
@@ -71,21 +48,15 @@
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Trade between the Indus Valley and Mesopotamia is confirmed by archaeological evidence. The peak of this trade is estimated to occur during the mature phase of the Indus Civilization (c. 2600\u20131900 BCE), with -2718 representing a point within this period.",
+      "certainty_note": "Trade between the Indus Valley and Mesopotamia is confirmed by archaeological evidence. The peak of this trade is estimated to occur during the mature phase of the Indus Civilization (c. 2600–1900 BCE), with -2718 representing a point within this period.",
       "cross_references": [
         "-2719-003"
       ]
     }
   ],
-  "disconfirming_evidence": "The extent and nature of Akkadian military pressure from the Gutians is debated. Some scholars argue that the Gutian invasion was less catastrophic than traditional accounts suggest and that Akkadian decline was more gradual and internally driven. The absolute dating of Naram-Sin's reign and the Gutian invasion remains uncertain (\u00b150\u2013100 years).",
+  "disconfirming_evidence": "The extent and nature of Akkadian military pressure from the Gutians is debated. Some scholars argue that the Gutian invasion was less catastrophic than traditional accounts suggest and that Akkadian decline was more gradual and internally driven. The absolute dating of Naram-Sin's reign and the Gutian invasion remains uncertain (±50–100 years).",
   "historiographic_note": "This year falls within a period where written records are concentrated in Mesopotamia and Egypt. The Indus Valley Civilization, though contemporaneous and arguably more urbanized, is known only through archaeology. The perspective is heavily skewed toward elite political and military narratives recorded in royal inscriptions. Economic and social history must be inferred from archaeological evidence.",
   "graph_edges": [
-    {
-      "from": "-2718-001",
-      "to": "-2200-001",
-      "relation": "led_to",
-      "note": "Gutian pressure and internal instability lead to the collapse of the Akkadian Empire c. 2200 BCE"
-    },
     {
       "from": "-2718-002",
       "to": "-2700-001",

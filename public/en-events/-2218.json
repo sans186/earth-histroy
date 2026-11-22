@@ -27,7 +27,7 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Military activity is attested for the Ur III period generally, but specific events for -2218 are not documented. Dating is uncertain (\u00b150\u2013100 years).",
+      "certainty_note": "Military activity is attested for the Ur III period generally, but specific events for -2218 are not documented. Dating is uncertain (±50–100 years).",
       "cross_references": []
     },
     {
@@ -46,8 +46,36 @@
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Indus Valley Civilization's urban phase is archaeologically confirmed. Dating to -2218 is approximate (\u00b1100 years) based on radiocarbon calibration.",
+      "certainty_note": "The Indus Valley Civilization's urban phase is archaeologically confirmed. Dating to -2218 is approximate (±100 years) based on radiocarbon calibration.",
       "cross_references": []
+    },
+    {
+      "id": "-2218-003",
+      "title": "Naram-Sin's death and end of Akkadian hegemony",
+      "region": "Mesopotamia, Akkad",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "Naram-Sin dies c. 2218 BCE (some sources place this date c. 2215 BCE). His death marks the beginning of the rapid collapse of the Akkadian Empire. His successors lack his military prowess and administrative ability, and the empire quickly fragments under pressure from internal rebellions and external invasions (possibly by the Gutians). Within a generation, Akkadian hegemony in Mesopotamia will be replaced by a period of political fragmentation.",
+      "key_figures": [
+        "Naram-Sin — King of Akkad (dies c. 2218 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Sumerian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Akkadian royal inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's death is traditionally dated c. 2218 BCE (Middle Chronology). The year -2240 is assigned by convention; the actual date may be ±20–30 years different.",
+      "cross_references": [
+        "Precedes Akkadian collapse c. -2200"
+      ]
     }
   ],
   "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, the nature of Ur III military organization and the extent of centralized control are debated. Some scholars argue for a highly militarized state; others propose a more decentralized system with local governors. The Indus Valley Civilization's political organization remains entirely speculative.",

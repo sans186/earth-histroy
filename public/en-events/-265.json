@@ -75,32 +75,6 @@
       "cross_references": []
     },
     {
-      "id": "-265-003",
-      "title": "Qin Dynasty consolidation under Qin Shi Huang",
-      "region": "China (unified Qin state)",
-      "coordinates_approx": "34.0, 109.0",
-      "category": "political",
-      "description": "Qin Shi Huang, the First Emperor of China, continues his consolidation of the unified Chinese state following the completion of unification in -221 BCE. By 265 BCE (44 years into his reign), the Qin administrative system is fully operational, including standardized weights, measures, currency, and writing systems across the empire. Major construction projects such as early sections of defensive walls and the Terracotta Army are underway. The Qin represents a revolutionary shift toward centralized bureaucratic governance in East Asia.",
-      "key_figures": [
-        "Qin Shi Huang (First Emperor of China, r. -221 to -210)"
-      ],
-      "sources": [
-        {
-          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled c. -109 BCE",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Archaeological evidence from Qin sites (Terracotta Army, administrative seals)",
-          "type": "archaeological",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Qin Shi Huang's reign dates are well-established in Chinese historical tradition and confirmed by archaeological evidence. The year 265 BCE falls within his reign.",
-      "cross_references": []
-    },
-    {
       "id": "-265-004",
       "title": "Galatian settlement in Anatolia",
       "region": "Central Anatolia (modern-day Turkey)",
@@ -138,12 +112,6 @@
       "to": "-262-001",
       "relation": "led_to",
       "note": "Battle of Corupedium establishes Seleucid hegemony in Asia Minor for the next generation"
-    },
-    {
-      "from": "-265-003",
-      "to": "-210-001",
-      "relation": "part_of",
-      "note": "Qin Shi Huang's reign and consolidation of the Chinese empire"
     }
   ]
 }

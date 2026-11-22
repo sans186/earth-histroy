@@ -11,32 +11,6 @@
   ],
   "events": [
     {
-      "id": "-1530-001",
-      "title": "Thutmose III's military campaigns in Levant (probable continuation)",
-      "region": "Levant, Egypt",
-      "coordinates_approx": "33.5, 35.0",
-      "category": "military",
-      "description": "Thutmose III conducted multiple campaigns to consolidate Egyptian control over the Levantine territories. These campaigns were part of a sustained military strategy to maintain hegemony over Syria-Palestine and secure trade routes. The exact year-by-year sequence of campaigns is debated by Egyptologists, but the general period (c. 1479\u20131425 BCE) is well-attested. Individual campaigns are often assigned to specific years based on regnal dating systems, though the precision is approximate.",
-      "key_figures": [
-        "Thutmose III (Pharaoh of Egypt)"
-      ],
-      "sources": [
-        {
-          "name": "Annals of Thutmose III, Temple of Karnak",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Historiographic consensus on Thutmose III's reign chronology",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The broad period of Thutmose III's Levantine campaigns is confirmed, but assignment to specific years within his reign depends on Egyptian chronological systems that remain debated. \u00b15\u201310 year uncertainty is typical for this era.",
-      "cross_references": []
-    },
-    {
       "id": "-1530-002",
       "title": "Kassite Babylonia under Burnaburiash I or successor",
       "region": "Mesopotamia (Babylonia)",
@@ -58,14 +32,7 @@
       "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The chronology of the 18th Dynasty, including Thutmose III's reign, remains contested among Egyptologists. Some scholars argue for a 'high chronology' placing Thutmose III's reign earlier (c. 1504\u20131450 BCE), while others support a 'low chronology' (c. 1479\u20131425 BCE). This affects the precise dating of events assigned to 1531 BCE. Additionally, the assignment of specific military campaigns to individual years is often conventional rather than based on contemporary dating evidence.",
-  "historiographic_note": "The historical record for 1531 BCE is heavily dependent on Egyptian and Mesopotamian administrative records, king lists, and temple inscriptions. These sources are biased toward royal and military narratives. The Levantine perspective is largely absent except through Egyptian records of conquest. Archaeological evidence (stratigraphy, destruction layers) provides some corroboration but is imprecise at the annual level. Large regions of the world (sub-Saharan Africa, northern Europe, the Americas) have no written records for this period, and archaeological dating is typically \u00b150\u2013100 years.",
-  "graph_edges": [
-    {
-      "from": "-1530-001",
-      "to": "-1480-LEVANTINE_CONSOLIDATION",
-      "relation": "part_of",
-      "note": "Thutmose III's campaigns were part of a sustained 50-year effort to consolidate Egyptian control over the Levant"
-    }
-  ]
+  "disconfirming_evidence": "The chronology of the 18th Dynasty, including Thutmose III's reign, remains contested among Egyptologists. Some scholars argue for a 'high chronology' placing Thutmose III's reign earlier (c. 1504–1450 BCE), while others support a 'low chronology' (c. 1479–1425 BCE). This affects the precise dating of events assigned to 1531 BCE. Additionally, the assignment of specific military campaigns to individual years is often conventional rather than based on contemporary dating evidence.",
+  "historiographic_note": "The historical record for 1531 BCE is heavily dependent on Egyptian and Mesopotamian administrative records, king lists, and temple inscriptions. These sources are biased toward royal and military narratives. The Levantine perspective is largely absent except through Egyptian records of conquest. Archaeological evidence (stratigraphy, destruction layers) provides some corroboration but is imprecise at the annual level. Large regions of the world (sub-Saharan Africa, northern Europe, the Americas) have no written records for this period, and archaeological dating is typically ±50–100 years.",
+  "graph_edges": []
 }

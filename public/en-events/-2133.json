@@ -19,7 +19,7 @@
       "category": "political",
       "description": "Regional governors (nomarchs) in Upper and Lower Egypt increasingly operate as semi-autonomous rulers, maintaining their own armies and administrative apparatus. Central pharaonic authority, already weakened, continues to erode. Tomb inscriptions from this period show nomarchs claiming titles and achievements previously reserved for the pharaoh. This decentralization is both a symptom and a driver of the Old Kingdom's collapse.",
       "key_figures": [
-        "Pepi II (Pharaoh, Sixth Dynasty; traditional dates c. 2278\u20132184 BCE)"
+        "Pepi II (Pharaoh, Sixth Dynasty; traditional dates c. 2278–2184 BCE)"
       ],
       "sources": [
         {
@@ -38,35 +38,6 @@
       "cross_references": [
         "Part of Old Kingdom decline (-2134 onwards)",
         "Leads to First Intermediate Period (-2130 to -2055)"
-      ]
-    },
-    {
-      "id": "-2133-002",
-      "title": "Akkad Empire faces increasing pressure from Gutian and Elamite incursions",
-      "region": "Mesopotamia, Zagros Mountains",
-      "coordinates_approx": "33.0, 44.0",
-      "category": "military",
-      "description": "Naram-Sin's military campaigns continue, but the empire is increasingly stretched. Gutian tribes from the Zagros Mountains and Elamite forces from the southwest press against Akkadian borders. The empire's administrative and military resources are being diverted to frontier defense. This period represents the beginning of the end for Akkad's hegemony, though the final collapse will take another 20 years.",
-      "key_figures": [
-        "Naram-Sin (Akkad Emperor, r. c. 2254\u20132218 BCE)"
-      ],
-      "sources": [
-        {
-          "name": "Cuneiform administrative records and military correspondence",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Sumerian King List (later compilation)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The broad pattern of Akkad's military challenges is well-documented; specific events in 2133 BCE are inferred from the trajectory of Naram-Sin's reign.",
-      "cross_references": [
-        "Part of Akkad Empire decline (c. 2200\u20132154 BCE)",
-        "Leads to Gutian conquest (-2154 onwards)"
       ]
     },
     {
@@ -93,24 +64,18 @@
       "certainty_note": "The existence of Harappan trade networks is well-established through archaeological evidence. Specific dating to 2133 BCE is approximate, based on the broader chronology of the mature Harappan phase.",
       "cross_references": [
         "Contemporary with Akkad Empire trade disruptions",
-        "Part of Harappan mature phase (c. 2600\u20131900 BCE)"
+        "Part of Harappan mature phase (c. 2600–1900 BCE)"
       ]
     }
   ],
   "disconfirming_evidence": "The precise dating of Naram-Sin's reign and the timing of Gutian invasions remain debated. Some scholars propose that the Gutian invasions occurred earlier than traditionally dated, potentially overlapping with Naram-Sin's reign rather than occurring after it. The extent of Akkad's military problems in 2133 BCE specifically is uncertain; some sources suggest the empire remained relatively stable until the final decade of Naram-Sin's reign. The Harappan trade network's resilience and organization are sometimes overstated; evidence suggests periodic disruptions and regional variations in trade intensity.",
-  "historiographic_note": "This year is poorly documented in contemporary sources. Egyptian records are fragmentary and elite-focused. Mesopotamian sources are more abundant but concentrate on Akkadian imperial narratives and later Sumerian retrospectives. The Indus Valley Civilization's undeciphered script prevents direct historical narrative. Chronological precision is limited to \u00b110\u201320 years. The vast majority of human societies in this period left no written records, making global history invisible.",
+  "historiographic_note": "This year is poorly documented in contemporary sources. Egyptian records are fragmentary and elite-focused. Mesopotamian sources are more abundant but concentrate on Akkadian imperial narratives and later Sumerian retrospectives. The Indus Valley Civilization's undeciphered script prevents direct historical narrative. Chronological precision is limited to ±10–20 years. The vast majority of human societies in this period left no written records, making global history invisible.",
   "graph_edges": [
     {
       "from": "-2133-001",
       "to": "-2134-001",
       "relation": "contemporary_with",
       "note": "Continuation of Old Kingdom fragmentation"
-    },
-    {
-      "from": "-2133-002",
-      "to": "-2134-002",
-      "relation": "contemporary_with",
-      "note": "Akkad's military challenges persist"
     },
     {
       "from": "-2133-003",

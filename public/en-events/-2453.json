@@ -12,37 +12,6 @@
   ],
   "events": [
     {
-      "id": "-2453-001",
-      "title": "Naram-Sin's Deification and Ideological Consolidation",
-      "region": "Mesopotamia, Akkad",
-      "coordinates_approx": "33.0, 44.0",
-      "category": "religious",
-      "description": "Naram-Sin declared himself a god, an unprecedented move in Mesopotamian kingship. He had his name inscribed with the divine determinative and established a cult of his own worship. This ideological innovation was intended to legitimize his rule and distinguish him from previous Akkadian kings. The deification was accompanied by the promotion of Akkadian cultural and religious practices throughout the empire.",
-      "key_figures": [
-        "Naram-Sin (Akkadian king)"
-      ],
-      "sources": [
-        {
-          "name": "Naram-Sin inscriptions with divine determinative",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Later Mesopotamian texts discussing Naram-Sin's deification",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic analysis of Akkadian ideology",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's deification is well-attested in inscriptions. However, the precise date of this ideological shift within his reign is uncertain. It is assigned to -2453 as a representative point.",
-      "cross_references": []
-    },
-    {
       "id": "-2453-002",
       "title": "Egyptian Old Kingdom Administrative Fragmentation",
       "region": "Egypt",
@@ -76,12 +45,5 @@
   ],
   "disconfirming_evidence": "The significance of Naram-Sin's deification has been reassessed by some scholars, who argue that it was less revolutionary than traditionally portrayed and may have had precedents in earlier Akkadian practice. Additionally, the 'collapse' of the Old Kingdom is increasingly viewed as a gradual transition rather than a sudden collapse, with significant continuities in culture and administration.",
   "historiographic_note": "The year -2453 is not individually documented in surviving sources. The historical record for this period is based on inscriptions, administrative texts, and archaeological evidence that provide a general picture of the era but cannot be resolved to specific years.",
-  "graph_edges": [
-    {
-      "from": "-2453-001",
-      "to": "-2450-001",
-      "relation": "part_of",
-      "note": "Ideological consolidation accompanied military expansion."
-    }
-  ]
+  "graph_edges": []
 }

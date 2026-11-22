@@ -1,7 +1,7 @@
 {
   "year": -1334,
   "year_label": "1335 BCE",
-  "era_context": "Late Bronze Age, during the reign of Ramesses II of Egypt (r. 1279\u20131213 BCE). The Hittite Empire was under Muwatalli II. The Mycenaean civilization was in its Late Helladic IIIB period. In China, the Shang dynasty was in its final centuries. This era was characterized by great power competition, extensive international trade networks, and the development of early alphabetic writing in the Levant.",
+  "era_context": "Late Bronze Age, during the reign of Ramesses II of Egypt (r. 1279–1213 BCE). The Hittite Empire was under Muwatalli II. The Mycenaean civilization was in its Late Helladic IIIB period. In China, the Shang dynasty was in its final centuries. This era was characterized by great power competition, extensive international trade networks, and the development of early alphabetic writing in the Levant.",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
@@ -13,35 +13,6 @@
     "Eastern Europe"
   ],
   "events": [
-    {
-      "id": "-1334-001",
-      "title": "Hittite-Egyptian diplomatic and military tensions",
-      "region": "Hittite Empire, Egypt, Syria-Palestine",
-      "coordinates_approx": "35.0,35.0",
-      "category": "political",
-      "description": "The Hittite Empire under Muwatalli II and Egypt under Ramesses II maintained a complex relationship characterized by both diplomatic engagement and military competition. Both powers sought to control Syria-Palestine and its valuable trade routes and resources. The peace treaty established after the Battle of Kadesh (c. 1274 BCE) provided a framework for coexistence, but tensions periodically arose. Diplomatic correspondence and military preparations were ongoing.",
-      "key_figures": [
-        "Muwatalli II (Hittite King)",
-        "Ramesses II (Pharaoh of Egypt)"
-      ],
-      "sources": [
-        {
-          "name": "Hittite royal archives from Bo\u011fazk\u00f6y",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Egyptian diplomatic correspondence and temple inscriptions",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The general diplomatic and military situation is well-attested. Specific events in 1335 BCE are inferred from broader patterns of Hittite-Egyptian relations during this period.",
-      "cross_references": [
-        "-1330-002"
-      ]
-    },
     {
       "id": "-1334-002",
       "title": "Mycenaean expansion and trade in the eastern Mediterranean",
@@ -101,12 +72,6 @@
   "disconfirming_evidence": "The chronology of the Shang dynasty remains debated among scholars. Some scholars argue for a 'long chronology' that places Shang rule earlier, while others support a 'short chronology' that places it later. This affects the precise dating of events in 1335 BCE. Additionally, the extent of Mycenaean political influence in the eastern Mediterranean (as opposed to purely commercial contact) is disputed. Some scholars argue that Mycenaean presence was more limited than archaeological evidence suggests.",
   "historiographic_note": "The historical record for 1335 BCE is sparse and heavily dependent on Egyptian and Hittite official sources, which are subject to royal bias. Archaeological evidence from the Aegean, Levant, and China provides important corroboration but is fragmentary. The absence of detailed year-by-year records means that events are often assigned to periods rather than specific years. The record is heavily skewed toward the Mediterranean world and the great powers; vast regions of Asia, Africa, and the Americas are largely invisible in contemporary written sources. The Shang dynasty record is particularly dependent on oracle bone inscriptions, which are often cryptic and difficult to interpret.",
   "graph_edges": [
-    {
-      "from": "-1334-001",
-      "to": "-1330-002",
-      "relation": "contemporary_with",
-      "note": "Hittite-Egyptian tensions were a persistent feature of this period"
-    },
     {
       "from": "-1334-002",
       "to": "-1331-002",

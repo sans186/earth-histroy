@@ -11,39 +11,6 @@
   ],
   "events": [
     {
-      "id": "-3044-001",
-      "title": "Akkadian Empire under Naram-Sin at height of power",
-      "region": "Mesopotamia, Levant, Anatolia, Zagros Mountains, Persian Gulf coast",
-      "coordinates_approx": "33.3, 44.4",
-      "category": "political",
-      "description": "Naram-Sin's reign represents the apex of Akkadian imperial expansion. His inscriptions record control over vast territories and his deification as a god. He establishes a sophisticated administrative system with appointed governors and military garrisons. His military campaigns against the Lullubi, Martu, and other groups continue. The empire's reach extends from the Persian Gulf to the Mediterranean and into Anatolia. However, maintaining this empire requires constant military campaigns and resource extraction, which may be creating internal strain.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad, self-deified)"
-      ],
-      "sources": [
-        {
-          "name": "Naram-Sin inscriptions and administrative texts",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Naram-Sin Stele",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Archaeological evidence from Akkadian sites",
-          "type": "archaeological",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's reign is well-attested in contemporary sources. However, absolute dating and the precise extent of control remain debated.",
-      "cross_references": [
-        "Related to -3043-001, -3042-001, and -3041-001"
-      ]
-    },
-    {
       "id": "-3044-002",
       "title": "Old Kingdom Egypt (Dynasty VI) in advanced decline",
       "region": "Egypt (Nile Valley)",
@@ -80,12 +47,6 @@
   "disconfirming_evidence": "The extent of Akkadian territorial control is disputed; some scholars argue that inscriptions exaggerate actual administrative reach. The rapid collapse of the Akkadian Empire within a generation of Naram-Sin's death suggests inherent instability. The causes of the Old Kingdom's decline are debated; climate change may have played a role, but internal administrative failure is also emphasized.",
   "historiographic_note": "Sources are limited to royal inscriptions, administrative texts, and archaeological evidence. The record is heavily biased toward elite political and military history. Akkadian sources are propagandistic. Egyptian sources reflect elite perspectives. Absolute dating relies on conventional chronological frameworks that are debated. The record is sparse for regions outside Mesopotamia and Egypt.",
   "graph_edges": [
-    {
-      "from": "-3044-001",
-      "to": "-3043-001",
-      "relation": "contemporary_with",
-      "note": "Naram-Sin's reign continued"
-    },
     {
       "from": "-3044-002",
       "to": "-3043-002",

@@ -13,39 +13,6 @@
   ],
   "events": [
     {
-      "id": "-2751-001",
-      "title": "Akkadian trade networks at their height: evidence of long-distance commerce",
-      "region": "Akkadian Empire, Levant, Persian Gulf, Indus Valley",
-      "coordinates_approx": "33.0, 50.0",
-      "category": "economic",
-      "description": "During Naram-Sin's reign, Akkadian trade networks reach their maximum extent. Archaeological evidence shows Akkadian seals and goods in the Indus Valley, the Persian Gulf, and the Levant. Akkadian merchants and officials are attested in distant regions. This trade was facilitated by Akkadian military control of key routes and ports. The trade brought wealth to the Akkadian elite but also created dependencies and resentments among subject populations.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian seals and artifacts found in Indus Valley sites",
-          "type": "archaeological",
-          "contemporary": true
-        },
-        {
-          "name": "Akkadian administrative tablets recording trade transactions",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Indus Valley seals and artifacts found in Mesopotamian contexts",
-          "type": "archaeological",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Long-distance trade during Naram-Sin's reign is archaeologically confirmed. However, the specific year of maximum extent is not documented; this event represents a broader pattern.",
-      "cross_references": [
-        "Related to Akkadian administrative consolidation (-2753-001)"
-      ]
-    },
-    {
       "id": "-2751-002",
       "title": "Egyptian 6th Dynasty: end of monumental construction; rise of provincial tombs",
       "region": "Egypt",
@@ -77,12 +44,6 @@
   "disconfirming_evidence": "The extent of Akkadian trade networks is sometimes overstated in older scholarship. Recent analysis suggests that some artifacts attributed to Akkadian trade may have been exchanged through intermediaries rather than direct Akkadian merchants. Additionally, the chronology of Akkadian-Indus trade is debated; some scholars place the peak of this trade earlier or later than the conventional dating of Naram-Sin's reign. The Egyptian chronology remains contested.",
   "historiographic_note": "For -2751, documentation is sparse and largely reconstructed from broader patterns. No specific events are dated to this year in contemporary sources. The year is essentially a placeholder within a longer historical process. This reflects the reality of ancient history: most individual years are archaeologically and textually invisible.",
   "graph_edges": [
-    {
-      "from": "-2751-001",
-      "to": "-2754-001",
-      "relation": "contemporary_with",
-      "note": "Trade networks expand alongside military consolidation"
-    },
     {
       "from": "-2751-002",
       "to": "-2751-001",

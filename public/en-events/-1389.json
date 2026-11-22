@@ -13,36 +13,6 @@
   ],
   "events": [
     {
-      "id": "-1389-001",
-      "title": "Thutmose III's reign at its height; Egyptian empire at maximum extent",
-      "region": "Egypt, Levant, Nubia, Sinai",
-      "coordinates_approx": "26.0, 31.0",
-      "category": "political",
-      "description": "Thutmose III's reign represents the height of Egyptian imperial power. By this period, Egyptian control extends from Nubia in the south to Syria in the north, and from the Mediterranean coast to the Red Sea. The empire is administered through a complex bureaucratic system, with governors appointed to conquered territories and tribute collected systematically. The pharaoh is depicted in temple reliefs as a military conqueror and divine intermediary.",
-      "key_figures": [
-        "Thutmose III (Pharaoh of Egypt)"
-      ],
-      "sources": [
-        {
-          "name": "Karnak temple inscriptions and reliefs",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Administrative papyri",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Thutmose III's reign is well-documented through temple inscriptions and administrative records. However, the absolute chronology depends on synchronisation with other chronologies, which introduces \u00b110\u201315 year uncertainty.",
-      "cross_references": [
-        "-1385-001",
-        "-1386-001",
-        "-1388-001"
-      ]
-    },
-    {
       "id": "-1389-002",
       "title": "Hittite-Mitanni conflict reaches critical phase",
       "region": "Anatolia, Syria, Northern Levant",
@@ -54,7 +24,7 @@
       ],
       "sources": [
         {
-          "name": "Hittite royal inscriptions (Bo\u011fazk\u00f6y archives)",
+          "name": "Hittite royal inscriptions (Boğazköy archives)",
           "type": "epigraphic",
           "contemporary": true
         }
@@ -127,19 +97,13 @@
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The decline of the Indus Valley Civilization is archaeologically well-attested through stratigraphy and settlement pattern analysis. However, the absolute dating is uncertain, with estimates ranging from c. 1900\u20131300 BCE. The causes of the decline are debated among scholars.",
+      "certainty_note": "The decline of the Indus Valley Civilization is archaeologically well-attested through stratigraphy and settlement pattern analysis. However, the absolute dating is uncertain, with estimates ranging from c. 1900–1300 BCE. The causes of the decline are debated among scholars.",
       "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The causes of the decline of the Indus Valley Civilization are debated. Traditional theories attributed the decline to invasion by Indo-Aryans, but this is now questioned by many scholars. Alternative theories include climate change (particularly the drying of the Saraswati River), environmental degradation, and internal social factors. The absolute dating of the Late Harappan phase is uncertain, with estimates ranging from c. 1900\u20131300 BCE. Additionally, the extent of continuity between the Indus Valley Civilization and later South Asian cultures is debated.",
+  "disconfirming_evidence": "The causes of the decline of the Indus Valley Civilization are debated. Traditional theories attributed the decline to invasion by Indo-Aryans, but this is now questioned by many scholars. Alternative theories include climate change (particularly the drying of the Saraswati River), environmental degradation, and internal social factors. The absolute dating of the Late Harappan phase is uncertain, with estimates ranging from c. 1900–1300 BCE. Additionally, the extent of continuity between the Indus Valley Civilization and later South Asian cultures is debated.",
   "historiographic_note": "The historical record for 1389 BCE is shaped by Egyptian temple inscriptions (propagandistic), Hittite royal archives (court-centered), Mycenaean archaeological evidence (material culture), Chinese oracle bone inscriptions (religious/divinatory), and South Asian archaeological evidence (material culture). The record is heavily skewed toward elite political, military, and religious history in the Mediterranean and Near East. South Asian history is reconstructed primarily from archaeological evidence, with no contemporary written records (the Indus script remains undeciphered). Regions outside these areas are largely absent from the surviving record.",
   "graph_edges": [
-    {
-      "from": "-1389-001",
-      "to": "-1380-001",
-      "relation": "led_to",
-      "note": "Thutmose III's reign establishes the basis for sustained Egyptian dominance in the New Kingdom"
-    },
     {
       "from": "-1389-002",
       "to": "-1370-001",

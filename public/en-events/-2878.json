@@ -12,37 +12,6 @@
   ],
   "events": [
     {
-      "id": "-2878-001",
-      "title": "Akkadian administrative consolidation and trade networks",
-      "region": "Mesopotamia, Levant, Anatolia, Persian Gulf",
-      "coordinates_approx": "34.5, 43.0",
-      "category": "economic",
-      "description": "During Naram-Sin's reign, the Akkadian Empire maintains and expands trade networks connecting Mesopotamia with the Indus Valley, the Persian Gulf, and Anatolia. Akkadian merchants and officials establish trading posts and administrative centres throughout the empire. Cuneiform administrative texts from this period document the movement of goods, the collection of tribute, and the organisation of labour. The empire's economic system is based on centralised redistribution of resources, with the king controlling major trade goods such as timber, metals, and luxury items.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian administrative texts and economic records (cuneiform tablets from Mesopotamia)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Archaeological evidence of trade goods and merchant seals from Mesopotamia and the Indus Valley",
-          "type": "archaeological",
-          "contemporary": true
-        },
-        {
-          "name": "Historiographic consensus on Akkadian trade networks (Liverani, The Ancient Near East; Possehl, The Indus Civilisation)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The existence of Akkadian trade networks is well-attested in administrative texts and archaeological evidence. However, the precise dating of individual transactions and the year-by-year evolution of trade patterns cannot be reconstructed. The year -2878 is assigned to this period by convention.",
-      "cross_references": []
-    },
-    {
       "id": "-2878-002",
       "title": "Indus Valley Civilisation continued urban development",
       "region": "Indus Valley, South Asia",
@@ -74,7 +43,7 @@
       "category": "political",
       "description": "Dynasty VI continues its gradual decline. Provincial governors accumulate wealth and power, as evidenced by their increasingly elaborate tombs and autobiographical inscriptions. The centralised redistribution system that characterised the earlier Old Kingdom is weakening, with regional elites gaining autonomy. This process is not a sudden collapse but a gradual shift in the balance of power from the pharaonic centre to the provinces.",
       "key_figures": [
-        "Pepi II (Pharaoh of Egypt, traditional reign c. 2278\u20132184 BCE)"
+        "Pepi II (Pharaoh of Egypt, traditional reign c. 2278–2184 BCE)"
       ],
       "sources": [
         {
@@ -89,18 +58,11 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "The general trend of Old Kingdom decline is archaeologically evident, but the precise dating of individual years remains uncertain. Uncertainty of \u00b1100\u2013150 years is realistic.",
+      "certainty_note": "The general trend of Old Kingdom decline is archaeologically evident, but the precise dating of individual years remains uncertain. Uncertainty of ±100–150 years is realistic.",
       "cross_references": []
     }
   ],
   "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the broader narrative of Old Kingdom decline should be understood as a gradual process rather than a dramatic collapse, and the absolute chronology remains contested.",
   "historiographic_note": "Documentation for this year is sparse and geographically biased toward Mesopotamia and Egypt. The Akkadian and Egyptian written records are elite-focused and do not provide a comprehensive picture of society. The Indus Valley Civilisation's undeciphered script limits historical reconstruction. Regions outside the Mediterranean and Near East are essentially absent from the historical record.",
-  "graph_edges": [
-    {
-      "from": "-2878-001",
-      "to": "-2879-001",
-      "relation": "contemporary_with",
-      "note": "Akkadian trade networks continue under Naram-Sin's reign."
-    }
-  ]
+  "graph_edges": []
 }

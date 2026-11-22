@@ -12,32 +12,6 @@
   ],
   "events": [
     {
-      "id": "-2307-001",
-      "title": "Akkadian military campaigns against the Gutians",
-      "region": "Mesopotamia, Zagros Mountains",
-      "coordinates_approx": "35.5, 43.0",
-      "category": "military",
-      "description": "Naram-Sin's inscriptions document ongoing military campaigns against the Gutians, a highland people from the Zagros Mountains. These campaigns are costly and require significant military resources. Later texts, particularly the 'Curse of Akkad,' suggest that these campaigns overextend the empire's resources and contribute to its eventual collapse. The Gutians are portrayed in Akkadian sources as barbarian invaders, though archaeological evidence suggests a more complex picture of cultural interaction and conflict.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Royal inscriptions of Naram-Sin",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "The Curse of Akkad (Sumerian composition, later compilation)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's campaigns against the Gutians are well-attested in inscriptions, but specific years are not documented.",
-      "cross_references": []
-    },
-    {
       "id": "-2307-002",
       "title": "Collapse of central authority in Egypt accelerates",
       "region": "Egypt",
@@ -88,15 +62,9 @@
       "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The 'Curse of Akkad' is a later literary composition (Old Babylonian period, c. 1900\u20131600 BCE) that attributes the fall of the Akkadian Empire to divine punishment for Naram-Sin's hubris. Modern scholarship treats this as a literary narrative rather than a historical account, though it may preserve some memory of the empire's collapse. The actual causes of the Akkadian collapse are debated; some scholars emphasize climate change (drought), while others stress military overextension and internal rebellion.",
+  "disconfirming_evidence": "The 'Curse of Akkad' is a later literary composition (Old Babylonian period, c. 1900–1600 BCE) that attributes the fall of the Akkadian Empire to divine punishment for Naram-Sin's hubris. Modern scholarship treats this as a literary narrative rather than a historical account, though it may preserve some memory of the empire's collapse. The actual causes of the Akkadian collapse are debated; some scholars emphasize climate change (drought), while others stress military overextension and internal rebellion.",
   "historiographic_note": "Sources for this year remain limited to royal inscriptions, administrative texts, and archaeological evidence. The 'Curse of Akkad,' while culturally significant, is a later literary composition and should not be treated as a contemporary historical account. The perspective of non-elite populations remains largely absent.",
   "graph_edges": [
-    {
-      "from": "-2307-001",
-      "to": "-2305-001",
-      "relation": "led_to",
-      "note": "Akkadian military overextension contributes to the empire's imminent collapse"
-    },
     {
       "from": "-2307-002",
       "to": "-2305-002",

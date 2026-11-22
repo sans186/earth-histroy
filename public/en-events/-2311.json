@@ -1,7 +1,7 @@
 {
   "year": -2311,
   "year_label": "2311 BCE",
-  "era_context": "The Old Kingdom of Egypt is in terminal decline; the Sixth Dynasty (c. 2278\u20132184 BCE) is fragmenting into regional power bases. Simultaneously, the Akkadian Empire under Naram-Sin (r. 2254\u20132218 BCE) is at its territorial zenith in Mesopotamia, controlling trade routes from the Persian Gulf to the Levantine coast. In the Indus Valley, the Mature Harappan civilization (c. 2600\u20131900 BCE) is flourishing with established urban centres and long-distance trade networks. The Early Bronze Age continues across the Levant and Anatolia.",
+  "era_context": "The Old Kingdom of Egypt is in terminal decline; the Sixth Dynasty (c. 2278–2184 BCE) is fragmenting into regional power bases. Simultaneously, the Akkadian Empire under Naram-Sin (r. 2254–2218 BCE) is at its territorial zenith in Mesopotamia, controlling trade routes from the Persian Gulf to the Levantine coast. In the Indus Valley, the Mature Harappan civilization (c. 2600–1900 BCE) is flourishing with established urban centres and long-distance trade networks. The Early Bronze Age continues across the Levant and Anatolia.",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa (limited archaeological record for this period)",
@@ -10,32 +10,6 @@
     "Oceania and the Pacific (no written records; archaeological dating uncertain)"
   ],
   "events": [
-    {
-      "id": "-2311-001",
-      "title": "Akkadian administrative consolidation under Naram-Sin",
-      "region": "Mesopotamia, Akkad",
-      "coordinates_approx": "33.0, 44.0",
-      "category": "political",
-      "description": "Naram-Sin continues to consolidate Akkadian control over Mesopotamia and adjacent regions. He establishes himself as a god-king, a radical departure from earlier Akkadian practice, as evidenced by inscriptions and the famous Naram-Sin Victory Stela. This deification serves to legitimize his rule and centralize authority. However, modern scholars debate whether this was a genuine religious innovation or a propagandistic exaggeration. The administrative system shows signs of strain from maintaining such a vast empire.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad, r. 2254\u20132218 BCE)"
-      ],
-      "sources": [
-        {
-          "name": "Naram-Sin Victory Stela",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Royal inscriptions and administrative texts",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's reign and his deification are well-attested. The specific year -2311 falls within his reign, but individual administrative reforms cannot be precisely dated to a single year.",
-      "cross_references": []
-    },
     {
       "id": "-2311-002",
       "title": "Harappan trade networks at maximum extent",
@@ -91,12 +65,6 @@
   "disconfirming_evidence": "The precise dating of events in -2311 is highly uncertain. Egyptian chronology for the Sixth Dynasty remains contested, with some scholars proposing dates significantly different from the conventional timeline. The significance of Naram-Sin's deification is debated: some scholars view it as a genuine religious innovation, while others see it as propaganda with limited actual religious impact. The causes of Old Kingdom decline remain disputed, with recent paleoclimate studies suggesting environmental stress but not catastrophic collapse.",
   "historiographic_note": "Documentation for -2311 is sparse and relies heavily on royal inscriptions and administrative texts, which are inherently biased toward elite perspectives. Egyptian chronology is particularly uncertain for this period. The archaeological record is unevenly distributed, with the Near East and South Asia better represented than other regions. Surviving sources neglect the lives of ordinary people and focus on monumental construction and military campaigns.",
   "graph_edges": [
-    {
-      "from": "-2311-001",
-      "to": "-2310-001",
-      "relation": "contemporary_with",
-      "note": "Naram-Sin's consolidation and military campaigns are concurrent"
-    },
     {
       "from": "-2311-003",
       "to": "-2180-001",

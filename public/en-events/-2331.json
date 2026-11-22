@@ -12,32 +12,6 @@
   ],
   "events": [
     {
-      "id": "-2331-001",
-      "title": "Naram-Sin consolidates Akkadian control over Mesopotamia",
-      "region": "Mesopotamia",
-      "coordinates_approx": "33.0, 44.0",
-      "category": "political",
-      "description": "Naram-Sin strengthens Akkadian administrative control over Mesopotamian city-states, appointing governors and standardizing tribute collection. He deifies himself, becoming the first Mesopotamian ruler to claim divine status during his lifetime. This religious innovation is documented in inscriptions and serves to legitimize his authority. The consolidation involves suppressing rebellions and reorganizing the bureaucracy to centralize power.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad, r. 2254\u20132218 BCE)"
-      ],
-      "sources": [
-        {
-          "name": "Naram-Sin's inscriptions and administrative records",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Akkadian omen texts and religious inscriptions",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's consolidation of power and self-deification are well-attested in inscriptions. The specific year -2331 is assigned as a representative year within his reign; individual administrative reforms are not dated to specific years in surviving sources.",
-      "cross_references": []
-    },
-    {
       "id": "-2331-002",
       "title": "Pepi II's administrative fragmentation accelerates",
       "region": "Egypt",
@@ -91,12 +65,6 @@
   "disconfirming_evidence": "The extent of Naram-Sin's actual territorial control is debated; some scholars argue that his inscriptions exaggerate his conquests and that many cities remained semi-autonomous. The identification of 'Meluhha' with the Indus Valley, while widely accepted, is not definitively proven and remains a matter of scholarly debate.",
   "historiographic_note": "The historical record for -2331 is sparse and relies heavily on inscriptions and administrative documents from Mesopotamia and Egypt. For the Indus Valley, the record is primarily archaeological. The absence of deciphered written records for the Indus Valley limits understanding of specific events. The record is biased toward literate, centralized states; decentralized or non-literate societies are underrepresented.",
   "graph_edges": [
-    {
-      "from": "-2331-001",
-      "to": "-2330-001",
-      "relation": "contemporary_with",
-      "note": "Naram-Sin's consolidation and military campaigns occur simultaneously"
-    },
     {
       "from": "-2331-002",
       "to": "-2184-001",

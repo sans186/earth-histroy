@@ -12,34 +12,6 @@
   ],
   "events": [
     {
-      "id": "-2805-001",
-      "title": "Naram-Sin's Reign Approaches Its End",
-      "region": "Mesopotamia",
-      "coordinates_approx": "33.0, 44.0",
-      "category": "political",
-      "description": "Naram-Sin's reign is in its final years (he will die c. 2218 BCE in conventional chronology). Despite his military successes and administrative reforms, the Akkadian Empire is fragmenting. Vassal states are rebelling, and the central government's ability to maintain control is declining. The empire that Naram-Sin inherited and expanded is beginning to unravel, though the full collapse will occur within a generation after his death.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Royal inscriptions and administrative texts from Akkad",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Archaeological evidence of settlement patterns and destruction layers",
-          "type": "archaeological",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's reign is well-attested, but the precise chronology within his reign is uncertain. The collapse of the Akkadian Empire is well-documented, but the timing of individual events is difficult to establish.",
-      "cross_references": [
-        "Related to -2809-001, -2808-001, -2807-001 (Naram-Sin's reign)"
-      ]
-    },
-    {
       "id": "-2805-002",
       "title": "First Intermediate Period Begins in Egypt",
       "region": "Egypt",
@@ -93,12 +65,6 @@
   "disconfirming_evidence": "The extent to which Naram-Sin's reign was successful is debated. Some scholars argue that the Naram-Sin Stele and other inscriptions exaggerate his military successes and that the Akkadian Empire was already in decline during his reign. The dating of the Akkadian collapse is also uncertain; some scholars place it c. 2200 BCE, while others argue for dates as late as c. 2150 BCE. The causes of the Akkadian collapse remain debated, with scholars emphasizing climate change, military defeat, internal rebellion, or some combination of these factors. The dating of the First Intermediate Period is also uncertain, with scholars debating whether it began c. 2180 BCE or c. 2150 BCE.",
   "historiographic_note": "The historical record for this year is sparse and heavily dependent on Akkadian royal inscriptions and Egyptian administrative texts. Archaeological evidence of settlement patterns, destruction layers, and resource use provides important context, but interpretation remains contested. The Indus Valley Civilization's stability during this period is notable and suggests that the crises affecting Mesopotamia and Egypt did not have global impact. The broader world remains largely invisible in surviving sources. This period represents one of the earliest examples of systemic state collapse, and its causes and mechanisms remain subjects of scholarly debate.",
   "graph_edges": [
-    {
-      "from": "-2805-001",
-      "to": "-2800-AKKADIAN_COLLAPSE",
-      "relation": "led_to",
-      "note": "Naram-Sin's reign ended with the Akkadian Empire on the verge of collapse, which occurred within a generation."
-    },
     {
       "from": "-2805-002",
       "to": "-2750-EGYPTIAN_MIDDLE_KINGDOM",

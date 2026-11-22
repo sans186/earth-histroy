@@ -39,34 +39,6 @@
       ]
     },
     {
-      "id": "-2351-002",
-      "title": "Akkadian Empire: zenith of territorial control; internal strains mounting",
-      "region": "Mesopotamia, Levant, Upper Mesopotamia, Zagros",
-      "coordinates_approx": "33.3, 44.2",
-      "category": "military",
-      "description": "Naram-Sin's empire reaches its maximum territorial extent. However, rebellions in conquered territories increase in frequency and intensity. The Gutians, a highland people from the Zagros, begin to pose a serious threat to Akkadian control. Administrative costs of maintaining such a vast empire strain resources. Military campaigns become more frequent and costly. The empire remains powerful, but the seeds of its collapse are being sown.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian royal inscriptions",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Administrative texts and ration lists",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's reign is well-documented, but specific year-to-year events are not always precisely dated.",
-      "cross_references": [
-        "-2354-002"
-      ]
-    },
-    {
       "id": "-2351-003",
       "title": "Indus Valley Civilization: mature phase continues; no evidence of disruption",
       "region": "Indus Valley",
@@ -94,19 +66,13 @@
     }
   ],
   "disconfirming_evidence": "No specific disconfirming evidence for -2351 identified. The patterns described are consistent with the broader historical trajectory of this period.",
-  "historiographic_note": "The year -2351 remains undocumented in specific terms. The entries describe the general historical context and trends. Ancient chronologies for the third millennium BCE are uncertain to within \u00b15\u201310 years, and year-to-year documentation is rare. The historical record for this year is essentially identical to -2354, -2353, and -2352.",
+  "historiographic_note": "The year -2351 remains undocumented in specific terms. The entries describe the general historical context and trends. Ancient chronologies for the third millennium BCE are uncertain to within ±5–10 years, and year-to-year documentation is rare. The historical record for this year is essentially identical to -2354, -2353, and -2352.",
   "graph_edges": [
     {
       "from": "-2351-001",
       "to": "-2352-001",
       "relation": "contemporary_with",
       "note": "Continuation of Egyptian decline"
-    },
-    {
-      "from": "-2351-002",
-      "to": "-2352-002",
-      "relation": "contemporary_with",
-      "note": "Continuation of Akkadian consolidation"
     },
     {
       "from": "-2351-003",

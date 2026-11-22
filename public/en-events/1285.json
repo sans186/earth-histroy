@@ -16,7 +16,7 @@
       "region": "Kingdom of France",
       "coordinates_approx": "48.8, 2.3",
       "category": "political",
-      "description": "Philip IV (Philip the Fair), King of France (r. 1285\u20131314), ascended to the throne in 1285 following the death of his father Philip III. Philip IV's reign marked a significant expansion of royal power in France, including conflicts with the papacy, the suppression of the Knights Templar, and the consolidation of centralized authority. In 1285, he began implementing policies that would strengthen the French monarchy and establish France as a major European power.",
+      "description": "Philip IV (Philip the Fair), King of France (r. 1285–1314), ascended to the throne in 1285 following the death of his father Philip III. Philip IV's reign marked a significant expansion of royal power in France, including conflicts with the papacy, the suppression of the Knights Templar, and the consolidation of centralized authority. In 1285, he began implementing policies that would strengthen the French monarchy and establish France as a major European power.",
       "key_figures": [
         "Philip IV (King of France)",
         "Philip III (deceased father)"
@@ -91,9 +91,7 @@
       ],
       "certainty": "probable",
       "certainty_note": "Yuan administrative reforms are documented in official histories and contemporary accounts by Marco Polo, though specific reforms in 1285 are not always precisely dated.",
-      "cross_references": [
-        "1286-001 (Kublai Khan's death and succession)"
-      ]
+      "cross_references": []
     },
     {
       "id": "1285-004",
@@ -101,9 +99,9 @@
       "region": "Japan (Kamakura Shogunate)",
       "coordinates_approx": "35.7, 139.7",
       "category": "military",
-      "description": "The second Mongol invasion of Japan (Koan campaign, 1281\u20131286) continued in 1285 with sporadic raids and military operations. The Kamakura Shogunate maintained its defensive posture against Mongol incursions, with Japanese forces conducting naval patrols and fortifying coastal positions. By 1285, the intensity of the invasion had diminished, though the threat remained until the campaign's conclusion in 1286.",
+      "description": "The second Mongol invasion of Japan (Koan campaign, 1281–1286) continued in 1285 with sporadic raids and military operations. The Kamakura Shogunate maintained its defensive posture against Mongol incursions, with Japanese forces conducting naval patrols and fortifying coastal positions. By 1285, the intensity of the invasion had diminished, though the threat remained until the campaign's conclusion in 1286.",
       "key_figures": [
-        "H\u014dj\u014d Tokimune (Kamakura regent)",
+        "Hōjō Tokimune (Kamakura regent)",
         "Kublai Khan (Yuan emperor)"
       ],
       "sources": [
@@ -122,36 +120,6 @@
       "certainty_note": "The Koan campaign is well-documented, though specific events in 1285 are less detailed than the initial invasion in 1281.",
       "cross_references": [
         "1286-004 (Koan campaign concludes)"
-      ]
-    },
-    {
-      "id": "1285-005",
-      "title": "Scottish succession crisis following Alexander III's death",
-      "region": "Scotland",
-      "coordinates_approx": "56.0, -3.5",
-      "category": "political",
-      "description": "In the aftermath of Alexander III's death in 1286 (or late 1285 by some sources), Scotland faced a succession crisis. The Scottish nobility debated the succession of Margaret, Maid of Norway, Alexander III's young granddaughter. This period of uncertainty invited English intervention and set the stage for the Scottish Wars of Independence. In 1285, the Scottish kingdom was in a state of political flux, with various factions vying for influence.",
-      "key_figures": [
-        "Alexander III (deceased King of Scotland)",
-        "Margaret, Maid of Norway (heir)",
-        "Scottish nobility"
-      ],
-      "sources": [
-        {
-          "name": "Chronicle of John of Fordun",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "English royal records",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "Alexander III's death is sometimes dated to late 1285 or early 1286. The succession crisis is well-documented, though the exact timeline varies by source.",
-      "cross_references": [
-        "1286-005 (Scottish succession crisis intensifies)"
       ]
     }
   ],
@@ -180,7 +148,7 @@
       "from": "1285-004",
       "to": "1286-004",
       "relation": "part_of",
-      "note": "Continuation of the Koan campaign (1281\u20131286)"
+      "note": "Continuation of the Koan campaign (1281–1286)"
     },
     {
       "from": "1285-005",

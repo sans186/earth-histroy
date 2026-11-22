@@ -1,81 +1,11 @@
 {
   "year": 604,
-  "year_label": "公元前604年",
-  "era_context": "尼布甲尼撒二世统治第二年。巴比伦在卡尔凯美什胜利后巩固对黎凡特的控制。埃及仍处于第二十六王朝。希腊古风时期持续；雅典的梭伦改革可能刚刚发生（传统日期公元前594年，但不确凿）。中国仍处于春秋时期的分裂之中。",
-  "documentation_level": "中等",
-  "geographic_coverage_gaps": [
-    "撒哈拉以南非洲",
-    "北欧",
-    "中美洲",
-    "东亚（同步有限）"
-  ],
-  "events": [
-    {
-      "id": "604-001",
-      "title": "尼布甲尼撒二世在黎凡特的战役",
-      "region": "黎凡特（叙利亚、腓尼基、巴勒斯坦）",
-      "coordinates_approx": null,
-      "category": "military",
-      "description": "尼布甲尼撒二世继续军事巩固黎凡特，对多个城邦与王国用兵以确立巴比伦宗主权。巴比伦编年史记录了该时期在这个地区的军事行动。这些战役是更广泛战略的一部分，旨在确保巴比伦对贸易路线的控制，并阻止埃及或其他地区力量重新施加影响。",
-      "key_figures": [
-        "尼布甲尼撒二世（巴比伦王）"
-      ],
-      "sources": [
-        {
-          "name": "巴比伦编年史（BM 21946）",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "巴比伦编年史确认了这一时期的军事活动，尽管公元前604年的具体细节稀疏。确切目标与结果在现存来源中未详细记载。",
-      "cross_references": [
-        "源自605-001的更广泛战役序列的一部分"
-      ]
-    },
-    {
-      "id": "604-002",
-      "title": "巴比伦军队摧毁亚实基伦",
-      "region": "亚实基伦（黎凡特，今以色列）",
-      "coordinates_approx": "31.67, 34.27",
-      "category": "military",
-      "description": "腓尼基城市亚实基伦被尼布甲尼撒二世的军队围困并摧毁。该城曾是一个主要港口与商业中心。其毁灭在巴比伦编年史与考古证据中均有记载。该城未立即重建，代表了对黎凡特贸易网络的重大破坏。",
-      "key_figures": [
-        "尼布甲尼撒二世（巴比伦王）"
-      ],
-      "sources": [
-        {
-          "name": "巴比伦编年史（BM 21946）",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "亚实基伦发掘的考古证据",
-          "type": "archaeological",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "文字与考古证据均确认了这一时期亚实基伦的毁灭。巴比伦编年史明确记录了该事件。",
-      "cross_references": [
-        "604-001的一部分（黎凡特战役）"
-      ]
-    }
-  ],
-  "disconfirming_evidence": "尼布甲尼撒早期战役的确切年表有些不确定。部分来源将公元前605–603年的事件混为一谈。巴比伦编年史是主要来源，但内容简短，未提供详细叙事。没有重大否定性证据与所列事件相矛盾，但可用的细节水平有限。",
-  "historiographic_note": "公元前604年的历史记录几乎完全依赖于巴比伦编年史，该编年史简短且为行政性质。来自被毁城市（如亚实基伦）的考古证据提供了佐证，但无法提供精确定年。被征服民族的视角在现存来源中基本缺席。埃及与希腊在该时期的来源稀疏，且常为后世汇编。",
-  "graph_edges": [
-    {
-      "from": "604-002",
-      "to": "597-001",
-      "relation": "part_of",
-      "note": "亚实基伦的毁灭是巴比伦在耶路撒冷围城前更广泛巩固的一部分"
-    },
-    {
-      "from": "604-001",
-      "to": "605-001",
-      "relation": "led_to",
-      "note": "卡尔凯美什胜利使这些后续战役成为可能"
-    }
-  ]
+  "year_label": "公元604年",
+  "era_context": "",
+  "documentation_level": "极少",
+  "geographic_coverage_gaps": [],
+  "events": [],
+  "disconfirming_evidence": "",
+  "historiographic_note": "",
+  "graph_edges": []
 }

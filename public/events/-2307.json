@@ -1,7 +1,7 @@
 {
   "year": -2307,
   "year_label": "公元前2307年",
-  "era_context": "纳拉姆辛治下的阿卡德帝国正接近其统治的末期。埃及古王国处于最后阶段，中央权威严重削弱。印度河流域文明继续处于成熟阶段。在中国，商朝正在巩固其权力基础。",
+  "era_context": "",
   "documentation_level": "稀疏",
   "geographic_coverage_gaps": [
     "撒哈拉以南非洲",
@@ -11,32 +11,6 @@
     "中亚"
   ],
   "events": [
-    {
-      "id": "-2307-001",
-      "title": "阿卡德对古提人的军事战役",
-      "region": "美索不达米亚，扎格罗斯山脉",
-      "coordinates_approx": "35.5, 43.0",
-      "category": "military",
-      "description": "纳拉姆辛的铭文记载了针对来自扎格罗斯山脉的高地民族古提人的持续军事战役。这些战役代价高昂，需要大量军事资源。后世的文书记录，特别是《阿卡德的诅咒》，暗示这些战役过度延伸了帝国的资源，并导致其最终崩溃。在阿卡德资料中，古提人被描绘成蛮族入侵者，但考古证据表明文化互动和冲突更为复杂。",
-      "key_figures": [
-        "纳拉姆辛（阿卡德王）"
-      ],
-      "sources": [
-        {
-          "name": "纳拉姆辛的王室铭文",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "《阿卡德的诅咒》（苏美尔语作品，后世编纂）",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "纳拉姆辛针对古提人的战役在铭文中有充分证据，但具体年份没有记录。",
-      "cross_references": []
-    },
     {
       "id": "-2307-002",
       "title": "埃及中央权威崩溃加速",

@@ -1,7 +1,7 @@
 {
   "year": -2422,
   "year_label": "公元前2422年",
-  "era_context": "埃及古王国在佩皮二世治下继续；阿卡德帝国在纳拉姆辛治下仍主导美索不达米亚；成熟哈拉帕文明在印度河流域处于鼎盛。这一时期代表了数个主要文明的顶峰，但潜在的压力（气候、资源枯竭、政治分裂）正在累积。",
+  "era_context": "",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "撒哈拉以南非洲",
@@ -11,34 +11,6 @@
     "东亚"
   ],
   "events": [
-    {
-      "id": "-2422-001",
-      "title": "阿卡德帝国在安纳托利亚和黎凡特的军事行动",
-      "region": "安纳托利亚、黎凡特、美索不达米亚",
-      "coordinates_approx": "35.0, 40.0",
-      "category": "military",
-      "description": "纳拉姆辛的铭文记录了对各个安纳托利亚和黎凡特族群的军事征伐。这些行动被描绘为胜利，但实际领土征服的范围和阿卡德控制的持续时间仍有争议。这些战事可能是出于确保贸易路线和获取美索不达米亚所缺资源（木材、金属、石料）的需要。",
-      "key_figures": [
-        "纳拉姆辛（阿卡德之王）"
-      ],
-      "sources": [
-        {
-          "name": "纳拉姆辛铭文与纳拉姆辛石碑",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "后世美索不达米亚编年史与王表",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "纳拉姆辛的军事行动在同时期铭文中有记载。然而，存世史料无法将单个战役追溯到特定年份。阿卡德控制的范围现代学者存在争议。",
-      "cross_references": [
-        "-2424-001（纳拉姆辛的统治）"
-      ]
-    },
     {
       "id": "-2422-002",
       "title": "哈拉帕城市中心达到人口和发展顶峰",

@@ -1,7 +1,7 @@
 {
   "year": 1306,
   "year_label": "1306 CE",
-  "era_context": "Early 14th century: The Mamluk Sultanate dominates the Eastern Mediterranean and Middle East; the Yuan Dynasty rules China under Tem\u00fcr Khan; the Avignon Papacy is established in southern France; the Kingdom of Scotland is consolidating independence under Robert I (the Bruce); the Ottoman Empire is in its infancy in Anatolia; the Mali Empire is at its height in West Africa.",
+  "era_context": "Early 14th century: The Mamluk Sultanate dominates the Eastern Mediterranean and Middle East; the Yuan Dynasty rules China under Temür Khan; the Avignon Papacy is established in southern France; the Kingdom of Scotland is consolidating independence under Robert I (the Bruce); the Ottoman Empire is in its infancy in Anatolia; the Mali Empire is at its height in West Africa.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa (beyond Mali)",
@@ -46,41 +46,12 @@
       ]
     },
     {
-      "id": "1306-002",
-      "title": "Death of Tem\u00fcr Khan (Khaisan)",
-      "region": "Yuan Dynasty, China",
-      "coordinates_approx": "39.9042, 116.4074",
-      "category": "political",
-      "description": "Tem\u00fcr Khan (also known as Khaisan), the third Yuan emperor and grandson of Kublai Khan, died in February 1306 after a reign marked by administrative reforms and attempts to stabilize the Mongol-ruled Chinese state. His death triggered a succession crisis that would destabilize the Yuan Dynasty for decades. Tem\u00fcr had promoted Confucian scholarship and attempted to restore the civil service examination system, but his reign was also marked by factional conflicts among Mongol nobility. His death is a watershed moment in Yuan history, leading to the reign of his brother Ayurbarwada and subsequent fragmentation of imperial authority.",
-      "key_figures": [
-        "Tem\u00fcr Khan / Khaisan (Yuan Emperor)",
-        "Ayurbarwada (successor, brother)"
-      ],
-      "sources": [
-        {
-          "name": "Yuan Shi (Official History of the Yuan Dynasty), compiled 14th century",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Contemporary Chinese court records",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The death of Tem\u00fcr Khan in 1306 is well-documented in Yuan official histories and court records. The date is secure.",
-      "cross_references": [
-        "1307-001 (Ayurbarwada's reign begins)"
-      ]
-    },
-    {
       "id": "1306-003",
       "title": "Robert I (the Bruce) Crowned King of Scotland",
       "region": "Kingdom of Scotland",
       "coordinates_approx": "56.1965, -3.5159",
       "category": "political",
-      "description": "Robert I, known as Robert the Bruce, was crowned King of Scotland in March 1306 at Scone, following his murder of John Comyn and his claim to the Scottish throne. This coronation was a pivotal moment in Scottish independence, though Robert's position was initially precarious\u2014he was excommunicated by the Pope and faced English military pressure from Edward I. The coronation represented the consolidation of Scottish resistance to English overlordship and initiated a decade-long struggle that would culminate in Scottish victory at Bannockburn (1314). Robert's reign fundamentally reshaped the political map of Britain.",
+      "description": "Robert I, known as Robert the Bruce, was crowned King of Scotland in March 1306 at Scone, following his murder of John Comyn and his claim to the Scottish throne. This coronation was a pivotal moment in Scottish independence, though Robert's position was initially precarious—he was excommunicated by the Pope and faced English military pressure from Edward I. The coronation represented the consolidation of Scottish resistance to English overlordship and initiated a decade-long struggle that would culminate in Scottish victory at Bannockburn (1314). Robert's reign fundamentally reshaped the political map of Britain.",
       "key_figures": [
         "Robert I (the Bruce) (King of Scotland)",
         "John Comyn (murdered rival)",
@@ -122,7 +93,7 @@
       ],
       "sources": [
         {
-          "name": "Ottoman chronicles: A\u015f\u0131kpa\u015fazade, Menaqib-i Osman Bey",
+          "name": "Ottoman chronicles: Aşıkpaşazade, Menaqib-i Osman Bey",
           "type": "later_compilation",
           "contemporary": false
         },
@@ -149,7 +120,7 @@
       "region": "Papal States / Kingdom of France",
       "coordinates_approx": "43.9505, 4.8055",
       "category": "religious",
-      "description": "Pope Clement V, under pressure from King Philip IV of France and facing instability in Rome, relocated the papal seat from Rome to Avignon in southern France. This move, formalized in 1309 but initiated in 1306, began the period known as the Avignon Papacy (1309\u20131377), during which seven successive popes resided in Avignon rather than Rome. The relocation was controversial and symbolized the increasing influence of French monarchy over papal affairs. It also contributed to the fragmentation of papal authority and the eventual Western Schism. The move reflected broader shifts in European political power toward centralized monarchies.",
+      "description": "Pope Clement V, under pressure from King Philip IV of France and facing instability in Rome, relocated the papal seat from Rome to Avignon in southern France. This move, formalized in 1309 but initiated in 1306, began the period known as the Avignon Papacy (1309–1377), during which seven successive popes resided in Avignon rather than Rome. The relocation was controversial and symbolized the increasing influence of French monarchy over papal affairs. It also contributed to the fragmentation of papal authority and the eventual Western Schism. The move reflected broader shifts in European political power toward centralized monarchies.",
       "key_figures": [
         "Pope Clement V (Papacy)",
         "Philip IV of France (King)"
@@ -181,12 +152,6 @@
       "to": "1312-001",
       "relation": "led_to",
       "note": "Templar arrests led to formal dissolution at Council of Vienne"
-    },
-    {
-      "from": "1306-002",
-      "to": "1307-001",
-      "relation": "led_to",
-      "note": "Tem\u00fcr Khan's death triggered succession crisis and Ayurbarwada's reign"
     },
     {
       "from": "1306-003",

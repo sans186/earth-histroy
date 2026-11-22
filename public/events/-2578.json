@@ -1,8 +1,8 @@
 {
   "year": -2578,
   "year_label": "公元前2578年",
-  "era_context": "埃及古王国最后阶段（第六王朝）的延续；纳拉姆辛统治下的阿卡德帝国在美索不达米亚保持主导地位。印度河流域文明继续其城市成熟期。在中国，为传统夏朝时期（考古学上未证实）。",
-  "documentation_level": "稀少",
+  "era_context": "",
+  "documentation_level": "极少",
   "geographic_coverage_gaps": [
     "撒哈拉以南非洲",
     "北欧",
@@ -10,35 +10,8 @@
     "太平洋岛屿",
     "中亚（文字记录有限）"
   ],
-  "events": [
-    {
-      "id": "-2578-001",
-      "title": "纳拉姆辛治下阿卡德行政持续巩固",
-      "region": "美索不达米亚，阿卡德帝国",
-      "coordinates_approx": "33.3, 44.4",
-      "category": "political",
-      "description": "纳拉姆辛的统治继续，伴随行政改革和对被征服领土的巩固。楔形文字记录显示阿卡德语被确立为整个帝国行政的通用语，在许多官方语境中取代了苏美尔语。这一语言转变具有深远的文化和政治影响，标志着阿卡德语精英的上升。",
-      "key_figures": [
-        "纳拉姆辛（阿卡德之王）"
-      ],
-      "sources": [
-        {
-          "name": "阿卡德行政楔形文字泥板",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "纳拉姆辛时期的铭文",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "阿卡德的行政巩固在楔形文字记录中有充分证实。由于古代年代学的局限，将年代精确到纳拉姆辛统治期内的特定年份存在±5–10年的不确定性。",
-      "cross_references": []
-    }
-  ],
-  "disconfirming_evidence": "对所列事件未发现具体反证证据。然而，阿卡德语对苏美尔语的语言取代程度存在争议；一些学者认为苏美尔语在某些语境中，特别是宗教和文学语境中，仍保持威望语言地位。",
+  "events": [],
+  "disconfirming_evidence": "",
   "historiographic_note": "这一年与公元前2579年一样，遭受相同的地理和时间偏见。美索不达米亚的记录占主导；埃及、印度河流域和中国的史料要么缺失，要么未能定年到年一级。历史记录深受当时被书写下来并保存下来的内容影响——主要是行政和王室文本。普通人、妇女和非精英阶层的生活基本不可见。",
   "graph_edges": [
     {

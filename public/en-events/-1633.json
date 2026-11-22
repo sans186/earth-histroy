@@ -11,36 +11,6 @@
   ],
   "events": [
     {
-      "id": "-1633-001",
-      "title": "18th Dynasty Egyptian rule",
-      "region": "Egypt, Nile Valley",
-      "coordinates_approx": "26.0, 31.0",
-      "category": "political",
-      "description": "The 18th Dynasty continues its imperial administration. This year falls within the reign of Thutmose III or his successor. The Egyptian state maintains its control over the Nile Valley, Nubia, and the Levant through military and administrative means.",
-      "key_figures": [
-        "Thutmose III or Amenhotep II (Pharaoh)"
-      ],
-      "sources": [
-        {
-          "name": "Egyptian temple inscriptions and administrative records",
-          "type": "epigraphic",
-          "contemporary": false
-        },
-        {
-          "name": "Archaeological evidence from temple sites",
-          "type": "archaeological",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "Chronological uncertainty \u00b15\u201310 years.",
-      "cross_references": [
-        "-1630-001",
-        "-1631-001",
-        "-1632-001"
-      ]
-    },
-    {
       "id": "-1633-002",
       "title": "Hittite empire consolidation",
       "region": "Anatolia, Hittite Empire",
@@ -57,13 +27,13 @@
           "contemporary": false
         },
         {
-          "name": "Archaeological evidence from Bo\u011fazk\u00f6y",
+          "name": "Archaeological evidence from Boğazköy",
           "type": "archaeological",
           "contemporary": false
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Chronological uncertainty \u00b120\u201330 years.",
+      "certainty_note": "Chronological uncertainty ±20–30 years.",
       "cross_references": [
         "-1630-002",
         "-1631-002",
@@ -93,7 +63,7 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Shang chronology remains debated; uncertainty \u00b150\u2013100 years.",
+      "certainty_note": "Shang chronology remains debated; uncertainty ±50–100 years.",
       "cross_references": [
         "-1630-003",
         "-1631-003",
@@ -104,12 +74,6 @@
   "disconfirming_evidence": "No specific disconfirming evidence for -1633 distinct from -1630, -1631, and -1632.",
   "historiographic_note": "The historical record for -1633 is essentially identical to -1630, -1631, and -1632. Individual years in this period are archaeologically and textually indistinguishable.",
   "graph_edges": [
-    {
-      "from": "-1633-001",
-      "to": "-1632-001",
-      "relation": "contemporary_with",
-      "note": "Same reign period"
-    },
     {
       "from": "-1633-002",
       "to": "-1632-002",

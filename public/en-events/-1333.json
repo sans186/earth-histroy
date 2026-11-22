@@ -13,32 +13,6 @@
   ],
   "events": [
     {
-      "id": "-1333-001",
-      "title": "Ramesses II's military and diplomatic activities",
-      "region": "Egypt, Syria-Palestine, Nubia",
-      "coordinates_approx": "25.0,32.0",
-      "category": "military",
-      "description": "Ramesses II continued his extensive military campaigns and diplomatic efforts to maintain Egyptian control over vassal territories and trade routes. Egyptian forces were active in Syria-Palestine and Nubia, securing resources and tribute. Diplomatic correspondence with the Hittites and other powers was ongoing. These activities were part of a broader strategy to maintain Egypt's position as a dominant power in the eastern Mediterranean and Near East.",
-      "key_figures": [
-        "Ramesses II (Pharaoh of Egypt)"
-      ],
-      "sources": [
-        {
-          "name": "Egyptian temple inscriptions and reliefs",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Historiographic consensus on Ramesses II's reign",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "Ramesses II's military and diplomatic activities are well-attested in general, but specific events in 1334 BCE are not precisely dated in surviving records.",
-      "cross_references": []
-    },
-    {
       "id": "-1333-002",
       "title": "Development of early alphabetic writing in the Levant",
       "region": "Levant, Syria-Palestine",
@@ -66,12 +40,6 @@
   "disconfirming_evidence": "The origins and development of alphabetic writing in the Levant are subjects of ongoing scholarly debate. Some scholars argue for earlier origins (in the 15th century BCE or earlier), while others propose later dates. The relationship between proto-Sinaitic, Phoenician, and other early alphabetic scripts is not fully understood. Additionally, the extent of Ramesses II's actual military success in Syria-Palestine (as opposed to propaganda claims) is debated by scholars.",
   "historiographic_note": "The historical record for 1334 BCE is sparse and heavily dependent on Egyptian official sources, which are subject to royal bias and propagandistic framing. Archaeological evidence from the Levant and Aegean provides important corroboration but is fragmentary. The absence of detailed year-by-year records means that events are often assigned to periods rather than specific years. The record is heavily skewed toward the Mediterranean world and the great powers; vast regions of Asia, Africa, and the Americas are invisible in contemporary written sources.",
   "graph_edges": [
-    {
-      "from": "-1333-001",
-      "to": "-1330-001",
-      "relation": "part_of",
-      "note": "Ramesses II's military campaigns were a continuous feature of his reign"
-    },
     {
       "from": "-1333-002",
       "to": "-1333-001",

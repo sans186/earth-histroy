@@ -33,37 +33,9 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Pepi II's reign is historically attested, but absolute dating is uncertain by \u00b150\u2013100 years. This year is assigned by convention.",
+      "certainty_note": "Pepi II's reign is historically attested, but absolute dating is uncertain by ±50–100 years. This year is assigned by convention.",
       "cross_references": [
         "-2415-001 (Pepi II's reign)"
-      ]
-    },
-    {
-      "id": "-2416-002",
-      "title": "Akkadian military campaigns in the Levant and Anatolia",
-      "region": "Mesopotamia, Levant, Anatolia",
-      "coordinates_approx": "35.0, 40.0",
-      "category": "military",
-      "description": "Naram-Sin's Akkadian forces continue military campaigns to consolidate control over the Levant and possibly Anatolia. Inscriptions record victories over various city-states and mountain peoples. The Akkadian Empire is at its territorial maximum during this period, though maintaining control over such vast territories is becoming increasingly difficult.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian inscriptions and stele",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Cuneiform administrative records",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's military campaigns are well-attested in contemporary inscriptions, but the exact chronology and extent of his conquests are debated by scholars.",
-      "cross_references": [
-        "-2415-002 (Akkadian Empire under Naram-Sin)"
       ]
     },
     {
@@ -106,12 +78,6 @@
       "to": "-2415-001",
       "relation": "contemporary_with",
       "note": "Pepi II's reign continues from the previous year."
-    },
-    {
-      "from": "-2416-002",
-      "to": "-2415-002",
-      "relation": "contemporary_with",
-      "note": "Akkadian military campaigns continue from the previous year."
     },
     {
       "from": "-2416-003",

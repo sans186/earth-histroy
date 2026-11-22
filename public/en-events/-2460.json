@@ -11,32 +11,6 @@
   ],
   "events": [
     {
-      "id": "-2460-001",
-      "title": "Akkad Empire's military and administrative consolidation",
-      "region": "Mesopotamia and the Near East",
-      "coordinates_approx": "32.5, 44.5",
-      "category": "military",
-      "description": "Naram-Sin continues to consolidate Akkadian control over Mesopotamia and surrounding regions through military campaigns and administrative reorganization. The empire's military is well-organized, with standing armies and professional soldiers. Akkadian officials are placed in conquered territories to ensure loyalty and extract tribute. The empire's reach extends from the Persian Gulf to the Mediterranean and from Anatolia to the Arabian Peninsula. This represents an unprecedented level of imperial organization in the ancient Near East.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian royal inscriptions and administrative texts",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Archaeological evidence of Akkadian administrative presence",
-          "type": "archaeological",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The consolidation of the Akkad Empire is well-documented in inscriptions and archaeology, but specific year-by-year events are not recorded. This year falls within Naram-Sin's reign (c. 2254\u20132218 BCE) when such consolidation is known to have occurred.",
-      "cross_references": []
-    },
-    {
       "id": "-2460-002",
       "title": "Indus Valley Civilization mature phase stability",
       "region": "Indus Valley (modern Pakistan and northwest India)",
@@ -86,19 +60,13 @@
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The general trend of Fifth Dynasty decline is well-documented, but specific events in -2460 are not individually attested. The dating of the Fifth Dynasty has some uncertainty (\u00b110\u201320 years).",
+      "certainty_note": "The general trend of Fifth Dynasty decline is well-documented, but specific events in -2460 are not individually attested. The dating of the Fifth Dynasty has some uncertainty (±10–20 years).",
       "cross_references": []
     }
   ],
   "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, some scholars debate the extent of Akkadian territorial control; inscriptions may exaggerate the degree of direct control versus nominal suzerainty in peripheral regions. Additionally, the stability of the Indus Valley Civilization is sometimes questioned by scholars who point to evidence of environmental stress and gradual decline beginning in this period, though the civilization does not collapse until c. 1900 BCE.",
-  "historiographic_note": "The historical record for -2460 is sparse and regionally fragmented. Mesopotamian sources (Akkadian inscriptions) are the most detailed but are propagandistic. Egyptian sources are administrative and religious. The Indus Valley is archaeologically rich but textually silent. The rest of the world is essentially undocumented in written sources. The chronology of this period remains debated, with different scholarly systems producing \u00b1100-year variations for Mesopotamia.",
+  "historiographic_note": "The historical record for -2460 is sparse and regionally fragmented. Mesopotamian sources (Akkadian inscriptions) are the most detailed but are propagandistic. Egyptian sources are administrative and religious. The Indus Valley is archaeologically rich but textually silent. The rest of the world is essentially undocumented in written sources. The chronology of this period remains debated, with different scholarly systems producing ±100-year variations for Mesopotamia.",
   "graph_edges": [
-    {
-      "from": "-2460-001",
-      "to": "-2218-AKKAD_COLLAPSE",
-      "relation": "led_to",
-      "note": "The Akkad Empire's consolidation is followed by rapid collapse c. 2218 BCE"
-    },
     {
       "from": "-2460-003",
       "to": "-2181-FIRST_INTERMEDIATE_PERIOD",

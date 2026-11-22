@@ -12,32 +12,6 @@
   ],
   "events": [
     {
-      "id": "-2392-001",
-      "title": "Akkadian military campaigns in Elam and the Zagros",
-      "region": "Mesopotamia, Elam, Zagros Mountains",
-      "coordinates_approx": "32.0, 49.0",
-      "category": "military",
-      "description": "Naram-Sin's inscriptions document military campaigns against Elam and the Zagros mountain peoples. These campaigns were motivated by control of trade routes and access to valuable resources (timber, metals, stone). The campaigns were costly and required significant military mobilization. Elamite resistance was persistent, and the Akkadian victories were not always permanent or decisive.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Naram-Sin inscriptions and stele",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Later Mesopotamian chronicles",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's campaigns against Elam are well-documented in inscriptions, but precise dating to individual years is not possible.",
-      "cross_references": []
-    },
-    {
       "id": "-2392-002",
       "title": "Indus Valley trade networks at maximum extent",
       "region": "Indus Valley, Mesopotamia, Persian Gulf, Arabian Peninsula",
@@ -62,15 +36,9 @@
       "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The nature and extent of Akkadian control over Elam is debated. Some scholars argue that Naram-Sin's inscriptions exaggerate his victories and that Elamite independence was never fully suppressed. The Indus Valley trade networks' organization and the degree of centralized control over trade are also debated\u2014some scholars argue for decentralized, merchant-driven trade rather than state-controlled commerce.",
+  "disconfirming_evidence": "The nature and extent of Akkadian control over Elam is debated. Some scholars argue that Naram-Sin's inscriptions exaggerate his victories and that Elamite independence was never fully suppressed. The Indus Valley trade networks' organization and the degree of centralized control over trade are also debated—some scholars argue for decentralized, merchant-driven trade rather than state-controlled commerce.",
   "historiographic_note": "The record for -2392 is sparse and dominated by Mesopotamian and Egyptian elite sources. The Akkadian inscriptions are propagandistic and focus on military achievements. The Indus Valley Civilization's undeciphered script means that contemporary records cannot be accessed. The absence of written records from most of the world means that this year is essentially invisible outside of three civilizational zones. Archaeological evidence provides some insight into economic and social structures, but interpretation is limited.",
   "graph_edges": [
-    {
-      "from": "-2392-001",
-      "to": "-2200-001",
-      "relation": "led_to",
-      "note": "Naram-Sin's costly military campaigns contributed to the Akkadian Empire's eventual collapse"
-    },
     {
       "from": "-2392-002",
       "to": "-1900-001",

@@ -11,36 +11,6 @@
   ],
   "events": [
     {
-      "id": "-1321-001",
-      "title": "Egyptian-Hittite tensions escalate in Syria and the Levant",
-      "region": "Egypt, Hittite Empire, Syria, Levant",
-      "coordinates_approx": "33.5,32.0",
-      "category": "military",
-      "description": "Tensions between Ramesses II and Muwatalli II reach a critical point as both powers maneuver for control of Syria and the Levant. Egyptian forces advance northward while Hittite forces move southward. Both powers mobilize their armies and prepare for major military confrontation. This escalation of tensions is documented in both Egyptian and Hittite sources and represents the prelude to the Battle of Kadesh (traditionally dated to c. 1274 BCE, though some scholars place it earlier).",
-      "key_figures": [
-        "Ramesses II (Pharaoh of Egypt)",
-        "Muwatalli II (Hittite King)"
-      ],
-      "sources": [
-        {
-          "name": "Egyptian temple reliefs and administrative records",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Hittite royal inscriptions and clay tablets",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The escalation of Egyptian-Hittite tensions is well-documented, but precise year-by-year dating is uncertain (\u00b13\u20135 years).",
-      "cross_references": [
-        "-1322-001",
-        "-1320-002"
-      ]
-    },
-    {
       "id": "-1321-002",
       "title": "Mycenaean trade and cultural exchange with the Levant",
       "region": "Greece, Aegean, Levant, Egypt",
@@ -94,12 +64,6 @@
   "disconfirming_evidence": "The dating of the escalation of Egyptian-Hittite tensions is disputed. Some scholars place the major military confrontation (Battle of Kadesh) earlier than traditionally dated, which would affect the interpretation of events in this year. Additionally, the characterization of Mycenaean trade as uniformly prosperous has been questioned by recent scholarship, which notes evidence of disruption and instability in some regions during this period.",
   "historiographic_note": "This year's record is dominated by sources from literate imperial powers. Egyptian and Hittite sources present official narratives that may exaggerate military preparations and downplay diplomatic failures. Mycenaean sources are limited to archaeological evidence and administrative tablets. Chinese sources are abundant but compiled much later. The vast majority of human societies in this year are invisible in the historical record.",
   "graph_edges": [
-    {
-      "from": "-1321-001",
-      "to": "-1320-002",
-      "relation": "led_to",
-      "note": "Escalating tensions between Egypt and the Hittites lead to major military confrontation"
-    },
     {
       "from": "-1321-002",
       "to": "-1320-001",

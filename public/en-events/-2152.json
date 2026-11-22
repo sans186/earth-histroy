@@ -17,7 +17,7 @@
       "region": "Egypt (Nile Valley)",
       "coordinates_approx": "26.0, 30.5",
       "category": "political",
-      "description": "Pepi II's reign continues to be marked by the erosion of central authority. The pharaoh's ability to command resources, levy taxes, and control provincial governors is diminishing. This period sees the rise of powerful nomarchs who build elaborate tombs and commission their own monuments, a sign of accumulated wealth and independence. The Old Kingdom's characteristic centralized bureaucracy is fragmenting into regional power bases. This process will culminate in the First Intermediate Period (c. 2180\u20132055 BCE) within a generation.",
+      "description": "Pepi II's reign continues to be marked by the erosion of central authority. The pharaoh's ability to command resources, levy taxes, and control provincial governors is diminishing. This period sees the rise of powerful nomarchs who build elaborate tombs and commission their own monuments, a sign of accumulated wealth and independence. The Old Kingdom's characteristic centralized bureaucracy is fragmenting into regional power bases. This process will culminate in the First Intermediate Period (c. 2180–2055 BCE) within a generation.",
       "key_figures": [
         "Pepi II Neferkare (Pharaoh, Sixth Dynasty)"
       ],
@@ -38,35 +38,6 @@
       "cross_references": [
         "Part of -2154-001 (Pepi II's reign)",
         "Precedes -2150-001 (First Intermediate Period)"
-      ]
-    },
-    {
-      "id": "-2152-002",
-      "title": "Akkadian Empire: internal tensions and early signs of decline",
-      "region": "Mesopotamia",
-      "coordinates_approx": "33.3, 44.4",
-      "category": "political",
-      "description": "By the mid-to-late reign of Naram-Sin, the Akkadian Empire is beginning to show signs of internal strain. Rebellions in peripheral regions (Sumer, the Levant) are becoming more frequent and difficult to suppress. The cost of maintaining military control over such a vast territory is straining resources. Additionally, there are indications of climate stress (possibly drought) affecting agricultural production in Mesopotamia. These factors will contribute to the empire's collapse within ~30 years.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian royal inscriptions documenting rebellions",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Paleoclimatic evidence (ice cores, tree rings) suggesting drought c. 2200 BCE",
-          "type": "archaeological",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The decline of the Akkadian Empire is well-attested, but the specific causes and timeline are debated. Climate stress is inferred from paleoclimatic evidence, not contemporary sources. The year 2152 BCE is assigned by convention.",
-      "cross_references": [
-        "Part of -2154-002 (Akkadian Empire)",
-        "Precedes -2200-001 (Akkadian collapse)"
       ]
     },
     {
@@ -104,12 +75,6 @@
       "to": "-2150-001",
       "relation": "led_to",
       "note": "Continued fragmentation of Egyptian authority"
-    },
-    {
-      "from": "-2152-002",
-      "to": "-2200-001",
-      "relation": "precedes",
-      "note": "Internal tensions foreshadow Akkadian collapse"
     }
   ]
 }

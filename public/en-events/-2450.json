@@ -10,37 +10,6 @@
   ],
   "events": [
     {
-      "id": "-2450-001",
-      "title": "Naram-Sin's Military Campaigns in the Levant",
-      "region": "Mesopotamia, Levant, Syria",
-      "coordinates_approx": "35.5, 34.5",
-      "category": "military",
-      "description": "Naram-Sin of Akkad continued aggressive military expansion, consolidating Akkadian control over the Levant and Upper Mesopotamia. Inscriptions and stele record campaigns against Ebla, Mari, and other city-states. These campaigns were part of a broader imperial project that stretched Akkadian resources and provoked resistance from peripheral regions. The military expansion was accompanied by administrative reorganization and the imposition of Akkadian language and culture.",
-      "key_figures": [
-        "Naram-Sin (Akkadian king)"
-      ],
-      "sources": [
-        {
-          "name": "Naram-Sin Victory Stele (Susa)",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Akkadian Royal Inscriptions",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Archaeological evidence from Ebla and Mari",
-          "type": "archaeological",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's reign is well-attested through inscriptions and archaeological destruction layers. Specific campaigns are dated to his reign (c. 2254\u20132218 BCE in conventional chronology), but precise year-by-year sequencing is uncertain. This event is assigned to -2450 as a representative point within his active military period.",
-      "cross_references": []
-    },
-    {
       "id": "-2450-002",
       "title": "Egyptian Sixth Dynasty Decline and Regional Fragmentation",
       "region": "Egypt",
@@ -68,7 +37,7 @@
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The decline of the Sixth Dynasty is well-documented through administrative records and nomarch inscriptions. However, precise dating of individual reigns in the Old Kingdom remains debated; conventional chronology places Pepi II's reign c. 2278\u20132184 BCE, making -2450 fall within or near his reign.",
+      "certainty_note": "The decline of the Sixth Dynasty is well-documented through administrative records and nomarch inscriptions. However, precise dating of individual reigns in the Old Kingdom remains debated; conventional chronology places Pepi II's reign c. 2278–2184 BCE, making -2450 fall within or near his reign.",
       "cross_references": []
     },
     {
@@ -97,19 +66,13 @@
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The Indus Valley Civilization's mature phase is well-established archaeologically, dated c. 2600\u20131900 BCE. The year -2450 falls within this period, though specific events within individual years cannot be identified from available evidence.",
+      "certainty_note": "The Indus Valley Civilization's mature phase is well-established archaeologically, dated c. 2600–1900 BCE. The year -2450 falls within this period, though specific events within individual years cannot be identified from available evidence.",
       "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The conventional chronology of the Old Kingdom and Akkadian Empire is debated. Some scholars propose a 'low chronology' that would shift these dates by 100\u2013200 years. Additionally, the significance of Naram-Sin's campaigns has been reassessed: while traditionally viewed as imperial expansion, some scholars emphasize the fragility of Akkadian control and the rapid collapse of the empire shortly after his reign, suggesting overextension rather than stable conquest.",
+  "disconfirming_evidence": "The conventional chronology of the Old Kingdom and Akkadian Empire is debated. Some scholars propose a 'low chronology' that would shift these dates by 100–200 years. Additionally, the significance of Naram-Sin's campaigns has been reassessed: while traditionally viewed as imperial expansion, some scholars emphasize the fragility of Akkadian control and the rapid collapse of the empire shortly after his reign, suggesting overextension rather than stable conquest.",
   "historiographic_note": "Documentation for -2450 is heavily weighted toward Mesopotamia and Egypt, where written records and inscriptions survive. The Indus Valley Civilization is known primarily through archaeology, with no deciphered written narrative. Sub-Saharan Africa, Northern Europe, and East Asia are essentially absent from the historical record for this year, reflecting both genuine gaps in preservation and biases in archaeological investigation toward the Mediterranean and Near East.",
   "graph_edges": [
-    {
-      "from": "-2450-001",
-      "to": "-2200-AKKADIAN_COLLAPSE",
-      "relation": "led_to",
-      "note": "Naram-Sin's military overextension contributed to the rapid collapse of the Akkadian Empire within a generation."
-    },
     {
       "from": "-2450-002",
       "to": "-2150-FIRST_INTERMEDIATE_PERIOD",

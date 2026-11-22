@@ -51,7 +51,7 @@
       "region": "England",
       "coordinates_approx": "52,-2",
       "category": "demographic",
-      "description": "The Black Death reaches peak mortality in England in 1349, with estimates suggesting 40\u201350% population loss in some regions. Urban centers like London, Bristol, and Norwich are particularly hard hit. Rural areas experience massive labor shortages, disrupting agricultural production. The mortality is so severe that chroniclers struggle to describe it adequately. Contemporary sources report mass graves, abandoned villages, and social breakdown. The demographic catastrophe will have lasting effects on English labor relations, feudal structures, and economic organization.",
+      "description": "The Black Death reaches peak mortality in England in 1349, with estimates suggesting 40–50% population loss in some regions. Urban centers like London, Bristol, and Norwich are particularly hard hit. Rural areas experience massive labor shortages, disrupting agricultural production. The mortality is so severe that chroniclers struggle to describe it adequately. Contemporary sources report mass graves, abandoned villages, and social breakdown. The demographic catastrophe will have lasting effects on English labor relations, feudal structures, and economic organization.",
       "key_figures": [
         "Edward III (king, attempting to maintain order)",
         "Local bishops and clergy (pastoral response)"
@@ -78,37 +78,6 @@
       "cross_references": [
         "1347-001 (Black Death arrival)",
         "1351-005 (Statute of Labourers)"
-      ]
-    },
-    {
-      "id": "1349-003",
-      "title": "Zhu Yuanzhang captures Nanjing and establishes regional power base",
-      "region": "Jiangsu Province, southern China",
-      "coordinates_approx": "32.06,118.8",
-      "category": "military",
-      "description": "Zhu Yuanzhang, the future founder of the Ming Dynasty, captures the strategic city of Nanjing in 1349 (some sources date this to 1356, but 1349 is the more likely date based on recent scholarship). The capture of Nanjing gives Zhu a major administrative and military center from which to consolidate power in the lower Yangtze region. Nanjing will eventually become the capital of the Ming Dynasty. The capture marks a turning point in Zhu's rise from regional warlord to potential empire-builder. His recruitment of talented administrators and military commanders accelerates after this victory.",
-      "key_figures": [
-        "Zhu Yuanzhang (future Hongwu Emperor)",
-        "Xu Da (military commander)",
-        "Liu Bowen (strategist)"
-      ],
-      "sources": [
-        {
-          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Yuan Shih (History of the Yuan Dynasty)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The capture of Nanjing is a major event in Zhu's rise, but sources vary on the exact date (1349 vs. 1356). Recent scholarship favors 1349, but uncertainty remains.",
-      "cross_references": [
-        "1351-003 (Zhu's continued campaigns)",
-        "1368-001 (Ming Dynasty establishment)"
       ]
     },
     {
@@ -189,7 +158,7 @@
       ],
       "sources": [
         {
-          "name": "Ottoman chronicles (Ne\u015fri, \u00c2\u015f\u0131kpa\u015fazade)",
+          "name": "Ottoman chronicles (Neşri, Âşıkpaşazade)",
           "type": "later_compilation",
           "contemporary": false
         },
@@ -206,7 +175,7 @@
       ]
     }
   ],
-  "disconfirming_evidence": "The Flagellant movement is often portrayed as a unified, organized response to the plague, but modern scholarship emphasizes its decentralized nature and the diversity of motivations among participants. Some flagellants were genuinely pious; others were opportunists or social rebels. The movement's relationship to anti-Jewish violence is complex\u2014while some flagellant groups participated in pogroms, others did not, and the violence was often driven by local authorities and mobs rather than flagellants specifically. Regarding Zhu Yuanzhang's capture of Nanjing, the dating is genuinely uncertain in sources; some scholars argue for 1356 rather than 1349, making this event's placement in 1349 provisional.",
+  "disconfirming_evidence": "The Flagellant movement is often portrayed as a unified, organized response to the plague, but modern scholarship emphasizes its decentralized nature and the diversity of motivations among participants. Some flagellants were genuinely pious; others were opportunists or social rebels. The movement's relationship to anti-Jewish violence is complex—while some flagellant groups participated in pogroms, others did not, and the violence was often driven by local authorities and mobs rather than flagellants specifically. Regarding Zhu Yuanzhang's capture of Nanjing, the dating is genuinely uncertain in sources; some scholars argue for 1356 rather than 1349, making this event's placement in 1349 provisional.",
   "historiographic_note": "Documentation for 1349 is moderate for Western Europe, with good sources for England, France, and Italy. Islamic sources provide valuable testimony to plague impact in the Middle East and North Africa. Chinese sources document the Red Turban Rebellion and Zhu Yuanzhang's rise but are official compilations written after the fact. The year is heavily weighted toward European and Mediterranean events in surviving sources. The Black Death dominates the historical record for this year, potentially obscuring other significant developments in Asia, Africa, and the Americas. Ottoman sources are later compilations with limited contemporary documentation.",
   "graph_edges": [
     {
@@ -220,12 +189,6 @@
       "to": "1351-005",
       "relation": "led_to",
       "note": "Plague mortality and labor shortages drive the Statute of Labourers (1351)"
-    },
-    {
-      "from": "1349-003",
-      "to": "1368-001",
-      "relation": "led_to",
-      "note": "Zhu Yuanzhang's capture of Nanjing is foundational to Ming Dynasty establishment"
     },
     {
       "from": "1349-004",

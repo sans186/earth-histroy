@@ -12,35 +12,6 @@
   ],
   "events": [
     {
-      "id": "-2296-001",
-      "title": "Naram-Sin's reign (later phase)",
-      "region": "Mesopotamia",
-      "coordinates_approx": "32.5, 44.0",
-      "category": "political",
-      "description": "Naram-Sin's reign continues, now in its later phase. Inscriptions record continued military campaigns and administrative activities. However, evidence suggests growing instability: rebellions in conquered territories, pressure from the Gutians in the north, and internal factionalism among Akkadian elites. The empire's resources are increasingly strained by the need to maintain military control over vast territories. Despite the appearance of strength in official inscriptions, the empire is beginning to fragment.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian royal inscriptions",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Administrative texts and economic records",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's reign is well-attested. The specific dating to 2296 BCE is approximate; this year falls within his reign based on conventional chronology, but the absolute date is uncertain by \u00b150 years.",
-      "cross_references": [
-        "Part of -2299-001 (Naram-Sin's reign)",
-        "Precedes -2280-001 (Gutian invasion)"
-      ]
-    },
-    {
       "id": "-2296-002",
       "title": "Egyptian pyramid construction (ongoing)",
       "region": "Egypt",
@@ -63,22 +34,15 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Egyptian pyramid construction is well-attested archaeologically. The specific dating to 2296 BCE depends on the absolute chronology of the Fourth Dynasty, which is debated by \u00b150\u2013100 years.",
+      "certainty_note": "Egyptian pyramid construction is well-attested archaeologically. The specific dating to 2296 BCE depends on the absolute chronology of the Fourth Dynasty, which is debated by ±50–100 years.",
       "cross_references": [
-        "Part of -2297-001 (Egyptian Fourth Dynasty)",
-        "Contemporary with -2296-001 (Akkadian Empire)"
+        "Part of -2297-001 (Egyptian Fourth Dynasty)"
       ]
     }
   ],
-  "disconfirming_evidence": "No specific events are documented for 2296 BCE. The entries represent inferences from broader patterns. The absolute dating of both the Akkadian Empire and the Egyptian Fourth Dynasty is debated, with alternative chronologies placing these events 50\u2013100 years earlier or later. The Akkadian Empire's apparent stability in official inscriptions may mask underlying fragility; some scholars argue the empire was already in decline by this point, while others place the major crisis later.",
+  "disconfirming_evidence": "No specific events are documented for 2296 BCE. The entries represent inferences from broader patterns. The absolute dating of both the Akkadian Empire and the Egyptian Fourth Dynasty is debated, with alternative chronologies placing these events 50–100 years earlier or later. The Akkadian Empire's apparent stability in official inscriptions may mask underlying fragility; some scholars argue the empire was already in decline by this point, while others place the major crisis later.",
   "historiographic_note": "For 2296 BCE, no year-specific events are documented in any surviving source. The entries represent inferences from chronological frameworks and broader patterns. The surviving sources are administrative texts, inscriptions, and archaeological deposits, which provide information about general trends but not annual chronicles. The absence of specific events for this year is typical for the third millennium BCE.",
   "graph_edges": [
-    {
-      "from": "-2296-001",
-      "to": "-2299-001",
-      "relation": "part_of",
-      "note": "Continuation of Naram-Sin's reign"
-    },
     {
       "from": "-2296-002",
       "to": "-2297-001",

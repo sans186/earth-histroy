@@ -12,36 +12,6 @@
   ],
   "events": [
     {
-      "id": "-105-001",
-      "title": "Han Dynasty: Invention or refinement of papermaking technology",
-      "region": "Han Dynasty, China",
-      "coordinates_approx": "34.3, 108.9",
-      "category": "technological",
-      "description": "Traditional Chinese sources attribute the invention of paper to Cai Lun, a court official under Emperor He (r. 88\u2013105 CE), in 105 CE. However, archaeological evidence suggests that paper-like materials were produced earlier in the Han Dynasty, possibly as early as the 2nd century BCE. The event traditionally dated to 105 CE likely represents a refinement or standardization of papermaking technology rather than its invention. If the traditional date is correct and refers to 105 BCE (which is unlikely), it would represent a major technological breakthrough. However, the more probable scenario is that this event is misplaced in time or refers to a later period. This entry is included with significant caveats about dating and interpretation.",
-      "key_figures": [
-        "Cai Lun (court official, traditional attribution, but likely from later period)",
-        "Emperor Wu of Han (if event occurred in 105 BCE)"
-      ],
-      "sources": [
-        {
-          "name": "Han shu by Ban Gu, compiled 1st century CE",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Archaeological evidence from Han Dynasty sites",
-          "type": "archaeological",
-          "contemporary": true
-        }
-      ],
-      "certainty": "legendary",
-      "certainty_note": "The traditional attribution of papermaking to Cai Lun in 105 CE is widely accepted in Chinese historiography, but the date is likely incorrect. Archaeological evidence suggests paper-like materials were produced earlier. If this event occurred in 105 BCE, it would be a major technological breakthrough, but the dating is highly uncertain and probably refers to a later period.",
-      "cross_references": [
-        "Related to broader Han Dynasty technological innovations",
-        "Precedes widespread adoption of paper in subsequent centuries"
-      ]
-    },
-    {
       "id": "-105-002",
       "title": "Han Dynasty military campaign: Li Guangli's second expedition against the Xiongnu",
       "region": "Central Asia, Xiongnu territories",
@@ -55,7 +25,7 @@
       ],
       "sources": [
         {
-          "name": "Shiji by Sima Qian, compiled c. 109\u201391 BCE",
+          "name": "Shiji by Sima Qian, compiled c. 109–91 BCE",
           "type": "primary_text",
           "contemporary": false
         },
@@ -66,7 +36,7 @@
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Li Guangli's campaigns are well-attested in Chinese sources, but the exact year of this particular expedition is uncertain. Traditional sources date it to 104 BCE, but some scholars argue for 105 BCE or other dates. The dating is approximate within \u00b12 years.",
+      "certainty_note": "Li Guangli's campaigns are well-attested in Chinese sources, but the exact year of this particular expedition is uncertain. Traditional sources date it to 104 BCE, but some scholars argue for 105 BCE or other dates. The dating is approximate within ±2 years.",
       "cross_references": [
         "Part of Han-Xiongnu conflict spanning -141 to -87",
         "Related to broader Han military expansion under Emperor Wu"
@@ -87,7 +57,7 @@
       ],
       "sources": [
         {
-          "name": "Livy, History of Rome, Books 63\u201364, compiled early 1st century CE",
+          "name": "Livy, History of Rome, Books 63–64, compiled early 1st century CE",
           "type": "later_compilation",
           "contemporary": false
         },
@@ -97,7 +67,7 @@
           "contemporary": false
         },
         {
-          "name": "Plutarch, Life of Marius, compiled 1st\u20132nd century CE",
+          "name": "Plutarch, Life of Marius, compiled 1st–2nd century CE",
           "type": "later_compilation",
           "contemporary": false
         }
@@ -106,19 +76,13 @@
       "certainty_note": "The Battle of Arausio and the consulship of Rutilius Lupus and Mallius Maximus in 105 BCE are well-attested in multiple Roman sources. The date is securely established.",
       "cross_references": [
         "Precedes Gaius Marius's recall and military reforms",
-        "Part of broader Germanic migration and conflict with Rome (105\u2013101 BCE)"
+        "Part of broader Germanic migration and conflict with Rome (105–101 BCE)"
       ]
     }
   ],
   "disconfirming_evidence": "The attribution of papermaking to 105 BCE is almost certainly incorrect; the event likely refers to 105 CE or to an earlier period of paper-like material production. The significance of Li Guangli's campaigns is often overstated; recent scholarship questions their actual effectiveness and cost-benefit ratio. The Battle of Arausio is sometimes portrayed as a turning point in Roman history, but modern scholarship emphasizes that the Germanic threat was eventually contained and did not fundamentally alter Roman military dominance. The disaster is also sometimes attributed to the incompetence of the consuls, but recent scholarship suggests that the Germanic forces were exceptionally well-organized and numerous.",
   "historiographic_note": "Documentation for 105 BCE is sparse and heavily skewed toward the Mediterranean world. Roman sources provide detailed accounts of the Battle of Arausio, but these are compiled decades or centuries after the event. Chinese sources provide some detail about Han military campaigns, but the exact year is uncertain. Egyptian sources are silent on this year. The 'significance' of events listed reflects the interests of later historians and the survival of sources rather than necessarily reflecting their impact on global history. No synchronized written records exist for sub-Saharan Africa, Northern Europe (beyond the Germanic tribes), or the Americas.",
   "graph_edges": [
-    {
-      "from": "-105-001",
-      "to": "-100-001",
-      "relation": "part_of",
-      "note": "Papermaking technology (if dated correctly) is part of Han Dynasty's broader technological innovations"
-    },
     {
       "from": "-105-002",
       "to": "-100-001",

@@ -12,36 +12,12 @@
   ],
   "events": [
     {
-      "id": "-2716-001",
-      "title": "Naram-Sin's reign nears its end; Akkadian Empire weakening",
-      "region": "Mesopotamia",
-      "coordinates_approx": "34.5, 43.0",
-      "category": "political",
-      "description": "Naram-Sin's reign is in its final years (he dies c. 2218 BCE according to traditional chronology). The Akkadian Empire, once at its territorial maximum, is now contracting. Gutian pressure continues, and internal administrative control is weakening. The empire's successor states are beginning to emerge. This represents the end of an era of Mesopotamian political unity.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad, near end of reign)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian royal inscriptions and the Sumerian King List",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's reign is well-documented. The specific year -2716 is approximate within his final years (c. 2254\u20132218 BCE).",
-      "cross_references": [
-        "-2717-001",
-        "-2200-001"
-      ]
-    },
-    {
       "id": "-2716-002",
       "title": "Egyptian First Intermediate Period: regional fragmentation",
       "region": "Egypt",
       "coordinates_approx": "26.0, 31.0",
       "category": "political",
-      "description": "Egypt is now firmly in the First Intermediate Period. Multiple regional dynasties rule different parts of Egypt. The Heracleopolitan Dynasty (Dynasty IX\u2013X) controls Lower Egypt, while Upper Egyptian dynasties (including the Theban Dynasty XI, which will eventually reunify Egypt) are consolidating power. This period is marked by reduced monumental construction, local warfare, and cultural decentralization.",
+      "description": "Egypt is now firmly in the First Intermediate Period. Multiple regional dynasties rule different parts of Egypt. The Heracleopolitan Dynasty (Dynasty IX–X) controls Lower Egypt, while Upper Egyptian dynasties (including the Theban Dynasty XI, which will eventually reunify Egypt) are consolidating power. This period is marked by reduced monumental construction, local warfare, and cultural decentralization.",
       "key_figures": [],
       "sources": [
         {
@@ -51,7 +27,7 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "The First Intermediate Period's existence is confirmed, but absolute dating remains uncertain (\u00b150\u2013100 years).",
+      "certainty_note": "The First Intermediate Period's existence is confirmed, but absolute dating remains uncertain (±50–100 years).",
       "cross_references": [
         "-2717-002"
       ]
@@ -81,12 +57,6 @@
   "disconfirming_evidence": "The exact date of Naram-Sin's death and the end of the Akkadian Empire is debated. Some scholars place the Akkadian collapse earlier (c. 2200 BCE in conventional chronology, but possibly c. 2250 BCE in alternative chronologies). The First Intermediate Period's dating is similarly uncertain. The Xia Dynasty remains unconfirmed archaeologically.",
   "historiographic_note": "This year represents a pivotal moment in ancient history: the transition from the Akkadian Empire to a fragmented Mesopotamia, and the consolidation of Egypt's First Intermediate Period. Yet the Indus Valley Civilization, which may have been more urbanized and economically sophisticated than either Mesopotamia or Egypt, remains largely invisible in historical narratives due to the lack of deciphered written records. This reflects a fundamental bias in how we construct ancient history: we privilege written records over archaeological evidence.",
   "graph_edges": [
-    {
-      "from": "-2716-001",
-      "to": "-2200-001",
-      "relation": "led_to",
-      "note": "Akkadian collapse occurs within a generation"
-    },
     {
       "from": "-2716-002",
       "to": "-2055-001",

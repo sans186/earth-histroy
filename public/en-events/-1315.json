@@ -12,32 +12,6 @@
   ],
   "events": [
     {
-      "id": "-1315-001",
-      "title": "Egyptian economic management and resource allocation",
-      "region": "Egypt",
-      "coordinates_approx": "26.0, 30.5",
-      "category": "economic",
-      "description": "Ramesses II's administration managed the complex Egyptian economy, allocating resources to military, religious, and administrative purposes. Papyri from Deir el-Medina document the organization of labour, the distribution of rations, and the management of state projects. The Egyptian economy was based on agricultural production in the Nile Valley, supplemented by tribute from Nubia and the Levant.",
-      "key_figures": [
-        "Ramesses II (Pharaoh of Egypt)"
-      ],
-      "sources": [
-        {
-          "name": "Administrative papyri from Deir el-Medina",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Temple inscriptions and reliefs",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Economic administration under Ramesses II is well-attested, but specific annual events are rarely documented with precision.",
-      "cross_references": []
-    },
-    {
       "id": "-1315-002",
       "title": "Hittite military organization and border defence",
       "region": "Hittite Empire",
@@ -49,7 +23,7 @@
       ],
       "sources": [
         {
-          "name": "Cuneiform tablets from Bo\u011fazk\u00f6y",
+          "name": "Cuneiform tablets from Boğazköy",
           "type": "primary_text",
           "contemporary": true
         },
@@ -91,12 +65,6 @@
   "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, some scholars have questioned the extent of centralized control over agricultural production in Mycenaean society, suggesting that much production may have occurred outside palace control and that the Linear B records may overstate the degree of administrative integration.",
   "historiographic_note": "The historical record for 1316 BCE is similar to that for previous years in this period: dominated by Egyptian and Hittite sources, with Mycenaean evidence from Linear B and archaeology. The year-to-year narrative is sparse; most events are reconstructed from broader patterns rather than specific annual records. The chronology remains dependent on Egyptian regnal lengths and king-lists, which are debated among scholars.",
   "graph_edges": [
-    {
-      "from": "-1315-001",
-      "to": "-1319-001",
-      "relation": "part_of",
-      "note": "Economic management was part of Ramesses II's broader imperial administration."
-    },
     {
       "from": "-1315-003",
       "to": "-1200-001",

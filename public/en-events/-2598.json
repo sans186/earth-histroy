@@ -12,29 +12,6 @@
   ],
   "events": [
     {
-      "id": "-2598-001",
-      "title": "Naram-Sin's military campaigns continue; consolidation of Akkadian hegemony",
-      "region": "Mesopotamia and the Levant",
-      "coordinates_approx": "33.3, 44.4",
-      "category": "military",
-      "description": "Naram-Sin continues military operations to maintain Akkadian control over conquered territories and suppress rebellions. Inscriptions record campaigns against the Lullubi, Elamites, and other highland peoples. The empire's military apparatus is at full strength, with standing armies and a sophisticated administrative system to manage tribute and trade. However, the costs of maintaining such a large empire are beginning to strain resources.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian royal inscriptions and stelae",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's reign is well-documented, but specific events within the reign are difficult to date precisely. This year is assigned to his reign based on chronological estimates.",
-      "cross_references": [
-        "-2599-001"
-      ]
-    },
-    {
       "id": "-2598-002",
       "title": "Egyptian Old Kingdom: continued administrative fragmentation",
       "region": "Egypt",
@@ -66,12 +43,6 @@
   "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the broader chronological framework remains debated, particularly the absolute dating of Naram-Sin's reign and Pepi II's reign.",
   "historiographic_note": "The historical record for -2598 is sparse and relies on the same sources as -2599. Specific events within the reigns of Naram-Sin and Pepi II are difficult to isolate to individual years. The surviving sources are primarily administrative and monumental records, which bias our understanding toward elite activities and away from broader social and economic changes.",
   "graph_edges": [
-    {
-      "from": "-2598-001",
-      "to": "-2599-001",
-      "relation": "contemporary_with",
-      "note": "Naram-Sin's reign continues; military campaigns are ongoing."
-    },
     {
       "from": "-2598-002",
       "to": "-2599-002",

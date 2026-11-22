@@ -1,7 +1,7 @@
 {
   "year": -2511,
   "year_label": "2511 BCE",
-  "era_context": "The Old Kingdom of Egypt (6th Dynasty) is in its final decades. The Akkadian Empire under Naram-Sin is at its territorial peak but facing mounting environmental and military pressures. The Harappan civilization remains stable. This is a transitional period: the established order is beginning to fracture, though the full consequences will not be apparent for another 50\u2013100 years.",
+  "era_context": "The Old Kingdom of Egypt (6th Dynasty) is in its final decades. The Akkadian Empire under Naram-Sin is at its territorial peak but facing mounting environmental and military pressures. The Harappan civilization remains stable. This is a transitional period: the established order is beginning to fracture, though the full consequences will not be apparent for another 50–100 years.",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
@@ -13,7 +13,7 @@
   "events": [
     {
       "id": "-2511-001",
-      "title": "Old Kingdom Egypt \u2014 late 6th Dynasty administration",
+      "title": "Old Kingdom Egypt — late 6th Dynasty administration",
       "region": "Egypt",
       "coordinates_approx": "26.5, 30.5",
       "category": "political",
@@ -40,36 +40,8 @@
       ]
     },
     {
-      "id": "-2511-002",
-      "title": "Akkadian Empire \u2014 Naram-Sin's reign continuation",
-      "region": "Mesopotamia, Levant, Zagros",
-      "coordinates_approx": "33.3, 44.4",
-      "category": "political",
-      "description": "Naram-Sin continues to rule the Akkadian Empire. His inscriptions document military campaigns and administrative activities, but the empire is under increasing strain. Paleoclimatic evidence indicates continued aridity. The empire's territorial extent is at its maximum, but the cost of maintaining control over distant regions is rising. Internal administrative texts suggest resource scarcity and logistical challenges. The empire will collapse within a few decades, likely due to a combination of environmental stress, military overextension, and internal rebellion.",
-      "key_figures": [
-        "Naram-Sin (Akkadian Emperor)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian royal inscriptions and administrative texts",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Paleoclimatic records",
-          "type": "archaeological",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's reign is well-attested; specific year-to-year events are not individually documented.",
-      "cross_references": [
-        "Precedes Akkadian collapse (c. 2154 BCE)"
-      ]
-    },
-    {
       "id": "-2511-003",
-      "title": "Harappan civilization \u2014 mature phase stability",
+      "title": "Harappan civilization — mature phase stability",
       "region": "Indus Valley",
       "coordinates_approx": "27.0, 68.0",
       "category": "cultural",
@@ -97,12 +69,6 @@
       "to": "-2511-001",
       "relation": "led_to",
       "note": "Continuation of 6th Dynasty decline"
-    },
-    {
-      "from": "-2512-002",
-      "to": "-2511-002",
-      "relation": "led_to",
-      "note": "Continuation of Akkadian strain"
     }
   ]
 }

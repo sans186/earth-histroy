@@ -1,104 +1,11 @@
 {
   "year": 313,
-  "year_label": "公元前313年",
-  "era_context": "继业者战争正进入关键阶段。安提柯一世仍是继业者将军中最强大的，但反对其霸权的力量正在集结。托勒密一世、塞琉古一世、卡山德和利西马科斯之间的协调越来越多。希腊化世界正在稳定为区域性权力集团，尽管重大冲突仍不可避免。",
-  "documentation_level": "中等",
-  "geographic_coverage_gaps": [
-    "撒哈拉以南非洲",
-    "北欧",
-    "东亚",
-    "印度次大陆"
-  ],
-  "events": [
-    {
-      "id": "313-001",
-      "title": "安提柯一世在小亚细亚和叙利亚的霸权",
-      "region": "安纳托利亚和黎凡特",
-      "coordinates_approx": "38.0, 35.0",
-      "category": "political",
-      "description": "到公元前313年，安提柯一世·独眼已巩固了对小亚细亚大部分地区、叙利亚和东地中海沿岸的控制。他是继业者中最强大的，并积极致力于扩大影响。然而，他的侵略性扩张开始激起对手联盟。",
-      "key_figures": [
-        "安提柯一世·独眼",
-        "德米特里·波利奥塞特"
-      ],
-      "sources": [
-        {
-          "name": "西西里的狄奥多罗斯,《历史文库》",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "安提柯在这一时期的霸权得到充分记载，但公元前313年的具体事件没有明确勾勒。",
-      "cross_references": [
-        "312-001",
-        "311-001"
-      ]
-    },
-    {
-      "id": "313-002",
-      "title": "反对安提柯的联盟正在形成",
-      "region": "东地中海和近东",
-      "coordinates_approx": "35.0, 30.0",
-      "category": "political",
-      "description": "托勒密一世、塞琉古一世、卡山德和利西马科斯正在日益协调努力，以遏制安提柯的权力。外交谈判和军事准备是这一时期的特征。该联盟出于对安提柯将统治整个希腊化世界的恐惧。",
-      "key_figures": [
-        "托勒密一世·索特尔",
-        "塞琉古一世·尼卡托尔",
-        "卡山德",
-        "利西马科斯"
-      ],
-      "sources": [
-        {
-          "name": "西西里的狄奥多罗斯,《历史文库》",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "反对安提柯联盟的形成在概略层面上有充分文献记载，但公元前313年的具体外交事件没有明确 dating。",
-      "cross_references": [
-        "311-001（继业者和平）"
-      ]
-    },
-    {
-      "id": "313-003",
-      "title": "托勒密一世巩固埃及和黎凡特沿岸",
-      "region": "埃及和黎凡特",
-      "coordinates_approx": "30.0, 31.0",
-      "category": "political",
-      "description": "托勒密一世·索特尔继续巩固对埃及和黎凡特沿岸（包括塞浦路斯和叙利亚部分地区）的控制。他正在建立托勒密王朝作为主要的希腊化势力。他对埃及财富和地中海贸易路线的控制使他成为安提柯的强大对手。",
-      "key_figures": [
-        "托勒密一世·索特尔"
-      ],
-      "sources": [
-        {
-          "name": "西西里的狄奥多罗斯,《历史文库》",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "托勒密的巩固得到充分记载，但公元前313年的具体事件没有明确文献记载。",
-      "cross_references": [
-        "305-001（托勒密一世自称国王）"
-      ]
-    }
-  ],
-  "disconfirming_evidence": "反对安提柯联盟形成的具体时间线存在争议。一些学者认为该联盟直到公元前312年后才完全形成，而另一些则将其起源更早。古代来源中个别外交事件的重要性往往不清楚。此外，这些精英政治冲突在多大程度上影响了希腊化世界的更广泛人口尚不确定。",
-  "historiographic_note": "公元前313年的历史记录来自后来的希腊史家（狄奥多罗斯、普鲁塔克、阿庇安），他们在事件发生几个世纪后写作。没有同时代原始文本幸存。来源通常对具体年份内的具体日期和事件模糊不清。叙事严重偏向涉及马其顿精英的军事和政治事件。非希腊人口、妇女和普通士兵的经历基本缺失。考古证据有限。",
-  "graph_edges": [
-    {
-      "from": "313-001",
-      "to": "311-001",
-      "relation": "led_to",
-      "note": "安提柯的霸权激起了导致继业者和平的联盟。"
-    },
-    {
-      "from": "313-002",
-      "to": "311-001",
-      "relation": "led_to",
-      "note": "反对安提柯的联盟形成导致继业者和平。"
-    }
-  ]
+  "year_label": "公元313年",
+  "era_context": "",
+  "documentation_level": "极少",
+  "geographic_coverage_gaps": [],
+  "events": [],
+  "disconfirming_evidence": "",
+  "historiographic_note": "",
+  "graph_edges": []
 }

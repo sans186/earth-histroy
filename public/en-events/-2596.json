@@ -13,31 +13,6 @@
   ],
   "events": [
     {
-      "id": "-2596-001",
-      "title": "Akkadian Empire: military and administrative consolidation",
-      "region": "Mesopotamia and the Levant",
-      "coordinates_approx": "33.3, 44.4",
-      "category": "political",
-      "description": "Naram-Sin continues to consolidate Akkadian control over conquered territories. The empire's administrative system is sophisticated, with appointed governors managing distant provinces and a standing military maintaining order. Trade networks are extensive, connecting Mesopotamia to the Indus Valley, the Persian Gulf, and the Levant. However, the costs of maintaining such a large empire are mounting, and external pressures from the Gutians and other highland peoples are increasing.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian royal inscriptions and administrative records",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's reign is well-attested. The year -2596 falls within his reign based on Middle Chronology, with \u00b150\u2013100 year uncertainty.",
-      "cross_references": [
-        "-2599-001",
-        "-2598-001",
-        "-2597-001"
-      ]
-    },
-    {
       "id": "-2596-002",
       "title": "Old Kingdom Egypt: final phase of Dynasty VI",
       "region": "Egypt",
@@ -71,12 +46,6 @@
   "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. The chronological framework remains debated.",
   "historiographic_note": "The historical record for -2596 is sparse and relies on the same sources as previous years. Specific events within the reigns of Naram-Sin and Pepi II are difficult to isolate to individual years. The surviving sources are primarily administrative and monumental records.",
   "graph_edges": [
-    {
-      "from": "-2596-001",
-      "to": "-2599-001",
-      "relation": "contemporary_with",
-      "note": "Naram-Sin's reign continues; the Akkadian Empire is at its height."
-    },
     {
       "from": "-2596-002",
       "to": "-2599-002",

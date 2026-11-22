@@ -13,29 +13,6 @@
   ],
   "events": [
     {
-      "id": "-2913-001",
-      "title": "Naram-Sin's military campaigns continue in northern Mesopotamia and Anatolia",
-      "region": "Mesopotamia, Anatolia, Syria",
-      "coordinates_approx": "36.0, 40.0",
-      "category": "military",
-      "description": "Naram-Sin's reign continues with ongoing military consolidation. Inscriptions record campaigns against the Lullubi in the Zagros Mountains and expansion into Anatolia. These campaigns are part of the broader Akkadian imperial project, though they also provoke resistance from local populations and may strain resources.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian royal inscriptions, including the Victory Stele of Naram-Sin",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's military campaigns are well-attested in contemporary inscriptions. The exact year is assigned by conventional chronology; absolute dating remains uncertain by \u00b150\u2013100 years.",
-      "cross_references": [
-        "-2914-001"
-      ]
-    },
-    {
       "id": "-2913-002",
       "title": "Egyptian provincial governors consolidate local power",
       "region": "Egypt (Nile Valley)",
@@ -66,12 +43,5 @@
   ],
   "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the broader narrative of Akkadian imperial strength in this period is complicated by evidence of internal strain: some scholars argue that resource depletion, climate stress (possibly linked to the 4.2 kya event, though this is debated), and resistance from conquered populations were already destabilizing the empire by Naram-Sin's reign, not merely after his death.",
   "historiographic_note": "Documentation for -2913 is sparse and elite-focused. Akkadian inscriptions celebrate military victories but may obscure logistical strain or resistance. Egyptian sources similarly emphasize elite achievements. No contemporary written records exist for most of the world outside Mesopotamia and Egypt. Absolute chronology remains uncertain.",
-  "graph_edges": [
-    {
-      "from": "-2913-001",
-      "to": "-2914-001",
-      "relation": "contemporary_with",
-      "note": "Continuation of Naram-Sin's reign and imperial consolidation"
-    }
-  ]
+  "graph_edges": []
 }

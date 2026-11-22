@@ -1,7 +1,7 @@
 {
   "year": -2485,
   "year_label": "公元前2485年",
-  "era_context": "埃及古王国（第六王朝）在佩皮二世治下继续，其统治接近尾声（传统年代）。阿卡德帝国在纳拉姆辛治下正处于或接近其末期，帝国开始面临内外压力。印度河流域文明仍处于成熟期。此时期标志着从青铜时代文明顶峰向某些地区转变与衰落的过渡时期。",
+  "era_context": "",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "撒哈拉以南非洲",
@@ -12,40 +12,6 @@
     "东亚"
   ],
   "events": [
-    {
-      "id": "-2485-001",
-      "title": "纳拉姆辛统治接近尾声；阿卡德帝国压力的早期迹象可能显现",
-      "region": "美索不达米亚，阿卡德",
-      "coordinates_approx": "33.0, 44.0",
-      "category": "political",
-      "description": "纳拉姆辛的统治（传统年代约前2254–前2218年）接近尾声。虽然帝国依然强大，但一些学者根据后世文献和铭文推测，困难在增加：来自被征服领土的抵抗、镇压叛乱的军事行动，以及可能开始的资源紧张。然而，这一解释存在争议；有学者认为帝国保持稳定，直至外部压力（气候变化、古提人入侵）在其死后导致崩溃。帝国衰落的准确性质和时机仍存分歧。",
-      "key_figures": [
-        "纳拉姆辛（阿卡德王）"
-      ],
-      "sources": [
-        {
-          "name": "纳拉姆辛的铭文和石碑",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "后世巴比伦编年史和王表",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "阿卡德楔形文字行政泥板",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "纳拉姆辛的统治有充分证据，但对其统治期“压力”或“衰落”的解释是推测性的，部分基于后世文献。其确切的逝世年份有±20-30年的不确定性。",
-      "cross_references": [
-        "-2489-002（阿卡德军事扩张）",
-        "-2200-AKKADIAN_COLLAPSE（帝国最终崩溃）"
-      ]
-    },
     {
       "id": "-2485-002",
       "title": "佩皮二世统治末期的古王国行政延续",

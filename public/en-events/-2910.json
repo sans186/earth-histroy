@@ -13,37 +13,6 @@
   ],
   "events": [
     {
-      "id": "-2910-001",
-      "title": "Naram-Sin's reign continues with imperial consolidation",
-      "region": "Mesopotamia",
-      "coordinates_approx": "34.5, 43.0",
-      "category": "political",
-      "description": "Naram-Sin's reign continues in the late phase of his rule (he reigned c. 2254\u20132218 BCE). By this point, he has established himself as a deified ruler and consolidated Akkadian control over much of Mesopotamia and surrounding regions. However, evidence suggests that maintaining this far-flung empire is increasingly costly and faces resistance from conquered populations and neighboring powers.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian royal inscriptions",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Sumerian King List (later compilation)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's reign is well-attested in contemporary inscriptions. The exact year is assigned by conventional chronology; absolute dating remains uncertain by \u00b150\u2013100 years.",
-      "cross_references": [
-        "-2914-001",
-        "-2913-001",
-        "-2912-001",
-        "-2911-001"
-      ]
-    },
-    {
       "id": "-2910-002",
       "title": "Indus Valley Civilization maintains urban centers and trade networks",
       "region": "Indus Valley (modern Pakistan and northwest India)",
@@ -64,7 +33,7 @@
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The existence and characteristics of the Indus Valley Civilization are well-established through archaeology. Absolute dating relies on radiocarbon and stratigraphic analysis; the mature phase is conventionally dated c. 2600\u20131900 BCE.",
+      "certainty_note": "The existence and characteristics of the Indus Valley Civilization are well-established through archaeology. Absolute dating relies on radiocarbon and stratigraphic analysis; the mature phase is conventionally dated c. 2600–1900 BCE.",
       "cross_references": [
         "-2914-003",
         "-2912-002"
@@ -76,7 +45,7 @@
       "region": "Egypt (Nile Valley)",
       "coordinates_approx": "26.0, 31.0",
       "category": "political",
-      "description": "The reign of Pepi II is in its final decades (he reigned c. 2278\u20132184 BCE, though the exact length is debated). Central authority has significantly weakened; provincial governors control much of the country's resources and military power. The transition to the First Intermediate Period is imminent. Royal monument construction has largely ceased.",
+      "description": "The reign of Pepi II is in its final decades (he reigned c. 2278–2184 BCE, though the exact length is debated). Central authority has significantly weakened; provincial governors control much of the country's resources and military power. The transition to the First Intermediate Period is imminent. Royal monument construction has largely ceased.",
       "key_figures": [
         "Pepi II (Pharaoh of Egypt)"
       ],
@@ -102,14 +71,8 @@
     }
   ],
   "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, the chronology of the Old Kingdom remains contested; some scholars argue for a significantly shorter reign for Pepi II, which would affect the dating of this period.",
-  "historiographic_note": "Documentation is sparse and elite-focused. Akkadian sources celebrate Naram-Sin's achievements; the extent of internal strain is inferred from later sources and modern analysis. Egyptian sources emphasize elite accomplishments; the decline of central authority is inferred from reduced monument construction and the rise of provincial authority. Indus Valley evidence is entirely archaeological; the absence of deciphered writing limits understanding of political organization. Absolute chronology is uncertain by \u00b150\u2013100 years.",
+  "historiographic_note": "Documentation is sparse and elite-focused. Akkadian sources celebrate Naram-Sin's achievements; the extent of internal strain is inferred from later sources and modern analysis. Egyptian sources emphasize elite accomplishments; the decline of central authority is inferred from reduced monument construction and the rise of provincial authority. Indus Valley evidence is entirely archaeological; the absence of deciphered writing limits understanding of political organization. Absolute chronology is uncertain by ±50–100 years.",
   "graph_edges": [
-    {
-      "from": "-2910-001",
-      "to": "-2200-001",
-      "relation": "led_to",
-      "note": "Naram-Sin's reign ends c. 2218 BCE; the Akkadian Empire collapses c. 2200 BCE"
-    },
     {
       "from": "-2910-003",
       "to": "-2180-001",

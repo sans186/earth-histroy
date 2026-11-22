@@ -39,34 +39,6 @@
       ]
     },
     {
-      "id": "-2353-002",
-      "title": "Akkadian Empire: continued military consolidation and administrative organization",
-      "region": "Mesopotamia, Levant, Upper Mesopotamia",
-      "coordinates_approx": "33.3, 44.2",
-      "category": "military",
-      "description": "Naram-Sin continues his reign, consolidating control over conquered territories. He establishes administrative centers and appoints governors (ensi) to manage distant provinces. The empire stretches from the Persian Gulf to the Mediterranean and from the Zagros to the Syrian steppe. Trade and military logistics are organized to support this vast territory. However, resistance from local populations and pressure from external groups (Gutians, Elamites) begin to mount, though the empire remains at its territorial peak.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian royal inscriptions",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Administrative texts and ration lists from Akkadian period",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's reign is well-documented, but specific year-to-year events are not always distinguishable. This entry reflects the general trajectory of his reign.",
-      "cross_references": [
-        "-2354-002"
-      ]
-    },
-    {
       "id": "-2353-003",
       "title": "Indus Valley Civilization: continued urban development and trade",
       "region": "Indus Valley",
@@ -94,19 +66,13 @@
     }
   ],
   "disconfirming_evidence": "No specific disconfirming evidence for -2353 identified. The general patterns described (Egyptian decline, Akkadian consolidation, Harappan stability) are consistent across multiple years in this period and are not contradicted by available sources.",
-  "historiographic_note": "The year -2353 is essentially indistinguishable from -2354 in the historical record. No specific events are documented for this particular year. The entries above describe the broader historical context and general trends. This reflects the reality that ancient chronologies, especially for the third millennium BCE, are often uncertain to within \u00b15\u201310 years, and year-to-year documentation is rare outside of royal inscriptions and administrative records.",
+  "historiographic_note": "The year -2353 is essentially indistinguishable from -2354 in the historical record. No specific events are documented for this particular year. The entries above describe the broader historical context and general trends. This reflects the reality that ancient chronologies, especially for the third millennium BCE, are often uncertain to within ±5–10 years, and year-to-year documentation is rare outside of royal inscriptions and administrative records.",
   "graph_edges": [
     {
       "from": "-2353-001",
       "to": "-2354-001",
       "relation": "contemporary_with",
       "note": "Continuation of Egyptian decline"
-    },
-    {
-      "from": "-2353-002",
-      "to": "-2354-002",
-      "relation": "contemporary_with",
-      "note": "Continuation of Akkadian consolidation"
     },
     {
       "from": "-2353-003",

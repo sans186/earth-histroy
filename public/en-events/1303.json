@@ -1,7 +1,7 @@
 {
   "year": 1303,
   "year_label": "1303 CE",
-  "era_context": "Early 14th century: The Mamluk Sultanate is consolidating power in the Eastern Mediterranean; the Yuan Dynasty under Tem\u00fcr Khan is attempting administrative reforms; the Kingdom of France under Philip IV is at the height of its power; the Byzantine Empire is fragmented and declining; the Mali Empire is consolidating control over West African trade; the Hundred Years' War has not yet begun but tensions between England and France are rising.",
+  "era_context": "Early 14th century: The Mamluk Sultanate is consolidating power in the Eastern Mediterranean; the Yuan Dynasty under Temür Khan is attempting administrative reforms; the Kingdom of France under Philip IV is at the height of its power; the Byzantine Empire is fragmented and declining; the Mali Empire is consolidating control over West African trade; the Hundred Years' War has not yet begun but tensions between England and France are rising.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa (beyond Mali)",
@@ -81,7 +81,7 @@
       "region": "Papal States",
       "coordinates_approx": "41.9028, 12.4534",
       "category": "religious",
-      "description": "Pope Boniface VIII died on 11 October 1303, shortly after the Anagni Incident. Boniface's papacy (1294\u20131303) was marked by conflicts with secular rulers, particularly King Philip IV of France, over the extent of papal authority. His death marked the end of an era of papal temporal power and the beginning of the decline of the medieval papacy. Boniface's conflict with Philip IV over taxation of the clergy and papal authority foreshadowed the broader shift in power from the Church to centralized monarchies. His death was followed by the election of Pope Benedict XI and eventually the Avignon Papacy.",
+      "description": "Pope Boniface VIII died on 11 October 1303, shortly after the Anagni Incident. Boniface's papacy (1294–1303) was marked by conflicts with secular rulers, particularly King Philip IV of France, over the extent of papal authority. His death marked the end of an era of papal temporal power and the beginning of the decline of the medieval papacy. Boniface's conflict with Philip IV over taxation of the clergy and papal authority foreshadowed the broader shift in power from the Church to centralized monarchies. His death was followed by the election of Pope Benedict XI and eventually the Avignon Papacy.",
       "key_figures": [
         "Pope Boniface VIII (Papacy)",
         "Philip IV of France (antagonist)"
@@ -102,34 +102,6 @@
       "certainty_note": "The death of Boniface VIII on 11 October 1303 is well-documented in papal records and contemporary chronicles.",
       "cross_references": [
         "1303-002 (Anagni Incident)"
-      ]
-    },
-    {
-      "id": "1303-004",
-      "title": "Tem\u00fcr Khan Becomes Regent of Yuan Dynasty",
-      "region": "Yuan Dynasty, China",
-      "coordinates_approx": "39.9042, 116.4074",
-      "category": "political",
-      "description": "Tem\u00fcr Khan (also known as Khaisan), grandson of Kublai Khan, became regent of the Yuan Dynasty in 1303 following the death of his predecessor. Tem\u00fcr's rise to power marked a moment of relative stability in the Yuan Dynasty, though factional conflicts among Mongol nobility continued. Tem\u00fcr would become emperor in 1304 and rule until 1307. His regency and subsequent reign were marked by attempts to reform the Yuan administrative system and restore Confucian scholarship. Tem\u00fcr's rise represented a shift toward more centralized and stable governance in the Yuan Dynasty.",
-      "key_figures": [
-        "Tem\u00fcr Khan / Khaisan (Regent and future Emperor)"
-      ],
-      "sources": [
-        {
-          "name": "Yuan Shi (Official History of the Yuan Dynasty)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Contemporary Chinese court records",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Tem\u00fcr Khan's rise to power in 1303 is documented in Yuan official histories, though the exact date and nature of his assumption of power (regent vs. emperor) vary slightly in sources.",
-      "cross_references": [
-        "1304-003 (Tem\u00fcr Khan becomes emperor)"
       ]
     }
   ],
@@ -153,12 +125,6 @@
       "to": "1305-002",
       "relation": "part_of",
       "note": "Continuation of Mamluk-Mongol conflict"
-    },
-    {
-      "from": "1303-004",
-      "to": "1304-003",
-      "relation": "led_to",
-      "note": "Tem\u00fcr Khan's regency led to his accession as emperor in 1304"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "year": -103,
   "year_label": "103 BCE",
-  "era_context": "The Roman Republic is in the aftermath of the Social War (91\u201388 BCE), which is ongoing or recently concluded. Gaius Marius is at the height of his military power, having defeated Germanic tribes (Cimbri and Teutones) that threatened Rome. The populares faction is gaining strength. In China, Emperor Wu of Han is consolidating power and beginning military expansion. The Hellenistic world is fragmenting.",
+  "era_context": "The Roman Republic is in the aftermath of the Social War (91–88 BCE), which is ongoing or recently concluded. Gaius Marius is at the height of his military power, having defeated Germanic tribes (Cimbri and Teutones) that threatened Rome. The populares faction is gaining strength. In China, Emperor Wu of Han is consolidating power and beginning military expansion. The Hellenistic world is fragmenting.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
@@ -23,7 +23,7 @@
       ],
       "sources": [
         {
-          "name": "Plutarch, Life of Marius, chapters 19\u201324",
+          "name": "Plutarch, Life of Marius, chapters 19–24",
           "type": "later_compilation",
           "contemporary": false
         },
@@ -73,36 +73,6 @@
       "cross_references": [
         "Contemporary with -103-001 (Marius' military victories)",
         "Leads to -101-003 (Han military campaigns)"
-      ]
-    },
-    {
-      "id": "-103-003",
-      "title": "Ptolemy IX Soter II's reign in Egypt",
-      "region": "Ptolemaic Egypt",
-      "coordinates_approx": "30.0, 31.2",
-      "category": "political",
-      "description": "Ptolemy IX Soter II continues his reign in Egypt (116\u2013107 BCE), marked by internal instability and conflict with his brother Ptolemy X. The Ptolemaic dynasty's power is declining; Egypt is becoming economically dependent on grain exports and politically dependent on Rome.",
-      "key_figures": [
-        "Ptolemy IX Soter II (Ptolemaic king)",
-        "Ptolemy X Alexander I (rival claimant)"
-      ],
-      "sources": [
-        {
-          "name": "Josephus, Against Apion and Antiquities of the Jews",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Papyri from Egypt",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Ptolemy IX's reign dates are well-established. The year 103 BCE falls within his reign (116\u2013107 BCE).",
-      "cross_references": [
-        "Contemporary with -103-001 (Marius' military victories)",
-        "Leads to -102-003 (Ptolemy IX's continued reign)"
       ]
     }
   ],

@@ -12,46 +12,6 @@
   ],
   "events": [
     {
-      "id": "-2420-001",
-      "title": "Akkad Empire collapse and Gutian invasion",
-      "region": "Mesopotamia, Levant",
-      "coordinates_approx": "32.5, 44.0",
-      "category": "military",
-      "description": "The Akkad Empire, which has dominated Mesopotamia for approximately 200 years, collapses rapidly. The causes are debated: external invasion by Gutian peoples from the Zagros Mountains, internal administrative overextension, climate change (evidence of drought c. 2200 BCE), or a combination of these factors. The collapse is marked by the end of Akkadian political control, the fragmentation of Mesopotamia into competing city-states, and the rise of the Gutian dynasty. This represents one of the most dramatic political collapses in ancient history.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad, deceased)",
-        "Shar-kali-sharri (Last Akkadian king, possibly ruling during this period)"
-      ],
-      "sources": [
-        {
-          "name": "Sumerian King List (later compilation)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Atra-Hasis and other Mesopotamian chronicles",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Archaeological evidence of destruction layers and abandonment",
-          "type": "archaeological",
-          "contemporary": false
-        },
-        {
-          "name": "Paleoclimatic evidence of drought c. 2200 BCE",
-          "type": "archaeological",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The collapse of the Akkad Empire is well-attested in later chronicles and archaeological evidence. However, the precise dating (conventional chronology places it c. 2154 BCE, but this varies by \u00b150\u2013100 years depending on the chronological system) and the relative importance of external invasion versus internal factors are debated.",
-      "cross_references": [
-        "-2424-001 (Naram-Sin's reign)",
-        "-2421-001 (Akkad Empire at its apex)"
-      ]
-    },
-    {
       "id": "-2420-002",
       "title": "Harappan civilization decline begins",
       "region": "Indus Valley",
@@ -77,7 +37,7 @@
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The decline of the Harappan civilization is archaeologically attested. The causes are debated; climate change and environmental stress are increasingly accepted, but the relative importance of different factors remains uncertain. The decline is gradual, occurring over several centuries (c. 1900\u20131300 BCE), so assigning it to a specific year is approximate.",
+      "certainty_note": "The decline of the Harappan civilization is archaeologically attested. The causes are debated; climate change and environmental stress are increasingly accepted, but the relative importance of different factors remains uncertain. The decline is gradual, occurring over several centuries (c. 1900–1300 BCE), so assigning it to a specific year is approximate.",
       "cross_references": [
         "-2424-002 (Harappan civilization at its height)",
         "-2421-002 (Environmental stress begins)"
@@ -129,7 +89,7 @@
       "region": "Global",
       "coordinates_approx": null,
       "category": "environmental",
-      "description": "This period (c. 2200\u20132100 BCE) is marked by evidence of global climate stress, including drought in Mesopotamia, the Levant, and the Indus Valley, and Nile flood failures in Egypt. This synchronous environmental stress may have contributed to the simultaneous collapse or decline of multiple civilizations (Akkad, Old Kingdom Egypt, Harappan civilization). The causes of this global climate event are debated: volcanic eruptions, solar variability, or other factors. This period is sometimes referred to as the '4.2 kiloyear event' or the 'Late Bronze Age Collapse precursor' by paleoclimatologists.",
+      "description": "This period (c. 2200–2100 BCE) is marked by evidence of global climate stress, including drought in Mesopotamia, the Levant, and the Indus Valley, and Nile flood failures in Egypt. This synchronous environmental stress may have contributed to the simultaneous collapse or decline of multiple civilizations (Akkad, Old Kingdom Egypt, Harappan civilization). The causes of this global climate event are debated: volcanic eruptions, solar variability, or other factors. This period is sometimes referred to as the '4.2 kiloyear event' or the 'Late Bronze Age Collapse precursor' by paleoclimatologists.",
       "key_figures": [],
       "sources": [
         {
@@ -151,7 +111,6 @@
       "certainty": "probable",
       "certainty_note": "Paleoclimatic evidence for global climate stress during this period is increasingly accepted by scholars. However, the precise dating, the causes, and the relative importance of climate change versus other factors in civilizational collapse are debated. The synchronicity of civilizational transitions and climate stress is suggestive but not definitively proven.",
       "cross_references": [
-        "-2420-001 (Akkad collapse)",
         "-2420-002 (Harappan decline)",
         "-2420-003 (Old Kingdom collapse)"
       ]

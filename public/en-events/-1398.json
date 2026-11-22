@@ -12,33 +12,10 @@
   ],
   "events": [
     {
-      "id": "-1398-001",
-      "title": "Thutmose III's continued military campaigns in the Levant",
-      "region": "Egypt, Levant, Syria",
-      "coordinates_approx": "33.3\u00b0N, 35.5\u00b0E",
-      "category": "military",
-      "description": "Thutmose III continued his systematic campaigns to maintain Egyptian control over Levantine territories and suppress Mitanni influence. These campaigns were part of his broader strategy to consolidate the Egyptian empire and secure trade routes. The year -1398 falls within his period of active military engagement in the region.",
-      "key_figures": [
-        "Thutmose III (Pharaoh of Egypt)"
-      ],
-      "sources": [
-        {
-          "name": "Karnak Temple inscriptions documenting Thutmose III's campaigns",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "Thutmose III's campaigns are well-documented in general, but specific events in -1398 are not individually attested.",
-      "cross_references": [
-        "-1399-001"
-      ]
-    },
-    {
       "id": "-1398-002",
       "title": "Mycenaean trade networks in the Eastern Mediterranean",
       "region": "Greece, Aegean, Eastern Mediterranean",
-      "coordinates_approx": "37.7\u00b0N, 23.0\u00b0E",
+      "coordinates_approx": "37.7°N, 23.0°E",
       "category": "economic",
       "description": "Mycenaean merchants and traders were actively engaged in commerce throughout the Eastern Mediterranean, exchanging Greek pottery, olive oil, and wine for tin, cedar, and other luxury goods. This trade network connected Mycenaean Greece with Egypt, the Levant, and Anatolia, facilitating cultural exchange and economic interdependence.",
       "key_figures": [],
@@ -62,7 +39,7 @@
       "id": "-1398-003",
       "title": "Shang Dynasty oracle bone divination and ritual practices",
       "region": "China, Anyang",
-      "coordinates_approx": "34.3\u00b0N, 114.3\u00b0E",
+      "coordinates_approx": "34.3°N, 114.3°E",
       "category": "religious",
       "description": "The Shang Dynasty continued its sophisticated system of oracle bone divination, which served both religious and administrative functions. These divinations addressed questions of warfare, agriculture, weather, and royal succession, reflecting the integration of religious practice with political governance.",
       "key_figures": [],
@@ -83,12 +60,6 @@
   "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the broader chronological framework for this period remains contested, particularly regarding the synchronization of Egyptian and Near Eastern chronologies.",
   "historiographic_note": "The historical record for -1398 is similarly sparse as -1399, relying primarily on Egyptian administrative records and archaeological evidence. The absence of year-specific documentation means that this year is understood primarily through the broader context of the Late Bronze Age rather than through documented events.",
   "graph_edges": [
-    {
-      "from": "-1398-001",
-      "to": "-1399-001",
-      "relation": "part_of",
-      "note": "Continuation of Thutmose III's reign and campaigns"
-    },
     {
       "from": "-1398-002",
       "to": "-1399-003",

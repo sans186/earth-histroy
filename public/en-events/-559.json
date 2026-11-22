@@ -38,7 +38,7 @@
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The Nabonidus Chronicle and Cyrus Cylinder provide near-contemporary attestation, but Herodotus's account, written ~80 years later, contains legendary elements. Modern scholarship places the conquest in the 550s BCE, with \u00b13 year uncertainty.",
+      "certainty_note": "The Nabonidus Chronicle and Cyrus Cylinder provide near-contemporary attestation, but Herodotus's account, written ~80 years later, contains legendary elements. Modern scholarship places the conquest in the 550s BCE, with ±3 year uncertainty.",
       "cross_references": [
         "Relates to -550-001 (Cyrus's conquest of Lydia)",
         "Precedes -539-001 (Cyrus's conquest of Babylon)"
@@ -71,34 +71,6 @@
       "cross_references": [
         "Part of broader Athenian political development leading to democracy"
       ]
-    },
-    {
-      "id": "-559-003",
-      "title": "Confucius born (traditional date)",
-      "region": "Lu, China (modern Shandong Province)",
-      "coordinates_approx": "35.6, 117.0",
-      "category": "cultural",
-      "description": "According to traditional Chinese sources, Confucius (Kong Qiu) was born in 551 BCE in the state of Lu during the Spring and Autumn period. However, some modern scholars place his birth in 552 or 553 BCE. The traditional date of 551 BCE is widely accepted in East Asian scholarship, though Western scholars sometimes cite 559 BCE as an alternative. Confucius would become one of history's most influential philosophers, shaping Chinese thought, ethics, and governance for over two millennia.",
-      "key_figures": [
-        "Confucius (Kong Qiu)"
-      ],
-      "sources": [
-        {
-          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Lunyu (Analects of Confucius)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "traditional",
-      "certainty_note": "The birth date of Confucius is not attested in contemporary sources. The Shiji, compiled ~400 years after Confucius's death, gives 551 BCE as the traditional date. Modern scholarship debates whether this reflects actual historical memory or symbolic dating. Some sources cite 559 BCE; others 552 BCE. The uncertainty is inherent to the source tradition.",
-      "cross_references": [
-        "Foundational to Chinese philosophical tradition"
-      ]
     }
   ],
   "disconfirming_evidence": "The dating of Cyrus II's conquest of Media is debated: some scholars place it as early as 553 BCE, others as late as 547 BCE. The Nabonidus Chronicle is our most reliable source, but its exact chronological alignment with Greek sources remains uncertain. Herodotus's account of Cyrus's birth and early life contains legendary elements (the story of Astyages's dream) that modern scholarship treats as mythological rather than historical. The birth date of Confucius is entirely traditional; no contemporary evidence exists, and the date may be symbolic rather than historical.",
@@ -115,12 +87,6 @@
       "to": "-510-001",
       "relation": "led_to",
       "note": "Pisistratus's tyranny sets precedent for later Athenian political struggles"
-    },
-    {
-      "from": "-559-003",
-      "to": "-479-001",
-      "relation": "led_to",
-      "note": "Confucius's life and teachings shape Chinese philosophy and governance for millennia"
     }
   ]
 }

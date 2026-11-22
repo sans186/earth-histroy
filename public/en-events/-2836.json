@@ -10,29 +10,6 @@
   ],
   "events": [
     {
-      "id": "-2836-001",
-      "title": "Akkadian Empire: Internal Rebellion and Gutian Pressure",
-      "region": "Mesopotamia",
-      "coordinates_approx": "32.5, 44.5",
-      "category": "military",
-      "description": "Naram-Sin's Akkadian Empire faces increasing internal rebellion and external pressure from Gutian incursions. Administrative records document military campaigns to suppress rebellions in Mesopotamian city-states and to defend against Gutian raids from the northeast. The empire is beginning to show signs of strain, though it remains powerful. These pressures will eventually lead to the empire's collapse within a few decades.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian administrative texts and royal inscriptions documenting military campaigns",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The general trajectory of increasing pressure on the Akkadian Empire is well documented. Specific dating to this year is conventional.",
-      "cross_references": [
-        "-2837-001"
-      ]
-    },
-    {
       "id": "-2836-002",
       "title": "Egyptian Old Kingdom: Pepi II's Reign Continues in Decline",
       "region": "Egypt",
@@ -59,12 +36,5 @@
   ],
   "disconfirming_evidence": "The precise dating of the Akkadian Empire's collapse and the rise of Gutian pressure is debated. Some scholars argue that the Gutian invasion occurred earlier or later than traditionally dated. The relationship between internal rebellion and external pressure is not definitively established for this specific year.",
   "historiographic_note": "The historical record for this year is based on administrative texts and inscriptions that document broad trends rather than specific year-dated events. The assignment of events to this particular year is conventional, reflecting the general state of civilizations during this period.",
-  "graph_edges": [
-    {
-      "from": "-2836-001",
-      "to": "-2218-001",
-      "relation": "led_to",
-      "note": "Internal rebellion and Gutian pressure eventually lead to the collapse of the Akkadian Empire"
-    }
-  ]
+  "graph_edges": []
 }

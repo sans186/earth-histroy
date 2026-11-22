@@ -18,7 +18,7 @@
       "category": "political",
       "description": "Pepi II's long reign continues. By this point in his rule, provincial governors (nomarchs) are accumulating increasing power and autonomy, a trend that will eventually lead to the collapse of central authority at the end of Dynasty VI. Archaeological evidence shows that while the pharaoh maintained nominal control, local elites were building independent power bases. This period marks the gradual transition toward the First Intermediate Period.",
       "key_figures": [
-        "Pepi II (Neferkare) \u2014 Pharaoh of Egypt"
+        "Pepi II (Neferkare) — Pharaoh of Egypt"
       ],
       "sources": [
         {
@@ -33,37 +33,9 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Pepi II's reign is attested, but the specific events of individual years within his reign are not precisely dated. Assignment to 2468 BCE carries \u00b150-year uncertainty.",
+      "certainty_note": "Pepi II's reign is attested, but the specific events of individual years within his reign are not precisely dated. Assignment to 2468 BCE carries ±50-year uncertainty.",
       "cross_references": [
         "-2469-001"
-      ]
-    },
-    {
-      "id": "-2468-002",
-      "title": "Naram-Sin consolidates control; Gutian pressure increases",
-      "region": "Mesopotamia, Akkad",
-      "coordinates_approx": "33.0, 44.0",
-      "category": "military",
-      "description": "Naram-Sin's reign continues, but evidence suggests increasing pressure from Gutian tribes in the Zagros Mountains and internal rebellions within the empire. While Naram-Sin maintained military campaigns and territorial control, the empire was beginning to face the pressures that would lead to its collapse within a generation. Administrative records show continued centralization of power under Naram-Sin, but also signs of strain.",
-      "key_figures": [
-        "Naram-Sin \u2014 King of Akkad"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian administrative documents and inscriptions",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Later Sumerian chronicles describing Gutian invasions",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "Naram-Sin's reign is well-documented, but specific events within individual years are not precisely dated. The general trajectory of increasing pressure is clear from the historical record.",
-      "cross_references": [
-        "-2469-002"
       ]
     },
     {
@@ -101,12 +73,6 @@
       "to": "-2467-001",
       "relation": "led_to",
       "note": "Pepi II's reign continues; administrative fragmentation accelerates"
-    },
-    {
-      "from": "-2468-002",
-      "to": "-2467-002",
-      "relation": "led_to",
-      "note": "Naram-Sin's empire faces increasing pressure; collapse will follow"
     }
   ]
 }

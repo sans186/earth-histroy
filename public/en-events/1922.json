@@ -1,54 +1,21 @@
 {
   "year": 1922,
   "year_label": "1922 CE",
-  "era_context": "The early interwar period. The League of Nations is established. The Soviet Union consolidates power under Lenin. Turkey experiences nationalist revolution under Atat\u00fcrk. China remains fragmented under warlord rule. The Irish Free State is established. The Roaring Twenties begin in North America and Western Europe.",
+  "era_context": "The early interwar period. The League of Nations is established. The Soviet Union consolidates power under Lenin. Turkey experiences nationalist revolution under Atatürk. China remains fragmented under warlord rule. The Irish Free State is established. The Roaring Twenties begin in North America and Western Europe.",
   "documentation_level": "rich",
   "geographic_coverage_gaps": [],
   "events": [
-    {
-      "id": "1922-001",
-      "title": "League of Nations Established; International Governance Framework",
-      "region": "International",
-      "coordinates_approx": "46.2,6.1",
-      "category": "political",
-      "description": "The League of Nations, established by the Treaty of Versailles, officially began operations on 10 January 1922 with its first Assembly meeting in Geneva. The League was intended to prevent future wars through international cooperation, arbitration, and collective security. However, the League was weakened from the outset by the absence of the United States (which had not ratified the Treaty of Versailles) and the Soviet Union (which was excluded as a communist state). The League also lacked enforcement mechanisms and was unable to prevent aggression by major powers. Despite its limitations, the League represented an important attempt at international governance and influenced the later establishment of the United Nations.",
-      "key_figures": [
-        "Woodrow Wilson (U.S. President, League advocate)",
-        "Georges Clemenceau (French statesman)",
-        "David Lloyd George (British Prime Minister)"
-      ],
-      "sources": [
-        {
-          "name": "League of Nations official records and assembly minutes",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Treaty of Versailles (1919)",
-          "type": "primary_text",
-          "contemporary": false
-        },
-        {
-          "name": "Walters, F. P. (1952). A History of the League of Nations",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The League of Nations began operations on 10 January 1922, as documented in League records and contemporary sources.",
-      "cross_references": []
-    },
     {
       "id": "1922-002",
       "title": "Irish Free State Established; Irish Independence Achieved",
       "region": "Ireland",
       "coordinates_approx": "53.4,-8.2",
       "category": "political",
-      "description": "The Irish Free State was officially established on 6 December 1922, following the Anglo-Irish Treaty of 1921. The Irish Free State was a self-governing dominion within the British Commonwealth, representing a compromise between Irish independence and continued ties to Britain. The establishment of the Irish Free State ended the Irish War of Independence (1919\u201321) but did not resolve the question of Irish unity, as Northern Ireland remained part of the United Kingdom. The Irish Free State was led by W. T. Cosgrave and the pro-treaty faction of the Irish independence movement. The establishment of the Irish Free State was a major step toward Irish independence, though full independence would not be achieved until 1949.",
+      "description": "The Irish Free State was officially established on 6 December 1922, following the Anglo-Irish Treaty of 1921. The Irish Free State was a self-governing dominion within the British Commonwealth, representing a compromise between Irish independence and continued ties to Britain. The establishment of the Irish Free State ended the Irish War of Independence (1919–21) but did not resolve the question of Irish unity, as Northern Ireland remained part of the United Kingdom. The Irish Free State was led by W. T. Cosgrave and the pro-treaty faction of the Irish independence movement. The establishment of the Irish Free State was a major step toward Irish independence, though full independence would not be achieved until 1949.",
       "key_figures": [
         "W. T. Cosgrave (first President of the Executive Council)",
         "Michael Collins (military leader, assassinated August 1922)",
-        "\u00c9amon de Valera (anti-treaty leader)"
+        "Éamon de Valera (anti-treaty leader)"
       ],
       "sources": [
         {
@@ -62,7 +29,7 @@
           "contemporary": false
         },
         {
-          "name": "Foster, R. F. (1988). Modern Ireland 1600\u20131972",
+          "name": "Foster, R. F. (1988). Modern Ireland 1600–1972",
           "type": "historiographic_consensus",
           "contemporary": false
         }
@@ -94,7 +61,7 @@
           "contemporary": true
         },
         {
-          "name": "Marks, S. P. (1976). The Illusion of Peace: International Relations in Europe 1918\u20131933",
+          "name": "Marks, S. P. (1976). The Illusion of Peace: International Relations in Europe 1918–1933",
           "type": "historiographic_consensus",
           "contemporary": false
         }
@@ -109,10 +76,10 @@
       "region": "Turkey",
       "coordinates_approx": "39.9,32.9",
       "category": "military",
-      "description": "The Turkish War of Independence (1919\u201323) effectively concluded in 1922 with the decisive victory of Turkish nationalist forces under Mustafa Kemal Atat\u00fcrk over Greek forces and the Ottoman government. The Battle of Sakarya (August\u2013September 1921) and the Great Offensive (August\u2013September 1922) were turning points in the war. By 1922, Turkish nationalist forces had expelled Greek forces from Anatolia and established control over most of Turkish territory. The war resulted in the collapse of the Ottoman Empire and the establishment of the Turkish nationalist state. The Treaty of Lausanne (1923) would formally recognize Turkish independence and establish the borders of the modern Turkish state.",
+      "description": "The Turkish War of Independence (1919–23) effectively concluded in 1922 with the decisive victory of Turkish nationalist forces under Mustafa Kemal Atatürk over Greek forces and the Ottoman government. The Battle of Sakarya (August–September 1921) and the Great Offensive (August–September 1922) were turning points in the war. By 1922, Turkish nationalist forces had expelled Greek forces from Anatolia and established control over most of Turkish territory. The war resulted in the collapse of the Ottoman Empire and the establishment of the Turkish nationalist state. The Treaty of Lausanne (1923) would formally recognize Turkish independence and establish the borders of the modern Turkish state.",
       "key_figures": [
-        "Mustafa Kemal Atat\u00fcrk (Turkish nationalist leader)",
-        "Ismet In\u00f6n\u00fc (Turkish military commander)",
+        "Mustafa Kemal Atatürk (Turkish nationalist leader)",
+        "Ismet Inönü (Turkish military commander)",
         "Venizelos (Greek Prime Minister)"
       ],
       "sources": [
@@ -127,7 +94,7 @@
           "contemporary": true
         },
         {
-          "name": "Mango, A. (1999). Atat\u00fcrk: The Biography of the Founder of Modern Turkey",
+          "name": "Mango, A. (1999). Atatürk: The Biography of the Founder of Modern Turkey",
           "type": "historiographic_consensus",
           "contemporary": false
         }
@@ -145,7 +112,7 @@
       "region": "Italy",
       "coordinates_approx": "41.9,12.5",
       "category": "political",
-      "description": "On 28 October 1922, Benito Mussolini and the Fascist Party marched on Rome, forcing King Victor Emmanuel III to appoint Mussolini as Prime Minister. The March on Rome was a show of force by the Fascist movement, which had been gaining strength through paramilitary violence and political agitation. Mussolini's appointment marked the beginning of fascist rule in Italy and the establishment of the first fascist state in Europe. Mussolini quickly consolidated power, suppressing opposition parties and establishing a totalitarian regime. The rise of Mussolini and Italian fascism influenced the development of fascism in other countries, including Germany, and contributed to the political instability of the 1920s\u201330s.",
+      "description": "On 28 October 1922, Benito Mussolini and the Fascist Party marched on Rome, forcing King Victor Emmanuel III to appoint Mussolini as Prime Minister. The March on Rome was a show of force by the Fascist movement, which had been gaining strength through paramilitary violence and political agitation. Mussolini's appointment marked the beginning of fascist rule in Italy and the establishment of the first fascist state in Europe. Mussolini quickly consolidated power, suppressing opposition parties and establishing a totalitarian regime. The rise of Mussolini and Italian fascism influenced the development of fascism in other countries, including Germany, and contributed to the political instability of the 1920s–30s.",
       "key_figures": [
         "Benito Mussolini (Fascist leader, appointed Prime Minister)",
         "King Victor Emmanuel III (Italian monarch)",
@@ -196,7 +163,7 @@
           "contemporary": true
         },
         {
-          "name": "Dingman, R. (1976). Power in the Pacific: The Origins of Naval Arms Limitation, 1914\u20131922",
+          "name": "Dingman, R. (1976). Power in the Pacific: The Origins of Naval Arms Limitation, 1914–1922",
           "type": "historiographic_consensus",
           "contemporary": false
         }
@@ -229,7 +196,7 @@
           "contemporary": true
         },
         {
-          "name": "Carter, H. (1923\u20131933). The Tomb of Tutankhamun",
+          "name": "Carter, H. (1923–1933). The Tomb of Tutankhamun",
           "type": "primary_text",
           "contemporary": true
         }
@@ -262,7 +229,7 @@
           "contemporary": true
         },
         {
-          "name": "Grunberger, R. (1971). The 12-Year Reich: A Social History of Nazi Germany 1933\u20131945",
+          "name": "Grunberger, R. (1971). The 12-Year Reich: A Social History of Nazi Germany 1933–1945",
           "type": "historiographic_consensus",
           "contemporary": false
         }
@@ -277,7 +244,7 @@
       "region": "Soviet Union",
       "coordinates_approx": "55.75,37.62",
       "category": "political",
-      "description": "The Union of Soviet Socialist Republics (USSR) was formally established on 30 December 1922, following the consolidation of Soviet power in the Russian Civil War (1918\u201322). The USSR was created as a federal union of Soviet republics (Russian SFSR, Ukrainian SSR, Byelorussian SSR, and Transcaucasian SFSR), with Moscow as the capital. The establishment of the USSR marked the official creation of the Soviet state and the beginning of the Soviet period in Russian history. The USSR would become a major world power and a rival to the Western powers throughout the 20th century.",
+      "description": "The Union of Soviet Socialist Republics (USSR) was formally established on 30 December 1922, following the consolidation of Soviet power in the Russian Civil War (1918–22). The USSR was created as a federal union of Soviet republics (Russian SFSR, Ukrainian SSR, Byelorussian SSR, and Transcaucasian SFSR), with Moscow as the capital. The establishment of the USSR marked the official creation of the Soviet state and the beginning of the Soviet period in Russian history. The USSR would become a major world power and a rival to the Western powers throughout the 20th century.",
       "key_figures": [
         "Vladimir Lenin (Soviet leader)",
         "Joseph Stalin (General Secretary)",
@@ -341,12 +308,6 @@
   "disconfirming_evidence": "The League of Nations is sometimes presented as a complete failure; however, modern scholarship emphasizes that it achieved some successes in arbitration and humanitarian work, though it was ultimately unable to prevent major power aggression. The Irish Free State is sometimes presented as a complete victory for Irish independence; however, it represented a compromise that left Northern Ireland under British control and created internal divisions in the Irish independence movement. The Treaty of Rapallo is sometimes presented as a major diplomatic breakthrough; however, it was also controversial and contributed to Western suspicions of both Germany and the Soviet Union. Mussolini's March on Rome is sometimes presented as a spontaneous popular uprising; however, modern scholarship emphasizes that it was a carefully orchestrated political maneuver and that the King's decision to appoint Mussolini was not inevitable. The Washington Naval Conference is sometimes presented as a complete success; however, it did not address other types of warships and did not prevent later naval expansion.",
   "historiographic_note": "1922 is well-documented in Western sources, particularly for political and cultural events in Europe and North America. German sources are rich, reflecting the significance of political violence and the Treaty of Rapallo. Turkish sources are adequate but often reflect nationalist perspectives. Soviet sources are available but selective, reflecting official party narratives. Irish sources are adequate but often reflect nationalist perspectives. Chinese sources are sparse for this year. African, South Asian, and Oceanic documentation is sparse. The historical record is shaped by contemporary newspapers, government records, and later historiographic synthesis. Western sources tend to emphasize European and American events; non-Western events are often underrepresented in English-language historiography.",
   "graph_edges": [
-    {
-      "from": "1922-001",
-      "to": "1922-001",
-      "relation": "contemporary_with",
-      "note": "League of Nations begins operations, 10 January 1922"
-    },
     {
       "from": "1922-002",
       "to": "1922-002",

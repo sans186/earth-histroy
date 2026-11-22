@@ -30,7 +30,7 @@
           "contemporary": false
         },
         {
-          "name": "Book of Kings 25:1\u20137",
+          "name": "Book of Kings 25:1–7",
           "type": "later_compilation",
           "contemporary": false
         },
@@ -46,7 +46,7 @@
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The siege's continuation and intensification in 587 BCE is consistent with the Babylonian Chronicles and biblical sources. However, the exact year of the wall breach (587 vs. 586 BCE) is debated among scholars. Most modern chronologies place the final breach and destruction in 586 BCE, making 587 BCE the penultimate year of the siege. The chronology is secure within \u00b11 year.",
+      "certainty_note": "The siege's continuation and intensification in 587 BCE is consistent with the Babylonian Chronicles and biblical sources. However, the exact year of the wall breach (587 vs. 586 BCE) is debated among scholars. Most modern chronologies place the final breach and destruction in 586 BCE, making 587 BCE the penultimate year of the siege. The chronology is secure within ±1 year.",
       "cross_references": [
         "Continuation of -589-001 and -588-001",
         "Immediately precedes -586-001 (Fall of Jerusalem)"
@@ -58,7 +58,7 @@
       "region": "Levant, Egypt, Achaemenid sphere",
       "coordinates_approx": "30.0, 35.0",
       "category": "military",
-      "description": "During the final years of the Jerusalem siege (587\u2013586 BCE), Nebuchadnezzar II may have conducted additional military campaigns in the Levant to consolidate Babylonian control and suppress potential Egyptian interference. Some sources suggest Babylonian military activity in Phoenician cities (Tyre, Sidon) and possibly raids into Egyptian territory. These campaigns were part of Nebuchadnezzar's broader strategy to establish Babylonian hegemony over the eastern Mediterranean and prevent Egyptian resurgence. However, the specific chronology and extent of these campaigns in 587 BCE are poorly documented.",
+      "description": "During the final years of the Jerusalem siege (587–586 BCE), Nebuchadnezzar II may have conducted additional military campaigns in the Levant to consolidate Babylonian control and suppress potential Egyptian interference. Some sources suggest Babylonian military activity in Phoenician cities (Tyre, Sidon) and possibly raids into Egyptian territory. These campaigns were part of Nebuchadnezzar's broader strategy to establish Babylonian hegemony over the eastern Mediterranean and prevent Egyptian resurgence. However, the specific chronology and extent of these campaigns in 587 BCE are poorly documented.",
       "key_figures": [
         "Nebuchadnezzar II (King of Babylon)",
         "Hophra (Pharaoh of Egypt)"
@@ -86,40 +86,10 @@
         "Related to broader Babylonian imperial expansion",
         "Part of Nebuchadnezzar's consolidation of Near Eastern hegemony"
       ]
-    },
-    {
-      "id": "-587-003",
-      "title": "Continued development of Confucian teaching in China",
-      "region": "China, State of Lu and surrounding territories",
-      "coordinates_approx": "35.6, 117.0",
-      "category": "cultural",
-      "description": "Confucius (551\u2013479 BCE), now approximately 36 years old, continued his role as a teacher and philosopher during the Spring and Autumn period. He was engaged in transmitting traditional ritual knowledge (li) and ethical teachings to his disciples, who would later compile his sayings in the Analects. This period marks the consolidation of Confucian thought, emphasizing virtue (de), proper conduct, and the importance of ritual propriety in governance and social relations. Though Confucius himself did not achieve major political power during his lifetime, his teachings were beginning to attract followers who would spread his influence throughout China and eventually East Asia.",
-      "key_figures": [
-        "Confucius (Kong Qiu, 551\u2013479 BCE)",
-        "Early disciples of Confucius"
-      ],
-      "sources": [
-        {
-          "name": "Analects (Lunyu), compiled by disciples",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Confucius's life dates (551\u2013479 BCE) are traditionally accepted, making him approximately 36 years old in 587 BCE. However, specific events of individual years are not documented in contemporary sources. The Analects and Shiji are later compilations and do not provide year-by-year chronology. His activity as a teacher during this period is certain, but specific events of 587 BCE are not documented.",
-      "cross_references": [
-        "Continuation of -588-003",
-        "Part of broader Spring and Autumn period intellectual development"
-      ]
     }
   ],
   "disconfirming_evidence": "The exact year of the breach of Jerusalem's walls is disputed. While the siege began in 589 BCE, the final breach and destruction of the city may have occurred in 586 BCE rather than 587 BCE. Some scholars argue for 587 BCE based on alternative chronological reconstructions, but the majority of modern scholarship places the destruction in 586 BCE. The specific events of 587 BCE during the siege are not clearly documented in contemporary sources; the biblical and later accounts do not provide year-by-year detail. Babylonian campaigns in the Levant and Egypt in 587 BCE are inferred from broader patterns of Nebuchadnezzar's military activity but are not explicitly documented for this specific year.",
-  "historiographic_note": "The historical record for 587 BCE is dominated by Near Eastern sources, with the Jerusalem siege being the most significant documented event. The Babylonian Chronicles provide contemporary documentation, while Hebrew biblical sources are later compilations. Egyptian sources for this period exist but are less frequently cited. Chinese sources (Shiji, Analects) are later compilations but represent the best available documentation for Confucius. The record is heavily weighted toward military and political events in the Near East; cultural and intellectual developments in China are documented primarily through later compilations. The chronological precision of events in 587 BCE specifically is limited; most events are dated within \u00b11\u20132 years. Sub-Saharan Africa, Mesoamerica, Northern Europe, and Southeast Asia remain essentially absent from the historical record.",
+  "historiographic_note": "The historical record for 587 BCE is dominated by Near Eastern sources, with the Jerusalem siege being the most significant documented event. The Babylonian Chronicles provide contemporary documentation, while Hebrew biblical sources are later compilations. Egyptian sources for this period exist but are less frequently cited. Chinese sources (Shiji, Analects) are later compilations but represent the best available documentation for Confucius. The record is heavily weighted toward military and political events in the Near East; cultural and intellectual developments in China are documented primarily through later compilations. The chronological precision of events in 587 BCE specifically is limited; most events are dated within ±1–2 years. Sub-Saharan Africa, Mesoamerica, Northern Europe, and Southeast Asia remain essentially absent from the historical record.",
   "graph_edges": [
     {
       "from": "-587-001",
@@ -138,12 +108,6 @@
       "to": "-587-001",
       "relation": "contemporary_with",
       "note": "Babylonian military campaigns in the Levant occurred during the Jerusalem siege"
-    },
-    {
-      "from": "-587-003",
-      "to": "-479-001",
-      "relation": "led_to",
-      "note": "Confucius's teaching during this period established the philosophical tradition that dominated East Asia"
     }
   ]
 }

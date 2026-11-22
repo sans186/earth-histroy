@@ -12,34 +12,6 @@
   ],
   "events": [
     {
-      "id": "-2807-001",
-      "title": "Naram-Sin's Campaign Against the Lullubi and Mountain Peoples",
-      "region": "Mesopotamia, Zagros Mountains",
-      "coordinates_approx": "35.0, 46.0",
-      "category": "military",
-      "description": "Naram-Sin conducts military campaigns against the Lullubi and other mountain peoples in the Zagros region, as recorded in the famous Naram-Sin Stele. These campaigns were aimed at securing control over trade routes and resources, particularly tin and timber from the mountains. The stele depicts Naram-Sin as a divine warrior, trampling enemies beneath his feet. These campaigns represent attempts to extend Akkadian hegemony into peripheral regions, but they also drained resources and may have provoked resistance.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Naram-Sin Stele (limestone stele from Sippar)",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Royal inscriptions from Akkad",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The Naram-Sin Stele is a well-attested primary source, but the precise dating of individual campaigns within Naram-Sin's reign is uncertain. This event is assigned to -2807 by convention.",
-      "cross_references": [
-        "Related to -2809-001 (broader military campaigns)"
-      ]
-    },
-    {
       "id": "-2807-002",
       "title": "Indus Valley Trade Networks at Peak Activity",
       "region": "Indus Valley, South Asia, and beyond",
@@ -67,12 +39,6 @@
   "disconfirming_evidence": "The Naram-Sin Stele is a highly stylized monument and may not accurately represent the outcomes of Naram-Sin's campaigns. Some scholars argue that the stele was created to legitimize Naram-Sin's rule in the face of military setbacks or internal instability, rather than to commemorate genuine victories. The extent of Akkadian control over mountain regions is debated; some scholars argue that Akkadian hegemony was limited to lowland Mesopotamia and the immediate periphery. The nature and extent of Indus-Mesopotamian trade is also debated; some scholars argue that trade was limited and indirect, mediated through intermediaries in the Persian Gulf.",
   "historiographic_note": "The historical record for this year is heavily dependent on Akkadian royal inscriptions, which are propagandistic and may exaggerate military success. Archaeological evidence from destroyed sites provides some corroboration, but attribution of destruction to Akkadian campaigns is often speculative. The Indus Valley Civilization's trade networks are documented through archaeological evidence, but the absence of deciphered written records limits understanding of the organization and motivations behind this trade. The broader world remains largely invisible in surviving sources.",
   "graph_edges": [
-    {
-      "from": "-2807-001",
-      "to": "-2800-AKKADIAN_COLLAPSE",
-      "relation": "led_to",
-      "note": "Naram-Sin's aggressive military campaigns drained resources and may have provoked resistance that contributed to the empire's collapse."
-    },
     {
       "from": "-2807-002",
       "to": "-2750-INDUS_DECLINE",

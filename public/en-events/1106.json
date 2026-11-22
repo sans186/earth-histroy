@@ -1,7 +1,7 @@
 {
   "year": 1106,
   "year_label": "1106 CE",
-  "era_context": "The early 12th century witnessed the height of the Crusader States in the Levant following the First Crusade (1096\u20131099), the consolidation of Norman rule in England and Sicily under Henry I and Roger I respectively, the Song Dynasty's continued dominance in China despite Jurchen pressure in the north, and the Seljuk Empire's fragmentation into regional sultanates. This was an era of religious ferment, feudal reorganisation, and significant cross-cultural contact along trade routes and conflict zones.",
+  "era_context": "The early 12th century witnessed the height of the Crusader States in the Levant following the First Crusade (1096–1099), the consolidation of Norman rule in England and Sicily under Henry I and Roger I respectively, the Song Dynasty's continued dominance in China despite Jurchen pressure in the north, and the Seljuk Empire's fragmentation into regional sultanates. This was an era of religious ferment, feudal reorganisation, and significant cross-cultural contact along trade routes and conflict zones.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa (limited written sources; oral traditions not systematically recorded)",
@@ -9,41 +9,6 @@
     "Central Asia (limited non-Islamic sources; Silk Road trade records fragmentary)"
   ],
   "events": [
-    {
-      "id": "1106-001",
-      "title": "Death of Henry I of England; succession crisis and civil war begins",
-      "region": "England, Normandy",
-      "coordinates_approx": "51.5,-0.1",
-      "category": "political",
-      "description": "Henry I of England died on 1 December 1135 (not 1106; this is a correction to the research year). However, in 1106, Henry I defeated his brother Robert Curthose at the Battle of Tinchebrai in Normandy, decisively ending the civil war that had divided England and Normandy since 1100. This victory consolidated Henry's rule over both realms and imprisoned Robert for life, establishing a stable succession. The battle marked the end of the post-Conquest instability and the beginning of Henry's long reign of relative peace.",
-      "key_figures": [
-        "Henry I of England (King)",
-        "Robert Curthose (Duke of Normandy, Henry's brother)"
-      ],
-      "sources": [
-        {
-          "name": "Anglo-Saxon Chronicle (E version)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Orderic Vitalis, Ecclesiastical History",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "William of Malmesbury, Gesta Regum Anglorum",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Battle of Tinchebrai is dated to 28 September 1106 in contemporary chronicles. Multiple near-contemporary sources confirm the event and its outcome.",
-      "cross_references": [
-        "1100-001 (Henry I's accession)",
-        "1135-001 (Henry I's death and succession dispute)"
-      ]
-    },
     {
       "id": "1106-002",
       "title": "Earthquake in Syria and the Levant",
@@ -83,7 +48,7 @@
       "key_figures": [
         "Bohemond I of Antioch (Prince, Crusader leader)",
         "Tancred of Lecce (regent during Bohemond's captivity)",
-        "G\u00fcm\u00fcshtekin (Danishmend emir)"
+        "Gümüshtekin (Danishmend emir)"
       ],
       "sources": [
         {

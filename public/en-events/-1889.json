@@ -17,52 +17,23 @@
       "region": "Hittite Empire, Anatolia",
       "coordinates_approx": "35.5, 35.0",
       "category": "political",
-      "description": "Mursili II's reign (approximately 1295\u20131271 BCE in conventional chronology) represents a period of Hittite imperial consolidation and administrative development. The Annals of Mursili II document military campaigns, diplomatic correspondence, and administrative reforms. His reign saw the establishment of more formalized vassal relationships and the development of imperial bureaucratic structures. Mursili II is considered one of the greatest Hittite rulers, responsible for expanding and stabilizing the empire during a period of regional competition.",
+      "description": "Mursili II's reign (approximately 1295–1271 BCE in conventional chronology) represents a period of Hittite imperial consolidation and administrative development. The Annals of Mursili II document military campaigns, diplomatic correspondence, and administrative reforms. His reign saw the establishment of more formalized vassal relationships and the development of imperial bureaucratic structures. Mursili II is considered one of the greatest Hittite rulers, responsible for expanding and stabilizing the empire during a period of regional competition.",
       "key_figures": [
         "Mursili II (Hittite Great King)"
       ],
       "sources": [
         {
-          "name": "Annals of Mursili II (cuneiform tablets from Bo\u011fazk\u00f6y)",
+          "name": "Annals of Mursili II (cuneiform tablets from Boğazköy)",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Mursili II's reign is well-documented in cuneiform sources. The conventional chronological placement is based on Egyptian synchronisms and astronomical calculations, but carries \u00b115\u201320 year uncertainty.",
+      "certainty_note": "Mursili II's reign is well-documented in cuneiform sources. The conventional chronological placement is based on Egyptian synchronisms and astronomical calculations, but carries ±15–20 year uncertainty.",
       "cross_references": [
         "-1885-001",
         "-1886-001",
         "-1888-001"
-      ]
-    },
-    {
-      "id": "-1889-002",
-      "title": "Ramesses II's reign and Egyptian imperial administration",
-      "region": "Egypt, Nubia, Levant",
-      "coordinates_approx": "26.0, 32.0",
-      "category": "political",
-      "description": "Ramesses II (Usermaatra-setep-en-re, approximately 1279\u20131213 BCE in conventional chronology) was one of Egypt's greatest pharaohs. His reign saw extensive military campaigns, monumental building programs, and the establishment of Egypt as a dominant Mediterranean power. The famous Battle of Kadesh (approximately 1274 BCE) against the Hittites resulted in a peace treaty\u2014one of the earliest documented international agreements. Ramesses II's reign represents the height of Egyptian imperial power and cultural achievement during the 19th Dynasty.",
-      "key_figures": [
-        "Ramesses II (Egyptian Pharaoh, 19th Dynasty)"
-      ],
-      "sources": [
-        {
-          "name": "Temple inscriptions, papyri, and administrative records",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Archaeological evidence from temple sites and tombs",
-          "type": "archaeological",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Ramesses II's reign is one of the best-documented periods of ancient Egypt. Chronological placement is secure within \u00b15\u201310 years based on Egyptian king lists and astronomical calculations.",
-      "cross_references": [
-        "-1885-002",
-        "-1888-002"
       ]
     },
     {
@@ -83,26 +54,20 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Oracle bones are securely dated to the Shang Dynasty, but precise year-by-year assignment is not archaeologically possible. Shang chronology remains debated; conventional dating places this in the mid-to-late Shang period, but absolute dates carry \u00b150\u2013100 year uncertainty.",
+      "certainty_note": "Oracle bones are securely dated to the Shang Dynasty, but precise year-by-year assignment is not archaeologically possible. Shang chronology remains debated; conventional dating places this in the mid-to-late Shang period, but absolute dates carry ±50–100 year uncertainty.",
       "cross_references": [
         "-1886-002"
       ]
     }
   ],
-  "disconfirming_evidence": "The absolute chronology of the Late Bronze Age and Shang Dynasty remains contested. The conventional 'Middle Chronology' for the Near East differs from alternative chronologies by 50\u2013150 years. Shang Dynasty chronology is particularly disputed; traditional Chinese chronology places the Shang much earlier than modern archaeological consensus. The Battle of Kadesh dating (traditionally 1274 BCE) has been questioned by some scholars who propose alternative dates. Some scholars also dispute the traditional narrative of Hittite-Egyptian rivalry, arguing that the relationship was more cooperative than competitive.",
-  "historiographic_note": "Documentation for 1890 BCE is sparse and heavily weighted toward the literate states of the Near East (Egypt, Hittites) and the Aegean (Mycenaean Greece). Chinese oracle bones provide ritual and administrative snapshots but no narrative history. The vast majority of human societies\u2014including most of Africa, the Americas, northern Europe, and Asia\u2014left no written records for this year. The surviving documentation reflects elite, state-level activities in literate bureaucratic societies and is fundamentally incomplete and biased toward the Mediterranean and Near Eastern world. The record is also biased toward military and political events; economic, social, and cultural activities of non-elite populations are largely invisible.",
+  "disconfirming_evidence": "The absolute chronology of the Late Bronze Age and Shang Dynasty remains contested. The conventional 'Middle Chronology' for the Near East differs from alternative chronologies by 50–150 years. Shang Dynasty chronology is particularly disputed; traditional Chinese chronology places the Shang much earlier than modern archaeological consensus. The Battle of Kadesh dating (traditionally 1274 BCE) has been questioned by some scholars who propose alternative dates. Some scholars also dispute the traditional narrative of Hittite-Egyptian rivalry, arguing that the relationship was more cooperative than competitive.",
+  "historiographic_note": "Documentation for 1890 BCE is sparse and heavily weighted toward the literate states of the Near East (Egypt, Hittites) and the Aegean (Mycenaean Greece). Chinese oracle bones provide ritual and administrative snapshots but no narrative history. The vast majority of human societies—including most of Africa, the Americas, northern Europe, and Asia—left no written records for this year. The surviving documentation reflects elite, state-level activities in literate bureaucratic societies and is fundamentally incomplete and biased toward the Mediterranean and Near Eastern world. The record is also biased toward military and political events; economic, social, and cultural activities of non-elite populations are largely invisible.",
   "graph_edges": [
     {
       "from": "-1889-001",
       "to": "-1889-002",
       "relation": "contemporary_with",
       "note": "Mursili II and Ramesses II were contemporaries, with documented diplomatic relations"
-    },
-    {
-      "from": "-1889-002",
-      "to": "-1888-002",
-      "relation": "part_of",
-      "note": "Ramesses II's reign spanned multiple decades with continuous administrative and building activities"
     }
   ]
 }

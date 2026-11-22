@@ -12,32 +12,6 @@
   ],
   "events": [
     {
-      "id": "-1317-001",
-      "title": "Continuation of Egyptian temple construction and religious administration",
-      "region": "Egypt",
-      "coordinates_approx": "26.0, 30.5",
-      "category": "religious",
-      "description": "Ramesses II continued the construction and decoration of temples throughout Egypt, particularly at Karnak, Luxor, and Abu Simbel. These projects served both religious and political functions, reinforcing the pharaoh's divine authority and the state's control over resources. Temple administrations managed vast estates and labour forces, making them central to the Egyptian economy.",
-      "key_figures": [
-        "Ramesses II (Pharaoh of Egypt)"
-      ],
-      "sources": [
-        {
-          "name": "Temple inscriptions and reliefs",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Administrative papyri",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Temple construction under Ramesses II is well-attested, but specific annual progress is rarely documented.",
-      "cross_references": []
-    },
-    {
       "id": "-1317-002",
       "title": "Hittite vassal state management and tribute collection",
       "region": "Hittite Empire and vassal territories",
@@ -49,7 +23,7 @@
       ],
       "sources": [
         {
-          "name": "Cuneiform tablets from Bo\u011fazk\u00f6y",
+          "name": "Cuneiform tablets from Boğazköy",
           "type": "primary_text",
           "contemporary": true
         }
@@ -80,12 +54,5 @@
   ],
   "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, some scholars have questioned the extent of centralized control attributed to Mycenaean palaces, suggesting that Linear B records may overstate the degree of administrative integration and that regional variation was greater than traditionally assumed.",
   "historiographic_note": "The historical record for 1318 BCE remains sparse for specific annual events. The sources are dominated by monumental inscriptions, administrative records, and archaeological evidence, which provide limited insight into the lives of non-elite populations. The chronology is dependent on Egyptian regnal lengths and pottery typology, both of which have inherent uncertainties.",
-  "graph_edges": [
-    {
-      "from": "-1317-001",
-      "to": "-1319-001",
-      "relation": "part_of",
-      "note": "Temple construction was part of Ramesses II's broader imperial strategy."
-    }
-  ]
+  "graph_edges": []
 }

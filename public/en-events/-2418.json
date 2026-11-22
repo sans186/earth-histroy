@@ -33,37 +33,9 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Pepi II's reign is historically attested, but absolute dating is uncertain by \u00b150\u2013100 years.",
+      "certainty_note": "Pepi II's reign is historically attested, but absolute dating is uncertain by ±50–100 years.",
       "cross_references": [
         "-2415-001 (Pepi II's reign)"
-      ]
-    },
-    {
-      "id": "-2418-002",
-      "title": "Akkadian Empire under Naram-Sin (military and administrative consolidation)",
-      "region": "Mesopotamia, Levant, Anatolia",
-      "coordinates_approx": "33.0, 44.0",
-      "category": "political",
-      "description": "Naram-Sin continues to consolidate Akkadian control over a vast empire. He declares himself divine, a significant innovation in Mesopotamian political ideology. The empire is at its territorial maximum, but maintaining control is becoming increasingly difficult due to internal instability and external pressure from the Gutians and other mountain peoples.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian inscriptions and stele",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Cuneiform administrative records",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's reign is well-attested in contemporary inscriptions, but the exact chronology is debated.",
-      "cross_references": [
-        "-2415-002 (Akkadian Empire under Naram-Sin)"
       ]
     },
     {
@@ -101,12 +73,6 @@
       "to": "-2415-001",
       "relation": "contemporary_with",
       "note": "Pepi II's reign continues."
-    },
-    {
-      "from": "-2418-002",
-      "to": "-2415-002",
-      "relation": "contemporary_with",
-      "note": "Akkadian Empire at height."
     },
     {
       "from": "-2418-003",

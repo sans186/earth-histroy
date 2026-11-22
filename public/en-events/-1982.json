@@ -9,40 +9,8 @@
     "Mesoamerica",
     "Southeast Asia and Oceania"
   ],
-  "events": [
-    {
-      "id": "-1982-001",
-      "title": "Ramesses II \u2014 reign continues",
-      "region": "Egypt (New Kingdom, 19th Dynasty)",
-      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
-      "category": "political",
-      "description": "Ramesses II's reign continues with ongoing administrative, military, and building activities. Egyptian hegemony over the Levant and Nubia is maintained. Trade with the Hittites, Mycenae, and other Mediterranean powers continues despite periodic military tensions.",
-      "key_figures": [
-        "Ramesses II (Pharaoh)"
-      ],
-      "sources": [
-        {
-          "name": "Egyptian temple inscriptions and administrative records",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Ramesses II's reign is well-attested; this year falls within it with high confidence, though specific events are not always distinguishable.",
-      "cross_references": [
-        "-1981-001",
-        "-1980-001"
-      ]
-    }
-  ],
+  "events": [],
   "disconfirming_evidence": "No disconfirming evidence identified for events listed.",
   "historiographic_note": "This year is poorly documented in surviving sources. The historical record is dominated by Egyptian and Hittite inscriptions; other regions are largely invisible. The apparent 'stability' of this period is a function of the survival of elite, literate records; the vast majority of human activity left no trace.",
-  "graph_edges": [
-    {
-      "from": "-1982-001",
-      "to": "-1981-001",
-      "relation": "led_to",
-      "note": "Continuation of Ramesses II's reign"
-    }
-  ]
+  "graph_edges": []
 }

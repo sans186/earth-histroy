@@ -11,34 +11,6 @@
   ],
   "events": [
     {
-      "id": "-2373-001",
-      "title": "Akkadian administrative consolidation and trade expansion",
-      "region": "Akkadian Empire and surrounding regions",
-      "coordinates_approx": "34.5, 44.0",
-      "category": "economic",
-      "description": "The Akkadian Empire under Naram-Sin continues to expand trade networks and consolidate administrative control. Akkadian merchants and officials operate throughout Mesopotamia, the Levant, and into Anatolia. Standardized weights, measures, and administrative practices are imposed across conquered territories. Akkadian becomes the lingua franca of administration and commerce across the empire. This period represents the height of Akkadian economic integration.",
-      "key_figures": [
-        "Naram-Sin (Akkadian king)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian administrative tablets and merchant records",
-          "type": "archaeological",
-          "contemporary": true
-        },
-        {
-          "name": "Inscriptions from Naram-Sin's reign",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Akkadian economic expansion is well-documented through administrative records and archaeological evidence of trade goods. Precise dating within Naram-Sin's reign is uncertain.",
-      "cross_references": [
-        "-2374-001"
-      ]
-    },
-    {
       "id": "-2373-002",
       "title": "Indus Valley Civilization seal production and standardization",
       "region": "Indus Valley",
@@ -82,7 +54,7 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Egyptian chronology for this period is uncertain by \u00b150\u2013100 years depending on the chronological system used.",
+      "certainty_note": "Egyptian chronology for this period is uncertain by ±50–100 years depending on the chronological system used.",
       "cross_references": [
         "-2374-003"
       ]
@@ -90,12 +62,5 @@
   ],
   "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the broader narrative of Akkadian stability in this period is complicated by evidence of climate stress (aridification) beginning in the late 23rd century BCE, which may have already been affecting agricultural productivity by this time.",
   "historiographic_note": "Sources for this year are similar to -2374: inscriptions, administrative records, and archaeology. Absolute chronology remains uncertain. The historical record is dominated by elite perspectives from Mesopotamia and Egypt; the Indus Valley Civilization's internal political and social structures remain largely unknown due to the undeciphered script.",
-  "graph_edges": [
-    {
-      "from": "-2373-001",
-      "to": "-2370-001",
-      "relation": "led_to",
-      "note": "Akkadian economic expansion and centralization contributed to the empire's vulnerability to external shocks."
-    }
-  ]
+  "graph_edges": []
 }

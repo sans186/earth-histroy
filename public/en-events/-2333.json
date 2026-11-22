@@ -1,7 +1,7 @@
 {
   "year": -2333,
   "year_label": "2333 BCE",
-  "era_context": "The Akkadian Empire under Naram-Sin (r. 2254\u20132218 BCE) is consolidating its power and expanding militarily. In Egypt, Pepi II's reign continues during the late Old Kingdom, a period of administrative fragmentation. The Indus Valley Civilization is in its mature phase with flourishing urban centers. In China, the Xia Dynasty (if historical) would be in its early phase, though archaeological confirmation remains contested.",
+  "era_context": "The Akkadian Empire under Naram-Sin (r. 2254–2218 BCE) is consolidating its power and expanding militarily. In Egypt, Pepi II's reign continues during the late Old Kingdom, a period of administrative fragmentation. The Indus Valley Civilization is in its mature phase with flourishing urban centers. In China, the Xia Dynasty (if historical) would be in its early phase, though archaeological confirmation remains contested.",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
@@ -11,27 +11,6 @@
     "Central Asia"
   ],
   "events": [
-    {
-      "id": "-2333-001",
-      "title": "Naram-Sin's reign: Military expansion and consolidation",
-      "region": "Mesopotamia, Levant, Anatolia",
-      "coordinates_approx": "35.0, 40.0",
-      "category": "military",
-      "description": "Naram-Sin continues his aggressive military campaigns to expand and consolidate Akkadian control. His inscriptions record victories over various enemies and the subjugation of city-states. These campaigns are part of a broader strategy to create a centralized empire under Akkadian rule. The military successes are accompanied by administrative reforms to integrate conquered territories into the Akkadian state.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad, r. 2254\u20132218 BCE)"
-      ],
-      "sources": [
-        {
-          "name": "Naram-Sin's inscriptions and administrative records",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's military campaigns are well-attested in inscriptions. The specific year -2333 is assigned as a representative year within his reign; individual campaigns are not dated to specific years in surviving sources.",
-      "cross_references": []
-    },
     {
       "id": "-2333-002",
       "title": "Pepi II's reign: Old Kingdom administrative decline",
@@ -84,13 +63,6 @@
     }
   ],
   "disconfirming_evidence": "The extent of Naram-Sin's territorial control is debated; some scholars argue that his inscriptions exaggerate the permanence of his conquests. The Indus Valley Civilization's political organization and governance structure remain speculative due to the undeciphered script.",
-  "historiographic_note": "The historical record for -2333 is sparse and relies on inscriptions and administrative documents from Mesopotamia and Egypt. For the Indus Valley, the record is primarily archaeological. Dating precision is limited to \u00b15\u201310 years for this period. The record is biased toward literate, centralized states; non-literate societies are underrepresented.",
-  "graph_edges": [
-    {
-      "from": "-2333-001",
-      "to": "-2330-001",
-      "relation": "part_of",
-      "note": "Military campaigns are part of Naram-Sin's broader expansion strategy"
-    }
-  ]
+  "historiographic_note": "The historical record for -2333 is sparse and relies on inscriptions and administrative documents from Mesopotamia and Egypt. For the Indus Valley, the record is primarily archaeological. Dating precision is limited to ±5–10 years for this period. The record is biased toward literate, centralized states; non-literate societies are underrepresented.",
+  "graph_edges": []
 }

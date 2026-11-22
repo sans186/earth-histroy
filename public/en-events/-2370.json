@@ -11,37 +11,6 @@
   ],
   "events": [
     {
-      "id": "-2370-001",
-      "title": "Akkadian Empire at maximum territorial extent under Naram-Sin",
-      "region": "Akkadian Empire (Mesopotamia, Levant, Anatolia, Zagros)",
-      "coordinates_approx": "34.5, 44.0",
-      "category": "political",
-      "description": "The Akkadian Empire under Naram-Sin reaches its greatest territorial extent, controlling much of Mesopotamia, the Levant, parts of Anatolia, and the Zagros Mountains. The empire is organized as a centralized state with Akkadian as the administrative language. Naram-Sin is worshipped as a god, and his authority is supreme. However, this period of maximum expansion is also the beginning of the empire's decline; within a few decades, internal rebellion, climate stress, and external invasion will lead to the empire's collapse.",
-      "key_figures": [
-        "Naram-Sin (Akkadian king)"
-      ],
-      "sources": [
-        {
-          "name": "Naram-Sin inscriptions and administrative records",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Archaeological evidence of Akkadian presence across the empire",
-          "type": "archaeological",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Akkadian Empire's territorial extent under Naram-Sin is well-attested in inscriptions and archaeological evidence. Precise dating is uncertain by \u00b110\u201320 years.",
-      "cross_references": [
-        "-2374-001",
-        "-2373-001",
-        "-2372-001",
-        "-2371-001"
-      ]
-    },
-    {
       "id": "-2370-002",
       "title": "Climate stress and aridification in the Near East",
       "region": "Near East (Mesopotamia, Levant, Anatolia)",
@@ -91,7 +60,7 @@
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The mature phase of the Indus Valley Civilization is well-established archaeologically. The peak population and extent are dated to c. 2600\u20131900 BCE.",
+      "certainty_note": "The mature phase of the Indus Valley Civilization is well-established archaeologically. The peak population and extent are dated to c. 2600–1900 BCE.",
       "cross_references": [
         "-2374-002",
         "-2373-002",
@@ -122,7 +91,7 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "The trend of administrative fragmentation in Dynasty VI is well-documented. Precise dating is uncertain by \u00b150\u2013100 years.",
+      "certainty_note": "The trend of administrative fragmentation in Dynasty VI is well-documented. Precise dating is uncertain by ±50–100 years.",
       "cross_references": [
         "-2374-003",
         "-2372-003",
@@ -131,14 +100,8 @@
     }
   ],
   "disconfirming_evidence": "The role of climate change in the Akkadian Empire's collapse is debated. Some scholars argue that climate stress was the primary trigger; others emphasize internal political fragmentation, military overextension, or external invasion as more important factors. Recent scholarship suggests the collapse was multifactorial, with climate change as one of several contributing causes rather than the sole cause. The dating of the climate event itself is uncertain; some evidence suggests it may have occurred slightly later (c. 2200 BCE) rather than at the beginning of Naram-Sin's reign.",
-  "historiographic_note": "Sources for this year are similar to previous years: inscriptions, administrative records, and archaeology. The historical record is dominated by elite perspectives from Mesopotamia and Egypt. Absolute chronology remains uncertain by \u00b150\u2013100 years depending on the chronological system used. Paleoclimate evidence provides additional perspective on environmental conditions. The Indus Valley Civilization's internal structures remain largely unknown due to the undeciphered script. The narrative of the Akkadian Empire's collapse is heavily influenced by later Mesopotamian texts that may have exaggerated the role of external enemies (the Gutians) and downplayed internal factors.",
+  "historiographic_note": "Sources for this year are similar to previous years: inscriptions, administrative records, and archaeology. The historical record is dominated by elite perspectives from Mesopotamia and Egypt. Absolute chronology remains uncertain by ±50–100 years depending on the chronological system used. Paleoclimate evidence provides additional perspective on environmental conditions. The Indus Valley Civilization's internal structures remain largely unknown due to the undeciphered script. The narrative of the Akkadian Empire's collapse is heavily influenced by later Mesopotamian texts that may have exaggerated the role of external enemies (the Gutians) and downplayed internal factors.",
   "graph_edges": [
-    {
-      "from": "-2370-001",
-      "to": "-2365-001",
-      "relation": "led_to",
-      "note": "The Akkadian Empire's maximum extent under Naram-Sin was followed by rapid collapse within a few decades."
-    },
     {
       "from": "-2370-002",
       "to": "-2365-001",

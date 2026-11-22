@@ -39,39 +39,10 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Pepi II's reign is traditionally dated to c. 2278\u20132184 BCE, but the exact year 2151 BCE is assigned by convention. The length and end date of his reign are debated among Egyptologists.",
+      "certainty_note": "Pepi II's reign is traditionally dated to c. 2278–2184 BCE, but the exact year 2151 BCE is assigned by convention. The length and end date of his reign are debated among Egyptologists.",
       "cross_references": [
         "Part of -2154-001 (Pepi II's reign)",
         "Precedes -2150-001 (First Intermediate Period)"
-      ]
-    },
-    {
-      "id": "-2151-002",
-      "title": "Akkadian Empire: final consolidation under Naram-Sin",
-      "region": "Mesopotamia, Levant, Anatolia",
-      "coordinates_approx": "33.3, 44.4",
-      "category": "military",
-      "description": "Naram-Sin is in the final phase of his reign (c. 2254\u20132218 BCE). The Akkadian Empire has reached its maximum territorial extent, controlling Mesopotamia, the Levant, and parts of Anatolia. However, the empire is increasingly fragile, with rebellions in peripheral regions and signs of internal strain. Naram-Sin's deification of himself (c. 2250 BCE) may reflect an attempt to consolidate power through religious authority as military and political control weakens.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian royal inscriptions",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Victory Stele of Naram-Sin",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's reign is well-attested in contemporary inscriptions. The year 2151 BCE is assigned by convention within his reign (c. 2254\u20132218 BCE).",
-      "cross_references": [
-        "Part of -2154-002 (Akkadian Empire)",
-        "Precedes -2200-001 (Akkadian collapse)"
       ]
     },
     {
@@ -95,7 +66,7 @@
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Indus Valley Civilization's existence and chronology are well-established through archaeology. The year 2151 BCE is assigned by convention within the mature phase (c. 2600\u20131900 BCE).",
+      "certainty_note": "The Indus Valley Civilization's existence and chronology are well-established through archaeology. The year 2151 BCE is assigned by convention within the mature phase (c. 2600–1900 BCE).",
       "cross_references": [
         "Part of -2154-003 (Indus Valley Civilization)"
       ]
@@ -109,12 +80,6 @@
       "to": "-2150-001",
       "relation": "led_to",
       "note": "Pepi II's death marks the transition to the First Intermediate Period"
-    },
-    {
-      "from": "-2151-002",
-      "to": "-2200-001",
-      "relation": "precedes",
-      "note": "Naram-Sin's reign ends within ~30 years; Akkadian collapse follows"
     }
   ]
 }

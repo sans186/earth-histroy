@@ -1,7 +1,7 @@
 {
   "year": -2806,
   "year_label": "公元前2806年",
-  "era_context": "早期青铜时代III阶段，纳拉姆辛统治中期。阿卡德帝国继续统治美索不达米亚，但潜在压力变得愈加明显。埃及古王国处于最后几十年。印度河流域文明处于成熟期。这一时期代表阿卡德帝国稳定在系统性崩溃前的最后年头。",
+  "era_context": "",
   "documentation_level": "稀少",
   "geographic_coverage_gaps": [
     "撒哈拉以南非洲",
@@ -11,34 +11,6 @@
     "大洋洲"
   ],
   "events": [
-    {
-      "id": "-2806-001",
-      "title": "阿卡德帝国面临内部与外部压力",
-      "region": "美索不达米亚",
-      "coordinates_approx": "33.0, 44.0",
-      "category": "political",
-      "description": "尽管纳拉姆辛军事成功和行政改革，阿卡德帝国面临日益增加的压力。附属国变得不安，维持帝国的资源需求正使经济紧张。考古证据表明，由于环境压力（可能是干旱），农业产出可能一直在下降。这些压力将在一代内导致帝国崩溃，但在此时点，阿卡德权力似乎仍占主导地位。",
-      "key_figures": [
-        "纳拉姆辛（阿卡德国王）"
-      ],
-      "sources": [
-        {
-          "name": "阿卡德皇家铭文和行政文书",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "聚落模式和资源利用的考古证据",
-          "type": "archaeological",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "阿卡德帝国面临的压力是从考古证据和帝国崩溃的历史记录推断出的。这些压力的精确时间不确定。",
-      "cross_references": [
-        "与-2800-AKKADIAN_COLLAPSE相关"
-      ]
-    },
     {
       "id": "-2806-002",
       "title": "埃及古王国走向终结",

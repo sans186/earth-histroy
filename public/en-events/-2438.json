@@ -34,41 +34,11 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Pepi II's reign is traditionally dated c. 2278\u20132184 BCE. Specific events within his reign cannot be precisely dated to individual years.",
+      "certainty_note": "Pepi II's reign is traditionally dated c. 2278–2184 BCE. Specific events within his reign cannot be precisely dated to individual years.",
       "cross_references": [
         "-2435-001",
         "-2436-001",
         "-2437-001"
-      ]
-    },
-    {
-      "id": "-2438-002",
-      "title": "Naram-Sin's reign; consolidation of Akkadian power",
-      "region": "Mesopotamia, Levant, Anatolia",
-      "coordinates_approx": "34.0, 43.0",
-      "category": "political",
-      "description": "Naram-Sin continues to consolidate Akkadian power and maintain control over conquered territories. Inscriptions record his deification and the establishment of a cult of the king. The Akkadian language and administrative practices are spreading throughout Mesopotamia and the Levant. However, the empire is facing increasing pressure from external enemies (particularly the Gutians from the Zagros Mountains) and internal instability.",
-      "key_figures": [
-        "Naram-Sin, King of Akkad"
-      ],
-      "sources": [
-        {
-          "name": "Royal inscriptions and stele",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Cuneiform administrative records",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's reign is well-attested in contemporary inscriptions. Absolute dating is based on king list synchronisms and radiocarbon calibration.",
-      "cross_references": [
-        "-2435-002",
-        "-2436-002",
-        "-2437-002"
       ]
     }
   ],
@@ -80,12 +50,6 @@
       "to": "-2430-001",
       "relation": "led_to",
       "note": "Pepi II's reign will end within a decade, leading to the collapse of the Old Kingdom and the First Intermediate Period."
-    },
-    {
-      "from": "-2438-002",
-      "to": "-2430-002",
-      "relation": "led_to",
-      "note": "Naram-Sin's empire will collapse within a decade due to internal instability and invasion by the Gutians."
     }
   ]
 }

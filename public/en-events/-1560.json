@@ -12,11 +12,11 @@
   "events": [
     {
       "id": "-1560-001",
-      "title": "Eruption of Thera (Santorini) \u2014 Minoan Eruption",
+      "title": "Eruption of Thera (Santorini) — Minoan Eruption",
       "region": "Aegean Sea, Crete, Eastern Mediterranean",
-      "coordinates_approx": "36.4\u00b0N, 25.4\u00b0E",
+      "coordinates_approx": "36.4°N, 25.4°E",
       "category": "environmental",
-      "description": "The catastrophic eruption of the Thera volcano (modern Santorini) in the Aegean Sea occurred during this period, though exact dating remains contested. The eruption was one of the largest in recorded history, with a Volcanic Explosivity Index (VEI) of 6\u20137. It devastated Minoan settlements on Crete and nearby islands, generated tsunamis, and ejected vast quantities of ash into the atmosphere, affecting climate and agriculture across the Eastern Mediterranean and beyond. The eruption is often linked to the decline of Minoan civilization, though the causal relationship is debated.",
+      "description": "The catastrophic eruption of the Thera volcano (modern Santorini) in the Aegean Sea occurred during this period, though exact dating remains contested. The eruption was one of the largest in recorded history, with a Volcanic Explosivity Index (VEI) of 6–7. It devastated Minoan settlements on Crete and nearby islands, generated tsunamis, and ejected vast quantities of ash into the atmosphere, affecting climate and agriculture across the Eastern Mediterranean and beyond. The eruption is often linked to the decline of Minoan civilization, though the causal relationship is debated.",
       "key_figures": [],
       "sources": [
         {
@@ -30,51 +30,16 @@
           "contemporary": false
         },
         {
-          "name": "Plato's account of Atlantis (Timaeus and Critias) \u2014 later source, possibly inspired by Thera",
+          "name": "Plato's account of Atlantis (Timaeus and Critias) — later source, possibly inspired by Thera",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Radiocarbon dating and ice-core evidence place the eruption between ~1650\u20131550 BCE, with most recent consensus clustering around 1600 BCE. Assignment to 1560 BCE is conventional; the true date may be 40\u2013100 years earlier. Stratigraphic evidence is strong, but absolute chronology for the Bronze Age Aegean remains contested.",
+      "certainty_note": "Radiocarbon dating and ice-core evidence place the eruption between ~1650–1550 BCE, with most recent consensus clustering around 1600 BCE. Assignment to 1560 BCE is conventional; the true date may be 40–100 years earlier. Stratigraphic evidence is strong, but absolute chronology for the Bronze Age Aegean remains contested.",
       "cross_references": [
         "Related to decline of Minoan civilization (mid-15th century BCE)",
         "Possible connection to Egyptian plague narratives (though dating is disputed)"
-      ]
-    },
-    {
-      "id": "-1560-002",
-      "title": "Reign of Amenhotep II \u2014 Egyptian military campaigns in the Levant",
-      "region": "Egypt, Levant, Syria",
-      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
-      "category": "military",
-      "description": "Amenhotep II (r. ~1427\u20131400 BCE in conventional chronology, though some scholars place him earlier) was consolidating Egyptian control over the Levantine territories conquered by his predecessors. He conducted military campaigns to suppress rebellions and maintain tribute from Canaanite and Syrian vassal states. His reign is documented in temple inscriptions and administrative records, and he is known for his martial prowess and chariot expertise. The exact dating of his reign remains debated among Egyptologists.",
-      "key_figures": [
-        "Amenhotep II (Pharaoh of Egypt)",
-        "Thutmose III (predecessor, though Amenhotep II may have been co-regent)"
-      ],
-      "sources": [
-        {
-          "name": "Temple inscriptions at Karnak and Luxor",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Administrative papyri and ostraca",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Historiographic consensus on New Kingdom chronology",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "Egyptian chronology for the 18th Dynasty is debated. Conventional dating places Amenhotep II's reign c. 1427\u20131400 BCE, but some scholars argue for dates 50\u2013100 years earlier or later. The assignment to 1560 BCE is speculative and may be significantly off.",
-      "cross_references": [
-        "Part of the broader New Kingdom expansion under the Thutmosids",
-        "Precedes the Amarna Period (c. 1353\u20131336 BCE)"
       ]
     }
   ],
@@ -86,12 +51,6 @@
       "to": "-1450-MINOAN_DECLINE",
       "relation": "led_to",
       "note": "The Thera eruption contributed to the decline of Minoan civilization, though the relationship is debated and the eruption may have occurred earlier than 1560 BCE"
-    },
-    {
-      "from": "-1560-002",
-      "to": "-1400-AMENHOTEP_II_REIGN",
-      "relation": "part_of",
-      "note": "Amenhotep II's military campaigns were part of the broader New Kingdom expansion; his reign may extend beyond 1560 BCE"
     }
   ]
 }

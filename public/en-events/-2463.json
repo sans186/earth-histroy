@@ -11,38 +11,12 @@
   ],
   "events": [
     {
-      "id": "-2463-001",
-      "title": "Naram-Sin's military campaigns and territorial consolidation",
-      "region": "Mesopotamia and the Levant (Akkad Empire)",
-      "coordinates_approx": "32.5, 44.5",
-      "category": "military",
-      "description": "During this period of his reign, Naram-Sin continues military campaigns to consolidate and expand Akkadian control. Inscriptions record campaigns against the Lullubi (mountain peoples of the Zagros), the Martu (Amorites), and other neighboring groups. These campaigns serve both to expand the empire's reach and to secure trade routes and resources. The Naram-Sin Stele, though not dated to a specific year, commemorates such military victories and his deification.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Naram-Sin royal inscriptions and the Victory Stele",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Administrative and military records from Akkadian archives",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's military campaigns are well-documented in inscriptions, but the specific year-by-year sequence is not preserved. This event is assigned to this year by convention within his reign (c. 2254\u20132218 BCE), with \u00b15\u201310 year uncertainty.",
-      "cross_references": []
-    },
-    {
       "id": "-2463-002",
       "title": "Egyptian Fifth Dynasty administrative continuity",
       "region": "Egypt",
       "coordinates_approx": "26.0, 31.0",
       "category": "political",
-      "description": "The Fifth Dynasty of Egypt (c. 2494\u20132345 BCE) continues its administrative and religious functions. This period is characterized by the construction of smaller pyramids and sun temples, the rise of the priesthood of Ra, and increasing decentralization of power to provincial governors (nomarchs). The king's authority, while still supreme, is gradually being challenged by the growing wealth and independence of the nobility and priesthood.",
+      "description": "The Fifth Dynasty of Egypt (c. 2494–2345 BCE) continues its administrative and religious functions. This period is characterized by the construction of smaller pyramids and sun temples, the rise of the priesthood of Ra, and increasing decentralization of power to provincial governors (nomarchs). The king's authority, while still supreme, is gradually being challenged by the growing wealth and independence of the nobility and priesthood.",
       "key_figures": [],
       "sources": [
         {
@@ -68,12 +42,5 @@
   ],
   "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the chronological uncertainty for Mesopotamia remains significant; different scholarly chronologies would place this year in different phases of Naram-Sin's reign or even in the reign of his predecessor or successor.",
   "historiographic_note": "The historical record for -2463 is dominated by Mesopotamian and Egyptian sources. Akkadian inscriptions provide the most detailed information, though they are propagandistic in nature and emphasize military victories and divine favor. Egyptian records are administrative and religious rather than narrative. The Indus Valley remains archaeologically visible but textually silent. No contemporary records exist for most of the world.",
-  "graph_edges": [
-    {
-      "from": "-2463-001",
-      "to": "-2464-001",
-      "relation": "contemporary_with",
-      "note": "Naram-Sin's campaigns continue from the previous year"
-    }
-  ]
+  "graph_edges": []
 }

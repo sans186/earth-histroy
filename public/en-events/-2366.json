@@ -11,34 +11,6 @@
   ],
   "events": [
     {
-      "id": "-2366-001",
-      "title": "Akkadian Empire at maximum territorial extent",
-      "region": "Akkadian Empire (Mesopotamia, Syria, Anatolia, Zagros)",
-      "coordinates_approx": "34.5, 43.0",
-      "category": "political",
-      "description": "Under Naram-Sin, the Akkadian Empire reaches its greatest territorial extent, controlling much of Mesopotamia, the Levant, and parts of Anatolia and the Zagros Mountains. The empire's administrative system relies on appointed governors and military garrisons. However, the costs of maintaining this vast territory and the resistance of conquered peoples are beginning to strain resources. Naram-Sin's self-deification and monumental inscriptions reflect the height of Akkadian power and ideology.",
-      "key_figures": [
-        "Naram-Sin (King of Akkad)"
-      ],
-      "sources": [
-        {
-          "name": "Akkadian royal inscriptions",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Administrative and military records",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Naram-Sin's reign and territorial expansion are well-documented in contemporary inscriptions. The specific year 2366 BCE is assigned within his reign (c. 2254\u20132218 BCE) by convention.",
-      "cross_references": [
-        "-2365-001"
-      ]
-    },
-    {
       "id": "-2366-002",
       "title": "Indus Valley trade networks active",
       "region": "Indus Valley and Persian Gulf trade routes",
@@ -67,12 +39,5 @@
   ],
   "disconfirming_evidence": "No specific disconfirming evidence for events in 2366 BCE. However, the extent and nature of Akkadian control over distant territories like Anatolia and the Zagros remain debated; some scholars argue that Naram-Sin's inscriptions exaggerate the degree of actual territorial control versus nominal suzerainty.",
   "historiographic_note": "The year 2366 BCE is not individually documented in any surviving source. The events described are inferred from broader era context and the known reign of Naram-Sin. Egyptian and Mesopotamian sources dominate; the Indus Valley is known only through archaeology. The historical record is heavily biased toward elite political and military activities.",
-  "graph_edges": [
-    {
-      "from": "-2366-001",
-      "to": "-2365-001",
-      "relation": "contemporary_with",
-      "note": "Naram-Sin's territorial consolidation continues across these years."
-    }
-  ]
+  "graph_edges": []
 }

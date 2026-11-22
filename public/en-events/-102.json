@@ -1,7 +1,7 @@
 {
   "year": -102,
   "year_label": "102 BCE",
-  "era_context": "The Roman Republic is in the aftermath of the Social War (91\u201388 BCE), which is ongoing or recently concluded. Gaius Marius remains a dominant military and political figure. The populares faction is gaining strength through agrarian agitation. In China, Emperor Wu of Han is consolidating power and expanding westward. The Hellenistic world is fragmenting; Egypt is unstable.",
+  "era_context": "The Roman Republic is in the aftermath of the Social War (91–88 BCE), which is ongoing or recently concluded. Gaius Marius remains a dominant military and political figure. The populares faction is gaining strength through agrarian agitation. In China, Emperor Wu of Han is consolidating power and expanding westward. The Hellenistic world is fragmenting; Egypt is unstable.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
@@ -24,7 +24,7 @@
       ],
       "sources": [
         {
-          "name": "Plutarch, Life of Marius, chapters 25\u201327",
+          "name": "Plutarch, Life of Marius, chapters 25–27",
           "type": "later_compilation",
           "contemporary": false
         },
@@ -52,7 +52,7 @@
       "region": "Han China",
       "coordinates_approx": "39.9, 116.4",
       "category": "political",
-      "description": "Emperor Wu of Han, in the early phase of his reign (141\u201387 BCE), is consolidating power and implementing administrative reforms. He is establishing the civil service examination system (though not yet fully formalized) and centralizing authority. His reign will be marked by military expansion, cultural flourishing, and the establishment of the Silk Road trade routes.",
+      "description": "Emperor Wu of Han, in the early phase of his reign (141–87 BCE), is consolidating power and implementing administrative reforms. He is establishing the civil service examination system (though not yet fully formalized) and centralizing authority. His reign will be marked by military expansion, cultural flourishing, and the establishment of the Silk Road trade routes.",
       "key_figures": [
         "Emperor Wu of Han (Han emperor)",
         "Court officials and advisors (unnamed)"
@@ -70,44 +70,14 @@
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Emperor Wu's reign and his consolidation of power are well-documented. The year 102 BCE falls within the early phase of his reign (141\u201387 BCE).",
+      "certainty_note": "Emperor Wu's reign and his consolidation of power are well-documented. The year 102 BCE falls within the early phase of his reign (141–87 BCE).",
       "cross_references": [
         "Contemporary with -102-001 (Marius' military victories)",
         "Leads to -101-003 (Han military campaigns)"
       ]
-    },
-    {
-      "id": "-102-003",
-      "title": "Ptolemy IX Soter II's continued reign in Egypt",
-      "region": "Ptolemaic Egypt",
-      "coordinates_approx": "30.0, 31.2",
-      "category": "political",
-      "description": "Ptolemy IX Soter II continues his reign in Egypt, marked by internal instability and conflict with his brother Ptolemy X. The Ptolemaic dynasty's power is declining; Egypt is becoming economically dependent on grain exports and politically dependent on Rome.",
-      "key_figures": [
-        "Ptolemy IX Soter II (Ptolemaic king)",
-        "Ptolemy X Alexander I (rival claimant)"
-      ],
-      "sources": [
-        {
-          "name": "Josephus, Against Apion and Antiquities of the Jews",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Papyri from Egypt",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Ptolemy IX's reign dates are well-established. The year 102 BCE falls within his reign (116\u2013107 BCE).",
-      "cross_references": [
-        "Contemporary with -102-001 (Marius' military victories)",
-        "Leads to -101-004 (Ptolemy IX's continued reign)"
-      ]
     }
   ],
-  "disconfirming_evidence": "The dating of the Battle of Vercellae is disputed. Some ancient sources place it in 101 BCE, others in 102 BCE. Modern scholars are divided; some place both Aquae Sextiae and Vercellae in 102 BCE, while others separate them by a year. The exact location of Vercellae is also debated\u2014some scholars place it near modern Vercelli in northern Italy, while others suggest alternative locations. The significance of the battle is sometimes overstated; while it was a decisive victory, the Cimbri threat had already been largely contained by earlier victories.",
+  "disconfirming_evidence": "The dating of the Battle of Vercellae is disputed. Some ancient sources place it in 101 BCE, others in 102 BCE. Modern scholars are divided; some place both Aquae Sextiae and Vercellae in 102 BCE, while others separate them by a year. The exact location of Vercellae is also debated—some scholars place it near modern Vercelli in northern Italy, while others suggest alternative locations. The significance of the battle is sometimes overstated; while it was a decisive victory, the Cimbri threat had already been largely contained by earlier victories.",
   "historiographic_note": "The year 102 BCE is moderately well-documented for Rome and China, but sources are primarily military and political in focus. For Rome, sources are all later compilations (Plutarch, Livy epitomes, Appian) written centuries after the events. The exact dating of the Cimbric Wars is uncertain due to conflicting ancient sources. For China, the Shiji and Han Shu provide general information about Emperor Wu's reign but not year-by-year detail. There is a significant gap in sources for the Mediterranean world outside Rome and Egypt, and for regions beyond the Mediterranean and China.",
   "graph_edges": [
     {

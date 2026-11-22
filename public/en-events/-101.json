@@ -1,7 +1,7 @@
 {
   "year": -101,
   "year_label": "101 BCE",
-  "era_context": "The Roman Republic is in the aftermath of the Social War (91\u201388 BCE), which has just concluded or is in its final stages. Gaius Marius, the military reformer, remains a dominant political figure. The populares faction, led by tribunes like Lucius Appuleius Saturninus, is pushing agrarian and land redistribution reforms. In China, Emperor Wu of Han is consolidating power and expanding westward. The Hellenistic world is fragmenting; Egypt under Ptolemy IX is unstable.",
+  "era_context": "The Roman Republic is in the aftermath of the Social War (91–88 BCE), which has just concluded or is in its final stages. Gaius Marius, the military reformer, remains a dominant political figure. The populares faction, led by tribunes like Lucius Appuleius Saturninus, is pushing agrarian and land redistribution reforms. In China, Emperor Wu of Han is consolidating power and expanding westward. The Hellenistic world is fragmenting; Egypt under Ptolemy IX is unstable.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
@@ -24,12 +24,12 @@
       ],
       "sources": [
         {
-          "name": "Plutarch, Life of Marius, chapters 28\u201329",
+          "name": "Plutarch, Life of Marius, chapters 28–29",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Appian, Civil Wars, Book I, 28\u201332",
+          "name": "Appian, Civil Wars, Book I, 28–32",
           "type": "later_compilation",
           "contemporary": false
         }
@@ -47,7 +47,7 @@
       "region": "Roman Republic",
       "coordinates_approx": "41.9, 12.5",
       "category": "political",
-      "description": "Gaius Marius, having defeated the Cimbri and Teutones in the late 2nd century BCE, remains the most powerful military figure in Rome. In 101 BCE, he is at the height of his influence, supporting populares causes and agrarian reforms. His military reforms\u2014recruiting from the landless poor, standardizing equipment, and creating a more professional army\u2014have transformed the Roman military but also created a new class of soldiers dependent on their general for land and rewards. This dynamic will contribute to the civil wars of the next decades.",
+      "description": "Gaius Marius, having defeated the Cimbri and Teutones in the late 2nd century BCE, remains the most powerful military figure in Rome. In 101 BCE, he is at the height of his influence, supporting populares causes and agrarian reforms. His military reforms—recruiting from the landless poor, standardizing equipment, and creating a more professional army—have transformed the Roman military but also created a new class of soldiers dependent on their general for land and rewards. This dynamic will contribute to the civil wars of the next decades.",
       "key_figures": [
         "Gaius Marius (military leader, consul)",
         "Lucius Appuleius Saturninus (tribune, ally)",
@@ -97,45 +97,14 @@
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Han military campaigns against the Xiongnu are well-documented, but the exact dates of individual campaigns are sometimes uncertain. 101 BCE falls within a period of sustained Han military activity (c. 110\u2013100 BCE).",
+      "certainty_note": "Han military campaigns against the Xiongnu are well-documented, but the exact dates of individual campaigns are sometimes uncertain. 101 BCE falls within a period of sustained Han military activity (c. 110–100 BCE).",
       "cross_references": [
         "Contemporary with -101-002 (Marius' military dominance in Rome)",
         "Leads to -100-003 (Zhang Qian's second mission)"
       ]
-    },
-    {
-      "id": "-101-004",
-      "title": "Ptolemy IX Soter II's reign in Egypt",
-      "region": "Ptolemaic Egypt",
-      "coordinates_approx": "30.0, 31.2",
-      "category": "political",
-      "description": "Ptolemy IX Soter II rules Egypt in this period (116\u2013107 BCE, with interruptions). His reign is marked by conflict with his brother Ptolemy X over the throne, internal instability, and increasing Roman interference in Egyptian affairs. The Ptolemaic dynasty's power is waning; Egypt is becoming economically dependent on grain exports and politically dependent on Rome.",
-      "key_figures": [
-        "Ptolemy IX Soter II (Ptolemaic king)",
-        "Ptolemy X Alexander I (rival claimant)",
-        "Roman Senate (external power broker)"
-      ],
-      "sources": [
-        {
-          "name": "Josephus, Against Apion and Antiquities of the Jews",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Papyri from Egypt",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Ptolemy IX's reign dates are well-established from Egyptian papyri. The year 101 BCE falls within his reign (116\u2013107 BCE).",
-      "cross_references": [
-        "Contemporary with -101-001 (Saturninus' tribunate in Rome)",
-        "Leads to -100-005 (Ptolemy X's rule)"
-      ]
     }
   ],
-  "disconfirming_evidence": "The dating of Saturninus' tribunate is debated; some sources place it in 103 BCE rather than 101 BCE. The extent of Marius' direct involvement in Saturninus' agitation is also disputed\u2014some scholars argue Marius was more cautious and less committed to radical reform than Saturninus. The significance of Han military campaigns in 101 BCE is difficult to assess; the Shiji and Han Shu do not always provide year-by-year detail, and modern scholars sometimes group campaigns across multiple years.",
+  "disconfirming_evidence": "The dating of Saturninus' tribunate is debated; some sources place it in 103 BCE rather than 101 BCE. The extent of Marius' direct involvement in Saturninus' agitation is also disputed—some scholars argue Marius was more cautious and less committed to radical reform than Saturninus. The significance of Han military campaigns in 101 BCE is difficult to assess; the Shiji and Han Shu do not always provide year-by-year detail, and modern scholars sometimes group campaigns across multiple years.",
   "historiographic_note": "The year 101 BCE is moderately well-documented for Rome and China, but sources are primarily political and military in focus. Economic and social history is sparse. For Rome, sources are all later compilations (Plutarch, Appian, Sallust) written centuries after the events. For China, the Shiji and Han Shu are more contemporary in compilation but still written after the events. There is a significant gap in sources for the Mediterranean world outside Rome and Egypt, and for regions beyond the Mediterranean and China.",
   "graph_edges": [
     {
