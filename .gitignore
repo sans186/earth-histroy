@@ -75,6 +75,11 @@ public/ne/*_backup.*
 .playwright-cli/
 .tmp-verify/
 .tmp-esbuild/
+# Scratch directories from builds, audit scripts and raw-data extraction. They
+# are regenerable and would otherwise show up as untracked noise after every run.
+.tmp-build/
+.tmp-head/
+.tmp-*.json
 dist.stale-*/
 public/_review/
 .dev-run.log
