@@ -90,7 +90,9 @@ describe('searchItems', () => {
   });
 
   it('groups hits in event / person / war / polity order', () => {
-    const kinds = groupHits(searchItems(INDEX, 'in')).map((group) => group.kind);
-    expect(kinds).toEqual(['event', 'person', 'polity']);
+    const hits = searchItems(INDEX, 'titanic wars qin');
+    expect(hits.some((hit) => hit.item.type === 'war')).toBe(true);
+    const kinds = groupHits(hits).map((group) => group.kind);
+    expect(kinds).toEqual(['event', 'person', 'war', 'polity']);
   });
 });

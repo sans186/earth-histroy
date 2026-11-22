@@ -10,7 +10,9 @@
  *     caller's *wait* never cancels the shared request — see data.ts);
  *   - retry with exponential backoff + jitter, only for failures that can
  *     plausibly recover (network, timeout, 408/429/5xx);
- *   - a global concurrency ceiling, so scrubbing the timeline cannot fan out;
+ *   - a global concurrency ceiling, so scrubbing the timeline cannot fan out,
+ *     with a bounded queue in front of it: a caller that stops waiting leaves
+ *     the line instead of taking a slot later;
  *   - a structured failure record, both exposed to the UI and kept in a bounded
  *     ring buffer for the diagnostics export;
  *   - no caching of failures. A retry always issues a real request.
@@ -108,25 +110,79 @@ export function diagnosticSnapshot(extra: Record<string, unknown> = {}) {
 
 /* ── concurrency ────────────────────────────────────────────────────────── */
 
-let running = 0;
-const waiting: Array<() => void> = [];
+/**
+ * How many callers may wait for a slot.
+ *
+ * Without a ceiling, a long scrub pushes every superseded year file into the
+ * queue and the window the reader is actually looking at waits behind all of
+ * them. Refusing the surplus costs one aborted refresh; serving it late costs
+ * the whole panel.
+ */
+const QUEUE_LIMIT = NETWORK.maxConcurrent * 3;
 
-function acquire(): Promise<void> {
+let running = 0;
+
+interface Waiter {
+  /** Take the slot this caller was queued for. */
+  grant: () => void;
+  /** Give up the place in line because the caller stopped waiting. */
+  cancel: () => void;
+}
+
+const waiting: Waiter[] = [];
+
+function abortReason(signal: AbortSignal): Error {
+  const reason = signal.reason;
+  if (reason instanceof Error) return reason;
+  const err = new Error('aborted');
+  err.name = 'AbortError';
+  return err;
+}
+
+function queueFullError(): Error {
+  const err = new Error(`request queue is full (${waiting.length} waiting, limit ${QUEUE_LIMIT})`);
+  err.name = 'QueueFullError';
+  return err;
+}
+
+/**
+ * Reserve one of the global slots.
+ *
+ * The signal cancels the *wait*, never the request: data.ts hands one in-flight
+ * promise to several callers, so aborting the fetch itself would reject it for
+ * every waiter. A caller that stops waiting must therefore leave the line
+ * here — it used to stay queued, get a slot from `release()`, and run a request
+ * nobody awaited, holding one of the eight slots to the end of its timeout.
+ */
+function acquire(signal?: AbortSignal): Promise<void> {
+  if (signal?.aborted) return Promise.reject(abortReason(signal));
   if (running < NETWORK.maxConcurrent) {
     running += 1;
     return Promise.resolve();
   }
-  return new Promise((resolve) => {
-    waiting.push(() => {
-      running += 1;
-      resolve();
-    });
+  if (waiting.length >= QUEUE_LIMIT) return Promise.reject(queueFullError());
+
+  return new Promise<void>((resolve, reject) => {
+    const waiter: Waiter = {
+      grant: () => {
+        signal?.removeEventListener('abort', waiter.cancel);
+        running += 1;
+        resolve();
+      },
+      cancel: () => {
+        const at = waiting.indexOf(waiter);
+        if (at !== -1) waiting.splice(at, 1);
+        reject(signal ? abortReason(signal) : new Error('aborted'));
+      },
+    };
+    signal?.addEventListener('abort', waiter.cancel, { once: true });
+    waiting.push(waiter);
   });
 }
 
 function release() {
   running = Math.max(0, running - 1);
-  waiting.shift()?.();
+  waiting.shift()?.grant();
 }
 
 /* ── request ────────────────────────────────────────────────────────────── */
@@ -160,21 +216,41 @@ function retryable(record: FailureRecord): boolean {
   return status === 408 || status === 429 || status >= 500;
 }
 
+/**
+ * Retry-After in either RFC 9110 form: delta seconds, or an HTTP-date.
+ *
+ * Only the numeric form used to be read, so a date-valued header was treated as
+ * "no hint" and the client retried on its own schedule — too early for the
+ * server that asked for a wait. Returns null when the header is absent or
+ * unparsable, so the caller falls back to exponential backoff.
+ */
+function retryAfterMs(value: string | null): number | null {
+  if (!value) return null;
+  const seconds = Number(value);
+  if (Number.isFinite(seconds)) return Math.max(0, seconds * 1000);
+  const at = Date.parse(value);
+  if (Number.isFinite(at)) return Math.max(0, at - Date.now());
+  return null;
+}
+
 /** Exponential backoff, capped, with ±30% jitter and Retry-After support. */
 function backoff(attempt: number, retryAfter: string | null): number {
-  const seconds = retryAfter ? Number(retryAfter) : Number.NaN;
-  const base = Number.isFinite(seconds)
-    ? seconds * 1000
-    : NETWORK.backoffBaseMs * 2 ** (attempt - 1);
+  const base = retryAfterMs(retryAfter) ?? NETWORK.backoffBaseMs * 2 ** (attempt - 1);
   const capped = Math.min(NETWORK.backoffMaxMs, Math.max(0, base));
   return Math.round(capped * (0.7 + Math.random() * 0.6));
 }
 
 const sleep = (ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms));
 
+function isAbortError(err: unknown): boolean {
+  return (err as Error | null | undefined)?.name === 'AbortError';
+}
+
 /**
- * Fetch and parse one JSON document. Throws `DataFetchError` on any failure;
- * never returns a half-loaded value and never swallows an exception.
+ * Fetch and parse one JSON document. Throws `DataFetchError` on any request
+ * failure; a queue that refuses the request throws that refusal unchanged,
+ * because nothing was attempted and no status or network condition applies.
+ * Never returns a half-loaded value and never swallows an exception.
  */
 export async function fetchJson<T>(url: string, options: RequestOptions = {}): Promise<T> {
   const timeoutMs = options.timeoutMs ?? NETWORK.timeoutMs;
@@ -182,15 +258,22 @@ export async function fetchJson<T>(url: string, options: RequestOptions = {}): P
   let last: FailureRecord | null = null;
 
   for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
-    await acquire();
+    /*
+     * The controller is created before the slot is reserved so the budget covers
+     * the queue as well. Otherwise a request waiting for a slot cannot time out,
+     * and the signal handed to `acquire` would never fire.
+     */
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), timeoutMs);
+    let acquired = false;
     let data: T | undefined;
     let record: FailureRecord | null = null;
     let retryAfter: string | null = null;
 
     try {
       try {
+        await acquire(controller.signal);
+        acquired = true;
         const res = await fetch(url, { signal: controller.signal });
         retryAfter = res.headers.get('retry-after');
         if (!res.ok) {
@@ -198,25 +281,56 @@ export async function fetchJson<T>(url: string, options: RequestOptions = {}): P
         } else {
           try {
             data = (await res.json()) as T;
-          } catch {
-            record = makeRecord(url, 'parse', res.status, attempt, 'invalid JSON');
+          } catch (err) {
+            /*
+             * Reading the body can abort after the headers arrived. That is the
+             * same timeout as a connection that never answered — reporting it as
+             * invalid JSON sent the reader looking for corrupt data.
+             */
+            if (controller.signal.aborted || isAbortError(err)) {
+              record = makeRecord(
+                url,
+                'timeout',
+                res.status,
+                attempt,
+                `timeout after ${timeoutMs} ms`,
+              );
+            } else {
+              record = makeRecord(url, 'parse', res.status, attempt, 'invalid JSON');
+            }
           }
         }
-      } catch {
-        const timedOut = controller.signal.aborted;
-        record = makeRecord(
-          url,
-          timedOut ? 'timeout' : 'network',
-          null,
-          attempt,
-          timedOut ? `timeout after ${timeoutMs} ms` : 'network unreachable',
-        );
+      } catch (err) {
+        const aborted = controller.signal.aborted || isAbortError(err);
+        if (!acquired) {
+          /*
+           * `acquire` refused the request before anything was sent: either the
+           * queue is full, where retrying would queue behind the same backlog,
+           * or the wait itself used up the attempt's budget.
+           */
+          if (!aborted) throw err;
+          record = makeRecord(
+            url,
+            'timeout',
+            null,
+            attempt,
+            `timeout after ${timeoutMs} ms waiting for a slot`,
+          );
+        } else {
+          record = makeRecord(
+            url,
+            aborted ? 'timeout' : 'network',
+            null,
+            attempt,
+            aborted ? `timeout after ${timeoutMs} ms` : 'network unreachable',
+          );
+        }
       }
     } finally {
       clearTimeout(timer);
       // Backoff happens outside the semaphore slot; a slow dependency must not
       // hold one of the eight slots hostage while it waits.
-      release();
+      if (acquired) release();
     }
 
     if (record === null && data !== undefined) {

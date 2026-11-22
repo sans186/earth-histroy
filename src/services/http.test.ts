@@ -114,6 +114,35 @@ describe('fetchJson', () => {
     expect(fetchMock).toHaveBeenCalledTimes(2);
   });
 
+  it('honours a date-valued Retry-After instead of falling back to backoff', async () => {
+    // 1.5 s ahead of the fake clock: further than the 350 ms exponential base,
+    // and short enough that the 4 s cap does not mask what was parsed.
+    vi.useFakeTimers({ now: new Date('2015-10-21T07:27:58.500Z') });
+    vi.spyOn(Math, 'random').mockReturnValue(0.5);
+
+    const fetchMock = vi
+      .fn()
+      .mockResolvedValueOnce(
+        jsonResponse(null, {
+          status: 429,
+          headers: { 'retry-after': 'Wed, 21 Oct 2015 07:28:00 GMT' },
+        }),
+      )
+      .mockResolvedValue(jsonResponse({ ok: true }));
+    vi.stubGlobal('fetch', fetchMock);
+
+    const pending = fetchJson<{ ok: boolean }>('/dated.json');
+    await vi.advanceTimersByTimeAsync(0);
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+
+    await vi.advanceTimersByTimeAsync(1_499);
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+
+    await vi.advanceTimersByTimeAsync(1);
+    await expect(pending).resolves.toEqual({ ok: true });
+    expect(fetchMock).toHaveBeenCalledTimes(2);
+  });
+
   it('aborts a hanging request at timeoutMs and reports kind=timeout', async () => {
     vi.useFakeTimers();
 
@@ -167,5 +196,45 @@ describe('fetchJson', () => {
 
     await expect(pending).resolves.toEqual({ data: { items: [] }, ok: false });
     expect(currentFailures()).toHaveLength(1);
+  });
+
+  it('refuses a request once the wait queue is full instead of queueing it', async () => {
+    vi.useFakeTimers();
+
+    // Every granted request hangs, so the slots stay taken and the queued
+    // callers never move: the queue is the only thing under test here.
+    const fetchMock = vi.fn(
+      (_url: string, init?: RequestInit) =>
+        new Promise<Response>((_resolve, reject) => {
+          init?.signal?.addEventListener('abort', () => {
+            reject(new DOMException('Aborted', 'AbortError'));
+          });
+        }),
+    );
+    vi.stubGlobal('fetch', fetchMock);
+
+    for (let i = 0; i < NETWORK.maxConcurrent; i += 1) {
+      void fetchJson(`/slot-${i}.json`, { retries: 0 }).catch(() => undefined);
+    }
+    await vi.advanceTimersByTimeAsync(0);
+    expect(fetchMock).toHaveBeenCalledTimes(NETWORK.maxConcurrent);
+
+    const queueLimit = NETWORK.maxConcurrent * 3;
+    for (let i = 0; i < queueLimit; i += 1) {
+      void fetchJson(`/queued-${i}.json`, { retries: 0 }).catch(() => undefined);
+    }
+    await vi.advanceTimersByTimeAsync(0);
+    // Full queue, but not past the limit: nothing is refused yet.
+    expect(fetchMock).toHaveBeenCalledTimes(NETWORK.maxConcurrent);
+
+    const overflow = await fetchJson('/overflow.json', { retries: 0 }).catch((error) => error);
+    expect(overflow).toBeInstanceOf(Error);
+    expect((overflow as Error).name).toBe('QueueFullError');
+    expect((overflow as Error).message).toContain('queue is full');
+    expect(fetchMock).toHaveBeenCalledTimes(NETWORK.maxConcurrent);
+
+    // Drain the fake clock so the abandoned waits release their slots and no
+    // later test inherits a saturated semaphore.
+    await vi.advanceTimersByTimeAsync(NETWORK.timeoutMs + 1);
   });
 });
