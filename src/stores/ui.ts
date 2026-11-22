@@ -14,8 +14,19 @@ function readStored<T extends string>(key: string, allowed: readonly T[], fallba
   }
 }
 
+const LOCALE_LANG: Record<Locale, string> = { zh: 'zh-CN', en: 'en' };
+
+/** Keep the document language in step with the interface language. */
+function applyDocumentLang(value: Locale) {
+  if (typeof document === 'undefined') return;
+  document.documentElement.lang = LOCALE_LANG[value];
+}
+
+const initialLocale = readStored<Locale>('earth.locale', ['zh', 'en'], 'zh');
+applyDocumentLang(initialLocale);
+
 export const useUiStore = defineStore('ui', () => {
-  const locale = ref<Locale>(readStored<Locale>('earth.locale', ['zh', 'en'], 'zh'));
+  const locale = ref<Locale>(initialLocale);
   const view = ref<ViewMode>('explore');
   const stage = ref<StageMode>('2d');
 
@@ -118,6 +129,7 @@ export const useUiStore = defineStore('ui', () => {
 
   function setLocale(next: Locale) {
     locale.value = next;
+    applyDocumentLang(next);
     try {
       localStorage.setItem('earth.locale', next);
     } catch {
