@@ -575,6 +575,11 @@ function flyToStage(at: { lon: number; lat: number }) {
   flyTo(at.lon, at.lat, 900_000);
 }
 
+/** Zoom to a capital opened from the polity card. */
+function onLocateCapital(at: { lon: number; lat: number }) {
+  flyTo(at.lon, at.lat, 900_000);
+}
+
 /**
  * Draw the open person's route.
  *
@@ -645,13 +650,13 @@ const refreshForYear = debounce(() => {
   refreshPolities3d();
 }, 140);
 
-watch(() => timeline.year, refreshForYear);
+watch(() => timeline.year, () => refreshForYear.run());
 
 watch(
   () => timeline.scrubbing,
   (scrubbing) => {
     if (scrubbing) return;
-    refreshForYear();
+    refreshForYear.run();
   },
 );
 
@@ -1038,6 +1043,8 @@ onBeforeUnmount(() => {
   window.removeEventListener('pointerdown', onGlobalPointerDown, true);
   mobileQuery?.removeEventListener('change', onMobileQueryChange);
   mobileQuery = null;
+  // A pending year refresh would still fire after the app is gone.
+  refreshForYear.cancel();
 });
 </script>
 
@@ -1100,6 +1107,7 @@ onBeforeUnmount(() => {
           :names="data.polityNames.value"
           @close="selectedPolity = null"
           @scope="onScopeToPolity"
+          @locate="onLocateCapital"
         />
 
         <WarCard
