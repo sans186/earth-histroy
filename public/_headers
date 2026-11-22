@@ -1,6 +1,26 @@
+# Cloudflare Pages header rules. Keep in sync with nginx-earth.conf: the site is
+# served from either surface, and a header that exists on only one of them is a
+# silent gap rather than a visible bug.
+#
+# No Content-Security-Policy yet: index.html ships an inline boot guard and
+# Cesium builds its workers from blob: URLs, so a strict script-src needs a nonce
+# threaded through the Vite build and that inline script. A wrong CSP blanks the
+# globe, which is worse than the header being absent.
+
 /*
   Cross-Origin-Opener-Policy: same-origin
+  Strict-Transport-Security: max-age=63072000
   X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# The entry HTML is not content-hashed. Caching it pins the old asset manifest,
+# and the hashed bundles it points at are replaced on the next deploy.
+/index.html
+  Cache-Control: no-cache
+
+/
+  Cache-Control: no-cache
 
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
@@ -8,6 +28,7 @@
 /cesium/*
   Cache-Control: public, max-age=2592000
 
+# Data files keep their names across deploys, so they get a week at most.
 /*.json
   ! Cache-Control
   Cache-Control: public, max-age=604800
