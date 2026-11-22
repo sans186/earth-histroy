@@ -85,6 +85,96 @@ export const STORY_COVERS: Record<string, StoryCover> = {
     introEn:
       'After Yalta, two blocs faced each other through nuclear arms, alliances and proxy wars for forty years, with the Berlin Wall as its symbol.',
   },
+  mesopotamia: {
+    intro: '两河之间的城邦用泥板记账、以石碑立律，乌鲁克、乌尔与巴比伦把城市、文字与王权连成一套制度。',
+    introEn:
+      'Between the Tigris and Euphrates, cities kept accounts on clay and carved law into stone; Uruk, Ur and Babylon bound writing, kingship and urban life into one order.',
+  },
+  'ancient-egypt': {
+    intro: '尼罗河的定期泛滥支撑起三千年的王朝，从吉萨的金字塔到亚历山大港，法老、书吏与神庙维系着河谷的秩序。',
+    introEn:
+      'The annual flood of the Nile sustained three thousand years of dynasties, from the pyramids at Giza to Alexandria, held together by pharaohs, scribes and temples.',
+  },
+  'persian-empire': {
+    intro: '居鲁士与大流士以行省、御道和驿传治理横跨三洲的帝国，波斯波利斯的浮雕记录着各地使团送来的贡赋。',
+    introEn:
+      'Cyrus and Darius governed three continents through satrapies, royal roads and relay stations, while the reliefs of Persepolis show delegations bringing tribute.',
+  },
+  rome: {
+    intro: '从驱逐国王的共和国到图拉真时代的极盛版图，军团、道路与法律把一个台伯河城邦变成地中海的主宰。',
+    introEn:
+      'From a republic that expelled its kings to the widest frontiers under Trajan, legions, roads and law turned a Tiber town into the master of the Mediterranean.',
+  },
+  'india-classical': {
+    intro: '孔雀王朝的阿育王以石柱敕令传播法度，笈多时期的城市与寺院则推动了天文、数学与梵语文学的兴盛。',
+    introEn:
+      'Ashoka of the Mauryas spread his edicts on stone pillars, and under the Guptas cities and monasteries fostered astronomy, mathematics and Sanskrit literature.',
+  },
+  'buddhist-path': {
+    intro: '从鹿野苑的初转法轮到奈良大佛开眼，佛教沿商路与译经网络东传，落在绿洲、雪域与海岛上。',
+    introEn:
+      'From the first sermon at Sarnath to the eye-opening of the Nara Buddha, Buddhism travelled east along trade routes and translation networks into oases, highlands and islands.',
+  },
+  byzantium: {
+    intro: '君士坦丁堡扼守博斯普鲁斯海峡一千年，历经围攻、拉丁占领与最终陷落，始终自称罗马。',
+    introEn:
+      'For a thousand years Constantinople held the Bosphorus through sieges, Latin occupation and final conquest, always calling itself Rome.',
+  },
+  'viking-age': {
+    intro: '长船自北欧峡湾驶出，劫掠修道院也做生意，从约克到基辅，最后把营地扎在纽芬兰海岸。',
+    introEn:
+      'Longships left the Nordic fjords to raid monasteries and trade, reaching from York to Kyiv and finally setting a camp on the Newfoundland coast.',
+  },
+  'islamic-golden-age': {
+    intro: '大马士革与巴格达的译场把希腊、波斯和印度的典籍译成阿拉伯语，科尔多瓦与开罗的学者再把知识向西传。',
+    introEn:
+      'Translators in Damascus and Baghdad rendered Greek, Persian and Indian texts into Arabic, and scholars in Cordoba and Cairo carried that learning west.',
+  },
+  'black-death': {
+    intro: '1340 年代，商船把鼠疫从黑海带到地中海，君士坦丁堡、威尼斯与伦敦相继暴发，欧亚人口在数年内锐减。',
+    introEn:
+      'In the 1340s merchant ships carried plague from the Black Sea into the Mediterranean; Constantinople, Venice and London were struck in turn, and Eurasian populations fell within a few years.',
+  },
+  'ottoman-rise': {
+    intro: '从布尔萨的边陲公国到维也纳城下，奥斯曼以火炮、行省与迁都，把三洲之间的旧秩序重新组织起来。',
+    introEn:
+      'From a frontier principality at Bursa to the walls of Vienna, the Ottomans reorganised the old order between three continents with artillery, provinces and a new capital.',
+  },
+  'indian-ocean': {
+    intro: '季风按季节改向，商船便在亚丁、摩加迪沙、卡利卡特与马六甲之间往返，瓷器、布匹与香料随季节流动。',
+    introEn:
+      'Monsoon winds reversed with the seasons, and ships moved between Aden, Mogadishu, Calicut and Malacca, carrying porcelain, cloth and spices on a seasonal rhythm.',
+  },
+  reformation: {
+    intro: '一份关于赎罪券的论纲被印坊翻印，几十年间裂开了拉丁基督教世界，也把欧洲拖入宗教战争。',
+    introEn:
+      'A set of theses on indulgences was reprinted by the presses, and within decades it split Latin Christendom and drew Europe into wars of religion.',
+  },
+  napoleon: {
+    intro: '从雾月政变到滑铁卢，拿破仑的军队把欧洲各国拖进全面战争，也让法典与行政改革随军旗扩散。',
+    introEn:
+      'From the coup of Brumaire to Waterloo, Napoleon drew Europe into total war, and his legal code and administrative reforms travelled with the armies.',
+  },
+  'latin-america': {
+    intro: '玻利瓦尔自北方、圣马丁自南方推进，西属美洲在十五年内相继独立，随后又各自寻找新的政治秩序。',
+    introEn:
+      'Bolívar advanced from the north and San Martín from the south; Spanish America won independence within fifteen years, then each new state searched for its own political order.',
+  },
+  meiji: {
+    intro: '黑船叩开浦贺之后，日本废藩置县、修铁路、办学校，用一代人的时间把旧藩体制换成近代国家。',
+    introEn:
+      'After the black ships arrived at Uraga, Japan abolished the domains, built railways and opened schools, replacing the old order with a modern state within a generation.',
+  },
+  'scramble-africa': {
+    intro: '柏林会议之后的三十年，欧洲列强用条约、远征与特许公司在地图上瓜分非洲，只留下少数独立国家。',
+    introEn:
+      'In the thirty years after the Berlin Conference, European powers divided Africa through treaties, expeditions and chartered companies, leaving only a few states independent.',
+  },
+  decolonization: {
+    intro: '二战之后三十余年，从德里到阿克拉再到马普托，亚非殖民地相继独立，重画了世界政治地图。',
+    introEn:
+      'In the three decades after the Second World War, from Delhi to Accra to Maputo, Asian and African colonies became independent and redrew the political map.',
+  },
 };
 
 export function coverFor(storyId: string): StoryCover | undefined {

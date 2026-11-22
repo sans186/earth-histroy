@@ -1,5 +1,8 @@
 import type { Story } from '@/types/story';
 import { PLACES } from '@/data/storyPlaces';
+import { ANCIENT_STORIES } from '@/data/stories.ancient';
+import { MEDIEVAL_STORIES } from '@/data/stories.medieval';
+import { MODERN_STORIES } from '@/data/stories.modern';
 
 /**
  * Guided stories. Coordinates are real city centres; durations are in
@@ -1694,6 +1697,9 @@ export const STORIES: Story[] = [
       },
     ],
   },
+  ...ANCIENT_STORIES,
+  ...MEDIEVAL_STORIES,
+  ...MODERN_STORIES,
 ];
 
 /**

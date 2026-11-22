@@ -4,7 +4,7 @@
  * 3:2 cover plate on the left and a short introduction on the right. Covers
  * live in src/assets/stories and fall back to a typographic plate when absent.
  */
-import { onBeforeUnmount, onMounted, reactive } from 'vue';
+import { computed, onBeforeUnmount, onMounted, reactive } from 'vue';
 import type { Story } from '@/types/story';
 import { useUiStore } from '@/stores/ui';
 import { coverFor } from '@/data/storyCovers';
@@ -15,6 +15,15 @@ const emit = defineEmits<{ select: [Story]; close: [] }>();
 
 const ui = useUiStore();
 const broken = reactive(new Set<string>());
+
+/** Oldest first, so the index reads like a chronological shelf. */
+const sortedStories = computed(() =>
+  [...props.stories].sort((a, b) => earliest(a) - earliest(b)),
+);
+
+function earliest(story: Story) {
+  return story.steps.length ? Math.min(...story.steps.map((step) => step.year)) : Infinity;
+}
 
 const coverFiles = import.meta.glob<string>('../assets/stories/*.jpg', {
   eager: true,
@@ -79,7 +88,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown));
       </header>
 
       <ol class="list">
-        <li v-for="(story, index) in props.stories" :key="story.id">
+        <li v-for="(story, index) in sortedStories" :key="story.id">
           <button class="row" @click="emit('select', story)">
             <span class="frame">
               <img
